@@ -1,12 +1,23 @@
 import Link from 'next/link';
 import { getAllGrants } from '@/lib/grants';
-import { CATEGORY_LABELS } from '@/lib/types';
+import { CATEGORY_LABELS, GrantCategory } from '@/lib/types';
 import GrantCard from '@/components/GrantCard';
 import Sidebar from '@/components/Sidebar';
 import AdBanner from '@/components/AdBanner';
 import GrantListClient from '@/components/GrantListClient';
 
-const categories = Object.entries(CATEGORY_LABELS);
+const CATEGORY_IMAGES: Record<GrantCategory, string> = {
+  childcare: '/images/categories/childcare.png',
+  housing: '/images/categories/housing.png',
+  medical: '/images/categories/medical.png',
+  education: '/images/categories/education.png',
+  employment: '/images/categories/employment.png',
+  nursing: '/images/categories/nursing.png',
+  living: '/images/categories/living.png',
+  disaster: '/images/categories/disaster.png',
+};
+
+const categories = Object.entries(CATEGORY_LABELS) as [GrantCategory, string][];
 
 export default function HomePage() {
   const allGrants = getAllGrants();
@@ -36,15 +47,16 @@ export default function HomePage() {
       </section>
 
       {/* Category Navigation */}
-      <section className="bg-white border-b border-gray-200 py-3">
+      <section className="bg-white border-b border-gray-200 py-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <div className="flex flex-wrap gap-1.5">
+          <div className="flex flex-wrap gap-2">
             {categories.map(([key, label]) => (
               <Link
                 key={key}
                 href={`/category/${key}/`}
-                className="text-xs font-medium px-3 py-1.5 rounded bg-gray-100 text-gray-600 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+                className="flex items-center gap-1.5 text-xs font-medium px-3 py-2 rounded bg-gray-50 text-gray-600 hover:bg-blue-50 hover:text-blue-700 border border-gray-200 transition-colors"
               >
+                <img src={CATEGORY_IMAGES[key]} alt="" className="w-5 h-5 object-contain" />
                 {label}
               </Link>
             ))}

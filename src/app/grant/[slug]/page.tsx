@@ -2,7 +2,18 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getAllSlugs, getGrantBySlug, getRelatedGrants } from '@/lib/grants';
-import { CATEGORY_LABELS, TYPE_LABELS } from '@/lib/types';
+import { CATEGORY_LABELS, TYPE_LABELS, GrantCategory } from '@/lib/types';
+
+const CATEGORY_IMAGES: Record<GrantCategory, string> = {
+  childcare: '/images/categories/childcare.png',
+  housing: '/images/categories/housing.png',
+  medical: '/images/categories/medical.png',
+  education: '/images/categories/education.png',
+  employment: '/images/categories/employment.png',
+  nursing: '/images/categories/nursing.png',
+  living: '/images/categories/living.png',
+  disaster: '/images/categories/disaster.png',
+};
 import { GrantJsonLd, BreadcrumbJsonLd, FaqJsonLd } from '@/components/JsonLd';
 import GrantCard from '@/components/GrantCard';
 import Sidebar from '@/components/Sidebar';
@@ -71,26 +82,40 @@ export default async function GrantDetailPage({ params }: Props) {
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-8">
           <article>
             <div className="bg-white border border-gray-200 rounded-lg p-5 sm:p-6 mb-5">
-              <div className="flex flex-wrap gap-1.5 mb-3">
-                <span className="text-[11px] font-semibold px-2 py-0.5 rounded bg-blue-700 text-white">
-                  {TYPE_LABELS[grant.type]}
-                </span>
-                <span className="text-[11px] font-medium px-2 py-0.5 rounded bg-gray-100 text-gray-600">
-                  {CATEGORY_LABELS[grant.category]}
-                </span>
-                {grant.prefecture !== '全国' && (
-                  <span className="text-[11px] font-medium px-2 py-0.5 rounded bg-gray-100 text-gray-500">
-                    {grant.prefecture}
-                  </span>
-                )}
+              <div className="flex items-start gap-4">
+                <img
+                  src={CATEGORY_IMAGES[grant.category]}
+                  alt={CATEGORY_LABELS[grant.category]}
+                  className="w-20 h-20 object-contain flex-shrink-0 hidden sm:block"
+                />
+                <div className="flex-1">
+                  <div className="flex flex-wrap gap-1.5 mb-3">
+                    <span className="text-[11px] font-semibold px-2 py-0.5 rounded bg-blue-700 text-white">
+                      {TYPE_LABELS[grant.type]}
+                    </span>
+                    <span className="text-[11px] font-medium px-2 py-0.5 rounded bg-gray-100 text-gray-600">
+                      {CATEGORY_LABELS[grant.category]}
+                    </span>
+                    {grant.prefecture !== '全国' && (
+                      <span className="text-[11px] font-medium px-2 py-0.5 rounded bg-gray-100 text-gray-500">
+                        {grant.prefecture}
+                      </span>
+                    )}
+                  </div>
+
+                  <h1 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 leading-snug">
+                    {grant.title}
+                  </h1>
+
+                  <div className="amount-badge text-lg sm:text-xl mb-3">
+                    {grant.maxAmount}
+                  </div>
+                </div>
               </div>
 
-              <h1 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 leading-snug">
-                {grant.title}
-              </h1>
-
-              <div className="amount-badge text-lg sm:text-xl mb-3">
-                {grant.maxAmount}
+              <div className="target-label">
+                <span className="target-label-icon">&#10003;</span>
+                <span>{grant.eligibility}</span>
               </div>
 
               <p className="text-sm text-gray-600 mb-5">{grant.description}</p>
