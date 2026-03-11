@@ -39,6 +39,18 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* 関連サイト */}
+        <div className="border-t border-gray-700 mt-8 pt-6">
+          <h3 className="text-white font-semibold mb-2 text-sm">関連サイト</h3>
+          <div className="flex flex-wrap gap-x-4 gap-y-1.5 mb-6">
+            <a href="https://manga-matome-site.vercel.app" target="_blank" rel="noopener" className="text-sm text-gray-400 hover:text-white transition-colors">マンガ考察ラボ</a>
+            <a href="https://anime-review-site.vercel.app" target="_blank" rel="noopener" className="text-sm text-gray-400 hover:text-white transition-colors">Anime Review Lab</a>
+            <a href="https://ai-tools-site-dusky.vercel.app" target="_blank" rel="noopener" className="text-sm text-gray-400 hover:text-white transition-colors">AIツールラボ</a>
+            <a href="https://vod-navi-site.vercel.app" target="_blank" rel="noopener" className="text-sm text-gray-400 hover:text-white transition-colors">動画配信ナビ</a>
+            <a href="https://fukusen-lab.vercel.app" target="_blank" rel="noopener" className="text-sm text-gray-400 hover:text-white transition-colors">伏線回収ラボ</a>
+          </div>
+        </div>
+
         <div className="border-t border-gray-700 mt-8 pt-6 text-xs text-gray-500">
           <p>&copy; {new Date().getFullYear()} 助成金ナビ</p>
           <p className="mt-1">※当サイトの情報は一般的な情報提供を目的としており、個別の申請に関する助言ではありません。最新情報は各公式サイトをご確認ください。</p>
