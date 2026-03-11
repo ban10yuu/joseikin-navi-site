@@ -7,12 +7,20 @@ import { localGrantsBatch1 } from '@/data/grants/local-batch1';
 import { localGrantsBatch2 } from '@/data/grants/local-batch2';
 import { ngoGrants } from '@/data/grants/ngo';
 import { ngoGrantsNew } from '@/data/grants/ngo-new';
+import { cityGrantsBatch1 } from '@/data/grants/city-batch1';
+import { cityGrantsBatch2 } from '@/data/grants/city-batch2';
+import { cityGrantsBatch3 } from '@/data/grants/city-batch3';
+import { cityGrantsBatch4 } from '@/data/grants/city-batch4';
+import { cityGrantsBatch5 } from '@/data/grants/city-batch5';
+import { cityGrantsBatch6 } from '@/data/grants/city-batch6';
 
 // ── All grants (全件公開) ──
 const allGrants: Grant[] = [
   ...nationalGrants, ...nationalGrantsNew, ...nationalGrantsNew2,
   ...localGrants, ...localGrantsBatch1, ...localGrantsBatch2,
   ...ngoGrants, ...ngoGrantsNew,
+  ...cityGrantsBatch1, ...cityGrantsBatch2, ...cityGrantsBatch3,
+  ...cityGrantsBatch4, ...cityGrantsBatch5, ...cityGrantsBatch6,
 ];
 
 const publishedGrants = allGrants
