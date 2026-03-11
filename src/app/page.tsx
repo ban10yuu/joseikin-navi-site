@@ -4,6 +4,7 @@ import { CATEGORY_LABELS, GrantCategory } from '@/lib/types';
 import GrantCard from '@/components/GrantCard';
 import Sidebar from '@/components/Sidebar';
 import AdBanner from '@/components/AdBanner';
+import GoogleAd from '@/components/GoogleAd';
 import GrantListClient from '@/components/GrantListClient';
 
 const CATEGORY_IMAGES: Record<GrantCategory, string> = {
@@ -45,6 +46,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <GoogleAd format="horizontal" className="max-w-7xl mx-auto px-4 sm:px-6" />
 
       {/* Category Navigation */}
       <section className="bg-white border-b border-gray-200 py-4">
