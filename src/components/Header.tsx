@@ -80,6 +80,12 @@ export default function Header() {
                 </div>
               )}
             </div>
+            <Link href="/grants/" className="px-3 py-2 text-sm text-gray-600 hover:text-blue-700 hover:bg-gray-50 rounded transition-colors">
+              一覧
+            </Link>
+            <Link href="/guide/" className="px-3 py-2 text-sm text-gray-600 hover:text-blue-700 hover:bg-gray-50 rounded transition-colors">
+              申請ガイド
+            </Link>
             <Link href="/subscribe/" className="px-3 py-2 text-sm text-gray-600 hover:text-blue-700 hover:bg-gray-50 rounded transition-colors">
               メール登録
             </Link>
@@ -129,7 +135,16 @@ export default function Header() {
                 </div>
               </div>
             ))}
-            <Link href="/subscribe/" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 rounded mt-1">
+            <Link href="/grants/" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 rounded mt-2">
+              助成金一覧
+            </Link>
+            <Link href="/guide/" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 rounded">
+              申請ガイド
+            </Link>
+            <Link href="/faq/" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 rounded">
+              よくある質問
+            </Link>
+            <Link href="/subscribe/" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 rounded">
               メール登録
             </Link>
           </div>

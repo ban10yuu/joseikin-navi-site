@@ -1,21 +1,21 @@
 import { Grant, GrantCategory, GrantType } from '@/lib/types';
 import { nationalGrants } from '@/data/grants/national';
 import { nationalGrantsNew } from '@/data/grants/national-new';
+import { nationalGrantsNew2 } from '@/data/grants/national-new2';
 import { localGrants } from '@/data/grants/local';
 import { localGrantsBatch1 } from '@/data/grants/local-batch1';
 import { localGrantsBatch2 } from '@/data/grants/local-batch2';
 import { ngoGrants } from '@/data/grants/ngo';
+import { ngoGrantsNew } from '@/data/grants/ngo-new';
 
-// ── All grants (date-filtered) ──
+// ── All grants (全件公開) ──
 const allGrants: Grant[] = [
-  ...nationalGrants, ...nationalGrantsNew,
+  ...nationalGrants, ...nationalGrantsNew, ...nationalGrantsNew2,
   ...localGrants, ...localGrantsBatch1, ...localGrantsBatch2,
-  ...ngoGrants,
+  ...ngoGrants, ...ngoGrantsNew,
 ];
 
-const BUILD_DATE = new Date().toISOString().slice(0, 10);
 const publishedGrants = allGrants
-  .filter((g) => g.publishedAt <= BUILD_DATE)
   .sort((a, b) => b.maxAmountNum - a.maxAmountNum);
 
 // ── All grants (unfiltered, for sitemap) ──

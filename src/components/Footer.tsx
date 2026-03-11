@@ -42,6 +42,9 @@ export default function Footer() {
             </ul>
             <h3 className="text-white font-semibold mb-2 mt-4 text-sm">サイト情報</h3>
             <ul className="space-y-1">
+              <li><Link href="/grants/" className="text-sm hover:text-white transition-colors">助成金一覧</Link></li>
+              <li><Link href="/guide/" className="text-sm hover:text-white transition-colors">申請ガイド</Link></li>
+              <li><Link href="/faq/" className="text-sm hover:text-white transition-colors">よくある質問</Link></li>
               <li><Link href="/subscribe/" className="text-sm hover:text-white transition-colors">メール登録</Link></li>
               <li><Link href="/privacy/" className="text-sm hover:text-white transition-colors">プライバシーポリシー</Link></li>
               <li><Link href="/contact/" className="text-sm hover:text-white transition-colors">お問い合わせ</Link></li>
