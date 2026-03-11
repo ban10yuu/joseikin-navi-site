@@ -510,7 +510,7 @@ export const nationalGrantsNew2: Grant[] = [
   // education（教育・資格）— 1件
   // ════════════════════════════════════════
   {
-    slug: 'shokugyou-kunren-ukekou-kyuufukin',
+    slug: 'shokugyou-kunren-ukekou-kyuufukin-kyuushokusha',
     title: '職業訓練受講給付金',
     organization: '厚生労働省',
     type: 'national',
