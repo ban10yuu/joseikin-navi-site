@@ -1,10 +1,17 @@
 import { Grant, GrantCategory, GrantType } from '@/lib/types';
 import { nationalGrants } from '@/data/grants/national';
+import { nationalGrantsNew } from '@/data/grants/national-new';
 import { localGrants } from '@/data/grants/local';
+import { localGrantsBatch1 } from '@/data/grants/local-batch1';
+import { localGrantsBatch2 } from '@/data/grants/local-batch2';
 import { ngoGrants } from '@/data/grants/ngo';
 
 // ── All grants (date-filtered) ──
-const allGrants: Grant[] = [...nationalGrants, ...localGrants, ...ngoGrants];
+const allGrants: Grant[] = [
+  ...nationalGrants, ...nationalGrantsNew,
+  ...localGrants, ...localGrantsBatch1, ...localGrantsBatch2,
+  ...ngoGrants,
+];
 
 const BUILD_DATE = new Date().toISOString().slice(0, 10);
 const publishedGrants = allGrants

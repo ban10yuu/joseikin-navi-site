@@ -30,7 +30,17 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-white font-semibold mb-2 text-sm">サイト情報</h3>
+            <h3 className="text-white font-semibold mb-2 text-sm">主要地域</h3>
+            <ul className="space-y-1">
+              {['北海道', '東京都', '神奈川県', '愛知県', '大阪府', '京都府', '兵庫県', '福岡県', '沖縄県'].map((pref) => (
+                <li key={pref}>
+                  <Link href={`/prefecture/${encodeURIComponent(pref)}/`} className="text-sm hover:text-white transition-colors">
+                    {pref}の助成金
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <h3 className="text-white font-semibold mb-2 mt-4 text-sm">サイト情報</h3>
             <ul className="space-y-1">
               <li><Link href="/subscribe/" className="text-sm hover:text-white transition-colors">メール登録</Link></li>
               <li><Link href="/privacy/" className="text-sm hover:text-white transition-colors">プライバシーポリシー</Link></li>

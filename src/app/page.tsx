@@ -6,6 +6,7 @@ import Sidebar from '@/components/Sidebar';
 import AdBanner from '@/components/AdBanner';
 import GoogleAd from '@/components/GoogleAd';
 import GrantListClient from '@/components/GrantListClient';
+import GrantFinderQuiz from '@/components/GrantFinderQuiz';
 
 const CATEGORY_IMAGES: Record<GrantCategory, string> = {
   childcare: '/images/categories/childcare.png',
@@ -44,6 +45,13 @@ export default function HomePage() {
               無料メール登録
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Grant Finder Quiz */}
+      <section className="py-8 px-4 sm:px-6 -mt-6 relative z-10">
+        <div className="max-w-4xl mx-auto">
+          <GrantFinderQuiz />
         </div>
       </section>
 

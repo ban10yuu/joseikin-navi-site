@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 import { getAllGrantsUnfiltered, getAllTags, tagToSlug } from '@/lib/grants';
-import { CATEGORY_LABELS } from '@/lib/types';
+import { CATEGORY_LABELS, PREFECTURES } from '@/lib/types';
 
 export const dynamic = 'force-static';
 
@@ -22,6 +22,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  const prefecturePages: MetadataRoute.Sitemap = PREFECTURES
+    .filter((p) => p !== '全国')
+    .map((pref) => ({
+      url: `${baseUrl}/prefecture/${encodeURIComponent(pref)}/`,
+      lastModified: now,
+      changeFrequency: 'weekly' as const,
+      priority: 0.8,
+    }));
+
   const grantPages: MetadataRoute.Sitemap = getAllGrantsUnfiltered().map((grant) => ({
     url: `${baseUrl}/grant/${grant.slug}/`,
     lastModified: grant.publishedAt,
@@ -36,5 +45,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }));
 
-  return [...staticPages, ...categoryPages, ...grantPages, ...tagPages];
+  return [...staticPages, ...categoryPages, ...prefecturePages, ...grantPages, ...tagPages];
 }

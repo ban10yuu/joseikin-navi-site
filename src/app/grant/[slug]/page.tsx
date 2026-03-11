@@ -18,6 +18,8 @@ import { GrantJsonLd, BreadcrumbJsonLd, FaqJsonLd } from '@/components/JsonLd';
 import GrantCard from '@/components/GrantCard';
 import Sidebar from '@/components/Sidebar';
 import AdBanner from '@/components/AdBanner';
+import RequiredDocuments from '@/components/RequiredDocuments';
+import { getRequiredDocuments } from '@/lib/documents';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -57,6 +59,7 @@ export default async function GrantDetailPage({ params }: Props) {
   if (!grant) notFound();
 
   const related = getRelatedGrants(grant, 6);
+  const requiredDocs = getRequiredDocuments(grant);
   const baseUrl = 'https://joseikin-navi-site.vercel.app';
 
   return (
@@ -182,19 +185,8 @@ export default async function GrantDetailPage({ params }: Props) {
               ))}
             </div>
 
-            {/* Official Link */}
-            <div className="bg-blue-50 border border-blue-200 rounded-lg p-5 my-6">
-              <h3 className="text-base font-bold text-gray-900 mb-1">公式サイトで詳細を確認</h3>
-              <p className="text-sm text-gray-600 mb-3">最新の申請条件・必要書類は公式サイトでご確認ください。</p>
-              <a
-                href={grant.officialUrl}
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                className="inline-block px-5 py-2.5 text-sm font-semibold text-white bg-[#1d4ed8] rounded hover:bg-blue-800 transition-colors"
-              >
-                公式サイトを見る
-              </a>
-            </div>
+            {/* Required Documents Checklist */}
+            <RequiredDocuments documents={requiredDocs} officialUrl={grant.officialUrl} />
 
             <AdBanner size="full" />
 
