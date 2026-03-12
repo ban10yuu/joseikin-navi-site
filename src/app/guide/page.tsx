@@ -206,7 +206,7 @@ export default function GuidePage() {
             さっそく助成金を探してみましょう
           </h2>
           <p className="text-sm text-gray-600 mb-4">
-            230件以上の助成金の中から、あなたに合った制度が見つかります。
+            2,500件以上の助成金の中から、あなたに合った制度が見つかります。
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             <Link

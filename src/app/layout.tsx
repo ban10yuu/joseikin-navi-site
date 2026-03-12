@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     template: '%s｜助成金ナビ',
   },
   description:
-    '国・都道府県・市区町村・NPO/民間団体の助成金・補助金・給付金を230件以上網羅。子育て・住宅・医療・教育・就職・介護・生活支援・災害など全カテゴリを掲載。世帯年収・地域・職業から受給可能な助成金を無料診断。申請方法・必要書類・受給額まで徹底解説。',
+    '国・都道府県・市区町村・NPO/民間団体の助成金・補助金・給付金を2,500件以上網羅。子育て・住宅・医療・教育・就職・介護・生活支援・災害など全カテゴリを掲載。世帯年収・地域・職業から受給可能な助成金を無料診断。申請方法・必要書類・受給額まで徹底解説。',
   keywords: [
     '助成金', '補助金', '給付金', '助成金 一覧', '補助金 一覧', '給付金 一覧',
     '助成金 2026', '補助金 2026', '助成金 最新', '補助金 最新',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     locale: 'ja_JP',
     siteName: '助成金ナビ',
     title: '助成金ナビ｜国・自治体・民間の助成金・補助金を完全網羅',
-    description: '助成金・補助金・給付金を230件以上網羅。あなたに合った支援制度を無料診断。',
+    description: '助成金・補助金・給付金を2,500件以上網羅。あなたに合った支援制度を無料診断。',
     url: 'https://joseikin-navi-site.vercel.app',
   },
   twitter: {
@@ -104,6 +104,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 '@type': 'Organization',
                 name: '助成金ナビ',
                 url: 'https://joseikin-navi-site.vercel.app',
+              },
+              potentialAction: {
+                '@type': 'SearchAction',
+                target: {
+                  '@type': 'EntryPoint',
+                  urlTemplate: 'https://joseikin-navi-site.vercel.app/grants/?q={search_term_string}',
+                },
+                'query-input': 'required name=search_term_string',
               },
               inLanguage: 'ja',
             }),

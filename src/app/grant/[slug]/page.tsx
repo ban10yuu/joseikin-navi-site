@@ -19,6 +19,7 @@ import GrantCard from '@/components/GrantCard';
 import Sidebar from '@/components/Sidebar';
 import AdBanner from '@/components/AdBanner';
 import RequiredDocuments from '@/components/RequiredDocuments';
+import AuthorBox from '@/components/AuthorBox';
 import { getRequiredDocuments } from '@/lib/documents';
 
 interface Props {
@@ -202,6 +203,9 @@ export default async function GrantDetailPage({ params }: Props) {
                 </Link>
               ))}
             </div>
+
+            {/* Author Box (E-E-A-T) */}
+            <AuthorBox />
 
             {/* Related Grants */}
             {related.length > 0 && (
