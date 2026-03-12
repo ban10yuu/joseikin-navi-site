@@ -5,7 +5,6 @@ import GrantCard from '@/components/GrantCard';
 import Sidebar from '@/components/Sidebar';
 import AdBanner from '@/components/AdBanner';
 import GoogleAd from '@/components/GoogleAd';
-import GrantListClient from '@/components/GrantListClient';
 import GrantFinderQuiz from '@/components/GrantFinderQuiz';
 
 const CATEGORY_IMAGES: Record<GrantCategory, string> = {
@@ -48,13 +47,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Grant Finder Quiz */}
-      <section className="py-8 px-4 sm:px-6 -mt-6 relative z-10">
-        <div className="max-w-4xl mx-auto">
-          <GrantFinderQuiz />
-        </div>
-      </section>
-
       <GoogleAd format="horizontal" className="max-w-7xl mx-auto px-4 sm:px-6" />
 
       {/* Category Navigation */}
@@ -91,15 +83,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Main Content: Grant List + Sidebar */}
-      <section id="grants" className="py-10 px-4 sm:px-6 bg-white border-t border-gray-100">
+      {/* Main Content: Quiz Results + Sidebar */}
+      <section className="py-10 px-4 sm:px-6 bg-white border-t border-gray-100">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-xl font-bold text-gray-900 mb-1">助成金・補助金を探す</h2>
-          <p className="text-sm text-gray-500 mb-6">カテゴリ・地域・キーワードで絞り込みできます。</p>
-
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-8">
             <div>
-              <GrantListClient />
+              <GrantFinderQuiz />
             </div>
             <div className="hidden lg:block">
               <Sidebar />
