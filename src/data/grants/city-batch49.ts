@@ -155,7 +155,7 @@ export const cityGrantsBatch49: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'kawaguchi-sme-support',
+    slug: 'kawaguchi-sme-support-v2',
     title: '川口市 中小企業経営革新補助金',
     organization: '川口市',
     type: 'local',

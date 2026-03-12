@@ -5,7 +5,7 @@ export const cityGrantsBatch66: Grant[] = [
   // 須賀川市（福島県）9件: childcare×2, housing, medical, education, employment, nursing, living, disaster
   // ────────────────────────────────────────────────
   {
-    slug: 'sukagawa-childcare-subsidy',
+    slug: 'sukagawa-childcare-subsidy-v2',
     title: '須賀川市 保育料軽減補助金',
     organization: '須賀川市',
     type: 'local',
@@ -35,7 +35,7 @@ export const cityGrantsBatch66: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'sukagawa-birth-bonus',
+    slug: 'sukagawa-birth-bonus-v2',
     title: '須賀川市 出産祝い金',
     organization: '須賀川市',
     type: 'local',
@@ -65,7 +65,7 @@ export const cityGrantsBatch66: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'sukagawa-housing-purchase',
+    slug: 'sukagawa-housing-purchase-v2',
     title: '須賀川市 住宅取得支援補助金',
     organization: '須賀川市',
     type: 'local',
@@ -95,7 +95,7 @@ export const cityGrantsBatch66: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'sukagawa-infertility',
+    slug: 'sukagawa-infertility-v2',
     title: '須賀川市 不妊治療費助成事業',
     organization: '須賀川市',
     type: 'local',
@@ -125,7 +125,7 @@ export const cityGrantsBatch66: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'sukagawa-scholarship',
+    slug: 'sukagawa-scholarship-v2',
     title: '須賀川市 奨学資金貸付制度',
     organization: '須賀川市',
     type: 'local',
@@ -185,7 +185,7 @@ export const cityGrantsBatch66: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'sukagawa-nursing-equipment',
+    slug: 'sukagawa-nursing-equipment-v2',
     title: '須賀川市 介護用品支給事業',
     organization: '須賀川市',
     type: 'local',
@@ -245,7 +245,7 @@ export const cityGrantsBatch66: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'sukagawa-seismic-diagnosis',
+    slug: 'sukagawa-seismic-diagnosis-v2',
     title: '須賀川市 木造住宅耐震診断助成事業',
     organization: '須賀川市',
     type: 'local',
@@ -279,7 +279,7 @@ export const cityGrantsBatch66: Grant[] = [
   // 土浦市（茨城県）9件: childcare×2, housing, medical, education, employment, nursing, living, disaster
   // ────────────────────────────────────────────────
   {
-    slug: 'tsuchiura-childcare-subsidy',
+    slug: 'tsuchiura-childcare-subsidy-v2',
     title: '土浦市 保育料軽減補助金',
     organization: '土浦市',
     type: 'local',
@@ -309,7 +309,7 @@ export const cityGrantsBatch66: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'tsuchiura-birth-bonus',
+    slug: 'tsuchiura-birth-bonus-v2',
     title: '土浦市 出産祝い金',
     organization: '土浦市',
     type: 'local',
@@ -339,7 +339,7 @@ export const cityGrantsBatch66: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'tsuchiura-newlywed-rent',
+    slug: 'tsuchiura-newlywed-rent-v2',
     title: '土浦市 結婚新生活支援補助金',
     organization: '土浦市',
     type: 'local',
@@ -369,7 +369,7 @@ export const cityGrantsBatch66: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'tsuchiura-disability-medical',
+    slug: 'tsuchiura-disability-medical-v2',
     title: '土浦市 重度障がい者医療費助成制度',
     organization: '土浦市',
     type: 'local',
@@ -399,7 +399,7 @@ export const cityGrantsBatch66: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'tsuchiura-school-lunch',
+    slug: 'tsuchiura-school-lunch-v2',
     title: '土浦市 学校給食費補助制度',
     organization: '土浦市',
     type: 'local',
@@ -459,7 +459,7 @@ export const cityGrantsBatch66: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'tsuchiura-nursing-home-reform',
+    slug: 'tsuchiura-nursing-home-reform-v2',
     title: '土浦市 介護住宅改修助成事業',
     organization: '土浦市',
     type: 'local',
@@ -519,7 +519,7 @@ export const cityGrantsBatch66: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'tsuchiura-bousai-equipment',
+    slug: 'tsuchiura-bousai-equipment-v2',
     title: '土浦市 住宅用防災設備設置補助金',
     organization: '土浦市',
     type: 'local',
@@ -553,7 +553,7 @@ export const cityGrantsBatch66: Grant[] = [
   // 古河市（茨城県）9件: childcare×2, housing, medical, education, employment, nursing, living, disaster
   // ────────────────────────────────────────────────
   {
-    slug: 'koga-childcare-subsidy',
+    slug: 'koga-childcare-subsidy-v2',
     title: '古河市 保育料軽減助成金',
     organization: '古河市',
     type: 'local',
@@ -827,7 +827,7 @@ export const cityGrantsBatch66: Grant[] = [
   // 足利市（栃木県）9件: childcare×2, housing, medical, education, employment, nursing, living, disaster
   // ────────────────────────────────────────────────
   {
-    slug: 'ashikaga-childcare-subsidy',
+    slug: 'ashikaga-childcare-subsidy-v2',
     title: '足利市 保育料軽減補助金',
     organization: '足利市',
     type: 'local',
@@ -857,7 +857,7 @@ export const cityGrantsBatch66: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'ashikaga-birth-bonus',
+    slug: 'ashikaga-birth-bonus-v2',
     title: '足利市 出産祝い金',
     organization: '足利市',
     type: 'local',
@@ -977,7 +977,7 @@ export const cityGrantsBatch66: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'ashikaga-telework-bonus',
+    slug: 'ashikaga-telework-bonus-v2',
     title: '足利市 テレワーク移住促進補助金',
     organization: '足利市',
     type: 'local',
@@ -1101,7 +1101,7 @@ export const cityGrantsBatch66: Grant[] = [
   // 佐野市（栃木県）9件: childcare×2, housing, medical, education, employment, nursing, living, disaster
   // ────────────────────────────────────────────────
   {
-    slug: 'sano-childcare-subsidy',
+    slug: 'sano-childcare-subsidy-v2',
     title: '佐野市 保育料軽減補助金',
     organization: '佐野市',
     type: 'local',
@@ -1161,7 +1161,7 @@ export const cityGrantsBatch66: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'sano-housing-purchase',
+    slug: 'sano-housing-purchase-v2',
     title: '佐野市 定住促進住宅取得補助金',
     organization: '佐野市',
     type: 'local',
@@ -1191,7 +1191,7 @@ export const cityGrantsBatch66: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'sano-infertility',
+    slug: 'sano-infertility-v2',
     title: '佐野市 不妊治療費助成事業',
     organization: '佐野市',
     type: 'local',
@@ -1251,7 +1251,7 @@ export const cityGrantsBatch66: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'sano-sme-support',
+    slug: 'sano-sme-support-v2',
     title: '佐野市 中小企業DX推進補助金',
     organization: '佐野市',
     type: 'local',
@@ -1375,7 +1375,7 @@ export const cityGrantsBatch66: Grant[] = [
   // 桐生市（群馬県）9件: childcare×2, housing, medical, education, employment, nursing, living, disaster
   // ────────────────────────────────────────────────
   {
-    slug: 'kiryu-childcare-subsidy',
+    slug: 'kiryu-childcare-subsidy-v2',
     title: '桐生市 保育料軽減補助金',
     organization: '桐生市',
     type: 'local',
@@ -1405,7 +1405,7 @@ export const cityGrantsBatch66: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'kiryu-birth-bonus',
+    slug: 'kiryu-birth-bonus-v2',
     title: '桐生市 出産祝い金',
     organization: '桐生市',
     type: 'local',
@@ -1465,7 +1465,7 @@ export const cityGrantsBatch66: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'kiryu-disability-medical',
+    slug: 'kiryu-disability-medical-v2',
     title: '桐生市 重度障がい者医療費助成',
     organization: '桐生市',
     type: 'local',

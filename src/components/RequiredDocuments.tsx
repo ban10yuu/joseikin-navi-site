@@ -73,14 +73,20 @@ export default function RequiredDocuments({ documents, officialUrl }: Props) {
       )}
 
       <div className="flex flex-col sm:flex-row gap-3">
-        <a
-          href={officialUrl}
-          target="_blank"
-          rel="noopener noreferrer nofollow"
-          className="flex-1 px-5 py-3 text-sm font-semibold text-white bg-[#1d4ed8] rounded hover:bg-blue-800 transition-colors text-center"
-        >
-          公式サイトで申請する
-        </a>
+        {officialUrl ? (
+          <a
+            href={officialUrl}
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            className="flex-1 px-5 py-3 text-sm font-semibold text-white bg-[#1d4ed8] rounded hover:bg-blue-800 transition-colors text-center"
+          >
+            公式サイトで申請する
+          </a>
+        ) : (
+          <div className="flex-1 px-5 py-3 text-sm font-medium text-gray-600 bg-gray-100 rounded text-center">
+            お住まいの市区町村にお問い合わせください
+          </div>
+        )}
         <button
           onClick={() => setCheckedDocs(new Set())}
           className="px-4 py-3 text-sm font-medium text-gray-600 bg-gray-100 rounded hover:bg-gray-200 transition-colors"

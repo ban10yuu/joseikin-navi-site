@@ -1221,7 +1221,7 @@ export const cityGrantsBatch47: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'miyazaki-city-scholarship',
+    slug: 'miyazaki-city-scholarship-v2',
     title: '宮崎市 奨学金給付制度',
     organization: '宮崎市',
     type: 'local',

@@ -673,7 +673,7 @@ export const cityGrantsBatch60: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'akashi-scholarship',
+    slug: 'akashi-scholarship-v2',
     title: '明石市 給付型奨学金制度',
     organization: '明石市',
     type: 'local',
@@ -1221,7 +1221,7 @@ export const cityGrantsBatch60: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'takarazuka-scholarship',
+    slug: 'takarazuka-scholarship-v2',
     title: '宝塚市 奨学金制度',
     organization: '宝塚市',
     type: 'local',

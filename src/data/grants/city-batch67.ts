@@ -279,7 +279,7 @@ export const cityGrantsBatch67: Grant[] = [
   // 小山市（栃木県）9件
   // ────────────────────────────────────────────────
   {
-    slug: 'oyama-childcare-subsidy',
+    slug: 'oyama-childcare-subsidy-v2',
     title: '小山市 保育料軽減補助金',
     organization: '小山市',
     type: 'local',
@@ -309,7 +309,7 @@ export const cityGrantsBatch67: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'oyama-birth-bonus',
+    slug: 'oyama-birth-bonus-v2',
     title: '小山市 出産祝い金',
     organization: '小山市',
     type: 'local',
@@ -459,7 +459,7 @@ export const cityGrantsBatch67: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'oyama-nursing-home-reform',
+    slug: 'oyama-nursing-home-reform-v2',
     title: '小山市 高齢者住宅改造助成',
     organization: '小山市',
     type: 'local',
@@ -519,7 +519,7 @@ export const cityGrantsBatch67: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'oyama-bousai-equipment',
+    slug: 'oyama-bousai-equipment-v2',
     title: '小山市 自主防災組織活動補助金',
     organization: '小山市',
     type: 'local',

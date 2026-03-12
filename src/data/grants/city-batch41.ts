@@ -1251,7 +1251,7 @@ export const cityGrantsBatch41: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'suginami-scholarship',
+    slug: 'suginami-scholarship-v2',
     title: '杉並区 奨学金給付制度',
     organization: '杉並区',
     type: 'local',

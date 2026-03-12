@@ -125,7 +125,7 @@ export const cityGrantsBatch45: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'kanazawa-scholarship',
+    slug: 'kanazawa-scholarship-v2',
     title: '金沢市 奨学金制度',
     organization: '金沢市',
     type: 'local',
@@ -947,7 +947,7 @@ export const cityGrantsBatch45: Grant[] = [
     publishedAt: '2026-03-12',
   },
   {
-    slug: 'otsu-scholarship',
+    slug: 'otsu-scholarship-v2',
     title: '大津市 奨学金返還支援補助金',
     organization: '大津市',
     type: 'local',
