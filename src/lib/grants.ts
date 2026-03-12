@@ -80,6 +80,14 @@ import { cityGrantsBatch70 } from '@/data/grants/city-batch70';
 import { cityGrantsBatch71 } from '@/data/grants/city-batch71';
 import { cityGrantsBatch72 } from '@/data/grants/city-batch72';
 import { cityGrantsBatch73 } from '@/data/grants/city-batch73';
+import { cityGrantsBatch74 } from '@/data/grants/city-batch74';
+import { cityGrantsBatch75 } from '@/data/grants/city-batch75';
+import { cityGrantsBatch76 } from '@/data/grants/city-batch76';
+import { cityGrantsBatch77 } from '@/data/grants/city-batch77';
+import { cityGrantsBatch78 } from '@/data/grants/city-batch78';
+import { cityGrantsBatch79 } from '@/data/grants/city-batch79';
+import { cityGrantsBatch80 } from '@/data/grants/city-batch80';
+import { cityGrantsBatch81 } from '@/data/grants/city-batch81';
 
 // ── All grants (全件公開) ──
 const allGrants: Grant[] = [
@@ -111,6 +119,9 @@ const allGrants: Grant[] = [
   ...cityGrantsBatch65, ...cityGrantsBatch66, ...cityGrantsBatch67,
   ...cityGrantsBatch68, ...cityGrantsBatch69, ...cityGrantsBatch70,
   ...cityGrantsBatch71, ...cityGrantsBatch72, ...cityGrantsBatch73,
+  ...cityGrantsBatch74, ...cityGrantsBatch75, ...cityGrantsBatch76,
+  ...cityGrantsBatch77, ...cityGrantsBatch78, ...cityGrantsBatch79,
+  ...cityGrantsBatch80, ...cityGrantsBatch81,
 ];
 
 const publishedGrants = allGrants
