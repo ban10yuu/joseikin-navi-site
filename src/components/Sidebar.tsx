@@ -3,6 +3,7 @@ import { CATEGORY_LABELS } from '@/lib/types';
 import { getPopularGrants } from '@/lib/grants';
 import SubscribeForm from './SubscribeForm';
 import AdBanner from './AdBanner';
+import AffiliateWidget from './AffiliateWidget';
 
 export default function Sidebar() {
   const popular = getPopularGrants(8);
@@ -55,6 +56,9 @@ export default function Sidebar() {
           ))}
         </div>
       </div>
+
+      {/* Affiliate Widget */}
+      <AffiliateWidget />
 
       <AdBanner size="compact" />
     </aside>
