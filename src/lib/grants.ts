@@ -32,6 +32,16 @@ import { cityGrantsBatch22 } from '@/data/grants/city-batch22';
 import { cityGrantsBatch23 } from '@/data/grants/city-batch23';
 import { cityGrantsBatch24 } from '@/data/grants/city-batch24';
 import { cityGrantsBatch25 } from '@/data/grants/city-batch25';
+import { cityGrantsBatch26 } from '@/data/grants/city-batch26';
+import { cityGrantsBatch27 } from '@/data/grants/city-batch27';
+import { cityGrantsBatch28 } from '@/data/grants/city-batch28';
+import { cityGrantsBatch29 } from '@/data/grants/city-batch29';
+import { cityGrantsBatch30 } from '@/data/grants/city-batch30';
+import { cityGrantsBatch31 } from '@/data/grants/city-batch31';
+import { cityGrantsBatch32 } from '@/data/grants/city-batch32';
+import { cityGrantsBatch33 } from '@/data/grants/city-batch33';
+import { cityGrantsBatch34 } from '@/data/grants/city-batch34';
+import { cityGrantsBatch35 } from '@/data/grants/city-batch35';
 
 // ── All grants (全件公開) ──
 const allGrants: Grant[] = [
@@ -46,7 +56,10 @@ const allGrants: Grant[] = [
   ...cityGrantsBatch16, ...cityGrantsBatch17, ...cityGrantsBatch18,
   ...cityGrantsBatch19, ...cityGrantsBatch20, ...cityGrantsBatch21,
   ...cityGrantsBatch22, ...cityGrantsBatch23, ...cityGrantsBatch24,
-  ...cityGrantsBatch25,
+  ...cityGrantsBatch25, ...cityGrantsBatch26, ...cityGrantsBatch27,
+  ...cityGrantsBatch28, ...cityGrantsBatch29, ...cityGrantsBatch30,
+  ...cityGrantsBatch31, ...cityGrantsBatch32, ...cityGrantsBatch33,
+  ...cityGrantsBatch34, ...cityGrantsBatch35,
 ];
 
 const publishedGrants = allGrants
