@@ -1,10 +1,23 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect, useCallback } from 'react';
 import { getAllGrants } from '@/lib/grants';
-import { GrantCategory, GrantType } from '@/lib/types';
+import { GrantCategory, GrantType, CATEGORY_LABELS } from '@/lib/types';
 import GrantCard from './GrantCard';
 import FilterPanel from './FilterPanel';
+
+function readUrlFilters() {
+  if (typeof window === 'undefined') return {};
+  const params = new URLSearchParams(window.location.search);
+  const cat = params.get('cat');
+  const pref = params.get('pref');
+  const q = params.get('q');
+  return {
+    category: (cat && cat in CATEGORY_LABELS ? cat : null) as GrantCategory | null,
+    prefecture: pref || null,
+    search: q || '',
+  };
+}
 
 export default function GrantListClient() {
   const allGrants = getAllGrants();
@@ -13,6 +26,20 @@ export default function GrantListClient() {
   const [prefecture, setPrefecture] = useState<string | null>(null);
   const [search, setSearch] = useState('');
   const [showCount, setShowCount] = useState(20);
+
+  const applyUrlFilters = useCallback(() => {
+    const f = readUrlFilters();
+    if (f.category) setCategory(f.category);
+    if (f.prefecture) setPrefecture(f.prefecture);
+    if (f.search) setSearch(f.search);
+    setShowCount(20);
+  }, []);
+
+  useEffect(() => {
+    applyUrlFilters();
+    window.addEventListener('quiz-filter-applied', applyUrlFilters);
+    return () => window.removeEventListener('quiz-filter-applied', applyUrlFilters);
+  }, [applyUrlFilters]);
 
   const filtered = useMemo(() => {
     let result = allGrants;

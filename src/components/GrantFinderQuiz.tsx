@@ -100,12 +100,40 @@ export default function GrantFinderQuiz() {
           </p>
         )}
         <div className="flex flex-col sm:flex-row gap-2 justify-center mt-3">
-          <a
-            href="#grants"
+          <button
+            onClick={() => {
+              const params = new URLSearchParams();
+              if (prefecture) params.set('pref', prefecture);
+              // Map checked quiz options to category
+              const catMap: Record<string, string> = {
+                'has-children': 'childcare', 'pregnant': 'childcare',
+                'housing-purchase': 'housing', 'medical-cost': 'medical',
+                'education-cost': 'education', 'nursing-care': 'nursing',
+                'disaster-affected': 'disaster', 'living-support': 'living',
+              };
+              const cats = new Set<string>();
+              checked.forEach((id) => { if (catMap[id]) cats.add(catMap[id]); });
+              if (cats.size === 1) params.set('cat', [...cats][0]);
+              // Build search terms for non-category options
+              const searchMap: Record<string, string> = {
+                'single-parent': 'ひとり親',
+                'job-seeking': '求職',
+                'starting-business': '創業',
+                'employed': '雇用保険',
+              };
+              const terms: string[] = [];
+              checked.forEach((id) => { if (searchMap[id]) terms.push(searchMap[id]); });
+              if (terms.length > 0 && cats.size !== 1) params.set('q', terms[0]);
+
+              const qs = params.toString();
+              window.history.replaceState(null, '', qs ? `?${qs}#grants` : '#grants');
+              window.dispatchEvent(new Event('quiz-filter-applied'));
+              document.getElementById('grants')?.scrollIntoView({ behavior: 'smooth' });
+            }}
             className="px-5 py-2.5 bg-[#1d4ed8] text-white font-semibold text-sm rounded hover:bg-blue-800 transition-colors"
           >
             該当する助成金を見る
-          </a>
+          </button>
           {hasAnyFilter && (
             <button
               onClick={() => { setChecked(new Set()); setPrefecture(null); }}
