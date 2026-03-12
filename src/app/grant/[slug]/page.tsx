@@ -20,6 +20,7 @@ import Sidebar from '@/components/Sidebar';
 import AdBanner from '@/components/AdBanner';
 import RequiredDocuments from '@/components/RequiredDocuments';
 import AuthorBox from '@/components/AuthorBox';
+import ShareButtons from '@/components/ShareButtons';
 import { getRequiredDocuments } from '@/lib/documents';
 
 interface Props {
@@ -203,6 +204,9 @@ export default async function GrantDetailPage({ params }: Props) {
                 </Link>
               ))}
             </div>
+
+            {/* Share Buttons */}
+            <ShareButtons title={grant.title} />
 
             {/* Author Box (E-E-A-T) */}
             <AuthorBox />
