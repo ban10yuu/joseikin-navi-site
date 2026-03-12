@@ -33,6 +33,7 @@ export interface Grant {
   targetIncome?: string;    // 対象世帯年収
   targetOccupation?: string; // 対象職業
   applicationPeriod: string;
+  deadlineDate?: string;   // ISO date (例: '2026-12-31') 締切日がある場合
   description: string;
   sections: Section[];
   officialUrl: string;

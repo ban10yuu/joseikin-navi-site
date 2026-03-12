@@ -12,7 +12,38 @@ const CATEGORY_IMAGES: Record<GrantCategory, string> = {
   disaster: '/images/categories/disaster.png',
 };
 
+type DeadlineStatus = 'year-round' | 'ending-soon' | 'ended' | 'budget-limited' | null;
+
+function getDeadlineStatus(grant: Grant): DeadlineStatus {
+  const period = grant.applicationPeriod;
+
+  // 明示的な締切日がある場合
+  if (grant.deadlineDate) {
+    const deadline = new Date(grant.deadlineDate);
+    const now = new Date();
+    const daysLeft = Math.ceil((deadline.getTime() - now.getTime()) / 86400000);
+    if (daysLeft < 0) return 'ended';
+    if (daysLeft <= 30) return 'ending-soon';
+    return null;
+  }
+
+  // テキストパターンから推定
+  if (period.includes('通年') || period.includes('随時')) return 'year-round';
+  if (period.includes('予算') || period.includes('先着')) return 'budget-limited';
+
+  return null;
+}
+
+const DEADLINE_BADGES: Record<NonNullable<DeadlineStatus>, { label: string; className: string }> = {
+  'year-round': { label: '通年受付', className: 'bg-emerald-50 text-emerald-700 border-emerald-200' },
+  'ending-soon': { label: '締切間近', className: 'bg-red-50 text-red-700 border-red-200' },
+  'ended': { label: '受付終了', className: 'bg-gray-100 text-gray-500 border-gray-200' },
+  'budget-limited': { label: '予算次第', className: 'bg-amber-50 text-amber-700 border-amber-200' },
+};
+
 export default function GrantCard({ grant }: { grant: Grant }) {
+  const deadlineStatus = getDeadlineStatus(grant);
+
   return (
     <Link href={`/grant/${grant.slug}/`} className="grant-card block">
       <div className="flex items-start gap-3">
@@ -32,6 +63,11 @@ export default function GrantCard({ grant }: { grant: Grant }) {
             {grant.prefecture !== '全国' && (
               <span className="text-[11px] font-medium px-2 py-0.5 rounded bg-gray-100 text-gray-500">
                 {grant.prefecture}
+              </span>
+            )}
+            {deadlineStatus && (
+              <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded border ${DEADLINE_BADGES[deadlineStatus].className}`}>
+                {DEADLINE_BADGES[deadlineStatus].label}
               </span>
             )}
           </div>
