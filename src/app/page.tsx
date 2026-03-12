@@ -83,6 +83,38 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* 人気の助成金・補助金 — SEO内部リンク強化 */}
+      <section id="grants" className="py-10 px-4 sm:px-6 bg-white border-t border-gray-100">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-xl font-bold text-gray-900 mb-1">人気の助成金・補助金</h2>
+          <p className="text-sm text-gray-500 mb-6">多くの方が閲覧している助成金・補助金をカテゴリ別にピックアップしています。</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+            {(() => {
+              // Pick 2 grants from each of 4 different categories for diversity
+              const seen = new Set(topGrants.map(g => g.slug));
+              const popularGrants: typeof allGrants = [];
+              const cats: (keyof typeof CATEGORY_LABELS)[] = ['childcare', 'housing', 'medical', 'employment', 'education', 'nursing', 'living', 'disaster'] as any;
+              for (const cat of cats) {
+                if (popularGrants.length >= 8) break;
+                const catGrants = allGrants.filter(g => g.category === cat && !seen.has(g.slug));
+                for (const g of catGrants.slice(0, 1)) {
+                  popularGrants.push(g);
+                  seen.add(g.slug);
+                }
+              }
+              return popularGrants.map(grant => (
+                <GrantCard key={grant.slug} grant={grant} />
+              ));
+            })()}
+          </div>
+          <div className="text-center">
+            <Link href="/grants/" className="text-sm text-blue-700 hover:text-blue-900 font-semibold">
+              すべての助成金を見る（{allGrants.length}件） →
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Main Content: Quiz Results + Sidebar */}
       <section className="py-10 px-4 sm:px-6 bg-white border-t border-gray-100">
         <div className="max-w-7xl mx-auto">
