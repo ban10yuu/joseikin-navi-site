@@ -823,5 +823,825 @@ export const cityGrantsBatch64: Grant[] = [
     publishedAt: '2026-03-12',
   },
 
-  // ── 残り3都市（足利市・佐野市・桐生市）は次のセクションで追加 ──
+  // ────────────────────────────────────────────────
+  // 足利市（栃木県）9件: childcare×2, housing, medical, education, employment, nursing, living, disaster
+  // ────────────────────────────────────────────────
+  {
+    slug: 'ashikaga-childcare-subsidy',
+    title: '足利市 子育て世帯応援給付金',
+    organization: '足利市',
+    type: 'local',
+    maxAmount: '子ども1人あたり最大5万円',
+    maxAmountNum: 5,
+    category: 'childcare',
+    prefecture: '栃木県',
+    tags: ['足利市', '子育て支援', '給付金'],
+    eligibility: '足利市に住所を有し、18歳未満の子どもを養育している保護者',
+    applicationPeriod: '毎年4月〜翌年3月（通年受付）',
+    description: '足利市が実施する子育て世帯応援給付金です。子ども1人あたり最大5万円を支給し、子育て世帯の経済的負担を軽減します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>足利市 子育て世帯応援給付金は、<span class="marker">18歳未満の子どもを養育する世帯</span>に対し、生活費の一部を支援する給付金です。</p><p>足利市は日本最古の学校とされる「足利学校」や、CNN「世界の夢の旅行先10選」に選ばれたあしかがフラワーパークで知られる歴史と文化の街です。教育のまちとしての伝統を受け継ぎ、子育て支援にも力を入れています。</p><p><span class="marker-green">所得制限なしで、市内に住むすべての対象世帯が受給できます</span>。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<p>足利市に住民登録があり、18歳未満の子どもを養育する保護者が対象です。</p><div class="summary-box" data-title="申請に必要なもの"><p>申請書（市役所窓口またはホームページからダウンロード）</p><p>保護者の本人確認書類</p><p>振込先口座情報</p></div><p>足利市役所こども家庭センターの窓口で申請を受け付けています。<span class="marker">郵送での申請も可能</span>です。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>支給額は子ども1人あたり<strong>最大5万円</strong>です。多子世帯向けの加算が設けられる場合があります。</p><p><span class="marker">申請期限を過ぎると受給できなくなります</span>ので、届いた案内を確認して早めに手続きしましょう。</p><div class="note-box">給付金は非課税です。足利市では子育て支援のほか、足利学校の精神を受け継いだ教育プログラムの充実にも取り組んでおり、学びのまちとしての魅力を高めています。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.ashikaga.tochigi.jp/',
+    publishedAt: '2026-03-12',
+  },
+  {
+    slug: 'ashikaga-birth-bonus',
+    title: '足利市 出産祝い金',
+    organization: '足利市',
+    type: 'local',
+    maxAmount: '第1子5万円・第3子以降10万円',
+    maxAmountNum: 10,
+    category: 'childcare',
+    prefecture: '栃木県',
+    tags: ['足利市', '出産祝い金', '給付金'],
+    eligibility: '足利市に住所を有し、子どもが生まれた世帯の保護者',
+    applicationPeriod: '出生届提出後〜生後6か月以内',
+    description: '足利市が実施する出産祝い金です。出生児1人につき第1子5万円、第3子以降10万円を支給します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>足利市 出産祝い金は、<span class="marker">市内に住所を有する世帯に子どもが生まれた際</span>に祝い金を支給する制度です。</p><p>足利市は渡良瀬川の清流と鑁阿寺（ばんなじ）の国宝本堂、そして足利学校跡に代表される歴史文化のまちです。あしかがフラワーパークの大藤は世界的にも有名で、観光と定住の両面で街の魅力を発信しています。</p><p>支給額は<strong>第1子5万円、第2子5万円、第3子以降10万円</strong>です。<span class="marker-green">多胎児はそれぞれに支給されます</span>。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<div class="summary-box" data-title="支給要件"><p>出生日に足利市に住所を有すること</p><p>出生届が受理されていること</p><p>生後6か月以内に申請すること</p><p>市税の滞納がないこと</p></div><p>足利市役所こども家庭センターで申請書を提出します。出生届提出時に案内を受けられます。</p><p><span class="marker">生後6か月の期限を過ぎると受給権が消滅します</span>のでご注意ください。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>支給額は<strong>第1子5万円、第2子5万円、第3子以降10万円</strong>です。養育する18歳未満の子の人数で判定します。</p><p><span class="marker">申請後1〜2か月程度で指定口座に振り込まれます</span>。</p><div class="highlight-box">足利市では出産祝い金に加え、産後ケア事業や子育て支援センターなど、切れ目のない子育て支援体制を整備しています。妊娠届出時に「母子健康手帳」とともに各種支援制度の案内を受け取れます。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.ashikaga.tochigi.jp/',
+    publishedAt: '2026-03-12',
+  },
+  {
+    slug: 'ashikaga-newlywed-rent',
+    title: '足利市 結婚新生活支援補助金',
+    organization: '足利市',
+    type: 'local',
+    maxAmount: '最大30万円',
+    maxAmountNum: 30,
+    category: 'housing',
+    prefecture: '栃木県',
+    tags: ['足利市', '新婚世帯', '家賃補助'],
+    eligibility: '足利市内に居住する新婚世帯で、夫婦の合計所得が500万円未満の方',
+    applicationPeriod: '通年（婚姻届出後1年以内に申請）',
+    description: '足利市が実施する結婚新生活支援補助金です。新婚世帯の住居費・引越費用を最大30万円補助します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>足利市 結婚新生活支援補助金は、<span class="marker">新婚世帯の住居費や引越費用</span>を補助し、結婚に伴う経済的負担を軽減する制度です。</p><p>足利市は栃木県の南西部に位置し、群馬県との県境にある都市です。東武伊勢崎線やJR両毛線が通り、北関東エリアの暮らしやすい街として知られています。若い世帯の定住を促進するため、結婚後の住居費を支援しています。</p><p>補助額は<strong>最大30万円</strong>（39歳以下の夫婦）です。<span class="marker-green">賃貸の家賃・敷金・礼金および引越費用が対象</span>です。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<div class="summary-box" data-title="主な要件"><p>婚姻届出日において夫婦ともに39歳以下であること</p><p>夫婦の合計所得が500万円未満であること</p><p>足利市に住民登録があること</p><p>市税の滞納がないこと</p></div><p>足利市役所市民生活課に申請書・婚姻届受理証明書・賃貸借契約書・引越費用の領収書を提出します。</p><p><span class="marker">婚姻届出日から1年以内に申請が必要</span>です。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>補助額は住居費（家賃・敷金・礼金等）と引越費用の合計で<strong>最大30万円</strong>です。29歳以下の夫婦は上限60万円に引き上げられる場合があります。</p><p><span class="marker">公営住宅に入居している場合は対象外</span>です。</p><div class="note-box">この制度は国の「結婚新生活支援事業」を活用したもので、足利市が窓口となっています。住宅購入にかかる費用も対象となる場合がありますので、詳しくは窓口でご確認ください。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.ashikaga.tochigi.jp/',
+    publishedAt: '2026-03-12',
+  },
+  {
+    slug: 'ashikaga-infertility',
+    title: '足利市 不妊治療費助成事業',
+    organization: '足利市',
+    type: 'local',
+    maxAmount: '最大20万円（1回あたり）',
+    maxAmountNum: 20,
+    category: 'medical',
+    prefecture: '栃木県',
+    tags: ['足利市', '不妊治療', '助成金'],
+    eligibility: '足利市に住所を有する夫婦で、不妊治療を受けている方',
+    applicationPeriod: '治療終了後〜年度末まで',
+    description: '足利市が実施する不妊治療費助成事業です。保険適用後の自己負担分に対し、1回あたり最大20万円を助成します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>足利市 不妊治療費助成事業は、<span class="marker">不妊治療にかかる経済的負担を軽減する</span>ための市独自の助成制度です。</p><p>2022年4月から不妊治療の保険適用が拡大されましたが、高額な自己負担が残るケースがあります。足利市では「学びのまち」としての伝統を活かし、未来の子どもたちのために不妊治療への支援を充実させています。</p><p><span class="marker-green">体外受精・顕微授精などの特定不妊治療のほか、一般不妊治療も助成対象</span>です。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<div class="summary-box" data-title="助成要件"><p>夫婦の一方または双方が足利市に住所を有すること</p><p>法律上の婚姻関係にある夫婦であること（事実婚含む場合あり）</p><p>医療保険に加入していること</p><p>市税を滞納していないこと</p></div><p>足利市役所健康増進課に申請書・医療機関の証明書・領収書を提出します。</p><p><span class="marker">治療終了日の属する年度内に申請が必要</span>です。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>保険適用後の自己負担額に対し、<strong>1回の治療あたり最大20万円</strong>を助成します。</p><p><span class="marker">栃木県の不妊治療費助成と併用可能</span>です。県の助成を受けた後の残額が市の助成対象となります。</p><div class="highlight-box">足利市では不妊・不育症に関する相談窓口も設けています。保健師による個別相談を無料で受けられますので、治療の進め方や助成金の活用について気軽に相談してください。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.ashikaga.tochigi.jp/',
+    publishedAt: '2026-03-12',
+  },
+  {
+    slug: 'ashikaga-school-lunch',
+    title: '足利市 学校給食費無償化事業',
+    organization: '足利市',
+    type: 'local',
+    maxAmount: '給食費全額無償化',
+    maxAmountNum: 5,
+    category: 'education',
+    prefecture: '栃木県',
+    tags: ['足利市', '学校給食', '無償化'],
+    eligibility: '足利市立小中学校に在籍する児童生徒の保護者',
+    applicationPeriod: '手続き不要（自動適用）',
+    description: '足利市が実施する学校給食費無償化事業です。市立小中学校の給食費を全額無償化しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>足利市 学校給食費無償化事業は、<span class="marker">市立小中学校に在籍するすべての児童生徒の給食費を無償化</span>する事業です。</p><p>日本最古の学校「足利学校」が所在する足利市は、古くから教育を重んじる街です。この伝統を現代に引き継ぎ、経済的な理由にかかわらずすべての子どもが安心して学校生活を送れるよう、給食費の完全無償化を実施しています。</p><p><span class="marker-green">所得制限なし・申請手続き不要で、全児童生徒に自動適用されます</span>。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<div class="summary-box" data-title="対象者"><p>足利市立小学校に在籍する全児童</p><p>足利市立中学校に在籍する全生徒</p><p>所得制限なし</p></div><p><strong>特別な申請手続きは不要</strong>です。足利市立小中学校に在籍しているだけで自動的に給食費が無償になります。</p><p><span class="marker">転入の場合も、在籍が確認され次第自動で無償化が適用されます</span>。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>小学校の給食費月額約4,500円、中学校約5,200円が<strong>全額無償</strong>となります。年間で約5〜6万円の負担軽減です。</p><p><span class="marker">私立学校や県立学校に通う児童生徒は対象外</span>です。</p><div class="highlight-box">足利市の学校給食は地元産の食材を積極的に使用し、食育にも力を入れています。足利学校の「学びの精神」を食から支える取り組みとして、栄養バランスに配慮した献立が提供されています。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.ashikaga.tochigi.jp/',
+    publishedAt: '2026-03-12',
+  },
+  {
+    slug: 'ashikaga-telework-bonus',
+    title: '足利市 テレワーク推進補助金',
+    organization: '足利市',
+    type: 'local',
+    maxAmount: '最大20万円',
+    maxAmountNum: 20,
+    category: 'employment',
+    prefecture: '栃木県',
+    tags: ['足利市', 'テレワーク', '補助金'],
+    eligibility: '足利市内の中小企業でテレワーク環境を整備する事業者、または足利市に移住してテレワークを行う個人',
+    applicationPeriod: '通年（予算に達し次第終了）',
+    description: '足利市が実施するテレワーク推進補助金です。テレワーク環境の整備にかかる費用を最大20万円補助します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>足利市 テレワーク推進補助金は、<span class="marker">市内の中小企業や移住者がテレワーク環境を整備する際</span>の費用を補助する制度です。</p><p>足利市は東京から約80kmの距離にあり、東武線やJR両毛線でアクセスできます。豊かな歴史と自然環境を享受しながら都市部の仕事を続けられるテレワーク移住の候補地として注目されています。</p><p>補助率は対象経費の2分の1以内で、<strong>上限は20万円</strong>です。<span class="marker-green">通信機器購入費、Wi-Fi環境整備費、コワーキングスペース利用料が対象</span>です。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<div class="summary-box" data-title="対象経費"><p>パソコン・モニター等の通信機器購入費</p><p>インターネット回線・Wi-Fi環境の整備費</p><p>ウェブ会議ツール等のソフトウェア利用料</p><p>市内コワーキングスペースの利用料</p></div><p>足利市役所商業にぎわい課に申請書・見積書・事業計画書を提出します。</p><p><span class="marker">経費支出前の事前申請が原則</span>ですが、年度内の購入であれば事後申請が可能な場合もあります。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>補助額は対象経費の2分の1以内で、<strong>上限20万円</strong>です。個人・事業者ともに利用できます。</p><p><span class="marker">テレワークの実施実績の報告が求められます</span>。一定期間テレワークを実施していない場合は返還を求められることがあります。</p><div class="note-box">足利市ではテレワーク体験施設やお試し移住プログラムも提供しています。あしかがフラワーパークや史跡足利学校跡など、観光と暮らしが一体となった環境を体験してから移住を検討できます。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.ashikaga.tochigi.jp/',
+    publishedAt: '2026-03-12',
+  },
+  {
+    slug: 'ashikaga-nursing-equipment',
+    title: '足利市 在宅介護用品支給事業',
+    organization: '足利市',
+    type: 'local',
+    maxAmount: '年間最大10万円相当',
+    maxAmountNum: 10,
+    category: 'nursing',
+    prefecture: '栃木県',
+    tags: ['足利市', '介護用品', '支給事業'],
+    eligibility: '足利市に住所を有する要介護認定者を在宅で介護している家族',
+    applicationPeriod: '通年',
+    description: '足利市が実施する在宅介護用品支給事業です。在宅介護を行う家族に対し、紙おむつ等の介護用品を支給します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>足利市 在宅介護用品支給事業は、<span class="marker">在宅で要介護者を介護している家族の負担を軽減する</span>ため、紙おむつ等の介護消耗品を支給する制度です。</p><p>足利市は高齢者が住み慣れた地域で安心して暮らし続けられるよう、在宅介護への支援を充実させています。介護する家族の経済的・精神的負担を少しでも軽くすることを目的としています。</p><p><span class="marker-green">紙おむつ、尿取りパッド、清拭剤、使い捨て手袋などの消耗品が支給対象</span>です。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<div class="summary-box" data-title="支給要件"><p>足利市に住所を有する要介護4・5の認定者を在宅で介護していること</p><p>介護を受ける方が施設に入所していないこと</p><p>介護を受ける方の属する世帯が市民税非課税であること</p></div><p>足利市役所高齢者支援課の窓口で申請します。介護保険被保険者証と認定結果通知書が必要です。</p><p><span class="marker">認定月から支給が開始されます</span>。毎月定期的にカタログから選んだ介護用品が届きます。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>支給額は<strong>月額約5,000〜10,000円相当の介護用品</strong>が現物支給されます。年間で最大10万円相当です。</p><p><span class="marker">入院中や施設入所中は支給が一時停止</span>します。退院後は届出により再開できます。</p><div class="note-box">介護保険の福祉用具貸与（ベッド・車いす等）とは別の制度です。足利市の地域包括支援センターでは在宅介護全般の相談を受け付けていますので、介護に関する悩みがあれば気軽に相談してください。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.ashikaga.tochigi.jp/',
+    publishedAt: '2026-03-12',
+  },
+  {
+    slug: 'ashikaga-energy-support',
+    title: '足利市 省エネルギー設備導入補助金',
+    organization: '足利市',
+    type: 'local',
+    maxAmount: '最大10万円',
+    maxAmountNum: 10,
+    category: 'living',
+    prefecture: '栃木県',
+    tags: ['足利市', '省エネ', '設備補助'],
+    eligibility: '足利市に住所を有する世帯で、省エネルギー設備を導入する方',
+    applicationPeriod: '毎年4月〜翌年2月（予算に達し次第終了）',
+    description: '足利市が実施する省エネルギー設備導入補助金です。太陽光発電システムや蓄電池等の導入に最大10万円を補助します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>足利市 省エネルギー設備導入補助金は、<span class="marker">住宅用太陽光発電システムや蓄電池、高効率給湯器</span>などの省エネルギー設備の導入に対し、費用の一部を補助する制度です。</p><p>足利市は脱炭素社会の実現に向けて、家庭からのCO2排出削減を推進しています。再生可能エネルギーの活用と家計のエネルギーコスト削減を同時に実現できる設備導入を支援しています。</p><p>補助額は設備の種類に応じて<strong>最大10万円</strong>です。<span class="marker-green">太陽光発電と蓄電池のセット導入は補助額が加算されます</span>。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<div class="summary-box" data-title="対象設備"><p>住宅用太陽光発電システム（補助額5万円）</p><p>蓄電池システム（補助額5万円）</p><p>高効率給湯器（エコキュート等、補助額3万円）</p><p>HEMS（家庭用エネルギー管理システム、補助額2万円）</p></div><p>足利市役所環境政策課に申請書・見積書・設置計画書等を提出します。</p><p><span class="marker">設備設置前の事前申請が必要</span>です。設置完了後に実績報告書を提出します。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>太陽光発電5万円、蓄電池5万円など設備ごとの定額補助で、<strong>複数設備をセット導入した場合は合算で最大10万円</strong>となります。</p><p><span class="marker">先着順で予算に達し次第受付終了</span>です。年度初めの申請をおすすめします。</p><div class="highlight-box">省エネ設備の導入は電気代の削減だけでなく、停電時の非常電源としても役立ちます。足利市では国や県の補助制度との併用が可能な場合もありますので、最大限の支援を受けるために窓口で確認しましょう。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.ashikaga.tochigi.jp/',
+    publishedAt: '2026-03-12',
+  },
+  {
+    slug: 'ashikaga-seismic-diagnosis',
+    title: '足利市 木造住宅耐震診断補助事業',
+    organization: '足利市',
+    type: 'local',
+    maxAmount: '診断費用の自己負担軽減',
+    maxAmountNum: 0,
+    category: 'disaster',
+    prefecture: '栃木県',
+    tags: ['足利市', '耐震診断', '防災'],
+    eligibility: '足利市内に旧耐震基準（1981年5月以前）で建築された木造住宅を所有する方',
+    applicationPeriod: '毎年5月〜12月頃（予算に達し次第終了）',
+    description: '足利市が実施する木造住宅耐震診断補助事業です。旧耐震基準の木造住宅の耐震診断費用を補助します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>足利市 木造住宅耐震診断補助事業は、<span class="marker">1981年5月31日以前の旧耐震基準で建築された木造住宅</span>の耐震診断費用を補助する制度です。</p><p>足利市は関東平野の北端に位置し、足尾山系の地形的影響を受ける地域です。過去の地震災害の教訓を活かし、旧耐震基準の住宅の安全性確認を推進しています。</p><p><span class="marker-green">市が派遣する耐震診断士による診断で、自己負担は数千円程度に抑えられます</span>。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<div class="summary-box" data-title="対象住宅の要件"><p>足利市内に所在する木造住宅であること</p><p>1981年5月31日以前に着工された住宅であること</p><p>2階建て以下の在来軸組工法であること</p><p>所有者が居住していること</p></div><p>足利市役所都市計画課に申請書を提出します。建築時期のわかる書類（固定資産税納税通知書等）が必要です。</p><p><span class="marker">年間の診断実施件数に限りがあります</span>。早めの申請をおすすめします。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>診断費用の大部分を市が負担し、<strong>自己負担は数千円程度</strong>に抑えられます。耐震診断士が現地調査を行い、報告書を作成します。</p><p><span class="marker">診断の結果、耐震性に問題がある場合は耐震改修補助金の利用を検討してください</span>。</p><div class="note-box">耐震診断は建物の安全性を評価するもので、改修工事は含まれません。足利市では耐震改修工事に対する補助制度も別途設けています。大切な住まいと家族を守るため、まずは診断から始めましょう。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.ashikaga.tochigi.jp/',
+    publishedAt: '2026-03-12',
+  },
+
+  // ────────────────────────────────────────────────
+  // 佐野市（栃木県）9件: childcare×2, housing, medical, education, employment, nursing, living, disaster
+  // ────────────────────────────────────────────────
+  {
+    slug: 'sano-childcare-subsidy',
+    title: '佐野市 子育て応援助成金',
+    organization: '佐野市',
+    type: 'local',
+    maxAmount: '子ども1人あたり年間最大5万円',
+    maxAmountNum: 5,
+    category: 'childcare',
+    prefecture: '栃木県',
+    tags: ['佐野市', '子育て支援', '助成金'],
+    eligibility: '佐野市に住所を有し、18歳未満の子どもを養育している保護者',
+    applicationPeriod: '毎年4月〜翌年3月（通年受付）',
+    description: '佐野市が実施する子育て応援助成金です。子育て世帯の経済的負担を軽減するため、子ども1人あたり年間最大5万円を支給します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>佐野市 子育て応援助成金は、<span class="marker">18歳未満の子どもを養育する世帯</span>に対し、子育て費用の一部を助成する制度です。</p><p>佐野市は佐野ラーメンの聖地として全国的に知られ、佐野厄よけ大師（惣宗寺）や佐野プレミアム・アウトレットなど観光資源にも恵まれた街です。北関東自動車道と東北自動車道のクロスポイントに位置する交通の要衝で、子育て世帯の定住促進に力を入れています。</p><p><span class="marker-green">多子世帯には加算措置があり、第3子以降はさらに手厚い支援となります</span>。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<p>佐野市に住民登録があり、18歳未満の子どもを養育している保護者が対象です。</p><div class="summary-box" data-title="申請に必要なもの"><p>申請書（市役所窓口またはホームページからダウンロード）</p><p>保護者の本人確認書類</p><p>振込先口座情報</p></div><p>佐野市役所こども課の窓口で申請を受け付けています。<span class="marker">郵送による申請も可能</span>です。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>助成額は子ども1人あたり<strong>年間最大5万円</strong>です。第3子以降は増額される場合があります。</p><p><span class="marker">年度内の申請が必要です</span>。転出した場合は転出日の属する月までが対象となります。</p><div class="note-box">佐野市では子育て支援センターの運営や一時保育サービスなど、経済的支援以外の子育てサポートも充実しています。佐野ラーメンのまちならではの食育プログラムも人気です。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.sano.lg.jp/',
+    publishedAt: '2026-03-12',
+  },
+  {
+    slug: 'sano-birth-bonus',
+    title: '佐野市 出産祝い金',
+    organization: '佐野市',
+    type: 'local',
+    maxAmount: '第1子5万円・第3子以降15万円',
+    maxAmountNum: 15,
+    category: 'childcare',
+    prefecture: '栃木県',
+    tags: ['佐野市', '出産祝い金', '給付金'],
+    eligibility: '佐野市に住所を有し、子どもが生まれた世帯の保護者',
+    applicationPeriod: '出生届提出後〜生後6か月以内',
+    description: '佐野市が実施する出産祝い金です。子どもの出生に際し、第1子5万円、第3子以降15万円を支給します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>佐野市 出産祝い金は、<span class="marker">市内に住所を有する世帯に子どもが生まれた際</span>に祝い金を支給する制度です。</p><p>佐野市は栃木県の南西部に位置し、渡良瀬川と秋山川が流れる自然豊かな街です。佐野厄よけ大師への初詣で知られるほか、佐野プレミアム・アウトレットは北関東最大級の商業施設として多くの来場者を集めています。少子化対策として、特に第3子以降の出産に手厚い支援を行っています。</p><p>支給額は<strong>第1子5万円、第2子10万円、第3子以降15万円</strong>です。<span class="marker-green">多胎児の場合はそれぞれの子に支給されます</span>。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<div class="summary-box" data-title="支給要件"><p>出生日に佐野市に住所を有すること</p><p>出生届が受理されていること</p><p>生後6か月以内に申請すること</p><p>市税の滞納がないこと</p></div><p>佐野市役所こども課の窓口で申請書を提出します。出生届と同日に手続きできます。</p><p><span class="marker">生後6か月以内の申請期限を過ぎると受給権が失われます</span>。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>支給額は<strong>第1子5万円、第2子10万円、第3子以降15万円</strong>です。養育する18歳未満の子どもの人数で子の順位を判定します。</p><p><span class="marker">申請後約1〜2か月で指定口座に振り込まれます</span>。</p><div class="highlight-box">佐野市は子育て環境に加えて、住宅費が都市部に比べて割安で、広い住宅を確保できる点も魅力です。出産祝い金と住宅支援を組み合わせることで、子育て世帯の定住をさらに後押ししています。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.sano.lg.jp/',
+    publishedAt: '2026-03-12',
+  },
+  {
+    slug: 'sano-housing-purchase',
+    title: '佐野市 住宅取得支援補助金',
+    organization: '佐野市',
+    type: 'local',
+    maxAmount: '最大60万円',
+    maxAmountNum: 60,
+    category: 'housing',
+    prefecture: '栃木県',
+    tags: ['佐野市', '住宅取得', '補助金'],
+    eligibility: '佐野市内に新たに住宅を取得する方',
+    applicationPeriod: '通年（予算に達し次第終了）',
+    description: '佐野市が実施する住宅取得支援補助金です。市内に住宅を取得する方に最大60万円を補助します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>佐野市 住宅取得支援補助金は、<span class="marker">市内に新たに住宅を取得する方</span>を対象に、取得費用の一部を補助する制度です。</p><p>佐野市は北関東自動車道と東北自動車道の結節点に位置し、車でのアクセスが抜群の街です。豊かな自然環境と商業施設が揃い、子育て世帯にも単身者にも暮らしやすい住環境を提供しています。</p><p>補助額は<strong>基本額と各種加算を合わせて最大60万円</strong>です。<span class="marker-green">子育て世帯・市外転入者・三世代同居には加算があります</span>。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<div class="summary-box" data-title="主な要件"><p>佐野市内に住宅を新築または購入すること</p><p>取得した住宅に5年以上居住する意思があること</p><p>市税の滞納がないこと</p><p>住宅の引渡し後6か月以内に申請すること</p></div><p>佐野市役所都市計画課に申請書・契約書・住民票・登記事項証明書等を提出します。</p><p><span class="marker">引渡し後6か月以内の申請が必要</span>です。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>基本補助額は<strong>新築30万円、中古住宅20万円</strong>です。子育て世帯加算（10万円）、市外転入加算（10万円）、三世代同居加算（10万円）により最大60万円となります。</p><p><span class="marker">5年以内に市外へ転出した場合は補助金の返還を求められます</span>。</p><div class="note-box">自己居住用の住宅に限ります。佐野市は都心から約100kmですが、高速道路網のおかげで車通勤も十分可能です。住宅ローン減税との併用も可能です。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.sano.lg.jp/',
+    publishedAt: '2026-03-12',
+  },
+  {
+    slug: 'sano-infertility',
+    title: '佐野市 不妊治療費助成事業',
+    organization: '佐野市',
+    type: 'local',
+    maxAmount: '最大20万円（1回あたり）',
+    maxAmountNum: 20,
+    category: 'medical',
+    prefecture: '栃木県',
+    tags: ['佐野市', '不妊治療', '助成金'],
+    eligibility: '佐野市に住所を有する夫婦で、不妊治療を受けている方',
+    applicationPeriod: '治療終了後〜年度末まで',
+    description: '佐野市が実施する不妊治療費助成事業です。保険適用後の自己負担分に対し、1回あたり最大20万円を助成します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>佐野市 不妊治療費助成事業は、<span class="marker">不妊治療にかかる経済的負担を軽減する</span>ための市独自の助成制度です。</p><p>佐野市では、子どもを望むすべての夫婦が経済的な理由で治療を諦めることのないよう、保険適用後の自己負担分を助成しています。佐野厄よけ大師の「厄を払い福を招く」街にふさわしく、不妊に悩む夫婦への支援を充実させています。</p><p><span class="marker-green">特定不妊治療（体外受精・顕微授精）に加え、一般不妊治療も助成対象</span>です。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<div class="summary-box" data-title="助成要件"><p>夫婦の一方または双方が佐野市に住所を有すること</p><p>法律上の婚姻関係にある夫婦（事実婚含む場合あり）</p><p>医療保険に加入していること</p><p>市税を滞納していないこと</p></div><p>佐野市役所健康増進課に申請書・医療機関の証明書・領収書を提出します。</p><p><span class="marker">治療終了日の属する年度内に申請してください</span>。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>保険適用後の自己負担額に対し、<strong>1回の治療あたり最大20万円</strong>を助成します。</p><p><span class="marker">栃木県の不妊治療費助成制度との併用が可能</span>です。県の助成後の残額が市の助成対象です。</p><div class="highlight-box">佐野市では保健師による不妊相談も実施しています。治療の進め方や心理的なサポートについても相談できますので、おひとりで悩まず窓口をご利用ください。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.sano.lg.jp/',
+    publishedAt: '2026-03-12',
+  },
+  {
+    slug: 'sano-school-lunch',
+    title: '佐野市 学校給食費補助事業',
+    organization: '佐野市',
+    type: 'local',
+    maxAmount: '第3子以降全額無償',
+    maxAmountNum: 5,
+    category: 'education',
+    prefecture: '栃木県',
+    tags: ['佐野市', '学校給食', '補助金'],
+    eligibility: '佐野市立小中学校に在籍する児童生徒の保護者',
+    applicationPeriod: '毎年4月（年度途中の転入も随時受付）',
+    description: '佐野市が実施する学校給食費補助事業です。第3子以降の児童生徒の給食費を全額無償化しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>佐野市 学校給食費補助事業は、<span class="marker">市立小中学校に在籍する児童生徒の給食費負担を軽減</span>する制度です。</p><p>佐野市は佐野ラーメンに代表される食文化が根付いた街で、学校給食でも地元産の食材を積極的に活用しています。多子世帯の経済的負担を軽減するため、第3子以降の給食費を全額無償化する制度を設けています。</p><p><span class="marker-green">第3子以降のカウントは、18歳未満の子どものうち小中学校に在籍する児童生徒で判定</span>します。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<div class="summary-box" data-title="補助内容"><p>第1子・第2子：給食費の一部補助（年間数千円程度）</p><p>第3子以降：給食費全額無償</p><p>就学援助認定世帯：給食費全額支給</p></div><p>第3子以降の全額無償化は申請書の提出が必要です。年度当初に学校を通じて案内されます。</p><p><span class="marker">年度途中の転入も随時受け付けています</span>。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>給食費は小学校月額約4,500円、中学校月額約5,000円です。<strong>第3子以降はこの全額が無償</strong>となります。</p><p><span class="marker">家庭内の子の順位は、保護者が養育する18歳未満の子のうち在学している子で判定</span>します。</p><div class="note-box">佐野市の学校給食では、地元の農産物や佐野ラーメンの麺など、地域色豊かなメニューが人気です。食育と地域振興を兼ねた給食プログラムにより、子どもたちの食への関心を高めています。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.sano.lg.jp/',
+    publishedAt: '2026-03-12',
+  },
+  {
+    slug: 'sano-sme-support',
+    title: '佐野市 中小企業経営力強化補助金',
+    organization: '佐野市',
+    type: 'local',
+    maxAmount: '最大50万円',
+    maxAmountNum: 50,
+    category: 'employment',
+    prefecture: '栃木県',
+    tags: ['佐野市', '中小企業', '経営支援'],
+    eligibility: '佐野市内に事業所を有する中小企業者',
+    applicationPeriod: '毎年4月〜12月頃（予算に達し次第終了）',
+    description: '佐野市が実施する中小企業経営力強化補助金です。市内中小企業の経営改善や販路開拓に最大50万円を補助します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>佐野市 中小企業経営力強化補助金は、<span class="marker">市内の中小企業者が経営改善や販路開拓を行う際</span>の費用を補助する制度です。</p><p>佐野市は製造業のほか、佐野ラーメン関連の飲食業や観光業など多様な産業が集積しています。アウトレットモールの集客力を活かした事業展開も盛んで、中小企業の経営力向上を通じた地域経済の活性化を図っています。</p><p>補助率は対象経費の2分の1以内で、<strong>上限は50万円</strong>です。<span class="marker-green">展示会出展費、ホームページ制作費、設備導入費などが対象</span>です。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<div class="summary-box" data-title="主な要件"><p>佐野市内に本社または事業所を有する中小企業者であること</p><p>市税を滞納していないこと</p><p>経営改善計画書を作成・提出できること</p><p>同一経費で他の補助金を受けていないこと</p></div><p>佐野市役所産業振興課に申請書・経営改善計画書・見積書を提出します。</p><p><span class="marker">事業着手前の申請が必須</span>です。交付決定前の経費は対象外となります。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>補助額は対象経費の2分の1以内で、<strong>上限50万円</strong>です。設備費・広告宣伝費・展示会出展費・専門家謝金等が対象です。</p><p><span class="marker">事業完了後に実績報告書と証拠書類の提出が必要</span>です。</p><div class="highlight-box">佐野市商工会議所では、補助金申請に関する無料相談のほか、経営革新計画の策定支援も行っています。事前に相談しながら計画を練ることで、採択率を高められます。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.sano.lg.jp/',
+    publishedAt: '2026-03-12',
+  },
+  {
+    slug: 'sano-nursing-home-reform',
+    title: '佐野市 高齢者住宅改修助成事業',
+    organization: '佐野市',
+    type: 'local',
+    maxAmount: '最大15万円',
+    maxAmountNum: 15,
+    category: 'nursing',
+    prefecture: '栃木県',
+    tags: ['佐野市', '住宅改修', '介護支援'],
+    eligibility: '佐野市に住所を有する65歳以上の方または要介護認定者がいる世帯',
+    applicationPeriod: '通年（予算に達し次第終了）',
+    description: '佐野市が実施する高齢者住宅改修助成事業です。バリアフリー改修工事に最大15万円を助成します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>佐野市 高齢者住宅改修助成事業は、<span class="marker">高齢者が安全に自宅で暮らし続けるための住宅改修</span>に対し、費用の一部を助成する制度です。</p><p>佐野市では、高齢者が住み慣れた自宅・地域で安心して暮らし続けられるよう、手すりの設置や段差解消などのバリアフリー化工事を助成しています。介護保険の住宅改修費とは別枠の市独自の制度です。</p><p>助成率は対象工事費の2分の1以内で、<strong>上限は15万円</strong>です。<span class="marker-green">介護保険の住宅改修費との併用が可能</span>です。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<div class="summary-box" data-title="対象工事"><p>手すりの取付け（廊下・浴室・トイレ等）</p><p>段差解消・スロープ設置</p><p>床材の滑り止め処理</p><p>浴室・トイレの改修</p></div><p>佐野市役所いきいき高齢課の窓口に申請書・見積書・施工箇所の写真を提出します。</p><p><span class="marker">工事着手前の事前申請が必須</span>です。着工済みの工事は対象外となります。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>助成額は対象工事費の2分の1以内で、<strong>上限15万円</strong>です。介護保険の住宅改修費と合わせると最大35万円の支援が受けられます。</p><p><span class="marker">1世帯につき1回限りの利用</span>です。必要な改修をまとめて計画しましょう。</p><div class="note-box">佐野市の地域包括支援センターでは、住宅改修に関する無料相談を受け付けています。理学療法士やケアマネジャーのアドバイスをもとに、効果的な改修計画を立てることができます。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.sano.lg.jp/',
+    publishedAt: '2026-03-12',
+  },
+  {
+    slug: 'sano-energy-support',
+    title: '佐野市 住宅用太陽光発電システム設置補助金',
+    organization: '佐野市',
+    type: 'local',
+    maxAmount: '最大10万円',
+    maxAmountNum: 10,
+    category: 'living',
+    prefecture: '栃木県',
+    tags: ['佐野市', '太陽光発電', '省エネ補助'],
+    eligibility: '佐野市に住所を有する世帯で、住宅用太陽光発電システムを設置する方',
+    applicationPeriod: '毎年4月〜翌年2月（予算に達し次第終了）',
+    description: '佐野市が実施する住宅用太陽光発電システム設置補助金です。太陽光発電システムの設置に最大10万円を補助します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>佐野市 住宅用太陽光発電システム設置補助金は、<span class="marker">自宅に太陽光発電システムを設置する方</span>に対し、費用の一部を補助する制度です。</p><p>佐野市は平地と丘陵地が広がり、日照条件に恵まれた地域です。脱炭素社会の実現に向けて、家庭での再生可能エネルギーの活用を推進しています。</p><p>補助額は出力1kWあたり2万円で、<strong>上限は10万円</strong>です。<span class="marker-green">蓄電池との同時設置でさらに加算される場合があります</span>。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<div class="summary-box" data-title="主な要件"><p>佐野市に住所を有し、市内の自己居住用住宅に設置すること</p><p>電力会社と電力受給契約を締結すること</p><p>未使用品の太陽光発電システムであること</p><p>市税の滞納がないこと</p></div><p>佐野市役所環境政策課に申請書・システムの仕様書・見積書を提出します。</p><p><span class="marker">システム設置前の事前申請が必要</span>です。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>補助額は<strong>出力1kWあたり2万円（上限10万円・5kW相当）</strong>です。蓄電池同時設置の場合は追加補助があります。</p><p><span class="marker">先着順で予算に達し次第終了</span>です。</p><div class="highlight-box">太陽光発電は停電時の非常電源としても活用でき、防災対策にもなります。佐野市では国や県の補助金との併用が可能な場合がありますので、複数の制度を活用して導入コストを抑えましょう。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.sano.lg.jp/',
+    publishedAt: '2026-03-12',
+  },
+  {
+    slug: 'sano-seismic-diagnosis',
+    title: '佐野市 木造住宅耐震診断助成事業',
+    organization: '佐野市',
+    type: 'local',
+    maxAmount: '診断費用の自己負担を大幅軽減',
+    maxAmountNum: 0,
+    category: 'disaster',
+    prefecture: '栃木県',
+    tags: ['佐野市', '耐震診断', '防災'],
+    eligibility: '佐野市内に旧耐震基準（1981年5月以前）で建築された木造住宅を所有する方',
+    applicationPeriod: '毎年5月〜12月頃（予算に達し次第終了）',
+    description: '佐野市が実施する木造住宅耐震診断助成事業です。旧耐震基準の木造住宅の耐震診断費用を助成します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>佐野市 木造住宅耐震診断助成事業は、<span class="marker">1981年5月31日以前の旧耐震基準で建築された木造住宅</span>の耐震診断費用を助成する制度です。</p><p>佐野市は関東平野の北部に位置し、足尾山地の影響を受ける地形です。地震への備えとして、旧耐震基準の住宅の安全性確認を推進しています。</p><p><span class="marker-green">診断費用のほとんどを市が負担し、自己負担は数千円程度です</span>。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<div class="summary-box" data-title="対象住宅の要件"><p>佐野市内に所在する木造住宅であること</p><p>1981年5月31日以前に着工された住宅であること</p><p>2階建て以下の在来軸組工法であること</p><p>所有者が居住していること</p></div><p>佐野市役所都市計画課に申請書を提出します。建築時期のわかる書類が必要です。</p><p><span class="marker">年間の実施件数に限りがあるため、早めにお申し込みください</span>。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>診断費用の大部分を市が負担し、<strong>自己負担は数千円程度</strong>で済みます。</p><p><span class="marker">診断の結果、耐震性不足と判定された場合は耐震改修工事の補助制度もあります</span>。</p><div class="note-box">耐震診断は安全性の評価であり、改修工事は含まれません。2011年の東日本大震災以降、栃木県でも耐震化の重要性が再認識されています。まずは我が家の耐震性を確認しましょう。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.sano.lg.jp/',
+    publishedAt: '2026-03-12',
+  },
+
+  // ────────────────────────────────────────────────
+  // 桐生市（群馬県）9件: childcare×2, housing, medical, education, employment, nursing, living, disaster
+  // ────────────────────────────────────────────────
+  {
+    slug: 'kiryu-childcare-subsidy',
+    title: '桐生市 子育て世帯応援給付金',
+    organization: '桐生市',
+    type: 'local',
+    maxAmount: '子ども1人あたり最大5万円',
+    maxAmountNum: 5,
+    category: 'childcare',
+    prefecture: '群馬県',
+    tags: ['桐生市', '子育て支援', '給付金'],
+    eligibility: '桐生市に住所を有し、18歳未満の子どもを養育している保護者',
+    applicationPeriod: '毎年4月〜翌年3月（通年受付）',
+    description: '桐生市が実施する子育て世帯応援給付金です。子育て世帯の経済的負担を軽減するため、子ども1人あたり最大5万円を支給します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>桐生市 子育て世帯応援給付金は、<span class="marker">18歳未満の子どもを養育する世帯</span>に対し、子育てにかかる費用を支援する給付金です。</p><p>桐生市は「桐生織」で知られる絹織物の街で、近代化産業遺産に認定された「のこぎり屋根」の工場群が今も残る独特の景観を持っています。群馬大学理工学部が所在する文教都市でもあり、ものづくりと学びの伝統を背景に子育て環境の整備を進めています。</p><p><span class="marker-green">所得制限なしで、対象世帯全世帯が受給できます</span>。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<p>桐生市に住民登録があり、18歳未満の子どもを養育している保護者が対象です。</p><div class="summary-box" data-title="申請に必要なもの"><p>申請書（市役所窓口またはホームページからダウンロード）</p><p>保護者の本人確認書類</p><p>振込先口座情報</p></div><p>桐生市役所子育て支援課の窓口で受け付けています。<span class="marker">郵送での申請も可能</span>です。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>支給額は子ども1人あたり<strong>最大5万円</strong>です。多子世帯への加算が設けられる場合があります。</p><p><span class="marker">年度内に申請が必要です</span>。期限を過ぎると受給できなくなります。</p><div class="note-box">桐生市では子育て支援センター「わたらせっ子」など、親子の交流や相談の場も充実しています。桐生が岡動物園・遊園地は入場無料で、子育て世帯に人気のスポットです。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.kiryu.lg.jp/',
+    publishedAt: '2026-03-12',
+  },
+  {
+    slug: 'kiryu-birth-bonus',
+    title: '桐生市 出産祝い金制度',
+    organization: '桐生市',
+    type: 'local',
+    maxAmount: '第1子5万円・第3子以降10万円',
+    maxAmountNum: 10,
+    category: 'childcare',
+    prefecture: '群馬県',
+    tags: ['桐生市', '出産祝い金', '給付金'],
+    eligibility: '桐生市に住所を有し、子どもが生まれた世帯の保護者',
+    applicationPeriod: '出生届提出後〜生後6か月以内',
+    description: '桐生市が実施する出産祝い金制度です。子どもの出生に際し、第1子5万円、第3子以降10万円を支給します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>桐生市 出産祝い金制度は、<span class="marker">市内に住所を有する世帯に子どもが生まれた際</span>に祝い金を支給する制度です。</p><p>桐生市は渡良瀬川の清流と赤城山の自然に囲まれた街で、1300年以上の歴史を持つ桐生織の伝統が息づいています。「織物のまち」から「ものづくりのまち」へと進化を遂げる中、人口減少対策として出産時の経済的支援を行っています。</p><p>支給額は<strong>第1子5万円、第2子5万円、第3子以降10万円</strong>です。<span class="marker-green">多胎児はそれぞれに支給されます</span>。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<div class="summary-box" data-title="支給要件"><p>出生日に桐生市に住所を有すること</p><p>出生届が受理されていること</p><p>生後6か月以内に申請すること</p><p>市税の滞納がないこと</p></div><p>桐生市役所子育て支援課の窓口で申請します。出生届と同時に手続きすると便利です。</p><p><span class="marker">生後6か月の期限を過ぎると受給権が消滅します</span>のでご注意ください。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>支給額は<strong>第1子5万円、第2子5万円、第3子以降10万円</strong>です。養育する18歳未満の子の人数で順位を判定します。</p><p><span class="marker">申請後1〜2か月程度で指定口座に振り込まれます</span>。</p><div class="highlight-box">桐生市では出産祝い金のほかにも、妊婦健診や産後ケアの助成を行っています。桐生が岡動物園は入園無料で子育て世帯に人気のお出かけスポットです。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.kiryu.lg.jp/',
+    publishedAt: '2026-03-12',
+  },
+  {
+    slug: 'kiryu-newlywed-rent',
+    title: '桐生市 結婚新生活支援補助金',
+    organization: '桐生市',
+    type: 'local',
+    maxAmount: '最大30万円',
+    maxAmountNum: 30,
+    category: 'housing',
+    prefecture: '群馬県',
+    tags: ['桐生市', '新婚世帯', '家賃補助'],
+    eligibility: '桐生市内に居住する新婚世帯で、夫婦の合計所得が500万円未満の方',
+    applicationPeriod: '通年（婚姻届出後1年以内に申請）',
+    description: '桐生市が実施する結婚新生活支援補助金です。新婚世帯の住居費や引越費用を最大30万円補助します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>桐生市 結婚新生活支援補助金は、<span class="marker">新婚世帯の住居費・引越費用</span>を補助し、結婚に伴う新生活のスタートを経済的に支援する制度です。</p><p>桐生市は群馬県東部に位置し、わたらせ渓谷鐵道やのこぎり屋根工場群など、レトロな魅力が注目される街です。若い世帯の転入と定住を促進するため、結婚を機に桐生市で新生活を始める方への支援を充実させています。</p><p>補助額は<strong>最大30万円</strong>です。<span class="marker-green">賃貸の家賃・敷金・礼金のほか、引越費用や住宅購入費用も対象</span>です。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<div class="summary-box" data-title="主な要件"><p>婚姻届出日において夫婦ともに39歳以下であること</p><p>夫婦の合計所得が500万円未満であること</p><p>桐生市に住民登録があること</p><p>市税の滞納がないこと</p></div><p>桐生市役所市民生活課に申請書・婚姻届受理証明書・賃貸借契約書（または売買契約書）・引越費用の領収書を提出します。</p><p><span class="marker">婚姻届出日から1年以内の申請が必要</span>です。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>住居費（家賃・敷金・礼金等）と引越費用の合計で<strong>最大30万円</strong>を補助します。29歳以下の場合は上限が引き上げられる場合があります。</p><p><span class="marker">公営住宅や社宅への入居は対象外</span>です。</p><div class="note-box">桐生市は家賃水準が都市部と比べて割安で、広い物件を手頃な価格で借りられます。のこぎり屋根をリノベーションしたシェアオフィスやカフェなど、古い建物を活かした街づくりも進んでおり、クリエイティブな暮らしを求める若い世帯にも人気です。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.kiryu.lg.jp/',
+    publishedAt: '2026-03-12',
+  },
+  {
+    slug: 'kiryu-disability-medical',
+    title: '桐生市 重度障害者医療費助成制度',
+    organization: '桐生市',
+    type: 'local',
+    maxAmount: '医療費自己負担分を助成',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '群馬県',
+    tags: ['桐生市', '障害者医療', '助成金'],
+    eligibility: '桐生市に住所を有する重度の障がいのある方',
+    applicationPeriod: '通年',
+    description: '桐生市が実施する重度障害者医療費助成制度です。重度の障がいのある方の医療費自己負担分を助成します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>桐生市 重度障害者医療費助成制度は、<span class="marker">重度の障がいのある方が安心して必要な医療を受けられるよう</span>、保険診療の自己負担分を助成する制度です。</p><p>桐生市は「ものづくりのまち」として、すべての人が暮らしやすい街づくりを推進しています。障がいのある方の医療費負担を軽減することで、安心して治療を受けながら地域で生活できる環境を支えています。</p><p><span class="marker-green">群馬県の制度に基づき、身体障害者手帳1・2級、療育手帳A、精神障害者保健福祉手帳1級の方が対象</span>です。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<div class="summary-box" data-title="対象となる障害等級"><p>身体障害者手帳1級または2級</p><p>療育手帳A</p><p>精神障害者保健福祉手帳1級</p></div><p>桐生市役所福祉課の窓口で申請します。障害者手帳・健康保険証・本人確認書類・振込先口座が必要です。</p><p><span class="marker">手帳の交付後すみやかに申請してください</span>。申請月の翌月から助成が開始されます。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p><strong>保険診療の自己負担分が全額助成</strong>されます。群馬県内の医療機関では福祉医療費受給資格者証を提示することで窓口負担がなくなります。</p><p><span class="marker">県外受診は一旦自己負担分を支払い、後日償還払いの手続き</span>が必要です。</p><div class="note-box">保険適用外の費用（差額ベッド代・文書料等）は助成対象外です。群馬県では「福祉医療制度」として県と市町村が共同で運営しており、桐生市の窓口で一元的に手続きできます。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.kiryu.lg.jp/',
+    publishedAt: '2026-03-12',
+  },
+  {
+    slug: 'kiryu-scholarship',
+    title: '桐生市 奨学金制度',
+    organization: '桐生市',
+    type: 'local',
+    maxAmount: '月額最大4万円（大学）',
+    maxAmountNum: 4,
+    category: 'education',
+    prefecture: '群馬県',
+    tags: ['桐生市', '奨学金', '教育支援'],
+    eligibility: '桐生市に住所を有する方の子で、高校・大学等に進学する学生',
+    applicationPeriod: '毎年2月〜4月頃',
+    description: '桐生市が実施する奨学金制度です。経済的理由により就学が困難な学生に対し、無利子の奨学金を貸し付けます。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>桐生市 奨学金制度は、<span class="marker">経済的な理由で進学が困難な学生</span>に対し、奨学金を無利子で貸し付ける制度です。</p><p>桐生市には群馬大学理工学部が所在し、「ものづくりのまち」として技術者・研究者の育成に貢献してきた歴史があります。桐生織の伝統に培われた職人精神と学びの文化を受け継ぎ、若者の進学を経済面から支援しています。</p><p><span class="marker-green">無利子貸付で、卒業後の返還負担を最小限に抑えています</span>。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<div class="summary-box" data-title="申請要件"><p>保護者が桐生市に住所を有すること</p><p>高等学校、専修学校、短期大学、大学に在学または進学予定であること</p><p>学業成績が良好で、経済的に就学が困難であること</p><p>連帯保証人を立てられること</p></div><p>桐生市教育委員会学校教育課に申請書・在学証明書・所得証明書等を提出します。</p><p><span class="marker">毎年2月〜4月の募集期間中に申請が必要</span>です。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>貸付月額は<strong>高校2万円程度、大学・短大は最大4万円程度</strong>です。正規の修業期間にわたって貸し付けます。</p><p><span class="marker">卒業後一定期間を経て、分割返還が始まります</span>。返還期間は貸付期間の2倍以内です。</p><div class="highlight-box">桐生市の奨学金は無利子のため、利息負担がありません。群馬大学理工学部への地元進学のほか、県外の大学等への進学にも利用できます。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.kiryu.lg.jp/',
+    publishedAt: '2026-03-12',
+  },
+  {
+    slug: 'kiryu-telework-bonus',
+    title: '桐生市 テレワーク移住支援補助金',
+    organization: '桐生市',
+    type: 'local',
+    maxAmount: '最大20万円',
+    maxAmountNum: 20,
+    category: 'employment',
+    prefecture: '群馬県',
+    tags: ['桐生市', 'テレワーク', '移住補助'],
+    eligibility: '東京圏等から桐生市に移住し、テレワークで就業する方',
+    applicationPeriod: '通年（予算に達し次第終了）',
+    description: '桐生市が実施するテレワーク移住支援補助金です。テレワーク環境の整備費用を最大20万円補助します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>桐生市 テレワーク移住支援補助金は、<span class="marker">東京圏等から桐生市に移住しテレワークで働く方</span>を対象に、環境整備にかかる費用を補助する制度です。</p><p>桐生市はのこぎり屋根の工場群をリノベーションしたカフェやアトリエが点在する、クリエイティブな雰囲気の街です。わたらせ渓谷鐵道の車窓から望む渓谷美や、桐生が岡動物園の無料開放など、暮らしの質の高さが移住者に好評です。</p><p>補助額は<strong>最大20万円</strong>です。<span class="marker-green">PC・モニター等の機器購入費やインターネット環境整備費が対象</span>です。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<div class="summary-box" data-title="主な要件"><p>東京圏等から桐生市に転入した方</p><p>テレワークにより転入前の勤務先で引き続き就業すること</p><p>転入後3か月以上1年以内に申請すること</p><p>5年以上桐生市に居住する意思があること</p></div><p>桐生市役所産業政策課に申請書・テレワーク実施証明書・購入物の領収書を提出します。</p><p><span class="marker">転入前の事前相談も受け付けています</span>。移住コーディネーターが対応します。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>補助額はテレワーク環境整備にかかる経費に対し<strong>最大20万円</strong>です。通信機器・通信回線・コワーキングスペース利用料等が対象です。</p><p><span class="marker">5年以内に桐生市から転出した場合は返還が求められます</span>。</p><div class="note-box">桐生市では移住体験住宅や空き家バンクも運営しており、移住前のお試し居住が可能です。のこぎり屋根を活用したコワーキングスペースなど、桐生市ならではの働く環境も魅力です。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.kiryu.lg.jp/',
+    publishedAt: '2026-03-12',
+  },
+  {
+    slug: 'kiryu-nursing-equipment',
+    title: '桐生市 介護用品支給事業',
+    organization: '桐生市',
+    type: 'local',
+    maxAmount: '年間最大10万円相当',
+    maxAmountNum: 10,
+    category: 'nursing',
+    prefecture: '群馬県',
+    tags: ['桐生市', '介護用品', '支給事業'],
+    eligibility: '桐生市に住所を有する要介護認定者を在宅で介護している家族',
+    applicationPeriod: '通年',
+    description: '桐生市が実施する介護用品支給事業です。在宅で介護を行う家族に紙おむつ等の介護用品を支給します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>桐生市 介護用品支給事業は、<span class="marker">在宅で要介護者を介護している家族の経済的負担を軽減する</span>ため、紙おむつ等の介護消耗品を支給する制度です。</p><p>桐生市は群馬県内でも高齢化が進んでいる地域のひとつで、住み慣れた地域で安心して介護を受け続けられる環境づくりに力を入れています。</p><p><span class="marker-green">紙おむつ、尿取りパッド、使い捨て手袋、清拭剤などが支給対象</span>です。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<div class="summary-box" data-title="支給要件"><p>桐生市に住所を有する要介護4・5の認定者を在宅で介護していること</p><p>介護を受ける方が施設に入所していないこと</p><p>介護を受ける方の属する世帯が市民税非課税であること</p></div><p>桐生市役所長寿支援課の窓口で申請します。介護保険被保険者証と認定結果通知書が必要です。</p><p><span class="marker">認定月から支給が開始され、毎月介護用品が届きます</span>。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>支給額は<strong>月額約5,000〜10,000円相当の介護用品</strong>の現物支給です。年間で最大10万円相当となります。</p><p><span class="marker">入院中や施設入所中は支給が一時停止</span>します。退院・退所後は届出により再開します。</p><div class="note-box">介護保険の福祉用具貸与（介護ベッド・車いす等）とは別の事業です。桐生市の地域包括支援センターでは在宅介護全般の相談を受け付けていますので、お気軽にご相談ください。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.kiryu.lg.jp/',
+    publishedAt: '2026-03-12',
+  },
+  {
+    slug: 'kiryu-elderly-support',
+    title: '桐生市 高齢者見守り配食サービス事業',
+    organization: '桐生市',
+    type: 'local',
+    maxAmount: '1食400円の自己負担で利用可',
+    maxAmountNum: 0,
+    category: 'living',
+    prefecture: '群馬県',
+    tags: ['桐生市', '配食サービス', '高齢者見守り'],
+    eligibility: '桐生市に住所を有する65歳以上のひとり暮らし高齢者等',
+    applicationPeriod: '通年',
+    description: '桐生市が実施する高齢者見守り配食サービス事業です。ひとり暮らし高齢者等に食事の宅配と安否確認を行います。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>桐生市 高齢者見守り配食サービス事業は、<span class="marker">65歳以上のひとり暮らし高齢者や高齢者のみの世帯</span>に対し、食事の宅配と安否確認を行う事業です。</p><p>桐生市は山間部を含む広い市域を持ち、買い物や調理が困難な高齢者世帯への支援が重要な課題です。栄養バランスの取れた食事を届けるとともに、配達時の声かけによる安否確認を行い、高齢者の孤立防止と健康維持を図っています。</p><p><span class="marker-green">配食サービスは安否確認を兼ねており、異変を感じた際は速やかに関係機関へ連絡する体制</span>が整っています。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<div class="summary-box" data-title="利用要件"><p>桐生市に住所を有する65歳以上の方</p><p>ひとり暮らしまたは高齢者のみの世帯</p><p>自力での調理や買い物が困難な方</p></div><p>桐生市役所長寿支援課または地域包括支援センターで申請します。</p><p><span class="marker">介護保険の認定を受けていない方も利用可能</span>です。まずは窓口にご相談ください。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>利用者の自己負担は<strong>1食あたり400円程度</strong>で、残りは市が助成しています。週数回の利用が可能です。</p><p><span class="marker">配達時に応答がない場合は緊急連絡先や関係機関に通報する仕組み</span>になっています。</p><div class="highlight-box">桐生市では配食サービスのほかにも、緊急通報装置の貸与や除雪ボランティアなど、高齢者の生活を支える複数のサービスを提供しています。わたらせ渓谷沿いの山間部にお住まいの方も安心して利用できます。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.kiryu.lg.jp/',
+    publishedAt: '2026-03-12',
+  },
+  {
+    slug: 'kiryu-bousai-equipment',
+    title: '桐生市 家庭用防災資機材購入補助金',
+    organization: '桐生市',
+    type: 'local',
+    maxAmount: '最大5万円',
+    maxAmountNum: 5,
+    category: 'disaster',
+    prefecture: '群馬県',
+    tags: ['桐生市', '防災資機材', '補助金'],
+    eligibility: '桐生市に住所を有する世帯で、家庭用防災資機材を購入する方',
+    applicationPeriod: '毎年4月〜翌年2月（予算に達し次第終了）',
+    description: '桐生市が実施する家庭用防災資機材購入補助金です。感震ブレーカーや家具固定器具等の購入に最大5万円を補助します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>桐生市 家庭用防災資機材購入補助金は、<span class="marker">家庭の地震・風水害対策のための防災資機材の購入</span>に対し、費用の一部を補助する制度です。</p><p>桐生市は渡良瀬川や桐生川の流域に位置し、過去に台風による浸水被害を経験しています。また、赤城山南面の地形的特性から土砂災害リスクもあります。家庭レベルでの防災力向上を経済的に支援しています。</p><p>補助率は購入費用の2分の1以内で、<strong>上限は5万円</strong>です。<span class="marker-green">感震ブレーカー、家具転倒防止器具、止水板、雨水タンク等が対象</span>です。</p>'
+      },
+      {
+        heading: '対象者と申請方法',
+        content: '<div class="summary-box" data-title="対象資機材"><p>感震ブレーカー（地震時の通電火災防止）</p><p>家具転倒防止器具（金具・つっぱり棒等）</p><p>止水板・防水板（浸水対策）</p><p>雨水貯留タンク</p></div><p>桐生市役所安全安心課に申請書・見積書または領収書を提出します。</p><p><span class="marker">購入前の事前申請が原則ですが、事後申請が可能な場合もあります</span>。</p>'
+      },
+      {
+        heading: '支給額と注意点',
+        content: '<p>補助額は購入費用の2分の1以内で、<strong>上限5万円</strong>です。1世帯につき年度内1回限りです。</p><p><span class="marker">設置工事を伴う場合は施工業者の見積書も必要</span>です。</p><div class="note-box">桐生市は渡良瀬川流域の浸水想定区域がハザードマップで示されています。お住まいの地域のリスクを確認し、必要な防災対策を講じましょう。市では防災出前講座や地域防災訓練も定期的に実施しています。</div>'
+      }
+    ],
+    officialUrl: 'https://www.city.kiryu.lg.jp/',
+    publishedAt: '2026-03-12',
+  },
 ];
