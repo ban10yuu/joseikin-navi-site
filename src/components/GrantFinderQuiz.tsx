@@ -117,9 +117,15 @@ export default function GrantFinderQuiz() {
       </div>
 
       {visible.length === 0 && hasAnyFilter && (
-        <div className="text-center py-16">
-          <p className="text-slate-400 text-lg mb-2">該当する助成金が見つかりませんでした</p>
-          <p className="text-slate-400 text-sm">条件を変更してお試しください</p>
+        <div className="text-center py-12 bg-white border border-gray-200 rounded-lg mt-6">
+          <p className="text-gray-500 text-base font-semibold mb-1">該当する助成金が見つかりませんでした</p>
+          <p className="text-gray-400 text-sm mb-4">条件を変更するか、地域設定を「全国」に戻してお試しください。</p>
+          <button
+            onClick={() => { setChecked(new Set()); setPrefecture(null); setShowCount(20); }}
+            className="text-sm text-blue-600 hover:text-blue-800 font-medium"
+          >
+            条件をリセットする
+          </button>
         </div>
       )}
 
