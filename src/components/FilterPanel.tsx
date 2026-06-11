@@ -33,10 +33,10 @@ export default function FilterPanel({
   const hasFilter = selectedCategory || selectedType || selectedPrefecture || searchQuery;
 
   return (
-    <div className="bg-white rounded-2xl border border-slate-200 p-5 shadow-sm">
+    <div className="bg-card rounded-xl border-2 border-navy p-5 shadow-sm">
       {/* Search */}
       <div className="relative mb-5">
-        <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-navy" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
         </svg>
         <input
@@ -44,13 +44,13 @@ export default function FilterPanel({
           placeholder="助成金名、キーワードで検索..."
           value={searchQuery}
           onChange={(e) => onSearchChange(e.target.value)}
-          className="w-full pl-10 pr-4 py-3 rounded-xl border border-slate-200 bg-slate-50 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+          className="w-full pl-10 pr-4 py-3 rounded-lg border-2 border-line-strong bg-base text-sm text-ink placeholder:text-faint focus:outline-none focus:ring-2 focus:ring-accent focus:border-navy transition-all"
         />
       </div>
 
       {/* Type Filter */}
       <div className="mb-4">
-        <h4 className="text-xs font-semibold text-slate-500 uppercase mb-2">制度の種類</h4>
+        <h4 className="text-xs font-bold text-navy tracking-wider mb-2">制度の種類</h4>
         <div className="flex flex-wrap gap-2">
           {types.map(([key, label]) => (
             <button
@@ -66,7 +66,7 @@ export default function FilterPanel({
 
       {/* Category Filter */}
       <div className="mb-4">
-        <h4 className="text-xs font-semibold text-slate-500 uppercase mb-2">カテゴリ</h4>
+        <h4 className="text-xs font-bold text-navy tracking-wider mb-2">カテゴリ</h4>
         <div className="flex flex-wrap gap-2">
           {categories.map(([key, label]) => (
             <button
@@ -82,11 +82,11 @@ export default function FilterPanel({
 
       {/* Prefecture Filter */}
       <div className="mb-4">
-        <h4 className="text-xs font-semibold text-slate-500 uppercase mb-2">地域</h4>
+        <h4 className="text-xs font-bold text-navy tracking-wider mb-2">地域</h4>
         <select
           value={selectedPrefecture || ''}
           onChange={(e) => onPrefectureChange(e.target.value || null)}
-          className="w-full px-3 py-2.5 rounded-xl border border-slate-200 bg-slate-50 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+          className="w-full px-3 py-2.5 rounded-lg border-2 border-line-strong bg-base text-sm text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-navy"
         >
           <option value="">すべての地域</option>
           {PREFECTURES.map((pref) => (
@@ -96,10 +96,10 @@ export default function FilterPanel({
       </div>
 
       {/* Results Count & Clear */}
-      <div className="flex items-center justify-between pt-3 border-t border-slate-100">
-        <p className="text-sm text-slate-500">
-          <span className="font-bold text-blue-600">{filteredCount}</span>
-          <span className="text-slate-400"> / {totalCount}件</span>
+      <div className="flex items-center justify-between pt-3 border-t border-line">
+        <p className="text-sm text-muted">
+          <span className="font-black text-accent-deep text-base">{filteredCount}</span>
+          <span className="text-faint"> / {totalCount}件</span>
         </p>
         {hasFilter && (
           <button
@@ -109,7 +109,7 @@ export default function FilterPanel({
               onPrefectureChange(null);
               onSearchChange('');
             }}
-            className="text-xs text-red-500 hover:text-red-600 font-medium"
+            className="text-xs text-accent-deep hover:text-accent font-bold underline underline-offset-2"
           >
             フィルタをクリア
           </button>

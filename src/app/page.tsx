@@ -28,30 +28,32 @@ export default function HomePage() {
   return (
     <>
       {/* ヒーロー: 検索へ誘導するシンプルなバナー */}
-      <section className="bg-[#1d4ed8] text-white py-8 sm:py-10 px-4">
+      <section className="bg-navy text-white py-10 sm:py-14 px-4 border-b-4 border-accent">
         <div className="max-w-4xl mx-auto">
-          <p className="text-sm text-blue-200 mb-1.5">{allGrants.length}件の助成金・補助金を掲載</p>
-          <h1 className="text-xl sm:text-2xl font-bold mb-2 leading-snug">
-            あなたが使える助成金・補助金を探せます
+          <p className="inline-block text-xs font-bold text-white bg-white/10 border border-white/25 rounded-full px-3 py-1 mb-3 tracking-wide">
+            {allGrants.length}件の助成金・補助金を掲載
+          </p>
+          <h1 className="text-2xl sm:text-3xl font-black mb-3 leading-snug tracking-wide">
+            あなたが使える<span className="text-[#ffb27d]">助成金・補助金</span>を探せます
           </h1>
-          <p className="text-blue-100 text-sm leading-relaxed mb-5 max-w-xl">
+          <p className="text-white/80 text-sm sm:text-base leading-relaxed mb-6 max-w-xl">
             子育て・住宅・医療・教育・就職・介護など8カテゴリ。条件を選ぶだけで、該当する制度が見つかります。
           </p>
-          <a href="#finder" className="inline-block px-5 py-2.5 bg-white text-blue-700 font-semibold text-sm rounded hover:bg-blue-50 transition-colors">
+          <a href="#finder" className="inline-block px-7 py-3 bg-accent text-white font-bold text-sm rounded-lg hover:bg-accent-deep transition-colors shadow-md">
             助成金を探す
           </a>
         </div>
       </section>
 
       {/* カテゴリナビ */}
-      <section className="bg-white border-b border-gray-200 py-3">
+      <section className="bg-card border-b border-line py-4">
         <div className="max-w-4xl mx-auto px-4">
           <div className="flex flex-wrap gap-2">
             {categories.map(([key, label]) => (
               <Link
                 key={key}
                 href={`/category/${key}/`}
-                className="flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded bg-gray-50 text-gray-600 hover:bg-blue-50 hover:text-blue-700 border border-gray-200 transition-colors"
+                className="flex items-center gap-1.5 text-xs font-bold px-3.5 py-2 rounded-full bg-card text-navy hover:bg-navy hover:text-white border-[1.5px] border-line-strong hover:border-navy transition-colors"
               >
                 <img src={CATEGORY_IMAGES[key]} alt="" className="w-4 h-4 object-contain" />
                 {label}
@@ -78,17 +80,17 @@ export default function HomePage() {
       </section>
 
       {/* 注目の助成金（金額上位） */}
-      <section className="py-8 px-4 bg-white border-t border-gray-100">
+      <section className="py-10 px-4 bg-card border-t border-line">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-lg font-bold text-gray-900 mb-1">注目の助成金</h2>
-          <p className="text-sm text-gray-400 mb-5">支給額の大きい制度をピックアップ</p>
+          <h2 className="text-xl font-bold text-navy mb-1 pl-3 border-l-4 border-accent">注目の助成金</h2>
+          <p className="text-sm text-muted mb-5 pl-3">支給額の大きい制度をピックアップ</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
             {topGrants.map((grant) => (
               <GrantCard key={grant.slug} grant={grant} />
             ))}
           </div>
           <div className="text-center">
-            <Link href="/grants/" className="text-sm text-blue-700 hover:text-blue-900 font-semibold">
+            <Link href="/grants/" className="inline-block px-6 py-2.5 text-sm text-navy font-bold border-2 border-navy rounded-full hover:bg-navy hover:text-white transition-colors">
               すべての助成金を見る（{allGrants.length}件）
             </Link>
           </div>
@@ -98,23 +100,23 @@ export default function HomePage() {
       <GoogleAd format="horizontal" className="max-w-4xl mx-auto px-4" />
 
       {/* メール登録CTA */}
-      <section className="py-8 px-4 bg-gray-50 border-t border-gray-200">
-        <div className="max-w-xl mx-auto bg-white border border-gray-200 rounded-lg p-5 sm:p-6">
-          <h2 className="text-base font-bold text-gray-900 mb-1.5">あなたに合った助成金をメールでお届け</h2>
-          <p className="text-sm text-gray-500 mb-4">
+      <section className="py-10 px-4 bg-wash border-t border-line">
+        <div className="max-w-xl mx-auto bg-card border-2 border-navy rounded-xl p-5 sm:p-7 shadow-sm">
+          <h2 className="text-base font-bold text-navy mb-1.5">あなたに合った助成金をメールでお届け</h2>
+          <p className="text-sm text-muted mb-4">
             世帯年収・地域・職業を登録すると、該当する助成金の情報をお知らせします。無料。
           </p>
-          <Link href="/subscribe/" className="inline-block px-5 py-2 bg-[#1d4ed8] text-white font-semibold text-sm rounded hover:bg-blue-800 transition-colors">
+          <Link href="/subscribe/" className="inline-block px-6 py-2.5 bg-accent text-white font-bold text-sm rounded-lg hover:bg-accent-deep transition-colors shadow-sm">
             無料で登録する
           </Link>
         </div>
       </section>
 
       {/* SEOテキスト */}
-      <section className="py-8 px-4 border-t border-gray-100">
+      <section className="py-8 px-4 border-t border-line">
         <div className="max-w-2xl mx-auto">
-          <h2 className="text-sm font-bold text-gray-700 mb-2">助成金ナビについて</h2>
-          <div className="text-sm text-gray-500 space-y-1.5 leading-relaxed">
+          <h2 className="text-sm font-bold text-navy mb-2">助成金ナビについて</h2>
+          <div className="text-sm text-muted space-y-1.5 leading-relaxed">
             <p>
               助成金ナビは、国・都道府県・市区町村・NPO/民間団体が提供する助成金・補助金・給付金の情報を掲載するサイトです。
               {allGrants.length}件の支援制度を8カテゴリに分類して掲載しています。

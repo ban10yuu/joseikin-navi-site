@@ -63,17 +63,17 @@ const faqs = [
 export default function FaqPage() {
   return (
     <>
-      <div className="bg-gradient-to-b from-blue-50 to-white py-8 sm:py-12">
+      <div className="bg-navy py-10 sm:py-14 border-b-4 border-accent">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
-          <nav className="text-xs text-gray-500 mb-4">
-            <Link href="/" className="hover:text-blue-600">ホーム</Link>
+          <nav className="text-xs text-white/60 mb-4">
+            <Link href="/" className="hover:text-white hover:underline underline-offset-2">ホーム</Link>
             <span className="mx-1">/</span>
-            <span className="text-gray-700">よくある質問</span>
+            <span className="text-white/85">よくある質問</span>
           </nav>
-          <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
+          <h1 className="text-2xl sm:text-3xl font-black text-white mb-3 tracking-wide">
             よくある質問（FAQ）
           </h1>
-          <p className="text-gray-600">
+          <p className="text-white/80">
             助成金・補助金・給付金に関するよくある質問をまとめました。
           </p>
         </div>
@@ -86,22 +86,22 @@ export default function FaqPage() {
           {faqs.map((faq, i) => (
             <details
               key={i}
-              className="group border border-gray-200 rounded-lg bg-white overflow-hidden"
+              className="group border-[1.5px] border-line rounded-xl bg-card overflow-hidden open:border-navy"
             >
-              <summary className="flex items-start gap-3 px-5 py-4 cursor-pointer hover:bg-gray-50 transition-colors">
-                <span className="flex-shrink-0 w-7 h-7 rounded-full bg-blue-600 text-white text-sm font-bold flex items-center justify-center mt-0.5">
+              <summary className="flex items-start gap-3 px-5 py-4 cursor-pointer hover:bg-wash transition-colors">
+                <span className="flex-shrink-0 w-7 h-7 rounded-full bg-navy text-white text-sm font-bold flex items-center justify-center mt-0.5">
                   Q
                 </span>
-                <span className="text-sm sm:text-base font-semibold text-gray-900 leading-relaxed">
+                <span className="text-sm sm:text-base font-bold text-navy leading-relaxed">
                   {faq.q}
                 </span>
               </summary>
-              <div className="px-5 pb-5 pt-2 border-t border-gray-100">
+              <div className="px-5 pb-5 pt-2 border-t border-line">
                 <div className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-7 h-7 rounded-full bg-emerald-600 text-white text-sm font-bold flex items-center justify-center mt-0.5">
+                  <span className="flex-shrink-0 w-7 h-7 rounded-full bg-accent text-white text-sm font-bold flex items-center justify-center mt-0.5">
                     A
                   </span>
-                  <p className="text-sm text-gray-700 leading-relaxed">
+                  <p className="text-sm text-ink leading-relaxed">
                     {faq.a}
                   </p>
                 </div>
@@ -113,23 +113,23 @@ export default function FaqPage() {
         <GoogleAd className="mt-8" />
 
         {/* CTA */}
-        <div className="mt-10 bg-blue-50 border border-blue-200 rounded-lg p-6 text-center">
-          <h2 className="text-lg font-bold text-gray-900 mb-2">
+        <div className="mt-10 bg-card border-2 border-navy rounded-xl p-6 text-center shadow-sm">
+          <h2 className="text-lg font-bold text-navy mb-2">
             あなたに合った助成金を探してみましょう
           </h2>
-          <p className="text-sm text-gray-600 mb-4">
+          <p className="text-sm text-muted mb-4">
             トップページの診断クイズで、受給できる可能性のある助成金が分かります。
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             <Link
               href="/"
-              className="inline-block px-6 py-2.5 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-colors"
+              className="inline-block px-6 py-2.5 bg-accent text-white text-sm font-bold rounded-lg hover:bg-accent-deep transition-colors shadow-sm"
             >
               診断クイズを試す
             </Link>
             <Link
               href="/guide/"
-              className="inline-block px-6 py-2.5 bg-white text-blue-600 text-sm font-semibold rounded-lg border border-blue-300 hover:bg-blue-50 transition-colors"
+              className="inline-block px-6 py-2.5 bg-card text-navy text-sm font-bold rounded-lg border-2 border-navy hover:bg-wash transition-colors"
             >
               申請ガイドを見る
             </Link>

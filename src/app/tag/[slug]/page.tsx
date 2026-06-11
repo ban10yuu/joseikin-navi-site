@@ -46,16 +46,18 @@ export default async function TagPage({ params }: Props) {
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
-        <nav className="text-sm text-slate-400 mb-6 flex items-center gap-1">
-          <Link href="/" className="hover:text-blue-600">ホーム</Link>
+        <nav className="text-sm text-faint mb-6 flex items-center gap-1">
+          <Link href="/" className="hover:text-navy hover:underline underline-offset-2">ホーム</Link>
           <span>/</span>
-          <span className="text-slate-600">#{tag}</span>
+          <span className="text-muted">#{tag}</span>
         </nav>
 
-        <h1 className="text-2xl font-black text-slate-800 mb-2">
-          「{tag}」に関する助成金・補助金
-        </h1>
-        <p className="text-sm text-slate-500 mb-8">{grants.length}件の助成金が見つかりました。</p>
+        <div className="border-l-4 border-accent pl-4 mb-8">
+          <h1 className="text-2xl font-black text-navy mb-2">
+            「{tag}」に関する助成金・補助金
+          </h1>
+          <p className="text-sm text-muted">{grants.length}件の助成金が見つかりました。</p>
+        </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-8">
           <div className="space-y-4">

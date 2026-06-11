@@ -91,17 +91,17 @@ const mistakes = [
 export default function GuidePage() {
   return (
     <>
-      <div className="bg-gradient-to-b from-emerald-50 to-white py-8 sm:py-12">
+      <div className="bg-navy py-10 sm:py-14 border-b-4 border-accent">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
-          <nav className="text-xs text-gray-500 mb-4">
-            <Link href="/" className="hover:text-blue-600">ホーム</Link>
+          <nav className="text-xs text-white/60 mb-4">
+            <Link href="/" className="hover:text-white hover:underline underline-offset-2">ホーム</Link>
             <span className="mx-1">/</span>
-            <span className="text-gray-700">申請ガイド</span>
+            <span className="text-white/85">申請ガイド</span>
           </nav>
-          <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
+          <h1 className="text-2xl sm:text-3xl font-black text-white mb-3 tracking-wide">
             助成金の申請ガイド
           </h1>
-          <p className="text-gray-600">
+          <p className="text-white/80">
             初めての方でも安心。助成金・補助金の申請手順を6つのステップで分かりやすく解説します。
           </p>
         </div>
@@ -112,33 +112,33 @@ export default function GuidePage() {
 
         {/* 申請の流れ */}
         <section className="mt-8">
-          <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-            <span className="w-8 h-8 rounded-lg bg-blue-600 text-white flex items-center justify-center text-sm font-bold">1</span>
+          <h2 className="text-xl font-bold text-navy mb-6 flex items-center gap-2">
+            <span className="w-8 h-8 rounded-lg bg-navy text-white flex items-center justify-center text-sm font-bold">1</span>
             申請の流れ（6ステップ）
           </h2>
           <div className="space-y-6">
             {steps.map((step) => (
               <div
                 key={step.num}
-                className="bg-white border border-gray-200 rounded-lg p-5 sm:p-6"
+                className="bg-card border-[1.5px] border-line rounded-xl p-5 sm:p-6"
               >
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-600 text-white font-bold text-lg flex items-center justify-center">
+                  <div className="flex-shrink-0 w-10 h-10 rounded-full bg-accent text-white font-black text-lg flex items-center justify-center">
                     {step.num}
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-base font-bold text-gray-900 mb-2">
+                    <h3 className="text-base font-bold text-navy mb-2">
                       {step.title}
                     </h3>
-                    <p className="text-sm text-gray-600 leading-relaxed mb-3">
+                    <p className="text-sm text-ink leading-relaxed mb-3">
                       {step.desc}
                     </p>
-                    <div className="bg-blue-50 rounded-lg p-3">
-                      <p className="text-xs font-semibold text-blue-700 mb-1.5">ポイント</p>
+                    <div className="bg-wash rounded-lg p-3 border-l-4 border-navy">
+                      <p className="text-xs font-bold text-navy mb-1.5">ポイント</p>
                       <ul className="space-y-1">
                         {step.tips.map((tip, i) => (
-                          <li key={i} className="text-xs text-blue-800 flex items-start gap-1.5">
-                            <span className="text-blue-500 mt-0.5">&#10003;</span>
+                          <li key={i} className="text-xs text-ink flex items-start gap-1.5">
+                            <span className="text-accent-deep font-bold mt-0.5">&#10003;</span>
                             {tip}
                           </li>
                         ))}
@@ -155,26 +155,26 @@ export default function GuidePage() {
 
         {/* よく使う書類 */}
         <section className="mt-10">
-          <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-            <span className="w-8 h-8 rounded-lg bg-emerald-600 text-white flex items-center justify-center text-sm font-bold">2</span>
+          <h2 className="text-xl font-bold text-navy mb-6 flex items-center gap-2">
+            <span className="w-8 h-8 rounded-lg bg-navy text-white flex items-center justify-center text-sm font-bold">2</span>
             よく必要になる書類一覧
           </h2>
-          <div className="bg-white border border-gray-200 rounded-lg overflow-hidden">
+          <div className="bg-card border-2 border-line-strong rounded-xl overflow-hidden">
             <table className="w-full">
               <thead>
-                <tr className="bg-gray-50">
-                  <th className="text-left text-xs font-semibold text-gray-500 px-4 py-3">書類名</th>
-                  <th className="text-left text-xs font-semibold text-gray-500 px-4 py-3 hidden sm:table-cell">取得方法・備考</th>
+                <tr className="bg-navy">
+                  <th className="text-left text-xs font-bold text-white px-4 py-3">書類名</th>
+                  <th className="text-left text-xs font-bold text-white px-4 py-3 hidden sm:table-cell">取得方法・備考</th>
                 </tr>
               </thead>
               <tbody>
                 {commonDocs.map((doc, i) => (
-                  <tr key={i} className="border-t border-gray-100">
+                  <tr key={i} className="border-t border-line">
                     <td className="px-4 py-3">
-                      <p className="text-sm font-medium text-gray-900">{doc.name}</p>
-                      <p className="text-xs text-gray-500 sm:hidden mt-0.5">{doc.detail}</p>
+                      <p className="text-sm font-bold text-navy">{doc.name}</p>
+                      <p className="text-xs text-muted sm:hidden mt-0.5">{doc.detail}</p>
                     </td>
-                    <td className="px-4 py-3 text-sm text-gray-600 hidden sm:table-cell">{doc.detail}</td>
+                    <td className="px-4 py-3 text-sm text-ink hidden sm:table-cell">{doc.detail}</td>
                   </tr>
                 ))}
               </tbody>
@@ -184,15 +184,15 @@ export default function GuidePage() {
 
         {/* よくある失敗 */}
         <section className="mt-10">
-          <h2 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
-            <span className="w-8 h-8 rounded-lg bg-red-600 text-white flex items-center justify-center text-sm font-bold">!</span>
+          <h2 className="text-xl font-bold text-navy mb-6 flex items-center gap-2">
+            <span className="w-8 h-8 rounded-lg bg-accent text-white flex items-center justify-center text-sm font-black">!</span>
             よくある失敗例と対策
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {mistakes.map((m, i) => (
-              <div key={i} className="bg-red-50 border border-red-200 rounded-lg p-4">
-                <h3 className="text-sm font-bold text-red-800 mb-1.5">{m.title}</h3>
-                <p className="text-xs text-red-700 leading-relaxed">{m.desc}</p>
+              <div key={i} className="bg-accent-wash border-[1.5px] border-accent rounded-xl p-4">
+                <h3 className="text-sm font-bold text-accent-deep mb-1.5">{m.title}</h3>
+                <p className="text-xs text-ink leading-relaxed">{m.desc}</p>
               </div>
             ))}
           </div>
@@ -201,23 +201,23 @@ export default function GuidePage() {
         <GoogleAd className="mt-8" />
 
         {/* CTA */}
-        <div className="mt-10 bg-gradient-to-r from-blue-50 to-emerald-50 border border-blue-200 rounded-lg p-6 text-center">
-          <h2 className="text-lg font-bold text-gray-900 mb-2">
+        <div className="mt-10 bg-card border-2 border-navy rounded-xl p-6 text-center shadow-sm">
+          <h2 className="text-lg font-bold text-navy mb-2">
             さっそく助成金を探してみましょう
           </h2>
-          <p className="text-sm text-gray-600 mb-4">
+          <p className="text-sm text-muted mb-4">
             2,500件以上の助成金の中から、あなたに合った制度が見つかります。
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             <Link
               href="/"
-              className="inline-block px-6 py-2.5 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-colors"
+              className="inline-block px-6 py-2.5 bg-accent text-white text-sm font-bold rounded-lg hover:bg-accent-deep transition-colors shadow-sm"
             >
               助成金を探す
             </Link>
             <Link
               href="/faq/"
-              className="inline-block px-6 py-2.5 bg-white text-blue-600 text-sm font-semibold rounded-lg border border-blue-300 hover:bg-blue-50 transition-colors"
+              className="inline-block px-6 py-2.5 bg-card text-navy text-sm font-bold rounded-lg border-2 border-navy hover:bg-wash transition-colors"
             >
               よくある質問
             </Link>

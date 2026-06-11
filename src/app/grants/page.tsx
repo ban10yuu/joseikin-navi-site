@@ -33,29 +33,29 @@ export default function GrantsListPage() {
 
   return (
     <>
-      <div className="bg-gradient-to-b from-blue-50 to-white py-8 sm:py-12">
+      <div className="bg-navy py-10 sm:py-14 border-b-4 border-accent">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <nav className="text-xs text-gray-500 mb-4">
-            <Link href="/" className="hover:text-blue-600">ホーム</Link>
+          <nav className="text-xs text-white/60 mb-4">
+            <Link href="/" className="hover:text-white hover:underline underline-offset-2">ホーム</Link>
             <span className="mx-1">/</span>
-            <span className="text-gray-700">助成金一覧</span>
+            <span className="text-white/85">助成金一覧</span>
           </nav>
-          <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
+          <h1 className="text-2xl sm:text-3xl font-black text-white mb-3 tracking-wide">
             助成金一覧（全{allGrants.length}件）
           </h1>
-          <p className="text-gray-600 text-sm">
+          <p className="text-white/80 text-sm">
             国の制度{nationalCount}件、自治体の制度{localCount}件、民間・NPO{ngoCount}件を掲載しています。
           </p>
 
           {/* タイプ別サマリー */}
-          <div className="flex flex-wrap gap-3 mt-4">
-            <div className="bg-blue-100 text-blue-800 px-3 py-1.5 rounded-lg text-sm font-semibold">
+          <div className="flex flex-wrap gap-3 mt-5">
+            <div className="bg-white/10 text-white border border-white/30 px-4 py-1.5 rounded-full text-sm font-bold">
               国の制度 {nationalCount}件
             </div>
-            <div className="bg-emerald-100 text-emerald-800 px-3 py-1.5 rounded-lg text-sm font-semibold">
+            <div className="bg-white/10 text-white border border-white/30 px-4 py-1.5 rounded-full text-sm font-bold">
               自治体の制度 {localCount}件
             </div>
-            <div className="bg-violet-100 text-violet-800 px-3 py-1.5 rounded-lg text-sm font-semibold">
+            <div className="bg-white/10 text-white border border-white/30 px-4 py-1.5 rounded-full text-sm font-bold">
               民間・NPO {ngoCount}件
             </div>
           </div>
@@ -70,7 +70,7 @@ export default function GrantsListPage() {
               <a
                 key={key}
                 href={`#${key}`}
-                className="text-xs px-3 py-1.5 rounded-full border border-gray-300 text-gray-600 hover:border-blue-400 hover:text-blue-600 transition-colors"
+                className="filter-chip"
               >
                 {label}（{byCategory[key].length}件）
               </a>
@@ -84,8 +84,8 @@ export default function GrantsListPage() {
         {(Object.entries(CATEGORY_LABELS) as [GrantCategory, string][]).map(
           ([cat, label], catIdx) => (
             <section key={cat} id={cat} className="mb-12">
-              <h2 className="text-lg font-bold text-gray-900 mb-4 flex items-center gap-2 scroll-mt-20">
-                <span className="w-1.5 h-6 rounded bg-blue-600" />
+              <h2 className="text-lg font-bold text-navy mb-4 flex items-center gap-2 scroll-mt-20">
+                <span className="w-1.5 h-6 rounded bg-accent" />
                 {label}（{byCategory[cat].length}件）
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -102,23 +102,23 @@ export default function GrantsListPage() {
         <GoogleAd />
 
         {/* CTA */}
-        <div className="mt-8 bg-blue-50 border border-blue-200 rounded-lg p-6 text-center">
-          <h2 className="text-lg font-bold text-gray-900 mb-2">
+        <div className="mt-8 bg-card border-2 border-navy rounded-xl p-6 text-center shadow-sm">
+          <h2 className="text-lg font-bold text-navy mb-2">
             どの助成金が使えるか分からない方へ
           </h2>
-          <p className="text-sm text-gray-600 mb-4">
+          <p className="text-sm text-muted mb-4">
             簡単な質問に答えるだけで、あなたに該当する助成金が見つかります。
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             <Link
               href="/"
-              className="inline-block px-6 py-2.5 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-colors"
+              className="inline-block px-6 py-2.5 bg-accent text-white text-sm font-bold rounded-lg hover:bg-accent-deep transition-colors shadow-sm"
             >
               診断クイズを試す
             </Link>
             <Link
               href="/guide/"
-              className="inline-block px-6 py-2.5 bg-white text-blue-600 text-sm font-semibold rounded-lg border border-blue-300 hover:bg-blue-50 transition-colors"
+              className="inline-block px-6 py-2.5 bg-card text-navy text-sm font-bold rounded-lg border-2 border-navy hover:bg-wash transition-colors"
             >
               申請ガイド
             </Link>

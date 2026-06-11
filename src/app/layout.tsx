@@ -1,15 +1,8 @@
 import type { Metadata } from 'next';
-import { Noto_Sans_JP } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import './globals.css';
-
-const notoSansJP = Noto_Sans_JP({
-  subsets: ['latin'],
-  weight: ['400', '500', '700', '900'],
-  display: 'swap',
-});
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://joseikin-navi-site.vercel.app'),
@@ -78,6 +71,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ja">
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
+          rel="stylesheet"
+        />
         <meta name="google-adsense-account" content="ca-pub-1611624572831066" />
         <script
           async
@@ -119,7 +118,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
       </head>
-      <body className={`${notoSansJP.className} antialiased min-h-screen flex flex-col`}>
+      <body className="antialiased min-h-screen flex flex-col bg-base text-ink">
         <div className="relative z-10 flex flex-col min-h-screen">
           <Header />
           <main className="flex-1">{children}</main>

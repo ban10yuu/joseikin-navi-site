@@ -35,24 +35,24 @@ export default function GrantFinderQuiz() {
 
   return (
     <div>
-      <section className="bg-white border border-gray-200 rounded-lg p-5 sm:p-7">
-        <div className="flex items-center gap-2 mb-1">
-          <div className="w-7 h-7 rounded bg-[#1d4ed8] flex items-center justify-center text-white font-bold text-xs">
+      <section className="bg-card border-2 border-navy rounded-xl p-5 sm:p-7 shadow-sm">
+        <div className="flex items-center gap-2.5 mb-1">
+          <div className="w-8 h-8 rounded-md bg-accent flex items-center justify-center text-white font-black text-sm">
             ?
           </div>
-          <h2 className="text-lg font-bold text-gray-900">あなたに合った助成金を診断</h2>
+          <h2 className="text-lg font-bold text-navy">あなたに合った助成金を診断</h2>
         </div>
-        <p className="text-sm text-gray-500 mb-5">
+        <p className="text-sm text-muted mb-5">
           当てはまる項目にチェックを入れると、利用できる可能性のある助成金がリアルタイムで絞り込まれます。
         </p>
 
         {/* Prefecture */}
         <div className="mb-5">
-          <label className="block text-sm font-semibold text-gray-700 mb-2">お住まいの地域</label>
+          <label className="block text-sm font-bold text-navy mb-2">お住まいの地域</label>
           <select
             value={prefecture || ''}
             onChange={(e) => { setPrefecture(e.target.value || null); setShowCount(20); }}
-            className="w-full sm:w-64 px-3 py-2 text-sm border border-gray-300 rounded bg-white text-gray-800 focus:border-blue-500 focus:outline-none"
+            className="w-full sm:w-64 px-3 py-2.5 text-sm border-2 border-line-strong rounded-lg bg-base text-ink focus:border-navy focus:ring-2 focus:ring-accent focus:outline-none"
           >
             <option value="">全国（地域を選択してください）</option>
             {prefectures.map((p) => (
@@ -64,22 +64,22 @@ export default function GrantFinderQuiz() {
         {/* Checkboxes grouped */}
         {groups.map((group) => (
           <div key={group} className="mb-5">
-            <p className="text-sm font-semibold text-gray-700 mb-2">{group}</p>
+            <p className="text-sm font-bold text-navy mb-2">{group}</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
               {QUIZ_OPTIONS.filter((o) => o.group === group).map((option) => (
                 <label
                   key={option.id}
-                  className={`flex items-center gap-2.5 px-3 py-2.5 rounded border cursor-pointer transition-colors text-sm ${
+                  className={`flex items-center gap-2.5 px-3 py-2.5 rounded-lg border-2 cursor-pointer transition-colors text-sm ${
                     checked.has(option.id)
-                      ? 'bg-blue-50 border-blue-300 text-blue-800'
-                      : 'bg-white border-gray-200 text-gray-600 hover:bg-gray-50'
+                      ? 'bg-wash border-navy text-navy font-semibold'
+                      : 'bg-card border-line text-muted hover:border-line-strong hover:bg-base'
                   }`}
                 >
                   <input
                     type="checkbox"
                     checked={checked.has(option.id)}
                     onChange={() => toggle(option.id)}
-                    className="w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                    className="w-4 h-4 rounded border-line-strong text-accent focus:ring-accent accent-[#e8702a]"
                   />
                   <span>{option.label}</span>
                 </label>
@@ -89,19 +89,19 @@ export default function GrantFinderQuiz() {
         ))}
 
         {/* Result Counter */}
-        <div className={`rounded-lg p-4 text-center transition-all ${
-          hasAnyFilter ? 'bg-blue-50 border border-blue-200' : 'bg-gray-50 border border-gray-200'
+        <div className={`rounded-xl p-4 text-center transition-all ${
+          hasAnyFilter ? 'bg-accent-wash border-2 border-accent' : 'bg-base border-2 border-line'
         }`}>
-          <p className="text-sm text-gray-500 mb-1">
+          <p className="text-sm text-muted mb-1">
             {hasAnyFilter ? 'あなたが利用できる可能性のある助成金' : '全助成金'}
           </p>
-          <p className={`text-3xl font-black ${hasAnyFilter ? 'text-[#1d4ed8]' : 'text-gray-800'}`}>
-            {matched.length}<span className="text-lg font-semibold text-gray-500 ml-1">件</span>
+          <p className={`text-3xl font-black ${hasAnyFilter ? 'text-accent-deep' : 'text-navy'}`}>
+            {matched.length}<span className="text-lg font-semibold text-muted ml-1">件</span>
           </p>
           {hasAnyFilter && (
             <button
               onClick={() => { setChecked(new Set()); setPrefecture(null); setShowCount(20); }}
-              className="mt-2 text-xs text-red-500 hover:text-red-600 font-medium"
+              className="mt-2 text-xs text-navy hover:text-accent-deep font-bold underline underline-offset-2"
             >
               条件をリセット
             </button>
@@ -117,12 +117,12 @@ export default function GrantFinderQuiz() {
       </div>
 
       {visible.length === 0 && hasAnyFilter && (
-        <div className="text-center py-12 bg-white border border-gray-200 rounded-lg mt-6">
-          <p className="text-gray-500 text-base font-semibold mb-1">該当する助成金が見つかりませんでした</p>
-          <p className="text-gray-400 text-sm mb-4">条件を変更するか、地域設定を「全国」に戻してお試しください。</p>
+        <div className="text-center py-12 bg-card border-2 border-line rounded-xl mt-6">
+          <p className="text-ink text-base font-bold mb-1">該当する助成金が見つかりませんでした</p>
+          <p className="text-muted text-sm mb-4">条件を変更するか、地域設定を「全国」に戻してお試しください。</p>
           <button
             onClick={() => { setChecked(new Set()); setPrefecture(null); setShowCount(20); }}
-            className="text-sm text-blue-600 hover:text-blue-800 font-medium"
+            className="text-sm text-navy hover:text-accent-deep font-bold underline underline-offset-2"
           >
             条件をリセットする
           </button>
@@ -133,7 +133,7 @@ export default function GrantFinderQuiz() {
         <div className="text-center mt-8">
           <button
             onClick={() => setShowCount((c) => c + 20)}
-            className="px-8 py-3 text-sm font-semibold text-blue-600 bg-blue-50 border border-blue-200 rounded-full hover:bg-blue-100 transition-colors"
+            className="px-8 py-3 text-sm font-bold text-white bg-navy border-2 border-navy rounded-full hover:bg-navy-soft transition-colors shadow-sm"
           >
             もっと見る（残り{matched.length - showCount}件）
           </button>

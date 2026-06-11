@@ -61,20 +61,20 @@ export default async function CategoryPage({ params }: Props) {
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
-        <nav className="text-sm text-slate-400 mb-6 flex items-center gap-1">
-          <Link href="/" className="hover:text-blue-600">ホーム</Link>
+        <nav className="text-sm text-faint mb-6 flex items-center gap-1">
+          <Link href="/" className="hover:text-navy hover:underline underline-offset-2">ホーム</Link>
           <span>/</span>
-          <span className="text-slate-600">{label}</span>
+          <span className="text-muted">{label}</span>
         </nav>
 
-        <div className="mb-8">
-          <div className={`inline-block text-xs font-medium px-3 py-1 rounded-full border mb-3 ${CATEGORY_COLORS[category]}`}>
+        <div className="mb-8 border-l-4 border-accent pl-4">
+          <div className={`inline-block text-xs font-bold px-3 py-1 rounded-full border mb-3 ${CATEGORY_COLORS[category]}`}>
             {label}
           </div>
-          <h1 className="text-2xl sm:text-3xl font-black text-slate-800 mb-2">
+          <h1 className="text-2xl sm:text-3xl font-black text-navy mb-2">
             {label}の助成金・補助金一覧
           </h1>
-          <p className="text-sm text-slate-500">
+          <p className="text-sm text-muted">
             {label}に関連する助成金・補助金を{grants.length}件掲載しています。
           </p>
         </div>
@@ -86,7 +86,7 @@ export default async function CategoryPage({ params }: Props) {
             ))}
             {grants.length === 0 && (
               <div className="text-center py-16">
-                <p className="text-slate-400">このカテゴリの助成金はまだ掲載されていません。</p>
+                <p className="text-muted">このカテゴリの助成金はまだ掲載されていません。</p>
               </div>
             )}
           </div>

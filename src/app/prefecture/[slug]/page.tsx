@@ -104,20 +104,20 @@ export default async function PrefecturePage({ params }: Props) {
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
-        <nav className="text-sm text-slate-400 mb-6 flex items-center gap-1">
-          <Link href="/" className="hover:text-blue-600">ホーム</Link>
+        <nav className="text-sm text-faint mb-6 flex items-center gap-1">
+          <Link href="/" className="hover:text-navy hover:underline underline-offset-2">ホーム</Link>
           <span>/</span>
-          <span className="text-slate-600">{pref}</span>
+          <span className="text-muted">{pref}</span>
         </nav>
 
-        <div className="mb-8">
-          <div className="inline-block text-xs font-medium px-3 py-1 rounded-full border bg-blue-100 text-blue-700 border-blue-200 mb-3">
+        <div className="mb-8 border-l-4 border-accent pl-4">
+          <div className="inline-block text-xs font-bold px-3 py-1 rounded-full border-[1.5px] bg-wash text-navy border-line-strong mb-3">
             {region}
           </div>
-          <h1 className="text-2xl sm:text-3xl font-black text-slate-800 mb-2">
+          <h1 className="text-2xl sm:text-3xl font-black text-navy mb-2">
             {pref}の助成金・補助金一覧
           </h1>
-          <p className="text-sm text-slate-500">
+          <p className="text-sm text-muted">
             {pref}で利用できる助成金・補助金を{grants.length}件掲載しています
             （{pref}独自：{localGrants.length}件、全国共通：{nationalGrants.length}件）。
           </p>
@@ -137,7 +137,7 @@ export default async function PrefecturePage({ params }: Props) {
             {/* Local Grants */}
             {localGrants.length > 0 && (
               <div className="mb-10">
-                <h2 className="text-lg font-bold text-slate-800 mb-4 pb-2 border-b-2 border-blue-600">
+                <h2 className="text-lg font-bold text-navy mb-4 pb-2 border-b-[3px] border-accent">
                   {pref}独自の制度（{localGrants.length}件）
                 </h2>
                 <div className="space-y-4">
@@ -150,7 +150,7 @@ export default async function PrefecturePage({ params }: Props) {
 
             {/* National Grants by Category */}
             <div className="mb-10">
-              <h2 className="text-lg font-bold text-slate-800 mb-4 pb-2 border-b-2 border-emerald-600">
+              <h2 className="text-lg font-bold text-navy mb-4 pb-2 border-b-[3px] border-navy">
                 全国共通の制度（{nationalGrants.length}件）
               </h2>
               {categoryGroups.map(({ key, label, grants: catGrants }) => {
@@ -158,8 +158,8 @@ export default async function PrefecturePage({ params }: Props) {
                 if (natInCat.length === 0) return null;
                 return (
                   <div key={key} id={`cat-${key}`} className="mb-8">
-                    <h3 className="text-base font-semibold text-slate-700 mb-3 flex items-center gap-2">
-                      <span className="w-1.5 h-5 bg-blue-600 rounded-full inline-block" />
+                    <h3 className="text-base font-bold text-navy mb-3 flex items-center gap-2">
+                      <span className="w-1.5 h-5 bg-accent rounded-full inline-block" />
                       {label}（{natInCat.length}件）
                     </h3>
                     <div className="space-y-4">
@@ -174,8 +174,8 @@ export default async function PrefecturePage({ params }: Props) {
 
             {/* Nearby Prefectures */}
             {nearby.length > 0 && (
-              <div className="bg-gray-50 rounded-lg p-6 mt-8">
-                <h2 className="text-base font-bold text-slate-700 mb-3">
+              <div className="bg-wash border-[1.5px] border-line-strong rounded-xl p-6 mt-8">
+                <h2 className="text-base font-bold text-navy mb-3">
                   近隣の都道府県の助成金
                 </h2>
                 <div className="flex flex-wrap gap-2">
@@ -183,7 +183,7 @@ export default async function PrefecturePage({ params }: Props) {
                     <Link
                       key={p}
                       href={`/prefecture/${prefToSlug(p)}/`}
-                      className="px-3 py-1.5 text-sm bg-white border border-gray-200 rounded hover:border-blue-400 hover:text-blue-700 transition-colors"
+                      className="filter-chip"
                     >
                       {p}
                     </Link>

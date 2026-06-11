@@ -95,8 +95,8 @@ export default function GrantListClient() {
 
       {visible.length === 0 && (
         <div className="text-center py-16">
-          <p className="text-slate-400 text-lg mb-2">該当する助成金が見つかりませんでした</p>
-          <p className="text-slate-400 text-sm">検索条件を変更してお試しください</p>
+          <p className="text-ink text-lg font-bold mb-2">該当する助成金が見つかりませんでした</p>
+          <p className="text-muted text-sm">検索条件を変更してお試しください</p>
         </div>
       )}
 
@@ -104,7 +104,7 @@ export default function GrantListClient() {
         <div className="text-center mt-8">
           <button
             onClick={() => setShowCount((c) => c + 20)}
-            className="px-8 py-3 text-sm font-semibold text-blue-600 bg-blue-50 border border-blue-200 rounded-full hover:bg-blue-100 transition-colors"
+            className="px-8 py-3 text-sm font-bold text-white bg-navy border-2 border-navy rounded-full hover:bg-navy-soft transition-colors shadow-sm"
           >
             もっと見る（残り{filtered.length - showCount}件）
           </button>

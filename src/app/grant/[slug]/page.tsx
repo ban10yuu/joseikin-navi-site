@@ -76,17 +76,17 @@ export default async function GrantDetailPage({ params }: Props) {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
         {/* Breadcrumb */}
-        <nav className="text-xs text-gray-400 mb-5 flex flex-wrap items-center gap-1">
-          <Link href="/" className="hover:text-blue-700">ホーム</Link>
+        <nav className="text-xs text-faint mb-5 flex flex-wrap items-center gap-1">
+          <Link href="/" className="hover:text-navy hover:underline underline-offset-2">ホーム</Link>
           <span>/</span>
-          <Link href={`/category/${grant.category}/`} className="hover:text-blue-700">{CATEGORY_LABELS[grant.category]}</Link>
+          <Link href={`/category/${grant.category}/`} className="hover:text-navy hover:underline underline-offset-2">{CATEGORY_LABELS[grant.category]}</Link>
           <span>/</span>
-          <span className="text-gray-600">{grant.title}</span>
+          <span className="text-muted">{grant.title}</span>
         </nav>
 
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-8">
           <article>
-            <div className="bg-white border border-gray-200 rounded-lg p-5 sm:p-6 mb-5">
+            <div className="bg-card border-2 border-navy rounded-xl p-5 sm:p-6 mb-5 shadow-sm">
               <div className="flex items-start gap-4">
                 <img
                   src={CATEGORY_IMAGES[grant.category]}
@@ -95,20 +95,20 @@ export default async function GrantDetailPage({ params }: Props) {
                 />
                 <div className="flex-1">
                   <div className="flex flex-wrap gap-1.5 mb-3">
-                    <span className="text-[11px] font-semibold px-2 py-0.5 rounded bg-blue-700 text-white">
+                    <span className="text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-navy text-white">
                       {TYPE_LABELS[grant.type]}
                     </span>
-                    <span className="text-[11px] font-medium px-2 py-0.5 rounded bg-gray-100 text-gray-600">
+                    <span className="text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-wash text-navy border border-line-strong">
                       {CATEGORY_LABELS[grant.category]}
                     </span>
                     {grant.prefecture !== '全国' && (
-                      <span className="text-[11px] font-medium px-2 py-0.5 rounded bg-gray-100 text-gray-500">
+                      <span className="text-[11px] font-medium px-2.5 py-0.5 rounded-full bg-card text-muted border border-line">
                         {grant.prefecture}
                       </span>
                     )}
                   </div>
 
-                  <h1 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 leading-snug">
+                  <h1 className="text-xl sm:text-2xl font-black text-navy mb-3 leading-snug">
                     {grant.title}
                   </h1>
 
@@ -123,36 +123,36 @@ export default async function GrantDetailPage({ params }: Props) {
                 <span>{grant.eligibility}</span>
               </div>
 
-              <p className="text-sm text-gray-600 mb-5">{grant.description}</p>
+              <p className="text-sm text-ink mb-5">{grant.description}</p>
 
-              <table className="w-full text-sm border-collapse">
+              <table className="info-table w-full text-sm border-collapse border-2 border-line-strong rounded-lg overflow-hidden">
                 <tbody>
-                  <tr className="border-t border-gray-100">
-                    <th className="text-left text-gray-500 font-medium py-2 pr-4 w-28">運営団体</th>
-                    <td className="py-2 text-gray-800">{grant.organization}</td>
+                  <tr className="border-t border-line">
+                    <th className="text-left py-2.5 px-3 w-32 align-top">運営団体</th>
+                    <td className="py-2.5 px-3 text-ink">{grant.organization}</td>
                   </tr>
-                  <tr className="border-t border-gray-100">
-                    <th className="text-left text-gray-500 font-medium py-2 pr-4">申請期間</th>
-                    <td className="py-2 text-gray-800">{grant.applicationPeriod}</td>
+                  <tr className="border-t border-line">
+                    <th className="text-left py-2.5 px-3 align-top">申請期間</th>
+                    <td className="py-2.5 px-3 text-ink">{grant.applicationPeriod}</td>
                   </tr>
-                  <tr className="border-t border-gray-100">
-                    <th className="text-left text-gray-500 font-medium py-2 pr-4">対象者</th>
-                    <td className="py-2 text-gray-800">{grant.eligibility}</td>
+                  <tr className="border-t border-line">
+                    <th className="text-left py-2.5 px-3 align-top">対象者</th>
+                    <td className="py-2.5 px-3 text-ink">{grant.eligibility}</td>
                   </tr>
-                  <tr className="border-t border-gray-100">
-                    <th className="text-left text-gray-500 font-medium py-2 pr-4">対象地域</th>
-                    <td className="py-2 text-gray-800">{grant.prefecture}</td>
+                  <tr className="border-t border-line">
+                    <th className="text-left py-2.5 px-3 align-top">対象地域</th>
+                    <td className="py-2.5 px-3 text-ink">{grant.prefecture}</td>
                   </tr>
                   {grant.targetIncome && (
-                    <tr className="border-t border-gray-100">
-                      <th className="text-left text-gray-500 font-medium py-2 pr-4">対象世帯年収</th>
-                      <td className="py-2 text-gray-800">{grant.targetIncome}</td>
+                    <tr className="border-t border-line">
+                      <th className="text-left py-2.5 px-3 align-top">対象世帯年収</th>
+                      <td className="py-2.5 px-3 text-ink">{grant.targetIncome}</td>
                     </tr>
                   )}
                   {grant.targetOccupation && (
-                    <tr className="border-t border-gray-100">
-                      <th className="text-left text-gray-500 font-medium py-2 pr-4">対象職業</th>
-                      <td className="py-2 text-gray-800">{grant.targetOccupation}</td>
+                    <tr className="border-t border-line">
+                      <th className="text-left py-2.5 px-3 align-top">対象職業</th>
+                      <td className="py-2.5 px-3 text-ink">{grant.targetOccupation}</td>
                     </tr>
                   )}
                 </tbody>
@@ -162,12 +162,12 @@ export default async function GrantDetailPage({ params }: Props) {
             <AdBanner size="full" />
 
             {/* Table of Contents */}
-            <div className="bg-gray-50 border border-gray-200 rounded-lg p-4 mb-5">
-              <h2 className="text-sm font-bold text-gray-800 mb-2">目次</h2>
+            <div className="bg-wash border-[1.5px] border-line-strong rounded-xl p-5 mb-5">
+              <h2 className="text-sm font-bold text-navy mb-2.5 pb-1.5 border-b-2 border-accent inline-block">目次</h2>
               <ol className="space-y-1.5">
                 {grant.sections.map((section, i) => (
                   <li key={i}>
-                    <a href={`#section-${i}`} className="text-sm text-blue-700 hover:underline">
+                    <a href={`#section-${i}`} className="text-sm font-medium text-navy hover:text-accent-deep underline underline-offset-4 decoration-line-strong hover:decoration-accent">
                       {i + 1}. {section.heading}
                     </a>
                   </li>
@@ -198,7 +198,7 @@ export default async function GrantDetailPage({ params }: Props) {
                 <Link
                   key={tag}
                   href={`/tag/${encodeURIComponent(tag.toLowerCase().replace(/\s+/g, '-'))}/`}
-                  className="text-xs px-2 py-1 rounded bg-gray-100 text-gray-600 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+                  className="text-xs font-medium px-2.5 py-1 rounded-full bg-card text-muted border border-line hover:border-navy hover:text-navy hover:bg-wash transition-colors"
                 >
                   #{tag}
                 </Link>
@@ -214,7 +214,7 @@ export default async function GrantDetailPage({ params }: Props) {
             {/* Related Grants */}
             {related.length > 0 && (
               <div className="mt-10">
-                <h2 className="text-lg font-bold text-gray-900 mb-4">関連する助成金・補助金</h2>
+                <h2 className="text-lg font-bold text-navy mb-4 pl-3 border-l-4 border-accent">関連する助成金・補助金</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {related.map((g) => (
                     <GrantCard key={g.slug} grant={g} />

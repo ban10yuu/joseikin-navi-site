@@ -15,37 +15,43 @@ const REGIONS: Record<string, string[]> = {
   '九州・沖縄': ['福岡県', '佐賀県', '長崎県', '熊本県', '大分県', '宮崎県', '鹿児島県', '沖縄県'],
 };
 
+const navLink =
+  'px-3 py-2 text-sm font-medium text-white/85 hover:text-white hover:bg-white/10 rounded-md transition-colors';
+
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [showCategories, setShowCategories] = useState(false);
   const [showRegions, setShowRegions] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-white border-b border-gray-200">
+    <header className="sticky top-0 z-50 bg-navy border-b-4 border-accent shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="flex items-center justify-between h-14">
+        <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded bg-[#1d4ed8] flex items-center justify-center text-white font-bold text-sm">
+          <Link href="/" className="flex items-center gap-2.5 rounded-md">
+            <div className="w-9 h-9 rounded-md bg-accent flex items-center justify-center text-white font-black text-base shadow-sm">
               助
             </div>
-            <span className="text-base font-bold text-gray-900">助成金ナビ</span>
+            <div className="leading-tight">
+              <span className="block text-lg font-black text-white tracking-wide">助成金ナビ</span>
+              <span className="hidden sm:block text-[10px] text-white/60 tracking-widest">国・自治体・民間の支援制度ガイド</span>
+            </div>
           </Link>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-0.5">
-            <Link href="/" className="px-3 py-2 text-sm text-gray-600 hover:text-blue-700 hover:bg-gray-50 rounded transition-colors">
+            <Link href="/" className={navLink}>
               ホーム
             </Link>
             <div className="relative" onMouseEnter={() => setShowCategories(true)} onMouseLeave={() => setShowCategories(false)}>
-              <button className="px-3 py-2 text-sm text-gray-600 hover:text-blue-700 hover:bg-gray-50 rounded transition-colors flex items-center gap-1">
+              <button className={`${navLink} flex items-center gap-1`}>
                 カテゴリ
                 <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </button>
               {showCategories && (
-                <div className="absolute top-full left-0 mt-0.5 w-52 bg-white shadow-lg border border-gray-200 py-1 z-50">
+                <div className="absolute top-full left-0 mt-1 w-56 bg-card rounded-lg shadow-xl border-2 border-navy py-1.5 z-50 overflow-hidden">
                   {categories.map(([key, label]) => (
-                    <Link key={key} href={`/category/${key}/`} className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-50 hover:text-blue-700">
+                    <Link key={key} href={`/category/${key}/`} className="block px-4 py-2 text-sm font-medium text-ink hover:bg-wash hover:text-navy border-l-4 border-transparent hover:border-accent transition-colors">
                       {label}
                     </Link>
                   ))}
@@ -53,22 +59,22 @@ export default function Header() {
               )}
             </div>
             <div className="relative" onMouseEnter={() => setShowRegions(true)} onMouseLeave={() => setShowRegions(false)}>
-              <button className="px-3 py-2 text-sm text-gray-600 hover:text-blue-700 hover:bg-gray-50 rounded transition-colors flex items-center gap-1">
+              <button className={`${navLink} flex items-center gap-1`}>
                 地域から探す
                 <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </button>
               {showRegions && (
-                <div className="absolute top-full right-0 mt-0.5 w-[480px] bg-white shadow-lg border border-gray-200 p-4 z-50">
+                <div className="absolute top-full right-0 mt-1 w-[480px] bg-card rounded-lg shadow-xl border-2 border-navy p-4 z-50">
                   <div className="grid grid-cols-2 gap-3">
                     {Object.entries(REGIONS).map(([region, prefs]) => (
                       <div key={region}>
-                        <p className="text-xs font-semibold text-gray-400 mb-1">{region}</p>
+                        <p className="text-xs font-bold text-navy border-b border-line pb-0.5 mb-1.5">{region}</p>
                         <div className="flex flex-wrap gap-1">
                           {prefs.map((pref) => (
                             <Link
                               key={pref}
                               href={`/prefecture/${encodeURIComponent(pref)}/`}
-                              className="text-xs text-gray-600 hover:text-blue-700 hover:bg-blue-50 px-1.5 py-0.5 rounded transition-colors"
+                              className="text-xs font-medium text-muted hover:text-white hover:bg-navy px-1.5 py-0.5 rounded transition-colors"
                             >
                               {pref.replace(/[都府県]$/, '')}
                             </Link>
@@ -80,20 +86,23 @@ export default function Header() {
                 </div>
               )}
             </div>
-            <Link href="/grants/" className="px-3 py-2 text-sm text-gray-600 hover:text-blue-700 hover:bg-gray-50 rounded transition-colors">
+            <Link href="/grants/" className={navLink}>
               一覧
             </Link>
-            <Link href="/guide/" className="px-3 py-2 text-sm text-gray-600 hover:text-blue-700 hover:bg-gray-50 rounded transition-colors">
+            <Link href="/guide/" className={navLink}>
               申請ガイド
             </Link>
-            <Link href="/subscribe/" className="px-3 py-2 text-sm text-gray-600 hover:text-blue-700 hover:bg-gray-50 rounded transition-colors">
+            <Link
+              href="/subscribe/"
+              className="ml-2 px-4 py-2 text-sm font-bold text-white bg-accent hover:bg-accent-deep rounded-md transition-colors shadow-sm"
+            >
               メール登録
             </Link>
           </nav>
 
           {/* Mobile Menu Button */}
-          <button onClick={() => setIsOpen(!isOpen)} className="md:hidden p-2 text-gray-500 hover:bg-gray-50 rounded" aria-label="メニュー">
-            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <button onClick={() => setIsOpen(!isOpen)} className="md:hidden p-2 text-white hover:bg-white/10 rounded-md" aria-label="メニュー" aria-expanded={isOpen}>
+            <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               {isOpen ? (
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               ) : (
@@ -106,28 +115,28 @@ export default function Header() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden border-t border-gray-200 bg-white max-h-[70vh] overflow-y-auto">
-          <div className="px-4 py-2">
-            <Link href="/" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 rounded">
+        <div className="md:hidden border-t border-white/15 bg-navy-deep max-h-[70vh] overflow-y-auto">
+          <div className="px-4 py-3">
+            <Link href="/" onClick={() => setIsOpen(false)} className="block px-3 py-2.5 text-sm font-medium text-white hover:bg-white/10 rounded-md">
               ホーム
             </Link>
-            <p className="px-3 py-1.5 text-xs font-semibold text-gray-400 mt-1">カテゴリ</p>
+            <p className="px-3 py-1.5 text-xs font-bold text-accent mt-1 tracking-wider">カテゴリ</p>
             {categories.map(([key, label]) => (
-              <Link key={key} href={`/category/${key}/`} onClick={() => setIsOpen(false)} className="block px-6 py-1.5 text-sm text-gray-600 hover:bg-gray-50 rounded">
+              <Link key={key} href={`/category/${key}/`} onClick={() => setIsOpen(false)} className="block px-6 py-2 text-sm text-white/85 hover:bg-white/10 hover:text-white rounded-md">
                 {label}
               </Link>
             ))}
-            <p className="px-3 py-1.5 text-xs font-semibold text-gray-400 mt-2">地域から探す</p>
+            <p className="px-3 py-1.5 text-xs font-bold text-accent mt-2 tracking-wider">地域から探す</p>
             {Object.entries(REGIONS).map(([region, prefs]) => (
-              <div key={region} className="mb-1">
-                <p className="px-6 py-1 text-xs text-gray-400">{region}</p>
-                <div className="flex flex-wrap gap-1 px-6 pb-1">
+              <div key={region} className="mb-1.5">
+                <p className="px-6 py-1 text-xs text-white/50">{region}</p>
+                <div className="flex flex-wrap gap-1.5 px-6 pb-1">
                   {prefs.map((pref) => (
                     <Link
                       key={pref}
                       href={`/prefecture/${encodeURIComponent(pref)}/`}
                       onClick={() => setIsOpen(false)}
-                      className="text-xs text-gray-600 hover:text-blue-700 px-1.5 py-0.5 rounded bg-gray-50"
+                      className="text-xs font-medium text-white/85 hover:text-white px-2 py-1 rounded-full border border-white/25 hover:border-accent hover:bg-white/10"
                     >
                       {pref.replace(/[都府県]$/, '')}
                     </Link>
@@ -135,17 +144,17 @@ export default function Header() {
                 </div>
               </div>
             ))}
-            <Link href="/grants/" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 rounded mt-2">
+            <Link href="/grants/" onClick={() => setIsOpen(false)} className="block px-3 py-2.5 text-sm font-medium text-white hover:bg-white/10 rounded-md mt-2">
               助成金一覧
             </Link>
-            <Link href="/guide/" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 rounded">
+            <Link href="/guide/" onClick={() => setIsOpen(false)} className="block px-3 py-2.5 text-sm font-medium text-white hover:bg-white/10 rounded-md">
               申請ガイド
             </Link>
-            <Link href="/faq/" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 rounded">
+            <Link href="/faq/" onClick={() => setIsOpen(false)} className="block px-3 py-2.5 text-sm font-medium text-white hover:bg-white/10 rounded-md">
               よくある質問
             </Link>
-            <Link href="/subscribe/" onClick={() => setIsOpen(false)} className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 rounded">
-              メール登録
+            <Link href="/subscribe/" onClick={() => setIsOpen(false)} className="block px-3 py-2.5 mt-2 text-sm font-bold text-white bg-accent hover:bg-accent-deep rounded-md text-center">
+              メール登録（無料）
             </Link>
           </div>
         </div>

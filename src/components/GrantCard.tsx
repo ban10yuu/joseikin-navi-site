@@ -33,10 +33,10 @@ function getDeadlineStatus(grant: Grant): DeadlineStatus {
 }
 
 const DEADLINE_BADGES: Record<NonNullable<DeadlineStatus>, { label: string; className: string }> = {
-  'year-round': { label: '通年受付', className: 'bg-emerald-50 text-emerald-700 border-emerald-200' },
-  'ending-soon': { label: '締切間近', className: 'bg-red-50 text-red-700 border-red-200' },
-  'ended': { label: '受付終了', className: 'bg-gray-100 text-gray-400 border-gray-200' },
-  'budget-limited': { label: '予算次第', className: 'bg-amber-50 text-amber-700 border-amber-200' },
+  'year-round': { label: '通年受付', className: 'bg-emerald-50 text-emerald-800 border-emerald-300' },
+  'ending-soon': { label: '締切間近', className: 'bg-accent-wash text-accent-deep border-accent' },
+  'ended': { label: '受付終了', className: 'bg-gray-100 text-gray-500 border-gray-300' },
+  'budget-limited': { label: '予算次第', className: 'bg-amber-50 text-amber-800 border-amber-300' },
 };
 
 export default function GrantCard({ grant }: { grant: Grant }) {
@@ -53,27 +53,27 @@ export default function GrantCard({ grant }: { grant: Grant }) {
         />
         <div className="flex-1 min-w-0">
           {/* ラベル行 */}
-          <div className="flex flex-wrap items-center gap-1.5 mb-1">
-            <span className="text-[10px] font-semibold px-1.5 py-0.5 rounded bg-blue-700 text-white">
+          <div className="flex flex-wrap items-center gap-1.5 mb-1.5">
+            <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-navy text-white">
               {TYPE_LABELS[grant.type]}
             </span>
-            <span className="text-[10px] font-medium px-1.5 py-0.5 rounded bg-gray-100 text-gray-500">
+            <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-wash text-navy border border-line-strong">
               {CATEGORY_LABELS[grant.category]}
             </span>
             {grant.prefecture !== '全国' && (
-              <span className="text-[10px] px-1.5 py-0.5 rounded bg-gray-50 text-gray-400">
+              <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-card text-muted border border-line">
                 {grant.prefecture}
               </span>
             )}
             {deadlineStatus && (
-              <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded border ${DEADLINE_BADGES[deadlineStatus].className}`}>
+              <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border ${DEADLINE_BADGES[deadlineStatus].className}`}>
                 {DEADLINE_BADGES[deadlineStatus].label}
               </span>
             )}
           </div>
 
           {/* タイトル（長いタイトルは2行で切る） */}
-          <h3 className="text-sm font-bold text-gray-900 mb-1.5 leading-snug line-clamp-2">
+          <h3 className="text-[15px] font-bold text-navy mb-1.5 leading-snug line-clamp-2">
             {grant.title}
           </h3>
 
@@ -89,10 +89,10 @@ export default function GrantCard({ grant }: { grant: Grant }) {
       </div>
 
       {/* 概要（2行で切る） */}
-      <p className="text-sm text-gray-500 mb-2 line-clamp-2">{grant.description}</p>
+      <p className="text-sm text-muted mb-2 line-clamp-2">{grant.description}</p>
 
       {/* 運営元 */}
-      <div className="text-xs text-gray-400 text-right">
+      <div className="text-xs text-faint text-right">
         {grant.organization}
       </div>
     </Link>

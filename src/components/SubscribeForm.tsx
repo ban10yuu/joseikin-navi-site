@@ -40,14 +40,14 @@ export default function SubscribeForm({ compact = false }: { compact?: boolean }
     return (
       <form onSubmit={handleSubmit} className="space-y-2">
         <input type="email" placeholder="メールアドレス" value={email} onChange={(e) => setEmail(e.target.value)} required
-          className="w-full px-3 py-2 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-blue-500" />
+          className="w-full px-3 py-2 border-2 border-line-strong rounded-lg text-sm bg-base text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-navy" />
         <select value={prefecture} onChange={(e) => setPrefecture(e.target.value)}
-          className="w-full px-3 py-2 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 bg-white">
+          className="w-full px-3 py-2 border-2 border-line-strong rounded-lg text-sm bg-base text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-navy bg-white">
           <option value="">お住まいの地域</option>
           {PREFECTURES.filter(p => p !== '全国').map((p) => <option key={p} value={p}>{p}</option>)}
         </select>
         <button type="submit" disabled={loading}
-          className="w-full py-2 text-sm font-semibold text-white bg-[#1d4ed8] rounded hover:bg-blue-800 transition-colors disabled:opacity-50">
+          className="w-full py-2 text-sm font-bold text-white bg-accent rounded-lg hover:bg-accent-deep transition-colors disabled:opacity-50 shadow-sm">
           {loading ? '送信中...' : '無料で登録'}
         </button>
       </form>
@@ -55,9 +55,9 @@ export default function SubscribeForm({ compact = false }: { compact?: boolean }
   }
 
   return (
-    <div className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8">
-      <h3 className="text-lg font-bold text-gray-900 mb-1">あなたに合った助成金を無料診断</h3>
-      <p className="text-sm text-gray-500 mb-5">
+    <div className="bg-card border-2 border-navy rounded-xl p-6 sm:p-8 shadow-sm">
+      <h3 className="text-lg font-bold text-navy mb-1">あなたに合った助成金を無料診断</h3>
+      <p className="text-sm text-muted mb-5">
         世帯年収・地域・職業を入力すると、受給できる可能性のある助成金をメールでお届けします。
       </p>
 
@@ -66,12 +66,12 @@ export default function SubscribeForm({ compact = false }: { compact?: boolean }
           <div>
             <label className="block text-xs font-medium text-gray-500 mb-1">メールアドレス *</label>
             <input type="email" placeholder="example@email.com" value={email} onChange={(e) => setEmail(e.target.value)} required
-              className="w-full px-3 py-2.5 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-blue-500" />
+              className="w-full px-3 py-2.5 border-2 border-line-strong rounded-lg text-sm bg-base text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-navy" />
           </div>
           <div>
             <label className="block text-xs font-medium text-gray-500 mb-1">お住まいの地域</label>
             <select value={prefecture} onChange={(e) => setPrefecture(e.target.value)}
-              className="w-full px-3 py-2.5 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 bg-white">
+              className="w-full px-3 py-2.5 border-2 border-line-strong rounded-lg text-sm bg-base text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-navy bg-white">
               <option value="">選択してください</option>
               {PREFECTURES.filter(p => p !== '全国').map((p) => <option key={p} value={p}>{p}</option>)}
             </select>
@@ -79,7 +79,7 @@ export default function SubscribeForm({ compact = false }: { compact?: boolean }
           <div>
             <label className="block text-xs font-medium text-gray-500 mb-1">世帯年収</label>
             <select value={income} onChange={(e) => setIncome(e.target.value)}
-              className="w-full px-3 py-2.5 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 bg-white">
+              className="w-full px-3 py-2.5 border-2 border-line-strong rounded-lg text-sm bg-base text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-navy bg-white">
               <option value="">選択してください</option>
               <option value="200以下">200万円以下</option>
               <option value="200-400">200〜400万円</option>
@@ -92,7 +92,7 @@ export default function SubscribeForm({ compact = false }: { compact?: boolean }
           <div>
             <label className="block text-xs font-medium text-gray-500 mb-1">ご職業</label>
             <select value={occupation} onChange={(e) => setOccupation(e.target.value)}
-              className="w-full px-3 py-2.5 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 bg-white">
+              className="w-full px-3 py-2.5 border-2 border-line-strong rounded-lg text-sm bg-base text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-navy bg-white">
               <option value="">選択してください</option>
               <option value="会社員">会社員</option>
               <option value="公務員">公務員</option>
@@ -109,7 +109,7 @@ export default function SubscribeForm({ compact = false }: { compact?: boolean }
         </div>
 
         <button type="submit" disabled={loading}
-          className="w-full py-3 text-sm font-bold text-white bg-[#1d4ed8] rounded hover:bg-blue-800 transition-colors disabled:opacity-50">
+          className="w-full py-3 text-sm font-bold text-white bg-accent rounded-lg hover:bg-accent-deep transition-colors disabled:opacity-50 shadow-sm">
           {loading ? '送信中...' : '無料で診断する（メール登録）'}
         </button>
 
