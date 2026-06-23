@@ -1,6 +1,7 @@
 import { Grant, GrantCategory, GrantType } from '@/lib/types';
 import { getGrantSourceStatus, hasOfficialSource, isManuallyVerifiedGrant } from '@/lib/grant-source';
 import { verifiedBusinessGrants2026 } from '@/data/grants/verified-business-2026';
+import { verifiedNationalChildcareGrants2026 } from '@/data/grants/verified-national-childcare-2026';
 import { verifiedTenriChildcareGrants2026 } from '@/data/grants/verified-tenri-childcare-2026';
 import { suppressedOfficialUrls } from '@/data/grants/link-audit-suppressions';
 import { nationalGrants } from '@/data/grants/national';
@@ -117,6 +118,7 @@ import { cityGrantsBatch100 } from '@/data/grants/city-batch100';
 // 古いLLM生成データより公式出典確認済みデータを優先する。
 const rawGrants: Grant[] = [
   ...verifiedTenriChildcareGrants2026,
+  ...verifiedNationalChildcareGrants2026,
   ...verifiedBusinessGrants2026,
   ...nationalGrants, ...nationalGrantsNew, ...nationalGrantsNew2,
   ...localGrants, ...localGrantsBatch1, ...localGrantsBatch2,
@@ -222,7 +224,7 @@ function sanitizeAuditedLinks(grant: Grant): Grant {
   }
 
   const auditNote = [
-    suppressedOfficialUrl ? `公式URL「${grant.officialUrl}」` : '',
+    suppressedOfficialUrl ? '旧公式URL' : '',
     suppressedSourceCount > 0 ? `出典URL${suppressedSourceCount}件` : '',
   ]
     .filter(Boolean)
