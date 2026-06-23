@@ -4,6 +4,48 @@ const verifiedAt = '2026-06-24';
 
 export const verifiedNationalChildcareGrants2026: Grant[] = [
   {
+    slug: 'jidou-teate',
+    title: '児童手当',
+    organization: 'こども家庭庁・市区町村',
+    type: 'national',
+    maxAmount: '第3子以降 月額3万円',
+    maxAmountNum: 3,
+    category: 'childcare',
+    prefecture: '全国',
+    tags: ['子育て支援', '高校生年代まで', '所得制限なし', '全国共通', '児童手当'],
+    eligibility: '0歳から18歳到達後の最初の3月31日までの児童を養育している方が対象です。原則として、児童が日本国内に住んでいる場合に支給されます。',
+    targetIncome: '令和6年10月分以降は所得制限なし。',
+    applicationPeriod: '通年（出生・転入等の際は住民票のある市区町村で認定請求）',
+    description: '子育て世帯を支援する国の手当です。令和6年10月分以降、支給対象は高校生年代までに拡大し、所得制限は撤廃され、第3子以降は月額3万円になっています。支給は原則として偶数月に前月分までの2か月分が行われます。',
+    sections: [
+      {
+        heading: '対象者',
+        content: '<p>0歳から18歳に達する日以後の最初の3月31日までの児童を養育している方が対象です。原則として児童が日本国内に住んでいる場合に支給され、父母が離婚協議中で別居している場合は児童と同居している方に優先的に支給されます。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<div class="summary-box" data-title="令和6年10月分以降の月額"><p>3歳未満：15,000円（第3子以降は30,000円）</p><p>3歳以上〜高校生年代まで：10,000円（第3子以降は30,000円）</p></div><p>第3子以降とは、児童および児童の兄姉等のうち、年齢が上の子から数えて3人目以降の子を指します。</p>'
+      },
+      {
+        heading: '支給時期',
+        content: '<p>毎年2月、4月、6月、8月、10月、12月の偶数月に、それぞれの前月分までの2か月分が支給されます。実際の支払日は市区町村により異なるため、住民票のある自治体の案内を確認してください。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>出生・転入などにより新たに受給する場合は、住民票のある市区町村へ認定請求を行います。公務員は勤務先での手続きになる場合があります。申請が遅れると受け取れない月が発生するため、出生・転入後は早めに手続きします。</p>'
+      }
+    ],
+    officialUrl: 'https://www.cfa.go.jp/policies/kokoseido/jidouteate/annai',
+    sourceName: 'こども家庭庁 児童手当制度のご案内',
+    sourceUrls: [
+      'https://www.cfa.go.jp/policies/kokoseido/jidouteate/annai',
+      'https://www.cfa.go.jp/policies/kokoseido/jidouteate/mottoouen'
+    ],
+    sourceNote: '支給対象、令和6年10月分以降の支給額、支給時期、申請先をこども家庭庁公式ページで確認。',
+    verifiedAt,
+    publishedAt: '2026-06-24',
+  },
+  {
     slug: 'jidou-fuyou-teate',
     title: '児童扶養手当',
     organization: 'こども家庭庁',

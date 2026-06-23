@@ -72,6 +72,74 @@ export const verifiedTenriChildcareGrants2026: Grant[] = [
     publishedAt: '2026-06-24',
   },
   {
+    slug: 'tenri-child-allowance-2026',
+    title: '天理市 児童手当',
+    organization: '天理市 こども支援課',
+    type: 'local',
+    maxAmount: '第3子以降 月額3万円',
+    maxAmountNum: 3,
+    category: 'childcare',
+    prefecture: '奈良県',
+    tags: ['天理市', '奈良県', '児童手当', '高校生年代まで', '市内全域', '子育て支援'],
+    eligibility: '0歳から18歳到達後の最初の3月31日までの児童を養育している方が対象です。原則として、父母等のうち生計を維持する程度が高い方が受給者になります。',
+    applicationPeriod: '通年（出生・転入等から15日以内の認定請求が重要）',
+    description: '天理市で児童を養育している世帯に支給される児童手当です。令和6年10月分以降は高校生年代までが対象となり、第3子以降は月額3万円に拡充されています。出生・転入等の際は、遅れた月分を受け取れない場合があるため早めの認定請求が必要です。',
+    sections: [
+      {
+        heading: '対象者',
+        content: '<p>0歳から18歳到達後の最初の3月31日までの児童を養育している方が対象です。父母がいる場合は、原則として生計を維持する程度が高い方が受給者になります。児童が施設入所中・里親委託中の場合などは扱いが異なります。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<div class="summary-box" data-title="令和6年10月分以降の月額"><p>3歳未満 第1子・第2子：15,000円</p><p>3歳〜高校生年代 第1子・第2子：10,000円</p><p>第3子以降：30,000円</p></div><p>支給は原則として偶数月の15日に、前月・前々月分がまとめて行われます。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>認定請求をした日の翌月分から支給対象になります。出生や転入等の場合は、出生日・転出予定日等から15日以内に認定請求すると、該当月の翌月分から受けられます。本人確認書類、マイナンバー確認書類、振込先口座、加入医療保険の資格情報などを準備します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.tenri.nara.jp/kakuka/kenkoukodomokateikyoku/kodomoshienka/kakushu_teate/11223.html',
+    sourceName: '天理市 児童手当',
+    sourceUrls: ['https://www.city.tenri.nara.jp/kakuka/kenkoukodomokateikyoku/kodomoshienka/kakushu_teate/11223.html'],
+    sourceNote: '支給対象、令和6年10月以降の支給額、支払時期、認定請求の注意点を天理市公式ページで確認。',
+    verifiedAt,
+    publishedAt: '2026-06-24',
+  },
+  {
+    slug: 'tenri-single-parent-price-support-2026',
+    title: '天理市 物価高騰対応ひとり親家庭等応援手当',
+    organization: '天理市 こども支援課',
+    type: 'local',
+    maxAmount: '対象児童1人につき2万円',
+    maxAmountNum: 2,
+    category: 'childcare',
+    prefecture: '奈良県',
+    tags: ['天理市', '奈良県', 'ひとり親', '児童扶養手当', '物価高騰対策', '子育て支援'],
+    eligibility: '天理市で令和8年2月分の児童扶養手当を受給している方が対象です。全部支給停止者は対象外です。',
+    applicationPeriod: '申請不要（対象者には案内文書を送付）',
+    description: '物価高騰への対応として、児童扶養手当受給世帯を支援する一回限りの応援手当です。対象児童1人につき2万円が支給され、原則として申請は不要です。',
+    sections: [
+      {
+        heading: '対象者',
+        content: '<p>天理市で令和8年2月分の児童扶養手当を受給している方が対象です。ただし、児童扶養手当の全部支給停止者は対象外です。令和8年2月分の児童扶養手当を奈良県内の他市町村で受給していた場合は、その市町村へ確認します。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>令和8年2月分の児童扶養手当対象児童1人につき、2万円が1回限り支給されます。</p>'
+      },
+      {
+        heading: '手続き',
+        content: '<p>申請は不要です。対象者には案内文書が送付されます。受給を希望しない場合や、児童扶養手当受給口座を解約している場合などは、案内に記載された期限までに届出が必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.tenri.nara.jp/kakuka/kenkoukodomokateikyoku/kodomoshienka/15531.html',
+    sourceName: '天理市 物価高騰対応ひとり親家庭等応援手当',
+    sourceUrls: ['https://www.city.tenri.nara.jp/kakuka/kenkoukodomokateikyoku/kodomoshienka/15531.html'],
+    sourceNote: '対象者、支給額、申請不要である点、口座変更等の届出が必要な場合を天理市公式ページで確認。',
+    verifiedAt,
+    publishedAt: '2026-06-24',
+  },
+  {
     slug: 'tenri-pregnancy-support-benefit-2026',
     title: '天理市 妊婦のための支援給付金',
     organization: '天理市 健康推進課',
