@@ -477,8 +477,16 @@ export const nationalGrants: Grant[] = [
 <p>長期的に見れば、初期投資の追加コストは光熱費の削減で十分に回収できるケースがほとんどです。環境にもお財布にも優しい住まいを検討してみてはいかがでしょうか。</p>`
       }
     ],
-    officialUrl: 'https://www.enecho.meti.go.jp/category/saving_and_new/saving/general/housing/index03.html',
-    publishedAt: '2026-03-28',
+    officialUrl: 'https://zehweb.jp/',
+    sourceName: 'ZEH補助金公式サイト',
+    sourceUrls: [
+      'https://zehweb.jp/',
+      'https://zehweb.jp/house/',
+      'https://zehweb.jp/renovation/'
+    ],
+    sourceNote: '令和8年度の新築戸建住宅ZEH・ZEH+化等支援事業、既存住宅のZEH・ZEH+化改修事業、ZEHビルダー登録情報をZEH補助金公式サイトで確認。',
+    verifiedAt: '2026-06-24',
+    publishedAt: '2026-06-24',
   },
   {
     slug: 'chouki-yuuryou-reform',
@@ -886,8 +894,8 @@ export const nationalGrants: Grant[] = [
     tags: ['小規模事業者', '販路開拓', '創業支援'],
     eligibility: '従業員20人以下（商業・サービス業は5人以下）の小規模事業者が対象です。商工会議所または商工会の管轄地域内で事業を営んでいることが要件です。',
     targetOccupation: '小規模事業者・個人事業主',
-    applicationPeriod: '年数回の公募（公募締切は随時発表）',
-    description: '小規模事業者の販路開拓や業務効率化の取り組みを支援する補助金です。チラシ作成、ウェブサイト構築、店舗改装、展示会出展など幅広い経費が補助対象で、補助率は2/3、最大250万円が支給されます。',
+    applicationPeriod: '第20回：申請受付開始 2026年11月5日、申請締切 2026年12月15日 17:00予定',
+    description: '小規模事業者の販路開拓や業務効率化の取り組みを支援する補助金です。チラシ作成、ウェブサイト構築、店舗改装、展示会出展など幅広い経費が補助対象です。第20回公募では、申請前に商工会・商工会議所で事業支援計画書（様式4）の発行を受ける必要があります。',
     sections: [
       {
         heading: '補助金額と補助率',
@@ -910,8 +918,8 @@ export const nationalGrants: Grant[] = [
       },
       {
         heading: '申請の流れ',
-        content: `<p>申請には、<strong>経営計画書と補助事業計画書</strong>の作成が必要です。まず、お近くの商工会議所または商工会に相談し、経営計画の策定支援を受けましょう。</p>
-<p>申請は電子申請（jGrants）が基本です。商工会議所・商工会で事業支援計画書の発行を受けた上で申請します。採択から事業完了まで、計画に基づいて着実に進めることが重要です。</p>`
+        content: `<p>申請には、<strong>経営計画書と補助事業計画書</strong>の作成が必要です。まず、お近くの商工会議所または商工会に相談し、経営計画の策定支援を受けます。</p>
+<p>第20回公募では、電子申請システムへ経営計画・補助事業計画を入力し、希望する特例や加点書類を添付したうえで、地域の商工会・商工会議所に「事業支援計画書（様式4）」の作成を依頼します。様式4の発行には時間がかかるため、申請締切とは別に様式4発行受付締切を確認する必要があります。</p>`
       },
       {
         heading: '採択のポイント',
@@ -924,8 +932,16 @@ export const nationalGrants: Grant[] = [
 <p>また、事業完了後は実績報告書の提出が必要です。領収書や成果物の写真などをきちんと保管しておきましょう。証拠書類が不備だと補助金が減額される場合があります。</p>`
       }
     ],
-    officialUrl: 'https://www.chusho.meti.go.jp/keiei/shokibo/index.html',
-    publishedAt: '2026-04-15',
+    officialUrl: 'https://official.jizokukanb.com/',
+    sourceName: '小規模事業者持続化補助金 公式サイト',
+    sourceUrls: [
+      'https://official.jizokukanb.com/',
+      'https://official.jizokukanb.com/shinsei',
+      'https://r6.jizokukahojokin.info/'
+    ],
+    sourceNote: '第20回公募スケジュール、様式4発行受付締切、申請手続きは小規模事業者持続化補助金公式サイトで確認。',
+    verifiedAt: '2026-06-24',
+    publishedAt: '2026-06-24',
   },
   {
     slug: 'it-donyu-hojokin',

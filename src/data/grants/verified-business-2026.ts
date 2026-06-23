@@ -147,9 +147,10 @@ export const verifiedBusinessGrants2026: Grant[] = [
     sourceName: '小規模事業者持続化補助金 公式サイト',
     sourceUrls: [
       'https://official.jizokukanb.com/shinsei',
-      'https://www.chusho.meti.go.jp/koukai/yosan/r8/jizoku.pdf'
+      'https://official.jizokukanb.com/',
+      'https://r6.jizokukahojokin.info/'
     ],
-    sourceNote: '第20回日程は公式申請ページ、補助上限は中小企業庁の令和8年度概要資料を基準に確認。',
+    sourceNote: '第20回日程、様式4発行締切、電子申請の注意点は公式申請ページで確認。商工会議所地区の情報は該当事務局サイトも参照。',
     verifiedAt,
     publishedAt: '2026-06-23',
   },
@@ -182,13 +183,16 @@ export const verifiedBusinessGrants2026: Grant[] = [
         content: '<p>GビズIDプライムアカウントの取得、承継・M&A計画、専門家費用や設備投資費用の整理が必要です。締切直前のGビズID取得は間に合わないことがあるため、早めに準備してください。</p>'
       }
     ],
-    officialUrl: 'https://www.chusho.meti.go.jp/koukai/hojyokin/kobo/2026/260522001.html',
-    sourceName: '中小企業庁 公募要領公表ページ',
+    officialUrl: 'https://shoukei-mahojokin.go.jp/',
+    sourceName: '事業承継・M&A補助金 公式サイト',
     sourceUrls: [
-      'https://www.chusho.meti.go.jp/koukai/hojyokin/kobo/2026/260522001.html',
-      'https://www.chusho.meti.go.jp/koukai/yosan/r8/m_and_a.pdf'
+      'https://shoukei-mahojokin.go.jp/',
+      'https://shoukei-mahojokin.go.jp/r7h/15-succession_download/',
+      'https://shoukei-mahojokin.go.jp/r7h/15-experts_download/',
+      'https://shoukei-mahojokin.go.jp/r7h/15-pmi_download/',
+      'https://shoukei-mahojokin.go.jp/r7h/15-challenge_download/'
     ],
-    sourceNote: '十五次公募の受付期間と支援枠は中小企業庁の公募情報・令和8年度概要資料を基準に確認。',
+    sourceNote: '十五次公募の各枠、公募要領、申請手続き、FAQは事業承継・M&A補助金公式サイトの15次公募ページで確認。',
     verifiedAt,
     publishedAt: '2026-06-23',
   },
