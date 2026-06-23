@@ -3,6 +3,7 @@ import { getGrantSourceStatus, hasOfficialSource, isManuallyVerifiedGrant } from
 import { verifiedBusinessGrants2026 } from '@/data/grants/verified-business-2026';
 import { verifiedHyogoChildcareGrants2026 } from '@/data/grants/verified-hyogo-childcare-2026';
 import { verifiedNationalChildcareGrants2026 } from '@/data/grants/verified-national-childcare-2026';
+import { verifiedPrefectureChildMedicalGrants2026 } from '@/data/grants/verified-prefecture-child-medical-2026';
 import { verifiedTenriChildcareGrants2026 } from '@/data/grants/verified-tenri-childcare-2026';
 import { suppressedOfficialUrls } from '@/data/grants/link-audit-suppressions';
 import { nationalGrants } from '@/data/grants/national';
@@ -120,6 +121,7 @@ import { cityGrantsBatch100 } from '@/data/grants/city-batch100';
 const rawGrants: Grant[] = [
   ...verifiedTenriChildcareGrants2026,
   ...verifiedHyogoChildcareGrants2026,
+  ...verifiedPrefectureChildMedicalGrants2026,
   ...verifiedNationalChildcareGrants2026,
   ...verifiedBusinessGrants2026,
   ...nationalGrants, ...nationalGrantsNew, ...nationalGrantsNew2,
