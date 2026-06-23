@@ -1322,7 +1322,9 @@ export const localGrants: Grant[] = [
         content: '<p>耐震改修工事の補助を受けるには、市町の窓口に事前申請が必要です。工事着手前に交付決定を受けてから施工してください。</p><p><strong>確定申告で住宅耐震改修特別控除</strong>（所得税控除）も受けられます。補助金と税制優遇を併用しましょう。</p>'
       }
     ],
-    officialUrl: 'https://web.pref.hyogo.lg.jp/ks26/jutakutaishin.html',
+    officialUrl: '',
+    sourceName: '旧登録リンク（兵庫県）',
+    sourceNote: '旧登録URL（https://web.pref.hyogo.lg.jp/ks26/jutakutaishin.html）は2026-06-24時点のリンク監査で404を確認したため、公式リンクから外しています。制度内容は再確認対象です。',
     publishedAt: '2026-03-29',
   },
   {
@@ -1357,7 +1359,9 @@ export const localGrants: Grant[] = [
         content: '<p>宿舎借り上げ支援を導入した施設では、<strong>採用応募が1.5倍に増加</strong>したケースも報告されています。</p><p>ICT化により事務作業が効率化され、保育士が子どもと向き合う時間が増えたという声も多く聞かれます。保育の質と働きやすさの両立が実現します。</p>'
       }
     ],
-    officialUrl: 'https://web.pref.hyogo.lg.jp/hw09/hoiku-shien.html',
+    officialUrl: '',
+    sourceName: '旧登録リンク（兵庫県）',
+    sourceNote: '旧登録URL（https://web.pref.hyogo.lg.jp/hw09/hoiku-shien.html）は2026-06-24時点で兵庫県公式サイト上の「ページが見つかりません」表示となるため、公式リンクから外しています。制度内容は再確認対象です。',
     publishedAt: '2026-04-30',
   },
   {
@@ -1391,7 +1395,9 @@ export const localGrants: Grant[] = [
         content: '<p>兵庫県では不妊治療への助成のほか、<strong>不育症の治療費助成</strong>（流産を繰り返す方への支援）も実施しています。</p><p>また、不妊に関する<strong>専門相談窓口</strong>も設置されており、医療面・心理面の相談を無料で受けることができます。一人で悩まずに、まずは相談してみてください。</p>'
       }
     ],
-    officialUrl: 'https://web.pref.hyogo.lg.jp/kf17/funin-josei.html',
+    officialUrl: '',
+    sourceName: '旧登録リンク（兵庫県）',
+    sourceNote: '旧登録URL（https://web.pref.hyogo.lg.jp/kf17/funin-josei.html）は2026-06-24時点のリンク監査で404を確認したため、公式リンクから外しています。制度内容は再確認対象です。',
     publishedAt: '2026-05-28',
   },
 

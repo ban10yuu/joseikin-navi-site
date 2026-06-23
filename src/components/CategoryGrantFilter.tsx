@@ -31,7 +31,8 @@ export default function CategoryGrantFilter({ grants, categoryLabel }: CategoryG
         grant.description.toLowerCase().includes(normalizedQuery) ||
         grant.organization.toLowerCase().includes(normalizedQuery) ||
         grant.eligibility.toLowerCase().includes(normalizedQuery) ||
-        grant.prefecture.toLowerCase().includes(normalizedQuery)
+        grant.prefecture.toLowerCase().includes(normalizedQuery) ||
+        grant.tags?.some((tag) => tag.toLowerCase().includes(normalizedQuery))
       );
     });
   }, [grants, query, selectedPrefecture, selectedType]);

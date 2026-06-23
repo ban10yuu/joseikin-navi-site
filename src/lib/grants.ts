@@ -1,6 +1,7 @@
 import { Grant, GrantCategory, GrantType } from '@/lib/types';
 import { getGrantSourceStatus, hasOfficialSource, isManuallyVerifiedGrant } from '@/lib/grant-source';
 import { verifiedBusinessGrants2026 } from '@/data/grants/verified-business-2026';
+import { verifiedTenriChildcareGrants2026 } from '@/data/grants/verified-tenri-childcare-2026';
 import { nationalGrants } from '@/data/grants/national';
 import { nationalGrantsNew } from '@/data/grants/national-new';
 import { nationalGrantsNew2 } from '@/data/grants/national-new2';
@@ -114,6 +115,7 @@ import { cityGrantsBatch100 } from '@/data/grants/city-batch100';
 // 新規の手動検証データを先頭に置く。slug が重複した場合は先勝ちにして、
 // 古いLLM生成データより公式出典確認済みデータを優先する。
 const rawGrants: Grant[] = [
+  ...verifiedTenriChildcareGrants2026,
   ...verifiedBusinessGrants2026,
   ...nationalGrants, ...nationalGrantsNew, ...nationalGrantsNew2,
   ...localGrants, ...localGrantsBatch1, ...localGrantsBatch2,

@@ -27,6 +27,7 @@ function toGrantCardItem(grant: Grant): GrantCardItem {
     maxAmount: grant.maxAmount,
     category: grant.category,
     prefecture: grant.prefecture,
+    tags: grant.tags,
     eligibility: grant.eligibility,
     applicationPeriod: grant.applicationPeriod,
     deadlineDate: grant.deadlineDate,

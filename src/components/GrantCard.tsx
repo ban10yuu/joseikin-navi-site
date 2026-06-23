@@ -10,6 +10,7 @@ export interface GrantCardItem {
   maxAmount: string;
   category: GrantCategory;
   prefecture: string;
+  tags?: string[];
   eligibility: string;
   applicationPeriod: string;
   deadlineDate?: string;
