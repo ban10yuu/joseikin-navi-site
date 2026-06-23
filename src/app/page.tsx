@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { getGrantQualityStats, getOfficialLinkedGrants } from '@/lib/grants';
+import { buildGrantSearchText, getGrantQualityStats, getOfficialLinkedGrants } from '@/lib/grants';
 import { CATEGORY_LABELS, Grant, GrantCategory } from '@/lib/types';
 import GrantCard, { GrantCardItem } from '@/components/GrantCard';
 import Sidebar from '@/components/Sidebar';
@@ -36,6 +36,7 @@ function toGrantCardItem(grant: Grant): GrantCardItem {
     officialUrl: grant.officialUrl,
     sourceUrls: grant.sourceUrls,
     verifiedAt: grant.verifiedAt,
+    searchText: grant.searchText || buildGrantSearchText(grant),
   };
 }
 

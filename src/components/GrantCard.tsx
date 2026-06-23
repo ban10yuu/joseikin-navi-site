@@ -18,6 +18,7 @@ export interface GrantCardItem {
   officialUrl: string;
   sourceUrls?: string[];
   verifiedAt?: string;
+  searchText?: string;
 }
 
 const CATEGORY_IMAGES: Record<GrantCategory, string> = {

@@ -41,6 +41,7 @@ export interface Grant {
   sourceUrls?: string[];   // 確認に使った公式URL
   sourceNote?: string;     // 出典確認メモ
   verifiedAt?: string;     // 公式出典で確認した日 (ISO date)
+  searchText?: string;     // 一覧・絞り込み用の検索対象テキスト
   publishedAt: string;
 }
 

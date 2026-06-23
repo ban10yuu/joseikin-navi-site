@@ -2,6 +2,7 @@ import { Grant, GrantCategory, GrantType } from '@/lib/types';
 import { getGrantSourceStatus, hasOfficialSource, isManuallyVerifiedGrant } from '@/lib/grant-source';
 import { verifiedBusinessGrants2026 } from '@/data/grants/verified-business-2026';
 import { verifiedTenriChildcareGrants2026 } from '@/data/grants/verified-tenri-childcare-2026';
+import { suppressedOfficialUrls } from '@/data/grants/link-audit-suppressions';
 import { nationalGrants } from '@/data/grants/national';
 import { nationalGrantsNew } from '@/data/grants/national-new';
 import { nationalGrantsNew2 } from '@/data/grants/national-new2';
@@ -166,7 +167,84 @@ function dedupeGrantsBySlug(grants: Grant[]): Grant[] {
   });
 }
 
-const allGrants: Grant[] = dedupeGrantsBySlug(rawGrants);
+function stripHtml(value: string): string {
+  return value
+    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&nbsp;|&#160;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+export function buildGrantSearchText(grant: Grant): string {
+  const sectionText = grant.sections
+    .flatMap((section) => [section.heading, stripHtml(section.content)])
+    .join(' ');
+
+  return [
+    grant.title,
+    grant.organization,
+    grant.type,
+    grant.maxAmount,
+    grant.category,
+    grant.prefecture,
+    grant.tags.join(' '),
+    grant.eligibility,
+    grant.targetIncome,
+    grant.targetOccupation,
+    grant.applicationPeriod,
+    grant.description,
+    sectionText,
+    grant.sourceName,
+    grant.sourceNote,
+  ]
+    .filter(Boolean)
+    .join(' ')
+    .toLowerCase();
+}
+
+function sanitizeAuditedLinks(grant: Grant): Grant {
+  const suppressedOfficialUrl = Boolean(grant.officialUrl && suppressedOfficialUrls.has(grant.officialUrl));
+  const sourceUrls = grant.sourceUrls?.filter((url) => !suppressedOfficialUrls.has(url));
+  const suppressedSourceCount = (grant.sourceUrls?.length || 0) - (sourceUrls?.length || 0);
+
+  if (!suppressedOfficialUrl && suppressedSourceCount === 0) {
+    return {
+      ...grant,
+      searchText: buildGrantSearchText(grant),
+    };
+  }
+
+  const auditNote = [
+    suppressedOfficialUrl ? `公式URL「${grant.officialUrl}」` : '',
+    suppressedSourceCount > 0 ? `出典URL${suppressedSourceCount}件` : '',
+  ]
+    .filter(Boolean)
+    .join('・');
+
+  const sanitized: Grant = {
+    ...grant,
+    officialUrl: suppressedOfficialUrl ? '' : grant.officialUrl,
+    sourceUrls: sourceUrls && sourceUrls.length > 0 ? sourceUrls : undefined,
+    sourceNote: [
+      grant.sourceNote,
+      `${auditNote}は2026-06-24時点のリンク監査で404または到達不可を確認したため、公式リンクから外しています。制度内容は再確認対象です。`,
+    ].filter(Boolean).join(' '),
+  };
+
+  return {
+    ...sanitized,
+    searchText: buildGrantSearchText(sanitized),
+  };
+}
+
+const allGrants: Grant[] = dedupeGrantsBySlug(rawGrants.map(sanitizeAuditedLinks));
 
 export { getGrantSourceStatus, hasOfficialSource, isManuallyVerifiedGrant };
 
@@ -264,15 +342,11 @@ export function getRelatedGrants(grant: Grant, limit = 6): Grant[] {
 }
 
 export function searchGrants(query: string): Grant[] {
-  const q = query.toLowerCase();
+  const q = query.trim().toLowerCase();
+  if (!q) return [];
+
   return publishedGrants.filter(
-    (g) =>
-      g.title.toLowerCase().includes(q) ||
-      g.description.toLowerCase().includes(q) ||
-      g.tags.some((t) => t.toLowerCase().includes(q)) ||
-      g.organization.toLowerCase().includes(q) ||
-      g.prefecture.includes(q) ||
-      g.eligibility.toLowerCase().includes(q)
+    (g) => (g.searchText || buildGrantSearchText(g)).includes(q)
   );
 }
 

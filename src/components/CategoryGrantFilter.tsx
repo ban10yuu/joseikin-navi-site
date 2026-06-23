@@ -26,14 +26,16 @@ export default function CategoryGrantFilter({ grants, categoryLabel }: CategoryG
       if (selectedPrefecture && grant.prefecture !== selectedPrefecture && grant.prefecture !== '全国') return false;
       if (!normalizedQuery) return true;
 
-      return (
-        grant.title.toLowerCase().includes(normalizedQuery) ||
-        grant.description.toLowerCase().includes(normalizedQuery) ||
-        grant.organization.toLowerCase().includes(normalizedQuery) ||
-        grant.eligibility.toLowerCase().includes(normalizedQuery) ||
-        grant.prefecture.toLowerCase().includes(normalizedQuery) ||
-        grant.tags?.some((tag) => tag.toLowerCase().includes(normalizedQuery))
-      );
+      const searchableText = grant.searchText || [
+        grant.title,
+        grant.description,
+        grant.organization,
+        grant.eligibility,
+        grant.prefecture,
+        ...(grant.tags || []),
+      ].join(' ').toLowerCase();
+
+      return searchableText.includes(normalizedQuery);
     });
   }, [grants, query, selectedPrefecture, selectedType]);
 

@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { getGrantsByCategory } from '@/lib/grants';
+import { buildGrantSearchText, getGrantsByCategory } from '@/lib/grants';
 import { Grant, GrantCategory, CATEGORY_LABELS, CATEGORY_COLORS } from '@/lib/types';
 import { BreadcrumbJsonLd, CollectionJsonLd } from '@/components/JsonLd';
 import { GrantCardItem } from '@/components/GrantCard';
@@ -35,6 +35,7 @@ function toGrantCardItem(grant: Grant): GrantCardItem {
     officialUrl: grant.officialUrl,
     sourceUrls: grant.sourceUrls,
     verifiedAt: grant.verifiedAt,
+    searchText: grant.searchText || buildGrantSearchText(grant),
   };
 }
 
