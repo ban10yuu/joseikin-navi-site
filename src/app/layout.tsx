@@ -7,11 +7,11 @@ import './globals.css';
 export const metadata: Metadata = {
   metadataBase: new URL('https://joseikin-navi-site.vercel.app'),
   title: {
-    default: '助成金ナビ｜国・自治体・民間の助成金・補助金を完全網羅【2026年最新版】',
+    default: '助成金ナビ｜公式リンクで確認できる助成金・補助金検索【2026年版】',
     template: '%s｜助成金ナビ',
   },
   description:
-    '国・都道府県・市区町村・NPO/民間団体の助成金・補助金・給付金を2,500件以上網羅。子育て・住宅・医療・教育・就職・介護・生活支援・災害など全カテゴリを掲載。世帯年収・地域・職業から受給可能な助成金を無料診断。申請方法・必要書類・受給額まで徹底解説。',
+    '国・都道府県・市区町村・NPO/民間団体の助成金・補助金・給付金を、公式リンクの有無が分かる形で検索できます。子育て・住宅・医療・教育・就職・介護・生活支援・災害などのカテゴリから、申請前に確認すべき公式情報へ誘導します。',
   keywords: [
     '助成金', '補助金', '給付金', '助成金 一覧', '補助金 一覧', '給付金 一覧',
     '助成金 2026', '補助金 2026', '助成金 最新', '補助金 最新',
@@ -39,14 +39,14 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'ja_JP',
     siteName: '助成金ナビ',
-    title: '助成金ナビ｜国・自治体・民間の助成金・補助金を完全網羅',
-    description: '助成金・補助金・給付金を2,500件以上網羅。あなたに合った支援制度を無料診断。',
+    title: '助成金ナビ｜公式リンクで確認できる助成金・補助金検索',
+    description: '助成金・補助金・給付金を公式リンクの有無で確認しながら探せる無料検索サイト。',
     url: 'https://joseikin-navi-site.vercel.app',
   },
   twitter: {
     card: 'summary_large_image',
     title: '助成金ナビ',
-    description: '国・自治体・民間の助成金・補助金を完全網羅。無料診断であなたに合った支援制度が見つかる。',
+    description: '国・自治体・民間の助成金・補助金を公式リンクの有無で確認しながら探せる無料検索サイト。',
   },
   robots: {
     index: true,
@@ -98,7 +98,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               name: '助成金ナビ',
               alternateName: 'Joseikin Navi',
               url: 'https://joseikin-navi-site.vercel.app',
-              description: '国・自治体・民間団体の助成金・補助金情報を網羅的に掲載するナビゲーションサイト',
+              description: '国・自治体・民間団体の助成金・補助金情報を公式リンクの有無が分かる形で掲載するナビゲーションサイト',
               publisher: {
                 '@type': 'Organization',
                 name: '助成金ナビ',

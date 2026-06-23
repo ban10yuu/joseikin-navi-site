@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { getAllSlugs, getGrantBySlug, getRelatedGrants } from '@/lib/grants';
+import { getAllSlugs, getGrantBySlug, getGrantSourceStatus, getRelatedGrants, hasOfficialSource } from '@/lib/grants';
 import { CATEGORY_LABELS, TYPE_LABELS, GrantCategory } from '@/lib/types';
 
 const CATEGORY_IMAGES: Record<GrantCategory, string> = {
@@ -36,8 +36,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const grant = getGrantBySlug(slug);
   if (!grant) return {};
 
+  const sourceStatus = getGrantSourceStatus(grant);
   const title = `${grant.title} ${grant.maxAmount}【申請方法・条件・必要書類】`;
-  const description = `${grant.title}の申請方法・受給条件・必要書類を徹底解説。${grant.maxAmount}の支給が受けられる${CATEGORY_LABELS[grant.category]}の制度です。${grant.eligibility}`;
+  const description = sourceStatus.level === 'unverified'
+    ? `${grant.title}の概要ページです。公式出典が未登録のため、申請前に自治体・公式窓口で最新条件を必ず確認してください。`
+    : `${grant.title}の申請方法・受給条件・必要書類を解説。${grant.maxAmount}の支給が受けられる${CATEGORY_LABELS[grant.category]}の制度です。申請前に公式サイトで最新条件を確認してください。`;
 
   return {
     title,
@@ -52,6 +55,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: {
       canonical: `https://joseikin-navi-site.vercel.app/grant/${slug}/`,
     },
+    robots: sourceStatus.level === 'unverified'
+      ? {
+          index: false,
+          follow: true,
+        }
+      : undefined,
   };
 }
 
@@ -63,6 +72,8 @@ export default async function GrantDetailPage({ params }: Props) {
   const related = getRelatedGrants(grant, 6);
   const requiredDocs = getRequiredDocuments(grant);
   const baseUrl = 'https://joseikin-navi-site.vercel.app';
+  const sourceStatus = getGrantSourceStatus(grant);
+  const sourceUrls = grant.sourceUrls?.length ? grant.sourceUrls : hasOfficialSource(grant) ? [grant.officialUrl] : [];
 
   return (
     <>
@@ -106,6 +117,9 @@ export default async function GrantDetailPage({ params }: Props) {
                         {grant.prefecture}
                       </span>
                     )}
+                    <span className={`text-[11px] font-bold px-2.5 py-0.5 rounded-full border ${sourceStatus.className}`}>
+                      {sourceStatus.label}
+                    </span>
                   </div>
 
                   <h1 className="text-xl sm:text-2xl font-black text-navy mb-3 leading-snug">
@@ -157,6 +171,39 @@ export default async function GrantDetailPage({ params }: Props) {
                   )}
                 </tbody>
               </table>
+
+              <div className={`mt-5 rounded-xl border-2 p-4 text-sm ${sourceStatus.className}`}>
+                <p className="font-bold mb-1">{sourceStatus.label}</p>
+                <p className="mb-2">{sourceStatus.description}</p>
+                {grant.sourceName && (
+                  <p className="text-xs mb-2">確認元：{grant.sourceName}</p>
+                )}
+                {grant.verifiedAt && (
+                  <p className="text-xs mb-2">確認日：{grant.verifiedAt}</p>
+                )}
+                {sourceUrls.length > 0 ? (
+                  <div className="flex flex-wrap gap-2">
+                    {sourceUrls.map((url, index) => (
+                      <a
+                        key={url}
+                        href={url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center rounded-full border border-current px-3 py-1 text-xs font-bold underline-offset-2 hover:underline"
+                      >
+                        公式情報を確認{sourceUrls.length > 1 ? ` ${index + 1}` : ''}
+                      </a>
+                    ))}
+                  </div>
+                ) : (
+                  <p className="text-xs font-bold">
+                    公式URLが未登録です。申請前に自治体名・制度名で公式窓口を確認してください。
+                  </p>
+                )}
+                {grant.sourceNote && (
+                  <p className="mt-2 text-xs">{grant.sourceNote}</p>
+                )}
+              </div>
             </div>
 
             <AdBanner size="full" />
@@ -188,7 +235,7 @@ export default async function GrantDetailPage({ params }: Props) {
             </div>
 
             {/* Required Documents Checklist */}
-            <RequiredDocuments documents={requiredDocs} officialUrl={grant.officialUrl} />
+            <RequiredDocuments documents={requiredDocs} officialUrl={hasOfficialSource(grant) ? grant.officialUrl : ''} />
 
             <AdBanner size="full" />
 

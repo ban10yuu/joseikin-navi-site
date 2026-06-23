@@ -1,4 +1,6 @@
 import { Grant, GrantCategory, GrantType } from '@/lib/types';
+import { getGrantSourceStatus, hasOfficialSource, isManuallyVerifiedGrant } from '@/lib/grant-source';
+import { verifiedBusinessGrants2026 } from '@/data/grants/verified-business-2026';
 import { nationalGrants } from '@/data/grants/national';
 import { nationalGrantsNew } from '@/data/grants/national-new';
 import { nationalGrantsNew2 } from '@/data/grants/national-new2';
@@ -108,8 +110,11 @@ import { cityGrantsBatch98 } from '@/data/grants/city-batch98';
 import { cityGrantsBatch99 } from '@/data/grants/city-batch99';
 import { cityGrantsBatch100 } from '@/data/grants/city-batch100';
 
-// ── All grants (全件公開) ──
-const allGrants: Grant[] = [
+// ── All grants ──
+// 新規の手動検証データを先頭に置く。slug が重複した場合は先勝ちにして、
+// 古いLLM生成データより公式出典確認済みデータを優先する。
+const rawGrants: Grant[] = [
+  ...verifiedBusinessGrants2026,
   ...nationalGrants, ...nationalGrantsNew, ...nationalGrantsNew2,
   ...localGrants, ...localGrantsBatch1, ...localGrantsBatch2,
   ...ngoGrants, ...ngoGrantsNew,
@@ -150,8 +155,43 @@ const allGrants: Grant[] = [
   ...cityGrantsBatch100,
 ];
 
-const publishedGrants = allGrants
-  .sort((a, b) => b.maxAmountNum - a.maxAmountNum);
+function dedupeGrantsBySlug(grants: Grant[]): Grant[] {
+  const seen = new Set<string>();
+  return grants.filter((grant) => {
+    if (seen.has(grant.slug)) return false;
+    seen.add(grant.slug);
+    return true;
+  });
+}
+
+const allGrants: Grant[] = dedupeGrantsBySlug(rawGrants);
+
+export { getGrantSourceStatus, hasOfficialSource, isManuallyVerifiedGrant };
+
+function getSourceRank(grant: Grant): number {
+  if (isManuallyVerifiedGrant(grant)) return 2;
+  if (hasOfficialSource(grant)) return 1;
+  return 0;
+}
+
+function isDeadlineEnded(grant: Grant): boolean {
+  if (!grant.deadlineDate) return false;
+  const deadline = new Date(`${grant.deadlineDate}T23:59:59+09:00`);
+  return deadline.getTime() < Date.now();
+}
+
+const publishedGrants = [...allGrants].sort((a, b) => {
+  const sourceDiff = getSourceRank(b) - getSourceRank(a);
+  if (sourceDiff !== 0) return sourceDiff;
+
+  const activeDiff = Number(isDeadlineEnded(a)) - Number(isDeadlineEnded(b));
+  if (activeDiff !== 0) return activeDiff;
+
+  return b.maxAmountNum - a.maxAmountNum;
+});
+
+const officialLinkedGrants = publishedGrants.filter(hasOfficialSource);
+const manuallyVerifiedGrants = publishedGrants.filter(isManuallyVerifiedGrant);
 
 // ── All grants (unfiltered, for sitemap) ──
 export function getAllGrantsUnfiltered(): Grant[] {
@@ -163,34 +203,59 @@ export function getAllGrants(): Grant[] {
   return publishedGrants;
 }
 
+export function getOfficialLinkedGrants(): Grant[] {
+  return officialLinkedGrants;
+}
+
+export function getManuallyVerifiedGrants(): Grant[] {
+  return manuallyVerifiedGrants;
+}
+
+export function getGrantQualityStats(): {
+  total: number;
+  officialLinked: number;
+  manuallyVerified: number;
+  unverified: number;
+  duplicatedSlugsRemoved: number;
+} {
+  return {
+    total: allGrants.length,
+    officialLinked: officialLinkedGrants.length,
+    manuallyVerified: manuallyVerifiedGrants.length,
+    unverified: allGrants.length - officialLinkedGrants.length,
+    duplicatedSlugsRemoved: rawGrants.length - allGrants.length,
+  };
+}
+
 export function getGrantBySlug(slug: string): Grant | undefined {
   return allGrants.find((g) => g.slug === slug);
 }
 
 export function getGrantsByCategory(category: GrantCategory): Grant[] {
-  return publishedGrants.filter((g) => g.category === category);
+  return officialLinkedGrants.filter((g) => g.category === category);
 }
 
 export function getGrantsByType(type: GrantType): Grant[] {
-  return publishedGrants.filter((g) => g.type === type);
+  return officialLinkedGrants.filter((g) => g.type === type);
 }
 
 export function getGrantsByPrefecture(prefecture: string): Grant[] {
-  return publishedGrants.filter(
+  return officialLinkedGrants.filter(
     (g) => g.prefecture === prefecture || g.prefecture === '全国'
   );
 }
 
 export function getPopularGrants(limit = 10): Grant[] {
-  return publishedGrants.slice(0, limit);
+  return officialLinkedGrants.slice(0, limit);
 }
 
 export function getRelatedGrants(grant: Grant, limit = 6): Grant[] {
+  const pool = hasOfficialSource(grant) ? officialLinkedGrants : publishedGrants;
   // Same category first, then same prefecture, then others
-  const sameCategory = publishedGrants.filter(
+  const sameCategory = pool.filter(
     (g) => g.category === grant.category && g.slug !== grant.slug
   );
-  const samePrefecture = publishedGrants.filter(
+  const samePrefecture = pool.filter(
     (g) => g.prefecture === grant.prefecture && g.category !== grant.category && g.slug !== grant.slug
   );
   return [...sameCategory, ...samePrefecture].slice(0, limit);
@@ -216,12 +281,12 @@ export function getAllSlugs(): string[] {
 // ── Tag utilities ──
 export function getAllTags(): string[] {
   const tagSet = new Set<string>();
-  allGrants.forEach((g) => g.tags.forEach((t) => tagSet.add(t)));
+  officialLinkedGrants.forEach((g) => g.tags.forEach((t) => tagSet.add(t)));
   return Array.from(tagSet).sort();
 }
 
 export function getGrantsByTag(tag: string): Grant[] {
-  return publishedGrants.filter((g) => g.tags.includes(tag));
+  return officialLinkedGrants.filter((g) => g.tags.includes(tag));
 }
 
 export function tagToSlug(tag: string): string {
@@ -239,7 +304,7 @@ export function slugToTag(slug: string): string | undefined {
 // ── Prefecture utilities ──
 export function getActivePrefectures(): string[] {
   const prefSet = new Set<string>();
-  publishedGrants.forEach((g) => {
+  officialLinkedGrants.forEach((g) => {
     if (g.prefecture !== '全国') prefSet.add(g.prefecture);
   });
   return Array.from(prefSet).sort();
@@ -248,6 +313,6 @@ export function getActivePrefectures(): string[] {
 // ── Category utilities ──
 export function getActiveCategories(): GrantCategory[] {
   const catSet = new Set<GrantCategory>();
-  publishedGrants.forEach((g) => catSet.add(g.category));
+  officialLinkedGrants.forEach((g) => catSet.add(g.category));
   return Array.from(catSet);
 }

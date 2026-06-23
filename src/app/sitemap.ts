@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { getAllGrantsUnfiltered, getAllTags, tagToSlug } from '@/lib/grants';
+import { getAllTags, getOfficialLinkedGrants, tagToSlug } from '@/lib/grants';
 import { CATEGORY_LABELS, PREFECTURES } from '@/lib/types';
 
 export const dynamic = 'force-static';
@@ -34,7 +34,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     }));
 
-  const grantPages: MetadataRoute.Sitemap = getAllGrantsUnfiltered().map((grant) => ({
+  const grantPages: MetadataRoute.Sitemap = getOfficialLinkedGrants().map((grant) => ({
     url: `${baseUrl}/grant/${grant.slug}/`,
     lastModified: grant.publishedAt,
     changeFrequency: 'monthly' as const,

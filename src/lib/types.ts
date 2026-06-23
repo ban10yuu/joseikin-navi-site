@@ -37,6 +37,10 @@ export interface Grant {
   description: string;
   sections: Section[];
   officialUrl: string;
+  sourceName?: string;     // 公式出典名
+  sourceUrls?: string[];   // 確認に使った公式URL
+  sourceNote?: string;     // 出典確認メモ
+  verifiedAt?: string;     // 公式出典で確認した日 (ISO date)
   publishedAt: string;
 }
 

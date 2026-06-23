@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = `「${tag}」に関する助成金・補助金一覧`;
   return {
     title,
-    description: `${tag}に関連する助成金・補助金・給付金の一覧ページです。`,
+    description: `${tag}に関連する公式リンクありの助成金・補助金・給付金の一覧ページです。`,
     alternates: {
       canonical: `https://joseikin-navi-site.vercel.app/tag/${slug}/`,
     },
@@ -35,6 +35,7 @@ export default async function TagPage({ params }: Props) {
   if (!tag) notFound();
 
   const grants = getGrantsByTag(tag);
+  const visibleGrants = grants.slice(0, 80);
   const baseUrl = 'https://joseikin-navi-site.vercel.app';
 
   return (
@@ -56,14 +57,19 @@ export default async function TagPage({ params }: Props) {
           <h1 className="text-2xl font-black text-navy mb-2">
             「{tag}」に関する助成金・補助金
           </h1>
-          <p className="text-sm text-muted">{grants.length}件の助成金が見つかりました。</p>
+          <p className="text-sm text-muted">公式リンクありの助成金が{grants.length}件見つかりました。</p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-8">
           <div className="space-y-4">
-            {grants.map((grant) => (
+            {visibleGrants.map((grant) => (
               <GrantCard key={grant.slug} grant={grant} />
             ))}
+            {grants.length > visibleGrants.length && (
+              <div className="rounded-xl border-2 border-line-strong bg-wash p-5 text-sm text-muted">
+                該当制度は全{grants.length}件あります。表示は上位{visibleGrants.length}件に絞っています。
+              </div>
+            )}
           </div>
           <div className="hidden lg:block">
             <Sidebar />

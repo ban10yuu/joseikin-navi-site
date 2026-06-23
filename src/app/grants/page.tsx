@@ -1,21 +1,23 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { getAllGrants } from '@/lib/grants';
-import { CATEGORY_LABELS, TYPE_LABELS, GrantCategory } from '@/lib/types';
+import { getGrantQualityStats, getOfficialLinkedGrants } from '@/lib/grants';
+import { CATEGORY_LABELS, GrantCategory } from '@/lib/types';
 import GrantCard from '@/components/GrantCard';
 import GoogleAd from '@/components/GoogleAd';
 
 export const metadata: Metadata = {
-  title: '助成金一覧｜全助成金・補助金・給付金をカテゴリ別に掲載',
+  title: '助成金一覧｜公式リンクありの助成金・補助金をカテゴリ別に掲載',
   description:
-    '国・自治体・民間団体の助成金・補助金・給付金を全件掲載。子育て・住宅・医療・教育・就職・介護・生活支援・災害の8カテゴリに分類して、金額順に一覧表示しています。',
+    '国・自治体・民間団体の助成金・補助金・給付金のうち、公式リンクが確認できる制度を中心に掲載。子育て・住宅・医療・教育・就職・介護・生活支援・災害の8カテゴリに分類しています。',
   alternates: { canonical: 'https://joseikin-navi-site.vercel.app/grants/' },
 };
 
 export default function GrantsListPage() {
-  const allGrants = getAllGrants();
+  const stats = getGrantQualityStats();
+  const allGrants = getOfficialLinkedGrants();
 
-  // カテゴリ別に分類
+  // カテゴリ別に分類。巨大なHTMLを避けるため、一覧ページでは代表カードだけ表示し、
+  // 全件はカテゴリページで確認できるようにする。
   const byCategory = Object.keys(CATEGORY_LABELS).reduce(
     (acc, cat) => {
       acc[cat as GrantCategory] = allGrants.filter(
@@ -41,10 +43,10 @@ export default function GrantsListPage() {
             <span className="text-white/85">助成金一覧</span>
           </nav>
           <h1 className="text-2xl sm:text-3xl font-black text-white mb-3 tracking-wide">
-            助成金一覧（全{allGrants.length}件）
+            助成金一覧（公式リンクあり {allGrants.length}件）
           </h1>
           <p className="text-white/80 text-sm">
-            国の制度{nationalCount}件、自治体の制度{localCount}件、民間・NPO{ngoCount}件を掲載しています。
+            掲載総数{stats.total}件のうち、公式リンクを確認できる制度を優先表示しています。公式出典未登録の制度は検索補助扱いにしています。
           </p>
 
           {/* タイプ別サマリー */}
@@ -80,6 +82,13 @@ export default function GrantsListPage() {
 
         <GoogleAd />
 
+        <div className="mb-8 rounded-xl border-2 border-amber-300 bg-amber-50 p-4 text-sm text-amber-900">
+          <p className="font-bold mb-1">情報精度について</p>
+          <p>
+            助成金・補助金は公募回、予算、自治体年度により条件が変わります。この一覧では公式リンクが確認できる制度を中心に掲載し、申請前の最終確認先を明示しています。
+          </p>
+        </div>
+
         {/* カテゴリ別一覧 */}
         {(Object.entries(CATEGORY_LABELS) as [GrantCategory, string][]).map(
           ([cat, label], catIdx) => (
@@ -89,10 +98,20 @@ export default function GrantsListPage() {
                 {label}（{byCategory[cat].length}件）
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                {byCategory[cat].map((grant) => (
+                {byCategory[cat].slice(0, 6).map((grant) => (
                   <GrantCard key={grant.slug} grant={grant} />
                 ))}
               </div>
+              {byCategory[cat].length > 6 && (
+                <div className="mt-4">
+                  <Link
+                    href={`/category/${cat}/`}
+                    className="inline-block text-sm font-bold text-navy underline underline-offset-4 hover:text-accent-deep"
+                  >
+                    {label}の一覧をもっと見る（全{byCategory[cat].length}件）
+                  </Link>
+                </div>
+              )}
               {catIdx === 2 && <GoogleAd className="mt-6" />}
               {catIdx === 5 && <GoogleAd className="mt-6" />}
             </section>
@@ -134,7 +153,7 @@ export default function GrantsListPage() {
             '@context': 'https://schema.org',
             '@type': 'CollectionPage',
             name: '助成金一覧',
-            description: `国・自治体・民間団体の助成金・補助金・給付金を全${allGrants.length}件掲載`,
+            description: `公式リンクが確認できる助成金・補助金・給付金を${allGrants.length}件掲載`,
             url: 'https://joseikin-navi-site.vercel.app/grants/',
             numberOfItems: allGrants.length,
           }),

@@ -13,7 +13,7 @@ export default function AffiliateWidget() {
             key={af.title}
             href={af.url}
             target="_blank"
-            rel="noopener noreferrer nofollow"
+            rel="noopener noreferrer nofollow sponsored"
             className="block rounded-lg border border-line p-3 hover:bg-base hover:border-navy transition-all group"
           >
             <div className="flex items-center justify-between mb-1">

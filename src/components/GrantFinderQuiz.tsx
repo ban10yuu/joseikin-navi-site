@@ -1,23 +1,74 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import { getAllGrants } from '@/lib/grants';
 import { PREFECTURES } from '@/lib/types';
-import { QUIZ_OPTIONS, quizFilterGrants } from '@/lib/documents';
-import GrantCard from './GrantCard';
+import { QUIZ_OPTIONS } from '@/lib/documents';
+import GrantCard, { GrantCardItem } from './GrantCard';
 
 const prefectures = PREFECTURES.filter((p) => p !== '全国');
 const groups = [...new Set(QUIZ_OPTIONS.map((o) => o.group))];
 
-export default function GrantFinderQuiz() {
-  const allGrants = getAllGrants();
+function quizFilterGrants(grants: GrantCardItem[], checked: Set<string>, prefecture: string | null): GrantCardItem[] {
+  let result = grants;
+
+  if (prefecture) {
+    result = result.filter((g) => g.prefecture === prefecture || g.prefecture === '全国');
+  }
+
+  if (checked.size === 0) return result;
+
+  const matchers: ((g: GrantCardItem) => boolean)[] = [];
+
+  if (checked.has('has-children')) matchers.push((g) => g.category === 'childcare');
+  if (checked.has('pregnant')) matchers.push((g) =>
+    g.category === 'childcare' && (g.title.includes('出産') || g.title.includes('妊') || g.title.includes('育児'))
+  );
+  if (checked.has('single-parent')) matchers.push((g) =>
+    g.title.includes('ひとり親') || g.title.includes('児童扶養') || g.eligibility.includes('ひとり親')
+  );
+  if (checked.has('elderly')) matchers.push((g) =>
+    g.category === 'nursing' || g.title.includes('高齢') || g.title.includes('介護') || g.title.includes('年金')
+  );
+  if (checked.has('disability')) matchers.push((g) =>
+    g.title.includes('障害') || g.title.includes('障がい') || g.eligibility.includes('障害') || g.eligibility.includes('障がい')
+  );
+  if (checked.has('low-income')) matchers.push((g) =>
+    g.category === 'living' || g.title.includes('生活') || g.title.includes('非課税') || g.title.includes('給付金')
+  );
+  if (checked.has('job-seeking')) matchers.push((g) =>
+    g.category === 'employment' || g.title.includes('求職') || g.title.includes('職業訓練') || g.title.includes('雇用')
+  );
+  if (checked.has('starting-business')) matchers.push((g) =>
+    g.title.includes('創業') || g.title.includes('起業') || g.title.includes('事業') || g.title.includes('融資')
+  );
+  if (checked.has('employed')) matchers.push((g) =>
+    g.title.includes('育児休業') || g.title.includes('傷病手当') || g.title.includes('雇用') || g.title.includes('介護休業')
+  );
+  if (checked.has('housing-purchase')) matchers.push((g) => g.category === 'housing');
+  if (checked.has('medical-cost')) matchers.push((g) => g.category === 'medical');
+  if (checked.has('education-cost')) matchers.push((g) => g.category === 'education');
+  if (checked.has('nursing-care')) matchers.push((g) => g.category === 'nursing');
+  if (checked.has('disaster-affected')) matchers.push((g) => g.category === 'disaster');
+  if (checked.has('living-support')) matchers.push((g) => g.category === 'living');
+
+  if (matchers.length === 0) return result;
+
+  return result.filter((g) => matchers.some((matcher) => matcher(g)));
+}
+
+interface GrantFinderQuizProps {
+  grants: GrantCardItem[];
+  totalCount: number;
+}
+
+export default function GrantFinderQuiz({ grants, totalCount }: GrantFinderQuizProps) {
   const [checked, setChecked] = useState<Set<string>>(new Set());
   const [prefecture, setPrefecture] = useState<string | null>(null);
   const [showCount, setShowCount] = useState(20);
 
   const matched = useMemo(
-    () => quizFilterGrants(allGrants, checked, prefecture),
-    [allGrants, checked, prefecture]
+    () => quizFilterGrants(grants, checked, prefecture),
+    [grants, checked, prefecture]
   );
 
   const toggle = (id: string) => {
@@ -44,6 +95,7 @@ export default function GrantFinderQuiz() {
         </div>
         <p className="text-sm text-muted mb-5">
           当てはまる項目にチェックを入れると、利用できる可能性のある助成金がリアルタイムで絞り込まれます。
+          まずは公式リンクが確認できる主要制度（{grants.length}件 / 全{totalCount}件）を表示します。
         </p>
 
         {/* Prefecture */}
@@ -93,7 +145,7 @@ export default function GrantFinderQuiz() {
           hasAnyFilter ? 'bg-accent-wash border-2 border-accent' : 'bg-base border-2 border-line'
         }`}>
           <p className="text-sm text-muted mb-1">
-            {hasAnyFilter ? 'あなたが利用できる可能性のある助成金' : '全助成金'}
+            {hasAnyFilter ? 'あなたが利用できる可能性のある助成金' : '公式リンクありの助成金'}
           </p>
           <p className={`text-3xl font-black ${hasAnyFilter ? 'text-accent-deep' : 'text-navy'}`}>
             {matched.length}<span className="text-lg font-semibold text-muted ml-1">件</span>

@@ -55,7 +55,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!pref) return {};
 
   const title = `${pref}の助成金・補助金一覧【2026年最新版】`;
-  const description = `${pref}で利用できる助成金・補助金・給付金を一覧でご紹介。${pref}独自の制度から全国共通の国の制度まで網羅的に掲載。申請方法・対象者・支給額を詳しく解説。`;
+  const description = `${pref}で利用できる助成金・補助金・給付金のうち、公式リンクが確認できる制度を中心に掲載。${pref}独自の制度と全国共通の制度を整理しています。`;
 
   return {
     title,
@@ -80,6 +80,7 @@ export default async function PrefecturePage({ params }: Props) {
   const grants = getGrantsByPrefecture(pref);
   const localGrants = grants.filter((g) => g.prefecture === pref);
   const nationalGrants = grants.filter((g) => g.prefecture === '全国');
+  const visibleLocalGrants = localGrants.slice(0, 60);
   const nearby = getNearbyPrefectures(pref);
   const region = getRegion(pref);
   const baseUrl = 'https://joseikin-navi-site.vercel.app';
@@ -118,7 +119,7 @@ export default async function PrefecturePage({ params }: Props) {
             {pref}の助成金・補助金一覧
           </h1>
           <p className="text-sm text-muted">
-            {pref}で利用できる助成金・補助金を{grants.length}件掲載しています
+            {pref}で利用できる公式リンクありの助成金・補助金を{grants.length}件掲載しています
             （{pref}独自：{localGrants.length}件、全国共通：{nationalGrants.length}件）。
           </p>
         </div>
@@ -141,10 +142,15 @@ export default async function PrefecturePage({ params }: Props) {
                   {pref}独自の制度（{localGrants.length}件）
                 </h2>
                 <div className="space-y-4">
-                  {localGrants.map((grant) => (
+                  {visibleLocalGrants.map((grant) => (
                     <GrantCard key={grant.slug} grant={grant} />
                   ))}
                 </div>
+                {localGrants.length > visibleLocalGrants.length && (
+                  <div className="mt-4 rounded-xl border-2 border-line-strong bg-wash p-4 text-sm text-muted">
+                    表示は上位{visibleLocalGrants.length}件に絞っています。詳細条件は公式サイトや自治体窓口で確認してください。
+                  </div>
+                )}
               </div>
             )}
 
@@ -155,6 +161,7 @@ export default async function PrefecturePage({ params }: Props) {
               </h2>
               {categoryGroups.map(({ key, label, grants: catGrants }) => {
                 const natInCat = catGrants.filter((g) => g.prefecture === '全国');
+                const visibleNatInCat = natInCat.slice(0, 12);
                 if (natInCat.length === 0) return null;
                 return (
                   <div key={key} id={`cat-${key}`} className="mb-8">
@@ -163,10 +170,18 @@ export default async function PrefecturePage({ params }: Props) {
                       {label}（{natInCat.length}件）
                     </h3>
                     <div className="space-y-4">
-                      {natInCat.map((grant) => (
+                      {visibleNatInCat.map((grant) => (
                         <GrantCard key={grant.slug} grant={grant} />
                       ))}
                     </div>
+                    {natInCat.length > visibleNatInCat.length && (
+                      <Link
+                        href={`/category/${key}/`}
+                        className="mt-3 inline-block text-sm font-bold text-navy underline underline-offset-4 hover:text-accent-deep"
+                      >
+                        {label}の全国制度をもっと見る（全{natInCat.length}件）
+                      </Link>
+                    )}
                   </div>
                 );
               })}

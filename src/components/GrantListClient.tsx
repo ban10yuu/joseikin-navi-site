@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useMemo, useEffect, useCallback } from 'react';
-import { getAllGrants } from '@/lib/grants';
+import { getAllGrants, getGrantQualityStats, hasOfficialSource } from '@/lib/grants';
 import { GrantCategory, GrantType, CATEGORY_LABELS } from '@/lib/types';
 import GrantCard from './GrantCard';
 import FilterPanel from './FilterPanel';
@@ -21,10 +21,12 @@ function readUrlFilters() {
 
 export default function GrantListClient() {
   const allGrants = getAllGrants();
+  const qualityStats = getGrantQualityStats();
   const [category, setCategory] = useState<GrantCategory | null>(null);
   const [type, setType] = useState<GrantType | null>(null);
   const [prefecture, setPrefecture] = useState<string | null>(null);
   const [search, setSearch] = useState('');
+  const [officialOnly, setOfficialOnly] = useState(true);
   const [showCount, setShowCount] = useState(20);
 
   const applyUrlFilters = useCallback(() => {
@@ -36,13 +38,21 @@ export default function GrantListClient() {
   }, []);
 
   useEffect(() => {
-    applyUrlFilters();
-    window.addEventListener('quiz-filter-applied', applyUrlFilters);
-    return () => window.removeEventListener('quiz-filter-applied', applyUrlFilters);
+    const applyAsync = () => window.setTimeout(applyUrlFilters, 0);
+    const id = applyAsync();
+    window.addEventListener('quiz-filter-applied', applyAsync);
+    return () => {
+      window.clearTimeout(id);
+      window.removeEventListener('quiz-filter-applied', applyAsync);
+    };
   }, [applyUrlFilters]);
 
   const filtered = useMemo(() => {
     let result = allGrants;
+
+    if (officialOnly) {
+      result = result.filter(hasOfficialSource);
+    }
 
     if (category) {
       result = result.filter((g) => g.category === category);
@@ -68,7 +78,7 @@ export default function GrantListClient() {
     }
 
     return result;
-  }, [allGrants, category, type, prefecture, search]);
+  }, [allGrants, category, type, prefecture, search, officialOnly]);
 
   const visible = filtered.slice(0, showCount);
 
@@ -83,7 +93,13 @@ export default function GrantListClient() {
         onTypeChange={setType}
         onPrefectureChange={setPrefecture}
         onSearchChange={setSearch}
+        officialOnly={officialOnly}
+        onOfficialOnlyChange={(value) => {
+          setOfficialOnly(value);
+          setShowCount(20);
+        }}
         totalCount={allGrants.length}
+        officialLinkedCount={qualityStats.officialLinked}
         filteredCount={filtered.length}
       />
 

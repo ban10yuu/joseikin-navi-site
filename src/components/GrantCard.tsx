@@ -1,5 +1,23 @@
 import Link from 'next/link';
-import { Grant, CATEGORY_LABELS, TYPE_LABELS, GrantCategory } from '@/lib/types';
+import { CATEGORY_LABELS, TYPE_LABELS, GrantCategory, GrantType } from '@/lib/types';
+import { getGrantSourceStatus } from '@/lib/grant-source';
+
+export interface GrantCardItem {
+  slug: string;
+  title: string;
+  organization: string;
+  type: GrantType;
+  maxAmount: string;
+  category: GrantCategory;
+  prefecture: string;
+  eligibility: string;
+  applicationPeriod: string;
+  deadlineDate?: string;
+  description: string;
+  officialUrl: string;
+  sourceUrls?: string[];
+  verifiedAt?: string;
+}
 
 const CATEGORY_IMAGES: Record<GrantCategory, string> = {
   childcare: '/images/categories/childcare.png',
@@ -14,7 +32,7 @@ const CATEGORY_IMAGES: Record<GrantCategory, string> = {
 
 type DeadlineStatus = 'year-round' | 'ending-soon' | 'ended' | 'budget-limited' | null;
 
-function getDeadlineStatus(grant: Grant): DeadlineStatus {
+function getDeadlineStatus(grant: GrantCardItem): DeadlineStatus {
   const period = grant.applicationPeriod;
 
   if (grant.deadlineDate) {
@@ -39,9 +57,10 @@ const DEADLINE_BADGES: Record<NonNullable<DeadlineStatus>, { label: string; clas
   'budget-limited': { label: '予算次第', className: 'bg-amber-50 text-amber-800 border-amber-300' },
 };
 
-export default function GrantCard({ grant }: { grant: Grant }) {
+export default function GrantCard({ grant }: { grant: GrantCardItem }) {
   const deadlineStatus = getDeadlineStatus(grant);
   const isEnded = deadlineStatus === 'ended';
+  const sourceStatus = getGrantSourceStatus(grant);
 
   return (
     <Link href={`/grant/${grant.slug}/`} className={`grant-card block ${isEnded ? 'opacity-60' : ''}`}>
@@ -70,6 +89,9 @@ export default function GrantCard({ grant }: { grant: Grant }) {
                 {DEADLINE_BADGES[deadlineStatus].label}
               </span>
             )}
+            <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border ${sourceStatus.className}`}>
+              {sourceStatus.shortLabel}
+            </span>
           </div>
 
           {/* タイトル（長いタイトルは2行で切る） */}
@@ -92,8 +114,9 @@ export default function GrantCard({ grant }: { grant: Grant }) {
       <p className="text-sm text-muted mb-2 line-clamp-2">{grant.description}</p>
 
       {/* 運営元 */}
-      <div className="text-xs text-faint text-right">
-        {grant.organization}
+      <div className="flex items-center justify-between gap-3 text-xs text-faint">
+        <span>{grant.verifiedAt ? `確認日 ${grant.verifiedAt}` : sourceStatus.label}</span>
+        <span className="text-right">{grant.organization}</span>
       </div>
     </Link>
   );

@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const label = CATEGORY_LABELS[slug as GrantCategory];
   const title = `${label}の助成金・補助金一覧【2026年最新】`;
-  const description = `${label}に関する助成金・補助金・給付金を一覧でご紹介。国・自治体・民間団体の支援制度を網羅的に掲載。申請方法・受給条件・支給額まで詳しく解説しています。`;
+  const description = `${label}に関する助成金・補助金・給付金のうち、公式リンクが確認できる制度を中心に掲載。申請方法・受給条件・支給額と公式確認先を整理しています。`;
 
   return {
     title,
@@ -46,6 +46,7 @@ export default async function CategoryPage({ params }: Props) {
   const category = slug as GrantCategory;
   const label = CATEGORY_LABELS[category];
   const grants = getGrantsByCategory(category);
+  const visibleGrants = grants.slice(0, 80);
   const baseUrl = 'https://joseikin-navi-site.vercel.app';
 
   return (
@@ -75,15 +76,20 @@ export default async function CategoryPage({ params }: Props) {
             {label}の助成金・補助金一覧
           </h1>
           <p className="text-sm text-muted">
-            {label}に関連する助成金・補助金を{grants.length}件掲載しています。
+            {label}に関連する公式リンクありの助成金・補助金を{grants.length}件確認できます。表示は見やすさのため上位{visibleGrants.length}件に絞っています。
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-8">
           <div className="space-y-4">
-            {grants.map((grant) => (
+            {visibleGrants.map((grant) => (
               <GrantCard key={grant.slug} grant={grant} />
             ))}
+            {grants.length > visibleGrants.length && (
+              <div className="rounded-xl border-2 border-line-strong bg-wash p-5 text-sm text-muted">
+                公式リンクありの該当制度は全{grants.length}件あります。条件を絞る場合はトップページの診断、または地域ページも確認してください。
+              </div>
+            )}
             {grants.length === 0 && (
               <div className="text-center py-16">
                 <p className="text-muted">このカテゴリの助成金はまだ掲載されていません。</p>
