@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { getAllSlugs, getGrantBySlug, getGrantSourceStatus, getRelatedGrants, hasOfficialSource } from '@/lib/grants';
+import { getGrantBySlug, getGrantSourceStatus, getOfficialLinkedGrants, getRelatedGrants, hasOfficialSource } from '@/lib/grants';
 import { CATEGORY_LABELS, TYPE_LABELS, GrantCategory } from '@/lib/types';
 
 const CATEGORY_IMAGES: Record<GrantCategory, string> = {
@@ -28,7 +28,7 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-  return getAllSlugs().map((slug) => ({ slug }));
+  return getOfficialLinkedGrants().map((grant) => ({ slug: grant.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -67,7 +67,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function GrantDetailPage({ params }: Props) {
   const { slug } = await params;
   const grant = getGrantBySlug(slug);
-  if (!grant) notFound();
+  if (!grant || !hasOfficialSource(grant)) notFound();
 
   const related = getRelatedGrants(grant, 6);
   const requiredDocs = getRequiredDocuments(grant);
