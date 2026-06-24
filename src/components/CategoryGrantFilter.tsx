@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from 'react';
 import { PREFECTURES, TYPE_LABELS, GrantType } from '@/lib/types';
+import { matchesSearchText } from '@/lib/search';
 import GrantCard, { GrantCardItem } from './GrantCard';
 
 const types = Object.entries(TYPE_LABELS) as [GrantType, string][];
@@ -19,7 +20,7 @@ export default function CategoryGrantFilter({ grants, categoryLabel }: CategoryG
   const [showCount, setShowCount] = useState(40);
 
   const filtered = useMemo(() => {
-    const normalizedQuery = query.trim().toLowerCase();
+    const normalizedQuery = query.trim();
 
     return grants.filter((grant) => {
       if (selectedType && grant.type !== selectedType) return false;
@@ -35,7 +36,7 @@ export default function CategoryGrantFilter({ grants, categoryLabel }: CategoryG
         ...(grant.tags || []),
       ].join(' ').toLowerCase();
 
-      return searchableText.includes(normalizedQuery);
+      return matchesSearchText(searchableText, normalizedQuery);
     });
   }, [grants, query, selectedPrefecture, selectedType]);
 

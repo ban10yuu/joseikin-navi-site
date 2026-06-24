@@ -3,6 +3,7 @@
 import { useState, useMemo, useEffect, useCallback } from 'react';
 import { getAllGrants, getGrantQualityStats, hasOfficialSource } from '@/lib/grants';
 import { GrantCategory, GrantType, CATEGORY_LABELS } from '@/lib/types';
+import { matchesSearchText } from '@/lib/search';
 import GrantCard from './GrantCard';
 import FilterPanel from './FilterPanel';
 
@@ -66,14 +67,18 @@ export default function GrantListClient() {
       );
     }
     if (search) {
-      const q = search.toLowerCase();
       result = result.filter(
-        (g) =>
-          g.title.toLowerCase().includes(q) ||
-          g.description.toLowerCase().includes(q) ||
-          g.tags.some((t) => t.toLowerCase().includes(q)) ||
-          g.organization.toLowerCase().includes(q) ||
-          g.eligibility.toLowerCase().includes(q)
+        (g) => matchesSearchText(
+          g.searchText || [
+            g.title,
+            g.description,
+            g.organization,
+            g.eligibility,
+            g.prefecture,
+            ...g.tags,
+          ].join(' '),
+          search
+        )
       );
     }
 

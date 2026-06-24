@@ -1,7 +1,9 @@
 import { Grant, GrantCategory, GrantType } from '@/lib/types';
 import { getGrantSourceStatus, hasOfficialSource, isManuallyVerifiedGrant } from '@/lib/grant-source';
+import { getSearchTokens, matchesSearchText } from '@/lib/search';
 import { verifiedBusinessGrants2026 } from '@/data/grants/verified-business-2026';
 import { verifiedHyogoChildcareGrants2026 } from '@/data/grants/verified-hyogo-childcare-2026';
+import { verifiedHyogoMunicipalChildcareGrants2026 } from '@/data/grants/verified-hyogo-municipal-childcare-2026';
 import { verifiedNationalChildcareGrants2026 } from '@/data/grants/verified-national-childcare-2026';
 import { verifiedPrefectureChildMedicalGrants2026 } from '@/data/grants/verified-prefecture-child-medical-2026';
 import { verifiedTenriChildcareGrants2026 } from '@/data/grants/verified-tenri-childcare-2026';
@@ -120,6 +122,7 @@ import { cityGrantsBatch100 } from '@/data/grants/city-batch100';
 // 古いLLM生成データより公式出典確認済みデータを優先する。
 const rawGrants: Grant[] = [
   ...verifiedTenriChildcareGrants2026,
+  ...verifiedHyogoMunicipalChildcareGrants2026,
   ...verifiedHyogoChildcareGrants2026,
   ...verifiedPrefectureChildMedicalGrants2026,
   ...verifiedNationalChildcareGrants2026,
@@ -215,9 +218,41 @@ export function buildGrantSearchText(grant: Grant): string {
     .toLowerCase();
 }
 
+function isNonSpecificGovernmentHomepage(value: string | undefined): boolean {
+  if (!value) return false;
+
+  try {
+    const url = new URL(value);
+    const hostname = url.hostname.replace(/^www\d*\./, '');
+    const pathname = url.pathname.replace(/\/+$/, '') || '/';
+
+    if (pathname !== '/') return false;
+
+    const knownMunicipalHomepageHosts = new Set([
+      'nishi.or.jp',
+    ]);
+
+    return (
+      knownMunicipalHomepageHosts.has(hostname) ||
+      /(^|\.)city\./.test(hostname) ||
+      /(^|\.)town\./.test(hostname) ||
+      /(^|\.)village\./.test(hostname) ||
+      /(^|\.)pref\./.test(hostname) ||
+      /^(city|town|village|pref)-/.test(hostname)
+    );
+  } catch {
+    return false;
+  }
+}
+
 function sanitizeAuditedLinks(grant: Grant): Grant {
-  const suppressedOfficialUrl = Boolean(grant.officialUrl && suppressedOfficialUrls.has(grant.officialUrl));
-  const sourceUrls = grant.sourceUrls?.filter((url) => !suppressedOfficialUrls.has(url));
+  const suppressedOfficialUrl = Boolean(
+    grant.officialUrl &&
+    (suppressedOfficialUrls.has(grant.officialUrl) || isNonSpecificGovernmentHomepage(grant.officialUrl))
+  );
+  const sourceUrls = grant.sourceUrls?.filter(
+    (url) => !suppressedOfficialUrls.has(url) && !isNonSpecificGovernmentHomepage(url)
+  );
   const suppressedSourceCount = (grant.sourceUrls?.length || 0) - (sourceUrls?.length || 0);
 
   if (!suppressedOfficialUrl && suppressedSourceCount === 0) {
@@ -228,7 +263,7 @@ function sanitizeAuditedLinks(grant: Grant): Grant {
   }
 
   const auditNote = [
-    suppressedOfficialUrl ? '旧公式URL' : '',
+    suppressedOfficialUrl ? '旧公式URLまたは自治体トップページ' : '',
     suppressedSourceCount > 0 ? `出典URL${suppressedSourceCount}件` : '',
   ]
     .filter(Boolean)
@@ -240,7 +275,7 @@ function sanitizeAuditedLinks(grant: Grant): Grant {
     sourceUrls: sourceUrls && sourceUrls.length > 0 ? sourceUrls : undefined,
     sourceNote: [
       grant.sourceNote,
-      `${auditNote}は2026-06-24時点のリンク監査で404または到達不可を確認したため、公式リンクから外しています。制度内容は再確認対象です。`,
+      `${auditNote}は2026-06-24時点のリンク監査または出典精度点検により、404・到達不可・制度個別ページではないことを確認したため、公式リンクから外しています。制度内容は再確認対象です。`,
     ].filter(Boolean).join(' '),
   };
 
@@ -348,11 +383,10 @@ export function getRelatedGrants(grant: Grant, limit = 6): Grant[] {
 }
 
 export function searchGrants(query: string): Grant[] {
-  const q = query.trim().toLowerCase();
-  if (!q) return [];
+  if (getSearchTokens(query).length === 0) return [];
 
   return publishedGrants.filter(
-    (g) => (g.searchText || buildGrantSearchText(g)).includes(q)
+    (g) => matchesSearchText(g.searchText || buildGrantSearchText(g), query)
   );
 }
 
