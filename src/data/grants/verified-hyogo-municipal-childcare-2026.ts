@@ -16,6 +16,7 @@ type MunicipalChildMedicalSeed = {
   applicationDetails: string;
   note: string;
   officialUrl: string;
+  sourceUrls?: string[];
   sourceName: string;
 };
 
@@ -58,7 +59,7 @@ function createMunicipalChildMedicalGrant(seed: MunicipalChildMedicalSeed): Gran
     ],
     officialUrl: seed.officialUrl,
     sourceName: seed.sourceName,
-    sourceUrls: [seed.officialUrl],
+    sourceUrls: seed.sourceUrls || [seed.officialUrl],
     sourceNote: `${seed.city}公式ページで対象年齢、助成内容、申請方法、受給者証・償還払いの扱いを確認。`,
     verifiedAt,
     publishedAt: '2026-06-24',
@@ -238,5 +239,58 @@ export const verifiedHyogoMunicipalChildcareGrants2026: Grant[] = [
     note: '令和6年7月1日から制度が拡充され、高校生相当まで助成対象になっています。',
     officialUrl: 'https://www.city.ashiya.lg.jp/fukushi/iryou/nyuuyoujikodomo_kakudai0607.html',
     sourceName: '芦屋市 乳幼児等・こども医療費助成制度',
+  }),
+  createMunicipalChildMedicalGrant({
+    slug: 'sumoto-child-medical-2026',
+    city: '洲本市',
+    organization: '洲本市 保険医療課医療係',
+    maxAmount: '0歳〜高校生世代の入院・外来無料（令和8年7月診療分から所得制限なし）',
+    targetAge: '0歳〜18歳到達後の最初の3月31日まで',
+    eligibility: '洲本市に住所があり、健康保険に加入し、保護者等の扶養を受けている0歳から18歳年度末までの子どもが対象です。子ども・保護者等とも洲本市に住所を有すること、婚姻・事実婚状態にないことなどの要件があります。',
+    targetIncome: '令和8年6月診療分までは所得制限あり。令和8年7月診療分から保護者等の所得制限なし。',
+    applicationPeriod: '通年（出生・転入・未申請・所得制限撤廃対象者などで申請）',
+    description: '洲本市の乳幼児等・こども医療費助成制度です。健康保険による診療を受けたときの医療費自己負担額を助成し、申請後に資格が認められると医療費受給者証が郵送されます。',
+    assistanceDetails: '0歳児、1歳から小学校3年生、小学校4年生から高校生世代まで、入院・外来とも無料です。令和8年7月診療分からは0歳から18歳まで所得制限なく全額助成されます。対象は健康保険が適用される自己負担額で、高額療養費や附加給付がある場合は控除後の金額です。',
+    applicationDetails: '申請窓口は保険医療課医療係、五色総合事務所窓口サービス課、由良支所です。子どものマイナ保険証または資格確認書、必要な場合は所得課税証明書を準備して申請します。県外受診や受給者証を使えなかった場合は、後日払い戻しの申請を行います。',
+    note: '令和8年7月診療分から所得制限が撤廃されますが、兵庫県補助金の判定のため所得確認が必要になる場合があります。健康診断、予防接種、入院時食事代、差額ベッド代、文書料、学校管理下のけがなどは対象外です。',
+    officialUrl: 'https://www.city.sumoto.lg.jp/soshiki/15/2107.html',
+    sourceName: '洲本市 乳幼児等・こども医療費助成制度',
+  }),
+  createMunicipalChildMedicalGrant({
+    slug: 'aioi-child-medical-2026',
+    city: '相生市',
+    organization: '相生市 市民課',
+    maxAmount: '小学校3年生まで・小学校4年生〜高校3年生の入院・通院を無料化',
+    targetAge: '0歳〜高校3年生相当（18歳到達後の最初の3月31日まで）',
+    eligibility: '相生市に住所があり、健康保険に加入している小学校3年生までの乳幼児等、および小学校4年生から高校3年生までの児童・生徒が対象です。高校生等は婚姻・事実婚状態でないこと、保護者に扶養されていることが要件です。',
+    targetIncome: '0歳は所得制限なし。1歳以上は保護者または扶養義務者の市民税所得割額が23万5千円未満。',
+    applicationPeriod: '通年（出生・転入・対象年齢到達・県外受診後の償還払いなどで申請）',
+    description: '相生市の福祉医療制度のうち、乳幼児等医療費助成制度とこども医療費助成制度です。健康保険が適用された医療費自己負担額を、市が受給者証または償還払いで助成します。',
+    assistanceDetails: '乳幼児等医療費助成制度は小学校3年生まで、こども医療費助成制度は小学校4年生から高校3年生までが対象です。入院・通院とも一部負担はありません。令和5年12月診療分から高校生等の外来医療費も無料化されています。',
+    applicationDetails: '申請には健康保険証等を持参します。相生市以外から転入した場合は、保護者・扶養義務者の所得課税証明が必要になる場合があります。県外で受診した入院・通院は、領収書、健康保険証、保護者または扶養義務者名義の通帳を添えて償還払いを申請します。',
+    note: '生活保護を受給している場合は対象外です。食事代、差額ベッド代など保険外診療分、他の公費負担の対象となる医療、日本スポーツ振興センターの災害給付対象は助成対象外です。',
+    officialUrl: 'https://www.city.aioi.lg.jp/soshiki/shimin/fukusiiryou.html',
+    sourceName: '相生市の福祉医療制度',
+  }),
+  createMunicipalChildMedicalGrant({
+    slug: 'toyooka-child-medical-2026',
+    city: '豊岡市',
+    organization: '豊岡市 国保・年金課 国保・年金係',
+    maxAmount: '0歳〜小3は無料／小4〜高校3年生年代は区分により無料または月300円まで',
+    targetAge: '0歳〜高校3年生年代（令和8年7月診療分から18歳以下の高校生年代まで拡大）',
+    eligibility: '豊岡市に住所があり、健康保険に加入している子どもが対象です。乳幼児等医療費助成は0歳から小学3年生まで、こども医療費助成は小学4年生から高校3年生年代までが対象です。こども医療は婚姻・事実婚をしていないことも要件です。',
+    targetIncome: '0歳〜小学3年生は所得制限なし（所得確認あり）。小学校4年生以上は保護者または扶養義務者の市民税所得割額合計が23万5千円未満。',
+    applicationPeriod: '通年（窓口申請・オンライン申請に対応）',
+    description: '豊岡市の乳幼児等医療費助成制度・こども医療費助成制度です。健康保険が適用される医療費について、受給者証の提示または医療費支給申請により自己負担を助成します。',
+    assistanceDetails: '0歳から小学3年生までは外来・入院とも無料です。小学4年生から高校3年生年代は、2025年7月診療分から区分1は無料、区分2は外来が1医療機関・薬局ごとに1カ月300円まで、入院は無料です。2026年7月診療分から18歳以下の高校生年代まで対象が拡大されます。',
+    applicationDetails: '豊岡市役所国保・年金課または各振興局市民福祉課で申請します。健康保険の資格情報が確認できるもの、本人確認書類、転入者や市外居住の保護者がいる場合の所得課税証明書を準備します。オンライン申請も受け付けています。',
+    note: '県外受診や受給者証を提示できなかった場合は、領収書、受給者証、健康保険資格情報、振込口座が分かるものなどを添えて支給申請を行います。健康診断、予防接種、入院時食事代、差額ベッド代、学校管理下の災害共済給付対象などは対象外です。',
+    officialUrl: 'https://www.city.toyooka.lg.jp/kosodate/1036539/1036958/1001487.html',
+    sourceUrls: [
+      'https://www.city.toyooka.lg.jp/kosodate/1036539/1036958/1001484.html',
+      'https://www.city.toyooka.lg.jp/kosodate/1036539/1036958/1001487.html',
+      'https://www.city.toyooka.lg.jp/kosodate/1036539/1036958/index.html',
+    ],
+    sourceName: '豊岡市 乳幼児等医療費助成制度・こども医療費助成制度',
   }),
 ];
