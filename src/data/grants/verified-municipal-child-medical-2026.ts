@@ -2,7 +2,7 @@ import { Grant } from '@/lib/types';
 
 const verifiedAt = '2026-06-25';
 
-type MunicipalChildMedicalSeed = {
+export type MunicipalChildMedicalSeed = {
   slug: string;
   city: string;
   prefecture: string;
@@ -22,7 +22,7 @@ type MunicipalChildMedicalSeed = {
   sourceUrls?: string[];
 };
 
-function createMunicipalChildMedicalGrant(seed: MunicipalChildMedicalSeed): Grant {
+export function createMunicipalChildMedicalGrant(seed: MunicipalChildMedicalSeed): Grant {
   return {
     slug: seed.slug,
     title: seed.title,

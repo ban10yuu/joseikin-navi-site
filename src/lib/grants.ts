@@ -6,6 +6,7 @@ import { verifiedBusinessGrants2026 } from '@/data/grants/verified-business-2026
 import { verifiedHyogoChildcareGrants2026 } from '@/data/grants/verified-hyogo-childcare-2026';
 import { verifiedHyogoMunicipalChildcareGrants2026 } from '@/data/grants/verified-hyogo-municipal-childcare-2026';
 import { verifiedMunicipalChildMedicalGrants2026 } from '@/data/grants/verified-municipal-child-medical-2026';
+import { verifiedMunicipalChildMedicalTier5Batch2Grants2026 } from '@/data/grants/verified-municipal-child-medical-tier5-batch2-2026';
 import { verifiedNationalChildcareGrants2026 } from '@/data/grants/verified-national-childcare-2026';
 import { verifiedPrefectureChildMedicalGrants2026 } from '@/data/grants/verified-prefecture-child-medical-2026';
 import { verifiedTenriChildcareGrants2026 } from '@/data/grants/verified-tenri-childcare-2026';
@@ -127,6 +128,7 @@ const rawGrants: Grant[] = [
   ...verifiedHyogoMunicipalChildcareGrants2026,
   ...verifiedHyogoChildcareGrants2026,
   ...verifiedMunicipalChildMedicalGrants2026,
+  ...verifiedMunicipalChildMedicalTier5Batch2Grants2026,
   ...verifiedPrefectureChildMedicalGrants2026,
   ...verifiedNationalChildcareGrants2026,
   ...verifiedBusinessGrants2026,
