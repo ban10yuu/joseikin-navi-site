@@ -221,4 +221,17 @@
 - [x] `npm run audit:deadlines`（期限切れ67件を通常一覧から除外、failures 0）
 - [x] `npm run audit:links` 2238件OK / broken 0
 - [x] 生成HTMLスポット確認（15件すべて公式確認表示・公式情報リンクあり・sitemap掲載・noindexなし）
+- [x] 東京都市部の子ども医療費助成9件を公式確認済みデータで追加・置換（三鷹市、府中市、武蔵野市、町田市2slug、八王子市2slug、調布市、立川市）
+- [x] 追加前に対象公式URL 20件を到達確認（全件HTTP 200）
+- [x] 追加後の `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`（エラー0）
+- [x] 追加後のデータ層確認（9件すべて公式出典あり・手動確認済み・期限切れ混入なし）
+- [x] `npm run audit:coverage`（期限切れ67件、手動公式確認済み370件、公式リンクあり未確認0件、東京都ローカル公式確認済み127件、failures 0）
+- [x] 追加後の `npm run lint`（既存警告5件、エラー0）
+- [x] 追加後の `npm run build`（現在ツリー1121静的ページ）
+- [x] `npm run audit:deadlines`（期限切れ67件を通常一覧から除外、failures 0）
+- [x] `npm run audit:links` 2288件OK / broken 0
+- [x] 生成HTMLスポット確認（9件すべて公式確認表示・公式情報リンクあり・sitemap掲載・noindexなし）
+- [x] クリーンworktreeで `npm run lint`（既存警告5件、エラー0）
+- [x] クリーンworktreeで `npm run build`（1119静的ページ）
+- [x] クリーンworktreeで `npm run audit:coverage` / `npm run audit:deadlines` / `npm run audit:links`（failures 0、リンク2268件OK / broken 0）
 - [ ] 全国網羅の次段階: 公式確認済みデータを都道府県・市区町村単位で追加し、未確認LLM生成データを順次置換する

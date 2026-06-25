@@ -1168,3 +1168,50 @@ city-batch68〜91はテンプレート(`genGrants`関数)で自動生成され�
 - `npm run audit:deadlines`: failures 0。
 - `npm run audit:links`: 2238件OK / broken 0。
 - 生成HTMLで15slugすべて、公式確認表示・公式情報リンクあり・sitemap掲載・`noindex` なしを確認。
+
+---
+
+## 2026-06-26 東京都市部子ども医療費9件の公式確認バッチ
+
+東京都市部の子ども医療費助成9件を自治体公式ページ・公式子育てポータルで確認し、同一slugの公式確認済みデータで置換した。既存データは削除せず、公式確認済みデータを先頭側に追加し、先勝ちdedupeで反映している。
+
+対象:
+
+| slug | 制度名 | 公式確認した主な内容 |
+|---|---|---|
+| `mitaka-child-medical` | 三鷹市 子どもの医療費助成制度 | 18歳年度末まで、保険診療自己負担分を助成。所得制限なし。 |
+| `fuchu-child-medical` | 府中市 子ども医療費助成 | 高校等修了前まで、健康保険診療の自己負担分を助成。所得制限なし。 |
+| `musashino-child-medical` | 武蔵野市 子どもの医療費助成制度 | 18歳年度末まで、保険診療自己負担分を助成。出生・転入日の遡及条件を確認。 |
+| `machida-child-medical` | 町田市 子どもの医療費助成制度 | マル乳・マル子・マル青を包括。高校生相当年齢まで助成。 |
+| `machida-child-medical-aid` | 町田市 子どもの医療費助成制度 | 既存URL維持の互換slugとして、同一公式制度群で置換。 |
+| `hachioji-child-medical` | 八王子市 子どものための医療費助成制度 | マル乳・マル子・マル青を包括。通院一部負担や資格開始条件を確認。 |
+| `hachioji-child-medical-aid` | 八王子市 子どものための医療費助成制度 | 既存URL維持の互換slugとして、同一公式制度群で置換。 |
+| `chofu-child-medical` | 調布市 子どもの医療費助成制度 | 18歳年度末まで、健康保険適用の診療・調剤の自己負担分を助成。 |
+| `tachikawa-child-medical` | 立川市 子どもの医療費助成制度 | マル乳・マル子・マル青の各公式ページで対象・助成内容を確認。 |
+
+検証結果:
+
+| 項目 | 結果 |
+|---|---:|
+| このバッチの通常公開/除外 | 9 / 0 |
+| 採用source URL | 20件すべてHTTP 200 |
+| 手動公式確認済み（通常公開） | 370 |
+| 公式リンクなしの通常公開データ | 4,025 |
+| 東京都ローカル公式確認済み | 127 |
+| 期限切れとして通常一覧から除外 | 67 |
+| build | 1121静的ページ（現在ツリー。Pinterest関連未コミット変更を含む） |
+| リンク監査 | 2288件OK / broken 0 |
+| clean worktree build | 1119静的ページ |
+| clean worktreeリンク監査 | 2268件OK / broken 0 |
+
+追加検証:
+
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- 9slugのデータ層確認: すべて公式出典あり・手動確認済み・期限切れ混入なし。
+- `npm run lint`: 既存警告5件、エラー0。
+- `npm run build`: 成功。
+- `npm run audit:coverage`: failures 0。
+- `npm run audit:deadlines`: failures 0。
+- `npm run audit:links`: 2288件OK / broken 0。
+- 生成HTMLで9slugすべて、公式確認表示・公式情報リンクあり・sitemap掲載・`noindex` なしを確認。
+- clean worktreeでも `npm run lint`、`npm run build`、`npm run audit:coverage`、`npm run audit:deadlines`、`npm run audit:links`、生成HTML確認を実行し、すべてfailures 0。

@@ -5002,4 +5002,347 @@ export const verifiedTokyoLocalGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'mitaka-child-medical',
+    title: '三鷹市 子どもの医療費助成制度',
+    organization: '三鷹市',
+    type: 'local',
+    maxAmount: '18歳年度末まで保険診療の自己負担分を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['三鷹市', '子ども医療費', 'マル青'],
+    eligibility: '公的医療保険に加入し、三鷹市に在住する18歳到達後最初の3月31日までの子どもが対象です。所得制限はありません。',
+    applicationPeriod: '随時。医療証交付申請が必要。出生日または転入日の翌月までの申請は出生日または転入日から対象',
+    description: '三鷹市が、18歳年度末までの子どもについて、健康保険が適用される医療費の自己負担分を通院・入院ともに助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>マル乳・マル子・マル青医療証により、健康保険が適用される医療費の自己負担分を助成します。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>三鷹市に在住し、公的医療保険に加入している、18歳到達後最初の3月31日までの子どもが対象です。所得制限はありません。</p>'
+      },
+      {
+        heading: '対象外',
+        content: '<p>健康保険適用外、入院時食事療養費、高額療養費・附加給付相当分、他公費医療対象分などは対象外または調整対象です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.mitaka.lg.jp/c_service/001/001144.html',
+    sourceName: '三鷹市 子どもの医療費助成制度',
+    sourceUrls: [
+      'https://www.city.mitaka.lg.jp/c_service/001/001144.html',
+      'https://www.city.mitaka.lg.jp/c_service/097/097665.html'
+    ],
+    sourceNote: '三鷹市公式ページで制度概要、対象者、所得制限なし、資格開始日、払い戻し手続を確認。公式URLはすべてHTTP 200。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'fuchu-child-medical',
+    title: '府中市 子ども医療費助成',
+    organization: '府中市',
+    type: 'local',
+    maxAmount: '高校等修了前まで保険診療の自己負担分を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['府中市', '子ども医療費', '高校生等'],
+    eligibility: '府中市内に住み、住民基本台帳に記載されている高校等修了前までの子どもで、国民健康保険や各種社会保険の被保険者または被扶養者が対象です。',
+    applicationPeriod: '随時。子育て応援課窓口、電子申請、郵送で医療証交付申請',
+    description: '府中市が、高校等修了前までの子どもについて、健康保険診療でかかった医療費の自己負担分を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>乳幼児、義務教育就学児、高校生等について、健康保険診療でかかった医療費の自己負担分を助成します。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>府中市に住み、住民基本台帳に記載され、国民健康保険や各種社会保険に加入している高校等修了前までの子どもが対象です。</p>'
+      },
+      {
+        heading: '対象外',
+        content: '<p>高額療養費、入院時食事療養標準負担額、健康保険診療適用外の費用などは対象外です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.fuchu.tokyo.jp/kosodate/shussan/teate_josei/kodomoiryoshokisettei.html',
+    sourceName: '府中市 子ども医療費助成',
+    sourceUrls: [
+      'https://www.city.fuchu.tokyo.jp/kosodate/shussan/teate_josei/kodomoiryoshokisettei.html',
+      'https://www.city.fuchu.tokyo.jp/kosodate/shussan/teate_josei/kodomoiryoshokisettei.files/zyosei05.pdf'
+    ],
+    sourceNote: '府中市公式ページと公式PDFで対象者、所得制限なし、高校生世代までの拡充、助成内容、対象外費用を確認。公式URLはすべてHTTP 200。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'musashino-child-medical',
+    title: '武蔵野市 子どもの医療費助成制度',
+    organization: '武蔵野市',
+    type: 'local',
+    maxAmount: '18歳年度末まで保険診療の自己負担分を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['武蔵野市', '子ども医療費', 'マル青'],
+    eligibility: '武蔵野市内に住民登録があり、健康保険に加入している18歳の年度末までの子どもを養育している人が対象です。所得制限はありません。',
+    applicationPeriod: '随時。出生・転入日から2か月以内の申請は出生・転入日に遡及。2か月経過後は申請日から開始',
+    description: '武蔵野市が、18歳年度末までの子どもにマル乳・マル子・マル青医療証を交付し、保険診療の自己負担分を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>都内の医療機関では、医療証とマイナ保険証または資格確認書を提示することで、保険診療分の窓口支払いが原則不要になります。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>武蔵野市内に住民登録があり、健康保険に加入している18歳年度末までの子どもを養育している人が対象です。所得制限はありません。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>都外受診、都外国民健康保険加入、医療証未使用時などは払い戻し申請を行います。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/teate_josei/kodomokatei/1006716.html',
+    sourceName: '武蔵野市 子どもの医療費助成制度',
+    sourceUrls: [
+      'https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/teate_josei/kodomokatei/1006716.html',
+      'https://www.city.musashino.lg.jp/shinseisho/shussan_kodomo_kyoiku/kosodateshien/1003759.html'
+    ],
+    sourceNote: '武蔵野市公式ページで対象者、所得制限なし、助成内容、開始日の扱い、払い戻し手続を確認。公式URLはすべてHTTP 200。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'machida-child-medical',
+    title: '町田市 子どもの医療費助成制度',
+    organization: '町田市',
+    type: 'local',
+    maxAmount: '高校生相当年齢まで保険診療の自己負担分を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['町田市', '子ども医療費', 'マル青'],
+    eligibility: '町田市内在住で各種健康保険に加入する小学校就学前児童、小・中学生、高校生相当年齢の児童が対象です。保護者の所得制限はありません。',
+    applicationPeriod: '随時。マル乳は出生・転入日から61日以内、マル子・マル青は転入日から61日以内の申請で該当日から資格開始',
+    description: '町田市が、乳幼児医療費助成、義務教育就学児医療費助成、高校生等医療費助成により、子どもの保険診療自己負担分を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>マル乳・マル子・マル青医療証により、保険診療の自己負担分を助成します。マル子・マル青の通院は1回200円を超える額が助成対象です。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>町田市内在住で各種健康保険に加入している、小学校就学前から18歳年度末までの児童が対象です。保護者の所得制限はありません。</p>'
+      },
+      {
+        heading: '対象外',
+        content: '<p>保険適用外、入院時食事代、学校・園管理下で災害共済給付対象となる傷病などは対象外です。</p>'
+      }
+    ],
+    officialUrl: 'https://kosodate-machida.tokyo.jp/mokuteki/2/4/kakusyuiryouhijyosei/index.html',
+    sourceName: '町田市 各種医療費助成制度',
+    sourceUrls: [
+      'https://kosodate-machida.tokyo.jp/mokuteki/2/4/kakusyuiryouhijyosei/index.html',
+      'https://kosodate-machida.tokyo.jp/soshiki/4/1/2/483.html',
+      'https://kosodate-machida.tokyo.jp/soshiki/4/1/2/487.html',
+      'https://kosodate-machida.tokyo.jp/soshiki/4/1/2/11199.html'
+    ],
+    sourceNote: '町田市公式子育てサイトでマル乳・マル子・マル青の対象、助成内容、所得制限なし、申請方法を確認。公式URLはすべてHTTP 200。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'machida-child-medical-aid',
+    title: '町田市 子どもの医療費助成制度',
+    organization: '町田市',
+    type: 'local',
+    maxAmount: '高校生相当年齢まで保険診療の自己負担分を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['町田市', 'こども医療費', '互換slug'],
+    eligibility: '町田市内在住で各種健康保険に加入する小学校就学前児童、小・中学生、高校生相当年齢の児童が対象です。保護者の所得制限はありません。',
+    applicationPeriod: '随時。マル乳は出生・転入日から61日以内、マル子・マル青は転入日から61日以内の申請で該当日から資格開始',
+    description: '既存slug互換のため、町田市のマル乳・マル子・マル青医療証による子どもの医療費助成制度として公式確認済みデータで置換しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>町田市公式サイトでは、乳幼児医療費助成、義務教育就学児医療費助成、高校生等医療費助成として案内されています。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>マル乳は保険診療の自己負担分、マル子・マル青は入院・調剤の自己負担額と、通院1回200円を超える額を助成します。</p>'
+      },
+      {
+        heading: '互換slugの扱い',
+        content: '<p>このページは既存URLを維持するための互換slugです。公式根拠は町田市の同一制度群です。</p>'
+      }
+    ],
+    officialUrl: 'https://kosodate-machida.tokyo.jp/mokuteki/2/4/kakusyuiryouhijyosei/index.html',
+    sourceName: '町田市 各種医療費助成制度',
+    sourceUrls: [
+      'https://kosodate-machida.tokyo.jp/mokuteki/2/4/kakusyuiryouhijyosei/index.html',
+      'https://kosodate-machida.tokyo.jp/soshiki/4/1/2/483.html',
+      'https://kosodate-machida.tokyo.jp/soshiki/4/1/2/487.html',
+      'https://kosodate-machida.tokyo.jp/soshiki/4/1/2/11199.html'
+    ],
+    sourceNote: '町田市公式子育てサイトでマル乳・マル子・マル青の対象、助成内容、所得制限なし、申請方法を確認。同一制度群の互換slugとして採用。公式URLはすべてHTTP 200。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'hachioji-child-medical',
+    title: '八王子市 子どものための医療費助成制度',
+    organization: '八王子市',
+    type: 'local',
+    maxAmount: '高校生相当年齢まで保険診療の自己負担分を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['八王子市', '子ども医療費', 'マル青'],
+    eligibility: '八王子市内在住で、国民健康保険または各種社会保険に加入する乳幼児、小・中学生、高校生相当年齢の子どもが対象です。所得制限はありません。',
+    applicationPeriod: '随時。出生・転入・制度該当日から3か月以内の申請は該当日から資格開始。それ以外は申請月の初日から',
+    description: '八王子市が、マル乳・マル子・マル青医療証により、子どもの保険診療自己負担分を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>乳幼児医療費助成制度、義務教育就学児医療費助成制度、高校生等医療費助成制度により、保険診療の自己負担分を助成します。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>マル乳は保険診療の自己負担分、マル子・マル青は入院・調剤薬局・訪問看護を全額助成し、通院は1回200円を控除した額を助成します。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>出生・転入・制度該当日から3か月以内に申請した場合は該当日から資格開始となります。</p>'
+      }
+    ],
+    officialUrl: 'https://kosodate.city.hachioji.tokyo.jp/soshiki/kosodateshienka/kosodateshienka_shomu_kyufu_jidoteatenyukotanto_hitorioyatanto/268.html',
+    sourceName: '八王子市 子どものための医療',
+    sourceUrls: [
+      'https://kosodate.city.hachioji.tokyo.jp/soshiki/kosodateshienka/kosodateshienka_shomu_kyufu_jidoteatenyukotanto_hitorioyatanto/268.html',
+      'https://kosodate.city.hachioji.tokyo.jp/soshiki/kosodateshienka/kosodateshienka_shomu_kyufu_jidoteatenyukotanto_hitorioyatanto/267.html',
+      'https://kosodate.city.hachioji.tokyo.jp/soshiki/kosodateshienka/kosodateshienka_shomu_kyufu_jidoteatenyukotanto_hitorioyatanto/256.html',
+      'https://kosodate.city.hachioji.tokyo.jp/soshiki/kosodateshienka/kosodateshienka_shomu_kyufu_jidoteatenyukotanto_hitorioyatanto/2449.html'
+    ],
+    sourceNote: '八王子市公式子育て応援サイトでマル乳・マル子・マル青の対象、助成内容、申請方法、所得制限なしを確認。公式URLはすべてHTTP 200。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'hachioji-child-medical-aid',
+    title: '八王子市 子どものための医療費助成制度',
+    organization: '八王子市',
+    type: 'local',
+    maxAmount: '高校生相当年齢まで保険診療の自己負担分を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['八王子市', 'こども医療費', '互換slug'],
+    eligibility: '八王子市内在住で、国民健康保険または各種社会保険に加入する乳幼児、小・中学生、高校生相当年齢の子どもが対象です。所得制限はありません。',
+    applicationPeriod: '随時。出生・転入・制度該当日から3か月以内の申請は該当日から資格開始。それ以外は申請月の初日から',
+    description: '既存slug互換のため、八王子市のマル乳・マル子・マル青医療証による子どものための医療費助成制度として公式確認済みデータで置換しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>八王子市公式サイトでは、乳幼児医療費助成制度、義務教育就学児医療費助成制度、高校生等医療費助成制度として案内されています。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>マル乳は保険診療の自己負担分、マル子・マル青は入院・調剤薬局・訪問看護を全額助成し、通院は1回200円を控除した額を助成します。</p>'
+      },
+      {
+        heading: '互換slugの扱い',
+        content: '<p>このページは既存URLを維持するための互換slugです。公式根拠は八王子市の同一制度群です。</p>'
+      }
+    ],
+    officialUrl: 'https://kosodate.city.hachioji.tokyo.jp/soshiki/kosodateshienka/kosodateshienka_shomu_kyufu_jidoteatenyukotanto_hitorioyatanto/268.html',
+    sourceName: '八王子市 子どものための医療',
+    sourceUrls: [
+      'https://kosodate.city.hachioji.tokyo.jp/soshiki/kosodateshienka/kosodateshienka_shomu_kyufu_jidoteatenyukotanto_hitorioyatanto/268.html',
+      'https://kosodate.city.hachioji.tokyo.jp/soshiki/kosodateshienka/kosodateshienka_shomu_kyufu_jidoteatenyukotanto_hitorioyatanto/267.html',
+      'https://kosodate.city.hachioji.tokyo.jp/soshiki/kosodateshienka/kosodateshienka_shomu_kyufu_jidoteatenyukotanto_hitorioyatanto/256.html',
+      'https://kosodate.city.hachioji.tokyo.jp/soshiki/kosodateshienka/kosodateshienka_shomu_kyufu_jidoteatenyukotanto_hitorioyatanto/2449.html'
+    ],
+    sourceNote: '八王子市公式子育て応援サイトでマル乳・マル子・マル青の対象、助成内容、申請方法、所得制限なしを確認。同一制度群の互換slugとして採用。公式URLはすべてHTTP 200。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'chofu-child-medical',
+    title: '調布市 子どもの医療費助成制度',
+    organization: '調布市',
+    type: 'local',
+    maxAmount: '18歳年度末まで健康保険適用医療費の自己負担分を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['調布市', '子ども医療費', 'マル青'],
+    eligibility: '調布市に住み、健康保険に加入している0歳から18歳に達する日以後最初の3月31日までの子どもを養育している保護者が対象です。',
+    applicationPeriod: '随時。制度利用には医療証の交付申請が必要。払い戻し申請も可能',
+    description: '調布市が、0歳から18歳年度末までの子どもの健康保険適用医療費の自己負担分を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>マル乳・マル子・マル青医療証により、健康保険適用の医療費の自己負担分を助成します。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>調布市に住み、健康保険に加入している0歳から18歳到達後最初の3月31日までの子どもを養育している保護者が対象です。</p>'
+      },
+      {
+        heading: '払い戻し',
+        content: '<p>医療証交付前の受診、東京都外の医療機関、医療証を提示できなかった場合などは、申請により払い戻しを受けます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.chofu.lg.jp/050030/p029008.html',
+    sourceName: '調布市 子どもの医療費助成制度',
+    sourceUrls: [
+      'https://www.city.chofu.lg.jp/050030/p029008.html',
+      'https://www.city.chofu.lg.jp/050030/p029012.html'
+    ],
+    sourceNote: '調布市公式ページで対象年齢、助成内容、対象者、払い戻し手続を確認。公式URLはすべてHTTP 200。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'tachikawa-child-medical',
+    title: '立川市 乳幼児・義務教育就学児・高校生等医療費助成制度',
+    organization: '立川市',
+    type: 'local',
+    maxAmount: '高校生相当年齢まで健康保険適用医療費の自己負担分を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['立川市', '子ども医療費', 'マル青'],
+    eligibility: '立川市に住民登録があり、健康保険に加入している乳幼児、義務教育就学児、高校生等が対象です。制度区分によりマル乳・マル子・マル青医療証を利用します。',
+    applicationPeriod: '随時。制度利用には医療証の交付申請が必要。都外受診等は償還払い手続',
+    description: '立川市が、乳幼児、義務教育就学児、高校生等の医療費について、健康保険適用の自己負担分を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>乳幼児医療費助成、義務教育就学児医療費助成、高校生等医療費助成により、子どもの医療費自己負担分を助成します。</p>'
+      },
+      {
+        heading: '医療証',
+        content: '<p>乳幼児はマル乳、義務教育就学児はマル子、高校生等はマル青医療証の対象です。</p>'
+      },
+      {
+        heading: '償還払い',
+        content: '<p>東京都外の医療機関で受診した場合など、医療証を使用できない場合は領収書を添付して償還払い申請を行います。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.tachikawa.lg.jp/kosodate/m-kosodate/1004939/1004957/index.html',
+    sourceName: '立川市 医療費助成制度',
+    sourceUrls: [
+      'https://www.city.tachikawa.lg.jp/kosodate/m-kosodate/1004939/1004957/index.html',
+      'https://www.city.tachikawa.lg.jp/kosodate/m-kosodate/1004939/1004957/1004974.html',
+      'https://www.city.tachikawa.lg.jp/kosodate/m-kosodate/1004939/1004957/1004966.html',
+      'https://www.city.tachikawa.lg.jp/kosodate/m-kosodate/1004939/1004957/1004967.html'
+    ],
+    sourceNote: '立川市公式ページで医療費助成制度一覧、乳幼児・義務教育就学児・高校生等医療費助成、償還払い案内を確認。公式URLはすべてHTTP 200。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];

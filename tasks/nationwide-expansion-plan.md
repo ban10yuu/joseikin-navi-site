@@ -7,22 +7,22 @@
 | 指標 | 件数 |
 |---|---:|
 | 通常公開 | 4,395 |
-| 公式リンクあり・手動確認済み | 361 |
+| 公式リンクあり・手動確認済み | 370 |
 | 公式リンクありだが手動確認前 | 0 |
-| 公式リンクなし | 4,034 |
+| 公式リンクなし | 4,025 |
 | 期限切れとして通常一覧から除外 | 67 |
 
-未公式確認4,034件はすべて `local` 型。国制度と民間/NPO系の未確認データは今回までのバッチでいったん0になったため、以後は自治体・市区町村制度を公式確認済みデータで置換していく。
+未公式確認4,025件はすべて `local` 型。国制度と民間/NPO系の未確認データは今回までのバッチでいったん0になったため、以後は自治体・市区町村制度を公式確認済みデータで置換していく。
 
 ## 未公式確認の内訳
 
 | カテゴリ | 未公式確認 |
 |---|---:|
-| childcare | 880 |
+| childcare | 871 |
 | housing | 521 |
 | employment | 487 |
-| medical | 464 |
 | living | 466 |
+| medical | 464 |
 | education | 450 |
 | nursing | 393 |
 | disaster | 373 |
@@ -31,7 +31,7 @@
 
 | 都道府県 | 未公式確認 |
 |---|---:|
-| 東京都 | 291 |
+| 東京都 | 282 |
 | 埼玉県 | 238 |
 | 千葉県 | 185 |
 | 北海道 | 171 |
@@ -52,7 +52,7 @@
 
 ## 優先順位
 
-1. 東京都の未確認430件
+1. 東京都の未確認282件
    - 23区、都制度、市部を分割。
    - まず生活者向けの医療、子育て、住宅、生活支援を優先。
 2. 首都圏と大都市圏
@@ -105,6 +105,13 @@
 - 15件すべて自治体公式ページで対象年齢、助成範囲、申請時期、期限の有無を確認。採用source URL21件はすべてHTTP 200。
 - 旧生成データの「高校卒業まで無料」表現は、各区公式に合わせて「18歳年度末まで保険診療の自己負担分等を助成」などへ補正。
 - 検証: clean worktreeで追加後の `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`、データ層確認、`npm run lint`、`npm run build`、`npm run audit:coverage`、`npm run audit:deadlines`、`npm run audit:links`、生成HTML確認はすべてfailures 0。手動公式確認済み361件、東京都ローカル公式確認済み118件、clean build 1109静的ページ、audit:links 2238件OK / broken 0。
+
+### Completed: 東京都市部子ども医療費9件（2026-06-26）
+
+- 通常公開9件: 三鷹市、府中市、武蔵野市、町田市2slug、八王子市2slug、調布市、立川市。
+- 9件すべて自治体公式ページ・公式子育てポータルで対象年齢、助成範囲、所得制限の有無、申請時期、期限の有無を確認。採用source URL20件はすべてHTTP 200。
+- 町田市と八王子市は既存URL維持のため互換slugも公式確認済みデータで置換し、公式上のマル乳・マル子・マル青制度群として説明を補正。
+- 検証: `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`、データ層確認、`npm run lint`、`npm run build`、`npm run audit:coverage`、`npm run audit:deadlines`、`npm run audit:links`、生成HTML確認はすべてfailures 0。手動公式確認済み370件、東京都ローカル公式確認済み127件、現在ツリーbuild 1121静的ページ・audit:links 2288件OK / broken 0、clean worktree build 1119静的ページ・audit:links 2268件OK / broken 0。
 
 ### Batch A: 東京都・23区 生活者向け制度（継続）
 
