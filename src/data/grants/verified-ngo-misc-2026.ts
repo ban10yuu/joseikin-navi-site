@@ -324,10 +324,7 @@ export const verifiedNgoMiscGrants2026: Grant[] = [
     ],
     officialUrl: 'https://swf.or.jp/josei/',
     sourceName: '洲崎福祉財団 助成の概要',
-    sourceUrls: [
-      'https://swf.or.jp/josei/',
-      'https://swf.or.jp/support1/'
-    ],
+    sourceUrls: ['https://swf.or.jp/josei/'],
     sourceNote: '公式ページで一般助成の受付開始予定、締切、助成種別別の上限額を確認。',
     verifiedAt,
     publishedAt: '2026-06-26',
