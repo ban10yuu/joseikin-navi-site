@@ -4476,4 +4476,530 @@ export const verifiedTokyoLocalGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'chiyoda-child-medical',
+    title: '千代田区 こども・高校生等医療費助成制度',
+    organization: '千代田区',
+    type: 'local',
+    maxAmount: '18歳年度末まで保険診療の自己負担分等を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['千代田区', 'こども医療費', '高校生等医療証'],
+    eligibility: '18歳に達した日以降最初の3月31日までの間にあり、千代田区に住民登録があり、国内の健康保険に加入している子どもが対象です。生活保護、児童福祉施設等入所、里親委託の児童は対象外です。',
+    applicationPeriod: '随時。出生・転入日の翌日から3か月以内に申請。3か月経過後は申請日の属する月の1日から助成開始となる場合があります',
+    description: '千代田区が、18歳年度末までの子どもについて、保険診療の自己負担分などを助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>こども・高校生等医療証により、医療機関で治療を受けたときの保険診療の自己負担分を助成します。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>千代田区に住民登録があり、国内の健康保険に加入している、18歳到達後最初の3月31日までの子どもが対象です。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>出生・転入から一定期間内に申請することで、出生日または転入日から助成対象となります。固定の公募締切はありません。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.chiyoda.lg.jp/koho/kosodate/teate/kodomoiryo.html',
+    sourceName: '千代田区 こども・高校生等医療費助成制度',
+    sourceUrls: ['https://www.city.chiyoda.lg.jp/koho/kosodate/teate/kodomoiryo.html'],
+    sourceNote: '千代田区公式ページで対象年齢、助成範囲、入院時食事代の扱い、申請期限の考え方を確認。公式URLはHTTP 200。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'chuo-child-medical',
+    title: '中央区 子ども医療費助成',
+    organization: '中央区',
+    type: 'local',
+    maxAmount: '18歳年度末まで保険診療の自己負担分等を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['中央区', '子ども医療費', '高校生等医療証'],
+    eligibility: '中央区内に住所があり、健康保険に加入している子どもを養育する保護者が対象です。対象区分は就学前、小・中学生、高校生等で、18歳到達後最初の3月31日までです。',
+    applicationPeriod: '随時。窓口、郵送、オンライン申請で医療証交付申請が可能。払い戻しは領収日から5年以内',
+    description: '中央区が、子どもの病院・薬局等での保険診療について、保護者が負担する額を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>健康保険の適用される医療について、通院・入院にかかる自己負担分と入院時食事療養標準負担額を助成します。</p>'
+      },
+      {
+        heading: '対象年齢',
+        content: '<p>就学前、小・中学生、高校生等の各医療証により、18歳到達後最初の3月31日までが対象です。所得制限はありません。</p>'
+      },
+      {
+        heading: '対象外',
+        content: '<p>健康保険適用外、高額療養費・附加給付該当分、他制度適用分、日本スポーツ振興センター給付適用分などは対象外です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.chuo.lg.jp/a0020/kosodate/kosodate/teatejosei/iryouhijosei/akimoto.html',
+    sourceName: '中央区 子ども医療費助成',
+    sourceUrls: ['https://www.city.chuo.lg.jp/a0020/kosodate/kosodate/teatejosei/iryouhijosei/akimoto.html'],
+    sourceNote: '中央区公式ページで制度概要、対象区分、所得制限なし、助成範囲、払い戻し期限を確認。公式URLはHTTP 200。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'minato-child-medical',
+    title: '港区 子ども医療費助成',
+    organization: '港区',
+    type: 'local',
+    maxAmount: '18歳年度末まで保険診療の自己負担分等を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['港区', '子ども医療費', '高校生等医療証'],
+    eligibility: '18歳に達する日以後の最初の3月31日までの子どもで、港区に住民登録があり、日本の公的な健康保険に加入していることが要件です。生活保護、児童福祉施設入所、里親委託等は対象外です。',
+    applicationPeriod: '随時。出生・転入日から15日以内の申請は出生・転入日から資格発生',
+    description: '港区が、18歳年度末までの子どもの通院・入院医療費について、保険診療の自己負担分などを助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>乳幼児・子ども・高校生等医療証により、通院・入院にかかる保険診療の自己負担分を助成します。</p>'
+      },
+      {
+        heading: '助成範囲',
+        content: '<p>保険診療の自己負担分に加え、入院時の食事療養標準負担額も助成対象です。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>郵送、各総合支所区民課保健福祉係への持参、マイナポータル電子申請で申請できます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.minato.tokyo.jp/kosodatesien/kodomo/kate/kodomoiryo.html',
+    sourceName: '港区 子ども医療費助成',
+    sourceUrls: ['https://www.city.minato.tokyo.jp/kosodatesien/kodomo/kate/kodomoiryo.html'],
+    sourceNote: '港区公式ページで対象年齢、助成範囲、入院時食事代、申請方法、資格発生日を確認。公式URLはHTTP 200。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'setagaya-child-medical',
+    title: '世田谷区 子ども等医療費助成制度',
+    organization: '世田谷区',
+    type: 'local',
+    maxAmount: '18歳年度末まで保険診療の自己負担分等を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['世田谷区', '子ども等医療費', '高校生等'],
+    eligibility: '世田谷区内に住所があり、18歳に達した日以後最初の3月31日までで、国民健康保険または社会保険に加入している児童が対象です。生活保護、児童福祉施設入所、里親委託の児童は対象外です。',
+    applicationPeriod: '随時。出生・転入の場合は3か月以内の申請で出生日または転入日から助成対象',
+    description: '世田谷区が、18歳年度末までの子ども等の医療費について、保険診療の自己負担分などを助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>子ども等医療証により、保険診療の自己負担分と入院時の食事の自己負担分を助成します。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>世田谷区内に住所があり、健康保険に加入している、18歳到達後最初の3月31日までの児童が対象です。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>窓口、郵送、電子申請で受給資格申請ができます。医療証は毎年10月に更新され、原則として更新手続きは不要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.setagaya.lg.jp/02413/1305.html',
+    sourceName: '世田谷区 子ども等医療費助成制度',
+    sourceUrls: ['https://www.city.setagaya.lg.jp/02413/1305.html'],
+    sourceNote: '世田谷区公式ページで対象者、助成内容、申請方法、出生・転入時の資格発生日を確認。公式URLはHTTP 200。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'shibuya-child-medical',
+    title: '渋谷区 子ども医療費助成',
+    organization: '渋谷区',
+    type: 'local',
+    maxAmount: '18歳年度末まで保険診療の自己負担分等を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['渋谷区', '子ども医療費', '医療証'],
+    eligibility: '渋谷区内に住所を有する0歳から18歳に達する日以後の最初の3月31日までの子どもを養育している保護者が対象です。子どもが日本の健康保険に加入している必要があります。',
+    applicationPeriod: '随時。出生・転入から14日以内の申請で出生・転入の日から助成。それ以降は受付日から助成',
+    description: '渋谷区が、18歳年度末までの子どもの保険診療内の自己負担分などを助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>保険診療内の自己負担分、入院時の食事療養費の自己負担分、健康保険から給付決定された補装具などを助成します。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>渋谷区内に住所があり、日本の健康保険に加入している、18歳到達後最初の3月31日までの子どもが対象です。保護者の所得制限はありません。</p>'
+      },
+      {
+        heading: '対象外',
+        content: '<p>予防接種、健康診断、薬の容器代、差額ベッド代など、健康保険が適用されない費用は対象外です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/iryo-josei/kodomo_ij.html',
+    sourceName: '渋谷区 子ども医療費助成',
+    sourceUrls: ['https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/iryo-josei/kodomo_ij.html'],
+    sourceNote: '渋谷区公式ページで助成内容、対象者、所得制限なし、申請時期、対象外費用を確認。公式URLはHTTP 200。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'nakano-child-medical',
+    title: '中野区 子ども医療費助成制度',
+    organization: '中野区',
+    type: 'local',
+    maxAmount: '18歳年度末まで保険診療の自己負担分を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['中野区', '子ども医療費', 'マル青'],
+    eligibility: '中野区に住民票があり、国内の健康保険に加入している0歳から18歳到達後最初の3月31日までの子どもが対象です。生活保護受給、児童福祉施設入所、里親委託は対象外です。',
+    applicationPeriod: '随時。出生・転入等で新規申請。電子申請、郵送、窓口で申請可。都外受診等の払い戻しは受診日から2年以内',
+    description: '中野区が、マル乳・マル子・マル青医療証により、18歳年度末までの子どもの保険診療自己負担分を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>子ども医療費助成制度として、保険診療の自己負担分を助成します。マル乳、マル子、マル青の医療証があります。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>中野区に住民票があり、国内の健康保険に加入している、18歳到達後最初の3月31日までの子どもが対象です。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>東京都外の医療機関で受診した場合などは、受診日から2年以内に払い戻し申請を行います。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/teate/iryohijyosei/kodomoiryojyosei.html',
+    sourceName: '中野区 子ども医療費助成制度',
+    sourceUrls: ['https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/teate/iryohijyosei/kodomoiryojyosei.html'],
+    sourceNote: '中野区公式ページで制度名、対象年齢、助成範囲、申請方法、還付請求期限を確認。公式URLはHTTP 200。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'suginami-child-medical',
+    title: '杉並区 子どもの医療費助成',
+    organization: '杉並区',
+    type: 'local',
+    maxAmount: '18歳年度末まで保険診療の自己負担分を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['杉並区', '子ども医療費', 'マル青'],
+    eligibility: '杉並区内に住所を有し、18歳に達する日以後の最初の3月31日までで、国民健康保険または社会保険等の日本の医療保険制度に加入している子どもが対象です。',
+    applicationPeriod: '随時。オンライン、窓口、郵送で申請可。出生・転入月の翌月申請でも、翌日から15日以内なら遡及認定',
+    description: '杉並区が、出生から18歳年度末までの子どもにマル乳・マル子・マル青医療証を交付し、保険診療の自己負担分を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>出生から18歳に達する日以後の最初の3月31日までの子どもに医療証を交付し、保険診療に係る医療費の自己負担分を助成します。</p>'
+      },
+      {
+        heading: '対象外',
+        content: '<p>保険診療外の医療費、入院時食事療養標準負担額等、生活保護や施設措置など公費で医療費が賄われる場合は対象外です。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>オンライン、窓口、郵送で申請できます。医療証は毎年10月1日に更新されます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.suginami.tokyo.jp/s053/1043.html',
+    sourceName: '杉並区 子ども医療費助成について',
+    sourceUrls: ['https://www.city.suginami.tokyo.jp/s053/1043.html'],
+    sourceNote: '杉並区公式ページで助成内容、対象者、申請方法、認定日の扱い、対象外費用を確認。公式URLはHTTP 200。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'toshima-child-medical',
+    title: '豊島区 子どもの医療費助成',
+    organization: '豊島区',
+    type: 'local',
+    maxAmount: '18歳年度末まで保険診療の自己負担分等を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['豊島区', '子ども医療費', '高校生等医療証'],
+    eligibility: '高校生相当年齢までで、豊島区に住所を有し、健康保険に加入している児童が対象です。保護者の所得制限はありません。生活保護、児童福祉施設等への措置入所、里親委託などは対象外です。',
+    applicationPeriod: '随時。出生日または転入日の翌日から2か月以内の申請は出生日または転入日まで遡及',
+    description: '豊島区が、高校生相当年齢までの児童に医療証を交付し、医療機関で保険診療を受けたときの自己負担分などを助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>高校生相当年齢までの児童に医療証を交付し、医療機関で保険診療を受けたときの自己負担分を助成します。</p>'
+      },
+      {
+        heading: '食事負担金',
+        content: '<p>令和5年4月1日診療分から、入院時の食事負担金も乳幼児・子ども・高校生等医療証の対象者全てで助成対象です。現金給付申請が必要です。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>原則として申請日から助成開始ですが、出生日または転入日の翌日から2か月以内に申請した場合は遡及されます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.toshima.lg.jp/261/kosodate/kosodate/teate-jose/015729.html',
+    sourceName: '豊島区 子どもの医療費助成',
+    sourceUrls: [
+      'https://www.city.toshima.lg.jp/261/kosodate/kosodate/teate-jose/015729.html',
+      'https://www.city.toshima.lg.jp/261/2404011400.html',
+      'https://www.city.toshima.lg.jp/261/2404011442.html'
+    ],
+    sourceNote: '豊島区公式ページで制度概要、事業内容、助成を受ける方法、食事負担金、申請期限の考え方を確認。公式URLはすべてHTTP 200。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kita-child-medical',
+    title: '北区 子ども医療費助成',
+    organization: '北区',
+    type: 'local',
+    maxAmount: '高校生相当年齢まで保険診療の自己負担額を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['北区', '子ども医療費', '高校生等'],
+    eligibility: '北区に生活の本拠があり、日本の公的な健康保険に加入している高校生相当の年齢までの子どもが対象です。生活保護受給、児童福祉施設等入所、里親委託などは対象外です。',
+    applicationPeriod: '随時。出生・転入などの事実発生日から3か月以内の申請なら出生・転入日に遡及',
+    description: '北区が、健康保険の適用される医療について、保護者等が負担する自己負担額を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>北区に住所がある子どもが病院・薬局等で診療や投薬を受ける際に、健康保険の適用される医療について自己負担額を助成します。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>北区に生活の本拠があり、日本の公的な健康保険に加入している高校生相当年齢までの子どもが対象です。所得制限はありません。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>窓口、郵送、電子申請で申請できます。医療証の有効期間は毎年10月1日から9月30日までです。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.kita.lg.jp/children-edu/childcare/1002909/1002913/1002914.html',
+    sourceName: '北区 子ども医療費助成',
+    sourceUrls: [
+      'https://www.city.kita.lg.jp/children-edu/childcare/1002909/1002913/1002914.html',
+      'https://www.city.kita.lg.jp/children-edu/childcare/1002909/1002913/1002915.html'
+    ],
+    sourceNote: '北区公式ページで概要、対象者、対象外、申請手続、資格日の扱いを確認。公式URLはすべてHTTP 200。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'arakawa-child-medical',
+    title: '荒川区 乳幼児・子ども・高校生等医療費助成',
+    organization: '荒川区',
+    type: 'local',
+    maxAmount: '18歳年度末まで保険診療の自己負担分を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['荒川区', '子ども医療費', '高校生等医療証'],
+    eligibility: '荒川区に住民登録があり、国民健康保険または社会保険に加入している、18歳に達する日以後の最初の3月31日までの子どもが対象です。',
+    applicationPeriod: '随時。出生・転入などの事実発生日から3か月以内の申請であれば出生・転入日に遡及',
+    description: '荒川区が、18歳年度末までの子どもについて、健康保険を使って医療機関等にかかった場合の自己負担分を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>健康保険を使って医療機関、病院、診療所、薬局等にかかった場合、窓口で支払う自己負担分を助成します。</p>'
+      },
+      {
+        heading: '対象年齢',
+        content: '<p>乳幼児医療証、子ども医療証、高校生等医療証により、18歳に達する日以後の最初の3月31日までが対象です。所得制限はありません。</p>'
+      },
+      {
+        heading: '対象外',
+        content: '<p>健康保険未加入、生活保護、児童福祉施設等への措置入所、里親委託の場合は対象外です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.arakawa.tokyo.jp/a035/kosodate/teate/iryohijyosei.html',
+    sourceName: '荒川区 乳幼児・子ども・高校生等医療費助成',
+    sourceUrls: ['https://www.city.arakawa.tokyo.jp/a035/kosodate/teate/iryohijyosei.html'],
+    sourceNote: '荒川区公式ページで制度名、対象年齢、助成範囲、所得制限なし、遡及申請の扱いを確認。公式URLはHTTP 200。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'itabashi-child-medical',
+    title: '板橋区 子ども医療費助成',
+    organization: '板橋区',
+    type: 'local',
+    maxAmount: '18歳まで保険診療の自己負担分を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['板橋区', '子ども医療費', '高校生等'],
+    eligibility: '板橋区に住民登録があり、出生から18歳になった日以降の最初の3月31日までで、国内の健康保険に加入している子どもが対象です。',
+    applicationPeriod: '随時。出生・転入の場合は原則14日以内の申請で出生日・転入日に遡及',
+    description: '板橋区が、0歳から18歳までの子どもについて、保険診療を受けた際の自己負担分を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>子ども医療費助成は、0歳から18歳までの子どもが保険診療を受けた際の自己負担分を助成する制度です。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>板橋区に住民登録があり、国内の健康保険に加入している、18歳到達後最初の3月31日までの子どもが対象です。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>出生・転入の場合は、原則として14日以内に申請すると出生日・転入日にさかのぼって資格が得られます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.itabashi.tokyo.jp/kosodate/teate/iryohi/1053428/1053072.html',
+    sourceName: '板橋区 子ども医療費助成',
+    sourceUrls: [
+      'https://www.city.itabashi.tokyo.jp/kosodate/teate/iryohi/1053428/1053072.html',
+      'https://www.city.itabashi.tokyo.jp/kosodate/teate/iryohi/1053428/1053047.html'
+    ],
+    sourceNote: '板橋区公式ページで制度概要、対象者、助成範囲、資格開始日、申請方法を確認。公式URLはすべてHTTP 200。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'adachi-child-medical',
+    title: '足立区 子ども医療費助成制度',
+    organization: '足立区',
+    type: 'local',
+    maxAmount: '18歳年度末まで保険診療の自己負担分等を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['足立区', '子ども医療費', 'マル青'],
+    eligibility: '足立区内に住民登録があり、健康保険に加入している、出生から高校生相当年齢までの子どもが対象です。保護者の所得制限はありません。',
+    applicationPeriod: '随時。窓口または郵送で申請。固定締切なし',
+    description: '足立区が、マル乳・マル子・マル青医療証により、高校生相当年齢までの子どもの保険診療自己負担分などを助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>子ども医療費助成制度として、保険診療の自己負担分を助成します。令和5年4月から高校生相当年齢まで対象が拡大されています。</p>'
+      },
+      {
+        heading: '食事療養標準負担額',
+        content: '<p>令和7年10月1日以降の入院分から、入院時の食事代も後日還付で助成対象に加わります。</p>'
+      },
+      {
+        heading: '対象外',
+        content: '<p>生活保護、児童福祉施設入所、里親委託、健康保険適用外費用、高額療養費・付加給付金相当分などは対象外または調整対象です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.adachi.tokyo.jp/oyako/k-kyoiku/kosodate/teate-iryohijose.html',
+    sourceName: '足立区 子ども医療費助成制度',
+    sourceUrls: [
+      'https://www.city.adachi.tokyo.jp/oyako/k-kyoiku/kosodate/teate-iryohijose.html',
+      'https://www.city.adachi.tokyo.jp/oyako/fukushi-kenko/shinshin/kodomoiryo-27shokuji.html'
+    ],
+    sourceNote: '足立区公式ページで対象者、所得制限なし、助成範囲、食事療養標準負担額の追加助成を確認。公式URLはすべてHTTP 200。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'katsushika-child-medical',
+    title: '葛飾区 子どもの医療費助成',
+    organization: '葛飾区',
+    type: 'local',
+    maxAmount: '18歳年度末まで保険診療の自己負担分を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['葛飾区', '子ども医療費', '高校生等医療証'],
+    eligibility: '葛飾区内に住み、健康保険に加入している、高校3年生相当年齢までの児童を養育している方が対象です。生活保護、児童福祉施設入所、里親委託などは対象外です。',
+    applicationPeriod: '随時。出生・転入等の対象者となった日から3か月以内に申請しなかった場合は申請日が資格取得日',
+    description: '葛飾区が、乳幼児医療証、子ども医療証、高校生等医療証により、18歳年度末までの子どもの医療費自己負担分を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>健康保険を使用して診療や調剤を受けた際の、健康保険適用による自己負担分を助成します。</p>'
+      },
+      {
+        heading: '対象年齢',
+        content: '<p>乳幼児、小・中学生、高校生等の区分で、18歳に達した日以後の最初の3月31日までの児童が対象です。保護者の所得制限はありません。</p>'
+      },
+      {
+        heading: '対象外',
+        content: '<p>入院時の食事療養標準負担額、健康保険適用外費用、高額療養費・付加給付金相当分などは対象外です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.katsushika.lg.jp/kosodate/1000056/1002336/1002421.html',
+    sourceName: '葛飾区 子どもの医療費助成',
+    sourceUrls: ['https://www.city.katsushika.lg.jp/kosodate/1000056/1002336/1002421.html'],
+    sourceNote: '葛飾区公式ページで制度名、対象年齢、所得制限なし、助成範囲、資格取得日の扱いを確認。公式URLはHTTP 200。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'edogawa-child-medical',
+    title: '江戸川区 子ども医療費助成制度',
+    organization: '江戸川区',
+    type: 'local',
+    maxAmount: '18歳年度末まで保険診療の自己負担分等を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['江戸川区', '子ども医療費', '高校生等'],
+    eligibility: '江戸川区内に住んでいる高校3年生相当年齢までの子どもで、健康保険組合等の各種医療保険から医療に関する給付が行われる方が対象です。',
+    applicationPeriod: '随時。出生、転入、生活保護廃止、施設退所等の事由発生日から3か月以内の申請で事由発生日から助成対象',
+    description: '江戸川区が、高校3年生相当年齢までの子どもについて、保険診療の自己負担分、入院時の食事代、補装具などを助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>子ども医療費助成制度として、保険診療の自己負担分、入院時の食事代、保険適用となった補装具などを助成します。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>江戸川区内に住んでいる、高校3年生相当年齢までの子どもが対象です。保護者の所得制限はありません。</p>'
+      },
+      {
+        heading: '対象外',
+        content: '<p>健康保険適用外費用、高額療養費・付加給付金相当分、第三者行為、学校等管理下のけが、他制度対象疾病等は対象外または調整対象です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.edogawa.tokyo.jp/e049/kosodate/kosodate/teateshien/iryoujosei.html',
+    sourceName: '江戸川区 子ども医療費助成制度',
+    sourceUrls: ['https://www.city.edogawa.tokyo.jp/e049/kosodate/kosodate/teateshien/iryoujosei.html'],
+    sourceNote: '江戸川区公式ページで対象年齢、所得制限なし、助成範囲、申請期限の考え方、対象外費用を確認。公式URLはHTTP 200。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'nerima-child-medical',
+    title: '練馬区 子ども医療費の助成',
+    organization: '練馬区',
+    type: 'local',
+    maxAmount: '18歳年度末まで保険診療の自己負担分等を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['練馬区', '子ども医療費', 'マル青'],
+    eligibility: '健康保険に加入している練馬区内在住の高校生年代までの子どもが対象です。小学校就学前はマル乳、小中学生はマル子、中学校卒業後から高校生年代まではマル青を発行します。',
+    applicationPeriod: '随時。出生・転入時は医療証交付申請が必要。払い戻し申請は医療費を支払った日の翌日から5年以内',
+    description: '練馬区が、マル乳・マル子・マル青医療証により、高校生年代までの子どもの医療費自己負担分などを助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>健康保険適用の医療費の自己負担分、入院時食事療養標準負担額、他制度適用時の自己負担限度額などを助成します。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>健康保険に加入している練馬区内在住の、18歳になった後の最初の3月31日までの子どもが対象です。保護者の所得制限はありません。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>出生・転入時は医療証交付申請が必要です。区から一律に申請用紙は送付されないため、原則として電子申請などで手続きします。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/teateiryo/josei.html',
+    sourceName: '練馬区 子ども医療費の助成',
+    sourceUrls: [
+      'https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/teateiryo/josei.html',
+      'https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/teateiryo/shinsei.html'
+    ],
+    sourceNote: '練馬区公式ページで対象年齢、助成範囲、所得制限なし、医療証申請、払い戻し申請期限を確認。公式URLはすべてHTTP 200。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
