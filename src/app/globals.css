@@ -94,6 +94,7 @@ body {
 .home-search {
   min-width: 0;
   max-width: 100%;
+  scroll-margin-top: 6rem;
 }
 
 .home-search-toolbar {
