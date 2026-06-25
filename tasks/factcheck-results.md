@@ -644,3 +644,34 @@ city-batch68〜91はテンプレート(`genGrants`関数)で自動生成され�
 - `npm run audit:coverage`
 - `npm run audit:deadlines`
 - `npm run audit:links`
+
+---
+
+## 2026-06-26 国の事業者・住宅系3件の公式確認バッチ
+
+公式リンクありだが手動確認前だった国の制度3件を、公式一次情報で確認し、同一slugの公式確認済みデータで置換した。既存データは削除せず、先頭側に追加した公式確認済みデータを先勝ちdedupeで反映している。
+
+対象:
+
+| slug | 制度名 | 対応 |
+|---|---|---|
+| `it-donyu-hojokin` | デジタル化・AI導入補助金2026（旧・IT導入補助金） | 公式サイトで通常枠の補助額、補助率、2026年7月21日17時の3次締切を確認。`deadlineDate: 2026-07-21` を設定。 |
+| `monozukuri-hojokin` | ものづくり補助金（第23次公募・受付終了） | 公式公募要領ページで第23次の申請締切が2026年5月8日17時であることを確認。期限切れとして通常一覧・sitemapから除外。 |
+| `chouki-yuuryou-reform` | 長期優良住宅化リフォーム推進事業（令和7年度受付終了） | 令和7年度公式サイトで交付申請締切済み、令和8年度は本事業を実施しないことを確認。最終交付申請期間の2025年11月14日17時を期限として通常一覧・sitemapから除外。 |
+
+検証結果:
+
+| 項目 | 結果 |
+|---|---:|
+| 手動公式確認済み（通常公開） | 224 |
+| 公式リンクありだが手動公式確認前 | 29 |
+| 期限切れとして通常一覧から除外 | 5 |
+| checkedExpiredSlugs | `sompo-japan-environment-grant`, `monozukuri-hojokin`, `chouki-yuuryou-reform`, `kodomo-ecosumai-shien`, `jigyou-saikouchiku-hojokin` |
+| build | 793静的ページ |
+| リンク監査 | 1584件OK / broken 0 |
+
+生成HTML確認:
+
+- `it-donyu-hojokin`: 公式出典確認済み、確認日2026-06-26、公式情報リンクあり。
+- `monozukuri-hojokin`: 期限切れ警告、`noindex, follow`、sitemap除外。
+- `chouki-yuuryou-reform`: 期限切れ警告、`noindex, follow`、sitemap除外。

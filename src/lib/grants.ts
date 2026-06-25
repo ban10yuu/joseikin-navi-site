@@ -14,6 +14,7 @@ import { verifiedNationalCoreWelfareGrants2026 } from '@/data/grants/verified-na
 import { verifiedNationalDeadlineFixes2026 } from '@/data/grants/verified-national-deadline-fixes-2026';
 import { verifiedNationalEmploymentSupportGrants2026 } from '@/data/grants/verified-national-employment-support-2026';
 import { verifiedNationalSupportGrants2026 } from '@/data/grants/verified-national-support-2026';
+import { verifiedNationalBusinessLegacyGrants2026 } from '@/data/grants/verified-national-business-legacy-2026';
 import { verifiedPrefectureChildMedicalGrants2026 } from '@/data/grants/verified-prefecture-child-medical-2026';
 import { verifiedTenriChildcareGrants2026 } from '@/data/grants/verified-tenri-childcare-2026';
 import { suppressedOfficialUrls } from '@/data/grants/link-audit-suppressions';
@@ -143,6 +144,7 @@ const rawGrants: Grant[] = [
   ...verifiedNationalDeadlineFixes2026,
   ...verifiedNationalEmploymentSupportGrants2026,
   ...verifiedNationalSupportGrants2026,
+  ...verifiedNationalBusinessLegacyGrants2026,
   ...verifiedBusinessGrants2026,
   ...nationalGrants, ...nationalGrantsNew, ...nationalGrantsNew2,
   ...localGrants, ...localGrantsBatch1, ...localGrantsBatch2,

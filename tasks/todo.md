@@ -124,4 +124,11 @@
 - [x] `npm run audit:coverage`（期限切れ3件、手動公式確認済み223件、公式リンクあり未確認32件、failures 0）
 - [x] `npm run audit:deadlines`（期限切れ3件を通常一覧から除外、failures 0）
 - [x] `npm run audit:links` 1584件OK / broken 0
+- [x] 国の事業者・住宅系3件を公式確認済みデータで追加・置換（デジタル化・AI導入補助金2026、ものづくり補助金第23次受付終了、長期優良住宅化リフォーム推進事業令和7年度受付終了）
+- [x] 追加後の `npx eslint src/data/grants/verified-national-business-legacy-2026.ts src/lib/grants.ts`（エラー0）
+- [x] 追加後の `npm run lint`（既存警告5件、エラー0）
+- [x] 追加後の `npm run build`（793静的ページ）
+- [x] `npm run audit:coverage`（期限切れ5件、手動公式確認済み224件、公式リンクあり未確認29件、failures 0）
+- [x] `npm run audit:deadlines`（期限切れ5件を通常一覧から除外、failures 0）
+- [x] `npm run audit:links` 1584件OK / broken 0
 - [ ] 全国網羅の次段階: 公式確認済みデータを都道府県・市区町村単位で追加し、未確認LLM生成データを順次置換する
