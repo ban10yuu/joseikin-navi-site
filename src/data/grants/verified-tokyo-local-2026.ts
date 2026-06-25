@@ -3631,4 +3631,849 @@ export const verifiedTokyoLocalGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'shinjuku-child-medical',
+    title: '新宿区 子ども医療費助成',
+    organization: '新宿区',
+    type: 'local',
+    maxAmount: '18歳年度末まで保険診療の自己負担分等を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['新宿区', '子ども医療費', '高校生等医療証'],
+    eligibility: '新宿区に住民登録がある、18歳に達する日以後の最初の3月31日までの子どもが対象です。日本の健康保険未加入、生活保護受給、児童福祉施設等への措置入所などは対象外です。',
+    applicationPeriod: '随時。出生または転入の翌日から3か月以内の申請は出生日または転入日から助成開始',
+    description: '新宿区が、18歳年度末までの子どもの保険診療自己負担分と入院時食事療養費を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>乳幼児医療証、子ども医療証、高校生等医療証により、対象年齢の子どもの医療費自己負担を助成します。</p>'
+      },
+      {
+        heading: '対象年齢',
+        content: '<p>高校在学の有無を問わず、18歳に達する日以後の最初の3月31日までが対象です。所得制限はありません。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>固定の公募締切ではなく、出生・転入等に応じて医療証の交付申請を行います。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.shinjuku.lg.jp/kodomo/file03_04_00003.html',
+    sourceName: '新宿区 子ども医療費助成',
+    sourceUrls: ['https://www.city.shinjuku.lg.jp/kodomo/file03_04_00003.html'],
+    sourceNote: '新宿区公式ページで対象年齢、助成範囲、所得制限なし、申請時期を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'bunkyo-child-medical',
+    title: '文京区 こども医療費助成',
+    organization: '文京区',
+    type: 'local',
+    maxAmount: '18歳年度末まで保険診療の自己負担分を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['文京区', 'こども医療費', '高校生等医療証'],
+    eligibility: '文京区に住民登録があり、日本の健康保険に加入している、18歳に達する日以後の最初の3月31日までのこどもが対象です。',
+    applicationPeriod: '随時。電子申請、郵送、窓口で申請可',
+    description: '文京区が、高校生相当年齢までのこどもについて、保険診療の自己負担分を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>こども医療証の対象となるこどもが医療機関を受診した際、保険診療の自己負担分を助成します。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>文京区に住民登録があり、日本の健康保険に加入している高校生相当年齢までのこどもが対象です。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>出生日・転入日等から3か月を経過した後の交付申請は、受付月の1日から助成対象となります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.bunkyo.lg.jp/b022/p001459/index.html',
+    sourceName: '文京区 こども医療費助成',
+    sourceUrls: ['https://www.city.bunkyo.lg.jp/b022/p001459/index.html'],
+    sourceNote: '文京区公式ページで対象年齢、対象要件、申請方法、助成開始日の扱いを確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'taito-child-medical',
+    title: '台東区 子ども医療費助成',
+    organization: '台東区',
+    type: 'local',
+    maxAmount: '18歳年度末まで医療費自己負担金を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['台東区', '子ども医療費', '高校生等'],
+    eligibility: '台東区内に住み、国民健康保険または各種社会保険に加入している、出生から18歳到達後最初の3月31日までの子どもが対象です。',
+    applicationPeriod: '随時。出生・転入から3か月以上経過した場合は申請月の1日から助成開始',
+    description: '台東区が、0歳から高校生等相当年齢までの子どもについて、健康保険を使って医療機関にかかった場合の医療費自己負担金を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>健康保険を使って医療機関にかかった場合、医療機関に支払う医療費の自己負担金を助成します。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>台東区内在住で健康保険に加入している、出生から18歳到達後最初の3月31日までの子どもが対象です。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>健康保険未加入、生活保護受給中、児童福祉施設等に入所している子どもは対象外です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/teate_josei/iryohijosei/annai.html',
+    sourceName: '台東区 子ども医療費助成',
+    sourceUrls: ['https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/teate_josei/iryohijosei/annai.html'],
+    sourceNote: '台東区公式ページで助成範囲、対象年齢、対象要件、助成開始日の扱いを確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'sumida-child-medical',
+    title: '墨田区 子どもの医療費の助成',
+    organization: '墨田区',
+    type: 'local',
+    maxAmount: '18歳年度末まで保険診療の自己負担分を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['墨田区', '子ども医療費', 'マル青'],
+    eligibility: '墨田区内在住の高校生等年代までの子どもを養育し、子どもと同居している国内の健康保険加入の保護者が対象です。',
+    applicationPeriod: '随時。出生または転入日の翌日から15日以内の申請で出生日または転入日から有効',
+    description: '墨田区が、乳幼児・子ども・高校生等年代の医療費について、保険診療の自己負担分を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>医療機関等で支払う医療費のうち、保険診療の自己負担分を助成します。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>18歳到達後最初の3月31日までの子どもを養育する、墨田区内在住の保護者が対象です。</p>'
+      },
+      {
+        heading: '対象外',
+        content: '<p>生活保護、里親委託、乳児院等施設入所、子どもが区外在住の場合などは対象外です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/teate_zyosei/jyosei/nyuuyouji_iryouhi.html',
+    sourceName: '墨田区 子どもの医療費の助成',
+    sourceUrls: ['https://www.city.sumida.lg.jp/kosodate_kyouiku/kosodate_site/teate_jyosei_shien/teate_zyosei/jyosei/nyuuyouji_iryouhi.html'],
+    sourceNote: '墨田区公式ページで制度名、対象年齢、助成範囲、申請時期を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'koto-child-medical',
+    title: '江東区 子ども医療費助成',
+    organization: '江東区',
+    type: 'local',
+    maxAmount: '高校卒業前まで保険診療の自己負担分を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['江東区', '子ども医療費', 'マル青'],
+    eligibility: '江東区内在住の高校3年生等までの子どもを養育し、子どもと同居している健康保険加入の保護者が対象です。',
+    applicationPeriod: '随時。窓口、電子申請、郵送で申請可',
+    description: '江東区が、高校卒業前までの子どもの医療費について、保険診療の自己負担分などを助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>高校卒業前までの子どもの医療費について、医療機関等に支払う保険診療の自己負担分を助成します。</p>'
+      },
+      {
+        heading: '医療証',
+        content: '<p>就学前はマル乳、小中学生はマル子、高校生等はマル青医療証の対象です。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>制度利用には医療証の交付申請が必要です。生活保護、児童福祉施設等入所、里親委託等は対象外です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.koto.lg.jp/281011/kodomo/kosodate/teate/5844.html',
+    sourceName: '江東区 子ども医療費助成',
+    sourceUrls: ['https://www.city.koto.lg.jp/281011/kodomo/kosodate/teate/5844.html'],
+    sourceNote: '江東区公式ページで高校卒業前までの対象、保険診療自己負担分の助成、医療証申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'shinagawa-child-medical',
+    title: '品川区 子どもすこやか医療費助成',
+    organization: '品川区',
+    type: 'local',
+    maxAmount: '18歳年度末まで保険適用医療費の自己負担分等を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['品川区', '子どもすこやか医療費', '高校生等'],
+    eligibility: '0歳から高校3年生相当年齢までで、子どもの住所が品川区にあり、健康保険に加入している方が対象です。',
+    applicationPeriod: '随時。出生・転入の新規申請、医療費払い戻し、再交付、変更手続き等を受付',
+    description: '品川区が、0歳から高校3年生相当年齢までの子どもの保険適用医療費自己負担分などを助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>子どもすこやか医療費助成として、保険適用の医療費自己負担分、入院時食事療養費標準負担額、治療用装具等を助成します。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>18歳に達した日以後の最初の3月31日までの、品川区在住かつ健康保険加入の子どもが対象です。</p>'
+      },
+      {
+        heading: '対象外',
+        content: '<p>生活保護、児童福祉施設入所、里親委託などの場合は対象外です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-iryohizyosei/hpg000017744.html',
+    sourceName: '品川区 子どもすこやか医療費助成',
+    sourceUrls: ['https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-iryohizyosei/hpg000017744.html'],
+    sourceNote: '品川区公式ページで制度名、対象年齢、助成範囲、対象外要件を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'meguro-child-medical',
+    title: '目黒区 子ども医療費助成制度',
+    organization: '目黒区',
+    type: 'local',
+    maxAmount: '18歳年度末まで保険診療の自己負担額等を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['目黒区', '子ども医療費', '高校生等医療証'],
+    eligibility: '目黒区内在住で国内の健康保険に加入している、0歳から18歳到達後最初の3月31日までの方が対象です。',
+    applicationPeriod: '随時。制度利用には申請手続きと医療証の交付が必要',
+    description: '目黒区が、18歳年度末までの方について、保険診療でかかった医療費の自己負担額などを助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>保険診療でかかった医療費の自己負担額と、入院時食事療養標準負担額を助成します。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>区内在住で国内の健康保険に加入している、0歳から18歳到達後最初の3月31日までの方が対象です。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>制度を利用するには、医療証の交付申請が必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.meguro.tokyo.jp/kosodateshien/kosodatekyouiku/kosodate/toha.html',
+    sourceName: '目黒区 子ども医療費助成制度とは',
+    sourceUrls: ['https://www.city.meguro.tokyo.jp/kosodateshien/kosodatekyouiku/kosodate/toha.html'],
+    sourceNote: '目黒区公式ページで対象年齢、対象者、助成範囲、医療証申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'ota-child-medical',
+    title: '大田区 児童医療費助成制度',
+    organization: '大田区',
+    type: 'local',
+    maxAmount: '高校生相当年齢まで保険診療の自己負担分等を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['大田区', '児童医療費', '青医療証'],
+    eligibility: '0歳から18歳到達後最初の3月31日までで、子どもの住所が大田区内にあり、健康保険に加入していることが要件です。',
+    applicationPeriod: '随時。出生・転入日から6か月以内の申請は出生日または転入日に遡って資格発生',
+    description: '大田区が、高校生相当年齢までの児童の医療費について、保険診療の自己負担分などを助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>乳医療証・子医療証・青医療証により、高校生相当年齢までの児童の医療費を助成します。</p>'
+      },
+      {
+        heading: '助成範囲',
+        content: '<p>保険診療の対象となる医療費・薬剤費等の自己負担分、入院時食事療養標準負担額、治療用装具等が対象です。</p>'
+      },
+      {
+        heading: '対象外',
+        content: '<p>生活保護、児童福祉施設への措置入所、里親委託などの場合は対象外です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.ota.tokyo.jp/seikatsu/kodomo/teate/kodomonyuui.html',
+    sourceName: '大田区 児童医療費助成制度',
+    sourceUrls: ['https://www.city.ota.tokyo.jp/seikatsu/kodomo/teate/kodomonyuui.html'],
+    sourceNote: '大田区公式ページで対象年齢、助成範囲、申請時期、対象外要件を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'shinjuku-birth-bonus',
+    title: '新宿区 妊婦のための支援給付事業',
+    organization: '新宿区',
+    type: 'local',
+    maxAmount: '単胎の場合 計10万円相当',
+    maxAmountNum: 10,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['新宿区', '妊婦支援給付金', '出産支援'],
+    eligibility: '申請日時点で新宿区に住民登録があり、医師による胎児心拍確認を受け、他自治体で妊婦支援給付金を受けていない方が対象です。',
+    applicationPeriod: '令和7年4月1日以降の妊娠届出・出産が対象。面談や赤ちゃん訪問時に申請案内',
+    description: '旧「出産・子育て応援給付金」に相当する制度は、令和7年度から妊婦のための支援給付事業へ移行しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>妊娠期から出産後までの経済的負担を軽減するため、妊婦支援給付金を支給します。</p>'
+      },
+      {
+        heading: '支給内容',
+        content: '<p>1回目は妊婦1人当たり5万円相当、2回目は妊娠していた子どもの人数に5万円相当を乗じた額です。</p>'
+      },
+      {
+        heading: '制度移行',
+        content: '<p>令和6年度までの出産・子育て応援交付金事業は、令和7年度から妊婦のための支援給付事業に変更されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.shinjuku.lg.jp/fukushi/syussan_kosodate_gift.html',
+    sourceName: '新宿区 妊婦のための支援給付事業',
+    sourceUrls: ['https://www.city.shinjuku.lg.jp/fukushi/syussan_kosodate_gift.html'],
+    sourceNote: '新宿区公式ページで令和7年度からの制度変更、対象者、支給内容、申請案内時期を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'bunkyo-birth-bonus',
+    title: '文京区 妊婦のための支援給付金',
+    organization: '文京区',
+    type: 'local',
+    maxAmount: '単胎の場合 計10万円',
+    maxAmountNum: 10,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['文京区', '妊婦支援給付金', '出産支援'],
+    eligibility: '文京区に住民登録があり、令和7年4月1日以降に妊娠している方または令和7年4月1日以降に出産した方が対象です。',
+    applicationPeriod: '1回目は妊娠確定日から2年以内、2回目は出産予定日の8週間前から2年以内等',
+    description: '文京区の出産・子育て応援ギフトは終了し、令和7年4月1日から妊婦のための支援給付へ移行しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>妊婦の産前産後期間における経済的負担を軽減するため、妊婦のための支援給付金を支給します。</p>'
+      },
+      {
+        heading: '支給内容',
+        content: '<p>1回目は5万円、2回目は胎児1人当たり5万円です。流産・死産・人工妊娠中絶も条件を満たせば対象です。</p>'
+      },
+      {
+        heading: '制度移行',
+        content: '<p>旧出産・子育て応援ギフトは事業終了となり、現行制度は妊婦のための支援給付です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.bunkyo.lg.jp/b027/p007561.html',
+    sourceName: '文京区 妊婦のための支援給付について',
+    sourceUrls: [
+      'https://www.city.bunkyo.lg.jp/b027/p007561.html',
+      'https://www.city.bunkyo.lg.jp/b027/p001523.html'
+    ],
+    sourceNote: '文京区公式ページで現行の妊婦支援給付、旧出産・子育て応援ギフトの事業終了、対象者、申請期限を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'taito-birth-bonus',
+    title: '台東区 妊婦のための支援給付',
+    organization: '台東区',
+    type: 'local',
+    maxAmount: '単胎の場合 計10万円',
+    maxAmountNum: 10,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['台東区', '妊婦支援給付', '出産支援'],
+    eligibility: '申請時点で台東区に住民票がある妊婦・産婦が対象です。他自治体で同種給付を受けていないことなどの要件があります。',
+    applicationPeriod: '令和7年4月1日以降の面接・出生分が対象。面接およびこんにちは赤ちゃん訪問時に案内',
+    description: '台東区が、令和7年度から国の新たな給付として実施している妊婦向けの経済的支援制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>安心して妊娠・出産、子育てができるよう、妊婦を対象に給付を行う制度です。</p>'
+      },
+      {
+        heading: '支給内容',
+        content: '<p>1回目は妊婦1人につき5万円、2回目は今回妊娠した子ども1人につき5万円です。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>申請方法は、ゆりかご・たいとう面接や出産後のこんにちは赤ちゃん訪問時に案内されます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/teate_josei/ninpusienkyufu.html',
+    sourceName: '台東区 妊婦のための支援給付',
+    sourceUrls: [
+      'https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/teate_josei/ninpusienkyufu.html',
+      'https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/teate_josei/ninpusienkyufu.images/taisyounaiyou.png'
+    ],
+    sourceNote: '台東区公式ページと公式ページ内画像で対象者、支給額、申請案内の流れを確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'setagaya-childcare-subsidy',
+    title: '世田谷区 せたがや子育て利用券',
+    organization: '世田谷区',
+    type: 'local',
+    maxAmount: '子ども1人につき1万円分',
+    maxAmountNum: 1,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['世田谷区', '子育て利用券', 'ネウボラ'],
+    eligibility: '世田谷区民で、ネウボラ面接を受けた妊婦または2歳までの子どもがいる家庭が対象です。出産後の転入家庭、里親も対象です。',
+    applicationPeriod: 'ネウボラ面接時に配付。使用期限は子どもが2歳になる誕生日まで',
+    description: '世田谷区が、子育て関連サービスに利用できる子育て利用券を配付する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>妊娠期面接・産後面接を受けた家庭などに、子育てサービスで使える利用券を配付します。</p>'
+      },
+      {
+        heading: '支給内容',
+        content: '<p>子ども1人につき1セット1万円分で、500円券14枚、100円券30枚です。</p>'
+      },
+      {
+        heading: '利用期限',
+        content: '<p>利用券は、対象の子どもが2歳になる誕生日まで利用できます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.setagaya.lg.jp/02244/1188.html',
+    sourceName: '世田谷区 せたがや子育て利用券',
+    sourceUrls: ['https://www.city.setagaya.lg.jp/02244/1188.html'],
+    sourceNote: '世田谷区公式ページで公式名称、対象者、配付内容、使用期限を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'suginami-childcare-subsidy',
+    title: '杉並区 杉並子育て応援券',
+    organization: '杉並区',
+    type: 'local',
+    maxAmount: '無償券 最大3.5万円分',
+    maxAmountNum: 3.5,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['杉並区', '子育て応援券', '無償券'],
+    eligibility: '無償券は、対象児童と同一世帯の保護者で区内に居住していることが条件です。出生0歳児、0歳児転入者、1歳児・2歳児、ゆりかご面接を受けた妊婦などが対象です。',
+    applicationPeriod: '無償券は出生届後・転入確認後・年度当初等にアプリ交付。有償券は令和8年度分を2026年4月1日9時から受付',
+    description: '杉並区が、子育てサービスに使える応援券を無償交付または有償購入制で提供する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>地域の子育てサービスを利用しやすくするため、杉並子育て応援券をアプリで交付します。</p>'
+      },
+      {
+        heading: '無償券',
+        content: '<p>出生0歳児は3万円分、多子世帯は3万5,000円分です。0歳児転入者・1歳児・2歳児は1万5,000円分、多子世帯は2万円分です。</p>'
+      },
+      {
+        heading: '有償券',
+        content: '<p>0歳児から5歳児までの子どもの保護者は、子ども1人につき毎年度最大3万円分の応援券を購入できます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.suginami.tokyo.jp/s055/3035.html',
+    sourceName: '杉並区 杉並子育て応援券',
+    sourceUrls: [
+      'https://www.city.suginami.tokyo.jp/s055/3035.html',
+      'https://www.city.suginami.tokyo.jp/s055/1131.html',
+      'https://www.city.suginami.tokyo.jp/s055/1130.html'
+    ],
+    sourceNote: '杉並区公式の概要、無償券、有償券ページで対象者、交付額、受付開始時期を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'nakano-parenting-allowance',
+    title: '中野区 児童育成手当',
+    organization: '中野区',
+    type: 'local',
+    maxAmount: '育成手当 月額1万3,500円、障害手当 月額1万5,500円',
+    maxAmountNum: 18.6,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['中野区', '児童育成手当', 'ひとり親'],
+    eligibility: '育成手当は、離婚、死亡、重度障害、遺棄、DV保護命令等の状態にある18歳年度末までの児童を養育する保護者が対象です。障害手当は一定の障害がある20歳未満の子を養育する保護者が対象です。',
+    applicationPeriod: '申請が必要。原則として申請月の翌月分から支給',
+    description: '旧候補名の子ども養育手当は公式名称として確認できず、中野区公式で確認できる現行制度である児童育成手当に補正しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>ひとり親家庭等や障害のある子どもを養育する家庭に対し、児童育成手当を支給します。</p>'
+      },
+      {
+        heading: '手当額',
+        content: '<p>育成手当は児童1人当たり月額1万3,500円、障害手当は対象者1人当たり月額1万5,500円です。</p>'
+      },
+      {
+        heading: '名称補正',
+        content: '<p>候補名の子ども養育手当ではなく、公式名称の児童育成手当として確認しました。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/teate/teate/jidoikusei.html',
+    sourceName: '中野区 児童育成手当',
+    sourceUrls: [
+      'https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/teate/kodomonoteate.html',
+      'https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/teate/teate/jidoikusei.html'
+    ],
+    sourceNote: '中野区公式ページで児童育成手当の制度名、対象、手当額、申請月の翌月分から支給を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'toshima-parenting-allowance',
+    title: '豊島区 児童育成手当',
+    organization: '豊島区',
+    type: 'local',
+    maxAmount: '育成手当 月額1万3,500円、障害手当 月額1万5,500円',
+    maxAmountNum: 34.8,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['豊島区', '児童育成手当', 'ひとり親'],
+    eligibility: '育成手当は、離婚、死亡、生死不明、重度障害、遺棄、DV保護命令等の状態にある18歳年度末までの児童を養育している方が対象です。障害手当は一定の障害がある20歳未満の児童を養育している方が対象です。',
+    applicationPeriod: '申請が必要。原則として申請月の翌月分から支給',
+    description: '旧候補名の子ども養育手当は公式名称として確認できず、豊島区公式で確認できる現行制度である児童育成手当に補正しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>児童育成手当には、育成手当と障害手当があります。所得制限などの要件があります。</p>'
+      },
+      {
+        heading: '手当額',
+        content: '<p>育成手当は児童1人につき月額1万3,500円、障害手当は児童1人につき月額1万5,500円です。支給要件に該当すれば両方受給できます。</p>'
+      },
+      {
+        heading: '名称補正',
+        content: '<p>候補名の子ども養育手当ではなく、公式名称の児童育成手当として確認しました。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.toshima.lg.jp/261/kosodate/kosodate/hitorioya/005893.html',
+    sourceName: '豊島区 児童育成手当',
+    sourceUrls: [
+      'https://www.city.toshima.lg.jp/261/kosodate/kosodate/hitorioya/005893.html',
+      'https://www.city.toshima.lg.jp/261/kosodate/2304271022.html'
+    ],
+    sourceNote: '豊島区公式ページで児童育成手当の制度名、対象、手当月額、支給方法を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'itabashi-parenting-allowance',
+    title: '板橋区 児童手当（第3子以降加算）',
+    organization: '板橋区',
+    type: 'local',
+    maxAmount: '第3子以降 月額3万円',
+    maxAmountNum: 36,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['板橋区', '児童手当', '第3子以降'],
+    eligibility: '板橋区に住み、出生から18歳到達後最初の3月31日までの児童を養育している方が対象です。第3子以降は0歳から22歳到達後最初の3月31日までの児童の人数で算定します。',
+    applicationPeriod: '原則として申請月の翌月分から支給。出生・転入等は事由発生日の翌日から15日以内に申請',
+    description: '候補名の多子世帯養育支援手当は公式名称として確認できず、公式に確認できる多子向け内容である児童手当の第3子以降加算として補正しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>令和6年10月支給分以降、児童手当の対象年齢が高校生年代まで拡大され、第3子以降の支給額も拡充されています。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>第3子以降は年齢区分を問わず月額3万円です。第1子・第2子は年齢区分により月額1万円または1万5,000円です。</p>'
+      },
+      {
+        heading: '名称補正',
+        content: '<p>多子世帯養育支援手当という公式制度名は確認できないため、児童手当の第3子以降加算として扱います。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.itabashi.tokyo.jp/kosodate/teate/teate/1063966.html',
+    sourceName: '板橋区 児童手当',
+    sourceUrls: [
+      'https://www.city.itabashi.tokyo.jp/kosodate/teate/teate/1063966.html',
+      'https://www.city.itabashi.tokyo.jp/kosodate/teate/teate/index.html'
+    ],
+    sourceNote: '板橋区公式ページで児童手当の対象年齢、第3子以降月額3万円、申請時期を確認。多子世帯養育支援手当という公式名称は確認できないため補正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kita-infertility',
+    title: '北区 特定不妊治療費（先進医療）助成',
+    organization: '北区',
+    type: 'local',
+    maxAmount: '上限5万円',
+    maxAmountNum: 5,
+    category: 'medical',
+    prefecture: '東京都',
+    tags: ['北区', '不妊治療', '先進医療'],
+    eligibility: '東京都特定不妊治療費（先進医療）助成事業の承認決定を1年以内に受けた夫婦が対象です。申請時に申請者が北区に住民登録していること等の要件があります。',
+    applicationPeriod: '東京都の承認決定日から1年以内。令和8年3月31日までに開始した治療が対象',
+    description: '北区が、東京都の特定不妊治療費（先進医療）助成を受けた夫婦に上乗せ補助を行う制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>保険適用された特定不妊治療と併用する先進医療について、東京都助成を受けた後の自己負担に区が上乗せ助成します。</p>'
+      },
+      {
+        heading: '助成額',
+        content: '<p>東京都助成額を除いた自己負担額と5万円のいずれか低い額を助成します。</p>'
+      },
+      {
+        heading: '申請期限',
+        content: '<p>東京都の承認決定日から1年以内に申請します。令和8年4月1日以降に開始した治療の区制度は公式ページで検討中とされています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.kita.lg.jp/children-edu/pregnancy/1002764/1018694.html',
+    sourceName: '北区 特定不妊治療費（先進医療）の助成',
+    sourceUrls: ['https://www.city.kita.lg.jp/children-edu/pregnancy/1002764/1018694.html'],
+    sourceNote: '北区公式ページで対象治療、助成上限5万円、東京都承認決定日から1年以内、令和8年4月1日以降開始治療の扱いを確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'shinagawa-infertility',
+    title: '品川区 不妊治療（生殖補助医療）医療費助成',
+    organization: '品川区',
+    type: 'local',
+    maxAmount: '1回の治療につき上限5万円',
+    maxAmountNum: 5,
+    category: 'medical',
+    prefecture: '東京都',
+    tags: ['品川区', '不妊治療', '生殖補助医療'],
+    eligibility: '令和6年4月1日以降に受けた生殖補助医療の保険適用分が対象です。治療開始日から申請日まで婚姻関係が継続し、夫婦の一方が継続して品川区に住民登録していること等が要件です。',
+    applicationPeriod: '治療が終了した日から1年以内',
+    description: '品川区が、保険診療で行う生殖補助医療の自己負担額について、1回の治療につき上限5万円を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>体外受精、顕微授精、男性不妊治療などの生殖補助医療について、保険適用分の自己負担を助成します。</p>'
+      },
+      {
+        heading: '助成額',
+        content: '<p>1回の治療につき上限5万円です。先進医療や自由診療にかかる医療費は品川区制度の対象外です。</p>'
+      },
+      {
+        heading: '申請期限',
+        content: '<p>治療が終了した日から起算して1年以内に申請します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/20240622152920.html',
+    sourceName: '品川区 不妊治療（生殖補助医療）医療費助成事業',
+    sourceUrls: ['https://www.city.shinagawa.tokyo.jp/PC/kodomo/kodomo-ninnshinn/20240622152920.html'],
+    sourceNote: '品川区公式ページで生殖補助医療の対象、助成上限5万円、申請期限、先進医療等は対象外であることを確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'suginami-infertility-treatment',
+    title: '杉並区 特定不妊治療費（先進医療）助成',
+    organization: '杉並区',
+    type: 'local',
+    maxAmount: '令和8年4月1日以降の都承認決定は上限5万円',
+    maxAmountNum: 5,
+    category: 'medical',
+    prefecture: '東京都',
+    tags: ['杉並区', '不妊治療', '先進医療'],
+    eligibility: '東京都特定不妊治療費（先進医療）助成事業の承認決定を1年以内に受けた夫婦が対象です。申請時に夫婦または一方が杉並区に住民登録していること等の要件があります。',
+    applicationPeriod: '東京都の承認決定を受けてから1年以内',
+    description: '杉並区が、東京都の特定不妊治療費（先進医療）助成を受けた方に対して、区独自の上乗せ助成を行う制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>保険適用された特定不妊治療と併用した先進医療について、東京都助成を受けた後に区が追加で助成します。</p>'
+      },
+      {
+        heading: '助成額',
+        content: '<p>東京都の承認決定日が令和8年4月1日以降の場合は上限5万円、令和8年3月31日以前の場合は実費額の50%かつ上限3万5,000円です。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>区の助成を申請するには、東京都の承認決定を受けていることが条件です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.suginami.tokyo.jp/s045/1111.html',
+    sourceName: '杉並区 特定不妊治療費（先進医療）助成',
+    sourceUrls: ['https://www.city.suginami.tokyo.jp/s045/1111.html'],
+    sourceNote: '杉並区公式ページで対象、東京都承認決定を受けていること、令和8年4月1日前後の助成上限額、申請期限を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'katsushika-fertility-treatment',
+    title: '葛飾区 特定不妊治療費（先進医療）助成',
+    organization: '葛飾区',
+    type: 'local',
+    maxAmount: '1回の治療につき上限5万円',
+    maxAmountNum: 5,
+    category: 'medical',
+    prefecture: '東京都',
+    tags: ['葛飾区', '不妊治療', '先進医療'],
+    eligibility: '東京都特定不妊治療費（先進医療）助成事業の承認決定を受け、治療開始日から申請日まで婚姻関係があり、申請日に葛飾区内に住民登録がある方が対象です。',
+    applicationPeriod: '東京都の助成決定を受けた日から起算して1年以内',
+    description: '葛飾区が、東京都の先進医療助成決定を受けた特定不妊治療について、区独自に上乗せ助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>保険適用された特定不妊治療とともに自費で実施した先進医療について、東京都助成額を差し引いた額を区が助成します。</p>'
+      },
+      {
+        heading: '助成額',
+        content: '<p>1回の治療につき5万円を上限に助成します。助成対象の費用が5万円を下回る場合は、その額が上限です。</p>'
+      },
+      {
+        heading: '申請期限',
+        content: '<p>東京都の助成決定を受けた日から起算して1年を経過する日までに申請します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.katsushika.lg.jp/kenkou/1000050/1001803/1034531.html',
+    sourceName: '葛飾区 特定不妊治療費（先進医療）助成事業',
+    sourceUrls: ['https://www.city.katsushika.lg.jp/kenkou/1000050/1001803/1034531.html'],
+    sourceNote: '葛飾区公式ページで対象者、東京都助成決定が前提であること、上限5万円、申請期限を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'bunkyo-infertility',
+    title: '文京区 不妊治療費（先進医療及び自由診療）の一部助成',
+    organization: '文京区',
+    type: 'local',
+    maxAmount: '自由診療は1回上限10万円、先進医療は1回上限5万円',
+    maxAmountNum: 10,
+    category: 'medical',
+    prefecture: '東京都',
+    tags: ['文京区', '不妊治療', '先進医療'],
+    eligibility: '治療開始日から申請日まで婚姻関係があり、治療開始日における妻の年齢が43歳未満、申請日に夫婦のどちらかが文京区内に住所を有すること等が要件です。',
+    applicationPeriod: '原則、治療終了日の属する年度末まで。1月から3月末までに治療終了した場合は同年6月30日まで等',
+    description: '文京区が、先進医療および自由診療の不妊治療費の一部を助成する制度です。旧特定不妊治療費用の一部助成は終了済みです。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>体外受精や顕微授精に関連する先進医療および自由診療について、区が治療費の一部を助成します。</p>'
+      },
+      {
+        heading: '助成額',
+        content: '<p>先進医療は1回上限5万円、自由診療は1回上限10万円です。</p>'
+      },
+      {
+        heading: '制度移行',
+        content: '<p>令和4年4月の保険適用開始に伴い、従来の特定不妊治療費用の一部助成は終了しています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.bunkyo.lg.jp/b027/p001534.html',
+    sourceName: '文京区 不妊治療費（先進医療及び自由診療）の一部助成',
+    sourceUrls: [
+      'https://www.city.bunkyo.lg.jp/b027/p001534.html',
+      'https://www.city.bunkyo.lg.jp/b027/p001535.html'
+    ],
+    sourceNote: '文京区公式ページで現行助成の対象、上限額、申請期限、旧特定不妊治療費用助成の終了を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'taito-infertility',
+    title: '台東区 特定不妊治療（先進医療）助成',
+    organization: '台東区',
+    type: 'local',
+    maxAmount: '上限5万円',
+    maxAmountNum: 5,
+    category: 'medical',
+    prefecture: '東京都',
+    tags: ['台東区', '不妊治療', '先進医療'],
+    eligibility: '令和4年4月1日以降に治療を開始し、特定不妊治療と併せて先進医療を実施し、東京都の先進医療助成上限額15万円を受けている方が対象です。申請時に台東区に住民登録があること等が要件です。',
+    applicationPeriod: '東京都の承認決定後6か月以内',
+    description: '台東区が、保険適用の特定不妊治療と併せて実施した先進医療について、東京都助成後の自己負担の一部を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>特定不妊治療と併せて実施した先進医療について、東京都特定不妊治療費（先進医療）助成を受けている場合に区が追加で助成します。</p>'
+      },
+      {
+        heading: '助成額',
+        content: '<p>先進医療にかかる自己負担額の7割から東京都助成15万円を除いた額と、上限5万円のいずれか低い額です。</p>'
+      },
+      {
+        heading: '申請期限',
+        content: '<p>東京都の承認決定後6か月以内です。公式ページでは厳守と案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/kenkou_iryou/ninshin/teate_josei/senshiniryou.html',
+    sourceName: '台東区 特定不妊治療（先進医療）の費用の一部を助成',
+    sourceUrls: [
+      'https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/kenkou_iryou/ninshin/teate_josei/senshiniryou.html',
+      'https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/kenkou_iryou/ninshin/teate_josei/funinchiryohijosei.html'
+    ],
+    sourceNote: '台東区公式ページで現行の先進医療助成、上限5万円、東京都承認後6か月以内の申請期限、旧総称ページからの案内を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'setagaya-daycare-support',
+    title: '世田谷区 無認可保育施設保育料補助（令和8年度）',
+    organization: '世田谷区',
+    type: 'local',
+    maxAmount: '無認可保育施設は月額最大8万円等',
+    maxAmountNum: 96,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['世田谷区', '認可外保育', '保育料補助'],
+    eligibility: '世田谷区で給付認定を受け、無認可保育施設等を利用する方が対象です。年齢、住民税課税状況、保育の必要性認定、施設種別により補助区分が異なります。',
+    applicationPeriod: '令和8年度利用分。四半期ごとに申請・審査・支給。最終申請締切は2027年4月12日',
+    deadlineDate: '2027-04-12',
+    description: '世田谷区が、認可外保育施設利用者の保育料負担を軽減する制度です。施設種別ごとに補助内容が分かれ、ここでは令和8年度の無認可保育施設向け補助として確認しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>認可外保育施設に保育料を支払った後、区への補助金申請により保育料の一部を補助します。</p>'
+      },
+      {
+        heading: '主な補助額',
+        content: '<p>無認可保育施設は月額上限8万円、3～5歳児クラスは月額7万7,000円、給食提供園は3,000円上乗せなど、制度・施設種別により異なります。</p>'
+      },
+      {
+        heading: '申請期限',
+        content: '<p>補助金は3か月ごとに審査・支給されます。令和8年度利用分の最終申請締切は2027年4月12日です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.setagaya.lg.jp/01044/1510.html',
+    sourceName: '世田谷区 令和8年度無認可保育施設保育料補助',
+    sourceUrls: [
+      'https://www.city.setagaya.lg.jp/01044/1511.html',
+      'https://www.city.setagaya.lg.jp/01044/1510.html'
+    ],
+    sourceNote: '世田谷区公式の認可外保育施設補助概要と令和8年度無認可保育施設ページで補助対象、補助額、最終申請締切を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'toshima-daycare-support',
+    title: '豊島区 認可外保育施設利用者への補助金',
+    organization: '豊島区',
+    type: 'local',
+    maxAmount: '施設種別により月額最大8万円等',
+    maxAmountNum: 96,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['豊島区', '認可外保育', '保育料補助'],
+    eligibility: '認可保育施設や幼稚園に通園せず、認可外保育施設のみを利用する保護者が対象です。対象児童が豊島区から保育の必要性の認定を受ける必要があります。',
+    applicationPeriod: '令和8年度分。原則、申請日の属する月から補助対象。4月分から受ける場合は2026年4月30日まで',
+    description: '豊島区が、認可外保育施設を利用する家庭に対し、施設種別や課税状況に応じて保育料を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>東京都認証保育所、企業主導型保育施設、その他認可外施設など、施設区分に応じて補助基準が設定されています。</p>'
+      },
+      {
+        heading: '主な補助額',
+        content: '<p>施設種別・課税状況により、月額上限なし、8万円、7万7,000円、4万2,000円、3万7,000円などの区分があります。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>4月分から補助を受ける場合の期限は2026年4月30日ですが、制度自体は原則として申請日の属する月から対象となるため、固定の最終期限は設定していません。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.toshima.lg.jp/530/2502171609.html',
+    sourceName: '豊島区 認可外保育施設利用者への補助金',
+    sourceUrls: ['https://www.city.toshima.lg.jp/530/2502171609.html'],
+    sourceNote: '豊島区公式ページで令和8年度申請、保育の必要性認定、補助基準表、申請月からの補助対象を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];

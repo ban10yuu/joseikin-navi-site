@@ -201,4 +201,14 @@
 - [x] `npm run audit:links` 2114件OK / broken 0
 - [x] 生成HTML・本番HTMLスポット確認（通常公開slugはsitemap掲載、期限切れ/公式確認不可slugは警告表示・noindex・sitemap除外）
 - [x] 本番デプロイ `joseikin-navi-site-mcugm8xxq-banjo-yujis-projects.vercel.app` / alias `https://joseikin-navi-site.vercel.app`
+- [x] 東京都23区生活者向け24件を公式確認済みデータで追加・置換（子ども医療費8件、妊婦支援給付3件、子育て利用券/応援券2件、児童育成手当等3件、不妊治療6件、認可外保育料補助2件）
+- [x] 旧制度名・生成名を現行公式名称へ補正（出産・子育て応援給付金→妊婦のための支援給付、子ども養育手当→児童育成手当、多子世帯養育支援手当→児童手当第3子以降加算等）
+- [x] 追加後の `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`（エラー0）
+- [x] 追加後のデータ層確認（24件すべて公式出典あり・手動確認済み・期限切れ混入なし）
+- [x] 追加後の `npm run lint`（既存警告5件、エラー0）
+- [x] 追加後の `npm run build`（現在ツリー1095静的ページ）
+- [x] `npm run audit:coverage`（期限切れ67件、手動公式確認済み346件、公式リンクあり未確認0件、東京都ローカル公式確認済み103件、failures 0）
+- [x] `npm run audit:deadlines`（期限切れ67件を通常一覧から除外、failures 0）
+- [x] `npm run audit:links` 2221件OK / broken 0
+- [x] 生成HTMLスポット確認（24件すべて公式確認表示・公式情報リンクあり・sitemap掲載・noindexなし）
 - [ ] 全国網羅の次段階: 公式確認済みデータを都道府県・市区町村単位で追加し、未確認LLM生成データを順次置換する
