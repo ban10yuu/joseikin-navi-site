@@ -90,4 +90,10 @@
 - [x] 追加後の `npm run build`（758静的ページ）
 - [x] `npm run audit:links` 1507件OK / broken 0
 - [x] 東村山市公式サイトのbot向け403誤検知を避けるため、リンク監査のUser-Agentをブラウザ相当に更新
+- [x] 全国支援カテゴリの公式確認済みデータ8件を追加・置換（住居確保給付金、高等教育の修学支援新制度、就学援助制度、生活福祉資金貸付制度、被災者生活再建支援金、災害援護資金2slug、介護休業給付金）
+- [x] 追加後の `npm run lint`（既存警告5件、エラー0）
+- [x] 追加後の `npm run build`（764静的ページ）
+- [x] `npm run audit:coverage`（手動公式確認済み193件、公式リンクあり未確認64件、failures 0）
+- [x] `npm run audit:deadlines`（期限切れ1件を通常一覧から除外、failures 0）
+- [x] `npm run audit:links` 1517件OK / broken 0
 - [ ] 全国網羅の次段階: 公式確認済みデータを都道府県・市区町村単位で追加し、未確認LLM生成データを順次置換する
