@@ -100,15 +100,15 @@ export default async function GrantDetailPage({ params }: Props) {
         </nav>
 
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-8">
-          <article>
-            <div className="bg-card border-2 border-navy rounded-xl p-5 sm:p-6 mb-5 shadow-sm">
+          <article className="min-w-0">
+            <div className="grant-detail-card bg-card border-2 border-navy rounded-xl p-5 sm:p-6 mb-5 shadow-sm">
               <div className="flex items-start gap-4">
                 <img
                   src={CATEGORY_IMAGES[grant.category]}
                   alt={CATEGORY_LABELS[grant.category]}
                   className="w-20 h-20 object-contain flex-shrink-0 hidden sm:block"
                 />
-                <div className="flex-1">
+                <div className="flex-1 min-w-0">
                   <div className="flex flex-wrap gap-1.5 mb-3">
                     <span className="text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-navy text-white">
                       {TYPE_LABELS[grant.type]}
