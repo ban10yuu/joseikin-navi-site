@@ -46,7 +46,7 @@ interface Props {
 }
 
 export function generateStaticParams() {
-  return prefectures.map((pref) => ({ slug: prefToSlug(pref) }));
+  return prefectures.map((pref) => ({ slug: pref }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -56,6 +56,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const title = `${pref}の助成金・補助金一覧【2026年最新版】`;
   const description = `${pref}で利用できる助成金・補助金・給付金のうち、公式リンクが確認できる制度を中心に掲載。${pref}独自の制度と全国共通の制度を整理しています。`;
+  const canonicalSlug = prefToSlug(pref);
 
   return {
     title,
@@ -64,10 +65,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title,
       description,
-      url: `https://joseikin-navi-site.vercel.app/prefecture/${slug}/`,
+      url: `https://joseikin-navi-site.vercel.app/prefecture/${canonicalSlug}/`,
     },
     alternates: {
-      canonical: `https://joseikin-navi-site.vercel.app/prefecture/${slug}/`,
+      canonical: `https://joseikin-navi-site.vercel.app/prefecture/${canonicalSlug}/`,
     },
   };
 }
@@ -84,6 +85,7 @@ export default async function PrefecturePage({ params }: Props) {
   const nearby = getNearbyPrefectures(pref);
   const region = getRegion(pref);
   const baseUrl = 'https://joseikin-navi-site.vercel.app';
+  const canonicalSlug = prefToSlug(pref);
 
   const categoryGroups = Object.entries(CATEGORY_LABELS).map(([key, label]) => ({
     key: key as GrantCategory,
@@ -95,13 +97,13 @@ export default async function PrefecturePage({ params }: Props) {
     <>
       <BreadcrumbJsonLd items={[
         { name: 'ホーム', url: baseUrl },
-        { name: '地域から探す', url: `${baseUrl}/prefecture/${slug}/` },
-        { name: pref, url: `${baseUrl}/prefecture/${slug}/` },
+        { name: '地域から探す', url: `${baseUrl}/prefecture/${canonicalSlug}/` },
+        { name: pref, url: `${baseUrl}/prefecture/${canonicalSlug}/` },
       ]} />
       <CollectionJsonLd
         name={`${pref}の助成金・補助金一覧`}
         description={`${pref}で利用できる助成金・補助金・給付金の一覧`}
-        url={`${baseUrl}/prefecture/${slug}/`}
+        url={`${baseUrl}/prefecture/${canonicalSlug}/`}
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
