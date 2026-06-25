@@ -58,6 +58,7 @@
 - [x] 期限切れ制度を公開一覧・検索・sitemapから除外する共通判定を追加
 - [x] 期限切れ詳細ページに「これは期限が切れています」と `noindex, follow` を追加
 - [x] 期限切れ詳細ページからのタグリンク切れを防ぐため、期限切れ由来タグの静的生成を維持
+- [x] 期限切れ制御の再実行可能な成果物監査 `npm run audit:deadlines` を追加
 - [x] `npm run lint`
 - [x] `npm run build`
 - [x] 生成HTML/XMLのリンク監査 1052件OK / broken 0

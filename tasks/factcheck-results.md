@@ -44,6 +44,16 @@
 | `out/category/living/index.html` | `sompo-japan-environment-grant` なし |
 | `out/grant/sompo-japan-environment-grant/index.html` | 詳細ページあり。期限切れ警告あり。`noindex` あり。 |
 
+### 再実行可能な期限監査
+
+`npm run build` 後に `npm run audit:deadlines` を実行すると、`src/data/grants/**/*.ts` の `deadlineDate` と生成済み `out/` を照合し、以下を自動確認する。
+
+- 期限切れ制度への公開一覧リンクが生成HTMLから消えていること。
+- 公式リンクありの期限切れ詳細ページには「これは期限が切れています」と `noindex, follow` があること。
+- 期限切れ制度が `out/sitemap.xml` から除外されていること。
+
+2026-06-25時点の実行結果は、`deadlineCandidates: 5`、`expired: 1`、`expiredWithOfficialSource: 1`、`checkedExpiredSlugs: ["sompo-japan-environment-grant"]`、`failures: 0`。
+
 ### リンク監査結果
 
 対象は `out/**/*.html` と `out/**/*.xml` の `href` / `src` 属性のみ。RSC内のエスケープ済み文字列は誤検知防止のため対象外。
