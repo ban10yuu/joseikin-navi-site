@@ -117,4 +117,11 @@
 - [x] `npm run audit:coverage`（期限切れ3件、手動公式確認済み216件、公式リンクあり未確認39件、failures 0）
 - [x] `npm run audit:deadlines`（期限切れ3件を通常一覧から除外、failures 0）
 - [x] `npm run audit:links` 1568件OK / broken 0
+- [x] 恒常的な全国支援制度7件を公式確認済みデータで追加・置換（地域おこし協力隊、住宅ローン減税、災害障害見舞金、障害者雇用納付金関係助成金、介護保険負担限度額認定、幼児教育・保育無償化、妊婦のための支援給付）
+- [x] 追加後の `npx eslint src/data/grants/verified-national-continuous-support-2026.ts src/lib/grants.ts`（エラー0）
+- [x] 追加後の `npm run lint`（既存警告5件、エラー0）
+- [x] 追加後の `npm run build`（796静的ページ）
+- [x] `npm run audit:coverage`（期限切れ3件、手動公式確認済み223件、公式リンクあり未確認32件、failures 0）
+- [x] `npm run audit:deadlines`（期限切れ3件を通常一覧から除外、failures 0）
+- [x] `npm run audit:links` 1584件OK / broken 0
 - [ ] 全国網羅の次段階: 公式確認済みデータを都道府県・市区町村単位で追加し、未確認LLM生成データを順次置換する
