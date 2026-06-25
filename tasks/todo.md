@@ -103,4 +103,11 @@
 - [x] `npm run audit:coverage`（期限切れ3件、手動公式確認済み194件、公式リンクあり未確認61件、failures 0）
 - [x] `npm run audit:deadlines`（期限切れ3件を通常一覧から除外、failures 0）
 - [x] `npm run audit:links` 1525件OK / broken 0
+- [x] 国の基幹福祉・教育・医療制度13件を公式確認済みデータで追加・置換（高校就学支援金、JASSO奨学金、出産育児一時金、育児休業給付金、高額療養費、自立支援医療、難病医療費助成、小児慢性特定疾病医療費助成、生活保護、生活困窮者自立支援、年金生活者支援給付金、補装具費、高額介護サービス費）
+- [x] 追加後の `npx eslint src/data/grants/verified-national-core-welfare-2026.ts src/lib/grants.ts`（エラー0）
+- [x] 追加後の `npm run lint`（既存警告5件、エラー0）
+- [x] 追加後の `npm run build`（783静的ページ）
+- [x] `npm run audit:coverage`（期限切れ3件、手動公式確認済み207件、公式リンクあり未確認48件、failures 0）
+- [x] `npm run audit:deadlines`（期限切れ3件を通常一覧から除外、failures 0）
+- [x] `npm run audit:links` 1558件OK / broken 0
 - [ ] 全国網羅の次段階: 公式確認済みデータを都道府県・市区町村単位で追加し、未確認LLM生成データを順次置換する
