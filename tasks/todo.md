@@ -182,4 +182,13 @@
 - [x] `npm run audit:deadlines`（期限切れ48件を通常一覧から除外、failures 0）
 - [x] `npm run audit:links` 1899件OK / broken 0
 - [x] 生成HTMLスポット確認（通常公開12件はsitemap掲載、期限切れ/公式確認不可8件は警告表示・noindex・sitemap除外）
+- [x] 東京都ローカル追加20件を公式確認済みデータで追加・置換（通常公開12件、期限切れ/公式確認不可8件は通常一覧から除外）
+- [x] 追加前に対象公式URL 36件の到達確認（35件HTTP 200、北区補足PDF1件は404のため出典から除外）
+- [x] 追加後の `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`（エラー0）
+- [x] 追加後の `npm run lint`（既存警告5件、エラー0）
+- [x] 追加後の `npm run build`（986静的ページ）
+- [x] `npm run audit:coverage`（期限切れ56件、手動公式確認済み293件、公式リンクあり未確認0件、failures 0）
+- [x] `npm run audit:deadlines`（期限切れ56件を通常一覧から除外、failures 0）
+- [x] `npm run audit:links` 1983件OK / broken 0
+- [x] 生成HTMLスポット確認（通常公開12件はsitemap掲載、期限切れ/公式確認不可8件は警告表示・noindex・sitemap除外）
 - [ ] 全国網羅の次段階: 公式確認済みデータを都道府県・市区町村単位で追加し、未確認LLM生成データを順次置換する
