@@ -131,4 +131,11 @@
 - [x] `npm run audit:coverage`（期限切れ5件、手動公式確認済み224件、公式リンクあり未確認29件、failures 0）
 - [x] `npm run audit:deadlines`（期限切れ5件を通常一覧から除外、failures 0）
 - [x] `npm run audit:links` 1584件OK / broken 0
+- [x] 自治体・地方公的制度10件を公式確認済みデータで追加・置換（東京都創業助成、群馬県技術革新チャレンジ受付終了、鳥取県体験型観光、奈良県県産材住宅助成、群馬県/鳥取県/高知県移住支援金、東京都ベビーシッター、大阪府後期高齢者高額療養費、秋田県福祉医療）
+- [x] 追加後の `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`（エラー0）
+- [x] 追加後の `npm run lint`（既存警告5件、エラー0）
+- [x] 追加後の `npm run build`（789静的ページ）
+- [x] `npm run audit:coverage`（期限切れ6件、手動公式確認済み233件、公式リンクあり未確認19件、failures 0）
+- [x] `npm run audit:deadlines`（期限切れ6件を通常一覧から除外、failures 0）
+- [x] `npm run audit:links` 1588件OK / broken 0
 - [ ] 全国網羅の次段階: 公式確認済みデータを都道府県・市区町村単位で追加し、未確認LLM生成データを順次置換する
