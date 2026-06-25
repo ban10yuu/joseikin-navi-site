@@ -96,4 +96,11 @@
 - [x] `npm run audit:coverage`（手動公式確認済み193件、公式リンクあり未確認64件、failures 0）
 - [x] `npm run audit:deadlines`（期限切れ1件を通常一覧から除外、failures 0）
 - [x] `npm run audit:links` 1517件OK / broken 0
+- [x] 終了済み全国制度の期限制御を追加（こどもエコすまい支援事業、事業再構築補助金）
+- [x] 住民税非課税世帯給付金を現行の自治体実施・重点支援地方交付金ベースの記載に公式確認済み置換
+- [x] 追加後の `npm run lint`（既存警告5件、エラー0）
+- [x] 追加後の `npm run build`（768静的ページ）
+- [x] `npm run audit:coverage`（期限切れ3件、手動公式確認済み194件、公式リンクあり未確認61件、failures 0）
+- [x] `npm run audit:deadlines`（期限切れ3件を通常一覧から除外、failures 0）
+- [x] `npm run audit:links` 1525件OK / broken 0
 - [ ] 全国網羅の次段階: 公式確認済みデータを都道府県・市区町村単位で追加し、未確認LLM生成データを順次置換する
