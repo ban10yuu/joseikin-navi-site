@@ -159,4 +159,9 @@
 - [x] `npm run audit:coverage`（期限切れ37件、手動公式確認済み252件、公式リンクあり未確認0件、failures 0）
 - [x] `npm run audit:deadlines`（期限切れ37件を通常一覧から除外、failures 0）
 - [x] `npm run audit:links` 1717件OK / broken 0
+- [x] 本番デプロイ `joseikin-navi-site-jl5pxb7ee-banjo-yujis-projects.vercel.app` / alias `https://joseikin-navi-site.vercel.app`
+- [x] 本番HTMLスポット確認（通常公開2件はsitemap掲載、期限切れ/公式確認不可18件は警告表示・noindex・sitemap除外）
+- [x] 実ブラウザ確認（home、grants一覧、通常公開詳細、期限切れ詳細、mobile home。重大console error 0）
+- [x] 競合サイト比較を `tasks/competitor-comparison.md` に記録
+- [x] 全国拡張計画を `tasks/nationwide-expansion-plan.md` に記録
 - [ ] 全国網羅の次段階: 公式確認済みデータを都道府県・市区町村単位で追加し、未確認LLM生成データを順次置換する
