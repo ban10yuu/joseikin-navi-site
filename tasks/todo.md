@@ -164,4 +164,13 @@
 - [x] 実ブラウザ確認（home、grants一覧、通常公開詳細、期限切れ詳細、mobile home。重大console error 0）
 - [x] 競合サイト比較を `tasks/competitor-comparison.md` に記録
 - [x] 全国拡張計画を `tasks/nationwide-expansion-plan.md` に記録
+- [x] 東京都ローカル20件を公式確認済みデータで追加・置換（通常公開17件、期限切れ/募集なし3件は通常一覧から除外）
+- [x] 追加前に対象公式URL 27件の到達確認（全件HTTP 200）
+- [x] 追加後の `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`（エラー0）
+- [x] 追加後の `npm run lint`（既存警告5件、エラー0）
+- [x] 追加後の `npm run build`（912静的ページ）
+- [x] `npm run audit:coverage`（期限切れ40件、手動公式確認済み269件、公式リンクあり未確認0件、failures 0）
+- [x] `npm run audit:deadlines`（期限切れ40件を通常一覧から除外、failures 0）
+- [x] `npm run audit:links` 1815件OK / broken 0
+- [x] 生成HTMLスポット確認（通常公開17件はsitemap掲載、期限切れ/募集なし3件は警告表示・noindex・sitemap除外）
 - [ ] 全国網羅の次段階: 公式確認済みデータを都道府県・市区町村単位で追加し、未確認LLM生成データを順次置換する
