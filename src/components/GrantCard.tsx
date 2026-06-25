@@ -112,13 +112,20 @@ export default function GrantCard({ grant }: { grant: GrantCardItem }) {
         <span className="line-clamp-1">{grant.eligibility}</span>
       </div>
 
+      <div className="mb-2 flex items-start gap-2 rounded-md border border-line bg-base px-3 py-2 text-xs text-muted">
+        <span className="shrink-0 font-bold text-navy">申請</span>
+        <span className="line-clamp-1">{grant.applicationPeriod}</span>
+      </div>
+
       {/* 概要（2行で切る） */}
       <p className="text-sm text-muted mb-2 line-clamp-2">{grant.description}</p>
 
       {/* 運営元 */}
       <div className="flex items-center justify-between gap-3 text-xs text-faint">
-        <span>{grant.verifiedAt ? `確認日 ${grant.verifiedAt}` : sourceStatus.label}</span>
-        <span className="text-right">{grant.organization}</span>
+        <span className="min-w-0 line-clamp-1">
+          {grant.verifiedAt ? `確認日 ${grant.verifiedAt}` : sourceStatus.label} / {grant.organization}
+        </span>
+        <span className="shrink-0 font-bold text-navy">詳細を見る</span>
       </div>
     </Link>
   );

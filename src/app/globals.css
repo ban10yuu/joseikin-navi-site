@@ -53,13 +53,175 @@ body {
   background: rgba(232, 112, 42, 0.25);
 }
 
+/* ── Home search surface ── */
+.home-hero {
+  background:
+    linear-gradient(180deg, #fbfaf7 0%, #f7f6f2 74%, #edf1f7 100%);
+  border-bottom: 1px solid #d9d4c8;
+}
+
+.home-proof-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.home-proof-grid > div {
+  min-height: 76px;
+  background: #ffffff;
+  border: 1.5px solid #d9d4c8;
+  border-radius: 8px;
+  padding: 0.8rem 0.9rem;
+}
+
+.home-proof-value {
+  display: block;
+  color: #142d4f;
+  font-size: 1.45rem;
+  line-height: 1.1;
+  font-weight: 900;
+}
+
+.home-proof-label {
+  display: block;
+  margin-top: 0.25rem;
+  color: #54607a;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.home-search {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.home-search-toolbar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.home-search-count {
+  min-width: 96px;
+  text-align: right;
+  background: #ffffff;
+  border: 1.5px solid #b9c3d4;
+  border-radius: 8px;
+  padding: 0.55rem 0.75rem;
+}
+
+.home-search-controls {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 220px;
+  gap: 0.85rem;
+  max-width: 100%;
+  background: #ffffff;
+  border: 2px solid #142d4f;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 0 #142d4f;
+}
+
+.home-search-input,
+.home-search-select {
+  width: 100%;
+  min-height: 48px;
+  border: 1.5px solid #b9c3d4;
+  border-radius: 8px;
+  background: #f7f6f2;
+  color: #1c2433;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+}
+
+.home-search-input {
+  padding: 0.75rem 0.95rem;
+}
+
+.home-search-select {
+  padding: 0.75rem 0.8rem;
+}
+
+.home-search-input:focus,
+.home-search-select:focus {
+  outline: none;
+  border-color: #142d4f;
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(232, 112, 42, 0.22);
+}
+
+.home-search-category,
+.home-search-quick {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.home-search-category {
+  margin-top: 0.85rem;
+}
+
+.home-search-quick {
+  margin-top: 0.75rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #d9d4c8;
+}
+
+.home-search-quick-button {
+  min-height: 34px;
+  border: 1.5px solid #d9d4c8;
+  border-radius: 9999px;
+  background: #ffffff;
+  color: #1f4571;
+  cursor: pointer;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  padding: 0.35rem 0.8rem;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.home-search-quick-button:hover {
+  background: #edf1f7;
+  border-color: #142d4f;
+  color: #142d4f;
+}
+
+.home-search-results-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1rem 0 0.75rem;
+}
+
+.home-search-results {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.home-search-empty {
+  border: 1.5px solid #d9d4c8;
+  border-radius: 10px;
+  background: #ffffff;
+  padding: 1.25rem;
+  text-align: center;
+}
+
 /* ── Grant Card: strong outline, official-but-modern ── */
 .grant-card {
   display: block;
+  min-width: 0;
   background: #ffffff;
   border: 1.5px solid #d9d4c8;
   border-radius: 10px;
   padding: 1.25rem;
+  cursor: pointer;
   transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
   position: relative;
 }
@@ -258,6 +420,46 @@ body {
 @media (max-width: 768px) {
   body {
     font-size: 15px;
+  }
+
+  .home-proof-grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .home-proof-grid > div {
+    min-height: 68px;
+    padding: 0.7rem 0.65rem;
+  }
+
+  .home-proof-value {
+    font-size: 1.18rem;
+  }
+
+  .home-search-toolbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .home-search-count {
+    width: 100%;
+    text-align: left;
+  }
+
+  .home-search-controls {
+    grid-template-columns: 1fr;
+    padding: 0.85rem;
+    box-shadow: 0 3px 0 #142d4f;
+  }
+
+  .home-search-results-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .home-search-results {
+    grid-template-columns: 1fr;
   }
 
   .grant-card {
