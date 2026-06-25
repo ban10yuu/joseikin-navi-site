@@ -1166,4 +1166,532 @@ export const verifiedPrefectureChildMedicalGrants2026: Grant[] = [
     verifiedAt: '2026-06-25',
     publishedAt: '2026-06-25',
   },
+  {
+    slug: 'aomori-child-medical',
+    title: '青森県 こども医療費無償化支援',
+    organization: '青森県 こども家庭部',
+    type: 'local',
+    maxAmount: '市町村のこども医療費無償化を県交付金等で支援',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '青森県',
+    tags: ['青森県', 'こども医療費', '医療費無償化', '市町村申請'],
+    eligibility: '青森県内市町村のこども医療費無償化事業の対象となる子どもが対象です。対象年齢、自己負担、申請方法は市町村ごとに確認します。',
+    applicationPeriod: '通年（住所地の市町村で確認）',
+    description: '青森県は、市町村が実施する子育て費用の無償化事業を県交付金等で支援しています。県公表資料では、令和7年度に全40市町村が医療費無償化に取り組む状況が整理されています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>青森県では、「青森県学校給食費無償化等子育て支援市町村交付金」等を通じ、市町村による子育て費用の無償化を支援しています。県公表資料では、こども医療費の無償化に取り組む市町村の実施状況が案内されています。</p>'
+      },
+      {
+        heading: '対象者と助成内容',
+        content: '<p>こども医療費の対象年齢、自己負担、所得制限、保険診療分の扱いは市町村により異なります。県資料では市町村別の実施状況が示されているため、住所地の制度内容を確認して利用します。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>受給資格の申請、医療機関での提示方法、県外受診時の払い戻しは、住所地の市町村窓口で確認します。健康保険資格が分かる書類、本人確認書類など、市町村指定の書類を準備します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.aomori.lg.jp/soshiki/kodomo/kodomo/R7gakkoukyuushokuhi.html',
+    sourceName: '青森県 子育て費用の無償化事業の実施状況について',
+    sourceUrls: ['https://www.pref.aomori.lg.jp/soshiki/kodomo/kodomo/R7gakkoukyuushokuhi.html'],
+    sourceNote: '県交付金等による市町村の子育て費用無償化支援、令和7年度の医療費無償化実施状況を青森県公式ページで確認。',
+    verifiedAt: '2026-06-25',
+    publishedAt: '2026-06-25',
+  },
+  {
+    slug: 'mie-child-medical',
+    title: '三重県 福祉医療費助成制度（子ども）',
+    organization: '三重県 医療保健部',
+    type: 'local',
+    maxAmount: '子どもの福祉医療費助成を市町制度で実施',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '三重県',
+    tags: ['三重県', '福祉医療費', '子ども医療費', '市町申請'],
+    eligibility: '県補助の基本対象は小学校6年生までの子どもと、中学校3年生までの入院です。市町により独自拡大があります。',
+    targetIncome: '前年所得が児童手当の所得制限額以上の場合は対象外。市町独自制度により異なる場合あり。',
+    applicationPeriod: '通年（住所地の市町で申請）',
+    description: '三重県の福祉医療費助成制度のうち、子どもを対象とする医療費助成です。市町が実施する子ども医療費助成に対し、県が補助金を交付する仕組みです。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>三重県の福祉医療費助成制度は、子ども、一人親家庭等、障がい者等の医療費を市町が助成し、県が補助する制度です。子ども医療費については、市町事業への県補助が案内されています。</p>'
+      },
+      {
+        heading: '対象者と助成内容',
+        content: '<p>県補助の基本対象は、小学校6年生までの子どもと中学校3年生までの入院です。前年所得が児童手当の所得制限額以上の場合は対象外とされています。市町が対象年齢や助成範囲を独自に拡大している場合があります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請手続きは住所地の市町で行います。受給資格証、現物給付、償還払い、必要書類などは市町の福祉医療費助成担当窓口で確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.mie.lg.jp/IRYOS/HP/77740023394.htm',
+    sourceName: '三重県 福祉医療費助成制度のご案内',
+    sourceUrls: ['https://www.pref.mie.lg.jp/IRYOS/HP/77740023394.htm'],
+    sourceNote: '子どもの県補助要件、市町実施、県補助金の位置づけ、所得制限を三重県公式ページで確認。',
+    verifiedAt: '2026-06-25',
+    publishedAt: '2026-06-25',
+  },
+  {
+    slug: 'hyogo-child-medical',
+    title: '兵庫県 こども医療費助成・乳幼児等医療費助成',
+    organization: '兵庫県 福祉部',
+    type: 'local',
+    maxAmount: '小学校3年生までと小学校4年生から中学校3年生までを制度別に助成',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '兵庫県',
+    tags: ['兵庫県', 'こども医療費', '乳幼児等医療費', '市町申請'],
+    eligibility: '小学校3年生までは乳幼児等医療費助成、小学校4年生から中学校3年生まではこども医療費助成の対象です。所得制限や一部負担金は区分により異なります。',
+    targetIncome: 'こども医療費助成は市町村民税所得割額23.5万円未満など。0歳児は所得制限なし。',
+    applicationPeriod: '通年（住所地の市区町・町役場で申請）',
+    description: '兵庫県では、小学校3年生までを乳幼児等医療費助成、小学校4年生から中学校3年生までをこども医療費助成として、医療保険の自己負担の一部を公費で助成しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>兵庫県は、乳幼児等医療費助成事業とこども医療費助成事業を制度別に案内しています。市町が実施し、県は制度の対象区分、所得制限、一部負担金等を示しています。</p>'
+      },
+      {
+        heading: '対象者と助成内容',
+        content: '<p>乳幼児等医療費助成は小学校3年生まで、こども医療費助成は9歳到達後最初の4月1日から15歳到達後最初の3月31日までが対象です。こども医療費助成では、通院・入院とも医療保険自己負担額の3分の1が助成されます。市町による上乗せがあります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>手続きは住所地の市区役所・町役場で行います。医療証の交付、医療機関での提示、償還払い、必要書類は市町の案内を確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://web.pref.hyogo.lg.jp/kf07/hw06_000000033.html',
+    sourceName: '兵庫県 こども医療費助成事業',
+    sourceUrls: [
+      'https://web.pref.hyogo.lg.jp/kf07/hw06_000000033.html',
+      'https://web.pref.hyogo.lg.jp/kf07/hw06_000000004.html'
+    ],
+    sourceNote: 'こども医療費助成事業と乳幼児等医療費助成事業の対象、所得制限、一部負担金、市町申請を兵庫県公式ページで確認。',
+    verifiedAt: '2026-06-25',
+    publishedAt: '2026-06-25',
+  },
+  {
+    slug: 'tottori-child-medical',
+    title: '鳥取県 小児特別医療費助成制度',
+    organization: '鳥取県 子ども家庭部',
+    type: 'local',
+    maxAmount: '18歳以下の医療費自己負担分を県と市町村で負担',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '鳥取県',
+    tags: ['鳥取県', '小児特別医療費', '18歳以下', '医療費無償'],
+    eligibility: '18歳以下、具体的には18歳に達する日以後の最初の3月31日までの子どもが対象です。',
+    applicationPeriod: '通年（受給資格証や申請方法は住所地の市町村で確認）',
+    description: '鳥取県の小児特別医療費助成制度です。令和6年4月から、18歳以下の医療費自己負担分を県と市町村で負担し、院外薬局の薬代も無料とされています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>鳥取県では、令和6年4月から18歳以下の医療費が無償になる制度が案内されています。医療費自己負担分は県と市町村が負担します。</p>'
+      },
+      {
+        heading: '対象者と助成内容',
+        content: '<p>対象は18歳以下の子どもで、18歳に達する日以後の最初の3月31日までが対象です。県内医療機関では、受給資格証とマイナンバーカード等を提示して利用します。院外薬局の薬代も無料です。</p><p>入院時の食事代、紹介状なし受診時の費用、夜間・休日などの保険診療外料金は自己負担です。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>受給資格証の申請、提示方法、県外受診時の扱いは、住所地の市町村で確認します。医療保険資格が分かる書類など、市町村の案内に従って準備します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.tottori.lg.jp/302720.htm',
+    sourceName: '鳥取県 令和6年4月から18歳以下の医療費が無償になります',
+    sourceUrls: ['https://www.pref.tottori.lg.jp/302720.htm'],
+    sourceNote: '18歳以下の医療費自己負担分の県・市町村負担、院外薬局の薬代無料、対象外費用を鳥取県公式ページで確認。',
+    verifiedAt: '2026-06-25',
+    publishedAt: '2026-06-25',
+  },
+  {
+    slug: 'shimane-child-medical',
+    title: '島根県 子ども医療費助成',
+    organization: '島根県 健康福祉部',
+    type: 'local',
+    maxAmount: '高校生相当年齢まで医療費を月額上限付きで軽減',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '島根県',
+    tags: ['島根県', '子ども医療費', '高校生相当年齢', '所得制限なし'],
+    eligibility: '0歳から高校生相当年齢、具体的には18歳到達後最初の3月末までの子どもが対象です。',
+    targetIncome: '所得制限なし。',
+    applicationPeriod: '通年（住所地の市町村で申請）',
+    description: '島根県の子ども医療費助成です。令和7年4月から県内全市町村で高校生相当年齢まで対象が拡大され、所得制限なしで月額上限を設けて負担を軽減しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>島根県では、県と市町村が協力して子ども医療費助成を実施しています。令和7年4月から県内全市町村で高校生相当年齢まで対象が拡大されています。</p>'
+      },
+      {
+        heading: '対象者と助成内容',
+        content: '<p>対象は0歳から高校生相当年齢までで、所得制限はありません。自己負担は1割負担になるよう軽減され、月額上限は入院2,000円、通院1,000円、薬局等0円と案内されています。市町村により無償化などの追加軽減があります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請窓口は住所地の市町村です。受給資格者証の交付を受け、医療機関窓口で提示します。市町村ごとの追加軽減や必要書類もあわせて確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.shimane.lg.jp/medical/kenko/kenko/hoken/kodomoiryouhijosei.html',
+    sourceName: '島根県 子ども医療費助成',
+    sourceUrls: ['https://www.pref.shimane.lg.jp/medical/kenko/kenko/hoken/kodomoiryouhijosei.html'],
+    sourceNote: '高校生相当年齢までの対象拡大、所得制限なし、月額上限、市町村申請を島根県公式ページで確認。',
+    verifiedAt: '2026-06-25',
+    publishedAt: '2026-06-25',
+  },
+  {
+    slug: 'tokushima-child-medical',
+    title: '徳島県 子どもはぐくみ医療費助成制度',
+    organization: '徳島県 こども未来部',
+    type: 'local',
+    maxAmount: '18歳到達年度末までの医療費を県と市町村で助成',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '徳島県',
+    tags: ['徳島県', '子どもはぐくみ医療', '18歳年度末', '所得制限なし'],
+    eligibility: '18歳到達年度末までの子どもが対象です。',
+    targetIncome: '所得制限なし。',
+    applicationPeriod: '通年（住所地の市町村で申請）',
+    description: '徳島県の子どもはぐくみ医療費助成制度です。18歳到達年度末までの子どもを対象に、県と市町村が入院・通院の医療費を助成します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>子どもはぐくみ医療費助成制度は、18歳到達年度末までの子どもを対象に、県と市町村が医療費を助成する制度です。事業主体は市町村です。</p>'
+      },
+      {
+        heading: '対象者と助成内容',
+        content: '<p>入院・通院とも18歳到達年度末までが対象で、所得制限はありません。入院の自己負担はなく、通院は3歳から18歳到達年度末まで1レセプト600円と案内されています。学校管理下の負傷等は対象外です。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請は住所地の市町村で行います。市町村独自制度や上乗せがあるため、受給者証、自己負担、払い戻しの扱いは市町村窓口で確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.tokushima.lg.jp/hagukumi/purpose-search/7300638/',
+    sourceName: 'とくしまはぐくみネット 子どもはぐくみ医療費助成制度',
+    sourceUrls: ['https://www.pref.tokushima.lg.jp/hagukumi/purpose-search/7300638/'],
+    sourceNote: '18歳到達年度末までの対象、所得制限なし、自己負担、事業主体が市町村であることを徳島県公式子育てポータルで確認。',
+    verifiedAt: '2026-06-25',
+    publishedAt: '2026-06-25',
+  },
+  {
+    slug: 'kagawa-child-medical',
+    title: '香川県 子ども医療費助成制度',
+    organization: '香川県 健康福祉部',
+    type: 'local',
+    maxAmount: '保険給付後の自己負担分を市町制度で助成',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '香川県',
+    tags: ['香川県', '子ども医療費', '子育て県かがわ', '市町申請'],
+    eligibility: '香川県内市町の子ども医療費助成制度の対象となる子どもが対象です。対象年齢や自己負担は市町により異なります。',
+    applicationPeriod: '通年（居住市町で医療費受給者資格登録を申請）',
+    description: '香川県の子ども医療費助成制度です。県公式子育て情報サイトでは、保険給付後の自己負担分を助成する制度として、居住市町への医療費受給者資格登録申請を案内しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>香川県の子育て情報サイトでは、子ども医療費助成制度として、保険給付後の自己負担分を助成する仕組みが案内されています。</p>'
+      },
+      {
+        heading: '対象者と助成内容',
+        content: '<p>対象者、対象年齢、所得制限、自己負担額は市町により異なります。県公式ページでは市町別の対象者や問い合わせ先の確認が案内されています。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>助成を受けるには、居住市町に医療費受給者資格登録を申請します。必要書類、受給者証、現物給付や償還払いの扱いは市町担当窓口で確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://kagawa-colorful.com/1450/',
+    sourceName: '子育て県かがわ 子ども医療費助成制度',
+    sourceUrls: ['https://kagawa-colorful.com/1450/'],
+    sourceNote: '保険給付後の自己負担分助成、居住市町への資格登録申請を香川県公式子育て情報サイトで確認。',
+    verifiedAt: '2026-06-25',
+    publishedAt: '2026-06-25',
+  },
+  {
+    slug: 'ehime-child-medical',
+    title: '愛媛県 子どもの医療費助成制度',
+    organization: '愛媛県 保健福祉部',
+    type: 'local',
+    maxAmount: '子どもの保険診療自己負担分を市町制度で助成',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '愛媛県',
+    tags: ['愛媛県', '子ども医療費', '市町実施', '資格申請'],
+    eligibility: '愛媛県内市町の子ども医療費助成制度の対象となる子どもが対象です。対象年齢は市町により異なります。',
+    applicationPeriod: '通年（住所地の市町で資格申請）',
+    description: '愛媛県の子どもの医療費に関する助成制度です。市町が実施主体となり、子どもの医療費のうち保険給付後の自己負担分を助成します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>愛媛県では、子どもの医療費に関する助成制度について、実施主体を市町として案内しています。子どもの医療費のうち、保険給付後の自己負担分を助成する制度です。</p>'
+      },
+      {
+        heading: '対象者と助成内容',
+        content: '<p>対象年齢や助成内容は市町により異なります。保険診療の自己負担分が主な助成対象ですが、保険適用外費用や市町ごとの独自要件は窓口確認が必要です。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>事前の資格申請手続きは住所地の市町で行います。医療証の交付、医療機関での利用方法、県外受診時の払い戻しは市町の案内に従います。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.ehime.jp/page/17671.html',
+    sourceName: '愛媛県 子どもの医療費に関する助成制度',
+    sourceUrls: ['https://www.pref.ehime.jp/page/17671.html'],
+    sourceNote: '保険給付後の自己負担分助成、市町実施、資格申請を愛媛県公式ページで確認。',
+    verifiedAt: '2026-06-25',
+    publishedAt: '2026-06-25',
+  },
+  {
+    slug: 'kochi-child-medical',
+    title: '高知県 乳幼児医療費助成制度',
+    organization: '高知県 子ども・福祉政策部',
+    type: 'local',
+    maxAmount: '就学前までの乳幼児医療費を所得区分等に応じて助成',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '高知県',
+    tags: ['高知県', '乳幼児医療費', '就学前', '市町村独自制度'],
+    eligibility: '県制度の概要では、入院・通院とも就学前までの乳幼児が対象です。市町村により独自拡充があります。',
+    targetIncome: '乳児は所得制限なし。幼児は児童手当所得制限に準拠。',
+    applicationPeriod: '通年（住所地の市町村で申請）',
+    description: '高知県の乳幼児医療費助成制度です。県制度では入院・通院とも就学前までの乳幼児を対象に、所得区分等に応じて医療費を助成します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>高知県の乳幼児医療費助成制度は、入院・通院とも就学前までの乳幼児を対象とする県制度です。市町村は県基準をもとに独自の乳幼児等医療費助成制度を設けています。</p>'
+      },
+      {
+        heading: '対象者と助成内容',
+        content: '<p>乳児は所得制限なし、幼児は児童手当所得制限に準拠します。自己負担は乳児なし、幼児は非課税世帯なし、課税世帯は総医療費の1割です。ただし第3子以降は自己負担なしと案内されています。食事療養費は対象外です。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>住所地の市町村で受給資格を申請します。市町村独自の対象年齢拡大や自己負担軽減があるため、詳しい内容は市町村窓口で確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.kochi.lg.jp/doc/2021062100154/',
+    sourceName: '高知県 乳幼児医療費助成制度について',
+    sourceUrls: ['https://www.pref.kochi.lg.jp/doc/2021062100154/'],
+    sourceNote: '県制度の対象年齢、所得制限、自己負担、食事療養費対象外、市町村独自制度を高知県公式ページで確認。',
+    verifiedAt: '2026-06-25',
+    publishedAt: '2026-06-25',
+  },
+  {
+    slug: 'saga-child-medical',
+    title: '佐賀県 子どもの医療費助成事業',
+    organization: '佐賀県 健康福祉部',
+    type: 'local',
+    maxAmount: '県と市町が協力して保険診療分の医療費・薬代を助成',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '佐賀県',
+    tags: ['佐賀県', '子ども医療費', '保険診療', '市町申請'],
+    eligibility: '佐賀県内市町の子どもの医療費助成事業の対象となる子どもが対象です。小学生以上の対象年齢や保護者負担額は市町により異なります。',
+    applicationPeriod: '通年（住所地の市役所・町役場で受給資格証を申請）',
+    description: '佐賀県の子どもの医療費助成事業です。県と市町が協力し、就学前児を中心に保険診療分の医療費・薬代を助成しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>佐賀県では、県と市町が協力して子どもの医療費助成事業を実施しています。助成範囲は保険診療分の医療費と薬代です。</p>'
+      },
+      {
+        heading: '対象者と助成内容',
+        content: '<p>0歳から小学校就学前までは、通院の保護者負担が上限500円を月2回まで、入院が上限1,000円、調剤費は保護者負担なしと案内されています。保険外診療、食事・生活療養費などは対象外です。小学生以上の対象年齢や保護者負担額は市町により異なります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>受給資格証は住所地の市役所・町役場で発行されます。必要書類、医療機関での提示方法、償還払いの扱いは市町窓口で確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.saga.lg.jp/kiji00333262/index.html',
+    sourceName: '佐賀県 子どもの医療費助成事業',
+    sourceUrls: ['https://www.pref.saga.lg.jp/kiji00333262/index.html'],
+    sourceNote: '保険診療分の助成範囲、就学前児の保護者負担、対象外費用、市町実施を佐賀県公式ページで確認。',
+    verifiedAt: '2026-06-25',
+    publishedAt: '2026-06-25',
+  },
+  {
+    slug: 'nagasaki-child-medical',
+    title: '長崎県 乳幼児医療費助成・子ども（高校生世代）医療費助成',
+    organization: '長崎県 福祉保健部',
+    type: 'local',
+    maxAmount: '乳幼児と高校生世代の医療費を県・市町制度で助成',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '長崎県',
+    tags: ['長崎県', '乳幼児医療費', '高校生世代', '市町申請'],
+    eligibility: '乳幼児は小学校就学前まで、高校生世代は15歳到達後最初の4月1日から18歳到達後最初の3月31日までが対象です。小中学生は市町の独自助成を確認します。',
+    applicationPeriod: '通年（住所地の市役所・町役場で申請）',
+    description: '長崎県では、乳幼児医療費助成と子ども（高校生世代）医療費助成が案内されています。申請や詳細確認は住所地の市役所・町役場で行います。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>長崎県は、乳幼児医療費助成と子ども（高校生世代）医療費助成を公式ページで案内しています。高校生世代の制度は各市町を実施主体として運用されています。</p>'
+      },
+      {
+        heading: '対象者と助成内容',
+        content: '<p>乳幼児は小学校就学前まで、高校生世代は15歳到達後最初の4月1日から18歳到達後最初の3月31日までが対象です。自己負担は入院・通院とも1医療機関1日800円まで、月1,600円上限、調剤薬局の自己負担なしと案内されています。小中学生の対象年齢や支払方法は市町ごとに確認します。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請や詳細確認は住所地の市役所・町役場で行います。受給者証、医療機関での提示方法、払い戻し申請の扱いは市町の案内に従います。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.nagasaki.jp/doc/page-90637.html',
+    sourceName: '長崎県 乳幼児医療費助成',
+    sourceUrls: [
+      'https://www.pref.nagasaki.jp/doc/page-90637.html',
+      'https://www.pref.nagasaki.jp/doc/page-613251.html'
+    ],
+    sourceNote: '乳幼児医療費助成、高校生世代医療費助成、自己負担、申請先を長崎県公式ページで確認。',
+    verifiedAt: '2026-06-25',
+    publishedAt: '2026-06-25',
+  },
+  {
+    slug: 'kumamoto-child-medical',
+    title: '熊本県 子ども医療費助成事業補助金',
+    organization: '熊本県 子ども未来課',
+    type: 'local',
+    maxAmount: '市町村が実施する子ども医療費助成へ県が補助',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '熊本県',
+    tags: ['熊本県', '子ども医療費', '市町村補助', '交付要領'],
+    eligibility: '県交付要領上の補助対象は、通院が小学校就学前まで、入院が中学生までです。住民向けの対象や自己負担は市町村で確認します。',
+    applicationPeriod: '通年（住民向け手続きは住所地の市町村で確認）',
+    description: '熊本県の子ども医療費助成事業補助金です。市町村が子どもの医療費一部負担金を助成した場合に、県が市町村へ補助金を交付する制度として要領が公開されています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>熊本県は、要綱等のページで子ども医療費助成事業補助金交付要領を公開しています。市町村が子どもの医療費一部負担金を助成した場合に、県が市町村へ補助する制度です。</p>'
+      },
+      {
+        heading: '対象者と助成内容',
+        content: '<p>県交付要領上の補助対象は、通院が小学校就学前まで、入院が中学生までとされています。住民向けの自己負担額、所得制限、市町村ごとの上乗せ内容は、県資料上では一律に確認できないため住所地の市町村で確認します。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>県資料は市町村向け補助制度の要領です。住民が医療費助成を利用する場合は、住所地の市町村の子ども医療費担当窓口で受給資格、必要書類、利用方法を確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.kumamoto.jp/soshiki/35/160800.html',
+    sourceName: '熊本県 要綱等（子ども未来課所管分）',
+    sourceUrls: [
+      'https://www.pref.kumamoto.jp/soshiki/35/160800.html',
+      'https://www.pref.kumamoto.jp/uploaded/attachment/222414.pdf'
+    ],
+    sourceNote: '子ども医療費助成事業補助金交付要領、市町村向け補助制度、補助対象を熊本県公式ページとPDFで確認。',
+    verifiedAt: '2026-06-25',
+    publishedAt: '2026-06-25',
+  },
+  {
+    slug: 'oita-child-medical',
+    title: '大分県 こども医療費助成事業',
+    organization: '大分県 福祉保健部',
+    type: 'local',
+    maxAmount: '就学前・小中学生・高校生年代の区分に応じて医療費を助成',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '大分県',
+    tags: ['大分県', 'こども医療費', '高校生年代', '市町村申請'],
+    eligibility: '大分県内に住所を有するこどもが対象です。義務教育就学前、小中学生、高校生年代で対象となる入院・通院の範囲が異なります。',
+    applicationPeriod: '通年（住所地の市町村で申請）',
+    description: '大分県のこども医療費助成事業です。就学前・小中学生・高校生年代の区分に応じて入院・通院の助成範囲が定められ、手続きは居住市町村で行います。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>大分県こども医療費助成事業は、県内に住所を有するこどもを対象に、医療費を助成する制度です。費用は県と市町村が2分の1ずつ負担すると案内されています。</p>'
+      },
+      {
+        heading: '対象者と助成内容',
+        content: '<p>義務教育就学前は入院・通院、小中学生は入院、高校生年代は入院・通院が対象です。自己負担は入院が1医療機関1日500円で月14日上限、通院が1医療機関1日500円までで、3歳未満は月2回、3歳以上は月4回が上限と案内されています。市町村独自助成があります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>手続きは住所地の市町村で行います。受給資格証、医療機関での提示方法、償還払い、市町村独自助成の内容は市町村担当窓口で確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.oita.jp/soshiki/12470/kodomoiryomirai.html',
+    sourceName: '大分県 こども医療費助成事業のご案内',
+    sourceUrls: ['https://www.pref.oita.jp/soshiki/12470/kodomoiryomirai.html'],
+    sourceNote: '対象区分、自己負担、県と市町村の負担、市町村手続きを大分県公式ページで確認。',
+    verifiedAt: '2026-06-25',
+    publishedAt: '2026-06-25',
+  },
+  {
+    slug: 'miyazaki-child-medical',
+    title: '宮崎県 乳幼児医療費助成事業',
+    organization: '宮崎県 こども政策課',
+    type: 'local',
+    maxAmount: '小学校入学前までの乳幼児医療費を県と市町村で助成',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '宮崎県',
+    tags: ['宮崎県', '乳幼児医療費', '小学校入学前', '市町村申請'],
+    eligibility: '宮崎県内に住所があり、健康保険に加入している小学校入学前までの乳幼児が対象です。',
+    targetIncome: '入院外の3歳以上小学校入学前について、一部所得制限あり。',
+    applicationPeriod: '通年（居住市役所・町村役場で申請）',
+    description: '宮崎県の乳幼児医療費助成事業です。小学校入学前までの乳幼児を対象に、実施主体である市町村が医療費を助成し、費用は県と市町村が2分の1ずつ負担します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>宮崎県の乳幼児医療費助成事業は、県内に住所があり健康保険に加入している乳幼児を対象に、医療費負担を軽減する制度です。実施主体は市町村です。</p>'
+      },
+      {
+        heading: '対象者と助成内容',
+        content: '<p>入院・入院外とも小学校入学前までが対象です。自己負担は入院が1診療報酬明細書350円、入院外が3歳未満350円、3歳以上小学校入学前800円と案内されています。入院外の3歳以上小学校入学前については一部所得制限があります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請は居住市役所・町村役場で行います。市町村独自の対象拡大や自己負担軽減があるため、詳細は住所地の市町村窓口で確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.miyazaki.lg.jp/kodomo-seisaku/kyoikukosodate/kodomo/nyuuyouji_josei.html',
+    sourceName: '宮崎県 乳幼児医療費助成事業',
+    sourceUrls: ['https://www.pref.miyazaki.lg.jp/kodomo-seisaku/kyoikukosodate/kodomo/nyuuyouji_josei.html'],
+    sourceNote: '対象年齢、自己負担、所得制限、実施主体、県と市町村の負担割合を宮崎県公式ページで確認。',
+    verifiedAt: '2026-06-25',
+    publishedAt: '2026-06-25',
+  },
+  {
+    slug: 'kagoshima-child-medical',
+    title: '鹿児島県 子ども医療費助成制度',
+    organization: '鹿児島県 保健福祉部',
+    type: 'local',
+    maxAmount: '子どもの医療費自己負担分を県と市町村で助成',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '鹿児島県',
+    tags: ['鹿児島県', '子ども医療費', '現物給付', '市町村申請'],
+    eligibility: '鹿児島県内市町村の子ども医療費助成制度の対象となる子どもが対象です。対象年齢や窓口自己負担額は市町村により異なります。',
+    applicationPeriod: '通年（住所地の市町村で受給資格者証を申請）',
+    description: '鹿児島県の子ども医療費助成制度です。県と市町村が子どもの医療費自己負担分を助成し、県内医療機関等では現物給付方式で利用できます。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>鹿児島県では、子どもの医療費自己負担分を県と市町村で助成しています。対象年齢や窓口自己負担額は、実施主体である市町村により異なります。</p>'
+      },
+      {
+        heading: '対象者と助成内容',
+        content: '<p>県内医療機関等では現物給付方式で利用できます。令和7年4月からは、課税世帯の子どもも現物給付方式の対象に拡大されたと案内されています。県外受診や受給資格者証を忘れた場合は還付手続きが必要です。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>住所地の市町村で受給資格者証の交付を受けます。市町村別の対象年齢、自己負担、必要書類、還付手続きは市町村窓口で確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.kagoshima.jp/ae08/kenko-fukushi/kodomo/teate/04008008.html',
+    sourceName: '鹿児島県 子ども医療費助成制度について',
+    sourceUrls: [
+      'https://www.pref.kagoshima.jp/ae08/kenko-fukushi/kodomo/teate/04008008.html',
+      'https://www.pref.kagoshima.jp/ae32/boshiiryo/kodomoiryohi202504.html'
+    ],
+    sourceNote: '県と市町村の助成、現物給付方式、令和7年4月からの変更、受給資格者証申請を鹿児島県公式ページで確認。',
+    verifiedAt: '2026-06-25',
+    publishedAt: '2026-06-25',
+  },
 ];
