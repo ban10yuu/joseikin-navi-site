@@ -110,4 +110,11 @@
 - [x] `npm run audit:coverage`（期限切れ3件、手動公式確認済み207件、公式リンクあり未確認48件、failures 0）
 - [x] `npm run audit:deadlines`（期限切れ3件を通常一覧から除外、failures 0）
 - [x] `npm run audit:links` 1558件OK / broken 0
+- [x] MHLW/ハローワーク系の雇用・職業訓練制度9件を公式確認済みデータで追加・置換（人材開発支援助成金、キャリアアップ助成金、両立支援等助成金、トライアル雇用助成金、特定求職者雇用開発助成金、職業訓練受講給付金、専門実践教育訓練給付金、失業給付、雇用調整助成金）
+- [x] 追加後の `npx eslint src/data/grants/verified-national-employment-support-2026.ts src/lib/grants.ts`（エラー0）
+- [x] 追加後の `npm run lint`（既存警告5件、エラー0）
+- [x] 追加後の `npm run build`（787静的ページ）
+- [x] `npm run audit:coverage`（期限切れ3件、手動公式確認済み216件、公式リンクあり未確認39件、failures 0）
+- [x] `npm run audit:deadlines`（期限切れ3件を通常一覧から除外、failures 0）
+- [x] `npm run audit:links` 1568件OK / broken 0
 - [ ] 全国網羅の次段階: 公式確認済みデータを都道府県・市区町村単位で追加し、未確認LLM生成データを順次置換する
