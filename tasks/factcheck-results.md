@@ -1052,8 +1052,13 @@ city-batch68〜91はテンプレート(`genGrants`関数)で自動生成され�
 | 期限切れとして通常一覧から除外 | 67 |
 | このバッチの通常公開/除外 | 29 / 11 |
 | 対象source URL | 51件OK / broken 0 |
+| build | 1054静的ページ |
+| リンク監査 | 2114件OK / broken 0 |
+| 本番デプロイ | `joseikin-navi-site-mcugm8xxq-banjo-yujis-projects.vercel.app` |
 
 追加検証:
 
 - `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
 - 40slugのデータ層確認: すべて公式出典あり・手動確認済み。通常公開29件は公開、期限切れ/公式確認不可11件は通常一覧から除外。
+- クリーンworktreeで `npm run lint`, `npm run build`, `npm run audit:coverage`, `npm run audit:deadlines`, `npm run audit:links` を実行し、すべてfailures 0。
+- 生成HTMLと本番HTMLで通常公開7slug、期限切れ/公式確認不可5slugをスポット確認。通常公開はsitemap掲載・noindexなし、期限切れ/確認不可は警告表示・`noindex, follow`・sitemap除外。

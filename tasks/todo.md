@@ -194,5 +194,11 @@
 - [x] 東京都ローカル住宅・住まい系40件を公式確認済みデータで追加・置換（通常公開29件、期限切れ/公式確認不可11件は通常一覧から除外）
 - [x] 追加前に対象公式URL 52件を調査し、東村山市の自動監査403ページ/PDFは出典から除外して公式例規URLに差し替え
 - [x] 追加後の `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`（エラー0）
-- [x] 追加後のデータ層確認（通常公開4395件、期限切れ67件、手動公式確認済み322件、東京都ローカル公式確認済み79件）
+- [x] クリーンworktreeで `npm run lint`（既存警告5件、エラー0）
+- [x] クリーンworktreeで `npm run build`（1054静的ページ）
+- [x] `npm run audit:coverage`（期限切れ67件、手動公式確認済み322件、公式リンクあり未確認0件、failures 0）
+- [x] `npm run audit:deadlines`（期限切れ67件を通常一覧から除外、failures 0）
+- [x] `npm run audit:links` 2114件OK / broken 0
+- [x] 生成HTML・本番HTMLスポット確認（通常公開slugはsitemap掲載、期限切れ/公式確認不可slugは警告表示・noindex・sitemap除外）
+- [x] 本番デプロイ `joseikin-navi-site-mcugm8xxq-banjo-yujis-projects.vercel.app` / alias `https://joseikin-navi-site.vercel.app`
 - [ ] 全国網羅の次段階: 公式確認済みデータを都道府県・市区町村単位で追加し、未確認LLM生成データを順次置換する
