@@ -14,6 +14,7 @@ import { verifiedNationalContinuousSupportGrants2026 } from '@/data/grants/verif
 import { verifiedNationalCoreWelfareGrants2026 } from '@/data/grants/verified-national-core-welfare-2026';
 import { verifiedNationalDeadlineFixes2026 } from '@/data/grants/verified-national-deadline-fixes-2026';
 import { verifiedNationalEmploymentSupportGrants2026 } from '@/data/grants/verified-national-employment-support-2026';
+import { verifiedNationalMiscGrants2026 } from '@/data/grants/verified-national-misc-2026';
 import { verifiedNationalSupportGrants2026 } from '@/data/grants/verified-national-support-2026';
 import { verifiedNationalBusinessLegacyGrants2026 } from '@/data/grants/verified-national-business-legacy-2026';
 import { verifiedNgoMiscGrants2026 } from '@/data/grants/verified-ngo-misc-2026';
@@ -146,6 +147,7 @@ const rawGrants: Grant[] = [
   ...verifiedNationalContinuousSupportGrants2026,
   ...verifiedNationalDeadlineFixes2026,
   ...verifiedNationalEmploymentSupportGrants2026,
+  ...verifiedNationalMiscGrants2026,
   ...verifiedNationalSupportGrants2026,
   ...verifiedNationalBusinessLegacyGrants2026,
   ...verifiedNgoMiscGrants2026,

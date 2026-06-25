@@ -758,3 +758,42 @@ city-batch68〜91はテンプレート(`genGrants`関数)で自動生成され�
 
 - 通常公開7slug: 公式出典確認済み、確認日2026-06-26、公式情報リンクあり、sitemap掲載。
 - 期限切れ・公式確認不可の代表3slug（`mitsubishi-zaidan-shakai-fukushi`, `jyuutaku-kairyou-kousya-josei`, `tokio-marine-bousai-josei`）: 期限切れ説明、`noindex, follow`、sitemap除外。
+
+---
+
+## 2026-06-26 全国・国制度11件の公式確認バッチ
+
+全国未出典のうち国制度・公的制度11件を、国・公的機関の一次情報で確認し、同一slugの公式確認済みデータで置換した。既存データは削除せず、先頭側に追加した公式確認済みデータを先勝ちdedupeで反映している。`nenkin-seikatsusha-shien-kyuufukin` と `shokugyou-kunren-ukekou-kyuufukin-kyuushokusha` は、既に公式確認済みの別slugがある制度の旧slug互換として維持した。
+
+対象:
+
+| slug | 制度名 | 対応 |
+|---|---|---|
+| `nenkin-seikatsusha-shien-kyuufukin` | 年金生活者支援給付金 | 厚生労働省公式ページで制度概要、3種類の給付金、主な支給要件を確認。旧slug互換として追加。 |
+| `sakidori-mado-rinobe` | 先進的窓リノベ2026事業 | 公式サイトで2026事業、1戸あたり最大100万円、2026年12月31日までの交付申請、予算上限到達時終了を確認。 |
+| `kyuutou-shouene-jigyou` | 給湯省エネ2026事業 | 2025事業の古い記載を現行2026事業へ置換。公式サイトで対象給湯器、2026年12月31日までの交付申請、予算上限到達時終了を確認。 |
+| `sumai-kyuufukin` | すまい給付金（申請受付終了） | 国土交通省公式ページで令和6年3月の申請受付終了を確認。期限切れとして通常一覧・sitemapから除外。 |
+| `kaigo-fukushi-shi-shugaku-shikin` | 介護福祉士修学資金等貸付制度 | 厚生労働省公式ページで、月額5万円以内、入学準備金20万円以内、就職準備金20万円以内、返還免除制度を確認。 |
+| `shougai-kiso-nenkin` | 障害基礎年金 | 日本年金機構公式ページで、受給要件、請求時期、令和8年4月分からの年金額（1級1,059,125円、2級847,300円）を確認。 |
+| `kyouiku-kunren-kyuufukin` | 教育訓練給付制度 | 厚生労働省公式ページで、一般・特定一般・専門実践の各教育訓練給付、専門実践の最大80%支給を確認。 |
+| `shoubyou-teatekin` | 傷病手当金 | 協会けんぽ公式ページで、支給要件、標準報酬日額の3分の2相当、通算1年6か月の支給期間、時効を確認。 |
+| `koutou-gakkou-shuuryou-teido-nintei-shiken-hiyou-josei` | ひとり親家庭学び直し支援事業 | こども家庭庁公式ページで、高卒認定講座の通学等最大30万円、通信制最大15万円、自治体実施制度であることを確認。 |
+| `shokugyou-kunren-ukekou-kyuufukin-kyuushokusha` | 職業訓練受講給付金（求職者支援制度） | 厚生労働省公式ページで、月額10万円、通所手当月上限42,500円、寄宿手当月10,700円を確認。旧slug互換として追加。 |
+| `kaigo-shokuinn-shoguu-kaizen-joseikin` | 介護職員等処遇改善加算 | 厚生労働省公式ページで、介護報酬加算制度であり個人向け助成金ではないこと、計画書・実績報告等の届出を確認。 |
+
+検証結果:
+
+| 項目 | 結果 |
+|---|---:|
+| 手動公式確認済み（通常公開） | 250 |
+| 公式リンクありだが手動公式確認前 | 0 |
+| 公式リンクなしの通常公開データ | 4,193 |
+| 期限切れとして通常一覧から除外 | 19 |
+| activeExpiredLeaks | 0 |
+| build | 813静的ページ |
+| リンク監査 | 1635件OK / broken 0 |
+
+生成HTML確認:
+
+- 通常公開10slug: 公式出典確認済み、確認日2026-06-26、公式情報リンクあり、sitemap掲載。
+- `sumai-kyuufukin`: 期限切れ説明、`noindex, follow`、sitemap除外。

@@ -145,4 +145,11 @@
 - [x] `npm run audit:coverage`（期限切れ18件、手動公式確認済み240件、公式リンクあり未確認0件、failures 0）
 - [x] `npm run audit:deadlines`（期限切れ18件を通常一覧から除外、failures 0）
 - [x] `npm run audit:links` 1584件OK / broken 0
+- [x] 全国・国制度11件を公式確認済みデータで追加・置換（年金生活者支援給付金の旧slug互換、先進的窓リノベ2026、給湯省エネ2026、介護福祉士修学資金等貸付、障害基礎年金、教育訓練給付制度、傷病手当金、ひとり親家庭学び直し支援、職業訓練受講給付金の互換slug、介護職員等処遇改善加算、すまい給付金受付終了）
+- [x] 追加後の `npx eslint src/data/grants/verified-national-misc-2026.ts src/lib/grants.ts`（エラー0）
+- [x] 追加後の `npm run lint`（既存警告5件、エラー0）
+- [x] 追加後の `npm run build`（813静的ページ）
+- [x] `npm run audit:coverage`（期限切れ19件、手動公式確認済み250件、公式リンクあり未確認0件、failures 0）
+- [x] `npm run audit:deadlines`（期限切れ19件を通常一覧から除外、failures 0）
+- [x] `npm run audit:links` 1635件OK / broken 0
 - [ ] 全国網羅の次段階: 公式確認済みデータを都道府県・市区町村単位で追加し、未確認LLM生成データを順次置換する
