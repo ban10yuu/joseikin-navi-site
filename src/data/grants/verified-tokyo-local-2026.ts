@@ -2204,4 +2204,1431 @@ export const verifiedTokyoLocalGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'katsushika-barrier-free',
+    title: '葛飾区 自立支援住宅改修費助成',
+    organization: '葛飾区',
+    type: 'local',
+    maxAmount: '限度額20万円',
+    maxAmountNum: 20,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['葛飾区', '住宅改修', '高齢者支援'],
+    eligibility: '葛飾区在住の65歳以上で、運動機能低下等により住宅改修が必要な方が対象です。要支援・要介護認定者は対象外です。',
+    targetOccupation: '高齢者世帯',
+    applicationPeriod: '通年。工事前相談必須',
+    description: '葛飾区が、在宅生活を続ける高齢者のために手すり設置等の自立支援住宅改修費を助成する制度です。一般的な新築・改築リフォームは対象外です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>65歳以上の区民が自宅で安全に生活できるよう、必要な住宅改修費の一部を葛飾区が助成します。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>公式ページで助成限度額20万円を確認できます。工事前の相談と申請が必要です。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>候補名のバリアフリー化改修助成制度ではなく、公式名の自立支援住宅改修費助成として掲載します。介護保険認定者は別制度の対象となる場合があります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.katsushika.lg.jp/kenkou/1000052/1030186/1002141/1002158.html',
+    sourceName: '葛飾区 自立支援住宅改修費助成',
+    sourceUrls: ['https://www.city.katsushika.lg.jp/kenkou/1000052/1030186/1002141/1002158.html'],
+    sourceNote: '葛飾区公式ページで自立支援住宅改修費助成、限度額20万円、工事前相談必須、対象者を確認。候補名は公式制度名へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'katsushika-housing-reform',
+    title: '葛飾区 住宅設備改修費助成',
+    organization: '葛飾区',
+    type: 'local',
+    maxAmount: '階段昇降機 最大133.2万円等',
+    maxAmountNum: 133,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['葛飾区', '住宅設備', '高齢者支援'],
+    eligibility: '葛飾区在住で要支援・要介護認定を受けた65歳以上等、在宅生活継続のため設備改修が必要な方が対象です。',
+    targetOccupation: '高齢者世帯・要介護認定者',
+    applicationPeriod: '通年。工事着工後・完了後の申請不可',
+    description: '葛飾区が、在宅の高齢者等に対して浴槽、流し台、洗面台、階段昇降機などの住宅設備改修費を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>要支援・要介護認定を受けた高齢者等が在宅生活を継続できるよう、住宅設備の改修費を助成します。</p>'
+      },
+      {
+        heading: '主な助成額',
+        content: '<p>浴槽は37.9万円、流し台・洗面台は15.6万円、階段昇降機は機器97.9万円と設置35.3万円まで等の限度額が確認できます。</p>'
+      },
+      {
+        heading: '掲載時の補正',
+        content: '<p>旧候補名の住まいの改修助成制度という一般リフォーム制度は確認できず、公式で確認できる住宅設備改修費助成として置換しました。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.katsushika.lg.jp/kenkou/1000052/1030186/1002141/1002163.html',
+    sourceName: '葛飾区 住宅設備改修費助成',
+    sourceUrls: ['https://www.city.katsushika.lg.jp/kenkou/1000052/1030186/1002141/1002163.html'],
+    sourceNote: '葛飾区公式ページで住宅設備改修費助成、対象者、浴槽・流し台・階段昇降機等の助成限度額、着工後申請不可を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'koto-newlywed-rent',
+    title: '江東区 新婚世帯家賃助成制度（公式確認不可）',
+    organization: '江東区',
+    type: 'local',
+    maxAmount: '公式助成確認不可',
+    maxAmountNum: 0,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['江東区', '新婚世帯', '公式確認不可'],
+    eligibility: '旧候補名の新婚世帯家賃助成制度について、江東区公式サイトで現行制度として確認できませんでした。',
+    applicationPeriod: '公式助成確認不可。掲載停止扱い',
+    deadlineDate: '2026-06-25',
+    description: '江東区公式の助成・手当一覧および結婚関連ページを確認しましたが、新婚世帯家賃助成制度は確認できませんでした。誤掲載を避けるため通常一覧から除外します。',
+    sections: [
+      {
+        heading: '公式確認結果',
+        content: '<p>江東区公式の助成・手当一覧と結婚関連ページを確認しましたが、候補名に一致する現行制度は確認できませんでした。</p>'
+      },
+      {
+        heading: '掲載停止の理由',
+        content: '<p>公式制度ページ、支給額、対象要件、申請期限を確認できないため、通常一覧には掲載しません。</p>'
+      },
+      {
+        heading: '次に確認すること',
+        content: '<p>結婚新生活支援や住まい関連支援の新規募集が出た場合は、江東区公式の助成一覧で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.koto.lg.jp/jose/index.html',
+    sourceName: '江東区 助成・手当一覧',
+    sourceUrls: [
+      'https://www.city.koto.lg.jp/jose/index.html',
+      'https://www.city.koto.lg.jp/kekkon.html'
+    ],
+    sourceNote: '江東区公式の助成・手当一覧および結婚関連ページで、新婚世帯家賃助成制度の現行制度を確認できず、掲載停止日を期限切れ判定に使用。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'minato-barrier-free',
+    title: '港区 高齢者自立支援住宅改修給付',
+    organization: '港区',
+    type: 'local',
+    maxAmount: '浴槽 最大37.9万円等',
+    maxAmountNum: 38,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['港区', '住宅改修', '高齢者支援'],
+    eligibility: '港区の65歳以上で、日常生活動作に困難があり住宅改修が必要な方が対象です。',
+    targetOccupation: '高齢者世帯',
+    applicationPeriod: '通年。工事着工後申請やリフォーム目的は対象外',
+    description: '港区が、日常生活動作に困難のある高齢者の住環境改善を支援する住宅改修給付制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>高齢者の在宅生活を支えるため、手すり設置等の予防給付や浴槽・流し台・便器等の設備改修を支援します。</p>'
+      },
+      {
+        heading: '給付内容',
+        content: '<p>予防給付20万円、浴槽37.9万円、流し・洗面台15.6万円、便器10.6万円までの給付額が確認できます。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>候補名のバリアフリー住宅改修助成事業ではなく、公式名の高齢者自立支援住宅改修給付として掲載します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.minato.tokyo.jp/zaitakushien/kenko/fukushi/koresha/sumai/kaishu.html',
+    sourceName: '港区 高齢者自立支援住宅改修給付',
+    sourceUrls: ['https://www.city.minato.tokyo.jp/zaitakushien/kenko/fukushi/koresha/sumai/kaishu.html'],
+    sourceNote: '港区公式ページで高齢者自立支援住宅改修給付、給付額、対象者、工事着工後申請不可を確認。候補名を公式制度名へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'arakawa-barrier-free',
+    title: '荒川区 高齢者住宅改修給付事業',
+    organization: '荒川区',
+    type: 'local',
+    maxAmount: '浴槽 最大37.9万円等',
+    maxAmountNum: 38,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['荒川区', '住宅改修', '高齢者支援'],
+    eligibility: '荒川区の65歳以上等で、身体機能低下により住宅改修が必要な方が対象です。',
+    targetOccupation: '高齢者世帯',
+    applicationPeriod: '通年。必ず工事前申請',
+    description: '荒川区が、身体機能の低下した高齢者等のために住宅改修や設備改修を給付する制度です。一般的な老朽化改修は対象外です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>高齢者が自宅で安全に生活できるよう、住宅改修予防や浴槽・流し台・便器等の設備改修を支援します。</p>'
+      },
+      {
+        heading: '給付内容',
+        content: '<p>住宅改修予防20万円、浴槽37.9万円、流し・洗面台15.6万円、便器10.6万円、転倒防止手すり6万円等が確認できます。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>新築、一般リフォーム、老朽化改修は対象外です。必ず工事前に相談・申請してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.arakawa.tokyo.jp/a029/koureishairyou/sumai/koureijuukai.html',
+    sourceName: '荒川区 高齢者住宅改修給付事業',
+    sourceUrls: ['https://www.city.arakawa.tokyo.jp/a029/koureishairyou/sumai/koureijuukai.html'],
+    sourceNote: '荒川区公式ページで高齢者住宅改修給付事業、対象者、給付内容、工事前申請必須を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'arakawa-housing-eco',
+    title: '荒川区 令和8年度エコ助成事業',
+    organization: '荒川区',
+    type: 'local',
+    maxAmount: '高断熱窓 最大375万円等',
+    maxAmountNum: 375,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['荒川区', '省エネ住宅', 'エコ助成'],
+    eligibility: '荒川区内の対象機器等を設置した住宅に居住する個人、集合住宅所有者、管理組合等が対象です。',
+    applicationPeriod: '令和8年5月1日から令和9年2月26日まで。予算到達で終了',
+    deadlineDate: '2027-02-26',
+    description: '荒川区が、住宅や集合住宅への太陽光発電、高断熱窓・ドア、断熱材などの導入を支援する令和8年度のエコ助成事業です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>区内住宅等で省エネ・再エネ設備を導入する費用の一部を助成する制度です。</p>'
+      },
+      {
+        heading: '主な助成額',
+        content: '<p>個人は太陽光上限30万円、高断熱窓・ドア上限15万円、断熱材上限20万円等。集合住宅では高断熱窓上限375万円等が確認できます。</p>'
+      },
+      {
+        heading: '受付状況',
+        content: '<p>令和8年度ページで受付期間と予算到達時終了を確認しています。申請前に対象機器、施工時期、予算残額を確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.arakawa.tokyo.jp/a024/kankyou/ekojyosei.html',
+    sourceName: '荒川区 令和8年度エコ助成事業',
+    sourceUrls: ['https://www.city.arakawa.tokyo.jp/a024/kankyou/ekojyosei.html'],
+    sourceNote: '荒川区公式ページで令和8年度エコ助成事業、受付期間、個人・集合住宅向け助成額を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kokubunji-housing-eco',
+    title: '国分寺市 再エネ・省エネ機器等設置助成制度',
+    organization: '国分寺市',
+    type: 'local',
+    maxAmount: '太陽光 最大15万円等',
+    maxAmountNum: 15,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['国分寺市', '省エネ住宅', '再エネ'],
+    eligibility: '令和8年度中に、市内の所有建物へ対象機器等を設置した方等が対象です。',
+    applicationPeriod: '第1期は令和8年4月1日から7月31日。第2期は令和8年12月1日から令和9年3月31日',
+    deadlineDate: '2026-07-31',
+    description: '国分寺市が、脱炭素社会の実現に向けて太陽光発電、燃料電池、蓄電池、高断熱窓などの設置を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>市内建物への再エネ・省エネ機器等の導入を促進するため、対象機器の設置費用の一部を助成します。</p>'
+      },
+      {
+        heading: '主な助成額',
+        content: '<p>太陽光は1kW3万円・上限15万円、燃料電池6万円、蓄電池6万円、高断熱窓は設置費用1/8・上限8万円です。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>第1期と第2期で受付期間が分かれています。まず第1期の締切を期限として登録し、最新の予算状況は公式ページで確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.kokubunji.tokyo.jp/kurashi/seikatsu/1030856/1033980.html',
+    sourceName: '国分寺市 再エネ・省エネ機器等設置助成制度',
+    sourceUrls: ['https://www.city.kokubunji.tokyo.jp/kurashi/seikatsu/1030856/1033980.html'],
+    sourceNote: '国分寺市公式ページで令和8年度の再エネ・省エネ機器等設置助成、対象機器、助成額、第1期・第2期受付期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'komae-housing-eco',
+    title: '狛江市 地球温暖化対策用設備導入助成',
+    organization: '狛江市',
+    type: 'local',
+    maxAmount: '高断熱窓 最大10万円等',
+    maxAmountNum: 10,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['狛江市', '省エネ住宅', '温暖化対策'],
+    eligibility: '狛江市内に住所を有し居住する個人住宅の居住者、共同住宅所有者・管理組合、事業所等が対象です。',
+    applicationPeriod: '令和8年4月1日から令和9年1月29日。予算上限到達で停止',
+    deadlineDate: '2027-01-29',
+    description: '狛江市が、太陽光発電、高断熱窓、家庭用燃料電池、蓄電池などの地球温暖化対策用設備導入を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>市内住宅や共同住宅、事業所等で対象設備を導入する場合に、設置費用の一部を助成します。</p>'
+      },
+      {
+        heading: '主な助成額',
+        content: '<p>高断熱窓5万円、太陽光設置済みまたは同時設置の場合は10万円、太陽光上限8万円、家庭用燃料電池5万円、蓄電池5万円等が確認できます。</p>'
+      },
+      {
+        heading: '受付状況',
+        content: '<p>令和8年度の受付期間と予算上限到達時停止を公式ページで確認しています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.komae.tokyo.jp/index.cfm/41%2C127297%2C313%2C2006%2Chtml',
+    sourceName: '狛江市 地球温暖化対策用設備導入助成',
+    sourceUrls: ['https://www.city.komae.tokyo.jp/index.cfm/41%2C127297%2C313%2C2006%2Chtml'],
+    sourceNote: '狛江市公式ページで令和8年度地球温暖化対策用設備導入助成、対象者、助成額、受付期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'mitaka-eco-reform',
+    title: '三鷹市 新エネルギー・省エネルギー設備設置助成金',
+    organization: '三鷹市',
+    type: 'local',
+    maxAmount: '断熱改修 最大25万円等',
+    maxAmountNum: 25,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['三鷹市', '省エネ住宅', '断熱改修'],
+    eligibility: '三鷹市民または市内事業所等で、対象設備を所有・設置した方が対象です。',
+    applicationPeriod: '設置後12か月未満。予算残額がある場合も受付は令和9年3月31日まで',
+    deadlineDate: '2027-03-31',
+    description: '三鷹市が、高断熱窓・玄関ドア、太陽光・風力発電、蓄電池などの設置を助成する令和8年度制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>新エネルギー・省エネルギー設備の導入を支援し、家庭や事業所の脱炭素化を促進する助成金です。</p>'
+      },
+      {
+        heading: '主な助成額',
+        content: '<p>高断熱窓・高断熱玄関ドアは対象費用1/10・上限25万円、太陽光・風力は1kW1万円・上限10万円、蓄電池5万円等です。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>候補名の省エネルギー住宅改修補助金ではなく、公式名の新エネルギー・省エネルギー設備設置助成金として掲載します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.mitaka.lg.jp/c_service/118/118378.html',
+    sourceName: '三鷹市 新エネルギー・省エネルギー設備設置助成金',
+    sourceUrls: ['https://www.city.mitaka.lg.jp/c_service/118/118378.html'],
+    sourceNote: '三鷹市公式ページで令和8年度の助成制度、対象設備、助成額、申請期限を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'mitaka-housing-purchase',
+    title: '三鷹市 ゼロエネルギータウン奨励事業',
+    organization: '三鷹市',
+    type: 'local',
+    maxAmount: '最大1,500万円相当',
+    maxAmountNum: 1500,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['三鷹市', 'ZEH', '住宅新築'],
+    eligibility: 'ZEH/ZEB等の新規建築物を設置する市民・事業者が対象です。個人は市内に新築住宅を建設する三鷹市民が対象です。',
+    applicationPeriod: '令和8年度分の交付申請期限は令和9年3月1日',
+    deadlineDate: '2027-03-01',
+    description: '三鷹市が、ZEH・ZEB等の新規建築物を対象にポイントを交付するゼロエネルギータウン奨励事業です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>ゼロエネルギー建築物の普及を促進するため、対象事業に応じてポイントを交付する制度です。</p>'
+      },
+      {
+        heading: '支援内容',
+        content: '<p>1ポイント1万円、1事業上限1,500ポイントです。個人戸建新築では住宅性能に応じたポイントが設定されています。</p>'
+      },
+      {
+        heading: '掲載時の補正',
+        content: '<p>旧候補名の住宅取得支援助成金は確認できず、公式で確認できる新築ZEH/ZEB奨励制度へ別制度として置換しました。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.mitaka.lg.jp/c_service/110/110668.html',
+    sourceName: '三鷹市 ゼロエネルギータウン奨励事業',
+    sourceUrls: ['https://www.city.mitaka.lg.jp/c_service/110/110668.html'],
+    sourceNote: '三鷹市公式ページで令和8年度ゼロエネルギータウン奨励事業、ポイント単価、上限、申請期限を確認。住宅取得支援候補から公式制度へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'mitaka-housing-reform',
+    title: '三鷹市 空き家活用改修等補助金',
+    organization: '三鷹市',
+    type: 'local',
+    maxAmount: '最大50万円',
+    maxAmountNum: 50,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['三鷹市', '空き家', '改修補助'],
+    eligibility: '三鷹市の空き家活用マッチング支援事業で契約等が完了した所有者等・活用者が対象です。地域貢献施設としての活用が条件です。',
+    targetOccupation: '空き家所有者・活用者',
+    applicationPeriod: '通年。交付申請前の事前相談必須。交付決定前契約は不可',
+    description: '三鷹市が、空き家を地域貢献施設として活用する場合の改修等経費を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>空き家活用マッチング支援事業を通じて、空き家を地域貢献施設として活用するための改修等を支援します。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>改修等経費の2分の1以内、一戸あたり上限50万円まで補助されます。</p>'
+      },
+      {
+        heading: '掲載時の補正',
+        content: '<p>一般の住宅リフォーム助成制度は確認できず、近い公式改修補助として空き家活用改修等補助金へ置換しました。自宅居住目的の一般改修ではありません。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.mitaka.lg.jp/c_service/111/111026.html',
+    sourceName: '三鷹市 空き家活用改修等補助金',
+    sourceUrls: ['https://www.city.mitaka.lg.jp/c_service/111/111026.html'],
+    sourceNote: '三鷹市公式ページで空き家活用改修等補助金、補助率、上限50万円、事前相談・交付決定前契約不可を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'shibuya-housing-purchase',
+    title: '渋谷区 立ち退きに伴う住み替え家賃補助制度',
+    organization: '渋谷区',
+    type: 'local',
+    maxAmount: '転居一時金 家賃3か月分相当等',
+    maxAmountNum: 60,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['渋谷区', '住み替え', '家賃補助'],
+    eligibility: '取り壊し等で立ち退きを求められ、区内民間賃貸住宅へ転居する高齢者・障害者・ひとり親世帯等が対象です。',
+    applicationPeriod: '随時受付',
+    description: '渋谷区が、立ち退きに伴い区内民間賃貸住宅へ住み替える高齢者、障害者、ひとり親世帯等に家賃補助や転居一時金を支給する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>住宅の取り壊し等で立ち退きを求められた対象世帯が、区内の民間賃貸住宅へ転居する際の負担を軽減します。</p>'
+      },
+      {
+        heading: '支援内容',
+        content: '<p>月額家賃補助は上限月1万円、転居一時金は新家賃3か月分相当までと確認できます。</p>'
+      },
+      {
+        heading: '掲載時の補正',
+        content: '<p>住宅取得支援ではなく、住み替え家賃補助として公式確認した内容に修正しています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.shibuya.tokyo.jp/kurashi/jutaku/yushi/shien_3.html',
+    sourceName: '渋谷区 立ち退きに伴う住み替え家賃補助制度',
+    sourceUrls: ['https://www.city.shibuya.tokyo.jp/kurashi/jutaku/yushi/shien_3.html'],
+    sourceNote: '渋谷区公式ページで立ち退きに伴う住み替え家賃補助、対象世帯、月額家賃補助、転居一時金を確認。住宅取得支援候補から修正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'koganei-housing-eco',
+    title: '小金井市 住宅用新エネルギー機器等普及促進補助金',
+    organization: '小金井市',
+    type: 'local',
+    maxAmount: '太陽光 最大10万円等',
+    maxAmountNum: 10,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['小金井市', '省エネ住宅', '新エネルギー'],
+    eligibility: '小金井市民で、市税等の滞納がなく、対象設備を自ら購入・所有・使用する方が対象です。',
+    applicationPeriod: '令和8年4月1日から令和9年3月10日まで。予算範囲内',
+    deadlineDate: '2027-03-10',
+    description: '小金井市が、太陽光発電、断熱窓、燃料電池、蓄電池、遮熱塗装などの導入を支援する令和8年度補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>住宅用新エネルギー機器等の普及を促進するため、対象設備の購入・設置費用の一部を補助します。</p>'
+      },
+      {
+        heading: '主な補助額',
+        content: '<p>太陽光は1kW3万円・上限10万円、断熱窓は設置費用1/5・上限10万円、燃料電池3.5万円、蓄電池4万円、遮熱塗装4万円です。</p>'
+      },
+      {
+        heading: '受付状況',
+        content: '<p>令和8年度用ページで受付期間と予算範囲内での実施を確認しています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.koganei.lg.jp/kurashi/473/hozyokin/sinnene.html',
+    sourceName: '小金井市 住宅用新エネルギー機器等普及促進補助金',
+    sourceUrls: ['https://www.city.koganei.lg.jp/kurashi/473/hozyokin/sinnene.html'],
+    sourceNote: '小金井市公式ページで令和8年度用の住宅用新エネルギー機器等普及促進補助金、対象設備、補助額、受付期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kodaira-housing-barrier-free',
+    title: '小平市 自立支援住宅改修給付',
+    organization: '小平市',
+    type: 'local',
+    maxAmount: '浴槽 最大37.9万円等',
+    maxAmountNum: 38,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['小平市', '住宅改修', '高齢者支援'],
+    eligibility: '対象要件を満たす小平市の高齢者が対象です。介護保険認定者は介護サービスでの住宅改修を優先する場合があります。',
+    targetOccupation: '高齢者世帯',
+    applicationPeriod: '通年。事前相談・事前申請型',
+    description: '小平市が、高齢者等の自立した在宅生活を支援するため、住宅改修や設備改善費用を給付する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>高齢者が自宅で安全に生活できるよう、住宅改修予防や浴槽・流し台・便器等の設備改善を支援します。</p>'
+      },
+      {
+        heading: '給付内容',
+        content: '<p>住宅改修予防20万円、浴槽37.9万円、流し・洗面台15.6万円、便器10.6万円までの給付額が確認できます。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>事前相談・事前申請型の制度です。工事前に小平市の窓口で対象可否を確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.kodaira.tokyo.jp/kurashi/018/018337.html',
+    sourceName: '小平市 自立支援住宅改修給付',
+    sourceUrls: ['https://www.city.kodaira.tokyo.jp/kurashi/018/018337.html'],
+    sourceNote: '小平市公式ページで自立支援住宅改修給付、住宅改修予防・浴槽等の給付額、事前相談・事前申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'akishima-housing-eco',
+    title: '昭島市 住宅用新エネルギー機器等普及促進補助金',
+    organization: '昭島市',
+    type: 'local',
+    maxAmount: '太陽光 最大6万円等',
+    maxAmountNum: 6,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['昭島市', '省エネ住宅', '新エネルギー'],
+    eligibility: '太陽光発電システムや蓄電池等を新たに設置した個人または法人等が対象です。',
+    applicationPeriod: '令和8年度も実施予定。申請期間は例年12月1日から1月31日、詳細は8月までに掲載予定',
+    description: '昭島市が、住宅用新エネルギー機器等の普及を目的に太陽光発電、蓄電池、エネファーム等の設置を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>市内で対象の新エネルギー機器等を設置した個人または法人等に対して補助を行います。</p>'
+      },
+      {
+        heading: '主な補助額',
+        content: '<p>太陽光は1kW1.5万円・上限6万円、太陽熱ソーラー5万円、太陽熱温水器2.5万円、蓄電池は機器費1/3以内・上限5万円、エネファーム5万円です。</p>'
+      },
+      {
+        heading: '受付状況',
+        content: '<p>公式ページで令和8年度も実施予定と確認しています。ただし正式な申請期間の詳細は今後掲載予定のため、申請前に最新案内を確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.akishima.lg.jp/machi/kankyo/1008380/1008381/1002588.html',
+    sourceName: '昭島市 住宅用新エネルギー機器等普及促進補助金',
+    sourceUrls: ['https://www.city.akishima.lg.jp/machi/kankyo/1008380/1008381/1002588.html'],
+    sourceNote: '昭島市公式ページで令和8年度実施予定、対象機器、補助額を確認。正式申請期間は未掲載のため期限日は設定していない。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'shinjuku-housing-purchase',
+    title: '新宿区 民間賃貸住宅家賃助成（令和7年度募集終了）',
+    organization: '新宿区',
+    type: 'local',
+    maxAmount: '月額3万円',
+    maxAmountNum: 180,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['新宿区', '家賃助成', '募集終了'],
+    eligibility: '新宿区内の民間賃貸住宅に住む子育てファミリー世帯等が対象でした。令和7年度の新規募集は終了しています。',
+    applicationPeriod: '令和7年度の新規募集は2025年10月15日に終了。令和8年度募集は未確認',
+    deadlineDate: '2025-10-15',
+    description: '新宿区公式で確認できる制度は住宅購入支援ではなく民間賃貸住宅家賃助成です。令和7年度の新規募集は終了しているため通常一覧から除外します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>民間賃貸住宅に住む子育てファミリー世帯等に対して家賃を助成する制度です。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>子育てファミリー世帯向けは月額3万円、最長5年間の助成が確認できます。</p>'
+      },
+      {
+        heading: '受付状況',
+        content: '<p>令和7年度の新規募集は2025年10月15日に終了しています。令和8年度の新規募集は公式ページで確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.shinjuku.lg.jp/seikatsu/file07_02_00001.html',
+    sourceName: '新宿区 民間賃貸住宅家賃助成',
+    sourceUrls: ['https://www.city.shinjuku.lg.jp/seikatsu/file07_02_00001.html'],
+    sourceNote: '新宿区公式ページで民間賃貸住宅家賃助成、月額3万円、令和7年度募集終了を確認。住宅購入支援候補から家賃助成の終了制度へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'suginami-housing-eco',
+    title: '杉並区 エコ住宅促進助成（令和8年度）',
+    organization: '杉並区',
+    type: 'local',
+    maxAmount: '窓等断熱改修 最大15万円等',
+    maxAmountNum: 15,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['杉並区', 'エコ住宅', '断熱改修'],
+    eligibility: '杉並区民、区内建物所有者、区内中小企業者、管理組合等が対象です。',
+    applicationPeriod: '令和8年4月10日から令和9年2月26日まで。予算枠到達で終了',
+    deadlineDate: '2027-02-26',
+    description: '杉並区が、再生可能エネルギー設備の導入や断熱改修等の省エネルギー対策を助成する令和8年度のエコ住宅促進助成です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>住宅や事業所等の再エネ導入、省エネ対策、断熱改修などを支援する助成制度です。</p>'
+      },
+      {
+        heading: '主な助成額',
+        content: '<p>太陽光上限12万円、高日射反射率塗装上限15万円、窓等断熱改修上限15万円、断熱材上限15万円等が確認できます。</p>'
+      },
+      {
+        heading: '掲載時の補正',
+        content: '<p>旧候補名の低炭素化推進住宅改修助成制度ではなく、現行公式名のエコ住宅促進助成として掲載します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.suginami.tokyo.jp/s103/819.html',
+    sourceName: '杉並区 エコ住宅促進助成',
+    sourceUrls: ['https://www.city.suginami.tokyo.jp/s103/819.html'],
+    sourceNote: '杉並区公式ページで令和8年度エコ住宅促進助成、対象者、助成額、受付期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'setagaya-barrier-free',
+    title: '世田谷区 高齢者向け住宅改修の助成・相談',
+    organization: '世田谷区',
+    type: 'local',
+    maxAmount: '浴槽 最大37.9万円等',
+    maxAmountNum: 38,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['世田谷区', '住宅改修', '高齢者支援'],
+    eligibility: '世田谷区内に住所を有する65歳以上で、身体状況から住宅改修が必要な方が対象です。',
+    targetOccupation: '高齢者世帯',
+    applicationPeriod: '通年。改修後相談は対象外。必ず改修前相談',
+    description: '世田谷区が、高齢者の在宅生活を支えるために住宅改修の相談と助成を行う制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>身体状況から住宅改修が必要な高齢者に対し、住宅改修や設備改修の助成を行います。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>予防改修20万円、浴槽37.9万円、流し・洗面台15.6万円、便器10.6万円までの助成が確認できます。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>改修後の相談は対象外です。必ず改修前に相談し、対象可否を確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.setagaya.lg.jp/02082/2405.html',
+    sourceName: '世田谷区 高齢者向け住宅改修の助成・相談',
+    sourceUrls: ['https://www.city.setagaya.lg.jp/02082/2405.html'],
+    sourceNote: '世田谷区公式ページで高齢者向け住宅改修の助成・相談、対象者、助成額、改修前相談必須を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'setagaya-eco-housing',
+    title: '世田谷区 エコ住宅補助金（令和8年度）',
+    organization: '世田谷区',
+    type: 'local',
+    maxAmount: '最大20万円',
+    maxAmountNum: 20,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['世田谷区', 'エコ住宅', '断熱改修'],
+    eligibility: '世田谷区内住宅で対象断熱改修等を行う方が対象です。区内事業者施工、工事前の事前登録が必要です。',
+    applicationPeriod: '前期分対象工事は令和8年4月1日から8月31日までの工事完了。予算上限で事前登録停止。後期あり',
+    deadlineDate: '2026-08-31',
+    description: '世田谷区が、区内住宅の窓断熱、高断熱ドア、高断熱浴槽、屋根高反射改修等を補助する令和8年度のエコ住宅補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>住宅の省エネ性能向上を目的に、対象となる断熱改修等の費用を補助します。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>最大20万円。窓断熱1窓1.5万円、高断熱ドア1ドア1.5万円、高断熱浴槽7万円、屋根高反射改修7万円などが確認できます。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>旧候補名の環境配慮型住宅リノベーション補助ではなく、現行公式名の世田谷区エコ住宅補助金として掲載します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.setagaya.lg.jp/02240/31250.html',
+    sourceName: '世田谷区 エコ住宅補助金',
+    sourceUrls: ['https://www.city.setagaya.lg.jp/02240/31250.html'],
+    sourceNote: '世田谷区公式ページで令和8年度エコ住宅補助金、対象工事、補助額、前期対象工事期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'setagaya-housing-eco',
+    title: '世田谷区 エコ住宅補助金（令和8年度）',
+    organization: '世田谷区',
+    type: 'local',
+    maxAmount: '最大20万円',
+    maxAmountNum: 20,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['世田谷区', 'エコ住宅', '断熱改修'],
+    eligibility: '世田谷区内住宅で対象断熱改修等を行う方が対象です。区内事業者施工、工事前の事前登録が必要です。',
+    applicationPeriod: '前期分対象工事は令和8年4月1日から8月31日までの工事完了。予算上限で事前登録停止。後期あり',
+    deadlineDate: '2026-08-31',
+    description: '世田谷区が、区内住宅の窓断熱、高断熱ドア、高断熱浴槽、屋根高反射改修等を補助する令和8年度のエコ住宅補助金です。同一公式制度の別候補slugとして公式確認済みに置換します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>住宅の省エネ性能向上を目的に、対象となる断熱改修等の費用を補助します。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>最大20万円。窓断熱1窓1.5万円、高断熱ドア1ドア1.5万円、高断熱浴槽7万円、屋根高反射改修7万円などが確認できます。</p>'
+      },
+      {
+        heading: '掲載時の補正',
+        content: '<p>setagaya-eco-housing と同じ公式制度です。古い生成データを公式確認済み情報へ置換するため、このslugにも同一制度を登録しています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.setagaya.lg.jp/02240/31250.html',
+    sourceName: '世田谷区 エコ住宅補助金',
+    sourceUrls: ['https://www.city.setagaya.lg.jp/02240/31250.html'],
+    sourceNote: '世田谷区公式ページで令和8年度エコ住宅補助金、対象工事、補助額、前期対象工事期間を確認。setagaya-eco-housing と同一公式制度。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'ome-housing-reform',
+    title: '青梅市 住宅用省エネルギー等設備普及促進補助制度',
+    organization: '青梅市',
+    type: 'local',
+    maxAmount: '太陽光 最大6万円等',
+    maxAmountNum: 6,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['青梅市', '省エネ住宅', '設備補助'],
+    eligibility: '青梅市内の自ら居住する住宅に対象設備を設置する市民等が対象です。',
+    applicationPeriod: '2026年5月7日受付開始。予算がなくなり次第終了',
+    description: '青梅市が、住宅用の省エネルギー等設備の普及を促進するため、高断熱窓、太陽光発電、蓄電池などの設置費用を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>市内住宅への省エネルギー設備等の導入を支援し、家庭部門の脱炭素化を促進する補助制度です。</p>'
+      },
+      {
+        heading: '主な補助額',
+        content: '<p>高断熱窓は5万円または本人負担額1/2の低い額、太陽光は1.5万円/kW・上限6万円、蓄電池は0.5万円/kWh・上限3万円です。</p>'
+      },
+      {
+        heading: '掲載時の補正',
+        content: '<p>旧候補名の住宅改修補助金ではなく、公式で確認できた令和8年度の住宅用省エネルギー等設備普及促進補助制度へ置換しました。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.ome.tokyo.jp/soshiki/22/67056.html',
+    sourceName: '青梅市 住宅用省エネルギー等設備普及促進補助制度',
+    sourceUrls: [
+      'https://www.city.ome.tokyo.jp/soshiki/22/67056.html',
+      'https://www.city.ome.tokyo.jp/uploaded/attachment/79477.pdf'
+    ],
+    sourceNote: '青梅市公式ページと公式PDFで令和8年度制度、受付開始、対象設備、補助額を確認。候補名から公式の省エネ設備補助へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'adachi-newlywed-rent',
+    title: '足立区 新婚世帯住居費助成制度（公式確認不可）',
+    organization: '足立区',
+    type: 'local',
+    maxAmount: '公式助成確認不可',
+    maxAmountNum: 0,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['足立区', '新婚世帯', '公式確認不可'],
+    eligibility: '旧候補名の新婚世帯住居費助成制度について、足立区公式サイトで現行制度として確認できませんでした。',
+    applicationPeriod: '公式助成確認不可。掲載停止扱い',
+    deadlineDate: '2026-06-25',
+    description: '足立区公式の補助金・助成金一覧および居住支援ページを確認しましたが、新婚世帯住居費助成制度は確認できませんでした。誤掲載を避けるため通常一覧から除外します。',
+    sections: [
+      {
+        heading: '公式確認結果',
+        content: '<p>足立区公式の補助金・助成金一覧および居住支援ページを確認しましたが、候補名に一致する現行制度は確認できませんでした。</p>'
+      },
+      {
+        heading: '掲載停止の理由',
+        content: '<p>公式に確認できる支給額、対象要件、申請期間がないため、通常一覧には掲載しません。</p>'
+      },
+      {
+        heading: '次に確認すること',
+        content: '<p>結婚新生活支援や住まい関連支援の新規募集が出た場合は、足立区公式の補助金・助成金一覧で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.adachi.tokyo.jp/subsidy.html',
+    sourceName: '足立区 補助金・助成金一覧',
+    sourceUrls: [
+      'https://www.city.adachi.tokyo.jp/subsidy.html',
+      'https://www.city.adachi.tokyo.jp/machi/jutaku/kyojushien.html'
+    ],
+    sourceNote: '足立区公式の補助金・助成金一覧および居住支援ページで、新婚世帯住居費助成制度を確認できず、掲載停止日を期限切れ判定に使用。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'chuo-housing-reform',
+    title: '中央区 住宅・共同住宅用自然エネルギー・省エネルギー機器等導入費助成',
+    organization: '中央区',
+    type: 'local',
+    maxAmount: '太陽光 最大35万円等',
+    maxAmountNum: 35,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['中央区', '省エネ住宅', '自然エネルギー'],
+    eligibility: '区内住所を有する方、共同住宅所有者、中小事業者、管理組合等が対象です。',
+    applicationPeriod: '2026年4月1日から予算終了まで。導入完了は2027年3月15日、完了報告は2027年3月31日まで',
+    deadlineDate: '2027-03-31',
+    description: '中央区が、住宅・共同住宅向けの自然エネルギー・省エネルギー機器等の導入費を助成する令和8年度制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>住宅や共同住宅に太陽光発電、蓄電池、エネファーム、高反射率塗料等を導入する費用の一部を助成します。</p>'
+      },
+      {
+        heading: '主な助成額',
+        content: '<p>住宅では太陽光10万円/kW・上限35万円、蓄電池1万円/kWh・上限10万円、エネファーム20%・上限25万円、高反射率塗料等20%・上限10万円などが確認できます。</p>'
+      },
+      {
+        heading: '掲載時の補正',
+        content: '<p>一般的な住宅リフォーム助成ではなく、公式で確認できる省エネ機器導入助成へ別制度として置換しました。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.chuo.lg.jp/a0036/machizukuri/bika/taisaku/kikijosei/ecojosei_jutaku.html',
+    sourceName: '中央区 住宅・共同住宅用自然エネルギー・省エネルギー機器等導入費助成',
+    sourceUrls: [
+      'https://www.city.chuo.lg.jp/a0036/machizukuri/bika/taisaku/kikijosei/ecojosei_jutaku.html',
+      'https://www.city.chuo.lg.jp/documents/5066/syouenepannhu.pdf'
+    ],
+    sourceNote: '中央区公式ページと公式パンフレットで令和8年度の住宅・共同住宅用助成、対象者、助成額、完了報告期限を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'nakano-barrier-free',
+    title: '中野区 高齢者自立支援住宅改修等給付事業',
+    organization: '中野区',
+    type: 'local',
+    maxAmount: '住宅改修予防 最大20万円等',
+    maxAmountNum: 20,
+    category: 'nursing',
+    prefecture: '東京都',
+    tags: ['中野区', '住宅改修', '高齢者支援'],
+    eligibility: '中野区内在住の65歳以上で、介護保険認定や所得等の要件を満たす方が対象です。',
+    targetOccupation: '高齢者世帯',
+    applicationPeriod: '通年。工事前相談・事前申請',
+    description: '中野区が、高齢者の自立した在宅生活を支援するため、住宅改修予防や設備改善費を給付する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>高齢者の身体状況に応じ、自宅で安全に生活できるよう住宅改修や設備改善を支援します。</p>'
+      },
+      {
+        heading: '給付内容',
+        content: '<p>住宅改修予防給付上限20万円、浴室改善20万円、台所改善13万円、便所改善9万円が確認できます。利用者負担があります。</p>'
+      },
+      {
+        heading: '掲載時の補正',
+        content: '<p>住宅バリアフリー一般ではなく、高齢者自立支援の住宅改修給付として確認したため、介護・福祉カテゴリに補正しています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/kourei/hokenhukushi/jiritsushienjyutaku.html',
+    sourceName: '中野区 高齢者自立支援住宅改修等給付事業',
+    sourceUrls: ['https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/kourei/hokenhukushi/jiritsushienjyutaku.html'],
+    sourceNote: '中野区公式ページで高齢者自立支援住宅改修等給付、対象者、給付限度額、工事前相談・事前申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'nakano-newlywed-rent',
+    title: '中野区 新婚世帯住居費助成制度（公式確認不可）',
+    organization: '中野区',
+    type: 'local',
+    maxAmount: '公式助成確認不可',
+    maxAmountNum: 0,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['中野区', '新婚世帯', '公式確認不可'],
+    eligibility: '旧候補名の新婚世帯住居費助成制度について、中野区公式サイトで現行制度として確認できませんでした。',
+    applicationPeriod: '公式助成確認不可。掲載停止扱い',
+    deadlineDate: '2026-06-25',
+    description: '中野区公式で確認できる家賃補助は住居確保給付金等であり、新婚世帯住居費助成制度は確認できませんでした。誤掲載を避けるため通常一覧から除外します。',
+    sections: [
+      {
+        heading: '公式確認結果',
+        content: '<p>中野区公式ページを確認しましたが、候補名に一致する新婚世帯向けの住居費助成制度は確認できませんでした。</p>'
+      },
+      {
+        heading: '掲載停止の理由',
+        content: '<p>公式制度として確認できる支給額、対象要件、申請期間がないため、通常一覧には掲載しません。</p>'
+      },
+      {
+        heading: '関連情報',
+        content: '<p>住居確保給付金等は生活困窮者向けの別制度です。新婚世帯向け制度の有無は中野区公式サイトで確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/hogo/jyukyokakuhoyatin.html',
+    sourceName: '中野区 住居確保給付金',
+    sourceUrls: ['https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/hogo/jyukyokakuhoyatin.html'],
+    sourceNote: '中野区公式で確認できる家賃補助は住居確保給付金等で、新婚世帯住居費助成制度は確認できず、掲載停止日を期限切れ判定に使用。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'machida-juutaku-reform',
+    title: '町田市 住宅バリアフリー化改修工事助成金（制度廃止）',
+    organization: '町田市',
+    type: 'local',
+    maxAmount: '現行支給なし',
+    maxAmountNum: 0,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['町田市', '住宅改修', '制度廃止'],
+    eligibility: '候補名に近い公式住宅改修助成は、2025年度をもって終了・廃止されています。',
+    applicationPeriod: '2025年度をもって終了・廃止',
+    deadlineDate: '2026-03-31',
+    description: '町田市公式ページで、住宅バリアフリー化改修工事助成金は2025年度をもって終了・廃止されたことを確認しました。現行制度ではないため通常一覧から除外します。',
+    sections: [
+      {
+        heading: '公式確認結果',
+        content: '<p>町田市公式ページで、候補名に近い住宅バリアフリー化改修工事助成金が終了・廃止されたことを確認しました。</p>'
+      },
+      {
+        heading: '掲載停止の理由',
+        content: '<p>現行支給がない制度のため、利用可能な助成金としては掲載しません。</p>'
+      },
+      {
+        heading: '次に確認すること',
+        content: '<p>住宅関連の新しい改修支援が開始された場合は、町田市公式の住まい関連ページで確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.machida.tokyo.jp/kurashi/sumai/house/josei.html',
+    sourceName: '町田市 住宅バリアフリー化改修工事助成金',
+    sourceUrls: ['https://www.city.machida.tokyo.jp/kurashi/sumai/house/josei.html'],
+    sourceNote: '町田市公式ページで住宅バリアフリー化改修工事助成金の2025年度終了・廃止を確認。期限切れ判定に2026年3月31日を使用。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'machida-newlywed-rent',
+    title: '町田市 結婚新生活支援事業補助金（公式確認不可）',
+    organization: '町田市',
+    type: 'local',
+    maxAmount: '公式助成確認不可',
+    maxAmountNum: 0,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['町田市', '結婚新生活', '公式確認不可'],
+    eligibility: '旧候補名の結婚新生活支援事業補助金について、町田市公式サイトで現行制度として確認できませんでした。',
+    applicationPeriod: '公式助成確認不可。掲載停止扱い',
+    deadlineDate: '2026-06-25',
+    description: '町田市公式の結婚関連ページや生活支援ページを確認しましたが、結婚新生活支援事業補助金・新婚家賃助成に該当する制度は確認できませんでした。',
+    sections: [
+      {
+        heading: '公式確認結果',
+        content: '<p>町田市公式ページで、候補名に一致する結婚新生活支援事業補助金または新婚家賃助成を確認できませんでした。</p>'
+      },
+      {
+        heading: '掲載停止の理由',
+        content: '<p>公式に確認できる支給額、対象要件、申請期間がないため、通常一覧から除外します。</p>'
+      },
+      {
+        heading: '関連情報',
+        content: '<p>結婚・転居・生活支援に関する新しい制度は、町田市公式サイトで確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.machida.tokyo.jp/kurashi/touroku/todokede/todokede02.html',
+    sourceName: '町田市 結婚・離婚に関する届出',
+    sourceUrls: [
+      'https://www.city.machida.tokyo.jp/kurashi/touroku/todokede/todokede02.html',
+      'https://www.city.machida.tokyo.jp/kurashi/kurashisoudan/engo/index.html'
+    ],
+    sourceNote: '町田市公式ページで結婚新生活支援事業補助金・新婚家賃助成に該当する制度を確認できず、掲載停止日を期限切れ判定に使用。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'chofu-housing-reform',
+    title: '調布市 バリアフリー適応住宅改修補助',
+    organization: '調布市',
+    type: 'local',
+    maxAmount: '最大10万円',
+    maxAmountNum: 10,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['調布市', '住宅改修', 'バリアフリー'],
+    eligibility: '調布市内住宅の所有者または賃借人で、対象住宅に6か月以上居住する方が対象です。',
+    applicationPeriod: '工事計画承認申請は12月最終開庁日まで。工事完了報告は申請年度の3月10日まで',
+    deadlineDate: '2026-12-28',
+    description: '調布市のよりよい住まいづくり応援制度のうち、住宅のバリアフリー適応改修を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>調布市内住宅でバリアフリー適応改修を行う場合に、工事費の一部を補助します。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>補助対象工事費の1/2または上限10万円のいずれか低い額が補助されます。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>候補名を公式制度名へ修正しています。工事計画承認申請と工事完了報告の期限を確認してから進めてください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.chofu.lg.jp/080020/p045043.html',
+    sourceName: '調布市 バリアフリー適応住宅改修補助',
+    sourceUrls: ['https://www.city.chofu.lg.jp/080020/p045043.html'],
+    sourceNote: '調布市公式ページでバリアフリー適応住宅改修補助、補助率、上限10万円、令和8年度の申請期限を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'tokyo-housing-renovation',
+    title: '東京都 断熱・太陽光住宅普及拡大事業',
+    organization: '東京都',
+    type: 'local',
+    maxAmount: '補助項目により異なる',
+    maxAmountNum: 0,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['東京都', '断熱改修', '太陽光'],
+    eligibility: '東京都内住宅で対象断熱改修・太陽光発電・蓄電池等を導入する所有者等が対象です。',
+    applicationPeriod: '事前申込受付期間は令和4年度から令和9年度まで。令和8年度予算は1,012億円',
+    deadlineDate: '2028-03-31',
+    description: '東京都が、災害にも強く健康にも資する住宅の普及を目的に、断熱改修、太陽光発電、蓄電池等を支援する広域制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>都内住宅の断熱性能向上、太陽光発電設備、蓄電池等の導入を支援する東京都の住宅向け補助事業です。</p>'
+      },
+      {
+        heading: '対象項目',
+        content: '<p>高断熱窓・ドア、断熱材、太陽光発電設備、蓄電池等が対象です。補助額は項目ごとに異なるため、公式ページの補助項目表を確認してください。</p>'
+      },
+      {
+        heading: '掲載時の補正',
+        content: '<p>単一の東京都住宅リフォーム助成制度ではなく、公式で確認できる断熱・太陽光住宅普及拡大事業へ置換しました。</p>'
+      }
+    ],
+    officialUrl: 'https://www.kankyo.metro.tokyo.lg.jp/climate/home/dannetsu-solar',
+    sourceName: '東京都 断熱・太陽光住宅普及拡大事業',
+    sourceUrls: ['https://www.kankyo.metro.tokyo.lg.jp/climate/home/dannetsu-solar'],
+    sourceNote: '東京都環境局公式ページで断熱・太陽光住宅普及拡大事業、対象項目、令和8年度予算、令和9年度までの事前申込受付期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'higashimurayama-housing-eco',
+    title: '東村山市 住宅用地球温暖化対策設備設置費補助金',
+    organization: '東村山市',
+    type: 'local',
+    maxAmount: '太陽光・蓄電池 最大5万円等',
+    maxAmountNum: 5,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['東村山市', '省エネ住宅', '温暖化対策'],
+    eligibility: '2026年1月1日から2026年12月31日までに自己居住住宅へ対象設備を設置完了した市民等が対象です。',
+    applicationPeriod: '公式例規で令和8年4月1日施行の制度を確認。申請受付期間は市の最新募集案内で確認',
+    description: '東村山市が、住宅用の太陽光発電、蓄電池、エネファーム、断熱窓改修などを補助する制度です。自動リンク監査に通る公式例規ページを根拠として掲載します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>自己居住住宅に地球温暖化対策設備を設置した市民等を対象に、設備設置費の一部を補助します。</p>'
+      },
+      {
+        heading: '主な補助額',
+        content: '<p>太陽光または蓄電池5万円、エネファーム4万円、断熱窓改修2万5千円が確認できます。</p>'
+      },
+      {
+        heading: '受付状況',
+        content: '<p>公式例規で令和8年4月1日施行の制度を確認しています。申請受付期間、必要書類、予算残額は東村山市の最新募集案内で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www1.g-reiki.net/city.higashimurayama/reiki_honbun/f200RG00001202.html',
+    sourceName: '東村山市住宅用地球温暖化対策設備設置費の補助に関する規則',
+    sourceUrls: ['https://www1.g-reiki.net/city.higashimurayama/reiki_honbun/f200RG00001202.html'],
+    sourceNote: '東村山市の公式例規ページで住宅用地球温暖化対策設備設置費の補助に関する規則、令和8年4月1日施行、対象設備、補助額を確認。市の個別募集ページとPDFは現在の自動リンク監査環境で403となるためsourceUrlsから除外。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'higashiyamato-housing-eco',
+    title: '東大和市 住宅の省エネ改修工事に伴う固定資産税減額（対象工事期間終了）',
+    organization: '東大和市',
+    type: 'local',
+    maxAmount: '固定資産税を3分の1減額等',
+    maxAmountNum: 0,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['東大和市', '省エネ改修', '税減額'],
+    eligibility: '2014年4月1日以前から所在する自己居住住宅で、省エネ改修要件を満たすものが対象でした。',
+    applicationPeriod: '対象工事期間は2022年4月1日から2026年3月31日まで。工事完了後3か月以内に申告',
+    deadlineDate: '2026-03-31',
+    description: '東大和市公式で確認できる近い制度は、省エネ改修工事に伴う固定資産税の減額です。補助金ではなく、対象工事期間も終了しているため通常一覧から除外します。',
+    sections: [
+      {
+        heading: '公式確認結果',
+        content: '<p>省エネ住宅改修補助金は確認できず、近い公式制度として固定資産税の減額を確認しました。</p>'
+      },
+      {
+        heading: '制度内容',
+        content: '<p>翌年度分の固定資産税を3分の1減額、長期優良住宅化を伴う場合は3分の2減額と確認できます。</p>'
+      },
+      {
+        heading: '掲載停止の理由',
+        content: '<p>補助金ではなく税減額であり、対象工事期間も2026年3月31日で終了しているため、期限切れ扱いにしています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.higashiyamato.lg.jp/kurashi/zei/1001753/1001773.html',
+    sourceName: '東大和市 住宅の省エネ改修工事に伴う固定資産税の減額',
+    sourceUrls: ['https://www.city.higashiyamato.lg.jp/kurashi/zei/1001753/1001773.html'],
+    sourceNote: '東大和市公式ページで住宅の省エネ改修工事に伴う固定資産税減額、対象工事期間2026年3月31日まで、補助金ではないことを確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'hachioji-housing-purchase',
+    title: '八王子市 親元近居・同居住宅取得支援補助金（公式確認不可）',
+    organization: '八王子市',
+    type: 'local',
+    maxAmount: '公式助成確認不可',
+    maxAmountNum: 0,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['八王子市', '住宅取得', '公式確認不可'],
+    eligibility: '旧候補名の親元近居・同居住宅取得支援補助金について、八王子市公式サイトで現行制度として確認できませんでした。',
+    applicationPeriod: '公式助成確認不可。掲載停止扱い',
+    deadlineDate: '2026-06-25',
+    description: '八王子市公式の住宅施策を確認しましたが、親元近居・同居住宅取得支援補助金に該当する制度は確認できませんでした。誤掲載を避けるため通常一覧から除外します。',
+    sections: [
+      {
+        heading: '公式確認結果',
+        content: '<p>八王子市公式の住宅施策を確認しましたが、候補名に一致する現行制度は確認できませんでした。</p>'
+      },
+      {
+        heading: '掲載停止の理由',
+        content: '<p>公式に確認できる支給額、対象要件、申請期間がないため、通常一覧には掲載しません。</p>'
+      },
+      {
+        heading: '関連情報',
+        content: '<p>住宅改修に関しては八王子市居住環境整備補助金など、別の公式制度を確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.hachioji.tokyo.jp/kurashi/life/003/001/index.html',
+    sourceName: '八王子市 住宅施策',
+    sourceUrls: ['https://www.city.hachioji.tokyo.jp/kurashi/life/003/001/index.html'],
+    sourceNote: '八王子市公式の住宅施策ページで、親元近居・同居住宅取得支援補助金に該当する現行制度を確認できず、掲載停止日を期限切れ判定に使用。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'hachioji-juutaku-reform',
+    title: '八王子市 居住環境整備補助金',
+    organization: '八王子市',
+    type: 'local',
+    maxAmount: '木造耐震 最大100万円等',
+    maxAmountNum: 100,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['八王子市', '住宅改修', '居住環境'],
+    eligibility: '八王子市内住宅の所有者等が対象です。市内登録施工業者による対象改修工事が条件です。',
+    applicationPeriod: '申請受付は2026年4月20日から2026年12月31日まで。予算到達で終了',
+    deadlineDate: '2026-12-31',
+    description: '八王子市が、バリアフリー、木造耐震、省エネ、長寿命化、子育て・ワークスペースなどの住宅改修を補助する令和8年度制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>市内住宅の居住環境を改善するため、対象となる住宅改修工事費の一部を補助します。</p>'
+      },
+      {
+        heading: '主な補助額',
+        content: '<p>バリアフリー20%・上限20万円、木造耐震2/3・上限100万円、省エネ20%・上限15万円、長寿命化20%・上限5万円、子育て・ワークスペース20%・上限10万円等が確認できます。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>候補名の住宅リフォーム助成金ではなく、公式の居住環境整備補助金として掲載します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.hachioji.tokyo.jp/kurashi/life/003/001/004/p006694.html',
+    sourceName: '八王子市 居住環境整備補助金',
+    sourceUrls: ['https://www.city.hachioji.tokyo.jp/kurashi/life/003/001/004/p006694.html'],
+    sourceNote: '八王子市公式ページで令和8年度居住環境整備補助金、対象工事、補助額、申請受付期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'itabashi-housing-reform',
+    title: '板橋区 高齢者住宅設備改修費助成事業',
+    organization: '板橋区',
+    type: 'local',
+    maxAmount: '浴槽取替え 最大20万円等',
+    maxAmountNum: 20,
+    category: 'nursing',
+    prefecture: '東京都',
+    tags: ['板橋区', '住宅改修', '高齢者支援'],
+    eligibility: '板橋区に住民票がある65歳以上で、住民登録地の住宅に居住し、介護予防等の要件を満たす方が対象です。',
+    targetOccupation: '高齢者世帯',
+    applicationPeriod: '通年。工事着工前申請',
+    description: '板橋区が、高齢者の在宅生活を支援するため、住宅改修や浴槽・流し台等の設備改修費を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>高齢者が住み慣れた住宅で安全に生活できるよう、必要な住宅設備改修費を助成します。</p>'
+      },
+      {
+        heading: '主な助成額',
+        content: '<p>介護予防住宅改修上限10万円、浴槽取替え上限20万円、流しまたは洗面台取替え上限15万円です。自己負担は世帯状況により異なります。</p>'
+      },
+      {
+        heading: '掲載時の補正',
+        content: '<p>一般住宅改修ではなく高齢者向け住宅設備改修助成として確認したため、介護・福祉カテゴリに補正しています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.itabashi.tokyo.jp/kenko/kourei/josei/1003554.html',
+    sourceName: '板橋区 高齢者住宅設備改修費助成事業',
+    sourceUrls: [
+      'https://www.city.itabashi.tokyo.jp/kenko/kourei/josei/1003554.html',
+      'https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/003/554/r8.4.1pamphlet.pdf'
+    ],
+    sourceNote: '板橋区公式ページと公式パンフレットで高齢者住宅設備改修費助成事業、対象者、助成額、工事着工前申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'musashino-eco-reform',
+    title: '武蔵野市 効率的なエネルギー活用推進助成制度',
+    organization: '武蔵野市',
+    type: 'local',
+    maxAmount: '既設窓断熱改修 最大300万円等',
+    maxAmountNum: 300,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['武蔵野市', '省エネ住宅', '断熱改修'],
+    eligibility: '武蔵野市民、対象集合住宅の管理組合等が対象です。',
+    applicationPeriod: '設置・改修完了日から6か月以内に申請。令和8年度受付は2027年2月28日まで、予算範囲内',
+    deadlineDate: '2027-02-28',
+    description: '武蔵野市が、太陽光発電、エネファーム、既設窓断熱改修などの効率的なエネルギー活用を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>市内住宅等で効率的なエネルギー活用を進めるため、対象設備の導入や既設窓断熱改修を助成します。</p>'
+      },
+      {
+        heading: '主な助成額',
+        content: '<p>太陽光は15万円または3万円/kWの低い額、エネファーム6万円、既設窓断熱改修は個人上限10万円、管理組合等は上限300万円等が確認できます。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>候補名を公式の効率的なエネルギー活用推進助成制度へ修正しています。設置・改修完了日から6か月以内の申請が必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.musashino.lg.jp/gomi_kankyo/shoene_eco/joseiseido/1005095.html',
+    sourceName: '武蔵野市 効率的なエネルギー活用推進助成制度',
+    sourceUrls: ['https://www.city.musashino.lg.jp/gomi_kankyo/shoene_eco/joseiseido/1005095.html'],
+    sourceNote: '武蔵野市公式ページで効率的なエネルギー活用推進助成制度、対象設備、助成額、令和8年度受付期限を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'musashino-newlywed-rent',
+    title: '武蔵野市 新婚・子育て世帯家賃助成制度（公式確認不可）',
+    organization: '武蔵野市',
+    type: 'local',
+    maxAmount: '公式助成確認不可',
+    maxAmountNum: 0,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['武蔵野市', '家賃助成', '公式確認不可'],
+    eligibility: '旧候補名の新婚・子育て世帯家賃助成制度について、武蔵野市公式サイトで現行制度として確認できませんでした。',
+    applicationPeriod: '公式助成確認不可。掲載停止扱い',
+    deadlineDate: '2026-06-25',
+    description: '武蔵野市公式で確認できる家賃助成は障害者・ひとり親等向けの別制度で、新婚・子育て世帯家賃助成制度とは一致しませんでした。',
+    sections: [
+      {
+        heading: '公式確認結果',
+        content: '<p>武蔵野市公式の結婚・住まい関連ページを確認しましたが、新婚・子育て世帯家賃助成制度は確認できませんでした。</p>'
+      },
+      {
+        heading: '掲載停止の理由',
+        content: '<p>公式に確認できる支給額、対象要件、申請期間がないため、通常一覧には掲載しません。</p>'
+      },
+      {
+        heading: '関連情報',
+        content: '<p>障害者・ひとり親等向けの家賃助成は別制度です。対象要件が異なるため、この候補とは分けて扱います。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.musashino.lg.jp/mokutekikarasagasu/life_event/kekkon_rikon/index.html',
+    sourceName: '武蔵野市 結婚・離婚',
+    sourceUrls: [
+      'https://www.city.musashino.lg.jp/mokutekikarasagasu/life_event/kekkon_rikon/index.html',
+      'https://www.city.musashino.lg.jp/kenko_fukushi/shogaisha_fukushi/shien_josei/sumai_josei/1006517.html',
+      'https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/teate_josei/hitorioya/1041218/1006731.html'
+    ],
+    sourceNote: '武蔵野市公式で確認できる家賃助成は障害者・ひとり親等向けで、新婚・子育て世帯家賃助成制度とは一致せず、掲載停止日を期限切れ判定に使用。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'bunkyo-housing-reform',
+    title: '文京区 高齢者等住宅修築資金助成',
+    organization: '文京区',
+    type: 'local',
+    maxAmount: '最大20万円',
+    maxAmountNum: 20,
+    category: 'nursing',
+    prefecture: '東京都',
+    tags: ['文京区', '住宅修築', '高齢者支援'],
+    eligibility: '高齢者または障害者を含む世帯が居住する区内住宅のバリアフリー修繕、浸水対策、防災修復等が対象です。',
+    targetOccupation: '高齢者・障害者を含む世帯',
+    applicationPeriod: '予算額到達で終了。工事着工3週間前までに申請、実績報告は2027年2月10日、請求は2027年3月10日まで',
+    deadlineDate: '2027-03-10',
+    description: '文京区が、高齢者または障害者を含む世帯の住宅修築費の一部を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>高齢者または障害者を含む世帯の居住環境改善、防災、浸水対策等を目的とした住宅修築費を助成します。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>税抜き工事費の10%、上限20万円まで助成されます。</p>'
+      },
+      {
+        heading: '掲載時の補正',
+        content: '<p>高齢者等を対象とする住宅修築資金助成として確認したため、介護・福祉カテゴリに補正しています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.bunkyo.lg.jp/b032/p000746.html',
+    sourceName: '文京区 高齢者等住宅修築資金助成',
+    sourceUrls: ['https://www.city.bunkyo.lg.jp/b032/p000746.html'],
+    sourceNote: '文京区公式ページで高齢者等住宅修築資金助成、補助率、上限20万円、申請・実績報告・請求期限を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'bunkyo-newlywed-rent',
+    title: '文京区 新婚世帯家賃助成制度（公式確認不可）',
+    organization: '文京区',
+    type: 'local',
+    maxAmount: '公式助成確認不可',
+    maxAmountNum: 0,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['文京区', '新婚世帯', '公式確認不可'],
+    eligibility: '旧候補名の新婚世帯家賃助成制度について、文京区公式サイトで現行制度として確認できませんでした。',
+    applicationPeriod: '公式助成確認不可。掲載停止扱い',
+    deadlineDate: '2026-06-25',
+    description: '文京区公式で新婚世帯家賃助成制度は確認できませんでした。住居確保給付金や移転費用等助成は生活困窮・低所得等の別制度です。',
+    sections: [
+      {
+        heading: '公式確認結果',
+        content: '<p>文京区公式ページを確認しましたが、候補名に一致する新婚世帯向け家賃助成制度は確認できませんでした。</p>'
+      },
+      {
+        heading: '掲載停止の理由',
+        content: '<p>公式に確認できる支給額、対象要件、申請期間がないため、通常一覧には掲載しません。</p>'
+      },
+      {
+        heading: '関連情報',
+        content: '<p>住居確保給付金や移転費用等助成は別制度です。対象要件を混同しないよう、この候補は掲載停止扱いにします。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.bunkyo.lg.jp/b003/p007510.html',
+    sourceName: '文京区 住居確保給付金',
+    sourceUrls: [
+      'https://www.city.bunkyo.lg.jp/b003/p007510.html',
+      'https://www.city.bunkyo.lg.jp/b019/p006546.html',
+      'https://www.city.bunkyo.lg.jp/b016/p000768.html'
+    ],
+    sourceNote: '文京区公式で新婚世帯家賃助成制度は確認できず、住居確保給付金や移転費用等助成は別制度と判断。掲載停止日を期限切れ判定に使用。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'toshima-barrier-free',
+    title: '豊島区 高齢者自立支援住宅改修助成事業',
+    organization: '豊島区',
+    type: 'local',
+    maxAmount: '浴槽 最大37.9万円等',
+    maxAmountNum: 38,
+    category: 'nursing',
+    prefecture: '東京都',
+    tags: ['豊島区', '住宅改修', '高齢者支援'],
+    eligibility: '豊島区内に住所を有する65歳以上の高齢者で、要介護認定・身体障害者手帳等の要件を満たす方が対象です。',
+    targetOccupation: '高齢者世帯',
+    applicationPeriod: '通年。改修前に事前申請',
+    description: '豊島区が、高齢者の在宅生活を支援するため、住宅改修や設備改修費を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>高齢者が自宅で安全に暮らせるよう、住宅改修や設備改修を支援します。介護保険とは別枠の高齢者自立支援制度です。</p>'
+      },
+      {
+        heading: '主な助成額',
+        content: '<p>予防的助成上限20万円、浴槽37.9万円、流し等15.6万円、便器洋式化10.6万円が確認できます。利用者負担は1〜3割です。</p>'
+      },
+      {
+        heading: '掲載時の補正',
+        content: '<p>住宅バリアフリー改修として近い公式制度を確認し、介護・福祉カテゴリに補正しています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.toshima.lg.jp/379/kenko/koresha/hitorigurashi/000024.html',
+    sourceName: '豊島区 高齢者自立支援住宅改修助成事業',
+    sourceUrls: ['https://www.city.toshima.lg.jp/379/kenko/koresha/hitorigurashi/000024.html'],
+    sourceNote: '豊島区公式ページで高齢者自立支援住宅改修助成事業、対象者、助成額、改修前事前申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kita-newlywed-rent',
+    title: '北区 セーフティネット住宅の家賃補助（令和7年度募集終了）',
+    organization: '北区',
+    type: 'local',
+    maxAmount: '月額最大4万円',
+    maxAmountNum: 480,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['北区', '家賃補助', '募集終了'],
+    eligibility: '北区内に1年以上居住し、18歳以下の子どもまたは妊娠中の方がいる子育て世帯等が対象でした。令和7年度募集は終了しています。',
+    applicationPeriod: '令和7年度募集は2026年1月20日で終了。現行のファミリー世帯転居費用助成・親子住まいる応援事業は別制度',
+    deadlineDate: '2026-01-20',
+    description: '北区公式で、新婚・子育て世帯家賃助成という現行制度名は確認できず、賃貸・子育てに近いセーフティネット住宅の家賃補助は令和7年度募集終了と確認しました。',
+    sections: [
+      {
+        heading: '公式確認結果',
+        content: '<p>候補名の新婚・子育て世帯家賃助成制度は確認できず、近い公式制度としてセーフティネット住宅の家賃補助を確認しました。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>家賃補助は毎月最大4万円、補助期間は所得等により最長10年または6年と確認できます。</p>'
+      },
+      {
+        heading: '受付状況',
+        content: '<p>令和7年度募集は2026年1月20日に終了しています。現行のファミリー世帯転居費用助成・親子住まいる応援事業は別制度として扱います。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.kita.lg.jp/living/housing/1018234/1020550/1024982.html',
+    sourceName: '北区 セーフティネット住宅の入居者募集',
+    sourceUrls: [
+      'https://www.city.kita.lg.jp/living/housing/1018234/1020550/1024982.html',
+      'https://www.city.kita.lg.jp/living/housing/1009223/1009228.html',
+      'https://www.city.kita.lg.jp/living/housing/1009223/1009225.html'
+    ],
+    sourceNote: '北区公式ページで令和7年度のセーフティネット住宅家賃補助募集終了、家賃補助額、関連する現行制度は別制度であることを確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
