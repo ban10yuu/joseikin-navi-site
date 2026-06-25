@@ -43,22 +43,53 @@ export default function HomeGrantSearch({
 
   const visible = filtered.slice(0, 8);
   const hasFilter = Boolean(query || category || prefecture);
-  const moreHref = category
-    ? `/category/${category}/`
-    : prefecture
-      ? `/prefecture/${encodeURIComponent(prefecture)}/`
-      : '/grants/';
+  const moreParams = new URLSearchParams();
+  if (query.trim()) moreParams.set('q', query.trim());
+  if (category) moreParams.set('cat', category);
+  if (prefecture) moreParams.set('pref', prefecture);
+  const moreQuery = moreParams.toString();
+  const moreHref = moreQuery ? `/grants/?${moreQuery}` : '/grants/';
+
+  const clearFilters = () => {
+    setQuery('');
+    setCategory(null);
+    setPrefecture(null);
+  };
+
+  const activeFilters = [
+    query.trim()
+      ? {
+          key: 'query',
+          label: `キーワード: ${query.trim()}`,
+          onRemove: () => setQuery(''),
+        }
+      : null,
+    prefecture
+      ? {
+          key: 'prefecture',
+          label: `地域: ${prefecture}`,
+          onRemove: () => setPrefecture(null),
+        }
+      : null,
+    category
+      ? {
+          key: 'category',
+          label: `カテゴリ: ${CATEGORY_LABELS[category]}`,
+          onRemove: () => setCategory(null),
+        }
+      : null,
+  ].filter((item): item is { key: string; label: string; onRemove: () => void } => Boolean(item));
 
   return (
     <section aria-labelledby="home-search-title" className="home-search">
       <div className="home-search-toolbar">
         <div className="min-w-0">
-          <p className="text-xs font-bold text-accent-deep mb-1">まず検索</p>
+          <p className="home-search-eyebrow">公式情報から探す</p>
           <h2 id="home-search-title" className="text-xl sm:text-2xl font-black text-navy leading-tight">
-            条件に合う制度をその場で絞り込み
+            使える制度を絞り込む
           </h2>
         </div>
-        <div className="home-search-count">
+        <div className="home-search-count" aria-live="polite">
           <span className="block text-[11px] font-bold text-muted">公式リンクあり</span>
           <span className="text-2xl font-black text-navy">{filtered.length}</span>
           <span className="text-sm font-bold text-muted">件</span>
@@ -66,8 +97,8 @@ export default function HomeGrantSearch({
       </div>
 
       <div className="home-search-controls" role="search" aria-label="助成金検索">
-        <div>
-          <label htmlFor="home-grant-query" className="block text-sm font-bold text-navy mb-2">
+        <div className="home-search-field home-search-field-primary">
+          <label htmlFor="home-grant-query" className="home-search-label">
             制度名・対象者・キーワード
           </label>
           <input
@@ -77,11 +108,12 @@ export default function HomeGrantSearch({
             onChange={(event) => setQuery(event.target.value)}
             placeholder="例：こども医療費、創業、住宅、奨学金"
             className="home-search-input"
+            autoComplete="off"
           />
         </div>
 
-        <div>
-          <label htmlFor="home-grant-prefecture" className="block text-sm font-bold text-navy mb-2">
+        <div className="home-search-field">
+          <label htmlFor="home-grant-prefecture" className="home-search-label">
             地域
           </label>
           <select
@@ -100,7 +132,35 @@ export default function HomeGrantSearch({
         </div>
       </div>
 
+      <div className={`home-search-active ${activeFilters.length === 0 ? 'is-empty' : ''}`} aria-label="選択中の条件">
+        <span className="home-search-active-label">選択中</span>
+        {activeFilters.length > 0 ? (
+          activeFilters.map((item) => (
+            <button
+              key={item.key}
+              type="button"
+              className="home-search-active-chip"
+              onClick={item.onRemove}
+              aria-label={`${item.label}を解除`}
+            >
+              <span>{item.label}</span>
+              <span aria-hidden="true" className="home-search-active-remove">×</span>
+            </button>
+          ))
+        ) : (
+          <span className="home-search-active-default">全国・全カテゴリ・公式リンクあり</span>
+        )}
+      </div>
+
       <div className="home-search-category" aria-label="カテゴリで絞り込み">
+        <button
+          type="button"
+          aria-pressed={category === null}
+          onClick={() => setCategory(null)}
+          className={`filter-chip ${category === null ? 'active' : ''}`}
+        >
+          すべて
+        </button>
         {categories.map(([key, label]) => (
           <button
             key={key}
@@ -114,41 +174,37 @@ export default function HomeGrantSearch({
         ))}
       </div>
 
-      <div className="home-search-quick" aria-label="よく使われる検索">
-        <span className="text-xs font-bold text-muted">よく探される条件</span>
-        {quickSearches.map((item) => (
-          <button
-            key={item.label}
-            type="button"
-            className="home-search-quick-button"
-            onClick={() => {
-              setQuery(item.query);
-              setCategory(item.category || null);
-              setPrefecture(item.prefecture || null);
-            }}
-          >
-            {item.label}
-          </button>
-        ))}
-      </div>
+      {activeFilters.length === 0 && (
+        <div className="home-search-quick" aria-label="よく使われる検索">
+          <span className="text-xs font-bold text-muted">よく探される条件</span>
+          {quickSearches.map((item) => (
+            <button
+              key={item.label}
+              type="button"
+              className="home-search-quick-button"
+              onClick={() => {
+                setQuery(item.query);
+                setCategory(item.category || null);
+                setPrefecture(item.prefecture || null);
+              }}
+            >
+              {item.label}
+            </button>
+          ))}
+        </div>
+      )}
 
       <div className="home-search-results-header">
-        <p className="text-sm text-muted">
-          {hasFilter ? '絞り込み結果' : '公式リンク確認済みの主要制度'}を表示中
-          <span className="ml-2 font-bold text-navy">
-            {filtered.length}件
-          </span>
-          <span className="ml-1 text-faint">/ 公式リンクあり{officialLinkedCount}件・掲載総数{totalCount}件</span>
+        <p className="home-search-result-copy">
+          <span className="home-search-result-label">{hasFilter ? '該当候補' : '主要制度'}</span>
+          <span className="home-search-result-number">{filtered.length}</span>
+          <span className="home-search-result-meta">公式リンクあり{officialLinkedCount}件 / 掲載総数{totalCount}件</span>
         </p>
         {hasFilter && (
           <button
             type="button"
-            onClick={() => {
-              setQuery('');
-              setCategory(null);
-              setPrefecture(null);
-            }}
-            className="text-sm font-bold text-accent-deep underline underline-offset-4 hover:text-navy"
+            onClick={clearFilters}
+            className="home-search-clear"
           >
             条件をクリア
           </button>
@@ -156,7 +212,7 @@ export default function HomeGrantSearch({
       </div>
 
       {visible.length > 0 ? (
-        <div className="home-search-results">
+        <div className={`home-search-results ${visible.length === 1 ? 'is-single' : ''}`}>
           {visible.map((grant) => (
             <GrantCard key={grant.slug} grant={grant} />
           ))}
@@ -165,6 +221,9 @@ export default function HomeGrantSearch({
         <div className="home-search-empty" role="status">
           <p className="font-bold text-navy">該当する制度が見つかりませんでした</p>
           <p className="text-sm text-muted mt-1">キーワードを短くするか、地域・カテゴリを外して確認してください。</p>
+          <button type="button" className="home-search-empty-button" onClick={clearFilters}>
+            条件をリセット
+          </button>
         </div>
       )}
 

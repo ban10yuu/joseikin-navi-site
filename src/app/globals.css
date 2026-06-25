@@ -104,6 +104,16 @@ body {
   margin-bottom: 1rem;
 }
 
+.home-search-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  color: #c4581a;
+  font-size: 0.75rem;
+  font-weight: 800;
+  line-height: 1.4;
+}
+
 .home-search-count {
   min-width: 96px;
   text-align: right;
@@ -120,30 +130,43 @@ body {
   max-width: 100%;
   background: #ffffff;
   border: 2px solid #142d4f;
-  border-radius: 10px;
+  border-radius: 8px;
   padding: 1rem;
-  box-shadow: 0 4px 0 #142d4f;
+  box-shadow: 0 10px 24px rgb(20 45 79 / 0.08);
+}
+
+.home-search-field {
+  min-width: 0;
+}
+
+.home-search-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #142d4f;
+  font-size: 0.875rem;
+  font-weight: 800;
+  line-height: 1.35;
 }
 
 .home-search-input,
 .home-search-select {
   width: 100%;
-  min-height: 48px;
+  min-height: 52px;
   border: 1.5px solid #b9c3d4;
   border-radius: 8px;
   background: #f7f6f2;
   color: #1c2433;
-  font-size: 0.95rem;
+  font-size: 1rem;
   line-height: 1.5;
   transition: border-color 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
 }
 
 .home-search-input {
-  padding: 0.75rem 0.95rem;
+  padding: 0.8rem 1rem;
 }
 
 .home-search-select {
-  padding: 0.75rem 0.8rem;
+  padding: 0.8rem 0.85rem;
 }
 
 .home-search-input:focus,
@@ -152,6 +175,68 @@ body {
   border-color: #142d4f;
   background: #ffffff;
   box-shadow: 0 0 0 3px rgba(232, 112, 42, 0.22);
+}
+
+.home-search-active {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  margin-top: 0.75rem;
+}
+
+.home-search-active-label {
+  color: #54607a;
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.home-search-active-default {
+  color: #1f4571;
+  font-size: 0.8125rem;
+  font-weight: 700;
+}
+
+.home-search-active-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-height: 38px;
+  max-width: 100%;
+  border: 1.5px solid #142d4f;
+  border-radius: 9999px;
+  background: #edf1f7;
+  color: #142d4f;
+  cursor: pointer;
+  font-size: 0.8125rem;
+  font-weight: 800;
+  padding: 0.4rem 0.55rem 0.4rem 0.8rem;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.home-search-active-chip span:first-child {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.home-search-active-chip:hover {
+  background: #ffffff;
+}
+
+.home-search-active-remove {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 9999px;
+  background: #142d4f;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1;
 }
 
 .home-search-category,
@@ -163,7 +248,7 @@ body {
 }
 
 .home-search-category {
-  margin-top: 0.85rem;
+  margin-top: 0.35rem;
 }
 
 .home-search-quick {
@@ -199,10 +284,60 @@ body {
   margin: 1rem 0 0.75rem;
 }
 
+.home-search-result-copy {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem;
+  color: #54607a;
+  font-size: 0.875rem;
+}
+
+.home-search-result-label {
+  color: #1f4571;
+  font-size: 0.8125rem;
+  font-weight: 800;
+}
+
+.home-search-result-number {
+  color: #142d4f;
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.home-search-result-meta {
+  color: #8590a6;
+  font-size: 0.8125rem;
+}
+
+.home-search-clear {
+  min-height: 38px;
+  border: 1.5px solid #b9c3d4;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #1f4571;
+  cursor: pointer;
+  font-size: 0.8125rem;
+  font-weight: 800;
+  padding: 0.4rem 0.75rem;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.home-search-clear:hover {
+  background: #edf1f7;
+  border-color: #142d4f;
+  color: #142d4f;
+}
+
 .home-search-results {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
+}
+
+.home-search-results.is-single {
+  grid-template-columns: 1fr;
 }
 
 .home-search-empty {
@@ -211,6 +346,25 @@ body {
   background: #ffffff;
   padding: 1.25rem;
   text-align: center;
+}
+
+.home-search-empty-button {
+  min-height: 42px;
+  margin-top: 0.9rem;
+  border: 1.5px solid #142d4f;
+  border-radius: 8px;
+  background: #142d4f;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 800;
+  padding: 0.45rem 1rem;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.home-search-empty-button:hover {
+  background: #1f4571;
+  border-color: #1f4571;
 }
 
 /* ── Grant Card: strong outline, official-but-modern ── */
@@ -473,7 +627,39 @@ body {
   .home-search-controls {
     grid-template-columns: 1fr;
     padding: 0.85rem;
-    box-shadow: 0 3px 0 #142d4f;
+    box-shadow: 0 8px 18px rgb(20 45 79 / 0.08);
+  }
+
+  .home-search-active {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .home-search-active-chip {
+    width: 100%;
+    justify-content: space-between;
+    min-height: 44px;
+  }
+
+  .home-search-category,
+  .home-search-quick {
+    flex-wrap: nowrap;
+    gap: 0.45rem;
+    overflow-x: auto;
+    padding: 0.1rem 0.1rem 0.45rem;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .home-search-category::-webkit-scrollbar,
+  .home-search-quick::-webkit-scrollbar {
+    display: none;
+  }
+
+  .home-search-category .filter-chip,
+  .home-search-quick-button {
+    flex: 0 0 auto;
+    min-height: 40px;
   }
 
   .home-search-results-header {

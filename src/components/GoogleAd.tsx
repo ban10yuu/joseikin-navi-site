@@ -33,19 +33,48 @@ export default function GoogleAd({
   label = '広告',
 }: GoogleAdProps) {
   const pushed = useRef(false);
+  const containerRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    if (pushed.current) return;
-    pushed.current = true;
-    try {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
-    } catch {
-      // AdSense not loaded yet
+    if (!slot || pushed.current) return;
+
+    const pushAd = () => {
+      if (pushed.current) return true;
+      const width = containerRef.current?.getBoundingClientRect().width || 0;
+      if (width < 1) return false;
+
+      pushed.current = true;
+      try {
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
+      } catch {
+        // AdSense not loaded yet
+      }
+      return true;
+    };
+
+    if (pushAd()) return;
+
+    const element = containerRef.current;
+    if (!element) return;
+
+    const observer = new ResizeObserver(() => {
+      if (pushAd()) observer.disconnect();
+    });
+    observer.observe(element);
+
+    const timeout = window.setTimeout(() => {
+      pushAd();
+      observer.disconnect();
+    }, 3000);
+
+    return () => {
+      window.clearTimeout(timeout);
+      observer.disconnect();
     }
-  }, []);
+  }, [slot]);
 
   return (
-    <div className={`overflow-hidden ${className}`} aria-label={label}>
+    <div ref={containerRef} className={`overflow-hidden ${className}`} aria-label={label}>
       <div className="mb-1 text-center text-[10px] font-medium tracking-wider text-faint">
         {label}
       </div>
