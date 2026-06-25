@@ -894,4 +894,276 @@ export const verifiedPrefectureChildMedicalGrants2026: Grant[] = [
     verifiedAt: '2026-06-25',
     publishedAt: '2026-06-25',
   },
+  {
+    slug: 'iwate-child-medical',
+    title: '岩手県 子ども、妊産婦及び重度心身障がい者医療費助成',
+    organization: '岩手県 保健福祉部',
+    type: 'local',
+    maxAmount: '子どもの医療費自己負担を市町村制度で助成',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '岩手県',
+    tags: ['岩手県', '子ども医療費', '妊産婦医療費', '市町村申請'],
+    eligibility: '岩手県内市町村の医療費助成制度の対象となる子どもが対象です。対象年齢、所得制限、自己負担は市町村ごとに異なります。',
+    applicationPeriod: '通年（住所地の市町村で申請）',
+    description: '岩手県の子ども、妊産婦及び重度心身障がい者医療費助成です。県内市町村が実施する医療費助成について、県が制度概要と市町村別の取扱いを案内しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>岩手県では、子ども、妊産婦、重度心身障がい者を対象とする医療費助成制度を案内しています。実際の助成は市町村ごとに実施され、対象範囲や自己負担の扱いは市町村により異なります。</p>'
+      },
+      {
+        heading: '対象者と助成内容',
+        content: '<p>子どもの医療費助成では、医療保険の自己負担分の一部または全部を助成します。対象年齢、所得制限、給付方法は市町村別に確認が必要です。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>住所地の市町村で受給資格の申請を行います。健康保険資格が分かる書類、本人確認書類、所得確認書類など、必要書類は市町村の案内に従って準備します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.iwate.jp/kurashikankyou/iryou/seido/iryohoken/1002961.html',
+    sourceName: '岩手県 子ども、妊産婦及び重度心身障がい者医療費助成',
+    sourceUrls: ['https://www.pref.iwate.jp/kurashikankyou/iryou/seido/iryohoken/1002961.html'],
+    sourceNote: '子ども医療費助成、市町村別取扱い、申請先を岩手県公式ページで確認。',
+    verifiedAt: '2026-06-25',
+    publishedAt: '2026-06-25',
+  },
+  {
+    slug: 'miyagi-child-medical',
+    title: '宮城県 子ども医療費助成制度',
+    organization: '宮城県 保健福祉部',
+    type: 'local',
+    maxAmount: '市町村ごとの子ども医療費助成を県が案内',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '宮城県',
+    tags: ['宮城県', '子ども医療費', '乳幼児医療費', '市町村申請'],
+    eligibility: '宮城県内市町村の子ども医療費助成制度の対象となる子どもが対象です。対象年齢や助成内容は市町村により異なります。',
+    applicationPeriod: '通年（住所地の市町村で申請）',
+    description: '宮城県の子ども医療費助成制度です。県は市町村が実施する子どもの医療費助成について、助成内容や手続きの確認先を公式ページで案内しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>宮城県では、子どもの医療費負担を軽減する制度について、市町村で実施される助成内容を案内しています。制度の細部は住所地の市町村ごとに異なります。</p>'
+      },
+      {
+        heading: '対象者と助成内容',
+        content: '<p>対象となる年齢、通院・入院の扱い、自己負担、所得制限は市町村ごとに確認が必要です。医療保険が適用される診療の自己負担分が主な助成対象です。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>受給資格証等の申請は住所地の市町村窓口で行います。健康保険資格が分かる書類、本人確認書類、振込先など必要書類は市町村の案内に従います。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.miyagi.jp/soshiki/kosodate/guide-nyu.html',
+    sourceName: '宮城県 子ども医療費助成制度',
+    sourceUrls: ['https://www.pref.miyagi.jp/soshiki/kosodate/guide-nyu.html'],
+    sourceNote: '制度概要、市町村実施、申請先を宮城県公式ページで確認。',
+    verifiedAt: '2026-06-25',
+    publishedAt: '2026-06-25',
+  },
+  {
+    slug: 'akita-child-medical',
+    title: '秋田県 福祉医療制度（マル福・乳幼児及び小中高生）',
+    organization: '秋田県 健康福祉部',
+    type: 'local',
+    maxAmount: '乳幼児及び小中高生の医療費自己負担を助成',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '秋田県',
+    tags: ['秋田県', '福祉医療制度', 'マル福', '小中高生'],
+    eligibility: '秋田県内の市町村に住所がある乳幼児及び小中高生等が対象です。所得制限や自己負担は区分・市町村により異なります。',
+    applicationPeriod: '通年（住所地の市町村で申請）',
+    description: '秋田県の福祉医療制度（マル福）のうち、乳幼児及び小中高生を対象とする医療費助成です。県と市町村が連携し、医療費負担の軽減を図っています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>秋田県の福祉医療制度は、乳幼児及び小中高生、ひとり親家庭、重度心身障害者等を対象に、医療費の自己負担を軽減する制度です。</p>'
+      },
+      {
+        heading: '対象者と助成内容',
+        content: '<p>乳幼児及び小中高生の医療費助成について、対象区分、所得制限、自己負担の有無は県公式ページと市町村の案内で確認します。保険診療の自己負担分が主な助成対象です。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>住所地の市町村で福祉医療費受給者証等の申請を行います。医療機関での提示方法や償還払いの扱いは市町村の案内に従います。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.akita.lg.jp/pages/archive/1934',
+    sourceName: '秋田県 福祉医療制度について',
+    sourceUrls: ['https://www.pref.akita.lg.jp/pages/archive/1934'],
+    sourceNote: '乳幼児及び小中高生を含む福祉医療制度、対象区分、申請先を秋田県公式ページで確認。',
+    verifiedAt: '2026-06-25',
+    publishedAt: '2026-06-25',
+  },
+  {
+    slug: 'tochigi-child-medical',
+    title: '栃木県 こども医療費助成制度',
+    organization: '栃木県 保健福祉部',
+    type: 'local',
+    maxAmount: '子どもの医療費自己負担を市町制度で助成',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '栃木県',
+    tags: ['栃木県', 'こども医療費', '市町申請', '子育て支援'],
+    eligibility: '栃木県内市町のこども医療費助成制度の対象となる子どもが対象です。対象年齢や助成内容は市町により異なります。',
+    applicationPeriod: '通年（住所地の市町で申請）',
+    description: '栃木県のこども医療費助成制度です。県公式ページでは、子育て支援制度の一つとして、こども医療費助成の内容と問い合わせ先を案内しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>栃木県では、子育て世帯の経済的負担軽減を目的に、こども医療費助成制度を案内しています。実施主体は市町で、県内各市町により対象や手続きが異なります。</p>'
+      },
+      {
+        heading: '対象者と助成内容',
+        content: '<p>医療保険が適用される診療の自己負担分について助成を受けられる場合があります。対象年齢、自己負担、現物給付や償還払いの扱いは住所地の市町に確認します。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>住所地の市役所・町役場で受給資格を申請します。必要書類や利用方法は市町のこども医療費担当窓口で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.tochigi.lg.jp/e06/welfare/kodomo/kosodatesoudan/shiennseido.html',
+    sourceName: '栃木県 子育て支援制度',
+    sourceUrls: ['https://www.pref.tochigi.lg.jp/e06/welfare/kodomo/kosodatesoudan/shiennseido.html'],
+    sourceNote: '子育て支援制度の中で、こども医療費助成と市町問い合わせを栃木県公式ページで確認。',
+    verifiedAt: '2026-06-25',
+    publishedAt: '2026-06-25',
+  },
+  {
+    slug: 'fukui-child-medical',
+    title: '福井県 子ども医療費助成制度',
+    organization: '福井県 健康福祉部',
+    type: 'local',
+    maxAmount: '中学校3年生までの子どもの医療費を市町制度で助成',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '福井県',
+    tags: ['福井県', '子ども医療費', '中学生まで', '市町申請'],
+    eligibility: '福井県内市町の子ども医療費助成制度の対象となる子どもが対象です。県公式ページでは中学校3年生までの助成が案内されています。',
+    applicationPeriod: '通年（住所地の市町で申請）',
+    description: '福井県の子ども医療費助成制度です。県内の子どもが安心して医療を受けられるよう、市町と連携して医療費助成を実施しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>福井県では、子どもの医療費負担を軽減するため、子ども医療費助成制度を案内しています。市町が実施し、県が制度を支援する形で運用されています。</p>'
+      },
+      {
+        heading: '対象者と助成内容',
+        content: '<p>県公式ページでは、中学校3年生までの子どもを対象とする医療費助成が案内されています。自己負担、助成方法、対象外費用は市町の案内で確認します。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>住所地の市町で受給資格の申請を行います。医療証の交付、県外受診時の償還払い、必要書類は市町の担当窓口で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.fukui.lg.jp/doc/kodomo/medical.html',
+    sourceName: '福井県 子ども医療費助成制度',
+    sourceUrls: ['https://www.pref.fukui.lg.jp/doc/kodomo/medical.html'],
+    sourceNote: '中学校3年生までの医療費助成、市町実施、申請先を福井県公式ページで確認。',
+    verifiedAt: '2026-06-25',
+    publishedAt: '2026-06-25',
+  },
+  {
+    slug: 'nagano-child-medical',
+    title: '長野県 福祉医療費給付事業（子ども）',
+    organization: '長野県 健康福祉部',
+    type: 'local',
+    maxAmount: '子どもの医療費自己負担を市町村制度で給付',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '長野県',
+    tags: ['長野県', '福祉医療費', '子ども医療費', '市町村申請'],
+    eligibility: '長野県内市町村の福祉医療費給付事業の対象となる子どもが対象です。対象年齢や受給者負担金は市町村により異なります。',
+    applicationPeriod: '通年（住所地の市町村で受給者証を申請）',
+    description: '長野県の福祉医療費給付事業です。子ども、障がい者、ひとり親家庭等の医療費負担を軽減する制度で、市町村が実施し、県が補助しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>福祉医療費給付事業は、子どもなどの医療費負担を軽減するため、市町村が実施する制度です。長野県は市町村の給付事業に対して補助を行っています。</p>'
+      },
+      {
+        heading: '対象者と助成内容',
+        content: '<p>子どもの対象年齢、受給者負担金、現物給付や償還払いの扱いは市町村によって異なります。医療保険適用分の自己負担が主な給付対象です。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>住所地の市町村で受給者証の交付を申請します。制度の詳細、必要書類、窓口での支払い方法は市町村の案内に従います。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.nagano.lg.jp/kenko-fukushi/kenko/fukushi/fukushi/hojokin.html',
+    sourceName: '長野県 福祉医療費給付事業補助金',
+    sourceUrls: ['https://www.pref.nagano.lg.jp/kenko-fukushi/kenko/fukushi/fukushi/hojokin.html'],
+    sourceNote: '福祉医療費給付事業、市町村実施、県補助、子ども医療費の取扱いを長野県公式ページで確認。',
+    verifiedAt: '2026-06-25',
+    publishedAt: '2026-06-25',
+  },
+  {
+    slug: 'gifu-child-medical',
+    title: '岐阜県 福祉医療費助成制度（乳幼児等）',
+    organization: '岐阜県 健康福祉部',
+    type: 'local',
+    maxAmount: '乳幼児等の医療費自己負担を市町村制度で助成',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '岐阜県',
+    tags: ['岐阜県', '福祉医療費', '乳幼児等医療', '市町村申請'],
+    eligibility: '岐阜県内市町村の福祉医療費助成制度のうち、乳幼児等医療費助成の対象となる子どもが対象です。',
+    applicationPeriod: '通年（住所地の市町村で申請）',
+    description: '岐阜県の福祉医療費助成制度です。乳幼児等、重度心身障がい者、ひとり親家庭等を対象とする医療費助成について、県が制度概要を案内しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>岐阜県の福祉医療費助成制度は、乳幼児等を含む対象者の医療費自己負担を軽減する制度です。実施主体は市町村で、県が制度概要を案内しています。</p>'
+      },
+      {
+        heading: '対象者と助成内容',
+        content: '<p>乳幼児等医療費助成の対象年齢や自己負担、所得制限、給付方法は市町村により異なる場合があります。保険診療分の自己負担が主な助成対象です。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>住所地の市町村で受給資格証等を申請します。医療機関での提示方法、県外受診時の扱い、必要書類は市町村の担当窓口で確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.gifu.lg.jp/page/6238.html',
+    sourceName: '岐阜県 福祉医療費助成制度',
+    sourceUrls: ['https://www.pref.gifu.lg.jp/page/6238.html'],
+    sourceNote: '福祉医療費助成制度、乳幼児等医療費助成、市町村申請を岐阜県公式ページで確認。',
+    verifiedAt: '2026-06-25',
+    publishedAt: '2026-06-25',
+  },
+  {
+    slug: 'shizuoka-child-medical',
+    title: '静岡県 こども医療費助成制度',
+    organization: '静岡県 健康福祉部',
+    type: 'local',
+    maxAmount: 'こどもの医療費を市町制度で助成',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '静岡県',
+    tags: ['静岡県', 'こども医療費', '乳幼児医療費', '市町申請'],
+    eligibility: '静岡県内市町のこども医療費助成制度の対象となる子どもが対象です。対象年齢や自己負担は市町により異なります。',
+    applicationPeriod: '通年（住所地の市町で申請）',
+    description: '静岡県のこども医療費助成制度です。県公式ページでは、こども医療費助成の概要、市町での手続き、問い合わせ先を案内しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>静岡県では、こどもの医療費負担を軽減するため、こども医療費助成制度を案内しています。実際の制度内容は市町ごとに定められます。</p>'
+      },
+      {
+        heading: '対象者と助成内容',
+        content: '<p>対象年齢、自己負担、所得制限、通院・入院の扱いは市町により異なります。医療保険が適用される診療の自己負担分が主な助成対象です。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>住所地の市町で受給資格を申請します。受給者証の交付、医療機関での提示方法、払い戻し申請は市町の案内に従って確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.shizuoka.jp/kodomokyoiku/kodomokosodate/boshihoken/1040718/1043343.html',
+    sourceName: '静岡県 こども医療費助成制度',
+    sourceUrls: ['https://www.pref.shizuoka.jp/kodomokyoiku/kodomokosodate/boshihoken/1040718/1043343.html'],
+    sourceNote: 'こども医療費助成制度、市町での手続き、問い合わせ先を静岡県公式ページで確認。',
+    verifiedAt: '2026-06-25',
+    publishedAt: '2026-06-25',
+  },
 ];
