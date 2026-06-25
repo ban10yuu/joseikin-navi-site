@@ -724,4 +724,746 @@ export const verifiedTokyoLocalGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'shibuya-sme-support',
+    title: '渋谷区 中小企業デジタル化支援助成金（公式助成確認不可）',
+    organization: '渋谷区',
+    type: 'local',
+    maxAmount: '公式助成確認不可',
+    maxAmountNum: 0,
+    category: 'employment',
+    prefecture: '東京都',
+    tags: ['渋谷区', '中小企業', '公式確認不可'],
+    eligibility: '旧候補名の制度について、渋谷区公式サイトで区独自の中小企業デジタル化支援助成金として確認できませんでした。',
+    targetOccupation: '中小企業者・個人事業主',
+    applicationPeriod: '公式助成確認不可。掲載停止扱い',
+    deadlineDate: '2026-06-25',
+    description: '渋谷区公式サイトでは中小企業向け支援情報や別制度の店舗開業支援補助金は確認できますが、旧候補名に一致する区独自デジタル化助成金は確認できませんでした。誤掲載を避けるため通常一覧から除外します。',
+    sections: [
+      {
+        heading: '公式確認結果',
+        content: '<p>渋谷区公式サイトで中小企業向け支援情報と別制度を確認しましたが、候補名どおりの区独自「中小企業デジタル化支援助成金」は確認できませんでした。</p>'
+      },
+      {
+        heading: '掲載停止の理由',
+        content: '<p>制度名、対象経費、補助額、申請期限を公式情報で確認できないため、申請可能な助成金として通常一覧には掲載しません。</p>'
+      },
+      {
+        heading: '関連情報',
+        content: '<p>渋谷区の事業者支援は、区公式の中小企業向け支援情報サイトや店舗開業支援補助金など、個別制度の最新ページで確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/kuni_tokyoto_shiennjyouhou/shien_site.html',
+    sourceName: '渋谷区 中小企業向け支援情報サイト',
+    sourceUrls: [
+      'https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/kuni_tokyoto_shiennjyouhou/shien_site.html',
+      'https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/akitempo-kassei-pj/akitempo.html'
+    ],
+    sourceNote: '渋谷区公式で中小企業向け支援情報と店舗開業支援補助金は確認したが、候補名どおりの区独自デジタル化助成金は確認できず、掲載停止日を期限切れ判定に使用。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'suginami-vacant-house',
+    title: '杉並区 空家等利活用モデル事業助成金',
+    organization: '杉並区',
+    type: 'local',
+    maxAmount: '公式制度ページで上限額未明示',
+    maxAmountNum: 0,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['杉並区', '空き家活用', '地域活用'],
+    eligibility: '杉並区内の空き家等を地域貢献や地域課題解決に活用する事業などが対象です。対象者、活用内容、助成額は個別の募集・相談で確認が必要です。',
+    applicationPeriod: '公式ページに制度掲載あり。募集状況・上限額は区へ確認',
+    description: '杉並区が空き家等の利活用を促すために案内している助成制度です。令和8年度予算資料でも空家等利活用モデル事業助成金が確認できますが、制度ページ上では上限額を断定できないため金額は明示していません。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>空き家を地域の交流、福祉、子育て、防災などの用途に利活用する取組を支援する制度です。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>令和8年度予算資料で空家等利活用モデル事業助成金の計上を確認できます。一方、公式制度ページ上では上限額を確認できないため、申請前に杉並区へ確認してください。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>空き家の状態、活用目的、地域貢献性により対象可否が変わります。事前相談のうえ、最新の募集状況を確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.suginami.tokyo.jp/s093/18657.html',
+    sourceName: '杉並区 空家等対策',
+    sourceUrls: [
+      'https://www.city.suginami.tokyo.jp/s093/18657.html',
+      'https://www.city.suginami.tokyo.jp/documents/22830/08ippankaikei.pdf'
+    ],
+    sourceNote: '杉並区公式ページで空き家を利活用するときの助成制度、令和8年度予算資料で空家等利活用モデル事業助成金を確認。上限額は制度ページで未確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'nerima-vacant-house',
+    title: '練馬区 空家地域貢献事業補助金',
+    organization: '練馬区',
+    type: 'local',
+    maxAmount: '最大100万円（区域加算で最大150万円）',
+    maxAmountNum: 150,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['練馬区', '空き家活用', '地域貢献'],
+    eligibility: '練馬区内の空き家を地域貢献事業に活用する団体等が対象です。公益的な活用内容、建物所有者との合意、対象区域などの要件があります。',
+    applicationPeriod: '通年。事前相談が必要',
+    description: '練馬区が、空き家を地域貢献の場として活用する団体等に対し、初期整備費などを支援する補助金です。通常上限100万円、条件により区域加算50万円が確認できます。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>空き家を地域交流、子育て支援、高齢者支援など公益的な活動の場として活用する取組を支援する制度です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>みどりのまちづくりセンターと練馬区要綱で、初期整備費の補助上限100万円、区域加算50万円を確認できます。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>補助金の利用には事前相談と事業内容の確認が必要です。空き家所有者、活動団体、地域貢献性などの条件を確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.nerima.tokyo.jp/kurashi/sumai/akiya/katsuyou.html',
+    sourceName: '練馬区 空き家の活用',
+    sourceUrls: [
+      'https://www.city.nerima.tokyo.jp/kurashi/sumai/akiya/katsuyou.html',
+      'https://nerimachi.jp/akiya/jigyo_chikikoken.php',
+      'https://www1.g-reiki.net/nerima/reiki_honbun/a100RG00003080.html'
+    ],
+    sourceNote: '練馬区公式ページ、みどりのまちづくりセンター、練馬区要綱で空家地域貢献事業補助金、上限100万円、区域加算50万円を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'adachi-sme-support',
+    title: '足立区 ものづくり企業地域共生推進助成金（令和8年度）',
+    organization: '足立区',
+    type: 'local',
+    maxAmount: '最大375万円',
+    maxAmountNum: 375,
+    category: 'employment',
+    prefecture: '東京都',
+    tags: ['足立区', 'ものづくり', '地域共生'],
+    eligibility: '足立区内のものづくり企業等が、操業環境改善や地域との共生に資する設備・工事等を行う場合に対象です。',
+    targetOccupation: 'ものづくり企業・中小企業者',
+    applicationPeriod: '2026年4月1日から2026年11月13日必着まで。予算到達で終了',
+    deadlineDate: '2026-11-13',
+    description: '足立区が、ものづくり企業の操業継続と周辺地域との共生を支援する助成金です。令和8年度募集では最大375万円、2026年11月13日必着の申請期限が確認できます。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>区内ものづくり企業が地域と共生しながら操業を続けられるよう、騒音・振動・臭気対策、設備改善等を支援する助成金です。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>令和8年度募集案内で、助成上限375万円が確認できます。対象経費や助成率は工事・設備の内容により異なります。</p>'
+      },
+      {
+        heading: '申請期限',
+        content: '<p>申請受付は2026年4月1日から2026年11月13日必着までです。予算到達時は期限前に終了する場合があります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.adachi.tokyo.jp/s-shinko/shigoto/chushokigyo/monodukurikigyourittikeizoku.html',
+    sourceName: '足立区 ものづくり企業地域共生推進助成金',
+    sourceUrls: [
+      'https://www.city.adachi.tokyo.jp/s-shinko/shigoto/chushokigyo/monodukurikigyourittikeizoku.html',
+      'https://www.city.adachi.tokyo.jp/documents/31700/r8kyousei-bosyu.pdf'
+    ],
+    sourceNote: '足立区公式ページと令和8年度募集案内で、ものづくり企業地域共生推進助成金、最大375万円、2026年11月13日必着を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'katsushika-housing-purchase',
+    title: '葛飾区 二世代・三世代住宅取得費助成モデル事業（新規受付廃止）',
+    organization: '葛飾区',
+    type: 'local',
+    maxAmount: '新規受付廃止',
+    maxAmountNum: 0,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['葛飾区', '住宅取得', '受付廃止'],
+    eligibility: '過去に実施されていた二世代・三世代住宅取得費助成モデル事業ですが、葛飾区公式の行政評価資料で新規受付廃止の事務事業として確認しました。',
+    applicationPeriod: '新規受付廃止。掲載停止扱い',
+    deadlineDate: '2026-06-25',
+    description: '旧候補の三世代住宅取得助成制度は、葛飾区公式ページで新規受付廃止の事務事業として確認しました。現行制度として申請できないため通常一覧から除外します。',
+    sections: [
+      {
+        heading: '公式確認結果',
+        content: '<p>葛飾区公式の行政評価ページで、二世代・三世代住宅取得費助成モデル事業が新規受付廃止の事務事業として掲載されていることを確認しました。</p>'
+      },
+      {
+        heading: '掲載停止の理由',
+        content: '<p>現行の申請可能な住宅取得助成制度として確認できないため、通常一覧には掲載しません。</p>'
+      },
+      {
+        heading: '次に確認すること',
+        content: '<p>葛飾区の住宅関連支援は、現行の住宅施策や子育て世帯向け制度の最新ページで確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.katsushika.lg.jp/information/1000085/1006294/1006358/1006369/1006445.html',
+    sourceName: '葛飾区 廃止等事務事業',
+    sourceUrls: ['https://www.city.katsushika.lg.jp/information/1000085/1006294/1006358/1006369/1006445.html'],
+    sourceNote: '葛飾区公式ページで二世代・三世代住宅取得費助成モデル事業が新規受付廃止の事務事業であることを確認。掲載停止日を期限切れ判定に使用。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'hachioji-sme-support',
+    title: '八王子市 新製品・新サービス開発補助金（令和8年度）',
+    organization: '八王子市',
+    type: 'local',
+    maxAmount: '共同枠 最大100万円、単独枠 最大50万円',
+    maxAmountNum: 100,
+    category: 'employment',
+    prefecture: '東京都',
+    tags: ['八王子市', '中小企業', '新製品開発'],
+    eligibility: '八王子市内の中小企業者等が、新製品・新サービスの開発に取り組む場合に対象です。共同枠と単独枠で補助上限が異なります。',
+    targetOccupation: '中小企業者・個人事業主',
+    applicationPeriod: '2027年1月31日まで。予算到達で終了する場合あり',
+    deadlineDate: '2027-01-31',
+    description: '八王子市が、区内中小企業等による新製品・新サービス開発を支援する補助金です。旧候補名の「新技術開発」から、公式制度名に合わせて内容を修正しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>市内事業者の新製品・新サービス開発を支援し、地域産業の競争力向上を図る補助金です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>共同枠は最大100万円、単独枠は最大50万円と案内されています。対象経費や補助率は公式ページで確認してください。</p>'
+      },
+      {
+        heading: '申請期限',
+        content: '<p>令和8年度の申請期限は2027年1月31日です。予算状況により期限前に終了する可能性があります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.hachioji.tokyo.jp/kurashi/sangyo/001/p037227.html',
+    sourceName: '八王子市 新製品・新サービス開発補助金',
+    sourceUrls: ['https://www.city.hachioji.tokyo.jp/kurashi/sangyo/001/p037227.html'],
+    sourceNote: '八王子市公式ページで令和8年度新製品・新サービス開発補助金、共同枠100万円、単独枠50万円、申請期限2027年1月31日を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'chiyoda-housing-assistant',
+    title: '千代田区 次世代育成住宅助成',
+    organization: '千代田区',
+    type: 'local',
+    maxAmount: '月額最大8万円＋転居費用10万円',
+    maxAmountNum: 778,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['千代田区', '子育て世帯', '住宅助成'],
+    eligibility: '千代田区内で住み替える新婚世帯・子育て世帯などが対象です。住戸面積、世帯構成、所得、契約時期などの要件があります。',
+    applicationPeriod: '通年。契約前の仮申請など手続時期に要件あり',
+    description: '千代田区が、次世代育成を目的に新婚・子育て世帯等の区内居住を支援する住宅助成です。月額最大8万円と転居費用10万円の支援が確認できます。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>新婚世帯・子育て世帯等の区内定住を支援するため、住み替え後の住宅費や転居費用の一部を助成する制度です。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>月額助成は最大8万円、転居費用助成は最大10万円と案内されています。助成期間や金額は世帯区分により異なります。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>契約前の仮申請など、手続きのタイミングに要件があります。住み替え前に必ず公式ページで確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.chiyoda.lg.jp/koho/machizukuri/sumai/jose/jisedai.html',
+    sourceName: '千代田区 次世代育成住宅助成',
+    sourceUrls: ['https://www.city.chiyoda.lg.jp/koho/machizukuri/sumai/jose/jisedai.html'],
+    sourceNote: '千代田区公式ページで次世代育成住宅助成、月額最大8万円、転居費用10万円、仮申請・本申請の時期要件を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'chiyoda-newlywed-rent',
+    title: '千代田区 次世代育成住宅助成（新婚世帯枠）',
+    organization: '千代田区',
+    type: 'local',
+    maxAmount: '月額最大4万円＋転居費用10万円',
+    maxAmountNum: 394,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['千代田区', '新婚世帯', '住宅助成'],
+    eligibility: '千代田区の次世代育成住宅助成のうち、新婚世帯等の要件を満たす世帯が対象です。親元近居、世帯人数、所得、住戸面積などの要件があります。',
+    applicationPeriod: '通年。契約前の仮申請など手続時期に要件あり',
+    description: '旧候補名の「新婚世帯住居費助成事業」として独立した制度は確認できなかったため、公式に確認できる次世代育成住宅助成の新婚世帯枠として内容を修正しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>千代田区の次世代育成住宅助成は、新婚世帯・子育て世帯等の区内定住を支援する制度です。新婚世帯も対象区分に含まれます。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>新婚2人世帯で親元近居などの条件に該当する場合、1年目の月額最大4万円と転居費用10万円の支援が確認できます。世帯区分により金額は変わります。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>「新婚世帯住居費助成」という別制度名は公式確認できません。申請前に次世代育成住宅助成の対象区分と手続期限を確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.chiyoda.lg.jp/koho/machizukuri/sumai/jose/jisedai.html',
+    sourceName: '千代田区 次世代育成住宅助成',
+    sourceUrls: ['https://www.city.chiyoda.lg.jp/koho/machizukuri/sumai/jose/jisedai.html'],
+    sourceNote: '千代田区公式ページで次世代育成住宅助成、新婚世帯区分、月額最大4万円、転居費用10万円を確認。候補名の独立制度は確認できないため公式制度名へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'toshima-newlywed-housing',
+    title: '豊島区 子育てファミリー世帯家賃助成制度',
+    organization: '豊島区',
+    type: 'local',
+    maxAmount: '月額3万円',
+    maxAmountNum: 36,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['豊島区', '子育て世帯', '家賃助成'],
+    eligibility: '豊島区内の民間賃貸住宅に居住する子育てファミリー世帯が対象です。転居時期、子どもの年齢、所得、住戸面積などの要件があります。',
+    applicationPeriod: '通年。ただし2026年4月1日以降の転居・転入は原則対象外との注意あり',
+    description: '豊島区が子育てファミリー世帯の居住安定を支援する家賃助成制度です。旧候補名に含まれる新婚単独世帯は公式対象として確認できないため、公式制度名に合わせて掲載します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>区内の子育てファミリー世帯に対し、民間賃貸住宅の家賃負担を軽減する助成制度です。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>公式ページで月額3万円の家賃助成が確認できます。対象世帯や助成期間は制度要件により異なります。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>2026年4月1日以降の転居・転入は原則対象外との注意があります。申請可否は転居時期と世帯要件を確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.toshima.lg.jp/308/2509041409.html',
+    sourceName: '豊島区 子育てファミリー世帯家賃助成制度',
+    sourceUrls: ['https://www.city.toshima.lg.jp/308/2509041409.html'],
+    sourceNote: '豊島区公式ページで子育てファミリー世帯家賃助成制度、月額3万円、2026年4月1日以降の転居・転入に関する注意を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'minato-parenting-allowance',
+    title: '港区 出産費用の助成',
+    organization: '港区',
+    type: 'local',
+    maxAmount: '最大31万円（1人出産の場合）',
+    maxAmountNum: 31,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['港区', '出産費用', '子育て'],
+    eligibility: '港区に住民登録があり、出産費用から出産育児一時金等を差し引いた自己負担がある方が対象です。申請期限や必要書類の要件があります。',
+    applicationPeriod: '出生日から1年以内',
+    description: '港区が、出産費用から出産育児一時金等を差し引いた自己負担額を助成する制度です。1人出産の場合は最大31万円が確認できます。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>出産にかかる経済的負担を軽減するため、港区が出産費用の一部を助成する制度です。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>出産費用から出産育児一時金等を差し引いた額が助成対象です。1人出産の場合の助成上限は31万円です。</p>'
+      },
+      {
+        heading: '申請期限',
+        content: '<p>申請期限は出生日から1年以内です。領収書や明細書など、必要書類を確認して申請してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.minato.tokyo.jp/kodomokyufu/kenko/ninshin/shussan/jose.html',
+    sourceName: '港区 出産費用の助成',
+    sourceUrls: ['https://www.city.minato.tokyo.jp/kodomokyufu/kenko/ninshin/shussan/jose.html'],
+    sourceNote: '港区公式ページで出産費用の助成、出産育児一時金等控除後の助成、1人出産最大31万円、出生日から1年以内の申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'ota-newlywed-rent',
+    title: '大田区 新婚世帯家賃助成制度（公式助成確認不可）',
+    organization: '大田区',
+    type: 'local',
+    maxAmount: '公式助成確認不可',
+    maxAmountNum: 0,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['大田区', '新婚世帯', '公式確認不可'],
+    eligibility: '旧候補名の新婚世帯家賃助成について、大田区公式サイトで現行制度として確認できませんでした。',
+    applicationPeriod: '公式助成確認不可。掲載停止扱い',
+    deadlineDate: '2026-06-25',
+    description: '大田区公式サイトで結婚手続きや住宅確保支援を確認しましたが、候補名どおりの新婚世帯向け家賃助成制度は確認できませんでした。誤掲載を避けるため通常一覧から除外します。',
+    sections: [
+      {
+        heading: '公式確認結果',
+        content: '<p>大田区公式サイトで結婚・離婚手続き、住宅確保支援を確認しましたが、新婚世帯向け家賃助成制度は確認できませんでした。</p>'
+      },
+      {
+        heading: '掲載停止の理由',
+        content: '<p>制度名、対象者、助成額、申請期限を公式情報で確認できないため、通常一覧には掲載しません。</p>'
+      },
+      {
+        heading: '関連情報',
+        content: '<p>大田区の住宅支援は、住宅確保支援や住まい関連制度の公式ページで最新情報を確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.ota.tokyo.jp/seikatsu/sumaimachinami/sumai/jutaku_kakuho/index.html',
+    sourceName: '大田区 住宅確保支援',
+    sourceUrls: [
+      'https://www.city.ota.tokyo.jp/seikatsu/sumaimachinami/sumai/jutaku_kakuho/index.html',
+      'https://www.city.ota.tokyo.jp/tetsuzuki/kekkon/index.html'
+    ],
+    sourceNote: '大田区公式で住宅確保支援と結婚手続きページを確認したが、新婚世帯家賃助成は確認できず、掲載停止日を期限切れ判定に使用。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'edogawa-newlywed-rent',
+    title: '江戸川区 新婚世帯家賃補助制度（公式助成確認不可）',
+    organization: '江戸川区',
+    type: 'local',
+    maxAmount: '公式助成確認不可',
+    maxAmountNum: 0,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['江戸川区', '新婚世帯', '公式確認不可'],
+    eligibility: '旧候補名の新婚世帯家賃補助について、江戸川区公式サイトで現行制度として確認できませんでした。',
+    applicationPeriod: '公式助成確認不可。掲載停止扱い',
+    deadlineDate: '2026-06-25',
+    description: '江戸川区公式サイトでは結婚パスポートなどの出会い・結婚支援は確認できますが、家賃補助制度は確認できませんでした。誤掲載を避けるため通常一覧から除外します。',
+    sections: [
+      {
+        heading: '公式確認結果',
+        content: '<p>江戸川区公式サイトで結婚パスポートや出会い・結婚支援を確認しましたが、新婚世帯向け家賃補助制度は確認できませんでした。</p>'
+      },
+      {
+        heading: '掲載停止の理由',
+        content: '<p>関連制度は施設優遇券等であり、家賃補助ではありません。候補名の助成金としては公式確認できないため、通常一覧には掲載しません。</p>'
+      },
+      {
+        heading: '関連情報',
+        content: '<p>江戸川区の結婚支援は、出会い・結婚支援ページと結婚パスポートの最新情報を確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.edogawa.tokyo.jp/e093/kosodate/deaikekkon/kekkon_passport.html',
+    sourceName: '江戸川区 結婚パスポート',
+    sourceUrls: [
+      'https://www.city.edogawa.tokyo.jp/e093/kosodate/deaikekkon/kekkon_passport.html',
+      'https://www.city.edogawa.tokyo.jp/kosodate/deaikekkon/index.html'
+    ],
+    sourceNote: '江戸川区公式で結婚パスポートと出会い・結婚支援を確認したが、家賃補助制度は確認できず、掲載停止日を期限切れ判定に使用。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'chiyoda-education-scholarship',
+    title: '千代田区 教育資金の融資あっせん',
+    organization: '千代田区',
+    type: 'local',
+    maxAmount: '融資上限400万円',
+    maxAmountNum: 400,
+    category: 'education',
+    prefecture: '東京都',
+    tags: ['千代田区', '教育資金', '融資あっせん'],
+    eligibility: '千代田区民で、学校等の入学金・授業料等の教育資金を必要とし、金融機関の審査等を満たす方が対象です。',
+    applicationPeriod: '通年。融資前に申請・審査が必要',
+    description: '旧候補名の「育英資金貸付制度」は現行区独自制度として確認できなかったため、公式に確認できる教育資金の融資あっせんとして内容を修正しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>教育資金を必要とする区民に対し、千代田区が金融機関の融資をあっせんする制度です。</p>'
+      },
+      {
+        heading: '支援内容',
+        content: '<p>融資限度額は400万円です。別ページで教育ローン利子補給も案内されています。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>給付型奨学金ではなく融資あっせんです。金融機関の審査、利子補給の条件、返済条件を確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.chiyoda.lg.jp/koho/kosodate/teate/kyoikushikin-yushiassen.html',
+    sourceName: '千代田区 教育資金の融資あっせん',
+    sourceUrls: [
+      'https://www.city.chiyoda.lg.jp/koho/kosodate/teate/kyoikushikin-yushiassen.html',
+      'https://www.city.chiyoda.lg.jp/koho/kosodate/teate/kyoikuloan-hojo.html',
+      'https://www.city.chiyoda.lg.jp/koho/kosodate/teate/shogakukin.html'
+    ],
+    sourceNote: '千代田区公式ページで教育資金の融資あっせん、融資限度額400万円、利子補給関連ページを確認。候補名の育英資金貸付制度は現行制度として確認できないため公式制度名へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'musashino-scholarship',
+    title: '武蔵野市 高等学校等修学給付金（令和7年度受付終了）',
+    organization: '武蔵野市',
+    type: 'local',
+    maxAmount: '5万円',
+    maxAmountNum: 5,
+    category: 'education',
+    prefecture: '東京都',
+    tags: ['武蔵野市', '修学給付金', '受付終了'],
+    eligibility: '武蔵野市の高等学校等に通う生徒がいる世帯を対象とする給付金です。令和7年度案内では所得等の要件があります。',
+    applicationPeriod: '令和7年度申請は2025年9月15日で終了。令和8年度募集は未確認',
+    deadlineDate: '2025-09-15',
+    description: '武蔵野市公式ページで確認できる高等学校等修学給付金は令和7年度案内で、申請期限は2025年9月15日でした。令和8年度募集を確認できないため通常一覧から除外します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>高等学校等に通う生徒の修学を支援する給付金です。令和7年度案内では5万円の支給が確認できます。</p>'
+      },
+      {
+        heading: '受付状況',
+        content: '<p>令和7年度の申請期限は2025年9月15日で終了しています。令和8年度の同一募集は確認できませんでした。</p>'
+      },
+      {
+        heading: '次に確認すること',
+        content: '<p>次年度募集が出た場合は、武蔵野市の子育て・教育関連の最新ページで受付期間を確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/teate_josei/kokosei/1016667.html',
+    sourceName: '武蔵野市 高等学校等修学給付金',
+    sourceUrls: [
+      'https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/teate_josei/kokosei/1016667.html',
+      'https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/016/667/71annnai.pdf'
+    ],
+    sourceNote: '武蔵野市公式ページと令和7年度案内で高等学校等修学給付金、5万円、申請期限2025年9月15日を確認。令和8年度募集未確認のため期限切れ扱い。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'chuo-scholarship',
+    title: '中央区 奨学資金制度（公式助成確認不可）',
+    organization: '中央区',
+    type: 'local',
+    maxAmount: '公式助成確認不可',
+    maxAmountNum: 0,
+    category: 'education',
+    prefecture: '東京都',
+    tags: ['中央区', '奨学金', '公式確認不可'],
+    eligibility: '旧候補名の奨学資金制度について、中央区公式サイトで区独自の現行制度として確認できませんでした。',
+    applicationPeriod: '公式助成確認不可。掲載停止扱い',
+    deadlineDate: '2026-06-25',
+    description: '中央区公式ページでは教育費に関する助成・貸付等の案内を確認できますが、区独自の奨学資金制度として申請できる制度は確認できませんでした。誤掲載を避けるため通常一覧から除外します。',
+    sections: [
+      {
+        heading: '公式確認結果',
+        content: '<p>中央区公式の教育費に関する助成・貸付等ページを確認しましたが、候補名の区独自奨学資金制度は確認できませんでした。</p>'
+      },
+      {
+        heading: '掲載停止の理由',
+        content: '<p>都制度、国制度、JASSO等への案内はありますが、候補名の助成・貸付制度として確認できないため、通常一覧には掲載しません。</p>'
+      },
+      {
+        heading: '関連情報',
+        content: '<p>教育費支援は、中央区公式の教育費関連案内、東京都、国、日本学生支援機構の制度を確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.chuo.lg.jp/a0019/kenkouiryou/fukushiippan/seikatsushien/kyouikuhijoseikashitsuke.html',
+    sourceName: '中央区 教育費に関する助成・貸付等',
+    sourceUrls: ['https://www.city.chuo.lg.jp/a0019/kenkouiryou/fukushiippan/seikatsushien/kyouikuhijoseikashitsuke.html'],
+    sourceNote: '中央区公式ページで教育費に関する助成・貸付等を確認したが、区独自の奨学資金制度は確認できず、掲載停止日を期限切れ判定に使用。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'sumida-small-business-support',
+    title: '墨田区 工作機器等導入支援（令和7年度受付終了）',
+    organization: '墨田区',
+    type: 'local',
+    maxAmount: '最大400万円',
+    maxAmountNum: 400,
+    category: 'employment',
+    prefecture: '東京都',
+    tags: ['墨田区', '設備投資', '受付終了'],
+    eligibility: '墨田区内の中小企業者等が工作機器等を導入する場合の補助制度です。令和7年度分は受付終了しています。',
+    targetOccupation: '中小企業者・個人事業主',
+    applicationPeriod: '令和7年度申請は2025年12月26日で終了。令和8年度募集は未確認',
+    deadlineDate: '2025-12-26',
+    description: '墨田区の工作機器等導入支援は、令和7年度分の申請期限が2025年12月26日で終了しています。令和8年度の同一募集を確認できないため通常一覧から除外します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>墨田区内中小企業者等の生産性向上を目的に、工作機器等の導入を支援する補助金です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>令和7年度の公式ページで最大400万円の補助を確認できます。</p>'
+      },
+      {
+        heading: '受付状況',
+        content: '<p>令和7年度の申請期限は2025年12月26日で終了しています。令和8年度の同一募集は公式ページで確認できませんでした。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.sumida.lg.jp/sangyo_jigyosya/sangyo/hojokin_joseikin/kikidonyu.html',
+    sourceName: '墨田区 工作機器等導入支援',
+    sourceUrls: [
+      'https://www.city.sumida.lg.jp/sangyo_jigyosya/sangyo/hojokin_joseikin/kikidonyu.html',
+      'https://www.city.sumida.lg.jp/sangyo_jigyosya/sangyo/hojokin_joseikin/index.html'
+    ],
+    sourceNote: '墨田区公式ページで工作機器等導入支援、最大400万円、令和7年度申請期限2025年12月26日を確認。令和8年度募集未確認のため期限切れ扱い。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'adachi-startup-support',
+    title: '足立区 創業プランコンテスト（令和8年度受付終了）',
+    organization: '足立区',
+    type: 'local',
+    maxAmount: '最大200万円',
+    maxAmountNum: 200,
+    category: 'employment',
+    prefecture: '東京都',
+    tags: ['足立区', '創業支援', '受付終了'],
+    eligibility: '足立区内で創業予定または創業間もない方等を対象とする創業プランコンテストです。令和8年度の応募受付は終了しています。',
+    targetOccupation: '創業予定者・創業初期事業者',
+    applicationPeriod: '令和8年度応募受付は2026年6月5日で終了',
+    deadlineDate: '2026-06-05',
+    description: '足立区の創業プランコンテストは、創業プランの表彰・支援制度です。令和8年度応募受付は2026年6月5日で終了しているため通常一覧から除外します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>創業予定者等の事業計画を募集し、優れたプランを表彰・支援する足立区の創業支援制度です。</p>'
+      },
+      {
+        heading: '支援内容',
+        content: '<p>令和8年度募集要項で最大200万円の支援を確認できます。表彰・審査は残りますが、応募受付は終了しています。</p>'
+      },
+      {
+        heading: '受付状況',
+        content: '<p>令和8年度の応募受付は2026年6月5日で終了しています。次回募集は足立区公式ページで確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.adachi.tokyo.jp/chusho/shigoto/chushokigyo/28sogyoplan.html',
+    sourceName: '足立区 創業プランコンテスト',
+    sourceUrls: [
+      'https://www.city.adachi.tokyo.jp/chusho/shigoto/chushokigyo/28sogyoplan.html',
+      'https://www.city.adachi.tokyo.jp/documents/28184/r8yoko.docx'
+    ],
+    sourceNote: '足立区公式ページと令和8年度募集要項で創業プランコンテスト、最大200万円、応募受付2026年6月5日終了を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'hachioji-startup-support',
+    title: '八王子市 創業者販路拡大支援補助金（令和8年度）',
+    organization: '八王子市',
+    type: 'local',
+    maxAmount: '最大10万円',
+    maxAmountNum: 10,
+    category: 'employment',
+    prefecture: '東京都',
+    tags: ['八王子市', '創業支援', '販路拡大'],
+    eligibility: '八王子市内の創業者等が、販路拡大に取り組む場合に対象です。創業時期、所在地、対象経費などの要件があります。',
+    targetOccupation: '創業者・中小企業者',
+    applicationPeriod: '2027年1月31日まで。予算到達で終了する場合あり',
+    deadlineDate: '2027-01-31',
+    description: '八王子市が、創業者の販路拡大にかかる経費を支援する補助金です。令和8年度は最大10万円、2027年1月31日までの申請受付が確認できます。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>市内創業者が販路開拓・販売促進に取り組む際の経費を支援する補助金です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>公式ページで補助上限10万円を確認できます。対象経費や補助率は申請前に確認してください。</p>'
+      },
+      {
+        heading: '申請期限',
+        content: '<p>令和8年度の申請期限は2027年1月31日です。予算終了次第、期限前に受付終了となる場合があります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.hachioji.tokyo.jp/kurashi/sangyo/001/p035372.html',
+    sourceName: '八王子市 創業者販路拡大支援補助金',
+    sourceUrls: [
+      'https://www.city.hachioji.tokyo.jp/kurashi/sangyo/001/p035372.html',
+      'https://www.city.hachioji.tokyo.jp/kurashi/sangyo/002/002/005/index.html'
+    ],
+    sourceNote: '八王子市公式ページで令和8年度創業者販路拡大支援補助金、上限10万円、申請期限2027年1月31日を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'machida-housing-earthquake',
+    title: '町田市 木造住宅耐震化助成制度',
+    organization: '町田市',
+    type: 'local',
+    maxAmount: '耐震改修 最大242.4万円',
+    maxAmountNum: 242,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['町田市', '耐震改修', '木造住宅'],
+    eligibility: '町田市内の対象木造住宅の所有者が対象です。建築時期、耐震診断結果、世帯要件などにより助成上限が異なります。',
+    applicationPeriod: '交付申請期限は2026年12月11日まで',
+    deadlineDate: '2026-12-11',
+    description: '町田市が木造住宅の耐震診断、耐震設計、耐震改修を支援する制度です。耐震改修は一般世帯最大120万円、障がい者等世帯最大242.4万円が確認できます。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>旧耐震基準の木造住宅の安全性を高めるため、町田市が耐震化に関する診断・設計・改修を支援しています。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>耐震改修工事では、一般世帯最大120万円、障がい者等世帯最大242.4万円の助成が確認できます。</p>'
+      },
+      {
+        heading: '申請期限',
+        content: '<p>令和8年度の交付申請期限は2026年12月11日です。申請前に対象住宅と工事内容を市へ確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.machida.tokyo.jp/kurashi/sumai/house/earthquake-resistant/wooden/outline.html',
+    sourceName: '町田市 木造住宅耐震化助成制度',
+    sourceUrls: [
+      'https://www.city.machida.tokyo.jp/kurashi/sumai/house/earthquake-resistant/wooden/outline.html',
+      'https://www.city.machida.tokyo.jp/kurashi/sumai/house/earthquake-resistant/wooden/project.html',
+      'https://www.city.machida.tokyo.jp/kurashi/sumai/house/earthquake-resistant/wooden/construction.html'
+    ],
+    sourceNote: '町田市公式ページで木造住宅耐震化助成制度、耐震設計改修事業、一般世帯120万円、障がい者等世帯242.4万円、交付申請期限2026年12月11日を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'tachikawa-startup-support',
+    title: '立川市 創業資金（融資あっせん）',
+    organization: '立川市',
+    type: 'local',
+    maxAmount: '融資限度額 最大2,000万円',
+    maxAmountNum: 2000,
+    category: 'employment',
+    prefecture: '東京都',
+    tags: ['立川市', '創業支援', '融資'],
+    eligibility: '立川市内で創業する方、または創業後間もない中小企業者等が対象です。融資あっせん、利子補給、保証料補助等の条件を満たす必要があります。',
+    targetOccupation: '創業予定者・創業初期事業者',
+    applicationPeriod: '通年。金融機関・信用保証協会の審査あり',
+    description: '旧候補名の「創業支援補助金」として直接補助金は確認できませんでしたが、立川市公式で創業資金の融資あっせんを確認しました。融資限度額は最大2,000万円です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>立川市が創業者向けに金融機関の融資をあっせんし、創業時の資金調達を支援する制度です。</p>'
+      },
+      {
+        heading: '支援内容',
+        content: '<p>創業資金の融資限度額は最大2,000万円です。利子補給や信用保証料補助の対象となる場合があります。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>直接給付の補助金ではなく融資制度です。金融機関・信用保証協会の審査、返済条件、利子補給条件を確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.tachikawa.lg.jp/sangyo/shokogyo/1003810/1003840.html',
+    sourceName: '立川市 創業資金',
+    sourceUrls: [
+      'https://www.city.tachikawa.lg.jp/sangyo/shokogyo/1003810/1003840.html',
+      'https://www.city.tachikawa.lg.jp/sangyo/shokogyo/1003810/index.html',
+      'https://www.city.tachikawa.lg.jp/sangyo/shokogyo/1003810/1022195.html'
+    ],
+    sourceNote: '立川市公式ページで創業資金、融資限度額2,000万円、創業支援・特定創業支援等事業を確認。直接補助金ではないため公式制度名へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
