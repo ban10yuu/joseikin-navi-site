@@ -11,12 +11,12 @@ interface Props {
 }
 
 export function generateStaticParams() {
-  return getAllTags().map((tag) => ({ slug: tagToSlug(tag) }));
+  return getAllTags({ includeExpired: true }).map((tag) => ({ slug: tagToSlug(tag) }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const tag = slugToTag(slug);
+  const tag = slugToTag(slug, { includeExpired: true });
   if (!tag) return {};
 
   const title = `「${tag}」に関する助成金・補助金一覧`;
@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function TagPage({ params }: Props) {
   const { slug } = await params;
-  const tag = slugToTag(slug);
+  const tag = slugToTag(slug, { includeExpired: true });
   if (!tag) notFound();
 
   const grants = getGrantsByTag(tag);
@@ -65,6 +65,11 @@ export default async function TagPage({ params }: Props) {
             {visibleGrants.map((grant) => (
               <GrantCard key={grant.slug} grant={grant} />
             ))}
+            {visibleGrants.length === 0 && (
+              <div className="rounded-xl border-2 border-line-strong bg-wash p-5 text-sm text-muted">
+                現在公開中の制度はありません。期限切れの制度は一覧から外しています。
+              </div>
+            )}
             {grants.length > visibleGrants.length && (
               <div className="rounded-xl border-2 border-line-strong bg-wash p-5 text-sm text-muted">
                 該当制度は全{grants.length}件あります。表示は上位{visibleGrants.length}件に絞っています。

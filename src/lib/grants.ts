@@ -1,5 +1,6 @@
 import { Grant, GrantCategory, GrantType } from '@/lib/types';
 import { getGrantSourceStatus, hasOfficialSource, isManuallyVerifiedGrant } from '@/lib/grant-source';
+import { isGrantExpired } from '@/lib/deadline';
 import { getSearchTokens, matchesSearchText } from '@/lib/search';
 import { verifiedBusinessGrants2026 } from '@/data/grants/verified-business-2026';
 import { verifiedHyogoChildcareGrants2026 } from '@/data/grants/verified-hyogo-childcare-2026';
@@ -287,7 +288,7 @@ function sanitizeAuditedLinks(grant: Grant): Grant {
 
 const allGrants: Grant[] = dedupeGrantsBySlug(rawGrants.map(sanitizeAuditedLinks));
 
-export { getGrantSourceStatus, hasOfficialSource, isManuallyVerifiedGrant };
+export { getGrantSourceStatus, hasOfficialSource, isGrantExpired, isManuallyVerifiedGrant };
 
 function getSourceRank(grant: Grant): number {
   if (isManuallyVerifiedGrant(grant)) return 2;
@@ -295,24 +296,21 @@ function getSourceRank(grant: Grant): number {
   return 0;
 }
 
-function isDeadlineEnded(grant: Grant): boolean {
-  if (!grant.deadlineDate) return false;
-  const deadline = new Date(`${grant.deadlineDate}T23:59:59+09:00`);
-  return deadline.getTime() < Date.now();
-}
-
 const publishedGrants = [...allGrants].sort((a, b) => {
   const sourceDiff = getSourceRank(b) - getSourceRank(a);
   if (sourceDiff !== 0) return sourceDiff;
 
-  const activeDiff = Number(isDeadlineEnded(a)) - Number(isDeadlineEnded(b));
+  const activeDiff = Number(isGrantExpired(a)) - Number(isGrantExpired(b));
   if (activeDiff !== 0) return activeDiff;
 
   return b.maxAmountNum - a.maxAmountNum;
 });
 
-const officialLinkedGrants = publishedGrants.filter(hasOfficialSource);
-const manuallyVerifiedGrants = publishedGrants.filter(isManuallyVerifiedGrant);
+const activePublishedGrants = publishedGrants.filter((grant) => !isGrantExpired(grant));
+const expiredGrants = publishedGrants.filter((grant) => isGrantExpired(grant));
+const officialLinkedGrants = activePublishedGrants.filter(hasOfficialSource);
+const allOfficialLinkedGrants = publishedGrants.filter(hasOfficialSource);
+const manuallyVerifiedGrants = activePublishedGrants.filter(isManuallyVerifiedGrant);
 
 // ── All grants (unfiltered, for sitemap) ──
 export function getAllGrantsUnfiltered(): Grant[] {
@@ -321,29 +319,39 @@ export function getAllGrantsUnfiltered(): Grant[] {
 
 // ── Published grants ──
 export function getAllGrants(): Grant[] {
-  return publishedGrants;
+  return activePublishedGrants;
 }
 
-export function getOfficialLinkedGrants(): Grant[] {
-  return officialLinkedGrants;
+export function getOfficialLinkedGrants(options: { includeExpired?: boolean } = {}): Grant[] {
+  return options.includeExpired ? allOfficialLinkedGrants : officialLinkedGrants;
 }
 
 export function getManuallyVerifiedGrants(): Grant[] {
   return manuallyVerifiedGrants;
 }
 
+export function getExpiredGrants(): Grant[] {
+  return expiredGrants;
+}
+
 export function getGrantQualityStats(): {
   total: number;
+  unfilteredTotal: number;
   officialLinked: number;
   manuallyVerified: number;
   unverified: number;
   duplicatedSlugsRemoved: number;
+  active: number;
+  expired: number;
 } {
   return {
-    total: allGrants.length,
+    total: activePublishedGrants.length,
+    unfilteredTotal: allGrants.length,
+    active: activePublishedGrants.length,
+    expired: expiredGrants.length,
     officialLinked: officialLinkedGrants.length,
     manuallyVerified: manuallyVerifiedGrants.length,
-    unverified: allGrants.length - officialLinkedGrants.length,
+    unverified: activePublishedGrants.length - officialLinkedGrants.length,
     duplicatedSlugsRemoved: rawGrants.length - allGrants.length,
   };
 }
@@ -385,7 +393,7 @@ export function getRelatedGrants(grant: Grant, limit = 6): Grant[] {
 export function searchGrants(query: string): Grant[] {
   if (getSearchTokens(query).length === 0) return [];
 
-  return publishedGrants.filter(
+  return activePublishedGrants.filter(
     (g) => matchesSearchText(g.searchText || buildGrantSearchText(g), query)
   );
 }
@@ -395,9 +403,10 @@ export function getAllSlugs(): string[] {
 }
 
 // ── Tag utilities ──
-export function getAllTags(): string[] {
+export function getAllTags(options: { includeExpired?: boolean } = {}): string[] {
   const tagSet = new Set<string>();
-  officialLinkedGrants.forEach((g) => g.tags.forEach((t) => tagSet.add(t)));
+  const pool = options.includeExpired ? allOfficialLinkedGrants : officialLinkedGrants;
+  pool.forEach((g) => g.tags.forEach((t) => tagSet.add(t)));
   return Array.from(tagSet).sort();
 }
 
@@ -409,9 +418,9 @@ export function tagToSlug(tag: string): string {
   return encodeURIComponent(tag.toLowerCase().replace(/\s+/g, '-'));
 }
 
-export function slugToTag(slug: string): string | undefined {
+export function slugToTag(slug: string, options: { includeExpired?: boolean } = {}): string | undefined {
   const decoded = decodeURIComponent(slug);
-  const tags = getAllTags();
+  const tags = getAllTags(options);
   return tags.find(
     (t) => t.toLowerCase().replace(/\s+/g, '-') === decoded
   );

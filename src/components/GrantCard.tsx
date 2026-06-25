@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { CATEGORY_LABELS, TYPE_LABELS, GrantCategory, GrantType } from '@/lib/types';
+import { getDeadlineStatus, DeadlineStatus } from '@/lib/deadline';
 import { getGrantSourceStatus } from '@/lib/grant-source';
 
 export interface GrantCardItem {
@@ -32,30 +33,10 @@ const CATEGORY_IMAGES: Record<GrantCategory, string> = {
   disaster: '/images/categories/disaster.png',
 };
 
-type DeadlineStatus = 'year-round' | 'ending-soon' | 'ended' | 'budget-limited' | null;
-
-function getDeadlineStatus(grant: GrantCardItem): DeadlineStatus {
-  const period = grant.applicationPeriod;
-
-  if (grant.deadlineDate) {
-    const deadline = new Date(grant.deadlineDate);
-    const now = new Date();
-    const daysLeft = Math.ceil((deadline.getTime() - now.getTime()) / 86400000);
-    if (daysLeft < 0) return 'ended';
-    if (daysLeft <= 30) return 'ending-soon';
-    return null;
-  }
-
-  if (period.includes('通年') || period.includes('随時')) return 'year-round';
-  if (period.includes('予算') || period.includes('先着')) return 'budget-limited';
-
-  return null;
-}
-
 const DEADLINE_BADGES: Record<NonNullable<DeadlineStatus>, { label: string; className: string }> = {
   'year-round': { label: '通年受付', className: 'bg-emerald-50 text-emerald-800 border-emerald-300' },
   'ending-soon': { label: '締切間近', className: 'bg-accent-wash text-accent-deep border-accent' },
-  'ended': { label: '受付終了', className: 'bg-gray-100 text-gray-500 border-gray-300' },
+  'ended': { label: '期限切れ', className: 'bg-red-50 text-red-800 border-red-300' },
   'budget-limited': { label: '予算次第', className: 'bg-amber-50 text-amber-800 border-amber-300' },
 };
 
@@ -116,6 +97,12 @@ export default function GrantCard({ grant }: { grant: GrantCardItem }) {
         <span className="shrink-0 font-bold text-navy">申請</span>
         <span className="line-clamp-1">{grant.applicationPeriod}</span>
       </div>
+
+      {isEnded && (
+        <div className="mb-2 rounded-md border border-red-200 bg-red-50 px-3 py-2 text-xs font-bold text-red-800">
+          これは期限が切れています。次回募集や後継制度は公式サイトで確認してください。
+        </div>
+      )}
 
       {/* 概要（2行で切る） */}
       <p className="text-sm text-muted mb-2 line-clamp-2">{grant.description}</p>

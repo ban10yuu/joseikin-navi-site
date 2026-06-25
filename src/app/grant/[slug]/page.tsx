@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { getGrantBySlug, getGrantSourceStatus, getOfficialLinkedGrants, getRelatedGrants, hasOfficialSource } from '@/lib/grants';
+import { getGrantBySlug, getGrantSourceStatus, getOfficialLinkedGrants, getRelatedGrants, hasOfficialSource, isGrantExpired } from '@/lib/grants';
 import { CATEGORY_LABELS, TYPE_LABELS, GrantCategory } from '@/lib/types';
 
 const CATEGORY_IMAGES: Record<GrantCategory, string> = {
@@ -28,7 +28,7 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-  return getOfficialLinkedGrants().map((grant) => ({ slug: grant.slug }));
+  return getOfficialLinkedGrants({ includeExpired: true }).map((grant) => ({ slug: grant.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -37,8 +37,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!grant) return {};
 
   const sourceStatus = getGrantSourceStatus(grant);
+  const expired = isGrantExpired(grant);
   const title = `${grant.title} ${grant.maxAmount}【申請方法・条件・必要書類】`;
-  const description = sourceStatus.level === 'unverified'
+  const description = expired
+    ? `${grant.title}は掲載上の申請期限が過ぎています。次回募集や後継制度の有無は公式サイトで確認してください。`
+    : sourceStatus.level === 'unverified'
     ? `${grant.title}の概要ページです。公式出典が未登録のため、申請前に自治体・公式窓口で最新条件を必ず確認してください。`
     : `${grant.title}の申請方法・受給条件・必要書類を解説。${grant.maxAmount}の支給が受けられる${CATEGORY_LABELS[grant.category]}の制度です。申請前に公式サイトで最新条件を確認してください。`;
 
@@ -55,7 +58,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: {
       canonical: `https://joseikin-navi-site.vercel.app/grant/${slug}/`,
     },
-    robots: sourceStatus.level === 'unverified'
+    robots: sourceStatus.level === 'unverified' || expired
       ? {
           index: false,
           follow: true,
@@ -74,6 +77,7 @@ export default async function GrantDetailPage({ params }: Props) {
   const baseUrl = 'https://joseikin-navi-site.vercel.app';
   const sourceStatus = getGrantSourceStatus(grant);
   const sourceUrls = grant.sourceUrls?.length ? grant.sourceUrls : hasOfficialSource(grant) ? [grant.officialUrl] : [];
+  const expired = isGrantExpired(grant);
 
   return (
     <>
@@ -138,6 +142,15 @@ export default async function GrantDetailPage({ params }: Props) {
               </div>
 
               <p className="text-sm text-ink mb-5">{grant.description}</p>
+
+              {expired && (
+                <div className="mb-5 rounded-xl border-2 border-red-300 bg-red-50 p-4 text-sm text-red-900">
+                  <p className="font-black mb-1">これは期限が切れています</p>
+                  <p>
+                    掲載している申請期限は過ぎています。次回募集、後継制度、予算再開の有無は公式サイトまたは担当窓口で確認してください。
+                  </p>
+                </div>
+              )}
 
               <table className="info-table w-full text-sm border-collapse border-2 border-line-strong rounded-lg overflow-hidden">
                 <tbody>

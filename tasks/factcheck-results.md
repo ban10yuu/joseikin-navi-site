@@ -19,6 +19,47 @@
 
 ---
 
+## 2026-06-25 期限切れ制御・リンク監査
+
+### 実装した期限切れ対応
+
+- `deadlineDate` が現在日を過ぎた制度は、公開一覧・検索・カテゴリ・都道府県・タグ・サイトマップの通常表示対象から除外する。
+- 既存URL維持のため、公式リンクありの期限切れ詳細ページは静的生成を継続する。
+- 期限切れ詳細ページには「これは期限が切れています」を表示し、`noindex, follow` を付与する。
+- 期限切れ詳細から遷移するタグページは生成対象に含めるが、期限切れ制度自体はタグ一覧には表示しない。
+
+### 期限切れとして検出した制度
+
+| slug | 制度名 | deadlineDate | 対応 |
+|---|---|---:|---|
+| `sompo-japan-environment-grant` | SOMPO環境財団 環境保全プロジェクト助成 | 2025-10-19 | 一覧・検索・sitemapから除外。詳細ページで期限切れ警告とnoindexを表示。 |
+
+### 生成物確認
+
+| 対象 | 結果 |
+|---|---|
+| `out/sitemap.xml` | `sompo-japan-environment-grant` なし |
+| `out/index.html` | `sompo-japan-environment-grant` なし |
+| `out/grants/index.html` | `sompo-japan-environment-grant` なし |
+| `out/category/living/index.html` | `sompo-japan-environment-grant` なし |
+| `out/grant/sompo-japan-environment-grant/index.html` | 詳細ページあり。期限切れ警告あり。`noindex` あり。 |
+
+### リンク監査結果
+
+対象は `out/**/*.html` と `out/**/*.xml` の `href` / `src` 属性のみ。RSC内のエスケープ済み文字列は誤検知防止のため対象外。
+
+| 項目 | 結果 |
+|---|---:|
+| HTML/XMLファイル | 551 |
+| 抽出URL | 1055 |
+| 監査URL（font preconnect除外後） | 1052 |
+| OK | 1052 |
+| broken | 0 |
+
+内訳: `LOCAL` 787件、`HEAD` 263件、`GET_AFTER_HEAD` 2件、すべてHTTP 200またはローカル存在確認OK。
+
+---
+
 ## 2. 重複チェック結果
 
 ### 2-A. slug重複（致命的 -- ビルドエラーやルーティング衝突の原因）
