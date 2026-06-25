@@ -138,4 +138,11 @@
 - [x] `npm run audit:coverage`（期限切れ6件、手動公式確認済み233件、公式リンクあり未確認19件、failures 0）
 - [x] `npm run audit:deadlines`（期限切れ6件を通常一覧から除外、failures 0）
 - [x] `npm run audit:links` 1588件OK / broken 0
+- [x] 民間・NPO系19件を公式確認済みデータで追加・置換（赤い羽根、住友財団、洲崎福祉財団、正力厚生会、電通育英会、太陽生命厚生財団、つなぐいのち基金を通常公開。締切済み・公式確認不可12件は通常一覧から除外）
+- [x] 追加後の `npx eslint src/data/grants/verified-ngo-misc-2026.ts src/lib/grants.ts`（エラー0）
+- [x] 追加後の `npm run lint`（既存警告5件、エラー0）
+- [x] 追加後の `npm run build`（783静的ページ）
+- [x] `npm run audit:coverage`（期限切れ18件、手動公式確認済み240件、公式リンクあり未確認0件、failures 0）
+- [x] `npm run audit:deadlines`（期限切れ18件を通常一覧から除外、failures 0）
+- [x] `npm run audit:links` 1584件OK / broken 0
 - [ ] 全国網羅の次段階: 公式確認済みデータを都道府県・市区町村単位で追加し、未確認LLM生成データを順次置換する
