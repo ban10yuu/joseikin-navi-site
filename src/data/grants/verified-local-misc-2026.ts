@@ -17942,6 +17942,36 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-27',
   },
   {
+    slug: 'yamagata-city-school-lunch',
+    title: '山形市 令和8年度学校給食費の保護者負担軽減',
+    organization: '山形市',
+    type: 'local',
+    maxAmount: '小学校は保護者負担なし',
+    maxAmountNum: 5,
+    category: 'education',
+    relatedCategories: ['childcare', 'living'],
+    prefecture: '山形県',
+    tags: ['山形市', '山形県', '学校給食', '給食費', '小学校', '中学校', '令和8年度'],
+    eligibility: '山形市立小学校・中学校で学校給食の提供を受ける児童生徒の保護者が対象です。小学校は令和8年度から保護者負担なし、中学校は1食305円の保護者負担として案内されています。',
+    applicationPeriod: '令和8年度。学校給食費として適用',
+    description: '山形市が、国の給食費負担軽減交付金などを活用して実施する学校給食費の保護者負担軽減です。令和8年度は小学校の保護者負担がなく、中学校は市が食材費等の一部を負担して保護者負担を1食305円に抑えます。',
+    sections: [
+      { heading: '制度の概要', content: '<p>山形市の学校給食費負担軽減は、令和8年度の学校給食費について保護者負担を抑える制度です。公式ページでは、小学校は保護者負担なし、中学校は保護者負担1食305円と案内されています。</p>' },
+      { heading: '給食費の内容', content: '<p>小学校については、令和8年度から始まった国の支援制度を活用し、保護者の負担なく栄養バランスや量を保った学校給食を提供するとされています。中学校については、食材費等が増大する中、国の物価高騰対応重点支援地方創生臨時交付金等を活用し、市が食材費等の一部を負担することで、保護者負担を増やさず1食305円としています。</p>' },
+      { heading: '注意点', content: '<p>旧生成データでは小中学校の給食費全額無償化としていましたが、公式ページで確認できる令和8年度の内容は、小学校が保護者負担なし、中学校が1食305円の保護者負担です。経済的支援が必要な世帯には、学用品費や学校給食費などを支給する就学援助制度も別に案内されています。</p>' }
+    ],
+    officialUrl: 'https://www.city.yamagata-yamagata.lg.jp/kosodatekyoiku/school/1006636/1002291.html',
+    sourceName: '山形市 学校給食について',
+    sourceUrls: [
+      'https://www.city.yamagata-yamagata.lg.jp/kosodatekyoiku/school/1006636/1002291.html',
+      'https://www.city.yamagata-yamagata.lg.jp/kosodatekyoiku/school/1006629/1008633.html',
+      'https://www.city.yamagata-yamagata.lg.jp/_res/projects/default_project/_page_/001/002/477/r8uneihousin.pdf'
+    ],
+    sourceNote: '山形市公式の学校給食ページで、令和8年度学校給食費として小学校は保護者負担なし、中学校は保護者負担1食305円、国の支援制度や重点支援地方創生臨時交付金等を活用して栄養バランスや量を保った給食を提供することを確認。教育委員会運営方針PDFで、小学校給食費は給食費負担金の徴収を行わず保護者負担軽減を図り、中学校給食費は保護者負担を増やさず提供することを補助確認。就学援助ページで、経済的支援を必要とする家庭向けに学校給食費等を支給する別制度を確認。旧生成データの小中学校全額無償化から公式確認済みの令和8年度負担軽減へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
+  {
     slug: 'akita-city-iju-teiju',
     title: '秋田市 若者移住促進事業補助金',
     organization: '秋田市',
