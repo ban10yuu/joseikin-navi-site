@@ -17279,4 +17279,34 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'tokushima-city-nursing-home-reform',
+    title: '徳島市 高齢者住宅改造費助成事業',
+    organization: '徳島市',
+    type: 'local',
+    maxAmount: '最大15万円',
+    maxAmountNum: 15,
+    category: 'nursing',
+    relatedCategories: ['housing', 'living'],
+    prefecture: '徳島県',
+    tags: ['徳島市', '徳島県', '高齢者住宅改造', '住宅改修', 'バリアフリー'],
+    eligibility: '身体が虚弱な65歳以上の人がいる所得税非課税世帯が対象です。介護保険で要支援・要介護の認定を受けた人は、介護保険の住宅改修制度の事前相談が必要です。',
+    applicationPeriod: '通年。予算額に達した時点で当該年度の受付終了',
+    description: '徳島市が、身体が虚弱な高齢者のために行う手すりやすべりどめ設置などの住宅改造に対し、費用の一部を助成する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>徳島市高齢者住宅改造費助成事業は、高齢者の転倒予防や在宅生活の安全確保のため、手すり、すべりどめの設置などの住宅改造を支援する制度です。既存の生成データでは介護保険の住宅改修費に上乗せして最大25万円としていましたが、公式ページで確認できる市独自制度は上限15万円です。</p>' },
+      { heading: '助成内容', content: '<p>高齢者のために行う住宅改造に対し、15万円を上限に助成します。公式FAQでは、介護保険の住宅改修は20万円を限度基準額として7割から9割を支給する制度であり、福祉事業としての高齢者住宅改造費助成制度とは併給可能と案内されています。</p>' },
+      { heading: '申請の注意点', content: '<p>工事に着工する前に申請が必要です。予算額に達した時点で当該年度の受付は終了します。住宅改修支援事業を利用すると、建築の専門家による訪問や申請サポートを受けられるため、改造内容に不安がある場合は事前に相談してください。</p>' }
+    ],
+    officialUrl: 'https://www.city.tokushima.tokushima.jp/smph/kenko_fukushi/kourei_fukushi/kourei_house/kaizouhi.html',
+    sourceName: '徳島市 高齢者住宅改造費助成事業',
+    sourceUrls: [
+      'https://www.city.tokushima.tokushima.jp/smph/kenko_fukushi/kourei_fukushi/kourei_house/kaizouhi.html',
+      'https://www.city.tokushima.tokushima.jp/smph/faq/kaigo_hoken/service/jutaku_kaishu.html',
+      'https://www.city.tokushima.tokushima.jp/smph/kenko_fukushi/kaigo/kounyuhi.html'
+    ],
+    sourceNote: '徳島市公式ページで、2026年4月18日最終更新、高齢者のために行う住宅改造に上限15万円を助成、着工前申請、予算額到達時に受付終了、対象者は身体が虚弱な65歳以上の人がいる所得税非課税世帯、要支援・要介護認定者は介護保険住宅改修制度の事前相談が必要と確認。公式FAQで介護保険住宅改修費との併給可能性、介護保険ページで住宅改修費の支給限度基準額20万円を確認。旧生成データの上限25万円から現行制度へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
