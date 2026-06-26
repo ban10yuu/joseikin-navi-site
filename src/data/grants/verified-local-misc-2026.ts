@@ -5858,4 +5858,153 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'kanagawa-care-robot-ict-support-2026',
+    title: '神奈川県 介護ロボット・ICT導入支援事業費補助金',
+    organization: '神奈川県',
+    type: 'local',
+    maxAmount: '最大1,000万円',
+    maxAmountNum: 1000,
+    category: 'nursing',
+    prefecture: '神奈川県',
+    tags: ['神奈川県', '介護ロボット', 'ICT', '介護テクノロジー', '介護事業所'],
+    eligibility: '神奈川県内の介護サービス事業所等で、介護ロボット・ICT等を活用して職員の負担軽減や業務改善に取り組む事業者が対象です。',
+    targetOccupation: '神奈川県内の介護サービス事業者等',
+    applicationPeriod: '令和8年度の補助内容及び申請期間は未定。公式ページで最新情報を確認',
+    description: '神奈川県が、介護現場の生産性向上と職員の負担軽減を目的に、介護ロボット・ICT等の導入を支援する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>神奈川県介護ロボット・ICT導入支援事業費補助金は、介護サービス需要の増加と担い手不足に対応するため、介護ロボット、ICT機器、介護テクノロジーの導入を支援する制度です。</p>'
+      },
+      {
+        heading: '補助メニュー',
+        content: '<p>介護テクノロジー等の導入支援、介護テクノロジーのパッケージ型導入支援、導入支援と一体的に行う業務支援が案内されています。令和8年度の補助内容と申請期間は公式ページで未定とされています。</p>'
+      },
+      {
+        heading: '補助上限',
+        content: '<p>公式ページでは、介護テクノロジー等の導入支援は1事業所あたり上限500万円、パッケージ型導入支援は1事業所あたり上限1,000万円、業務改善支援は1事業所あたり上限48万円と案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.kanagawa.jp/docs/u6s/cnt/f420373/p1075201.html',
+    sourceName: '神奈川県 介護ロボット・ICT導入支援事業費補助金',
+    sourceUrls: [
+      'https://www.pref.kanagawa.jp/docs/u6s/cnt/f420373/p1075201.html'
+    ],
+    sourceNote: '神奈川県公式ページで令和8年度の補助内容及び申請期間は未定、介護テクノロジー等導入支援、パッケージ型導入支援、上限500万円・1,000万円等を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'mie-care-technology-support-2026',
+    title: '三重県 介護テクノロジー導入支援事業費補助金',
+    organization: '三重県',
+    type: 'local',
+    maxAmount: '事業区分により異なる',
+    maxAmountNum: 0,
+    category: 'nursing',
+    prefecture: '三重県',
+    tags: ['三重県', '介護テクノロジー', '介護ロボット', 'ICT', '介護事業所'],
+    eligibility: '三重県内に所在する介護保険法に基づくサービス事業所・施設、養護老人ホーム、軽費老人ホームが対象です。',
+    targetOccupation: '三重県内の介護サービス事業者・福祉事業者等',
+    applicationPeriod: '令和8年6月1日から令和8年7月6日まで',
+    deadlineDate: '2026-07-06',
+    description: '三重県が、介護現場の業務改善と職員の負担軽減を目的に、介護テクノロジーの導入を支援する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>令和8年度三重県介護テクノロジー導入支援事業費補助金は、介護サービス事業所等が介護テクノロジーを導入し、介護現場の生産性向上や職員の負担軽減を進める取組を支援する制度です。</p>'
+      },
+      {
+        heading: '対象事業',
+        content: '<p>介護テクノロジー等の導入支援事業、介護テクノロジー等のパッケージ型導入支援事業、導入支援と一体的に行う業務改善支援事業が対象です。</p>'
+      },
+      {
+        heading: '申請期間',
+        content: '<p>交付申請の募集期間は令和8年6月1日から令和8年7月6日までです。申請は原則としてLogoフォームから提出し、介護テクノロジー導入支援研修会への参加と調査票回答が補助要件の一つとされています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.mie.lg.jp/CHOJUS/HP/m0072500225.htm',
+    sourceName: '三重県 令和8年度三重県介護テクノロジー導入支援事業費補助金',
+    sourceUrls: [
+      'https://www.pref.mie.lg.jp/CHOJUS/HP/m0072500225.htm'
+    ],
+    sourceNote: '三重県公式ページで令和8年度介護テクノロジー導入支援事業費補助金、対象事業所、対象事業、募集期間2026年6月1日から7月6日を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'shizuoka-care-technology-support-2026',
+    title: '静岡県 介護テクノロジー定着支援事業費補助金',
+    organization: '静岡県',
+    type: 'local',
+    maxAmount: '詳細公開予定',
+    maxAmountNum: 0,
+    category: 'nursing',
+    prefecture: '静岡県',
+    tags: ['静岡県', '介護テクノロジー', '介護ロボット', 'ICT', '介護事業所'],
+    eligibility: '静岡県内の介護サービス事業所等で、令和8年度介護テクノロジー定着支援事業の要件を満たす事業者が対象です。',
+    targetOccupation: '静岡県内の介護サービス事業者等',
+    applicationPeriod: '令和8年度の提出期間は準備中。公式ページで順次更新',
+    description: '静岡県が、介護テクノロジーの導入と定着を通じて、介護現場の業務改善と職員の負担軽減を支援する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>令和8年度静岡県介護テクノロジー定着支援事業費補助金は、介護テクノロジーの導入・定着を支援する制度です。事業内容は公式ページで順次更新されます。</p>'
+      },
+      {
+        heading: '申請前の確認',
+        content: '<p>令和8年度の申請開始にあたり、事業者向け説明会の実施が予定されています。申請する事業所は、補助内容や申請時の注意点を確認するため、説明会への参加が求められています。</p>'
+      },
+      {
+        heading: '手続き',
+        content: '<p>交付申請の提出期間と提出書類は準備中です。交付決定通知前に契約や発注を行うと補助対象外になるため、交付決定後に事業へ着手する必要があります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.shizuoka.jp/kenkofukushi/koreifukushi/kaigohoken/1083217.html',
+    sourceName: '静岡県 令和8年度「介護テクノロジー定着支援事業費補助金」',
+    sourceUrls: [
+      'https://www.pref.shizuoka.jp/kenkofukushi/koreifukushi/kaigohoken/1083217.html'
+    ],
+    sourceNote: '静岡県公式ページで令和8年度介護テクノロジー定着支援事業費補助金、事業者向け説明会予定、提出期間・提出書類準備中、交付決定前着手不可を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kagoshima-care-technology-support-2026',
+    title: '鹿児島県 介護テクノロジー導入支援事業',
+    organization: '鹿児島県',
+    type: 'local',
+    maxAmount: '詳細公開予定',
+    maxAmountNum: 0,
+    category: 'nursing',
+    prefecture: '鹿児島県',
+    tags: ['鹿児島県', '介護テクノロジー', '介護ロボット', '介護事業所', '研修'],
+    eligibility: '鹿児島県内で介護テクノロジー導入支援事業の活用を希望し、国や県が開催する研修受講などの要件を満たす介護事業所等が対象です。',
+    targetOccupation: '鹿児島県内の介護サービス事業者等',
+    applicationPeriod: '令和8年8月から9月頃に募集開始予定',
+    description: '鹿児島県が、介護テクノロジー導入を通じて介護現場の生産性向上と業務改善を支援する事業です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>令和8年度鹿児島県介護テクノロジー導入支援事業は、介護テクノロジーの導入により、介護現場の業務改善と生産性向上を進める事業所を支援する制度です。</p>'
+      },
+      {
+        heading: '申請前の要件',
+        content: '<p>国や県が開催する研修の受講が要件の一つです。厚生労働省の生産性向上ビギナーセミナーとフォローアップセミナー、または県介護生産性向上総合相談センターが開催する研修の受講が案内されています。</p>'
+      },
+      {
+        heading: '募集予定',
+        content: '<p>令和8年度の募集開始は令和8年8月から9月頃の予定です。県は最新情報を公式ページの上部で随時更新すると案内しています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.kagoshima.jp/ae05/r8tekunoroji-/r8tekunoroji-.html',
+    sourceName: '鹿児島県 【令和8年度】介護テクノロジー導入支援事業について',
+    sourceUrls: [
+      'https://www.pref.kagoshima.jp/ae05/r8tekunoroji-/r8tekunoroji-.html'
+    ],
+    sourceNote: '鹿児島県公式ページで令和8年度介護テクノロジー導入支援事業、研修受講要件、令和8年8月から9月頃募集開始予定を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
