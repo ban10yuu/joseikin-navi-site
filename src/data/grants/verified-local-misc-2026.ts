@@ -6612,4 +6612,152 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'fukui-senior-home-environment-support',
+    title: '福井市 住まい環境整備支援事業',
+    organization: '福井市',
+    type: 'local',
+    maxAmount: '最大80万円',
+    maxAmountNum: 80,
+    category: 'nursing',
+    prefecture: '福井県',
+    tags: ['福井市', '高齢者', '住宅改修', 'バリアフリー', '介護'],
+    eligibility: '福井市に住所があり在宅で生活する要介護3以上の方、または要介護1・2で車いす利用など一定の要件を満たす方がいる世帯が対象です。世帯の所得要件と市税完納要件があります。',
+    targetOccupation: '福井市内の要介護認定を受けた高齢者世帯',
+    applicationPeriod: '工事着工前に指定居宅介護支援事業者または地域包括支援センターへ相談して申請',
+    description: '福井市が、介護が必要な高齢者の在宅生活を支えるため、廊下・浴室・トイレの改修や段差解消機の設置など住宅環境整備費の一部を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>住まい環境整備支援事業は、介護が必要な高齢者が在宅での生活を長く継続できるよう、住宅環境の整備に必要な費用の一部を補助する制度です。</p>'
+      },
+      {
+        heading: '対象工事',
+        content: '<p>廊下・トイレ・浴室等の拡幅、洗面台や流し台の取替え、階段昇降機や段差解消機の設置、扉の新設、寝室内への便器設置、福祉用具設置のための床・壁補強などが対象です。介護保険給付に該当する工事、新築・増築・賃貸物件は対象外です。</p>'
+      },
+      {
+        heading: '助成額',
+        content: '<p>生活保護・市民税非課税世帯は助成率10分の9で上限80万円、合計所得320万円未満の世帯は助成率2分の1で上限40万円、総所得から基礎控除を差し引いた額が600万円未満の世帯は助成率4分の1で上限20万円です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.fukui.lg.jp/fukusi/kfukusi/ssien/jyukankyo.html',
+    sourceName: '福井市 住宅改修費の一部を助成します',
+    sourceUrls: [
+      'https://www.city.fukui.lg.jp/fukusi/kfukusi/ssien/jyukankyo.html'
+    ],
+    sourceNote: '福井市公式ページで住まい環境整備支援事業、対象者、対象工事、着工前申請、助成率10分の9・2分の1・4分の1、上限80万円・40万円・20万円を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kofu-care-home-renovation-support',
+    title: '甲府市 介護保険住宅改修費支給',
+    organization: '甲府市',
+    type: 'local',
+    maxAmount: '対象工事20万円まで（自己負担1〜3割）',
+    maxAmountNum: 20,
+    category: 'nursing',
+    prefecture: '山梨県',
+    tags: ['甲府市', '介護保険', '住宅改修', 'バリアフリー', '高齢者'],
+    eligibility: '甲府市で要支援・要介護認定を受け、ケアマネジャー等の意見に基づき手すり設置や段差解消などの住宅改修が必要な方が対象です。',
+    targetOccupation: '甲府市内の要支援・要介護認定者',
+    applicationPeriod: '工事着工前に長寿介護課へ事前申請。通年で相談・申請可能',
+    description: '甲府市が、要支援・要介護認定者の自宅での生活環境を整えるため、手すりの取り付けや段差解消など小規模な住宅改修費を支給する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>住宅改修費支給は、要支援・要介護者が居住する住宅に対し、厚生労働大臣が定める種類の小規模改修を行った場合に費用の一部を支給する介護保険制度です。</p>'
+      },
+      {
+        heading: '対象工事',
+        content: '<p>手すりの取り付け、段差の解消、床または通路面の床材変更、引き戸等への扉の取り替え、洋式便器等への便器の取り替えや位置・向きの変更、これらに付帯する工事が対象です。</p>'
+      },
+      {
+        heading: '支給内容',
+        content: '<p>住宅改修にかかった費用のうち20万円を支給限度基準額として、9割が支給されます。一定以上所得者は8割または7割の支給です。工事着工前の申請がない場合は支給されません。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.kofu.yamanashi.jp/kaigohoken/kenko/fukushi/kaigo/kyufu/jutaku.html',
+    sourceName: '甲府市 住宅改修（介護予防含む）',
+    sourceUrls: [
+      'https://www.city.kofu.yamanashi.jp/kaigohoken/kenko/fukushi/kaigo/kyufu/jutaku.html'
+    ],
+    sourceNote: '甲府市公式ページで介護保険住宅改修費、対象工事、20万円上限、9割・8割・7割支給、工事着工前申請が必要であることを確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'nagano-senior-home-renovation-support',
+    title: '長野市 要介護被保険者等住宅整備事業',
+    organization: '長野市',
+    type: 'local',
+    maxAmount: '最大63万円',
+    maxAmountNum: 63,
+    category: 'nursing',
+    prefecture: '長野県',
+    tags: ['長野市', '高齢者', '住宅整備', '住宅改修', '非課税世帯'],
+    eligibility: '長野市で在宅生活している要介護・要支援認定者がいる世帯で、同一住居・同一生計の全員が市町村民税非課税であり、介護保険料の滞納がない場合が対象です。',
+    targetOccupation: '長野市内の要介護・要支援認定者世帯',
+    applicationPeriod: '工事実施前に交付申請と交付決定が必要。通年で相談・申請可能',
+    description: '長野市が、介護が必要な要介護・要支援認定者の自立支援を目的に、住宅整備費の一部を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>要介護被保険者等住宅整備事業は、介護が必要な要介護・要支援認定者の自立支援を目的とした住宅改修に対して、補助金を交付する制度です。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>在宅で生活している要介護・要支援認定者がいる世帯が対象です。同一の住居と生計を一にしている全員の市町村民税が非課税であること、要介護被保険者等が介護保険料を滞納していないことが条件です。</p>'
+      },
+      {
+        heading: '補助額と注意点',
+        content: '<p>住宅整備に要する経費の9割が補助され、交付額は補助限度基準額70万円の9割である63万円が上限です。1世帯1回限りで、必ず工事実施前の交付申請と交付決定が必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.nagano.nagano.jp/n101500/contents/p002439.html',
+    sourceName: '長野市 要介護被保険者等住宅整備事業',
+    sourceUrls: [
+      'https://www.city.nagano.nagano.jp/n101500/contents/p002439.html'
+    ],
+    sourceNote: '長野市公式ページで要介護被保険者等住宅整備事業、非課税世帯要件、介護保険料滞納なし、補助率9割、上限63万円、工事前の交付申請と決定が必要であることを確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kanazawa-senior-home-renovation-support',
+    title: '金沢市 要介護高齢者等の生活自立のための住まいづくり助成',
+    organization: '金沢市',
+    type: 'local',
+    maxAmount: '最大100万円',
+    maxAmountNum: 100,
+    category: 'nursing',
+    prefecture: '石川県',
+    tags: ['金沢市', '高齢者', '住宅改修', '住まいづくり', '介護'],
+    eligibility: '金沢市内の自宅で生活する要介護高齢者等が、自立した生活をしやすくするために住宅整備を行う世帯が対象です。生活保護等世帯、非課税世帯、一定額以下の所得税課税世帯が対象区分です。',
+    targetOccupation: '金沢市内の要介護高齢者等の世帯',
+    applicationPeriod: '住宅整備を行う前に申請。年度予算の範囲内で交付',
+    description: '金沢市が、要介護高齢者等が自宅で自立した生活を営めるよう、浴室・便所等の増設や改造に要する費用を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>要介護高齢者等の生活自立のための住まいづくり助成は、要介護高齢者等が自宅で自立した生活をしやすくするための住宅整備費を助成する制度です。</p>'
+      },
+      {
+        heading: '対象となる住宅整備',
+        content: '<p>要介護高齢者等が居住する住宅で、その方の使用に適する浴室・便所等を増設したり、浴室・便所等を使用しやすいように改造したりする工事が対象です。</p>'
+      },
+      {
+        heading: '助成上限',
+        content: '<p>助成金は工事区分ごとの助成率と限度額に基づき算定され、生活保護等世帯は100万円、非課税世帯は70万円、所得税課税世帯は50万円が総額上限です。市税を滞納している世帯は対象外です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.kanazawa.ishikawa.jp/reiki/reiki_honbun/a400RG00001114.html',
+    sourceName: '金沢市 要介護高齢者等の生活自立のための住まいづくりに関する助成金交付要綱',
+    sourceUrls: [
+      'https://www.city.kanazawa.ishikawa.jp/reiki/reiki_honbun/a400RG00001114.html'
+    ],
+    sourceNote: '金沢市公式例規ページで要介護高齢者等の生活自立のための住まいづくり助成、対象世帯、対象工事、生活保護等世帯100万円・非課税世帯70万円・所得税課税世帯50万円の上限を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
