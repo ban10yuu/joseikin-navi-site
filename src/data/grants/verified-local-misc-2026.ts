@@ -7056,4 +7056,227 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'takamatsu-care-home-renovation-support',
+    title: '高松市 介護保険住宅改修費支給',
+    organization: '高松市',
+    type: 'local',
+    maxAmount: '対象工事20万円まで（自己負担1〜3割）',
+    maxAmountNum: 20,
+    category: 'nursing',
+    prefecture: '香川県',
+    tags: ['高松市', '介護保険', '住宅改修', 'バリアフリー', '高齢者'],
+    eligibility: '高松市で要支援1・2または要介護1から5の認定を受けている在宅の方が対象です。施設介護サービス利用中や入院中の方は原則対象外です。',
+    targetOccupation: '高松市内の要支援・要介護認定者',
+    applicationPeriod: '工事着工前に介護保険課へ事前申請',
+    description: '高松市が、要支援・要介護認定者の住まいで手すり設置や段差解消などを行う場合に、20万円を限度に住宅改修費を支給する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>高松市の住宅改修費支給は、要支援・要介護認定を受けた方が、現に居住する住宅で生活環境を整えるための改修を行う場合に介護保険給付を受けられる制度です。</p>'
+      },
+      {
+        heading: '対象工事',
+        content: '<p>手すりの取り付け、段差の解消、滑り防止や移動円滑化のための床または通路面の材料変更、引き戸等への扉の取り替え、洋式便器等への便器の取り替え、これらに付帯して必要な工事が対象です。</p>'
+      },
+      {
+        heading: '支給内容',
+        content: '<p>支給限度基準額は20万円で、住宅改修に要した費用の9割、8割または7割に相当する額が保険給付されます。すでに着工または完了している工事は支給対象になりません。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.takamatsu.kagawa.jp/smph/kurashi/kurashi/nenkin/kaigohoken/service_price/shurui/kaishu.html',
+    sourceName: '高松市 住宅改修',
+    sourceUrls: [
+      'https://www.city.takamatsu.kagawa.jp/smph/kurashi/kurashi/nenkin/kaigohoken/service_price/shurui/kaishu.html'
+    ],
+    sourceNote: '高松市公式ページで介護保険住宅改修、要支援1・2または要介護1から5、対象工事、支給限度基準額20万円、9割・8割・7割給付、事前申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kochi-senior-home-renovation-support',
+    title: '高知市 住宅改造助成事業',
+    organization: '高知市',
+    type: 'local',
+    maxAmount: '最大45万円',
+    maxAmountNum: 45,
+    category: 'nursing',
+    prefecture: '高知県',
+    tags: ['高知市', '高齢者', '住宅改造', 'バリアフリー', '介護'],
+    eligibility: '高知市で介護保険の要介護認定または要支援認定を受けた方が、介護保険住宅改修の上乗せとして住宅改造を行う場合が対象です。',
+    targetOccupation: '高知市内の要支援・要介護認定者',
+    applicationPeriod: 'すべての事業で工事前に申請書の提出が必要',
+    description: '高知市が、高齢者や障害者が住み慣れた住宅で安心して暮らせるよう、介護保険住宅改修に加えて住宅改造費を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>高知市住宅改造助成事業は、介護保険法による住宅改修に上乗せして、高齢者が住み慣れた住宅で安心して生活できるよう住宅改造費を助成する制度です。</p>'
+      },
+      {
+        heading: '対象工事',
+        content: '<p>介護保険住宅改修では、手すりの取り付け、段差の解消、床材変更、扉の取り替え、洋式便器等への取り替えなどが対象です。住宅改造助成は、これらの制度を利用する方への上乗せ事業として案内されています。</p>'
+      },
+      {
+        heading: '助成額',
+        content: '<p>高知市住宅改造助成事業は対象工事上限45万円で、課税世帯は2分の1・上限22万5千円、非課税世帯は3分の2・上限30万円、生活保護等世帯は3分の3・上限45万円です。必ず工事前の申請が必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.kochi.kochi.jp/soshiki/60/kourei.html',
+    sourceName: '高知市 バリアフリー（高齢者や障害者等が安心して暮らせる居住の確保）',
+    sourceUrls: [
+      'https://www.city.kochi.kochi.jp/soshiki/60/kourei.html'
+    ],
+    sourceNote: '高知市公式ページで介護保険住宅改修20万円、高知市住宅改造助成事業、対象工事上限45万円、課税世帯22.5万円・非課税世帯30万円・生活保護等世帯45万円、工事前申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'fukuoka-senior-home-renovation-support',
+    title: '福岡市 住宅改造助成',
+    organization: '福岡市',
+    type: 'local',
+    maxAmount: '最大30万円',
+    maxAmountNum: 30,
+    category: 'nursing',
+    prefecture: '福岡県',
+    tags: ['福岡市', '高齢者', '住宅改造', 'バリアフリー', '介護'],
+    eligibility: '福岡市内に居住する65歳以上で、要支援1・2または要介護1から5の認定を受け、介護保険料所得段階が第1段階から第8段階の方が対象です。',
+    targetOccupation: '福岡市内の要支援・要介護認定を受けた高齢者世帯',
+    applicationPeriod: '対象工事に着工する前に各区保健福祉センター福祉・介護保険課等へ申請',
+    description: '福岡市が、身体機能の低下した高齢者がいる世帯に対し、住宅を高齢者に適するように改造する費用の一部を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>住宅改造助成は、身体機能の低下した高齢者がいる世帯に対し、住宅を高齢者に適するように改造する場合の費用の一部を助成し、高齢者の自立や介護者の負担軽減を図る制度です。</p>'
+      },
+      {
+        heading: '対象工事',
+        content: '<p>玄関・廊下の拡幅、居室の間仕切り変更、階段昇降機、浴槽の取り替え、浴室の拡張、車椅子対応洗面台、通路整備、屋外手すりなど、身体状況に応じて必要な工事が対象です。介護保険住宅改修費の給付対象工事は原則対象外です。</p>'
+      },
+      {
+        heading: '助成額',
+        content: '<p>工事に要した額と助成上限額30万円の低い方に、所得段階に応じた助成率を乗じた額が助成されます。助成率は生活保護受給者等100%、市民税世帯非課税90%、本人非課税60%、所得に応じ35%または10%です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.fukuoka.lg.jp/fukushi/oldage-welfare/health/00/05/4-010301.html',
+    sourceName: '福岡市 住宅改造助成',
+    sourceUrls: [
+      'https://www.city.fukuoka.lg.jp/fukushi/oldage-welfare/health/00/05/4-010301.html'
+    ],
+    sourceNote: '福岡市公式ページで住宅改造助成、65歳以上の要支援・要介護認定者、助成上限30万円、所得段階別助成率、事前申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'saga-chubu-care-home-renovation-support',
+    title: '佐賀中部広域連合 介護保険住宅改修費支給',
+    organization: '佐賀中部広域連合',
+    type: 'local',
+    maxAmount: '対象工事20万円まで（自己負担1〜3割）',
+    maxAmountNum: 20,
+    category: 'nursing',
+    prefecture: '佐賀県',
+    tags: ['佐賀県', '佐賀中部広域連合', '介護保険', '住宅改修', '高齢者'],
+    eligibility: '佐賀中部広域連合の介護保険で、要支援1・2または要介護1から5の認定を受け、居住する住宅で自立支援や介護者負担軽減のための住宅改修を行う方が対象です。',
+    targetOccupation: '佐賀中部広域連合管内の要支援・要介護認定者',
+    applicationPeriod: '着工前に事前申請が必要。事前申請は予約制',
+    description: '佐賀中部広域連合が、要支援・要介護認定者の住宅改修について、20万円を限度に負担割合に応じた介護保険給付を行う制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>佐賀中部広域連合の介護保険住宅改修費は、要支援・要介護認定を受けた方が居住する住宅で、自立した生活や介護者の負担軽減のために住宅改修を行う場合に利用できる制度です。</p>'
+      },
+      {
+        heading: '支給内容',
+        content: '<p>支給限度額は要介護度にかかわらず1人あたり20万円です。負担割合に応じて1割から3割が自己負担となり、介護保険から支給される額は18万円から14万円が上限です。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>着工前に事前申請が必要です。担当ケアマネジャーへ相談し、申請書、住宅改修が必要な理由書、見積書、平面図、施工前写真などを用意します。支給方法は償還払いまたは受領委任払いから選べます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.chubu.saga.saga.jp/var/rev0/0005/7804/jutakukaishunituite.pdf',
+    sourceName: '佐賀中部広域連合 介護保険住宅改修について',
+    sourceUrls: [
+      'https://www.chubu.saga.saga.jp/var/rev0/0005/7804/jutakukaishunituite.pdf'
+    ],
+    sourceNote: '佐賀中部広域連合公式PDFで介護保険住宅改修、要支援1・2または要介護1から5、支給限度額20万円、18万円から14万円上限、着工前事前申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'oita-care-home-renovation-support',
+    title: '大分市 介護保険住宅改修費支給',
+    organization: '大分市',
+    type: 'local',
+    maxAmount: '対象工事20万円まで（自己負担1〜3割）',
+    maxAmountNum: 20,
+    category: 'nursing',
+    prefecture: '大分県',
+    tags: ['大分市', '介護保険', '住宅改修', 'バリアフリー', '高齢者'],
+    eligibility: '大分市で要介護・要支援認定を受けている方が、家庭での日常生活に支障があり住宅改修を行う場合が対象です。',
+    targetOccupation: '大分市内の要支援・要介護認定者',
+    applicationPeriod: '改修前に長寿福祉課へ施工承認申請。改修後に完了届',
+    description: '大分市が、要介護者等が手すりの取り付けなどの住宅改修を行った場合に、支給限度基準額20万円の範囲で改修費の7割から9割を支給する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>住宅改修費支給申請は、家庭で日常生活を営むのに支障のある要介護者等が、手すりの取り付けなどの住宅改修を行った場合に介護保険から費用の一部を支給する制度です。</p>'
+      },
+      {
+        heading: '支給内容',
+        content: '<p>支給限度基準額20万円の範囲内で、改修費の7割から9割分が償還払いで支給されます。対象者は要介護・要支援の認定を受けている人です。</p>'
+      },
+      {
+        heading: '申請の注意点',
+        content: '<p>改修を行う前に、長寿福祉課へ事前の施工承認申請が必要です。改修後は完了届を提出します。まず担当ケアマネジャーに相談してから手続きを進めます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.oita.oita.jp/o081/kenko/fukushi/1202970711034.html',
+    sourceName: '大分市 住宅改修費支給申請',
+    sourceUrls: [
+      'https://www.city.oita.oita.jp/o081/kenko/fukushi/1202970711034.html'
+    ],
+    sourceNote: '大分市公式ページで介護保険住宅改修費、要介護・要支援認定者、支給限度基準額20万円、7割から9割支給、改修前の施工承認申請と改修後の完了届を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'miyazaki-senior-home-renovation-support',
+    title: '宮崎市 高齢者等居宅介護住宅改修補助事業',
+    organization: '宮崎市',
+    type: 'local',
+    maxAmount: '最大20万円',
+    maxAmountNum: 20,
+    category: 'nursing',
+    prefecture: '宮崎県',
+    tags: ['宮崎市', '高齢者', '住宅改修', 'バリアフリー', '介護'],
+    eligibility: '宮崎市内に住所があり、要支援または要介護認定を受けた方で、生計を一にする親族等の所得税額合計が一定以下の世帯が対象です。',
+    targetOccupation: '宮崎市内の要支援・要介護認定者世帯',
+    applicationPeriod: '介護保険住宅改修と同様に工事着工前の事前申請が必要',
+    description: '宮崎市が、介護保険住宅改修の支給限度を超える費用や給付対象外工事費用の一部を、一定所得以下の要支援・要介護認定者世帯に補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>高齢者等居宅介護住宅改修補助事業は、介護保険の要支援・要介護認定者で一定所得以下の世帯を対象に、介護保険住宅改修給付対象工事の超過費用や給付対象外工事費用の一部を助成する制度です。</p>'
+      },
+      {
+        heading: '対象工事',
+        content: '<p>移動・介護に必要なスペース確保、浴室改修、浴槽取替え、給湯設備、給水栓取替え、手すりの取り付け、段差解消、床材変更、扉の取り替え、洋式便器等への取り替えなどが対象です。要介護度により対象設備が異なります。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>対象額は20万円を上限とし、工事種目ごとの限度額があります。補助率は世帯階層に応じて、生活保護世帯10割、市民税非課税・所得税非課税9割、市民税課税・所得税非課税8割、所得税額に応じ7割から4割です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.miyazaki.miyazaki.jp/health/long_term_care_insurance/procedure/12333.html',
+    sourceName: '宮崎市 住宅改修補助事業（宮崎市高齢者等居宅介護住宅改修補助事業）',
+    sourceUrls: [
+      'https://www.city.miyazaki.miyazaki.jp/health/long_term_care_insurance/procedure/12333.html',
+      'https://www.city.miyazaki.miyazaki.jp/health/long_term_care_insurance/procedure/195414.html'
+    ],
+    sourceNote: '宮崎市公式ページで高齢者等居宅介護住宅改修補助事業、対象者、対象設備、対象額20万円上限、世帯階層別補助率、工事着工前事前申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
