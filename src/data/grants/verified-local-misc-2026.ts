@@ -17369,4 +17369,34 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'matsuyama-disability-medical',
+    title: '松山市 重度心身障害者医療費助成制度',
+    organization: '松山市',
+    type: 'local',
+    maxAmount: '保険診療自己負担分を助成',
+    maxAmountNum: 0,
+    category: 'medical',
+    relatedCategories: ['nursing', 'living'],
+    prefecture: '愛媛県',
+    tags: ['松山市', '愛媛県', '重度心身障害者医療費', '医療費助成', '障がい福祉'],
+    eligibility: '松山市に住民登録があり、健康保険に加入している方で、身体障害者手帳1級または2級、療育手帳A、または療育手帳B中度と身体障害者手帳の両方を持つ方が対象です。生活保護受給者は対象外です。',
+    applicationPeriod: '通年受付。受給者証の交付申請が必要',
+    description: '松山市が、重い障がいのある方の保険診療による入院・通院の医療費自己負担分を助成する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>松山市重度心身障害者医療費助成制度は、重い障がいのある方に医療費の助成を行う制度です。既存の生成データでは精神障害者保健福祉手帳1級も対象としていましたが、松山市公式ページで確認できる対象者は身体障害者手帳1級または2級、療育手帳A、療育手帳B中度と身体障害者手帳の両方を持つ方です。</p>' },
+      { heading: '助成内容', content: '<p>保険診療による入院・通院について、医療費の自己負担分を助成します。入院時の食事代、予防接種や文書代、入院時の差額ベッド代などの保険適用外費用は助成対象外です。学校等でのけがや交通事故等による診療の場合は、事前に確認が必要です。</p>' },
+      { heading: '申請の注意点', content: '<p>受給者証の交付申請には、健康保険の資格情報が分かる書類と、身体障害者手帳または療育手帳が必要です。窓口は障がい福祉課と各支所で、医療費助成に関する一部手続きは電子申請にも対応しています。</p>' }
+    ],
+    officialUrl: 'https://www.city.matsuyama.ehime.jp/kurashi/fukushi/shogai/iryo/juusin.html',
+    sourceName: '松山市 重度心身障害者医療費助成制度',
+    sourceUrls: [
+      'https://www.city.matsuyama.ehime.jp/kurashi/fukushi/shogai/iryo/juusin.html',
+      'https://kosodate-matsuyama.jp/information/980/',
+      'https://www.city.matsuyama.ehime.jp/kurashi/fukushi/shogai/iryo/juusindensisinsei.html'
+    ],
+    sourceNote: '松山市公式ページで、2026年6月23日更新、対象者は松山市に住民登録があり健康保険に加入し、身体障害者手帳1級または2級、療育手帳A、療育手帳B中度と身体障害者手帳両方の所持者、生活保護受給者は対象外、保険診療による入院・通院の医療費自己負担分を助成、食事代や保険適用外費用は対象外、必要書類を確認。松山市子育て情報サイトと電子申請案内でも制度掲載を確認。旧生成データの精神障害者保健福祉手帳1級対象表現から公式条件へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
