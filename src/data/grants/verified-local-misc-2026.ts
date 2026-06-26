@@ -374,4 +374,149 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'fukui-migration-employment',
+    title: '福井県 移住支援金（東京圏型）',
+    organization: '福井県・県内市町',
+    type: 'local',
+    maxAmount: '世帯100万円以上・単身60万円、18歳未満加算あり',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '福井県',
+    tags: ['福井県', '移住支援', '東京圏', '市町申請'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた方が、福井県内の市町へ移住し、就業・起業・テレワーク等の要件を満たす場合に対象です。実施状況や詳細要件は移住先市町で確認します。',
+    applicationPeriod: '転入後1年以内。市町により申請開始時期や受付期間が異なる場合あり',
+    description: '東京圏から福井県へ移住し、対象求人への就業、起業、テレワーク等の要件を満たす方に支給される移住支援金です。旧生成データのUIターン就職支援を、福井県公式の現行移住支援金として確認済みに置換しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>福井県移住支援金は、東京圏から福井県内の市町へ移住する方を支援する制度です。移住元、移住先、就業・起業・テレワーク等の要件を満たす場合に、移住先市町を通じて申請します。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>県公式ページでは、世帯向けは100万円以上、単身向けは60万円と案内されています。18歳未満の世帯員を帯同して移住する場合は、18歳未満の方1人につき最大100万円が加算される場合があります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請先は移住先の市町です。世帯要件、転入後1年以内の申請、5年以上継続居住の意思、対象求人や起業支援金との関係など、市町ごとの案内を確認してから手続きします。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.fukui.lg.jp/doc/wakatei/uiturn/ijusienkin.html',
+    sourceName: '福井県 東京圏から移住される方へ 移住支援金をサポート',
+    sourceUrls: [
+      'https://www.pref.fukui.lg.jp/doc/wakatei/uiturn/ijusienkin.html',
+      'https://www.fukui-ijunavi.jp/support/03'
+    ],
+    sourceNote: '福井県公式ページと公式移住ポータルで、東京圏型移住支援金、世帯・単身支給額、18歳未満加算、市町申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kofu-migration-support',
+    title: '甲府市 移住支援金交付事業',
+    organization: '甲府市',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、18歳未満1人につき100万円加算',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '山梨県',
+    tags: ['甲府市', '移住支援', '東京圏', '山梨県'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた方が甲府市へ移住し、就業・起業・テレワーク等の要件を満たす場合に対象です。',
+    applicationPeriod: '甲府市へ転入後3か月以上1年以内。予算額を超えた場合は交付できない場合あり',
+    description: '甲府市へ移住する東京圏からの移住者を支援する交付金です。単身60万円、2人以上の世帯100万円に加え、18歳未満の世帯員を帯同する場合は1人につき100万円の加算があります。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>甲府市移住支援金交付事業は、東京圏から甲府市へ移住し、就業・起業・テレワーク等の要件を満たす方を対象に支援金を交付する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>単身の場合は60万円、2人以上の世帯の場合は100万円です。18歳未満の世帯員を帯同して移住する場合は、18歳未満の世帯員1人につき100万円が加算されます。</p>'
+      },
+      {
+        heading: '申請時の注意点',
+        content: '<p>申請は甲府市への転入後3か月以上1年以内に行います。予算額を超えた場合は交付できない場合があるため、移住前または転入後早期に市へ相談してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.kofu.yamanashi.jp/kikaku-somu/ijuushienkin.html',
+    sourceName: '甲府市 移住支援金交付事業について',
+    sourceUrls: ['https://www.city.kofu.yamanashi.jp/kikaku-somu/ijuushienkin.html'],
+    sourceNote: '甲府市公式ページで、支給額、18歳未満加算、転入後3か月以上1年以内の申請、予算上限による注意を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'wakayama-migration-support',
+    title: '和歌山県 移住支援事業（移住支援金）',
+    organization: '和歌山県・県内市町村',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、18歳未満帯同者加算あり',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '和歌山県',
+    tags: ['和歌山県', '移住支援', '東京圏', '市町村申請'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた方が、和歌山県内市町村へ移住し、マッチング支援事業、起業支援事業、テレワーク等の要件を満たす場合に対象です。',
+    applicationPeriod: '移住後1年以内。ただし市町村の受付期間・予算・事務処理状況により受付できない場合あり',
+    description: '東京圏から和歌山県内へ移住し、就業・起業・テレワーク等の要件を満たす方に、県と移住先市町村が共同で支給する移住支援金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>和歌山県移住支援事業は、東京23区の在住者または東京圏から東京23区への通勤者が、県内に移住して対象要件を満たす場合に支援金を支給する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>県公式ページでは、世帯100万円、単身60万円と案内されています。18歳未満の帯同者がいる場合は、18歳未満の方1人につき100万円が加算されます。支援金額は市町村により異なる場合があります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>移住後1年以内に移住先市町村へ申請します。市町村ごとに受付期間、予算状況、独自要件があるため、移住前に申請可否を確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.wakayama.lg.jp/prefg/022200/d00216634.html',
+    sourceName: '和歌山県 移住支援事業（移住支援金）等について',
+    sourceUrls: [
+      'https://www.pref.wakayama.lg.jp/prefg/022200/d00216634.html',
+      'https://hataracoorde.com/ijushien/'
+    ],
+    sourceNote: '和歌山県公式ページと県の就業支援サイトで、対象者、世帯・単身支給額、18歳未満加算、移住後1年以内の申請、市町村確認を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'miyazaki-migration-support',
+    title: '宮崎県 移住支援金制度',
+    organization: '宮崎県・県内市町村',
+    type: 'local',
+    maxAmount: '世帯100万円＋子育て加算、単身60万円または30万円',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '宮崎県',
+    tags: ['宮崎県', '移住支援', '地方移住', '市町村申請'],
+    eligibility: '東京圏、名古屋圏、大阪圏、福岡県などから宮崎県内へ移住し、就職・起業・テレワーク等の要件を満たす方が対象です。市町村ごとに対象となる就業形態や要件が異なります。',
+    applicationPeriod: '移住先市町村の受付期間に従う。申請前に市町村へ確認',
+    description: '宮崎県外の都市圏から県内へ移住し、対象求人への就職、起業、テレワーク等の要件を満たす方を支援する移住支援金制度です。市町村により対象要件や受付状況が異なります。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>宮崎県移住支援金制度は、都市圏等から宮崎県内へ移住し、就職・起業・テレワーク等の要件を満たす方を対象とする支援制度です。市町村ごとに対象となる就業形態が異なります。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>県公式移住サイトでは、世帯での移住は100万円＋子育て加算、単身での移住は60万円または30万円と案内されています。18歳未満の世帯員を帯同して移住する場合は、1人につき最大100万円が加算されます。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請は移住先市町村で行います。移住元の地域・期間、5年以上居住する意思、対象求人・起業・テレワーク等の要件を、市町村の最新案内で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://iju.pref.miyazaki.lg.jp/support/grant-system/',
+    sourceName: '宮崎県移住・UIJターン情報サイト 宮崎県移住支援金制度',
+    sourceUrls: [
+      'https://iju.pref.miyazaki.lg.jp/support/grant-system/',
+      'https://www.city.miyazaki.miyazaki.jp/business/loan/286647.html'
+    ],
+    sourceNote: '宮崎県公式移住サイトで、対象地域、要件、世帯・単身支給額、18歳未満加算、市町村ごとの対象差を確認。宮崎市公式ページで令和8年度の支給額例を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
