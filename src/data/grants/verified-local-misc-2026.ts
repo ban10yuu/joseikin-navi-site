@@ -4953,4 +4953,155 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'shimane-long-life-childcare-housing-reform-2026',
+    title: '島根県 しまね長寿・子育て安心住宅リフォーム助成事業',
+    organization: '島根県',
+    type: 'local',
+    maxAmount: '最大40万円',
+    maxAmountNum: 40,
+    category: 'housing',
+    prefecture: '島根県',
+    tags: ['島根県', '住宅リフォーム', '子育て世帯', 'バリアフリー', '中古住宅'],
+    eligibility: '島根県内の住宅で、子育て配慮改修、バリアフリー改修、中古住宅改修など、県と市町村が定める要件を満たす改修工事が対象です。',
+    targetOccupation: '島根県内の住宅所有者・居住予定者等',
+    applicationPeriod: '2026年度の受付期間・予算状況は公式ページで確認',
+    description: '島根県が市町村と連携し、子育てしやすい住まいや高齢者等が安心して暮らせる住まいへの改修を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>しまね長寿・子育て安心住宅リフォーム助成事業は、子育て世帯や高齢者等が安心して暮らせる住環境づくりを進めるため、住宅リフォーム費用の一部を支援する制度です。</p>'
+      },
+      {
+        heading: '対象工事',
+        content: '<p>子育て配慮改修、バリアフリー改修、中古住宅改修などが対象です。工事内容、対象住宅、申請窓口は市町村ごとに異なるため、着工前に公式ページと市町村窓口で確認します。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>補助額は工事内容や世帯区分により異なり、公式ページでは上限40万円の支援が案内されています。予算到達時は受付終了となる場合があります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.shimane.lg.jp/infra/build/jutaku/shien/shimane_tyojunosumai_reform_jyosei.html',
+    sourceName: '島根県 しまね長寿・子育て安心住宅リフォーム助成事業',
+    sourceUrls: [
+      'https://www.pref.shimane.lg.jp/infra/build/jutaku/shien/shimane_tyojunosumai_reform_jyosei.html'
+    ],
+    sourceNote: '島根県公式ページで、しまね長寿・子育て安心住宅リフォーム助成事業、子育て・バリアフリー等の住宅改修支援、上限40万円を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'okayama-prefecture-certified-wood-housing-2026',
+    title: '岡山県 おかやまの木で家づくり支援事業',
+    organization: '岡山県',
+    type: 'local',
+    maxAmount: '最大30万4,000円',
+    maxAmountNum: 30,
+    category: 'housing',
+    prefecture: '岡山県',
+    tags: ['岡山県', '県産材', '木造住宅', '住宅新築', '住宅改修'],
+    eligibility: '岡山県内で県産森林認証材を使用し、木造住宅の新築または既存住宅の改修を行う施工業者が対象です。',
+    targetOccupation: '岡山県内で県産材住宅を施工する工務店・施工業者',
+    applicationPeriod: '令和8年度受付中。令和9年3月8日までに助成対象部材の納材が完了するもの',
+    deadlineDate: '2027-03-08',
+    description: '岡山県が、県産森林認証材を使った木造住宅の新築・改修を支援し、県産材利用と地域住宅産業を促進する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>おかやまの木で家づくり支援事業は、県産森林認証材を積極的に使う住宅・民間非住宅建築物の新築や既存住宅の改修を支援する制度です。</p>'
+      },
+      {
+        heading: '対象住宅',
+        content: '<p>住宅の新築では主要構造部材に県産森林認証材の乾燥材を4立方メートル以上、既存住宅の改修では主要構造部材や造作材等に1立方メートル以上使用することなどが要件です。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>住宅の新築は1戸あたり12.8万円から30.4万円、既存住宅の改修は1件あたり3.2万円から30.4万円です。助成単価は木材の種類に応じて設定されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.okayama.jp/page/769215.html',
+    sourceName: '岡山県 令和8年度おかやまの木で家づくり支援事業',
+    sourceUrls: [
+      'https://www.pref.okayama.jp/page/769215.html'
+    ],
+    sourceNote: '岡山県公式ページで令和8年度おかやまの木で家づくり支援事業、県産森林認証材、住宅新築・改修、最大30.4万円を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'hiroshima-wooden-housing-loan-2026',
+    title: '広島県 ひろしまの森に木づかう家づくり融資制度',
+    organization: '広島県',
+    type: 'local',
+    maxAmount: '低利融資',
+    maxAmountNum: 0,
+    category: 'housing',
+    prefecture: '広島県',
+    tags: ['広島県', '県産材', '木造住宅', '住宅新築', '融資'],
+    eligibility: '広島県内で県産材を活用した木造住宅を建築・購入するなど、県公式ページが定める要件を満たす方が対象です。',
+    targetOccupation: '広島県内で県産材住宅を建築・購入する個人等',
+    applicationPeriod: '融資条件・取扱金融機関・受付状況は公式ページで確認',
+    description: '広島県が、県産材を活用した木造住宅の取得を支援するため、取扱金融機関と連携して案内している低利融資制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>ひろしまの森に木づかう家づくり融資制度は、広島県産材を利用した住宅づくりを進めるため、住宅取得資金の借入を低利で支援する制度です。</p>'
+      },
+      {
+        heading: '対象住宅',
+        content: '<p>県産材を一定量使用する木造住宅など、制度が定める住宅要件を満たすものが対象です。利用前に、県公式ページと取扱金融機関で対象要件を確認します。</p>'
+      },
+      {
+        heading: '支援内容',
+        content: '<p>補助金ではなく、取扱金融機関による低利融資として支援されます。融資利率、限度額、申込方法は年度や金融機関により変わるため、公式ページの最新情報を確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.hiroshima.lg.jp/soshiki/108/1272432081538.html',
+    sourceName: '広島県 ひろしまの森に木づかう家づくり融資制度',
+    sourceUrls: [
+      'https://www.pref.hiroshima.lg.jp/soshiki/108/1272432081538.html'
+    ],
+    sourceNote: '広島県公式ページで、ひろしまの森に木づかう家づくり融資制度、県産材住宅向けの低利融資制度を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'yamaguchi-wood-housing-reform-2026',
+    title: '山口県 住宅等リフォーム木材利用促進事業補助金',
+    organization: '一般社団法人 山口県木材協会',
+    type: 'local',
+    maxAmount: '最大25万円',
+    maxAmountNum: 25,
+    category: 'housing',
+    prefecture: '山口県',
+    tags: ['山口県', '県産材', '住宅リフォーム', '木材利用', '工務店'],
+    eligibility: '山口県内の既存住宅等で県産木材を使用するリフォーム等を行い、補助対象者や工事要件を満たすものが対象です。',
+    targetOccupation: 'やまぐち木の家づくり等推進工務店等',
+    applicationPeriod: '令和8年4月1日から令和8年12月20日まで。予算到達時は受付終了',
+    deadlineDate: '2026-12-20',
+    description: '山口県の木材利用促進施策として、県産木材を使った住宅リフォーム等を支援する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>住宅等リフォーム木材利用促進事業補助金は、民間建築物での県産木材利用を促進するため、県産木材を使用した住宅や事業用建築物のリフォーム等を支援する制度です。</p>'
+      },
+      {
+        heading: '対象住宅',
+        content: '<p>山口県内に既存する住宅や事業用建築物で、構造材または内装に県産木材を使用し、令和9年3月10日までに工事が完了するものが対象です。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>住宅は県産木材の使用量や内装材の使用面積に応じて算定し、上限25万円、下限5万円です。事業用建築物は上限100万円ですが、この登録では住宅向け上限を掲載しています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.mokkyou.or.jp/support/reform/',
+    sourceName: '山口県木材協会 令和8年度住宅等リフォーム木材利用促進事業補助金',
+    sourceUrls: [
+      'https://www.pref.yamaguchi.lg.jp/soshiki/102/346289.html',
+      'https://www.mokkyou.or.jp/support/reform/'
+    ],
+    sourceNote: '山口県公式ページと山口県木材協会ページで、令和8年度住宅等リフォーム木材利用促進事業補助金、住宅上限25万円、申請期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
