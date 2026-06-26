@@ -17580,4 +17580,33 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'tokushima-city-school-lunch',
+    title: '徳島市 令和8年度学校給食費の保護者負担軽減',
+    organization: '徳島市',
+    type: 'local',
+    maxAmount: '小学校は保護者負担0円',
+    maxAmountNum: 5,
+    category: 'education',
+    relatedCategories: ['childcare', 'living'],
+    prefecture: '徳島県',
+    tags: ['徳島市', '徳島県', '学校給食', '給食費', '保護者負担軽減', '令和8年度'],
+    eligibility: '徳島市立小学校・中学校で学校給食を利用する児童生徒の保護者が対象です。小学校は令和8年度の保護者負担が無償、中学校は公費補助により保護者負担額が据え置かれます。',
+    applicationPeriod: '令和8年度。学校給食費として適用',
+    description: '徳島市が、国の交付金と重点支援地方交付金を活用し、令和8年度の学校給食費について小学校の保護者負担を0円、中学校の保護者負担を1食333円に据え置く負担軽減です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>徳島市の令和8年度学校給食費負担軽減は、物価高騰の中でも保護者負担を抑えるための支援です。小学校については、国の給食費負担軽減交付金と重点支援地方交付金を活用し、令和8年度の保護者負担を無償としています。</p>' },
+      { heading: '給食費の金額', content: '<p>公式ページの1食あたり給食費では、小学校は主食102.69円、牛乳74.85円、おかず181.46円、合計359円ですが、保護者負担額は0円です。中学校は主食113.15円、牛乳74.85円、おかず256円、合計444円で、1食あたり111円を公費で補助し、保護者負担額を333円としています。</p>' },
+      { heading: '申請の注意点', content: '<p>この負担軽減は学校給食費の設定として反映されるため、通常の助成金のように各家庭が個別に申請して現金給付を受ける制度ではありません。小学校は令和8年度の保護者負担なし、中学校は令和7年度と同額の333円据え置きとして案内されています。</p>' }
+    ],
+    officialUrl: 'https://www.city.tokushima.tokushima.jp/smph/kosodate/school/gakkou_kyuusyoku/index.html',
+    sourceName: '徳島市 学校給食',
+    sourceUrls: [
+      'https://www.city.tokushima.tokushima.jp/smph/kosodate/school/gakkou_kyuusyoku/index.html',
+      'https://www.city.tokushima.tokushima.jp/smph/shisei/koho_kocho/kohoshi/text/2026/0401.html'
+    ],
+    sourceNote: '徳島市公式の学校給食ページで、令和8年度小学校給食費は国の給食費負担軽減交付金月額5,200円と重点支援地方交付金の活用により保護者負担0円、中学校給食費は1食あたり111円を公費補助して保護者負担333円、給食費表として小学校合計359円・中学校合計444円を確認。広報とくしま2026年4月1日号で、市立小学校給食費支援事業7億6,732万円、新規事業、令和8年度は保護者負担が生じないことを補助確認。就学援助とは別の全体向け給食費負担軽減として旧生成データを公式確認済み情報へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
