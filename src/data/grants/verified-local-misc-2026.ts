@@ -13901,6 +13901,50 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-27',
   },
   {
+    slug: 'aomori-city-sogyo-shien',
+    title: '青森市 商店街空き店舗等リノベーション支援事業補助金',
+    organization: '青森市',
+    type: 'local',
+    maxAmount: '最大130万円',
+    maxAmountNum: 130,
+    category: 'employment',
+    relatedCategories: ['housing', 'living'],
+    prefecture: '青森県',
+    tags: ['青森市', '商店街', '空き店舗', 'リノベーション', '創業支援', '令和8年度'],
+    eligibility: '青森市内に主たる事業所を有する中小企業者等で、商店街から必要な業種として承認を受けた事業であること、市税に未納がないことなどの条件を満たす人が対象です。',
+    targetOccupation: '青森市内の商店街等で空き店舗等を活用して出店する中小企業者等',
+    applicationPeriod: '令和8年度。予算の範囲内で受付。工事着手前に申請し交付決定を受ける必要あり',
+    description: '青森市が、商店街等の区域における空き店舗・空き家の解消と商店街のにぎわい創出を目的に、空き店舗等を活用して出店する中小企業者等の改修工事費を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>青森市商店街空き店舗等リノベーション支援事業補助金は、商店街等の区域にある空き店舗や空き家を活用して出店する中小企業者等を支援する制度です。商店街のにぎわい創出、活性化、市経済の健全な発展を目的に、当該年度の予算の範囲内で補助金が交付されます。</p>'
+      },
+      {
+        heading: '対象者と対象事業',
+        content: '<p>対象者は、青森市内に主たる事業所を有する中小企業者等で、市税に未納がないこと、フランチャイズチェーン方式でないこと、暴力団員等でないことなどの条件を満たす人です。対象事業は、活性化業種の事業を行うための空き店舗等の改修工事で、工事は市内に事務所または事業所を有する業者へ発注する必要があります。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>補助率は対象経費の2分の1です。令和8年度の制度概要では、商業ベンチャー修了者が特定商店街・駅前広場の1階部分に出店する場合、上限額は125万円、パートナーシップ構築宣言の登録者は130万円です。その他の区分では、区域や階層、出店形態により45万円、50万円、95万円、100万円などの上限が設定されています。</p>'
+      },
+      {
+        heading: '申請時の注意点',
+        content: '<p>事業内容は、あらかじめ青森市が設置する起業・創業相談窓口「AOMORI STARTUP CENTER」に相談します。工事は交付決定を受けた後に着手する必要があります。また、補助事業者は出店する商店街に加盟し、補助事業完了後3年間は当該店舗で自ら継続して営業する必要があります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.aomori.aomori.jp/sangyo_koyou/shoutengai/1004404.html',
+    sourceName: '青森市 商店街空き店舗等リノベーション支援事業',
+    sourceUrls: [
+      'https://www.city.aomori.aomori.jp/sangyo_koyou/shoutengai/1004404.html',
+      'https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/004/404/rinobe_gaiyou1.pdf',
+      'https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/004/404/rinobe08-3.pdf'
+    ],
+    sourceNote: '青森市公式ページで商店街空き店舗等リノベーション支援事業、申請書類、制度概要PDF、交付要綱PDFを確認。令和8年度制度概要PDFで、空き店舗等を活用して出店する中小企業者等、商店街の必要業種承認、市税未納なし、対象事業は活性化業種の空き店舗等改修工事、市内業者への発注、AOMORI STARTUP CENTERへの事前相談、補助率2分の1、上限125万円・登録者130万円などの区分、交付決定後着手、商店街加盟、完了後3年間の継続営業を確認。旧生成データの汎用創業支援補助金を公式確認済み制度へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
+  {
     slug: 'kofu-newlywed-life-support-2026',
     title: '甲府市 結婚新生活支援事業',
     organization: '甲府市',
