@@ -2783,4 +2783,155 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'fukui-uiturn-scholarship-repayment',
+    title: '福井県 UIターン奨学金返還支援事業',
+    organization: '福井県',
+    type: 'local',
+    maxAmount: '最大150万円',
+    maxAmountNum: 150,
+    category: 'education',
+    prefecture: '福井県',
+    tags: ['福井県', '奨学金返還支援', 'UIターン', '県内就職'],
+    eligibility: '福井県外の大学等を卒業予定または卒業した方で、福井県内に定住し、対象業種・職種の県内企業に就職する予定の方などが対象です。',
+    targetOccupation: '福井県内企業へUIターン就職する大学生等',
+    applicationPeriod: '2026年度後期募集は2026年4月1日から2026年6月30日まで',
+    deadlineDate: '2026-06-30',
+    description: '福井県外の大学生等が福井県内にUIターン就職し定着する場合に、奨学金返還額の一部を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>福井県UIターン奨学金返還支援事業は、県外大学生等の福井県内就業と定着を促進し、県内産業を担う人材を確保するための制度です。就業前、福井県にUIターンする前に申請し、認定を受ける必要があります。</p>'
+      },
+      {
+        heading: '支援額',
+        content: '<p>奨学金を返還した額の5年分が対象です。大学、短期大学、高等専門学校、専修学校専門課程は最大100万円、6年制の医・薬・歯・獣医学部や大学院は最大150万円です。</p>'
+      },
+      {
+        heading: '支援時期',
+        content: '<p>支援は就職後1年半、3年半、5年半の3回に分けて行われます。日本学生支援機構等への返還額と制度上の上限額を比較し、低い方の額が補助されます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.fukui.lg.jp/doc/wakatei/uisyougakukin/jigyougaiyou.html',
+    sourceName: '福井県 UIターン就職する大学生等の奨学金返還支援',
+    sourceUrls: [
+      'https://www.pref.fukui.lg.jp/doc/wakatei/uisyougakukin/jigyougaiyou.html'
+    ],
+    sourceNote: '福井県公式ページで対象者、対象業種・職種、県内定住要件、最大100万円・最大150万円、支援時期、事前認定要件を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kai-scholarship-repayment',
+    title: '甲斐市 若者定住促進奨学金返還支援事業',
+    organization: '甲斐市',
+    type: 'local',
+    maxAmount: '月1万円、年額12万円',
+    maxAmountNum: 12,
+    category: 'education',
+    prefecture: '山梨県',
+    tags: ['甲斐市', '奨学金返還支援', '若者定住', '県内就業'],
+    eligibility: '令和7年4月1日以降に奨学金返還を開始し、山梨県内事業所等に正規雇用等で就業し、認定申請年度の4月1日時点で35歳未満、甲斐市内に居住する方などが対象です。',
+    targetOccupation: '甲斐市に居住し山梨県内で就業する奨学金返還中の方',
+    applicationPeriod: '認定申請は最初の交付申請を行う日の前年度末まで',
+    description: '甲斐市が、移住・定住と県内企業への就業促進を目的に、奨学金返還中の若者を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>甲斐市若者定住促進奨学金返還支援事業は、奨学金を返還する人の就労初期における経済的負担を軽減し、移住・定住と県内企業への就業を促進する制度です。</p>'
+      },
+      {
+        heading: '補助金額',
+        content: '<p>定額月賦返還方式の場合は月1万円が上限です。それ以外の返還方式では年額12万円が上限です。市内に居住し、正規雇用等で就業した期間に返還した奨学金が対象となります。</p>'
+      },
+      {
+        heading: '対象期間と申請',
+        content: '<p>補助対象期間は、認定を受けた年度に属する最初の返還月を起点として通算120か月が限度です。ただし、35歳になる年度の返済分までが対象です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.kai.yamanashi.jp/page/4160.html',
+    sourceName: '甲斐市 奨学金返還支援事業',
+    sourceUrls: [
+      'https://www.city.kai.yamanashi.jp/page/4160.html'
+    ],
+    sourceNote: '甲斐市公式ページで対象者、対象奨学金、県内就業・市内居住要件、月1万円・年12万円上限、通算120か月上限を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'nagano-company-scholarship-repayment',
+    title: '長野県 奨学金返還支援制度導入企業サポート事業',
+    organization: '長野県',
+    type: 'local',
+    maxAmount: '従業員1人あたり年12万円、入社年度含む5会計年度',
+    maxAmountNum: 60,
+    category: 'education',
+    prefecture: '長野県',
+    tags: ['長野県', '奨学金返還支援', '中小企業', '人材定着'],
+    eligibility: '長野県内に本社等を置き、奨学金返還支援制度を設け、県の職場いきいきアドバンスカンパニー等の要件を満たす中小企業等が対象です。',
+    targetOccupation: '県内中小企業等と奨学金返還支援を受ける従業員',
+    applicationPeriod: '交付申請は通年受付。予算額に達し次第終了',
+    description: '長野県内企業が従業員に行う奨学金返還支援について、県が企業負担額を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>長野県奨学金返還支援制度導入企業サポート事業は、従業員への奨学金返還支援制度を設ける県内中小企業等に対し、企業の負担額を助成する制度です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>対象経費は、企業が日本学生支援機構へ直接返還する額、または企業が奨学金返還費用として対象従業員へ給付した額です。補助割合は10分の10、上限額は支援対象従業員1人あたり年12万円です。</p>'
+      },
+      {
+        heading: '補助期間',
+        content: '<p>補助期間は、支援対象従業員1人あたり入社した年度を含め5会計年度です。交付申請は通年で受け付けていますが、予算額に達し次第終了します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.nagano.lg.jp/rodokoyo/shogakukin.html',
+    sourceName: '長野県 奨学金返還支援制度導入企業サポート事業',
+    sourceUrls: [
+      'https://www.pref.nagano.lg.jp/rodokoyo/shogakukin.html',
+      'https://www.shukatsu-nagano.jp/scholarship'
+    ],
+    sourceNote: '長野県公式ページと県特設サイトで事業概要、対象企業、補助率10分の10、年12万円上限、補助期間5会計年度、通年受付を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'gifu-youth-scholarship-repayment',
+    title: 'ぎふ若者定着奨学金返還支援制度',
+    organization: '岐阜県',
+    type: 'local',
+    maxAmount: '例示で最大150万円規模',
+    maxAmountNum: 150,
+    category: 'education',
+    prefecture: '岐阜県',
+    tags: ['岐阜県', '奨学金返還支援', '若者定着', '県内就職'],
+    eligibility: '大学等在学中に奨学金の貸与を受け、卒業または修了後、支援実施企業に正規雇用で採用され、3年または6年以上就業する方が対象です。',
+    targetOccupation: '岐阜県内の支援実施企業へ就職する方',
+    applicationPeriod: '令和8年度受付開始。2026年度・2027年度・2028年度の就職・採用が対象。内定前登録が必要',
+    description: '岐阜県が県内企業と連携し、県内企業に就職する若者の奨学金返還を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>ぎふ若者定着奨学金返還支援制度は、若者が県内産業を支える人材として定着することを目的に、県と支援実施企業が協力して奨学金の返還を支援する制度です。</p>'
+      },
+      {
+        heading: '支援の条件',
+        content: '<p>大学等在学中に奨学金の貸与を受け、卒業または修了後、支援実施企業に正規雇用で採用された方が、3年または6年以上支援実施企業で就業した場合に補助金が交付されます。</p>'
+      },
+      {
+        heading: '登録の注意点',
+        content: '<p>制度を利用したい企業と就職活動をする方は、どちらも登録手続きが必要です。手続きが完了する前に内定があった場合は制度の対象外となります。</p>'
+      }
+    ],
+    officialUrl: 'https://shogakukin.jinzai-gifu.jp/support-system/',
+    sourceName: 'ぎふ若者定着奨学金返還支援制度',
+    sourceUrls: [
+      'https://shogakukin.jinzai-gifu.jp/',
+      'https://shogakukin.jinzai-gifu.jp/support-system/'
+    ],
+    sourceNote: '岐阜県ポータルサイトで令和8年度受付開始、2026年度から2028年度採用対象、内定前登録、3年または6年以上就業要件、支援例を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
