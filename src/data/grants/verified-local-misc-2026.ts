@@ -9317,6 +9317,38 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-26',
   },
   {
+    slug: 'kofu-childcare-subsidy',
+    title: '甲府市 保育料負担軽減',
+    organization: '甲府市',
+    type: 'local',
+    maxAmount: '第2子以降無料または第2子半額・第3子以降無料',
+    maxAmountNum: 0,
+    category: 'childcare',
+    relatedCategories: ['living'],
+    prefecture: '山梨県',
+    tags: ['甲府市', '山梨県', '保育料', '多子世帯', 'やまなし子育て応援事業', '幼児教育無償化'],
+    eligibility: '甲府市で保育所、認定こども園、地域型保育事業などを利用する子どもの保護者が対象です。年齢、認定区分、市民税所得割額、同時入所や多子状況により軽減内容が異なります。',
+    applicationPeriod: '通年。令和8年度入所申込み、教育・保育給付認定、利用者負担額決定にあわせて適用',
+    description: '甲府市が案内する保育料の利用者負担額と多子世帯等への負担軽減です。幼児教育・保育の無償化に加え、3歳未満児の同時入所や所得階層に応じた半額・無料、山梨県の第2子以降保育料無償化が反映されています。',
+    sections: [
+      { heading: '制度の概要', content: '<p>甲府市では、保育所、認定こども園、地域型保育事業などの利用者負担額を、世帯の市民税所得割額や子どもの年齢・認定区分に応じて定めています。3歳以上児は幼児教育・保育の無償化の対象で、3歳未満児は保育料表と多子軽減を確認します。</p>' },
+      { heading: '多子世帯の軽減', content: '<p>令和8年度甲府市利用者負担額表では、2人以上が同時に入所している場合、2人目は半額、3人目以降は無料と案内されています。また、市民税所得割額57,700円未満の世帯は、第1子の年齢にかかわらず2人目は半額、3人目以降は無料です。</p>' },
+      { heading: '第2子以降の無料化', content: '<p>市民税所得割額169,000円未満の世帯では、生計を一にする第1子の年齢にかかわらず、第2子以降の保育料が満3歳到達後最初に迎える3月31日まで無料になります。これは山梨県の「やまなし子育て応援事業」による第2子以降の保育料無償化と整合する内容です。</p>' },
+      { heading: 'ひとり親世帯等', content: '<p>ひとり親世帯や障がい児・者のいる世帯などは、1つ下の階層として扱われる場合があります。市民税所得割額77,101円未満の該当世帯では、第1子が半額またはC階層額の低い方、第2子以降は無料となる旨が案内されています。</p>' }
+    ],
+    officialUrl: 'https://www.city.kofu.yamanashi.jp/jidohoiku/nyushomoshikomi.html',
+    sourceName: '甲府市 保育所（園）・認定こども園（保育所部分）・地域型保育事業',
+    sourceUrls: [
+      'https://www.city.kofu.yamanashi.jp/jidohoiku/nyushomoshikomi.html',
+      'https://www.city.kofu.yamanashi.jp/jidohoiku/documents/r8hoikuryou.pdf',
+      'https://www.city.kofu.yamanashi.jp/jidohoiku/musyouka.html',
+      'https://www.pref.yamanashi.jp/kosodate/hoikushisetsuyouchien/kosodateouenjigyou.html'
+    ],
+    sourceNote: '甲府市公式ページで令和8年度利用者負担額表、保育所・認定こども園・地域型保育事業の案内を確認。令和8年度保育料表PDFで、2人以上同時入所時の2人目半額・3人目以降無料、市民税所得割額57,700円未満世帯の多子軽減、169,000円未満世帯の第2子以降満3歳到達後最初の3月31日まで無料、ひとり親世帯等の軽減を確認。甲府市幼児教育・保育無償化ページと山梨県やまなし子育て応援事業ページで制度概要を補助確認。旧生成データを公式確認済み情報へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
+  {
     slug: 'nagano-city-child-medical',
     title: '長野市 子どもの福祉医療制度',
     organization: '長野市',
