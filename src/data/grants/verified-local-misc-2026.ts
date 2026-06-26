@@ -17667,4 +17667,35 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'aomori-city-childcare-subsidy',
+    title: '青森市 保育料・副食費の負担軽減',
+    organization: '青森市',
+    type: 'local',
+    maxAmount: '0・1歳児保育料半額公費負担など',
+    maxAmountNum: 0,
+    category: 'childcare',
+    relatedCategories: ['living'],
+    prefecture: '青森県',
+    tags: ['青森市', '青森県', '保育料', '副食費', '多子世帯', '令和8年度'],
+    eligibility: '青森市で保育所、認定こども園、地域型保育事業などを利用する子どもの保護者が対象です。年齢、世帯所得、子どもの人数、施設類型により軽減内容が異なります。',
+    applicationPeriod: '通年。教育・保育給付認定と施設利用にあわせて適用',
+    description: '青森市が、保育所等を利用する世帯の負担を軽減するため、0・1歳児保育料の半額公費負担、低所得世帯・第3子以降等の保育料全額公費負担、副食費軽減などを行う制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>青森市の保育料・副食費負担軽減は、保育施設等を利用する子育て世帯の経済的負担を抑えるための制度です。公式ページでは、2026年4月から0歳児・1歳児クラスの第1子の保育料を半額公費負担すると案内されています。</p>' },
+      { heading: '保育料の軽減', content: '<p>0歳児・1歳児クラスの第1子は、保育料の半額を公費負担します。年収360万円未満相当の世帯、第3子以降の子ども、3人以上同時入所世帯の子どもについては、保育料を全額公費負担すると案内されています。生活保護世帯や市民税非課税世帯は保育料が0円です。</p>' },
+      { heading: '副食費と注意点', content: '<p>3歳から5歳児クラスの保育料は幼児教育・保育の無償化により無償ですが、副食費などは原則保護者負担です。青森市では、年収360万円未満相当世帯の子どもや第3子以降など、条件を満たす場合に副食費が免除されます。施設や認定区分によって扱いが異なるため、利用施設からの案内も確認してください。</p>' }
+    ],
+    officialUrl: 'https://www.city.aomori.aomori.jp/kodomo_kyoiku/ninteikodomoen_youchien_hoikusho/1003554.html',
+    sourceName: '青森市 保育料と副食費',
+    sourceUrls: [
+      'https://www.city.aomori.aomori.jp/kodomo_kyoiku/ninteikodomoen_youchien_hoikusho/1003554.html',
+      'https://www.city.aomori.aomori.jp/kodomo_kyoiku/ninteikodomoen_youchien_hoikusho/1009841/1009844.html',
+      'https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/003/552/2026hoikuryou.pdf',
+      'https://www.cfa.go.jp/policies/kokoseido/mushouka/gaiyou'
+    ],
+    sourceNote: '青森市公式ページで、2026年4月から0歳児・1歳児クラス第1子保育料の半額公費負担、年収360万円未満相当世帯、第3子以降、3人以上同時入所世帯の保育料全額公費負担、生活保護世帯・市民税非課税世帯の0円、3〜5歳児の保育料無償化、副食費は原則保護者負担、条件該当時の副食費免除を確認。令和8年度利用申込ページと保育料表PDFで、保育料軽減・副食費徴収免除の書類案内と令和8年度保育料表を補助確認。こども家庭庁ページで幼児教育・保育無償化の制度概要を補助確認。旧生成データを公式確認済み情報へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
