@@ -17220,4 +17220,33 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'tokushima-city-disability-medical',
+    title: '徳島市 重度心身障害者等医療費の助成',
+    organization: '徳島市',
+    type: 'local',
+    maxAmount: '保険診療による医療費の一部',
+    maxAmountNum: 0,
+    category: 'medical',
+    relatedCategories: ['nursing', 'living'],
+    prefecture: '徳島県',
+    tags: ['徳島市', '徳島県', '重度心身障害者医療費', '医療費助成', '障害福祉'],
+    eligibility: '身体障害者手帳1級または2級、療育手帳A判定または知的障害による特別児童扶養手当1級認定、身体障害者手帳3級または4級かつ療育手帳B1判定の方が対象です。本人、配偶者、扶養義務者の所得制限があります。',
+    applicationPeriod: '通年受付',
+    description: '徳島市が、重度心身障害者等の方が病院などで保険診療を受けた場合の医療費の一部を助成する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>徳島市重度心身障害者等医療費の助成は、重度心身障害者等の方の医療費負担を軽減するため、保険診療による医療費の一部を助成する制度です。既存の生成データでは「自己負担分の全額助成」としていましたが、公式ページの表現に合わせて「医療費の一部助成」へ修正しています。</p>' },
+      { heading: '対象者', content: '<p>対象は、身体障害者手帳1級または2級所持者、療育手帳A判定所持者または知的障害による特別児童扶養手当1級認定者、身体障害者手帳3級または4級所持者で療育手帳B1判定所持者です。本人、配偶者、扶養義務者の所得制限があります。</p>' },
+      { heading: '申請の注意点', content: '<p>申請には、重度心身障害者医療費助成認定申請書、健康保険の資格情報がわかる書類、身体障害者手帳または療育手帳、必要に応じて所得課税証明書、マイナンバー確認書類などが必要です。65歳以上で後期高齢者医療の障害認定を受けられる状態にある方は、後期高齢者医療保険に加入していないと助成を受けられません。</p>' }
+    ],
+    officialUrl: 'https://www.city.tokushima.tokushima.jp/kenko_fukushi/josei_kyufu/judo_josei.html',
+    sourceName: '徳島市 重度心身障害者等医療費の助成',
+    sourceUrls: [
+      'https://www.city.tokushima.tokushima.jp/kenko_fukushi/josei_kyufu/judo_josei.html',
+      'https://www.city.tokushima.tokushima.jp/smph/kosodate/kodokomyu/genre_kensaku/teate_hojokin/201530airyouhizyosei.html'
+    ],
+    sourceNote: '徳島市公式ページで、2026年2月1日最終更新、保険診療による医療費の一部助成、本人・配偶者・扶養義務者の所得制限、65歳以上で後期高齢者医療の障害認定を受けられる状態にある方の後期高齢者医療保険加入条件、対象者、必要書類を確認。医療費の助成一覧ページでも制度掲載を確認。旧生成データの全額助成表現から公式表現へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
