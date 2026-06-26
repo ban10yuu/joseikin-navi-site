@@ -6501,4 +6501,115 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'aomori-care-home-renovation-official',
+    title: '青森市 介護保険住宅改修費支給',
+    organization: '青森市',
+    type: 'local',
+    maxAmount: '対象工事20万円まで（自己負担1〜3割）',
+    maxAmountNum: 20,
+    category: 'nursing',
+    prefecture: '青森県',
+    tags: ['青森市', '介護保険', '住宅改修', 'バリアフリー', '高齢者'],
+    eligibility: '青森市で要支援・要介護認定を受け、手すりの取り付けや段差解消などの住宅改修が必要な方が対象です。',
+    targetOccupation: '青森市内の要支援・要介護認定者',
+    applicationPeriod: '改修前と改修後の2回申請。通年で相談・申請可能',
+    description: '青森市が、要支援・要介護認定を受けた方の在宅生活を支えるため、手すりの取り付けや段差解消などの住宅改修費を支給する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>青森市の介護保険住宅改修費支給は、要支援・要介護認定を受けた方が、自宅で安全に暮らすために行う住宅改修の費用を支援する制度です。</p>'
+      },
+      {
+        heading: '対象工事',
+        content: '<p>手すりの取り付け、段差解消、スロープ設置、滑り防止のための床材変更、引き戸などへの取り替え、和式便器から洋式便器への取り替えなどが対象です。</p>'
+      },
+      {
+        heading: '支給内容',
+        content: '<p>20万円を上限に、改修費用の9割が支給されます。一定以上所得者は8割または7割の支給です。改修前と改修後の2回申請が必要で、受領委任払に対応する事業所を利用する場合は、あらかじめ自己負担分のみで利用できる場合があります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.aomori.aomori.jp/hukushi_kenkou/kaigohoken/1003023/1003027/1003028.html',
+    sourceName: '青森市 福祉用具貸与・福祉用具購入・住宅改修の制度',
+    sourceUrls: [
+      'https://www.city.aomori.aomori.jp/hukushi_kenkou/kaigohoken/1003023/1003027/1003028.html'
+    ],
+    sourceNote: '青森市公式ページで介護保険住宅改修費支給、対象工事、20万円上限、9割・8割・7割支給、改修前後の申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'niigata-senior-home-reform-support',
+    title: '新潟市 高齢者向け住宅リフォーム助成',
+    organization: '新潟市',
+    type: 'local',
+    maxAmount: '最大30万円',
+    maxAmountNum: 30,
+    category: 'nursing',
+    prefecture: '新潟県',
+    tags: ['新潟市', '高齢者', '住宅リフォーム', 'バリアフリー', '介護'],
+    eligibility: '新潟市内で、65歳以上かつ介護保険の要介護または要支援の認定を受けた方がいる、世帯員全員の前年収入合計が600万円未満の世帯が対象です。',
+    targetOccupation: '新潟市内の要支援・要介護認定を受けた高齢者世帯',
+    applicationPeriod: '工事着工の1か月前までに相談。助成決定後に工事着工',
+    description: '新潟市が、身体機能の低下した65歳以上の高齢者が自宅で安心して生活できるよう、浴室・トイレ・階段などの改造費用を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>高齢者向け住宅リフォーム助成は、身体機能の低下した高齢者が住み慣れた自宅で安心して生活できるよう、住宅のバリアフリー改修費の一部を助成する制度です。</p>'
+      },
+      {
+        heading: '対象工事',
+        content: '<p>手すりの取り付け、床段差の解消、玄関先から道路までの段差解消、すべり止めや移動円滑化のための床材変更、段差解消のための浴室改修・浴槽の取り替えなどが対象です。助成決定前に着工した工事は対象外です。</p>'
+      },
+      {
+        heading: '助成額',
+        content: '<p>生活保護世帯は助成率100%で上限30万円、所得税非課税世帯は助成率75%で上限22.5万円、所得税課税世帯は助成率50%で上限15万円です。1世帯につき1回のみ利用できます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.niigata.lg.jp/iryo/korei/koreisha-reform.html',
+    sourceName: '新潟市 高齢者向け住宅リフォーム助成',
+    sourceUrls: [
+      'https://www.city.niigata.lg.jp/iryo/korei/koreisha-reform.html'
+    ],
+    sourceNote: '新潟市公式ページで高齢者向け住宅リフォーム助成、対象者、対象工事、生活保護世帯上限30万円、非課税世帯22.5万円、課税世帯15万円、助成決定前着工不可を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'toyama-senior-home-renovation-support',
+    title: '富山市 ねたきり防止等住宅整備費助成',
+    organization: '富山市',
+    type: 'local',
+    maxAmount: '最大50万円',
+    maxAmountNum: 50,
+    category: 'nursing',
+    prefecture: '富山県',
+    tags: ['富山市', '高齢者', '住宅改修', 'バリアフリー', '非課税世帯'],
+    eligibility: '富山市内の65歳以上の高齢者、または同居の親族で市町村民税非課税世帯の方が対象です。',
+    targetOccupation: '富山市内の高齢者世帯・同居親族',
+    applicationPeriod: '工事着工前に長寿福祉課へ相談・申請',
+    description: '富山市が、既存住宅に手すりの設置や段差解消など高齢者向け改造を行う際、工事費の一部を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>富山市のねたきり防止等住宅整備費助成は、既存住宅を高齢者が暮らしやすい住環境に改造するため、必要な工事費を補助する制度です。</p>'
+      },
+      {
+        heading: '対象者と工事',
+        content: '<p>65歳以上の高齢者または同居の親族で、市町村民税非課税世帯の方が対象です。既存住宅への手すり設置、段差の解消など、高齢者向け改造に必要な工事が対象です。</p>'
+      },
+      {
+        heading: '助成額',
+        content: '<p>助成対象となる工事費の3分の2が補助され、上限額は50万円です。詳しい対象範囲や申請手続きは、工事着工前に富山市長寿福祉課へ確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.toyama.lg.jp/kurashi/sumai/1010267/1008055.html',
+    sourceName: '富山市 住宅支援制度',
+    sourceUrls: [
+      'https://www.city.toyama.lg.jp/kurashi/sumai/1010267/1008055.html'
+    ],
+    sourceNote: '富山市公式ページでねたきり防止等住宅整備費助成、65歳以上高齢者等、市町村民税非課税世帯、工事費3分の2、上限50万円を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
