@@ -17077,4 +17077,35 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'takamatsu-bousai-equipment',
+    title: '高松市 家具類転倒防止対策促進事業補助金',
+    organization: '高松市',
+    type: 'local',
+    maxAmount: '最大1万円',
+    maxAmountNum: 1,
+    category: 'disaster',
+    relatedCategories: ['housing', 'living'],
+    prefecture: '香川県',
+    tags: ['高松市', '香川県', '家具転倒防止', '感震ブレーカー', '令和8年度'],
+    eligibility: '高松市内に住所を有し、自ら居住する住宅に令和8年度中に家具類転倒防止器具や感震ブレーカー等を購入・取り付ける世帯が対象です。補助金の交付は1世帯につき1回までです。',
+    applicationPeriod: '2026年5月7日から2026年12月28日まで。予算がなくなり次第終了',
+    deadlineDate: '2026-12-28',
+    description: '高松市が、地震による家具類の転倒や火災を防ぐため、家具類転倒防止器具や感震ブレーカー等の購入・取付費用を補助する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>高松市家具類転倒防止対策促進事業補助金は、地震発生時の家具転倒や感震ブレーカー設置による電気火災対策を支援する制度です。既存の生成データでは家庭用防災資機材購入補助金として上限5万円としていましたが、公式に確認できる令和8年度制度は購入・取付費用の3分の2、上限1万円です。</p>' },
+      { heading: '補助内容', content: '<p>補助対象は、令和8年度に購入し取り付ける家具類転倒防止器具や感震ブレーカー等です。補助額は購入・取付費用の3分の2で、上限は1万円です。令和7年度から感震ブレーカーの購入・取付費用も補助対象に追加されています。</p>' },
+      { heading: '申請の注意点', content: '<p>申込みは2026年5月7日8時30分からで、2026年12月28日まで受け付けます。予算がなくなり次第終了します。郵送の場合、この日付より前に到着したものは受け付けられません。補助金の交付は1世帯につき1回までで、過去に本事業で交付を受けた方は対象外です。</p>' }
+    ],
+    officialUrl: 'https://www.city.takamatsu.kagawa.jp/smph/kurashi/kurashi/shobo/sonae/kagutenntouboushi.html',
+    sourceName: '高松市 家具類転倒防止対策促進事業補助金',
+    sourceUrls: [
+      'https://www.city.takamatsu.kagawa.jp/smph/kurashi/kurashi/shobo/sonae/kagutenntouboushi.html',
+      'https://www.city.takamatsu.kagawa.jp/kurashi/kurashi/shobo/sonae/kagutenntouboushi.files/R8chirashi.pdf',
+      'https://www.city.takamatsu.kagawa.jp/kurashi/shinotorikumi/machidukuri/toshi/compact/yutakana/index.html'
+    ],
+    sourceNote: '高松市公式ページで、令和8年度に購入・取り付ける器具が対象、申込みは2026年5月7日から、1世帯1回まで、過去交付者は対象外、感震ブレーカーの購入等も対象を確認。令和8年度チラシPDFで、受付は2026年5月7日から12月28日まで、補助率3分の2、上限1万円、予算終了次第終了を確認。旧生成データの上限5万円から現行制度へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
