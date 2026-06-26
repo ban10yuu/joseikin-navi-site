@@ -4184,10 +4184,10 @@ export const verifiedTokyoLocalGrants2026: Grant[] = [
         content: '<p>多子世帯養育支援手当という公式制度名は確認できないため、児童手当の第3子以降加算として扱います。</p>'
       }
     ],
-    officialUrl: 'https://www.city.itabashi.tokyo.jp/kosodate/teate/teate/1063966.html',
+    officialUrl: 'https://www.city.itabashi.tokyo.jp/kosodate/teate/teate/1063955/index.html',
     sourceName: '板橋区 児童手当',
     sourceUrls: [
-      'https://www.city.itabashi.tokyo.jp/kosodate/teate/teate/1063966.html',
+      'https://www.city.itabashi.tokyo.jp/kosodate/teate/teate/1063955/index.html',
       'https://www.city.itabashi.tokyo.jp/kosodate/teate/teate/index.html'
     ],
     sourceNote: '板橋区公式ページで児童手当の対象年齢、第3子以降月額3万円、申請時期を確認。多子世帯養育支援手当という公式名称は確認できないため補正。',
