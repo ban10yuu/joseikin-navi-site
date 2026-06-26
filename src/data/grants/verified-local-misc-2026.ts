@@ -5557,4 +5557,153 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'oketo-elderly-disabled-home-renovation',
+    title: '置戸町 高齢者等住宅改修費助成金',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '最大50万円',
+    maxAmountNum: 50,
+    category: 'nursing',
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', '高齢者', '障がい者', '住宅改修'],
+    eligibility: '置戸町内に居住する65歳以上の高齢者、身体障害者手帳1・2級の方、またはこれらの方と同居している方が対象です。',
+    targetOccupation: '置戸町内の高齢者・重度身体障がい者世帯等',
+    applicationPeriod: '着工前に申請。受付状況は公式ページで確認',
+    description: '置戸町が、高齢者や身体障がい者の安全で快適な在宅生活を支えるため、住宅改修費の一部を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>置戸町高齢者等住宅改修費助成金は、高齢者や身体障がい者が自立して安全に暮らせる住環境を整えるため、住宅改修費の一部を支援する制度です。</p>'
+      },
+      {
+        heading: '対象工事',
+        content: '<p>手すりの設置、段差の解消・軽減、スロープ設置、床仕上げ・路盤改善、戸の改善、便器の改善、浴槽・洗い場の改善、調理台・洗面台等の改善などが対象です。</p>'
+      },
+      {
+        heading: '助成額',
+        content: '<p>改修工事費100万円を限度に、その2分の1が助成されます。介護保険の住宅改修費給付を受ける場合は、給付額を控除した額が対象です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/kenko_fukushi/koureisya/koreisha/jutaku_kaishu/',
+    sourceName: '置戸町 住宅改修費助成金交付',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/kenko_fukushi/koureisya/koreisha/jutaku_kaishu/'
+    ],
+    sourceNote: '置戸町公式ページで高齢者等住宅改修費助成金、65歳以上高齢者・身体障害者手帳1・2級等、改修工事費100万円の2分の1を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'iwate-care-technology-support-2026',
+    title: '岩手県 介護テクノロジー導入等支援事業費補助金',
+    organization: '岩手県',
+    type: 'local',
+    maxAmount: '最大2,000万円',
+    maxAmountNum: 2000,
+    category: 'nursing',
+    prefecture: '岩手県',
+    tags: ['岩手県', '介護テクノロジー', '介護ロボット', '介護ソフト', '介護事業所'],
+    eligibility: '岩手県内の介護サービス事業所、養護老人ホーム、軽費老人ホーム、対象となる事業者グループ等が対象です。',
+    targetOccupation: '岩手県内の介護サービス事業者・福祉事業者等',
+    applicationPeriod: '令和8年7月上旬から8月上旬に事前協議予定。詳細は公式ページで確認',
+    description: '岩手県が、介護テクノロジー導入、業務改善支援、地域モデルづくり、協働化・大規模化等による職場環境改善を支援する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>岩手県介護テクノロジー導入等支援事業費補助金は、介護現場の負担軽減や生産性向上を進めるため、介護テクノロジー、介護ソフト、ICT環境整備、業務改善支援等を支援する制度です。</p>'
+      },
+      {
+        heading: '対象事業',
+        content: '<p>介護テクノロジー等の導入支援、パッケージ型導入支援、導入支援と一体的に行う業務改善支援、地域における介護現場の生産性向上普及推進、協働化・大規模化等による職場環境改善が対象です。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>補助率は多くのメニューで5分の4です。パッケージ型導入支援は1事業所あたり上限1,000万円、モデル地域づくりは1モデルあたり最大2,000万円など、事業区分ごとに上限が設定されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.iwate.jp/kurashikankyou/fukushi/1083030/1099125.html',
+    sourceName: '岩手県 令和8年度介護テクノロジー導入等支援事業費補助金',
+    sourceUrls: [
+      'https://www.pref.iwate.jp/kurashikankyou/fukushi/1083030/1099125.html'
+    ],
+    sourceNote: '岩手県公式ページで令和8年度介護テクノロジー導入等支援事業費補助金、補助対象、補助率、事業区分別上限額を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'miyagi-care-technology-support-2026',
+    title: '宮城県 介護テクノロジー導入支援事業補助金',
+    organization: '宮城県',
+    type: 'local',
+    maxAmount: '詳細公開予定',
+    maxAmountNum: 0,
+    category: 'nursing',
+    prefecture: '宮城県',
+    tags: ['宮城県', '介護テクノロジー', '介護ロボット', 'ICT', '介護事業所'],
+    eligibility: '宮城県内に介護サービス事業所等を有する法人が対象です。',
+    targetOccupation: '宮城県内の介護サービス事業者等',
+    applicationPeriod: '令和8年7月中旬募集開始、令和8年8月中旬申請締切予定',
+    description: '宮城県が、介護職員の身体的負担軽減や業務効率化を目的に、介護テクノロジー導入費用を支援する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>宮城県介護テクノロジー導入支援事業補助金は、介護職員の身体的負担の軽減や業務の効率化を目的として、介護ロボットやICTなどの介護テクノロジー導入を支援する制度です。</p>'
+      },
+      {
+        heading: '対象事業者',
+        content: '<p>宮城県内に、介護保険法による指定または許可を受けた介護サービス事業所、または老人福祉法による認可を受けた養護老人ホーム・軽費老人ホームを有する法人が対象です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>介護テクノロジー等の導入支援、パッケージ型導入支援、導入支援と一体的に行う業務改善支援が予定されています。補助率は導入費の5分の4で、詳細な上限額は公式ページで公開予定です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.miyagi.jp/soshiki/chouju/r8kaigo-technology.html',
+    sourceName: '宮城県 令和8年度介護テクノロジー導入支援事業補助金',
+    sourceUrls: [
+      'https://www.pref.miyagi.jp/soshiki/chouju/r8kaigo-technology.html'
+    ],
+    sourceNote: '宮城県公式ページで令和8年度介護テクノロジー導入支援事業補助金、対象法人、補助率5分の4、募集開始・締切予定を確認。上限額は詳細公開予定。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'fukushima-care-technology-support-2026',
+    title: '福島県 介護テクノロジー導入支援事業',
+    organization: '福島県',
+    type: 'local',
+    maxAmount: '最大915万円',
+    maxAmountNum: 915,
+    category: 'nursing',
+    prefecture: '福島県',
+    tags: ['福島県', '介護テクノロジー', '介護ロボット', '介護ソフト', '介護事業所'],
+    eligibility: '福島県内の介護保険法に基づく指定・許可を受けた介護サービス事業所、養護老人ホーム、軽費老人ホーム等が対象です。',
+    targetOccupation: '福島県内の介護サービス事業者等',
+    applicationPeriod: '令和8年6月23日から令和8年7月31日17時必着',
+    deadlineDate: '2026-07-31',
+    description: '福島県が、介護職員の労働負担軽減と作業効率化を目的に、介護テクノロジー導入を支援する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>福島県介護テクノロジー導入支援事業は、働きやすい職場環境づくりと離職防止のため、介護テクノロジー導入費用を補助し、介護職員の労働負担軽減と作業効率化を図る制度です。</p>'
+      },
+      {
+        heading: '対象経費',
+        content: '<p>介護テクノロジー導入支援、介護ソフトの定着促進支援、パッケージ型導入支援、導入支援と一体的に行う業務改善支援などが対象です。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>補助率は5分の4です。介護テクノロジー導入支援等は合計で1法人あたり上限915万円、業務改善支援は1事業所あたり上限48万円です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.fukushima.lg.jp/sec/21025c/r8kaigorobot.html',
+    sourceName: '福島県 令和8年度福島県介護テクノロジー導入支援事業',
+    sourceUrls: [
+      'https://www.pref.fukushima.lg.jp/sec/21025c/r8kaigorobot.html'
+    ],
+    sourceNote: '福島県公式ページで令和8年度介護テクノロジー導入支援事業、補助率5分の4、1法人上限915万円、受付期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
