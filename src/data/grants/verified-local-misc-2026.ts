@@ -3237,4 +3237,154 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'tottori-future-scholarship-repayment',
+    title: '鳥取県 未来人材育成奨学金支援事業',
+    organization: '鳥取県',
+    type: 'local',
+    maxAmount: '最大216万円',
+    maxAmountNum: 216,
+    category: 'education',
+    prefecture: '鳥取県',
+    tags: ['鳥取県', '奨学金返還支援', '県内就職', '若者定着'],
+    eligibility: '鳥取県内企業への就職を視野に入れる大学・大学院、短大、専門学校、高専4年生以上の学生または35歳未満の既卒者が対象です。',
+    targetOccupation: '鳥取県内企業等へ就職予定の学生・既卒者',
+    applicationPeriod: '就職前に申請が必要。詳細は公式ページで確認',
+    description: '鳥取県内企業等へ就職する若者に対し、産業界と連携して奨学金返還を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>鳥取県未来人材育成奨学金支援事業は、鳥取県内企業等へ就職する若者の奨学金返還を支援し、県内で働き始める人を後押しする制度です。県外出身者や既卒者も対象として案内されています。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>大学、大学院、短大、専門学校、高専4年生以上の学生と、35歳未満の既卒者が対象です。鳥取県内企業への就職を視野に入れており、就職前の申請が必要です。</p>'
+      },
+      {
+        heading: '助成額',
+        content: '<p>特定業種では無利子奨学金の2分の1、有利子奨学金の4分の1が助成対象で、最大額は無利子216万円、有利子108万円です。一般業種では無利子108万円、有利子54万円が上限として案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.tottori.lg.jp/327184.htm',
+    sourceName: '鳥取県 未来人材育成奨学金支援事業',
+    sourceUrls: [
+      'https://www.pref.tottori.lg.jp/327184.htm'
+    ],
+    sourceNote: '鳥取県公式の県政だよりページで対象者、就職前申請、全業種対象、公務員除外、最大216万円、助成率を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'shimane-pharmacist-scholarship-repayment',
+    title: '島根県 薬剤師奨学金返還助成事業',
+    organization: '島根県',
+    type: 'local',
+    maxAmount: '最大576万円',
+    maxAmountNum: 576,
+    category: 'education',
+    prefecture: '島根県',
+    tags: ['島根県', '奨学金返還支援', '薬剤師', '医療人材'],
+    eligibility: '島根県内の登録医療機関または薬局に新たに薬剤師として就業を希望する大学等在学者または既卒者が対象です。就職内定前の申請が必要です。',
+    targetOccupation: '島根県内医療機関・薬局へ就業予定の薬学生・薬剤師',
+    applicationPeriod: '2026年4月1日から2026年12月28日まで',
+    deadlineDate: '2026-12-28',
+    description: '島根県内の医療機関や薬局に新たに就業する薬剤師を確保するため、奨学金返還を県と事業者が共同で助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>島根県薬剤師奨学金返還助成事業は、県内の登録医療機関または薬局に新たに就業する薬剤師を対象に、大学等在学中に借り入れた奨学金の返還を助成する制度です。</p>'
+      },
+      {
+        heading: '募集内容',
+        content: '<p>2026年度の募集期間は2026年4月1日から12月28日までで、募集定員は10名です。島根県出身者でなくても応募でき、大学5年生から就職内定前まで登録できます。</p>'
+      },
+      {
+        heading: '助成額',
+        content: '<p>病院では月額最大4万円、最長12年間で最大576万円の助成が案内されています。薬局は月額最大2万円、最長12年間で最大288万円です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.shimane.lg.jp/medical/yakuji/yakuji/yakuji_info/yakuzaishikakuho/yakuzaishi_josei.html',
+    sourceName: '島根県 薬剤師奨学金返還助成事業',
+    sourceUrls: [
+      'https://www.pref.shimane.lg.jp/medical/yakuji/yakuji/yakuji_info/yakuzaishikakuho/yakuzaishi_josei.html'
+    ],
+    sourceNote: '島根県公式ページで令和8年度募集、募集期間、募集定員10名、対象者、病院最大576万円・薬局最大288万円の助成額を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'okayama-sme-scholarship-repayment',
+    title: '岡山県 中小企業就職促進奨学金返還支援事業',
+    organization: '岡山県',
+    type: 'local',
+    maxAmount: '1人あたり年9万円',
+    maxAmountNum: 27,
+    category: 'education',
+    prefecture: '岡山県',
+    tags: ['岡山県', '奨学金返還支援', '中小企業', 'IJUターン'],
+    eligibility: '岡山県内に主たる事業所を有する、または県内勤務先を限定した採用を行う中小企業者が、35歳未満の正社員に奨学金返還支援を行う場合に対象です。',
+    targetOccupation: '岡山県内中小企業等と奨学金を返還する若手正社員',
+    applicationPeriod: '令和8年4月から代理返還も支援対象。申請手続きは公式ページで確認',
+    description: '岡山県内中小企業等が、IJUターン就職する若手従業員の奨学金返還を支援する場合に、企業負担額の一部を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>岡山県中小企業就職促進奨学金返還支援事業は、若者の県内就職と中小企業の人材確保を目的に、従業員への奨学金返還支援制度を持つ中小企業を支援する制度です。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>支援対象者は、補助対象企業に勤務する正社員で、日本学生支援機構の奨学金を返還予定または返還中であり、県内事業所等に勤務する35歳未満の人です。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>支援対象者1人あたり、企業が手当等として支給または代理返還した額の2分の1、または年9万円のいずれか低い額が補助されます。補助対象期間は原則採用後最大3年です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.okayama.jp/page/555039.html',
+    sourceName: '岡山県 奨学金返還支援制度導入企業を募集しています',
+    sourceUrls: [
+      'https://www.pref.okayama.jp/page/555039.html'
+    ],
+    sourceNote: '岡山県公式ページで令和8年4月から代理返還対象、対象企業・対象従業員、補助対象期間、1人年9万円上限を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'hiroshima-go-scholarship-repayment-support',
+    title: '広島県 Go！ひろしま奨学金返済支援制度導入企業応援補助金',
+    organization: '広島県',
+    type: 'local',
+    maxAmount: '従業員1人あたり上限なし',
+    maxAmountNum: 0,
+    category: 'education',
+    prefecture: '広島県',
+    tags: ['広島県', '奨学金返還支援', '中小企業', '人材定着'],
+    eligibility: '広島県内に本社・本店または主たる事務所を置く中小企業等が、県内勤務の従業員に対する奨学金返済支援制度に基づき手当等を支給する場合に対象です。',
+    targetOccupation: '広島県内中小企業等と奨学金を返済する従業員',
+    applicationPeriod: '2026年4月1日から2027年2月26日まで',
+    deadlineDate: '2027-02-26',
+    description: '広島県内中小企業等が従業員の奨学金返済を支援する制度を導入した場合に、支援に要した費用の一部を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>Go！ひろしま奨学金返済支援制度導入企業応援補助金は、県内企業の採用と定着、若年者の県内就職を促進するため、奨学金返済支援制度を導入した中小企業等を補助する制度です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>一般企業枠は従業員に支給した手当等の3分の2以内、人的資本開示企業枠は4分の3以内が補助されます。従業員1人あたりの上限額は設けられていませんが、当初計画の返済月額・年額の範囲内が対象です。</p>'
+      },
+      {
+        heading: '申請期間',
+        content: '<p>令和8年度の申請期間は2026年4月1日から2027年2月26日までです。交付決定額が予算額に達した場合は、期間内でも募集が終了する可能性があります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.hiroshima.lg.jp/soshiki/68/shogakukin-hensai-shien-hojokin.html',
+    sourceName: '広島県 Go！ひろしま奨学金返済支援制度導入企業応援補助金',
+    sourceUrls: [
+      'https://www.pref.hiroshima.lg.jp/soshiki/68/shogakukin-hensai-shien-hojokin.html'
+    ],
+    sourceNote: '広島県公式ページで令和8年度募集、対象企業・従業員、補助率、従業員1人あたり上限なし、申請期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
