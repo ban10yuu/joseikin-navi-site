@@ -15633,4 +15633,33 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'okayama-scholarship-repayment-company-2026',
+    title: '岡山県 奨学金返還支援制度導入企業応援事業補助金',
+    organization: '岡山県',
+    type: 'local',
+    maxAmount: '年最大9万円',
+    maxAmountNum: 9,
+    category: 'education',
+    relatedCategories: ['employment', 'living'],
+    prefecture: '岡山県',
+    tags: ['岡山県', '奨学金返還', '企業支援', '若者定着', '令和8年度'],
+    eligibility: '岡山県内に主たる事業所を有し、従業員の奨学金返還支援制度を設ける中小企業等など、公式要件を満たす事業者が対象です。',
+    applicationPeriod: '令和8年度制度として案内中。交付申請時期は公式ページで確認',
+    description: '岡山県が、県内中小企業等による奨学金返還支援制度の導入・実施を後押しする制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>岡山県奨学金返還支援制度導入企業応援事業補助金は、従業員の奨学金返還を支援する県内中小企業等を対象に、企業負担の一部を補助する制度です。</p>' },
+      { heading: '補助内容', content: '<p>公式ページでは、企業が対象従業員に支給する奨学金返還支援額の2分の1以内を補助し、対象従業員1人あたり年9万円を上限とする内容が案内されています。</p>' },
+      { heading: '申請の注意点', content: '<p>補助対象企業、対象従業員、支援制度の整備状況、県内勤務などの条件があります。申請前に最新の募集要項を確認してください。</p>' }
+    ],
+    officialUrl: 'https://www.pref.okayama.jp/page/555039.html',
+    sourceName: '岡山県 奨学金返還支援制度導入企業応援事業',
+    sourceUrls: [
+      'https://www.pref.okayama.jp/page/555039.html',
+      'https://www.pref.okayama.jp/page/563633.html'
+    ],
+    sourceNote: '岡山県公式ページで、企業による奨学金返還支援制度、補助率2分の1以内、対象従業員1人あたり年9万円上限を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
