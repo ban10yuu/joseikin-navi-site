@@ -17609,4 +17609,34 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'takamatsu-childcare-subsidy',
+    title: '高松市 保育料の多子世帯負担軽減',
+    organization: '高松市',
+    type: 'local',
+    maxAmount: '第2子半額・第3子以降無料',
+    maxAmountNum: 0,
+    category: 'childcare',
+    relatedCategories: ['living'],
+    prefecture: '香川県',
+    tags: ['高松市', '香川県', '保育料', '多子世帯', '副食費'],
+    eligibility: '高松市で保育施設等を利用する子どものいる世帯が対象です。兄弟姉妹の同時入所や18歳未満の子どもを3人以上養育している場合など、公式要件に応じて軽減されます。',
+    applicationPeriod: '通年。保育施設等の利用者負担額として適用',
+    description: '高松市が、保育施設等を利用する多子世帯の負担を軽減するため、第2子の保育料半額や第3子以降の保育料無料などを行う制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>高松市の保育料負担軽減は、保育施設等を利用する世帯の利用者負担額を、兄弟姉妹の状況に応じて軽減する制度です。公式FAQでは、兄弟姉妹が同時に入所している場合、第2子の保育料は市が定める階層の半額、第3子以降は無料になると案内されています。</p>' },
+      { heading: '軽減内容', content: '<p>兄弟姉妹が同時に入所している場合、第2子は半額、第3子以降は無料です。また、同時入所していない場合でも、18歳未満の児童を3人以上養育し、第3子以降が入所している場合は利用者負担額が無料になります。上の子が幼稚園に入園している場合も、下の子の年齢や認定区分に応じて同様の軽減が案内されています。</p>' },
+      { heading: '副食費と注意点', content: '<p>3歳児クラスから5歳児クラスまでの保育料は幼児教育・保育の無償化の対象ですが、給食費や行事費などは無償化の対象外です。副食費は引き続き保護者負担となります。ただし、世帯収入360万円未満相当世帯や、小学校就学前の最年長の子どもを第1子として数えた第3子以降の子どもは、副食費の免除対象になる場合があります。</p>' }
+    ],
+    officialUrl: 'https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/faq/price.html',
+    sourceName: '高松市 保育料について',
+    sourceUrls: [
+      'https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/faq/price.html',
+      'https://www.city.takamatsu.kagawa.jp/smph/kurashi/kosodate/youchien_hoiku/kodomoen/hoiku/musyouka23gou.html',
+      'https://www.cfa.go.jp/policies/kokoseido/mushouka/gaiyou'
+    ],
+    sourceNote: '高松市公式FAQで、兄弟姉妹が同時入所している場合の第2子保育料半額、第3子以降無料、18歳未満の児童を3人以上養育し第3子以降が入所している場合の保育料無料、上の子が幼稚園に入園している場合の扱いを確認。高松市の無償化ページで、給食費や行事費は無償化対象外、副食費は原則保護者負担、世帯収入360万円未満相当世帯と小学校就学前の第3子以降は副食費免除対象となることを確認。こども家庭庁ページで3歳から5歳の無償化と0歳から2歳の多子世帯軽減を補助確認。旧生成データを公式確認済み情報へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
