@@ -17429,4 +17429,34 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'matsuyama-nursing-home-reform',
+    title: '松山市 介護保険住宅改修費の支給',
+    organization: '松山市',
+    type: 'local',
+    maxAmount: '最大18万円',
+    maxAmountNum: 18,
+    category: 'nursing',
+    relatedCategories: ['housing', 'living'],
+    prefecture: '愛媛県',
+    tags: ['松山市', '愛媛県', '介護保険住宅改修', '住宅改修費', 'バリアフリー'],
+    eligibility: '要支援・要介護の認定を受けている方が対象です。自宅で安全に過ごすための手すり取り付け、段差解消など、介護保険で認められる小規模な住宅改修が対象です。',
+    applicationPeriod: '通年。工事前の事前申請が必要',
+    description: '松山市が介護保険制度に基づき、要支援・要介護認定を受けた方の住宅改修費の一部を支給する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>松山市介護保険住宅改修費の支給は、要支援・要介護認定を受けた方が自宅で安全に過ごすため、手すりの取り付けや段差解消などを行った場合に費用の一部を支給する制度です。既存の生成データでは介護保険への上乗せで最大30万円としていましたが、松山市公式ページで確認できる制度は支給限度基準額20万円の介護保険住宅改修費です。</p>' },
+      { heading: '支給内容', content: '<p>支給限度基準額は20万円です。本人の利用者負担割合に応じて7割から9割が支給されるため、給付限度額は1割負担の場合18万円、2割負担の場合16万円、3割負担の場合14万円です。要介護状態区分が3段階以上重くなった場合や転居した場合は、再度利用が認められる場合があります。</p>' },
+      { heading: '申請の注意点', content: '<p>住宅改修費は原則として工事前の事前申請が必要です。松山市公式ページでは、同じ工事で「わが家のリフォーム応援事業」や「節水型トイレ改修助成制度」との併用はできないと案内されています。</p>' }
+    ],
+    officialUrl: 'https://www.city.matsuyama.ehime.jp/kurashi/kaigohoken/kaigohoken/hokensa-bisu/zaitaku/jtks_tebiki.html',
+    sourceName: '松山市 住宅改修費の支給・住宅改修の手引き',
+    sourceUrls: [
+      'https://www.city.matsuyama.ehime.jp/kurashi/kaigohoken/kaigohoken/hokensa-bisu/zaitaku/jtks_tebiki.html',
+      'https://www.city.matsuyama.ehime.jp/kurashi/download/fukushi/kaigo/kyuuhu/sinsei_jtks.html',
+      'https://www.city.matsuyama.ehime.jp/kurashi/kaigohoken/kaigohoken/sa-bisuriyou/aramashi.html'
+    ],
+    sourceNote: '松山市公式ページで、住宅改修費は資産形成につながらない比較的小規模なものに限り対象部分の7から9割を支給、要支援・要介護認定者が対象、支給限度基準額20万円、給付限度額は1割負担18万円・2割負担16万円・3割負担14万円を確認。住宅改修費支給申請書ページで、わが家のリフォーム応援事業や節水型トイレ改修助成制度とは同じ工事で併用不可と確認。介護保険サービス一覧でも住宅改修費の支給を確認。旧生成データの市独自上乗せ最大30万円から公式制度へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
