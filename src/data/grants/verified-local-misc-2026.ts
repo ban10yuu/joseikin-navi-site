@@ -16931,4 +16931,34 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'kochi-city-childcare-subsidy',
+    title: '高知市 幼児教育・保育無償化と多子世帯保育料軽減',
+    organization: '高知市',
+    type: 'local',
+    maxAmount: '3〜5歳児無償化・第2子以降保育料軽減',
+    maxAmountNum: 0,
+    category: 'childcare',
+    relatedCategories: ['education', 'living'],
+    prefecture: '高知県',
+    tags: ['高知市', '保育料', '幼児教育無償化', '多子世帯', '副食費'],
+    eligibility: '高知市で幼稚園、保育所、認定こども園、地域型保育、認可外保育施設などを利用する子どもの保護者が対象です。年齢、施設類型、保育の必要性の認定、世帯の課税状況、多子判定により軽減内容が異なります。',
+    applicationPeriod: '通年。施設利用や認定手続きにあわせて確認',
+    description: '高知市が案内する幼児教育・保育の無償化と、市独自の保育料軽減を含む子育て負担軽減制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>高知市では、幼稚園、保育所、認定こども園等を利用する3歳から5歳児の利用料を無償化する制度を案内しています。0歳から2歳児についても、住民税非課税世帯などは無償化の対象です。既存の生成データでは子ども1人あたり最大5万円の給付金としていましたが、公式に継続確認できる制度へ修正しています。</p>' },
+      { heading: '軽減内容', content: '<p>公式ページでは、教育・保育施設等に2人以上在園している場合の保育料軽減について、無償化以降も現行どおり軽減を行うと案内されています。利用申込案内では、高知市独自の保育料軽減として所得区分を細かく設定し、同時に2人以上が利用している場合には2人目以降の保育料を無償化している旨が示されています。</p>' },
+      { heading: '確認すべき点', content: '<p>認可外保育施設や預かり保育、障害児通園施設、副食費の免除・軽減は、それぞれ対象条件や上限額、認定手続きが異なります。施設利用前または年度切替時に、高知市保育幼稚園課の案内と利用施設からの説明を確認してください。</p>' }
+    ],
+    officialUrl: 'https://www.city.kochi.kochi.jp/soshiki/34/mushoka.html',
+    sourceName: '高知市 幼児教育・保育無償化について',
+    sourceUrls: [
+      'https://www.city.kochi.kochi.jp/soshiki/34/mushoka.html',
+      'https://www.city.kochi.kochi.jp/uploaded/attachment/168626.pdf',
+      'https://www.city.kochi.kochi.jp/uploaded/attachment/155142.pdf'
+    ],
+    sourceNote: '高知市公式ページで幼児教育・保育無償化、3〜5歳児の無償化、0〜2歳児の非課税世帯無償化、多子世帯保育料軽減の案内を確認。令和8年度高知市保育施設利用申込案内PDFで、市独自の保育料軽減と同時利用時の2人目以降無償化を確認。副食費PDFで免除・軽減条件を確認。旧生成データの子育て世帯応援給付金から継続制度へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
