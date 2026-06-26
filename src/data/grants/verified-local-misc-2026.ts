@@ -4209,4 +4209,153 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'gunma-zero-declaration-housing',
+    title: '群馬県 ぐんまゼロ宣言住宅促進事業費補助金',
+    organization: '群馬県',
+    type: 'local',
+    maxAmount: '子育て世帯5万円・県産木材12,500円/立方メートル',
+    maxAmountNum: 5,
+    category: 'housing',
+    prefecture: '群馬県',
+    tags: ['群馬県', '省エネ住宅', '新築住宅', '子育て世帯', 'ゼロ宣言住宅'],
+    eligibility: '群馬県内で、ぐんまゼロ宣言住宅として認定される住宅を新築または取得する個人等が対象です。',
+    targetOccupation: '群馬県内で省エネ住宅を新築・取得する個人',
+    applicationPeriod: '2026年4月1日から受付開始。予算に達し次第終了',
+    description: '群馬県が、災害に強く、健康で快適に暮らせる省エネ住宅「ぐんまゼロ宣言住宅」の普及を促進するために補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>ぐんまゼロ宣言住宅促進事業費補助金は、住宅分野の脱炭素化や災害時のレジリエンス向上を目的に、群馬県が定める「ぐんまゼロ宣言住宅」の新築・取得を支援する制度です。</p>'
+      },
+      {
+        heading: '対象住宅',
+        content: '<p>群馬県内に建築され、県の基準を満たすぐんまゼロ宣言住宅が対象です。省エネ性能や再生可能エネルギー設備などの要件は公式ページの認定制度・補助要綱で確認します。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>供給事業では県産木材の使用量1立方メートルあたり12,500円、子育て世帯支援では1世帯・1戸あたり5万円が補助されます。令和8年度は2026年4月1日から受付開始で、予算に達し次第終了します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.gunma.jp/site/hojokin/198891.html',
+    sourceName: '群馬県 ぐんまゼロ宣言住宅促進事業費補助金',
+    sourceUrls: [
+      'https://www.pref.gunma.jp/site/hojokin/198891.html'
+    ],
+    sourceNote: '群馬県公式ページで令和8年度募集、供給事業・子育て世帯支援、県産木材12,500円/立方メートル、子育て世帯5万円、受付開始日を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'saitama-window-insulation-reform',
+    title: '埼玉県 住宅における断熱窓改修促進補助金',
+    organization: '埼玉県',
+    type: 'local',
+    maxAmount: '断熱窓改修費用の一部',
+    maxAmountNum: 0,
+    category: 'housing',
+    prefecture: '埼玉県',
+    tags: ['埼玉県', '断熱窓', '省エネ改修', '住宅リフォーム', '窓改修'],
+    eligibility: '埼玉県内の住宅で、国の断熱窓改修補助を活用して窓の断熱改修を行う個人等が対象です。',
+    targetOccupation: '埼玉県内住宅の所有者・居住者等',
+    applicationPeriod: '2026年5月18日から受付開始。予算に達し次第終了',
+    description: '埼玉県が、住宅の省エネ化と冷暖房負荷の低減を目的に、断熱窓改修を行う人へ国補助に上乗せして支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>埼玉県住宅における断熱窓改修促進補助金は、家庭部門の省エネルギー化を進めるため、既存住宅の窓の断熱改修を支援する制度です。</p>'
+      },
+      {
+        heading: '対象工事',
+        content: '<p>既存住宅の窓を断熱性能の高い窓へ改修する工事が対象です。国の断熱窓改修補助の活用など、公式ページで定められた要件を満たす必要があります。</p>'
+      },
+      {
+        heading: '申請受付',
+        content: '<p>令和8年度は2026年5月18日から受付開始と案内されています。補助額、申請書類、受付状況は埼玉県公式ページで確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.saitama.lg.jp/a1107/reform/windowreform.html',
+    sourceName: '埼玉県 住宅における断熱窓改修促進補助金',
+    sourceUrls: [
+      'https://www.pref.saitama.lg.jp/a1107/reform/windowreform.html'
+    ],
+    sourceNote: '埼玉県公式ページで令和8年度受付開始、住宅の断熱窓改修、国補助活用、予算到達時終了を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'chiba-zeh-housing-promotion-2026',
+    title: '千葉県 住宅用設備等脱炭素化促進事業補助金（ZEH）',
+    organization: '千葉県',
+    type: 'local',
+    maxAmount: '100万円',
+    maxAmountNum: 100,
+    category: 'housing',
+    prefecture: '千葉県',
+    tags: ['千葉県', 'ZEH', '住宅用設備', '脱炭素', '省エネ住宅'],
+    eligibility: '千葉県内の住宅で、ZEHや太陽光発電設備、蓄電池等の住宅用設備を導入する市町村補助の対象者が対象です。',
+    targetOccupation: '千葉県内で省エネ住宅設備を導入する個人',
+    applicationPeriod: '市町村ごとの受付期間に従って申請',
+    description: '千葉県が市町村を通じて、ZEHや住宅用太陽光発電設備、蓄電池等の脱炭素化設備導入を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>千葉県住宅用設備等脱炭素化促進事業補助金は、家庭部門の脱炭素化を進めるため、市町村を通じて住宅用設備やZEH導入を支援する制度です。</p>'
+      },
+      {
+        heading: '対象設備',
+        content: '<p>太陽光発電設備、家庭用燃料電池、蓄電池、窓の断熱改修、電気自動車関連設備、ZEHなどが市町村補助の対象として案内されています。</p>'
+      },
+      {
+        heading: 'ZEH補助額',
+        content: '<p>ZEHは県補助額として1戸あたり100万円が示されています。実際の申請は市町村を通じて行うため、受付状況や追加要件は居住地の市町村で確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.chiba.lg.jp/shigen/chikyuukankyou/ne/shien-ippan.html',
+    sourceName: '千葉県 住宅用設備等脱炭素化促進事業補助金',
+    sourceUrls: [
+      'https://www.pref.chiba.lg.jp/shigen/chikyuukankyou/ne/shien-ippan.html'
+    ],
+    sourceNote: '千葉県公式ページで市町村を通じた住宅用設備等脱炭素化促進事業、ZEH、対象設備、ZEH補助額100万円を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kanagawa-existing-house-energy-renovation',
+    title: '神奈川県 既存住宅省エネ改修事業費補助金',
+    organization: '神奈川県',
+    type: 'local',
+    maxAmount: '最大40万円',
+    maxAmountNum: 40,
+    category: 'housing',
+    prefecture: '神奈川県',
+    tags: ['神奈川県', '省エネ改修', '窓断熱', 'リフォーム', '既存住宅'],
+    eligibility: '神奈川県内の既存住宅で、一定の省エネ性能向上を伴う窓改修等を行う住宅所有者等が対象です。',
+    targetOccupation: '神奈川県内の既存住宅所有者等',
+    applicationPeriod: '2026年4月25日から2027年2月27日まで',
+    deadlineDate: '2027-02-27',
+    description: '神奈川県が、既存住宅の省エネルギー化を促進するため、窓断熱等の省エネ改修工事費の一部を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>神奈川県既存住宅省エネ改修事業費補助金は、家庭部門の脱炭素化を進めるため、既存住宅の省エネ改修を支援する制度です。</p>'
+      },
+      {
+        heading: '対象工事',
+        content: '<p>窓などの開口部改修を含む省エネ改修工事が対象です。対象となる工事や製品、補助対象経費は公式ページの募集案内で確認します。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>補助率は補助対象経費の3分の1で、上限は1戸あたり40万円です。令和8年度の受付期間は2026年4月25日から2027年2月27日までです。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.kanagawa.jp/docs/ap4/cnt/f300183/shouenekaishu.html',
+    sourceName: '神奈川県 既存住宅省エネ改修事業費補助金',
+    sourceUrls: [
+      'https://www.pref.kanagawa.jp/docs/ap4/cnt/f300183/shouenekaishu.html'
+    ],
+    sourceNote: '神奈川県公式ページで令和8年度募集、既存住宅省エネ改修、補助率3分の1、上限40万円、受付期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
