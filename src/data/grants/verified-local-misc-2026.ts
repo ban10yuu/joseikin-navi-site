@@ -16821,4 +16821,33 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'takamatsu-nursing-equipment',
+    title: '高松市 寝たきり高齢者等紙おむつ給付事業',
+    organization: '高松市',
+    type: 'local',
+    maxAmount: '紙おむつ等を2か月分ずつ配達',
+    maxAmountNum: 0,
+    category: 'nursing',
+    relatedCategories: ['medical', 'living'],
+    prefecture: '香川県',
+    tags: ['高松市', '紙おむつ', '在宅介護', '要介護3以上', '令和8年度'],
+    eligibility: '高松市内に住所を有する65歳以上の方で、寝たきり又は認知症の状態、原則要介護3から5、生計中心者の市民税非課税、介護保険施設に入所していないなど公式要件を満たす方が対象です。',
+    applicationPeriod: '随時受付。変更・中止等は配達月の前月15日までに連絡',
+    description: '高松市が、在宅で生活する寝たきり高齢者等に対し、紙おむつや尿取りパッド等を2か月分ずつ市内の自宅等へ配達する事業です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>高松市寝たきり高齢者等紙おむつ給付事業は、在宅で生活する寝たきり又は認知症の高齢者等の日常生活を支援し、家族介護の負担を軽減する制度です。既存の生成データでは月額6,250円相当としていましたが、公式ページでは紙おむつ等の現物給付として案内されています。</p>' },
+      { heading: '給付内容', content: '<p>身体の状況に応じた紙おむつ等を、2か月分ずつ市内の自宅等へ配達します。公式の令和8年度資料では、身体の状況によって給付内容が異なり、両方の対象となる場合でもどちらか一方のみの申請になると案内されています。</p>' },
+      { heading: '申請の注意点', content: '<p>申請は書面またはオンラインで受け付けています。タイプや配達先の変更、中止・廃止は、配達月の前月15日までに長寿福祉課へ連絡します。短期入所を1か月に16日以上利用している場合など、対象外となる要件もあります。</p>' }
+    ],
+    officialUrl: 'https://www.city.takamatsu.kagawa.jp/smph/kurashi/kenkou/koreisha_shien/zaitaku_service/kamiomutsu.html',
+    sourceName: '高松市 寝たきり高齢者等紙おむつ給付事業',
+    sourceUrls: [
+      'https://www.city.takamatsu.kagawa.jp/smph/kurashi/kenkou/koreisha_shien/zaitaku_service/kamiomutsu.html',
+      'https://www.city.takamatsu.kagawa.jp/kurashi/kenkou/koreisha_shien/zaitaku_service/kamiomutsu.files/sinseijyonochui.pdf'
+    ],
+    sourceNote: '高松市公式ページで、2026年4月9日更新、対象要件、書面・オンライン申請、紙おむつ等を市内の自宅等へ配達することを確認。令和8年度公式PDFで2か月分ずつ配達、変更・中止等は配達月の前月15日まで、長寿福祉課担当を確認。旧生成データの月額最大6,250円相当から現物給付へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
