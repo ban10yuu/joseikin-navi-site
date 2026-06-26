@@ -13857,6 +13857,50 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-27',
   },
   {
+    slug: 'tochigi-medical-infertility-treatment',
+    title: '栃木県 県内市町の不妊症・不育症治療費助成事業',
+    organization: '栃木県',
+    type: 'local',
+    maxAmount: '市町により異なる（宇都宮市は初回最大45万円等）',
+    maxAmountNum: 45,
+    category: 'medical',
+    relatedCategories: ['childcare'],
+    prefecture: '栃木県',
+    tags: ['栃木県', '不妊治療', '不育症', '市町助成', '令和8年度'],
+    eligibility: '栃木県内の市町が実施する不妊症・不育症治療費助成の対象者です。対象治療、婚姻要件、居住要件、年齢要件、助成額は市町により異なります。',
+    targetOccupation: '栃木県内で不妊症・不育症治療を受ける人',
+    applicationPeriod: '市町により異なる。令和8年4月1日時点の実施状況一覧を確認',
+    description: '栃木県が、県内市町の不妊症・不育症治療費助成事業をまとめて公開している制度一覧です。市町ごとに対象治療や助成額が異なるため、居住市町の窓口で詳細を確認します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>栃木県は、県内市町が実施している不妊症や不育症の治療等の助成事業について、令和8年4月1日時点の実施状況一覧を公開しています。県単独の一律給付ではなく、市町ごとに制度内容が異なる助成の案内です。</p>'
+      },
+      {
+        heading: '対象治療と条件',
+        content: '<p>一覧表では、不妊検査、一般不妊治療、生殖補助医療、男性不妊治療、先進医療、不育症治療などについて、市町ごとの助成対象や条件が整理されています。婚姻要件、1年以上在住、市町税等の滞納なし、健康保険加入、年齢要件などの有無も市町により異なります。</p>'
+      },
+      {
+        heading: '助成額の例',
+        content: '<p>助成額は市町によって異なります。例えば、令和8年4月1日時点の不妊治療費助成一覧では、宇都宮市は申請初回について自己負担額の全額を45万円を上限に助成し、2回目以降は自己負担額の7割を30万円を上限に助成するとされています。足利市は保険適用分について自己負担額の2分の1を1回10万円を限度に年度1回まで助成するなど、市町ごとに扱いが異なります。</p>'
+      },
+      {
+        heading: '確認方法',
+        content: '<p>栃木県公式ページでは、制度の内容は市町によって異なるため、詳細は住まいの市町に直接問い合わせるよう案内されています。県ページには各市町の所管課、電話番号、関連ホームページへのリンクも掲載されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.tochigi.lg.jp/e06/welfare/kodomo/kosodatesoudan/fuikushochiryouhijosei.html',
+    sourceName: '栃木県 県内市町における不妊症・不育症治療費助成事業について',
+    sourceUrls: [
+      'https://www.pref.tochigi.lg.jp/e06/welfare/kodomo/kosodatesoudan/fuikushochiryouhijosei.html',
+      'https://www.pref.tochigi.lg.jp/e06/welfare/kodomo/kosodatesoudan/documents/r8huninshimachi.pdf',
+      'https://www.pref.tochigi.lg.jp/e06/welfare/kodomo/kosodatesoudan/documents/r8huikushimachi.pdf'
+    ],
+    sourceNote: '栃木県公式ページで、県内市町における不妊症・不育症治療費助成事業、令和8年4月1日現在の実施状況、制度内容は市町により異なるため詳細は住まいの市町へ直接問い合わせること、市町の所管課・電話番号・関連ホームページを確認。不妊治療費助成一覧PDFで、対象治療、婚姻・居住・滞納・保険加入・年齢要件、宇都宮市の申請初回最大45万円、2回目以降最大30万円、足利市の保険適用分1回10万円限度などを確認。不育症治療費助成一覧PDFもあわせて確認。旧生成データの県一律助成のような表現を、公式の県内市町助成一覧へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
+  {
     slug: 'kofu-newlywed-life-support-2026',
     title: '甲府市 結婚新生活支援事業',
     organization: '甲府市',
