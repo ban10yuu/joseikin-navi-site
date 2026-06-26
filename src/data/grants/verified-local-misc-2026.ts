@@ -5104,4 +5104,155 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'komatsushima-wooden-house-earthquake-retrofit-2026',
+    title: '小松島市 木造住宅耐震化促進事業',
+    organization: '小松島市',
+    type: 'local',
+    maxAmount: '最大210万円',
+    maxAmountNum: 210,
+    category: 'housing',
+    prefecture: '徳島県',
+    tags: ['徳島県', '小松島市', '耐震改修', '木造住宅', '住宅リフォーム'],
+    eligibility: '平成12年5月31日以前に着工された木造住宅など、小松島市が定める耐震診断・耐震改修等の要件を満たす住宅が対象です。',
+    targetOccupation: '小松島市内の木造住宅所有者・居住者等',
+    applicationPeriod: '令和8年度受付中。募集件数に達した場合は受付終了',
+    description: '小松島市が、地震に強い住まいづくりを進めるため、木造住宅の耐震診断、耐震改修、耐震シェルター、住替え等を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>小松島市木造住宅耐震化促進事業は、旧耐震基準等の木造住宅について、耐震診断や耐震改修を支援し、地震時の住宅倒壊リスクを下げる制度です。</p>'
+      },
+      {
+        heading: '対象住宅',
+        content: '<p>平成12年5月31日以前に着工された木造住宅など、事業区分ごとの要件を満たす住宅が対象です。工事契約や着工は補助金交付決定後に行う必要があります。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>木造住宅耐震改修支援は耐震改修工事最大200万円に、感震ブレーカー設置費用最大10万円を上乗せし、総額最大210万円の補助が案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.komatsushima.lg.jp/docs/5620901.html',
+    sourceName: '小松島市 令和8年度小松島市木造住宅耐震化促進事業',
+    sourceUrls: [
+      'https://www.city.komatsushima.lg.jp/docs/5620901.html',
+      'https://www.pref.tokushima.lg.jp/taishinka/topics/sonota/5003274/'
+    ],
+    sourceNote: '小松島市公式ページで令和8年度木造住宅耐震化促進事業、耐震改修最大200万円と感震ブレーカー10万円上乗せ、総額最大210万円を確認。徳島県公式の市町村別補助額一覧も確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kagawa-hinoki-housing-2026',
+    title: '香川県 「かがわヒノキ」住宅助成事業',
+    organization: '香川県',
+    type: 'local',
+    maxAmount: '最大50万円',
+    maxAmountNum: 50,
+    category: 'housing',
+    prefecture: '香川県',
+    tags: ['香川県', '県産材', 'ヒノキ', '住宅新築', '住宅リフォーム'],
+    eligibility: '香川県内で認証ヒノキ材を使用して、木造住宅の新築、増築、改築またはリフォームを行う施主等が対象です。',
+    targetOccupation: '香川県内で認証ヒノキ材住宅を建築・改修する施主等',
+    applicationPeriod: '令和8年4月1日から令和9年2月13日まで。予算到達時は受付終了',
+    deadlineDate: '2027-02-13',
+    description: '香川県が、県産認証ヒノキ材を使用した木造住宅の新築・増改築・リフォームを支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>「かがわヒノキ」住宅助成事業は、香川県産ヒノキ材の利用を促進するため、認証ヒノキ材を使った住宅の建築・リフォーム費用の一部を支援する制度です。</p>'
+      },
+      {
+        heading: '対象住宅',
+        content: '<p>県内で認証ヒノキ材を使用して木造住宅の新築、増築、改築またはリフォームを行うこと、県内業者が施工することなどが要件です。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>県産認証ヒノキ購入助成と特別加算を合わせて1軒あたり最大50万円です。内装材は1軒あたり30万円まで、展示用品助成・公開経費助成は合わせて5万円までです。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.kagawa.lg.jp/rinsei/mokuzai/wmdm49180329154714.html',
+    sourceName: '香川県 「かがわヒノキ」住宅助成事業',
+    sourceUrls: [
+      'https://www.pref.kagawa.lg.jp/rinsei/mokuzai/wmdm49180329154714.html'
+    ],
+    sourceNote: '香川県公式ページで令和8年度の申請期間、認証ヒノキ材住宅、新築・増改築・リフォーム、上限50万円を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'ehime-wood-housing-promotion-2026',
+    title: '愛媛県 えひめ材住宅等普及啓発事業',
+    organization: '愛媛県',
+    type: 'local',
+    maxAmount: '最大30万3,000円',
+    maxAmountNum: 30,
+    category: 'housing',
+    prefecture: '愛媛県',
+    tags: ['愛媛県', '県産材', '木造住宅', '住宅新築', '住宅リフォーム'],
+    eligibility: '愛媛県産材を使用した住宅の新築、リフォーム等について、事業区分ごとの要件を満たす建築主・施工者等が対象です。',
+    targetOccupation: '愛媛県内でえひめ材住宅を建築・改修する方等',
+    applicationPeriod: '令和8年度の受付期間・予算状況は公式ページで確認',
+    description: '愛媛県が、えひめ材を活用した住宅の新築・リフォーム等を支援し、県産材利用の拡大を図る制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>えひめ材住宅等普及啓発事業は、県産材の利用拡大を目的に、えひめ材の家づくり促進支援、住宅等リフォーム木材利用促進など複数の区分で住宅利用を支援する制度です。</p>'
+      },
+      {
+        heading: '対象住宅',
+        content: '<p>えひめ材を使用した住宅の新築や、県産材を利用した住宅等リフォームが対象です。工法、使用材、施工内容により補助区分と上限額が異なります。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>えひめ材の家づくり促進支援は、在来軸組工法の森林認証材で24.3万円、梁・桁すべて県産材使用の加算6万円を含めると住宅新築は最大30.3万円です。住宅等リフォーム木材利用促進事業は10万円から16.8万円です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.ehime.jp/page/143575.html',
+    sourceName: '愛媛県 令和8年度えひめ材住宅等普及啓発事業',
+    sourceUrls: [
+      'https://www.pref.ehime.jp/page/143575.html',
+      'https://www.kinosoudan.jp/present.html'
+    ],
+    sourceNote: '愛媛県公式ページで令和8年度えひめ材住宅等普及啓発事業、住宅新築・リフォームの補助上限を確認。実施要領でえひめ材の家づくり促進支援の加算内容を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kochi-wooden-house-support-2026',
+    title: '高知県 こうちの木の住まいづくり助成事業',
+    organization: '高知県',
+    type: 'local',
+    maxAmount: '別表で算定',
+    maxAmountNum: 0,
+    category: 'housing',
+    prefecture: '高知県',
+    tags: ['高知県', '県産材', '木造住宅', '住宅新築', '住宅リフォーム'],
+    eligibility: '高知県内で木造住宅の新築、増築、リフォームまたは内装木質化を行い、県内産乾燥木材の使用など要件を満たす個人が対象です。',
+    targetOccupation: '高知県内で県産材住宅を取得・改修する個人',
+    applicationPeriod: '令和8年度の受付期間・予算状況は公式ページで確認',
+    description: '高知県が、県内産乾燥木材を使った木造住宅の新築・増築・リフォーム・内装木質化を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>こうちの木の住まいづくり助成事業は、県内産乾燥木材の利用拡大と木造住宅の普及を目的に、住宅の新築、増築、リフォーム、内装木質化を支援する制度です。</p>'
+      },
+      {
+        heading: '対象住宅',
+        content: '<p>県内で新築、増築、リフォームを行う木造住宅、または内装木質化を行う住宅が対象です。新築・増築では基本部位の80%以上に県内産乾燥木材を使用することなどが要件です。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>補助額は公式ページの交付要綱別表第1に基づき、積上補助タイプまたは定額補助タイプで算定されます。利用タイプにより申込みから支払いまでの流れと必要書類が異なります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.kochi.lg.jp/doc/kinosumai-gaiyoutetuduki/',
+    sourceName: '高知県 こうちの木の住まいづくり助成事業',
+    sourceUrls: [
+      'https://www.pref.kochi.lg.jp/doc/kinosumai-gaiyoutetuduki/'
+    ],
+    sourceNote: '高知県公式ページで令和8年度こうちの木の住まいづくり助成事業、県内産乾燥木材、住宅新築・増築・リフォーム・内装木質化、補助額は別表算定であることを確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
