@@ -13645,6 +13645,45 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-26',
   },
   {
+    slug: 'tsuruoka-child-medical',
+    title: '鶴岡市 子育て支援医療給付制度',
+    organization: '鶴岡市',
+    type: 'local',
+    maxAmount: '保険診療の自己負担額を助成',
+    maxAmountNum: 0,
+    category: 'medical',
+    relatedCategories: ['childcare'],
+    prefecture: '山形県',
+    tags: ['鶴岡市', '子育て支援医療', '子ども医療費', '18歳年度末', '医療費無償化'],
+    eligibility: '0歳から18歳到達後最初の3月31日までの子どもが対象です。高校等進学のため市外へ転出した場合でも、保護者が鶴岡市に住んでいるなどの要件により対象となる場合があります。',
+    targetOccupation: '鶴岡市の18歳年度末までの子ども',
+    applicationPeriod: '通年。出生・転入・保険変更時などに申請',
+    description: '鶴岡市が、0歳から18歳年度末までの子どもの医療費自己負担額を助成する制度です。令和5年7月1日から対象者が中学3年生までから18歳年度末までに拡大されています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>鶴岡市子育て支援医療給付制度は、子どもの健康な発育を支援するため、医療機関等で受診した際の保険診療に係る自己負担額を助成する制度です。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>対象は0歳から18歳到達後の最初の3月31日までの子どもです。令和5年7月1日から対象者が中学3年生までから18歳到達後の最初の3月31日までに拡大されています。高校等への進学で鶴岡市外へ転出した場合でも、保護者が鶴岡市に住んでいる場合などは申請により対象となる場合があります。</p>'
+      },
+      {
+        heading: '助成内容と注意点',
+        content: '<p>医療保険が適用される医療費の自己負担額が助成対象です。受診時はマイナ保険証、資格確認書、健康保険証等と子育て支援医療証を医療機関に提示します。県外受診や治療用装具などは、領収書等を添えて申請することで後から払い戻しを受ける償還払いの扱いになります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.tsuruoka.lg.jp/kyoiku/nenrei/zero/kosodatesieniryou.html',
+    sourceName: '鶴岡市 子育て支援医療給付制度',
+    sourceUrls: [
+      'https://www.city.tsuruoka.lg.jp/kyoiku/nenrei/zero/kosodatesieniryou.html',
+      'https://www.city.tsuruoka.lg.jp/kenko/kenkofukushi-gaiyo/tiikihoukatsu01223.files/R5-13.pdf'
+    ],
+    sourceNote: '鶴岡市公式ページで、子育て支援医療給付制度、0歳から18歳到達後最初の3月31日まで、令和5年7月1日から対象拡大、市外進学時の扱い、医療証提示、償還払いを確認。健康福祉の概要PDFで、医療費自己負担額助成と18歳年度末までの一部負担金なしを補助確認。旧生成データを公式確認済み情報へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
     slug: 'kofu-newlywed-life-support-2026',
     title: '甲府市 結婚新生活支援事業',
     organization: '甲府市',
