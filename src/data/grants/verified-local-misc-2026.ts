@@ -17942,6 +17942,37 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-27',
   },
   {
+    slug: 'sendai-school-lunch',
+    title: '仙台市 令和8年度市立小学校給食費完全無償化',
+    organization: '仙台市',
+    type: 'local',
+    maxAmount: '小学校給食費の保護者負担0円',
+    maxAmountNum: 7,
+    category: 'education',
+    relatedCategories: ['childcare', 'living'],
+    prefecture: '宮城県',
+    tags: ['仙台市', '宮城県', '学校給食', '給食費', '小学校', '令和8年度'],
+    eligibility: '仙台市立小学校に在籍し、学校給食の提供を受ける児童の保護者が対象です。令和8年度から小学校給食費の保護者負担が完全無償化されます。',
+    applicationPeriod: '令和8年4月1日から。仙台市立小学校在籍児童は口座振替手続き不要',
+    description: '仙台市が、国による学校給食費無償化の動向を踏まえ、令和8年4月から市立小学校の学校給食費を完全無償化する制度です。国等から交付される金額の不足分を仙台市が負担し、小学校の保護者負担を0円にします。',
+    sections: [
+      { heading: '制度の概要', content: '<p>仙台市では、令和8年4月から市立小学校の学校給食費を完全無償化します。公式ページでは、国による学校給食費無償化の動向を踏まえ、国等から交付される金額の不足分を仙台市が負担して実施すると案内されています。</p>' },
+      { heading: '対象と負担軽減額', content: '<p>対象は仙台市立小学校の学校給食費です。市長発表では、国の食材料費基準額が児童1人あたり月額5,200円である一方、仙台市の小学生の食材料費は月額7,000円程度と見込まれるため、差額が生じる部分を市が負担すると説明されています。保護者から見ると、令和8年度以降の小学校給食費の負担は0円になります。</p>' },
+      { heading: '手続きと注意点', content: '<p>学校給食費の納付方法ページでは、令和8年度から仙台市立小学校の給食費が完全無償化されるため、小学校在籍児童の保護者は口座振替手続きが不要と案内されています。今回の公式確認では小学校の完全無償化を対象にしており、中学校の給食費無償化までは確認できないため含めていません。</p>' }
+    ],
+    officialUrl: 'https://www.city.sendai.jp/kyushokukanri/kyuusyokuhikaitei.html',
+    sourceName: '仙台市 令和8年度から市立小学校において学校給食費を完全無償化します',
+    sourceUrls: [
+      'https://www.city.sendai.jp/kyushokukanri/kyuusyokuhikaitei.html',
+      'https://www.city.sendai.jp/kyushokukanri/kyushokuhi.html',
+      'https://www.city.sendai.jp/sesakukoho/gaiyo/shichoshitsu/kaiken/2025/12/23kyushoku1.html',
+      'https://www.city.sendai.jp/kochotoke-kocho/kaitou/2-0-1358-0000.html'
+    ],
+    sourceNote: '仙台市公式ページで、令和8年4月から市立小学校の学校給食費を完全無償化、国等から交付される金額の不足分を市が負担することを確認。学校給食費の納付方法ページで、令和8年度から小学校給食費が完全無償化され、小学校在籍児童の保護者は口座振替手続き不要と確認。市長発表で、国の基準額は児童1人あたり月額5,200円、仙台市の小学生食材料費は月額7,000円程度見込みで差額を市が負担する説明を確認。市民の声回答で、中学校無償化は国の動向注視としており、旧生成データを小学校完全無償化に限定して公式確認済み情報へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
+  {
     slug: 'sendai-childcare-subsidy',
     title: '仙台市 保育料・副食費の負担軽減',
     organization: '仙台市',
