@@ -13490,6 +13490,45 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-26',
   },
   {
+    slug: 'hirosaki-snow-operator-training-2026',
+    title: '弘前市 除雪オペレーター担い手確保事業費補助金',
+    organization: '弘前市',
+    type: 'local',
+    maxAmount: '最大6万5千円',
+    maxAmountNum: 6.5,
+    category: 'employment',
+    relatedCategories: ['disaster', 'living'],
+    prefecture: '青森県',
+    tags: ['弘前市', '除雪', '資格取得', '大型特殊免許', '雪対策', '令和8年度'],
+    eligibility: '申請時点で60歳未満で、令和9年度以降に弘前市道路除排雪業務へ3年以上従事する意欲がある方、またはその方を雇用・雇用予定の市内事業者などが対象です。',
+    targetOccupation: '除雪オペレーターを目指す方・市内事業者',
+    applicationPeriod: '2026年4月1日から2027年2月26日まで。先着順で予算額に達し次第終了。補助事業着手7日前までに申請',
+    deadlineDate: '2027-02-26',
+    description: '弘前市が、中長期的な雪対策の担い手確保を目的に、除雪オペレーターに必要な大型特殊自動車免許や車両系建設機械運転技能講習の取得費用を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>弘前市除雪オペレーター担い手確保事業費補助金は、建設業就業者の高齢化や若者の建設業離れにより懸念される雪対策の担い手不足に対応するため、資格取得にかかる経費の一部を補助する制度です。</p>'
+      },
+      {
+        heading: '対象となる資格取得',
+        content: '<p>令和9年3月31日までに完了する、大型特殊自動車技能講習を受講したうえでの大型特殊自動車免許取得、または車両系建設機械運転技能講習の受講・修了が対象です。補助対象経費は入学料と受講料で、教材費を含みます。交通費や副教材購入費等は対象外です。</p>'
+      },
+      {
+        heading: '補助額と申請',
+        content: '<p>40歳未満は補助対象経費の3分の2、上限65,000円です。40歳以上60歳未満は補助対象経費の2分の1、上限50,000円です。受付期間は2026年4月1日から2027年2月26日までで、補助事業に着手する7日前までに申請が必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.hirosaki.aomori.jp/kurashi/josetsu/ninaite_kakuho.html',
+    sourceName: '弘前市 除雪オペレーター担い手確保事業費補助金',
+    sourceUrls: [
+      'https://www.city.hirosaki.aomori.jp/kurashi/josetsu/ninaite_kakuho.html'
+    ],
+    sourceNote: '弘前市公式ページで、除雪オペレーター資格取得支援、対象事業、60歳未満・令和9年度以降3年以上従事意欲の要件、市内個人または市内事業者、補助対象経費、40歳未満2/3上限65千円・40歳以上60歳未満1/2上限50千円、受付期間2026年4月1日から2027年2月26日、着手7日前までの申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
     slug: 'kofu-newlywed-life-support-2026',
     title: '甲府市 結婚新生活支援事業',
     organization: '甲府市',
