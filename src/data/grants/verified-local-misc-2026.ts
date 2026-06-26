@@ -17639,4 +17639,32 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'aomori-city-birth-bonus',
+    title: '青森市 妊婦支援給付金',
+    organization: '青森市',
+    type: 'local',
+    maxAmount: '単胎10万円・双子15万円',
+    maxAmountNum: 15,
+    category: 'childcare',
+    relatedCategories: ['medical', 'living'],
+    prefecture: '青森県',
+    tags: ['青森市', '青森県', '妊婦支援給付金', '妊婦給付認定', '胎児数届出'],
+    eligibility: '申請時点で青森市に住民票があり、妊婦給付認定を受けた妊婦本人が対象です。他自治体で同じ妊婦支援給付金を受給している場合は対象外です。',
+    applicationPeriod: '1回目は妊娠確定日から2年間、2回目は出産予定日の8週間前の日または出産日等から2年間',
+    description: '青森市が、妊娠期からの相談支援とあわせて支給する妊婦のための支援給付です。妊婦給付認定後に5万円、胎児数届出後に胎児1人あたり5万円が支給されます。',
+    sections: [
+      { heading: '制度の概要', content: '<p>青森市妊婦支援給付金は、妊婦等包括相談支援とあわせて実施される経済的支援です。既存の生成データでは出産祝い金としていましたが、公式に確認できる現行制度は妊婦本人を対象とした妊婦支援給付金です。</p>' },
+      { heading: '給付内容', content: '<p>給付は2回に分かれます。1回目は妊婦給付認定後に妊婦1人あたり5万円、2回目は胎児の数の届出後に胎児1人あたり5万円です。単胎の場合は合計10万円、双子の場合は1回目5万円と2回目10万円で合計15万円となります。</p>' },
+      { heading: '申請の注意点', content: '<p>申請期限は、1回目が医療機関で妊娠が確定した日から2年間、2回目が出産予定日の8週間前の日または出産日等から2年間です。転入者や流産・死産等の場合の扱い、必要書類、電子申請の可否は公式ページの案内に従って確認してください。</p>' }
+    ],
+    officialUrl: 'https://www.city.aomori.aomori.jp/kodomo_kyoiku/ninshin_shussan/1003481.html',
+    sourceName: '青森市 妊婦支援給付金',
+    sourceUrls: [
+      'https://www.city.aomori.aomori.jp/kodomo_kyoiku/ninshin_shussan/1003481.html'
+    ],
+    sourceNote: '青森市公式ページで、妊婦支援給付金、妊婦給付認定後に妊婦1人あたり5万円、胎児数届出後に胎児1人あたり5万円、単胎10万円・双子15万円相当、申請期限はそれぞれ2年間、妊婦等包括相談支援と一体実施、転入時や流産・死産等の扱いを確認。旧生成データの出産祝い金から現行制度へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
