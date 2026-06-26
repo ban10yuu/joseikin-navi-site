@@ -17550,4 +17550,34 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'tokushima-city-childcare-subsidy',
+    title: '徳島市 保育料の多子世帯負担軽減',
+    organization: '徳島市',
+    type: 'local',
+    maxAmount: '第2子半額・第3子以降無料',
+    maxAmountNum: 0,
+    category: 'childcare',
+    relatedCategories: ['living'],
+    prefecture: '徳島県',
+    tags: ['徳島市', '徳島県', '保育料', '多子世帯', '副食費'],
+    eligibility: '徳島市で保育所、認定こども園、地域型保育事業所などを利用する子どものいる多子世帯が対象です。保育料の軽減は扶養している子どもの数に応じて判定されます。',
+    applicationPeriod: '通年。入所・利用認定や利用施設に応じて適用',
+    description: '徳島市が、保育所や認定こども園などの利用者負担について、多子世帯の第2子保育料を半額、第3子以降の保育料を無料とする負担軽減を行う制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>徳島市の保育料負担軽減は、子どもが2人以上いる世帯の保育料を軽くする制度です。公式ページでは、世帯に2人以上の子どもがいる多子世帯について、第2子の保育料は半額、第3子以降の保育料は無料になると案内されています。</p>' },
+      { heading: '軽減内容', content: '<p>第2子は、扶養している子どもが2人以上いる場合に、認定区分、施設種別、階層区分にかかわらず保育料が半額になります。第3子以降は、扶養している子どもが3人以上いる場合に、認定区分、施設種別、階層区分にかかわらず保育料が無料になります。</p>' },
+      { heading: '副食費と注意点', content: '<p>3歳児から5歳児の保育料は幼児教育・保育の無償化により無償ですが、給食材料費のうち副食費は原則として保護者負担です。市立保育所・認定こども園では、1号認定は月3,500円、2号認定は月4,500円と案内されています。ただし、年収360万円未満相当の世帯や、条件を満たす第3子以降の子どもは、副食費の免除対象になる場合があります。</p>' }
+    ],
+    officialUrl: 'https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/hoikuryo.html',
+    sourceName: '徳島市 利用者負担（保育料及び副食費等）',
+    sourceUrls: [
+      'https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/hoikusho_n-kodomoen/hoikuryo.html',
+      'https://www.city.tokushima.tokushima.jp/smph/kosodate/youchien_hoikujo/201530a2019musyou.html',
+      'https://www.cfa.go.jp/policies/kokoseido/mushouka/gaiyou'
+    ],
+    sourceNote: '徳島市公式ページで、多子世帯の第2子保育料半額、第3子以降無料、認定区分・施設種別・階層区分にかかわらない軽減、3歳児から5歳児の保育料無償化、副食費は原則保護者負担、市立保育所・認定こども園の副食費1号認定3,500円・2号認定4,500円、副食費免除対象世帯の条件を確認。徳島市の幼児教育・保育無償化ページとこども家庭庁ページで、3歳から5歳の無償化と0歳から2歳の住民税非課税世帯等の無償化を補助確認。旧生成データの内容を公式確認済み情報へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
