@@ -18679,4 +18679,34 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'sendai-disability-medical',
+    title: '仙台市 心身障害者医療費助成',
+    organization: '仙台市',
+    type: 'local',
+    maxAmount: '保険診療の自己負担相当額の全額または3分の2',
+    maxAmountNum: 0,
+    category: 'medical',
+    relatedCategories: ['living', 'nursing'],
+    prefecture: '宮城県',
+    tags: ['仙台市', '宮城県', '心身障害者医療費助成', '障害者医療', '医療費助成'],
+    eligibility: '仙台市に住み、社会保険、国民健康保険または後期高齢者医療制度に加入し、身体障害者手帳、療育手帳、精神障害者保健福祉手帳、特別児童扶養手当などの対象要件を満たす方が対象です。所得制限があります。',
+    applicationPeriod: '通年。手帳交付日や転入日から30日以内の資格登録申請が必要',
+    description: '仙台市が、心身に障害のある方の通院・入院などにかかった保険診療の自己負担相当額について、一部または全部を後日口座振込で助成する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>仙台市心身障害者医療費助成は、通院や入院などにかかった医療費のうち、保険診療による自己負担相当分の一部または全部を助成する制度です。助成金は後日、登録口座に振り込まれます。入院中の食事代、差額ベッド代、介護保険の利用者負担額などは対象外です。</p>' },
+      { heading: '助成割合と対象者', content: '<p>身体障害者手帳1級・2級、一定の身体障害者手帳3級、特別児童扶養手当1級の支給対象となる障害児、療育手帳A、一定の療育手帳B、精神障害者保健福祉手帳1級の方などは、保険診療による自己負担相当額の全額助成の対象です。65歳未満で一定の身体障害者手帳3級、特別児童扶養手当2級、療育手帳Bで障害基礎年金等を受給している方などは、自己負担相当額の3分の2助成の対象です。</p>' },
+      { heading: '申請と注意点', content: '<p>身体障害者手帳等の交付年月日や転入日から助成を受けるには、30日以内に区役所・総合支所で資格登録申請が必要です。30日を過ぎた場合は、申請した月の1日からの助成となります。資格登録後、医療機関等の窓口で受給者証、健康保険情報、助成申請書を提出し、後日助成金が支払われます。所得制限があり、生活保護を受けている方は対象外です。</p>' }
+    ],
+    officialUrl: 'https://www.city.sendai.jp/servicekanri/kurashi/kenkotofukushi/shogai/iryoshien/kyufu/jose.html',
+    sourceName: '仙台市 心身障害者医療費助成',
+    sourceUrls: [
+      'https://www.city.sendai.jp/servicekanri/kurashi/kenkotofukushi/shogai/iryoshien/kyufu/jose.html',
+      'https://www.city.sendai.jp/servicekanri/download/bunyabetsu/shogai/iryohijose/download.html',
+      'https://www.pref.miyagi.jp/soshiki/syoufuku/iryohi-josei.html'
+    ],
+    sourceNote: '仙台市公式ページで、2026年1月27日更新、通院・入院などの保険診療自己負担相当分の一部または全部を後日口座振込で助成、対象者は仙台市在住で各種健康保険等に加入し対象障害等級・種別を満たす方、助成割合は全額または3分の2、所得制限と年齢制限、食事代・差額ベッド代・介護保険利用者負担額は対象外、手帳交付日や転入日から30日以内の資格登録申請、30日超過時は申請月の1日から助成を確認。助成申請書ページで提出方法、宮城県公式ページで県制度の対象区分を補助確認。旧生成データを公式確認済みの心身障害者医療費助成へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
