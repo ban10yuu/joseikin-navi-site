@@ -9429,6 +9429,36 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-26',
   },
   {
+    slug: 'kanazawa-birth-bonus',
+    title: '金沢市 伴走型妊産婦支援事業（妊婦支援給付金）',
+    organization: '金沢市',
+    type: 'local',
+    maxAmount: '単胎10万円・双子15万円',
+    maxAmountNum: 15,
+    category: 'childcare',
+    relatedCategories: ['medical', 'living'],
+    prefecture: '石川県',
+    tags: ['金沢市', '石川県', '妊婦支援給付金', '伴走型相談支援', '妊娠', '出産'],
+    eligibility: '令和7年4月1日以降に妊娠・出産し、金沢市の案内する妊婦支援給付の対象となる方が対象です。医師による胎児心拍確認後、流産等で出産に至らない場合も給付対象となります。',
+    applicationPeriod: '妊娠届出時や出産後の家庭訪問等で案内。詳細な申請期限・手続きは金沢市の案内に従う',
+    description: '金沢市が、妊娠期から出産・子育て期までの伴走型相談支援とあわせて実施する経済的支援です。妊娠時に5万円、出産後に胎児1人につき5万円が支給されます。',
+    sections: [
+      { heading: '制度の概要', content: '<p>金沢市の伴走型妊産婦支援事業は、妊娠期から出産・子育て期までの相談支援と、経済的負担を軽減する妊婦支援給付金を一体で実施する制度です。既存の生成データでは出産祝い金としていましたが、公式に確認できる現行制度は妊婦支援給付金です。</p>' },
+      { heading: '給付内容', content: '<p>妊婦支援給付金は2回に分かれます。1回目は妊娠時に5万円、2回目は出産後に胎児1人につき5万円です。単胎の場合は合計10万円、双子の場合は1回目5万円と2回目10万円で合計15万円となります。</p>' },
+      { heading: '相談支援', content: '<p>妊娠届出時、妊娠8か月頃、出産後の赤ちゃん訪問などで面談やアンケートが実施されます。給付だけでなく、妊娠期から子育て期までの相談支援と組み合わせて利用する制度です。</p>' },
+      { heading: '注意点', content: '<p>令和7年4月1日以降に妊娠・出産した方が対象です。医師による胎児心拍確認後、流産等で出産に至らない場合も1回目・2回目とも給付対象となる旨が案内されています。申請方法や必要書類は、妊娠届出時や出産後の案内を確認してください。</p>' }
+    ],
+    officialUrl: 'https://www4.city.kanazawa.lg.jp/soshikikarasagasu/soumu_hkc/gyomuannai/ninshin_syussan/25759.html',
+    sourceName: '金沢市 伴走型妊産婦支援事業',
+    sourceUrls: [
+      'https://www4.city.kanazawa.lg.jp/soshikikarasagasu/soumu_hkc/gyomuannai/ninshin_syussan/25759.html',
+      'https://www4.city.kanazawa.lg.jp/kosodate_kyoiku/ninshin_shussan/index.html'
+    ],
+    sourceNote: '金沢市公式ページで、伴走型妊産婦支援事業、妊婦のための支援給付、妊娠時5万円、出産後に胎児1人につき5万円、令和7年4月1日以降に妊娠・出産した方、流産等で出産に至らない場合も対象、妊娠届出時・妊娠8か月頃・出産後の相談支援を確認。旧生成データの出産祝い金から公式確認済みの現行制度へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
+  {
     slug: 'fukui-city-child-medical',
     title: '福井市 子ども医療費助成制度',
     organization: '福井市',
