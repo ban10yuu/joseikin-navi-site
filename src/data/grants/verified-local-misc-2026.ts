@@ -2331,4 +2331,154 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'akita-scholarship-repayment',
+    title: '秋田県 奨学金返還助成制度',
+    organization: '秋田県',
+    type: 'local',
+    maxAmount: '最大60万円（3年間）',
+    maxAmountNum: 60,
+    category: 'education',
+    prefecture: '秋田県',
+    tags: ['秋田県', '奨学金返還支援', '県内就職', '若者定着'],
+    eligibility: '秋田県内に就職する方を対象に、県が定める奨学金返還助成の認定・交付要件を満たす場合に支援されます。',
+    targetOccupation: '秋田県内に就職する方',
+    applicationPeriod: '令和8年度認定申請は2026年4月1日から受付開始。詳細は公式ページの募集案内を確認',
+    description: '秋田県内就職者を対象に、奨学金返還の負担を軽減する県の助成制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>秋田県奨学金返還助成制度は、県内就職を促進するため、対象者の奨学金返還を助成する制度です。県公式ページでは、令和8年度の認定申請受付と交付申請の案内が公開されています。</p>'
+      },
+      {
+        heading: '助成額',
+        content: '<p>一般の奨学金返還助成制度は、最大3年間で60万円の助成として案内されています。別制度として、企業連携型の最大6年間120万円の制度も掲載されています。</p>'
+      },
+      {
+        heading: '申請前の確認',
+        content: '<p>認定申請、交付申請、特定業種の扱いなどは年度ごとの公式案内に従います。対象奨学金、就職先、県内定着の要件を確認してから申請します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.akita.lg.jp/pages/genre/23987',
+    sourceName: '秋田県 県内就職者向け奨学金返還助成制度',
+    sourceUrls: [
+      'https://www.pref.akita.lg.jp/pages/genre/23987'
+    ],
+    sourceNote: '秋田県公式ページで令和8年度認定申請受付、交付申請、最大3年間60万円助成、企業連携型最大6年間120万円を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'fukushima-scholarship-repayment',
+    title: '福島県 奨学金返還支援事業',
+    organization: '福島県',
+    type: 'local',
+    maxAmount: '大学の場合最大153.6万円',
+    maxAmountNum: 153.6,
+    category: 'education',
+    prefecture: '福島県',
+    tags: ['福島県', '奨学金返還支援', '県内就職', '産業人材'],
+    eligibility: '日本学生支援機構の第一種・第二種奨学金を利用し、福島県内事業所へ正規雇用で就職し、県内で勤務・定住する予定の大学生等または既卒者が対象です。',
+    targetOccupation: '福島県内事業所へ就職する大学生等・既卒者',
+    applicationPeriod: '令和8年度募集を2026年4月27日から開始。募集区分ごとの詳細は公式募集要項を確認',
+    description: '福島県内事業所への就職と定住を予定する方を対象に、奨学金返還を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>福島県の奨学金返還支援事業は、県内事業所に就職し、規定年数の就業と県内定住を行う方の奨学金返還を支援する制度です。令和7年度から公務員を除く全産業が支援対象に拡大されています。</p>'
+      },
+      {
+        heading: '補助金額',
+        content: '<p>卒業または修了までの2年間、短大等は1年間の貸与額に相当する額が支援対象です。大学の場合は最大153.6万円で、学校区分により上限額が異なります。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>大学生等は卒業後6か月以内の県内正規雇用就職と5年以上の県内勤務・定住予定が必要です。既卒者は35歳未満、県外居住、年度内の県内正規雇用就職と3年以上の県内勤務・定住予定などが要件です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.fukushima.lg.jp/sec/32011c/shougakukin-fukushima.html',
+    sourceName: '福島県 奨学金返還支援事業',
+    sourceUrls: [
+      'https://www.pref.fukushima.lg.jp/sec/32011c/shougakukin-fukushima.html'
+    ],
+    sourceNote: '福島県公式ページで令和8年度募集開始、対象者、県内正規雇用・定住要件、大学最大153.6万円を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'ibaraki-company-scholarship-repayment',
+    title: '茨城県 企業支援型奨学金返還支援事業',
+    organization: '茨城県',
+    type: 'local',
+    maxAmount: '従業員1人あたり年6万円、最大36か月',
+    maxAmountNum: 18,
+    category: 'education',
+    prefecture: '茨城県',
+    tags: ['茨城県', '奨学金返還支援', '中小企業', '人材確保'],
+    eligibility: '茨城県内に本社または主たる事務所を有する中小企業等が、令和8年4月1日以降採用の正社員に奨学金返還支援を行う場合に対象です。',
+    targetOccupation: '県内中小企業等と奨学金返還中・返還予定の正社員',
+    applicationPeriod: '2026年6月8日から2026年12月28日まで。予算上限に達し次第終了',
+    deadlineDate: '2026-12-28',
+    description: '茨城県内企業が従業員へ行う奨学金返還支援の費用を、県が補助する企業支援型の制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>茨城県企業支援型奨学金返還支援事業は、県内企業の人材確保と定着を支援するため、企業が従業員へ支給する奨学金返還手当や代理返還の一部を県が補助する制度です。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>企業等が負担した支援額の2分の1を補助します。支援対象者1人あたりの県補助上限は年6万円で、同一支援対象者に対する補助対象期間は最大36か月です。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>交付申請期間は2026年6月8日から12月28日までです。申請書類を添付し、茨城県労働政策課へ電子メールで提出します。予算上限に達した場合は受付終了となります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.ibaraki.jp/shokorodo/rosei/rodo/shogakukinhenkan/shien.html',
+    sourceName: '茨城県 企業支援型奨学金返還支援事業',
+    sourceUrls: [
+      'https://www.pref.ibaraki.jp/shokorodo/rosei/rodo/shogakukinhenkan/shien.html'
+    ],
+    sourceNote: '茨城県公式ページで令和8年度開始、補助額2分の1、1人年6万円上限、最大36か月、申請期間2026年6月8日から12月28日を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'hitachinaka-scholarship-repayment',
+    title: 'ひたちなか市 奨学金返還支援補助金',
+    organization: 'ひたちなか市',
+    type: 'local',
+    maxAmount: '年10万円、最大8年間',
+    maxAmountNum: 80,
+    category: 'education',
+    prefecture: '茨城県',
+    tags: ['ひたちなか市', '奨学金返還支援', '定住支援', '就職支援'],
+    eligibility: 'ひたちなか市内に住所があり、奨学金を返還中で、市内中小企業等への正規雇用、対象資格に基づく市内勤務、市内起業、農漁業等の要件を満たす方が対象です。',
+    targetOccupation: 'ひたちなか市内で働く奨学金返還中の方',
+    applicationPeriod: '令和7年度返還分は2026年4月10日から2027年3月12日まで（必着）',
+    deadlineDate: '2027-03-12',
+    description: 'ひたちなか市内で働く方の定住・定職を促進するため、奨学金返還額の一部を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>ひたちなか市奨学金返還支援補助金は、市内の人材確保と定住・定職の促進を目的に、奨学金を返還している方の返還額の一部を支援する制度です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>申請前年度に返済した額の2分の1を補助し、上限は年10万円です。支援期間は最大8年間で、年度ごとの申請が必要です。</p>'
+      },
+      {
+        heading: '対象となる働き方',
+        content: '<p>市内中小企業等での正規雇用、保育士・看護師・介護福祉士など対象資格に基づく市内勤務、市内での起業、農業・漁業等への従事などが対象として示されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.hitachinaka.lg.jp/kosodate/kyouiku/1002163/1007548/1002167.html',
+    sourceName: 'ひたちなか市 奨学金返還支援補助金',
+    sourceUrls: [
+      'https://www.city.hitachinaka.lg.jp/kosodate/kyouiku/1002163/1007548/1002167.html'
+    ],
+    sourceNote: 'ひたちなか市公式ページで対象者、補助額2分の1・年10万円上限、最大8年間、対象奨学金、申請期間2026年4月10日から2027年3月12日を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
