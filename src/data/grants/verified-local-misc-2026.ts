@@ -17942,6 +17942,37 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-27',
   },
   {
+    slug: 'kanazawa-childcare-subsidy',
+    title: '金沢市 第2子以降の保育料無償化',
+    organization: '金沢市',
+    type: 'local',
+    maxAmount: '第2子以降の保育料0円',
+    maxAmountNum: 0,
+    category: 'childcare',
+    relatedCategories: ['living'],
+    prefecture: '石川県',
+    tags: ['金沢市', '石川県', '保育料', '第2子以降', '多子世帯', '副食費'],
+    eligibility: '金沢市で保育所、認定こども園、地域型保育事業などを利用する第2子以降の子どもがいる世帯が対象です。年齢や同時在園の有無を問わない第2子以降の保育料無償化として案内されています。',
+    applicationPeriod: '通年。保育施設等の利用者負担額として適用',
+    description: '金沢市が、子育て世帯の経済的負担を軽減するため、第2子以降の保育料を0円とする制度です。3歳児クラスから5歳児クラスの保育料無償化に加え、0歳児クラスから2歳児クラスでも第2子以降の保育料が無料になります。',
+    sections: [
+      { heading: '制度の概要', content: '<p>金沢市では、多子世帯の子育て負担を軽減するため、第2子以降の保育料を無償化しています。公式ページでは、年齢や同時在園の有無にかかわらず、第2子以降の子どもの保育料を0円と案内しています。</p>' },
+      { heading: '保育料の軽減内容', content: '<p>3歳児クラスから5歳児クラスまでの保育料は幼児教育・保育の無償化の対象です。0歳児クラスから2歳児クラスについても、金沢市の保育料表では第2子以降の保育料が0円とされています。旧生成データでは医療費助成の内容になっていましたが、子ども医療費は別slugで公式確認済みのため、この項目は保育料負担軽減として整理します。</p>' },
+      { heading: '副食費と注意点', content: '<p>3歳児クラスから5歳児クラスでは保育料は無償ですが、副食費や主食費などは原則として保護者負担です。ただし、年収360万円未満相当世帯や第3子以降など、条件を満たす場合は副食費の免除対象になる場合があります。実際の保育料や副食費の扱いは、世帯状況、認定区分、利用施設により異なるため、金沢市の最新案内を確認してください。</p>' }
+    ],
+    officialUrl: 'https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/yokuarushitsumon/2981.html',
+    sourceName: '金沢市 保育所等の利用者負担額',
+    sourceUrls: [
+      'https://www4.city.kanazawa.lg.jp/soshikikarasagasu/hoikuyochienka/yokuarushitsumon/2981.html',
+      'https://www.kanazawa-kosodate.net/ho/r8_ho.pdf',
+      'https://www4.city.kanazawa.lg.jp/material/files/group/16/r8_yosangaiyou.pdf',
+      'https://www.cfa.go.jp/policies/kokoseido/mushouka/gaiyou'
+    ],
+    sourceNote: '金沢市公式FAQと金沢市子育てお役立ちウェブの令和8年度保育所・認定こども園等利用案内PDFで、第2子以降の保育料0円、3歳児クラスから5歳児クラスの保育料無償化、副食費・主食費等は原則保護者負担、条件該当時の副食費免除を確認。令和8年度当初予算概要で市独自に3歳未満児の第2子保育料を無償化していることを補助確認。こども家庭庁ページで幼児教育・保育無償化の制度概要を補助確認。旧生成データの子育て支援助成金・医療費助成から公式確認済みの保育料負担軽減へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
+  {
     slug: 'toyama-city-infertility',
     title: '富山市 特定不妊治療費助成',
     organization: '富山市',
