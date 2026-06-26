@@ -17942,6 +17942,37 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-27',
   },
   {
+    slug: 'fukui-city-daycare-support',
+    title: '福井市 第2子以降の保育料無償化',
+    organization: '福井市',
+    type: 'local',
+    maxAmount: '第2子以降の保育料0円',
+    maxAmountNum: 0,
+    category: 'childcare',
+    relatedCategories: ['living'],
+    prefecture: '福井県',
+    tags: ['福井市', '福井県', '保育料', '第2子以降', '多子世帯', '副食費'],
+    eligibility: '福井市で保育所、認定こども園、地域型保育事業などを利用する第2子以降の子どもがいる世帯が対象です。第1子の年齢や同時入所の有無を問わず、第2子以降の保育料が無償化されます。',
+    applicationPeriod: '通年。保育施設等の利用者負担額として適用',
+    description: '福井市が、子育て世帯の経済的負担を軽減するため、第2子以降の保育料を完全無償化する制度です。3歳児クラスから5歳児クラスの保育料無償化に加え、0歳児クラスから2歳児クラスの第2子以降も保育料0円として案内されています。',
+    sections: [
+      { heading: '制度の概要', content: '<p>福井市では、第2子以降の保育料を完全無償化しています。公式ページでは、第1子の年齢や同時入所の有無を問わず、第2子以降の保育料を無償化すると案内されています。</p>' },
+      { heading: '保育料の軽減内容', content: '<p>3歳児クラスから5歳児クラスまでの保育料は幼児教育・保育の無償化の対象です。0歳児クラスから2歳児クラスについても、第2子以降は福井市の独自支援により保育料が0円になります。旧生成データの大枠は近い内容でしたが、公式確認済みデータとして対象条件とURLを整理しています。</p>' },
+      { heading: '副食費と注意点', content: '<p>3歳児クラスから5歳児クラスでは保育料は無償ですが、副食費や主食費などは原則として保護者負担です。ただし、年収360万円未満相当世帯や第3子以降など、条件を満たす場合は副食費が免除される場合があります。実際の負担額は、施設種別、認定区分、世帯状況によって異なるため、福井市の利用案内と保育料表を確認してください。</p>' }
+    ],
+    officialUrl: 'https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p070534.html',
+    sourceName: '福井市 保育料について',
+    sourceUrls: [
+      'https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p070534.html',
+      'https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/p015488.html',
+      'https://www.city.fukui.lg.jp/fukusi/kosodate/hoikuen/index.html',
+      'https://www.cfa.go.jp/policies/kokoseido/mushouka/gaiyou'
+    ],
+    sourceNote: '福井市公式ページで、第2子以降の保育料完全無償化、第1子の年齢や同時入所の有無を問わないこと、0〜2歳児クラスの第2子以降保育料0円、3〜5歳児クラスの幼児教育・保育無償化、副食費・主食費等は原則保護者負担、条件該当時の副食費免除を確認。福井市の保育施設利用案内ページとこども家庭庁ページで制度概要を補助確認。旧生成データを公式確認済みの保育料負担軽減へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
+  {
     slug: 'kanazawa-childcare-subsidy',
     title: '金沢市 第2子以降の保育料無償化',
     organization: '金沢市',
