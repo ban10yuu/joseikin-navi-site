@@ -2632,4 +2632,155 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'gunma-company-scholarship-repayment',
+    title: '群馬県 中小企業奨学金返還支援補助金',
+    organization: '群馬県',
+    type: 'local',
+    maxAmount: '従業員1人あたり年6万円、最長5年間',
+    maxAmountNum: 30,
+    category: 'education',
+    prefecture: '群馬県',
+    tags: ['群馬県', '奨学金返還支援', '中小企業', '人材定着'],
+    eligibility: '群馬県内に本社がある中小企業等が、正社員で採用後5年以内、奨学金を返還中、県内勤務または県内居住などの要件を満たす従業員に奨学金返還支援を行う場合に対象です。',
+    targetOccupation: '県内中小企業等と奨学金返還中の正社員',
+    applicationPeriod: '2026年8月3日から2026年9月30日17時まで。予算上限に達し次第終了',
+    deadlineDate: '2026-09-30',
+    description: '群馬県内の中小企業等が従業員に行う奨学金返還支援について、県が支援額の一部を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>群馬県中小企業奨学金返還支援補助金は、県内の中小企業等が従業員に対して行う奨学金返還支援について、県が支援額の2分の1を補助し、企業等と連携して若者の県内定着を図る制度です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>補助対象期間は支援対象者1名につき最長5年間です。年間補助額は企業等の支援額の2分の1で、支援対象者の奨学金年間返済額の3分の1または年6万円のいずれか低い額が県補助額の上限です。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>令和8年度の申請受付期間は2026年8月3日から9月30日17時までです。申請書一式を申請フォームから提出し、先着順で受付処理されます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.gunma.jp/page/761652.html',
+    sourceName: '群馬県 中小企業奨学金返還支援補助金',
+    sourceUrls: [
+      'https://www.pref.gunma.jp/page/761652.html'
+    ],
+    sourceNote: '群馬県公式ページで令和8年度受付期間、制度概要、対象企業・支援対象者、補助期間最長5年、補助率2分の1、年6万円上限を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'niigata-uturn-scholarship-repayment',
+    title: '新潟県 Uターン促進奨学金返還支援助成金',
+    organization: '新潟県',
+    type: 'local',
+    maxAmount: '年20万円、総額最大120万円',
+    maxAmountNum: 120,
+    category: 'education',
+    prefecture: '新潟県',
+    tags: ['新潟県', '奨学金返還支援', 'Uターン', '定住支援'],
+    eligibility: '新潟県出身で、県外で通算1年以上就業し、30歳未満で県内に転入・就業し、対象奨学金等を返還している方などが対象です。',
+    targetOccupation: '新潟県にUターン転職した若者',
+    applicationPeriod: '認定申請は県内転入後6か月以内。認定に係る最終提出期限は2027年2月末',
+    deadlineDate: '2027-02-28',
+    description: '新潟県内への若者のUターンを促進するため、Uターン転職した方の奨学金等の返還を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>新潟県Uターン促進奨学金返還支援助成金は、県内への若者のUターンを促進するため、県内にUターンして就業した方の奨学金等の返還を支援する制度です。</p>'
+      },
+      {
+        heading: '助成額',
+        content: '<p>助成期間は県内に転入し就業した日の属する年度の翌年度から最長6年間です。申請年度の前年度に返還した奨学金等の額が対象で、年20万円、助成総額120万円が上限です。</p>'
+      },
+      {
+        heading: '申請手続き',
+        content: '<p>助成を受けるには、事前に支援対象者の認定を受ける必要があります。認定申請は県内に転入後6か月以内で、令和8年度をもって認定は終了し、最終提出期限は2027年2月末です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.niigata.lg.jp/sec/shigototeijyu/1356888818141.html',
+    sourceName: '新潟県 Uターン促進奨学金返還支援事業',
+    sourceUrls: [
+      'https://www.pref.niigata.lg.jp/sec/shigototeijyu/1356888818141.html'
+    ],
+    sourceNote: '新潟県公式ページで対象者要件、対象奨学金、助成期間最長6年、年20万円・総額120万円上限、認定申請期限を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'toyama-science-pharmacy-scholarship-repayment',
+    title: '富山県 理工系・薬学部生対象奨学金返還助成制度',
+    organization: '富山県',
+    type: 'local',
+    maxAmount: '前年度返還額相当を10年間助成',
+    maxAmountNum: 0,
+    category: 'education',
+    prefecture: '富山県',
+    tags: ['富山県', '奨学金返還助成', '理工系', '薬学部'],
+    eligibility: '理工系学部生・理工系大学院生・6年制薬学部生で、日本学生支援機構奨学金または富山県奨学資金を借り入れ、対象企業への就職を希望する方が対象です。',
+    targetOccupation: '富山県内登録企業へ就職する理工系・薬学部生',
+    applicationPeriod: '令和9年3月卒業予定者・令和9年4月採用分の募集は終了。次回募集は公式ページで確認',
+    description: '富山県内登録企業へ就職する理工系・薬学部生を対象に、県と企業が設置する基金から奨学金返還を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>富山県理工系・薬学部生対象奨学金返還助成制度は、理工系・薬学部生の県内企業への就職と定着を促進するため、登録企業に就職した助成対象者の奨学金返還を支援する制度です。</p>'
+      },
+      {
+        heading: '助成対象経費',
+        content: '<p>理工系学部生は2年間に貸与を受けた奨学金総額、理工系大学院生は大学院在学時の2年分、6年制薬学部生は5・6年次または1年次から6年次までの奨学金総額が助成対象経費です。</p>'
+      },
+      {
+        heading: '助成の受け方',
+        content: '<p>登録企業へ就業後、9年目までは前年度に返還した奨学金額に相当する額を助成対象者へ支払い、10年目は前年度返還相当額に加えて残額を奨学金貸与団体へ一括支払いします。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.toyama.jp/130321/sangyou/roudou/roudoukoyou/kj00019118.html',
+    sourceName: '富山県 理工系・薬学部生対象奨学金返還助成制度',
+    sourceUrls: [
+      'https://www.pref.toyama.jp/130321/sangyou/roudou/roudoukoyou/kj00019118.html'
+    ],
+    sourceNote: '富山県公式ページで制度趣旨、対象者、登録企業、助成対象経費、就業後10年間の助成方法を確認。募集終了のため期限なしの参考掲載扱い。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'ishikawa-science-scholarship-repayment',
+    title: 'いしかわ理系人材確保奨学金返還助成制度',
+    organization: '石川県・いしかわ就職・定住総合サポートセンター',
+    type: 'local',
+    maxAmount: '最大200万円',
+    maxAmountNum: 200,
+    category: 'education',
+    prefecture: '石川県',
+    tags: ['石川県', '奨学金返還助成', '理系人材', '県内就職'],
+    eligibility: '理系の大学院・大学・高等専門学校に在学し、日本学生支援機構奨学金または石川県育英資金の貸与を受け、対象企業から内定を得ていない方が対象です。',
+    targetOccupation: '石川県内対象企業へ就職する理系学生',
+    applicationPeriod: '企業登録は随時募集。学生向け募集・対象年度は公式ページで確認',
+    description: '石川県内企業に就職し3年を超えて継続勤務した理系学生の奨学金返還を、県と企業が協力して助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>いしかわ理系人材確保奨学金返還助成制度は、奨学金を返還する学生を支援し、学生の県内就職を促進するための制度です。対象の県内企業に就職し、3年を超えて継続勤務した場合に助成されます。</p>'
+      },
+      {
+        heading: '助成額',
+        content: '<p>助成額は、対象企業に勤務して3年間経過した時点の奨学金返還残額、または各企業が設定する助成額のいずれか低い額です。最大200万円まで助成され、企業は助成額の2分の1を県の基金に寄附します。</p>'
+      },
+      {
+        heading: '交付要件',
+        content: '<p>大学等を卒業または修了後、対象企業に正社員として3年以上継続就業していること、勤務地が県内であること、貸与を受けた奨学金を滞納なく返還していることなどが要件です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.kaga.ishikawa.jp/soshiki/sangyou/syoukouka/koyousyuurousien/11534.html',
+    sourceName: 'いしかわ理系人材確保奨学金返還助成制度',
+    sourceUrls: [
+      'https://www.city.kaga.ishikawa.jp/soshiki/sangyou/syoukouka/koyousyuurousien/11534.html',
+      'https://www.pref.ishikawa.lg.jp/kurashi/kyoiku/shogakukin/index.html'
+    ],
+    sourceNote: '加賀市公式ページで石川県の制度概要と制度詳細リンクを確認し、石川県公式奨学金ページも参照。最大200万円、対象者、交付要件、助成額、企業負担2分の1は制度ページ本文で確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
