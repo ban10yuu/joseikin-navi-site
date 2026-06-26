@@ -17309,4 +17309,33 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'tokushima-city-seismic-diagnosis',
+    title: '徳島市 既存木造住宅耐震化促進事業',
+    organization: '徳島市',
+    type: 'local',
+    maxAmount: '耐震改修最大120万円・診断無料',
+    maxAmountNum: 120,
+    category: 'disaster',
+    relatedCategories: ['housing', 'living'],
+    prefecture: '徳島県',
+    tags: ['徳島市', '徳島県', '木造住宅耐震化', '耐震診断', '耐震改修', '令和8年度'],
+    eligibility: '徳島市内にある、平成12年5月31日以前に着工された木造住宅など、公式要件を満たす住宅が対象です。申込者に市税滞納がないことなどの要件があります。',
+    applicationPeriod: '令和8年度は2026年4月14日から受付開始',
+    description: '徳島市が、既存木造住宅の耐震診断、耐震改修、耐震シェルター設置、住替え、減災化対策を支援する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>徳島市既存木造住宅耐震化促進事業は、木造住宅の耐震診断、耐震改修、耐震シェルター設置、徳島県内での住替えに伴う除却、減災化対策を支援する制度です。既存の生成データでは木造住宅耐震診断助成事業として自己負担3,000円としていましたが、公式ページで確認できる令和8年度の耐震診断は無料です。</p>' },
+      { heading: '補助内容', content: '<p>耐震診断支援事業は無料です。耐震改修支援事業は、補助対象工事費用の5分の4、上限120万円で、感震ブレーカー設置費用として10万円を上乗せできます。耐震シェルター設置支援事業は上限80万円、耐震ベッドの場合は上限40万円で、感震ブレーカー設置費用の上乗せも案内されています。住替え支援事業は補助対象工事費用の5分の2、上限30万円です。</p>' },
+      { heading: '申請の注意点', content: '<p>令和8年度事業の受付は2026年4月14日から開始されています。耐震改修、耐震シェルター、住替え支援事業は、本事業の耐震診断実施後に申し込む必要があります。工事請負契約や工事の実施は補助金交付決定後です。</p>' }
+    ],
+    officialUrl: 'https://www.city.tokushima.tokushima.jp/smph/kurashi/house/house_keikaku/taishin_house.html',
+    sourceName: '徳島市 既存木造住宅耐震化促進事業',
+    sourceUrls: [
+      'https://www.city.tokushima.tokushima.jp/smph/kurashi/house/house_keikaku/taishin_house.html',
+      'https://www.city.tokushima.tokushima.jp/kurashi/house/house_keikaku/jyutaku_reform.html'
+    ],
+    sourceNote: '徳島市公式ページで、2026年4月14日更新、令和8年度は2026年4月14日受付開始、対象住宅は平成12年5月31日以前に着工された木造住宅等、耐震診断無料、耐震改修は補助対象工事費用の5分の4で上限120万円、感震ブレーカー設置費10万円上乗せ、耐震シェルター上限80万円、耐震ベッド上限40万円、住替え支援上限30万円、減災化対策無料を確認。住宅リフォーム支援事業ページでも関連補助として耐震化工事の補助事業掲載を確認。旧生成データの自己負担3,000円から令和8年度制度へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
