@@ -17489,4 +17489,35 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'matsuyama-iju-support',
+    title: '松山市 まつやま移住者定着支援事業補助金',
+    organization: '松山市',
+    type: 'local',
+    maxAmount: '最大100万円',
+    maxAmountNum: 100,
+    category: 'living',
+    relatedCategories: ['housing', 'childcare'],
+    prefecture: '愛媛県',
+    tags: ['松山市', '愛媛県', '移住支援', '住宅取得', '子育て世帯'],
+    eligibility: '愛媛県外から松山市へ転入し、転入前に県外へ継続して3年以上居住していた子育て世帯など、公式要件を満たす世帯が対象です。転勤等による転入は原則対象外です。',
+    applicationPeriod: '受付中。先着順で予算に達し次第終了',
+    description: '松山市が、県外から移住する子育て世帯の定着を後押しするため、マイホーム取得費用の一部を補助する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>まつやま移住者定着支援事業補助金は、県外から松山市へ移住する子育て世帯を対象に、住宅の取得費用を支援する制度です。既存の生成データでは東京圏からの移住支援金としていましたが、松山市公式の移住情報で確認できる現行制度は、子育て世帯向けのマイホーム取得費補助です。</p>' },
+      { heading: '補助内容', content: '<p>補助額は1世帯あたり100万円が上限です。基本額は住宅の購入代金の20分の1、上限60万円です。加算額は15歳未満の子どもが2人目の場合20万円、3人目以降の場合さらに20万円と案内されています。</p>' },
+      { heading: '申請の注意点', content: '<p>住宅取得の契約前に申請が必要です。契約締結前に申請がない場合は補助金が交付されません。先着順で予算がなくなり次第終了するため、利用を検討する場合は事前相談が必要です。取得した住宅に5年以上継続して居住する意思があることなどの要件があります。</p>' }
+    ],
+    officialUrl: 'https://matsuyama-kurashi.com/topics/4303.html',
+    sourceName: '松山市 移住者定着支援事業補助金の受付中',
+    sourceUrls: [
+      'https://matsuyama-kurashi.com/topics/4303.html',
+      'https://www.city.matsuyama.ehime.jp/shisei/machizukuri/ijuteiju/ijuzyouhou.html',
+      'https://www.city.matsuyama.ehime.jp/hodo/r5/202403/teicyakusien.html',
+      'https://matsuyama-kurashi.com/cms/wp-content/uploads/2024/03/hojyo_youmou-1.pdf'
+    ],
+    sourceNote: '松山市公式ホームページの移住情報で、住宅取得費用を補助するまつやま移住者定着支援事業補助金の実施と、松山市移住ウェブサイトへの案内を確認。松山市移住ウェブサイトで、2026年3月26日受付中、県外から転入し転入前に県外へ継続して3年以上居住、移住前または移住後3年以内に認定申請、住宅取得者、5年以上居住意思、市町村税滞納なしなどの要件を確認。松山市報道発表と交付要綱PDFで、最大100万円、基本額上限60万円、15歳未満の子ども2人目20万円・3人目以降20万円加算、先着順・予算終了次第終了、契約前申請を確認。旧生成データの東京圏移住支援金から現行の住宅取得費補助へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
