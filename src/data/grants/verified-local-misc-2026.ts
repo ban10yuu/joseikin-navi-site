@@ -17698,4 +17698,33 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'morioka-parenting-allowance',
+    title: '盛岡市 妊婦のための支援給付',
+    organization: '盛岡市',
+    type: 'local',
+    maxAmount: '単胎10万円・双子15万円',
+    maxAmountNum: 15,
+    category: 'childcare',
+    relatedCategories: ['medical', 'living'],
+    prefecture: '岩手県',
+    tags: ['盛岡市', '岩手県', '妊婦支援給付金', '妊婦給付認定', '胎児数届出'],
+    eligibility: '申請時点で盛岡市に住民票があり、妊婦給付認定を受けた妊婦本人が対象です。他市町村で同じ妊婦支援給付を受けている場合は対象外です。',
+    applicationPeriod: '1回目は妊娠確定日から2年間、2回目は出産予定日の8週間前の日から2年間',
+    description: '盛岡市が、妊婦等包括相談支援とあわせて実施する経済的支援です。妊婦給付認定後に妊婦1人あたり5万円、胎児数届出後に胎児1人あたり5万円が支給されます。',
+    sections: [
+      { heading: '制度の概要', content: '<p>盛岡市の妊婦のための支援給付は、妊娠期からの切れ目ない相談支援と一体で行われる給付制度です。既存の生成データでは子育て手当としていましたが、公式に確認できる現行制度は妊婦本人を対象とした妊婦支援給付金です。</p>' },
+      { heading: '給付内容', content: '<p>給付は2回に分かれます。1回目は妊婦給付認定後に妊婦1人あたり5万円、2回目は胎児の数の届出後に胎児1人あたり5万円です。単胎の場合は合計10万円、双子の場合は1回目5万円と2回目10万円で合計15万円になります。</p>' },
+      { heading: '申請の注意点', content: '<p>1回目の申請期限は医療機関で胎児心拍が確認され妊娠が確定した日から2年間、2回目は出産予定日の8週間前の日から2年間です。流産、死産、人工妊娠中絶の場合も、要件を満たす場合は2回目の給付対象として案内されています。</p>' }
+    ],
+    officialUrl: 'https://www.city.morioka.iwate.jp/kosodate/ninshin/shussan/1041856.html',
+    sourceName: '盛岡市 妊婦のための支援給付',
+    sourceUrls: [
+      'https://www.city.morioka.iwate.jp/kosodate/ninshin/shussan/1041856.html',
+      'https://www.city.morioka.iwate.jp/kosodate/1050877/1051131.html'
+    ],
+    sourceNote: '盛岡市公式ページで、妊婦のための支援給付、妊婦給付認定後に妊婦1人あたり5万円、胎児数届出後に胎児1人あたり5万円、単胎10万円・双子15万円相当、申請期限はそれぞれ2年間、流産・死産・人工妊娠中絶の場合の扱い、他市町村で受給済みの場合は対象外を確認。旧生成データの子育て手当から現行制度へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
