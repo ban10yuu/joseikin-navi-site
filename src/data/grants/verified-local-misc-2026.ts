@@ -5255,4 +5255,155 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'fukuoka-kodomo-renovation-2026',
+    title: '福岡県 こどもリノベ補助金',
+    organization: '福岡県',
+    type: 'local',
+    maxAmount: '最大75万円',
+    maxAmountNum: 75,
+    category: 'housing',
+    prefecture: '福岡県',
+    tags: ['福岡県', '住宅リフォーム', '中古住宅', '子育て世帯', '若年世帯'],
+    eligibility: '若年世帯または子育て世帯が、自ら居住する中古住宅の購入後リノベーション等を行う場合など、福岡県が定める要件を満たす住宅が対象です。',
+    targetOccupation: '福岡県内で中古住宅を取得・改修する若年世帯・子育て世帯等',
+    applicationPeriod: '令和8年4月13日から令和9年1月下旬までの予定。予算到達時は受付終了',
+    description: '福岡県が、若年世帯・子育て世帯の良質な中古住宅取得とリノベーションを支援する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>福岡県こどもリノベ補助金は、若年世帯や子育て世帯が子育てしやすい良質な中古住宅を安心して取得できるよう、リノベーション工事費の一部を支援する制度です。</p>'
+      },
+      {
+        heading: '対象工事',
+        content: '<p>居住性向上、長寿命化、省エネルギー、防犯性向上、新しい生活様式対応、バリアフリーなどのリノベーション工事が対象です。県内事業者が請け負う工事費30万円以上の工事であることなどの要件があります。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>通常の流通型・持家型は補助率3分の1、上限50万円です。移住リノベに該当する流通型は補助率2分の1、上限75万円です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.fukuoka.lg.jp/contents/kodomo-renove-hojo.html',
+    sourceName: '福岡県 令和8年度 福岡県こどもリノベ補助金',
+    sourceUrls: [
+      'https://www.pref.fukuoka.lg.jp/contents/kodomo-renove-hojo.html'
+    ],
+    sourceNote: '福岡県公式ページで令和8年度こどもリノベ補助金、若年・子育て世帯、中古住宅リノベ、通常上限50万円・移住リノベ上限75万円を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'saga-city-wooden-house-earthquake-retrofit-2026',
+    title: '佐賀市 住宅の耐震改修工事費の補助制度',
+    organization: '佐賀市',
+    type: 'local',
+    maxAmount: '最大115万円',
+    maxAmountNum: 115,
+    category: 'housing',
+    prefecture: '佐賀県',
+    tags: ['佐賀県', '佐賀市', '耐震改修', '木造住宅', '住宅リフォーム'],
+    eligibility: '昭和56年5月31日以前に建築され、耐震診断で耐震性能が不足するとされた住宅など、佐賀市が定める要件を満たす住宅が対象です。',
+    targetOccupation: '佐賀市内の住宅所有者等',
+    applicationPeriod: '令和8年6月1日から令和8年11月30日まで',
+    deadlineDate: '2026-11-30',
+    description: '佐賀市が、耐震性が不足する住宅について、耐震補強設計と耐震改修工事を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>佐賀市の住宅耐震改修工事費補助制度は、耐震診断の結果、耐震性が不足している住宅について、耐震補強設計と耐震改修工事の費用を支援する制度です。</p>'
+      },
+      {
+        heading: '対象住宅',
+        content: '<p>昭和56年5月31日以前に建築された住宅で、耐震診断の結果、耐震性能が不足するとされたものが対象です。補助を受けるには耐震診断が必須で、事前相談が必要です。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>戸建て住宅の耐震改修事業は、耐震改修工事に係る工事費の80%以内、上限115万円です。段階的耐震改修は1段階目上限70万円、2段階目上限45万円です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.saga.lg.jp/sangyo-machizukuri/toshi-kotsu/3/4/4161.html',
+    sourceName: '佐賀市 住宅の耐震改修工事費の補助制度',
+    sourceUrls: [
+      'https://www.city.saga.lg.jp/sangyo-machizukuri/toshi-kotsu/3/4/4161.html'
+    ],
+    sourceNote: '佐賀市公式ページで令和8年度募集、耐震改修工事費80%以内、上限115万円、募集期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'nagasaki-comfortable-home-renovation-2026',
+    title: '長崎市 快適住まいづくり支援費補助金',
+    organization: '長崎市',
+    type: 'local',
+    maxAmount: '最大20万円',
+    maxAmountNum: 20,
+    category: 'housing',
+    prefecture: '長崎県',
+    tags: ['長崎県', '長崎市', '住宅リフォーム', '省エネ', 'バリアフリー'],
+    eligibility: '長崎市内の住宅に居住または居住予定の所有者等が、市内事業者に未着手の対象リフォーム工事を発注する場合などが対象です。',
+    targetOccupation: '長崎市内の住宅所有者・居住予定者等',
+    applicationPeriod: '令和8年度は事前抽選制。第2期は令和8年7月1日から令和8年7月20日まで',
+    deadlineDate: '2026-07-20',
+    description: '長崎市が、省エネ化、バリアフリー化、居住性向上、防犯性・耐久性向上などの住宅リフォームを支援する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>長崎市快適住まいづくり支援費補助金は、屋根の遮熱・断熱塗装、省エネ化、浴室・便所などのバリアフリー化、間取り変更、防犯性や耐久性向上を図る住宅リフォーム工事を支援する制度です。</p>'
+      },
+      {
+        heading: '対象工事',
+        content: '<p>未着手の改修工事で、市内に本社がある法人または市内に住所がある個人に発注し、対象工事費の合計が20万円以上の工事が対象です。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>補助対象工事にかかる経費の20%で、通常の上限は10万円です。耐震性能を有する空き家を改修する場合は上限20万円です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.nagasaki.lg.jp/page/1816.html',
+    sourceName: '長崎市 快適住まいづくり支援費補助金',
+    sourceUrls: [
+      'https://www.city.nagasaki.lg.jp/page/1816.html'
+    ],
+    sourceNote: '長崎市公式ページで令和8年度の快適住まいづくり支援費補助金、対象工事、省エネ・バリアフリー等、通常上限10万円・空き家改修上限20万円を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kumamoto-prefecture-wooden-house-earthquake-retrofit-2026',
+    title: '熊本県 戸建て住宅耐震改修等緊急促進事業',
+    organization: '熊本県',
+    type: 'local',
+    maxAmount: '市町村により異なる',
+    maxAmountNum: 0,
+    category: 'housing',
+    prefecture: '熊本県',
+    tags: ['熊本県', '耐震診断', '耐震改修', '木造住宅', '建替え'],
+    eligibility: '熊本県内の戸建て木造住宅で、耐震診断、耐震改修設計・工事、建替え等について市町村の要件を満たす住宅が対象です。',
+    targetOccupation: '熊本県内の戸建て木造住宅所有者等',
+    applicationPeriod: '受付期間・補助額・申請窓口は市町村により異なるため公式ページで確認',
+    description: '熊本県が市町村と連携し、戸建て木造住宅の耐震診断、耐震改修設計・工事、建替え等を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>熊本県戸建て住宅耐震改修等緊急促進事業は、地震に備えた戸建て木造住宅の耐震化を進めるため、県が市町村と連携して実施する補助事業です。</p>'
+      },
+      {
+        heading: '対象メニュー',
+        content: '<p>耐震診断、耐震改修設計・工事、建替え、耐震シェルター工事などが対象です。申請窓口は住まいの市町村で、制度の拡充時期や詳細条件は市町村ごとに異なります。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>補助額は市町村により異なります。熊本県公式ページでは市町村と連携した支援制度であること、申請窓口と詳細条件は市町村へ確認することが案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.kumamoto.jp/soshiki/115/51288.html',
+    sourceName: '熊本県 熊本県の建築物耐震化に向けた取り組み',
+    sourceUrls: [
+      'https://www.pref.kumamoto.jp/soshiki/115/51288.html',
+      'https://www.city.kumamoto.jp/kiji0031284/index.html'
+    ],
+    sourceNote: '熊本県公式ページで戸建て木造住宅の耐震診断、耐震改修設計・工事、建替え等に対する市町村連携支援を確認。熊本市公式ページで令和8年度の耐震改修等事業受付も確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
