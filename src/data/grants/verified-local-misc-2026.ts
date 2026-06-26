@@ -4058,4 +4058,155 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'aomori-a-wood-housing-subsidy',
+    title: '青森県 A-wood需要拡大事業',
+    organization: '青森県',
+    type: 'local',
+    maxAmount: '1棟最大50万円（1事業者最大150万円）',
+    maxAmountNum: 150,
+    category: 'housing',
+    prefecture: '青森県',
+    tags: ['青森県', '県産材', '住宅新築', 'リフォーム', '木質化'],
+    eligibility: '青森県内に事業所を有し、青森県「A-wood」事業者登録を受け、自ら施工する建築物で県産材を使用する建設業者等が対象です。',
+    targetOccupation: '青森県内の建築工事業者・大工工事業者',
+    applicationPeriod: '2026年6月19日から2026年12月28日まで',
+    deadlineDate: '2026-12-28',
+    description: '青森県産材を使った建築物の新築、リフォーム、内外装木質化等を行う施工者に対し、県産材の使用量に応じて補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>青森県A-wood需要拡大事業は、県産材を継続的に使用する県内企業を増やし、県産材の安定需要確保と地域経済の活性化、森林の循環利用を図るための補助制度です。</p>'
+      },
+      {
+        heading: '対象工事',
+        content: '<p>建築物の新築工事、リフォーム、増築、改築、修繕、模様替、内装・外装木質化工事、建築物工事を伴う外構工事で県産材を使用する経費が対象です。施工地は青森県内である必要があります。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>県産材の使用量1立方メートルにつき5万円を補助します。上限は1棟あたり50万円、1事業者あたり150万円です。申込受付期間は2026年6月19日から12月28日までです。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.aomori.lg.jp/soshiki/nourin/rinsei/A-wood_moushikomi.html',
+    sourceName: '青森県 令和8年度「A-wood」需要拡大事業',
+    sourceUrls: [
+      'https://www.pref.aomori.lg.jp/soshiki/nourin/rinsei/A-wood_moushikomi.html'
+    ],
+    sourceNote: '青森県公式ページで令和8年度募集、対象者、対象工事、県産材1立方メートル5万円、1棟50万円・1事業者150万円上限、申込期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'yamagata-energy-saving-healthy-housing',
+    title: '山形県 やまがた省エネ健康住宅新築支援事業費補助金',
+    organization: '山形県',
+    type: 'local',
+    maxAmount: '50万円',
+    maxAmountNum: 50,
+    category: 'housing',
+    prefecture: '山形県',
+    tags: ['山形県', '省エネ住宅', '新築住宅', '県産木材', 'やまぽっかの家'],
+    eligibility: '山形県内に自ら居住するため、やまぽっかの家認証を受けた住宅を新築または購入する所得1200万円以下の人が対象です。',
+    targetOccupation: '山形県内で省エネ住宅を新築・購入する個人',
+    applicationPeriod: '第1期 2026年4月6日から7月3日、第2期 2026年8月17日から11月13日まで',
+    deadlineDate: '2026-11-13',
+    description: '山形県産木材を一定量使用し、高気密・高断熱住宅である「やまぽっかの家」を新築する人に定額50万円を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>やまがた省エネ健康住宅新築支援事業費補助金は、県産木材を活用した高気密・高断熱住宅「やまぽっかの家」の新築を支援する山形県の住宅取得支援制度です。</p>'
+      },
+      {
+        heading: '対象住宅',
+        content: '<p>「やまぽっかの家」の認証を受け、県内事業者により施工され、令和8年2月28日から令和9年2月26日までに認定証交付、工事完了、引渡しが行われる住宅が対象です。県産木材の使用要件もあります。</p>'
+      },
+      {
+        heading: '補助額と募集',
+        content: '<p>補助額は50万円の定額です。令和8年度は260戸を募集し、第1期と第2期の先着順で受け付けます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.yamagata.jp/tatekkana/support/shien/rishihokyu-shinchiku.html',
+    sourceName: '山形県 やまがた省エネ健康住宅新築支援事業費補助金',
+    sourceUrls: [
+      'https://www.pref.yamagata.jp/tatekkana/support/shien/rishihokyu-shinchiku.html'
+    ],
+    sourceNote: '山形県公式すまい情報センターで支援内容、補助額50万円、対象住宅、対象者、令和8年度申込期間、募集戸数260戸を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'fukushima-wooden-house-earthquake-retrofit',
+    title: '福島県 木造住宅等耐震化支援事業',
+    organization: '福島県',
+    type: 'local',
+    maxAmount: '最大140万円（多雪地域の一般改修・現地建替）',
+    maxAmountNum: 140,
+    category: 'housing',
+    prefecture: '福島県',
+    tags: ['福島県', '木造住宅', '耐震改修', 'リフォーム', 'ブロック塀'],
+    eligibility: '昭和56年5月31日以前に着工した3階建て以下の木造住宅など、市町村ごとの要件を満たす住宅の所有者等が対象です。',
+    targetOccupation: '福島県内の木造住宅所有者等',
+    applicationPeriod: '申請窓口・受付期間は市町村により異なるため公式ページの市町村一覧で確認',
+    description: '福島県が市町村と連携し、昭和56年以前に建てられた木造住宅の耐震診断、耐震改修、リフォーム工事等を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>福島県木造住宅等耐震化支援事業は、地震による被害を軽減し、県民生活の安全性を確保するため、市町村と連携して木造住宅の耐震化を支援する制度です。</p>'
+      },
+      {
+        heading: '対象工事',
+        content: '<p>耐震診断、一般改修、部分改修、簡易改修、現地建替、耐震化工事と併せて行うリフォーム工事、引越、ブロック塀等耐震化などが案内されています。補助内容は市町村により異なります。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>一般改修・現地建替は工事費の5分の4かつ最大115万円、多雪地域では最大140万円です。耐震化と併せて行うリフォーム工事は工事費の2分の1かつ最大20万円が上限です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.fukushima.lg.jp/sec/41065b/mokuzoutaisinkasiennjigyou.html',
+    sourceName: '福島県 木造住宅等耐震化支援事業',
+    sourceUrls: [
+      'https://www.pref.fukushima.lg.jp/sec/41065b/mokuzoutaisinkasiennjigyou.html'
+    ],
+    sourceNote: '福島県公式ページで令和8年4月更新、昭和56年以前の木造住宅、耐震診断・耐震改修・リフォーム工事、補助上限を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'tochigi-childcare-house-insulation',
+    title: '栃木県 子育て世帯等住宅断熱化支援事業',
+    organization: '栃木県',
+    type: 'local',
+    maxAmount: '新築30万円・断熱改修10万円',
+    maxAmountNum: 30,
+    category: 'housing',
+    prefecture: '栃木県',
+    tags: ['栃木県', '住宅断熱化', '子育て世帯', '若年夫婦世帯', '省エネ住宅'],
+    eligibility: '国補助金を活用し、栃木県内でZEH水準以上の新築住宅取得または既存住宅の断熱化を行う子育て世帯等が対象です。',
+    targetOccupation: '栃木県内の子育て世帯・若年夫婦世帯等',
+    applicationPeriod: '2026年5月18日から2027年1月29日まで',
+    deadlineDate: '2027-01-29',
+    description: '栃木県が、子育て世帯や若年夫婦世帯等による新築住宅取得や既存住宅の断熱改修を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>栃木県子育て世帯等住宅断熱化支援事業は、子育て世帯等の住宅の省エネルギー化を支援するため、ZEH水準以上の新築住宅取得や既存住宅の断熱化を補助する制度です。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>子育て世帯または若年夫婦世帯が対象です。自己居住目的の住宅取得のほか、子育て世帯等への賃貸に供する目的の新築・断熱化なども対象として案内されています。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>ZEH水準を満たす新築住宅は1戸あたり定額30万円、既存住宅の断熱改修は1戸あたり上限10万円です。申請期間は2026年5月18日から2027年1月29日までですが、予算額に達した場合は終了します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.tochigi.lg.jp/d02/kouhou/r7kosodatesienn.html',
+    sourceName: '栃木県 子育て世帯等住宅断熱化支援事業',
+    sourceUrls: [
+      'https://www.pref.tochigi.lg.jp/d02/kouhou/r7kosodatesienn.html'
+    ],
+    sourceNote: '栃木県公式ページで令和8年度申請、申請期間、対象者、国補助金活用要件、新築30万円・断熱改修10万円の補助額を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
