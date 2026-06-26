@@ -7557,4 +7557,38 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'fukushima-child-medical-support-official',
+    title: '福島県 子どもの医療費助成',
+    organization: '福島県',
+    type: 'local',
+    maxAmount: '保険診療の自己負担額を助成',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '福島県',
+    tags: ['福島県', '子ども医療費', '医療費助成', '18歳年度末', '子育て'],
+    eligibility: '18歳に達する年度の3月末日までにある人で、福島県内に住所がある人が対象です。',
+    applicationPeriod: '住民登録がある市町村で手続き。通年で利用可能',
+    description: '福島県内の全市町村で、18歳以下の子どもが安心して医療を受けられるよう、健康保険適用診療の自己負担額を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>福島県では、子どもの健康を守り、県内で安心して子どもを生み育てやすい環境づくりを進めるため、県内全市町村で18歳以下の医療費を無料化しています。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>18歳に達する年度の3月末日までにある人で、福島県内に住所がある人が対象です。事業の実施主体は市町村のため、住民登録がある市町村で手続きします。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>対象者が健康保険適用の診療を受けた時に支払うべき自己負担額、診療費や入院時食事療養費などが助成対象です。予防接種、薬の容器代、紹介状なし受診時の特定料金など健康保険が適用されないものは対象外です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.fukushima.lg.jp/sec/21035a/kodomoiryouhi.html',
+    sourceName: '福島県 子どもの医療費助成',
+    sourceUrls: ['https://www.pref.fukushima.lg.jp/sec/21035a/kodomoiryouhi.html'],
+    sourceNote: '福島県公式ページで県内全市町村の18歳以下医療費無料化、対象者、健康保険適用診療の自己負担額助成、対象外費用、市町村手続きであることを確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
