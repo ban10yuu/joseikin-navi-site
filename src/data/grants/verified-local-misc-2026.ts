@@ -16876,4 +16876,33 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'takamatsu-elderly-support',
+    title: '高松市 加齢性難聴者補聴器購入費助成',
+    organization: '高松市・香川県',
+    type: 'local',
+    maxAmount: '最大3万円',
+    maxAmountNum: 3,
+    category: 'medical',
+    relatedCategories: ['nursing', 'living'],
+    prefecture: '香川県',
+    tags: ['高松市', '香川県', '補聴器', '加齢性難聴', '令和8年度'],
+    eligibility: '高松市内に住所を有する65歳以上の方で、聴覚障害による身体障害者手帳の対象とならず、医師が補聴器の必要性を認めるなど、公式要件を満たす方が対象です。',
+    applicationPeriod: '令和8年度制度として案内中。購入前に申請が必要',
+    description: '香川県が実施し、高松市が申請窓口となる、加齢性難聴の高齢者の補聴器購入費を助成する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>加齢性難聴者補聴器購入費助成は、加齢により聴こえにくさがある高齢者の社会参加や生活の質の維持を支援する制度です。高松市公式ページでは、香川県の加齢性難聴対策推進事業として案内されています。既存の生成データでは高齢者見守り支援としていましたが、公式に確認できる現行の補聴器購入費助成へ修正しています。</p>' },
+      { heading: '助成内容', content: '<p>公式ページでは、補聴器購入費の一部を助成し、助成上限額は3万円と案内されています。対象となる補聴器や必要書類、購入前申請などの条件があります。</p>' },
+      { heading: '申請の注意点', content: '<p>補聴器を購入する前に申請が必要です。聴覚障害による身体障害者手帳の交付対象となる方は、障害者総合支援法による補装具費支給制度が優先されるため、本制度の対象外となる場合があります。</p>' }
+    ],
+    officialUrl: 'https://www.city.takamatsu.kagawa.jp/kurashi/kenkou/kenkonotameni/choju/kareiseinantyou.html',
+    sourceName: '高松市 加齢性難聴対策推進事業',
+    sourceUrls: [
+      'https://www.city.takamatsu.kagawa.jp/kurashi/kenkou/kenkonotameni/choju/kareiseinantyou.html',
+      'https://www.pref.kagawa.lg.jp/kenkouseisaku/support/hochoukijosei.html'
+    ],
+    sourceNote: '高松市公式ページで、加齢性難聴対策推進事業として補聴器購入費助成の窓口案内を確認。香川県公式ページで、65歳以上、身体障害者手帳対象外、医師が補聴器の必要性を認めること、購入前申請、助成上限3万円を確認。旧生成データの高齢者見守り支援から現行制度へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
