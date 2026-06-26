@@ -3387,4 +3387,153 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'yamaguchi-advanced-industry-scholarship-repayment',
+    title: '山口県 高度産業人材確保事業奨学金返還補助制度',
+    organization: '山口県',
+    type: 'local',
+    maxAmount: '最大6年間分の奨学金返還額相当',
+    maxAmountNum: 0,
+    category: 'education',
+    prefecture: '山口県',
+    tags: ['山口県', '奨学金返還支援', '理系人材', '製造業', '情報サービス業'],
+    eligibility: '理系大学院修士課程1年生または薬学部5年生で、山口県内の製造業または情報サービス業の事業所で就業を希望する人が対象です。',
+    targetOccupation: '山口県内製造業・情報サービス業への就業を希望する理系大学院生等',
+    applicationPeriod: '2026年5月7日から2026年9月30日まで',
+    deadlineDate: '2026-09-30',
+    description: '山口県内産業を支える高度な専門知識を持つ人材を確保するため、理系大学院生等の奨学金返還を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>山口県高度産業人材確保事業奨学金返還補助制度は、県内産業を支える高度な専門人材の確保を目的に、理系大学院生等を対象として奨学金返還を補助する制度です。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>大学院修士課程1年生で工学・理学・農学・薬学系研究科に在籍する人、または薬学部5年生で薬学共用試験に合格している人などが対象です。修了・卒業後に県内の製造業または情報サービス業で就業する意思が必要です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>対象企業で就業を始めてから12年間のうち、最大6年間が補助対象期間です。補助金額は補助対象期間の月数に応じて算定され、対象者決定年の4月から2年間に貸与を受けた額が対象です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.yamaguchi.lg.jp/soshiki/255/202864.html',
+    sourceName: '山口県 高度産業人材確保事業奨学金返還補助制度',
+    sourceUrls: [
+      'https://www.pref.yamaguchi.lg.jp/soshiki/255/202864.html'
+    ],
+    sourceNote: '山口県公式ページで2026年度募集、募集対象、25名程度、募集期間、補助対象期間最大6年、補助金額の算定方法を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'tokushima-scholarship-repayment-support',
+    title: '徳島県 奨学金返還支援制度',
+    organization: '徳島県',
+    type: 'local',
+    maxAmount: '最大125万円',
+    maxAmountNum: 125,
+    category: 'education',
+    prefecture: '徳島県',
+    tags: ['徳島県', '奨学金返還支援', '県内就業', '若者定着'],
+    eligibility: '助成候補者として認定され、大学等卒業後に徳島県内事業所で一定期間就業した人が対象です。',
+    targetOccupation: '徳島県内事業所へ就業する大学等卒業者',
+    applicationPeriod: '令和8年度助成候補者募集は2026年夏頃から冬頃まで予定',
+    description: '徳島県内事業所での就業を促進するため、大学等卒業後に県内で一定期間働いた人の奨学金返還費用を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>徳島県奨学金返還支援制度は、若者の県内就業促進と人材確保を目的に、大学等を卒業後、県内事業所で一定期間就業した場合に奨学金返還に要する経費を補助する制度です。</p>'
+      },
+      {
+        heading: '助成方法',
+        content: '<p>助成候補者に認定された後、大学等卒業後に県内事業所で3年以上就業した場合に支援が始まります。就業4年目から8年目までの5年間、毎年度、助成金額の5分の1が補助されます。</p>'
+      },
+      {
+        heading: '募集予定',
+        content: '<p>令和8年度の助成候補者募集は、公式ポータルで2026年夏頃から冬頃まで予定と案内されています。令和7年4月から助成金額の上限は100万円から125万円へ拡充されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.tokushima.lg.jp/ippannokata/sangyo/shushokushien/5026191/',
+    sourceName: '徳島県 奨学金返還支援制度ポータルサイト',
+    sourceUrls: [
+      'https://www.pref.tokushima.lg.jp/ippannokata/sangyo/shushokushien/5026191/'
+    ],
+    sourceNote: '徳島県公式ポータルで令和8年度募集予定、制度目的、助成方法、上限125万円への拡充を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kagawa-work-scholarship-repayment',
+    title: '香川県 かがわで働こう！奨学金返還支援制度',
+    organization: '香川県',
+    type: 'local',
+    maxAmount: '月2万円〜4万円×貸付月数',
+    maxAmountNum: 192,
+    category: 'education',
+    prefecture: '香川県',
+    tags: ['香川県', '奨学金返還支援', '登録企業', '県内就職'],
+    eligibility: '大学等に進学予定・在学中・卒業修了後3年以内で、香川県内の登録企業に就職予定の人が対象です。',
+    targetOccupation: '香川県内登録企業へ就職予定の大学生等',
+    applicationPeriod: '支援対象者は令和8年7月頃に募集開始予定。登録企業は通年受付',
+    description: '大学生等が香川県内の登録企業へ就職した場合に、登録企業と県が連携して奨学金返還額の一部を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>かがわで働こう！奨学金返還支援制度は、大学生等の県内就業と定着を促進するため、登録企業と香川県が協働して日本学生支援機構の貸与型奨学金返還額の一部を支援する制度です。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>大学、短期大学、大学院、専修学校専門課程、高等専門学校などへ令和9年度に進学予定の人、在学中の人、卒業・修了後3年以内の人で、登録企業に就職予定の人が対象です。</p>'
+      },
+      {
+        heading: '支援内容',
+        content: '<p>支援額は月2万円から4万円に貸付月数を乗じた範囲で登録企業が選択し、登録企業と県が2分の1ずつ負担します。支援対象者が交付要件を満たした場合に一括支援されます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.kagawa.lg.jp/chiiki/daigakurennkei/kagawadehatarakou.html',
+    sourceName: '香川県 かがわで働こう！奨学金返還支援制度',
+    sourceUrls: [
+      'https://www.pref.kagawa.lg.jp/chiiki/daigakurennkei/kagawadehatarakou.html'
+    ],
+    sourceNote: '香川県公式ページで制度概要、対象奨学金、支援対象者、募集開始予定、支援額、登録企業の通年受付を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'ehime-core-industry-scholarship-repayment',
+    title: '愛媛県 中核産業人材確保のための奨学金返還支援制度',
+    organization: '愛媛県',
+    type: 'local',
+    maxAmount: '最大117.6万円（年16.8万円・最大7年）',
+    maxAmountNum: 118,
+    category: 'education',
+    prefecture: '愛媛県',
+    tags: ['愛媛県', '奨学金返還支援', '中核産業', 'UIJターン'],
+    eligibility: '愛媛県の登録企業へ正社員として就職し、助成対象者として認定を受けた大学生・大学院生または卒業修了後3年以内の既卒者が対象です。',
+    targetOccupation: '愛媛県内登録企業へ就職する大学生等・既卒者',
+    applicationPeriod: '学生向け一部募集は終了。既卒者・登録企業の募集状況は公式ページで確認',
+    description: '愛媛県内産業を支える中核人材の県内定着とUIJターン就職を促進するため、県と登録企業が基金を通じて奨学金返還を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>愛媛県中核産業人材確保のための奨学金返還支援制度は、県内産業を支える中核人材となる大学生等が、登録企業に就職した場合に奨学金返還を助成する制度です。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>大学生・大学院生と、大学等を卒業・修了してから3年以内の既卒者が対象です。日本学生支援機構第一種または第二種奨学金の貸与を受け、登録企業に正社員として採用されることなどが要件です。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>1年間の奨学金返還実績ごとに、年間返還額の3分の2または16.8万円のいずれか低い額が助成されます。助成期間は最大7年間で、愛媛県と登録企業が2分の1ずつ支援します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.ehime.jp/page/5700.html',
+    sourceName: '愛媛県 中核産業人材確保のための奨学金返還支援制度',
+    sourceUrls: [
+      'https://www.pref.ehime.jp/page/5700.html'
+    ],
+    sourceNote: '愛媛県公式ページで制度概要、登録企業、助成対象者、交付要件、年16.8万円・最大7年の助成内容を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
