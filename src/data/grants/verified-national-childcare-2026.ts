@@ -399,6 +399,49 @@ export const verifiedNationalChildcareGrants2026: Grant[] = [
     publishedAt: '2026-06-24',
   },
   {
+    slug: 'shussan-teatekin',
+    title: '出産手当金',
+    organization: '全国健康保険協会等の医療保険者',
+    type: 'national',
+    maxAmount: '産前産後休業中の標準報酬日額の3分の2相当',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '全国',
+    tags: ['出産', '産前産後休業', '健康保険', '所得補償'],
+    eligibility: '健康保険の被保険者本人が、出産のため会社を休み、給与の支払いを受けない、または出産手当金より少ない給与しか受けない場合に対象です。国民健康保険では通常対象外のため、加入する医療保険者へ確認します。',
+    targetOccupation: '健康保険の被保険者',
+    applicationPeriod: '産前産後休業後に加入する医療保険者へ申請。請求権の時効に注意',
+    description: '出産のため会社を休んだ健康保険の被保険者に、産前42日（多胎妊娠は98日）から産後56日までの範囲で、給与を受けられない期間の生活保障として支給される制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>出産手当金は、健康保険の被保険者本人が出産のために会社を休み、給与の支払いを受けられない場合に支給される所得補償です。出産育児一時金とは別の制度で、出産費用そのものではなく、産前産後休業中の収入減を補う位置づけです。</p>'
+      },
+      {
+        heading: '支給期間',
+        content: '<p>支給対象となる期間は、出産日以前42日間（多胎妊娠の場合は98日間）から、出産日の翌日以後56日間までの範囲内で会社を休んだ期間です。出産予定日より遅れて出産した場合は、出産予定日を基準にした産前期間から実際の出産日までの期間も対象になります。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>1日あたりの支給額は、原則として支給開始日以前12か月間の各月の標準報酬月額を平均した額を30で割り、その3分の2を乗じた額です。休んだ期間に給与が一部支払われる場合は、出産手当金との差額のみ支給されることがあります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>加入している協会けんぽ、健康保険組合などの医療保険者へ申請します。申請書には本人記入欄、事業主証明欄、医師または助産師の証明欄があるため、勤務先と医療機関の確認を受けて提出します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.kyoukaikenpo.or.jp/benefit/childbirth/001/index.html',
+    sourceName: '全国健康保険協会 出産育児一時金・出産手当金',
+    sourceUrls: [
+      'https://www.kyoukaikenpo.or.jp/benefit/childbirth/001/index.html',
+      'https://www.kyoukaikenpo.or.jp/faq/benefit/007/index.html',
+      'https://www.mhlw.go.jp/file/06-Seisakujouhou-11900000-Koyoukintoujidoukateikyoku/0000174135.pdf'
+    ],
+    sourceNote: '協会けんぽ公式ページと厚生労働省資料で、対象者、支給期間、支給額の計算式、給与支払いがある場合の差額支給を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
     slug: 'shakaiteki-yougo-jiritsu-shien',
     title: '社会的養護自立支援事業・拠点事業',
     organization: 'こども家庭庁・都道府県等',

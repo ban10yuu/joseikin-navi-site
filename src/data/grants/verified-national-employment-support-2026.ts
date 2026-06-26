@@ -345,4 +345,47 @@ export const verifiedNationalEmploymentSupportGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'kounenrei-koyou-keizoku-kyuufu',
+    title: '高年齢雇用継続給付',
+    organization: '厚生労働省・ハローワーク',
+    type: 'national',
+    maxAmount: '各月賃金の最大10%または15%相当',
+    maxAmountNum: 0,
+    category: 'employment',
+    prefecture: '全国',
+    tags: ['雇用保険', '60歳以降', '継続雇用', 'ハローワーク'],
+    eligibility: '60歳以上65歳未満の雇用保険被保険者で、被保険者期間が5年以上あり、60歳到達時等の賃金に比べて各月の賃金が75%未満に低下しているなどの要件を満たす方が対象です。',
+    targetOccupation: '60歳以上65歳未満の雇用保険被保険者',
+    applicationPeriod: '原則として事業主を通じて、初回は受給資格確認と支給申請、以後は2か月ごとに申請',
+    description: '60歳以降も働き続ける方の賃金が60歳到達時等に比べて低下した場合に、雇用保険から支給される給付です。令和7年4月1日以降に60歳到達等の要件を満たす方は、支給率の上限が各月賃金の10%に変更されています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>高年齢雇用継続給付は、60歳以降も雇用保険の被保険者として働き続ける方について、賃金が60歳到達時等の賃金より一定以上低下した場合に支給される制度です。65歳到達月までの雇用継続を支える位置づけです。</p>'
+      },
+      {
+        heading: '主な対象要件',
+        content: '<p>60歳以上65歳未満で雇用保険の被保険者であること、被保険者期間が5年以上あること、各月の賃金が60歳到達時等の賃金の75%未満であることなどが主な要件です。育児休業給付や介護休業給付などとの関係で調整が必要な場合があります。</p>'
+      },
+      {
+        heading: '支給率',
+        content: '<p>令和7年4月1日以降に60歳到達等の要件を満たす方は、各月に支払われた賃金の10%を限度として支給されます。令和7年3月31日以前に要件を満たしていた方は、経過的に15%を限度とする扱いが案内されています。実際の支給額は賃金低下率に応じて変わります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>通常は事業主がハローワークへ受給資格確認と支給申請を行います。初回申請後は、指定された支給対象月ごとに賃金額等を確認して申請します。必要書類や申請期限は管轄ハローワークで確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.hellowork.mhlw.go.jp/insurance/insurance_continue.html',
+    sourceName: 'ハローワークインターネットサービス 雇用継続給付',
+    sourceUrls: [
+      'https://www.hellowork.mhlw.go.jp/insurance/insurance_continue.html',
+      'https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000160564_00043.html',
+      'https://www.mhlw.go.jp/content/001328827.pdf'
+    ],
+    sourceNote: 'ハローワーク公式ページと厚生労働省の令和7年4月支給率変更案内で、対象要件、賃金75%未満、支給率上限10%・15%の経過扱いを確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
