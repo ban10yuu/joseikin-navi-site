@@ -4656,4 +4656,153 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'aichi-wooden-house-earthquake-retrofit',
+    title: '豊川市 木造住宅耐震改修費補助金',
+    organization: '豊川市',
+    type: 'local',
+    maxAmount: '最大155万円',
+    maxAmountNum: 155,
+    category: 'housing',
+    prefecture: '愛知県',
+    tags: ['愛知県', '豊川市', '木造住宅', '耐震改修', '住宅リフォーム'],
+    eligibility: '豊川市の無料木造住宅耐震診断を受け、総合判定値が1.0未満とされた木造住宅の耐震改修工事が対象です。',
+    targetOccupation: '豊川市内の木造住宅所有者等',
+    applicationPeriod: '2026年5月7日から2026年12月25日まで',
+    deadlineDate: '2026-12-25',
+    description: '愛知県豊川市が、木造住宅の倒壊被害を軽減するため、耐震改修に要する費用を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>豊川市木造住宅耐震改修費補助金は、地震発生時の木造住宅の倒壊等による被害を軽減し、震災に強いまちづくりを促進するための補助制度です。</p>'
+      },
+      {
+        heading: '対象住宅・工事',
+        content: '<p>豊川市の無料木造住宅耐震診断を受け、総合判定値が1.0未満とされた住宅が対象です。改修後の判定値が1.0以上かつ0.3以上向上する耐震改修工事が補助対象です。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>耐震改修の調査、設計、耐震補強工事の費用について135万円を上限に補助されます。令和8年度から精密診断法による改修設計の場合、最大20万円の上乗せ補助もあります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.toyokawa.lg.jp/soshiki/kensetsu/kenchiku/2/1/5/1449.html',
+    sourceName: '豊川市 木造住宅耐震改修費補助金',
+    sourceUrls: [
+      'https://www.city.toyokawa.lg.jp/soshiki/kensetsu/kenchiku/2/1/5/1449.html'
+    ],
+    sourceNote: '豊川市公式ページで2026年4月更新、対象住宅、対象工事、補助上限135万円、精密診断法による上乗せ最大20万円、受付期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'mie-wooden-house-retrofit-reform',
+    title: '東員町 木造住宅耐震化補助制度',
+    organization: '東員町',
+    type: 'local',
+    maxAmount: '耐震補強設計18万円ほか',
+    maxAmountNum: 18,
+    category: 'housing',
+    prefecture: '三重県',
+    tags: ['三重県', '東員町', '木造住宅', '耐震診断', '耐震補強'],
+    eligibility: '昭和56年5月31日以前に着工された3階以下の木造住宅など、東員町が定める要件を満たす住宅が対象です。',
+    targetOccupation: '東員町内の木造住宅所有者等',
+    applicationPeriod: '令和8年度の申請受付・募集状況は公式ページで確認',
+    description: '三重県東員町が、木造住宅の耐震診断、耐震補強設計、耐震補強工事等を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>東員町木造住宅耐震化補助制度は、南海トラフ地震等に備え、町内の旧耐震基準の木造住宅の耐震性確認と耐震化を促進する制度です。</p>'
+      },
+      {
+        heading: '対象住宅',
+        content: '<p>昭和56年5月31日以前に着工された木造住宅で、階数が3階以下のものなどが対象です。木造住宅耐震診断等事業は無料で案内されています。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>耐震補強設計補助は最高18万円など、耐震診断、補強設計、耐震補強工事等の制度が用意されています。工事区分ごとの条件は公式ページで確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.toin.lg.jp/kurashi_tetsuzuki/sumai/2/1970.html',
+    sourceName: '東員町 木造住宅の耐震化補助制度',
+    sourceUrls: [
+      'https://www.town.toin.lg.jp/kurashi_tetsuzuki/sumai/2/1970.html'
+    ],
+    sourceNote: '東員町公式ページで2026年4月更新、昭和56年以前の木造住宅、無料耐震診断、耐震補強設計最高18万円等の補助制度を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'shiga-smart-eco-house-zeh-2026',
+    title: '滋賀県 スマート・ライフスタイル普及促進事業補助金',
+    organization: '滋賀県',
+    type: 'local',
+    maxAmount: '住宅省エネ・再エネ設備を補助',
+    maxAmountNum: 0,
+    category: 'housing',
+    prefecture: '滋賀県',
+    tags: ['滋賀県', '住宅用設備', '断熱改修', '太陽光発電', '省エネ住宅'],
+    eligibility: '滋賀県内の個人用既存住宅で、太陽光発電、蓄電池、断熱改修、高効率給湯器等を導入する人が対象です。',
+    targetOccupation: '滋賀県内の既存住宅所有者等',
+    applicationPeriod: '2026年5月25日から受付開始',
+    description: '滋賀県が、家庭でエネルギーを減らし、創り、賢く使う取組を広めるため、既存住宅の再エネ・省エネ設備導入を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>滋賀県スマート・ライフスタイル普及促進事業補助金は、家庭における省エネ・再エネ設備の導入を促進し、温室効果ガス排出削減と快適な住環境づくりを支援する制度です。</p>'
+      },
+      {
+        heading: '対象設備',
+        content: '<p>個人用既存住宅における太陽光発電システム、蓄電池、断熱改修、高効率給湯器などの再エネ・省エネ設備が対象として案内されています。</p>'
+      },
+      {
+        heading: '申請受付',
+        content: '<p>令和8年度は2026年5月25日から申請受付開始と案内されています。補助対象設備ごとの金額、申請書類、受付状況は公式ページで確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.shiga.lg.jp/ippan/kankyoshizen/ondanka/349713.html',
+    sourceName: '滋賀県 スマート・ライフスタイル普及促進事業補助金',
+    sourceUrls: [
+      'https://www.pref.shiga.lg.jp/ippan/kankyoshizen/ondanka/349713.html'
+    ],
+    sourceNote: '滋賀県公式ページで令和8年度募集、個人用既存住宅、太陽光発電・蓄電池・断熱改修・高効率給湯器等、2026年5月25日受付開始を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kyoto-housing-decarbonization-2026',
+    title: '京都府 住宅脱炭素化促進事業補助金',
+    organization: '京都府',
+    type: 'local',
+    maxAmount: '対象住宅・設備に応じて補助',
+    maxAmountNum: 0,
+    category: 'housing',
+    prefecture: '京都府',
+    tags: ['京都府', '省エネ住宅', '脱炭素住宅', 'ZEH', '住宅設備'],
+    eligibility: '京都府内で省エネ性能の高い住宅や脱炭素化に資する住宅設備を導入する個人等が対象です。',
+    targetOccupation: '京都府内で省エネ住宅・設備を導入する個人等',
+    applicationPeriod: '2026年4月から募集開始。受付状況は公式ページで確認',
+    description: '京都府が、健康で快適な省エネ住宅の普及と住宅の脱炭素化を進めるために実施する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>京都府住宅脱炭素化促進事業補助金は、省エネ住宅で健康で快適な生活を始めることを後押しし、住宅分野の脱炭素化を促進するための補助制度です。</p>'
+      },
+      {
+        heading: '対象内容',
+        content: '<p>京都府内の住宅における省エネ性能の向上や、脱炭素化に資する設備導入等が対象です。対象住宅、対象設備、補助要件は公式ページの募集案内で確認します。</p>'
+      },
+      {
+        heading: '募集状況',
+        content: '<p>京都府公式ページでは、2026年度の住宅脱炭素化促進事業補助金の募集開始が案内されています。補助額は対象区分に応じて異なります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.kyoto.jp/tikyu/news/jyutakuhojyo2026.html',
+    sourceName: '京都府 住宅脱炭素化促進事業補助金',
+    sourceUrls: [
+      'https://www.pref.kyoto.jp/tikyu/news/jyutakuhojyo2026.html'
+    ],
+    sourceNote: '京都府公式ページで2026年度住宅脱炭素化促進事業補助金、募集開始、省エネ住宅・住宅脱炭素化支援を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
