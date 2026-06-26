@@ -963,4 +963,226 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'toyama-migration-support',
+    title: '富山市 移住支援金',
+    organization: '富山市',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、18歳未満1人につき100万円加算',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '富山県',
+    tags: ['富山県', '富山市', '移住支援', '東京圏'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた方が、富山市へ移住し、就業・起業・テレワーク等の要件を満たす場合に対象です。',
+    applicationPeriod: '転入日から1年以内。令和8年度中の申請受付は令和9年2月15日まで',
+    description: '富山市へ移住し、就業・起業・テレワーク等の要件を満たす方に交付される移住支援金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>富山市移住支援金は、東京圏から富山市へ移住し、就業・起業・テレワーク等の要件を満たす方を支援する制度です。県の移住支援金制度に基づき、市が申請窓口となります。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>単身の場合は60万円、2人以上の世帯の場合は100万円です。18歳未満の世帯員を帯同して移住する場合は、18歳未満の方1人につき100万円が加算されます。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>富山市へ申請します。転入日から1年以内に申請する必要があります。令和8年度中の申請受付期限も設定されているため、申請前に最新の市公式案内を確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.toyama.lg.jp/shisei/seisaku/1010755/1002498.html',
+    sourceName: '富山市 富山市移住支援金',
+    sourceUrls: [
+      'https://www.city.toyama.lg.jp/shisei/seisaku/1010755/1002498.html',
+      'https://www.pref.toyama.jp/documents/4163/01349908.pdf'
+    ],
+    sourceNote: '富山市公式ページで令和8年度の支給額、18歳未満加算、転入後1年以内、申請受付期限を確認。富山県資料で県制度概要を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'gifu-migration-support',
+    title: '岐阜県 移住支援金',
+    organization: '岐阜県・県内市町村',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '岐阜県',
+    tags: ['岐阜県', '移住支援', '東京圏', '市町村申請'],
+    eligibility: '東京圏から岐阜県内へ移住し、就業・起業・テレワーク等の要件を満たす方が対象です。詳細な対象要件は移住先市町村により異なります。',
+    applicationPeriod: '移住先市町村の受付期間に従う。予算・受付状況は市町村へ確認',
+    description: '岐阜県内への移住と就業・起業等を支援する移住支援金です。県公式移住サイトで、単身世帯60万円、2人以上世帯100万円の支援金として案内されています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>岐阜県移住支援金は、東京圏から岐阜県内へ移住し、就業・起業・テレワーク等の要件を満たす方を支援する制度です。申請は移住先市町村で行います。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>県公式移住サイトでは、単身世帯は60万円、2人以上世帯は100万円の支援金と案内されています。市町村や申請要件によって加算や支給条件が異なる場合があります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>移住先市町村へ申請します。対象求人、テレワーク、起業、子育て加算の有無、予算状況、必要書類は市町村の公式案内で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.gifu-iju.com/support_prefecture/',
+    sourceName: 'ふふふぎふ 支援・補助金（県）',
+    sourceUrls: [
+      'https://www.gifu-iju.com/support_prefecture/',
+      'https://www.city.gifu.lg.jp/kurashi/sumai/1002451/1016154.html'
+    ],
+    sourceNote: '岐阜県公式移住サイトで移住支援金の支給額を確認。岐阜市公式ページで市町村実施例、テレワーク時の金額差、子ども加算を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kyoto-migration-support',
+    title: '京都府 移住支援金',
+    organization: '京都府・対象市町村',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、18歳未満1人につき最大100万円加算',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '京都府',
+    tags: ['京都府', '移住支援', '東京圏', '市町村申請'],
+    eligibility: '東京23区在住者または東京圏から東京23区内へ通勤していた方が、京都府内の対象市町村へ移住し、就業等の要件を満たす場合に対象です。',
+    applicationPeriod: '対象市町村の受付期間に従う。予算状況により受付終了の可能性あり',
+    description: '京都府内の対象市町村へ移住し、対象求人への就業や市町村が定める産業への就業等を行う方に、国・京都府・市町村が共同で支援金を支給する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>京都府移住支援金は、東京23区に在住または東京圏から東京23区内へ通勤していた方が、京都府内の対象市町村へ移住し、対象求人への就業等の要件を満たす場合に支給されます。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>世帯の場合は100万円、単身の場合は60万円です。移住に帯同する18歳未満の子ども1人あたり最大100万円が加算されます。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請先や細かな要件は対象市町村により異なります。予算状況により受付終了となる場合があるため、早い段階で移住先市町村へ相談してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.kyoto.jp/jobpark/ijusienkin.html',
+    sourceName: '京都府 京都府移住支援金のお知らせ',
+    sourceUrls: [
+      'https://www.pref.kyoto.jp/jobpark/ijusienkin.html',
+      'https://www.kyoto-iju.jp/shien_system/'
+    ],
+    sourceNote: '京都府公式ページで概要、支給額、18歳未満加算、対象市町村相談、予算終了可能性を確認。京都府公式移住サイトで制度概要を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kagawa-migration-support',
+    title: '香川県 東京圏移住支援事業補助金',
+    organization: '香川県・県内市町',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、18歳未満1人につき100万円加算',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '香川県',
+    tags: ['香川県', '移住支援', '東京圏', '市町申請'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた方が、香川県内の対象市町へ移住し、就業・起業等の要件を満たす場合に対象です。',
+    applicationPeriod: '各年度4月から2月末日まで。転入後1年以内など市町により申請期間が異なる',
+    description: '香川県内の対象市町へ移住し、就業等を行う方を支援する東京圏移住支援事業補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>香川県の東京圏移住支援事業補助金は、東京圏から県内の対象市町へ移住し、就業・起業等の要件を満たす方を支援する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>2人以上の世帯の場合は100万円、単身世帯の場合は60万円です。18歳未満の世帯員1人につき100万円が加算されます。ただし、高松市や丸亀市など一部市町では基本額や加算額が異なります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請先は移住先市町です。申請期間は市町により異なり、3月は申請不可と案内されています。転入時期と受付期間を事前に確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.kagawa.lg.jp/chiiki/iju/izyusienkin.html',
+    sourceName: '香川県 東京圏移住支援事業補助金',
+    sourceUrls: [
+      'https://www.pref.kagawa.lg.jp/chiiki/iju/izyusienkin.html'
+    ],
+    sourceNote: '香川県公式ページで対象市町、支給額、子育て加算、市町別の金額差、申請期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'ehime-migration-support',
+    title: '愛媛県 移住支援事業（移住支援金）',
+    organization: '愛媛県・県内市町',
+    type: 'local',
+    maxAmount: '世帯最大100万円・単身最大60万円、18歳未満加算は市により異なる',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '愛媛県',
+    tags: ['愛媛県', '移住支援', '東京圏', '市町申請'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた方が、愛媛県内の対象市町へ移住し、就業等の要件を満たす場合に対象です。',
+    applicationPeriod: '移住先市町の受付期間に従う。詳細は市町へ確認',
+    description: '愛媛県が地方創生移住支援事業を活用して実施する移住支援金です。旧生成データを公式確認済みデータとして置換しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>愛媛県移住支援事業は、東京圏から愛媛県内へ移住し、就業等の要件を満たす方を支援する制度です。対象市町や加算内容は移住先により異なります。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>単身世帯は最大60万円、2人以上の世帯は最大100万円です。18歳未満の世帯員を帯同する場合の加算は市により異なり、今治市10万円、宇和島市30万円、大洲市60万円、新居浜市・四国中央市100万円などの例があります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請先は移住先市町です。対象求人、子育て加算、受付期間、予算状況は市町により異なるため、移住先市町の担当窓口へ確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://ano-kono.ehime.jp/st/shienkin/usr/',
+    sourceName: '愛媛県移住支援金対象のお仕事探し あのこの愛媛',
+    sourceUrls: [
+      'https://ano-kono.ehime.jp/st/shienkin/usr/',
+      'https://www.city.niihama.lg.jp/soshiki/promo/izyuusiennkin.html'
+    ],
+    sourceNote: '愛媛県公式求人・移住支援サイトで支給額、市別の18歳未満加算差、制度概要を確認。新居浜市公式ページで市実施例を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'saga-migration-support',
+    title: '佐賀県 移住支援金',
+    organization: '佐賀県・県内市町',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、18歳未満1人につき最大100万円加算',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '佐賀県',
+    tags: ['佐賀県', '移住支援', '東京圏', '子育て世帯'],
+    eligibility: '東京23区内に在住または通勤していた方が対象です。佐賀県外からの移住でも、子育て世帯要件や重点分野の担い手要件などに該当する場合は対象となる場合があります。',
+    applicationPeriod: '移住先市町の受付期間に従う。申請先・必要書類は市町へ確認',
+    description: '佐賀県内への移住を支援する移住支援金です。東京圏からの移住に加え、県外からの移住でも一定要件を満たす場合に対象となります。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>佐賀県移住支援金は、東京23区内に在住または通勤していた方などを対象に、佐賀県内への移住を支援する制度です。県外からの移住でも、子育て世帯要件や重点分野の担い手要件に該当する場合があります。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>単身の場合は60万円、世帯の場合は100万円です。東京圏からの移住では、18歳未満の子ども1人につき最大100万円が加算されます。佐賀市では加算上限200万円など、市町により取扱いが異なります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請は移住先市町で行います。移住元要件、就職・起業・農林漁業・空き家取得・伝統工芸等の要件、子育て加算の扱いは、県と市町の公式案内で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.sagasmile.com/support/money',
+    sourceName: 'サガスマイル 移住支援金',
+    sourceUrls: [
+      'https://www.sagasmile.com/support/money',
+      'https://www.pref.saga.lg.jp/kiji003112772/index.html',
+      'https://www.city.saga.lg.jp/kurashi/sumai/1/714.html'
+    ],
+    sourceNote: '佐賀県公式移住ポータルで支給額、18歳未満加算、県外移住要件を確認。佐賀県公式ページと佐賀市公式ページで制度詳細・市実施例を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
