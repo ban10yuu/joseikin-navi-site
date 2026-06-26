@@ -13606,6 +13606,45 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-26',
   },
   {
+    slug: 'yokote-child-medical',
+    title: '横手市 福祉医療費制度（乳幼児・小中学生・高校生等）',
+    organization: '横手市',
+    type: 'local',
+    maxAmount: '保険適用医療費の自己負担額を助成',
+    maxAmountNum: 0,
+    category: 'medical',
+    relatedCategories: ['childcare'],
+    prefecture: '秋田県',
+    tags: ['横手市', '福祉医療費', '子ども医療費', '高校生等', '所得制限なし', '秋田県'],
+    eligibility: '横手市に住所があり、各種医療保険に加入している、18歳に達する日以後最初の3月31日までの乳幼児・小中学生・高校生等が対象です。',
+    targetOccupation: '横手市内の18歳年度末までの子ども',
+    applicationPeriod: '通年。受給者証の交付申請が必要',
+    description: '横手市が、乳幼児から高校生等までの子どもの医療費について、保険適用分の自己負担額を助成する福祉医療費制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>横手市の福祉医療費制度（マル福）は、乳幼児、小中学生、高校生等の医療費負担を軽減する制度です。対象は18歳に達する日以後、最初の3月31日までの子どもです。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>各種医療保険に加入し、横手市に住所を有する子どもが対象です。乳幼児、小中学生、高校生等については所得制限はありませんが、所得判定は必要と案内されています。保護者の住所が仕事などの理由で県外にある場合でも、横手市に住所がある子どもは対象となる場合があります。</p>'
+      },
+      {
+        heading: '助成の範囲',
+        content: '<p>病院等で診察を受けた場合や調剤薬局で薬を受け取った場合の、保険適用分の医療費自己負担額が助成対象です。入院時食事療養費、薬瓶代、差額ベッド代、健康診断、予防接種などは対象外です。他制度で同様の助成を受けられる場合は、その制度が優先されることがあります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.yokote.lg.jp/kurashi/1001138/1002678.html',
+    sourceName: '横手市 福祉医療費制度（マル福）',
+    sourceUrls: [
+      'https://www.city.yokote.lg.jp/kurashi/1001138/1002678.html',
+      'https://www.city.yokote.lg.jp/faq/1001672/1001674/1002245.html'
+    ],
+    sourceNote: '横手市公式ページで、福祉医療費制度（マル福）、乳幼児・小中学生・高校生等、18歳に達する日以後最初の3月31日まで、所得制限なしだが所得判定必要、各種医療保険加入と市内住所要件を確認。公式FAQで、医療費の保険適用分自己負担額が助成対象、入院時食事療養費等は対象外であることを確認。旧生成データを公式確認済み情報へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
     slug: 'kofu-newlywed-life-support-2026',
     title: '甲府市 結婚新生活支援事業',
     organization: '甲府市',
