@@ -3085,4 +3085,156 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'kyoto-work-scholarship-repayment',
+    title: '京都府 就労・奨学金返済一体型支援事業',
+    organization: '京都府',
+    type: 'local',
+    maxAmount: '1人あたり最大45万円（6年間合計）',
+    maxAmountNum: 45,
+    category: 'education',
+    prefecture: '京都府',
+    tags: ['京都府', '奨学金返還支援', '中小企業', '若手人材定着'],
+    eligibility: '京都府内に事業所を有する中小企業等が、正社員となってから6年以内の従業員に奨学金返済支援手当等を支給する場合に対象です。',
+    targetOccupation: '京都府内中小企業等と奨学金を返済する若手正社員',
+    applicationPeriod: '2026年4月1日から2026年12月28日まで',
+    deadlineDate: '2026-12-28',
+    description: '京都府内中小企業等が、若手従業員の奨学金返済を支援するために支給した手当等の一部を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>京都府就労・奨学金返済一体型支援事業は、府内中小企業等の人材確保と若手従業員の職場定着を後押しするため、従業員への奨学金返済支援に要した経費の一部を補助する制度です。</p>'
+      },
+      {
+        heading: '対象となる従業員',
+        content: '<p>正社員として雇用され、正社員となってから6年以内で、本人が奨学金を返済しており、京都府内の事業所に勤務する従業員が対象です。中途採用者も条件を満たせば対象になります。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>1年目から3年目までは1人あたり年9万円、4年目から6年目までは年6万円を上限に、年間返済額から1万円を控除した額の2分の1または企業の支援額の2分の1の範囲で補助されます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.kyoto.jp/rosei/syuurousyougakukin/syuurousyougakukinn1.html',
+    sourceName: '京都府 就労・奨学金返済一体型支援事業',
+    sourceUrls: [
+      'https://www.pref.kyoto.jp/rosei/syuurousyougakukin/syuurousyougakukinn1.html'
+    ],
+    sourceNote: '京都府公式ページで令和8年度の申請期間、対象企業・対象従業員、補助率、1人あたり年9万円・年6万円の上限を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'osaka-scholarship-repayment-introduction-support',
+    title: '大阪府 奨学金返還支援制度導入促進支援金',
+    organization: '大阪府',
+    type: 'local',
+    maxAmount: '令和7年度第2期受付終了',
+    maxAmountNum: 0,
+    category: 'education',
+    prefecture: '大阪府',
+    tags: ['大阪府', '奨学金返還支援', '制度導入', '企業支援'],
+    eligibility: '若者の奨学金返還を支援する制度を導入する府内事業者向けの支援金です。令和7年度第2期の受付は終了しています。',
+    targetOccupation: '大阪府内事業者',
+    applicationPeriod: '令和7年度第2期申請受付は2025年11月28日で終了',
+    deadlineDate: '2025-11-28',
+    description: '大阪府内事業者による奨学金返還支援制度の導入を後押しするための支援金です。公式ページでは令和7年度第2期受付終了が案内されています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>大阪府奨学金返還支援制度導入促進支援金は、奨学金を返還している若者の負担軽減と、企業の人材確保・定着を目的として、府内事業者による奨学金返還支援制度の導入を促進する制度です。</p>'
+      },
+      {
+        heading: '受付状況',
+        content: '<p>公式ページでは、令和7年度第2期の申請受付は2025年11月28日に終了したと案内されています。現在は事業者一覧等の情報が掲載されています。</p>'
+      },
+      {
+        heading: '確認時の扱い',
+        content: '<p>受付終了済みのため、助成金ナビでは公式確認済みの履歴データとして登録し、アクティブな募集一覧からは除外される期限設定にしています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.osaka.lg.jp/o110100/koyotaisaku/shogakukin/shienkin.html',
+    sourceName: '大阪府 奨学金返還支援制度導入促進支援金',
+    sourceUrls: [
+      'https://www.pref.osaka.lg.jp/o110100/koyotaisaku/shogakukin/shienkin.html'
+    ],
+    sourceNote: '大阪府公式ページで奨学金返還支援制度導入促進支援金、若者の負担軽減・事業者の人材確保目的、令和7年度第2期受付終了日を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'nara-company-scholarship-repayment',
+    title: '奈良県 奨学金返還支援事業補助金',
+    organization: '奈良県',
+    type: 'local',
+    maxAmount: '1社最大500万円（1人年10万円・最大10年）',
+    maxAmountNum: 500,
+    category: 'education',
+    prefecture: '奈良県',
+    tags: ['奈良県', '奨学金返還支援', '中小企業', '若手人材'],
+    eligibility: '奈良県内の中小企業等が、若年人材の採用・定着に向けて奨学金返還支援制度を設け、対象従業員を支援する場合に対象です。',
+    targetOccupation: '奈良県内中小企業等と奨学金返還支援対象従業員',
+    applicationPeriod: '2026年4月1日から2027年3月25日まで',
+    deadlineDate: '2027-03-25',
+    description: '奈良県内中小企業等が従業員の奨学金返還を支援する場合に、企業が負担した支援額の一部を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>奈良県奨学金返還支援事業補助金は、県内中小企業等の人材確保と若手従業員の定着を目的に、企業が実施する奨学金返還支援を補助する制度です。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>補助率は企業の支給額または代理返還額の2分の1以内です。対象従業員1人あたり年10万円、1社あたり年5人まで、支援期間は入社年度を含め最大10年間と案内されています。</p>'
+      },
+      {
+        heading: '申請期間',
+        content: '<p>令和8年度の申請期間は2026年4月1日から2027年3月25日までです。提出書類の到着期限が設定されているため、申請前に公式ページの募集要領を確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.nara.lg.jp/n102/p065010.html',
+    sourceName: '奈良県 奨学金返還支援事業補助金',
+    sourceUrls: [
+      'https://www.pref.nara.lg.jp/n102/p065010.html'
+    ],
+    sourceNote: '奈良県公式ページで令和8年度募集、補助率2分の1以内、1人年10万円、1社年5人、最大10年、申請期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'wakayama-core-industry-scholarship-repayment',
+    title: '和歌山県 中核産業人材確保強化のための奨学金返還助成制度',
+    organization: '和歌山県',
+    type: 'local',
+    maxAmount: '最大100万円',
+    maxAmountNum: 100,
+    category: 'education',
+    prefecture: '和歌山県',
+    tags: ['和歌山県', '奨学金返還支援', '理工系人材', '県内就職'],
+    eligibility: '令和10年3月卒業予定の大学生・大学院生・高等専門学校生等で、対象分野を学び、和歌山県内の参画企業で研究開発職・技術職等として就職する意思がある人が対象です。',
+    targetOccupation: '和歌山県内参画企業への就職を目指す学生',
+    applicationPeriod: '第1回 2026年4月1日から7月31日、第2回 8月3日から11月30日、第3回 12月1日から2027年3月24日まで',
+    deadlineDate: '2027-03-24',
+    description: '和歌山県内の中核産業を支える人材確保を目的に、参画企業へ就職し一定期間勤務した人の奨学金返還を最大100万円助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>和歌山県中核産業人材確保強化のための奨学金返還助成制度は、県内企業の研究開発職・技術職等を担う若手人材を確保するため、対象学生の奨学金返還を助成する制度です。</p>'
+      },
+      {
+        heading: '助成額',
+        content: '<p>助成額は奨学金返還額相当額で、上限は100万円です。参画企業で3年間勤務した後、原則として奨学金貸与機関へ支払われます。</p>'
+      },
+      {
+        heading: '募集期間',
+        content: '<p>令和8年度は50人を募集し、第1回から第3回まで募集期間が設定されています。定員に達した場合は予定より早く募集が終了する可能性があります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.wakayama.lg.jp/prefg/060600/01shin/uturnshushoku/syougakukin_001.html',
+    sourceName: '和歌山県 中核産業人材確保強化のための奨学金返還助成制度',
+    sourceUrls: [
+      'https://www.pref.wakayama.lg.jp/prefg/060600/01shin/uturnshushoku/syougakukin_001.html'
+    ],
+    sourceNote: '和歌山県公式ページで対象学生、募集人数50人、助成上限100万円、参画企業で3年勤務後の助成、令和8年度の募集期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
