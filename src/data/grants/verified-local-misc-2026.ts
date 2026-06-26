@@ -17399,4 +17399,34 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'matsuyama-school-lunch',
+    title: '松山市 小学校給食費無償化',
+    organization: '松山市',
+    type: 'local',
+    maxAmount: '年間約6万円相当',
+    maxAmountNum: 6,
+    category: 'education',
+    relatedCategories: ['childcare', 'living'],
+    prefecture: '愛媛県',
+    tags: ['松山市', '愛媛県', '学校給食費', '小学校給食費無償化', '令和8年度'],
+    eligibility: '松山市立小学校に通うすべての児童が対象です。生活保護の教育扶助対象児童は生活保護制度による支援が優先されます。',
+    applicationPeriod: '2026年4月から2027年3月まで。手続き不要',
+    description: '松山市が、令和8年度に市立小学校児童の学校給食費を完全無償化する制度です。国・県の交付金に市独自支援を加えて実施します。',
+    sections: [
+      { heading: '制度の概要', content: '<p>松山市小学校給食費無償化は、保護者の負担を減らし、子育て世帯を支援するため、市立小学校の給食費を無償化する制度です。既存の生成データでは第3子以降の学校給食費免除としていましたが、公式ページで確認できる令和8年度制度は、市立小学校に通うすべての児童が対象です。</p>' },
+      { heading: '支援内容', content: '<p>令和8年4月から令和9年3月まで、市立小学校の給食費が無償になります。公式チラシでは、小学校の給食費1食320円が無償となり、年間約6万円の負担軽減になると案内されています。食物アレルギー等のやむを得ない理由で給食を全く食べられず毎日弁当を持参する児童には、給食費相当額を給付します。</p>' },
+      { heading: '中学校の扱い', content: '<p>今回の無償化対象は小学校のみです。中学校については、令和8年度も食材価格高騰分を市が負担し、生徒分の給食費は令和5年度から据え置くと案内されています。</p>' }
+    ],
+    officialUrl: 'https://www.city.matsuyama.ehime.jp/kurashi/kosodate/kyuusyoku/gakkoukyuusyokuhi.html',
+    sourceName: '松山市 学校給食費について',
+    sourceUrls: [
+      'https://www.city.matsuyama.ehime.jp/kurashi/kosodate/kyuusyoku/gakkoukyuusyokuhi.html',
+      'https://www.city.matsuyama.ehime.jp/kurashi/kosodate/kyuusyoku/gakkoukyuusyokuhi.files/musyouka.pdf',
+      'https://www.city.matsuyama.ehime.jp/kurashi/kosodate/kyuusyoku/gakkoukyuusyokuhi.files/qa.pdf'
+    ],
+    sourceNote: '松山市公式ページで、2026年4月28日更新、国・県の交付金に市独自支援を加え小学校給食費を無償化、令和8年度中学校給食費は食材価格高騰分を市が負担し令和5年度から据え置き、支払方法等を確認。公式チラシで、期間は2026年4月から2027年3月、対象は松山市立小学校に通う児童、手続き不要、1食320円で年間約6万円の負担軽減、完全弁当対応児童への給付を確認。公式Q&Aで所得制限なし、中学校は対象外を確認。旧生成データの第3子以降給食費免除から令和8年度小学校給食費無償化へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
