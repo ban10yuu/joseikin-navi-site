@@ -5406,4 +5406,155 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'oita-city-wooden-house-earthquake-diagnosis-2026',
+    title: '大分市 木造住宅耐震診断支援事業',
+    organization: '大分市',
+    type: 'local',
+    maxAmount: '最大11万円',
+    maxAmountNum: 11,
+    category: 'housing',
+    prefecture: '大分県',
+    tags: ['大分県', '大分市', '耐震診断', '木造住宅', '住宅安全'],
+    eligibility: '昭和56年5月31日以前に着工された3階建て以下の木造住宅など、大分市が定める要件を満たす住宅が対象です。',
+    targetOccupation: '大分市内の木造住宅所有者等',
+    applicationPeriod: '令和8年4月14日から令和8年12月18日まで。予算到達時は受付終了',
+    deadlineDate: '2026-12-18',
+    description: '大分市が、旧耐震基準の木造住宅について耐震診断費用を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>大分市木造住宅耐震診断支援事業は、地震に備え、昭和56年5月31日以前に着工された木造住宅の耐震性を確認するための診断費用を支援する制度です。</p>'
+      },
+      {
+        heading: '対象住宅',
+        content: '<p>昭和56年5月31日以前に着工された3階建て以下の木造住宅が対象です。店舗等との併用住宅は、店舗等部分が延べ面積の2分の1未満であることなどの要件があります。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>耐震診断に要する費用の10分の10を補助します。上限額は住宅の床面積や図面の有無などにより7万5,000円、9万円、11万円に分かれます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.oita.oita.jp/o168/kurashi/anshinanzen/mokutai.html',
+    sourceName: '大分市 木造住宅の耐震診断および耐震改修補助',
+    sourceUrls: [
+      'https://www.city.oita.oita.jp/o168/kurashi/anshinanzen/mokutai.html',
+      'https://www.pref.oita.jp/site/taishin/'
+    ],
+    sourceNote: '大分市公式ページで令和8年度の耐震診断支援、現在受付中、耐震診断費用10分の10・最大11万円、受付期間を確認。大分県公式の耐震化情報も確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'miyazaki-prefecture-wooden-house-earthquake-support-2026',
+    title: '宮崎県 木造住宅耐震化の支援制度',
+    organization: '宮崎県',
+    type: 'local',
+    maxAmount: '市町村により異なる',
+    maxAmountNum: 0,
+    category: 'housing',
+    prefecture: '宮崎県',
+    tags: ['宮崎県', '耐震診断', '耐震改修', '木造住宅', '建替え'],
+    eligibility: '昭和56年5月31日以前に着工された木造住宅など、市町村が実施する耐震診断・耐震改修等の要件を満たす住宅が対象です。',
+    targetOccupation: '宮崎県内の木造住宅所有者等',
+    applicationPeriod: '受付期間・補助額・申請窓口は市町村により異なるため公式ページで確認',
+    description: '宮崎県が市町村と連携し、木造住宅の耐震診断、耐震改修設計・工事、除却・建替え等を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>宮崎県の木造住宅耐震化支援制度は、南海トラフ地震等に備え、昭和56年以前の木造住宅を対象に市町村と連携して耐震化を支援する制度です。</p>'
+      },
+      {
+        heading: '対象メニュー',
+        content: '<p>耐震診断事業、耐震改修設計と耐震改修工事をパッケージで支援する総合支援事業、耐震性のない住宅の除却や建替えを支援する安全住宅住替え事業などがあります。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>補助額や受付期間は市町村により異なります。公式ページでは事業主体が市町村であること、対象住宅や対象メニュー、代理受領制度などが案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.miyazaki.lg.jp/kenchikujutaku/kurashi/shakaikiban/joseiseido.html',
+    sourceName: '宮崎県 木造住宅耐震化の支援制度についてのお知らせ',
+    sourceUrls: [
+      'https://www.pref.miyazaki.lg.jp/kenchikujutaku/kurashi/shakaikiban/joseiseido.html'
+    ],
+    sourceNote: '宮崎県公式ページで、昭和56年以前の木造住宅を対象に、市町村と連携して耐震診断、総合支援事業、安全住宅住替え事業を助成していることを確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kagoshima-city-safe-housing-stock-2026',
+    title: '鹿児島市 安全安心住宅ストック支援事業',
+    organization: '鹿児島市',
+    type: 'local',
+    maxAmount: '最大115万円',
+    maxAmountNum: 115,
+    category: 'housing',
+    prefecture: '鹿児島県',
+    tags: ['鹿児島県', '鹿児島市', '耐震改修', '住宅リフォーム', '空き家'],
+    eligibility: '鹿児島市内の戸建住宅で、耐震診断、耐震改修、耐震シェルター等設置、空家活用・移住型リフォームなどの要件を満たす住宅が対象です。',
+    targetOccupation: '鹿児島市内の住宅所有者・移住者・空家活用者等',
+    applicationPeriod: '令和8年5月7日から令和8年12月9日まで。予算到達時は受付終了',
+    deadlineDate: '2026-12-09',
+    description: '鹿児島市が、住宅の耐震化、耐震シェルター等設置、空家活用者・移住者向けリフォームを支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>鹿児島市安全安心住宅ストック支援事業は、既存住宅の安全性を確保し、良質な住宅ストックの形成を図るため、住宅の耐震診断、耐震改修工事、耐震シェルター等設置、リフォーム費用の一部を支援する制度です。</p>'
+      },
+      {
+        heading: '対象メニュー',
+        content: '<p>耐震型では耐震診断、耐震改修工事、耐震シェルター等設置、耐震改修等とあわせて行うリフォームが対象です。空家活用・移住型では、空家活用者や移住者が行うリフォームも対象です。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>耐震改修工事は補助率2分の1、限度額115万円です。耐震診断は上限10万円、耐震シェルター等設置は上限25万円、リフォームは区分により20万円から60万円が限度額です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.kagoshima.lg.jp/kensetu/kenchiku/kenshido/stock.html',
+    sourceName: '鹿児島市 安全安心住宅ストック支援事業',
+    sourceUrls: [
+      'https://www.city.kagoshima.lg.jp/kensetu/kenchiku/kenshido/stock.html'
+    ],
+    sourceNote: '鹿児島市公式ページで令和8年度受付中、安全安心住宅ストック支援事業、耐震改修上限115万円、受付期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'okinawa-housing-development-magnetic-survey-2026',
+    title: '沖縄県 住宅等開発磁気探査支援事業',
+    organization: '沖縄県',
+    type: 'local',
+    maxAmount: '探査費を補助',
+    maxAmountNum: 0,
+    category: 'housing',
+    prefecture: '沖縄県',
+    tags: ['沖縄県', '住宅新築', '建替え', '不発弾探査', '安全対策'],
+    eligibility: '沖縄県内で住宅の新築・建替え等の工事を予定し、住宅等開発磁気探査支援事業の要件を満たす個人・民間事業主等が対象です。',
+    targetOccupation: '沖縄県内で住宅等の建築工事を行う個人・民間事業主等',
+    applicationPeriod: '随時受付。年間を通して受付',
+    description: '沖縄県が、住宅の新築・建替えなど工事を行う際の不発弾探査費を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>住宅等開発磁気探査支援事業は、沖縄県内で住宅の新築・建替え、学校、福祉施設、事業所、店舗、工場、土地造成などの工事を行う際、不発弾探査費を支援する制度です。</p>'
+      },
+      {
+        heading: '対象工事',
+        content: '<p>住宅の新築・建替えを含む建築工事や土地造成等が対象です。面積による制限はなく、工事予定地の市町村窓口または沖縄県電子申請サービスで申請予定票を提出します。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>個人・民間事業主等からの申請に基づき、住宅等の工事を行う際の不発弾探査費が補助されます。必要書類や対象範囲は公式ページの要綱・要領で確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.okinawa.lg.jp/bosaianzen/fuhatsudan/1021697.html',
+    sourceName: '沖縄県 住宅等開発磁気探査支援事業',
+    sourceUrls: [
+      'https://www.pref.okinawa.lg.jp/bosaianzen/fuhatsudan/1021697.html'
+    ],
+    sourceNote: '沖縄県公式ページで住宅等開発磁気探査支援事業、住宅の新築・建替え等に伴う不発弾探査費補助、随時受付を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
