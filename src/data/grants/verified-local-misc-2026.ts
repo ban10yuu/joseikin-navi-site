@@ -3872,4 +3872,190 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'yamagata-private-high-school-scholarship-benefit',
+    title: '山形県 私立高等学校就学支援金制度',
+    organization: '山形県',
+    type: 'local',
+    maxAmount: '授業料を所得区分に応じて支援',
+    maxAmountNum: 0,
+    category: 'education',
+    prefecture: '山形県',
+    tags: ['山形県', '私立高校', '就学支援金', '授業料支援'],
+    eligibility: '山形県内の私立高等学校等に在学し、就学支援金の受給資格を満たす生徒の保護者等が対象です。',
+    targetOccupation: '私立高校生等がいる世帯',
+    applicationPeriod: '原則入学時4月に申請。入学時以外も随時申請可能',
+    description: '山形県が、私立高等学校等に在学する生徒の授業料負担を軽減するため、国の高等学校等就学支援金制度等を案内する制度ページです。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>山形県私立高等学校就学支援金制度は、私立高等学校等に在学する生徒の授業料負担を軽減するための支援制度です。山形県内の私立高校では原則オンライン申請が案内されています。</p>'
+      },
+      {
+        heading: '申請手続き',
+        content: '<p>就学支援金を受給するためには申請が必要です。原則として入学時の4月に申請し、入学時以外でも随時申請を希望する場合は学校の事務室へ連絡するよう案内されています。</p>'
+      },
+      {
+        heading: '県独自支援',
+        content: '<p>山形県独自の授業料軽減補助制度は別途手続きが必要で、学校の指示に従うよう公式ページで案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.yamagata.jp/020023/syuugakusienkin.html',
+    sourceName: '山形県 私立高等学校就学支援金制度',
+    sourceUrls: [
+      'https://www.pref.yamagata.jp/020023/syuugakusienkin.html'
+    ],
+    sourceNote: '山形県公式ページで私立高等学校就学支援金制度、原則入学時4月の申請、随時申請、県独自授業料軽減補助の案内を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kanagawa-private-school-tuition-subsidy-2026',
+    title: '神奈川県 私立高等学校等生徒学費補助金（令和8年度）',
+    organization: '神奈川県',
+    type: 'local',
+    maxAmount: '授業料等を所得区分に応じて補助',
+    maxAmountNum: 0,
+    category: 'education',
+    prefecture: '神奈川県',
+    tags: ['神奈川県', '私立高校', '学費補助', '授業料補助'],
+    eligibility: '神奈川県内在住で、県内外の私立高等学校等に在学する生徒の保護者等が対象です。所得要件や学校種等の条件があります。',
+    targetOccupation: '私立高校生等がいる世帯',
+    applicationPeriod: '令和8年度の申請受付・学校案内に従って申請',
+    description: '神奈川県が、私立高等学校等に通う生徒の保護者負担を軽減するため、授業料等を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>神奈川県私立高等学校等生徒学費補助金は、私立高等学校等に在学する生徒のいる世帯を対象に、授業料等の学費負担を軽減するための補助制度です。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>神奈川県内に在住し、私立高等学校、中等教育学校後期課程、専修学校高等課程等に在学する生徒の保護者等が対象です。補助額は所得や学校種により異なります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請は原則として在学する学校を通じて行います。令和8年度の制度内容、申請書類、提出期限は神奈川県公式ページと学校からの案内で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.kanagawa.jp/docs/v3e/jyosei/gakuhisien/index.html',
+    sourceName: '神奈川県 私立高等学校等生徒学費補助金',
+    sourceUrls: [
+      'https://www.pref.kanagawa.jp/docs/v3e/jyosei/gakuhisien/index.html'
+    ],
+    sourceNote: '神奈川県公式ページで私立高等学校等生徒学費補助金、対象者、申請方法、令和8年度案内を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'osaka-private-high-school-scholarship-benefit-2026',
+    title: '大阪府 私立高校生等奨学給付金（令和8年度）',
+    organization: '大阪府',
+    type: 'local',
+    maxAmount: '年15万2,000円',
+    maxAmountNum: 15,
+    category: 'education',
+    prefecture: '大阪府',
+    tags: ['大阪府', '私立高校', '奨学給付金', '返済不要'],
+    eligibility: '大阪府内に保護者等が在住し、私立高等学校等に在学する高校生等がいる生活保護受給世帯または非課税世帯等が対象です。',
+    targetOccupation: '私立高校生等がいる低所得世帯',
+    applicationPeriod: '令和8年度申請は在学する学校または大阪府の案内に従って手続き',
+    description: '大阪府が、私立高校生等の授業料以外の教育費負担を軽減するために支給する返済不要の奨学給付金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>大阪府私立高校生等奨学給付金は、低所得世帯の私立高校生等を対象に、授業料以外の教育費を支援する返済不要の給付金です。</p>'
+      },
+      {
+        heading: '対象世帯',
+        content: '<p>生活保護受給世帯、道府県民税所得割額および市町村民税所得割額が非課税の世帯などが対象です。保護者等が大阪府内に住所を有することなどの要件があります。</p>'
+      },
+      {
+        heading: '給付額',
+        content: '<p>世帯区分や課程により支給額が異なります。私立の全日制・定時制の非課税世帯では、年15万2,000円が支給額として案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/syougaku_kyuuhu.html',
+    sourceName: '大阪府 私立高校生等奨学給付金',
+    sourceUrls: [
+      'https://www.pref.osaka.lg.jp/o180160/shigaku/shigakumushouka/syougaku_kyuuhu.html'
+    ],
+    sourceNote: '大阪府公式ページで私立高校生等奨学給付金、返済不要、対象世帯、給付額を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'hyogo-private-high-school-scholarship-benefit-2026',
+    title: '兵庫県 私立高校生等奨学給付金（令和8年度）',
+    organization: '兵庫県',
+    type: 'local',
+    maxAmount: '年15万2,000円',
+    maxAmountNum: 15,
+    category: 'education',
+    prefecture: '兵庫県',
+    tags: ['兵庫県', '私立高校', '奨学給付金', '返済不要'],
+    eligibility: '保護者等が兵庫県内に住所を有し、私立高等学校等に在学する高校生等がいる生活保護受給世帯または非課税世帯等が対象です。',
+    targetOccupation: '私立高校生等がいる低所得世帯',
+    applicationPeriod: '令和8年度の申請受付・提出期限は公式ページで確認',
+    description: '兵庫県が、私立高校生等の授業料以外の教育費を支援するため、低所得世帯等へ返済不要で支給する給付金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>兵庫県私立高校生等奨学給付金は、低所得世帯等に対し、私立高等学校等に在学する高校生等の授業料以外の教育費負担を軽減するために支給される返済不要の給付金です。</p>'
+      },
+      {
+        heading: '対象世帯',
+        content: '<p>生活保護受給世帯、県民税所得割額および市町民税所得割額が非課税の世帯などが対象です。保護者等が兵庫県内に住所を有することなどの条件があります。</p>'
+      },
+      {
+        heading: '給付額',
+        content: '<p>令和8年度の給付額は世帯区分や学校種で異なります。私立全日制・定時制の非課税世帯では年15万2,000円が案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://web.pref.hyogo.lg.jp/kk35/r8syogakukyuhukin1.html',
+    sourceName: '兵庫県 私立高校生等奨学給付金',
+    sourceUrls: [
+      'https://web.pref.hyogo.lg.jp/kk35/r8syogakukyuhukin1.html'
+    ],
+    sourceNote: '兵庫県公式ページで令和8年度私立高校生等奨学給付金、返済不要、対象世帯、給付額を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'nagasaki-scholarship-repayment-assist-2026',
+    title: '長崎県 産業人材育成奨学金返済アシスト事業',
+    organization: '長崎県',
+    type: 'local',
+    maxAmount: '最大150万円',
+    maxAmountNum: 150,
+    category: 'education',
+    prefecture: '長崎県',
+    tags: ['長崎県', '奨学金返還支援', '県内就職', '産業人材'],
+    eligibility: '大学・大学院・短大・高専・専修学校等に在籍する学生または既卒者で、長崎県内対象業種への就職を希望する人が対象です。',
+    targetOccupation: '長崎県内対象業種へ就職予定の学生・既卒者',
+    applicationPeriod: '2026年4月1日から2027年2月26日まで',
+    deadlineDate: '2027-02-26',
+    description: '長崎県内産業を担う人材の確保と県内定着を目的に、対象業種へ就職する若者の奨学金返済を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>長崎県産業人材育成奨学金返済アシスト事業は、県内産業を支える人材の確保と定着を目的に、対象業種へ就職する若者の奨学金返済を支援する制度です。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>大学、大学院、短大、高等専門学校、専修学校等に在籍する学生や既卒者で、長崎県内の対象業種に就職する意思がある人が対象です。日本学生支援機構などの奨学金を利用していることが要件になります。</p>'
+      },
+      {
+        heading: '支援内容',
+        content: '<p>奨学金返済額の一部を支援し、最大150万円まで支援されます。令和8年度募集は2026年4月1日から2027年2月26日までです。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.nagasaki.jp/bunrui/shigoto-sangyo/koyo-rodo/shushokushien/assist/kouhosya/44991.html',
+    sourceName: '長崎県 産業人材育成奨学金返済アシスト事業',
+    sourceUrls: [
+      'https://www.pref.nagasaki.jp/bunrui/shigoto-sangyo/koyo-rodo/shushokushien/assist/kouhosya/44991.html'
+    ],
+    sourceNote: '長崎県公式ページで令和8年度募集、申請期間2026年4月1日から2027年2月26日、対象者、県内対象業種への就職、最大150万円の支援を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
