@@ -3536,4 +3536,153 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'kochi-scholarship-repayment-support',
+    title: '高知県 こうち奨学金返還支援事業',
+    organization: '高知県',
+    type: 'local',
+    maxAmount: '最大180万円',
+    maxAmountNum: 180,
+    category: 'education',
+    prefecture: '高知県',
+    tags: ['高知県', '奨学金返還支援', '県内就職', '登録企業'],
+    eligibility: '大学等を卒業予定の学生、または支援対象者事前登録時点で高知県外に居住する35歳以下の既卒者で、登録企業等へ正規雇用で就職し県内居住を希望する人が対象です。',
+    targetOccupation: '高知県内登録企業等へ就職予定の学生・既卒者',
+    applicationPeriod: '支援対象者の事前登録・登録企業の各種募集情報は公式ページで確認',
+    description: '高知県内企業等への就職と定着を促進するため、県と企業等が協働して奨学金返還額の一部を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>こうち奨学金返還支援事業は、若者の県内企業等への就職と定着を促進し、将来の高知県産業を担う人材を支援するため、企業等とともに奨学金返還を支援する制度です。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>大学、大学院、短大、高等専門学校、専修学校専門課程を卒業予定の学生、または高知県外に居住する35歳以下の既卒者が対象です。登録企業等へ正規雇用で就職し、就職後6年間の就業と県内居住を希望することが要件です。</p>'
+      },
+      {
+        heading: '支援内容',
+        content: '<p>前年度の奨学金返還実績額の3分の2、または学校種別ごとの年間支援限度額のいずれか低い額を支援します。大学院・6年制大学は年30万円、6年間で最大180万円が上限です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.kochi.lg.jp/doc/2024031400644/',
+    sourceName: '高知県 こうち奨学金返還支援事業',
+    sourceUrls: [
+      'https://www.pref.kochi.lg.jp/doc/2024031400644/'
+    ],
+    sourceNote: '高知県公式ページで制度趣旨、支援対象者、対象奨学金、支援額、最大6年間、大学院・6年制大学最大180万円を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'fukuoka-high-school-scholarship-benefit',
+    title: '福岡県 高校生等奨学給付金',
+    organization: '福岡県',
+    type: 'local',
+    maxAmount: '年14万3,700円',
+    maxAmountNum: 14,
+    category: 'education',
+    prefecture: '福岡県',
+    tags: ['福岡県', '高校生等奨学給付金', '返済不要', '非課税世帯'],
+    eligibility: '保護者が福岡県内に住所を有し、高校生等が高等学校等に在学する生活保護受給世帯または非課税世帯等が対象です。家計急変世帯も対象となる場合があります。',
+    targetOccupation: '高校生等がいる低所得世帯',
+    applicationPeriod: '通常分は学校からの案内に従って申請。家計急変分は随時受付',
+    description: '福岡県が、非課税世帯等の高校生等を対象に、授業料以外の教育費を支援する返済不要の給付金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>福岡県高校生等奨学給付金は、全ての高校生等が安心して教育を受けられるよう、非課税世帯等を対象に授業料以外の教育費を支援する返済不要の給付金です。</p>'
+      },
+      {
+        heading: '対象世帯',
+        content: '<p>生活保護の生業扶助受給世帯、道府県民税所得割額および市町村民税所得割額が非課税の世帯、家計急変により非課税相当となる世帯などが対象です。保護者が福岡県内に住所を有することも要件です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>令和7年度の国公立全日制・定時制課程では、非課税世帯に年14万3,700円が支給されます。通信制課程や専攻科、生活保護世帯では別の支給額が設定されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.fukuoka.lg.jp/site/kyouiku/syougakukyuuhukin.html',
+    sourceName: '福岡県 高校生等奨学給付金制度',
+    sourceUrls: [
+      'https://www.pref.fukuoka.lg.jp/site/kyouiku/syougakukyuuhukin.html'
+    ],
+    sourceNote: '福岡県教育委員会公式ページで制度概要、返済不要、対象世帯、支給額、家計急変分の随時受付を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'saga-high-school-scholarship-benefit',
+    title: '佐賀県 高校生等奨学給付金',
+    organization: '佐賀県',
+    type: 'local',
+    maxAmount: '年15万2,000円',
+    maxAmountNum: 15,
+    category: 'education',
+    prefecture: '佐賀県',
+    tags: ['佐賀県', '高校生等奨学給付金', '返還不要', '非課税世帯'],
+    eligibility: '保護者等が佐賀県内に住所を有し、高校生等が高等学校就学支援金を受ける資格を有する非課税世帯等が対象です。家計急変世帯も対象となる場合があります。',
+    targetOccupation: '高校生等がいる低所得世帯',
+    applicationPeriod: '令和8年度は制度改正予定。確定後に公式ページで案内',
+    description: '佐賀県が、高校生等の授業料以外の教育費負担を軽減するため、非課税世帯等へ返還不要の奨学給付金を支給する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>佐賀県高校生等奨学給付金は、教科書費、教材費、学用品費、通学用品費、修学旅行費など、授業料以外の教育費負担を軽減するための返還不要の給付金です。</p>'
+      },
+      {
+        heading: '対象世帯',
+        content: '<p>通常支給は7月1日時点で、保護者等が佐賀県内に住所を有し、県民税・市町村民税所得割額が非課税の世帯などが対象です。新入生の前倒し支給や家計急変世帯への支給も案内されています。</p>'
+      },
+      {
+        heading: '給付額',
+        content: '<p>令和7年度の年額は、非課税世帯の全日制・定時制で国公立14万3,700円、私立15万2,000円です。通信制や専攻科、生活保護世帯では別の給付額が設定されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.saga.lg.jp/kyouiku/kiji00332377/index.html',
+    sourceName: '佐賀県 高校生等奨学給付金のご案内',
+    sourceUrls: [
+      'https://www.pref.saga.lg.jp/kyouiku/kiji00332377/index.html'
+    ],
+    sourceNote: '佐賀県教育委員会公式ページで返還不要、対象世帯、令和7年度給付額、令和8年度制度改正予定を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'nagasaki-pharmacist-scholarship-repayment',
+    title: '長崎県 薬剤師奨学金返還支援制度',
+    organization: '長崎県',
+    type: 'local',
+    maxAmount: '最大180万円',
+    maxAmountNum: 180,
+    category: 'education',
+    prefecture: '長崎県',
+    tags: ['長崎県', '奨学金返還支援', '薬剤師', '病院薬剤師'],
+    eligibility: '薬学5年生・6年生、大学院生または既卒者で、長崎県内の対象病院に就業を希望する人または既に就職している人が対象です。令和8年度募集は終了しています。',
+    targetOccupation: '長崎県内対象病院で働く薬学生・薬剤師',
+    applicationPeriod: '令和8年度支援対象者募集は2026年1月20日から2026年3月31日まで',
+    deadlineDate: '2026-03-31',
+    description: '長崎県内の対象病院に就職し一定期間勤務する薬剤師を対象に、奨学金返還額の一部を補助する制度です。令和8年度募集は終了しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>長崎県薬剤師奨学金返還支援制度は、県内の対象病院に就職し一定期間勤務する薬剤師に対し、奨学金返還額の一部を補助することで、県内への薬剤師の就職促進と定着を図る制度です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>交付対象期間中に支払った奨学金返還額が対象で、年額上限は36万円、総額上限は180万円です。支援期間は最大5年間です。</p>'
+      },
+      {
+        heading: '募集状況',
+        content: '<p>令和8年度支援対象者の申請期間は2026年1月20日から3月31日までで、募集人数は5人と案内されています。現在は受付終了済みの公式確認済み履歴として扱います。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.nagasaki.jp/doc/page-770013.html',
+    sourceName: '長崎県 薬剤師奨学金返還支援制度',
+    sourceUrls: [
+      'https://www.pref.nagasaki.jp/doc/page-770013.html'
+    ],
+    sourceNote: '長崎県公式ページで令和8年度募集期間、対象者、補助額年36万円・総額180万円、募集人数5人を確認。期限到来済みのため期限切れとして登録。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
