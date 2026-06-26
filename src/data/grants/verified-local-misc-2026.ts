@@ -16961,4 +16961,33 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'kochi-city-seismic-diagnosis',
+    title: '高知市 住宅耐震改修費等補助金交付事業',
+    organization: '高知市',
+    type: 'local',
+    maxAmount: '耐震改修工事 最大125万円',
+    maxAmountNum: 125,
+    category: 'disaster',
+    relatedCategories: ['housing', 'living'],
+    prefecture: '高知県',
+    tags: ['高知市', '高知県', '住宅耐震', '耐震改修', '令和8年度'],
+    eligibility: '高知市内の昭和56年5月31日以前に建築された住宅で、木造住宅は高知市木造住宅耐震診断により上部構造評点1.0未満と診断され、改修後に1.0以上または県が定める基準以上となるなど、公式要件を満たす住宅が対象です。',
+    applicationPeriod: '令和8年度受付は2026年4月1日から',
+    description: '高知市が、旧耐震基準の住宅について耐震改修設計と耐震改修工事の費用の一部を補助する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>高知市住宅耐震改修費等補助金交付事業は、地震に強い安全なまちづくりを進めるため、一定の要件を満たす住宅の耐震改修設計と耐震改修工事を支援する制度です。既存の生成データでは住宅耐震診断助成事業としていましたが、公式ページで令和8年度の補助内容が確認できる耐震改修費等補助へ修正しています。</p>' },
+      { heading: '補助内容', content: '<p>令和8年度から、木造住宅の耐震改修工事費は1棟あたり工事費の8割、上限125万円です。法人の場合は上限100万円です。耐震改修設計費は木造住宅で1棟あたり20万5,000円まで、共同住宅・長屋で4戸以上の場合は41万円までと案内されています。</p>' },
+      { heading: '申請の注意点', content: '<p>木造住宅は原則として高知市木造住宅耐震診断を受け、上部構造評点が1.0未満と診断されることが前提です。令和8年度から制度内容や様式、書類提出のタイミングが変更されているため、申請前に高知市の令和8年度マニュアルとパンフレットを確認してください。</p>' }
+    ],
+    officialUrl: 'https://www.city.kochi.kochi.jp/soshiki/58/whtaishinkaisyu2905.html',
+    sourceName: '高知市 住宅耐震改修費等補助金交付事業',
+    sourceUrls: [
+      'https://www.city.kochi.kochi.jp/soshiki/58/whtaishinkaisyu2905.html',
+      'https://www.city.kochi.kochi.jp/uploaded/attachment/174452.pdf'
+    ],
+    sourceNote: '高知市公式ページで、2026年3月26日更新、令和8年度受付は4月1日から、対象住宅、木造住宅の要件、耐震改修設計費20万5,000円まで、耐震改修工事費は工事費の8割で上限125万円、法人上限100万円を確認。令和8年度版申請マニュアルPDFも確認。旧生成データの耐震診断全額補助から現行の耐震改修費等補助へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
