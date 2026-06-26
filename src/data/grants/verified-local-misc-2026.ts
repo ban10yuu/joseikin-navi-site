@@ -6760,4 +6760,300 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'gifu-senior-home-improvement-support',
+    title: '岐阜市 高齢者住宅改善促進助成制度',
+    organization: '岐阜市',
+    type: 'local',
+    maxAmount: '最大70万円',
+    maxAmountNum: 70,
+    category: 'nursing',
+    prefecture: '岐阜県',
+    tags: ['岐阜市', '高齢者', '住宅改善', 'バリアフリー', '非課税世帯'],
+    eligibility: '岐阜市に1年以上居住し、市民税非課税世帯で、介護保険の要介護1から5に認定された在宅高齢者などが対象です。',
+    targetOccupation: '岐阜市内の要介護認定を受けた高齢者世帯',
+    applicationPeriod: '工事着工前に地域包括支援センターへ相談して申請',
+    description: '岐阜市が、在宅の高齢者や重度身体障害者の住環境を整え、介護する家族の負担を軽減するため、住宅改善費を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>高齢者住宅改善促進助成制度は、在宅の高齢者などに住みよい住環境を提供し、介護する家族の負担を軽減するための住宅改善に必要な費用を助成する制度です。</p>'
+      },
+      {
+        heading: '対象工事',
+        content: '<p>寝室、浴室、台所、階段、便所、洗面所、玄関、廊下などの設備構造の改善工事、階段昇降機の取り付け、屋外工事などが対象です。新築工事や老朽化に伴う補修、身体状況の改善に関係しない工事は対象外です。</p>'
+      },
+      {
+        heading: '助成額',
+        content: '<p>助成限度額は70万円です。介護保険の住宅改修費が支給される場合は、居宅介護住宅改修費の利用可能額を控除して助成額を算定します。申請書類は必ず工事着工前に提出します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.gifu.lg.jp/kenko/kaigo/1004813/1004824.html',
+    sourceName: '岐阜市 高齢者住宅改善促進助成制度',
+    sourceUrls: [
+      'https://www.city.gifu.lg.jp/kenko/kaigo/1004813/1004824.html'
+    ],
+    sourceNote: '岐阜市公式ページで高齢者住宅改善促進助成制度、対象世帯、対象工事、助成限度額70万円、介護保険利用可能額控除、工事着工前申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'nagoya-care-home-renovation-support',
+    title: '名古屋市 介護保険住宅改修費支給',
+    organization: '名古屋市',
+    type: 'local',
+    maxAmount: '対象工事20万円まで（自己負担1〜3割）',
+    maxAmountNum: 20,
+    category: 'nursing',
+    prefecture: '愛知県',
+    tags: ['名古屋市', '介護保険', '住宅改修', 'バリアフリー', '高齢者'],
+    eligibility: '名古屋市で在宅の要介護・要支援認定を受け、現に居住する住宅で心身や住宅の状況から必要な改修を行う方が対象です。',
+    targetOccupation: '名古屋市内の要支援・要介護認定者',
+    applicationPeriod: '改修工事に着工する前に区役所または支所へ事前申請',
+    description: '名古屋市が、在宅の要介護・要支援者の生活環境を整えるため、手すり設置や床材変更など小規模な住宅改修費を支給する介護保険制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>住宅改修費の支給は、在宅の要介護・要支援者が現に居住する住宅で、手すりの取り付けや床を滑りにくい材料へ変更するなどの小規模改修を行った場合に費用の一部を支給する制度です。</p>'
+      },
+      {
+        heading: '支給内容',
+        content: '<p>利用限度額は要支援・要介護度に関係なく、居住する住居に対して要介護・要支援者1人あたり20万円です。負担割合に応じ、最大18万円、16万円、14万円が支給されます。</p>'
+      },
+      {
+        heading: '申請の注意点',
+        content: '<p>改修工事に着工する前に、区役所または支所への事前申請が必要です。事前申請後に承認通知が届いてから工事に着工し、完了後に支給申請を行います。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.nagoya.jp/kenkofukushi/koureisha/1016500/1011160/1034412.html',
+    sourceName: '名古屋市 住宅改修費の支給',
+    sourceUrls: [
+      'https://www.city.nagoya.jp/kenkofukushi/koureisha/1016500/1011160/1034412.html'
+    ],
+    sourceNote: '名古屋市公式ページで介護保険住宅改修費、利用限度額20万円、9割・8割・7割支給、事前申請と承認後着工を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'otsu-care-home-renovation-support',
+    title: '大津市 介護保険住宅改修',
+    organization: '大津市',
+    type: 'local',
+    maxAmount: '対象工事20万円まで（自己負担1〜3割）',
+    maxAmountNum: 20,
+    category: 'nursing',
+    prefecture: '滋賀県',
+    tags: ['大津市', '介護保険', '住宅改修', '介護予防', '高齢者'],
+    eligibility: '大津市で要介護・要支援認定を受け、自立支援または介護予防のために住宅改修工事が必要な方が対象です。',
+    targetOccupation: '大津市内の要支援・要介護認定者',
+    applicationPeriod: '原則として工事前に申請。ケアマネジャーまたはあんしん長寿相談所へ相談',
+    description: '大津市が、自立支援や介護予防のための住宅改修工事について、1人あたり20万円を上限に介護保険給付を行う制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>介護保険の住宅改修は、自立支援や介護予防のために必要な住宅改修工事を、負担割合に応じて1割、2割または3割の自己負担で行える制度です。</p>'
+      },
+      {
+        heading: '支給内容',
+        content: '<p>1人あたり20万円を上限として、負担割合に応じた保険給付を受けられます。転居した場合や要介護度が著しく高くなった場合は、再度支給を受けられる場合があります。</p>'
+      },
+      {
+        heading: '申請の注意点',
+        content: '<p>原則として、工事を行う前に申請が必要です。必ずケアマネジャーまたはあんしん長寿相談所へ相談してから手続きを進めます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.otsu.lg.jp/soshiki/020/1426/g/kaigo/todokede/21617.html',
+    sourceName: '大津市 介護保険 住宅改修／福祉用具貸与・購入',
+    sourceUrls: [
+      'https://www.city.otsu.lg.jp/soshiki/020/1426/g/kaigo/todokede/21617.html'
+    ],
+    sourceNote: '大津市公式ページで介護保険住宅改修、1人あたり20万円上限、1割・2割・3割自己負担、原則工事前申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kyoto-care-home-renovation-support',
+    title: '京都市 住宅改修費の支給（介護保険制度）',
+    organization: '京都市',
+    type: 'local',
+    maxAmount: '最大18万円',
+    maxAmountNum: 18,
+    category: 'nursing',
+    prefecture: '京都府',
+    tags: ['京都市', '介護保険', '住宅改修', 'バリアフリー', '高齢者'],
+    eligibility: '京都市で要支援・要介護認定を受けた方が住む住宅で、手すり設置や段差解消などの工事を行う場合が対象です。',
+    targetOccupation: '京都市内の要支援・要介護認定者',
+    applicationPeriod: '工事前に介護認定給付事務センター等へ相談・申請',
+    description: '京都市が、要支援・要介護認定者の住まいで手すり設置や段差解消などを行う場合に、介護保険から住宅改修費を支給する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>京都市の住宅改修費の支給は、要支援・要介護認定を受けた方の住まいで、手すり設置や段差解消などの工事を行う場合に介護保険から費用の一部を支給する制度です。</p>'
+      },
+      {
+        heading: '支給内容',
+        content: '<p>負担割合に応じて、費用の9割、8割または7割が介護保険から支給されます。支給上限は1割負担者18万円、2割負担者16万円、3割負担者14万円です。</p>'
+      },
+      {
+        heading: '関連する制度',
+        content: '<p>京都市の住宅助成一覧には、重度障害者住宅環境整備費助成や介護予防安心住まい推進事業も掲載されています。介護保険の住宅改修は、要支援・要介護認定者向けの制度として整理されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.kyoto.lg.jp/sogo/page/0000246819.html',
+    sourceName: '京都市 住宅に関する助成制度',
+    sourceUrls: [
+      'https://www.city.kyoto.lg.jp/sogo/page/0000246819.html'
+    ],
+    sourceNote: '京都市公式ページで住宅改修費の支給（介護保険制度）、要支援・要介護認定者、手すり設置・段差解消、9割・8割・7割支給、上限18万円・16万円・14万円を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'nara-care-home-renovation-support',
+    title: '奈良市 介護保険住宅改修費支給',
+    organization: '奈良市',
+    type: 'local',
+    maxAmount: '対象工事20万円まで（自己負担1〜3割）',
+    maxAmountNum: 20,
+    category: 'nursing',
+    prefecture: '奈良県',
+    tags: ['奈良市', '介護保険', '住宅改修', 'バリアフリー', '高齢者'],
+    eligibility: '奈良市で介護認定を受けた方が住宅改修を行う場合が対象です。',
+    targetOccupation: '奈良市内の要支援・要介護認定者',
+    applicationPeriod: '改修工事前と改修工事後にそれぞれ申請が必要',
+    description: '奈良市が、介護認定を受けた方の住宅改修について、負担割合に応じて費用の7割から9割を介護保険から支給する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>住宅改修費支給は、介護認定を受けた人が住宅改修をした場合、負担割合に応じて費用の7割から9割分を介護保険から支給する制度です。</p>'
+      },
+      {
+        heading: '支給内容',
+        content: '<p>介護度にかかわらず20万円が限度です。支給できるのは、負担割合に応じてその費用の7割から9割分です。</p>'
+      },
+      {
+        heading: '申請の流れ',
+        content: '<p>改修工事前と後で、それぞれ申請が必要です。事前申請では承認申請兼事前協議申請書、理由書、見積書、図面、着工前写真などを提出します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.nara.lg.jp/site/kaigohoken/8877.html',
+    sourceName: '奈良市 住宅改修の手続きについて',
+    sourceUrls: [
+      'https://www.city.nara.lg.jp/site/kaigohoken/8877.html'
+    ],
+    sourceNote: '奈良市公式ページで介護保険住宅改修費、20万円上限、7割から9割支給、工事前後の申請が必要であることを確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'wakayama-senior-home-renovation-support',
+    title: '和歌山市 高齢者住宅改造助成事業',
+    organization: '和歌山市',
+    type: 'local',
+    maxAmount: '最大60万円から介護保険適用分を除いた額',
+    maxAmountNum: 60,
+    category: 'nursing',
+    prefecture: '和歌山県',
+    tags: ['和歌山市', '高齢者', '住宅改造', 'バリアフリー', '非課税世帯'],
+    eligibility: '和歌山市内に居住する65歳以上で、要支援または要介護認定を受け、直近年度の市町村民税が非課税の世帯または生活保護世帯の方が対象です。',
+    targetOccupation: '和歌山市内の要支援・要介護認定を受けた高齢者世帯',
+    applicationPeriod: '工事着工前に地域包括支援センターへ申請依頼',
+    description: '和歌山市が、介護保険の住宅改修費支給制度を補完し、在宅高齢者が居住する住宅を改造するための費用を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>高齢者住宅改造助成事業は、介護保険の住宅改修費支給制度を補完し、在宅の高齢者が居住する住宅を改造するために必要な経費を助成する制度です。</p>'
+      },
+      {
+        heading: '対象工事',
+        content: '<p>トイレ、浴室、玄関、廊下、洗面所、台所などへの手すりやスロープの設置、障害物や段差の解消に伴う改造が対象です。</p>'
+      },
+      {
+        heading: '助成額',
+        content: '<p>60万円または助成対象事業の実支出額のいずれか低い額から、介護保険の住宅改修適用分である上限20万円を除いた額をもとに、世帯の課税状況に応じて助成します。生活保護世帯は10分の10、市民税非課税世帯は3分の2です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.wakayama.wakayama.jp/kurashi/kourei_kaigo/1001096/1006023.html',
+    sourceName: '和歌山市 高齢者住宅改造助成事業',
+    sourceUrls: [
+      'https://www.city.wakayama.wakayama.jp/kurashi/kourei_kaigo/1001096/1006023.html'
+    ],
+    sourceNote: '和歌山市公式ページで高齢者住宅改造助成事業、対象者、対象工事、60万円から介護保険適用分を除いた額、生活保護10分の10・市民税非課税3分の2、工事着工前申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'okayama-sukoyaka-home-reform-support',
+    title: '岡山市 すこやか住宅リフォーム助成事業',
+    organization: '岡山市',
+    type: 'local',
+    maxAmount: '最大70万円',
+    maxAmountNum: 70,
+    category: 'nursing',
+    prefecture: '岡山県',
+    tags: ['岡山市', '高齢者', '住宅リフォーム', 'バリアフリー', '介護'],
+    eligibility: '岡山市内に居住し、日常生活に介助を必要とする状態で、介護保険の要介護・要支援認定を受けている方などが対象です。',
+    targetOccupation: '岡山市内の要支援・要介護認定者など',
+    applicationPeriod: '着工前に管轄の福祉事務所または支所へ相談し、助成決定後に着工',
+    description: '岡山市が、身体機能の低下や障害により日常生活に介助が必要な高齢者等が自宅で暮らしやすくなるよう、住宅改造費の一部を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>すこやか住宅リフォーム助成事業は、高齢者や障害者が自宅で暮らしやすい生活ができるよう住宅を改造する場合に、その費用の一部を助成する制度です。</p>'
+      },
+      {
+        heading: '対象工事',
+        content: '<p>対象者が居住する住宅の浴室、洗面所、便所、玄関、廊下、階段、居室、台所、外部進入路などの改造で、自立の助長や介護者の負担軽減につながる工事が対象です。助成決定前に着手または完了している工事は対象外です。</p>'
+      },
+      {
+        heading: '助成額',
+        content: '<p>助成額は70万円を限度とします。介護保険の住宅改修費などを受けることができる場合は助成額から20万円を減額し、その場合は50万円が上限です。負担割合に応じて10分の7から10分の10で助成されます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.okayama.jp/kurashi/0000012387.html',
+    sourceName: '岡山市 すこやか住宅リフォーム助成事業について',
+    sourceUrls: [
+      'https://www.city.okayama.jp/kurashi/0000012387.html'
+    ],
+    sourceNote: '岡山市公式ページですこやか住宅リフォーム助成事業、対象者、対象工事、助成上限70万円、介護保険住宅改修費を受ける場合の上限50万円、着工前相談と助成決定後着工を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'yamaguchi-care-home-renovation-support',
+    title: '山口市 介護保険制度における住宅改修',
+    organization: '山口市',
+    type: 'local',
+    maxAmount: '対象工事20万円まで（自己負担1〜3割）',
+    maxAmountNum: 20,
+    category: 'nursing',
+    prefecture: '山口県',
+    tags: ['山口市', '介護保険', '住宅改修', 'バリアフリー', '高齢者'],
+    eligibility: '山口市で在宅の要介護・要支援認定を受けた方が、介護保険給付対象の住宅改修を行う場合が対象です。',
+    targetOccupation: '山口市内の要支援・要介護認定者',
+    applicationPeriod: '改修工事前に申請が必要。申請前に工事を行った場合は支給不可',
+    description: '山口市が、介護保険の認定を受けている方の住宅改修について、20万円を限度に改修費の7割から9割を支給する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>介護保険制度における住宅改修は、在宅の要介護・要支援認定者が対象の住宅改修を行った場合、20万円を限度に介護保険給付の対象とする制度です。</p>'
+      },
+      {
+        heading: '対象工事',
+        content: '<p>手すりの取り付け、段差の解消、滑り防止や移動円滑化のための床・通路面の材料変更、引き戸等への扉の取り替え、洋式便器等への便器の取り替え、これらに付帯して必要な工事が対象です。</p>'
+      },
+      {
+        heading: '支給内容と注意点',
+        content: '<p>20万円を限度に、申請により改修費の7割から9割を支給します。改修工事前に申請が必要で、申請より先に工事を行った場合は支給できません。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.yamaguchi.lg.jp/site/korei/3947.html',
+    sourceName: '山口市 介護保険制度における住宅改修について',
+    sourceUrls: [
+      'https://www.city.yamaguchi.lg.jp/site/korei/3947.html'
+    ],
+    sourceNote: '山口市公式ページで介護保険制度における住宅改修、在宅の要介護・要支援認定者、20万円上限、7割から9割支給、工事前申請が必要であることを確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
