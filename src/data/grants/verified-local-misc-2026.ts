@@ -17459,4 +17459,34 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'matsuyama-energy-support',
+    title: '松山市 ゼロカーボンシティ推進補助金',
+    organization: '松山市',
+    type: 'local',
+    maxAmount: '最大30万円',
+    maxAmountNum: 30,
+    category: 'living',
+    relatedCategories: ['housing', 'disaster'],
+    prefecture: '愛媛県',
+    tags: ['松山市', '愛媛県', 'ゼロカーボンシティ', '蓄電池', 'エコキュート', 'EV', '令和8年度'],
+    eligibility: '松山市内に居住する個人など、補助対象物ごとの要件を満たす方が対象です。交付決定前に設置・購入・車両登録したものは対象外です。',
+    applicationPeriod: '2026年4月22日から2027年1月29日まで。予算に達した場合は終了',
+    deadlineDate: '2027-01-29',
+    description: '松山市が、ゼロカーボンシティの実現に向けて、家庭用燃料電池、住宅用蓄電池、家庭用エコキュート、EV・FCVの導入を支援する補助金です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>松山市ゼロカーボンシティ推進補助金は、家庭での脱炭素化を進めるため、家庭用燃料電池システム、住宅用蓄電池システム、家庭用エコキュート、電気自動車や燃料電池自動車の導入を支援する制度です。既存の生成データでは省エネ家電買替促進補助金としていましたが、公式ページで確認できる令和8年度の現行制度へ修正しています。</p>' },
+      { heading: '補助内容', content: '<p>補助額は、家庭用燃料電池システムが上限6万円、住宅用蓄電池システムが上限10万円、家庭用エコキュートが上限3万円です。電気自動車は単独で定額10万円、太陽光発電設備を導入済みの場合の太陽光加算10万円、太陽光発電設備とV2Hを導入済みまたは実績報告までに導入する場合のV2H加算10万円があり、条件を満たすと最大30万円となります。燃料電池自動車は定額10万円です。</p>' },
+      { heading: '申請の注意点', content: '<p>受付期間は2026年4月22日から2027年1月29日までです。申請期間中でも、補助対象物ごとの予算上限に達した場合は受付終了となります。交付決定前に補助対象物を設置・購入・車両登録した場合は補助対象外です。</p>' }
+    ],
+    officialUrl: 'https://www.city.matsuyama.ehime.jp/kurashi/kurashi/hojokin/zero-carbon.html',
+    sourceName: '松山市 ゼロカーボンシティ推進補助金',
+    sourceUrls: [
+      'https://www.city.matsuyama.ehime.jp/kurashi/kurashi/hojokin/zero-carbon.html',
+      'https://www.city.matsuyama.ehime.jp/kurashi/kurashi/hojokin/jutentaisaku.html'
+    ],
+    sourceNote: '松山市公式ページで、2026年6月4日更新、申請期間2026年4月22日から2027年1月29日、家庭用燃料電池システム上限6万円、住宅用蓄電池システム上限10万円、家庭用エコキュート上限3万円、EV単独10万円・太陽光加算10万円・V2H加算10万円、FCV定額10万円、交付決定前の設置・購入・車両登録は対象外、予算到達時受付終了を確認。松山市脱炭素加速化補助金ページで太陽光発電設備及び蓄電池同時設置、ZEH支援も関連制度として確認。旧生成データの省エネ家電買替促進補助金から現行制度へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
