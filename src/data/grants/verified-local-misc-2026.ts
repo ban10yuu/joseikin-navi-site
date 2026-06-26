@@ -519,4 +519,226 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'okayama-migration-support',
+    title: '岡山県 移住支援金制度',
+    organization: '岡山県・県内市町村',
+    type: 'local',
+    maxAmount: '世帯最大100万円・単身最大60万円、18歳未満加算あり',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '岡山県',
+    tags: ['岡山県', '移住支援', '東京圏', '市町村申請'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた方が、岡山県内の対象市町村へ移住し、就業・起業・テレワーク等の要件を満たす場合に対象です。',
+    applicationPeriod: '移住先市町村の受付期間に従う。就業等の要件により申請期限が異なるため市町村へ確認',
+    description: '岡山県への移住を支援する移住支援金制度です。東京圏から岡山県内の対象市町村に移住し、就業・起業・テレワーク等の要件を満たす方に、市町村を通じて支援金を支給します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>岡山県の移住支援金制度は、東京圏から岡山県内の対象市町村へ移住する方を支援する制度です。就業、起業、テレワーク、関係人口など、どの要件で申請できるかは市町村の案内で確認します。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>県の移住情報サイトでは、単身での移住は最大60万円、2人以上の世帯での移住は最大100万円と案内されています。18歳未満の世帯員を帯同して移住する場合は、18歳未満の方1人につき最大100万円が加算される場合があります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請先は移住先の市町村です。対象求人、テレワーク要件、起業支援金、関係人口要件、申請期限、予算状況は市町村ごとに異なるため、移住前に窓口へ確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.okayama-iju.jp/info/post-148.html',
+    sourceName: 'おかやま晴れの国ぐらし 令和8年度移住支援金制度について',
+    sourceUrls: [
+      'https://www.okayama-iju.jp/info/post-148.html',
+      'https://okayama-life.jp/work/subvention'
+    ],
+    sourceNote: '岡山県の公式移住ポータルで令和8年度制度、世帯・単身支給額、18歳未満加算、市町村申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'hiroshima-migration-support',
+    title: '広島県 移住支援金',
+    organization: '広島県・県内市町',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、18歳未満1人につき100万円加算',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '広島県',
+    tags: ['広島県', '移住支援', '東京圏', '市町申請'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた方が、広島県内の移住支援金対象市町へ移住し、就職・テレワーク・起業・関係人口等の要件を満たす場合に対象です。',
+    applicationPeriod: '移住先市町の受付期間に従う。申請前に市町へ確認',
+    description: '東京圏から広島県内へ移住し、対象求人への就職、テレワーク、起業、関係人口等の要件を満たす方に、市町への申請に基づいて支給される移住支援金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>広島県の移住支援金は、東京圏から県内の対象市町へ移住し、就職・テレワーク・起業・関係人口などの要件を満たす方を支援する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>支給額は、単身者の場合60万円、2人以上の世帯の場合は1世帯につき100万円です。18歳未満の世帯員を帯同して移住する場合は、18歳未満の方1人につき100万円が加算されます。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>移住先市町へ申請します。移住等に関する要件に加え、就職、テレワーク、起業、関係人口のいずれかの要件を満たす必要があります。対象市町や受付状況は最新の県・市町案内を確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.hiroshima.lg.jp/soshiki/246/202304ijyushiennkinn.html',
+    sourceName: '広島県 令和8年度移住支援金制度',
+    sourceUrls: [
+      'https://www.pref.hiroshima.lg.jp/soshiki/246/202304ijyushiennkinn.html',
+      'https://www.hiroshima-hirobiro.jp/help/shisaku/'
+    ],
+    sourceNote: '広島県公式ページで令和8年度制度、支給額、18歳未満加算、対象要件、市町申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'yamaguchi-migration-support',
+    title: '山口県 移住就業支援金',
+    organization: '山口県・県内市町',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、18歳未満加算あり',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '山口県',
+    tags: ['山口県', '移住支援', '大都市圏', '市町申請'],
+    eligibility: '東京圏等の大都市圏から山口県内の市町へ移住し、就業・創業・テレワーク等の要件を満たす方が対象です。移住元の区分により支給額が異なります。',
+    applicationPeriod: '移住先市町の受付期間に従う。提出書類・期限は市町へ確認',
+    description: '大都市圏から山口県へ移住して就業等を行う方を支援する移住就業支援金です。旧生成データの「やまぐち移住支援金」を、山口県公式の現行制度として確認済みに置換しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>山口県移住就業支援金は、大都市圏から山口県内へ移住し、就業・創業・テレワーク等の要件を満たす方を支援する制度です。申請は移住先市町で行います。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>県公式ページでは、東京圏等の要件に該当する場合、2人以上の世帯で100万円、18歳未満の方1人につき100万円加算、単身で60万円と案内されています。別区分では世帯50万円、18歳未満加算50万円、単身30万円の場合があります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>提出書類は市町によって異なる場合があります。移住先市町の担当窓口で、対象要件、申請期限、就業・創業・テレワーク要件、必要書類を確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.yamaguchi.lg.jp/soshiki/86/21177.html',
+    sourceName: '山口県 大都市圏から山口へ 移住就業支援金',
+    sourceUrls: [
+      'https://www.pref.yamaguchi.lg.jp/soshiki/86/21177.html',
+      'https://ymg-uji.jp/lp/rodo/from-fukuoka.html'
+    ],
+    sourceNote: '山口県公式ページで支給額、18歳未満加算、支給区分、申請先市町、提出書類は市町により異なることを確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'tokushima-migration-support',
+    title: '徳島県 徳島わくわく移住支援事業',
+    organization: '徳島県・県内市町村',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、18歳未満加算あり',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '徳島県',
+    tags: ['徳島県', '移住支援', '東京圏', '市町村申請'],
+    eligibility: '東京圏から徳島県内へ移住し、就業・起業等の要件を満たす方が対象です。実施内容や加算額は移住先市町村により異なります。',
+    applicationPeriod: '移住先市町村の受付期間に従う。申請予定者は市町村窓口へ確認',
+    description: '徳島県が東京圏からのUIJターンや若者の移住促進、地方の担い手不足解消を目的に実施する移住支援事業です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>徳島わくわく移住支援事業は、東京圏から徳島県へ移住し、就業・起業等の要件を満たす方を支援する制度です。申請予定者は移住先の市町村連絡窓口へ確認します。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>県公式ページでは、単身の場合60万円、2人以上の世帯の場合100万円と案内されています。18歳未満の世帯員を帯同する場合は、1人につき最大100万円が加算されます。加算額は移住先市町村により異なります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>移住先市町村へ申請します。求人登録、就業・起業要件、対象市町村、予算状況は年度や市町村により変わるため、最新の公式案内を確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.tokushima.lg.jp/ippannokata/kurashi/chihososei/7304045/',
+    sourceName: '徳島県 徳島わくわく移住支援事業について',
+    sourceUrls: [
+      'https://www.pref.tokushima.lg.jp/ippannokata/kurashi/chihososei/7304045/',
+      'https://www.city.tokushima.tokushima.jp/shisei/machi_keikaku/townplanning/ijyu_sokushin/ijyu_sienkin.html'
+    ],
+    sourceNote: '徳島県公式ページで2026年4月1日掲載の支援額、18歳未満加算、市町村窓口確認を確認。徳島市公式ページで支給例と予算終了時の注意を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'fukuoka-migration-support',
+    title: '福岡県 移住支援金',
+    organization: '福岡県・県内市町村',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、子ども1人につき最大100万円加算',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '福岡県',
+    tags: ['福岡県', '移住支援', '三大都市圏', '市町村申請'],
+    eligibility: '三大都市圏等から福岡県内の対象市町村へ移住し、就業・起業・テレワーク等の要件を満たす方が対象です。申請先は移住先市町村です。',
+    applicationPeriod: '転入後1年以内が基本。市町村の受付期間・予算状況に従う',
+    description: '福岡県外から県内市町村へ移住し、就業・起業・テレワーク等の要件を満たす方を支援する移住支援金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>福岡県移住支援金は、三大都市圏等から福岡県内の対象市町村へ移住し、就業・起業・テレワーク等の要件を満たす方を支援する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>支給額は、単身での移住の場合60万円、世帯での移住の場合100万円です。18歳未満の子どもを帯同して移住する場合は、子ども1人につき最大100万円が加算されます。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請は移住先市町村で行います。世帯要件、子ども加算、対象求人、テレワークや起業の要件、予算状況は市町村に確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.fukuoka.lg.jp/contents/ijushienkin.html',
+    sourceName: '福岡県 移住支援金を活用して、福岡県で働きませんか？',
+    sourceUrls: [
+      'https://www.pref.fukuoka.lg.jp/contents/ijushienkin.html',
+      'https://www.city.munakata.lg.jp/live/kiji0032282/index.html'
+    ],
+    sourceNote: '福岡県公式ページで支給額、子ども加算、世帯要件、移住支援金交付の流れを確認。市町村ページで予算状況確認の注意を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'nagasaki-migration-support',
+    title: '長崎県 移住支援事業（移住支援金）',
+    organization: '長崎県・県内市町',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、子育て加算最大100万円',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '長崎県',
+    tags: ['長崎県', '移住支援', '東京圏', '市町申請'],
+    eligibility: '東京圏から長崎県内市町へ移住し、就業・創業・テレワーク・関係人口等の要件を満たす方が対象です。',
+    applicationPeriod: '移住した日から1年以内。就業・創業・テレワーク・関係人口の要件により確認事項あり',
+    description: '長崎県と県内市町が、東京圏からの移住促進と地域の雇用創出を目的に実施する移住支援金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>長崎県移住支援事業は、東京圏から長崎県内へ移住し、就業・創業・テレワーク・関係人口等の要件を満たす方を支援する制度です。申請は移住先市町の移住担当課へ行います。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>2人以上の世帯の場合は100万円、単身の場合は60万円です。18歳未満の世帯員を帯同して移住する場合は、1人につき最大100万円が加算されます。市町によっては子育て加算が30万円の場合があります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請書と必要書類を添えて、移住先市町の移住担当課に申請します。就業の場合、創業の場合、テレワークまたは関係人口の場合のいずれも、原則として移住した日から1年以内の申請が案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.nagasaki.jp/doc/page-391575.html',
+    sourceName: '長崎県 東京から長崎県へのUIターンを考えている方向けの補助金',
+    sourceUrls: [
+      'https://www.pref.nagasaki.jp/doc/page-391575.html',
+      'https://nagasaki-iju.jp/ijusienkin/'
+    ],
+    sourceNote: '長崎県公式ページと公式移住ナビで、移住支援金、世帯・単身支給額、子育て加算、申請期間、市町申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
