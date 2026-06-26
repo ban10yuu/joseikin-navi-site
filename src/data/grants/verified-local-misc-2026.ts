@@ -17190,4 +17190,34 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'tokushima-city-birth-bonus',
+    title: '徳島市 妊婦のための支援給付金事業',
+    organization: '徳島市',
+    type: 'local',
+    maxAmount: '単胎10万円・双子15万円',
+    maxAmountNum: 15,
+    category: 'childcare',
+    relatedCategories: ['medical', 'living'],
+    prefecture: '徳島県',
+    tags: ['徳島市', '徳島県', '妊婦支援給付金', '出産', '令和7年度以降'],
+    eligibility: '徳島市に住民票を有する妊婦および産婦等が対象です。妊娠期から出産・子育て期までの相談支援とあわせて実施されます。',
+    applicationPeriod: '1回目は原則妊娠届出日から5か月以内、2回目は原則出生児が5か月に達する日の前日まで',
+    description: '徳島市が、妊娠期から出産・子育て期までの切れ目ない相談支援と経済的負担軽減を目的に実施する妊婦支援給付金です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>徳島市妊婦のための支援給付金事業は、子ども・子育て支援法に基づき令和7年4月1日から始まった制度です。既存の生成データでは出産・子育て応援給付金としていましたが、公式ページで確認できる現行の妊婦支援給付金へ修正しています。</p>' },
+      { heading: '支給内容', content: '<p>国制度の妊婦のための支援給付では、妊娠に基づく1回目の給付が5万円、2回目の給付が胎児の数に5万円を掛けた額です。単胎の場合は合計10万円、双子の場合は合計15万円となります。</p>' },
+      { heading: '申請の注意点', content: '<p>徳島市公式ページでは、1回目支援給付金の申請締切は原則として妊娠届出日から5か月以内、2回目支援給付金の申請締切は原則として出生児が5か月に達する日の前日までと案内されています。窓口申請時は本人確認書類の提示が必要です。</p>' }
+    ],
+    officialUrl: 'https://www.city.tokushima.tokushima.jp/smph/kosodate/ninshin/ninshin_wa/kyuufukinn.html',
+    sourceName: '徳島市 妊婦のための支援給付金事業',
+    sourceUrls: [
+      'https://www.city.tokushima.tokushima.jp/smph/kosodate/ninshin/ninshin_wa/kyuufukinn.html',
+      'https://www.cfa.go.jp/policies/shussan-kosodate',
+      'https://www.cfa.go.jp/assets/contents/node/basic_page/field_ref_resources/be80930d-51d1-4084-aa3e-b80930646538/5f5881e1/20251014_policies_shussan-kosodate_84.pdf'
+    ],
+    sourceNote: '徳島市公式ページで、2026年5月29日更新、令和7年4月1日開始の妊婦のための支援給付金事業、対象者は徳島市に住民票を有する妊婦及び産婦等、1回目は原則妊娠届出日から5か月以内、2回目は原則出生児が5か月に達する日の前日まで、本人確認書類が必要なことを確認。こども家庭庁公式ページと自治体職員向けFAQで、妊娠に基づく給付5万円と胎児の数×5万円の給付を確認。旧生成データの出産・子育て応援給付金から現行制度へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
