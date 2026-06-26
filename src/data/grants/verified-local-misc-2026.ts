@@ -17161,4 +17161,33 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'matsuyama-birth-bonus',
+    title: '松山市 妊婦支援給付金',
+    organization: '松山市',
+    type: 'local',
+    maxAmount: '単胎10万円・双子15万円',
+    maxAmountNum: 15,
+    category: 'childcare',
+    relatedCategories: ['medical', 'living'],
+    prefecture: '愛媛県',
+    tags: ['松山市', '愛媛県', '妊婦支援給付金', '出産', '令和7年度以降'],
+    eligibility: '申請日時点で松山市民で、妊婦給付認定を受けた妊婦または産婦が対象です。他自治体で同じ妊娠に関して妊婦支援給付金等を受けている場合は支給できません。',
+    applicationPeriod: '令和7年4月1日以降の制度として案内中。妊娠届出時・赤ちゃん訪問時などに申請',
+    description: '松山市が、妊娠期からの相談支援とあわせて実施する妊婦支援給付金です。妊娠時に5万円、出産後等に胎児の数×5万円が支給されます。',
+    sections: [
+      { heading: '制度の概要', content: '<p>松山市妊婦支援給付金は、旧「松山市出産・子育て応援金」に代わる妊婦のための支援給付です。既存の生成データでは出産・子育て応援給付金としていましたが、公式ページで確認できる令和7年4月以降の現行制度へ修正しています。</p>' },
+      { heading: '支給内容', content: '<p>妊娠時の1回目は妊婦1人につき5万円、出産後等の2回目は胎児の数に5万円を掛けた額です。単胎の場合は合計10万円、双子の場合は1回目5万円と2回目10万円で合計15万円となります。令和7年4月1日以降に流産・死産された方も、妊娠時の給付と出産後等の給付の対象になると案内されています。</p>' },
+      { heading: '申請の注意点', content: '<p>妊娠届出時に妊婦等包括相談支援の面談を行い、妊婦支援給付金の申請手続きが案内されます。出産後等の給付は、こんにちは赤ちゃん訪問時などに案内されます。申請には本人確認や口座確認などの書類が必要です。</p>' }
+    ],
+    officialUrl: 'https://www.city.matsuyama.ehime.jp/kurashi/iryo/bosikenko/syussankosodateouen.html',
+    sourceName: '松山市 妊婦支援給付金（旧：松山市出産・子育て応援金）について',
+    sourceUrls: [
+      'https://www.city.matsuyama.ehime.jp/kurashi/iryo/bosikenko/syussankosodateouen.html',
+      'https://www.city.matsuyama.ehime.jp/kurashi/iryo/bosikenko/ninshin/index.html'
+    ],
+    sourceNote: '松山市公式ページで、妊婦支援給付金、1回目は妊婦1人につき5万円、2回目は胎児の数×5万円、令和7年4月1日以降の流産・死産も対象、他自治体で受給済みの場合は支給不可を確認。妊娠したらページでも制度掲載を確認。旧生成データの出産・子育て応援給付金から現行制度へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
