@@ -6311,4 +6311,118 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'akita-care-technology-support-2026',
+    title: '秋田県 介護テクノロジー活用支援事業費補助金',
+    organization: '秋田県',
+    type: 'local',
+    maxAmount: '最大400万円',
+    maxAmountNum: 400,
+    category: 'nursing',
+    prefecture: '秋田県',
+    tags: ['秋田県', '介護テクノロジー', '介護ロボット', 'ICT', '業務改善'],
+    eligibility: '秋田県内で介護保険法に基づくサービスを提供する事業所等で、介護テクノロジーの導入により業務効率化や職員の負担軽減に取り組む事業者が対象です。',
+    targetOccupation: '秋田県内の介護サービス事業者等',
+    applicationPeriod: '事業計画書の提出期間は令和8年6月22日9時から令和8年7月24日17時まで',
+    deadlineDate: '2026-07-24',
+    description: '秋田県が、介護従事者の負担軽減、業務効率化、生産性向上による職場定着を目的に、介護ロボットやICT機器などの介護テクノロジー導入経費を支援する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>令和8年度秋田県介護テクノロジー活用支援事業費補助金は、介護ロボットやICT機器といった介護テクノロジーの導入を支援し、介護現場の業務効率化と職員の負担軽減を進める制度です。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>補助率は5分の4です。導入経費の実支出額に5分の4を乗じた額と、交付要綱別表に示す基準額を比較して少ない方の額が補助額となります。1事業者あたりの補助上限額は400万円です。</p>'
+      },
+      {
+        heading: '申請要件と提出期間',
+        content: '<p>県主催セミナーの参加またはオンデマンド視聴、あきた介護業務「カイゼン」サポートセンターへの相談、SECURITY ACTION宣言などが要件です。事業計画書の提出期間は令和8年6月22日9時から令和8年7月24日17時までです。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.akita.lg.jp/pages/archive/96091',
+    sourceName: '秋田県 令和8年度秋田県介護テクノロジー活用支援事業費補助金',
+    sourceUrls: [
+      'https://www.pref.akita.lg.jp/pages/archive/96091'
+    ],
+    sourceNote: '秋田県公式ページで令和8年度介護テクノロジー活用支援事業費補助金、補助率5分の4、1事業者上限400万円、事業計画提出期間2026年6月22日から7月24日17時を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'yamagata-care-technology-support-2026',
+    title: '山形県 介護テクノロジー定着支援事業費補助金',
+    organization: '山形県',
+    type: 'local',
+    maxAmount: '事業区分により異なる',
+    maxAmountNum: 0,
+    category: 'nursing',
+    prefecture: '山形県',
+    tags: ['山形県', '介護テクノロジー', '介護ロボット', 'ICT', '事前協議'],
+    eligibility: '山形県内で介護ロボットやICTなどの介護テクノロジーを導入し、介護現場の生産性向上に取り組む介護事業者が対象です。',
+    targetOccupation: '山形県内の介護サービス事業者等',
+    applicationPeriod: '事前協議の提出期限は令和8年7月9日17時まで',
+    deadlineDate: '2026-07-09',
+    description: '山形県が、介護現場の業務効率化、職員の負担軽減、働きやすい職場づくりを推進するため、介護テクノロジー導入を支援する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>令和8年度山形県介護テクノロジー定着支援事業費補助金は、介護ロボットやICTなどの導入を通じて、介護人材の定着、新規参入、介護サービスの質向上を促進する制度です。</p>'
+      },
+      {
+        heading: '事前協議',
+        content: '<p>事業の募集にあたり事前協議が実施されています。事前協議書の内容を県が審査し、令和8年8月下旬を目途に結果を通知する予定です。</p>'
+      },
+      {
+        heading: '提出期限',
+        content: '<p>事前協議の提出期限は令和8年7月9日17時です。提出物には協議様式、所要額調書、業務改善計画、導入機器のカタログ、見積書の写しなどが含まれます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.yamagata.jp/090002/kenfuku/koreisha/jigyosha/kaigorobot_ict/26technology.html',
+    sourceName: '山形県 令和8年度山形県介護テクノロジー定着支援事業費補助金',
+    sourceUrls: [
+      'https://www.pref.yamagata.jp/090002/kenfuku/koreisha/jigyosha/kaigorobot_ict/26technology.html'
+    ],
+    sourceNote: '山形県公式ページで令和8年度介護テクノロジー定着支援事業費補助金、事前協議、提出期限2026年7月9日17時、説明会受講要件予定を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'ibaraki-care-productivity-support-2026',
+    title: '茨城県 介護事業所等生産性向上推進事業',
+    organization: '茨城県',
+    type: 'local',
+    maxAmount: '事業区分により異なる',
+    maxAmountNum: 0,
+    category: 'nursing',
+    prefecture: '茨城県',
+    tags: ['茨城県', '介護テクノロジー', '介護ロボット', 'ICT', '生産性向上'],
+    eligibility: '茨城県内の介護事業所等で、介護テクノロジー導入等により生産性向上に取り組む事業者が対象です。',
+    targetOccupation: '茨城県内の介護サービス事業者等',
+    applicationPeriod: '事前協議の受付期間は令和8年4月30日から令和8年6月30日まで',
+    deadlineDate: '2026-06-30',
+    description: '茨城県が、介護テクノロジーの導入支援を含む介護事業所等の生産性向上を支援する事業です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>令和8年度の茨城県では、介護事業所等生産性向上推進事業と介護テクノロジー定着支援事業を実施予定です。現在は、介護事業所等生産性向上推進事業の事前協議が受付中です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>交付額は、補助対象経費と交付額の算出方法を定めた別紙基準により算出されます。補助率は5分の4です。</p>'
+      },
+      {
+        heading: '事前協議',
+        content: '<p>事前協議の受付期間は令和8年4月30日から令和8年6月30日までです。提出物は所要額調書・実施計画書、見積書写しで、いばらき電子申請・届出サービスから提出します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.ibaraki.jp/hokenfukushi/chofuku/shisetsu/kaigorobottodounyuusiennzigyou.html',
+    sourceName: '茨城県 介護テクノロジー（介護ロボット・ICT）の導入支援事業について',
+    sourceUrls: [
+      'https://www.pref.ibaraki.jp/hokenfukushi/chofuku/shisetsu/kaigorobottodounyuusiennzigyou.html'
+    ],
+    sourceNote: '茨城県公式ページで令和8年度介護事業所等生産性向上推進事業、介護テクノロジー導入支援、補助率5分の4、事前協議期間2026年4月30日から6月30日を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
