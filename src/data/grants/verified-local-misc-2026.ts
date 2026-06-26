@@ -1185,4 +1185,226 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'miyagi-migration-support',
+    title: '宮城県 移住支援金',
+    organization: '宮城県・県内市町村',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、18歳未満加算あり',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '宮城県',
+    tags: ['宮城県', '移住支援', '東京圏', '市町村申請'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた方が、宮城県内へ移住し、就業・起業・テレワーク等の要件を満たす場合に対象です。',
+    applicationPeriod: '移住先市町村の受付期間に従う。支給見込みや予算状況は市町村へ確認',
+    description: '宮城県内への移住を支援する移住支援金です。市町村が窓口となり、国・宮城県・市町村が協力して実施します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>宮城県移住支援金は、東京圏から宮城県内へ移住し、就業・起業・テレワーク等の要件を満たす方を支援する制度です。申請は移住先市町村で行います。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>世帯での移住は100万円、単身での移住は60万円です。18歳未満の世帯員を帯同する場合は、1人につき100万円が加算される市町村例があります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>市町村が申請窓口です。対象要件、申請書類、受付期限、予算状況は移住先市町村の最新案内で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://miyagi-ijuguide.pref.miyagi.jp/support_dtl',
+    sourceName: 'みやぎ移住・交流ガイド 移住支援情報詳細',
+    sourceUrls: [
+      'https://miyagi-ijuguide.pref.miyagi.jp/support_dtl',
+      'https://www.city.sendai.jp/koyotaisaku/kurashi/machi/kezaikoyo/kyujin/ijuushien/ijuushaboshuu.html'
+    ],
+    sourceNote: '宮城県公式移住サイトで世帯100万円・単身60万円、世帯要件を確認。仙台市公式ページで令和8年度の子ども加算と市町村窓口例を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'akita-migration-support',
+    title: '秋田県 移住支援金制度',
+    organization: '秋田県・県内市町村',
+    type: 'local',
+    maxAmount: '家族100万円・単身60万円、18歳未満1人につき100万円加算',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '秋田県',
+    tags: ['秋田県', '移住支援', '東京圏', '市町村申請'],
+    eligibility: '東京圏から秋田県内へ移住し、就業・起業等の一定要件を満たす方が対象です。転入前認定が必要な場合があります。',
+    applicationPeriod: '市町村により異なる。転入前に移住先市町村へ直接確認',
+    description: '秋田県内へ移住する方に、県内市町村を通じて支給される移住支援金制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>秋田県移住支援金制度は、東京圏から秋田県内へ移住し、一定の就業・起業等の要件を満たす方に支援金を支給する制度です。市町村により転入前認定が必要な場合があります。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>家族で移住する場合は100万円、単身で移住する場合は60万円です。18歳未満の子どもを帯同する場合は、子ども1人あたり100万円が加算されます。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請先は移住先市町村です。転入前認定や申請期間は市町村ごとに異なるため、転入前に必ず移住先市町村へ確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.a-iju.jp/p1527',
+    sourceName: '秋田暮らし はじめの一歩 移住支援金制度について',
+    sourceUrls: [
+      'https://www.a-iju.jp/p1527',
+      'https://www.pref.akita.lg.jp/pages/archive/40997'
+    ],
+    sourceNote: '秋田県公式移住サイトで支給額、18歳未満加算、転入前認定や市町村確認の注意を確認。秋田県公式ページで制度概要を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'fukushima-migration-support',
+    title: '福島県 ふくしま移住支援金給付事業',
+    organization: '福島県・県内市町村',
+    type: 'local',
+    maxAmount: '家族100万円・単身60万円、18歳未満1人につき100万円加算',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '福島県',
+    tags: ['福島県', '移住支援', '東京圏', '市町村申請'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた方が、福島県内へ移住し、就業・起業・テレワーク等の要件を満たす場合に対象です。',
+    applicationPeriod: '移住先市町村の受付期間に従う。予算残額や申請期限は市町村へ確認',
+    description: '福島県内への移住を支援する移住支援金給付事業です。旧生成データを福島県公式の現行制度として確認済みに置換しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>ふくしま移住支援金給付事業は、東京圏から福島県内へ移住し、就業・起業・テレワーク等の要件を満たす方を支援する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>単身で移住する場合は60万円、2人以上の家族で移住する場合は100万円です。18歳未満の世帯員が一緒に移住する場合は、1人につき100万円が加算されます。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請先は移住先市町村です。市町村により予算残額、受付期限、必要書類、対象要件の確認方法が異なるため、事前に市町村へ確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.fukushima.lg.jp/sec/11025b/iju.html',
+    sourceName: '福島県 ふくしま移住支援金給付事業について',
+    sourceUrls: [
+      'https://www.pref.fukushima.lg.jp/sec/11025b/iju.html',
+      'https://www.city.fukushima.fukushima.jp/ijyuu/support/2/1/3280.html'
+    ],
+    sourceNote: '福島県公式ページで単身・家族支給額、18歳未満加算、制度概要を確認。福島市公式ページで市町村実施例と予算残額注意を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'ibaraki-migration-support',
+    title: '茨城県 わくわく茨城生活実現事業（移住支援金）',
+    organization: '茨城県・県内市町村',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、18歳未満1人につき最大100万円加算',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '茨城県',
+    tags: ['茨城県', '移住支援', '東京圏', '市町村申請'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた方が、茨城県内の対象市町村へ移住し、就業・起業・テレワーク等の要件を満たす場合に対象です。',
+    applicationPeriod: '移住先市町村の受付期間に従う。転入後1年以内など世帯要件あり',
+    description: '茨城県内への移住を支援する、わくわく茨城生活実現事業の移住支援金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>わくわく茨城生活実現事業は、東京圏から茨城県内へ移住し、就業・起業・テレワーク等の要件を満たす方を支援する移住支援金制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>世帯での移住は100万円、単身での移住は60万円です。18歳未満の世帯員を帯同する場合は、1人につき最大100万円が加算されます。加算額は市町村により異なります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請先は移住先市町村です。対象市町村、受付開始日、住宅取得要件、関係人口要件などは市町村により異なるため、公式案内で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.ibaraki.jp/kikaku/kikaku/ijyusuishin/iju-2chiiki/ijushienkin.html',
+    sourceName: '茨城県 わくわく茨城生活実現事業（茨城県移住支援金）',
+    sourceUrls: [
+      'https://www.pref.ibaraki.jp/kikaku/kikaku/ijyusuishin/iju-2chiiki/ijushienkin.html',
+      'https://www.town.ibaraki-sakai.lg.jp/page/page002464.html'
+    ],
+    sourceNote: '茨城県公式ページで支給額、18歳未満加算、市町村差、世帯要件を確認。境町公式ページで令和8年度の市町村実施例を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'tochigi-migration-support',
+    title: '栃木県 移住支援事業',
+    organization: '栃木県・県内市町',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、18歳未満1人につき最大100万円加算',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '栃木県',
+    tags: ['栃木県', '移住支援', '東京圏', '市町申請'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた方が、栃木県内の市町へ移住し、対象求人への就職・起業等の要件を満たす場合に対象です。',
+    applicationPeriod: '移住先市町の受付期間に従う。市町により詳細が異なる',
+    description: '栃木県が東京圏からの移住・定住促進と県内中小企業等の人手不足解消を目的に実施する移住支援事業です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>栃木県移住支援事業は、東京23区在住者または東京圏から東京23区へ通勤する方が、栃木県内の市町へ移住した場合に移住支援金を支給する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>単身で移住した場合は60万円、2人以上の世帯で移住した場合は100万円です。18歳未満の帯同者がいる場合は、子育て加算として1人あたり最大100万円が追加されます。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請窓口は移住先市町です。子育て加算の適用時期や金額、対象求人、起業要件などは市町により異なるため、移住希望先へ確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.tochigi.lg.jp/a03/iju_shien_jigyou.html',
+    sourceName: '栃木県 栃木県移住支援事業',
+    sourceUrls: [
+      'https://www.pref.tochigi.lg.jp/a03/iju_shien_jigyou.html',
+      'https://www.tochigi-iju.jp/support/support-prefecture/'
+    ],
+    sourceNote: '栃木県公式ページで制度概要、支給額、18歳未満加算、市町確認を確認。栃木県公式移住サイトで申請窓口と要件を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'saitama-migration-support',
+    title: '埼玉県 移住支援金',
+    organization: '埼玉県・対象15市町村',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、18歳未満加算30万から100万円',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '埼玉県',
+    tags: ['埼玉県', '移住支援', '東京圏', '対象市町村'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた方が、埼玉県内の対象15市町村へ移住し、就業等の要件を満たす場合に対象です。',
+    applicationPeriod: '移住先市町村の受付期間に従う。申請先は対象市町村',
+    description: '埼玉県内の対象15市町村へ移住し、就業等の要件を満たす方に支給される移住支援金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>埼玉県移住支援金は、東京圏から県内の対象15市町村へ移住し、就業・起業等の要件を満たす方を支援する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>単身での移住は60万円、世帯での移住は100万円です。18歳未満の世帯員を帯同する場合は、30万円から100万円が加算されます。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請先は移住先の対象市町村です。対象市町村、就業・起業要件、子ども加算額、申請期限は市町村の公式案内で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://sumunara-saitama.pref.saitama.lg.jp/immigration/immigration-aid/',
+    sourceName: '住むなら、埼玉。 移住支援金について',
+    sourceUrls: [
+      'https://sumunara-saitama.pref.saitama.lg.jp/immigration/immigration-aid/',
+      'https://www.town.tokigawa.lg.jp/info/1895'
+    ],
+    sourceNote: '埼玉県公式移住・定住情報サイトで対象15市町村、支給額、18歳未満加算額、対象要件を確認。ときがわ町公式ページで市町村実施例を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
