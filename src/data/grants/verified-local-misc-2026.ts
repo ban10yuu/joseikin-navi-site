@@ -17338,4 +17338,35 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'tokushima-city-energy-support',
+    title: '徳島市 住宅用太陽光発電システム・蓄エネルギー機器等導入支援事業',
+    organization: '徳島市',
+    type: 'local',
+    maxAmount: '最大15万円',
+    maxAmountNum: 15,
+    category: 'living',
+    relatedCategories: ['housing', 'disaster'],
+    prefecture: '徳島県',
+    tags: ['徳島市', '徳島県', '太陽光発電', '蓄電池', 'V2H', '令和8年度'],
+    eligibility: '自ら居住するための徳島市内の既築・新築住宅に、対象設備を自ら購入して設置しようとする個人が対象です。法人、リース設置、収益目的の集合住宅等は対象外です。',
+    applicationPeriod: '2026年4月1日から2027年2月26日まで。予算を超えた場合は終了',
+    deadlineDate: '2027-02-26',
+    description: '徳島市が、住宅用太陽光発電システム、家庭用蓄電システム、電気自動車等充給電設備を設置する方に補助金を交付する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>徳島市住宅用太陽光発電システム・蓄エネルギー機器等導入支援事業は、地球温暖化対策と脱炭素社会の形成を目的に、住宅用太陽光発電システム、家庭用蓄電システム、電気自動車等充給電設備の導入を支援する制度です。既存の生成データでは太陽光発電1kWあたり2万円などとしていましたが、令和8年度の公式制度では設備ごとに5万円です。</p>' },
+      { heading: '補助内容', content: '<p>補助額は、住宅用太陽光発電システム5万円、家庭用蓄電システム5万円、電気自動車等充給電設備5万円です。3設備をあわせて導入する場合は最大15万円となります。太陽光発電システムは2kW以上10kW未満であることなど、設備ごとの要件があります。</p>' },
+      { heading: '申請の注意点', content: '<p>申請前に設置工事へ着手した場合は対象外です。申請受付期間は2026年4月1日から2027年2月26日までですが、受付期間内でも予算を超えた場合は終了します。実績報告は工事完了日から30日以内、または2027年3月31日のいずれか早い日までに提出する必要があります。</p>' }
+    ],
+    officialUrl: 'https://www.city.tokushima.tokushima.jp/kurashi/kankyou_eisei/solar_power/shien/shien_about.html',
+    sourceName: '徳島市 令和8年度住宅用太陽光発電システム・蓄エネルギー機器等導入支援事業',
+    sourceUrls: [
+      'https://www.city.tokushima.tokushima.jp/kurashi/kankyou_eisei/solar_power/shien/shien_about.html',
+      'https://www.city.tokushima.tokushima.jp/smph/kurashi/kankyou_eisei/solar_power/shien/shien_a.html',
+      'https://www.city.tokushima.tokushima.jp/kurashi/kankyou_eisei/solar_power/shien/shien_about.files/bosyuu.pdf'
+    ],
+    sourceNote: '徳島市公式ページで、2026年4月1日最終更新、令和8年度住宅用太陽光発電システム・蓄エネルギー機器等導入支援事業、申請受付期間2026年4月1日から2027年2月26日、予算超過時終了、申請前着工対象外、対象設備を確認。公式FAQで太陽光発電2kW以上10kW未満、リースや収益目的集合住宅等は対象外を確認。募集PDFで、太陽光発電システム5万円、家庭用蓄電システム5万円、電気自動車等充給電設備5万円、実績報告期限を確認。旧生成データの補助単価・上限から令和8年度制度へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
