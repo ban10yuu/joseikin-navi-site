@@ -17942,6 +17942,37 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-27',
   },
   {
+    slug: 'toyama-city-infertility',
+    title: '富山市 特定不妊治療費助成',
+    organization: '富山市',
+    type: 'local',
+    maxAmount: '1回30万円（男性不妊治療は別途上限30万円）',
+    maxAmountNum: 30,
+    category: 'medical',
+    relatedCategories: ['childcare'],
+    prefecture: '富山県',
+    tags: ['富山市', '富山県', '不妊治療', '特定不妊治療', '男性不妊治療', '先進医療'],
+    eligibility: '富山市に住民登録があり、体外受精・顕微授精などの特定不妊治療を受けた夫婦が対象です。保険適用外となる通算7回目以降の治療や、年齢要件により保険適用外となった治療など、公式要件に該当する場合に申請できます。',
+    applicationPeriod: '治療終了日の属する年度内。3月に終了した治療は5月31日まで',
+    deadlineDate: '2027-05-31',
+    description: '富山市が、保険適用外となる特定不妊治療や男性不妊治療、先進医療にかかる自己負担を支援する助成制度です。治療区分により、1回30万円または10万円、男性不妊治療は別途30万円まで助成されます。',
+    sections: [
+      { heading: '制度の概要', content: '<p>富山市の特定不妊治療費助成は、体外受精や顕微授精などの治療費負担を軽減する制度です。保険適用外となる通算7回目以降の治療、保険診療の回数制限到達後に43歳未満で開始した治療、年齢要件により保険適用外となった治療、保険診療と併用して行われる先進医療などが案内されています。</p>' },
+      { heading: '助成額', content: '<p>公式ページでは、保険適用外となる特定不妊治療について、治療区分A・B・D・Eは1回30万円、治療区分C・Fは1回10万円とされています。男性不妊治療は、治療区分Cを除き、1回の治療につき30万円まで別途助成されます。先進医療は、保険診療と併用して行われた場合に、先進医療費の自己負担額の10分の7まで助成され、県の助成と合わせて10分の7を超えない範囲で調整されます。</p>' },
+      { heading: '申請期限と注意点', content: '<p>申請期限は原則として治療終了日の属する年度内です。ただし、3月に終了した治療は5月31日まで申請できると案内されています。期限切れ判定は令和8年度の最終特例期限である2027年5月31日に合わせています。申請書、医療機関の受診証明書、領収書などの必要書類を確認し、期限内に富山市へ申請してください。</p>' }
+    ],
+    officialUrl: 'https://ikusapotoyama.city.toyama.lg.jp/LGArticle/Index/1808?ChildStateId=01',
+    sourceName: '富山市 特定不妊治療費助成',
+    sourceUrls: [
+      'https://ikusapotoyama.city.toyama.lg.jp/LGArticle/Index/1808?ChildStateId=01',
+      'https://ikusapotoyama.city.toyama.lg.jp/LGArticle/Index/1806?Destinationld=14',
+      'https://www.pref.toyama.jp/120101/kurashi/kenkou/iryou/hunin202204.html'
+    ],
+    sourceNote: '富山市公式ページで、特定不妊治療費助成、保険適用外となる通算7回目以降の治療、保険診療の回数制限到達後43歳未満で開始した治療、年齢要件で保険適用外となった治療、保険診療と併用して行われる先進医療、治療区分A・B・D・Eは1回30万円、C・Fは1回10万円、男性不妊治療は別途30万円、先進医療は10分の7まで、申請期限は治療終了日の属する年度内・3月終了分は5月31日までを確認。旧生成データの先進医療1回10万円中心の内容から公式確認済みの特定不妊治療費助成へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
+  {
     slug: 'yamagata-city-school-lunch',
     title: '山形市 令和8年度学校給食費の保護者負担軽減',
     organization: '山形市',
