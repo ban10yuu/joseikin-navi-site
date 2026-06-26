@@ -18741,4 +18741,34 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'yamagata-city-disability-medical',
+    title: '山形市 重度心身障がい（児）者医療給付制度',
+    organization: '山形市',
+    type: 'local',
+    maxAmount: '保険診療の自己負担額を軽減',
+    maxAmountNum: 0,
+    category: 'medical',
+    relatedCategories: ['living', 'nursing'],
+    prefecture: '山形県',
+    tags: ['山形市', '山形県', '重度心身障がい者医療', '障がい者医療', '医療費助成'],
+    eligibility: '身体障がい者手帳1・2級、精神障がい者保健福祉手帳1級、療育手帳A、特別児童扶養手当1級、公的年金各法の障害年金1級、身体障がい者手帳3級かつ療育手帳Bなどに該当し、本人の市民税所得割額が235,000円未満の方が対象です。',
+    applicationPeriod: '通年。制度利用にはあらかじめ申請が必要',
+    description: '山形市が、心身に著しい障がいがある方の保険診療における医療費自己負担額を軽減する制度です。対象者の要件に該当すると認められる場合、重度心身障がい（児）者医療証が交付されます。',
+    sections: [
+      { heading: '制度の概要', content: '<p>重度心身障がい（児）者医療給付制度は、心身に著しい障がいがある方の保険診療における医療費の自己負担額を軽減する制度です。制度を利用するには事前申請が必要で、対象者の要件に該当すると認められた場合に医療証が交付されます。</p>' },
+      { heading: '対象者の要件', content: '<p>対象となる障がいの程度は、身体障がい者手帳1・2級、精神障がい者保健福祉手帳1級、療育手帳A、特別児童扶養手当1級、公的年金各法の障害年金1級、身体障がい者手帳3級かつ療育手帳Bなどです。上記に該当しない場合でも、特別障がい者手当を受給している方は対象になることがあります。</p>' },
+      { heading: '所得要件と申請', content: '<p>所得要件として、本人の市民税所得割額が235,000円未満であることが案内されています。制度の利用にはあらかじめ申請が必要です。申請先や必要書類は、山形市の担当窓口で確認します。</p>' }
+    ],
+    officialUrl: 'https://www.city.yamagata-yamagata.lg.jp/kenkofukushi/syougaisha/1006656/1002150.html',
+    sourceName: '山形市 重度心身障がい（児）者医療給付制度',
+    sourceUrls: [
+      'https://www.city.yamagata-yamagata.lg.jp/kenkofukushi/syougaisha/1006656/1002150.html',
+      'https://www.city.yamagata-yamagata.lg.jp/kenkofukushi/syougaisha/1006656/index.html',
+      'https://www.city.yamagata-yamagata.lg.jp/kenkofukushi/syougaisha/1006656/1004644.html'
+    ],
+    sourceNote: '山形市公式ページで、重度心身障がい（児）者医療給付制度、更新日令和5年4月1日、心身に著しい障がいがある方の保険診療における医療費自己負担額を軽減、制度利用にはあらかじめ申請が必要、医療証交付、対象は身体障がい者手帳1・2級、精神障がい者保健福祉手帳1級、療育手帳A、特別児童扶養手当1級、公的年金各法の障害年金1級、身体障がい者手帳3級かつ療育手帳B、本人の市民税所得割額235,000円未満を確認。手当・支給一覧と重度心身障がい（児）者福祉手当ページで関連制度と担当窓口を補助確認。旧生成データを公式確認済みの医療給付制度へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
