@@ -388,8 +388,12 @@ export function getGrantBySlug(slug: string): Grant | undefined {
   return allGrants.find((g) => g.slug === slug);
 }
 
+export function grantMatchesCategory(grant: Grant, category: GrantCategory): boolean {
+  return grant.category === category || grant.relatedCategories?.includes(category) === true;
+}
+
 export function getGrantsByCategory(category: GrantCategory): Grant[] {
-  return officialLinkedGrants.filter((g) => g.category === category);
+  return officialLinkedGrants.filter((g) => grantMatchesCategory(g, category));
 }
 
 export function getGrantsByType(type: GrantType): Grant[] {
@@ -410,7 +414,7 @@ export function getRelatedGrants(grant: Grant, limit = 6): Grant[] {
   const pool = hasOfficialSource(grant) ? officialLinkedGrants : publishedGrants;
   // Same category first, then same prefecture, then others
   const sameCategory = pool.filter(
-    (g) => g.category === grant.category && g.slug !== grant.slug
+    (g) => grantMatchesCategory(g, grant.category) && g.slug !== grant.slug
   );
   const samePrefecture = pool.filter(
     (g) => g.prefecture === grant.prefecture && g.category !== grant.category && g.slug !== grant.slug
@@ -466,6 +470,9 @@ export function getActivePrefectures(): string[] {
 // ── Category utilities ──
 export function getActiveCategories(): GrantCategory[] {
   const catSet = new Set<GrantCategory>();
-  officialLinkedGrants.forEach((g) => catSet.add(g.category));
+  officialLinkedGrants.forEach((g) => {
+    catSet.add(g.category);
+    g.relatedCategories?.forEach((category) => catSet.add(category));
+  });
   return Array.from(catSet);
 }

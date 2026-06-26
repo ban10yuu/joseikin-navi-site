@@ -43,6 +43,7 @@ const {
   getExpiredGrants,
   getGrantQualityStats,
   getOfficialLinkedGrants,
+  grantMatchesCategory,
   hasOfficialSource,
   isGrantExpired,
   isManuallyVerifiedGrant,
@@ -62,9 +63,9 @@ const byCategory = Object.fromEntries(
     category,
     {
       label: CATEGORY_LABELS[category],
-      officialLinked: officialLinkedGrants.filter((grant) => grant.category === category).length,
+      officialLinked: officialLinkedGrants.filter((grant) => grantMatchesCategory(grant, category)).length,
       manuallyVerified: officialLinkedGrants.filter(
-        (grant) => grant.category === category && isManuallyVerifiedGrant(grant),
+        (grant) => grantMatchesCategory(grant, category) && isManuallyVerifiedGrant(grant),
       ).length,
     },
   ]),
@@ -77,7 +78,7 @@ const byPrefecture = Object.fromEntries(
     const categoryCounts = Object.fromEntries(
       categories.map((category) => [
         category,
-        localOfficial.filter((grant) => grant.category === category).length,
+        localOfficial.filter((grant) => grantMatchesCategory(grant, category)).length,
       ]),
     );
 

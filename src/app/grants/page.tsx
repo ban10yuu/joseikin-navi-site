@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { getGrantQualityStats, getOfficialLinkedGrants } from '@/lib/grants';
+import { getGrantQualityStats, getOfficialLinkedGrants, grantMatchesCategory } from '@/lib/grants';
 import { CATEGORY_LABELS, GrantCategory } from '@/lib/types';
 import GrantCard from '@/components/GrantCard';
 import GoogleAd from '@/components/GoogleAd';
@@ -21,7 +21,7 @@ export default function GrantsListPage() {
   const byCategory = Object.keys(CATEGORY_LABELS).reduce(
     (acc, cat) => {
       acc[cat as GrantCategory] = allGrants.filter(
-        (g) => g.category === (cat as GrantCategory)
+        (g) => grantMatchesCategory(g, cat as GrantCategory)
       );
       return acc;
     },

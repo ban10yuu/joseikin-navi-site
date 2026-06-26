@@ -27,6 +27,7 @@ export interface Grant {
   maxAmount: string;        // 表示用: "最大50万円", "月額1.5万円"
   maxAmountNum: number;     // ソート用: 万円単位
   category: GrantCategory;
+  relatedCategories?: GrantCategory[];
   prefecture: string;       // "全国" or "東京都" etc.
   tags: string[];           // 3タグ
   eligibility: string;      // 対象者
