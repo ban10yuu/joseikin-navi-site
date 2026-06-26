@@ -2481,4 +2481,155 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'tochigi-scholarship-repayment',
+    title: 'とちぎ未来人材応援奨学金支援助成金',
+    organization: '栃木県',
+    type: 'local',
+    maxAmount: '大学生は最大150万円',
+    maxAmountNum: 150,
+    category: 'education',
+    prefecture: '栃木県',
+    tags: ['栃木県', '奨学金返還支援', '県内就職', '若者定着'],
+    eligibility: '貸与型奨学金を利用し、2026年4月1日時点で対象学年に該当し、栃木県内に定住を希望する大学生等が対象です。卒業後は県内企業等への正規雇用と県内居住が助成要件です。',
+    targetOccupation: '栃木県内企業等へ就職する大学生等',
+    applicationPeriod: '2026年6月8日から2026年11月25日まで',
+    deadlineDate: '2026-11-25',
+    description: '栃木県内企業等へ就職を希望する大学生等の奨学金返還を支援する助成金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>とちぎ未来人材応援奨学金支援助成金は、県内企業等への就職を希望する大学生等を対象に、卒業後の奨学金返還を支援する制度です。支給対象者として認定された後、卒業・就職後に支給決定や交付決定の申請が必要です。</p>'
+      },
+      {
+        heading: '助成金額',
+        content: '<p>卒業・修了前2年間に借り入れた奨学金が対象です。大学生は全額で上限150万円、大学院生は2分の1で上限100万円、短期大学生・高等専門学校生・専門学校生は2分の1で上限70万円です。</p>'
+      },
+      {
+        heading: '募集と応募方法',
+        content: '<p>2026年度の募集期間は2026年6月8日から11月25日までです。栃木県電子申請システムで応募し、奨学金貸与証明書や成績証明書などを提出します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.tochigi.lg.jp/f06/work/koyou/koyou/miraijinzaiouensyougakukin.html',
+    sourceName: '栃木県 とちぎ未来人材応援奨学金支援助成金',
+    sourceUrls: [
+      'https://www.pref.tochigi.lg.jp/f06/work/koyou/koyou/miraijinzaiouensyougakukin.html'
+    ],
+    sourceNote: '栃木県公式ページで2026年度募集期間、対象奨学金、対象学年、県内正規雇用・県内居住要件、学校区分別助成上限額を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'saitama-company-scholarship-repayment',
+    title: '埼玉県 中小企業等奨学金返還支援事業補助金',
+    organization: '埼玉県・埼玉県中小企業団体中央会',
+    type: 'local',
+    maxAmount: '1人年9万円、多様な働き方実践企業は年12万円',
+    maxAmountNum: 72,
+    category: 'education',
+    prefecture: '埼玉県',
+    tags: ['埼玉県', '奨学金返還支援', '中小企業', '人材確保'],
+    eligibility: '埼玉県内に事業所を有し、奨学金返還支援制度を設ける中小企業等が、奨学金返還中の正社員へ手当等を支給する場合に対象です。',
+    targetOccupation: '県内中小企業等と奨学金返還中の正社員',
+    applicationPeriod: '2026年6月1日から2026年11月30日まで。予算の範囲内',
+    deadlineDate: '2026-11-30',
+    description: '埼玉県内の中小企業等が従業員に行う奨学金返還支援について、県の支援を受けた中央会が補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>埼玉県中小企業等奨学金返還支援事業補助金は、県内中小企業等の人材確保と若手従業員の定着、経済的負担軽減を目的に、企業が従業員へ支給する奨学金返還支援手当等を補助する制度です。</p>'
+      },
+      {
+        heading: '補助率と上限',
+        content: '<p>補助率は2分の1です。埼玉県多様な働き方実践企業は3分の2に引き上げられます。補助限度額は1人年9万円、多様な働き方実践企業は年12万円で、支援対象者1人につき最大6年間が対象です。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>令和8年度の申請受付は2026年6月1日から11月30日までです。申請はJグランツで行い、GビズIDプライムの取得が必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://saitama-shougakukinhojyo.com/',
+    sourceName: '埼玉県中小企業等奨学金返還支援事業補助金',
+    sourceUrls: [
+      'https://saitama-shougakukinhojyo.com/'
+    ],
+    sourceNote: '埼玉県補助事業の公式サイトで事業概要、対象企業・従業員、補助率2分の1、多様な働き方実践企業3分の2、年9万円・年12万円上限、申請期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'chiba-company-scholarship-repayment',
+    title: '千葉県 中小企業の人材確保に向けた奨学金返還支援事業',
+    organization: '千葉県',
+    type: 'local',
+    maxAmount: '従業員1人あたり年10万円、最大6年間',
+    maxAmountNum: 60,
+    category: 'education',
+    prefecture: '千葉県',
+    tags: ['千葉県', '奨学金返還支援', '中小企業', '若者負担軽減'],
+    eligibility: '千葉県内中小企業者が、正社員として勤務し奨学金を返還中で、県内居住かつ県内事業所勤務などの要件を満たす従業員を支援する場合に対象です。',
+    targetOccupation: '県内中小企業者と奨学金返還中の正社員',
+    applicationPeriod: '申請受付や締切は公式ページ・手引きで確認',
+    description: '千葉県内中小企業者が従業員の奨学金返還を支援した額の一部を、県が補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>千葉県の中小企業の人材確保に向けた奨学金返還支援事業は、県内中小企業者の人材確保・定着と若者の負担軽減を目的に、企業が従業員の奨学金返還のために支援した額の一部を補助する制度です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>補助率は企業が従業員に支援する額の2分の1です。補助上限額は従業員1人につき年間10万円まで、補助対象期間は従業員1人につき最大6年間まで、補助対象人数は企業1社あたり従業員5人までです。</p>'
+      },
+      {
+        heading: '対象となる従業員',
+        content: '<p>正社員として勤務し奨学金を返還中であること、申請年度の4月1日時点で正社員となってから6年以内であること、県内居住かつ県内事業所に勤務していることなどが要件です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.chiba.lg.jp/koyou/wakamono/syogakukinshien.html',
+    sourceName: '千葉県 中小企業の人材確保に向けた奨学金返還支援事業',
+    sourceUrls: [
+      'https://www.pref.chiba.lg.jp/koyou/wakamono/syogakukinshien.html'
+    ],
+    sourceNote: '千葉県公式ページで事業概要、補助対象従業員、対象奨学金、補助率2分の1、年10万円上限、最大6年間、1社5人までを確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'yokohama-high-school-scholarship',
+    title: '横浜市 高等学校奨学生（給付型奨学金）',
+    organization: '横浜市',
+    type: 'local',
+    maxAmount: '年額6万円（月額5千円）',
+    maxAmountNum: 6,
+    category: 'education',
+    prefecture: '神奈川県',
+    tags: ['横浜市', '給付型奨学金', '高校生', '返還不要'],
+    eligibility: '保護者が横浜市内在住で、高等学校等に在学し、学業成績と経済的理由の要件を満たす生徒が対象です。',
+    targetOccupation: '高校生・特別支援学校高等部生・中等教育学校後期課程生',
+    applicationPeriod: '令和8年度募集は2026年5月8日で終了。令和9年度募集は2027年3月中旬以降に案内予定',
+    deadlineDate: '2026-05-08',
+    description: '横浜市が高校生に年額6万円を支給する返還不要の給付型奨学金です。令和8年度募集は終了しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>横浜市高等学校奨学生は、高校生に年額6万円を支給する給付型奨学金です。採用された場合、支給された奨学金は原則として返還する必要がありません。</p>'
+      },
+      {
+        heading: '支給額と採用人数',
+        content: '<p>支給額は年額60,000円、月額5,000円です。令和8年度募集時の新規採用人数は920人程度と案内されています。</p>'
+      },
+      {
+        heading: '応募資格',
+        content: '<p>保護者が横浜市内在住であること、高等学校等に在学していること、評定平均値が原則3.50以上であること、経済的理由により修学が困難であることなどが要件です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.yokohama.lg.jp/kosodate-kyoiku/kyoiku/soudan/syogakukin.html',
+    sourceName: '横浜市 高等学校奨学生（給付型奨学金）',
+    sourceUrls: [
+      'https://www.city.yokohama.lg.jp/kosodate-kyoiku/kyoiku/soudan/syogakukin.html'
+    ],
+    sourceNote: '横浜市公式ページで年額6万円、返還不要、令和8年度募集終了、採用人数920人程度、応募資格、提出期限を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
