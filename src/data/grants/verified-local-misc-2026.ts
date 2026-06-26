@@ -1629,4 +1629,335 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'hokkaido-migration-support',
+    title: '北海道 UIJターン新規就業支援事業（移住支援金）',
+    organization: '北海道・道内市町村',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、18歳未満1人につき最大100万円加算',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '北海道',
+    tags: ['北海道', '移住支援', 'UIJターン', '市町村申請'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた方が、北海道内へ移住し、移住支援金対象求人への就業等の要件を満たす場合に対象です。',
+    applicationPeriod: '移住先市町村の受付期間に従う。予算の範囲内で年度途中終了の可能性あり',
+    description: '北海道内へのUIJターンと新規就業を支援する移住支援金です。旧生成データを北海道公式の現行制度として確認済みに置換しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>北海道UIJターン新規就業支援事業は、東京23区在住者または通勤者が北海道へ移住し、移住支援金対象法人に就業する場合などに支援金を支給する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>世帯での移住は100万円、単身での移住は60万円です。18歳未満の世帯員を帯同して移住する場合は、18歳未満の方1人につき最大100万円が加算されます。加算の実施有無は市町村により異なります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請先は移住先市町村です。対象求人、申請期限、子育て加算、予算状況は市町村ごとに異なるため、移住先の担当窓口で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.hokkaido.lg.jp/kz/jzi/ui-turn/H31wakuwaku.html',
+    sourceName: '北海道 UIJターン新規就業支援事業',
+    sourceUrls: [
+      'https://www.pref.hokkaido.lg.jp/kz/jzi/ui-turn/H31wakuwaku.html',
+      'https://www.city.kitami.lg.jp/tourism/migration/detail.php?content=9906'
+    ],
+    sourceNote: '北海道公式ページで令和8年度市町村窓口、世帯100万円・単身60万円、18歳未満加算、予算終了可能性を確認。北見市公式ページで市町村実施例を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'hyogo-migration-support',
+    title: '兵庫県 移住支援事業',
+    organization: '兵庫県・県内市町',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、子育て加算あり',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '兵庫県',
+    tags: ['兵庫県', '移住支援', '東京圏', '市町申請'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた方が、兵庫県内の対象市町へ移住し、就業・起業等の要件を満たす場合に対象です。',
+    applicationPeriod: '転入後3か月以上1年以内が基本。年度内受付は市町に確認',
+    description: '兵庫県内への移住と就業・起業等を支援する移住支援金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>兵庫県移住支援事業は、東京圏から兵庫県内の対象市町へ移住し、就業・起業等の要件を満たす方を支援する制度です。申請は移住先市町の窓口で行います。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>2人以上の世帯の場合は100万円、単身の場合は60万円です。子育て世帯は、市町が定める要綱に基づき18歳未満の方1人あたり30万円または100万円の加算があります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請書と必要書類を添えて、移住先市町の窓口に申請します。対象市町、子育て加算額、申請期間、予算状況は市町ごとに確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://web.pref.hyogo.lg.jp/sr05/hyogo-matching/overview.html',
+    sourceName: '兵庫県 兵庫県移住支援事業・マッチング支援事業',
+    sourceUrls: [
+      'https://web.pref.hyogo.lg.jp/sr05/hyogo-matching/overview.html',
+      'https://www.town.fukusaki.hyogo.jp/0000004316.html'
+    ],
+    sourceNote: '兵庫県公式ページで支給額、18歳未満加算、市町別加算額を確認。福崎町公式ページで市町村実施例を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'nara-migration-support',
+    title: '奈良県 移住支援金',
+    organization: '奈良県・県内市町村',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、18歳未満加算あり',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '奈良県',
+    tags: ['奈良県', '移住支援', '東京圏', '市町村申請'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた方が、奈良県内へ移住し、就職・起業等の要件を満たす場合に対象です。',
+    applicationPeriod: '移住先市町村の受付期間に従う。世帯向けは転入後1年以内など要件あり',
+    description: '奈良県内への移住・就業・起業を支援する移住支援金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>奈良県移住支援金は、東京圏から奈良県内へ移住し、就職・起業等の要件を満たす方を支援する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>2人以上の世帯の場合は100万円、単身世帯の場合は60万円です。就職に関する要件を満たす方が18歳未満の世帯員を帯同して移住する場合は、市町村が定める額の加算があります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請先は移住先市町村です。世帯要件、就職・起業要件、18歳未満加算、申請期限は市町村の公式案内で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.nara.lg.jp/n102/53355.html',
+    sourceName: '奈良県 移住支援金',
+    sourceUrls: [
+      'https://www.pref.nara.lg.jp/n102/53355.html',
+      'https://www.city.tenri.nara.jp/kakuka/kankyoukeizaibu/sangyoukyousouryokukyoukasitu/1568250403738.html'
+    ],
+    sourceNote: '奈良県公式ページで支給額、世帯要件、18歳未満加算を確認。天理市公式ページで市町村実施例を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'shimane-migration-support',
+    title: '島根県 わくわく島根生活実現支援事業',
+    organization: '島根県・県内市町村',
+    type: 'local',
+    maxAmount: '世帯最大100万円・単身60万円、18歳未満1人につき最大100万円加算',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '島根県',
+    tags: ['島根県', '移住支援', '東京圏', '市町村申請'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた方が、島根県内へ移住し、就業・起業等の要件を満たす場合に対象です。',
+    applicationPeriod: '移住先市町村の受付期間に従う。詳細は市町村へ確認',
+    description: '東京圏から島根県へ移住する方を支援する、わくわく島根生活実現支援事業の移住支援金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>わくわく島根生活実現支援事業は、東京23区在住者または通勤者が島根県へ移住し、要件を満たした場合に移住支援金を支給する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>世帯の場合は最大100万円、単身の場合は60万円です。18歳未満の世帯員を帯同して移住する場合は、18歳未満の方1人につき最大100万円が加算されます。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請先は移住先市町村です。対象要件、就業・起業要件、申請期限、必要書類は市町村の公式案内で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.shimane.lg.jp/admin/region/chiiki/UI_turn/wakuwaku.html',
+    sourceName: '島根県 わくわく島根生活実現支援事業',
+    sourceUrls: [
+      'https://www.pref.shimane.lg.jp/admin/region/chiiki/UI_turn/wakuwaku.html',
+      'https://www.kurashimanet.jp/support/'
+    ],
+    sourceNote: '島根県公式ページで制度概要と世帯・単身支給額を確認。しまね移住情報ポータルで18歳未満加算を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'oita-migration-support',
+    title: '大分県 移住支援金',
+    organization: '大分県・県内市町村',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、子育て加算あり',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '大分県',
+    tags: ['大分県', '移住支援', '県外移住', '市町村申請'],
+    eligibility: '県外から大分県内へ移住し、おおいたジョブナビ掲載企業への就職等の要件を満たす方が対象です。大分県出身の方も対象となる場合があります。',
+    applicationPeriod: '移住先市町村の受付期間に従う。市町村により申請要件が異なる',
+    description: '県外から大分県へ移住する方を支援する移住支援金です。旧生成データを公式確認済みデータとして置換しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>大分県移住支援金は、県外から大分県内へ移住し、おおいたジョブナビ掲載企業への就職等の要件を満たす方を支援する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>2人以上世帯の場合は100万円、単身の場合は60万円です。市町村によっては、上記に加えて子育て世帯への加算があります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請先は移住先市町村です。移住先の市町村で申請要件が異なるため、事前に市町村窓口で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.oita.jp/soshiki/10112/ijyushienjigyo.html',
+    sourceName: '大分県 県外から大分県への移住者が対象 移住支援金',
+    sourceUrls: [
+      'https://www.pref.oita.jp/soshiki/10112/ijyushienjigyo.html',
+      'https://oita.saiyo-job.jp/nbtk/recruit/'
+    ],
+    sourceNote: '大分県公式ページで支給額、子育て加算、返還要件、移住応援給付金を確認。大分県移住支援金対象求人サイトで対象者概要を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kagoshima-migration-support',
+    title: '鹿児島県 移住支援金制度',
+    organization: '鹿児島県・県内市町村',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、18歳未満1人につき最大100万円加算',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '鹿児島県',
+    tags: ['鹿児島県', '移住支援', '東京圏', '市町村申請'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた方が、鹿児島県内へ移住し、就業・起業等の要件を満たす場合に対象です。',
+    applicationPeriod: '移住先市町村の受付期間に従う。実施市町村と加算対象市町村を確認',
+    description: '東京圏から鹿児島県へ移住する方を支援する移住支援金制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>鹿児島県移住支援金制度は、東京圏から鹿児島県内へ移住し、就業・起業等の要件を満たす方に支援金を支給する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>2人以上の家族・世帯の場合は100万円、単身者の場合は60万円です。18歳未満の世帯員を帯同して移住する場合は、18歳未満の方1人につき最大100万円が加算されます。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請先は移住先市町村です。実施市町村、18歳未満加算の対象市町村、申請期限、必要書類は市町村の公式案内で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.kagoshima.jp/af23/izyusien.html',
+    sourceName: '鹿児島県 移住支援金制度の御案内',
+    sourceUrls: [
+      'https://www.pref.kagoshima.jp/af23/izyusien.html',
+      'https://www.city.kagoshima.lg.jp/koyosuishin/sangyo/koyo/kohoshi/ijushienkin.html'
+    ],
+    sourceNote: '鹿児島県公式ページで支給額、18歳未満加算、課税注意、加算対象市町村を確認。鹿児島市公式ページで市実施例を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'okinawa-migration-support',
+    title: '沖縄県 移住支援金制度',
+    organization: '沖縄県・県内実施市町村',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、18歳未満1人につき最大100万円加算',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '沖縄県',
+    tags: ['沖縄県', '移住支援', '東京圏', '市町村申請'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた方が、沖縄県内の実施市町村へ移住し、就業・起業等の要件を満たす場合に対象です。',
+    applicationPeriod: '実施市町村の受付期間に従う。予算がなくなり次第終了の場合あり',
+    description: '東京圏から沖縄県内の実施市町村へ移住する方を支援する移住支援金制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>沖縄県移住支援金制度は、東京圏から沖縄県内の実施市町村へ移住し、就業・起業等の要件を満たす方に支援金を支給する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>2人以上の家族・世帯の場合は100万円、単身者の場合は60万円です。18歳未満の世帯員を帯同して移住する場合は、18歳未満の方1人につき最大100万円が加算されます。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請先は移住先の実施市町村です。各要件は実施市町村によって異なる場合があるため、詳細は市町村へ確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.okinawa.jp/kurashikankyo/iju/1023708.html',
+    sourceName: '沖縄県 移住支援金制度のご案内',
+    sourceUrls: [
+      'https://www.pref.okinawa.jp/kurashikankyo/iju/1023708.html',
+      'https://www.vill.kunigami.okinawa.jp/migration_support_money/'
+    ],
+    sourceNote: '沖縄県公式ページで支給額、18歳未満加算、実施市町村差、課税注意を確認。国頭村公式ページで予算終了注意と市町村実施例を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'yokohama-living-support-coupon-2026',
+    title: '横浜市 ヨコハマ生活応援クーポン',
+    organization: '横浜市',
+    type: 'local',
+    maxAmount: '1人につき5,000円相当',
+    maxAmountNum: 0.5,
+    category: 'living',
+    prefecture: '神奈川県',
+    tags: ['横浜市', '生活支援', '物価高騰対策', 'クーポン'],
+    eligibility: '横浜市が対象として案内する市民等。給付方法や対象者は市の公式案内・通知で確認してください。',
+    applicationPeriod: '横浜市の公式案内・通知に従う',
+    description: '食料品等の価格高騰に対応するため、横浜市が1人につき5,000円相当の電子クーポンまたは商品券を給付する生活支援事業です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>ヨコハマ生活応援クーポンは、食料品等の価格高騰に対応するため、横浜市が実施する給付事業です。電子クーポンまたは商品券を選べます。</p>'
+      },
+      {
+        heading: '給付内容',
+        content: '<p>給付額は1人につき5,000円相当です。電子クーポンはスマホ決済サービス、電子ポイント、飲食店、衣料品店、オンラインストア等で使える複数のラインナップから選べると案内されています。</p>'
+      },
+      {
+        heading: '確認方法',
+        content: '<p>対象者、受け取り方法、申請または手続きの要否は横浜市の公式案内で確認してください。通知が届いた場合は、記載された期限と手順に従ってください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/bukkakoto/kyufu.html',
+    sourceName: '横浜市 ヨコハマ生活応援クーポン',
+    sourceUrls: [
+      'https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/bukkakoto/kyufu.html'
+    ],
+    sourceNote: '横浜市公式ページで、食料品等価格高騰対応給付事業、1人5,000円相当、電子クーポンまたは商品券の給付を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'higashiosaka-inflation-relief-2026',
+    title: '東大阪市 物価高騰対策給付金',
+    organization: '東大阪市',
+    type: 'local',
+    maxAmount: '市民1人あたり7,000円、対象世帯は1人あたり2,000円上乗せ',
+    maxAmountNum: 0.9,
+    category: 'living',
+    prefecture: '大阪府',
+    tags: ['東大阪市', '生活支援', '物価高騰対策', '重点支援地方交付金'],
+    eligibility: '東大阪市民を対象にした物価高騰対策。非課税世帯および住民税均等割のみ課税世帯は上乗せ対象です。詳細な基準日は市公式案内で確認してください。',
+    applicationPeriod: '東大阪市の確認書・公式案内に従う。審査後順次支給',
+    description: '物価高騰の影響が市民生活に広く及ぶ中、東大阪市が国の重点支援地方交付金を活用して実施する生活支援給付金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>東大阪市物価高騰対策給付金は、物価高騰の影響を受ける市民生活を支援するため、市民を対象に給付金を支給する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>市民1人あたり7,000円が支給されます。非課税世帯および住民税均等割のみ課税世帯に属する市民には、世帯員1人あたり2,000円が上乗せされます。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>確認書が届いた世帯は、内容確認や必要書類の提出が必要です。市が書類を審査し、支給決定後に順次振り込みます。提出期限や不備対応は市の最新案内で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.higashiosaka.lg.jp/0000043430.html',
+    sourceName: '東大阪市 国の総合経済対策における物価高騰対策について',
+    sourceUrls: [
+      'https://www.city.higashiosaka.lg.jp/0000043430.html'
+    ],
+    sourceNote: '東大阪市公式ページで、市民1人7,000円、非課税・均等割のみ課税世帯への2,000円上乗せ、確認書審査後の順次振込を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
