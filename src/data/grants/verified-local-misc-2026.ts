@@ -16710,4 +16710,33 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'naha-housing-reform',
+    title: '那覇市 介護保険住宅改修',
+    organization: '那覇市',
+    type: 'local',
+    maxAmount: '対象改修費20万円まで',
+    maxAmountNum: 20,
+    category: 'nursing',
+    relatedCategories: ['housing', 'medical', 'living'],
+    prefecture: '沖縄県',
+    tags: ['那覇市', '介護保険', '住宅改修', 'バリアフリー', '令和8年度'],
+    eligibility: '那覇市で介護保険の要支援または要介護認定を受け、在宅生活のために手すり取付け、段差解消など対象住宅改修を行う方が対象です。',
+    applicationPeriod: '工事前の事前申請が必要。着工済みの工事は対象外',
+    description: '那覇市が、介護保険制度に基づき、要支援・要介護認定を受けた方の在宅生活に必要な住宅改修費を支給する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>那覇市介護保険住宅改修は、要支援または要介護認定を受けた方が、自宅で安全に生活するための住宅改修を行う場合に、介護保険から住宅改修費の支給を受けられる制度です。既存の生成データでは一般的な住宅リフォーム助成としていましたが、公式ページで確認できる現行の介護保険住宅改修へ修正しています。</p>' },
+      { heading: '支給内容', content: '<p>公式ページでは、20万円までの改修費用に対して、利用者の自己負担割合に応じた介護保険給付が受けられると案内されています。対象工事は手すりの取付け、段差の解消、滑り防止や移動円滑化のための床材変更、引き戸等への扉の取替え、洋式便器等への便器取替えなどです。</p>' },
+      { heading: '申請の注意点', content: '<p>給付を受けるには、工事前に那覇市ちゃーがんじゅう課へ事前申請し、承認を受ける必要があります。着工済みの工事は住宅改修費の支給対象外です。ケアマネジャー等による住宅改修が必要な理由書も必要になります。</p>' }
+    ],
+    officialUrl: 'https://www.city.naha.okinawa.jp/fukusi/kagohoken/1003087/1003160/1003162.html',
+    sourceName: '那覇市 介護保険住宅改修',
+    sourceUrls: [
+      'https://www.city.naha.okinawa.jp/fukusi/kagohoken/1003087/1003160/1003162.html',
+      'https://www.city.naha.okinawa.jp/_res/projects/default_project/_page_/001/003/162/jukai_tebiki2022.pdf'
+    ],
+    sourceNote: '那覇市公式ページで、2026年1月30日更新、要支援・要介護認定者の在宅生活のための住宅改修、20万円までの改修費用、自己負担割合に応じた給付、工事前の事前申請必須、着工済み工事は対象外を確認。旧生成データの一般住宅リフォーム助成から現行制度へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
