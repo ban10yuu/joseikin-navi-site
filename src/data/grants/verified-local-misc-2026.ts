@@ -16990,4 +16990,33 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'kochi-city-elderly-support',
+    title: '高知市 緊急通報装置利用助成金交付事業',
+    organization: '高知市',
+    type: 'local',
+    maxAmount: '利用料月額418円以内・設置費最大11,000円',
+    maxAmountNum: 1,
+    category: 'living',
+    relatedCategories: ['nursing', 'medical'],
+    prefecture: '高知県',
+    tags: ['高知市', '高知県', '緊急通報装置', '高齢者支援', '見守り'],
+    eligibility: '高知市内に居住し、生活上不安のある一人暮らしの方で、おおむね65歳以上の方または重度身体障がい者等が対象です。',
+    applicationPeriod: '通年受付',
+    description: '高知市が、一人暮らしの高齢者や重度身体障がい者等が住み慣れた地域で安心して生活できるよう、緊急通報装置の利用費用を助成する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>高知市緊急通報装置利用助成金交付事業は、生活上不安のある一人暮らしの高齢者等が、緊急時に通報できる装置を利用する費用を助成する制度です。既存の生成データでは緊急通報装置の無料貸与等としていましたが、公式ページで確認できる現行制度は利用料助成です。</p>' },
+      { heading: '助成内容', content: '<p>助成額は1か月あたり380円、税込418円以内です。生活保護または中国残留邦人等に対する支援給付を受けている方には、緊急通報装置の設置費用について1万円、税込11,000円を上限に助成すると案内されています。</p>' },
+      { heading: '関連する生活支援', content: '<p>高知市では、在宅の高齢者へ定期的に食事を提供し、訪問時に安否確認を行う配食サービス事業も令和8年4月1日更新で案内されています。対象者や自己負担は世帯の課税状況、心身状態、支援可能な親族の有無などで異なるため、地域包括支援センターや高齢者支援課へ確認してください。</p>' }
+    ],
+    officialUrl: 'https://www.city.kochi.kochi.jp/soshiki/130/kinkyutuuhoujosei.html',
+    sourceName: '高知市 緊急通報装置利用助成金交付事業',
+    sourceUrls: [
+      'https://www.city.kochi.kochi.jp/soshiki/130/kinkyutuuhoujosei.html',
+      'https://www.city.kochi.kochi.jp/soshiki/130/haishoku20260401.html'
+    ],
+    sourceNote: '高知市公式ページで、2025年7月14日更新の緊急通報装置利用助成金交付事業、対象者、利用料月額380円税込418円以内、生活保護等受給者への設置費用上限1万円税込11,000円助成を確認。2026年4月1日更新の配食サービス事業も関連生活支援として確認。旧生成データの無料貸与等から現行の利用料助成へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
