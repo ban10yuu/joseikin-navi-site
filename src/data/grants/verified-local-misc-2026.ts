@@ -17249,4 +17249,34 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'tokushima-child-medical',
+    title: '徳島県 子どもはぐくみ医療費助成制度',
+    organization: '徳島県',
+    type: 'local',
+    maxAmount: '保険診療自己負担分を助成',
+    maxAmountNum: 0,
+    category: 'medical',
+    relatedCategories: ['childcare', 'living'],
+    prefecture: '徳島県',
+    tags: ['徳島県', '子どもはぐくみ医療費', '子ども医療費助成', '18歳年度末', '子育て'],
+    eligibility: '徳島県内市町村に住所があり、健康保険に加入している、18歳に達する年度末までの子どもが対象です。細かな要件や申請先は居住市町村により異なります。',
+    applicationPeriod: '通年。出生・転入時などに市町村窓口で申請',
+    description: '徳島県内の市町村が、子どもの保険診療にかかる医療費自己負担分を助成する制度です。県公式ページでは市町村制度の概要が案内されています。',
+    sections: [
+      { heading: '制度の概要', content: '<p>徳島県子どもはぐくみ医療費助成制度は、18歳に達する年度末までの子どもの医療費負担を軽減する制度です。既存の生成データでは「医療費全額助成」としていましたが、公式ページで確認できる自己負担条件を反映して修正しています。</p>' },
+      { heading: '助成内容', content: '<p>県公式ページでは、現物給付と償還給付の仕組み、市町村制度の概要、自己負担の扱いが案内されています。通院の場合は3歳から18歳に達する年度末まで1レセプトにつき600円の自己負担が必要です。調剤薬局はこの自己負担の対象外です。県外医療機関を受診した場合は、すべて償還給付となります。</p>' },
+      { heading: '申請の注意点', content: '<p>受給者証の発行や払い戻しの手続きは、市町村が窓口です。対象年齢、所得制限の有無、自己負担の上乗せ軽減などは市町村で扱いが異なる場合があるため、住んでいる市町村のページも確認してください。</p>' }
+    ],
+    officialUrl: 'https://www.pref.tokushima.lg.jp/sp/ippannokata/kenko/kosodateshien/2008032500022/',
+    sourceName: '徳島県 子どもはぐくみ医療費助成市町村制度の概要',
+    sourceUrls: [
+      'https://www.pref.tokushima.lg.jp/sp/ippannokata/kenko/kosodateshien/2008032500022/',
+      'https://www.miyoshi.i-tokushima.jp/docs/4230373.html',
+      'https://www.city.naruto.lg.jp/docs/2024121900016/'
+    ],
+    sourceNote: '徳島県公式ページで、子どもはぐくみ医療費助成市町村制度の概要、現物給付・償還給付、県外医療機関はすべて償還給付、3歳から18歳年度末までの通院は1レセプト600円の自己負担、調剤薬局は除外を確認。三好市・鳴門市公式ページで、18歳年度末まで、保険診療自己負担分の助成、入院自己負担なし、県外受診時の償還払い等を補助確認。旧生成データの医療費全額助成表現から公式条件へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
