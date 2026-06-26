@@ -741,4 +741,226 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'aomori-migration-support',
+    title: '青森県 あおもり移住支援事業',
+    organization: '青森県・県内市町村',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、18歳未満加算最大100万円',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '青森県',
+    tags: ['青森県', '移住支援', '東京圏', '市町村申請'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた方が、青森県内市町村へ移住し、対象求人への就業・起業・テレワーク等の要件を満たす場合に対象です。',
+    applicationPeriod: '移住先市町村の受付期間に従う。予算上限に達した場合は受付終了の可能性あり',
+    description: '青森県と県内市町村が共同で、県内への移住・定住促進と中小企業等の人手不足解消を目的に支給する移住支援金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>あおもり移住支援事業は、東京圏から青森県内へ移住し、就業・起業・テレワーク等の要件を満たす方を支援する制度です。申請は移住先市町村で行います。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>単身での移住は60万円、世帯での移住は100万円です。18歳未満の世帯員を帯同する場合は、18歳未満の方1人につき最大100万円が加算される場合があります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>対象求人、子育て加算額、申請できる期間、受付状況は市町村により異なります。転入前に移住先市町村へ直接確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.aomori.lg.jp/soshiki/kodomo/wakamono/ijyuusiennkinn.html',
+    sourceName: '青森県 最大100万円を支給します！ あおもり移住支援事業',
+    sourceUrls: [
+      'https://www.pref.aomori.lg.jp/soshiki/kodomo/wakamono/ijyuusiennkinn.html',
+      'https://www.hirosakigurashi.jp/executive-service/payments/'
+    ],
+    sourceNote: '青森県公式ページで支給額、18歳未満加算、市町村申請、予算上限時の受付終了を確認。弘前市公式移住ページで市町村側の支給額例を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'iwate-migration-support',
+    title: '岩手県 移住支援金',
+    organization: '岩手県・県内市町村',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、18歳未満1人につき100万円加算',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '岩手県',
+    tags: ['岩手県', '移住支援', '東京圏', '市町村申請'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた方が、岩手県内へ移住し、就業・起業・テレワーク・関係人口等の要件を満たす場合に対象です。',
+    applicationPeriod: '移住先市町村の受付期間に従う。申請先は市町村の移住支援金担当課',
+    description: '岩手県が東京圏から県内へ移住する方の経済的負担を軽減するために実施する移住支援金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>岩手県移住支援金は、東京圏から岩手県内へ移住し、就業・起業・テレワーク・関係人口などの要件を満たす方を支援する制度です。住民票の異動を伴う移住が前提です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>世帯での移住は100万円、単身での移住は60万円です。18歳未満の子どもを帯同して移住する場合は、1人あたり100万円が加算されます。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請先は移住先の市町村です。移住元・移住先要件、就業等の要件、必要書類、受付期限は市町村の最新案内で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.iwate.jp/kurashikankyou/1021252/1019670.html',
+    sourceName: '岩手県 岩手県移住支援金の支給',
+    sourceUrls: [
+      'https://www.pref.iwate.jp/kurashikankyou/1021252/1019670.html',
+      'https://www.shigotoba-iwate.com/shienkin/'
+    ],
+    sourceNote: '岩手県公式ページで支給金額、子育て加算、申請先、市町村担当課を確認。県関連求人サイトで対象者範囲を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'yamagata-migration-support',
+    title: '山形県 移住支援事業（移住支援金）',
+    organization: '山形県・県内市町村',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、18歳未満加算最大100万円',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '山形県',
+    tags: ['山形県', '移住支援', '東京圏', '市町村申請'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた方が、山形県内へ移住し、就業・起業・テレワーク等の要件を満たす場合に対象です。',
+    applicationPeriod: '移住先市町村の受付期間に従う。転入後の期限や必要書類は市町村へ確認',
+    description: '山形県内への移住と就業・起業等を支援する移住支援金です。支給は県内市町村を通じて行われます。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>山形県移住支援事業は、東京圏から山形県内へ移住し、就業・起業・テレワーク等の要件を満たす方に移住支援金を支給する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>世帯での移住は100万円、単身での移住は60万円です。18歳未満の世帯員がいる場合は、18歳未満1人あたり最大100万円が加算される場合があります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請先は移住先市町村です。対象求人、起業支援金、テレワーク、関係人口要件、申請期限、予算状況を市町村の公式案内で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.yamagata.jp/020030/kurashi/chiiki/ijuushashien/ijyushien.html',
+    sourceName: '山形県 山形県移住支援事業（移住支援金）について',
+    sourceUrls: [
+      'https://www.pref.yamagata.jp/020030/kurashi/chiiki/ijuushashien/ijyushien.html',
+      'https://job.yamagata-iju.jp/shienkin'
+    ],
+    sourceNote: '山形県公式ページで支給額、18歳未満加算、制度概要を確認。山形県移住支援金対象求人サイトで対象者要件を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'ishikawa-migration-support',
+    title: '石川県 いしかわ移住支援事業',
+    organization: '石川県・県内市町',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、18歳未満の子1人につき100万円加算',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '石川県',
+    tags: ['石川県', '移住支援', '東京圏', '市町申請'],
+    eligibility: '東京23区に5年以上在住または通勤していた方が、石川県内へUIターンし、対象法人への就業・テレワーク・関係人口等の要件を満たす場合に対象です。',
+    applicationPeriod: '令和8年度受付中。県または市町の予算上限に達した場合は期限前終了の可能性あり',
+    description: '石川県内への移住・定住促進と県内中小企業等の人手不足解消を目的に実施される移住支援事業です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>いしかわ移住支援事業は、東京23区に5年以上在住または通勤した方が石川県内へUIターンし、対象法人への就業、テレワーク、関係人口等の要件を満たす場合に支援金を支給する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>世帯の場合は100万円、単身の場合は60万円です。18歳未満の子どもを帯同する世帯は、18歳未満の子1人につき100万円が加算されます。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請は移住先市町で行います。県または市町の予算上限に達した場合は受付終了となることがあるため、移住前に窓口へ確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.ishikawa.lg.jp/roudou/ilac/izyushienkin.html',
+    sourceName: '石川県 いしかわ移住支援事業',
+    sourceUrls: [
+      'https://www.pref.ishikawa.lg.jp/roudou/ilac/izyushienkin.html',
+      'https://iju.ishikawa.jp/localsupport/'
+    ],
+    sourceNote: '石川県公式ページで令和8年度受付、支給額、18歳未満加算、対象要件を確認。公式移住情報ひろばで制度概要を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'mie-migration-support',
+    title: '三重県 移住支援金',
+    organization: '三重県・県内市町',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、18歳未満加算最大100万円',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '三重県',
+    tags: ['三重県', '移住支援', '東京圏', '市町申請'],
+    eligibility: '東京23区内在住者または東京圏在住で東京23区内へ通勤していた方が、三重県内の対象市町へ移住し、就業等の要件を満たす場合に対象です。',
+    applicationPeriod: '移住先市町の受付期間に従う。対象市町・受付状況は市町へ確認',
+    description: '三重県が東京圏から県内市町への移住を支援する移住支援金です。県内の一部市町を除く対象市町で実施されています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>三重県移住支援金は、東京23区内に在住または東京圏から東京23区内へ通勤していた方が、県内対象市町へ移住し、就業等の要件を満たす場合に支給されます。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>単身での移住は60万円、2人以上の世帯での移住は100万円です。18歳未満の子どもを帯同する場合は、子ども1人につき最大100万円が加算されます。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請は移住先市町で行います。対象市町、就業・起業・テレワーク等の要件、予算状況、必要書類は市町の公式案内で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.ijyu.pref.mie.lg.jp/support/',
+    sourceName: '美し国みえ 移住ポータルサイト 移住者支援制度',
+    sourceUrls: [
+      'https://www.ijyu.pref.mie.lg.jp/support/',
+      'https://www.city.yokkaichi.lg.jp/www/contents/1589692436765/index.html'
+    ],
+    sourceNote: '三重県公式移住ポータルで支給額、18歳未満加算、対象市町を確認。四日市市公式ページで令和8年度の市町実施例を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'shiga-migration-support',
+    title: '滋賀県 移住就業支援事業',
+    organization: '滋賀県・県内対象市町',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、一部自治体で18歳未満加算最大50万円',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '滋賀県',
+    tags: ['滋賀県', '移住支援', '東京圏', '市町申請'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた方が、滋賀県内の移住対象市町へ移住し、就業・起業等の要件を満たす場合に対象です。',
+    applicationPeriod: '移住先市町が定める受付期間。転入後1年以内の申請が必要',
+    description: '滋賀県内の対象市町へ移住し、就業・起業等の要件を満たす方に支給される移住就業支援金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>滋賀県移住就業支援事業は、東京圏から滋賀県内の移住対象市町へ移住し、就業・起業等の要件を満たす方を支援する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>2人以上の世帯の場合は100万円、単身の場合は60万円です。一部自治体では、18歳未満の世帯員を帯同して移住する場合、18歳未満の方1人につき最大50万円が加算されます。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請先は移住先市町の担当窓口です。対象市町、受付期間、必要書類、返還要件を市町の公式案内で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.shiga.lg.jp/ippan/shigotosangyou/shigoto/304820.html',
+    sourceName: '滋賀県 滋賀県移住就業支援事業',
+    sourceUrls: [
+      'https://www.pref.shiga.lg.jp/ippan/shigotosangyou/shigoto/304820.html',
+      'https://www.city.higashiomi.shiga.jp/ijuu_teijuu/teijuu_ijuushiennguide/1006819.html'
+    ],
+    sourceNote: '滋賀県公式ページで対象市町、支給額、18歳未満加算、転入後1年以内申請、申請先を確認。東近江市公式ページで市町実施例を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
