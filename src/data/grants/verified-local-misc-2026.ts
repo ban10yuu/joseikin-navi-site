@@ -1960,4 +1960,224 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'sapporo-eco-reform-2026',
+    title: '札幌市 住宅エコリフォーム補助制度',
+    organization: '札幌市',
+    type: 'local',
+    maxAmount: '最大50万円',
+    maxAmountNum: 50,
+    category: 'housing',
+    prefecture: '北海道',
+    tags: ['札幌市', '住宅リフォーム', '省エネ改修', 'バリアフリー'],
+    eligibility: '札幌市民が、市内に主たる営業所を持つ建設業許可事業者に依頼し、省エネ改修やバリアフリー改修を行う場合に対象です。',
+    applicationPeriod: '第2回受付は2026年9月4日から2026年9月17日まで。受付延長最終期限は2026年11月27日',
+    deadlineDate: '2026-11-27',
+    description: '札幌市内の住宅で、省エネ改修やバリアフリー改修を行う市民を支援する住宅リフォーム補助制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>札幌市住宅エコリフォーム補助制度は、省エネ改修やバリアフリー改修を行う札幌市民に対し、改修費用の一部を補助する制度です。外壁・屋根の塗装のみを目的とした工事は対象外です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>補助額は対象工事ごとに定める補助金額の合計、総工事費の10％、1申請者あたり50万円のうち最も少ない額が上限です。補助金額の合計が3万円以上、総工事費が30万円以上となる工事が対象です。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請書は受付期間内に郵送必着で提出します。第1回受付は終了しており、第2回受付は2026年9月4日から9月17日までと案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.sapporo.jp/toshi/jutaku/03reform/eco/eco.html',
+    sourceName: '札幌市 住宅エコリフォーム補助制度',
+    sourceUrls: [
+      'https://www.city.sapporo.jp/toshi/jutaku/03reform/eco/eco.html'
+    ],
+    sourceNote: '札幌市公式ページで令和8年度制度、対象工事、第2回受付期間、郵送提出、パンフレット公開を確認。公式パンフレット記載の上限額を反映。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'morioka-reform-support-2026',
+    title: '盛岡市 リフォーム支援事業2026',
+    organization: '盛岡市',
+    type: 'local',
+    maxAmount: 'MORIO Payプレミアム商品券で支援',
+    maxAmountNum: 10,
+    category: 'housing',
+    prefecture: '岩手県',
+    tags: ['盛岡市', '住宅リフォーム', '物価高騰対策', 'MORIO Pay'],
+    eligibility: '盛岡市内の住宅で、対象となるリフォーム工事を行う方が対象です。工事請負契約書、見積書、施工前写真などの提出が必要です。',
+    applicationPeriod: '2026年度事業として受付中。定員に達した場合は受付日ごとに抽選・繰上げ',
+    description: '物価高騰対応関連として、盛岡市が住宅リフォームを支援するMORIO Payプレミアム商品券発行事業です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>盛岡市リフォーム支援事業2026は、物価高騰対応関連の経済対策として、市内住宅のリフォーム工事を支援する制度です。支援はMORIO Payプレミアム商品券の発行により行われます。</p>'
+      },
+      {
+        heading: '対象工事と必要書類',
+        content: '<p>申請には、交付申請書、誓約書兼同意書、工事請負契約書または請書、工事費見積書、工事設計図書または施工箇所の見取り図、施工前写真などが必要です。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請受付と実績報告の窓口は岩手県建築住宅センターです。受付件数や定員、抽選・繰上げの扱いは盛岡市公式ページで随時更新されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.morioka.iwate.jp/jigyousha/1026070/shogyo/1055584.html',
+    sourceName: '盛岡市 リフォーム支援事業2026',
+    sourceUrls: [
+      'https://www.city.morioka.iwate.jp/jigyousha/1026070/shogyo/1055584.html'
+    ],
+    sourceNote: '盛岡市公式ページでリフォーム支援事業2026、受付件数、定員、必要書類、問い合わせ先を確認。支援額は公式申請マニュアル・商品券案内に基づく。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'sendai-energy-saving-renovation-2026',
+    title: '仙台市 せんだい健幸省エネ住宅補助金（部分改修向け）',
+    organization: '仙台市',
+    type: 'local',
+    maxAmount: '断熱改修費用の一部を補助',
+    maxAmountNum: 120,
+    category: 'housing',
+    prefecture: '宮城県',
+    tags: ['仙台市', '省エネ住宅', '断熱改修', '住宅補助'],
+    eligibility: '仙台市内に住所があり、申請する住宅の所有者、その配偶者または一親等の親族で、市税滞納がない方などが対象です。',
+    applicationPeriod: '2026年度は3回に分けて募集。第1回申込は終了、以降の受付は公式ページで確認',
+    description: '家庭からの温室効果ガス排出削減効果の高い、住宅の断熱性能を高める部分改修工事を支援する仙台市の補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>せんだい健幸省エネ住宅補助金は、既存住宅の窓、床、壁、天井、屋根などの断熱性能を高める改修工事を支援する制度です。</p>'
+      },
+      {
+        heading: '補助対象者',
+        content: '<p>申請する住宅の所有者、その配偶者または一親等の親族で、市内に住所があること、市税を滞納していないこと、同一年度内に申請していないことなどが要件です。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>2026年度は申込書受付を3回に分けて実施します。第1回は終了しており、抽選結果や必要書類の提出期限は公式ページで案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.sendai.jp/ondanka/kodannetsu/kaisyuhozyo.html',
+    sourceName: '仙台市 せんだい健幸省エネ住宅補助金（部分改修向け）',
+    sourceUrls: [
+      'https://www.city.sendai.jp/ondanka/kodannetsu/kaisyuhozyo.html'
+    ],
+    sourceNote: '仙台市公式ページで2026年度事業、予算額4,000万円、補助対象者、断熱改修対象、3回募集を確認。補助上限は公式手引きの区分額を参照。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'akita-housing-reform-2026',
+    title: '秋田市 住宅リフォーム支援事業',
+    organization: '秋田市',
+    type: 'local',
+    maxAmount: '通常5万円、中心市街地区域は10万円',
+    maxAmountNum: 10,
+    category: 'housing',
+    prefecture: '秋田県',
+    tags: ['秋田市', '住宅リフォーム', '住環境', '災害復旧'],
+    eligibility: '秋田市内に住所を有し、市税滞納がなく、自らまたは親族が所有・居住する住宅の増改築やリフォームを行う方が対象です。',
+    applicationPeriod: '2026年4月1日から2026年12月28日まで。予算到達時は期限前終了',
+    deadlineDate: '2026-12-28',
+    description: '既存住宅の住環境の維持・向上と長寿命化を図るため、秋田市民が行う住宅の増改築・リフォーム工事を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>秋田市住宅リフォーム支援事業は、既存住宅の増改築やリフォーム工事などの住環境整備を支援する制度です。工事完成後の申請となります。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>通常のリフォーム工事は5万円、中心市街地活性化プランで設定した区域内の住宅は10万円です。自然災害による住宅被害の復旧工事は補助対象工事費の10％、上限5万円です。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請は窓口提出、郵送、メールで受け付けています。2026年12月28日までの受付ですが、予算到達時は期限前に終了します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.akita.lg.jp/kurashi/sumai/1007487/1007790.html',
+    sourceName: '秋田市 住宅リフォーム支援事業',
+    sourceUrls: [
+      'https://www.city.akita.lg.jp/kurashi/sumai/1007487/1007790.html'
+    ],
+    sourceNote: '秋田市公式ページで令和8年度制度、補助額、申請期間、対象工事、受付状況を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'yamagata-housing-reform-2026',
+    title: '山形市 住宅リフォーム総合支援事業',
+    organization: '山形市',
+    type: 'local',
+    maxAmount: '移住・新婚・子育て世帯は最大30万円、加算あり',
+    maxAmountNum: 50,
+    category: 'housing',
+    prefecture: '山形県',
+    tags: ['山形市', '住宅リフォーム', '移住世帯', '子育て世帯'],
+    eligibility: '山形市民で、リフォーム工事を行う住宅または空き家バンク登録空き家の所有者などが対象です。市税滞納がないことなどの要件があります。',
+    applicationPeriod: '第1回募集は2026年4月20日から4月24日、第2回募集は2026年6月15日から6月19日',
+    deadlineDate: '2026-06-19',
+    description: '山形市が住宅のリフォーム工事を支援する総合支援事業です。市補助タイプと県市補助タイプがあり、移住・新婚・子育て世帯の補助率が高く設定されています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>山形市住宅リフォーム総合支援事業は、市内住宅の屋根・外壁、内装、門塀、敷地内通路、車庫・物置などの工事を支援する制度です。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>県市補助タイプは、一般世帯が工事費の20％で上限24万円、移住・新婚・子育て世帯は工事費の33％で上限30万円です。一定の工事では補助限度額の加算があります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>募集は期間を分けて行われ、申込み多数の場合は公開抽選です。移住世帯、空き家バンク登録空き家、豪雨被災住宅による申込みは優先扱いがあります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.yamagata-yamagata.lg.jp/kurashi/tochi/1007258/1003551.html',
+    sourceName: '山形市 令和8年度 住宅リフォーム総合支援事業',
+    sourceUrls: [
+      'https://www.city.yamagata-yamagata.lg.jp/kurashi/tochi/1007258/1003551.html'
+    ],
+    sourceNote: '山形市公式ページで令和8年度制度、募集期間、対象工事、補助率、補助上限、移住・新婚・子育て世帯区分を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'mito-safe-housing-reform-2026',
+    title: '水戸市 安心住宅リフォーム支援補助金',
+    organization: '水戸市',
+    type: 'local',
+    maxAmount: '最大10万円',
+    maxAmountNum: 10,
+    category: 'housing',
+    prefecture: '茨城県',
+    tags: ['水戸市', '住宅リフォーム', '屋根外壁', '水回り'],
+    eligibility: '水戸市内の住宅で、特定の施工者と請負契約により50万円以上のリフォーム工事を行う場合などが対象です。',
+    applicationPeriod: '前期交付申請受付は2026年5月7日から2026年6月30日まで',
+    deadlineDate: '2026-06-30',
+    description: '住宅の安全性、耐久性、居住性を向上させる改修工事を支援する水戸市の補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>水戸市安心住宅リフォーム支援補助金は、屋根、外壁、断熱、内装、水回り、間取り変更など、住宅の安全性・耐久性・居住性を向上させるリフォーム工事を支援する制度です。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>補助対象経費の10分の1を補助し、総額10万円を上限とします。リフォームアドバイザー派遣は補助対象経費の2分の1が対象です。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>当選後、交付申請期間内に必要書類を提出します。前期の交付申請受付は2026年5月7日から6月30日までで、郵送は6月30日17時15分必着です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.mito.lg.jp/page/3548.html',
+    sourceName: '水戸市 安心住宅リフォーム支援補助金',
+    sourceUrls: [
+      'https://www.city.mito.lg.jp/page/3548.html'
+    ],
+    sourceNote: '水戸市公式ページで対象工事、補助対象経費、補助率10分の1、上限10万円、前期交付申請期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
