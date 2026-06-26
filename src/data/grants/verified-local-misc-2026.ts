@@ -13684,6 +13684,49 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-26',
   },
   {
+    slug: 'toyama-child-support',
+    title: '富山県 とみいくデジタルポイント',
+    organization: '富山県',
+    type: 'local',
+    maxAmount: '子ども1人につき一律3万円分',
+    maxAmountNum: 3,
+    category: 'childcare',
+    relatedCategories: ['medical', 'living'],
+    prefecture: '富山県',
+    tags: ['富山県', 'とみいくデジタルポイント', '子育て支援ポイント', '1歳半', '3万円'],
+    eligibility: '令和6年10月1日以降に1歳半を迎える子どもを持つ保護者が対象です。',
+    targetOccupation: '富山県内の1歳半を迎える子どもの保護者',
+    applicationPeriod: '令和6年10月開始。子どもの1歳半時に市町村から申請用二次元コードが送付・配布',
+    description: '富山県が、子育て支援サービスに利用できる電子ポイントを子ども1人につき一律3万円分配布する制度です。従来の「とやまっ子 子育て応援券」は終了し、令和6年10月から「とみいくデジタルポイント」として実施されています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>富山県子育て支援ポイント事業は、3歳までの子どもを持つ家庭に配布していた「とやまっ子 子育て応援券」を見直し、子育て支援サービスに使える電子ポイント「とみいくデジタルポイント」を配布する制度です。開始時期は令和6年10月です。</p>'
+      },
+      {
+        heading: '対象者と配布額',
+        content: '<p>対象は、令和6年10月1日以降に1歳半を迎える子どもを持つ保護者です。配布時期は子どもの1歳半時で、配布額は出生順に関わらず子ども1人につき一律3万円分の電子ポイントです。申請や利用には「とみいくフレフレ」アプリと「TOYAMA ONE Wallet」アプリの利用が案内されています。</p>'
+      },
+      {
+        heading: '利用方法と対象サービス',
+        content: '<p>利用者は、市町村から送付・配布される申請用二次元コードを受け取り、「とみいくフレフレ」アプリで読み取ってポイントを受領します。ポイントは加盟店舗の支払いに利用します。対象サービスは、育児用品の購入・レンタル、記念写真撮影、一時預かり、子どもの送迎、病児・病後児保育、家事支援、任意の予防接種、乳児健康診査、出産後ケアなどです。</p>'
+      },
+      {
+        heading: '旧応援券との違い',
+        content: '<p>公式ページでは、「とやまっ子 子育て応援券」は令和8年3月30日をもってすべての券が有効期限を迎え、終了したと案内されています。現在確認すべき制度は、紙の応援券ではなく「とみいくデジタルポイント」です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.toyama.jp/120101/kurashi/kyouiku/kosodate/shienjigyou/kosodateshienpointo.html',
+    sourceName: '富山県 「富山県子育て支援ポイント」事業について',
+    sourceUrls: [
+      'https://www.pref.toyama.jp/120101/kurashi/kyouiku/kosodate/shienjigyou/kosodateshienpointo.html',
+      'https://www.pref.toyama.jp/120101/kurashi/kyouiku/kosodate/shienjigyou/kj00007317.html'
+    ],
+    sourceNote: '富山県公式ページで2026年6月4日更新、令和6年10月開始、令和6年10月1日以降に1歳半を迎える子どもを持つ保護者、子どもの1歳半時、出生順に関わらず一律3万円分の電子ポイント、申請用二次元コード、とみいくフレフレアプリとTOYAMA ONE Wallet、加盟店舗での利用、対象サービスを確認。別の富山県公式ページで「とやまっ子 子育て応援券」は令和8年3月30日に全券が有効期限を迎えて終了したことを確認し、旧生成データを現行制度へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
+  {
     slug: 'kofu-newlywed-life-support-2026',
     title: '甲府市 結婚新生活支援事業',
     organization: '甲府市',
