@@ -13567,6 +13567,45 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-26',
   },
   {
+    slug: 'sendai-newborn-hearing-test-2026',
+    title: '仙台市 新生児聴覚検査費助成',
+    organization: '仙台市',
+    type: 'local',
+    maxAmount: '最大5,000円',
+    maxAmountNum: 0.5,
+    category: 'medical',
+    relatedCategories: ['childcare'],
+    prefecture: '宮城県',
+    tags: ['仙台市', '新生児聴覚検査', '赤ちゃん', '医療費助成', '子育て'],
+    eligibility: '仙台市に住民票がある乳児が、生後1か月以内に実施する初回の新生児聴覚検査が対象です。長期入院など特別な事情がある場合は生後1か月を超えた検査も対象になる場合があります。',
+    targetOccupation: '仙台市内の新生児・乳児の保護者',
+    applicationPeriod: '出生後の初回検査時。助成券を登録医療機関へ提出',
+    description: '仙台市が、新生児の聴覚障害を早期に発見し適切な支援につなげるため、生後1か月以内の初回新生児聴覚検査費用を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>仙台市新生児聴覚検査費助成は、赤ちゃんの聞こえの状態を早期に確認するため、生後1か月以内に実施する初回検査1回分の費用を助成する制度です。</p>'
+      },
+      {
+        heading: '対象となる検査',
+        content: '<p>助成対象は、自動聴性脳幹反応検査（自動ABR）または耳音響放射検査（OAE）のいずれかにより実施した初回検査です。医療機関により検査方法が指定されており、長期入院など特別な事情がある場合は生後1か月を超えた検査でも対象となる場合があります。</p>'
+      },
+      {
+        heading: '助成額',
+        content: '<p>自動聴性脳幹反応検査（自動ABR）は上限5,000円、耳音響放射検査（OAE）は上限2,200円です。助成上限額と検査費用のいずれか低い方が助成額となります。助成券を検査実施医療機関へ提出すると、検査費用から助成額が差し引かれます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.sendai.jp/kodomo-hoken/choukaku.html',
+    sourceName: '仙台市 新生児聴覚検査',
+    sourceUrls: [
+      'https://www.city.sendai.jp/kodomo-hoken/choukaku.html',
+      'https://www.city.sendai.jp/kodomo-chiiki/download/bunyabetsu/ninshin/h28shorui/satogaeri.html'
+    ],
+    sourceNote: '仙台市公式ページで、生後1か月以内の初回検査1回、自動ABR上限5,000円、OAE上限2,200円、助成上限額と検査費用の低い方、助成券提出による費用差し引き、長期入院等の特例を確認。里帰り等健診・検査補助金ページで県外医療機関受診時の申請助成を補助確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
     slug: 'kofu-newlywed-life-support-2026',
     title: '甲府市 結婚新生活支援事業',
     organization: '甲府市',
