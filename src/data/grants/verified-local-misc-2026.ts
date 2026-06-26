@@ -6425,4 +6425,80 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'hiroshima-care-technology-support-2026',
+    title: '広島県 介護テクノロジー定着支援事業補助金',
+    organization: '広島県',
+    type: 'local',
+    maxAmount: '事業区分により異なる',
+    maxAmountNum: 0,
+    category: 'nursing',
+    prefecture: '広島県',
+    tags: ['広島県', '介護テクノロジー', '介護ロボット', 'ICT', '研修'],
+    eligibility: '広島県内の介護サービス事業所等で、介護テクノロジーの導入・定着により職場環境改善とケアの質向上に取り組む事業者が対象です。',
+    targetOccupation: '広島県内の介護サービス事業者等',
+    applicationPeriod: '受付期間は令和8年7月13日から令和8年8月7日まで',
+    deadlineDate: '2026-08-07',
+    description: '広島県が、介護現場の生産性向上による職場環境改善、ケアの質向上、介護の価値向上を目的に、介護テクノロジーの導入・定着を支援する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>令和8年度広島県介護テクノロジー定着支援事業補助金は、県内介護サービス事業所等に対し、介護テクノロジー導入・定着のための経費を支援する制度です。</p>'
+      },
+      {
+        heading: '申請要件',
+        content: '<p>申請にあたっては、県が案内する生産性向上普及促進セミナー、介護テクノロジー定着支援研修会、介護現場の生産性向上と職員定着に関する研修などのうち少なくとも一つを受講する必要があります。</p>'
+      },
+      {
+        heading: '申請期間',
+        content: '<p>受付期間は令和8年7月13日から令和8年8月7日までです。補助金交付事務は一般社団法人日本福祉用具供給協会中国支部広島県ブロック事務局が行います。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.hiroshima.lg.jp/soshiki/64/kaigotechnology2026.html',
+    sourceName: '広島県 令和8年度介護テクノロジー定着支援事業補助金制度',
+    sourceUrls: [
+      'https://www.pref.hiroshima.lg.jp/soshiki/64/kaigotechnology2026.html'
+    ],
+    sourceNote: '広島県公式ページで令和8年度介護テクノロジー定着支援事業、研修受講要件、受付期間2026年7月13日から8月7日を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'ehime-care-technology-support-2026',
+    title: '愛媛県 介護テクノロジー定着支援事業費補助金',
+    organization: '愛媛県',
+    type: 'local',
+    maxAmount: '最大1,015万円',
+    maxAmountNum: 1015,
+    category: 'nursing',
+    prefecture: '愛媛県',
+    tags: ['愛媛県', '介護テクノロジー', '介護ロボット', '介護ソフト', 'ICT'],
+    eligibility: '愛媛県内の介護サービス事業者等で、介護テクノロジー活用により介護従事者の負担軽減と職場環境改善に取り組む法人が対象です。',
+    targetOccupation: '愛媛県内の介護サービス事業者等',
+    applicationPeriod: '令和8年6月12日から令和8年7月17日まで',
+    deadlineDate: '2026-07-17',
+    description: '愛媛県が、介護ロボットやICT機器等の介護テクノロジー活用による職員の負担軽減、職場環境改善、介護サービスの質向上を支援する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>令和8年度愛媛県介護テクノロジー定着支援事業費補助金は、介護テクノロジーの導入や定着に要する経費の一部を補助し、介護従事者の確保と介護サービスの質向上につなげる制度です。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>補助率はすべての事業で5分の4です。介護テクノロジー等の導入支援は機器種別により1機器あたり30万円または100万円、介護ソフト等は職員数に応じて100万円から250万円、定着促進費用が含まれる場合は最大265万円です。パッケージ型導入支援は1事業所あたり上限1,000万円、介護ソフトの定着促進費用が含まれる場合は上限1,015万円です。</p>'
+      },
+      {
+        heading: '申請期間',
+        content: '<p>申請書受付期間は令和8年6月12日から令和8年7月17日までです。申請は個々の事業所ではなく法人単位で提出します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.ehime.jp/page/80580.html',
+    sourceName: '愛媛県 介護テクノロジー定着支援事業費補助金',
+    sourceUrls: [
+      'https://www.pref.ehime.jp/page/80580.html'
+    ],
+    sourceNote: '愛媛県公式ページで令和8年度介護テクノロジー定着支援事業費補助金、補助率5分の4、パッケージ型上限1,000万円・定着促進併用1,015万円、申請期間2026年6月12日から7月17日を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
