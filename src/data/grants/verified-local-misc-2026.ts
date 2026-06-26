@@ -17727,4 +17727,36 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'sendai-childcare-subsidy',
+    title: '仙台市 保育料・副食費の負担軽減',
+    organization: '仙台市',
+    type: 'local',
+    maxAmount: '第3子以降の保育料・副食費負担なし',
+    maxAmountNum: 0,
+    category: 'childcare',
+    relatedCategories: ['living'],
+    prefecture: '宮城県',
+    tags: ['仙台市', '宮城県', '保育料', '副食費', '幼児教育無償化', '多子世帯'],
+    eligibility: '仙台市で保育所、認定こども園、地域型保育事業、幼稚園、認可外保育施設などを利用する子どもの保護者が対象です。年齢、認定区分、世帯所得、多子判定により軽減内容が異なります。',
+    applicationPeriod: '通年。教育・保育給付認定や施設利用にあわせて適用',
+    description: '仙台市が案内する幼児教育・保育無償化と、多子世帯や低所得世帯の保育料・副食費負担軽減です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>仙台市では、3歳児クラスから5歳児クラスまでの子どもと、住民税非課税世帯の0歳児クラスから2歳児クラスまでの子どもについて、幼児教育・保育の無償化を案内しています。既存の生成データでは第2子半額・第3子無料を中心にしていましたが、公式ページと令和8年度利用者負担額表で確認できる無償化と負担軽減の内容へ整理しています。</p>' },
+      { heading: '保育料の軽減', content: '<p>0歳児クラスから2歳児クラスの保育料は世帯の市町村民税所得割額などにより決まります。令和8年度利用者負担額表では、第3子以降の利用者負担額、つまり保育料の負担はないと案内されています。3歳児クラスから5歳児クラスの保育料は無償化の対象です。</p>' },
+      { heading: '副食費と注意点', content: '<p>3歳児クラスから5歳児クラスでは保育料は無償ですが、給食材料費のうち副食費は原則として保護者負担です。ただし、年収360万円未満相当世帯の子どもや第3子以降など、条件を満たす場合は副食費が免除されます。認可外保育施設や預かり保育では、保育の必要性の認定や月額上限などが別に定められています。</p>' }
+    ],
+    officialUrl: 'https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikuryo.html',
+    sourceName: '仙台市 保育料・副食費について',
+    sourceUrls: [
+      'https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/hoikuryo.html',
+      'https://www.city.sendai.jp/nintechosa/mushouka.html',
+      'https://www.city.sendai.jp/nintechosa/mushouka_fukushokuhi.html',
+      'https://www.city.sendai.jp/nintechosa/kurashi/kenkotofukushi/kosodate/documents/r8riyousyahutangakutou.pdf',
+      'https://www.cfa.go.jp/policies/kokoseido/mushouka/gaiyou'
+    ],
+    sourceNote: '仙台市公式ページで、保育料・副食費、0〜2歳児の利用者負担額、3〜5歳児の幼児教育・保育無償化、副食費は原則保護者負担、年収360万円未満相当世帯や第3子以降の副食費免除を確認。令和8年度教育・保育給付認定における利用者負担額等PDFで、第3子以降の利用者負担額と副食費の負担なし、主食費は負担ありを確認。仙台市の幼児教育・保育無償化ページとこども家庭庁ページで制度概要を補助確認。旧生成データを公式確認済み情報へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
