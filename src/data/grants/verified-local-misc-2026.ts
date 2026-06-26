@@ -8801,6 +8801,37 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-26',
   },
   {
+    slug: 'kyoto-city-childcare-subsidy',
+    title: '京都市 第2子以降保育料無償化',
+    organization: '京都市',
+    type: 'local',
+    maxAmount: '世帯内第2子以降の保育料無料',
+    maxAmountNum: 0,
+    category: 'childcare',
+    relatedCategories: ['living'],
+    prefecture: '京都府',
+    tags: ['京都市', '京都府', '保育料', '第2子以降', '多子世帯', '幼児教育無償化'],
+    eligibility: '京都市の認可保育施設等を利用する世帯内第2子以降の子どもが対象です。所得やきょうだいの同時入所の有無を問わず、令和7年度から無料化されています。',
+    applicationPeriod: '通年。認可保育施設の利用者負担額決定にあわせて適用',
+    description: '京都市が令和7年度から実施している、認可保育施設等を利用する世帯内第2子以降の保育料無償化です。従来の所得制限や同時入所要件にかかわらず、第2子以降の保育料を無料化します。',
+    sections: [
+      { heading: '制度の概要', content: '<p>京都市では令和7年度から、子育て世帯の経済的負担を軽減するため、認可保育施設等を利用する世帯内第2子以降の保育料を無料化しています。</p>' },
+      { heading: '無償化の内容', content: '<p>対象は世帯内第2子以降の子どもです。所得や、きょうだいが同時に保育施設を利用しているかどうかを問わず、認可保育施設等の保育料が無料となります。3歳児以上は国の幼児教育・保育無償化の対象であるため、主に0歳から2歳児クラスの負担軽減として重要です。</p>' },
+      { heading: '対象施設', content: '<p>認可保育所、認定こども園、地域型保育事業など、京都市の案内する認可保育施設等が対象です。認可外保育施設や預かり保育などは扱いが異なるため、別制度の案内を確認します。</p>' },
+      { heading: '確認方法', content: '<p>保育料は教育・保育給付認定や施設利用にあわせて決定されます。世帯内の子どもの数や利用施設の区分により扱いが変わる場合があるため、京都市の保育料案内や利用施設からの通知を確認してください。</p>' }
+    ],
+    officialUrl: 'https://www.city.kyoto.lg.jp/hagukumi/page/0000178518.html',
+    sourceName: '京都市 子ども・子育て支援制度における利用者負担額（保育料）について',
+    sourceUrls: [
+      'https://www.city.kyoto.lg.jp/hagukumi/page/0000178518.html',
+      'https://www.city.kyoto.lg.jp/hagukumi/page/0000179571.html',
+      'https://www.city.kyoto.lg.jp/hagukumi/page/0000254985.html'
+    ],
+    sourceNote: '京都市公式ページで、令和7年度から認可保育施設等を利用する世帯内第2子以降の保育料を、所得やきょうだいの同時入所の有無を問わず無料化することを確認。保育料案内ページと幼児教育・保育無償化関連ページで、認可保育施設等、利用者負担額、無償化制度を補助確認。旧生成データを公式確認済み情報へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
+  {
     slug: 'sakai-child-medical',
     title: '堺市 子ども医療費助成制度',
     organization: '堺市',
