@@ -2934,4 +2934,155 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'shizuoka-company-scholarship-repayment',
+    title: '静岡県 奨学金返還支援制度',
+    organization: '静岡県',
+    type: 'local',
+    maxAmount: '県と市町が企業の返還支援を補助',
+    maxAmountNum: 0,
+    category: 'education',
+    prefecture: '静岡県',
+    tags: ['静岡県', '奨学金返還支援', '中小企業', '若者定着'],
+    eligibility: '35歳以下の方を新規採用し、奨学金返還支援として手当等の支給または代理返還を行う中小企業等が対象です。対象市町との連携制度です。',
+    targetOccupation: '静岡県内中小企業等と奨学金返還中・返還予定の従業員',
+    applicationPeriod: '令和8年度制度として案内中。申請受付や対象市町は公式ページで確認',
+    description: '静岡県と県内11市町が連携し、35歳以下の従業員へ奨学金返還支援を行う中小企業等を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>静岡県の奨学金返還支援制度は、35歳以下の方を新規採用し、その奨学金返還支援を実施する企業を、県と市町が連携して支援する企業向け制度です。</p>'
+      },
+      {
+        heading: '支援内容',
+        content: '<p>奨学金を返還中、または将来返還することが確定している従業員を支援するため、手当等の支給または代理返還を行う中小企業に対し、県と市町が連携して補助金を支給します。</p>'
+      },
+      {
+        heading: '対象市町',
+        content: '<p>公式ページでは、伊東市、裾野市、伊豆市、長泉町、島田市、焼津市、藤枝市、牧之原市、吉田町、袋井市、菊川市の11市町との連携制度として案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.shizuoka.jp/sangyoshigoto/shuroshien/1083367/1083385/1076756.html',
+    sourceName: '静岡県 奨学金返還支援制度',
+    sourceUrls: [
+      'https://www.pref.shizuoka.jp/sangyoshigoto/shuroshien/1083367/1083385/1076756.html'
+    ],
+    sourceNote: '静岡県公式ページで令和8年度制度、35歳以下新規採用、手当等支給・代理返還、県内11市町との連携、中小企業向け補助を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'aichi-company-scholarship-repayment',
+    title: '愛知県 中小企業人材確保奨学金返還支援事業',
+    organization: '愛知県',
+    type: 'local',
+    maxAmount: '企業の奨学金返還支援を補助',
+    maxAmountNum: 0,
+    category: 'education',
+    prefecture: '愛知県',
+    tags: ['愛知県', '奨学金返還支援', '中小企業', '人材確保'],
+    eligibility: '従業員への奨学金返還支援制度を導入する愛知県内の中小企業等が対象です。登録企業の情報は県特設サイトで公開されています。',
+    targetOccupation: '愛知県内中小企業等と奨学金返還支援を受ける従業員',
+    applicationPeriod: '令和8年度制度として案内中。登録・申請の詳細は県特設サイトで確認',
+    description: '愛知県が、中小企業の人材確保を目的に、従業員の奨学金返還を支援する中小企業を対象として実施する補助制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>あいち奨学金返還支援ネットは、愛知県が実施する中小企業向けの奨学金返還支援制度の特設サイトです。従業員の奨学金返還を支援する中小企業を対象とした補助制度として案内されています。</p>'
+      },
+      {
+        heading: '目的',
+        content: '<p>多くの学生が奨学金を受給し、就職後に返還している状況を踏まえ、企業が奨学金返還支援制度を導入することを後押しし、中小企業の人材確保につなげる制度です。</p>'
+      },
+      {
+        heading: '利用者向け情報',
+        content: '<p>特設サイトでは補助制度の案内に加え、奨学金返還支援制度を導入している登録企業の紹介も行われています。学生・求職者は企業選びの参考として確認できます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.aichi.jp/soshiki/shugyo/shogakukinhenkan-torokukigyo.html',
+    sourceName: 'あいち奨学金返還支援ネット',
+    sourceUrls: [
+      'https://www.pref.aichi.jp/soshiki/shugyo/shogakukinhenkan-torokukigyo.html',
+      'https://shogakukin-henkan-shien.pref.aichi.jp/'
+    ],
+    sourceNote: '愛知県公式ページと公式特設サイトで、中小企業人材確保を目的とする奨学金返還支援補助制度、登録企業紹介、2024年度創設を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'mie-youth-scholarship-repayment',
+    title: '三重県 地域と若者の未来を拓く学生奨学金返還支援事業',
+    organization: '三重県',
+    type: 'local',
+    maxAmount: '奨学金残額の4分の1',
+    maxAmountNum: 100,
+    category: 'education',
+    prefecture: '三重県',
+    tags: ['三重県', '奨学金返還支援', '若者定着', '県内就業'],
+    eligibility: '大学等の奨学金を借り入れ、県内での居住かつ就業等の条件を満たす学生または既卒者が対象です。',
+    targetOccupation: '三重県内で居住・就業する学生・既卒者',
+    applicationPeriod: '令和8年度募集は2026年6月3日から2026年12月18日まで',
+    deadlineDate: '2026-12-18',
+    description: '三重県内で居住し就業する若者を対象に、大学等の奨学金返還額の一部を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>三重県地域と若者の未来を拓く学生奨学金返還支援事業は、若者の県内定着と県内産業の振興を目的に、県内での居住かつ就業等を条件として奨学金返還額の一部を助成する制度です。</p>'
+      },
+      {
+        heading: '助成金額',
+        content: '<p>学生の場合は在学中に借り入れた奨学金残額の4分の1、既卒者の場合は申請時の借入奨学金残額の4分の1が助成対象として案内されています。</p>'
+      },
+      {
+        heading: '募集内容',
+        content: '<p>令和8年度の募集定員は150名です。募集期間は2026年6月3日から12月18日までで、一般枠と南部地域優先枠が設けられています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.mie.lg.jp/KIKAKUK/HP/miesalon/74737039887_00002.htm',
+    sourceName: '三重県 地域と若者の未来を拓く学生奨学金返還支援事業',
+    sourceUrls: [
+      'https://www.pref.mie.lg.jp/KIKAKUK/HP/miesalon/74737039887_00002.htm'
+    ],
+    sourceNote: '三重県公式ページで令和8年度募集、募集期間、募集定員150名、県内居住・就業要件、奨学金残額4分の1助成を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'shiga-youth-retention-scholarship-repayment',
+    title: '滋賀県 若年層等確保・定着支援事業（奨学金返還支援）',
+    organization: '滋賀県',
+    type: 'local',
+    maxAmount: '奨学金返還支援の社内制度導入企業を補助',
+    maxAmountNum: 5,
+    category: 'education',
+    prefecture: '滋賀県',
+    tags: ['滋賀県', '奨学金返還支援', '若年人材', '中小企業'],
+    eligibility: '滋賀県内中小企業等が、若年人材の確保・定着に向け、従業員に対する奨学金返還支援やスキルアップ支援に取り組む場合に対象です。',
+    targetOccupation: '滋賀県内中小企業等と奨学金返還支援対象従業員',
+    applicationPeriod: '令和8年度募集は2026年4月13日から案内開始。詳細は公式ページで確認',
+    description: '滋賀県内中小企業等が若年人材の確保・定着に向けて行う奨学金返還支援を後押しする制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>滋賀県若年層等確保・定着支援事業は、県内中小企業等が若年人材の確保や定着に向け、従業員に対して奨学金返還支援やスキルアップ支援を行う場合に、その経費の一部を補助する制度です。</p>'
+      },
+      {
+        heading: '奨学金返還支援制度',
+        content: '<p>奨学金返還を支援する社内制度を導入する事業者に対し、奨学金を返還している従業員への手当等の費用の一部を補助する制度として案内されています。</p>'
+      },
+      {
+        heading: '関連する支援',
+        content: '<p>同事業では、奨学金返還支援のほか、DXやGXを推進する資格取得支援、研修参加時の代替職員確保支援など、若年人材の定着に関する支援も実施されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.shiga.lg.jp/kensei/koho/e-shinbun/oshirase/349836.html',
+    sourceName: '滋賀県 若年層等確保・定着支援事業',
+    sourceUrls: [
+      'https://www.pref.shiga.lg.jp/kensei/koho/e-shinbun/oshirase/349836.html',
+      'https://www.shigaplaza.or.jp/news/hojokin-joho-dounyusokusin2026/'
+    ],
+    sourceNote: '滋賀県公式ページで令和8年度若年層等確保・定着支援事業、奨学金返還支援制度、県内中小企業等向け補助を確認。滋賀県産業支援プラザ募集ページで申請期間も参照。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
