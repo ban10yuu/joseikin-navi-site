@@ -17520,4 +17520,34 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'tokushima-city-education-support',
+    title: '徳島市 市立小中学校の就学援助費',
+    organization: '徳島市',
+    type: 'local',
+    maxAmount: '中学校修学旅行費 最大60,910円など',
+    maxAmountNum: 6,
+    category: 'education',
+    relatedCategories: ['childcare', 'living'],
+    prefecture: '徳島県',
+    tags: ['徳島市', '徳島県', '就学援助', '学用品費', '修学旅行費', '令和8年度'],
+    eligibility: '徳島市内在住の小学生・中学生の保護者で、生活保護に準ずる程度に生活が困窮している方などが対象です。市立小中学校に在籍する児童生徒向けの制度です。',
+    applicationPeriod: '令和8年度制度として案内中。前年度受給者も毎年度申請が必要',
+    description: '徳島市が、経済的な理由で就学が困難な児童生徒の保護者に、学用品費、修学旅行費、医療費など就学に必要な費用の一部を援助する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>徳島市市立小中学校の就学援助費は、経済的な理由で就学が困難な児童生徒の保護者を支援する制度です。既存の生成データでは一般的な就学援助制度としていましたが、公式ページで確認できる令和8年度の支給費目と単価を反映しています。</p>' },
+      { heading: '支給内容', content: '<p>令和8年度の場合、学用品費は小学校年額11,630円、中学校年額22,730円、通学用品費は1年生以外で年額2,270円、新入学学用品費は4月認定の1年生で小学校57,060円、中学校63,000円です。修学旅行費は小学校22,690円、中学校60,910円を上限に実費が支給されます。校外活動費、通学費、医療費なども条件により対象です。</p>' },
+      { heading: '申請の注意点', content: '<p>就学援助は費目ごとに補助単価が決まっており、保護者が負担すべきすべての費用を支給する制度ではありません。前年度の受給者も申請が必要です。生活保護の教育扶助を受けている場合は、修学旅行費と医療費のみ支給されます。令和8年度の小学校給食費については保護者負担がないと案内されています。</p>' }
+    ],
+    officialUrl: 'https://www.city.tokushima.tokushima.jp/smph/kosodate/ikuji/keizai_shien/shugaku_shorei.html',
+    sourceName: '徳島市 市立小中学校の就学援助費',
+    sourceUrls: [
+      'https://www.city.tokushima.tokushima.jp/smph/kosodate/ikuji/keizai_shien/shugaku_shorei.html',
+      'https://www.city.tokushima.tokushima.jp/smph/kosodate/ikuji/keizai_shien/c.html',
+      'https://www.city.tokushima.tokushima.jp/smph/shisei/koho_kocho/kohoshi/text/2026/0401.html'
+    ],
+    sourceNote: '徳島市公式ページで、令和8年度の市立小中学校の就学援助費、学用品費小学校11,630円・中学校22,730円、通学用品費2,270円、新入学学用品費小学校57,060円・中学校63,000円、修学旅行費小学校22,690円・中学校60,910円、学校給食費や医療費の扱い、生活保護教育扶助受給時の支給範囲、令和8年度小学校給食費は保護者負担なしを確認。市立以外の小中学校ページでも費目別単価を補助確認。広報とくしま2026年4月1日号で、前年度受給者も申請が必要、生活保護に準ずる程度に生活が困窮している人が対象と確認。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
