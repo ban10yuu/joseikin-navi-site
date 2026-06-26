@@ -2180,4 +2180,155 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'sapporo-scholarship-repayment',
+    title: 'さっぽろ圏奨学金返還支援事業',
+    organization: '札幌市',
+    type: 'local',
+    maxAmount: '最大54万円（年18万円・3年間）',
+    maxAmountNum: 54,
+    category: 'education',
+    prefecture: '北海道',
+    tags: ['札幌市', '奨学金返還支援', '若者定着', '就職支援'],
+    eligibility: '貸与型奨学金を返還予定または返還中で、札幌市が認定する企業等に就職し、さっぽろ圏内に居住して就業する方が対象です。',
+    targetOccupation: 'さっぽろ圏内の認定企業等に就職する方',
+    applicationPeriod: '2026年度支援対象者の申請受付は10月開始予定。中途入社は随時受け付け、入社2週間前までに申請',
+    description: 'さっぽろ圏内で働く若者を対象に、貸与型奨学金の返還額の一部を札幌市が支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>さっぽろ圏奨学金返還支援事業は、札幌市が認定する企業等へ就職し、さっぽろ圏内に居住する若者の奨学金返還を支援する制度です。人材確保と若者の定着を目的としています。</p>'
+      },
+      {
+        heading: '支援額',
+        content: '<p>年間最大18万円、3年間で最大54万円の支援を受けられます。対象となる奨学金や勤務先、居住地などの要件は公式ページで確認が必要です。</p>'
+      },
+      {
+        heading: '申請の流れ',
+        content: '<p>2026年度支援対象者の申請受付は10月開始予定です。中途入社の場合は随時受け付けられ、原則として入社2週間前までの申請が必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.sapporo.jp/keizai/koyo/syougakukin/syougakukin.html',
+    sourceName: '札幌市 さっぽろ圏奨学金返還支援事業',
+    sourceUrls: [
+      'https://www.city.sapporo.jp/keizai/koyo/syougakukin/syougakukin.html'
+    ],
+    sourceNote: '札幌市公式ページで2026年度支援対象者の受付予定、年18万円・3年間で最大54万円、認定企業就職、さっぽろ圏居住要件を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'aomori-scholarship-repayment',
+    title: 'あおもり若者定着奨学金返還支援制度',
+    organization: '青森県',
+    type: 'local',
+    maxAmount: '最大150万円',
+    maxAmountNum: 150,
+    category: 'education',
+    prefecture: '青森県',
+    tags: ['青森県', '奨学金返還支援', '若者定着', '就職支援'],
+    eligibility: '日本学生支援機構または青森県育英奨学会の奨学金利用者で、対象企業に就職し、青森県内に居住して6年間就業する方などが対象です。',
+    targetOccupation: '青森県内のサポート企業に就職する若者',
+    applicationPeriod: '2026年度就職者向け制度は登録受付中。2028年度採用分も2026年6月1日から登録受付開始',
+    description: '青森県内のサポート企業へ就職する若者の奨学金返還を、県と企業が連携して支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>あおもり若者定着奨学金返還支援制度は、青森県内のサポート企業に正規雇用され、県内で一定期間働く若者を対象に、奨学金返還額の一部を支援する制度です。</p>'
+      },
+      {
+        heading: '支援額',
+        content: '<p>支援額は企業区分や学校区分により30万円から150万円まで設定されています。ただし、支援額は奨学金返還残額の2分の1が上限です。支援金は本人ではなく貸与機関へ支払われます。</p>'
+      },
+      {
+        heading: '支援のタイミング',
+        content: '<p>対象企業に就職し、青森県内に居住して就業を継続した場合、3年経過時と6年経過時に分けて支援されます。登録前に対象企業や卒業年度などの要件確認が必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.aomori.lg.jp/soshiki/kodomo/wakamono/aomori_syogakukin_henkansien.html',
+    sourceName: '青森県 あおもり若者定着奨学金返還支援制度',
+    sourceUrls: [
+      'https://www.pref.aomori.lg.jp/soshiki/kodomo/wakamono/aomori_syogakukin_henkansien.html',
+      'https://www.aomori-life.jp/syogakukin/youth/2026/about.html'
+    ],
+    sourceNote: '青森県公式ページと公式制度サイトで支援額30万から150万円、奨学金残額2分の1上限、対象奨学金、県内就職・居住・6年就業要件を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'iwate-scholarship-repayment',
+    title: 'いわて産業人材奨学金返還支援制度',
+    organization: '岩手県',
+    type: 'local',
+    maxAmount: '最大250万円',
+    maxAmountNum: 250,
+    category: 'education',
+    prefecture: '岩手県',
+    tags: ['岩手県', '奨学金返還支援', '産業人材', '就職支援'],
+    eligibility: '日本学生支援機構奨学金の貸与を受け、岩手県内の認定企業等へ就職し、県内に居住して就業する予定の学生・既卒者などが対象です。',
+    targetOccupation: '岩手県内の認定企業等に就職する学生・既卒者',
+    applicationPeriod: '2026年4月1日から2026年9月30日まで',
+    deadlineDate: '2026-09-30',
+    description: '岩手県内のものづくり・IT関連産業などへ就職する若者を対象に、奨学金返還額の一部を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>いわて産業人材奨学金返還支援制度は、岩手県内の認定企業等に就職する学生や既卒者を対象に、奨学金返還を支援する制度です。2026年度は支援候補者120人の募集が案内されています。</p>'
+      },
+      {
+        heading: '支援額',
+        content: '<p>支援率は対象奨学金返還額の2分の1です。上限額は学校区分により異なり、大学院・大学等を通じて貸与を受けた場合は最大250万円、大学等は150万円、大学院のみは100万円、高等専門学校は70万円です。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>2026年度の募集期間は2026年4月1日から9月30日までです。申請前に対象奨学金、年齢、卒業予定時期、認定企業への就職予定などを確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.iwate.jp/sangyoukoyou/monozukuri/ikusei/1008964/index.html',
+    sourceName: '岩手県 いわて産業人材奨学金返還支援制度',
+    sourceUrls: [
+      'https://www.pref.iwate.jp/sangyoukoyou/monozukuri/ikusei/1008964/index.html',
+      'https://www.pref.iwate.jp/sangyoukoyou/monozukuri/ikusei/1008964/1085424.html'
+    ],
+    sourceNote: '岩手県公式ページで2026年度募集期間、支援候補者120人、支援率2分の1、学校区分別上限額、県内認定企業就職要件を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'miyagi-scholarship-repayment',
+    title: '宮城県 ものづくり企業奨学金返還支援事業',
+    organization: '宮城県',
+    type: 'local',
+    maxAmount: '最大270万円',
+    maxAmountNum: 270,
+    category: 'education',
+    prefecture: '宮城県',
+    tags: ['宮城県', '奨学金返還支援', 'ものづくり企業', '就職支援'],
+    eligibility: '宮城県が認定したものづくり企業等に正社員として採用され、県内で6年間勤務する見込みがあり、卒業後4年以内などの要件を満たす方が対象です。',
+    targetOccupation: '宮城県内の認定ものづくり企業等に就職する方',
+    applicationPeriod: '認定企業・学生等の登録は公式案内に従う。就職前に認定企業と支援内容を確認',
+    description: '宮城県内のものづくり企業等に就職する若者の奨学金返還を、企業と県が連携して支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>ものづくり企業奨学金返還支援事業は、宮城県が認定したものづくり企業等に就職する若者を対象に、企業が実施する奨学金返還支援を県が後押しする制度です。</p>'
+      },
+      {
+        heading: '支援額',
+        content: '<p>大学等を卒業した方は6年間で最大270万円、高校等を卒業した方は最大54万円が支援額の目安です。県は企業が支援した額の2分の1を補助します。</p>'
+      },
+      {
+        heading: '確認するポイント',
+        content: '<p>支援を受けるには、企業が県の認定を受けていること、採用時期や卒業後年数、正社員採用、県内勤務見込みなどの要件があります。就職前に認定企業と支援内容を確認することが重要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.miyagi.jp/soshiki/sanzin/syougakukin-2.html',
+    sourceName: '宮城県 ものづくり企業奨学金返還支援事業',
+    sourceUrls: [
+      'https://www.pref.miyagi.jp/soshiki/sanzin/syougakukin-2.html'
+    ],
+    sourceNote: '宮城県公式ページで認定企業就職、卒業後4年以内、県内6年勤務見込み、大学等最大270万円、高校等最大54万円、県補助率2分の1を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
