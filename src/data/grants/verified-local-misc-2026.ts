@@ -3685,4 +3685,191 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'kumamoto-kumakatsu-scholarship-repayment',
+    title: '熊本県 くま活サポート奨学金返還等サポート制度',
+    organization: '熊本県',
+    type: 'local',
+    maxAmount: '最大456万円',
+    maxAmountNum: 456,
+    category: 'education',
+    prefecture: '熊本県',
+    tags: ['熊本県', '奨学金返還支援', '県内就職', '登録企業'],
+    eligibility: '熊本県内企業等に就職する予定の大学生等や既卒者で、日本学生支援機構等の奨学金を利用している人が対象です。',
+    targetOccupation: '熊本県内登録企業等へ就職予定の学生・既卒者',
+    applicationPeriod: '参加登録受付中。詳細な締切は公式サイトで確認',
+    description: '熊本県内企業等への就職を促進するため、県と参加企業等が協力して奨学金返還や赴任費用等を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>くま活サポート奨学金返還等サポート制度は、熊本県内企業等への就職を予定する若者に対し、奨学金返還や赴任費用などを県と参加企業等が連携して支援する制度です。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>大学、大学院、短期大学、高等専門学校、専修学校等の学生や既卒者で、熊本県内の参加企業等への就職を希望する人が対象です。対象となる奨学金や申請時期は公式サイトで案内されています。</p>'
+      },
+      {
+        heading: '支援額',
+        content: '<p>支援額は企業等が設定する支援額と県の補助を合わせて決まり、最大456万円の支援例が案内されています。実際の支援内容は参加企業等によって異なります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.kumakatsusupport.pref.kumamoto.jp/list00001.html',
+    sourceName: '熊本県 くま活サポート',
+    sourceUrls: [
+      'https://www.kumakatsusupport.pref.kumamoto.jp/list00001.html'
+    ],
+    sourceNote: '熊本県公式専用サイトで制度概要、対象者、県内企業等への就職支援、奨学金返還等サポート、最大456万円の支援例を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'oita-hospital-pharmacist-scholarship-repayment',
+    title: '大分県 病院薬剤師奨学金返還支援事業',
+    organization: '大分県',
+    type: 'local',
+    maxAmount: '年80万円・最長6年',
+    maxAmountNum: 480,
+    category: 'education',
+    prefecture: '大分県',
+    tags: ['大分県', '奨学金返還支援', '病院薬剤師', '医療人材'],
+    eligibility: '薬剤師として勤務するための奨学金を返還しており、大分県内の対象病院に就業または就業予定の薬剤師等が対象です。',
+    targetOccupation: '大分県内対象病院で勤務する薬剤師等',
+    applicationPeriod: '令和8年度の募集要領・申請期間は公式ページで確認',
+    description: '大分県内の病院薬剤師確保を目的に、対象病院で勤務する薬剤師等の奨学金返還を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>大分県病院薬剤師奨学金返還支援事業は、県内病院における薬剤師の確保と定着を目的に、対象病院で勤務する薬剤師等の奨学金返還を支援する制度です。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>薬学部卒業後に大分県内の対象病院で薬剤師として勤務する人などが対象です。対象病院、支援対象者、申請書類は公式ページで募集要領として案内されています。</p>'
+      },
+      {
+        heading: '支援内容',
+        content: '<p>新たに県内の対象病院に就職した薬剤師の奨学金返還額の一部を補助します。公式ページでは、支援額は年80万円を上限、期間は最長6年間、対象は年15人と案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.oita.jp/soshiki/12610/yakuzaishikakuho.html',
+    sourceName: '大分県 病院薬剤師奨学金返還支援事業',
+    sourceUrls: [
+      'https://www.pref.oita.jp/soshiki/12610/yakuzaishikakuho.html'
+    ],
+    sourceNote: '大分県公式ページで病院薬剤師奨学金返還支援事業、対象病院、支援額年80万円上限、最長6年、年15人を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'miyazaki-hinata-scholarship-repayment',
+    title: '宮崎県 ひなた創生のための奨学金返還支援事業',
+    organization: '宮崎県',
+    type: 'local',
+    maxAmount: '最大150万円',
+    maxAmountNum: 150,
+    category: 'education',
+    prefecture: '宮崎県',
+    tags: ['宮崎県', '奨学金返還支援', '県内就職', '産業人材'],
+    eligibility: '宮崎県内企業等に就職予定の大学生等で、対象奨学金を返還予定または返還中の人が対象です。',
+    targetOccupation: '宮崎県内企業等へ就職予定の学生・既卒者',
+    applicationPeriod: '令和8年度支援候補者の募集情報は公式ページで確認',
+    description: '宮崎県内企業等への就職と若者の県内定着を促進するため、奨学金返還を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>ひなた創生のための奨学金返還支援事業は、宮崎県内企業等へ就職する若者の奨学金返還を支援し、県内産業を担う人材の確保と定着を促進する制度です。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>対象奨学金を利用している学生や既卒者で、宮崎県内の対象企業等へ就職する意思がある人が支援候補者として募集されます。対象業種や登録企業は公式ページで案内されています。</p>'
+      },
+      {
+        heading: '支援内容',
+        content: '<p>奨学金返還額の一部を支援する制度で、公式案内では最大150万円の支援が示されています。実際の支援額や交付要件は募集要領で確認が必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.miyazaki.lg.jp/sangyoseisaku/shigoto/sangyo/hinatashien/20170509085527.html',
+    sourceName: '宮崎県 ひなた創生のための奨学金返還支援事業',
+    sourceUrls: [
+      'https://www.pref.miyazaki.lg.jp/sangyoseisaku/shigoto/sangyo/hinatashien/20170509085527.html'
+    ],
+    sourceNote: '宮崎県公式ページでひなた創生のための奨学金返還支援事業、県内企業等への就職、支援候補者募集、最大150万円の支援を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kagoshima-high-school-scholarship-benefit-2026',
+    title: '鹿児島県 高校生等奨学給付金（令和8年度）',
+    organization: '鹿児島県',
+    type: 'local',
+    maxAmount: '年14万3,700円',
+    maxAmountNum: 14,
+    category: 'education',
+    prefecture: '鹿児島県',
+    tags: ['鹿児島県', '高校生等奨学給付金', '返還不要', '低所得世帯'],
+    eligibility: '保護者等が鹿児島県内に住所を有し、高校生等が高等学校等に在学している非課税世帯や生活保護世帯等が対象です。',
+    targetOccupation: '高校生等がいる低所得世帯',
+    applicationPeriod: '2026年7月1日から2026年8月31日まで',
+    deadlineDate: '2026-08-31',
+    description: '鹿児島県が、低所得世帯の高校生等を対象に、授業料以外の教育費を支援する返還不要の給付金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>鹿児島県高校生等奨学給付金は、生活保護世帯や非課税世帯等の高校生等を対象に、授業料以外の教育費負担を軽減するために支給される返還不要の給付金です。</p>'
+      },
+      {
+        heading: '対象世帯',
+        content: '<p>保護者等が鹿児島県内に住所を有し、高校生等が高等学校等に在学している世帯が対象です。生活保護受給世帯、非課税世帯、家計急変世帯などの区分があります。</p>'
+      },
+      {
+        heading: '申請期間',
+        content: '<p>令和8年度の申請期間は2026年7月1日から8月31日までです。学校を通じた申請や直接申請など、在学先により手続きが異なります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.kagoshima.jp/ba05/shougakukyuhukin.html',
+    sourceName: '鹿児島県 高校生等奨学給付金',
+    sourceUrls: [
+      'https://www.pref.kagoshima.jp/ba05/shougakukyuhukin.html'
+    ],
+    sourceNote: '鹿児島県公式ページで令和8年度高校生等奨学給付金、対象世帯、返還不要、申請期間2026年7月1日から8月31日を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'okinawa-scholarship-proxy-repayment-2026',
+    title: '沖縄県 奨学金返還支援事業（代理返還）',
+    organization: '沖縄県',
+    type: 'local',
+    maxAmount: '1人あたり年9万円',
+    maxAmountNum: 27,
+    category: 'education',
+    prefecture: '沖縄県',
+    tags: ['沖縄県', '奨学金返還支援', '代理返還', '中小企業'],
+    eligibility: '沖縄県内の中小企業等が、従業員に対して日本学生支援機構奨学金の代理返還を行う場合に対象です。',
+    targetOccupation: '沖縄県内中小企業等と奨学金を返還する従業員',
+    applicationPeriod: '2026年5月15日から2027年1月29日まで',
+    deadlineDate: '2027-01-29',
+    description: '沖縄県内中小企業等による従業員の奨学金代理返還を支援し、若年人材の確保と定着を後押しする制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>沖縄県奨学金返還支援事業は、県内中小企業等が従業員の日本学生支援機構奨学金を代理返還する場合に、その一部を補助する制度です。</p>'
+      },
+      {
+        heading: '対象企業',
+        content: '<p>沖縄県内に本社または主たる事業所を有する中小企業等が対象です。従業員への奨学金代理返還制度を設け、要件を満たす返還を行う必要があります。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>補助率は2分の1で、支援対象者1人あたり年9万円が上限です。令和8年度の申請期間は2026年5月15日から2027年1月29日までと案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.okinawa.jp/shigoto/keizai/1009879/1010143/1010156.html',
+    sourceName: '沖縄県 奨学金返還支援事業',
+    sourceUrls: [
+      'https://www.pref.okinawa.jp/shigoto/keizai/1009879/1010143/1010156.html'
+    ],
+    sourceNote: '沖縄県公式ページで令和8年度募集、代理返還、対象企業、補助率2分の1、1人年9万円、申請期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
