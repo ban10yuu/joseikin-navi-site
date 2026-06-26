@@ -6007,4 +6007,194 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'osaka-care-technology-support-2026',
+    title: '大阪府 介護テクノロジー導入支援事業補助金',
+    organization: '大阪府',
+    type: 'local',
+    maxAmount: '事業区分により異なる',
+    maxAmountNum: 0,
+    category: 'nursing',
+    prefecture: '大阪府',
+    tags: ['大阪府', '介護テクノロジー', '介護ロボット', 'ICT', '事前エントリー'],
+    eligibility: '大阪府内の介護サービス等事業所で、介護テクノロジー活用支援セミナー受講などの補助要件を満たす事業者が対象です。',
+    targetOccupation: '大阪府内の介護サービス事業者等',
+    applicationPeriod: '事前エントリーは令和8年5月25日17時から令和8年7月13日17時まで',
+    deadlineDate: '2026-07-13',
+    description: '大阪府が、介護現場の職場環境改善と生産性向上を目的に、介護テクノロジー等の導入を支援する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>令和8年度大阪府介護テクノロジー導入支援事業補助金は、介護人材確保が課題となる中、介護テクノロジー等の導入により職場環境改善や生産性向上を進める事業所を支援する制度です。</p>'
+      },
+      {
+        heading: '事前エントリー制',
+        content: '<p>交付申請の前にWebによる事前エントリーが必要です。事前エントリーの総額が府の予算額を上回る場合は、抽選により交付申請の対象事業所を絞り込みます。</p>'
+      },
+      {
+        heading: '申請期間',
+        content: '<p>事前エントリー期間は令和8年5月25日17時から令和8年7月13日17時までです。介護テクノロジー活用支援セミナーの受講または視聴がエントリー要件として案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.osaka.lg.jp/o090100/koreishisetsu/kaigo_technology/tech.html',
+    sourceName: '大阪府 令和8年度大阪府介護テクノロジー導入支援事業補助金',
+    sourceUrls: [
+      'https://www.pref.osaka.lg.jp/o090100/koreishisetsu/kaigo_technology/tech.html'
+    ],
+    sourceNote: '大阪府公式ページで令和8年度介護テクノロジー導入支援事業補助金、事前エントリー制、事前エントリー期間2026年5月25日17時から7月13日17時、セミナー受講要件を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'hyogo-care-technology-support-2026',
+    title: '兵庫県 介護業務における介護テクノロジー導入支援事業',
+    organization: '兵庫県',
+    type: 'local',
+    maxAmount: '事業区分により異なる',
+    maxAmountNum: 0,
+    category: 'nursing',
+    prefecture: '兵庫県',
+    tags: ['兵庫県', '介護テクノロジー', '介護ロボット', '介護事業所', '申請見込額調査'],
+    eligibility: '兵庫県内で介護サービスを提供する事業所等で、介護テクノロジーの導入により生産性向上と職場環境改善に取り組む事業者が対象です。',
+    targetOccupation: '兵庫県内の介護サービス事業者等',
+    applicationPeriod: '申請見込額調査の提出期限は令和8年7月6日17時まで',
+    deadlineDate: '2026-07-06',
+    description: '兵庫県が、介護サービス事業所等の生産性向上と職場環境改善を目的に、介護テクノロジー導入経費の一部を補助する事業です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>令和8年度介護業務における介護テクノロジー導入支援事業は、県内介護サービス事業所等の生産性向上による職場環境改善を図るため、介護テクノロジー導入経費の一部を補助する制度です。</p>'
+      },
+      {
+        heading: '申請見込額調査',
+        content: '<p>正式な交付申請に先立ち、申請見込額調査を実施しています。申請見込額調査書の提出がない事業所は補助対象外となるため、申請可能性がある事業所は提出が必要です。</p>'
+      },
+      {
+        heading: '提出期限',
+        content: '<p>申請見込額調査書の提出期限は令和8年7月6日17時までです。申請には県指定研修の受講等の要件があり、詳細は実施要綱で確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://web.pref.hyogo.lg.jp/kf05/2024_robo_ict_hojo.html',
+    sourceName: '兵庫県 令和8年度介護業務における介護テクノロジー導入支援事業の実施',
+    sourceUrls: [
+      'https://web.pref.hyogo.lg.jp/kf05/2024_robo_ict_hojo.html'
+    ],
+    sourceNote: '兵庫県公式ページで令和8年度介護業務における介護テクノロジー導入支援事業、申請見込額調査、提出期限2026年7月6日17時、研修受講要件を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'tokushima-care-technology-support-2026',
+    title: '徳島県 介護テクノロジー定着支援事業',
+    organization: '徳島県',
+    type: 'local',
+    maxAmount: '事業区分により異なる',
+    maxAmountNum: 0,
+    category: 'nursing',
+    prefecture: '徳島県',
+    tags: ['徳島県', '介護テクノロジー', '要望調査', '介護事業所', 'DX'],
+    eligibility: '徳島県内に所在する介護保険法に基づく全サービス提供事業所、養護老人ホーム、軽費老人ホームが対象です。',
+    targetOccupation: '徳島県内の介護サービス事業者・福祉事業者等',
+    applicationPeriod: '要望調査の提出期限は令和8年7月10日まで',
+    deadlineDate: '2026-07-10',
+    description: '徳島県が、介護テクノロジー導入と定着により介護現場の業務改善を支援する事業です。交付希望者は要望調査への提出が必要です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>令和8年度徳島県介護テクノロジー定着支援事業は、県内介護サービス事業所等の申請意向を把握したうえで、介護テクノロジー導入・定着を支援する制度です。</p>'
+      },
+      {
+        heading: '要望調査',
+        content: '<p>補助金の交付を希望する場合は、必要書類を提出する必要があります。期日までに提出がない場合、この事業による補助金の交付申請は認められません。</p>'
+      },
+      {
+        heading: '提出期限',
+        content: '<p>要望調査の提出期限は令和8年7月10日です。提出書類には要望調査票、申請事業所一覧表、見積書、カタログ、職員勤務表などが含まれます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.tokushima.lg.jp/jigyoshanokata/kenko/koreishafukushi/7313113/',
+    sourceName: '徳島県 令和8年度「介護テクノロジー定着支援事業」の実施にかかる要望調査',
+    sourceUrls: [
+      'https://www.pref.tokushima.lg.jp/jigyoshanokata/kenko/koreishafukushi/7313113/'
+    ],
+    sourceNote: '徳島県公式ページで令和8年度介護テクノロジー定着支援事業、要望調査、対象事業所、提出期限2026年7月10日を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'tottori-care-technology-support-2026',
+    title: '鳥取県 介護テクノロジー定着支援事業補助金',
+    organization: '鳥取県',
+    type: 'local',
+    maxAmount: '最大1,015万円',
+    maxAmountNum: 1015,
+    category: 'nursing',
+    prefecture: '鳥取県',
+    tags: ['鳥取県', '介護テクノロジー', '介護ロボット', '介護ソフト', '事前申請'],
+    eligibility: '鳥取県内の介護保険法に基づくサービス事業所、養護老人ホーム、軽費老人ホームが対象です。',
+    targetOccupation: '鳥取県内の介護サービス事業者・福祉事業者等',
+    applicationPeriod: '事前申請は令和8年7月17日まで',
+    deadlineDate: '2026-07-17',
+    description: '鳥取県が、県内介護サービス事業所等の介護テクノロジー導入・定着を支援する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>令和8年度鳥取県介護テクノロジー定着支援事業補助金は、介護テクノロジー等の導入支援とパッケージ型導入支援を通じて、介護現場の生産性向上を支援する制度です。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>補助率は5分の4です。介護テクノロジー等の導入支援は機器種別により基準額が異なり、パッケージ型導入支援は1事業所あたり上限1,000万円です。介護ソフト導入に伴うタブレット端末購入やWi-Fi環境整備がある場合は15万円が加算されます。</p>'
+      },
+      {
+        heading: '事前申請',
+        content: '<p>事前申請の提出期限は令和8年7月17日です。事前申請がない場合、本補助金の交付申請を行うことはできません。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.tottori.lg.jp/313191.htm',
+    sourceName: '鳥取県 令和8年度鳥取県介護テクノロジー定着支援事業補助金',
+    sourceUrls: [
+      'https://www.pref.tottori.lg.jp/313191.htm'
+    ],
+    sourceNote: '鳥取県公式ページで令和8年度介護テクノロジー定着支援事業補助金、補助率5分の4、パッケージ型上限1,000万円、15万円加算、事前申請期限2026年7月17日を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'shimane-care-technology-support-2026',
+    title: '島根県 介護テクノロジー定着支援事業費補助金',
+    organization: '島根県',
+    type: 'local',
+    maxAmount: '事業区分により異なる',
+    maxAmountNum: 0,
+    category: 'nursing',
+    prefecture: '島根県',
+    tags: ['島根県', '介護テクノロジー', '介護ロボット', '介護ソフト', '介護事業所'],
+    eligibility: '島根県内の介護保険法に基づくサービス事業所、養護老人ホーム、軽費老人ホームが対象です。',
+    targetOccupation: '島根県内の介護サービス事業者・福祉事業者等',
+    applicationPeriod: '令和8年5月25日から令和8年7月17日まで',
+    deadlineDate: '2026-07-17',
+    description: '島根県が、介護テクノロジーの導入・定着により介護現場の業務改善を支援する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>令和8年度島根県介護テクノロジー定着支援事業費補助金は、介護保険法に基づくサービス事業所等を対象に、介護テクノロジー導入・定着に必要な経費を支援する制度です。</p>'
+      },
+      {
+        heading: '対象者と提出書類',
+        content: '<p>対象は介護保険法に基づくサービス事業所、養護老人ホーム、軽費老人ホームです。交付申請書、介護テクノロジー導入計画、経費所要額調書、業務改善計画、見積書写しなどを提出します。</p>'
+      },
+      {
+        heading: '申請期間',
+        content: '<p>申請受付期間は令和8年5月25日から令和8年7月17日までです。郵送とメールの両方で提出が必要で、メールは7月17日必着とされています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.shimane.lg.jp/medical/fukushi/kourei/kaigo_hoken/hojokin/kaigo-tech.html',
+    sourceName: '島根県 令和8年度島根県介護テクノロジー定着支援事業費補助金',
+    sourceUrls: [
+      'https://www.pref.shimane.lg.jp/medical/fukushi/kourei/kaigo_hoken/hojokin/kaigo-tech.html'
+    ],
+    sourceNote: '島根県公式ページで令和8年度介護テクノロジー定着支援事業費補助金、対象事業所、申請受付期間2026年5月25日から7月17日、郵送・メール提出を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
