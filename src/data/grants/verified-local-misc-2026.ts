@@ -5706,4 +5706,156 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'tochigi-care-technology-support-2026',
+    title: '栃木県 介護テクノロジー定着支援事業費補助金',
+    organization: '栃木県',
+    type: 'local',
+    maxAmount: '事業区分により異なる',
+    maxAmountNum: 0,
+    category: 'nursing',
+    prefecture: '栃木県',
+    tags: ['栃木県', '介護テクノロジー', '介護ロボット', '介護ソフト', '介護事業所'],
+    eligibility: '栃木県内で介護サービス事業を行い、令和8年度栃木県介護テクノロジー定着支援事業の実施要領に定める要件を満たす事業者が対象です。',
+    targetOccupation: '栃木県内の介護サービス事業者等',
+    applicationPeriod: '令和8年6月5日から令和8年8月10日まで',
+    deadlineDate: '2026-08-10',
+    description: '栃木県が、介護現場の生産性向上と職場環境の改善を目的に、介護テクノロジーの導入・定着を支援する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>令和8年度栃木県介護テクノロジー定着支援事業費補助金は、介護ロボットやICT機器等の介護テクノロジーを導入し、介護現場の業務改善や職員の負担軽減につなげる事業を支援する制度です。</p>'
+      },
+      {
+        heading: '申請前の要件',
+        content: '<p>補助金を申請するには、県が案内する令和8年度介護テクノロジー活用支援事業セミナーの視聴が条件とされています。申請時のフォームで視聴状況を確認します。</p>'
+      },
+      {
+        heading: '受付期間',
+        content: '<p>受付期間は令和8年6月5日から令和8年8月10日まで、交付決定は令和8年9月中が予定されています。申請は電子申請システムで行います。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.tochigi.lg.jp/e03/r8kaigotechnologyhojokin.html',
+    sourceName: '栃木県 令和8年度栃木県介護テクノロジー定着支援事業',
+    sourceUrls: [
+      'https://www.pref.tochigi.lg.jp/e03/r8kaigotechnologyhojokin.html'
+    ],
+    sourceNote: '栃木県公式ページで令和8年度介護テクノロジー定着支援事業費補助金、申請前セミナー視聴要件、受付期間2026年6月5日から8月10日を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'gunma-care-technology-support-2026',
+    title: '群馬県 介護テクノロジー定着支援事業補助金',
+    organization: '群馬県',
+    type: 'local',
+    maxAmount: '事業区分により異なる',
+    maxAmountNum: 0,
+    category: 'nursing',
+    prefecture: '群馬県',
+    tags: ['群馬県', '介護テクノロジー', '介護ロボット', 'ICT', '介護事業所'],
+    eligibility: '群馬県内の介護サービス事業所等を運営し、介護テクノロジーの導入・定着により職場環境改善に取り組む法人が対象です。',
+    targetOccupation: '群馬県内の介護サービス事業者等',
+    applicationPeriod: '令和8年7月31日まで',
+    deadlineDate: '2026-07-31',
+    description: '群馬県が、介護サービス事業所等による介護ロボット・ICT機器等の介護テクノロジー導入と定着を支援する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>令和8年度群馬県介護テクノロジー定着支援事業補助金は、介護現場の生産性向上による職場環境改善のため、介護ロボットやICT機器等の導入・定着に必要な経費の一部を補助する制度です。</p>'
+      },
+      {
+        heading: '申請単位と注意点',
+        content: '<p>申請は法人単位で行い、補助金所要額調書や業務改善計画書は事業所ごとに作成します。居宅系サービスでは、令和8年度からケアプランデータ連携システムの連携実績が要件とされています。</p>'
+      },
+      {
+        heading: '募集締切',
+        content: '<p>令和8年度の事業募集締切は令和8年7月31日です。申請フォームから提出し、交付要綱、概要資料、補助上限台数の変更資料を確認したうえで申請します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.gunma.jp/site/kaigojinzai/2301.html',
+    sourceName: '群馬県 令和8年度群馬県介護テクノロジー定着支援事業',
+    sourceUrls: [
+      'https://www.pref.gunma.jp/site/kaigojinzai/2301.html'
+    ],
+    sourceNote: '群馬県公式ページで令和8年度介護テクノロジー定着支援事業補助金、介護ロボット・ICT機器等の導入支援、募集締切2026年7月31日を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'saitama-care-technology-support-2026',
+    title: '埼玉県 介護テクノロジー定着支援事業',
+    organization: '埼玉県',
+    type: 'local',
+    maxAmount: '最大750万円',
+    maxAmountNum: 750,
+    category: 'nursing',
+    prefecture: '埼玉県',
+    tags: ['埼玉県', '介護テクノロジー', '介護ロボット', '介護ソフト', '介護事業所'],
+    eligibility: '埼玉県内の介護サービス事業者等で、介護テクノロジーの導入により介護従事者の負担軽減や働きやすい職場環境整備に取り組む事業者が対象です。',
+    targetOccupation: '埼玉県内の介護サービス事業者等',
+    applicationPeriod: '令和8年度事前協議は令和8年7月22日まで',
+    deadlineDate: '2026-07-22',
+    description: '埼玉県が、介護ロボットやICT機器等の介護テクノロジー導入を支援し、介護従事者の負担軽減と職場定着につなげる制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>埼玉県介護テクノロジー定着支援事業は、介護ロボットやICT機器等の導入費用の一部を助成し、介護従事者の負担軽減、働きやすい職場環境の整備、介護従事者の確保・定着を図る制度です。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>補助額は所要経費の5分の4または基準額のいずれか低い額です。介護テクノロジー導入支援は1事業所あたり上限500万円、パッケージ型導入支援は1事業所あたり上限750万円です。</p>'
+      },
+      {
+        heading: '事前協議',
+        content: '<p>令和8年度の事前協議提出期限は令和8年7月22日です。交付申請は補助内示を受けた事業所のみを対象に、令和8年8月下旬が予定されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.saitama.lg.jp/a0603/kaigo-net/seisansei/r7kaigotec.html',
+    sourceName: '埼玉県 介護テクノロジー定着支援事業について',
+    sourceUrls: [
+      'https://www.pref.saitama.lg.jp/a0603/kaigo-net/seisansei/r7kaigotec.html'
+    ],
+    sourceNote: '埼玉県公式ページで令和8年度事前協議開始、提出期限2026年7月22日、補助率5分の4、導入支援上限500万円、パッケージ型上限750万円を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'chiba-care-technology-support-2026',
+    title: '千葉県 介護テクノロジー定着支援事業費補助金',
+    organization: '千葉県',
+    type: 'local',
+    maxAmount: '最大1,015万円',
+    maxAmountNum: 1015,
+    category: 'nursing',
+    prefecture: '千葉県',
+    tags: ['千葉県', '介護テクノロジー', '介護ロボット', '介護ソフト', '介護事業所'],
+    eligibility: '千葉県内に所在する介護保険法に基づく介護サービス事業所、養護老人ホーム、軽費老人ホーム等が対象です。',
+    targetOccupation: '千葉県内の介護サービス事業者・福祉事業者等',
+    applicationPeriod: '事前協議は令和8年6月10日から令和8年7月13日17時まで',
+    deadlineDate: '2026-07-13',
+    description: '千葉県が、令和8年度中に介護テクノロジー機器を導入する介護サービス事業者等に対して、導入費用の一部を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>令和8年度千葉県介護テクノロジー定着支援事業費補助金は、介護テクノロジー機器の導入により、介護現場の業務効率化や職員の負担軽減を進める事業者を支援する制度です。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>介護テクノロジー等の導入支援は税抜補助対象経費の5分の4を最大補助し、申請上限額は1事業所あたり最大1,000万円です。パッケージ型導入支援で介護ソフトの定着促進支援を併用する場合は上限1,015万円です。</p>'
+      },
+      {
+        heading: '事前協議',
+        content: '<p>交付申請前に事前協議が行われます。事前協議の提出期間は令和8年6月10日から令和8年7月13日17時までで、ちば電子申請サービスから法人単位で提出します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.chiba.lg.jp/koufuku/kaigorobot/kaigorobotjyouhou.html',
+    sourceName: '千葉県 令和8年度千葉県介護テクノロジー定着支援事業費補助金',
+    sourceUrls: [
+      'https://www.pref.chiba.lg.jp/koufuku/kaigorobot/kaigorobotjyouhou.html'
+    ],
+    sourceNote: '千葉県公式ページで令和8年度介護テクノロジー定着支援事業費補助金、対象事業所、補助率5分の4、申請上限1,000万円、パッケージ型上限1,015万円、事前協議期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
