@@ -13490,6 +13490,45 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-26',
   },
   {
+    slug: 'kofu-newlywed-life-support-2026',
+    title: '甲府市 結婚新生活支援事業',
+    organization: '甲府市',
+    type: 'local',
+    maxAmount: '最大60万円',
+    maxAmountNum: 60,
+    category: 'housing',
+    relatedCategories: ['childcare', 'living'],
+    prefecture: '山梨県',
+    tags: ['甲府市', '結婚新生活', '新婚世帯', '住居費', '引越費用', '令和8年度'],
+    eligibility: '令和8年1月1日から令和9年2月26日までに婚姻届を提出・受理され、婚姻日に夫婦双方が39歳以下、夫婦の合計所得が500万円未満などの要件を満たす新婚世帯が対象です。',
+    targetOccupation: '甲府市内で新生活を始める新婚世帯',
+    applicationPeriod: '申請期限は2027年2月26日まで。予算の都合で期限前に受付終了の場合あり。申請1か月前までに申込フォーム入力が必要',
+    deadlineDate: '2027-02-26',
+    description: '甲府市が、結婚に伴う新生活の住居費や引越費用を支援する補助金です。夫婦ともに29歳以下の場合は最大60万円、それ以外の対象世帯は最大30万円が補助されます。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>甲府市結婚新生活支援事業は、結婚に伴う新生活のスタートアップ費用を軽減するため、新婚世帯の住居費や引越費用を補助する制度です。</p>'
+      },
+      {
+        heading: '対象となる費用',
+        content: '<p>令和8年4月1日から令和9年2月26日までに支払った、市内の自己居住用住宅に係る購入費、リフォーム費用、賃料、敷金・礼金、仲介手数料、引越業者等に支払った引越費用が対象です。土地代や住宅手当相当分など、対象外となる費用があります。</p>'
+      },
+      {
+        heading: '補助額と申請',
+        content: '<p>補助上限は1世帯あたり30万円です。婚姻日に夫婦ともに29歳以下の場合は上限60万円になります。申請期限は2027年2月26日で、申請する1か月前までに申込フォームへ入力する必要があります。予算により期限前に受付終了となる場合があります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.kofu.yamanashi.jp/ijuuteijuu/kekkonshien.html',
+    sourceName: '甲府市 結婚新生活支援事業について',
+    sourceUrls: [
+      'https://www.city.kofu.yamanashi.jp/ijuuteijuu/kekkonshien.html'
+    ],
+    sourceNote: '甲府市公式ページで2026年6月24日更新、令和8年1月1日から令和9年2月26日までの婚姻、夫婦双方39歳以下、合計所得500万円未満、対象経費、上限30万円・夫婦とも29歳以下は60万円、申請期限2027年2月26日を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
     slug: 'kofu-hearing-aid-support-2026',
     title: '甲府市 高齢者補聴器購入費助成事業',
     organization: '甲府市',
