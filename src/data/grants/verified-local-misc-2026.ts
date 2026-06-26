@@ -4358,4 +4358,153 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'niigata-snow-country-zeh-2026',
+    title: '新潟県 雪国型ZEH等導入促進補助金',
+    organization: '新潟県',
+    type: 'local',
+    maxAmount: '最大70万円',
+    maxAmountNum: 70,
+    category: 'housing',
+    prefecture: '新潟県',
+    tags: ['新潟県', '雪国型ZEH', '省エネ住宅', '太陽光発電', '新築住宅'],
+    eligibility: '新潟県内で雪国型ZEH等を新築・購入し、要件を満たす個人または事業者が対象です。',
+    targetOccupation: '新潟県内で雪国型ZEH等を導入する個人・事業者',
+    applicationPeriod: '2026年4月15日から2027年1月29日まで',
+    deadlineDate: '2027-01-29',
+    description: '新潟県が、断熱性能や省エネ性能に優れた雪国型ZEH等の導入を支援する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>新潟県雪国型ZEH等導入促進補助金は、家庭部門の脱炭素化を進めるため、雪国の気候に対応した高断熱・高気密な省エネ住宅の導入を支援する制度です。</p>'
+      },
+      {
+        heading: '対象住宅',
+        content: '<p>新潟県が定める雪国型ZEH等の要件を満たす住宅が対象です。断熱性能、省エネ性能、再生可能エネルギー設備などの要件は公式ページの交付要綱で確認します。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>補助額は対象区分に応じて設定され、上限は70万円です。申請期間は2026年4月15日から2027年1月29日までで、予算に達した場合は終了します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.niigata.lg.jp/sec/kankyoseisaku/0583945.html',
+    sourceName: '新潟県 雪国型ZEH等導入促進補助金',
+    sourceUrls: [
+      'https://www.pref.niigata.lg.jp/sec/kankyoseisaku/0583945.html'
+    ],
+    sourceNote: '新潟県公式ページで令和8年度募集、雪国型ZEH等、補助上限70万円、申請期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'toyama-high-performance-housing',
+    title: '富山県 とやまの木で家づくり支援事業',
+    organization: '富山県',
+    type: 'local',
+    maxAmount: '最大40万円',
+    maxAmountNum: 40,
+    category: 'housing',
+    prefecture: '富山県',
+    tags: ['富山県', '県産材', '木造住宅', '住宅新築', 'リフォーム'],
+    eligibility: '富山県産材を使用して県内に木造住宅を新築・増改築等する個人等が対象です。',
+    targetOccupation: '富山県内で県産材住宅を建築する個人',
+    applicationPeriod: '令和8年度の受付期間・予算状況は公式ページで確認',
+    description: '富山県が、県産材の利用拡大と木造住宅の普及を目的に、県産材を使った住宅建築を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>とやまの木で家づくり支援事業は、富山県産材の利用促進と県内林業・木材産業の活性化を目的に、県産材を使った住宅づくりを支援する制度です。</p>'
+      },
+      {
+        heading: '対象住宅',
+        content: '<p>富山県内で建築され、一定量以上の県産材を使用する木造住宅が対象です。新築のほか、要件を満たす増改築等も対象として案内されています。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>県産材の使用量や住宅の条件に応じて補助され、公式ページでは最大40万円の支援が案内されています。申請条件や募集枠は年度ごとの案内を確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.toyama.jp/1603/sangyou/nourinsuisan/ringyou/kj00010322.html',
+    sourceName: '富山県 とやまの木で家づくり支援事業',
+    sourceUrls: [
+      'https://www.pref.toyama.jp/1603/sangyou/nourinsuisan/ringyou/kj00010322.html'
+    ],
+    sourceNote: '富山県公式ページで県産材住宅支援、対象住宅、県産材利用、最大40万円の支援を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'ishikawa-energy-saving-housing-2026',
+    title: '羽咋市 住まいづくり奨励金',
+    organization: '羽咋市',
+    type: 'local',
+    maxAmount: '最大50万円',
+    maxAmountNum: 50,
+    category: 'housing',
+    prefecture: '石川県',
+    tags: ['石川県', '羽咋市', '住宅取得', '定住促進', '新築住宅'],
+    eligibility: '羽咋市内で住宅を新築・購入し、定住するなど公式要件を満たす人が対象です。',
+    targetOccupation: '羽咋市内で住宅を取得する個人',
+    applicationPeriod: '申請時期・必要書類は羽咋市公式ページで確認',
+    description: '石川県羽咋市が、市内で住宅を取得して定住する人を対象に奨励金を交付する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>羽咋市住まいづくり奨励金は、市内で住宅を取得する人の定住を促進するため、新築住宅や中古住宅の取得に対して奨励金を交付する制度です。</p>'
+      },
+      {
+        heading: '対象住宅',
+        content: '<p>羽咋市内で取得する住宅が対象です。新築、建売、中古住宅などの区分や、定住要件、申請期限、世帯要件は公式ページで確認します。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>奨励金は対象区分に応じて交付され、公式ページでは最大50万円の支援が案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.hakui.lg.jp/soshiki/sangyoukensetsubu/chiikiseibika/9/9/2/16354.html',
+    sourceName: '羽咋市 住まいづくり奨励金',
+    sourceUrls: [
+      'https://www.city.hakui.lg.jp/soshiki/sangyoukensetsubu/chiikiseibika/9/9/2/16354.html'
+    ],
+    sourceNote: '羽咋市公式ページで住まいづくり奨励金、住宅取得、定住促進、最大50万円の支援を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'fukui-eco-happiness-housing',
+    title: '福井県 ふくいの住まい支援事業',
+    organization: '福井県',
+    type: 'local',
+    maxAmount: '最大60万円',
+    maxAmountNum: 60,
+    category: 'housing',
+    prefecture: '福井県',
+    tags: ['福井県', '省エネ住宅', '子育て世帯', '移住定住', '住宅取得'],
+    eligibility: '福井県内で省エネ性能等の要件を満たす住宅を取得・改修する子育て世帯、移住者、若年夫婦世帯等が対象です。',
+    targetOccupation: '福井県内で住宅取得・改修を行う子育て世帯等',
+    applicationPeriod: '令和8年度の申請受付・予算状況は公式ページで確認',
+    description: '福井県が、子育て世帯や移住者等の住まい確保と省エネ住宅の普及を支援する住宅補助制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>福井県ふくいの住まい支援事業は、子育て世帯や移住者等の定住促進と良質な住宅ストック形成を目的に、住宅の取得や改修を支援する制度です。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>子育て世帯、若年夫婦世帯、移住者など、公式ページで定める要件を満たす人が対象です。住宅の性能や所在地、居住要件なども確認が必要です。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>住宅取得や改修の区分に応じて補助され、公式ページでは最大60万円の支援が案内されています。申請窓口や受付状況は市町を通じて確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.fukui.lg.jp/doc/kenchikujyuutakuka/sumaishienseido.html',
+    sourceName: '福井県 ふくいの住まい支援事業',
+    sourceUrls: [
+      'https://www.pref.fukui.lg.jp/doc/kenchikujyuutakuka/sumaishienseido.html'
+    ],
+    sourceNote: '福井県公式ページでふくいの住まい支援事業、子育て世帯等、住宅取得・改修支援、最大60万円を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
