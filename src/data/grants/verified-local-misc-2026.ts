@@ -4507,4 +4507,153 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'yamanashi-wooden-house-earthquake-retrofit',
+    title: '山梨県 木造住宅耐震改修等事業',
+    organization: '山梨県',
+    type: 'local',
+    maxAmount: '最大125万円',
+    maxAmountNum: 125,
+    category: 'housing',
+    prefecture: '山梨県',
+    tags: ['山梨県', '木造住宅', '耐震改修', '住宅リフォーム', '耐震診断'],
+    eligibility: '昭和56年5月31日以前に着工された木造住宅など、山梨県内の市町村が定める要件を満たす住宅所有者等が対象です。',
+    targetOccupation: '山梨県内の木造住宅所有者等',
+    applicationPeriod: '申請窓口・受付期間は市町村により異なるため公式ページで確認',
+    description: '山梨県が市町村と連携し、旧耐震基準の木造住宅の耐震診断や耐震改修を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>山梨県木造住宅耐震改修等事業は、地震による住宅被害を軽減するため、旧耐震基準の木造住宅の耐震診断や耐震改修を市町村と連携して支援する制度です。</p>'
+      },
+      {
+        heading: '対象住宅',
+        content: '<p>昭和56年5月31日以前に着工された木造住宅など、耐震性に課題がある住宅が対象です。対象要件や申請窓口は市町村ごとに異なります。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>耐震改修工事等の補助額は市町村の制度により異なり、県公式ページでは最大125万円の補助が案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.yamanashi.jp/kenchikujutaku/70278497022.html',
+    sourceName: '山梨県 木造住宅耐震改修等事業',
+    sourceUrls: [
+      'https://www.pref.yamanashi.jp/kenchikujutaku/70278497022.html'
+    ],
+    sourceNote: '山梨県公式ページで木造住宅耐震診断・耐震改修支援、旧耐震基準住宅、市町村窓口、補助上限を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'nagano-healthy-zero-energy-housing',
+    title: '長野県 信州健康ゼロエネ住宅助成金',
+    organization: '長野県',
+    type: 'local',
+    maxAmount: '最大200万円',
+    maxAmountNum: 200,
+    category: 'housing',
+    prefecture: '長野県',
+    tags: ['長野県', '信州健康ゼロエネ住宅', '省エネ住宅', '新築住宅', '断熱改修'],
+    eligibility: '長野県内で信州健康ゼロエネ住宅の基準を満たす住宅を新築またはリフォームする個人等が対象です。',
+    targetOccupation: '長野県内で高性能住宅を新築・改修する個人',
+    applicationPeriod: '2026年4月15日から2027年2月26日まで',
+    deadlineDate: '2027-02-26',
+    description: '長野県が、健康で快適に暮らせる高断熱・高省エネ住宅の普及を目的に、信州健康ゼロエネ住宅の新築・リフォームを支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>信州健康ゼロエネ住宅助成金は、長野県の気候に適した高断熱・高省エネ住宅の普及を進め、健康で快適な住まいづくりを支援する制度です。</p>'
+      },
+      {
+        heading: '対象住宅',
+        content: '<p>長野県が定める信州健康ゼロエネ住宅の基準を満たす住宅が対象です。新築タイプ、リフォームタイプなど、区分ごとに要件があります。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>補助額は区分や性能に応じて異なり、最大200万円が案内されています。令和8年度の申請期間は2026年4月15日から2027年2月26日までです。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.nagano.lg.jp/kenchiku/kenkozeroene/joseikin.html',
+    sourceName: '長野県 信州健康ゼロエネ住宅助成金',
+    sourceUrls: [
+      'https://www.pref.nagano.lg.jp/kenchiku/kenkozeroene/joseikin.html'
+    ],
+    sourceNote: '長野県公式ページで令和8年度信州健康ゼロエネ住宅助成金、対象住宅、新築・リフォーム、最大200万円、申請期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'gifu-housing-reform-support-2026',
+    title: '岐阜県 住宅リフォームローン利子補給制度',
+    organization: '岐阜県',
+    type: 'local',
+    maxAmount: '借入利子を一部補給',
+    maxAmountNum: 0,
+    category: 'housing',
+    prefecture: '岐阜県',
+    tags: ['岐阜県', '住宅リフォーム', '利子補給', '省エネ改修', 'バリアフリー'],
+    eligibility: '岐阜県内の住宅で、対象となるリフォーム工事のために金融機関から融資を受ける人が対象です。',
+    targetOccupation: '岐阜県内で住宅リフォームを行う個人',
+    applicationPeriod: '令和8年度の受付状況は公式ページで確認',
+    description: '岐阜県が、住宅の質の向上や既存住宅の活用を促すため、住宅リフォームローンの利子を一部補給する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>岐阜県住宅リフォームローン利子補給制度は、県民の住宅リフォームを支援するため、対象工事に係る借入金の利子の一部を補給する制度です。</p>'
+      },
+      {
+        heading: '対象工事',
+        content: '<p>住宅の増改築、修繕、模様替え、省エネ改修、バリアフリー改修など、公式ページで定められる住宅リフォーム工事が対象です。</p>'
+      },
+      {
+        heading: '支援内容',
+        content: '<p>対象となる住宅リフォームローンについて、一定期間の利子相当額の一部が補給されます。対象金融機関や申請条件は公式ページで確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.gifu.lg.jp/page/8480.html',
+    sourceName: '岐阜県 住宅リフォームローン利子補給制度',
+    sourceUrls: [
+      'https://www.pref.gifu.lg.jp/page/8480.html'
+    ],
+    sourceNote: '岐阜県公式ページで住宅リフォームローン利子補給制度、対象工事、利子補給の支援内容を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'shizuoka-wood-house-promotion',
+    title: '静岡県 住んでよし しずおか木の家推進事業',
+    organization: '静岡県',
+    type: 'local',
+    maxAmount: '最大30万円',
+    maxAmountNum: 30,
+    category: 'housing',
+    prefecture: '静岡県',
+    tags: ['静岡県', '県産材', '木造住宅', '新築住宅', 'リフォーム'],
+    eligibility: '静岡県産材を一定量使用し、県内に木造住宅を新築・増改築・リフォームする住宅取得者等が対象です。',
+    targetOccupation: '静岡県内で県産材住宅を建築・改修する個人',
+    applicationPeriod: '令和8年度の受付期間・予算状況は公式ページで確認',
+    description: '静岡県が、しずおか優良木材等の県産材を使った住宅づくりを支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>住んでよし しずおか木の家推進事業は、静岡県産材の利用拡大と木造住宅の普及を目的に、しずおか優良木材等を使用した住宅の新築やリフォームを支援する制度です。</p>'
+      },
+      {
+        heading: '対象住宅',
+        content: '<p>静岡県内に建築され、しずおか優良木材等を一定量使用する木造住宅が対象です。新築、増改築、リフォームの区分ごとに要件があります。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>木材使用量や工事区分に応じて補助され、公式ページでは最大30万円の支援が案内されています。受付状況や必要書類は年度ごとの募集案内で確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.shizuoka.jp/kurashikankyo/kenchiku/kizukai/1054945/1060782/index.html',
+    sourceName: '静岡県 住んでよし しずおか木の家推進事業',
+    sourceUrls: [
+      'https://www.pref.shizuoka.jp/kurashikankyo/kenchiku/kizukai/1054945/1060782/index.html'
+    ],
+    sourceNote: '静岡県公式ページで住んでよし しずおか木の家推進事業、県産材利用、新築・リフォーム、最大30万円を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
