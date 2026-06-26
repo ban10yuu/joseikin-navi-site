@@ -6197,4 +6197,118 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'nagasaki-care-digital-reform-support-2026',
+    title: '長崎県 介護現場デジタル改革推進事業補助金',
+    organization: '長崎県',
+    type: 'local',
+    maxAmount: '最大1,200万円',
+    maxAmountNum: 1200,
+    category: 'nursing',
+    prefecture: '長崎県',
+    tags: ['長崎県', '介護テクノロジー', '介護DX', '介護事業所', '業務改善'],
+    eligibility: '長崎県内の介護保険法に基づくサービス事業所、養護老人ホーム、軽費老人ホーム等で、補助金種別ごとの要件を満たす事業者が対象です。',
+    targetOccupation: '長崎県内の介護サービス事業者・福祉事業者等',
+    applicationPeriod: '事業計画の提出期限は令和8年7月31日17時まで',
+    deadlineDate: '2026-07-31',
+    description: '長崎県が、介護現場のテクノロジー化、介護DX、事業者の業務協働化、経営基盤強化等を支援する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>令和8年度介護現場デジタル改革推進事業補助金は、質の高い介護サービスの提供と生産性向上のため、介護現場のテクノロジー化や介護DX化、事業者の業務協働化を支援する制度です。</p>'
+      },
+      {
+        heading: '補助メニュー',
+        content: '<p>介護テクノロジー普及促進補助金、介護DX化推進補助金、事業者グループ職場環境改善協働実施推進補助金、介護事業者等経営改善支援補助金の4種類があります。</p>'
+      },
+      {
+        heading: '補助上限と提出期限',
+        content: '<p>介護テクノロジー普及促進補助金は1事業所あたり上限400万円、介護DX化推進補助金は1事業所または1計画あたり上限1,000万円、事業者グループ職場環境改善協働実施推進補助金は1グループあたり上限1,200万円です。事業計画の提出期限は令和8年7月31日17時です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.nagasaki.jp/doc/48428.html',
+    sourceName: '長崎県 令和8年度介護現場デジタル改革推進事業補助金',
+    sourceUrls: [
+      'https://www.pref.nagasaki.jp/doc/48428.html'
+    ],
+    sourceNote: '長崎県公式ページで令和8年度介護現場デジタル改革推進事業補助金、4種類の補助金、補助率・上限額、事業計画提出期限2026年7月31日17時を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kumamoto-care-technology-support-2026',
+    title: '熊本県 介護テクノロジー定着支援事業費補助金',
+    organization: '熊本県',
+    type: 'local',
+    maxAmount: '事業区分により異なる',
+    maxAmountNum: 0,
+    category: 'nursing',
+    prefecture: '熊本県',
+    tags: ['熊本県', '介護テクノロジー', '介護ロボット', 'ICT', '事業計画'],
+    eligibility: '熊本県内で介護保険法による指定または許可を受け、介護サービスを提供する介護事業所・介護施設が対象です。',
+    targetOccupation: '熊本県内の介護サービス事業者等',
+    applicationPeriod: '事業計画の募集期間は令和8年6月22日から令和8年7月21日まで',
+    deadlineDate: '2026-07-21',
+    description: '熊本県が、介護現場の生産性向上による職場環境改善を目的に、介護テクノロジー等の導入や定着にかかる経費を支援する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>令和8年度熊本県介護テクノロジー定着支援事業費補助金は、介護テクノロジー等の導入支援、パッケージ型導入支援、導入支援と一体的に行う業務改善支援を対象とする制度です。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>補助率は5分の4です。補助対象経費に補助率を乗じた額と基準額を比較し、少ない方の額が補助額となります。介護テクノロジー等の導入支援では、利用定員数を2で除した数以内などの補助限度台数があります。</p>'
+      },
+      {
+        heading: '事業計画募集',
+        content: '<p>事業計画の募集期間は令和8年6月22日から令和8年7月21日までです。紙媒体と電子データの両方を期限までに提出する必要があります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.kumamoto.jp/soshiki/32/269614.html',
+    sourceName: '熊本県 令和8年度介護テクノロジー定着支援事業費補助金',
+    sourceUrls: [
+      'https://www.pref.kumamoto.jp/soshiki/32/269614.html'
+    ],
+    sourceNote: '熊本県公式ページで令和8年度介護テクノロジー定着支援事業費補助金、補助率5分の4、対象事業、事業計画募集期間2026年6月22日から7月21日を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'okinawa-care-technology-support-2026',
+    title: '沖縄県 介護テクノロジー定着支援事業補助金',
+    organization: '沖縄県',
+    type: 'local',
+    maxAmount: '最大615万円',
+    maxAmountNum: 615,
+    category: 'nursing',
+    prefecture: '沖縄県',
+    tags: ['沖縄県', '介護テクノロジー', '介護ロボット', 'ICT', '事前協議'],
+    eligibility: '沖縄県内で介護現場の生産性向上、職員の負担軽減、介護サービスの質向上に取り組む介護事業所が対象です。',
+    targetOccupation: '沖縄県内の介護サービス事業者等',
+    applicationPeriod: '事前協議は令和8年7月1日から令和8年8月7日まで予定',
+    deadlineDate: '2026-08-07',
+    description: '沖縄県が、介護現場の生産性向上や職員の負担軽減、働きやすい職場環境づくりを支援するため、介護テクノロジー等の導入経費を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>令和8年度沖縄県介護テクノロジー定着支援事業補助金は、介護ロボットやICT機器、介護ソフト等を導入する際の経費の一部を補助する制度です。</p>'
+      },
+      {
+        heading: '令和8年度の変更点',
+        content: '<p>基本補助率は5分の4へ引き上げられました。単体導入の1事業所あたり上限額は500万円、パッケージ型導入の補助上限額は600万円、定着促進費用を合わせて活用する場合は615万円です。</p>'
+      },
+      {
+        heading: '申請方法と期間',
+        content: '<p>令和8年度からオンラインフォームで申請する方式に変更されます。事前協議の受付は令和8年7月1日から令和8年8月7日までの予定です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.okinawa.lg.jp/kyoiku/kaigofukushi/1006708/1040463.html',
+    sourceName: '沖縄県 令和8年度介護テクノロジー定着支援事業補助金の募集について',
+    sourceUrls: [
+      'https://www.pref.okinawa.lg.jp/kyoiku/kaigofukushi/1006708/1040463.html'
+    ],
+    sourceNote: '沖縄県公式ページで令和8年度介護テクノロジー定着支援事業補助金、補助率5分の4、単体導入上限500万円、パッケージ型上限600万円・定着促進併用615万円、事前協議予定期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
