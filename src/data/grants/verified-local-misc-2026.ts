@@ -16739,4 +16739,34 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'kochi-city-infertility',
+    title: '高知市 不妊治療助成事業',
+    organization: '高知市',
+    type: 'local',
+    maxAmount: '特定不妊治療 1回最大7万円',
+    maxAmountNum: 7,
+    category: 'medical',
+    relatedCategories: ['childcare'],
+    prefecture: '高知県',
+    tags: ['高知市', '不妊治療', '体外受精', '顕微授精', '令和8年度'],
+    eligibility: '申請日時点で夫婦の両方または一方の住民票が高知市にあり、法律婚または事実婚の要件を満たす夫婦で、対象となる一般不妊治療または特定不妊治療を受けた方が対象です。',
+    applicationPeriod: '令和8年度分は2026年4月1日から2027年3月31日までに終了した治療が対象。申請期限は2027年3月31日必着。2027年3月終了分のみ2027年4月30日必着',
+    deadlineDate: '2027-03-31',
+    description: '高知市が、タイミング法・人工授精などの一般不妊治療と、体外受精・顕微授精などの特定不妊治療を受けた夫婦の経済的負担を軽減する助成事業です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>高知市不妊治療助成事業は、一般不妊治療と特定不妊治療にかかる費用の一部を助成する制度です。既存の生成データでは1回最大30万円としていましたが、公式ページで確認できる令和8年度の助成額へ修正しています。</p>' },
+      { heading: '助成内容', content: '<p>一般不妊治療は1年度につき上限5万円で、助成回数の上限はありませんが連続する2年度が限度です。特定不妊治療は治療ステージA・B・D・Eが1回上限7万円、C・Fが1回上限4万円で、助成回数は年齢区分により1子ごとに40歳未満6回、40歳から42歳3回です。</p>' },
+      { heading: '申請の注意点', content: '<p>令和8年度分は、2026年4月1日から2027年3月31日までに終了した治療が対象です。申請期限は2027年3月31日必着ですが、2027年3月中に終了した治療に限り2027年4月30日必着で申請できます。期限を過ぎると助成できないため、治療終了後は早めの申請が必要です。</p>' }
+    ],
+    officialUrl: 'https://www.city.kochi.kochi.jp/soshiki/148/hunintiryozyoseizigyou2.html',
+    sourceName: '高知市 特定不妊治療助成事業・一般不妊治療助成事業',
+    sourceUrls: [
+      'https://www.city.kochi.kochi.jp/soshiki/148/hunintiryozyoseizigyou2.html',
+      'https://www.city.kochi.kochi.jp/soshiki/148/hunintiryozyoseizigyou3.html'
+    ],
+    sourceNote: '高知市公式ページで、2026年4月6日更新、一般不妊治療は年度上限5万円、特定不妊治療は治療ステージA/B/D/E上限7万円・C/F上限4万円、令和8年度対象期間2026年4月1日から2027年3月31日、申請期限2027年3月31日必着を確認。旧生成データの1回最大30万円から現行制度へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
