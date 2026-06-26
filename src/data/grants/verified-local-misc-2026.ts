@@ -17048,4 +17048,33 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'takamatsu-housing-purchase',
+    title: '高松市 住宅取得支援事業',
+    organization: '高松市',
+    type: 'local',
+    maxAmount: '20万円',
+    maxAmountNum: 20,
+    category: 'housing',
+    relatedCategories: ['living'],
+    prefecture: '香川県',
+    tags: ['高松市', '香川県', '住宅取得', 'フラット35', '令和8年度'],
+    eligibility: '高松市居住誘導区域内に自ら居住する住宅を取得し、フラット35地域連携型等を利用するなど、公式要件を満たす方が対象です。',
+    applicationPeriod: '令和8年度制度として案内中。住宅取得・居住開始にあわせて申請',
+    description: '高松市が、居住誘導区域内で住宅を取得する方に対し、取得費の一部を補助する制度です。令和8年度から中古住宅も対象になっています。',
+    sections: [
+      { heading: '制度の概要', content: '<p>高松市住宅取得支援事業は、多核連携型コンパクト・エコシティの実現に向け、居住誘導区域内に住宅を取得して居住する方を支援する制度です。既存の生成データでは最大50万円としていましたが、公式ページで確認できる令和8年度の補助額は20万円です。</p>' },
+      { heading: '補助内容', content: '<p>令和8年度から中古住宅も対象となり、新築・中古を問わず補助金額は20万円です。新築はしゅん工から2年未満かつ居住の用に供されていない住宅、中古はしゅん工から2年以上または居住の用に供されたことがある住宅として案内されています。</p>' },
+      { heading: '申請の注意点', content: '<p>対象者は、住宅取得に係るフラット35の債務者であること、対象住宅がすべて高松市居住誘導区域内に含まれること、居住開始日前1年間は居住誘導区域外に居住していたこと、3年以上居住する誓約ができること、市税滞納がないことなどの要件を満たす必要があります。</p>' }
+    ],
+    officialUrl: 'https://www.city.takamatsu.kagawa.jp/smph/kurashi/shinotorikumi/machidukuri/toshi/compact/yutakana/flat35.html',
+    sourceName: '高松市住宅取得支援事業について',
+    sourceUrls: [
+      'https://www.city.takamatsu.kagawa.jp/smph/kurashi/shinotorikumi/machidukuri/toshi/compact/yutakana/flat35.html',
+      'https://www.city.takamatsu.kagawa.jp/smph/kurashi/shinotorikumi/machidukuri/toshi/compact/yutakana/index.html'
+    ],
+    sourceNote: '高松市公式ページで、2026年4月1日更新、令和8年度から中古住宅も対象、新築・中古問わず補助額20万円、補助対象者、フラット35地域連携型等の利用、居住誘導区域内住宅、3年以上居住、市税滞納なし等の要件を確認。豊かな住まいづくり総合案内も関連制度として確認。旧生成データの最大50万円から現行額へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
