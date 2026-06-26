@@ -1407,4 +1407,226 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'chiba-migration-support',
+    title: '千葉県 移住支援金',
+    organization: '千葉県・実施市町',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、18歳未満加算あり',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '千葉県',
+    tags: ['千葉県', '移住支援', '東京圏', '実施市町'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた方が、千葉県内の移住支援事業実施市町へ移住し、就業・起業・関係人口等の要件を満たす場合に対象です。',
+    applicationPeriod: '移住先市町の受付期間に従う。予算がなくなり次第受付終了の場合あり',
+    description: '千葉県内の移住支援事業実施市町へ移住する方を支援する移住支援金です。旧生成データを公式確認済みデータとして置換しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>千葉県移住支援金は、東京圏から県内の実施市町へ移住し、就業・起業・関係人口等の要件を満たす方を支援する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>世帯での移住は100万円、単身での移住は60万円です。市町によっては、18歳未満の世帯員を帯同して転入する場合に100万円が加算されます。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請先は移住先の実施市町です。対象市町、申請期限、予算状況、関係人口要件などは市町の公式案内で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.chiba-chiikishigoto.jp/useful/',
+    sourceName: '千葉県 地域しごとNAVI 移住支援金などの補助',
+    sourceUrls: [
+      'https://www.chiba-chiikishigoto.jp/useful/',
+      'https://www.city.minamiboso.chiba.jp/0000012526.html'
+    ],
+    sourceNote: '千葉県地域しごとNAVIで実施市町、世帯・単身支給額、支給要件を確認。南房総市公式ページで令和8年度更新の子ども加算と受付終了注意を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'niigata-migration-support',
+    title: '新潟県 移住支援金',
+    organization: '新潟県・県内市町村',
+    type: 'local',
+    maxAmount: '世帯最大100万円＋子育て加算、単身最大60万円',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '新潟県',
+    tags: ['新潟県', '移住支援', '東京圏', '市町村申請'],
+    eligibility: '一定条件を満たして東京圏から新潟県内へ移住し、就業・起業・テレワーク等の要件を満たす方が対象です。',
+    applicationPeriod: '移住先市町村の受付期間に従う。子育て加算の扱いは市町村へ確認',
+    description: '東京圏から新潟県内へ移住した方に最大100万円＋αを支給する移住支援金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>新潟県移住支援金は、東京圏から新潟県内へ移住し、就業・起業・テレワーク等の要件を満たす方を支援する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>単身の場合は最大60万円、2人以上の世帯の場合は最大100万円です。18歳未満の子どもを帯同して移住する場合は、子ども1人につき最大100万円の子育て世帯加算があります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請先は移住先市町村です。子育て加算や世帯の扱いは市町村により異なるため、移住前に市町村へ確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.niigata.lg.jp/sec/shigototeijyu/1356915648577.html',
+    sourceName: '新潟県 移住支援金',
+    sourceUrls: [
+      'https://www.pref.niigata.lg.jp/sec/shigototeijyu/1356915648577.html',
+      'https://iju.niigata-kigyo-navi.jp/about'
+    ],
+    sourceNote: '新潟県公式ページで2026年4月更新の支給額、子育て加算、市町村差を確認。新潟県運営サイトで制度概要を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'nagano-migration-support',
+    title: '長野県 UIJターン就業・創業移住支援事業',
+    organization: '長野県・県内市町村',
+    type: 'local',
+    maxAmount: '世帯最大100万円・単身最大60万円、18歳未満加算あり',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '長野県',
+    tags: ['長野県', '移住支援', 'UIJターン', '市町村申請'],
+    eligibility: '東京圏から長野県内へ移住し、就業・創業等の要件を満たす方が対象です。支給額や要件は移住先市町村により異なります。',
+    applicationPeriod: '移住先市町村の受付期間に従う。移住または申請前に市町村へ相談',
+    description: '長野県内へのUIJターン就業・創業を支援する移住支援金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>長野県のUIJターン就業・創業移住支援事業は、東京圏から県内へ移住し、就業・創業等の要件を満たす方を支援する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>単身世帯の場合は最大60万円、2人以上世帯の場合は最大100万円です。18歳未満の子どもを帯同する場合は、子どもの人数に応じた加算を受けられる場合があります。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>支給額・要件は市町村によって異なります。移住または申請前に、移住先市町村の担当窓口へ相談してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.nagano.lg.jp/rodokoyo/sangyo/rodo/koyo/kyufukin/r4.html',
+    sourceName: '長野県 UIJターン就業・創業移住支援事業支給要件等',
+    sourceUrls: [
+      'https://www.pref.nagano.lg.jp/rodokoyo/sangyo/rodo/koyo/kyufukin/r4.html',
+      'https://www.city.nagano.nagano.jp/n041600/iju/p006188.html'
+    ],
+    sourceNote: '長野県公式ページで支給額、市町村差、申請前相談を確認。長野市公式ページで令和8年4月以降転入者向けの支給額・18歳未満加算を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'shizuoka-migration-support',
+    title: '静岡県 移住・就業支援金',
+    organization: '静岡県・県内市町',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、子ども1人につき100万円',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '静岡県',
+    tags: ['静岡県', '移住支援', '東京圏', '市町申請'],
+    eligibility: '東京圏から静岡県内へ移住し、就業・起業・テレワーク・関係人口等の要件を満たす方が対象です。',
+    applicationPeriod: '移住先市町の受付期間に従う。制度詳細は市町へ確認',
+    description: '東京圏から静岡県内へ移住する方を支援する移住・就業支援金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>静岡県移住・就業支援金は、東京圏から静岡県内へ移住し、就業・起業・テレワーク・関係人口等の要件を満たす方を支援する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>単身は60万円、世帯は100万円です。子どもを帯同する場合は、子ども1人につき100万円の加算が案内されています。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請先は移住先市町です。対象要件、申請期限、予算状況、子ども加算の扱いを市町の公式案内で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://iju.pref.shizuoka.jp/lp/support.html',
+    sourceName: 'ゆとりすと静岡 移住・就業支援金について',
+    sourceUrls: [
+      'https://iju.pref.shizuoka.jp/lp/support.html',
+      'https://www.city.shizuoka.lg.jp/ijuteiju/p000001.html'
+    ],
+    sourceNote: '静岡県公式移住サイトで単身・世帯支給額、子ども加算、就業・起業・テレワーク等の要件を確認。静岡市公式ページで市実施例を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'aichi-migration-support',
+    title: '愛知県 移住支援事業',
+    organization: '愛知県・県内市町村',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、18歳未満1人につき最大100万円加算',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '愛知県',
+    tags: ['愛知県', '移住支援', '東京圏', '市町村申請'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた方が、愛知県内へ移住し、対象求人への就業等の要件を満たす場合に対象です。',
+    applicationPeriod: '移住先市町村の受付期間に従う。今年度申請期限は市町村により異なる',
+    description: '愛知県内への移住と就業を支援する移住支援金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>愛知県移住支援事業は、東京圏から愛知県へ移住し、移住支援金対象求人に就業した方などに、国・県・市町村が共同で支援金を支給する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>世帯の場合は100万円、単身の場合は60万円です。18歳未満の世帯員を帯同する場合は、市町村区分により1人につき100万円または30万円が加算されます。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請先は移住先市町村です。対象求人、18歳未満加算の市町村区分、申請期限、必要書類は市町村と県公式案内で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.aichi.jp/soshiki/shugyo/j-2019-ijyushien.html',
+    sourceName: '愛知県 愛知県移住支援事業について',
+    sourceUrls: [
+      'https://www.pref.aichi.jp/soshiki/shugyo/j-2019-ijyushien.html',
+      'https://www.uij-aichi.jp/migration_seek.html'
+    ],
+    sourceNote: '愛知県公式ページで支給額、18歳未満加算、市町村区分を確認。あいちUIJターン支援センターで求職者向け制度概要を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'kumamoto-migration-support',
+    title: '熊本県 移住支援事業',
+    organization: '熊本県・県内市町村',
+    type: 'local',
+    maxAmount: '世帯100万円・単身60万円、18歳未満1人につき最大100万円加算',
+    maxAmountNum: 100,
+    category: 'living',
+    prefecture: '熊本県',
+    tags: ['熊本県', '移住支援', '東京圏', '市町村申請'],
+    eligibility: '東京圏から熊本県内の市町村へ移住し、就業・起業・テレワーク等の要件を満たす方が対象です。',
+    applicationPeriod: '移住先市町村の受付期間に従う。子育て加算は市町村により異なる',
+    description: '熊本県と県内市町村が、東京圏から熊本県に移住する方を支援する移住支援事業です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>熊本県移住支援事業は、東京圏から熊本県内へ移住し、マッチングサイト掲載求人への就業等の要件を満たす方に市町村が支援金を支給する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>2人以上の世帯は100万円、単身は60万円です。一部市町村では、18歳未満の世帯員を帯同して移住する場合、18歳未満の方1人につき最大100万円が加算されます。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請先は移住先市町村です。子育て加算の有無や支給要件は、移住予定市町村と転入日によって異なるため、必ず担当窓口に確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.kumamoto.jp/soshiki/21/264806.html',
+    sourceName: '熊本県 熊本県移住支援事業について（令和8年度）',
+    sourceUrls: [
+      'https://www.pref.kumamoto.jp/soshiki/21/264806.html',
+      'https://kumamotodo.jp/system/detail_7.html'
+    ],
+    sourceNote: '熊本県公式ページで令和8年度制度、支給額、18歳未満加算、市町村差、課税注意を確認。熊本市公式移住サイトで市実施例を補足確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
