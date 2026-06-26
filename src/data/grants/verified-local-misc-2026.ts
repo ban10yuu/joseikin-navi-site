@@ -13529,6 +13529,44 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-26',
   },
   {
+    slug: 'hanamaki-maternity-transport-support-2026',
+    title: '花巻市 妊産婦交通費等補助',
+    organization: '花巻市',
+    type: 'local',
+    maxAmount: '1回の出産につき最大10万円',
+    maxAmountNum: 10,
+    category: 'childcare',
+    relatedCategories: ['medical', 'living'],
+    prefecture: '岩手県',
+    tags: ['花巻市', '妊産婦', '交通費', '宿泊費', '出産支援', '令和8年度'],
+    eligibility: '花巻市に住民登録している妊産婦で、母子健康手帳交付後に県内の産科医療機関へ妊婦健診、出産、通院等で移動した方が対象です。',
+    targetOccupation: '花巻市内の妊産婦',
+    applicationPeriod: '出産後おおむね1か月後の健康診査が終了した日から6か月以内。対象経費が上限に達した場合は出産前申請も可能',
+    description: '花巻市が、妊産婦が県内の産科医療機関を利用する際の交通費や待機宿泊費を支援する補助制度です。令和7年4月1日以後に出産した方は、1回の出産につき最大10万円まで補助されます。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>花巻市妊産婦交通費等補助は、妊産婦が安心して出産できる環境を整えるため、産科医療機関への移動にかかる交通費や、出産・通院のための待機宿泊費を補助する制度です。</p>'
+      },
+      {
+        heading: '対象となる費用',
+        content: '<p>母子健康手帳交付後、県内の産科医療機関へ健診・出産・通院のために移動した交通費、出産または通院のために宿泊施設で待機宿泊する際の宿泊費と交通費、ハイリスク妊産婦が産科医療機関のある病院内の他科を受診する際の交通費が対象です。</p>'
+      },
+      {
+        heading: '補助額と申請',
+        content: '<p>補助上限は1回の出産につき10万円です。電車、バス、タクシー、自家用車、有料道路、有料駐車場などの費用が対象になり、自家用車は自宅から産科医療機関までの距離に1キロメートルあたり40円を乗じて算定します。申請は、出産後おおむね1か月後の健康診査終了日から6か月以内に行います。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.hanamaki.iwate.jp/kosodate_kyoiku/kosodate/ninshin_syussan/1000263/1023481.html',
+    sourceName: '花巻市 妊産婦の方が産科医療機関を利用する際の交通費などを支援します',
+    sourceUrls: [
+      'https://www.city.hanamaki.iwate.jp/kosodate_kyoiku/kosodate/ninshin_syussan/1000263/1023481.html'
+    ],
+    sourceNote: '花巻市公式ページで、令和8年2月5日更新、令和7年4月1日以後に出産された方、花巻市に住民登録している妊産婦、県内産科医療機関への交通費・待機宿泊費、電車・バス・タクシー・自家用車・有料道路・駐車場等、1回の出産につき上限10万円、出産後おおむね1か月後健診終了日から6か月以内の申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
     slug: 'kofu-newlywed-life-support-2026',
     title: '甲府市 結婚新生活支援事業',
     organization: '甲府市',
