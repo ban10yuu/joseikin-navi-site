@@ -4805,4 +4805,152 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-26',
   },
+  {
+    slug: 'osaka-existing-house-insulation-model',
+    title: '大阪府 既存住宅流通・リフォーム市場活性化補助金',
+    organization: '大阪府',
+    type: 'local',
+    maxAmount: '最大40万円',
+    maxAmountNum: 40,
+    category: 'housing',
+    prefecture: '大阪府',
+    tags: ['大阪府', '既存住宅', 'リフォーム', '断熱改修', '住宅流通'],
+    eligibility: '大阪府内の既存住宅を対象に、性能向上リフォーム等を行う事業者または住宅所有者等が対象です。',
+    targetOccupation: '大阪府内の既存住宅所有者・事業者等',
+    applicationPeriod: '令和8年度の申請受付・予算状況は公式ページで確認',
+    description: '大阪府が、既存住宅の流通促進とリフォーム市場の活性化を目的に、既存住宅の性能向上リフォーム等を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>大阪府既存住宅流通・リフォーム市場活性化補助金は、既存住宅の質の向上と流通促進を図るため、断熱改修などの性能向上リフォームを支援する制度です。</p>'
+      },
+      {
+        heading: '対象工事',
+        content: '<p>既存住宅を対象とした省エネ改修、断熱改修、耐震性や居住性能の向上に資するリフォーム等が対象として案内されています。詳細な要件は公式ページの募集案内で確認します。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>補助対象経費や工事区分に応じて補助され、公式ページでは最大40万円の支援が案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.osaka.lg.jp/o130170/kenchi_kankyo/hojokin.html',
+    sourceName: '大阪府 既存住宅流通・リフォーム市場活性化補助金',
+    sourceUrls: [
+      'https://www.pref.osaka.lg.jp/o130170/kenchi_kankyo/hojokin.html'
+    ],
+    sourceNote: '大阪府公式ページで既存住宅流通・リフォーム市場活性化補助金、既存住宅、リフォーム、補助上限を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'hyogo-vacant-house-renovation',
+    title: '兵庫県 空き家活用支援事業',
+    organization: '兵庫県',
+    type: 'local',
+    maxAmount: '最大500万円',
+    maxAmountNum: 500,
+    category: 'housing',
+    prefecture: '兵庫県',
+    tags: ['兵庫県', '空き家', '改修', 'リフォーム', '移住定住'],
+    eligibility: '兵庫県内の空き家を住宅、事業所、地域交流拠点等として活用するために改修する所有者・利用者等が対象です。',
+    targetOccupation: '兵庫県内の空き家所有者・活用希望者等',
+    applicationPeriod: '令和8年度の受付期間・市町窓口は公式ページで確認',
+    description: '兵庫県が、市町と連携して空き家を住宅や地域交流拠点等として活用する改修費を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>兵庫県空き家活用支援事業は、地域の空き家を有効活用し、移住定住や地域活性化につなげるため、空き家の改修費を支援する制度です。</p>'
+      },
+      {
+        heading: '対象用途',
+        content: '<p>住宅としての活用のほか、事業所、地域交流拠点、地域コミュニティ施設など、地域活性化につながる用途への改修が対象として案内されています。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>用途や地域区分、改修内容に応じて補助額が異なり、公式ページでは最大500万円の支援が案内されています。申請は市町窓口を通じて行います。</p>'
+      }
+    ],
+    officialUrl: 'https://web.pref.hyogo.lg.jp/ks26/machi-saisei/sato-akiya/sato-akiya.html',
+    sourceName: '兵庫県 空き家活用支援事業',
+    sourceUrls: [
+      'https://web.pref.hyogo.lg.jp/ks26/machi-saisei/sato-akiya/sato-akiya.html'
+    ],
+    sourceNote: '兵庫県公式ページで空き家活用支援事業、住宅・事業所・地域交流拠点等への改修、最大500万円、市町窓口を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'wakayama-house-earthquake-retrofit',
+    title: '和歌山県 住宅耐震化促進事業',
+    organization: '和歌山県',
+    type: 'local',
+    maxAmount: '最大116万6,000円',
+    maxAmountNum: 117,
+    category: 'housing',
+    prefecture: '和歌山県',
+    tags: ['和歌山県', '耐震診断', '耐震改修', '木造住宅', '住宅リフォーム'],
+    eligibility: '昭和56年5月以前に着工された木造住宅など、和歌山県内の市町村が定める要件を満たす住宅が対象です。',
+    targetOccupation: '和歌山県内の住宅所有者等',
+    applicationPeriod: '申請窓口・受付期間は市町村により異なるため公式ページで確認',
+    description: '和歌山県が市町村と連携し、住宅の耐震診断、補強設計、耐震改修を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>和歌山県住宅耐震化促進事業は、大規模地震による住宅倒壊被害を軽減するため、住宅の耐震診断や耐震改修を支援する制度です。</p>'
+      },
+      {
+        heading: '対象住宅',
+        content: '<p>昭和56年5月以前に着工された木造住宅など、耐震性に課題がある住宅が対象です。対象要件や申請方法は市町村ごとに異なります。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>耐震改修工事等に対し、公式ページでは最大116万6,000円の補助が案内されています。耐震診断や補強設計の支援制度も用意されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.wakayama.lg.jp/prefg/080800/taishin/top.html',
+    sourceName: '和歌山県 住宅耐震化促進事業',
+    sourceUrls: [
+      'https://www.pref.wakayama.lg.jp/prefg/080800/taishin/top.html'
+    ],
+    sourceNote: '和歌山県公式ページで住宅耐震化促進事業、耐震診断・補強設計・耐震改修、補助上限を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'tottori-smile-housing-2026',
+    title: '鳥取県 とっとり住まいる支援事業',
+    organization: '鳥取県',
+    type: 'local',
+    maxAmount: '最大100万円',
+    maxAmountNum: 100,
+    category: 'housing',
+    prefecture: '鳥取県',
+    tags: ['鳥取県', '県産材', '木造住宅', '住宅新築', '移住定住'],
+    eligibility: '鳥取県産材を活用して県内に木造住宅を新築・改修する個人等が対象です。',
+    targetOccupation: '鳥取県内で県産材住宅を建築・改修する個人',
+    applicationPeriod: '2026年度の受付期間・予算状況は公式ページで確認',
+    description: '鳥取県が、県産材を活用した住宅建設や改修を支援し、県内住宅産業と県産材利用を促進する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>とっとり住まいる支援事業は、鳥取県産材の利用拡大と県内住宅産業の活性化を目的に、県産材を使った木造住宅の新築・改修等を支援する制度です。</p>'
+      },
+      {
+        heading: '対象住宅',
+        content: '<p>鳥取県内に建築され、鳥取県産材を一定量使用する木造住宅が対象です。新築、改修、県産材使用量などの要件は公式ページで確認します。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>補助額は県産材の使用量や住宅区分に応じて設定され、公式ページでは最大100万円の支援が案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.pref.tottori.lg.jp/328187.htm',
+    sourceName: '鳥取県 とっとり住まいる支援事業',
+    sourceUrls: [
+      'https://www.pref.tottori.lg.jp/328187.htm'
+    ],
+    sourceNote: '鳥取県公式ページで2026年度とっとり住まいる支援事業、県産材住宅、新築・改修、最大100万円を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
 ];
