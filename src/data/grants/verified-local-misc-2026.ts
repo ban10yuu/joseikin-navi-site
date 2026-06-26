@@ -15740,4 +15740,33 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-27',
   },
+  {
+    slug: 'niihama-housing-seismic',
+    title: '新居浜市 木造住宅耐震改修補助事業',
+    organization: '新居浜市',
+    type: 'local',
+    maxAmount: '最大115万円',
+    maxAmountNum: 115,
+    category: 'housing',
+    relatedCategories: ['disaster', 'living'],
+    prefecture: '愛媛県',
+    tags: ['新居浜市', '耐震改修', '木造住宅', '住宅支援', '令和8年度'],
+    eligibility: '新居浜市が実施する耐震診断を受け、上部構造評点が1.0未満と判定された対象木造住宅の所有者で、市税等を滞納していない方など、公式要件を満たす方が対象です。',
+    applicationPeriod: '令和8年度制度として2026年4月1日更新。予算の範囲内で受付',
+    description: '新居浜市が、地震に対する住宅の安全性向上を目的に、木造住宅の耐震改修設計・改修工事・工事監理を補助する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>新居浜市木造住宅耐震改修補助事業は、市の耐震診断で上部構造評点が1.0未満と判定された木造住宅を、評点1.0以上にする耐震改修を支援する制度です。</p>' },
+      { heading: '補助内容', content: '<p>公式ページでは、耐震改修設計は経費の3分の2以内・上限20万円、耐震改修工事は経費の5分の4以内・上限115万円、工事監理は経費の2分の1以内・上限3万円と案内されています。</p>' },
+      { heading: '申請の注意点', content: '<p>耐震改修工事は、市内事業者で愛媛県の登録制度に基づく耐震改修登録事業者が行う必要があります。補助は予定件数と予算の範囲内です。</p>' }
+    ],
+    officialUrl: 'https://www.city.niihama.lg.jp/soshiki/kensido/taishinkaisyuu.html',
+    sourceName: '新居浜市 令和8年度木造住宅耐震改修補助事業のお知らせ',
+    sourceUrls: [
+      'https://www.city.niihama.lg.jp/soshiki/kensido/taishinkaisyuu.html',
+      'https://www.city.niihama.lg.jp/soshiki/kensido/hakenannai.html'
+    ],
+    sourceNote: '新居浜市公式ページで、2026年4月1日更新、耐震改修設計20万円、耐震改修工事115万円、工事監理3万円、対象住宅・対象者要件を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
 ];
