@@ -17882,6 +17882,37 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-27',
   },
   {
+    slug: 'morioka-childcare-subsidy',
+    title: '盛岡市 第2子以降の保育料無償化',
+    organization: '盛岡市',
+    type: 'local',
+    maxAmount: '認可外保育施設は月42,000円まで助成',
+    maxAmountNum: 4.2,
+    category: 'childcare',
+    relatedCategories: ['living'],
+    prefecture: '岩手県',
+    tags: ['盛岡市', '岩手県', '保育料', '第2子以降', '認可外保育施設', '副食費'],
+    eligibility: '盛岡市で保育所、認定こども園、地域型保育事業、認可外保育施設などを利用する第2子以降の子どもがいる世帯が対象です。認可外保育施設は保育の必要性などの要件があります。',
+    applicationPeriod: '通年。保育施設等の利用や助成請求にあわせて適用',
+    description: '盛岡市が、子育て世帯応援プロジェクトとして実施する第2子以降の保育料負担軽減です。保育所、認定こども園、地域型保育事業の第2子以降保育料を0円とし、認可外保育施設等は0歳児から2歳児クラスについて月42,000円まで助成します。',
+    sections: [
+      { heading: '制度の概要', content: '<p>盛岡市では、令和5年度から第2子以降の保育料無償化の範囲を拡大しています。世帯の第2子以降の子どもは、年齢やきょうだいの同時利用の有無を問わず、保育料無償化の対象として案内されています。</p>' },
+      { heading: '保育料の軽減内容', content: '<p>対象となる第2子以降の子どもが保育所、認定こども園、地域型保育事業を利用する場合、保育料は0円です。延長保育料など、通常の保育料以外の利用者負担は対象外です。認可外保育施設や企業主導型保育事業所を利用する場合は、保育の必要性を有する世帯の0歳児から2歳児クラスについて、月42,000円を上限に助成されます。</p>' },
+      { heading: '副食費と申請の注意点', content: '<p>盛岡市の子育て世帯応援プロジェクトでは、世帯年収がおおむね550万円未満相当の3歳児クラスから5歳児クラスの子どもを対象に、副食費を月4,800円まで軽減する制度も案内されています。認可外保育施設の保育料助成は償還払い方式で、おおむね3か月に1回の頻度で請求手続きが必要です。施設や年齢、保育の必要性の認定によって使える制度が変わるため、利用前に盛岡市の案内を確認してください。</p>' }
+    ],
+    officialUrl: 'https://www.city.morioka.iwate.jp/kosodate/kodomo_azukeru/1042073.html',
+    sourceName: '盛岡市 第2子以降の保育料無償化範囲の拡大について',
+    sourceUrls: [
+      'https://www.city.morioka.iwate.jp/kosodate/kodomo_azukeru/1042073.html',
+      'https://www.city.morioka.iwate.jp/kosodate/kodomo_azukeru/1031343.html',
+      'https://www.city.morioka.iwate.jp/kosodate/kodomo_azukeru/1055039.html',
+      'https://www.city.morioka.iwate.jp/kosodate/kodomo_azukeru/1026862.html'
+    ],
+    sourceNote: '盛岡市公式ページで、令和5年度から第2子以降の保育料無償化範囲を拡大し、世帯の第2子以降は年齢やきょうだいの同時利用の有無を問わず対象、保育所・認定こども園・地域型保育事業は保育料0円、認可外保育施設・企業主導型保育事業所は保育の必要性を有する0〜2歳児クラスについて月42,000円まで助成を確認。認可外保育施設の保育料・副食費助成ページで、給食費・教材費・行事費等は対象外、償還払い、おおむね3か月に1回給付を確認。子育て世帯応援プロジェクトで、副食費月4,800円上限軽減を補助確認。旧生成データの年額3万円給付から公式確認済みの保育料負担軽減へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-27',
+  },
+  {
     slug: 'morioka-parenting-allowance',
     title: '盛岡市 妊婦のための支援給付',
     organization: '盛岡市',
