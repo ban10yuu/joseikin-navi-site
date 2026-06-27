@@ -19445,4 +19445,34 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-28',
   },
+  {
+    slug: 'chiba-city-nursing-equipment',
+    title: '千葉市 おむつ給付等事業（高齢者）',
+    organization: '千葉市',
+    type: 'local',
+    maxAmount: '要介護1から3は月額4,000円、要介護4・5は月額8,000円を基準に9割を市が助成',
+    maxAmountNum: 1,
+    category: 'nursing',
+    relatedCategories: ['living', 'medical'],
+    prefecture: '千葉県',
+    tags: ['千葉市', '千葉県', 'おむつ給付等事業', '高齢者', '要介護認定', '紙おむつ', '布おむつ'],
+    eligibility: '介護保険で要介護1から5の認定を受け、常時失禁状態にあり、千葉市内の居宅で介護を受けている方などが対象です。本人および同一住所地の親族全員が市民税非課税であること等の要件があります。',
+    applicationPeriod: '通年。事前に各区高齢障害支援課へ相談',
+    description: '千葉市が、在宅で介護を受けている高齢者等に紙おむつの給付や布おむつの貸与を行い、本人と介護している家族を援助する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>千葉市おむつ給付等事業（高齢者）は、在宅で介護を受けている高齢者等に、紙おむつの給付や布おむつの貸与を行うことで、本人および介護している家族を援助する制度です。登録業者が利用者宅までおむつを配達し、市からの給付金は配達を行った業者へ支払われます。</p>' },
+      { heading: '対象者', content: '<p>対象は、介護保険で要介護1から5のいずれかの認定を受けていること、常時失禁状態にあること、千葉市内に住所を有し千葉市内の居宅で介護を受けていることなど、公式ページに掲げる全ての要件を満たす方です。生活保護や中国残留邦人等支援給付を受けている方、在宅重度心身障害者おむつ給付事業の給付を受けている方は対象外です。本人および同一住所地に居住する親族全員が市民税非課税であることも要件です。</p>' },
+      { heading: '助成内容', content: '<p>高齢者のおむつ利用に関する千葉市公式FAQでは、要介護1から3の認定者は月額4,000円、要介護4・5の認定者は月額8,000円を基準額とし、そのうち9割を市が助成、1割が自己負担とされています。おむつ購入等に要する費用が基準額より低い場合は、かかる費用の9割が給付されます。</p>' }
+    ],
+    officialUrl: 'https://www.city.chiba.jp/hokenfukushi/koreishogai/korei/diaper.html',
+    sourceName: '千葉市 おむつ給付等事業（高齢者）',
+    sourceUrls: [
+      'https://www.city.chiba.jp/hokenfukushi/koreishogai/korei/diaper.html',
+      'https://www.city.chiba.jp/hokenfukushi/koreishogai/korei/diaper-price.html',
+      'https://www.city.chiba.jp/faq/hokenfukushi/koreishogai/korei/1598.html'
+    ],
+    sourceNote: '千葉市公式ページで、おむつ給付等事業（高齢者）は在宅で介護を受けている高齢者等に紙おむつの給付や布おむつの貸与を行い本人および介護している家族を援助する制度であることを確認。対象は介護保険で要介護1から5、常時失禁状態、千葉市内住所かつ千葉市内の居宅で介護、生活保護や中国残留邦人等支援給付を受けていない、本人および同一住所地親族全員が市民税非課税、在宅重度心身障害者おむつ給付事業を受けていない等。登録業者が利用者宅へ配達し給付金は業者へ支払われることを確認。公式FAQで要介護1から3は月額4,000円、要介護4・5は月額8,000円を基準額として9割を市が助成し1割自己負担であることを確認。旧生成データの介護用品給付事業を公式確認済み内容へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-28',
+  },
 ];
