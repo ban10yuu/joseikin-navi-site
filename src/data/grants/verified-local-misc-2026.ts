@@ -19124,4 +19124,33 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-28',
   },
+  {
+    slug: 'sendai-seismic-diagnosis',
+    title: '仙台市 戸建木造住宅耐震診断支援事業',
+    organization: '仙台市',
+    type: 'local',
+    maxAmount: '自己負担14,850円から17,600円で耐震診断支援',
+    maxAmountNum: 0,
+    category: 'disaster',
+    relatedCategories: ['housing'],
+    prefecture: '宮城県',
+    tags: ['仙台市', '宮城県', '戸建木造住宅', '耐震診断', '耐震改修計画', '令和8年度'],
+    eligibility: '仙台市内の木造個人住宅で、2階建て以下、平成12年5月31日以前に建てられたものの所有者が対象です。ツーバイフォー、丸太組、プレハブ、アパート、長屋などは対象外です。',
+    applicationPeriod: '令和8年度事業受付中。申込書を郵送または持参',
+    description: '仙台市が、一定の条件を満たす戸建木造住宅等に耐震診断士を派遣し、耐震診断と改修計画の策定、改修工事の概算見積りを低料金で行う制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>仙台市戸建木造住宅耐震診断支援事業は、地震に強い安全な街づくりを目指し、一定条件を満たす戸建木造住宅等の耐震診断支援を仙台市が低料金で行う制度です。市民からの申込みにより耐震診断士を派遣し、一般診断、耐震改修計画案の作成、改修工事を行う際の概算見積りまで実施します。</p>' },
+      { heading: '対象となる建築物', content: '<p>対象は、木造の個人住宅で、2階建て以下、平成12年5月31日以前に建てられたものです。一部店舗等併用住宅は含まれますが、ツーバイフォー構法、丸太組構法、プレハブ構法の住宅、アパート、長屋は対象外です。申込みできるのは建物の所有者です。</p>' },
+      { heading: '費用と申込方法', content: '<p>自己負担額は税込14,850円から17,600円で、診断結果や簡易耐震診断の有無により異なります。費用は耐震診断結果の報告時に耐震診断士へ支払います。申込書に必要事項を記入し、建物所在地の区役所街並み形成課へ郵送または持参して申し込みます。</p>' }
+    ],
+    officialUrl: 'https://www.city.sendai.jp/kenchikubosai/kurashi/anzen/saigaitaisaku/jishintsunami/taisaku/kodate/shindan/',
+    sourceName: '仙台市 戸建木造住宅耐震診断',
+    sourceUrls: [
+      'https://www.city.sendai.jp/kenchikubosai/kurashi/anzen/saigaitaisaku/jishintsunami/taisaku/kodate/shindan/',
+      'https://www.city.sendai.jp/kenchikubosai/kurashi/anzen/saigaitaisaku/jishintsunami/taisaku/kodate/shindan/documents/taishinshindan_pamphlet.pdf'
+    ],
+    sourceNote: '仙台市公式ページで、令和8年度事業の受付開始および対象建築物の拡充を確認。戸建木造住宅耐震診断支援事業は、一定条件を満たす戸建木造住宅等に耐震診断士を派遣し、一般診断、耐震改修計画案の作成、改修工事の概算見積りを低料金で行う制度。対象は木造の個人住宅、2階建て以下、平成12年5月31日以前に建てられたもの。ツーバイフォー、丸太組、プレハブ、アパート、長屋は対象外。申込者は建物所有者。自己負担額は税込14,850円から17,600円で、診断結果や簡易耐震診断の有無で異なる。申込書を建物所在地の区役所街並み形成課等へ郵送または持参。旧生成データの無料・旧耐震基準限定表現を公式確認済み内容へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-28',
+  },
 ];
