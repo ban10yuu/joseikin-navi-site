@@ -19415,4 +19415,34 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-28',
   },
+  {
+    slug: 'maebashi-nursing-equipment',
+    title: '前橋市 要介護高齢者おむつサービス',
+    organization: '前橋市',
+    type: 'local',
+    maxAmount: 'おむつカタログから選択した介護用品を給付',
+    maxAmountNum: 0,
+    category: 'nursing',
+    relatedCategories: ['living', 'medical'],
+    prefecture: '群馬県',
+    tags: ['前橋市', '群馬県', '要介護高齢者おむつサービス', '介護用品', 'おむつ', '要介護3', '要介護4', '要介護5'],
+    eligibility: '要介護3から5で、寝たきり状態または認知症等により常時おむつで排泄し、市民税非課税である方が対象です。',
+    applicationPeriod: '4月1日から翌年3月上旬まで。長寿包括ケア課へ提出または電子申請',
+    description: '前橋市が、要介護高齢者おむつサービスとして、対象となる高齢者におむつカタログ掲載の介護用品を給付する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>前橋市要介護高齢者おむつサービスは、要介護高齢者に対しておむつサービスを提供する制度です。申請書に必要事項を記入し、長寿包括ケア課に提出または郵送するほか、電子申請での提出も可能です。支所や市民サービスセンターでは受付できません。</p>' },
+      { heading: '対象者', content: '<p>公式申請書では、対象者について、寝たきり状態または認知症等により常時おむつで排泄すること、市民税非課税であることが確認項目になっています。また、要介護度は要介護3、要介護4、要介護5が申請書の対象欄に示されています。</p>' },
+      { heading: '申請と利用', content: '<p>受付期間は4月1日から翌年3月上旬までです。取り扱い窓口は市役所2階の長寿包括ケア課35番窓口で、申請書のほか、おむつカタログが公式ページで公開されています。市は対象者のサービス利用要件確認のため必要な調査を行い、サービス実施機関や担当ケアマネジャーに必要な情報を提供します。</p>' }
+    ],
+    officialUrl: 'https://www.city.maebashi.gunma.jp/soshiki/fukushibu/chojuhokatsukea/shinseisho/6829.html',
+    sourceName: '前橋市 要介護高齢者おむつサービス申請書について',
+    sourceUrls: [
+      'https://www.city.maebashi.gunma.jp/soshiki/fukushibu/chojuhokatsukea/shinseisho/6829.html',
+      'https://www.city.maebashi.gunma.jp/material/files/group/37/omutsushinsei8.pdf',
+      'https://www.city.maebashi.gunma.jp/material/files/group/37/panakea08.pdf'
+    ],
+    sourceNote: '前橋市公式ページで、要介護高齢者おむつサービスの申請書、長寿包括ケア課への提出または郵送、電子申請、支所や市民サービスセンターで受付不可、受付期間4月1日から翌年3月上旬、令和8年4月から申請書変更、おむつカタログを確認。公式申請書で、前橋市要介護高齢者おむつサービス事業実施要綱に基づくサービス、対象者は寝たきり状態または認知症等により常時おむつで排泄すること、市民税非課税であること、要介護度は要介護3・4・5の欄があることを確認。旧生成データの介護用品給付事業を公式確認済み内容へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-28',
+  },
 ];
