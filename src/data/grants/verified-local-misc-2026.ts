@@ -20142,4 +20142,35 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-28',
   },
+  {
+    slug: 'kusatsu-recurrent-pregnancy-loss-support',
+    title: '草津市 不育症治療費助成金交付事業',
+    organization: '草津市',
+    type: 'local',
+    maxAmount: '1年度につき最大30万円',
+    maxAmountNum: 30,
+    category: 'medical',
+    relatedCategories: ['childcare'],
+    prefecture: '滋賀県',
+    tags: ['草津市', '滋賀県', '不育症', '治療費助成', '検査費用', '事実婚', 'パートナーシップ'],
+    eligibility: '申請日に夫婦、事実婚またはパートナーシップ関係のどちらかが草津市に住民登録しており、医療機関で不育症と診断され保険適用外の検査・治療を受け、市税等を完納している方が対象です。',
+    targetOccupation: '不育症治療を受ける夫婦・事実婚・パートナーシップ関係の方',
+    applicationPeriod: '治療終了日から6か月以内に申請。6か月目が休日の場合は休日明けまで',
+    description: '草津市が、医療機関で受けた不育症治療に要した医療保険適用外の費用の一部を助成する制度です。1年度につき上限30万円、通算5年度まで利用できます。',
+    sections: [
+      { heading: '制度の概要', content: '<p>草津市不育症治療費助成金交付事業は、医療機関で受けた不育症治療に要した医療保険適用外の費用の一部を助成する制度です。不育症は、2回以上の流産、死産、早期新生児死亡がある場合などを指します。</p>' },
+      { heading: '対象者', content: '<p>申請日に夫婦、事実婚またはパートナーシップ関係のどちらかが草津市に住民登録をしていること、医療機関で不育症と診断され、保険適用外の検査や治療を受けていること、市税等を完納していることが主な要件です。滋賀県不育症検査費用助成を受けた場合は、その助成額を除いた分が草津市の助成対象となります。</p>' },
+      { heading: '助成内容と申請期限', content: '<p>助成対象は、医療機関で行われた保険外診療の不育症治療やそれに伴う検査に要する費用です。差額ベッド代や食事代など直接治療に関係のない費用は対象外です。助成額は1年度につき上限30万円で、通算5年度までです。申請期間は治療終了日から6か月以内です。</p>' }
+    ],
+    officialUrl: 'https://www.city.kusatsu.shiga.jp/kosodate/ninshinshussan/shienteate/fuikushojosei.html',
+    sourceName: '草津市 不育症治療費助成金交付事業',
+    sourceUrls: [
+      'https://www.city.kusatsu.shiga.jp/kosodate/ninshinshussan/shienteate/fuikushojosei.html',
+      'https://www.city.kusatsu.shiga.jp/kosodate/ninshinshussan/shienteate/fuikushojosei.files/huikusyouseikyuusyo.pdf',
+      'https://www.city.kusatsu.shiga.jp/kosodate/ninshinshussan/shienteate/fuikushojosei.files/yousiki2.huiku.pdf'
+    ],
+    sourceNote: '草津市公式ページで、不育症治療費助成金交付事業は医療機関で受けた不育症治療に要した医療保険適用外の費用の一部を助成する制度で、助成額は1年度につき上限30万円であることを確認。対象者は、申請日に夫婦、事実婚またはパートナーシップ関係のどちらかが草津市に住民登録をしていること、医療機関で不育症と診断され、2回以上の流産で保険適用外の検査・治療を受けていること、申請時に市税等を完納していることを確認。滋賀県不育症検査費用助成を受けた方は、その助成費用を除いた分が草津市の助成対象となることを確認。助成対象は保険外診療の不育症治療やそれに伴う検査に要する費用で、差額ベッド代や食事代等は対象外であることを確認。1年度につき30万円上限、通算5年度まで、申請期間は治療終了日から6か月以内、保険適用外の不育症検査は検査終了時点でも申請できることを確認。新規公式確認済み制度として追加。',
+    verifiedAt,
+    publishedAt: '2026-06-28',
+  },
 ];
