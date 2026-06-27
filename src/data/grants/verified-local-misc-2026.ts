@@ -18948,4 +18948,34 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-28',
   },
+  {
+    slug: 'kofu-block-wall-removal',
+    title: '甲府市 ブロック塀等耐震対策事業補助金',
+    organization: '甲府市',
+    type: 'local',
+    maxAmount: '補助対象額の3分の2以内、上限25万円',
+    maxAmountNum: 25,
+    category: 'disaster',
+    relatedCategories: ['housing', 'living'],
+    prefecture: '山梨県',
+    tags: ['甲府市', '山梨県', 'ブロック塀', '耐震対策', '撤去工事', '改修工事', '令和8年度'],
+    eligibility: '避難路等に面し、避難路等からの高さが1mを超えるブロック塀等の所有者で、市税の滞納がない方が対象です。',
+    applicationPeriod: '工事着手前に申請し、交付決定後に着手。予算状況により希望年度に対応できない場合あり',
+    description: '甲府市が、大規模地震時などに倒壊の恐れがあるブロック塀等の撤去・改修工事に要する費用の一部を助成する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>甲府市ブロック塀等耐震対策事業補助金は、大規模地震が発生した際などに倒壊の恐れがあるブロック塀等の撤去・改修工事に要する費用を助成する制度です。避難路等に面している危険なブロック塀等の安全対策を促す目的で実施されています。</p>' },
+      { heading: '対象となるブロック塀等', content: '<p>対象は、避難路等に面しており、避難路等からの高さが1mを超えるブロック塀等です。申請者はブロック塀等の所有者であること、市税の滞納がないことが条件です。</p>' },
+      { heading: '補助額と注意点', content: '<p>撤去工事は見積額と撤去する塀等の延長1mあたり12,000円を乗じた額を比較し、少ない額の3分の2以内、かつ上限25万円です。耐震改修工事は見積額と改修に伴い撤去する塀等の延長1mあたり19,000円を乗じた額を比較し、少ない額の3分の2以内、かつ上限25万円です。交付決定前に着手した工事は補助対象外です。</p>' }
+    ],
+    officialUrl: 'https://www.city.kofu.yamanashi.jp/kenchikushido/machi/kenchiku/shinsa/blockjosei.html',
+    sourceName: '甲府市 ブロック塀等耐震対策補助について',
+    sourceUrls: [
+      'https://www.city.kofu.yamanashi.jp/kenchikushido/machi/kenchiku/shinsa/blockjosei.html',
+      'https://www.city.kofu.yamanashi.jp/kenchikushido/machi/kenchiku/shinsa/documents/burokkuhojyokinnpanhu.pdf',
+      'https://www.city.kofu.yamanashi.jp/kenchikushido/machi/kenchiku/shinsa/documents/burokkuhojyokinnyoukour8.pdf'
+    ],
+    sourceNote: '甲府市公式ページで、ブロック塀等耐震対策事業補助は大規模地震時などに倒壊の恐れがあるブロック塀等の撤去・改修工事に要する費用を助成する制度であることを確認。対象は避難路等に面し避難路等からの高さが1mを超えるブロック塀等、申請者は所有者、市税滞納なし。補助金額は撤去工事では見積額または延長1mあたり12,000円、耐震改修工事では見積額または延長1mあたり19,000円を比較し、少ない額の3分の2以内かつ限度額25万円。交付決定前着手は対象外、予算状況により希望年度に対応できない場合があることを確認。令和8年度要綱PDFへの導線も確認。旧生成データを公式確認済み内容へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-28',
+  },
 ];
