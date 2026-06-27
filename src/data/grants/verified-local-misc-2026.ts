@@ -19592,4 +19592,34 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-28',
   },
+  {
+    slug: 'wakayama-city-fire-extinguisher-2026',
+    title: '和歌山市 消火器購入費補助',
+    organization: '和歌山市',
+    type: 'local',
+    maxAmount: '住宅用消火器を3,200円の負担で購入可能',
+    maxAmountNum: 0,
+    category: 'disaster',
+    relatedCategories: ['living'],
+    prefecture: '和歌山県',
+    tags: ['和歌山市', '和歌山県', '消火器', '住宅用消火器', '火災予防', '防災', '令和8年度'],
+    eligibility: '和歌山市内に住所を有する世帯が対象です。1世帯1本まで申し込めます。',
+    applicationPeriod: '令和8年7月1日から令和8年7月31日まで',
+    description: '和歌山市が、ご家庭への消火器設置を推進するため、住宅用消火器の購入費用の一部を補助する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>和歌山市は、ご家庭への消火器設置を推進するため、住宅用消火器の購入費用の一部を補助しています。令和8年度は、蓄圧式粉末ABC消火器（4型）を対象に、当選者が3,200円を負担して購入できます。</p>' },
+      { heading: '対象者と申込方法', content: '<p>対象は和歌山市内に住所を有する世帯で、1世帯1本まで申し込めます。申込は、消防署、消防分署、消防出張所、サービスセンター、支所、連絡所に備え付けの専用往復はがき、または市販の郵便往復はがきで行います。往信・返信の両面に切手を貼り付ける必要があります。</p>' },
+      { heading: '購入者負担と配布', content: '<p>購入者の負担額は3,200円で、消火器受取時に支払います。多数の応募があった場合は抽選で決定され、当落は返信はがきで通知されます。配布日と配布場所は地区ごとに指定され、当選はがきに記載されます。</p>' }
+    ],
+    officialUrl: 'https://www.city.wakayama.wakayama.jp/syoubou/news1/1068131.html',
+    sourceName: '和歌山市 消火器の購入費用の一部を補助します。',
+    sourceUrls: [
+      'https://www.city.wakayama.wakayama.jp/syoubou/news1/1068131.html',
+      'https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/068/131/2026060801.pdf',
+      'https://www.city.wakayama.wakayama.jp/_res/projects/default_project/_page_/001/068/131/2026060803.pdf'
+    ],
+    sourceNote: '和歌山市公式ページで、令和8年6月26日更新の消火器購入費補助を確認。家庭への消火器設置を推進するため住宅用消火器の購入を補助し、令和8年度の対象は蓄圧式粉末ABC消火器4型、申込対象は和歌山市内に住所を有する世帯で1世帯1本まで、申込期間は令和8年7月1日から令和8年7月31日まで、申込方法は専用往復はがきまたは市販の郵便往復はがきであることを確認。購入者負担額は3,200円で消火器受取時に支払い、多数応募時は抽選、当落は返信はがきで通知、配布日と場所は当選はがきに記載されることを確認。不要消火器の有料引取処分も案内されていることを確認。新規公式確認済み制度として追加。',
+    verifiedAt,
+    publishedAt: '2026-06-28',
+  },
 ];
