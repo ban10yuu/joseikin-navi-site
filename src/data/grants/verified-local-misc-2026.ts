@@ -19211,4 +19211,33 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-28',
   },
+  {
+    slug: 'otsu-childcare-subsidy',
+    title: '大津市 子どもの医療費助成',
+    organization: '大津市',
+    type: 'local',
+    maxAmount: '保険診療自己負担分の一部を助成。通院は1医療機関月500円、入院は1日1,000円で月14,000円限度',
+    maxAmountNum: 0,
+    category: 'medical',
+    relatedCategories: ['childcare', 'living'],
+    prefecture: '滋賀県',
+    tags: ['大津市', '滋賀県', '子ども医療費助成', '18歳年度末', '福祉医療費助成', '令和7年度'],
+    eligibility: '小学校1年生から18歳に達する日以後最初の3月31日を経過していない子どもが対象です。',
+    applicationPeriod: '通年。受給券を医療機関窓口で提示',
+    description: '大津市が、小学校1年生から18歳年度末までの子どもを対象に、医療機関等でかかった保険診療の自己負担分の一部を助成する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>大津市の子どもの医療費助成は、小学校1年生から18歳に達する日以後最初の3月31日を経過していない子どもを対象に、医療機関等にかかったときの医療費のうち、保険診療の自己負担分の一部を助成する制度です。</p>' },
+      { heading: '助成内容', content: '<p>自己負担金は、入院が1日あたり1,000円で、1医療機関ごとに1か月14,000円を限度とします。同一病院でも歯科は別計算です。通院は1医療機関1か月あたり500円で、同一病院でも歯科は別計算です。院外調剤薬局については自己負担金不要です。</p>' },
+      { heading: '利用時の注意', content: '<p>受診時は子どもの医療費助成の受給券を提示して利用します。県外受診や補装具など、窓口で助成を受けられない場合は、福祉医療費助成制度の受診後払い戻し手続きにより申請する扱いになります。</p>' }
+    ],
+    officialUrl: 'https://www.city.otsu.lg.jp/soshiki/020/1403/g/josei/fukushiiryohi/138898.html',
+    sourceName: '大津市 子どもの医療費助成について',
+    sourceUrls: [
+      'https://www.city.otsu.lg.jp/soshiki/020/1403/g/josei/fukushiiryohi/138898.html',
+      'https://www.city.otsu.lg.jp/soshiki/020/1403/g/josei/fukushiiryohi/1388980754969.html'
+    ],
+    sourceNote: '大津市公式ページで、子どもの医療費助成の対象は小学校1年生から18歳に達する日以後最初の3月31日を経過していない子どもであることを確認。対象者が医療機関等にかかったときの医療費のうち、保険診療の自己負担分3割分の一部を助成。自己負担金は入院1日1,000円、1医療機関ごとに1か月14,000円限度、通院1医療機関1か月500円、院外調剤薬局は自己負担金不要。同一病院でも歯科は別計算。受診後払い戻し手続きの公式ページも確認。旧生成データの子育て医療費助成制度を公式確認済み内容へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-28',
+  },
 ];
