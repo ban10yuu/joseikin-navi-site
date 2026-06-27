@@ -19299,4 +19299,34 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-28',
   },
+  {
+    slug: 'hachinohe-nursing-equipment',
+    title: '八戸市 介護用品（紙おむつ）の支給',
+    organization: '八戸市',
+    type: 'local',
+    maxAmount: '4種類26品目のうち1つを現物支給。偶数月に2か月分を配達',
+    maxAmountNum: 0,
+    category: 'nursing',
+    relatedCategories: ['living', 'medical'],
+    prefecture: '青森県',
+    tags: ['八戸市', '青森県', '介護用品', '紙おむつ', '在宅介護', '要介護4', '要介護5'],
+    eligibility: '介護保険の要介護認定で要介護4または5と認定された人を在宅で介護している家族が対象です。介護する人、介護を受ける人の双方が市民税非課税世帯である必要があります。',
+    applicationPeriod: '通年。高齢福祉課窓口へ申請',
+    description: '八戸市が、重度の介護が必要な人を在宅で介護している家族に、紙おむつなどの介護用品を現物支給する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>八戸市の介護用品支給は、介護の必要な高齢者を在宅で介護している家族向けサービスの一つです。重度の介護が必要な人を在宅で介護している家族に、介護用品として紙おむつを支給します。</p>' },
+      { heading: '対象者', content: '<p>対象は、介護保険の要介護認定で要介護度4または5と認定された人を在宅で介護している家族です。ただし、介護している人と介護を受けている人の双方が市民税非課税世帯であることが条件です。入院、施設入所、ショートステイの多用により在宅で介護を受けていると認められない人は対象外です。</p>' },
+      { heading: '支給内容と申請', content: '<p>支給品は、パンツタイプ、脇止めタイプ、フラットタイプ、尿とりパッドの4種類26品目のうち1つです。支給方法は現物支給で、偶数月に当月分と翌月分の2か月分が配達されます。申請には八戸市介護用品支給申請書と、介護を受けている人の介護保険被保険者証の写しが必要で、申込み先は高齢福祉課窓口です。</p>' }
+    ],
+    officialUrl: 'https://www.city.hachinohe.aomori.jp/soshikikarasagasu/koreifukushika/fukushi_kaigo/1/3936.html',
+    sourceName: '八戸市 在宅での家族介護支援',
+    sourceUrls: [
+      'https://www.city.hachinohe.aomori.jp/soshikikarasagasu/koreifukushika/fukushi_kaigo/1/3936.html',
+      'https://www.city.hachinohe.aomori.jp/material/files/group/36/kaigoyouhinnitirann.pdf',
+      'https://www.city.hachinohe.aomori.jp/material/files/group/36/kaigoyouhinngoannnai.pdf'
+    ],
+    sourceNote: '八戸市公式ページで、在宅での家族介護支援のうち介護用品（紙おむつ）の支給を確認。重度の介護が必要な人を在宅で介護している家族に紙おむつを支給。対象は介護保険の要介護認定で要介護度4または5と認定された人を在宅で介護している家族で、介護している人も介護を受けている人も市民税非課税世帯であることが条件。入院、施設入所、ショートステイ多用により在宅介護と認められない場合は対象外。支給品はパンツタイプ、脇止めタイプ、フラットタイプ、尿とりパッドの4種類26品目のうち1つ。現物支給で偶数月に当月分と翌月分の2か月分を配達。申請書と介護保険被保険者証写し、高齢福祉課窓口申請を確認。旧生成データの在宅介護用品支給事業を公式確認済み内容へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-28',
+  },
 ];
