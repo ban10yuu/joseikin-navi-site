@@ -19744,4 +19744,35 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-28',
   },
+  {
+    slug: 'osaki-energy-support',
+    title: '大崎市 エコ改善推進事業補助金',
+    organization: '大崎市',
+    type: 'local',
+    maxAmount: '組み合わせ時は1世帯・1事業所あたり上限21.5万円',
+    maxAmountNum: 21.5,
+    category: 'housing',
+    relatedCategories: ['living'],
+    prefecture: '宮城県',
+    tags: ['大崎市', '宮城県', '太陽光発電', '蓄電池', 'V2H', '省エネ', '令和8年度'],
+    eligibility: '大崎市内に住所がある世帯主または事業者で、市税の滞納がなく、自宅・事業所として使用または使用予定の建物に対象設備を導入する方が対象です。',
+    applicationPeriod: '第1期は令和8年6月1日から6月30日まで、第2期は令和8年12月1日から12月18日まで',
+    description: '大崎市が、地球温暖化防止や市民の環境意識の高揚を図るため、市民・事業者が行う太陽光発電設備、定置用リチウムイオン蓄電池、V2H充放電設備の設置・導入を支援する補助金です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>大崎市エコ改善推進事業補助金は、地球温暖化防止や市民の環境意識の高揚を図るため、市民・事業者が行う設備の設置や導入を支援する制度です。令和8年度は、太陽光発電設備、定置用リチウムイオン蓄電池、V2H充放電設備が案内されています。</p>' },
+      { heading: '補助対象と補助額', content: '<p>太陽光発電設備設置事業は市民・事業者が対象で、最大出力10キロワット未満の未使用品について1キロワット当たり10,000円、上限50,000円が助成されます。定置用リチウムイオン蓄電池導入事業は市民・事業者が対象で一律100,000円、V2H充放電設備設置事業は市民対象で一律50,000円です。市内事業者による施工や市内購入の場合は5,000円加算され、事業を組み合わせた場合の上限は1世帯・1事業所あたり215,000円です。</p>' },
+      { heading: '受付期間と対象基準日', content: '<p>受付期間は、第1期が令和8年6月1日から6月30日まで、第2期が令和8年12月1日から12月18日までです。対象基準日は、第1期が令和7年12月1日から令和8年5月31日まで、第2期が令和8年6月1日から令和8年11月30日までです。引渡日が令和7年12月1日から令和8年11月30日までで、契約日が令和7年6月1日以降のものが対象です。</p>' }
+    ],
+    officialUrl: 'https://www.city.osaki.miyagi.jp/shisei/soshikikarasagasu/shiminkyodousuishimbu/kankyohozenka/1/1/1671.html',
+    sourceName: '大崎市 エコ改善推進事業補助金',
+    sourceUrls: [
+      'https://www.city.osaki.miyagi.jp/shisei/soshikikarasagasu/shiminkyodousuishimbu/kankyohozenka/1/1/1671.html',
+      'https://www.city.osaki.miyagi.jp/material/files/group/12/ekokaizen26.pdf',
+      'https://www.city.osaki.miyagi.jp/material/files/group/12/ecoyouryou.pdf',
+      'https://www.city.osaki.miyagi.jp/material/files/group/12/tebiki04.pdf'
+    ],
+    sourceNote: '大崎市公式ページで、令和8年度エコ改善推進事業補助金は、地球温暖化防止や市民の環境意識の高揚を図るため、市民・事業者が行う設備の設置や導入を支援する制度であることを確認。受付期間は第1期が令和8年6月1日から6月30日、第2期が令和8年12月1日から12月18日で、対象基準日は第1期が令和7年12月1日から令和8年5月31日、第2期が令和8年6月1日から11月30日であることを確認。太陽光発電設備は10kW未満の未使用品で1kW当たり1万円・上限5万円、定置用リチウムイオン蓄電池は一律10万円、V2H充放電設備は一律5万円、市内事業者施工または市内購入の場合は5,000円加算、組み合わせ時の上限は1世帯・1事業所あたり21.5万円であることを確認。対象者は市内に住所がある世帯主または事業者で、市税滞納がなく、自宅・事業所として使用または使用予定の建物に導入する方であることを確認。生成データの大崎市省エネ家電買替補助金を、公式確認済みのエコ改善推進事業補助金へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-28',
+  },
 ];
