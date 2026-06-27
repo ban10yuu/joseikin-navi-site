@@ -19957,4 +19957,36 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-28',
   },
+  {
+    slug: 'matsudo-eco-reform',
+    title: '松戸市 省エネルギー住宅普及促進事業費補助金',
+    organization: '松戸市',
+    type: 'local',
+    maxAmount: '最大50万円',
+    maxAmountNum: 50,
+    category: 'housing',
+    relatedCategories: ['living'],
+    prefecture: '千葉県',
+    tags: ['松戸市', '千葉県', '省エネルギー住宅', 'LCCM住宅', 'ゼロカーボン', '新築住宅', '建売住宅', '住宅改修', '令和8年度'],
+    eligibility: '松戸市の補助対象となるLCCM住宅の新築、完成済み建売住宅の購入、または改修を行い、必要書類を揃えて申請する方が対象です。',
+    applicationPeriod: '令和8年4月1日から令和9年2月26日まで。予算枠に達した時点で受付終了',
+    deadlineDate: '2027-02-26',
+    description: '松戸市が、ゼロカーボンシティの実現に向けて、省エネルギー住宅の新築、建売住宅の購入、改修費用の一部を支援する補助金です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>松戸市省エネルギー住宅普及促進事業費補助金は、ゼロカーボンシティの実現に向け、省エネルギー住宅の普及を推進する制度です。LCCM住宅の新築、完成済み建売住宅の購入、または改修を行う方に対し、費用の一部を補助します。</p>' },
+      { heading: '補助額と対象経費', content: '<p>補助金額は上限50万円で、交付は1申請者につき1回限りです。補助対象経費は、補助対象住宅の新築、完成済み建売住宅の購入、または改修に要する費用です。土地の購入費は対象外です。</p>' },
+      { heading: '申請期間と方法', content: '<p>申請期間は令和8年4月1日から令和9年2月26日までです。申請は受付順で、予算枠に達した時点で受付終了となります。松戸市オンライン申請システム、メール、窓口持ち込み、郵送で申請でき、支所等では受付していません。</p>' }
+    ],
+    officialUrl: 'https://www.city.matsudo.chiba.jp/kurashi/kankyou/tikyuuondanka/hojokin/shoenej.html',
+    sourceName: '松戸市 省エネルギー住宅普及促進事業費補助金',
+    sourceUrls: [
+      'https://www.city.matsudo.chiba.jp/kurashi/kankyou/tikyuuondanka/hojokin/shoenej.html',
+      'https://www.city.matsudo.chiba.jp/kurashi/kankyou/tikyuuondanka/hojokin/shoenej.files/R8.jyuutaku.pamphlet.pdf',
+      'https://www.city.matsudo.chiba.jp/kurashi/kankyou/tikyuuondanka/hojokin/shoenej.files/R8.jyuutaku.youkou.pdf',
+      'https://www.city.matsudo.chiba.jp/kurashi/kankyou/tikyuuondanka/hojokin/shoenej.files/R8.jyuutaku.youryou.pdf'
+    ],
+    sourceNote: '松戸市公式ページで、令和8年度の省エネルギー住宅普及促進事業費補助金は、ゼロカーボンシティの実現に向け、省エネルギー住宅の普及を推進するため、LCCM住宅の新築、完成済み建売住宅の購入または改修を行う方に費用の一部を補助する制度であることを確認。申請期間は令和8年4月1日から令和9年2月26日までで、申請書類に不備や不足がなく必要書類がすべて揃った時点で受付、予算枠に達した時点で受付終了となることを確認。補助金額は上限50万円、交付は1申請者につき1回限り、補助対象経費は補助対象住宅の新築、完成済み建売住宅の購入または改修に要する費用で、土地購入費は対象外であることを確認。申請方法はオンライン申請システム、メール、窓口持ち込み、郵送で、申請先は松戸市環境部環境政策課ゼロカーボンシティ推進担当室、支所等では受付しないことを確認。生成データの松戸市省エネ住宅改修補助金を、令和8年度公式確認済みの省エネルギー住宅普及促進事業費補助金へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-28',
+  },
 ];
