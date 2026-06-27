@@ -19475,4 +19475,34 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-28',
   },
+  {
+    slug: 'takaoka-housing-reform',
+    title: '高岡市 たかおか暮らし支援事業（一戸建て住宅のリフォーム）',
+    organization: '高岡市',
+    type: 'local',
+    maxAmount: '対象リフォーム工事費の3分の1、最大20万円',
+    maxAmountNum: 20,
+    category: 'housing',
+    relatedCategories: ['living'],
+    prefecture: '富山県',
+    tags: ['高岡市', '富山県', 'たかおか暮らし支援事業', '住宅リフォーム', '居住誘導区域', '三世代同居', '高断熱リフォーム'],
+    eligibility: '居住誘導区域（まちなか区域を含む）の対象一戸建て住宅で、耐震改修に伴うリフォーム、三世代同居のためのリフォーム、エコ（高断熱）リフォームなどを行う方が対象です。',
+    applicationPeriod: '工事着工前の事前申請が必要',
+    description: '高岡市が、コンパクト・アンド・ネットワークのまちづくり、空き家対策、少子高齢化や人口減少への対策として実施する住宅支援のうち、一戸建て住宅のリフォームを支援する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>高岡市の住宅・空き家等への居住支援では、たかおか暮らし支援事業として、居住誘導区域（まちなか区域を含む）内の一戸建て住宅リフォームを支援しています。対象は、耐震改修に伴うリフォーム、三世代同居のためのリフォーム、エコ（高断熱）リフォームなどです。</p>' },
+      { heading: '対象となるリフォーム', content: '<p>公式ページでは、高岡市木造住宅耐震改修支援事業と同時に行う住宅リフォーム、台所・浴室・トイレ・玄関のうちいずれか2つを複数設置する三世代同居のためのリフォーム、エコ（高断熱）リフォームが示されています。対象住宅は昭和56年6月以降に建築された一戸建て住宅等で、中古住宅の購入と重複できる場合があります。</p>' },
+      { heading: '補助内容と申請', content: '<p>補助率は対象リフォーム工事費の3分の1、補助額は最大20万円です。リフォームは工事着工前の事前申請が必要で、申請書やリフォーム対象基準などの様式が高岡市公式ページで公開されています。</p>' }
+    ],
+    officialUrl: 'https://www.city.takaoka.toyama.jp/soshiki/kenchikuseisakuka/2/3/4/2521.html',
+    sourceName: '高岡市 住宅・空き家等への居住支援',
+    sourceUrls: [
+      'https://www.city.takaoka.toyama.jp/soshiki/kenchikuseisakuka/2/3/4/2521.html',
+      'https://www.city.takaoka.toyama.jp/material/files/group/45/R8leaflet.pdf',
+      'https://www.city.takaoka.toyama.jp/material/files/group/45/R8jyuutakusesaku.pdf'
+    ],
+    sourceNote: '高岡市公式ページで、コンパクト・アンド・ネットワークのまちづくり、空き家対策、少子高齢化や人口減少の対策として住宅支援を行っていることを確認。たかおか暮らし支援事業の一戸建て住宅リフォームは、耐震改修に伴うリフォーム、三世代同居のためのリフォーム、エコ（高断熱）リフォームが対象で、対象区域は居住誘導区域（まちなか区域含む）、補助率は対象リフォーム工事費の3分の1、補助額は最大20万円、昭和56年6月以降建築の一戸建て住宅等が対象であることを確認。リフォームは工事着工前の事前申請が必要で、申請書とリフォーム対象基準が公開されていることを確認。旧生成データの住宅リフォーム支援事業補助金を公式確認済みの現行制度内容へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-28',
+  },
 ];
