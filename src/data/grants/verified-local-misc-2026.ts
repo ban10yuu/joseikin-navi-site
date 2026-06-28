@@ -20226,4 +20226,35 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-28',
   },
+  {
+    slug: 'matsue-omacche-shopping-voucher-2026',
+    title: '松江市生活応援 おまっちぇ お買物券',
+    organization: '松江市',
+    type: 'local',
+    maxAmount: '1人あたり5,000円分',
+    maxAmountNum: 0.5,
+    category: 'living',
+    relatedCategories: ['employment'],
+    prefecture: '島根県',
+    tags: ['松江市', '島根県', '物価高騰対策', 'お買物券', '地域経済', '令和8年度'],
+    eligibility: '令和8年5月1日時点で松江市の住民基本台帳に登録されている市民が対象です。',
+    applicationPeriod: '申請不要。令和8年6月14日から順次発送、利用期間は令和8年6月17日から令和8年9月30日まで',
+    deadlineDate: '2026-09-30',
+    description: '松江市が、物価高騰による市民生活の負担軽減と地域経済の活性化を目的に、対象市民へ1人あたり5,000円分のお買物券を配布する事業です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>松江市生活応援 おまっちぇ お買物券は、国の物価高騰対応重点支援地方創生臨時交付金を活用して実施される、市民生活支援と地域経済活性化のためのお買物券配布事業です。市内加盟店で利用できるお買物券を、対象市民へ1人あたり5,000円分配布します。</p>' },
+      { heading: '対象者と配布方法', content: '<p>対象者は、2026年5月1日時点で松江市の住民基本台帳に登録されている人です。申請や申し込みは不要で、紙のお買物券は世帯全員分を世帯主宛に郵送します。配布は2026年6月14日から順次発送され、市内全世帯への発送のため、地域や配達状況により到着時期が異なる場合があります。</p>' },
+      { heading: '利用期間と注意点', content: '<p>利用期間は2026年6月17日から2026年9月30日までです。市内の加盟店で利用できますが、たばこ、商品券、プリペイドカード、公共料金など一部対象外の商品やサービスがあります。お買物券は、紛失、盗難、破損など理由を問わず再発行されません。</p>' }
+    ],
+    officialUrl: 'https://www.city.matsue.lg.jp/soshikikarasagasu/sangyokeizaibu_shokokikakuka/sangyoshinko/1/25432.html',
+    sourceName: '松江市 松江市生活応援 おまっちぇ お買物券配布事業',
+    sourceUrls: [
+      'https://www.city.matsue.lg.jp/soshikikarasagasu/sangyokeizaibu_shokokikakuka/sangyoshinko/1/25432.html',
+      'https://www.city.matsue.lg.jp/material/files/group/21/omaccheokaimonokenn.pdf',
+      'https://www.city.matsue.lg.jp/material/files/group/5/shihou202606_1.pdf'
+    ],
+    sourceNote: '松江市公式ページで、松江市生活応援 おまっちぇ お買物券配布事業の加盟店募集が行われ、同事業が松江市の配布するお買物券事業であることを確認。松江市公式PDFで、国の物価高騰対応重点支援地方創生臨時交付金を活用し、すべての市民に1人あたり5,000円分の松江市生活応援 おまっちぇ お買物券を配布することを確認。対象者は令和8年5月1日時点で松江市住民基本台帳に登録されている人であること、申請や申し込みは不要であること、紙のお買物券は世帯全員分を世帯主宛に郵送することを確認。配布時期は令和8年6月14日から順次発送、配布スケジュールは6月14日から7月中旬、利用期間は令和8年6月17日から9月30日までであることを確認。市報松江令和8年6月号で、市内加盟店で利用することで食料品などの物価高騰による家計負担を減らし、市民生活を支援するとともに地域経済の活性化を図る事業であること、たばこ・商品券・プリペイドカード・公共料金など一部対象外の商品やサービスがあること、再発行不可であることを確認。新規公式確認済み制度として追加。',
+    verifiedAt,
+    publishedAt: '2026-06-28',
+  },
 ];
