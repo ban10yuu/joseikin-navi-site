@@ -25409,4 +25409,32 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt: '2026-06-29',
     publishedAt: '2026-06-29',
   },
+  {
+    slug: 'onna-vacant-house-utilization-subsidy-2026',
+    title: '恩納村 空家活用事業補助金',
+    organization: '恩納村',
+    type: 'local',
+    maxAmount: '上限200万円',
+    maxAmountNum: 2000000,
+    category: 'housing',
+    relatedCategories: ['living'],
+    prefecture: '沖縄県',
+    tags: ['恩納村', '沖縄県', '空家活用', 'リフォーム', '定住促進', 'Uターン', '住宅補助'],
+    eligibility: '恩納村内の空家を居住目的でリフォームする空家の所有者または利用者が対象です。',
+    applicationPeriod: '詳細は恩納村定住促進室へ確認',
+    description: '恩納村が、定住や一時的に村外に居住していた方のUターンを促進するため、空家を改修する経費等を補助する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>恩納村空家活用事業補助金は、定住や一時的に村外に居住していた方のUターンを促進するため、空家を改修する経費等を補助する制度です。</p>' },
+      { heading: '対象空家と対象者', content: '<p>対象空家は、恩納村内に存する空家で、居住するための目的でリフォーム工事を行う住宅です。対象者は、補助金対象空家の所有者または利用者です。</p>' },
+      { heading: '対象経費と補助上限', content: '<p>対象となる経費は、村内事業者が実施する工事に要する経費と、残存家財の処分に係る経費です。公式一覧では、上限200万円と案内されています。</p>' }
+    ],
+    officialUrl: 'https://www.vill.onna.okinawa.jp/sp/organize/section/teijuu/1747735705/',
+    sourceName: '恩納村 恩納村各種支援事業一覧',
+    sourceUrls: [
+      'https://www.vill.onna.okinawa.jp/sp/organize/section/teijuu/1747735705/'
+    ],
+    sourceNote: '恩納村公式ページ「恩納村各種支援事業一覧」で、恩納村空家活用事業補助金を確認。公式ページはHEADではcontent-lengthが1となる特殊応答だったため、GET本文で制度内容を確認。ページのOG更新日時は2026年6月22日であることを確認。公式ページ内の支援事業一覧データで、恩納村空家活用事業補助金は、定住や一時的に村外に居住していた方のUターンを促進するため、空家を改修する経費等を補助する制度であることを確認。対象空家は村内に存する空家で、居住するための目的でリフォーム工事を行う住宅であることを確認。対象者は補助金対象空家の所有者または利用者であることを確認。対象経費は村内事業者が実施する工事に要する経費と残存家財の処分に係る経費で、上限200万円であることを確認。担当課は定住促進室であることを確認。新規公式確認済み制度として追加。',
+    verifiedAt: '2026-06-29',
+    publishedAt: '2026-06-29',
+  },
 ];
