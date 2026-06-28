@@ -22583,4 +22583,37 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-28',
   },
+  {
+    slug: 'shizuoka-renewable-energy-regional-challenge-support-2026',
+    title: '静岡県 地域課題解決型再生可能エネルギー導入推進事業費補助金',
+    organization: '静岡県',
+    type: 'local',
+    maxAmount: '最大2,500万円',
+    maxAmountNum: 2500,
+    category: 'employment',
+    relatedCategories: ['living'],
+    prefecture: '静岡県',
+    tags: ['静岡県', '再生可能エネルギー', '太陽光発電', '風力発電', 'バイオマス', '水力発電', '温泉熱', '地域課題', '令和8年度'],
+    eligibility: '県内に事業所等を有する民間企業等または非営利団体で、市町から地域課題解決に資する先進的なモデル導入事例として推薦を受ける事業など、公式要件を満たす事業者が対象です。',
+    applicationPeriod: '令和8年度2次公募は2026年6月16日から2026年7月16日まで',
+    deadlineDate: '2026-07-16',
+    description: '静岡県が、地域と共生した再生可能エネルギー利用設備の導入を推進するため、可能性調査や設備導入に要する経費を補助する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>地域課題解決型再生可能エネルギー導入推進事業費補助金は、地域と共生した再生可能エネルギー利用設備の導入を推進するため、可能性調査事業や設備導入事業を支援する制度です。</p>' },
+      { heading: '補助対象と補助額', content: '<p>可能性調査事業は補助率2分の1以内、上限300万円、設備導入事業は補助率2分の1以内、上限2,500万円です。対象設備は太陽光発電・熱利用、風力発電、バイオマス発電・熱利用、水力発電、温泉熱発電・熱利用、地中熱利用などです。</p>' },
+      { heading: '申請の注意点', content: '<p>補助対象設備は、地域課題解決に資する先進的なモデル導入事例として市町から推薦を受ける事業に限られます。令和8年度2次公募の申請期間は2026年6月16日から7月16日までで、申請書類一式をエネルギー政策課のメールアドレス宛に提出します。</p>' }
+    ],
+    officialUrl: 'https://www.pref.shizuoka.jp/sangyoshigoto/kigyoshien/energy/1081316.html',
+    sourceName: '静岡県 地域課題解決型再生可能エネルギー導入推進事業費補助金',
+    sourceUrls: [
+      'https://www.pref.shizuoka.jp/sangyoshigoto/kigyoshien/energy/1081316.html',
+      'https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/081/316/r86annai.pdf',
+      'https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/081/316/yoko.pdf',
+      'https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/081/316/yoryor86.pdf',
+      'https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/081/316/listr86.xlsx'
+    ],
+    sourceNote: '静岡県公式ページで、地域課題解決型再生可能エネルギー導入推進事業費補助金を確認。公式ページのページIDは1081316、更新日は2026年6月16日であることを確認。制度は、地域と共生した再生可能エネルギー利用設備の導入を推進するものであることを確認。補助対象事業は、可能性調査事業と設備導入事業であることを確認。可能性調査事業は補助率2分の1以内、上限額300万円であり、設備導入事業は補助率2分の1以内、上限額2,500万円であることを確認。補助対象事業者は、県内に事業所等を有すること等を条件とする民間の企業等または非営利団体であることを確認。補助対象設備は、地域課題解決に資する先進的なモデル導入事例であると市町から推薦を受ける事業に限られることを確認。対象設備の種別は、太陽光発電・熱利用、風力発電、バイオマス発電・熱利用、水力発電、温泉熱または温泉付随ガスを含む発電・熱利用、地中熱利用で、附帯設備として蓄電池、水素関連設備、エネルギーマネジメントシステムを含むことを確認。令和8年度2次公募の公募期間は2026年6月16日から2026年7月16日までで、申請方法はエネルギー政策課メールアドレス宛に申請書類一式を提出する形式であることを確認。公募案内R8.6、交付要綱R8.3、交付要綱様式R8.3、交付要領R8.6、交付要領様式R8.6、様式記載例R8.6、書類チェックリストR8.6の公開も確認。新規公式確認済み制度として追加。',
+    verifiedAt,
+    publishedAt: '2026-06-28',
+  },
 ];
