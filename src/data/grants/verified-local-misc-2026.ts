@@ -25179,4 +25179,33 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt: '2026-06-29',
     publishedAt: '2026-06-29',
   },
+  {
+    slug: 'nakijin-edy-gift-card-support-2026',
+    title: '今帰仁村 物価高騰対応Edyギフトカード給付',
+    organization: '今帰仁村',
+    type: 'local',
+    maxAmount: '1世帯あたり2万円分のEdyギフトカード',
+    maxAmountNum: 20000,
+    category: 'living',
+    relatedCategories: ['childcare', 'employment'],
+    prefecture: '沖縄県',
+    tags: ['今帰仁村', '沖縄県', 'Edyギフトカード', '物価高騰対策', '重点支援地方創生臨時交付金', '生活支援', '令和8年度'],
+    eligibility: '2026年4月1日を基準日として、今帰仁村住民基本台帳に登録されている方の世帯主が対象です。',
+    applicationPeriod: '受取期間は2026年6月15日から2026年7月31日まで',
+    deadlineDate: '2026-07-31',
+    description: '今帰仁村が、物価高騰対応重点支援地方創生臨時交付金事業として、村内各世帯へ2万円分のEdyギフトカードを給付する事業です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>今帰仁村物価高騰対応重点支援地方創生臨時交付金事業は、村内各世帯へ20,000円分のEdyギフトカードを給付する生活支援事業です。今帰仁村オリジナルEdyカードにギフトとして受取設定を行います。</p>' },
+      { heading: '対象者と給付額', content: '<p>対象は、2026年4月1日を基準日として今帰仁村住民基本台帳に登録されている方の世帯主です。給付額は1世帯あたり20,000円分のEdyギフトカードです。</p>' },
+      { heading: '受取期間と受取場所', content: '<p>受取期間は2026年6月15日から2026年7月31日までです。受取場所は、指定日のみ対応する各字公民館、または平日の今帰仁村役場庁舎です。詳細は村内各世帯へ通知書が郵送されます。</p>' }
+    ],
+    officialUrl: 'https://www.nakijin.jp/material/files/group/1/kouhounakizinn20266gatugou.pdf',
+    sourceName: '今帰仁村 広報なきじん2026年6月号',
+    sourceUrls: [
+      'https://www.nakijin.jp/material/files/group/1/kouhounakizinn20266gatugou.pdf'
+    ],
+    sourceNote: '今帰仁村公式サイト掲載の広報なきじん2026年6月号PDFで、今帰仁村物価高騰対応重点支援地方創生臨時交付金事業を確認。公式PDFはHTTPSで200応答し、Last-Modifiedは2026年6月3日であることを確認。PDF本文で、今帰仁村内各世帯へ20,000円分のEdyギフトカードを給付すること、今帰仁村オリジナルEdyカードにギフトとして受取設定を行うことを確認。対象者は今帰仁村に住所を有する世帯主で、基準日は2026年4月1日、今帰仁村住民基本台帳に登録されている方であることを確認。受取期間は2026年6月15日から2026年7月31日までであることを確認。受取場所は、指定日のみ対応する各字公民館と、平日の役場庁舎であることを確認。詳細については村内各世帯へ通知書を郵送すると案内されていることを確認。新規公式確認済み制度として追加。',
+    verifiedAt: '2026-06-29',
+    publishedAt: '2026-06-29',
+  },
 ];
