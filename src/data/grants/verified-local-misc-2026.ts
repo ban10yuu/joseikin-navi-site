@@ -451,6 +451,37 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-26',
   },
   {
+    slug: 'fujiyoshida-child-medical-aid',
+    title: '富士吉田市 子育て応援医療費助成事業',
+    organization: '富士吉田市',
+    type: 'local',
+    maxAmount: '18歳到達後最初の3月31日まで保険診療自己負担分を助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    relatedCategories: ['medical'],
+    prefecture: '山梨県',
+    tags: ['富士吉田市', '山梨県', '子育て応援医療費', 'こども医療費', '18歳年度末', '窓口無料', '償還払い'],
+    eligibility: '富士吉田市に住所があり、18歳になった最初の3月31日までの子どもが対象です。ただし婚姻した子どもや就労により保護者等の扶養から外れた子どもは対象外です。',
+    applicationPeriod: '通年。受給者証の交付申請と、県外・対象外医療機関等の受診後の償還払い申請はこども家庭センター窓口で手続き',
+    description: '富士吉田市が、子どもの入院・通院にかかる保険診療自己負担分を助成する制度です。県内医療機関では受給者証等の提示により窓口無料となり、県外や対象外医療機関等では償還払いで助成します。',
+    sections: [
+      { heading: '制度の概要', content: '<p>富士吉田市子育て応援医療費助成事業は、18歳になった最初の3月31日までの子どもを対象に、入院や通院の保険診療自己負担分を助成する制度です。子どもの医療費負担を軽減し、安心して受診できる環境を整えるための支援です。</p>' },
+      { heading: '対象者と助成方法', content: '<p>対象は、富士吉田市に住所がある18歳到達後最初の3月31日までの子どもです。婚姻した子どもや、就労により保護者等の扶養から外れた子どもは対象外です。県内の医療機関では、受給者証とマイナ保険証または健康保険資格確認書類を提示すると、保険診療分の医療費自己負担分が窓口無料になります。</p>' },
+      { heading: '償還払いと食事代', content: '<p>県外や対象外の医療機関等を受診した場合は、いったん窓口で医療費を支払い、診療の翌月以降に申請書と領収書をこども家庭センター窓口へ提出して償還払いを受けます。令和6年4月以降の入院分から、入院時の食事代も助成対象になっていますが、窓口無料にはならないため申請が必要です。</p>' }
+    ],
+    officialUrl: 'https://www.city.fujiyoshida.yamanashi.jp/site/kosodate/2136.html',
+    sourceName: '富士吉田市 子育て応援医療費助成事業について',
+    sourceUrls: [
+      'https://www.city.fujiyoshida.yamanashi.jp/site/kosodate/2136.html',
+      'https://www.city.fujiyoshida.yamanashi.jp/uploaded/attachment/6884.pdf',
+      'https://www.city.fujiyoshida.yamanashi.jp/uploaded/attachment/3380.pdf',
+      'https://www1.g-reiki.net/fujiyoshida/reiki_honbun/e603RG00000258.html'
+    ],
+    sourceNote: '富士吉田市公式ページで、子育て応援医療費助成事業の対象者は18歳になった最初の3月31日までの子どもであることを確認。婚姻した子どもや、就労により保護者等の扶養から外れた子どもは対象外であることを確認。入院や通院の保険診療自己負担分が助成対象で、県内の医療機関では受給者証とマイナ保険証または健康保険資格確認書類の提示により窓口無料になることを確認。県外や対象外医療機関等では、診療の翌月以降に申請書と領収書をこども家庭センター窓口へ提出して償還払いを受けることを確認。令和6年4月以降の入院分から入院時の食事代も助成対象になったが窓口無料ではなく申請が必要であることを確認。公式ページの更新日は2025年1月6日で、HTTP HEADで公式ページ、令和7年度リーフレットPDF、支給申請書PDF、例規ページが200で到達することを確認。生成データの富士吉田市こども医療費助成を公式確認済み内容へ置換。',
+    verifiedAt,
+    publishedAt: '2026-06-28',
+  },
+  {
     slug: 'wakayama-migration-support',
     title: '和歌山県 移住支援事業（移住支援金）',
     organization: '和歌山県・県内市町村',
