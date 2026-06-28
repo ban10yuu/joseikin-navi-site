@@ -23179,6 +23179,38 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-28',
   },
   {
+    slug: 'kanazawa-seismic-diagnosis',
+    title: '金沢市 既存建築物耐震改修工事費等補助制度',
+    organization: '金沢市',
+    type: 'local',
+    maxAmount: '最大280万円（木造一戸建て住宅の耐震改修工事）',
+    maxAmountNum: 280,
+    category: 'housing',
+    relatedCategories: ['disaster'],
+    prefecture: '石川県',
+    tags: ['金沢市', '石川県', '耐震診断', '耐震設計', '耐震改修', '既存建築物', '令和8年度'],
+    eligibility: '金沢市内にある昭和56年5月31日以前に建築または工事着手された建築物のうち、木造の一戸建て住宅、共同住宅、長屋、寄宿舎、または木造以外の対象建築物などで、建築基準法令適合など公式要件を満たすものが対象です。',
+    applicationPeriod: '令和8年5月に公式パンフレット更新。申請前に建築指導課へ確認',
+    description: '金沢市が、旧耐震基準で建てられた既存建築物の耐震化を進めるため、耐震診断、耐震設計、耐震改修工事にかかる費用の一部を補助する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>金沢市既存建築物耐震改修工事費等補助制度は、昭和56年5月31日以前に建築または工事着手された建築物を対象に、耐震診断、耐震設計、耐震改修工事を支援する制度です。市公式ページでは、耐震診断・設計・改修工事費の一部を補助すると案内されています。</p>' },
+      { heading: '対象建築物', content: '<p>木造建築物は、市内にある木造の一戸建て住宅、共同住宅、長屋、寄宿舎で、昭和56年5月31日以前に建築または工事着手されたもの、3階建て以下であることなどが要件です。木造以外は、一戸建て住宅、共同住宅等、緊急輸送道路沿道建築物、耐震改修促進法第14条第1号に規定する用途の建築物、要緊急安全確認大規模建築物などが対象です。</p>' },
+      { heading: '主な補助額', content: '<p>令和8年5月更新の公式パンフレットでは、木造一戸建て住宅の耐震診断は補助率4分の3・上限15万円、高齢者等住宅は補助率5分の4・上限16万円です。木造一戸建て住宅の耐震改修工事は補助率10分の10・上限280万円の区分が案内されています。木造以外の一戸建て住宅は、耐震診断が補助率3分の2・上限20万円、耐震設計が補助率3分の2・上限10万円、耐震改修工事が補助率3分の2・上限170万円です。</p>' }
+    ],
+    officialUrl: 'https://www4.city.kanazawa.lg.jp/soshikikarasagasu/kenchikushidoka/gyomuannai/1/8500.html',
+    sourceName: '金沢市 耐震診断・耐震改修のすすめ',
+    sourceUrls: [
+      'https://www4.city.kanazawa.lg.jp/soshikikarasagasu/kenchikushidoka/gyomuannai/1/8500.html',
+      'https://www4.city.kanazawa.lg.jp/material/files/group/76/R8_5kizonpannhuretto.pdf',
+      'https://www4.city.kanazawa.lg.jp/material/files/group/76/ikkodate20251208.pdf',
+      'https://www4.city.kanazawa.lg.jp/material/files/group/76/koujikannrinituite.pdf',
+      'https://www4.city.kanazawa.lg.jp/soshikikarasagasu/kenchikushidoka/8207.html'
+    ],
+    sourceNote: '金沢市公式ページで、耐震診断・耐震改修のすすめを確認。公式ページはHTTPSで200応答し、Last-Modifiedは2026年6月5日であることを確認。ページでは、金沢市既存建築物耐震改修工事費等補助金制度として、昭和56年5月31日以前に建築された建物を対象に、耐震診断、耐震設計、耐震改修工事にかかる費用の一部を補助すると案内していることを確認。令和8年5月に既存建築物耐震改修工事費等補助制度パンフレットが更新され、工事写真の取扱いが追加されていることを確認。公式PDFはHTTPSで200応答し、Last-Modifiedは2026年5月1日であることを確認。PDFで、木造建築物は昭和56年5月31日以前に建築または工事着手された3階建て以下の木造一戸建て住宅、共同住宅、長屋、寄宿舎等が対象であることを確認。木造一戸建て住宅の耐震診断は補助率4分の3・上限15万円、高齢者等住宅は補助率5分の4・上限16万円、耐震改修工事は補助率10分の10・上限280万円の区分を確認。木造以外の一戸建て住宅は、耐震診断が補助率3分の2・上限20万円、耐震設計が補助率3分の2・上限10万円、耐震改修工事が補助率3分の2・上限170万円であることを確認。旧生成データの無料耐震診断という表現を、公式確認できる現行の既存建築物耐震診断・設計・改修補助制度へ修正。',
+    verifiedAt: '2026-06-28',
+    publishedAt: '2026-06-28',
+  },
+  {
     slug: 'maebashi-seismic-diagnosis',
     title: '前橋市 木造住宅耐震診断者派遣・木造住宅耐震改修訪問相談事業',
     organization: '前橋市',
