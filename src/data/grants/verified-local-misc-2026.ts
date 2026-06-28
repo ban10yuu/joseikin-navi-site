@@ -20504,4 +20504,35 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-28',
   },
+  {
+    slug: 'tagajo-startup-support-2026',
+    title: '多賀城市 創業支援補助金',
+    organization: '多賀城市',
+    type: 'local',
+    maxAmount: '最大100万円',
+    maxAmountNum: 100,
+    category: 'employment',
+    relatedCategories: ['living'],
+    prefecture: '宮城県',
+    tags: ['多賀城市', '宮城県', '創業支援', '第二創業', '開業支援', '令和8年度'],
+    eligibility: '令和7年4月1日から令和9年3月31日までに個人開業または会社等の設立を行い、多賀城市内に事務所等を設置する方などで、市税等を滞納していないなど公式要件を満たす方が対象です。',
+    applicationPeriod: '多賀城・七ヶ浜商工会への事前提出は2026年9月30日15時まで。産業振興課への提出は2026年10月9日15時まで',
+    deadlineDate: '2026-10-09',
+    description: '多賀城市が、市内の活性化に寄与する創業や第二創業を支援するため、市内で新たに創業・第二創業する方へ経費の一部を補助する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>多賀城市創業支援補助金は、多賀城市内の活性化に寄与する創業などを支援するため、市内で新たに創業または第二創業する方に補助金を交付する制度です。</p>' },
+      { heading: '補助対象と補助額', content: '<p>補助対象経費は、事務所等の増改築費、事務所等の借入費、設備・備品費、広報費、開業事務手続費、顧客開拓費、専門家助言・指導費、その他必要経費です。補助率は補助対象経費税抜の5分の4で、補助限度額は上限100万円です。</p>' },
+      { heading: '申請の注意点', content: '<p>申請には、事業計画の内容などについて多賀城・七ヶ浜商工会の確認を受ける必要があります。商工会への事前提出期限は2026年9月30日15時まで、産業振興課への提出期限は2026年10月9日15時までです。</p>' }
+    ],
+    officialUrl: 'https://www.city.tagajo.miyagi.jp/shoko/kurashi/shigoto/shokogyo/sogyoshien_hojo.html',
+    sourceName: '多賀城市 多賀城市創業支援補助金',
+    sourceUrls: [
+      'https://www.city.tagajo.miyagi.jp/shoko/kurashi/shigoto/shokogyo/sogyoshien_hojo.html',
+      'https://www.city.tagajo.miyagi.jp/shoko/kurashi/shigoto/shokogyo/documents/r8chirasi.pdf',
+      'https://www.city.tagajo.miyagi.jp/shoko/kurashi/shigoto/shokogyo/documents/r8bosyuuyouko.pdf'
+    ],
+    sourceNote: '多賀城市公式ページで、令和8年度多賀城市創業支援補助金は、多賀城市内の活性化に寄与する創業などを支援するため、市内で新たに創業・第二創業する方に交付する補助金であることを確認。ページ更新日は2026年6月2日であることを確認。補助対象者は、これから創業・第二創業をする個人または中小企業者等、または申請年度の前年度である令和7年4月1日から創業・第二創業した個人または中小企業者等で、令和7年4月1日から令和9年3月31日までに個人開業または会社等の設立を行い、市内に事務所等を設置する者であることを確認。市税等を滞納していないこと、暴力団または暴力団員に該当しないこと、過去にこの補助金を受けていないことが要件で、多賀城市内での移転や増店は対象外であることを確認。補助対象事業は市内で実施し、地域の活性化に資し、承継事業、風俗営業等、政治・宗教目的、フランチャイズ契約等に基づく事業でないことを確認。補助対象経費は事務所等の増改築費、借入費、設備・備品費、広報費、開業事務手続費、顧客開拓費、専門家助言・指導費、その他であることを確認。補助率は補助対象経費税抜の5分の4、上限100万円、1,000円未満切捨てであることを確認。多賀城・七ヶ浜商工会への事前提出期限は2026年9月30日15時まで、産業振興課への提出期限は2026年10月9日15時までであることを確認。令和8年度チラシPDF、募集要項PDF、Q&A PDFの公開も確認。新規公式確認済み制度として追加。',
+    verifiedAt,
+    publishedAt: '2026-06-28',
+  },
 ];
