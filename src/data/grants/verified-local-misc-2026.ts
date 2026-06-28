@@ -25557,6 +25557,38 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-29',
   },
   {
+    slug: 'onna-elderly-outing-support-service-2026',
+    title: '恩納村 高齢者外出支援サービス事業',
+    organization: '恩納村',
+    type: 'local',
+    maxAmount: '移送用車両による送迎支援',
+    maxAmountNum: 0,
+    category: 'nursing',
+    relatedCategories: ['medical', 'living'],
+    prefecture: '沖縄県',
+    tags: ['恩納村', '沖縄県', '高齢者外出支援', '移送支援', '送迎支援', '通院支援', '介護', '高齢者福祉'],
+    eligibility: '一般の交通機関の利用が困難な要介護高齢者や身体障害者等が対象です。詳細は恩納村福祉課へ確認が必要です。',
+    applicationPeriod: '詳細は恩納村福祉課へ確認',
+    description: '恩納村が、一般の交通機関の利用が困難な要介護高齢者や身体障害者等に対し、移送用車両で医療機関等との間の送迎を支援する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>恩納村高齢者外出支援サービス事業は、一般の交通機関の利用が困難な要介護高齢者や身体障害者等に対し、移送用車両によって医療機関等との間を送迎する外出支援サービスです。</p>' },
+      { heading: '対象者', content: '<p>恩納村公式一覧では、一般の交通機関の利用が困難な要介護高齢者や身体障害者等が対象と案内されています。利用にあたっては、新規申請、継続申請、変更申請の様式が用意されています。</p>' },
+      { heading: '支援内容', content: '<p>支援内容は、移送用車両による医療機関等との間の送迎です。金銭給付ではなく、通院等の外出を支える現物サービスとして位置づけられます。</p>' }
+    ],
+    officialUrl: 'https://www.vill.onna.okinawa.jp/living/nursing/1609829431/1609830330/',
+    sourceName: '恩納村 外出支援サービス',
+    sourceUrls: [
+      'https://www.vill.onna.okinawa.jp/living/nursing/1609829431/1609830330/',
+      'https://www.vill.onna.okinawa.jp/userfiles/files/gaisyutusinnki.pdf',
+      'https://www.vill.onna.okinawa.jp/userfiles/files/gaisyutukeizoku.pdf',
+      'https://www.vill.onna.okinawa.jp/userfiles/files/gaisyutuhenkou.pdf',
+      'https://www.vill.onna.okinawa.jp/sp/organize/section/teijuu/1747735705/'
+    ],
+    sourceNote: '恩納村公式ページで、外出支援サービスを確認。公式ページはHEADではcontent-lengthが1となる特殊応答だったため、GET本文で制度内容を確認。ページのOG更新日時は2024年4月4日であることを確認。ページ本文では、外出支援サービス申請書の新規、継続、変更の各様式が掲載されていることを確認。各申請書PDFはHTTP 200で公開されていることを確認。恩納村各種支援事業一覧では、高齢者外出支援サービス事業として、一般の交通機関の利用が困難な要介護高齢者や身体障害者等に対し、移送用車両により利用者の医療機関等との間を送迎する事業であることを確認。金銭給付ではなく、医療機関等への移動を支援する現物支援制度として新規公式確認済み制度に追加。',
+    verifiedAt: '2026-06-29',
+    publishedAt: '2026-06-29',
+  },
+  {
     slug: 'onna-pregnancy-checkup-taxi-coupon-2026',
     title: '恩納村 妊婦健康診査受診等支援事業',
     organization: '恩納村',
