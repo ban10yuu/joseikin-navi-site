@@ -110,11 +110,9 @@ export const verifiedNationalEmploymentSupportGrants2026: Grant[] = [
     officialUrl: 'https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kodomo/shokuba_kosodate/ryouritsu01/index.html',
     sourceName: '厚生労働省 両立支援等助成金のご案内',
     sourceUrls: [
-      'https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kodomo/shokuba_kosodate/ryouritsu01/index.html',
-      'https://www.mhlw.go.jp/content/001707242.pdf',
-      'https://www.mhlw.go.jp/content/001687926.pdf'
+      'https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kodomo/shokuba_kosodate/ryouritsu01/index.html'
     ],
-    sourceNote: '2026年度リーフレット、支給申請の手引き、コース一覧を厚生労働省公式ページで確認。',
+    sourceNote: '両立支援等助成金の制度ページ、コース一覧、支給申請の手引き、各コースの申請様式を厚生労働省公式ページで確認。過去に参照していたPDF直リンク2件が404になったため、出典URLは現行の公式制度ページに集約。',
     verifiedAt,
     publishedAt: '2026-06-26',
   },
