@@ -23568,6 +23568,36 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-28',
   },
   {
+    slug: 'kanazawa-block-wall-removal',
+    title: '金沢市 危険ブロック塀の除却に関する補助制度',
+    organization: '金沢市',
+    type: 'local',
+    maxAmount: '最大20万円（通学路または緊急輸送道路沿い）',
+    maxAmountNum: 20,
+    category: 'disaster',
+    relatedCategories: ['housing'],
+    prefecture: '石川県',
+    tags: ['金沢市', '石川県', '危険ブロック塀', '除却', '通学路', '緊急輸送道路', '防災'],
+    eligibility: '金沢市内で、道路に面して設置されているコンクリートブロック塀または組積造の塀等の一部または全部を撤去する方で、市税を完納している方が対象です。',
+    applicationPeriod: '申請前に建築指導課へ確認。補助金交付決定通知書が届く前に着手または完了した工事は対象外',
+    description: '金沢市が、道路に面するブロック塀の倒壊等による事故を未然に防ぎ、通行人の安全や災害時の道路機能を確保するため、危険ブロック塀等の除却費用の一部を補助する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>金沢市の危険ブロック塀の除却に関する補助制度は、道路に面するブロック塀の倒壊等による事故を未然に防止し、通行人の安全や災害時における道路機能を確保するため、ブロック塀の除却に要する費用の一部を補助するものです。</p>' },
+      { heading: '対象となるブロック塀と対象者', content: '<p>対象は、道路に面して設置されているコンクリートブロック塀または組積造の塀等です。対象者は、市税を完納している方で、補助対象となるブロック塀の一部または全部を撤去する方です。所有者等であることを確認する書類が必要になる場合があります。</p>' },
+      { heading: '補助金額と注意点', content: '<p>道路に面するブロック塀等は、除却する見付け面積1平方メートルあたり3,500円で、限度額は10万円です。通学路または緊急輸送道路に面するブロック塀等は、1平方メートルあたり7,000円で、限度額は20万円です。算定額と実際の除却費用の低い方が補助金額となります。交付決定通知書が届く前に工事に着手または完了した場合、建物解体に伴う除却、新設のための除却などは対象外です。</p>' }
+    ],
+    officialUrl: 'https://www4.city.kanazawa.lg.jp/soshikikarasagasu/kenchikushidoka/gyomuannai/1/kikenburoxtuku/index.html',
+    sourceName: '金沢市 危険ブロック塀の除却に関する補助制度',
+    sourceUrls: [
+      'https://www4.city.kanazawa.lg.jp/soshikikarasagasu/kenchikushidoka/gyomuannai/1/kikenburoxtuku/index.html',
+      'https://www4.city.kanazawa.lg.jp/material/files/group/76/CBchirashi.pdf',
+      'https://www.city.kanazawa.ishikawa.jp/reiki/reiki_honbun/a400RG00000808.html'
+    ],
+    sourceNote: '金沢市公式ページで、危険ブロック塀の除却に関する補助制度を確認。公式ページはHTTPSで200応答し、Last-Modifiedは2026年6月5日であることを確認。制度は、道路に面するブロック塀の倒壊等による事故を未然に防止し、通行人の安全や災害時の道路機能を確保するため、ブロック塀の除却費用の一部を補助するものであることを確認。対象は、道路に面して設置されているコンクリートブロック塀または組積造の塀等であることを確認。対象者は、市税を完納しており、補助対象となるブロック塀の一部または全部を撤去する方であることを確認。補助金額は、道路に面するブロック塀等が見付け面積1平方メートルあたり3,500円・限度額10万円、通学路または緊急輸送道路に面するブロック塀等が1平方メートルあたり7,000円・限度額20万円で、算定額と実際の除却費用の低い方が補助金額となることを確認。交付決定通知書が届く前に着手または完了した工事、建物解体に伴う除却、新設のための除却などは対象外であることを確認。公式パンフレットPDFはHTTPSで200応答し、Last-Modifiedは2025年10月30日であることを確認。交付要綱ページはHTTPSで200応答し、Last-Modifiedは2026年6月18日であることを確認。旧生成データの最大15万円という金額を、公式確認できる最大20万円へ修正。',
+    verifiedAt: '2026-06-28',
+    publishedAt: '2026-06-28',
+  },
+  {
     slug: 'kanazawa-seismic-diagnosis',
     title: '金沢市 既存建築物耐震改修工事費等補助制度',
     organization: '金沢市',
