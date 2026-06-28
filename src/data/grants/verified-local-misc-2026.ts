@@ -26473,4 +26473,33 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt: '2026-06-29',
     publishedAt: '2026-06-29',
   },
+  {
+    slug: 'onna-kawakami-exchange-dispatch-support-2026',
+    title: '恩納村 川上村・恩納村交流事業',
+    organization: '恩納村',
+    type: 'local',
+    maxAmount: '派遣費用の一部',
+    maxAmountNum: 0,
+    category: 'education',
+    relatedCategories: ['living'],
+    prefecture: '沖縄県',
+    tags: ['恩納村', '沖縄県', '川上村', '交流事業', '派遣助成', '中学生', '令和8年度新規', '教育交流'],
+    eligibility: '恩納村立うんな中学校1年生・2年生を対象に、予算の範囲内で選抜される生徒が対象として案内されています。',
+    applicationPeriod: '令和8年度新規。詳細は恩納村「幸せに生きる力」育成・支援委員会へ確認',
+    description: '恩納村が、うんな中学校1年生・2年生を対象に、川上村との交流事業への派遣費用を予算の範囲内で助成する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>恩納村川上村・恩納村交流事業は、うんな中学校1年生・2年生を対象に、隔年で実施される交流事業への派遣を助成する制度です。</p>' },
+      { heading: '対象者と助成内容', content: '<p>公式一覧では、うんな中学校1年生・2年生の生徒を対象に、予算の範囲内で選抜し、派遣の助成を行うと案内されています。自己負担額として4万円が示されています。</p>' },
+      { heading: '確認先', content: '<p>公式一覧では単独事業として掲載され、担当は恩納村「幸せに生きる力」育成・支援委員会です。募集時期、選抜方法、派遣日程、助成対象経費は担当窓口へ確認してください。</p>' }
+    ],
+    officialUrl: 'https://www.vill.onna.okinawa.jp/sp/organize/section/teijuu/1747735705/',
+    sourceName: '恩納村 恩納村各種支援事業一覧',
+    sourceUrls: [
+      'https://www.vill.onna.okinawa.jp/sp/organize/section/teijuu/1747735705/',
+      'http://www.vill.onna.okinawa.jp/living/education/gakuryokukouzyou/ishikari/'
+    ],
+    sourceNote: '恩納村公式ページ「恩納村各種支援事業一覧」で、川上村・恩納村交流事業を確認。公式ページはHEADではcontent-lengthが1となる特殊応答だったため、GET本文で制度内容を確認。公式一覧のDATA no.109に、川上村・恩納村交流事業（令和8年度新規）として掲載されていることを確認。制度は、隔年において、うんな中学校1年・2年の生徒を対象に予算の範囲内で選抜し、派遣の助成を行うものと確認。自己負担額は4万円と確認。事業区分は単独事業で、担当は恩納村「幸せに生きる力」育成・支援委員会であることを確認。既存の石狩市・恩納村交流事業は別途公式確認済みであり、同ページでは北海道石狩市との交流を位置づける制度として確認している。本制度は令和8年度新規の川上村・恩納村交流事業として別制度と判断し、新規公式確認済み制度に追加。',
+    verifiedAt: '2026-06-29',
+    publishedAt: '2026-06-29',
+  },
 ];
