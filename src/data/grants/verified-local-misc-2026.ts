@@ -26415,4 +26415,33 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt: '2026-06-29',
     publishedAt: '2026-06-29',
   },
+  {
+    slug: 'onna-nursing-care-supplies-provision-2026',
+    title: '恩納村 介護用品支給事業',
+    organization: '恩納村',
+    type: 'local',
+    maxAmount: '介護用品の支給',
+    maxAmountNum: 0,
+    category: 'nursing',
+    relatedCategories: ['living', 'medical'],
+    prefecture: '沖縄県',
+    tags: ['恩納村', '沖縄県', '介護用品', '在宅介護', '要介護4以上', '寝たきり高齢者', '非課税世帯', '家族介護'],
+    eligibility: '恩納村で、在宅で要介護4以上の寝たきり高齢者を現に介護している家族が対象として案内されています。村民税非課税世帯に限るとされています。',
+    applicationPeriod: '詳細は恩納村福祉健康課へ確認',
+    description: '恩納村が、在宅で要介護4以上の寝たきり高齢者を介護している家族に対し、介護用品を支給して在宅介護を支援する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>恩納村介護用品支給事業は、在宅で要介護4以上の寝たきり高齢者を現に介護している家族に対し、介護用品を支給する制度です。</p>' },
+      { heading: '対象者', content: '<p>公式一覧では、在宅で要介護4以上の寝たきり高齢者を現に介護している家族が対象として案内されています。村民税非課税世帯に限るとされているため、世帯要件の確認が必要です。</p>' },
+      { heading: '確認先', content: '<p>公式一覧では単独事業として掲載され、担当は福祉健康課です。支給される介護用品の品目、支給頻度、申請書類、他制度との併用可否は恩納村福祉健康課へ確認してください。</p>' }
+    ],
+    officialUrl: 'https://www.vill.onna.okinawa.jp/sp/organize/section/teijuu/1747735705/',
+    sourceName: '恩納村 恩納村各種支援事業一覧',
+    sourceUrls: [
+      'https://www.vill.onna.okinawa.jp/sp/organize/section/teijuu/1747735705/',
+      'https://www.vill.onna.okinawa.jp/living/nursing/1609829431/'
+    ],
+    sourceNote: '恩納村公式ページ「恩納村各種支援事業一覧」で、介護用品支給事業を確認。公式ページはHEADではcontent-lengthが1となる特殊応答だったため、GET本文で制度内容を確認。公式一覧のDATA no.106に、介護用品支給事業として掲載されていることを確認。制度は、在宅で要介護4以上の寝たきり高齢者を現に介護している家族に対して介護用品を支給し、在宅での介護を支援するものと確認。対象は村民税非課税世帯に限ることを確認。事業区分は単独事業で、担当は福祉健康課であることを確認。恩納村の高齢者・介護サービス一覧とサイト内検索を確認したが、同制度の個別ページや支給上限額は見つからなかったため、公式一覧を主出典とし、金額は推測せずmaxAmountNumは0とした。既存の高齢者福祉医療（おむつ）助成金支給事業は、65歳以上でおむつが必要と認められる本人への月額7,500円支給制度として確認済みであり、本制度は在宅で要介護4以上の寝たきり高齢者を介護する家族への介護用品支給制度として別制度と判断し、新規公式確認済み制度に追加。',
+    verifiedAt: '2026-06-29',
+    publishedAt: '2026-06-29',
+  },
 ];
