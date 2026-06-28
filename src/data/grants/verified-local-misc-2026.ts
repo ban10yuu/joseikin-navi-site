@@ -26502,4 +26502,33 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt: '2026-06-29',
     publishedAt: '2026-06-29',
   },
+  {
+    slug: 'onna-household-food-waste-processor-subsidy-2026',
+    title: '恩納村 家庭用生ごみ処理機購入補助',
+    organization: '恩納村',
+    type: 'local',
+    maxAmount: '家庭用生ごみ処理機購入費の一部',
+    maxAmountNum: 0,
+    category: 'living',
+    relatedCategories: ['housing'],
+    prefecture: '沖縄県',
+    tags: ['恩納村', '沖縄県', '生ごみ処理機', '購入補助', 'ごみ減量', '堆肥化', '循環化', '村民課'],
+    eligibility: '恩納村で家庭用生ごみ処理機を購入し、生ごみを自己処理しようとする方が対象として案内されています。補助金交付条件があります。',
+    applicationPeriod: '詳細は恩納村村民課へ確認',
+    description: '恩納村が、家庭用生ごみ処理機の購入費を補助し、生ごみの堆肥化、ごみの減量化、循環化を促進する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>恩納村家庭用生ごみ処理機購入補助は、家庭用生ごみ処理機を購入して自己処理しようとする方に対し、予算の範囲内で助成金を交付する制度です。</p>' },
+      { heading: '目的', content: '<p>公式一覧では、生ごみの堆肥化等を促進し、ごみの減量化及び循環化を図ることを目的とすると案内されています。</p>' },
+      { heading: '確認先', content: '<p>公式一覧では単独事業として掲載され、担当は村民課です。対象となる処理機の種類、補助率、上限額、購入前申請の要否、必要書類は恩納村村民課へ確認してください。</p>' }
+    ],
+    officialUrl: 'https://www.vill.onna.okinawa.jp/sp/organize/section/teijuu/1747735705/',
+    sourceName: '恩納村 恩納村各種支援事業一覧',
+    sourceUrls: [
+      'https://www.vill.onna.okinawa.jp/sp/organize/section/teijuu/1747735705/',
+      'https://www.vill.onna.okinawa.jp/living/'
+    ],
+    sourceNote: '恩納村公式ページ「恩納村各種支援事業一覧」で、家庭用生ごみ処理機購入補助を確認。公式ページはHEADではcontent-lengthが1となる特殊応答だったため、GET本文で制度内容を確認。公式一覧のDATA no.65に、家庭用生ごみ処理機購入補助として掲載されていることを確認。制度は、家庭用生ごみ処理機を購入し、自己処理しようとする者に対し、予算の範囲内で助成金を交付することにより、生ごみの堆肥化等を促進し、ごみの減量化及び循環化を図ることを目的とするものと確認。補助金交付条件があることを確認。事業区分は単独事業で、担当は村民課であることを確認。恩納村の暮らしカテゴリとサイト内検索を確認したが、同制度の個別ページや補助上限額は見つからなかったため、公式一覧を主出典とし、金額は推測せずmaxAmountNumは0として新規公式確認済み制度に追加。',
+    verifiedAt: '2026-06-29',
+    publishedAt: '2026-06-29',
+  },
 ];
