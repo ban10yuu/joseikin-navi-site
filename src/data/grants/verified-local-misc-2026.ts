@@ -26386,4 +26386,33 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt: '2026-06-29',
     publishedAt: '2026-06-29',
   },
+  {
+    slug: 'onna-elderly-shopping-taxi-fare-subsidy-2026',
+    title: '恩納村 高齢者買物支援等タクシー料金助成事業',
+    organization: '恩納村',
+    type: 'local',
+    maxAmount: 'タクシー料金の一部',
+    maxAmountNum: 0,
+    category: 'nursing',
+    relatedCategories: ['living', 'medical'],
+    prefecture: '沖縄県',
+    tags: ['恩納村', '沖縄県', '高齢者', '買物支援', 'タクシー料金', '免許返納', '外出支援', '生活支援'],
+    eligibility: '恩納村で、自家用車の運転が困難な高齢者や免許返納を行った高齢者等が対象として案内されています。年齢要件、利用目的、交付枚数、自己負担額は恩納村福祉健康課へ確認が必要です。',
+    applicationPeriod: '詳細は恩納村福祉健康課へ確認',
+    description: '恩納村が、自家用車の運転が困難な高齢者等のタクシー利用料金の一部を助成し、買物など日常生活の利便性向上と経済的負担軽減を図る制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>恩納村高齢者買物支援等タクシー料金助成事業は、自家用車の運転が困難な高齢者等がタクシーを利用する場合に、その料金の一部を助成する制度です。</p>' },
+      { heading: '対象者', content: '<p>公式一覧では、自家用車の運転が困難な高齢者等、または免許返納を行った高齢者等が対象として案内されています。具体的な年齢要件、居住要件、対象となる利用目的は確認が必要です。</p>' },
+      { heading: '確認先', content: '<p>公式一覧では単独事業として掲載され、担当は福祉健康課です。助成券の交付枚数、利用できるタクシー事業者、自己負担額、申請書類は恩納村福祉健康課へ確認してください。</p>' }
+    ],
+    officialUrl: 'https://www.vill.onna.okinawa.jp/sp/organize/section/teijuu/1747735705/',
+    sourceName: '恩納村 恩納村各種支援事業一覧',
+    sourceUrls: [
+      'https://www.vill.onna.okinawa.jp/sp/organize/section/teijuu/1747735705/',
+      'https://www.vill.onna.okinawa.jp/living/nursing/1609829431/'
+    ],
+    sourceNote: '恩納村公式ページ「恩納村各種支援事業一覧」で、高齢者買物支援等タクシー料金助成事業を確認。公式ページはHEADではcontent-lengthが1となる特殊応答だったため、GET本文で制度内容を確認。公式一覧のDATA no.88に、高齢者買物支援等タクシー料金助成事業として掲載されていることを確認。制度は、自家用車の運転が困難、免許返納を行った高齢者等がタクシーを利用する場合、その料金の一部を助成することにより、日常生活の利便性の向上、経済的負担の軽減及び社会生活圏の拡大を図るものと確認。事業区分は単独事業で、担当は福祉健康課であることを確認。恩納村の高齢者・介護サービス一覧も確認したが、同制度の個別ページや助成上限額は見つからなかったため、公式一覧を主出典とし、金額は推測せずmaxAmountNumは0として新規公式確認済み制度に追加。',
+    verifiedAt: '2026-06-29',
+    publishedAt: '2026-06-29',
+  },
 ];
