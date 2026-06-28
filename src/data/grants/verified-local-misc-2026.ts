@@ -25647,6 +25647,35 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-29',
   },
   {
+    slug: 'onna-ishikari-exchange-dispatch-support-2026',
+    title: '恩納村 石狩市・恩納村交流事業',
+    organization: '恩納村',
+    type: 'local',
+    maxAmount: '派遣費用を予算の範囲内で助成。自己負担4万円',
+    maxAmountNum: 0,
+    category: 'education',
+    relatedCategories: ['childcare', 'living'],
+    prefecture: '沖縄県',
+    tags: ['恩納村', '沖縄県', '石狩市', '交流事業', '派遣助成', '中学生', '教育交流', '地域交流'],
+    eligibility: 'うんな中学校1年生・2年生のうち、予算の範囲内で選抜された生徒が対象です。',
+    applicationPeriod: '隔年実施。詳細は恩納村教育委員会へ確認',
+    description: '恩納村が、うんな中学校1年生・2年生を対象に、北海道石狩市との交流事業への派遣費用を予算の範囲内で助成する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>石狩市・恩納村交流事業は、うんな中学校の生徒を対象に、北海道石狩市との交流を通じて見聞を広げる教育交流事業です。公式ページでは、自然や歴史、伝統・文化の異なる地域を訪問し、同年代の生徒と交流する機会として、北海道石狩市との交流を位置づけると案内されています。</p>' },
+      { heading: '対象者', content: '<p>恩納村公式一覧では、隔年において、うんな中学校1年生・2年生の生徒を対象に、予算の範囲内で選抜して実施すると案内されています。</p>' },
+      { heading: '助成内容', content: '<p>派遣に係る費用を予算の範囲内で助成します。公式一覧では、4万円は自己負担と案内されています。</p>' }
+    ],
+    officialUrl: 'https://www.vill.onna.okinawa.jp/living/education/gakuryokukouzyou/ishikari/',
+    sourceName: '恩納村 石狩市・恩納村交流事業',
+    sourceUrls: [
+      'https://www.vill.onna.okinawa.jp/living/education/gakuryokukouzyou/ishikari/',
+      'https://www.vill.onna.okinawa.jp/sp/organize/section/teijuu/1747735705/'
+    ],
+    sourceNote: '恩納村公式ページで、石狩市・恩納村交流事業を確認。公式ページはHEADではcontent-lengthが1となる特殊応答だったため、GET本文で制度内容を確認。専用ページのOG更新日時は2024年5月5日であることを確認。ページ本文で、近年の子どもたちの社会体験や生活体験の不足等を背景に、郷土の自然や歴史、伝統・文化に関心を持ち、主体的に判断し行動する資質や能力を育てるため、自然や歴史、伝統・文化の異なる地域を訪問し、同年代の生徒と交流する経験が重要であり、その機会として北海道石狩市との交流を位置づけていることを確認。ページ内に令和5年度第31回北海道石狩市・恩納村交流事業へのリンクが掲載されていることも確認。恩納村各種支援事業一覧では、石狩市・恩納村交流事業として、隔年において、うんな中学校1年・2年の生徒を対象に予算の範囲内で選抜し、派遣の助成を行うこと、4万円は自己負担であることを確認。担当は恩納村「幸せに生きる力」育成・支援委員会であることを確認。新規公式確認済み制度として追加。',
+    verifiedAt: '2026-06-29',
+    publishedAt: '2026-06-29',
+  },
+  {
     slug: 'onna-pregnancy-checkup-taxi-coupon-2026',
     title: '恩納村 妊婦健康診査受診等支援事業',
     organization: '恩納村',
