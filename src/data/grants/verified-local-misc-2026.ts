@@ -23145,4 +23145,37 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-28',
   },
+  {
+    slug: 'fukushima-city-seismic-diagnosis',
+    title: '福島市 木造住宅耐震改修等補助事業',
+    organization: '福島市',
+    type: 'local',
+    maxAmount: '最大115万円（一般耐震改修工事・現地建替工事）',
+    maxAmountNum: 115,
+    category: 'housing',
+    relatedCategories: ['disaster'],
+    prefecture: '福島県',
+    tags: ['福島市', '福島県', '木造住宅', '耐震改修', '現地建替', '地震対策', '令和8年度'],
+    eligibility: '福島市内の昭和56年5月31日以前に着工された3階建て以下の木造住宅で、耐震診断により耐震基準を満たしていないと判定され、所有者が自ら居住するまたは居住予定など公式要件を満たす住宅が対象です。',
+    applicationPeriod: '2026年5月11日から2026年8月31日まで。予算額に到達次第終了',
+    deadlineDate: '2026-08-31',
+    description: '福島市が、地震による住宅被害を防止するため、耐震診断で基準に満たないと判定された木造住宅の耐震改修工事や現地建替工事について、設計費および工事費の一部を補助する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>福島市木造住宅耐震改修等補助事業は、耐震診断により耐震基準を満たしていないと判定された木造住宅について、耐震改修工事や現地建替工事を支援する制度です。募集戸数は5戸程度で、市内全域が対象地域です。</p>' },
+      { heading: '対象住宅', content: '<p>対象は、耐震診断の結果、耐震基準を満たしていない住宅、昭和56年5月31日以前に着工された住宅、所有者が自ら居住するまたは居住予定の専用住宅または併用住宅、3階建て以下の木造住宅などです。原則として2027年2月26日までに工事完了および報告書提出が可能であることも要件です。</p>' },
+      { heading: '補助額と申込方法', content: '<p>一般耐震改修工事と現地建替工事は対象工事費の5分の4以内、上限115万円です。簡易耐震改修工事と部分耐震改修工事は対象工事費の5分の4以内、上限69万円です。申込みは住宅政策課への事前相談後、必要書類を住宅政策課窓口へ直接持参します。</p>' }
+    ],
+    officialUrl: 'https://www.city.fukushima.fukushima.jp/soshiki/12/1064/1/4733.html',
+    sourceName: '福島市 木造住宅耐震改修等補助事業',
+    sourceUrls: [
+      'https://www.city.fukushima.fukushima.jp/soshiki/12/1064/1/4733.html',
+      'https://www.city.fukushima.fukushima.jp/material/files/group/66/r08_kaisyu_guidance.pdf',
+      'https://www.city.fukushima.fukushima.jp/material/files/group/66/01_kaisyuuyoukou20260401pdf.pdf',
+      'https://www.city.fukushima.fukushima.jp/material/files/group/66/02-1_kaisyuuyoushiki20260401pdf.pdf',
+      'https://www.city.fukushima.fukushima.jp/material/files/group/66/02-2_kaisyuuyoushiki20260401pdf.pdf'
+    ],
+    sourceNote: '福島市公式ページで、木造住宅耐震改修等補助事業を確認。公式ページはHTTPSで200応答し、Last-Modifiedは2026年6月24日であることを確認。ページ更新日は2026年5月1日で、令和8年度の木造住宅耐震改修等希望者募集を案内していることを確認。制度は、耐震診断により耐震基準に満たないと判定されたものの耐震補強を目的とした耐震改修工事や現地建替工事を希望する方に対し、設計費および工事費の一部を補助する制度であることを確認。募集戸数は5戸程度、募集期間は令和8年5月11日から8月31日まで、予算額に到達次第終了し、月締めで応募者多数の場合は抽選であることを確認。対象住宅は、耐震診断で耐震基準を満たしていないもの、昭和56年5月31日以前に着工された住宅、所有者が自ら居住するまたは居住予定の専用または併用住宅、3階建て以下の木造住宅、建築基準法違反の是正命令対象でないもの、原則として令和9年2月26日までに工事完了および報告書提出が可能なものなどであることを確認。補助額は、一般耐震改修工事と現地建替工事が工事費の5分の4以内・最大115万円、簡易耐震改修工事と部分耐震改修工事が工事費の5分の4以内・最大69万円であることを確認。申込方法は住宅政策課への事前相談後、必要書類を住宅政策課窓口へ直接持参することを確認。公式PDFで、募集案内、補助金交付要綱、様式が公開されていることを確認。旧生成データの福島市木造住宅耐震診断助成事業を、公式確認できる現行の木造住宅耐震改修等補助事業へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-28',
+  },
 ];
