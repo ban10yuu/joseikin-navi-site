@@ -25325,4 +25325,32 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt: '2026-06-29',
     publishedAt: '2026-06-29',
   },
+  {
+    slug: 'kitadaito-childbirth-celebration-grant-2026',
+    title: '北大東村 出産お祝い金',
+    organization: '北大東村',
+    type: 'local',
+    maxAmount: '第4子以降35万円',
+    maxAmountNum: 350000,
+    category: 'childcare',
+    relatedCategories: ['living'],
+    prefecture: '沖縄県',
+    tags: ['北大東村', '沖縄県', '出産お祝い金', '出産助成', '子育て支援', '定住支援'],
+    eligibility: '北大東村に住民登録されている方、または北大東村に定住予定の方が対象です。',
+    applicationPeriod: '随時。助成金審査会で適否を審査し決定',
+    description: '北大東村が、出産を支援するため、出生順位に応じて10万円から35万円の出産お祝い金を交付する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>北大東村出産お祝い金は、村から出産の助成金を交付する制度です。北大東村に住民登録されている方、または北大東村に定住予定の方を対象に、出生順位に応じて助成金が支給されます。</p>' },
+      { heading: '助成額', content: '<p>助成額は、第1子10万円、第2子15万円、第3子20万円、第4子以降35万円です。助成の決定は、助成金審査会で適否を審査して行われ、納税状況も確認されます。</p>' },
+      { heading: '手続きに必要なもの', content: '<p>手続きには、印鑑と、振込先口座番号がわかる預金通帳が必要です。問い合わせ先は北大東村保健センターです。</p>' }
+    ],
+    officialUrl: 'https://vill.kitadaito.okinawa.jp/life_event/ninsin_syussan/kodomo/oiwaikin.html',
+    sourceName: '北大東村 出産お祝い金',
+    sourceUrls: [
+      'https://vill.kitadaito.okinawa.jp/life_event/ninsin_syussan/kodomo/oiwaikin.html'
+    ],
+    sourceNote: '北大東村公式ページで、出産お祝い金を確認。公式ページはHTTPSで200応答し、Last-Modifiedは2026年2月25日であることを確認。ページ本文で、村から出産の助成金を交付していることを確認。対象者は北大東村に住民登録されている方、北大東村に定住予定の方であることを確認。助成内容は、第1子10万円、第2子15万円、第3子20万円、第4子以降35万円であることを確認。助成の決定は助成金審査会で適否を審査して決定し、納税状況を確認することを確認。手続きに必要なものは印鑑と振込先口座番号がわかる預金通帳であること、問い合わせ先は保健センターであることを確認。新規公式確認済み制度として追加。',
+    verifiedAt: '2026-06-29',
+    publishedAt: '2026-06-29',
+  },
 ];
