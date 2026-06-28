@@ -25618,6 +25618,35 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-29',
   },
   {
+    slug: 'onna-mirai-juku-learning-support-2026',
+    title: '恩納村 未来塾支援事業',
+    organization: '恩納村',
+    type: 'local',
+    maxAmount: '希望する中学生に無料で未来塾を開講',
+    maxAmountNum: 0,
+    category: 'education',
+    relatedCategories: ['childcare', 'living'],
+    prefecture: '沖縄県',
+    tags: ['恩納村', '沖縄県', '未来塾', '中学生', '学習支援', '無料塾', '学力向上', '企業版ふるさと納税'],
+    eligibility: '恩納村内の中学校生徒のうち、未来塾の受講を希望する生徒が対象です。',
+    applicationPeriod: '詳細は恩納村教育委員会へ確認',
+    description: '恩納村が、村内の教育環境を補完し、中学校生徒の学力向上を支援するため、希望する生徒に無料で未来塾を開講する事業です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>恩納村未来塾支援事業は、村内に民間の学習塾や県立高校がなく、近隣市町村と比べて教育環境が十分に整っていない状況を踏まえ、中学校生徒の学力向上の一環として未来塾を開講する教育支援です。</p>' },
+      { heading: '学習内容', content: '<p>未来塾では、生徒自身が学習したい内容を決め、問題集を活用しながら学習する自学学習を主軸にしています。講師は、生徒が分からない箇所の支援や教室巡回、声かけを行います。</p>' },
+      { heading: '運営体制', content: '<p>講師は、協定を締結している名桜大学の教師志望の大学生などから採用されています。公式一覧では、中学校生徒の学力向上の一環として、希望する生徒に無料で未来塾を開講すると案内されています。</p>' }
+    ],
+    officialUrl: 'https://www.vill.onna.okinawa.jp/living/education/gakuryokukouzyou/miraijyuku/',
+    sourceName: '恩納村 未来塾',
+    sourceUrls: [
+      'https://www.vill.onna.okinawa.jp/living/education/gakuryokukouzyou/miraijyuku/',
+      'https://www.vill.onna.okinawa.jp/sp/organize/section/teijuu/1747735705/'
+    ],
+    sourceNote: '恩納村公式ページで、未来塾を確認。公式ページはHEADではcontent-lengthが1となる特殊応答だったため、GET本文で制度内容を確認。ページのOG更新日時は2025年11月28日であることを確認。ページ本文で、村内には民間の学習塾や県立高校がなく、近隣市町村と比べて教育環境が十分に整っていないため、中学校生徒の学力向上の一環として恩納村学力向上推進委員会が運営する未来塾を開塾していることを確認。未来塾では、生徒自身が学習したい内容を決め、問題集を活用しながら学習していく自学学習を主軸としており、講師は生徒が分からない箇所の支援や教室巡回、生徒への声かけを行う方針で運営されていることを確認。講師は、協定を締結している名桜大学生の教師志望の大学生から採用しており、本村出身の講師や中学生時代に未来塾を受講した生徒が講師として教えている例があることを確認。公式ページでは、この事業が企業版ふるさと納税の寄付を活用していることも確認。恩納村各種支援事業一覧にも、未来塾支援事業として、中学校生徒の学力向上の一環として希望する生徒に無料で未来塾を開講すると掲載されていることを確認。金銭給付ではなく無料の学習支援サービスとして、新規公式確認済み制度に追加。',
+    verifiedAt: '2026-06-29',
+    publishedAt: '2026-06-29',
+  },
+  {
     slug: 'onna-pregnancy-checkup-taxi-coupon-2026',
     title: '恩納村 妊婦健康診査受診等支援事業',
     organization: '恩納村',
