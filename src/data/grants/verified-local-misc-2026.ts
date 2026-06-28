@@ -20744,6 +20744,37 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-28',
   },
   {
+    slug: 'sakata-seismic-diagnosis',
+    title: '酒田市 木造住宅耐震診断士派遣事業',
+    organization: '酒田市',
+    type: 'local',
+    maxAmount: '耐震診断士派遣による耐震診断（本人負担15,000円または19,000円）',
+    maxAmountNum: 0,
+    category: 'disaster',
+    relatedCategories: ['housing', 'living'],
+    prefecture: '山形県',
+    tags: ['酒田市', '山形県', '木造住宅', '耐震診断', '耐震診断士派遣', '令和8年度'],
+    eligibility: '酒田市内に対象住宅を所有し、市税等を滞納しておらず、暴力団員等でない方が対象です。対象住宅は平成12年5月31日以前着工の在来木造軸組工法の一戸建て住宅で、2階建て以下・床面積500平方メートル以下などの要件があります。',
+    applicationPeriod: '令和8年5月25日から令和8年12月11日まで。先着順で、事業枠に達した時点で締切',
+    deadlineDate: '2026-12-11',
+    description: '酒田市が、木造住宅の所有者からの申込みにより市認定の耐震診断士を派遣し、住宅の耐震診断費用の一部を補助する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>酒田市木造住宅耐震診断士派遣事業は、大地震時の木造住宅の倒壊と人的被害を軽減し、災害に強い町とするため、木造住宅の所有者からの申込みにより、市が認定した耐震診断士を派遣して住宅の耐震診断を行う制度です。耐震診断に要する費用の一部を市が補助します。</p>' },
+      { heading: '対象者と対象住宅', content: '<p>申請できる方は、対象住宅の所有者で、酒田市内に対象住宅を所有し、市税等の滞納がなく、暴力団員等でない方です。対象住宅は、平成12年5月31日以前に着工された在来木造軸組工法の一戸建て住宅で、2階建て以下、床面積500平方メートル以下のものです。店舗等併用住宅は、店舗等部分の床面積が延べ面積の2分の1未満の場合に限ります。丸太組構法やプレハブ工法の木造建築物は対象外です。</p>' },
+      { heading: '受付期間と本人負担額', content: '<p>令和8年度の受付期間は、令和8年5月25日から令和8年12月11日までです。先着順で受付し、事業枠に達した時点で締め切ります。募集予定戸数は15戸です。耐震診断費用の申請者本人負担額は、対象住宅の図面がある場合15,000円、図面がない場合19,000円です。市外在住者は郵送受付も案内されています。</p>' }
+    ],
+    officialUrl: 'https://www.city.sakata.lg.jp/jyutaku/jyutaku/taishin/jyutaku_shindanshi_h.html',
+    sourceName: '酒田市 木造住宅耐震診断士派遣事業',
+    sourceUrls: [
+      'https://www.city.sakata.lg.jp/jyutaku/jyutaku/taishin/jyutaku_shindanshi_h.html',
+      'https://www.city.sakata.lg.jp/jyutaku/jyutaku/taishin/jyutaku_shindanshi_h.files/R8_taisinnsinndann_panhuretto.pdf',
+      'https://www.city.sakata.lg.jp/jyutaku/jyutaku/taishin/mokuzo_taishinkaisyu.html'
+    ],
+    sourceNote: '酒田市公式ページで、木造住宅耐震診断士派遣事業は、大地震時の木造住宅倒壊と人的被害を軽減し、災害に強い町とするため、木造住宅所有者の申込みにより市が認定した耐震診断士を派遣し、住宅の耐震診断を実施する制度であることを確認。ページはHTTPSで200応答し、更新日は2026年4月13日、Last-Modifiedは2026年6月26日であることを確認。令和8年度受付期間は2026年5月25日から2026年12月11日、先着順で事業枠到達時に締切、市外在住者は郵送受付も可、募集予定戸数は15戸であることを確認。対象者は、対象住宅の所有者、酒田市内に対象住宅を所有、市税等滞納なし、暴力団員等でないことを確認。対象住宅は平成12年5月31日以前着工、在来木造軸組工法の一戸建て、2階建て以下、床面積500平方メートル以下、店舗等併用は店舗等部分が延べ面積2分の1未満で、丸太組構法・プレハブ工法は対象外であることを確認。本人負担額は図面あり15,000円、図面なし19,000円であることを確認。令和8年度パンフレットPDFと耐震改修補助金ページも確認。旧生成データの自己負担なし表現を、公式確認済みの本人負担15,000円または19,000円の耐震診断士派遣事業へ修正。',
+    verifiedAt,
+    publishedAt: '2026-06-28',
+  },
+  {
     slug: 'nihonmatsu-new-business-challenge-2026',
     title: '二本松市 新事業チャレンジ補助金',
     organization: '二本松市',
