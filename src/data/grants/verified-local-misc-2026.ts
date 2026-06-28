@@ -25526,6 +25526,37 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-29',
   },
   {
+    slug: 'onna-home-elderly-care-allowance-2026',
+    title: '恩納村 在宅高齢者介護手当支給事業',
+    organization: '恩納村',
+    type: 'local',
+    maxAmount: '月額5,000円',
+    maxAmountNum: 5000,
+    category: 'nursing',
+    relatedCategories: ['living'],
+    prefecture: '沖縄県',
+    tags: ['恩納村', '沖縄県', '在宅介護', '高齢者介護', '介護手当', '寝たきり高齢者', '家族介護', '高齢者福祉'],
+    eligibility: '在宅で6か月以上寝たきり状態にある高齢者を介護している方が対象です。対象高齢者と介護者の双方が、申請する年の1月1日に恩納村在住であることが必要です。',
+    applicationPeriod: '詳細は恩納村福祉課高齢者福祉係へ確認',
+    description: '恩納村が、在宅の寝たきり高齢者を介護している介護者に手当を支給し、経済的負担の軽減を図る制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>恩納村在宅高齢者介護手当支給事業は、在宅の寝たきり高齢者を介護している介護者に手当を支給し、経済的負担の軽減を図る制度です。</p>' },
+      { heading: '対象者', content: '<p>対象は、在宅で6か月以上寝たきり状態にある高齢者を介護している方です。対象となる高齢者と介護者の双方が、申請する年の1月1日に恩納村在住である必要があります。</p>' },
+      { heading: '支給額と支給時期', content: '<p>支給額は月額5,000円です。4月から9月分は10月に、10月から3月分は4月に、年2回支給されます。対象高齢者または介護者が恩納村から転出した場合、対象高齢者が入院・施設入所した場合、寝たきり状態から回復した場合などは手当を受けられなくなります。</p>' }
+    ],
+    officialUrl: 'https://www.vill.onna.okinawa.jp/living/nursing/1609829431/1715137250/',
+    sourceName: '恩納村 恩納村在宅高齢者介護手当支給事業',
+    sourceUrls: [
+      'https://www.vill.onna.okinawa.jp/living/nursing/1609829431/1715137250/',
+      'https://www.vill.onna.okinawa.jp/userfiles/files/kourei/kaigooshirase.pdf',
+      'https://www.vill.onna.okinawa.jp/userfiles/files/kourei/ninteisinseisho.pdf',
+      'https://www.vill.onna.okinawa.jp/sp/organize/section/teijuu/1747735705/'
+    ],
+    sourceNote: '恩納村公式ページで、恩納村在宅高齢者介護手当支給事業を確認。公式ページはHEADではcontent-lengthが1となる特殊応答だったため、GET本文で制度内容を確認。ページのOG更新日時は2024年5月17日であることを確認。ページ本文で、在宅の寝たきり高齢者を介護している介護者に手当を支給し、経済的負担の軽減を図る制度であることを確認。対象者は、在宅で6か月以上寝たきり状態にある高齢者を介護している方であり、対象高齢者も介護者も申請する年の1月1日に恩納村在住であることを確認。支給額は月額5,000円であることを確認。支給月は4月分から9月分を10月に、10月から3月分を4月に、年2回支給することを確認。提出書類として、恩納村在宅高齢者介護手当受給認定申請書、医師の意見書、振込口座が分かる通帳またはキャッシュカードのコピーが案内されていることを確認。手当が受けられなくなる場合として、在宅高齢者または介護者が恩納村から転出した場合、在宅高齢者が入院または施設入所した場合、在宅高齢者が寝たきり状態から回復した場合、高齢者が亡くなった場合が案内されていることを確認。公式ページ内の介護手当のお知らせPDFおよび認定申請書PDFもHTTP 200で公開されていることを確認。恩納村各種支援事業一覧にも、在宅高齢者介護手当支給事業として、恩納村在住の対象高齢者を介護する恩納村在住の介護者に月5,000円を支給すると掲載されていることを確認。新規公式確認済み制度として追加。',
+    verifiedAt: '2026-06-29',
+    publishedAt: '2026-06-29',
+  },
+  {
     slug: 'onna-pregnancy-checkup-taxi-coupon-2026',
     title: '恩納村 妊婦健康診査受診等支援事業',
     organization: '恩納村',
