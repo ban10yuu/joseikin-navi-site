@@ -24303,4 +24303,33 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt: '2026-06-28',
     publishedAt: '2026-06-28',
   },
+  {
+    slug: 'matsue-child-hearing-aid-2026',
+    title: '松江市 軽度・中等度難聴児補聴器購入費等助成',
+    organization: '松江市',
+    type: 'local',
+    maxAmount: '基準額等の約3分の2',
+    maxAmountNum: 0,
+    category: 'medical',
+    relatedCategories: ['childcare', 'nursing'],
+    prefecture: '島根県',
+    tags: ['松江市', '島根県', '難聴児', '補聴器', '補聴援助システム', '令和8年度'],
+    eligibility: '松江市内に住所を有する18歳未満の方で、聴覚の身体障害者手帳の交付対象とならず、原則として両耳またはいずれかの耳の聴力レベルが30デシベル以上70デシベル未満など、公式要件を満たす軽度・中等度難聴児が対象です。',
+    applicationPeriod: '随時。補聴器等を購入する前に申請が必要',
+    description: '松江市が、聴覚の身体障害者手帳の対象とならない軽度・中等度難聴児に対し、補聴器購入費用の一部を助成する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>松江市難聴児補聴器助成事業は、聴覚の身体障害者手帳の対象とならない軽度・中等度難聴児に対し、補聴器購入費用の一部を助成する制度です。</p>' },
+      { heading: '対象者', content: '<p>対象は18歳未満で、いずれかの耳または両耳の聴力レベルが30デシベル以上70デシベル未満、聴覚の身体障害者手帳の交付対象とならない方です。30デシベル未満でも、補聴器装用により言語習得等の効果が期待できると医師が判断する場合は対象となります。</p>' },
+      { heading: '助成額と申請の注意点', content: '<p>助成額は、補聴器の購入費用と基準額を比較して低い方の約3分の2です。補聴援助システムが必要な場合は、受信機やワイヤレスマイク等の基準額範囲内で加算されます。購入前の申請が必要です。</p>' }
+    ],
+    officialUrl: 'https://www.city.matsue.lg.jp/soshikikarasagasu/kenkofukushibu_shogaishafukushika/2/4/1629.html',
+    sourceName: '松江市 軽度・中等度難聴児補聴器購入費等助成について',
+    sourceUrls: [
+      'https://www.city.matsue.lg.jp/soshikikarasagasu/kenkofukushibu_shogaishafukushika/2/4/1629.html',
+      'https://www.city.matsue.lg.jp/material/files/group/44/nantyouzihotyoukiyoukou.pdf'
+    ],
+    sourceNote: '松江市公式ページで、松江市難聴児補聴器助成事業を確認。公式ページはHTTPSで200応答し、Last-Modifiedは2026年6月26日であることを確認。ページ更新日は2026年6月26日で、聴覚の身体障害者手帳の対象とならない軽度・中等度の難聴児の補聴器購入費用を助成する制度であることを確認。対象者は18歳未満で、いずれかの耳もしくは両耳の聴力レベルが30デシベル以上70デシベル未満、聴覚の身体障害者手帳の交付対象とならない方であることを確認。30デシベル未満でも、補聴器装用により言語習得等一定の効果が期待できると医師が判断する場合は対象になることを確認。助成額は、補聴器購入費用と基準額を比較して低い額の約3分の2、千円未満切捨てであることを確認。補聴援助システムを必要とする場合は、受信機およびワイヤレスマイクの価格合計232,700円の範囲内、オーディオシュー5,250円の範囲内、デジタル式補聴器の調整2,000円の加算があることを確認。購入前に市への申請が必要であることを確認。公式実施要綱PDFはHTTPSで200応答し、Last-Modifiedは2025年11月26日であることを確認。既存の高齢者補聴器助成とは別の難聴児向け制度として追加。',
+    verifiedAt: '2026-06-28',
+    publishedAt: '2026-06-28',
+  },
 ];
