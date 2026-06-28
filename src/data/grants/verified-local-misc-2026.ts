@@ -22682,4 +22682,37 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-06-28',
   },
+  {
+    slug: 'niigata-city-led-lighting-installation-support-2026',
+    title: '新潟市 LED照明導入促進補助金',
+    organization: '新潟市',
+    type: 'local',
+    maxAmount: '最大100万円',
+    maxAmountNum: 100,
+    category: 'employment',
+    relatedCategories: ['living'],
+    prefecture: '新潟県',
+    tags: ['新潟市', '新潟県', '中小企業', 'LED照明', '省エネ', '電気料金削減', '設備導入', 'エネルギー価格高騰', '令和8年度'],
+    eligibility: '新潟市内に事業所を有する中小企業者で、市内事業所にLED照明器具を設置し、市内事業者へ交換工事を発注するなど公式要件を満たす事業者が対象です。',
+    applicationPeriod: '第2回は2026年7月1日から2026年7月31日必着まで（先着順）',
+    deadlineDate: '2026-07-31',
+    description: '新潟市が、エネルギー価格高騰の影響を受ける市内中小企業者に対し、消費電力と電気料金の削減を図るため、LED照明の導入費用の一部を補助する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>新潟市LED照明導入促進補助金は、エネルギー価格高騰の影響を受ける市内中小企業者を対象に、消費電力を抑え電気料金の削減を図るため、LED照明の導入費用を支援する制度です。</p>' },
+      { heading: '補助対象と補助額', content: '<p>補助対象経費は、LED照明の導入に係る設備費および工事費です。既設のLED照明以外の照明器具を工事によりLED照明器具へ交換し、市内の事業所に設置する必要があります。補助率は3分の1以内、限度額は100万円です。</p>' },
+      { heading: '申請の注意点', content: '<p>第2回の申請受付期間は2026年7月1日から7月31日必着までです。先着順で受け付け、申請額が予算枠に到達した時点で予告なく受付終了します。交換工事は市内の事業者へ発注する必要があり、器具を交換せずLED管のみを交換する場合は対象外です。</p>' }
+    ],
+    officialUrl: 'https://www.city.niigata.lg.jp/business/kigyo/shienseido_setsubi/LED_hojo.html',
+    sourceName: '新潟市 LED照明導入促進補助金',
+    sourceUrls: [
+      'https://www.city.niigata.lg.jp/business/kigyo/shienseido_setsubi/LED_hojo.html',
+      'https://www.city.niigata.lg.jp/business/shoko/chusyo_shien/7koujyou.html',
+      'https://www.city.niigata.lg.jp/business/kigyo/shienseido_setsubi/LED_hojo.files/chirasi.pdf',
+      'https://www.city.niigata.lg.jp/business/kigyo/shienseido_setsubi/LED_hojo.files/LEDyouryou11.pdf',
+      'https://www.city.niigata.lg.jp/business/kigyo/shienseido_setsubi/LED_hojo.files/LEDQA8.pdf'
+    ],
+    sourceNote: '新潟市公式ページで、LED照明導入促進補助金を確認。公式ページの最終更新日は2026年6月24日、HTTPSで200応答しLast-Modifiedは2026年6月26日であることを確認。制度は、エネルギー価格高騰の影響を受ける市内中小企業者に対し、消費電力を抑え電気料金の削減を図るため、LED照明の導入にかかる費用の一部を補助するものであることを確認。公式ページ上で補助率3分の1以内、限度額100万円であることを確認。予算に対する補助金申請総額の割合は2026年5月末現在で概算34.3％であり、第2回申請受付を行う旨を確認。申請受付期間は、第1回が2026年5月1日から2026年5月29日必着、第2回が2026年7月1日から2026年7月31日必着で、先着順で受け付け、申請額が予算枠に到達した時点で予告なく受付終了することを確認。対象事業者は新潟市内に事業所を有する中小企業者であることを確認。補助対象経費はLED照明の導入に係る設備費および工事費で、LED照明器具を取得して市内の事業所に設置すること、既設のLED照明以外の照明器具を工事によりLED照明器具に交換すること、交換工事は市内の事業者に発注することを確認。国、県、市、その他地方公共団体、産業支援機関から補助金や助成金などの交付を受けようとする事業ではないことが要件であることを確認。住宅は賃貸業の共用部であっても対象外である一方、マンション等に併設されるテナント店舗等で事業の用に供している場合は対象となることを確認。器具を交換せずLED管のみを交換する場合は対象外であることを確認。申請の流れは交付申請、交付決定通知、設備導入、実績報告、補助金確定通知、補助金交付であり、LED照明器具や工事の発注および工事は交付申請後に可能だが、交付は審査の上で決定されることを確認。申請書の受付は郵送のみで、新潟市LED照明導入促進補助金事務局宛に提出することを確認。中小企業支援一覧ページにも、LED照明導入促進補助金として補助率3分の1以内、上限額100万円、対象経費はLED照明導入に係る設備費および工事費、申請受付期間は令和8年5月上旬から7月下旬と掲載されていることを確認。チラシ、募集要領、交付要綱、Q&A、交付申請書、提出書類チェックリストの公開も確認。新規公式確認済み制度として追加。',
+    verifiedAt,
+    publishedAt: '2026-06-28',
+  },
 ];
