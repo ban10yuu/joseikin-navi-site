@@ -26531,4 +26531,33 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt: '2026-06-29',
     publishedAt: '2026-06-29',
   },
+  {
+    slug: 'onna-school-sports-facility-fee-reduction-2026',
+    title: '恩納村 学校施設・体育施設使用料減免',
+    organization: '恩納村',
+    type: 'local',
+    maxAmount: '学校施設・体育施設の使用料を減免',
+    maxAmountNum: 0,
+    category: 'education',
+    relatedCategories: ['living'],
+    prefecture: '沖縄県',
+    tags: ['恩納村', '沖縄県', '学校施設', '体育施設', '使用料減免', 'スポーツ', 'レクリエーション', '社会教育課'],
+    eligibility: '教育委員会に登録された、村内在住者または村内在勤者が過半数を占める5名以上の団体が対象として案内されています。',
+    applicationPeriod: '詳細は恩納村社会教育課へ確認',
+    description: '恩納村が、村内在住者や村内在勤者のスポーツ・レクリエーション普及推進のため、学校施設や村内体育施設の使用料を減免する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>恩納村学校施設・体育施設使用料減免は、村内在住者や村内在勤者によるスポーツ・レクリエーション活動を支援するため、学校施設や体育施設の使用料を減免する制度です。</p>' },
+      { heading: '対象団体', content: '<p>公式一覧では、教育委員会に登録された、村内在住者または村内在勤者が過半数を占める5名以上の団体が対象として案内されています。</p>' },
+      { heading: '対象施設と手続き', content: '<p>対象施設は、村内小中学校のグラウンド・運動場などの学校施設や、陸上競技場などの村内体育施設です。学校施設を借用申請する際の使用許可申請書も公式ページで案内されています。</p>' }
+    ],
+    officialUrl: 'https://www.vill.onna.okinawa.jp/sp/organize/section/teijuu/1747735705/',
+    sourceName: '恩納村 恩納村各種支援事業一覧',
+    sourceUrls: [
+      'https://www.vill.onna.okinawa.jp/sp/organize/section/teijuu/1747735705/',
+      'https://www.vill.onna.okinawa.jp/living/education/1484707822/1724897065/'
+    ],
+    sourceNote: '恩納村公式ページ「恩納村各種支援事業一覧」で、学校施設・体育施設使用料減免を確認。公式ページはHEADではcontent-lengthが1となる特殊応答だったため、GET本文で制度内容を確認。公式一覧のDATA no.80に、学校施設・体育施設使用料減免として掲載されていることを確認。制度は、村内在住者及び村内在勤者のスポーツ・レクリエーション普及推進のため、教育委員会に登録された、村内在住者又は村内在勤者が過半数を占める5名以上の団体が村内小中学校のグラウンド・運動場などの学校施設や、陸上競技場などの村内体育施設を利用する場合に、施設使用料を減免するものと確認。事業区分は単独事業で、担当は社会教育課であることを確認。恩納村公式の学校施設使用許可申請書ページで、学校施設を借用申請する際の様式が公開され、学校体育施設利用の留意点PDFへのリンクも掲載されていることを確認。減免額は公式一覧に明示されていないため、金額は推測せずmaxAmountNumは0として新規公式確認済み制度に追加。',
+    verifiedAt: '2026-06-29',
+    publishedAt: '2026-06-29',
+  },
 ];
