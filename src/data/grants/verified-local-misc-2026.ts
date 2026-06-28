@@ -24565,4 +24565,34 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt: '2026-06-28',
     publishedAt: '2026-06-28',
   },
+  {
+    slug: 'tomigusuku-english-exam-fee-support-2026',
+    title: '豊見城市 英語検定試験等補助',
+    organization: '豊見城市',
+    type: 'local',
+    maxAmount: '英語検定等の受験料を全額補助',
+    maxAmountNum: 0,
+    category: 'education',
+    relatedCategories: ['childcare'],
+    prefecture: '沖縄県',
+    tags: ['豊見城市', '沖縄県', '中学生', '英語検定', '英検', 'TOEIC', '受験料補助', '令和8年度'],
+    eligibility: '豊見城市立中学校に在籍または市内に住所を有する中学生が対象です。中学3年生は対象検定の受験者、中学1・2年生は英検3級以上など公式要件を満たす場合に対象です。',
+    applicationPeriod: '令和8年度の対象検定は2026年4月1日から2027年3月31日まで。市立中学校以外で受検する場合の申請期限は2027年3月31日',
+    description: '豊見城市教育委員会が、生徒の英語力向上を目的に、中学生を対象として英語検定試験等の受験料を全額補助する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>豊見城市英語検定試験等補助は、生徒の英語力向上を図るため、中学生を対象に英語検定試験等の受験料を全額補助する制度です。令和8年度は2026年4月1日から2027年3月31日までの各種英語検定が対象です。</p>' },
+      { heading: '対象者と対象検定', content: '<p>対象は、豊見城市立中学校に在籍または市内に住所を有する中学生です。中学3年生のほか、中学1・2年生は英検3級以上を受検し1つ下の等級を取得している場合、TOEIC L&Rでスコア120点以上、TOEIC S&Wでスコア80点以上を取得している場合などが対象です。対象検定は実用英語技能検定、TOEIC Listening & Reading Test、Speaking & Writing Testなどです。</p>' },
+      { heading: '補助額と申請方法', content: '<p>補助金額は受験料の全額で、同一年度につき1回までです。市立中学校で団体受検する生徒は学校が申請手続きを行います。市立中学校以外で受検する生徒は、申請書兼請求書などを豊見城市教育委員会教育指導課へ2027年3月31日までに提出します。</p>' }
+    ],
+    officialUrl: 'https://www.city.tomigusuku.lg.jp/soshiki/8/1036/gyoumuannnai/7/8652.html',
+    sourceName: '豊見城市 令和8年度 英語検定試験等補助の実施について',
+    sourceUrls: [
+      'https://www.city.tomigusuku.lg.jp/soshiki/8/1036/gyoumuannnai/7/8652.html',
+      'https://www.city.tomigusuku.lg.jp/material/files/group/49/eikentouyoukouR8.pdf',
+      'https://www.city.tomigusuku.lg.jp/material/files/group/49/shinseisyoseikyusyo3.pdf'
+    ],
+    sourceNote: '豊見城市公式ページで、令和8年度豊見城市英語検定試験等補助を確認。公式ページはHTTPSで200応答し、Last-Modifiedは2026年6月24日であることを確認。令和8年度豊見城市英語検定試験等補助金交付要項PDFはHTTPSで200応答し、Last-Modifiedは2026年3月31日であること、申請書兼請求書PDFはHTTPSで200応答し、Last-Modifiedは2025年6月19日であることを確認。制度は、豊見城市教育委員会が生徒の英語力向上を目的に、中学生を対象とした英語検定試験等受験料の全額補助を行うものであることを確認。対象者は、市立中学校に在籍または市内に住所を有する中学3年生、市立中学校に在籍または市内に住所を有する中学1・2年生で、英検は3級以上を受検し受検等級の1つ下の等級を取得している者、TOEIC L&Rはスコア120点以上を取得している者、TOEIC S&Wはスコア80点以上を取得している者であることを確認。対象検定は、2026年4月1日から2027年3月31日までの実用英語技能検定1級から5級、TOEIC Listening & Reading TestおよびSpeaking & Writing Test、その他CEFRを基準とし英検3級以上と同程度以上の検定と認められるものを確認。補助金額は受験料の全額で、補助金交付を受けられる回数は同一年度につき1回であり、受験料に一部免除がある場合は免除後の受験料を補助することを確認。市立中学校で団体受検する生徒は学校が申請手続きを行い、市立中学校以外で受検する生徒は申請書兼請求書に必要書類を添えて2027年3月31日までに豊見城市教育委員会教育指導課へ申請することを確認。申請に必要なものは、必要に応じて検定結果通知書の写し、各種検定受験料に係る領収書等、申請書兼請求書で、各検定・各級ごとに申請書提出が必要であり、合否にかかわらず申請できることを確認。新規公式確認済み制度として追加。',
+    verifiedAt: '2026-06-29',
+    publishedAt: '2026-06-29',
+  },
 ];
