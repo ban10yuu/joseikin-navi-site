@@ -27289,4 +27289,34 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt: '2026-06-30',
     publishedAt: '2026-06-30',
   },
+  {
+    slug: 'yomitan-landscape-district-subsidy-2026',
+    title: '読谷村 景観地区助成金',
+    organization: '読谷村',
+    type: 'local',
+    maxAmount: '赤瓦設置等工事は上限200万円',
+    maxAmountNum: 2000000,
+    category: 'housing',
+    relatedCategories: ['living'],
+    prefecture: '沖縄県',
+    tags: ['読谷村', '沖縄県', '景観地区', '赤瓦', '石垣', '生垣', '外壁塗装', '住宅改修'],
+    eligibility: '読谷村景観地区条例の適用区域内にある建築物の所有者またはこれに準ずる方で、村民税、固定資産税、軽自動車税、国民健康保険税の滞納がなく、同じ工事について国・県・村の他の同様の補助を受けていない方が対象です。',
+    applicationPeriod: '各年度4月から11月まで。景観法第63条第2項の認定証交付後、工事着工前日までに申請',
+    description: '読谷村が、座喜味城跡地区景観地区とヤチムンの里地区景観地区で、赤瓦葺き、石垣・生垣の設置、外壁塗装にかかる工事費等の一部を助成する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>読谷村景観地区助成金は、景観地区内における良好な景観形成を推進するため、赤瓦葺き、石垣・生垣の設置、外壁塗装にかかる工事費等の一部を助成する制度です。対象区域はヤチムンの里地区景観地区と座喜味城跡地区景観地区です。</p>' },
+      { heading: '助成額', content: '<p>赤瓦設置等工事は工事費の2分の1以内で上限200万円、石垣設置等工事は2分の1以内で上限50万円、生垣設置工事は2分の1以内で上限20万円、外壁塗装工事は2分の1以内で上限50万円です。助成額は千円単位で、千円未満は切り捨てです。</p>' },
+      { heading: '申請条件', content: '<p>対象者は、景観地区条例の適用区域内にある建築物の所有者またはこれに準ずる方で、村税等の滞納がなく、同一工事について他の同様な補助を受けていない方です。申請は、景観法第63条第2項の認定証交付後、工事着工前日までに行います。</p>' }
+    ],
+    officialUrl: 'https://www.vill.yomitan.okinawa.jp/soshiki/toshi_keikaku/gyomu/kaihatsu_kenchiku/keikankeikaku/3321.html',
+    sourceName: '読谷村 景観地区における助成金について',
+    sourceUrls: [
+      'https://www.vill.yomitan.okinawa.jp/soshiki/toshi_keikaku/gyomu/kaihatsu_kenchiku/keikankeikaku/3321.html',
+      'https://www.vill.yomitan.okinawa.jp/material/files/group/84/keikanchikujyoseikinnoosirase.pdf',
+      'https://www.vill.yomitan.okinawa.jp/material/files/group/84/keikantikujyoseikinnosinseitetudukinituite.pdf'
+    ],
+    sourceNote: '読谷村公式ページで、景観地区における助成金を確認。公式ページはHTTPSで200応答し、Last-Modifiedは2026年5月13日であることを確認。ページ更新日は2024年4月25日で、外壁塗装工事も助成対象になったことを確認。制度は、景観地区内の良好な景観形成を推進するため、赤瓦葺きや石垣・生垣の設置、外壁塗装にかかる工事費等の一部を助成するものであることを確認。景観地区助成金のお知らせPDFはHTTPSで200応答し、Last-Modifiedは2025年10月21日であることを確認。PDFで対象区域がヤチムンの里地区景観地区、座喜味城跡地区景観地区であることを確認。助成額は、赤瓦設置等工事が2分の1以内で上限200万円、石垣設置等工事が2分の1以内で上限50万円、生垣設置工事が2分の1以内で上限20万円、外壁塗装工事が2分の1以内で上限50万円で、千円未満切り捨てであることを確認。申請手続きPDFもHTTPSで200応答し、Last-Modifiedは2025年10月21日であることを確認。対象者は景観地区条例第3条の適用区域内にある建築物の所有者またはこれに準ずる方で、村民税、固定資産税、軽自動車税、国民健康保険税の滞納がなく、同工事で国・県・村の他の同様の補助を受けていない方であることを確認。申請期間は各年度4月から11月までで、景観法第63条第2項の認定証交付後、工事着工前日までに申請することを確認。新規公式確認済み制度として追加。',
+    verifiedAt: '2026-06-30',
+    publishedAt: '2026-06-30',
+  },
 ];
