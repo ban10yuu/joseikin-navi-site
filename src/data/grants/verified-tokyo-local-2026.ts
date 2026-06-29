@@ -1610,9 +1610,9 @@ export const verifiedTokyoLocalGrants2026: Grant[] = [
     sourceUrls: [
       'https://www.city.minato.tokyo.jp/kyouikushomu/kaigairyuugakusiennzigyou.html',
       'https://www.city.minato.tokyo.jp/gakkouuneishien/kodomo/gakko/syougaku/',
-      'https://www.city.minato.tokyo.jp/kyouikushomu/kaigaigakkoutaikennzigixyou/kaigaigakkoutaikennzixyugixyouibenntobann.html'
+      'https://www.city.minato.tokyo.jp/kyouikushomu/ryugakutaikenprogram.html'
     ],
-    sourceNote: '港区公式で海外留学支援事業、奨学金情報、海外学校体験事業を確認したが、海外留学専用奨学金は確認できず、掲載停止日を期限切れ判定に使用。',
+    sourceNote: '港区公式で海外留学支援事業、奨学金情報、海外学校体験事業を確認したが、海外留学専用奨学金は確認できず、掲載停止日を期限切れ判定に使用。旧イベントURLが404となったため、現行の海外学校体験事業ページへ参照先を更新。',
     verifiedAt,
     publishedAt: '2026-06-26',
   },
