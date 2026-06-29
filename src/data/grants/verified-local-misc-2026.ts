@@ -24886,6 +24886,35 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-29',
   },
   {
+    slug: 'kin-family-caregiver-consolation-grant-2026',
+    title: '金武町 家族介護慰労金支給事業',
+    organization: '金武町',
+    type: 'local',
+    maxAmount: '年額10万円',
+    maxAmountNum: 100000,
+    category: 'nursing',
+    relatedCategories: ['living', 'medical'],
+    prefecture: '沖縄県',
+    tags: ['金武町', '沖縄県', '家族介護慰労金', '在宅介護', '要介護4', '要介護5', '非課税世帯', '高齢者福祉'],
+    eligibility: '金武町で、要介護4または5の高齢者を1年以上在宅で介護している家族が対象です。公式ページでは、対象は非課税世帯と案内されています。',
+    applicationPeriod: '詳細は金武町保健福祉課へ確認',
+    description: '金武町が、要介護4または5の高齢者を1年以上在宅で介護している家族に対し、年額10万円の慰労金を助成する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>金武町家族介護慰労金支給事業は、要介護4または5の高齢者を在宅で介護している家族に対し、慰労金を助成する高齢者福祉サービスです。</p>' },
+      { heading: '対象者', content: '<p>公式ページでは、要介護4または5の高齢者を1年以上在宅で介護している家族が対象と案内されています。対象は、要介護4または5の方を在宅で介護している方で非課税世帯です。</p>' },
+      { heading: '支給内容', content: '<p>支給額は年額100,000円です。公式ページでは、詳細は金武町家族介護慰労金支給事業実施要綱を参照するよう案内されています。</p>' },
+      { heading: '確認先', content: '<p>申請書様式は公式ページで公開されています。申請要件、必要書類、支給時期、要綱の詳細は金武町保健福祉課へ確認してください。</p>' }
+    ],
+    officialUrl: 'https://www.town.kin.okinawa.jp/soshiki/hokenfukushika/kourei/koureisyafukushisa-bisu/1961.html',
+    sourceName: '金武町 家族介護慰労金支給事業',
+    sourceUrls: [
+      'https://www.town.kin.okinawa.jp/soshiki/hokenfukushika/kourei/koureisyafukushisa-bisu/1961.html'
+    ],
+    sourceNote: '金武町公式ページで、家族介護慰労金支給事業を確認。公式ページはHTTPSで200応答し、Last-Modifiedは2026年6月15日であることを確認。ページ更新日は2026年6月15日であることを確認。制度は、要介護4または5の高齢者を1年以上在宅で介護している家族に対し、慰労金を助成するものであることを確認。支給額は年額100,000円であることを確認。対象は、要介護4または5の方を在宅で介護している方で非課税世帯であることを確認。公式ページで、詳細は金武町家族介護慰労金支給事業実施要綱参照と案内され、様式第1号家族介護申請書PDFが公開されていることを確認。新規公式確認済み制度として追加。',
+    verifiedAt: '2026-06-29',
+    publishedAt: '2026-06-29',
+  },
+  {
     slug: 'higashi-uij-scholarship-repayment-support-2026',
     title: '東村 UIJターン奨学金償還支援事業補助金',
     organization: '東村',
