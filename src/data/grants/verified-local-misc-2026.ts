@@ -27319,4 +27319,34 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt: '2026-06-30',
     publishedAt: '2026-06-30',
   },
+  {
+    slug: 'yomitan-residential-solar-system-subsidy-2026',
+    title: '読谷村 住宅用太陽光発電システム設置事業補助金',
+    organization: '読谷村',
+    type: 'local',
+    maxAmount: '1件あたり3万円',
+    maxAmountNum: 30000,
+    category: 'housing',
+    relatedCategories: ['living'],
+    prefecture: '沖縄県',
+    tags: ['読谷村', '沖縄県', '住宅用太陽光発電', '太陽光発電システム', '再生可能エネルギー', '省エネルギー', '環境保全', '令和8年度'],
+    eligibility: '読谷村に在住し税の滞納がない方、またはこれから読谷村に住む予定で住宅を購入・新築する方で税の滞納がない方が対象です。村からの情報提供依頼に協力できることも要件です。',
+    applicationPeriod: '先着5世帯。申請書に添付書類を添えて生活環境課へ持参',
+    description: '読谷村が、温室効果ガスの削減と省エネルギー・環境保全意識の啓発を目的として、住宅用太陽光発電システムの設置に補助金を交付する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>読谷村住宅用太陽光発電システム設置事業補助金は、温室効果ガスの削減と省エネルギー・環境保全意識の啓発を目的として、住宅用太陽光発電システムの設置を支援する制度です。</p>' },
+      { heading: '補助対象', content: '<p>対象者は、読谷村に在住し税の滞納がない方、またはこれから読谷村に住む予定で住宅を購入・新築する方で税の滞納がない方です。村からの情報提供依頼に協力できることも要件です。対象システムは未使用品でリース契約ではなく、10kW未満のシステムです。</p>' },
+      { heading: '補助額と申請', content: '<p>補助金額は1件あたり3万円で、補助世帯数は5世帯です。申請書に添付書類を添えて、役場1階の生活環境課へ持参します。郵送による申請は受け付けていません。</p>' }
+    ],
+    officialUrl: 'https://www.vill.yomitan.okinawa.jp/soshiki/seikatsukankyo/gyomu/sumai/1229.html',
+    sourceName: '読谷村 住宅用太陽光発電システム設置事業補助金について',
+    sourceUrls: [
+      'https://www.vill.yomitan.okinawa.jp/soshiki/seikatsukankyo/gyomu/sumai/1229.html',
+      'https://www.vill.yomitan.okinawa.jp/material/files/group/71/solar1.rtf',
+      'https://www.vill.yomitan.okinawa.jp/material/files/group/71/solar7.rtf'
+    ],
+    sourceNote: '読谷村公式ページで、住宅用太陽光発電システム設置事業補助金を確認。公式ページはHTTPSで200応答し、Last-Modifiedは2026年5月13日であることを確認。ページ更新日は2026年4月20日であることを確認。制度は、地球温暖化の原因となる温室効果ガスを削減するとともに、省エネルギーや環境保全に対する意識の啓発を図るため補助金を交付するものであることを確認。補助対象者は、読谷村に在住し税の滞納がない方、これから読谷村に住む予定で住宅を購入・新築する方で税の滞納がない方、村からの情報提供依頼に協力できる方であることを確認。対象システムは未使用品でリース契約でないこと、10kW未満のシステムであることを確認。補助金額は1件あたり3万円、補助世帯数は5世帯であることを確認。申請方法は申請書に添付書類を添え、役場1階生活環境課まで持参する方式で、郵送による申請は受け付けていないことを確認。申請書RTF、実績報告書RTF、請求書RTFが公式ページで案内されていることを確認。新規公式確認済み制度として追加。',
+    verifiedAt: '2026-06-30',
+    publishedAt: '2026-06-30',
+  },
 ];
