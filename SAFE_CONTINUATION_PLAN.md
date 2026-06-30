@@ -656,3 +656,25 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,614 件生成。
 - `npm run audit:deadlines`: failures 0。`saitama-vacant-house` は期限切れ扱いで通常一覧から除外。
 - `npm run audit:links`: 初回は既存の秋田県URL `https://www.pref.akita.lg.jp/pages/archive/94314` が一過性timeout。再実行で broken 0。
+
+## 2026-07-01 千葉Batch 12 追加ログ
+
+千葉県の未公式確認slugから、柏市の保育料きょうだい軽減、柏市要介護高齢者等住宅改造費補助、船橋市親世帯・子育て世帯近居同居支援、松戸市放課後児童クラブ利用料減免、松戸市成人歯科健康診査5件を `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データの「第2子以降無料」「介護保険とは別枠で最大20万円」「近居同居最大50万円」「多子世帯第2子半額」「20歳以上」などの表現を、公式ページで確認できる制度名・対象・金額へ補正した。
+
+追加:
+
+- `kashiwa-childcare-subsidy`: 柏市「保育料のきょうだい軽減（多子軽減）」。生計を一にする世帯で2人以上の子どもがいる場合、世帯所得や第1子の年齢にかかわらず、第2子は半額、第3子以降は無料。旧生成データの第2子以降無料を補正。
+- `kashiwa-nursing-home-reform`: 柏市「要介護高齢者等住宅改造費補助制度」。要支援・要介護認定者の住宅改造費を支援。補助対象経費上限36万円、課税世帯は3分の1、均等割のみ課税・非課税世帯は90%、最大32万4,000円。
+- `funabashi-housing-purchase`: 船橋市「令和8年度親世帯・子育て世帯近居同居支援事業」。親世帯と子育て世帯の近居・同居のための住宅取得支援。助成額は10万円。旧生成データの最大50万円を補正。
+- `matsudo-afterschool-care`: 松戸市「放課後児童クラブ」。利用料は月額9,000円、2026年10月から10,000円。就学援助認定世帯・生活保護世帯は申請により減免。旧生成データの多子世帯第2子半額等は公式本文で確認できないため補正。
+- `matsudo-dental-checkup`: 松戸市「成人歯科健康診査」。令和9年3月31日時点で18歳以上の松戸市民が対象、費用無料、委託医療機関へ電話申込み。旧生成データの20歳以上を補正。
+
+確認:
+
+- 新規公式URL/PDF 8件は到達確認済み。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0
+- `npm run audit:coverage`: failures 0。公式確認済み active は1,391件から1,396件へ増加。千葉県ローカル公式確認済みは85件。
+- `npm run lint`: エラー0、既知警告5件
+- `npm run build`: 成功。静的ページ 3,625 件生成。
+- `npm run audit:deadlines`: failures 0
+- `npm run audit:links`: 初回は既存の神崎町URL群が一過性503。再実行で broken 0。
