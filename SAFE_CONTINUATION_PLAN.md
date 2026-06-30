@@ -38,9 +38,9 @@
   - rawDefinitionsAfterDedupe: 5,091
   - activePublished: 4,995
   - expired: 96
-  - officialLinkedActive: 1,320
-  - manuallyVerifiedActive: 1,320
-  - activeWithoutOfficialSource: 3,675
+  - officialLinkedActive: 1,356
+  - manuallyVerifiedActive: 1,356
+  - activeWithoutOfficialSource: 3,639
   - officialLinkedButNotManuallyVerified: 0
   - prefectureCoverage: 47/47 都道府県で公式リンクあり・手動確認済みあり
   - activeExpiredLeaks: 0
@@ -49,9 +49,10 @@
 
 既存の未コミット差分があるため、今後も不用意に巻き戻さない。
 
-- ステージ済み:
+- 今回の助成金データ継続で触るファイル:
+  - `SAFE_CONTINUATION_PLAN.md`
+  - `tasks/todo.md`
   - `src/data/grants/verified-local-misc-2026.ts`
-  - 追加内容: 鹿児島県「かごしまの稼ぐ力」、鹿児島市「プレミアム付商品券」、沖縄県「稼ぐ海外展開モデル」の3件。
 - 未ステージ:
   - `package.json`
   - `src/app/sitemap.ts`
@@ -396,4 +397,25 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run audit:deadlines`: failures 0
 - `npm run lint`: エラー0、既知警告5件
 - `npm run build`: 成功。静的ページ 3,539 件生成。
+- `npm run audit:links`: broken 0
+
+## 2026-07-01 千葉Batch 8 追加ログ
+
+千葉県の未公式確認slugから、雨水貯留・雨水浸透・在宅介護用品系4件を公式一次情報に基づき `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データの制度名・上限額・対象条件にずれがあったため、現行公式制度へ補正した。
+
+追加:
+
+- `matsudo-rainwater-tank`: 松戸市「雨どい取付型雨水貯留タンク設置事業補助金」。100L以上300L未満は上限2万円、300L以上は上限3万円。交付決定前の購入・設置は対象外。
+- `ichikawa-rainwater-tank`: 市川市「雨水浸透施設設置等助成金」。雨どい取付型タンクは上限2.5万円、浄化槽転用型は上限8万円、浸透施設は規格別単価。新築や条例義務設置は対象外。
+- `ichikawa-home-care`: 市川市「紙おむつの給付」。要介護3から5で在宅介護、本人市民税非課税などの要件を満たす方へ、月額6,000円以内の紙おむつを自己負担なしで毎月配達。
+- `matsudo-home-care`: 松戸市「介護用品（紙おむつ等）の支給」。要介護3は月1組、要介護4・5は世帯課税状況により月1組または月2組、費用無料。旧生成データの月額1万円手当表記を公式制度へ補正。
+
+確認:
+
+- 4件すべて現行公式URLを直接確認し、公式ページの制度名・対象・金額・申請条件を反映。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0
+- `npm run audit:coverage`: failures 0。公式確認済み active は1,352件から1,356件へ増加。千葉県ローカル公式確認済みは75件。
+- `npm run audit:deadlines`: failures 0
+- `npm run lint`: エラー0、既知警告5件
+- `npm run build`: 成功。静的ページ 3,548 件生成。
 - `npm run audit:links`: broken 0
