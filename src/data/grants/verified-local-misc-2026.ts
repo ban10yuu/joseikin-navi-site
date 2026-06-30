@@ -28465,4 +28465,37 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt: '2026-06-30',
     publishedAt: '2026-06-30',
   },
+  {
+    slug: 'toyama-price-pass-through-support-subsidy-2026',
+    title: '富山県 価格転嫁サポート補助金',
+    organization: '富山県',
+    type: 'local',
+    maxAmount: '補助対象経費の2分の1以内、上限50万円',
+    maxAmountNum: 500000,
+    category: 'employment',
+    relatedCategories: ['living'],
+    prefecture: '富山県',
+    tags: ['富山県', '価格転嫁', '経営改善', 'コンサルティング', '価格交渉', '利益拡大', '中小企業', '小規模事業者', '令和8年度'],
+    eligibility: '富山県内に事業所を有する中小企業・小規模事業者が対象です。個人事業主も対象で、申請には県内金融機関の価格転嫁推進サポーター又は中小企業支援実施機関の経営指導員等からの推薦が必要です。',
+    applicationPeriod: '2026年4月1日から2026年11月30日まで。予算上限額に達し次第終了',
+    deadlineDate: '2026-11-30',
+    description: '富山県が、価格転嫁による経営改善に向けて、中小企業・小規模事業者が取り組む課題解決に要するコンサルティング費用を支援する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>富山県価格転嫁サポート補助金は、価格転嫁による経営改善に向けて、中小企業・小規模事業者が取り組む課題解決に要する経費を支援する制度です。中東情勢の影響を受ける事業者の価格転嫁を促進するため、2026年6月1日から補助上限が50万円に引き上げられています。</p>' },
+      { heading: '対象者と対象経費', content: '<p>対象者は、富山県内に事業所を有する中小企業・小規模事業者です。個人事業主も対象です。申請にあたっては、県内金融機関の価格転嫁推進サポーター又は中小企業支援実施機関の経営指導員等から推薦を受ける必要があります。補助対象経費は、価格転嫁を含む経営改善を目的とするコンサルティング費用です。</p>' },
+      { heading: '補助額と募集期間', content: '<p>補助率は補助対象経費の2分の1以内で、補助上限は50万円です。募集期間は2026年4月1日から2026年11月30日までで、事業実施期間は交付決定日から2027年1月29日までです。予算上限額に達し次第、受付終了となります。</p>' }
+    ],
+    officialUrl: 'https://www.pref.toyama.jp/1300/sangyou/shoukoukensetsu/shoukougyou/kakakutenka_support_hojokin_2026.html',
+    sourceName: '富山県 令和8年度「価格転嫁サポート補助金」の募集について',
+    sourceUrls: [
+      'https://www.pref.toyama.jp/1300/sangyou/shoukoukensetsu/shoukougyou/kakakutenka_support_hojokin_2026.html',
+      'https://www.pref.toyama.jp/documents/53958/00_koufuyoukou.pdf',
+      'https://www.pref.toyama.jp/documents/53958/kakakutenka-support.pdf',
+      'https://www.pref.toyama.jp/documents/53958/01_koufushinseisho.docx',
+      'https://www.pref.toyama.jp/documents/53958/01-4_suisensho.docx'
+    ],
+    sourceNote: '富山県公式ページで、令和8年度価格転嫁サポート補助金の募集を確認。公式ページはHTTPSで200応答し、Last-Modifiedは2026年6月30日であることを確認。制度は、価格転嫁による経営改善に向けて、中小企業・小規模事業者が取り組む課題解決に要する経費を支援するものであることを確認。中東情勢の影響を受ける事業者の価格転嫁を促進するため、2026年6月1日から補助上限を25万円から50万円に引き上げたことを確認。補助対象者は、富山県内に事業所を有する中小企業・小規模事業者で、個人事業主も対象であることを確認。申請にあたっては、県内金融機関の価格転嫁推進サポーター又は中小企業支援実施機関の経営指導員等から推薦を受ける必要があることを確認。補助対象経費は、価格転嫁を含む経営改善を目的とするコンサルティング費用で、価格交渉方法のアドバイスや価格転嫁による利益拡大の戦略策定支援などが例示されていることを確認。補助率は補助対象経費の2分の1以内、補助上限は50万円であることを確認。募集期間は2026年4月1日から11月30日まで、事業実施期間は交付決定日から2027年1月29日までで、予算上限額に達し次第受付終了することを確認。交付要綱PDF、募集チラシPDF、交付申請書DOCX、推薦書DOCXはいずれもHTTPSで200応答することを確認。新規公式確認済み制度として追加。',
+    verifiedAt: '2026-06-30',
+    publishedAt: '2026-06-30',
+  },
 ];
