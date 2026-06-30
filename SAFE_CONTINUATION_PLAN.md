@@ -376,3 +376,24 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run lint`: エラー0、既知警告5件
 - `npm run build`: 成功。静的ページ 3,532 件生成。
 - `npm run audit:links`: broken 0
+
+## 2026-07-01 千葉Batch 7 追加ログ
+
+千葉県の未公式確認slugから、学校給食費・在宅介護・高齢者緊急通報系4件を公式一次情報に基づき `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データの対象範囲や金額が公式とずれていたため、現行公式制度名・条件へ補正した。
+
+追加:
+
+- `kashiwa-school-lunch`: 柏市「第3子以降の学校給食費の無償化」。令和8年度は市立小学校給食費が完全無償化、市立中学校は扶養している子どものうち第3子以降が対象。年度当初入力期間は2026年5月1日から5月17日まで。
+- `noda-nursing-equipment`: 野田市「介護用品支給事業」。旧生成データの年間6万円相当・要介護4/5中心表記を、公式の毎月4,700円相当分のおむつ配送、要介護/要支援認定とおむつ使用等の詳細要件へ補正。
+- `noda-elderly-support`: 野田市「緊急通報システム」。旧生成データの一般的な見守り支援表記を、消防本部に直結する緊急通報システム、利用料無料、電話回線使用料は自己負担、対象要件ありへ補正。
+- `narita-school-lunch`: 成田市「学校給食費無料化」。旧生成データの学校給食費補助制度を、2026年4月から市立小中義務教育学校の給食費すべて無料、保護者申請不要へ補正。
+
+確認:
+
+- 4件すべて現行公式URLを直接確認し、HTTP 200を確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0
+- `npm run audit:coverage`: failures 0。公式確認済み active は1,348件から1,352件へ増加。千葉県ローカル公式確認済みは71件。
+- `npm run audit:deadlines`: failures 0
+- `npm run lint`: エラー0、既知警告5件
+- `npm run build`: 成功。静的ページ 3,539 件生成。
+- `npm run audit:links`: broken 0
