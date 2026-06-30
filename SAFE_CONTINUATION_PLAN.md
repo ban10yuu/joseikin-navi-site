@@ -36,11 +36,11 @@
 - `src/lib/grants.ts` は公式確認済みデータを旧生成データより前に読み込み、slug重複時に先勝ちdedupeする。旧生成データは削らず、公式確認済みデータで置換する運用。
 - `npm run audit:coverage` は成功。2026-07-01時点の結果:
   - rawDefinitionsAfterDedupe: 5,091
-  - activePublished: 4,995
-  - expired: 96
-  - officialLinkedActive: 1,356
-  - manuallyVerifiedActive: 1,356
-  - activeWithoutOfficialSource: 3,639
+  - activePublished: 4,994
+  - expired: 97
+  - officialLinkedActive: 1,358
+  - manuallyVerifiedActive: 1,358
+  - activeWithoutOfficialSource: 3,636
   - officialLinkedButNotManuallyVerified: 0
   - prefectureCoverage: 47/47 都道府県で公式リンクあり・手動確認済みあり
   - activeExpiredLeaks: 0
@@ -418,4 +418,29 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run audit:deadlines`: failures 0
 - `npm run lint`: エラー0、既知警告5件
 - `npm run build`: 成功。静的ページ 3,548 件生成。
+- `npm run audit:links`: broken 0
+
+## 2026-07-01 千葉Batch 9 追加ログ
+
+千葉県の未公式確認slugから、浦安市の保育・学校給食・高齢者紙おむつ・学童FAQ系4件を公式一次情報に基づき `src/data/grants/verified-local-misc-2026.ts` に追加した。うち1件は、公式FAQで減免制度なしと確認できたため、通常一覧から除外する抑止レコードとして追加した。
+
+追加:
+
+- `urayasu-nursery-support`: 浦安市「簡易保育所通園児補助金」。旧生成データの認可外保育施設利用者補助金・月額4万円を、公式の月額23,000円へ補正。1カ月64時間以上継続通園、住民税非課税世帯や3歳児クラス以上は対象外などを反映。
+- `urayasu-school-lunch`: 浦安市「学校給食食物アレルギー等対応給付金」。令和6年度から学校給食費無償化、令和8年度から食物アレルギー等で給食をすべて停止し弁当を持参する場合に原則学校給食費月額と同額を給付。旧生成データの第3子以降給食費補助表記を現行公式制度へ補正。
+- `urayasu-home-care`: 浦安市「紙おむつの給付（高齢者）」。旧生成データの在宅介護支援手当・月額1万円を、65歳以上で要介護3から5等を対象に注文代金6,000円以内を無料配送する公式制度へ補正。
+- `urayasu-afterschool-care`: 浦安市公式FAQで、児童育成クラブ保護者負担金の減免はないことを確認。生成データの「放課後児童クラブ利用料助成制度」は現行公式制度として確認できないため、期限切れ扱いで通常一覧から除外。
+
+補足:
+
+- 既存の `chiba-migration-support` で出力されていた `https://www.chiba-chiikishigoto.jp/useful/` は、リンク監査で繰り返しtimeoutし、個別確認でも30秒無応答だったため `src/data/grants/link-audit-suppressions.ts` に追加した。南房総市公式URLは残るため、制度の公式出典リンクは維持される。
+
+確認:
+
+- 新規公式URL・PDF 6件はすべてHTTP 200を確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/data/grants/link-audit-suppressions.ts src/lib/grants.ts`: エラー0
+- `npm run audit:coverage`: failures 0。公式確認済み active は1,356件から1,358件へ増加。千葉県ローカル公式確認済みは77件。
+- `npm run lint`: エラー0、既知警告5件
+- `npm run build`: 成功。静的ページ 3,552 件生成。
+- `npm run audit:deadlines`: failures 0。`urayasu-afterschool-care` は期限切れ扱いで詳細noindex・sitemap除外を確認。
 - `npm run audit:links`: broken 0

@@ -40,6 +40,8 @@ export const suppressedOfficialUrls = new Set<string>([
   'https://www.jka-cycle.jp/subsidy/',
   // 404: Not Found
   'https://www.joho-fukuoka.or.jp/startup/',
+  // ERR: rendered href audit found repeated timeout
+  'https://www.chiba-chiikishigoto.jp/useful/',
   // ERR: URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
   'https://www.jrw-anshin-f.or.jp/',
   // 404: Not Found
