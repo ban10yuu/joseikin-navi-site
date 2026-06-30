@@ -612,3 +612,25 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,598 件生成。
 - `npm run audit:deadlines`: failures 0
 - `npm run audit:links`: broken 0
+
+## 2026-07-01 埼玉Batch 8 追加ログ
+
+埼玉県の未公式確認slugから、越谷市の重度心身障害者医療費、就学援助、ゼロカーボン推進補助金、家庭用防災設備購入助成の公式確認不可抑止4件を `src/data/grants/verified-local-misc-2026.ts` に追加した。既存の `koshigaya-child-medical` は公式本文を再確認し、対象年齢、現物給付、対象外費用、登録期限を補強した。
+
+追加・補正:
+
+- `koshigaya-child-medical`: 既存公式確認済みレコードを補強。令和6年4月診療分から18歳年度末まで、埼玉県内医療機関では保険情報と受給資格証の提示で保険診療一部負担金の窓口支払いなし。15日以内登録、対象外費用、償還払いを反映。
+- `koshigaya-disability-medical`: 越谷市「重度心身障害者医療費支給制度」。身体障害者手帳1から3級、療育手帳マルA/A/B、精神障害者保健福祉手帳1級等が対象。所得制限、65歳以上新規取得者の対象外、現物給付と償還払いを公式範囲へ補正。
+- `koshigaya-learning-support`: 越谷市「就学援助制度」。令和8年度申請は2026年4月10日から2027年1月29日まで。5月29日までに申請し認定された場合は4月1日から対象、6月1日以降は申請月翌月から対象。画像PDFの手引きも確認。
+- `koshigaya-energy-support`: 越谷市「ゼロカーボン推進補助金（家庭用）」。太陽光発電設備1kWあたり2万円、住宅上限8万円・市内事業者契約上限10万円・マンション上限20万円、蓄電池/V2H/EV/PHEV各5万円、ZEH20万円。前期受付終了、後期は2026年10月5日受付予定。
+- `koshigaya-bousai-equipment`: 越谷市公式では感震ブレーカー啓発と埼玉県家具固定サポーター制度案内のみ確認。生成データの家庭用防災設備購入助成制度・最大2万円は現行公式補助制度として確認できないため、期限切れ扱いで通常一覧から除外。
+
+確認:
+
+- 新規・補強公式URL/PDF 13件は到達確認済み。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0
+- `npm run audit:coverage`: failures 0。公式確認済み active は1,384件から1,387件へ増加。期限切れは103件、埼玉県ローカル公式確認済みは49件。
+- `npm run lint`: エラー0、既知警告5件
+- `npm run build`: 成功。静的ページ 3,604 件生成。
+- `npm run audit:deadlines`: failures 0。`koshigaya-bousai-equipment` は期限切れ扱いで通常一覧から除外。
+- `npm run audit:links`: broken 0
