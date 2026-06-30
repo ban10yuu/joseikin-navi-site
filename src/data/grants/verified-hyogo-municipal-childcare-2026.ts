@@ -807,7 +807,6 @@ export const verifiedHyogoMunicipalChildcareGrants2026: Grant[] = [
     sourceUrls: [
       'https://www.town.mikata-kami.lg.jp/soshiki/kenko/18/155.html',
       'https://www.town.mikata-kami.lg.jp/soshiki/kenko/3/2/index.html',
-      'https://www.town.mikata-kami.lg.jp/soshiki/kenko/3/2/760.html',
       'https://www.town.mikata-kami.lg.jp/benrinaservice/formalities-potal/downloadrink/kenkotetsuduki/index.html',
     ],
     sourceName: '香美町 こども医療費助成制度【福祉医療】',
