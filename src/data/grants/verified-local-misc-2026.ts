@@ -28109,4 +28109,38 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt: '2026-06-30',
     publishedAt: '2026-06-30',
   },
+  {
+    slug: 'ehime-wage-small-business-management-support-2026',
+    title: '愛媛県 賃上げ対応型小規模事業者経営力強化支援事業費補助金',
+    organization: '愛媛県・えひめ産業振興財団',
+    type: 'local',
+    maxAmount: '地場産業コラボは上限200万円、通常枠・地場産業枠は上限100万円。補助率3分の2又は4分の3',
+    maxAmountNum: 2000000,
+    category: 'employment',
+    relatedCategories: ['living'],
+    prefecture: '愛媛県',
+    tags: ['愛媛県', '賃上げ', '小規模事業者', '経営力強化', '価格転嫁', '販路開拓', '地場産業', '令和8年度'],
+    eligibility: '愛媛県内に主たる事業所を有する小規模事業者で、暴力団又は暴力団員でないこと、県税に未納がないことなどの要件を満たす事業者が対象です。',
+    applicationPeriod: '2026年6月1日から2026年7月31日まで。予算上限に達しない場合は2次募集、3次募集を行う予定',
+    deadlineDate: '2026-07-31',
+    description: '愛媛県が、最低賃金の引上げや人材確保のため、賃上げに対応しながら価格転嫁、付加価値向上、新商品・新サービス開発、販路開拓、生産性向上等に取り組む県内小規模事業者を支援する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>愛媛県賃上げ対応型小規模事業者経営力強化支援事業費補助金は、最低賃金の引上げや人材確保のため、賃上げに対応しながら、価格転嫁、付加価値向上、新商品・新サービス開発、販路開拓、生産性向上等に取り組む県内小規模事業者を支援する制度です。</p>' },
+      { heading: '対象者と対象経費', content: '<p>対象者は、愛媛県内に主たる事業所を有する小規模事業者で、暴力団又は暴力団員でないこと、県税に未納がないことなどの要件があります。補助対象経費には、機械装置等費、開発費、借料、委託費、外注費、専門家謝金、旅費、広報費などが含まれます。</p>' },
+      { heading: '補助額と募集期間', content: '<p>通常枠は補助率3分の2、補助上限100万円です。地場産業枠は補助率4分の3、補助上限100万円です。地場産業コラボ枠は補助率4分の3、補助上限200万円です。募集期間は令和8年6月1日から令和8年7月31日までです。</p>' }
+    ],
+    officialUrl: 'https://www.pref.ehime.jp/site/madoguchi/148380.html',
+    sourceName: '愛媛県 賃上げ対応型小規模事業者経営力強化支援事業費補助金',
+    sourceUrls: [
+      'https://www.pref.ehime.jp/site/madoguchi/148380.html',
+      'https://www.ehime-iinet.or.jp/grants-posts/r8-chinage_hojo',
+      'https://www.ehime-iinet.or.jp/wp/wp-content/uploads/2026/06/chinage-chirashi.pdf',
+      'https://www.ehime-iinet.or.jp/wp/wp-content/uploads/2026/06/R8_bosyuyoko.pdf',
+      'https://www.ehime-iinet.or.jp/wp/wp-content/uploads/2026/06/R8_kohuyoko.pdf',
+      'https://www.ehime-iinet.or.jp/wp/wp-content/uploads/2026/05/R8_kohuyoryo.pdf'
+    ],
+    sourceNote: '愛媛県公式ページで、令和8年度賃上げ対応型小規模事業者経営力強化支援事業費補助金を確認。公式ページはHTTPSで200応答し、Last-Modifiedは2026年6月29日であることを確認。制度は、最低賃金の引上げや人材確保のため、賃上げに対応しながら、価格転嫁、付加価値向上、新商品・新サービス開発、販路開拓、生産性向上等に取り組む県内小規模事業者を支援し、地域産業を支える小規模事業者の課題解決と経営力強化を図るものであることを確認。募集期間は2026年6月1日から2026年7月31日までであることを確認。補助対象者は、県内に主たる事業所を有する小規模事業者で、県税に未納がないことなどの要件があることを確認。補助対象経費は、機械装置等費、開発費、借料、委託費、外注費、専門家謝金、旅費、広報費などであることを確認。通常枠は補助率3分の2・上限100万円、地場産業枠は補助率4分の3・上限100万円、地場産業コラボ枠は補助率4分の3・上限200万円であることを確認。えひめ産業振興財団ページ、チラシPDF、募集要項PDF、交付要綱PDF、交付要領PDFはいずれもHTTPで200応答することを確認。新規公式確認済み制度として追加。',
+    verifiedAt: '2026-06-30',
+    publishedAt: '2026-06-30',
+  },
 ];
