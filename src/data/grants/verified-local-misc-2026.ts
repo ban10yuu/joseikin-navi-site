@@ -29032,4 +29032,38 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt: '2026-06-30',
     publishedAt: '2026-06-30',
   },
+  {
+    slug: 'onomichi-sme-temporary-special-support-subsidy-2026',
+    title: '尾道市 中小企業等臨時特別支援事業',
+    organization: '尾道市',
+    type: 'local',
+    maxAmount: '職場環境整備枠、生産性向上枠ともに補助対象経費の2分の1以内、補助限度額250万円',
+    maxAmountNum: 2500000,
+    category: 'employment',
+    relatedCategories: ['living'],
+    prefecture: '広島県',
+    tags: ['広島県', '尾道市', '中小企業', '職場環境整備', '生産性向上', '設備投資', 'DX', 'LED', '人材確保', '令和8年度'],
+    eligibility: '尾道市内に事業所を有し、1年以上事業を継続している中小企業者及び個人事業主が対象です。補助事業の実施場所が市内事務所又は事業所であること、市税の滞納がないこと等の要件があります。',
+    applicationPeriod: '2026年4月20日から2026年7月31日必着まで。予算がなくなり次第終了',
+    deadlineDate: '2026-07-31',
+    description: '尾道市が、人手不足や物価高騰の影響を受ける市内中小企業者等を対象に、職場環境改善による人材確保や設備投資等による生産性向上の取組を支援する補助事業です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>尾道市中小企業等臨時特別支援事業は、人手不足や物価高騰の影響を受ける市内企業の新たな事業展開、経営基盤の確立、賃上げ環境の整備を目的に、職場環境の改善による人材確保又は設備投資等による生産性向上の取組を支援する制度です。</p>' },
+      { heading: '対象者と対象事業', content: '<p>対象者は、尾道市内に事業所を有し、1年以上事業を継続している中小企業者及び個人事業主です。補助事業の実施場所が市内事務所又は事業所であること、市税を滞納していないこと、取組事例の公表等に協力すること等が必要です。職場環境整備枠ではLED照明設備の購入や整備などの職場環境改善、生産性向上枠では省人力化など労働生産性を向上させる設備やシステム導入、コンサルティングなどが対象です。</p>' },
+      { heading: '補助額と申請期限', content: '<p>補助率は、職場環境整備枠と生産性向上枠のいずれも補助対象経費の2分の1以内で、補助限度額は250万円です。申請期限は2026年7月31日必着で、事業着手前の申請が必須です。実績報告の提出期限は2027年1月31日必着です。</p>' }
+    ],
+    officialUrl: 'https://www.city.onomichi.hiroshima.jp/soshiki/26/87392.html',
+    sourceName: '尾道市 令和8年度 尾道市中小企業等臨時特別支援事業について',
+    sourceUrls: [
+      'https://www.city.onomichi.hiroshima.jp/soshiki/26/87392.html',
+      'https://www.city.onomichi.hiroshima.jp/uploaded/attachment/58556.pdf',
+      'https://www.city.onomichi.hiroshima.jp/uploaded/attachment/58074.pdf',
+      'https://www.city.onomichi.hiroshima.jp/uploaded/attachment/58908.xlsx',
+      'https://www.city.onomichi.hiroshima.jp/uploaded/attachment/58554.docx',
+      'https://www.city.onomichi.hiroshima.jp/uploaded/attachment/58243.docx'
+    ],
+    sourceNote: '尾道市公式ページで、令和8年度尾道市中小企業等臨時特別支援事業を確認。公式ページはHTTPSで200応答し、更新日は2026年4月1日、Last-Modifiedは2026年6月30日であることを確認。制度は、人手不足や物価高騰の影響を受ける市内企業の新たな事業展開、経営基盤の確立及び賃上げ環境の整備のため、職場環境の改善による人材確保又は設備投資等による生産性向上に取り組む市内中小企業者等を支援するものであることを確認。申請期限は2026年7月31日必着で、事業着手前の申請が必須であり、予算がなくなり次第終了することを確認。実績報告の提出期限は2027年1月31日必着であることを確認。補助対象事業者は、尾道市内に事業所を有し1年以上事業を継続している中小企業者及び個人事業主であり、補助事業の実施場所が市内事務所又は事業所であること、市税の滞納がないこと、取組事例の公表等に協力すること、同様の補助金等を受けていないこと等が必要であることを確認。職場環境整備枠はLED照明設備の購入費及び整備費等が例示される職場環境改善の取組であり、生産性向上枠は省人力化など労働生産性を向上させる設備・システム導入やコンサルティングが対象であることを確認。補助率は職場環境整備枠、生産性向上枠ともに2分の1以内、補助限度額は250万円であることを確認。実施要領PDF、要綱PDF、Q&A XLSX、様式集DOCXはいずれもHTTPSで200応答することを確認。新規公式確認済み制度として追加。',
+    verifiedAt: '2026-06-30',
+    publishedAt: '2026-06-30',
+  },
 ];
