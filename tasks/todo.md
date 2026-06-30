@@ -235,3 +235,15 @@
 - [x] クリーンworktreeで `npm run build`（1119静的ページ）
 - [x] クリーンworktreeで `npm run audit:coverage` / `npm run audit:deadlines` / `npm run audit:links`（failures 0、リンク2268件OK / broken 0）
 - [ ] 全国網羅の次段階: 公式確認済みデータを都道府県・市区町村単位で追加し、未確認LLM生成データを順次置換する
+
+## 2026-07-01 安全継続・東京都Batch 1
+
+- [x] 隔離済み旧チャットを開かず、handoff/memory/repoから現状を復元
+- [x] `SAFE_CONTINUATION_PLAN.md` を作成
+- [x] 鹿児島・沖縄3件の既存ステージ済み追加を含む状態で `npm run build` / coverage / deadline / link audit を検証
+- [x] リンク監査で見つかった武蔵野市PDF 404、恩納村個別ページ404を公式HTML/一覧ページへ修正
+- [x] 修正後 `npm run audit:links` broken 0 を確認
+- [x] ローカルコミット `9741943` を作成（pushは未実行）
+- [x] 東京都Batch 1として3件を公式確認済み追加・置換（東京都私立高校授業料軽減、中央区認証保育所保育料補助、大田区開業資金）
+- [x] 追加3件のデータ層確認、ESLint、coverage、lint、build、deadline audit、link audit をすべて通過
+- [ ] push / 公開反映は明示確認後に実行

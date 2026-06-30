@@ -204,3 +204,28 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `src/data/grants/verified-local-misc-2026.ts` には、作業開始前からステージ済みの3件追加がある。今回の404修正により同ファイルには未ステージ差分も発生している。
 - `src/data/grants/verified-tokyo-local-2026.ts` は今回のリンク監査修正で未ステージ変更あり。
 - Vercel/GitHub自動デプロイにつながる可能性があるため、commit/push はまだ実行していない。
+
+## 2026-07-01 Batch 1 追加ログ
+
+東京都の未公式確認slugから、公式一次情報が確認できた3件を `src/data/grants/verified-tokyo-local-2026.ts` に追加した。
+
+追加:
+
+- `tokyo-private-school-support`: 東京都私学財団「令和8年度私立高等学校等授業料軽減助成金」。通常申請は2026年7月1日から2026年7月31日まで。就学支援金と合わせて最大年50万1,000円。
+- `chuo-daycare-support`: 中央区「認証保育所保育料の補助」。令和8年4月から令和9年3月が補助対象期間。0歳児から2歳児クラスは月額上限8万円。
+- `ota-startup-support`: 大田区「中小企業融資あっせん制度『開業資金』」。候補名の補助金ではなく、公式上は融資あっせん・利子補給制度。融資限度額2,000万円。
+
+確認:
+
+- 3件すべて現行公式URLを直接確認。
+- `node` によるデータ層確認で、3slugが公式リンクあり・手動確認済みとして先勝ち反映されることを確認。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0
+- `npm run audit:coverage`: failures 0。公式確認済み active は1,320件から1,323件へ増加。
+- `npm run lint`: エラー0、既知警告5件
+- `npm run build`: 成功。静的ページ 3,494 件生成。
+- `npm run audit:deadlines`: failures 0
+- `npm run audit:links`: broken 0
+
+未実行:
+
+- push。公開反映につながる可能性があるため、明示確認があるまで実行しない。
