@@ -27981,4 +27981,36 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt: '2026-06-30',
     publishedAt: '2026-06-30',
   },
+  {
+    slug: 'oita-city-small-business-competitiveness-support-subsidy-2026',
+    title: '大分市 小規模事業者競争力強化支援事業補助金',
+    organization: '大分市',
+    type: 'local',
+    maxAmount: 'DX推進枠は補助率3分の2、上限40万円。一般枠は補助率2分の1、上限30万円',
+    maxAmountNum: 400000,
+    category: 'employment',
+    prefecture: '大分県',
+    tags: ['大分市', '小規模事業者', 'DX', '販路開拓', '業務効率化', '設備導入', '広報', '令和8年度'],
+    eligibility: '大分市内に事業所を有する小規模事業者（個人事業主を含む）が対象です。創業から12か月を経過し、補助対象事業に係る事業を営んで12か月を経過していること、市税を完納していることなどの要件があります。',
+    applicationPeriod: '前期申請受付は2026年5月25日から2026年7月3日まで。後期申請受付は2026年9月28日から2026年10月23日まで',
+    deadlineDate: '2026-07-03',
+    description: '大分市が、市内小規模事業者のDXその他の方法による販路開拓や業務効率化の取り組みにかかる費用の一部を補助する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>大分市小規模事業者競争力強化支援事業補助金は、市内に事業所を有する小規模事業者のDXその他の方法による販路開拓や業務効率化の取り組みにかかる費用の一部を補助する制度です。補助事業に取り掛かることができるのは交付決定後で、取り組み終了後は令和9年2月26日までに実績報告が必要です。</p>' },
+      { heading: '対象者と対象経費', content: '<p>対象者は、大分市内に事業所を有する小規模事業者です。卸売業、小売業、サービス業は常時使用する従業員5人以下、宿泊業、娯楽業、製造業、その他の業種は20人以下が小規模事業者の目安です。DX推進枠ではソフトウェア導入費、機器導入費、DX広報費、ウェブサイト構築費など、一般枠では機械装置等購入費、広報費、旅費、開発費、借料、委託・外注費などが対象です。</p>' },
+      { heading: '補助額と募集期間', content: '<p>DX推進枠は補助率3分の2、補助上限額40万円です。一般枠は補助率2分の1、補助上限額30万円です。前期の申請受付期間は令和8年5月25日から7月3日まで、後期の申請受付期間は令和8年9月28日から10月23日までです。</p>' }
+    ],
+    officialUrl: 'https://www.city.oita.oita.jp/o154/shigotosangyo/shokogyo/r8syokibo.html',
+    sourceName: '大分市 小規模事業者競争力強化支援事業補助金',
+    sourceUrls: [
+      'https://www.city.oita.oita.jp/o154/shigotosangyo/shokogyo/r8syokibo.html',
+      'https://www.city.oita.oita.jp/o154/shigotosangyo/shokogyo/documents/r8tebiki.pdf',
+      'https://www.city.oita.oita.jp/o154/shigotosangyo/shokogyo/documents/r8syoukibotirasi.pdf',
+      'https://www.city.oita.oita.jp/o154/shigotosangyo/shokogyo/documents/r8syokiboyoukou.pdf',
+      'https://www.city.oita.oita.jp/o154/shigotosangyo/shokogyo/documents/r8syokiboyouryouy.pdf'
+    ],
+    sourceNote: '大分市公式ページで、令和8年度小規模事業者競争力強化支援事業補助金を確認。公式ページはHTTPSで200応答し、Last-Modifiedは2026年6月28日であることを確認。制度は、市内に事業所を有する小規模事業者のDXその他の方法による販路開拓や業務効率化の取り組みにかかる費用の一部を補助するものであることを確認。補助対象者は大分市内に事業所を有する小規模事業者で、創業から12か月を経過し、補助対象事業に係る事業を営んで12か月を経過していること、市税を完納していることなどが要件であることを確認。DX推進枠は補助率3分の2、補助上限額40万円、一般枠は補助率2分の1、補助上限額30万円であることを確認。前期申請受付期間は2026年5月25日から2026年7月3日まで、後期申請受付期間は2026年9月28日から2026年10月23日までであることを確認。補助事業に取り掛かることができるのは交付決定後で、実績報告は2027年2月26日までに必要であることを確認。補助金の手引きPDF、チラシPDF、交付要綱PDF、交付要領PDFはいずれもHTTPSで200応答することを確認。新規公式確認済み制度として追加。',
+    verifiedAt: '2026-06-30',
+    publishedAt: '2026-06-30',
+  },
 ];
