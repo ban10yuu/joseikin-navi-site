@@ -28174,4 +28174,37 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt: '2026-06-30',
     publishedAt: '2026-06-30',
   },
+  {
+    slug: 'nagasaki-digital-capability-support-subsidy-2026',
+    title: '長崎県 デジタル力向上支援事業費補助金',
+    organization: '長崎県',
+    type: 'local',
+    maxAmount: '補助率3分の2以内、上限100万円',
+    maxAmountNum: 1000000,
+    category: 'employment',
+    relatedCategories: ['education'],
+    prefecture: '長崎県',
+    tags: ['長崎県', 'デジタル化', 'IT機器', 'デジタルツール', '人材育成', '生産性向上', '業務効率化', '令和8年度'],
+    eligibility: '長崎県内に主たる事業所等を置き、創業後1年以上事業を営み、要件等を満たす中小企業・小規模事業者等が対象です。ただし、みなし大企業は対象外です。',
+    applicationPeriod: '2026年7月31日まで。当日消印有効',
+    deadlineDate: '2026-07-31',
+    description: '長崎県が、生産性向上や業務効率化に向けて、県内中小企業者が取り組むデジタルを活用できる人材の育成や、IT機器・デジタルツールの導入を支援する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>長崎県デジタル力向上支援事業費補助金は、生産性向上や業務効率化に向けて、県内中小企業者が取り組むデジタルを活用できる人材の育成や、IT機器・デジタルツールの導入を支援する制度です。</p>' },
+      { heading: '対象者と対象経費', content: '<p>対象者は、長崎県内に主たる事業所等を置き、創業後1年以上事業を営み、要件等を満たす中小企業・小規模事業者等です。対象経費には、人材育成に係る経費、IT機器やデジタルツールの導入に係る経費などが含まれます。</p>' },
+      { heading: '補助額と申請期限', content: '<p>補助金額は100万円以内、補助率は3分の2以内です。人材育成費総額が税抜5万円未満の場合は上限50万円、税抜5万円以上の場合は上限100万円です。申請受付期限は令和8年7月31日で、当日消印有効です。</p>' }
+    ],
+    officialUrl: 'https://www.pref.nagasaki.jp/doc/page-721123.html',
+    sourceName: '長崎県 デジタル力向上支援事業費補助金',
+    sourceUrls: [
+      'https://www.pref.nagasaki.jp/doc/page-721123.html',
+      'https://www.pref.nagasaki.jp/bunrui/shigoto-sangyo/chushokigyoshien-kinyu/seito-keikaku/digitalryoku/',
+      'https://www.pref.nagasaki.jp/fs/1/9/3/0/6/_/_____R8.5.29___.pdf',
+      'https://www.pref.nagasaki.jp/fs/1/9/3/0/5/_/_______R8.5.29___.pdf',
+      'https://www.pref.nagasaki.jp/fs/1/9/3/6/6/_/___________________R8.5.29___.pdf'
+    ],
+    sourceNote: '長崎県公式ページで、令和8年度デジタル力向上支援事業費補助金を確認。公式ページはHTTPSで200応答し、Last-Modifiedは2026年5月29日であることを確認。制度は、生産性向上や業務効率化に向けて、県内中小企業者が取り組むデジタルを活用できる人材の育成やIT機器・デジタルツールの導入を支援するものであることを確認。対象者は、県内に主たる事業所等を置き、創業後1年以上事業を営み、要件等を満たす中小企業・小規模事業者等で、みなし大企業は対象外であることを確認。補助金額は100万円以内、補助率は3分の2以内で、1事業者につき1回限りであることを確認。人材育成費総額が税抜5万円未満の場合は上限50万円、税抜5万円以上の場合は上限100万円であることを確認。申請受付期限は2026年7月31日で当日消印有効であることを確認。募集要項PDF、申請の手引きPDF、補助金チラシPDFはいずれもHTTPSで200応答することを確認。新規公式確認済み制度として追加。',
+    verifiedAt: '2026-06-30',
+    publishedAt: '2026-06-30',
+  },
 ];
