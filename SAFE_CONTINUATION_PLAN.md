@@ -314,3 +314,23 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run lint`: エラー0、既知警告5件
 - `npm run build`: 成功。静的ページ 3,521 件生成。
 - `npm run audit:links`: broken 0
+
+## 2026-07-01 千葉Batch 4 追加ログ
+
+千葉県の未公式確認slugから、住宅・省エネ・耐震系3件を公式一次情報に基づき `src/data/grants/verified-local-misc-2026.ts` に追加した。不妊治療系候補は、現行公式ページと生成slugの制度名ずれが大きいため、このバッチでは採用しなかった。
+
+追加:
+
+- `chiba-city-housing-eco`: 千葉市「住宅用設備等脱炭素化促進事業補助金」。旧生成データの「省エネ住宅改修補助金・最大40万円」を、公式制度名と太陽光最大4.5万円、ZEH+・エネファーム10万円、蓄電池7万円、窓断熱最大8万円へ補正。申請は2026年5月1日から2027年1月29日必着。
+- `kashiwa-energy-support`: 柏市「令和8年度ゼロカーボンシティ促進総合補助制度（家庭向け）」。エコ窓上限8万円、エネファーム10万円、蓄電池7万円、V2H上限25万円、EV/PHEV上限10万円または15万円、集合住宅用充電設備は条件により最大100万円×基数。申請は2026年5月1日から2027年2月26日まで。
+- `funabashi-seismic-diagnosis`: 船橋市「木造住宅耐震診断助成事業」。旧生成データの上限5万円を、公式の耐震診断費3分の2・上限11万円へ補正。令和8年度分の締切は2027年1月29日。
+
+確認:
+
+- 3件すべて現行公式URLを直接確認し、HTTP 200を確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0
+- `npm run audit:coverage`: failures 0。公式確認済み active は1,337件から1,340件へ増加。千葉県ローカル公式確認済みは59件。
+- `npm run audit:deadlines`: failures 0
+- `npm run lint`: エラー0、既知警告5件
+- `npm run build`: 成功。静的ページ 3,524 件生成。
+- `npm run audit:links`: broken 0
