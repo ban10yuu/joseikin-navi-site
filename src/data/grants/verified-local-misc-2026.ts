@@ -28400,4 +28400,36 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt: '2026-06-30',
     publishedAt: '2026-06-30',
   },
+  {
+    slug: 'aomori-sustainable-wage-increase-environment-improvement-subsidy-2026',
+    title: '青森県 持続的賃上げ環境整備促進事業費補助金',
+    organization: '青森県',
+    type: 'local',
+    maxAmount: '一般型は50万円から300万円、成長投資・賃上げ加速型は300万円から1,500万円',
+    maxAmountNum: 15000000,
+    category: 'employment',
+    relatedCategories: ['living'],
+    prefecture: '青森県',
+    tags: ['青森県', '賃上げ', '生産性向上', '収益力向上', '成長投資', '設備投資', 'システム導入', '中小企業', '令和8年度'],
+    eligibility: '青森県内の中小企業者で、常時使用する従業員が1名以上おり、申請区分ごとの賃上げ要件などを満たす事業者が対象です。',
+    applicationPeriod: '2026年4月27日から2026年9月1日まで',
+    deadlineDate: '2026-09-01',
+    description: '青森県が、県内中小企業者の持続的な賃上げ環境整備を後押しするため、生産性・収益力向上や成長力強化に向けた設備投資等に要する経費を補助する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>青森県持続的賃上げ環境整備促進事業費補助金は、県内中小企業者の持続的な賃上げ環境整備を後押しするため、生産性・収益力向上や成長力強化に向けた事業に要する経費を補助する制度です。</p>' },
+      { heading: '対象事業と対象経費', content: '<p>補助対象事業は、持続的な賃上げの実現に向けて行う生産性・収益力向上や成長力強化に資する設備を導入する事業です。対象経費は、建物費、機械装置・工具器具備品費、システム導入費、設計費などです。</p>' },
+      { heading: '補助額と申請受付', content: '<p>一般型は補助額50万円から300万円、成長投資・賃上げ加速型は300万円から1,500万円で、補助率はいずれも設備投資等に要した費用の2分の1以内です。一般型は事業場内最低賃金を30円以上、成長投資・賃上げ加速型は50円以上引き上げることなどが要件です。申請受付は2026年4月27日から9月1日までです。</p>' }
+    ],
+    officialUrl: 'https://www.pref.aomori.lg.jp/soshiki/sangyo/chikikigyo/r8chinagehojokin.html',
+    sourceName: '青森県 持続的賃上げ環境整備促進事業費補助金 実施のお知らせ',
+    sourceUrls: [
+      'https://www.pref.aomori.lg.jp/soshiki/sangyo/chikikigyo/r8chinagehojokin.html',
+      'https://chinagekankyoseibi.pref.aomori.lg.jp',
+      'https://chinagekankyoseibi.pref.aomori.lg.jp/wp-content/uploads/2026/06/qanda_20260623.xlsx',
+      'https://chinagekankyoseibi.pref.aomori.lg.jp/wp-content/uploads/2026/06/qanda_0435_20260611.docx'
+    ],
+    sourceNote: '青森県公式ページで、持続的賃上げ環境整備促進事業費補助金の実施を確認。公式ページはHTTPSで200応答し、Last-Modifiedは2026年4月28日であることを確認。制度は、県内中小企業者の持続的な賃上げ環境整備を後押しするため、生産性・収益力向上や成長力強化に向けた事業に要する経費を補助するものであることを確認。公募期間は2026年4月27日から9月1日であることを確認。補助対象事業は、持続的な賃上げの実現に向けて行う生産性・収益力向上や成長力強化に資する設備を導入する事業であることを確認。補助対象事業者は、申請区分ごとの要件を満たす県内中小企業者であることを確認。特設ウェブサイトで、一般型は補助額50万円から300万円、成長投資・賃上げ加速型は300万円から1,500万円で、補助率はいずれも設備投資等に要した費用の2分の1以内であることを確認。一般型は常時使用する従業員が1名以上で、事業場内最低賃金を30円以上引き上げること、成長投資・賃上げ加速型は50円以上引き上げ、付加価値額等の年平均成長率3%以上などが要件であることを確認。補助対象経費は、建物費、機械装置・工具器具備品費、システム導入費、設計費などであることを確認。特設ウェブサイト、よくある質問XLSX、Q&A関連DOCXはいずれもHTTPSで200応答することを確認。新規公式確認済み制度として追加。',
+    verifiedAt: '2026-06-30',
+    publishedAt: '2026-06-30',
+  },
 ];
