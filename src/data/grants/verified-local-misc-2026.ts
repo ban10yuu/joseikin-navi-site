@@ -28013,4 +28013,37 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt: '2026-06-30',
     publishedAt: '2026-06-30',
   },
+  {
+    slug: 'fukuoka-city-livelihood-support-activity-subsidy-2026',
+    title: '福岡市 生活困窮者支援活動事業費補助金',
+    organization: '福岡市',
+    type: 'local',
+    maxAmount: '補助対象経費の10分の10、1団体あたり上限50万円',
+    maxAmountNum: 500000,
+    category: 'living',
+    relatedCategories: ['nursing'],
+    prefecture: '福岡県',
+    tags: ['福岡市', '生活困窮者', '民間団体', '物資支援', 'NPO', '社会福祉法人', '物価高騰', '令和8年度'],
+    eligibility: '福岡市内に事業所を有する社会福祉法人、特定非営利活動法人、公益法人、その他市長が適当と認める団体で、福岡市内での生活困窮者への支援を主たる活動としており、活動実績がある団体などが対象です。',
+    applicationPeriod: '2026年6月19日から2026年7月10日午後4時まで。必着',
+    deadlineDate: '2026-07-10',
+    description: '福岡市が、物価高騰等の影響を受け、支援ニーズの増大による事業量や活動経費の増加が認められる民間団体の生活困窮者支援活動に対し、経費の一部を補助する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>福岡市生活困窮者支援活動事業費補助金は、生活困窮者が安心して生活できるよう支援することを目的に、物価高騰等の影響を受けて支援ニーズの増大による事業量や活動経費の増加が認められる民間団体の支援活動を補助する制度です。</p>' },
+      { heading: '対象団体と対象事業', content: '<p>対象団体は、福岡市内に事業所を有する社会福祉法人、特定非営利活動法人、公益法人、その他市長が適当と認める団体です。福岡市内での生活困窮者への支援を主たる活動としており、活動実績があること、福岡市生活自立支援センターと連携が図られている又は今後連携する予定であることなどが要件です。対象事業は、本市に居住する生活困窮者に対する支援活動のうち、福岡市生活困窮者支援体制を構築するためのプラットフォーム協議会で必要性が認められた支援活動です。</p>' },
+      { heading: '補助額と応募期間', content: '<p>補助対象経費には、生活困窮者に配布する食料や日常生活用品等の物資支援に必要な物品購入費、送料・運搬経費、光熱水費、人件費、印刷製本費、燃料費、雑役務費が含まれます。補助金額は補助対象経費の10分の10で、1団体あたり上限50万円です。応募期間は令和8年6月19日から令和8年7月10日午後4時までで、必着です。</p>' }
+    ],
+    officialUrl: 'https://www.city.fukuoka.lg.jp/fukushi/seikatujiritu/health/shienkatsudoujigyouhihojyokin8.html',
+    sourceName: '福岡市 生活困窮者支援活動事業費補助金',
+    sourceUrls: [
+      'https://www.city.fukuoka.lg.jp/fukushi/seikatujiritu/health/shienkatsudoujigyouhihojyokin8.html',
+      'https://www.city.fukuoka.lg.jp/fukushi/seikatujiritu/health/documents/tirashi.pdf',
+      'https://www.city.fukuoka.lg.jp/fukushi/seikatujiritu/health/documents/youkou.pdf',
+      'https://www.city.fukuoka.lg.jp/fukushi/seikatujiritu/health/documents/youryou.pdf',
+      'https://www.city.fukuoka.lg.jp/fukushi/seikatujiritu/health/documents/QA.pdf'
+    ],
+    sourceNote: '福岡市公式ページで、令和8年度生活困窮者支援活動事業費補助金を確認。公式ページはHTTPSで200応答し、Last-Modifiedは2026年6月19日であることを確認。制度は、生活困窮者が安心して生活できるよう支援することを目的に、物価高騰等の影響を受け、支援ニーズの増大による事業量や活動経費の増加が認められる民間団体の支援活動に対して経費の一部を補助するものであることを確認。補助対象団体は、福岡市内に事業所を有する社会福祉法人、特定非営利活動法人、公益法人、その他市長が適当と認める団体で、福岡市内での生活困窮者への支援を主たる活動としており、活動実績がある団体などであることを確認。補助対象事業は、本市に居住する生活困窮者に対する支援活動のうち、福岡市生活困窮者支援体制を構築するためのプラットフォーム協議会で必要性が認められた支援活動であることを確認。補助対象経費は、食料や日常生活用品等の物品購入費、送料・運搬経費、光熱水費、人件費、印刷製本費、燃料費、雑役務費であることを確認。補助金額は1団体あたり上限50万円、補助対象経費の10分の10であることを確認。応募期間は2026年6月19日から2026年7月10日午後4時まで必着であることを確認。制度チラシPDF、交付要綱PDF、公募要領PDF、Q&A PDFはいずれもHTTPSで200応答することを確認。新規公式確認済み制度として追加。',
+    verifiedAt: '2026-06-30',
+    publishedAt: '2026-06-30',
+  },
 ];
