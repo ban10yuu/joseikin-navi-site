@@ -700,3 +700,25 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,638 件生成。
 - `npm run audit:deadlines`: failures 0。`funabashi-scholarship` と `matsudo-nursery-support` は期限切れ扱いで通常一覧から除外。
 - `npm run audit:links`: broken 0
+
+## 2026-07-01 埼玉Batch 10 追加ログ
+
+埼玉県の未公式確認slugから、越谷市の妊婦支援給付金給付事業、市立小学校の令和8年度学校給食費無償化、居宅介護（介護予防）住宅改修費、令和8年度高齢者帯状疱疹予防接種、保育施設の利用者負担額と幼児教育・保育の無償化5件を `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データの「出産・子育て応援給付金」「第3子以降給食費無料」「市独自高齢者住宅改修費給付」「高齢者予防接種費用助成」「第2子以降保育料無料」などの表現を、越谷市公式ページで確認できる現行制度名・対象・金額へ補正した。
+
+追加:
+
+- `koshigaya-birth-bonus`: 越谷市「妊婦支援給付金給付事業」。出産・子育て応援金は令和7年度から妊婦支援給付金へ移行。1回目は妊婦1人あたり5万円、2回目はこども1人あたり5万円。
+- `koshigaya-school-lunch`: 越谷市「市立小学校の令和8年度学校給食費無償化」。令和8年度の小学校給食費は保護者負担なし、手続き不要。中学校は対象外だが市独自の一部公費負担を継続。
+- `koshigaya-nursing-home-reform`: 越谷市「居宅介護（介護予防）住宅改修費」。要介護・要支援認定者の住宅改修について、20万円を上限に9割・8割・7割を支給。工事前の事前申請が必須。
+- `koshigaya-vaccination-support`: 越谷市「令和8年度高齢者帯状疱疹予防接種」。年度年齢65歳から100歳までの5歳刻み等が対象。市内等は自己負担額設定、県外接種は不活化上限9,626円・生上限4,426円の償還払い助成。
+- `koshigaya-childcare-subsidy`: 越谷市「保育施設の利用者負担額と幼児教育・保育の無償化」。0〜2歳児は市民税額で利用者負担額を決定、3歳児以上は基本保育料が無償化。旧生成データの第2子以降無料は公式本文で確認できないため補正。
+
+確認予定:
+
+- 新規公式URL/PDF 7件は追加前に到達確認済み。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0
+- `npm run audit:coverage`: failures 0。公式確認済み active は1,399件から1,404件へ増加。期限切れは106件、埼玉県ローカル公式確認済みは58件。
+- `npm run lint`: エラー0、既知警告5件
+- `npm run build`: 成功。静的ページ 3,646 件生成。
+- `npm run audit:deadlines`: failures 0
+- `npm run audit:links`: broken 0
