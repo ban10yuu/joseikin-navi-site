@@ -1229,10 +1229,9 @@ export const verifiedTokyoLocalGrants2026: Grant[] = [
     officialUrl: 'https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/teate_josei/kokosei/1016667.html',
     sourceName: '武蔵野市 高等学校等修学給付金',
     sourceUrls: [
-      'https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/teate_josei/kokosei/1016667.html',
-      'https://www.city.musashino.lg.jp/_res/projects/default_project/_page_/001/016/667/71annnai.pdf'
+      'https://www.city.musashino.lg.jp/shussan_kodomo_kyoiku/kodomo_kosodate/teate_josei/kokosei/1016667.html'
     ],
-    sourceNote: '武蔵野市公式ページと令和7年度案内で高等学校等修学給付金、5万円、申請期限2025年9月15日を確認。令和8年度募集未確認のため期限切れ扱い。',
+    sourceNote: '武蔵野市公式ページで高等学校等修学給付金、5万円、申請期限2025年9月15日を確認。令和8年度募集未確認のため期限切れ扱い。令和7年度案内PDFは2026年7月1日のリンク監査で404となったため出典URLから除外。',
     verifiedAt,
     publishedAt: '2026-06-26',
   },
