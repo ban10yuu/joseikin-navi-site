@@ -246,4 +246,6 @@
 - [x] ローカルコミット `9741943` を作成（pushは未実行）
 - [x] 東京都Batch 1として3件を公式確認済み追加・置換（東京都私立高校授業料軽減、中央区認証保育所保育料補助、大田区開業資金）
 - [x] 追加3件のデータ層確認、ESLint、coverage、lint、build、deadline audit、link audit をすべて通過
+- [x] 埼玉Batchとして4件を公式確認済み追加・置換（川越市大学奨学金、所沢市保育士奨学金返済支援、川口市奨学金返還支援、さいたま市耐震補強）
+- [x] 追加4件のデータ層確認、ESLint、coverage、lint、build、deadline audit、link audit をすべて通過
 - [ ] push / 公開反映は明示確認後に実行
