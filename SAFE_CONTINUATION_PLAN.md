@@ -678,3 +678,25 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,625 件生成。
 - `npm run audit:deadlines`: failures 0
 - `npm run audit:links`: 初回は既存の神崎町URL群が一過性503。再実行で broken 0。
+
+## 2026-07-01 千葉Batch 13 追加ログ
+
+千葉県の未公式確認slugから、船橋市の保育料きょうだい軽減、修学金貸付制度、不育症検査費用助成、松戸市の認可外保育施設保育料助成、学校給食費支援5件を `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データの「不妊治療費助成最大15万円」「奨学金制度月額最大2万円」「認可外保育通年最大4万円」「第3子以降給食費無料」などの表現を、公式ページで確認できる制度名・対象・金額・受付状況へ補正した。
+
+追加:
+
+- `funabashi-childcare-subsidy`: 船橋市「保育料のきょうだい軽減」。同一生計の第2子は半額、第3子以降は無料。第1子の年齢、世帯所得、きょうだいの在籍施設を問わないことを確認。
+- `funabashi-scholarship`: 船橋市「修学金貸付制度」。給付ではなく無利子貸付。大学等は私立月額最大3万円、高校等は私立月額最大1万5,000円。令和8年度募集は2026年5月19日に終了しているため期限切れ扱いで通常一覧から除外。
+- `funabashi-infertility`: 船橋市「不育症検査費用助成事業」。先進医療として告示された不育症検査の費用7割、上限6万円を助成。旧生成データの不妊治療費助成最大15万円を補正。
+- `matsudo-nursery-support`: 松戸市「認可外保育施設の保育料助成」。0歳児から2歳児クラスの住民税課税世帯等が対象、令和7年度上限は月額21,800円。令和7年度後期分受付は2026年4月7日に終了しているため期限切れ扱いで通常一覧から除外。
+- `matsudo-school-lunch`: 松戸市「学校給食費に関する支援」。令和8年度は小学校給食費無料、中学校は第1・2子1食62円減額、第3子以降無料等。旧生成データの第3子以降無料のみの表記を補正。
+
+確認予定:
+
+- 新規公式URL/PDF 7件は追加前に到達確認済み。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0
+- `npm run audit:coverage`: failures 0。公式確認済み active は1,396件から1,399件へ増加。期限切れは106件、千葉県ローカル公式確認済みは88件。
+- `npm run lint`: エラー0、既知警告5件
+- `npm run build`: 成功。静的ページ 3,638 件生成。
+- `npm run audit:deadlines`: failures 0。`funabashi-scholarship` と `matsudo-nursery-support` は期限切れ扱いで通常一覧から除外。
+- `npm run audit:links`: broken 0
