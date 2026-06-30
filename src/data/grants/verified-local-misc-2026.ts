@@ -27349,4 +27349,35 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt: '2026-06-30',
     publishedAt: '2026-06-30',
   },
+  {
+    slug: 'yomitan-price-hike-agriculture-support-2026',
+    title: '読谷村 物価高騰対応農業支援事業',
+    organization: '読谷村',
+    type: 'local',
+    maxAmount: '肉用牛子牛1頭につき3万円',
+    maxAmountNum: 30000,
+    category: 'employment',
+    relatedCategories: ['living'],
+    prefecture: '沖縄県',
+    tags: ['読谷村', '沖縄県', '物価高騰対策', '農業支援', '畜産支援', '農業用水', '肉用牛', '令和7年度'],
+    eligibility: '長浜川土地改良区、渡具知水利組合、または読谷村内に住所を有し、村内の農業用施設で肉用牛の養牛、養豚、養鶏を行う農業者等が対象です。',
+    applicationPeriod: '村長が別に定める日までに申請。補助対象期間は農業用水が2025年4月1日から2026年3月31日まで、畜産支援が2025年4月1日から2026年2月28日まで',
+    description: '読谷村が、物価高騰の影響を受ける農業者の農業経営の持続化を図るため、農業用水費、肉用牛子牛の出産、豚・鶏の伝染病予防注射手数料を支援する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>読谷村物価高騰対応農業支援事業は、国の物価高騰対応重点支援地方創生臨時交付金を活用し、物価高騰の影響を受けている農業者の農業経営の持続化を支援する制度です。</p>' },
+      { heading: '支援内容', content: '<p>土地改良区等には農業用水費の負担軽減として農家請求額の2分の1以内を支援します。肉用牛農家には子牛の出産支援として子牛1頭につき3万円、養豚農家と養鶏農家には伝染病予防注射手数料の2分の1以内を支援します。</p>' },
+      { heading: '申請の流れ', content: '<p>補助金を受ける場合は、交付申請書に必要書類を添えて窓口へ提出します。村による書類審査や必要に応じた現地調査の後、交付決定通知を受け、請求書を提出して補助金の交付を受けます。農業用水分は土地改良区等が申請し、農業用水利用者の手続きは不要と案内されています。</p>' }
+    ],
+    officialUrl: 'https://www.vill.yomitan.okinawa.jp/soshiki/einochisan/7016.html',
+    sourceName: '読谷村 読谷村物価高騰対応農業支援事業のご案内',
+    sourceUrls: [
+      'https://www.vill.yomitan.okinawa.jp/soshiki/einochisan/7016.html',
+      'https://www.vill.yomitan.okinawa.jp/material/files/group/39/youkou.pdf',
+      'https://www.vill.yomitan.okinawa.jp/material/files/group/39/nougyousyousui.pdf',
+      'https://www.vill.yomitan.okinawa.jp/material/files/group/39/tikusan.pdf'
+    ],
+    sourceNote: '読谷村公式ページで、読谷村物価高騰対応農業支援事業を確認。公式ページはHTTPSで200応答し、Last-Modifiedは2026年5月17日であることを確認。ページ更新日は2025年12月17日であることを確認。制度は、国の物価高騰対応重点支援地方創生臨時交付金を活用し、物価高騰の影響を受けている農業者の農業経営の持続化を目的として実施される補助金制度であることを確認。公式ページで、土地改良区等には農業用水費の負担軽減として農家請求額の2分の1以内、肉用牛農家には子牛の出産支援として子牛1頭につき3万円、養豚農家および養鶏農家には伝染病予防注射手数料の2分の1以内を支援することを確認。交付要綱PDFはHTTPSで200応答し、Last-Modifiedは2026年5月15日であることを確認。要綱で、交付対象は長浜川土地改良区、渡具知水利組合、村内に住所を有し村内の農業用施設で肉用牛の養牛、養豚または養鶏を行う者であることを確認。補助対象期間は、農業用水費が2025年4月1日から2026年3月31日まで、畜産支援が2025年4月1日から2026年2月28日までであることを確認。農業用水PDFで、農業用水供給者が申請し農業用水利用者の手続きは不要であることを確認。畜産支援PDFで、養豚・養鶏の家畜予防注射等の手数料補助、養牛農家の肉用牛子牛生産費補助を確認。新規公式確認済み制度として追加。',
+    verifiedAt: '2026-06-30',
+    publishedAt: '2026-06-30',
+  },
 ];
