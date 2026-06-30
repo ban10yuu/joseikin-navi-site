@@ -591,3 +591,24 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,592 件生成。
 - `npm run audit:deadlines`: failures 0。`kasukabe-housing-reform` は期限切れ扱いで通常一覧から除外。
 - `npm run audit:links`: broken 0
+
+## 2026-07-01 埼玉Batch 7 追加ログ
+
+埼玉県の未公式確認slugから、草加市のこども医療費、重度心身障害者医療費、就学援助、家具転倒防止器具取付費助成4件を公式一次情報に基づき `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データの「無料」「第3子給食補助」「家庭用防災設備5万円」などの抽象・推測表記を、草加市公式ページと令和8年度PDFで確認できる制度名・金額へ補正した。
+
+追加:
+
+- `soka-child-medical`: 草加市「こども医療費支給制度」。高校3年生まで、通院・入院とも18歳到達後最初の3月31日まで。埼玉県内医療機関では受給者証提示で保険診療分の窓口負担なし。旧生成データの「18歳まで無料」を補正。
+- `soka-disability-medical`: 草加市「重度心身障害者医療費の支給」。身体障害者手帳1から3級、療育手帳マルA・A・B、精神障害者保健福祉手帳1級等が対象。所得制限と対象外費用を公式範囲へ補正。
+- `soka-school-lunch`: 草加市「就学援助制度」。旧生成データの第3子以降給食費補助ではなく、令和8年度就学援助として公式確認。入学準備金・新入学児童生徒学用品費は小57,060円・中63,000円、給食費は現物支給。
+- `soka-bousai-equipment`: 草加市「家具転倒防止器具取付費助成金」。旧生成データの家庭用防災設備購入補助金・上限5万円ではなく、家具転倒防止器具の取付工事費3分の2・上限11,000円へ補正。
+
+確認:
+
+- 新規公式URL・PDF/DOCX 8件は到達確認済み。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0
+- `npm run audit:coverage`: failures 0。公式確認済み active は1,380件から1,384件へ増加。埼玉県ローカル公式確認済みは46件。
+- `npm run lint`: エラー0、既知警告5件
+- `npm run build`: 成功。静的ページ 3,598 件生成。
+- `npm run audit:deadlines`: failures 0
+- `npm run audit:links`: broken 0
