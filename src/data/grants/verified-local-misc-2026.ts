@@ -28498,4 +28498,38 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt: '2026-06-30',
     publishedAt: '2026-06-30',
   },
+  {
+    slug: 'kanagawa-small-business-digitalization-support-subsidy-2026',
+    title: '神奈川県 小規模事業者デジタル化支援推進事業費補助金',
+    organization: '神奈川県',
+    type: 'local',
+    maxAmount: '補助対象経費の3分の2以内、上限50万円。ただしホームページ作成・更新等は上限10万円',
+    maxAmountNum: 500000,
+    category: 'employment',
+    relatedCategories: ['living'],
+    prefecture: '神奈川県',
+    tags: ['神奈川県', '小規模事業者', 'デジタル化', '業務効率化', 'ECサイト', 'ホームページ', 'システム導入', '専門家派遣', '令和8年度'],
+    eligibility: '神奈川県内の小規模事業者が対象です。申請にあたっては事前相談を受ける必要があります。',
+    applicationPeriod: '2026年4月15日9時から2026年9月30日17時まで。先着順で予算額に達した時点で終了',
+    deadlineDate: '2026-09-30',
+    description: '神奈川県が、小規模事業者のデジタル化による業務効率化や事業継続力の強化を後押しするため、デジタル技術の導入等に要する経費を補助する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>神奈川県小規模事業者デジタル化支援推進事業費補助金は、小規模事業者のデジタル化を支援するため、業務効率化や事業継続力の強化につながるデジタル技術の導入等に要する経費を補助する制度です。</p>' },
+      { heading: '対象事業と対象者', content: '<p>対象者は神奈川県内の小規模事業者です。申請にあたっては、公益財団法人神奈川産業振興センターや県内商工会、商工会議所等の相談機関で事前相談を受ける必要があります。補助対象事業には、システム導入、ECサイト構築、契約管理システム導入、ホームページの作成・更新などが含まれます。</p>' },
+      { heading: '補助額と公募期間', content: '<p>補助率は補助対象経費の3分の2以内、補助上限額は50万円です。ただし、ホームページの作成・更新等は上限10万円です。公募期間は2026年4月15日9時から2026年9月30日17時までで、先着順で受け付け、予算額に達した時点で受付終了となります。</p>' }
+    ],
+    officialUrl: 'https://www.pref.kanagawa.jp/docs/m2w/shokibo_digital/r8.html',
+    sourceName: '神奈川県 令和8年度神奈川県小規模事業者デジタル化支援推進事業費補助金について',
+    sourceUrls: [
+      'https://www.pref.kanagawa.jp/docs/m2w/shokibo_digital/r8.html',
+      'https://www.pref.kanagawa.jp/documents/128140/koubooyouryou.pdf',
+      'https://www.pref.kanagawa.jp/documents/128140/kouhuyoukou.pdf',
+      'https://www.pref.kanagawa.jp/documents/128140/koditira.pdf',
+      'https://www.pref.kanagawa.jp/documents/128140/yousiki1.docx',
+      'https://www.pref.kanagawa.jp/documents/128140/yousiki1-04.xlsx'
+    ],
+    sourceNote: '神奈川県公式ページで、令和8年度神奈川県小規模事業者デジタル化支援推進事業費補助金を確認。公式ページはHTTPSで200応答し、Last-Modifiedは2026年6月26日であることを確認。制度は、小規模事業者のデジタル化を支援するため、業務効率化や事業継続力の強化につながるデジタル技術の導入等に要する経費を補助するものであることを確認。申請にあたっては事前相談を受ける必要があることを確認。補助率は補助対象経費の3分の2以内、補助上限額は50万円で、ホームページ作成・更新等は上限10万円であることを確認。補助対象事業には、システム導入、ECサイト構築、契約管理システム導入、ホームページの作成・更新等が含まれることを確認。公募期間は2026年4月15日9時から9月30日17時までで、申請は先着順で受け付け、予算額に達した時点で受付終了することを確認。補助金の交付決定を受けた事業者は、補助事業の目的達成のため3回まで神奈川産業振興センターの専門家派遣を無料で受けられることを確認。公募要領PDF、補助金交付要綱PDF、制度チラシPDF、申請様式DOCX、経費予算書XLSXはいずれもHTTPSで200応答することを確認。新規公式確認済み制度として追加。',
+    verifiedAt: '2026-06-30',
+    publishedAt: '2026-06-30',
+  },
 ];
