@@ -569,3 +569,25 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,584 件生成。
 - `npm run audit:deadlines`: failures 0
 - `npm run audit:links`: broken 0
+
+## 2026-07-01 埼玉Batch 6 追加ログ
+
+埼玉県の未公式確認slugから、春日部市のこども医療費、住宅リフォーム、家族介護用品支給、配食サービス、重度要介護高齢者手当5件を公式一次情報に基づき `src/data/grants/verified-local-misc-2026.ts` に追加した。通常公開は4件、住宅リフォームは令和8年度分が予算額到達で受付終了しているため、期限切れ扱いで通常一覧から除外する抑止レコード。
+
+追加:
+
+- `kasukabe-child-medical`: 春日部市「こども医療費」。18歳到達後最初の3月31日までの子どもを対象に、保険診療の一部負担金を助成。旧生成データの「18歳まで無料」を、公式の対象範囲・対象外費用・受給資格登録が分かる表現へ補正。
+- `kasukabe-housing-reform`: 春日部市「住宅リフォーム助成制度」。令和8年度は予算額に達したため受付終了。上限10万円等の制度内容は公式確認しつつ、通常の募集中制度としては除外。
+- `kasukabe-nursing-equipment`: 春日部市「家族介護用品支給」。対象はおおむね65歳以上で市内在住の在宅高齢者のうち要介護4または5に該当する市県民税非課税世帯。旧生成データの要介護3以上を補正。
+- `kasukabe-elderly-support`: 春日部市「配食サービス」。2026年7月1日から事業再開。自己負担は1食400円で、市が自己負担額を超えた分を助成し、手渡しによる安否確認も実施。
+- `kasukabe-severe-care-allowance`: 春日部市「重度要介護高齢者手当」。65歳以上・要介護4または5・本人非課税等の在宅高齢者へ月額5,000円を支給。公式確認済みの新規制度として追加。
+
+確認:
+
+- 新規公式URL 7件はすべて到達確認済み。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0
+- `npm run audit:coverage`: failures 0。公式確認済み active は1,376件から1,380件へ増加。期限切れは102件、埼玉県ローカル公式確認済みは42件。
+- `npm run lint`: エラー0、既知警告5件
+- `npm run build`: 成功。静的ページ 3,592 件生成。
+- `npm run audit:deadlines`: failures 0。`kasukabe-housing-reform` は期限切れ扱いで通常一覧から除外。
+- `npm run audit:links`: broken 0
