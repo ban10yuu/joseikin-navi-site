@@ -28773,8 +28773,7 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
       'https://www.pref.saitama.lg.jp/documents/282419/02_kouhuyouryou2.pdf',
       'https://www.pref.saitama.lg.jp/documents/282419/99_tebiki_sinkidounyu.pdf',
       'https://www.pref.saitama.lg.jp/documents/282419/seihinnkategoririsuto080624.pdf',
-      'https://www.pref.saitama.lg.jp/documents/282419/03_kouhusinsei_jissikeikaku_sinkidounyuu0612.xlsx',
-      'https://www.pref.saitama.lg.jp/documents/282419/99_qa_shinkidounyu.pdf'
+      'https://www.pref.saitama.lg.jp/documents/282419/03_kouhusinsei_jissikeikaku_sinkidounyuu0612.xlsx'
     ],
     sourceNote: '埼玉県公式ページで、令和8年度埼玉県中小企業省力化支援事業補助金【新規導入】を確認。公式ページはHTTPSで200応答し、掲載日は2026年6月24日、Last-Modifiedは2026年6月26日であることを確認。制度は、人手不足の改善と持続的な賃上げ環境の整備に向け、機器の導入による省力化に取り組み、成長を目指す県内中小企業等に対して設備投資経費の一部を補助するものであることを確認。補助対象者は、埼玉県内に登記簿上の本店又は主たる事業所を有する中小企業者等であることを確認。対象事業は、県内の事業所等で新たに導入する機器を活用し省力化に取り組む事業で、産業用ドローン、無人搬送車、協働ロボット、自動券売機、自動調理補助機などが例示されていることを確認。既存機器の置き換え、1次産業の省力化、新規事業、交付決定前に着手した事業は対象外であることを確認。補助対象経費は、省力化製品の購入費及び設置、運搬、動作確認、設定等の導入に要する経費であることを確認。補助率は3分の2以内、要件該当時は5分の4以内、補助上限額は1,000万円、要件該当時は1,200万円であることを確認。公募期間は2026年5月25日から7月17日16時までで、電子申請のみで受け付けることを確認。案内チラシPDF、交付要綱PDF、交付要領PDF、補助事業の手引きPDF、製品カテゴリリストPDFはいずれもHTTPSで200応答することを確認。新規公式確認済み制度として追加。',
     verifiedAt: '2026-06-30',
@@ -29099,6 +29098,42 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
       'https://www.city.fukuyama.hiroshima.jp/uploaded/attachment/300564.pdf'
     ],
     sourceNote: '福山市公式ページで、福山市販路開拓支援事業補助金を確認。公式ページはHTTPSで200応答し、Last-Modifiedは2026年6月30日であることを確認。ページ表題で2026年8月3日募集開始予定であることを確認。制度は、国内外及びオンラインで開催される展示会に出展する市内中小企業者に対し、出展経費の一部を予算の範囲で助成するものであることを確認。2026年度、令和8年度の事業として募集されていることを確認。一次募集は終了し、二次募集は2026年8月3日から9月30日までで、対象展示会は2026年10月1日から2027年3月31日開催分であることを確認。補助対象者は、中小企業基本法等に基づく中小企業者等で、福山市内に本社又は事業所を有すること、市税の滞納がないこと、申請日に現に事業を営んでおり今後も事業を継続する意思があること等を確認。国内販路開拓は首都圏等で開催される全国規模の展示会、海外販路開拓は海外で開催される展示会、オンライン販路開拓は他者が主催するオンライン展示会が対象であることを確認。対象経費は、小間料、小間装飾料、商品搬送費、海外販路開拓の旅費交通費及び展示物・配布物作成費、オンライン展示会の出展料や環境整備委託費等であることを確認。補助率は2分の1、補助上限額は国内・オンライン20万円、海外40万円であることを確認。チラシPDF、申請書類一式PDF、補助金交付申請書DOCX、収支予算書DOCX、報告書類一式PDF、交付要綱PDF、福山市補助金交付規則PDFはいずれもHTTPSで200応答することを確認。新規公式確認済み制度として追加。',
+    verifiedAt: '2026-06-30',
+    publishedAt: '2026-06-30',
+  },
+  {
+    slug: 'matsuyama-dx-promotion-subsidy-2026',
+    title: '松山市 DX推進補助金',
+    organization: '松山市',
+    type: 'local',
+    maxAmount: '補助対象経費の2分の1以内、補助上限額300万円',
+    maxAmountNum: 3000000,
+    category: 'employment',
+    relatedCategories: ['living'],
+    prefecture: '愛媛県',
+    tags: ['愛媛県', '松山市', 'DX', 'デジタルトランスフォーメーション', '生産性向上', '人手不足解消', '中小企業', '社会福祉法人', '医療法人', '令和8年度'],
+    eligibility: '松山市内に事業所等を有する中小企業者、社会福祉法人又は医療法人が対象です。市税を滞納していないこと、同一事業で他制度の補助金等を受けていないこと等の要件があります。',
+    applicationPeriod: '2026年5月25日から2026年7月31日まで。申請状況により期間内でも受付終了の場合あり',
+    deadlineDate: '2026-07-31',
+    description: '松山市が、市内中小企業者等のデジタルトランスフォーメーションを推進し、生産性向上や人手不足の解消等を図るため、先進的なDXに取り組む事業者を支援する補助制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>松山市DX推進補助金は、市内中小企業者等のデジタルトランスフォーメーションを推進し、生産性向上及び人手不足の解消等を図ることを目的に、先進的なDXに取り組む事業者を支援する制度です。今後DXに取り組もうとする事業者の先行事例となる取組等を対象に、予算の範囲内で経費の一部を補助します。</p>' },
+      { heading: '対象者と対象経費', content: '<p>対象者は、松山市内に事業所等を有する中小企業者、社会福祉法人又は医療法人です。市税を滞納している者、同一事業について他の制度による補助金又は交付金等を受けている者などは対象外です。補助対象経費は、補助対象期間内のDX推進に必要な経費で、消費税及び地方消費税相当額は除かれます。</p>' },
+      { heading: '補助額と申請期限', content: '<p>補助率は補助対象経費の2分の1以内で、補助上限額は300万円です。募集期間は2026年5月25日から7月31日までで、申請状況により期間内でも受付を終了する場合があります。補助対象期間は交付決定日から2027年3月31日までです。</p>' }
+    ],
+    officialUrl: 'https://www.city.matsuyama.ehime.jp/kurashi/sangyo/chusyoukigyou/DXsuishin.html',
+    sourceName: '松山市 松山市DX推進補助金制度',
+    sourceUrls: [
+      'https://www.city.matsuyama.ehime.jp/kurashi/sangyo/chusyoukigyou/DXsuishin.html',
+      'https://www.city.matsuyama.ehime.jp/kurashi/sangyo/chusyoukigyou/DXsuishin.files/R8chirashi.pdf',
+      'https://www.city.matsuyama.ehime.jp/kurashi/sangyo/chusyoukigyou/DXsuishin.files/R8youryou.pdf',
+      'https://www.city.matsuyama.ehime.jp/kurashi/sangyo/chusyoukigyou/DXsuishin.files/checkR7.pdf',
+      'https://www.city.matsuyama.ehime.jp/kurashi/sangyo/chusyoukigyou/DXsuishin.files/hanni.pdf',
+      'https://www.city.matsuyama.ehime.jp/kurashi/sangyo/chusyoukigyou/DXsuishin.files/keikakuR5.docx',
+      'https://www.city.matsuyama.ehime.jp/kurashi/sangyo/chusyoukigyou/DXsuishin.files/shuusiyosanR6.docx',
+      'https://www.city.matsuyama.ehime.jp/kurashi/sangyo/chusyoukigyou/DXsuishin.files/seiyakushoR7.docx'
+    ],
+    sourceNote: '松山市公式ページで、松山市DX推進補助金制度を確認。公式ページはHTTPSで200応答し、更新日は2026年5月25日、Last-Modifiedは2026年6月30日であることを確認。制度は、市内中小企業者のデジタルトランスフォーメーションを推進し、生産性向上及び人手不足の解消等を図ることを目的として、先進的なDXに取り組む事業者を支援するものであることを確認。補助対象者は、市内に事業所等を有する中小企業者、社会福祉法人又は医療法人であることを確認。対象外要件として、市税を滞納している者、同一事業について他の制度による補助金又は交付金等を受けている者、宗教活動又は政治活動に係る事業を行っている者等が示されていることを確認。補助率は補助対象経費の2分の1以内、補助上限額は300万円であることを確認。募集期間は2026年5月25日から7月31日までで、申請状況により期間内でも受付終了の場合があることを確認。補助対象期間は交付決定日から2027年3月31日までで、補助対象期間外に発注、契約、購入、支払い等をしたものは対象外であることを確認。チラシPDF、募集要領PDF、チェックリストPDF、中小企業者の範囲PDF、計画書DOCX、収支予算書DOCX、誓約書DOCXはいずれもHTTPSで200応答することを確認。既存の松山市生産性向上デジタル化補助金とは別制度として、新規公式確認済み制度に追加。',
     verifiedAt: '2026-06-30',
     publishedAt: '2026-06-30',
   },
