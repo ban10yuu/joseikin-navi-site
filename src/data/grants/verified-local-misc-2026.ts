@@ -28432,4 +28432,37 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt: '2026-06-30',
     publishedAt: '2026-06-30',
   },
+  {
+    slug: 'fukushima-sme-stock-listing-support-subsidy-2026',
+    title: '福島県 中小企業等株式上場支援補助金',
+    organization: '福島県',
+    type: 'local',
+    maxAmount: '補助対象経費の2分の1以内、上限500万円',
+    maxAmountNum: 5000000,
+    category: 'employment',
+    relatedCategories: ['living'],
+    prefecture: '福島県',
+    tags: ['福島県', '株式上場', 'IPO', '中小企業', '監査法人', '証券会社', 'IR', 'UIJターン', '令和8年度'],
+    eligibility: '福島県で株式上場を目指す企業が対象です。上場申請に向けた準備経費について、募集要領等に定める要件を満たす必要があります。',
+    applicationPeriod: '2026年10月30日まで。2次申請締切は2026年7月31日、3次申請締切は2026年10月30日。予算額に達し次第終了',
+    deadlineDate: '2026-10-30',
+    description: '福島県が、大学生等の地元就職やUIJターン就職の受け皿となる魅力ある県内企業を増やすため、福島県で株式上場を目指す企業に対し、上場申請に向けた必要経費を支援する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>福島県中小企業等株式上場支援補助金は、大学生等の地元就職やUIJターン就職の受け皿となる魅力ある県内企業を増やすことを目的として、福島県で株式上場を目指す企業に対し、上場申請に向けた必要経費を支援する制度です。</p>' },
+      { heading: '補助対象経費', content: '<p>補助対象経費は、補助金交付申請年度における上場に向けた準備経費で、監査法人、公認会計士、証券会社、株式事務代行機関、IRコンサルティング会社又はコンサルティング会社等との契約締結に基づくものです。</p>' },
+      { heading: '補助額と募集期間', content: '<p>補助率は補助対象経費の2分の1以内で、補助上限は500万円です。募集期間は2026年10月30日までで、2次申請締切は2026年7月31日、3次申請締切は2026年10月30日です。ただし、予算額に達し次第募集終了となります。</p>' }
+    ],
+    officialUrl: 'https://www.pref.fukushima.lg.jp/sec/32011b/joujoh2023.html',
+    sourceName: '福島県 令和8年度福島県中小企業等株式上場支援補助金の公募について',
+    sourceUrls: [
+      'https://www.pref.fukushima.lg.jp/sec/32011b/joujoh2023.html',
+      'https://www.pref.fukushima.lg.jp/uploaded/attachment/740644.pdf',
+      'https://www.pref.fukushima.lg.jp/uploaded/attachment/751785.pdf',
+      'https://www.pref.fukushima.lg.jp/uploaded/attachment/683811.docx',
+      'https://www.pref.fukushima.lg.jp/uploaded/attachment/683814.docx'
+    ],
+    sourceNote: '福島県公式ページで、令和8年度福島県中小企業等株式上場支援補助金の公募を確認。公式ページはHTTPSで200応答し、Last-Modifiedは2026年6月29日であることを確認。制度は、大学生等の地元就職やUIJターン就職の受け皿となる魅力ある県内企業を増やすことを目的として、福島県で株式上場を目指す企業に対し、上場申請に向けた必要経費を支援するものであることを確認。募集期間は2026年10月30日までで、1次申請締切は2026年5月29日、2次申請締切は2026年7月31日、3次申請締切は2026年10月30日であり、予算額に達し次第募集終了することを確認。補助対象経費は、補助金交付申請年度における上場に向けた準備経費で、監査法人、公認会計士、証券会社、株式事務代行機関、IRコンサルティング会社又はコンサルティング会社等との契約締結に基づくものであることを確認。補助率は補助対象経費の2分の1以内、補助上限は500万円であることを確認。募集要領PDF、関連PDF、申請様式DOCXはいずれもHTTPSで200応答することを確認。新規公式確認済み制度として追加。',
+    verifiedAt: '2026-06-30',
+    publishedAt: '2026-06-30',
+  },
 ];
