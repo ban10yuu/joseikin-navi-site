@@ -1836,3 +1836,24 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,974 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は551件、activeWithDeadlineは404件、期限切れ147件。
 - `npm run audit:links`: broken 0。3,972ファイルから146,211リンク抽出、8,478件監査。
+
+## 2026-07-02 神奈川Batch 37 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県` の残25件から、`city-batch71.ts` の座間市2件・三浦市1件を `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データの「木造住宅耐震診断助成」「女性起業支援補助金」「出産祝い金」を、座間市・三浦市公式ページ本文で確認できる現行制度名・補助額・対象者へ補正した。
+
+追加:
+
+- `zama-seismic-diagnosis`: 座間市「耐震診断および耐震改修工事補助制度」。平成12年5月31日以前の在来工法・木造2階建て以下住宅が対象で、市の木造住宅無料耐震相談会参加後に段階的に利用。耐震診断は2分の1・上限5万円、改修計画書作成は2分の1・上限5万円、耐震改修工事は2分の1・上限70万円、市内施工者加算20万円、現場立ち会い費2分の1・上限3万円。生成データの自己負担なし耐震診断助成を公式制度へ補正。
+- `zama-women-startup`: 座間市「創業事業補助金」。女性限定ではなく、市内創業者向けに登録免許税相当額を上限15万円、内外装工事・事業用設備・広告宣伝費等を2分の1・上限40万円、特定創業支援事業を受けた方は3分の2・上限60万円で補助。生成データの女性起業支援補助金を公式確認済みの創業支援へ補正。
+- `miura-birth-bonus`: 三浦市「妊婦のための支援給付」。妊娠届出時に5万円、出産後にこども1人あたり5万円を口座振込。申請期限は1回目が胎児心拍確認日から2年、2回目が出産予定日の8週間前から2年。生成データの第1子5万円・第2子7万円・第3子以降10万円の出産祝い金を公式制度へ補正。
+
+確認:
+
+- 採用した公式出典URL 7件はすべて200で到達確認。座間市公式の耐震診断および耐震改修工事補助制度、令和8年度木造住宅耐震相談、創業・展示会出展・設備投資を応援、座間市の創業者支援、空き店舗活用事業、三浦市公式の妊婦のための支援給付、子育て・出産に関する手当を確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 15`: 神奈川県の未照合raw slugは25件から22件に減少。次の候補は `miura-childcare-subsidy`、`miura-housing-purchase`、`miura-infertility` など。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,557件、神奈川県ローカル公式確認済みは105件、activeWithoutOfficialSourceは3,395件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 3,979 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は551件、activeWithDeadlineは404件、期限切れ147件。
+- `npm run audit:links`: 初回は既存外部URL `https://swf.or.jp/josei/` の一時的な `ECONNRESET` でbroken 1。再実行で broken 0。3,977ファイルから146,438リンク抽出、8,491件監査。

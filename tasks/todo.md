@@ -533,5 +533,9 @@
 - [x] 採用した公式出典URL 5件を確認対象に追加。神奈川県公式の市町村移住・定住支援一覧、座間市公式の座間市の魅力、住居確保給付金（転居費用補助）、おむつ等支給事業（高齢者対象）、看護師等奨学金貸付制度を確認
 - [x] 生成データの制度名・金額・対象条件ずれを補正（移住支援金最大100万円は現行市公式制度として確認不可のため通常一覧から除外、介護用品年額6万円相当はおむつ等の現物支給・1回6,000円以内・年6回予定へ、奨学金月額最大4万円は看護学生向け貸付・月額上限3万円へ補正）
 - [x] 神奈川Batch 36の追加後検証（公式URL 200確認、ESLint、coverage、raw gap監査、lint、build、deadline audit、link audit）。coverage failures 0、公式確認済みactiveは1,554件、神奈川県ローカル公式確認済みは102件、activeWithoutOfficialSourceは3,398件。buildは3,974ページ生成、deadline audit failures 0、link auditは3,972ファイルから146,211リンク抽出・8,478件監査・broken 0。神奈川県の未照合raw slugは28件から25件に減少
-- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 20` の残件から、座間市の `zama-seismic-diagnosis`、`zama-women-startup`、三浦市の `miura-birth-bonus` を公式一次情報で確認する。生成データの制度名が広すぎる可能性が高いため、公式制度が存在する場合は正確な制度名・上限額へ置換し、存在しない場合は抑止する
+- [x] 神奈川Batch 37として座間市2件・三浦市1件を公式確認済み追加（耐震診断および耐震改修工事補助制度、創業事業補助金、三浦市妊婦のための支援給付）
+- [x] 採用した公式出典URL 7件を確認対象に追加。座間市公式の耐震診断および耐震改修工事補助制度、令和8年度木造住宅耐震相談、創業・展示会出展・設備投資を応援、座間市の創業者支援、空き店舗活用事業、三浦市公式の妊婦のための支援給付、子育て・出産に関する手当を確認
+- [x] 生成データの制度名・金額・対象条件ずれを補正（座間市耐震診断は自己負担なしではなく耐震診断上限5万円・耐震改修工事等最大93万円へ、女性起業支援は女性限定ではない創業事業補助金へ、三浦市出産祝い金は妊婦支援給付・妊娠届出時5万円＋こども1人5万円へ補正）
+- [x] 神奈川Batch 37の追加後検証（公式URL 200確認、ESLint、coverage、raw gap監査、lint、build、deadline audit、link audit）。coverage failures 0、公式確認済みactiveは1,557件、神奈川県ローカル公式確認済みは105件、activeWithoutOfficialSourceは3,395件。buildは3,979ページ生成、deadline audit failures 0、link auditは初回に既存外部URLの一時的なECONNRESETでbroken 1、再実行で3,977ファイルから146,438リンク抽出・8,491件監査・broken 0。神奈川県の未照合raw slugは25件から22件に減少
+- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 20` の残件から、三浦市の `miura-childcare-subsidy`、`miura-housing-purchase`、`miura-infertility` を公式一次情報で確認する。生成データの制度名が広すぎる可能性が高いため、公式制度が存在する場合は正確な制度名・上限額へ置換し、存在しない場合は抑止する
 - [ ] push / 公開反映は明示確認後に実行
