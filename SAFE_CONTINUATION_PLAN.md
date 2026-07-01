@@ -1047,3 +1047,25 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run audit:links`: broken 0。3,774ファイルから137,335リンク抽出、8,066件監査。
 - リンク監査中に既存の `meiji-yasuda-life-childcare-community` の公式URL `https://www.meijiyasuda.co.jp/profile/society/` が監査環境からtimeoutすることを検出。直接 `curl` でも20秒timeoutだったため、公式確認済みデータ本体は残しつつ、HTML出力の壊れリンクを避けるため `src/data/grants/link-audit-suppressions.ts` に追加した。
 - 再リンク監査中に既存の `fukusaki-child-medical-2026` の福崎町公式URL 5件、`hiroshima-sme-energy-saving-equipment-subsidy-2026` の広島県公式PDF 2件、`koutou-gakkou-shugaku-shienkin` の文科省公式PDF 1件が404となることを検出。今回の本庄市追加とは別件だが、HTML出力の壊れリンクを避けるため `src/data/grants/link-audit-suppressions.ts` に追加した。
+
+## 2026-07-01 埼玉Batch 18 追加ログ
+
+埼玉県の未公式確認slugから、さいたま市の介護予防高齢者住環境改善支援事業、女性起業支援補助金の公式確認不可抑止、介護施設等整備補助金の公式確認不可抑止、移住・定住促進支援金の公式確認不可抑止4件を `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データの「高齢者住宅バリアフリー改修補助金・上限30万円」「女性起業支援補助金・最大100万円」「地域密着型介護施設整備費・最大500万円」「東京23区からの移住支援金」などの表現を、さいたま市公式ページ/PDFで確認できる現行制度または公式確認不可の抑止レコードへ補正した。
+
+追加:
+
+- `saitama-barrier-free`: さいたま市「介護予防高齢者住環境改善支援事業」。市内に1年以上居住し、在宅生活、介護保険料滞納なし、生活機能チェックで身体機能低下により要介護状態等となるおそれが高いと判定された65歳以上が対象。手すり取付け、段差解消、床・通路面材料変更、扉取替え、便器取替え等について、介護保険料第1から2段階は対象経費相当額・上限15万円、第3段階以上は3分の2・上限10万円。
+- `saitama-women-startup`: さいたま市公式の創業支援カテゴリでは、創業・金融相談、特定創業支援等事業の証明、中小企業資金融資等は確認できるが、生成データの女性起業家向け最大100万円補助は現行の市公式補助制度として確認できないため通常一覧から除外。
+- `saitama-nursing-home-reform`: さいたま市公式の介護保険、高齢福祉、高齢介護サービス案内では、介護保険制度、サービス事業所検索、施設一覧、高齢者福祉サービス等は確認できるが、生成データの介護施設等整備補助金・最大500万円は現行の申請可能な公式補助制度として確認できないため通常一覧から除外。
+- `saitama-migration-bonus`: さいたま市公式の住まい・引越し、住まい・暮らしカテゴリでは、転出・転入・転居、市営住宅、賃貸住宅への入居支援、既存住宅ガイドブック等は確認できるが、生成データの移住・定住促進支援金・世帯最大100万円は現行の市公式支援金として確認できないため通常一覧から除外。
+
+確認:
+
+- 新規公式URL/PDF 11件は追加後にすべて200で到達確認済み。
+- 明治安田の既存 `meiji-yasuda-life-childcare-community` は、前回リンク監査で抑制したtimeout URLを `officialUrl` に残していたため、実行時は公式URLなし扱いになる一方、`audit:deadlines` は公式URLありと判定して期限切れ詳細ページを期待していた。到達可能な明治安田公式「地元の元気プロジェクト」に `officialUrl` を差し替え、詳細生成と期限監査の前提を揃えた。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/data/grants/verified-ngo-national-2026.ts src/lib/grants.ts`: エラー0。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,472件、期限切れ117件、埼玉県ローカル公式確認済みは96件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 3,782 件生成。
+- `npm run audit:deadlines`: failures 0。`saitama-women-startup`、`saitama-nursing-home-reform`、`saitama-migration-bonus` と `meiji-yasuda-life-childcare-community` の期限切れ詳細ページ生成・noindex・公開一覧除外を確認。
+- `npm run audit:links`: broken 0。3,780ファイルから137,707リンク抽出、8,084件監査。

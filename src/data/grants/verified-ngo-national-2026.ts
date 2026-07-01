@@ -593,8 +593,8 @@ export const verifiedNgoNationalGrants2026: Grant[] = [
         content: '<p>明治安田の地域貢献活動や子育て支援関連の最新情報は、公式サイトで確認してください。</p>'
       }
     ],
-    officialUrl: 'https://www.meijiyasuda.co.jp/profile/society/',
-    sourceName: '明治安田 社会貢献活動',
+    officialUrl: 'https://www.meijiyasuda.co.jp/brand/jimotonogenki/',
+    sourceName: '明治安田 地元の元気プロジェクト',
     sourceUrls: [
       'https://www.meijiyasuda.co.jp/profile/society/',
       'https://www.meijiyasuda.co.jp/brand/jimotonogenki/'
