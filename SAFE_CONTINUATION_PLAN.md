@@ -1498,3 +1498,23 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,883 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は528件、activeWithDeadlineは397件。
 - `npm run audit:links`: broken 0。3,881ファイルから142,566リンク抽出、8,306件監査。
+
+## 2026-07-02 神奈川Batch 21 追加ログ
+
+神奈川県の未公式確認slug差分から、川崎市歯周病検診、高齢者を対象とした定期の肺炎球菌感染症予防接種、川崎市結婚新生活支援事業補助金の実施なし抑止の3件を `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データの「高齢者歯科健診無料」「高齢者予防接種費用助成」「結婚新生活支援最大60万円」を、公式ページ本文で確認できる現行制度または実施なしへ補正した。
+
+追加:
+
+- `kawasaki-senior-dental`: 川崎市「歯周病検診」。年度中に40歳、50歳、60歳、70歳になる川崎市民が対象。問診・歯周組織検査を市内登録医療機関で受診でき、実施期間は7月1日から3月31日、費用は無料。
+- `kawasaki-vaccination-support`: 川崎市「高齢者を対象とした定期の肺炎球菌感染症予防接種」。65歳の方、または満60歳から65歳未満で対象機能障害がある方が対象。自己負担金は5,000円で、生活保護世帯、市・県民税非課税世帯等は免除対象。
+- `kawasaki-newlywed-rent`: 川崎市公式FAQで、結婚新生活支援事業（結婚助成金）は現時点では実施していないと確認。生成データの結婚新生活支援事業補助金・最大60万円は通常一覧から除外。
+
+確認:
+
+- 採用した公式出典URL 5件はすべて200で到達確認。川崎市公式の歯周病検診、歯周病検診FAQ、高齢者肺炎球菌定期接種、市外定期接種払い戻し、結婚新生活支援事業FAQを確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,524件、期限切れ132件、神奈川県ローカル公式確認済みは72件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 3,895 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は529件、activeWithDeadlineは397件。
+- `npm run audit:links`: broken 0。3,893ファイルから142,806リンク抽出、8,323件監査。
