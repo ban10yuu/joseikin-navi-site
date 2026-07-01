@@ -829,7 +829,6 @@ export const verifiedHyogoMunicipalChildcareGrants2026: Grant[] = [
       'https://www.town.shinonsen.hyogo.jp/page/?mode=detail&page_id=f7212873d11f53b237c3e6b84abd5d2b',
       'https://www.town.shinonsen.hyogo.jp/page/?mode=detail&page_id=79fd4eab6e9854d254ae8e7e87fb0c57',
       'https://www.town.shinonsen.hyogo.jp/page/?mode=detail&page_id=e96dcd302f2977816186fe7599675629',
-      'https://www.town.shinonsen.hyogo.jp/uppdf/1778718810.pdf',
     ],
     sourceName: '新温泉町 乳幼児等・こども医療費助成制度',
   }),
