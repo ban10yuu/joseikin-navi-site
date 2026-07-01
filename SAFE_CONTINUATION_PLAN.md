@@ -1598,3 +1598,24 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,917 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は535件、activeWithDeadlineは400件。
 - `npm run audit:links`: broken 0。3,915ファイルから143,704リンク抽出、8,356件監査。
+
+## 2026-07-02 神奈川Batch 26 追加ログ
+
+神奈川県の未公式確認slug差分を全verifiedファイルと照合し直し、相模原市移住・定住促進補助金、藤沢市不妊治療費助成制度、横須賀市保育料軽減制度の3件を `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データの「東京圏移住支援金最大100万円」「不妊治療費助成最大10万円」「第2子半額・第3子以降無料」を、公式ページ本文で確認できる制度名・対象・上限額・重複状況へ補正した。
+
+追加:
+
+- `sagamihara-migration-support`: 生成データの東京圏からの移住・就職による世帯最大100万円支援は、相模原市公式の現行制度として確認できないため通常一覧から除外。公式に確認できる結婚新生活・移住定住支援事業は、婚姻等に伴う引越費用最大15万円で、既存 `sagamihara-newlywed-housing` に集約済み。
+- `fujisawa-infertility`: 生成データの不妊治療費助成最大10万円を補正。藤沢市公式の現行制度は不妊治療費（先進医療分）助成事業で、先進医療費の10分の7・上限5万円、治療終了日から6か月以内に申請。既存 `fujisawa-infertility-treatment` に集約済みのため通常一覧から除外。
+- `yokosuka-childcare-subsidy`: 横須賀市「利用者負担額（保育料）の無償化・多子減免」。0～2歳児クラスは市民税所得割額115,000円未満まで市独自に無償化を拡充。多子減免は生計同一の兄・姉がいる場合、第2子は約半額、第3子以降は0円。認可外保育施設等は3～5歳児クラス相当月額37,000円、0～2歳児クラス対象世帯月額42,000円上限。
+
+確認:
+
+- 採用した公式出典URL 5件はすべて200で到達確認。相模原市公式の結婚新生活・移住定住支援事業、藤沢市公式の不妊治療費（先進医療分）助成事業と案内PDF、横須賀市公式の利用者負担額（保育料）及び給食費、幼児教育・保育無償化を確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,534件、期限切れ137件、神奈川県ローカル公式確認済みは82件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 3,923 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は537件、activeWithDeadlineは400件。
+- `npm run audit:links`: broken 0。3,921ファイルから143,932リンク抽出、8,365件監査。
+- Batch 26後の神奈川県未公式候補再抽出では、`kawasaki-migration-bonus`、`kawasaki-uij-turn`、`yokosuka-telework-bonus` が残る。`sapporo-childcare-subsidy` は抽出上の誤検出候補のため次回に生成元オブジェクト境界を確認する。
