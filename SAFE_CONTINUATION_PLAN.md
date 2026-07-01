@@ -1964,3 +1964,26 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 4,000 件生成。
 - `npm run audit:deadlines`: 初回はビルド完了前の並行実行で `out/` 未生成HTMLを読みに行き失敗。ビルド完了後の再実行で failures 0。期限候補は555件、activeWithDeadlineは406件、期限切れ149件。
 - `npm run audit:links`: broken 0。3,998ファイルから147,582リンク抽出、8,558件監査。
+
+## 2026-07-02 神奈川Batch 43 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県` の残7件から、`city-batch71.ts` の南足柄市3件を `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データの「住宅取得支援補助金」「不妊治療費助成」「移住支援金」を、南足柄市公式ページ本文および神奈川県公式移住情報で確認できる現行制度名・補助額・対象者へ補正した。
+
+追加:
+
+- `minamiashigara-housing-purchase`: 南足柄市「空き家取得費助成金」。一般住宅取得ではなく、南足柄市空き家バンク事業を通じて空き家を購入し定住する子育て世帯向け。売買契約書に記載された代金総額の2分の1、上限50万円。申請は転入届から3か月以内、予算到達で受付終了。
+- `minamiashigara-infertility`: 南足柄市「不妊治療費（先進医療分）助成事業」。医療保険適用の体外受精・顕微授精と併用して実施した先進医療費について、10分の7、1回上限5万円を助成。申請期限は治療終了日から1年以内。
+- `minamiashigara-migration-bonus`: 南足柄市「結婚新生活移住支援補助金」。東京圏からの一般移住支援金最大100万円ではなく、婚姻等を機に市内で新生活を始める世帯向けに、住宅購入・リフォーム・賃借費用を2人とも29歳以下上限70万円、39歳以下上限30万円で補助。令和7年度受付終了、令和8年度受付は2026年7月頃開始予定。
+
+確認:
+
+- 採用した公式出典URL 9件を確認対象に追加。南足柄市公式の空き家取得費助成金、移住定住支援策一覧、住宅支援（空き家バンク）、空き家対策専用住宅ローン、不妊治療費（先進医療分）助成事業、結婚新生活移住支援補助金、移住支援ページ、神奈川県公式の県内市町村移住・定住支援、西湘足柄移住コンシェルジュを確認。
+- 採用した公式出典URL 9件はすべて200で到達確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 15`: 神奈川県の未照合raw slugは7件から4件に減少。次の候補は `minamiashigara-nursing-equipment`、`minamiashigara-scholarship`、`minamiashigara-seismic-diagnosis`、`minamiashigara-women-startup`。
+- `git diff --check -- SAFE_CONTINUATION_PLAN.md src/data/grants/verified-local-misc-2026.ts tasks/todo.md`: 問題なし。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,573件、神奈川県ローカル公式確認済みは121件、activeWithoutOfficialSourceは3,377件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 4,003 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は555件、activeWithDeadlineは406件、期限切れ149件。
+- `npm run audit:links`: broken 0。4,001ファイルから147,808リンク抽出、8,569件監査。

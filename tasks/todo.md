@@ -557,5 +557,9 @@
 - [x] 採用した公式出典URL 10件を確認対象に追加。逗子市公式の創業・起業をお考えの方へ、特定創業支援等事業、令和8年度年次計画PDF、男女平等参画関連PDF、南足柄市公式の妊婦のための支援給付、出産・子育て応援事業、幼児教育・保育の無償化、保育料について、認可外保育施設等、幼稚園・認定こども園ページを確認
 - [x] 生成データの制度名・金額・対象条件ずれを補正（女性起業支援補助金最大50万円は女性限定の現金補助ではなく特定創業支援等事業による登録免許税軽減等へ、出産祝い金は妊婦支援給付・妊婦1人5万円＋こども1人5万円へ、保育料軽減月額最大3万円は幼保無償化・認可外上限3.7万円/4.2万円・多子軽減へ補正）
 - [x] 神奈川Batch 42の追加後検証（公式URL 200確認、ESLint、coverage、raw gap監査、lint、build、deadline audit、link audit）。公式URL 10件はすべて200、対象ESLintエラー0、coverage failures 0、公式確認済みactiveは1,570件、神奈川県ローカル公式確認済みは118件、activeWithoutOfficialSourceは3,380件。buildは4,000ページ生成、deadline audit failures 0、link auditは3,998ファイルから147,582リンク抽出・8,558件監査・broken 0。神奈川県の未照合raw slugは10件から7件に減少
-- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 20` の残件から、南足柄市の `minamiashigara-housing-purchase`、`minamiashigara-infertility`、`minamiashigara-migration-bonus` を公式一次情報で確認する。生成データの制度名が広すぎる可能性が高いため、公式制度が存在する場合は正確な制度名・上限額へ置換し、存在しない場合は抑止する
+- [x] 神奈川Batch 43として南足柄市3件を公式確認済み追加（空き家取得費助成金、不妊治療費（先進医療分）助成事業、結婚新生活移住支援補助金）
+- [x] 採用した公式出典URL 9件を確認対象に追加。南足柄市公式の空き家取得費助成金、移住定住支援策一覧、住宅支援（空き家バンク）、空き家対策専用住宅ローン、不妊治療費（先進医療分）助成事業、結婚新生活移住支援補助金、移住支援ページ、神奈川県公式の県内市町村移住・定住支援、西湘足柄移住コンシェルジュを確認
+- [x] 生成データの制度名・金額・対象条件ずれを補正（住宅取得支援補助金最大50万円は空き家バンク経由の空き家取得費助成金・2分の1/上限50万円へ、不妊治療費助成最大15万円は先進医療費10分の7/上限5万円へ、東京圏からの一般移住支援金最大100万円は公式確認済みの結婚新生活移住支援補助金・上限70万円へ補正）
+- [x] 神奈川Batch 43の追加後検証（公式URL 200確認、ESLint、coverage、raw gap監査、lint、build、deadline audit、link audit）。公式URL 9件はすべて200、対象ESLintエラー0、coverage failures 0、公式確認済みactiveは1,573件、神奈川県ローカル公式確認済みは121件、activeWithoutOfficialSourceは3,377件。buildは4,003ページ生成、deadline audit failures 0、link auditは4,001ファイルから147,808リンク抽出・8,569件監査・broken 0。神奈川県の未照合raw slugは7件から4件に減少
+- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 20` の残件から、南足柄市の `minamiashigara-nursing-equipment`、`minamiashigara-scholarship`、`minamiashigara-seismic-diagnosis`、`minamiashigara-women-startup` を公式一次情報で確認する。生成データの制度名が広すぎる可能性が高いため、公式制度が存在する場合は正確な制度名・上限額へ置換し、存在しない場合は抑止する
 - [ ] push / 公開反映は明示確認後に実行
