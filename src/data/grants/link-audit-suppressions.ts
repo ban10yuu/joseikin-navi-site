@@ -42,6 +42,16 @@ export const suppressedOfficialUrls = new Set<string>([
   'https://www.joho-fukuoka.or.jp/startup/',
   // ERR: rendered href audit found repeated timeout
   'https://www.chiba-chiikishigoto.jp/useful/',
+  // ERR: rendered href audit found repeated timeout
+  'https://www.city.omuta.lg.jp/kiji0031060/index.html',
+  // ERR: rendered href audit found repeated timeout
+  'https://www.city.omuta.lg.jp/kiji00315758/index.html',
+  // ERR: rendered href audit found repeated timeout
+  'https://www.city.omuta.lg.jp/kiji00321463/index.html',
+  // ERR: rendered href audit found repeated timeout
+  'https://www.city.omuta.lg.jp/kiji00321463/3_21463_129583_up_3xtttxl2.pdf',
+  // ERR: rendered href audit found repeated timeout
+  'https://www.city.omuta.lg.jp/kiji00321463/3_21463_129736_up_anuye7ew.pdf',
   // ERR: URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
   'https://www.jrw-anshin-f.or.jp/',
   // 404: Not Found
