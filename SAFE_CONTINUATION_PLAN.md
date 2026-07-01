@@ -2037,3 +2037,28 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 1. 東京都の未照合raw slug 279件から、葛飾区・江戸川区など自治体単位で公式一次情報確認を進める。
 2. もしくは `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、公式確認しやすい創業支援系を公式確認済みデータへ置換し、重複の実害をさらに減らす。
 3. raw seed自体の削除・統合は影響範囲が大きいため、まずはverified側で公式確認済み置換を積み上げる。
+
+## 2026-07-02 東京都Batch 45 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の先頭候補から、葛飾区5件を `src/data/grants/verified-tokyo-local-2026.ts` に追加・抑止した。生成データの「放課後子ども教室事業」「出産祝い金」「防災用品購入助成事業」「子育て支援給付金」「介護住宅改修助成事業」を、葛飾区公式ページで確認できる現行制度または助成金ではない状態へ補正した。
+
+追加:
+
+- `katsushika-afterschool`: 葛飾区「放課後子ども事業（わくわくチャレンジ広場）」は小学生の放課後等の居場所事業で、保護者向け助成金・給付金ではないため通常一覧から除外。
+- `katsushika-birth-bonus`: 現行の葛飾区妊婦支援給付金は既存slug `katsushika-pregnancy-support-benefit` で公式確認済み掲載済みのため、旧生成slugは重複防止として通常一覧から除外。
+- `katsushika-bousai-equipment`: 葛飾区「消火器購入支援事業補助金」。戸建住宅に居住する区民向けに、新品の消火器等の購入費等を2分の1・上限5,000円補助。受付は2026年6月29日から2027年2月26日必着分まで。
+- `katsushika-childcare-subsidy`: 葛飾区「物価高対応子育て応援手当」。対象児童1人あたり2万円の令和7年度臨時手当。令和8年3月31日までの出生児を対象に含む事業のため、通常一覧では期限切れ扱い。
+- `katsushika-nursing-home-reform`: 葛飾区「介護保険住宅改修費・高齢者住宅設備改修費助成」。介護保険住宅改修は対象工事20万円まで、高齢者住宅設備改修は浴槽37.9万円、流し台・洗面台15.6万円、階段昇降機本体等97.9万円・設置費35.3万円等を確認。
+
+確認:
+
+- 採用した公式出典URL 9件はすべて200で到達確認。葛飾区公式のわくわくチャレンジ広場、妊婦支援給付金、妊娠・出産一覧、消火器購入支援事業補助金、震災への家庭でのそなえ、物価高対応子育て応援手当、各種手当・医療費助成一覧、介護保険住宅改修費申請書等、住宅設備改修費助成を確認。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 15`: 東京都の未照合raw slugは279件から274件に減少。次の候補は `katsushika-migration-bonus`、`katsushika-telework-bonus`、江戸川区各slug。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 20`: 全国未照合raw slugは3,369件から3,364件に減少。
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,579件、東京都ローカル公式確認済みは144件、activeWithoutOfficialSourceは3,368件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 4,017 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は561件、activeWithDeadlineは409件、期限切れ152件。
+- `npm run audit:links`: broken 0。4,015ファイルから148,489リンク抽出、8,602件監査。
