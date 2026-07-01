@@ -1794,3 +1794,24 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,965 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は547件、activeWithDeadlineは403件、期限切れ144件。
 - `npm run audit:links`: broken 0。3,963ファイルから145,754リンク抽出、8,456件監査。
+
+## 2026-07-02 神奈川Batch 35 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県` の残31件から、`city-batch71.ts` の座間市3件を `src/data/grants/verified-local-misc-2026.ts` に追加・抑止した。生成データの「保育料軽減補助金」「住宅取得支援補助金」「不妊治療費助成」を、座間市公式ページ本文で確認できる現行制度または公式確認不可の状態へ補正した。
+
+追加:
+
+- `zama-childcare-subsidy`: 座間市「保育料の軽減・副食費免除」。兄弟姉妹で保育所等を利用する場合、2人目は半額、3人目以降は無料。市町村民税所得割額57,700円未満世帯は年齢にかかわらず第2子半額・第3子以降無料。ひとり親世帯または障害者がいる世帯で所得割額77,101円未満の場合は第2子以降無料。副食費免除要件も確認。
+- `zama-housing-purchase`: 座間市「子育て世帯等住宅リフォーム補助制度」。住宅取得ではなく、令和8年度住宅リフォーム補助制度内の子育て世帯向けリフォーム補助へ補正。18歳以下または妊婦が属する世帯等が対象で、工事金額（税抜）の2分の1、上限30万円。募集期間は2026年8月26日から9月8日。
+- `zama-infertility`: 座間市独自の不妊治療費助成としては公式確認不可のため抑止。公式サイトでは「不妊に悩む方へ」と「不育症を知っていますか？」の情報提供・相談案内を確認。座間市こども計画案への意見募集結果PDFでは、市独自の不妊治療助成を現在予定していない旨を確認。
+
+確認:
+
+- 採用した公式出典URL 9件はすべて200で到達確認。座間市公式の保育料について、令和7年度保育料金表、令和8年度保育所等利用申込案内、令和8年度住宅リフォーム補助制度、子育て世帯等住宅リフォーム補助金交付要綱、同申請書、座間市公式の不妊に悩む方へ、不育症を知っていますか？、座間市こども計画案への意見募集結果PDFを確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 15`: 神奈川県の未照合raw slugは31件から28件に減少。次の候補は `zama-migration-bonus`、`zama-nursing-equipment`、`zama-scholarship` など。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,553件、神奈川県ローカル公式確認済みは101件、activeWithoutOfficialSourceは3,401件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 3,969 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は549件、activeWithDeadlineは404件、期限切れ145件。
+- `npm run audit:links`: broken 0。3,967ファイルから145,981リンク抽出、8,469件監査。
