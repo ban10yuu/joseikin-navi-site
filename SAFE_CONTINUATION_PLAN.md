@@ -1857,3 +1857,24 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,979 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は551件、activeWithDeadlineは404件、期限切れ147件。
 - `npm run audit:links`: 初回は既存外部URL `https://swf.or.jp/josei/` の一時的な `ECONNRESET` でbroken 1。再実行で broken 0。3,977ファイルから146,438リンク抽出、8,491件監査。
+
+## 2026-07-02 神奈川Batch 38 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県` の残22件から、`city-batch71.ts` の三浦市3件を `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データの「保育料軽減補助金」「住宅取得支援補助金」「不妊治療費助成」を、三浦市公式ページ本文と公式PDFで確認できる現行制度名・補助額・対象者へ補正した。
+
+追加:
+
+- `miura-childcare-subsidy`: 三浦市「幼児教育・保育の無償化と保育料軽減」。認可保育所等3～5歳児は保育料0円、認可外保育施設等は3～5歳児クラス月額上限3万7,000円、住民税非課税世帯の0～2歳児クラス月額上限4万2,000円。令和8年度保育料PDFで多子世帯・母子父子家庭等の軽減も確認。生成データの月額最大3万円を公式内容へ補正。
+- `miura-housing-purchase`: 三浦市「住宅リフォーム助成事業」。住宅取得ではなく、市内施工業者による住宅・マンションのリフォーム工事へ一律8万円を助成する現行制度へ補正。令和8年度は20万円以上の対象工事が対象で、第2期は2026年7月1日から7月24日、第3期は2026年10月1日から10月26日。
+- `miura-infertility`: 三浦市「不妊治療（先進医療分）助成事業」。医療保険適用の体外受精・顕微授精と併用して実施された先進医療費を10分の7、上限5万円で助成。申請は治療終了日または医師判断による中断日から1年以内。生成データの1回最大15万円を公式制度へ補正。
+
+確認:
+
+- 採用した公式出典URL 9件はすべて200で到達確認。三浦市公式の幼児教育・保育の無償化、保育園を利用したい方へ、令和8年度保育料PDF、令和8年度保育所等入園案内PDF、住宅リフォーム助成事業、住まい・住宅、不妊治療（先進医療）に対する医療費助成、同案内PDF、妊娠・出産ページを確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 15`: 神奈川県の未照合raw slugは22件から19件に減少。次の候補は `miura-migration-bonus`、`miura-nursing-equipment`、`miura-scholarship` など。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,560件、神奈川県ローカル公式確認済みは108件、activeWithoutOfficialSourceは3,392件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 3,982 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は552件、activeWithDeadlineは405件、期限切れ147件。
+- `npm run audit:links`: broken 0。3,980ファイルから146,663リンク抽出、8,503件監査。

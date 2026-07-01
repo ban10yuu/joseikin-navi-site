@@ -537,5 +537,9 @@
 - [x] 採用した公式出典URL 7件を確認対象に追加。座間市公式の耐震診断および耐震改修工事補助制度、令和8年度木造住宅耐震相談、創業・展示会出展・設備投資を応援、座間市の創業者支援、空き店舗活用事業、三浦市公式の妊婦のための支援給付、子育て・出産に関する手当を確認
 - [x] 生成データの制度名・金額・対象条件ずれを補正（座間市耐震診断は自己負担なしではなく耐震診断上限5万円・耐震改修工事等最大93万円へ、女性起業支援は女性限定ではない創業事業補助金へ、三浦市出産祝い金は妊婦支援給付・妊娠届出時5万円＋こども1人5万円へ補正）
 - [x] 神奈川Batch 37の追加後検証（公式URL 200確認、ESLint、coverage、raw gap監査、lint、build、deadline audit、link audit）。coverage failures 0、公式確認済みactiveは1,557件、神奈川県ローカル公式確認済みは105件、activeWithoutOfficialSourceは3,395件。buildは3,979ページ生成、deadline audit failures 0、link auditは初回に既存外部URLの一時的なECONNRESETでbroken 1、再実行で3,977ファイルから146,438リンク抽出・8,491件監査・broken 0。神奈川県の未照合raw slugは25件から22件に減少
-- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 20` の残件から、三浦市の `miura-childcare-subsidy`、`miura-housing-purchase`、`miura-infertility` を公式一次情報で確認する。生成データの制度名が広すぎる可能性が高いため、公式制度が存在する場合は正確な制度名・上限額へ置換し、存在しない場合は抑止する
+- [x] 神奈川Batch 38として三浦市3件を公式確認済み追加（幼児教育・保育の無償化と保育料軽減、住宅リフォーム助成事業、不妊治療（先進医療分）助成事業）
+- [x] 採用した公式出典URL 9件を確認対象に追加。三浦市公式の幼児教育・保育の無償化、保育園を利用したい方へ、令和8年度保育料PDF、令和8年度保育所等入園案内PDF、住宅リフォーム助成事業、住まい・住宅、不妊治療（先進医療）に対する医療費助成、同案内PDF、妊娠・出産ページを確認
+- [x] 生成データの制度名・金額・対象条件ずれを補正（保育料軽減補助金は幼保無償化・認可外保育上限3.7万円/4.2万円と令和8年度保育料軽減へ、住宅取得支援は住宅取得ではなく住宅リフォーム助成・一律8万円へ、不妊治療費助成は先進医療費10分の7・上限5万円へ補正）
+- [x] 神奈川Batch 38の追加後検証（公式URL 200確認、ESLint、coverage、raw gap監査、lint、build、deadline audit、link audit）。coverage failures 0、公式確認済みactiveは1,560件、神奈川県ローカル公式確認済みは108件、activeWithoutOfficialSourceは3,392件。buildは3,982ページ生成、deadline audit failures 0、link auditは3,980ファイルから146,663リンク抽出・8,503件監査・broken 0。神奈川県の未照合raw slugは22件から19件に減少
+- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 20` の残件から、三浦市の `miura-migration-bonus`、`miura-nursing-equipment`、`miura-scholarship` を公式一次情報で確認する。生成データの制度名が広すぎる可能性が高いため、公式制度が存在する場合は正確な制度名・上限額へ置換し、存在しない場合は抑止する
 - [ ] push / 公開反映は明示確認後に実行
