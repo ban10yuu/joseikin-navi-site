@@ -1069,3 +1069,26 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,782 件生成。
 - `npm run audit:deadlines`: failures 0。`saitama-women-startup`、`saitama-nursing-home-reform`、`saitama-migration-bonus` と `meiji-yasuda-life-childcare-community` の期限切れ詳細ページ生成・noindex・公開一覧除外を確認。
 - `npm run audit:links`: broken 0。3,780ファイルから137,707リンク抽出、8,084件監査。
+
+## 2026-07-01 埼玉Batch 19 追加ログ
+
+埼玉県・越谷市・川口市の未公式確認slug差分から、埼玉県多子世帯応援クーポン事業、埼玉県住宅用省エネ設備導入補助金、埼玉県高齢者在宅生活支援事業、越谷市結婚新生活支援事業補助金、越谷市テレワーク環境整備補助金、川口市中小企業経営革新補助金の6件を `src/data/grants/verified-local-misc-2026.ts` に追加した。いずれも生成データの公式URLまたは候補カテゴリが404、または現行の制度個別ページを確認できないため、通常一覧から外す抑止レコードとして整理した。HTMLに出す `officialUrl` / `sourceUrls` は、404の旧URLではなく、200確認済みの関連公式カテゴリ・現行関連制度ページに限定した。
+
+追加:
+
+- `saitama-child-support`: 旧生成URL `https://www.pref.saitama.lg.jp/a0607/tashi-coupon.html` は404。埼玉県公式の子育て支援カテゴリは200で確認できるが、第3子以降出生世帯へ最大10万円分のクーポンを支給する現行制度ページは確認できないため通常一覧から除外。
+- `saitama-housing-eco`: 旧生成URL `https://www.pref.saitama.lg.jp/a0502/shoene-hojo.html` は404。埼玉県公式では住宅における断熱窓改修促進補助金は確認できるが、蓄電池・V2H・HEMS等をまとめて最大35万円補助する現行制度ページは確認できないため通常一覧から除外。
+- `saitama-senior-welfare`: 旧生成URL `https://www.pref.saitama.lg.jp/a0603/koureisha/index.html` は404。埼玉県公式の福祉カテゴリは200で確認できるが、配食・緊急通報・外出支援等を月額最大5万円相当で県が一括支援する現行制度ページは確認できないため通常一覧から除外。高齢者在宅福祉サービスは市町村ごとの制度として確認する。
+- `koshigaya-newlywed-rent`: 候補URL `https://www.city.koshigaya.saitama.jp/kurashi_shisei/kurashi/sumai/kekkon_shinseikatsu.html` は404。越谷市公式の住まいカテゴリは200で確認できるが、結婚新生活支援事業補助金の現行制度ページは確認できないため通常一覧から除外。
+- `koshigaya-telework-bonus`: 越谷市公式の事業者向けカテゴリは200で確認できるが、商工業カテゴリ候補は404で、テレワーク環境整備補助金・最大10万円の現行制度ページは確認できないため通常一覧から除外。
+- `kawaguchi-sme-support-v2`: 川口市公式の事業者向けカテゴリは200で確認できるが、候補カテゴリは404で、中小企業経営革新補助金・最大50万円の現行制度ページは確認できないため通常一覧から除外。
+
+確認:
+
+- 採用した公式出典URL 6件は追加後にすべて200で到達確認済み。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,472件、期限切れ123件、埼玉県ローカル公式確認済みは96件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 3,790 件生成。
+- `npm run audit:deadlines`: failures 0。今回追加した6件は期限切れ詳細ページ生成・noindex・公開一覧除外を確認。
+- `npm run audit:links`: broken 0。3,788ファイルから138,143リンク抽出、8,096件監査。
