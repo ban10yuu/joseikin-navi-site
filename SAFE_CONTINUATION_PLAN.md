@@ -1941,3 +1941,26 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,995 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は555件、activeWithDeadlineは406件、期限切れ149件。
 - `npm run audit:links`: broken 0。3,993ファイルから147,352リンク抽出、8,543件監査。
+
+## 2026-07-02 神奈川Batch 42 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県` の残10件から、`city-batch71.ts` の逗子市1件・南足柄市2件を `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データの「女性起業支援補助金」「出産祝い金」「保育料軽減補助金」を、逗子市・南足柄市公式ページ本文と公式PDFで確認できる現行制度名・支援内容・対象者へ補正した。
+
+追加:
+
+- `zushi-women-startup`: 逗子市「特定創業支援等事業・逗子創業スクール」。女性限定の現金補助金ではなく、逗子創業スクール、創業セミナー、特定創業支援等事業の証明による登録免許税軽減、創業関連保証特例、日本政策金融公庫の貸付利率引き下げ等へ補正。令和8年度年次計画PDFで創業スクール開催等の継続方針も確認。
+- `minamiashigara-birth-bonus`: 南足柄市「妊婦のための支援給付」。1回目は妊婦1人5万円、2回目は妊娠したこども1人につき5万円。令和7年4月1日以降に妊娠届出または出産した方は旧出産・子育て応援金ではなく同給付を参照する旨を確認。
+- `minamiashigara-childcare-subsidy`: 南足柄市「幼児教育・保育の無償化と保育料多子軽減」。3～5歳児の保育料無償化、0～2歳児の住民税非課税世帯等の無償化、認可外保育施設等の月額上限3万7,000円または4万2,000円、0～2歳児保育料の多子軽減へ補正。
+
+確認:
+
+- 採用した公式出典URL 10件を確認対象に追加。逗子市公式の創業・起業をお考えの方へ、特定創業支援等事業、令和8年度年次計画PDF、男女平等参画関連PDF、南足柄市公式の妊婦のための支援給付、出産・子育て応援事業、幼児教育・保育の無償化、保育料について、認可外保育施設等、幼稚園・認定こども園ページを確認。
+- 採用した公式出典URL 10件はすべて200で到達確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 15`: 神奈川県の未照合raw slugは10件から7件に減少。次の候補は `minamiashigara-housing-purchase`、`minamiashigara-infertility`、`minamiashigara-migration-bonus` など。
+- `git diff --check -- SAFE_CONTINUATION_PLAN.md src/data/grants/verified-local-misc-2026.ts tasks/todo.md`: 問題なし。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,570件、神奈川県ローカル公式確認済みは118件、activeWithoutOfficialSourceは3,380件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 4,000 件生成。
+- `npm run audit:deadlines`: 初回はビルド完了前の並行実行で `out/` 未生成HTMLを読みに行き失敗。ビルド完了後の再実行で failures 0。期限候補は555件、activeWithDeadlineは406件、期限切れ149件。
+- `npm run audit:links`: broken 0。3,998ファイルから147,582リンク抽出、8,558件監査。
