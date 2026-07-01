@@ -1458,3 +1458,23 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,873 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は528件、activeWithDeadlineは397件。
 - `npm run audit:links`: broken 0。3,871ファイルから142,112リンク抽出、8,289件監査。
+
+## 2026-07-02 神奈川Batch 19 追加ログ
+
+神奈川県の未公式確認slug差分と次回候補から、藤沢市住宅設備改良費の助成、藤沢市幼稚園教諭等就労奨励助成金、藤沢市幼稚園等住宅手当補助金の3件を `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データまたは次回候補の「住宅設備改良費」「就労奨励助成金」を、公式ページ本文と要綱PDFで確認できる制度名・対象・金額・事前申請条件へ補正した。
+
+追加:
+
+- `fujisawa-disability-housing-equipment`: 藤沢市「住宅設備改良費の助成」。障がいのある在宅者向けに、天井走行式移動リフトは上限100万円、環境制御装置等は上限60万円、浴室・便所・玄関・台所・廊下等の改良工事は上限80万円。工事前・購入前に障がい者支援課で手続きが必要。
+- `fujisawa-kindergarten-employment-incentive`: 藤沢市「幼稚園教諭等就労奨励助成金」。過去1年以内に市内幼稚園等への勤務経験がなく、市内幼稚園または認定こども園へ就職・再就職する幼稚園教諭免許保持者等が対象。助成額は10万円、7万円、5万円、3万円の区分。就労日から3か月以内に申請。
+- `fujisawa-kindergarten-housing-allowance`: 藤沢市「幼稚園等住宅手当補助金」。市内幼稚園等の設置者が幼稚園教諭または保育士へ支給する住宅手当を対象に補助。補助対象経費は1人あたり月額3万円上限で、預かり保育事業の実施状況に応じて補助率1/2、3/4、1/4。
+
+確認:
+
+- 採用した公式出典URL 4件はすべて200で到達確認。藤沢市公式の住宅設備関連、幼稚園教諭等就労奨励助成金、幼稚園等住宅手当補助金、住宅手当補助金交付要綱PDFを確認。旧候補URL `https://www.city.fujisawa.kanagawa.jp/hoiku/youchien-juutakuteate-hojo.html` は404のため出典に採用しない。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,519件、期限切れ131件、神奈川県ローカル公式確認済みは67件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 3,880 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は528件、activeWithDeadlineは397件。
+- `npm run audit:links`: broken 0。3,878ファイルから142,340リンク抽出、8,300件監査。
