@@ -513,5 +513,9 @@
 - [x] 採用した公式出典URL 7件はすべて200で到達確認。綾瀬市公式の奨学金制度、就学援助・奨励金等、木造住宅耐震化補助事業、令和8年度木造住宅耐震化チラシ、商業者支援事業補助金、創業支援等事業、旧創業補助金補助事業者ページを確認
 - [x] 生成データの制度名・金額・対象条件ずれを補正（奨学金月額最大4万円無利子貸与は高校生等向け給付・国公立月額5千円/私立月額1万円へ、耐震診断自己負担なしは補助率3分の2・診断上限4万円等へ、女性起業支援最大50万円は女性限定ではない店舗開業事業・最大200万円へ補正）
 - [x] 神奈川Batch 31の追加後検証（公式URL 200確認、ESLint、coverage、raw gap監査、lint、build、deadline audit、link audit）。coverage failures 0、公式確認済みactiveは1,543件、神奈川県ローカル公式確認済みは91件、activeWithoutOfficialSourceは3,413件。buildは3,952ページ生成、deadline audit failures 0、link auditは3,950ファイルから145,075リンク抽出・8,423件監査・broken 0。神奈川県の未照合raw slugは43件から40件に減少
-- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 20` の残件から、海老名市の `ebina-birth-bonus`、`ebina-childcare-subsidy`、`ebina-housing-purchase` を公式一次情報で確認する。生成データの制度名が広すぎる可能性が高いため、公式制度が存在する場合は正確な制度名・上限額へ置換し、存在しない場合は抑止する
+- [x] 神奈川Batch 32として海老名市3件を公式確認済み追加・補正（妊婦のための支援給付、保育料の無償化・多子軽減、令和8年度住宅取得支援事業補助金）
+- [x] 採用した公式出典URL 6件はすべて200で到達確認。海老名市公式の妊婦のための支援給付、出産・子育て伴走型支援事業、保育料について、一時預かり利用者負担軽減事業、令和8年度住宅取得支援事業補助金、同パンフレットPDFを確認
+- [x] 生成データの制度名・金額・対象条件ずれを補正（出産祝い金最大10万円は妊婦支援給付・妊娠1回5万円＋胎児数×5万円へ、認可外保育料月額最大3万円は保育料無償化・多子軽減等へ、住宅取得支援最大50万円は令和8年度中古住宅取得支援の公式条件へ補正）
+- [x] 神奈川Batch 32の追加後検証（公式URL 200確認、ESLint、coverage、raw gap監査、lint、build、deadline audit、link audit）。coverage failures 0、公式確認済みactiveは1,546件、神奈川県ローカル公式確認済みは94件、activeWithoutOfficialSourceは3,410件。buildは3,956ページ生成、deadline audit failures 0、link auditは3,954ファイルから145,298リンク抽出・8,433件監査・broken 0。神奈川県の未照合raw slugは40件から37件に減少
+- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 20` の残件から、海老名市の `ebina-infertility`、`ebina-migration-bonus`、`ebina-nursing-equipment` を公式一次情報で確認する。生成データの制度名が広すぎる可能性が高いため、公式制度が存在する場合は正確な制度名・上限額へ置換し、存在しない場合は抑止する
 - [ ] push / 公開反映は明示確認後に実行

@@ -1731,3 +1731,24 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,952 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は544件、activeWithDeadlineは401件、期限切れ143件。
 - `npm run audit:links`: broken 0。3,950ファイルから145,075リンク抽出、8,423件監査。
+
+## 2026-07-02 神奈川Batch 32 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県` の残40件から、`city-batch71.ts` の海老名市3件を `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データの「出産祝い金最大10万円」「認可外保育料月額最大3万円」「住宅取得支援補助金最大50万円」を、海老名市公式ページ本文で確認できる現行制度名・支給額・対象者へ補正した。
+
+追加:
+
+- `ebina-birth-bonus`: 海老名市「妊婦のための支援給付」。令和7年4月から出産・子育て応援給付金から移行。妊婦支援給付金1回目は妊娠1回につき5万円、2回目は妊娠している子どもの数×5万円。生成データの多子区分出産祝い金を公式制度へ補正。
+- `ebina-childcare-subsidy`: 海老名市「保育料の無償化・多子軽減」。3～5歳児クラスの月額保育料0円、2歳児以下は市民税額により算定。きょうだいで保育所等を利用する場合は2人目半額、3人目無料。生成データの認可外保育施設月額最大3万円補助を公式内容へ補正。
+- `ebina-housing-purchase`: 海老名市「令和8年度住宅取得支援事業補助金」。子育て世帯支援型と近居・同居支援型があり、中古住宅取得費用を基本30万円、転入加算10万円、区域加算10万円で最大50万円補助。受付期間は2026年4月15日から2027年2月26日まで。
+
+確認:
+
+- 採用した公式出典URL 6件はすべて200で到達確認。海老名市公式の妊婦のための支援給付、出産・子育て伴走型支援事業、保育料について、一時預かり利用者負担軽減事業、令和8年度住宅取得支援事業補助金、同パンフレットPDFを確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 15`: 神奈川県の未照合raw slugは40件から37件に減少。次の候補は `ebina-infertility`、`ebina-migration-bonus`、`ebina-nursing-equipment` など。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,546件、神奈川県ローカル公式確認済みは94件、activeWithoutOfficialSourceは3,410件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 3,956 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は545件、activeWithDeadlineは402件、期限切れ143件。
+- `npm run audit:links`: broken 0。3,954ファイルから145,298リンク抽出、8,433件監査。
