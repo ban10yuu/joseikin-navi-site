@@ -1689,3 +1689,24 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,939 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は543件、activeWithDeadlineは400件、期限切れ143件。
 - `npm run audit:links`: broken 0。3,937ファイルから144,612リンク抽出、8,398件監査。
+
+## 2026-07-02 神奈川Batch 30 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県` の残46件から、`city-batch71.ts` の綾瀬市3件を `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データの「不妊治療費助成最大15万円」「東京圏からの移住支援金最大100万円」「介護用品支給事業年額6万円相当」を、綾瀬市公式ページ本文で確認できる現行制度名・支給額・対象者へ補正した。
+
+追加:
+
+- `ayase-infertility`: 綾瀬市「不育症の治療費助成」。保険診療対象外の不育治療および検査に要した自己負担額の2分の1、上限30万円を助成。申請は治療終了から1年以内。生成データの特定不妊治療費助成・1回最大15万円・年2回を公式制度へ補正。
+- `ayase-migration-bonus`: 綾瀬市「ものづくり人材就職定住奨励祝金」。市内中小製造業に正社員として初めて雇用された学卒者等が対象で、雇用から36か月にわたり最大30万円。就職を機に市内へ転入した場合は、初回申請時に転入支援金12万円を追加。生成データの一般移住支援金最大100万円を補正。
+- `ayase-nursing-equipment`: 綾瀬市「紙おむつの給付」。市内在住40歳以上・在宅・世帯全員非課税で、要介護4以上または排尿/排便に介助等が必要な認定者へ、月額2,500円以内相当の紙おむつを2か月に一度給付。生成データの介護用品年額6万円相当を補正。
+
+確認:
+
+- 採用した公式出典URL 5件はすべて200で到達確認。綾瀬市公式の不育症の治療費助成、不妊症・不育症について、ものづくり人材就職定住奨励祝金、同令和8年度PDF、紙おむつの給付を確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 15`: 神奈川県の未照合raw slugは46件から43件に減少。次の候補は `ayase-scholarship`、`ayase-seismic-diagnosis`、`ayase-women-startup` など。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,540件、神奈川県ローカル公式確認済みは88件、activeWithoutOfficialSourceは3,416件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 3,946 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は543件、activeWithDeadlineは400件、期限切れ143件。
+- `npm run audit:links`: broken 0。3,944ファイルから144,845リンク抽出、8,410件監査。

@@ -505,5 +505,9 @@
 - [x] 採用した公式出典URL 5件はすべて200で到達確認。綾瀬市公式の相談支援・妊婦のための支援給付、あやせ子育てスタート応援給付金、幼児教育・保育無償化、保育料について、企業立地促進に伴う就業者転入奨励金制度を確認
 - [x] 生成データの制度名・金額・対象条件ずれを補正（出産祝い金最大10万円は妊婦支援給付5万円＋胎児1人5万円と市独自1万5千円へ、保育料軽減月額最大3万円は幼保無償化の認可外上限37,000円/42,000円等へ、住宅取得最大50万円は企業立地促進に伴う就業者転入奨励金20万円へ補正）
 - [x] 神奈川Batch 29の追加後検証（ESLint、公式URL 200確認、coverage、raw gap監査、lint、build、deadline audit、link audit）。coverage failures 0、公式確認済みactiveは1,537件、神奈川県ローカル公式確認済みは85件、activeWithoutOfficialSourceは3,419件。buildは3,939ページ生成、deadline audit failures 0、link auditは3,937ファイルから144,612リンク抽出・8,398件監査・broken 0。全国未照合raw slugは3,415件、神奈川県の未照合raw slugは49件から46件に減少
-- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 20` の残46件から、綾瀬市の `ayase-infertility`、`ayase-migration-bonus`、`ayase-nursing-equipment` を公式一次情報で確認する。生成データの制度名が広すぎる可能性が高いため、公式制度が存在する場合は正確な制度名・上限額へ置換し、存在しない場合は抑止する
+- [x] 神奈川Batch 30として綾瀬市3件を公式確認済み追加・補正（不育症の治療費助成、ものづくり人材就職定住奨励祝金、紙おむつの給付）
+- [x] 採用した公式出典URL 5件はすべて200で到達確認。綾瀬市公式の不育症の治療費助成、不妊症・不育症について、ものづくり人材就職定住奨励祝金、同令和8年度PDF、紙おむつの給付を確認
+- [x] 生成データの制度名・金額・対象条件ずれを補正（不妊治療費助成最大15万円は不育症治療費助成・自己負担2分の1/上限30万円へ、移住支援金最大100万円は市内中小製造業就職の学卒者向け奨励祝金最大30万円＋転入支援金12万円へ、介護用品年額6万円相当は紙おむつ月額2,500円以内相当へ補正）
+- [x] 神奈川Batch 30の追加後検証（公式URL 200確認、ESLint、coverage、raw gap監査、lint、build、deadline audit、link audit）。coverage failures 0、公式確認済みactiveは1,540件、神奈川県ローカル公式確認済みは88件、activeWithoutOfficialSourceは3,416件。buildは3,946ページ生成、deadline audit failures 0、link auditは3,944ファイルから144,845リンク抽出・8,410件監査・broken 0。神奈川県の未照合raw slugは46件から43件に減少
+- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 20` の残件から、綾瀬市の `ayase-scholarship`、`ayase-seismic-diagnosis`、`ayase-women-startup` を公式一次情報で確認する。生成データの制度名が広すぎる可能性が高いため、公式制度が存在する場合は正確な制度名・上限額へ置換し、存在しない場合は抑止する
 - [ ] push / 公開反映は明示確認後に実行
