@@ -1667,3 +1667,25 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,932 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は543件、activeWithDeadlineは400件、期限切れ143件。
 - `npm run audit:links`: broken 0。3,930ファイルから144,383リンク抽出、8,386件監査。
+
+## 2026-07-02 神奈川Batch 29 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県` の残49件から、`city-batch71.ts` の綾瀬市3件を `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データの「出産祝い金最大10万円」「認可外保育料月額最大3万円」「子育て・若年世帯向け住宅取得最大50万円」を、綾瀬市公式ページ本文で確認できる現行制度名・支給額・対象者へ補正した。
+
+追加:
+
+- `ayase-birth-bonus`: 綾瀬市「妊婦のための支援給付」と「あやせ子育てスタート応援給付金」。妊婦支援給付は1回目が妊婦1人につき現金5万円、2回目が妊娠したこどもの数1人につき現金5万円。市独自のあやせ子育てスタート応援給付金は令和8年4月1日以降の妊娠届出者等に妊娠1回15,000円、申請期限は出産日の前日まで。
+- `ayase-childcare-subsidy`: 綾瀬市「幼児教育・保育無償化」と保育料多子軽減。3～5歳児クラスと市民税非課税世帯の0～2歳児クラスの保育料が無償。認可外保育施設等は保育の必要性の認定により3～5歳児月額37,000円、非課税世帯0～2歳児月額42,000円上限。
+- `ayase-housing-purchase`: 綾瀬市「企業立地促進に伴う就業者転入奨励金」。企業立地奨励金の適用を受けた企業に就業する方で、市内に住宅を新築または購入する就業者等が対象。奨励金額は20万円。生成データの一般住宅取得支援最大50万円から補正。
+
+確認:
+
+- 採用した公式出典URL 5件はすべて200で到達確認。綾瀬市公式の相談支援・妊婦のための支援給付、あやせ子育てスタート応援給付金、幼児教育・保育無償化、保育料について、企業立地促進に伴う就業者転入奨励金制度を確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 8`: 全国未照合raw slugは3,415件。神奈川県は46件。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 15`: 神奈川県の未照合raw slugは49件から46件に減少。次の候補は `ayase-infertility`、`ayase-migration-bonus`、`ayase-nursing-equipment` など。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,537件、神奈川県ローカル公式確認済みは85件、activeWithoutOfficialSourceは3,419件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 3,939 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は543件、activeWithDeadlineは400件、期限切れ143件。
+- `npm run audit:links`: broken 0。3,937ファイルから144,612リンク抽出、8,398件監査。
