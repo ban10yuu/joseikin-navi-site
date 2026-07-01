@@ -1114,3 +1114,24 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,795 件生成。
 - `npm run audit:deadlines`: build前は新規期限切れ詳細ページ未生成のため `yokosuka-nursing-home-reform` で1件失敗したが、build後の再実行では failures 0。期限切れ詳細ページ生成・noindex・公開一覧除外を確認。
 - `npm run audit:links`: broken 0。3,793ファイルから138,373リンク抽出、8,107件監査。
+
+## 2026-07-02 神奈川Batch 2 追加ログ
+
+神奈川県の未公式確認slug差分から、横須賀市の2世帯住宅リフォーム等補助金、相模原市の不育症検査費用助成、川崎市の妊婦のための支援給付の3件を `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データの「一般的な住宅リフォーム助成」「不妊治療費助成・最大30万円」「出産・子育て応援給付金」などの表現を、公式ページ本文で確認できる現行制度名・対象・金額へ補正した。
+
+追加:
+
+- `yokosuka-housing-reform`: 横須賀市「2世帯住宅リフォーム等補助金」。市外から転入する子ども家族との同居または近居のために必要なリフォーム費用の2分の1、最大30万円。令和6年4月から近居も対象。リフォーム開始2週間前までに申請し、交付決定前着工は対象外。
+- `sagamihara-infertility`: 相模原市「不育症検査費用助成」。流死産検体を用いた遺伝子検査、抗ネオセルフβ2グリコプロテイン1複合体抗体検査などの先進医療検査が対象。申請時に相模原市に住民登録があり、2回以上の流産・死産の既往がある人へ、検査1回につき最大6万円、費用の7割相当を助成。検査費用支払日から60日以内に申請。
+- `kawasaki-parenting-allowance`: 川崎市「妊婦のための支援給付」。妊婦支援給付金1回目は妊婦1人あたり5万円、2回目は胎児の数×5万円。所得制限なし。1回目は妊娠の事実確認日から2年以内、2回目は出産予定日の8週間前の日から2年以内。
+
+確認:
+
+- 採用した公式出典URL 3件はすべて200で到達確認。横須賀市2世帯住宅リフォーム等補助金、相模原市不育症検査費用助成、川崎市妊婦のための支援給付を確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- 追加slugの確認スクリプトで、`yokosuka-housing-reform`、`sagamihara-infertility`、`kawasaki-parenting-allowance` は公式ソース付きactiveとして取得、3slugの未公式active残りは0件。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,476件、期限切れ125件、神奈川県ローカル公式確認済みは24件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run audit:deadlines`: failures 0。
+- `npm run build`: 成功。静的ページ 3,801 件生成。
+- `npm run audit:links`: broken 0。3,799ファイルから138,604リンク抽出、8,119件監査。
