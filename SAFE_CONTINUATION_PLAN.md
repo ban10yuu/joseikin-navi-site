@@ -1752,3 +1752,24 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,956 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は545件、activeWithDeadlineは402件、期限切れ143件。
 - `npm run audit:links`: broken 0。3,954ファイルから145,298リンク抽出、8,433件監査。
+
+## 2026-07-02 神奈川Batch 33 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県` の残37件から、`city-batch71.ts` の海老名市3件を `src/data/grants/verified-local-misc-2026.ts` に追加・抑止した。生成データの「不妊治療費助成」「移住支援金最大100万円」「介護用品支給事業」を、海老名市公式ページ本文で確認できる現行制度または公式確認不可の状態へ補正した。
+
+追加:
+
+- `ebina-infertility`: 海老名市「特定不妊治療（先進医療）費助成事業」。医療保険適用の体外受精・顕微授精と併用して実施された先進医療費が対象で、1回の治療につき上限5万円。申請期限は治療終了日の翌月から6カ月以内。関連制度として不育症治療費助成事業（保険適用外の不育症治療・検査費用の2分の1、1年度上限30万円）も確認。
+- `ebina-migration-bonus`: 海老名市の一般移住支援金としては公式確認不可のため抑止。公式に確認できる関連制度は、既存 `ebina-housing-purchase` に集約済みの令和8年度住宅取得支援事業補助金と、生活困窮者自立支援事業としての住居確保給付金（転居費用補助）。生成データの東京圏等からの一般移住支援金最大100万円とは対象が異なるため通常一覧から除外。
+- `ebina-nursing-equipment`: 海老名市「介護用品の給付（紙おむつの給付）」。介護保険の要介護3以上で、月の半分以上を在宅で生活している方が対象。紙おむつ等を現物給付し、費用は非課税世帯無料、課税世帯500円、市の給付上限超過分は追加負担。
+
+確認:
+
+- 採用した公式出典URL 7件はすべて200で到達確認。海老名市公式の特定不妊治療（先進医療）費助成事業、不育症治療費助成事業、同特定不妊治療チラシ、住宅取得支援事業補助金、住居確保給付金（転居費用補助）、神奈川県公式の移住問い合わせ窓口、海老名市公式の高齢者の在宅福祉サービスを確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 15`: 神奈川県の未照合raw slugは37件から34件に減少。次の候補は `ebina-seismic-diagnosis`、`ebina-women-startup`、`zama-birth-bonus` など。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,548件、神奈川県ローカル公式確認済みは96件、activeWithoutOfficialSourceは3,407件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 3,959 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は546件、activeWithDeadlineは402件、期限切れ144件。
+- `npm run audit:links`: broken 0。3,957ファイルから145,525リンク抽出、8,442件監査。

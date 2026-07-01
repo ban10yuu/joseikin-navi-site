@@ -517,5 +517,9 @@
 - [x] 採用した公式出典URL 6件はすべて200で到達確認。海老名市公式の妊婦のための支援給付、出産・子育て伴走型支援事業、保育料について、一時預かり利用者負担軽減事業、令和8年度住宅取得支援事業補助金、同パンフレットPDFを確認
 - [x] 生成データの制度名・金額・対象条件ずれを補正（出産祝い金最大10万円は妊婦支援給付・妊娠1回5万円＋胎児数×5万円へ、認可外保育料月額最大3万円は保育料無償化・多子軽減等へ、住宅取得支援最大50万円は令和8年度中古住宅取得支援の公式条件へ補正）
 - [x] 神奈川Batch 32の追加後検証（公式URL 200確認、ESLint、coverage、raw gap監査、lint、build、deadline audit、link audit）。coverage failures 0、公式確認済みactiveは1,546件、神奈川県ローカル公式確認済みは94件、activeWithoutOfficialSourceは3,410件。buildは3,956ページ生成、deadline audit failures 0、link auditは3,954ファイルから145,298リンク抽出・8,433件監査・broken 0。神奈川県の未照合raw slugは40件から37件に減少
-- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 20` の残件から、海老名市の `ebina-infertility`、`ebina-migration-bonus`、`ebina-nursing-equipment` を公式一次情報で確認する。生成データの制度名が広すぎる可能性が高いため、公式制度が存在する場合は正確な制度名・上限額へ置換し、存在しない場合は抑止する
+- [x] 神奈川Batch 33として海老名市3件を公式確認済み追加・抑止（特定不妊治療（先進医療）費助成事業、移住支援金の公式確認不可抑止、介護用品の給付）
+- [x] 採用した公式出典URL 7件を確認対象に追加。海老名市公式の特定不妊治療（先進医療）費助成事業、不育症治療費助成事業、同特定不妊治療チラシ、住宅取得支援事業補助金、住居確保給付金（転居費用補助）、神奈川県公式の移住問い合わせ窓口、高齢者の在宅福祉サービスを確認
+- [x] 生成データの制度名・金額・対象条件ずれを補正（不妊治療費助成は先進医療費・1回上限5万円へ、移住支援金最大100万円は現行市公式制度として確認不可のため通常一覧から除外、介護用品支給は要介護3以上在宅者向け紙おむつ等現物給付へ補正）
+- [x] 神奈川Batch 33の追加後検証（公式URL 200確認、ESLint、coverage、raw gap監査、lint、build、deadline audit、link audit）。coverage failures 0、公式確認済みactiveは1,548件、神奈川県ローカル公式確認済みは96件、activeWithoutOfficialSourceは3,407件。buildは3,959ページ生成、deadline audit failures 0、link auditは3,957ファイルから145,525リンク抽出・8,442件監査・broken 0。神奈川県の未照合raw slugは37件から34件に減少
+- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 20` の残件から、海老名市の `ebina-seismic-diagnosis`、`ebina-women-startup`、座間市の `zama-birth-bonus` を公式一次情報で確認する。生成データの制度名が広すぎる可能性が高いため、公式制度が存在する場合は正確な制度名・上限額へ置換し、存在しない場合は抑止する
 - [ ] push / 公開反映は明示確認後に実行
