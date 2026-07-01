@@ -1815,3 +1815,24 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,969 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は549件、activeWithDeadlineは404件、期限切れ145件。
 - `npm run audit:links`: broken 0。3,967ファイルから145,981リンク抽出、8,469件監査。
+
+## 2026-07-02 神奈川Batch 36 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県` の残28件から、`city-batch71.ts` の座間市3件を `src/data/grants/verified-local-misc-2026.ts` に追加・抑止した。生成データの「移住支援金」「介護用品支給事業」「奨学金制度」を、神奈川県公式・座間市公式ページ本文で確認できる現行制度または公式確認不可の状態へ補正した。
+
+追加:
+
+- `zama-migration-bonus`: 座間市の一般移住支援金としては公式確認不可のため抑止。神奈川県公式の市町村移住・定住支援一覧では、座間市の主な支援としてシティプロモーション、子育て世帯等住宅リフォーム補助、出産・小児医療・ひとり親家庭等医療・創業支援等の導線を確認したが、東京圏等からの一般移住者向け最大100万円支援金は確認できない。座間市公式の住居確保給付金（転居費用補助）は生活困窮世帯向けで対象が異なるため通常一覧から除外。
+- `zama-nursing-equipment`: 座間市「おむつ等支給事業（高齢者対象）」。在宅生活者で寝たきりや認知症などにより常時おむつなどを使用している方を介護する市内在住家族へ、市指定カタログから1回6,000円以内、年6回予定で現物支給。生成データの年額6万円相当を年最大3万6,000円相当へ補正。
+- `zama-scholarship`: 座間市「看護師等奨学金貸付制度」。将来市内で保健師・助産師・看護師・准看護師として従事する意思のある看護学生向けに、授業料相当額を月額3万円上限で貸付。相当期間、市内医療機関で看護職として従事すると償還免除。生成データの高校生・大学生向け月額最大4万円無利子貸与を公式制度へ補正。
+
+確認:
+
+- 採用した公式出典URL 5件はすべて200で到達確認。神奈川県公式の市町村移住・定住支援一覧、座間市公式の座間市の魅力、住居確保給付金（転居費用補助）、おむつ等支給事業（高齢者対象）、看護師等奨学金貸付制度を確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 15`: 神奈川県の未照合raw slugは28件から25件に減少。次の候補は `zama-seismic-diagnosis`、`zama-women-startup`、`miura-birth-bonus` など。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,554件、神奈川県ローカル公式確認済みは102件、activeWithoutOfficialSourceは3,398件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 3,974 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は551件、activeWithDeadlineは404件、期限切れ147件。
+- `npm run audit:links`: broken 0。3,972ファイルから146,211リンク抽出、8,478件監査。

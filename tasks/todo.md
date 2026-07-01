@@ -529,5 +529,9 @@
 - [x] 採用した公式出典URL 9件を確認対象に追加。座間市公式の保育料について、令和7年度保育料金表、令和8年度保育所等利用申込案内、令和8年度住宅リフォーム補助制度、子育て世帯等住宅リフォーム補助金交付要綱、同申請書、座間市公式の不妊に悩む方へ、不育症を知っていますか？、座間市こども計画案への意見募集結果PDFを確認
 - [x] 生成データの制度名・金額・対象条件ずれを補正（保育料軽減補助金は保育料の半額/無料・副食費免除へ、住宅取得支援は住宅取得ではなく子育て世帯等住宅リフォーム補助・上限30万円へ、不妊治療費助成は現行市独自助成として公式確認不可のため通常一覧から除外へ補正）
 - [x] 神奈川Batch 35の追加後検証（公式URL 200確認、ESLint、coverage、raw gap監査、lint、build、deadline audit、link audit）。coverage failures 0、公式確認済みactiveは1,553件、神奈川県ローカル公式確認済みは101件、activeWithoutOfficialSourceは3,401件。buildは3,969ページ生成、deadline audit failures 0、link auditは3,967ファイルから145,981リンク抽出・8,469件監査・broken 0。神奈川県の未照合raw slugは31件から28件に減少
-- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 20` の残件から、座間市の `zama-migration-bonus`、`zama-nursing-equipment`、`zama-scholarship` を公式一次情報で確認する。生成データの制度名が広すぎる可能性が高いため、公式制度が存在する場合は正確な制度名・上限額へ置換し、存在しない場合は抑止する
+- [x] 神奈川Batch 36として座間市3件を公式確認済み追加・抑止（移住支援金の公式確認不可抑止、おむつ等支給事業、看護師等奨学金貸付制度）
+- [x] 採用した公式出典URL 5件を確認対象に追加。神奈川県公式の市町村移住・定住支援一覧、座間市公式の座間市の魅力、住居確保給付金（転居費用補助）、おむつ等支給事業（高齢者対象）、看護師等奨学金貸付制度を確認
+- [x] 生成データの制度名・金額・対象条件ずれを補正（移住支援金最大100万円は現行市公式制度として確認不可のため通常一覧から除外、介護用品年額6万円相当はおむつ等の現物支給・1回6,000円以内・年6回予定へ、奨学金月額最大4万円は看護学生向け貸付・月額上限3万円へ補正）
+- [x] 神奈川Batch 36の追加後検証（公式URL 200確認、ESLint、coverage、raw gap監査、lint、build、deadline audit、link audit）。coverage failures 0、公式確認済みactiveは1,554件、神奈川県ローカル公式確認済みは102件、activeWithoutOfficialSourceは3,398件。buildは3,974ページ生成、deadline audit failures 0、link auditは3,972ファイルから146,211リンク抽出・8,478件監査・broken 0。神奈川県の未照合raw slugは28件から25件に減少
+- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 20` の残件から、座間市の `zama-seismic-diagnosis`、`zama-women-startup`、三浦市の `miura-birth-bonus` を公式一次情報で確認する。生成データの制度名が広すぎる可能性が高いため、公式制度が存在する場合は正確な制度名・上限額へ置換し、存在しない場合は抑止する
 - [ ] push / 公開反映は明示確認後に実行
