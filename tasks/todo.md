@@ -496,6 +496,10 @@
 - [x] 神奈川Batch 27として川崎市・横須賀市3件を公式確認不可/終了済みとして抑止（川崎市 移住支援金、川崎市 UIJターン就職支援補助金、横須賀市 テレワーク拠点設置支援補助金）
 - [x] 採用した公式出典URL 6件はすべて200で到達確認。川崎市公式の支援情報、補助・助成金一覧表、令和8年度補助・助成金一覧PDF、キャリアサポートかわさき資料、横須賀市公式の地方創生関係交付金PDF、横須賀再興プラン2024年度実績報告書PDFを確認
 - [x] 生成データの制度名・金額・受付状況ずれを補正（川崎市移住支援最大100万円は現行市公式制度として確認不可、川崎市UIJターン就職支援最大10万円は無料相談・求人紹介のみ確認、横須賀市テレワーク最大20万円はテレワーク拠点設置支援補助金で2023年度終了へ補正）
-- [x] 神奈川Batch 27の追加後検証（公式URL 200確認、ESLint、coverage、deadline audit、lint、build、link audit）。coverage failures 0、期限切れ140件、公式確認済みactiveは1,534件、神奈川県ローカル公式確認済みは82件。buildは3,928ページ生成、deadline audit failures 0、link auditは3,926ファイルから144,161リンク抽出・8,376件監査・broken 0。神奈川県raw slugの未照合差分は0件
-- [ ] 次回候補: 神奈川県はraw slug照合上の残件0件。次は全国raw差分を都道府県別に再棚卸しし、未照合slugの多い都道府県または公式確認済みactiveが少ない自治体群から3件単位で公式一次情報確認に進む。必要なら今回の正規表現抽出をTypeScript/ASTベースの棚卸しスクリプトへ置き換え、札幌市のような同一ファイル内の都道府県混在を誤検出しない方法にする
+- [x] 神奈川Batch 27の追加後検証（公式URL 200確認、ESLint、coverage、deadline audit、lint、build、link audit）。coverage failures 0、期限切れ140件、公式確認済みactiveは1,534件、神奈川県ローカル公式確認済みは82件。buildは3,928ページ生成、deadline audit failures 0、link auditは3,926ファイルから144,161リンク抽出・8,376件監査・broken 0。なお、この時点の正規表現ベース抽出では神奈川県raw slug未照合差分0件と判定したが、後続の実データ読み込み監査で不十分と判明
+- [x] 正規表現ベースのraw slug抽出は不十分だったため、`scripts/audit-raw-verified-gaps.mjs` を追加。TypeScriptデータを実際に読み込み、raw seed配列とverified配列をslug単位で比較できるようにした。初回実行では全国未照合raw slug 3,421件、神奈川県52件を検出
+- [x] 神奈川Batch 28として県系3件を公式確認不可として抑止（神奈川県女性起業家支援助成金、神奈川県バリアフリー住宅改修助成、神奈川県ブロック塀等撤去・改善補助金）
+- [x] 採用した公式出典URL 6件はすべて200で到達確認。KANAGAWA STARTUPS助成金・補助金など支援情報、KIPビジネス支援、神奈川県公式の買う／建てる／改修、バリアフリーに向けた取組み、建築物の既存の塀の安全点検、神奈川県耐震改修促進計画PDFを確認。元データの県/KIP候補URL 3件は404または内容不一致のため出典から除外
+- [x] 神奈川Batch 28の追加後検証（ESLint、公式URL 200確認、coverage、raw gap監査、lint、build、deadline audit、link audit）。coverage failures 0、期限切れ143件、公式確認済みactiveは1,534件、activeWithoutOfficialSourceは3,422件。buildは3,932ページ生成、deadline audit failures 0、link auditは3,930ファイルから144,383リンク抽出・8,386件監査・broken 0。全国未照合raw slugは3,418件、神奈川県の未照合raw slugは52件から49件に減少
+- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 20` の残49件から、`city-batch71.ts` の綾瀬市候補（出産祝い金、保育料軽減、住宅取得、不妊治療、移住支援、介護用品、奨学金、耐震診断、女性起業）を公式一次情報で3件単位に確認する。生成データの制度名が広すぎる可能性が高いため、公式制度が存在する場合は正確な制度名・上限額へ置換し、存在しない場合は抑止する
 - [ ] push / 公開反映は明示確認後に実行

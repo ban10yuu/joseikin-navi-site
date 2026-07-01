@@ -1640,3 +1640,30 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run audit:deadlines`: failures 0。期限候補は540件、activeWithDeadlineは400件、期限切れ140件。
 - `npm run audit:links`: broken 0。3,926ファイルから144,161リンク抽出、8,376件監査。
 - 神奈川県raw slugを全verified slugと再照合した結果、未照合slugは0件。`sapporo-childcare-subsidy` は `city-batch36.ts` 冒頭の北海道レコードであり、神奈川県残件ではない。
+
+注意: 上記の未照合slug 0件は、正規表現ベースの一時抽出に基づくもので、後続の実データ読み込み監査で不十分と判明した。2026年7月2日に `scripts/audit-raw-verified-gaps.mjs` を追加し、TypeScriptデータを実際に読み込んでraw/verified slugを比較したところ、神奈川県の未照合raw slugは52件残っていた。
+
+## 2026-07-02 神奈川Batch 28 追加ログ
+
+全国raw差分を正確に棚卸しするため、`scripts/audit-raw-verified-gaps.mjs` を追加した。正規表現ではなく、既存のTypeScript transpile hookで `city-batch*`、`local*`、`national*`、`ngo*` のraw seed配列と `verified-*` 配列を読み込み、実際に展開されたslug同士を比較する。初回実行結果は、raw unique 4,375件、verified unique 1,678件、未照合raw slug 3,421件、重複raw slug 32件。都道府県別では東京都279件、北海道163件、埼玉県140件、福岡県127件、栃木県121件などが残り、神奈川県も52件残っていると確認した。
+
+この新棚卸しに基づき、神奈川県の県系raw候補3件を `src/data/grants/verified-local-misc-2026.ts` に追加した。3件とも、元データの公式URLが404または内容不一致で、現行の県直接補助金として確認できないため、通常一覧に誤掲載しない抑止レコードとして期限切れ扱いにした。
+
+追加:
+
+- `kanagawa-startup-women`: 元データのKIP候補URLは404。KANAGAWA STARTUPSの助成金・補助金など支援情報とKIPビジネス支援を確認したが、女性起業家限定最大100万円助成金の現行募集ページは確認できないため通常一覧から除外。
+- `kanagawa-barrier-free`: 元データの神奈川県候補URLは404。神奈川県公式の住まい情報では、バリアフリー化などの住宅リフォームについて市町村助成制度を利用できる場合があると案内。県のバリアフリーアドバイザー派遣は公共的施設向けの無料助言制度であり、個人住宅改修費の県直接補助ではないため通常一覧から除外。
+- `kanagawa-disaster-block-wall`: 元データの神奈川県候補URLは404。神奈川県公式の既存の塀の安全点検ページでは、ブロック塀等の撤去等に関する補助制度は各市町村へ問い合わせるよう案内。県耐震改修促進計画では市町村制度創設・拡充への支援方針を確認したが、所有者向け県直接補助ではないため通常一覧から除外。
+
+確認:
+
+- `kb search "助成金ナビ joseikin-navi-site"` は、この環境では `kb: command not found` のため実行不可。旧隔離チャットには触れず、repoと公式一次情報で継続。
+- 採用した公式出典URL 6件はすべて200で到達確認。KANAGAWA STARTUPS助成金・補助金など支援情報、KIPビジネス支援、神奈川県公式の買う／建てる／改修、バリアフリーに向けた取組み、建築物の既存の塀の安全点検、神奈川県耐震改修促進計画PDFを確認。
+- `npx eslint scripts/audit-raw-verified-gaps.mjs src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 8`: 全国未照合raw slugは3,418件。東京都279件、北海道163件、埼玉県140件、福岡県127件、栃木県121件など。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 20`: 神奈川県の未照合raw slugは52件から49件に減少。次の候補は `city-batch71.ts` の綾瀬市・海老名市・座間市・三浦市・逗子市・南足柄市など。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,534件、期限切れ143件、activeWithoutOfficialSourceは3,422件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 3,932 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は543件、activeWithDeadlineは400件、期限切れ143件。
+- `npm run audit:links`: broken 0。3,930ファイルから144,383リンク抽出、8,386件監査。
