@@ -1878,3 +1878,24 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,982 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は552件、activeWithDeadlineは405件、期限切れ147件。
 - `npm run audit:links`: broken 0。3,980ファイルから146,663リンク抽出、8,503件監査。
+
+## 2026-07-02 神奈川Batch 39 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県` の残19件から、`city-batch71.ts` の三浦市3件を `src/data/grants/verified-local-misc-2026.ts` に追加・抑止した。生成データの「移住支援金」「介護用品支給事業」「奨学金制度」を、三浦市公式ページ本文・公式PDFで確認できる現行制度または公式確認不可の状態へ補正した。
+
+追加:
+
+- `miura-migration-bonus`: 三浦市の一般移住支援金としては公式確認不可のため抑止。公式の移住支援ページでは移住者受入連携企業、移住関連イベント・セミナー、先輩移住者インタビュー等を確認し、移住ポータルでは住宅取得の特別ローンプランを確認したが、生成データの東京圏等からの一般移住支援金最大100万円は確認できない。結婚新生活支援事業は対象が異なり、令和7年度は受付終了、令和8年度も事前申請が必要なため通常一覧から除外。
+- `miura-nursing-equipment`: 三浦市「介護用品支給事業」。在宅で要介護4または5の高齢者を介護している家族で、前年度市民税非課税等の要件を満たす方へ、紙おむつ・尿とりパッド等に使える助成券を支給。助成券は1枚5,100円相当、年最大2枚。生成データの年額6万円相当を年最大1万200円相当へ補正。
+- `miura-scholarship`: 三浦市「三浦市奨学金条例に基づく奨学制度」。大学等へ進学する方で、日本学生支援機構の給付奨学金第2区分または第3区分の採用候補者等が対象。第2区分10万円、第3区分20万円を入学時に一時給付。生成データの高校生・大学生向け月額最大4万円無利子貸与を公式制度へ補正。
+
+確認:
+
+- 採用した公式出典URL 9件はすべて200で到達確認。三浦市公式の移住支援、みうら暮らし、結婚新生活支援事業、三浦市の高齢者支援サービスPDF、福祉用具購入について、第9期高齢者計画PDF、大学生等に対する教育支援、高校生に対する教育支援、教育支援・補助を確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 15`: 神奈川県の未照合raw slugは19件から16件に減少。次の候補は `miura-seismic-diagnosis`、`miura-women-startup`、`zushi-childcare-subsidy` など。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,562件、神奈川県ローカル公式確認済みは110件、activeWithoutOfficialSourceは3,389件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 3,986 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は553件、activeWithDeadlineは405件、期限切れ148件。
+- `npm run audit:links`: broken 0。3,984ファイルから146,895リンク抽出、8,516件監査。
