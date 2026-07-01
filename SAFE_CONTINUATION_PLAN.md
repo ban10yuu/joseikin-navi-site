@@ -2089,3 +2089,32 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 4,028 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は563件、activeWithDeadlineは409件、期限切れ154件。
 - `npm run audit:links`: broken 0。4,026ファイルから149,015リンク抽出、8,629件監査。
+
+## 2026-07-02 東京都Batch 47 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の江戸川区残件1件と江東区候補8件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・抑止した。生成データの「熟年者生活支援」「出産祝い金」「認可外保育施設等補助」「高齢者緊急通報」「不妊治療費助成」「介護用品支給」「奨学資金」「高齢者医療」「中小企業経営支援」を、各自治体公式ページで確認できる現行制度名・支援内容・受付状況へ補正した。
+
+追加:
+
+- `edogawa-senior-support`: 江戸川区「介護者激励手当」。要介護4または5の在宅者を介護する介護者に年間10万円を支給する制度へ補正。
+- `koto-birth-bonus`: 江東区「出産・子育て応援給付金（妊婦のための支援給付）」。妊婦1人5万円、子ども1人5万円の給付として補正。
+- `koto-childcare-subsidy`: 江東区「認可外保育施設等保護者負担軽減補助金（令和8年度）」。令和8年度分は2026年4月1日受付開始の補助として補正。
+- `koto-elderly-support`: 江東区「高齢者救急通報システム」。高齢者のみの世帯等への緊急通報・見守り機器設置制度として補正。
+- `koto-infertility`: 江東区「特定不妊治療費（先進医療）助成事業」。東京都助成への上乗せ、1回上限5万円として補正。
+- `koto-nursing-equipment`: 江東区「高齢者紙おむつ支給及びおむつ購入費助成」。現物支給75点まで無料、購入費助成月額7,500円上限として補正。
+- `koto-scholarship`: 江東区「江東区奨学資金」。学資金月額1万円、入学準備金10万円の返還不要制度だが、令和8年度生募集の提出期限2025年12月9日到来済みのため通常一覧から除外。
+- `koto-senior-medical`: 江東区「令和8年度高齢者用肺炎球菌予防接種（定期接種）」。対象65歳、自己負担4,000円または5,500円、生活保護受給者等は免除として補正。
+- `koto-sme-support`: 江東区「創業支援事務所等賃料補助金」。1〜12か月目は月額上限5万円、13〜24か月目は月額上限3万円、令和8年度受付は2026年9月1日から11月30日までとして補正。
+
+確認:
+
+- 採用した公式出典URL 20件はすべて200で到達確認。江戸川区公式の介護者激励手当、熟年者応援ページ、江東区公式の妊婦支援給付、妊娠・出産一覧、令和8年度認可外保育施設等補助、令和7年度補助、高齢者救急通報システム、案内PDF、特定不妊治療費助成、高齢者紙おむつ支給・購入費助成、申請PDF、心身障害者紙おむつ支給、江東区奨学資金、奨学金一覧、令和8年度募集PDF、高齢者用肺炎球菌予防接種、区報テキスト、創業支援事務所等賃料補助金、中小企業補助金一覧、中小企業融資制度を確認。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 20`: 東京都の未照合raw slugは267件から258件に減少。次の候補は `katsushika-migration-bonus`、`katsushika-telework-bonus`、港区各slug、荒川区各slug、国分寺市各slug。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 20`: 全国未照合raw slugは3,357件から3,348件に減少。
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,592件、東京都ローカル公式確認済みは157件、activeWithoutOfficialSourceは3,352件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 4,041 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は565件、activeWithDeadlineは410件、期限切れ155件。
+- `npm run audit:links`: broken 0。4,039ファイルから149,687リンク抽出、8,660件監査。
