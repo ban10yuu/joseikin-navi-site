@@ -565,5 +565,9 @@
 - [x] 採用した公式出典URL 13件を確認対象に追加。南足柄市公式の介護用品支給事業、南足柄市育英奨学金、県の奨学金等の制度、木造住宅の耐震化事業、木造住宅の簡易耐震診断、耐震診断補助、耐震改修工事補助、除却工事補助、信用保証料補助制度、南足柄市の創業支援、創業支援セミナー、中小企業融資制度、商工業・農林業・雇用ページを確認
 - [x] 生成データの制度名・金額・対象条件ずれを補正（介護用品は最大年6万円分の利用券として確認、奨学金月額最大4万円は高校生等向け年額4万円給付へ、耐震診断自己負担なしは無料簡易診断・診断上限10万円・改修上限100万円等へ、女性起業支援最大50万円は女性限定ではない信用保証料補助・年度上限5万円と創業支援へ補正）
 - [x] 神奈川Batch 44の追加後検証（公式URL 200確認、ESLint、coverage、raw gap監査、lint、build、deadline audit、link audit）。公式URL 13件はすべて200、対象ESLintエラー0、coverage failures 0、公式確認済みactiveは1,577件、神奈川県ローカル公式確認済みは125件、activeWithoutOfficialSourceは3,373件。buildは4,007ページ生成、deadline audit failures 0、link auditは4,005ファイルから148,113リンク抽出・8,586件監査・broken 0。神奈川県の未照合raw slugは4件から0件に減少
-- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 20` で神奈川県の未照合raw slugが0件になっていることを確認し、全国残件または次の都道府県を棚卸しする
+- [x] 神奈川県の未照合raw slugが0件になっていることを確認（`node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 10`）
+- [x] `scripts/audit-raw-verified-gaps.mjs` に `--duplicates` を追加し、重複raw slug 32件のslug・件数・出現ファイルを確認できるようにした
+- [x] 重複棚卸し検証（通常出力、JSON出力、`--duplicates --limit 50`、`npx eslint scripts/audit-raw-verified-gaps.mjs`）。全国未照合raw slugは3,369件、東京都279件、重複raw slugは32件
+- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 20` から、葛飾区・江戸川区の未照合slugを公式一次情報で確認して `src/data/grants/verified-tokyo-local-2026.ts` に小バッチ追加する
+- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugを公式確認済みデータへ置換し、raw重複の実害を減らす
 - [ ] push / 公開反映は明示確認後に実行

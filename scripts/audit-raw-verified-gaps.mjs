@@ -40,6 +40,7 @@ require.extensions['.ts'] = function compileTypeScript(module, filename) {
 
 function parseArgs(argv) {
   const args = {
+    duplicates: false,
     json: false,
     limit: 20,
     prefecture: null,
@@ -47,7 +48,9 @@ function parseArgs(argv) {
 
   for (let index = 0; index < argv.length; index += 1) {
     const arg = argv[index];
-    if (arg === '--json') {
+    if (arg === '--duplicates') {
+      args.duplicates = true;
+    } else if (arg === '--json') {
       args.json = true;
     } else if (arg === '--limit') {
       args.limit = Number.parseInt(argv[index + 1] || '', 10);
@@ -160,7 +163,8 @@ function main() {
       slug,
       count: entries.length,
       entries,
-    }));
+    }))
+    .sort((left, right) => String(left.slug).localeCompare(String(right.slug)));
 
   const byPrefecture = new Map();
   const byCategory = new Map();
@@ -183,6 +187,7 @@ function main() {
     byCategory: sortObjectByCount(byCategory),
     byFile: sortObjectByCount(byFile),
     sampleGaps: gaps.slice(0, args.limit),
+    sampleDuplicateRawSlugs: duplicateRawSlugs.slice(0, args.limit),
   };
 
   if (args.json) {
@@ -205,6 +210,19 @@ function main() {
   console.log(`sample gaps (limit ${args.limit}):`);
   for (const gap of summary.sampleGaps) {
     console.log(`- ${gap.prefecture} ${gap.organization} ${gap.slug}: ${gap.title} (${gap.file})`);
+  }
+
+  if (args.duplicates) {
+    console.log('');
+    console.log(`sample duplicate raw slugs (limit ${args.limit}):`);
+    for (const duplicate of summary.sampleDuplicateRawSlugs) {
+      console.log(`- ${duplicate.slug} (${duplicate.count} entries)`);
+      for (const entry of duplicate.entries) {
+        console.log(
+          `  - ${entry.prefecture || '(unknown)'} ${entry.organization || '(unknown)'}: ${entry.title} (${entry.file})`,
+        );
+      }
+    }
   }
 }
 

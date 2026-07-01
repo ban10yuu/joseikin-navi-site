@@ -2011,3 +2011,29 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 4,007 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は557件、activeWithDeadlineは408件、期限切れ149件。
 - `npm run audit:links`: broken 0。4,005ファイルから148,113リンク抽出、8,586件監査。
+
+## 2026-07-02 重複raw slug棚卸しログ
+
+神奈川県の未照合raw slugが0件になったため、全国の次作業に入る前に重複データの棚卸しを強化した。`scripts/audit-raw-verified-gaps.mjs` に `--duplicates` を追加し、raw seed側で同一slugが複数ファイルに存在する場合に、slug、件数、都道府県、自治体、タイトル、出現ファイルを一覧できるようにした。JSON出力にも `sampleDuplicateRawSlugs` を追加した。
+
+確認:
+
+- `kb search "助成金ナビ joseikin-navi-site"`: `kb: command not found`。今回もKB CLIは未導入のため、handoff、SAFE、TODO、repo内監査で継続。
+- `git status --short --branch`: `main...origin/main [ahead 85]`。Pinterest系・Header/Footer等の既存未コミット差分は引き続き別作業として触らない。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 20`: 全国未照合raw slug 3,369件、重複raw slug 32件。神奈川県は未照合0件。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 15`: 東京都未照合raw slug 279件。先頭候補は葛飾区、江戸川区。
+- `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50`: 重複raw slug 32件を全件出力できることを確認。
+- `node scripts/audit-raw-verified-gaps.mjs --json --limit 2`: JSON出力に `sampleDuplicateRawSlugs` が含まれることを確認。
+- `npx eslint scripts/audit-raw-verified-gaps.mjs`: エラー0。
+
+重複の傾向:
+
+- 32件中、多くは `*-startup-support` の同一slugが旧batchと後続batchの両方にあるもの。
+- 例: `hachioji-startup-support`、`hakodate-startup-support`、`kitakyushu-startup-support`、`soka-startup-support` など。
+- `ebina-scholarship` は神奈川県内の奨学金slug重複だが、公式確認済みデータで上書き済みのため、通常公開上の重複リスクは低い。
+
+次の安全な一手:
+
+1. 東京都の未照合raw slug 279件から、葛飾区・江戸川区など自治体単位で公式一次情報確認を進める。
+2. もしくは `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、公式確認しやすい創業支援系を公式確認済みデータへ置換し、重複の実害をさらに減らす。
+3. raw seed自体の削除・統合は影響範囲が大きいため、まずはverified側で公式確認済み置換を積み上げる。
