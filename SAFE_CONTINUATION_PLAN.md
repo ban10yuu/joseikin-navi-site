@@ -1318,3 +1318,23 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,838 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は517件、activeWithDeadlineは390件。
 - `npm run audit:links`: broken 0。3,836ファイルから140,515リンク抽出、8,208件監査。
+
+## 2026-07-02 神奈川Batch 12 追加ログ
+
+神奈川県の未公式確認slug差分から、茅ヶ崎市不育症治療費助成事業、大和市子ども医療費助成、大和市既存住宅の断熱改修工事への補助の3件を `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データの「不妊治療費助成事業」「中学卒業まで無料」「住宅リフォーム助成制度・最大10万円」などを、公式ページ本文で確認できる現行制度名・対象・金額へ補正した。
+
+追加:
+
+- `chigasaki-infertility-treatment`: 茅ヶ崎市「不育症治療費助成事業」。生殖医療専門医による不育症診断後の治療・検査費用が対象。1回の申請につき上限10万円、1年度1回、通算2年度まで。治療終了日から1年以内に申請。
+- `yamato-child-medical`: 大和市「子ども医療費助成」。0歳から高校卒業相当年齢、18歳年度末までの保険診療自己負担分を助成。保護者所得制限なし。県外受診などは払い戻し申請。
+- `yamato-housing-reform`: 大和市「既存住宅の断熱改修工事への補助」。市内既存住宅の断熱材・窓・ガラス・玄関ドア等の断熱改修が対象。補助率3分の1、戸建住宅は上限120万円。令和8年度申請期間は2026年4月10日から2027年1月29日まで。
+
+確認:
+
+- 採用した公式出典URL 3件はすべて200で到達確認。茅ヶ崎市公式の不育症治療費助成、大和市公式の子ども医療費助成、大和市公式の既存住宅断熱改修補助を確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,502件、期限切れ127件、神奈川県ローカル公式確認済みは50件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 3,844 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は518件、activeWithDeadlineは391件。
+- `npm run audit:links`: broken 0。3,842ファイルから140,746リンク抽出、8,220件監査。
