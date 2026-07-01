@@ -1092,3 +1092,25 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,790 件生成。
 - `npm run audit:deadlines`: failures 0。今回追加した6件は期限切れ詳細ページ生成・noindex・公開一覧除外を確認。
 - `npm run audit:links`: broken 0。3,788ファイルから138,143リンク抽出、8,096件監査。
+
+## 2026-07-02 神奈川Batch 1 追加ログ
+
+神奈川県の未公式確認slug差分から、相模原市の妊婦のための支援給付事業、横須賀市の妊婦支援給付金・出産子育て応援祝い金、横須賀市高齢者住宅リフォーム補助金（令和8年度受付終了）の3件を `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データの「出産祝い金」「高齢者住宅改造助成事業・最大30万円」などの表現を、相模原市・横須賀市公式ページで確認できる現行制度名・対象・金額へ補正した。
+
+追加:
+
+- `sagamihara-birth-bonus`: 相模原市「妊婦のための支援給付事業」。1回目は妊婦1人あたり5万円、2回目は胎児の数×5万円。申請期限は1回目が妊娠確定日から2年を経過した日の前日、2回目が出産予定日の8週間前の日から2年を経過した日の前日。
+- `yokosuka-birth-bonus`: 横須賀市「妊婦支援給付金・出産子育て応援祝い金」。国制度の妊婦支援給付金は1回目5万円、2回目は胎児1人につき5万円。市独自の出産子育て応援祝い金は2025年10月1日開始で、国制度に上乗せして同額を支給。
+- `yokosuka-nursing-home-reform`: 横須賀市「高齢者住宅リフォーム補助金」。税抜20万円以上の対象リフォーム工事に一律10万円。令和8年度の受付及び抽選会は終了しているため、2026年6月15日期限切れ扱いで通常一覧から除外。
+
+確認:
+
+- `kb search "助成金ナビ joseikin-navi-site"` は今回再開時も `kb: command not found`。旧チャットには依存せず、handoff、SAFE_CONTINUATION_PLAN、tasks、repo状態、公式一次情報だけで継続。
+- 採用した公式出典URL 4件はすべて200で到達確認。相模原市妊婦支援給付、横須賀市妊婦支援給付、横須賀市出産子育て応援祝い金、横須賀市高齢者住宅リフォーム補助金を確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- 追加slugの確認スクリプトで、`sagamihara-birth-bonus` と `yokosuka-birth-bonus` は公式ソース付きactiveとして取得、`yokosuka-nursing-home-reform` は期限切れとして通常取得対象外、3slugの未公式active残りは0件。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,473件、期限切れ125件、神奈川県ローカル公式確認済みは21件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 3,795 件生成。
+- `npm run audit:deadlines`: build前は新規期限切れ詳細ページ未生成のため `yokosuka-nursing-home-reform` で1件失敗したが、build後の再実行では failures 0。期限切れ詳細ページ生成・noindex・公開一覧除外を確認。
+- `npm run audit:links`: broken 0。3,793ファイルから138,373リンク抽出、8,107件監査。
