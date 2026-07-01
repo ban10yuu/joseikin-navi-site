@@ -1298,3 +1298,23 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,833 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は517件、activeWithDeadlineは390件。
 - `npm run audit:links`: broken 0。3,831ファイルから140,285リンク抽出、8,197件監査。
+
+## 2026-07-02 神奈川Batch 11 追加ログ
+
+神奈川県の未公式確認slug差分から、藤沢市不妊治療費（先進医療分）助成事業、平塚市小児医療費の助成、茅ヶ崎市小児医療費助成制度の3件を `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データの「不妊・不育症治療費助成最大10万円」「中学卒業まで無料」「所得制限あり」などを、公式ページ本文で確認できる現行制度名・対象・金額へ補正した。
+
+追加:
+
+- `fujisawa-fertility-treatment`: 藤沢市「不妊治療費（先進医療分）助成事業」。医療保険適用の体外受精・顕微授精等と併用した先進医療が対象。先進医療費の10分の7、上限5万円。治療終了日から6か月以内に申請。
+- `hiratsuka-child-medical`: 平塚市「小児医療費の助成」。0歳から18歳年度末までの入院・通院にかかる保険診療医療費自己負担額を助成。保護者所得制限なし。保険外診療、健康診査、入院時食事代等は対象外。
+- `chigasaki-child-medical`: 茅ヶ崎市「小児医療費助成制度」。0歳から高校生世代まで、18歳年度末までの保険適用分自己負担額を助成。所得制限なし。県外受診・治療用装具は払い戻し手続きが必要。
+
+確認:
+
+- 採用した公式出典URL 3件はすべて200で到達確認。藤沢市公式の不妊治療費（先進医療分）助成、平塚市公式の小児医療費助成、茅ヶ崎市公式の小児医療費助成を確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,499件、期限切れ127件、神奈川県ローカル公式確認済みは47件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 3,838 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は517件、activeWithDeadlineは390件。
+- `npm run audit:links`: broken 0。3,836ファイルから140,515リンク抽出、8,208件監査。
