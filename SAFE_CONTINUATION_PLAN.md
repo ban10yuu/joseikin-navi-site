@@ -2118,3 +2118,30 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 4,041 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は565件、activeWithDeadlineは410件、期限切れ155件。
 - `npm run audit:links`: broken 0。4,039ファイルから149,687リンク抽出、8,660件監査。
+
+## 2026-07-02 東京都Batch 48 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の葛飾区残件2件と港区5件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・抑止した。生成データの「ファミリー世帯定住促進支援金」「テレワーク推進助成金」「子育て世帯臨時特別給付金」「就学援助制度」「特定不妊治療費助成事業」「介護用品支給事業」「省エネ家電購入助成事業」を、各自治体公式ページで確認できる現行制度名・支援内容・受付状況へ補正した。
+
+追加:
+
+- `katsushika-migration-bonus`: 葛飾区の現行「ファミリー世帯定住促進支援金」としては公式確認不可。公的住宅・居住支援、居住支援協議会、過去の二世代・三世代住宅取得費助成モデル事業廃止資料を確認し、通常一覧から除外。
+- `katsushika-telework-bonus`: 葛飾区「デジタル化支援事業費補助金」。区内中小企業のデジタル技術導入に対し、補助率2分の1、上限50万円、ハードウェア購入費上限20万円。受付は2026年4月1日から2027年2月26日必着。
+- `minato-childcare-subsidy`: 港区「物価高対応子育て応援手当」。対象児童1人につき2万円。主要な児童手当申請期限2026年4月15日到来済みのため通常一覧から除外。
+- `minato-education-support`: 港区「就学援助費」。生活保護、児童扶養手当、基準所得額該当等の保護者に、学用品費、修学旅行費、学校給食費などを援助。
+- `minato-infertility`: 港区「特定不妊治療費（先進医療、自由診療）助成金」。1回上限30万円、治療終了年度末まで申請、1〜3月終了分は同年6月30日まで申請可能。
+- `minato-nursing-equipment`: 港区「高齢者紙おむつの給付」。要支援1以上でねたきりまたは失禁状態の高齢者に月1回120点まで配送、利用者負担月額500円。
+- `minato-energy-support`: 港区「高齢者エアコン購入設置費助成」。令和8年度は1世帯1回限り上限111,000円。経済的理由で自宅にエアコンがない高齢者世帯向けの熱中症対策助成へ補正。
+
+確認:
+
+- 採用した公式出典URL 19件はすべて200で到達確認。葛飾区公式の公的な住宅・居住支援、居住支援協議会、廃止等事務事業、デジタル化支援事業費補助金、中小企業デジタル化支援、IT相談、港区公式の物価高対応子育て応援手当、児童手当、就学援助費、就学援助一覧、特定不妊治療費助成、妊娠を希望される方、先進医療費助成Q&A、紙おむつ給付、おむつ代助成、令和8年度紙おむつパンフレット、高齢者エアコン購入設置費助成、地球温暖化対策助成制度、各種助成制度を確認。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 20`: 東京都の未照合raw slugは258件から251件に減少。次の候補は荒川区各slug、国分寺市各slug、狛江市各slug。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 20`: 全国未照合raw slugは3,348件から3,341件に減少。
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,597件、東京都ローカル公式確認済みは162件、activeWithoutOfficialSourceは3,345件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 4,051 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は568件、activeWithDeadlineは411件、期限切れ157件。
+- `npm run audit:links`: broken 0。4,049ファイルから150,214リンク抽出、8,687件監査。
