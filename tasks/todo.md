@@ -521,5 +521,9 @@
 - [x] 採用した公式出典URL 7件を確認対象に追加。海老名市公式の特定不妊治療（先進医療）費助成事業、不育症治療費助成事業、同特定不妊治療チラシ、住宅取得支援事業補助金、住居確保給付金（転居費用補助）、神奈川県公式の移住問い合わせ窓口、高齢者の在宅福祉サービスを確認
 - [x] 生成データの制度名・金額・対象条件ずれを補正（不妊治療費助成は先進医療費・1回上限5万円へ、移住支援金最大100万円は現行市公式制度として確認不可のため通常一覧から除外、介護用品支給は要介護3以上在宅者向け紙おむつ等現物給付へ補正）
 - [x] 神奈川Batch 33の追加後検証（公式URL 200確認、ESLint、coverage、raw gap監査、lint、build、deadline audit、link audit）。coverage failures 0、公式確認済みactiveは1,548件、神奈川県ローカル公式確認済みは96件、activeWithoutOfficialSourceは3,407件。buildは3,959ページ生成、deadline audit failures 0、link auditは3,957ファイルから145,525リンク抽出・8,442件監査・broken 0。神奈川県の未照合raw slugは37件から34件に減少
-- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 20` の残件から、海老名市の `ebina-seismic-diagnosis`、`ebina-women-startup`、座間市の `zama-birth-bonus` を公式一次情報で確認する。生成データの制度名が広すぎる可能性が高いため、公式制度が存在する場合は正確な制度名・上限額へ置換し、存在しない場合は抑止する
+- [x] 神奈川Batch 34として海老名市2件・座間市1件を公式確認済み追加（木造住宅の耐震化支援制度、海老名商工会議所創業支援助成金、座間市妊婦支援給付金給付事業）
+- [x] 採用した公式出典URL 8件を確認対象に追加。海老名市公式の木造住宅の耐震化支援制度と制度案内PDF、海老名市公式の創業支援、海老名商工会議所の創業支援助成金、座間市公式の妊婦支援給付金給付事業とチラシ、子ども・子育て支援金制度ページを確認
+- [x] 生成データの制度名・金額・対象条件ずれを補正（海老名市耐震診断は無料診断だけでなく耐震改修工事等最大93万円を含む制度へ、女性起業支援は女性限定ではない創業支援助成金上限50万円へ、座間市出産祝い金は妊婦支援給付・妊婦1人5万円＋胎児数×5万円へ補正）
+- [x] 神奈川Batch 34の追加後検証（公式URL 200確認、ESLint、coverage、raw gap監査、lint、build、deadline audit、link audit）。coverage failures 0、公式確認済みactiveは1,551件、神奈川県ローカル公式確認済みは99件、activeWithoutOfficialSourceは3,404件。buildは3,965ページ生成、deadline audit failures 0、link auditは3,963ファイルから145,754リンク抽出・8,456件監査・broken 0。神奈川県の未照合raw slugは34件から31件に減少
+- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 20` の残件から、座間市の `zama-childcare-subsidy`、`zama-housing-purchase`、`zama-infertility` を公式一次情報で確認する。生成データの制度名が広すぎる可能性が高いため、公式制度が存在する場合は正確な制度名・上限額へ置換し、存在しない場合は抑止する
 - [ ] push / 公開反映は明示確認後に実行

@@ -1773,3 +1773,24 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,959 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は546件、activeWithDeadlineは402件、期限切れ144件。
 - `npm run audit:links`: broken 0。3,957ファイルから145,525リンク抽出、8,442件監査。
+
+## 2026-07-02 神奈川Batch 34 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県` の残34件から、`city-batch71.ts` の海老名市2件・座間市1件を `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データの「木造住宅耐震診断助成」「女性起業支援補助金」「出産祝い金」を、公式ページ本文で確認できる現行制度名・支給額・対象者へ補正した。
+
+追加:
+
+- `ebina-seismic-diagnosis`: 海老名市「木造住宅の耐震化支援制度」。令和8年度から耐震診断士派遣事業が創設され、受付期間は2026年4月15日から12月28日、費用無料。耐震改修計画書作成費は2分の1・最大5万円、耐震改修工事等は工事費2分の1・最大90万円と現場立会費2分の1・最大3万円、解体工事は2分の1・最大50万円。生成データの旧耐震住宅無料診断のみの記載を公式制度全体へ補正。
+- `ebina-women-startup`: 海老名商工会議所「創業支援助成金」。女性限定ではなく、創業後おおむね5年以内に海老名市内で対象経費を支払う予定があり、事業者要件と特定創業支援事業の認定者要件を満たす方が対象。事務所・店舗等の新築・改装・改修工事等について、税抜対象経費の2分の1、上限50万円を助成。
+- `zama-birth-bonus`: 座間市「妊婦支援給付金給付事業（妊婦のための支援給付）」。令和7年4月1日から実施。1回目は5万円、2回目は妊娠したこどもの数1人につき5万円を現金給付。申請期限は起算日から2年、所得制限なし。生成データの第1子5万円・第2子7万円・第3子以降10万円の出産祝い金を公式制度へ補正。
+
+確認:
+
+- 採用した公式出典URL 8件はすべて200で到達確認。海老名市公式の木造住宅の耐震化支援制度、同制度案内PDF、耐震診断士派遣事業PDF、海老名市公式の創業支援、海老名商工会議所の創業支援助成金、座間市公式の妊婦支援給付金給付事業、同チラシPDF、座間市公式の子ども・子育て支援金制度ページを確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 15`: 神奈川県の未照合raw slugは34件から31件に減少。次の候補は `zama-childcare-subsidy`、`zama-housing-purchase`、`zama-infertility` など。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,551件、神奈川県ローカル公式確認済みは99件、activeWithoutOfficialSourceは3,404件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 3,965 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は547件、activeWithDeadlineは403件、期限切れ144件。
+- `npm run audit:links`: broken 0。3,963ファイルから145,754リンク抽出、8,456件監査。
