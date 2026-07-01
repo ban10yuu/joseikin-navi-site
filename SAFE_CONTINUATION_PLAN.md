@@ -1619,3 +1619,24 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run audit:deadlines`: failures 0。期限候補は537件、activeWithDeadlineは400件。
 - `npm run audit:links`: broken 0。3,921ファイルから143,932リンク抽出、8,365件監査。
 - Batch 26後の神奈川県未公式候補再抽出では、`kawasaki-migration-bonus`、`kawasaki-uij-turn`、`yokosuka-telework-bonus` が残る。`sapporo-childcare-subsidy` は抽出上の誤検出候補のため次回に生成元オブジェクト境界を確認する。
+
+## 2026-07-02 神奈川Batch 27 追加ログ
+
+神奈川県の未公式確認slug差分から、川崎市移住支援金、川崎市UIJターン就職支援補助金、横須賀市テレワーク環境整備補助金の3件を `src/data/grants/verified-local-misc-2026.ts` に追加した。3件はいずれも現行の公式補助金として確認できない、または制度終了済みのため、通常一覧に誤掲載しない抑止レコードとして期限切れ扱いにした。
+
+追加:
+
+- `kawasaki-migration-bonus`: 川崎市公式の支援情報、補助・助成金一覧表、令和8年度補助・助成金一覧PDFを確認。生成データの東京23区等からの一般移住支援金最大100万円は現行市公式制度として確認できず、公式に確認できる現金支援は東日本大震災避難者向け自立支援金等で対象が異なるため通常一覧から除外。
+- `kawasaki-uij-turn`: 川崎市公式の支援情報、キャリアサポートかわさき資料、補助・助成金一覧を確認。公式に確認できる就職支援は無料の就職相談・求人紹介・定着支援であり、生成データのUIJターン就職支援補助金最大10万円は現行市公式制度として確認できないため通常一覧から除外。
+- `yokosuka-telework-bonus`: 横須賀市公式PDFで、関連制度がテレワーク拠点設置支援補助金であること、2022年度交付3件、2023年度交付0件、2023年度をもって終了したことを確認。生成データのテレワーク環境整備補助金最大20万円は現行制度ではなく、対象も公式資料とずれるため通常一覧から除外。
+
+確認:
+
+- 採用した公式出典URL 6件はすべて200で到達確認。川崎市公式の支援情報、補助・助成金一覧表、令和8年度補助・助成金一覧PDF、キャリアサポートかわさき資料、横須賀市公式の地方創生関係交付金PDF、横須賀再興プラン2024年度実績報告書PDFを確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,534件、期限切れ140件、神奈川県ローカル公式確認済みは82件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 3,928 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は540件、activeWithDeadlineは400件、期限切れ140件。
+- `npm run audit:links`: broken 0。3,926ファイルから144,161リンク抽出、8,376件監査。
+- 神奈川県raw slugを全verified slugと再照合した結果、未照合slugは0件。`sapporo-childcare-subsidy` は `city-batch36.ts` 冒頭の北海道レコードであり、神奈川県残件ではない。
