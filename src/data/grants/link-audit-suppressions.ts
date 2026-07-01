@@ -32,6 +32,8 @@ export const suppressedOfficialUrls = new Set<string>([
   'https://www.env.go.jp/earth/earth/ondanka/building_insulation/window_renovation/',
   // 404: Not Found
   'https://www.fu-ikuei.or.jp/scholarship/kyufu/',
+  // 404: rendered href audit found Not Found
+  'https://www.mext.go.jp/content/202604024-mxt_shuukyo03-100002595_1.pdf',
   // 404: Not Found
   'https://www.fukushi.metro.tokyo.lg.jp/kodomo/hitorioya/jutaku.html',
   // 404: Not Found
@@ -52,6 +54,16 @@ export const suppressedOfficialUrls = new Set<string>([
   'https://www.city.omuta.lg.jp/kiji00321463/3_21463_129583_up_3xtttxl2.pdf',
   // ERR: rendered href audit found repeated timeout
   'https://www.city.omuta.lg.jp/kiji00321463/3_21463_129736_up_anuye7ew.pdf',
+  // 404: rendered href audit found Not Found
+  'https://www.town.fukusaki.hyogo.jp/0000001040.html',
+  // 404: rendered href audit found Not Found
+  'https://www.town.fukusaki.hyogo.jp/0000003985.html',
+  // 404: rendered href audit found Not Found
+  'https://www.town.fukusaki.hyogo.jp/0000003988.html',
+  // 404: rendered href audit found Not Found
+  'https://www.town.fukusaki.hyogo.jp/0000003989.html',
+  // 404: rendered href audit found Not Found
+  'https://www.town.fukusaki.hyogo.jp/0000003990.html',
   // ERR: URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
   'https://www.jrw-anshin-f.or.jp/',
   // 404: Not Found
@@ -64,6 +76,8 @@ export const suppressedOfficialUrls = new Set<string>([
   'https://www.lixil-foundation.or.jp/grant/safety/',
   // 404: Not Found
   'https://www.meijiyasuda.co.jp/enjoy/csr/kosodate/',
+  // ERR: rendered href audit found repeated timeout
+  'https://www.meijiyasuda.co.jp/profile/society/',
   // 404: Not Found
   'https://www.metro.tokyo.lg.jp/tosei/hodohappyo/jutaku-reform.html',
   // 404: Not Found
@@ -166,6 +180,10 @@ export const suppressedOfficialUrls = new Set<string>([
   'https://www.pref.gunma.jp/page/8190.html',
   // 404: Not Found
   'https://www.pref.hiroshima.lg.jp/soshiki/247/ict-seibi.html',
+  // 404: rendered href audit found Not Found
+  'https://www.pref.hiroshima.lg.jp/uploaded/attachment/671460.pdf',
+  // 404: rendered href audit found Not Found
+  'https://www.pref.hiroshima.lg.jp/uploaded/attachment/671461.pdf',
   // 404: Not Found
   'https://www.pref.hiroshima.lg.jp/soshiki/75/ijuu-shienkin.html',
   // 404: Not Found

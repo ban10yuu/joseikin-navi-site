@@ -1018,3 +1018,32 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,760 件生成。
 - `npm run audit:deadlines`: failures 0。`kazo-scholarship` は2025年8月29日期限切れとして通常一覧から除外。
 - `npm run audit:links`: broken 0。3,758ファイルから136,804リンク抽出、8,048件監査。
+
+## 2026-07-01 埼玉Batch 17 追加ログ
+
+埼玉県の未公式確認slugから、本庄市の子ども医療費の助成、妊婦のための支援給付金、空き家利活用補助金、ウェルカムベイビー助成金事業（不妊治療費助成金）、本庄市育英資金貸付制度、本庄市移住就業等支援金、要介護者紙おむつサービス事業、木造住宅耐震診断・耐震改修等補助金8件を `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データの「認可外保育施設月額補助」「出産祝い金」「住宅取得最大50万円」「不妊治療費上限15万円」「奨学金制度」「UIJターン支援金」「移住支援金の重複slug」「介護用品年額6万円相当」「木造住宅耐震診断補助金」などの表現を、本庄市公式ページ/PDFで確認できる現行制度名・対象・金額へ補正した。
+
+追加:
+
+- `honjo-childcare-subsidy`: 本庄市「子ども医療費の助成」。0歳から18歳年度末までの子どもが対象。保険診療一部負担金と入院時食事療養標準負担額を助成し、県内医療機関では資格証等の提示で原則支払い不要。
+- `honjo-birth-bonus`: 本庄市「妊婦のための支援給付金」。1回目は妊娠届出1回につき5万円、2回目は胎児心拍が確認できた人数×5万円。妊婦等包括相談支援と一体実施。
+- `honjo-housing-purchase`: 本庄市「空き家利活用補助金」。地域コミュニティ促進に資する空き家改修が対象。補助対象工事費の3分の2、都市機能誘導区域内は最大100万円、その他区域は最大60万円。
+- `honjo-infertility`: 本庄市「ウェルカムベイビー助成金事業（不妊治療費助成金）」。保険診療対象外の特定不妊治療・一般不妊治療が対象。上限10万円、1年度1回、通算5年度まで。
+- `honjo-scholarship`: 本庄市「育英資金貸付制度」。高校等月額15,000円以内、大学等月額30,000円以内を無利子貸付。令和8年4月貸付希望は2026年1月30日まで。
+- `honjo-uij-turn`: 本庄市「移住就業等支援金」。単身60万円、世帯100万円、18歳未満帯同で30万円加算。東京23区在住・通勤、就業・テレワーク・関係人口UIJターン等の要件を反映。
+- `honjo-migration-bonus`: 本庄市「移住就業等支援金」は `honjo-uij-turn` と同一制度のため重複抑止として通常一覧から除外。
+- `honjo-nursing-equipment`: 本庄市「要介護者紙おむつサービス事業」。40歳以上の在宅要介護4・5で失禁状態の方が対象。月に一度、紙おむつ等を配送し、課税世帯は費用の1割自己負担。
+- `honjo-seismic-diagnosis`: 本庄市「木造住宅耐震診断・耐震改修等補助金」。耐震診断上限5万円、耐震改修上限20万円、耐震シェルター上限20万円、防災ベッド上限10万円。
+
+確認:
+
+- 新規公式URL/PDF 12件は追加後にすべて200で到達確認済み。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/data/grants/link-audit-suppressions.ts src/lib/grants.ts`: エラー0。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,472件、期限切れ114件、埼玉県ローカル公式確認済みは95件。
+- `npm run lint`: エラー0。既知警告5件。
+- `npm run build`: 成功。静的ページ 3,776 件生成。
+- `npm run audit:deadlines`: failures 0。`honjo-migration-bonus` は重複抑止・期限切れ扱いとして通常一覧から除外。
+- `npm run audit:links`: broken 0。3,774ファイルから137,335リンク抽出、8,066件監査。
+- リンク監査中に既存の `meiji-yasuda-life-childcare-community` の公式URL `https://www.meijiyasuda.co.jp/profile/society/` が監査環境からtimeoutすることを検出。直接 `curl` でも20秒timeoutだったため、公式確認済みデータ本体は残しつつ、HTML出力の壊れリンクを避けるため `src/data/grants/link-audit-suppressions.ts` に追加した。
+- 再リンク監査中に既存の `fukusaki-child-medical-2026` の福崎町公式URL 5件、`hiroshima-sme-energy-saving-equipment-subsidy-2026` の広島県公式PDF 2件、`koutou-gakkou-shugaku-shienkin` の文科省公式PDF 1件が404となることを検出。今回の本庄市追加とは別件だが、HTML出力の壊れリンクを避けるため `src/data/grants/link-audit-suppressions.ts` に追加した。
