@@ -2062,3 +2062,30 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 4,017 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は561件、activeWithDeadlineは409件、期限切れ152件。
 - `npm run audit:links`: broken 0。4,015ファイルから148,489リンク抽出、8,602件監査。
+
+## 2026-07-02 東京都Batch 46 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の江戸川区候補から、7件を `src/data/grants/verified-tokyo-local-2026.ts` に追加・抑止した。生成データの「出産祝い金」「子育て支援給付金」「心身障害者医療費助成制度」「就学援助制度」「高齢者見守り・生活支援事業」「介護用品支給事業」「奨学資金貸付制度」を、江戸川区公式ページで確認できる現行制度名・支援内容・受付状況へ補正した。
+
+追加:
+
+- `edogawa-birth-bonus`: 現行の江戸川区「妊婦のための支援給付事業」は既存slug `edogawa-pregnancy-support-benefit` で公式確認済み掲載済みのため、旧生成slugは重複防止として通常一覧から除外。
+- `edogawa-childcare-subsidy`: 江戸川区「物価高対応子育て応援手当」。対象児童1人あたり2万円の令和7年度臨時手当。申請受付は2026年4月30日終了のため通常一覧から除外。
+- `edogawa-disability-medical`: 江戸川区「心身障害者医療費助成（マル障・都制度）」。対象障害、所得制限、住民税非課税者自己負担なし・課税者原則1割負担を確認。
+- `edogawa-education-support`: 江戸川区「就学援助費」。区立小・中学校に通う子どもの学用品費、給食費、校外活動費、修学旅行費等を援助する制度へ補正。
+- `edogawa-elderly-support`: 江戸川区「民間緊急通報システム マモルくん」。65歳以上のひとり暮らし等を対象に、区の契約料金月額2,200円、状況により区助成ありの見守り支援として補正。
+- `edogawa-nursing-equipment`: 江戸川区「紙おむつ・防水シーツの支給」。紙おむつは1人900点（9,000円分相当）まで1割自己負担、防水シーツは年度内1回2枚等を確認。
+- `edogawa-scholarship`: 江戸川区「入学資金融資あっせん制度」。私立高校等100万円、短大・大学等200万円、海外留学200万円まで。利率1.7%のうち本人負担0.5%となるよう利子補給する制度へ補正。
+
+確認:
+
+- 採用した公式出典URL 17件はすべて200で到達確認。江戸川区公式の妊婦のための支援給付、妊娠・出産一覧、物価高対応子育て応援手当、手当・医療費助成一覧、マル障、医療費助成早見表、就学援助、入学前支給、民間緊急通報システム、熟年者応援ページ、紙おむつ・防水シーツの支給、紙おむつ支給申請、紙おむつ使用料助成、入学資金融資あっせん、教育費支援一覧、各進学区分ページを確認。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 20`: 東京都の未照合raw slugは274件から267件に減少。次の候補は `katsushika-migration-bonus`、`katsushika-telework-bonus`、`edogawa-senior-support`、江東区各slug。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 20`: 全国未照合raw slugは3,364件から3,357件に減少。
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,584件、東京都ローカル公式確認済みは149件、activeWithoutOfficialSourceは3,361件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 4,028 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は563件、activeWithDeadlineは409件、期限切れ154件。
+- `npm run audit:links`: broken 0。4,026ファイルから149,015リンク抽出、8,629件監査。

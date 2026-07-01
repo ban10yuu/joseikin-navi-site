@@ -570,6 +570,8 @@
 - [x] 重複棚卸し検証（通常出力、JSON出力、`--duplicates --limit 50`、`npx eslint scripts/audit-raw-verified-gaps.mjs`）。全国未照合raw slugは3,369件、東京都279件、重複raw slugは32件
 - [x] 東京都Batch 45として葛飾区5件を公式確認済み追加・抑止（わくわくチャレンジ広場の助成金非該当抑止、妊婦支援給付金の既存slug集約、消火器購入支援事業補助金、物価高対応子育て応援手当の期限切れ扱い、介護保険住宅改修費・高齢者住宅設備改修費助成）
 - [x] 東京都Batch 45の追加後検証（公式URL 200確認、ESLint、coverage、raw gap監査、lint、build、deadline audit、link audit）。公式URL 9件はすべて200、対象ESLintエラー0、coverage failures 0、公式確認済みactiveは1,579件、東京都ローカル公式確認済みは144件、activeWithoutOfficialSourceは3,368件。buildは4,017ページ生成、deadline audit failures 0、link auditは4,015ファイルから148,489リンク抽出・8,602件監査・broken 0。東京都の未照合raw slugは279件から274件、全国未照合raw slugは3,369件から3,364件に減少
-- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 20` から、残った `katsushika-migration-bonus` / `katsushika-telework-bonus` は公式一次情報で該当制度を特定できる場合のみ追加・抑止し、推測できない場合は江戸川区slugへ進む
+- [x] 東京都Batch 46として江戸川区7件を公式確認済み追加・抑止（妊婦支援給付の既存slug集約、物価高対応子育て応援手当の受付終了、心身障害者医療費助成、就学援助、民間緊急通報システム、紙おむつ・防水シーツの支給、入学資金融資あっせん制度）
+- [x] 東京都Batch 46の追加後検証（公式URL 200確認、ESLint、coverage、raw gap監査、lint、build、deadline audit、link audit）。公式URL 17件はすべて200、対象ESLintエラー0、coverage failures 0、公式確認済みactiveは1,584件、東京都ローカル公式確認済みは149件、activeWithoutOfficialSourceは3,361件。buildは4,028ページ生成、deadline audit failures 0、link auditは4,026ファイルから149,015リンク抽出・8,629件監査・broken 0。東京都の未照合raw slugは274件から267件、全国未照合raw slugは3,364件から3,357件に減少
+- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 20` から、残った `katsushika-migration-bonus` / `katsushika-telework-bonus` / `edogawa-senior-support` は公式一次情報で該当制度を特定できる場合のみ追加・抑止し、推測できない場合は江東区slugへ進む
 - [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugを公式確認済みデータへ置換し、raw重複の実害を減らす
 - [ ] push / 公開反映は明示確認後に実行
