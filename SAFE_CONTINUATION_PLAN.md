@@ -1710,3 +1710,24 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,946 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は543件、activeWithDeadlineは400件、期限切れ143件。
 - `npm run audit:links`: broken 0。3,944ファイルから144,845リンク抽出、8,410件監査。
+
+## 2026-07-02 神奈川Batch 31 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県` の残43件から、`city-batch71.ts` の綾瀬市3件を `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データの「奨学金制度・高校生月額1万5千円/大学生月額4万円の無利子貸与」「木造住宅耐震診断助成・自己負担なし」「女性起業支援補助金・最大50万円」を、綾瀬市公式ページ本文で確認できる現行制度名・支給額・対象者へ補正した。
+
+追加:
+
+- `ayase-scholarship`: 綾瀬市「奨学金制度」。市内在住の高校生等を対象に、経済的理由で高等学校等での修学が困難な方へ、国公立月額5,000円、私立月額10,000円を給付。生成データの高校生・大学生向け無利子貸与月額最大4万円を公式制度へ補正。
+- `ayase-seismic-diagnosis`: 綾瀬市「木造住宅耐震化補助事業」。令和8年度から平成12年5月31日以前に建築確認を受けた木造住宅まで対象拡充。補助率は対象費用の3分の2以内で、上限は耐震診断4万円、耐震設計8万円、耐震改修100万円、工事監理6万円、除却30万円、耐震シェルター等18万円。生成データの自己負担なし耐震診断助成を公式内容へ補正。
+- `ayase-women-startup`: 綾瀬市「商業者支援事業補助金（店舗開業事業）」。小売業、飲食サービス業、生活関連サービス業等の店舗開業事業が対象で、対象経費の3分の2以内、基本上限100万円、新規創業等は100万円加算により最大200万円。女性限定補助ではなく、旧創業補助金は令和7年度から店舗開業事業へ統合済み。
+
+確認:
+
+- 採用した公式出典URL 7件はすべて200で到達確認。綾瀬市公式の奨学金制度、就学援助・奨励金等、木造住宅耐震化補助事業、令和8年度木造住宅耐震化チラシ、商業者支援事業補助金、創業支援等事業、旧創業補助金補助事業者ページを確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 15`: 神奈川県の未照合raw slugは43件から40件に減少。次の候補は `ebina-birth-bonus`、`ebina-childcare-subsidy`、`ebina-housing-purchase` など。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,543件、神奈川県ローカル公式確認済みは91件、activeWithoutOfficialSourceは3,413件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 3,952 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は544件、activeWithDeadlineは401件、期限切れ143件。
+- `npm run audit:links`: broken 0。3,950ファイルから145,075リンク抽出、8,423件監査。
