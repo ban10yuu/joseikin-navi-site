@@ -1987,3 +1987,27 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 4,003 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は555件、activeWithDeadlineは406件、期限切れ149件。
 - `npm run audit:links`: broken 0。4,001ファイルから147,808リンク抽出、8,569件監査。
+
+## 2026-07-02 神奈川Batch 44 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県` の残4件から、`city-batch71.ts` の南足柄市4件を `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データの「介護用品支給事業」「奨学金制度」「木造住宅耐震診断助成」「女性起業支援補助金」を、南足柄市公式ページ本文で確認できる現行制度名・支援内容・対象者へ補正した。
+
+追加:
+
+- `minamiashigara-nursing-equipment`: 南足柄市「介護用品支給事業」。紙おむつ、使い捨て手袋、おしりふき等の対象商品の支払いに利用できる利用券を最大年6万円分発行。要介護3以上、市民税非課税世帯、在宅生活、一人で排泄処理が困難な寝たきりや認知症の方が対象。
+- `minamiashigara-scholarship`: 南足柄市「南足柄市育英奨学金」。高校生等向けの年額4万円給付。令和8年度募集期間は2026年6月8日から7月10日。生成データの大学生含む月額4万円無利子貸与を補正。
+- `minamiashigara-seismic-diagnosis`: 南足柄市「木造住宅の耐震化事業」。無料簡易耐震診断、耐震診断補助上限10万円、耐震改修工事補助2分の1・上限100万円、除却工事補助2分の1・上限20万円へ補正。生成データの自己負担なし耐震診断のみの記載を制度全体へ拡張。
+- `minamiashigara-women-startup`: 南足柄市「信用保証料補助制度・創業支援」。女性限定の起業補助金ではなく、創業支援融資を含む対象融資の信用保証料補助（年度1事業所上限5万円）と特定創業支援等事業へ補正。
+
+確認:
+
+- 採用した公式出典URL 13件を確認対象に追加。南足柄市公式の介護用品支給事業、南足柄市育英奨学金、県の奨学金等の制度、木造住宅の耐震化事業、木造住宅の簡易耐震診断、耐震診断補助、耐震改修工事補助、除却工事補助、信用保証料補助制度、南足柄市の創業支援、創業支援セミナー、中小企業融資制度、商工業・農林業・雇用ページを確認。
+- 採用した公式出典URL 13件はすべて200で到達確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 15`: 神奈川県の未照合raw slugは4件から0件に減少。
+- `git diff --check -- SAFE_CONTINUATION_PLAN.md src/data/grants/verified-local-misc-2026.ts tasks/todo.md`: 問題なし。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,577件、神奈川県ローカル公式確認済みは125件、activeWithoutOfficialSourceは3,373件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 4,007 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は557件、activeWithDeadlineは408件、期限切れ149件。
+- `npm run audit:links`: broken 0。4,005ファイルから148,113リンク抽出、8,586件監査。

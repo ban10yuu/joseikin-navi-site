@@ -561,5 +561,9 @@
 - [x] 採用した公式出典URL 9件を確認対象に追加。南足柄市公式の空き家取得費助成金、移住定住支援策一覧、住宅支援（空き家バンク）、空き家対策専用住宅ローン、不妊治療費（先進医療分）助成事業、結婚新生活移住支援補助金、移住支援ページ、神奈川県公式の県内市町村移住・定住支援、西湘足柄移住コンシェルジュを確認
 - [x] 生成データの制度名・金額・対象条件ずれを補正（住宅取得支援補助金最大50万円は空き家バンク経由の空き家取得費助成金・2分の1/上限50万円へ、不妊治療費助成最大15万円は先進医療費10分の7/上限5万円へ、東京圏からの一般移住支援金最大100万円は公式確認済みの結婚新生活移住支援補助金・上限70万円へ補正）
 - [x] 神奈川Batch 43の追加後検証（公式URL 200確認、ESLint、coverage、raw gap監査、lint、build、deadline audit、link audit）。公式URL 9件はすべて200、対象ESLintエラー0、coverage failures 0、公式確認済みactiveは1,573件、神奈川県ローカル公式確認済みは121件、activeWithoutOfficialSourceは3,377件。buildは4,003ページ生成、deadline audit failures 0、link auditは4,001ファイルから147,808リンク抽出・8,569件監査・broken 0。神奈川県の未照合raw slugは7件から4件に減少
-- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 20` の残件から、南足柄市の `minamiashigara-nursing-equipment`、`minamiashigara-scholarship`、`minamiashigara-seismic-diagnosis`、`minamiashigara-women-startup` を公式一次情報で確認する。生成データの制度名が広すぎる可能性が高いため、公式制度が存在する場合は正確な制度名・上限額へ置換し、存在しない場合は抑止する
+- [x] 神奈川Batch 44として南足柄市4件を公式確認済み追加（介護用品支給事業、南足柄市育英奨学金、木造住宅の耐震化事業、信用保証料補助制度・創業支援）
+- [x] 採用した公式出典URL 13件を確認対象に追加。南足柄市公式の介護用品支給事業、南足柄市育英奨学金、県の奨学金等の制度、木造住宅の耐震化事業、木造住宅の簡易耐震診断、耐震診断補助、耐震改修工事補助、除却工事補助、信用保証料補助制度、南足柄市の創業支援、創業支援セミナー、中小企業融資制度、商工業・農林業・雇用ページを確認
+- [x] 生成データの制度名・金額・対象条件ずれを補正（介護用品は最大年6万円分の利用券として確認、奨学金月額最大4万円は高校生等向け年額4万円給付へ、耐震診断自己負担なしは無料簡易診断・診断上限10万円・改修上限100万円等へ、女性起業支援最大50万円は女性限定ではない信用保証料補助・年度上限5万円と創業支援へ補正）
+- [x] 神奈川Batch 44の追加後検証（公式URL 200確認、ESLint、coverage、raw gap監査、lint、build、deadline audit、link audit）。公式URL 13件はすべて200、対象ESLintエラー0、coverage failures 0、公式確認済みactiveは1,577件、神奈川県ローカル公式確認済みは125件、activeWithoutOfficialSourceは3,373件。buildは4,007ページ生成、deadline audit failures 0、link auditは4,005ファイルから148,113リンク抽出・8,586件監査・broken 0。神奈川県の未照合raw slugは4件から0件に減少
+- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 20` で神奈川県の未照合raw slugが0件になっていることを確認し、全国残件または次の都道府県を棚卸しする
 - [ ] push / 公開反映は明示確認後に実行
