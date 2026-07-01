@@ -549,5 +549,9 @@
 - [x] 採用した公式出典URL 11件を確認対象に追加。三浦市公式の木造住宅耐震改修工事補助事業、住まい・住宅、公式耐震フローチャート画像、中小企業信用保証料補助金交付制度、起業・創業支援、特定創業支援等事業、逗子市公式の令和8年4月からの保育所等新規入所申込、令和8年度保育所等入園のしおりPDF、令和8年度幼児教育・保育の無償化利用案内PDF、副食費の徴収免除、保育所等保育料の見直しPDFを確認
 - [x] 生成データの制度名・金額・対象条件ずれを補正（三浦市耐震診断は自己負担なしではなく簡易診断2万円/一般診断2万5千円/耐震改修工事上限30万円等へ、女性起業支援は女性限定ではない創業支援融資等の信用保証料補助・上限5万円へ、逗子市保育料軽減は幼保無償化・認可外上限3.7万円/4.2万円・多子軽減へ補正）
 - [x] 神奈川Batch 40の追加後検証（公式URL 200確認、ESLint、coverage、raw gap監査、lint、build、deadline audit、link audit）。coverage failures 0、公式確認済みactiveは1,565件、神奈川県ローカル公式確認済みは113件、activeWithoutOfficialSourceは3,386件。buildは3,989ページ生成、deadline audit failures 0、link auditは3,987ファイルから147,121リンク抽出・8,529件監査・broken 0。神奈川県の未照合raw slugは16件から13件に減少
-- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 20` の残件から、逗子市の `zushi-housing-purchase`、`zushi-infertility`、`zushi-migration-bonus` を公式一次情報で確認する。生成データの制度名が広すぎる可能性が高いため、公式制度が存在する場合は正確な制度名・上限額へ置換し、存在しない場合は抑止する
+- [x] 神奈川Batch 41として逗子市3件を公式確認済み追加・抑止（勤労者住宅資金利子補給制度、生殖補助医療費助成事業、移住支援金の公式確認不可抑止）
+- [x] 採用した公式出典URL 9件を確認対象に追加。逗子市公式の勤労者住宅資金利子補給制度、勤労者住宅資金利子補給事業・勤労者生活資金融資制度、住宅リフォーム助成制度終了ページ、生殖補助医療費助成事業、同受診等証明書PDF、令和8年度企業版ふるさと納税対象事業、逗子市公式の移住・定住、移住のご相談、神奈川県公式の市町村移住・定住支援一覧を確認
+- [x] 生成データの制度名・金額・対象条件ずれを補正（住宅取得支援補助金最大50万円は住宅ローン利子補給・月額上限1万1,400円/最長36か月へ、不妊治療費助成最大15万円は生殖補助医療費助成・1年度上限5万円へ、移住支援金最大100万円は現行市公式制度として確認不可のため通常一覧から除外へ補正）
+- [x] 神奈川Batch 41の追加後検証（公式URL 200確認、ESLint、coverage、raw gap監査、lint、build、deadline audit、link audit）。coverage failures 0、公式確認済みactiveは1,567件、神奈川県ローカル公式確認済みは115件、activeWithoutOfficialSourceは3,383件。buildは3,995ページ生成、deadline audit failures 0、link auditは3,993ファイルから147,352リンク抽出・8,543件監査・broken 0。神奈川県の未照合raw slugは13件から10件に減少
+- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 20` の残件から、逗子市の `zushi-women-startup`、南足柄市の `minamiashigara-birth-bonus`、`minamiashigara-childcare-subsidy` を公式一次情報で確認する。生成データの制度名が広すぎる可能性が高いため、公式制度が存在する場合は正確な制度名・上限額へ置換し、存在しない場合は抑止する
 - [ ] push / 公開反映は明示確認後に実行

@@ -1920,3 +1920,24 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,989 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は554件、activeWithDeadlineは406件、期限切れ148件。
 - `npm run audit:links`: broken 0。3,987ファイルから147,121リンク抽出、8,529件監査。
+
+## 2026-07-02 神奈川Batch 41 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県` の残13件から、`city-batch71.ts` の逗子市3件を `src/data/grants/verified-local-misc-2026.ts` に追加・抑止した。生成データの「住宅取得支援補助金」「不妊治療費助成」「移住支援金」を、逗子市公式ページ本文・公式PDF・神奈川県公式一覧で確認できる現行制度または公式確認不可の状態へ補正した。
+
+追加:
+
+- `zushi-housing-purchase`: 逗子市「勤労者住宅資金利子補給制度」。住宅購入への一括補助金ではなく、事業所勤務者が中央労働金庫から住宅資金の融資を受けた場合の利子補給。対象借入額は500万円まで、補給期間は償還開始月から3年間、月額上限1万1,400円で最大41万400円相当。生成データの住宅取得支援補助金最大50万円を公式制度へ補正。
+- `zushi-infertility`: 逗子市「生殖補助医療費（不妊治療医療費）助成事業」。保険診療で実施される体外受精・顕微授精・男性不妊手術、およびこれと組み合わせて実施される先進医療が対象。自己負担額について1年度あたり上限5万円、1年度1回・通算2回まで。申請期限は治療終了日から1年以内。生成データの最大15万円を公式内容へ補正。
+- `zushi-migration-bonus`: 逗子市の一般移住支援金としては公式確認不可のため抑止。公式の移住・定住ページではシティプロモーション、移住相談、移住関連イベント、移住セミナー等を確認し、移住のご相談ページではオンライン相談と住宅紹介は行っていない旨を確認。神奈川県公式の市町村移住・定住支援一覧でも、東京圏等からの一般移住支援金最大100万円は確認できない。
+
+確認:
+
+- 採用した公式出典URL 9件はすべて200で到達確認。逗子市公式の勤労者住宅資金利子補給制度、勤労者住宅資金利子補給事業・勤労者生活資金融資制度、住宅リフォーム助成制度終了ページ、生殖補助医療費助成事業、同受診等証明書PDF、令和8年度企業版ふるさと納税対象事業、逗子市公式の移住・定住、移住のご相談、神奈川県公式の市町村移住・定住支援一覧を確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 15`: 神奈川県の未照合raw slugは13件から10件に減少。次の候補は `zushi-women-startup`、`minamiashigara-birth-bonus`、`minamiashigara-childcare-subsidy` など。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,567件、神奈川県ローカル公式確認済みは115件、activeWithoutOfficialSourceは3,383件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 3,995 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は555件、activeWithDeadlineは406件、期限切れ149件。
+- `npm run audit:links`: broken 0。3,993ファイルから147,352リンク抽出、8,543件監査。
