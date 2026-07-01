@@ -1899,3 +1899,24 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 3,986 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は553件、activeWithDeadlineは405件、期限切れ148件。
 - `npm run audit:links`: broken 0。3,984ファイルから146,895リンク抽出、8,516件監査。
+
+## 2026-07-02 神奈川Batch 40 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県` の残16件から、`city-batch71.ts` の三浦市2件・逗子市1件を `src/data/grants/verified-local-misc-2026.ts` に追加した。生成データの「木造住宅耐震診断助成」「女性起業支援補助金」「保育料軽減補助金」を、三浦市・逗子市公式ページ本文、公式PDF、公式画像で確認できる現行制度名・補助額・対象者へ補正した。
+
+追加:
+
+- `miura-seismic-diagnosis`: 三浦市「木造住宅耐震改修工事補助事業」。専用住宅または店舗併用住宅、昭和56年5月31日以前に建築された旧耐震基準、2階建て以下の在来工法木造住宅が対象。公式フローチャートで、簡易診断2万円、一般診断2万5千円、耐震改修設計5万円、耐震改修工事は工事費の半額・上限30万円、耐震改修工事監理2万5千円を確認。受付期間は2026年4月1日から12月28日。
+- `miura-women-startup`: 三浦市「中小企業信用保証料補助金交付制度」。女性限定ではなく、創業支援融資を含む対象融資の信用保証料について、払込保証料の2分の1・上限5万円を補助する制度へ補正。創業支援融資は保証料払込日から10か月以内に申請。
+- `zushi-childcare-subsidy`: 逗子市「幼児教育・保育の無償化と保育料多子軽減」。3歳児クラスから就学前までの保育料無償化、認可外保育施設等の月額上限3万7,000円または4万2,000円、0～2歳児保育料の多子軽減、副食費免除・補助へ補正。令和8年度保育料表では標準時間の最高額が月額8万3,490円で、多子軽減により第2子半額・第3子以降0円等となる。
+
+確認:
+
+- 採用した公式出典URL 11件はすべて200で到達確認。三浦市公式の木造住宅耐震改修工事補助事業、住まい・住宅、公式耐震フローチャート画像、中小企業信用保証料補助金交付制度、起業・創業支援、特定創業支援等事業、逗子市公式の令和8年4月からの保育所等新規入所申込、令和8年度保育所等入園のしおりPDF、令和8年度幼児教育・保育の無償化利用案内PDF、副食費の徴収免除、保育所等保育料の見直しPDFを確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 15`: 神奈川県の未照合raw slugは16件から13件に減少。次の候補は `zushi-housing-purchase`、`zushi-infertility`、`zushi-migration-bonus` など。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,565件、神奈川県ローカル公式確認済みは113件、activeWithoutOfficialSourceは3,386件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 3,989 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は554件、activeWithDeadlineは406件、期限切れ148件。
+- `npm run audit:links`: broken 0。3,987ファイルから147,121リンク抽出、8,529件監査。

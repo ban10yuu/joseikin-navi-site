@@ -545,5 +545,9 @@
 - [x] 採用した公式出典URL 9件を確認対象に追加。三浦市公式の移住支援、みうら暮らし、結婚新生活支援事業、三浦市の高齢者支援サービスPDF、福祉用具購入について、第9期高齢者計画PDF、大学生等に対する教育支援、高校生に対する教育支援、教育支援・補助を確認
 - [x] 生成データの制度名・金額・対象条件ずれを補正（移住支援金最大100万円は現行市公式制度として確認不可のため通常一覧から除外、介護用品年額6万円相当は助成券1枚5,100円・年最大2枚へ、奨学金月額最大4万円は大学等進学者向け入学時一時給付10万円/20万円へ補正）
 - [x] 神奈川Batch 39の追加後検証（公式URL 200確認、ESLint、coverage、raw gap監査、lint、build、deadline audit、link audit）。coverage failures 0、公式確認済みactiveは1,562件、神奈川県ローカル公式確認済みは110件、activeWithoutOfficialSourceは3,389件。buildは3,986ページ生成、deadline audit failures 0、link auditは3,984ファイルから146,895リンク抽出・8,516件監査・broken 0。神奈川県の未照合raw slugは19件から16件に減少
-- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 20` の残件から、三浦市の `miura-seismic-diagnosis`、`miura-women-startup`、逗子市の `zushi-childcare-subsidy` を公式一次情報で確認する。生成データの制度名が広すぎる可能性が高いため、公式制度が存在する場合は正確な制度名・上限額へ置換し、存在しない場合は抑止する
+- [x] 神奈川Batch 40として三浦市2件・逗子市1件を公式確認済み追加（木造住宅耐震改修工事補助事業、中小企業信用保証料補助金交付制度、幼児教育・保育の無償化と保育料多子軽減）
+- [x] 採用した公式出典URL 11件を確認対象に追加。三浦市公式の木造住宅耐震改修工事補助事業、住まい・住宅、公式耐震フローチャート画像、中小企業信用保証料補助金交付制度、起業・創業支援、特定創業支援等事業、逗子市公式の令和8年4月からの保育所等新規入所申込、令和8年度保育所等入園のしおりPDF、令和8年度幼児教育・保育の無償化利用案内PDF、副食費の徴収免除、保育所等保育料の見直しPDFを確認
+- [x] 生成データの制度名・金額・対象条件ずれを補正（三浦市耐震診断は自己負担なしではなく簡易診断2万円/一般診断2万5千円/耐震改修工事上限30万円等へ、女性起業支援は女性限定ではない創業支援融資等の信用保証料補助・上限5万円へ、逗子市保育料軽減は幼保無償化・認可外上限3.7万円/4.2万円・多子軽減へ補正）
+- [x] 神奈川Batch 40の追加後検証（公式URL 200確認、ESLint、coverage、raw gap監査、lint、build、deadline audit、link audit）。coverage failures 0、公式確認済みactiveは1,565件、神奈川県ローカル公式確認済みは113件、activeWithoutOfficialSourceは3,386件。buildは3,989ページ生成、deadline audit failures 0、link auditは3,987ファイルから147,121リンク抽出・8,529件監査・broken 0。神奈川県の未照合raw slugは16件から13件に減少
+- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 神奈川県 --limit 20` の残件から、逗子市の `zushi-housing-purchase`、`zushi-infertility`、`zushi-migration-bonus` を公式一次情報で確認する。生成データの制度名が広すぎる可能性が高いため、公式制度が存在する場合は正確な制度名・上限額へ置換し、存在しない場合は抑止する
 - [ ] push / 公開反映は明示確認後に実行
