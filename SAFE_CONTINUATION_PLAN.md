@@ -2826,3 +2826,60 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - `tasks/todo.md` の次回候補どおり、板橋区8件（`itabashi-afterschool` / `itabashi-childcare-subsidy` / `itabashi-disability-medical` / `itabashi-migration-bonus` / `itabashi-nursing-equipment` / `itabashi-seismic-diagnosis` / `itabashi-startup-support` / `itabashi-women-startup`）を公式一次情報で確認する。
+
+## 2026-07-02 東京都Batch 72 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の板橋区8件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・補正した。速度改善後の手順として、公式候補URLを自治体単位で確認し、追加後は `scripts/check-grant-source-urls.mjs` で実データ上のsourceUrlsを一括検査した。
+
+追加・補正:
+
+- `itabashi-childcare-subsidy`: 旧候補名「子育て応援給付金」を現行制度「妊婦のための支援給付」へ補正。妊婦1人5万円、胎児・子ども1人につき5万円、申請期限2年を確認。
+- `itabashi-disability-medical`: 心身障害者医療費助成（マル障）へ補正。対象者、所得制限、住民税非課税者の一部負担なし、課税者の1割負担・月額上限を確認。
+- `itabashi-afterschool`: 放課後子ども教室候補を公式制度名「あいキッズ」へ補正。さんさんタイム無料、きらきらタイム利用料と減額・免除制度を確認。
+- `itabashi-women-startup`: 女性起業支援助成金は公式助成金として確認不可。女性の起業入門セミナーや創業支援融資は確認できるため、出典不明助成金として通常一覧から除外。
+- `itabashi-nursing-equipment`: 高齢者紙おむつ等の支給へ補正。要介護1以上、現物支給、現金助成月額7,000円上限を確認。
+- `itabashi-migration-bonus`: ファミリー世帯定住支援候補を「多世代住み替え支援事業」へ補正。対象経費合算額、上限20万円、予算上限到達で終了を確認。
+- `itabashi-seismic-diagnosis`: 木造住宅の耐震化促進事業へ補正。令和8年度受付締切2026年12月4日、耐震診断費用全額助成・上限25万円を確認。
+- `itabashi-startup-support`: 創業支援補助金候補を「創業支援融資」へ補正。融資あっせん上限2,000万円、利子補給8割・42か月まで、創業相談・経営診断要件を確認。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `scripts/check-grant-source-urls.mjs` による板橋区Batch 72の実sourceUrls 20件はすべてHTTP 200。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 25`: 東京都の未照合raw slugは79件から71件に減少。次の候補は品川区9件、武蔵野市。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは3,169件から3,161件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,746件、東京都ローカル公式確認済みは311件、activeWithoutOfficialSourceは3,165件。
+- `npm run build`: 成功。静的ページ4,315件生成、`/grant/[slug]` は1,934件。
+
+次回再開位置:
+
+- `tasks/todo.md` の次回候補どおり、品川区9件（`shinagawa-birth-bonus` / `shinagawa-childcare-subsidy` / `shinagawa-dental-checkup` / `shinagawa-elderly-support` / `shinagawa-nursing-equipment` / `shinagawa-scholarship` / `shinagawa-senior-dental` / `shinagawa-sme-support` / `shinagawa-study-support`）を公式一次情報で確認する。
+
+## 2026-07-02 東京都Batch 72 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の板橋区8件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・補正した。生成データは板橋区トップページのみを出典にしていたため、板橋区公式ページ・公式PDF・公式広報ページで制度名、対象者、支援内容、金額、期限、現行性を確認した。
+
+追加・補正:
+
+- `itabashi-childcare-subsidy`: 子育て応援給付金を現行制度「妊婦のための支援給付」へ補正。妊婦1人5万円、胎児・子ども1人につき5万円。
+- `itabashi-disability-medical`: 心身障害者医療費助成（マル障）へ補正。全額助成表現を、非課税者一部負担なし・課税者1割負担と月額上限へ修正。
+- `itabashi-afterschool`: 放課後子ども教室事業を公式制度名「あいキッズ」へ補正。さんさんタイム無料、きらきらタイム減額・免除あり。
+- `itabashi-women-startup`: 女性起業支援助成金は公式助成金として確認不可。創業支援融資・女性の起業入門セミナー等の関連公式情報を根拠に通常一覧から除外。
+- `itabashi-nursing-equipment`: 介護用品支給事業を高齢者紙おむつ等の支給へ補正。要介護1以上、現金助成は月額7,000円まで。
+- `itabashi-migration-bonus`: ファミリー世帯定住支援助成金を多世代住み替え支援事業へ補正。対象経費の合算額、上限20万円。
+- `itabashi-seismic-diagnosis`: 木造住宅の耐震化促進事業へ補正。耐震診断費用は全額助成、上限25万円、令和8年度承認申請締切は2026年12月4日。
+- `itabashi-startup-support`: 創業支援補助金を創業支援融資へ補正。融資あっせん上限2,000万円、利子補給8割を42か月まで。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug itabashi-childcare-subsidy,itabashi-disability-medical,itabashi-afterschool,itabashi-women-startup,itabashi-nursing-equipment,itabashi-migration-bonus,itabashi-seismic-diagnosis,itabashi-startup-support --timeout-ms 30000 --concurrency 6`: 採用sourceUrls 20件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 25`: 東京都の未照合raw slugは79件から71件に減少。次の候補は品川区9件、武蔵野市8件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは3,169件から3,161件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,746件、東京都ローカル公式確認済みは311件、activeWithoutOfficialSourceは3,165件。
+
+次回再開位置:
+
+- `tasks/todo.md` の次回候補を品川区9件へ進める。対象は `shinagawa-birth-bonus` / `shinagawa-childcare-subsidy` / `shinagawa-dental-checkup` / `shinagawa-elderly-support` / `shinagawa-nursing-equipment` / `shinagawa-scholarship` / `shinagawa-senior-dental` / `shinagawa-sme-support` / `shinagawa-study-support`。
