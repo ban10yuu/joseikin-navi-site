@@ -3824,7 +3824,7 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `node scripts/audit-raw-verified-gaps.mjs --prefecture 愛知県 --limit 35`: 愛知県の未照合raw slugは11件から0件に減少。
 - `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは2,826件から2,815件に減少。
 - `npm run audit:coverage`: failures 0。公式確認済みactiveは1,992件、activeWithoutOfficialSourceは2,819件、愛知県ローカル公式確認済みは102件。active全体4,811件に対する公式確認済みactive比率は約41.4%。
-- `npm run build`: 速度改善方針により今回は省略。愛知県raw gapは完了したため、公開前の節目でまとめて実行する。
+- `npm run build`: 初回は既存カテゴリ型にない `business` / `elderly` 等の `relatedCategories` が残っていたためTypeScriptで停止。カテゴリ語彙を既存の `GrantCategory` に合わせて補正後、成功。静的ページ4,794件生成、`/grant/[slug]` は2,279件相当。
 
 次回再開位置:
 
