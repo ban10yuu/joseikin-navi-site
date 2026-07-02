@@ -3161,3 +3161,39 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 毎件ごとの重いbuildは避ける。通常は `check-grant-source-urls.mjs`、対象ESLint、raw gap監査、coverageを優先し、`npm run build` は20〜50件ごとの節目でまとめて実行する。
 - 重複判断は既存verified検索を先に実行し、同一制度の別slugは新規掲載せず既存slugへ統合する。
 - 次の優先順位は、未照合件数が多い北海道、埼玉県、福岡県、栃木県、大阪府、愛知県の順。まず北海道旭川市20件を1サイクルで処理して、実処理速度を再計測する。
+
+## 2026-07-02 北海道Batch 81 追加ログ
+
+速度改善方針に沿って、北海道の先頭候補である旭川市20件を1サイクルで公式確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。公式一次情報で確認できた制度は掲載し、同一制度の別slugは統合し、現行公式制度として確認できない候補は期限切れ扱いで抑止した。
+
+追加・補正:
+
+- `asahikawa-birth-bonus`: 旧「出産・子育て応援給付金」を現行の「妊婦のための支援給付」へ補正。妊娠1回5万円、胎児1人あたり5万円を確認。
+- `asahikawa-child-medical-aid`: 既存 `asahikawa-child-medical` と同一の子ども医療費助成へ重複統合。
+- `asahikawa-childcare-subsidy`: 教育・保育の無償化、認可外保育施設等の上限、旭川市独自の副食費免除拡充へ補正。
+- `asahikawa-disability-medical` / `asahikawa-senior-medical`: 重度心身障害者医療費助成を公式確認し、重複slugを統合。
+- `asahikawa-elderly-taxi`: 高齢者一般向けタクシー券ではなく、公式の高齢者バス料金助成事業（寿バスカード）へ補正。
+- `asahikawa-energy-support`: 令和8年度地域エネルギー設備等導入促進事業補助金へ補正。第1回受付2026年8月31日まで、設備別上限を確認。
+- `asahikawa-health-checkup-subsidy`: 人間ドック助成は確認できないため、国保特定健診・市がん検診の自己負担無料化へ補正。
+- `asahikawa-housing-reform` / `asahikawa-juutaku-reform`: 旭川市住宅改修補助金へ補正し、重複slugを統合。令和8年度受付終了、公式上限は省エネルギー型10万円・維持保全型5万円。
+- `asahikawa-nursing-home-reform`: 介護保険住宅改修費支給へ補正。対象工事費20万円まで、保険給付分は最大18万円。
+- `asahikawa-scholarship-repayment`: 若者地元定着奨学金返済補助事業を確認。企業連携制度は3年間で最大60万円、登録締切2027年3月31日。
+- `asahikawa-school-lunch` / `asahikawa-school-lunch-subsidy`: 就学援助制度の学校給食費全額援助へ補正し、重複slugを統合。
+- `asahikawa-startup-support`: スタートアップ支援補助金へ補正。上限50万円、令和8年度募集は2026年6月30日で受付終了。
+- `asahikawa-telework-bonus`: 現行の市内中小企業向けテレワーク導入補助は確認できず、移住支援金テレワークタイプも受付終了のため通常一覧から除外。
+- `asahikawa-water-saving`: 雨水タンク補助は確認できず、公式に確認できる飲用水等確保対策補助金へ補正。上限120万円、2026年6月26日受付終了。
+- `asahikawa-block-wall-removal` / `asahikawa-bousai-equipment` / `asahikawa-newlywed-rent`: 生成データの制度名・補助額は現行公式制度として確認できないため通常一覧から除外。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug ...旭川市20件 --concurrency 10 --timeout-ms 60000`: 採用sourceUrls 49件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 北海道 --limit 30`: 北海道の未照合raw slugは163件から143件に減少。次の先頭候補は釧路市21件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは3,090件から3,070件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,810件、activeWithoutOfficialSourceは3,074件、北海道ローカル公式確認済みは27件。
+- `npm run build`: 成功。静的ページ4,440件生成、`/grant/[slug]` は2,024件。
+
+次回再開位置:
+
+- 北海道Batch 82として釧路市21件（`kushiro-birth-bonus` / `kushiro-block-wall-removal` / `kushiro-bousai-equipment` / `kushiro-child-medical` / `kushiro-child-medical-aid` / `kushiro-childcare-subsidy` / `kushiro-disability-medical` / `kushiro-elderly-taxi` / `kushiro-energy-support` / `kushiro-health-checkup-subsidy` / `kushiro-housing-reform` / `kushiro-juutaku-reform` / `kushiro-newlywed-rent` / `kushiro-nursing-home-reform` / `kushiro-scholarship-repayment` / `kushiro-school-lunch` / `kushiro-school-lunch-subsidy` / `kushiro-senior-medical` / `kushiro-startup-support` / `kushiro-telework-bonus` / `kushiro-water-saving`）を同一サイクルで公式確認する。
