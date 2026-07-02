@@ -620,6 +620,9 @@
 - [x] 東京都Batch 69として東大和市8件を公式確認済み追加・補正（放課後子ども教室の助成金非該当抑止、妊婦のための支援給付、令和8年度認可外保育施設利用者に対する補助制度、東京都東京ゼロエミポイントへの補正、不妊検査・不育症検査及び不妊治療費助成、介護保険住宅改修費支給、木造住宅耐震診断・耐震改修・除却助成、テレワーク推進補助金の公式確認不可抑止）
 - [x] 東京都Batch 69の一次検証（対象ESLintエラー0、diff check問題なし、東京都の未照合raw slugは102件から94件に減少）
 - [x] 東京都Batch 69の残り検証（公式URL確認、全国raw gap、coverage、build）を完了。東大和市公式等URL 13件はHTTP 200、全国未照合raw slugは3,192件から3,184件に減少、coverage failures 0、公式確認済みactiveは1,726件、buildは4,284ページ生成・`/grant/[slug]` 1,911件
-- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 40` から、日野市2件（`hino-education-support` / `hino-startup-support`）を公式一次情報で追加・補正する。続けて八王子市、板橋区へ進む
+- [x] 東京都Batch 70として日野市2件を公式確認済み追加・補正（日野市就学援助、中小企業事業資金融資あっせん制度の普通創業資金・特定創業資金）
+- [x] 東京都Batch 70の一次検証（対象ESLintエラー0、diff check問題なし、東京都の未照合raw slugは94件から92件に減少）
+- [x] 東京都Batch 70の残り検証（公式URL確認、全国raw gap、coverage、build）を完了。日野市公式URL 6件はHTTP 200、全国未照合raw slugは3,184件から3,182件に減少、coverage failures 0、公式確認済みactiveは1,728件、buildは4,286ページ生成・`/grant/[slug]` 1,913件
+- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 40` から、八王子市13件（`hachioji-birth-bonus` / `hachioji-block-wall-removal` / `hachioji-childcare-subsidy` / `hachioji-elderly-support` / `hachioji-elderly-taxi` / `hachioji-health-checkup-subsidy` / `hachioji-infertility` / `hachioji-nursing-equipment` / `hachioji-scholarship` / `hachioji-school-lunch-subsidy` / `hachioji-seismic-diagnosis` / `hachioji-senior-medical` / `hachioji-water-saving`）を公式一次情報で追加・補正する。続けて板橋区へ進む
 - [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugを公式確認済みデータへ置換し、raw重複の実害を減らす
 - [ ] push / 公開反映は明示確認後に実行

@@ -11483,4 +11483,63 @@ export const verifiedTokyoLocalGrants2026: Grant[] = [
     verifiedAt,
     publishedAt: '2026-07-02',
   },
+  {
+    slug: 'hino-education-support',
+    title: '日野市 就学援助',
+    organization: '日野市',
+    type: 'local',
+    maxAmount: '学用品費・給食費等を援助',
+    maxAmountNum: 0,
+    category: 'education',
+    prefecture: '東京都',
+    tags: ['日野市', '就学援助', '教育支援'],
+    eligibility: '日野市内在住の小・中学校の児童生徒を養育し、生活保護、児童扶養手当受給、所得基準未満、家計急変等の要件に該当する家庭が対象です。',
+    applicationPeriod: '令和8年度当初認定は2026年4月1日から2026年5月31日まで。以降も随時受付',
+    description: '日野市が、経済的な理由で小・中学校への就学に必要な費用の負担が困難な家庭に対して、学用品費や給食費等を援助する制度です。',
+    sections: [
+      { heading: '制度の概要', content: '<p>日野市内に在住する小・中学校の児童生徒を養育する家庭で、所得基準等の要件に該当する場合、就学に必要な費用の一部が援助されます。</p>' },
+      { heading: '対象となる家庭', content: '<p>生活保護を受けている家庭、児童扶養手当を受給中の世帯、生活保護の停止・廃止となった世帯、令和7年中の世帯所得が日野市教育委員会の基準未満と思われる家庭、税の減免や家計急変等がある家庭が対象です。</p>' },
+      { heading: '申請期間', content: '<p>令和8年度の当初認定受付期間は2026年4月1日から2026年5月31日までです。期間後も一年を通じて随時受付がありますが、原則として申請月からの援助となります。</p>' }
+    ],
+    officialUrl: 'https://www.city.hino.lg.jp/kosodate/gakko/shugaku/1004280.html',
+    sourceName: '日野市 就学援助',
+    sourceUrls: [
+      'https://www.city.hino.lg.jp/kosodate/gakko/shugaku/1004280.html',
+      'https://www.city.hino.lg.jp/kosodate/gakko/shugaku/1006621.html',
+      'https://www.city.hino.lg.jp/kosodate/gakko/shien/1004098.html'
+    ],
+    sourceNote: '日野市公式ページで就学援助の対象者、令和8年度当初認定受付期間2026年4月1日から5月31日、期間後の随時受付、申請月からの援助を確認。関連制度として入学時学用品費の入学前支給と特別支援教育就学奨励費を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-02',
+  },
+  {
+    slug: 'hino-startup-support',
+    title: '日野市 中小企業事業資金融資あっせん制度（創業資金）',
+    organization: '日野市',
+    type: 'local',
+    maxAmount: '普通創業資金・特定創業資金 各1,000万円',
+    maxAmountNum: 1000,
+    category: 'employment',
+    prefecture: '東京都',
+    tags: ['日野市', '創業資金', '融資あっせん'],
+    eligibility: '日野市内で創業する人や創業後間もない中小企業者等が、資金種別ごとの要件を満たす場合に対象です。特定創業資金は特定創業支援等事業による支援証明等が関係します。',
+    targetOccupation: '創業者・中小企業者',
+    applicationPeriod: '通年。金融機関・信用保証協会等の審査あり',
+    description: '旧候補名の「創業スタートアップ支援補助金」は現行の市独自補助金として確認できないため、日野市公式で確認できる中小企業事業資金融資あっせん制度の創業資金へ補正しました。',
+    sections: [
+      { heading: '制度の概要', content: '<p>日野市が中小企業者等の事業資金について金融機関への融資あっせんを行い、利子補給や信用保証料補助により資金調達を支援する制度です。</p>' },
+      { heading: '創業資金', content: '<p>普通創業資金と特定創業資金はいずれも融資限度額1,000万円、返済期間84か月以内です。普通創業資金は融資利率1.5%、利子補給率1.0%、保証料補助は都補助2/3、特定創業資金は融資利率1.1%、利子補給率1.0%、保証料補助は全額（都補助2/3、市補助1/3）と確認できます。</p>' },
+      { heading: '関連支援', content: '<p>日野市では創業相談窓口、創業スクール、特定創業支援等事業による証明書なども案内されています。補助金ではなく融資・保証料補助・利子補給を中心に確認してください。</p>' }
+    ],
+    officialUrl: 'https://www.city.hino.lg.jp/sangyo/1020464/1003541.html',
+    sourceName: '日野市中小企業事業資金融資あっせん制度',
+    sourceUrls: [
+      'https://www.city.hino.lg.jp/sangyo/1020464/1003541.html',
+      'https://www.city.hino.lg.jp/sangyo/sougyo/index.html',
+      'https://www.city.hino.lg.jp/sangyo/sougyo/1018479.html'
+    ],
+    sourceNote: '日野市公式ページで中小企業事業資金融資あっせん制度、普通創業資金・特定創業資金の融資限度額1,000万円、返済期間84か月以内、利子補給率、保証料補助を確認。創業支援ページで創業相談窓口、特定創業支援等事業、創業スクールを確認。',
+    verifiedAt,
+    publishedAt: '2026-07-02',
+  },
 ];

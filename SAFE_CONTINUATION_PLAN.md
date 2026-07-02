@@ -2763,3 +2763,26 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 - `tasks/todo.md` の次回候補どおり、日野市2件（`hino-education-support` / `hino-startup-support`）から公式一次情報で確認する。その後、八王子市・板橋区へ進む。
 - 東京都未照合rawを短時間で減らすため、次回も自治体単位でまとめて処理し、公式確認不可候補は早めに抑止する。
+
+## 2026-07-02 東京都Batch 70 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の日野市2件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・補正した。
+
+追加・補正:
+
+- `hino-education-support`: 日野市「就学援助」へ補正。生活保護、児童扶養手当受給、所得基準未満、家計急変等の対象要件、令和8年度当初認定受付2026年4月1日から5月31日、期間後の随時受付を確認。
+- `hino-startup-support`: 旧候補名の創業スタートアップ支援補助金は現行市独自補助金として確認不可。日野市中小企業事業資金融資あっせん制度の普通創業資金・特定創業資金へ補正。融資限度額各1,000万円、返済期間84か月以内、利子補給・保証料補助を確認。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 20`: 東京都の未照合raw slugは94件から92件に減少。次の候補は八王子市13件、板橋区。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは3,184件から3,182件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,728件、東京都ローカル公式確認済みは293件、activeWithoutOfficialSourceは3,186件。
+- 採用した日野市公式URL 6件はすべてHTTP 200。
+- `npm run build`: 成功。静的ページ4,286件生成、`/grant/[slug]` は1,913件。
+
+次回再開位置:
+
+- `tasks/todo.md` の次回候補どおり、八王子市13件（`hachioji-birth-bonus` / `hachioji-block-wall-removal` / `hachioji-childcare-subsidy` / `hachioji-elderly-support` / `hachioji-elderly-taxi` / `hachioji-health-checkup-subsidy` / `hachioji-infertility` / `hachioji-nursing-equipment` / `hachioji-scholarship` / `hachioji-school-lunch-subsidy` / `hachioji-seismic-diagnosis` / `hachioji-senior-medical` / `hachioji-water-saving`）を公式一次情報で確認する。
