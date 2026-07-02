@@ -2373,3 +2373,30 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 4,163 件生成。
 - `npm run audit:deadlines`: build前の古い生成物では新規期限切れ2件の詳細HTML未生成で一度failures 2。build後に再実行して failures 0。期限候補は590件、activeWithDeadlineは419件、期限切れ171件。
 - `npm run audit:links`: broken 0。4,161ファイルから155,346リンク抽出、8,950件監査。
+
+## 2026-07-02 東京都Batch 57 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の杉並区6件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・抑止した。生成データの「出産・子育て応援交付金」「心身障害者医療費助成」「ファミリー世帯定住支援給付金」「次世代育成基金奨学金」「給付型奨学金」「テレワーク導入支援助成」を、杉並区公式ページ・公式PDFで確認できる現行制度名・支援内容・受付状況へ補正した。
+
+追加:
+
+- `suginami-birth-bonus`: 杉並区「妊婦のための支援給付」。妊娠時5万円、出産時は子どもの数に応じて5万円を支給する現行制度へ補正。
+- `suginami-disability-medical`: 杉並区「東京都心身障害者（児）医療費助成」。マル障受給者証に基づく保険診療の自己負担分助成として補正。
+- `suginami-migration-bonus`: 杉並区「転居費用助成」。区内転居する低所得世帯等への初期費用助成として補正。2人以上世帯20万円、単身15万円。
+- `suginami-scholarship`: 杉並区「中学生海外留学事業（次世代育成基金活用）」。給付型奨学金ではなく基金活用の海外留学事業として確認し、成果報告会日を期限切れ判定に使用して通常一覧から除外。
+- `suginami-scholarship-v2`: 杉並区「奨学資金貸付制度」。給付ではなく無利子貸付制度として補正。
+- `suginami-telework-bonus`: 杉並区「中小企業等デジタル化推進事業助成金」。テレワーク専用助成ではなく、現行のデジタル化・業務効率化支援へ補正。上限50万円、申請期限2026年10月30日。
+
+確認:
+
+- 確認対象の公式URL 11件はすべて200で到達確認。杉並区公式の妊婦のための支援給付、東京都心身障害者（児）医療費助成、同所得制限、転居費用助成、住宅支援一覧、中学生海外留学事業、奨学金制度、区議会資料、中小企業等デジタル化推進事業助成金、同チラシPDF、産業振興センター案内を確認。
+- 作業中に `shinjuku-telework-bonus` の古い抑止レコードと、新宿区Batch 56の一時重複ブロックが作業ツリーで検出されたため、正規のBatch 56レコードを残して重複を除去した。最終確認でslug重複0件。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 30`: 東京都の未照合raw slugは183件から177件に減少。次の候補は世田谷区、青梅市、千代田区、足立区、台東区。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 20`: 全国未照合raw slugは3,273件から3,267件に減少。
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,656件、東京都ローカル公式確認済みは221件、activeWithoutOfficialSourceは3,271件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 4,170 件生成。
+- `npm run audit:deadlines`: 重複削除とbuild後に再実行して failures 0。期限候補は592件、activeWithDeadlineは420件、期限切れ172件。
+- `npm run audit:links`: broken 0。4,168ファイルから155,783リンク抽出、8,968件監査。

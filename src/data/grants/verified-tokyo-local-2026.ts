@@ -3471,6 +3471,231 @@ export const verifiedTokyoLocalGrants2026: Grant[] = [
     publishedAt: '2026-06-26',
   },
   {
+    slug: 'suginami-birth-bonus',
+    title: '杉並区 妊婦のための支援給付',
+    organization: '杉並区',
+    type: 'local',
+    maxAmount: '妊娠時5万円＋子どもの数に応じて5万円',
+    maxAmountNum: 10,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['杉並区', '妊婦支援給付', '出産支援'],
+    eligibility: '申請日時点で杉並区内に住所を有し、産科医療機関等で胎児心拍が確認された妊産婦が対象です。',
+    targetOccupation: '妊婦・出産世帯',
+    applicationPeriod: 'ゆりかご面接後およびすこやか赤ちゃん訪問後の案内に沿って申請',
+    description: '杉並区が、妊娠時と出産時の2回に分けて妊婦支援給付金を支給する制度です。旧データの出産・子育て応援交付金候補を現行制度名へ補正しました。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>妊婦給付認定を受けた方に、妊婦支援給付金を妊娠時と出産時の2回に分けて支給します。</p>'
+      },
+      {
+        heading: '給付内容',
+        content: '<p>妊娠時は5万円、出産時は妊娠している子どもの数に応じて5万円です。</p>'
+      },
+      {
+        heading: '掲載時の補正',
+        content: '<p>旧候補名の出産・子育て応援交付金ではなく、公式ページで確認できる現行の妊婦のための支援給付として掲載します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.suginami.tokyo.jp/s054/1125.html',
+    sourceName: '杉並区 妊婦のための支援給付',
+    sourceUrls: ['https://www.city.suginami.tokyo.jp/s054/1125.html'],
+    sourceNote: '杉並区公式ページで妊娠時5万円、出産時は子どもの数に応じて5万円、対象者、申請方法を確認。旧出産・子育て応援交付金候補から現行制度へ補正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'suginami-disability-medical',
+    title: '杉並区 東京都心身障害者（児）医療費助成',
+    organization: '杉並区',
+    type: 'local',
+    maxAmount: '保険診療の自己負担分を助成',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '東京都',
+    tags: ['杉並区', '障害者医療', 'マル障'],
+    eligibility: '東京都心身障害者（児）医療費助成の対象となるマル障受給者証を持つ方が対象です。所得制限や対象除外があります。',
+    targetOccupation: '重度心身障害者',
+    applicationPeriod: '通年',
+    description: '杉並区で受け付ける東京都心身障害者（児）医療費助成です。マル障受給者証に基づき、保険診療の自己負担分を助成します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>心身障害者の保健の向上と福祉の増進を目的に、東京都が保険診療の自己負担額を一部助成する制度です。</p>'
+      },
+      {
+        heading: '払い戻し申請',
+        content: '<p>払い戻し申請では、医療費助成支給申請書、領収書、マル障受給者証、健康保険の資格情報がわかるもの、振込先確認書類などが必要です。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>所得制限があります。対象手帳や年齢、他制度の受給状況により対象可否が変わるため、申請前に杉並区の窓口で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.suginami.tokyo.jp/s036/7966.html',
+    sourceName: '杉並区 東京都心身障害者（児）医療費助成',
+    sourceUrls: [
+      'https://www.city.suginami.tokyo.jp/s036/7966.html',
+      'https://www.city.suginami.tokyo.jp/s036/7968.html'
+    ],
+    sourceNote: '杉並区公式ページで東京都心身障害者（児）医療費助成、払い戻し申請書類、所得制限ページを確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'suginami-migration-bonus',
+    title: '杉並区 転居費用助成',
+    organization: '杉並区',
+    type: 'local',
+    maxAmount: '2人以上世帯 最大20万円',
+    maxAmountNum: 20,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['杉並区', '転居費用', '住宅支援'],
+    eligibility: '引き続き2年以上杉並区内に居住し、区内から区内の民間賃貸住宅へ転居する低所得世帯などが対象です。子どもがいる世帯は所得基準が別に設定されています。',
+    targetIncome: '低所得世帯',
+    applicationPeriod: '通年。物件申し込み前、入居審査前までに予定登録申請が必要',
+    description: '杉並区が、住環境改善や家賃負担軽減のため区内で転居する低所得世帯に、初期費用を助成する制度です。旧データのファミリー世帯定住支援給付金候補を現行の公式住宅支援へ補正しました。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>住環境改善や家賃負担軽減のため、区内の民間賃貸住宅へ転居する際の初期費用を助成します。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>助成対象経費は賃貸借契約締結に係る費用と家財の運搬費用です。助成上限は単身世帯15万円、2人以上世帯20万円です。</p>'
+      },
+      {
+        heading: '掲載時の補正',
+        content: '<p>区外からの転入・定住給付金として確認できる現行制度は見当たらないため、公式に確認できる区内転居費用助成へ補正しています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.suginami.tokyo.jp/s093/19882.html',
+    sourceName: '杉並区 転居費用助成',
+    sourceUrls: [
+      'https://www.city.suginami.tokyo.jp/s093/19882.html',
+      'https://www.city.suginami.tokyo.jp/s042/1730.html'
+    ],
+    sourceNote: '杉並区公式ページで転居費用助成、対象要件、助成対象経費、単身15万円・2人以上20万円、物件申し込み前申請を確認。旧ファミリー世帯定住支援給付金候補から補正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'suginami-scholarship',
+    title: '杉並区 中学生海外留学事業（次世代育成基金活用）',
+    organization: '杉並区',
+    type: 'local',
+    maxAmount: '区の基金活用事業',
+    maxAmountNum: 0,
+    category: 'education',
+    prefecture: '東京都',
+    tags: ['杉並区', '次世代育成基金', '海外留学'],
+    eligibility: '杉並区内在住の中学生を対象とする次世代育成基金活用事業です。募集年度ごとの要件・選考があります。',
+    targetOccupation: '中学生',
+    applicationPeriod: '年度募集による。令和7年度成果報告会は2025年10月13日実施済み',
+    deadlineDate: '2025-10-13',
+    description: '旧データでは次世代育成基金奨学金として掲載されていましたが、公式に確認できる内容は中学生を海外に派遣する基金活用事業です。現行の奨学金給付制度としては確認できないため、通常一覧から除外します。',
+    sections: [
+      {
+        heading: '公式確認結果',
+        content: '<p>杉並区公式ページでは、次世代育成基金を活用した中学生海外留学事業が確認できます。</p>'
+      },
+      {
+        heading: '掲載停止の理由',
+        content: '<p>返済不要の奨学金や現金給付としての募集要項は確認できないため、旧候補名のまま通常一覧には掲載しません。</p>'
+      },
+      {
+        heading: '確認できる事業',
+        content: '<p>区内在住の中学生を交流都市へ留学生として派遣し、国際交流や直接体験を通じた成長を支援する事業です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.suginami.tokyo.jp/s114/8470.html',
+    sourceName: '杉並区 中学生海外留学事業',
+    sourceUrls: ['https://www.city.suginami.tokyo.jp/s114/8470.html'],
+    sourceNote: '杉並区公式ページで次世代育成基金活用事業としての中学生海外留学事業を確認。奨学金給付制度としては確認できないため成果報告会日を期限切れ判定に使用。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'suginami-scholarship-v2',
+    title: '杉並区 奨学資金貸付制度',
+    organization: '杉並区',
+    type: 'local',
+    maxAmount: '高等学校等の学費を無利子貸付',
+    maxAmountNum: 0,
+    category: 'education',
+    prefecture: '東京都',
+    tags: ['杉並区', '奨学金', '無利子貸付'],
+    eligibility: '向学心がある杉並区民で、経済的理由により高等学校等の修学が困難な生徒本人が対象です。',
+    targetIncome: '経済的理由により修学困難な世帯',
+    applicationPeriod: '通年または年度案内による。申請前に学務課へ確認',
+    description: '杉並区が、経済的理由により高等学校等の修学が困難な生徒本人へ学費の一部を無利子で貸し付ける制度です。旧データの給付型奨学金候補を公式の貸付制度へ補正しました。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>向学心がある区民で、経済的理由により高等学校等の修学が困難な生徒本人に、学費の一部を無利子で貸し付けます。</p>'
+      },
+      {
+        heading: '関連制度',
+        content: '<p>公式ページでは、杉並区奨学金の貸付のほか、東京都育英資金貸付制度や高等学校等就学支援金等の案内も掲載されています。</p>'
+      },
+      {
+        heading: '掲載時の補正',
+        content: '<p>給付型ではなく無利子貸付制度として公式確認した内容に修正しています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.suginami.tokyo.jp/s109/7383.html',
+    sourceName: '杉並区 奨学金制度',
+    sourceUrls: [
+      'https://www.city.suginami.tokyo.jp/s109/7383.html',
+      'https://www.city.suginami.tokyo.jp/s053/19803.html'
+    ],
+    sourceNote: '杉並区公式ページで杉並区奨学資金の無利子貸付、対象概要、東京都育英資金等の関連制度を確認。旧給付型奨学金候補から補正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'suginami-telework-bonus',
+    title: '杉並区 中小企業等デジタル化推進事業助成金',
+    organization: '杉並区',
+    type: 'local',
+    maxAmount: '最大50万円',
+    maxAmountNum: 50,
+    category: 'employment',
+    prefecture: '東京都',
+    tags: ['杉並区', '中小企業', 'デジタル化'],
+    eligibility: '杉並区内に主たる事業所を有し、区内で1年以上事業を営む中小企業者等が対象です。住民税・事業税の滞納がないことなどの要件があります。',
+    targetOccupation: '中小企業者等',
+    applicationPeriod: '令和8年6月1日から令和8年10月30日まで。予算到達で終了',
+    deadlineDate: '2026-10-30',
+    description: '杉並区が、区内中小企業等のデジタル化、業務効率化、生産性向上、新事業創出を支援する令和8年度助成金です。旧データのテレワーク専用助成候補を現行のデジタル化助成へ補正しました。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>区内中小企業等がデジタル技術を導入する際の経費の一部を助成します。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>助成率は中小企業者3分の2、小規模企業者4分の3で、上限額はいずれも50万円です。ソフトウェア購入、システム構築、ホームページ・ECサイト制作などが対象です。</p>'
+      },
+      {
+        heading: '掲載時の補正',
+        content: '<p>テレワーク導入専用助成金は現行公式制度として確認できないため、公式に募集中の中小企業等デジタル化推進事業助成金へ補正しています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.suginami.tokyo.jp/s121/news/25089.html',
+    sourceName: '杉並区 中小企業等デジタル化推進事業助成金',
+    sourceUrls: [
+      'https://www.city.suginami.tokyo.jp/s121/news/25089.html',
+      'https://www.city.suginami.tokyo.jp/documents/25089/chirashi_degital.pdf',
+      'https://www.city.suginami.tokyo.jp/s121/1754.html'
+    ],
+    sourceNote: '杉並区公式ページで令和8年度中小企業等デジタル化推進事業助成金、助成率、上限50万円、申請期間2026年6月1日から10月30日、対象経費を確認。旧テレワーク助成候補から補正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
     slug: 'setagaya-barrier-free',
     title: '世田谷区 高齢者向け住宅改修の助成・相談',
     organization: '世田谷区',
