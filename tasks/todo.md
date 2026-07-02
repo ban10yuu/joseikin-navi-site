@@ -701,6 +701,8 @@
 - [x] 愛知県Batch 93の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 33件はHTTP 200、愛知県の未照合raw slugは89件から70件、全国未照合raw slugは2,904件から2,885件に減少、coverage failures 0、公式確認済みactiveは1,943件、愛知県ローカル公式確認済みは53件。buildは速度改善方針により次節目へ繰り延べ）
 - [x] 愛知県Batch 94として春日井市11件を公式確認済み追加・補正（介護ロボット導入補助金の公式確認不可抑止、育児休業取得奨励金の公式確認不可抑止、かすがいシティバス高齢者カード・交通共通利用助成券、耐震シェルター整備費補助金、中小製造業IoT導入補助金の公式確認不可抑止、子ども才能開花支援補助金の公式確認不可抑止、住宅省エネ改修費補助制度の受付終了扱い、精神障がい者医療費助成、結婚新生活支援補助金の公式確認不可抑止、幼児教育・保育の無償化、創業事業補助金）
 - [x] 愛知県Batch 94の検証（対象ESLintエラー0、diff check問題なし、初回URL監査で旧例規集ドメイン1件fetch failed後に公式PDFへ差し替え、再監査で採用sourceUrls 22件はHTTP 200、愛知県の未照合raw slugは70件から59件、全国未照合raw slugは2,885件から2,874件に減少、coverage failures 0、公式確認済みactiveは1,948件、愛知県ローカル公式確認済みは58件。buildは速度改善方針により次節目へ繰り延べ）
-- [ ] 次回候補: 愛知県の瀬戸市9件（`seto-care-robot` / `seto-childcare-leave-bonus` / `seto-community-bus` / `seto-earthquake-shelter-reform` / `seto-factory-iot` / `seto-gifted-support` / `seto-mental-health` / `seto-newlywed-housing` / `seto-preschool-free`）を公式一次情報で確認する
+- [x] 愛知県Batch 95として瀬戸市9件を公式確認済み追加・補正（介護ロボット導入補助金の公式確認不可抑止、育児休業取得奨励金の公式確認不可抑止、コミュニティバス高齢者無料乗車証の公式確認不可抑止、木造住宅耐震シェルター設置工事費補助事業、スタートアップ連携事業補助金、スポーツ・文化活動全国大会等出場奨励補助金、精神障害者医療費助成制度、結婚新生活支援補助金の公式確認不可抑止、幼児教育・保育の無償化）
+- [x] 愛知県Batch 95の検証（対象ESLintエラー0、diff check問題なし、初回URL監査でPDF/新着一覧source 2件fetch failed後に瀬戸市公式HTMLへ差し替え、再監査で採用sourceUrls 16件はHTTP 200、愛知県の未照合raw slugは59件から50件、全国未照合raw slugは2,874件から2,865件に減少、coverage failures 0、公式確認済みactiveは1,953件、愛知県ローカル公式確認済みは63件。buildは速度改善方針により次節目へ繰り延べ）
+- [ ] 次回候補: 愛知県の半田市9件（`handa-care-robot` / `handa-childcare-leave-bonus` / `handa-community-bus` / `handa-earthquake-shelter-reform` / `handa-factory-iot` / `handa-gifted-support` / `handa-mental-health` / `handa-newlywed-housing` / `handa-preschool-free`）を公式一次情報で確認する
 - [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugを公式確認済みデータへ置換し、raw重複の実害を減らす
 - [ ] push / 公開反映は明示確認後に実行

@@ -3664,3 +3664,33 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - 愛知県Batch 95として瀬戸市9件（`seto-care-robot` / `seto-childcare-leave-bonus` / `seto-community-bus` / `seto-earthquake-shelter-reform` / `seto-factory-iot` / `seto-gifted-support` / `seto-mental-health` / `seto-newlywed-housing` / `seto-preschool-free`）を公式一次情報で確認する。
+
+## 2026-07-02 愛知県Batch 95 追加ログ
+
+瀬戸市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。生成データの制度名・金額はそのまま採用せず、瀬戸市公式ページで確認できた制度へ置換し、現行公式制度として確認できない候補は期限切れ扱いで通常一覧から除外した。
+
+追加・補正:
+
+- `seto-care-robot`: 市単独の現行介護ロボット導入補助金は公式確認できず、介護現場のICT・介護ロボット等の技術導入検討を確認したうえで通常一覧から除外。
+- `seto-childcare-leave-bonus`: 市単独の育児休業取得奨励金は公式確認できず、男性育休・ワークライフバランス啓発を確認したうえで通常一覧から除外。
+- `seto-community-bus`: 高齢者無料乗車証は公式確認できず、コミュニティバス運賃・幼児無料・障害者半額を確認したうえで通常一覧から除外。
+- `seto-earthquake-shelter-reform`: 木造住宅耐震シェルター設置工事費補助事業へ補正。上限30万円、旧耐震木造住宅・無料耐震診断判定値1.0未満等を確認。
+- `seto-factory-iot`: スタートアップ連携事業補助金へ補正。補助率3分の2、上限50万円、事業開始から30日以内申請を確認。
+- `seto-gifted-support`: スポーツ・文化活動全国大会等出場奨励補助金へ補正。児童・生徒・学生の全国大会等出場支援、令和8年度申請期限2027年3月4日を確認。
+- `seto-mental-health`: 精神障害者医療費助成制度へ補正。自立支援医療（精神通院）との併用、精神科入院者の申請区分を確認。
+- `seto-newlywed-housing`: 結婚新生活支援補助金は公式確認できず、通常一覧から除外。
+- `seto-preschool-free`: 幼児教育・保育の無償化へ補正。3〜5歳児、住民税非課税世帯0〜2歳児、幼稚園月額25,700円上限を確認。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug ...瀬戸市9件 --concurrency 3 --timeout-ms 60000`: 初回はPDF/新着一覧sourceで2件fetch failed。`seto-care-robot` sourceUrlsを瀬戸市公式HTMLへ差し替え、再実行で採用sourceUrls 16件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 愛知県 --limit 35`: 愛知県の未照合raw slugは59件から50件に減少。次の先頭候補は半田市9件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは2,874件から2,865件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,953件、activeWithoutOfficialSourceは2,869件、愛知県ローカル公式確認済みは63件。active全体4,822件に対する公式確認済みactive比率は約40.5%。
+- `npm run build`: 速度改善方針により今回は省略。直前の一宮市Batch 92でbuild成功済みで、今回は対象ESLint・URL検証・coverage・raw gap監査が通っている。次の20〜50件節目または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 愛知県Batch 96として半田市9件（`handa-care-robot` / `handa-childcare-leave-bonus` / `handa-community-bus` / `handa-earthquake-shelter-reform` / `handa-factory-iot` / `handa-gifted-support` / `handa-mental-health` / `handa-newlywed-housing` / `handa-preschool-free`）を公式一次情報で確認する。
