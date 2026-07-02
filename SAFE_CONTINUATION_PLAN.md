@@ -2231,3 +2231,31 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 4,097 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は579件、activeWithDeadlineは414件、期限切れ165件。
 - `npm run audit:links`: 初回は既存の神奈川産業振興センター503と高松市ECONNRESETでbroken 15、同じビルド出力で再実行して broken 0。4,095ファイルから152,238リンク抽出、8,804件監査。
+
+## 2026-07-02 東京都Batch 52 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の三鷹市8件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・抑止した。生成データの「放課後クラブ利用料助成」「在宅高齢者介護手当」「不妊治療費助成制度」「認可外保育施設利用料助成」「雨水タンク設置補助金」「就学援助制度」「高齢者見守り・生活支援」「若者正規雇用定着奨励金」を、三鷹市公式ページで確認できる現行制度名・支援内容・受付状況へ補正した。
+
+追加:
+
+- `mitaka-afterschool-care`: 三鷹市「学童保育所育成料等減額・免除」。育成料月額7,000円について、住民税均等割のみ世帯の月額3,500円減額、対象事由による育成料・延長育成料・おやつ代免除として補正。
+- `mitaka-home-care`: 三鷹市「家族介護慰労金」。在宅高齢者を介護している家族に年額10万円を贈呈する制度へ補正。
+- `mitaka-infertility`: 三鷹市「不妊症・不育症に関する相談・東京都助成案内」。市独自の現行助成金としては支給額・申請期間を確認できないため通常一覧から除外。
+- `mitaka-nursery-support`: 三鷹市「認可外保育施設利用助成制度」。認証保育所・認可外保育施設等の利用者向けに、0〜2歳児の市民税課税世帯は月額上限8万円などの助成として補正。
+- `mitaka-rainwater-tank`: 三鷹市「雨水浸透ます設置事業」。旧生成データの雨水タンク補助ではなく、希望者へ公費で雨水浸透ますを設置する支援として補正。
+- `mitaka-school-aid`: 三鷹市「就学援助制度」。学用品費、学校給食費、修学旅行費など学校生活に必要な費用の援助として補正。
+- `mitaka-senior-support`: 三鷹市「補聴器購入費助成事業」。補聴器本体購入費用の2分の1、上限4万円、購入前申請必須として補正。
+- `mitaka-youth-employment`: 三鷹市「介護事業者事業継続支援事業補助金」。若者正規雇用定着奨励金は現行市公式制度として確認できないため、公式確認できる雇用・職場環境改善系補助へ補正。上限50万円（年額）。
+
+確認:
+
+- 確認対象の公式URL 23件はすべて200で到達確認。三鷹市公式の学童保育所各種申請、学童保育所案内、令和8年度学童保育所入所案内PDF、家族介護慰労金、高齢者向けサービス冊子、家族介護慰労金申込書、不妊症・不育症相談、認可外保育施設利用助成制度、企業主導型保育施設案内、認可外保育施設等案内PDF、申請書PDF、雨水浸透ます設置、雨水浸透施設設置基準、就学援助制度、令和8年度就学援助制度案内PDF、新入学準備金、補聴器購入費助成、広報みたか補聴器助成案内、介護事業者事業継続支援事業補助金、令和8年度取扱要領、Q&A、広報みたか介護事業者補助案内、わくわくサポート三鷹を確認。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 30`: 東京都の未照合raw slugは225件から217件に減少。次の候補は渋谷区、小金井市、小平市、昭島市。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 20`: 全国未照合raw slugは3,315件から3,307件に減少。
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,622件、東京都ローカル公式確認済みは187件、activeWithoutOfficialSourceは3,311件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 4,112 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は580件、activeWithDeadlineは414件、期限切れ166件。
+- `npm run audit:links`: broken 0。4,110ファイルから152,848リンク抽出、8,842件監査。
