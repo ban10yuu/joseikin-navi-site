@@ -3559,28 +3559,41 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 - 愛知県Batch 92として一宮市残り13件（`ichinomiya-earthquake-shelter-reform` / `ichinomiya-elderly-support` / `ichinomiya-factory-iot` / `ichinomiya-gifted-support` / `ichinomiya-housing-purchase` / `ichinomiya-infertility` / `ichinomiya-mental-health` / `ichinomiya-newlywed-housing` / `ichinomiya-nursing-equipment` / `ichinomiya-preschool-free` / `ichinomiya-scholarship` / `ichinomiya-seismic-diagnosis` / `ichinomiya-sme-support`）を公式一次情報で確認する。
 
-## 2026-07-02 愛知県Batch 91 追加ログ
+## 2026-07-02 愛知県Batch 92 追加ログ
 
-愛知県庁3件と安城市2件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。速度改善方針に従い、一宮市18件は次バッチへ回し、今回は公式確認済み5件を小さく確実に完了させた。制度名・金額は生成データを採用せず、愛知県・安城市・厚生労働省の公式ページで確認できる内容へ置換した。
+一宮市18件（前回暫定追加済み5件の再補正と、残り13件）を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。生成データの制度名・金額はそのまま採用せず、一宮市公式ページ、公式PDF、申請書ページで確認できる制度へ置換した。現行公式制度として確認できない候補は期限切れ扱いで通常一覧から除外した。
 
 追加・補正:
 
-- `aichi-childcare-subsidy`: 愛知県の第二子以降児の保育料無料化・軽減補助へ補正。3歳未満児の第二子以降の保育料を3歳到達年度末まで無料化または軽減する市町村への経費補助、2025年10月からの対象拡充を確認。
-- `aichi-employment-training`: 愛知県独自制度ではなく厚生労働省・ハローワークの全国制度「求職者支援制度」の重複として補正。月10万円等の給付内容は全国制度へ統合し、このslugは通常一覧から除外。
-- `aichi-nursing-robot`: 愛知県障害者施設介護テクノロジー導入支援事業費補助金へ補正。補助率4分の3、パッケージ型導入支援は最大1,000万円を確認。令和8年度事前協議期限2026年5月29日正午は終了済みのため通常一覧から除外。
-- `anjo-fertility-treatment`: 安城市一般不妊治療費等助成制度へ補正。自己負担額の2分の1、1夫婦につき年度上限10万円、申請期間2027年3月19日までを確認。
-- `anjo-housing-seismic`: 安城市木造住宅耐震改修費補助制度へ補正。一般型は一般診断法135万円、精密診断法155万円、交付申請は12月末まで、工事着手前申請を確認。
+- `ichinomiya-birth-bonus`: 妊婦支援給付金へ補正。妊婦1人5万円、妊娠している子ども1人あたり5万円を確認。
+- `ichinomiya-care-robot`: 令和8年度地域医療介護総合確保基金の介護施設等整備事業費補助金分へ補正。介護ロボット・ICT導入を含むが受付終了のため通常一覧から除外。
+- `ichinomiya-childcare-leave-bonus`: 一宮市の民間向け育児休業取得奨励金は公式確認できず、市職員向け育休カバー手当案内を根拠に通常一覧から除外。
+- `ichinomiya-childcare-subsidy`: 保育料の多子軽減・第二子保育料無料化等事業へ補正。世帯課税状況に応じた無料・半額軽減を確認。
+- `ichinomiya-community-bus`: 名鉄バス高齢者向けフリーパス購入費用一部負担へ補正。1カ月分につき500円割引、2027年3月31日までを確認。
+- `ichinomiya-earthquake-shelter-reform`: 耐震シェルター等設置補助金へ補正。耐震シェルター最大25万円、防災ベッド最大15万円、2026年12月15日締切を確認。
+- `ichinomiya-elderly-support`: ICTを活用したひとり暮らし高齢者見守りサービス利用助成事業へ補正。上限1万5千円、1世帯1回限りを確認。
+- `ichinomiya-factory-iot`: SDGs推進支援補助金の生産・受注管理システム導入へ補正。通常上限100万円、複数企業申請は上限200万円を確認。
+- `ichinomiya-gifted-support`: 生成データの子ども才能開花支援補助金は公式確認できないため、公式に確認できる広域スポーツ大会運営補助金へ補正。
+- `ichinomiya-housing-purchase`: 住宅取得補助金は公式確認できないため、公式に確認できる住宅用地球温暖化対策設備設置補助金へ補正。
+- `ichinomiya-infertility`: 不妊治療費補助事業へ補正。先進医療費の10分の7、上限10万円、申請受付開始予定日2026年10月1日を確認。
+- `ichinomiya-mental-health`: 精神障害者医療費の助成へ補正。自立支援医療（精神通院）の自己負担額助成等を確認。
+- `ichinomiya-newlywed-housing`: 現行の結婚新生活支援補助金募集は公式確認できず、通常一覧から除外。
+- `ichinomiya-nursing-equipment`: 家族介護用品給付へ補正。年6万円を限度に紙おむつ等を給付することを確認。
+- `ichinomiya-preschool-free`: 幼児教育・保育無償化へ補正。3〜5歳児と住民税非課税世帯等の0〜2歳児を対象とする無償化案内を確認。
+- `ichinomiya-scholarship`: 市独自の給付型奨学金は公式確認できず、通常一覧から除外。
+- `ichinomiya-seismic-diagnosis`: 木造住宅無料耐震診断へ補正。申込書と耐震補助事業関係ページを確認。
+- `ichinomiya-sme-support`: 融資に伴う助成制度へ補正。信用保証料助成上限30万円、創業資金助成、利子補給を確認。
 
 確認:
 
 - `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
 - `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
-- `node scripts/check-grant-source-urls.mjs --slug ...愛知県庁3件・安城市2件 --concurrency 3 --timeout-ms 60000`: 採用sourceUrls 6件はすべてHTTP 200、failures 0。
-- `node scripts/audit-raw-verified-gaps.mjs --prefecture 愛知県 --limit 40`: 愛知県の未照合raw slugは112件から107件に減少。次の先頭候補は一宮市18件。
-- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは2,927件から2,922件に減少。
-- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,917件、activeWithoutOfficialSourceは2,926件、愛知県ローカル公式確認済みは27件。active全体4,843件に対する公式確認済みactive比率は約39.6%。
+- `node scripts/check-grant-source-urls.mjs --slug ...愛知県Batch92 18件 --concurrency 3 --timeout-ms 60000`: 採用sourceUrls 31件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 愛知県 --limit 30`: 愛知県の未照合raw slugは102件から89件に減少。次の先頭候補は岡崎市19件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは2,917件から2,904件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,931件、activeWithoutOfficialSourceは2,908件、愛知県ローカル公式確認済みは41件。active全体4,839件に対する公式確認済みactive比率は約39.9%。
 - `npm run build`: 速度改善方針により今回は省略。直前の北海道Batch 90でbuild成功済みで、今回は対象ESLint・URL検証・coverage・raw gap監査が通っている。次の20〜50件節目または公開前にまとめて実行する。
 
 次回再開位置:
 
-- 愛知県Batch 92として一宮市18件（`ichinomiya-birth-bonus` / `ichinomiya-care-robot` / `ichinomiya-childcare-leave-bonus` / `ichinomiya-childcare-subsidy` / `ichinomiya-community-bus` / `ichinomiya-earthquake-shelter-reform` / `ichinomiya-elderly-support` / `ichinomiya-factory-iot` / `ichinomiya-gifted-support` / `ichinomiya-housing-purchase` / `ichinomiya-infertility` / `ichinomiya-mental-health` / `ichinomiya-newlywed-housing` / `ichinomiya-nursing-equipment` / `ichinomiya-preschool-free` / `ichinomiya-scholarship` / `ichinomiya-seismic-diagnosis` / `ichinomiya-sme-support`）を公式一次情報で確認する。
+- 愛知県Batch 93として岡崎市19件（`okazaki-birth-bonus` / `okazaki-care-robot` / `okazaki-childcare-leave-bonus` / `okazaki-childcare-subsidy` / `okazaki-community-bus` / `okazaki-earthquake-shelter-reform` / `okazaki-elderly-support` / `okazaki-factory-iot` / `okazaki-gifted-support` / `okazaki-housing-purchase` / `okazaki-housing-seismic` / `okazaki-infertility` / `okazaki-mental-health` / `okazaki-newlywed-housing` / `okazaki-nursing-equipment` / `okazaki-preschool-free` / `okazaki-scholarship` / `okazaki-seismic-diagnosis` / `okazaki-sme-support`）を公式一次情報で確認する。
