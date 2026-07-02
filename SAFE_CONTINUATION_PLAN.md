@@ -2477,3 +2477,32 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 4,186 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は597件、activeWithDeadlineは423件、期限切れ174件。
 - `npm run audit:links`: 初回は既存鹿児島市URL 2件の404でbroken 2。鹿児島市公式一覧へ参照URLを差し替え、再build後に再実行してbroken 0。4,184ファイルから156,596リンク抽出、9,006件監査。
+
+## 2026-07-02 東京都Batch 61 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の足立区8件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・補正した。生成データの「子育て応援給付金」「認証保育所保育料助成制度」「高齢者見守り支援事業」「緊急小口資金・生活福祉資金貸付相談」「こころの健康支援事業」「介護用品給付事業」「給付型奨学金制度」「学校給食費助成制度」を、足立区公式ページおよび足立区社会福祉協議会公式ページで確認できる現行制度名・支援内容へ補正した。
+
+追加・補正:
+
+- `adachi-childcare-subsidy`: 足立区「物価高対応子育て応援手当」。対象児童1人につき2万円。2026年6月30日受付終了のため通常一覧から除外。
+- `adachi-daycare-support`: 足立区「認証保育所保育料負担軽減（利用者助成）制度」。旧候補の月額最大4万円から、公式の補助額表に合わせて認証保育所等保育料補助金として月額最大8万円へ補正。
+- `adachi-elderly-support`: 足立区「高齢者配食サービス支援（元気サポート弁当）」。旧「高齢者見守り支援事業」候補から、見守りを兼ねた公式配食支援へ補正。1日1食、定価から300円引き。
+- `adachi-living-emergency`: 足立区社会福祉協議会「応急小口資金・生活福祉資金貸付」。給付金ではなく貸付・相談制度として明記し、公式に確認できない上限額表現は避けた。
+- `adachi-mental-health`: 足立区「こころとからだの健康づくり課 精神保健相談」。旧候補のデイケア等一律無料表現から、公式確認できる心の健康相談・相談窓口へ補正。
+- `adachi-nursing-equipment`: 足立区「紙おむつ給付・おむつ代助成」。旧「介護用品給付事業」候補から、公式確認できる紙おむつ支給・費用助成へ補正。費用助成は月額6,000円以内。
+- `adachi-scholarship`: 足立区「給付型奨学金」。旧データの月額3万円ではなく、入学料・授業料・施設整備費の実費相当額（上限あり）へ補正。申請期間は2026年6月19日から2026年7月17日。
+- `adachi-school-lunch`: 足立区「学校給食費無償化・完全弁当世帯等補助」。区立小中学校の給食費無償化と、完全弁当世帯への補助を確認。
+
+確認:
+
+- 確認対象の公式URL 19件はすべて200で到達確認。
+- slug重複検査: `no duplicates`。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 40`: 東京都の未照合raw slugは165件から157件に減少。次の候補は台東区、大田区、中央区、中野区、町田市。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 20`: 全国未照合raw slugは3,255件から3,247件に減少。
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,672件、東京都ローカル公式確認済みは237件、activeWithoutOfficialSourceは3,251件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 4,198 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は599件、activeWithDeadlineは424件、期限切れ175件。
+- `npm run audit:links`: broken 0。4,196ファイルから157,191リンク抽出、9,038件監査。
