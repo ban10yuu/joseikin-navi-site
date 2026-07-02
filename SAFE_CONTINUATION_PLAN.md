@@ -4186,3 +4186,34 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 - 茨城県Batch 111として、土浦市残り8件（`tsuchiura-newlywed-rent` / `tsuchiura-newlywed-rent-v2` / `tsuchiura-nursing-home-reform` / `tsuchiura-nursing-home-reform-v2` / `tsuchiura-school-lunch` / `tsuchiura-school-lunch-v2` / `tsuchiura-sme-support` / `tsuchiura-telework-bonus`）を公式一次情報で確認する。
 - 土浦市完了後は、日立市の先頭候補（`hitachi-birth-bonus` / `hitachi-bousai-equipment` / `hitachi-childcare-subsidy` / `hitachi-cliff-collapse` など）へ進む。
+
+## 2026-07-03 茨城県Batch 111 追加ログ
+
+土浦市残り8件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。これで土浦市のraw gapは完了。生成データの「月額家賃補助」「市独自高齢者バリアフリー改修補助」「学校給食費半額補助」「中小企業設備投資補助金」「テレワーク移住促進補助金」は、公式で確認できる制度、重複統合、または掲載停止扱いへ補正した。
+
+追加・補正:
+
+- `tsuchiura-newlywed-rent`: 月額家賃補助は公式確認不可として掲載停止扱い。公式制度では家賃・共益費等は対象外のため、結婚新生活支援事業補助金へ統合。
+- `tsuchiura-newlywed-rent-v2`: 令和8年度結婚新生活支援事業補助金へ補正。賃貸初期費用の敷金・礼金・仲介手数料、引越費用が対象。29歳以下世帯は上限60万円、その他世帯は上限30万円、申請期限は2027年3月31日。
+- `tsuchiura-nursing-home-reform`: 市独自高齢者住宅バリアフリー改修補助は公式確認不可として掲載停止扱い。介護保険住宅改修へ統合。
+- `tsuchiura-nursing-home-reform-v2`: 介護保険住宅改修費支給へ補正。要介護認定者対象、工事前の事前申請、支給限度基準額20万円、本人負担1〜3割、令和8年4月から制限付き受領委任払いを確認。
+- `tsuchiura-school-lunch`: 学校給食費無償化へ補正。土浦市立小中学校・義務教育学校の学校給食費は令和5年10月分から令和9年3月分まで無償化。
+- `tsuchiura-school-lunch-v2`: 同一趣旨の重複候補として掲載停止扱い。公式では半額補助ではなく無償化として確認。
+- `tsuchiura-sme-support`: 中小企業振興資金融資・助成制度へ補正。自治金融1,000万円以内、振興金融2,000万円以内、保証料補給、自治金融の利子1.0%相当額を3年間補給。
+- `tsuchiura-telework-bonus`: わくわく茨城生活実現事業における移住支援金へ補正。世帯100万円、単身60万円、18歳未満1人30万円加算、テレワークは対象要件の一つ。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node -e ...duplicate`: 重複slug 0、土浦市slug 21件。
+- `node scripts/check-grant-source-urls.mjs --slug ...土浦市残り8件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 16件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 茨城県 --limit 35`: 茨城県の未照合raw slugは28件から20件に減少。土浦市raw gapは完了し、残りは日立市20件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,705件から2,697件に減少。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,080件、activeWithoutOfficialSourceは2,701件、茨城県ローカル公式確認済みは70件。active全体4,781件に対する公式確認済みactive比率は約43.5%。
+- `npm run build`: 速度改善方針により今回は省略。日立市20件を処理して茨城県raw gap 0件にした時点でまとめて実行する。
+
+次回再開位置:
+
+- 茨城県Batch 112として、日立市20件（`hitachi-birth-bonus` / `hitachi-bousai-equipment` / `hitachi-childcare-subsidy` / `hitachi-cliff-collapse` / `hitachi-commuter-subsidy` / `hitachi-eco-reform` / `hitachi-elderly-support` / `hitachi-home-care` / `hitachi-housing-seismic` / `hitachi-infertility` / `hitachi-kosodate-taxi` / `hitachi-manufacturing-training` / `hitachi-newlywed-rent` / `hitachi-nursing-home-reform` / `hitachi-school-ict` / `hitachi-school-lunch` / `hitachi-specific-disease` / `hitachi-startup-support` / `hitachi-telework-bonus` / `hitachi-twin-childcare`）を公式一次情報で確認する。
+- 日立市20件を完了したら、茨城県raw gap 0件、URL監査、coverage、`npm run build` まで実行してからコミットする。
