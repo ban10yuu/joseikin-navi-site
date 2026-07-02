@@ -3797,3 +3797,35 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - 愛知県Batch 99として名古屋市11件（`nagoya-barrier-free` / `nagoya-birth-bonus` / `nagoya-childcare-subsidy` / `nagoya-education-support` / `nagoya-elderly-support` / `nagoya-housing-purchase` / `nagoya-infertility` / `nagoya-mental-health` / `nagoya-nursing-equipment` / `nagoya-sme-equipment-support` / `nagoya-women-startup`）を公式一次情報で確認する。
+
+## 2026-07-02 愛知県Batch 99 追加ログ
+
+名古屋市11件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。既存の名古屋市11件が先勝ちで残ると古い内容が表示されるため、古い名古屋市セットを削除し、新しい公式補正版だけを残した。これにより愛知県の未照合raw slugは0件になった。
+
+追加・補正:
+
+- `nagoya-birth-bonus`: 妊婦・子育て家庭応援金へ補正。妊婦1人5万円、胎児1人5万円を確認。
+- `nagoya-childcare-subsidy`: ナゴヤわくわくプレゼント事業「BABY YELL!」へ補正。50,000ポイント（5万円相当）を確認。
+- `nagoya-education-support`: 就学援助（未来まなび応援金）へ補正。入学準備金、学用品費、学校給食費等を確認。
+- `nagoya-barrier-free`: 障害者住宅改造補助金へ補正。上限80万円、介護保険認定者は60万円、改造前申請を確認。
+- `nagoya-housing-purchase`: フラット35S等融資利子補給制度へ補正。子育て世帯等の中古住宅取得、最大50万円を確認。
+- `nagoya-infertility`: 不育症検査費用助成事業へ補正。先進医療の検査費用、上限6万円を確認。
+- `nagoya-mental-health`: 自立支援医療（精神通院医療）へ補正。自己負担原則1割、通年申請を確認。
+- `nagoya-nursing-equipment`: 介護保険の福祉用具購入費支給へ補正。利用限度額10万円、1割負担者は最大9万円を確認。
+- `nagoya-elderly-support`: 高齢者生きがい活動促進事業へ補正。上限100万円、農福連携は200万円、令和8年度申込期限2026年5月1日で受付終了扱い。
+- `nagoya-sme-equipment-support`: 航空宇宙産業設備投資促進補助金へ補正。補助率10%以内、上限1,000万円、2026年9月30日締切を確認。
+- `nagoya-women-startup`: スタートアップ企業支援補助金へ補正。女性専用補助金は公式確認できず、上限100万円の一般創業補助へ補正し、令和8年度募集終了扱い。
+
+確認:
+
+- `node -e ...duplicate slugs`: 重複slug 0。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug ...名古屋市11件 --concurrency 3 --timeout-ms 60000`: 採用sourceUrls 14件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 愛知県 --limit 35`: 愛知県の未照合raw slugは11件から0件に減少。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは2,826件から2,815件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,992件、activeWithoutOfficialSourceは2,819件、愛知県ローカル公式確認済みは102件。active全体4,811件に対する公式確認済みactive比率は約41.4%。
+- `npm run build`: 速度改善方針により今回は省略。愛知県raw gapは完了したため、公開前の節目でまとめて実行する。
+
+次回再開位置:
+
+- 次は `node scripts/audit-raw-verified-gaps.mjs --limit 10` の先頭に出た愛媛県・今治市周辺（`ehime-mikan-farming` / `imabari-birth-bonus` / `imabari-block-wall-removal` / `imabari-child-medical-aid` / `imabari-childcare-subsidy` / `imabari-elderly-support` / `imabari-elderly-taxi` / `imabari-health-checkup-subsidy` / `imabari-housing-purchase` / `imabari-infertility` など）を公式一次情報で確認する。
