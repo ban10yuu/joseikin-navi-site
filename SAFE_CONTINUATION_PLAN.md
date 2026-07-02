@@ -3306,3 +3306,41 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - 北海道Batch 85として小樽市20件（`otaru-birth-bonus` / `otaru-block-wall-removal` / `otaru-bousai-equipment` / `otaru-child-medical-aid` / `otaru-childcare-subsidy` / `otaru-disability-medical` / `otaru-elderly-taxi` / `otaru-energy-support` / `otaru-health-checkup-subsidy` / `otaru-housing-reform` / `otaru-juutaku-reform` / `otaru-migration-support` / `otaru-newlywed-rent` / `otaru-nursing-home-reform` / `otaru-scholarship-repayment` / `otaru-school-lunch` / `otaru-school-lunch-subsidy` / `otaru-startup-support` / `otaru-telework-bonus` / `otaru-water-saving`）を公式一次情報で確認する。
+
+## 2026-07-02 北海道Batch 85 追加ログ
+
+北海道の次候補である小樽市20件を、自治体単位の一括棚卸しで公式確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。公式一次情報で確認できた制度は掲載し、既存公式確認済み制度や同一制度の別slugは統合し、現行公式制度として確認できない生成候補は通常一覧から除外した。
+
+追加・補正:
+
+- `otaru-birth-bonus`: 出産祝金候補を出産・子育て応援事業（妊婦のための支援給付）へ補正。1回目5万円、2回目胎児1人5万円を確認。
+- `otaru-childcare-subsidy`: 保育料多子軽減・幼児教育保育無償化へ補正。第2子以降完全無料化、3歳以上児保育料0円を確認。
+- `otaru-newlywed-rent`: 新婚世帯家賃補助は現行公式制度として確認できず、住居確保給付金（家賃補助）へ補正。
+- `otaru-disability-medical`: 重度心身障害者医療費助成制度を公式確認。
+- `otaru-school-lunch` / `otaru-school-lunch-subsidy`: 就学援助制度へ補正し、給食費補助重複slugを統合。
+- `otaru-telework-bonus` / `otaru-migration-support`: 移住支援金へ補正。テレワーク移住を含むため、テレワークslugは重複統合。
+- `otaru-nursing-home-reform`: 介護保険住宅改修費支給へ補正。20万円までの改修費用に対し7〜9割給付を確認。
+- `otaru-energy-support`: 令和8年度高圧電気料金高騰対策支援金へ補正。1kWhあたり3円以内、上限200万円を確認。
+- `otaru-housing-reform` / `otaru-juutaku-reform`: 住宅エコリフォーム助成制度へ補正し、重複slugを統合。ZEH水準最大70万円、子育て・若者夫婦世帯最大85万円を確認。
+- `otaru-child-medical-aid`: 既存公式確認済み `otaru-child-medical` と同一制度として重複統合。
+- `otaru-health-checkup-subsidy`: 人間ドック助成は現行公式ページで直接確認できず、たるトク健診・後期高齢者医療健康診査へ補正。
+- `otaru-scholarship-repayment`: さっぽろ圏奨学金返還支援事業へ補正。年間最大18万円、3年間最大54万円を確認。
+- `otaru-startup-support`: 創業支援補助金を公式確認。内外装工事費は基本50万円、市外移住・40歳未満の加算で最大100万円を確認。
+- `otaru-elderly-taxi`: 一般高齢者向けタクシー助成は確認できず、ふれあいパス（高齢者バス利用助成）へ補正。
+- `otaru-bousai-equipment`: 防災設備設置補助金は確認できず、家庭備蓄啓発ページを根拠に通常一覧から除外。
+- `otaru-block-wall-removal`: ブロック塀撤去補助金は確認できず、安全点検案内ページを根拠に通常一覧から除外。
+- `otaru-water-saving`: 雨水タンク設置補助金は確認できず、住宅エコリフォーム助成制度の節水型トイレ等へ重複統合。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug ...小樽市20件 --concurrency 10 --timeout-ms 60000`: 採用sourceUrls 46件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 北海道 --limit 35`: 北海道の未照合raw slugは102件から82件に減少。次の先頭候補は千歳市11件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは3,029件から3,009件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,851件、activeWithoutOfficialSourceは3,013件、北海道ローカル公式確認済みは68件。active全体4,864件に対する公式確認済みactive比率は約38.1%。
+- `npm run build`: 今回は速度改善方針に沿って省略。直前の札幌市Batch 84でbuild成功済みで、今回は対象ESLint・URL検証・coverage・raw gap監査が通っている。次の20〜50件節目または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 北海道Batch 86として千歳市11件（`chitose-birth-bonus` / `chitose-childcare-subsidy` / `chitose-elderly-support` / `chitose-housing-purchase` / `chitose-housing-reform` / `chitose-infertility` / `chitose-nursing-equipment` / `chitose-scholarship` / `chitose-seismic-diagnosis` / `chitose-sme-support` / `chitose-startup-support`）を公式一次情報で確認する。
