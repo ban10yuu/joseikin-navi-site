@@ -1901,6 +1901,219 @@ export const verifiedTokyoLocalGrants2026: Grant[] = [
     publishedAt: '2026-06-26',
   },
   {
+    slug: 'ota-birth-bonus',
+    title: '大田区 妊婦のための支援給付（既存slugに統合）',
+    organization: '大田区',
+    type: 'local',
+    maxAmount: 'ota-pregnancy-support-benefitに統合',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['大田区', '妊婦支援給付', '重複候補'],
+    eligibility: '現行制度は妊娠時5万円、出産時は胎児の数×5万円を支給する「妊婦のための支援給付」です。通常掲載は既存の ota-pregnancy-support-benefit に統合します。',
+    applicationPeriod: '重複候補。ota-pregnancy-support-benefitに統合し通常一覧から除外',
+    deadlineDate: '2026-07-02',
+    description: '生成データの「出産・子育て応援交付金」は、現行公式制度では「妊婦のための支援給付」として確認できます。既に ota-pregnancy-support-benefit で公式確認済みとして掲載しているため、このslugは重複回避のため通常一覧から除外します。',
+    sections: [
+      {
+        heading: '重複整理',
+        content: '<p>大田区の現行制度は妊婦のための支援給付で、妊娠時5万円、出産時は胎児の数×5万円を支給します。正規掲載は既存slugに統合します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.ota.tokyo.jp/seikatsu/kodomo/shussan/ninpunotamenosienkyuhu.html',
+    sourceName: '大田区 妊婦のための支援給付',
+    sourceUrls: [
+      'https://www.city.ota.tokyo.jp/seikatsu/kodomo/shussan/ninpunotamenosienkyuhu.html',
+      'https://www.city.ota.tokyo.jp/seikatsu/kodomo/shussan/karugamo.html'
+    ],
+    sourceNote: '大田区公式ページで妊娠時5万円、出産時は胎児の数×5万円、妊産婦本人名義口座への振込、妊婦面接時の子育て応援ギフト1万円相当を確認。既存の ota-pregnancy-support-benefit に統合し、重複slugは期限切れ扱いで通常一覧から除外。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'ota-childcare-subsidy',
+    title: '大田区 物価高対応子育て応援手当（受付終了）',
+    organization: '大田区',
+    type: 'local',
+    maxAmount: 'こども1人につき2万円',
+    maxAmountNum: 2,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['大田区', '子育て応援', '物価高騰対策'],
+    eligibility: '0歳から高校生年代までのこどもを養育する方が対象です。令和7年9月30日時点で大田区に住民登録がある児童手当受給者、令和7年10月1日から令和8年3月31日までに出生した児童の児童手当受給者等、区の要件に該当する方が対象でした。',
+    applicationPeriod: '令和8年2月1日から令和8年3月31日までに出生した児童の申請期限は2026年6月30日。受付終了',
+    deadlineDate: '2026-06-30',
+    description: '大田区が、物価高騰対策として0歳から高校生年代までのこども1人につき2万円を支給した手当です。生成データの「子育て応援給付金・5万円」は公式の現行内容と異なるため、公式制度名・支給額・受付終了状況へ補正しました。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>国の総合経済対策を踏まえ、0歳から高校生年代までのこども1人につき2万円を支給する手当です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>支給額は対象児童1人につき2万円です。生成データの5万円表記は公式ページで確認できる金額に補正しました。</p>'
+      },
+      {
+        heading: '受付状況',
+        content: '<p>令和8年2月1日から令和8年3月31日までに出生した児童の申請期限は2026年6月30日です。令和8年1月31日までに出生した児童の申請受付も終了しています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.ota.tokyo.jp/seikatsu/kodomo/teate/jidouteate/r7bukkadakataiouteate.html',
+    sourceName: '大田区 物価高対応子育て応援手当',
+    sourceUrls: ['https://www.city.ota.tokyo.jp/seikatsu/kodomo/teate/jidouteate/r7bukkadakataiouteate.html'],
+    sourceNote: '大田区公式ページで制度名、0歳から高校生年代までのこども1人につき2万円、対象児童、申請期限2026年6月30日、受付終了状況を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'ota-disability-medical',
+    title: '大田区 心身障害者（児）医療費の助成（マル障受給者証）',
+    organization: '大田区',
+    type: 'local',
+    maxAmount: '保険診療の自己負担分を助成（一部負担金あり）',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '東京都',
+    tags: ['大田区', '心身障害者医療費', 'マル障'],
+    eligibility: '身体障害者手帳1級・2級の方、内部障がい3級等の方、愛の手帳1度・2度の方、精神障害者保健福祉手帳1級の方などが対象です。所得や年齢、他制度との関係により対象外となる場合があります。',
+    applicationPeriod: '通年受付',
+    description: '大田区で、重度の心身障がいのある方が医療機関で診療・投薬を受けたとき、医療保険の自己負担分からマル障一部負担金を差し引いた額を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>マル障受給者証により、保険診療の自己負担分から一部負担金を差し引いた額を助成します。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>身体障害者手帳1級・2級、愛の手帳1度・2度、精神障害者保健福祉手帳1級の方などが対象です。内部障がいの一部も対象に含まれます。</p>'
+      },
+      {
+        heading: '一部負担金',
+        content: '<p>住民税課税者は1割負担で、外来等は月18,000円・年間144,000円などの上限があります。住民税非課税者は入院時食事代のみが負担として案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.ota.tokyo.jp/seikatsu/fukushi/shougai/iryo/iryou/shinshin.html',
+    sourceName: '大田区 心身障害者（児）医療費の助成（マル障受給者証）',
+    sourceUrls: [
+      'https://www.city.ota.tokyo.jp/seikatsu/fukushi/shougai/iryo/iryou/shinshin.html',
+      'https://www.city.ota.tokyo.jp/seikatsu/fukushi/shougai/iryo/iryou/index.html'
+    ],
+    sourceNote: '大田区公式ページで対象者、助成範囲、住民税課税者・非課税者の一部負担金、助成方法、申請窓口を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'ota-elderly-support',
+    title: '大田区 地域のボランティアの食事サービス',
+    organization: '大田区・大田区社会福祉協議会',
+    type: 'local',
+    maxAmount: '1食400円から700円',
+    maxAmountNum: 0,
+    category: 'living',
+    prefecture: '東京都',
+    tags: ['大田区', '高齢者', '食事サービス', '見守り'],
+    eligibility: '大田区内に住所を有し、おおむね65歳以上の高齢者または心身に何らかの障がいのある方で、本人または同居親族等が病弱・心身の支障により安定した食生活ができない方が対象です。',
+    applicationPeriod: '通年。詳細は大田区社会福祉協議会へ相談',
+    description: '大田区の地域ボランティアが、食事の支度が困難な高齢者や障がいのある方に定期的に食事を届けるサービスです。生成データの「高齢者見守り・生活支援事業」は、公式確認できる食事サービスとして補正しました。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>食事の支度をすることが困難な高齢者や障がいのある方に、地域ボランティアが定期的に食事を届けます。</p>'
+      },
+      {
+        heading: '利用料金',
+        content: '<p>利用料金は1食400円から700円で、各ボランティアにより異なります。利用回数も実施団体により異なります。</p>'
+      },
+      {
+        heading: '相談先',
+        content: '<p>サービス内容の詳細は大田区社会福祉協議会へ確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.ota.tokyo.jp/seikatsu/fukushi/kourei/kurashi/boranteia.html',
+    sourceName: '大田区 地域のボランティアの食事サービス',
+    sourceUrls: ['https://www.city.ota.tokyo.jp/seikatsu/fukushi/kourei/kurashi/boranteia.html'],
+    sourceNote: '大田区公式ページで食事サービスの対象者、1食400円から700円、利用回数がボランティアにより異なること、大田区社会福祉協議会への問い合わせ先を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'ota-nursing-equipment',
+    title: '大田区 紙おむつ等の支給',
+    organization: '大田区',
+    type: 'local',
+    maxAmount: '毎月500点の範囲内で紙おむつ等を選択。持込不可の病院ではおむつ代助成あり',
+    maxAmountNum: 0,
+    category: 'nursing',
+    prefecture: '東京都',
+    tags: ['大田区', '紙おむつ', '介護用品'],
+    eligibility: '大田区内に住民登録して現に居住し、失禁のため紙おむつを必要とする方のうち、要介護3から5の認定を受けた方、要介護1・2で医師が必要と認めた方、または65歳以上で入院中かつ相当状態にある方等が対象です。',
+    applicationPeriod: '通年受付。毎月10日までの申請は当月から、11日以降は翌月から開始',
+    description: '大田区が、おむつを必要とする高齢者等に紙おむつ等を支給し、高齢者と介護家族の経済的・精神的負担を軽減する制度です。紙おむつを使用できない病院に入院している方には、おむつ代助成もあります。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>おむつを必要とする高齢者等に対し、紙おむつ等を支給します。区が支給する紙おむつを使用できない病院に入院している方に限り、おむつ代助成も行います。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>要介護3から5の認定を受けた方、要介護1・2で医師が紙おむつを必要と認めた方、65歳以上で入院中かつ相当状態にある方などが対象です。</p>'
+      },
+      {
+        heading: '支給内容',
+        content: '<p>カタログの中から毎月500点の範囲内で自由に選択できます。点数を超えた分は自己負担になります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.ota.tokyo.jp/seikatsu/fukushi/kourei/kyufu/kamiomutu.html',
+    sourceName: '大田区 紙おむつ等の支給',
+    sourceUrls: [
+      'https://www.city.ota.tokyo.jp/seikatsu/fukushi/kourei/kyufu/kamiomutu.html',
+      'https://www.city.ota.tokyo.jp/seikatsu/fukushi/shougai/seikatsushien/otetsudai/otetsudai/kamiomutsu.html'
+    ],
+    sourceNote: '大田区公式ページで高齢者向け紙おむつ等の支給、対象者、毎月500点の範囲、おむつ代助成、障がい者向け紙おむつ支給事業との関係を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'ota-scholarship',
+    title: '大田区 奨学金貸付制度（大学等・令和8年度募集終了）',
+    organization: '大田区',
+    type: 'local',
+    maxAmount: '国公立月額3万5,000円以内、私立月額4万4,000円以内（無利子貸付）',
+    maxAmountNum: 52.8,
+    category: 'education',
+    prefecture: '東京都',
+    tags: ['大田区', '奨学金', '貸付', '募集終了'],
+    eligibility: '大学、短期大学、専修学校専門課程に在学または進学する方で、経済的理由により就学が困難で、貸付開始日に引き続き1年以上大田区内に居住する保護者等から扶養されている方等が対象です。',
+    applicationPeriod: '令和8年度在学生・進学予定者向け募集は終了',
+    deadlineDate: '2026-06-09',
+    description: '大田区が、大学・短期大学・専修学校専門課程に在学または進学する方へ無利子で奨学金を貸し付ける制度です。生成データの返済不要給付型・月額2万5千円ではなく、公式確認できる貸付型奨学金として補正しました。令和8年度募集は終了しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>経済的理由により大学等での就学が困難な方に、無利子で奨学金を貸し付ける制度です。</p>'
+      },
+      {
+        heading: '貸付額',
+        content: '<p>令和8年度在学生募集では、国公立は月額35,000円以内、私立は月額44,000円以内です。月額奨学金は通常3か月分ずつ年4回振り込まれます。</p>'
+      },
+      {
+        heading: '受付状況',
+        content: '<p>令和8年度の申込受付期間は終了しています。貸付型のため、卒業後に返還義務があります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.ota.tokyo.jp/seikatsu/kodomo/kashitsuke_kyuhu/syougakukin-kashitsuke.html',
+    sourceName: '大田区 奨学金貸付制度(大学等)',
+    sourceUrls: [
+      'https://www.city.ota.tokyo.jp/seikatsu/kodomo/kashitsuke_kyuhu/syougakukin-kashitsuke.html',
+      'https://www.city.ota.tokyo.jp/seikatsu/kodomo/kashitsuke_kyuhu/ootakushougakusei_r05.html',
+      'https://www.city.ota.tokyo.jp/seikatsu/kodomo/kashitsuke_kyuhu/daigakusingaku.html',
+      'https://www.city.ota.tokyo.jp/seikatsu/kodomo/kashitsuke_kyuhu/koukoukyuuhu.html'
+    ],
+    sourceNote: '大田区公式ページで奨学金貸付制度、令和8年度募集終了、在学生募集の貸付月額、進学予定者募集の募集終了日、給付型奨学金は貸付型と同時申込が必要であること、高校等進学準備給付型奨学金の募集終了を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
     slug: 'shibuya-women-startup',
     title: '渋谷区 女性創業支援助成金（公式助成確認不可）',
     organization: '渋谷区',

@@ -2540,3 +2540,34 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 - `tasks/todo.md` の次回候補どおり、大田区6件（`ota-birth-bonus` / `ota-childcare-subsidy` / `ota-disability-medical` / `ota-elderly-support` / `ota-nursing-equipment` / `ota-scholarship`）を公式一次情報で確認する。
 - 既存verified重複として検出された `chofu-housing-reform` / `tokushima-child-medical` は、全国raw照合とは別の品質改善タスクとして、公式URL・slug先勝ち挙動・通常一覧への影響を確認してから整理する。
+
+## 2026-07-02 東京都Batch 63 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の大田区6件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・補正した。生成データの「出産・子育て応援交付金」「子育て応援給付金」「心身障害者医療費助成制度」「高齢者見守り・生活支援事業」「介護用品支給事業」「奨学金制度」を、大田区公式ページで確認できる現行制度名・支援内容・受付状況へ補正した。
+
+追加・補正:
+
+- `ota-birth-bonus`: 大田区「妊婦のための支援給付（既存slugに統合）」。現行制度は妊娠時5万円、出産時は胎児の数×5万円の妊婦支援給付。既に `ota-pregnancy-support-benefit` で公式確認済みのため、重複slugは通常一覧から除外。
+- `ota-childcare-subsidy`: 大田区「物価高対応子育て応援手当（受付終了）」。旧「子育て応援給付金・5万円」候補を、公式確認できる0歳から高校生年代までのこども1人2万円の手当へ補正。2026年6月30日受付終了。
+- `ota-disability-medical`: 大田区「心身障害者（児）医療費の助成（マル障受給者証）」。身体障害者手帳1・2級、愛の手帳1・2度、精神障害者保健福祉手帳1級等を対象に、保険診療の自己負担分から一部負担金を差し引いた額を助成。
+- `ota-elderly-support`: 大田区「地域のボランティアの食事サービス」。旧「高齢者見守り・生活支援事業」候補を、公式確認できる食事サービスへ補正。1食400円から700円、回数はボランティアにより異なる。
+- `ota-nursing-equipment`: 大田区「紙おむつ等の支給」。要介護3から5、要介護1・2で医師が必要と認めた方、65歳以上で入院中かつ相当状態にある方等へ紙おむつ等を支給。毎月500点の範囲内で選択、持込不可病院ではおむつ代助成あり。
+- `ota-scholarship`: 大田区「奨学金貸付制度（大学等・令和8年度募集終了）」。旧データの返済不要給付型・月額2万5千円表現を、公式の無利子貸付制度へ補正。国公立月額3万5,000円以内、私立月額4万4,000円以内。令和8年度募集は終了。
+
+確認:
+
+- 確認対象の公式URL 12件はすべて200。大田区公式の妊婦のための支援給付、妊婦面接、物価高対応子育て応援手当、心身障害者（児）医療費助成、障害のある方の医療一覧、地域のボランティアの食事サービス、紙おむつ等の支給、障がい者向け紙おむつ支給事業、奨学金貸付制度、令和8年度在学生募集、令和8年度大学等進学予定者募集、高校等進学準備給付型奨学金を確認。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 20`: 東京都の未照合raw slugは149件から143件に減少。次の候補は中央区、中野区、町田市、調布市。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 20`: 全国未照合raw slugは3,239件から3,233件に減少。
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,683件、東京都ローカル公式確認済みは248件、activeWithoutOfficialSourceは3,237件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 4,217 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は605件、activeWithDeadlineは427件、期限切れ178件。
+- `npm run audit:links`: 初回は既存の洲崎福祉財団URLのtimeoutでbroken 1。再実行では既存の恩納村公式サイト側のtimeout/503でbroken 27。再々実行で broken 0。4,215ファイルから158,225リンク抽出、9,082件監査。
+
+次回再開位置:
+
+- `tasks/todo.md` の次回候補どおり、中央区6件（`chuo-bousai-equipment` / `chuo-childcare-subsidy` / `chuo-elderly-support` / `chuo-fertility-treatment` / `chuo-mental-health` / `chuo-nursing-home-reform`）を公式一次情報で確認する。
+- 既存verified重複として検出済みの `chofu-housing-reform` / `tokushima-child-medical` は、全国raw照合とは別の品質改善タスクとして扱う。
