@@ -3592,3 +3592,43 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - 愛知県Batch 93として岡崎市19件（`okazaki-birth-bonus` / `okazaki-care-robot` / `okazaki-childcare-leave-bonus` / `okazaki-childcare-subsidy` / `okazaki-community-bus` / `okazaki-earthquake-shelter-reform` / `okazaki-elderly-support` / `okazaki-factory-iot` / `okazaki-gifted-support` / `okazaki-housing-purchase` / `okazaki-housing-seismic` / `okazaki-infertility` / `okazaki-mental-health` / `okazaki-newlywed-housing` / `okazaki-nursing-equipment` / `okazaki-preschool-free` / `okazaki-scholarship` / `okazaki-seismic-diagnosis` / `okazaki-sme-support`）を公式一次情報で確認する。
+
+## 2026-07-02 愛知県Batch 93 追加ログ
+
+岡崎市19件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。生成データの制度名・金額はそのまま採用せず、岡崎市公式ページ、公式PDF、交付要綱で確認できる制度へ置換した。市単独の現行制度として確認できない候補は期限切れ扱いで通常一覧から除外した。
+
+追加・補正:
+
+- `okazaki-birth-bonus`: 妊婦等のための支援給付事業へ補正。妊婦5万円、胎児1人あたり5万円を確認。
+- `okazaki-care-robot`: 市単独の現行介護ロボット導入補助金は公式確認できず、通常一覧から除外。
+- `okazaki-childcare-leave-bonus`: 市単独の育児休業取得奨励金は公式確認できず、通常一覧から除外。
+- `okazaki-childcare-subsidy`: 保育料の多子世帯軽減へ補正。第2子半額、第3子以降無料等を令和8年度保育料表で確認。
+- `okazaki-community-bus`: 高齢者無料乗車証は公式確認できず、高齢者交通安全サポート制度を確認したうえで通常一覧から除外。
+- `okazaki-earthquake-shelter-reform`: 耐震シェルター・防災ベッド設置費補助制度へ補正。上限30万円、2026年12月28日締切を確認。
+- `okazaki-elderly-support`: バス・タクシー利用券等の高齢者外出支援事業は公式確認できず、通常一覧から除外。
+- `okazaki-factory-iot`: 市単独の中小製造業IoT導入補助金は公式確認できず、国制度案内・DXビジョン確認にとどめ通常一覧から除外。
+- `okazaki-gifted-support`: 岡崎アスリート支援金へ補正。全国・国際大会出場者向け、最大5万円を確認。
+- `okazaki-housing-purchase`: 岡崎市産材住宅建設事業費補助金へ補正。施主上限30万円を確認。
+- `okazaki-housing-seismic`: 木造住宅耐震改修費補助金へ補正。工事・設計合計上限100万円を確認。
+- `okazaki-infertility`: 不妊治療（先進医療）費補助へ補正。10分の7、上限5万円、2026年6月1日開始を確認。
+- `okazaki-mental-health`: 精神障がい者医療費助成へ補正。保険診療の自己負担分全額助成を確認。
+- `okazaki-newlywed-housing`: 結婚新生活支援補助金の現行募集ページは確認できず、通常一覧から除外。
+- `okazaki-nursing-equipment`: 家族介護用品購入助成券（おむつ券）へ補正。月2,700円分を確認。
+- `okazaki-preschool-free`: 幼児教育・保育の無償化へ補正。3〜5歳児と住民税非課税世帯0〜2歳児対象を確認。
+- `okazaki-scholarship`: 奨学資金貸付けへ補正。年額40万円無利子貸付、令和8年度新規申請は2025年11月28日で受付終了を確認。
+- `okazaki-seismic-diagnosis`: 木造住宅の無料耐震診断へ補正。随時受付、対象建物、申込方法を確認。
+- `okazaki-sme-support`: 中小企業向け融資の信用保証料・利子補助制度へ補正。創業資金保証料補助上限20万円、中小企業事業資金保証料補助上限10万円等を確認。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug ...岡崎市19件 --concurrency 3 --timeout-ms 60000`: 採用sourceUrls 33件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 愛知県 --limit 30`: 愛知県の未照合raw slugは89件から70件に減少。次の先頭候補は春日井市11件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは2,904件から2,885件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,943件、activeWithoutOfficialSourceは2,889件、愛知県ローカル公式確認済みは53件。active全体4,832件に対する公式確認済みactive比率は約40.2%。
+- `npm run build`: 速度改善方針により今回は省略。直前の北海道Batch 90でbuild成功済みで、今回は対象ESLint・URL検証・coverage・raw gap監査が通っている。次の20〜50件節目または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 愛知県Batch 94として春日井市11件（`kasugai-care-robot` / `kasugai-childcare-leave-bonus` / `kasugai-community-bus` / `kasugai-earthquake-shelter-reform` / `kasugai-factory-iot` / `kasugai-gifted-support` / `kasugai-housing-reform` / `kasugai-mental-health` / `kasugai-newlywed-housing` / `kasugai-preschool-free` / `kasugai-startup-support`）を公式一次情報で確認する。
