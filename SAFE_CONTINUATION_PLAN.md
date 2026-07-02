@@ -4260,3 +4260,38 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 - 岡山県Batch 113として、岡山県先頭候補（`okayama-disaster-recovery` / `okayama-block-wall-removal` / `okayama-child-medical-aid` / `okayama-city-birth-bonus` / `okayama-city-bousai-equipment` / `okayama-city-childcare-subsidy` / `okayama-city-disability-medical` / `okayama-city-energy-support` / `okayama-city-housing-purchase` / `okayama-city-migration-support` / `okayama-city-nursing-equipment` / `okayama-city-scholarship`）を公式一次情報で確認する。
 - 茨城県はraw gap 0件だが、raw重複32件は別タスクとして残す。push / 公開反映は明示確認後。
+
+## 2026-07-03 岡山県Batch 113 追加ログ
+
+岡山県・岡山市の先頭12件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。生成データの「災害復興住宅支援事業」「出産お祝い金支給事業」「子育て世帯住宅取得支援補助金」「家族介護用品支給事業」「月額最大3万円の奨学金」などは、公式で確認できる制度名・金額・対象者へ補正した。
+
+追加・補正:
+
+- `okayama-disaster-recovery`: 岡山県 被災者生活再建支援制度へ補正。自然災害で生活基盤に著しい被害を受けた世帯向け、複数人世帯最大300万円を確認。
+- `okayama-block-wall-removal`: 岡山市 ブロック塀等撤去事業補助金へ補正。撤去費等の3分の2、上限15万円を確認。
+- `okayama-child-medical-aid`: 岡山市 子ども医療費助成制度へ補正。就学前・小学生は外来/入院無料、中学生・高校生等は外来1割負担・月上限44,400円、入院無料を確認。
+- `okayama-city-birth-bonus`: 岡山市 妊婦のための支援給付へ補正。妊婦1人5万円、新生児または胎児1人5万円を確認。
+- `okayama-city-bousai-equipment`: 岡山市 自主防災組織等育成事業助成金へ補正。結成時の防災資機材整備等は上限30万円、交付決定前支出は対象外と確認。
+- `okayama-city-childcare-subsidy`: 岡山市 幼児教育・保育無償化・保育料多子軽減へ補正。3〜5歳児等の無償化、0〜2歳児の利用者負担、多子軽減、低所得世帯向け認可外保育施設利用料給付上限21,000円を確認。
+- `okayama-city-disability-medical`: 岡山市 心身障害者医療費助成制度へ補正。保険診療自己負担の一部助成、身体障害者手帳1〜3級等の対象要件、所得制限を確認。
+- `okayama-city-energy-support`: 岡山市 住宅用スマートエネルギー導入促進補助事業へ補正。太陽光上限15万円、蓄電池上限20万円、エネファーム上限15万円等、令和8年度受付期間を確認。
+- `okayama-city-housing-purchase`: 岡山市 空き家購入補助金へ補正。空き家購入費用の3分の1、上限60万円、子育て世帯70万円を確認。
+- `okayama-city-migration-support`: 岡山市 移住支援金へ補正。単身60万円、世帯100万円、18歳未満1人30万円加算、テレワーク移住時の減額を確認。
+- `okayama-city-nursing-equipment`: 岡山市 介護保険福祉用具購入費支給へ補正。生成データの月額介護用品支給は公式確認できず、公式で確認できる福祉用具購入費支給と家族介護者慰労金情報を確認。
+- `okayama-city-scholarship`: 岡山市 高校生応援金へ補正。旧給付型奨学金、年額60,000円、通信制37,000円、返済不要、令和8年度募集期間を確認。
+
+確認:
+
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- 重複slug確認: duplicateCount 0、岡山県のverified local misc slugは30件。
+- `node scripts/check-grant-source-urls.mjs --slug ...岡山県・岡山市12件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 27件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 岡山県 --limit 30`: 岡山県の未照合raw slugは74件から62件に減少。次の先頭は岡山市残り8件。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,108件、activeWithoutOfficialSourceは2,669件、岡山県ローカル公式確認済みは31件。active全体4,777件に対する公式確認済みactive比率は約44.1%。
+- `npm run build`: 速度改善方針により今回は省略。岡山県raw gap完了時、20〜50件節目、または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 岡山県Batch 114として、岡山市残り8件（`okayama-city-sme-support` / `okayama-elderly-taxi` / `okayama-health-checkup-subsidy` / `okayama-juutaku-reform` / `okayama-scholarship-repayment` / `okayama-school-lunch-subsidy` / `okayama-startup-support` / `okayama-water-saving`）を公式一次情報で確認する。
+- 岡山市残り8件の後は、笠岡市・玉野市・倉敷市の順に、市区町村単位で20件前後をまとめて処理する。
+- push / 公開反映は明示確認後。
