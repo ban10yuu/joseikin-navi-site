@@ -2675,3 +2675,27 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `tasks/todo.md` の次回候補どおり、調布市1件（`chofu-education-support`）から公式一次情報で確認する。その後、東京都広域候補2件、東村山市、東大和市へ進む。
 - 速度優先のため、次回も対象URL 200確認、ESLint、raw gap、coverage、必要時buildを基本にし、全体リンク・期限監査は数バッチ単位でまとめる。
 - 既存verified重複として検出済みの `chofu-housing-reform` / `tokushima-child-medical` は、全国raw照合とは別の品質改善タスクとして扱う。
+
+## 2026-07-02 東京都Batch 67 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の先頭3件（調布市1件、東京都広域2件）を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・補正した。生成データの「調布市 就学援助制度」「東京都介護職員宿舎借り上げ支援事業」「東京都ひとり親家庭住宅支援助成」を、公式一次情報で確認できる現行制度名・内容へ補正した。
+
+追加・補正:
+
+- `chofu-education-support`: 調布市「就学援助」。公立小・中学校等の児童生徒の保護者向けに、学用品費・校外活動費等を援助する制度として補正。新入学準備金等は令和7年度受付終了、給食費無償化は関連支援として確認。
+- `tokyo-nursing-care`: 東京都「介護職員宿舎借り上げ支援事業」。1戸あたり月8万2000円基準、助成率7/8または1/2、最大20戸、令和8年度の東京都福祉保健財団実施事業として補正。
+- `tokyo-single-parent-housing`: 東京都「ひとり親家庭等向け住まい支援」。旧生成データの月額最大4万円の一律家賃助成は公式確認不可のため、公社住宅の家賃20%割引、収入審査緩和、都営住宅のひとり親を含む子育て世帯向け募集、住宅支援資金貸付等として補正。
+
+確認:
+
+- 採用した公式URL 9件はすべてHTTP 200。調布市公式の就学援助、新入学準備金等、学校給食費無償化、東京都福祉局の介護職員宿舎借り上げ支援事業、東京都福祉保健財団の令和8年度ページ、東京都公式PDF、東京都ひとり親支援ナビの住まい・お金ページ、東京都住宅政策本部の都営住宅子育て支援を確認。
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 20`: 東京都の未照合raw slugは115件から112件に減少。次の候補は東村山市10件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは3,205件から3,202件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,708件、東京都ローカル公式確認済みは273件、activeWithoutOfficialSourceは3,206件。
+
+次回再開位置:
+
+- `tasks/todo.md` の次回候補どおり、東村山市10件（`higashimurayama-afterschool` / `higashimurayama-birth-bonus` / `higashimurayama-childcare-subsidy` / `higashimurayama-energy-support` / `higashimurayama-fertility-treatment` / `higashimurayama-infertility` / `higashimurayama-living-support` / `higashimurayama-nursing-home-reform` / `higashimurayama-seismic-diagnosis` / `higashimurayama-telework-bonus`）を公式一次情報で確認する。
+- 全体リンク・期限監査は数バッチ単位でまとめる。次の節目では `npm run audit:deadlines` をbuild後に再実行する。
