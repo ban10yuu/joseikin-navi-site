@@ -2821,6 +2821,7 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 - 公式確認の精度を落とさず速度を上げるため、次バッチからは自治体単位で「raw gap抽出 → 公式候補URL一括収集 → sourceUrls一括HTTP確認 → 期限切れ/制度名変更/自治体外制度の分類 → 最後にレコード化」の順で進める。
 - 手入力でURLを並べる検査は誤差が出やすいため、追加済みレコードから実sourceUrlsを抽出して検査する。これにより壊れた出典URLの見落としを減らし、確認時間を短縮する。
+- `scripts/check-grant-source-urls.mjs` を追加。`--slug` または `--prefix` で対象grantを指定すると、実データ上の `officialUrl` / `sourceUrls` を抽出し、並列HTTP確認する。八王子市Batch 71の35URLは約7秒でfailures 0を確認。
 
 次回再開位置:
 

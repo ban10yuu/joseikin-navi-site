@@ -626,6 +626,7 @@
 - [x] 東京都Batch 71として八王子市13件を公式確認済み追加・補正（妊婦のための支援給付、ブロック塀撤去等補助金、幼児教育・保育の無償化、高齢者救急通報システム、心身障害者タクシー・自動車ガソリン費助成事業、人間ドック割引、東京都特定不妊治療費先進医療助成への補正、在宅高齢者おむつの給付、奨学金制度の受付終了抑止、学校給食費無償化、木造住宅耐震診断補助制度、高齢者インフルエンザ予防接種費用助成の年度終了抑止、雨水貯留槽設置補助事業）
 - [x] 東京都Batch 71の一次検証（対象ESLintエラー0、diff check問題なし、東京都の未照合raw slugは92件から79件に減少）
 - [x] 東京都Batch 71の残り検証（公式URL確認、全国raw gap、coverage、build）を完了。採用sourceUrls 35件はHTTP 200、全国未照合raw slugは3,182件から3,169件に減少、coverage failures 0、公式確認済みactiveは1,739件、buildは4,305ページ生成・`/grant/[slug]` 1,926件
+- [x] 速度改善として `scripts/check-grant-source-urls.mjs` を追加。追加済みslugから実際の `officialUrl` / `sourceUrls` を抽出し、並列HTTP確認できるようにした。八王子市Batch 71の35URLでfailures 0を確認
 - [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 40` から、板橋区8件（`itabashi-afterschool` / `itabashi-childcare-subsidy` / `itabashi-disability-medical` / `itabashi-migration-bonus` / `itabashi-nursing-equipment` / `itabashi-seismic-diagnosis` / `itabashi-startup-support` / `itabashi-women-startup`）を公式一次情報で追加・補正する。続けて品川区へ進む
 - [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugを公式確認済みデータへ置換し、raw重複の実害を減らす
 - [ ] push / 公開反映は明示確認後に実行
