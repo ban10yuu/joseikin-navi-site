@@ -3829,3 +3829,42 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - 次は `node scripts/audit-raw-verified-gaps.mjs --limit 10` の先頭に出た愛媛県・今治市周辺（`ehime-mikan-farming` / `imabari-birth-bonus` / `imabari-block-wall-removal` / `imabari-child-medical-aid` / `imabari-childcare-subsidy` / `imabari-elderly-support` / `imabari-elderly-taxi` / `imabari-health-checkup-subsidy` / `imabari-housing-purchase` / `imabari-infertility` など）を公式一次情報で確認する。
+
+## 2026-07-02 愛媛県Batch 100 追加ログ
+
+愛媛県庁1件・今治市17件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。今治市の一部公式ページは直接HTTPS fetchが不安定だったため、今治市公式子育て情報ポータル `imakoso-imabari.jp` の到達可能な公式ページ、または `http://` から公式ページへリダイレクトされるURLを採用した。生成データの制度名・金額はそのまま採用せず、公式ページで確認できた現行制度に補正した。
+
+追加・補正:
+
+- `ehime-mikan-farming`: 愛媛県新規就農支援（西宇和かんきつ産地）へ補正。農業体験、1〜2年研修、独立就農支援、資金確保等の案内を確認。生成データの最大150万円は公式ページで確認できないため採用せず。
+- `imabari-birth-bonus`: 妊婦のための支援給付へ補正。妊娠届出後5万円、胎児数届出後に胎児1人あたり5万円を確認。
+- `imabari-childcare-subsidy`: 妊婦支援給付・旧子育て応援金経過措置へ補正。出産・子育て応援ギフト終了と旧子育て応援金の申請期限2026年3月30日を確認。
+- `imabari-block-wall-removal`: ブロック塀等安全対策事業補助制度へ補正。補助対象経費の3分の2以内、上限30万円、随時受付期限2027年1月29日を確認。
+- `imabari-child-medical-aid`: こどもの医療費助成へ補正。0歳から18歳年度末まで、受給資格者証、払い戻し手続きを確認。
+- `imabari-elderly-support`: 安否確認・見守り（緊急通報装置等）へ補正。緊急通報装置、福祉電話、見守り推進員を確認。
+- `imabari-elderly-taxi`: 重度障がい者（児）タクシー利用助成へ補正。高齢者一般向けタクシー助成は公式確認できず、重度障がい者向け利用券24枚へ補正。
+- `imabari-health-checkup-subsidy`: 国民健康保険短期人間ドックへ補正。40歳以上国保加入者、自己負担12,540円、2026年5月18日以降申込を確認。
+- `imabari-housing-purchase`: 住もういまばり！移住者住宅取得事業費補助金へ補正。上限50万円、指定地域等は70万円、子ども加算を確認。
+- `imabari-infertility`: 不妊治療費の助成（保険診療適用分）へ補正。高額療養費等を除いた自己負担額、先進医療上限5万円を確認。
+- `imabari-juutaku-reform`: 住もういまばり！空き家リフォーム補助金へ補正。補助率3分の2、指定地域子育て世帯の住宅改修上限500万円、第2次募集を確認。
+- `imabari-nursing-equipment`: 介護用品の支給へ補正。要介護4・5等、月額3,000円または2,000円の介護用品券を確認。
+- `imabari-scholarship`: 今治市奨学金へ補正。高校月額12,000円、大学等月額30,000円、令和8年度募集終了を確認。
+- `imabari-scholarship-repayment`: 出産世帯奨学金返還支援事業へ補正。令和8年度出生世帯は夫婦合算最大20万円、申請期限は満1歳の誕生日前日を確認。
+- `imabari-school-lunch-subsidy`: 令和8年度市立小学校給食費無償化へ補正。対象範囲と手続き不要を確認。
+- `imabari-seismic-diagnosis`: 木造住宅耐震診断補助へ補正。技術者派遣制度は自己負担0円、補助制度は上限5万円、2027年1月29日締切を確認。
+- `imabari-sme-support`: 技術開発・販路開拓事業費補助金へ補正。研究開発枠上限100万円、イノベーション推進枠上限500万円を確認。
+- `imabari-water-saving`: 合併処理浄化槽維持管理費補助金へ補正。雨水タンク補助は公式確認できず、10人槽以下の合併処理浄化槽1基年1万円へ補正。
+
+確認:
+
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node -e ...verified duplicate`: 今治市slugの重複なし。
+- `node scripts/check-grant-source-urls.mjs --slug ...今治市17件 + ehime-mikan-farming --concurrency 1 --timeout-ms 90000`: 採用URL 20件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 愛媛県 --limit 60`: 愛媛県の未照合raw slugは47件から29件に減少。残りは松山市11件、新居浜市9件、西条市9件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,815件から2,797件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,008件、activeWithoutOfficialSourceは2,801件、愛媛県ローカル公式確認済みは43件。active全体4,809件に対する公式確認済みactive比率は約41.8%。
+- `npm run build`: 速度改善方針により今回は省略。対象ESLint、URL検証、raw gap監査、coverageが通っている。次の県完了時、20〜50件節目、または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 愛媛県Batch 101として松山市11件（`matsuyama-block-wall-removal` / `matsuyama-child-medical-aid` / `matsuyama-childcare-subsidy` / `matsuyama-elderly-taxi` / `matsuyama-health-checkup-subsidy` / `matsuyama-juutaku-reform` / `matsuyama-scholarship-repayment` / `matsuyama-school-lunch-subsidy` / `matsuyama-startup-support` / `matsuyama-telework-bonus` / `matsuyama-water-saving`）を公式一次情報で確認する。
