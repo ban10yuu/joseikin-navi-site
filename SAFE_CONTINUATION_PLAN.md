@@ -2174,3 +2174,32 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 4,068 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は572件、activeWithDeadlineは413件、期限切れ159件。
 - `npm run audit:links`: broken 0。4,066ファイルから150,902リンク抽出、8,730件監査。
+
+## 2026-07-02 東京都Batch 50 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の国分寺市9件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・抑止した。生成データの「放課後子ども教室」「出産祝い金」「保育料軽減補助金」「省エネ家電買替え補助金」「不妊治療費助成制度」「介護住宅改修助成」「木造住宅耐震診断助成」「創業支援補助金」「テレワーク推進補助金」を、国分寺市公式ページで確認できる現行制度名・支援内容・受付状況へ補正した。
+
+追加:
+
+- `kokubunji-afterschool`: 国分寺市「放課後子どもプラン」。市立全小学校で実施する放課後の居場所づくり事業へ補正。参加は電子申請、費用は原則無料。
+- `kokubunji-birth-bonus`: 国分寺市「出産・子育て応援事業（妊婦のための支援給付）」。ゆりかご育児パッケージ1万円相当、出産応援ギフト5万円相当、子育て応援ギフト5万円相当へ補正。
+- `kokubunji-childcare-subsidy`: 国分寺市「認証保育所等保護者助成金制度」。認証保育所等・認可外保育施設等の保育料に対し、月額最大6.7万円の保護者助成として補正。
+- `kokubunji-energy-support`: 国分寺市「省エネ家電等買換え応援キャンペーン」。令和5年度キャンペーンとしては確認できるが、令和8年度の現行受付は確認不可。通常一覧から除外し、現行の省エネ系支援は既存 `kokubunji-housing-eco` を参照する扱いへ補正。
+- `kokubunji-infertility`: 国分寺市「特定不妊治療費助成金」。現行市独自助成としては確認できず、国分寺市公式では東京都特定不妊治療費（先進医療）助成事業への案内を確認。通常一覧から除外。
+- `kokubunji-nursing-home-reform`: 国分寺市「介護保険住宅改修費支給」。支給限度基準額20万円、9割相当上限18万円、工事前相談・事前申請必須として補正。
+- `kokubunji-seismic-diagnosis`: 国分寺市「木造住宅の耐震診断士派遣事業」。既存 `kokubunji-housing-seismic` と同一公式ページの制度のため、無料耐震診断士派遣を確認したうえで旧slugは通常一覧から除外。
+- `kokubunji-startup-support`: 国分寺市「事業資金融資あっせん（創業資金・保証料補助）」。創業資金融資限度額500万円、信用保証料全額補助、本人負担利率0.2%の制度へ補正。
+- `kokubunji-telework-bonus`: 国分寺市「テレワーク推進補助金」。現行の同名補助金としては公式確認不可。事業資金融資あっせん・創業支援等事業を関連情報として確認し、通常一覧から除外。
+
+確認:
+
+- 採用した公式出典URL 22件はすべて200で到達確認。国分寺市公式の放課後子どもプラン、放課後子どもプランFAQ、令和8年度学童保育所入所案内PDF、出産・子育て応援事業、妊婦等包括相談支援事業、認証保育所等保護者助成金、幼児教育・保育無償化概要、施設等利用費請求手続、令和6年1月15日号市報、省エネ家電等買換え応援キャンペーンPDF、再エネ・省エネ機器等設置助成、妊娠から出産までの行政サービス、廃止例規の特定不妊治療費助成金交付規則、介護保険住宅改修FAQ、住宅改修費受領委任払い利用申請書、住宅改修費支給申請書、木造住宅耐震診断・耐震改修等助成金、事業資金融資あっせん、創業支援等事業、令和8年度こくぶんじ創業塾、起業・創業支援一覧、市就労支援の取組を確認。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 30`: 東京都の未照合raw slugは242件から233件に減少。次の候補は狛江市、三鷹市、渋谷区、小金井市。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 20`: 全国未照合raw slugは3,332件から3,323件に減少。
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,609件、東京都ローカル公式確認済みは174件、activeWithoutOfficialSourceは3,327件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 4,084 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は576件、activeWithDeadlineは413件、期限切れ163件。
+- `npm run audit:links`: broken 0。4,082ファイルから151,582リンク抽出、8,766件監査。
