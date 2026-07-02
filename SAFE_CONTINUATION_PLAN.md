@@ -2919,3 +2919,32 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - `tasks/todo.md` の次回候補どおり、武蔵野市8件（`musashino-afterschool-care` / `musashino-appliance-subsidy` / `musashino-home-care` / `musashino-maternity-dental` / `musashino-nursery-support` / `musashino-school-lunch` / `musashino-vaccination-subsidy` / `musashino-youth-employment`）を公式一次情報で確認する。
+
+## 2026-07-02 東京都Batch 74 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の武蔵野市8件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・補正した。速度優先プロトコルとして、同一自治体の公式候補URLを先にまとめて確認し、追加後は実データ上の `officialUrl` / `sourceUrls` を並列HTTP検証した。
+
+追加・補正:
+
+- `musashino-afterschool-care`: 放課後児童クラブ利用料助成候補を、公式に確認できる「学童クラブ育成料等減免」へ補正。育成料は1人目月額8,000円、2人目から6,000円、生活保護世帯・住民税非課税世帯等の減免を確認。
+- `musashino-appliance-subsidy`: 省エネ家電買替補助金は現行の市独自家電補助として確認不可。公式に確認できる「家庭向け再エネ電気切替協力金」へ補正。再エネ100%電気契約への切替で1万円、供給開始日等から6カ月以内。
+- `musashino-home-care`: 在宅介護者支援手当候補を「家族介護慰労金支給」へ補正。要介護4または5等の要件、年額10万円を確認。
+- `musashino-maternity-dental`: 妊婦歯科健康診査へ補正。妊婦の市民が対象、妊娠中1回、受診票と母子健康手帳で市内指定医療機関を受診。
+- `musashino-nursery-support`: 令和8年度認可外保育施設入所児童保育助成金へ補正。東京都認証保育所・企業主導型保育事業、月120時間以上、月額上限8万円等を確認。
+- `musashino-school-lunch`: 第3子以降補助候補を学校給食費無償化へ補正。令和6年度から家庭からの集金なし、令和8年度参考単価を確認。
+- `musashino-vaccination-subsidy`: 高齢者予防接種費用助成候補を高齢者肺炎球菌予防接種へ補正。令和8年4月から20価肺炎球菌ワクチン、自己負担5,000円、生活保護受給者の免除を確認。
+- `musashino-youth-employment`: 若者キャリアアップ支援金は市独自の現金支援として確認不可。就職支援・労働相談ページ、ハローワーク、東京しごとセンター等の関連情報を確認し、通常一覧から除外。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug musashino-afterschool-care,musashino-appliance-subsidy,musashino-home-care,musashino-maternity-dental,musashino-nursery-support,musashino-school-lunch,musashino-vaccination-subsidy,musashino-youth-employment --concurrency 8 --timeout-ms 60000`: 採用sourceUrls 22件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 25`: 東京都の未照合raw slugは62件から54件に減少。次の候補は文京区6件、豊島区。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは3,152件から3,144件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,760件、東京都ローカル公式確認済みは325件、activeWithoutOfficialSourceは3,148件。
+- `npm run build`: 成功。静的ページ4,341件生成、`/grant/[slug]` は1,951件。
+
+次回再開位置:
+
+- `tasks/todo.md` の次回候補どおり、文京区6件（`bunkyo-childcare-subsidy` / `bunkyo-elderly-support` / `bunkyo-learning-support` / `bunkyo-nursing-equipment` / `bunkyo-scholarship` / `bunkyo-sme-support`）を公式一次情報で確認する。
