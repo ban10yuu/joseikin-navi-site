@@ -2948,3 +2948,30 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - `tasks/todo.md` の次回候補どおり、文京区6件（`bunkyo-childcare-subsidy` / `bunkyo-elderly-support` / `bunkyo-learning-support` / `bunkyo-nursing-equipment` / `bunkyo-scholarship` / `bunkyo-sme-support`）を公式一次情報で確認する。
+
+## 2026-07-02 東京都Batch 75 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の文京区6件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・補正した。生成データは文京区トップページを出典にした概算・推測が多かったため、文京区公式ページ、公式PDF、関連制度ページで現行制度・期限切れ制度・補正先を確認した。
+
+追加・補正:
+
+- `bunkyo-childcare-subsidy`: 認可外保育施設利用助成金候補を、令和8年度「認可外保育施設利用事業補助制度」へ補正。保育の必要性認定、補助額、年度1回申請、2027年3月15日申請期限を確認。
+- `bunkyo-elderly-support`: 高齢者見守り・緊急通報候補を「救急通報システム」へ補正。対象者、主治医確認書、24時間相談・月1回程度の健康確認、月350円、住民税非課税世帯免除を確認。
+- `bunkyo-learning-support`: 無料学習支援事業候補を「中学生学校外学習費用の助成（塾代助成）」へ補正。中2・中3、就学援助対象世帯、年額上限10万円、令和8年度申請期間を確認。
+- `bunkyo-nursing-equipment`: 介護用品支給候補を「高齢者紙おむつ現物支給事業」へ補正。原則要介護3以上、紙おむつ45点まで月1回配送、月額500円、生活保護世帯免除を確認。
+- `bunkyo-scholarship`: 奨学資金貸付制度候補を「文京区奨学資金（高等学校等）の給付」へ補正。国公立6万円・私立10万円、2026年3月31日締切で受付終了のため通常一覧から除外。
+- `bunkyo-sme-support`: 汎用的な中小企業経営支援助成金候補を「持続可能性向上支援補助金（生産性向上設備）」へ補正。通常枠50万円、賃上げ枠・ISO14001取得者は上限100万円、先端設備等導入計画認定、令和8年度受付状況を確認。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug bunkyo-childcare-subsidy,bunkyo-elderly-support,bunkyo-learning-support,bunkyo-nursing-equipment,bunkyo-scholarship,bunkyo-sme-support --concurrency 8 --timeout-ms 60000`: 採用sourceUrls 18件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 25`: 東京都の未照合raw slugは54件から48件に減少。次の候補は豊島区5件、北区。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは3,144件から3,138件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,765件、東京都ローカル公式確認済みは330件、activeWithoutOfficialSourceは3,142件。
+- `npm run build`: 成功。静的ページ4,350件生成、`/grant/[slug]` は1,957件。
+
+次回再開位置:
+
+- `tasks/todo.md` の次回候補どおり、豊島区5件（`toshima-afterschool` / `toshima-energy-support` / `toshima-infertility` / `toshima-nursing-equipment` / `toshima-seismic-diagnosis`）を公式一次情報で確認する。
