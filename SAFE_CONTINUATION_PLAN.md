@@ -2203,3 +2203,31 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 4,084 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は576件、activeWithDeadlineは413件、期限切れ163件。
 - `npm run audit:links`: broken 0。4,082ファイルから151,582リンク抽出、8,766件監査。
+
+## 2026-07-02 東京都Batch 51 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の狛江市8件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・抑止した。生成データの「放課後子ども教室」「出産祝い金」「保育料軽減補助金」「省エネ家電買替え補助金」「不妊治療費助成制度」「介護住宅改修助成」「木造住宅耐震診断助成」「テレワーク推進補助金」を、狛江市公式ページ・こまえ子育てねっとで確認できる現行制度名・支援内容・受付状況へ補正した。
+
+追加:
+
+- `komae-afterschool`: 狛江市「KoKoA（放課後子ども教室事業）」。市内6小学校すべてで実施、1〜6年生が対象、参加無料・保険は市加入として補正。
+- `komae-birth-bonus`: 狛江市「出産祝金支給事業」。支給対象子1人当たり2万円、出生日から1年以内申請として補正。
+- `komae-childcare-subsidy`: 狛江市「認証保育所等入所児童保護者負担軽減補助金」。令和7年度後期申請期限2026年3月31日到来済みのため通常一覧から除外。
+- `komae-energy-support`: 狛江市「省エネ家電買替え補助金」。市独自の現行制度としては公式確認不可。現行の省エネ系支援は既存 `komae-housing-eco` の地球温暖化対策用設備導入助成として確認し、旧slugは通常一覧から除外。
+- `komae-infertility`: 狛江市「不妊治療費等助成金」。令和8年度開始、東京都助成への上乗せ、不妊検査等上限1万円、不育症検査上限2万円、特定不妊治療費（先進医療）上限3万円として補正。
+- `komae-nursing-home-reform`: 狛江市「介護保険居宅介護（介護予防）住宅改修費支給」。改修費の9割から7割、同一住宅1人20万円まで、事前申請必須として補正。
+- `komae-seismic-diagnosis`: 狛江市「木造住宅耐震助成」。耐震アドバイザー派遣無料、耐震診断上限12万円、耐震改修上限80万円＋加算最大61.2万円等として補正。
+- `komae-telework-bonus`: 狛江市「小口事業資金融資あっ旋制度」。テレワーク専用補助金は現行公式制度として確認できないため、公式確認できる現行の事業者資金支援へ補正。運転・設備資金最大1,000万円、創業・研究開発資金最大500万円、令和8年度受付は2027年3月31日まで。
+
+確認:
+
+- 採用した公式出典URL 24件はすべて200で到達確認。狛江市公式のKoKoA案内、こまえ子育てねっとのKoKoA、KoKoA実施施設、狛江市出産祝金、こまえ子育てねっと出産祝金、妊婦のための支援給付、令和8年3月1日号、認証保育所等負担軽減補助金、第一子保育料無償化等、地球温暖化対策用設備導入助成、過去の東京ゼロエミポイント案内、不妊・不育症情報、不妊治療費等助成金、令和8年5月1日号、介護保険申請書類、介護保険サービス、介護保険住宅改修の手引きPDF、木造住宅耐震助成、住宅関係支援ガイドブック、住宅耐震化緊急促進アクションプログラム、小口事業資金融資あっ旋、事業資金・経営相談等、令和8年度小口パンフレット、創業支援を確認。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 30`: 東京都の未照合raw slugは233件から225件に減少。次の候補は三鷹市、渋谷区、小金井市、小平市。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 20`: 全国未照合raw slugは3,323件から3,315件に減少。
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,615件、東京都ローカル公式確認済みは180件、activeWithoutOfficialSourceは3,319件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 4,097 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は579件、activeWithDeadlineは414件、期限切れ165件。
+- `npm run audit:links`: 初回は既存の神奈川産業振興センター503と高松市ECONNRESETでbroken 15、同じビルド出力で再実行して broken 0。4,095ファイルから152,238リンク抽出、8,804件監査。
