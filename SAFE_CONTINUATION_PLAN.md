@@ -32,15 +32,15 @@
 - 関連: `/Users/banseiyuuji/joseikin-navi-maintenance`
 - stack: Next.js 16.1.6 / React 19.2.3 / TypeScript / static export
 - 現在ブランチ: `main`
-- `main...origin/main` は同期状態。
+- `main...origin/main` はローカルが106コミット先行。push / 公開反映は明示確認後に行う。
 - `src/lib/grants.ts` は公式確認済みデータを旧生成データより前に読み込み、slug重複時に先勝ちdedupeする。旧生成データは削らず、公式確認済みデータで置換する運用。
-- `npm run audit:coverage` は成功。2026-07-01時点の結果:
-  - rawDefinitionsAfterDedupe: 5,091
-  - activePublished: 4,994
-  - expired: 97
-  - officialLinkedActive: 1,358
-  - manuallyVerifiedActive: 1,358
-  - activeWithoutOfficialSource: 3,636
+- `npm run audit:coverage` は成功。2026-07-02 東京都Batch 65後の結果:
+  - rawDefinitionsAfterDedupe: 5,098
+  - activePublished: 4,916
+  - expired: 182
+  - officialLinkedActive: 1,693
+  - manuallyVerifiedActive: 1,693
+  - activeWithoutOfficialSource: 3,223
   - officialLinkedButNotManuallyVerified: 0
   - prefectureCoverage: 47/47 都道府県で公式リンクあり・手動確認済みあり
   - activeExpiredLeaks: 0
@@ -52,6 +52,7 @@
 - 今回の助成金データ継続で触るファイル:
   - `SAFE_CONTINUATION_PLAN.md`
   - `tasks/todo.md`
+  - `src/data/grants/verified-tokyo-local-2026.ts`
   - `src/data/grants/verified-local-misc-2026.ts`
 - 未ステージ:
   - `package.json`
@@ -72,28 +73,20 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 ## 未完了タスク
 
-1. ステージ済みの鹿児島・沖縄3件について、必要なら公式URLの再到達確認、`npm run build`、`npm run audit:deadlines`、`npm run audit:links` まで通してから isolated commit/push する。
-2. 未公式確認3,675件を、公式一次情報ベースで順次置換する。
+1. 未公式確認3,219件を、公式一次情報ベースで順次置換する。
+2. 次回は東京都町田市14件（`machida-birth-bonus` / `machida-block-wall-removal` / `machida-bousai-equipment` / `machida-childcare-subsidy` / `machida-disability-medical` / `machida-elderly-taxi` / `machida-energy-support` / `machida-health-checkup-subsidy` / `machida-nursing-home-reform` / `machida-school-lunch` / `machida-school-lunch-subsidy` / `machida-senior-support` / `machida-telework-bonus` / `machida-water-saving`）を公式一次情報で確認する。
 3. 未公式確認の上位都道府県:
-   - 東京都 282
-   - 埼玉県 233
-   - 千葉県 178
    - 北海道 163
+   - 埼玉県 140
+   - 東京都 129
    - 福岡県 127
-   - 神奈川県 124
    - 栃木県 121
    - 大阪府 119
    - 愛知県 112
+   - 茨城県 91
    - 静岡県 91
-4. 未公式確認の上位カテゴリ:
-   - 子育て・出産 737
-   - 住宅・リフォーム 463
-   - 医療・健康 444
-   - 教育・資格 435
-   - 就職・転職・起業 432
-   - 生活支援 427
-   - 介護・福祉 379
-   - 災害・緊急 358
+   - 千葉県 91
+4. カテゴリ別の未公式確認数は次回必要時に再集計する。2026-07-02時点の公式確認済みactiveは、生活支援782件、子育て640件、住宅418件、就職407件、医療379件、教育229件、介護193件、災害160件。
 
 ## 旧チャットに依存しない実行計画
 
@@ -2603,4 +2596,37 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - `tasks/todo.md` の次回候補どおり、中野区8件（`nakano-childcare-subsidy` / `nakano-elderly-support` / `nakano-living-support` / `nakano-mental-health` / `nakano-nursing-equipment` / `nakano-nursing-home-reform` / `nakano-study-abroad` / `nakano-uij-turn`）を公式一次情報で確認する。
+- 既存verified重複として検出済みの `chofu-housing-reform` / `tokushima-child-medical` は、全国raw照合とは別の品質改善タスクとして扱う。
+
+## 2026-07-02 東京都Batch 65 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の中野区8件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・補正した。生成データの「子育て応援給付金」「高齢者住宅改修」「生活困窮支援」「メンタルヘルス相談・治療費助成」「介護用品」「介護者リフレッシュ」「青少年海外派遣」「UIJターン」を、中野区公式ページ・公式PDFで確認できる現行制度名、受付状況、重複整理へ補正した。
+
+追加・補正:
+
+- `nakano-childcare-subsidy`: 中野区「物価高対応子育て応援手当（申請受付終了）」。旧「子育て応援給付金・5万円」候補を、児童手当支給対象児童1人当たり2万円、申請受付終了へ補正。個別HTMLと旧リーフレットPDFは検索結果上は確認できるがcurlで404化していたため、200応答の児童手当一覧・区報PDF・児童手当ページを出典にした。
+- `nakano-elderly-support`: 中野区「高齢者自立支援住宅改修等給付事業（重複候補）」。既存の `nakano-barrier-free` と同一制度のため、通常一覧では重複防止のため除外。
+- `nakano-living-support`: 中野区「住居確保給付金（家賃補助）」。離職等により住居喪失またはそのおそれがある方への家賃補助として補正。生活相談窓口や決定後手続きも公式ページで確認。
+- `nakano-mental-health`: 中野区「自立支援医療（精神通院）・こころの健康相談」。旧候補の治療費助成表現を、自立支援医療、心身障害者医療費助成、小児精神障害者入院医療費助成、こころの健康相談へ補正。
+- `nakano-nursing-equipment`: 中野区「おむつサービス（紙おむつの支給・費用助成）」。紙おむつ等の支給は月60点、病院等で持ち込み不可の場合の費用助成は月6,000円を限度として補正。
+- `nakano-nursing-home-reform`: 中野区「三療（はり・灸・マッサージ）サービス」。旧「介護者リフレッシュ事業」候補は現行公式制度として確認できないため、公式確認できる高齢者向け三療サービスへ補正。出張サービスは1回1,000円。
+- `nakano-study-abroad`: 中野区「青少年海外派遣・留学支援事業（公式助成確認不可）」。ニュージーランド子ども交流等の実施は確認できるが、個人向け助成金としては公式確認できないため通常一覧から除外。
+- `nakano-uij-turn`: 中野区「人材確保総合支援事業補助金」。旧「UIJターン就職支援補助金」候補を、区内中小企業等の採用・人材確保経費への補助として補正。補助上限30万円、2027年1月31日まで。
+
+確認:
+
+- 確認対象の公式URL 29件はすべて200。中野区公式の児童手当一覧、区報PDF、児童手当、住宅改修、住居確保給付金、自立支援医療、心身障害者医療費助成、こころの健康相談、小児精神障害者入院医療費助成、おむつサービス、三療サービス、ニュージーランド交流、子ども総合計画PDF、人材確保総合支援事業補助金等を確認。
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 20`: 東京都の未照合raw slugは137件から129件に減少。次の候補は町田市。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 20`: 全国未照合raw slugは3,227件から3,219件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,693件、東京都ローカル公式確認済みは258件、activeWithoutOfficialSourceは3,223件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ4,242件生成、`/grant/[slug]` は1,875件。
+- `npm run audit:deadlines`: failures 0。期限候補は610件、activeWithDeadlineは428件、期限切れ182件。
+- `npm run audit:links`: 再ビルド後の再実行で4,240ファイルから159,298リンク抽出、9,150件監査。高松市の既存 `QA.pdf` 404は公式ページ上の現行 `qa.pdf` へ修正済み。残った `wakayama-migration-support` の `https://hataracoorde.com/ijushien/` timeout 1件は個別curlでHTTP 200を確認済み。
+
+次回再開位置:
+
+- `tasks/todo.md` の次回候補どおり、町田市14件（`machida-birth-bonus` / `machida-block-wall-removal` / `machida-bousai-equipment` / `machida-childcare-subsidy` / `machida-disability-medical` / `machida-elderly-taxi` / `machida-energy-support` / `machida-health-checkup-subsidy` / `machida-nursing-home-reform` / `machida-school-lunch` / `machida-school-lunch-subsidy` / `machida-senior-support` / `machida-telework-bonus` / `machida-water-saving`）を公式一次情報で確認する。
 - 既存verified重複として検出済みの `chofu-housing-reform` / `tokushima-child-medical` は、全国raw照合とは別の品質改善タスクとして扱う。

@@ -29450,7 +29450,7 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
       'https://www.city.takamatsu.kagawa.jp/jigyosha/shien_josei/shiki/tinnginnhikiage.files/tirasi.pdf',
       'https://www.city.takamatsu.kagawa.jp/jigyosha/shien_josei/shiki/tinnginnhikiage.files/kouhuyoukou.pdf',
       'https://www.city.takamatsu.kagawa.jp/jigyosha/shien_josei/shiki/tinnginnhikiage.files/tebiki.pdf',
-      'https://www.city.takamatsu.kagawa.jp/jigyosha/shien_josei/shiki/tinnginnhikiage.files/QA.pdf'
+      'https://www.city.takamatsu.kagawa.jp/jigyosha/shien_josei/shiki/tinnginnhikiage.files/qa.pdf'
     ],
     sourceNote: '高松市公式ページで、高松市中小企業等賃金引上げ奨励金を確認。公式ページはHTTPSで200応答し、更新日は2026年6月29日、Last-Modifiedは2026年6月29日であることを確認。制度は、労働者の生活水準の維持、労働者の確保等のために持続的な賃金引上げを実施する市内中小企業等へ奨励金を交付するものであることを確認。対象者は、市内に本社又は本店を有する中小企業者、又は市内に主たる事務所を有するその他の法人であることを確認。対象従業員は、事前登録日及び交付申請受付日時点で雇用されている高松市内住所の正規雇用労働者又は非正規雇用労働者で、役員及び個人事業主本人は除かれることを確認。正規雇用労働者は基本給2.5%以上の引上げで5万円、1.5%以上で3万円、非正規雇用労働者は時間給等5%以上の引上げで5万円、3%以上で3万円であり、1社・事業所あたり10人分、最大50万円であることを確認。事前登録期間は2026年5月7日から9月18日まで、交付申請期間は2026年5月25日から2027年1月29日までであることを確認。2026年1月1日から12月31日までに引上げ後単価で算定した最初の賃金を支給する必要があり、賞与や各種手当は賃金引上げに含まないことを確認。事業チラシPDF、交付要綱PDF、申請手引PDF、Q&A PDFはいずれもHTTPSで200応答することを確認。新規公式確認済み制度として追加。',
     verifiedAt: '2026-06-30',
