@@ -2571,3 +2571,36 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 - `tasks/todo.md` の次回候補どおり、中央区6件（`chuo-bousai-equipment` / `chuo-childcare-subsidy` / `chuo-elderly-support` / `chuo-fertility-treatment` / `chuo-mental-health` / `chuo-nursing-home-reform`）を公式一次情報で確認する。
 - 既存verified重複として検出済みの `chofu-housing-reform` / `tokushima-child-medical` は、全国raw照合とは別の品質改善タスクとして扱う。
+
+## 2026-07-02 東京都Batch 64 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の中央区6件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・補正した。生成データの「家庭防災用品購入助成制度」「子育て応援給付金」「高齢者見守り支援事業」「特定不妊治療費助成制度」「精神障害者医療費助成制度」「高齢者住宅改修給付事業」を、中央区公式ページと公式PDFで確認できる現行制度名・支援内容・受付状況へ補正した。
+
+補足: 再開時に `kb search "助成金ナビ joseikin-navi-site"` を試したが、この環境では `kb` コマンドが見つからなかったため、旧隔離チャットへ依存せず、handoff・memory・リポジトリ・公式一次情報だけで継続した。
+
+追加・補正:
+
+- `chuo-bousai-equipment`: 中央区「防災用品のあっせん」。旧「購入費25%助成」候補は公式確認できないため、区内居住者・事業所向けの防災用品あっせん制度へ補正。
+- `chuo-childcare-subsidy`: 中央区「子育て応援手当（令和7年度・受付終了）」。旧「子育て応援給付金・3万円」候補を、対象児童1人当たり2万円、2026年4月30日受付終了へ補正。
+- `chuo-elderly-support`: 中央区「高齢者の見守り・食事サービス等」。緊急通報システム、見守りキーホルダー、食事サービス、高齢者地域見守り活動支援として補正。
+- `chuo-fertility-treatment`: 中央区「特定不妊治療費医療費助成制度」。東京都助成後の先進医療費等について1年度上限10万円、令和8年4月1日以降開始治療の対象拡大予定を反映。
+- `chuo-mental-health`: 中央区「心身障害者の医療費助成（マル障）・自立支援医療（精神通院）」。精神障害者保健福祉手帳1級を含むマル障と、精神通院の自立支援医療へ補正。
+- `chuo-nursing-home-reform`: 中央区「住宅設備改善給付」。旧「最大20万円」候補を、予防給付20万円、階段昇降機は直線87万6千円・曲線185万4千円等の公式限度額へ補正。
+
+確認:
+
+- 確認対象の公式URL 16件はすべて200。中央区公式の防災用品あっせん、商品一覧、子育て応援手当、区のおしらせPDF、高齢者見守り、緊急通報システム、食事サービス、高齢者地域見守り活動支援、特定不妊治療費医療費助成制度、FAQ、マル障、自立支援医療、障害者医療一覧、住宅設備改善給付、介護保険サービス、介護保険住宅改修費支給を確認。
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 20`: 東京都の未照合raw slugは143件から137件に減少。次の候補は中野区、町田市。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 20`: 全国未照合raw slugは3,233件から3,227件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,688件、東京都ローカル公式確認済みは253件、activeWithoutOfficialSourceは3,231件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 4,225 件生成、`/grant/[slug]` は1,868件。
+- `npm run audit:deadlines`: 初回はbuild前の `out/grants/index.html` 未生成によりENOENT。build後の再実行で failures 0。期限候補は606件、activeWithDeadlineは427件、期限切れ179件。
+- `npm run audit:links`: broken 0。4,223ファイルから158,673リンク抽出、9,106件監査。
+
+次回再開位置:
+
+- `tasks/todo.md` の次回候補どおり、中野区8件（`nakano-childcare-subsidy` / `nakano-elderly-support` / `nakano-living-support` / `nakano-mental-health` / `nakano-nursing-equipment` / `nakano-nursing-home-reform` / `nakano-study-abroad` / `nakano-uij-turn`）を公式一次情報で確認する。
+- 既存verified重複として検出済みの `chofu-housing-reform` / `tokushima-child-medical` は、全国raw照合とは別の品質改善タスクとして扱う。

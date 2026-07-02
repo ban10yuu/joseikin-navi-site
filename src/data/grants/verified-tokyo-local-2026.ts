@@ -7719,6 +7719,233 @@ export const verifiedTokyoLocalGrants2026: Grant[] = [
     publishedAt: '2026-07-01',
   },
   {
+    slug: 'chuo-bousai-equipment',
+    title: '中央区 防災用品のあっせん',
+    organization: '中央区',
+    type: 'local',
+    maxAmount: 'あっせん価格で購入（送料・代金引換手数料込み）',
+    maxAmountNum: 0,
+    category: 'disaster',
+    prefecture: '東京都',
+    tags: ['中央区', '防災用品', 'あっせん'],
+    eligibility: '中央区内にお住まいの方や区内事業所が対象です。あっせんパンフレットや申込書、郵便はがき、FAX等により指定業者へ申し込みます。',
+    applicationPeriod: '通年。商品・価格は公式ページとパンフレットで確認',
+    description: '中央区が、区民や事業所の防災備蓄を進めるため、防災用品をあっせん価格で購入できるよう案内する事業です。生成データの「購入費25%助成」表現は公式ページで確認できないため、あっせん制度として補正しました。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>中央区内にお住まいの方や事業所を対象に、非常食、飲料水、簡易トイレ、家具転倒防止器具、ライト等の防災用品をあっせんします。</p>'
+      },
+      {
+        heading: '購入方法',
+        content: '<p>防災用品あっせんパンフレットや申込書、郵便はがき等で、取扱業者である東京都葛飾福祉工場へ申し込みます。</p>'
+      },
+      {
+        heading: '注意点',
+        content: '<p>公式ページではあっせん価格が案内されており、購入費の一定割合を後から助成する制度としては確認できません。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.chuo.lg.jp/a0011/bousaianzen/bousai/bousaitaisaku/kunainiosumainokata/assen2.html',
+    sourceName: '中央区 防災用品のあっせん',
+    sourceUrls: [
+      'https://www.city.chuo.lg.jp/a0011/bousaianzen/bousai/bousaitaisaku/kunainiosumainokata/assen2.html',
+      'https://www.city.chuo.lg.jp/a0011/bousaianzen/bousai/bousaitaisaku/kunainiosumainokata/assen3.html'
+    ],
+    sourceNote: '中央区公式ページで、防災用品のあっせん、対象が区内居住者・事業所であること、商品一覧、あっせん価格、送料・代金引換手数料込み、申込方法を確認。生成データの25%助成は確認できないため補正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'chuo-childcare-subsidy',
+    title: '中央区 子育て応援手当（令和7年度・受付終了）',
+    organization: '中央区',
+    type: 'local',
+    maxAmount: '対象児童1人当たり2万円',
+    maxAmountNum: 2,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['中央区', '子育て応援手当', '物価高騰対策'],
+    eligibility: '児童手当の支給対象児童を養育する父母等が対象です。対象児童は平成19年4月2日から令和8年3月31日生まれの児童で、令和7年9月分児童手当受給者、令和7年10月1日以降出生児童分の児童手当申請者、公務員、DV避難・離婚等で中央区において受給者となった方などが対象区分です。',
+    applicationPeriod: '申請受付は2026年4月30日で終了',
+    deadlineDate: '2026-04-30',
+    description: '中央区が、物価高騰の影響を受ける子育て世帯を支援するため、対象児童1人当たり2万円を支給した令和7年度の手当です。生成データの「子育て応援特別給付金・3万円」は公式の現行内容と異なるため、公式制度名・支給額・受付終了状況へ補正しました。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>物価高騰の影響を受けている子育て世帯を支援するため、児童手当の支給対象児童を養育する父母等へ支給された手当です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>区のおしらせでは、対象児童1人当たり2万円と案内されています。</p>'
+      },
+      {
+        heading: '受付状況',
+        content: '<p>申請受付は2026年4月30日で終了しています。期限までに申請がない場合は支給できない旨が公式ページで案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.chuo.lg.jp/a0020/kosodate/kosodate/teatejosei/2025ouenteate.html',
+    sourceName: '中央区 令和7年度中央区子育て応援手当',
+    sourceUrls: [
+      'https://www.city.chuo.lg.jp/a0020/kosodate/kosodate/teatejosei/2025ouenteate.html',
+      'https://www.city.chuo.lg.jp/documents/17940/260115_10.pdf'
+    ],
+    sourceNote: '中央区公式ページで令和7年度中央区子育て応援手当、申請受付終了、支給対象者、対象児童、申請期限2026年4月30日を確認。区のおしらせPDFで対象児童1人当たり2万円を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'chuo-elderly-support',
+    title: '中央区 高齢者の見守り・食事サービス等',
+    organization: '中央区・中央区社会福祉協議会',
+    type: 'local',
+    maxAmount: '緊急通報システムは月額無料から900円。食事サービスは1食570円から760円',
+    maxAmountNum: 0,
+    category: 'living',
+    prefecture: '東京都',
+    tags: ['中央区', '高齢者見守り', '緊急通報', '食事サービス'],
+    eligibility: '緊急通報システムは65歳以上のひとり暮らし高齢者または高齢者のみの世帯等が対象です。食事サービスは、健康上の理由や身体的事情などにより買い物や食事作りが困難な70歳以上の方、要支援・要介護認定者は65歳以上の方が対象です。',
+    applicationPeriod: '通年受付。サービスごとに高齢者福祉課または中央区社会福祉協議会へ相談',
+    description: '中央区が、高齢者の安全確保と安否確認のため、緊急通報システム、見守りキーホルダー、食事サービス、高齢者地域見守り活動支援などを案内する制度群です。生成データの「ひとり暮らし高齢者見守り支援事業」を、公式に確認できるサービス内容へ補正しました。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>高齢者が住み慣れた地域で安心して暮らせるよう、緊急通報システム、見守りキーホルダー、食事サービス、地域見守り活動支援などを実施しています。</p>'
+      },
+      {
+        heading: '主なサービス',
+        content: '<p>緊急通報システムは24時間365日体制で急病やけが等に対応します。食事サービスは昼食・夕食を安否確認を兼ねて自宅へ届けます。</p>'
+      },
+      {
+        heading: '利用者負担',
+        content: '<p>緊急通報システムは世帯区分と機器型式により月額無料から900円です。食事サービスは一般食570円、特別食は640円から760円です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.chuo.lg.jp/a0028/kenkouiryou/koureikaigo/koureisha-shien/mimamori.html',
+    sourceName: '中央区 高齢者の見守り・食事サービス・緊急通報システム',
+    sourceUrls: [
+      'https://www.city.chuo.lg.jp/a0028/kenkouiryou/koureikaigo/koureisha-shien/mimamori.html',
+      'https://www.city.chuo.lg.jp/a0028/kenkouiryou/koureikaigo/zaitakuiryou/zaitakushienservice/koreisyasetai/kinkyu.html',
+      'https://www.city.chuo.lg.jp/a0028/kenkouiryou/koureikaigo/zaitakuiryou/zaitakushienservice/koreisyasetai/syokuzi.html',
+      'https://www.city.chuo.lg.jp/a0029/kenkouiryou/koureikaigo/zaitakuiryou/zaitakushienservice/koreisyasetai/mimamori.html'
+    ],
+    sourceNote: '中央区公式ページで高齢者の見守り、緊急通報システム、見守りキーホルダー、食事サービス、高齢者地域見守り活動支援、対象者、利用者負担を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'chuo-fertility-treatment',
+    title: '中央区 特定不妊治療費医療費助成制度',
+    organization: '中央区',
+    type: 'local',
+    maxAmount: '1年度上限10万円',
+    maxAmountNum: 10,
+    category: 'medical',
+    prefecture: '東京都',
+    tags: ['中央区', '不妊治療', '先進医療', '体外受精'],
+    eligibility: '令和8年3月31日までに開始した治療は、東京都特定不妊治療費（先進医療）助成事業の交付決定を受け、中央区内に住所があり、同年度で上限10万円を超える助成を受けていない方が対象です。令和8年4月1日以降開始治療は対象拡大予定です。',
+    applicationPeriod: '令和8年3月31日まで開始治療分は東京都交付決定通知の発行日から1年以内。令和8年4月1日以降開始治療分の申請受付開始は2026年10月1日予定',
+    description: '中央区が、保険適用された特定不妊治療と併せて行った先進医療費等について、一部を助成する制度です。令和8年4月1日以降に開始した治療では、保険診療の体外受精・顕微授精と併用した先進医療に係る費用へ対象拡大予定です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>保険適用された特定不妊治療と併せて行った先進医療費について、東京都助成後の一部を中央区が助成します。</p>'
+      },
+      {
+        heading: '助成額',
+        content: '<p>令和8年3月31日までに開始した治療分は、先進医療費の10分の7から東京都助成額を除いた額について、1年度あたり10万円を限度に助成します。</p>'
+      },
+      {
+        heading: '対象拡大',
+        content: '<p>令和8年4月1日以降に開始した治療については、保険診療の体外受精・顕微授精、併用して実施した先進医療に係る費用が新たに対象となる予定で、申請受付開始は2026年10月1日です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.chuo.lg.jp/a0031/kosodate/shussan/josei/sensiniryou.html',
+    sourceName: '中央区 特定不妊治療費医療費助成制度',
+    sourceUrls: [
+      'https://www.city.chuo.lg.jp/a0031/kosodate/shussan/josei/sensiniryou.html',
+      'https://www.city.chuo.lg.jp/a0031/faq/kosodate/ninshin/ninshin/0003.html'
+    ],
+    sourceNote: '中央区公式ページで、特定不妊治療費医療費助成制度、東京都助成の交付決定が前提であること、1年度上限10万円、申請期限、令和8年4月1日以降開始治療の対象拡大予定と申請受付開始予定日を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'chuo-mental-health',
+    title: '中央区 心身障害者の医療費助成（マル障）・自立支援医療（精神通院）',
+    organization: '中央区・東京都',
+    type: 'local',
+    maxAmount: 'マル障は保険自己負担から一部負担金を除いた額、自立支援医療は原則9割を公費負担',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '東京都',
+    tags: ['中央区', '精神障害', 'マル障', '自立支援医療'],
+    eligibility: 'マル障は、都内に住所があり、身体障害者手帳1級・2級、内部障害3級の一部、愛の手帳1度・2度、精神障害者保健福祉手帳1級のいずれかに該当する方が対象です。自立支援医療（精神通院）は精神障害の通院医療が必要な方が対象です。',
+    applicationPeriod: '通年受付。制度ごとに申請・更新手続きが必要',
+    description: '中央区で申請できる、心身障害者の医療費助成（マル障）と障害者自立支援医療（精神通院）です。生成データの「精神障害者医療費助成制度」は、公式に確認できるマル障および自立支援医療として補正しました。',
+    sections: [
+      {
+        heading: 'マル障の概要',
+        content: '<p>重度心身障害者の福祉の増進を図るため、各種医療保険の自己負担から一部負担金を差し引いた金額を助成します。精神障害者保健福祉手帳1級も対象に含まれます。</p>'
+      },
+      {
+        heading: '自立支援医療（精神通院）',
+        content: '<p>精神障害の医療に必要な費用の100分の90について、保険者と公費で負担します。所得や疾病等に応じて月額自己負担上限額があります。</p>'
+      },
+      {
+        heading: '注意点',
+        content: '<p>マル障、自立支援医療、更生医療などは対象要件と助成範囲が異なるため、申請前に障害者福祉課等で確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.chuo.lg.jp/a0023/kenkouiryou/shougaishafukushi/teate/iryou/zyosei.html',
+    sourceName: '中央区 心身障害者の医療費助成（マル障）・障害者自立支援医療（精神通院）',
+    sourceUrls: [
+      'https://www.city.chuo.lg.jp/a0023/kenkouiryou/shougaishafukushi/teate/iryou/zyosei.html',
+      'https://www.city.chuo.lg.jp/a0023/kenkouiryou/shougaishafukushi/teate/iryou/hohihutan.html',
+      'https://www.city.chuo.lg.jp/kenkouiryou/shougaishafukushi/teate/iryou/index.html'
+    ],
+    sourceNote: '中央区公式ページでマル障の対象、精神障害者保健福祉手帳1級が対象に含まれること、各種医療保険の自己負担から一部負担金を差し引いた額の助成、自立支援医療（精神通院）の9割公費負担を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'chuo-nursing-home-reform',
+    title: '中央区 住宅設備改善給付',
+    organization: '中央区',
+    type: 'local',
+    maxAmount: '階段昇降機は曲線185万4千円、直線87万6千円。予防給付20万円等',
+    maxAmountNum: 185.4,
+    category: 'nursing',
+    prefecture: '東京都',
+    tags: ['中央区', '住宅設備改善', '高齢者', '介護予防'],
+    eligibility: '非該当（自立）と認定された日常動作能力が低下している方、非該当・要支援・要介護で介護保険の対象とならない浴槽・流し・洗面台・便器等の改善が必要と認められる方、日常的に車いすを利用し階段昇降が困難な方等が対象です。事前に高齢者住宅設備改善アドバイザーの派遣が必要です。',
+    applicationPeriod: '通年受付。工事着手前に相談・アドバイザー派遣・事前申請が必要',
+    description: '中央区が、高齢者の日常生活の利便や安全を確保するため、住宅設備改善費を給付する制度です。生成データの「高齢者住宅改修給付事業・最大20万円」は、公式の住宅設備改善給付と限度額へ補正しました。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>高齢者の日常生活の利便や安全を確保するため、住宅改修が必要な場合に住宅設備改善の給付を受けられます。</p>'
+      },
+      {
+        heading: '給付限度額',
+        content: '<p>予防給付は20万円、浴槽の取替えは37万9,000円、流し・洗面台の取替えは15万6,000円、便器の洋式化は10万6,000円、階段昇降機は直線87万6,000円・曲線185万4,000円です。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>工事着手前に、担当ケアマネジャーまたはおとしより相談センターへ相談し、高齢者住宅設備改善アドバイザーの派遣と区への事前申請・承認が必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.chuo.lg.jp/a0029/kenkouiryou/koureikaigo/koureisha-shien/teate/zyutakukaizenkyuhu.html',
+    sourceName: '中央区 住宅設備改善給付',
+    sourceUrls: [
+      'https://www.city.chuo.lg.jp/a0029/kenkouiryou/koureikaigo/koureisha-shien/teate/zyutakukaizenkyuhu.html',
+      'https://www.city.chuo.lg.jp/a0029/kenkouiryou/koureikaigo/kaigohoken/riyousha/service/zaitaku/sien.html',
+      'https://www.city.chuo.lg.jp/a0029/kenkouiryou/koureikaigo/kaigohoken/riyousha/service/zaitaku/jyuutakukaishuunosikyuu.html'
+    ],
+    sourceNote: '中央区公式ページで住宅設備改善給付の利用対象、給付限度額、工事着手前の相談・アドバイザー派遣・事前申請、介護保険住宅改修費支給との関係を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
     slug: 'ota-startup-support',
     title: '大田区 中小企業融資あっせん制度「開業資金」',
     organization: '大田区',
