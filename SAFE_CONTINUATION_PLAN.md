@@ -3492,3 +3492,38 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - 北海道Batch 90として北海道庁3件と北見市11件（`hokkaido-agriculture-new` / `hokkaido-childcare-support` / `hokkaido-heating-support` / `kitami-birth-bonus` / `kitami-bousai-equipment` / `kitami-childcare-subsidy` / `kitami-disability-medical` / `kitami-energy-support` / `kitami-housing-reform` / `kitami-newlywed-rent` / `kitami-nursing-home-reform` / `kitami-school-lunch` / `kitami-startup-support` / `kitami-telework-bonus`）を公式一次情報で確認する。
+
+## 2026-07-02 北海道Batch 90 追加ログ
+
+北海道庁3件と北見市11件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。このバッチで北海道のraw未照合slugは0件になった。制度名・金額は生成データを採用せず、北海道庁・北見市公式ページ、北見市公式PDFパンフレットで確認できる内容へ置換した。
+
+追加・補正:
+
+- `hokkaido-agriculture-new`: 北海道農業次世代人材投資資金へ補正。就農準備資金は年最大150万円、経営開始資金は年165万円を確認。
+- `hokkaido-childcare-support`: 多子世帯の保育料軽減支援事業へ補正。第2子以降の3歳未満児の保育料無償化事業への道補助を確認。
+- `hokkaido-heating-support`: 高齢者等の冬の生活支援事業（福祉灯油事業）へ補正。市町村の福祉灯油事業支援を確認し、生成データの最大3万円は採用せず。
+- `kitami-birth-bonus`: 妊婦のための支援給付へ補正。1回目5万円、2回目は妊娠している子どもの数×5万円を確認。
+- `kitami-bousai-equipment`: 家庭向け防災設備設置補助金は公式確認できず、家庭での備え・備蓄状況ページを根拠に通常一覧から除外。
+- `kitami-childcare-subsidy`: 第2子以降の保育料無償化へ補正。認可保育施設等は第2子以降一律無償、認可外保育施設は月額42,000円上限を確認。
+- `kitami-disability-medical`: 重度心身障がい者医療費助成を公式確認。対象者、所得制限、自己負担区分を確認。
+- `kitami-energy-support`: 令和8年度ゼロカーボン推進事業補助金へ補正。太陽光・蓄電池同時設置21万円、木質ペレットストーブ上限20万円等を確認。
+- `kitami-housing-reform`: 令和8年度地域材活用住宅補助金へ補正。地域材1m3あたり5万円、上限なし、申請期間2026年7月1日から7月7日を確認。
+- `kitami-newlywed-rent`: 新婚世帯家賃補助は公式確認できず、市営住宅の新婚世帯所得制限緩和を根拠に通常一覧から除外。
+- `kitami-nursing-home-reform`: 介護保険住宅改修費支給へ補正。原則20万円上限、費用の7〜9割支給、事前申請を確認。
+- `kitami-school-lunch`: 学校給食費負担軽減・就学援助へ補正。令和8年度の小学校等1食286円、中学校等1食50円の公費負担と就学援助を確認。
+- `kitami-startup-support`: 創業促進助成金へ補正。公式PDFパンフレットで借入額10%、最大40万円、100万円未満借入は対象外を確認。
+- `kitami-telework-bonus`: テレワーク導入支援補助金は公式確認できず、企業支援・企業立地関連案内を根拠に通常一覧から除外。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug ...北海道庁3件・北見市11件 --concurrency 3 --timeout-ms 60000`: 採用sourceUrls 21件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 北海道 --limit 20`: 北海道の未照合raw slugは14件から0件に減少。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは2,941件から2,927件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,914件、activeWithoutOfficialSourceは2,931件、北海道ローカル公式確認済みは131件。active全体4,845件に対する公式確認済みactive比率は約39.5%。
+- `npm run build`: 成功。静的ページ4,616件生成、`/grant/[slug]` は2,164件相当。
+
+次回再開位置:
+
+- 全国raw未照合の先頭は愛知県。次バッチは愛知県庁3件と安城市2件、一宮市以降の先頭候補を、自治体単位で公式一次情報確認する。

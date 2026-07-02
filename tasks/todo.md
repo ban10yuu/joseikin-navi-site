@@ -230,7 +230,21 @@
 - [x] `node scripts/audit-raw-verified-gaps.mjs --prefecture 北海道 --limit 30`（北海道未照合14件まで減少）
 - [x] `node scripts/audit-raw-verified-gaps.mjs --limit 10`（全国未照合2,941件まで減少）
 - [x] `npm run audit:coverage`（failures 0、公式確認済みactive 1,903件）
-- [ ] 次回: 北海道Batch 90として北海道庁3件・北見市11件を公式確認
+- [x] 次回: 北海道Batch 90として北海道庁3件・北見市11件を公式確認
+
+## 2026-07-02 北海道Batch 90: 北海道庁3件・北見市11件
+
+- [x] 北海道庁3件・北見市11件を公式一次情報で棚卸し
+- [x] 現行公式制度へ補正し、防災設備補助・新婚家賃補助・テレワーク導入補助の公式確認不可候補を通常一覧から除外
+- [x] `src/data/grants/verified-local-misc-2026.ts` に14件追加
+- [x] `git diff --check -- src/data/grants/verified-local-misc-2026.ts`
+- [x] `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`
+- [x] 北海道庁3件・北見市11件のsourceUrls 21件をURL監査し、全件HTTP 200
+- [x] `node scripts/audit-raw-verified-gaps.mjs --prefecture 北海道 --limit 20`（北海道未照合0件）
+- [x] `node scripts/audit-raw-verified-gaps.mjs --limit 10`（全国未照合2,927件まで減少）
+- [x] `npm run audit:coverage`（failures 0、公式確認済みactive 1,914件）
+- [x] `npm run build`（静的ページ4,616件、`/grant/[slug]` 2,164件相当）
+- [ ] 次回: 全国未照合先頭の愛知県庁3件・安城市2件から公式確認
 - [x] `npm run audit:deadlines`（期限切れ67件を通常一覧から除外、failures 0）
 - [x] `npm run audit:links` 2238件OK / broken 0
 - [x] 生成HTMLスポット確認（15件すべて公式確認表示・公式情報リンクあり・sitemap掲載・noindexなし）
