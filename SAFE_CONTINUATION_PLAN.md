@@ -3901,3 +3901,34 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - 愛媛県Batch 102として新居浜市9件（`niihama-block-wall-removal` / `niihama-child-medical-aid` / `niihama-elderly-taxi` / `niihama-health-checkup-subsidy` / `niihama-juutaku-reform` / `niihama-scholarship-repayment` / `niihama-school-lunch-subsidy` / `niihama-startup-support` / `niihama-water-saving`）を公式一次情報で確認する。
+
+## 2026-07-02 愛媛県Batch 102 追加ログ
+
+新居浜市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。生成データの「高齢者タクシー」「学校給食費補助」「雨水タンク」は、公式で確認できる現行制度に合わせ、おでかけタクシー・重度障害者タクシー助成、就学援助、浄化槽設置整備事業補助へ補正した。
+
+追加・補正:
+
+- `niihama-block-wall-removal`: 民間ブロック塀等整備事業補助へ補正。補助対象経費3分の2、上限30万円、1m当たり8万円限度を確認。
+- `niihama-child-medical-aid`: 子ども医療費助成制度へ補正。18歳到達後最初の3月31日まで、保険診療自己負担分全額助成を確認。
+- `niihama-elderly-taxi`: 高齢者一般向け助成券は公式確認できず、おでかけタクシー・重度障害者タクシー助成へ補正。おでかけタクシー大人600円、障がい者等割引300円を確認。
+- `niihama-health-checkup-subsidy`: 令和8年度一日人間ドックへ補正。40歳以上市民、自己負担13,000円、特定健診等との同年度併用不可を確認。
+- `niihama-juutaku-reform`: 移住者住宅改修支援事業へ補正。住宅改修は働き手世帯上限100万円、子育て世帯上限400万円、家財搬出上限20万円を確認。
+- `niihama-scholarship-repayment`: 奨学金返済支援事業は令和5年度末で新規受付終了と確認。既交付決定者の2回目・3回目申請のみ継続扱い。
+- `niihama-school-lunch-subsidy`: 全世帯向け給食費補助ではなく、就学援助制度へ補正。学校給食費・学用品費等の援助と学校経由申請を確認。
+- `niihama-startup-support`: 令和8年度創業促進補助金へ補正。上限30万円、補助率3分の2または2分の1、創業日から180日以内申請を確認。
+- `niihama-water-saving`: 雨水タンク補助は公式確認できず、浄化槽設置整備事業補助金へ補正。5〜10人槽設置費、撤去費、宅内配管工事費、先着順を確認。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- `node -e ...duplicate/category`: 重複slug 0、`category` / `relatedCategories` は既存型内。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug ...新居浜市9件 --concurrency 1 --timeout-ms 120000`: 採用sourceUrls 18件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 愛媛県 --limit 25`: 愛媛県の未照合raw slugは18件から9件に減少。残りは西条市9件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,786件から2,777件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,027件、activeWithoutOfficialSourceは2,781件、愛媛県ローカル公式確認済みは62件。active全体4,808件に対する公式確認済みactive比率は約42.2%。
+- `npm run build`: 速度改善方針により今回は省略。対象ESLint、URL検証、raw gap監査、coverageが通っている。愛媛県raw gap完了時または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 愛媛県Batch 103として西条市9件（`saijo-block-wall-removal` / `saijo-child-medical-aid` / `saijo-elderly-taxi` / `saijo-health-checkup-subsidy` / `saijo-juutaku-reform` / `saijo-scholarship-repayment` / `saijo-school-lunch-subsidy` / `saijo-startup-support` / `saijo-water-saving`）を公式一次情報で確認し、愛媛県raw gap 0件を目指す。
