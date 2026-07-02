@@ -2426,3 +2426,25 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 4,177 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は595件、activeWithDeadlineは421件、期限切れ174件。
 - `npm run audit:links`: broken 0。4,175ファイルから156,154リンク抽出、8,988件監査。
+
+## 2026-07-02 東京都Batch 59 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の青梅市1件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・補正した。生成データの「青梅市 創業支援補助金」を、青梅市公式ページで確認できる「創業者応援事業補助金」へ補正した。
+
+追加:
+
+- `ome-startup-support`: 青梅市「創業者応援事業補助金」。市内で新たに事業を開始した方は20万円、創業を機に定住目的で市内へ移住し新たに事業開始した方は30万円。対象者は、青梅市内で令和5年4月1日以降に事業を開始した中小企業者・個人事業主等で、認定特定創業支援等事業による支援を受け証明書の交付を受けた方など。受付期限は2027年2月26日、予算額到達で終了。
+
+確認:
+
+- 確認対象の公式URL 2件はすべて200で到達確認。青梅市公式の創業者応援事業補助金、青梅市での創業支援案内を確認。
+- slug重複検査: `no duplicates`。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 40`: 東京都の未照合raw slugは172件から171件に減少。次の候補は千代田区、足立区、台東区、大田区、中央区。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 20`: 全国未照合raw slugは3,262件から3,261件に減少。
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,660件、東京都ローカル公式確認済みは225件、activeWithoutOfficialSourceは3,265件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 4,179 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は596件、activeWithDeadlineは422件、期限切れ174件。
+- `npm run audit:links`: broken 0。4,177ファイルから156,228リンク抽出、8,992件監査。

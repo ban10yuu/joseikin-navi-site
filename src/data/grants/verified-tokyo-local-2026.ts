@@ -4033,6 +4033,45 @@ export const verifiedTokyoLocalGrants2026: Grant[] = [
     publishedAt: '2026-06-26',
   },
   {
+    slug: 'ome-startup-support',
+    title: '青梅市 創業者応援事業補助金',
+    organization: '青梅市',
+    type: 'local',
+    maxAmount: '市内創業20万円、移住を伴う創業30万円',
+    maxAmountNum: 30,
+    category: 'employment',
+    prefecture: '東京都',
+    tags: ['青梅市', '創業支援', '創業者応援'],
+    eligibility: '青梅市内で令和5年4月1日以降に事業を開始した中小企業者または個人事業主等で、認定特定創業支援等事業による支援を受け証明書の交付を受けた方などが対象です。',
+    targetOccupation: '創業者・個人事業主・中小企業者',
+    applicationPeriod: '2027年2月26日まで。郵送は消印有効。予算額到達で終了',
+    deadlineDate: '2027-02-26',
+    description: '青梅市が、市内で新たに事業を開始した創業者へ補助金を交付する制度です。旧データの創業支援補助金候補を、公式名称・交付額・受付期限に合わせて補正しました。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>青梅市内で新たに事業を開始した創業者に対し、事業開始後の定着を支援するため補助金を交付する制度です。</p>'
+      },
+      {
+        heading: '交付額',
+        content: '<p>市内で新たに事業を開始した方は20万円、創業を機に定住目的で市内へ移住し新たに事業を開始した方は30万円です。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>申請には認定特定創業支援等事業による支援を受けた証明書が必要です。受付は2027年2月26日までですが、予算がなくなった場合は期間内でも終了します。交付後は翌年度から3年間、事業状況の報告が必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.ome.tokyo.jp/soshiki/35/37443.html',
+    sourceName: '青梅市 創業者応援事業補助金',
+    sourceUrls: [
+      'https://www.city.ome.tokyo.jp/soshiki/35/37443.html',
+      'https://www.city.ome.tokyo.jp/soshiki/35/59310.html'
+    ],
+    sourceNote: '青梅市公式ページで令和8年度更新、交付額20万円・30万円、対象者、認定特定創業支援等事業の証明、受付期限2027年2月26日、提出方法を確認。旧「創業支援補助金」候補から公式名称へ補正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
     slug: 'adachi-newlywed-rent',
     title: '足立区 新婚世帯住居費助成制度（公式確認不可）',
     organization: '足立区',
