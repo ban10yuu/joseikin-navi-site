@@ -4053,3 +4053,38 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - 茨城県Batch 107として、古河市の先頭候補（`koga-afterschool` / `koga-birth-bonus` / `koga-bousai-equipment` / `koga-childcare-subsidy` / `koga-childcare-subsidy-v2` / `koga-daycare-support` など）を公式一次情報で確認する。
+
+## 2026-07-03 茨城県Batch 107 追加ログ
+
+古河市12件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。生成データの「出産祝い金」「子育て世帯応援給付金」「認可外保育料助成」「一時預かり月額助成」「住宅取得支援補助」「高齢者住宅改修支援」「住宅用防災設備補助」などは、公式で確認できる制度または掲載停止扱いへ補正した。
+
+追加・補正:
+
+- `koga-afterschool`: 放課後児童クラブ・放課後子供教室へ補正。施設一覧とこども計画上の放課後子供教室実施方針を確認。
+- `koga-birth-bonus`: 妊婦のための支援給付金へ補正。1回目5万円、2回目は胎児1人5万円、妊娠届出から6か月の申請期間を確認。
+- `koga-bousai-equipment`: 住宅用防災設備設置補助金は公式確認不可として掲載停止扱い。地震対策、感震ブレーカー、家具転倒防止等の啓発は確認したが、市民向け購入補助は確認できず採用しない。
+- `koga-childcare-subsidy`: 物価高対応子育て応援手当へ補正。対象児童1人2万円、所得制限なし、申請不要者・申請必要者の案内を確認。
+- `koga-childcare-subsidy-v2`: 幼児教育・保育の無償化へ補正。認可外保育施設等は月額3.7万円または4.2万円まで対象と確認。
+- `koga-daycare-support`: 一時預かり事業利用者負担軽減補助金へ補正。利用1回あたり上限3,000円・2,400円・2,100円・1,500円を確認。
+- `koga-disability-medical`: 重度心身障がい者の医療福祉費支給制度（マル福）へ補正。申請期限、必要書類、制度概要を確認。
+- `koga-elderly-support`: 高齢者外出支援タクシー運賃助成事業「ふくとく・チケット」へ補正。500円券48枚、24,000円分、申請期間2026年6月1日から2027年5月20日を確認。
+- `koga-housing-purchase`: 若者・子育て世帯まちなか住宅取得奨励金へ補正。居住誘導区域、基本額10万円、加算、対象外要件を確認。
+- `koga-migration-bonus`: 古河市わくわく茨城生活実現事業における移住支援金へ補正。世帯100万円、単身60万円、18歳未満1人30万円加算、転入前相談を確認。
+- `koga-nursing-equipment`: 家族介護用品支給事業へ補正。介護用紙おむつ等を自宅まで届ける事業、申請様式を確認。年額7.5万円相当は現行ページで確認できず採用しない。
+- `koga-nursing-home-reform`: 介護保険住宅改修費支給へ補正。工事前の事前申請、許可前着工は対象外、介護認定を受けている在宅者対象を確認。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node -e ...duplicate`: 重複slug 0、古河市slug 12件。
+- `node scripts/check-grant-source-urls.mjs --slug ...古河市12件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 24件はすべてHTTP 200、failures 0。初回監査で住宅改修の旧URL1件が404だったため、現行パスとPDFへ差し替え済み。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 茨城県 --limit 30`: 茨城県の未照合raw slugは69件から57件に減少。次の先頭は古河市残り8件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,746件から2,734件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,055件、activeWithoutOfficialSourceは2,738件、茨城県ローカル公式確認済みは45件。active全体4,793件に対する公式確認済みactive比率は約42.9%。
+- `npm run build`: 速度改善方針により今回は省略。対象ESLint、URL検証、raw gap監査、coverageが通っている。茨城県raw gap完了時、20〜50件節目、または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 茨城県Batch 108として、古河市残り8件（`koga-scholarship` / `koga-seismic-diagnosis` / `koga-senior-dental` / `koga-sme-support` / `koga-startup-support` / `koga-vacant-house` / `koga-vaccination-support` / `koga-women-startup`）を公式一次情報で確認する。
+- 古河市完了後は水戸市、土浦市の順に進む。
