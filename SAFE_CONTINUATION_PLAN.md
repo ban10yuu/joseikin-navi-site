@@ -2786,3 +2786,42 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - `tasks/todo.md` の次回候補どおり、八王子市13件（`hachioji-birth-bonus` / `hachioji-block-wall-removal` / `hachioji-childcare-subsidy` / `hachioji-elderly-support` / `hachioji-elderly-taxi` / `hachioji-health-checkup-subsidy` / `hachioji-infertility` / `hachioji-nursing-equipment` / `hachioji-scholarship` / `hachioji-school-lunch-subsidy` / `hachioji-seismic-diagnosis` / `hachioji-senior-medical` / `hachioji-water-saving`）を公式一次情報で確認する。
+
+## 2026-07-02 東京都Batch 71 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の八王子市13件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・補正した。旧生成データの制度名・金額・対象者ずれが多かったため、八王子市公式ページ、八王子市子育て応援サイト、公式PDF、東京都公式ページを確認して補正した。
+
+追加・補正:
+
+- `hachioji-birth-bonus`: 出産・子育て応援給付金を現行制度「妊婦のための支援給付」へ補正。妊娠時5万円相当、出生時等は胎児数×5万円相当。
+- `hachioji-block-wall-removal`: 八王子市ブロック塀撤去等補助金へ補正。撤去・新設は3分の2、1mあたり3万円、上限30万円の低い額。診断は2分の1、上限5万円。
+- `hachioji-childcare-subsidy`: 幼児教育・保育の無償化へ補正。令和7年9月から0〜2歳児クラス第1子を含む認可保育所等保育料無償化を確認。
+- `hachioji-elderly-support`: 高齢者救急通報システムへ補正。非課税・生活保護は費用負担なし、その他は月額462円または484円を確認。
+- `hachioji-elderly-taxi`: 高齢者一般向けタクシー助成は公式確認不可。心身障害者タクシー・自動車ガソリン費助成事業へ補正。300円券を月8枚、視覚障害者は月12枚等。
+- `hachioji-health-checkup-subsidy`: 人間ドック割引へ補正。64歳まで8,000円引、65歳以上10,000円引、令和8年度受診期間は2026年6月1日から2027年1月31日。
+- `hachioji-infertility`: 八王子市独自の従来型特定不妊治療助成は保険適用移行により終了。東京都特定不妊治療費（先進医療）助成事業への市公式案内として補正。
+- `hachioji-nursing-equipment`: 在宅高齢者おむつの給付へ補正。要介護1以上、世帯全員非課税、月額上限4,400円、利用者2割負担。
+- `hachioji-scholarship`: 高等学校等向け八王子市奨学金制度へ補正。月額11,000円、返済不要、令和8年度募集は2026年1月30日で受付終了のため通常一覧から除外。
+- `hachioji-school-lunch-subsidy`: 公立小・中・義務教育学校給食費無償化へ補正。令和6年度第2学期から実施、就学援助資料でも給食費無償化のため支給なしと確認。
+- `hachioji-seismic-diagnosis`: 木造住宅耐震診断補助制度へ補正。診断費用4分の3、上限15万円、耐震お助け隊派遣要件を確認。
+- `hachioji-senior-medical`: 高齢者インフルエンザ予防接種費用助成は年度ごと制度。現時点で令和8年度個別案内未確認、令和7年度接種分は終了扱いとして通常一覧から除外。
+- `hachioji-water-saving`: 雨水貯留槽設置補助事業へ補正。本体購入価格2分の1、上限25,000円、予算内受付を確認。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 25`: 東京都の未照合raw slugは92件から79件に減少。次の候補は板橋区8件、品川区。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは3,182件から3,169件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,739件、東京都ローカル公式確認済みは304件、activeWithoutOfficialSourceは3,173件。
+- 八王子市Batch 71の13レコードから抽出した採用sourceUrls 35件はすべてHTTP 200。
+- `npm run build`: 成功。静的ページ4,305件生成、`/grant/[slug]` は1,926件。
+
+速度改善:
+
+- 公式確認の精度を落とさず速度を上げるため、次バッチからは自治体単位で「raw gap抽出 → 公式候補URL一括収集 → sourceUrls一括HTTP確認 → 期限切れ/制度名変更/自治体外制度の分類 → 最後にレコード化」の順で進める。
+- 手入力でURLを並べる検査は誤差が出やすいため、追加済みレコードから実sourceUrlsを抽出して検査する。これにより壊れた出典URLの見落としを減らし、確認時間を短縮する。
+
+次回再開位置:
+
+- `tasks/todo.md` の次回候補どおり、板橋区8件（`itabashi-afterschool` / `itabashi-childcare-subsidy` / `itabashi-disability-medical` / `itabashi-migration-bonus` / `itabashi-nursing-equipment` / `itabashi-seismic-diagnosis` / `itabashi-startup-support` / `itabashi-women-startup`）を公式一次情報で確認する。
