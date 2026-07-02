@@ -2699,3 +2699,37 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 - `tasks/todo.md` の次回候補どおり、東村山市10件（`higashimurayama-afterschool` / `higashimurayama-birth-bonus` / `higashimurayama-childcare-subsidy` / `higashimurayama-energy-support` / `higashimurayama-fertility-treatment` / `higashimurayama-infertility` / `higashimurayama-living-support` / `higashimurayama-nursing-home-reform` / `higashimurayama-seismic-diagnosis` / `higashimurayama-telework-bonus`）を公式一次情報で確認する。
 - 全体リンク・期限監査は数バッチ単位でまとめる。次の節目では `npm run audit:deadlines` をbuild後に再実行する。
+
+## 2026-07-02 東京都Batch 68 追加ログ
+
+ユーザー指摘を受け、速度優先の運用へ切り替えた。公式一次情報で確認できるものは即補正し、制度名・金額・期限を確認できない生成候補や助成金非該当の行政サービスは、誤掲載を避けるため通常一覧から除外する方針を明確化した。
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の東村山市10件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・補正した。東村山市公式サイト本体は現在の自動リンク監査環境でCloudFront 403を返すため、公式検索結果・公式例規・東京都公式ページを組み合わせて確認し、リンク監査に耐える公式例規URLを優先して出典にした。
+
+追加・補正:
+
+- `higashimurayama-afterschool`: 放課後子ども教室は居場所提供事業であり、現金給付・補助金ではないため助成金非該当として通常一覧から除外。
+- `higashimurayama-birth-bonus`: 市独自の出産順位別祝い金は公式確認不可。東村山市国民健康保険条例で確認できる出産育児一時金（原則50万円）へ補正。
+- `higashimurayama-childcare-subsidy`: 東村山市認可外保育施設等園児保護者補助金へ補正。月額1万2,000円、条件により2万8,000円加算を公式例規で確認。
+- `higashimurayama-energy-support`: 省エネ家電買替え補助は現行市独自制度として確認不可。低所得世帯等エアコン新規設置等費用助成（上限10万円）へ補正し、予算上限到達による受付停止として通常一覧から除外。
+- `higashimurayama-fertility-treatment`: 東村山市独自の不妊治療助成は確認不可。東京都不妊治療費助成事業（先進医療費10分の7、1回上限15万円）へ補正。
+- `higashimurayama-infertility`: 上記東京都制度への重複候補として `higashimurayama-fertility-treatment` に統合し、通常一覧から除外。
+- `higashimurayama-living-support`: 東村山市生活困窮者自立支援事業・住居確保給付金へ補正。生活困窮者自立相談、住居確保給付金、就労準備、家計改善等を公式例規で確認。
+- `higashimurayama-nursing-home-reform`: 介護保険住宅改修費支給へ補正。支給対象限度額20万円、事前申請必須を公式検索結果と例規で確認。
+- `higashimurayama-seismic-diagnosis`: 木造住宅耐震診断費の助成へ補正。診断費用3分の2、上限10万円、2026年12月11日申請期限を確認。
+- `higashimurayama-telework-bonus`: 東村山市独自のテレワーク推進補助金は公式確認不可。東京都・東京しごと財団の広域制度は関連情報として示し、通常一覧から除外。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 20`: 東京都の未照合raw slugは112件から102件に減少。次の候補は東大和市8件、日野市、八王子市。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは3,202件から3,192件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,718件、東京都ローカル公式確認済みは283件、activeWithoutOfficialSourceは3,196件。
+- 採用した公式例規・東京都・東京しごと財団URL 12件は個別確認でHTTP 200。東村山市公式サイト本体はCloudFront 403のため、期限切れ/抑止slugの根拠としてのみ使用し、通常一覧に出る出典URLは公式例規等を優先。
+- `npm run build`: 成功。静的ページ4,276件生成、`/grant/[slug]` は1,903件。
+
+次回再開位置:
+
+- `tasks/todo.md` の次回候補どおり、東大和市8件（`higashiyamato-afterschool` / `higashiyamato-birth-bonus` / `higashiyamato-childcare-subsidy` / `higashiyamato-energy-support` / `higashiyamato-infertility` / `higashiyamato-nursing-home-reform` / `higashiyamato-seismic-diagnosis` / `higashiyamato-telework-bonus`）を同じ高速方針で公式一次情報確認・補正する。
+- 全体リンク・期限監査は数バッチ単位でまとめる。次の節目ではbuild後に `npm run audit:deadlines` を再実行する。
