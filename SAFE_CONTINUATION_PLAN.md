@@ -3724,3 +3724,43 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - 愛知県Batch 97として豊橋市19件（`toyohashi-birth-bonus` / `toyohashi-bousai-equipment` / `toyohashi-care-robot` / `toyohashi-childcare-leave-bonus` / `toyohashi-childcare-subsidy` / `toyohashi-community-bus` / `toyohashi-disability-medical` / `toyohashi-earthquake-shelter-reform` / `toyohashi-education-support` / `toyohashi-energy-support` / `toyohashi-factory-iot` / `toyohashi-gifted-support` / `toyohashi-mental-health` / `toyohashi-newlywed-housing` / `toyohashi-newlywed-rent` / `toyohashi-nursing-home-reform` / `toyohashi-preschool-free` / `toyohashi-school-lunch` / `toyohashi-telework-bonus`）を公式一次情報で確認する。
+
+## 2026-07-02 愛知県Batch 97 追加ログ
+
+豊橋市19件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。生成データの制度名・金額はそのまま採用せず、豊橋市公式ページ、公式PDF、電子申請ポータルで確認できた制度へ置換した。市単独の現行制度として確認できない候補は期限切れ扱いで通常一覧から除外した。
+
+追加・補正:
+
+- `toyohashi-birth-bonus`: 妊婦のための支援給付へ補正。令和7年4月1日開始、2回に分けて妊婦支援給付金を支給することを確認。
+- `toyohashi-bousai-equipment`: 家具等てんとうむし補助金へ補正。家具転倒防止器具等の購入費・取付費、上限5,000円を確認。旧詳細URLはHTTP 404のため採用出典から除外し、電子申請ポータル・防災ガイドブック・令和8年度補助金一覧を採用。
+- `toyohashi-care-robot`: 介護ロボット等導入支援事業補助金は予算資料で確認できるが、申請者向け現行募集ページは確認できないため通常一覧から除外。
+- `toyohashi-childcare-leave-bonus`: 市独自の育児休業取得奨励金は公式確認できず、雇用・労働関係ページの県・国等リンク確認にとどめ通常一覧から除外。
+- `toyohashi-childcare-subsidy`: 保育料等の軽減へ補正。0〜2歳児の第3子以降無料・第2子半額、副食費多子世帯軽減を確認。
+- `toyohashi-community-bus`: 高齢者移動支援事業へ補正。タクシー料金助成券、電車・バス・コミュニティバス共通助成券、元気パス購入助成の各5,000円分を確認。
+- `toyohashi-disability-medical`: 障害者医療へ補正。対象手帳等級、保険診療自己負担分無料、保険適用外費用は対象外を確認。
+- `toyohashi-earthquake-shelter-reform`: 木造住宅耐震シェルター整備費補助金へ補正。令和8年度受付、判定値1.0未満等、高齢者または障がい者居住要件を確認。
+- `toyohashi-education-support`: 就学援助へ補正。令和8年度案内、学用品費など費用の一部援助、多言語案内を確認。
+- `toyohashi-energy-support`: 家庭用エネルギー設備導入補助金へ補正。太陽光・HEMS・蓄電池一体的導入12万円、ZEH16万円、蓄電池上限7万円、V2H補助ページを確認。
+- `toyohashi-factory-iot`: 新ビジネスチャレンジ応援補助金（デジタル化）へ補正。補助率2分の1、上限50万円、ソフトウェア・連携ハードウェア等を確認。
+- `toyohashi-gifted-support`: 全国大会出場者激励金へ補正。大会区分別の激励金、開催7日前までの提出を確認。
+- `toyohashi-mental-health`: 精神障害者医療費助成制度へ補正。自立支援医療（精神通院）自己負担分助成、手帳1・2級の全疾患助成を確認。
+- `toyohashi-newlywed-housing`: 結婚新生活支援事業補助金は平成28年度末終了として確認し、通常一覧から除外。
+- `toyohashi-newlywed-rent`: 同じく結婚新生活支援事業補助金の平成28年度末終了を確認し、通常一覧から除外。
+- `toyohashi-nursing-home-reform`: 住宅改修費の支給へ補正。介護保険住宅改修費、障害福祉の日常生活用具費支給（住宅改修含む）、事前申請要件を確認。
+- `toyohashi-preschool-free`: 幼児教育・保育の無償化へ補正。認定区分別の無償化、市独自補助対象、副食費軽減を確認。
+- `toyohashi-school-lunch`: 学校給食費負担軽減対応補助金へ補正。学校給食費無償提供に併せ、給食を喫食しない児童生徒や市立以外の小中学校在籍者への給食費相当額助成を確認。
+- `toyohashi-telework-bonus`: 市独自の現行テレワーク導入支援補助金は公式確認できず、雇用・労働関係ページの外部制度案内確認にとどめ通常一覧から除外。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug ...豊橋市19件 --concurrency 3 --timeout-ms 60000`: 初回は `toyohashi-bousai-equipment` の旧詳細URL `50220.htm` がHTTP 404。電子申請ポータル・公式防災ガイドブック・令和8年度補助金一覧へ差し替え、再監査で採用sourceUrls 29件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 愛知県 --limit 45`: 愛知県の未照合raw slugは41件から22件に減少。次の先頭候補は豊田市11件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは2,856件から2,837件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,973件、activeWithoutOfficialSourceは2,841件、愛知県ローカル公式確認済みは83件。active全体4,814件に対する公式確認済みactive比率は約41.0%。
+- `npm run build`: 速度改善方針により今回は省略。直前の一宮市Batch 92でbuild成功済みで、今回は対象ESLint・URL検証・coverage・raw gap監査が通っている。愛知県raw gap完了時または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 愛知県Batch 98として豊田市11件（`toyota-birth-bonus` / `toyota-bousai-equipment` / `toyota-childcare-subsidy` / `toyota-disability-medical` / `toyota-energy-support` / `toyota-infertility-treatment` / `toyota-newlywed-rent` / `toyota-nursing-home-reform` / `toyota-school-lunch` / `toyota-sme-equipment` / `toyota-telework-bonus`）を公式一次情報で確認する。
