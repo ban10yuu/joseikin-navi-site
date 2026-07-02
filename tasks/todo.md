@@ -645,6 +645,7 @@
 - [x] 東京都Batch 79の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 32件はHTTP 200、東京都の未照合raw slugは27件から8件、全国未照合raw slugは3,117件から3,098件に減少、coverage failures 0、公式確認済みactiveは1,795件、東京都ローカル公式確認済みは360件、buildは4,402ページ生成・`/grant/[slug]` 1,996件）
 - [x] 東京都Batch 80として練馬区8件を公式確認済み追加・補正し、東京都raw gap 0件を達成（第3子以降出産祝金の既存第3子誕生祝金への重複統合、子育てスタート応援券、受験生チャレンジ支援貸付事業、カーボンニュートラル化設備設置補助金、住宅省エネ改修候補の同補助金への重複統合、介護保険住宅改修費支給、長寿すこやか歯科健診、新規ビジネスチャレンジ補助金）
 - [x] 東京都Batch 80の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 22件はHTTP 200、東京都の未照合raw slugは8件から0件、全国未照合raw slugは3,098件から3,090件に減少、coverage failures 0、公式確認済みactiveは1,801件、東京都ローカル公式確認済みは366件、buildは4,413ページ生成・`/grant/[slug]` 2,004件）
+- [x] 速度改善方針をSAFE_CONTINUATION_PLANへ明記。以後は公式一次情報の確認基準を維持しつつ、市区町村単位20件前後、まとまる場合は30〜50件単位で処理し、重いbuildは節目でまとめる
 - [ ] 次回候補: 北海道の残163件から、旭川市20件（`asahikawa-birth-bonus` / `asahikawa-block-wall-removal` / `asahikawa-bousai-equipment` / `asahikawa-child-medical-aid` / `asahikawa-childcare-subsidy` / `asahikawa-disability-medical` / `asahikawa-elderly-taxi` / `asahikawa-energy-support` / `asahikawa-health-checkup-subsidy` / `asahikawa-housing-reform` / `asahikawa-juutaku-reform` / `asahikawa-newlywed-rent` / `asahikawa-nursing-home-reform` / `asahikawa-scholarship-repayment` / `asahikawa-school-lunch` / `asahikawa-school-lunch-subsidy` / `asahikawa-senior-medical` / `asahikawa-startup-support` / `asahikawa-telework-bonus` / `asahikawa-water-saving`）を公式一次情報で確認する
 - [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugを公式確認済みデータへ置換し、raw重複の実害を減らす
 - [ ] push / 公開反映は明示確認後に実行

@@ -3151,3 +3151,13 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - `node scripts/audit-raw-verified-gaps.mjs --prefecture 北海道 --limit 30` の先頭候補どおり、北海道の旭川市20件（`asahikawa-birth-bonus` / `asahikawa-block-wall-removal` / `asahikawa-bousai-equipment` / `asahikawa-child-medical-aid` / `asahikawa-childcare-subsidy` / `asahikawa-disability-medical` / `asahikawa-elderly-taxi` / `asahikawa-energy-support` / `asahikawa-health-checkup-subsidy` / `asahikawa-housing-reform` / `asahikawa-juutaku-reform` / `asahikawa-newlywed-rent` / `asahikawa-nursing-home-reform` / `asahikawa-scholarship-repayment` / `asahikawa-school-lunch` / `asahikawa-school-lunch-subsidy` / `asahikawa-senior-medical` / `asahikawa-startup-support` / `asahikawa-telework-bonus` / `asahikawa-water-saving`）を同一サイクルで公式確認する。
+
+## 2026-07-02 速度改善方針
+
+現時点の全国進捗は、有効掲載4,895件中、公式確認済みactive 1,801件で約36.8%。東京都はraw未照合0件まで完了したが、全国raw未照合は3,090件残っている。従来の5〜10件単位では遅いため、以後は精度を落とさずに次の運用へ切り替える。
+
+- 原則として市区町村単位で20件前後、公式ページがまとまっている自治体は30〜50件単位で処理する。
+- 公式一次情報の確認基準は維持する。出典不明、非公式まとめ、金額・期限が公式で確認できない候補は、補正または期限切れ/重複/確認不可として抑止する。
+- 毎件ごとの重いbuildは避ける。通常は `check-grant-source-urls.mjs`、対象ESLint、raw gap監査、coverageを優先し、`npm run build` は20〜50件ごとの節目でまとめて実行する。
+- 重複判断は既存verified検索を先に実行し、同一制度の別slugは新規掲載せず既存slugへ統合する。
+- 次の優先順位は、未照合件数が多い北海道、埼玉県、福岡県、栃木県、大阪府、愛知県の順。まず北海道旭川市20件を1サイクルで処理して、実処理速度を再計測する。
