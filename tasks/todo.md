@@ -717,6 +717,8 @@
 - [x] 愛媛県Batch 101の検証（対象ESLintエラー0、diff check問題なし、重複slug 0、採用sourceUrls 21件は直列監査ですべてHTTP 200、愛媛県の未照合raw slugは29件から18件、全国未照合raw slugは2,797件から2,786件に減少、coverage failures 0、公式確認済みactiveは2,019件、愛媛県ローカル公式確認済みは54件。buildは速度改善方針により次節目または公開前へ繰り延べ）
 - [x] 愛媛県Batch 102として新居浜市9件を公式確認済み追加・補正（民間ブロック塀等整備、子ども医療費、重度障がい者タクシー利用助成、一日人間ドック、移住者住宅改修支援、奨学金返済支援の新規受付終了扱い、就学援助、創業促進補助金、浄化槽設置整備）
 - [x] 愛媛県Batch 102の検証（対象ESLintエラー0、diff check問題なし、重複slug 0、採用sourceUrls 17件はすべてHTTP 200、愛媛県の未照合raw slugは18件から9件、全国未照合raw slugは2,786件から2,777件に減少、coverage failures 0、公式確認済みactiveは2,027件、愛媛県ローカル公式確認済みは62件。buildは速度改善方針により愛媛県raw gap完了時へ繰り延べ）
-- [ ] 次回候補: 愛媛県・西条市9件（`saijo-block-wall-removal` / `saijo-child-medical-aid` / `saijo-elderly-taxi` / `saijo-health-checkup-subsidy` / `saijo-juutaku-reform` / `saijo-scholarship-repayment` / `saijo-school-lunch-subsidy` / `saijo-startup-support` / `saijo-water-saving`）を公式一次情報で確認し、愛媛県raw gap 0件を目指す
+- [x] 愛媛県Batch 103として西条市9件を公式確認済み追加・補正し、愛媛県raw gap 0件を達成（ブロック塀等安全対策、こども医療費、高齢者タクシー利用助成、国保短期人間ドック・脳ドック、移住者住宅改修支援、奨学金貸付制度、就学援助、地域産業競争力強化事業費補助金・創業支援、浄化槽設置整備）
+- [x] 愛媛県Batch 103の検証（対象ESLintエラー0、diff check問題なし、重複slug 0、採用sourceUrls 17件はすべてHTTP 200、愛媛県の未照合raw slugは9件から0件、全国未照合raw slugは2,777件から2,768件に減少、coverage failures 0、公式確認済みactiveは2,036件、愛媛県ローカル公式確認済みは71件。`npm run build` 成功、静的ページ4,858件生成、`/grant/[slug]` は2,327件相当）
+- [ ] 次回候補: 茨城県・つくば市の先頭12件（`tsukuba-barrier-free` / `tsukuba-birth-bonus` / `tsukuba-bus-pass` / `tsukuba-childcare-subsidy` / `tsukuba-education-support` / `tsukuba-elderly-support` / `tsukuba-home-care` / `tsukuba-housing-eco` / `tsukuba-housing-purchase` / `tsukuba-infertility` / `tsukuba-kosodate-taxi` / `tsukuba-nursing-equipment`）を公式一次情報で確認する
 - [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugを公式確認済みデータへ置換し、raw重複の実害を減らす
 - [ ] push / 公開反映は明示確認後に実行

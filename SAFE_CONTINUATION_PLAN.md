@@ -3931,4 +3931,35 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 次回再開位置:
 
-- 愛媛県Batch 103として西条市9件（`saijo-block-wall-removal` / `saijo-child-medical-aid` / `saijo-elderly-taxi` / `saijo-health-checkup-subsidy` / `saijo-juutaku-reform` / `saijo-scholarship-repayment` / `saijo-school-lunch-subsidy` / `saijo-startup-support` / `saijo-water-saving`）を公式一次情報で確認し、愛媛県raw gap 0件を目指す。
+- 愛媛県Batch 103として西条市9件を公式一次情報で確認し、愛媛県raw gap 0件を達成済み。
+
+## 2026-07-02 愛媛県Batch 103 追加ログ
+
+西条市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。生成データの「一般住宅リフォーム」「奨学金返還支援」「第3子以降給食費補助」「一律創業支援補助」「雨水タンク設置補助」は、公式で確認できる現行制度に合わせ、移住者住宅改修支援、奨学金貸付、就学援助、地域産業競争力強化事業費補助金・創業支援等事業、浄化槽設置整備事業へ補正した。
+
+追加・補正:
+
+- `saijo-block-wall-removal`: ブロック塀等安全対策事業へ補正。補助対象経費3分の2以内、上限30万円、1m当たり8万円限度を確認。
+- `saijo-child-medical-aid`: こどもに対する医療費助成へ補正。0歳から18歳年度末まで、保険診療自己負担分全額助成を確認。
+- `saijo-elderly-taxi`: 高齢者タクシー利用助成事業へ補正。75歳以上・市民税非課税世帯の在宅高齢者、基本料金助成券年12枚を確認。
+- `saijo-health-checkup-subsidy`: 国民健康保険短期人間ドック・脳ドックへ補正。自己負担金収納事務、指定医療機関、2026年5月1日から2027年3月31日までの委託期間を確認。最大3万円助成は公式確認できず採用しない。
+- `saijo-juutaku-reform`: 移住者住宅改修支援事業費補助金へ補正。住宅改修は働き手世帯上限100万円、子育て世帯上限400万円、家財道具搬出等上限20万円、2026年12月1日締切を確認。
+- `saijo-scholarship-repayment`: 奨学金制度へ補正。高等学校・大学向け貸付、大学は支度金30万円以内・修学金月額3万円以内、無利子を確認。市独自の奨学金返還支援補助は公式現行制度として確認できず採用しない。
+- `saijo-school-lunch-subsidy`: 就学援助制度へ補正。学校給食費・学用品費等の援助、学校を通じた申請を確認。
+- `saijo-startup-support`: 地域産業競争力強化事業費補助金・創業支援等事業へ補正。商店街空き店舗活用事業は創業者も対象、上限30万円、補助率2分の1以内を確認。創業支援等事業計画の相談窓口・起業塾・特定創業支援等事業も確認。
+- `saijo-water-saving`: 浄化槽設置整備事業補助金へ補正。新築時12万円、転換時5人槽55.2万円・7人槽75.4万円・10人槽98.8万円、加茂川水系山間部加算、維持管理費補助を確認。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- `node -e ...duplicate`: 重複slug 0、西条市slug 9件。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug ...西条市9件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 17件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 愛媛県 --limit 60`: 愛媛県の未照合raw slugは9件から0件に減少。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,777件から2,768件に減少。次の先頭は茨城県つくば市。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,036件、activeWithoutOfficialSourceは2,772件、愛媛県ローカル公式確認済みは71件。active全体4,808件に対する公式確認済みactive比率は約42.3%。
+- `npm run build`: 成功。静的ページ4,858件生成、`/grant/[slug]` は2,327件相当。
+
+次回再開位置:
+
+- 茨城県Batch 104として、まず `node scripts/audit-raw-verified-gaps.mjs --limit 12` の先頭に出たつくば市12件（`tsukuba-barrier-free` / `tsukuba-birth-bonus` / `tsukuba-bus-pass` / `tsukuba-childcare-subsidy` / `tsukuba-education-support` / `tsukuba-elderly-support` / `tsukuba-home-care` / `tsukuba-housing-eco` / `tsukuba-housing-purchase` / `tsukuba-infertility` / `tsukuba-kosodate-taxi` / `tsukuba-nursing-equipment`）を公式一次情報で確認する。
