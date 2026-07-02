@@ -3376,3 +3376,41 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - 北海道Batch 87として帯広市19件（`obihiro-birth-bonus` / `obihiro-block-wall-removal` / `obihiro-child-medical` / `obihiro-child-medical-aid` / `obihiro-childcare-subsidy` / `obihiro-elderly-support` / `obihiro-elderly-taxi` / `obihiro-health-checkup-subsidy` / `obihiro-housing-purchase` / `obihiro-infertility` / `obihiro-juutaku-reform` / `obihiro-migration-support` / `obihiro-nursing-equipment` / `obihiro-scholarship` / `obihiro-scholarship-repayment` / `obihiro-school-lunch-subsidy` / `obihiro-seismic-diagnosis` / `obihiro-sme-support` / `obihiro-water-saving`）を公式一次情報で確認する。
+
+## 2026-07-02 北海道Batch 87 追加ログ
+
+北海道の次候補である帯広市19件を、自治体単位の一括棚卸しで公式確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。生成データ名をそのまま採用せず、帯広市公式ページ・PDF・交付要綱で確認できた制度へ補正し、現行公式制度として確認できない候補は通常一覧から除外した。
+
+追加・補正:
+
+- `obihiro-birth-bonus`: 出産祝金候補を妊婦等包括相談支援事業と妊婦支援給付金へ補正。妊婦1人5万円、子1人5万円を確認。
+- `obihiro-child-medical` / `obihiro-child-medical-aid`: 子ども医療費助成制度へ補正し、重複slugを統合。対象は0歳から15歳（中学校卒業前）までで、高校卒業まで無料という生成データは採用せず。
+- `obihiro-childcare-subsidy`: 幼児教育・保育の無償化へ補正。認可外保育施設等も要件を満たす場合に対象、副食費の扱いを確認。
+- `obihiro-elderly-support` / `obihiro-elderly-taxi`: 高齢者おでかけサポートバス事業へ補正。70歳以上の市民向け高齢者バス無料乗車証を確認。一般高齢者向けタクシー助成は公式確認不可。
+- `obihiro-health-checkup-subsidy`: 国保特定健診・人間ドック受診情報へ補正。自費ドック受診時の特定健診分の助成案内を確認。生成データの最大3万円は採用せず。
+- `obihiro-housing-purchase`: 市独自住宅取得補助金は公式確認できず、住まいの総合支援事業を根拠に通常一覧から除外。
+- `obihiro-infertility`: 不妊症について・不妊治療費助成へ補正。体外受精・顕微授精の治療費の一部助成を確認。上限額は公式本文で確認できないため断定せず。
+- `obihiro-juutaku-reform`: 住まいの改修助成金へ補正。10万円以上の改修工事に5万円助成、受付2026年4月1日から2027年1月29日を確認。
+- `obihiro-migration-support`: 移住支援金へ補正。世帯100万円、単身60万円、18歳未満1人30万円加算を確認。
+- `obihiro-nursing-equipment`: 家族介護用品支給事業を公式確認。紙おむつ等の給付券、月額6,250円・年額7万5千円を確認。
+- `obihiro-scholarship`: 帯広市奨学金へ補正。大学生月額2/3/5万円、専門学校生月額3万円以内、高校生月額7千円以内。令和8年度募集は受付終了。
+- `obihiro-scholarship-repayment`: 奨学金返済支援補助金へ補正。従業員本人への直接給付ではなく、市内中小企業等への補助。補助対象経費年24万円・通算120万円、補助率2分の1、補助対象期間60か月を確認。
+- `obihiro-school-lunch-subsidy`: 就学援助の学校給食費援助へ補正。学校給食費は実費相当分援助、通常給食費は保護者負担が原則。
+- `obihiro-seismic-diagnosis`: 木造住宅の耐震化補助へ補正。耐震診断上限5万円、耐震改修・建替え上限30万円、除却上限10万円、受付2026年4月1日から9月30日を確認。
+- `obihiro-sme-support`: 中小企業向け補助金・助成制度案内へ補正。中小企業人材育成助成事業上限30万円、デジタル化・AI導入補助金、とかちビジネスチャレンジ補助金案内を確認。
+- `obihiro-block-wall-removal`: ブロック塀撤去補助金は公式確認できず、建築物及びブロック塀の注意喚起を根拠に通常一覧から除外。
+- `obihiro-water-saving`: 雨水タンク設置補助金は公式確認できず、環境カテゴリ確認結果を根拠に通常一覧から除外。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug ...帯広市19件 --concurrency 10 --timeout-ms 60000`: 採用sourceUrls 29件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 北海道 --limit 40`: 北海道の未照合raw slugは71件から52件に減少。次の先頭候補は苫小牧市20件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは2,998件から2,979件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,875件、activeWithoutOfficialSourceは2,983件、北海道ローカル公式確認済みは92件。active全体4,858件に対する公式確認済みactive比率は約38.6%。
+- `npm run build`: 成功。静的ページ4,550件生成、`/grant/[slug]` は2,115件相当。
+
+次回再開位置:
+
+- 北海道Batch 88として苫小牧市20件（`tomakomai-birth-bonus` / `tomakomai-block-wall-removal` / `tomakomai-bousai-equipment` / `tomakomai-child-medical` / `tomakomai-child-medical-aid` / `tomakomai-childcare-subsidy` / `tomakomai-disability-medical` / `tomakomai-elderly-taxi` / `tomakomai-energy-support` / `tomakomai-health-checkup-subsidy` / `tomakomai-housing-reform` / `tomakomai-juutaku-reform` / `tomakomai-newlywed-rent` / `tomakomai-nursing-home-reform` / `tomakomai-scholarship-repayment` / `tomakomai-school-lunch` / `tomakomai-school-lunch-subsidy` / `tomakomai-startup-support` / `tomakomai-telework-bonus` / `tomakomai-water-saving`）を公式一次情報で確認する。
