@@ -3197,3 +3197,44 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - 北海道Batch 82として釧路市21件（`kushiro-birth-bonus` / `kushiro-block-wall-removal` / `kushiro-bousai-equipment` / `kushiro-child-medical` / `kushiro-child-medical-aid` / `kushiro-childcare-subsidy` / `kushiro-disability-medical` / `kushiro-elderly-taxi` / `kushiro-energy-support` / `kushiro-health-checkup-subsidy` / `kushiro-housing-reform` / `kushiro-juutaku-reform` / `kushiro-newlywed-rent` / `kushiro-nursing-home-reform` / `kushiro-scholarship-repayment` / `kushiro-school-lunch` / `kushiro-school-lunch-subsidy` / `kushiro-senior-medical` / `kushiro-startup-support` / `kushiro-telework-bonus` / `kushiro-water-saving`）を同一サイクルで公式確認する。
+
+## 2026-07-02 北海道Batch 82 追加ログ
+
+速度改善方針に沿って、北海道の次候補である釧路市21件を1サイクルで公式確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。公式一次情報で確認できた制度は掲載し、同一制度の別slugは統合し、現行公式制度として確認できない候補は期限切れ扱いで抑止した。
+
+追加・補正:
+
+- `kushiro-birth-bonus`: 旧「出産・子育て応援給付金」を現行の「妊婦のための支援給付」へ補正。妊婦1人5万円、胎児1人5万円を確認。
+- `kushiro-child-medical` / `kushiro-child-medical-aid`: こども医療費助成制度を公式確認し、重複slugを統合。0歳から18歳到達後最初の3月31日まで、所得制限なし、高校生世代通院拡大を確認。
+- `kushiro-childcare-subsidy`: 幼児教育・保育の無償化と、2025年4月からの認可保育施設等第2子以降保育料無料化へ補正。
+- `kushiro-disability-medical` / `kushiro-senior-medical`: 重度心身障がい者医療費助成制度を公式確認し、重複slugを統合。
+- `kushiro-elderly-taxi`: 一般高齢者タクシー助成ではなく、公式に確認できる高齢者外出促進バス事業へ補正。おでかけパスポート70と定期券購入助成を確認。
+- `kushiro-school-lunch` / `kushiro-school-lunch-subsidy`: 学校給食費関連候補を就学援助制度へ補正し、重複slugを統合。
+- `kushiro-housing-reform` / `kushiro-juutaku-reform`: 釧路市住宅エコリフォーム補助制度へ補正し、重複slugを統合。2026年4月1日から10月30日まで、補助対象工事費10%、最大50万円、高齢者同居加算込み最大75万円を確認。
+- `kushiro-nursing-home-reform`: 介護保険住宅改修費支給へ補正。1住宅20万円限度、保険給付分7〜9割、着工前事前申請を確認。
+- `kushiro-health-checkup-subsidy`: 人間ドック助成は現行公式制度として確認できないため、国民健康保険の特定健康診査へ補正。
+- `kushiro-scholarship-repayment`: 奨学金返済支援補助金を確認。企業と釧路市あわせて最大5年間120万円。
+- `kushiro-startup-support`: 創業支援資金に係る信用保証料補助制度へ補正。上限20万円を確認。
+- `kushiro-telework-bonus`: UIJターン新規就業支援事業（移住支援金）へ補正。単身60万円、世帯100万円、18歳未満加算30万円、テレワーク要件を確認。
+- `kushiro-energy-support`: 冬季暖房費助成金は公式確認できず、関連するecoライフ促進支援補助金制度は令和7年度終了のため通常一覧から除外。
+- `kushiro-newlywed-rent` / `kushiro-water-saving` / `kushiro-block-wall-removal` / `kushiro-bousai-equipment`: 生成データの制度名・補助額は現行公式制度として確認できないため通常一覧から除外。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug ...釧路市21件 --concurrency 10 --timeout-ms 60000`: 採用sourceUrls 34件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 北海道 --limit 35`: 北海道の未照合raw slugは143件から122件に減少。次の先頭候補は江別市11件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは3,070件から3,049件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,822件、activeWithoutOfficialSourceは3,053件、北海道ローカル公式確認済みは39件。active全体4,875件に対する公式確認済みactive比率は約37.4%。
+- `npm run build`: 成功。静的ページ4,463件生成、`/grant/[slug]` は2,046件。
+
+速度についての観測:
+
+- 釧路市21件は、公式URL検証・coverage・buildまで含めて1バッチで完了できた。以前の5〜10件単位より処理効率は上がっている。
+- ただし `npm run build` は今回も約2分半かかり、全体時間の大きな固定費になっている。今後も公式URL検証とraw gap監査を主検証にし、buildは20〜50件単位の節目でまとめて実行する。
+- 公式確認不可候補を無理に掲載せず、抑止レコードとしてraw gapだけ解消する方針は、精度を落とさず速度を上げるうえで有効。
+
+次回再開位置:
+
+- 北海道Batch 83として江別市11件（`ebetsu-birth-bonus` / `ebetsu-childcare-subsidy` / `ebetsu-education-support` / `ebetsu-elderly-support` / `ebetsu-housing-purchase` / `ebetsu-infertility` / `ebetsu-nursing-equipment` / `ebetsu-scholarship` / `ebetsu-seismic-diagnosis` / `ebetsu-sme-support` / `ebetsu-vaccination-support`）を同一サイクルで公式確認する。
