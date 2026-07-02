@@ -2286,3 +2286,31 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 4,127 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は583件、activeWithDeadlineは415件、期限切れ168件。
 - `npm run audit:links`: broken 0。4,125ファイルから153,379リンク抽出、8,872件監査。
+
+## 2026-07-02 東京都Batch 54 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の小金井市8件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・抑止した。生成データの「放課後子ども教室」「出産祝い金」「保育料軽減補助金」「省エネ家電買替え補助金」「不妊治療費助成制度」「介護住宅改修助成」「木造住宅耐震診断助成」「テレワーク推進補助金」を、小金井市公式ページで確認できる現行制度名・支援内容・受付状況へ補正した。
+
+追加:
+
+- `koganei-afterschool`: 小金井市「放課後子ども教室」。助成金ではなく、市立小学校の校庭・教室等で実施する放課後の居場所事業として補正。
+- `koganei-birth-bonus`: 小金井市「妊婦のための支援給付事業」。妊婦1人5万円、子ども1人5万円。旧出産・子育て応援事業との切替関係も確認。
+- `koganei-childcare-subsidy`: 小金井市「保育料無償化・幼児教育保育の無償化」。認可保育所等0円、幼稚園・預かり保育等の給付上限、市独自の給食費補助等へ補正。
+- `koganei-energy-support`: 小金井市「住民税非課税世帯等エアコン購入費助成事業」。熱中症対策のエアコン購入・設置等助成、上限10万円、申請期限2027年2月26日へ補正。
+- `koganei-infertility`: 小金井市「不妊検査・不妊治療・不育症検査の東京都助成案内」。市独自の現行助成金としては確認できないため通常一覧から除外。
+- `koganei-nursing-home-reform`: 小金井市「高齢者自立支援住宅改修」。住宅改修予防給付20万円、住宅設備改修給付37万9千円、工事着手前申込み必須として補正。
+- `koganei-seismic-diagnosis`: 小金井市「木造住宅耐震診断助成金」。自己負担なしではなく、耐震診断費用の3分の2・上限10万円、令和9年2月28日までの診断終了へ補正。
+- `koganei-telework-bonus`: 小金井市「小規模事業者持続化サポート補助金」。テレワーク専用補助金は現行公式制度として確認できないため、公式確認できる販路開拓等の小規模事業者補助へ補正。最大62.5万円。
+
+確認:
+
+- 確認対象の公式URL 25件はすべて200で到達確認。小金井市公式の放課後子ども教室、放課後の居場所、放課後ガイドブック、妊婦のための支援給付、出産・子育て応援事業、幼児教育・保育の無償化、保育料、施設等利用給付認定・請求、私立幼稚園満3歳児預かり保育補助、多様な集団活動利用支援、エアコン購入費助成、住宅用新エネルギー補助、不妊検査・不妊治療・不育症検査の東京都助成案内、助成・給付一覧、高齢者自立支援住宅改修、介護保険住宅改修申請書、住宅改修相談、木造住宅耐震診断助成、木造住宅耐震改修等助成、耐震関連一覧、小規模事業者持続化サポート補助金、創業支援、特定創業支援等事業証明を確認。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 30`: 東京都の未照合raw slugは210件から202件に減少。次の候補は小平市、昭島市、新宿区、杉並区。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 20`: 全国未照合raw slugは3,300件から3,292件に減少。
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,634件、東京都ローカル公式確認済みは199件、activeWithoutOfficialSourceは3,296件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 4,138 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は586件、activeWithDeadlineは417件、期限切れ169件。
+- `npm run audit:links`: broken 0。4,136ファイルから153,975リンク抽出、8,906件監査。
