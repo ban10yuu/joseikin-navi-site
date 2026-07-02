@@ -3732,21 +3732,21 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 追加・補正:
 
 - `toyohashi-birth-bonus`: 妊婦のための支援給付へ補正。令和7年4月1日開始、2回に分けて妊婦支援給付金を支給することを確認。
-- `toyohashi-bousai-equipment`: 家具等てんとうむし補助金へ補正。家具転倒防止器具等の購入費・取付費、上限5,000円を確認。旧詳細URLはHTTP 404のため採用出典から除外し、電子申請ポータル・防災ガイドブック・令和8年度補助金一覧を採用。
+- `toyohashi-bousai-equipment`: 家具等てんとうむし補助金2025へ補正。家具転倒防止器具等の購入費・取付費、上限5,000円を確認。公式電子申請ページで2025年12月26日受付終了を確認し、通常一覧から除外。
 - `toyohashi-care-robot`: 介護ロボット等導入支援事業補助金は予算資料で確認できるが、申請者向け現行募集ページは確認できないため通常一覧から除外。
 - `toyohashi-childcare-leave-bonus`: 市独自の育児休業取得奨励金は公式確認できず、雇用・労働関係ページの県・国等リンク確認にとどめ通常一覧から除外。
 - `toyohashi-childcare-subsidy`: 保育料等の軽減へ補正。0〜2歳児の第3子以降無料・第2子半額、副食費多子世帯軽減を確認。
-- `toyohashi-community-bus`: 高齢者移動支援事業へ補正。タクシー料金助成券、電車・バス・コミュニティバス共通助成券、元気パス購入助成の各5,000円分を確認。
+- `toyohashi-community-bus`: 高齢者運転免許証自主返納交通助成券へ補正。自主返納時70歳以上等、タクシー券・交通助成券・元気パス購入助成券の各5,000円分を確認。
 - `toyohashi-disability-medical`: 障害者医療へ補正。対象手帳等級、保険診療自己負担分無料、保険適用外費用は対象外を確認。
 - `toyohashi-earthquake-shelter-reform`: 木造住宅耐震シェルター整備費補助金へ補正。令和8年度受付、判定値1.0未満等、高齢者または障がい者居住要件を確認。
 - `toyohashi-education-support`: 就学援助へ補正。令和8年度案内、学用品費など費用の一部援助、多言語案内を確認。
-- `toyohashi-energy-support`: 家庭用エネルギー設備導入補助金へ補正。太陽光・HEMS・蓄電池一体的導入12万円、ZEH16万円、蓄電池上限7万円、V2H補助ページを確認。
+- `toyohashi-energy-support`: 家庭用エネルギー設備導入補助金へ補正。太陽光・HEMS・蓄電池一体的導入12万円、ZEH16万円、蓄電池上限7万円、太陽熱利用設備等を確認。
 - `toyohashi-factory-iot`: 新ビジネスチャレンジ応援補助金（デジタル化）へ補正。補助率2分の1、上限50万円、ソフトウェア・連携ハードウェア等を確認。
 - `toyohashi-gifted-support`: 全国大会出場者激励金へ補正。大会区分別の激励金、開催7日前までの提出を確認。
 - `toyohashi-mental-health`: 精神障害者医療費助成制度へ補正。自立支援医療（精神通院）自己負担分助成、手帳1・2級の全疾患助成を確認。
-- `toyohashi-newlywed-housing`: 結婚新生活支援事業補助金は平成28年度末終了として確認し、通常一覧から除外。
+- `toyohashi-newlywed-housing`: 空家利活用改修費補助金へ補正。空家バンク登録物件、新婚・子育て世帯は補助率3分の2・上限66万円を確認。
 - `toyohashi-newlywed-rent`: 同じく結婚新生活支援事業補助金の平成28年度末終了を確認し、通常一覧から除外。
-- `toyohashi-nursing-home-reform`: 住宅改修費の支給へ補正。介護保険住宅改修費、障害福祉の日常生活用具費支給（住宅改修含む）、事前申請要件を確認。
+- `toyohashi-nursing-home-reform`: 東三河広域連合の介護保険住宅改修費支給へ補正。手すり設置、段差解消等、改修費限度額20万円、1割負担の場合の支給上限18万円、着工前申請を確認。
 - `toyohashi-preschool-free`: 幼児教育・保育の無償化へ補正。認定区分別の無償化、市独自補助対象、副食費軽減を確認。
 - `toyohashi-school-lunch`: 学校給食費負担軽減対応補助金へ補正。学校給食費無償提供に併せ、給食を喫食しない児童生徒や市立以外の小中学校在籍者への給食費相当額助成を確認。
 - `toyohashi-telework-bonus`: 市独自の現行テレワーク導入支援補助金は公式確認できず、雇用・労働関係ページの外部制度案内確認にとどめ通常一覧から除外。
@@ -3755,8 +3755,8 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 - `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
 - `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
-- `node scripts/check-grant-source-urls.mjs --slug ...豊橋市19件 --concurrency 3 --timeout-ms 60000`: 初回は `toyohashi-bousai-equipment` の旧詳細URL `50220.htm` がHTTP 404。電子申請ポータル・公式防災ガイドブック・令和8年度補助金一覧へ差し替え、再監査で採用sourceUrls 29件はすべてHTTP 200、failures 0。
-- `node scripts/audit-raw-verified-gaps.mjs --prefecture 愛知県 --limit 45`: 愛知県の未照合raw slugは41件から22件に減少。次の先頭候補は豊田市11件。
+- `node scripts/check-grant-source-urls.mjs --slug ...豊橋市19件 --concurrency 3 --timeout-ms 60000`: 初回は `toyohashi-bousai-equipment` の旧詳細URL `50220.htm` がHTTP 404。公式電子申請ポータル等へ差し替え、再監査で対象URLはすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 愛知県 --limit 35`: 愛知県の未照合raw slugは41件から22件に減少。次の先頭候補は豊田市11件。
 - `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは2,856件から2,837件に減少。
 - `npm run audit:coverage`: failures 0。公式確認済みactiveは1,973件、activeWithoutOfficialSourceは2,841件、愛知県ローカル公式確認済みは83件。active全体4,814件に対する公式確認済みactive比率は約41.0%。
 - `npm run build`: 速度改善方針により今回は省略。直前の一宮市Batch 92でbuild成功済みで、今回は対象ESLint・URL検証・coverage・raw gap監査が通っている。愛知県raw gap完了時または公開前にまとめて実行する。
@@ -3764,3 +3764,36 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - 愛知県Batch 98として豊田市11件（`toyota-birth-bonus` / `toyota-bousai-equipment` / `toyota-childcare-subsidy` / `toyota-disability-medical` / `toyota-energy-support` / `toyota-infertility-treatment` / `toyota-newlywed-rent` / `toyota-nursing-home-reform` / `toyota-school-lunch` / `toyota-sme-equipment` / `toyota-telework-bonus`）を公式一次情報で確認する。
+
+## 2026-07-02 愛知県Batch 98 追加ログ
+
+豊田市11件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。先に豊橋市Batch 97の同一slug二重登録を確認し、先勝ちロジックで古い内容が表示される危険があったため、精度補正済みの後半19件だけを残す形で重複を除去した。豊田市の生成データは制度名・金額をそのまま採用せず、豊田市公式ページ、公式PDF、電子申請案内で確認できる制度へ置換した。受付終了済みの制度は期限切れ扱いで通常一覧から除外した。
+
+追加・補正:
+
+- `toyota-birth-bonus`: 妊婦等包括相談支援事業／妊婦のための支援給付事業へ補正。1回目5万円、2回目は妊娠していた子どもの人数×5万円を確認。
+- `toyota-bousai-equipment`: 感震ブレーカー設置等補助金へ補正。分電盤タイプ上限2万円、簡易・コンセントタイプ上限3,000円、2027年3月1日締切を確認。
+- `toyota-childcare-subsidy`: 幼児教育・保育の無償化と保育料軽減へ補正。3〜5歳児等の無償化、0〜2歳児の多子軽減、市内こども園等3〜5歳児の給食費無料化を確認。
+- `toyota-disability-medical`: 心身障がい者医療費助成制度へ補正。保険診療分の医療費自己負担額助成と保険適用外費用の対象外扱いを確認。
+- `toyota-energy-support`: エコファミリー支援補助金へ補正。スマートハウス化設備、燃料電池、蓄電池、V2H、次世代自動車等の導入支援と令和8年度受付期間を確認。
+- `toyota-infertility-treatment`: 特定不妊治療費（先進医療）補助金へ補正。先進医療費の10分の7、上限10万円、治療終了日から1年以内申請を確認。
+- `toyota-newlywed-rent`: 結婚新生活支援補助金へ補正。住宅取得費用、リフォーム費用、住宅賃借費用、引越費用、最大60万円を確認。
+- `toyota-nursing-home-reform`: すこやか住宅リフォーム費（高齢者等）の助成へ補正。対象工事費上限20万円の9割、最大18万円、工事前相談を確認。
+- `toyota-school-lunch`: 豊田市立学校給食費の無償化へ補正。令和6年4月から市立小・中・特別支援学校の給食費無償化を確認。
+- `toyota-sme-equipment`: 建設業者高度安全機械等導入促進補助金へ補正。補助率30〜50%、限度額500万円または1,000万円、受付期間が2026年4月30日に短縮済みで通常一覧から除外。
+- `toyota-telework-bonus`: UIJターン就業・起業者定住応援補助金（移住支援金）へ補正。テレワーク要件、世帯100万円、18歳未満加算100万円、単身60万円を確認。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- `node -e ...duplicate slugs`: 重複slug 0。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug ...豊田市11件 --concurrency 3 --timeout-ms 60000`: 初回は保育無償化の旧URLがHTTP 404。現行パスへ差し替え、再監査で採用sourceUrls 14件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 愛知県 --limit 45`: 愛知県の未照合raw slugは22件から11件に減少。残りは名古屋市11件のみ。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは2,837件から2,826件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,983件、activeWithoutOfficialSourceは2,830件、愛知県ローカル公式確認済みは93件。active全体4,813件に対する公式確認済みactive比率は約41.2%。
+- `npm run build`: 速度改善方針により今回は省略。直前の一宮市Batch 92でbuild成功済みで、今回は対象ESLint・URL検証・coverage・raw gap監査が通っている。愛知県raw gap完了時または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 愛知県Batch 99として名古屋市11件（`nagoya-barrier-free` / `nagoya-birth-bonus` / `nagoya-childcare-subsidy` / `nagoya-education-support` / `nagoya-elderly-support` / `nagoya-housing-purchase` / `nagoya-infertility` / `nagoya-mental-health` / `nagoya-nursing-equipment` / `nagoya-sme-equipment-support` / `nagoya-women-startup`）を公式一次情報で確認する。
