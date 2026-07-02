@@ -3344,3 +3344,35 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - 北海道Batch 86として千歳市11件（`chitose-birth-bonus` / `chitose-childcare-subsidy` / `chitose-elderly-support` / `chitose-housing-purchase` / `chitose-housing-reform` / `chitose-infertility` / `chitose-nursing-equipment` / `chitose-scholarship` / `chitose-seismic-diagnosis` / `chitose-sme-support` / `chitose-startup-support`）を公式一次情報で確認する。
+
+## 2026-07-02 北海道Batch 86 追加ログ
+
+北海道の次候補である千歳市11件を、自治体単位の一括棚卸しで公式確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。生成データの金額はそのまま採用せず、千歳市公式ページで確認できた制度名・金額・受付状況へ置換した。
+
+追加・補正:
+
+- `chitose-birth-bonus`: 出産祝金候補を妊婦のための支援給付事業へ補正。妊婦1人5万円、胎児1人5万円を確認。
+- `chitose-childcare-subsidy`: 保育料第2子無償化・幼児教育保育無償化へ補正。令和8年9月からの第2子以降保育料無償化、認可外保育施設等の月額37,000円・42,000円上限を確認。
+- `chitose-elderly-support`: 福祉サービス利用券助成事業へ補正。1万円分または2万円分の利用券、緊急通報システム事業も確認。
+- `chitose-housing-purchase`: 若年夫婦・子育て世帯住宅取得支援制度へ補正。現金給付額は公式確認できず、【フラット35】地域連携の当初5年間年0.5%金利引下げを確認。
+- `chitose-housing-reform`: 令和8年度ちとせ住まいのゼロカーボン化推進事業へ補正。高効率機器等10分の1・上限10万円、同時導入上限20万円、受付2026年5月7日から2027年2月1日を確認。
+- `chitose-infertility`: 不妊治療費（先進医療）等助成を公式確認。先進医療費10分の7、上限3万5千円、交通費助成を確認。関連する不育症治療費助成も確認。
+- `chitose-nursing-equipment`: 高齢者家族介護用品支給券を公式確認。要介護4・5の高齢者を在宅介護する同居親族向け、月額上限8,000円、紙おむつ等を確認。
+- `chitose-scholarship`: 令和8年度千歳市奨学生募集は2026年6月10日で受付終了のため、期限切れ扱いで通常一覧から除外。
+- `chitose-seismic-diagnosis`: 木造住宅耐震診断・耐震改修補助制度へ補正。耐震診断上限6万4千円、耐震改修上限30万円、受付2026年4月1日から9月30日を確認。無料耐震診断も確認。
+- `chitose-sme-support`: 商業等活性化事業補助金へ補正。中心商店街にぎわい創出上限120万円、商店街人材育成上限20万円、市内にぎわい創出上限50万円を確認。
+- `chitose-startup-support`: 起業支援事業へ補正。商業等活性化事業補助金の一部として、店舗賃借料、広告宣伝費、改装費等を対象にすることを確認。生成データの最大100万円は公式本文で直接確認できないため採用せず。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug ...千歳市11件 --concurrency 10 --timeout-ms 60000`: 採用sourceUrls 19件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 北海道 --limit 40`: 北海道の未照合raw slugは82件から71件に減少。次の先頭候補は帯広市20件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは3,009件から2,998件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,861件、activeWithoutOfficialSourceは3,002件、北海道ローカル公式確認済みは78件。active全体4,863件に対する公式確認済みactive比率は約38.3%。
+- `npm run build`: 速度改善方針により今回も省略。直近の小樽市Batch 85以降、対象ESLint・URL検証・coverage・raw gap監査が通っている。次の20〜50件節目または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 北海道Batch 87として帯広市19件（`obihiro-birth-bonus` / `obihiro-block-wall-removal` / `obihiro-child-medical` / `obihiro-child-medical-aid` / `obihiro-childcare-subsidy` / `obihiro-elderly-support` / `obihiro-elderly-taxi` / `obihiro-health-checkup-subsidy` / `obihiro-housing-purchase` / `obihiro-infertility` / `obihiro-juutaku-reform` / `obihiro-migration-support` / `obihiro-nursing-equipment` / `obihiro-scholarship` / `obihiro-scholarship-repayment` / `obihiro-school-lunch-subsidy` / `obihiro-seismic-diagnosis` / `obihiro-sme-support` / `obihiro-water-saving`）を公式一次情報で確認する。
