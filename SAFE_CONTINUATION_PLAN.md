@@ -4295,3 +4295,35 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 岡山県Batch 114として、岡山市残り8件（`okayama-city-sme-support` / `okayama-elderly-taxi` / `okayama-health-checkup-subsidy` / `okayama-juutaku-reform` / `okayama-scholarship-repayment` / `okayama-school-lunch-subsidy` / `okayama-startup-support` / `okayama-water-saving`）を公式一次情報で確認する。
 - 岡山市残り8件の後は、笠岡市・玉野市・倉敷市の順に、市区町村単位で20件前後をまとめて処理する。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 岡山県Batch 114 追加ログ
+
+岡山市残り8件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。これで岡山市のraw gapは0件。生成データの「中小企業経営革新支援補助金」「高齢者タクシー利用助成」「人間ドック受診費助成」「一般住宅リフォーム助成金」「一般向け奨学金返還支援制度」「第3子以降学校給食費補助」「創業支援補助金」「雨水タンク設置補助金」は、公式で確認できる制度名・対象者・金額へ補正した。
+
+追加・補正:
+
+- `okayama-city-sme-support`: 中小企業設備投資支援補助金へ補正。中小企業者枠上限300万円、小規模企業者枠上限100万円、グリーン枠・新分野進出枠上限500万円、令和8年度募集終了を確認。
+- `okayama-elderly-taxi`: 高齢者向けタクシー助成は公式確認不可。岡山市公式で確認できる重度心身障害者向け福祉タクシーへ補正。1枚630円、月4〜12枚を確認。
+- `okayama-health-checkup-subsidy`: 国保特定健診・35歳からの健康診査へ補正。35歳健診2,050円、特定健診500円、節目年齢0円、令和8年度実施期間を確認。
+- `okayama-juutaku-reform`: 空家等適正管理支援事業（リフォーム）へ補正。工事費の3分の1、上限60万円、子育て世帯70万円を確認。
+- `okayama-scholarship-repayment`: 保育士等奨学金返済支援事業補助金へ補正。月上限10,000円、対象者の新規雇用期間が平成31年4月1日〜令和5年3月31日であるため通常一覧から除外。
+- `okayama-school-lunch-subsidy`: 学校給食費の保護者負担軽減へ補正。令和8年度の小学校給食費無償化、中学校保護者負担軽減を確認。
+- `okayama-startup-support`: 創業促進助成金へ補正。株式会社10万円、合同会社等5万円、特定創業支援等事業の証明要件を確認。
+- `okayama-water-saving`: 雨水貯留タンク設置補助制度へ補正。製品代の3分の2、上限3万円、設置費・送料対象外を確認。
+
+確認:
+
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- 重複slug確認: duplicateCount 0、岡山県のverified local misc slugは38件。
+- `node scripts/check-grant-source-urls.mjs --slug ...岡山市残り8件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 18件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 岡山県 --limit 30`: 岡山県の未照合raw slugは62件から54件に減少。岡山市raw gapは完了。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,665件から2,657件に減少。次の先頭は笠岡市。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,114件、activeWithoutOfficialSourceは2,661件、岡山県ローカル公式確認済みは37件。active全体4,775件に対する公式確認済みactive比率は約44.3%。
+- `npm run build`: 速度改善方針により今回は省略。岡山県raw gap完了時、20〜50件節目、または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 岡山県Batch 115として、笠岡市9件（`kasaoka-block-wall-removal` / `kasaoka-child-medical-aid` / `kasaoka-elderly-taxi` / `kasaoka-health-checkup-subsidy` / `kasaoka-juutaku-reform` / `kasaoka-scholarship-repayment` / `kasaoka-school-lunch-subsidy` / `kasaoka-startup-support` / `kasaoka-water-saving`）を公式一次情報で確認する。
+- 笠岡市9件の後は、玉野市9件、倉敷市20件前後の順に進める。
+- push / 公開反映は明示確認後。

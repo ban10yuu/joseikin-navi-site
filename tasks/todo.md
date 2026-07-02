@@ -739,6 +739,8 @@
 - [x] 茨城県Batch 112の検証（対象ESLintエラー0、diff check問題なし、重複slug 0、採用sourceUrls 36件はすべてHTTP 200、茨城県の未照合raw slugは20件から0件、全国未照合raw slugは2,697件から2,677件に減少、coverage failures 0、公式確認済みactiveは2,096件、茨城県ローカル公式確認済みは86件。`npm run build` 成功、静的ページ5,001件生成、`/grant/[slug]` は2,418件相当）
 - [x] 岡山県Batch 113として、岡山県・岡山市先頭12件を公式確認済み追加・補正（岡山県被災者生活再建支援制度、岡山市ブロック塀等撤去事業補助金、子ども医療費助成、妊婦のための支援給付、自主防災組織等育成事業助成金、幼児教育・保育無償化・保育料多子軽減、心身障害者医療費助成、住宅用スマートエネルギー導入促進補助、空き家購入補助金、移住支援金、介護保険福祉用具購入費支給、高校生応援金）
 - [x] 岡山県Batch 113の検証（対象ESLintエラー0、diff check問題なし、重複slug 0、採用sourceUrls 27件はすべてHTTP 200、岡山県の未照合raw slugは74件から62件、全国未照合raw slugは2,677件から2,665件に減少、coverage failures 0、公式確認済みactiveは2,108件、岡山県ローカル公式確認済みは31件。buildは速度改善方針により岡山県raw gap完了時または20〜50件節目へ繰り延べ）
-- [ ] 次回候補: 岡山市残り8件（`okayama-city-sme-support` / `okayama-elderly-taxi` / `okayama-health-checkup-subsidy` / `okayama-juutaku-reform` / `okayama-scholarship-repayment` / `okayama-school-lunch-subsidy` / `okayama-startup-support` / `okayama-water-saving`）を公式一次情報で確認する
+- [x] 岡山県Batch 114として、岡山市残り8件を公式確認済み追加・補正し、岡山市raw gap 0件を達成（中小企業設備投資支援補助金の募集終了扱い、高齢者タクシー利用助成の公式確認不可・福祉タクシーへの補正、国保特定健診・35歳からの健康診査、空家等適正管理支援事業リフォーム、保育士等奨学金返済支援事業補助金の新規対象期間終了扱い、学校給食費の保護者負担軽減、創業促進助成金、雨水貯留タンク設置補助制度）
+- [x] 岡山県Batch 114の検証（対象ESLintエラー0、diff check問題なし、重複slug 0、採用sourceUrls 18件はすべてHTTP 200、岡山県の未照合raw slugは62件から54件、全国未照合raw slugは2,665件から2,657件に減少、coverage failures 0、公式確認済みactiveは2,114件、岡山県ローカル公式確認済みは37件。buildは速度改善方針により岡山県raw gap完了時または20〜50件節目へ繰り延べ）
+- [ ] 次回候補: 笠岡市9件（`kasaoka-block-wall-removal` / `kasaoka-child-medical-aid` / `kasaoka-elderly-taxi` / `kasaoka-health-checkup-subsidy` / `kasaoka-juutaku-reform` / `kasaoka-scholarship-repayment` / `kasaoka-school-lunch-subsidy` / `kasaoka-startup-support` / `kasaoka-water-saving`）を公式一次情報で確認する
 - [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugを公式確認済みデータへ置換し、raw重複の実害を減らす
 - [ ] push / 公開反映は明示確認後に実行
