@@ -3453,3 +3453,42 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - 北海道Batch 89として函館市18件（`hakodate-birth-bonus` / `hakodate-block-wall-removal` / `hakodate-child-medical-aid` / `hakodate-childcare-subsidy` / `hakodate-disability-medical` / `hakodate-elderly-support` / `hakodate-elderly-taxi` / `hakodate-health-checkup-subsidy` / `hakodate-housing-purchase` / `hakodate-housing-seismic` / `hakodate-juutaku-reform` / `hakodate-nursing-home-reform` / `hakodate-scholarship` / `hakodate-scholarship-repayment` / `hakodate-school-lunch-subsidy` / `hakodate-seismic-diagnosis` / `hakodate-sme-support` / `hakodate-water-saving`）を公式一次情報で確認する。
+
+## 2026-07-02 北海道Batch 89 追加ログ
+
+北海道の次候補である函館市18件を、函館市公式ページ・公式PDF・制度ページで確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。生成データの制度名や金額はそのまま採用せず、現行公式制度として確認できる内容へ置換し、重複候補や公式補助として確認できない候補は通常一覧から除外した。
+
+追加・補正:
+
+- `hakodate-birth-bonus`: 出産祝金候補を妊婦支援給付金給付事業へ補正。妊婦1人5万円、胎児1人5万円を確認。
+- `hakodate-block-wall-removal`: ブロック塀撤去補助金は公式確認できず、既設塀の安全点検案内を根拠に通常一覧から除外。
+- `hakodate-child-medical-aid`: 既存掲載の`hakodate-child-medical`と同一制度として重複抑止。
+- `hakodate-childcare-subsidy`: 幼児教育・保育の無償化へ補正。認可外保育施設等の月額37,000円・42,000円上限を確認。
+- `hakodate-disability-medical`: 重度心身障害者医療費の助成を公式確認。身体障害者手帳1〜3級、知的障がい、精神障害者保健福祉手帳1級等を確認。
+- `hakodate-elderly-support`: 高齢者交通料金助成事業へ補正。市電・函館バス運賃の半額相当を年間1万円までイカすニモカポイントで付与することを確認。
+- `hakodate-elderly-taxi`: 一般高齢者向けタクシー助成は公式確認できず、免許返納者向けタクシー会社割引と高齢者交通料金助成を根拠に通常一覧から除外。
+- `hakodate-health-checkup-subsidy`: 後期高齢者医療制度の健康診査へ補正。令和8年度は2026年6月から2027年3月31日まで無料受診を確認。
+- `hakodate-housing-purchase`: まちなか住宅建築取得費補助金を公式確認。最大200万円、計画認定申請2026年12月4日までを確認。
+- `hakodate-housing-seismic`: 住宅リフォーム補助制度の耐震改修分へ補正。上限40万円、受付2026年5月7日から12月18日を確認。
+- `hakodate-juutaku-reform`: 住宅リフォーム補助制度のバリアフリー・省エネ改修分へ補正。上限20万円、介護保険住宅改修との重複不可を確認。
+- `hakodate-nursing-home-reform`: 介護保険住宅改修費の支給へ補正。支給限度基準額20万円、支給額14万円から18万円を確認。
+- `hakodate-scholarship`: 奨学金候補を貸与型の函館市奨学金制度へ補正。令和8年度通常募集終了、追加募集は2026年8月予定を確認。
+- `hakodate-scholarship-repayment`: 奨学金返還支援事業を公式確認。年間最大24万円、最大60か月、総額最大120万円を確認。
+- `hakodate-school-lunch-subsidy`: 就学援助制度へ補正。学校給食費・学用品費等の援助、随時受付を確認。
+- `hakodate-seismic-diagnosis`: 木造住宅の無料簡易耐震診断を公式確認。昭和56年5月31日以前の木造戸建て等が対象。
+- `hakodate-sme-support`: 海外向け展示商談会等出展補助金を公式確認。補助率2分の1、海外上限40万円、国内上限20万円、受付2027年2月28日までを確認。
+- `hakodate-water-saving`: 雨水タンク設置補助金は公式確認できず、雨水流出抑制の協議・指導ページを根拠に通常一覧から除外。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug ...函館市18件 --concurrency 1 --timeout-ms 60000`: 採用sourceUrls 22件はすべてHTTP 200、failures 0。函館市公式ドメインは高並列時に一時的なfetch failedが出るため、同一ドメインは低並列で監査する。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 北海道 --limit 30`: 北海道の未照合raw slugは32件から14件に減少。次の先頭候補は北海道庁3件と北見市11件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは2,959件から2,941件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,903件、activeWithoutOfficialSourceは2,945件、北海道ローカル公式確認済みは120件。active全体4,848件に対する公式確認済みactive比率は約39.3%。
+- `npm run build`: 速度改善方針により今回は省略。直前の苫小牧市Batch 88でbuild成功済みで、今回は対象ESLint・URL検証・coverage・raw gap監査が通っている。次の20〜50件節目または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 北海道Batch 90として北海道庁3件と北見市11件（`hokkaido-agriculture-new` / `hokkaido-childcare-support` / `hokkaido-heating-support` / `kitami-birth-bonus` / `kitami-bousai-equipment` / `kitami-childcare-subsidy` / `kitami-disability-medical` / `kitami-energy-support` / `kitami-housing-reform` / `kitami-newlywed-rent` / `kitami-nursing-home-reform` / `kitami-school-lunch` / `kitami-startup-support` / `kitami-telework-bonus`）を公式一次情報で確認する。

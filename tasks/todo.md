@@ -218,6 +218,19 @@
 - [x] `npm run audit:coverage`（期限切れ67件、手動公式確認済み361件、公式リンクあり未確認0件、東京都ローカル公式確認済み118件、failures 0）
 - [x] 追加後の `npm run lint`（既存警告5件、エラー0）
 - [x] 追加後の `npm run build`（clean worktree 1109静的ページ）
+
+## 2026-07-02 北海道Batch 89: 函館市18件
+
+- [x] 函館市18件を公式一次情報で棚卸し
+- [x] 公式確認できる制度へ補正し、重複・公式確認不可候補を通常一覧から除外
+- [x] `src/data/grants/verified-local-misc-2026.ts` に18件追加
+- [x] `git diff --check -- src/data/grants/verified-local-misc-2026.ts`
+- [x] `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`
+- [x] 函館市18件のsourceUrls 22件を低並列URL監査し、全件HTTP 200
+- [x] `node scripts/audit-raw-verified-gaps.mjs --prefecture 北海道 --limit 30`（北海道未照合14件まで減少）
+- [x] `node scripts/audit-raw-verified-gaps.mjs --limit 10`（全国未照合2,941件まで減少）
+- [x] `npm run audit:coverage`（failures 0、公式確認済みactive 1,903件）
+- [ ] 次回: 北海道Batch 90として北海道庁3件・北見市11件を公式確認
 - [x] `npm run audit:deadlines`（期限切れ67件を通常一覧から除外、failures 0）
 - [x] `npm run audit:links` 2238件OK / broken 0
 - [x] 生成HTMLスポット確認（15件すべて公式確認表示・公式情報リンクあり・sitemap掲載・noindexなし）
