@@ -2314,3 +2314,33 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 4,138 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は586件、activeWithDeadlineは417件、期限切れ169件。
 - `npm run audit:links`: broken 0。4,136ファイルから153,975リンク抽出、8,906件監査。
+
+## 2026-07-02 東京都Batch 55 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の小平市1件・昭島市9件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・補正した。生成データの「小平市 就学援助制度」「昭島市 放課後子ども教室」「出産祝い金」「保育料軽減補助金」「省エネ家電買替え補助金」「不妊治療費助成制度」「介護住宅改修助成」「木造住宅耐震診断助成」「テレワーク推進補助金」「高齢者予防接種費用助成」を、小平市・昭島市公式ページで確認できる現行制度名・支援内容・受付状況へ補正した。
+
+追加:
+
+- `kodaira-education-scholarship`: 小平市「就学援助制度（令和8年度）」。学用品費、学校給食費、校外活動費、修学旅行費、医療費、通学費、オンライン学習通信費等の援助として補正。
+- `akishima-afterschool`: 昭島市「放課後子ども教室」。補助金ではなく、登録票と保険料等負担金500円で利用する市主催の放課後居場所事業として補正。
+- `akishima-birth-bonus`: 昭島市「妊婦のための支援給付」。旧出産祝い金候補を、胎児1人あたり5万円の現行給付へ補正。
+- `akishima-childcare-subsidy`: 昭島市「認可外保育施設の保育料補助」。認可外保育施設利用支援補助金と施設等利用費による保育料負担軽減として補正。
+- `akishima-energy-support`: 昭島市「東京都ゼロエミポイント」。市独自補助ではなく、昭島市公式が案内する東京都の省エネ家電買替支援として補正。
+- `akishima-infertility`: 昭島市「特定不妊治療医療費助成」。東京都の特定不妊治療費（先進医療）助成への上乗せ、1回上限3万円として補正。
+- `akishima-nursing-home-reform`: 昭島市「高齢者自立支援住宅改修給付サービス」。住宅改修予防給付20万円、浴槽37.9万円等、工事前相談必須として補正。
+- `akishima-seismic-diagnosis`: 昭島市「木造住宅耐震診断補助制度」。診断費用3分の2・上限8万円、申請期限2026年11月30日、要相談の受付状況として補正。
+- `akishima-telework-bonus`: 昭島市「ものづくり企業等地域共生推進補助金」。テレワーク専用補助は現行公式制度として確認できないため、公式募集中の事業者向け設備改善・耐震補助へ補正。最大400万円、実績報告期限2027年2月26日。
+- `akishima-vaccination-support`: 昭島市「高齢者肺炎球菌予防接種」。65歳等を対象に自己負担5,500円、生活保護受給者無料として補正。
+
+確認:
+
+- 確認対象の公式URL 10件はすべて200で到達確認。小平市公式の令和8年度就学援助、昭島市公式の放課後子ども教室、妊婦のための支援給付、認可外保育施設の保育料補助、東京都ゼロエミポイント案内、特定不妊治療医療費助成、高齢者自立支援住宅改修給付サービス、木造住宅耐震診断補助制度、令和8年度ものづくり企業等地域共生推進補助金、高齢者肺炎球菌予防接種を確認。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 30`: 東京都の未照合raw slugは202件から192件に減少。次の候補は新宿区、杉並区、世田谷区、青梅市、千代田区。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 20`: 全国未照合raw slugは3,292件から3,282件に減少。
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,644件、東京都ローカル公式確認済みは209件、activeWithoutOfficialSourceは3,286件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 4,152 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は588件、activeWithDeadlineは419件、期限切れ169件。
+- `npm run audit:links`: 初回は既存外部URLのtimeoutでbroken 3、同じビルド出力で再実行して broken 0。4,150ファイルから154,697リンク抽出、8,929件監査。

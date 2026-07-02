@@ -2729,6 +2729,358 @@ export const verifiedTokyoLocalGrants2026: Grant[] = [
     publishedAt: '2026-06-26',
   },
   {
+    slug: 'kodaira-education-scholarship',
+    title: '小平市 就学援助制度（令和8年度）',
+    organization: '小平市',
+    type: 'local',
+    maxAmount: '学用品費・給食費・修学旅行費等',
+    maxAmountNum: 0,
+    category: 'education',
+    prefecture: '東京都',
+    tags: ['小平市', '就学援助', '教育支援'],
+    eligibility: '小平市内に在住し、国立・都立・公立の小中学校に在学する児童生徒の保護者で、世帯所得が準要保護の認定基準に該当する方などが対象です。',
+    targetOccupation: '小中学生の保護者',
+    applicationPeriod: '令和8年度制度。年度途中の申請可、認定時期により支給対象月が変わる場合あり',
+    description: '小平市が、経済的理由で学用品費や校外活動費などの支払いが困難な家庭に、就学に必要な費用を援助する令和8年度制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>経済的な理由で小中学校の就学費用の支払いに困っている家庭を対象に、学用品費や学校給食費などを援助します。</p>'
+      },
+      {
+        heading: '援助内容',
+        content: '<p>学用品費、通学用品費、学校給食費、校外活動費、修学旅行費、新入学児童生徒学用品費、医療費、通学費、オンライン学習通信費などが案内されています。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>在学する学校へ申請書類を提出します。国立、都立または小平市外の公立小中学校に在学している場合は学務課へ提出します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.kodaira.tokyo.jp/kurashi/111/111531.html',
+    sourceName: '小平市 就学援助制度（令和8年度）',
+    sourceUrls: ['https://www.city.kodaira.tokyo.jp/kurashi/111/111531.html'],
+    sourceNote: '小平市公式ページで令和8年度就学援助、対象者、援助内容、提出先を確認。金額は費目別のため最大額は設定していない。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'akishima-afterschool',
+    title: '昭島市 放課後子ども教室',
+    organization: '昭島市',
+    type: 'local',
+    maxAmount: '保険料等負担金500円で利用',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['昭島市', '放課後', '子どもの居場所'],
+    eligibility: '昭島市立小学校等で放課後子ども教室に登録する児童が対象です。学童クラブのような保育ではなく、放課後の安全な居場所提供事業です。',
+    targetOccupation: '小学生・保護者',
+    applicationPeriod: '通年。学校ごとの開設日・受付状況による',
+    description: '昭島市が小学校の校庭等を活用し、放課後の児童に安全・安心な居場所を提供する事業です。登録票の提出と保険料等負担金が必要です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>学校や保護者、地域の協力により、放課後の児童の自由な遊びや学びを見守る昭島市主催の居場所事業です。</p>'
+      },
+      {
+        heading: '利用に必要なもの',
+        content: '<p>参加には登録票の提出と保険料等負担金500円が必要です。イベントごとに材料費などの実費がかかる場合があります。</p>'
+      },
+      {
+        heading: '掲載時の補正',
+        content: '<p>補助金ではなく、低負担で利用できる市主催の放課後居場所事業として公式確認した内容に修正しています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.akishima.lg.jp/kosodate/m-kosodate/1008314/1003960/1003961.html',
+    sourceName: '昭島市 放課後子ども教室とは',
+    sourceUrls: ['https://www.city.akishima.lg.jp/kosodate/m-kosodate/1008314/1003960/1003961.html'],
+    sourceNote: '昭島市公式ページで放課後子ども教室の目的、開設時間、登録票と保険料等負担金500円を確認。補助金ではなくサービス情報として補正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'akishima-birth-bonus',
+    title: '昭島市 妊婦のための支援給付',
+    organization: '昭島市',
+    type: 'local',
+    maxAmount: '胎児1人あたり5万円',
+    maxAmountNum: 5,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['昭島市', '妊娠', '出産支援'],
+    eligibility: '胎児の数の届出日時点で昭島市に住民票がある妊婦が対象です。同一妊娠で他自治体から同事業の給付を受けた場合は対象外です。',
+    targetOccupation: '妊婦',
+    applicationPeriod: '申請期限は1回目が胎児心拍確認日から2年間、2回目が出産予定日の8週間前から2年間',
+    description: '昭島市が妊婦を対象に、胎児の数に応じて現金またはデジタルギフトを給付する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>胎児の数の届出に基づき、妊娠期の経済的負担を軽減するための給付を行います。</p>'
+      },
+      {
+        heading: '給付内容',
+        content: '<p>胎児1人あたり5万円です。現金振込または出産育児関連用品等に使えるデジタルギフトを選択できます。</p>'
+      },
+      {
+        heading: '掲載時の補正',
+        content: '<p>旧データの出産祝い金候補を、令和7年度以降の現行ページで確認できる妊婦のための支援給付に置換しました。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.akishima.lg.jp/kosodate/m-kosodate/1003592/1003595.html',
+    sourceName: '昭島市 妊婦のための支援給付',
+    sourceUrls: ['https://www.city.akishima.lg.jp/kosodate/m-kosodate/1003592/1003595.html'],
+    sourceNote: '昭島市公式ページで対象者、胎児の数×5万円、支給方法、申請期限を確認。旧出産祝い金候補から現行制度へ補正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'akishima-childcare-subsidy',
+    title: '昭島市 認可外保育施設の保育料補助',
+    organization: '昭島市',
+    type: 'local',
+    maxAmount: '月額契約保育料との差額等',
+    maxAmountNum: 0,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['昭島市', '保育料補助', '認可外保育'],
+    eligibility: '昭島市内在住で、教育・保育給付認定または施設等利用給付認定を受け、対象の認可外保育施設等を利用する児童の保護者が対象です。',
+    targetOccupation: '保育施設利用世帯',
+    applicationPeriod: '通年。償還払いは利用月ごとの請求スケジュールあり',
+    description: '昭島市が、認可外保育施設を利用する児童の保護者に対し、認可外保育施設利用支援補助金や施設等利用費で保育料負担を軽減する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>昭島市には認可外保育施設の保育料を補助する制度があり、認定区分と利用施設に応じて利用できます。</p>'
+      },
+      {
+        heading: '支援内容',
+        content: '<p>認可外保育施設利用支援補助金では、月額契約保育料と市条例で定める認可保育園利用料金との差額を補助します。幼児教育・保育の無償化にかかる給付も案内されています。</p>'
+      },
+      {
+        heading: '支払い方法',
+        content: '<p>施設による代理請求と、保護者が後から請求する償還払いがあります。償還払いは四半期ごとの請求月・支給月が案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.akishima.lg.jp/kosodate/m-kosodate/1008313/1003785/1003922/1003924.html',
+    sourceName: '昭島市 認可外保育施設の保育料補助',
+    sourceUrls: ['https://www.city.akishima.lg.jp/kosodate/m-kosodate/1008313/1003785/1003922/1003924.html'],
+    sourceNote: '昭島市公式ページで認可外保育施設利用支援補助金、施設等利用費、対象認定、差額補助、支払い方法を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'akishima-energy-support',
+    title: '昭島市 東京都ゼロエミポイント（省エネ家電買替支援）',
+    organization: '昭島市',
+    type: 'local',
+    maxAmount: '東京ゼロエミポイント相当分を直接値引き',
+    maxAmountNum: 0,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['昭島市', '省エネ家電', '東京都事業'],
+    eligibility: '東京都内で対象家電等を購入し、参加登録販売店で共同申請規約に同意する都民が対象です。高齢者・障害者向けのエアコン購入支援拡充も案内されています。',
+    targetOccupation: '都民・昭島市民',
+    applicationPeriod: '東京都事業の実施期間・予算状況による',
+    description: '昭島市公式ページで案内されている東京都の家庭のゼロエミッション行動推進事業です。省エネ性能の高いエアコン、冷蔵庫、給湯器、LED照明器具への買替え等を支援します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>東京都が、省エネ性能の高い家電等への買替えに対して東京ゼロエミポイントを付与し、店舗でポイント相当分を直接値引きする事業です。</p>'
+      },
+      {
+        heading: '対象家電',
+        content: '<p>エアコン、冷蔵庫、給湯器、LED照明器具への買替え等が案内されています。対象店舗は事業に参加登録した家電販売事業者です。</p>'
+      },
+      {
+        heading: '掲載時の補正',
+        content: '<p>昭島市独自の省エネ家電買替補助金ではなく、昭島市が案内する東京都事業として公式確認した内容に修正しています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.akishima.lg.jp/machi/kankyo/1008380/1008383/1009023.html',
+    sourceName: '昭島市 東京都がエアコン等の省エネ家電の購入を支援します',
+    sourceUrls: ['https://www.city.akishima.lg.jp/machi/kankyo/1008380/1008383/1009023.html'],
+    sourceNote: '昭島市公式ページで東京都の家庭のゼロエミッション行動推進事業、対象家電、東京ゼロエミポイント相当分の直接値引きを確認。市独自補助ではないため補正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'akishima-infertility',
+    title: '昭島市 特定不妊治療医療費助成',
+    organization: '昭島市',
+    type: 'local',
+    maxAmount: '1回の治療につき最大3万円',
+    maxAmountNum: 3,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['昭島市', '不妊治療', '医療費助成'],
+    eligibility: '東京都の特定不妊治療費（先進医療）助成の承認決定を受け、承認決定日から昭島市助成金の申請日まで引き続き昭島市に住所を有する方などが対象です。',
+    targetOccupation: '不妊治療を受けた方',
+    applicationPeriod: '東京都の特定不妊治療費（先進医療）助成の承認決定日から1年以内',
+    description: '昭島市が、東京都の特定不妊治療費（先進医療）助成に上乗せして、保険適用の特定不妊治療と併せて行った先進医療費の一部を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>不妊治療の経済的負担を軽減するため、東京都の先進医療助成に上乗せして昭島市が助成します。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>1回の治療につき上限3万円です。領収金額から東京都助成額を差し引いた額が助成対象となります。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>先に東京都へ申請し、承認決定通知を受けた後、必要書類を揃えて昭島市へ申請します。期限は東京都の承認決定日から1年以内です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.akishima.lg.jp/kosodate/m-kosodate/1003585/1003588.html',
+    sourceName: '昭島市 特定不妊治療医療費助成',
+    sourceUrls: ['https://www.city.akishima.lg.jp/kosodate/m-kosodate/1003585/1003588.html'],
+    sourceNote: '昭島市公式ページで対象者、1回上限3万円、東京都助成への上乗せ、申請期限を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'akishima-nursing-home-reform',
+    title: '昭島市 高齢者自立支援住宅改修給付サービス',
+    organization: '昭島市',
+    type: 'local',
+    maxAmount: '浴槽 最大37.9万円等',
+    maxAmountNum: 38,
+    category: 'nursing',
+    prefecture: '東京都',
+    tags: ['昭島市', '住宅改修', '高齢者支援'],
+    eligibility: '65歳以上の方および同居世帯で、日常生活動作の低下により住宅改修が必要と認められる方などが対象です。給付区分により介護保険認定との関係が異なります。',
+    targetOccupation: '高齢者世帯',
+    applicationPeriod: '通年。工事前に市役所担当窓口および地域包括支援センターでの相談が必要',
+    description: '昭島市が、高齢者の転倒予防や介護軽減のために必要な住宅改修費の一部を給付する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>転倒予防、動作の容易性確保、介護の軽減を目的として、必要と認められる住宅改修費の一部を給付します。</p>'
+      },
+      {
+        heading: '給付内容',
+        content: '<p>住宅改修予防給付は上限20万円、住宅設備改修給付は浴槽37.9万円、流し・洗面台15.6万円、便器の洋式化10.6万円が案内されています。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>工事実施前に市役所担当窓口と地域包括支援センターで相談が必要です。着工後の申請や老朽化に伴う通常リフォームは対象外です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.akishima.lg.jp/kenko/korei/1003133/1003147.html',
+    sourceName: '昭島市 高齢者自立支援住宅改修給付サービス',
+    sourceUrls: ['https://www.city.akishima.lg.jp/kenko/korei/1003133/1003147.html'],
+    sourceNote: '昭島市公式ページで高齢者自立支援住宅改修給付サービス、対象者、給付限度額、工事前相談を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'akishima-seismic-diagnosis',
+    title: '昭島市 木造住宅耐震診断補助制度',
+    organization: '昭島市',
+    type: 'local',
+    maxAmount: '最大8万円',
+    maxAmountNum: 8,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['昭島市', '耐震診断', '木造住宅'],
+    eligibility: '昭島市内の旧耐震基準または平成12年5月31日以前に着工された対象木造一戸建て住宅を所有する個人が対象です。市税等の完納などの要件があります。',
+    targetOccupation: '住宅所有者',
+    applicationPeriod: '申請受付期限は2026年11月30日、完了報告期限は2027年2月26日。予算上限到達前でも要相談',
+    deadlineDate: '2026-11-30',
+    description: '昭島市が、木造一戸建て住宅の耐震診断に要する費用の一部を補助する令和8年度制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>地震時の生命・財産の保護と地域被害の軽減を目的に、木造一戸建て住宅の耐震診断費用を補助します。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>耐震診断に要する費用の3分の2以内、上限8万円です。市認定の昭島市耐震診断員が診断を実施します。</p>'
+      },
+      {
+        heading: '受付状況',
+        content: '<p>令和8年度の申請受付期限は2026年11月30日、完了報告期限は2027年2月26日です。公式ページでは予算上限に近づいたため要相談とされています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.akishima.lg.jp/kurashi/sumai/1001640/1001651/1001652.html',
+    sourceName: '昭島市 木造住宅耐震診断補助制度',
+    sourceUrls: ['https://www.city.akishima.lg.jp/kurashi/sumai/1001640/1001651/1001652.html'],
+    sourceNote: '昭島市公式ページで令和8年度耐震診断補助、申請期限2026年11月30日、完了報告期限2027年2月26日、上限8万円、要相談の受付状況を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'akishima-telework-bonus',
+    title: '昭島市 ものづくり企業等地域共生推進補助金',
+    organization: '昭島市',
+    type: 'local',
+    maxAmount: '操業環境改善 最大375万円、耐震工事 最大400万円等',
+    maxAmountNum: 400,
+    category: 'employment',
+    prefecture: '東京都',
+    tags: ['昭島市', '中小企業', '設備改善'],
+    eligibility: '昭島市内で1年以上操業するものづくりに関わる中小企業者等、または新たに市内へ移転する対象企業等が対象です。税の滞納がないことなどの要件があります。',
+    targetOccupation: 'ものづくり中小企業者等',
+    applicationPeriod: '2026年4月15日から随時受付。2027年2月15日までに事業完了、2027年2月26日までに実績報告',
+    deadlineDate: '2027-02-26',
+    description: '昭島市が東京都と連携し、ものづくり企業等の工場改修、設備更新、住民受入環境整備、耐震補強などを支援する令和8年度補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>地域との共生を目的に、工場の改修、住民受入環境の整備、耐震補強等を行うものづくり企業等を支援します。</p>'
+      },
+      {
+        heading: '補助限度額',
+        content: '<p>操業環境改善事業と住民受入環境整備事業は補助率4分の3・上限375万円、耐震補強事業は補助率3分の2で、耐震診断100万円、耐震設計200万円、耐震工事400万円が上限です。</p>'
+      },
+      {
+        heading: '掲載時の補正',
+        content: '<p>昭島市の現行ページでテレワーク専用補助は確認できなかったため、公式に募集中の事業者向け補助金へ補正しています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.akishima.lg.jp/bussiness/shokogyo/1004738/1004739.html',
+    sourceName: '昭島市 令和8年度ものづくり企業等地域共生推進補助金の募集',
+    sourceUrls: ['https://www.city.akishima.lg.jp/bussiness/shokogyo/1004738/1004739.html'],
+    sourceNote: '昭島市公式ページで令和8年度募集、補助率・上限、対象事業者、申請期間、実績報告期限を確認。テレワーク専用補助候補から現行の事業者向け補助へ補正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'akishima-vaccination-support',
+    title: '昭島市 高齢者肺炎球菌予防接種',
+    organization: '昭島市',
+    type: 'local',
+    maxAmount: '自己負担5,500円、生活保護受給者は無料',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '東京都',
+    tags: ['昭島市', '予防接種', '高齢者'],
+    eligibility: '65歳の方、または60歳から64歳で心臓・腎臓・呼吸器機能等に一定の障害がある方が対象です。過去に肺炎球菌ワクチンを接種した方は助成対象外です。',
+    targetOccupation: '高齢者・障害のある方',
+    applicationPeriod: '定期接種対象期間内。65歳の方は65歳の誕生日前日から66歳の誕生日前日まで',
+    description: '昭島市が、高齢者等を対象に肺炎球菌ワクチン接種費用を助成する定期予防接種制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>肺炎球菌感染症の重症化予防を目的に、対象者へ接種券等を送り、接種費用を助成します。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>65歳の方、または60歳から64歳で心臓、腎臓、呼吸器機能等に一定の障害がある方が対象です。接種歴がある場合は助成対象外です。</p>'
+      },
+      {
+        heading: '費用',
+        content: '<p>自己負担額は5,500円です。生活保護受給者は無料で、接種時に受給証明書が必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.akishima.lg.jp/kenko/yobosesshu/1003005.html',
+    sourceName: '昭島市 高齢者肺炎球菌予防接種',
+    sourceUrls: ['https://www.city.akishima.lg.jp/kenko/yobosesshu/1003005.html'],
+    sourceNote: '昭島市公式ページで高齢者肺炎球菌予防接種の対象者、定期接種対象期間、自己負担5,500円、生活保護受給者無料を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
     slug: 'shinjuku-housing-purchase',
     title: '新宿区 民間賃貸住宅家賃助成（令和7年度募集終了）',
     organization: '新宿区',
