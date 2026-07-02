@@ -15246,13 +15246,12 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
       { heading: '補助内容', content: '<p>公式申請要領では、奨学金代理返還支援制度を新たに導入した事業者に20万円の補助金を支給するとされています。</p>' },
       { heading: '申請の注意点', content: '<p>令和7年4月1日以降に制度を導入していること、日本学生支援機構に代理返還支援制度の申込を行っていること、市ホームページ等で事業者名等の公表に同意することなどが要件です。</p>' }
     ],
-    officialUrl: 'https://www.city.kagoshima.lg.jp/koyosuishin/syogakukindairihenkanr07.html',
+    officialUrl: 'https://www.city.kagoshima.lg.jp/sangyo/koyo/hojokin.html',
     sourceName: '鹿児島市 奨学金代理返還支援制度導入促進補助金',
     sourceUrls: [
-      'https://www.city.kagoshima.lg.jp/koyosuishin/syogakukindairihenkanr07.html',
-      'https://www.city.kagoshima.lg.jp/koyosuishin/documents/05sdhshinseiyoryo.pdf'
+      'https://www.city.kagoshima.lg.jp/sangyo/koyo/hojokin.html'
     ],
-    sourceNote: '鹿児島市公式ページで申請受付期間令和7年6月2日から令和8年2月20日までを確認。公式申請要領で制度を新たに導入した事業者へ20万円支給、令和7年4月1日以降導入等の要件を確認。',
+    sourceNote: '鹿児島市公式ページで申請受付期間令和7年6月2日から令和8年2月20日までを確認。公式申請要領で制度を新たに導入した事業者へ20万円支給、令和7年4月1日以降導入等の要件を確認。2026年7月2日のリンク監査で個別ページと申請要領PDFが404化していたため、鹿児島市公式の補助金・助成金交付一覧へ参照URLを差し替え。',
     verifiedAt,
     publishedAt: '2026-06-27',
   },

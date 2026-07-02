@@ -2448,3 +2448,32 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 4,179 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は596件、activeWithDeadlineは422件、期限切れ174件。
 - `npm run audit:links`: broken 0。4,177ファイルから156,228リンク抽出、8,992件監査。
+
+## 2026-07-02 東京都Batch 60 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の千代田区6件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・補正した。生成データの「次世代育成手当」「誕生準備手当」「放課後子ども教室事業」「高齢者歯科健診助成事業」「介護用品支給事業」「テレワーク環境整備補助金」を、千代田区公式ページで確認できる現行制度名・支援内容へ補正した。
+
+追加・補正:
+
+- `chiyoda-childcare-subsidy`: 千代田区「中高生世代応援手当（区独自制度）」。旧「次世代育成手当」候補から、公式の現行制度へ補正。中学生・高校生世代の児童1人につき月額15,000円。
+- `chiyoda-birth-bonus`: 既存の `chiyoda-birth-preparation-allowance` をraw候補slugへ統合。千代田区「誕生準備手当」は1妊娠につき45,000円で、旧生成データの最大45万円は誤りとして補正済み。
+- `chiyoda-afterschool`: 千代田区「放課後子ども教室」。区立8小学校で、放課後から午後5時まで、宿題・自主学習・遊び・体験活動を無料で提供。
+- `chiyoda-senior-dental`: 千代田区「区民歯科健診」。旧「高齢者歯科健診助成事業」候補から公式名称へ補正。19歳以上の区民が対象、65歳以上はオーラルフレイル予防検査も実施、2026年6月15日から2027年2月28日まで。
+- `chiyoda-nursing-equipment`: 千代田区「紙おむつ支給事業」。旧「介護用品支給事業」候補から公式名称へ補正。月額10,600円以内は1割負担、生活保護世帯は無料、持ち込み不可の場合は現金助成月額上限13,200円。
+- `chiyoda-telework-bonus`: 千代田区「中小企業販路拡大事業支援補助」。テレワーク専用補助は千代田区公式助成一覧で確認できないため、公式確認できる現行の事業者向け補助へ補正。補助率3分の2、通常上限10万円、加算時20万円。
+
+あわせて、`npm run audit:links` で既存の鹿児島市 `kagoshima-city-scholarship-proxy-repayment-2026` の個別ページと申請要領PDFが404になっていることを検出した。制度自体は期限切れで通常一覧から除外済みだが、生成済み期限切れページのリンク監査対象になるため、`src/data/grants/verified-local-misc-2026.ts` の参照URLを鹿児島市公式の「補助金・助成金交付」一覧へ差し替え、sourceNoteに404化の経緯を追記した。
+
+確認:
+
+- 確認対象の千代田区公式URL 9件はすべて200で到達確認。
+- slug重複検査: `no duplicates`。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 40`: 東京都の未照合raw slugは171件から165件に減少。次の候補は足立区、台東区、大田区、中央区、中野区。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 20`: 全国未照合raw slugは3,261件から3,255件に減少。
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,665件、東京都ローカル公式確認済みは230件、activeWithoutOfficialSourceは3,259件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 4,186 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は597件、activeWithDeadlineは423件、期限切れ174件。
+- `npm run audit:links`: 初回は既存鹿児島市URL 2件の404でbroken 2。鹿児島市公式一覧へ参照URLを差し替え、再build後に再実行してbroken 0。4,184ファイルから156,596リンク抽出、9,006件監査。
