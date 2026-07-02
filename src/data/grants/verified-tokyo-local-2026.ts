@@ -3801,6 +3801,201 @@ export const verifiedTokyoLocalGrants2026: Grant[] = [
     publishedAt: '2026-06-26',
   },
   {
+    slug: 'setagaya-education-voucher',
+    title: '世田谷区 子どもの学び場運営スタートアップ事業補助金',
+    organization: '世田谷区',
+    type: 'local',
+    maxAmount: '通常活動 上限28.8万円、加算あり',
+    maxAmountNum: 69,
+    category: 'education',
+    prefecture: '東京都',
+    tags: ['世田谷区', '学習支援', '団体向け補助'],
+    eligibility: '世田谷区内で主に小学校1年生から4年生を対象に、学校の宿題等の自主学習を支援する継続的な活動を行う団体が対象です。',
+    targetOccupation: '学習支援団体・地域活動団体',
+    applicationPeriod: '令和8年度随時申請を受付中。活動開始の2か月前までに事前相談',
+    description: '世田谷区が、子どもの学習習慣の定着や学習でのつまずき予防のため、区内で子どもの学び場を運営する団体の活動費を補助する制度です。旧データの個人向け学用品助成ではなく、公式に確認できる団体向け学習支援補助へ補正しました。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>区内で主に小学1年生から4年生を対象に学校の宿題等の自主学習を支援する団体へ、活動費の一部を補助します。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>通常活動は月1回以上の定期実施を対象に上限28万8千円です。休暇時活動、食育活動、団体内部研修の加算も確認できます。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>随時申請では、交付決定後に実施した活動が補助対象です。活動開始の2か月前までに世田谷区子ども家庭課へ事前相談が必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.setagaya.lg.jp/02413/1349.html',
+    sourceName: '世田谷区 子どもの学びを支援する活動への補助（子どもの学び場運営スタートアップ事業）',
+    sourceUrls: [
+      'https://www.city.setagaya.lg.jp/02413/1349.html',
+      'https://www.city.setagaya.lg.jp/documents/1349/r8manabiba_bosyuuyoukou_zuiji.pdf',
+      'https://www.city.setagaya.lg.jp/02413/2120.html'
+    ],
+    sourceNote: '世田谷区公式ページと募集要項PDFで、子どもの学び場運営スタートアップ事業、対象活動、随時申請、通常活動上限28.8万円、加算、活動開始2か月前相談を確認。旧「せたがや学び応援基金助成」候補から公式制度へ補正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'setagaya-energy-support',
+    title: '世田谷区 住民税非課税世帯等への物価高騰生活支援給付金（受付終了）',
+    organization: '世田谷区',
+    type: 'local',
+    maxAmount: '1世帯あたり2万円',
+    maxAmountNum: 2,
+    category: 'living',
+    prefecture: '東京都',
+    tags: ['世田谷区', '物価高騰生活支援', '受付終了'],
+    eligibility: '令和7年度の住民税が非課税または均等割のみ課税の世帯などが対象でした。公式ページで令和8年6月30日に申請受付終了と確認できます。',
+    targetOccupation: '低所得世帯・生活支援対象世帯',
+    applicationPeriod: '申請受付終了。申請期限は2026年6月30日',
+    deadlineDate: '2026-06-30',
+    description: '世田谷区が、物価高騰の影響を受ける住民税非課税世帯等に支給した生活支援給付金です。旧データのエネルギー費高騰対策給付金候補を、公式確認できる令和7年度物価高騰生活支援給付金へ補正し、受付終了として通常一覧から除外します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>物価高騰の影響を受ける住民税非課税世帯等に対し、1世帯あたり2万円を支給した給付金です。</p>'
+      },
+      {
+        heading: '対象',
+        content: '<p>令和7年度の住民税が非課税または均等割のみ課税の世帯などが対象でした。対象世帯には支給のお知らせまたは確認書兼申請書が送付されました。</p>'
+      },
+      {
+        heading: '受付状況',
+        content: '<p>申請期限はオンライン・郵送とも2026年6月30日で、公式ページで受付終了が案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.setagaya.lg.jp/02014/30262.html',
+    sourceName: '世田谷区 令和7年度住民税非課税世帯等への物価高騰生活支援給付金',
+    sourceUrls: [
+      'https://www.city.setagaya.lg.jp/02014/30262.html',
+      'https://www.city.setagaya.lg.jp/kuhou/oshirase20260401/p12.html'
+    ],
+    sourceNote: '世田谷区公式ページで受付終了、申請期限2026年6月30日、支給対象、支給のお知らせ・確認書兼申請書、広報紙で支給額2万円を確認。旧エネルギー費高騰対策候補から公式制度へ補正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'setagaya-infertility',
+    title: '世田谷区 特定不妊治療費助成制度（受付終了）',
+    organization: '世田谷区',
+    type: 'local',
+    maxAmount: '受付終了・区独自助成なし',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '東京都',
+    tags: ['世田谷区', '不妊治療', '受付終了'],
+    eligibility: '世田谷区特定不妊治療費助成制度は受付終了済みです。公式ページでは、保険適用分および特定不妊治療費（先進医療）に対する世田谷区の助成は行っていないと案内されています。',
+    targetOccupation: '不妊治療を検討する方',
+    applicationPeriod: '受付終了。区独自の保険適用分・先進医療助成は現行実施なし',
+    deadlineDate: '2024-12-23',
+    description: '旧データでは世田谷区の不妊治療費助成制度として掲載されていましたが、公式ページで受付終了および現行の区独自助成なしを確認したため通常一覧から除外します。相談支援として妊活オンライン相談事業は実施されています。',
+    sections: [
+      {
+        heading: '公式確認結果',
+        content: '<p>世田谷区特定不妊治療費助成制度は既に受付を終了しています。保険適用分および特定不妊治療費（先進医療）に対する区独自助成は行っていません。</p>'
+      },
+      {
+        heading: '関連する相談支援',
+        content: '<p>世田谷区では、将来の妊娠・出産を望む方を対象に、妊活オンライン相談事業を実施しています。相談は無料です。</p>'
+      },
+      {
+        heading: '確認先',
+        content: '<p>東京都や国の不妊検査・先進医療・不育症検査の助成制度は、世田谷区公式ページから外部制度として案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.setagaya.lg.jp/02244/3271.html',
+    sourceName: '世田谷区 特定不妊治療費助成制度',
+    sourceUrls: [
+      'https://www.city.setagaya.lg.jp/02244/3271.html',
+      'https://www.city.setagaya.lg.jp/02244/1184.html'
+    ],
+    sourceNote: '世田谷区公式ページで特定不妊治療費助成制度の受付終了、保険適用分・先進医療への区独自助成なし、妊活オンライン相談事業の無料相談を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'setagaya-school-lunch',
+    title: '世田谷区 区立小・中学校給食費無償化',
+    organization: '世田谷区',
+    type: 'local',
+    maxAmount: '区立小・中学校の給食費を無償化',
+    maxAmountNum: 0,
+    category: 'education',
+    prefecture: '東京都',
+    tags: ['世田谷区', '学校給食費', '無償化'],
+    eligibility: '世田谷区立小・中学校の児童・生徒の給食費が対象です。保護者による給食費の手続きや納付は不要と案内されています。',
+    targetOccupation: '区立小中学生の保護者',
+    applicationPeriod: '令和8年度も無償化継続。保護者による個別手続き不要',
+    description: '世田谷区が、子育て世帯への経済的支援として区立小・中学校の学校給食費を無償化する制度です。令和8年4月から給食費単価は改定されますが、無償化は継続されます。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>世田谷区は令和5年4月から区立小・中学校の給食費無償化を実施しており、子育て世帯の負担軽減のため継続しています。</p>'
+      },
+      {
+        heading: '対象',
+        content: '<p>区立小・中学校の児童・生徒の給食費が対象です。保護者による給食費の手続きや納付は必要ありません。</p>'
+      },
+      {
+        heading: '令和8年度の扱い',
+        content: '<p>令和8年4月から食材費高騰に対応して給食費単価は改定されますが、区立小・中学校の児童・生徒の給食費無償化は継続されます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.setagaya.lg.jp/02056/1954.html',
+    sourceName: '世田谷区 区立小・中学校給食費無償化',
+    sourceUrls: [
+      'https://www.city.setagaya.lg.jp/02056/1954.html',
+      'https://www.city.setagaya.lg.jp/02056/1959.html'
+    ],
+    sourceNote: '世田谷区公式ページで令和5年4月からの給食費無償化継続、保護者手続き・納付不要、令和8年4月からの給食費単価改定後も無償化継続を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'setagaya-telework-bonus',
+    title: '世田谷区 中小事業者経営支援補助金（令和8年度）',
+    organization: '世田谷区',
+    type: 'local',
+    maxAmount: '生産性向上設備導入支援 最大40万円',
+    maxAmountNum: 40,
+    category: 'employment',
+    prefecture: '東京都',
+    tags: ['世田谷区', '中小事業者', '生産性向上'],
+    eligibility: '世田谷区内に事務所または事業所を有する中小事業者、個人事業主等が対象です。補助対象事業ごとに過年度利用や同年度併用の制限があります。',
+    targetOccupation: '中小事業者・個人事業主等',
+    applicationPeriod: '令和8年度。予算額に達した時点で受付終了。補助対象期間は交付決定日から2027年2月26日まで',
+    deadlineDate: '2027-02-26',
+    description: '世田谷区が、区内事業者の販路拡大、新規開拓、設備投資、生産性向上の取組みを支援する補助金です。旧データのテレワーク専用助成は現行公式制度として確認できないため、公式に確認できる中小事業者経営支援補助金へ補正しました。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>区内事業者の新たな取組みやチャレンジを後押しし、安定的な経営の持続化につなげるため、販路拡大や生産性向上に要する経費の一部を補助します。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>ITを活用した販路拡大支援は上限20万円、生産性向上設備導入支援は上限40万円です。補助率はいずれも2分の1です。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>交付決定前に契約等を行った経費は対象外です。予算額に達した場合は受付終了となり、地域連携型ハンズオン支援事業等との併用もできません。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.setagaya.lg.jp/03647/11321.html',
+    sourceName: '世田谷区 中小事業者経営支援補助金',
+    sourceUrls: [
+      'https://www.city.setagaya.lg.jp/03647/11321.html',
+      'https://www.city.setagaya.lg.jp/documents/11321/r8_youkou.pdf',
+      'https://www.city.setagaya.lg.jp/03647/5009.html'
+    ],
+    sourceNote: '世田谷区公式ページと募集要項PDFで令和8年度中小事業者経営支援補助金、ITを活用した販路拡大支援上限20万円、生産性向上設備導入支援上限40万円、補助率1/2、対象者、交付決定前契約対象外、補助対象期間2027年2月26日までを確認。旧テレワーク助成候補から補正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
     slug: 'ome-housing-reform',
     title: '青梅市 住宅用省エネルギー等設備普及促進補助制度',
     organization: '青梅市',

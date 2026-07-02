@@ -2400,3 +2400,29 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 4,170 件生成。
 - `npm run audit:deadlines`: 重複削除とbuild後に再実行して failures 0。期限候補は592件、activeWithDeadlineは420件、期限切れ172件。
 - `npm run audit:links`: broken 0。4,168ファイルから155,783リンク抽出、8,968件監査。
+
+## 2026-07-02 東京都Batch 58 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の世田谷区5件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・抑止した。生成データの「せたがや学び応援基金助成」「エネルギー費高騰対策給付金」「不妊治療費助成制度」「学校給食費助成制度」「テレワーク環境整備助成金」を、世田谷区公式ページ・公式PDFで確認できる現行制度名・支援内容・受付状況へ補正した。
+
+追加:
+
+- `setagaya-education-voucher`: 世田谷区「子どもの学び場運営スタートアップ事業補助金」。個人向け学用品10万円助成ではなく、子どもの自主学習を支援する団体向け活動費補助として補正。通常活動上限28.8万円、加算あり。
+- `setagaya-energy-support`: 世田谷区「令和7年度住民税非課税世帯等への物価高騰生活支援給付金」。1世帯2万円、2026年6月30日申請受付終了として通常一覧から除外。
+- `setagaya-infertility`: 世田谷区「特定不妊治療費助成制度（受付終了）」。保険適用分および特定不妊治療費（先進医療）への区独自助成なしを確認し、通常一覧から除外。妊活オンライン相談事業は無料相談支援として参照。
+- `setagaya-school-lunch`: 世田谷区「区立小・中学校給食費無償化」。令和8年4月から給食費単価改定後も無償化継続、保護者手続き・納付不要として補正。
+- `setagaya-telework-bonus`: 世田谷区「令和8年度中小事業者経営支援補助金」。テレワーク専用助成は現行公式制度として確認できないため、ITを活用した販路拡大支援上限20万円・生産性向上設備導入支援上限40万円の事業者向け補助へ補正。
+
+確認:
+
+- 確認対象の公式URL 12件はすべて200で到達確認。世田谷区公式の子どもの学びを支援する活動への補助、同募集要項PDF、子どもの学び場運営スタートアップ事業、物価高騰生活支援給付金、同広報紙、不妊治療費助成受付終了、妊活オンライン相談、区立小・中学校給食費無償化、令和8年4月給食費改定、中小事業者経営支援補助金、同募集要項PDF、主な事業者支援策を確認。
+- slug重複検査: `no duplicates`。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 40`: 東京都の未照合raw slugは177件から172件に減少。次の候補は青梅市、千代田区、足立区、台東区、大田区。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 20`: 全国未照合raw slugは3,267件から3,262件に減少。
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,659件、東京都ローカル公式確認済みは224件、activeWithoutOfficialSourceは3,266件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 4,177 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は595件、activeWithDeadlineは421件、期限切れ174件。
+- `npm run audit:links`: broken 0。4,175ファイルから156,154リンク抽出、8,988件監査。
