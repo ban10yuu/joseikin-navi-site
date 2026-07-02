@@ -2506,3 +2506,37 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 4,198 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は599件、activeWithDeadlineは424件、期限切れ175件。
 - `npm run audit:links`: broken 0。4,196ファイルから157,191リンク抽出、9,038件監査。
+
+## 2026-07-02 東京都Batch 62 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の台東区8件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・補正した。生成データの「認可外保育施設利用助成金」「高齢者配食サービス事業」「介護用品支給事業」「奨学資金貸付制度」「木造住宅耐震診断助成制度」「中小企業経営支援補助金」「創業支援補助金」を、台東区公式ページ・公式PDFで確認できる現行制度名、受付状況、重複整理へ補正した。
+
+追加・補正:
+
+- `taito-childcare-subsidy`: 台東区「認証保育所等保育料助成制度」。旧「認可外保育施設利用助成金」候補を、認証保育所等保育料助成制度と認可外保育施設等の無償化案内に基づいて補正。月120時間以上の月極契約等が要件。
+- `taito-elderly-support`: 台東区「はつらつサービス 配食サービス」。高齢者向け食事配達と手渡しによる安否確認を行うサービスとして補正。公式資料では助成後1食515円から780円程度、月40食まで。
+- `taito-nursing-equipment`: 台東区「紙おむつの支給」。旧「介護用品支給事業」候補を、紙おむつ現物配送・購入補助券・おむつ代助成へ補正。介護度により月額3,000円から7,000円相当、おむつ代助成は月額上限5,000円。
+- `taito-scholarship`: 台東区「高等学校等入学費用助成（令和8年度受付終了）」。現行の一般奨学資金貸付制度は確認できないため、公式確認できる入学費用助成として補正。2026年6月30日受付終了のため通常一覧から除外。
+- `taito-seismic-diagnosis`: 台東区「耐震診断・補強設計・耐震改修工事等に対する助成」。木造住宅耐震診断は10分の10、上限20万円等。2026年12月11日申請期限予定。旧PDFリンクは作業時点で404化していたため参照URLから除外。
+- `taito-senior-meal-service`: 台東区「高齢者配食サービス事業（重複候補）」。`taito-elderly-support` と同一内容の重複raw候補として統合し、通常一覧から除外。
+- `taito-sme-support`: 台東区「中小企業融資制度・中小企業支援」。旧「中小企業経営支援補助金」候補を、公式確認できる中小企業支援、融資あっ旋、利子補助、信用保証料補助、経営相談へ補正。
+- `taito-startup-support`: 台東区「開業支援資金（台開）」。直接給付型の創業補助金ではなく、創業予定者・開業後1年未満の方向け融資あっ旋として補正。あっ旋限度額1,000万円。
+
+確認:
+
+- 確認対象の公式URL 14件はすべて200。台東区公式の認証保育所等保育料助成、認可外保育施設等の無償化、高齢者サービス案内、高齢者福祉のしおりPDF、暮らしのしおりPDF、紙おむつの支給、高等学校等入学費用助成、保健福祉修学資金等貸付終了案内、耐震診断等助成、中小企業支援、融資制度、経営相談、開業支援資金、特定創業支援等事業を確認。
+- verified全体の簡易重複検査では既存由来の `chofu-housing-reform` と `tokushima-child-medical` を検出。今回追加した台東区slugではないため本バッチでは未修正。別途、既存verified重複の整理対象。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 40`: 東京都の未照合raw slugは157件から149件に減少。次の候補は大田区、中央区、中野区、町田市、調布市。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 20`: 全国未照合raw slugは3,247件から3,239件に減少。
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,679件、東京都ローカル公式確認済みは244件、activeWithoutOfficialSourceは3,243件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 4,209 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は602件、activeWithDeadlineは426件、期限切れ176件。
+- `npm run audit:links`: broken 0。4,207ファイルから157,781リンク抽出、9,064件監査。
+
+次回再開位置:
+
+- `tasks/todo.md` の次回候補どおり、大田区6件（`ota-birth-bonus` / `ota-childcare-subsidy` / `ota-disability-medical` / `ota-elderly-support` / `ota-nursing-equipment` / `ota-scholarship`）を公式一次情報で確認する。
+- 既存verified重複として検出された `chofu-housing-reform` / `tokushima-child-medical` は、全国raw照合とは別の品質改善タスクとして、公式URL・slug先勝ち挙動・通常一覧への影響を確認してから整理する。

@@ -5763,6 +5763,294 @@ export const verifiedTokyoLocalGrants2026: Grant[] = [
     publishedAt: '2026-06-26',
   },
   {
+    slug: 'taito-childcare-subsidy',
+    title: '台東区 認証保育所等保育料助成制度',
+    organization: '台東区',
+    type: 'local',
+    maxAmount: '認証保育所等助成・無償化給付を含め月額上限は年齢等で異なる',
+    maxAmountNum: 4.2,
+    category: 'childcare',
+    prefecture: '東京都',
+    tags: ['台東区', '認証保育所', '認可外保育'],
+    eligibility: '台東区に住所があり、保護者と児童が同一世帯で、月120時間以上の月極契約により認証保育所等または認可外保育施設等を利用する児童の保護者が対象です。認可保育所・幼稚園等を利用している場合などは対象外です。',
+    applicationPeriod: '利用施設・給付認定区分により異なります。年度内利用分は台東区の案内に従って申請します',
+    description: '台東区が、認証保育所等や認可外保育施設等の保育料負担を軽減する制度です。生成データの「認可外保育施設利用助成金」を、公式ページで確認できる現行制度名と要件に補正しました。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>保育の必要性があり、認証保育所等または認可外保育施設等を月極契約で利用している世帯に対し、保育料負担を軽減します。</p>'
+      },
+      {
+        heading: '主な要件',
+        content: '<p>児童と保護者が台東区民で同一世帯であること、月120時間以上の月極契約であること、認可保育所や幼稚園等を利用していないことなどが要件です。</p>'
+      },
+      {
+        heading: '助成額',
+        content: '<p>認証保育所等の区助成と、認可外保育施設等の無償化給付は、年齢、課税状況、施設種別、保育料等により上限が異なります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/ninshohoikusho/hoikuryoujyosei.html',
+    sourceName: '台東区 認証保育所等保育料助成制度',
+    sourceUrls: [
+      'https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/ninshohoikusho/hoikuryoujyosei.html',
+      'https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/hoiku_youjikyouiku/hoikutakuji/youji_mushou/ninkagaimusyouka.html'
+    ],
+    sourceNote: '台東区公式ページで認証保育所等保育料助成制度、認可外保育施設等の無償化、対象要件、年齢・施設区分別の上限を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'taito-elderly-support',
+    title: '台東区 はつらつサービス 配食サービス',
+    organization: '台東区社会福祉協議会・台東区',
+    type: 'local',
+    maxAmount: '助成後1食515円から780円程度。月40食まで',
+    maxAmountNum: 0,
+    category: 'living',
+    prefecture: '東京都',
+    tags: ['台東区', '高齢者', '配食サービス'],
+    eligibility: '台東区の高齢者向け在宅サービスを必要とし、はつらつサービスの利用会員登録等を行う方が対象です。利用可否や回数は生活状況等により確認されます。',
+    applicationPeriod: '通年受付。利用には相談・登録等が必要です',
+    description: '台東区社会福祉協議会等が、高齢者向けの食事を自宅へ届ける配食サービスです。安否確認を兼ね、昼食・夕食について区の助成後の利用者負担で利用できます。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>高齢者向けの食事を自宅まで届け、手渡しによる安否確認も行うサービスです。</p>'
+      },
+      {
+        heading: '利用者負担',
+        content: '<p>公式資料では、助成後の利用者負担は1食あたりおおむね515円から780円程度、月40食までと案内されています。</p>'
+      },
+      {
+        heading: '注意点',
+        content: '<p>具体的な対象要件、利用回数、事業者、負担額は年度資料や相談時の確認が必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.taito.lg.jp/kenkohukusi/korei/serviceannai/index.html',
+    sourceName: '台東区 高齢者サービス案内・配食サービス',
+    sourceUrls: [
+      'https://www.city.taito.lg.jp/kenkohukusi/korei/serviceannai/index.html',
+      'https://www.city.taito.lg.jp/kenkohukusi/korei/serviceannai/koureisyanotebiki.files/20260401.pdf',
+      'https://www.city.taito.lg.jp/kusei/sanka/kanko/benricho/kurashinoshiori.files/13koureisya.pdf'
+    ],
+    sourceNote: '台東区公式の高齢者サービス案内、令和8年度高齢者福祉のしおりPDF、暮らしのしおりPDFで配食サービス、安否確認、利用者負担、月40食までの案内を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'taito-nursing-equipment',
+    title: '台東区 紙おむつの支給',
+    organization: '台東区',
+    type: 'local',
+    maxAmount: '月額最大7,000円相当。おむつ代助成は月額上限5,000円',
+    maxAmountNum: 8.4,
+    category: 'nursing',
+    prefecture: '東京都',
+    tags: ['台東区', '紙おむつ', '介護用品'],
+    eligibility: '台東区に住所があり、常時おむつを使用している方で、要支援1以上の介護認定を受けている方、または65歳以上で入院中の方等が対象です。特別養護老人ホーム等への入所者、生活保護受給者などは対象外です。',
+    applicationPeriod: '通年受付',
+    description: '台東区が、高齢者や家族の経済的負担を軽減するため、紙おむつの現物配送、購入補助券、おむつ代助成を行う制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>常時おむつを使用する対象者に、紙おむつの現物配送、購入補助券、またはおむつ代助成を行います。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>要支援1・2は月3,000円相当、要介護1・2は月5,000円相当、要介護3から5は月7,000円相当です。病院等で紙おむつ持ち込み不可の場合は月5,000円を上限に助成されます。</p>'
+      },
+      {
+        heading: '対象外',
+        content: '<p>特別養護老人ホーム等の介護保険施設や認知症高齢者グループホーム等への入所者、生活保護受給者などは対象外です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.taito.lg.jp/kenkohukusi/korei/serviceannai/kyuuhujosei/kamiomutu.html',
+    sourceName: '台東区 紙おむつの支給',
+    sourceUrls: ['https://www.city.taito.lg.jp/kenkohukusi/korei/serviceannai/kyuuhujosei/kamiomutu.html'],
+    sourceNote: '台東区公式ページで対象者、支給方法、介護度別の月額相当額、おむつ代助成の上限を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'taito-scholarship',
+    title: '台東区 高等学校等入学費用助成（令和8年度受付終了）',
+    organization: '台東区',
+    type: 'local',
+    maxAmount: '高等学校等入学にかかる費用の一部',
+    maxAmountNum: 0,
+    category: 'education',
+    prefecture: '東京都',
+    tags: ['台東区', '高校進学', '入学費用'],
+    eligibility: '令和7年度に中学校等を卒業し令和8年度に高等学校等へ進学した児童の保護者で、児童と保護者が台東区に住所を有し、保護者全員が令和7年度住民税非課税または児童扶養手当受給世帯であること等が要件です。生活保護受給世帯は対象外です。',
+    applicationPeriod: '2026年4月21日から2026年6月30日まで。令和8年度受付終了',
+    deadlineDate: '2026-06-30',
+    description: '台東区が、経済的理由により高等学校等への進学が困難な家庭に、入学にかかる費用の一部を助成する制度です。生成データの「奨学資金貸付制度」は現行の同名ページを確認できなかったため、公式確認できる現行の入学費用助成として補正しました。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>高等学校等へ進学する児童のいる世帯に対し、入学にかかる費用の一部を助成します。</p>'
+      },
+      {
+        heading: '主な要件',
+        content: '<p>対象児童が令和7年度に中学校等を卒業し令和8年度に高等学校等へ進学していること、児童と保護者が台東区に住所を有すること、保護者全員が住民税非課税または児童扶養手当受給世帯であること等が要件です。</p>'
+      },
+      {
+        heading: '受付状況',
+        content: '<p>令和8年度分の申請期間は2026年4月21日から2026年6月30日までで、受付は終了しています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/teate_josei/shougakukinn.html',
+    sourceName: '台東区 高等学校等の進学者に対して入学にかかる費用の一部を助成します',
+    sourceUrls: [
+      'https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/teate_josei/shougakukinn.html',
+      'https://www.city.taito.lg.jp/kurashi/soudan/seikatsu/r7syugakusikin.html'
+    ],
+    sourceNote: '台東区公式ページで高等学校等入学費用助成の対象、申請期間、受付終了を確認。保健福祉修学資金等貸付は令和7年度末で貸付終了と案内されているため、現行の一般奨学資金貸付としては掲載しない。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'taito-seismic-diagnosis',
+    title: '台東区 耐震診断・補強設計・耐震改修工事等に対する助成',
+    organization: '台東区',
+    type: 'local',
+    maxAmount: '木造住宅の耐震診断は上限20万円・10分の10等',
+    maxAmountNum: 20,
+    category: 'disaster',
+    prefecture: '東京都',
+    tags: ['台東区', '耐震診断', '住宅'],
+    eligibility: '昭和56年5月31日以前に建築された旧耐震基準の建築物や、平成12年5月31日以前に建築された木造新耐震住宅等の所有者が対象です。所有者、法人、中小企業者等の要件があり、助成を受けるには契約前の申請が必要です。',
+    applicationPeriod: '令和8年度の申請期限は2026年12月11日予定。必ず契約前に申請が必要です',
+    deadlineDate: '2026-12-11',
+    description: '台東区が、建築物の耐震診断、補強設計、耐震改修工事等の費用を助成する制度です。生成データの「木造住宅耐震診断助成制度」を、公式ページの現行制度名と助成区分に補正しました。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>旧耐震基準の建築物等について、耐震診断、補強設計、耐震改修工事等にかかる費用の一部を助成します。</p>'
+      },
+      {
+        heading: '耐震診断の助成額',
+        content: '<p>木造住宅は診断費用の10分の10、上限20万円。非木造住宅は2分の1、上限50万円。住宅以外の建築物は5分の4、上限20万円です。</p>'
+      },
+      {
+        heading: '申請期限',
+        content: '<p>令和8年度は2026年12月11日が申請期限予定です。契約前の申請が必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.taito.lg.jp/kenchiku/jutaku/taishinsien/taishin/taishinkoji.html',
+    sourceName: '台東区 耐震診断・補強設計・耐震改修工事等に対する助成',
+    sourceUrls: ['https://www.city.taito.lg.jp/kenchiku/jutaku/taishinsien/taishin/taishinkoji.html'],
+    sourceNote: '台東区公式ページで対象建築物、耐震診断の助成率・上限額、申請期限予定を確認。作業時点で旧PDFリンクは404化していたため参照URLには含めない。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'taito-senior-meal-service',
+    title: '台東区 高齢者配食サービス事業（重複候補）',
+    organization: '台東区社会福祉協議会・台東区',
+    type: 'local',
+    maxAmount: 'taito-elderly-supportに統合',
+    maxAmountNum: 0,
+    category: 'living',
+    prefecture: '東京都',
+    tags: ['台東区', '高齢者', '配食サービス', '重複候補'],
+    eligibility: '同一内容の配食サービスは taito-elderly-support に統合して掲載します。',
+    applicationPeriod: '重複候補。taito-elderly-supportに統合し通常一覧から除外',
+    deadlineDate: '2026-07-02',
+    description: '生成データ上で city-batch4 と city-batch40 に重複して存在した高齢者配食サービス候補です。公式確認できる実サービスは taito-elderly-support に集約し、このslugは重複回避のため通常一覧から除外します。',
+    sections: [
+      {
+        heading: '重複整理',
+        content: '<p>台東区の高齢者配食サービスは taito-elderly-support と同一内容のため、通常掲載は統合先に一本化します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.taito.lg.jp/kenkohukusi/korei/serviceannai/index.html',
+    sourceName: '台東区 高齢者サービス案内・配食サービス',
+    sourceUrls: [
+      'https://www.city.taito.lg.jp/kenkohukusi/korei/serviceannai/index.html',
+      'https://www.city.taito.lg.jp/kenkohukusi/korei/serviceannai/koureisyanotebiki.files/20260401.pdf',
+      'https://www.city.taito.lg.jp/kusei/sanka/kanko/benricho/kurashinoshiori.files/13koureisya.pdf'
+    ],
+    sourceNote: 'city-batch4 と city-batch40 の重複候補を確認。公式確認できる配食サービスは taito-elderly-support に統合し、重複slugは期限切れ扱いで通常一覧から除外。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'taito-sme-support',
+    title: '台東区 中小企業融資制度・中小企業支援',
+    organization: '台東区',
+    type: 'local',
+    maxAmount: '融資あっ旋・利子補助・信用保証料補助は制度により異なる',
+    maxAmountNum: 0,
+    category: 'employment',
+    prefecture: '東京都',
+    tags: ['台東区', '中小企業', '融資', '経営相談'],
+    eligibility: '台東区内の中小企業者等が対象です。制度ごとに、区内事業所、事業実態、税の滞納がないこと、信用保証対象業種であること等の要件があります。',
+    applicationPeriod: '制度により異なります。融資あっ旋や相談は事前相談が必要な場合があります',
+    description: '台東区が、中小企業向けに経営相談、融資あっ旋、利子補助、信用保証料補助、各種助成金を案内する支援制度群です。生成データの「中小企業経営支援補助金」は同名の現行単独補助として確認できないため、公式確認できる中小企業支援・融資制度として補正しました。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>台東区では、中小企業向けに経営相談、融資あっ旋、利子補助、信用保証料補助、助成金などを案内しています。</p>'
+      },
+      {
+        heading: '融資制度',
+        content: '<p>中小企業の資金調達を支援するため、東京信用保証協会の保証付き融資のあっ旋と、利子・信用保証料の補助を行います。</p>'
+      },
+      {
+        heading: '注意点',
+        content: '<p>補助額、融資限度額、利率、保証料補助は制度区分ごとに異なるため、申請前に公式ページと相談窓口で確認が必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.taito.lg.jp/bunka_kanko/jigyoukeiei/index.html',
+    sourceName: '台東区 中小企業支援・中小企業融資制度',
+    sourceUrls: [
+      'https://www.city.taito.lg.jp/bunka_kanko/jigyoukeiei/index.html',
+      'https://www.city.taito.lg.jp/bunka_kanko/jigyoukeiei/yusijoseikin/yushiseido/top.html',
+      'https://www.city.taito.lg.jp/bunka_kanko/jigyoukeiei/keiei/soudan.html'
+    ],
+    sourceNote: '台東区公式の中小企業支援一覧、融資制度ページ、経営相談ページで中小企業向け支援、融資あっ旋、利子補助、信用保証料補助、相談制度を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'taito-startup-support',
+    title: '台東区 開業支援資金（台開）',
+    organization: '台東区',
+    type: 'local',
+    maxAmount: 'あっ旋限度額1,000万円',
+    maxAmountNum: 1000,
+    category: 'employment',
+    prefecture: '東京都',
+    tags: ['台東区', '創業支援', '開業資金', '融資'],
+    eligibility: '区内でこれから創業する方、または開業後1年未満の方等が対象です。原則として融資希望額の3分の1以上の自己資金が必要で、申し込みには経営相談員との面談予約が必要です。',
+    applicationPeriod: '通年受付。事前に経営相談員との面談予約が必要です',
+    description: '台東区が、創業予定者や開業後間もない事業者に対し、開業資金の融資あっ旋を行う制度です。直接給付型の創業補助金ではなく、融資・利子等の支援制度として掲載します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>台東区内で創業予定または開業後1年未満の方を対象に、開業資金の融資あっ旋を行います。</p>'
+      },
+      {
+        heading: '融資限度額',
+        content: '<p>あっ旋限度額は1,000万円です。おおむね融資希望額の3分の1以上の自己資金が必要と案内されています。</p>'
+      },
+      {
+        heading: '申請の流れ',
+        content: '<p>申し込みには、事前に経営相談員との面談予約が必要です。特定創業支援等事業の証明により、登録免許税軽減等の別支援を受けられる場合があります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.taito.lg.jp/bunka_kanko/jigyoukeiei/yusijoseikin/yushiseido/tokushuseido/201510_kai.html',
+    sourceName: '台東区 開業支援資金（台開）',
+    sourceUrls: [
+      'https://www.city.taito.lg.jp/bunka_kanko/jigyoukeiei/yusijoseikin/yushiseido/tokushuseido/201510_kai.html',
+      'https://www.city.taito.lg.jp/bunka_kanko/jigyoukeiei/sougyoushien/tokuteisougyoushien.html'
+    ],
+    sourceNote: '台東区公式ページで開業支援資金の対象、あっ旋限度額1,000万円、自己資金要件、経営相談員との面談予約、特定創業支援等事業を確認。旧生成データの直接補助金表現は融資制度へ補正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
     slug: 'setagaya-daycare-support',
     title: '世田谷区 無認可保育施設保育料補助（令和8年度）',
     organization: '世田谷区',
