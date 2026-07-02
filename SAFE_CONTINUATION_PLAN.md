@@ -3238,3 +3238,35 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - 北海道Batch 83として江別市11件（`ebetsu-birth-bonus` / `ebetsu-childcare-subsidy` / `ebetsu-education-support` / `ebetsu-elderly-support` / `ebetsu-housing-purchase` / `ebetsu-infertility` / `ebetsu-nursing-equipment` / `ebetsu-scholarship` / `ebetsu-seismic-diagnosis` / `ebetsu-sme-support` / `ebetsu-vaccination-support`）を同一サイクルで公式確認する。
+
+## 2026-07-02 北海道Batch 83 追加ログ
+
+北海道の次候補である江別市11件を1サイクルで公式確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。公式一次情報で確認できた制度は掲載し、現行公式制度として確認できない候補は期限切れ扱いで抑止した。
+
+追加・補正:
+
+- `ebetsu-birth-bonus`: 出産祝金制度は現行公式制度として確認できないため、「えべつ☆うえるかむ赤ちゃん事業（妊婦のための支援給付）」へ補正。妊婦1人5万円、胎児1人5万円、所得制限なしを確認。
+- `ebetsu-childcare-subsidy`: 幼児教育・保育の無償化へ補正。3〜5歳無償、0〜2歳非課税世帯無償、令和8年10月以降の認可外保育施設等上限引き上げを確認。
+- `ebetsu-education-support`: 就学援助制度を公式確認。給食費全額、修学旅行費、新入学学用品費、令和8年度の学年別申請期限を確認。
+- `ebetsu-elderly-support`: 高齢者福祉事業へ補正。緊急通報サービス助成、在宅高齢者等給食サービス、ふれあい入浴デーを確認。
+- `ebetsu-housing-purchase`: 住宅取得支援補助金は現行公式制度として確認できず、住まいに関する主な支援制度ページにも市独自住宅取得補助は掲載なし。通常一覧から除外。
+- `ebetsu-infertility`: 不妊治療費（先進医療）等助成へ補正。先進医療費10分の7、上限3万5千円、交通費助成を確認。
+- `ebetsu-nursing-equipment`: 介護用品支給事業は現行公式制度として確認できず、介護保険の特定福祉用具購入費支給へ補正。同年度10万円上限、保険給付7〜9割を確認。
+- `ebetsu-scholarship`: 江別市奨学金制度を公式確認。高校生向け貸与、公立月額8,000円、私立月額18,000円、毎年12名程度を確認。
+- `ebetsu-seismic-diagnosis`: 木造住宅耐震診断・補強設計・耐震改修・除却補助金へ補正。耐震診断上限8万9千円、補強設計10万円、耐震改修82万2千円、除却30万円を確認。
+- `ebetsu-sme-support`: 江別市商工業活性化事業補助金へ補正。商店街来客利便施設整備上限400万円、建築協定推進上限200万円、空き店舗等リノベーション上限100万円等を確認。
+- `ebetsu-vaccination-support`: 高齢者予防接種助成として肺炎球菌・帯状疱疹を公式確認。肺炎球菌自己負担5,700円、帯状疱疹自己負担4,400円または11,000円、令和8年度帯状疱疹実施期間2026年4月1日から2027年3月31日を確認。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug ...江別市11件 --concurrency 10 --timeout-ms 60000`: 採用sourceUrls 28件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 北海道 --limit 40`: 北海道の未照合raw slugは122件から111件に減少。次の先頭候補は札幌市9件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは3,049件から3,038件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,831件、activeWithoutOfficialSourceは3,042件、北海道ローカル公式確認済みは48件。active全体4,873件に対する公式確認済みactive比率は約37.6%。
+- `npm run build`: 成功。静的ページ4,476件生成、`/grant/[slug]` は2,057件。
+
+次回再開位置:
+
+- 北海道Batch 84として札幌市9件（`sapporo-birth-bonus` / `sapporo-childcare-subsidy` / `sapporo-elderly-support` / `sapporo-housing-eco-reform` / `sapporo-infertility` / `sapporo-newlywed-rent` / `sapporo-nursing-equipment` / `sapporo-scholarship` / `sapporo-sme-support`）を同一サイクルで公式確認する。
