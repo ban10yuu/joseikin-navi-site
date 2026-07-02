@@ -4151,3 +4151,38 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 - 茨城県Batch 110として、土浦市先頭候補（`tsuchiura-birth-bonus` / `tsuchiura-birth-bonus-v2` / `tsuchiura-bousai-equipment` / `tsuchiura-bousai-equipment-v2` / `tsuchiura-childcare-subsidy` / `tsuchiura-childcare-subsidy-v2` / `tsuchiura-disability-medical` / `tsuchiura-disability-medical-v2` / `tsuchiura-education-support` / `tsuchiura-elderly-support` / `tsuchiura-energy-support` / `tsuchiura-housing-reform`）を公式一次情報で確認する。
 - 土浦市は同一趣旨の重複slugが多いため、公式制度へ統合・受付終了扱い・掲載停止扱いを明確に分けて進める。
+
+## 2026-07-03 茨城県Batch 110 追加ログ
+
+土浦市先頭12件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。生成データの「出産祝い金」「防災設備補助」「認可外保育料月額補助」「重度障がい者医療費助成の重複」「省エネ家電補助」「住宅リフォーム通年受付」などは、公式で確認できる制度、受付終了制度、または掲載停止扱いへ補正した。
+
+追加・補正:
+
+- `tsuchiura-childcare-subsidy`: 子育て世帯生活応援特別給付金へ補正。土浦市の令和8年第1回市議会臨時会資料で、低所得子育て世帯へ児童1人5万円を支給する補正予算事業を確認。個別申請ページは未確認のため、対象詳細・期限は断定しない。
+- `tsuchiura-birth-bonus`: 妊婦のための支援給付（妊婦支援給付金）へ補正。妊婦1人5万円、胎児1人5万円を確認。
+- `tsuchiura-birth-bonus-v2`: 生成データの出産祝い金は公式現行制度として確認できず、妊婦支援給付金への重複統合・掲載停止扱い。
+- `tsuchiura-bousai-equipment`: 住宅用火災警報器・感震ブレーカー取付支援へ補正。機器購入補助ではなく、対象世帯への消防職員による取付支援と確認。
+- `tsuchiura-bousai-equipment-v2`: 自主防災組織活動育成事業補助へ補正。資機材等整備は補助率4分の3、上限75万円、対象は町内会・自主防災組織。
+- `tsuchiura-childcare-subsidy-v2`: 幼児教育・保育無償化・保育費用保護者負担金軽減へ補正。3〜5歳児等の無償化と0〜2歳児保育料の約5%軽減を確認。
+- `tsuchiura-disability-medical`: 重度心身障害者医療福祉費支給制度（マル福）へ補正。保険診療自己負担分の助成を確認。
+- `tsuchiura-disability-medical-v2`: 同一制度の重複候補として通常一覧から除外。
+- `tsuchiura-education-support`: 就学援助制度へ補正。学用品費、修学旅行費、校外活動費等を援助。土浦市立学校給食費は当面無償のため、就学援助費としての支給はない点を明記。
+- `tsuchiura-elderly-support`: 高齢者等在宅生活支援配食サービス・緊急通報システムへ補正。配食による安否確認と緊急通報装置設置を確認。
+- `tsuchiura-energy-support`: 土浦市物価高騰対策支援事業へ補正。省エネ家電補助ではなく、市民1人あたり5,000円のデジタルギフトまたはプリペイドカード支給と確認。
+- `tsuchiura-housing-reform`: 住宅リフォーム助成制度へ補正。令和8年度受付は2026年6月30日で終了、上限10万円、通常一覧から除外。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node -e ...duplicate`: 重複slug 0、土浦市slug 13件。
+- `node scripts/check-grant-source-urls.mjs --slug ...土浦市12件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 26件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 茨城県 --limit 35`: 茨城県の未照合raw slugは40件から28件に減少。次の先頭は土浦市残り8件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,717件から2,705件に減少。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,075件、activeWithoutOfficialSourceは2,709件、茨城県ローカル公式確認済みは65件。active全体4,784件に対する公式確認済みactive比率は約43.4%。
+- `npm run build`: 速度改善方針により今回は省略。対象ESLint、URL検証、raw gap監査、coverageが通っている。茨城県raw gap完了時、20〜50件節目、または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 茨城県Batch 111として、土浦市残り8件（`tsuchiura-newlywed-rent` / `tsuchiura-newlywed-rent-v2` / `tsuchiura-nursing-home-reform` / `tsuchiura-nursing-home-reform-v2` / `tsuchiura-school-lunch` / `tsuchiura-school-lunch-v2` / `tsuchiura-sme-support` / `tsuchiura-telework-bonus`）を公式一次情報で確認する。
+- 土浦市完了後は、日立市の先頭候補（`hitachi-birth-bonus` / `hitachi-bousai-equipment` / `hitachi-childcare-subsidy` / `hitachi-cliff-collapse` など）へ進む。
