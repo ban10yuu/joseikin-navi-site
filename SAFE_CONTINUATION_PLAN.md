@@ -3963,3 +3963,38 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - 茨城県Batch 104として、まず `node scripts/audit-raw-verified-gaps.mjs --limit 12` の先頭に出たつくば市12件（`tsukuba-barrier-free` / `tsukuba-birth-bonus` / `tsukuba-bus-pass` / `tsukuba-childcare-subsidy` / `tsukuba-education-support` / `tsukuba-elderly-support` / `tsukuba-home-care` / `tsukuba-housing-eco` / `tsukuba-housing-purchase` / `tsukuba-infertility` / `tsukuba-kosodate-taxi` / `tsukuba-nursing-equipment`）を公式一次情報で確認する。
+
+## 2026-07-03 茨城県Batch 104 追加ログ
+
+つくば市12件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。生成データの「出産祝い金」「生活交通パス助成」「第2子以降保育料無料」「配食サービス補助」「住宅省エネ設備補助」「住宅取得支援」「在宅介護支援手当」などは、公式で確認できる現行制度または受付終了制度へ補正した。
+
+追加・補正:
+
+- `tsukuba-barrier-free`: 介護保険住宅改修・福祉用具購入へ補正。要介護・要支援認定者、住宅改修費上限20万円の9割から7割支給、工事前相談・事前申請を確認。
+- `tsukuba-birth-bonus`: 妊婦のための支援給付（妊婦支援給付金）へ補正。1回目5万円、2回目は胎児1人5万円、所得制限なしを確認。
+- `tsukuba-bus-pass`: 高齢者・出産支援等運賃割引へ補正。つくバス・つくタク等の高齢者割引、出産支援割引、障害者割引による運賃半額を確認。
+- `tsukuba-childcare-subsidy`: 多子世帯保育料助成（軽減）・幼児教育保育無償化へ補正。第2子・第3子の階層に応じた半額または全額助成、無償化の認定申請を確認。
+- `tsukuba-education-support`: 小中義務教育学校における就学援助費へ補正。学用品費、学校給食費、修学旅行費などを確認。修学旅行費は中学校上限8万円。
+- `tsukuba-elderly-support`: 在宅高齢者福祉助成券事業へ補正。紙おむつ購入費助成1,000円券24枚、高齢者タクシー運賃助成500円券24枚等を確認。
+- `tsukuba-home-care`: 高齢者日常生活支援事業（すけっとくん）へ補正。500円券を1世帯12枚と確認。生成データの月額1万円手当は公式確認できず採用しない。
+- `tsukuba-housing-eco`: 蓄電池・自然冷媒ヒートポンプ式給湯機補助金へ補正。蓄電池・エコキュート各5万円、令和8年度は予定件数到達で受付終了、追加予算時は10月頃再開可能性を確認。
+- `tsukuba-housing-purchase`: 空家活用補助金へ補正。改修工事は補助対象経費2分の1・上限50万円、家財処分は2分の1・上限10万円、2026年12月28日締切を確認。
+- `tsukuba-infertility`: 不妊治療費（先進医療）助成事業へ補正。1回上限4万円、先進医療のみ、2026年4月1日から2027年2月末までを確認。
+- `tsukuba-kosodate-taxi`: 妊産婦タクシー利用費助成事業へ補正。妊婦健診、入退院、産婦健診等のタクシー利用費を上限2万円まで助成と確認。
+- `tsukuba-nursing-equipment`: 在宅要介護高齢者等紙おむつ購入費助成事業へ補正。1,000円券24枚の交付を確認。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- `node -e ...duplicate`: 重複slug 0、つくば市の公式確認済みslugは既存の `tsukuba-child-medical` を含め13件。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug ...つくば市12件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 24件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 茨城県 --limit 40`: 茨城県の未照合raw slugは91件から79件に減少。次の先頭はつくば市残り8件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,768件から2,756件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,039件、activeWithoutOfficialSourceは2,760件、茨城県ローカル公式確認済みは29件。active全体4,799件に対する公式確認済みactive比率は約42.5%。
+- `npm run build`: 速度改善方針により今回は省略。対象ESLint、URL検証、raw gap監査、coverageが通っている。茨城県raw gap完了時、20〜50件節目、または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 茨城県Batch 105として、つくば市残り8件（`tsukuba-rental-subsidy` / `tsukuba-research-intern` / `tsukuba-scholarship` / `tsukuba-science-camp` / `tsukuba-seismic-diagnosis` / `tsukuba-specific-disease` / `tsukuba-telework-bonus` / `tsukuba-twin-childcare`）を公式一次情報で確認する。
+- つくば市完了後は茨城県庁2件（`ibaraki-housing-eco` / `ibaraki-startup-support`）へ進み、その後は古河市・水戸市・土浦市の順にraw gapを潰す。
