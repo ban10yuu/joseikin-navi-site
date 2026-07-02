@@ -2733,3 +2733,33 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 - `tasks/todo.md` の次回候補どおり、東大和市8件（`higashiyamato-afterschool` / `higashiyamato-birth-bonus` / `higashiyamato-childcare-subsidy` / `higashiyamato-energy-support` / `higashiyamato-infertility` / `higashiyamato-nursing-home-reform` / `higashiyamato-seismic-diagnosis` / `higashiyamato-telework-bonus`）を同じ高速方針で公式一次情報確認・補正する。
 - 全体リンク・期限監査は数バッチ単位でまとめる。次の節目ではbuild後に `npm run audit:deadlines` を再実行する。
+
+## 2026-07-02 東京都Batch 69 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の東大和市8件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・補正した。公式ページが検索結果で本文取得できたため、東村山市より短時間で「現行制度」「広域制度への補正」「助成金非該当/公式確認不可」を切り分けた。
+
+追加・補正:
+
+- `higashiyamato-afterschool`: 放課後子ども教室は居場所提供事業であり、現金給付・補助金ではないため助成金非該当として通常一覧から除外。
+- `higashiyamato-birth-bonus`: 市独自の出産順位別祝い金は公式確認不可。東大和市「妊婦のための支援給付」へ補正。妊娠時5万円、出産時は胎児数×5万円として整理。
+- `higashiyamato-childcare-subsidy`: 令和8年度認可外保育施設利用者に対する補助制度へ補正。0〜2歳は月額保育料3分の1・上限2万1,000円に、第1子・多子世帯支援上限4万円等を確認。
+- `higashiyamato-energy-support`: 市独自の省エネ家電買替え補助は公式確認不可。東大和市内登録販売店も対象となる東京都「東京ゼロエミポイント」へ補正。
+- `higashiyamato-infertility`: 東大和市「不妊検査、不育症検査及び不妊治療費助成」へ補正。東京都助成後の自己負担に対し、不妊検査等上限1万円、不育症検査上限2万円、特定不妊治療（先進医療）上限3万円を確認。
+- `higashiyamato-nursing-home-reform`: 介護保険住宅改修費支給へ補正。支給対象限度額20万円、工事前の事前申請必須を確認。
+- `higashiyamato-seismic-diagnosis`: 木造住宅耐震診断・耐震改修・除却助成へ補正。耐震診断は費用3分の1・上限5万円、耐震改修は費用3分の1・上限30万円を確認。
+- `higashiyamato-telework-bonus`: 東大和市独自のテレワーク推進補助金は公式確認不可。東京都・東京しごと財団の広域制度は関連情報として示し、通常一覧から除外。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 20`: 東京都の未照合raw slugは102件から94件に減少。次の候補は日野市2件、八王子市、板橋区。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは3,192件から3,184件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,726件、東京都ローカル公式確認済みは291件、activeWithoutOfficialSourceは3,188件。
+- 採用した東大和市公式・東京ゼロエミ・東京都たましま移住定住ポータル・東京都耐震ポータル・東京しごと財団URL 13件はすべてHTTP 200。
+- `npm run build`: 成功。静的ページ4,284件生成、`/grant/[slug]` は1,911件。
+
+次回再開位置:
+
+- `tasks/todo.md` の次回候補どおり、日野市2件（`hino-education-support` / `hino-startup-support`）から公式一次情報で確認する。その後、八王子市・板橋区へ進む。
+- 東京都未照合rawを短時間で減らすため、次回も自治体単位でまとめて処理し、公式確認不可候補は早めに抑止する。
