@@ -3007,3 +3007,31 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - `tasks/todo.md` の次回候補どおり、北区7件（`kita-birth-bonus` / `kita-childcare-subsidy` / `kita-education-support` / `kita-elderly-support` / `kita-nursing-equipment` / `kita-scholarship` / `kita-senior-mimamori`）を公式一次情報で確認する。
+
+## 2026-07-02 東京都Batch 77 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の北区7件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・補正した。既存verifiedに近い制度がある候補は重複抑止し、受付終了制度は期限切れ扱いで通常一覧から除外した。
+
+追加・補正:
+
+- `kita-birth-bonus`: 出産・子育て応援事業候補は、既存verifiedの `kita-pregnancy-support-benefit` と同じ「北区妊婦のための支援給付」へ統合。妊婦1人5万円、胎児1人5万円を確認し、重複掲載を抑止。
+- `kita-childcare-subsidy`: 子育て応援給付金候補を「物価高対応子育て応援手当」へ補正。児童1人2万円、2026年5月12日受付終了のため通常一覧から除外。
+- `kita-education-support`: 北区就学援助へ補正。対象者、認定基準額、支給費目、令和8年度4月認定申請期限2026年4月30日、期限後随時申請を確認。
+- `kita-elderly-support`: 抽象的な高齢者自立生活支援候補を「高齢者スマートフォン購入費補助事業」へ補正。令和8年度実施、上限3万円、2027年3月31日まで・予算到達終了を確認。
+- `kita-nursing-equipment`: 介護用品支給事業候補を「要介護高齢者等紙おむつ支給・おむつ代金助成」へ補正。支給対象要件、対象外要件、おむつ代金助成月額6,000円上限を確認。
+- `kita-scholarship`: 奨学資金貸付制度候補を「奨学金返済支援給付事業（令和8年度募集）」へ補正。5年間最大100万円、Web申請2026年7月31日、添付書類2026年8月31日必着を確認。
+- `kita-senior-mimamori`: 高齢者見守り・安心生活支援候補を「高齢者見守り・緊急通報システム」へ補正。対象者、24時間対応、月1回のお伺い電話、令和8年度費用、非課税・生活保護世帯無料を確認。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug kita-birth-bonus,kita-childcare-subsidy,kita-education-support,kita-elderly-support,kita-nursing-equipment,kita-scholarship,kita-senior-mimamori --concurrency 8 --timeout-ms 60000`: 採用sourceUrls 21件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 25`: 東京都の未照合raw slugは43件から36件に減少。次の候補は墨田区9件、目黒区。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは3,133件から3,126件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,773件、東京都ローカル公式確認済みは338件、activeWithoutOfficialSourceは3,130件。
+- `npm run build`: 成功。静的ページ4,365件生成、`/grant/[slug]` は1,968件。
+
+次回再開位置:
+
+- `tasks/todo.md` の次回候補どおり、墨田区9件（`sumida-birth-bonus` / `sumida-childcare-subsidy` / `sumida-elderly-support` / `sumida-housing-eco-reform` / `sumida-infertility` / `sumida-nursing-equipment` / `sumida-scholarship` / `sumida-seismic-diagnosis` / `sumida-sme-support`）を公式一次情報で確認する。

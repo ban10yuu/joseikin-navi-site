@@ -637,6 +637,8 @@
 - [x] 東京都Batch 75の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 18件はHTTP 200、東京都の未照合raw slugは54件から48件、全国未照合raw slugは3,144件から3,138件に減少、coverage failures 0、公式確認済みactiveは1,765件、東京都ローカル公式確認済みは330件、buildは4,350ページ生成・`/grant/[slug]` 1,957件）
 - [x] 東京都Batch 76として豊島区5件を公式確認済み追加・補正（子どもスキップ、物価高騰対策支援給付金の受付終了、特定不妊治療費助成の終了抑止、高齢者紙おむつ等支給、木造住宅の耐震診断助成事業）
 - [x] 東京都Batch 76の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 15件はHTTP 200、東京都の未照合raw slugは48件から43件、全国未照合raw slugは3,138件から3,133件に減少、coverage failures 0、公式確認済みactiveは1,768件、東京都ローカル公式確認済みは333件、buildは4,356ページ生成・`/grant/[slug]` 1,961件）
-- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 40` から、北区7件（`kita-birth-bonus` / `kita-childcare-subsidy` / `kita-education-support` / `kita-elderly-support` / `kita-nursing-equipment` / `kita-scholarship` / `kita-senior-mimamori`）を公式一次情報で追加・補正する。同一自治体の公式候補URLを一括収集し、追加後は `scripts/check-grant-source-urls.mjs` でまとめて検証する
+- [x] 東京都Batch 77として北区7件を公式確認済み追加・補正（出産・子育て応援事業の妊婦支援給付への重複統合、物価高対応子育て応援手当の受付終了、就学援助、高齢者スマートフォン購入費補助、要介護高齢者等紙おむつ支給・おむつ代金助成、奨学金返済支援給付事業、高齢者見守り・緊急通報システム）
+- [x] 東京都Batch 77の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 21件はHTTP 200、東京都の未照合raw slugは43件から36件、全国未照合raw slugは3,133件から3,126件に減少、coverage failures 0、公式確認済みactiveは1,773件、東京都ローカル公式確認済みは338件、buildは4,365ページ生成・`/grant/[slug]` 1,968件）
+- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 40` から、墨田区9件（`sumida-birth-bonus` / `sumida-childcare-subsidy` / `sumida-elderly-support` / `sumida-housing-eco-reform` / `sumida-infertility` / `sumida-nursing-equipment` / `sumida-scholarship` / `sumida-seismic-diagnosis` / `sumida-sme-support`）を公式一次情報で追加・補正する。同一自治体の公式候補URLを一括収集し、追加後は `scripts/check-grant-source-urls.mjs` でまとめて検証する
 - [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugを公式確認済みデータへ置換し、raw重複の実害を減らす
 - [ ] push / 公開反映は明示確認後に実行
