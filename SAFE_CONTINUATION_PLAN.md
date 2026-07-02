@@ -2883,3 +2883,39 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - `tasks/todo.md` の次回候補を品川区9件へ進める。対象は `shinagawa-birth-bonus` / `shinagawa-childcare-subsidy` / `shinagawa-dental-checkup` / `shinagawa-elderly-support` / `shinagawa-nursing-equipment` / `shinagawa-scholarship` / `shinagawa-senior-dental` / `shinagawa-sme-support` / `shinagawa-study-support`。
+
+## 2026-07-02 東京都Batch 73 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の品川区9件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・補正した。旧生成データの制度名・金額・対象者にずれがあったため、品川区公式ページ、品川区中小企業支援サイト、公式PDF、公式広報ページを確認し、現行制度・受付終了制度・公式確認可能な代替制度へ整理した。
+
+追加・補正:
+
+- `shinagawa-birth-bonus`: 出産・子育て応援給付金候補を現行制度「妊婦のための支援給付事業」へ補正。妊娠時5万円、出産後はお子さん1人あたり5万円。
+- `shinagawa-childcare-subsidy`: 令和8年度認可外保育施設保育料助成制度へ補正。施設区分・年齢・課税状況等により月額上限8万円。
+- `shinagawa-dental-checkup`: 成人歯科健康診査へ補正。対象年齢区民の無料歯科健診、実施期間は6月から翌年3月末。
+- `shinagawa-elderly-support`: 高齢者救急代理通報システムへ補正。65歳以上のひとり暮らし・高齢者のみ世帯等を対象に、月額利用料無料。
+- `shinagawa-nursing-equipment`: 高齢者介護用品支給候補は公式上の内容確認が弱いため、公式確認できる「紙おむつなどの支給」へ補正。身体障害者手帳・愛の手帳所持者で常時失禁のある方等に毎月配送。
+- `shinagawa-scholarship`: 給付型大学奨学金へ補正。年額54万円、令和7年度募集は2025年9月30日で終了のため通常一覧から除外。
+- `shinagawa-senior-dental`: 令和8年度高齢者歯科健診へ補正。対象者に無料、実施期間は2026年6月から2027年1月31日。
+- `shinagawa-sme-support`: 経営改善支援事業助成金へ補正。国の経営改善計画策定支援等への上乗せ、最大100万円、2027年2月26日まで。
+- `shinagawa-study-support`: フリースクール等利用料助成金へ補正。月額上限2万円、令和7年度受付は2026年3月31日で終了のため通常一覧から除外。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug shinagawa-birth-bonus,shinagawa-childcare-subsidy,shinagawa-dental-checkup,shinagawa-elderly-support,shinagawa-nursing-equipment,shinagawa-scholarship,shinagawa-senior-dental,shinagawa-sme-support,shinagawa-study-support --concurrency 8 --timeout-ms 60000`: 採用sourceUrls 23件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 25`: 東京都の未照合raw slugは71件から62件に減少。次の候補は武蔵野市8件、文京区。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは3,161件から3,152件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,753件、東京都ローカル公式確認済みは318件、activeWithoutOfficialSourceは3,156件。
+- `npm run build`: 成功。静的ページ4,328件生成、`/grant/[slug]` は1,943件。
+
+速度改善メモ:
+
+- 全国の公開中データに対する公式確認済みは1,753 / 4,909件で約35.7%。raw候補slug基準では1,946 / 4,375件で約44.5%。東京都は公式確認済み318件・未照合62件で約83.7%まで進捗。
+- 以後は速度優先プロトコルとして、同一自治体の公式候補URLを一括収集し、必須確認項目を制度名・対象・金額/支援内容・期限/年度・公式URLに絞る。補助PDFの深掘りは必須項目の裏取りが必要な場合だけ行う。
+- 小バッチごとの手作業URL確認は避け、追加済みレコードから `officialUrl` / `sourceUrls` を抽出する `scripts/check-grant-source-urls.mjs` を使う。`npm run build` は節目でまとめて実行する。
+
+次回再開位置:
+
+- `tasks/todo.md` の次回候補どおり、武蔵野市8件（`musashino-afterschool-care` / `musashino-appliance-subsidy` / `musashino-home-care` / `musashino-maternity-dental` / `musashino-nursery-support` / `musashino-school-lunch` / `musashino-vaccination-subsidy` / `musashino-youth-employment`）を公式一次情報で確認する。

@@ -629,6 +629,8 @@
 - [x] 速度改善として `scripts/check-grant-source-urls.mjs` を追加。追加済みslugから実際の `officialUrl` / `sourceUrls` を抽出し、並列HTTP確認できるようにした。八王子市Batch 71の35URLでfailures 0を確認
 - [x] 東京都Batch 72として板橋区8件を公式確認済み追加・補正（妊婦のための支援給付、心身障害者医療費助成マル障、あいキッズ、女性起業支援助成金の公式確認不可抑止、高齢者紙おむつ等の支給、多世代住み替え支援事業、木造住宅の耐震化促進事業、創業支援融資）
 - [x] 東京都Batch 72の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 20件はHTTP 200、東京都の未照合raw slugは79件から71件、全国未照合raw slugは3,169件から3,161件に減少、coverage failures 0、公式確認済みactiveは1,746件、buildは4,315ページ生成・`/grant/[slug]` 1,934件）
-- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 40` から、品川区9件（`shinagawa-birth-bonus` / `shinagawa-childcare-subsidy` / `shinagawa-dental-checkup` / `shinagawa-elderly-support` / `shinagawa-nursing-equipment` / `shinagawa-scholarship` / `shinagawa-senior-dental` / `shinagawa-sme-support` / `shinagawa-study-support`）を公式一次情報で追加・補正する。続けて武蔵野市へ進む
+- [x] 東京都Batch 73として品川区9件を公式確認済み追加・補正（妊婦のための支援給付、令和8年度認可外保育施設保育料助成、成人歯科健康診査、高齢者救急代理通報システム、紙おむつなどの支給、給付型大学奨学金の募集終了、高齢者歯科健診、経営改善支援事業助成金、フリースクール等利用料助成金の受付終了）
+- [x] 東京都Batch 73の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 23件はHTTP 200、東京都の未照合raw slugは71件から62件、全国未照合raw slugは3,161件から3,152件に減少、coverage failures 0、公式確認済みactiveは1,753件、東京都ローカル公式確認済みは318件、buildは4,328ページ生成・`/grant/[slug]` 1,943件）
+- [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 40` から、武蔵野市8件（`musashino-afterschool-care` / `musashino-appliance-subsidy` / `musashino-home-care` / `musashino-maternity-dental` / `musashino-nursery-support` / `musashino-school-lunch` / `musashino-vaccination-subsidy` / `musashino-youth-employment`）を公式一次情報で追加・補正する。速度優先のため、同一自治体の公式候補URLを先に一括収集し、追加後は `scripts/check-grant-source-urls.mjs` でまとめて検証する
 - [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugを公式確認済みデータへ置換し、raw重複の実害を減らす
 - [ ] push / 公開反映は明示確認後に実行
