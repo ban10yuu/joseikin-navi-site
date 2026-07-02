@@ -723,6 +723,8 @@
 - [x] 茨城県Batch 104の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 24件はすべてHTTP 200、茨城県の未照合raw slugは91件から79件、全国未照合raw slugは2,768件から2,756件に減少、coverage failures 0、公式確認済みactiveは2,039件、茨城県ローカル公式確認済みは29件。buildは速度改善方針により茨城県raw gap完了時または公開前へ繰り延べ）
 - [x] 茨城県Batch 105として、つくば市残り8件を公式確認済み追加・補正（住居確保給付金、つくば市インターンシップの受付終了・金銭給付なし扱い、高校奨学金、子ども体験事業補助金、木造住宅耐震診断士派遣事業、難病患者福祉金、ビジネス拡大支援補助金、多胎児世帯支援給付金の公式確認不可・掲載停止扱い）
 - [x] 茨城県Batch 105の検証（対象ESLintエラー0、diff check問題なし、重複slug 0、採用sourceUrls 14件はすべてHTTP 200、茨城県の未照合raw slugは79件から71件、全国未照合raw slugは2,756件から2,748件に減少、coverage failures 0、公式確認済みactiveは2,044件、茨城県ローカル公式確認済みは34件。buildは速度改善方針により茨城県raw gap完了時または公開前へ繰り延べ）
-- [ ] 次回候補: 茨城県庁2件（`ibaraki-housing-eco` / `ibaraki-startup-support`）を公式一次情報で確認し、その後は古河市の先頭候補へ進む
+- [x] 茨城県Batch 106として、茨城県庁2件を公式確認済み追加・補正（住宅省エネルギー改修補助事業は県直接の個人向け補助を公式確認不可・掲載停止扱い、スタートアップ創業支援補助金は地域課題解決型起業支援金へ補正し公募終了扱い）
+- [x] 茨城県Batch 106の検証（差し替え後の採用sourceUrls 5件はすべてHTTP 200、茨城県の未照合raw slugは71件から69件、全国未照合raw slugは2,748件から2,746件に減少、coverage failures 0、期限切れ漏れ0。2件とも通常一覧から除外のため公式確認済みactiveは2,044件のまま）
+- [ ] 次回候補: 古河市の先頭候補（`koga-afterschool` / `koga-birth-bonus` / `koga-bousai-equipment` / `koga-childcare-subsidy` / `koga-childcare-subsidy-v2` / `koga-daycare-support` など）を公式一次情報で確認する
 - [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugを公式確認済みデータへ置換し、raw重複の実害を減らす
 - [ ] push / 公開反映は明示確認後に実行

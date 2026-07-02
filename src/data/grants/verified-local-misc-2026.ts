@@ -48444,4 +48444,63 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt: '2026-07-03',
     publishedAt: '2026-07-03',
   },
+  {
+    slug: 'ibaraki-housing-eco',
+    title: '茨城県 住宅省エネルギー改修補助事業（県直接補助は公式確認不可）',
+    organization: '茨城県',
+    type: 'local',
+    maxAmount: '県の個人向け直接補助は確認不可',
+    maxAmountNum: 0,
+    category: 'housing',
+    relatedCategories: ['living'],
+    prefecture: '茨城県',
+    tags: ['茨城県', '住宅省エネ', '公式確認不可', '掲載停止'],
+    eligibility: '生成データにある既存住宅の省エネ改修へ県が個人に最大50万円を直接補助する制度は、現行公式情報として確認できません。',
+    applicationPeriod: '公式現行制度として確認できないため通常一覧から除外',
+    deadlineDate: '2026-07-02',
+    description: '茨城県公式情報では、家庭用蓄電池等の自立・分散型エネルギー設備について県から市町村への補助は確認できますが、県が個人へ直接交付する住宅省エネルギー改修補助事業は確認できませんでした。誤掲載を避けるため通常一覧から除外します。',
+    sections: [
+      { heading: '確認できた制度', content: '<p>茨城県は家庭用蓄電池を設置する個人等へ補助を行う市町村に対し、自立・分散型エネルギー設備導入促進事業費補助金を交付しています。個人への補助は市町村の制度を通じて行われます。</p>' },
+      { heading: '掲載停止の理由', content: '<p>生成データにある「既存住宅の断熱改修や高効率給湯器導入へ県が最大50万円を直接補助する制度」は、茨城県公式サイト上の現行制度として確認できませんでした。</p>' }
+    ],
+    officialUrl: 'https://www.pref.ibaraki.jp/seikatsukankyo/kansei/chikyu/jiritsubunsan.html',
+    sourceName: '茨城県 自立・分散型エネルギー設備導入促進事業費補助金',
+    sourceUrls: [
+      'https://www.pref.ibaraki.jp/seikatsukankyo/kansei/chikyu/jiritsubunsan.html',
+      'https://www.pref.ibaraki.jp/doboku/jutaku/minkan/zyosei_kuni.html',
+      'https://www.pref.ibaraki.jp/seikatsukankyo/kansei/chikyu/shien.html'
+    ],
+    sourceNote: '2026年7月3日に、茨城県公式ページで自立・分散型エネルギー設備導入促進事業費補助金は県が市町村へ補助する制度であり、家庭用蓄電池を設置する個人等への補助は市町村実施であることを確認。住宅関連助成制度一覧も確認したが、生成データの県直接の住宅省エネルギー改修補助事業・最大50万円は確認できず掲載停止扱い。',
+    verifiedAt: '2026-07-03',
+    publishedAt: '2026-07-03',
+  },
+  {
+    slug: 'ibaraki-startup-support',
+    title: '茨城県地域課題解決型起業支援金（公募終了）',
+    organization: '茨城県',
+    type: 'local',
+    maxAmount: '最大200万円（公募終了）',
+    maxAmountNum: 200,
+    category: 'employment',
+    relatedCategories: ['living'],
+    prefecture: '茨城県',
+    tags: ['茨城県', '起業支援金', 'スタートアップ', '公募終了'],
+    eligibility: '茨城県内で地域の課題解決に資する社会的事業を新たに起業する方で、要件を満たす方が対象でした。',
+    applicationPeriod: '令和8年度は2026年4月17日〜2026年5月28日17時。公募終了',
+    deadlineDate: '2026-05-28',
+    description: '茨城県が、地域課題の解決を目的に県内で起業する方を支援した起業支援金です。令和8年度公募は終了しているため、通常の現行募集としては扱いません。',
+    sections: [
+      { heading: '支援内容', content: '<p>地域課題の解決に資する社会的事業の起業に必要な経費を補助する制度です。補助率は2分の1以内、補助限度額は200万円です。</p>' },
+      { heading: '受付状況', content: '<p>令和8年度公募は2026年4月17日から5月28日17時までで終了しています。公募要領では、交付決定後に補助事業を開始し、2027年1月31日までに事業を完了する必要があると案内されています。</p>' }
+    ],
+    officialUrl: 'https://www.pref.ibaraki.jp/shokorodo/sangi/chiikikadai.html',
+    sourceName: '茨城県地域課題解決型起業支援金',
+    sourceUrls: [
+      'https://www.pref.ibaraki.jp/shokorodo/sangi/chiikikadai.html',
+      'https://www.pref.ibaraki.jp/shokorodo/sangi/06chiikikadai04.html'
+    ],
+    sourceNote: '2026年7月3日に、茨城県公式ページで地域課題解決型起業支援金、令和8年度公募、申請期間2026年4月17日〜5月28日17時、対象者、補助率1/2以内、補助限度額200万円、補助事業完了期限2027年1月31日を確認。生成データのスタートアップ創業支援補助金を公式名称へ補正し、公募終了扱い。',
+    verifiedAt: '2026-07-03',
+    publishedAt: '2026-07-03',
+  },
 ];

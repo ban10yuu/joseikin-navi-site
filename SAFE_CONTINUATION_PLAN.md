@@ -4029,3 +4029,27 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 - 茨城県Batch 106として、茨城県庁2件（`ibaraki-housing-eco` / `ibaraki-startup-support`）を公式一次情報で確認する。
 - その後は古河市（`koga-afterschool` / `koga-birth-bonus` / `koga-bousai-equipment` / `koga-childcare-subsidy` など）へ進む。
+
+## 2026-07-03 茨城県Batch 106 追加ログ
+
+茨城県庁2件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。2件とも現行active一覧へ出すべき制度ではないため、期限切れ・掲載停止扱いでraw gapだけ安全に解消した。
+
+追加・補正:
+
+- `ibaraki-housing-eco`: 住宅省エネルギー改修補助事業は県直接の個人向け最大50万円補助として公式確認できず掲載停止扱い。県公式では、家庭用蓄電池等について県が市町村へ補助し、個人等への補助は市町村制度を通じることを確認。住宅関連助成制度一覧と国の住宅省エネ支援案内も確認。
+- `ibaraki-startup-support`: 茨城県地域課題解決型起業支援金へ補正。令和8年度公募、申請期間2026年4月17日から5月28日17時、補助率2分の1以内、上限200万円、補助事業完了期限2027年1月31日を確認。公募終了のため通常一覧から除外。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node -e ...duplicate`: 重複slug 0。
+- `node scripts/check-grant-source-urls.mjs --slug ibaraki-housing-eco --slug ibaraki-startup-support --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 5件はすべてHTTP 200、failures 0。初回監査で旧県庁URL3件が404だったため、現行URLへ差し替え済み。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 茨城県 --limit 25`: 茨城県の未照合raw slugは71件から69件に減少。次の先頭は古河市。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,748件から2,746件に減少。
+- `npm run audit:coverage`: failures 0。2件とも期限切れ・掲載停止扱いのため、公式確認済みactiveは2,044件、茨城県ローカル公式確認済みは34件のまま。activeWithoutOfficialSourceは2,750件。
+- `npm run build`: 速度改善方針により今回は省略。対象ESLint、URL検証、raw gap監査、coverageが通っている。茨城県raw gap完了時、20〜50件節目、または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 茨城県Batch 107として、古河市の先頭候補（`koga-afterschool` / `koga-birth-bonus` / `koga-bousai-equipment` / `koga-childcare-subsidy` / `koga-childcare-subsidy-v2` / `koga-daycare-support` など）を公式一次情報で確認する。
