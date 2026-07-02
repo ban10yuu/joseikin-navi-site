@@ -3694,3 +3694,33 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - 愛知県Batch 96として半田市9件（`handa-care-robot` / `handa-childcare-leave-bonus` / `handa-community-bus` / `handa-earthquake-shelter-reform` / `handa-factory-iot` / `handa-gifted-support` / `handa-mental-health` / `handa-newlywed-housing` / `handa-preschool-free`）を公式一次情報で確認する。
+
+## 2026-07-02 愛知県Batch 96 追加ログ
+
+半田市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。生成データの制度名・金額はそのまま採用せず、半田市公式ページと公式PDFで確認できた制度へ置換した。市単独の現行制度として確認できない候補は期限切れ扱いで通常一覧から除外した。
+
+追加・補正:
+
+- `handa-care-robot`: 市単独の現行介護ロボット導入補助金は公式確認できず、第9期介護保険事業計画の介護ロボット・ICT活用促進方針を確認したうえで通常一覧から除外。
+- `handa-childcare-leave-bonus`: 市単独の育児休業取得奨励金は公式確認できず、愛知県男性育児休業取得促進奨励金の案内を確認したうえで通常一覧から除外。
+- `handa-community-bus`: 高齢者運転免許自主返納促進事業へ補正。満65歳以上・自主返納から1年以内、バス利用券18,000円分またはタクシー利用券5,000円分を確認。
+- `handa-earthquake-shelter-reform`: 耐震シェルター等設置費補助へ補正。耐震シェルター上限25万円、防災ベッド上限15万円、旧耐震木造住宅・無料耐震診断判定値1.0未満等を確認。
+- `handa-factory-iot`: 企業再投資促進補助金へ補正。土地を除く固定資産取得費、補助率10%、限度額10億円、事前相談が必要なことを確認。
+- `handa-gifted-support`: スポーツ・文化活動全国大会出場激励金へ補正。個人5,000円、団体5,000円×人数・上限30,000円、1年度1回を確認。
+- `handa-mental-health`: 精神障がい者医療費の助成へ補正。手帳1・2級または自立支援医療受給者証、保険診療自己負担分の助成を確認。
+- `handa-newlywed-housing`: 結婚新生活支援補助金は公式確認できず、結婚支援ページを確認したうえで通常一覧から除外。
+- `handa-preschool-free`: 保育料の補助・無償化へ補正。第2子以降の3歳児未満保育料無償、3歳児以上の保育料無償、延長保育料等は別負担を確認。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug ...半田市9件 --concurrency 3 --timeout-ms 60000`: 採用sourceUrls 13件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 愛知県 --limit 35`: 愛知県の未照合raw slugは50件から41件に減少。次の先頭候補は豊橋市19件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは2,865件から2,856件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,959件、activeWithoutOfficialSourceは2,860件、愛知県ローカル公式確認済みは69件。active全体4,819件に対する公式確認済みactive比率は約40.6%。
+- `npm run build`: 速度改善方針により今回は省略。直前の一宮市Batch 92でbuild成功済みで、今回は対象ESLint・URL検証・coverage・raw gap監査が通っている。次の20〜50件節目または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 愛知県Batch 97として豊橋市19件（`toyohashi-birth-bonus` / `toyohashi-bousai-equipment` / `toyohashi-care-robot` / `toyohashi-childcare-leave-bonus` / `toyohashi-childcare-subsidy` / `toyohashi-community-bus` / `toyohashi-disability-medical` / `toyohashi-earthquake-shelter-reform` / `toyohashi-education-support` / `toyohashi-energy-support` / `toyohashi-factory-iot` / `toyohashi-gifted-support` / `toyohashi-mental-health` / `toyohashi-newlywed-housing` / `toyohashi-newlywed-rent` / `toyohashi-nursing-home-reform` / `toyohashi-preschool-free` / `toyohashi-school-lunch` / `toyohashi-telework-bonus`）を公式一次情報で確認する。
