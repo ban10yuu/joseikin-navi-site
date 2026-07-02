@@ -2259,3 +2259,30 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 4,112 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は580件、activeWithDeadlineは414件、期限切れ166件。
 - `npm run audit:links`: broken 0。4,110ファイルから152,848リンク抽出、8,842件監査。
+
+## 2026-07-02 東京都Batch 53 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の渋谷区7件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・抑止した。生成データの「放課後クラブ利用料助成」「出産・子育て応援交付金」「子育てネウボラ給付金」「プログラミング教育支援助成」「移住・定住応援給付金」「介護用品給付事業」「高齢者歯科健診・治療費助成」を、渋谷区公式ページ・渋谷区社会福祉協議会公式ページで確認できる現行制度名・支援内容・受付状況へ補正した。
+
+追加:
+
+- `shibuya-afterschool`: 渋谷区「放課後クラブ（利用料無料）」。利用料助成ではなく、利用料無料、保険料800円・おやつ代等実費負担の放課後クラブへ補正。
+- `shibuya-birth-bonus`: 渋谷区「ハッピーマザー出産助成金」。出産1人につき上限10万円、出産日から1年以内申請として補正。出産・子育て応援事業は令和8年3月30日受付終了を確認。
+- `shibuya-childcare-subsidy`: 渋谷区「バースデーサポート事業」。1歳になる子どものいる家庭向けに、出生年度に応じて最大10万円分の育児パッケージを配付する制度へ補正。
+- `shibuya-it-education`: 渋谷区「プログラミング教育支援助成」。学校内ICT教育・教育DX・S-SAP協定によるプログラミング授業は確認できるが、保護者向け受講料助成は公式確認不可のため通常一覧から除外。
+- `shibuya-migration-bonus`: 渋谷区「移住・定住応援給付金」。住宅支援一覧、住居確保給付金、立ち退きに伴う住み替え家賃補助制度は確認できるが、転入子育て世帯向け給付金は公式確認不可のため通常一覧から除外。
+- `shibuya-nursing-equipment`: 渋谷区「紙おむつ購入費助成」。渋谷区社会福祉協議会と渋谷区が助成した価格で購入でき、月額3,500円で商品価格17,500円分まで購入可能として補正。
+- `shibuya-senior-dental`: 渋谷区「歯科健康診査」。対象年齢の区民向け歯科健康診査へ補正。治療は対象外、訪問歯科健康診査あり。
+
+確認:
+
+- 確認対象の公式URL 17件はすべて200で到達確認。渋谷区公式の放課後クラブ、放課後クラブ登録、ハッピーマザー出産助成金、終了済み出産・子育て応援事業、妊婦支援給付金、バースデーサポート事業、教育DX広報、DeNA S-SAP協定、小中学校・就学援助、住宅支援一覧、住居確保給付金、立ち退きに伴う住み替え家賃補助、渋谷区社会福祉協議会サービス、紙おむつ購入費助成、2026年度紙おむつカタログPDF、入院時紙おむつ助成、歯科健康診査を確認。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 30`: 東京都の未照合raw slugは217件から210件に減少。次の候補は小金井市、小平市、昭島市、新宿区。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 20`: 全国未照合raw slugは3,307件から3,300件に減少。
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,627件、東京都ローカル公式確認済みは192件、activeWithoutOfficialSourceは3,304件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 4,127 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は583件、activeWithDeadlineは415件、期限切れ168件。
+- `npm run audit:links`: broken 0。4,125ファイルから153,379リンク抽出、8,872件監査。
