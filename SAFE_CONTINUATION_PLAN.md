@@ -4119,3 +4119,35 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 - 茨城県Batch 109として、水戸市先頭候補（`mito-birth-bonus` / `mito-childcare-subsidy` / `mito-energy-support` / `mito-housing-reform` / `mito-nursing-equipment` / `mito-scholarship` / `mito-seismic-diagnosis` / `mito-senior-dental` / `mito-sme-support`）を公式一次情報で確認する。
 - 水戸市完了後は土浦市、日立市の順に進む。
+
+## 2026-07-03 茨城県Batch 109 追加ログ
+
+水戸市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。生成データの「第3子以降出産祝い金」「生活支援給付金」「エネルギー価格高騰対策支援金」「住宅リフォーム最大20万円」「大学生向け月額4万円貸付」「75歳以上歯科健診」などは、公式で確認できる現行制度または受付終了制度へ補正した。
+
+追加・補正:
+
+- `mito-childcare-subsidy`: 子育て世帯生活応援特別給付金へ補正。児童1人5万円、低所得子育て世帯向け、申請期限は2026年4月30日で受付終了を確認。
+- `mito-birth-bonus`: 妊婦のための支援給付事業へ補正。妊婦1人5万円、こども1人5万円、申請期限は各起算日から2年間を確認。
+- `mito-energy-support`: 市民税非課税世帯等くらしサポート給付金へ補正。世帯人員1人あたり8,000円、手続期限2026年6月30日で受付終了を確認。
+- `mito-housing-reform`: 安心住宅リフォーム支援補助金へ補正。令和8年度前期は抽選受付2026年4月6日〜4月23日、交付申請2026年5月7日〜6月30日で受付終了、補助上限10万円を確認。
+- `mito-nursing-equipment`: 家族介護用品給付事業へ補正。要介護3で排泄介助等が必要な方または要介護4・5、非課税世帯、紙おむつ等を月6,000円まで給付と確認。
+- `mito-scholarship`: 奨学金制度へ補正。高等学校等向け給付型、月額1万円、令和8年度提出期限2026年1月30日で受付終了を確認。
+- `mito-seismic-diagnosis`: 木造住宅耐震診断士派遣・耐震改修補助へ補正。耐震診断自己負担5,000円、耐震改修一体実施上限115万円、令和8年6月〜9月募集予定を確認。
+- `mito-senior-dental`: 成人歯科健康診査へ補正。年度内20・30・40・50・60・70歳の市民、個人負担500円、生活保護・非課税世帯等は無料を確認。
+- `mito-sme-support`: 水戸市融資制度（自治金融・振興資金）へ補正。自治金融上限1,000万円、振興資金上限2,000万円、保証料全額補給、利子年1%以内を3年間補給を確認。中小企業振興支援補助金は令和8年度受付終了と確認。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node -e ...duplicate`: 重複slug 0、水戸市slug 14件。
+- `node scripts/check-grant-source-urls.mjs --slug ...水戸市9件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 16件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 茨城県 --limit 30`: 茨城県の未照合raw slugは49件から40件に減少。次の先頭は土浦市。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,726件から2,717件に減少。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,066件、activeWithoutOfficialSourceは2,721件、茨城県ローカル公式確認済みは56件。active全体4,787件に対する公式確認済みactive比率は約43.2%。
+- `npm run build`: 速度改善方針により今回は省略。対象ESLint、URL検証、raw gap監査、coverageが通っている。茨城県raw gap完了時、20〜50件節目、または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 茨城県Batch 110として、土浦市先頭候補（`tsuchiura-birth-bonus` / `tsuchiura-birth-bonus-v2` / `tsuchiura-bousai-equipment` / `tsuchiura-bousai-equipment-v2` / `tsuchiura-childcare-subsidy` / `tsuchiura-childcare-subsidy-v2` / `tsuchiura-disability-medical` / `tsuchiura-disability-medical-v2` / `tsuchiura-education-support` / `tsuchiura-elderly-support` / `tsuchiura-energy-support` / `tsuchiura-housing-reform`）を公式一次情報で確認する。
+- 土浦市は同一趣旨の重複slugが多いため、公式制度へ統合・受付終了扱い・掲載停止扱いを明確に分けて進める。
