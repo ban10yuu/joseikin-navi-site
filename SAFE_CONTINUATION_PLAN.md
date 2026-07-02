@@ -3632,3 +3632,35 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - 愛知県Batch 94として春日井市11件（`kasugai-care-robot` / `kasugai-childcare-leave-bonus` / `kasugai-community-bus` / `kasugai-earthquake-shelter-reform` / `kasugai-factory-iot` / `kasugai-gifted-support` / `kasugai-housing-reform` / `kasugai-mental-health` / `kasugai-newlywed-housing` / `kasugai-preschool-free` / `kasugai-startup-support`）を公式一次情報で確認する。
+
+## 2026-07-02 愛知県Batch 94 追加ログ
+
+春日井市11件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。生成データの制度名・金額はそのまま採用せず、春日井市公式ページと公式PDFで確認できる制度へ置換した。市単独の現行制度として確認できない候補は期限切れ扱いで通常一覧から除外した。
+
+追加・補正:
+
+- `kasugai-care-robot`: 市単独の現行介護ロボット導入補助金は公式確認できず、通常一覧から除外。
+- `kasugai-childcare-leave-bonus`: 市単独の育児休業取得奨励金は公式確認できず、通常一覧から除外。
+- `kasugai-community-bus`: かすがいシティバス高齢者カード・交通共通利用助成券へ補正。75歳以上の運賃割引、交通共通利用助成券3,000円分を確認。
+- `kasugai-earthquake-shelter-reform`: 耐震シェルター整備費補助金へ補正。補助率2分の1、上限30万円を確認。
+- `kasugai-factory-iot`: 市単独の中小製造業IoT導入補助金は公式確認できず、通常一覧から除外。
+- `kasugai-gifted-support`: 子ども才能開花支援補助金は公式確認できず、通常一覧から除外。
+- `kasugai-housing-reform`: 住宅省エネ改修費補助制度へ補正。補助率80%、上限30万円、2026年5月20日受付終了を確認。
+- `kasugai-mental-health`: 精神障がい者医療費助成へ補正。自立支援医療（精神通院）適用後の自己負担額助成を確認。
+- `kasugai-newlywed-housing`: 結婚新生活支援補助金は公式確認できず、通常一覧から除外。
+- `kasugai-preschool-free`: 幼児教育・保育の無償化へ補正。幼稚園月額25,700円、預かり保育月額11,300円上限等を確認。
+- `kasugai-startup-support`: 創業事業補助金へ補正。補助対象経費2分の1、上限30万円を確認。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug ...春日井市11件 --concurrency 3 --timeout-ms 60000`: 初回は旧例規集ドメイン1件がfetch failed。`kasugai-childcare-leave-bonus` のsourceUrlsを春日井市公式PDFへ差し替え、再実行で採用sourceUrls 22件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 愛知県 --limit 25`: 愛知県の未照合raw slugは70件から59件に減少。次の先頭候補は瀬戸市9件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは2,885件から2,874件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,948件、activeWithoutOfficialSourceは2,878件、愛知県ローカル公式確認済みは58件。active全体4,826件に対する公式確認済みactive比率は約40.4%。
+- `npm run build`: 速度改善方針により今回は省略。直前の北海道Batch 90でbuild成功済みで、今回は対象ESLint・URL検証・coverage・raw gap監査が通っている。次の20〜50件節目または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 愛知県Batch 95として瀬戸市9件（`seto-care-robot` / `seto-childcare-leave-bonus` / `seto-community-bus` / `seto-earthquake-shelter-reform` / `seto-factory-iot` / `seto-gifted-support` / `seto-mental-health` / `seto-newlywed-housing` / `seto-preschool-free`）を公式一次情報で確認する。
