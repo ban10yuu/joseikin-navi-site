@@ -3530,6 +3530,37 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 ## 2026-07-02 愛知県Batch 91 追加ログ
 
+愛知県庁3件、安城市2件、一宮市5件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。生成データの制度名・金額はそのまま採用せず、県・市・厚生労働省の公式ページで確認できる現行制度または終了済み制度へ置換した。重複・公式確認不可の候補は通常一覧から除外する。
+
+追加・補正:
+
+- `aichi-childcare-subsidy`: 第二子以降児の保育料無料化・軽減補助へ補正。2025年10月から第三子以降から第二子以降へ対象拡大を確認。
+- `aichi-employment-training`: 愛知県独自制度ではなく国の求職者支援制度との重複として通常一覧から除外。
+- `aichi-nursing-robot`: 愛知県障害者施設介護テクノロジー導入支援事業費補助金へ補正。令和8年度事前協議は2026年5月29日で終了のため通常一覧から除外。
+- `anjo-fertility-treatment`: 不妊治療費等助成制度へ補正。一般不妊治療上限10万円、生殖補助医療1クール上限20万円、先進医療上限5万円を確認。
+- `anjo-housing-seismic`: 木造住宅耐震改修費補助制度へ補正。一般型最大155万円、2026年12月末申請期限を確認。
+- `ichinomiya-birth-bonus`: いちのみやし妊婦支援給付金へ補正。妊婦1人5万円、胎児1人あたり5万円を確認。
+- `ichinomiya-care-robot`: 一宮市単独の現行介護ロボット導入補助は確認できず、県制度との重複を避けて通常一覧から除外。
+- `ichinomiya-childcare-leave-bonus`: 一宮市案内の愛知県中小企業男性育児休業取得促進奨励金へ補正。14日以上50万円、28日以上100万円を確認。
+- `ichinomiya-childcare-subsidy`: 保育料の多子世帯軽減へ補正。第2子半額、第3子以降無料、2025年10月以降の対象拡大を確認。
+- `ichinomiya-community-bus`: 名鉄バス高齢者向けフリーパス購入費負担へ補正。1か月あたり500円割引、2027年3月31日までを確認。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug ...愛知県Batch91 10件 --concurrency 6 --timeout-ms 60000`: 採用sourceUrls 17件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 愛知県 --limit 25`: 愛知県の未照合raw slugは112件から102件に減少。次の先頭候補は一宮市残り13件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは2,927件から2,917件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,921件、activeWithoutOfficialSourceは2,921件、愛知県ローカル公式確認済みは31件。active全体4,842件に対する公式確認済みactive比率は約39.7%。
+- `npm run build`: 速度改善方針により今回は省略。直前の北海道Batch 90でbuild成功済みで、今回は対象ESLint・URL検証・coverage・raw gap監査が通っている。次の20〜50件節目または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 愛知県Batch 92として一宮市残り13件（`ichinomiya-earthquake-shelter-reform` / `ichinomiya-elderly-support` / `ichinomiya-factory-iot` / `ichinomiya-gifted-support` / `ichinomiya-housing-purchase` / `ichinomiya-infertility` / `ichinomiya-mental-health` / `ichinomiya-newlywed-housing` / `ichinomiya-nursing-equipment` / `ichinomiya-preschool-free` / `ichinomiya-scholarship` / `ichinomiya-seismic-diagnosis` / `ichinomiya-sme-support`）を公式一次情報で確認する。
+
+## 2026-07-02 愛知県Batch 91 追加ログ
+
 愛知県庁3件と安城市2件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。速度改善方針に従い、一宮市18件は次バッチへ回し、今回は公式確認済み5件を小さく確実に完了させた。制度名・金額は生成データを採用せず、愛知県・安城市・厚生労働省の公式ページで確認できる内容へ置換した。
 
 追加・補正:
