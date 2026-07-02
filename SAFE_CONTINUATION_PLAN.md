@@ -3904,13 +3904,13 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 ## 2026-07-02 愛媛県Batch 102 追加ログ
 
-新居浜市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。生成データの「高齢者タクシー」「学校給食費補助」「雨水タンク」は、公式で確認できる現行制度に合わせ、おでかけタクシー・重度障害者タクシー助成、就学援助、浄化槽設置整備事業補助へ補正した。
+新居浜市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。生成データの「高齢者タクシー」「学校給食費補助」「雨水タンク」は、公式で確認できる現行制度に合わせ、重度障がい者タクシー利用助成、就学援助、浄化槽設置整備事業補助へ補正した。
 
 追加・補正:
 
 - `niihama-block-wall-removal`: 民間ブロック塀等整備事業補助へ補正。補助対象経費3分の2、上限30万円、1m当たり8万円限度を確認。
 - `niihama-child-medical-aid`: 子ども医療費助成制度へ補正。18歳到達後最初の3月31日まで、保険診療自己負担分全額助成を確認。
-- `niihama-elderly-taxi`: 高齢者一般向け助成券は公式確認できず、おでかけタクシー・重度障害者タクシー助成へ補正。おでかけタクシー大人600円、障がい者等割引300円を確認。
+- `niihama-elderly-taxi`: 高齢者一般向け助成券は公式確認できず、重度障がい者（児）タクシー利用助成事業へ補正。1枚250円、1回最大2枚、月4枚交付を確認。
 - `niihama-health-checkup-subsidy`: 令和8年度一日人間ドックへ補正。40歳以上市民、自己負担13,000円、特定健診等との同年度併用不可を確認。
 - `niihama-juutaku-reform`: 移住者住宅改修支援事業へ補正。住宅改修は働き手世帯上限100万円、子育て世帯上限400万円、家財搬出上限20万円を確認。
 - `niihama-scholarship-repayment`: 奨学金返済支援事業は令和5年度末で新規受付終了と確認。既交付決定者の2回目・3回目申請のみ継続扱い。
@@ -3923,7 +3923,7 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
 - `node -e ...duplicate/category`: 重複slug 0、`category` / `relatedCategories` は既存型内。
 - `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
-- `node scripts/check-grant-source-urls.mjs --slug ...新居浜市9件 --concurrency 1 --timeout-ms 120000`: 採用sourceUrls 18件はすべてHTTP 200、failures 0。
+- `node scripts/check-grant-source-urls.mjs --slug ...新居浜市9件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 17件はすべてHTTP 200、failures 0。
 - `node scripts/audit-raw-verified-gaps.mjs --prefecture 愛媛県 --limit 25`: 愛媛県の未照合raw slugは18件から9件に減少。残りは西条市9件。
 - `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,786件から2,777件に減少。
 - `npm run audit:coverage`: failures 0。公式確認済みactiveは2,027件、activeWithoutOfficialSourceは2,781件、愛媛県ローカル公式確認済みは62件。active全体4,808件に対する公式確認済みactive比率は約42.2%。
