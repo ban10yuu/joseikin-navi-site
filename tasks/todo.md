@@ -721,6 +721,8 @@
 - [x] 愛媛県Batch 103の検証（対象ESLintエラー0、diff check問題なし、重複slug 0、採用sourceUrls 17件はすべてHTTP 200、愛媛県の未照合raw slugは9件から0件、全国未照合raw slugは2,777件から2,768件に減少、coverage failures 0、公式確認済みactiveは2,036件、愛媛県ローカル公式確認済みは71件。`npm run build` 成功、静的ページ4,858件生成、`/grant/[slug]` は2,327件相当）
 - [x] 茨城県Batch 104として、つくば市12件を公式確認済み追加・補正（介護保険住宅改修・福祉用具購入、妊婦のための支援給付、高齢者・出産支援等運賃割引、多子世帯保育料助成・幼児教育保育無償化、就学援助、在宅高齢者福祉助成券、高齢者日常生活支援事業、蓄電池・自然冷媒ヒートポンプ式給湯機補助金の受付終了扱い、空家活用補助金、不妊治療費先進医療助成、妊産婦タクシー利用費助成、紙おむつ購入費助成）
 - [x] 茨城県Batch 104の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 24件はすべてHTTP 200、茨城県の未照合raw slugは91件から79件、全国未照合raw slugは2,768件から2,756件に減少、coverage failures 0、公式確認済みactiveは2,039件、茨城県ローカル公式確認済みは29件。buildは速度改善方針により茨城県raw gap完了時または公開前へ繰り延べ）
-- [ ] 次回候補: 茨城県・つくば市の残り8件（`tsukuba-rental-subsidy` / `tsukuba-research-intern` / `tsukuba-scholarship` / `tsukuba-science-camp` / `tsukuba-seismic-diagnosis` / `tsukuba-specific-disease` / `tsukuba-telework-bonus` / `tsukuba-twin-childcare`）を公式一次情報で確認し、その後に茨城県庁2件（`ibaraki-housing-eco` / `ibaraki-startup-support`）へ進む
+- [x] 茨城県Batch 105として、つくば市残り8件を公式確認済み追加・補正（住居確保給付金、つくば市インターンシップの受付終了・金銭給付なし扱い、高校奨学金、子ども体験事業補助金、木造住宅耐震診断士派遣事業、難病患者福祉金、ビジネス拡大支援補助金、多胎児世帯支援給付金の公式確認不可・掲載停止扱い）
+- [x] 茨城県Batch 105の検証（対象ESLintエラー0、diff check問題なし、重複slug 0、採用sourceUrls 14件はすべてHTTP 200、茨城県の未照合raw slugは79件から71件、全国未照合raw slugは2,756件から2,748件に減少、coverage failures 0、公式確認済みactiveは2,044件、茨城県ローカル公式確認済みは34件。buildは速度改善方針により茨城県raw gap完了時または公開前へ繰り延べ）
+- [ ] 次回候補: 茨城県庁2件（`ibaraki-housing-eco` / `ibaraki-startup-support`）を公式一次情報で確認し、その後は古河市の先頭候補へ進む
 - [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugを公式確認済みデータへ置換し、raw重複の実害を減らす
 - [ ] push / 公開反映は明示確認後に実行

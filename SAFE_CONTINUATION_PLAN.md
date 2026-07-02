@@ -3998,3 +3998,34 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 - 茨城県Batch 105として、つくば市残り8件（`tsukuba-rental-subsidy` / `tsukuba-research-intern` / `tsukuba-scholarship` / `tsukuba-science-camp` / `tsukuba-seismic-diagnosis` / `tsukuba-specific-disease` / `tsukuba-telework-bonus` / `tsukuba-twin-childcare`）を公式一次情報で確認する。
 - つくば市完了後は茨城県庁2件（`ibaraki-housing-eco` / `ibaraki-startup-support`）へ進み、その後は古河市・水戸市・土浦市の順にraw gapを潰す。
+
+## 2026-07-03 茨城県Batch 105 追加ログ
+
+つくば市残り8件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。生成データの「若年世帯家賃補助」「研究インターンシップ支援金」「大学生向け月額4万円奨学金」「個人向け科学体験補助」「テレワーク推進補助」「多胎児世帯支援給付金」は、公式で確認できる制度または掲載停止扱いに補正した。
+
+追加・補正:
+
+- `tsukuba-rental-subsidy`: 住居確保給付金（家賃補助・転居費用補助）へ補正。家賃補助は世帯人数により月額上限5.3万円、転居費用補助はつくば市内転居例で上限15.9万円を確認。
+- `tsukuba-research-intern`: 令和8年度つくば市インターンシップへ補正し、受付終了・金銭給付なしとして掲載停止扱い。受入期間、対象者、受入人数5名程度、申込締切2026年6月22日を確認。
+- `tsukuba-scholarship`: つくば市高校奨学金（給付型）へ補正。月額1万円、返済不要、2026年4月から2027年3月まで、主要提出期限2026年6月15日を確認。
+- `tsukuba-science-camp`: つくば市子ども体験事業補助金へ補正。青少年健全育成団体向け、科学実験教室・工作教室等も対象、補助率3分の2、人数別上限2万円・3万円・5万円を確認。
+- `tsukuba-seismic-diagnosis`: 木造住宅耐震診断士派遣事業へ補正。2026年5月13日から8月31日、先着10件、旧耐震木造住宅等の対象条件を確認。
+- `tsukuba-specific-disease`: 難病患者福祉金へ補正。指定難病特定医療費受給者証等を持つ市内居住者、月額3,000円、9月・3月支給を確認。
+- `tsukuba-telework-bonus`: ビジネス拡大支援補助金へ補正。市内中小企業者等、新製品・新サービス開発等、補助率8/10または5/10、上限30万円、2027年1月末締切を確認。テレワーク専用補助は公式現行制度として確認できず採用しない。
+- `tsukuba-twin-childcare`: 多胎児世帯支援給付金は公式確認不可として掲載停止扱い。妊婦のための支援給付では多胎妊娠時の2回目が胎児1人5万円と確認済みのため、重複掲載を避ける。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- `node -e ...duplicate`: 重複slug 0、つくば市slugは21件。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug ...つくば市残り8件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 14件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 茨城県 --limit 30`: 茨城県の未照合raw slugは79件から71件に減少。つくば市raw gapは完了し、次の先頭は茨城県庁2件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,756件から2,748件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,044件、activeWithoutOfficialSourceは2,752件、茨城県ローカル公式確認済みは34件。active全体4,796件に対する公式確認済みactive比率は約42.6%。
+- `npm run build`: 速度改善方針により今回は省略。対象ESLint、URL検証、raw gap監査、coverageが通っている。茨城県raw gap完了時、20〜50件節目、または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 茨城県Batch 106として、茨城県庁2件（`ibaraki-housing-eco` / `ibaraki-startup-support`）を公式一次情報で確認する。
+- その後は古河市（`koga-afterschool` / `koga-birth-bonus` / `koga-bousai-equipment` / `koga-childcare-subsidy` など）へ進む。
