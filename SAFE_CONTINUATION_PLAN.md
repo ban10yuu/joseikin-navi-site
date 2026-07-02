@@ -3071,3 +3071,49 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - `tasks/todo.md` の次回候補どおり、東京都の残27件から目黒区10件と立川市9件を同一バッチで公式一次情報確認する。
+
+## 2026-07-02 東京都Batch 79 追加ログ
+
+速度改善バッチとして、東京都の残27件から目黒区10件と立川市9件を同一サイクルで公式確認し、`src/data/grants/verified-tokyo-local-2026.ts` に追加・補正した。検索で拾った自治体CMSの旧パスはURL検証で404が出たため、現行の公式URLに差し替えたうえで、到達可能な一次情報だけをsourceUrlsに残した。
+
+追加・補正:
+
+- `meguro-birth-bonus`: 出産・子育て応援給付金候補は、既存verifiedの `meguro-pregnancy-support-benefit` と同じ「妊婦のための支援給付」へ統合。妊娠時5万円、出産後子ども1人あたり5万円を確認し、重複掲載を抑止。
+- `meguro-childcare-subsidy`: 認可外保育施設利用助成候補を「令和8年度認可外保育施設保育料助成制度」へ補正。対象施設、対象者、月160時間以上利用、月額上限8万円等を確認。
+- `meguro-elderly-support`: 高齢者見守り候補を「高齢者非常通報システム」へ補正。非常通報、申請書、月額286円・生活リズムセンサー併用491円を確認。
+- `meguro-housing-reform`: 住宅リフォーム資金助成を公式上限10万円へ補正。区内業者要件、工事費20万円以上、工事着手前申請を確認。
+- `meguro-infertility`: 特定不妊治療費（先進医療）助成へ補正。東京都助成承認後の区上乗せ、1回最大5万円、承認決定日から1年以内の申請を確認。
+- `meguro-newlywed-rent`: 新婚世帯家賃助成は公式同名制度を確認できないため、現行の「ファミリー世帯家賃助成」へ補正。月額2万円、2026年7月10日締切を確認。
+- `meguro-nursing-equipment`: 紙おむつ等の支給・おむつ代の支給へ補正。紙おむつ等月額6,600円以内、入院中のおむつ代月額6,000円上限を確認。
+- `meguro-scholarship`: 目黒区奨学金制度は確認できたが、令和8年4月進学者の受付は終了。入学資金30万円以内、無利子、受付終了のため通常一覧から除外。
+- `meguro-senior-support`: 高齢者世帯等居住継続家賃助成へ補正。月額家賃20%、世帯人数別上限、最長6年間、2026年7月10日締切を確認。
+- `meguro-sme-support`: 中小企業省力化投資補助金へ補正。対象者、申請書類、最大40万円を確認。
+- `tachikawa-afterschool-care`: 学童保育所保育料等の減免へ補正。令和8年度関連書式、入所案内、減免申請を確認。
+- `tachikawa-compost-subsidy`: 生ごみ処理機器等購入費補助金は令和8年度受付終了。処理機器上限25,000円、たい肥化容器上限3,000円を確認し通常一覧から除外。
+- `tachikawa-dental-checkup`: 成人歯科健康診査へ補正。20歳以上対象、年度内1回、無料を確認。
+- `tachikawa-eco-reform`: 既存住宅断熱改修費補助金へ補正。対象工事費2分の1、上限5万円、2027年2月28日までの工事完了要件を確認。
+- `tachikawa-flood-prevention`: 雨水浸透施設設置助成へ補正。標準工事単価、工事前申請、指定下水道工事店要件を確認。
+- `tachikawa-home-care`: 家族介護慰労金支給事業へ補正。重度要介護高齢者等の家族介護、年額10万円を確認。
+- `tachikawa-nursery-support`: 認証保育所等利用者負担軽減補助金へ補正。上限月2万円から4万円、令和8年度案内を確認。
+- `tachikawa-school-aid`: 就学援助制度へ補正。対象者、所得基準、支給費目、申請方法を確認。
+- `tachikawa-youth-employment`: 若者就労定着支援金は公式給付として確認不可。たちかわ若者サポートステーション出張相談は確認できるが、支援金ではないため通常一覧から除外。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug meguro-birth-bonus,meguro-childcare-subsidy,meguro-elderly-support,meguro-housing-reform,meguro-infertility,meguro-newlywed-rent,meguro-nursing-equipment,meguro-scholarship,meguro-senior-support,meguro-sme-support,tachikawa-afterschool-care,tachikawa-compost-subsidy,tachikawa-dental-checkup,tachikawa-eco-reform,tachikawa-flood-prevention,tachikawa-home-care,tachikawa-nursery-support,tachikawa-school-aid,tachikawa-youth-employment --concurrency 10 --timeout-ms 60000`: 採用sourceUrls 32件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 20`: 東京都の未照合raw slugは27件から8件に減少。残りは練馬区8件のみ。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは3,117件から3,098件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,795件、東京都ローカル公式確認済みは360件、activeWithoutOfficialSourceは3,102件。
+- `npm run build`: 成功。静的ページ4,402件生成、`/grant/[slug]` は1,996件。
+
+速度改善結果:
+
+- 19件を1サイクルで処理でき、前回までの5〜9件単位より進行速度は改善した。
+- 重い `npm run build` は今回も約1分半以上かかったため、今後も20〜50件単位の節目でまとめて実行する。
+- URL検証は有効。検索で拾った旧CMSパスの404を早期に検出し、現行公式URLへ差し替えられた。
+
+次回再開位置:
+
+- 東京都raw gapは残り練馬区8件（`nerima-birth-bonus` / `nerima-childcare-subsidy` / `nerima-education-scholarship` / `nerima-energy-support` / `nerima-housing-eco` / `nerima-nursing-home-reform` / `nerima-senior-dental` / `nerima-sme-support`）。次回で東京都raw gap 0件を狙う。
