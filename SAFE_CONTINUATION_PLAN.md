@@ -4217,3 +4217,46 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 - 茨城県Batch 112として、日立市20件（`hitachi-birth-bonus` / `hitachi-bousai-equipment` / `hitachi-childcare-subsidy` / `hitachi-cliff-collapse` / `hitachi-commuter-subsidy` / `hitachi-eco-reform` / `hitachi-elderly-support` / `hitachi-home-care` / `hitachi-housing-seismic` / `hitachi-infertility` / `hitachi-kosodate-taxi` / `hitachi-manufacturing-training` / `hitachi-newlywed-rent` / `hitachi-nursing-home-reform` / `hitachi-school-ict` / `hitachi-school-lunch` / `hitachi-specific-disease` / `hitachi-startup-support` / `hitachi-telework-bonus` / `hitachi-twin-childcare`）を公式一次情報で確認する。
 - 日立市20件を完了したら、茨城県raw gap 0件、URL監査、coverage、`npm run build` まで実行してからコミットする。
+
+## 2026-07-03 茨城県Batch 112 追加ログ
+
+日立市20件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。これで茨城県のraw gapは0件。生成データの「第1子5万円・第2子以降10万円の出産祝い金」「通勤費補助」「住宅省エネリフォーム補助」「在宅介護支援手当月1万円」「ICT学習環境整備補助」「ものづくり人材育成支援金」「崖崩れ対策補助金」などは、公式で確認できる制度、名称・金額補正、または掲載停止扱いへ整理した。
+
+追加・補正:
+
+- `hitachi-birth-bonus`: お誕生おめでとう事業 出産祝金へ補正。第1子3万円、第2子5万円、第3子以降7万円を確認。
+- `hitachi-childcare-subsidy`: 幼児教育・保育無償化・第2子以降保育料無料へ補正。0〜2歳児の第2子以降保育料無料を確認。
+- `hitachi-kosodate-taxi`: マタニティ子育てタクシー費用助成事業へ補正。妊産婦・1歳未満乳児、上限15,000円を確認。
+- `hitachi-twin-childcare`: 産前産後ママサポート事業へ補正。多胎児給付金は公式確認不可で、無料ヘルパー派遣の多胎児40回対応として補正。
+- `hitachi-infertility`: 不妊治療費助成事業へ補正。令和8年4月1日以降終了の生殖補助医療・男性不妊治療、1回10万円上限を確認。
+- `hitachi-specific-disease`: 難病患者福祉手当へ補正。4〜9月分1万円、10月〜翌年3月分1万円、年2万円を確認。
+- `hitachi-school-lunch`: 学校給食費の完全無償化へ補正。小学生年58,410円相当、中学生年66,550円相当を確認。
+- `hitachi-school-ict`: 家庭向けICT学習環境整備補助は公式確認不可として掲載停止扱い。
+- `hitachi-housing-seismic`: 木造住宅耐震化支援事業助成金へ補正。耐震改修計画＋工事一括助成上限115万円、耐震シェルター上限50万円等を確認。
+- `hitachi-eco-reform`: ZEH補助金・脱炭素化促進事業補助へ補正。ZEH、蓄電システム、家庭用燃料電池の令和8年度公式ページを確認。
+- `hitachi-nursing-home-reform`: 介護保険住宅改修費支給へ補正。市独自上乗せ補助としては確認せず、介護保険標準の支給限度基準額20万円として扱う。
+- `hitachi-home-care`: 在宅寝たきり老人等介護慰労金へ補正。月額3,000円を年度末一括支給と確認。
+- `hitachi-elderly-support`: 高齢者生活支援サービスへ補正。緊急通報装置、家族介護用品購入費助成券、訪問理美容、寝具洗濯乾燥消毒等を確認。
+- `hitachi-newlywed-rent`: 令和8年度結婚新生活支援事業補助金へ補正。住居取得・リフォーム・賃借・引越費用、上限30万円を確認。
+- `hitachi-telework-bonus`: 移住支援金へ補正。世帯100万円、単身60万円、テレワーク要件と転入前相談を確認。
+- `hitachi-commuter-subsidy`: 通勤費補助制度は公式確認不可として、移住支援等と混同しないよう掲載停止扱い。
+- `hitachi-startup-support`: 日立創業支援ネットワーク・創業関連支援へ補正。創業支援ネットワーク、特定創業支援、創業関連保証枠等を確認。
+- `hitachi-manufacturing-training`: 個人向けものづくり人材育成支援金は公式確認不可として掲載停止扱い。
+- `hitachi-bousai-equipment`: 自主防災組織育成支援補助へ補正。訓練・資機材整備経費、コミュニティ23単会7〜17万円を確認。
+- `hitachi-cliff-collapse`: 崖崩れ対策補助金は公式確認不可として掲載停止扱い。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node -e ...duplicate`: 重複slug 0、日立市slug 23件。
+- `node scripts/check-grant-source-urls.mjs --slug ...日立市20件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 36件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 茨城県 --limit 35`: 茨城県の未照合raw slugは20件から0件に減少。茨城県raw gap完了。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,697件から2,677件に減少。次の先頭は岡山県。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,096件、activeWithoutOfficialSourceは2,681件、茨城県ローカル公式確認済みは86件。active全体4,777件に対する公式確認済みactive比率は約43.9%。
+- `npm run build`: 成功。静的ページ5,001件生成、`/grant/[slug]` は2,418件相当。
+
+次回再開位置:
+
+- 岡山県Batch 113として、岡山県先頭候補（`okayama-disaster-recovery` / `okayama-block-wall-removal` / `okayama-child-medical-aid` / `okayama-city-birth-bonus` / `okayama-city-bousai-equipment` / `okayama-city-childcare-subsidy` / `okayama-city-disability-medical` / `okayama-city-energy-support` / `okayama-city-housing-purchase` / `okayama-city-migration-support` / `okayama-city-nursing-equipment` / `okayama-city-scholarship`）を公式一次情報で確認する。
+- 茨城県はraw gap 0件だが、raw重複32件は別タスクとして残す。push / 公開反映は明示確認後。
