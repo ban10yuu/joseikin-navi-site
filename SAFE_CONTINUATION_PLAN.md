@@ -2630,3 +2630,48 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 - `tasks/todo.md` の次回候補どおり、町田市14件（`machida-birth-bonus` / `machida-block-wall-removal` / `machida-bousai-equipment` / `machida-childcare-subsidy` / `machida-disability-medical` / `machida-elderly-taxi` / `machida-energy-support` / `machida-health-checkup-subsidy` / `machida-nursing-home-reform` / `machida-school-lunch` / `machida-school-lunch-subsidy` / `machida-senior-support` / `machida-telework-bonus` / `machida-water-saving`）を公式一次情報で確認する。
 - 既存verified重複として検出済みの `chofu-housing-reform` / `tokushima-child-medical` は、全国raw照合とは別の品質改善タスクとして扱う。
+
+## 2026-07-02 東京都Batch 66 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の町田市14件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・補正した。生成データの「出産・子育て応援給付金」「ブロック塀等撤去補助金」「家庭防災用品購入助成制度」「保育料軽減制度」「心身障害者医療費助成制度」「高齢者タクシー利用助成」「住宅用省エネ設備導入補助金」「人間ドック受診費助成」「高齢者自立支援住宅改修費助成事業」「学校給食費助成制度」「学校給食費補助制度」「高齢者見守り配食サービス」「テレワーク導入推進補助金」「雨水タンク設置補助金」を、町田市公式ページ・まちだ子育てサイト・公式PDFで確認できる現行制度名、金額、受付状況、または公式確認不可の抑止へ補正した。
+
+高速化方針:
+
+- 自治体単位でまとめて候補を閉じる。
+- 採用した公式URLだけを対象にHTTP 200確認する。
+- `git diff --check`、対象ESLint、raw gap、coverage、buildを優先する。
+- 全体リンク監査と全体期限監査は節目で実施する。今回、期限監査はbuild前に期限切れ詳細ページ未生成でfailure 2、build後再実行は長時間化したため中断し、次の節目で再実行する。
+
+追加・補正:
+
+- `machida-birth-bonus`: 町田市「妊婦のための支援給付」。妊娠期5万円、出産後こども（胎児）の人数×5万円へ補正。
+- `machida-block-wall-removal`: 町田市「ブロック塀等撤去助成」。上限30万円、2026年12月11日申請期限へ補正。
+- `machida-bousai-equipment`: 町田市「防災対策促進事業補助金」。感震ブレーカー等、取付工事あり上限6万円、2026年9月1日受付開始へ補正。
+- `machida-childcare-subsidy`: 町田市「保育料の無償化」。2025年9月から東京都内在住者の保育料無償、給食費・延長保育料等は対象外へ補正。
+- `machida-disability-medical`: 町田市「心身障害者（児）医療費助成制度（マル障）」。対象者、所得制限、保険診療自己負担分の一部助成へ補正。
+- `machida-elderly-taxi`: 高齢者タクシー利用助成は現行公式制度として確認不可。障がい者向けタクシー割引等とは対象が異なるため通常一覧から除外。
+- `machida-energy-support`: 町田市「家庭用燃料電池システム（エネファーム）奨励金」。3万5000円、2026年9月30日締切へ補正。太陽光発電システム等設置補助は2016年終了。
+- `machida-health-checkup-subsidy`: 町田市「人間ドック補助事業」。上限1万円、年度1回、2027年3月31日までへ補正。
+- `machida-nursing-home-reform`: 町田市「介護保険を利用した住宅改修」。支給限度基準額20万円、事前申請必須へ補正。
+- `machida-school-lunch`: 町田市「小中学校給食費完全無償化」。第3子以降限定ではなく完全無償化へ補正。
+- `machida-school-lunch-subsidy`: 同一制度の互換slugとして小中学校給食費完全無償化へ補正。
+- `machida-senior-support`: 町田市「自立支援・配食ネットワーク事業」。65歳以上のひとり暮らし・高齢者世帯かつ要介護1から5、配食と見守りへ補正。
+- `machida-telework-bonus`: テレワーク導入推進補助金は現行公式制度として確認不可。通常一覧から除外。
+- `machida-water-saving`: 町田市「雨水浸透設備設置補助金」。雨水タンク補助は公式に補助なしと確認し、雨水浸透設備の上限53万3000円へ補正。
+
+確認:
+
+- 採用した町田市・まちだ子育て公式URL 30件はすべてHTTP 200。
+- `git diff --check -- SAFE_CONTINUATION_PLAN.md tasks/todo.md src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 30`: 東京都の未照合raw slugは129件から115件に減少。次の候補は調布市、東京都広域、東村山市。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは3,219件から3,205件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,705件、東京都ローカル公式確認済みは270件、activeWithoutOfficialSourceは3,209件。
+- `npm run build`: 成功。静的ページ4,258件生成、`/grant/[slug]` は1,889件。
+- `npm run audit:deadlines`: build前の実行は追加した期限切れ抑止2件の詳細ページ未生成でfailure 2。build後再実行は長時間化したため中断。次の節目で再実行する。
+
+次回再開位置:
+
+- `tasks/todo.md` の次回候補どおり、調布市1件（`chofu-education-support`）から公式一次情報で確認する。その後、東京都広域候補2件、東村山市、東大和市へ進む。
+- 速度優先のため、次回も対象URL 200確認、ESLint、raw gap、coverage、必要時buildを基本にし、全体リンク・期限監査は数バッチ単位でまとめる。
+- 既存verified重複として検出済みの `chofu-housing-reform` / `tokushima-child-medical` は、全国raw照合とは別の品質改善タスクとして扱う。
