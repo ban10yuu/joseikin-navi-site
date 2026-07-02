@@ -3270,3 +3270,39 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - 北海道Batch 84として札幌市9件（`sapporo-birth-bonus` / `sapporo-childcare-subsidy` / `sapporo-elderly-support` / `sapporo-housing-eco-reform` / `sapporo-infertility` / `sapporo-newlywed-rent` / `sapporo-nursing-equipment` / `sapporo-scholarship` / `sapporo-sme-support`）を同一サイクルで公式確認する。
+
+## 2026-07-02 北海道Batch 84 追加ログ
+
+北海道の次候補である札幌市9件を1サイクルで公式確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。公式一次情報で確認できた制度は掲載し、同一制度の別slugは既存slugへ統合し、現行公式制度として確認できない候補は通常一覧から除外した。
+
+追加・補正:
+
+- `sapporo-birth-bonus`: 出産祝金候補を「妊婦のための支援給付（妊婦支援給付金）」へ補正。妊婦1人5万円、胎児1人5万円を確認。
+- `sapporo-childcare-subsidy`: 保育料多子軽減・幼児教育保育無償化へ補正。第2子以降保育料無料化と幼児教育・保育の無償化を確認。
+- `sapporo-elderly-support`: 生成データの冬季支援金候補は現行公式制度として確認できず、福祉除雪事業へ補正。
+- `sapporo-housing-eco-reform`: 既存 `sapporo-eco-reform-2026` と同一の住宅エコリフォーム補助制度として重複統合。
+- `sapporo-infertility`: 不妊治療費助成（先進医療）へ補正。先進医療自己負担7割、上限3万5千円、交通費助成を確認。
+- `sapporo-newlywed-rent`: 結婚新生活支援補助金候補は確認できず、セーフティネット住宅入居支援事業補助制度へ補正。家賃債務保証料等の上限6万円を確認。
+- `sapporo-nursing-equipment`: おむつサービスへ補正。月6,500円を上限とする現物給付と利用者負担を確認。
+- `sapporo-scholarship`: 特別奨学金へ補正。令和8年度支給分は受付終了として通常一覧から除外。
+- `sapporo-sme-support`: 札幌市先端設備等導入促進補助金（令和8年度事業）へ補正。補助率20%、上限500万円、申請期限2026年11月30日を確認。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug ...札幌市9件 --concurrency 10 --timeout-ms 60000`: 採用sourceUrls 24件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 北海道 --limit 35`: 北海道の未照合raw slugは111件から102件に減少。次の先頭候補は小樽市20件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは3,038件から3,029件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,838件、activeWithoutOfficialSourceは3,033件、北海道ローカル公式確認済みは55件。active全体4,871件に対する公式確認済みactive比率は約37.7%。
+- `npm run build`: 成功。静的ページ4,490件生成、`/grant/[slug]` は2,066件。
+
+速度改善メモ:
+
+- 札幌市9件のような小バッチでも、buildだけで約100秒かかる。今後は精度維持に必要な公式URL検証・raw gap監査・coverageを通常検証とし、buildは20〜50件単位または公開前にまとめる。
+- 調査は1slugずつではなく、自治体単位で公式サイト内検索・既存verified重複検索・raw候補一覧を先に束ねてから、掲載/統合/抑止を一括判断する。
+- 公式確認不可の生成候補を深追いしすぎない。公式ページで確認できない制度名・金額・期限は、関連する現行制度へ補正できる場合だけ補正し、それ以外は抑止する。
+
+次回再開位置:
+
+- 北海道Batch 85として小樽市20件（`otaru-birth-bonus` / `otaru-block-wall-removal` / `otaru-bousai-equipment` / `otaru-child-medical-aid` / `otaru-childcare-subsidy` / `otaru-disability-medical` / `otaru-elderly-taxi` / `otaru-energy-support` / `otaru-health-checkup-subsidy` / `otaru-housing-reform` / `otaru-juutaku-reform` / `otaru-migration-support` / `otaru-newlywed-rent` / `otaru-nursing-home-reform` / `otaru-scholarship-repayment` / `otaru-school-lunch` / `otaru-school-lunch-subsidy` / `otaru-startup-support` / `otaru-telework-bonus` / `otaru-water-saving`）を公式一次情報で確認する。
