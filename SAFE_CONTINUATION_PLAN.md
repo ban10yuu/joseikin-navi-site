@@ -2975,3 +2975,35 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - `tasks/todo.md` の次回候補どおり、豊島区5件（`toshima-afterschool` / `toshima-energy-support` / `toshima-infertility` / `toshima-nursing-equipment` / `toshima-seismic-diagnosis`）を公式一次情報で確認する。
+
+## 2026-07-02 東京都Batch 76 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の豊島区5件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・補正した。旧生成データは制度名・支給額・現行性にずれがあったため、豊島区公式ページ、公式PDF、東京都関連ページで現行制度、受付終了制度、区独自助成終了を整理した。
+
+追加・補正:
+
+- `toshima-afterschool`: 放課後子ども教室運営事業候補を「子どもスキップ（一般利用・放課後子ども教室）」へ補正。区内在住または区立小学校在学児童、一般利用無料、届出制を確認。
+- `toshima-energy-support`: 生活応援特別給付金候補を「令和7年度物価高騰対策支援給付金」へ補正。1世帯1万円、2026年3月13日受付終了のため通常一覧から除外。
+- `toshima-infertility`: 不妊・不育症治療費助成候補は、豊島区特定不妊治療費助成が終了済みであることを公式確認。現行情報は東京都事業案内のため通常一覧から除外。
+- `toshima-nursing-equipment`: 高齢者紙おむつ等支給事業を公式制度「高齢者紙おむつ等支給」へ補正。令和7年9月分から月80点・8,000円相当へ上限引上げを確認。
+- `toshima-seismic-diagnosis`: 木造住宅耐震診断助成制度を「木造住宅の耐震診断助成事業」へ補正。対象建築物、対象者、東京都登録診断事務所、上限15万円を確認。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug toshima-afterschool,toshima-energy-support,toshima-infertility,toshima-nursing-equipment,toshima-seismic-diagnosis --concurrency 8 --timeout-ms 60000`: 採用sourceUrls 15件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 25`: 東京都の未照合raw slugは48件から43件に減少。次の候補は北区7件、墨田区。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは3,138件から3,133件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,768件、東京都ローカル公式確認済みは333件、activeWithoutOfficialSourceは3,137件。
+- `npm run build`: 成功。静的ページ4,356件生成、`/grant/[slug]` は1,961件。
+
+速度改善メモ:
+
+- 全国の公開中データに対する公式確認済みは1,768 / 4,905件で約36.0%。raw候補slug基準では1,965 / 4,375件で約44.9%。東京都は公式確認済み333件・未照合43件で約88.6%まで進捗。
+- 遅延の主因は、全国の未検証raw slugがまだ3,133件残っていることと、各制度の公式ページで制度名・対象・金額・期限・現行性を1件ずつ確認していること。精度を落とさず速度を上げるため、以後は自治体単位で5〜10件をまとめ、公式候補URL一括収集、追加後のsourceUrls並列HTTP確認、coverage/buildの節目実行を徹底する。
+- 期限切れ・終了済み・公式確認不可の制度は、推測で掲載せず、deadlineDate付きの抑止レコードとして残す。これによりraw gapを閉じつつ、利用者向け一覧には古い制度を出さない。
+
+次回再開位置:
+
+- `tasks/todo.md` の次回候補どおり、北区7件（`kita-birth-bonus` / `kita-childcare-subsidy` / `kita-education-support` / `kita-elderly-support` / `kita-nursing-equipment` / `kita-scholarship` / `kita-senior-mimamori`）を公式一次情報で確認する。
