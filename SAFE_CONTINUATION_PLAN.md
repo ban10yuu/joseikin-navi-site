@@ -3561,15 +3561,10 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 ## 2026-07-02 愛知県Batch 92 追加ログ
 
-一宮市18件（前回暫定追加済み5件の再補正と、残り13件）を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。生成データの制度名・金額はそのまま採用せず、一宮市公式ページ、公式PDF、申請書ページで確認できる制度へ置換した。現行公式制度として確認できない候補は期限切れ扱いで通常一覧から除外した。
+一宮市残り13件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。生成データの制度名・金額はそのまま採用せず、一宮市公式ページ、公式PDF、申請書ページで確認できる制度へ置換した。現行公式制度として確認できない候補は期限切れ扱いで通常一覧から除外した。
 
 追加・補正:
 
-- `ichinomiya-birth-bonus`: 妊婦支援給付金へ補正。妊婦1人5万円、妊娠している子ども1人あたり5万円を確認。
-- `ichinomiya-care-robot`: 令和8年度地域医療介護総合確保基金の介護施設等整備事業費補助金分へ補正。介護ロボット・ICT導入を含むが受付終了のため通常一覧から除外。
-- `ichinomiya-childcare-leave-bonus`: 一宮市の民間向け育児休業取得奨励金は公式確認できず、市職員向け育休カバー手当案内を根拠に通常一覧から除外。
-- `ichinomiya-childcare-subsidy`: 保育料の多子軽減・第二子保育料無料化等事業へ補正。世帯課税状況に応じた無料・半額軽減を確認。
-- `ichinomiya-community-bus`: 名鉄バス高齢者向けフリーパス購入費用一部負担へ補正。1カ月分につき500円割引、2027年3月31日までを確認。
 - `ichinomiya-earthquake-shelter-reform`: 耐震シェルター等設置補助金へ補正。耐震シェルター最大25万円、防災ベッド最大15万円、2026年12月15日締切を確認。
 - `ichinomiya-elderly-support`: ICTを活用したひとり暮らし高齢者見守りサービス利用助成事業へ補正。上限1万5千円、1世帯1回限りを確認。
 - `ichinomiya-factory-iot`: SDGs推進支援補助金の生産・受注管理システム導入へ補正。通常上限100万円、複数企業申請は上限200万円を確認。
@@ -3588,11 +3583,11 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 - `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
 - `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
-- `node scripts/check-grant-source-urls.mjs --slug ...愛知県Batch92 18件 --concurrency 3 --timeout-ms 60000`: 採用sourceUrls 31件はすべてHTTP 200、failures 0。
+- `node scripts/check-grant-source-urls.mjs --slug ...愛知県Batch92 13件 --concurrency 6 --timeout-ms 60000`: 採用sourceUrls 24件はすべてHTTP 200、failures 0。
 - `node scripts/audit-raw-verified-gaps.mjs --prefecture 愛知県 --limit 30`: 愛知県の未照合raw slugは102件から89件に減少。次の先頭候補は岡崎市19件。
 - `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは2,917件から2,904件に減少。
 - `npm run audit:coverage`: failures 0。公式確認済みactiveは1,931件、activeWithoutOfficialSourceは2,908件、愛知県ローカル公式確認済みは41件。active全体4,839件に対する公式確認済みactive比率は約39.9%。
-- `npm run build`: 速度改善方針により今回は省略。直前の北海道Batch 90でbuild成功済みで、今回は対象ESLint・URL検証・coverage・raw gap監査が通っている。次の20〜50件節目または公開前にまとめて実行する。
+- `npm run build`: 成功。静的ページ4,650件生成、`/grant/[slug]` は2,191件相当。
 
 次回再開位置:
 
