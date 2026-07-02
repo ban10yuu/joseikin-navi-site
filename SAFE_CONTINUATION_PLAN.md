@@ -3527,3 +3527,29 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - 全国raw未照合の先頭は愛知県。次バッチは愛知県庁3件と安城市2件、一宮市以降の先頭候補を、自治体単位で公式一次情報確認する。
+
+## 2026-07-02 愛知県Batch 91 追加ログ
+
+愛知県庁3件と安城市2件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。速度改善方針に従い、一宮市18件は次バッチへ回し、今回は公式確認済み5件を小さく確実に完了させた。制度名・金額は生成データを採用せず、愛知県・安城市・厚生労働省の公式ページで確認できる内容へ置換した。
+
+追加・補正:
+
+- `aichi-childcare-subsidy`: 愛知県の第二子以降児の保育料無料化・軽減補助へ補正。3歳未満児の第二子以降の保育料を3歳到達年度末まで無料化または軽減する市町村への経費補助、2025年10月からの対象拡充を確認。
+- `aichi-employment-training`: 愛知県独自制度ではなく厚生労働省・ハローワークの全国制度「求職者支援制度」の重複として補正。月10万円等の給付内容は全国制度へ統合し、このslugは通常一覧から除外。
+- `aichi-nursing-robot`: 愛知県障害者施設介護テクノロジー導入支援事業費補助金へ補正。補助率4分の3、パッケージ型導入支援は最大1,000万円を確認。令和8年度事前協議期限2026年5月29日正午は終了済みのため通常一覧から除外。
+- `anjo-fertility-treatment`: 安城市一般不妊治療費等助成制度へ補正。自己負担額の2分の1、1夫婦につき年度上限10万円、申請期間2027年3月19日までを確認。
+- `anjo-housing-seismic`: 安城市木造住宅耐震改修費補助制度へ補正。一般型は一般診断法135万円、精密診断法155万円、交付申請は12月末まで、工事着手前申請を確認。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug ...愛知県庁3件・安城市2件 --concurrency 3 --timeout-ms 60000`: 採用sourceUrls 6件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 愛知県 --limit 40`: 愛知県の未照合raw slugは112件から107件に減少。次の先頭候補は一宮市18件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは2,927件から2,922件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,917件、activeWithoutOfficialSourceは2,926件、愛知県ローカル公式確認済みは27件。active全体4,843件に対する公式確認済みactive比率は約39.6%。
+- `npm run build`: 速度改善方針により今回は省略。直前の北海道Batch 90でbuild成功済みで、今回は対象ESLint・URL検証・coverage・raw gap監査が通っている。次の20〜50件節目または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 愛知県Batch 92として一宮市18件（`ichinomiya-birth-bonus` / `ichinomiya-care-robot` / `ichinomiya-childcare-leave-bonus` / `ichinomiya-childcare-subsidy` / `ichinomiya-community-bus` / `ichinomiya-earthquake-shelter-reform` / `ichinomiya-elderly-support` / `ichinomiya-factory-iot` / `ichinomiya-gifted-support` / `ichinomiya-housing-purchase` / `ichinomiya-infertility` / `ichinomiya-mental-health` / `ichinomiya-newlywed-housing` / `ichinomiya-nursing-equipment` / `ichinomiya-preschool-free` / `ichinomiya-scholarship` / `ichinomiya-seismic-diagnosis` / `ichinomiya-sme-support`）を公式一次情報で確認する。
