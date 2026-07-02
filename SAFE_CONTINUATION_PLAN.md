@@ -2344,3 +2344,32 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 4,152 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は588件、activeWithDeadlineは419件、期限切れ169件。
 - `npm run audit:links`: 初回は既存外部URLのtimeoutでbroken 3、同じビルド出力で再実行して broken 0。4,150ファイルから154,697リンク抽出、8,929件監査。
+
+## 2026-07-02 東京都Batch 56 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の新宿区9件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・抑止した。生成データの「子育て応援特別手当」「心身障害者医療費助成制度」「定住化支援事業」「住宅設備改修給付事業」「学校給食費補助事業」「耐震診断助成事業」「高齢者見守り支援事業」「テレワーク導入支援補助金」「高齢者インフルエンザ予防接種助成」を、新宿区公式ページ・公式PDFで確認できる現行制度名・支援内容・受付状況へ補正した。
+
+追加:
+
+- `shinjuku-childcare-subsidy`: 新宿区「低所得者支援及び定額減税補足給付金（不足額給付）」。子育て応援特別手当の現行公式制度は確認できないため、公式確認できる給付へ補正。申請期限2025年10月31日終了のため通常一覧から除外。
+- `shinjuku-disability-medical`: 新宿区「心身障害者医療費助成制度（マル障）」。保険診療の自己負担分助成、対象手帳区分、所得制限を確認。
+- `shinjuku-migration-bonus`: 新宿区「次世代育成転居助成」。転居一時金最大36万円、家賃差額助成月額最大3万5千円、令和7年度募集終了として補正。
+- `shinjuku-nursing-home-reform`: 新宿区「住宅設備改修給付」。浴槽37万9千円、流し台・洗面台15万6千円、洋式便器10万6千円、工事前相談必須として補正。
+- `shinjuku-school-lunch`: 新宿区「学校給食費無償化」。区立小中学校等の給食費無償化と副食費補助として補正。
+- `shinjuku-seismic-diagnosis`: 新宿区「木造住宅への耐震化支援事業」。耐震診断員派遣、補強設計、耐震改修工事等、耐震改修工事最大300万円として補正。
+- `shinjuku-senior-living-support`: 新宿区「高齢者見守りキーホルダー」。65歳以上の区民へ見守りキーホルダー1個・見守りシール10枚を無料配布する支援として補正。
+- `shinjuku-telework-bonus`: 新宿区「育児・介護サポート企業応援奨励金」。テレワーク専用補助は現行公式制度として確認できないため、公式確認できる働き方支援の事業者向け奨励金へ補正。最大30万円。
+- `shinjuku-vaccination-support`: 新宿区「高齢者用肺炎球菌予防接種」。旧インフルエンザ候補から、令和8年度ページで通年確認できる高齢者予防接種へ補正。
+
+確認:
+
+- 確認対象の公式URL 10件はすべて200で到達確認。新宿区公式の不足額給付PDF、心身障害者医療費助成制度、次世代育成転居助成、住宅支援一覧、住宅設備改修、学校給食費無償化、木造住宅への耐震化支援事業、高齢者見守りキーホルダー、育児・介護サポート企業応援奨励金、高齢者用肺炎球菌予防接種を確認。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 30`: 東京都の未照合raw slugは192件から183件に減少。次の候補は杉並区、世田谷区、青梅市、千代田区、足立区。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 20`: 全国未照合raw slugは3,282件から3,273件に減少。
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,651件、東京都ローカル公式確認済みは216件、activeWithoutOfficialSourceは3,277件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 4,163 件生成。
+- `npm run audit:deadlines`: build前の古い生成物では新規期限切れ2件の詳細HTML未生成で一度failures 2。build後に再実行して failures 0。期限候補は590件、activeWithDeadlineは419件、期限切れ171件。
+- `npm run audit:links`: broken 0。4,161ファイルから155,346リンク抽出、8,950件監査。

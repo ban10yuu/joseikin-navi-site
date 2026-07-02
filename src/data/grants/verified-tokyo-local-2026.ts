@@ -3116,6 +3116,326 @@ export const verifiedTokyoLocalGrants2026: Grant[] = [
     publishedAt: '2026-06-26',
   },
   {
+    slug: 'shinjuku-childcare-subsidy',
+    title: '新宿区 低所得者支援及び定額減税補足給付金（不足額給付）',
+    organization: '新宿区',
+    type: 'local',
+    maxAmount: '不足額給付1または不足額給付2として支給',
+    maxAmountNum: 0,
+    category: 'living',
+    prefecture: '東京都',
+    tags: ['新宿区', '低所得者支援', '給付金'],
+    eligibility: '2026年1月1日時点で新宿区に住民登録があり、令和6年分所得税・定額減税等の算定により不足額給付の対象となる方などが対象です。',
+    targetIncome: '定額減税しきれない方等',
+    applicationPeriod: '令和7年度の申請期限は2025年10月31日で終了',
+    deadlineDate: '2025-10-31',
+    description: '新宿区が、国の低所得者支援及び定額減税補足給付金として、不足額給付の対象者に給付を行った制度です。旧データの子育て応援特別手当候補を、公式確認できる給付へ補正し、通常一覧から除外します。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>令和6年度に実施された定額減税補足給付金について、当初調整給付額に不足が生じた方などへ追加で給付する制度です。</p>'
+      },
+      {
+        heading: '支援内容',
+        content: '<p>対象区分により、不足額給付1または不足額給付2として支給されます。具体的な支給額は新宿区からの通知・確認書で確認します。</p>'
+      },
+      {
+        heading: '掲載時の補正',
+        content: '<p>子育て応援特別手当という現行制度名は公式確認できないため、公式確認できる給付制度へ補正しています。令和7年度の申請期限は終了しています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.shinjuku.lg.jp/content/000429967.pdf',
+    sourceName: '新宿区 低所得者支援及び定額減税補足給付金（不足額給付）',
+    sourceUrls: ['https://www.city.shinjuku.lg.jp/content/000429967.pdf'],
+    sourceNote: '新宿区公式PDFで不足額給付、対象者、確認書返送・申請期限2025年10月31日を確認。旧子育て応援特別手当候補から公式確認できる給付へ補正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'shinjuku-disability-medical',
+    title: '新宿区 心身障害者医療費助成制度（マル障）',
+    organization: '新宿区',
+    type: 'local',
+    maxAmount: '保険診療の自己負担分を助成',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '東京都',
+    tags: ['新宿区', '障害者医療', 'マル障'],
+    eligibility: '身体障害者手帳1・2級、内部障害3級、愛の手帳1・2度、精神障害者保健福祉手帳1級などに該当する新宿区民が対象です。所得制限等があります。',
+    targetOccupation: '重度心身障害者',
+    applicationPeriod: '通年',
+    description: '新宿区が、重度心身障害者の医療費負担を軽減するため、保険診療の自己負担分を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>心身障害者医療費助成受給者証を交付し、対象者の保険診療にかかる自己負担分を軽減します。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>身体障害者手帳1・2級、内部障害3級、愛の手帳1・2度、精神障害者保健福祉手帳1級などが対象です。65歳以上で新規に対象手帳を取得した場合など、対象外となる場合があります。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>障害者福祉課で申請し、受給者証の交付を受けます。所得制限や他制度の受給状況により対象可否が変わります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.shinjuku.lg.jp/fukushi/file06_02_00009.html',
+    sourceName: '新宿区 心身障害者医療費助成制度（マル障）',
+    sourceUrls: ['https://www.city.shinjuku.lg.jp/fukushi/file06_02_00009.html'],
+    sourceNote: '新宿区公式ページで心身障害者医療費助成制度、対象者、所得制限、申請窓口を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'shinjuku-migration-bonus',
+    title: '新宿区 次世代育成転居助成',
+    organization: '新宿区',
+    type: 'local',
+    maxAmount: '転居一時金 最大36万円、家賃差額助成 月額最大3万5千円',
+    maxAmountNum: 246,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['新宿区', '子育て世帯', '転居助成'],
+    eligibility: '新宿区内の民間賃貸住宅から区内の別の民間賃貸住宅へ転居する義務教育修了前の児童を扶養する世帯が対象です。居住年数、所得、住宅面積等の要件があります。',
+    targetOccupation: '子育て世帯',
+    applicationPeriod: '令和7年度は2025年10月15日に募集終了。令和8年度募集は未確認',
+    deadlineDate: '2025-10-15',
+    description: '新宿区が子育て世帯の区内定住を支援するため、区内転居時の引越し費用等と家賃差額を助成する制度です。令和7年度募集は終了しています。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>義務教育修了前の子どもがいる世帯が、区内でより広い民間賃貸住宅へ転居する場合に、転居一時金と家賃差額を助成します。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>転居一時金は礼金・仲介手数料・引越し費用の合計で上限36万円、家賃差額助成は月額上限3万5千円で最長5年間です。</p>'
+      },
+      {
+        heading: '受付状況',
+        content: '<p>令和7年度募集は2025年10月15日に終了しています。令和8年度の募集有無は最新の住宅支援一覧で確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.shinjuku.lg.jp/seikatsu/file07_02_00017.html',
+    sourceName: '新宿区 次世代育成転居助成',
+    sourceUrls: [
+      'https://www.city.shinjuku.lg.jp/seikatsu/file07_02_00017.html',
+      'https://www.city.shinjuku.lg.jp/soshiki/401500jutaku.html'
+    ],
+    sourceNote: '新宿区公式ページで次世代育成転居助成、転居一時金、家賃差額助成、令和7年度募集終了を確認。定住化支援候補から修正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'shinjuku-nursing-home-reform',
+    title: '新宿区 住宅設備改修給付',
+    organization: '新宿区',
+    type: 'local',
+    maxAmount: '浴槽 最大37万9千円等',
+    maxAmountNum: 38,
+    category: 'nursing',
+    prefecture: '東京都',
+    tags: ['新宿区', '住宅改修', '高齢者支援'],
+    eligibility: '新宿区に住所を有する65歳以上の方で、身体状況等により住宅設備改修が必要と認められる方が対象です。介護保険住宅改修の対象外となる場合があります。',
+    targetOccupation: '高齢者世帯',
+    applicationPeriod: '通年。工事前の事前相談・申請が必要',
+    description: '新宿区が、高齢者の在宅生活を支援するため、浴槽・流し台・洗面台・便器等の住宅設備改修費用を給付する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>高齢者の身体状況に合わせて住宅設備を改修し、在宅生活の安全性と自立を支援します。</p>'
+      },
+      {
+        heading: '給付内容',
+        content: '<p>浴槽の取り替えは上限37万9千円、流し台・洗面台の取り替えは上限15万6千円、洋式便器等への取り替えは上限10万6千円です。利用者負担があります。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>工事前に事前相談・申請が必要です。介護保険の住宅改修対象となる場合は、介護保険制度が優先されます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.shinjuku.lg.jp/fukushi/file05_02_00012.html',
+    sourceName: '新宿区 住宅設備改修給付',
+    sourceUrls: ['https://www.city.shinjuku.lg.jp/fukushi/file05_02_00012.html'],
+    sourceNote: '新宿区公式ページで住宅設備改修給付、対象者、給付限度額、事前相談を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'shinjuku-school-lunch',
+    title: '新宿区 学校給食費無償化',
+    organization: '新宿区',
+    type: 'local',
+    maxAmount: '区立小中学校等の給食費を区が負担',
+    maxAmountNum: 0,
+    category: 'education',
+    prefecture: '東京都',
+    tags: ['新宿区', '学校給食', '保護者負担軽減'],
+    eligibility: '新宿区立小学校・中学校・特別支援学校等の児童生徒の保護者が対象です。区立幼稚園等の副食費補助も案内されています。',
+    targetOccupation: '小中学生等の保護者',
+    applicationPeriod: '令和8年度実施。原則申請不要',
+    description: '新宿区が、子育て世帯の負担軽減のため、区立学校の学校給食費を無償化する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>物価高騰の影響を受ける子育て世帯を支援するため、区立学校の学校給食費について保護者負担を軽減します。</p>'
+      },
+      {
+        heading: '支援内容',
+        content: '<p>区立小中学校等の学校給食費を区が負担します。公式ページでは区立幼稚園等の副食費の補助も案内されています。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>区立学校の給食費無償化は原則として学校側で処理されます。私立・国立等に通う場合や就学援助との関係は、区の最新案内を確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.shinjuku.lg.jp/kodomo/kyoseisaku02_000001_00003.html',
+    sourceName: '新宿区 学校給食費無償化',
+    sourceUrls: ['https://www.city.shinjuku.lg.jp/kodomo/kyoseisaku02_000001_00003.html'],
+    sourceNote: '新宿区公式ページで学校給食費無償化、区立幼稚園等の副食費補助、令和8年度支援を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'shinjuku-seismic-diagnosis',
+    title: '新宿区 木造住宅への耐震化支援事業',
+    organization: '新宿区',
+    type: 'local',
+    maxAmount: '耐震改修工事 最大300万円等',
+    maxAmountNum: 300,
+    category: 'housing',
+    prefecture: '東京都',
+    tags: ['新宿区', '耐震診断', '木造住宅'],
+    eligibility: '新宿区内の旧耐震基準の木造住宅等の所有者が対象です。建物の用途、構造、地域、工事内容等により助成区分が異なります。',
+    targetOccupation: '住宅所有者',
+    applicationPeriod: '通年。診断・工事前に事前相談・申請が必要。予算状況により受付終了あり',
+    description: '新宿区が、木造住宅の耐震診断、補強設計、耐震改修工事、除却、建替えなどを支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>旧耐震基準の木造住宅等について、耐震診断から改修・除却・建替えまで段階的に支援します。</p>'
+      },
+      {
+        heading: '支援内容',
+        content: '<p>木造住宅への耐震診断員派遣、補強設計、耐震改修工事などが案内されています。耐震改修工事は地域や世帯条件により最大300万円まで支援されます。</p>'
+      },
+      {
+        heading: '申請時の注意',
+        content: '<p>診断や工事の契約・着手前に区へ相談し、対象建築物と助成区分を確認してください。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.shinjuku.lg.jp/seikatsu/file10_11_00001.html',
+    sourceName: '新宿区 木造住宅への耐震化支援事業',
+    sourceUrls: ['https://www.city.shinjuku.lg.jp/seikatsu/file10_11_00001.html'],
+    sourceNote: '新宿区公式ページで木造住宅への耐震化支援事業、耐震診断員派遣、補強設計、耐震改修工事等の支援を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'shinjuku-senior-living-support',
+    title: '新宿区 高齢者見守りキーホルダー',
+    organization: '新宿区',
+    type: 'local',
+    maxAmount: '登録無料',
+    maxAmountNum: 0,
+    category: 'living',
+    prefecture: '東京都',
+    tags: ['新宿区', '高齢者見守り', '生活支援'],
+    eligibility: '新宿区内に居住する65歳以上のひとり暮らし高齢者や高齢者のみ世帯など、見守りが必要な方が対象です。',
+    targetOccupation: '高齢者世帯',
+    applicationPeriod: '通年',
+    description: '新宿区が、65歳以上の区民に見守りナンバーを表示したキーホルダーとシールを無料配布し、外出先や緊急時の身元確認につなげる事業です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>見守りナンバーを表示したキーホルダーとシールを身に着けることで、外出先で倒れた時や道に迷った時に高齢者総合相談センターが迅速に身元確認を行います。</p>'
+      },
+      {
+        heading: '支援内容',
+        content: '<p>希望する65歳以上の区民に、見守りキーホルダー1個と見守りシール10枚を無料で配布します。申請時に本人情報と緊急連絡先を登録します。</p>'
+      },
+      {
+        heading: '掲載時の補正',
+        content: '<p>現金給付ではなく、高齢者の生活安全を支える無料配布・見守り支援事業として公式確認した内容に修正しています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.shinjuku.lg.jp/fukushi/korei01_002096.html',
+    sourceName: '新宿区 高齢者見守りキーホルダー',
+    sourceUrls: ['https://www.city.shinjuku.lg.jp/fukushi/korei01_002096.html'],
+    sourceNote: '新宿区公式ページで高齢者見守りキーホルダー、65歳以上の対象者、無料配布物、登録事項を確認。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'shinjuku-telework-bonus',
+    title: '新宿区 育児・介護サポート企業応援奨励金',
+    organization: '新宿区',
+    type: 'local',
+    maxAmount: 'コースにより最大30万円',
+    maxAmountNum: 30,
+    category: 'employment',
+    prefecture: '東京都',
+    tags: ['新宿区', '中小企業', '仕事と家庭の両立'],
+    eligibility: '新宿区内に本社または事業所がある中小企業等で、育児・介護と仕事の両立支援に関する対象取組を実施する事業者が対象です。',
+    targetOccupation: '中小企業者等',
+    applicationPeriod: '令和8年度実施。コース・予算状況により受付が変わるため事前相談が必要',
+    description: '新宿区が、従業員の育児・介護と仕事の両立を支援する中小企業等に奨励金を交付する制度です。旧データのテレワーク専用補助候補を、現行の働き方支援制度へ補正しました。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>育児・介護休業や短時間勤務制度等を整備・活用し、仕事と家庭の両立支援に取り組む区内企業を支援します。</p>'
+      },
+      {
+        heading: '支援内容',
+        content: '<p>育児サポート、介護サポート、男性育休取得促進等のコースがあり、コースにより奨励金額が異なります。上限30万円のコースが確認できます。</p>'
+      },
+      {
+        heading: '掲載時の補正',
+        content: '<p>テレワーク導入支援補助金は現行公式制度として確認できないため、公式に確認できる働き方改革・両立支援の事業者向け奨励金へ補正しています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.shinjuku.lg.jp/jigyo/sangyo01_002197.html',
+    sourceName: '新宿区 育児・介護サポート企業応援奨励金',
+    sourceUrls: ['https://www.city.shinjuku.lg.jp/jigyo/sangyo01_002197.html'],
+    sourceNote: '新宿区公式ページで育児・介護サポート企業応援奨励金、対象企業、コース、奨励金額を確認。テレワーク専用補助候補から現行の働き方支援制度へ補正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
+    slug: 'shinjuku-vaccination-support',
+    title: '新宿区 高齢者用肺炎球菌予防接種',
+    organization: '新宿区',
+    type: 'local',
+    maxAmount: '対象者は公費助成、一部自己負担あり',
+    maxAmountNum: 0,
+    category: 'medical',
+    prefecture: '東京都',
+    tags: ['新宿区', '予防接種', '高齢者'],
+    eligibility: '接種日時点で新宿区民であり、過去に肺炎球菌ワクチンを接種したことがない65歳の方、または60歳から64歳で心臓・腎臓・呼吸器機能等に一定の障害がある方が対象です。',
+    targetOccupation: '高齢者・障害のある方',
+    applicationPeriod: '令和8年度。対象者の予診票有効期限内',
+    description: '新宿区が、高齢者等を対象に肺炎球菌予防接種費用を公費助成する定期予防接種制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>肺炎球菌による感染症の重症化を防ぐため、対象者の接種費用を公費助成します。</p>'
+      },
+      {
+        heading: '対象者',
+        content: '<p>過去に肺炎球菌ワクチンを接種したことがなく、接種日に65歳である方などが対象です。60歳から64歳で一定の障害がある方も対象となります。</p>'
+      },
+      {
+        heading: '費用',
+        content: '<p>予診票を使用して接種を受ける場合の自己負担額は、手元の予診票に記載された金額です。令和8年度の詳細は公式ページで確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.city.shinjuku.lg.jp/fukushi/yobo01_001194.html',
+    sourceName: '新宿区 高齢者用肺炎球菌予防接種',
+    sourceUrls: ['https://www.city.shinjuku.lg.jp/fukushi/yobo01_001194.html'],
+    sourceNote: '新宿区公式ページで高齢者用肺炎球菌予防接種、令和8年度事業、対象者、公費助成、自己負担の案内を確認。旧インフルエンザ候補から現行通年確認できる高齢者予防接種へ補正。',
+    verifiedAt,
+    publishedAt: '2026-06-26',
+  },
+  {
     slug: 'suginami-housing-eco',
     title: '杉並区 エコ住宅促進助成（令和8年度）',
     organization: '杉並区',
