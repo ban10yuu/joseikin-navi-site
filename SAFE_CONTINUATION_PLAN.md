@@ -3868,3 +3868,36 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - 愛媛県Batch 101として松山市11件（`matsuyama-block-wall-removal` / `matsuyama-child-medical-aid` / `matsuyama-childcare-subsidy` / `matsuyama-elderly-taxi` / `matsuyama-health-checkup-subsidy` / `matsuyama-juutaku-reform` / `matsuyama-scholarship-repayment` / `matsuyama-school-lunch-subsidy` / `matsuyama-startup-support` / `matsuyama-telework-bonus` / `matsuyama-water-saving`）を公式一次情報で確認する。
+
+## 2026-07-02 愛媛県Batch 101 追加ログ
+
+松山市11件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。生成データの「高齢者タクシー」「人間ドック助成」「テレワーク移住支援補助金」などは、公式で確認できる現行制度名・金額・対象に合わせて、重度障害者タクシー、まつやま笑顔ドック、まつやま移住者定着支援事業補助金などへ補正した。
+
+追加・補正:
+
+- `matsuyama-block-wall-removal`: ブロック塀等安全対策補助事業へ補正。補助率3分の2、上限30万円、2027年1月29日締切を確認。
+- `matsuyama-child-medical-aid`: 子ども医療費助成へ補正。0歳から18歳到達年度末まで、資格申請、保険診療自己負担分の助成を確認。
+- `matsuyama-childcare-subsidy`: 保育料軽減・地域保育所補助へ補正。きょうだい利用時の保育料軽減と地域保育所の第3子等保育料補助を確認。
+- `matsuyama-elderly-taxi`: 高齢者一般向けタクシー助成は公式確認できず、重度障害者タクシー利用助成事業へ補正。
+- `matsuyama-health-checkup-subsidy`: 人間ドック費用助成は公式FAQで制度なしと確認し、まつやま笑顔ドックへ補正。自己負担16,800円を確認。
+- `matsuyama-juutaku-reform`: 令和8年度わが家のリフォーム応援事業へ補正。上限20万円、空き家バンク・省エネ化加算各30万円を確認。
+- `matsuyama-scholarship-repayment`: 出産世帯奨学金返還支援事業へ補正。令和7年4月2日以降出生児童の世帯等を対象にした県市連携事業を確認。
+- `matsuyama-school-lunch-subsidy`: 第3子以降限定補助ではなく、令和8年度小学校給食費無償化へ補正。
+- `matsuyama-startup-support`: 創業資金利子補助金へ補正。日本政策金融公庫の創業者向け融資、補助対象期間2年、利子補助率年1.0%以内を確認。
+- `matsuyama-telework-bonus`: テレワーク専用補助は公式確認できず、テレワーク継続も対象になり得るまつやま移住者定着支援事業補助金へ補正。最大100万円を確認。
+- `matsuyama-water-saving`: 雨水利用促進助成制度へ補正。小規模雨水タンク最大15万円、大規模雨水貯留施設最大300万円を確認。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- `node -e ...duplicate/category`: 重複slug 0、`category` / `relatedCategories` は既存型内。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug ...松山市11件 --concurrency 1 --timeout-ms 120000`: 採用sourceUrls 21件はすべてHTTP 200、failures 0。松山市CDNは並列2だと一部 `fetch failed` が出たため、直列監査結果を採用。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 愛媛県 --limit 40`: 愛媛県の未照合raw slugは29件から18件に減少。残りは新居浜市9件、西条市9件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,797件から2,786件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,019件、activeWithoutOfficialSourceは2,790件、愛媛県ローカル公式確認済みは54件。active全体4,809件に対する公式確認済みactive比率は約42.0%。
+- `npm run build`: 速度改善方針により今回は省略。対象ESLint、URL検証、raw gap監査、coverageが通っている。愛媛県raw gap完了時、20〜50件節目、または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 愛媛県Batch 102として新居浜市9件（`niihama-block-wall-removal` / `niihama-child-medical-aid` / `niihama-elderly-taxi` / `niihama-health-checkup-subsidy` / `niihama-juutaku-reform` / `niihama-scholarship-repayment` / `niihama-school-lunch-subsidy` / `niihama-startup-support` / `niihama-water-saving`）を公式一次情報で確認する。

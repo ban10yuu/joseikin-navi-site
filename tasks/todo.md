@@ -713,6 +713,8 @@
 - [x] 愛知県Batch 99の検証（対象ESLintエラー0、diff check問題なし、重複slug 0、採用sourceUrls 14件はHTTP 200、愛知県の未照合raw slugは11件から0件、全国未照合raw slugは2,826件から2,815件に減少、coverage failures 0、公式確認済みactiveは1,992件、愛知県ローカル公式確認済みは102件。既存カテゴリ型にない `business` / `elderly` 等の関連カテゴリを補正し、`npm run build` 成功。静的ページ4,794件生成、`/grant/[slug]` は2,279件相当）
 - [x] 愛媛県Batch 100として愛媛県庁1件・今治市17件を公式確認済み追加・補正（愛媛県新規就農支援、今治市妊婦支援給付、ブロック塀等安全対策、こども医療費、緊急通報装置等の見守り、重度障がい者タクシー、国保短期人間ドック、移住者住宅取得、空き家リフォーム、不妊治療費、介護用品、奨学金、出産世帯奨学金返還支援、小学校給食費無償化、木造住宅耐震診断、技術開発・販路開拓、合併処理浄化槽維持管理費）
 - [x] 愛媛県Batch 100の検証（対象ESLintエラー0、重複slug 0、採用sourceUrls 20件はHTTP 200、愛媛県の未照合raw slugは47件から29件、全国未照合raw slugは2,815件から2,797件に減少、coverage failures 0、公式確認済みactiveは2,008件、愛媛県ローカル公式確認済みは43件。buildは速度改善方針により次節目または公開前へ繰り延べ）
-- [ ] 次回候補: 愛媛県・松山市11件（`matsuyama-block-wall-removal` / `matsuyama-child-medical-aid` / `matsuyama-childcare-subsidy` / `matsuyama-elderly-taxi` / `matsuyama-health-checkup-subsidy` / `matsuyama-juutaku-reform` / `matsuyama-scholarship-repayment` / `matsuyama-school-lunch-subsidy` / `matsuyama-startup-support` / `matsuyama-telework-bonus` / `matsuyama-water-saving`）を公式一次情報で確認する
+- [x] 愛媛県Batch 101として松山市11件を公式確認済み追加・補正（ブロック塀等安全対策、子ども医療費、保育料軽減・地域保育所補助、重度障害者タクシー、まつやま笑顔ドック、わが家のリフォーム応援事業、出産世帯奨学金返還支援、小学校給食費無償化、創業資金利子補助、まつやま移住者定着支援、雨水利用促進助成）
+- [x] 愛媛県Batch 101の検証（対象ESLintエラー0、diff check問題なし、重複slug 0、採用sourceUrls 21件は直列監査ですべてHTTP 200、愛媛県の未照合raw slugは29件から18件、全国未照合raw slugは2,797件から2,786件に減少、coverage failures 0、公式確認済みactiveは2,019件、愛媛県ローカル公式確認済みは54件。buildは速度改善方針により次節目または公開前へ繰り延べ）
+- [ ] 次回候補: 愛媛県・新居浜市9件（`niihama-block-wall-removal` / `niihama-child-medical-aid` / `niihama-elderly-taxi` / `niihama-health-checkup-subsidy` / `niihama-juutaku-reform` / `niihama-scholarship-repayment` / `niihama-school-lunch-subsidy` / `niihama-startup-support` / `niihama-water-saving`）を公式一次情報で確認する
 - [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugを公式確認済みデータへ置換し、raw重複の実害を減らす
 - [ ] push / 公開反映は明示確認後に実行
