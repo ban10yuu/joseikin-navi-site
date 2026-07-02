@@ -3035,3 +3035,39 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - `tasks/todo.md` の次回候補どおり、墨田区9件（`sumida-birth-bonus` / `sumida-childcare-subsidy` / `sumida-elderly-support` / `sumida-housing-eco-reform` / `sumida-infertility` / `sumida-nursing-equipment` / `sumida-scholarship` / `sumida-seismic-diagnosis` / `sumida-sme-support`）を公式一次情報で確認する。
+
+## 2026-07-02 東京都Batch 78 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の墨田区9件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・補正した。生成データの制度名・金額・現行性をそのまま採用せず、墨田区公式ページで確認できる現行制度、既存レコード重複、東京都制度案内、公式確認不可の境界を整理した。
+
+追加・補正:
+
+- `sumida-birth-bonus`: 出産・子育て応援給付金候補は、既存verifiedの `sumida-pregnancy-support-benefit` と同じ「妊婦のための支援給付」へ統合。妊娠時5万円、出産後子ども1人あたり5万円を確認し、重複掲載を抑止。
+- `sumida-childcare-subsidy`: 認可外保育施設利用助成候補を「令和8年度認証保育所保育料負担軽減助成金」へ補正。対象者、月額上限8万円、令和8年度からの代理受領方式を確認。
+- `sumida-elderly-support`: 高齢者見守りネットワーク候補を「高齢者救急通報システム」へ補正。月額1,000円、緊急通報・健康相談等を確認。
+- `sumida-housing-eco-reform`: 住宅リフォーム助成候補を「地球温暖化防止設備導入助成制度（令和8年度）」へ補正。工事着手前申請、設備区分ごとの上限、令和8年度変更点を確認。
+- `sumida-infertility`: 不妊治療費助成候補は、墨田区独自助成ではなく東京都制度案内として確認。区独自の金額・受付を確認できないため通常一覧から除外。
+- `sumida-nursing-equipment`: 介護用品支給候補を「高齢者の紙おむつ等支給」へ補正。対象者、月7,000ポイント、自己負担区分、オンライン申請案内を確認。
+- `sumida-scholarship`: 奨学資金制度候補を「墨田育英会 奨学金・入学準備金貸付」へ補正。月額貸付額、入学準備金、返還条件、令和9年度進学予定者の受付期間を確認。
+- `sumida-seismic-diagnosis`: 木造住宅耐震診断助成候補を「耐震診断助成事業」へ補正。耐震診断費用の一部助成、非木造建築物最大300万円、事前相談を確認。
+- `sumida-sme-support`: 中小企業経営革新支援補助金候補を「ものづくりプロモーション推進補助金」へ補正。最大150万円、30万円上限区分、事前相談を確認。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug sumida-birth-bonus,sumida-childcare-subsidy,sumida-elderly-support,sumida-housing-eco-reform,sumida-infertility,sumida-nursing-equipment,sumida-scholarship,sumida-seismic-diagnosis,sumida-sme-support --concurrency 8 --timeout-ms 60000`: 採用sourceUrls 21件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 35`: 東京都の未照合raw slugは36件から27件に減少。次の候補は目黒区10件、立川市9件、練馬区。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは3,126件から3,117件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,780件、東京都ローカル公式確認済みは345件、activeWithoutOfficialSourceは3,121件。
+- `npm run build`: 成功。静的ページ4,376件生成、`/grant/[slug]` は1,977件。
+
+速度改善方針:
+
+- これまでの遅延は、制度単位で公式確認・URL検証・coverage・buildを細かく回しすぎたことと、全国未照合raw slugが3,000件超残っていることが主因。
+- 精度を落とさず速度を上げるため、次回からは目黒区10件＋立川市9件のように20件前後を同一サイクルで処理する。公式一次情報で確認できた事実だけを掲載し、曖昧・終了済み・区独自でない制度は抑止レコードにする。
+- URL疎通は `scripts/check-grant-source-urls.mjs` の並列確認を継続する。coverage/buildは小粒度ではなく、20〜50件単位の節目でまとめて実行する。
+
+次回再開位置:
+
+- `tasks/todo.md` の次回候補どおり、東京都の残27件から目黒区10件と立川市9件を同一バッチで公式一次情報確認する。
