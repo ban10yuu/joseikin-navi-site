@@ -3414,3 +3414,42 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - 北海道Batch 88として苫小牧市20件（`tomakomai-birth-bonus` / `tomakomai-block-wall-removal` / `tomakomai-bousai-equipment` / `tomakomai-child-medical` / `tomakomai-child-medical-aid` / `tomakomai-childcare-subsidy` / `tomakomai-disability-medical` / `tomakomai-elderly-taxi` / `tomakomai-energy-support` / `tomakomai-health-checkup-subsidy` / `tomakomai-housing-reform` / `tomakomai-juutaku-reform` / `tomakomai-newlywed-rent` / `tomakomai-nursing-home-reform` / `tomakomai-scholarship-repayment` / `tomakomai-school-lunch` / `tomakomai-school-lunch-subsidy` / `tomakomai-startup-support` / `tomakomai-telework-bonus` / `tomakomai-water-saving`）を公式一次情報で確認する。
+
+## 2026-07-02 北海道Batch 88 追加ログ
+
+北海道の次候補である苫小牧市20件を、自治体単位の一括棚卸しで公式確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。苫小牧市公式サイト、公式PDF、制度ページで確認できた現行制度へ補正し、現行公式補助として確認できない生成候補は期限切れ扱いで通常一覧から除外した。
+
+追加・補正:
+
+- `tomakomai-birth-bonus`: 出産・子育て応援給付金候補を妊婦のための支援給付へ補正。妊婦1人5万円、胎児1人5万円を確認。
+- `tomakomai-block-wall-removal`: ブロック塀等撤去補助金は公式確認できず、ブロック塀等の安全点検案内を根拠に通常一覧から除外。
+- `tomakomai-bousai-equipment`: 家庭用防災備蓄品購入補助金は公式確認できず、初期消火で使用した消火器の詰替え・交換補助へ補正。
+- `tomakomai-child-medical` / `tomakomai-child-medical-aid`: 子育て支援医療費助成制度へ補正し、重複slugを統合。18歳年度末まで、所得制限なし、自己負担区分ありを確認。
+- `tomakomai-childcare-subsidy`: 多子世帯にかかる保育料の軽減へ補正。第2子以降かつ3歳未満児の保育料無償化、所得制限を確認。
+- `tomakomai-disability-medical`: 重度心身障害者医療費助成制度を公式PDFで確認。身体障害者手帳1〜3級、知的障がい、精神障害者保健福祉手帳1級等を確認。
+- `tomakomai-elderly-taxi`: 一般高齢者向けタクシー助成は確認できず、高齢者優待乗車証・高齢者フリーパスへ補正。
+- `tomakomai-energy-support`: 省エネ家電買替補助金候補をゼロカーボンハウス促進補助金へ補正。ZEH+上限100万円、太陽光発電上限70万円等を確認。
+- `tomakomai-health-checkup-subsidy`: 人間ドック助成候補を後期高齢者医療の脳ドック事業へ補正。令和8年度は応募締切済み、自己負担5,200円を確認。
+- `tomakomai-housing-reform` / `tomakomai-juutaku-reform`: 住宅耐震・リフォーム支援事業へ補正し、重複slugを統合。融資限度額500万円、耐震・省エネ改修を含む場合650万円、利子補給上限1.5%を確認。
+- `tomakomai-newlywed-rent`: 結婚新生活支援補助金・新婚家賃補助は現行公式制度として確認できず、結婚支援事業ページを根拠に通常一覧から除外。
+- `tomakomai-nursing-home-reform`: 介護保険住宅改修費の支給へ補正。住宅改修費20万円上限、9〜7割払い戻し、事前申請を確認。
+- `tomakomai-scholarship-repayment`: 奨学金返還支援制度を公式確認。返還額2分の1、年間最大10万円、5年間最大50万円、北洋大学卒業者は最大100万円を確認。
+- `tomakomai-school-lunch`: 多子世帯給食費助成事業を公式確認。3番目以降の子の学校給食費を補助、教育委員会から学校給食会へ直接支払を確認。
+- `tomakomai-school-lunch-subsidy`: 就学援助制度へ補正。学用品費・給食費など就学に必要な費用の援助、随時受付を確認。
+- `tomakomai-startup-support`: 中小企業創業サポート事業補助金を公式確認。最大30万円、補助率10分の10以内、交付申請2026年12月25日までを確認。
+- `tomakomai-telework-bonus`: 企業立地・テレワーク推進補助金は確認できず、テレワーク要件を含む移住支援金へ補正。単身60万円、世帯100万円、18歳未満1人30万円加算を確認。
+- `tomakomai-water-saving`: 雨水タンク設置補助金は公式確認できず、雨水浸透抑制のお願いページを根拠に通常一覧から除外。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug ...苫小牧市20件 --concurrency 10 --timeout-ms 60000`: 採用sourceUrls 29件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 北海道 --limit 35`: 北海道の未照合raw slugは52件から32件に減少。次の先頭候補は函館市18件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは2,979件から2,959件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,889件、activeWithoutOfficialSourceは2,963件、北海道ローカル公式確認済みは106件。active全体4,852件に対する公式確認済みactive比率は約38.9%。
+- `npm run build`: 成功。静的ページ4,575件生成、`/grant/[slug]` は2,135件相当。
+
+次回再開位置:
+
+- 北海道Batch 89として函館市18件（`hakodate-birth-bonus` / `hakodate-block-wall-removal` / `hakodate-child-medical-aid` / `hakodate-childcare-subsidy` / `hakodate-disability-medical` / `hakodate-elderly-support` / `hakodate-elderly-taxi` / `hakodate-health-checkup-subsidy` / `hakodate-housing-purchase` / `hakodate-housing-seismic` / `hakodate-juutaku-reform` / `hakodate-nursing-home-reform` / `hakodate-scholarship` / `hakodate-scholarship-repayment` / `hakodate-school-lunch-subsidy` / `hakodate-seismic-diagnosis` / `hakodate-sme-support` / `hakodate-water-saving`）を公式一次情報で確認する。
