@@ -2145,3 +2145,32 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npm run build`: 成功。静的ページ 4,051 件生成。
 - `npm run audit:deadlines`: failures 0。期限候補は568件、activeWithDeadlineは411件、期限切れ157件。
 - `npm run audit:links`: broken 0。4,049ファイルから150,214リンク抽出、8,687件監査。
+
+## 2026-07-02 東京都Batch 49 追加ログ
+
+新棚卸し `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の荒川区9件を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・抑止した。生成データの「防災用品あっせん事業」「子育て世帯応援給付金」「認証保育所保育料助成制度」「省エネ家電買替助成事業」「生活困窮者自立支援事業」「介護保険住宅改修支援事業」「学校給食費助成事業」「高齢者インフルエンザ等予防接種費用助成」「テレワーク環境整備助成金」を、荒川区公式ページで確認できる現行制度名・支援内容・受付状況へ補正した。
+
+追加:
+
+- `arakawa-bousai-equipment`: 荒川区「防災用品のあっせん事業」。補助率50%ではなく、区内一般家庭・事業所向けのあっせん価格購入支援として補正。申込期限は2026年7月31日消印有効。
+- `arakawa-childcare-subsidy`: 荒川区「物価高対応子育て応援手当」。児童1人当たり2万円。旧生成データの子ども1人最大5万円給付ではなく、現行公式手当へ補正。
+- `arakawa-daycare-support`: 荒川区「施設等利用費及び認証保育所等保育料補助金」。公式確認できる令和7年度後期申請期限は2026年3月19日または4月3日で到来済みのため通常一覧から除外。
+- `arakawa-energy-support`: 荒川区「令和8年度エコ助成事業（省エネエアコン・省エネ冷蔵庫）」。既存slug `arakawa-housing-eco` と同一公式制度のため旧slugは通常一覧から除外し、既存レコード側へ省エネエアコン・省エネ冷蔵庫の検索語と金額を追記。
+- `arakawa-living-support`: 荒川区「住居確保給付金（家賃補助・転宅費用補助）」。生活困窮者自立支援制度に基づく家賃補助・転宅費用補助へ補正。
+- `arakawa-nursing-home-reform`: 荒川区「介護保険住宅改修」。支給限度額20万円、利用者負担1〜3割、工事前申請必須として補正。
+- `arakawa-school-lunch`: 荒川区「教育費の保護者負担軽減事業」。学校給食費、補助教材費等、移動教室・修学旅行参加費を公費負担する制度として補正。
+- `arakawa-senior-medical`: 荒川区「定期高齢者肺炎球菌予防接種事業」。令和7年度高齢者インフルエンザは終了済みのため、現行確認できる令和8年度肺炎球菌定期接種へ補正。
+- `arakawa-telework-bonus`: 荒川区「製造業等企業価値向上支援事業補助金（DX推進補助）」。テレワーク専用助成ではなく、DX推進補助として一般上限100万円、特例上限300万円、賃上げ要件該当時上限200万円、申請期限2027年2月15日へ補正。
+
+確認:
+
+- 採用した公式出典URL 28件はすべて200で到達確認。荒川区公式の防災用品あっせん、家庭の備え、屋内安全対策、物価高対応子育て応援手当、児童手当、子育て一覧、施設等利用費及び認証保育所等保育料補助金、認証保育所代理申請、保育料補助制度PDF、令和8年度エコ助成、助成・支援一覧、エコ助成手引きPDF、住居確保給付金、仕事・生活サポートデスク、住居確保給付金実施要綱、介護保険住宅改修、住宅改修一覧、住宅改修取扱事業者、高齢者住宅改修給付、教育費の保護者負担軽減、就学援助、学校給食無償化意見書、定期高齢者肺炎球菌、令和7年度高齢者インフルエンザ、23区外接種費用助成、製造業等企業価値向上支援事業補助金、企業支援メニューPDF 2件を確認。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 30`: 東京都の未照合raw slugは251件から242件に減少。次の候補は国分寺市、狛江市、三鷹市、渋谷区。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 20`: 全国未照合raw slugは3,341件から3,332件に減少。
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,604件、東京都ローカル公式確認済みは169件、activeWithoutOfficialSourceは3,336件。
+- `npm run lint`: エラー0、既知警告5件。
+- `npm run build`: 成功。静的ページ 4,068 件生成。
+- `npm run audit:deadlines`: failures 0。期限候補は572件、activeWithDeadlineは413件、期限切れ159件。
+- `npm run audit:links`: broken 0。4,066ファイルから150,902リンク抽出、8,730件監査。
