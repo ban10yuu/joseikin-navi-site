@@ -3117,3 +3117,37 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 次回再開位置:
 
 - 東京都raw gapは残り練馬区8件（`nerima-birth-bonus` / `nerima-childcare-subsidy` / `nerima-education-scholarship` / `nerima-energy-support` / `nerima-housing-eco` / `nerima-nursing-home-reform` / `nerima-senior-dental` / `nerima-sme-support`）。次回で東京都raw gap 0件を狙う。
+
+## 2026-07-02 東京都Batch 80 追加ログ
+
+東京都の残8件である練馬区候補を、`src/data/grants/verified-tokyo-local-2026.ts` に追加・補正した。これにより `scripts/audit-raw-verified-gaps.mjs --prefecture 東京都` の未照合raw slugは0件になった。
+
+追加・補正:
+
+- `nerima-birth-bonus`: 第3子以降出産祝金候補は、既存verifiedの `nerima-third-child-birth-gift` と同じ「第3子誕生祝金」へ統合。公式支給額は出生児1人につき10万円で、旧生成データの20万円は誤り。重複掲載を抑止。
+- `nerima-childcare-subsidy`: 子育てスタート応援金候補を「子育てスタート応援券」へ補正。現金10万円ではなく、子ども1人につき2,000円相当券8枚を確認。
+- `nerima-education-scholarship`: 奨学資金制度候補は、練馬区公式で現行の返還不要奨学金として確認できないため、公式に案内されている東京都の「受験生チャレンジ支援貸付事業」へ補正。令和8年度締切2027年1月29日を確認。
+- `nerima-energy-support`: 省エネルギー機器等導入助成候補を「令和8年度 練馬区カーボンニュートラル化設備設置補助金」へ補正。対象設備、申請受付2026年4月15日から2027年3月31日必着、予算到達時終了を確認。
+- `nerima-housing-eco`: 住宅省エネ改修候補は、同じカーボンニュートラル化設備設置補助金の高断熱窓・ドア等と重複するため、通常掲載は `nerima-energy-support` に統合し、このslugは抑止。
+- `nerima-nursing-home-reform`: 介護保険住宅改修費支給へ補正。要介護・要支援認定者、工事着工前申請、手すり・段差解消等の対象工事を確認。
+- `nerima-senior-dental`: 高齢者歯科健診・治療費助成候補を「長寿すこやか歯科健診」へ補正。無料の歯科健診を確認し、治療費最大1万円助成は公式確認できないため採用せず。
+- `nerima-sme-support`: 中小企業経営安定化助成金候補を「新規ビジネスチャレンジ補助金」へ補正。新市場参入、新商品・新サービス開発、事業計画の伴走支援を確認。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-tokyo-local-2026.ts`: 問題なし。
+- `npx eslint src/data/grants/verified-tokyo-local-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug nerima-birth-bonus,nerima-childcare-subsidy,nerima-education-scholarship,nerima-energy-support,nerima-housing-eco,nerima-nursing-home-reform,nerima-senior-dental,nerima-sme-support --concurrency 8 --timeout-ms 60000`: 採用sourceUrls 22件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 東京都 --limit 20`: 東京都の未照合raw slugは8件から0件に減少。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 10`: 全国未照合raw slugは3,098件から3,090件に減少。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは1,801件、東京都ローカル公式確認済みは366件、activeWithoutOfficialSourceは3,094件。
+- `npm run build`: 成功。静的ページ4,413件生成、`/grant/[slug]` は2,004件。
+
+到達点:
+
+- 東京都のraw候補照合は0件まで完了。以後は全国残件の多い都道府県から進める。
+- 全国未照合raw slugは3,090件。上位は北海道163件、埼玉県140件、福岡県127件、栃木県121件、大阪府119件、愛知県112件。
+
+次回再開位置:
+
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 北海道 --limit 30` の先頭候補どおり、北海道の旭川市20件（`asahikawa-birth-bonus` / `asahikawa-block-wall-removal` / `asahikawa-bousai-equipment` / `asahikawa-child-medical-aid` / `asahikawa-childcare-subsidy` / `asahikawa-disability-medical` / `asahikawa-elderly-taxi` / `asahikawa-energy-support` / `asahikawa-health-checkup-subsidy` / `asahikawa-housing-reform` / `asahikawa-juutaku-reform` / `asahikawa-newlywed-rent` / `asahikawa-nursing-home-reform` / `asahikawa-scholarship-repayment` / `asahikawa-school-lunch` / `asahikawa-school-lunch-subsidy` / `asahikawa-senior-medical` / `asahikawa-startup-support` / `asahikawa-telework-bonus` / `asahikawa-water-saving`）を同一サイクルで公式確認する。
