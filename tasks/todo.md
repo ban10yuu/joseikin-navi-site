@@ -727,6 +727,8 @@
 - [x] 茨城県Batch 106の検証（差し替え後の採用sourceUrls 5件はすべてHTTP 200、茨城県の未照合raw slugは71件から69件、全国未照合raw slugは2,748件から2,746件に減少、coverage failures 0、期限切れ漏れ0。2件とも通常一覧から除外のため公式確認済みactiveは2,044件のまま）
 - [x] 茨城県Batch 107として、古河市12件を公式確認済み追加・補正（放課後児童クラブ・放課後子供教室、妊婦支援給付金、住宅用防災設備補助の公式確認不可・掲載停止、物価高対応子育て応援手当、幼児教育・保育無償化、一時預かり利用者負担軽減、重度心身障がい者マル福、ふくとく・チケット、若者・子育て世帯まちなか住宅取得奨励金、移住支援金、家族介護用品支給、介護保険住宅改修費支給）
 - [x] 茨城県Batch 107の検証（対象ESLintエラー0、diff check問題なし、重複slug 0、採用sourceUrls 24件はすべてHTTP 200、茨城県の未照合raw slugは69件から57件、全国未照合raw slugは2,746件から2,734件に減少、coverage failures 0、公式確認済みactiveは2,055件、茨城県ローカル公式確認済みは45件。buildは速度改善方針により茨城県raw gap完了時または公開前へ繰り延べ）
-- [ ] 次回候補: 古河市残り8件（`koga-scholarship` / `koga-seismic-diagnosis` / `koga-senior-dental` / `koga-sme-support` / `koga-startup-support` / `koga-vacant-house` / `koga-vaccination-support` / `koga-women-startup`）を公式一次情報で確認する
+- [x] 茨城県Batch 108として、古河市残り8件を公式確認済み追加・補正（松岡奨学金の受付終了扱い、木造住宅耐震診断士派遣・耐震改修補助、後期高齢者歯科健康診査、中小企業事業資金融資、商店街空き店舗等対策事業補助金・創業支援、空き家バンクリフォーム補助金、高齢者予防接種費用助成、女性起業支援補助金の公式確認不可・掲載停止扱い）
+- [x] 茨城県Batch 108の検証（対象ESLintエラー0、diff check問題なし、重複slug 0、採用sourceUrls 22件はすべてHTTP 200、茨城県の未照合raw slugは57件から49件、全国未照合raw slugは2,734件から2,726件に減少、coverage failures 0、公式確認済みactiveは2,061件、茨城県ローカル公式確認済みは51件。buildは速度改善方針により茨城県raw gap完了時、20〜50件節目、または公開前へ繰り延べ）
+- [ ] 次回候補: 水戸市先頭候補（`mito-birth-bonus` / `mito-childcare-subsidy` / `mito-energy-support` / `mito-housing-reform` / `mito-nursing-equipment` / `mito-scholarship` / `mito-seismic-diagnosis` / `mito-senior-dental` / `mito-sme-support`）を公式一次情報で確認する
 - [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugを公式確認済みデータへ置換し、raw重複の実害を減らす
 - [ ] push / 公開反映は明示確認後に実行

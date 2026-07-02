@@ -4088,3 +4088,34 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 - 茨城県Batch 108として、古河市残り8件（`koga-scholarship` / `koga-seismic-diagnosis` / `koga-senior-dental` / `koga-sme-support` / `koga-startup-support` / `koga-vacant-house` / `koga-vaccination-support` / `koga-women-startup`）を公式一次情報で確認する。
 - 古河市完了後は水戸市、土浦市の順に進む。
+
+## 2026-07-03 茨城県Batch 108 追加ログ
+
+古河市残り8件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。生成データの「大学生向け奨学金貸付」「中小企業設備投資補助金」「一律創業支援補助金」「高齢者予防接種助成」「女性起業支援補助金」などは、公式で確認できる現行制度または掲載停止扱いに補正した。これで古河市のraw gapは完了。
+
+追加・補正:
+
+- `koga-scholarship`: 松岡奨学金へ補正。高等学校等の在学者向け給付型、月額1万円、新規募集枠14人、令和8年度受付は2026年6月12日終了を確認。通常一覧から除外。
+- `koga-seismic-diagnosis`: 木造住宅耐震診断士派遣・耐震改修補助へ補正。無料耐震診断、補強設計上限10万円、耐震改修工事上限100万円を確認。
+- `koga-senior-dental`: 後期高齢者歯科健康診査へ補正。茨城県後期高齢者医療広域連合被保険者で前年度75歳・80歳・85歳等、無料健診を確認。
+- `koga-sme-support`: 中小企業事業資金融資（保証料・利子補助）へ補正。自治金融・振興金融、融資限度額1,000万円・2,000万円、保証料・利子の一部補助を確認。
+- `koga-startup-support`: 商店街空き店舗等対策事業補助金・創業支援へ補正。商店街区域内の空き店舗活用、新規出店の改造費・賃借料補助、古河創業支援ネットワークを確認。
+- `koga-vacant-house`: 空き家バンクリフォーム補助金へ補正。令和7年4月から上限100万円、空き家バンク登録物件購入、工事契約前の事前申請を確認。
+- `koga-vaccination-support`: 高齢者予防接種費用助成へ補正。新型コロナ6,000円、肺炎球菌5,000円、インフルエンザ2,000円の助成を確認。
+- `koga-women-startup`: 女性限定の起業支援補助金は公式現行制度として確認できず掲載停止扱い。創業支援事業計画、古河創業支援ネットワーク、商店街空き店舗等対策事業補助金のみ確認。
+
+確認:
+
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node -e ...duplicate`: 重複slug 0、古河市slug 20件。
+- `node scripts/check-grant-source-urls.mjs --slug ...古河市残り8件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 22件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 茨城県 --limit 30`: 茨城県の未照合raw slugは57件から49件に減少。古河市raw gapは完了し、次の先頭は水戸市。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,734件から2,726件に減少。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,061件、activeWithoutOfficialSourceは2,730件、茨城県ローカル公式確認済みは51件。active全体4,791件に対する公式確認済みactive比率は約43.0%。
+- `npm run build`: 速度改善方針により今回は省略。対象ESLint、URL検証、raw gap監査、coverageが通っている。茨城県raw gap完了時、20〜50件節目、または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 茨城県Batch 109として、水戸市先頭候補（`mito-birth-bonus` / `mito-childcare-subsidy` / `mito-energy-support` / `mito-housing-reform` / `mito-nursing-equipment` / `mito-scholarship` / `mito-seismic-diagnosis` / `mito-senior-dental` / `mito-sme-support`）を公式一次情報で確認する。
+- 水戸市完了後は土浦市、日立市の順に進む。
