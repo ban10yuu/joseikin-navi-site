@@ -37,7 +37,7 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 - Repository: `/Users/banseiyuuji/joseikin-navi-site`
 - Branch: `main`, ahead of `origin/main` by 200+ commits after the latest completed local commits.
-- Last completed grant-data commit before Batch 150: `3ec699c 岐阜県庁3件を公式補正`
+- Last completed grant-data commit before Batch 151: `d2cf499 岐阜市9件を公式補正`
 - Do not push or publish without explicit user confirmation.
 - Preserve unrelated dirty Pinterest/UI work:
   - `package.json`
@@ -49,22 +49,24 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 ## Last verified grant-data state
 
-Batch 150 completed in progress:
+- Batch 151 completed in progress:
 
-- 岐阜市9件を公式補正し、city-batch59由来の岐阜市 raw gap 0件を達成
-- 対象: `gifu-city-birth-bonus` / `gifu-city-bousai-equipment` / `gifu-city-childcare-subsidy` / `gifu-city-disability-medical` / `gifu-city-energy-support` / `gifu-city-newlywed-rent` / `gifu-city-nursing-home-reform` / `gifu-city-school-lunch` / `gifu-city-telework-bonus`
-- `gifu-city-birth-bonus` は妊婦のための支援給付へ補正。妊娠時5万円、胎児1人につき5万円。
-- `gifu-city-bousai-equipment` は自主防災組織強化対策補助金へ補正。個人世帯向け家庭用防災設備補助ではない。
-- `gifu-city-childcare-subsidy` は令和7年度物価高対応子育て応援手当の受付終了扱い。
-- `gifu-city-nursing-home-reform` は既存の `gifu-senior-home-improvement-support` と同一制度のため重複停止。
-- `gifu-city-telework-bonus` は現行確認できる中小企業等DX推進補助金へ補正。
-- 岐阜県 raw gap: `64 -> 55`
-- 全国 raw gap: `2331 -> 2322`
+- 岐阜市city-batch76由来9件を公式補正し、岐阜市 raw gap 0件を達成
+- 対象: `gifu-dental-checkup-child` / `gifu-disaster-stockpile` / `gifu-family-care-leave` / `gifu-fire-alarm` / `gifu-maternity-dental` / `gifu-shop-renovation` / `gifu-tradition-craft` / `gifu-twin-support` / `gifu-youth-rent`
+- `gifu-dental-checkup-child` は幼児歯科薬物（フッ化物）塗布へ補正。1歳以上の未就学児、無料、予約制。
+- `gifu-maternity-dental` は妊婦歯科健康診査へ補正。妊婦対象、無料。
+- `gifu-twin-support` は多胎児家庭のファミリー・サポート・センター利用料補助へ補正。30時間分まで。
+- `gifu-family-care-leave` は家族介護用品支給事業へ補正。紙おむつ支給券を年3回配付。
+- `gifu-shop-renovation` は中心市街地活性化空き店舗活用事業補助金へ補正。
+- `gifu-disaster-stockpile` / `gifu-fire-alarm` / `gifu-tradition-craft` は現行個人向け補助として公式確認できないため通常一覧から除外。
+- `gifu-youth-rent` は既存の `gifu-city-newlywed-rent` へ統合し重複停止。
+- 岐阜県 raw gap: `55 -> 46`
+- 全国 raw gap: `2322 -> 2313`
 - `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
 - `git diff --check`: 問題なし
-- 採用sourceUrls 11件はすべてHTTP 200
+- 採用sourceUrls 14件はすべてHTTP 200
 - `npm run audit:coverage`: failures 0
-- `npm run build`: 成功。静的ページ5,515件生成、`/grant/[slug]` は2,772件相当。
+- `npm run build`: 成功。静的ページ5,531件生成、`/grant/[slug]` は2,782件相当。
 
 ## Next safe work item
 
@@ -76,16 +78,16 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 
 Expected first batch:
 
-- 岐阜市のcity-batch76由来9件:
-  - `gifu-dental-checkup-child`
-  - `gifu-disaster-stockpile`
-  - `gifu-family-care-leave`
-  - `gifu-fire-alarm`
-  - `gifu-maternity-dental`
-  - `gifu-shop-renovation`
-  - `gifu-tradition-craft`
-  - `gifu-twin-support`
-  - `gifu-youth-rent`
+- 高山市のcity-batch76由来9件:
+  - `takayama-dental-checkup-child`
+  - `takayama-disaster-stockpile`
+  - `takayama-family-care-leave`
+  - `takayama-fire-alarm`
+  - `takayama-maternity-dental`
+  - `takayama-shop-renovation`
+  - `takayama-tradition-craft`
+  - `takayama-twin-support`
+  - `takayama-youth-rent`
 
 ## Recommended execution pattern
 

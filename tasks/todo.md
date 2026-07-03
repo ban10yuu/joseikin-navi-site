@@ -814,5 +814,7 @@
 - [x] 岐阜県Batch 149の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 6件はすべてHTTP 200、全国未照合raw slugは2,334件から2,331件、岐阜県は67件から64件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,503件生成、`/grant/[slug]` は2,764件相当）
 - [x] 岐阜県Batch 150として、岐阜市9件を公式確認済み追加・補正し、city-batch59由来の岐阜市raw gap 0件を達成（妊婦のための支援給付、自主防災組織強化対策補助金、物価高対応子育て応援手当の受付終了扱い、重度心身障害者等医療費助成制度、省エネ家電購入支援事業補助金、結婚新生活支援事業補助金、高齢者住宅改善促進助成制度への統合・重複停止、学校給食費負担軽減・就学援助、中小企業等DX推進補助金）
 - [x] 岐阜県Batch 150の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 11件はすべてHTTP 200、全国未照合raw slugは2,331件から2,322件、岐阜県は64件から55件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,515件生成、`/grant/[slug]` は2,772件相当）
-- [ ] 次回候補: 全国raw gapは岐阜市のcity-batch76由来9件（`gifu-dental-checkup-child` / `gifu-disaster-stockpile` / `gifu-family-care-leave` / `gifu-fire-alarm` / `gifu-maternity-dental` / `gifu-shop-renovation` / `gifu-tradition-craft` / `gifu-twin-support` / `gifu-youth-rent`）から再開可能
+- [x] 岐阜県Batch 151として、岐阜市city-batch76由来9件を公式確認済み追加・補正し、岐阜市raw gap 0件を達成（幼児歯科薬物塗布、家庭防災備蓄品購入補助の公式個人補助確認不可・自主防災組織補助への統合、家族介護用品支給事業、住宅用火災警報器補助の公式確認不可抑止、妊婦歯科健康診査、中心市街地活性化空き店舗活用事業、多胎児家庭のファミリー・サポート・センター利用料補助、若者家賃補助の結婚新生活支援への統合、伝統工芸後継者育成助成の現行個人補助確認不可抑止）
+- [x] 岐阜県Batch 151の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 14件はすべてHTTP 200、全国未照合raw slugは2,322件から2,313件、岐阜県は55件から46件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,531件生成、`/grant/[slug]` は2,782件相当）
+- [ ] 次回候補: 高山市9件（`takayama-dental-checkup-child` / `takayama-disaster-stockpile` / `takayama-family-care-leave` / `takayama-fire-alarm` / `takayama-maternity-dental` / `takayama-shop-renovation` / `takayama-tradition-craft` / `takayama-twin-support` / `takayama-youth-rent`）から再開可能
 - [ ] push / 公開反映は明示確認後に実行
