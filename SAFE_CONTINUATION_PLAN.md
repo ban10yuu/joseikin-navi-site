@@ -4468,3 +4468,36 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 岡山県Batch 119として、津山市9件（`tsuyama-block-wall-removal` / `tsuyama-child-medical-aid` / `tsuyama-elderly-taxi` / `tsuyama-health-checkup-subsidy` / `tsuyama-juutaku-reform` / `tsuyama-scholarship-repayment` / `tsuyama-school-lunch-subsidy` / `tsuyama-startup-support` / `tsuyama-water-saving`）を公式一次情報で確認する。
 - 津山市9件を処理すると岡山県raw gap 0件に到達する見込み。到達後は `npm run build` を実行し、次の都道府県優先順位を再算定する。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 岡山県Batch 119 追加ログ
+
+津山市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。これで津山市raw gapは0件、岡山県raw gapも0件に到達した。生成データの「ブロック塀等撤去補助金」は公式確認不可として通常一覧から除外し、「こども医療費」「高齢者タクシー」「人間ドック」「住宅リフォーム」「奨学金返還支援」「学校給食費」「創業支援」「雨水タンク設置補助金」は、津山市の公式制度名・金額・対象者へ補正した。
+
+追加・補正:
+
+- `tsuyama-block-wall-removal`: 個人向けブロック塀等撤去補助金は公式確認不可として掲載停止扱い。耐震改修促進計画・地域防災計画では危険性周知、補強方法の普及、改善指導を確認したが、個人向け撤去補助は確認不可。
+- `tsuyama-child-medical-aid`: 子ども医療費公費負担制度へ補正。令和6年1月1日から18歳年度末までに対象拡大、受給資格者証・払い戻し手続きを確認。
+- `tsuyama-elderly-taxi`: タクシー・バス利用料・給油代の助成へ補正。高齢者一般向け制度は確認できず、身体障害者手帳等の対象者向けタクシー利用券400円券を月4枚などの公式制度を確認。
+- `tsuyama-health-checkup-subsidy`: 人間ドック受診費用助成制度へ補正。津山市国保35〜74歳、受診日から90日以内、通常上限20,000円、節目年齢上限30,000円、特別項目加算を確認。
+- `tsuyama-juutaku-reform`: 空き家活用定住促進事業補助金へ補正。購入費補助上限30万円、改修費補助上限60万円、仕事・移住支援室への事前相談を確認。
+- `tsuyama-scholarship-repayment`: 若者定住促進奨学金返還金補助事業へ補正。新規登録は令和6年3月31日で終了、登録済み対象者向け、最大72万円、令和9年度終了予定を確認。
+- `tsuyama-school-lunch-subsidy`: 小学校給食費無償化・中学校給食費支援へ補正。令和8年4月から小学校段階の給食費無償化、中学校は1食単価395円と保護者負担額325円の差額支援を確認。
+- `tsuyama-startup-support`: 創業サポート補助金へ補正。令和8年度つやま企業サポート補助金、法人設立後3年以内・開業届後3年以内・創業予定者、補助上限30万円を確認。
+- `tsuyama-water-saving`: 合併処理浄化槽設置整備事業補助金へ補正。雨水タンク設置補助金は確認不可。豪雪地域10人槽上限66万円、単独処理浄化槽撤去上限12万円、宅内配管上限30万円等を確認。
+
+確認:
+
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- 重複slug確認: 対象9件は全件取得、active 8件、掲載停止1件、全体slug重複0。
+- `node scripts/check-grant-source-urls.mjs --slug ...津山市9件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 27件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 岡山県 --limit 20`: 岡山県の未照合raw slugは9件から0件に減少。岡山県raw gap 0件を達成。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,612件から2,603件に減少。次のサンプル先頭は沖縄県うるま市だが、未照合件数は埼玉県が最多。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,154件、activeWithoutOfficialSourceは2,607件、岡山県ローカル公式確認済みは77件。active全体4,761件に対する公式確認済みactive比率は約45.2%。
+- `npm run build`: 成功。静的ページ5,105件生成、`/grant/[slug]` は2,492件相当。未コミットのPinterest系別変更が残っているため、`/pinterest` 系ルートもビルド対象に含まれた。
+
+次回再開位置:
+
+- 次は未照合件数が最多の埼玉県（140件）を優先する。まず `node scripts/audit-raw-verified-gaps.mjs --prefecture 埼玉県 --limit 40` で市区町村単位の先頭候補を確認し、20件前後ずつ公式一次情報で補正する。
+- raw順を優先する場合は沖縄県うるま市が次のサンプル先頭だが、速度改善と残件削減の観点では埼玉県から着手する。
+- push / 公開反映は明示確認後。

@@ -749,6 +749,8 @@
 - [x] 岡山県Batch 117の検証（対象ESLintエラー0、diff check問題なし、重複slug 0、採用sourceUrls 32件はすべてHTTP 200、岡山県の未照合raw slugは36件から18件、全国未照合raw slugは2,639件から2,621件に減少、coverage failures 0、公式確認済みactiveは2,138件、岡山県ローカル公式確認済みは61件。buildは速度改善方針により岡山県raw gap完了時または20〜50件節目へ繰り延べ）
 - [x] 岡山県Batch 118として、総社市9件を公式確認済み追加・補正し、総社市raw gap 0件を達成（ブロック塀等撤去補助金の公式確認不可抑止、小児医療費助成、いきいきチケット、人間ドック費用給付、空き家リフォーム助成金、人材育成山本あすなろ基金奨学金、中学生学校給食費無償化、創業助成金、浄化槽設置整備事業補助金）
 - [x] 岡山県Batch 118の検証（対象ESLintエラー0、diff check問題なし、重複slug 0、対象9件はactive 8件・掲載停止1件、採用sourceUrls 22件はすべてHTTP 200、岡山県の未照合raw slugは18件から9件、全国未照合raw slugは2,621件から2,612件に減少、coverage failures 0、公式確認済みactiveは2,146件、岡山県ローカル公式確認済みは69件。buildは速度改善方針により岡山県raw gap完了時へ繰り延べ）
-- [ ] 次回候補: 津山市9件（`tsuyama-block-wall-removal` / `tsuyama-child-medical-aid` / `tsuyama-elderly-taxi` / `tsuyama-health-checkup-subsidy` / `tsuyama-juutaku-reform` / `tsuyama-scholarship-repayment` / `tsuyama-school-lunch-subsidy` / `tsuyama-startup-support` / `tsuyama-water-saving`）を公式一次情報で確認し、岡山県raw gap 0件を達成する
+- [x] 岡山県Batch 119として、津山市9件を公式確認済み追加・補正し、津山市raw gap 0件・岡山県raw gap 0件を達成（ブロック塀等撤去補助金の公式確認不可抑止、子ども医療費公費負担制度、タクシー・バス利用料・給油代の助成、人間ドック受診費用助成制度、空き家活用定住促進事業補助金、若者定住促進奨学金返還金補助事業、小学校給食費無償化・中学校給食費支援、創業サポート補助金、合併処理浄化槽設置整備事業補助金）
+- [x] 岡山県Batch 119の検証（対象ESLintエラー0、diff check問題なし、重複slug 0、対象9件はactive 8件・掲載停止1件、採用sourceUrls 27件はすべてHTTP 200、岡山県の未照合raw slugは9件から0件、全国未照合raw slugは2,612件から2,603件に減少、coverage failures 0、公式確認済みactiveは2,154件、岡山県ローカル公式確認済みは77件。`npm run build` 成功、静的ページ5,105件生成、`/grant/[slug]` は2,492件相当）
+- [ ] 次回候補: 未照合件数が最多の埼玉県（140件）から、市区町村単位で公式一次情報確認を再開する
 - [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugを公式確認済みデータへ置換し、raw重複の実害を減らす
 - [ ] push / 公開反映は明示確認後に実行
