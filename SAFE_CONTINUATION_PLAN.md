@@ -4835,3 +4835,44 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,223件、activeWithoutOfficialSourceは2,518件、埼玉県ローカル公式確認済みは165件。
 - `npm run build`: 成功。静的ページ5,219件生成、`/grant/[slug]` は2,580件相当。
 - `npm run audit:deadlines`: 全量版は期限切れ候補ごとに全HTMLを走査するため長時間化し中断。今回追加・更新の掲載停止3件（`kawagoe-child-medical-aid` / `kawagoe-newlywed-rent` / `kawagoe-scholarship-repayment`）は詳細ページ生成、期限切れ表示、`noindex, follow`、sitemap除外を軽量確認。通常公開代表4件（`kawagoe-birth-bonus` / `kawagoe-scholarship` / `kawagoe-school-lunch` / `kawagoe-energy-support`）はsitemap掲載・noindexなしを軽量確認。
+
+## 2026-07-03 埼玉県Batch 130 追加ログ
+
+草加市16件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。草加市raw gapは0件、埼玉県raw gapは43件から27件、全国raw gapは2,506件から2,490件に減少した。対象16件はactive 11件、掲載停止/重複停止5件。`soka-child-medical-aid` と `soka-school-lunch-subsidy` は既存公式確認済みslugとの重複候補として掲載停止扱いにした。`soka-newlywed-rent` と `soka-telework-bonus` は草加市公式の現行制度として確認できず、`soka-water-saving` は令和8年度の地球温暖化防止活動補助金から雨水貯留施設が対象外になったため通常一覧から除外した。
+
+追加・補正:
+
+- `soka-birth-bonus`: 妊婦のための支援給付事業へ補正。妊婦1人5万円、胎児1人につき5万円、令和7年4月1日以降の妊娠・胎児心拍確認後が対象。
+- `soka-block-wall-removal`: 危険ブロック塀撤去費用補助金へ補正。道路等に面し高さ1m超などの危険ブロック塀、市内業者施工、補助対象経費2/3・上限40万円を確認。
+- `soka-child-medical-aid`: 既存 `soka-child-medical` と同一のこども医療費支給制度として重複停止。高校3年生相当までの保険診療一部負担金助成は既存slugで確認済み。
+- `soka-childcare-subsidy`: 保育料軽減・幼児教育保育無償化へ補正。3歳から5歳児等無償化、認可外保育施設等の月37,000円/42,000円上限、多子軽減を確認。
+- `soka-elderly-taxi`: 高年者移送サービスへ補正。40歳以上で要介護3から5、寝たきりまたは車いす利用者等を対象に、指定タクシー利用料を月2万円上限で助成し1割自己負担。
+- `soka-energy-support`: 令和8年度省エネ家電買換え支援補助金へ補正。エアコン・冷蔵庫、税抜10万円以上、省エネ性能3.0以上、市内本店登記法人等は上限5万円、その他市内店舗は上限4万円。予算到達終了の可能性があるため公式確認前提で案内。
+- `soka-health-checkup-subsidy`: 人間ドック・脳ドック助成へ補正。国保35歳以上は検査料7割・上限2万円、後期高齢者医療加入者も上限2万円を確認。
+- `soka-juutaku-reform`: 草加地域経済活性化事業補助金の市内リフォーム補助へ補正。工事を受注した施工事業者へリフォーム請負金額20%・上限10万円を補助し、利用者は値引きとして受ける制度。
+- `soka-newlywed-rent`: 新婚世帯家賃補助制度・結婚新生活支援事業は草加市公式の現行制度として確認不可のため掲載停止。住居確保給付金は対象者が異なるため補正先にしない。
+- `soka-nursing-home-reform`: 介護保険住宅改修費へ補正。要介護・要支援認定者、原則1人1住宅20万円限度、事前申請必須を確認。
+- `soka-scholarship-repayment`: 生成データの奨学金返還支援ではなく、入学準備金・奨学資金貸付制度へ補正。私立大学等入学準備金50万円、私立大学等奨学資金月3万円などを確認。給付・返還免除ではなく貸付制度。
+- `soka-school-lunch-subsidy`: 既存 `soka-school-lunch` と同一の就学援助制度として重複停止。給食費は現物支給、入学準備金等は既存slugで確認済み。
+- `soka-startup-support`: 草加市産業新成長戦略支援融資制度補助金へ補正。創業を含む対象融資の支払利子1/2、60か月以内を確認。
+- `soka-telework-bonus`: 草加市独自のテレワーク導入補助金は公式確認不可として掲載停止。市公式ではテレワーク・コワーキング施設紹介のみを確認。
+- `soka-vaccination-subsidy`: 大人の風しん任意予防接種費用助成へ補正。抗体価が低い妊娠希望者等を対象に、1人1回、上限3,000円、接種日から1年以内申請を確認。
+- `soka-water-saving`: 雨水貯留施設補助は令和8年度地球温暖化防止活動補助金の対象活動から削除されているため掲載停止。
+
+確認:
+
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `node scripts/check-grant-source-urls.mjs --slug ...草加市16件 --concurrency 2 --timeout-ms 120000`: 初回は草加市公式URL 8件が一時fetch failed。`--concurrency 1 --timeout-ms 240000` で該当9URLを直列再監査し、すべてHTTP 200。採用sourceUrls 22件はすべてHTTP 200。
+- データ層確認: 対象16件は全件取得、重複target slug 0、active 11件、掲載停止/重複停止5件。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 埼玉県 --limit 25`: 埼玉県の未照合raw slugは43件から27件に減少。次の埼玉県候補は秩父市6件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,506件から2,490件に減少。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,240件、activeWithoutOfficialSourceは2,494件、埼玉県ローカル公式確認済みは182件。
+- `npm run lint`: エラー0、既存警告5件のみ。
+- `npm run build`: 成功。静的ページ5,248件生成、`/grant/[slug]` は2,604件相当。未コミットのPinterest系別変更が残っているため、`/pinterest` 系ルートもビルド対象に含まれた。
+- build後の軽量HTMLチェック: 通常公開11件は詳細ページ生成・sitemap掲載・`noindex` なし・公式確認表示あり。掲載停止5件は詳細ページ生成・sitemap除外・`noindex, follow`・掲載停止/期限切れ表示あり。failures 0。
+
+次回再開位置:
+
+- 埼玉県Batch 131として、秩父市6件（`chichibu-akiya-reform` / `chichibu-bousai-equipment` / `chichibu-childcare-subsidy` / `chichibu-migration-support` / `chichibu-newlywed-rent` / `chichibu-telework-bonus`）を公式一次情報で確認する。
+- その後は朝霞市など、`node scripts/audit-raw-verified-gaps.mjs --prefecture 埼玉県 --limit 25` の残27件を順に確認する。
+- push / 公開反映は明示確認後。
