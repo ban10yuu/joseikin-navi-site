@@ -808,5 +808,7 @@
 - [x] 岩手県Batch 146の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 14件はすべてHTTP 200、全国未照合raw slugは2,371件から2,359件、岩手県は28件から16件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,440件生成、`/grant/[slug]` は2,736件相当）
 - [x] 岩手県Batch 147として、岩手県庁1件と盛岡市15件を公式確認済み追加・補正し、岩手県raw gap 0件を達成（いわて産業人材奨学金返還支援制度、子育て世帯応援プロジェクト放課後児童クラブ利用料軽減、危険なブロック塀等撤去補助金、自主防災組織への防災資機材支援、こども医療費助成、福祉タクシー及びガソリン等助成券、人間ドック受診助成、特定不妊治療交通費助成金・不育症検査費助成、住宅省エネルギー改修等推進事業補助金、移住支援金、介護職員奨学金返還支援補助金の令和7年度受付終了扱い、学校給食食材費臨時補助事業、創業支援等事業計画・起業創業支援、空き家等改修事業補助金の令和8年度受付一時停止扱い、飲用水確保対策事業補助金、起業応援ルーム芽でるネット）
 - [x] 岩手県Batch 147の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 30件はすべてHTTP 200、全国未照合raw slugは2,359件から2,343件、岩手県は16件から0件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,469件生成、`/grant/[slug]` は2,752件相当）
-- [ ] 次回候補: 全国raw gapは岐阜県関市9件（`seki-dental-checkup-child` / `seki-disaster-stockpile` / `seki-family-care-leave` / `seki-fire-alarm` / `seki-maternity-dental` / `seki-shop-renovation` / `seki-tradition-craft` / `seki-twin-support` / `seki-youth-rent`）から再開可能
+- [x] 岐阜県Batch 148として、関市9件を公式確認済み追加・補正し、関市raw gap 0件を達成（子どもの歯の健康・フッ化物塗布、災害時協力事業所防災物資等購入補助金、在宅高齢者紙おむつ購入助成事業、防災行政無線戸別受信機設置費補助金、妊婦歯科健診、中心市街地活性化総合支援事業補助金、伝統工芸後継者育成助成金の公式確認不可抑止、産後ケア事業、住まいる*せき応援券）
+- [x] 岐阜県Batch 148の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 13件はすべてHTTP 200、全国未照合raw slugは2,343件から2,334件、岐阜県は76件から67件に減少、coverage failures 0。buildは次の岐阜県Batchで実行予定）
+- [ ] 次回候補: 全国raw gapは岐阜県庁3件（`gifu-child-support` / `gifu-forestry-support` / `gifu-housing-seismic`）から再開可能
 - [ ] push / 公開反映は明示確認後に実行

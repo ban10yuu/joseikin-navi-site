@@ -5321,3 +5321,16 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は岐阜県関市9件から開始（`seki-dental-checkup-child` / `seki-disaster-stockpile` / `seki-family-care-leave` / `seki-fire-alarm` / `seki-maternity-dental` / `seki-shop-renovation` / `seki-tradition-craft` / `seki-twin-support` / `seki-youth-rent`）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-04 岐阜県Batch 148 追加ログ
+
+岐阜県関市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `seki-dental-checkup-child` / `seki-disaster-stockpile` / `seki-family-care-leave` / `seki-fire-alarm` / `seki-maternity-dental` / `seki-shop-renovation` / `seki-tradition-craft` / `seki-twin-support` / `seki-youth-rent`。生成データ名をそのまま採用せず、関市公式ページで確認できる制度へ補正した。`seki-disaster-stockpile` は災害時協力事業所防災物資等購入補助金、`seki-fire-alarm` は防災行政無線戸別受信機設置費補助金、`seki-twin-support` は産後ケア事業、`seki-youth-rent` は住まいる*せき応援券へ補正した。`seki-tradition-craft` は月額最大10万円の現行個人向け助成として確認できないため、期限切れ扱いで通常一覧から除外した。関市raw gapは0件、岐阜県raw gapは76件から67件、全国raw gapは2,343件から2,334件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check` 問題なし、採用sourceUrls 13件はすべてHTTP 200、`npm run audit:coverage` failures 0。`npm run build` は次の岐阜県Batch完了時へ繰り延べ。
+
+次回再開位置:
+
+- 全国raw gapの次候補は岐阜県庁3件（`gifu-child-support` / `gifu-forestry-support` / `gifu-housing-seismic`）。
+- その次は岐阜市9件（`gifu-city-birth-bonus` / `gifu-city-bousai-equipment` / `gifu-city-childcare-subsidy` / `gifu-city-disability-medical` / `gifu-city-energy-support` / `gifu-city-newlywed-rent` / `gifu-city-nursing-home-reform` / `gifu-city-school-lunch` / `gifu-city-telework-bonus`）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。

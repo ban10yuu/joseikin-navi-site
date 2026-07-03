@@ -49,21 +49,22 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 ## Last verified grant-data state
 
-Batch 147 completed in progress:
+Batch 148 completed in progress:
 
-- 岩手県庁1件と盛岡市15件を公式補正し、岩手県 raw gap 0件を達成
-- 対象: `iwate-education-scholarship-returnee` / `morioka-afterschool` / `morioka-block-wall-removal` / `morioka-bousai-equipment` / `morioka-child-medical-aid` / `morioka-elderly-taxi` / `morioka-health-checkup-subsidy` / `morioka-infertility` / `morioka-juutaku-reform` / `morioka-migration-bonus` / `morioka-scholarship-repayment` / `morioka-school-lunch-subsidy` / `morioka-startup-support` / `morioka-vacant-house` / `morioka-water-saving` / `morioka-women-startup`
-- `morioka-bousai-equipment` は自主防災組織への防災資機材支援へ補正
-- `morioka-elderly-taxi` は福祉タクシー及びガソリン等助成券へ補正
-- `morioka-school-lunch-subsidy` は学校給食食材費臨時補助事業へ補正
-- `morioka-women-startup` は起業応援ルーム芽でるネットへ補正
-- 岩手県 raw gap: `16 -> 0`
-- 全国 raw gap: `2359 -> 2343`
+- 岐阜県関市9件を公式補正し、関市 raw gap 0件を達成
+- 対象: `seki-dental-checkup-child` / `seki-disaster-stockpile` / `seki-family-care-leave` / `seki-fire-alarm` / `seki-maternity-dental` / `seki-shop-renovation` / `seki-tradition-craft` / `seki-twin-support` / `seki-youth-rent`
+- `seki-disaster-stockpile` は災害時協力事業所防災物資等購入補助金へ補正
+- `seki-fire-alarm` は防災行政無線戸別受信機設置費補助金へ補正
+- `seki-twin-support` は産後ケア事業へ補正
+- `seki-youth-rent` は住まいる*せき応援券へ補正
+- `seki-tradition-craft` は現行の個人向け助成金として公式確認できないため通常一覧から除外
+- 岐阜県 raw gap: `76 -> 67`
+- 全国 raw gap: `2343 -> 2334`
 - `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
 - `git diff --check`: 問題なし
-- 採用sourceUrls 30件はすべてHTTP 200
+- 採用sourceUrls 13件はすべてHTTP 200
 - `npm run audit:coverage`: failures 0
-- `npm run build`: 成功。静的ページ5,469件、`/grant/[slug]` は2,752件相当
+- `npm run build`: Batch 148では未実行。次の岐阜県Batch完了時へ繰り延べ。
 
 ## Next safe work item
 
@@ -75,17 +76,23 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 
 Expected first batch:
 
-- 岐阜県関市9件
+- 岐阜県庁3件
 - Slugs:
-  - `seki-dental-checkup-child`
-  - `seki-disaster-stockpile`
-  - `seki-family-care-leave`
-  - `seki-fire-alarm`
-  - `seki-maternity-dental`
-  - `seki-shop-renovation`
-  - `seki-tradition-craft`
-  - `seki-twin-support`
-  - `seki-youth-rent`
+  - `gifu-child-support`
+  - `gifu-forestry-support`
+  - `gifu-housing-seismic`
+
+Then likely 岐阜市9件:
+
+- `gifu-city-birth-bonus`
+- `gifu-city-bousai-equipment`
+- `gifu-city-childcare-subsidy`
+- `gifu-city-disability-medical`
+- `gifu-city-energy-support`
+- `gifu-city-newlywed-rent`
+- `gifu-city-nursing-home-reform`
+- `gifu-city-school-lunch`
+- `gifu-city-telework-bonus`
 
 ## Recommended execution pattern
 
