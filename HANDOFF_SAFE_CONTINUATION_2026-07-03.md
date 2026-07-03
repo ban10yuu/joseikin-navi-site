@@ -1,6 +1,33 @@
 # 助成金ナビ 安全継続引き継ぎ 2026-07-03
 
-このファイルは、クラッシュした旧チャットを開かずに `/Users/banseiyuuji/joseikin-navi-site` の助成金ナビ作業を安全に継続するための引き継ぎです。次のチャットでは、このファイル、`SAFE_CONTINUATION_PLAN.md`、`tasks/todo.md`、git状態、対象データファイルだけを読んで再開してください。
+このファイルは、クラッシュした旧チャットを開かずに `/Users/banseiyuuji/joseikin-navi-site` の助成金ナビ作業を安全に継続するための引き継ぎです。
+
+## 2026-07-03 追記: コンテキスト溢れ対策
+
+このファイルの作成後に作業が進み、`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` が大きくなりました。これらを全文読むと Codex のコンテキストウィンドウを使い切り、`Codex ran out of room in the model's context window` で停止する原因になります。
+
+次チャットでは、まず次の短い再開ファイルだけを読んでください。
+
+```text
+/Users/banseiyuuji/joseikin-navi-site/HANDOFF_CONTEXT_RECOVERY_2026-07-03.md
+```
+
+`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まず、必要な場合だけ `tail` または狭い `rg` で参照してください。
+
+```bash
+tail -40 HANDOFF_SAFE_CONTINUATION_2026-07-03.md
+tail -80 tasks/todo.md
+rg -n "Batch 145|花巻市|次回候補" SAFE_CONTINUATION_PLAN.md tasks/todo.md
+```
+
+最短再開コマンド:
+
+```bash
+cd /Users/banseiyuuji/joseikin-navi-site
+sed -n '1,220p' HANDOFF_CONTEXT_RECOVERY_2026-07-03.md
+git status --short --branch
+node scripts/audit-raw-verified-gaps.mjs --limit 25
+```
 
 ## 絶対条件
 
@@ -20,8 +47,9 @@
 - 関連: `/Users/banseiyuuji/joseikin-navi-maintenance`
 - 入口として読むファイル:
   - `/Users/banseiyuuji/.codex/handoff-from-claude/00-START-HERE.md`
-  - `/Users/banseiyuuji/joseikin-navi-site/SAFE_CONTINUATION_PLAN.md`
-  - `/Users/banseiyuuji/joseikin-navi-site/tasks/todo.md`
+  - `/Users/banseiyuuji/joseikin-navi-site/HANDOFF_CONTEXT_RECOVERY_2026-07-03.md`
+  - `/Users/banseiyuuji/joseikin-navi-site/SAFE_CONTINUATION_PLAN.md` は全文ではなく `tail` / `rg` で必要箇所だけ読む
+  - `/Users/banseiyuuji/joseikin-navi-site/tasks/todo.md` は全文ではなく `tail` / `rg` で必要箇所だけ読む
   - `/Users/banseiyuuji/joseikin-navi-site/src/data/grants/verified-local-misc-2026.ts`
   - 必要に応じて `/Users/banseiyuuji/joseikin-navi-site/src/lib/types.ts` と `/Users/banseiyuuji/joseikin-navi-site/src/lib/grants.ts`
 
