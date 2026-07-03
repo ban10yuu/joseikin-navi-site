@@ -4687,3 +4687,45 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 埼玉県Batch 126として、春日部市17件（`kasukabe-birth-bonus` / `kasukabe-block-wall-removal` / `kasukabe-child-medical-aid` / `kasukabe-childcare-subsidy` / `kasukabe-elderly-taxi` / `kasukabe-health-checkup-subsidy` / `kasukabe-housing-purchase` / `kasukabe-infertility` / `kasukabe-juutaku-reform` / `kasukabe-migration-support` / `kasukabe-scholarship` / `kasukabe-scholarship-repayment` / `kasukabe-school-lunch-subsidy` / `kasukabe-seismic-diagnosis` / `kasukabe-sme-support` / `kasukabe-startup-support` / `kasukabe-water-saving`）を公式一次情報で確認する。
 - 春日部市17件後は、前回build後17件処理となるため、所沢市以降で20件節目に到達した時点または公開前に `npm run build` を実行する。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 埼玉県Batch 126 追加ログ
+
+春日部市17件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。春日部市raw gapは0件、埼玉県raw gapは101件から84件、全国raw gapは2,564件から2,547件に減少した。生成データの「ブロック塀等撤去補助金」「人間ドック受診費助成」「住宅リフォーム助成金」「雨水タンク設置補助金」は、現行公式制度として確認できない、または受付終了のため通常一覧から除外した。
+
+追加・補正:
+
+- `kasukabe-birth-bonus`: 妊婦のための支援給付へ補正。妊婦1人5万円、胎児1人につき5万円、心拍確認後の申請期限等を確認。
+- `kasukabe-block-wall-removal`: ブロック塀等撤去補助金は公式確認不可として掲載停止扱い。耐震診断・補助一覧では既存建築物耐震改修等補助制度等を確認。
+- `kasukabe-child-medical-aid`: こども医療費へ補正。18歳年度末まで、保険診療の一部負担金助成、登録申請期限を確認。
+- `kasukabe-childcare-subsidy`: 保育認定の保育料・幼児教育保育無償化へ補正。3歳から5歳児等の無償化、0歳から2歳児の住民税非課税世帯無償化、多子軽減を確認。
+- `kasukabe-elderly-taxi`: 春タクへ補正。庄和地域の75歳以上・妊産婦を対象に、タクシー料金帯に応じ最大1,000円相当を補助する制度を確認。
+- `kasukabe-health-checkup-subsidy`: 人間ドック受診費助成は公式確認不可として掲載停止扱い。国保運営協議会会議録で人間ドック助成は考えていない旨を確認。
+- `kasukabe-housing-purchase`: ふれあい家族住宅購入奨励事業へ補正。登記費用の3分の1相当、最大30万円分の市内共通商品券、2026年9月30日受付終了予定を確認。
+- `kasukabe-infertility`: 早期不妊検査費・不育症検査費助成事業へ補正。妻35歳未満は上限3万円、35歳以上43歳未満は上限2万円を確認。
+- `kasukabe-juutaku-reform`: 住宅リフォーム助成制度へ補正し、令和8年度予算到達による受付終了扱い。市内施工業者10%・市外施工業者5%、上限10万円を確認。
+- `kasukabe-migration-support`: 結婚新生活支援事業へ補正。住居費・引越費用の2分の1、上限30万円、夫婦とも29歳以下は上限60万円を確認。
+- `kasukabe-scholarship`: 入学準備金・奨学金貸付制度へ補正。給付ではなく無利子貸付で、入学準備金最大50万円、奨学金大学等月額2万円、2027年2月26日まで随時受付を確認。
+- `kasukabe-scholarship-repayment`: 保育士奨学金返済支援事業補助金へ補正。保育士1人あたり年額18万円、月額15,000円、最大5年間を確認。
+- `kasukabe-school-lunch-subsidy`: 学校給食費支援事業へ補正。小学校は令和8年度保護者負担0円、中学校は6か月無償、物価高騰分支援を確認。
+- `kasukabe-seismic-diagnosis`: 既存建築物耐震診断補助制度へ補正。一戸建て住宅の耐震診断上限5万円、65歳以上居住世帯上限10万円を確認。
+- `kasukabe-sme-support`: ビジネスサポート応援給付金へ補正。2026年7月1日から8月31日まで、1事業所等につき1万円を確認。
+- `kasukabe-startup-support`: かすかベンチャー応援補助金へ補正。指定区域内の空き店舗出店、通常上限100万円、ビジネスプランコンテスト受賞者上限150万円を確認。
+- `kasukabe-water-saving`: 雨水タンク設置補助金は公式確認不可として掲載停止扱い。住まいに関する助成一覧と公式検索で現行制度を確認できなかった。
+
+確認:
+
+- `agent-reach doctor --json`: web は Jina Reader で利用可能、Exa は未設定。春日部市公式ページはJina Readerと通常HTTPで確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- データ層確認: 対象17件は全件取得、active 13件、掲載停止/受付終了4件（`kasukabe-block-wall-removal` / `kasukabe-health-checkup-subsidy` / `kasukabe-juutaku-reform` / `kasukabe-water-saving`）。
+- `node scripts/check-grant-source-urls.mjs --slug ...春日部市17件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 27件はすべてHTTP 200、failures 0。初回は雨水タンク補足出典の環境カテゴリURLが404扱いだったため、出典から除外した。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 埼玉県 --limit 40`: 埼玉県の未照合raw slugは101件から84件に減少。次の埼玉県候補は所沢市17件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,564件から2,547件に減少。未照合件数上位は福岡県127件、栃木県121件、大阪府119件、静岡県91件、千葉県91件、埼玉県84件。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,201件、activeWithoutOfficialSourceは2,551件、埼玉県ローカル公式確認済みは143件。active全体4,752件に対する公式確認済みactive比率は約46.3%。
+- `npm run build`: 成功。静的ページ5,169件生成、`/grant/[slug]` は2,548件相当。未コミットのPinterest系別変更が残っているため、`/pinterest` 系ルートもビルド対象に含まれた。
+- `npm run audit:deadlines`: 5分近く無出力のCPU走査が続いたため中断。今回追加した掲載停止/受付終了4件については、build後の静的HTMLで期限切れバナー、`noindex, follow`、sitemap除外、公開一覧リンクなしを軽量チェックで確認。通常公開13件は詳細ページ生成・sitemap掲載・noindexなしを確認。
+
+次回再開位置:
+
+- 埼玉県Batch 127として、所沢市17件（`tokorozawa-birth-bonus` / `tokorozawa-block-wall-removal` / `tokorozawa-bousai-equipment` / `tokorozawa-child-medical-aid` / `tokorozawa-childcare-subsidy` / `tokorozawa-elderly-taxi` / `tokorozawa-energy-support` / `tokorozawa-health-checkup-subsidy` / `tokorozawa-juutaku-reform` / `tokorozawa-newlywed-housing` / `tokorozawa-newlywed-rent` / `tokorozawa-nursing-home-reform` / `tokorozawa-school-lunch` / `tokorozawa-school-lunch-subsidy` / `tokorozawa-startup-support` / `tokorozawa-telework-bonus` / `tokorozawa-water-saving`）を公式一次情報で確認する。
+- push / 公開反映は明示確認後。
