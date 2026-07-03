@@ -4876,3 +4876,36 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 埼玉県Batch 131として、秩父市6件（`chichibu-akiya-reform` / `chichibu-bousai-equipment` / `chichibu-childcare-subsidy` / `chichibu-migration-support` / `chichibu-newlywed-rent` / `chichibu-telework-bonus`）を公式一次情報で確認する。
 - その後は朝霞市など、`node scripts/audit-raw-verified-gaps.mjs --prefecture 埼玉県 --limit 25` の残27件を順に確認する。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 埼玉県Batch 131 追加ログ
+
+秩父市6件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。秩父市raw gapは0件、埼玉県raw gapは27件から21件、全国raw gapは2,490件から2,484件に減少した。対象6件はactive 4件、期限到来/重複停止2件。`chichibu-childcare-subsidy` は令和8年4月入学分の申請期限が2026年3月31日で到来済みのため通常一覧から除外し、`chichibu-telework-bonus` は移住支援金のテレワーク要件と同一制度として重複停止にした。
+
+追加・補正:
+
+- `chichibu-akiya-reform`: 空き家リフォーム等工事費助成金へ補正。ちちぶ空き家バンク登録物件、市内登録業者施工、対象工事費30万円以上、工事費1/2、基本上限50万円、40歳未満世帯は60万円、18歳未満1人10万円加算を確認。
+- `chichibu-bousai-equipment`: 消火栓ホース格納箱等設置費助成事業補助金へ補正。個人世帯向けの感震ブレーカー等補助ではなく、市内の町会・行政区・自主防災組織向けに費用1/2・上限6万円を助成する制度として確認。
+- `chichibu-childcare-subsidy`: 小学校入学祝金へ補正。令和6年度までのランドセル購入補助金を廃止し、使途制限のない入学祝金へ変更。令和8年4月入学分は児童1人5万円、申請期限2026年3月31日のため期限到来扱い。
+- `chichibu-migration-support`: 移住支援金へ補正。東京23区在住者・通勤者等が秩父市へ移住し、対象企業就業、専門人材、移住前勤務先のテレワーク継続、関係人口要件等を満たす場合に対象。単身60万円、世帯100万円、18歳未満加算込み最大200万円を確認。
+- `chichibu-newlywed-rent`: 結婚新生活支援事業補助金へ補正。新婚世帯の住宅費、リフォーム工事費、引越費用が対象で、夫婦とも29歳以下は上限60万円、39歳以下は上限30万円、申請期限は2027年3月31日。
+- `chichibu-telework-bonus`: 独立したテレワーク環境整備補助は公式確認不可。テレワークは移住支援金の対象要件として確認できるため、`chichibu-migration-support` に統合し重複停止。
+
+確認:
+
+- `agent-reach doctor --json`: web は Jina Reader で利用可能、Exa は未設定。秩父市公式ページ、秩父市補助金等一覧PDF、秩父市移住サイト、埼玉県移住支援金ページを確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- データ層確認: 対象6件は全件取得、重複target slug 0、active 4件、期限到来/重複停止2件（`chichibu-childcare-subsidy` / `chichibu-telework-bonus`）。
+- `node scripts/check-grant-source-urls.mjs --slug ...秩父市6件 --concurrency 2 --timeout-ms 120000`: 初回は秩父市公式URL 5件が一時fetch failed。`--concurrency 1 --timeout-ms 240000` で該当7URLを直列再監査し、すべてHTTP 200。採用sourceUrls 20件はすべてHTTP 200。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 埼玉県 --limit 25`: 埼玉県の未照合raw slugは27件から21件に減少。次の埼玉県候補は朝霞市6件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,490件から2,484件に減少。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,244件、activeWithoutOfficialSourceは2,488件、埼玉県ローカル公式確認済みは186件。
+- `npm run lint`: エラー0、既存警告5件のみ。
+- `npm run build`: 成功。静的ページ5,258件生成、`/grant/[slug]` は2,610件相当。未コミットのPinterest系別変更が残っているため、`/pinterest` 系ルートもビルド対象に含まれた。
+- build後の軽量HTMLチェック: 通常公開4件は詳細ページ生成・sitemap掲載・`noindex` なし・公式確認表示あり。期限到来/重複停止2件は詳細ページ生成・sitemap除外・`noindex, follow`・期限切れ/掲載停止表示あり。failures 0。
+
+次回再開位置:
+
+- 埼玉県Batch 132として、朝霞市6件（`asaka-bousai-equipment` / `asaka-education-support` / `asaka-housing-reform` / `asaka-newlywed-rent` / `asaka-nursing-home-reform` / `asaka-telework-bonus`）を公式一次情報で確認する。
+- その後は東松山市9件、入間市6件へ進む。
+- push / 公開反映は明示確認後。
