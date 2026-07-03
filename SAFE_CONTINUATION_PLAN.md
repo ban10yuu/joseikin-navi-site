@@ -5261,3 +5261,15 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は一関市残り14件（`ichinoseki-block-wall-removal` / `ichinoseki-bousai-equipment` / `ichinoseki-elderly-taxi` / `ichinoseki-energy-support` / `ichinoseki-health-checkup-subsidy` / `ichinoseki-housing-reform` / `ichinoseki-juutaku-reform` / `ichinoseki-migration-support` / `ichinoseki-newlywed-rent` / `ichinoseki-nursing-home-reform` / `ichinoseki-scholarship-repayment` / `ichinoseki-startup-support` / `ichinoseki-telework-bonus` / `ichinoseki-water-saving`）。
 - 併せて `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugなど実害の大きい重複を公式確認済みデータへ置換する余地あり。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 岩手県Batch 143 追加ログ
+
+一関市の住宅・防災・高齢者・医療系8件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `ichinoseki-block-wall-removal` / `ichinoseki-bousai-equipment` / `ichinoseki-elderly-taxi` / `ichinoseki-energy-support` / `ichinoseki-health-checkup-subsidy` / `ichinoseki-housing-reform` / `ichinoseki-juutaku-reform` / `ichinoseki-nursing-home-reform`。`ichinoseki-juutaku-reform` は `ichinoseki-housing-reform` と同一趣旨のため重複停止。`ichinoseki-energy-support` は生成データの冬季灯油購入助成金を公式確認できないため、現行のエアコン設置支援事業補助金へ補正。全国raw gapは2,392件から2,384件、岩手県raw gapは49件から41件に減少した。
+
+確認: 対象ESLintエラー0、採用sourceUrls 6件HTTP 200、`npm run audit:coverage` failures 0。buildは一関市残り完了時へ繰り延べ。
+
+次回再開位置:
+
+- 全国raw gapの次候補は一関市残り6件（`ichinoseki-migration-support` / `ichinoseki-newlywed-rent` / `ichinoseki-scholarship-repayment` / `ichinoseki-startup-support` / `ichinoseki-telework-bonus` / `ichinoseki-water-saving`）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` は全文を読まない。
+- push / 公開反映は明示確認後。

@@ -36,8 +36,8 @@ Avoid commands that print large file regions or broad search results across `SAF
 ## Current repository state
 
 - Repository: `/Users/banseiyuuji/joseikin-navi-site`
-- Branch: `main`, ahead of `origin/main` by 194 commits after the last completed grant-data commit.
-- Last completed commit: `6bed86b 名護市9件を公式補正`
+- Branch: `main`, ahead of `origin/main` by 196+ commits after the latest completed local commits.
+- Last completed context-recovery commit: `8740c79 コンテキスト溢れ対策の再開手順を追加`
 - Do not push or publish without explicit user confirmation.
 - Preserve unrelated dirty Pinterest/UI work:
   - `package.json`
@@ -49,15 +49,15 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 ## Last verified grant-data state
 
-Batch 141 completed:
+Batch 143 completed:
 
-- 名護市9件を公式補正
-- 沖縄県 raw gap: `9 -> 0`
-- 全国 raw gap: `2407 -> 2398`
+- 一関市の住宅・防災・高齢者・医療系8件を公式補正
+- 一関市残り raw gap: 6件
+- 岩手県 raw gap: `49 -> 41`
+- 全国 raw gap: `2392 -> 2384`
 - `npm run audit:coverage`: failures 0
-- `npm run lint`: errors 0, existing warnings 5
-- `npm run build`: success, 5,380 static pages
-- Commit: `6bed86b`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- buildは一関市残り完了時へ繰り延べ
 
 ## Next safe work item
 
@@ -69,25 +69,11 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 
 Expected first batch:
 
-- 岩手県 一関市 20件
+- 岩手県 一関市 残り6件
 - Slugs:
-  - `ichinoseki-birth-bonus`
-  - `ichinoseki-block-wall-removal`
-  - `ichinoseki-bousai-equipment`
-  - `ichinoseki-child-medical`
-  - `ichinoseki-child-medical-aid`
-  - `ichinoseki-childcare-subsidy`
-  - `ichinoseki-elderly-taxi`
-  - `ichinoseki-energy-support`
-  - `ichinoseki-health-checkup-subsidy`
-  - `ichinoseki-housing-reform`
-  - `ichinoseki-juutaku-reform`
   - `ichinoseki-migration-support`
   - `ichinoseki-newlywed-rent`
-  - `ichinoseki-nursing-home-reform`
   - `ichinoseki-scholarship-repayment`
-  - `ichinoseki-school-lunch`
-  - `ichinoseki-school-lunch-subsidy`
   - `ichinoseki-startup-support`
   - `ichinoseki-telework-bonus`
   - `ichinoseki-water-saving`
@@ -122,4 +108,3 @@ cat HANDOFF_CONTEXT_RECOVERY_2026-07-03.md
 git status --short --branch
 node scripts/audit-raw-verified-gaps.mjs --limit 25
 ```
-
