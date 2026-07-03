@@ -5145,3 +5145,40 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は宜野湾市9件（`ginowan-block-wall-removal` / `ginowan-child-medical-aid` / `ginowan-elderly-taxi` / `ginowan-health-checkup-subsidy` / `ginowan-juutaku-reform` / `ginowan-scholarship-repayment` / `ginowan-school-lunch-subsidy` / `ginowan-startup-support` / `ginowan-water-saving`）。
 - 併せて `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugなど実害の大きい重複を公式確認済みデータへ置換する余地あり。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 沖縄県Batch 139 追加ログ
+
+宜野湾市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。宜野湾市raw gapは0件、沖縄県raw gapは34件から25件、全国raw gapは2,432件から2,423件に減少した。対象9件はactive 7件、掲載停止/募集終了2件。`ginowan-block-wall-removal` はブロック塀等撤去補助金を現行補助制度として公式確認できず、`ginowan-scholarship-repayment` は返還支援ではなく宜野湾市育英会の貸与奨学金で令和8年度募集終了のため、通常一覧から除外した。
+
+追加・補正:
+
+- `ginowan-block-wall-removal`: ブロック塀等撤去補助金は公式確認不可として掲載停止。宜野湾市公式ページでは既設ブロック塀等の安全点検、危険確認時の注意表示・補修・撤去等の必要性は確認できるが、撤去費用への現行補助制度は確認できない。
+- `ginowan-child-medical-aid`: こども医療費助成へ補正。令和7年10月診療分から高校生年代（18歳到達後最初の3月31日）まで窓口無料化が拡大。対象は健康保険加入かつ宜野湾市住所の児童で、新規対象者は受給資格申請が必要。
+- `ginowan-elderly-taxi`: シルバーパスポート事業へ補正。65歳以上の宜野湾市民にカードを郵送交付し、協力事業所で利用料無料・割引等を受けられる制度。宜野湾市公式回答では高齢者向け交通機関利用割引制度は設けていないため、タクシー助成ではなく公式の高齢者向け割引制度として掲載。
+- `ginowan-health-checkup-subsidy`: 特定健診・がん検診・人間ドック費用補助へ補正。令和8年度健診案内で、特定健診・健康診査・長寿健診は2026年4月1日から2027年3月31日、がん検診・人間ドックは2026年4月1日から2027年2月28日、婦人がん検診は2026年6月1日から2027年1月31日を確認。生成データの最大3万円固定表現は避けた。
+- `ginowan-juutaku-reform`: 令和8年度住宅リフォーム支援事業へ補正。自己が居住する市内住宅、市内施工業者、対象工事費20万円以上、補助率20%、上限20万円、事前申込2026年7月1日から7月24日、定員20名超は抽選、交付決定前着手不可を確認。
+- `ginowan-scholarship-repayment`: 宜野湾市育英会奨学生（奨学金）へ補正し、令和8年度募集終了扱い。奨学金返還支援制度は公式確認できず、公式の貸与奨学金は年額30万円・40万円・50万円から選択、受付は2026年4月1日から4月30日17時15分までで終了。
+- `ginowan-school-lunch-subsidy`: 就学援助制度（学校給食費等）へ補正。令和8年度申請受付は2026年12月21日まで。宜野湾市立小中学校在籍または市内住所の児童生徒保護者を対象に、生活保護または収入基準以下などの要件で、学用品費、修学旅行費、学校給食費、オンライン学習通信費等を援助。
+- `ginowan-startup-support`: 令和8年度企業立地支援事業（空き物件活用）へ補正。市内空き物件で事務所を新設・増設・拡大移転する事業者向け。家賃補助は賃料2分の1以内・上限30万円/月・最大6か月、リフォーム補助は2分の1以内・上限100万円。小売・飲食店・サービス提供など店舗機能を有する事業所は対象外。特定創業支援証明書は審査加点事由。
+- `ginowan-water-saving`: 令和8年度公共下水道接続促進事業補助金へ補正。公共下水道処理区域内で合併処理浄化槽、単独処理浄化槽、くみ取り式便所等を廃止し公共下水道へ接続する工事が対象。申請は2026年4月1日から9月30日、課税世帯は工事費75%・上限20万円、非課税世帯は85%・上限30万円。
+
+確認:
+
+- `agent-reach check-update`: v1.5.0、最新。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- データ層確認: 対象9件は全件取得、active 7件、掲載停止/募集終了2件（`ginowan-block-wall-removal` / `ginowan-scholarship-repayment`）。
+- `node scripts/check-grant-source-urls.mjs --slug ...宜野湾市9件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 15件はすべてHTTP 200。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 沖縄県 --limit 25`: 沖縄県の未照合raw slugは34件から25件に減少。次の沖縄県候補は那覇市16件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,432件から2,423件に減少。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,285件、activeWithoutOfficialSourceは2,427件、沖縄県ローカル公式確認済みactiveは156件。
+- `npm run lint`: エラー0、既存警告5件のみ。
+- `npm run build`: 成功。静的ページ5,345件生成、`/grant/[slug]` は2,671件相当。未コミットのPinterest系別変更が残っているため、`/pinterest` 系ルートもビルド対象に含まれた。
+- build後の軽量HTMLチェック: 通常公開7件は詳細ページ生成・sitemap掲載・noindexなし・公式確認表示あり。掲載停止/募集終了2件は詳細ページ生成・sitemap除外・`noindex, follow`・公式確認表示あり。failures 0。
+
+次回再開位置:
+
+- 全国raw gapの次候補は那覇市16件（`naha-birth-bonus` / `naha-block-wall-removal` / `naha-child-medical-aid` / `naha-childcare-subsidy` / `naha-elderly-support` / `naha-elderly-taxi` / `naha-health-checkup-subsidy` / `naha-housing-purchase` / `naha-infertility` / `naha-juutaku-reform` / `naha-nursing-equipment` / `naha-scholarship` / `naha-scholarship-repayment` / `naha-school-lunch-subsidy` / `naha-seismic-diagnosis` / `naha-water-saving`）。
+- その次の候補は名護市9件。
+- 併せて `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugなど実害の大きい重複を公式確認済みデータへ置換する余地あり。
+- push / 公開反映は明示確認後。
