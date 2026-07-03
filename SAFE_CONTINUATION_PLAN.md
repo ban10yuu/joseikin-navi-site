@@ -4770,6 +4770,39 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 埼玉県Batch 129として、川口市8件（`kawaguchi-block-wall-removal` / `kawaguchi-child-medical-aid` / `kawaguchi-elderly-taxi` / `kawaguchi-health-checkup-subsidy` / `kawaguchi-juutaku-reform` / `kawaguchi-school-lunch-subsidy` / `kawaguchi-startup-support` / `kawaguchi-water-saving`）を公式一次情報で確認する。
 - push / 公開反映は明示確認後。
 
+## 2026-07-03 埼玉県Batch 129 追加ログ
+
+川口市8件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。川口市raw gapは0件、埼玉県raw gapは51件から43件、全国raw gapは2,514件から2,506件に減少した。`kawaguchi-child-medical-aid` と `kawaguchi-juutaku-reform` は既存公式確認済みslugとの重複候補として掲載停止扱いにした。生成データの「高齢者タクシー利用助成」は、高齢者一般向け制度としては確認できず、川口市公式で確認できる重度心身障害者向け福祉タクシー利用料金助成事業へ対象者を明示して補正した。
+
+追加・補正:
+
+- `kawaguchi-block-wall-removal`: 既存ブロック塀等安全対策補助金へ補正。通学路に面する危険なブロック塀等、市内業者施工、撤去工事は補助対象経費2/3または30万円の少ない額、改修工事は2/3または20万円の少ない額を確認。
+- `kawaguchi-child-medical-aid`: 既存 `kawaguchi-child-medical` と同一の子ども医療費支給制度として重複停止。18歳年度末まで、令和6年10月診療分から入院・通院とも拡大済み。
+- `kawaguchi-elderly-taxi`: 福祉タクシー利用料金助成事業へ補正。重度心身障害者対象、年間36枚以内、1枚につき一般タクシー初乗運賃相当額。
+- `kawaguchi-health-checkup-subsidy`: 国民健康保険国保人間ドック検診へ補正。国保30歳から74歳、自己負担9,900円または6,600円、2027年2月28日まで。
+- `kawaguchi-juutaku-reform`: 既存 `kawaguchi-housing-reform` と同一の令和8年度住宅リフォーム補助金として重複停止。税込20万円以上、工事費5%、最大10万円、2026年8月5日まで。
+- `kawaguchi-school-lunch-subsidy`: 令和8年度学校給食費保護者負担軽減へ補正。小学校は年57,420円相当を原則無償化、中学校は1食114円を市負担。
+- `kawaguchi-startup-support`: 空き店舗活用事業補助金へ補正。商店街区域内の空き店舗改修、対象経費1/2以内、上限200万円、工事着手または契約2週間前までに申請。
+- `kawaguchi-water-saving`: 地球温暖化対策活動支援金（雨水貯留施設）へ補正。設置費1/2、市内業者活用上限24,000円、その他上限20,000円、2027年3月15日まで。
+
+確認:
+
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- `node scripts/check-grant-source-urls.mjs --slug ...川口市8件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 11件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 埼玉県 --limit 20`: 埼玉県の未照合raw slugは51件から43件に減少。次の埼玉県候補は草加市16件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,514件から2,506件に減少。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,229件、activeWithoutOfficialSourceは2,510件、埼玉県ローカル公式確認済みは171件。
+- `npm run lint`: エラー0、既存警告5件。
+- 初回 `npm run build`: コンパイル後のTypeScriptで `verified-local-misc-2026.ts` の巨大配列が `Expression produces a union type that is too complex to represent` になり失敗。今回追加した川口市8件だけを `as Grant` で明示し、既存データに不要な差分が入っていないことを確認して再実行。
+- 再実行 `npm run build`: 成功。静的ページ5,229件生成、`/grant/[slug]` は表示3件 + 2,585件。
+- build後の軽量HTMLチェック: 通常公開6件（`kawaguchi-block-wall-removal` / `kawaguchi-elderly-taxi` / `kawaguchi-health-checkup-subsidy` / `kawaguchi-school-lunch-subsidy` / `kawaguchi-startup-support` / `kawaguchi-water-saving`）はsitemap掲載・noindexなし・公式確認表示あり。重複停止2件（`kawaguchi-child-medical-aid` / `kawaguchi-juutaku-reform`）はsitemap除外・`noindex, follow`・期限切れ表示あり。
+
+次回再開位置:
+
+- 埼玉県Batch 130として、草加市16件（`soka-birth-bonus` / `soka-block-wall-removal` / `soka-child-medical-aid` / `soka-childcare-subsidy` / `soka-elderly-taxi` / `soka-energy-support` / `soka-health-checkup-subsidy` / `soka-juutaku-reform` / `soka-newlywed-rent` / `soka-nursing-home-reform` / `soka-scholarship-repayment` / `soka-school-lunch-subsidy` / `soka-startup-support` / `soka-telework-bonus` / `soka-vaccination-subsidy` / `soka-water-saving`）を公式一次情報で確認する。
+- push / 公開反映は明示確認後。
+
 ## 2026-07-03 埼玉県Batch 128 追加ログ
 
 川越市16件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。川越市raw gapは0件、埼玉県raw gapは67件から51件、全国raw gapは2,530件から2,514件に減少した。生成データの「出産・子育て応援給付金」は現行の妊婦のための支援給付へ、「高齢者タクシー利用助成」は高齢者運転免許自主返納支援補助金へ、「省エネ設備導入補助金」は住宅用脱炭素化設備等導入奨励金へ、「創業支援補助金」は新規創業者支援資金融資へ補正した。`kawagoe-child-medical-aid` は既存確認済み制度との重複、`kawagoe-newlywed-rent` は川越市公式の現行制度確認不可として掲載停止扱いにした。既存の `kawagoe-scholarship-repayment` は公式制度名とslugが不一致だったため、正式slug `kawagoe-scholarship` に統合し、旧slugを重複停止に変更した。
