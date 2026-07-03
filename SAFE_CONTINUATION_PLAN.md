@@ -4729,3 +4729,43 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 - 埼玉県Batch 127として、所沢市17件（`tokorozawa-birth-bonus` / `tokorozawa-block-wall-removal` / `tokorozawa-bousai-equipment` / `tokorozawa-child-medical-aid` / `tokorozawa-childcare-subsidy` / `tokorozawa-elderly-taxi` / `tokorozawa-energy-support` / `tokorozawa-health-checkup-subsidy` / `tokorozawa-juutaku-reform` / `tokorozawa-newlywed-housing` / `tokorozawa-newlywed-rent` / `tokorozawa-nursing-home-reform` / `tokorozawa-school-lunch` / `tokorozawa-school-lunch-subsidy` / `tokorozawa-startup-support` / `tokorozawa-telework-bonus` / `tokorozawa-water-saving`）を公式一次情報で確認する。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 埼玉県Batch 127 追加ログ
+
+所沢市17件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。所沢市raw gapは0件、埼玉県raw gapは84件から67件、全国raw gapは2,547件から2,530件に減少した。生成データの「ブロック塀等撤去補助金」「家庭用防災設備購入補助金」「高齢者タクシー利用助成」「結婚新生活支援事業補助金」「新婚世帯家賃補助制度」「テレワーク推進補助金」は、現行公式制度として確認できない、終了済み、または別制度のため通常一覧から除外した。`tokorozawa-child-medical-aid` と `tokorozawa-school-lunch-subsidy` は既存確認済み制度との重複slugとして掲載停止扱いにした。
+
+追加・補正:
+
+- `tokorozawa-birth-bonus`: 妊婦のための支援給付へ補正。妊婦1人5万円、胎児1人につき5万円、申請期限は胎児心拍確認日等から2年間を確認。
+- `tokorozawa-block-wall-removal`: ブロック塀等撤去補助金は過年度制度として終了済み扱い。防災ガイド等で2021年3月31日までの制度として確認し、現行制度としては掲載停止。
+- `tokorozawa-bousai-equipment`: 家庭用防災設備購入補助金は公式確認不可として掲載停止扱い。防災ガイドや補助・給付・貸付一覧では、防災啓発や耐震関連補助は確認できるが、家庭用防災設備購入補助は確認できず。
+- `tokorozawa-child-medical-aid`: 既存公式確認済みslug `tokorozawa-child-medical` と同一制度のため、重複候補として掲載停止。
+- `tokorozawa-childcare-subsidy`: 保育料多子軽減・幼児教育保育無償化へ補正。3歳から5歳児等無償化、認可外保育施設等の月額37,000円/42,000円上限、第三子以降0歳から2歳児クラス保育料無料等を確認。
+- `tokorozawa-elderly-taxi`: 高齢者一般向けタクシー助成は公式確認不可として掲載停止扱い。関連制度として在宅重度障害者向け福祉タクシー使用料金補助を確認したが、生成データの対象とは異なる。
+- `tokorozawa-energy-support`: 家庭用創エネ・蓄エネの所沢市スマートハウス化推進補助金へ補正。非FIT太陽光上限50万円、同時設置蓄電池上限61万6千円、加算最大33%等を確認。
+- `tokorozawa-health-checkup-subsidy`: 人間ドック検診料の一部助成へ補正。国保35歳から74歳、日帰りコース16,500円、生活習慣病コース15,000円を確認。
+- `tokorozawa-juutaku-reform`: 家庭用エコリフォームの所沢市スマートハウス化推進補助金へ補正。断熱改修7項目、合算上限30万円、受付2026年4月1日から2027年2月26日までを確認。
+- `tokorozawa-newlywed-housing`: 結婚新生活支援事業補助金は公式確認不可として掲載停止扱い。補助・給付・貸付一覧と結婚関連ページで現行制度を確認できず。
+- `tokorozawa-newlywed-rent`: 新婚世帯家賃補助制度は公式確認不可として掲載停止扱い。
+- `tokorozawa-nursing-home-reform`: 介護保険住宅改修費の支給へ補正。要介護・要支援認定者、支給限度基準額20万円、改修前後2回申請、事前申請必須を確認。
+- `tokorozawa-school-lunch`: 学校給食費補助金（給食費無償化）へ補正。令和6年1月から市立小中学校給食費無償化、令和7年度年額は小学校55,000円/61,600円、中学校67,100円/73,700円を確認。
+- `tokorozawa-school-lunch-subsidy`: `tokorozawa-school-lunch` と同一制度の重複候補として掲載停止。
+- `tokorozawa-startup-support`: 空き店舗活用・新規創業支援出店補助金へ補正。市内商店街内の空き店舗新規出店、補助率1/3・上限120万円、仲介手数料等・工事等・宣伝費用を確認。
+- `tokorozawa-telework-bonus`: 所沢市独自テレワーク推進補助金は公式確認不可として掲載停止扱い。市公式では埼玉県テレワークポータルサイト紹介のみを確認。
+- `tokorozawa-water-saving`: 雨水浸透ます無償支給制度へ補正。雨水浸透ます、4号砕石、透水シートを無償支給、設置工事費は自己負担を確認。
+
+確認:
+
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- `node scripts/check-grant-source-urls.mjs --slug ...所沢市17件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 25件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 埼玉県 --limit 30`: 埼玉県の未照合raw slugは84件から67件に減少。次の埼玉県候補は川越市16件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,547件から2,530件に減少。未照合件数上位は福岡県127件、栃木県121件、大阪府119件、静岡県91件、千葉県91件。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,210件、activeWithoutOfficialSourceは2,534件、埼玉県ローカル公式確認済みは152件。active全体4,744件に対する公式確認済みactive比率は約46.6%。
+- `npm run build`: 成功。静的ページ5,190件生成、`/grant/[slug]` は2,564件相当。未コミットのPinterest系別変更が残っているため、`/pinterest` 系ルートもビルド対象に含まれた。
+- build後の軽量HTMLチェック: 通常公開9件は詳細ページ生成・sitemap掲載・noindexなし。掲載停止8件は詳細ページ生成・sitemap除外・`noindex, follow`・期限切れ表示あり。failures 0。
+
+次回再開位置:
+
+- 埼玉県Batch 128として、川越市16件（`kawagoe-birth-bonus` / `kawagoe-block-wall-removal` / `kawagoe-child-medical-aid` / `kawagoe-childcare-subsidy` / `kawagoe-elderly-taxi` / `kawagoe-energy-support` / `kawagoe-health-checkup-subsidy` / `kawagoe-juutaku-reform` / `kawagoe-newlywed-rent` / `kawagoe-nursing-home-reform` / `kawagoe-scholarship` / `kawagoe-school-lunch` / `kawagoe-school-lunch-subsidy` / `kawagoe-sme-support` / `kawagoe-startup-support` / `kawagoe-water-saving`）を公式一次情報で確認する。
+- push / 公開反映は明示確認後。
