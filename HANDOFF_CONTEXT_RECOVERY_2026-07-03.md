@@ -49,15 +49,14 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 ## Last verified grant-data state
 
-Batch 143 completed:
+Batch 144 completed:
 
-- 一関市の住宅・防災・高齢者・医療系8件を公式補正
-- 一関市残り raw gap: 6件
-- 岩手県 raw gap: `49 -> 41`
-- 全国 raw gap: `2392 -> 2384`
+- 一関市残り6件を公式補正し、一関市 raw gap 0件を達成
+- 岩手県 raw gap: `41 -> 35`
+- 全国 raw gap: `2384 -> 2378`
 - `npm run audit:coverage`: failures 0
 - `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
-- buildは一関市残り完了時へ繰り延べ
+- `npm run build`: success, 5,413 static pages
 
 ## Next safe work item
 
@@ -69,14 +68,27 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 
 Expected first batch:
 
-- 岩手県 一関市 残り6件
+- 岩手県 花巻市 19件
 - Slugs:
-  - `ichinoseki-migration-support`
-  - `ichinoseki-newlywed-rent`
-  - `ichinoseki-scholarship-repayment`
-  - `ichinoseki-startup-support`
-  - `ichinoseki-telework-bonus`
-  - `ichinoseki-water-saving`
+  - `hanamaki-birth-bonus`
+  - `hanamaki-block-wall-removal`
+  - `hanamaki-child-medical-aid`
+  - `hanamaki-childcare-subsidy`
+  - `hanamaki-elderly-support`
+  - `hanamaki-elderly-taxi`
+  - `hanamaki-health-checkup-subsidy`
+  - `hanamaki-housing-purchase`
+  - `hanamaki-infertility`
+  - `hanamaki-juutaku-reform`
+  - `hanamaki-migration-support`
+  - `hanamaki-nursing-equipment`
+  - `hanamaki-scholarship`
+  - `hanamaki-scholarship-repayment`
+  - `hanamaki-school-lunch-subsidy`
+  - `hanamaki-seismic-diagnosis`
+  - `hanamaki-sme-support`
+  - `hanamaki-startup-support`
+  - `hanamaki-water-saving`
 
 Known existing official record:
 

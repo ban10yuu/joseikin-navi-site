@@ -800,5 +800,7 @@
 - [x] 岩手県Batch 142の検証（対象ESLintエラー0、採用sourceUrls 6件はすべてHTTP 200、全国未照合raw slugは2,398件から2,392件、岩手県は55件から49件に減少、coverage failures 0、公式確認済みactiveは2,309件、activeWithoutOfficialSourceは2,396件。buildは一関市残り完了時へ繰り延べ）
 - [x] 岩手県Batch 143として、一関市の住宅・防災・高齢者・医療系8件を公式確認済み追加・補正（ブロック塀等安全確保事業、緊急通報システム端末機貸与、高齢者福祉乗車券、エアコン設置支援事業補助金、令和8年度成人検診・一日人間ドック、令和8年度住宅環境改善リフォーム補助金、住宅リフォーム重複slug停止、介護保険住宅改修費）
 - [x] 岩手県Batch 143の検証（対象ESLintエラー0、採用sourceUrls 6件はすべてHTTP 200、全国未照合raw slugは2,392件から2,384件、岩手県は49件から41件に減少、coverage failures 0。buildは一関市残り6件完了時へ繰り延べ）
-- [ ] 次回候補: 全国raw gapは一関市残り6件（`ichinoseki-migration-support` / `ichinoseki-newlywed-rent` / `ichinoseki-scholarship-repayment` / `ichinoseki-startup-support` / `ichinoseki-telework-bonus` / `ichinoseki-water-saving`）から再開可能
+- [x] 岩手県Batch 144として、一関市残り6件を公式確認済み追加・補正し、一関市raw gap 0件を達成（移住支援金及び地方就職支援金、結婚新生活支援補助金の令和7年度申請終了扱い、奨学金返還補助金、地域ビジネス創出加速化支援交付金、テレワーカー移住支援の移住支援金への統合・重複停止、住宅用新エネルギー設備導入促進費補助金）
+- [x] 岩手県Batch 144の検証（対象ESLintエラー0、採用sourceUrls 5件はすべてHTTP 200、全国未照合raw slugは2,384件から2,378件、岩手県は41件から35件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,413件生成、`/grant/[slug]` は2,716件相当）
+- [ ] 次回候補: 全国raw gapは花巻市19件（`hanamaki-birth-bonus` から `hanamaki-water-saving`）から再開可能
 - [ ] push / 公開反映は明示確認後に実行

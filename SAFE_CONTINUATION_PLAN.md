@@ -5273,3 +5273,15 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は一関市残り6件（`ichinoseki-migration-support` / `ichinoseki-newlywed-rent` / `ichinoseki-scholarship-repayment` / `ichinoseki-startup-support` / `ichinoseki-telework-bonus` / `ichinoseki-water-saving`）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 岩手県Batch 144 追加ログ
+
+一関市残り6件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `ichinoseki-migration-support` / `ichinoseki-newlywed-rent` / `ichinoseki-scholarship-repayment` / `ichinoseki-startup-support` / `ichinoseki-telework-bonus` / `ichinoseki-water-saving`。`ichinoseki-telework-bonus` は移住支援金のテレワーク要件と同一制度のため重複停止。`ichinoseki-water-saving` は雨水タンク設置補助金を公式確認できないため、公式に確認できる住宅用新エネルギー設備導入促進費補助金へ補正した。一関市raw gapは0件、全国raw gapは2,384件から2,378件、岩手県raw gapは41件から35件に減少した。
+
+確認: 対象ESLintエラー0、採用sourceUrls 5件HTTP 200、`npm run audit:coverage` failures 0、`npm run build` 成功。静的ページ5,413件生成、`/grant/[slug]` は2,716件相当。
+
+次回再開位置:
+
+- 全国raw gapの次候補は花巻市19件（`hanamaki-birth-bonus` / `hanamaki-block-wall-removal` / `hanamaki-child-medical-aid` / `hanamaki-childcare-subsidy` / `hanamaki-elderly-support` / `hanamaki-elderly-taxi` / `hanamaki-health-checkup-subsidy` / `hanamaki-housing-purchase` / `hanamaki-infertility` / `hanamaki-juutaku-reform` / `hanamaki-migration-support` / `hanamaki-nursing-equipment` / `hanamaki-scholarship` / `hanamaki-scholarship-repayment` / `hanamaki-school-lunch-subsidy` / `hanamaki-seismic-diagnosis` / `hanamaki-sme-support` / `hanamaki-startup-support` / `hanamaki-water-saving`）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` は全文を読まない。
+- push / 公開反映は明示確認後。
