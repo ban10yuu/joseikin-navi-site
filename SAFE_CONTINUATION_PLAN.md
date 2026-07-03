@@ -5080,3 +5080,31 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - その次は沖縄市10件（`okinawa-block-wall-removal` / `okinawa-child-medical-aid` / `okinawa-city-startup-support` / `okinawa-elderly-taxi` / `okinawa-health-checkup-subsidy` / `okinawa-juutaku-reform` / `okinawa-scholarship-repayment` / `okinawa-school-lunch-subsidy` / `okinawa-startup-support` / `okinawa-water-saving`）。
 - 併せて `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugなど実害の大きい重複を公式確認済みデータへ置換する余地あり。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 沖縄県Batch 137 追加ログ
+
+沖縄県庁3件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。沖縄県庁raw gapは0件、沖縄県raw gapは47件から44件、全国raw gapは2,445件から2,442件に減少した。対象3件はすべて掲載停止/受付終了。`okinawa-child-poverty` は令和7年度こども未来応援助成事業として公式確認できるが応募期間・助成対象期間とも終了、`okinawa-housing-typhoon` は住宅防風対策支援事業を現行補助制度として確認できず、`okinawa-tourism-employment` は令和8年度観光人材確保・定着支援事業補助金として確認できるが2026年5月31日で申込終了のため、通常一覧から除外した。
+
+追加・補正:
+
+- `okinawa-child-poverty`: 沖縄こどもの未来県民会議 令和7年度こども未来応援助成事業へ補正。こどもの貧困解消に取り組む企業およびNPO法人等を対象に、こどもの自己肯定感向上、困窮家庭の生活安定、こどもや保護者の就労支援に関する企画提案事業へ助成。公式上限は1事業150万円以内、応募期間は2025年3月26日から4月18日17時、助成対象期間は2025年4月1日から2026年3月31日で終了済み。
+- `okinawa-housing-typhoon`: 住宅防風対策支援事業は公式確認不可として掲載停止。沖縄県公式サイトでは台風の被害と対策、家庭での備え、令和5年台風第6号時の賃貸型応急住宅供与は確認できるが、個人住宅の防風シャッター・強化ガラス等に対する現行補助額・申請制度は確認できない。
+- `okinawa-tourism-employment`: 令和8年度観光人材確保・定着支援事業補助金へ補正し、申込終了扱い。沖縄県内に本社・支店・営業所等を有する観光事業者を対象に、求人広告、就職説明会等出展費用、人材紹介手数料、社内研修・リスキリング、海外・国内人材受入経費等を補助。補助率80%、人材確保・定着経費は1社最大164万円、海外人材受入は1人最大76万円、国内人材受入は1人最大54万円、最大3名までを確認。交付申請は2026年5月31日で申込終了。
+
+確認:
+
+- `agent-reach doctor --json`: web は Jina Reader で利用可能、Exa は未設定。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- データ層確認: 対象3件は全件一意に追加、すべて掲載停止/受付終了（`okinawa-child-poverty` / `okinawa-housing-typhoon` / `okinawa-tourism-employment`）。
+- `node scripts/check-grant-source-urls.mjs --slug okinawa-child-poverty --slug okinawa-housing-typhoon --slug okinawa-tourism-employment --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 9件はすべてHTTP 200。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 沖縄県 --limit 20`: 沖縄県の未照合raw slugは47件から44件に減少。次の沖縄県候補は沖縄市10件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,445件から2,442件に減少。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,271件、activeWithoutOfficialSourceは2,446件、沖縄県ローカル公式確認済みactiveは142件。今回3件はすべて期限切れ・掲載停止のため公式確認済みactive数は増えない。
+- `npm run build` は、今回3件がすべて期限切れ・掲載停止でactiveページ数を増やさないため、次の沖縄市10件以降の節目へ繰り延べ。
+
+次回再開位置:
+
+- 全国raw gapの次候補は沖縄市10件（`okinawa-block-wall-removal` / `okinawa-child-medical-aid` / `okinawa-city-startup-support` / `okinawa-elderly-taxi` / `okinawa-health-checkup-subsidy` / `okinawa-juutaku-reform` / `okinawa-scholarship-repayment` / `okinawa-school-lunch-subsidy` / `okinawa-startup-support` / `okinawa-water-saving`）。
+- 併せて `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugなど実害の大きい重複を公式確認済みデータへ置換する余地あり。
+- push / 公開反映は明示確認後。
