@@ -757,6 +757,8 @@
 - [x] 埼玉県Batch 121の検証（対象ESLintエラー0、diff check問題なし、重複slug 0、対象9件はactive 8件・掲載停止1件、採用sourceUrls 26件はすべてHTTP 200、埼玉県の未照合raw slugは131件から122件、全国未照合raw slugは2,594件から2,585件に減少、coverage failures 0、公式確認済みactiveは2,170件、埼玉県ローカル公式確認済みは112件。buildは速度改善方針により次の加須市2件後の20件節目へ繰り延べ）
 - [x] 埼玉県Batch 122として、加須市2件を公式確認済み追加・補正し、加須市raw gap 0件を達成（子育て世帯応援転入費用助成金、創業支援補助金）
 - [x] 埼玉県Batch 122の検証（対象ESLintエラー0、diff check問題なし、重複slug 0、対象2件はactive 2件、採用sourceUrls 6件はすべてHTTP 200、埼玉県の未照合raw slugは122件から120件、全国未照合raw slugは2,585件から2,583件に減少、coverage failures 0、公式確認済みactiveは2,172件、埼玉県ローカル公式確認済みは114件。`npm run build` 成功、静的ページ5,129件生成、`/grant/[slug]` は2,512件相当）
-- [ ] 次回候補: 埼玉県Batch 123として熊谷市7件を公式一次情報で確認する
+- [x] 埼玉県Batch 123として、熊谷市7件を公式確認済み追加・補正し、熊谷市raw gap 0件を達成（妊婦のための支援給付、保育料完全無償化、三世代ふれあい家族住宅取得等応援事業、不妊治療費等助成、早期不妊検査費等助成、育英資金制度と入学準備金制度の受付終了扱い、経営革新計画策定奨励金）
+- [x] 埼玉県Batch 123の検証（agent-reach doctorでwebはJina Reader利用可・Exa未設定を確認、対象ESLintエラー0、diff check問題なし、verified-local-misc重複slug 0、対象7件はactive 6件・掲載停止1件、初回URL監査で熊谷市公式URL 6件が一時fetch failed後に直列再監査ですべてHTTP 200、採用sourceUrls 13件はすべてHTTP 200、埼玉県の未照合raw slugは120件から113件、全国未照合raw slugは2,583件から2,576件に減少、coverage failures 0、公式確認済みactiveは2,178件、埼玉県ローカル公式確認済みは120件。`npm run build` 成功、静的ページ5,138件生成、`/grant/[slug]` は2,518件相当。`npm run audit:deadlines` failures 0。`npm run audit:links` は17分以上戻らなかったため中断し、今回バッチは個別URL監査・期限監査・build成功を証跡とする）
+- [ ] 次回候補: 埼玉県Batch 124として行田市3件（`gyoda-housing-purchase` / `gyoda-migration-bonus` / `gyoda-uij-turn`）を公式一次情報で確認する
 - [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugを公式確認済みデータへ置換し、raw重複の実害を減らす
 - [ ] push / 公開反映は明示確認後に実行

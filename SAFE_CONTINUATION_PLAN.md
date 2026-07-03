@@ -4590,3 +4590,37 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 - 埼玉県Batch 123として、熊谷市7件（`kumagaya-birth-bonus` / `kumagaya-childcare-subsidy` / `kumagaya-housing-purchase` / `kumagaya-infertility` / `kumagaya-infertility-treatment` / `kumagaya-scholarship` / `kumagaya-sme-support`）を公式一次情報で確認する。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 埼玉県Batch 123 追加ログ
+
+熊谷市7件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。熊谷市raw gapは0件、埼玉県raw gapは120件から113件、全国raw gapは2,583件から2,576件に減少した。生成データの「出産祝い金」「保育料軽減補助制度」「住宅取得支援補助金」「不妊治療費助成制度」「奨学金制度」「中小企業経営革新支援補助金」は、公式制度名・金額・対象者・受付状況へ補正した。
+
+追加・補正:
+
+- `kumagaya-birth-bonus`: 妊婦のための支援給付へ補正。令和7年4月1日から従来の出産・子育て応援給付金に代わって開始、妊婦1人5万円、胎児1人5万円を確認。
+- `kumagaya-childcare-subsidy`: 保育料完全無償化へ補正。令和7年4月から0歳から2歳児クラスの保育料無償化、認可外保育施設等は条件付きで月額42,000円まで、令和8年度分は令和9年3月31日申請期限を確認。
+- `kumagaya-housing-purchase`: 三世代ふれあい家族住宅取得等応援事業へ補正。住宅取得一般補助ではなく、三世代同居・近居の住宅新築・購入・増改築に対し、クマPAYで最大25万円を補助する制度を確認。
+- `kumagaya-infertility`: 不妊治療費等助成事業へ補正。特定不妊治療・男性不妊治療、治療費1年度上限10万円、交通費最大1万円、治療終了日の翌日から2年以内の申請を確認。
+- `kumagaya-infertility-treatment`: 早期不妊検査費等助成事業へ補正。`kumagaya-infertility` との重複を避け、不妊検査・不育症検査ごとに夫婦一組上限3万円、妻43歳未満、検査終了年度末までの申請を確認。
+- `kumagaya-scholarship`: 育英資金制度と入学準備金制度へ補正し、令和8年度受付終了扱い。公式上は給付型ではなく無利子貸与。育英資金は大学等月額3万円以内、入学準備金は大学等50万円以内。令和8年度育英資金受付は令和8年4月6日終了のため通常一覧から除外。
+- `kumagaya-sme-support`: 経営革新計画策定奨励金へ補正。引き継ぎ案では熊谷発スタートアップ支援補助金候補だったが、公式確認時に生成名へより近い現行制度として経営革新計画策定奨励金を確認。令和8年5月1日から令和9年1月29日まで、10万円、令和8年4月1日以降の経営革新計画承認等を確認。
+
+確認:
+
+- `agent-reach doctor --json`: web は Jina Reader で利用可能、Exa は未設定。熊谷市公式ページを Jina Reader と通常HTTPで確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- データ層確認: 対象7件は全件取得、active 6件、掲載停止1件（`kumagaya-scholarship`）、`verified-local-misc-2026.ts` 内のslug重複0。
+- `node scripts/check-grant-source-urls.mjs --slug ...熊谷市7件 --concurrency 1 --timeout-ms 180000`: 採用sourceUrls 13件はすべてHTTP 200、failures 0。初回concurrency 2では熊谷市公式の一部URLが一時fetch failedになったが、直列再監査ですべて200を確認。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 埼玉県 --limit 30`: 埼玉県の未照合raw slugは120件から113件に減少。次の埼玉県候補は行田市3件、鴻巣市9件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,583件から2,576件に減少。未照合件数上位は福岡県127件、栃木県121件、大阪府119件、埼玉県113件。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,178件、activeWithoutOfficialSourceは2,580件、埼玉県ローカル公式確認済みは120件。active全体4,758件に対する公式確認済みactive比率は約45.8%。
+- `npm run build`: 成功。静的ページ5,138件生成、`/grant/[slug]` は2,518件相当。未コミットのPinterest系別変更が残っているため、`/pinterest` 系ルートもビルド対象に含まれた。
+- `npm run audit:deadlines`: failures 0。期限候補858件、期限切れ340件、activeWithDeadline 518件、`kumagaya-scholarship` は期限切れ側に入り通常一覧から除外。
+- `npm run audit:links`: 17分以上戻らなかったため中断。今回の熊谷市バッチについては採用公式URL13件の個別URL監査、期限監査、build成功を証跡とする。
+
+次回再開位置:
+
+- 埼玉県Batch 124として、行田市3件（`gyoda-housing-purchase` / `gyoda-migration-bonus` / `gyoda-uij-turn`）を公式一次情報で確認する。
+- その後は鴻巣市9件、春日部市17件前後の順に進める見込み。作業開始時に `node scripts/audit-raw-verified-gaps.mjs --prefecture 埼玉県 --limit 40` で再確認する。
+- push / 公開反映は明示確認後。
