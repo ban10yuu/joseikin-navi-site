@@ -5044,3 +5044,39 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 沖縄県Batch 136として、浦添市9件（`urasoe-block-wall-removal` / `urasoe-child-medical-aid` / `urasoe-elderly-taxi` / `urasoe-health-checkup-subsidy` / `urasoe-housing-reform` / `urasoe-juutaku-reform` / `urasoe-scholarship-repayment` / `urasoe-school-lunch-subsidy` / `urasoe-water-saving`）を公式一次情報で確認する。
 - 併せて `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugなど実害の大きい重複を公式確認済みデータへ置換する余地あり。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 沖縄県Batch 136 追加ログ
+
+浦添市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。浦添市raw gapは0件、沖縄県raw gapは56件から47件、全国raw gapは2,454件から2,445件に減少した。対象9件はactive 6件、掲載停止/受付終了/重複停止3件。`urasoe-block-wall-removal` は浦添市公式でブロック塀等撤去補助金の現行補助制度を確認できず、`urasoe-child-medical-aid` は既存の `urasoe-child-medical` と同一制度の重複、`urasoe-scholarship-repayment` は返還支援ではなく浦添市育英会の令和8年度募集期限到来制度として整理し、通常一覧から除外した。
+
+追加・補正:
+
+- `urasoe-block-wall-removal`: ブロック塀等撤去補助金は公式確認不可として掲載停止。浦添市公式ページでは既存ブロック塀等の安全点検、危険確認時の注意表示・補修・撤去等の必要性は確認できるが、撤去費用への現行補助制度は確認できない。
+- `urasoe-child-medical-aid`: こども医療費助成の重複slugとして掲載停止。現行公式制度は既存 `urasoe-child-medical` で掲載済み。対象は0歳から中学校修了前まで、保険適用自己負担分を現物給付・自動償還・窓口申請で助成する制度として確認。
+- `urasoe-elderly-taxi`: 高齢者外出支援サービス事業へ補正。60歳以上の在宅高齢者で、下肢障害等により車いす・ストレッチャー利用が必要な方を対象に、自宅から医療機関等への移動を月2回まで無料で支援する制度を確認。
+- `urasoe-health-checkup-subsidy`: 国民健康保険加入者向け特定健診・健康診査とがん検診受診券へ補正。国保40歳から74歳、19歳から39歳の健康診査、がん検診受診券を確認。人間ドック補助は公式FAQで存在しないため、無料健診・受診券制度として補正。
+- `urasoe-housing-reform`: 重度身体障がい者住宅改造費助成事業へ補正。身体障害者手帳1級・2級の下肢、体幹、視覚障がい等で65歳未満の方を対象に、トイレ・浴室改造、階段昇降機等を助成。1世帯上限50万円、日常生活用具住宅改修費対象部分を除く場合は上限30万円を確認。
+- `urasoe-juutaku-reform`: 介護保険住宅改修費・介護予防住宅改修費へ補正。手すり設置、段差解消、床材変更、扉交換、便器取替え等が対象で、支給限度基準額20万円、自己負担割合に応じて9割・8割・7割支給。事前申請必須、受領委任払いも確認。
+- `urasoe-scholarship-repayment`: 浦添市育英会の学資貸費・入学準備金貸費・奨学金へ補正し、令和8年度募集終了扱い。返還支援制度は公式確認できず、貸費制度の県外大学等年額42万円以内、県内大学等年額30万円以内、保育士等資格目的の月2万円加算、給付型奨学金の県外大学等年額60万円・県内大学等年額30万円を確認。
+- `urasoe-school-lunch-subsidy`: 令和8年度浦添市立小中学校給食費無償化へ補正。市立小中学校在籍児童生徒を対象に、令和8年4月から令和9年3月まで学校給食費を無償化。小学校月5,700円、中学校月6,500円相当を確認。
+- `urasoe-water-saving`: 合併処理浄化槽設置の補助へ補正。下水道整備が見込まれない、または7年以上要する地域等で、既存単独処理浄化槽・くみ取り便所から10人槽以下の合併処理浄化槽へ転換する住宅を対象に、5人槽33.2万円、6から7人槽41.4万円、8から10人槽54.8万円を確認。
+
+確認:
+
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- データ層確認: 対象9件は全件取得、active 6件、掲載停止/受付終了/重複停止3件（`urasoe-block-wall-removal` / `urasoe-child-medical-aid` / `urasoe-scholarship-repayment`）。
+- `node scripts/check-grant-source-urls.mjs --slug ...浦添市9件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 13件はすべてHTTP 200。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 沖縄県 --limit 20`: 沖縄県の未照合raw slugは56件から47件に減少。次の沖縄県候補は沖縄県庁3件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,454件から2,445件に減少。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,271件、activeWithoutOfficialSourceは2,449件、沖縄県ローカル公式確認済みは142件。
+- `npm run lint`: エラー0、既存警告5件のみ。
+- `npm run build`: 成功。静的ページ5,310件生成、`/grant/[slug]` は2,650件相当。未コミットのPinterest系別変更が残っているため、`/pinterest` 系ルートもビルド対象に含まれた。
+- build後の軽量HTMLチェック: 通常公開6件は詳細ページ生成・sitemap掲載・noindexなし・公式確認表示あり。掲載停止/受付終了/重複停止3件は詳細ページ生成・sitemap除外・`noindex, follow`・掲載停止/期限切れ表示あり。failures 0。
+
+次回再開位置:
+
+- 全国raw gapの次候補は沖縄県庁3件（`okinawa-child-poverty` / `okinawa-housing-typhoon` / `okinawa-tourism-employment`）。
+- その次は沖縄市10件（`okinawa-block-wall-removal` / `okinawa-child-medical-aid` / `okinawa-city-startup-support` / `okinawa-elderly-taxi` / `okinawa-health-checkup-subsidy` / `okinawa-juutaku-reform` / `okinawa-scholarship-repayment` / `okinawa-school-lunch-subsidy` / `okinawa-startup-support` / `okinawa-water-saving`）。
+- 併せて `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugなど実害の大きい重複を公式確認済みデータへ置換する余地あり。
+- push / 公開反映は明示確認後。
