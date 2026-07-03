@@ -19,8 +19,8 @@ Do not read large continuation files wholesale.
 Use these instead:
 
 ```bash
-tail -40 HANDOFF_SAFE_CONTINUATION_2026-07-03.md
-tail -80 tasks/todo.md
+cat HANDOFF_CONTEXT_RECOVERY_2026-07-03.md
+tail -40 tasks/todo.md
 node scripts/audit-raw-verified-gaps.mjs --limit 25
 git status --short --branch
 ```
@@ -36,8 +36,8 @@ Avoid commands that print large file regions or broad search results across `SAF
 ## Current repository state
 
 - Repository: `/Users/banseiyuuji/joseikin-navi-site`
-- Branch: `main`, ahead of `origin/main` by 196+ commits after the latest completed local commits.
-- Last completed context-recovery commit: `8740c79 コンテキスト溢れ対策の再開手順を追加`
+- Branch: `main`, ahead of `origin/main` by 200+ commits after the latest completed local commits.
+- Last completed grant-data commit before this recovery update: `d9f37c2 花巻市残り12件と再開手順を公式補正`
 - Do not push or publish without explicit user confirmation.
 - Preserve unrelated dirty Pinterest/UI work:
   - `package.json`
@@ -49,19 +49,21 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 ## Last verified grant-data state
 
-Batch 146 completed in progress:
+Batch 147 completed in progress:
 
-- 花巻市残り12件を公式補正し、花巻市 raw gap 0件を達成
-- 対象: `hanamaki-block-wall-removal` / `hanamaki-housing-purchase` / `hanamaki-juutaku-reform` / `hanamaki-migration-support` / `hanamaki-nursing-equipment` / `hanamaki-scholarship` / `hanamaki-scholarship-repayment` / `hanamaki-school-lunch-subsidy` / `hanamaki-seismic-diagnosis` / `hanamaki-sme-support` / `hanamaki-startup-support` / `hanamaki-water-saving`
-- `hanamaki-nursing-equipment` は介護用品支給事業を公式確認できないため高齢者等住宅改造事業へ補正
-- `hanamaki-water-saving` は雨水タンク設置補助金を公式確認できないため排水設備設置促進事業補助金へ補正
-- 岩手県 raw gap: `28 -> 16`
-- 全国 raw gap: `2371 -> 2359`
+- 岩手県庁1件と盛岡市15件を公式補正し、岩手県 raw gap 0件を達成
+- 対象: `iwate-education-scholarship-returnee` / `morioka-afterschool` / `morioka-block-wall-removal` / `morioka-bousai-equipment` / `morioka-child-medical-aid` / `morioka-elderly-taxi` / `morioka-health-checkup-subsidy` / `morioka-infertility` / `morioka-juutaku-reform` / `morioka-migration-bonus` / `morioka-scholarship-repayment` / `morioka-school-lunch-subsidy` / `morioka-startup-support` / `morioka-vacant-house` / `morioka-water-saving` / `morioka-women-startup`
+- `morioka-bousai-equipment` は自主防災組織への防災資機材支援へ補正
+- `morioka-elderly-taxi` は福祉タクシー及びガソリン等助成券へ補正
+- `morioka-school-lunch-subsidy` は学校給食食材費臨時補助事業へ補正
+- `morioka-women-startup` は起業応援ルーム芽でるネットへ補正
+- 岩手県 raw gap: `16 -> 0`
+- 全国 raw gap: `2359 -> 2343`
 - `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
 - `git diff --check`: 問題なし
-- 採用sourceUrls 14件はすべてHTTP 200
+- 採用sourceUrls 30件はすべてHTTP 200
 - `npm run audit:coverage`: failures 0
-- `npm run build`: 成功、静的ページ5,440件、`/grant/[slug]` は2,736件相当
+- `npm run build`: 成功。静的ページ5,469件、`/grant/[slug]` は2,752件相当
 
 ## Next safe work item
 
@@ -73,28 +75,17 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 
 Expected first batch:
 
-- 岩手県庁1件と盛岡市15件
+- 岐阜県関市9件
 - Slugs:
-  - `iwate-education-scholarship-returnee`
-  - `morioka-afterschool`
-  - `morioka-block-wall-removal`
-  - `morioka-bousai-equipment`
-  - `morioka-child-medical-aid`
-  - `morioka-elderly-taxi`
-  - `morioka-health-checkup-subsidy`
-  - `morioka-infertility`
-  - `morioka-juutaku-reform`
-  - `morioka-migration-bonus`
-  - `morioka-scholarship-repayment`
-  - `morioka-school-lunch-subsidy`
-  - `morioka-startup-support`
-  - `morioka-vacant-house`
-  - `morioka-water-saving`
-  - `morioka-women-startup`
-
-Known existing official record:
-
-- `ichinoseki-disability-medical` already exists in `src/data/grants/verified-local-misc-2026.ts`.
+  - `seki-dental-checkup-child`
+  - `seki-disaster-stockpile`
+  - `seki-family-care-leave`
+  - `seki-fire-alarm`
+  - `seki-maternity-dental`
+  - `seki-shop-renovation`
+  - `seki-tradition-craft`
+  - `seki-twin-support`
+  - `seki-youth-rent`
 
 ## Recommended execution pattern
 

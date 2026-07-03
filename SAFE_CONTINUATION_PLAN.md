@@ -5309,3 +5309,15 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は岩手県庁1件と盛岡市15件（`iwate-education-scholarship-returnee` / `morioka-afterschool` / `morioka-block-wall-removal` / `morioka-bousai-equipment` / `morioka-child-medical-aid` / `morioka-elderly-taxi` / `morioka-health-checkup-subsidy` / `morioka-infertility` / `morioka-juutaku-reform` / `morioka-migration-bonus` / `morioka-scholarship-repayment` / `morioka-school-lunch-subsidy` / `morioka-startup-support` / `morioka-vacant-house` / `morioka-water-saving` / `morioka-women-startup`）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-04 岩手県Batch 147 追加ログ
+
+岩手県庁1件と盛岡市15件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `iwate-education-scholarship-returnee` / `morioka-afterschool` / `morioka-block-wall-removal` / `morioka-bousai-equipment` / `morioka-child-medical-aid` / `morioka-elderly-taxi` / `morioka-health-checkup-subsidy` / `morioka-infertility` / `morioka-juutaku-reform` / `morioka-migration-bonus` / `morioka-scholarship-repayment` / `morioka-school-lunch-subsidy` / `morioka-startup-support` / `morioka-vacant-house` / `morioka-water-saving` / `morioka-women-startup`。生成データ名をそのまま採用せず、盛岡市公式ページで確認できる現行制度へ補正した。`morioka-bousai-equipment` は自主防災組織への防災資機材支援、`morioka-elderly-taxi` は福祉タクシー及びガソリン等助成券、`morioka-school-lunch-subsidy` は学校給食食材費臨時補助事業、`morioka-women-startup` は起業応援ルーム芽でるネットに補正した。岩手県raw gapは16件から0件、全国raw gapは2,359件から2,343件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check` 問題なし、採用sourceUrls 30件はすべてHTTP 200、`npm run audit:coverage` failures 0、`npm run build` 成功。静的ページ5,469件生成、`/grant/[slug]` は2,752件相当。
+
+次回再開位置:
+
+- 全国raw gapの次候補は岐阜県関市9件から開始（`seki-dental-checkup-child` / `seki-disaster-stockpile` / `seki-family-care-leave` / `seki-fire-alarm` / `seki-maternity-dental` / `seki-shop-renovation` / `seki-tradition-craft` / `seki-twin-support` / `seki-youth-rent`）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。
