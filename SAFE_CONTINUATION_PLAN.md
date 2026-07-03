@@ -5370,3 +5370,15 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は高山市9件（`takayama-dental-checkup-child` / `takayama-disaster-stockpile` / `takayama-family-care-leave` / `takayama-fire-alarm` / `takayama-maternity-dental` / `takayama-shop-renovation` / `takayama-tradition-craft` / `takayama-twin-support` / `takayama-youth-rent`）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-04 岐阜県Batch 152 追加ログ
+
+高山市city-batch76由来9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `takayama-dental-checkup-child` / `takayama-disaster-stockpile` / `takayama-family-care-leave` / `takayama-fire-alarm` / `takayama-maternity-dental` / `takayama-shop-renovation` / `takayama-tradition-craft` / `takayama-twin-support` / `takayama-youth-rent`。生成データ名をそのまま採用せず、高山市公式ページで確認できる制度へ補正した。`takayama-dental-checkup-child` は乳幼児健診・歯科相談、`takayama-family-care-leave` は介護用品購入助成・介護者慰労金、`takayama-fire-alarm` は高齢者・障がい者の日常生活用具給付、`takayama-maternity-dental` は妊婦歯科検診受診票、`takayama-shop-renovation` は中心市街地活性化事業補助金、`takayama-tradition-craft` は伝統的工芸品産業技術修得補助金及び研修事業費補助金、`takayama-twin-support` はファミリーサポート事業、`takayama-youth-rent` は若者地元就職支援補助金へ補正した。`takayama-disaster-stockpile` は現行の個人向け購入補助として公式確認できないため通常一覧から除外した。高山市raw gapは0件、岐阜県raw gapは46件から37件、全国raw gapは2,313件から2,304件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check` 問題なし、採用sourceUrls 11件はすべてHTTP 200、`npm run audit:coverage` failures 0、`npm run build` 成功。静的ページ5,553件生成、`/grant/[slug]` は2,791件相当。
+
+次回再開位置:
+
+- 全国raw gapの次候補は多治見市9件（`tajimi-dental-checkup-child` / `tajimi-disaster-stockpile` / `tajimi-family-care-leave` / `tajimi-fire-alarm` / `tajimi-maternity-dental` / `tajimi-shop-renovation` / `tajimi-tradition-craft` / `tajimi-twin-support` / `tajimi-youth-rent`）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。

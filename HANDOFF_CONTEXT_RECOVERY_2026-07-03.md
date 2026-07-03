@@ -37,7 +37,7 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 - Repository: `/Users/banseiyuuji/joseikin-navi-site`
 - Branch: `main`, ahead of `origin/main` by 200+ commits after the latest completed local commits.
-- Last completed grant-data commit before Batch 151: `d2cf499 岐阜市9件を公式補正`
+- Last completed grant-data commit before Batch 152: `c4aa7c4 岐阜市残り9件を公式補正`
 - Do not push or publish without explicit user confirmation.
 - Preserve unrelated dirty Pinterest/UI work:
   - `package.json`
@@ -49,24 +49,26 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 ## Last verified grant-data state
 
-- Batch 151 completed in progress:
+- Batch 152 completed in progress:
 
-- 岐阜市city-batch76由来9件を公式補正し、岐阜市 raw gap 0件を達成
-- 対象: `gifu-dental-checkup-child` / `gifu-disaster-stockpile` / `gifu-family-care-leave` / `gifu-fire-alarm` / `gifu-maternity-dental` / `gifu-shop-renovation` / `gifu-tradition-craft` / `gifu-twin-support` / `gifu-youth-rent`
-- `gifu-dental-checkup-child` は幼児歯科薬物（フッ化物）塗布へ補正。1歳以上の未就学児、無料、予約制。
-- `gifu-maternity-dental` は妊婦歯科健康診査へ補正。妊婦対象、無料。
-- `gifu-twin-support` は多胎児家庭のファミリー・サポート・センター利用料補助へ補正。30時間分まで。
-- `gifu-family-care-leave` は家族介護用品支給事業へ補正。紙おむつ支給券を年3回配付。
-- `gifu-shop-renovation` は中心市街地活性化空き店舗活用事業補助金へ補正。
-- `gifu-disaster-stockpile` / `gifu-fire-alarm` / `gifu-tradition-craft` は現行個人向け補助として公式確認できないため通常一覧から除外。
-- `gifu-youth-rent` は既存の `gifu-city-newlywed-rent` へ統合し重複停止。
-- 岐阜県 raw gap: `55 -> 46`
-- 全国 raw gap: `2322 -> 2313`
+- 高山市city-batch76由来9件を公式補正し、高山市 raw gap 0件を達成
+- 対象: `takayama-dental-checkup-child` / `takayama-disaster-stockpile` / `takayama-family-care-leave` / `takayama-fire-alarm` / `takayama-maternity-dental` / `takayama-shop-renovation` / `takayama-tradition-craft` / `takayama-twin-support` / `takayama-youth-rent`
+- `takayama-dental-checkup-child` は乳幼児健診・歯科相談へ補正。
+- `takayama-disaster-stockpile` は家庭防災備蓄の購入補助として公式確認できないため通常一覧から除外。
+- `takayama-family-care-leave` は介護用品購入助成・介護者慰労金へ補正。介護用品購入券は年額最大19.5万円、介護者慰労金は月1万円。
+- `takayama-fire-alarm` は住宅用火災警報器の補助制度へ補正。高齢者・障がい者の日常生活用具給付として相談。
+- `takayama-maternity-dental` は妊婦歯科検診受診票へ補正。
+- `takayama-shop-renovation` は中心市街地活性化事業補助金へ補正。
+- `takayama-tradition-craft` は伝統的工芸品産業技術修得補助金及び研修事業費補助金へ補正。研修者月額最大12万円、最長60カ月。
+- `takayama-twin-support` はファミリーサポート事業へ補正。多胎児家庭限定現金給付は公式確認不可。
+- `takayama-youth-rent` は若者地元就職支援補助金へ補正。賃貸契約時初期費用の2分の1以内、最大10万円。
+- 岐阜県 raw gap: `46 -> 37`
+- 全国 raw gap: `2313 -> 2304`
 - `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
 - `git diff --check`: 問題なし
-- 採用sourceUrls 14件はすべてHTTP 200
+- 採用sourceUrls 11件はすべてHTTP 200
 - `npm run audit:coverage`: failures 0
-- `npm run build`: 成功。静的ページ5,531件生成、`/grant/[slug]` は2,782件相当。
+- `npm run build`: 成功。静的ページ5,553件生成、`/grant/[slug]` は2,791件相当。
 
 ## Next safe work item
 
@@ -78,16 +80,16 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 
 Expected first batch:
 
-- 高山市のcity-batch76由来9件:
-  - `takayama-dental-checkup-child`
-  - `takayama-disaster-stockpile`
-  - `takayama-family-care-leave`
-  - `takayama-fire-alarm`
-  - `takayama-maternity-dental`
-  - `takayama-shop-renovation`
-  - `takayama-tradition-craft`
-  - `takayama-twin-support`
-  - `takayama-youth-rent`
+- 多治見市のcity-batch76由来9件:
+  - `tajimi-dental-checkup-child`
+  - `tajimi-disaster-stockpile`
+  - `tajimi-family-care-leave`
+  - `tajimi-fire-alarm`
+  - `tajimi-maternity-dental`
+  - `tajimi-shop-renovation`
+  - `tajimi-tradition-craft`
+  - `tajimi-twin-support`
+  - `tajimi-youth-rent`
 
 ## Recommended execution pattern
 
