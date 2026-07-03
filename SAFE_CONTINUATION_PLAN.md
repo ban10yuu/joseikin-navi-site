@@ -5108,3 +5108,40 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は沖縄市10件（`okinawa-block-wall-removal` / `okinawa-child-medical-aid` / `okinawa-city-startup-support` / `okinawa-elderly-taxi` / `okinawa-health-checkup-subsidy` / `okinawa-juutaku-reform` / `okinawa-scholarship-repayment` / `okinawa-school-lunch-subsidy` / `okinawa-startup-support` / `okinawa-water-saving`）。
 - 併せて `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugなど実害の大きい重複を公式確認済みデータへ置換する余地あり。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 沖縄県Batch 138 追加ログ
+
+沖縄市10件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。沖縄市raw gapは0件、沖縄県raw gapは44件から34件、全国raw gapは2,442件から2,432件に減少した。対象10件はactive 7件、掲載停止/重複停止3件。`okinawa-child-medical-aid` は既存 `okinawa-city-child-medical` と同一制度、`okinawa-juutaku-reform` は既存 `okinawa-city-housing-reform` と同一制度、`okinawa-startup-support` は市単独の創業補助金50万円を公式確認できないため、通常一覧から除外した。
+
+追加・補正:
+
+- `okinawa-block-wall-removal`: 令和8年度ブロック塀等撤去工事補助金へ補正。通学区域内の道路に面する高さ1.2m超のブロック塀等が対象。補助額は基礎撤去有無の延長単価と見積額3分の2の低い額、上限20万円。受付は2026年6月1日から12月28日、先着約3件。
+- `okinawa-child-medical-aid`: こども医療費助成の重複slugとして掲載停止。現行公式制度は既存 `okinawa-city-child-medical` に統合済み。令和7年4月受診分から18歳年度末まで拡大、健康保険適用分の原則窓口無料を確認。
+- `okinawa-city-startup-support`: 特定創業支援等事業・創業支援証明へ補正。創業支援拠点、ワンストップ相談窓口、4回以上・1か月以上にわたる経営・財務・人材育成・販路開拓の支援、証明書交付、小規模事業者持続化補助金創業枠の要件を確認。市単独の創業初期費用50万円補助ではない。
+- `okinawa-elderly-taxi`: 高齢者通院支援サービス事業へ補正。おおむね65歳以上の在宅高齢者で、外出時に車椅子を必要とする市県民税非課税世帯を対象に、リフト付車両で自宅から医療機関へ移送。往復月2回または片道月4回、市内片道300円・市外片道500円を確認。
+- `okinawa-health-checkup-subsidy`: 人間ドック・脳ドック受診券補助へ補正。18歳以上の沖縄市民を対象に、基本健診やがん検診の受診券を利用する制度として確認。人間ドックは約1.9万円から2.2万円相当、脳ドックは約8,000円相当の補助例を確認。
+- `okinawa-juutaku-reform`: 住宅リフォーム助成金の重複slugとして掲載停止。現行公式制度は既存 `okinawa-city-housing-reform` に統合済み。令和8年度は20万円以上の対象工事、補助率20%、上限20万円、申請期間2026年4月1日から12月25日を確認済み。
+- `okinawa-scholarship-repayment`: 令和8年度給付型奨学金へ補正。奨学金返還支援制度は公式確認できず、公式確認できる返還不要の給付型奨学金を採用。入学支度金30万円以内、募集人数36名程度、申請期間2026年6月1日から2027年2月26日を確認。
+- `okinawa-school-lunch-subsidy`: 令和8年度学校給食費助成（第三子以降）へ補正。沖縄市在住で、同一世帯の沖縄市立小中学校に在籍する児童生徒のうち第3子以降が対象。受付は2026年3月2日から2027年2月10日、当初受付は2026年4月30日まで。
+- `okinawa-startup-support`: 創業支援補助金は公式確認不可として掲載停止。創業支援の実態は `okinawa-city-startup-support` の特定創業支援等事業・証明書制度に統合。
+- `okinawa-water-saving`: 雨水貯留浸透施設設置補助金へ補正。雨水貯留施設・雨水浸透施設の新設、浄化槽の雨水貯留施設への転用等が対象。補助額は設置工事費用の5分の4、上限20万円、1住宅1回限度、通年受付ただし予算上限ありを確認。
+
+確認:
+
+- `agent-reach doctor --json`: web は Jina Reader で利用可能、Exa は未設定。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- データ層確認: 対象10件は全件取得、active 7件、掲載停止/重複停止3件（`okinawa-child-medical-aid` / `okinawa-juutaku-reform` / `okinawa-startup-support`）。
+- `node scripts/check-grant-source-urls.mjs --slug ...沖縄市10件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 20件はすべてHTTP 200。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 沖縄県 --limit 20`: 沖縄県の未照合raw slugは44件から34件に減少。次の沖縄県候補は宜野湾市9件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,442件から2,432件に減少。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,278件、activeWithoutOfficialSourceは2,436件、沖縄県ローカル公式確認済みactiveは149件。
+- `npm run lint`: エラー0、既存警告5件のみ。
+- `npm run build`: 成功。静的ページ5,332件生成、`/grant/[slug]` は2,662件相当。未コミットのPinterest系別変更が残っているため、`/pinterest` 系ルートもビルド対象に含まれた。
+- build後の軽量HTMLチェック: 通常公開7件は詳細ページ生成・sitemap掲載・noindexなし・公式確認表示あり。掲載停止/重複停止3件は詳細ページ生成・sitemap除外・`noindex, follow` を確認。
+
+次回再開位置:
+
+- 全国raw gapの次候補は宜野湾市9件（`ginowan-block-wall-removal` / `ginowan-child-medical-aid` / `ginowan-elderly-taxi` / `ginowan-health-checkup-subsidy` / `ginowan-juutaku-reform` / `ginowan-scholarship-repayment` / `ginowan-school-lunch-subsidy` / `ginowan-startup-support` / `ginowan-water-saving`）。
+- 併せて `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugなど実害の大きい重複を公式確認済みデータへ置換する余地あり。
+- push / 公開反映は明示確認後。
