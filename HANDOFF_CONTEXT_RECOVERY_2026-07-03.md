@@ -49,14 +49,15 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 ## Last verified grant-data state
 
-Batch 144 completed:
+Batch 145 completed:
 
-- 一関市残り6件を公式補正し、一関市 raw gap 0件を達成
-- 岩手県 raw gap: `41 -> 35`
-- 全国 raw gap: `2384 -> 2378`
+- 花巻市の子育て・医療・高齢者系7件を公式補正
+- 花巻市残り raw gap: 12件
+- 岩手県 raw gap: `35 -> 28`
+- 全国 raw gap: `2378 -> 2371`
 - `npm run audit:coverage`: failures 0
 - `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
-- `npm run build`: success, 5,413 static pages
+- buildは花巻市残り完了時へ繰り延べ
 
 ## Next safe work item
 
@@ -68,17 +69,10 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 
 Expected first batch:
 
-- 岩手県 花巻市 19件
+- 岩手県 花巻市 残り12件
 - Slugs:
-  - `hanamaki-birth-bonus`
   - `hanamaki-block-wall-removal`
-  - `hanamaki-child-medical-aid`
-  - `hanamaki-childcare-subsidy`
-  - `hanamaki-elderly-support`
-  - `hanamaki-elderly-taxi`
-  - `hanamaki-health-checkup-subsidy`
   - `hanamaki-housing-purchase`
-  - `hanamaki-infertility`
   - `hanamaki-juutaku-reform`
   - `hanamaki-migration-support`
   - `hanamaki-nursing-equipment`

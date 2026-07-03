@@ -5285,3 +5285,15 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は花巻市19件（`hanamaki-birth-bonus` / `hanamaki-block-wall-removal` / `hanamaki-child-medical-aid` / `hanamaki-childcare-subsidy` / `hanamaki-elderly-support` / `hanamaki-elderly-taxi` / `hanamaki-health-checkup-subsidy` / `hanamaki-housing-purchase` / `hanamaki-infertility` / `hanamaki-juutaku-reform` / `hanamaki-migration-support` / `hanamaki-nursing-equipment` / `hanamaki-scholarship` / `hanamaki-scholarship-repayment` / `hanamaki-school-lunch-subsidy` / `hanamaki-seismic-diagnosis` / `hanamaki-sme-support` / `hanamaki-startup-support` / `hanamaki-water-saving`）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 岩手県Batch 145 追加ログ
+
+花巻市の子育て・医療・高齢者系7件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `hanamaki-birth-bonus` / `hanamaki-child-medical-aid` / `hanamaki-childcare-subsidy` / `hanamaki-elderly-support` / `hanamaki-elderly-taxi` / `hanamaki-health-checkup-subsidy` / `hanamaki-infertility`。`hanamaki-childcare-subsidy` は生成データの子育て世帯生活支援給付金を公式確認できないため、公式に確認できる一時預かり事業利用者負担軽減補助金へ補正した。全国raw gapは2,378件から2,371件、岩手県raw gapは35件から28件に減少した。
+
+確認: 対象ESLintエラー0、採用sourceUrls 7件HTTP 200、`npm run audit:coverage` failures 0。buildは花巻市残り完了時へ繰り延べ。
+
+次回再開位置:
+
+- 全国raw gapの次候補は花巻市残り12件（`hanamaki-block-wall-removal` / `hanamaki-housing-purchase` / `hanamaki-juutaku-reform` / `hanamaki-migration-support` / `hanamaki-nursing-equipment` / `hanamaki-scholarship` / `hanamaki-scholarship-repayment` / `hanamaki-school-lunch-subsidy` / `hanamaki-seismic-diagnosis` / `hanamaki-sme-support` / `hanamaki-startup-support` / `hanamaki-water-saving`）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` は全文を読まない。
+- push / 公開反映は明示確認後。

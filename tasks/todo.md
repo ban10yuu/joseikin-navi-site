@@ -802,5 +802,7 @@
 - [x] 岩手県Batch 143の検証（対象ESLintエラー0、採用sourceUrls 6件はすべてHTTP 200、全国未照合raw slugは2,392件から2,384件、岩手県は49件から41件に減少、coverage failures 0。buildは一関市残り6件完了時へ繰り延べ）
 - [x] 岩手県Batch 144として、一関市残り6件を公式確認済み追加・補正し、一関市raw gap 0件を達成（移住支援金及び地方就職支援金、結婚新生活支援補助金の令和7年度申請終了扱い、奨学金返還補助金、地域ビジネス創出加速化支援交付金、テレワーカー移住支援の移住支援金への統合・重複停止、住宅用新エネルギー設備導入促進費補助金）
 - [x] 岩手県Batch 144の検証（対象ESLintエラー0、採用sourceUrls 5件はすべてHTTP 200、全国未照合raw slugは2,384件から2,378件、岩手県は41件から35件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,413件生成、`/grant/[slug]` は2,716件相当）
-- [ ] 次回候補: 全国raw gapは花巻市19件（`hanamaki-birth-bonus` から `hanamaki-water-saving`）から再開可能
+- [x] 岩手県Batch 145として、花巻市の子育て・医療・高齢者系7件を公式確認済み追加・補正（妊婦支援給付金、子ども医療費助成、一時預かり事業利用者負担軽減補助金、在宅高齢者向けサービス、高齢者福祉タクシー等事業、令和8年度人間ドック・脳ドック利用奨励金、不妊治療支援事業助成金）
+- [x] 岩手県Batch 145の検証（対象ESLintエラー0、採用sourceUrls 7件はすべてHTTP 200、全国未照合raw slugは2,378件から2,371件、岩手県は35件から28件に減少、coverage failures 0。buildは花巻市残り12件完了時へ繰り延べ）
+- [ ] 次回候補: 全国raw gapは花巻市残り12件（`hanamaki-block-wall-removal` / `hanamaki-housing-purchase` / `hanamaki-juutaku-reform` / `hanamaki-migration-support` / `hanamaki-nursing-equipment` / `hanamaki-scholarship` / `hanamaki-scholarship-repayment` / `hanamaki-school-lunch-subsidy` / `hanamaki-seismic-diagnosis` / `hanamaki-sme-support` / `hanamaki-startup-support` / `hanamaki-water-saving`）から再開可能
 - [ ] push / 公開反映は明示確認後に実行
