@@ -4565,3 +4565,28 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 - 埼玉県Batch 122として、加須市2件（`kazo-migration-bonus` / `kazo-uij-turn`）を公式一次情報で確認する。加須市2件処理後は前回build後20件に到達するため、`npm run build` を含めた節目検証を行う。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 埼玉県Batch 122 追加ログ
+
+加須市2件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。加須市raw gapは0件、埼玉県raw gapは122件から120件、全国raw gapは2,585件から2,583件に減少した。これで前回build後の処理数が羽生市9件・越谷市9件・加須市2件の合計20件に到達したため、節目検証として `npm run build` を実行した。
+
+追加・補正:
+
+- `kazo-migration-bonus`: 子育て世帯応援転入費用助成金へ補正。東京圏移住支援金・最大100万円ではなく、住宅を購入して中学生以下の子どもと転入する親子世帯向けに、引越し費用10%・上限2万円を助成する制度を確認。加須産米贈呈、三世代ふれあい家族住宅取得等補助金などの関連支援も確認。
+- `kazo-uij-turn`: 創業支援補助金へ補正。創業予定者・創業後5年未満・事業承継による個人開業等、特定創業支援等事業の証明、市内事業所、対象経費の1/2・上限100万円を確認。
+
+確認:
+
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- `node scripts/check-grant-source-urls.mjs --slug kazo-migration-bonus --slug kazo-uij-turn --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 6件はすべてHTTP 200、failures 0。
+- 対象slug確認: 加須市2件は全件取得、active 2件、全体slug重複0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 埼玉県 --limit 20`: 埼玉県の未照合raw slugは122件から120件に減少。次の埼玉県候補は熊谷市7件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,585件から2,583件に減少。未照合件数最多は福岡県127件、栃木県121件、埼玉県120件。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,172件、activeWithoutOfficialSourceは2,587件、埼玉県ローカル公式確認済みは114件。active全体4,759件に対する公式確認済みactive比率は約45.6%。
+- `npm run build`: 成功。静的ページ5,129件生成、`/grant/[slug]` は2,512件相当。未コミットのPinterest系別変更が残っているため、`/pinterest` 系ルートもビルド対象に含まれた。
+
+次回再開位置:
+
+- 埼玉県Batch 123として、熊谷市7件（`kumagaya-birth-bonus` / `kumagaya-childcare-subsidy` / `kumagaya-housing-purchase` / `kumagaya-infertility` / `kumagaya-infertility-treatment` / `kumagaya-scholarship` / `kumagaya-sme-support`）を公式一次情報で確認する。
+- push / 公開反映は明示確認後。

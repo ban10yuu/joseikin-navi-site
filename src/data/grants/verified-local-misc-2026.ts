@@ -53064,4 +53064,62 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt: '2026-07-03',
     publishedAt: '2026-07-03',
   },
+  {
+    slug: 'kazo-migration-bonus',
+    title: '加須市 子育て世帯応援転入費用助成金',
+    organization: '加須市',
+    type: 'local',
+    maxAmount: '引越し費用の10%・最大2万円',
+    maxAmountNum: 2,
+    category: 'living',
+    relatedCategories: ['childcare', 'housing'],
+    prefecture: '埼玉県',
+    tags: ['加須市', '転入費用', '子育て世帯'],
+    eligibility: '市外から加須市へ、自己用住宅を取得して中学生以下の子どもとともに転入する親子世帯で、公式要件を満たす方が対象です。',
+    applicationPeriod: '転入日から1年以内に申請',
+    description: '加須市が、住宅を購入して中学生以下の子どもと転入する親子世帯を対象に、引越し費用の一部を助成する制度です。',
+    sections: [
+      { heading: '助成額', content: '<p>市外から市内に自己用住宅を取得して、中学生以下の子どもとともに転入する親子に、引越し費用の10%が助成されます。上限は2万円です。</p>' },
+      { heading: '主な条件', content: '<p>加須市に住民登録があり、転入日から1年以内の申請であること、引越し業者を依頼した引越しで領収書を提出できること、住宅を取得していること、市税等の滞納がないことなどが条件です。</p>' }
+    ],
+    officialUrl: 'https://www.city.kazo.lg.jp/soshiki/shimin/hikkoshi/5108.html',
+    sourceName: '加須市 子育て世帯応援転入費用助成金',
+    sourceUrls: [
+      'https://www.city.kazo.lg.jp/soshiki/shimin/hikkoshi/5108.html',
+      'https://www.city.kazo.lg.jp/soshiki/kosodate_shien/miryoku/37910.html',
+      'https://www.city.kazo.lg.jp/soshiki/kyoudou_suishin/shinomiryoku/43818.html'
+    ],
+    sourceNote: '2026年7月3日に加須市公式ページで、生成データの東京圏移住支援金・最大100万円ではなく、現行の子育て世帯応援転入費用助成金を確認。住宅を購入して中学生以下の子どもと転入する親子世帯、引越し費用10%・上限2万円、転入日から1年以内申請、加須産米贈呈や三世代ふれあい家族住宅取得等補助金などの関連移住定住支援も確認。',
+    verifiedAt: '2026-07-03',
+    publishedAt: '2026-07-03',
+  },
+  {
+    slug: 'kazo-uij-turn',
+    title: '加須市 創業支援補助金',
+    organization: '加須市',
+    type: 'local',
+    maxAmount: '最大100万円',
+    maxAmountNum: 100,
+    category: 'employment',
+    relatedCategories: ['living'],
+    prefecture: '埼玉県',
+    tags: ['加須市', '創業支援', 'UIJターン'],
+    eligibility: '加須市内で年度中に創業する方、創業後5年未満の個人事業者または法人代表者などで、特定創業支援等事業による支援を受けた証明など公式要件を満たす方が対象です。',
+    applicationPeriod: '令和8年度の申請受付中。審査・現地確認に時間を要するため早めに確認',
+    description: '加須市が、地域経済の活性化や雇用の創出を目的に、創業時・創業初期の経営安定や設備充実を支援する補助金です。',
+    sections: [
+      { heading: '補助対象者', content: '<p>年度中に創業する方、創業した日から5年未満の個人事業者または法人代表者、個人事業者からの事業承継による個人開業などが対象です。特定創業支援等事業による支援を受けた証明が必要です。</p>' },
+      { heading: '補助額', content: '<p>広告宣伝費、ウェブサイト作成費、ソフトウェア使用料、事業所等の改装費、税抜10万円以上の事業用備品購入費などが対象で、補助額は対象経費の2分の1、上限100万円です。</p>' }
+    ],
+    officialUrl: 'https://www.city.kazo.lg.jp/soshiki/sangyoukoyou/hozyokin/35738.html',
+    sourceName: '加須市 創業支援補助金',
+    sourceUrls: [
+      'https://www.city.kazo.lg.jp/soshiki/sangyoukoyou/hozyokin/35738.html',
+      'https://www.city.kazo.lg.jp/soshiki/sangyoukoyou/sougyousien/index.html',
+      'https://www.city.kazo.lg.jp/soshiki/sangyoukoyou/sougyousien/5592.html'
+    ],
+    sourceNote: '2026年7月3日に加須市公式ページで、生成データのUIJターン支援金を、公式に確認できる創業支援補助金へ補正。令和8年度、創業予定者・創業後5年未満・事業承継による個人開業等、特定創業支援等事業の証明、市内事業所、対象経費の1/2・上限100万円を確認。',
+    verifiedAt: '2026-07-03',
+    publishedAt: '2026-07-03',
+  },
 ];
