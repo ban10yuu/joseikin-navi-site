@@ -5220,8 +5220,36 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - build後の軽量HTMLチェック: 通常公開12件は詳細ページ生成・sitemap掲載・noindexなし・公式確認表示あり。掲載停止/重複停止4件は詳細ページ生成・sitemap除外・`noindex, follow`・公式確認表示あり。failures 0。
 - `agent-reach check-update`: v1.5.0、最新。
 
+## 2026-07-03 沖縄県Batch 141 追加ログ
+
+名護市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。名護市raw gapは0件、沖縄県raw gapは9件から0件、全国raw gapは2,407件から2,398件に減少した。対象9件はactive 7件、掲載停止/受付終了2件。`nago-block-wall-removal` は民間向け補助金を公式確認できないため掲載停止、`nago-water-saving` は雨水タンク助成ではなく令和7年度公共下水道接続促進事業として補正し受付終了扱いにした。
+
+追加・補正:
+
+- `nago-block-wall-removal`: ブロック塀等撤去補助金は公式確認不可として掲載停止。名護市公式では学校施設ブロック塀等安全対策整備計画を確認できるが、民間所有者向けの撤去補助金の現行募集・補助額・申請期限は確認できない。
+- `nago-child-medical-aid`: こども医療費助成制度へ補正。名護市に住所があり健康保険加入の高校3年生相当までが対象。入院・通院・調剤の保険診療自己負担分を助成し、県内協力医療機関では現物給付を利用可能。
+- `nago-elderly-taxi`: 福祉タクシー利用助成事業へ補正。生成データの高齢者タクシー助成は公式確認できず、公式の現行タクシー助成は移動困難な在宅の障がい者・障がい児向け。500円券を申請月に応じて最大24枚交付。
+- `nago-health-checkup-subsidy`: 令和8年度特定健診・がん検診へ補正。40歳から74歳の名護市国保加入者、75歳以上等の長寿健診、39歳以下・生活保護世帯等の一般健診、個別健診期限2027年3月31日を確認。人間ドック3万円助成は公式確認できないため固定額を削除。
+- `nago-juutaku-reform`: 高齢者いきいき住宅改造助成事業へ補正。65歳以上の高齢者がいる住民税非課税または生活保護世帯等が対象。1世帯10万円限度、介護保険住宅改修利用時は20万円超部分に適用し計30万円を助成対象限度額、事前相談必須。
+- `nago-scholarship-repayment`: 沖縄県奨学金代理返還支援事業（名護市案内）へ補正。名護市は沖縄県事業として周知。県内中小企業が従業員の奨学金返還支援制度を設け代理返還等を行う場合が対象。通常上限9万円、認証企業等13.5万円、受付は2026年4月から2027年2月26日。
+- `nago-school-lunch-subsidy`: 学校給食費無償化・給食代替対応支援事業へ補正。名護市立小中学校児童生徒および名護市幼稚園園児の学校給食食材費は無償化。食物アレルギーによる弁当対応支援は幼稚園・小学生月額5,200円、中学生月額5,800円、最大11か月分。
+- `nago-startup-support`: 令和8年度店舗等改装支援事業補助金へ補正。市内の中小企業者・小規模企業者および新規創業者が対象。補助対象経費50万円以上、補助率50%、上限は既存事業者50万円・新規創業者75万円。応募期間は前期2026年5月1日から8月31日、後期2026年9月9日から12月11日。
+- `nago-water-saving`: 令和7年度公共下水道接続促進事業補助金へ補正し受付終了扱い。公共下水道整備区域内で浄化槽やくみ取り式トイレを廃止して行う排水設備改造工事が対象。受付は2025年5月7日から12月26日まで、最大10万円、無利子資金貸付上限30万円を確認。雨水タンク助成は公式確認できない。
+
+確認:
+
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: エラー0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 沖縄県 --limit 20`: 沖縄県の未照合raw slugは9件から0件に減少。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 20`: 全国未照合raw slugは2,407件から2,398件に減少。次の全国候補は岩手県一関市20件。
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,304件、activeWithoutOfficialSourceは2,402件、沖縄県ローカル公式確認済みactiveは175件。
+- 採用sourceUrls 14件はすべてHTTP 200。Node fetchで沖縄県公式HTMLが一時失敗したが、`curl -L -I` でHTTP 200を確認。
+- `npm run lint`: エラー0、既存警告5件のみ。
+- `npm run build`: 成功。静的ページ5,380件生成、`/grant/[slug]` は2,697件相当。未コミットのPinterest系別変更が残っているため、`/pinterest` 系ルートもビルド対象に含まれた。
+- build後の軽量HTMLチェック: 通常公開7件は詳細ページ生成・sitemap掲載・noindexなし・公式確認表示あり。掲載停止/受付終了2件は詳細ページ生成・sitemap除外・`noindex, follow`・公式確認表示あり。
+- `npm run audit:deadlines` 全量版はbuild前後とも長時間無出力のため中断。対象2件の期限切れ/掲載停止HTML個別確認で代替。
+
 次回再開位置:
 
-- 全国raw gapの次候補は名護市9件（`nago-block-wall-removal` / `nago-child-medical-aid` / `nago-elderly-taxi` / `nago-health-checkup-subsidy` / `nago-juutaku-reform` / `nago-scholarship-repayment` / `nago-school-lunch-subsidy` / `nago-startup-support` / `nago-water-saving`）。
+- 全国raw gapの次候補は岩手県一関市20件（`ichinoseki-birth-bonus` / `ichinoseki-block-wall-removal` / `ichinoseki-bousai-equipment` / `ichinoseki-child-medical` / `ichinoseki-child-medical-aid` / `ichinoseki-childcare-subsidy` / `ichinoseki-elderly-taxi` / `ichinoseki-energy-support` / `ichinoseki-health-checkup-subsidy` / `ichinoseki-housing-reform` / `ichinoseki-juutaku-reform` / `ichinoseki-migration-support` / `ichinoseki-newlywed-rent` / `ichinoseki-nursing-home-reform` / `ichinoseki-scholarship-repayment` / `ichinoseki-school-lunch` / `ichinoseki-school-lunch-subsidy` / `ichinoseki-startup-support` / `ichinoseki-telework-bonus` / `ichinoseki-water-saving`）。
 - 併せて `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugなど実害の大きい重複を公式確認済みデータへ置換する余地あり。
 - push / 公開反映は明示確認後。
