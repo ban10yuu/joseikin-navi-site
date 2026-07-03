@@ -812,5 +812,7 @@
 - [x] 岐阜県Batch 148の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 13件はすべてHTTP 200、全国未照合raw slugは2,343件から2,334件、岐阜県は76件から67件に減少、coverage failures 0。buildは次の岐阜県Batchで実行予定）
 - [x] 岐阜県Batch 149として、岐阜県庁3件を公式確認済み追加・補正し、岐阜県庁raw gap 0件を達成（福祉医療費助成制度、緑の青年就業準備給付金、住宅耐震化緊急促進事業の木造住宅耐震改修工事費補助への統合・重複停止）
 - [x] 岐阜県Batch 149の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 6件はすべてHTTP 200、全国未照合raw slugは2,334件から2,331件、岐阜県は67件から64件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,503件生成、`/grant/[slug]` は2,764件相当）
-- [ ] 次回候補: 全国raw gapは岐阜市9件（`gifu-city-birth-bonus` / `gifu-city-bousai-equipment` / `gifu-city-childcare-subsidy` / `gifu-city-disability-medical` / `gifu-city-energy-support` / `gifu-city-newlywed-rent` / `gifu-city-nursing-home-reform` / `gifu-city-school-lunch` / `gifu-city-telework-bonus`）から再開可能
+- [x] 岐阜県Batch 150として、岐阜市9件を公式確認済み追加・補正し、city-batch59由来の岐阜市raw gap 0件を達成（妊婦のための支援給付、自主防災組織強化対策補助金、物価高対応子育て応援手当の受付終了扱い、重度心身障害者等医療費助成制度、省エネ家電購入支援事業補助金、結婚新生活支援事業補助金、高齢者住宅改善促進助成制度への統合・重複停止、学校給食費負担軽減・就学援助、中小企業等DX推進補助金）
+- [x] 岐阜県Batch 150の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 11件はすべてHTTP 200、全国未照合raw slugは2,331件から2,322件、岐阜県は64件から55件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,515件生成、`/grant/[slug]` は2,772件相当）
+- [ ] 次回候補: 全国raw gapは岐阜市のcity-batch76由来9件（`gifu-dental-checkup-child` / `gifu-disaster-stockpile` / `gifu-family-care-leave` / `gifu-fire-alarm` / `gifu-maternity-dental` / `gifu-shop-renovation` / `gifu-tradition-craft` / `gifu-twin-support` / `gifu-youth-rent`）から再開可能
 - [ ] push / 公開反映は明示確認後に実行

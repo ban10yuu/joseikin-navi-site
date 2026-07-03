@@ -37,7 +37,7 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 - Repository: `/Users/banseiyuuji/joseikin-navi-site`
 - Branch: `main`, ahead of `origin/main` by 200+ commits after the latest completed local commits.
-- Last completed grant-data commit before this recovery update: `1af7ef5 関市9件を公式補正`
+- Last completed grant-data commit before Batch 150: `3ec699c 岐阜県庁3件を公式補正`
 - Do not push or publish without explicit user confirmation.
 - Preserve unrelated dirty Pinterest/UI work:
   - `package.json`
@@ -49,20 +49,22 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 ## Last verified grant-data state
 
-Batch 149 completed in progress:
+Batch 150 completed in progress:
 
-- 岐阜県庁3件を公式補正し、岐阜県庁 raw gap 0件を達成
-- 対象: `gifu-child-support` / `gifu-forestry-support` / `gifu-housing-seismic`
-- `gifu-child-support` は岐阜県福祉医療費助成制度として補正。県が市町村の医療費助成へ補助する制度で、県制度上の乳幼児は小学校就学前、所得制限なし。
-- `gifu-forestry-support` は岐阜県緑の青年就業準備給付金として補正。年上限125万円、最大2年間、総額最大250万円。
-- `gifu-housing-seismic` は既存の `gifu-wooden-house-earthquake-retrofit-2026` と同一制度のため重複停止。
-- 岐阜県 raw gap: `67 -> 64`
-- 全国 raw gap: `2334 -> 2331`
+- 岐阜市9件を公式補正し、city-batch59由来の岐阜市 raw gap 0件を達成
+- 対象: `gifu-city-birth-bonus` / `gifu-city-bousai-equipment` / `gifu-city-childcare-subsidy` / `gifu-city-disability-medical` / `gifu-city-energy-support` / `gifu-city-newlywed-rent` / `gifu-city-nursing-home-reform` / `gifu-city-school-lunch` / `gifu-city-telework-bonus`
+- `gifu-city-birth-bonus` は妊婦のための支援給付へ補正。妊娠時5万円、胎児1人につき5万円。
+- `gifu-city-bousai-equipment` は自主防災組織強化対策補助金へ補正。個人世帯向け家庭用防災設備補助ではない。
+- `gifu-city-childcare-subsidy` は令和7年度物価高対応子育て応援手当の受付終了扱い。
+- `gifu-city-nursing-home-reform` は既存の `gifu-senior-home-improvement-support` と同一制度のため重複停止。
+- `gifu-city-telework-bonus` は現行確認できる中小企業等DX推進補助金へ補正。
+- 岐阜県 raw gap: `64 -> 55`
+- 全国 raw gap: `2331 -> 2322`
 - `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
 - `git diff --check`: 問題なし
-- 採用sourceUrls 6件はすべてHTTP 200
+- 採用sourceUrls 11件はすべてHTTP 200
 - `npm run audit:coverage`: failures 0
-- `npm run build`: 成功。静的ページ5,503件生成、`/grant/[slug]` は2,764件相当。
+- `npm run build`: 成功。静的ページ5,515件生成、`/grant/[slug]` は2,772件相当。
 
 ## Next safe work item
 
@@ -74,17 +76,16 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 
 Expected first batch:
 
-- 岐阜市9件:
-
-- `gifu-city-birth-bonus`
-- `gifu-city-bousai-equipment`
-- `gifu-city-childcare-subsidy`
-- `gifu-city-disability-medical`
-- `gifu-city-energy-support`
-- `gifu-city-newlywed-rent`
-- `gifu-city-nursing-home-reform`
-- `gifu-city-school-lunch`
-- `gifu-city-telework-bonus`
+- 岐阜市のcity-batch76由来9件:
+  - `gifu-dental-checkup-child`
+  - `gifu-disaster-stockpile`
+  - `gifu-family-care-leave`
+  - `gifu-fire-alarm`
+  - `gifu-maternity-dental`
+  - `gifu-shop-renovation`
+  - `gifu-tradition-craft`
+  - `gifu-twin-support`
+  - `gifu-youth-rent`
 
 ## Recommended execution pattern
 
