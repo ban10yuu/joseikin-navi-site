@@ -4360,3 +4360,36 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 岡山県Batch 116として、玉野市9件（`tamano-block-wall-removal` / `tamano-child-medical-aid` / `tamano-elderly-taxi` / `tamano-health-checkup-subsidy` / `tamano-juutaku-reform` / `tamano-scholarship-repayment` / `tamano-school-lunch-subsidy` / `tamano-startup-support` / `tamano-water-saving`）を公式一次情報で確認する。
 - 玉野市9件の後は、倉敷市20件前後を市単位でまとめて処理する。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 岡山県Batch 116 追加ログ
+
+玉野市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。これで玉野市のraw gapは0件。生成データの「ブロック塀等撤去補助金」「雨水タンク設置補助金」は公式確認不可として通常一覧から除外し、「こども医療費」「高齢者タクシー」「人間ドック」「住宅リフォーム」「奨学金返還支援」「学校給食費」「創業支援」は公式制度名・金額・対象者へ補正した。
+
+追加・補正:
+
+- `tamano-block-wall-removal`: 個人向けブロック塀等撤去補助金は公式確認不可として掲載停止扱い。土地・建物支援一覧、耐震改修促進計画、地域防災計画で安全点検・倒壊防止啓発のみ確認。
+- `tamano-child-medical-aid`: こども医療費助成制度へ補正。18歳年度末まで、健康保険加入、保険診療自己負担助成、令和5年10月1日診療分から対象年齢拡大を確認。
+- `tamano-elderly-taxi`: 高齢者タクシーチケット助成事業へ補正。1枚500円、年間48枚上限、市民税非課税世帯、在宅、75歳以上、要介護1〜5、運転免許なしを確認。
+- `tamano-health-checkup-subsidy`: 特定健康診査・健診結果提供協力へ補正。特定健診1,000円、市民税非課税世帯500円、節目年齢無料、人間ドック等の健診結果提供で商品券1,000円分を確認。
+- `tamano-juutaku-reform`: 空き家改修事業補助制度へ補正。基本上限50万円、拡充上限100万円、市内施工業者、申請期限2026年12月18日を確認。
+- `tamano-scholarship-repayment`: 奨学金貸付制度（一部返還免除あり）へ補正。令和8年度以降採用者の返還額半額免除制度、令和8年度募集受付終了を確認。
+- `tamano-school-lunch-subsidy`: 小中学校給食費無償化事業へ補正。令和8年度教育行政重点施策で小学校・中学校給食費の全額補助を確認。
+- `tamano-startup-support`: 創業アシスト奨励金へ補正。対象業種・主な対象要件、基本額15万円、令和8年4月1日から随時受付・令和9年2月末日締切を確認。
+- `tamano-water-saving`: 雨水タンク設置補助金は公式確認不可として掲載停止扱い。下水道・浄化槽支援一覧、合併処理浄化槽設置費補助、地域防災計画を確認したが該当制度は確認不可。
+
+確認:
+
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- 重複slug確認: duplicateCount 0、岡山県のverified local misc slugは56件。
+- `node scripts/check-grant-source-urls.mjs --slug ...玉野市9件 --concurrency 2 --timeout-ms 120000`: 初回で玉野市公式URL 6件が一時fetch failed。直列再監査で該当URLはすべてHTTP 200。採用sourceUrls 22件はすべてHTTP 200。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 岡山県 --limit 30`: 岡山県の未照合raw slugは45件から36件に減少。玉野市raw gapは完了。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,648件から2,639件に減少。次の先頭は倉敷市。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,126件、activeWithoutOfficialSourceは2,643件、岡山県ローカル公式確認済みは49件。active全体4,769件に対する公式確認済みactive比率は約44.6%。
+- `npm run build`: 速度改善方針により今回は省略。岡山県raw gap完了時、20〜50件節目、または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 岡山県Batch 117として、倉敷市18件（`kurashiki-birth-bonus` / `kurashiki-block-wall-removal` / `kurashiki-child-medical-aid` / `kurashiki-childcare-subsidy` / `kurashiki-disability-medical` / `kurashiki-elderly-taxi` / `kurashiki-energy-support` / `kurashiki-health-checkup-subsidy` / `kurashiki-housing-seismic` / `kurashiki-juutaku-reform` / `kurashiki-newlywed-rent` / `kurashiki-nursing-equipment` / `kurashiki-scholarship-repayment` / `kurashiki-school-lunch` / `kurashiki-school-lunch-subsidy` / `kurashiki-seismic-diagnosis` / `kurashiki-telework-bonus` / `kurashiki-water-saving`）を公式一次情報で確認する。
+- 倉敷市18件の後は、総社市9件、津山市9件の順に進める。
+- push / 公開反映は明示確認後。
