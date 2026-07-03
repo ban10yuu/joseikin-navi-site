@@ -4501,3 +4501,35 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 次は未照合件数が最多の埼玉県（140件）を優先する。まず `node scripts/audit-raw-verified-gaps.mjs --prefecture 埼玉県 --limit 40` で市区町村単位の先頭候補を確認し、20件前後ずつ公式一次情報で補正する。
 - raw順を優先する場合は沖縄県うるま市が次のサンプル先頭だが、速度改善と残件削減の観点では埼玉県から着手する。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 埼玉県Batch 120 追加ログ
+
+埼玉県の未照合raw slug 140件のうち、羽生市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。羽生市raw gapは0件、埼玉県raw gapは140件から131件、全国raw gapは2,603件から2,594件に減少した。生成データの「移住支援金」は羽生市の現行公式給付として確認できないため通常一覧から除外し、それ以外は公式に確認できる制度名・対象・金額へ補正した。
+
+追加・補正:
+
+- `hanyu-birth-bonus`: 妊婦のための支援給付事業へ補正。妊婦1人5万円、胎児1人5万円、母子健康手帳交付時・乳児家庭全戸訪問時等の案内を確認。
+- `hanyu-childcare-subsidy`: 幼児教育・保育の無償化と保育料軽減へ補正。新制度未移行幼稚園の月額25,700円上限、預かり保育1日450円上限、保育料の第2子半額・第3子以降無料等を確認。
+- `hanyu-housing-purchase`: 住宅改修（リフォーム）補助金へ補正。住宅取得支援補助金は確認できず、工事費20万円以上、市内施工業者、補助率5%・上限10万円の公式制度を確認。
+- `hanyu-infertility`: 不妊治療費（保険適用分）助成事業へ補正。一般不妊治療は自己負担額から付加給付金等を除いた額の1/2、上限10万円、申請期限を確認。
+- `hanyu-migration-bonus`: 東京圏移住者向け単身60万円・世帯100万円の羽生市移住支援金は公式確認不可として掲載停止扱い。住まい支援や移住創業支援とは別制度として整理。
+- `hanyu-nursing-equipment`: 家族介護用品支給事業へ補正。要介護4または5、同居家族介護、65歳以上、市民税非課税世帯、紙おむつ等の現物支給を確認。
+- `hanyu-scholarship`: 育英資金・奨学資金給与制度へ補正。高校生月額1万円、大学生等月額2万円、令和7年度受付終了を確認。
+- `hanyu-seismic-diagnosis`: 木造住宅耐震診断補助金へ補正。昭和56年5月31日以前着工、2階建以下の木造一戸建住宅、補助率1/2以内、上限5万円を確認。
+- `hanyu-uij-turn`: 創業支援事業補助金（移住創業含む）へ補正。令和8年度、令和9年1月29日まで、市内創業1/2以内、女性・移住創業2/3以内、上限100万円を確認。
+
+確認:
+
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- 対象slug確認: 羽生市9件は全件取得、active 8件、掲載停止1件、全体slug重複0。
+- `node scripts/check-grant-source-urls.mjs --slug ...羽生市9件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 26件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 埼玉県 --limit 20`: 埼玉県の未照合raw slugは140件から131件に減少。次の埼玉県候補は越谷市9件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,603件から2,594件に減少。未照合件数最多は引き続き埼玉県131件。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,162件、activeWithoutOfficialSourceは2,598件、埼玉県ローカル公式確認済みは104件。active全体4,760件に対する公式確認済みactive比率は約45.4%。
+- `npm run build`: 速度改善方針により今回は省略。埼玉県で20〜50件程度処理した節目、県完了時、または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 埼玉県Batch 121として、越谷市9件（`koshigaya-block-wall-removal` / `koshigaya-child-medical-aid` / `koshigaya-elderly-taxi` / `koshigaya-health-checkup-subsidy` / `koshigaya-juutaku-reform` / `koshigaya-scholarship-repayment` / `koshigaya-school-lunch-subsidy` / `koshigaya-startup-support` / `koshigaya-water-saving`）を公式一次情報で確認する。
+- push / 公開反映は明示確認後。
