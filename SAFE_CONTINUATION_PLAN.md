@@ -4533,3 +4533,35 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 - 埼玉県Batch 121として、越谷市9件（`koshigaya-block-wall-removal` / `koshigaya-child-medical-aid` / `koshigaya-elderly-taxi` / `koshigaya-health-checkup-subsidy` / `koshigaya-juutaku-reform` / `koshigaya-scholarship-repayment` / `koshigaya-school-lunch-subsidy` / `koshigaya-startup-support` / `koshigaya-water-saving`）を公式一次情報で確認する。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 埼玉県Batch 121 追加ログ
+
+越谷市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。越谷市raw gapは0件、埼玉県raw gapは131件から122件、全国raw gapは2,594件から2,585件に減少した。生成データの「奨学金返還支援制度」は現行受付中の一般制度ではなく、令和8年度交付要望受付終了済みの看護師等就業支援助成金として確認したため、通常一覧から除外した。
+
+追加・補正:
+
+- `koshigaya-block-wall-removal`: 住宅・店舗改修促進補助金（ブロック塀撤去含む）へ補正。独立したブロック塀等撤去補助ではなく、外構の門扉・ブロック塀・フェンス改修・設置、ブロック塀撤去のみも対象、補助率20%・上限10万円を確認。
+- `koshigaya-child-medical-aid`: こども医療費支給制度へ補正。18歳年度末まで、令和6年4月診療分から拡大、食事療養費を除く健康保険の医療費給付対象分を確認。
+- `koshigaya-elderly-taxi`: 越谷げんき de MaaS バス・タクシー運賃補助へ補正。75歳以上、バス100円/回・回数上限なし、タクシー500円/回・年度12回までを確認。
+- `koshigaya-health-checkup-subsidy`: 人間ドック検診料助成へ補正。国保35歳以上・後期高齢者医療加入者、上限10,000円、一年度一回、特定健診等との重複不可を確認。
+- `koshigaya-juutaku-reform`: 住宅・店舗改修促進補助金へ補正。市内施工業者、20万円以上、交付決定後着工、補助率20%・上限10万円、第1期受付終了・第2期11月予定を確認。
+- `koshigaya-scholarship-repayment`: 看護師等就業支援助成金へ補正し、令和8年度交付要望受付終了扱い。奨学金返還支援金は年上限20万円・最長5年間を確認。
+- `koshigaya-school-lunch-subsidy`: 小学校給食費無償化・中学校給食費一部公費負担へ補正。令和8年度小学校給食費は手続き不要で保護者負担なし、中学校は市独自一部公費負担を継続。
+- `koshigaya-startup-support`: 創業者支援補助金へ補正。令和8年6月29日から7月10日まで、補助率1/2以内、上限100万円を確認。
+- `koshigaya-water-saving`: 合併処理浄化槽の転換設置補助金へ補正。雨水タンク単独補助は確認できず、住宅・店舗改修促進補助金の対象工事には雨水貯留施設設置が含まれること、生活排水対策として合併処理浄化槽補助の上限92.5万円を確認。
+
+確認:
+
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- 対象slug確認: 越谷市9件は全件取得、active 8件、掲載停止1件、全体slug重複0。
+- `node scripts/check-grant-source-urls.mjs --slug ...越谷市9件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 26件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 埼玉県 --limit 20`: 埼玉県の未照合raw slugは131件から122件に減少。次の埼玉県候補は加須市2件、熊谷市7件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,594件から2,585件に減少。未照合件数最多は福岡県127件、埼玉県122件。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,170件、activeWithoutOfficialSourceは2,589件、埼玉県ローカル公式確認済みは112件。active全体4,759件に対する公式確認済みactive比率は約45.6%。
+- `npm run build`: 速度改善方針により今回は省略。羽生市9件+越谷市9件で前回build後18件処理済み。次の加須市2件で20件節目に到達するため、その後にまとめて実行する。
+
+次回再開位置:
+
+- 埼玉県Batch 122として、加須市2件（`kazo-migration-bonus` / `kazo-uij-turn`）を公式一次情報で確認する。加須市2件処理後は前回build後20件に到達するため、`npm run build` を含めた節目検証を行う。
+- push / 公開反映は明示確認後。
