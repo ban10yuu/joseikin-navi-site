@@ -37,7 +37,7 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 - Repository: `/Users/banseiyuuji/joseikin-navi-site`
 - Branch: `main`, ahead of `origin/main` by 200+ commits after the latest completed local commits.
-- Last completed grant-data commit before Batch 153: `2871414 高山市9件を公式補正`
+- Last completed grant-data commit before Batch 154: `2669a00 多治見市9件を公式補正`
 - Do not push or publish without explicit user confirmation.
 - Preserve unrelated dirty Pinterest/UI work:
   - `package.json`
@@ -49,26 +49,32 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 ## Last verified grant-data state
 
-- Batch 153 completed in progress:
+- Batch 154 completed in progress:
 
-- 多治見市city-batch76由来9件を公式補正し、多治見市 raw gap 0件を達成
-- 対象: `tajimi-dental-checkup-child` / `tajimi-disaster-stockpile` / `tajimi-family-care-leave` / `tajimi-fire-alarm` / `tajimi-maternity-dental` / `tajimi-shop-renovation` / `tajimi-tradition-craft` / `tajimi-twin-support` / `tajimi-youth-rent`
-- `tajimi-dental-checkup-child` は虫歯予防教室・乳幼児健診の歯科健診へ補正。
-- `tajimi-disaster-stockpile` は家庭防災備蓄品購入の個人補助として公式確認できないため、自主防災組織支援へ補正し通常一覧から除外。
-- `tajimi-family-care-leave` は寝たきり高齢者等介護用品購入助成事業へ補正。月5,000円の購入券。
-- `tajimi-fire-alarm` は住宅用火災警報器設置補助として公式確認できないため、設置義務案内として通常一覧から除外。
-- `tajimi-maternity-dental` は妊産婦歯科健診助成として公式確認できないため、妊産婦健康診査へ補正。
-- `tajimi-shop-renovation` は店舗と住宅との分離に関する改装費補助へ補正。上限100万円または3分の2。
-- `tajimi-tradition-craft` はセラミックバレー振興補助金へ補正し、令和8年度募集終了扱い。
-- `tajimi-twin-support` は多胎妊婦の妊婦健診2回追加助成へ補正。
-- `tajimi-youth-rent` はちょうどいいまちたじみ定住応援補助金へ補正。最大20万円。
-- 岐阜県 raw gap: `37 -> 28`
-- 全国 raw gap: `2304 -> 2295`
+- 大垣市19件を公式補正し、大垣市 raw gap 0件を達成
+- 対象: `ogaki-birth-bonus` / `ogaki-childcare-subsidy` / `ogaki-dental-checkup-child` / `ogaki-disaster-stockpile` / `ogaki-elderly-support` / `ogaki-family-care-leave` / `ogaki-fire-alarm` / `ogaki-housing-purchase` / `ogaki-housing-seismic` / `ogaki-infertility` / `ogaki-maternity-dental` / `ogaki-nursing-equipment` / `ogaki-scholarship` / `ogaki-seismic-diagnosis` / `ogaki-shop-renovation` / `ogaki-sme-support` / `ogaki-tradition-craft` / `ogaki-twin-support` / `ogaki-youth-rent`
+- `ogaki-birth-bonus` は妊婦のための支援給付へ補正。
+- `ogaki-childcare-subsidy` は子ども医療費助成制度へ補正。
+- `ogaki-dental-checkup-child` は令和8年度フッ化物塗布へ補正。
+- `ogaki-disaster-stockpile` は個人世帯向け補助として公式確認できないため、自主防災組織支援へ補正し通常一覧から除外。
+- `ogaki-elderly-support` はひとり暮らし高齢者等見守りほっとライン事業へ補正。
+- `ogaki-family-care-leave` / `ogaki-nursing-equipment` は家族介護慰労事業（紙おむつ等の給付）へ補正。
+- `ogaki-fire-alarm` は福祉用具給付事業へ補正。
+- `ogaki-housing-purchase` / `ogaki-youth-rent` は子育て世代等住宅取得支援事業利子補給金へ補正。
+- `ogaki-housing-seismic` / `ogaki-seismic-diagnosis` は令和8年度耐震補助制度へ補正。
+- `ogaki-infertility` は岐阜県特定不妊治療助成事業の案内へ補正。
+- `ogaki-maternity-dental` は令和8年度マタニティ歯科健康診査へ補正。
+- `ogaki-shop-renovation` はリフレッシュサポート事業補助金へ補正。
+- `ogaki-sme-support` は中小企業者等物価高騰対策支援事業補助金へ補正。
+- `ogaki-tradition-craft` は現行個人助成として公式確認できないため通常一覧から除外。
+- `ogaki-twin-support` は多胎妊婦の妊婦健康診査追加助成へ補正。
+- 岐阜県 raw gap: `28 -> 9`
+- 全国 raw gap: `2295 -> 2276`
 - `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
 - `git diff --check`: 問題なし
-- 採用sourceUrls 14件はすべてHTTP 200
+- 採用sourceUrls 40件はすべてHTTP 200
 - `npm run audit:coverage`: failures 0
-- `npm run build`: 成功。静的ページ5,571件生成、`/grant/[slug]` は2,800件相当。
+- `npm run build`: 成功。静的ページ5,599件生成、`/grant/[slug]` は2,818件相当。
 
 ## Next safe work item
 
@@ -80,26 +86,16 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 
 Expected first batch:
 
-- 大垣市19件:
-  - `ogaki-birth-bonus`
-  - `ogaki-childcare-subsidy`
-  - `ogaki-dental-checkup-child`
-  - `ogaki-disaster-stockpile`
-  - `ogaki-elderly-support`
-  - `ogaki-family-care-leave`
-  - `ogaki-fire-alarm`
-  - `ogaki-housing-purchase`
-  - `ogaki-housing-seismic`
-  - `ogaki-infertility`
-  - `ogaki-maternity-dental`
-  - `ogaki-nursing-equipment`
-  - `ogaki-scholarship`
-  - `ogaki-seismic-diagnosis`
-  - `ogaki-shop-renovation`
-  - `ogaki-sme-support`
-  - `ogaki-tradition-craft`
-  - `ogaki-twin-support`
-  - `ogaki-youth-rent`
+- 中津川市9件:
+  - `nakatsugawa-dental-checkup-child`
+  - `nakatsugawa-disaster-stockpile`
+  - `nakatsugawa-family-care-leave`
+  - `nakatsugawa-fire-alarm`
+  - `nakatsugawa-maternity-dental`
+  - `nakatsugawa-shop-renovation`
+  - `nakatsugawa-tradition-craft`
+  - `nakatsugawa-twin-support`
+  - `nakatsugawa-youth-rent`
 
 ## Recommended execution pattern
 

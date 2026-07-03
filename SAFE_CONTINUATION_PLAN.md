@@ -5394,3 +5394,15 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は大垣市19件（`ogaki-birth-bonus` / `ogaki-childcare-subsidy` / `ogaki-dental-checkup-child` / `ogaki-disaster-stockpile` / `ogaki-elderly-support` / `ogaki-family-care-leave` / `ogaki-fire-alarm` / `ogaki-housing-purchase` / `ogaki-housing-seismic` / `ogaki-infertility` / `ogaki-maternity-dental` / `ogaki-nursing-equipment` / `ogaki-scholarship` / `ogaki-seismic-diagnosis` / `ogaki-shop-renovation` / `ogaki-sme-support` / `ogaki-tradition-craft` / `ogaki-twin-support` / `ogaki-youth-rent`）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-04 岐阜県Batch 154 追加ログ
+
+大垣市19件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `ogaki-birth-bonus` / `ogaki-childcare-subsidy` / `ogaki-dental-checkup-child` / `ogaki-disaster-stockpile` / `ogaki-elderly-support` / `ogaki-family-care-leave` / `ogaki-fire-alarm` / `ogaki-housing-purchase` / `ogaki-housing-seismic` / `ogaki-infertility` / `ogaki-maternity-dental` / `ogaki-nursing-equipment` / `ogaki-scholarship` / `ogaki-seismic-diagnosis` / `ogaki-shop-renovation` / `ogaki-sme-support` / `ogaki-tradition-craft` / `ogaki-twin-support` / `ogaki-youth-rent`。生成データ名をそのまま採用せず、大垣市公式ページで確認できる制度へ補正した。`ogaki-birth-bonus` は妊婦のための支援給付、`ogaki-childcare-subsidy` は子ども医療費助成制度、`ogaki-dental-checkup-child` は令和8年度フッ化物塗布、`ogaki-elderly-support` はひとり暮らし高齢者等見守りほっとライン事業、`ogaki-fire-alarm` は福祉用具給付事業、`ogaki-housing-purchase` / `ogaki-youth-rent` は子育て世代等住宅取得支援事業利子補給金、`ogaki-housing-seismic` / `ogaki-seismic-diagnosis` は令和8年度耐震補助制度、`ogaki-infertility` は岐阜県特定不妊治療助成事業の案内、`ogaki-maternity-dental` は令和8年度マタニティ歯科健康診査、`ogaki-shop-renovation` はリフレッシュサポート事業補助金、`ogaki-sme-support` は中小企業者等物価高騰対策支援事業補助金、`ogaki-twin-support` は多胎妊婦の妊婦健康診査追加助成へ補正した。`ogaki-disaster-stockpile` は個人世帯向け補助として、`ogaki-tradition-craft` は現行個人助成として公式確認できないため通常一覧から除外した。大垣市raw gapは0件、岐阜県raw gapは28件から9件、全国raw gapは2,295件から2,276件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check` 問題なし、採用sourceUrls 40件はすべてHTTP 200、`npm run audit:coverage` failures 0、`npm run build` 成功。静的ページ5,599件生成、`/grant/[slug]` は2,818件相当。
+
+次回再開位置:
+
+- 全国raw gapの次候補は中津川市9件（`nakatsugawa-dental-checkup-child` / `nakatsugawa-disaster-stockpile` / `nakatsugawa-family-care-leave` / `nakatsugawa-fire-alarm` / `nakatsugawa-maternity-dental` / `nakatsugawa-shop-renovation` / `nakatsugawa-tradition-craft` / `nakatsugawa-twin-support` / `nakatsugawa-youth-rent`）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。
