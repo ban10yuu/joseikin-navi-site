@@ -4435,3 +4435,36 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 岡山県Batch 118として、総社市9件（`soja-block-wall-removal` / `soja-child-medical-aid` / `soja-elderly-taxi` / `soja-health-checkup-subsidy` / `soja-juutaku-reform` / `soja-scholarship-repayment` / `soja-school-lunch-subsidy` / `soja-startup-support` / `soja-water-saving`）を公式一次情報で確認する。
 - 総社市9件の後は、津山市9件を処理すると岡山県raw gap 0件に到達する見込み。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 岡山県Batch 118 追加ログ
+
+総社市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。これで総社市のraw gapは0件。生成データの「ブロック塀等撤去補助金」は公式確認不可として通常一覧から除外し、「こども医療費」「高齢者タクシー」「人間ドック」「住宅リフォーム」「奨学金返還支援」「学校給食費」「創業支援」「雨水タンク設置補助金」は、総社市の公式制度名・金額・対象者へ補正した。
+
+追加・補正:
+
+- `soja-block-wall-removal`: 個人向けブロック塀等撤去補助金は公式確認不可として掲載停止扱い。建築物耐震改修促進計画ではブロック塀等の危険性周知・改善指導を確認したが、個人向け撤去補助は確認不可。
+- `soja-child-medical-aid`: 小児医療費助成へ補正。総社市内に住む中学生まで、入院・外来の自己負担額助成、令和5年4月診療分から中学生外来分無料を確認。
+- `soja-elderly-taxi`: いきいきチケットへ補正。雪舟くん利用が困難な対象者に、介護タクシー・福祉有償運送・福祉タクシーで使える100円券最大100枚を確認。
+- `soja-health-checkup-subsidy`: 人間ドック費用給付へ補正。国保40歳以上・後期高齢者医療加入者、上限15,000円、令和8年度受診分の申請期限2027年4月16日を確認。
+- `soja-juutaku-reform`: 空き家リフォーム助成金へ補正。経費2分の1、通常上限30万円、平成30年7月豪雨被災世帯上限50万円を確認。
+- `soja-scholarship-repayment`: 人材育成山本あすなろ基金奨学金へ補正。返済不要、年額90万円、4年間、令和9年4月大学進学予定者、申込期間2026年8月3日から11月30日を確認。
+- `soja-school-lunch-subsidy`: 中学生学校給食費無償化へ補正。令和6年4月1日から中学生・義務教育学校7〜9年生の給食費0円を確認。
+- `soja-startup-support`: 創業助成金へ補正。令和8年4月1日以降の市内創業、特定創業支援等事業の証明、助成額30万円、創業の日から1年以内申請を確認。空き店舗改修を伴う場合の商人応援補助金併用案内も確認。
+- `soja-water-saving`: 浄化槽設置整備事業補助金へ補正。令和8年度受付、10人槽以下合併処理浄化槽、5人槽33.2万円・6〜7人槽41.4万円・8〜10人槽54.8万円、撤去・宅内配管加算を確認。
+
+確認:
+
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- 重複slug確認: 対象9件は全件取得、active 8件、掲載停止1件、全体slug重複0。
+- `node scripts/check-grant-source-urls.mjs --slug ...総社市9件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 22件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 岡山県 --limit 24`: 岡山県の未照合raw slugは18件から9件に減少。総社市raw gapは完了。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,621件から2,612件に減少。次の先頭は津山市。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,146件、activeWithoutOfficialSourceは2,616件、岡山県ローカル公式確認済みは69件。active全体4,762件に対する公式確認済みactive比率は約45.1%。
+- `npm run build`: 速度改善方針により今回は省略。次の津山市9件で岡山県raw gap 0件に到達するため、その節目でまとめて実行する。
+
+次回再開位置:
+
+- 岡山県Batch 119として、津山市9件（`tsuyama-block-wall-removal` / `tsuyama-child-medical-aid` / `tsuyama-elderly-taxi` / `tsuyama-health-checkup-subsidy` / `tsuyama-juutaku-reform` / `tsuyama-scholarship-repayment` / `tsuyama-school-lunch-subsidy` / `tsuyama-startup-support` / `tsuyama-water-saving`）を公式一次情報で確認する。
+- 津山市9件を処理すると岡山県raw gap 0件に到達する見込み。到達後は `npm run build` を実行し、次の都道府県優先順位を再算定する。
+- push / 公開反映は明示確認後。
