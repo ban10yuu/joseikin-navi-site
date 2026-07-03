@@ -4942,3 +4942,38 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 埼玉県Batch 133として、東松山市9件（`higashimatsuyama-birth-bonus` / `higashimatsuyama-childcare-subsidy` / `higashimatsuyama-housing-purchase` / `higashimatsuyama-infertility` / `higashimatsuyama-migration-bonus` / `higashimatsuyama-nursing-equipment` / `higashimatsuyama-scholarship` / `higashimatsuyama-seismic-diagnosis` / `higashimatsuyama-uij-turn`）を公式一次情報で確認する。
 - その後は入間市6件へ進む。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 埼玉県Batch 133 追加ログ
+
+東松山市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。東松山市raw gapは0件、埼玉県raw gapは15件から6件、全国raw gapは2,478件から2,469件に減少した。対象9件はactive 7件、掲載停止2件。`higashimatsuyama-migration-bonus` と `higashimatsuyama-uij-turn` は、東松山市公式サイトおよび埼玉県移住支援金ページで東松山市を対象とする現行制度を確認できないため、通常一覧から除外した。
+
+追加・補正:
+
+- `higashimatsuyama-birth-bonus`: 妊婦のための支援給付金へ補正。令和7年4月1日以降の妊娠届出・胎児心拍確認等を対象に、1回目は妊娠1回5万円、2回目は胎児1人につき5万円を確認。
+- `higashimatsuyama-childcare-subsidy`: 第2子以降保育料無料化制度へ補正。認可保育施設の第2子以降利用者負担金無料化と、認可外保育施設の第2子以降月額42,000円上限無料化を確認。
+- `higashimatsuyama-housing-purchase`: 空き家利活用補助金交付制度へ補正。空き家購入は費用1/2・基準25万円に最大4項目各5万円加算、空き家利用者リフォームは基準20万円に最大5項目各5万円加算を確認。
+- `higashimatsuyama-infertility`: 早期不妊検査費・不育症検査費助成事業へ補正。現行URLは `/soshiki/34/53220.html`、旧URL `/soshiki/34/2574.html` は404。不妊検査・不育症検査それぞれ20,000円、女性35歳未満は30,000円上限。不妊治療に係る助成事業は終了済み。
+- `higashimatsuyama-migration-bonus`: 移住支援金は公式確認不可として掲載停止。東松山市公式検索では制度ページを確認できず、埼玉県移住支援金ページの対象15市町村にも東松山市は確認できない。
+- `higashimatsuyama-nursing-equipment`: 紙おむつ給付事業へ補正。在宅介護、要介護1から5、常時紙おむつが必要な方を対象に、介護保険負担割合1割は市負担月3,600円、2割3,200円、3割2,800円を確認。
+- `higashimatsuyama-scholarship`: 若者みらい応援奨学金返還支援事業へ補正。前年度奨学金返還額を年3万円上限・最大5年度補助。新規認定申請は令和7年度で終了し、令和8年度は既認定者のみ2026年10月1日から11月30日まで交付申請可能。
+- `higashimatsuyama-seismic-diagnosis`: 住宅耐震診断・改修補助金交付制度へ補正。診断は既存木造一戸建て住宅、昭和56年5月31日以前着工、2階以下等が対象で、費用1/2・上限5万円、申請期限2027年1月8日を確認。参考として耐震改修は23/100・上限20万円。
+- `higashimatsuyama-uij-turn`: UIJターン支援金は公式確認不可として掲載停止。東松山市公式検索では該当制度を確認できず、移住定住サイトでは空き家利活用補助金等のみを確認。埼玉県移住支援金ページでも東松山市は対象15市町村に確認できない。
+
+確認:
+
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- データ層確認: 対象9件は全件取得、重複target slug 0、active 7件、掲載停止2件（`higashimatsuyama-migration-bonus` / `higashimatsuyama-uij-turn`）。
+- `node scripts/check-grant-source-urls.mjs --slug ...東松山市9件 --concurrency 2 --timeout-ms 120000`: 初回は埼玉県移住支援金ページ2件が一時fetch failed。`--concurrency 1 --timeout-ms 240000` で再監査し、採用sourceUrls 25件はすべてHTTP 200。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 埼玉県 --limit 25`: 埼玉県の未照合raw slugは15件から6件に減少。次の埼玉県候補は入間市6件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,478件から2,469件に減少。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,255件、activeWithoutOfficialSourceは2,473件、埼玉県ローカル公式確認済みは197件。
+- `npm run lint`: エラー0、既存警告5件のみ。
+- `npm run build`: 成功。静的ページ5,280件生成、`/grant/[slug]` は2,625件相当。未コミットのPinterest系別変更が残っているため、`/pinterest` 系ルートもビルド対象に含まれた。
+- build後の軽量HTMLチェック: 通常公開7件は詳細ページ生成・sitemap掲載・noindexなし・公式確認表示あり。掲載停止2件は詳細ページ生成・sitemap除外・`noindex, follow`・掲載停止/公式確認不可表示あり。failures 0。
+
+次回再開位置:
+
+- 埼玉県Batch 134として、入間市6件（`iruma-childcare-subsidy` / `iruma-housing-purchase` / `iruma-scholarship` / `iruma-senior-medical` / `iruma-sme-support` / `iruma-startup-support`）を公式一次情報で確認する。
+- その後は `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugの実害を減らす。
+- push / 公開反映は明示確認後。
