@@ -5382,3 +5382,15 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は多治見市9件（`tajimi-dental-checkup-child` / `tajimi-disaster-stockpile` / `tajimi-family-care-leave` / `tajimi-fire-alarm` / `tajimi-maternity-dental` / `tajimi-shop-renovation` / `tajimi-tradition-craft` / `tajimi-twin-support` / `tajimi-youth-rent`）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-04 岐阜県Batch 153 追加ログ
+
+多治見市city-batch76由来9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `tajimi-dental-checkup-child` / `tajimi-disaster-stockpile` / `tajimi-family-care-leave` / `tajimi-fire-alarm` / `tajimi-maternity-dental` / `tajimi-shop-renovation` / `tajimi-tradition-craft` / `tajimi-twin-support` / `tajimi-youth-rent`。生成データ名をそのまま採用せず、多治見市公式ページで確認できる制度へ補正した。`tajimi-dental-checkup-child` は虫歯予防教室・乳幼児健診の歯科健診、`tajimi-family-care-leave` は寝たきり高齢者等介護用品購入助成事業、`tajimi-shop-renovation` は中心市街地の店舗と住宅との分離に関する改装費補助、`tajimi-tradition-craft` はセラミックバレー振興補助金の募集終了扱い、`tajimi-twin-support` は多胎妊婦の妊婦健診2回追加助成、`tajimi-youth-rent` はちょうどいいまちたじみ定住応援補助金へ補正した。`tajimi-disaster-stockpile` / `tajimi-fire-alarm` / `tajimi-maternity-dental` は生成名どおりの個人向け補助として公式確認できないため、公式に確認できる案内・制度へ補正または通常一覧から除外した。多治見市raw gapは0件、岐阜県raw gapは37件から28件、全国raw gapは2,304件から2,295件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check` 問題なし、採用sourceUrls 14件はすべてHTTP 200、`npm run audit:coverage` failures 0、`npm run build` 成功。静的ページ5,571件生成、`/grant/[slug]` は2,800件相当。
+
+次回再開位置:
+
+- 全国raw gapの次候補は大垣市19件（`ogaki-birth-bonus` / `ogaki-childcare-subsidy` / `ogaki-dental-checkup-child` / `ogaki-disaster-stockpile` / `ogaki-elderly-support` / `ogaki-family-care-leave` / `ogaki-fire-alarm` / `ogaki-housing-purchase` / `ogaki-housing-seismic` / `ogaki-infertility` / `ogaki-maternity-dental` / `ogaki-nursing-equipment` / `ogaki-scholarship` / `ogaki-seismic-diagnosis` / `ogaki-shop-renovation` / `ogaki-sme-support` / `ogaki-tradition-craft` / `ogaki-twin-support` / `ogaki-youth-rent`）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。
