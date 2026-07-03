@@ -4977,3 +4977,35 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 埼玉県Batch 134として、入間市6件（`iruma-childcare-subsidy` / `iruma-housing-purchase` / `iruma-scholarship` / `iruma-senior-medical` / `iruma-sme-support` / `iruma-startup-support`）を公式一次情報で確認する。
 - その後は `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugの実害を減らす。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 埼玉県Batch 134 追加ログ
+
+入間市6件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。入間市raw gapは0件、埼玉県raw gapは6件から0件、全国raw gapは2,469件から2,463件に減少した。対象6件はactive 2件、期限切れ4件。`iruma-childcare-subsidy` は令和6年度で終了済みの子育て応援ギフト、`iruma-housing-purchase` は令和元年度から令和3年度までの三世代同居・近居支援補助金制度、`iruma-scholarship` は令和8年度以降の新規募集終了、`iruma-startup-support` は令和8年度受付終了のため、通常一覧から除外した。
+
+追加・補正:
+
+- `iruma-childcare-subsidy`: 子育て応援ギフト事業（令和6年度で終了）へ補正。令和6年4月1日から令和7年3月31日までに入間市で出生したお子さんを対象に、5,000円分の入間市子育て応援ギフト事業専用QUOカードPayを贈呈していたことを確認。旧生成データの育児用品購入費等最大5万円とは一致しないため期限切れ扱い。
+- `iruma-housing-purchase`: 三世代同居・近居支援補助金制度（受付終了）へ補正。公式PDFで補助期間が令和元年度から令和3年度までの3年間サンセット方式であること、新築・購入は取得費20%・上限30万円、加算込み最大80万円を確認。現行住宅取得奨励補助金としては公式確認不可。
+- `iruma-scholarship`: 奨学資金貸付制度（新規募集終了）へ補正。令和7年第4回入間市議会定例会で令和8年度以降の新規奨学生受付終了が決定し、今後新規募集しないことを確認。既貸付者への貸付は現在の貸付期間終了まで継続。
+- `iruma-senior-medical`: 後期高齢者医療人間ドック・脳ドック助成制度へ補正。後期高齢者医療の被保険者を対象に、人間ドック・脳ドックとも助成金額28,000円を確認。
+- `iruma-sme-support`: 商工業振興助成制度へ補正。市内に工場等または本社を新設する事業者を対象に、固定資産税相当額の10分の1から全額、3年間合計上限1億円を確認。旧生成データの中小企業振興補助金最大30万円を公式制度へ補正。
+- `iruma-startup-support`: 空き店舗活用創業等支援補助金（令和8年度受付終了）へ補正。空き店舗改修は対象経費1/2または25万円、対象4商店街区域内は50万円、家賃は店舗営業開始月から12か月以内で月45,000円上限を確認。ただし公式ページで令和8年度受付終了が明記されているため期限切れ扱い。
+
+確認:
+
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- データ層確認: 対象6件は全件取得、active 2件、期限切れ4件（`iruma-childcare-subsidy` / `iruma-housing-purchase` / `iruma-scholarship` / `iruma-startup-support`）。
+- `node scripts/check-grant-source-urls.mjs --slug ...入間市6件 --concurrency 2 --timeout-ms 120000`: 初回は入間市サイト内検索URL 2件が404扱いだったため、監査対象の `sourceUrls` を公式PDFに絞って再実行。採用sourceUrls 6件はすべてHTTP 200。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 埼玉県 --limit 25`: 埼玉県の未照合raw slugは6件から0件に減少。duplicate raw slugsは32件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,469件から2,463件に減少。次の全国候補は沖縄県うるま市9件。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,257件、activeWithoutOfficialSourceは2,467件、埼玉県ローカル公式確認済みは199件。
+- `npm run lint`: エラー0、既存警告5件のみ。
+- `npm run build`: 成功。静的ページ5,289件生成、`/grant/[slug]` は2,631件相当。未コミットのPinterest系別変更が残っているため、`/pinterest` 系ルートもビルド対象に含まれた。
+- build後の軽量HTMLチェック: 通常公開2件（`iruma-senior-medical` / `iruma-sme-support`）は詳細ページ生成・sitemap掲載・noindexなし・公式確認表示あり。期限切れ4件は詳細ページ生成・sitemap除外・`noindex, follow`・期限切れ表示あり。failures 0。
+
+次回再開位置:
+
+- 埼玉県raw gapは0件。必要に応じて `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugなど実害の大きい重複を公式確認済みデータへ置換する。
+- 全国raw gapの次候補は沖縄県うるま市9件（`uruma-block-wall-removal` / `uruma-child-medical-aid` / `uruma-elderly-taxi` / `uruma-health-checkup-subsidy` / `uruma-juutaku-reform` / `uruma-scholarship-repayment` / `uruma-school-lunch-subsidy` / `uruma-startup-support` / `uruma-water-saving`）。
+- push / 公開反映は明示確認後。
