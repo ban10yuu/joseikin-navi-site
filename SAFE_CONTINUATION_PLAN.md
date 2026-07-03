@@ -4393,3 +4393,45 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 岡山県Batch 117として、倉敷市18件（`kurashiki-birth-bonus` / `kurashiki-block-wall-removal` / `kurashiki-child-medical-aid` / `kurashiki-childcare-subsidy` / `kurashiki-disability-medical` / `kurashiki-elderly-taxi` / `kurashiki-energy-support` / `kurashiki-health-checkup-subsidy` / `kurashiki-housing-seismic` / `kurashiki-juutaku-reform` / `kurashiki-newlywed-rent` / `kurashiki-nursing-equipment` / `kurashiki-scholarship-repayment` / `kurashiki-school-lunch` / `kurashiki-school-lunch-subsidy` / `kurashiki-seismic-diagnosis` / `kurashiki-telework-bonus` / `kurashiki-water-saving`）を公式一次情報で確認する。
 - 倉敷市18件の後は、総社市9件、津山市9件の順に進める。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 岡山県Batch 117 追加ログ
+
+倉敷市18件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。これで倉敷市のraw gapは0件。生成データの「出産祝い金」「保育料負担軽減補助金」「高齢者タクシー利用助成」「人間ドック受診費助成」「住宅リフォーム助成金」「奨学金返還支援制度」「学校給食費補助制度」「テレワーク移住補助」「雨水タンク設置補助」等は、公式制度名・金額・対象者へ補正した。既存掲載と重複するslug、令和8年度の倉敷市実施が確認できない結婚新生活支援、終了済みテレワーク移住支援は通常一覧から除外した。
+
+追加・補正:
+
+- `kurashiki-birth-bonus`: 妊婦支援給付金へ補正。妊娠期5万円、子育て期こども（胎児）1人5万円を確認。
+- `kurashiki-block-wall-removal`: 既存 `kurashiki-block-wall-removal-2026` へ重複統合し掲載停止。公式では見積額と基準額9千円/mの低い額の3分の2、上限15万円を確認。
+- `kurashiki-child-medical-aid`: 既存 `kurashiki-child-medical` へ重複統合し掲載停止。中学校3年生までの子ども医療費助成を確認。
+- `kurashiki-childcare-subsidy`: 保育料・幼児教育保育無償化へ補正。3〜5歳児クラス等の利用料無償化、保育料の軽減・減免制度を確認。
+- `kurashiki-disability-medical`: 重度障がい者医療費助成制度へ補正。身体障がい者手帳1・2級、療育手帳A、精神障がい者保健福祉手帳1級等の対象要件を確認。
+- `kurashiki-elderly-taxi`: コミュニティタクシー運賃100円割引へ補正。65歳以上または障がい者手帳等の提示要件を確認。
+- `kurashiki-energy-support`: 創エネ・脱炭素住宅促進補助へ補正。太陽光最大8万円、蓄電池最大6万円、EV15万円等を確認。
+- `kurashiki-health-checkup-subsidy`: 国保人間ドックへ補正。倉敷市国保加入中の35〜60歳と65歳、自己負担8,720円、令和8年度実施期間を確認。
+- `kurashiki-housing-seismic`: 木造住宅耐震診断・耐震改修補助事業へ補正。耐震診断8万円/棟、耐震改修上限115万円を確認。
+- `kurashiki-juutaku-reform`: 居住誘導区域空家等改修事業費補助金へ補正。補助率2分の1、子育て世帯上限100万円、空き家バンク登録物件加算10万円を確認。
+- `kurashiki-newlywed-rent`: 岡山県の令和8年度実施市町村一覧に倉敷市がないため掲載停止扱い。倉敷市公式では婚活支援事業のみ確認。
+- `kurashiki-nursing-equipment`: 介護用品（紙おむつ等）の支給へ補正。対象者1最大30,000円、対象者2最大75,000円、購入前申請を確認。
+- `kurashiki-scholarship-repayment`: 倉敷市奨学生制度へ補正。貸付、返還一部免除型貸付、給付の3種類と応募資格を確認。
+- `kurashiki-school-lunch`: 小学生学校給食費無償化へ補正。令和8年4月から市立小学校等1〜6年生の給食費保護者負担なしを確認。
+- `kurashiki-school-lunch-subsidy`: `kurashiki-school-lunch` と同一制度のため重複統合し掲載停止。
+- `kurashiki-seismic-diagnosis`: `kurashiki-housing-seismic` と同一公式ページ内の耐震診断制度のため重複統合し掲載停止。
+- `kurashiki-telework-bonus`: テレワーク移住支援補助金は令和7年3月31日で終了。令和8年度の移住支援金・くらしき移住者応援補助金側へ統合し掲載停止。
+- `kurashiki-water-saving`: 雨水貯留槽の設置補助へ補正。雨水タンク・不要浄化槽改造、補助率3分の2、限度額20万円を確認。
+
+確認:
+
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- 重複slug確認: 対象18件は全件取得、active 12件、掲載停止6件、全体slug重複0。
+- `node scripts/check-grant-source-urls.mjs --slug ...倉敷市18件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 32件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 岡山県 --limit 30`: 岡山県の未照合raw slugは36件から18件に減少。倉敷市raw gapは完了。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,639件から2,621件に減少。次の先頭は総社市。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,138件、activeWithoutOfficialSourceは2,625件、岡山県ローカル公式確認済みは61件。active全体4,763件に対する公式確認済みactive比率は約44.9%。
+- `npm run build`: 速度改善方針により今回は省略。岡山県raw gap完了時、20〜50件節目、または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 岡山県Batch 118として、総社市9件（`soja-block-wall-removal` / `soja-child-medical-aid` / `soja-elderly-taxi` / `soja-health-checkup-subsidy` / `soja-juutaku-reform` / `soja-scholarship-repayment` / `soja-school-lunch-subsidy` / `soja-startup-support` / `soja-water-saving`）を公式一次情報で確認する。
+- 総社市9件の後は、津山市9件を処理すると岡山県raw gap 0件に到達する見込み。
+- push / 公開反映は明示確認後。
