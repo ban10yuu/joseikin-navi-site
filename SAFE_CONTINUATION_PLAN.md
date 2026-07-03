@@ -4327,3 +4327,36 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 岡山県Batch 115として、笠岡市9件（`kasaoka-block-wall-removal` / `kasaoka-child-medical-aid` / `kasaoka-elderly-taxi` / `kasaoka-health-checkup-subsidy` / `kasaoka-juutaku-reform` / `kasaoka-scholarship-repayment` / `kasaoka-school-lunch-subsidy` / `kasaoka-startup-support` / `kasaoka-water-saving`）を公式一次情報で確認する。
 - 笠岡市9件の後は、玉野市9件、倉敷市20件前後の順に進める。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 岡山県Batch 115 追加ログ
+
+笠岡市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。これで笠岡市のraw gapは0件。生成データの「ブロック塀等撤去補助金」「奨学金返還支援制度」「雨水タンク設置補助金」は公式確認不可として通常一覧から除外し、「子ども医療費」「高齢者タクシー」「人間ドック」「住宅リフォーム」「学校給食費」「創業支援」は公式制度名・金額・対象者へ補正した。
+
+追加・補正:
+
+- `kasaoka-block-wall-removal`: 個人向けブロック塀等撤去補助金は公式確認不可として掲載停止扱い。市有施設のブロック塀改修と木造住宅耐震化補助は確認。
+- `kasaoka-child-medical-aid`: 子ども医療費公費負担制度へ補正。令和8年4月診療分から入院・通院とも高校生まで無料を確認。
+- `kasaoka-elderly-taxi`: 高齢者タクシー利用助成制度へ補正。移動手段を持たない75歳以上高齢者の買い物・通院等を目的としたタクシー料金助成を確認。
+- `kasaoka-health-checkup-subsidy`: 令和8年度人間ドック補助制度へ補正。笠岡市国保・後期高齢者医療保険加入者、40歳以上、特定健診等との重複不可を確認。
+- `kasaoka-juutaku-reform`: 令和8年度住宅リフォーム助成金へ補正。通常上限12万円、特定世帯上限15万円、耐震同時上限70万円、令和9年1月31日交付申請期限を確認。
+- `kasaoka-scholarship-repayment`: 市内就職者向け奨学金返還支援制度は公式確認不可として掲載停止扱い。返還不要の奨学金給与事業は確認したが別制度として整理。
+- `kasaoka-school-lunch-subsidy`: 小学校給食費無償化・中学校給食食材費補助へ補正。令和8年度当初予算と子育て応援情報で確認。
+- `kasaoka-startup-support`: 新規創業事業費補助金へ補正。補助率は都市機能誘導区域内3分の2、それ以外2分の1、上限100万円、事業実施前の認定申請を確認。
+- `kasaoka-water-saving`: 雨水タンク設置補助金は公式確認不可として掲載停止扱い。合併処理浄化槽設置補助等は確認したが別制度として整理。
+
+確認:
+
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- 重複slug確認: duplicateCount 0、岡山県のverified local misc slugは47件。
+- `node scripts/check-grant-source-urls.mjs --slug ...笠岡市9件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 24件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 岡山県 --limit 30`: 岡山県の未照合raw slugは54件から45件に減少。笠岡市raw gapは完了。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,657件から2,648件に減少。次の先頭は玉野市。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,120件、activeWithoutOfficialSourceは2,652件、岡山県ローカル公式確認済みは43件。active全体4,772件に対する公式確認済みactive比率は約44.4%。
+- `npm run build`: 速度改善方針により今回は省略。岡山県raw gap完了時、20〜50件節目、または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 岡山県Batch 116として、玉野市9件（`tamano-block-wall-removal` / `tamano-child-medical-aid` / `tamano-elderly-taxi` / `tamano-health-checkup-subsidy` / `tamano-juutaku-reform` / `tamano-scholarship-repayment` / `tamano-school-lunch-subsidy` / `tamano-startup-support` / `tamano-water-saving`）を公式一次情報で確認する。
+- 玉野市9件の後は、倉敷市20件前後を市単位でまとめて処理する。
+- push / 公開反映は明示確認後。
