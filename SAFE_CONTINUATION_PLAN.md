@@ -5250,6 +5250,14 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 次回再開位置:
 
-- 全国raw gapの次候補は岩手県一関市20件（`ichinoseki-birth-bonus` / `ichinoseki-block-wall-removal` / `ichinoseki-bousai-equipment` / `ichinoseki-child-medical` / `ichinoseki-child-medical-aid` / `ichinoseki-childcare-subsidy` / `ichinoseki-elderly-taxi` / `ichinoseki-energy-support` / `ichinoseki-health-checkup-subsidy` / `ichinoseki-housing-reform` / `ichinoseki-juutaku-reform` / `ichinoseki-migration-support` / `ichinoseki-newlywed-rent` / `ichinoseki-nursing-home-reform` / `ichinoseki-scholarship-repayment` / `ichinoseki-school-lunch` / `ichinoseki-school-lunch-subsidy` / `ichinoseki-startup-support` / `ichinoseki-telework-bonus` / `ichinoseki-water-saving`）。
+## 2026-07-03 岩手県Batch 142 追加ログ
+
+一関市の子育て・教育系6件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `ichinoseki-birth-bonus` / `ichinoseki-child-medical` / `ichinoseki-child-medical-aid` / `ichinoseki-childcare-subsidy` / `ichinoseki-school-lunch` / `ichinoseki-school-lunch-subsidy`。`ichinoseki-child-medical-aid` は `ichinoseki-child-medical` と同一制度のため重複停止。全国raw gapは2,398件から2,392件、岩手県raw gapは55件から49件に減少した。
+
+確認: 対象ESLintエラー0、採用sourceUrls 6件HTTP 200、`npm run audit:coverage` failures 0。公式確認済みactiveは2,309件、activeWithoutOfficialSourceは2,396件。buildは一関市残り完了時へ繰り延べ。
+
+次回再開位置:
+
+- 全国raw gapの次候補は一関市残り14件（`ichinoseki-block-wall-removal` / `ichinoseki-bousai-equipment` / `ichinoseki-elderly-taxi` / `ichinoseki-energy-support` / `ichinoseki-health-checkup-subsidy` / `ichinoseki-housing-reform` / `ichinoseki-juutaku-reform` / `ichinoseki-migration-support` / `ichinoseki-newlywed-rent` / `ichinoseki-nursing-home-reform` / `ichinoseki-scholarship-repayment` / `ichinoseki-startup-support` / `ichinoseki-telework-bonus` / `ichinoseki-water-saving`）。
 - 併せて `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugなど実害の大きい重複を公式確認済みデータへ置換する余地あり。
 - push / 公開反映は明示確認後。
