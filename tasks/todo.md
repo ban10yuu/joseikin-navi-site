@@ -762,7 +762,7 @@
 - [x] 埼玉県Batch 124として、行田市3件を公式確認済み追加・補正し、行田市raw gap 0件を達成（住宅改修資金補助制度、奨学金返還支援金制度、起業家支援事業助成金）
 - [x] 埼玉県Batch 124の検証（agent-reach doctorでwebはJina Reader利用可・Exa未設定を確認、対象ESLintエラー0、diff check問題なし、verified-local-misc重複slug 0、対象3件はactive 3件、採用sourceUrls 7件はすべてHTTP 200、埼玉県の未照合raw slugは113件から110件、全国未照合raw slugは2,576件から2,573件に減少、coverage failures 0、公式確認済みactiveは2,181件、埼玉県ローカル公式確認済みは123件。`npm run audit:deadlines` は5分以上無出力のCPU走査のため中断し、対象3件のdeadlineDate 2027-03-31が2026年7月3日基準で期限切れにならないことを軽量確認。buildは前回熊谷Batch 123で実行済みのため今回3件では省略）
 - [x] 埼玉県Batch 125として、鴻巣市9件を公式確認済み追加・補正し、鴻巣市raw gap 0件を達成（こうのとり出産祝金、幼児教育・保育の無償化・多子世帯保育料軽減、住宅リフォーム資金補助、早期不妊検査費及び不育症検査費助成、移住支援金の公式確認不可抑止、重度要介護高齢者紙おむつ等支給、入学準備金・奨学資金貸付制度の受付終了扱い、木造住宅耐震診断助成、がんばる起業家支援補助金）
-- [x] 埼玉県Batch 125の検証（対象ESLintエラー0、diff check問題なし、重複slug 0、対象9件はactive 7件・掲載停止/受付終了2件、採用sourceUrls 20件はすべてHTTP 200、埼玉県の未照合raw slugは110件から101件、全国未照合raw slugは2,573件から2,564件に減少、coverage failures 0、公式確認済みactiveは2,188件、埼玉県ローカル公式確認済みは130件。buildは前回熊谷Batch 123後12件処理のため省略し、次の春日部市17件後に実行予定）
-- [ ] 次回候補: 埼玉県Batch 126として春日部市17件を公式一次情報で確認し、その後に20件超の節目buildを実行する
+- [x] 埼玉県Batch 125の検証（対象ESLintエラー0、diff check問題なし、重複slug 0、対象9件はactive 7件・掲載停止/受付終了2件、採用sourceUrls 20件はすべてHTTP 200、埼玉県の未照合raw slugは110件から101件、全国未照合raw slugは2,573件から2,564件に減少、coverage failures 0、公式確認済みactiveは2,188件、埼玉県ローカル公式確認済みは130件。`npm run build` 成功、静的ページ5,150件生成。`npm run audit:deadlines` は5分超で中断したが、今回追加した期限切れ2件は期限切れバナー、noindex follow、sitemap除外、公開一覧リンクなしを軽量確認）
+- [ ] 次回候補: 埼玉県Batch 126として春日部市17件を公式一次情報で確認する。所沢市以降で前回build後20件節目に到達した時点または公開前にbuildを実行する
 - [ ] 次回候補: `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugを公式確認済みデータへ置換し、raw重複の実害を減らす
 - [ ] push / 公開反映は明示確認後に実行

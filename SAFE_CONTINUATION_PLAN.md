@@ -4660,12 +4660,12 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 追加・補正:
 
-- `kounosu-birth-bonus`: こうのとり出産祝金へ補正。第3子以降の出生児1人につき2万円を確認。
+- `kounosu-birth-bonus`: こうのとり出産祝金へ補正。出生児1人につき1万円分のお買い物券、申請期限は出生日の属する月の翌々月末までを確認。
 - `kounosu-childcare-subsidy`: 幼児教育・保育の無償化・多子世帯保育料軽減へ補正。幼児教育・保育無償化と第2子以降保育料軽減、令和8年度保育施設案内を確認。
 - `kounosu-housing-purchase`: 住宅リフォーム資金補助事業へ補正。市内施工業者、20万円以上、補助率5%・上限10万円を確認。住宅取得支援補助金は現行公式制度として確認不可。
 - `kounosu-infertility`: 早期不妊検査費及び不育症検査費助成へ補正。不妊検査・不育症検査ごとに夫婦1組上限3万円を確認。
 - `kounosu-migration-bonus`: 移住支援金は公式確認不可として掲載停止扱い。関連する結婚新生活支援補助金は既存slug `kounosu-marriage-new-life-support-2026` として登録済みのため重複掲載しない。
-- `kounosu-nursing-equipment`: 重度要介護高齢者紙おむつ等支給へ補正。要介護4・5、在宅介護、住民税非課税世帯、紙おむつ等支給を確認。
+- `kounosu-nursing-equipment`: 重度要介護高齢者紙おむつ等支給へ補正。要介護4・5等の在宅高齢者、紙おむつ等または購入費用相当額の月額上限3,000円を確認。
 - `kounosu-scholarship`: 入学準備金・奨学資金貸付制度へ補正し、令和8年度受付終了扱い。入学準備金は大学等40万円以内、奨学資金は大学等月額2万円以内、令和8年度受付終了を確認。
 - `kounosu-seismic-diagnosis`: 木造住宅耐震診断助成事業へ補正。2000年5月31日以前建築確認、2階建以下木造住宅、診断費用1/2・上限5万円を確認。
 - `kounosu-uij-turn`: がんばる起業家支援補助金へ補正。創業時対象経費1/2・上限15万円、開業または法人設立から6か月以内申請を確認。
@@ -4675,14 +4675,15 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
 - `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
 - 対象slug確認: 鴻巣市9件は全件取得、active 7件、掲載停止/受付終了2件、全体slug重複0。
-- `node scripts/check-grant-source-urls.mjs --slug ...鴻巣市9件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 20件はすべてHTTP 200、failures 0。
-- `node scripts/audit-raw-verified-gaps.mjs --prefecture 埼玉県 --limit 30`: 埼玉県の未照合raw slugは110件から101件に減少。次の埼玉県候補は春日部市17件。
+- `node scripts/check-grant-source-urls.mjs --slug ...鴻巣市9件 --concurrency 1 --timeout-ms 180000`: 採用sourceUrls 20件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 埼玉県 --limit 40`: 埼玉県の未照合raw slugは110件から101件に減少。次の埼玉県候補は春日部市17件。
 - `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,573件から2,564件に減少。未照合件数上位は福岡県127件、栃木県121件、大阪府119件、埼玉県101件。
 - `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,188件、activeWithoutOfficialSourceは2,568件、埼玉県ローカル公式確認済みは130件。active全体4,756件に対する公式確認済みactive比率は約46.0%。
-- `npm run build`: 前回熊谷Batch 123で実行済み。行田市3件と鴻巣市9件で前回build後12件処理のため、速度改善方針により今回は省略。次の春日部市17件処理後に20件節目を超えるため、そこでまとめて実行する。
+- `npm run build`: 成功。静的ページ5,150件生成、`/grant/[slug]` は2,530件相当。未コミットのPinterest系別変更が残っているため、`/pinterest` 系ルートもビルド対象に含まれた。
+- `npm run audit:deadlines`: 5分以上無出力のCPU走査が続いたため中断。今回追加した期限切れ2件（`kounosu-migration-bonus` / `kounosu-scholarship`）については、詳細ページの期限切れバナー、noindex follow、sitemap除外、公開一覧リンクなしを軽量チェックで確認。
 
 次回再開位置:
 
 - 埼玉県Batch 126として、春日部市17件（`kasukabe-birth-bonus` / `kasukabe-block-wall-removal` / `kasukabe-child-medical-aid` / `kasukabe-childcare-subsidy` / `kasukabe-elderly-taxi` / `kasukabe-health-checkup-subsidy` / `kasukabe-housing-purchase` / `kasukabe-infertility` / `kasukabe-juutaku-reform` / `kasukabe-migration-support` / `kasukabe-scholarship` / `kasukabe-scholarship-repayment` / `kasukabe-school-lunch-subsidy` / `kasukabe-seismic-diagnosis` / `kasukabe-sme-support` / `kasukabe-startup-support` / `kasukabe-water-saving`）を公式一次情報で確認する。
-- 春日部市17件後は、前回build後29件処理となるため `npm run build` を実行する。
+- 春日部市17件後は、前回build後17件処理となるため、所沢市以降で20件節目に到達した時点または公開前に `npm run build` を実行する。
 - push / 公開反映は明示確認後。
