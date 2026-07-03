@@ -5182,3 +5182,46 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - その次の候補は名護市9件。
 - 併せて `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugなど実害の大きい重複を公式確認済みデータへ置換する余地あり。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 沖縄県Batch 140 追加ログ
+
+那覇市16件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。那覇市raw gapは0件、沖縄県raw gapは25件から9件、全国raw gapは2,423件から2,407件に減少した。対象16件はactive 12件、掲載停止/重複停止4件。`naha-block-wall-removal` と `naha-housing-purchase` は現行の個人向け補助制度を公式確認できないため掲載停止、`naha-child-medical-aid` と `naha-juutaku-reform` は既存公式確認済みslugとの重複として通常一覧から除外した。
+
+追加・補正:
+
+- `naha-birth-bonus`: 妊婦のための支援給付・妊婦等包括相談支援事業へ補正。旧出産・子育て応援事業は令和7年3月末で終了し、妊婦支援給付金へ移行。1回目は妊娠1回あたり5万円、2回目は妊娠している児童1人あたり5万円、所得制限なし、申請期限は胎児心拍確認から2年間または出産予定日の8週前から2年間。
+- `naha-block-wall-removal`: ブロック塀等撤去補助金は公式確認不可として掲載停止。那覇市公式相談回答では危険なブロック塀への現場調査・所有者への安全対策指導は確認できるが、撤去費用補助の現行募集・補助額・申請期限は確認できない。
+- `naha-child-medical-aid`: こども医療費助成制度の既存slug `naha-child-medical` へ統合し重複停止。公式制度は0歳から中学校3年生まで、保険診療自己負担分、現物給付方式、オンライン申請対応。
+- `naha-childcare-subsidy`: 幼児教育・保育の無償化・保育料軽減へ補正。3歳から5歳クラスの保育料無償、0歳から2歳クラスの保育料算定、保育料減免、多子軽減、給食費減免、認可外保育施設等の月額37,000円または42,000円上限、新制度未移行幼稚園月額25,700円上限を確認。
+- `naha-elderly-support`: 外出支援サービス事業へ補正。65歳以上で寝たきりや車いす利用により一般交通機関の利用が困難な方を自宅から医療機関等まで送迎。利用料金は片道480円、月往復2回まで。
+- `naha-elderly-taxi`: がんじゅう一日乗車券（高齢者公共交通割引制度）へ補正。満70歳以上の那覇市民が、土日祝日・慰霊の日に、ゆいレール全線乗り放題の1日乗車券を300円で購入できる。タクシー券ではないため制度名を修正。
+- `naha-health-checkup-subsidy`: 特定健診・がん検診受診券へ補正。令和8年度の検診期間は2026年4月1日から2027年3月31日。国保加入者の特定健診・健康診査20歳から74歳、各種がん検診・歯周病検診の対象年齢、受診券利用による人間ドック費用割引可能医療機関を確認。
+- `naha-housing-purchase`: 住宅取得支援補助金は公式確認不可として掲載停止。那覇市公式で確認できる住宅確保要配慮者専用賃貸住宅改修補助は賃貸人対象かつ令和8年度募集締切済みで、個人の住宅購入補助とは異なる。
+- `naha-infertility`: 先進医療不妊治療費助成事業へ補正。令和8年度対象分は2026年4月1日から2027年3月31日、令和9年2月末までの治療終了分は2027年3月31日、令和9年3月終了分は2027年4月30日が申請期限。夫婦のいずれかが那覇市内住民登録、妻43歳未満、助成率7/10を確認。
+- `naha-juutaku-reform`: 介護保険住宅改修の既存slug `naha-housing-reform` へ統合し重複停止。要支援・要介護認定者の住宅改修、20万円までの改修費用、工事前の事前申請必須を確認。
+- `naha-nursing-equipment`: 介護用品支給事業へ補正。要介護4または5に相当する在宅高齢者を介護している家族、市民税非課税世帯を対象に、紙おむつ・尿パッド等を自宅へ配達。1か月の限度額は8,333円。
+- `naha-scholarship`: 令和8年度那覇市給付型奨学金へ補正。令和9年度進学予定者対象、採用15人程度、原則返済不要、入学金上限282,000円、授業料上限720,000円/年、施設費上限200,000円/年、提出期間2026年7月13日から8月3日17時必着。
+- `naha-scholarship-repayment`: 若者UIJターン促進奨学金返還支援事業へ補正。補助金交付は令和9年度開始予定。県外大学等を令和7年度以降に卒業、那覇市内法人に正規雇用、年度末時点30歳未満、那覇市に5年以上居住意思等が要件。補助額は前年度返還額の1/2または年間10万円の低い方、累計上限30万円。
+- `naha-school-lunch-subsidy`: 令和8年度就学援助（学校給食費等）へ補正。経済的理由で給食費・修学旅行費等の支払いが困難な保護者向け、生活保護・市町村民税非課税・生活困窮等が対象、オンライン申請対応、5月以降は毎月末締切で最終2026年12月28日、中学校の学校給食費は実費支給。
+- `naha-seismic-diagnosis`: 民間住宅の耐震診断・耐震改修の促進へ補正。那覇市公式ページで、旧耐震基準住宅への簡易診断技術者派遣事業、耐震診断等に関する相談窓口を案内。市独自の木造住宅耐震診断助成額は確認できないため、金額を盛らず現行案内として掲載。
+- `naha-water-saving`: 雨水・井戸利用施設設置費補助へ補正。那覇市民、市内に自宅を建設し近い将来に市民になる方、店舗・事業所を営む方等が対象。補助額は雨水施設等の設置または修繕等に要する費用の1/2、上限40,000円。年度内随時受付だが予算に限りあり、交付決定前の実施は補助取消し。
+
+確認:
+
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- データ層確認: 対象16件は全件取得、active 12件、掲載停止/重複停止4件（`naha-block-wall-removal` / `naha-child-medical-aid` / `naha-housing-purchase` / `naha-juutaku-reform`）、全件公式出典あり。
+- `node scripts/check-grant-source-urls.mjs --slug ...那覇市16件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 28件はすべてHTTP 200。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 沖縄県 --limit 25`: 沖縄県の未照合raw slugは25件から9件に減少。残りは名護市9件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,423件から2,407件に減少。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,297件、activeWithoutOfficialSourceは2,411件、沖縄県ローカル公式確認済みactiveは168件。
+- `npm run lint`: エラー0、既存警告5件のみ。
+- `npm run build`: 成功。静的ページ5,369件生成、`/grant/[slug]` は表示4件 + 2,684 more paths で2,688件相当。未コミットのPinterest系別変更が残っているため、`/pinterest` 系ルートもビルド対象に含まれた。
+- build後の軽量HTMLチェック: 通常公開12件は詳細ページ生成・sitemap掲載・noindexなし・公式確認表示あり。掲載停止/重複停止4件は詳細ページ生成・sitemap除外・`noindex, follow`・公式確認表示あり。failures 0。
+- `agent-reach check-update`: v1.5.0、最新。
+
+次回再開位置:
+
+- 全国raw gapの次候補は名護市9件（`nago-block-wall-removal` / `nago-child-medical-aid` / `nago-elderly-taxi` / `nago-health-checkup-subsidy` / `nago-juutaku-reform` / `nago-scholarship-repayment` / `nago-school-lunch-subsidy` / `nago-startup-support` / `nago-water-saving`）。
+- 併せて `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugなど実害の大きい重複を公式確認済みデータへ置換する余地あり。
+- push / 公開反映は明示確認後。
