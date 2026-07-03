@@ -4909,3 +4909,36 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 埼玉県Batch 132として、朝霞市6件（`asaka-bousai-equipment` / `asaka-education-support` / `asaka-housing-reform` / `asaka-newlywed-rent` / `asaka-nursing-home-reform` / `asaka-telework-bonus`）を公式一次情報で確認する。
 - その後は東松山市9件、入間市6件へ進む。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 埼玉県Batch 132 追加ログ
+
+朝霞市6件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。朝霞市raw gapは0件、埼玉県raw gapは21件から15件、全国raw gapは2,484件から2,478件に減少した。対象6件はactive 4件、掲載停止2件。`asaka-newlywed-rent` は新婚世帯向け家賃補助・結婚新生活支援事業を朝霞市公式で確認できず、`asaka-telework-bonus` は市独自のテレワーク環境整備補助を確認できないため、いずれも通常一覧から除外した。
+
+追加・補正:
+
+- `asaka-bousai-equipment`: 家具転倒防止器具等設置費補助金へ補正。65歳以上のみの高齢者世帯、65歳以上の方及び障害のある方のみの世帯、障害のある方のみの世帯等が対象で、家具転倒防止器具・ガラス飛散防止フィルムと取付費用について1世帯1回限り上限1万円、工事着工前申請を確認。
+- `asaka-education-support`: 就学援助制度へ補正。公立小中学校に在籍する児童生徒の保護者を対象に、学用品費、オンライン学習通信費、学校給食費、修学旅行費、医療費等を支給。令和7年度実績として新入学用品費は小1 57,060円・中1 63,000円、給食費は実費相当額等を確認。
+- `asaka-housing-reform`: 個人住宅リフォーム資金補助金へ補正。朝霞市に住民登録がある自己所有・自己居住用住宅、市内施工業者、税込10万円以上、令和8年5月1日から令和9年3月31日までに完了する工事、補助率5%・上限5万円を確認。
+- `asaka-newlywed-rent`: 新婚世帯家賃補助制度は公式確認不可として掲載停止。朝霞市公式検索で「結婚新生活」「新婚」を確認したが、現行の新婚世帯向け家賃補助または結婚新生活支援事業は確認できない。住居確保給付金は生活困窮者向け制度であり、新婚世帯向け制度ではないため採用しない。
+- `asaka-nursing-home-reform`: 高齢者等住宅改善費補助金へ補正。介護保険住宅改修支給限度額を使用したうえでさらに費用を要する方は改修費の3分の2・上限20万円、自立等で住宅改修が必要な方は上限53,000円、階段昇降機は3分の2・上限466,000円、事前相談・申請が必要で改修後申請不可を確認。
+- `asaka-telework-bonus`: テレワーク環境整備補助金は公式確認不可として掲載停止。朝霞市公式検索、産業振興課の制度・支援・融資一覧、起業支援、中小企業融資制度を確認したが、通信回線・Web会議機器・デスク等の購入費を補助する市独自制度は確認できない。
+
+確認:
+
+- `agent-reach doctor --json`: web は Jina Reader で利用可能、Exa は未設定。朝霞市公式ページ、公式PDF、公式検索を確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- データ層確認: 対象6件は全件取得、重複target slug 0、active 4件、掲載停止2件（`asaka-newlywed-rent` / `asaka-telework-bonus`）。
+- `node scripts/check-grant-source-urls.mjs --slug ...朝霞市6件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 17件はすべてHTTP 200。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 埼玉県 --limit 25`: 埼玉県の未照合raw slugは21件から15件に減少。次の埼玉県候補は東松山市9件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,484件から2,478件に減少。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,248件、activeWithoutOfficialSourceは2,482件、埼玉県ローカル公式確認済みは190件。
+- `npm run lint`: エラー0、既存警告5件のみ。
+- `npm run build`: 初回は `relatedCategories` に存在しない `business` を指定してTypeScriptで停止したため `living` に修正。再実行で成功。静的ページ5,269件生成、`/grant/[slug]` は2,617件相当。未コミットのPinterest系別変更が残っているため、`/pinterest` 系ルートもビルド対象に含まれた。
+- build後の軽量HTMLチェック: 通常公開4件は詳細ページ生成・sitemap掲載・noindexなし・公式確認表示あり。掲載停止2件は詳細ページ生成・sitemap除外・`noindex, follow`・掲載停止/公式確認不可表示あり。failures 0。
+
+次回再開位置:
+
+- 埼玉県Batch 133として、東松山市9件（`higashimatsuyama-birth-bonus` / `higashimatsuyama-childcare-subsidy` / `higashimatsuyama-housing-purchase` / `higashimatsuyama-infertility` / `higashimatsuyama-migration-bonus` / `higashimatsuyama-nursing-equipment` / `higashimatsuyama-scholarship` / `higashimatsuyama-seismic-diagnosis` / `higashimatsuyama-uij-turn`）を公式一次情報で確認する。
+- その後は入間市6件へ進む。
+- push / 公開反映は明示確認後。
