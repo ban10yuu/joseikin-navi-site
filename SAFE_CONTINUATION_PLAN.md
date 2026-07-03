@@ -4767,5 +4767,38 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 
 次回再開位置:
 
-- 埼玉県Batch 128として、川越市16件（`kawagoe-birth-bonus` / `kawagoe-block-wall-removal` / `kawagoe-child-medical-aid` / `kawagoe-childcare-subsidy` / `kawagoe-elderly-taxi` / `kawagoe-energy-support` / `kawagoe-health-checkup-subsidy` / `kawagoe-juutaku-reform` / `kawagoe-newlywed-rent` / `kawagoe-nursing-home-reform` / `kawagoe-scholarship` / `kawagoe-school-lunch` / `kawagoe-school-lunch-subsidy` / `kawagoe-sme-support` / `kawagoe-startup-support` / `kawagoe-water-saving`）を公式一次情報で確認する。
+- 埼玉県Batch 129として、川口市8件（`kawaguchi-block-wall-removal` / `kawaguchi-child-medical-aid` / `kawaguchi-elderly-taxi` / `kawaguchi-health-checkup-subsidy` / `kawaguchi-juutaku-reform` / `kawaguchi-school-lunch-subsidy` / `kawaguchi-startup-support` / `kawaguchi-water-saving`）を公式一次情報で確認する。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 埼玉県Batch 128 追加ログ
+
+川越市16件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。川越市raw gapは0件、埼玉県raw gapは67件から51件、全国raw gapは2,530件から2,514件に減少した。生成データの「出産・子育て応援給付金」は現行の妊婦のための支援給付へ、「高齢者タクシー利用助成」は高齢者運転免許自主返納支援補助金へ、「省エネ設備導入補助金」は住宅用脱炭素化設備等導入奨励金へ、「創業支援補助金」は新規創業者支援資金融資へ補正した。`kawagoe-child-medical-aid` は既存確認済み制度との重複、`kawagoe-newlywed-rent` は川越市公式の現行制度確認不可として掲載停止扱いにした。既存の `kawagoe-scholarship-repayment` は公式制度名とslugが不一致だったため、正式slug `kawagoe-scholarship` に統合し、旧slugを重複停止に変更した。
+
+追加・補正:
+
+- `kawagoe-birth-bonus`: 妊婦のための支援給付へ補正。妊婦1人あたり5万円、胎児1人あたり5万円。
+- `kawagoe-block-wall-removal`: ブロック塀等撤去補助金。通常上限10万円、通学路・緊急輸送道路上限15万円。
+- `kawagoe-child-medical-aid`: 既存 `kawagoe-child-medical` と同一制度の重複候補として掲載停止。
+- `kawagoe-childcare-subsidy`: 幼児教育・保育無償化、認可外保育施設等月37,000円/42,000円、多子世帯等保育料軽減へ補正。
+- `kawagoe-elderly-taxi`: 高齢者運転免許自主返納支援補助金へ補正。75歳以上、交通系ICカード入金額上限1万円。
+- `kawagoe-energy-support`: 令和8年度住宅用脱炭素化設備等導入奨励金へ補正。設備3万円等、ZEH10万円、前期受付2026年9月1日から9月24日。
+- `kawagoe-health-checkup-subsidy`: 人間ドック最大8,000円、職場健診1,000円。
+- `kawagoe-juutaku-reform`: 令和8年度住宅改修補助金。工事費5%、上限5万円、中期/後期受付あり。
+- `kawagoe-newlywed-rent`: 結婚新生活支援事業は公式現行制度として確認不可のため掲載停止。
+- `kawagoe-nursing-home-reform`: 介護保険の居宅介護住宅改修・介護予防住宅改修。20万円上限で7割から9割支給。
+- `kawagoe-scholarship`: 川越市大学奨学金。入学準備金20万円、学資金月額37,500円、2026年8月31日必着。
+- `kawagoe-school-lunch`: 学校給食費無償化。小学校月5,200円、中学校・特別支援学校月6,300円を0円。
+- `kawagoe-school-lunch-subsidy`: 令和8年度学校給食代替支援金。代替弁当等に月5,200円/6,300円。
+- `kawagoe-sme-support`: 中小企業者等物価高騰対策経営改善支援金。1計画区分につき10万円。
+- `kawagoe-startup-support`: 新規創業者支援資金融資。融資限度額総額3,500万円、利率年1.3%以内。
+- `kawagoe-water-saving`: 雨水対策施設設置補助金。設置経費1/2、浸透ます・小型貯留槽併設で最大96,000円。
+
+確認:
+
+- `npm run lint`: エラー0、既存警告5件。
+- `node scripts/check-grant-source-urls.mjs --prefix kawagoe- --timeout-ms 60000 --concurrency 6`: 川越prefix 28 URLすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 埼玉県 --limit 30`: 埼玉県の未照合raw slugは67件から51件に減少。次の埼玉県候補は川口市8件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,530件から2,514件に減少。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,223件、activeWithoutOfficialSourceは2,518件、埼玉県ローカル公式確認済みは165件。
+- `npm run build`: 成功。静的ページ5,219件生成、`/grant/[slug]` は2,580件相当。
+- `npm run audit:deadlines`: 全量版は期限切れ候補ごとに全HTMLを走査するため長時間化し中断。今回追加・更新の掲載停止3件（`kawagoe-child-medical-aid` / `kawagoe-newlywed-rent` / `kawagoe-scholarship-repayment`）は詳細ページ生成、期限切れ表示、`noindex, follow`、sitemap除外を軽量確認。通常公開代表4件（`kawagoe-birth-bonus` / `kawagoe-scholarship` / `kawagoe-school-lunch` / `kawagoe-energy-support`）はsitemap掲載・noindexなしを軽量確認。
