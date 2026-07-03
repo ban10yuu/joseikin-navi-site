@@ -5009,3 +5009,38 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 埼玉県raw gapは0件。必要に応じて `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugなど実害の大きい重複を公式確認済みデータへ置換する。
 - 全国raw gapの次候補は沖縄県うるま市9件（`uruma-block-wall-removal` / `uruma-child-medical-aid` / `uruma-elderly-taxi` / `uruma-health-checkup-subsidy` / `uruma-juutaku-reform` / `uruma-scholarship-repayment` / `uruma-school-lunch-subsidy` / `uruma-startup-support` / `uruma-water-saving`）。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 沖縄県Batch 135 追加ログ
+
+うるま市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。うるま市raw gapは0件、沖縄県raw gapは65件から56件、全国raw gapは2,463件から2,454件に減少した。対象9件はactive 8件、掲載停止1件。`uruma-block-wall-removal` は、うるま市公式サイトでブロック塀等撤去補助金の現行補助制度を確認できず、安全点検案内のみ確認できたため通常一覧から除外した。
+
+追加・補正:
+
+- `uruma-block-wall-removal`: ブロック塀等撤去補助金は公式確認不可として掲載停止。うるま市公式ページでは既存の塀の安全点検、危険性確認時の注意表示・補修・撤去等の必要性は確認できるが、撤去費用への現行補助制度は確認できない。
+- `uruma-child-medical-aid`: こども医療費助成制度へ補正。対象は0歳から中学生（15歳到達後最初の3月31日）まで、外来・入院の保険適用自己負担分を助成。現物給付、自動償還、償還払いを確認。旧生成データの18歳年度末まで全額助成表記を公式内容へ補正。
+- `uruma-elderly-taxi`: 外出支援サービス事業へ補正。市内在住65歳以上の在宅高齢者で、介助なしでは公共交通機関の利用が困難な方を対象に、リフト車などの福祉車両で通院支援等を行う。利用は1週間往復1回程度、利用料金は原則なしを確認。
+- `uruma-health-checkup-subsidy`: 健診・人間ドック・脳ドック受診案内へ補正。集団健診、個別健診、3大がん検診、人間ドック、脳ドック、婦人がん検診、指定医療機関を確認。現行公式ページで最大3万円の助成上限は確認できないため、金額固定を避けた公式受診案内として掲載。
+- `uruma-juutaku-reform`: 島しょ地域空き家改修補助金へ補正。平安座島、宮城島、伊計島、浜比嘉島、津堅島の空き家改修が対象で、改修工事費の2分の1・上限50万円を確認。旧生成データの一般住宅リフォーム最大30万円を公式制度へ補正。
+- `uruma-scholarship-repayment`: うるま市育英会 学資金・入学準備金貸費制度へ補正。奨学金返還支援制度は公式確認できず、公式確認できる無利息貸費制度を採用。学資金は海外大学等で年額最大72万円、入学準備金は最大50万円、令和8年度前期入学準備金は2026年7月1日から7月31日を確認。
+- `uruma-school-lunch-subsidy`: 就学援助制度へ補正。経済的理由により就学困難と認められる家庭を対象に、学用品費、修学旅行費、学校給食費等を支給。令和8年度の追加申請は2026年6月1日から12月18日を確認。
+- `uruma-startup-support`: 特定創業支援等事業へ補正。会社設立時の登録免許税軽減、創業関連保証の特例拡大、沖縄振興開発金融公庫の貸付利率引き下げ、沖縄県創業者支援資金の自己資金要件緩和を確認。現金補助最大50万円は公式確認できないため、公式制度へ補正。
+- `uruma-water-saving`: 合併処理浄化槽設置事業補助金へ補正。雨水タンク設置補助金は現行公式制度として確認できず、水環境分野で公式確認できる制度を採用。令和8年度は2026年4月10日受付開始、10人槽以下、限度額50万円、2月末までの工事完了・実績報告、事前着工不可を確認。
+
+確認:
+
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし。
+- データ層確認: 対象9件は全件取得、active 8件、掲載停止1件（`uruma-block-wall-removal`）。
+- `node scripts/check-grant-source-urls.mjs --slug ...うるま市9件 --concurrency 2 --timeout-ms 120000`: 採用sourceUrls 16件はすべてHTTP 200。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 沖縄県 --limit 20`: 沖縄県の未照合raw slugは65件から56件に減少。次の沖縄県候補は浦添市9件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,463件から2,454件に減少。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,265件、activeWithoutOfficialSourceは2,458件、沖縄県ローカル公式確認済みは136件。
+- `npm run lint`: エラー0、既存警告5件のみ。
+- `npm run build`: 成功。静的ページ5,301件生成、`/grant/[slug]` は2,640件相当。未コミットのPinterest系別変更が残っているため、`/pinterest` 系ルートもビルド対象に含まれた。
+- build後の軽量HTMLチェック: 通常公開8件は詳細ページ生成・sitemap掲載・noindexなし・公式確認表示あり。掲載停止1件は詳細ページ生成・sitemap除外・`noindex, follow`・掲載停止/期限切れ表示あり。failures 0。
+
+次回再開位置:
+
+- 沖縄県Batch 136として、浦添市9件（`urasoe-block-wall-removal` / `urasoe-child-medical-aid` / `urasoe-elderly-taxi` / `urasoe-health-checkup-subsidy` / `urasoe-housing-reform` / `urasoe-juutaku-reform` / `urasoe-scholarship-repayment` / `urasoe-school-lunch-subsidy` / `urasoe-water-saving`）を公式一次情報で確認する。
+- 併せて `node scripts/audit-raw-verified-gaps.mjs --duplicates --limit 50` の重複32件から、創業支援系slugなど実害の大きい重複を公式確認済みデータへ置換する余地あり。
+- push / 公開反映は明示確認後。
