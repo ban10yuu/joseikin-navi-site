@@ -4624,3 +4624,32 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 埼玉県Batch 124として、行田市3件（`gyoda-housing-purchase` / `gyoda-migration-bonus` / `gyoda-uij-turn`）を公式一次情報で確認する。
 - その後は鴻巣市9件、春日部市17件前後の順に進める見込み。作業開始時に `node scripts/audit-raw-verified-gaps.mjs --prefecture 埼玉県 --limit 40` で再確認する。
 - push / 公開反映は明示確認後。
+
+## 2026-07-03 埼玉県Batch 124 追加ログ
+
+行田市3件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。行田市raw gapは0件、埼玉県raw gapは113件から110件、全国raw gapは2,576件から2,573件に減少した。生成データの「住宅取得支援補助金」「移住支援金」「UIJターン支援金」は、現行公式で確認できる住宅改修、移住若者向け奨学金返還支援、空き店舗等を活用した起業家支援へ補正した。
+
+追加・補正:
+
+- `gyoda-housing-purchase`: 住宅改修資金補助制度へ補正。市内所有・居住の個人住宅について、市内施工業者が行う20万円以上の改修工事を対象に、改修工事費5%・上限10万円、令和9年3月31日までの完了条件、予算範囲内を確認。現行の住宅取得支援補助金は公式確認不可。
+- `gyoda-migration-bonus`: 奨学金返還支援金制度へ補正。令和6年2月1日以降に新たに行田市へ住民登録した30歳以下の就業者などを対象に、返還額の1/2・年上限12万円・最大3年間、令和8年度返還分は2026年4月1日から2027年3月31日までを確認。東京圏移住支援金は現行公式制度として確認不可。
+- `gyoda-uij-turn`: 起業家支援事業助成金（令和8年度）へ補正。空き店舗等を賃借して新たに事業開始する方を対象に、空き店舗等改修助成は補助率1/2・市内事業者施工上限50万円、市外事業者施工上限25万円、運営助成は設備・備品購入費や宣伝費等の1/2・上限50万円、着手前申請・年度末までの事業完了を確認。一般的なUIJターン支援金は現行公式制度として確認不可。
+
+確認:
+
+- `agent-reach doctor --json`: web は Jina Reader で利用可能、Exa は未設定。行田市公式ページはJina Readerと通常HTTPで確認。
+- `npx eslint src/data/grants/verified-local-misc-2026.ts src/lib/grants.ts`: エラー0。
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts SAFE_CONTINUATION_PLAN.md tasks/todo.md`: 問題なし。
+- データ層確認: 対象3件は全件取得、deadlineDateはいずれも2027-03-31、`verified-local-misc-2026.ts` 内のslug重複0。
+- `node scripts/check-grant-source-urls.mjs --slug gyoda-housing-purchase --slug gyoda-migration-bonus --slug gyoda-uij-turn --concurrency 1 --timeout-ms 180000`: 採用sourceUrls 7件はすべてHTTP 200、failures 0。
+- `node scripts/audit-raw-verified-gaps.mjs --prefecture 埼玉県 --limit 30`: 埼玉県の未照合raw slugは113件から110件に減少。次の埼玉県候補は鴻巣市9件。
+- `node scripts/audit-raw-verified-gaps.mjs --limit 12`: 全国未照合raw slugは2,576件から2,573件に減少。未照合件数上位は福岡県127件、栃木県121件、大阪府119件、埼玉県110件。
+- `node scripts/audit-coverage.mjs`: failures 0。公式確認済みactiveは2,181件、activeWithoutOfficialSourceは2,577件、埼玉県ローカル公式確認済みは123件。active全体4,758件に対する公式確認済みactive比率は約45.8%。
+- `npm run audit:deadlines`: 5分以上無出力のままCPU走査が続いたため中断。対象3件はいずれもdeadlineDate 2027-03-31で、2026年7月3日基準では期限切れにならないことを軽量チェックで確認。coverage上の `activeExpiredLeaks` も空。
+- `npm run build`: 前回熊谷Batch 123で実行済み、今回3件のみのデータ追加のため速度改善方針により省略。次の鴻巣市9件後は前回build後12件処理となるため、20件節目または公開前にまとめて実行する。
+
+次回再開位置:
+
+- 埼玉県Batch 125として、鴻巣市9件（`kounosu-birth-bonus` / `kounosu-childcare-subsidy` / `kounosu-housing-purchase` / `kounosu-infertility` / `kounosu-migration-bonus` / `kounosu-nursing-equipment` / `kounosu-scholarship` / `kounosu-seismic-diagnosis` / `kounosu-uij-turn`）を公式一次情報で確認する。
+- その後は春日部市17件前後、所沢市以降の順に進める見込み。作業開始時に `node scripts/audit-raw-verified-gaps.mjs --prefecture 埼玉県 --limit 40` で再確認する。
+- push / 公開反映は明示確認後。
