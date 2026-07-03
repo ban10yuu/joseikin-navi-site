@@ -4,8 +4,8 @@
 
 The thread repeatedly hit the model context window because the working context became too large:
 
-- `SAFE_CONTINUATION_PLAN.md` is about 666KB and 5,255 lines.
-- `tasks/todo.md` is about 223KB and 800 lines.
+- `SAFE_CONTINUATION_PLAN.md` is about 678KB and 5,300+ lines.
+- `tasks/todo.md` is about 228KB and 800+ lines.
 - The active goal continuation also injects a large persistent objective and usage history.
 - Some previous commands searched or printed broad ranges from large logs, producing tens of thousands of tokens.
 - Web/Jina/search outputs for official-source research add more context quickly.
@@ -37,7 +37,7 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 - Repository: `/Users/banseiyuuji/joseikin-navi-site`
 - Branch: `main`, ahead of `origin/main` by 200+ commits after the latest completed local commits.
-- Last completed grant-data commit before this recovery update: `d9f37c2 花巻市残り12件と再開手順を公式補正`
+- Last completed grant-data commit before this recovery update: `1af7ef5 関市9件を公式補正`
 - Do not push or publish without explicit user confirmation.
 - Preserve unrelated dirty Pinterest/UI work:
   - `package.json`
@@ -49,22 +49,20 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 ## Last verified grant-data state
 
-Batch 148 completed in progress:
+Batch 149 completed in progress:
 
-- 岐阜県関市9件を公式補正し、関市 raw gap 0件を達成
-- 対象: `seki-dental-checkup-child` / `seki-disaster-stockpile` / `seki-family-care-leave` / `seki-fire-alarm` / `seki-maternity-dental` / `seki-shop-renovation` / `seki-tradition-craft` / `seki-twin-support` / `seki-youth-rent`
-- `seki-disaster-stockpile` は災害時協力事業所防災物資等購入補助金へ補正
-- `seki-fire-alarm` は防災行政無線戸別受信機設置費補助金へ補正
-- `seki-twin-support` は産後ケア事業へ補正
-- `seki-youth-rent` は住まいる*せき応援券へ補正
-- `seki-tradition-craft` は現行の個人向け助成金として公式確認できないため通常一覧から除外
-- 岐阜県 raw gap: `76 -> 67`
-- 全国 raw gap: `2343 -> 2334`
+- 岐阜県庁3件を公式補正し、岐阜県庁 raw gap 0件を達成
+- 対象: `gifu-child-support` / `gifu-forestry-support` / `gifu-housing-seismic`
+- `gifu-child-support` は岐阜県福祉医療費助成制度として補正。県が市町村の医療費助成へ補助する制度で、県制度上の乳幼児は小学校就学前、所得制限なし。
+- `gifu-forestry-support` は岐阜県緑の青年就業準備給付金として補正。年上限125万円、最大2年間、総額最大250万円。
+- `gifu-housing-seismic` は既存の `gifu-wooden-house-earthquake-retrofit-2026` と同一制度のため重複停止。
+- 岐阜県 raw gap: `67 -> 64`
+- 全国 raw gap: `2334 -> 2331`
 - `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
 - `git diff --check`: 問題なし
-- 採用sourceUrls 13件はすべてHTTP 200
+- 採用sourceUrls 6件はすべてHTTP 200
 - `npm run audit:coverage`: failures 0
-- `npm run build`: Batch 148では未実行。次の岐阜県Batch完了時へ繰り延べ。
+- `npm run build`: 成功。静的ページ5,503件生成、`/grant/[slug]` は2,764件相当。
 
 ## Next safe work item
 
@@ -76,13 +74,7 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 
 Expected first batch:
 
-- 岐阜県庁3件
-- Slugs:
-  - `gifu-child-support`
-  - `gifu-forestry-support`
-  - `gifu-housing-seismic`
-
-Then likely 岐阜市9件:
+- 岐阜市9件:
 
 - `gifu-city-birth-bonus`
 - `gifu-city-bousai-equipment`

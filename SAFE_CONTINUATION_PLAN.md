@@ -5334,3 +5334,15 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - その次は岐阜市9件（`gifu-city-birth-bonus` / `gifu-city-bousai-equipment` / `gifu-city-childcare-subsidy` / `gifu-city-disability-medical` / `gifu-city-energy-support` / `gifu-city-newlywed-rent` / `gifu-city-nursing-home-reform` / `gifu-city-school-lunch` / `gifu-city-telework-bonus`）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-04 岐阜県Batch 149 追加ログ
+
+岐阜県庁3件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `gifu-child-support` / `gifu-forestry-support` / `gifu-housing-seismic`。`gifu-child-support` は岐阜県福祉医療費助成制度として補正し、県が市町村の乳幼児等医療費助成へ補助する制度で、県制度上の乳幼児は小学校就学前・所得制限なしと確認した。`gifu-forestry-support` は岐阜県緑の青年就業準備給付金として補正し、年上限125万円・最大2年間、総額最大250万円へ公式値で補正した。`gifu-housing-seismic` は既存公式確認済みの `gifu-wooden-house-earthquake-retrofit-2026` と同一制度のため重複停止し、通常一覧から除外した。岐阜県庁raw gapは0件、岐阜県raw gapは67件から64件、全国raw gapは2,334件から2,331件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check` 問題なし、採用sourceUrls 6件はすべてHTTP 200、`npm run audit:coverage` failures 0、`npm run build` 成功。静的ページ5,503件生成、`/grant/[slug]` は2,764件相当。
+
+次回再開位置:
+
+- 全国raw gapの次候補は岐阜市9件（`gifu-city-birth-bonus` / `gifu-city-bousai-equipment` / `gifu-city-childcare-subsidy` / `gifu-city-disability-medical` / `gifu-city-energy-support` / `gifu-city-newlywed-rent` / `gifu-city-nursing-home-reform` / `gifu-city-school-lunch` / `gifu-city-telework-bonus`）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。

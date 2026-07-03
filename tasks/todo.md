@@ -810,5 +810,7 @@
 - [x] 岩手県Batch 147の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 30件はすべてHTTP 200、全国未照合raw slugは2,359件から2,343件、岩手県は16件から0件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,469件生成、`/grant/[slug]` は2,752件相当）
 - [x] 岐阜県Batch 148として、関市9件を公式確認済み追加・補正し、関市raw gap 0件を達成（子どもの歯の健康・フッ化物塗布、災害時協力事業所防災物資等購入補助金、在宅高齢者紙おむつ購入助成事業、防災行政無線戸別受信機設置費補助金、妊婦歯科健診、中心市街地活性化総合支援事業補助金、伝統工芸後継者育成助成金の公式確認不可抑止、産後ケア事業、住まいる*せき応援券）
 - [x] 岐阜県Batch 148の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 13件はすべてHTTP 200、全国未照合raw slugは2,343件から2,334件、岐阜県は76件から67件に減少、coverage failures 0。buildは次の岐阜県Batchで実行予定）
-- [ ] 次回候補: 全国raw gapは岐阜県庁3件（`gifu-child-support` / `gifu-forestry-support` / `gifu-housing-seismic`）から再開可能
+- [x] 岐阜県Batch 149として、岐阜県庁3件を公式確認済み追加・補正し、岐阜県庁raw gap 0件を達成（福祉医療費助成制度、緑の青年就業準備給付金、住宅耐震化緊急促進事業の木造住宅耐震改修工事費補助への統合・重複停止）
+- [x] 岐阜県Batch 149の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 6件はすべてHTTP 200、全国未照合raw slugは2,334件から2,331件、岐阜県は67件から64件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,503件生成、`/grant/[slug]` は2,764件相当）
+- [ ] 次回候補: 全国raw gapは岐阜市9件（`gifu-city-birth-bonus` / `gifu-city-bousai-equipment` / `gifu-city-childcare-subsidy` / `gifu-city-disability-medical` / `gifu-city-energy-support` / `gifu-city-newlywed-rent` / `gifu-city-nursing-home-reform` / `gifu-city-school-lunch` / `gifu-city-telework-bonus`）から再開可能
 - [ ] push / 公開反映は明示確認後に実行
