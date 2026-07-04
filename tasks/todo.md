@@ -856,5 +856,7 @@
 - [x] 宮城県Batch 170の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 8件はすべてHTTP 200、全国未照合raw slugは2,168件から2,163件、宮城県は22件から17件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,805件生成、`/grant/[slug]` は2,930件相当）
 - [x] 宮城県Batch 171として、大崎市5件を公式確認済み追加・補正（住宅購入に伴うリフォーム移住支援事業、新婚世帯家賃補助の公式確認不可・掲載停止、介護保険住宅改修費・受領委任払い、令和8年度学校給食費負担軽減、ビジネスチャンス応援事業補助金）
 - [x] 宮城県Batch 171の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 10件はすべてHTTP 200、全国未照合raw slugは2,163件から2,158件、宮城県は17件から12件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,811件生成、`/grant/[slug]` は2,935件相当）
-- [ ] 次回候補: 大崎市残り1件（`osaki-telework-bonus`）。その後、名取市（`natori-birth-bonus` / `natori-childcare-subsidy` / `natori-education-support` / `natori-elderly-support` など）から再開可能
+- [x] 宮城県Batch 172として、大崎市1件・名取市4件を公式確認済み追加・補正（地方生活実現移住助成金のテレワーク要件、妊婦のための支援給付、子育て世帯向けなとりコイン給付事業、就学援助制度、緊急通報システムの設置）
+- [x] 宮城県Batch 172の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 8件はすべてHTTP 200、全国未照合raw slugは2,158件から2,153件、宮城県は12件から7件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,818件生成、`/grant/[slug]` は2,940件相当）
+- [ ] 次回候補: 名取市raw gap（`natori-housing-purchase` / `natori-infertility` / `natori-nursing-equipment` / `natori-scholarship` / `natori-seismic-diagnosis` など）から再開可能
 - [ ] push / 公開反映は明示確認後に実行

@@ -5610,3 +5610,15 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は大崎市残り1件（`osaki-telework-bonus`）。その後、名取市（`natori-birth-bonus` / `natori-childcare-subsidy` / `natori-education-support` / `natori-elderly-support` など）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-04 宮城県Batch 172 追加ログ
+
+大崎市1件・名取市4件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `osaki-telework-bonus` / `natori-birth-bonus` / `natori-childcare-subsidy` / `natori-education-support` / `natori-elderly-support`。生成データ名をそのまま採用せず、公式ページで確認できる制度へ補正した。`osaki-telework-bonus` は地方生活実現移住助成金のテレワーク要件、`natori-birth-bonus` は妊婦のための支援給付、`natori-childcare-subsidy` は子育て世帯向けなとりコイン給付事業、`natori-education-support` は就学援助制度、`natori-elderly-support` は緊急通報システムの設置へ補正した。宮城県raw gapは12件から7件、全国raw gapは2,158件から2,153件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` 問題なし、採用sourceUrls 8件はすべてHTTP 200、`npm run audit:coverage` failures 0、`npm run build` 成功。静的ページ5,818件生成、`/grant/[slug]` は2,940件相当。
+
+次回再開位置:
+
+- 全国raw gapの次候補は名取市（`natori-housing-purchase` / `natori-infertility` / `natori-nursing-equipment` / `natori-scholarship` / `natori-seismic-diagnosis` など）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。

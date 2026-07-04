@@ -37,7 +37,7 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 - Repository: `/Users/banseiyuuji/joseikin-navi-site`
 - Branch: `main`, ahead of `origin/main` by 200+ commits after the latest completed local commits.
-- Last completed grant-data commit: `7a5a4ca 大崎市追加5件を公式補正`
+- Last completed grant-data commit: `b5b67c3 大崎名取5件を公式補正`
 - Do not push or publish without explicit user confirmation.
 - Preserve unrelated dirty Pinterest/UI work:
   - `package.json`
@@ -86,21 +86,21 @@ Expected first batch:
 
 ## Current in-progress update
 
-- Batch 171 completed:
-- 対象: `osaki-housing-reform` / `osaki-newlywed-rent` / `osaki-nursing-home-reform` / `osaki-school-lunch` / `osaki-startup-support`
-- `osaki-housing-reform` は大崎市住宅購入に伴うリフォーム移住支援事業へ補正。
-- `osaki-newlywed-rent` は新婚世帯家賃補助として公式確認不可のため掲載停止へ補正。
-- `osaki-nursing-home-reform` は介護保険住宅改修費・受領委任払いへ補正。
-- `osaki-school-lunch` は令和8年度学校給食費負担軽減へ補正。
-- `osaki-startup-support` はビジネスチャンス応援事業補助金（創業支援枠）へ補正。
-- 宮城県 raw gap: `17 -> 12`
-- 全国 raw gap: `2163 -> 2158`
+- Batch 172 completed:
+- 対象: `osaki-telework-bonus` / `natori-birth-bonus` / `natori-childcare-subsidy` / `natori-education-support` / `natori-elderly-support`
+- `osaki-telework-bonus` は大崎市地方生活実現移住助成金（テレワーク要件）へ補正。
+- `natori-birth-bonus` は妊婦のための支援給付へ補正。
+- `natori-childcare-subsidy` は子育て世帯向けなとりコイン給付事業へ補正。
+- `natori-education-support` は就学援助制度へ補正。
+- `natori-elderly-support` は緊急通報システムの設置へ補正。
+- 宮城県 raw gap: `12 -> 7`
+- 全国 raw gap: `2158 -> 2153`
 - `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
 - `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
-- 採用sourceUrls 10件はすべてHTTP 200
+- 採用sourceUrls 8件はすべてHTTP 200
 - `npm run audit:coverage`: failures 0
-- `npm run build`: 成功。静的ページ5,811件生成、`/grant/[slug]` は2,935件相当。
-- Next candidates after commit: `osaki-telework-bonus`, then `natori-birth-bonus` / `natori-childcare-subsidy` / `natori-education-support` / `natori-elderly-support`
+- `npm run build`: 成功。静的ページ5,818件生成、`/grant/[slug]` は2,940件相当。
+- Next candidates after commit: `natori-housing-purchase`, `natori-infertility`, `natori-nursing-equipment`, `natori-scholarship`, `natori-seismic-diagnosis`
 
 ## Recommended execution pattern
 
