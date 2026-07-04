@@ -37,7 +37,7 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 - Repository: `/Users/banseiyuuji/joseikin-navi-site`
 - Branch: `main`, ahead of `origin/main` by 200+ commits after the latest completed local commits.
-- Last completed grant-data commit before Batch 160: `dccba29 小林市9件を公式補正`
+- Last completed grant-data commit before Batch 161: `d4836fd 西都市9件を公式補正`
 - Do not push or publish without explicit user confirmation.
 - Preserve unrelated dirty Pinterest/UI work:
   - `package.json`
@@ -49,26 +49,26 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 ## Last verified grant-data state
 
-- Batch 160 completed in progress:
+- Batch 161 completed in progress:
 
-- 西都市9件を公式補正し、西都市 raw gap 0件を達成
-- 対象: `saito-block-wall-removal` / `saito-child-medical-aid` / `saito-elderly-taxi` / `saito-health-checkup-subsidy` / `saito-juutaku-reform` / `saito-scholarship-repayment` / `saito-school-lunch-subsidy` / `saito-startup-support` / `saito-water-saving`
-- `saito-block-wall-removal` はブロック塀等撤去補助金の現行募集詳細確認不可により掲載停止。
-- `saito-child-medical-aid` はこども医療費助成制度へ補正。
-- `saito-elderly-taxi` は敬老バス事業へ補正。
-- `saito-health-checkup-subsidy` は国保簡易人間ドック助成事業へ補正。
-- `saito-juutaku-reform` は令和8年度住宅改修支援事業補助金へ補正。
-- `saito-scholarship-repayment` は奨学生定住促進補助金へ補正。
-- `saito-school-lunch-subsidy` は小・中学生の就学援助制度へ補正。
-- `saito-startup-support` は創業等支援事業補助金へ補正。
-- `saito-water-saving` は浄化槽設置整備事業補助金へ補正。
-- 宮崎県 raw gap: `35 -> 26`
-- 全国 raw gap: `2230 -> 2221`
+- 都城市9件を公式補正
+- 対象: `miyakonojo-birth-bonus` / `miyakonojo-block-wall-removal` / `miyakonojo-child-medical-aid` / `miyakonojo-childcare-subsidy` / `miyakonojo-elderly-support` / `miyakonojo-elderly-taxi` / `miyakonojo-health-checkup-subsidy` / `miyakonojo-housing-purchase` / `miyakonojo-infertility`
+- `miyakonojo-birth-bonus` は妊婦支援給付金へ補正。
+- `miyakonojo-block-wall-removal` は危険ブロック塀等除却促進事業へ補正。
+- `miyakonojo-child-medical-aid` は既存の子ども医療費助成制度への重複停止。
+- `miyakonojo-childcare-subsidy` は保育料の完全無料化へ補正。
+- `miyakonojo-elderly-support` は寝具類等洗濯乾燥消毒事業へ補正。
+- `miyakonojo-elderly-taxi` は敬老特別乗車券へ補正。
+- `miyakonojo-health-checkup-subsidy` は令和8年度国民健康保険日帰り人間ドックへ補正。
+- `miyakonojo-housing-purchase` は既存の移住応援給付金への統合・重複停止。
+- `miyakonojo-infertility` は不妊治療費助成事業へ補正。
+- 宮崎県 raw gap: `26 -> 17`
+- 全国 raw gap: `2221 -> 2212`
 - `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
 - `git diff --check`: 問題なし
-- 採用sourceUrls 14件はすべてHTTP 200
+- 採用sourceUrls 18件はすべてHTTP 200
 - `npm run audit:coverage`: failures 0
-- `npm run build`: 成功。静的ページ5,691件生成、`/grant/[slug]` は2,872件相当。
+- `npm run build`: 成功。静的ページ5,704件生成、`/grant/[slug]` は2,881件相当。
 
 ## Next safe work item
 
@@ -80,16 +80,16 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 
 Expected first batch:
 
-- 都城市のcity-batch61/city-batch93由来:
-  - `miyakonojo-birth-bonus`
-  - `miyakonojo-block-wall-removal`
-  - `miyakonojo-child-medical-aid`
-  - `miyakonojo-childcare-subsidy`
-  - `miyakonojo-elderly-support`
-  - `miyakonojo-elderly-taxi`
-  - `miyakonojo-health-checkup-subsidy`
-  - `miyakonojo-housing-purchase`
-  - `miyakonojo-infertility`
+- 都城市の残り9件:
+  - `miyakonojo-juutaku-reform`
+  - `miyakonojo-nursing-equipment`
+  - `miyakonojo-scholarship`
+  - `miyakonojo-scholarship-repayment`
+  - `miyakonojo-school-lunch-subsidy`
+  - `miyakonojo-seismic-diagnosis`
+  - `miyakonojo-sme-support`
+  - `miyakonojo-startup-support`
+  - `miyakonojo-water-saving`
 
 ## Recommended execution pattern
 

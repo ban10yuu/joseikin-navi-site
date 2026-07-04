@@ -5310,6 +5310,18 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
 
+## 2026-07-04 宮崎県Batch 161 追加ログ
+
+都城市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `miyakonojo-birth-bonus` / `miyakonojo-block-wall-removal` / `miyakonojo-child-medical-aid` / `miyakonojo-childcare-subsidy` / `miyakonojo-elderly-support` / `miyakonojo-elderly-taxi` / `miyakonojo-health-checkup-subsidy` / `miyakonojo-housing-purchase` / `miyakonojo-infertility`。生成データ名をそのまま採用せず、都城市公式ページ・公式PDFで確認できる制度へ補正した。`miyakonojo-birth-bonus` は妊婦支援給付金、`miyakonojo-block-wall-removal` は危険ブロック塀等除却促進事業、`miyakonojo-child-medical-aid` は既存の子ども医療費助成制度への重複停止、`miyakonojo-childcare-subsidy` は保育料の完全無料化、`miyakonojo-elderly-support` は寝具類等洗濯乾燥消毒事業、`miyakonojo-elderly-taxi` は敬老特別乗車券、`miyakonojo-health-checkup-subsidy` は令和8年度国民健康保険日帰り人間ドック、`miyakonojo-housing-purchase` は既存の移住応援給付金への統合・重複停止、`miyakonojo-infertility` は不妊治療費助成事業へ補正した。宮崎県raw gapは26件から17件、全国raw gapは2,221件から2,212件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check` 問題なし、採用sourceUrls 18件はすべてHTTP 200、`npm run audit:coverage` failures 0、`npm run build` 成功。静的ページ5,704件生成、`/grant/[slug]` は2,881件相当。
+
+次回再開位置:
+
+- 全国raw gapの次候補は都城市残り9件（`miyakonojo-juutaku-reform` / `miyakonojo-nursing-equipment` / `miyakonojo-scholarship` / `miyakonojo-scholarship-repayment` / `miyakonojo-school-lunch-subsidy` / `miyakonojo-seismic-diagnosis` / `miyakonojo-sme-support` / `miyakonojo-startup-support` / `miyakonojo-water-saving`）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。
+
 ## 2026-07-04 岩手県Batch 147 追加ログ
 
 岩手県庁1件と盛岡市15件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `iwate-education-scholarship-returnee` / `morioka-afterschool` / `morioka-block-wall-removal` / `morioka-bousai-equipment` / `morioka-child-medical-aid` / `morioka-elderly-taxi` / `morioka-health-checkup-subsidy` / `morioka-infertility` / `morioka-juutaku-reform` / `morioka-migration-bonus` / `morioka-scholarship-repayment` / `morioka-school-lunch-subsidy` / `morioka-startup-support` / `morioka-vacant-house` / `morioka-water-saving` / `morioka-women-startup`。生成データ名をそのまま採用せず、盛岡市公式ページで確認できる現行制度へ補正した。`morioka-bousai-equipment` は自主防災組織への防災資機材支援、`morioka-elderly-taxi` は福祉タクシー及びガソリン等助成券、`morioka-school-lunch-subsidy` は学校給食食材費臨時補助事業、`morioka-women-startup` は起業応援ルーム芽でるネットに補正した。岩手県raw gapは16件から0件、全国raw gapは2,359件から2,343件に減少した。

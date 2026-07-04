@@ -834,5 +834,7 @@
 - [x] 宮崎県Batch 159の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 15件はすべてHTTP 200、全国未照合raw slugは2,239件から2,230件、宮崎県は44件から35件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,676件生成、`/grant/[slug]` は2,863件相当）
 - [x] 宮崎県Batch 160として、西都市9件を公式確認済み追加・補正し、西都市raw gap 0件を達成（ブロック塀等撤去補助金の現行募集詳細確認不可による掲載停止、こども医療費助成制度、敬老バス事業、国保簡易人間ドック助成事業、令和8年度住宅改修支援事業補助金、奨学生定住促進補助金、小・中学生の就学援助制度、創業等支援事業補助金、浄化槽設置整備事業補助金）
 - [x] 宮崎県Batch 160の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 14件はすべてHTTP 200、全国未照合raw slugは2,230件から2,221件、宮崎県は35件から26件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,691件生成、`/grant/[slug]` は2,872件相当）
-- [ ] 次回候補: 都城市のcity-batch61/city-batch93由来（`miyakonojo-birth-bonus` / `miyakonojo-block-wall-removal` / `miyakonojo-child-medical-aid` / `miyakonojo-childcare-subsidy` / `miyakonojo-elderly-support` / `miyakonojo-elderly-taxi` / `miyakonojo-health-checkup-subsidy` / `miyakonojo-housing-purchase` / `miyakonojo-infertility` など）から再開可能
+- [x] 宮崎県Batch 161として、都城市9件を公式確認済み追加・補正（妊婦支援給付金、危険ブロック塀等除却促進事業、子ども医療費助成制度の重複停止、保育料の完全無料化、寝具類等洗濯乾燥消毒事業、敬老特別乗車券、令和8年度国民健康保険日帰り人間ドック、住宅取得支援生成slugの移住応援給付金への統合・重複停止、不妊治療費助成事業）
+- [x] 宮崎県Batch 161の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 18件はすべてHTTP 200、全国未照合raw slugは2,221件から2,212件、宮崎県は26件から17件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,704件生成、`/grant/[slug]` は2,881件相当）
+- [ ] 次回候補: 都城市残り9件（`miyakonojo-juutaku-reform` / `miyakonojo-nursing-equipment` / `miyakonojo-scholarship` / `miyakonojo-scholarship-repayment` / `miyakonojo-school-lunch-subsidy` / `miyakonojo-seismic-diagnosis` / `miyakonojo-sme-support` / `miyakonojo-startup-support` / `miyakonojo-water-saving`）から再開可能
 - [ ] push / 公開反映は明示確認後に実行
