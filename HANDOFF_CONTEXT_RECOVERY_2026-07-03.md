@@ -37,7 +37,7 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 - Repository: `/Users/banseiyuuji/joseikin-navi-site`
 - Branch: `main`, ahead of `origin/main` by 200+ commits after the latest completed local commits.
-- Last completed grant-data commit: `e413f57 名取市5件を公式補正`
+- Last completed grant-data commit: `git log -1` の `名取市残り2件を公式補正`
 - Do not push or publish without explicit user confirmation.
 - Preserve unrelated dirty Pinterest/UI work:
   - `package.json`
@@ -95,14 +95,18 @@ Expected first batch:
 - `natori-nursing-equipment` は在宅ねたきり老人等紙おむつ支給事業へ補正。
 - `natori-scholarship` は母子父子寡婦福祉資金（修学資金等）の案内へ補正。
 - `natori-seismic-diagnosis` は木造住宅耐震診断助成事業へ補正。
-- 宮城県 raw gap: `7 -> 2`
-- 全国 raw gap: `2153 -> 2148`
+- Batch 174 completed:
+- 対象: `natori-sme-support` / `natori-vaccination-support`
+- `natori-sme-support` は中小企業融資制度・事業継続力強化計画策定奨励金へ補正。
+- `natori-vaccination-support` は高齢者向け予防接種費用助成へ補正。
+- 宮城県 raw gap: `2 -> 0`
+- 全国 raw gap: `2148 -> 2146`
 - `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
 - `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
-- 採用sourceUrls 8件はすべてHTTP 200
-- `npm run audit:coverage`: failures 0
-- `npm run build`: 成功。静的ページ5,825件生成、`/grant/[slug]` は2,945件相当。
-- Next candidates after commit: `natori-sme-support`, `natori-vaccination-support`, then 京都府綾部市raw gap
+- 採用sourceUrls 6件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,509件、宮城県ローカル公式確認済みは60件。
+- `npm run build`: 成功。静的ページ5,831件生成、`/grant/[slug]` は2,947件相当。
+- Next candidates after commit: 京都府綾部市raw gap（`ayabe-aged-meal-delivery`, `ayabe-bicycle-helmet`, `ayabe-child-third-free`, `ayabe-culture-experience`, `ayabe-dementia-family`）
 
 ## Recommended execution pattern
 

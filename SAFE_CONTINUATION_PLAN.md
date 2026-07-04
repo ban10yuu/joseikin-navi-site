@@ -5634,3 +5634,15 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は名取市残り2件（`natori-sme-support` / `natori-vaccination-support`）。その後は京都府綾部市raw gapへ移行。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-05 宮城県Batch 174 追加ログ
+
+名取市残り2件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正し、宮城県raw gap 0件を達成した。対象は `natori-sme-support` / `natori-vaccination-support`。生成データ名をそのまま採用せず、公式ページで確認できる制度へ補正した。`natori-sme-support` は中小企業融資制度・事業継続力強化計画策定奨励金、`natori-vaccination-support` は高齢者向け予防接種費用助成（帯状疱疹・高齢者肺炎球菌）へ補正した。宮城県raw gapは2件から0件、全国raw gapは2,148件から2,146件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` 問題なし、採用sourceUrls 6件はすべてHTTP 200。`npm run audit:coverage` は failures 0、公式確認済みactiveは2,509件、宮城県ローカル公式確認済みは60件。`npm run build` は成功し、静的ページ5,831件生成、`/grant/[slug]` は2,947件相当。
+
+次回再開位置:
+
+- 全国raw gapの次候補は京都府綾部市（`ayabe-aged-meal-delivery` / `ayabe-bicycle-helmet` / `ayabe-child-third-free` / `ayabe-culture-experience` / `ayabe-dementia-family` など）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。
