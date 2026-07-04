@@ -5454,3 +5454,15 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は小林市9件（`kobayashi-block-wall-removal` / `kobayashi-child-medical-aid` / `kobayashi-elderly-taxi` / `kobayashi-health-checkup-subsidy` / `kobayashi-juutaku-reform` / `kobayashi-scholarship-repayment` / `kobayashi-school-lunch-subsidy` / `kobayashi-startup-support` / `kobayashi-water-saving`）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-04 宮崎県Batch 159 追加ログ
+
+小林市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `kobayashi-block-wall-removal` / `kobayashi-child-medical-aid` / `kobayashi-elderly-taxi` / `kobayashi-health-checkup-subsidy` / `kobayashi-juutaku-reform` / `kobayashi-scholarship-repayment` / `kobayashi-school-lunch-subsidy` / `kobayashi-startup-support` / `kobayashi-water-saving`。生成データ名をそのまま採用せず、小林市公式ページ・公式PDFで確認できる制度へ補正した。`kobayashi-block-wall-removal` は危険ブロック塀除却補助の現行募集詳細確認不可により掲載停止、`kobayashi-child-medical-aid` は子育て支援子ども医療費助成事業、`kobayashi-elderly-taxi` は福祉タクシー料金助成事業、`kobayashi-health-checkup-subsidy` は令和8年度国保人間ドック費用助成、`kobayashi-juutaku-reform` は住宅等リフォーム促進事業補助金、`kobayashi-scholarship-repayment` は未来につなぐ人材応援奨学金返還サポート補助金、`kobayashi-school-lunch-subsidy` は学校給食と給食費支援、`kobayashi-startup-support` は空店舗活用新規創業者支援事業費補助金、`kobayashi-water-saving` は浄化槽設置費補助事業へ補正した。小林市raw gapは0件、宮崎県raw gapは44件から35件、全国raw gapは2,239件から2,230件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check` 問題なし、採用sourceUrls 15件はすべてHTTP 200、`npm run audit:coverage` failures 0、`npm run build` 成功。静的ページ5,676件生成、`/grant/[slug]` は2,863件相当。
+
+次回再開位置:
+
+- 全国raw gapの次候補は西都市9件（`saito-block-wall-removal` / `saito-child-medical-aid` / `saito-elderly-taxi` / `saito-health-checkup-subsidy` / `saito-juutaku-reform` / `saito-scholarship-repayment` / `saito-school-lunch-subsidy` / `saito-startup-support` / `saito-water-saving`）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。

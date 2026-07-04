@@ -830,5 +830,7 @@
 - [x] 宮崎県Batch 157の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 20件はすべてHTTP 200、全国未照合raw slugは2,258件から2,248件、宮崎県は63件から53件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,649件生成、`/grant/[slug]` は2,845件相当）
 - [x] 宮崎県Batch 158として、宮崎市9件を公式確認済み追加・補正し、宮崎市raw gap 0件を達成（奨学金返還支援事業、奨学金給付制度の重複停止、テレワーク移住支援の移住支援給付金への統合、敬老バスカ、木造建築物等地震対策促進事業の令和8年度受付終了扱い、奨学金返還支援制度の重複停止、小学校・中学校の就学援助費、中小企業融資制度の創業支援資金、水洗便所改造等資金助成制度）
 - [x] 宮崎県Batch 158の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 16件はすべてHTTP 200、全国未照合raw slugは2,248件から2,239件、宮崎県は53件から44件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,663件生成、`/grant/[slug]` は2,854件相当）
-- [ ] 次回候補: 小林市9件（`kobayashi-block-wall-removal` / `kobayashi-child-medical-aid` / `kobayashi-elderly-taxi` / `kobayashi-health-checkup-subsidy` / `kobayashi-juutaku-reform` / `kobayashi-scholarship-repayment` / `kobayashi-school-lunch-subsidy` / `kobayashi-startup-support` / `kobayashi-water-saving`）から再開可能
+- [x] 宮崎県Batch 159として、小林市9件を公式確認済み追加・補正し、小林市raw gap 0件を達成（危険ブロック塀除却補助の現行募集詳細確認不可による掲載停止、子育て支援子ども医療費助成事業、福祉タクシー料金助成事業、令和8年度国保人間ドック費用助成、住宅等リフォーム促進事業補助金、未来につなぐ人材応援奨学金返還サポート補助金、学校給食と給食費支援、空店舗活用新規創業者支援事業費補助金、浄化槽設置費補助事業）
+- [x] 宮崎県Batch 159の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 15件はすべてHTTP 200、全国未照合raw slugは2,239件から2,230件、宮崎県は44件から35件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,676件生成、`/grant/[slug]` は2,863件相当）
+- [ ] 次回候補: 西都市9件（`saito-block-wall-removal` / `saito-child-medical-aid` / `saito-elderly-taxi` / `saito-health-checkup-subsidy` / `saito-juutaku-reform` / `saito-scholarship-repayment` / `saito-school-lunch-subsidy` / `saito-startup-support` / `saito-water-saving`）から再開可能
 - [ ] push / 公開反映は明示確認後に実行
