@@ -5646,3 +5646,16 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は京都府綾部市（`ayabe-aged-meal-delivery` / `ayabe-bicycle-helmet` / `ayabe-child-third-free` / `ayabe-culture-experience` / `ayabe-dementia-family` など）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-05 京都府Batch 175 追加ログ
+
+綾部市7件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `ayabe-aged-meal-delivery` / `ayabe-child-third-free` / `ayabe-culture-experience` / `ayabe-dementia-family` / `ayabe-landslide-sensor` / `ayabe-postpartum-care` / `ayabe-uij-housing`。生成データ名をそのまま採用せず、公式ページで確認できる制度へ補正した。`ayabe-aged-meal-delivery` は在宅高齢者等配食サービス事業、`ayabe-child-third-free` は出産・子育て応援事業、`ayabe-culture-experience` は日本に伝わる文化体験フェア、`ayabe-dementia-family` は認知症高齢者支援事業、`ayabe-landslide-sensor` は木造住宅本格耐震改修事業、`ayabe-postpartum-care` は産後ケア事業、`ayabe-uij-housing` は定住促進事業費補助金・水源の里定住支援給付金へ補正した。京都府raw gapは63件から56件、全国raw gapは2,146件から2,139件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` 問題なし、採用sourceUrls 13件はすべてHTTP 200。`npm run audit:coverage` は failures 0、公式確認済みactiveは2,516件、京都府ローカル公式確認済みは25件。`npm run build` は成功し、静的ページ5,847件生成、`/grant/[slug]` は2,954件相当。
+
+次回再開位置:
+
+- 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は、現行公式制度としての確認が弱いため保留。`ayabe-bicycle-helmet` は広報PDF上の令和7年度中学1年生対象1,000円補助のみ確認、`ayabe-tea-business` は生成名に一致する現行補助ページを確認できていない。
+- 全国raw gapの次候補は宇治市（`uji-aged-meal-delivery` / `uji-bicycle-helmet` / `uji-child-third-free` / `uji-culture-experience` / `uji-dementia-family` など）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。

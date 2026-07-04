@@ -37,7 +37,7 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 - Repository: `/Users/banseiyuuji/joseikin-navi-site`
 - Branch: `main`, ahead of `origin/main` by 200+ commits after the latest completed local commits.
-- Last completed grant-data commit: `git log -1` の `名取市残り2件を公式補正`
+- Last completed grant-data commit: `git log -1` の最新助成金データ補正コミット
 - Do not push or publish without explicit user confirmation.
 - Preserve unrelated dirty Pinterest/UI work:
   - `package.json`
@@ -106,7 +106,23 @@ Expected first batch:
 - 採用sourceUrls 6件はすべてHTTP 200
 - `npm run audit:coverage`: failures 0。公式確認済みactiveは2,509件、宮城県ローカル公式確認済みは60件。
 - `npm run build`: 成功。静的ページ5,831件生成、`/grant/[slug]` は2,947件相当。
-- Next candidates after commit: 京都府綾部市raw gap（`ayabe-aged-meal-delivery`, `ayabe-bicycle-helmet`, `ayabe-child-third-free`, `ayabe-culture-experience`, `ayabe-dementia-family`）
+- Batch 175 completed:
+- 対象: `ayabe-aged-meal-delivery` / `ayabe-child-third-free` / `ayabe-culture-experience` / `ayabe-dementia-family` / `ayabe-landslide-sensor` / `ayabe-postpartum-care` / `ayabe-uij-housing`
+- `ayabe-aged-meal-delivery` は在宅高齢者等配食サービス事業へ補正。
+- `ayabe-child-third-free` は出産・子育て応援事業へ補正。
+- `ayabe-culture-experience` は日本に伝わる文化体験フェアへ補正。
+- `ayabe-dementia-family` は認知症高齢者支援事業（GPS機器の利用助成）へ補正。
+- `ayabe-landslide-sensor` は木造住宅本格耐震改修事業へ補正。
+- `ayabe-postpartum-care` は産後ケア事業へ補正。
+- `ayabe-uij-housing` は定住促進事業費補助金・水源の里定住支援給付金へ補正。
+- 京都府 raw gap: `63 -> 56`
+- 全国 raw gap: `2146 -> 2139`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 13件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,516件、京都府ローカル公式確認済みは25件。
+- `npm run build`: 成功。静的ページ5,847件生成、`/grant/[slug]` は2,954件相当。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため保留し、宇治市raw gap（`uji-aged-meal-delivery`, `uji-bicycle-helmet`, `uji-child-third-free`, `uji-culture-experience`, `uji-dementia-family`）へ進む。
 
 ## Recommended execution pattern
 

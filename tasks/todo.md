@@ -862,5 +862,7 @@
 - [x] 宮城県Batch 173の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 8件はすべてHTTP 200、全国未照合raw slugは2,153件から2,148件、宮城県は7件から2件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,825件生成、`/grant/[slug]` は2,945件相当）
 - [x] 宮城県Batch 174として、名取市残り2件を公式確認済み追加・補正し、宮城県raw gap 0件を達成（中小企業融資制度・事業継続力強化計画策定奨励金、高齢者向け予防接種費用助成）
 - [x] 宮城県Batch 174の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 6件はすべてHTTP 200、全国未照合raw slugは2,148件から2,146件、宮城県は2件から0件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,831件生成、`/grant/[slug]` は2,947件相当）
-- [ ] 次回候補: 京都府綾部市raw gap（`ayabe-aged-meal-delivery` / `ayabe-bicycle-helmet` / `ayabe-child-third-free` / `ayabe-culture-experience` / `ayabe-dementia-family` など）から再開可能
+- [x] 京都府Batch 175として、綾部市7件を公式確認済み追加・補正（在宅高齢者等配食サービス事業、出産・子育て応援事業、日本に伝わる文化体験フェア、認知症高齢者支援事業、木造住宅本格耐震改修事業、産後ケア事業、定住促進事業費補助金・水源の里定住支援給付金）
+- [x] 京都府Batch 175の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 13件はすべてHTTP 200、全国未照合raw slugは2,146件から2,139件、京都府は63件から56件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,847件生成、`/grant/[slug]` は2,954件相当）
+- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は宇治市raw gap（`uji-aged-meal-delivery` / `uji-bicycle-helmet` / `uji-child-third-free` / `uji-culture-experience` / `uji-dementia-family` など）から再開可能
 - [ ] push / 公開反映は明示確認後に実行
