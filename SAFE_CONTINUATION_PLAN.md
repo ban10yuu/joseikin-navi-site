@@ -5672,3 +5672,16 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は亀岡市（`kameoka-aged-meal-delivery` / `kameoka-bicycle-helmet` / `kameoka-child-third-free` / `kameoka-culture-experience` / `kameoka-dementia-family` など）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-05 京都府Batch 177 追加ログ
+
+亀岡市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `kameoka-aged-meal-delivery` / `kameoka-bicycle-helmet` / `kameoka-child-third-free` / `kameoka-culture-experience` / `kameoka-dementia-family` / `kameoka-landslide-sensor` / `kameoka-postpartum-care` / `kameoka-tea-business` / `kameoka-uij-housing`。生成データ名をそのまま採用せず、公式ページ・公式PDFで確認できる制度へ補正した。`kameoka-aged-meal-delivery` は現行制度として確認できず過去資料に廃止記録があるため掲載停止、他8件は現行公式制度へ補正した。京都府raw gapは45件から36件、全国raw gapは2,128件から2,119件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` 問題なし、採用sourceUrls 24件はすべてHTTP 200。`npm run audit:coverage` は failures 0、公式確認済みactiveは2,535件、京都府ローカル公式確認済みは44件。初回 `npm run build` はcode 137でOS側終了したため、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` で再実行し成功。静的ページ5,891件生成、`/grant/[slug]` は2,974件相当。
+
+次回再開位置:
+
+- 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度としての確認が弱いため引き続き保留。
+- 全国raw gapの次候補は京都市（`kyoto-city-birth-bonus` / `kyoto-city-energy-support` / `kyoto-city-housing-purchase` / `kyoto-city-scholarship` / `kyoto-city-study-abroad` など）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。

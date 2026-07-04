@@ -142,7 +142,25 @@ Expected first batch:
 - 採用sourceUrls 26件はすべてHTTP 200
 - `npm run audit:coverage`: failures 0。公式確認済みactiveは2,526件、京都府ローカル公式確認済みは35件。
 - `npm run build`: 成功。静的ページ5,875件生成、`/grant/[slug]` は2,965件相当。
-- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため保留し、亀岡市raw gap（`kameoka-aged-meal-delivery`, `kameoka-bicycle-helmet`, `kameoka-child-third-free`, `kameoka-culture-experience`, `kameoka-dementia-family`）へ進む。
+- Batch 177 completed:
+- 対象: `kameoka-aged-meal-delivery` / `kameoka-bicycle-helmet` / `kameoka-child-third-free` / `kameoka-culture-experience` / `kameoka-dementia-family` / `kameoka-landslide-sensor` / `kameoka-postpartum-care` / `kameoka-tea-business` / `kameoka-uij-housing`
+- `kameoka-aged-meal-delivery` は高齢者配食サービス助成の公式確認不可・廃止記録ありとして掲載停止。
+- `kameoka-bicycle-helmet` は自転車用ヘルメット購入補助金へ補正。
+- `kameoka-child-third-free` は妊婦のための支援給付へ補正。
+- `kameoka-culture-experience` は地球環境子ども村 かめおか自然アカデミー2026へ補正。
+- `kameoka-dementia-family` は認知症高齢者等居場所確認専用端末機貸与事業へ補正。
+- `kameoka-landslide-sensor` は木造住宅耐震改修事業費補助金へ補正。
+- `kameoka-postpartum-care` は産後ケア事業へ補正。
+- `kameoka-tea-business` は特産品小豆生産振興助成事業へ補正。
+- `kameoka-uij-housing` は移住促進特別区域内の空き家活用支援へ補正。
+- 京都府 raw gap: `45 -> 36`
+- 全国 raw gap: `2128 -> 2119`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 24件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,535件、京都府ローカル公式確認済みは44件。
+- `npm run build`: 初回code 137でOS側終了。`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` で再実行し成功。静的ページ5,891件生成、`/grant/[slug]` は2,974件相当。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため保留し、京都市raw gap（`kyoto-city-birth-bonus`, `kyoto-city-energy-support`, `kyoto-city-housing-purchase`, `kyoto-city-scholarship`, `kyoto-city-study-abroad`）へ進む。
 
 ## Recommended execution pattern
 
