@@ -37,7 +37,7 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 - Repository: `/Users/banseiyuuji/joseikin-navi-site`
 - Branch: `main`, ahead of `origin/main` by 200+ commits after the latest completed local commits.
-- Last completed grant-data commit before Batch 154: `2669a00 多治見市9件を公式補正`
+- Last completed grant-data commit before Batch 155: `986508c 大垣市19件を公式補正`
 - Do not push or publish without explicit user confirmation.
 - Preserve unrelated dirty Pinterest/UI work:
   - `package.json`
@@ -49,32 +49,26 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 ## Last verified grant-data state
 
-- Batch 154 completed in progress:
+- Batch 155 completed in progress:
 
-- 大垣市19件を公式補正し、大垣市 raw gap 0件を達成
-- 対象: `ogaki-birth-bonus` / `ogaki-childcare-subsidy` / `ogaki-dental-checkup-child` / `ogaki-disaster-stockpile` / `ogaki-elderly-support` / `ogaki-family-care-leave` / `ogaki-fire-alarm` / `ogaki-housing-purchase` / `ogaki-housing-seismic` / `ogaki-infertility` / `ogaki-maternity-dental` / `ogaki-nursing-equipment` / `ogaki-scholarship` / `ogaki-seismic-diagnosis` / `ogaki-shop-renovation` / `ogaki-sme-support` / `ogaki-tradition-craft` / `ogaki-twin-support` / `ogaki-youth-rent`
-- `ogaki-birth-bonus` は妊婦のための支援給付へ補正。
-- `ogaki-childcare-subsidy` は子ども医療費助成制度へ補正。
-- `ogaki-dental-checkup-child` は令和8年度フッ化物塗布へ補正。
-- `ogaki-disaster-stockpile` は個人世帯向け補助として公式確認できないため、自主防災組織支援へ補正し通常一覧から除外。
-- `ogaki-elderly-support` はひとり暮らし高齢者等見守りほっとライン事業へ補正。
-- `ogaki-family-care-leave` / `ogaki-nursing-equipment` は家族介護慰労事業（紙おむつ等の給付）へ補正。
-- `ogaki-fire-alarm` は福祉用具給付事業へ補正。
-- `ogaki-housing-purchase` / `ogaki-youth-rent` は子育て世代等住宅取得支援事業利子補給金へ補正。
-- `ogaki-housing-seismic` / `ogaki-seismic-diagnosis` は令和8年度耐震補助制度へ補正。
-- `ogaki-infertility` は岐阜県特定不妊治療助成事業の案内へ補正。
-- `ogaki-maternity-dental` は令和8年度マタニティ歯科健康診査へ補正。
-- `ogaki-shop-renovation` はリフレッシュサポート事業補助金へ補正。
-- `ogaki-sme-support` は中小企業者等物価高騰対策支援事業補助金へ補正。
-- `ogaki-tradition-craft` は現行個人助成として公式確認できないため通常一覧から除外。
-- `ogaki-twin-support` は多胎妊婦の妊婦健康診査追加助成へ補正。
-- 岐阜県 raw gap: `28 -> 9`
-- 全国 raw gap: `2295 -> 2276`
+- 中津川市city-batch76由来9件を公式補正し、中津川市 raw gap 0件・岐阜県 raw gap 0件を達成
+- 対象: `nakatsugawa-dental-checkup-child` / `nakatsugawa-disaster-stockpile` / `nakatsugawa-family-care-leave` / `nakatsugawa-fire-alarm` / `nakatsugawa-maternity-dental` / `nakatsugawa-shop-renovation` / `nakatsugawa-tradition-craft` / `nakatsugawa-twin-support` / `nakatsugawa-youth-rent`
+- `nakatsugawa-dental-checkup-child` は乳幼児健診・相談の歯科健診とフッ素塗布へ補正。
+- `nakatsugawa-disaster-stockpile` は個人世帯向け補助として公式確認できないため、防災資機材等整備事業へ補正し通常一覧から除外。
+- `nakatsugawa-family-care-leave` はおむつ等購入費の助成へ補正。月5,000円。
+- `nakatsugawa-fire-alarm` は住宅用火災警報器補助として公式確認できないため、設置・交換案内として通常一覧から除外。
+- `nakatsugawa-maternity-dental` は妊婦歯科健診へ補正。
+- `nakatsugawa-shop-renovation` は空き店舗活用支援事業へ補正し、受付終了扱い。
+- `nakatsugawa-tradition-craft` は現行個人助成として公式確認できないため通常一覧から除外。
+- `nakatsugawa-twin-support` は多胎妊婦の妊婦健康診査5回追加助成へ補正。
+- `nakatsugawa-youth-rent` は空き家に住もう応援事業補助金へ補正。
+- 岐阜県 raw gap: `9 -> 0`
+- 全国 raw gap: `2276 -> 2267`
 - `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
 - `git diff --check`: 問題なし
-- 採用sourceUrls 40件はすべてHTTP 200
+- 採用sourceUrls 15件はすべてHTTP 200
 - `npm run audit:coverage`: failures 0
-- `npm run build`: 成功。静的ページ5,599件生成、`/grant/[slug]` は2,818件相当。
+- `npm run build`: 成功。静的ページ5,615件生成、`/grant/[slug]` は2,827件相当。
 
 ## Next safe work item
 
@@ -86,16 +80,16 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 
 Expected first batch:
 
-- 中津川市9件:
-  - `nakatsugawa-dental-checkup-child`
-  - `nakatsugawa-disaster-stockpile`
-  - `nakatsugawa-family-care-leave`
-  - `nakatsugawa-fire-alarm`
-  - `nakatsugawa-maternity-dental`
-  - `nakatsugawa-shop-renovation`
-  - `nakatsugawa-tradition-craft`
-  - `nakatsugawa-twin-support`
-  - `nakatsugawa-youth-rent`
+- 宮崎県延岡市9件:
+  - `nobeoka-block-wall-removal`
+  - `nobeoka-child-medical-aid`
+  - `nobeoka-elderly-taxi`
+  - `nobeoka-health-checkup-subsidy`
+  - `nobeoka-juutaku-reform`
+  - `nobeoka-scholarship-repayment`
+  - `nobeoka-school-lunch-subsidy`
+  - `nobeoka-startup-support`
+  - `nobeoka-water-saving`
 
 ## Recommended execution pattern
 
