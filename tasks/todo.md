@@ -840,5 +840,7 @@
 - [x] 宮崎県Batch 162の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 19件はすべてHTTP 200、全国未照合raw slugは2,212件から2,203件、宮崎県は17件から8件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,720件生成、`/grant/[slug]` は2,890件相当）
 - [x] 宮崎県Batch 163として、日向市8件を公式確認済み追加・補正し、日向市raw gap 0件・宮崎県raw gap 0件を達成（ひゅうが住まいの耐震化等支援事業の危険ブロック塀等除却・建替え、子ども医療費助成制度、重度障がい者等タクシー券、令和8年度特定健診・長寿健診、ひゅうが住まいの耐震化等支援事業の耐震・耐風改修、若者定住促進奨学金返還支援補助金、令和8年度学校給食費の見直し・保護者負担軽減、令和8年度浄化槽設置整備事業補助金）
 - [x] 宮崎県Batch 163の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 20件はすべてHTTP 200、全国未照合raw slugは2,203件から2,195件、宮崎県は8件から0件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,735件生成、`/grant/[slug]` は2,898件相当）
-- [ ] 次回候補: 宮城県庁2件（`miyagi-disaster-reconstruction` / `miyagi-employment-fishery`）から再開可能。その後、石巻市のraw gapへ進む
+- [x] 宮城県Batch 164として、宮城県庁2件を公式確認済み追加・補正（被災者生活再建支援制度、水産業従業員宿舎整備事業補助金）
+- [x] 宮城県Batch 164の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 4件はすべてHTTP 200、全国未照合raw slugは2,195件から2,193件、宮城県は49件から47件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,743件生成、`/grant/[slug]` は2,900件相当）
+- [ ] 次回候補: 石巻市raw gap（`ishinomaki-birth-bonus` / `ishinomaki-child-medical` / `ishinomaki-childcare-subsidy` / `ishinomaki-disaster-housing` / `ishinomaki-disaster-prevention` など）から再開可能
 - [ ] push / 公開反映は明示確認後に実行
