@@ -836,5 +836,7 @@
 - [x] 宮崎県Batch 160の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 14件はすべてHTTP 200、全国未照合raw slugは2,230件から2,221件、宮崎県は35件から26件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,691件生成、`/grant/[slug]` は2,872件相当）
 - [x] 宮崎県Batch 161として、都城市9件を公式確認済み追加・補正（妊婦支援給付金、危険ブロック塀等除却促進事業、子ども医療費助成制度の重複停止、保育料の完全無料化、寝具類等洗濯乾燥消毒事業、敬老特別乗車券、令和8年度国民健康保険日帰り人間ドック、住宅取得支援生成slugの移住応援給付金への統合・重複停止、不妊治療費助成事業）
 - [x] 宮崎県Batch 161の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 18件はすべてHTTP 200、全国未照合raw slugは2,221件から2,212件、宮崎県は26件から17件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,704件生成、`/grant/[slug]` は2,881件相当）
-- [ ] 次回候補: 都城市残り9件（`miyakonojo-juutaku-reform` / `miyakonojo-nursing-equipment` / `miyakonojo-scholarship` / `miyakonojo-scholarship-repayment` / `miyakonojo-school-lunch-subsidy` / `miyakonojo-seismic-diagnosis` / `miyakonojo-sme-support` / `miyakonojo-startup-support` / `miyakonojo-water-saving`）から再開可能
+- [x] 宮崎県Batch 162として、都城市残り9件を公式確認済み追加・補正し、都城市raw gap 0件を達成（住宅リフォーム促進事業、介護用品給付券、都城三股みらい応援奨学金、奨学金返還支援補助金、学校給食費無償化・就学援助、令和8年度木造住宅耐震診断補助、中小企業特別融資制度、中山間地域等出店支援事業費補助金、雨水貯留タンク設置補助金）
+- [x] 宮崎県Batch 162の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 19件はすべてHTTP 200、全国未照合raw slugは2,212件から2,203件、宮崎県は17件から8件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,720件生成、`/grant/[slug]` は2,890件相当）
+- [ ] 次回候補: 日向市8件（`hyuga-block-wall-removal` / `hyuga-child-medical-aid` / `hyuga-elderly-taxi` / `hyuga-health-checkup-subsidy` / `hyuga-juutaku-reform` / `hyuga-scholarship-repayment` / `hyuga-school-lunch-subsidy` / `hyuga-water-saving`）から再開可能
 - [ ] push / 公開反映は明示確認後に実行

@@ -5310,6 +5310,18 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
 
+## 2026-07-04 宮崎県Batch 162 追加ログ
+
+都城市残り9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `miyakonojo-juutaku-reform` / `miyakonojo-nursing-equipment` / `miyakonojo-scholarship` / `miyakonojo-scholarship-repayment` / `miyakonojo-school-lunch-subsidy` / `miyakonojo-seismic-diagnosis` / `miyakonojo-sme-support` / `miyakonojo-startup-support` / `miyakonojo-water-saving`。生成データ名をそのまま採用せず、都城市公式ページ・公式PDFで確認できる制度へ補正した。`miyakonojo-juutaku-reform` は住宅リフォーム促進事業、`miyakonojo-nursing-equipment` は介護用品給付券、`miyakonojo-scholarship` は都城三股みらい応援奨学金、`miyakonojo-scholarship-repayment` は奨学金返還支援補助金、`miyakonojo-school-lunch-subsidy` は学校給食費無償化・就学援助、`miyakonojo-seismic-diagnosis` は令和8年度木造住宅耐震診断補助、`miyakonojo-sme-support` は中小企業特別融資制度、`miyakonojo-startup-support` は中山間地域等出店支援事業費補助金、`miyakonojo-water-saving` は雨水貯留タンク設置補助金へ補正した。都城市raw gapは0件、宮崎県raw gapは17件から8件、全国raw gapは2,212件から2,203件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check` 問題なし、採用sourceUrls 19件はすべてHTTP 200、`npm run audit:coverage` failures 0、`npm run build` 成功。静的ページ5,720件生成、`/grant/[slug]` は2,890件相当。
+
+次回再開位置:
+
+- 全国raw gapの次候補は日向市8件（`hyuga-block-wall-removal` / `hyuga-child-medical-aid` / `hyuga-elderly-taxi` / `hyuga-health-checkup-subsidy` / `hyuga-juutaku-reform` / `hyuga-scholarship-repayment` / `hyuga-school-lunch-subsidy` / `hyuga-water-saving`）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。
+
 ## 2026-07-04 宮崎県Batch 161 追加ログ
 
 都城市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `miyakonojo-birth-bonus` / `miyakonojo-block-wall-removal` / `miyakonojo-child-medical-aid` / `miyakonojo-childcare-subsidy` / `miyakonojo-elderly-support` / `miyakonojo-elderly-taxi` / `miyakonojo-health-checkup-subsidy` / `miyakonojo-housing-purchase` / `miyakonojo-infertility`。生成データ名をそのまま採用せず、都城市公式ページ・公式PDFで確認できる制度へ補正した。`miyakonojo-birth-bonus` は妊婦支援給付金、`miyakonojo-block-wall-removal` は危険ブロック塀等除却促進事業、`miyakonojo-child-medical-aid` は既存の子ども医療費助成制度への重複停止、`miyakonojo-childcare-subsidy` は保育料の完全無料化、`miyakonojo-elderly-support` は寝具類等洗濯乾燥消毒事業、`miyakonojo-elderly-taxi` は敬老特別乗車券、`miyakonojo-health-checkup-subsidy` は令和8年度国民健康保険日帰り人間ドック、`miyakonojo-housing-purchase` は既存の移住応援給付金への統合・重複停止、`miyakonojo-infertility` は不妊治療費助成事業へ補正した。宮崎県raw gapは26件から17件、全国raw gapは2,221件から2,212件に減少した。
