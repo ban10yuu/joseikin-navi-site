@@ -37,7 +37,7 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 - Repository: `/Users/banseiyuuji/joseikin-navi-site`
 - Branch: `main`, ahead of `origin/main` by 200+ commits after the latest completed local commits.
-- Last completed grant-data commit before Batch 166: `05559da 石巻市5件を公式補正`
+- Last completed grant-data commit before Batch 167: `9519706 石巻市追加5件を公式補正`
 - Do not push or publish without explicit user confirmation.
 - Preserve unrelated dirty Pinterest/UI work:
   - `package.json`
@@ -49,22 +49,22 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 ## Last verified grant-data state
 
-- Batch 166 completed in progress:
+- Batch 167 completed in progress:
 
 - 石巻市5件を公式補正
-- 対象: `ishinomaki-eco-reform` / `ishinomaki-elderly-support` / `ishinomaki-fishery-training` / `ishinomaki-home-care` / `ishinomaki-housing-purchase`
-- `ishinomaki-eco-reform` は石巻市産木材利用住宅促進事業へ補正。
-- `ishinomaki-elderly-support` は軽度生活援助訪問型サービス事業へ補正。
-- `ishinomaki-fishery-training` は水産業担い手育成総合支援事業へ補正。
-- `ishinomaki-home-care` は家族介護慰労金支給事業へ補正。
-- `ishinomaki-housing-purchase` は定住促進住宅取得等補助金へ補正。
-- 宮城県 raw gap: `42 -> 37`
-- 全国 raw gap: `2188 -> 2183`
+- 対象: `ishinomaki-infertility` / `ishinomaki-kosodate-taxi` / `ishinomaki-nursing-equipment` / `ishinomaki-scholarship` / `ishinomaki-school-ict`
+- `ishinomaki-infertility` は不妊治療費助成事業へ補正。
+- `ishinomaki-kosodate-taxi` は育児ヘルパー事業へ補正。
+- `ishinomaki-nursing-equipment` は介護用品支給事業へ補正。
+- `ishinomaki-scholarship` は奨学金貸与事業へ補正。
+- `ishinomaki-school-ict` は個人向け補助確認不可のため掲載停止へ補正。
+- 宮城県 raw gap: `37 -> 32`
+- 全国 raw gap: `2183 -> 2178`
 - `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
 - `git diff --check`: 問題なし
-- 採用sourceUrls 7件はすべてHTTP 200
+- 採用sourceUrls 8件はすべてHTTP 200
 - `npm run audit:coverage`: failures 0
-- `npm run build`: 成功。静的ページ5,768件生成、`/grant/[slug]` は2,910件相当。
+- `npm run build`: 成功。静的ページ5,778件生成、`/grant/[slug]` は2,915件相当。
 
 ## Next safe work item
 
@@ -77,11 +77,11 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 Expected first batch:
 
 - 石巻市raw gap:
-  - `ishinomaki-infertility`
-  - `ishinomaki-kosodate-taxi`
-  - `ishinomaki-nursing-equipment`
-  - `ishinomaki-scholarship`
-  - `ishinomaki-school-ict`
+  - `ishinomaki-seismic-diagnosis`
+  - `ishinomaki-sme-support`
+  - `ishinomaki-specific-disease`
+  - `ishinomaki-startup-support`
+  - `ishinomaki-twin-childcare`
   - 以降は `node scripts/audit-raw-verified-gaps.mjs --limit 25` で確認
 
 ## Recommended execution pattern
