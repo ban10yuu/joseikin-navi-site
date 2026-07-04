@@ -161,6 +161,21 @@ Expected first batch:
 - `npm run audit:coverage`: failures 0。公式確認済みactiveは2,535件、京都府ローカル公式確認済みは44件。
 - `npm run build`: 初回code 137でOS側終了。`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` で再実行し成功。静的ページ5,891件生成、`/grant/[slug]` は2,974件相当。
 - Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため保留し、京都市raw gap（`kyoto-city-birth-bonus`, `kyoto-city-energy-support`, `kyoto-city-housing-purchase`, `kyoto-city-scholarship`, `kyoto-city-study-abroad`）へ進む。
+- Batch 178 completed:
+- 対象: `kyoto-city-birth-bonus` / `kyoto-city-energy-support` / `kyoto-city-housing-purchase` / `kyoto-city-scholarship` / `kyoto-city-study-abroad`
+- `kyoto-city-birth-bonus` は妊婦等支援事業（妊婦支援給付金）へ補正。
+- `kyoto-city-energy-support` は令和8年度京都市住宅の自家消費型太陽光発電設備等設置補助金へ補正。
+- `kyoto-city-housing-purchase` は京都安心すまい応援金へ補正。
+- `kyoto-city-scholarship` は令和8年度京都市高校進学・修学支援金支給事業へ補正。
+- `kyoto-city-study-abroad` は市立高校生「海外探Q留学」支援事業へ補正。
+- 京都府 raw gap: `36 -> 31`
+- 全国 raw gap: `2119 -> 2114`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 10件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,538件、京都府ローカル公式確認済みは47件。
+- `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ5,902件生成、`/grant/[slug]` は2,979件相当。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。京都府庁2件（`kyoto-education-global`, `kyoto-machiya-renovation`）または城陽市raw gapへ進む。
 
 ## Recommended execution pattern
 
