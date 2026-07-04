@@ -828,5 +828,7 @@
 - [x] 宮崎県Batch 156の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 18件はすべてHTTP 200、全国未照合raw slugは2,267件から2,258件、宮崎県は72件から63件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,631件生成、`/grant/[slug]` は2,835件相当）
 - [x] 宮崎県Batch 157として、宮崎県庁1件と宮崎市9件を公式確認済み追加・補正（新規就農者育成総合対策・就農準備資金、危険ブロック塀等対策事業補助金、子ども医療費助成、出産・子育て応援給付金/妊婦支援給付金、自主防災組織活動支援事業補助金、第2子保育料の負担軽減、在宅福祉サービス、移住支援給付金制度、不妊治療費助成事業、介護用品支給）
 - [x] 宮崎県Batch 157の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 20件はすべてHTTP 200、全国未照合raw slugは2,258件から2,248件、宮崎県は63件から53件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,649件生成、`/grant/[slug]` は2,845件相当）
-- [ ] 次回候補: 宮崎市奨学金系2件とテレワーク1件（`miyazaki-city-scholarship` / `miyazaki-city-scholarship-v2` / `miyazaki-city-telework-bonus`）、その後宮崎県・宮崎市残り6件（`miyazaki-elderly-taxi` / `miyazaki-juutaku-reform` / `miyazaki-scholarship-repayment` / `miyazaki-school-lunch-subsidy` / `miyazaki-startup-support` / `miyazaki-water-saving`）から再開可能
+- [x] 宮崎県Batch 158として、宮崎市9件を公式確認済み追加・補正し、宮崎市raw gap 0件を達成（奨学金返還支援事業、奨学金給付制度の重複停止、テレワーク移住支援の移住支援給付金への統合、敬老バスカ、木造建築物等地震対策促進事業の令和8年度受付終了扱い、奨学金返還支援制度の重複停止、小学校・中学校の就学援助費、中小企業融資制度の創業支援資金、水洗便所改造等資金助成制度）
+- [x] 宮崎県Batch 158の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 16件はすべてHTTP 200、全国未照合raw slugは2,248件から2,239件、宮崎県は53件から44件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,663件生成、`/grant/[slug]` は2,854件相当）
+- [ ] 次回候補: 小林市9件（`kobayashi-block-wall-removal` / `kobayashi-child-medical-aid` / `kobayashi-elderly-taxi` / `kobayashi-health-checkup-subsidy` / `kobayashi-juutaku-reform` / `kobayashi-scholarship-repayment` / `kobayashi-school-lunch-subsidy` / `kobayashi-startup-support` / `kobayashi-water-saving`）から再開可能
 - [ ] push / 公開反映は明示確認後に実行

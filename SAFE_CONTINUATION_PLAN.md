@@ -5442,3 +5442,15 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は宮崎市奨学金系2件とテレワーク1件（`miyazaki-city-scholarship` / `miyazaki-city-scholarship-v2` / `miyazaki-city-telework-bonus`）。その後、宮崎県・宮崎市残り6件（`miyazaki-elderly-taxi` / `miyazaki-juutaku-reform` / `miyazaki-scholarship-repayment` / `miyazaki-school-lunch-subsidy` / `miyazaki-startup-support` / `miyazaki-water-saving`）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-04 宮崎県Batch 158 追加ログ
+
+宮崎市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `miyazaki-city-scholarship` / `miyazaki-city-scholarship-v2` / `miyazaki-city-telework-bonus` / `miyazaki-elderly-taxi` / `miyazaki-juutaku-reform` / `miyazaki-scholarship-repayment` / `miyazaki-school-lunch-subsidy` / `miyazaki-startup-support` / `miyazaki-water-saving`。生成データ名をそのまま採用せず、宮崎市公式ページと公式PDFで確認できる制度へ補正した。`miyazaki-city-scholarship` は宮崎市奨学金返還支援事業、`miyazaki-city-scholarship-v2` は代表slugへの統合・重複停止、`miyazaki-city-telework-bonus` は移住支援給付金制度への統合・重複停止、`miyazaki-elderly-taxi` は敬老バスカ、`miyazaki-juutaku-reform` は木造建築物等地震対策促進事業の令和8年度受付終了扱い、`miyazaki-scholarship-repayment` は奨学金返還支援事業への統合・重複停止、`miyazaki-school-lunch-subsidy` は小学校・中学校の就学援助費、`miyazaki-startup-support` は中小企業融資制度の創業支援資金、`miyazaki-water-saving` は水洗便所改造等資金助成制度へ補正した。宮崎市raw gapは0件、宮崎県raw gapは53件から44件、全国raw gapは2,248件から2,239件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check` 問題なし、採用sourceUrls 16件はすべてHTTP 200、`npm run audit:coverage` failures 0、`npm run build` 成功。静的ページ5,663件生成、`/grant/[slug]` は2,854件相当。
+
+次回再開位置:
+
+- 全国raw gapの次候補は小林市9件（`kobayashi-block-wall-removal` / `kobayashi-child-medical-aid` / `kobayashi-elderly-taxi` / `kobayashi-health-checkup-subsidy` / `kobayashi-juutaku-reform` / `kobayashi-scholarship-repayment` / `kobayashi-school-lunch-subsidy` / `kobayashi-startup-support` / `kobayashi-water-saving`）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。
