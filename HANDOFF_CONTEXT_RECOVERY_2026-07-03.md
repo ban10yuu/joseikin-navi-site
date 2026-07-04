@@ -37,7 +37,7 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 - Repository: `/Users/banseiyuuji/joseikin-navi-site`
 - Branch: `main`, ahead of `origin/main` by 200+ commits after the latest completed local commits.
-- Last completed grant-data commit before Batch 167: `9519706 石巻市追加5件を公式補正`
+- Last completed grant-data commit before Batch 168: `d17fa6a 石巻市さらに5件を公式補正`
 - Do not push or publish without explicit user confirmation.
 - Preserve unrelated dirty Pinterest/UI work:
   - `package.json`
@@ -49,22 +49,22 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 ## Last verified grant-data state
 
-- Batch 167 completed in progress:
+- Batch 168 completed in progress:
 
 - 石巻市5件を公式補正
-- 対象: `ishinomaki-infertility` / `ishinomaki-kosodate-taxi` / `ishinomaki-nursing-equipment` / `ishinomaki-scholarship` / `ishinomaki-school-ict`
-- `ishinomaki-infertility` は不妊治療費助成事業へ補正。
-- `ishinomaki-kosodate-taxi` は育児ヘルパー事業へ補正。
-- `ishinomaki-nursing-equipment` は介護用品支給事業へ補正。
-- `ishinomaki-scholarship` は奨学金貸与事業へ補正。
-- `ishinomaki-school-ict` は個人向け補助確認不可のため掲載停止へ補正。
-- 宮城県 raw gap: `37 -> 32`
-- 全国 raw gap: `2183 -> 2178`
+- 対象: `ishinomaki-seismic-diagnosis` / `ishinomaki-sme-support` / `ishinomaki-specific-disease` / `ishinomaki-startup-support` / `ishinomaki-twin-childcare`
+- `ishinomaki-seismic-diagnosis` は「木造住宅耐震診断」事業へ補正。
+- `ishinomaki-sme-support` は創業者持続化事業費補助制度へ補正。
+- `ishinomaki-specific-disease` は医療制度の難病患者に対する事業案内へ補正。
+- `ishinomaki-startup-support` は創業支援補助制度へ補正。
+- `ishinomaki-twin-childcare` は妊婦のための支援給付金事業の多胎児分として確認し、既存制度と重複するため掲載停止へ補正。
+- 宮城県 raw gap: `32 -> 27`
+- 全国 raw gap: `2178 -> 2173`
 - `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
 - `git diff --check`: 問題なし
-- 採用sourceUrls 8件はすべてHTTP 200
+- 採用sourceUrls 7件はすべてHTTP 200
 - `npm run audit:coverage`: failures 0
-- `npm run build`: 成功。静的ページ5,778件生成、`/grant/[slug]` は2,915件相当。
+- `npm run build`: 初回は `relatedCategories` の `business` 指定でTypeScript停止、`living` に修正後に成功。静的ページ5,786件生成、`/grant/[slug]` は2,920件相当。
 
 ## Next safe work item
 
@@ -76,12 +76,14 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 
 Expected first batch:
 
-- 石巻市raw gap:
-  - `ishinomaki-seismic-diagnosis`
-  - `ishinomaki-sme-support`
-  - `ishinomaki-specific-disease`
-  - `ishinomaki-startup-support`
-  - `ishinomaki-twin-childcare`
+- 石巻市残りraw gap:
+  - `ishinomaki-water-reduction`
+- その後の宮城県raw gap:
+  - `sendai-daycare-support`
+  - `sendai-energy-support`
+  - `sendai-migration-support`
+  - `sendai-senior-dental`
+  - `sendai-startup-support`
   - 以降は `node scripts/audit-raw-verified-gaps.mjs --limit 25` で確認
 
 ## Recommended execution pattern

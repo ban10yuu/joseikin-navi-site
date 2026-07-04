@@ -5562,3 +5562,15 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は石巻市（`ishinomaki-seismic-diagnosis` / `ishinomaki-sme-support` / `ishinomaki-specific-disease` / `ishinomaki-startup-support` / `ishinomaki-twin-childcare` など）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-04 宮城県Batch 168 追加ログ
+
+石巻市5件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `ishinomaki-seismic-diagnosis` / `ishinomaki-sme-support` / `ishinomaki-specific-disease` / `ishinomaki-startup-support` / `ishinomaki-twin-childcare`。生成データ名をそのまま採用せず、石巻市公式ページで確認できる制度へ補正した。`ishinomaki-seismic-diagnosis` は「木造住宅耐震診断」事業、`ishinomaki-sme-support` は創業者持続化事業費補助制度、`ishinomaki-specific-disease` は医療制度の難病患者に対する事業案内、`ishinomaki-startup-support` は創業支援補助制度、`ishinomaki-twin-childcare` は妊婦のための支援給付金事業の多胎児分として確認し既存制度と重複するため掲載停止へ補正した。宮城県raw gapは32件から27件、全国raw gapは2,178件から2,173件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` 問題なし、採用sourceUrls 7件はすべてHTTP 200、`npm run audit:coverage` failures 0。初回 `npm run build` は `relatedCategories` に存在しない `business` を指定してTypeScriptで停止したため `living` に修正。再実行した `npm run build` は成功、静的ページ5,786件生成、`/grant/[slug]` は2,920件相当。
+
+次回再開位置:
+
+- 全国raw gapの次候補は石巻市残り1件（`ishinomaki-water-reduction`）。その後、仙台市（`sendai-daycare-support` / `sendai-energy-support` / `sendai-migration-support` / `sendai-senior-dental` / `sendai-startup-support` など）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。
