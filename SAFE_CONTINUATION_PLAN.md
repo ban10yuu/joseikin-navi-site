@@ -5502,3 +5502,15 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は都城市のcity-batch61/city-batch93由来（`miyakonojo-birth-bonus` / `miyakonojo-block-wall-removal` / `miyakonojo-child-medical-aid` / `miyakonojo-childcare-subsidy` / `miyakonojo-elderly-support` / `miyakonojo-elderly-taxi` / `miyakonojo-health-checkup-subsidy` / `miyakonojo-housing-purchase` / `miyakonojo-infertility` など）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-04 宮崎県Batch 163 追加ログ
+
+日向市8件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `hyuga-block-wall-removal` / `hyuga-child-medical-aid` / `hyuga-elderly-taxi` / `hyuga-health-checkup-subsidy` / `hyuga-juutaku-reform` / `hyuga-scholarship-repayment` / `hyuga-school-lunch-subsidy` / `hyuga-water-saving`。生成データ名をそのまま採用せず、日向市公式ページ・例規・公式PDFで確認できる制度へ補正した。`hyuga-block-wall-removal` はひゅうが住まいの耐震化等支援事業の危険ブロック塀等除却・建替え、`hyuga-child-medical-aid` は子ども医療費助成制度、`hyuga-elderly-taxi` は重度障がい者等タクシー券、`hyuga-health-checkup-subsidy` は令和8年度特定健診・長寿健診、`hyuga-juutaku-reform` はひゅうが住まいの耐震化等支援事業の耐震・耐風改修、`hyuga-scholarship-repayment` は若者定住促進奨学金返還支援補助金、`hyuga-school-lunch-subsidy` は令和8年度学校給食費の見直し・保護者負担軽減、`hyuga-water-saving` は令和8年度浄化槽設置整備事業補助金へ補正した。日向市raw gapは0件、宮崎県raw gapは8件から0件、全国raw gapは2,203件から2,195件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check` 問題なし、採用sourceUrls 20件はすべてHTTP 200、`npm run audit:coverage` failures 0、`npm run build` 成功。静的ページ5,735件生成、`/grant/[slug]` は2,898件相当。
+
+次回再開位置:
+
+- 全国raw gapの次候補は宮城県庁2件（`miyagi-disaster-reconstruction` / `miyagi-employment-fishery`）。その後、石巻市のraw gapへ進む。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。
