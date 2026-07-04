@@ -122,7 +122,27 @@ Expected first batch:
 - 採用sourceUrls 13件はすべてHTTP 200
 - `npm run audit:coverage`: failures 0。公式確認済みactiveは2,516件、京都府ローカル公式確認済みは25件。
 - `npm run build`: 成功。静的ページ5,847件生成、`/grant/[slug]` は2,954件相当。
-- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため保留し、宇治市raw gap（`uji-aged-meal-delivery`, `uji-bicycle-helmet`, `uji-child-third-free`, `uji-culture-experience`, `uji-dementia-family`）へ進む。
+- Batch 176 completed:
+- 対象: `uji-aged-meal-delivery` / `uji-bicycle-helmet` / `uji-child-third-free` / `uji-culture-experience` / `uji-dementia-family` / `uji-elderly-medical` / `uji-landslide-sensor` / `uji-living-support` / `uji-postpartum-care` / `uji-tea-business` / `uji-uij-housing`
+- `uji-aged-meal-delivery` は一人暮らし高齢者等給食サービス事業補助金へ補正。
+- `uji-bicycle-helmet` は自転車ヘルメット購入補助の公式確認不可として掲載停止。
+- `uji-child-third-free` は宇治市伴走型支援事業（妊婦支援給付金）へ補正。
+- `uji-culture-experience` は宇治市少年少女合唱団体験入団会の終了扱いへ補正。
+- `uji-dementia-family` は認知症高齢者等安心見守りGPS貸与事業へ補正。
+- `uji-elderly-medical` は老人に対する宇治市福祉医療費支給事業へ補正。
+- `uji-landslide-sensor` は木造住宅の耐震改修等工事補助へ補正。
+- `uji-living-support` は生活困窮者自立支援制度へ補正。
+- `uji-postpartum-care` は産後ケアサービスへ補正。
+- `uji-tea-business` は宇治茶おもてなし推進事業へ補正。
+- `uji-uij-housing` は新婚世帯住宅確保おうえん事業補助金へ補正。
+- 京都府 raw gap: `56 -> 45`
+- 全国 raw gap: `2139 -> 2128`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 26件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,526件、京都府ローカル公式確認済みは35件。
+- `npm run build`: 成功。静的ページ5,875件生成、`/grant/[slug]` は2,965件相当。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため保留し、亀岡市raw gap（`kameoka-aged-meal-delivery`, `kameoka-bicycle-helmet`, `kameoka-child-third-free`, `kameoka-culture-experience`, `kameoka-dementia-family`）へ進む。
 
 ## Recommended execution pattern
 

@@ -864,5 +864,7 @@
 - [x] 宮城県Batch 174の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 6件はすべてHTTP 200、全国未照合raw slugは2,148件から2,146件、宮城県は2件から0件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,831件生成、`/grant/[slug]` は2,947件相当）
 - [x] 京都府Batch 175として、綾部市7件を公式確認済み追加・補正（在宅高齢者等配食サービス事業、出産・子育て応援事業、日本に伝わる文化体験フェア、認知症高齢者支援事業、木造住宅本格耐震改修事業、産後ケア事業、定住促進事業費補助金・水源の里定住支援給付金）
 - [x] 京都府Batch 175の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 13件はすべてHTTP 200、全国未照合raw slugは2,146件から2,139件、京都府は63件から56件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,847件生成、`/grant/[slug]` は2,954件相当）
-- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は宇治市raw gap（`uji-aged-meal-delivery` / `uji-bicycle-helmet` / `uji-child-third-free` / `uji-culture-experience` / `uji-dementia-family` など）から再開可能
+- [x] 京都府Batch 176として、宇治市11件を公式確認済み追加・補正（給食サービス事業補助金、自転車ヘルメット購入補助の公式確認不可・掲載停止、妊婦支援給付金、少年少女合唱団体験入団会の終了扱い、認知症高齢者等安心見守りGPS貸与事業、老人福祉医療費支給事業、木造住宅耐震改修等工事補助、生活困窮者自立支援制度、産後ケアサービス、宇治茶おもてなし推進事業、新婚世帯住宅確保おうえん事業補助金）
+- [x] 京都府Batch 176の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 26件はすべてHTTP 200、全国未照合raw slugは2,139件から2,128件、京都府は56件から45件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,875件生成、`/grant/[slug]` は2,965件相当）
+- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は亀岡市raw gap（`kameoka-aged-meal-delivery` / `kameoka-bicycle-helmet` / `kameoka-child-third-free` / `kameoka-culture-experience` / `kameoka-dementia-family` など）から再開可能
 - [ ] push / 公開反映は明示確認後に実行
