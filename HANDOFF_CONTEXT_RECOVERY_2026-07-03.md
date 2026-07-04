@@ -37,7 +37,7 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 - Repository: `/Users/banseiyuuji/joseikin-navi-site`
 - Branch: `main`, ahead of `origin/main` by 200+ commits after the latest completed local commits.
-- Last completed grant-data commit before Batch 169: `d291f7d 石巻市残り5件を公式補正`
+- Last completed grant-data commit before Batch 170: `3e97397 石巻仙台5件を公式補正`
 - Do not push or publish without explicit user confirmation.
 - Preserve unrelated dirty Pinterest/UI work:
   - `package.json`
@@ -49,22 +49,22 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 ## Last verified grant-data state
 
-- Batch 169 completed in progress:
+- Batch 170 completed in progress:
 
-- 石巻市1件・仙台市4件を公式補正
-- 対象: `ishinomaki-water-reduction` / `sendai-daycare-support` / `sendai-energy-support` / `sendai-migration-support` / `sendai-senior-dental`
-- `ishinomaki-water-reduction` は生活困窮者向け水道料金減免として確認できず、石巻地方広域水道企業団の水道料金等案内と水道加入金免除規定を出典に掲載停止へ補正。
-- `sendai-daycare-support` は施設等利用給付（認可外保育施設等・償還払い）へ補正。
-- `sendai-energy-support` は令和7年度住民税非課税世帯緊急支援事業の受付終了扱いへ補正。
-- `sendai-migration-support` は仙台市移住支援事業へ補正。
-- `sendai-senior-dental` は令和8年度おとなのオーラルケア健康診査へ補正。
-- 宮城県 raw gap: `27 -> 22`
-- 全国 raw gap: `2173 -> 2168`
+- 仙台市2件・大崎市3件を公式補正
+- 対象: `sendai-startup-support` / `sendai-telework-bonus` / `osaki-birth-bonus` / `osaki-bousai-equipment` / `osaki-childcare-subsidy`
+- `sendai-startup-support` は特定創業支援等事業の支援証明書へ補正。
+- `sendai-telework-bonus` は仙台市業務効率化支援事業補助金（業務効率化サポート枠）へ補正。
+- `osaki-birth-bonus` は妊婦のための支援給付金へ補正。
+- `osaki-bousai-equipment` は令和8年度エコ改善推進事業補助金（蓄電池・V2H等）へ補正。
+- `osaki-childcare-subsidy` は物価高対応子育て応援手当の受付終了扱いへ補正。
+- 宮城県 raw gap: `22 -> 17`
+- 全国 raw gap: `2168 -> 2163`
 - `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
 - `git diff --check`: 問題なし
-- 採用sourceUrls 9件はすべてHTTP 200
+- 採用sourceUrls 8件はすべてHTTP 200
 - `npm run audit:coverage`: failures 0
-- `npm run build`: 成功。静的ページ5,797件生成、`/grant/[slug]` は2,925件相当。
+- `npm run build`: 成功。静的ページ5,805件生成、`/grant/[slug]` は2,930件相当。
 
 ## Next safe work item
 
@@ -76,14 +76,12 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 
 Expected first batch:
 
-- 仙台市raw gap:
-  - `sendai-startup-support`
-  - `sendai-telework-bonus`
-- その後の宮城県raw gap:
-  - `osaki-birth-bonus`
-  - `osaki-bousai-equipment`
-  - `osaki-childcare-subsidy`
+- 大崎市raw gap:
   - `osaki-housing-reform`
+  - `osaki-newlywed-rent`
+  - `osaki-nursing-home-reform`
+  - `osaki-school-lunch`
+  - `osaki-startup-support`
   - 以降は `node scripts/audit-raw-verified-gaps.mjs --limit 25` で確認
 
 ## Recommended execution pattern

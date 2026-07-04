@@ -852,5 +852,7 @@
 - [x] 宮城県Batch 168の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 7件はすべてHTTP 200、全国未照合raw slugは2,178件から2,173件、宮城県は32件から27件に減少、coverage failures 0。初回 `npm run build` は `relatedCategories` に存在しない `business` を指定してTypeScriptで停止したため `living` に修正。再実行した `npm run build` は成功・静的ページ5,786件生成、`/grant/[slug]` は2,920件相当）
 - [x] 宮城県Batch 169として、石巻市1件・仙台市4件を公式確認済み追加・補正（水道料金減免制度の生活困窮者向け料金減免確認不可・掲載停止、施設等利用給付、令和7年度住民税非課税世帯緊急支援事業の受付終了扱い、移住支援事業、おとなのオーラルケア健康診査）
 - [x] 宮城県Batch 169の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 9件はすべてHTTP 200、全国未照合raw slugは2,173件から2,168件、宮城県は27件から22件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,797件生成、`/grant/[slug]` は2,925件相当）
-- [ ] 次回候補: 仙台市raw gap（`sendai-startup-support` / `sendai-telework-bonus`）の後、大崎市raw gap（`osaki-birth-bonus` / `osaki-bousai-equipment` / `osaki-childcare-subsidy` / `osaki-housing-reform` など）から再開可能
+- [x] 宮城県Batch 170として、仙台市2件・大崎市3件を公式確認済み追加・補正（特定創業支援等事業の支援証明書、業務効率化支援事業補助金、妊婦のための支援給付金、エコ改善推進事業補助金、物価高対応子育て応援手当の受付終了扱い）
+- [x] 宮城県Batch 170の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 8件はすべてHTTP 200、全国未照合raw slugは2,168件から2,163件、宮城県は22件から17件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,805件生成、`/grant/[slug]` は2,930件相当）
+- [ ] 次回候補: 大崎市raw gap（`osaki-housing-reform` / `osaki-newlywed-rent` / `osaki-nursing-home-reform` / `osaki-school-lunch` / `osaki-startup-support` など）から再開可能
 - [ ] push / 公開反映は明示確認後に実行

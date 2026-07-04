@@ -5586,3 +5586,15 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は仙台市（`sendai-startup-support` / `sendai-telework-bonus`）。その後、大崎市（`osaki-birth-bonus` / `osaki-bousai-equipment` / `osaki-childcare-subsidy` / `osaki-housing-reform` など）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-04 宮城県Batch 170 追加ログ
+
+仙台市2件・大崎市3件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `sendai-startup-support` / `sendai-telework-bonus` / `osaki-birth-bonus` / `osaki-bousai-equipment` / `osaki-childcare-subsidy`。生成データ名をそのまま採用せず、公式ページで確認できる制度へ補正した。`sendai-startup-support` は特定創業支援等事業の支援証明書、`sendai-telework-bonus` は仙台市業務効率化支援事業補助金（業務効率化サポート枠）、`osaki-birth-bonus` は妊婦のための支援給付金、`osaki-bousai-equipment` は令和8年度エコ改善推進事業補助金（蓄電池・V2H等）、`osaki-childcare-subsidy` は物価高対応子育て応援手当の受付終了扱いへ補正した。宮城県raw gapは22件から17件、全国raw gapは2,168件から2,163件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` 問題なし、採用sourceUrls 8件はすべてHTTP 200、`npm run audit:coverage` failures 0、`npm run build` 成功。静的ページ5,805件生成、`/grant/[slug]` は2,930件相当。
+
+次回再開位置:
+
+- 全国raw gapの次候補は大崎市（`osaki-housing-reform` / `osaki-newlywed-rent` / `osaki-nursing-home-reform` / `osaki-school-lunch` / `osaki-startup-support` など）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。
