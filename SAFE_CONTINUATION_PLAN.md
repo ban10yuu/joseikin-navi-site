@@ -5418,3 +5418,15 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は宮崎県延岡市9件（`nobeoka-block-wall-removal` / `nobeoka-child-medical-aid` / `nobeoka-elderly-taxi` / `nobeoka-health-checkup-subsidy` / `nobeoka-juutaku-reform` / `nobeoka-scholarship-repayment` / `nobeoka-school-lunch-subsidy` / `nobeoka-startup-support` / `nobeoka-water-saving`）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-04 宮崎県Batch 156 追加ログ
+
+延岡市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `nobeoka-block-wall-removal` / `nobeoka-child-medical-aid` / `nobeoka-elderly-taxi` / `nobeoka-health-checkup-subsidy` / `nobeoka-juutaku-reform` / `nobeoka-scholarship-repayment` / `nobeoka-school-lunch-subsidy` / `nobeoka-startup-support` / `nobeoka-water-saving`。生成データ名をそのまま採用せず、延岡市公式ページと公式PDFで確認できる制度へ補正した。`nobeoka-block-wall-removal` はブロック塀等地震対策支援事業、`nobeoka-child-medical-aid` は子ども医療費助成制度、`nobeoka-elderly-taxi` は運転免許証自主返納支援制度のタクシー利用券等、`nobeoka-health-checkup-subsidy` は人間ドック等助成事業、`nobeoka-juutaku-reform` は住まい取得・定住促進事業補助金、`nobeoka-scholarship-repayment` は奨学金返還支援による地元企業人材確保支援補助金、`nobeoka-school-lunch-subsidy` は私立学校等給食等緊急支援金の受付終了扱い、`nobeoka-startup-support` は引継ぎ事業スタートアップ支援補助金、`nobeoka-water-saving` は浄化槽設置補助制度へ補正した。延岡市raw gapは0件、宮崎県raw gapは72件から63件、全国raw gapは2,267件から2,258件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check` 問題なし、採用sourceUrls 18件はすべてHTTP 200、`npm run audit:coverage` failures 0、`npm run build` 成功。静的ページ5,631件生成、`/grant/[slug]` は2,835件相当。
+
+次回再開位置:
+
+- 全国raw gapの次候補は宮崎県庁1件 `miyazaki-mango-farming`。その後、宮崎市9件（`miyazaki-block-wall-removal` / `miyazaki-child-medical-aid` / `miyazaki-city-birth-bonus` / `miyazaki-city-bousai-equipment` / `miyazaki-city-childcare-subsidy` / `miyazaki-city-elderly-support` / `miyazaki-city-housing-purchase` / `miyazaki-city-infertility` / `miyazaki-city-nursing-equipment`）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。

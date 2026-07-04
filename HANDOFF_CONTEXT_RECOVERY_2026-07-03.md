@@ -37,7 +37,7 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 - Repository: `/Users/banseiyuuji/joseikin-navi-site`
 - Branch: `main`, ahead of `origin/main` by 200+ commits after the latest completed local commits.
-- Last completed grant-data commit before Batch 155: `986508c 大垣市19件を公式補正`
+- Last completed grant-data commit before Batch 156: `07588c5 中津川市9件を公式補正`
 - Do not push or publish without explicit user confirmation.
 - Preserve unrelated dirty Pinterest/UI work:
   - `package.json`
@@ -49,26 +49,26 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 ## Last verified grant-data state
 
-- Batch 155 completed in progress:
+- Batch 156 completed in progress:
 
-- 中津川市city-batch76由来9件を公式補正し、中津川市 raw gap 0件・岐阜県 raw gap 0件を達成
-- 対象: `nakatsugawa-dental-checkup-child` / `nakatsugawa-disaster-stockpile` / `nakatsugawa-family-care-leave` / `nakatsugawa-fire-alarm` / `nakatsugawa-maternity-dental` / `nakatsugawa-shop-renovation` / `nakatsugawa-tradition-craft` / `nakatsugawa-twin-support` / `nakatsugawa-youth-rent`
-- `nakatsugawa-dental-checkup-child` は乳幼児健診・相談の歯科健診とフッ素塗布へ補正。
-- `nakatsugawa-disaster-stockpile` は個人世帯向け補助として公式確認できないため、防災資機材等整備事業へ補正し通常一覧から除外。
-- `nakatsugawa-family-care-leave` はおむつ等購入費の助成へ補正。月5,000円。
-- `nakatsugawa-fire-alarm` は住宅用火災警報器補助として公式確認できないため、設置・交換案内として通常一覧から除外。
-- `nakatsugawa-maternity-dental` は妊婦歯科健診へ補正。
-- `nakatsugawa-shop-renovation` は空き店舗活用支援事業へ補正し、受付終了扱い。
-- `nakatsugawa-tradition-craft` は現行個人助成として公式確認できないため通常一覧から除外。
-- `nakatsugawa-twin-support` は多胎妊婦の妊婦健康診査5回追加助成へ補正。
-- `nakatsugawa-youth-rent` は空き家に住もう応援事業補助金へ補正。
-- 岐阜県 raw gap: `9 -> 0`
-- 全国 raw gap: `2276 -> 2267`
+- 延岡市9件を公式補正し、延岡市 raw gap 0件を達成
+- 対象: `nobeoka-block-wall-removal` / `nobeoka-child-medical-aid` / `nobeoka-elderly-taxi` / `nobeoka-health-checkup-subsidy` / `nobeoka-juutaku-reform` / `nobeoka-scholarship-repayment` / `nobeoka-school-lunch-subsidy` / `nobeoka-startup-support` / `nobeoka-water-saving`
+- `nobeoka-block-wall-removal` はブロック塀等地震対策支援事業へ補正。
+- `nobeoka-child-medical-aid` は子ども医療費助成制度へ補正。
+- `nobeoka-elderly-taxi` は運転免許証自主返納支援制度のタクシー利用券等へ補正。
+- `nobeoka-health-checkup-subsidy` は人間ドック等助成事業へ補正。3,000円。
+- `nobeoka-juutaku-reform` は住まい取得・定住促進事業補助金へ補正。
+- `nobeoka-scholarship-repayment` は奨学金返還支援による地元企業人材確保支援補助金へ補正。
+- `nobeoka-school-lunch-subsidy` は私立学校等給食等緊急支援金へ補正し、受付終了扱い。
+- `nobeoka-startup-support` は引継ぎ事業スタートアップ支援補助金へ補正。
+- `nobeoka-water-saving` は浄化槽設置補助制度へ補正。
+- 宮崎県 raw gap: `72 -> 63`
+- 全国 raw gap: `2267 -> 2258`
 - `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
 - `git diff --check`: 問題なし
-- 採用sourceUrls 15件はすべてHTTP 200
+- 採用sourceUrls 18件はすべてHTTP 200
 - `npm run audit:coverage`: failures 0
-- `npm run build`: 成功。静的ページ5,615件生成、`/grant/[slug]` は2,827件相当。
+- `npm run build`: 成功。静的ページ5,631件生成、`/grant/[slug]` は2,835件相当。
 
 ## Next safe work item
 
@@ -80,16 +80,18 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 
 Expected first batch:
 
-- 宮崎県延岡市9件:
-  - `nobeoka-block-wall-removal`
-  - `nobeoka-child-medical-aid`
-  - `nobeoka-elderly-taxi`
-  - `nobeoka-health-checkup-subsidy`
-  - `nobeoka-juutaku-reform`
-  - `nobeoka-scholarship-repayment`
-  - `nobeoka-school-lunch-subsidy`
-  - `nobeoka-startup-support`
-  - `nobeoka-water-saving`
+- 宮崎県庁1件:
+  - `miyazaki-mango-farming`
+- その後、宮崎市9件:
+  - `miyazaki-block-wall-removal`
+  - `miyazaki-child-medical-aid`
+  - `miyazaki-city-birth-bonus`
+  - `miyazaki-city-bousai-equipment`
+  - `miyazaki-city-childcare-subsidy`
+  - `miyazaki-city-elderly-support`
+  - `miyazaki-city-housing-purchase`
+  - `miyazaki-city-infertility`
+  - `miyazaki-city-nursing-equipment`
 
 ## Recommended execution pattern
 

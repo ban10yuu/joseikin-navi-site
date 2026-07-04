@@ -824,5 +824,7 @@
 - [x] 岐阜県Batch 154の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 40件はすべてHTTP 200、全国未照合raw slugは2,295件から2,276件、岐阜県は28件から9件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,599件生成、`/grant/[slug]` は2,818件相当）
 - [x] 岐阜県Batch 155として、中津川市city-batch76由来9件を公式確認済み追加・補正し、中津川市raw gap 0件・岐阜県raw gap 0件を達成（乳幼児健診・相談の歯科健診/フッ素塗布、家庭防災備蓄品購入補助の公式個人補助確認不可・防災資機材等整備事業への補正、おむつ等購入費の助成、住宅用火災警報器補助の公式確認不可抑止、妊婦歯科健診、空き店舗活用支援事業の受付終了扱い、伝統工芸後継者育成助成の公式確認不可抑止、多胎妊婦の妊婦健康診査5回追加助成、空き家に住もう応援事業補助金）
 - [x] 岐阜県Batch 155の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 15件はすべてHTTP 200、全国未照合raw slugは2,276件から2,267件、岐阜県は9件から0件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,615件生成、`/grant/[slug]` は2,827件相当）
-- [ ] 次回候補: 宮崎県延岡市9件（`nobeoka-block-wall-removal` / `nobeoka-child-medical-aid` / `nobeoka-elderly-taxi` / `nobeoka-health-checkup-subsidy` / `nobeoka-juutaku-reform` / `nobeoka-scholarship-repayment` / `nobeoka-school-lunch-subsidy` / `nobeoka-startup-support` / `nobeoka-water-saving`）から再開可能
+- [x] 宮崎県Batch 156として、延岡市9件を公式確認済み追加・補正し、延岡市raw gap 0件を達成（ブロック塀等地震対策支援事業、子ども医療費助成制度、運転免許証自主返納支援制度のタクシー利用券等、人間ドック等助成事業、住まい取得・定住促進事業補助金、奨学金返還支援による地元企業人材確保支援補助金、私立学校等給食等緊急支援金の受付終了扱い、引継ぎ事業スタートアップ支援補助金、浄化槽設置補助制度）
+- [x] 宮崎県Batch 156の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 18件はすべてHTTP 200、全国未照合raw slugは2,267件から2,258件、宮崎県は72件から63件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,631件生成、`/grant/[slug]` は2,835件相当）
+- [ ] 次回候補: 宮崎県庁1件 `miyazaki-mango-farming` の後、宮崎市9件（`miyazaki-block-wall-removal` / `miyazaki-child-medical-aid` / `miyazaki-city-birth-bonus` / `miyazaki-city-bousai-equipment` / `miyazaki-city-childcare-subsidy` / `miyazaki-city-elderly-support` / `miyazaki-city-housing-purchase` / `miyazaki-city-infertility` / `miyazaki-city-nursing-equipment`）から再開可能
 - [ ] push / 公開反映は明示確認後に実行
