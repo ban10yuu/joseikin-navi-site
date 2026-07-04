@@ -37,7 +37,7 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 - Repository: `/Users/banseiyuuji/joseikin-navi-site`
 - Branch: `main`, ahead of `origin/main` by 200+ commits after the latest completed local commits.
-- Last completed grant-data commit before Batch 164: `4124df7 日向市8件を公式補正`
+- Last completed grant-data commit before Batch 165: `044c15d 宮城県庁2件を公式補正`
 - Do not push or publish without explicit user confirmation.
 - Preserve unrelated dirty Pinterest/UI work:
   - `package.json`
@@ -49,19 +49,22 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 ## Last verified grant-data state
 
-- Batch 164 completed in progress:
+- Batch 165 completed in progress:
 
-- 宮城県庁2件を公式補正
-- 対象: `miyagi-disaster-reconstruction` / `miyagi-employment-fishery`
-- `miyagi-disaster-reconstruction` は被災者生活再建支援制度へ補正。
-- `miyagi-employment-fishery` は水産業従業員宿舎整備事業補助金へ補正。
-- 宮城県 raw gap: `49 -> 47`
-- 全国 raw gap: `2195 -> 2193`
+- 石巻市5件を公式補正
+- 対象: `ishinomaki-birth-bonus` / `ishinomaki-child-medical` / `ishinomaki-childcare-subsidy` / `ishinomaki-disaster-housing` / `ishinomaki-disaster-prevention`
+- `ishinomaki-birth-bonus` は妊婦のための支援給付金事業へ補正。
+- `ishinomaki-child-medical` は子ども医療費助成事業へ補正。
+- `ishinomaki-childcare-subsidy` は保育料の多子世帯軽減へ補正。
+- `ishinomaki-disaster-housing` は令和3年2月13日福島県沖地震に係る被災者住宅再建支援制度へ補正。
+- `ishinomaki-disaster-prevention` は自主防災組織機能強化補助金へ補正。
+- 宮城県 raw gap: `47 -> 42`
+- 全国 raw gap: `2193 -> 2188`
 - `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
 - `git diff --check`: 問題なし
-- 採用sourceUrls 4件はすべてHTTP 200
+- 採用sourceUrls 10件はすべてHTTP 200
 - `npm run audit:coverage`: failures 0
-- `npm run build`: 成功。静的ページ5,743件生成、`/grant/[slug]` は2,900件相当。
+- `npm run build`: 成功。静的ページ5,755件生成、`/grant/[slug]` は2,905件相当。
 
 ## Next safe work item
 
@@ -74,11 +77,11 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 Expected first batch:
 
 - 石巻市raw gap:
-  - `ishinomaki-birth-bonus`
-  - `ishinomaki-child-medical`
-  - `ishinomaki-childcare-subsidy`
-  - `ishinomaki-disaster-housing`
-  - `ishinomaki-disaster-prevention`
+  - `ishinomaki-eco-reform`
+  - `ishinomaki-elderly-support`
+  - `ishinomaki-fishery-training`
+  - `ishinomaki-home-care`
+  - `ishinomaki-housing-purchase`
   - 以降は `node scripts/audit-raw-verified-gaps.mjs --limit 25` で確認
 
 ## Recommended execution pattern

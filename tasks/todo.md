@@ -842,5 +842,7 @@
 - [x] 宮崎県Batch 163の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 20件はすべてHTTP 200、全国未照合raw slugは2,203件から2,195件、宮崎県は8件から0件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,735件生成、`/grant/[slug]` は2,898件相当）
 - [x] 宮城県Batch 164として、宮城県庁2件を公式確認済み追加・補正（被災者生活再建支援制度、水産業従業員宿舎整備事業補助金）
 - [x] 宮城県Batch 164の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 4件はすべてHTTP 200、全国未照合raw slugは2,195件から2,193件、宮城県は49件から47件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,743件生成、`/grant/[slug]` は2,900件相当）
-- [ ] 次回候補: 石巻市raw gap（`ishinomaki-birth-bonus` / `ishinomaki-child-medical` / `ishinomaki-childcare-subsidy` / `ishinomaki-disaster-housing` / `ishinomaki-disaster-prevention` など）から再開可能
+- [x] 宮城県Batch 165として、石巻市5件を公式確認済み追加・補正（妊婦のための支援給付金事業、子ども医療費助成事業、保育料の多子世帯軽減、被災者住宅再建支援制度、自主防災組織機能強化補助金）
+- [x] 宮城県Batch 165の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 10件はすべてHTTP 200、全国未照合raw slugは2,193件から2,188件、宮城県は47件から42件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,755件生成、`/grant/[slug]` は2,905件相当）
+- [ ] 次回候補: 石巻市raw gap（`ishinomaki-eco-reform` / `ishinomaki-elderly-support` / `ishinomaki-fishery-training` / `ishinomaki-home-care` / `ishinomaki-housing-purchase` など）から再開可能
 - [ ] push / 公開反映は明示確認後に実行

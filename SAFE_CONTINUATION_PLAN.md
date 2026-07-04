@@ -5526,3 +5526,15 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は石巻市（`ishinomaki-birth-bonus` / `ishinomaki-child-medical` / `ishinomaki-childcare-subsidy` / `ishinomaki-disaster-housing` / `ishinomaki-disaster-prevention` など）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-04 宮城県Batch 165 追加ログ
+
+石巻市5件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `ishinomaki-birth-bonus` / `ishinomaki-child-medical` / `ishinomaki-childcare-subsidy` / `ishinomaki-disaster-housing` / `ishinomaki-disaster-prevention`。生成データ名をそのまま採用せず、石巻市公式ページ・公式PDFで確認できる制度へ補正した。`ishinomaki-birth-bonus` は妊婦のための支援給付金事業、`ishinomaki-child-medical` は子ども医療費助成事業、`ishinomaki-childcare-subsidy` は保育料の多子世帯軽減、`ishinomaki-disaster-housing` は令和3年2月13日福島県沖地震に係る被災者住宅再建支援制度、`ishinomaki-disaster-prevention` は自主防災組織機能強化補助金へ補正した。宮城県raw gapは47件から42件、全国raw gapは2,193件から2,188件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` 問題なし、採用sourceUrls 10件はすべてHTTP 200、`npm run audit:coverage` failures 0、`npm run build` 成功。静的ページ5,755件生成、`/grant/[slug]` は2,905件相当。
+
+次回再開位置:
+
+- 全国raw gapの次候補は石巻市（`ishinomaki-eco-reform` / `ishinomaki-elderly-support` / `ishinomaki-fishery-training` / `ishinomaki-home-care` / `ishinomaki-housing-purchase` など）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。
