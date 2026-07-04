@@ -5622,3 +5622,15 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は名取市（`natori-housing-purchase` / `natori-infertility` / `natori-nursing-equipment` / `natori-scholarship` / `natori-seismic-diagnosis` など）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-04 宮城県Batch 173 追加ログ
+
+名取市5件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `natori-housing-purchase` / `natori-infertility` / `natori-nursing-equipment` / `natori-scholarship` / `natori-seismic-diagnosis`。生成データ名をそのまま採用せず、公式ページで確認できる制度へ補正した。`natori-housing-purchase` は新婚世帯等マイホーム応援事業補助金、`natori-infertility` は不妊治療費助成事業（先進医療）、`natori-nursing-equipment` は在宅ねたきり老人等紙おむつ支給事業、`natori-scholarship` は母子父子寡婦福祉資金の修学資金等案内、`natori-seismic-diagnosis` は木造住宅耐震診断助成事業へ補正した。宮城県raw gapは7件から2件、全国raw gapは2,153件から2,148件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` 問題なし、採用sourceUrls 8件はすべてHTTP 200、`npm run audit:coverage` failures 0、`npm run build` 成功。静的ページ5,825件生成、`/grant/[slug]` は2,945件相当。
+
+次回再開位置:
+
+- 全国raw gapの次候補は名取市残り2件（`natori-sme-support` / `natori-vaccination-support`）。その後は京都府綾部市raw gapへ移行。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。

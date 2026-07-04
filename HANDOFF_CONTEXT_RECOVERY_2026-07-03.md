@@ -37,7 +37,7 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 - Repository: `/Users/banseiyuuji/joseikin-navi-site`
 - Branch: `main`, ahead of `origin/main` by 200+ commits after the latest completed local commits.
-- Last completed grant-data commit: `b5b67c3 大崎名取5件を公式補正`
+- Last completed grant-data commit: `e413f57 名取市5件を公式補正`
 - Do not push or publish without explicit user confirmation.
 - Preserve unrelated dirty Pinterest/UI work:
   - `package.json`
@@ -88,19 +88,21 @@ Expected first batch:
 
 - Batch 172 completed:
 - 対象: `osaki-telework-bonus` / `natori-birth-bonus` / `natori-childcare-subsidy` / `natori-education-support` / `natori-elderly-support`
-- `osaki-telework-bonus` は大崎市地方生活実現移住助成金（テレワーク要件）へ補正。
-- `natori-birth-bonus` は妊婦のための支援給付へ補正。
-- `natori-childcare-subsidy` は子育て世帯向けなとりコイン給付事業へ補正。
-- `natori-education-support` は就学援助制度へ補正。
-- `natori-elderly-support` は緊急通報システムの設置へ補正。
-- 宮城県 raw gap: `12 -> 7`
-- 全国 raw gap: `2158 -> 2153`
+- Batch 173 completed:
+- 対象: `natori-housing-purchase` / `natori-infertility` / `natori-nursing-equipment` / `natori-scholarship` / `natori-seismic-diagnosis`
+- `natori-housing-purchase` は新婚世帯等マイホーム応援事業補助金へ補正。
+- `natori-infertility` は不妊治療費助成事業（先進医療）へ補正。
+- `natori-nursing-equipment` は在宅ねたきり老人等紙おむつ支給事業へ補正。
+- `natori-scholarship` は母子父子寡婦福祉資金（修学資金等）の案内へ補正。
+- `natori-seismic-diagnosis` は木造住宅耐震診断助成事業へ補正。
+- 宮城県 raw gap: `7 -> 2`
+- 全国 raw gap: `2153 -> 2148`
 - `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
 - `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
 - 採用sourceUrls 8件はすべてHTTP 200
 - `npm run audit:coverage`: failures 0
-- `npm run build`: 成功。静的ページ5,818件生成、`/grant/[slug]` は2,940件相当。
-- Next candidates after commit: `natori-housing-purchase`, `natori-infertility`, `natori-nursing-equipment`, `natori-scholarship`, `natori-seismic-diagnosis`
+- `npm run build`: 成功。静的ページ5,825件生成、`/grant/[slug]` は2,945件相当。
+- Next candidates after commit: `natori-sme-support`, `natori-vaccination-support`, then 京都府綾部市raw gap
 
 ## Recommended execution pattern
 
