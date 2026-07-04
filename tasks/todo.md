@@ -832,5 +832,7 @@
 - [x] 宮崎県Batch 158の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 16件はすべてHTTP 200、全国未照合raw slugは2,248件から2,239件、宮崎県は53件から44件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,663件生成、`/grant/[slug]` は2,854件相当）
 - [x] 宮崎県Batch 159として、小林市9件を公式確認済み追加・補正し、小林市raw gap 0件を達成（危険ブロック塀除却補助の現行募集詳細確認不可による掲載停止、子育て支援子ども医療費助成事業、福祉タクシー料金助成事業、令和8年度国保人間ドック費用助成、住宅等リフォーム促進事業補助金、未来につなぐ人材応援奨学金返還サポート補助金、学校給食と給食費支援、空店舗活用新規創業者支援事業費補助金、浄化槽設置費補助事業）
 - [x] 宮崎県Batch 159の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 15件はすべてHTTP 200、全国未照合raw slugは2,239件から2,230件、宮崎県は44件から35件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,676件生成、`/grant/[slug]` は2,863件相当）
-- [ ] 次回候補: 西都市9件（`saito-block-wall-removal` / `saito-child-medical-aid` / `saito-elderly-taxi` / `saito-health-checkup-subsidy` / `saito-juutaku-reform` / `saito-scholarship-repayment` / `saito-school-lunch-subsidy` / `saito-startup-support` / `saito-water-saving`）から再開可能
+- [x] 宮崎県Batch 160として、西都市9件を公式確認済み追加・補正し、西都市raw gap 0件を達成（ブロック塀等撤去補助金の現行募集詳細確認不可による掲載停止、こども医療費助成制度、敬老バス事業、国保簡易人間ドック助成事業、令和8年度住宅改修支援事業補助金、奨学生定住促進補助金、小・中学生の就学援助制度、創業等支援事業補助金、浄化槽設置整備事業補助金）
+- [x] 宮崎県Batch 160の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 14件はすべてHTTP 200、全国未照合raw slugは2,230件から2,221件、宮崎県は35件から26件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,691件生成、`/grant/[slug]` は2,872件相当）
+- [ ] 次回候補: 都城市のcity-batch61/city-batch93由来（`miyakonojo-birth-bonus` / `miyakonojo-block-wall-removal` / `miyakonojo-child-medical-aid` / `miyakonojo-childcare-subsidy` / `miyakonojo-elderly-support` / `miyakonojo-elderly-taxi` / `miyakonojo-health-checkup-subsidy` / `miyakonojo-housing-purchase` / `miyakonojo-infertility` など）から再開可能
 - [ ] push / 公開反映は明示確認後に実行

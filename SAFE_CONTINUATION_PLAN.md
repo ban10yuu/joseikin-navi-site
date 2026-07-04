@@ -5466,3 +5466,15 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は西都市9件（`saito-block-wall-removal` / `saito-child-medical-aid` / `saito-elderly-taxi` / `saito-health-checkup-subsidy` / `saito-juutaku-reform` / `saito-scholarship-repayment` / `saito-school-lunch-subsidy` / `saito-startup-support` / `saito-water-saving`）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-04 宮崎県Batch 160 追加ログ
+
+西都市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `saito-block-wall-removal` / `saito-child-medical-aid` / `saito-elderly-taxi` / `saito-health-checkup-subsidy` / `saito-juutaku-reform` / `saito-scholarship-repayment` / `saito-school-lunch-subsidy` / `saito-startup-support` / `saito-water-saving`。生成データ名をそのまま採用せず、西都市公式ページ・公式PDFで確認できる制度へ補正した。`saito-block-wall-removal` はブロック塀等撤去補助金の現行募集詳細確認不可により掲載停止、`saito-child-medical-aid` はこども医療費助成制度、`saito-elderly-taxi` は敬老バス事業、`saito-health-checkup-subsidy` は国保簡易人間ドック助成事業、`saito-juutaku-reform` は令和8年度住宅改修支援事業補助金、`saito-scholarship-repayment` は奨学生定住促進補助金、`saito-school-lunch-subsidy` は小・中学生の就学援助制度、`saito-startup-support` は創業等支援事業補助金、`saito-water-saving` は浄化槽設置整備事業補助金へ補正した。西都市raw gapは0件、宮崎県raw gapは35件から26件、全国raw gapは2,230件から2,221件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check` 問題なし、採用sourceUrls 14件はすべてHTTP 200、`npm run audit:coverage` failures 0、`npm run build` 成功。静的ページ5,691件生成、`/grant/[slug]` は2,872件相当。
+
+次回再開位置:
+
+- 全国raw gapの次候補は都城市のcity-batch61/city-batch93由来（`miyakonojo-birth-bonus` / `miyakonojo-block-wall-removal` / `miyakonojo-child-medical-aid` / `miyakonojo-childcare-subsidy` / `miyakonojo-elderly-support` / `miyakonojo-elderly-taxi` / `miyakonojo-health-checkup-subsidy` / `miyakonojo-housing-purchase` / `miyakonojo-infertility` など）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。
