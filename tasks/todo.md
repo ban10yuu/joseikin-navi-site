@@ -870,5 +870,7 @@
 - [x] 京都府Batch 177の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 24件はすべてHTTP 200、全国未照合raw slugは2,128件から2,119件、京都府は45件から36件に減少、coverage failures 0、初回 `npm run build` はcode 137でOS側終了、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ5,891件生成、`/grant/[slug]` は2,974件相当）
 - [x] 京都府Batch 178として、京都市5件を公式確認済み追加・補正（妊婦等支援事業、令和8年度京都市住宅の自家消費型太陽光発電設備等設置補助金、京都安心すまい応援金、令和8年度京都市高校進学・修学支援金支給事業、市立高校生「海外探Q留学」支援事業）
 - [x] 京都府Batch 178の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 10件はすべてHTTP 200、全国未照合raw slugは2,119件から2,114件、京都府は36件から31件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ5,902件生成、`/grant/[slug]` は2,979件相当）
-- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は京都府庁2件（`kyoto-education-global` / `kyoto-machiya-renovation`）または城陽市raw gapから再開可能
+- [x] 京都府Batch 179として、京都府庁・京都市2件を公式確認済み追加・補正（京の高校生「海外探Q留学」応援事業、京町家改修補助金）
+- [x] 京都府Batch 179の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 8件はすべてHTTP 200、全国未照合raw slugは2,114件から2,112件、京都府は31件から29件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ5,907件生成、`/grant/[slug]` は2,981件相当）
+- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は城陽市raw gap（`joyo-aged-meal-delivery` / `joyo-bicycle-helmet` / `joyo-child-third-free` / `joyo-culture-experience` / `joyo-dementia-family` など）から再開可能
 - [ ] push / 公開反映は明示確認後に実行

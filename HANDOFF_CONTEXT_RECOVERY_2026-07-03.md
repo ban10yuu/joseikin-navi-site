@@ -176,6 +176,18 @@ Expected first batch:
 - `npm run audit:coverage`: failures 0。公式確認済みactiveは2,538件、京都府ローカル公式確認済みは47件。
 - `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ5,902件生成、`/grant/[slug]` は2,979件相当。
 - Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。京都府庁2件（`kyoto-education-global`, `kyoto-machiya-renovation`）または城陽市raw gapへ進む。
+- Batch 179 completed:
+- 対象: `kyoto-education-global` / `kyoto-machiya-renovation`
+- `kyoto-education-global` は京の高校生「海外探Q留学」応援事業へ補正し、2026年度募集終了として整理。
+- `kyoto-machiya-renovation` は令和8年度から拡充された京都市 京町家改修補助金へ補正。
+- 京都府 raw gap: `31 -> 29`
+- 全国 raw gap: `2114 -> 2112`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 8件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,539件、京都府ローカル公式確認済みは48件。
+- `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ5,907件生成、`/grant/[slug]` は2,981件相当。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。城陽市raw gap（`joyo-aged-meal-delivery`, `joyo-bicycle-helmet`, `joyo-child-third-free`, `joyo-culture-experience`, `joyo-dementia-family` など）へ進む。
 
 ## Recommended execution pattern
 
