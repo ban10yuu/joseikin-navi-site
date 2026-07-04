@@ -5430,3 +5430,15 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は宮崎県庁1件 `miyazaki-mango-farming`。その後、宮崎市9件（`miyazaki-block-wall-removal` / `miyazaki-child-medical-aid` / `miyazaki-city-birth-bonus` / `miyazaki-city-bousai-equipment` / `miyazaki-city-childcare-subsidy` / `miyazaki-city-elderly-support` / `miyazaki-city-housing-purchase` / `miyazaki-city-infertility` / `miyazaki-city-nursing-equipment`）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-04 宮崎県Batch 157 追加ログ
+
+宮崎県庁1件と宮崎市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `miyazaki-mango-farming` / `miyazaki-block-wall-removal` / `miyazaki-child-medical-aid` / `miyazaki-city-birth-bonus` / `miyazaki-city-bousai-equipment` / `miyazaki-city-childcare-subsidy` / `miyazaki-city-elderly-support` / `miyazaki-city-housing-purchase` / `miyazaki-city-infertility` / `miyazaki-city-nursing-equipment`。生成データ名をそのまま採用せず、宮崎県・宮崎市公式ページと公式PDFで確認できる制度へ補正した。`miyazaki-mango-farming` はマンゴー限定補助ではなく新規就農者育成総合対策（就農準備資金）、`miyazaki-block-wall-removal` は危険ブロック塀等対策事業補助金の受付終了扱い、`miyazaki-child-medical-aid` は子ども医療費助成、`miyazaki-city-birth-bonus` は出産・子育て応援給付金/妊婦支援給付金、`miyazaki-city-bousai-equipment` は個人世帯向けではなく自主防災組織活動支援事業補助金、`miyazaki-city-childcare-subsidy` は第2子保育料の負担軽減、`miyazaki-city-elderly-support` は在宅福祉サービス、`miyazaki-city-housing-purchase` は住宅購入補助ではなく移住支援給付金制度、`miyazaki-city-infertility` は不妊治療費助成事業、`miyazaki-city-nursing-equipment` は介護用品支給へ補正した。宮崎県raw gapは63件から53件、全国raw gapは2,258件から2,248件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check` 問題なし、採用sourceUrls 20件はすべてHTTP 200、`npm run audit:coverage` failures 0、`npm run build` 成功。静的ページ5,649件生成、`/grant/[slug]` は2,845件相当。
+
+次回再開位置:
+
+- 全国raw gapの次候補は宮崎市奨学金系2件とテレワーク1件（`miyazaki-city-scholarship` / `miyazaki-city-scholarship-v2` / `miyazaki-city-telework-bonus`）。その後、宮崎県・宮崎市残り6件（`miyazaki-elderly-taxi` / `miyazaki-juutaku-reform` / `miyazaki-scholarship-repayment` / `miyazaki-school-lunch-subsidy` / `miyazaki-startup-support` / `miyazaki-water-saving`）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。

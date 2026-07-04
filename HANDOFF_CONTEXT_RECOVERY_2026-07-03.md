@@ -37,7 +37,7 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 - Repository: `/Users/banseiyuuji/joseikin-navi-site`
 - Branch: `main`, ahead of `origin/main` by 200+ commits after the latest completed local commits.
-- Last completed grant-data commit before Batch 156: `07588c5 中津川市9件を公式補正`
+- Last completed grant-data commit before Batch 157: `aee8e03 延岡市9件を公式補正`
 - Do not push or publish without explicit user confirmation.
 - Preserve unrelated dirty Pinterest/UI work:
   - `package.json`
@@ -49,26 +49,27 @@ Avoid commands that print large file regions or broad search results across `SAF
 
 ## Last verified grant-data state
 
-- Batch 156 completed in progress:
+- Batch 157 completed in progress:
 
-- 延岡市9件を公式補正し、延岡市 raw gap 0件を達成
-- 対象: `nobeoka-block-wall-removal` / `nobeoka-child-medical-aid` / `nobeoka-elderly-taxi` / `nobeoka-health-checkup-subsidy` / `nobeoka-juutaku-reform` / `nobeoka-scholarship-repayment` / `nobeoka-school-lunch-subsidy` / `nobeoka-startup-support` / `nobeoka-water-saving`
-- `nobeoka-block-wall-removal` はブロック塀等地震対策支援事業へ補正。
-- `nobeoka-child-medical-aid` は子ども医療費助成制度へ補正。
-- `nobeoka-elderly-taxi` は運転免許証自主返納支援制度のタクシー利用券等へ補正。
-- `nobeoka-health-checkup-subsidy` は人間ドック等助成事業へ補正。3,000円。
-- `nobeoka-juutaku-reform` は住まい取得・定住促進事業補助金へ補正。
-- `nobeoka-scholarship-repayment` は奨学金返還支援による地元企業人材確保支援補助金へ補正。
-- `nobeoka-school-lunch-subsidy` は私立学校等給食等緊急支援金へ補正し、受付終了扱い。
-- `nobeoka-startup-support` は引継ぎ事業スタートアップ支援補助金へ補正。
-- `nobeoka-water-saving` は浄化槽設置補助制度へ補正。
-- 宮崎県 raw gap: `72 -> 63`
-- 全国 raw gap: `2267 -> 2258`
+- 宮崎県庁1件と宮崎市9件を公式補正
+- 対象: `miyazaki-mango-farming` / `miyazaki-block-wall-removal` / `miyazaki-child-medical-aid` / `miyazaki-city-birth-bonus` / `miyazaki-city-bousai-equipment` / `miyazaki-city-childcare-subsidy` / `miyazaki-city-elderly-support` / `miyazaki-city-housing-purchase` / `miyazaki-city-infertility` / `miyazaki-city-nursing-equipment`
+- `miyazaki-mango-farming` はマンゴー限定補助ではなく新規就農者育成総合対策（就農準備資金）へ補正。
+- `miyazaki-block-wall-removal` は危険ブロック塀等対策事業補助金へ補正し、R8受付終了扱い。
+- `miyazaki-child-medical-aid` は子ども医療費助成へ補正。
+- `miyazaki-city-birth-bonus` は出産・子育て応援給付金/妊婦支援給付金へ補正。
+- `miyazaki-city-bousai-equipment` は自主防災組織活動支援事業補助金へ補正。
+- `miyazaki-city-childcare-subsidy` は第2子保育料の負担軽減へ補正。
+- `miyazaki-city-elderly-support` は在宅福祉サービスへ補正。
+- `miyazaki-city-housing-purchase` は住宅購入補助ではなく移住支援給付金制度へ補正。
+- `miyazaki-city-infertility` は不妊治療費助成事業へ補正。
+- `miyazaki-city-nursing-equipment` は介護用品支給へ補正。
+- 宮崎県 raw gap: `63 -> 53`
+- 全国 raw gap: `2258 -> 2248`
 - `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
 - `git diff --check`: 問題なし
-- 採用sourceUrls 18件はすべてHTTP 200
+- 採用sourceUrls 20件はすべてHTTP 200
 - `npm run audit:coverage`: failures 0
-- `npm run build`: 成功。静的ページ5,631件生成、`/grant/[slug]` は2,835件相当。
+- `npm run build`: 成功。静的ページ5,649件生成、`/grant/[slug]` は2,845件相当。
 
 ## Next safe work item
 
@@ -80,18 +81,17 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 
 Expected first batch:
 
-- 宮崎県庁1件:
-  - `miyazaki-mango-farming`
-- その後、宮崎市9件:
-  - `miyazaki-block-wall-removal`
-  - `miyazaki-child-medical-aid`
-  - `miyazaki-city-birth-bonus`
-  - `miyazaki-city-bousai-equipment`
-  - `miyazaki-city-childcare-subsidy`
-  - `miyazaki-city-elderly-support`
-  - `miyazaki-city-housing-purchase`
-  - `miyazaki-city-infertility`
-  - `miyazaki-city-nursing-equipment`
+- 宮崎市奨学金系2件とテレワーク1件:
+  - `miyazaki-city-scholarship`
+  - `miyazaki-city-scholarship-v2`
+  - `miyazaki-city-telework-bonus`
+- その後、宮崎県・宮崎市残り6件:
+  - `miyazaki-elderly-taxi`
+  - `miyazaki-juutaku-reform`
+  - `miyazaki-scholarship-repayment`
+  - `miyazaki-school-lunch-subsidy`
+  - `miyazaki-startup-support`
+  - `miyazaki-water-saving`
 
 ## Recommended execution pattern
 

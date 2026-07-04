@@ -826,5 +826,7 @@
 - [x] 岐阜県Batch 155の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 15件はすべてHTTP 200、全国未照合raw slugは2,276件から2,267件、岐阜県は9件から0件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,615件生成、`/grant/[slug]` は2,827件相当）
 - [x] 宮崎県Batch 156として、延岡市9件を公式確認済み追加・補正し、延岡市raw gap 0件を達成（ブロック塀等地震対策支援事業、子ども医療費助成制度、運転免許証自主返納支援制度のタクシー利用券等、人間ドック等助成事業、住まい取得・定住促進事業補助金、奨学金返還支援による地元企業人材確保支援補助金、私立学校等給食等緊急支援金の受付終了扱い、引継ぎ事業スタートアップ支援補助金、浄化槽設置補助制度）
 - [x] 宮崎県Batch 156の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 18件はすべてHTTP 200、全国未照合raw slugは2,267件から2,258件、宮崎県は72件から63件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,631件生成、`/grant/[slug]` は2,835件相当）
-- [ ] 次回候補: 宮崎県庁1件 `miyazaki-mango-farming` の後、宮崎市9件（`miyazaki-block-wall-removal` / `miyazaki-child-medical-aid` / `miyazaki-city-birth-bonus` / `miyazaki-city-bousai-equipment` / `miyazaki-city-childcare-subsidy` / `miyazaki-city-elderly-support` / `miyazaki-city-housing-purchase` / `miyazaki-city-infertility` / `miyazaki-city-nursing-equipment`）から再開可能
+- [x] 宮崎県Batch 157として、宮崎県庁1件と宮崎市9件を公式確認済み追加・補正（新規就農者育成総合対策・就農準備資金、危険ブロック塀等対策事業補助金、子ども医療費助成、出産・子育て応援給付金/妊婦支援給付金、自主防災組織活動支援事業補助金、第2子保育料の負担軽減、在宅福祉サービス、移住支援給付金制度、不妊治療費助成事業、介護用品支給）
+- [x] 宮崎県Batch 157の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 20件はすべてHTTP 200、全国未照合raw slugは2,258件から2,248件、宮崎県は63件から53件に減少、coverage failures 0、`npm run build` 成功・静的ページ5,649件生成、`/grant/[slug]` は2,845件相当）
+- [ ] 次回候補: 宮崎市奨学金系2件とテレワーク1件（`miyazaki-city-scholarship` / `miyazaki-city-scholarship-v2` / `miyazaki-city-telework-bonus`）、その後宮崎県・宮崎市残り6件（`miyazaki-elderly-taxi` / `miyazaki-juutaku-reform` / `miyazaki-scholarship-repayment` / `miyazaki-school-lunch-subsidy` / `miyazaki-startup-support` / `miyazaki-water-saving`）から再開可能
 - [ ] push / 公開反映は明示確認後に実行
