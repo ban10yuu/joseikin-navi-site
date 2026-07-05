@@ -528,3 +528,22 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 - `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ6,059件生成、`/grant/[slug]` は3,074件相当。
 - Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は群馬県raw gapの桐生市残り `kiryu-housing-reform` / `kiryu-newlywed-rent` / `kiryu-nursing-equipment` / `kiryu-nursing-home-reform` / `kiryu-scholarship` など。
 - Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。
+
+## Current progress update 2026-07-05 Batch 196
+
+- Batch 196 completed:
+- 対象: `kiryu-housing-reform` / `kiryu-newlywed-rent` / `kiryu-nursing-equipment` / `kiryu-nursing-home-reform` / `kiryu-scholarship`
+- `kiryu-housing-reform` は桐生市きりゅう暮らし応援事業（住宅リフォーム助成）補助金へ補正。
+- `kiryu-newlywed-rent` は結婚新生活支援補助金・家賃補助として確認できないため、公式に確認できる黒保根地域定住促進奨励金の結婚祝金へ補正。
+- `kiryu-nursing-equipment` は在宅の要介護（支援）者による福祉用具の購入へ補正。
+- `kiryu-nursing-home-reform` は要介護（支援）者の住宅改修へ補正。市独自上乗せ最大15万円は確認不可。
+- `kiryu-scholarship` は桐生市奨学資金制度へ補正。
+- 群馬県 raw gap: `38 -> 33`
+- 全国 raw gap: `2019 -> 2014`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 9件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,633件、群馬県ローカル公式確認済みは52件。
+- `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ6,067件生成、`/grant/[slug]` は3,079件相当。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は群馬県raw gapの桐生市残り `kiryu-school-lunch` / `kiryu-seismic-diagnosis` / `kiryu-telework-bonus` / `kiryu-uij-turn`。
+- Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。

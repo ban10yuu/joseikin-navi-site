@@ -5310,6 +5310,19 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
 
+## 2026-07-05 群馬県Batch 196 追加ログ
+
+桐生市5件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `kiryu-housing-reform` / `kiryu-newlywed-rent` / `kiryu-nursing-equipment` / `kiryu-nursing-home-reform` / `kiryu-scholarship`。`kiryu-housing-reform` はきりゅう暮らし応援事業（住宅リフォーム助成）補助金、`kiryu-newlywed-rent` は黒保根地域定住促進奨励金の結婚祝金、`kiryu-nursing-equipment` は在宅の要介護（支援）者による福祉用具購入、`kiryu-nursing-home-reform` は要介護（支援）者の住宅改修、`kiryu-scholarship` は桐生市奨学資金制度へ補正した。生成データの結婚新生活支援補助金・家賃補助、介護住宅改修上乗せ最大15万円は公式確認不可として、確認できる公式制度に寄せて整理した。群馬県raw gapは38件から33件、全国raw gapは2,019件から2,014件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` 問題なし、採用sourceUrls 9件はすべてHTTP 200。`npm run audit:coverage` は failures 0、公式確認済みactiveは2,633件、群馬県ローカル公式確認済みは52件。`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` は成功し、静的ページ6,067件生成、`/grant/[slug]` は3,079件相当。
+
+次回再開位置:
+
+- 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度としての確認が弱いため引き続き保留。
+- 全国raw gapの次候補は群馬県の桐生市残り（`kiryu-school-lunch` / `kiryu-seismic-diagnosis` / `kiryu-telework-bonus` / `kiryu-uij-turn`）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` の末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。
+
 ## 2026-07-05 群馬県Batch 195 追加ログ
 
 桐生市10件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `kiryu-barrier-free` / `kiryu-birth-bonus` / `kiryu-birth-bonus-v2` / `kiryu-bousai-equipment` / `kiryu-childcare-subsidy` / `kiryu-childcare-subsidy-v2` / `kiryu-disability-medical` / `kiryu-disability-medical-v2` / `kiryu-elderly-support` / `kiryu-energy-support`。`kiryu-barrier-free` は在宅高齢者環境整備事業、`kiryu-birth-bonus` は妊婦のための支援給付事業、`kiryu-childcare-subsidy` は幼児教育・保育の無償化、`kiryu-disability-medical` は福祉医療費の助成、`kiryu-elderly-support` は地域自立生活支援事業「食」の自立支援事業、`kiryu-energy-support` は蓄電池設備設置補助へ補正した。`kiryu-birth-bonus-v2` / `kiryu-bousai-equipment` / `kiryu-childcare-subsidy-v2` / `kiryu-disability-medical-v2` は重複または公式確認不可として掲載停止した。群馬県raw gapは48件から38件、全国raw gapは2,029件から2,019件に減少した。
