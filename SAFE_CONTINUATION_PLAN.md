@@ -5997,3 +5997,16 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 次は群馬県raw gapの太田市（`ota-city-birth-bonus` / `ota-city-childcare-subsidy` / `ota-city-elderly-support` / `ota-city-housing-purchase` / `ota-city-housing-seismic` など）。
 - コンテキスト溢れの主因は、長い会話履歴・引き継ぎ文書全文・巨大な監査/ビルド出力が同じスレッドへ蓄積したこと。再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` の末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-05 群馬県Batch 202 追加ログ
+
+太田市11件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `ota-city-birth-bonus` / `ota-city-childcare-subsidy` / `ota-city-elderly-support` / `ota-city-housing-purchase` / `ota-city-housing-seismic` / `ota-city-infertility` / `ota-city-nursing-equipment` / `ota-city-scholarship` / `ota-city-seismic-diagnosis` / `ota-city-sme-support` / `ota-city-startup-support`。妊婦のための支援給付、ベーシックサービス（幼保給食費助成事業）、高齢者支援サービス、移住者まちなか住宅取得支援金、木造住宅耐震改修補助金、不妊治療費助成、介護用紙おむつの給付、太田市みらい給付型奨学金、木造住宅耐震診断、DX推進補助金、空き店舗対策家賃支援事業補助金へ補正した。太田市raw gapと群馬県raw gapは0件になり、全国raw gapは1,992件から1,981件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` 問題なし、採用sourceUrls 21件はすべてHTTP 200。`npm run audit:coverage` は failures 0、公式確認済みactiveは2,663件、群馬県ローカル公式確認済みは82件。`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` は成功し、静的ページ6,114件生成、`/grant/[slug]` は3,112件相当。
+
+次回再開位置:
+
+- 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度としての確認が弱いため引き続き保留。
+- 次は広島県raw gapの呉市（`kure-birth-bonus` / `kure-block-wall-removal` / `kure-child-medical-aid` / `kure-childcare-subsidy` など）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` の末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。

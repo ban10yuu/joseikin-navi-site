@@ -916,5 +916,7 @@
 - [x] 群馬県Batch 200の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 9件はすべてHTTP 200、全国未照合raw slugは2,001件から1,996件、群馬県は20件から15件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ6,092件生成、`/grant/[slug]` は3,098件相当）
 - [x] 群馬県Batch 201として、前橋市残り4件を公式確認済み追加・補正し、前橋市raw gap 0件を達成（令和8年度不妊治療費助成事業、物価高対応子育て応援手当、令和8年度空き家活用リフォーム補助、スタートアップオフィス支援補助金）
 - [x] 群馬県Batch 201の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 8件はすべてHTTP 200、全国未照合raw slugは1,996件から1,992件、群馬県は15件から11件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ6,097件生成、`/grant/[slug]` は3,102件相当）
-- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は群馬県raw gapの太田市（`ota-city-birth-bonus` / `ota-city-childcare-subsidy` / `ota-city-elderly-support` / `ota-city-housing-purchase` / `ota-city-housing-seismic` など）から再開可能
+- [x] 群馬県Batch 202として、太田市11件を公式確認済み追加・補正し、太田市raw gap 0件・群馬県raw gap 0件を達成（妊婦のための支援給付、幼保給食費助成事業、高齢者支援サービス、移住者まちなか住宅取得支援金、木造住宅耐震改修補助金、不妊治療費助成、介護用紙おむつの給付、太田市みらい給付型奨学金、木造住宅耐震診断、DX推進補助金、空き店舗対策家賃支援事業補助金）
+- [x] 群馬県Batch 202の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 21件はすべてHTTP 200、全国未照合raw slugは1,992件から1,981件、群馬県は11件から0件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ6,114件生成、`/grant/[slug]` は3,112件相当）
+- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は広島県raw gapの呉市（`kure-birth-bonus` / `kure-block-wall-removal` / `kure-child-medical-aid` / `kure-childcare-subsidy` など）から再開可能
 - [ ] push / 公開反映は明示確認後に実行

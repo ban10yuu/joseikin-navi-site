@@ -642,3 +642,29 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 - `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ6,097件生成、`/grant/[slug]` は3,102件相当。
 - Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は群馬県raw gapの太田市 `ota-city-birth-bonus` / `ota-city-childcare-subsidy` / `ota-city-elderly-support` / `ota-city-housing-purchase` / `ota-city-housing-seismic` など。
 - Context overflow mitigation: 停止の主因は、長い会話履歴・引き継ぎ文書全文・巨大な監査/ビルド出力が同じスレッドへ蓄積したこと。以後はこのファイル末尾120行、`node scripts/audit-raw-verified-gaps.mjs --limit 25`、必要な差分だけで再開する。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+
+## Current progress update 2026-07-05 Batch 202
+
+- Batch 202 completed:
+- 対象: `ota-city-birth-bonus` / `ota-city-childcare-subsidy` / `ota-city-elderly-support` / `ota-city-housing-purchase` / `ota-city-housing-seismic` / `ota-city-infertility` / `ota-city-nursing-equipment` / `ota-city-scholarship` / `ota-city-seismic-diagnosis` / `ota-city-sme-support` / `ota-city-startup-support`
+- `ota-city-birth-bonus` は妊婦のための支援給付へ補正。妊娠時5万円、出産後5万円×胎児数。
+- `ota-city-childcare-subsidy` はベーシックサービス（幼保給食費助成事業）へ補正。給食費月額上限4,400円をOTACOで支給。
+- `ota-city-elderly-support` は高齢者支援サービス（緊急通報装置貸与等）へ補正。
+- `ota-city-housing-purchase` は移住者まちなか住宅取得支援金へ補正。基本10万円、18歳未満同居で20万円加算。
+- `ota-city-housing-seismic` は令和8年度木造住宅耐震改修補助金へ補正。全部改修最大100万円、耐震シェルター等最大60万円。
+- `ota-city-infertility` は不妊治療費助成へ補正。生殖補助医療最大10万円、その他の不妊治療最大5万円。
+- `ota-city-nursing-equipment` は介護用紙おむつの給付へ補正。
+- `ota-city-scholarship` は太田市みらい給付型奨学金へ補正。月額5万円、年間60万円。令和8年度採用受付は終了。
+- `ota-city-seismic-diagnosis` は令和8年度木造住宅耐震診断へ補正。自己負担1,000円。
+- `ota-city-sme-support` は令和8年度DX推進補助金へ補正。上限100万円。
+- `ota-city-startup-support` は空き店舗対策家賃支援事業補助金へ補正。月額上限3万円、6か月。
+- 太田市 raw gap 0件、群馬県 raw gap 0件達成。
+- 群馬県 raw gap: `11 -> 0`
+- 全国 raw gap: `1992 -> 1981`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 21件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,663件、群馬県ローカル公式確認済みは82件。
+- `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ6,114件生成、`/grant/[slug]` は3,112件相当。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は広島県raw gapの呉市 `kure-birth-bonus` / `kure-block-wall-removal` / `kure-child-medical-aid` / `kure-childcare-subsidy` など。
+- Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。
