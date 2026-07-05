@@ -235,6 +235,28 @@ For the next batch, keep each turn small:
 - `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ5,924件生成、`/grant/[slug]` は2,990件相当。
 - Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は舞鶴市raw gapへ進む。
 
+## Current progress update 2026-07-05 Batch 182
+
+- Batch 182 completed:
+- 対象: `maizuru-aged-meal-delivery` / `maizuru-bicycle-helmet` / `maizuru-child-third-free` / `maizuru-culture-experience` / `maizuru-dementia-family` / `maizuru-landslide-sensor` / `maizuru-postpartum-care` / `maizuru-tea-business` / `maizuru-uij-housing`
+- `maizuru-aged-meal-delivery` は高齢者配食サービス助成の公式助成額確認不可として掲載停止。
+- `maizuru-bicycle-helmet` は舞鶴市自転車乗車用ヘルメット購入費補助金へ補正。
+- `maizuru-child-third-free` は第3子以降出産祝い金の公式確認不可として掲載停止。
+- `maizuru-culture-experience` は個人向け補助金としての公式確認不可として掲載停止。
+- `maizuru-dementia-family` は認知症高齢者等位置探索サービス（GPS）利用支援事業へ補正。
+- `maizuru-landslide-sensor` は危険住宅等土砂災害対策改修支援事業補助金へ補正。
+- `maizuru-postpartum-care` は令和8年度 舞鶴市産後ケア事業へ補正。
+- `maizuru-tea-business` はまいづる産品ブランド力向上支援事業補助金へ補正。
+- `maizuru-uij-housing` はまちなかエリア定住促進事業補助金へ補正。
+- 京都府 raw gap: `20 -> 11`
+- 全国 raw gap: `2103 -> 2094`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 27件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,557件、京都府ローカル公式確認済みは66件。
+- `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ5,941件生成、`/grant/[slug]` は2,999件相当。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は福知山市raw gapへ進む。
+
 ## If the current thread keeps overflowing
 
 Start a fresh thread and read only this file plus the current repository state. Do not replay the whole old chat.

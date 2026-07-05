@@ -5737,3 +5737,16 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は舞鶴市（`maizuru-aged-meal-delivery` / `maizuru-bicycle-helmet` / `maizuru-child-third-free` など）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-05 京都府Batch 182 追加ログ
+
+舞鶴市9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `maizuru-aged-meal-delivery` / `maizuru-bicycle-helmet` / `maizuru-child-third-free` / `maizuru-culture-experience` / `maizuru-dementia-family` / `maizuru-landslide-sensor` / `maizuru-postpartum-care` / `maizuru-tea-business` / `maizuru-uij-housing`。生成データ名をそのまま採用せず、公式ページ・公式例規・公式PDFで確認できる制度へ補正した。`maizuru-aged-meal-delivery`、`maizuru-child-third-free`、`maizuru-culture-experience` は生成名の補助・助成制度として確認できないため掲載停止扱いにした。他6件は、自転車乗車用ヘルメット購入費補助金、認知症高齢者等位置探索サービス（GPS）利用支援事業、危険住宅等土砂災害対策改修支援事業補助金、令和8年度産後ケア事業、まいづる産品ブランド力向上支援事業補助金、まちなかエリア定住促進事業補助金へ補正した。京都府raw gapは20件から11件、全国raw gapは2,103件から2,094件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` 問題なし、採用sourceUrls 27件はすべてHTTP 200。`npm run audit:coverage` は failures 0、公式確認済みactiveは2,557件、京都府ローカル公式確認済みは66件。`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` は成功し、静的ページ5,941件生成、`/grant/[slug]` は2,999件相当。
+
+次回再開位置:
+
+- 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度としての確認が弱いため引き続き保留。
+- 全国raw gapの次候補は福知山市（`fukuchiyama-aged-meal-delivery` / `fukuchiyama-bicycle-helmet` / `fukuchiyama-child-third-free` など）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。
