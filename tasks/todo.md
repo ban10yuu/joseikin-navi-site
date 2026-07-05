@@ -910,5 +910,7 @@
 - [x] 群馬県Batch 197の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 10件はすべてHTTP 200、全国未照合raw slugは2,014件から2,010件、群馬県は33件から29件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ6,072件生成、`/grant/[slug]` は3,083件相当）
 - [x] 群馬県Batch 198として、高崎市5件を公式確認済み追加・補正（高崎市出産お祝い金、福祉医療費助成の子ども医療、認可外保育施設第3子以降3歳未満児保育料等補助、高齢者等あんしん見守りシステム、生殖補助医療費助成・一般不妊治療費等助成）
 - [x] 群馬県Batch 198の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 11件はすべてHTTP 200、全国未照合raw slugは2,010件から2,005件、群馬県は29件から24件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ6,080件生成、`/grant/[slug]` は3,088件相当）
-- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は群馬県raw gapの高崎市残り（`takasaki-nursing-equipment` / `takasaki-scholarship` / `takasaki-seismic-diagnosis` / `takasaki-sme-support`）から再開可能
+- [x] 群馬県Batch 199として、高崎市残り4件を公式確認済み追加・補正（おむつ給付サービス事業、奨学資金制度、高崎市緊急耐震対策事業、中小企業経営安定化助成金）
+- [x] 群馬県Batch 199の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 8件はすべてHTTP 200、全国未照合raw slugは2,005件から2,001件、群馬県は24件から20件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ6,087件生成、`/grant/[slug]` は3,093件相当）
+- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は群馬県raw gapの前橋市（`maebashi-afterschool` / `maebashi-birth-bonus` / `maebashi-disability-medical` / `maebashi-elderly-support` / `maebashi-housing-acquisition` など）から再開可能
 - [ ] push / 公開反映は明示確認後に実行

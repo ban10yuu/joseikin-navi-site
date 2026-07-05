@@ -5958,3 +5958,16 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は群馬県の館林市（`tatebayashi-birth-bonus` / `tatebayashi-childcare-subsidy` / `tatebayashi-elderly-support` など）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-05 群馬県Batch 199 追加ログ
+
+高崎市残り4件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `takasaki-nursing-equipment` / `takasaki-scholarship` / `takasaki-seismic-diagnosis` / `takasaki-sme-support`。`takasaki-nursing-equipment` は高崎市おむつ給付サービス事業、`takasaki-scholarship` は高崎市奨学資金制度、`takasaki-seismic-diagnosis` は高崎市緊急耐震対策事業の木造住宅耐震診断・耐震改修等補助、`takasaki-sme-support` は高崎市中小企業経営安定化助成金へ補正した。高崎市raw gapは0件になり、群馬県raw gapは24件から20件、全国raw gapは2,005件から2,001件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` 問題なし、採用sourceUrls 8件はすべてHTTP 200。`npm run audit:coverage` は failures 0、公式確認済みactiveは2,645件、群馬県ローカル公式確認済みは64件。`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` は成功し、静的ページ6,087件生成、`/grant/[slug]` は3,093件相当。
+
+次回再開位置:
+
+- 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度としての確認が弱いため引き続き保留。
+- 次は群馬県raw gapの前橋市（`maebashi-afterschool` / `maebashi-birth-bonus` / `maebashi-disability-medical` / `maebashi-elderly-support` / `maebashi-housing-acquisition` など）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` の末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。

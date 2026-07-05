@@ -585,3 +585,22 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 - `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ6,080件生成、`/grant/[slug]` は3,088件相当。
 - Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は群馬県raw gapの高崎市残り `takasaki-nursing-equipment` / `takasaki-scholarship` / `takasaki-seismic-diagnosis` / `takasaki-sme-support`。
 - Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。
+
+## Current progress update 2026-07-05 Batch 199
+
+- Batch 199 completed:
+- 対象: `takasaki-nursing-equipment` / `takasaki-scholarship` / `takasaki-seismic-diagnosis` / `takasaki-sme-support`
+- `takasaki-nursing-equipment` は高崎市おむつ給付サービス事業へ補正。65歳以上で常時おむつを必要とする要介護1以上等の人に、月額5,000円を上限におむつ配達。
+- `takasaki-scholarship` は高崎市奨学資金制度へ補正。高校等は年額24万円、大学等は年額60万円の無利子貸与。令和8年度募集は2026年2月27日に受付終了。
+- `takasaki-seismic-diagnosis` は高崎市緊急耐震対策事業の木造住宅耐震診断・補強設計・耐震改修等補助へ補正。耐震診断最大5万円、耐震改修最大140万円。
+- `takasaki-sme-support` は高崎市中小企業経営安定化助成金へ補正。生成データの展示会・広告・IT導入等最大50万円は公式確認できず、事業所税負担軽減の現行公式制度を採用。
+- 高崎市 raw gap 0件達成。
+- 群馬県 raw gap: `24 -> 20`
+- 全国 raw gap: `2005 -> 2001`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 8件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,645件、群馬県ローカル公式確認済みは64件。
+- `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ6,087件生成、`/grant/[slug]` は3,093件相当。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は群馬県raw gapの前橋市 `maebashi-afterschool` / `maebashi-birth-bonus` / `maebashi-disability-medical` / `maebashi-elderly-support` / `maebashi-housing-acquisition` など。
+- Context overflow mitigation: コンテキスト上限停止の主因は長い引き継ぎ文書・監査出力・ビルドログ・差分を会話へ蓄積しすぎたこと。次回以降も全文ログを読まず、このファイル末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。大きな出力はファイルへ記録し、会話には要約だけ返す。
