@@ -5763,3 +5763,16 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は熊本県（`kumamoto-nursing-care-robot` / `kumamoto-block-wall-removal` / `kumamoto-child-medical-aid` など）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-05 熊本県Batch 184 追加ログ
+
+熊本県・熊本市5件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `kumamoto-nursing-care-robot` / `kumamoto-block-wall-removal` / `kumamoto-child-medical-aid` / `kumamoto-city-birth-bonus` / `kumamoto-city-childcare-subsidy`。生成データ名をそのまま採用せず、公式ページ・公式PDFで確認できる制度へ補正した。`kumamoto-nursing-care-robot` は熊本県介護テクノロジー定着支援事業費補助金、`kumamoto-block-wall-removal` は熊本市の公道等に面するブロック塀等の撤去補助、`kumamoto-child-medical-aid` は熊本市こども医療費助成、`kumamoto-city-birth-bonus` はようこそ赤ちゃんプロジェクト妊婦支援給付金、`kumamoto-city-childcare-subsidy` は物価高対応子育て応援手当へ補正した。熊本県raw gapは35件から30件、全国raw gapは2,085件から2,080件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` 問題なし、採用sourceUrls 15件はすべてHTTP 200。`npm run audit:coverage` は failures 0、公式確認済みactiveは2,571件、熊本県ローカル公式確認済みは26件。`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` は成功し、静的ページ5,963件生成、`/grant/[slug]` は3,013件相当。
+
+次回再開位置:
+
+- 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度としての確認が弱いため引き続き保留。
+- 全国raw gapの次候補は熊本県（`kumamoto-city-housing-eco` / `kumamoto-city-housing-reconstruction` / `kumamoto-city-school-lunch` など）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。

@@ -880,5 +880,7 @@
 - [x] 京都府Batch 182の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 27件はすべてHTTP 200、全国未照合raw slugは2,103件から2,094件、京都府は20件から11件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ5,941件生成、`/grant/[slug]` は2,999件相当）
 - [x] 京都府Batch 183として、福知山市9件を公式確認済み追加・補正し、福知山市raw gap 0件を達成（在宅高齢者配食サービス、自転車通学生徒用ヘルメット補助金、第3子以降出産祝い金の公式確認不可、子ども文化芸術体験助成の公式確認不可、認知症高齢者等見守りサービス事業補助金、土砂災害警戒区域安全対策補助金の公式確認不可、産後ケア事業、農業者販路開拓事業補助金、農山村地域空き家改修費補助金）
 - [x] 京都府Batch 183の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 25件はすべてHTTP 200、全国未照合raw slugは2,094件から2,085件、京都府は11件から2件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ5,956件生成、`/grant/[slug]` は3,008件相当）
-- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は熊本県raw gap（`kumamoto-nursing-care-robot` / `kumamoto-block-wall-removal` / `kumamoto-child-medical-aid` など）から再開可能
+- [x] 熊本県Batch 184として、熊本県・熊本市5件を公式確認済み追加・補正（介護テクノロジー定着支援事業費補助金、公道等に面するブロック塀等の撤去補助、こども医療費助成、ようこそ赤ちゃんプロジェクト妊婦支援給付金、物価高対応子育て応援手当）
+- [x] 熊本県Batch 184の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 15件はすべてHTTP 200、全国未照合raw slugは2,085件から2,080件、熊本県は35件から30件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ5,963件生成、`/grant/[slug]` は3,013件相当）
+- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は熊本県raw gap（`kumamoto-city-housing-eco` / `kumamoto-city-housing-reconstruction` / `kumamoto-city-school-lunch` など）から再開可能
 - [ ] push / 公開反映は明示確認後に実行

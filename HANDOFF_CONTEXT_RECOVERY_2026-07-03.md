@@ -292,3 +292,22 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 - `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ5,956件生成、`/grant/[slug]` は3,008件相当。
 - Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は熊本県raw gapへ進む。
 - Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。
+
+## Current progress update 2026-07-05 Batch 184
+
+- Batch 184 completed:
+- 対象: `kumamoto-nursing-care-robot` / `kumamoto-block-wall-removal` / `kumamoto-child-medical-aid` / `kumamoto-city-birth-bonus` / `kumamoto-city-childcare-subsidy`
+- `kumamoto-nursing-care-robot` は熊本県介護テクノロジー定着支援事業費補助金へ補正。
+- `kumamoto-block-wall-removal` は熊本市公道等に面するブロック塀等の撤去補助へ補正。
+- `kumamoto-child-medical-aid` は熊本市こども医療費助成（ひまわりカード）へ補正。
+- `kumamoto-city-birth-bonus` は熊本市ようこそ赤ちゃんプロジェクト妊婦支援給付金へ補正。
+- `kumamoto-city-childcare-subsidy` は熊本市物価高対応子育て応援手当へ補正。
+- 熊本県 raw gap: `35 -> 30`
+- 全国 raw gap: `2085 -> 2080`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 15件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,571件、熊本県ローカル公式確認済みは26件。
+- `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ5,963件生成、`/grant/[slug]` は3,013件相当。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は熊本県raw gapの `kumamoto-city-housing-eco` 以降へ進む。
+- Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。
