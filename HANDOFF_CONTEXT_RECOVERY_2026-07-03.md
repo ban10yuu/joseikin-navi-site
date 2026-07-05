@@ -668,3 +668,26 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 - `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ6,114件生成、`/grant/[slug]` は3,112件相当。
 - Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は広島県raw gapの呉市 `kure-birth-bonus` / `kure-block-wall-removal` / `kure-child-medical-aid` / `kure-childcare-subsidy` など。
 - Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。
+
+## Current progress update 2026-07-05 Batch 203
+
+- Batch 203 completed:
+- 対象: `kure-birth-bonus` / `kure-childcare-subsidy` / `kure-newlywed-rent` / `kure-disability-medical` / `kure-school-lunch` / `kure-sme-support` / `kure-nursing-home-reform` / `kure-energy-support` / `kure-seismic-diagnosis`
+- `kure-birth-bonus` は妊婦のための支援給付金へ補正。妊娠時5万円、出産後5万円×胎児数。
+- `kure-childcare-subsidy` は令和8年10月開始予定の0〜2歳児保育料無償化へ補正。
+- `kure-newlywed-rent` は新婚・子育て世帯定住支援事業へ補正。基本30万円、加算込み最大100万円。
+- `kure-disability-medical` は重度心身障害者医療費支給制度へ補正。
+- `kure-school-lunch` は令和8年度学校給食費の実質無償化へ補正。
+- `kure-sme-support` は令和8年度地域産品開発支援事業へ補正。上限50万円。
+- `kure-nursing-home-reform` は介護保険住宅改修へ補正。利用上限20万円。
+- `kure-energy-support` は省エネ家電・省エネ設備導入助成へ補正。
+- `kure-seismic-diagnosis` は木造住宅耐震診断・耐震改修補助へ補正。耐震診断上限3万円、耐震改修上限115万円。
+- 広島県 raw gap: `83 -> 74`
+- 全国 raw gap: `1981 -> 1972`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 15件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,672件、広島県ローカル公式確認済みは31件。
+- Buildは今回は未実行。前回Batch 202で成功済みのため、次の県完了時または大きめの節目で再実行する。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は呉市残り `kure-block-wall-removal` / `kure-child-medical-aid` / `kure-elderly-taxi` / `kure-health-checkup-subsidy` / `kure-juutaku-reform` / `kure-scholarship-repayment` / `kure-school-lunch-subsidy` / `kure-water-saving` など。
+- Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。

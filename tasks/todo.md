@@ -918,5 +918,7 @@
 - [x] 群馬県Batch 201の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 8件はすべてHTTP 200、全国未照合raw slugは1,996件から1,992件、群馬県は15件から11件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ6,097件生成、`/grant/[slug]` は3,102件相当）
 - [x] 群馬県Batch 202として、太田市11件を公式確認済み追加・補正し、太田市raw gap 0件・群馬県raw gap 0件を達成（妊婦のための支援給付、幼保給食費助成事業、高齢者支援サービス、移住者まちなか住宅取得支援金、木造住宅耐震改修補助金、不妊治療費助成、介護用紙おむつの給付、太田市みらい給付型奨学金、木造住宅耐震診断、DX推進補助金、空き店舗対策家賃支援事業補助金）
 - [x] 群馬県Batch 202の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 21件はすべてHTTP 200、全国未照合raw slugは1,992件から1,981件、群馬県は11件から0件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ6,114件生成、`/grant/[slug]` は3,112件相当）
-- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は広島県raw gapの呉市（`kure-birth-bonus` / `kure-block-wall-removal` / `kure-child-medical-aid` / `kure-childcare-subsidy` など）から再開可能
+- [x] 広島県Batch 203として、呉市9件を公式確認済み追加・補正（妊婦のための支援給付金、0〜2歳児保育料無償化、新婚・子育て世帯定住支援事業、重度心身障害者医療費支給制度、令和8年度学校給食費の実質無償化、地域産品開発支援事業、介護保険住宅改修、省エネ家電・省エネ設備導入助成、木造住宅耐震診断・耐震改修補助）
+- [x] 広島県Batch 203の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 15件はすべてHTTP 200、全国未照合raw slugは1,981件から1,972件、広島県は83件から74件に減少、coverage failures 0。Buildは今回は未実行）
+- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は呉市残り（`kure-block-wall-removal` / `kure-child-medical-aid` / `kure-elderly-taxi` / `kure-health-checkup-subsidy` / `kure-juutaku-reform` / `kure-scholarship-repayment` / `kure-school-lunch-subsidy` / `kure-water-saving` など）から再開可能
 - [ ] push / 公開反映は明示確認後に実行
