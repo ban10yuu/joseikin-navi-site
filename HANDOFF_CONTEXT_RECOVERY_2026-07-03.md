@@ -483,3 +483,24 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 - `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ6,035件生成、`/grant/[slug]` は3,058件相当。
 - Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は群馬県raw gapの館林市残り5件 `tatebayashi-infertility` / `tatebayashi-migration-support` / `tatebayashi-nursing-equipment` / `tatebayashi-scholarship` / `tatebayashi-seismic-diagnosis`。
 - Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。
+
+## Current progress update 2026-07-05 Batch 194
+
+- Batch 194 completed:
+- 対象: `tatebayashi-infertility` / `tatebayashi-migration-support` / `tatebayashi-nursing-equipment` / `tatebayashi-scholarship` / `tatebayashi-seismic-diagnosis` / `tatebayashi-sme-support`
+- `tatebayashi-infertility` は館林市不妊治療費等助成事業へ補正。
+- `tatebayashi-migration-support` は館林市わくわく地方生活実現支援金へ補正。令和7年度受付終了、令和8年度受付開始時期未定として整理。
+- `tatebayashi-nursing-equipment` は館林市高齢者福祉サービスの尿漏れパット給付へ補正。
+- `tatebayashi-scholarship` は館林市奨学資金へ補正。
+- `tatebayashi-seismic-diagnosis` は館林市木造住宅耐震診断・耐震改修補助へ補正。
+- `tatebayashi-sme-support` は館林市展示会活用支援助成金へ補正。
+- 館林市 raw gap 0件達成。
+- 群馬県 raw gap: `54 -> 48`
+- 全国 raw gap: `2035 -> 2029`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 11件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,619件、群馬県ローカル公式確認済みは38件。
+- `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ6,045件生成、`/grant/[slug]` は3,064件相当。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は群馬県raw gapの桐生市 `kiryu-barrier-free` / `kiryu-birth-bonus` / `kiryu-birth-bonus-v2` / `kiryu-bousai-equipment` / `kiryu-childcare-subsidy` 以降へ進む。
+- Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。

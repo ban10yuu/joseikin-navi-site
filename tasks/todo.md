@@ -900,5 +900,7 @@
 - [x] 群馬県Batch 192の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 8件はすべてHTTP 200、全国未照合raw slugは2,045件から2,040件、群馬県は64件から59件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ6,025件生成、`/grant/[slug]` は3,053件相当）
 - [x] 群馬県Batch 193として、館林市5件を公式確認済み追加・補正（こども誕生祝金、妊婦等包括相談支援事業及び妊婦のための支援給付、認知症高齢者等事前登録事業、移住定住ウェルカム支援金、住宅リフォーム資金助成金）
 - [x] 群馬県Batch 193の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 10件はすべてHTTP 200、全国未照合raw slugは2,040件から2,035件、群馬県は59件から54件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ6,035件生成、`/grant/[slug]` は3,058件相当）
-- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は群馬県raw gap残り（`tatebayashi-infertility` / `tatebayashi-migration-support` / `tatebayashi-nursing-equipment` / `tatebayashi-scholarship` / `tatebayashi-seismic-diagnosis`）から再開可能
+- [x] 群馬県Batch 194として、館林市6件を公式確認済み追加・補正し、館林市raw gap 0件を達成（不妊治療費等助成事業、わくわく地方生活実現支援金、尿漏れパットの給付、奨学資金、木造住宅耐震診断・耐震改修補助、展示会活用支援助成金）
+- [x] 群馬県Batch 194の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 11件はすべてHTTP 200、全国未照合raw slugは2,035件から2,029件、群馬県は54件から48件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ6,045件生成、`/grant/[slug]` は3,064件相当）
+- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は群馬県raw gapの桐生市（`kiryu-barrier-free` / `kiryu-birth-bonus` / `kiryu-birth-bonus-v2` / `kiryu-bousai-equipment` / `kiryu-childcare-subsidy` など）から再開可能
 - [ ] push / 公開反映は明示確認後に実行

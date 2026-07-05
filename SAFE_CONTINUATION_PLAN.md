@@ -5310,6 +5310,19 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
 
+## 2026-07-05 群馬県Batch 194 追加ログ
+
+館林市6件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `tatebayashi-infertility` / `tatebayashi-migration-support` / `tatebayashi-nursing-equipment` / `tatebayashi-scholarship` / `tatebayashi-seismic-diagnosis` / `tatebayashi-sme-support`。`tatebayashi-infertility` は不妊治療費等助成事業、`tatebayashi-migration-support` はわくわく地方生活実現支援金、`tatebayashi-nursing-equipment` は高齢者福祉サービスの尿漏れパット給付、`tatebayashi-scholarship` は奨学資金、`tatebayashi-seismic-diagnosis` は木造住宅耐震診断・耐震改修補助、`tatebayashi-sme-support` は展示会活用支援助成金へ補正した。館林市raw gapは0件、群馬県raw gapは54件から48件、全国raw gapは2,035件から2,029件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` 問題なし、採用sourceUrls 11件はすべてHTTP 200。`npm run audit:coverage` は failures 0、公式確認済みactiveは2,619件、群馬県ローカル公式確認済みは38件。`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` は成功し、静的ページ6,045件生成、`/grant/[slug]` は3,064件相当。
+
+次回再開位置:
+
+- 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度としての確認が弱いため引き続き保留。
+- 全国raw gapの次候補は群馬県の桐生市（`kiryu-barrier-free` / `kiryu-birth-bonus` / `kiryu-birth-bonus-v2` / `kiryu-bousai-equipment` / `kiryu-childcare-subsidy` など）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` の末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。
+
 ## 2026-07-05 群馬県Batch 193 追加ログ
 
 館林市5件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `tatebayashi-birth-bonus` / `tatebayashi-childcare-subsidy` / `tatebayashi-elderly-support` / `tatebayashi-housing-purchase` / `tatebayashi-housing-reform`。`tatebayashi-birth-bonus` は館林市こども誕生祝金、`tatebayashi-childcare-subsidy` は妊婦等包括相談支援事業及び妊婦のための支援給付、`tatebayashi-elderly-support` は認知症高齢者等事前登録事業、`tatebayashi-housing-purchase` は移住定住ウェルカム支援金、`tatebayashi-housing-reform` は住宅リフォーム資金助成金へ補正した。群馬県raw gapは59件から54件、全国raw gapは2,040件から2,035件に減少した。
