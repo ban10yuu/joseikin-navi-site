@@ -547,3 +547,22 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 - `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ6,067件生成、`/grant/[slug]` は3,079件相当。
 - Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は群馬県raw gapの桐生市残り `kiryu-school-lunch` / `kiryu-seismic-diagnosis` / `kiryu-telework-bonus` / `kiryu-uij-turn`。
 - Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。
+
+## Current progress update 2026-07-05 Batch 197
+
+- Batch 197 completed:
+- 対象: `kiryu-school-lunch` / `kiryu-seismic-diagnosis` / `kiryu-uij-turn` / `kiryu-telework-bonus`
+- `kiryu-school-lunch` は桐生市学校給食費相当額補助事業へ補正。令和8年度から市立小学校・義務教育学校の給食費無償化も確認。
+- `kiryu-seismic-diagnosis` は木造住宅の耐震診断技術者派遣・耐震改修補助へ補正。耐震診断は無料、耐震改修は最大100万円。
+- `kiryu-uij-turn` は桐生市移住支援補助金へ補正。単身60万円、世帯100万円、18歳未満1人100万円加算。
+- `kiryu-telework-bonus` は桐生市移住支援補助金のテレワーク要件と重複するため掲載停止。生成データの独立したテレワーク環境整備費最大20万円は確認不可。
+- 桐生市 raw gap 0件達成。
+- 群馬県 raw gap: `33 -> 29`
+- 全国 raw gap: `2014 -> 2010`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 10件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,637件、群馬県ローカル公式確認済みは56件。
+- `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ6,072件生成、`/grant/[slug]` は3,083件相当。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は群馬県raw gapの高崎市 `takasaki-birth-bonus` / `takasaki-child-medical` / `takasaki-childcare-subsidy` / `takasaki-elderly-support` / `takasaki-infertility` など。
+- Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。

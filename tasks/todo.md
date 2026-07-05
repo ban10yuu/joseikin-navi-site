@@ -906,5 +906,7 @@
 - [x] 群馬県Batch 195の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 14件はすべてHTTP 200、全国未照合raw slugは2,029件から2,019件、群馬県は48件から38件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ6,059件生成、`/grant/[slug]` は3,074件相当）
 - [x] 群馬県Batch 196として、桐生市5件を公式確認済み追加・補正（きりゅう暮らし応援事業の住宅リフォーム助成、黒保根地域定住促進奨励金の結婚祝金、在宅の要介護者等による福祉用具購入、要介護者等の住宅改修、桐生市奨学資金制度）
 - [x] 群馬県Batch 196の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 9件はすべてHTTP 200、全国未照合raw slugは2,019件から2,014件、群馬県は38件から33件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ6,067件生成、`/grant/[slug]` は3,079件相当）
-- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は群馬県raw gapの桐生市残り（`kiryu-school-lunch` / `kiryu-seismic-diagnosis` / `kiryu-telework-bonus` / `kiryu-uij-turn`）から再開可能
+- [x] 群馬県Batch 197として、桐生市残り4件を公式確認済み追加・補正し、桐生市raw gap 0件を達成（学校給食費相当額補助事業、木造住宅の耐震診断技術者派遣・耐震改修補助、桐生市移住支援補助金、テレワーク移住支援補助金重複の掲載停止）
+- [x] 群馬県Batch 197の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 10件はすべてHTTP 200、全国未照合raw slugは2,014件から2,010件、群馬県は33件から29件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ6,072件生成、`/grant/[slug]` は3,083件相当）
+- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は群馬県raw gapの高崎市（`takasaki-birth-bonus` / `takasaki-child-medical` / `takasaki-childcare-subsidy` / `takasaki-elderly-support` / `takasaki-infertility` など）から再開可能
 - [ ] push / 公開反映は明示確認後に実行
