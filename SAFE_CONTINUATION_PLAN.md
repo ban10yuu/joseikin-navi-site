@@ -5310,6 +5310,19 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
 
+## 2026-07-05 群馬県Batch 198 追加ログ
+
+高崎市5件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `takasaki-birth-bonus` / `takasaki-child-medical` / `takasaki-childcare-subsidy` / `takasaki-elderly-support` / `takasaki-infertility`。`takasaki-birth-bonus` は高崎市出産お祝い金、`takasaki-child-medical` は福祉医療費助成の子ども医療、`takasaki-childcare-subsidy` は認可外保育施設第3子以降3歳未満児保育料等補助事業、`takasaki-elderly-support` は高齢者等あんしん見守りシステム、`takasaki-infertility` は生殖補助医療費助成・一般不妊治療費等助成へ補正した。生成データの第3子以降5万円の出産祝金、認可保育所等第2子以降無料、年間最大30万円の単一不妊治療制度は、公式制度名・金額に合わせて整理した。群馬県raw gapは29件から24件、全国raw gapは2,010件から2,005件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` 問題なし、採用sourceUrls 11件はすべてHTTP 200。`npm run audit:coverage` は failures 0、公式確認済みactiveは2,642件、群馬県ローカル公式確認済みは61件。`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` は成功し、静的ページ6,080件生成、`/grant/[slug]` は3,088件相当。
+
+次回再開位置:
+
+- 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度としての確認が弱いため引き続き保留。
+- 全国raw gapの次候補は群馬県の高崎市残り（`takasaki-nursing-equipment` / `takasaki-scholarship` / `takasaki-seismic-diagnosis` / `takasaki-sme-support`）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` の末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。
+
 ## 2026-07-05 群馬県Batch 197 追加ログ
 
 桐生市残り4件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `kiryu-school-lunch` / `kiryu-seismic-diagnosis` / `kiryu-uij-turn` / `kiryu-telework-bonus`。`kiryu-school-lunch` は学校給食費相当額補助事業、`kiryu-seismic-diagnosis` は木造住宅の耐震診断技術者派遣・耐震改修補助、`kiryu-uij-turn` は桐生市移住支援補助金へ補正した。`kiryu-telework-bonus` は桐生市移住支援補助金のテレワーク要件と重複し、独立したテレワーク環境整備費最大20万円の公式制度は確認できないため掲載停止した。桐生市raw gapは0件、群馬県raw gapは33件から29件、全国raw gapは2,014件から2,010件に減少した。

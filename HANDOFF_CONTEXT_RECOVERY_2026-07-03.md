@@ -566,3 +566,22 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 - `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ6,072件生成、`/grant/[slug]` は3,083件相当。
 - Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は群馬県raw gapの高崎市 `takasaki-birth-bonus` / `takasaki-child-medical` / `takasaki-childcare-subsidy` / `takasaki-elderly-support` / `takasaki-infertility` など。
 - Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。
+
+## Current progress update 2026-07-05 Batch 198
+
+- Batch 198 completed:
+- 対象: `takasaki-birth-bonus` / `takasaki-child-medical` / `takasaki-childcare-subsidy` / `takasaki-elderly-support` / `takasaki-infertility`
+- `takasaki-birth-bonus` は令和8年4月開始の高崎市出産お祝い金へ補正。新生児1人につき高崎通貨3万円分。
+- `takasaki-child-medical` は高崎市福祉医療費助成の子ども医療へ補正。高校3年生世代までが対象。
+- `takasaki-childcare-subsidy` は認可外保育施設第3子以降3歳未満児保育料等補助事業へ補正。月額上限24,000円。
+- `takasaki-elderly-support` は高齢者等あんしん見守りシステムへ補正。緊急通報装置・見守りセンサーの設置と貸し出しは無料。
+- `takasaki-infertility` は生殖補助医療費助成・一般不妊治療費等助成へ補正。
+- 群馬県 raw gap: `29 -> 24`
+- 全国 raw gap: `2010 -> 2005`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 11件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,642件、群馬県ローカル公式確認済みは61件。
+- `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ6,080件生成、`/grant/[slug]` は3,088件相当。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は群馬県raw gapの高崎市残り `takasaki-nursing-equipment` / `takasaki-scholarship` / `takasaki-seismic-diagnosis` / `takasaki-sme-support`。
+- Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。
