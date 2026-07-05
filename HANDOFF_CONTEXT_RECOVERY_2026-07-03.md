@@ -604,3 +604,22 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 - `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ6,087件生成、`/grant/[slug]` は3,093件相当。
 - Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は群馬県raw gapの前橋市 `maebashi-afterschool` / `maebashi-birth-bonus` / `maebashi-disability-medical` / `maebashi-elderly-support` / `maebashi-housing-acquisition` など。
 - Context overflow mitigation: コンテキスト上限停止の主因は長い引き継ぎ文書・監査出力・ビルドログ・差分を会話へ蓄積しすぎたこと。次回以降も全文ログを読まず、このファイル末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。大きな出力はファイルへ記録し、会話には要約だけ返す。
+
+## Current progress update 2026-07-05 Batch 200
+
+- Batch 200 completed:
+- 対象: `maebashi-afterschool` / `maebashi-birth-bonus` / `maebashi-disability-medical` / `maebashi-elderly-support` / `maebashi-housing-acquisition`
+- `maebashi-afterschool` は前橋市全体の放課後児童クラブ利用料減免制度として公式確認できないため掲載停止。公式ページでは利用料金はクラブや学年等によって異なり、各クラブへ直接問い合わせる案内。
+- `maebashi-birth-bonus` は妊婦のための支援給付へ補正。令和7年4月から旧まえばし出産・子育て応援給付金事業が移行し、妊娠時5万円、出産後こども1人5万円。
+- `maebashi-disability-medical` は福祉医療制度の重度心身障害者・高齢重度障害者医療費助成へ補正。
+- `maebashi-elderly-support` は緊急通報システム事業へ補正。所得段階1〜3は無料、4〜15は月額1,000円。
+- `maebashi-housing-acquisition` は令和8年度移住支援金へ補正。住宅取得単体補助としては公式確認できず、世帯100万円、単身60万円、18歳未満1人50万円加算の移住支援制度を採用。
+- 群馬県 raw gap: `20 -> 15`
+- 全国 raw gap: `2001 -> 1996`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 9件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,650件、群馬県ローカル公式確認済みは69件。
+- `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ6,092件生成、`/grant/[slug]` は3,098件相当。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は群馬県raw gapの前橋市残り `maebashi-infertility-treatment` / `maebashi-parenting-allowance` / `maebashi-vacant-house` / `maebashi-women-startup`。
+- Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。
