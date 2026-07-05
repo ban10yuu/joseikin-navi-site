@@ -445,3 +445,22 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 - `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ6,016件生成、`/grant/[slug]` は3,048件相当。
 - Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は群馬県raw gapの伊勢崎市残り5件 `isesaki-newlywed-rent` / `isesaki-nursing-home-reform` / `isesaki-school-lunch` / `isesaki-startup-support` / `isesaki-telework-bonus`。
 - Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。
+
+## Current progress update 2026-07-05 Batch 192
+
+- Batch 192 completed:
+- 対象: `isesaki-newlywed-rent` / `isesaki-nursing-home-reform` / `isesaki-school-lunch` / `isesaki-startup-support` / `isesaki-telework-bonus`
+- `isesaki-newlywed-rent` は新婚世帯向け家賃補助制度として公式確認できないため掲載停止。市営住宅の新婚世帯区分とは混同しない。
+- `isesaki-nursing-home-reform` は伊勢崎市住宅改造費の補助へ補正。
+- `isesaki-school-lunch` は伊勢崎市学校給食費無償化及び学校給食費助成金事業へ補正。
+- `isesaki-startup-support` は伊勢崎市創業促進・事業承継サポート補助金へ補正。
+- `isesaki-telework-bonus` は市独自テレワーク推進補助金として公式確認できないため掲載停止。国の人材確保等支援助成金（テレワークコース）案内とは混同しない。
+- 群馬県 raw gap: `64 -> 59`
+- 全国 raw gap: `2045 -> 2040`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 8件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,609件、群馬県ローカル公式確認済みは28件。
+- `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ6,025件生成、`/grant/[slug]` は3,053件相当。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は群馬県raw gapの館林市 `tatebayashi-birth-bonus` / `tatebayashi-childcare-subsidy` / `tatebayashi-elderly-support` 以降へ進む。
+- Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。

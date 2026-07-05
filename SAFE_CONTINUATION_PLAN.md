@@ -5867,3 +5867,16 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は群馬県の伊勢崎市残り5件（`isesaki-newlywed-rent` / `isesaki-nursing-home-reform` / `isesaki-school-lunch` / `isesaki-startup-support` / `isesaki-telework-bonus`）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-05 群馬県Batch 192 追加ログ
+
+伊勢崎市残り5件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `isesaki-newlywed-rent` / `isesaki-nursing-home-reform` / `isesaki-school-lunch` / `isesaki-startup-support` / `isesaki-telework-bonus`。`isesaki-nursing-home-reform` は住宅改造費の補助、`isesaki-school-lunch` は学校給食費無償化及び学校給食費助成金事業、`isesaki-startup-support` は創業促進・事業承継サポート補助金へ補正した。`isesaki-newlywed-rent` は新婚世帯向け家賃補助制度として確認できないため掲載停止し、市営住宅の新婚世帯区分とは混同しない扱いにした。`isesaki-telework-bonus` は市独自制度として確認できず、国の人材確保等支援助成金（テレワークコース）の案内のみ確認できるため掲載停止した。群馬県raw gapは64件から59件、全国raw gapは2,045件から2,040件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` 問題なし、採用sourceUrls 8件はすべてHTTP 200。`npm run audit:coverage` は failures 0、公式確認済みactiveは2,609件、群馬県ローカル公式確認済みは28件。`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` は成功し、静的ページ6,025件生成、`/grant/[slug]` は3,053件相当。
+
+次回再開位置:
+
+- 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度としての確認が弱いため引き続き保留。
+- 全国raw gapの次候補は群馬県の館林市（`tatebayashi-birth-bonus` / `tatebayashi-childcare-subsidy` / `tatebayashi-elderly-support` など）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。
