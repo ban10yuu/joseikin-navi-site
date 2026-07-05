@@ -878,5 +878,7 @@
 - [x] 京都府Batch 181の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 12件はすべてHTTP 200、全国未照合raw slugは2,107件から2,103件、京都府は24件から20件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ5,924件生成、`/grant/[slug]` は2,990件相当）
 - [x] 京都府Batch 182として、舞鶴市9件を公式確認済み追加・補正し、舞鶴市raw gap 0件を達成（高齢者配食サービス助成の公式助成額確認不可、自転車乗車用ヘルメット購入費補助金、第3子以降出産祝い金の公式確認不可、子ども文化芸術体験事業の個人向け補助確認不可、認知症高齢者等位置探索サービス、危険住宅等土砂災害対策改修支援事業補助金、産後ケア事業、まいづる産品ブランド力向上支援事業補助金、まちなかエリア定住促進事業補助金）
 - [x] 京都府Batch 182の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 27件はすべてHTTP 200、全国未照合raw slugは2,103件から2,094件、京都府は20件から11件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ5,941件生成、`/grant/[slug]` は2,999件相当）
-- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は福知山市raw gap（`fukuchiyama-aged-meal-delivery` / `fukuchiyama-bicycle-helmet` / `fukuchiyama-child-third-free` など）から再開可能
+- [x] 京都府Batch 183として、福知山市9件を公式確認済み追加・補正し、福知山市raw gap 0件を達成（在宅高齢者配食サービス、自転車通学生徒用ヘルメット補助金、第3子以降出産祝い金の公式確認不可、子ども文化芸術体験助成の公式確認不可、認知症高齢者等見守りサービス事業補助金、土砂災害警戒区域安全対策補助金の公式確認不可、産後ケア事業、農業者販路開拓事業補助金、農山村地域空き家改修費補助金）
+- [x] 京都府Batch 183の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 25件はすべてHTTP 200、全国未照合raw slugは2,094件から2,085件、京都府は11件から2件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ5,956件生成、`/grant/[slug]` は3,008件相当）
+- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は熊本県raw gap（`kumamoto-nursing-care-robot` / `kumamoto-block-wall-removal` / `kumamoto-child-medical-aid` など）から再開可能
 - [ ] push / 公開反映は明示確認後に実行

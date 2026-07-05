@@ -269,3 +269,26 @@ cat HANDOFF_CONTEXT_RECOVERY_2026-07-03.md
 git status --short --branch
 node scripts/audit-raw-verified-gaps.mjs --limit 25
 ```
+
+## Current progress update 2026-07-05 Batch 183
+
+- Batch 183 completed:
+- 対象: `fukuchiyama-aged-meal-delivery` / `fukuchiyama-bicycle-helmet` / `fukuchiyama-child-third-free` / `fukuchiyama-culture-experience` / `fukuchiyama-dementia-family` / `fukuchiyama-landslide-sensor` / `fukuchiyama-postpartum-care` / `fukuchiyama-tea-business` / `fukuchiyama-uij-housing`
+- `fukuchiyama-aged-meal-delivery` は福知山市在宅高齢者配食サービスへ補正。
+- `fukuchiyama-bicycle-helmet` は福知山市自転車通学生徒用ヘルメット補助金へ補正。
+- `fukuchiyama-child-third-free` は第3子以降出産祝い金の公式確認不可として掲載停止。
+- `fukuchiyama-culture-experience` は個人向け子ども文化芸術体験助成の公式確認不可として掲載停止。
+- `fukuchiyama-dementia-family` は福知山市認知症高齢者等見守りサービス事業補助金へ補正。
+- `fukuchiyama-landslide-sensor` は土砂災害警戒区域安全対策補助金の公式確認不可として掲載停止。
+- `fukuchiyama-postpartum-care` は福知山市産後ケア事業へ補正。
+- `fukuchiyama-tea-business` は福知山市農業者販路開拓事業補助金へ補正。
+- `fukuchiyama-uij-housing` は福知山市農山村地域空き家改修費補助金へ補正。
+- 京都府 raw gap: `11 -> 2`
+- 全国 raw gap: `2094 -> 2085`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 25件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,566件、京都府ローカル公式確認済みは75件。
+- `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ5,956件生成、`/grant/[slug]` は3,008件相当。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は熊本県raw gapへ進む。
+- Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。
