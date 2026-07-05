@@ -188,6 +188,21 @@ Expected first batch:
 - `npm run audit:coverage`: failures 0。公式確認済みactiveは2,539件、京都府ローカル公式確認済みは48件。
 - `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ5,907件生成、`/grant/[slug]` は2,981件相当。
 - Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。城陽市raw gap（`joyo-aged-meal-delivery`, `joyo-bicycle-helmet`, `joyo-child-third-free`, `joyo-culture-experience`, `joyo-dementia-family` など）へ進む。
+- Batch 180 completed:
+- 対象: `joyo-aged-meal-delivery` / `joyo-bicycle-helmet` / `joyo-child-third-free` / `joyo-culture-experience` / `joyo-dementia-family`
+- `joyo-aged-meal-delivery` は高齢者配食サービス助成の公式確認不可として掲載停止。
+- `joyo-bicycle-helmet` は自転車ヘルメット購入補助の公式確認不可として掲載停止。
+- `joyo-child-third-free` は第3子以降出産祝い金の公式確認不可として掲載停止。
+- `joyo-culture-experience` は個人向け補助金としての公式確認不可として掲載停止。
+- `joyo-dementia-family` は徘徊高齢者家族支援サービス事業へ補正。
+- 京都府 raw gap: `29 -> 24`
+- 全国 raw gap: `2112 -> 2107`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 13件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,544件、京都府ローカル公式確認済みは53件。
+- `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ5,917件生成、`/grant/[slug]` は2,986件相当。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。城陽市残り4件（`joyo-landslide-sensor`, `joyo-postpartum-care`, `joyo-tea-business`, `joyo-uij-housing`）へ進む。
 
 ## Recommended execution pattern
 
