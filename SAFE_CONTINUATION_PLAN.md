@@ -5828,3 +5828,16 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は熊本県（`yatsushiro-block-wall-removal` / `yatsushiro-child-medical-aid` / `yatsushiro-elderly-taxi` / `yatsushiro-health-checkup-subsidy` / `yatsushiro-juutaku-reform` など）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-05 熊本県Batch 189 追加ログ
+
+八代市5件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `yatsushiro-block-wall-removal` / `yatsushiro-child-medical-aid` / `yatsushiro-elderly-taxi` / `yatsushiro-health-checkup-subsidy` / `yatsushiro-juutaku-reform`。`yatsushiro-block-wall-removal` は八代市危険ブロック塀等除却促進事業、`yatsushiro-child-medical-aid` は八代市こども医療費助成制度、`yatsushiro-elderly-taxi` は八代市高齢者外出支援事業、`yatsushiro-health-checkup-subsidy` は人間ドックの情報提供報奨金事業、`yatsushiro-juutaku-reform` は八代市空き家バンク活用促進事業補助金へ補正した。熊本県raw gapは10件から5件、全国raw gapは2,060件から2,055件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` 問題なし、採用sourceUrls 12件はすべてHTTP 200。`npm run audit:coverage` は failures 0、公式確認済みactiveは2,595件、熊本県ローカル公式確認済みは50件。`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` は成功し、静的ページ5,999件生成、`/grant/[slug]` は3,038件相当。
+
+次回再開位置:
+
+- 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度としての確認が弱いため引き続き保留。
+- 全国raw gapの次候補は熊本県残り5件（`yatsushiro-migration-support` / `yatsushiro-scholarship-repayment` / `yatsushiro-school-lunch-subsidy` / `yatsushiro-startup-support` / `yatsushiro-water-saving`）。これを処理すると熊本県raw gap 0件。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。

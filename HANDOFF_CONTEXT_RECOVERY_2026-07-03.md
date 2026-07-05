@@ -388,3 +388,22 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 - `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ5,991件生成、`/grant/[slug]` は3,033件相当。
 - Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は熊本県raw gapの `yatsushiro-block-wall-removal` / `yatsushiro-child-medical-aid` / `yatsushiro-elderly-taxi` / `yatsushiro-health-checkup-subsidy` / `yatsushiro-juutaku-reform` 以降へ進む。
 - Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。
+
+## Current progress update 2026-07-05 Batch 189
+
+- Batch 189 completed:
+- 対象: `yatsushiro-block-wall-removal` / `yatsushiro-child-medical-aid` / `yatsushiro-elderly-taxi` / `yatsushiro-health-checkup-subsidy` / `yatsushiro-juutaku-reform`
+- `yatsushiro-block-wall-removal` は八代市危険ブロック塀等除却促進事業へ補正。
+- `yatsushiro-child-medical-aid` は八代市こども医療費助成制度へ補正。
+- `yatsushiro-elderly-taxi` は八代市高齢者外出支援事業へ補正。
+- `yatsushiro-health-checkup-subsidy` は八代市人間ドックの情報提供報奨金事業へ補正。
+- `yatsushiro-juutaku-reform` は八代市空き家バンク活用促進事業補助金へ補正。
+- 熊本県 raw gap: `10 -> 5`
+- 全国 raw gap: `2060 -> 2055`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 12件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,595件、熊本県ローカル公式確認済みは50件。
+- `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ5,999件生成、`/grant/[slug]` は3,038件相当。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は熊本県raw gap残り5件 `yatsushiro-migration-support` / `yatsushiro-scholarship-repayment` / `yatsushiro-school-lunch-subsidy` / `yatsushiro-startup-support` / `yatsushiro-water-saving`。これで熊本県raw gap 0件予定。
+- Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。
