@@ -894,5 +894,7 @@
 - [x] 熊本県Batch 189の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 12件はすべてHTTP 200、全国未照合raw slugは2,060件から2,055件、熊本県は10件から5件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ5,999件生成、`/grant/[slug]` は3,038件相当）
 - [x] 熊本県Batch 190として、八代市残り5件を公式確認済み追加・補正し、熊本県raw gap 0件を達成（移住・定住促進補助金、奨学金返還支援制度の公式確認不可・貸付制度へ誘導、令和8年度学校給食費負担軽減事業、ふるさとスタートアップ支援事業補助金、雨水タンク設置補助金の公式確認不可）
 - [x] 熊本県Batch 190の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 11件はすべてHTTP 200、全国未照合raw slugは2,055件から2,050件、熊本県は5件から0件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ6,006件生成、`/grant/[slug]` は3,043件相当）
-- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は群馬県raw gap（`isesaki-birth-bonus` / `isesaki-bousai-equipment` / `isesaki-childcare-subsidy` など）から再開可能
+- [x] 群馬県Batch 191として、伊勢崎市5件を公式確認済み追加・補正（第3子以降出産祝金、住宅用火災警報器の取付け・取替え支援事業、令和8年度利用者負担の多子軽減、福祉医療制度、家庭用脱炭素化設備導入補助金）
+- [x] 群馬県Batch 191の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 8件はすべてHTTP 200、全国未照合raw slugは2,050件から2,045件、群馬県は69件から64件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ6,016件生成、`/grant/[slug]` は3,048件相当）
+- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は群馬県raw gap残り（`isesaki-newlywed-rent` / `isesaki-nursing-home-reform` / `isesaki-school-lunch` / `isesaki-startup-support` / `isesaki-telework-bonus`）から再開可能
 - [ ] push / 公開反映は明示確認後に実行

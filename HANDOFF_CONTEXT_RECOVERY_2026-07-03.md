@@ -426,3 +426,22 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 - `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ6,006件生成、`/grant/[slug]` は3,043件相当。
 - Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は群馬県raw gapの `isesaki-birth-bonus` / `isesaki-bousai-equipment` / `isesaki-childcare-subsidy` 以降へ進む。
 - Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。
+
+## Current progress update 2026-07-05 Batch 191
+
+- Batch 191 completed:
+- 対象: `isesaki-birth-bonus` / `isesaki-bousai-equipment` / `isesaki-childcare-subsidy` / `isesaki-disability-medical` / `isesaki-energy-support`
+- `isesaki-birth-bonus` は伊勢崎市第3子以降出産祝金へ補正。
+- `isesaki-bousai-equipment` は伊勢崎市消防本部の住宅用火災警報器の取付け・取替え支援事業へ補正。購入補助金ではない。
+- `isesaki-childcare-subsidy` は令和8年度利用者負担（保育料）の多子軽減へ補正。
+- `isesaki-disability-medical` は伊勢崎市福祉医療制度（重度心身障害者等）へ補正。
+- `isesaki-energy-support` は伊勢崎市家庭用脱炭素化設備導入補助金へ補正。省エネ家電購入補助ではない。
+- 群馬県 raw gap: `69 -> 64`
+- 全国 raw gap: `2050 -> 2045`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 8件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,604件、群馬県ローカル公式確認済みは23件。
+- `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ6,016件生成、`/grant/[slug]` は3,048件相当。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は群馬県raw gapの伊勢崎市残り5件 `isesaki-newlywed-rent` / `isesaki-nursing-home-reform` / `isesaki-school-lunch` / `isesaki-startup-support` / `isesaki-telework-bonus`。
+- Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。

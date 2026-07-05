@@ -5854,3 +5854,16 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は群馬県（`isesaki-birth-bonus` / `isesaki-bousai-equipment` / `isesaki-childcare-subsidy` など）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-05 群馬県Batch 191 追加ログ
+
+伊勢崎市5件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `isesaki-birth-bonus` / `isesaki-bousai-equipment` / `isesaki-childcare-subsidy` / `isesaki-disability-medical` / `isesaki-energy-support`。`isesaki-birth-bonus` は第3子以降出産祝金、`isesaki-bousai-equipment` は住宅用火災警報器の取付け・取替え支援事業、`isesaki-childcare-subsidy` は令和8年度利用者負担（保育料）の多子軽減、`isesaki-disability-medical` は福祉医療制度、`isesaki-energy-support` は家庭用脱炭素化設備導入補助金へ補正した。群馬県raw gapは69件から64件、全国raw gapは2,050件から2,045件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` 問題なし、採用sourceUrls 8件はすべてHTTP 200。`npm run audit:coverage` は failures 0、公式確認済みactiveは2,604件、群馬県ローカル公式確認済みは23件。`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` は成功し、静的ページ6,016件生成、`/grant/[slug]` は3,048件相当。
+
+次回再開位置:
+
+- 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度としての確認が弱いため引き続き保留。
+- 全国raw gapの次候補は群馬県の伊勢崎市残り5件（`isesaki-newlywed-rent` / `isesaki-nursing-home-reform` / `isesaki-school-lunch` / `isesaki-startup-support` / `isesaki-telework-bonus`）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。
