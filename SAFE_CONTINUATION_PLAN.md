@@ -5310,6 +5310,19 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
 
+## 2026-07-05 群馬県Batch 193 追加ログ
+
+館林市5件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `tatebayashi-birth-bonus` / `tatebayashi-childcare-subsidy` / `tatebayashi-elderly-support` / `tatebayashi-housing-purchase` / `tatebayashi-housing-reform`。`tatebayashi-birth-bonus` は館林市こども誕生祝金、`tatebayashi-childcare-subsidy` は妊婦等包括相談支援事業及び妊婦のための支援給付、`tatebayashi-elderly-support` は認知症高齢者等事前登録事業、`tatebayashi-housing-purchase` は移住定住ウェルカム支援金、`tatebayashi-housing-reform` は住宅リフォーム資金助成金へ補正した。群馬県raw gapは59件から54件、全国raw gapは2,040件から2,035件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` 問題なし、採用sourceUrls 10件はすべてHTTP 200。`npm run audit:coverage` は failures 0、公式確認済みactiveは2,614件、群馬県ローカル公式確認済みは33件。`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` は成功し、静的ページ6,035件生成、`/grant/[slug]` は3,058件相当。
+
+次回再開位置:
+
+- 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度としての確認が弱いため引き続き保留。
+- 全国raw gapの次候補は群馬県の館林市残り5件（`tatebayashi-infertility` / `tatebayashi-migration-support` / `tatebayashi-nursing-equipment` / `tatebayashi-scholarship` / `tatebayashi-seismic-diagnosis`）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` の末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。
+
 ## 2026-07-04 宮崎県Batch 162 追加ログ
 
 都城市残り9件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `miyakonojo-juutaku-reform` / `miyakonojo-nursing-equipment` / `miyakonojo-scholarship` / `miyakonojo-scholarship-repayment` / `miyakonojo-school-lunch-subsidy` / `miyakonojo-seismic-diagnosis` / `miyakonojo-sme-support` / `miyakonojo-startup-support` / `miyakonojo-water-saving`。生成データ名をそのまま採用せず、都城市公式ページ・公式PDFで確認できる制度へ補正した。`miyakonojo-juutaku-reform` は住宅リフォーム促進事業、`miyakonojo-nursing-equipment` は介護用品給付券、`miyakonojo-scholarship` は都城三股みらい応援奨学金、`miyakonojo-scholarship-repayment` は奨学金返還支援補助金、`miyakonojo-school-lunch-subsidy` は学校給食費無償化・就学援助、`miyakonojo-seismic-diagnosis` は令和8年度木造住宅耐震診断補助、`miyakonojo-sme-support` は中小企業特別融資制度、`miyakonojo-startup-support` は中山間地域等出店支援事業費補助金、`miyakonojo-water-saving` は雨水貯留タンク設置補助金へ補正した。都城市raw gapは0件、宮崎県raw gapは17件から8件、全国raw gapは2,212件から2,203件に減少した。

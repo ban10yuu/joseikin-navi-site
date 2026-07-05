@@ -898,5 +898,7 @@
 - [x] 群馬県Batch 191の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 8件はすべてHTTP 200、全国未照合raw slugは2,050件から2,045件、群馬県は69件から64件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ6,016件生成、`/grant/[slug]` は3,048件相当）
 - [x] 群馬県Batch 192として、伊勢崎市残り5件を公式確認済み追加・補正し、伊勢崎市raw gap 0件を達成（新婚世帯家賃補助制度の公式確認不可、住宅改造費の補助、学校給食費無償化及び学校給食費助成金事業、創業促進・事業承継サポート補助金、市独自テレワーク推進補助金の公式確認不可）
 - [x] 群馬県Batch 192の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 8件はすべてHTTP 200、全国未照合raw slugは2,045件から2,040件、群馬県は64件から59件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ6,025件生成、`/grant/[slug]` は3,053件相当）
-- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は群馬県raw gap（`tatebayashi-birth-bonus` / `tatebayashi-childcare-subsidy` / `tatebayashi-elderly-support` など）から再開可能
+- [x] 群馬県Batch 193として、館林市5件を公式確認済み追加・補正（こども誕生祝金、妊婦等包括相談支援事業及び妊婦のための支援給付、認知症高齢者等事前登録事業、移住定住ウェルカム支援金、住宅リフォーム資金助成金）
+- [x] 群馬県Batch 193の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 10件はすべてHTTP 200、全国未照合raw slugは2,040件から2,035件、群馬県は59件から54件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ6,035件生成、`/grant/[slug]` は3,058件相当）
+- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は群馬県raw gap残り（`tatebayashi-infertility` / `tatebayashi-migration-support` / `tatebayashi-nursing-equipment` / `tatebayashi-scholarship` / `tatebayashi-seismic-diagnosis`）から再開可能
 - [ ] push / 公開反映は明示確認後に実行

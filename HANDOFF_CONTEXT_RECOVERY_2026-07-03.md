@@ -464,3 +464,22 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 - `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ6,025件生成、`/grant/[slug]` は3,053件相当。
 - Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は群馬県raw gapの館林市 `tatebayashi-birth-bonus` / `tatebayashi-childcare-subsidy` / `tatebayashi-elderly-support` 以降へ進む。
 - Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。
+
+## Current progress update 2026-07-05 Batch 193
+
+- Batch 193 completed:
+- 対象: `tatebayashi-birth-bonus` / `tatebayashi-childcare-subsidy` / `tatebayashi-elderly-support` / `tatebayashi-housing-purchase` / `tatebayashi-housing-reform`
+- `tatebayashi-birth-bonus` は館林市こども誕生祝金へ補正。
+- `tatebayashi-childcare-subsidy` は館林市妊婦等包括相談支援事業及び妊婦のための支援給付へ補正。
+- `tatebayashi-elderly-support` は館林市認知症高齢者等事前登録事業（どこシル伝言板見守りシール）へ補正。
+- `tatebayashi-housing-purchase` は館林市移住定住ウェルカム支援金へ補正。
+- `tatebayashi-housing-reform` は館林市住宅リフォーム資金助成金へ補正。
+- 群馬県 raw gap: `59 -> 54`
+- 全国 raw gap: `2040 -> 2035`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 10件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,614件、群馬県ローカル公式確認済みは33件。
+- `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ6,035件生成、`/grant/[slug]` は3,058件相当。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は群馬県raw gapの館林市残り5件 `tatebayashi-infertility` / `tatebayashi-migration-support` / `tatebayashi-nursing-equipment` / `tatebayashi-scholarship` / `tatebayashi-seismic-diagnosis`。
+- Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。
