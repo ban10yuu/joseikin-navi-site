@@ -892,5 +892,7 @@
 - [x] 熊本県Batch 188の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 12件はすべてHTTP 200、全国未照合raw slugは2,065件から2,060件、熊本県は15件から10件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ5,991件生成、`/grant/[slug]` は3,033件相当）
 - [x] 熊本県Batch 189として、八代市5件を公式確認済み追加・補正（危険ブロック塀等除却促進事業、こども医療費助成制度、高齢者外出支援事業、人間ドックの情報提供報奨金事業、空き家バンク活用促進事業補助金）
 - [x] 熊本県Batch 189の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 12件はすべてHTTP 200、全国未照合raw slugは2,060件から2,055件、熊本県は10件から5件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ5,999件生成、`/grant/[slug]` は3,038件相当）
-- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は熊本県raw gap残り（`yatsushiro-migration-support` / `yatsushiro-scholarship-repayment` / `yatsushiro-school-lunch-subsidy` / `yatsushiro-startup-support` / `yatsushiro-water-saving`）から再開可能
+- [x] 熊本県Batch 190として、八代市残り5件を公式確認済み追加・補正し、熊本県raw gap 0件を達成（移住・定住促進補助金、奨学金返還支援制度の公式確認不可・貸付制度へ誘導、令和8年度学校給食費負担軽減事業、ふるさとスタートアップ支援事業補助金、雨水タンク設置補助金の公式確認不可）
+- [x] 熊本県Batch 190の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 11件はすべてHTTP 200、全国未照合raw slugは2,055件から2,050件、熊本県は5件から0件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ6,006件生成、`/grant/[slug]` は3,043件相当）
+- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は群馬県raw gap（`isesaki-birth-bonus` / `isesaki-bousai-equipment` / `isesaki-childcare-subsidy` など）から再開可能
 - [ ] push / 公開反映は明示確認後に実行

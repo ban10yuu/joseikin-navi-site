@@ -5841,3 +5841,16 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は熊本県残り5件（`yatsushiro-migration-support` / `yatsushiro-scholarship-repayment` / `yatsushiro-school-lunch-subsidy` / `yatsushiro-startup-support` / `yatsushiro-water-saving`）。これを処理すると熊本県raw gap 0件。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-05 熊本県Batch 190 追加ログ
+
+八代市残り5件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `yatsushiro-migration-support` / `yatsushiro-scholarship-repayment` / `yatsushiro-school-lunch-subsidy` / `yatsushiro-startup-support` / `yatsushiro-water-saving`。`yatsushiro-migration-support` は八代市移住・定住促進補助金、`yatsushiro-school-lunch-subsidy` は令和8年度学校給食費負担軽減事業、`yatsushiro-startup-support` はふるさとスタートアップ支援事業補助金へ補正した。`yatsushiro-scholarship-repayment` は市内就職者向け返還支援制度として確認できないため掲載停止し、公式の奨学資金貸付制度へ誘導した。`yatsushiro-water-saving` は雨水タンク設置補助金として確認できないため掲載停止し、浄化槽補助・水道施設補助とは混同しない扱いにした。熊本県raw gapは5件から0件、全国raw gapは2,055件から2,050件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` 問題なし、採用sourceUrls 11件はすべてHTTP 200。`npm run audit:coverage` は failures 0、公式確認済みactiveは2,599件、熊本県ローカル公式確認済みは54件。`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` は成功し、静的ページ6,006件生成、`/grant/[slug]` は3,043件相当。
+
+次回再開位置:
+
+- 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度としての確認が弱いため引き続き保留。
+- 全国raw gapの次候補は群馬県（`isesaki-birth-bonus` / `isesaki-bousai-equipment` / `isesaki-childcare-subsidy` など）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。
