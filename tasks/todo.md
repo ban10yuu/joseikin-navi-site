@@ -874,5 +874,7 @@
 - [x] 京都府Batch 179の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 8件はすべてHTTP 200、全国未照合raw slugは2,114件から2,112件、京都府は31件から29件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ5,907件生成、`/grant/[slug]` は2,981件相当）
 - [x] 京都府Batch 180として、城陽市5件を公式確認済み追加・補正（高齢者配食サービス助成の公式確認不可、自転車ヘルメット購入補助の公式確認不可、第3子以降出産祝い金の公式確認不可、子ども文化芸術体験事業の個人向け補助確認不可、徘徊高齢者家族支援サービス事業）
 - [x] 京都府Batch 180の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 13件はすべてHTTP 200、全国未照合raw slugは2,112件から2,107件、京都府は29件から24件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ5,917件生成、`/grant/[slug]` は2,986件相当）
-- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は城陽市残り4件（`joyo-landslide-sensor` / `joyo-postpartum-care` / `joyo-tea-business` / `joyo-uij-housing`）から再開可能
+- [x] 京都府Batch 181として、城陽市残り4件を公式確認済み追加・補正し、城陽市raw gap 0件を達成（土砂災害警戒区域安全対策補助金の公式補助確認不可、産後ケア事業の利用助成、アクティブ事業所おうえん補助金の新商品開発事業、三世代近居・同居住宅支援事業補助金）
+- [x] 京都府Batch 181の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 12件はすべてHTTP 200、全国未照合raw slugは2,107件から2,103件、京都府は24件から20件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ5,924件生成、`/grant/[slug]` は2,990件相当）
+- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は舞鶴市raw gap（`maizuru-aged-meal-delivery` / `maizuru-bicycle-helmet` / `maizuru-child-third-free` など）から再開可能
 - [ ] push / 公開反映は明示確認後に実行

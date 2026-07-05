@@ -5724,3 +5724,16 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は城陽市残り4件（`joyo-landslide-sensor` / `joyo-postpartum-care` / `joyo-tea-business` / `joyo-uij-housing`）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-05 京都府Batch 181 追加ログ
+
+城陽市残り4件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `joyo-landslide-sensor` / `joyo-postpartum-care` / `joyo-tea-business` / `joyo-uij-housing`。生成データ名をそのまま採用せず、公式ページ・条例・公式PDFで確認できる制度へ補正した。`joyo-landslide-sensor` は土砂災害警戒区域安全対策補助金としての現行公式補助を確認できないため掲載停止扱いにした。`joyo-postpartum-care` は産後ケア事業の利用助成、`joyo-tea-business` はアクティブ事業所おうえん補助金の新商品開発事業、`joyo-uij-housing` は三世代近居・同居住宅支援事業補助金へ補正した。京都府raw gapは24件から20件、全国raw gapは2,107件から2,103件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` 問題なし、採用sourceUrls 12件はすべてHTTP 200。`npm run audit:coverage` は failures 0、公式確認済みactiveは2,548件、京都府ローカル公式確認済みは57件。`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` は成功し、静的ページ5,924件生成、`/grant/[slug]` は2,990件相当。
+
+次回再開位置:
+
+- 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度としての確認が弱いため引き続き保留。
+- 全国raw gapの次候補は舞鶴市（`maizuru-aged-meal-delivery` / `maizuru-bicycle-helmet` / `maizuru-child-third-free` など）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。

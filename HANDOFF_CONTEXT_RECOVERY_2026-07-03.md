@@ -218,6 +218,23 @@ For the next batch, keep each turn small:
    - `tasks/todo.md`
    - this recovery file only if edited.
 
+## Current progress update 2026-07-05 Batch 181
+
+- Batch 181 completed:
+- 対象: `joyo-landslide-sensor` / `joyo-postpartum-care` / `joyo-tea-business` / `joyo-uij-housing`
+- `joyo-landslide-sensor` は土砂災害警戒区域安全対策補助金としての現行公式補助確認不可として掲載停止。
+- `joyo-postpartum-care` は産後ケア事業の利用助成へ補正。
+- `joyo-tea-business` はアクティブ事業所おうえん補助金（新商品開発事業）へ補正。
+- `joyo-uij-housing` は三世代近居・同居住宅支援事業補助金へ補正。
+- 京都府 raw gap: `24 -> 20`
+- 全国 raw gap: `2107 -> 2103`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 12件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,548件、京都府ローカル公式確認済みは57件。
+- `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ5,924件生成、`/grant/[slug]` は2,990件相当。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は舞鶴市raw gapへ進む。
+
 ## If the current thread keeps overflowing
 
 Start a fresh thread and read only this file plus the current repository state. Do not replay the whole old chat.
