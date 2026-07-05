@@ -369,3 +369,22 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 - `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ5,982件生成、`/grant/[slug]` は3,028件相当。
 - Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は熊本県raw gapの `amakusa-elderly-taxi` / `amakusa-health-checkup-subsidy` / `amakusa-scholarship-repayment` / `amakusa-school-lunch-subsidy` / `amakusa-water-saving` 以降へ進む。
 - Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。
+
+## Current progress update 2026-07-05 Batch 188
+
+- Batch 188 completed:
+- 対象: `amakusa-elderly-taxi` / `amakusa-health-checkup-subsidy` / `amakusa-scholarship-repayment` / `amakusa-school-lunch-subsidy` / `amakusa-water-saving`
+- `amakusa-elderly-taxi` は天草市福祉タクシー利用券・介護タクシー利用券へ補正。
+- `amakusa-health-checkup-subsidy` は天草市国保加入者限定（30～74歳の奇数年齢）人間ドックへ補正。
+- `amakusa-scholarship-repayment` は一般的な奨学金返還支援制度として公式確認できないため掲載停止。公式の奨学金貸与制度・看護師等修学資金貸与制度を根拠として整理。
+- `amakusa-school-lunch-subsidy` は令和8年度天草市就学援助制度へ補正。
+- `amakusa-water-saving` は雨水タンク設置補助金として公式確認できないため掲載停止。合併浄化槽補助とは混同しない。
+- 熊本県 raw gap: `15 -> 10`
+- 全国 raw gap: `2065 -> 2060`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 12件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,590件、熊本県ローカル公式確認済みは45件。
+- `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ5,991件生成、`/grant/[slug]` は3,033件相当。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は熊本県raw gapの `yatsushiro-block-wall-removal` / `yatsushiro-child-medical-aid` / `yatsushiro-elderly-taxi` / `yatsushiro-health-checkup-subsidy` / `yatsushiro-juutaku-reform` 以降へ進む。
+- Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。

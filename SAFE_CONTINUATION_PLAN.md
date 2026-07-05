@@ -5815,3 +5815,16 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 全国raw gapの次候補は熊本県（`amakusa-elderly-taxi` / `amakusa-health-checkup-subsidy` / `amakusa-scholarship-repayment` / `amakusa-school-lunch-subsidy` / `amakusa-water-saving` など）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-05 熊本県Batch 188 追加ログ
+
+天草市5件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `amakusa-elderly-taxi` / `amakusa-health-checkup-subsidy` / `amakusa-scholarship-repayment` / `amakusa-school-lunch-subsidy` / `amakusa-water-saving`。`amakusa-elderly-taxi` は福祉タクシー利用券・介護タクシー利用券、`amakusa-health-checkup-subsidy` は天草市国保加入者限定人間ドック、`amakusa-school-lunch-subsidy` は令和8年度就学援助制度へ補正した。`amakusa-scholarship-repayment` は一般的な奨学金返還支援制度として確認できないため掲載停止し、公式の奨学金貸与制度・看護師等修学資金貸与制度を根拠として整理した。`amakusa-water-saving` は雨水タンク設置補助金として確認できないため掲載停止し、合併浄化槽補助とは混同しない扱いにした。熊本県raw gapは15件から10件、全国raw gapは2,065件から2,060件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` 問題なし、採用sourceUrls 12件はすべてHTTP 200。`npm run audit:coverage` は failures 0、公式確認済みactiveは2,590件、熊本県ローカル公式確認済みは45件。`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` は成功し、静的ページ5,991件生成、`/grant/[slug]` は3,033件相当。
+
+次回再開位置:
+
+- 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度としての確認が弱いため引き続き保留。
+- 全国raw gapの次候補は熊本県（`yatsushiro-block-wall-removal` / `yatsushiro-child-medical-aid` / `yatsushiro-elderly-taxi` / `yatsushiro-health-checkup-subsidy` / `yatsushiro-juutaku-reform` など）。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。

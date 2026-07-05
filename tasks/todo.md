@@ -888,5 +888,7 @@
 - [x] 熊本県Batch 186の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 15件はすべてHTTP 200、全国未照合raw slugは2,075件から2,070件、熊本県は25件から20件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ5,976件生成、`/grant/[slug]` は3,023件相当）
 - [x] 熊本県Batch 187として、熊本市3件・天草市2件を公式確認済み追加・補正（学校給食費補助制度の既存就学援助重複による掲載停止、熊本市商店街出店支援事業、熊本市雨水貯留施設補助制度、天草市危険ブロック塀等安全確保支援事業、天草市子ども医療費助成制度）
 - [x] 熊本県Batch 187の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 10件はすべてHTTP 200、全国未照合raw slugは2,070件から2,065件、熊本県は20件から15件に減少、coverage failures 0、初回buildは `relatedCategories` の不正値 `business` でTypeScript停止したため `living` に修正、再実行した `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` は成功・静的ページ5,982件生成、`/grant/[slug]` は3,028件相当）
-- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は熊本県raw gap（`amakusa-elderly-taxi` / `amakusa-health-checkup-subsidy` / `amakusa-scholarship-repayment` / `amakusa-school-lunch-subsidy` / `amakusa-water-saving` など）から再開可能
+- [x] 熊本県Batch 188として、天草市5件を公式確認済み追加・補正（福祉タクシー利用券・介護タクシー利用券、人間ドック、奨学金返還支援制度の公式確認不可・貸与制度へ誘導、就学援助制度、雨水タンク設置補助金の公式確認不可）
+- [x] 熊本県Batch 188の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 12件はすべてHTTP 200、全国未照合raw slugは2,065件から2,060件、熊本県は15件から10件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ5,991件生成、`/grant/[slug]` は3,033件相当）
+- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は熊本県raw gap（`yatsushiro-block-wall-removal` / `yatsushiro-child-medical-aid` / `yatsushiro-elderly-taxi` / `yatsushiro-health-checkup-subsidy` / `yatsushiro-juutaku-reform` など）から再開可能
 - [ ] push / 公開反映は明示確認後に実行
