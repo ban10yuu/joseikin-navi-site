@@ -1,5 +1,11 @@
 # Context Recovery Handoff 2026-07-03
 
+## 2026-07-05 context overflow fix
+
+Do not read this file from the top during normal resume. Start with `CONTEXT_START_HERE.md`, then use `tail -n 120 HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` only if needed.
+
+The long-running persistent goal was marked `blocked` on 2026-07-05 because it had accumulated 25M+ tokens and repeatedly caused context-window failures. Continue manually in small batches instead of relying on the old auto-continuation goal.
+
 ## Why Codex kept stopping
 
 The thread repeatedly hit the model context window because the working context became too large:
