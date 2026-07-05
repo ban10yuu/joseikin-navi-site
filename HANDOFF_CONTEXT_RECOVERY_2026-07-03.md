@@ -691,3 +691,26 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 - Buildは今回は未実行。前回Batch 202で成功済みのため、次の県完了時または大きめの節目で再実行する。
 - Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は呉市残り `kure-block-wall-removal` / `kure-child-medical-aid` / `kure-elderly-taxi` / `kure-health-checkup-subsidy` / `kure-juutaku-reform` / `kure-scholarship-repayment` / `kure-school-lunch-subsidy` / `kure-water-saving` など。
 - Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。
+
+## Current progress update 2026-07-05 Batch 204
+
+- Batch 204 completed:
+- 対象: `kure-block-wall-removal` / `kure-child-medical-aid` / `kure-elderly-taxi` / `kure-health-checkup-subsidy` / `kure-juutaku-reform` / `kure-scholarship-repayment` / `kure-school-lunch-subsidy` / `kure-water-saving`
+- `kure-block-wall-removal` はブロック塀等安全確保事業へ補正。撤去上限15万円、建替上限30万円。
+- `kure-child-medical-aid` は既存 `kure-child-medical` と同じこども医療費助成制度として公式確認済み追加。
+- `kure-elderly-taxi` は高齢者タクシー助成として確認できないため、生活バス路線等優待制度へ補正。
+- `kure-health-checkup-subsidy` は人間ドック助成の現行公式確認が弱いため、特定健診・がん検診へ補正。
+- `kure-juutaku-reform` は一般住宅リフォーム助成として確認できないため、新婚・子育て世帯定住支援事業へ補正。
+- `kure-scholarship-repayment` は一般向け奨学金返還支援として確認できないため、呉市職員奨学金返還支援制度へ補正。
+- `kure-school-lunch-subsidy` は既存 `kure-school-lunch` と同じ令和8年度学校給食費の実質無償化として公式確認済み追加。
+- `kure-water-saving` は雨水タンク設置補助として確認できないため、省エネ家電・省エネ設備導入助成へ補正。
+- 呉市 raw gap 0件達成。
+- 広島県 raw gap: `74 -> 66`
+- 全国 raw gap: `1972 -> 1964`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 15件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,680件、広島県ローカル公式確認済みは39件。
+- Buildは今回は未実行。次の県完了時または大きめの節目で再実行する。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は広島県庁 `hiroshima-education-ict` / `hiroshima-migration-family` または広島市 `hiroshima-block-wall-removal` / `hiroshima-child-medical-aid` など。
+- Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。

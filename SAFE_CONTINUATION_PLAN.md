@@ -6023,3 +6023,16 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 次は呉市残り（`kure-block-wall-removal` / `kure-child-medical-aid` / `kure-elderly-taxi` / `kure-health-checkup-subsidy` / `kure-juutaku-reform` / `kure-scholarship-repayment` / `kure-school-lunch-subsidy` / `kure-water-saving` など）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` の末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-05 広島県Batch 204 追加ログ
+
+呉市残り8件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `kure-block-wall-removal` / `kure-child-medical-aid` / `kure-elderly-taxi` / `kure-health-checkup-subsidy` / `kure-juutaku-reform` / `kure-scholarship-repayment` / `kure-school-lunch-subsidy` / `kure-water-saving`。ブロック塀等安全確保事業、こども医療費助成制度、生活バス路線等優待制度、特定健診・がん検診、新婚・子育て世帯定住支援事業、呉市職員奨学金返還支援制度、学校給食費の実質無償化、省エネ家電・省エネ設備導入助成へ補正した。呉市raw gapは0件になり、全国raw gapは1,972件から1,964件、広島県raw gapは74件から66件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` 問題なし、採用sourceUrls 15件はすべてHTTP 200。`npm run audit:coverage` は failures 0、公式確認済みactiveは2,680件、広島県ローカル公式確認済みは39件。Buildは今回は未実行。
+
+次回再開位置:
+
+- 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度としての確認が弱いため引き続き保留。
+- 次は広島県庁 `hiroshima-education-ict` / `hiroshima-migration-family` または広島市 `hiroshima-block-wall-removal` / `hiroshima-child-medical-aid` など。
+- コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` の末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。
