@@ -882,5 +882,7 @@
 - [x] 京都府Batch 183の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 25件はすべてHTTP 200、全国未照合raw slugは2,094件から2,085件、京都府は11件から2件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ5,956件生成、`/grant/[slug]` は3,008件相当）
 - [x] 熊本県Batch 184として、熊本県・熊本市5件を公式確認済み追加・補正（介護テクノロジー定着支援事業費補助金、公道等に面するブロック塀等の撤去補助、こども医療費助成、ようこそ赤ちゃんプロジェクト妊婦支援給付金、物価高対応子育て応援手当）
 - [x] 熊本県Batch 184の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 15件はすべてHTTP 200、全国未照合raw slugは2,085件から2,080件、熊本県は35件から30件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ5,963件生成、`/grant/[slug]` は3,013件相当）
-- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は熊本県raw gap（`kumamoto-city-housing-eco` / `kumamoto-city-housing-reconstruction` / `kumamoto-city-school-lunch` など）から再開可能
+- [x] 熊本県Batch 185として、熊本市5件を公式確認済み追加・補正（省エネルギー機器等導入推進事業補助金、空き家のリフォーム補助、令和8年度就学援助、戸建木造住宅の耐震改修等事業、重度心身障がい者（児）医療費助成）
+- [x] 熊本県Batch 185の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 15件はすべてHTTP 200、全国未照合raw slugは2,080件から2,075件、熊本県は30件から25件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ5,969件生成、`/grant/[slug]` は3,018件相当）
+- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は熊本県raw gap（`kumamoto-city-uij-turn` / `kumamoto-elderly-taxi` / `kumamoto-health-checkup-subsidy` など）から再開可能
 - [ ] push / 公開反映は明示確認後に実行
