@@ -623,3 +623,22 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 - `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ6,092件生成、`/grant/[slug]` は3,098件相当。
 - Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は群馬県raw gapの前橋市残り `maebashi-infertility-treatment` / `maebashi-parenting-allowance` / `maebashi-vacant-house` / `maebashi-women-startup`。
 - Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。
+
+## Current progress update 2026-07-05 Batch 201
+
+- Batch 201 completed:
+- 対象: `maebashi-infertility-treatment` / `maebashi-parenting-allowance` / `maebashi-vacant-house` / `maebashi-women-startup`
+- `maebashi-infertility-treatment` は前橋市令和8年度不妊治療費助成事業へ補正。不妊治療は最大15万円、男性不妊治療は最大5万円上乗せ、申請期限は2027年2月26日。
+- `maebashi-parenting-allowance` は物価高対応子育て応援手当へ補正。対象児童1人あたり2万円、申請が必要な公務員等の期限は2026年6月30日で受付終了扱い。
+- `maebashi-vacant-house` は令和8年度空き家活用リフォーム補助へ補正。基本上限50万円、加算最大50万円。新規事前相談は予算上限到達により受付終了。
+- `maebashi-women-startup` は女性起業家限定補助として公式確認できないため、公式のスタートアップオフィス支援補助金へ補正。月額上限3万円、最大12か月、申請期間は2026年9月1日から9月30日。
+- 前橋市 raw gap 0件達成。
+- 群馬県 raw gap: `15 -> 11`
+- 全国 raw gap: `1996 -> 1992`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 8件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,653件、群馬県ローカル公式確認済みは72件。
+- `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ6,097件生成、`/grant/[slug]` は3,102件相当。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は群馬県raw gapの太田市 `ota-city-birth-bonus` / `ota-city-childcare-subsidy` / `ota-city-elderly-support` / `ota-city-housing-purchase` / `ota-city-housing-seismic` など。
+- Context overflow mitigation: 停止の主因は、長い会話履歴・引き継ぎ文書全文・巨大な監査/ビルド出力が同じスレッドへ蓄積したこと。以後はこのファイル末尾120行、`node scripts/audit-raw-verified-gaps.mjs --limit 25`、必要な差分だけで再開する。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。

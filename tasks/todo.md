@@ -914,5 +914,7 @@
 - [x] 群馬県Batch 199の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 8件はすべてHTTP 200、全国未照合raw slugは2,005件から2,001件、群馬県は24件から20件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ6,087件生成、`/grant/[slug]` は3,093件相当）
 - [x] 群馬県Batch 200として、前橋市5件を公式確認済み追加・補正（放課後児童クラブ利用料減免の公式確認不可・掲載停止、妊婦のための支援給付、福祉医療制度の重度心身障害者等、緊急通報システム事業、令和8年度移住支援金）
 - [x] 群馬県Batch 200の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 9件はすべてHTTP 200、全国未照合raw slugは2,001件から1,996件、群馬県は20件から15件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ6,092件生成、`/grant/[slug]` は3,098件相当）
-- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は群馬県raw gapの前橋市残り（`maebashi-infertility-treatment` / `maebashi-parenting-allowance` / `maebashi-vacant-house` / `maebashi-women-startup`）から再開可能
+- [x] 群馬県Batch 201として、前橋市残り4件を公式確認済み追加・補正し、前橋市raw gap 0件を達成（令和8年度不妊治療費助成事業、物価高対応子育て応援手当、令和8年度空き家活用リフォーム補助、スタートアップオフィス支援補助金）
+- [x] 群馬県Batch 201の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 8件はすべてHTTP 200、全国未照合raw slugは1,996件から1,992件、群馬県は15件から11件に減少、coverage failures 0、`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` 成功・静的ページ6,097件生成、`/grant/[slug]` は3,102件相当）
+- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は群馬県raw gapの太田市（`ota-city-birth-bonus` / `ota-city-childcare-subsidy` / `ota-city-elderly-support` / `ota-city-housing-purchase` / `ota-city-housing-seismic` など）から再開可能
 - [ ] push / 公開反映は明示確認後に実行

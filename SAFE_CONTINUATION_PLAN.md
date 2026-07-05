@@ -5984,3 +5984,16 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 次は群馬県raw gapの前橋市残り（`maebashi-infertility-treatment` / `maebashi-parenting-allowance` / `maebashi-vacant-house` / `maebashi-women-startup`）。
 - コンテキスト溢れ対策として、再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` の末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
 - push / 公開反映は明示確認後。
+
+## 2026-07-05 群馬県Batch 201 追加ログ
+
+前橋市残り4件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `maebashi-infertility-treatment` / `maebashi-parenting-allowance` / `maebashi-vacant-house` / `maebashi-women-startup`。`maebashi-infertility-treatment` は令和8年度不妊治療費助成事業、`maebashi-parenting-allowance` は物価高対応子育て応援手当、`maebashi-vacant-house` は令和8年度空き家活用リフォーム補助、`maebashi-women-startup` は女性起業家限定補助として確認できないためスタートアップオフィス支援補助金へ補正した。前橋市raw gapは0件になり、群馬県raw gapは15件から11件、全国raw gapは1,996件から1,992件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` 問題なし、採用sourceUrls 8件はすべてHTTP 200。`npm run audit:coverage` は failures 0、公式確認済みactiveは2,653件、群馬県ローカル公式確認済みは72件。`NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build` は成功し、静的ページ6,097件生成、`/grant/[slug]` は3,102件相当。
+
+次回再開位置:
+
+- 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度としての確認が弱いため引き続き保留。
+- 次は群馬県raw gapの太田市（`ota-city-birth-bonus` / `ota-city-childcare-subsidy` / `ota-city-elderly-support` / `ota-city-housing-purchase` / `ota-city-housing-seismic` など）。
+- コンテキスト溢れの主因は、長い会話履歴・引き継ぎ文書全文・巨大な監査/ビルド出力が同じスレッドへ蓄積したこと。再開時は `HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` の末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。
