@@ -504,3 +504,27 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 - `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ6,045件生成、`/grant/[slug]` は3,064件相当。
 - Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は群馬県raw gapの桐生市 `kiryu-barrier-free` / `kiryu-birth-bonus` / `kiryu-birth-bonus-v2` / `kiryu-bousai-equipment` / `kiryu-childcare-subsidy` 以降へ進む。
 - Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。
+
+## Current progress update 2026-07-05 Batch 195
+
+- Batch 195 completed:
+- 対象: `kiryu-barrier-free` / `kiryu-birth-bonus` / `kiryu-birth-bonus-v2` / `kiryu-bousai-equipment` / `kiryu-childcare-subsidy` / `kiryu-childcare-subsidy-v2` / `kiryu-disability-medical` / `kiryu-disability-medical-v2` / `kiryu-elderly-support` / `kiryu-energy-support`
+- `kiryu-barrier-free` は桐生市在宅高齢者環境整備事業（高齢者住宅改造補修助成）へ補正。
+- `kiryu-birth-bonus` は桐生市妊婦のための支援給付事業へ補正。
+- `kiryu-birth-bonus-v2` は出産祝い金としての独立制度を公式確認できないため、妊婦支援給付・国保出産育児一時金との重複として掲載停止。
+- `kiryu-bousai-equipment` は家庭用防災資機材購入補助金として公式確認できないため掲載停止。地域防災計画上の自主防災組織向け資機材とは混同しない。
+- `kiryu-childcare-subsidy` は幼児教育・保育の無償化へ補正。
+- `kiryu-childcare-subsidy-v2` は独立した保育料軽減補助金として確認できず、幼児教育・保育無償化との重複として掲載停止。
+- `kiryu-disability-medical` は桐生市福祉医療費の助成（重度心身障害者等）へ補正。
+- `kiryu-disability-medical-v2` は重度障がい者医療費助成の重複として掲載停止。
+- `kiryu-elderly-support` は地域自立生活支援事業「食」の自立支援事業へ補正。
+- `kiryu-energy-support` は令和8年度環境都市推進補助金の蓄電池設備設置補助へ補正。
+- 群馬県 raw gap: `48 -> 38`
+- 全国 raw gap: `2029 -> 2019`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 14件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,629件、群馬県ローカル公式確認済みは48件。
+- `NEXT_PRIVATE_BUILD_WORKER_COUNT=4 NODE_OPTIONS=--max-old-space-size=4096 npm run build`: 成功。静的ページ6,059件生成、`/grant/[slug]` は3,074件相当。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は群馬県raw gapの桐生市残り `kiryu-housing-reform` / `kiryu-newlywed-rent` / `kiryu-nursing-equipment` / `kiryu-nursing-home-reform` / `kiryu-scholarship` など。
+- Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。
