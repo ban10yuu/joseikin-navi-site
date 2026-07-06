@@ -736,3 +736,22 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 - Buildは今回は未実行。前回Batch 202で成功済みのため、広島県の大きめ節目または県完了時に再実行する。
 - Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は広島市 `hiroshima-block-wall-removal` / `hiroshima-child-medical-aid` / `hiroshima-city-birth-bonus` など。
 - Context overflow mitigation: 次回以降も全文ログを読まず、`CONTEXT_START_HERE.md`、このファイル末尾120行、`node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。
+
+## Current progress update 2026-07-06 Batch 206
+
+- Batch 206 completed:
+- 対象: `hiroshima-block-wall-removal` / `hiroshima-child-medical-aid` / `hiroshima-city-birth-bonus` / `hiroshima-city-bousai-equipment` / `hiroshima-city-childcare-subsidy`
+- `hiroshima-block-wall-removal` は広島市民間ブロック塀等撤去工事補助事業へ補正。撤去費用3分の2、上限15万円、2027年1月29日まで。
+- `hiroshima-child-medical-aid` は既存 `hiroshima-city-child-medical` と同じ広島市こども医療費補助として公式確認済み追加。
+- `hiroshima-city-birth-bonus` は広島市妊婦支援給付金へ補正。妊婦1人5万円、胎児数1人5万円。
+- `hiroshima-city-bousai-equipment` は住宅・建築物土砂災害対策改修補助金へ補正。補助率23%、上限77万2千円。
+- `hiroshima-city-childcare-subsidy` は令和8年度保育料・副食費の多子軽減へ補正。
+- 広島県 raw gap: `64 -> 59`
+- 全国 raw gap: `1962 -> 1957`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 6件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,656件、広島県ローカル公式確認済みは44件。
+- `node scripts/generate-progress-checklist.mjs`: 成功。広島市残り18件から13件へ減少。
+- Buildは今回は未実行。広島市または広島県の大きめ節目で再実行する。
+- Next candidates after commit: 綾部市残り2件は引き続き保留。次は広島市 `hiroshima-city-elderly-support` / `hiroshima-city-housing-purchase` / `hiroshima-city-infertility` など。
