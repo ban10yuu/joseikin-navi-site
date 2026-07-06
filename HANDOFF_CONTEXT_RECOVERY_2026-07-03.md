@@ -720,3 +720,19 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 - Buildは今回は未実行。次の県完了時または大きめの節目で再実行する。
 - Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は広島県庁 `hiroshima-education-ict` / `hiroshima-migration-family` または広島市 `hiroshima-block-wall-removal` / `hiroshima-child-medical-aid` など。
 - Context overflow mitigation: 次回以降も全文ログを読まず、このファイル末尾120行と `node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。
+
+## Current progress update 2026-07-06 Batch 205
+
+- Batch 205 completed:
+- 対象: `hiroshima-migration-family` / `hiroshima-education-ict`
+- `hiroshima-migration-family` は広島県 令和8年度移住支援金制度へ補正。公式ページでは令和8年度は国の年度当初予算の交付決定前で受付開始前、令和7年度内容として単身60万円・2人以上世帯100万円・18歳未満1人100万円加算を確認。
+- `hiroshima-education-ict` は旧登録URLが404で、1校最大300万円の補助制度としては公式確認できないため掲載停止。公式に確認できる広島県学校教育情報化推進計画（令和8年度〜令和10年度）へ補正。
+- 広島県 raw gap: `66 -> 64`
+- 全国 raw gap: `1964 -> 1962`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 4件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,651件、広島県ローカル公式確認済みは39件。
+- Buildは今回は未実行。前回Batch 202で成功済みのため、広島県の大きめ節目または県完了時に再実行する。
+- Next candidates after commit: 綾部市残り2件（`ayabe-bicycle-helmet`, `ayabe-tea-business`）は現行公式確認が弱いため引き続き保留。次は広島市 `hiroshima-block-wall-removal` / `hiroshima-child-medical-aid` / `hiroshima-city-birth-bonus` など。
+- Context overflow mitigation: 次回以降も全文ログを読まず、`CONTEXT_START_HERE.md`、このファイル末尾120行、`node scripts/audit-raw-verified-gaps.mjs --limit 25` のみで再開する。

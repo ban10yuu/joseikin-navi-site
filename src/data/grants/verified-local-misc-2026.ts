@@ -71091,4 +71091,63 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     verifiedAt: '2026-07-05',
     publishedAt: '2026-07-05',
   } as Grant,
+  {
+    slug: 'hiroshima-migration-family',
+    title: '広島県 令和8年度移住支援金制度（受付開始前）',
+    organization: '広島県',
+    type: 'local',
+    maxAmount: '単身60万円・世帯100万円・18歳未満1人100万円加算',
+    maxAmountNum: 200,
+    category: 'living',
+    relatedCategories: ['employment', 'childcare'],
+    prefecture: '広島県',
+    tags: ['広島県', '移住支援金', '東京圏', '子育て加算', '令和8年度'],
+    eligibility: '東京23区在住者または東京圏から東京23区へ通勤していた人が、広島県内の対象市町へ移住し、就業・テレワーク・起業・関係人口などの要件を満たす場合が対象です。令和8年度は国の年度当初予算の交付決定前のため、2026年7月6日時点では受付開始前です。',
+    applicationPeriod: '令和8年度は受付開始前。取扱い決定後に広島県公式ページで公表予定',
+    deadlineDate: '2026-04-01',
+    description: '広島県と県内対象市町が共同で実施する移住支援金制度です。生成データの「ひろしまファミリー移住支援金」という独立制度名ではなく、公式には移住支援金制度の子育て加算として案内されています。2026年7月6日時点では令和8年度の受付は開始されていないため、通常公開で申請可能と誤認されないよう受付開始前として補正しました。',
+    sections: [
+      { heading: '制度の概要', content: '<p>東京23区の在住者又は通勤者が、広島県内の対象市町に移住し、就業・テレワーク・起業・関係人口などの要件を満たす場合に、移住先市町への申請に基づいて支援金を支給する制度です。</p>' },
+      { heading: '支給額', content: '<p>令和7年度内容として、単身者は60万円、2人以上の世帯は100万円です。18歳未満の世帯員を帯同して移住する場合は、18歳未満の者1人につき100万円を加算します。</p>' },
+      { heading: '現在の受付状況', content: '<p>広島県公式ページでは、令和8年度事業は国の年度当初予算の交付決定前のため受付を開始しておらず、取扱いが決まった場合に同ページで知らせると案内されています。</p>' }
+    ],
+    officialUrl: 'https://www.pref.hiroshima.lg.jp/soshiki/246/202304ijyushiennkinn.html',
+    sourceName: '広島県 令和8年度移住支援金制度について',
+    sourceUrls: [
+      'https://www.pref.hiroshima.lg.jp/soshiki/246/202304ijyushiennkinn.html',
+      'https://www.pref.hiroshima.lg.jp/uploaded/attachment/655338.pdf'
+    ],
+    sourceNote: '2026年7月6日に広島県公式ページを確認。令和8年度移住支援金事業は国の年度当初予算の交付決定前で受付開始前、内容は令和7年度事業として掲載されていることを確認。支給額は単身60万円、2人以上世帯100万円、18歳未満の世帯員1人につき100万円加算。令和8年度施策及び事業案PDFでも移住支援金の交付を確認。生成データの独立した「ファミリー移住支援金」ではなく、移住支援金制度の子育て加算へ補正。',
+    verifiedAt: '2026-07-06',
+    publishedAt: '2026-07-06',
+  } as Grant,
+  {
+    slug: 'hiroshima-education-ict',
+    title: '広島県 学校教育情報化推進計画（補助制度としては公式確認不可）',
+    organization: '広島県教育委員会',
+    type: 'local',
+    maxAmount: '個別申請型の補助制度として確認できないため掲載停止',
+    maxAmountNum: 0,
+    category: 'education',
+    prefecture: '広島県',
+    tags: ['広島県', '学校教育情報化', 'ICT', '公式確認不可', '掲載停止'],
+    eligibility: '生成データの「学校ICT環境整備支援事業」として、市町や学校が申請できる1校最大300万円の広島県補助制度は公式確認できません。公式に確認できるのは、令和8年度から令和10年度までの学校教育情報化推進計画です。',
+    applicationPeriod: '掲載停止',
+    deadlineDate: '2026-04-17',
+    description: '生成データでは学校ICT環境整備への補助金として登録されていましたが、該当の旧URLは404で、現行公式情報として同名の補助制度は確認できません。広島県教育委員会の公式資料では、令和8年度以降の学校教育情報化の方向性を示す「広島県学校教育情報化推進計画」を確認できるため、補助金としての通常掲載は停止します。',
+    sections: [
+      { heading: '確認できた公式情報', content: '<p>広島県教育委員会は、令和8年度以降の県教育の情報化の方向性として、令和8年度から令和10年度までを計画期間とする広島県学校教育情報化推進計画を策定しています。</p>' },
+      { heading: '補助制度としての取扱い', content: '<p>旧登録の「1校あたり最大300万円」「市町教育委員会を通じて申請」といった補助制度内容は、現行の広島県公式ページでは確認できません。誤認を避けるため、このslugは掲載停止扱いにします。</p>' },
+      { heading: '確認事項', content: '<p>学校ICT環境整備に関する個別補助や共同調達は、国のGIGAスクール関連制度や市町の教育委員会で別途案内される場合があります。申請可否は最新の公式募集要項で確認が必要です。</p>' }
+    ],
+    officialUrl: 'https://www.pref.hiroshima.lg.jp/uploaded/attachment/665353.pdf',
+    sourceName: '広島県学校教育情報化推進計画',
+    sourceUrls: [
+      'https://www.pref.hiroshima.lg.jp/uploaded/attachment/665353.pdf',
+      'https://www.mext.go.jp/a_menu/other/1421443_00002.htm'
+    ],
+    sourceNote: '2026年7月6日に旧登録URL（https://www.pref.hiroshima.lg.jp/soshiki/247/ict-seibi.html）のHTTP 404を確認。広島県公式PDFで、令和8年度以降の学校教育情報化の方向性を示す広島県学校教育情報化推進計画、計画期間令和8年度から令和10年度、デジタル学習基盤活用の環境整備を確認。個別申請型の県補助金としては確認できないため掲載停止。',
+    verifiedAt: '2026-07-06',
+    publishedAt: '2026-07-06',
+  } as Grant,
 ];

@@ -4296,6 +4296,19 @@ Pinterest系の差分は今回の助成金データ継続とは別系統とし�
 - 岡山市残り8件の後は、笠岡市・玉野市・倉敷市の順に、市区町村単位で20件前後をまとめて処理する。
 - push / 公開反映は明示確認後。
 
+## 2026-07-06 広島県Batch 205 追加ログ
+
+広島県庁2件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。対象は `hiroshima-migration-family` / `hiroshima-education-ict`。`hiroshima-migration-family` は令和8年度移住支援金制度へ補正し、公式ページで令和8年度は受付開始前、令和7年度内容として単身60万円・2人以上世帯100万円・18歳未満1人100万円加算を確認した。`hiroshima-education-ict` は旧登録URLが404で、1校最大300万円の補助制度としては公式確認できないため掲載停止とし、公式に確認できる広島県学校教育情報化推進計画（令和8年度〜令和10年度）へ補正した。全国raw gapは1,964件から1,962件、広島県raw gapは66件から64件に減少した。
+
+確認: `npx eslint src/data/grants/verified-local-misc-2026.ts` エラー0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` 問題なし、採用sourceUrls 4件はすべてHTTP 200。`npm run audit:coverage` は failures 0、公式確認済みactiveは2,651件、広島県ローカル公式確認済みは39件。Buildは今回は未実行。
+
+次回再開位置:
+
+- 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度としての確認が弱いため引き続き保留。
+- 次は広島市（`hiroshima-block-wall-removal` / `hiroshima-child-medical-aid` / `hiroshima-city-birth-bonus` / `hiroshima-city-bousai-equipment` など）。
+- コンテキスト溢れ対策として、再開時は `CONTEXT_START_HERE.md`、`HANDOFF_CONTEXT_RECOVERY_2026-07-03.md` の末尾120行、`node scripts/audit-raw-verified-gaps.mjs --limit 25` のみ読む。`SAFE_CONTINUATION_PLAN.md` と `tasks/todo.md` は全文を読まない。
+- push / 公開反映は明示確認後。
+
 ## 2026-07-03 岡山県Batch 114 追加ログ
 
 岡山市残り8件を公式一次情報で確認し、`src/data/grants/verified-local-misc-2026.ts` に追加・補正した。これで岡山市のraw gapは0件。生成データの「中小企業経営革新支援補助金」「高齢者タクシー利用助成」「人間ドック受診費助成」「一般住宅リフォーム助成金」「一般向け奨学金返還支援制度」「第3子以降学校給食費補助」「創業支援補助金」「雨水タンク設置補助金」は、公式で確認できる制度名・対象者・金額へ補正した。
