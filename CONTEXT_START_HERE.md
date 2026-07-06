@@ -17,9 +17,11 @@ Codex のモデルコンテキスト上限に到達していた。主因は以�
 ```bash
 cd /Users/banseiyuuji/joseikin-navi-site
 git status --short --branch
-tail -n 120 HANDOFF_CONTEXT_RECOVERY_2026-07-03.md
-node scripts/audit-raw-verified-gaps.mjs --limit 25
+node scripts/generate-progress-checklist.mjs
+sed -n '1,80p' tasks/progress-checklist.md
 ```
+
+自走運用の詳細は `tasks/autonomous-runbook.md` を読む。
 
 ## 読んではいけないもの
 
@@ -40,21 +42,23 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 - 各バッチで `eslint`、`git diff --check`、URL監査、raw gap監査、coverage監査を実行
 - `npm run build` は県完了時、20〜50件節目、公開前だけでよい
 - push / deploy / publish は明示確認があるまで行わない
+- バッチ完了後は `node scripts/generate-progress-checklist.mjs` で進捗表を再生成する
 
 ## 直近の次作業
 
-最新状態は必ずコマンドで再計算する。2026-07-05時点の次候補は広島県の raw gap。
+最新状態は必ずコマンドで再計算する。2026-07-06時点では、綾部市2件は公式確認が弱いため保留し、広島県の広島市から順次進める。
 
 ```bash
-node scripts/audit-raw-verified-gaps.mjs --prefecture 広島県 --limit 30
-node scripts/audit-raw-verified-gaps.mjs --limit 25
+node scripts/generate-progress-checklist.mjs
+sed -n '1,80p' tasks/progress-checklist.md
 ```
 
-先頭候補として確認済みだったもの:
+広島市の次候補例:
 
-- `hiroshima-education-ict`
-- `hiroshima-migration-family`
-- その後に広島市候補が続く
+- `hiroshima-block-wall-removal`
+- `hiroshima-child-medical-aid`
+- `hiroshima-city-birth-bonus`
+- `hiroshima-city-bousai-equipment`
 
 ## 既存 dirty 差分
 
