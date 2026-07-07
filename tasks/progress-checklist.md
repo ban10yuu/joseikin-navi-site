@@ -4,20 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-07T12:14:39.256Z
+- 生成日時: 2026-07-07T12:22:05.665Z
 - raw unique slugs: 4375
-- verified unique slugs: 3255
-- raw内の公式確認済み slugs: 2532
-- 未照合 raw slugs: 1843
-- 完了自治体/団体: 245 / 434
-- raw gap 0 の都道府県: 19 / 47
+- verified unique slugs: 3291
+- raw内の公式確認済み slugs: 2568
+- 未照合 raw slugs: 1807
+- 完了自治体/団体: 249 / 434
+- raw gap 0 の都道府県: 20 / 47
 
 ## 次に進める候補
 
-- 佐賀県 佐賀県: 残り1件（saga-arita-pottery）
-- 佐賀県 佐賀市: 残り18件（saga-city-housing-reform / saga-city-childcare-subsidy / saga-city-birth-bonus / saga-city-newlywed-rent / saga-city-disability-medical 他13件）
-- 佐賀県 鳥栖市: 残り8件（tosu-child-medical-aid / tosu-juutaku-reform / tosu-health-checkup-subsidy / tosu-scholarship-repayment / tosu-elderly-taxi 他3件）
-- 佐賀県 唐津市: 残り9件（karatsu-housing-reform / karatsu-child-medical-aid / karatsu-juutaku-reform / karatsu-health-checkup-subsidy / karatsu-scholarship-repayment 他4件）
 - 三重県 伊勢市: 残り11件（ise-startup-support / ise-migration-support / ise-after-school-care / ise-heatstroke-prevention / ise-cancer-screening 他6件）
 - 三重県 桑名市: 残り9件（kuwana-after-school-care / kuwana-heatstroke-prevention / kuwana-cancer-screening / kuwana-foreign-study-aid / kuwana-tourism-startup 他4件）
 - 三重県 三重県: 残り1件（mie-employment-workcation）
@@ -34,6 +30,10 @@
 - 山口県 岩国市: 残り9件（iwakuni-child-medical-aid / iwakuni-juutaku-reform / iwakuni-health-checkup-subsidy / iwakuni-scholarship-repayment / iwakuni-startup-support 他4件）
 - 山口県 山口県: 残り1件（yamaguchi-fishery-support）
 - 山口県 山口市: 残り20件（yamaguchi-city-senior-medical / yamaguchi-city-iju-support / yamaguchi-city-childcare-subsidy / yamaguchi-city-birth-bonus / yamaguchi-city-housing-purchase 他15件）
+- 山口県 周南市: 残り17件（shunan-childcare-subsidy / shunan-birth-bonus / shunan-newlywed-rent / shunan-disability-medical / shunan-school-lunch 他12件）
+- 山口県 防府市: 残り9件（hofu-child-medical-aid / hofu-juutaku-reform / hofu-health-checkup-subsidy / hofu-scholarship-repayment / hofu-startup-support 他4件）
+- 山梨県 甲府市: 残り14件（kofu-parenting-allowance / kofu-housing-eco / kofu-mental-health / kofu-scholarship / kofu-uij-turn 他9件）
+- 山梨県 山梨県: 残り2件（yamanashi-fruit-farming / yamanashi-empty-house）
 
 ## 都道府県別
 
@@ -61,7 +61,6 @@
 | 未完了 | 長崎県 | 63 | 6 | 57 | nagasaki-city-fertility-treatment / sasebo-housing-seismic / isahaya-child-medical / isahaya-housing-reform / isahaya-vaccination-support 他52件 |
 | 未完了 | 青森県 | 66 | 12 | 54 | hachinohe-infertility-treatment / hachinohe-housing-earthquake / hirosaki-infertility-support / hirosaki-housing-seismic / aomori-city-housing-eco 他49件 |
 | 未完了 | 大分県 | 56 | 11 | 45 | beppu-housing-reform / beppu-vaccination-subsidy / oita-city-childcare-subsidy / oita-city-birth-bonus / oita-city-newlywed-rent 他40件 |
-| 未完了 | 佐賀県 | 44 | 8 | 36 | saga-city-housing-reform / karatsu-housing-reform / saga-city-childcare-subsidy / saga-city-birth-bonus / saga-city-newlywed-rent 他31件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 石川県 | 44 | 11 | 33 | hakusan-housing-reform / kanazawa-housing-purchase / kanazawa-senior-dental / kanazawa-scholarship-v2 / kanazawa-sme-support 他28件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
@@ -82,6 +81,7 @@
 | 完了 | 広島県 | 91 | 91 | 0 |  |
 | 完了 | 香川県 | 44 | 44 | 0 |  |
 | 完了 | 高知県 | 33 | 33 | 0 |  |
+| 完了 | 佐賀県 | 44 | 44 | 0 |  |
 | 完了 | 埼玉県 | 242 | 242 | 0 |  |
 | 完了 | 神奈川県 | 135 | 135 | 0 |  |
 | 完了 | 全国 | 107 | 107 | 0 |  |
@@ -185,10 +185,10 @@
 | 完了 | 高知県 | 高知県 | 3 | 3 | 0 |  |
 | 完了 | 高知県 | 高知市 | 21 | 21 | 0 |  |
 | 完了 | 高知県 | 南国市 | 9 | 9 | 0 |  |
-| 未完了 | 佐賀県 | 佐賀県 | 3 | 2 | 1 | saga-arita-pottery |
-| 未完了 | 佐賀県 | 佐賀市 | 21 | 3 | 18 | saga-city-housing-reform / saga-city-childcare-subsidy / saga-city-birth-bonus / saga-city-newlywed-rent / saga-city-disability-medical 他13件 |
-| 未完了 | 佐賀県 | 鳥栖市 | 9 | 1 | 8 | tosu-child-medical-aid / tosu-juutaku-reform / tosu-health-checkup-subsidy / tosu-scholarship-repayment / tosu-elderly-taxi 他3件 |
-| 未完了 | 佐賀県 | 唐津市 | 11 | 2 | 9 | karatsu-housing-reform / karatsu-child-medical-aid / karatsu-juutaku-reform / karatsu-health-checkup-subsidy / karatsu-scholarship-repayment 他4件 |
+| 完了 | 佐賀県 | 佐賀県 | 3 | 3 | 0 |  |
+| 完了 | 佐賀県 | 佐賀市 | 21 | 21 | 0 |  |
+| 完了 | 佐賀県 | 鳥栖市 | 9 | 9 | 0 |  |
+| 完了 | 佐賀県 | 唐津市 | 11 | 11 | 0 |  |
 | 完了 | 埼玉県 | さいたま市 | 12 | 12 | 0 |  |
 | 完了 | 埼玉県 | 羽生市 | 9 | 9 | 0 |  |
 | 完了 | 埼玉県 | 越谷市 | 21 | 21 | 0 |  |
