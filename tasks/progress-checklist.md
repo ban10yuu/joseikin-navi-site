@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-07T11:51:43.989Z
+- 生成日時: 2026-07-07T11:57:59.759Z
 - raw unique slugs: 4375
-- verified unique slugs: 3200
-- raw内の公式確認済み slugs: 2477
-- 未照合 raw slugs: 1898
-- 完了自治体/団体: 236 / 434
-- raw gap 0 の都道府県: 16 / 47
+- verified unique slugs: 3203
+- raw内の公式確認済み slugs: 2480
+- 未照合 raw slugs: 1895
+- 完了自治体/団体: 238 / 434
+- raw gap 0 の都道府県: 17 / 47
 
 ## 次に進める候補
 
-- 京都府 綾部市: 残り2件（ayabe-tea-business / ayabe-bicycle-helmet）
 - 香川県 丸亀市: 残り10件（marugame-housing-reform / marugame-child-medical-aid / marugame-juutaku-reform / marugame-health-checkup-subsidy / marugame-scholarship-repayment 他5件）
 - 香川県 香川県: 残り2件（kagawa-olive-industry / kagawa-udon-tourism）
 - 香川県 高松市: 残り10件（takamatsu-startup-support / takamatsu-scholarship / takamatsu-child-medical-aid / takamatsu-juutaku-reform / takamatsu-health-checkup-subsidy 他5件）
@@ -34,6 +33,7 @@
 - 三重県 津市: 残り18件（tsu-childcare-subsidy / tsu-parenting-allowance / tsu-disability-medical / tsu-afterschool / tsu-uij-turn 他13件）
 - 三重県 鈴鹿市: 残り9件（suzuka-after-school-care / suzuka-heatstroke-prevention / suzuka-cancer-screening / suzuka-foreign-study-aid / suzuka-tourism-startup 他4件）
 - 山形県 山形県: 残り2件（yamagata-cherry-farming / yamagata-housing-support）
+- 山形県 山形市: 残り15件（yamagata-city-birth-bonus / yamagata-city-housing-eco / yamagata-city-sme-support / yamagata-city-energy-support / yamagata-city-bousai-equipment 他10件）
 
 ## 都道府県別
 
@@ -69,8 +69,6 @@
 | 未完了 | 高知県 | 33 | 12 | 21 | kochi-city-senior-medical / kochi-city-scholarship / kochi-child-medical-aid / kochi-juutaku-reform / kochi-health-checkup-subsidy 他16件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
-| 未完了 | 京都府 | 72 | 70 | 2 | ayabe-tea-business / ayabe-bicycle-helmet |
-| 未完了 | 全国 | 107 | 106 | 1 | sompo-japan-environment-grant |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
 | 完了 | 茨城県 | 99 | 99 | 0 |  |
@@ -80,11 +78,13 @@
 | 完了 | 岐阜県 | 84 | 84 | 0 |  |
 | 完了 | 宮崎県 | 82 | 82 | 0 |  |
 | 完了 | 宮城県 | 59 | 59 | 0 |  |
+| 完了 | 京都府 | 72 | 72 | 0 |  |
 | 完了 | 熊本県 | 43 | 43 | 0 |  |
 | 完了 | 群馬県 | 84 | 84 | 0 |  |
 | 完了 | 広島県 | 91 | 91 | 0 |  |
 | 完了 | 埼玉県 | 242 | 242 | 0 |  |
 | 完了 | 神奈川県 | 135 | 135 | 0 |  |
+| 完了 | 全国 | 107 | 107 | 0 |  |
 | 完了 | 東京都 | 439 | 439 | 0 |  |
 | 完了 | 北海道 | 175 | 175 | 0 |  |
 
@@ -151,7 +151,7 @@
 | 完了 | 宮城県 | 仙台市 | 12 | 12 | 0 |  |
 | 完了 | 宮城県 | 大崎市 | 12 | 12 | 0 |  |
 | 完了 | 宮城県 | 名取市 | 12 | 12 | 0 |  |
-| 未完了 | 京都府 | 綾部市 | 9 | 7 | 2 | ayabe-tea-business / ayabe-bicycle-helmet |
+| 完了 | 京都府 | 綾部市 | 9 | 9 | 0 |  |
 | 完了 | 京都府 | 宇治市 | 12 | 12 | 0 |  |
 | 完了 | 京都府 | 亀岡市 | 9 | 9 | 0 |  |
 | 完了 | 京都府 | 京都市 | 12 | 12 | 0 |  |
@@ -318,7 +318,7 @@
 | 未完了 | 千葉県 | 野田市 | 12 | 9 | 3 | noda-housing-reform / noda-startup-support / noda-sme-support |
 | 完了 | 全国 | JR西日本あんしん社会財団 | 1 | 1 | 0 |  |
 | 完了 | 全国 | LIXIL住生活財団 | 1 | 1 | 0 |  |
-| 未完了 | 全国 | SOMPO環境財団 | 1 | 0 | 1 | sompo-japan-environment-grant |
+| 完了 | 全国 | SOMPO環境財団 | 1 | 1 | 0 |  |
 | 完了 | 全国 | Yahoo!基金（LINEヤフー） | 1 | 1 | 0 |  |
 | 完了 | 全国 | かめのり財団 | 1 | 1 | 0 |  |
 | 完了 | 全国 | キリン福祉財団 | 1 | 1 | 0 |  |
