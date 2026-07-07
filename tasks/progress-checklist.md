@@ -4,23 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-07T12:22:05.665Z
+- 生成日時: 2026-07-07T12:36:58.628Z
 - raw unique slugs: 4375
-- verified unique slugs: 3291
-- raw内の公式確認済み slugs: 2568
-- 未照合 raw slugs: 1807
-- 完了自治体/団体: 249 / 434
-- raw gap 0 の都道府県: 20 / 47
+- verified unique slugs: 3366
+- raw内の公式確認済み slugs: 2643
+- 未照合 raw slugs: 1732
+- 完了自治体/団体: 256 / 434
+- raw gap 0 の都道府県: 21 / 47
 
 ## 次に進める候補
 
-- 三重県 伊勢市: 残り11件（ise-startup-support / ise-migration-support / ise-after-school-care / ise-heatstroke-prevention / ise-cancer-screening 他6件）
-- 三重県 桑名市: 残り9件（kuwana-after-school-care / kuwana-heatstroke-prevention / kuwana-cancer-screening / kuwana-foreign-study-aid / kuwana-tourism-startup 他4件）
-- 三重県 三重県: 残り1件（mie-employment-workcation）
-- 三重県 四日市市: 残り18件（yokkaichi-childcare-subsidy / yokkaichi-birth-bonus / yokkaichi-newlywed-rent / yokkaichi-disability-medical / yokkaichi-school-lunch 他13件）
-- 三重県 松阪市: 残り9件（matsusaka-after-school-care / matsusaka-heatstroke-prevention / matsusaka-cancer-screening / matsusaka-foreign-study-aid / matsusaka-tourism-startup 他4件）
-- 三重県 津市: 残り18件（tsu-childcare-subsidy / tsu-parenting-allowance / tsu-disability-medical / tsu-afterschool / tsu-uij-turn 他13件）
-- 三重県 鈴鹿市: 残り9件（suzuka-after-school-care / suzuka-heatstroke-prevention / suzuka-cancer-screening / suzuka-foreign-study-aid / suzuka-tourism-startup 他4件）
 - 山形県 山形県: 残り2件（yamagata-cherry-farming / yamagata-housing-support）
 - 山形県 山形市: 残り15件（yamagata-city-birth-bonus / yamagata-city-housing-eco / yamagata-city-sme-support / yamagata-city-energy-support / yamagata-city-bousai-equipment 他10件）
 - 山形県 酒田市: 残り17件（sakata-startup-support / sakata-childcare-subsidy / sakata-birth-bonus / sakata-housing-purchase / sakata-infertility 他12件）
@@ -34,6 +27,13 @@
 - 山口県 防府市: 残り9件（hofu-child-medical-aid / hofu-juutaku-reform / hofu-health-checkup-subsidy / hofu-scholarship-repayment / hofu-startup-support 他4件）
 - 山梨県 甲府市: 残り14件（kofu-parenting-allowance / kofu-housing-eco / kofu-mental-health / kofu-scholarship / kofu-uij-turn 他9件）
 - 山梨県 山梨県: 残り2件（yamanashi-fruit-farming / yamanashi-empty-house）
+- 山梨県 山梨市: 残り9件（yamanashi-child-medical-aid / yamanashi-vacant-house-renovation / yamanashi-health-checkup-subsidy / yamanashi-scholarship-repayment / yamanashi-startup-support 他4件）
+- 山梨県 大月市: 残り9件（otsuki-child-medical-aid / otsuki-vacant-house-renovation / otsuki-health-checkup-subsidy / otsuki-scholarship-repayment / otsuki-startup-support 他4件）
+- 山梨県 都留市: 残り9件（tsuru-child-medical-aid / tsuru-vacant-house-renovation / tsuru-health-checkup-subsidy / tsuru-scholarship-repayment / tsuru-startup-support 他4件）
+- 山梨県 韮崎市: 残り9件（nirasaki-child-medical-aid / nirasaki-vacant-house-renovation / nirasaki-health-checkup-subsidy / nirasaki-scholarship-repayment / nirasaki-startup-support 他4件）
+- 山梨県 富士吉田市: 残り8件（fujiyoshida-vacant-house-renovation / fujiyoshida-health-checkup-subsidy / fujiyoshida-scholarship-repayment / fujiyoshida-startup-support / fujiyoshida-elderly-taxi 他3件）
+- 滋賀県 近江八幡市: 残り9件（omihachiman-infant-diaper / omihachiman-lake-view-housing / omihachiman-child-allergy / omihachiman-nature-experience / omihachiman-agriculture-six 他4件）
+- 滋賀県 滋賀県: 残り1件（shiga-biwa-lake-environment）
 
 ## 都道府県別
 
@@ -48,7 +48,6 @@
 | 未完了 | 新潟県 | 89 | 9 | 80 | niigata-city-startup-support / niigata-city-housing-reform / nagaoka-housing-snow / joetsu-housing-snow / sanjo-manufacturing-support 他75件 |
 | 未完了 | 長野県 | 85 | 6 | 79 | matsumoto-scholarship / ueda-fertility-treatment / ueda-scholarship / iida-housing-seismic / iida-migration-support 他74件 |
 | 未完了 | 兵庫県 | 90 | 13 | 77 | himeji-scholarship / himeji-housing-seismic / nishinomiya-elderly-medical / nishinomiya-housing-eco / amagasaki-community-support 他72件 |
-| 未完了 | 三重県 | 82 | 7 | 75 | ise-startup-support / ise-migration-support / tsu-childcare-subsidy / tsu-parenting-allowance / tsu-disability-medical 他70件 |
 | 未完了 | 滋賀県 | 84 | 9 | 75 | kusatsu-housing-reform / kusatsu-education-support / hikone-housing-reform / hikone-scholarship / otsu-mental-health 他70件 |
 | 未完了 | 鹿児島県 | 84 | 10 | 74 | kagoshima-city-vaccination / kanoya-housing-new-build / satsumasendai-housing-newlife / kagoshima-city-childcare-subsidy / kagoshima-city-birth-bonus 他69件 |
 | 未完了 | 島根県 | 70 | 3 | 67 | matsue-housing-reform / matsue-startup-support / izumo-housing-seismic / izumo-startup-support / matsue-childcare-subsidy 他62件 |
@@ -83,6 +82,7 @@
 | 完了 | 高知県 | 33 | 33 | 0 |  |
 | 完了 | 佐賀県 | 44 | 44 | 0 |  |
 | 完了 | 埼玉県 | 242 | 242 | 0 |  |
+| 完了 | 三重県 | 82 | 82 | 0 |  |
 | 完了 | 神奈川県 | 135 | 135 | 0 |  |
 | 完了 | 全国 | 107 | 107 | 0 |  |
 | 完了 | 東京都 | 439 | 439 | 0 |  |
@@ -208,13 +208,13 @@
 | 完了 | 埼玉県 | 東松山市 | 9 | 9 | 0 |  |
 | 完了 | 埼玉県 | 入間市 | 12 | 12 | 0 |  |
 | 完了 | 埼玉県 | 本庄市 | 9 | 9 | 0 |  |
-| 未完了 | 三重県 | 伊勢市 | 12 | 1 | 11 | ise-startup-support / ise-migration-support / ise-after-school-care / ise-heatstroke-prevention / ise-cancer-screening 他6件 |
-| 未完了 | 三重県 | 桑名市 | 9 | 0 | 9 | kuwana-after-school-care / kuwana-heatstroke-prevention / kuwana-cancer-screening / kuwana-foreign-study-aid / kuwana-tourism-startup 他4件 |
-| 未完了 | 三重県 | 三重県 | 1 | 0 | 1 | mie-employment-workcation |
-| 未完了 | 三重県 | 四日市市 | 21 | 3 | 18 | yokkaichi-childcare-subsidy / yokkaichi-birth-bonus / yokkaichi-newlywed-rent / yokkaichi-disability-medical / yokkaichi-school-lunch 他13件 |
-| 未完了 | 三重県 | 松阪市 | 9 | 0 | 9 | matsusaka-after-school-care / matsusaka-heatstroke-prevention / matsusaka-cancer-screening / matsusaka-foreign-study-aid / matsusaka-tourism-startup 他4件 |
-| 未完了 | 三重県 | 津市 | 21 | 3 | 18 | tsu-childcare-subsidy / tsu-parenting-allowance / tsu-disability-medical / tsu-afterschool / tsu-uij-turn 他13件 |
-| 未完了 | 三重県 | 鈴鹿市 | 9 | 0 | 9 | suzuka-after-school-care / suzuka-heatstroke-prevention / suzuka-cancer-screening / suzuka-foreign-study-aid / suzuka-tourism-startup 他4件 |
+| 完了 | 三重県 | 伊勢市 | 12 | 12 | 0 |  |
+| 完了 | 三重県 | 桑名市 | 9 | 9 | 0 |  |
+| 完了 | 三重県 | 三重県 | 1 | 1 | 0 |  |
+| 完了 | 三重県 | 四日市市 | 21 | 21 | 0 |  |
+| 完了 | 三重県 | 松阪市 | 9 | 9 | 0 |  |
+| 完了 | 三重県 | 津市 | 21 | 21 | 0 |  |
+| 完了 | 三重県 | 鈴鹿市 | 9 | 9 | 0 |  |
 | 未完了 | 山形県 | 山形県 | 3 | 1 | 2 | yamagata-cherry-farming / yamagata-housing-support |
 | 未完了 | 山形県 | 山形市 | 21 | 6 | 15 | yamagata-city-birth-bonus / yamagata-city-housing-eco / yamagata-city-sme-support / yamagata-city-energy-support / yamagata-city-bousai-equipment 他10件 |
 | 未完了 | 山形県 | 酒田市 | 20 | 3 | 17 | sakata-startup-support / sakata-childcare-subsidy / sakata-birth-bonus / sakata-housing-purchase / sakata-infertility 他12件 |
