@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-07T23:37:53.588Z
+- 生成日時: 2026-07-07T23:39:34.410Z
 - raw unique slugs: 4375
-- verified unique slugs: 3630
-- raw内の公式確認済み slugs: 2907
-- 未照合 raw slugs: 1468
-- 完了自治体/団体: 276 / 434
-- raw gap 0 の都道府県: 23 / 47
+- verified unique slugs: 3639
+- raw内の公式確認済み slugs: 2916
+- 未照合 raw slugs: 1459
+- 完了自治体/団体: 277 / 434
+- raw gap 0 の都道府県: 24 / 47
 
 ## 次に進める候補
 
-- 山口県 防府市: 残り9件（hofu-child-medical-aid / hofu-juutaku-reform / hofu-health-checkup-subsidy / hofu-scholarship-repayment / hofu-startup-support 他4件）
 - 山梨県 甲府市: 残り14件（kofu-parenting-allowance / kofu-housing-eco / kofu-mental-health / kofu-scholarship / kofu-uij-turn 他9件）
 - 山梨県 山梨県: 残り2件（yamanashi-fruit-farming / yamanashi-empty-house）
 - 山梨県 山梨市: 残り9件（yamanashi-child-medical-aid / yamanashi-vacant-house-renovation / yamanashi-health-checkup-subsidy / yamanashi-scholarship-repayment / yamanashi-startup-support 他4件）
@@ -34,6 +33,7 @@
 - 鹿児島県 薩摩川内市: 残り10件（satsumasendai-housing-newlife / satsumasendai-child-medical-aid / satsumasendai-juutaku-reform / satsumasendai-health-checkup-subsidy / satsumasendai-scholarship-repayment 他5件）
 - 鹿児島県 鹿屋市: 残り10件（kanoya-housing-new-build / kanoya-child-medical-aid / kanoya-juutaku-reform / kanoya-health-checkup-subsidy / kanoya-scholarship-repayment 他5件）
 - 鹿児島県 鹿児島県: 残り1件（kagoshima-childcare-third-child）
+- 鹿児島県 鹿児島市: 残り18件（kagoshima-city-vaccination / kagoshima-city-childcare-subsidy / kagoshima-city-birth-bonus / kagoshima-city-newlywed-rent / kagoshima-city-disability-medical 他13件）
 
 ## 都道府県別
 
@@ -62,7 +62,6 @@
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
-| 未完了 | 山口県 | 94 | 85 | 9 | hofu-child-medical-aid / hofu-juutaku-reform / hofu-health-checkup-subsidy / hofu-scholarship-repayment / hofu-startup-support 他4件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
 | 完了 | 茨城県 | 99 | 99 | 0 |  |
@@ -82,6 +81,7 @@
 | 完了 | 埼玉県 | 242 | 242 | 0 |  |
 | 完了 | 三重県 | 82 | 82 | 0 |  |
 | 完了 | 山形県 | 74 | 74 | 0 |  |
+| 完了 | 山口県 | 94 | 94 | 0 |  |
 | 完了 | 神奈川県 | 135 | 135 | 0 |  |
 | 完了 | 全国 | 107 | 107 | 0 |  |
 | 完了 | 東京都 | 439 | 439 | 0 |  |
@@ -225,7 +225,7 @@
 | 完了 | 山口県 | 山口県 | 3 | 3 | 0 |  |
 | 完了 | 山口県 | 山口市 | 21 | 21 | 0 |  |
 | 完了 | 山口県 | 周南市 | 20 | 20 | 0 |  |
-| 未完了 | 山口県 | 防府市 | 9 | 0 | 9 | hofu-child-medical-aid / hofu-juutaku-reform / hofu-health-checkup-subsidy / hofu-scholarship-repayment / hofu-startup-support 他4件 |
+| 完了 | 山口県 | 防府市 | 9 | 9 | 0 |  |
 | 未完了 | 山梨県 | 甲府市 | 20 | 6 | 14 | kofu-parenting-allowance / kofu-housing-eco / kofu-mental-health / kofu-scholarship / kofu-uij-turn 他9件 |
 | 未完了 | 山梨県 | 山梨県 | 3 | 1 | 2 | yamanashi-fruit-farming / yamanashi-empty-house |
 | 未完了 | 山梨県 | 山梨市 | 9 | 0 | 9 | yamanashi-child-medical-aid / yamanashi-vacant-house-renovation / yamanashi-health-checkup-subsidy / yamanashi-scholarship-repayment / yamanashi-startup-support 他4件 |
