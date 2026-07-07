@@ -755,3 +755,22 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 - `node scripts/generate-progress-checklist.mjs`: 成功。広島市残り18件から13件へ減少。
 - Buildは今回は未実行。広島市または広島県の大きめ節目で再実行する。
 - Next candidates after commit: 綾部市残り2件は引き続き保留。次は広島市 `hiroshima-city-elderly-support` / `hiroshima-city-housing-purchase` / `hiroshima-city-infertility` など。
+
+## Current progress update 2026-07-07 Batch 207
+
+- Batch 207 completed:
+- 対象: `hiroshima-city-elderly-support` / `hiroshima-city-housing-purchase` / `hiroshima-city-infertility` / `hiroshima-city-scholarship` / `hiroshima-city-sme-support`
+- `hiroshima-city-elderly-support` は高齢者いきいき活動ポイント事業へ補正。1ポイント100円、最大1万円相当。
+- `hiroshima-city-housing-purchase` は三世代同居・近居支援事業へ補正。住替え費用2分の1、上限10万円。
+- `hiroshima-city-infertility` は不育症検査費用助成事業へ補正。検査費用7割、上限6万円。
+- `hiroshima-city-scholarship` は広島市独自の一般奨学金制度なしを公式FAQで確認し掲載停止。
+- `hiroshima-city-sme-support` は2026広島市生産性向上等チャレンジ応援金へ補正。上限200万円、申請期間は2026年6月19日で終了。
+- 広島県 raw gap: `59 -> 54`
+- 全国 raw gap: `1957 -> 1952`
+- `npx eslint src/data/grants/verified-local-misc-2026.ts`: errors 0
+- `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: 問題なし
+- 採用sourceUrls 11件はすべてHTTP 200
+- `npm run audit:coverage`: failures 0。公式確認済みactiveは2,657件、広島県ローカル公式確認済みは47件。
+- `node scripts/generate-progress-checklist.mjs`: 成功。広島市残り13件から8件へ減少。
+- Buildは今回は未実行。広島市完了時または広島県の大きめ節目で再実行する。
+- Next candidates after commit: 綾部市残り2件は引き続き保留。次は広島市 `hiroshima-city-startup-support` / `hiroshima-juutaku-reform` / `hiroshima-health-checkup-subsidy` など。

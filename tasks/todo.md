@@ -927,5 +927,7 @@
 - [x] 公式確認進捗チェックリストの自動生成基盤を追加（`scripts/generate-progress-checklist.mjs`、`tasks/progress-checklist.md`、`tasks/progress-checklist.csv`、`tasks/autonomous-runbook.md`）
 - [x] 広島県Batch 206として、広島市5件を公式確認済み追加・補正（民間ブロック塀等撤去工事補助事業、こども医療費補助、妊婦支援給付金、住宅・建築物土砂災害対策改修補助金、令和8年度保育料・副食費の多子軽減）
 - [x] 広島県Batch 206の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 6件はすべてHTTP 200、全国未照合raw slugは1,962件から1,957件、広島県は64件から59件に減少、coverage failures 0。進捗チェックリスト再生成済み。Buildは今回は未実行）
-- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は広島市（`hiroshima-city-elderly-support` / `hiroshima-city-housing-purchase` / `hiroshima-city-infertility` など）から再開可能
+- [x] 広島県Batch 207として、広島市5件を公式確認済み追加・補正（高齢者いきいき活動ポイント事業、三世代同居・近居支援事業、不育症検査費用助成事業、広島市独自奨学金制度なしによる掲載停止、2026広島市生産性向上等チャレンジ応援金）
+- [x] 広島県Batch 207の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 11件はすべてHTTP 200、全国未照合raw slugは1,957件から1,952件、広島県は59件から54件に減少、coverage failures 0。進捗チェックリスト再生成済み。Buildは今回は未実行）
+- [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は広島市（`hiroshima-city-startup-support` / `hiroshima-juutaku-reform` / `hiroshima-health-checkup-subsidy` など）から再開可能
 - [ ] push / 公開反映は明示確認後に実行
