@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-07T23:50:09.740Z
+- 生成日時: 2026-07-07T23:52:15.967Z
 - raw unique slugs: 4375
-- verified unique slugs: 3682
-- raw内の公式確認済み slugs: 2959
-- 未照合 raw slugs: 1416
-- 完了自治体/団体: 282 / 434
+- verified unique slugs: 3691
+- raw内の公式確認済み slugs: 2968
+- 未照合 raw slugs: 1407
+- 完了自治体/団体: 283 / 434
 - raw gap 0 の都道府県: 24 / 47
 
 ## 次に進める候補
 
-- 山梨県 韮崎市: 残り9件（nirasaki-child-medical-aid / nirasaki-vacant-house-renovation / nirasaki-health-checkup-subsidy / nirasaki-scholarship-repayment / nirasaki-startup-support 他4件）
 - 山梨県 富士吉田市: 残り8件（fujiyoshida-vacant-house-renovation / fujiyoshida-health-checkup-subsidy / fujiyoshida-scholarship-repayment / fujiyoshida-startup-support / fujiyoshida-elderly-taxi 他3件）
 - 滋賀県 近江八幡市: 残り9件（omihachiman-infant-diaper / omihachiman-lake-view-housing / omihachiman-child-allergy / omihachiman-nature-experience / omihachiman-agriculture-six 他4件）
 - 滋賀県 滋賀県: 残り1件（shiga-biwa-lake-environment）
@@ -34,6 +33,7 @@
 - 秋田県 秋田県: 残り2件（akita-migration-incentive / akita-agriculture-support）
 - 秋田県 秋田市: 残り14件（akita-city-daycare-support / akita-city-barrier-free / akita-city-mental-health / akita-city-telework-bonus / akita-city-nursing-home-reform 他9件）
 - 秋田県 大仙市: 残り19件（daisen-migration-support / daisen-childcare-subsidy / daisen-birth-bonus / daisen-newlywed-rent / daisen-disability-medical 他14件）
+- 新潟県 阿賀野市: 残り9件（agano-childcare-subsidy / agano-birth-bonus / agano-housing-purchase / agano-infertility / agano-scholarship 他4件）
 
 ## 都道府県別
 
@@ -59,9 +59,9 @@
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 石川県 | 44 | 11 | 33 | hakusan-housing-reform / kanazawa-housing-purchase / kanazawa-senior-dental / kanazawa-scholarship-v2 / kanazawa-sme-support 他28件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
-| 未完了 | 山梨県 | 68 | 51 | 17 | fujiyoshida-vacant-house-renovation / fujiyoshida-health-checkup-subsidy / fujiyoshida-scholarship-repayment / fujiyoshida-startup-support / fujiyoshida-elderly-taxi 他12件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
+| 未完了 | 山梨県 | 68 | 60 | 8 | fujiyoshida-vacant-house-renovation / fujiyoshida-health-checkup-subsidy / fujiyoshida-scholarship-repayment / fujiyoshida-startup-support / fujiyoshida-elderly-taxi 他3件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
 | 完了 | 茨城県 | 99 | 99 | 0 |  |
@@ -231,7 +231,7 @@
 | 完了 | 山梨県 | 山梨市 | 9 | 9 | 0 |  |
 | 完了 | 山梨県 | 大月市 | 9 | 9 | 0 |  |
 | 完了 | 山梨県 | 都留市 | 9 | 9 | 0 |  |
-| 未完了 | 山梨県 | 韮崎市 | 9 | 0 | 9 | nirasaki-child-medical-aid / nirasaki-vacant-house-renovation / nirasaki-health-checkup-subsidy / nirasaki-scholarship-repayment / nirasaki-startup-support 他4件 |
+| 完了 | 山梨県 | 韮崎市 | 9 | 9 | 0 |  |
 | 未完了 | 山梨県 | 富士吉田市 | 9 | 1 | 8 | fujiyoshida-vacant-house-renovation / fujiyoshida-health-checkup-subsidy / fujiyoshida-scholarship-repayment / fujiyoshida-startup-support / fujiyoshida-elderly-taxi 他3件 |
 | 未完了 | 滋賀県 | 近江八幡市 | 9 | 0 | 9 | omihachiman-infant-diaper / omihachiman-lake-view-housing / omihachiman-child-allergy / omihachiman-nature-experience / omihachiman-agriculture-six 他4件 |
 | 未完了 | 滋賀県 | 滋賀県 | 3 | 2 | 1 | shiga-biwa-lake-environment |
