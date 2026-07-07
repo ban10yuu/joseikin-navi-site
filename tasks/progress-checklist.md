@@ -4,18 +4,17 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-07T02:03:26.277Z
+- 生成日時: 2026-07-07T11:39:24.406Z
 - raw unique slugs: 4375
-- verified unique slugs: 3146
-- raw内の公式確認済み slugs: 2423
-- 未照合 raw slugs: 1952
-- 完了自治体/団体: 231 / 434
+- verified unique slugs: 3154
+- raw内の公式確認済み slugs: 2431
+- 未照合 raw slugs: 1944
+- 完了自治体/団体: 232 / 434
 - raw gap 0 の都道府県: 15 / 47
 
 ## 次に進める候補
 
 - 京都府 綾部市: 残り2件（ayabe-tea-business / ayabe-bicycle-helmet）
-- 広島県 広島市: 残り8件（hiroshima-city-startup-support / hiroshima-juutaku-reform / hiroshima-health-checkup-subsidy / hiroshima-scholarship-repayment / hiroshima-startup-support 他3件）
 - 広島県 三原市: 残り9件（mihara-child-medical-aid / mihara-juutaku-reform / mihara-health-checkup-subsidy / mihara-scholarship-repayment / mihara-startup-support 他4件）
 - 広島県 東広島市: 残り9件（higashihiroshima-child-medical-aid / higashihiroshima-juutaku-reform / higashihiroshima-health-checkup-subsidy / higashihiroshima-scholarship-repayment / higashihiroshima-startup-support 他4件）
 - 広島県 尾道市: 残り9件（onomichi-child-medical-aid / onomichi-juutaku-reform / onomichi-health-checkup-subsidy / onomichi-scholarship-repayment / onomichi-startup-support 他4件）
@@ -34,6 +33,7 @@
 - 三重県 伊勢市: 残り11件（ise-startup-support / ise-migration-support / ise-after-school-care / ise-heatstroke-prevention / ise-cancer-screening 他6件）
 - 三重県 桑名市: 残り9件（kuwana-after-school-care / kuwana-heatstroke-prevention / kuwana-cancer-screening / kuwana-foreign-study-aid / kuwana-tourism-startup 他4件）
 - 三重県 三重県: 残り1件（mie-employment-workcation）
+- 三重県 四日市市: 残り18件（yokkaichi-childcare-subsidy / yokkaichi-birth-bonus / yokkaichi-newlywed-rent / yokkaichi-disability-medical / yokkaichi-school-lunch 他13件）
 
 ## 都道府県別
 
@@ -59,8 +59,8 @@
 | 未完了 | 山梨県 | 68 | 8 | 60 | kofu-parenting-allowance / kofu-housing-eco / kofu-mental-health / kofu-scholarship / kofu-uij-turn 他55件 |
 | 未完了 | 福島県 | 72 | 12 | 60 | koriyama-infertility-treatment / aizu-housing-seismic / aizu-senior-medical / sukagawa-startup-support / sukagawa-migration-support 他55件 |
 | 未完了 | 長崎県 | 63 | 6 | 57 | nagasaki-city-fertility-treatment / sasebo-housing-seismic / isahaya-child-medical / isahaya-housing-reform / isahaya-vaccination-support 他52件 |
-| 未完了 | 広島県 | 91 | 37 | 54 | fukuyama-infertility-treatment / hiroshima-city-startup-support / fukuyama-childcare-subsidy / fukuyama-birth-bonus / fukuyama-housing-purchase 他49件 |
 | 未完了 | 青森県 | 66 | 12 | 54 | hachinohe-infertility-treatment / hachinohe-housing-earthquake / hirosaki-infertility-support / hirosaki-housing-seismic / aomori-city-housing-eco 他49件 |
+| 未完了 | 広島県 | 91 | 45 | 46 | fukuyama-infertility-treatment / fukuyama-childcare-subsidy / fukuyama-birth-bonus / fukuyama-housing-purchase / fukuyama-infertility 他41件 |
 | 未完了 | 大分県 | 56 | 11 | 45 | beppu-housing-reform / beppu-vaccination-subsidy / oita-city-childcare-subsidy / oita-city-birth-bonus / oita-city-newlywed-rent 他40件 |
 | 未完了 | 佐賀県 | 44 | 8 | 36 | saga-city-housing-reform / karatsu-housing-reform / saga-city-childcare-subsidy / saga-city-birth-bonus / saga-city-newlywed-rent 他31件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
@@ -173,7 +173,7 @@
 | 完了 | 群馬県 | 太田市 | 12 | 12 | 0 |  |
 | 完了 | 広島県 | 呉市 | 20 | 20 | 0 |  |
 | 完了 | 広島県 | 広島県 | 2 | 2 | 0 |  |
-| 未完了 | 広島県 | 広島市 | 21 | 13 | 8 | hiroshima-city-startup-support / hiroshima-juutaku-reform / hiroshima-health-checkup-subsidy / hiroshima-scholarship-repayment / hiroshima-startup-support 他3件 |
+| 完了 | 広島県 | 広島市 | 21 | 21 | 0 |  |
 | 未完了 | 広島県 | 三原市 | 9 | 0 | 9 | mihara-child-medical-aid / mihara-juutaku-reform / mihara-health-checkup-subsidy / mihara-scholarship-repayment / mihara-startup-support 他4件 |
 | 未完了 | 広島県 | 東広島市 | 9 | 0 | 9 | higashihiroshima-child-medical-aid / higashihiroshima-juutaku-reform / higashihiroshima-health-checkup-subsidy / higashihiroshima-scholarship-repayment / higashihiroshima-startup-support 他4件 |
 | 未完了 | 広島県 | 尾道市 | 9 | 0 | 9 | onomichi-child-medical-aid / onomichi-juutaku-reform / onomichi-health-checkup-subsidy / onomichi-scholarship-repayment / onomichi-startup-support 他4件 |
