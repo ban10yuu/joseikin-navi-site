@@ -4,12 +4,12 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-07T12:42:57.979Z
+- 生成日時: 2026-07-07T21:42:03.359Z
 - raw unique slugs: 4375
-- verified unique slugs: 3404
-- raw内の公式確認済み slugs: 2681
-- 未照合 raw slugs: 1694
-- 完了自治体/団体: 258 / 434
+- verified unique slugs: 3422
+- raw内の公式確認済み slugs: 2699
+- 未照合 raw slugs: 1676
+- 完了自治体/団体: 259 / 434
 - raw gap 0 の都道府県: 21 / 47
 
 ## 次に進める候補
@@ -43,13 +43,13 @@
 | 未完了 | 大阪府 | 131 | 12 | 119 | hirakata-vaccination-support / toyonaka-child-medical / toyonaka-housing-seismic / toyonaka-education-support / higashiosaka-child-medical 他114件 |
 | 未完了 | 静岡県 | 98 | 7 | 91 | fuji-city-senior-hearing-aid / shizuoka-city-housing-seismic / shizuoka-city-fertility-treatment / hamamatsu-startup-support / hamamatsu-housing-eco-reform 他86件 |
 | 未完了 | 千葉県 | 189 | 98 | 91 | chiba-city-fertility-treatment / chiba-city-senior-living / kashiwa-child-medical-aid / kashiwa-juutaku-reform / kashiwa-health-checkup-subsidy 他86件 |
-| 未完了 | 福岡県 | 138 | 49 | 89 | onojo-child-medical / onojo-senior-medical / onojo-education-support / kitakyushu-startup-support / kitakyushu-migration-support 他84件 |
 | 未完了 | 山口県 | 94 | 10 | 84 | yamaguchi-city-senior-medical / yamaguchi-city-iju-support / shimonoseki-housing-reform / ube-infertility-treatment / yamaguchi-city-childcare-subsidy 他79件 |
 | 未完了 | 新潟県 | 89 | 9 | 80 | niigata-city-startup-support / niigata-city-housing-reform / nagaoka-housing-snow / joetsu-housing-snow / sanjo-manufacturing-support 他75件 |
 | 未完了 | 長野県 | 85 | 6 | 79 | matsumoto-scholarship / ueda-fertility-treatment / ueda-scholarship / iida-housing-seismic / iida-migration-support 他74件 |
 | 未完了 | 兵庫県 | 90 | 13 | 77 | himeji-scholarship / himeji-housing-seismic / nishinomiya-elderly-medical / nishinomiya-housing-eco / amagasaki-community-support 他72件 |
 | 未完了 | 滋賀県 | 84 | 9 | 75 | kusatsu-housing-reform / kusatsu-education-support / hikone-housing-reform / hikone-scholarship / otsu-mental-health 他70件 |
 | 未完了 | 鹿児島県 | 84 | 10 | 74 | kagoshima-city-vaccination / kanoya-housing-new-build / satsumasendai-housing-newlife / kagoshima-city-childcare-subsidy / kagoshima-city-birth-bonus 他69件 |
+| 未完了 | 福岡県 | 138 | 67 | 71 | onojo-child-medical / onojo-senior-medical / onojo-education-support / kitakyushu-startup-support / kitakyushu-migration-support 他66件 |
 | 未完了 | 島根県 | 70 | 3 | 67 | matsue-housing-reform / matsue-startup-support / izumo-housing-seismic / izumo-startup-support / matsue-childcare-subsidy 他62件 |
 | 未完了 | 鳥取県 | 71 | 7 | 64 | yonago-startup-support / yonago-migration-support / tottori-city-childcare-subsidy / tottori-city-birth-bonus / tottori-city-housing-purchase 他59件 |
 | 未完了 | 山形県 | 74 | 12 | 62 | tsuruoka-fertility-treatment / sakata-startup-support / yamagata-city-birth-bonus / yamagata-city-housing-eco / yamagata-city-sme-support 他57件 |
@@ -489,7 +489,7 @@
 | 未完了 | 福井県 | 福井市 | 12 | 7 | 5 | fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / fukui-city-housing-reform |
 | 完了 | 福岡県 | 久留米市 | 20 | 20 | 0 |  |
 | 完了 | 福岡県 | 春日市 | 21 | 21 | 0 |  |
-| 未完了 | 福岡県 | 大牟田市 | 21 | 3 | 18 | omuta-childcare-subsidy / omuta-birth-bonus / omuta-housing-purchase / omuta-infertility / omuta-scholarship 他13件 |
+| 完了 | 福岡県 | 大牟田市 | 21 | 21 | 0 |  |
 | 未完了 | 福岡県 | 大野城市 | 12 | 0 | 12 | onojo-child-medical / onojo-senior-medical / onojo-education-support / onojo-childcare-subsidy / onojo-birth-bonus 他7件 |
 | 未完了 | 福岡県 | 飯塚市 | 20 | 3 | 17 | iizuka-childcare-subsidy / iizuka-birth-bonus / iizuka-housing-purchase / iizuka-infertility / iizuka-scholarship 他12件 |
 | 未完了 | 福岡県 | 福岡県 | 1 | 0 | 1 | fukuoka-disaster-flood |
