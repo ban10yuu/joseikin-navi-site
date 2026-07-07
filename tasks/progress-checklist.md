@@ -4,18 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-07T21:55:22.986Z
+- 生成日時: 2026-07-07T21:57:55.853Z
 - raw unique slugs: 4375
-- verified unique slugs: 3493
-- raw内の公式確認済み slugs: 2770
-- 未照合 raw slugs: 1605
-- 完了自治体/団体: 266 / 434
+- verified unique slugs: 3510
+- raw内の公式確認済み slugs: 2787
+- 未照合 raw slugs: 1588
+- 完了自治体/団体: 268 / 434
 - raw gap 0 の都道府県: 22 / 47
 
 ## 次に進める候補
 
-- 山形県 山形県: 残り2件（yamagata-cherry-farming / yamagata-housing-support）
-- 山形県 山形市: 残り15件（yamagata-city-birth-bonus / yamagata-city-housing-eco / yamagata-city-sme-support / yamagata-city-energy-support / yamagata-city-bousai-equipment 他10件）
 - 山形県 酒田市: 残り17件（sakata-startup-support / sakata-childcare-subsidy / sakata-birth-bonus / sakata-housing-purchase / sakata-infertility 他12件）
 - 山形県 鶴岡市: 残り28件（tsuruoka-fertility-treatment / tsuruoka-childcare-subsidy / tsuruoka-birth-bonus / tsuruoka-housing-purchase / tsuruoka-disability-medical 他23件）
 - 山口県 宇部市: 残り10件（ube-infertility-treatment / ube-child-medical-aid / ube-juutaku-reform / ube-health-checkup-subsidy / ube-scholarship-repayment 他5件）
@@ -34,6 +32,8 @@
 - 山梨県 富士吉田市: 残り8件（fujiyoshida-vacant-house-renovation / fujiyoshida-health-checkup-subsidy / fujiyoshida-scholarship-repayment / fujiyoshida-startup-support / fujiyoshida-elderly-taxi 他3件）
 - 滋賀県 近江八幡市: 残り9件（omihachiman-infant-diaper / omihachiman-lake-view-housing / omihachiman-child-allergy / omihachiman-nature-experience / omihachiman-agriculture-six 他4件）
 - 滋賀県 滋賀県: 残り1件（shiga-biwa-lake-environment）
+- 滋賀県 守山市: 残り9件（moriyama-infant-diaper / moriyama-lake-view-housing / moriyama-child-allergy / moriyama-nature-experience / moriyama-agriculture-six 他4件）
+- 滋賀県 草津市: 残り19件（kusatsu-housing-reform / kusatsu-education-support / kusatsu-childcare-subsidy / kusatsu-birth-bonus / kusatsu-housing-purchase 他14件）
 
 ## 都道府県別
 
@@ -51,13 +51,13 @@
 | 未完了 | 鹿児島県 | 84 | 10 | 74 | kagoshima-city-vaccination / kanoya-housing-new-build / satsumasendai-housing-newlife / kagoshima-city-childcare-subsidy / kagoshima-city-birth-bonus 他69件 |
 | 未完了 | 島根県 | 70 | 3 | 67 | matsue-housing-reform / matsue-startup-support / izumo-housing-seismic / izumo-startup-support / matsue-childcare-subsidy 他62件 |
 | 未完了 | 鳥取県 | 71 | 7 | 64 | yonago-startup-support / yonago-migration-support / tottori-city-childcare-subsidy / tottori-city-birth-bonus / tottori-city-housing-purchase 他59件 |
-| 未完了 | 山形県 | 74 | 12 | 62 | tsuruoka-fertility-treatment / sakata-startup-support / yamagata-city-birth-bonus / yamagata-city-housing-eco / yamagata-city-sme-support 他57件 |
 | 未完了 | 秋田県 | 74 | 13 | 61 | daisen-migration-support / akita-city-daycare-support / akita-city-barrier-free / akita-city-mental-health / akita-city-telework-bonus 他56件 |
 | 未完了 | 福井県 | 69 | 8 | 61 | fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / tsuruga-childcare-subsidy 他56件 |
 | 未完了 | 山梨県 | 68 | 8 | 60 | kofu-parenting-allowance / kofu-housing-eco / kofu-mental-health / kofu-scholarship / kofu-uij-turn 他55件 |
 | 未完了 | 福島県 | 72 | 12 | 60 | koriyama-infertility-treatment / aizu-housing-seismic / aizu-senior-medical / sukagawa-startup-support / sukagawa-migration-support 他55件 |
 | 未完了 | 長崎県 | 63 | 6 | 57 | nagasaki-city-fertility-treatment / sasebo-housing-seismic / isahaya-child-medical / isahaya-housing-reform / isahaya-vaccination-support 他52件 |
 | 未完了 | 青森県 | 66 | 12 | 54 | hachinohe-infertility-treatment / hachinohe-housing-earthquake / hirosaki-infertility-support / hirosaki-housing-seismic / aomori-city-housing-eco 他49件 |
+| 未完了 | 山形県 | 74 | 29 | 45 | tsuruoka-fertility-treatment / sakata-startup-support / tsuruoka-childcare-subsidy / tsuruoka-birth-bonus / tsuruoka-housing-purchase 他40件 |
 | 未完了 | 大分県 | 56 | 11 | 45 | beppu-housing-reform / beppu-vaccination-subsidy / oita-city-childcare-subsidy / oita-city-birth-bonus / oita-city-newlywed-rent 他40件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 石川県 | 44 | 11 | 33 | hakusan-housing-reform / kanazawa-housing-purchase / kanazawa-senior-dental / kanazawa-scholarship-v2 / kanazawa-sme-support 他28件 |
@@ -215,8 +215,8 @@
 | 完了 | 三重県 | 松阪市 | 9 | 9 | 0 |  |
 | 完了 | 三重県 | 津市 | 21 | 21 | 0 |  |
 | 完了 | 三重県 | 鈴鹿市 | 9 | 9 | 0 |  |
-| 未完了 | 山形県 | 山形県 | 3 | 1 | 2 | yamagata-cherry-farming / yamagata-housing-support |
-| 未完了 | 山形県 | 山形市 | 21 | 6 | 15 | yamagata-city-birth-bonus / yamagata-city-housing-eco / yamagata-city-sme-support / yamagata-city-energy-support / yamagata-city-bousai-equipment 他10件 |
+| 完了 | 山形県 | 山形県 | 3 | 3 | 0 |  |
+| 完了 | 山形県 | 山形市 | 21 | 21 | 0 |  |
 | 未完了 | 山形県 | 酒田市 | 20 | 3 | 17 | sakata-startup-support / sakata-childcare-subsidy / sakata-birth-bonus / sakata-housing-purchase / sakata-infertility 他12件 |
 | 未完了 | 山形県 | 鶴岡市 | 30 | 2 | 28 | tsuruoka-fertility-treatment / tsuruoka-childcare-subsidy / tsuruoka-birth-bonus / tsuruoka-housing-purchase / tsuruoka-disability-medical 他23件 |
 | 未完了 | 山口県 | 宇部市 | 12 | 2 | 10 | ube-infertility-treatment / ube-child-medical-aid / ube-juutaku-reform / ube-health-checkup-subsidy / ube-scholarship-repayment 他5件 |
