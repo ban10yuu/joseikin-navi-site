@@ -4,12 +4,12 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-07T12:36:58.628Z
+- 生成日時: 2026-07-07T12:39:59.731Z
 - raw unique slugs: 4375
-- verified unique slugs: 3366
-- raw内の公式確認済み slugs: 2643
-- 未照合 raw slugs: 1732
-- 完了自治体/団体: 256 / 434
+- verified unique slugs: 3384
+- raw内の公式確認済み slugs: 2661
+- 未照合 raw slugs: 1714
+- 完了自治体/団体: 257 / 434
 - raw gap 0 の都道府県: 21 / 47
 
 ## 次に進める候補
@@ -39,9 +39,9 @@
 
 | 状態 | 都道府県 | raw | verified | 残り | 次のslug |
 |---|---:|---:|---:|---:|---|
-| 未完了 | 福岡県 | 138 | 11 | 127 | kurume-infertility-treatment / kasuga-housing-reform / kasuga-living-support / onojo-child-medical / onojo-senior-medical 他122件 |
 | 未完了 | 栃木県 | 130 | 9 | 121 | oyama-housing-reform / ashikaga-housing-reform / ashikaga-migration-support / sano-startup-support / utsunomiya-childcare-subsidy 他116件 |
 | 未完了 | 大阪府 | 131 | 12 | 119 | hirakata-vaccination-support / toyonaka-child-medical / toyonaka-housing-seismic / toyonaka-education-support / higashiosaka-child-medical 他114件 |
+| 未完了 | 福岡県 | 138 | 29 | 109 | kasuga-housing-reform / kasuga-living-support / onojo-child-medical / onojo-senior-medical / onojo-education-support 他104件 |
 | 未完了 | 静岡県 | 98 | 7 | 91 | fuji-city-senior-hearing-aid / shizuoka-city-housing-seismic / shizuoka-city-fertility-treatment / hamamatsu-startup-support / hamamatsu-housing-eco-reform 他86件 |
 | 未完了 | 千葉県 | 189 | 98 | 91 | chiba-city-fertility-treatment / chiba-city-senior-living / kashiwa-child-medical-aid / kashiwa-juutaku-reform / kashiwa-health-checkup-subsidy 他86件 |
 | 未完了 | 山口県 | 94 | 10 | 84 | yamaguchi-city-senior-medical / yamaguchi-city-iju-support / shimonoseki-housing-reform / ube-infertility-treatment / yamaguchi-city-childcare-subsidy 他79件 |
@@ -487,7 +487,7 @@
 | 未完了 | 福井県 | 敦賀市 | 9 | 0 | 9 | tsuruga-childcare-subsidy / tsuruga-birth-bonus / tsuruga-housing-purchase / tsuruga-infertility / tsuruga-scholarship 他4件 |
 | 未完了 | 福井県 | 福井県 | 3 | 1 | 2 | fukui-child-support / fukui-housing-support |
 | 未完了 | 福井県 | 福井市 | 12 | 7 | 5 | fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / fukui-city-housing-reform |
-| 未完了 | 福岡県 | 久留米市 | 20 | 2 | 18 | kurume-infertility-treatment / kurume-childcare-subsidy / kurume-birth-bonus / kurume-newlywed-rent / kurume-disability-medical 他13件 |
+| 完了 | 福岡県 | 久留米市 | 20 | 20 | 0 |  |
 | 未完了 | 福岡県 | 春日市 | 21 | 1 | 20 | kasuga-housing-reform / kasuga-living-support / kasuga-childcare-subsidy / kasuga-birth-bonus / kasuga-housing-purchase 他15件 |
 | 未完了 | 福岡県 | 大牟田市 | 21 | 3 | 18 | omuta-childcare-subsidy / omuta-birth-bonus / omuta-housing-purchase / omuta-infertility / omuta-scholarship 他13件 |
 | 未完了 | 福岡県 | 大野城市 | 12 | 0 | 12 | onojo-child-medical / onojo-senior-medical / onojo-education-support / onojo-childcare-subsidy / onojo-birth-bonus 他7件 |
