@@ -4,13 +4,13 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-07T21:52:35.027Z
+- 生成日時: 2026-07-07T21:55:22.986Z
 - raw unique slugs: 4375
-- verified unique slugs: 3474
-- raw内の公式確認済み slugs: 2751
-- 未照合 raw slugs: 1624
-- 完了自治体/団体: 265 / 434
-- raw gap 0 の都道府県: 21 / 47
+- verified unique slugs: 3493
+- raw内の公式確認済み slugs: 2770
+- 未照合 raw slugs: 1605
+- 完了自治体/団体: 266 / 434
+- raw gap 0 の都道府県: 22 / 47
 
 ## 次に進める候補
 
@@ -62,7 +62,6 @@
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 石川県 | 44 | 11 | 33 | hakusan-housing-reform / kanazawa-housing-purchase / kanazawa-senior-dental / kanazawa-scholarship-v2 / kanazawa-sme-support 他28件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
-| 未完了 | 福岡県 | 138 | 119 | 19 | kitakyushu-startup-support / kitakyushu-migration-support / kitakyushu-childcare-subsidy / kitakyushu-birth-bonus / kitakyushu-housing-purchase 他14件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
@@ -86,6 +85,7 @@
 | 完了 | 神奈川県 | 135 | 135 | 0 |  |
 | 完了 | 全国 | 107 | 107 | 0 |  |
 | 完了 | 東京都 | 439 | 439 | 0 |  |
+| 完了 | 福岡県 | 138 | 138 | 0 |  |
 | 完了 | 北海道 | 175 | 175 | 0 |  |
 
 ## 自治体・団体別
@@ -496,7 +496,7 @@
 | 完了 | 福岡県 | 福岡県（各市町村） | 1 | 1 | 0 |  |
 | 完了 | 福岡県 | 福岡県（福岡県中小企業振興センター） | 1 | 1 | 0 |  |
 | 完了 | 福岡県 | 福岡市 | 21 | 21 | 0 |  |
-| 未完了 | 福岡県 | 北九州市 | 20 | 1 | 19 | kitakyushu-startup-support / kitakyushu-migration-support / kitakyushu-childcare-subsidy / kitakyushu-birth-bonus / kitakyushu-housing-purchase 他14件 |
+| 完了 | 福岡県 | 北九州市 | 20 | 20 | 0 |  |
 | 未完了 | 福島県 | いわき市 | 12 | 3 | 9 | iwaki-childcare-subsidy / iwaki-birth-bonus / iwaki-newlywed-rent / iwaki-infertility / iwaki-school-lunch 他4件 |
 | 未完了 | 福島県 | 会津若松市 | 12 | 1 | 11 | aizu-housing-seismic / aizu-senior-medical / aizu-childcare-subsidy / aizu-birth-bonus / aizu-newlywed-rent 他6件 |
 | 未完了 | 福島県 | 郡山市 | 12 | 2 | 10 | koriyama-infertility-treatment / koriyama-childcare-subsidy / koriyama-birth-bonus / koriyama-housing-purchase / koriyama-infertility 他5件 |
