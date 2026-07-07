@@ -4,19 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-07T12:06:07.515Z
+- 生成日時: 2026-07-07T12:14:39.256Z
 - raw unique slugs: 4375
-- verified unique slugs: 3234
-- raw内の公式確認済み slugs: 2511
-- 未照合 raw slugs: 1864
-- 完了自治体/団体: 242 / 434
-- raw gap 0 の都道府県: 18 / 47
+- verified unique slugs: 3255
+- raw内の公式確認済み slugs: 2532
+- 未照合 raw slugs: 1843
+- 完了自治体/団体: 245 / 434
+- raw gap 0 の都道府県: 19 / 47
 
 ## 次に進める候補
 
-- 高知県 高知県: 残り1件（kochi-katsuo-fishery）
-- 高知県 高知市: 残り11件（kochi-city-senior-medical / kochi-city-scholarship / kochi-child-medical-aid / kochi-juutaku-reform / kochi-health-checkup-subsidy 他6件）
-- 高知県 南国市: 残り9件（nankoku-child-medical-aid / nankoku-juutaku-reform / nankoku-health-checkup-subsidy / nankoku-scholarship-repayment / nankoku-startup-support 他4件）
 - 佐賀県 佐賀県: 残り1件（saga-arita-pottery）
 - 佐賀県 佐賀市: 残り18件（saga-city-housing-reform / saga-city-childcare-subsidy / saga-city-birth-bonus / saga-city-newlywed-rent / saga-city-disability-medical 他13件）
 - 佐賀県 鳥栖市: 残り8件（tosu-child-medical-aid / tosu-juutaku-reform / tosu-health-checkup-subsidy / tosu-scholarship-repayment / tosu-elderly-taxi 他3件）
@@ -34,6 +31,9 @@
 - 山形県 鶴岡市: 残り28件（tsuruoka-fertility-treatment / tsuruoka-childcare-subsidy / tsuruoka-birth-bonus / tsuruoka-housing-purchase / tsuruoka-disability-medical 他23件）
 - 山口県 宇部市: 残り10件（ube-infertility-treatment / ube-child-medical-aid / ube-juutaku-reform / ube-health-checkup-subsidy / ube-scholarship-repayment 他5件）
 - 山口県 下関市: 残り18件（shimonoseki-housing-reform / shimonoseki-childcare-subsidy / shimonoseki-birth-bonus / shimonoseki-housing-purchase / shimonoseki-infertility 他13件）
+- 山口県 岩国市: 残り9件（iwakuni-child-medical-aid / iwakuni-juutaku-reform / iwakuni-health-checkup-subsidy / iwakuni-scholarship-repayment / iwakuni-startup-support 他4件）
+- 山口県 山口県: 残り1件（yamaguchi-fishery-support）
+- 山口県 山口市: 残り20件（yamaguchi-city-senior-medical / yamaguchi-city-iju-support / yamaguchi-city-childcare-subsidy / yamaguchi-city-birth-bonus / yamaguchi-city-housing-purchase 他15件）
 
 ## 都道府県別
 
@@ -65,7 +65,6 @@
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 石川県 | 44 | 11 | 33 | hakusan-housing-reform / kanazawa-housing-purchase / kanazawa-senior-dental / kanazawa-scholarship-v2 / kanazawa-sme-support 他28件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
-| 未完了 | 高知県 | 33 | 12 | 21 | kochi-city-senior-medical / kochi-city-scholarship / kochi-child-medical-aid / kochi-juutaku-reform / kochi-health-checkup-subsidy 他16件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
@@ -82,6 +81,7 @@
 | 完了 | 群馬県 | 84 | 84 | 0 |  |
 | 完了 | 広島県 | 91 | 91 | 0 |  |
 | 完了 | 香川県 | 44 | 44 | 0 |  |
+| 完了 | 高知県 | 33 | 33 | 0 |  |
 | 完了 | 埼玉県 | 242 | 242 | 0 |  |
 | 完了 | 神奈川県 | 135 | 135 | 0 |  |
 | 完了 | 全国 | 107 | 107 | 0 |  |
@@ -182,9 +182,9 @@
 | 完了 | 香川県 | 香川県 | 3 | 3 | 0 |  |
 | 完了 | 香川県 | 高松市 | 20 | 20 | 0 |  |
 | 完了 | 香川県 | 坂出市 | 9 | 9 | 0 |  |
-| 未完了 | 高知県 | 高知県 | 3 | 2 | 1 | kochi-katsuo-fishery |
-| 未完了 | 高知県 | 高知市 | 21 | 10 | 11 | kochi-city-senior-medical / kochi-city-scholarship / kochi-child-medical-aid / kochi-juutaku-reform / kochi-health-checkup-subsidy 他6件 |
-| 未完了 | 高知県 | 南国市 | 9 | 0 | 9 | nankoku-child-medical-aid / nankoku-juutaku-reform / nankoku-health-checkup-subsidy / nankoku-scholarship-repayment / nankoku-startup-support 他4件 |
+| 完了 | 高知県 | 高知県 | 3 | 3 | 0 |  |
+| 完了 | 高知県 | 高知市 | 21 | 21 | 0 |  |
+| 完了 | 高知県 | 南国市 | 9 | 9 | 0 |  |
 | 未完了 | 佐賀県 | 佐賀県 | 3 | 2 | 1 | saga-arita-pottery |
 | 未完了 | 佐賀県 | 佐賀市 | 21 | 3 | 18 | saga-city-housing-reform / saga-city-childcare-subsidy / saga-city-birth-bonus / saga-city-newlywed-rent / saga-city-disability-medical 他13件 |
 | 未完了 | 佐賀県 | 鳥栖市 | 9 | 1 | 8 | tosu-child-medical-aid / tosu-juutaku-reform / tosu-health-checkup-subsidy / tosu-scholarship-repayment / tosu-elderly-taxi 他3件 |
