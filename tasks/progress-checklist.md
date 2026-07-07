@@ -4,18 +4,17 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-07T11:42:32.250Z
+- 生成日時: 2026-07-07T11:45:11.702Z
 - raw unique slugs: 4375
-- verified unique slugs: 3163
-- raw内の公式確認済み slugs: 2440
-- 未照合 raw slugs: 1935
-- 完了自治体/団体: 233 / 434
+- verified unique slugs: 3172
+- raw内の公式確認済み slugs: 2449
+- 未照合 raw slugs: 1926
+- 完了自治体/団体: 234 / 434
 - raw gap 0 の都道府県: 15 / 47
 
 ## 次に進める候補
 
 - 京都府 綾部市: 残り2件（ayabe-tea-business / ayabe-bicycle-helmet）
-- 広島県 東広島市: 残り9件（higashihiroshima-child-medical-aid / higashihiroshima-juutaku-reform / higashihiroshima-health-checkup-subsidy / higashihiroshima-scholarship-repayment / higashihiroshima-startup-support 他4件）
 - 広島県 尾道市: 残り9件（onomichi-child-medical-aid / onomichi-juutaku-reform / onomichi-health-checkup-subsidy / onomichi-scholarship-repayment / onomichi-startup-support 他4件）
 - 広島県 福山市: 残り19件（fukuyama-infertility-treatment / fukuyama-childcare-subsidy / fukuyama-birth-bonus / fukuyama-housing-purchase / fukuyama-infertility 他14件）
 - 香川県 丸亀市: 残り10件（marugame-housing-reform / marugame-child-medical-aid / marugame-juutaku-reform / marugame-health-checkup-subsidy / marugame-scholarship-repayment 他5件）
@@ -34,6 +33,7 @@
 - 三重県 三重県: 残り1件（mie-employment-workcation）
 - 三重県 四日市市: 残り18件（yokkaichi-childcare-subsidy / yokkaichi-birth-bonus / yokkaichi-newlywed-rent / yokkaichi-disability-medical / yokkaichi-school-lunch 他13件）
 - 三重県 松阪市: 残り9件（matsusaka-after-school-care / matsusaka-heatstroke-prevention / matsusaka-cancer-screening / matsusaka-foreign-study-aid / matsusaka-tourism-startup 他4件）
+- 三重県 津市: 残り18件（tsu-childcare-subsidy / tsu-parenting-allowance / tsu-disability-medical / tsu-afterschool / tsu-uij-turn 他13件）
 
 ## 都道府県別
 
@@ -61,12 +61,12 @@
 | 未完了 | 長崎県 | 63 | 6 | 57 | nagasaki-city-fertility-treatment / sasebo-housing-seismic / isahaya-child-medical / isahaya-housing-reform / isahaya-vaccination-support 他52件 |
 | 未完了 | 青森県 | 66 | 12 | 54 | hachinohe-infertility-treatment / hachinohe-housing-earthquake / hirosaki-infertility-support / hirosaki-housing-seismic / aomori-city-housing-eco 他49件 |
 | 未完了 | 大分県 | 56 | 11 | 45 | beppu-housing-reform / beppu-vaccination-subsidy / oita-city-childcare-subsidy / oita-city-birth-bonus / oita-city-newlywed-rent 他40件 |
-| 未完了 | 広島県 | 91 | 54 | 37 | fukuyama-infertility-treatment / fukuyama-childcare-subsidy / fukuyama-birth-bonus / fukuyama-housing-purchase / fukuyama-infertility 他32件 |
 | 未完了 | 佐賀県 | 44 | 8 | 36 | saga-city-housing-reform / karatsu-housing-reform / saga-city-childcare-subsidy / saga-city-birth-bonus / saga-city-newlywed-rent 他31件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 石川県 | 44 | 11 | 33 | hakusan-housing-reform / kanazawa-housing-purchase / kanazawa-senior-dental / kanazawa-scholarship-v2 / kanazawa-sme-support 他28件 |
 | 未完了 | 香川県 | 44 | 13 | 31 | takamatsu-startup-support / marugame-housing-reform / takamatsu-scholarship / takamatsu-child-medical-aid / takamatsu-juutaku-reform 他26件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
+| 未完了 | 広島県 | 91 | 63 | 28 | fukuyama-infertility-treatment / fukuyama-childcare-subsidy / fukuyama-birth-bonus / fukuyama-housing-purchase / fukuyama-infertility 他23件 |
 | 未完了 | 高知県 | 33 | 12 | 21 | kochi-city-senior-medical / kochi-city-scholarship / kochi-child-medical-aid / kochi-juutaku-reform / kochi-health-checkup-subsidy 他16件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
@@ -175,7 +175,7 @@
 | 完了 | 広島県 | 広島県 | 2 | 2 | 0 |  |
 | 完了 | 広島県 | 広島市 | 21 | 21 | 0 |  |
 | 完了 | 広島県 | 三原市 | 9 | 9 | 0 |  |
-| 未完了 | 広島県 | 東広島市 | 9 | 0 | 9 | higashihiroshima-child-medical-aid / higashihiroshima-juutaku-reform / higashihiroshima-health-checkup-subsidy / higashihiroshima-scholarship-repayment / higashihiroshima-startup-support 他4件 |
+| 完了 | 広島県 | 東広島市 | 9 | 9 | 0 |  |
 | 未完了 | 広島県 | 尾道市 | 9 | 0 | 9 | onomichi-child-medical-aid / onomichi-juutaku-reform / onomichi-health-checkup-subsidy / onomichi-scholarship-repayment / onomichi-startup-support 他4件 |
 | 未完了 | 広島県 | 福山市 | 21 | 2 | 19 | fukuyama-infertility-treatment / fukuyama-childcare-subsidy / fukuyama-birth-bonus / fukuyama-housing-purchase / fukuyama-infertility 他14件 |
 | 未完了 | 香川県 | 丸亀市 | 12 | 2 | 10 | marugame-housing-reform / marugame-child-medical-aid / marugame-juutaku-reform / marugame-health-checkup-subsidy / marugame-scholarship-repayment 他5件 |
