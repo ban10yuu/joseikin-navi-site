@@ -4,20 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-07T11:57:59.759Z
+- 生成日時: 2026-07-07T12:06:07.515Z
 - raw unique slugs: 4375
-- verified unique slugs: 3203
-- raw内の公式確認済み slugs: 2480
-- 未照合 raw slugs: 1895
-- 完了自治体/団体: 238 / 434
-- raw gap 0 の都道府県: 17 / 47
+- verified unique slugs: 3234
+- raw内の公式確認済み slugs: 2511
+- 未照合 raw slugs: 1864
+- 完了自治体/団体: 242 / 434
+- raw gap 0 の都道府県: 18 / 47
 
 ## 次に進める候補
 
-- 香川県 丸亀市: 残り10件（marugame-housing-reform / marugame-child-medical-aid / marugame-juutaku-reform / marugame-health-checkup-subsidy / marugame-scholarship-repayment 他5件）
-- 香川県 香川県: 残り2件（kagawa-olive-industry / kagawa-udon-tourism）
-- 香川県 高松市: 残り10件（takamatsu-startup-support / takamatsu-scholarship / takamatsu-child-medical-aid / takamatsu-juutaku-reform / takamatsu-health-checkup-subsidy 他5件）
-- 香川県 坂出市: 残り9件（sakaide-child-medical-aid / sakaide-juutaku-reform / sakaide-health-checkup-subsidy / sakaide-scholarship-repayment / sakaide-startup-support 他4件）
 - 高知県 高知県: 残り1件（kochi-katsuo-fishery）
 - 高知県 高知市: 残り11件（kochi-city-senior-medical / kochi-city-scholarship / kochi-child-medical-aid / kochi-juutaku-reform / kochi-health-checkup-subsidy 他6件）
 - 高知県 南国市: 残り9件（nankoku-child-medical-aid / nankoku-juutaku-reform / nankoku-health-checkup-subsidy / nankoku-scholarship-repayment / nankoku-startup-support 他4件）
@@ -34,6 +30,10 @@
 - 三重県 鈴鹿市: 残り9件（suzuka-after-school-care / suzuka-heatstroke-prevention / suzuka-cancer-screening / suzuka-foreign-study-aid / suzuka-tourism-startup 他4件）
 - 山形県 山形県: 残り2件（yamagata-cherry-farming / yamagata-housing-support）
 - 山形県 山形市: 残り15件（yamagata-city-birth-bonus / yamagata-city-housing-eco / yamagata-city-sme-support / yamagata-city-energy-support / yamagata-city-bousai-equipment 他10件）
+- 山形県 酒田市: 残り17件（sakata-startup-support / sakata-childcare-subsidy / sakata-birth-bonus / sakata-housing-purchase / sakata-infertility 他12件）
+- 山形県 鶴岡市: 残り28件（tsuruoka-fertility-treatment / tsuruoka-childcare-subsidy / tsuruoka-birth-bonus / tsuruoka-housing-purchase / tsuruoka-disability-medical 他23件）
+- 山口県 宇部市: 残り10件（ube-infertility-treatment / ube-child-medical-aid / ube-juutaku-reform / ube-health-checkup-subsidy / ube-scholarship-repayment 他5件）
+- 山口県 下関市: 残り18件（shimonoseki-housing-reform / shimonoseki-childcare-subsidy / shimonoseki-birth-bonus / shimonoseki-housing-purchase / shimonoseki-infertility 他13件）
 
 ## 都道府県別
 
@@ -64,7 +64,6 @@
 | 未完了 | 佐賀県 | 44 | 8 | 36 | saga-city-housing-reform / karatsu-housing-reform / saga-city-childcare-subsidy / saga-city-birth-bonus / saga-city-newlywed-rent 他31件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 石川県 | 44 | 11 | 33 | hakusan-housing-reform / kanazawa-housing-purchase / kanazawa-senior-dental / kanazawa-scholarship-v2 / kanazawa-sme-support 他28件 |
-| 未完了 | 香川県 | 44 | 13 | 31 | takamatsu-startup-support / marugame-housing-reform / takamatsu-scholarship / takamatsu-child-medical-aid / takamatsu-juutaku-reform 他26件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
 | 未完了 | 高知県 | 33 | 12 | 21 | kochi-city-senior-medical / kochi-city-scholarship / kochi-child-medical-aid / kochi-juutaku-reform / kochi-health-checkup-subsidy 他16件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
@@ -82,6 +81,7 @@
 | 完了 | 熊本県 | 43 | 43 | 0 |  |
 | 完了 | 群馬県 | 84 | 84 | 0 |  |
 | 完了 | 広島県 | 91 | 91 | 0 |  |
+| 完了 | 香川県 | 44 | 44 | 0 |  |
 | 完了 | 埼玉県 | 242 | 242 | 0 |  |
 | 完了 | 神奈川県 | 135 | 135 | 0 |  |
 | 完了 | 全国 | 107 | 107 | 0 |  |
@@ -178,10 +178,10 @@
 | 完了 | 広島県 | 東広島市 | 9 | 9 | 0 |  |
 | 完了 | 広島県 | 尾道市 | 9 | 9 | 0 |  |
 | 完了 | 広島県 | 福山市 | 21 | 21 | 0 |  |
-| 未完了 | 香川県 | 丸亀市 | 12 | 2 | 10 | marugame-housing-reform / marugame-child-medical-aid / marugame-juutaku-reform / marugame-health-checkup-subsidy / marugame-scholarship-repayment 他5件 |
-| 未完了 | 香川県 | 香川県 | 3 | 1 | 2 | kagawa-olive-industry / kagawa-udon-tourism |
-| 未完了 | 香川県 | 高松市 | 20 | 10 | 10 | takamatsu-startup-support / takamatsu-scholarship / takamatsu-child-medical-aid / takamatsu-juutaku-reform / takamatsu-health-checkup-subsidy 他5件 |
-| 未完了 | 香川県 | 坂出市 | 9 | 0 | 9 | sakaide-child-medical-aid / sakaide-juutaku-reform / sakaide-health-checkup-subsidy / sakaide-scholarship-repayment / sakaide-startup-support 他4件 |
+| 完了 | 香川県 | 丸亀市 | 12 | 12 | 0 |  |
+| 完了 | 香川県 | 香川県 | 3 | 3 | 0 |  |
+| 完了 | 香川県 | 高松市 | 20 | 20 | 0 |  |
+| 完了 | 香川県 | 坂出市 | 9 | 9 | 0 |  |
 | 未完了 | 高知県 | 高知県 | 3 | 2 | 1 | kochi-katsuo-fishery |
 | 未完了 | 高知県 | 高知市 | 21 | 10 | 11 | kochi-city-senior-medical / kochi-city-scholarship / kochi-child-medical-aid / kochi-juutaku-reform / kochi-health-checkup-subsidy 他6件 |
 | 未完了 | 高知県 | 南国市 | 9 | 0 | 9 | nankoku-child-medical-aid / nankoku-juutaku-reform / nankoku-health-checkup-subsidy / nankoku-scholarship-repayment / nankoku-startup-support 他4件 |
