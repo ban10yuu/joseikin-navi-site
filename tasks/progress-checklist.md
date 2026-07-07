@@ -4,12 +4,12 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-07T21:48:25.587Z
+- 生成日時: 2026-07-07T21:49:26.936Z
 - raw unique slugs: 4375
-- verified unique slugs: 3451
-- raw内の公式確認済み slugs: 2728
-- 未照合 raw slugs: 1647
-- 完了自治体/団体: 261 / 434
+- verified unique slugs: 3454
+- raw内の公式確認済み slugs: 2731
+- 未照合 raw slugs: 1644
+- 完了自治体/団体: 264 / 434
 - raw gap 0 の都道府県: 21 / 47
 
 ## 次に進める候補
@@ -59,7 +59,7 @@
 | 未完了 | 長崎県 | 63 | 6 | 57 | nagasaki-city-fertility-treatment / sasebo-housing-seismic / isahaya-child-medical / isahaya-housing-reform / isahaya-vaccination-support 他52件 |
 | 未完了 | 青森県 | 66 | 12 | 54 | hachinohe-infertility-treatment / hachinohe-housing-earthquake / hirosaki-infertility-support / hirosaki-housing-seismic / aomori-city-housing-eco 他49件 |
 | 未完了 | 大分県 | 56 | 11 | 45 | beppu-housing-reform / beppu-vaccination-subsidy / oita-city-childcare-subsidy / oita-city-birth-bonus / oita-city-newlywed-rent 他40件 |
-| 未完了 | 福岡県 | 138 | 96 | 42 | kitakyushu-startup-support / kitakyushu-migration-support / fukuoka-city-education-scholarship / fukuoka-city-startup-support / kitakyushu-childcare-subsidy 他37件 |
+| 未完了 | 福岡県 | 138 | 99 | 39 | kitakyushu-startup-support / kitakyushu-migration-support / fukuoka-city-education-scholarship / fukuoka-city-startup-support / kitakyushu-childcare-subsidy 他34件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 石川県 | 44 | 11 | 33 | hakusan-housing-reform / kanazawa-housing-purchase / kanazawa-senior-dental / kanazawa-scholarship-v2 / kanazawa-sme-support 他28件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
@@ -492,9 +492,9 @@
 | 完了 | 福岡県 | 大牟田市 | 21 | 21 | 0 |  |
 | 完了 | 福岡県 | 大野城市 | 12 | 12 | 0 |  |
 | 完了 | 福岡県 | 飯塚市 | 20 | 20 | 0 |  |
-| 未完了 | 福岡県 | 福岡県 | 1 | 0 | 1 | fukuoka-disaster-flood |
-| 未完了 | 福岡県 | 福岡県（各市町村） | 1 | 0 | 1 | fukuoka-child-education |
-| 未完了 | 福岡県 | 福岡県（福岡県中小企業振興センター） | 1 | 0 | 1 | fukuoka-startup-fund |
+| 完了 | 福岡県 | 福岡県 | 1 | 1 | 0 |  |
+| 完了 | 福岡県 | 福岡県（各市町村） | 1 | 1 | 0 |  |
+| 完了 | 福岡県 | 福岡県（福岡県中小企業振興センター） | 1 | 1 | 0 |  |
 | 未完了 | 福岡県 | 福岡市 | 21 | 1 | 20 | fukuoka-city-education-scholarship / fukuoka-city-startup-support / fukuoka-city-childcare-subsidy / fukuoka-city-birth-bonus / fukuoka-city-housing-purchase 他15件 |
 | 未完了 | 福岡県 | 北九州市 | 20 | 1 | 19 | kitakyushu-startup-support / kitakyushu-migration-support / kitakyushu-childcare-subsidy / kitakyushu-birth-bonus / kitakyushu-housing-purchase 他14件 |
 | 未完了 | 福島県 | いわき市 | 12 | 3 | 9 | iwaki-childcare-subsidy / iwaki-birth-bonus / iwaki-newlywed-rent / iwaki-infertility / iwaki-school-lunch 他4件 |
