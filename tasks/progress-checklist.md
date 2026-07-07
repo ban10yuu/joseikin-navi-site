@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-07T23:28:21.674Z
+- 生成日時: 2026-07-07T23:29:51.907Z
 - raw unique slugs: 4375
-- verified unique slugs: 3583
-- raw内の公式確認済み slugs: 2860
-- 未照合 raw slugs: 1515
-- 完了自治体/団体: 272 / 434
+- verified unique slugs: 3592
+- raw内の公式確認済み slugs: 2869
+- 未照合 raw slugs: 1506
+- 完了自治体/団体: 273 / 434
 - raw gap 0 の都道府県: 23 / 47
 
 ## 次に進める候補
 
-- 山口県 岩国市: 残り9件（iwakuni-child-medical-aid / iwakuni-juutaku-reform / iwakuni-health-checkup-subsidy / iwakuni-scholarship-repayment / iwakuni-startup-support 他4件）
 - 山口県 山口県: 残り1件（yamaguchi-fishery-support）
 - 山口県 山口市: 残り20件（yamaguchi-city-senior-medical / yamaguchi-city-iju-support / yamaguchi-city-childcare-subsidy / yamaguchi-city-birth-bonus / yamaguchi-city-housing-purchase 他15件）
 - 山口県 周南市: 残り17件（shunan-childcare-subsidy / shunan-birth-bonus / shunan-newlywed-rent / shunan-disability-medical / shunan-school-lunch 他12件）
@@ -34,6 +33,7 @@
 - 滋賀県 長浜市: 残り9件（nagahama-infant-diaper / nagahama-lake-view-housing / nagahama-child-allergy / nagahama-nature-experience / nagahama-agriculture-six 他4件）
 - 滋賀県 彦根市: 残り11件（hikone-housing-reform / hikone-scholarship / hikone-infant-diaper / hikone-lake-view-housing / hikone-child-allergy 他6件）
 - 鹿児島県 姶良市: 残り9件（aira-child-medical-aid / aira-juutaku-reform / aira-health-checkup-subsidy / aira-scholarship-repayment / aira-startup-support 他4件）
+- 鹿児島県 奄美市: 残り9件（amami-child-medical-aid / amami-juutaku-reform / amami-health-checkup-subsidy / amami-scholarship-repayment / amami-startup-support 他4件）
 
 ## 都道府県別
 
@@ -55,8 +55,8 @@
 | 未完了 | 山梨県 | 68 | 8 | 60 | kofu-parenting-allowance / kofu-housing-eco / kofu-mental-health / kofu-scholarship / kofu-uij-turn 他55件 |
 | 未完了 | 福島県 | 72 | 12 | 60 | koriyama-infertility-treatment / aizu-housing-seismic / aizu-senior-medical / sukagawa-startup-support / sukagawa-migration-support 他55件 |
 | 未完了 | 長崎県 | 63 | 6 | 57 | nagasaki-city-fertility-treatment / sasebo-housing-seismic / isahaya-child-medical / isahaya-housing-reform / isahaya-vaccination-support 他52件 |
-| 未完了 | 山口県 | 94 | 38 | 56 | yamaguchi-city-senior-medical / yamaguchi-city-iju-support / yamaguchi-city-childcare-subsidy / yamaguchi-city-birth-bonus / yamaguchi-city-housing-purchase 他51件 |
 | 未完了 | 青森県 | 66 | 12 | 54 | hachinohe-infertility-treatment / hachinohe-housing-earthquake / hirosaki-infertility-support / hirosaki-housing-seismic / aomori-city-housing-eco 他49件 |
+| 未完了 | 山口県 | 94 | 47 | 47 | yamaguchi-city-senior-medical / yamaguchi-city-iju-support / yamaguchi-city-childcare-subsidy / yamaguchi-city-birth-bonus / yamaguchi-city-housing-purchase 他42件 |
 | 未完了 | 大分県 | 56 | 11 | 45 | beppu-housing-reform / beppu-vaccination-subsidy / oita-city-childcare-subsidy / oita-city-birth-bonus / oita-city-newlywed-rent 他40件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 石川県 | 44 | 11 | 33 | hakusan-housing-reform / kanazawa-housing-purchase / kanazawa-senior-dental / kanazawa-scholarship-v2 / kanazawa-sme-support 他28件 |
@@ -221,7 +221,7 @@
 | 完了 | 山形県 | 鶴岡市 | 30 | 30 | 0 |  |
 | 完了 | 山口県 | 宇部市 | 12 | 12 | 0 |  |
 | 完了 | 山口県 | 下関市 | 20 | 20 | 0 |  |
-| 未完了 | 山口県 | 岩国市 | 9 | 0 | 9 | iwakuni-child-medical-aid / iwakuni-juutaku-reform / iwakuni-health-checkup-subsidy / iwakuni-scholarship-repayment / iwakuni-startup-support 他4件 |
+| 完了 | 山口県 | 岩国市 | 9 | 9 | 0 |  |
 | 未完了 | 山口県 | 山口県 | 3 | 2 | 1 | yamaguchi-fishery-support |
 | 未完了 | 山口県 | 山口市 | 21 | 1 | 20 | yamaguchi-city-senior-medical / yamaguchi-city-iju-support / yamaguchi-city-childcare-subsidy / yamaguchi-city-birth-bonus / yamaguchi-city-housing-purchase 他15件 |
 | 未完了 | 山口県 | 周南市 | 20 | 3 | 17 | shunan-childcare-subsidy / shunan-birth-bonus / shunan-newlywed-rent / shunan-disability-medical / shunan-school-lunch 他12件 |
