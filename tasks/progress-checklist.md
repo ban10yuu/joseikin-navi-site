@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-07T23:45:41.439Z
+- 生成日時: 2026-07-07T23:48:11.071Z
 - raw unique slugs: 4375
-- verified unique slugs: 3664
-- raw内の公式確認済み slugs: 2941
-- 未照合 raw slugs: 1434
-- 完了自治体/団体: 280 / 434
+- verified unique slugs: 3673
+- raw内の公式確認済み slugs: 2950
+- 未照合 raw slugs: 1425
+- 完了自治体/団体: 281 / 434
 - raw gap 0 の都道府県: 24 / 47
 
 ## 次に進める候補
 
-- 山梨県 大月市: 残り9件（otsuki-child-medical-aid / otsuki-vacant-house-renovation / otsuki-health-checkup-subsidy / otsuki-scholarship-repayment / otsuki-startup-support 他4件）
 - 山梨県 都留市: 残り9件（tsuru-child-medical-aid / tsuru-vacant-house-renovation / tsuru-health-checkup-subsidy / tsuru-scholarship-repayment / tsuru-startup-support 他4件）
 - 山梨県 韮崎市: 残り9件（nirasaki-child-medical-aid / nirasaki-vacant-house-renovation / nirasaki-health-checkup-subsidy / nirasaki-scholarship-repayment / nirasaki-startup-support 他4件）
 - 山梨県 富士吉田市: 残り8件（fujiyoshida-vacant-house-renovation / fujiyoshida-health-checkup-subsidy / fujiyoshida-scholarship-repayment / fujiyoshida-startup-support / fujiyoshida-elderly-taxi 他3件）
@@ -34,6 +33,7 @@
 - 鹿児島県 霧島市: 残り17件（kirishima-childcare-subsidy / kirishima-birth-bonus / kirishima-housing-purchase / kirishima-infertility / kirishima-scholarship 他12件）
 - 秋田県 横手市: 残り26件（yokote-childcare-subsidy / yokote-birth-bonus / yokote-newlywed-rent / yokote-disability-medical / yokote-school-lunch 他21件）
 - 秋田県 秋田県: 残り2件（akita-migration-incentive / akita-agriculture-support）
+- 秋田県 秋田市: 残り14件（akita-city-daycare-support / akita-city-barrier-free / akita-city-mental-health / akita-city-telework-bonus / akita-city-nursing-home-reform 他9件）
 
 ## 都道府県別
 
@@ -57,9 +57,9 @@
 | 未完了 | 青森県 | 66 | 12 | 54 | hachinohe-infertility-treatment / hachinohe-housing-earthquake / hirosaki-infertility-support / hirosaki-housing-seismic / aomori-city-housing-eco 他49件 |
 | 未完了 | 大分県 | 56 | 11 | 45 | beppu-housing-reform / beppu-vaccination-subsidy / oita-city-childcare-subsidy / oita-city-birth-bonus / oita-city-newlywed-rent 他40件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
-| 未完了 | 山梨県 | 68 | 33 | 35 | fujiyoshida-vacant-house-renovation / fujiyoshida-health-checkup-subsidy / fujiyoshida-scholarship-repayment / fujiyoshida-startup-support / fujiyoshida-elderly-taxi 他30件 |
 | 未完了 | 石川県 | 44 | 11 | 33 | hakusan-housing-reform / kanazawa-housing-purchase / kanazawa-senior-dental / kanazawa-scholarship-v2 / kanazawa-sme-support 他28件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
+| 未完了 | 山梨県 | 68 | 42 | 26 | fujiyoshida-vacant-house-renovation / fujiyoshida-health-checkup-subsidy / fujiyoshida-scholarship-repayment / fujiyoshida-startup-support / fujiyoshida-elderly-taxi 他21件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
@@ -229,7 +229,7 @@
 | 完了 | 山梨県 | 甲府市 | 20 | 20 | 0 |  |
 | 完了 | 山梨県 | 山梨県 | 3 | 3 | 0 |  |
 | 完了 | 山梨県 | 山梨市 | 9 | 9 | 0 |  |
-| 未完了 | 山梨県 | 大月市 | 9 | 0 | 9 | otsuki-child-medical-aid / otsuki-vacant-house-renovation / otsuki-health-checkup-subsidy / otsuki-scholarship-repayment / otsuki-startup-support 他4件 |
+| 完了 | 山梨県 | 大月市 | 9 | 9 | 0 |  |
 | 未完了 | 山梨県 | 都留市 | 9 | 0 | 9 | tsuru-child-medical-aid / tsuru-vacant-house-renovation / tsuru-health-checkup-subsidy / tsuru-scholarship-repayment / tsuru-startup-support 他4件 |
 | 未完了 | 山梨県 | 韮崎市 | 9 | 0 | 9 | nirasaki-child-medical-aid / nirasaki-vacant-house-renovation / nirasaki-health-checkup-subsidy / nirasaki-scholarship-repayment / nirasaki-startup-support 他4件 |
 | 未完了 | 山梨県 | 富士吉田市 | 9 | 1 | 8 | fujiyoshida-vacant-house-renovation / fujiyoshida-health-checkup-subsidy / fujiyoshida-scholarship-repayment / fujiyoshida-startup-support / fujiyoshida-elderly-taxi 他3件 |
