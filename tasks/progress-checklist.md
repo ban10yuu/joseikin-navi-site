@@ -4,12 +4,12 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T05:41:04.073Z
+- 生成日時: 2026-07-08T05:44:01.142Z
 - raw unique slugs: 4375
-- verified unique slugs: 3774
-- raw内の公式確認済み slugs: 3050
-- 未照合 raw slugs: 1325
-- 完了自治体/団体: 289 / 434
+- verified unique slugs: 3783
+- raw内の公式確認済み slugs: 3059
+- 未照合 raw slugs: 1316
+- 完了自治体/団体: 290 / 434
 - raw gap 0 の都道府県: 25 / 47
 
 ## 次に進める候補
@@ -54,8 +54,8 @@
 | 未完了 | 福島県 | 72 | 12 | 60 | koriyama-infertility-treatment / aizu-housing-seismic / aizu-senior-medical / sukagawa-startup-support / sukagawa-migration-support 他55件 |
 | 未完了 | 長崎県 | 63 | 6 | 57 | nagasaki-city-fertility-treatment / sasebo-housing-seismic / isahaya-child-medical / isahaya-housing-reform / isahaya-vaccination-support 他52件 |
 | 未完了 | 青森県 | 66 | 12 | 54 | hachinohe-infertility-treatment / hachinohe-housing-earthquake / hirosaki-infertility-support / hirosaki-housing-seismic / aomori-city-housing-eco 他49件 |
-| 未完了 | 栃木県 | 130 | 83 | 47 | ashikaga-housing-reform / ashikaga-migration-support / ashikaga-childcare-subsidy / ashikaga-birth-bonus / ashikaga-newlywed-rent 他42件 |
 | 未完了 | 大分県 | 56 | 11 | 45 | beppu-housing-reform / beppu-vaccination-subsidy / oita-city-childcare-subsidy / oita-city-birth-bonus / oita-city-newlywed-rent 他40件 |
+| 未完了 | 栃木県 | 130 | 92 | 38 | ashikaga-housing-reform / ashikaga-migration-support / ashikaga-childcare-subsidy / ashikaga-birth-bonus / ashikaga-newlywed-rent 他33件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 石川県 | 44 | 11 | 33 | hakusan-housing-reform / kanazawa-housing-purchase / kanazawa-senior-dental / kanazawa-scholarship-v2 / kanazawa-sme-support 他28件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
@@ -467,7 +467,7 @@
 | 完了 | 栃木県 | 佐野市 | 21 | 21 | 0 |  |
 | 完了 | 栃木県 | 鹿沼市 | 9 | 9 | 0 |  |
 | 完了 | 栃木県 | 小山市 | 30 | 30 | 0 |  |
-| 未完了 | 栃木県 | 真岡市 | 9 | 0 | 9 | mooka-childcare-subsidy / mooka-birth-bonus / mooka-housing-purchase / mooka-infertility / mooka-school-lunch 他4件 |
+| 完了 | 栃木県 | 真岡市 | 9 | 9 | 0 |  |
 | 未完了 | 栃木県 | 足利市 | 21 | 1 | 20 | ashikaga-housing-reform / ashikaga-migration-support / ashikaga-childcare-subsidy / ashikaga-birth-bonus / ashikaga-newlywed-rent 他15件 |
 | 未完了 | 栃木県 | 大田原市 | 9 | 0 | 9 | otawara-childcare-subsidy / otawara-birth-bonus / otawara-housing-eco / otawara-senior-dental / otawara-scholarship 他4件 |
 | 完了 | 栃木県 | 栃木県 | 1 | 1 | 0 |  |
