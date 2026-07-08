@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T16:23:36.899Z
+- 生成日時: 2026-07-08T16:27:51.751Z
 - raw unique slugs: 4375
-- verified unique slugs: 4580
-- raw内の公式確認済み slugs: 3856
-- 未照合 raw slugs: 519
-- 完了自治体/団体: 378 / 434
-- raw gap 0 の都道府県: 36 / 47
+- verified unique slugs: 4601
+- raw内の公式確認済み slugs: 3877
+- 未照合 raw slugs: 498
+- 完了自治体/団体: 379 / 434
+- raw gap 0 の都道府県: 37 / 47
 
 ## 次に進める候補
 
-- 長崎県 諫早市: 残り21件（isahaya-child-medical / isahaya-housing-reform / isahaya-vaccination-support / isahaya-childcare-subsidy / isahaya-birth-bonus 他16件）
 - 長野県 岡谷市: 残り9件（okaya-nursery-support / okaya-migration-housing / okaya-hearing-aid / okaya-study-abroad-support / okaya-agri-newcomer 他4件）
 - 長野県 松本市: 残り18件（matsumoto-scholarship / matsumoto-childcare-subsidy / matsumoto-birth-bonus / matsumoto-disability-medical / matsumoto-school-lunch 他13件）
 - 長野県 上田市: 残り11件（ueda-fertility-treatment / ueda-scholarship / ueda-nursery-support / ueda-migration-housing / ueda-hearing-aid 他6件）
@@ -34,6 +33,7 @@
 - 島根県 松江市: 残り18件（matsue-housing-reform / matsue-startup-support / matsue-childcare-subsidy / matsue-birth-bonus / matsue-newlywed-rent 他13件）
 - 島根県 大田市: 残り9件（ooda-child-medical-aid / ooda-juutaku-reform / ooda-health-checkup-subsidy / ooda-scholarship-repayment / ooda-startup-support 他4件）
 - 島根県 島根県: 残り3件（shimane-child-support / shimane-uiturn-support / shimane-empty-house）
+- 島根県 浜田市: 残り9件（hamada-child-medical-aid / hamada-juutaku-reform / hamada-health-checkup-subsidy / hamada-scholarship-repayment / hamada-startup-support 他4件）
 
 ## 都道府県別
 
@@ -47,7 +47,6 @@
 | 未完了 | 福島県 | 72 | 12 | 60 | koriyama-infertility-treatment / aizu-housing-seismic / aizu-senior-medical / sukagawa-startup-support / sukagawa-migration-support 他55件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
-| 未完了 | 長崎県 | 63 | 42 | 21 | isahaya-child-medical / isahaya-housing-reform / isahaya-vaccination-support / isahaya-childcare-subsidy / isahaya-birth-bonus 他16件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
@@ -83,6 +82,7 @@
 | 完了 | 全国 | 107 | 107 | 0 |  |
 | 完了 | 大阪府 | 131 | 131 | 0 |  |
 | 完了 | 大分県 | 56 | 56 | 0 |  |
+| 完了 | 長崎県 | 63 | 63 | 0 |  |
 | 完了 | 東京都 | 439 | 439 | 0 |  |
 | 完了 | 栃木県 | 130 | 130 | 0 |  |
 | 完了 | 福岡県 | 138 | 138 | 0 |  |
@@ -393,7 +393,7 @@
 | 完了 | 長崎県 | 佐世保市 | 20 | 20 | 0 |  |
 | 完了 | 長崎県 | 長崎県 | 1 | 1 | 0 |  |
 | 完了 | 長崎県 | 長崎市 | 21 | 21 | 0 |  |
-| 未完了 | 長崎県 | 諫早市 | 21 | 0 | 21 | isahaya-child-medical / isahaya-housing-reform / isahaya-vaccination-support / isahaya-childcare-subsidy / isahaya-birth-bonus 他16件 |
+| 完了 | 長崎県 | 諫早市 | 21 | 21 | 0 |  |
 | 未完了 | 長野県 | 岡谷市 | 9 | 0 | 9 | okaya-nursery-support / okaya-migration-housing / okaya-hearing-aid / okaya-study-abroad-support / okaya-agri-newcomer 他4件 |
 | 未完了 | 長野県 | 松本市 | 21 | 3 | 18 | matsumoto-scholarship / matsumoto-childcare-subsidy / matsumoto-birth-bonus / matsumoto-disability-medical / matsumoto-school-lunch 他13件 |
 | 未完了 | 長野県 | 上田市 | 12 | 1 | 11 | ueda-fertility-treatment / ueda-scholarship / ueda-nursery-support / ueda-migration-housing / ueda-hearing-aid 他6件 |
