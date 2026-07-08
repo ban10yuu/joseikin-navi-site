@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T15:48:04.563Z
+- 生成日時: 2026-07-08T15:50:28.930Z
 - raw unique slugs: 4375
-- verified unique slugs: 4489
-- raw内の公式確認済み slugs: 3765
-- 未照合 raw slugs: 610
-- 完了自治体/団体: 370 / 434
-- raw gap 0 の都道府県: 34 / 47
+- verified unique slugs: 4499
+- raw内の公式確認済み slugs: 3775
+- 未照合 raw slugs: 600
+- 完了自治体/団体: 371 / 434
+- raw gap 0 の都道府県: 35 / 47
 
 ## 次に進める候補
 
-- 大阪府 枚方市: 残り10件（hirakata-vaccination-support / hirakata-childcare-subsidy / hirakata-birth-bonus / hirakata-housing-purchase / hirakata-infertility 他5件）
 - 大分県 大分県: 残り1件（oita-onsen-tourism）
 - 大分県 大分市: 残り18件（oita-city-childcare-subsidy / oita-city-birth-bonus / oita-city-newlywed-rent / oita-city-disability-medical / oita-city-scholarship 他13件）
 - 大分県 中津市: 残り8件（nakatsu-child-medical-aid / nakatsu-juutaku-reform / nakatsu-health-checkup-subsidy / nakatsu-scholarship-repayment / nakatsu-elderly-taxi 他3件）
@@ -34,6 +33,7 @@
 - 鳥取県 琴浦町: 残り9件（kotoura-child-medical-aid / kotoura-juutaku-reform / kotoura-health-checkup-subsidy / kotoura-scholarship-repayment / kotoura-startup-support 他4件）
 - 鳥取県 倉吉市: 残り9件（kurayoshi-child-medical-aid / kurayoshi-juutaku-reform / kurayoshi-health-checkup-subsidy / kurayoshi-scholarship-repayment / kurayoshi-startup-support 他4件）
 - 鳥取県 鳥取市: 残り18件（tottori-city-childcare-subsidy / tottori-city-birth-bonus / tottori-city-housing-purchase / tottori-city-infertility / tottori-city-scholarship 他13件）
+- 鳥取県 米子市: 残り10件（yonago-startup-support / yonago-migration-support / yonago-child-medical-aid / yonago-juutaku-reform / yonago-health-checkup-subsidy 他5件）
 
 ## 都道府県別
 
@@ -51,7 +51,6 @@
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
-| 未完了 | 大阪府 | 131 | 121 | 10 | hirakata-vaccination-support / hirakata-childcare-subsidy / hirakata-birth-bonus / hirakata-housing-purchase / hirakata-infertility 他5件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
 | 完了 | 茨城県 | 99 | 99 | 0 |  |
@@ -83,6 +82,7 @@
 | 完了 | 石川県 | 44 | 44 | 0 |  |
 | 完了 | 千葉県 | 189 | 189 | 0 |  |
 | 完了 | 全国 | 107 | 107 | 0 |  |
+| 完了 | 大阪府 | 131 | 131 | 0 |  |
 | 完了 | 東京都 | 439 | 439 | 0 |  |
 | 完了 | 栃木県 | 130 | 130 | 0 |  |
 | 完了 | 福岡県 | 138 | 138 | 0 |  |
@@ -385,7 +385,7 @@
 | 完了 | 大阪府 | 東大阪市 | 12 | 12 | 0 |  |
 | 完了 | 大阪府 | 八尾市 | 12 | 12 | 0 |  |
 | 完了 | 大阪府 | 豊中市 | 12 | 12 | 0 |  |
-| 未完了 | 大阪府 | 枚方市 | 12 | 2 | 10 | hirakata-vaccination-support / hirakata-childcare-subsidy / hirakata-birth-bonus / hirakata-housing-purchase / hirakata-infertility 他5件 |
+| 完了 | 大阪府 | 枚方市 | 12 | 12 | 0 |  |
 | 未完了 | 大分県 | 大分県 | 3 | 2 | 1 | oita-onsen-tourism |
 | 未完了 | 大分県 | 大分市 | 21 | 3 | 18 | oita-city-childcare-subsidy / oita-city-birth-bonus / oita-city-newlywed-rent / oita-city-disability-medical / oita-city-scholarship 他13件 |
 | 未完了 | 大分県 | 中津市 | 11 | 3 | 8 | nakatsu-child-medical-aid / nakatsu-juutaku-reform / nakatsu-health-checkup-subsidy / nakatsu-scholarship-repayment / nakatsu-elderly-taxi 他3件 |
