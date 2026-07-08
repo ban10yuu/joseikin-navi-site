@@ -4,12 +4,12 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T05:44:01.142Z
+- 生成日時: 2026-07-08T05:47:45.072Z
 - raw unique slugs: 4375
-- verified unique slugs: 3783
-- raw内の公式確認済み slugs: 3059
-- 未照合 raw slugs: 1316
-- 完了自治体/団体: 290 / 434
+- verified unique slugs: 3803
+- raw内の公式確認済み slugs: 3079
+- 未照合 raw slugs: 1296
+- 完了自治体/団体: 291 / 434
 - raw gap 0 の都道府県: 25 / 47
 
 ## 次に進める候補
@@ -55,10 +55,10 @@
 | 未完了 | 長崎県 | 63 | 6 | 57 | nagasaki-city-fertility-treatment / sasebo-housing-seismic / isahaya-child-medical / isahaya-housing-reform / isahaya-vaccination-support 他52件 |
 | 未完了 | 青森県 | 66 | 12 | 54 | hachinohe-infertility-treatment / hachinohe-housing-earthquake / hirosaki-infertility-support / hirosaki-housing-seismic / aomori-city-housing-eco 他49件 |
 | 未完了 | 大分県 | 56 | 11 | 45 | beppu-housing-reform / beppu-vaccination-subsidy / oita-city-childcare-subsidy / oita-city-birth-bonus / oita-city-newlywed-rent 他40件 |
-| 未完了 | 栃木県 | 130 | 92 | 38 | ashikaga-housing-reform / ashikaga-migration-support / ashikaga-childcare-subsidy / ashikaga-birth-bonus / ashikaga-newlywed-rent 他33件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 石川県 | 44 | 11 | 33 | hakusan-housing-reform / kanazawa-housing-purchase / kanazawa-senior-dental / kanazawa-scholarship-v2 / kanazawa-sme-support 他28件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
+| 未完了 | 栃木県 | 130 | 112 | 18 | otawara-childcare-subsidy / otawara-birth-bonus / otawara-housing-eco / otawara-senior-dental / otawara-scholarship 他13件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
@@ -468,7 +468,7 @@
 | 完了 | 栃木県 | 鹿沼市 | 9 | 9 | 0 |  |
 | 完了 | 栃木県 | 小山市 | 30 | 30 | 0 |  |
 | 完了 | 栃木県 | 真岡市 | 9 | 9 | 0 |  |
-| 未完了 | 栃木県 | 足利市 | 21 | 1 | 20 | ashikaga-housing-reform / ashikaga-migration-support / ashikaga-childcare-subsidy / ashikaga-birth-bonus / ashikaga-newlywed-rent 他15件 |
+| 完了 | 栃木県 | 足利市 | 21 | 21 | 0 |  |
 | 未完了 | 栃木県 | 大田原市 | 9 | 0 | 9 | otawara-childcare-subsidy / otawara-birth-bonus / otawara-housing-eco / otawara-senior-dental / otawara-scholarship 他4件 |
 | 完了 | 栃木県 | 栃木県 | 1 | 1 | 0 |  |
 | 未完了 | 栃木県 | 矢板市 | 9 | 0 | 9 | yaita-childcare-subsidy / yaita-birth-bonus / yaita-housing-purchase / yaita-disability-medical / yaita-afterschool 他4件 |
