@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T12:23:21.435Z
+- 生成日時: 2026-07-08T12:26:06.639Z
 - raw unique slugs: 4375
-- verified unique slugs: 3998
-- raw内の公式確認済み slugs: 3274
-- 未照合 raw slugs: 1101
-- 完了自治体/団体: 309 / 434
+- verified unique slugs: 4012
+- raw内の公式確認済み slugs: 3288
+- 未照合 raw slugs: 1087
+- 完了自治体/団体: 310 / 434
 - raw gap 0 の都道府県: 28 / 47
 
 ## 次に進める候補
 
-- 秋田県 秋田市: 残り14件（akita-city-daycare-support / akita-city-barrier-free / akita-city-mental-health / akita-city-telework-bonus / akita-city-nursing-home-reform 他9件）
 - 秋田県 大仙市: 残り19件（daisen-migration-support / daisen-childcare-subsidy / daisen-birth-bonus / daisen-newlywed-rent / daisen-disability-medical 他14件）
 - 新潟県 阿賀野市: 残り9件（agano-childcare-subsidy / agano-birth-bonus / agano-housing-purchase / agano-infertility / agano-scholarship 他4件）
 - 新潟県 燕市: 残り11件（tsubame-startup-support / tsubame-migration-support / tsubame-childcare-subsidy / tsubame-birth-bonus / tsubame-housing-purchase 他6件）
@@ -34,6 +33,7 @@
 - 青森県 八戸市: 残り19件（hachinohe-infertility-treatment / hachinohe-housing-earthquake / hachinohe-childcare-subsidy / hachinohe-birth-bonus / hachinohe-housing-purchase 他14件）
 - 静岡県 伊東市: 残り9件（ito-papa-mama-class / ito-solar-panel / ito-adult-vaccine / ito-school-ict / ito-fishery-support 他4件）
 - 静岡県 三島市: 残り9件（mishima-papa-mama-class / mishima-solar-panel / mishima-adult-vaccine / mishima-school-ict / mishima-fishery-support 他4件）
+- 静岡県 沼津市: 残り10件（numazu-senior-medical / numazu-papa-mama-class / numazu-solar-panel / numazu-adult-vaccine / numazu-school-ict 他5件）
 
 ## 都道府県別
 
@@ -53,9 +53,9 @@
 | 未完了 | 青森県 | 66 | 12 | 54 | hachinohe-infertility-treatment / hachinohe-housing-earthquake / hirosaki-infertility-support / hirosaki-housing-seismic / aomori-city-housing-eco 他49件 |
 | 未完了 | 大分県 | 56 | 11 | 45 | beppu-housing-reform / beppu-vaccination-subsidy / oita-city-childcare-subsidy / oita-city-birth-bonus / oita-city-newlywed-rent 他40件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
-| 未完了 | 秋田県 | 74 | 41 | 33 | daisen-migration-support / akita-city-daycare-support / akita-city-barrier-free / akita-city-mental-health / akita-city-telework-bonus 他28件 |
 | 未完了 | 石川県 | 44 | 11 | 33 | hakusan-housing-reform / kanazawa-housing-purchase / kanazawa-senior-dental / kanazawa-scholarship-v2 / kanazawa-sme-support 他28件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
+| 未完了 | 秋田県 | 74 | 55 | 19 | daisen-migration-support / daisen-childcare-subsidy / daisen-birth-bonus / daisen-newlywed-rent / daisen-disability-medical 他14件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
@@ -249,7 +249,7 @@
 | 完了 | 鹿児島県 | 霧島市 | 20 | 20 | 0 |  |
 | 完了 | 秋田県 | 横手市 | 29 | 29 | 0 |  |
 | 完了 | 秋田県 | 秋田県 | 3 | 3 | 0 |  |
-| 未完了 | 秋田県 | 秋田市 | 21 | 7 | 14 | akita-city-daycare-support / akita-city-barrier-free / akita-city-mental-health / akita-city-telework-bonus / akita-city-nursing-home-reform 他9件 |
+| 完了 | 秋田県 | 秋田市 | 21 | 21 | 0 |  |
 | 未完了 | 秋田県 | 大仙市 | 21 | 2 | 19 | daisen-migration-support / daisen-childcare-subsidy / daisen-birth-bonus / daisen-newlywed-rent / daisen-disability-medical 他14件 |
 | 未完了 | 新潟県 | 阿賀野市 | 9 | 0 | 9 | agano-childcare-subsidy / agano-birth-bonus / agano-housing-purchase / agano-infertility / agano-scholarship 他4件 |
 | 未完了 | 新潟県 | 燕市 | 12 | 1 | 11 | tsubame-startup-support / tsubame-migration-support / tsubame-childcare-subsidy / tsubame-birth-bonus / tsubame-housing-purchase 他6件 |
