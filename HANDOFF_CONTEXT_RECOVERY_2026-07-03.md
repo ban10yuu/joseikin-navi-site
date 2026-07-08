@@ -826,3 +826,16 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
   - Run next:
     `node scripts/audit-raw-verified-gaps.mjs --prefecture 長崎県 --limit 25`
     then official source checks for 長崎市18件.
+
+## Current progress update 2026-07-09 長野県完了時 build 検証課題
+
+- 長野県は飯田市11件追加後に `node scripts/audit-raw-verified-gaps.mjs --prefecture 長野県 --limit 20` で raw gap 0 を確認。
+- 完了コミット:
+  - `ccd7dc6 長野県1件を公式補正`
+  - `7da235c 長野市20件を公式補正`
+  - `52ecdf0 飯田市11件を公式補正`
+- 県完了節目として `NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npm run build` を実行。
+- 結果: code 124。最後の出力は `Creating an optimized production build ...`。Next.js 16.1.6 (Turbopack) の production optimization 開始後、180秒間追加ログなし。
+- 代替検証: `npx eslint src/data/grants/verified-local-misc-2026.ts`、`git diff --check`、長野市20件・飯田市11件のURL到達確認、`node scripts/audit-raw-verified-gaps.mjs --prefecture 長野県 --limit 20`、`npm run audit:coverage` は通過。
+- 次に見る候補は前回同様、Turbopack/Next.js最適化、静的生成対象増加、巨大な助成金データ、メモリ、外部URL参照、未関係のPinterest系変更。全国公式確認の本線は止めず、大きな節目で上限付き build または `next build --debug` 相当を短時間で再確認する。
+- 次の作業候補は `tasks/progress-checklist.md` の先頭候補、鳥取県 境港市9件。
