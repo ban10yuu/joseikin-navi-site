@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T17:23:08.420Z
+- 生成日時: 2026-07-08T17:26:26.540Z
 - raw unique slugs: 4375
-- verified unique slugs: 4753
-- raw内の公式確認済み slugs: 4029
-- 未照合 raw slugs: 346
-- 完了自治体/団体: 393 / 434
+- verified unique slugs: 4762
+- raw内の公式確認済み slugs: 4038
+- 未照合 raw slugs: 337
+- 完了自治体/団体: 394 / 434
 - raw gap 0 の都道府県: 39 / 47
 
 ## 次に進める候補
 
-- 島根県 益田市: 残り9件（masuda-child-medical-aid / masuda-juutaku-reform / masuda-health-checkup-subsidy / masuda-scholarship-repayment / masuda-startup-support 他4件）
 - 島根県 出雲市: 残り10件（izumo-housing-seismic / izumo-startup-support / izumo-child-medical-aid / izumo-juutaku-reform / izumo-health-checkup-subsidy 他5件）
 - 島根県 松江市: 残り18件（matsue-housing-reform / matsue-startup-support / matsue-childcare-subsidy / matsue-birth-bonus / matsue-newlywed-rent 他13件）
 - 島根県 大田市: 残り9件（ooda-child-medical-aid / ooda-juutaku-reform / ooda-health-checkup-subsidy / ooda-scholarship-repayment / ooda-startup-support 他4件）
@@ -34,6 +33,7 @@
 - 福井県 坂井市: 残り9件（sakai-fukui-childcare-subsidy / sakai-fukui-birth-bonus / sakai-fukui-housing-purchase / sakai-fukui-infertility / sakai-fukui-scholarship 他4件）
 - 福井県 勝山市: 残り9件（katsuyama-childcare-subsidy / katsuyama-birth-bonus / katsuyama-housing-purchase / katsuyama-infertility / katsuyama-scholarship 他4件）
 - 福井県 小浜市: 残り9件（obama-childcare-subsidy / obama-birth-bonus / obama-housing-purchase / obama-infertility / obama-scholarship 他4件）
+- 福井県 大野市: 残り9件（ono-fukui-childcare-subsidy / ono-fukui-birth-bonus / ono-fukui-housing-purchase / ono-fukui-infertility / ono-fukui-scholarship 他4件）
 
 ## 都道府県別
 
@@ -42,7 +42,7 @@
 | 未完了 | 兵庫県 | 90 | 13 | 77 | himeji-scholarship / himeji-housing-seismic / nishinomiya-elderly-medical / nishinomiya-housing-eco / amagasaki-community-support 他72件 |
 | 未完了 | 福井県 | 69 | 8 | 61 | fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / tsuruga-childcare-subsidy 他56件 |
 | 未完了 | 福島県 | 72 | 12 | 60 | koriyama-infertility-treatment / aizu-housing-seismic / aizu-senior-medical / sukagawa-startup-support / sukagawa-migration-support 他55件 |
-| 未完了 | 島根県 | 70 | 12 | 58 | matsue-housing-reform / matsue-startup-support / izumo-housing-seismic / izumo-startup-support / matsue-childcare-subsidy 他53件 |
+| 未完了 | 島根県 | 70 | 21 | 49 | matsue-housing-reform / matsue-startup-support / izumo-housing-seismic / izumo-startup-support / matsue-childcare-subsidy 他44件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
@@ -409,7 +409,7 @@
 | 完了 | 鳥取県 | 米子市 | 11 | 11 | 0 |  |
 | 完了 | 鳥取県 | 北栄町 | 9 | 9 | 0 |  |
 | 完了 | 島根県 | 安来市 | 9 | 9 | 0 |  |
-| 未完了 | 島根県 | 益田市 | 9 | 0 | 9 | masuda-child-medical-aid / masuda-juutaku-reform / masuda-health-checkup-subsidy / masuda-scholarship-repayment / masuda-startup-support 他4件 |
+| 完了 | 島根県 | 益田市 | 9 | 9 | 0 |  |
 | 未完了 | 島根県 | 出雲市 | 11 | 1 | 10 | izumo-housing-seismic / izumo-startup-support / izumo-child-medical-aid / izumo-juutaku-reform / izumo-health-checkup-subsidy 他5件 |
 | 未完了 | 島根県 | 松江市 | 20 | 2 | 18 | matsue-housing-reform / matsue-startup-support / matsue-childcare-subsidy / matsue-birth-bonus / matsue-newlywed-rent 他13件 |
 | 未完了 | 島根県 | 大田市 | 9 | 0 | 9 | ooda-child-medical-aid / ooda-juutaku-reform / ooda-health-checkup-subsidy / ooda-scholarship-repayment / ooda-startup-support 他4件 |
