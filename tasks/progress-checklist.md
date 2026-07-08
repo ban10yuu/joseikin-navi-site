@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T15:35:04.561Z
+- 生成日時: 2026-07-08T15:38:11.928Z
 - raw unique slugs: 4375
-- verified unique slugs: 4454
-- raw内の公式確認済み slugs: 3730
-- 未照合 raw slugs: 645
-- 完了自治体/団体: 367 / 434
+- verified unique slugs: 4466
+- raw内の公式確認済み slugs: 3742
+- 未照合 raw slugs: 633
+- 完了自治体/団体: 368 / 434
 - raw gap 0 の都道府県: 34 / 47
 
 ## 次に進める候補
 
-- 大阪府 東大阪市: 残り12件（higashiosaka-child-medical / higashiosaka-startup-support / higashiosaka-senior-medical / higashiosaka-childcare-subsidy / higashiosaka-birth-bonus 他7件）
 - 大阪府 八尾市: 残り11件（yao-housing-reform / yao-startup-support / yao-childcare-subsidy / yao-birth-bonus / yao-newlywed-rent 他6件）
 - 大阪府 豊中市: 残り12件（toyonaka-child-medical / toyonaka-housing-seismic / toyonaka-education-support / toyonaka-childcare-subsidy / toyonaka-birth-bonus 他7件）
 - 大阪府 枚方市: 残り10件（hirakata-vaccination-support / hirakata-childcare-subsidy / hirakata-birth-bonus / hirakata-housing-purchase / hirakata-infertility 他5件）
@@ -34,6 +33,7 @@
 - 長野県 長野市: 残り20件（nagano-city-childcare-subsidy / nagano-city-birth-bonus / nagano-city-barrier-free / nagano-city-senior-dental / nagano-city-school-lunch 他15件）
 - 長野県 飯田市: 残り11件（iida-housing-seismic / iida-migration-support / iida-nursery-support / iida-migration-housing / iida-hearing-aid 他6件）
 - 鳥取県 境港市: 残り9件（sakaiminato-child-medical-aid / sakaiminato-juutaku-reform / sakaiminato-health-checkup-subsidy / sakaiminato-scholarship-repayment / sakaiminato-startup-support 他4件）
+- 鳥取県 琴浦町: 残り9件（kotoura-child-medical-aid / kotoura-juutaku-reform / kotoura-health-checkup-subsidy / kotoura-scholarship-repayment / kotoura-startup-support 他4件）
 
 ## 都道府県別
 
@@ -46,9 +46,9 @@
 | 未完了 | 福井県 | 69 | 8 | 61 | fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / tsuruga-childcare-subsidy 他56件 |
 | 未完了 | 福島県 | 72 | 12 | 60 | koriyama-infertility-treatment / aizu-housing-seismic / aizu-senior-medical / sukagawa-startup-support / sukagawa-migration-support 他55件 |
 | 未完了 | 長崎県 | 63 | 6 | 57 | nagasaki-city-fertility-treatment / sasebo-housing-seismic / isahaya-child-medical / isahaya-housing-reform / isahaya-vaccination-support 他52件 |
-| 未完了 | 大阪府 | 131 | 86 | 45 | hirakata-vaccination-support / toyonaka-child-medical / toyonaka-housing-seismic / toyonaka-education-support / higashiosaka-child-medical 他40件 |
 | 未完了 | 大分県 | 56 | 11 | 45 | beppu-housing-reform / beppu-vaccination-subsidy / oita-city-childcare-subsidy / oita-city-birth-bonus / oita-city-newlywed-rent 他40件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
+| 未完了 | 大阪府 | 131 | 98 | 33 | hirakata-vaccination-support / toyonaka-child-medical / toyonaka-housing-seismic / toyonaka-education-support / yao-housing-reform 他28件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
@@ -382,7 +382,7 @@
 | 完了 | 大阪府 | 大阪府育英会 | 1 | 1 | 0 |  |
 | 完了 | 大阪府 | 大阪府後期高齢者医療広域連合 | 1 | 1 | 0 |  |
 | 完了 | 大阪府 | 池田市 | 3 | 3 | 0 |  |
-| 未完了 | 大阪府 | 東大阪市 | 12 | 0 | 12 | higashiosaka-child-medical / higashiosaka-startup-support / higashiosaka-senior-medical / higashiosaka-childcare-subsidy / higashiosaka-birth-bonus 他7件 |
+| 完了 | 大阪府 | 東大阪市 | 12 | 12 | 0 |  |
 | 未完了 | 大阪府 | 八尾市 | 12 | 1 | 11 | yao-housing-reform / yao-startup-support / yao-childcare-subsidy / yao-birth-bonus / yao-newlywed-rent 他6件 |
 | 未完了 | 大阪府 | 豊中市 | 12 | 0 | 12 | toyonaka-child-medical / toyonaka-housing-seismic / toyonaka-education-support / toyonaka-childcare-subsidy / toyonaka-birth-bonus 他7件 |
 | 未完了 | 大阪府 | 枚方市 | 12 | 2 | 10 | hirakata-vaccination-support / hirakata-childcare-subsidy / hirakata-birth-bonus / hirakata-housing-purchase / hirakata-infertility 他5件 |
