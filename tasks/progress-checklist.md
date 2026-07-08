@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T12:06:49.699Z
+- 生成日時: 2026-07-08T12:12:40.752Z
 - raw unique slugs: 4375
-- verified unique slugs: 3935
-- raw内の公式確認済み slugs: 3211
-- 未照合 raw slugs: 1164
-- 完了自治体/団体: 305 / 434
+- verified unique slugs: 3953
+- raw内の公式確認済み slugs: 3229
+- 未照合 raw slugs: 1146
+- 完了自治体/団体: 306 / 434
 - raw gap 0 の都道府県: 27 / 47
 
 ## 次に進める候補
 
-- 鹿児島県 鹿児島市: 残り18件（kagoshima-city-vaccination / kagoshima-city-childcare-subsidy / kagoshima-city-birth-bonus / kagoshima-city-newlywed-rent / kagoshima-city-disability-medical 他13件）
 - 鹿児島県 霧島市: 残り17件（kirishima-childcare-subsidy / kirishima-birth-bonus / kirishima-housing-purchase / kirishima-infertility / kirishima-scholarship 他12件）
 - 秋田県 横手市: 残り26件（yokote-childcare-subsidy / yokote-birth-bonus / yokote-newlywed-rent / yokote-disability-medical / yokote-school-lunch 他21件）
 - 秋田県 秋田県: 残り2件（akita-migration-incentive / akita-agriculture-support）
@@ -34,6 +33,7 @@
 - 新潟県 長岡市: 残り1件（nagaoka-housing-snow）
 - 青森県 弘前市: 残り19件（hirosaki-infertility-support / hirosaki-housing-seismic / hirosaki-childcare-subsidy / hirosaki-birth-bonus / hirosaki-newlywed-rent 他14件）
 - 青森県 青森県: 残り1件（aomori-apple-farming）
+- 青森県 青森市: 残り15件（aomori-city-housing-eco / aomori-city-senior-dental / aomori-city-school-lunch / aomori-city-nursing-home-reform / aomori-city-energy-support 他10件）
 
 ## 都道府県別
 
@@ -54,9 +54,9 @@
 | 未完了 | 青森県 | 66 | 12 | 54 | hachinohe-infertility-treatment / hachinohe-housing-earthquake / hirosaki-infertility-support / hirosaki-housing-seismic / aomori-city-housing-eco 他49件 |
 | 未完了 | 大分県 | 56 | 11 | 45 | beppu-housing-reform / beppu-vaccination-subsidy / oita-city-childcare-subsidy / oita-city-birth-bonus / oita-city-newlywed-rent 他40件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
-| 未完了 | 鹿児島県 | 84 | 49 | 35 | kagoshima-city-vaccination / kagoshima-city-childcare-subsidy / kagoshima-city-birth-bonus / kagoshima-city-newlywed-rent / kagoshima-city-disability-medical 他30件 |
 | 未完了 | 石川県 | 44 | 11 | 33 | hakusan-housing-reform / kanazawa-housing-purchase / kanazawa-senior-dental / kanazawa-scholarship-v2 / kanazawa-sme-support 他28件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
+| 未完了 | 鹿児島県 | 84 | 67 | 17 | kirishima-childcare-subsidy / kirishima-birth-bonus / kirishima-housing-purchase / kirishima-infertility / kirishima-scholarship 他12件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
@@ -245,7 +245,7 @@
 | 完了 | 鹿児島県 | 薩摩川内市 | 12 | 12 | 0 |  |
 | 完了 | 鹿児島県 | 鹿屋市 | 12 | 12 | 0 |  |
 | 完了 | 鹿児島県 | 鹿児島県 | 1 | 1 | 0 |  |
-| 未完了 | 鹿児島県 | 鹿児島市 | 21 | 3 | 18 | kagoshima-city-vaccination / kagoshima-city-childcare-subsidy / kagoshima-city-birth-bonus / kagoshima-city-newlywed-rent / kagoshima-city-disability-medical 他13件 |
+| 完了 | 鹿児島県 | 鹿児島市 | 21 | 21 | 0 |  |
 | 未完了 | 鹿児島県 | 霧島市 | 20 | 3 | 17 | kirishima-childcare-subsidy / kirishima-birth-bonus / kirishima-housing-purchase / kirishima-infertility / kirishima-scholarship 他12件 |
 | 未完了 | 秋田県 | 横手市 | 29 | 3 | 26 | yokote-childcare-subsidy / yokote-birth-bonus / yokote-newlywed-rent / yokote-disability-medical / yokote-school-lunch 他21件 |
 | 未完了 | 秋田県 | 秋田県 | 3 | 1 | 2 | akita-migration-incentive / akita-agriculture-support |
