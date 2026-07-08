@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T15:21:23.927Z
+- 生成日時: 2026-07-08T15:24:46.690Z
 - raw unique slugs: 4375
-- verified unique slugs: 4425
-- raw内の公式確認済み slugs: 3701
-- 未照合 raw slugs: 674
-- 完了自治体/団体: 361 / 434
+- verified unique slugs: 4437
+- raw内の公式確認済み slugs: 3713
+- 未照合 raw slugs: 662
+- 完了自治体/団体: 362 / 434
 - raw gap 0 の都道府県: 34 / 47
 
 ## 次に進める候補
 
-- 大阪府 吹田市: 残り12件（suita-child-medical / suita-housing-reform / suita-senior-support / suita-childcare-subsidy / suita-birth-bonus 他7件）
 - 大阪府 大阪市: 残り11件（osaka-city-senior-medical / osaka-city-startup-support / osaka-city-childcare-subsidy / osaka-city-birth-bonus / osaka-city-housing-purchase 他6件）
 - 大阪府 大阪府: 残り2件（osaka-child-allowance / osaka-employment-women）
 - 大阪府 大阪府（各市町村）: 残り1件（osaka-housing-seismic）
@@ -34,6 +33,7 @@
 - 長崎県 諫早市: 残り21件（isahaya-child-medical / isahaya-housing-reform / isahaya-vaccination-support / isahaya-childcare-subsidy / isahaya-birth-bonus 他16件）
 - 長野県 岡谷市: 残り9件（okaya-nursery-support / okaya-migration-housing / okaya-hearing-aid / okaya-study-abroad-support / okaya-agri-newcomer 他4件）
 - 長野県 松本市: 残り18件（matsumoto-scholarship / matsumoto-childcare-subsidy / matsumoto-birth-bonus / matsumoto-disability-medical / matsumoto-school-lunch 他13件）
+- 長野県 上田市: 残り11件（ueda-fertility-treatment / ueda-scholarship / ueda-nursery-support / ueda-migration-housing / ueda-hearing-aid 他6件）
 
 ## 都道府県別
 
@@ -41,9 +41,9 @@
 |---|---:|---:|---:|---:|---|
 | 未完了 | 長野県 | 85 | 6 | 79 | matsumoto-scholarship / ueda-fertility-treatment / ueda-scholarship / iida-housing-seismic / iida-migration-support 他74件 |
 | 未完了 | 兵庫県 | 90 | 13 | 77 | himeji-scholarship / himeji-housing-seismic / nishinomiya-elderly-medical / nishinomiya-housing-eco / amagasaki-community-support 他72件 |
-| 未完了 | 大阪府 | 131 | 57 | 74 | hirakata-vaccination-support / toyonaka-child-medical / toyonaka-housing-seismic / toyonaka-education-support / higashiosaka-child-medical 他69件 |
 | 未完了 | 島根県 | 70 | 3 | 67 | matsue-housing-reform / matsue-startup-support / izumo-housing-seismic / izumo-startup-support / matsue-childcare-subsidy 他62件 |
 | 未完了 | 鳥取県 | 71 | 7 | 64 | yonago-startup-support / yonago-migration-support / tottori-city-childcare-subsidy / tottori-city-birth-bonus / tottori-city-housing-purchase 他59件 |
+| 未完了 | 大阪府 | 131 | 69 | 62 | hirakata-vaccination-support / toyonaka-child-medical / toyonaka-housing-seismic / toyonaka-education-support / higashiosaka-child-medical 他57件 |
 | 未完了 | 福井県 | 69 | 8 | 61 | fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / tsuruga-childcare-subsidy 他56件 |
 | 未完了 | 福島県 | 72 | 12 | 60 | koriyama-infertility-treatment / aizu-housing-seismic / aizu-senior-medical / sukagawa-startup-support / sukagawa-migration-support 他55件 |
 | 未完了 | 長崎県 | 63 | 6 | 57 | nagasaki-city-fertility-treatment / sasebo-housing-seismic / isahaya-child-medical / isahaya-housing-reform / isahaya-vaccination-support 他52件 |
@@ -375,7 +375,7 @@
 | 完了 | 大阪府 | 高槻市 | 12 | 12 | 0 |  |
 | 完了 | 大阪府 | 堺市 | 12 | 12 | 0 |  |
 | 完了 | 大阪府 | 寝屋川市 | 12 | 12 | 0 |  |
-| 未完了 | 大阪府 | 吹田市 | 12 | 0 | 12 | suita-child-medical / suita-housing-reform / suita-senior-support / suita-childcare-subsidy / suita-birth-bonus 他7件 |
+| 完了 | 大阪府 | 吹田市 | 12 | 12 | 0 |  |
 | 未完了 | 大阪府 | 大阪市 | 12 | 1 | 11 | osaka-city-senior-medical / osaka-city-startup-support / osaka-city-childcare-subsidy / osaka-city-birth-bonus / osaka-city-housing-purchase 他6件 |
 | 未完了 | 大阪府 | 大阪府 | 2 | 0 | 2 | osaka-child-allowance / osaka-employment-women |
 | 未完了 | 大阪府 | 大阪府（各市町村） | 1 | 0 | 1 | osaka-housing-seismic |
