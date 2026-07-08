@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T12:29:36.232Z
+- 生成日時: 2026-07-08T12:34:56.364Z
 - raw unique slugs: 4375
-- verified unique slugs: 4031
-- raw内の公式確認済み slugs: 3307
-- 未照合 raw slugs: 1068
-- 完了自治体/団体: 311 / 434
+- verified unique slugs: 4040
+- raw内の公式確認済み slugs: 3316
+- 未照合 raw slugs: 1059
+- 完了自治体/団体: 312 / 434
 - raw gap 0 の都道府県: 29 / 47
 
 ## 次に進める候補
 
-- 新潟県 阿賀野市: 残り9件（agano-childcare-subsidy / agano-birth-bonus / agano-housing-purchase / agano-infertility / agano-scholarship 他4件）
 - 新潟県 燕市: 残り11件（tsubame-startup-support / tsubame-migration-support / tsubame-childcare-subsidy / tsubame-birth-bonus / tsubame-housing-purchase 他6件）
 - 新潟県 魚沼市: 残り9件（uonuma-childcare-subsidy / uonuma-birth-bonus / uonuma-housing-purchase / uonuma-infertility / uonuma-scholarship 他4件）
 - 新潟県 五泉市: 残り9件（gosen-childcare-subsidy / gosen-birth-bonus / gosen-housing-purchase / gosen-infertility / gosen-scholarship 他4件）
@@ -34,6 +33,7 @@
 - 静岡県 三島市: 残り9件（mishima-papa-mama-class / mishima-solar-panel / mishima-adult-vaccine / mishima-school-ict / mishima-fishery-support 他4件）
 - 静岡県 沼津市: 残り10件（numazu-senior-medical / numazu-papa-mama-class / numazu-solar-panel / numazu-adult-vaccine / numazu-school-ict 他5件）
 - 静岡県 静岡県: 残り2件（shizuoka-tea-industry / shizuoka-childcare-nature）
+- 静岡県 静岡市: 残り11件（shizuoka-city-housing-seismic / shizuoka-city-fertility-treatment / shizuoka-city-childcare-subsidy / shizuoka-city-birth-bonus / shizuoka-city-housing-purchase 他6件）
 
 ## 都道府県別
 
@@ -42,9 +42,9 @@
 | 未完了 | 大阪府 | 131 | 12 | 119 | hirakata-vaccination-support / toyonaka-child-medical / toyonaka-housing-seismic / toyonaka-education-support / higashiosaka-child-medical 他114件 |
 | 未完了 | 静岡県 | 98 | 7 | 91 | fuji-city-senior-hearing-aid / shizuoka-city-housing-seismic / shizuoka-city-fertility-treatment / hamamatsu-startup-support / hamamatsu-housing-eco-reform 他86件 |
 | 未完了 | 千葉県 | 189 | 98 | 91 | chiba-city-fertility-treatment / chiba-city-senior-living / kashiwa-child-medical-aid / kashiwa-juutaku-reform / kashiwa-health-checkup-subsidy 他86件 |
-| 未完了 | 新潟県 | 89 | 9 | 80 | niigata-city-startup-support / niigata-city-housing-reform / nagaoka-housing-snow / joetsu-housing-snow / sanjo-manufacturing-support 他75件 |
 | 未完了 | 長野県 | 85 | 6 | 79 | matsumoto-scholarship / ueda-fertility-treatment / ueda-scholarship / iida-housing-seismic / iida-migration-support 他74件 |
 | 未完了 | 兵庫県 | 90 | 13 | 77 | himeji-scholarship / himeji-housing-seismic / nishinomiya-elderly-medical / nishinomiya-housing-eco / amagasaki-community-support 他72件 |
+| 未完了 | 新潟県 | 89 | 18 | 71 | niigata-city-startup-support / niigata-city-housing-reform / nagaoka-housing-snow / joetsu-housing-snow / sanjo-manufacturing-support 他66件 |
 | 未完了 | 島根県 | 70 | 3 | 67 | matsue-housing-reform / matsue-startup-support / izumo-housing-seismic / izumo-startup-support / matsue-childcare-subsidy 他62件 |
 | 未完了 | 鳥取県 | 71 | 7 | 64 | yonago-startup-support / yonago-migration-support / tottori-city-childcare-subsidy / tottori-city-birth-bonus / tottori-city-housing-purchase 他59件 |
 | 未完了 | 福井県 | 69 | 8 | 61 | fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / tsuruga-childcare-subsidy 他56件 |
@@ -251,7 +251,7 @@
 | 完了 | 秋田県 | 秋田県 | 3 | 3 | 0 |  |
 | 完了 | 秋田県 | 秋田市 | 21 | 21 | 0 |  |
 | 完了 | 秋田県 | 大仙市 | 21 | 21 | 0 |  |
-| 未完了 | 新潟県 | 阿賀野市 | 9 | 0 | 9 | agano-childcare-subsidy / agano-birth-bonus / agano-housing-purchase / agano-infertility / agano-scholarship 他4件 |
+| 完了 | 新潟県 | 阿賀野市 | 9 | 9 | 0 |  |
 | 未完了 | 新潟県 | 燕市 | 12 | 1 | 11 | tsubame-startup-support / tsubame-migration-support / tsubame-childcare-subsidy / tsubame-birth-bonus / tsubame-housing-purchase 他6件 |
 | 未完了 | 新潟県 | 魚沼市 | 9 | 0 | 9 | uonuma-childcare-subsidy / uonuma-birth-bonus / uonuma-housing-purchase / uonuma-infertility / uonuma-scholarship 他4件 |
 | 未完了 | 新潟県 | 五泉市 | 9 | 0 | 9 | gosen-childcare-subsidy / gosen-birth-bonus / gosen-housing-purchase / gosen-infertility / gosen-scholarship 他4件 |
