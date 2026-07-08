@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T14:51:07.446Z
+- 生成日時: 2026-07-08T14:52:59.029Z
 - raw unique slugs: 4375
-- verified unique slugs: 4369
-- raw内の公式確認済み slugs: 3645
-- 未照合 raw slugs: 730
-- 完了自治体/団体: 353 / 434
+- verified unique slugs: 4373
+- raw内の公式確認済み slugs: 3649
+- 未照合 raw slugs: 726
+- 完了自治体/団体: 354 / 434
 - raw gap 0 の都道府県: 33 / 47
 
 ## 次に進める候補
 
-- 千葉県 白井市: 残り4件（shiroi-newlywed-rent / shiroi-sme-support / shiroi-elderly-support / shiroi-bousai-equipment）
 - 千葉県 富里市: 残り4件（tomisato-disability-medical / tomisato-sme-support / tomisato-elderly-support / tomisato-bousai-equipment）
 - 千葉県 野田市: 残り3件（noda-housing-reform / noda-startup-support / noda-sme-support）
 - 大阪府 茨木市: 残り2件（ibaraki-city-education-support / ibaraki-city-housing-seismic）
@@ -34,6 +33,7 @@
 - 大阪府 枚方市: 残り10件（hirakata-vaccination-support / hirakata-childcare-subsidy / hirakata-birth-bonus / hirakata-housing-purchase / hirakata-infertility 他5件）
 - 大分県 大分県: 残り1件（oita-onsen-tourism）
 - 大分県 大分市: 残り18件（oita-city-childcare-subsidy / oita-city-birth-bonus / oita-city-newlywed-rent / oita-city-disability-medical / oita-city-scholarship 他13件）
+- 大分県 中津市: 残り8件（nakatsu-child-medical-aid / nakatsu-juutaku-reform / nakatsu-health-checkup-subsidy / nakatsu-scholarship-repayment / nakatsu-elderly-taxi 他3件）
 
 ## 都道府県別
 
@@ -51,8 +51,8 @@
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
-| 未完了 | 千葉県 | 189 | 178 | 11 | noda-housing-reform / noda-startup-support / noda-sme-support / tomisato-disability-medical / tomisato-sme-support 他6件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
+| 未完了 | 千葉県 | 189 | 182 | 7 | noda-housing-reform / noda-startup-support / noda-sme-support / tomisato-disability-medical / tomisato-sme-support 他2件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
 | 完了 | 茨城県 | 99 | 99 | 0 |  |
@@ -313,7 +313,7 @@
 | 完了 | 千葉県 | 船橋市 | 18 | 18 | 0 |  |
 | 完了 | 千葉県 | 袖ケ浦市 | 9 | 9 | 0 |  |
 | 完了 | 千葉県 | 柏市 | 21 | 21 | 0 |  |
-| 未完了 | 千葉県 | 白井市 | 9 | 5 | 4 | shiroi-newlywed-rent / shiroi-sme-support / shiroi-elderly-support / shiroi-bousai-equipment |
+| 完了 | 千葉県 | 白井市 | 9 | 9 | 0 |  |
 | 未完了 | 千葉県 | 富里市 | 9 | 5 | 4 | tomisato-disability-medical / tomisato-sme-support / tomisato-elderly-support / tomisato-bousai-equipment |
 | 未完了 | 千葉県 | 野田市 | 12 | 9 | 3 | noda-housing-reform / noda-startup-support / noda-sme-support |
 | 完了 | 全国 | JR西日本あんしん社会財団 | 1 | 1 | 0 |  |
