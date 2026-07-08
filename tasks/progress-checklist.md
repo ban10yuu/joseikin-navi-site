@@ -4,12 +4,12 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T00:04:33.960Z
+- 生成日時: 2026-07-08T00:06:57.143Z
 - raw unique slugs: 4375
-- verified unique slugs: 3737
-- raw内の公式確認済み slugs: 3014
-- 未照合 raw slugs: 1361
-- 完了自治体/団体: 287 / 434
+- verified unique slugs: 3746
+- raw内の公式確認済み slugs: 3023
+- 未照合 raw slugs: 1352
+- 完了自治体/団体: 288 / 434
 - raw gap 0 の都道府県: 25 / 47
 
 ## 次に進める候補
@@ -42,12 +42,12 @@
 | 未完了 | 大阪府 | 131 | 12 | 119 | hirakata-vaccination-support / toyonaka-child-medical / toyonaka-housing-seismic / toyonaka-education-support / higashiosaka-child-medical 他114件 |
 | 未完了 | 静岡県 | 98 | 7 | 91 | fuji-city-senior-hearing-aid / shizuoka-city-housing-seismic / shizuoka-city-fertility-treatment / hamamatsu-startup-support / hamamatsu-housing-eco-reform 他86件 |
 | 未完了 | 千葉県 | 189 | 98 | 91 | chiba-city-fertility-treatment / chiba-city-senior-living / kashiwa-child-medical-aid / kashiwa-juutaku-reform / kashiwa-health-checkup-subsidy 他86件 |
-| 未完了 | 栃木県 | 130 | 47 | 83 | oyama-housing-reform / ashikaga-housing-reform / ashikaga-migration-support / oyama-childcare-subsidy / oyama-birth-bonus 他78件 |
 | 未完了 | 新潟県 | 89 | 9 | 80 | niigata-city-startup-support / niigata-city-housing-reform / nagaoka-housing-snow / joetsu-housing-snow / sanjo-manufacturing-support 他75件 |
 | 未完了 | 長野県 | 85 | 6 | 79 | matsumoto-scholarship / ueda-fertility-treatment / ueda-scholarship / iida-housing-seismic / iida-migration-support 他74件 |
 | 未完了 | 兵庫県 | 90 | 13 | 77 | himeji-scholarship / himeji-housing-seismic / nishinomiya-elderly-medical / nishinomiya-housing-eco / amagasaki-community-support 他72件 |
 | 未完了 | 滋賀県 | 84 | 9 | 75 | kusatsu-housing-reform / kusatsu-education-support / hikone-housing-reform / hikone-scholarship / otsu-mental-health 他70件 |
 | 未完了 | 鹿児島県 | 84 | 10 | 74 | kagoshima-city-vaccination / kanoya-housing-new-build / satsumasendai-housing-newlife / kagoshima-city-childcare-subsidy / kagoshima-city-birth-bonus 他69件 |
+| 未完了 | 栃木県 | 130 | 56 | 74 | oyama-housing-reform / ashikaga-housing-reform / ashikaga-migration-support / oyama-childcare-subsidy / oyama-birth-bonus 他69件 |
 | 未完了 | 島根県 | 70 | 3 | 67 | matsue-housing-reform / matsue-startup-support / izumo-housing-seismic / izumo-startup-support / matsue-childcare-subsidy 他62件 |
 | 未完了 | 鳥取県 | 71 | 7 | 64 | yonago-startup-support / yonago-migration-support / tottori-city-childcare-subsidy / tottori-city-birth-bonus / tottori-city-housing-purchase 他59件 |
 | 未完了 | 秋田県 | 74 | 13 | 61 | daisen-migration-support / akita-city-daycare-support / akita-city-barrier-free / akita-city-mental-health / akita-city-telework-bonus 他56件 |
@@ -465,7 +465,7 @@
 | 完了 | 栃木県 | さくら市 | 9 | 9 | 0 |  |
 | 完了 | 栃木県 | 宇都宮市 | 12 | 12 | 0 |  |
 | 完了 | 栃木県 | 佐野市 | 21 | 21 | 0 |  |
-| 未完了 | 栃木県 | 鹿沼市 | 9 | 0 | 9 | kanuma-childcare-subsidy / kanuma-birth-bonus / kanuma-vacant-house / kanuma-infertility / kanuma-scholarship 他4件 |
+| 完了 | 栃木県 | 鹿沼市 | 9 | 9 | 0 |  |
 | 未完了 | 栃木県 | 小山市 | 30 | 3 | 27 | oyama-housing-reform / oyama-childcare-subsidy / oyama-birth-bonus / oyama-newlywed-rent / oyama-disability-medical 他22件 |
 | 未完了 | 栃木県 | 真岡市 | 9 | 0 | 9 | mooka-childcare-subsidy / mooka-birth-bonus / mooka-housing-purchase / mooka-infertility / mooka-school-lunch 他4件 |
 | 未完了 | 栃木県 | 足利市 | 21 | 1 | 20 | ashikaga-housing-reform / ashikaga-migration-support / ashikaga-childcare-subsidy / ashikaga-birth-bonus / ashikaga-newlywed-rent 他15件 |
