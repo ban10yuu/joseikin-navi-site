@@ -218,6 +218,26 @@ For the next batch, keep each turn small:
 2. Store concise facts in the working response, not full scraped page text.
 3. Add verified records in one patch.
 4. Run targeted validation before broad validation.
+
+## Current progress update 2026-07-09 島根県完了時 build 検証課題
+
+- 島根県は松江市18件、大田市9件、浜田市9件、島根県3件を追加後に `node scripts/audit-raw-verified-gaps.mjs --prefecture 島根県 --limit 25` で raw gap 0 を確認。
+- 最新助成金データコミット:
+  - `05d0d82 松江市18件を公式補正`
+  - `74ced04 大田市9件を公式補正`
+  - `4e6db1f 浜田市9件を公式補正`
+  - `a0a2ea4 島根県3件を公式補正`
+- 代替検証:
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+  - `git diff --check`: pass
+  - 松江市18件・大田市9件・浜田市9件・島根県3件のURL到達確認: all 200
+  - `node scripts/audit-raw-verified-gaps.mjs --prefecture 島根県 --limit 25`: raw gap 0
+  - `npm run audit:coverage`: failures 0
+  - `node scripts/generate-progress-checklist.mjs`: remaining raw slugs 288, completed municipalities 399/434
+- 県完了節目として `NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npm run build` を実行。
+- 結果: code 124。最後の出力は `Creating an optimized production build ...`。Next.js 16.1.6 (Turbopack) の production optimization 開始後、180秒間追加ログなし。
+- build固着は未解決の検証課題として継続。候補は前回同様、Turbopack/Next.js最適化、静的生成対象増加、巨大な助成金データ、メモリ、外部URL参照、未関係のPinterest系変更。全国公式確認の本線は止めず、節目で上限付き build または `next build --debug` 相当を短時間で再確認する。
+- 次の作業候補は `node scripts/audit-raw-verified-gaps.mjs --limit 25` で確認し、先頭の未完了自治体へ進む。
 5. Commit only:
    - `src/data/grants/verified-local-misc-2026.ts`
    - `SAFE_CONTINUATION_PLAN.md`
