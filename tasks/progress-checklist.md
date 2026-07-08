@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T17:01:38.306Z
+- 生成日時: 2026-07-08T17:04:25.039Z
 - raw unique slugs: 4375
-- verified unique slugs: 4698
-- raw内の公式確認済み slugs: 3974
-- 未照合 raw slugs: 401
-- 完了自治体/団体: 388 / 434
+- verified unique slugs: 4707
+- raw内の公式確認済み slugs: 3983
+- 未照合 raw slugs: 392
+- 完了自治体/団体: 389 / 434
 - raw gap 0 の都道府県: 38 / 47
 
 ## 次に進める候補
 
-- 鳥取県 倉吉市: 残り9件（kurayoshi-child-medical-aid / kurayoshi-juutaku-reform / kurayoshi-health-checkup-subsidy / kurayoshi-scholarship-repayment / kurayoshi-startup-support 他4件）
 - 鳥取県 鳥取市: 残り18件（tottori-city-childcare-subsidy / tottori-city-birth-bonus / tottori-city-housing-purchase / tottori-city-infertility / tottori-city-scholarship 他13件）
 - 鳥取県 米子市: 残り10件（yonago-startup-support / yonago-migration-support / yonago-child-medical-aid / yonago-juutaku-reform / yonago-health-checkup-subsidy 他5件）
 - 鳥取県 北栄町: 残り9件（hokuei-child-medical-aid / hokuei-juutaku-reform / hokuei-health-checkup-subsidy / hokuei-scholarship-repayment / hokuei-startup-support 他4件）
@@ -34,6 +33,7 @@
 - 富山県 高岡市: 残り9件（takaoka-child-medical-aid / takaoka-juutaku-reform / takaoka-health-checkup-subsidy / takaoka-scholarship-repayment / takaoka-startup-support 他4件）
 - 富山県 射水市: 残り9件（imizu-child-medical-aid / imizu-juutaku-reform / imizu-health-checkup-subsidy / imizu-scholarship-repayment / imizu-startup-support 他4件）
 - 富山県 富山県: 残り2件（toyama-housing-renovation / toyama-pharmaceutical-industry）
+- 富山県 富山市: 残り16件（toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他11件）
 
 ## 都道府県別
 
@@ -43,7 +43,7 @@
 | 未完了 | 島根県 | 70 | 3 | 67 | matsue-housing-reform / matsue-startup-support / izumo-housing-seismic / izumo-startup-support / matsue-childcare-subsidy 他62件 |
 | 未完了 | 福井県 | 69 | 8 | 61 | fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / tsuruga-childcare-subsidy 他56件 |
 | 未完了 | 福島県 | 72 | 12 | 60 | koriyama-infertility-treatment / aizu-housing-seismic / aizu-senior-medical / sukagawa-startup-support / sukagawa-migration-support 他55件 |
-| 未完了 | 鳥取県 | 71 | 25 | 46 | yonago-startup-support / yonago-migration-support / tottori-city-childcare-subsidy / tottori-city-birth-bonus / tottori-city-housing-purchase 他41件 |
+| 未完了 | 鳥取県 | 71 | 34 | 37 | yonago-startup-support / yonago-migration-support / tottori-city-childcare-subsidy / tottori-city-birth-bonus / tottori-city-housing-purchase 他32件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
@@ -403,7 +403,7 @@
 | 完了 | 長野県 | 飯田市 | 12 | 12 | 0 |  |
 | 完了 | 鳥取県 | 境港市 | 9 | 9 | 0 |  |
 | 完了 | 鳥取県 | 琴浦町 | 9 | 9 | 0 |  |
-| 未完了 | 鳥取県 | 倉吉市 | 9 | 0 | 9 | kurayoshi-child-medical-aid / kurayoshi-juutaku-reform / kurayoshi-health-checkup-subsidy / kurayoshi-scholarship-repayment / kurayoshi-startup-support 他4件 |
+| 完了 | 鳥取県 | 倉吉市 | 9 | 9 | 0 |  |
 | 完了 | 鳥取県 | 鳥取県 | 3 | 3 | 0 |  |
 | 未完了 | 鳥取県 | 鳥取市 | 21 | 3 | 18 | tottori-city-childcare-subsidy / tottori-city-birth-bonus / tottori-city-housing-purchase / tottori-city-infertility / tottori-city-scholarship 他13件 |
 | 未完了 | 鳥取県 | 米子市 | 11 | 1 | 10 | yonago-startup-support / yonago-migration-support / yonago-child-medical-aid / yonago-juutaku-reform / yonago-health-checkup-subsidy 他5件 |
