@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T14:04:31.363Z
+- 生成日時: 2026-07-08T14:09:44.495Z
 - raw unique slugs: 4375
-- verified unique slugs: 4271
-- raw内の公式確認済み slugs: 3547
-- 未照合 raw slugs: 828
-- 完了自治体/団体: 338 / 434
+- verified unique slugs: 4280
+- raw内の公式確認済み slugs: 3556
+- 未照合 raw slugs: 819
+- 完了自治体/団体: 339 / 434
 - raw gap 0 の都道府県: 32 / 47
 
 ## 次に進める候補
 
-- 石川県 小松市: 残り9件（komatsu-child-medical-aid / komatsu-juutaku-reform / komatsu-health-checkup-subsidy / komatsu-scholarship-repayment / komatsu-startup-support 他4件）
 - 石川県 白山市: 残り9件（hakusan-housing-reform / hakusan-child-medical-aid / hakusan-juutaku-reform / hakusan-health-checkup-subsidy / hakusan-scholarship-repayment 他4件）
 - 千葉県 印西市: 残り4件（inzai-newlywed-rent / inzai-sme-support / inzai-elderly-support / inzai-bousai-equipment）
 - 千葉県 浦安市: 残り2件（urayasu-infertility-treatment / urayasu-youth-employment）
@@ -34,6 +33,7 @@
 - 千葉県 野田市: 残り3件（noda-housing-reform / noda-startup-support / noda-sme-support）
 - 大阪府 茨木市: 残り2件（ibaraki-city-education-support / ibaraki-city-housing-seismic）
 - 大阪府 岸和田市: 残り9件（kishiwada-childcare-subsidy / kishiwada-birth-bonus / kishiwada-newlywed-rent / kishiwada-disability-medical / kishiwada-school-lunch 他4件）
+- 大阪府 高槻市: 残り12件（takatsuki-child-medical / takatsuki-education-scholarship / takatsuki-vaccination-support / takatsuki-childcare-subsidy / takatsuki-birth-bonus 他7件）
 
 ## 都道府県別
 
@@ -51,9 +51,9 @@
 | 未完了 | 大分県 | 56 | 11 | 45 | beppu-housing-reform / beppu-vaccination-subsidy / oita-city-childcare-subsidy / oita-city-birth-bonus / oita-city-newlywed-rent 他40件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
-| 未完了 | 石川県 | 44 | 26 | 18 | hakusan-housing-reform / hakusan-child-medical-aid / hakusan-juutaku-reform / hakusan-health-checkup-subsidy / hakusan-scholarship-repayment 他13件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
+| 未完了 | 石川県 | 44 | 35 | 9 | hakusan-housing-reform / hakusan-child-medical-aid / hakusan-juutaku-reform / hakusan-health-checkup-subsidy / hakusan-scholarship-repayment 他4件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
 | 完了 | 茨城県 | 99 | 99 | 0 |  |
@@ -296,7 +296,7 @@
 | 完了 | 静岡県 | 富士宮市 | 9 | 9 | 0 |  |
 | 完了 | 静岡県 | 富士市 | 21 | 21 | 0 |  |
 | 完了 | 石川県 | 金沢市 | 21 | 21 | 0 |  |
-| 未完了 | 石川県 | 小松市 | 9 | 0 | 9 | komatsu-child-medical-aid / komatsu-juutaku-reform / komatsu-health-checkup-subsidy / komatsu-scholarship-repayment / komatsu-startup-support 他4件 |
+| 完了 | 石川県 | 小松市 | 9 | 9 | 0 |  |
 | 完了 | 石川県 | 石川県 | 3 | 3 | 0 |  |
 | 未完了 | 石川県 | 白山市 | 11 | 2 | 9 | hakusan-housing-reform / hakusan-child-medical-aid / hakusan-juutaku-reform / hakusan-health-checkup-subsidy / hakusan-scholarship-repayment 他4件 |
 | 未完了 | 千葉県 | 印西市 | 9 | 5 | 4 | inzai-newlywed-rent / inzai-sme-support / inzai-elderly-support / inzai-bousai-equipment |
