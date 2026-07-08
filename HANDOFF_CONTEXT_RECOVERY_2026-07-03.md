@@ -876,3 +876,17 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
   - `node scripts/audit-raw-verified-gaps.mjs --prefecture 鳥取県 --limit 50`
   - `npm run audit:coverage`
   - `node scripts/generate-progress-checklist.mjs`
+
+## Current progress update 2026-07-09 鳥取県完了時 build 検証課題
+
+- 鳥取県は北栄町9件追加後に `node scripts/audit-raw-verified-gaps.mjs --prefecture 鳥取県 --limit 30` で raw gap 0 を確認。
+- 完了コミット予定:
+  - `c1f46d6 鳥取市18件を公式補正`
+  - `a28d528 米子市10件を公式補正`
+  - 北栄町9件はこの記録と同時にコミット予定。
+- Current totals after `node scripts/generate-progress-checklist.mjs`: remaining raw slugs 355, completed municipalities 392/434.
+- 県完了節目として `NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npm run build` を実行。
+- 結果: code 124。最後の出力は `Creating an optimized production build ...`。Next.js 16.1.6 (Turbopack) の production optimization 開始後、180秒間追加ログなし。
+- 代替検証: `npx eslint src/data/grants/verified-local-misc-2026.ts`、`git diff --check`、北栄町9件のURL到達確認、`node scripts/audit-raw-verified-gaps.mjs --prefecture 鳥取県 --limit 30`、`npm run audit:coverage` は通過。
+- 次に見る候補は前回同様、Turbopack/Next.js最適化、静的生成対象増加、巨大な助成金データ、メモリ、外部URL参照、未関係のPinterest系変更。全国公式確認の本線は止めず、大きな節目で上限付き build または `next build --debug` 相当を短時間で再確認する。
+- 次の作業候補は `tasks/progress-checklist.md` の先頭候補、島根県 安来市9件。
