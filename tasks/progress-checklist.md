@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T11:57:33.778Z
+- 生成日時: 2026-07-08T12:00:25.240Z
 - raw unique slugs: 4375
-- verified unique slugs: 3905
-- raw内の公式確認済み slugs: 3181
-- 未照合 raw slugs: 1194
-- 完了自治体/団体: 301 / 434
+- verified unique slugs: 3914
+- raw内の公式確認済み slugs: 3190
+- 未照合 raw slugs: 1185
+- 完了自治体/団体: 302 / 434
 - raw gap 0 の都道府県: 27 / 47
 
 ## 次に進める候補
 
-- 鹿児島県 奄美市: 残り9件（amami-child-medical-aid / amami-juutaku-reform / amami-health-checkup-subsidy / amami-scholarship-repayment / amami-startup-support 他4件）
 - 鹿児島県 薩摩川内市: 残り10件（satsumasendai-housing-newlife / satsumasendai-child-medical-aid / satsumasendai-juutaku-reform / satsumasendai-health-checkup-subsidy / satsumasendai-scholarship-repayment 他5件）
 - 鹿児島県 鹿屋市: 残り10件（kanoya-housing-new-build / kanoya-child-medical-aid / kanoya-juutaku-reform / kanoya-health-checkup-subsidy / kanoya-scholarship-repayment 他5件）
 - 鹿児島県 鹿児島県: 残り1件（kagoshima-childcare-third-child）
@@ -34,6 +33,7 @@
 - 新潟県 新潟県: 残り1件（niigata-rice-farming）
 - 新潟県 新潟県（各市町村）: 残り1件（niigata-snow-removal）
 - 新潟県 新潟市: 残り10件（niigata-city-startup-support / niigata-city-housing-reform / niigata-city-childcare-subsidy / niigata-city-daycare-support / niigata-city-vacant-house 他5件）
+- 新潟県 村上市: 残り9件（murakami-childcare-subsidy / murakami-birth-bonus / murakami-housing-purchase / murakami-infertility / murakami-scholarship 他4件）
 
 ## 都道府県別
 
@@ -46,12 +46,12 @@
 | 未完了 | 長野県 | 85 | 6 | 79 | matsumoto-scholarship / ueda-fertility-treatment / ueda-scholarship / iida-housing-seismic / iida-migration-support 他74件 |
 | 未完了 | 兵庫県 | 90 | 13 | 77 | himeji-scholarship / himeji-housing-seismic / nishinomiya-elderly-medical / nishinomiya-housing-eco / amagasaki-community-support 他72件 |
 | 未完了 | 島根県 | 70 | 3 | 67 | matsue-housing-reform / matsue-startup-support / izumo-housing-seismic / izumo-startup-support / matsue-childcare-subsidy 他62件 |
-| 未完了 | 鹿児島県 | 84 | 19 | 65 | kagoshima-city-vaccination / kanoya-housing-new-build / satsumasendai-housing-newlife / kagoshima-city-childcare-subsidy / kagoshima-city-birth-bonus 他60件 |
 | 未完了 | 鳥取県 | 71 | 7 | 64 | yonago-startup-support / yonago-migration-support / tottori-city-childcare-subsidy / tottori-city-birth-bonus / tottori-city-housing-purchase 他59件 |
 | 未完了 | 秋田県 | 74 | 13 | 61 | daisen-migration-support / akita-city-daycare-support / akita-city-barrier-free / akita-city-mental-health / akita-city-telework-bonus 他56件 |
 | 未完了 | 福井県 | 69 | 8 | 61 | fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / tsuruga-childcare-subsidy 他56件 |
 | 未完了 | 福島県 | 72 | 12 | 60 | koriyama-infertility-treatment / aizu-housing-seismic / aizu-senior-medical / sukagawa-startup-support / sukagawa-migration-support 他55件 |
 | 未完了 | 長崎県 | 63 | 6 | 57 | nagasaki-city-fertility-treatment / sasebo-housing-seismic / isahaya-child-medical / isahaya-housing-reform / isahaya-vaccination-support 他52件 |
+| 未完了 | 鹿児島県 | 84 | 28 | 56 | kagoshima-city-vaccination / kanoya-housing-new-build / satsumasendai-housing-newlife / kagoshima-city-childcare-subsidy / kagoshima-city-birth-bonus 他51件 |
 | 未完了 | 青森県 | 66 | 12 | 54 | hachinohe-infertility-treatment / hachinohe-housing-earthquake / hirosaki-infertility-support / hirosaki-housing-seismic / aomori-city-housing-eco 他49件 |
 | 未完了 | 大分県 | 56 | 11 | 45 | beppu-housing-reform / beppu-vaccination-subsidy / oita-city-childcare-subsidy / oita-city-birth-bonus / oita-city-newlywed-rent 他40件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
@@ -241,7 +241,7 @@
 | 完了 | 滋賀県 | 長浜市 | 9 | 9 | 0 |  |
 | 完了 | 滋賀県 | 彦根市 | 12 | 12 | 0 |  |
 | 完了 | 鹿児島県 | 姶良市 | 9 | 9 | 0 |  |
-| 未完了 | 鹿児島県 | 奄美市 | 9 | 0 | 9 | amami-child-medical-aid / amami-juutaku-reform / amami-health-checkup-subsidy / amami-scholarship-repayment / amami-startup-support 他4件 |
+| 完了 | 鹿児島県 | 奄美市 | 9 | 9 | 0 |  |
 | 未完了 | 鹿児島県 | 薩摩川内市 | 12 | 2 | 10 | satsumasendai-housing-newlife / satsumasendai-child-medical-aid / satsumasendai-juutaku-reform / satsumasendai-health-checkup-subsidy / satsumasendai-scholarship-repayment 他5件 |
 | 未完了 | 鹿児島県 | 鹿屋市 | 12 | 2 | 10 | kanoya-housing-new-build / kanoya-child-medical-aid / kanoya-juutaku-reform / kanoya-health-checkup-subsidy / kanoya-scholarship-repayment 他5件 |
 | 未完了 | 鹿児島県 | 鹿児島県 | 1 | 0 | 1 | kagoshima-childcare-third-child |
