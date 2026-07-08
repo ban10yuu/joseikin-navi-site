@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T13:22:38.592Z
+- 生成日時: 2026-07-08T13:30:27.993Z
 - raw unique slugs: 4375
-- verified unique slugs: 4165
-- raw内の公式確認済み slugs: 3441
-- 未照合 raw slugs: 934
-- 完了自治体/団体: 327 / 434
+- verified unique slugs: 4174
+- raw内の公式確認済み slugs: 3450
+- 未照合 raw slugs: 925
+- 完了自治体/団体: 328 / 434
 - raw gap 0 の都道府県: 31 / 47
 
 ## 次に進める候補
 
-- 静岡県 伊東市: 残り9件（ito-papa-mama-class / ito-solar-panel / ito-adult-vaccine / ito-school-ict / ito-fishery-support 他4件）
 - 静岡県 三島市: 残り9件（mishima-papa-mama-class / mishima-solar-panel / mishima-adult-vaccine / mishima-school-ict / mishima-fishery-support 他4件）
 - 静岡県 沼津市: 残り10件（numazu-senior-medical / numazu-papa-mama-class / numazu-solar-panel / numazu-adult-vaccine / numazu-school-ict 他5件）
 - 静岡県 静岡県: 残り2件（shizuoka-tea-industry / shizuoka-childcare-nature）
@@ -34,14 +33,15 @@
 - 千葉県 四街道市: 残り2件（yotsukaido-sme-support / yotsukaido-bousai-equipment）
 - 千葉県 市川市: 残り15件（ichikawa-child-medical-aid / ichikawa-juutaku-reform / ichikawa-health-checkup-subsidy / ichikawa-scholarship-repayment / ichikawa-startup-support 他10件）
 - 千葉県 松戸市: 残り10件（matsudo-child-medical-aid / matsudo-juutaku-reform / matsudo-health-checkup-subsidy / matsudo-scholarship-repayment / matsudo-startup-support 他5件）
+- 千葉県 成田市: 残り8件（narita-senior-medical / narita-living-support / narita-childcare-subsidy / narita-newlywed-rent / narita-telework-bonus 他3件）
 
 ## 都道府県別
 
 | 状態 | 都道府県 | raw | verified | 残り | 次のslug |
 |---|---:|---:|---:|---:|---|
 | 未完了 | 大阪府 | 131 | 12 | 119 | hirakata-vaccination-support / toyonaka-child-medical / toyonaka-housing-seismic / toyonaka-education-support / higashiosaka-child-medical 他114件 |
-| 未完了 | 静岡県 | 98 | 7 | 91 | fuji-city-senior-hearing-aid / shizuoka-city-housing-seismic / shizuoka-city-fertility-treatment / hamamatsu-startup-support / hamamatsu-housing-eco-reform 他86件 |
 | 未完了 | 千葉県 | 189 | 98 | 91 | chiba-city-fertility-treatment / chiba-city-senior-living / kashiwa-child-medical-aid / kashiwa-juutaku-reform / kashiwa-health-checkup-subsidy 他86件 |
+| 未完了 | 静岡県 | 98 | 16 | 82 | fuji-city-senior-hearing-aid / shizuoka-city-housing-seismic / shizuoka-city-fertility-treatment / hamamatsu-startup-support / hamamatsu-housing-eco-reform 他77件 |
 | 未完了 | 長野県 | 85 | 6 | 79 | matsumoto-scholarship / ueda-fertility-treatment / ueda-scholarship / iida-housing-seismic / iida-migration-support 他74件 |
 | 未完了 | 兵庫県 | 90 | 13 | 77 | himeji-scholarship / himeji-housing-seismic / nishinomiya-elderly-medical / nishinomiya-housing-eco / amagasaki-community-support 他72件 |
 | 未完了 | 島根県 | 70 | 3 | 67 | matsue-housing-reform / matsue-startup-support / izumo-housing-seismic / izumo-startup-support / matsue-childcare-subsidy 他62件 |
@@ -285,7 +285,7 @@
 | 完了 | 青森県 | 青森県 | 3 | 3 | 0 |  |
 | 完了 | 青森県 | 青森市 | 21 | 21 | 0 |  |
 | 完了 | 青森県 | 八戸市 | 21 | 21 | 0 |  |
-| 未完了 | 静岡県 | 伊東市 | 9 | 0 | 9 | ito-papa-mama-class / ito-solar-panel / ito-adult-vaccine / ito-school-ict / ito-fishery-support 他4件 |
+| 完了 | 静岡県 | 伊東市 | 9 | 9 | 0 |  |
 | 未完了 | 静岡県 | 三島市 | 9 | 0 | 9 | mishima-papa-mama-class / mishima-solar-panel / mishima-adult-vaccine / mishima-school-ict / mishima-fishery-support 他4件 |
 | 未完了 | 静岡県 | 沼津市 | 12 | 2 | 10 | numazu-senior-medical / numazu-papa-mama-class / numazu-solar-panel / numazu-adult-vaccine / numazu-school-ict 他5件 |
 | 未完了 | 静岡県 | 静岡県 | 2 | 0 | 2 | shizuoka-tea-industry / shizuoka-childcare-nature |
