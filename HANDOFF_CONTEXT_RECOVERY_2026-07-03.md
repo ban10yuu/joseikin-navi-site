@@ -839,3 +839,40 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 - 代替検証: `npx eslint src/data/grants/verified-local-misc-2026.ts`、`git diff --check`、長野市20件・飯田市11件のURL到達確認、`node scripts/audit-raw-verified-gaps.mjs --prefecture 長野県 --limit 20`、`npm run audit:coverage` は通過。
 - 次に見る候補は前回同様、Turbopack/Next.js最適化、静的生成対象増加、巨大な助成金データ、メモリ、外部URL参照、未関係のPinterest系変更。全国公式確認の本線は止めず、大きな節目で上限付き build または `next build --debug` 相当を短時間で再確認する。
 - 次の作業候補は `tasks/progress-checklist.md` の先頭候補、鳥取県 境港市9件。
+
+## Current progress update 2026-07-09 鳥取県再開地点
+
+- Completed commits in this continuation:
+  - `c229ffe 境港市9件を公式補正`
+  - `5dc3b82 琴浦町9件を公式補正`
+  - `3efaf5b 倉吉市9件を公式補正`
+- Current totals after `node scripts/generate-progress-checklist.mjs`: remaining raw slugs 392, completed municipalities 389/434.
+- 鳥取県 raw gap: `64 -> 37`。
+- Latest validations passed:
+  - 境港市9件: `npx eslint src/data/grants/verified-local-misc-2026.ts`, `git diff --check`, URL 9/9, `node scripts/audit-raw-verified-gaps.mjs --prefecture 鳥取県 --limit 30`, `npm run audit:coverage` failures 0.
+  - 琴浦町9件: `npx eslint src/data/grants/verified-local-misc-2026.ts`, `git diff --check`, URL 9/9, 鳥取県 raw gap 46, `npm run audit:coverage` failures 0.
+  - 倉吉市9件: `npx eslint src/data/grants/verified-local-misc-2026.ts`, `git diff --check`, URL 9/9, 鳥取県 raw gap 37, `npm run audit:coverage` failures 0.
+- Buildは今回は未実行。鳥取県完了時に `NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npm run build` で再確認し、固着する場合は最後の出力と段階を記録する。
+- Next restart point: 鳥取県 鳥取市18件:
+  `tottori-block-wall-removal`, `tottori-child-medical-aid`, `tottori-city-birth-bonus`, `tottori-city-childcare-subsidy`, `tottori-city-elderly-support`, `tottori-city-housing-purchase`, `tottori-city-infertility`, `tottori-city-migration-support`, `tottori-city-nursing-equipment`, `tottori-city-scholarship`, `tottori-city-sme-support`, `tottori-elderly-taxi`, `tottori-health-checkup-subsidy`, `tottori-juutaku-reform`, `tottori-scholarship-repayment`, `tottori-school-lunch-subsidy`, `tottori-startup-support`, `tottori-water-saving`.
+- Already inspected for 鳥取市:
+  - `tottori-child-medical-aid`: https://www.city.tottori.lg.jp/site/kosodate/4697.html
+  - `tottori-city-childcare-subsidy`: https://www.city.tottori.lg.jp/site/kosodate/4830.html
+  - `tottori-city-birth-bonus`: https://www.city.tottori.lg.jp/site/kosodate/4857.html
+  - `tottori-city-housing-purchase` / `tottori-juutaku-reform`: https://www.city.tottori.lg.jp/site/machinaka-info/5729.html
+  - `tottori-city-infertility`: https://www.city.tottori.lg.jp/site/kosodate/4760.html
+  - `tottori-city-scholarship` / `tottori-scholarship-repayment`: https://www.city.tottori.lg.jp/page/5179.html
+  - `tottori-city-elderly-support`: https://www.city.tottori.lg.jp/page/4509.html or https://www.city.tottori.lg.jp/page/7305.html
+  - `tottori-city-nursing-equipment`: https://www.city.tottori.lg.jp/page/4427.html
+  - `tottori-city-sme-support`: https://www.city.tottori.lg.jp/page/5155.html or https://www.city.tottori.lg.jp/page/5160.html
+  - `tottori-city-migration-support`: https://www.city.tottori.lg.jp/uploaded/attachment/49589.pdf
+  - `tottori-startup-support`: https://www.city.tottori.lg.jp/page/5145.html
+  - `tottori-water-saving`: 未確定。鳥取市公式で雨水タンク補助を追加調査する。
+  - `tottori-block-wall-removal`: 未確定。鳥取市公式でブロック塀撤去補助を追加調査する。
+- Recommended next validation commands after editing 鳥取市:
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`
+  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts`
+  - `node scripts/check-grant-source-urls.mjs --concurrency 2 --slug <鳥取市slug...>`
+  - `node scripts/audit-raw-verified-gaps.mjs --prefecture 鳥取県 --limit 50`
+  - `npm run audit:coverage`
+  - `node scripts/generate-progress-checklist.mjs`
