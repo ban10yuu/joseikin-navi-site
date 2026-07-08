@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T14:31:42.435Z
+- 生成日時: 2026-07-08T14:34:19.831Z
 - raw unique slugs: 4375
-- verified unique slugs: 4317
-- raw内の公式確認済み slugs: 3593
-- 未照合 raw slugs: 782
-- 完了自治体/団体: 346 / 434
+- verified unique slugs: 4327
+- raw内の公式確認済み slugs: 3603
+- 未照合 raw slugs: 772
+- 完了自治体/団体: 347 / 434
 - raw gap 0 の都道府県: 33 / 47
 
 ## 次に進める候補
 
-- 千葉県 松戸市: 残り10件（matsudo-child-medical-aid / matsudo-juutaku-reform / matsudo-health-checkup-subsidy / matsudo-scholarship-repayment / matsudo-startup-support 他5件）
 - 千葉県 成田市: 残り8件（narita-senior-medical / narita-living-support / narita-childcare-subsidy / narita-newlywed-rent / narita-telework-bonus 他3件）
 - 千葉県 千葉県（各市町村）: 残り1件（chiba-elderly-hearing-aid）
 - 千葉県 千葉市: 残り7件（chiba-city-fertility-treatment / chiba-city-senior-living / chiba-city-infertility / chiba-city-study-abroad / chiba-city-sme-support 他2件）
@@ -34,6 +33,7 @@
 - 大阪府 大阪府: 残り2件（osaka-child-allowance / osaka-employment-women）
 - 大阪府 大阪府（各市町村）: 残り1件（osaka-housing-seismic）
 - 大阪府 大阪府育英会: 残り1件（osaka-education-scholarship）
+- 大阪府 池田市: 残り2件（ikeda-housing-seismic / ikeda-startup-support）
 
 ## 都道府県別
 
@@ -44,10 +44,10 @@
 | 未完了 | 兵庫県 | 90 | 13 | 77 | himeji-scholarship / himeji-housing-seismic / nishinomiya-elderly-medical / nishinomiya-housing-eco / amagasaki-community-support 他72件 |
 | 未完了 | 島根県 | 70 | 3 | 67 | matsue-housing-reform / matsue-startup-support / izumo-housing-seismic / izumo-startup-support / matsue-childcare-subsidy 他62件 |
 | 未完了 | 鳥取県 | 71 | 7 | 64 | yonago-startup-support / yonago-migration-support / tottori-city-childcare-subsidy / tottori-city-birth-bonus / tottori-city-housing-purchase 他59件 |
-| 未完了 | 千葉県 | 189 | 126 | 63 | chiba-city-fertility-treatment / chiba-city-senior-living / kashiwa-child-medical-aid / kashiwa-juutaku-reform / kashiwa-health-checkup-subsidy 他58件 |
 | 未完了 | 福井県 | 69 | 8 | 61 | fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / tsuruga-childcare-subsidy 他56件 |
 | 未完了 | 福島県 | 72 | 12 | 60 | koriyama-infertility-treatment / aizu-housing-seismic / aizu-senior-medical / sukagawa-startup-support / sukagawa-migration-support 他55件 |
 | 未完了 | 長崎県 | 63 | 6 | 57 | nagasaki-city-fertility-treatment / sasebo-housing-seismic / isahaya-child-medical / isahaya-housing-reform / isahaya-vaccination-support 他52件 |
+| 未完了 | 千葉県 | 189 | 136 | 53 | chiba-city-fertility-treatment / chiba-city-senior-living / kashiwa-child-medical-aid / kashiwa-juutaku-reform / kashiwa-health-checkup-subsidy 他48件 |
 | 未完了 | 大分県 | 56 | 11 | 45 | beppu-housing-reform / beppu-vaccination-subsidy / oita-city-childcare-subsidy / oita-city-birth-bonus / oita-city-newlywed-rent 他40件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
@@ -305,7 +305,7 @@
 | 完了 | 千葉県 | 鎌ケ谷市 | 9 | 9 | 0 |  |
 | 完了 | 千葉県 | 四街道市 | 9 | 9 | 0 |  |
 | 完了 | 千葉県 | 市川市 | 21 | 21 | 0 |  |
-| 未完了 | 千葉県 | 松戸市 | 21 | 11 | 10 | matsudo-child-medical-aid / matsudo-juutaku-reform / matsudo-health-checkup-subsidy / matsudo-scholarship-repayment / matsudo-startup-support 他5件 |
+| 完了 | 千葉県 | 松戸市 | 21 | 21 | 0 |  |
 | 未完了 | 千葉県 | 成田市 | 12 | 4 | 8 | narita-senior-medical / narita-living-support / narita-childcare-subsidy / narita-newlywed-rent / narita-telework-bonus 他3件 |
 | 完了 | 千葉県 | 千葉県 | 1 | 1 | 0 |  |
 | 未完了 | 千葉県 | 千葉県（各市町村） | 2 | 1 | 1 | chiba-elderly-hearing-aid |
