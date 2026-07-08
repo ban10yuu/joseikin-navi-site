@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T05:53:48.024Z
+- 生成日時: 2026-07-08T11:31:47.229Z
 - raw unique slugs: 4375
-- verified unique slugs: 3830
-- raw内の公式確認済み slugs: 3106
-- 未照合 raw slugs: 1269
-- 完了自治体/団体: 294 / 434
+- verified unique slugs: 3831
+- raw内の公式確認済み slugs: 3107
+- 未照合 raw slugs: 1268
+- 完了自治体/団体: 295 / 434
 - raw gap 0 の都道府県: 26 / 47
 
 ## 次に進める候補
 
-- 滋賀県 滋賀県: 残り1件（shiga-biwa-lake-environment）
 - 滋賀県 守山市: 残り9件（moriyama-infant-diaper / moriyama-lake-view-housing / moriyama-child-allergy / moriyama-nature-experience / moriyama-agriculture-six 他4件）
 - 滋賀県 草津市: 残り19件（kusatsu-housing-reform / kusatsu-education-support / kusatsu-childcare-subsidy / kusatsu-birth-bonus / kusatsu-housing-purchase 他14件）
 - 滋賀県 大津市: 残り17件（otsu-mental-health / otsu-scholarship-v2 / otsu-women-startup / otsu-nursing-home-reform / otsu-elderly-support 他12件）
@@ -34,6 +33,7 @@
 - 新潟県 阿賀野市: 残り9件（agano-childcare-subsidy / agano-birth-bonus / agano-housing-purchase / agano-infertility / agano-scholarship 他4件）
 - 新潟県 燕市: 残り11件（tsubame-startup-support / tsubame-migration-support / tsubame-childcare-subsidy / tsubame-birth-bonus / tsubame-housing-purchase 他6件）
 - 新潟県 魚沼市: 残り9件（uonuma-childcare-subsidy / uonuma-birth-bonus / uonuma-housing-purchase / uonuma-infertility / uonuma-scholarship 他4件）
+- 新潟県 五泉市: 残り9件（gosen-childcare-subsidy / gosen-birth-bonus / gosen-housing-purchase / gosen-infertility / gosen-scholarship 他4件）
 
 ## 都道府県別
 
@@ -47,7 +47,7 @@
 | 未完了 | 兵庫県 | 90 | 13 | 77 | himeji-scholarship / himeji-housing-seismic / nishinomiya-elderly-medical / nishinomiya-housing-eco / amagasaki-community-support 他72件 |
 | 未完了 | 鹿児島県 | 84 | 10 | 74 | kagoshima-city-vaccination / kanoya-housing-new-build / satsumasendai-housing-newlife / kagoshima-city-childcare-subsidy / kagoshima-city-birth-bonus 他69件 |
 | 未完了 | 島根県 | 70 | 3 | 67 | matsue-housing-reform / matsue-startup-support / izumo-housing-seismic / izumo-startup-support / matsue-childcare-subsidy 他62件 |
-| 未完了 | 滋賀県 | 84 | 18 | 66 | kusatsu-housing-reform / kusatsu-education-support / hikone-housing-reform / hikone-scholarship / otsu-mental-health 他61件 |
+| 未完了 | 滋賀県 | 84 | 19 | 65 | kusatsu-housing-reform / kusatsu-education-support / hikone-housing-reform / hikone-scholarship / otsu-mental-health 他60件 |
 | 未完了 | 鳥取県 | 71 | 7 | 64 | yonago-startup-support / yonago-migration-support / tottori-city-childcare-subsidy / tottori-city-birth-bonus / tottori-city-housing-purchase 他59件 |
 | 未完了 | 秋田県 | 74 | 13 | 61 | daisen-migration-support / akita-city-daycare-support / akita-city-barrier-free / akita-city-mental-health / akita-city-telework-bonus 他56件 |
 | 未完了 | 福井県 | 69 | 8 | 61 | fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / tsuruga-childcare-subsidy 他56件 |
@@ -234,7 +234,7 @@
 | 完了 | 山梨県 | 韮崎市 | 9 | 9 | 0 |  |
 | 完了 | 山梨県 | 富士吉田市 | 9 | 9 | 0 |  |
 | 完了 | 滋賀県 | 近江八幡市 | 9 | 9 | 0 |  |
-| 未完了 | 滋賀県 | 滋賀県 | 3 | 2 | 1 | shiga-biwa-lake-environment |
+| 完了 | 滋賀県 | 滋賀県 | 3 | 3 | 0 |  |
 | 未完了 | 滋賀県 | 守山市 | 9 | 0 | 9 | moriyama-infant-diaper / moriyama-lake-view-housing / moriyama-child-allergy / moriyama-nature-experience / moriyama-agriculture-six 他4件 |
 | 未完了 | 滋賀県 | 草津市 | 21 | 2 | 19 | kusatsu-housing-reform / kusatsu-education-support / kusatsu-childcare-subsidy / kusatsu-birth-bonus / kusatsu-housing-purchase 他14件 |
 | 未完了 | 滋賀県 | 大津市 | 21 | 4 | 17 | otsu-mental-health / otsu-scholarship-v2 / otsu-women-startup / otsu-nursing-home-reform / otsu-elderly-support 他12件 |
