@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T14:20:14.390Z
+- 生成日時: 2026-07-08T14:22:20.365Z
 - raw unique slugs: 4375
-- verified unique slugs: 4296
-- raw内の公式確認済み slugs: 3572
-- 未照合 raw slugs: 803
-- 完了自治体/団体: 343 / 434
+- verified unique slugs: 4300
+- raw内の公式確認済み slugs: 3576
+- 未照合 raw slugs: 799
+- 完了自治体/団体: 344 / 434
 - raw gap 0 の都道府県: 33 / 47
 
 ## 次に進める候補
 
-- 千葉県 鎌ケ谷市: 残り4件（kamagaya-childcare-subsidy / kamagaya-newlywed-rent / kamagaya-sme-support / kamagaya-bousai-equipment）
 - 千葉県 四街道市: 残り2件（yotsukaido-sme-support / yotsukaido-bousai-equipment）
 - 千葉県 市川市: 残り15件（ichikawa-child-medical-aid / ichikawa-juutaku-reform / ichikawa-health-checkup-subsidy / ichikawa-scholarship-repayment / ichikawa-startup-support 他10件）
 - 千葉県 松戸市: 残り10件（matsudo-child-medical-aid / matsudo-juutaku-reform / matsudo-health-checkup-subsidy / matsudo-scholarship-repayment / matsudo-startup-support 他5件）
@@ -34,13 +33,14 @@
 - 大阪府 寝屋川市: 残り11件（neyagawa-senior-medical / neyagawa-housing-seismic / neyagawa-childcare-subsidy / neyagawa-birth-bonus / neyagawa-housing-purchase 他6件）
 - 大阪府 吹田市: 残り12件（suita-child-medical / suita-housing-reform / suita-senior-support / suita-childcare-subsidy / suita-birth-bonus 他7件）
 - 大阪府 大阪市: 残り11件（osaka-city-senior-medical / osaka-city-startup-support / osaka-city-childcare-subsidy / osaka-city-birth-bonus / osaka-city-housing-purchase 他6件）
+- 大阪府 大阪府: 残り2件（osaka-child-allowance / osaka-employment-women）
 
 ## 都道府県別
 
 | 状態 | 都道府県 | raw | verified | 残り | 次のslug |
 |---|---:|---:|---:|---:|---|
 | 未完了 | 大阪府 | 131 | 12 | 119 | hirakata-vaccination-support / toyonaka-child-medical / toyonaka-housing-seismic / toyonaka-education-support / higashiosaka-child-medical 他114件 |
-| 未完了 | 千葉県 | 189 | 105 | 84 | chiba-city-fertility-treatment / chiba-city-senior-living / kashiwa-child-medical-aid / kashiwa-juutaku-reform / kashiwa-health-checkup-subsidy 他79件 |
+| 未完了 | 千葉県 | 189 | 109 | 80 | chiba-city-fertility-treatment / chiba-city-senior-living / kashiwa-child-medical-aid / kashiwa-juutaku-reform / kashiwa-health-checkup-subsidy 他75件 |
 | 未完了 | 長野県 | 85 | 6 | 79 | matsumoto-scholarship / ueda-fertility-treatment / ueda-scholarship / iida-housing-seismic / iida-migration-support 他74件 |
 | 未完了 | 兵庫県 | 90 | 13 | 77 | himeji-scholarship / himeji-housing-seismic / nishinomiya-elderly-medical / nishinomiya-housing-eco / amagasaki-community-support 他72件 |
 | 未完了 | 島根県 | 70 | 3 | 67 | matsue-housing-reform / matsue-startup-support / izumo-housing-seismic / izumo-startup-support / matsue-childcare-subsidy 他62件 |
@@ -302,7 +302,7 @@
 | 完了 | 千葉県 | 印西市 | 9 | 9 | 0 |  |
 | 完了 | 千葉県 | 浦安市 | 12 | 12 | 0 |  |
 | 完了 | 千葉県 | 我孫子市 | 3 | 3 | 0 |  |
-| 未完了 | 千葉県 | 鎌ケ谷市 | 9 | 5 | 4 | kamagaya-childcare-subsidy / kamagaya-newlywed-rent / kamagaya-sme-support / kamagaya-bousai-equipment |
+| 完了 | 千葉県 | 鎌ケ谷市 | 9 | 9 | 0 |  |
 | 未完了 | 千葉県 | 四街道市 | 9 | 7 | 2 | yotsukaido-sme-support / yotsukaido-bousai-equipment |
 | 未完了 | 千葉県 | 市川市 | 21 | 6 | 15 | ichikawa-child-medical-aid / ichikawa-juutaku-reform / ichikawa-health-checkup-subsidy / ichikawa-scholarship-repayment / ichikawa-startup-support 他10件 |
 | 未完了 | 千葉県 | 松戸市 | 21 | 11 | 10 | matsudo-child-medical-aid / matsudo-juutaku-reform / matsudo-health-checkup-subsidy / matsudo-scholarship-repayment / matsudo-startup-support 他5件 |
