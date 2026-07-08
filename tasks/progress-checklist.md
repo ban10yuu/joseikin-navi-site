@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T16:27:51.751Z
+- 生成日時: 2026-07-08T16:30:04.817Z
 - raw unique slugs: 4375
-- verified unique slugs: 4601
-- raw内の公式確認済み slugs: 3877
-- 未照合 raw slugs: 498
-- 完了自治体/団体: 379 / 434
+- verified unique slugs: 4610
+- raw内の公式確認済み slugs: 3886
+- 未照合 raw slugs: 489
+- 完了自治体/団体: 380 / 434
 - raw gap 0 の都道府県: 37 / 47
 
 ## 次に進める候補
 
-- 長野県 岡谷市: 残り9件（okaya-nursery-support / okaya-migration-housing / okaya-hearing-aid / okaya-study-abroad-support / okaya-agri-newcomer 他4件）
 - 長野県 松本市: 残り18件（matsumoto-scholarship / matsumoto-childcare-subsidy / matsumoto-birth-bonus / matsumoto-disability-medical / matsumoto-school-lunch 他13件）
 - 長野県 上田市: 残り11件（ueda-fertility-treatment / ueda-scholarship / ueda-nursery-support / ueda-migration-housing / ueda-hearing-aid 他6件）
 - 長野県 諏訪市: 残り9件（suwa-nursery-support / suwa-migration-housing / suwa-hearing-aid / suwa-study-abroad-support / suwa-agri-newcomer 他4件）
@@ -34,13 +33,14 @@
 - 島根県 大田市: 残り9件（ooda-child-medical-aid / ooda-juutaku-reform / ooda-health-checkup-subsidy / ooda-scholarship-repayment / ooda-startup-support 他4件）
 - 島根県 島根県: 残り3件（shimane-child-support / shimane-uiturn-support / shimane-empty-house）
 - 島根県 浜田市: 残り9件（hamada-child-medical-aid / hamada-juutaku-reform / hamada-health-checkup-subsidy / hamada-scholarship-repayment / hamada-startup-support 他4件）
+- 徳島県 阿南市: 残り9件（anan-child-medical-aid / anan-juutaku-reform / anan-health-checkup-subsidy / anan-scholarship-repayment / anan-startup-support 他4件）
 
 ## 都道府県別
 
 | 状態 | 都道府県 | raw | verified | 残り | 次のslug |
 |---|---:|---:|---:|---:|---|
-| 未完了 | 長野県 | 85 | 6 | 79 | matsumoto-scholarship / ueda-fertility-treatment / ueda-scholarship / iida-housing-seismic / iida-migration-support 他74件 |
 | 未完了 | 兵庫県 | 90 | 13 | 77 | himeji-scholarship / himeji-housing-seismic / nishinomiya-elderly-medical / nishinomiya-housing-eco / amagasaki-community-support 他72件 |
+| 未完了 | 長野県 | 85 | 15 | 70 | matsumoto-scholarship / ueda-fertility-treatment / ueda-scholarship / iida-housing-seismic / iida-migration-support 他65件 |
 | 未完了 | 島根県 | 70 | 3 | 67 | matsue-housing-reform / matsue-startup-support / izumo-housing-seismic / izumo-startup-support / matsue-childcare-subsidy 他62件 |
 | 未完了 | 鳥取県 | 71 | 7 | 64 | yonago-startup-support / yonago-migration-support / tottori-city-childcare-subsidy / tottori-city-birth-bonus / tottori-city-housing-purchase 他59件 |
 | 未完了 | 福井県 | 69 | 8 | 61 | fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / tsuruga-childcare-subsidy 他56件 |
@@ -394,7 +394,7 @@
 | 完了 | 長崎県 | 長崎県 | 1 | 1 | 0 |  |
 | 完了 | 長崎県 | 長崎市 | 21 | 21 | 0 |  |
 | 完了 | 長崎県 | 諫早市 | 21 | 21 | 0 |  |
-| 未完了 | 長野県 | 岡谷市 | 9 | 0 | 9 | okaya-nursery-support / okaya-migration-housing / okaya-hearing-aid / okaya-study-abroad-support / okaya-agri-newcomer 他4件 |
+| 完了 | 長野県 | 岡谷市 | 9 | 9 | 0 |  |
 | 未完了 | 長野県 | 松本市 | 21 | 3 | 18 | matsumoto-scholarship / matsumoto-childcare-subsidy / matsumoto-birth-bonus / matsumoto-disability-medical / matsumoto-school-lunch 他13件 |
 | 未完了 | 長野県 | 上田市 | 12 | 1 | 11 | ueda-fertility-treatment / ueda-scholarship / ueda-nursery-support / ueda-migration-housing / ueda-hearing-aid 他6件 |
 | 未完了 | 長野県 | 諏訪市 | 9 | 0 | 9 | suwa-nursery-support / suwa-migration-housing / suwa-hearing-aid / suwa-study-abroad-support / suwa-agri-newcomer 他4件 |
