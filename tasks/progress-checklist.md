@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T14:54:36.315Z
+- 生成日時: 2026-07-08T14:56:17.553Z
 - raw unique slugs: 4375
-- verified unique slugs: 4377
-- raw内の公式確認済み slugs: 3653
-- 未照合 raw slugs: 722
-- 完了自治体/団体: 355 / 434
-- raw gap 0 の都道府県: 33 / 47
+- verified unique slugs: 4380
+- raw内の公式確認済み slugs: 3656
+- 未照合 raw slugs: 719
+- 完了自治体/団体: 356 / 434
+- raw gap 0 の都道府県: 34 / 47
 
 ## 次に進める候補
 
-- 千葉県 野田市: 残り3件（noda-housing-reform / noda-startup-support / noda-sme-support）
 - 大阪府 茨木市: 残り2件（ibaraki-city-education-support / ibaraki-city-housing-seismic）
 - 大阪府 岸和田市: 残り9件（kishiwada-childcare-subsidy / kishiwada-birth-bonus / kishiwada-newlywed-rent / kishiwada-disability-medical / kishiwada-school-lunch 他4件）
 - 大阪府 高槻市: 残り12件（takatsuki-child-medical / takatsuki-education-scholarship / takatsuki-vaccination-support / takatsuki-childcare-subsidy / takatsuki-birth-bonus 他7件）
@@ -34,6 +33,7 @@
 - 大分県 大分市: 残り18件（oita-city-childcare-subsidy / oita-city-birth-bonus / oita-city-newlywed-rent / oita-city-disability-medical / oita-city-scholarship 他13件）
 - 大分県 中津市: 残り8件（nakatsu-child-medical-aid / nakatsu-juutaku-reform / nakatsu-health-checkup-subsidy / nakatsu-scholarship-repayment / nakatsu-elderly-taxi 他3件）
 - 大分県 別府市: 残り18件（beppu-housing-reform / beppu-vaccination-subsidy / beppu-childcare-subsidy / beppu-birth-bonus / beppu-infertility 他13件）
+- 長崎県 佐世保市: 残り17件（sasebo-housing-seismic / sasebo-childcare-subsidy / sasebo-birth-bonus / sasebo-newlywed-rent / sasebo-disability-medical 他12件）
 
 ## 都道府県別
 
@@ -52,7 +52,6 @@
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
-| 未完了 | 千葉県 | 189 | 186 | 3 | noda-housing-reform / noda-startup-support / noda-sme-support |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
 | 完了 | 茨城県 | 99 | 99 | 0 |  |
@@ -82,6 +81,7 @@
 | 完了 | 青森県 | 66 | 66 | 0 |  |
 | 完了 | 静岡県 | 98 | 98 | 0 |  |
 | 完了 | 石川県 | 44 | 44 | 0 |  |
+| 完了 | 千葉県 | 189 | 189 | 0 |  |
 | 完了 | 全国 | 107 | 107 | 0 |  |
 | 完了 | 東京都 | 439 | 439 | 0 |  |
 | 完了 | 栃木県 | 130 | 130 | 0 |  |
@@ -315,7 +315,7 @@
 | 完了 | 千葉県 | 柏市 | 21 | 21 | 0 |  |
 | 完了 | 千葉県 | 白井市 | 9 | 9 | 0 |  |
 | 完了 | 千葉県 | 富里市 | 9 | 9 | 0 |  |
-| 未完了 | 千葉県 | 野田市 | 12 | 9 | 3 | noda-housing-reform / noda-startup-support / noda-sme-support |
+| 完了 | 千葉県 | 野田市 | 12 | 12 | 0 |  |
 | 完了 | 全国 | JR西日本あんしん社会財団 | 1 | 1 | 0 |  |
 | 完了 | 全国 | LIXIL住生活財団 | 1 | 1 | 0 |  |
 | 完了 | 全国 | SOMPO環境財団 | 1 | 1 | 0 |  |
