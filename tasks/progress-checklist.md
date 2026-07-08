@@ -4,12 +4,12 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T05:47:45.072Z
+- 生成日時: 2026-07-08T05:49:45.900Z
 - raw unique slugs: 4375
-- verified unique slugs: 3803
-- raw内の公式確認済み slugs: 3079
-- 未照合 raw slugs: 1296
-- 完了自治体/団体: 291 / 434
+- verified unique slugs: 3812
+- raw内の公式確認済み slugs: 3088
+- 未照合 raw slugs: 1287
+- 完了自治体/団体: 292 / 434
 - raw gap 0 の都道府県: 25 / 47
 
 ## 次に進める候補
@@ -58,9 +58,9 @@
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 石川県 | 44 | 11 | 33 | hakusan-housing-reform / kanazawa-housing-purchase / kanazawa-senior-dental / kanazawa-scholarship-v2 / kanazawa-sme-support 他28件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
-| 未完了 | 栃木県 | 130 | 112 | 18 | otawara-childcare-subsidy / otawara-birth-bonus / otawara-housing-eco / otawara-senior-dental / otawara-scholarship 他13件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
+| 未完了 | 栃木県 | 130 | 121 | 9 | yaita-childcare-subsidy / yaita-birth-bonus / yaita-housing-purchase / yaita-disability-medical / yaita-afterschool 他4件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
 | 完了 | 茨城県 | 99 | 99 | 0 |  |
@@ -469,7 +469,7 @@
 | 完了 | 栃木県 | 小山市 | 30 | 30 | 0 |  |
 | 完了 | 栃木県 | 真岡市 | 9 | 9 | 0 |  |
 | 完了 | 栃木県 | 足利市 | 21 | 21 | 0 |  |
-| 未完了 | 栃木県 | 大田原市 | 9 | 0 | 9 | otawara-childcare-subsidy / otawara-birth-bonus / otawara-housing-eco / otawara-senior-dental / otawara-scholarship 他4件 |
+| 完了 | 栃木県 | 大田原市 | 9 | 9 | 0 |  |
 | 完了 | 栃木県 | 栃木県 | 1 | 1 | 0 |  |
 | 未完了 | 栃木県 | 矢板市 | 9 | 0 | 9 | yaita-childcare-subsidy / yaita-birth-bonus / yaita-housing-purchase / yaita-disability-medical / yaita-afterschool 他4件 |
 | 未完了 | 奈良県 | 橿原市 | 3 | 1 | 2 | kashihara-housing-reform / kashihara-scholarship |
