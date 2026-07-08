@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T16:48:31.375Z
+- 生成日時: 2026-07-08T16:51:49.069Z
 - raw unique slugs: 4375
-- verified unique slugs: 4669
-- raw内の公式確認済み slugs: 3945
-- 未照合 raw slugs: 430
-- 完了自治体/団体: 385 / 434
-- raw gap 0 の都道府県: 37 / 47
+- verified unique slugs: 4680
+- raw内の公式確認済み slugs: 3956
+- 未照合 raw slugs: 419
+- 完了自治体/団体: 386 / 434
+- raw gap 0 の都道府県: 38 / 47
 
 ## 次に進める候補
 
-- 長野県 飯田市: 残り11件（iida-housing-seismic / iida-migration-support / iida-nursery-support / iida-migration-housing / iida-hearing-aid 他6件）
 - 鳥取県 境港市: 残り9件（sakaiminato-child-medical-aid / sakaiminato-juutaku-reform / sakaiminato-health-checkup-subsidy / sakaiminato-scholarship-repayment / sakaiminato-startup-support 他4件）
 - 鳥取県 琴浦町: 残り9件（kotoura-child-medical-aid / kotoura-juutaku-reform / kotoura-health-checkup-subsidy / kotoura-scholarship-repayment / kotoura-startup-support 他4件）
 - 鳥取県 倉吉市: 残り9件（kurayoshi-child-medical-aid / kurayoshi-juutaku-reform / kurayoshi-health-checkup-subsidy / kurayoshi-scholarship-repayment / kurayoshi-startup-support 他4件）
@@ -34,6 +33,7 @@
 - 徳島県 鳴門市: 残り9件（naruto-child-medical-aid / naruto-juutaku-reform / naruto-health-checkup-subsidy / naruto-scholarship-repayment / naruto-startup-support 他4件）
 - 奈良県 橿原市: 残り2件（kashihara-housing-reform / kashihara-scholarship）
 - 奈良県 奈良市: 残り11件（nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free / nara-city-senior-dental / nara-city-school-lunch 他6件）
+- 富山県 高岡市: 残り9件（takaoka-child-medical-aid / takaoka-juutaku-reform / takaoka-health-checkup-subsidy / takaoka-scholarship-repayment / takaoka-startup-support 他4件）
 
 ## 都道府県別
 
@@ -47,7 +47,6 @@
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
-| 未完了 | 長野県 | 85 | 74 | 11 | iida-housing-seismic / iida-migration-support / iida-nursery-support / iida-migration-housing / iida-hearing-aid 他6件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
@@ -83,6 +82,7 @@
 | 完了 | 大阪府 | 131 | 131 | 0 |  |
 | 完了 | 大分県 | 56 | 56 | 0 |  |
 | 完了 | 長崎県 | 63 | 63 | 0 |  |
+| 完了 | 長野県 | 85 | 85 | 0 |  |
 | 完了 | 東京都 | 439 | 439 | 0 |  |
 | 完了 | 栃木県 | 130 | 130 | 0 |  |
 | 完了 | 福岡県 | 138 | 138 | 0 |  |
@@ -400,7 +400,7 @@
 | 完了 | 長野県 | 諏訪市 | 9 | 9 | 0 |  |
 | 完了 | 長野県 | 長野県 | 1 | 1 | 0 |  |
 | 完了 | 長野県 | 長野市 | 21 | 21 | 0 |  |
-| 未完了 | 長野県 | 飯田市 | 12 | 1 | 11 | iida-housing-seismic / iida-migration-support / iida-nursery-support / iida-migration-housing / iida-hearing-aid 他6件 |
+| 完了 | 長野県 | 飯田市 | 12 | 12 | 0 |  |
 | 未完了 | 鳥取県 | 境港市 | 9 | 0 | 9 | sakaiminato-child-medical-aid / sakaiminato-juutaku-reform / sakaiminato-health-checkup-subsidy / sakaiminato-scholarship-repayment / sakaiminato-startup-support 他4件 |
 | 未完了 | 鳥取県 | 琴浦町 | 9 | 0 | 9 | kotoura-child-medical-aid / kotoura-juutaku-reform / kotoura-health-checkup-subsidy / kotoura-scholarship-repayment / kotoura-startup-support 他4件 |
 | 未完了 | 鳥取県 | 倉吉市 | 9 | 0 | 9 | kurayoshi-child-medical-aid / kurayoshi-juutaku-reform / kurayoshi-health-checkup-subsidy / kurayoshi-scholarship-repayment / kurayoshi-startup-support 他4件 |
