@@ -806,3 +806,23 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 - 結果: code 124。最後の出力は `Creating an optimized production build ...`。Next.js 16.1.6 (Turbopack) の production optimization 開始後、180秒間追加ログなし。
 - 代替検証: `npx eslint src/data/grants/verified-local-misc-2026.ts`、`git diff --check`、別府市18件のURL到達確認、`node scripts/audit-raw-verified-gaps.mjs --prefecture 大分県 --limit 25`、`npm run audit:coverage` は通過。
 - 次に見る候補は前回同様、Turbopack/Next.js最適化、静的生成対象増加、巨大な助成金データ、メモリ、外部URL参照、未関係のPinterest系変更。全国公式確認の本線は止めず、大きな節目で上限付き build または `next build --debug` 相当を短時間で再確認する。
+
+## Current progress update 2026-07-09 長崎県再開地点
+
+- Completed commits in this continuation:
+  - `d534e5d 別府市18件を公式補正`
+  - `5f6f005 佐世保市17件を公式補正`
+  - `5fa99de 長崎県1件を公式補正`
+- Current totals after `node scripts/generate-progress-checklist.mjs`: remaining raw slugs 537, completed municipalities 377/434.
+- Latest validations passed:
+  - 別府市18件: eslint, diff-check, URL 18/18, 大分県 raw gap 0, `npm run audit:coverage` failures 0.
+  - 大分県 completion build: `NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npm run build` exited 124 at `Creating an optimized production build ...`.
+  - 佐世保市17件: eslint, diff-check, URL 17/17, `npm run audit:coverage` failures 0.
+  - 長崎県庁1件: eslint, diff-check, URL 1/1, `npm run audit:coverage` failures 0.
+- Next restart point: 長崎県 長崎市 18件:
+  `nagasaki-city-fertility-treatment`, `nagasaki-city-childcare-subsidy`, `nagasaki-city-birth-bonus`, `nagasaki-city-housing-purchase`, `nagasaki-city-infertility`, `nagasaki-city-school-lunch`, `nagasaki-city-nursing-equipment`, `nagasaki-city-energy-support`, `nagasaki-city-seismic-diagnosis`, `nagasaki-child-medical-aid`, `nagasaki-juutaku-reform`, `nagasaki-health-checkup-subsidy`, `nagasaki-scholarship-repayment`, `nagasaki-startup-support`, `nagasaki-elderly-taxi`, `nagasaki-water-saving`, `nagasaki-block-wall-removal`, `nagasaki-school-lunch-subsidy`.
+- Already inspected for 長崎市:
+  - Existing verified entries include `nagasaki-city-child-medical`, `nagasaki-comfortable-home-renovation-2026`, `nagasaki-pregnant-support-benefit-2026`, `nagasaki-startup-growth-support-2026`, `nagasaki-city-housing-seismic`, `nagasaki-city-sme-support`, `nagasaki-city-energy-saving-appliance-2026`, `nagasaki-city-company-scholarship-repayment-support-subsidy-2026`.
+  - Run next:
+    `node scripts/audit-raw-verified-gaps.mjs --prefecture 長崎県 --limit 25`
+    then official source checks for 長崎市18件.
