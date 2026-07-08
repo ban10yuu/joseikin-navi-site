@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T16:02:32.788Z
+- 生成日時: 2026-07-08T16:07:59.068Z
 - raw unique slugs: 4375
-- verified unique slugs: 4526
-- raw内の公式確認済み slugs: 3802
-- 未照合 raw slugs: 573
-- 完了自治体/団体: 374 / 434
-- raw gap 0 の都道府県: 35 / 47
+- verified unique slugs: 4544
+- raw内の公式確認済み slugs: 3820
+- 未照合 raw slugs: 555
+- 完了自治体/団体: 375 / 434
+- raw gap 0 の都道府県: 36 / 47
 
 ## 次に進める候補
 
-- 大分県 別府市: 残り18件（beppu-housing-reform / beppu-vaccination-subsidy / beppu-childcare-subsidy / beppu-birth-bonus / beppu-infertility 他13件）
 - 長崎県 佐世保市: 残り17件（sasebo-housing-seismic / sasebo-childcare-subsidy / sasebo-birth-bonus / sasebo-newlywed-rent / sasebo-disability-medical 他12件）
 - 長崎県 長崎県: 残り1件（nagasaki-living-island-life-support）
 - 長崎県 長崎市: 残り18件（nagasaki-city-fertility-treatment / nagasaki-city-childcare-subsidy / nagasaki-city-birth-bonus / nagasaki-city-housing-purchase / nagasaki-city-infertility 他13件）
@@ -34,6 +33,7 @@
 - 鳥取県 北栄町: 残り9件（hokuei-child-medical-aid / hokuei-juutaku-reform / hokuei-health-checkup-subsidy / hokuei-scholarship-repayment / hokuei-startup-support 他4件）
 - 島根県 安来市: 残り9件（yasugi-child-medical-aid / yasugi-juutaku-reform / yasugi-health-checkup-subsidy / yasugi-scholarship-repayment / yasugi-startup-support 他4件）
 - 島根県 益田市: 残り9件（masuda-child-medical-aid / masuda-juutaku-reform / masuda-health-checkup-subsidy / masuda-scholarship-repayment / masuda-startup-support 他4件）
+- 島根県 出雲市: 残り10件（izumo-housing-seismic / izumo-startup-support / izumo-child-medical-aid / izumo-juutaku-reform / izumo-health-checkup-subsidy 他5件）
 
 ## 都道府県別
 
@@ -48,7 +48,6 @@
 | 未完了 | 長崎県 | 63 | 6 | 57 | nagasaki-city-fertility-treatment / sasebo-housing-seismic / isahaya-child-medical / isahaya-housing-reform / isahaya-vaccination-support 他52件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
-| 未完了 | 大分県 | 56 | 38 | 18 | beppu-housing-reform / beppu-vaccination-subsidy / beppu-childcare-subsidy / beppu-birth-bonus / beppu-infertility 他13件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
@@ -83,6 +82,7 @@
 | 完了 | 千葉県 | 189 | 189 | 0 |  |
 | 完了 | 全国 | 107 | 107 | 0 |  |
 | 完了 | 大阪府 | 131 | 131 | 0 |  |
+| 完了 | 大分県 | 56 | 56 | 0 |  |
 | 完了 | 東京都 | 439 | 439 | 0 |  |
 | 完了 | 栃木県 | 130 | 130 | 0 |  |
 | 完了 | 福岡県 | 138 | 138 | 0 |  |
@@ -389,7 +389,7 @@
 | 完了 | 大分県 | 大分県 | 3 | 3 | 0 |  |
 | 完了 | 大分県 | 大分市 | 21 | 21 | 0 |  |
 | 完了 | 大分県 | 中津市 | 11 | 11 | 0 |  |
-| 未完了 | 大分県 | 別府市 | 21 | 3 | 18 | beppu-housing-reform / beppu-vaccination-subsidy / beppu-childcare-subsidy / beppu-birth-bonus / beppu-infertility 他13件 |
+| 完了 | 大分県 | 別府市 | 21 | 21 | 0 |  |
 | 未完了 | 長崎県 | 佐世保市 | 20 | 3 | 17 | sasebo-housing-seismic / sasebo-childcare-subsidy / sasebo-birth-bonus / sasebo-newlywed-rent / sasebo-disability-medical 他12件 |
 | 未完了 | 長崎県 | 長崎県 | 1 | 0 | 1 | nagasaki-living-island-life-support |
 | 未完了 | 長崎県 | 長崎市 | 21 | 3 | 18 | nagasaki-city-fertility-treatment / nagasaki-city-childcare-subsidy / nagasaki-city-birth-bonus / nagasaki-city-housing-purchase / nagasaki-city-infertility 他13件 |
