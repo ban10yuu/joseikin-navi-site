@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T14:09:44.495Z
+- 生成日時: 2026-07-08T14:11:36.339Z
 - raw unique slugs: 4375
-- verified unique slugs: 4280
-- raw内の公式確認済み slugs: 3556
-- 未照合 raw slugs: 819
-- 完了自治体/団体: 339 / 434
-- raw gap 0 の都道府県: 32 / 47
+- verified unique slugs: 4289
+- raw内の公式確認済み slugs: 3565
+- 未照合 raw slugs: 810
+- 完了自治体/団体: 340 / 434
+- raw gap 0 の都道府県: 33 / 47
 
 ## 次に進める候補
 
-- 石川県 白山市: 残り9件（hakusan-housing-reform / hakusan-child-medical-aid / hakusan-juutaku-reform / hakusan-health-checkup-subsidy / hakusan-scholarship-repayment 他4件）
 - 千葉県 印西市: 残り4件（inzai-newlywed-rent / inzai-sme-support / inzai-elderly-support / inzai-bousai-equipment）
 - 千葉県 浦安市: 残り2件（urayasu-infertility-treatment / urayasu-youth-employment）
 - 千葉県 我孫子市: 残り1件（abiko-housing-reform）
@@ -34,6 +33,7 @@
 - 大阪府 茨木市: 残り2件（ibaraki-city-education-support / ibaraki-city-housing-seismic）
 - 大阪府 岸和田市: 残り9件（kishiwada-childcare-subsidy / kishiwada-birth-bonus / kishiwada-newlywed-rent / kishiwada-disability-medical / kishiwada-school-lunch 他4件）
 - 大阪府 高槻市: 残り12件（takatsuki-child-medical / takatsuki-education-scholarship / takatsuki-vaccination-support / takatsuki-childcare-subsidy / takatsuki-birth-bonus 他7件）
+- 大阪府 堺市: 残り11件（sakai-housing-reform / sakai-senior-support / sakai-childcare-subsidy / sakai-birth-bonus / sakai-housing-purchase 他6件）
 
 ## 都道府県別
 
@@ -53,7 +53,6 @@
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
-| 未完了 | 石川県 | 44 | 35 | 9 | hakusan-housing-reform / hakusan-child-medical-aid / hakusan-juutaku-reform / hakusan-health-checkup-subsidy / hakusan-scholarship-repayment 他4件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
 | 完了 | 茨城県 | 99 | 99 | 0 |  |
@@ -82,6 +81,7 @@
 | 完了 | 神奈川県 | 135 | 135 | 0 |  |
 | 完了 | 青森県 | 66 | 66 | 0 |  |
 | 完了 | 静岡県 | 98 | 98 | 0 |  |
+| 完了 | 石川県 | 44 | 44 | 0 |  |
 | 完了 | 全国 | 107 | 107 | 0 |  |
 | 完了 | 東京都 | 439 | 439 | 0 |  |
 | 完了 | 栃木県 | 130 | 130 | 0 |  |
@@ -298,7 +298,7 @@
 | 完了 | 石川県 | 金沢市 | 21 | 21 | 0 |  |
 | 完了 | 石川県 | 小松市 | 9 | 9 | 0 |  |
 | 完了 | 石川県 | 石川県 | 3 | 3 | 0 |  |
-| 未完了 | 石川県 | 白山市 | 11 | 2 | 9 | hakusan-housing-reform / hakusan-child-medical-aid / hakusan-juutaku-reform / hakusan-health-checkup-subsidy / hakusan-scholarship-repayment 他4件 |
+| 完了 | 石川県 | 白山市 | 11 | 11 | 0 |  |
 | 未完了 | 千葉県 | 印西市 | 9 | 5 | 4 | inzai-newlywed-rent / inzai-sme-support / inzai-elderly-support / inzai-bousai-equipment |
 | 未完了 | 千葉県 | 浦安市 | 12 | 10 | 2 | urayasu-infertility-treatment / urayasu-youth-employment |
 | 未完了 | 千葉県 | 我孫子市 | 3 | 2 | 1 | abiko-housing-reform |
