@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T15:01:45.992Z
+- 生成日時: 2026-07-08T15:11:27.710Z
 - raw unique slugs: 4375
-- verified unique slugs: 4382
-- raw内の公式確認済み slugs: 3658
-- 未照合 raw slugs: 717
-- 完了自治体/団体: 357 / 434
+- verified unique slugs: 4391
+- raw内の公式確認済み slugs: 3667
+- 未照合 raw slugs: 708
+- 完了自治体/団体: 358 / 434
 - raw gap 0 の都道府県: 34 / 47
 
 ## 次に進める候補
 
-- 大阪府 岸和田市: 残り9件（kishiwada-childcare-subsidy / kishiwada-birth-bonus / kishiwada-newlywed-rent / kishiwada-disability-medical / kishiwada-school-lunch 他4件）
 - 大阪府 高槻市: 残り12件（takatsuki-child-medical / takatsuki-education-scholarship / takatsuki-vaccination-support / takatsuki-childcare-subsidy / takatsuki-birth-bonus 他7件）
 - 大阪府 堺市: 残り11件（sakai-housing-reform / sakai-senior-support / sakai-childcare-subsidy / sakai-birth-bonus / sakai-housing-purchase 他6件）
 - 大阪府 寝屋川市: 残り11件（neyagawa-senior-medical / neyagawa-housing-seismic / neyagawa-childcare-subsidy / neyagawa-birth-bonus / neyagawa-housing-purchase 他6件）
@@ -34,12 +33,13 @@
 - 大分県 別府市: 残り18件（beppu-housing-reform / beppu-vaccination-subsidy / beppu-childcare-subsidy / beppu-birth-bonus / beppu-infertility 他13件）
 - 長崎県 佐世保市: 残り17件（sasebo-housing-seismic / sasebo-childcare-subsidy / sasebo-birth-bonus / sasebo-newlywed-rent / sasebo-disability-medical 他12件）
 - 長崎県 長崎県: 残り1件（nagasaki-living-island-life-support）
+- 長崎県 長崎市: 残り18件（nagasaki-city-fertility-treatment / nagasaki-city-childcare-subsidy / nagasaki-city-birth-bonus / nagasaki-city-housing-purchase / nagasaki-city-infertility 他13件）
 
 ## 都道府県別
 
 | 状態 | 都道府県 | raw | verified | 残り | 次のslug |
 |---|---:|---:|---:|---:|---|
-| 未完了 | 大阪府 | 131 | 14 | 117 | hirakata-vaccination-support / toyonaka-child-medical / toyonaka-housing-seismic / toyonaka-education-support / higashiosaka-child-medical 他112件 |
+| 未完了 | 大阪府 | 131 | 23 | 108 | hirakata-vaccination-support / toyonaka-child-medical / toyonaka-housing-seismic / toyonaka-education-support / higashiosaka-child-medical 他103件 |
 | 未完了 | 長野県 | 85 | 6 | 79 | matsumoto-scholarship / ueda-fertility-treatment / ueda-scholarship / iida-housing-seismic / iida-migration-support 他74件 |
 | 未完了 | 兵庫県 | 90 | 13 | 77 | himeji-scholarship / himeji-housing-seismic / nishinomiya-elderly-medical / nishinomiya-housing-eco / amagasaki-community-support 他72件 |
 | 未完了 | 島根県 | 70 | 3 | 67 | matsue-housing-reform / matsue-startup-support / izumo-housing-seismic / izumo-startup-support / matsue-childcare-subsidy 他62件 |
@@ -371,7 +371,7 @@
 | 完了 | 全国 | 文部科学省 | 3 | 3 | 0 |  |
 | 完了 | 全国 | 明治安田生命保険 | 1 | 1 | 0 |  |
 | 完了 | 大阪府 | 茨木市 | 3 | 3 | 0 |  |
-| 未完了 | 大阪府 | 岸和田市 | 12 | 3 | 9 | kishiwada-childcare-subsidy / kishiwada-birth-bonus / kishiwada-newlywed-rent / kishiwada-disability-medical / kishiwada-school-lunch 他4件 |
+| 完了 | 大阪府 | 岸和田市 | 12 | 12 | 0 |  |
 | 未完了 | 大阪府 | 高槻市 | 12 | 0 | 12 | takatsuki-child-medical / takatsuki-education-scholarship / takatsuki-vaccination-support / takatsuki-childcare-subsidy / takatsuki-birth-bonus 他7件 |
 | 未完了 | 大阪府 | 堺市 | 12 | 1 | 11 | sakai-housing-reform / sakai-senior-support / sakai-childcare-subsidy / sakai-birth-bonus / sakai-housing-purchase 他6件 |
 | 未完了 | 大阪府 | 寝屋川市 | 12 | 1 | 11 | neyagawa-senior-medical / neyagawa-housing-seismic / neyagawa-childcare-subsidy / neyagawa-birth-bonus / neyagawa-housing-purchase 他6件 |
