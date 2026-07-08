@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T13:51:11.950Z
+- 生成日時: 2026-07-08T13:53:52.850Z
 - raw unique slugs: 4375
-- verified unique slugs: 4228
-- raw内の公式確認済み slugs: 3504
-- 未照合 raw slugs: 871
-- 完了自治体/団体: 335 / 434
+- verified unique slugs: 4237
+- raw内の公式確認済み slugs: 3513
+- 未照合 raw slugs: 862
+- 完了自治体/団体: 336 / 434
 - raw gap 0 の都道府県: 31 / 47
 
 ## 次に進める候補
 
-- 静岡県 富士宮市: 残り9件（fujinomiya-papa-mama-class / fujinomiya-solar-panel / fujinomiya-adult-vaccine / fujinomiya-school-ict / fujinomiya-fishery-support 他4件）
 - 静岡県 富士市: 残り19件（fuji-city-senior-hearing-aid / fuji-city-childcare-subsidy / fuji-city-birth-bonus / fuji-city-housing-purchase / fuji-city-infertility 他14件）
 - 石川県 金沢市: 残り15件（kanazawa-housing-purchase / kanazawa-senior-dental / kanazawa-scholarship-v2 / kanazawa-sme-support / kanazawa-nursing-equipment 他10件）
 - 石川県 小松市: 残り9件（komatsu-child-medical-aid / komatsu-juutaku-reform / komatsu-health-checkup-subsidy / komatsu-scholarship-repayment / komatsu-startup-support 他4件）
@@ -34,6 +33,7 @@
 - 千葉県 柏市: 残り12件（kashiwa-child-medical-aid / kashiwa-juutaku-reform / kashiwa-health-checkup-subsidy / kashiwa-scholarship-repayment / kashiwa-startup-support 他7件）
 - 千葉県 白井市: 残り4件（shiroi-newlywed-rent / shiroi-sme-support / shiroi-elderly-support / shiroi-bousai-equipment）
 - 千葉県 富里市: 残り4件（tomisato-disability-medical / tomisato-sme-support / tomisato-elderly-support / tomisato-bousai-equipment）
+- 千葉県 野田市: 残り3件（noda-housing-reform / noda-startup-support / noda-sme-support）
 
 ## 都道府県別
 
@@ -52,7 +52,7 @@
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 石川県 | 44 | 11 | 33 | hakusan-housing-reform / kanazawa-housing-purchase / kanazawa-senior-dental / kanazawa-scholarship-v2 / kanazawa-sme-support 他28件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
-| 未完了 | 静岡県 | 98 | 70 | 28 | fuji-city-senior-hearing-aid / fuji-city-childcare-subsidy / fuji-city-birth-bonus / fuji-city-housing-purchase / fuji-city-infertility 他23件 |
+| 未完了 | 静岡県 | 98 | 79 | 19 | fuji-city-senior-hearing-aid / fuji-city-childcare-subsidy / fuji-city-birth-bonus / fuji-city-housing-purchase / fuji-city-infertility 他14件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
@@ -293,7 +293,7 @@
 | 完了 | 静岡県 | 島田市 | 9 | 9 | 0 |  |
 | 完了 | 静岡県 | 磐田市 | 3 | 3 | 0 |  |
 | 完了 | 静岡県 | 浜松市 | 12 | 12 | 0 |  |
-| 未完了 | 静岡県 | 富士宮市 | 9 | 0 | 9 | fujinomiya-papa-mama-class / fujinomiya-solar-panel / fujinomiya-adult-vaccine / fujinomiya-school-ict / fujinomiya-fishery-support 他4件 |
+| 完了 | 静岡県 | 富士宮市 | 9 | 9 | 0 |  |
 | 未完了 | 静岡県 | 富士市 | 21 | 2 | 19 | fuji-city-senior-hearing-aid / fuji-city-childcare-subsidy / fuji-city-birth-bonus / fuji-city-housing-purchase / fuji-city-infertility 他14件 |
 | 未完了 | 石川県 | 金沢市 | 21 | 6 | 15 | kanazawa-housing-purchase / kanazawa-senior-dental / kanazawa-scholarship-v2 / kanazawa-sme-support / kanazawa-nursing-equipment 他10件 |
 | 未完了 | 石川県 | 小松市 | 9 | 0 | 9 | komatsu-child-medical-aid / komatsu-juutaku-reform / komatsu-health-checkup-subsidy / komatsu-scholarship-repayment / komatsu-startup-support 他4件 |
