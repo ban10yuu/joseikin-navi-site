@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T16:37:24.347Z
+- 生成日時: 2026-07-08T16:40:37.825Z
 - raw unique slugs: 4375
-- verified unique slugs: 4639
-- raw内の公式確認済み slugs: 3915
-- 未照合 raw slugs: 460
-- 完了自治体/団体: 382 / 434
+- verified unique slugs: 4648
+- raw内の公式確認済み slugs: 3924
+- 未照合 raw slugs: 451
+- 完了自治体/団体: 383 / 434
 - raw gap 0 の都道府県: 37 / 47
 
 ## 次に進める候補
 
-- 長野県 諏訪市: 残り9件（suwa-nursery-support / suwa-migration-housing / suwa-hearing-aid / suwa-study-abroad-support / suwa-agri-newcomer 他4件）
 - 長野県 長野県: 残り1件（nagano-disaster-mudslide-support）
 - 長野県 長野市: 残り20件（nagano-city-childcare-subsidy / nagano-city-birth-bonus / nagano-city-barrier-free / nagano-city-senior-dental / nagano-city-school-lunch 他15件）
 - 長野県 飯田市: 残り11件（iida-housing-seismic / iida-migration-support / iida-nursery-support / iida-migration-housing / iida-hearing-aid 他6件）
@@ -34,6 +33,7 @@
 - 徳島県 阿南市: 残り9件（anan-child-medical-aid / anan-juutaku-reform / anan-health-checkup-subsidy / anan-scholarship-repayment / anan-startup-support 他4件）
 - 徳島県 徳島県: 残り2件（tokushima-sudachi-farming / tokushima-satellite-office）
 - 徳島県 徳島市: 残り10件（tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他5件）
+- 徳島県 鳴門市: 残り9件（naruto-child-medical-aid / naruto-juutaku-reform / naruto-health-checkup-subsidy / naruto-scholarship-repayment / naruto-startup-support 他4件）
 
 ## 都道府県別
 
@@ -44,8 +44,8 @@
 | 未完了 | 鳥取県 | 71 | 7 | 64 | yonago-startup-support / yonago-migration-support / tottori-city-childcare-subsidy / tottori-city-birth-bonus / tottori-city-housing-purchase 他59件 |
 | 未完了 | 福井県 | 69 | 8 | 61 | fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / tsuruga-childcare-subsidy 他56件 |
 | 未完了 | 福島県 | 72 | 12 | 60 | koriyama-infertility-treatment / aizu-housing-seismic / aizu-senior-medical / sukagawa-startup-support / sukagawa-migration-support 他55件 |
-| 未完了 | 長野県 | 85 | 44 | 41 | iida-housing-seismic / iida-migration-support / nagano-city-childcare-subsidy / nagano-city-birth-bonus / nagano-city-barrier-free 他36件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
+| 未完了 | 長野県 | 85 | 53 | 32 | iida-housing-seismic / iida-migration-support / nagano-city-childcare-subsidy / nagano-city-birth-bonus / nagano-city-barrier-free 他27件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
@@ -397,7 +397,7 @@
 | 完了 | 長野県 | 岡谷市 | 9 | 9 | 0 |  |
 | 完了 | 長野県 | 松本市 | 21 | 21 | 0 |  |
 | 完了 | 長野県 | 上田市 | 12 | 12 | 0 |  |
-| 未完了 | 長野県 | 諏訪市 | 9 | 0 | 9 | suwa-nursery-support / suwa-migration-housing / suwa-hearing-aid / suwa-study-abroad-support / suwa-agri-newcomer 他4件 |
+| 完了 | 長野県 | 諏訪市 | 9 | 9 | 0 |  |
 | 未完了 | 長野県 | 長野県 | 1 | 0 | 1 | nagano-disaster-mudslide-support |
 | 未完了 | 長野県 | 長野市 | 21 | 1 | 20 | nagano-city-childcare-subsidy / nagano-city-birth-bonus / nagano-city-barrier-free / nagano-city-senior-dental / nagano-city-school-lunch 他15件 |
 | 未完了 | 長野県 | 飯田市 | 12 | 1 | 11 | iida-housing-seismic / iida-migration-support / iida-nursery-support / iida-migration-housing / iida-hearing-aid 他6件 |
