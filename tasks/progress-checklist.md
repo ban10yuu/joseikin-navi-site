@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T14:41:35.047Z
+- 生成日時: 2026-07-08T14:44:55.994Z
 - raw unique slugs: 4375
-- verified unique slugs: 4343
-- raw内の公式確認済み slugs: 3619
-- 未照合 raw slugs: 756
-- 完了自治体/団体: 350 / 434
+- verified unique slugs: 4353
+- raw内の公式確認済み slugs: 3629
+- 未照合 raw slugs: 746
+- 完了自治体/団体: 351 / 434
 - raw gap 0 の都道府県: 33 / 47
 
 ## 次に進める候補
 
-- 千葉県 船橋市: 残り10件（funabashi-child-medical-aid / funabashi-juutaku-reform / funabashi-health-checkup-subsidy / funabashi-scholarship-repayment / funabashi-startup-support 他5件）
 - 千葉県 袖ケ浦市: 残り4件（sodegaura-childcare-subsidy / sodegaura-newlywed-rent / sodegaura-sme-support / sodegaura-bousai-equipment）
 - 千葉県 柏市: 残り12件（kashiwa-child-medical-aid / kashiwa-juutaku-reform / kashiwa-health-checkup-subsidy / kashiwa-scholarship-repayment / kashiwa-startup-support 他7件）
 - 千葉県 白井市: 残り4件（shiroi-newlywed-rent / shiroi-sme-support / shiroi-elderly-support / shiroi-bousai-equipment）
@@ -34,6 +33,7 @@
 - 大阪府 東大阪市: 残り12件（higashiosaka-child-medical / higashiosaka-startup-support / higashiosaka-senior-medical / higashiosaka-childcare-subsidy / higashiosaka-birth-bonus 他7件）
 - 大阪府 八尾市: 残り11件（yao-housing-reform / yao-startup-support / yao-childcare-subsidy / yao-birth-bonus / yao-newlywed-rent 他6件）
 - 大阪府 豊中市: 残り12件（toyonaka-child-medical / toyonaka-housing-seismic / toyonaka-education-support / toyonaka-childcare-subsidy / toyonaka-birth-bonus 他7件）
+- 大阪府 枚方市: 残り10件（hirakata-vaccination-support / hirakata-childcare-subsidy / hirakata-birth-bonus / hirakata-housing-purchase / hirakata-infertility 他5件）
 
 ## 都道府県別
 
@@ -48,9 +48,9 @@
 | 未完了 | 福島県 | 72 | 12 | 60 | koriyama-infertility-treatment / aizu-housing-seismic / aizu-senior-medical / sukagawa-startup-support / sukagawa-migration-support 他55件 |
 | 未完了 | 長崎県 | 63 | 6 | 57 | nagasaki-city-fertility-treatment / sasebo-housing-seismic / isahaya-child-medical / isahaya-housing-reform / isahaya-vaccination-support 他52件 |
 | 未完了 | 大分県 | 56 | 11 | 45 | beppu-housing-reform / beppu-vaccination-subsidy / oita-city-childcare-subsidy / oita-city-birth-bonus / oita-city-newlywed-rent 他40件 |
-| 未完了 | 千葉県 | 189 | 152 | 37 | kashiwa-child-medical-aid / kashiwa-juutaku-reform / kashiwa-health-checkup-subsidy / kashiwa-scholarship-repayment / kashiwa-startup-support 他32件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
+| 未完了 | 千葉県 | 189 | 162 | 27 | kashiwa-child-medical-aid / kashiwa-juutaku-reform / kashiwa-health-checkup-subsidy / kashiwa-scholarship-repayment / kashiwa-startup-support 他22件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
@@ -310,7 +310,7 @@
 | 完了 | 千葉県 | 千葉県 | 1 | 1 | 0 |  |
 | 完了 | 千葉県 | 千葉県（各市町村） | 2 | 2 | 0 |  |
 | 完了 | 千葉県 | 千葉市 | 12 | 12 | 0 |  |
-| 未完了 | 千葉県 | 船橋市 | 18 | 8 | 10 | funabashi-child-medical-aid / funabashi-juutaku-reform / funabashi-health-checkup-subsidy / funabashi-scholarship-repayment / funabashi-startup-support 他5件 |
+| 完了 | 千葉県 | 船橋市 | 18 | 18 | 0 |  |
 | 未完了 | 千葉県 | 袖ケ浦市 | 9 | 5 | 4 | sodegaura-childcare-subsidy / sodegaura-newlywed-rent / sodegaura-sme-support / sodegaura-bousai-equipment |
 | 未完了 | 千葉県 | 柏市 | 21 | 9 | 12 | kashiwa-child-medical-aid / kashiwa-juutaku-reform / kashiwa-health-checkup-subsidy / kashiwa-scholarship-repayment / kashiwa-startup-support 他7件 |
 | 未完了 | 千葉県 | 白井市 | 9 | 5 | 4 | shiroi-newlywed-rent / shiroi-sme-support / shiroi-elderly-support / shiroi-bousai-equipment |
