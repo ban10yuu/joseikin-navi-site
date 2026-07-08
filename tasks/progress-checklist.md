@@ -4,18 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T17:59:05.054Z
+- 生成日時: 2026-07-08T18:05:16.445Z
 - raw unique slugs: 4375
-- verified unique slugs: 4841
-- raw内の公式確認済み slugs: 4117
-- 未照合 raw slugs: 258
-- 完了自治体/団体: 403 / 434
-- raw gap 0 の都道府県: 41 / 47
+- verified unique slugs: 4854
+- raw内の公式確認済み slugs: 4130
+- 未照合 raw slugs: 245
+- 完了自治体/団体: 405 / 434
+- raw gap 0 の都道府県: 42 / 47
 
 ## 次に進める候補
 
-- 奈良県 橿原市: 残り2件（kashihara-housing-reform / kashihara-scholarship）
-- 奈良県 奈良市: 残り11件（nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free / nara-city-senior-dental / nara-city-school-lunch 他6件）
 - 富山県 高岡市: 残り9件（takaoka-child-medical-aid / takaoka-juutaku-reform / takaoka-health-checkup-subsidy / takaoka-scholarship-repayment / takaoka-startup-support 他4件）
 - 富山県 射水市: 残り9件（imizu-child-medical-aid / imizu-juutaku-reform / imizu-health-checkup-subsidy / imizu-scholarship-repayment / imizu-startup-support 他4件）
 - 富山県 富山県: 残り2件（toyama-housing-renovation / toyama-pharmaceutical-industry）
@@ -34,6 +32,8 @@
 - 福島県 須賀川市: 残り20件（sukagawa-startup-support / sukagawa-migration-support / sukagawa-childcare-subsidy / sukagawa-birth-bonus / sukagawa-housing-purchase 他15件）
 - 福島県 福島県: 残り1件（fukushima-reconstruction）
 - 福島県 福島市: 残り9件（fukushima-city-childcare-subsidy / fukushima-city-parenting-allowance / fukushima-city-housing-purchase / fukushima-city-senior-dental / fukushima-city-afterschool 他4件）
+- 兵庫県 伊丹市: 残り2件（itami-housing-reform / itami-infertility-treatment）
+- 兵庫県 加古川市: 残り10件（kakogawa-housing-earthquake / kakogawa-childcare-subsidy / kakogawa-birth-bonus / kakogawa-newlywed-rent / kakogawa-disability-medical 他5件）
 
 ## 都道府県別
 
@@ -43,7 +43,6 @@
 | 未完了 | 福井県 | 69 | 8 | 61 | fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / tsuruga-childcare-subsidy 他56件 |
 | 未完了 | 福島県 | 72 | 12 | 60 | koriyama-infertility-treatment / aizu-housing-seismic / aizu-senior-medical / sukagawa-startup-support / sukagawa-migration-support 他55件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
-| 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
@@ -85,6 +84,7 @@
 | 完了 | 東京都 | 439 | 439 | 0 |  |
 | 完了 | 徳島県 | 42 | 42 | 0 |  |
 | 完了 | 栃木県 | 130 | 130 | 0 |  |
+| 完了 | 奈良県 | 16 | 16 | 0 |  |
 | 完了 | 福岡県 | 138 | 138 | 0 |  |
 | 完了 | 北海道 | 175 | 175 | 0 |  |
 
@@ -472,9 +472,9 @@
 | 完了 | 栃木県 | 大田原市 | 9 | 9 | 0 |  |
 | 完了 | 栃木県 | 栃木県 | 1 | 1 | 0 |  |
 | 完了 | 栃木県 | 矢板市 | 9 | 9 | 0 |  |
-| 未完了 | 奈良県 | 橿原市 | 3 | 1 | 2 | kashihara-housing-reform / kashihara-scholarship |
+| 完了 | 奈良県 | 橿原市 | 3 | 3 | 0 |  |
 | 完了 | 奈良県 | 奈良県 | 1 | 1 | 0 |  |
-| 未完了 | 奈良県 | 奈良市 | 12 | 1 | 11 | nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free / nara-city-senior-dental / nara-city-school-lunch 他6件 |
+| 完了 | 奈良県 | 奈良市 | 12 | 12 | 0 |  |
 | 未完了 | 富山県 | 高岡市 | 12 | 3 | 9 | takaoka-child-medical-aid / takaoka-juutaku-reform / takaoka-health-checkup-subsidy / takaoka-scholarship-repayment / takaoka-startup-support 他4件 |
 | 未完了 | 富山県 | 射水市 | 9 | 0 | 9 | imizu-child-medical-aid / imizu-juutaku-reform / imizu-health-checkup-subsidy / imizu-scholarship-repayment / imizu-startup-support 他4件 |
 | 未完了 | 富山県 | 富山県 | 3 | 1 | 2 | toyama-housing-renovation / toyama-pharmaceutical-industry |
