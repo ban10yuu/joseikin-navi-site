@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T17:37:23.343Z
+- 生成日時: 2026-07-08T17:39:53.548Z
 - raw unique slugs: 4375
-- verified unique slugs: 4790
-- raw内の公式確認済み slugs: 4066
-- 未照合 raw slugs: 309
-- 完了自治体/団体: 396 / 434
+- verified unique slugs: 4799
+- raw内の公式確認済み slugs: 4075
+- 未照合 raw slugs: 300
+- 完了自治体/団体: 397 / 434
 - raw gap 0 の都道府県: 39 / 47
 
 ## 次に進める候補
 
-- 島根県 大田市: 残り9件（ooda-child-medical-aid / ooda-juutaku-reform / ooda-health-checkup-subsidy / ooda-scholarship-repayment / ooda-startup-support 他4件）
 - 島根県 島根県: 残り3件（shimane-child-support / shimane-uiturn-support / shimane-empty-house）
 - 島根県 浜田市: 残り9件（hamada-child-medical-aid / hamada-juutaku-reform / hamada-health-checkup-subsidy / hamada-scholarship-repayment / hamada-startup-support 他4件）
 - 徳島県 阿南市: 残り9件（anan-child-medical-aid / anan-juutaku-reform / anan-health-checkup-subsidy / anan-scholarship-repayment / anan-startup-support 他4件）
@@ -34,6 +33,7 @@
 - 福井県 大野市: 残り9件（ono-fukui-childcare-subsidy / ono-fukui-birth-bonus / ono-fukui-housing-purchase / ono-fukui-infertility / ono-fukui-scholarship 他4件）
 - 福井県 敦賀市: 残り9件（tsuruga-childcare-subsidy / tsuruga-birth-bonus / tsuruga-housing-purchase / tsuruga-infertility / tsuruga-scholarship 他4件）
 - 福井県 福井県: 残り2件（fukui-child-support / fukui-housing-support）
+- 福井県 福井市: 残り5件（fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / fukui-city-housing-reform）
 
 ## 都道府県別
 
@@ -44,8 +44,8 @@
 | 未完了 | 福島県 | 72 | 12 | 60 | koriyama-infertility-treatment / aizu-housing-seismic / aizu-senior-medical / sukagawa-startup-support / sukagawa-migration-support 他55件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
-| 未完了 | 島根県 | 70 | 49 | 21 | hamada-child-medical-aid / hamada-juutaku-reform / hamada-health-checkup-subsidy / hamada-scholarship-repayment / hamada-startup-support 他16件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
+| 未完了 | 島根県 | 70 | 58 | 12 | hamada-child-medical-aid / hamada-juutaku-reform / hamada-health-checkup-subsidy / hamada-scholarship-repayment / hamada-startup-support 他7件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
@@ -412,7 +412,7 @@
 | 完了 | 島根県 | 益田市 | 9 | 9 | 0 |  |
 | 完了 | 島根県 | 出雲市 | 11 | 11 | 0 |  |
 | 完了 | 島根県 | 松江市 | 20 | 20 | 0 |  |
-| 未完了 | 島根県 | 大田市 | 9 | 0 | 9 | ooda-child-medical-aid / ooda-juutaku-reform / ooda-health-checkup-subsidy / ooda-scholarship-repayment / ooda-startup-support 他4件 |
+| 完了 | 島根県 | 大田市 | 9 | 9 | 0 |  |
 | 未完了 | 島根県 | 島根県 | 3 | 0 | 3 | shimane-child-support / shimane-uiturn-support / shimane-empty-house |
 | 未完了 | 島根県 | 浜田市 | 9 | 0 | 9 | hamada-child-medical-aid / hamada-juutaku-reform / hamada-health-checkup-subsidy / hamada-scholarship-repayment / hamada-startup-support 他4件 |
 | 完了 | 東京都 | 葛飾区 | 12 | 12 | 0 |  |
