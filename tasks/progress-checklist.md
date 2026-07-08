@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T17:55:41.648Z
+- 生成日時: 2026-07-08T17:59:05.054Z
 - raw unique slugs: 4375
-- verified unique slugs: 4832
-- raw内の公式確認済み slugs: 4108
-- 未照合 raw slugs: 267
-- 完了自治体/団体: 402 / 434
-- raw gap 0 の都道府県: 40 / 47
+- verified unique slugs: 4841
+- raw内の公式確認済み slugs: 4117
+- 未照合 raw slugs: 258
+- 完了自治体/団体: 403 / 434
+- raw gap 0 の都道府県: 41 / 47
 
 ## 次に進める候補
 
-- 徳島県 鳴門市: 残り9件（naruto-child-medical-aid / naruto-juutaku-reform / naruto-health-checkup-subsidy / naruto-scholarship-repayment / naruto-startup-support 他4件）
 - 奈良県 橿原市: 残り2件（kashihara-housing-reform / kashihara-scholarship）
 - 奈良県 奈良市: 残り11件（nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free / nara-city-senior-dental / nara-city-school-lunch 他6件）
 - 富山県 高岡市: 残り9件（takaoka-child-medical-aid / takaoka-juutaku-reform / takaoka-health-checkup-subsidy / takaoka-scholarship-repayment / takaoka-startup-support 他4件）
@@ -34,6 +33,7 @@
 - 福島県 郡山市: 残り10件（koriyama-infertility-treatment / koriyama-childcare-subsidy / koriyama-birth-bonus / koriyama-housing-purchase / koriyama-infertility 他5件）
 - 福島県 須賀川市: 残り20件（sukagawa-startup-support / sukagawa-migration-support / sukagawa-childcare-subsidy / sukagawa-birth-bonus / sukagawa-housing-purchase 他15件）
 - 福島県 福島県: 残り1件（fukushima-reconstruction）
+- 福島県 福島市: 残り9件（fukushima-city-childcare-subsidy / fukushima-city-parenting-allowance / fukushima-city-housing-purchase / fukushima-city-senior-dental / fukushima-city-afterschool 他4件）
 
 ## 都道府県別
 
@@ -45,7 +45,6 @@
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
-| 未完了 | 徳島県 | 42 | 33 | 9 | naruto-child-medical-aid / naruto-juutaku-reform / naruto-health-checkup-subsidy / naruto-scholarship-repayment / naruto-startup-support 他4件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
 | 完了 | 茨城県 | 99 | 99 | 0 |  |
@@ -84,6 +83,7 @@
 | 完了 | 鳥取県 | 71 | 71 | 0 |  |
 | 完了 | 島根県 | 70 | 70 | 0 |  |
 | 完了 | 東京都 | 439 | 439 | 0 |  |
+| 完了 | 徳島県 | 42 | 42 | 0 |  |
 | 完了 | 栃木県 | 130 | 130 | 0 |  |
 | 完了 | 福岡県 | 138 | 138 | 0 |  |
 | 完了 | 北海道 | 175 | 175 | 0 |  |
@@ -461,7 +461,7 @@
 | 完了 | 徳島県 | 阿南市 | 9 | 9 | 0 |  |
 | 完了 | 徳島県 | 徳島県 | 3 | 3 | 0 |  |
 | 完了 | 徳島県 | 徳島市 | 21 | 21 | 0 |  |
-| 未完了 | 徳島県 | 鳴門市 | 9 | 0 | 9 | naruto-child-medical-aid / naruto-juutaku-reform / naruto-health-checkup-subsidy / naruto-scholarship-repayment / naruto-startup-support 他4件 |
+| 完了 | 徳島県 | 鳴門市 | 9 | 9 | 0 |  |
 | 完了 | 栃木県 | さくら市 | 9 | 9 | 0 |  |
 | 完了 | 栃木県 | 宇都宮市 | 12 | 12 | 0 |  |
 | 完了 | 栃木県 | 佐野市 | 21 | 21 | 0 |  |
