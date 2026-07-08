@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T11:40:12.166Z
+- 生成日時: 2026-07-08T11:44:11.165Z
 - raw unique slugs: 4375
-- verified unique slugs: 3859
-- raw内の公式確認済み slugs: 3135
-- 未照合 raw slugs: 1240
-- 完了自治体/団体: 297 / 434
+- verified unique slugs: 3876
+- raw内の公式確認済み slugs: 3152
+- 未照合 raw slugs: 1223
+- 完了自治体/団体: 298 / 434
 - raw gap 0 の都道府県: 26 / 47
 
 ## 次に進める候補
 
-- 滋賀県 大津市: 残り17件（otsu-mental-health / otsu-scholarship-v2 / otsu-women-startup / otsu-nursing-home-reform / otsu-elderly-support 他12件）
 - 滋賀県 長浜市: 残り9件（nagahama-infant-diaper / nagahama-lake-view-housing / nagahama-child-allergy / nagahama-nature-experience / nagahama-agriculture-six 他4件）
 - 滋賀県 彦根市: 残り11件（hikone-housing-reform / hikone-scholarship / hikone-infant-diaper / hikone-lake-view-housing / hikone-child-allergy 他6件）
 - 鹿児島県 姶良市: 残り9件（aira-child-medical-aid / aira-juutaku-reform / aira-health-checkup-subsidy / aira-scholarship-repayment / aira-startup-support 他4件）
@@ -34,6 +33,7 @@
 - 新潟県 五泉市: 残り9件（gosen-childcare-subsidy / gosen-birth-bonus / gosen-housing-purchase / gosen-infertility / gosen-scholarship 他4件）
 - 新潟県 佐渡市: 残り9件（sado-childcare-subsidy / sado-birth-bonus / sado-housing-purchase / sado-infertility / sado-scholarship 他4件）
 - 新潟県 三条市: 残り2件（sanjo-manufacturing-support / sanjo-housing-acquisition）
+- 新潟県 上越市: 残り9件（joetsu-housing-snow / joetsu-childcare-subsidy / joetsu-birth-bonus / joetsu-housing-purchase / joetsu-infertility 他4件）
 
 ## 都道府県別
 
@@ -54,10 +54,10 @@
 | 未完了 | 長崎県 | 63 | 6 | 57 | nagasaki-city-fertility-treatment / sasebo-housing-seismic / isahaya-child-medical / isahaya-housing-reform / isahaya-vaccination-support 他52件 |
 | 未完了 | 青森県 | 66 | 12 | 54 | hachinohe-infertility-treatment / hachinohe-housing-earthquake / hirosaki-infertility-support / hirosaki-housing-seismic / aomori-city-housing-eco 他49件 |
 | 未完了 | 大分県 | 56 | 11 | 45 | beppu-housing-reform / beppu-vaccination-subsidy / oita-city-childcare-subsidy / oita-city-birth-bonus / oita-city-newlywed-rent 他40件 |
-| 未完了 | 滋賀県 | 84 | 47 | 37 | hikone-housing-reform / hikone-scholarship / otsu-mental-health / otsu-scholarship-v2 / otsu-women-startup 他32件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 石川県 | 44 | 11 | 33 | hakusan-housing-reform / kanazawa-housing-purchase / kanazawa-senior-dental / kanazawa-scholarship-v2 / kanazawa-sme-support 他28件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
+| 未完了 | 滋賀県 | 84 | 64 | 20 | hikone-housing-reform / hikone-scholarship / hikone-infant-diaper / hikone-lake-view-housing / hikone-child-allergy 他15件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
@@ -237,7 +237,7 @@
 | 完了 | 滋賀県 | 滋賀県 | 3 | 3 | 0 |  |
 | 完了 | 滋賀県 | 守山市 | 9 | 9 | 0 |  |
 | 完了 | 滋賀県 | 草津市 | 21 | 21 | 0 |  |
-| 未完了 | 滋賀県 | 大津市 | 21 | 4 | 17 | otsu-mental-health / otsu-scholarship-v2 / otsu-women-startup / otsu-nursing-home-reform / otsu-elderly-support 他12件 |
+| 完了 | 滋賀県 | 大津市 | 21 | 21 | 0 |  |
 | 未完了 | 滋賀県 | 長浜市 | 9 | 0 | 9 | nagahama-infant-diaper / nagahama-lake-view-housing / nagahama-child-allergy / nagahama-nature-experience / nagahama-agriculture-six 他4件 |
 | 未完了 | 滋賀県 | 彦根市 | 12 | 1 | 11 | hikone-housing-reform / hikone-scholarship / hikone-infant-diaper / hikone-lake-view-housing / hikone-child-allergy 他6件 |
 | 未完了 | 鹿児島県 | 姶良市 | 9 | 0 | 9 | aira-child-medical-aid / aira-juutaku-reform / aira-health-checkup-subsidy / aira-scholarship-repayment / aira-startup-support 他4件 |
