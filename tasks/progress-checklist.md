@@ -4,18 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T12:52:47.268Z
+- 生成日時: 2026-07-08T12:54:28.128Z
 - raw unique slugs: 4375
-- verified unique slugs: 4089
-- raw内の公式確認済み slugs: 3365
-- 未照合 raw slugs: 1010
-- 完了自治体/団体: 318 / 434
+- verified unique slugs: 4091
+- raw内の公式確認済み slugs: 3367
+- 未照合 raw slugs: 1008
+- 完了自治体/団体: 320 / 434
 - raw gap 0 の都道府県: 29 / 47
 
 ## 次に進める候補
 
-- 新潟県 新潟県: 残り1件（niigata-rice-farming）
-- 新潟県 新潟県（各市町村）: 残り1件（niigata-snow-removal）
 - 新潟県 新潟市: 残り10件（niigata-city-startup-support / niigata-city-housing-reform / niigata-city-childcare-subsidy / niigata-city-daycare-support / niigata-city-vacant-house 他5件）
 - 新潟県 村上市: 残り9件（murakami-childcare-subsidy / murakami-birth-bonus / murakami-housing-purchase / murakami-infertility / murakami-scholarship 他4件）
 - 新潟県 長岡市: 残り1件（nagaoka-housing-snow）
@@ -34,6 +32,8 @@
 - 静岡県 富士宮市: 残り9件（fujinomiya-papa-mama-class / fujinomiya-solar-panel / fujinomiya-adult-vaccine / fujinomiya-school-ict / fujinomiya-fishery-support 他4件）
 - 静岡県 富士市: 残り19件（fuji-city-senior-hearing-aid / fuji-city-childcare-subsidy / fuji-city-birth-bonus / fuji-city-housing-purchase / fuji-city-infertility 他14件）
 - 石川県 金沢市: 残り15件（kanazawa-housing-purchase / kanazawa-senior-dental / kanazawa-scholarship-v2 / kanazawa-sme-support / kanazawa-nursing-equipment 他10件）
+- 石川県 小松市: 残り9件（komatsu-child-medical-aid / komatsu-juutaku-reform / komatsu-health-checkup-subsidy / komatsu-scholarship-repayment / komatsu-startup-support 他4件）
+- 石川県 白山市: 残り9件（hakusan-housing-reform / hakusan-child-medical-aid / hakusan-juutaku-reform / hakusan-health-checkup-subsidy / hakusan-scholarship-repayment 他4件）
 
 ## 都道府県別
 
@@ -54,7 +54,7 @@
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 石川県 | 44 | 11 | 33 | hakusan-housing-reform / kanazawa-housing-purchase / kanazawa-senior-dental / kanazawa-scholarship-v2 / kanazawa-sme-support 他28件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
-| 未完了 | 新潟県 | 89 | 67 | 22 | niigata-city-startup-support / niigata-city-housing-reform / nagaoka-housing-snow / niigata-city-childcare-subsidy / niigata-city-daycare-support 他17件 |
+| 未完了 | 新潟県 | 89 | 69 | 20 | niigata-city-startup-support / niigata-city-housing-reform / nagaoka-housing-snow / niigata-city-childcare-subsidy / niigata-city-daycare-support 他15件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
@@ -258,8 +258,8 @@
 | 完了 | 新潟県 | 佐渡市 | 9 | 9 | 0 |  |
 | 完了 | 新潟県 | 三条市 | 3 | 3 | 0 |  |
 | 完了 | 新潟県 | 上越市 | 12 | 12 | 0 |  |
-| 未完了 | 新潟県 | 新潟県 | 1 | 0 | 1 | niigata-rice-farming |
-| 未完了 | 新潟県 | 新潟県（各市町村） | 1 | 0 | 1 | niigata-snow-removal |
+| 完了 | 新潟県 | 新潟県 | 1 | 1 | 0 |  |
+| 完了 | 新潟県 | 新潟県（各市町村） | 1 | 1 | 0 |  |
 | 未完了 | 新潟県 | 新潟市 | 12 | 2 | 10 | niigata-city-startup-support / niigata-city-housing-reform / niigata-city-childcare-subsidy / niigata-city-daycare-support / niigata-city-vacant-house 他5件 |
 | 未完了 | 新潟県 | 村上市 | 9 | 0 | 9 | murakami-childcare-subsidy / murakami-birth-bonus / murakami-housing-purchase / murakami-infertility / murakami-scholarship 他4件 |
 | 未完了 | 新潟県 | 長岡市 | 3 | 2 | 1 | nagaoka-housing-snow |
