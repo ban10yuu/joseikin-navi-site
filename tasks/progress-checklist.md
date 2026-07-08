@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T13:14:16.083Z
+- 生成日時: 2026-07-08T13:17:22.364Z
 - raw unique slugs: 4375
-- verified unique slugs: 4131
-- raw内の公式確認済み slugs: 3407
-- 未照合 raw slugs: 968
-- 完了自治体/団体: 325 / 434
+- verified unique slugs: 4146
+- raw内の公式確認済み slugs: 3422
+- 未照合 raw slugs: 953
+- 完了自治体/団体: 326 / 434
 - raw gap 0 の都道府県: 30 / 47
 
 ## 次に進める候補
 
-- 青森県 青森市: 残り15件（aomori-city-housing-eco / aomori-city-senior-dental / aomori-city-school-lunch / aomori-city-nursing-home-reform / aomori-city-energy-support 他10件）
 - 青森県 八戸市: 残り19件（hachinohe-infertility-treatment / hachinohe-housing-earthquake / hachinohe-childcare-subsidy / hachinohe-birth-bonus / hachinohe-housing-purchase 他14件）
 - 静岡県 伊東市: 残り9件（ito-papa-mama-class / ito-solar-panel / ito-adult-vaccine / ito-school-ict / ito-fishery-support 他4件）
 - 静岡県 三島市: 残り9件（mishima-papa-mama-class / mishima-solar-panel / mishima-adult-vaccine / mishima-school-ict / mishima-fishery-support 他4件）
@@ -34,6 +33,7 @@
 - 千葉県 我孫子市: 残り1件（abiko-housing-reform）
 - 千葉県 鎌ケ谷市: 残り4件（kamagaya-childcare-subsidy / kamagaya-newlywed-rent / kamagaya-sme-support / kamagaya-bousai-equipment）
 - 千葉県 四街道市: 残り2件（yotsukaido-sme-support / yotsukaido-bousai-equipment）
+- 千葉県 市川市: 残り15件（ichikawa-child-medical-aid / ichikawa-juutaku-reform / ichikawa-health-checkup-subsidy / ichikawa-scholarship-repayment / ichikawa-startup-support 他10件）
 
 ## 都道府県別
 
@@ -51,9 +51,9 @@
 | 未完了 | 長崎県 | 63 | 6 | 57 | nagasaki-city-fertility-treatment / sasebo-housing-seismic / isahaya-child-medical / isahaya-housing-reform / isahaya-vaccination-support 他52件 |
 | 未完了 | 大分県 | 56 | 11 | 45 | beppu-housing-reform / beppu-vaccination-subsidy / oita-city-childcare-subsidy / oita-city-birth-bonus / oita-city-newlywed-rent 他40件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
-| 未完了 | 青森県 | 66 | 32 | 34 | hachinohe-infertility-treatment / hachinohe-housing-earthquake / aomori-city-housing-eco / aomori-city-senior-dental / aomori-city-school-lunch 他29件 |
 | 未完了 | 石川県 | 44 | 11 | 33 | hakusan-housing-reform / kanazawa-housing-purchase / kanazawa-senior-dental / kanazawa-scholarship-v2 / kanazawa-sme-support 他28件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
+| 未完了 | 青森県 | 66 | 47 | 19 | hachinohe-infertility-treatment / hachinohe-housing-earthquake / hachinohe-childcare-subsidy / hachinohe-birth-bonus / hachinohe-housing-purchase 他14件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
@@ -283,7 +283,7 @@
 | 完了 | 神奈川県 | 平塚市 | 3 | 3 | 0 |  |
 | 完了 | 青森県 | 弘前市 | 21 | 21 | 0 |  |
 | 完了 | 青森県 | 青森県 | 3 | 3 | 0 |  |
-| 未完了 | 青森県 | 青森市 | 21 | 6 | 15 | aomori-city-housing-eco / aomori-city-senior-dental / aomori-city-school-lunch / aomori-city-nursing-home-reform / aomori-city-energy-support 他10件 |
+| 完了 | 青森県 | 青森市 | 21 | 21 | 0 |  |
 | 未完了 | 青森県 | 八戸市 | 21 | 2 | 19 | hachinohe-infertility-treatment / hachinohe-housing-earthquake / hachinohe-childcare-subsidy / hachinohe-birth-bonus / hachinohe-housing-purchase 他14件 |
 | 未完了 | 静岡県 | 伊東市 | 9 | 0 | 9 | ito-papa-mama-class / ito-solar-panel / ito-adult-vaccine / ito-school-ict / ito-fishery-support 他4件 |
 | 未完了 | 静岡県 | 三島市 | 9 | 0 | 9 | mishima-papa-mama-class / mishima-solar-panel / mishima-adult-vaccine / mishima-school-ict / mishima-fishery-support 他4件 |
