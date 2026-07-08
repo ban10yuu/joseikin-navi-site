@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T17:42:14.863Z
+- 生成日時: 2026-07-08T17:43:25.218Z
 - raw unique slugs: 4375
-- verified unique slugs: 4808
-- raw内の公式確認済み slugs: 4084
-- 未照合 raw slugs: 291
-- 完了自治体/団体: 398 / 434
-- raw gap 0 の都道府県: 39 / 47
+- verified unique slugs: 4811
+- raw内の公式確認済み slugs: 4087
+- 未照合 raw slugs: 288
+- 完了自治体/団体: 399 / 434
+- raw gap 0 の都道府県: 40 / 47
 
 ## 次に進める候補
 
-- 島根県 島根県: 残り3件（shimane-child-support / shimane-uiturn-support / shimane-empty-house）
 - 徳島県 阿南市: 残り9件（anan-child-medical-aid / anan-juutaku-reform / anan-health-checkup-subsidy / anan-scholarship-repayment / anan-startup-support 他4件）
 - 徳島県 徳島県: 残り2件（tokushima-sudachi-farming / tokushima-satellite-office）
 - 徳島県 徳島市: 残り10件（tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他5件）
@@ -34,6 +33,7 @@
 - 福井県 福井県: 残り2件（fukui-child-support / fukui-housing-support）
 - 福井県 福井市: 残り5件（fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / fukui-city-housing-reform）
 - 福島県 いわき市: 残り9件（iwaki-childcare-subsidy / iwaki-birth-bonus / iwaki-newlywed-rent / iwaki-infertility / iwaki-school-lunch 他4件）
+- 福島県 会津若松市: 残り11件（aizu-housing-seismic / aizu-senior-medical / aizu-childcare-subsidy / aizu-birth-bonus / aizu-newlywed-rent 他6件）
 
 ## 都道府県別
 
@@ -46,7 +46,6 @@
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
-| 未完了 | 島根県 | 70 | 67 | 3 | shimane-child-support / shimane-uiturn-support / shimane-empty-house |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
 | 完了 | 茨城県 | 99 | 99 | 0 |  |
@@ -83,6 +82,7 @@
 | 完了 | 長崎県 | 63 | 63 | 0 |  |
 | 完了 | 長野県 | 85 | 85 | 0 |  |
 | 完了 | 鳥取県 | 71 | 71 | 0 |  |
+| 完了 | 島根県 | 70 | 70 | 0 |  |
 | 完了 | 東京都 | 439 | 439 | 0 |  |
 | 完了 | 栃木県 | 130 | 130 | 0 |  |
 | 完了 | 福岡県 | 138 | 138 | 0 |  |
@@ -413,7 +413,7 @@
 | 完了 | 島根県 | 出雲市 | 11 | 11 | 0 |  |
 | 完了 | 島根県 | 松江市 | 20 | 20 | 0 |  |
 | 完了 | 島根県 | 大田市 | 9 | 9 | 0 |  |
-| 未完了 | 島根県 | 島根県 | 3 | 0 | 3 | shimane-child-support / shimane-uiturn-support / shimane-empty-house |
+| 完了 | 島根県 | 島根県 | 3 | 3 | 0 |  |
 | 完了 | 島根県 | 浜田市 | 9 | 9 | 0 |  |
 | 完了 | 東京都 | 葛飾区 | 12 | 12 | 0 |  |
 | 完了 | 東京都 | 江戸川区 | 12 | 12 | 0 |  |
