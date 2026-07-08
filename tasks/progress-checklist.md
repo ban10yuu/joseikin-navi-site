@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T15:24:46.690Z
+- 生成日時: 2026-07-08T15:32:41.537Z
 - raw unique slugs: 4375
-- verified unique slugs: 4437
-- raw内の公式確認済み slugs: 3713
-- 未照合 raw slugs: 662
-- 完了自治体/団体: 362 / 434
+- verified unique slugs: 4448
+- raw内の公式確認済み slugs: 3724
+- 未照合 raw slugs: 651
+- 完了自治体/団体: 363 / 434
 - raw gap 0 の都道府県: 34 / 47
 
 ## 次に進める候補
 
-- 大阪府 大阪市: 残り11件（osaka-city-senior-medical / osaka-city-startup-support / osaka-city-childcare-subsidy / osaka-city-birth-bonus / osaka-city-housing-purchase 他6件）
 - 大阪府 大阪府: 残り2件（osaka-child-allowance / osaka-employment-women）
 - 大阪府 大阪府（各市町村）: 残り1件（osaka-housing-seismic）
 - 大阪府 大阪府育英会: 残り1件（osaka-education-scholarship）
@@ -34,6 +33,7 @@
 - 長野県 岡谷市: 残り9件（okaya-nursery-support / okaya-migration-housing / okaya-hearing-aid / okaya-study-abroad-support / okaya-agri-newcomer 他4件）
 - 長野県 松本市: 残り18件（matsumoto-scholarship / matsumoto-childcare-subsidy / matsumoto-birth-bonus / matsumoto-disability-medical / matsumoto-school-lunch 他13件）
 - 長野県 上田市: 残り11件（ueda-fertility-treatment / ueda-scholarship / ueda-nursery-support / ueda-migration-housing / ueda-hearing-aid 他6件）
+- 長野県 諏訪市: 残り9件（suwa-nursery-support / suwa-migration-housing / suwa-hearing-aid / suwa-study-abroad-support / suwa-agri-newcomer 他4件）
 
 ## 都道府県別
 
@@ -43,10 +43,10 @@
 | 未完了 | 兵庫県 | 90 | 13 | 77 | himeji-scholarship / himeji-housing-seismic / nishinomiya-elderly-medical / nishinomiya-housing-eco / amagasaki-community-support 他72件 |
 | 未完了 | 島根県 | 70 | 3 | 67 | matsue-housing-reform / matsue-startup-support / izumo-housing-seismic / izumo-startup-support / matsue-childcare-subsidy 他62件 |
 | 未完了 | 鳥取県 | 71 | 7 | 64 | yonago-startup-support / yonago-migration-support / tottori-city-childcare-subsidy / tottori-city-birth-bonus / tottori-city-housing-purchase 他59件 |
-| 未完了 | 大阪府 | 131 | 69 | 62 | hirakata-vaccination-support / toyonaka-child-medical / toyonaka-housing-seismic / toyonaka-education-support / higashiosaka-child-medical 他57件 |
 | 未完了 | 福井県 | 69 | 8 | 61 | fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / tsuruga-childcare-subsidy 他56件 |
 | 未完了 | 福島県 | 72 | 12 | 60 | koriyama-infertility-treatment / aizu-housing-seismic / aizu-senior-medical / sukagawa-startup-support / sukagawa-migration-support 他55件 |
 | 未完了 | 長崎県 | 63 | 6 | 57 | nagasaki-city-fertility-treatment / sasebo-housing-seismic / isahaya-child-medical / isahaya-housing-reform / isahaya-vaccination-support 他52件 |
+| 未完了 | 大阪府 | 131 | 80 | 51 | hirakata-vaccination-support / toyonaka-child-medical / toyonaka-housing-seismic / toyonaka-education-support / higashiosaka-child-medical 他46件 |
 | 未完了 | 大分県 | 56 | 11 | 45 | beppu-housing-reform / beppu-vaccination-subsidy / oita-city-childcare-subsidy / oita-city-birth-bonus / oita-city-newlywed-rent 他40件 |
 | 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
@@ -376,7 +376,7 @@
 | 完了 | 大阪府 | 堺市 | 12 | 12 | 0 |  |
 | 完了 | 大阪府 | 寝屋川市 | 12 | 12 | 0 |  |
 | 完了 | 大阪府 | 吹田市 | 12 | 12 | 0 |  |
-| 未完了 | 大阪府 | 大阪市 | 12 | 1 | 11 | osaka-city-senior-medical / osaka-city-startup-support / osaka-city-childcare-subsidy / osaka-city-birth-bonus / osaka-city-housing-purchase 他6件 |
+| 完了 | 大阪府 | 大阪市 | 12 | 12 | 0 |  |
 | 未完了 | 大阪府 | 大阪府 | 2 | 0 | 2 | osaka-child-allowance / osaka-employment-women |
 | 未完了 | 大阪府 | 大阪府（各市町村） | 1 | 0 | 1 | osaka-housing-seismic |
 | 未完了 | 大阪府 | 大阪府育英会 | 1 | 0 | 1 | osaka-education-scholarship |
