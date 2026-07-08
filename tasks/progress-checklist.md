@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T11:52:46.187Z
+- 生成日時: 2026-07-08T11:55:07.255Z
 - raw unique slugs: 4375
-- verified unique slugs: 3885
-- raw内の公式確認済み slugs: 3161
-- 未照合 raw slugs: 1214
-- 完了自治体/団体: 299 / 434
-- raw gap 0 の都道府県: 26 / 47
+- verified unique slugs: 3896
+- raw内の公式確認済み slugs: 3172
+- 未照合 raw slugs: 1203
+- 完了自治体/団体: 300 / 434
+- raw gap 0 の都道府県: 27 / 47
 
 ## 次に進める候補
 
-- 滋賀県 彦根市: 残り11件（hikone-housing-reform / hikone-scholarship / hikone-infant-diaper / hikone-lake-view-housing / hikone-child-allergy 他6件）
 - 鹿児島県 姶良市: 残り9件（aira-child-medical-aid / aira-juutaku-reform / aira-health-checkup-subsidy / aira-scholarship-repayment / aira-startup-support 他4件）
 - 鹿児島県 奄美市: 残り9件（amami-child-medical-aid / amami-juutaku-reform / amami-health-checkup-subsidy / amami-scholarship-repayment / amami-startup-support 他4件）
 - 鹿児島県 薩摩川内市: 残り10件（satsumasendai-housing-newlife / satsumasendai-child-medical-aid / satsumasendai-juutaku-reform / satsumasendai-health-checkup-subsidy / satsumasendai-scholarship-repayment 他5件）
@@ -34,6 +33,7 @@
 - 新潟県 三条市: 残り2件（sanjo-manufacturing-support / sanjo-housing-acquisition）
 - 新潟県 上越市: 残り9件（joetsu-housing-snow / joetsu-childcare-subsidy / joetsu-birth-bonus / joetsu-housing-purchase / joetsu-infertility 他4件）
 - 新潟県 新潟県: 残り1件（niigata-rice-farming）
+- 新潟県 新潟県（各市町村）: 残り1件（niigata-snow-removal）
 
 ## 都道府県別
 
@@ -58,7 +58,6 @@
 | 未完了 | 石川県 | 44 | 11 | 33 | hakusan-housing-reform / kanazawa-housing-purchase / kanazawa-senior-dental / kanazawa-scholarship-v2 / kanazawa-sme-support 他28件 |
 | 未完了 | 徳島県 | 42 | 12 | 30 | tokushima-city-telework-bonus / tokushima-child-medical-aid / tokushima-juutaku-reform / tokushima-health-checkup-subsidy / tokushima-scholarship-repayment 他25件 |
 | 未完了 | 奈良県 | 16 | 3 | 13 | kashihara-housing-reform / kashihara-scholarship / nara-city-childcare-subsidy / nara-city-daycare-support / nara-city-barrier-free 他8件 |
-| 未完了 | 滋賀県 | 84 | 73 | 11 | hikone-housing-reform / hikone-scholarship / hikone-infant-diaper / hikone-lake-view-housing / hikone-child-allergy 他6件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
@@ -81,6 +80,7 @@
 | 完了 | 山形県 | 74 | 74 | 0 |  |
 | 完了 | 山口県 | 94 | 94 | 0 |  |
 | 完了 | 山梨県 | 68 | 68 | 0 |  |
+| 完了 | 滋賀県 | 84 | 84 | 0 |  |
 | 完了 | 神奈川県 | 135 | 135 | 0 |  |
 | 完了 | 全国 | 107 | 107 | 0 |  |
 | 完了 | 東京都 | 439 | 439 | 0 |  |
@@ -239,7 +239,7 @@
 | 完了 | 滋賀県 | 草津市 | 21 | 21 | 0 |  |
 | 完了 | 滋賀県 | 大津市 | 21 | 21 | 0 |  |
 | 完了 | 滋賀県 | 長浜市 | 9 | 9 | 0 |  |
-| 未完了 | 滋賀県 | 彦根市 | 12 | 1 | 11 | hikone-housing-reform / hikone-scholarship / hikone-infant-diaper / hikone-lake-view-housing / hikone-child-allergy 他6件 |
+| 完了 | 滋賀県 | 彦根市 | 12 | 12 | 0 |  |
 | 未完了 | 鹿児島県 | 姶良市 | 9 | 0 | 9 | aira-child-medical-aid / aira-juutaku-reform / aira-health-checkup-subsidy / aira-scholarship-repayment / aira-startup-support 他4件 |
 | 未完了 | 鹿児島県 | 奄美市 | 9 | 0 | 9 | amami-child-medical-aid / amami-juutaku-reform / amami-health-checkup-subsidy / amami-scholarship-repayment / amami-startup-support 他4件 |
 | 未完了 | 鹿児島県 | 薩摩川内市 | 12 | 2 | 10 | satsumasendai-housing-newlife / satsumasendai-child-medical-aid / satsumasendai-juutaku-reform / satsumasendai-health-checkup-subsidy / satsumasendai-scholarship-repayment 他5件 |
