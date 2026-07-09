@@ -172,3 +172,29 @@
   - 函館市入学準備給付金事業: 公式ページで新小学1年生向けは令和4年度、新中学1年生向けは令和6年度で終了と確認したため新規掲載しない。現行の小学校入学支援は「函館市 小学校入学祝金」として掲載済み。
 - 未完了:
   - なし。次は自治体コード順で小樽市へ進む。
+
+### 小樽市
+
+- 状態: 着手中
+- 確認日: 2026-07-09
+- 確認元:
+  - https://www.city.otaru.lg.jp/categories/bunya/chusho_sien/more@docs_1.html
+  - https://www.city.otaru.lg.jp/docs/2026052000056/
+  - https://www.city.otaru.lg.jp/docs/2020100700493/
+  - https://www.city.otaru.lg.jp/docs/2025030300065/
+  - https://www.city.otaru.lg.jp/docs/2020110500038/
+  - https://www.city.otaru.lg.jp/docs/2022062400084/
+  - https://www.city.otaru.lg.jp/docs/2020100700561/
+  - https://www.city.otaru.lg.jp/categories/bunya/sangyo/shingijutu_sinseihin/
+- 今回反映:
+  - 小樽市 企業認知度向上支援補助金
+  - 小樽市 海外販路拡大支援事業
+  - 小樽市 中小企業等省エネ推進補助金
+  - 小樽市 中小企業等への融資制度
+  - 小樽市 新技術及び新製品開発助成
+- 既存掲載済みで今回重複確認したもの:
+  - 小樽市 令和8年度 高圧電気料金高騰対策支援金
+  - 小樽市 創業支援補助金
+  - さっぽろ圏奨学金返還支援事業（小樽市含む）
+- 未完了:
+  - 小樽市の給付金カテゴリ、医療・福祉、住宅・環境、子育てカテゴリの追加制度を継続確認する。
