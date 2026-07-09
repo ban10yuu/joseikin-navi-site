@@ -136,6 +136,12 @@
   - https://www.city.hakodate.hokkaido.jp/docs/2025032700030/file_contents/youkou.pdf
   - https://www.city.hakodate.hokkaido.jp/docs/2024040200051/
   - https://www.city.hakodate.hokkaido.jp/docs/2025120900021/
+  - https://www.city.hakodate.hokkaido.jp/docs/2014011700253/
+  - https://www.city.hakodate.hokkaido.jp/docs/2023071000074/
+  - https://www.city.hakodate.hokkaido.jp/docs/2023071000067/
+  - https://www.city.hakodate.hokkaido.jp/docs/2025040200041/
+  - https://www.city.hakodate.hokkaido.jp/docs/2014021700328/
+  - https://www.city.hakodate.hokkaido.jp/docs/2014021300412/file_contents/R8_4_leaflet.pdf
 - 反映済み:
   - 函館市 住民税非課税世帯物価高騰支援臨時特別給付金
   - 函館市 ヤングファミリー住まいりんぐ支援事業
@@ -149,6 +155,11 @@
   - 函館市 歴史的建造物活用促進事業補助金
   - 函館市 小学校入学祝金
   - 函館市 物価高対応子育て応援手当
+  - 函館市 景観形成住宅等建築奨励金
+  - 函館市 立地環境調査補助金
+  - 函館市 地方拠点開設支援事業補助金
+  - 函館市 企業立地の促進に関する条例に基づく助成制度
+  - 函館市 中小企業融資制度
 - 既存掲載済みで今回再確認したもの:
   - 函館市 住宅リフォーム補助制度（耐震改修）
   - 函館市 住宅リフォーム補助制度（バリアフリー・省エネ）
@@ -158,6 +169,4 @@
 - 対象外・掲載見送り:
   - 函館市EC活用支援事業補助金: 令和8年4月1日施行の要綱廃止を確認したため新規掲載しない。
 - 未完了:
-  - 商工業者向け支援情報ナビの企業立地、融資制度を個別ページで確認する。
-  - 住まいに関する支援制度の景観形成住宅等建築奨励金を個別ページまたは要綱で確認する。
   - 給付金タグの入学準備給付金事業は終了済み表示のため、掲載済み制度との重複・終了扱いを確認する。
