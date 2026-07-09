@@ -307,3 +307,55 @@
   - 小樽市 保育施設等物価高騰対策支援事業: 検索キャッシュ上は制度名・概要を確認したが、2026-07-09時点で個別ページ `https://www.city.otaru.lg.jp/docs/2026031300016/` とPDFが404のため掲載しない。
 - 未完了:
   - なし。小樽市は主要カテゴリ・物価高騰対策・医療/子育て/住宅/介護/障害/事業者支援の公式個別ページを一巡確認済み。障害厚生年金・障害手当金（一時金）は小樽市独自制度ではなく年金制度案内のため、既存の国制度掲載との重複として新規追加しない。次は自治体コード順で函館市へ進む。
+
+### 旭川市
+
+- 状態: 着手中
+- 確認日: 2026-07-09
+- 確認元:
+  - https://www.city.asahikawa.hokkaido.jp/700/731/734/d079338.html
+  - https://www.city.asahikawa.hokkaido.jp/700/731/734/d079338_d/fil/R8simin.pdf
+  - https://www.city.asahikawa.hokkaido.jp/700/731/734/d079338_d/fil/R8zigyousya.pdf
+  - https://www.city.asahikawa.hokkaido.jp/kurashi/135/189/193/d083282.html
+  - https://www.city.asahikawa.hokkaido.jp/kurashi/218/228/230/d083228.html
+  - https://www.city.asahikawa.hokkaido.jp/kurashi/218/228/230/d083139.html
+  - https://www.city.asahikawa.hokkaido.jp/kurashi/135/160/171/d079685.html
+  - https://www.city.asahikawa.hokkaido.jp/1400/ijyu/ijyu_update/d079297.html
+  - https://www.city.asahikawa.hokkaido.jp/1400/ijyu/ijyu_update/d081451.html
+  - https://www.city.asahikawa.hokkaido.jp/kurashi/135/160/171/d079907.html
+  - https://www.city.asahikawa.hokkaido.jp/kurashi/218/228/230/p004682.html
+  - https://www.city.asahikawa.hokkaido.jp/800/lifeevents1/006/d079382.html
+  - https://www.city.asahikawa.hokkaido.jp/kurashi/135/146/148/d079700.html
+  - https://www.city.asahikawa.hokkaido.jp/kurashi/135/136/137/d081796.html
+  - https://www.city.asahikawa.hokkaido.jp/kurashi/271/290/291/d069431.html
+  - https://www.city.asahikawa.hokkaido.jp/kurashi/401/ju01/ju002/d053128.html
+- 今回反映:
+  - 旭川市 物価高騰対応支援給付金
+  - 旭川市 子育て世帯向け給付金（物価高対応・市独自）
+  - 旭川市 介護予防高齢者聞こえ支援モデル事業
+  - 旭川市 産業人材確保型UIJターン支援金
+  - 旭川市 生活体験滞在費助成金
+  - 旭川市 介護職員初任者研修受講費用補助金
+  - 旭川市 先進不妊治療費助成事業
+  - 旭川市 低所得の妊婦に対する初回産科受診料助成
+  - 旭川市 がん患者のためのアピアランスケア助成
+  - 旭川市 骨髄等ドナー助成金
+  - 旭川市 木質バイオマスストーブ導入促進事業補助金
+  - 旭川市 不良空き家住宅等除却費補助金
+- 既存掲載済みで今回重複確認したもの:
+  - 旭川市 子ども医療費助成
+  - 旭川市 妊婦のための支援給付
+  - 旭川市 教育・保育の無償化・保育料軽減
+  - 旭川市 重度心身障害者医療費助成
+  - 旭川市 高齢者バス料金助成事業（寿バスカード）
+  - 旭川市 地域エネルギー設備等導入促進事業補助金
+  - 旭川市 住宅改修補助金
+  - 旭川市 介護保険居宅介護（介護予防）住宅改修費支給
+  - 旭川市 若者地元定着奨学金返済補助事業
+  - 旭川市 就学援助制度（学校給食費等）
+  - 旭川市 スタートアップ支援補助金
+  - 旭川市 飲用水等確保対策補助金
+- 未完了:
+  - 旭川市補助金一覧（市民向け）35件のうち、未反映または未精査の制度を継続確認する。次候補は地方就職支援金、給付型奨学金（高校）、新生児聴覚検査、身体障害者自動車運転免許取得費、重度身体障害者自動車改造費、不育症治療費、定期予防接種費用補助、特別の理由による任意予防接種費用補助、狩猟免許取得支援、浄化槽設置整備、再生資源回収奨励金、スポーツ大会出場費、林業系補助、住宅雪対策、地域材活用住宅建設、住まい耐震化サポート、通報機器設置等助成、文化芸術系補助。
+  - 旭川市補助金一覧（事業者向け）を本格精査する。次候補は地域企業人材確保支援補助金、タクシー利用促進事業補助金、路線バス乗務員確保対策助成金、中小企業融資・利子補給・創業支援、農林業・福祉施設・交通関係の補助。
+  - 公式トップ、補助金一覧PDF、カテゴリページだけでなく、個別制度ページで対象・金額・期限を確認できたものだけ追加する。旭川市が一巡完了したら次は自治体コード順で室蘭市へ進む。
