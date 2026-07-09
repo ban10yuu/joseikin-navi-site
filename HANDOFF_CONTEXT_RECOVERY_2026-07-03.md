@@ -977,3 +977,19 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 - 代替検証: 福井市5件のURL到達確認 all 200、`npx eslint src/data/grants/verified-local-misc-2026.ts`、`git diff --check`、福井県 raw gap 0、coverage failures 0 は通過。
 - build固着は未解決の検証課題として継続。候補は前回同様、Turbopack/Next.js最適化、静的生成対象増加、巨大な助成金データ、メモリ、外部URL参照、未関係のPinterest系変更。全国公式確認の本線は止めず、次の大きな節目で上限付き build または `next build --debug` 相当を短時間で再確認する。
 - 次の作業候補は `tasks/progress-checklist.md` の先頭候補、福島県 いわき市9件。
+
+## Current progress update 2026-07-09 福島県完了時 build 検証課題
+
+- 福島県は会津若松市11件、郡山市10件、須賀川市20件、福島県1件、福島市9件を追加後に `node scripts/audit-raw-verified-gaps.mjs --prefecture 福島県 --limit 80` で raw gap 0 を確認。
+- `npm run audit:coverage`: failures 0。
+- `node scripts/generate-progress-checklist.mjs`: remaining raw slugs 88、completed municipalities 423/434、raw gap 0 prefectures 45/47。
+- 直近コミット:
+  - `0264e7b 会津若松市11件を公式補正`
+  - `81c8fb6 郡山市10件を公式補正`
+  - `c089f9b 須賀川市20件を公式補正`
+  - 福島県1件・福島市9件はこの記録と同時にコミット予定。
+- 県完了節目として `NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npm run build` を実行。
+- 結果: code 124。最後の出力は `Creating an optimized production build ...`。Next.js 16.1.6 (Turbopack) の production optimization 開始後、180秒間追加ログなし。
+- 代替検証: 福島県・福島市10件のURL到達確認 all 200、`npx eslint src/data/grants/verified-local-misc-2026.ts`、`git diff --check`、福島県 raw gap 0、coverage failures 0 は通過。
+- build固着は未解決の検証課題として継続。候補は前回同様、Turbopack/Next.js最適化、静的生成対象増加、巨大な助成金データ、メモリ、外部URL参照、未関係のPinterest系変更。全国公式確認の本線は止めず、次の大きな節目で上限付き build または `next build --debug` 相当を短時間で再確認する。
+- 次の作業候補は `tasks/progress-checklist.md` の先頭候補、兵庫県 伊丹市2件。

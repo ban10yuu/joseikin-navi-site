@@ -4,18 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-09T02:04:35.224Z
+- 生成日時: 2026-07-09T02:09:22.083Z
 - raw unique slugs: 4375
-- verified unique slugs: 5001
-- raw内の公式確認済み slugs: 4277
-- 未照合 raw slugs: 98
-- 完了自治体/団体: 421 / 434
-- raw gap 0 の都道府県: 44 / 47
+- verified unique slugs: 5011
+- raw内の公式確認済み slugs: 4287
+- 未照合 raw slugs: 88
+- 完了自治体/団体: 423 / 434
+- raw gap 0 の都道府県: 45 / 47
 
 ## 次に進める候補
 
-- 福島県 福島県: 残り1件（fukushima-reconstruction）
-- 福島県 福島市: 残り9件（fukushima-city-childcare-subsidy / fukushima-city-parenting-allowance / fukushima-city-housing-purchase / fukushima-city-senior-dental / fukushima-city-afterschool 他4件）
 - 兵庫県 伊丹市: 残り2件（itami-housing-reform / itami-infertility-treatment）
 - 兵庫県 加古川市: 残り10件（kakogawa-housing-earthquake / kakogawa-childcare-subsidy / kakogawa-birth-bonus / kakogawa-newlywed-rent / kakogawa-disability-medical 他5件）
 - 兵庫県 神戸市: 残り11件（kobe-fertility-treatment / kobe-housing-eco-reform / kobe-childcare-subsidy / kobe-birth-bonus / kobe-housing-purchase 他6件）
@@ -34,7 +32,6 @@
 |---|---:|---:|---:|---:|---|
 | 未完了 | 兵庫県 | 90 | 13 | 77 | himeji-scholarship / himeji-housing-seismic / nishinomiya-elderly-medical / nishinomiya-housing-eco / amagasaki-community-support 他72件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
-| 未完了 | 福島県 | 72 | 62 | 10 | fukushima-city-childcare-subsidy / fukushima-city-parenting-allowance / fukushima-city-housing-purchase / fukushima-city-senior-dental / fukushima-city-afterschool 他5件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
 | 完了 | 茨城県 | 99 | 99 | 0 |  |
@@ -79,6 +76,7 @@
 | 完了 | 富山県 | 45 | 45 | 0 |  |
 | 完了 | 福井県 | 69 | 69 | 0 |  |
 | 完了 | 福岡県 | 138 | 138 | 0 |  |
+| 完了 | 福島県 | 72 | 72 | 0 |  |
 | 完了 | 北海道 | 175 | 175 | 0 |  |
 
 ## 自治体・団体別
@@ -494,8 +492,8 @@
 | 完了 | 福島県 | 会津若松市 | 12 | 12 | 0 |  |
 | 完了 | 福島県 | 郡山市 | 12 | 12 | 0 |  |
 | 完了 | 福島県 | 須賀川市 | 21 | 21 | 0 |  |
-| 未完了 | 福島県 | 福島県 | 3 | 2 | 1 | fukushima-reconstruction |
-| 未完了 | 福島県 | 福島市 | 12 | 3 | 9 | fukushima-city-childcare-subsidy / fukushima-city-parenting-allowance / fukushima-city-housing-purchase / fukushima-city-senior-dental / fukushima-city-afterschool 他4件 |
+| 完了 | 福島県 | 福島県 | 3 | 3 | 0 |  |
+| 完了 | 福島県 | 福島市 | 12 | 12 | 0 |  |
 | 未完了 | 兵庫県 | 伊丹市 | 3 | 1 | 2 | itami-housing-reform / itami-infertility-treatment |
 | 未完了 | 兵庫県 | 加古川市 | 12 | 2 | 10 | kakogawa-housing-earthquake / kakogawa-childcare-subsidy / kakogawa-birth-bonus / kakogawa-newlywed-rent / kakogawa-disability-medical 他5件 |
 | 未完了 | 兵庫県 | 神戸市 | 12 | 1 | 11 | kobe-fertility-treatment / kobe-housing-eco-reform / kobe-childcare-subsidy / kobe-birth-bonus / kobe-housing-purchase 他6件 |
