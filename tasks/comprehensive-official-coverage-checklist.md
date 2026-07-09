@@ -359,6 +359,18 @@
   - https://www.city.asahikawa.hokkaido.jp/500/501/504/d079585.html
   - https://www.city.asahikawa.hokkaido.jp/500/501/504/d077367.html
   - https://www.city.asahikawa.hokkaido.jp/hanyoukanri/kigyou_new/d073453.html
+  - https://www.city.asahikawa.hokkaido.jp/500/522/53902/d084206.html
+  - https://www.city.asahikawa.hokkaido.jp/500/522/53902/d084206_d/fil/1.pdf
+  - https://www.city.asahikawa.hokkaido.jp/500/522/53902/d084206_d/fil/3.pdf
+  - https://www.city.asahikawa.hokkaido.jp/500/542/54501/545/p004187.html
+  - https://www.city.asahikawa.hokkaido.jp/500/501/503/603/p004185.html
+  - https://www.city.asahikawa.hokkaido.jp/kurashi/364/374/390/d071690.html
+  - https://www.city.asahikawa.hokkaido.jp/kurashi/364/374/390/d071690_d/fil/beppyou.pdf
+  - https://www.city.asahikawa.hokkaido.jp/kurashi/364/374/390/d075030.html
+  - https://www.city.asahikawa.hokkaido.jp/kurashi/364/374/390/d075030_d/fil/beppyou.pdf
+  - https://www.city.asahikawa.hokkaido.jp/kurashi/329/338/342/d075040.html
+  - https://www.city.asahikawa.hokkaido.jp/kurashi/329/338/342/d075040_d/fil/uneihi.pdf
+  - https://www.city.asahikawa.hokkaido.jp/kurashi/329/338/342/d075040_d/fil/youkou.pdf
 - 今回反映:
   - 旭川市 物価高騰対応支援給付金
   - 旭川市 子育て世帯向け給付金（物価高対応・市独自）
@@ -397,6 +409,11 @@
   - 旭川市 IT・デザイン関連企業進出支援補助金
   - 旭川市 農福連携助成金
   - 旭川市 農畜産物商品開発支援事業
+  - 旭川市 タクシー利用促進事業補助金
+  - 旭川市 工業等振興促進条例に基づく助成等
+  - 旭川市 林業担い手確保育成支援補助金
+  - 旭川市 林業新規就労者等支援補助金
+  - 旭川市 スポーツ大会運営費補助金
 - 既存掲載済みで今回重複確認したもの:
   - 旭川市 子ども医療費助成
   - 旭川市 妊婦のための支援給付
@@ -416,6 +433,6 @@
   - 旭川市 拠点づくり支援事業: 公式ページで市外本社事業者向けの交通費・宿泊費・会場使用料等支援を確認したが、上限額・補助率が「予算に限りがあるため要相談」に留まり、掲載に必要な金額/上限が確定できないため候補記録に留める。
   - 旭川市 優良建築物等整備事業補助金: 一覧PDFでは上限2,000万円を確認したが、個別ページは再開発事業の制度説明・完了地区一覧が中心で、令和8年度の募集条件・受付状態・補助率が確認できないため掲載見送り。
 - 未完了:
-  - 旭川市補助金一覧（市民向け）35件のうち、未反映または未精査の制度を継続確認する。次候補は定期予防接種費用補助、スポーツ大会出場費、林業系補助、住まい耐震化サポート、通報機器設置等助成、文化芸術系補助。狩猟免許取得支援は一時休止中、地域材活用住宅建設は補助額未確定のため候補扱い。
-  - 旭川市補助金一覧（事業者向け）を継続精査する。次候補はタクシー利用促進事業補助金、工業等振興促進条例に基づく助成金、林業担い手確保育成支援補助金、林業新規就労者等支援補助金、民有林等活性化推進事業補助金、スポーツ大会運営費補助金。
+  - 旭川市補助金一覧（市民向け）35件のうち、未反映または未精査の制度を継続確認する。次候補は定期予防接種費用補助、スポーツ大会出場費、住まい耐震化サポート、通報機器設置等助成、文化芸術系補助。狩猟免許取得支援は一時休止中、地域材活用住宅建設は補助額未確定のため候補扱い。
+  - 旭川市補助金一覧（事業者向け）を継続精査する。次候補は民有林等活性化推進事業補助金、スポーツ大会出場費補助金の事業者/団体対象分、その他一覧PDF上の未確認制度。
   - 公式トップ、補助金一覧PDF、カテゴリページだけでなく、個別制度ページで対象・金額・期限を確認できたものだけ追加する。旭川市が一巡完了したら次は自治体コード順で室蘭市へ進む。
