@@ -55,7 +55,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!pref) return {};
 
   const title = `${pref}の助成金・補助金一覧【2026年最新版】`;
-  const description = `${pref}で利用できる助成金・補助金・給付金のうち、公式リンクが確認できる制度を中心に掲載。${pref}独自の制度と全国共通の制度を整理しています。`;
+  const description = `${pref}で利用できる助成金・補助金・給付金のうち、公式確認先を記載した制度を中心に掲載。${pref}独自の制度と全国共通の制度を整理しています。`;
   const canonicalSlug = prefToSlug(pref);
 
   return {
@@ -121,7 +121,7 @@ export default async function PrefecturePage({ params }: Props) {
             {pref}の助成金・補助金一覧
           </h1>
           <p className="text-sm text-muted">
-            {pref}で利用できる公式リンクありの助成金・補助金を{grants.length}件掲載しています
+            {pref}で利用できる公式リンク記載の助成金・補助金を{grants.length}件掲載しています
             （{pref}独自：{localGrants.length}件、全国共通：{nationalGrants.length}件）。
           </p>
         </div>

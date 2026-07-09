@@ -7,9 +7,9 @@ import GoogleAd from '@/components/GoogleAd';
 import GrantListClient from '@/components/GrantListClient';
 
 export const metadata: Metadata = {
-  title: '助成金一覧｜公式リンクありの助成金・補助金をカテゴリ別に掲載',
+  title: '助成金一覧｜公式リンク記載の助成金・補助金をカテゴリ別に掲載',
   description:
-    '国・自治体・民間団体の助成金・補助金・給付金のうち、公式リンクが確認できる制度を中心に掲載。子育て・住宅・医療・教育・就職・介護・生活支援・災害の8カテゴリに分類しています。',
+    '国・自治体・民間団体の助成金・補助金・給付金のうち、公式確認先を記載した制度を中心に掲載。子育て・住宅・医療・教育・就職・介護・生活支援・災害の8カテゴリに分類しています。',
   alternates: { canonical: 'https://joseikin-navi-site.vercel.app/grants/' },
 };
 
@@ -44,10 +44,10 @@ export default function GrantsListPage() {
             <span className="text-white/85">助成金一覧</span>
           </nav>
           <h1 className="text-2xl sm:text-3xl font-black text-white mb-3 tracking-wide">
-            助成金一覧（公式リンクあり {allGrants.length}件）
+            助成金一覧（全ページ公式リンク記載 {allGrants.length}件）
           </h1>
           <p className="text-white/80 text-sm">
-            掲載総数{stats.total}件のうち、公式リンクを確認できる制度を優先表示しています。公式出典未登録の制度は検索補助扱いにしています。
+            掲載総数{stats.total}件のうち、公式確認先を記載した制度を優先表示しています。公式出典未登録の制度は検索補助扱いにしています。
           </p>
 
           {/* タイプ別サマリー */}
@@ -86,7 +86,7 @@ export default function GrantsListPage() {
         <div className="mb-8 rounded-xl border-2 border-amber-300 bg-amber-50 p-4 text-sm text-amber-900">
           <p className="font-bold mb-1">情報精度について</p>
           <p>
-            助成金・補助金は公募回、予算、自治体年度により条件が変わります。この一覧では公式リンクが確認できる制度を中心に掲載し、申請前の最終確認先を明示しています。
+            助成金・補助金は公募回、予算、自治体年度により条件が変わります。この一覧では公式確認先を記載した制度を中心に掲載し、申請前の最終確認先を明示しています。
           </p>
         </div>
 
@@ -162,7 +162,7 @@ export default function GrantsListPage() {
             '@context': 'https://schema.org',
             '@type': 'CollectionPage',
             name: '助成金一覧',
-            description: `公式リンクが確認できる助成金・補助金・給付金を${allGrants.length}件掲載`,
+            description: `公式確認先を記載した助成金・補助金・給付金を${allGrants.length}件掲載`,
             url: 'https://joseikin-navi-site.vercel.app/grants/',
             numberOfItems: allGrants.length,
           }),

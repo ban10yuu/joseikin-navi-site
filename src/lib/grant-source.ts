@@ -45,8 +45,8 @@ export function getGrantSourceStatus(grant: GrantSourceLike): {
   if (hasOfficialSource(grant)) {
     return {
       level: 'linked',
-      label: '公式リンクあり',
-      shortLabel: '公式リンク',
+      label: '公式リンク記載',
+      shortLabel: '公式記載',
       className: 'bg-blue-50 text-blue-800 border-blue-300',
       description: '公式サイトへのリンクがあります。制度の金額・締切は申請前に公式ページで確認してください。',
     };

@@ -95,7 +95,7 @@ export default function GrantFinderQuiz({ grants, totalCount }: GrantFinderQuizP
         </div>
         <p className="text-sm text-muted mb-5">
           当てはまる項目にチェックを入れると、利用できる可能性のある助成金がリアルタイムで絞り込まれます。
-          まずは公式リンクが確認できる主要制度（{grants.length}件 / 全{totalCount}件）を表示します。
+          まずは公式確認先を記載した主要制度（{grants.length}件 / 全{totalCount}件）を表示します。
         </p>
 
         {/* Prefecture */}
@@ -145,7 +145,7 @@ export default function GrantFinderQuiz({ grants, totalCount }: GrantFinderQuizP
           hasAnyFilter ? 'bg-accent-wash border-2 border-accent' : 'bg-base border-2 border-line'
         }`}>
           <p className="text-sm text-muted mb-1">
-            {hasAnyFilter ? 'あなたが利用できる可能性のある助成金' : '公式リンクありの助成金'}
+            {hasAnyFilter ? 'あなたが利用できる可能性のある助成金' : '公式リンク記載の助成金'}
           </p>
           <p className={`text-3xl font-black ${hasAnyFilter ? 'text-accent-deep' : 'text-navy'}`}>
             {matched.length}<span className="text-lg font-semibold text-muted ml-1">件</span>

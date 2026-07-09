@@ -57,7 +57,7 @@ export default function CategoryGrantFilter({ grants, categoryLabel }: CategoryG
           <div>
             <h2 className="text-base font-bold text-navy">絞り込み</h2>
             <p className="text-xs text-muted mt-1">
-              {categoryLabel}の公式リンクあり制度を、種類・地域・キーワードで絞り込めます。
+              {categoryLabel}の公式リンク記載ページを、種類・地域・キーワードで絞り込めます。
             </p>
           </div>
           <p className="text-sm text-muted">

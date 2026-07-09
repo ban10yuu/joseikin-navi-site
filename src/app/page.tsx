@@ -61,7 +61,7 @@ export default function HomePage() {
   const stats = getGrantQualityStats();
   const officialGrants = getOfficialLinkedGrants();
 
-  // 注目の助成金: 公式リンクあり・金額上位6件
+  // 注目の助成金: 公式リンク記載・金額上位6件
   const topGrants = officialGrants.slice(0, 6);
   const searchGrants = officialGrants.map(toGrantCardItem);
   const quizGrants = officialGrants.slice(0, 400).map(toGrantCardItem);
@@ -74,7 +74,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-[0.78fr_1.22fr] gap-8 lg:gap-10 items-start">
             <div className="lg:sticky lg:top-24">
               <p className="inline-flex items-center rounded-full border-[1.5px] border-line-strong bg-card px-3 py-1 text-xs font-bold text-navy">
-                公式リンク確認済み {stats.officialLinked}件
+                全ページ公式リンク記載！ {stats.officialLinked}件
               </p>
               <h1 className="mt-4 text-3xl sm:text-4xl font-black text-navy leading-tight">
                 助成金を条件で探す。
@@ -168,7 +168,7 @@ export default function HomePage() {
       <section className="py-10 px-4 bg-card border-t border-line">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-xl font-bold text-navy mb-1 pl-3 border-l-4 border-accent">注目の助成金</h2>
-          <p className="text-sm text-muted mb-5 pl-3">公式リンクがある制度から支給額の大きいものをピックアップ</p>
+          <p className="text-sm text-muted mb-5 pl-3">公式確認先を記載した制度から支給額の大きいものをピックアップ</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
             {topGrants.map((grant) => (
               <GrantCard key={grant.slug} grant={grant} />
@@ -176,7 +176,7 @@ export default function HomePage() {
           </div>
           <div className="text-center">
             <Link href="/grants/" className="inline-block px-6 py-2.5 text-sm text-navy font-bold border-2 border-navy rounded-full hover:bg-navy hover:text-white transition-colors">
-              公式リンクありの助成金を見る（{officialGrants.length}件）
+              公式リンク記載の助成金を見る（{officialGrants.length}件）
             </Link>
           </div>
         </div>
@@ -204,7 +204,7 @@ export default function HomePage() {
           <div className="text-sm text-muted space-y-1.5 leading-relaxed">
             <p>
               助成金ナビは、国・都道府県・市区町村・NPO/民間団体が提供する助成金・補助金・給付金の情報を掲載するサイトです。
-              公式リンクありの制度を中心に、支援制度を8カテゴリに分類して掲載しています。
+              公式確認先を記載した制度を中心に、支援制度を8カテゴリに分類して掲載しています。
             </p>
             <p>
               申請方法・必要書類・受給条件などを分かりやすく整理しつつ、公式出典未登録の情報は「要公式確認」として区別します。最新情報は必ず各公式サイトでご確認ください。

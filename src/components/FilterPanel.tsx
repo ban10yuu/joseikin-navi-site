@@ -64,7 +64,7 @@ export default function FilterPanel({
             className="mt-1 w-4 h-4 rounded border-line-strong text-accent focus:ring-accent accent-[#e8702a]"
           />
           <span>
-            <span className="font-bold text-navy">公式リンクありのみ表示（推奨）</span>
+            <span className="font-bold text-navy">公式リンク記載ページのみ表示（推奨）</span>
             <span className="block text-xs text-muted mt-0.5">
               {officialLinkedCount}件を優先表示。外すと公式出典未登録の検索補助データも含めます。
             </span>

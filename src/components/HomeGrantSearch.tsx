@@ -90,7 +90,7 @@ export default function HomeGrantSearch({
           </h2>
         </div>
         <div className="home-search-count" aria-live="polite">
-          <span className="block text-[11px] font-bold text-muted">公式リンクあり</span>
+          <span className="block text-[11px] font-bold text-muted">公式リンク記載</span>
           <span className="text-2xl font-black text-navy">{filtered.length}</span>
           <span className="text-sm font-bold text-muted">件</span>
         </div>
@@ -148,7 +148,7 @@ export default function HomeGrantSearch({
             </button>
           ))
         ) : (
-          <span className="home-search-active-default">全国・全カテゴリ・公式リンクあり</span>
+          <span className="home-search-active-default">全国・全カテゴリ・公式リンク記載</span>
         )}
       </div>
 
@@ -198,7 +198,7 @@ export default function HomeGrantSearch({
         <p className="home-search-result-copy">
           <span className="home-search-result-label">{hasFilter ? '該当候補' : '主要制度'}</span>
           <span className="home-search-result-number">{filtered.length}</span>
-          <span className="home-search-result-meta">公式リンクあり{officialLinkedCount}件 / 掲載総数{totalCount}件</span>
+          <span className="home-search-result-meta">全ページ公式リンク記載 {officialLinkedCount}件 / 掲載総数{totalCount}件</span>
         </p>
         {hasFilter && (
           <button

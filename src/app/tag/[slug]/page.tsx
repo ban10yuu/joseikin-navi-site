@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = `「${tag}」に関する助成金・補助金一覧`;
   return {
     title,
-    description: `${tag}に関連する公式リンクありの助成金・補助金・給付金の一覧ページです。`,
+    description: `${tag}に関連する公式リンク記載の助成金・補助金・給付金の一覧ページです。`,
     alternates: {
       canonical: `https://joseikin-navi-site.vercel.app/tag/${slug}/`,
     },
@@ -57,7 +57,7 @@ export default async function TagPage({ params }: Props) {
           <h1 className="text-2xl font-black text-navy mb-2">
             「{tag}」に関する助成金・補助金
           </h1>
-          <p className="text-sm text-muted">公式リンクありの助成金が{grants.length}件見つかりました。</p>
+          <p className="text-sm text-muted">公式リンク記載の助成金が{grants.length}件見つかりました。</p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-8">

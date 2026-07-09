@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const label = CATEGORY_LABELS[slug as GrantCategory];
   const title = `${label}の助成金・補助金一覧【2026年最新】`;
-  const description = `${label}に関する助成金・補助金・給付金のうち、公式リンクが確認できる制度を中心に掲載。申請方法・受給条件・支給額と公式確認先を整理しています。`;
+  const description = `${label}に関する助成金・補助金・給付金のうち、公式確認先を記載した制度を中心に掲載。申請方法・受給条件・支給額と公式確認先を整理しています。`;
 
   return {
     title,
@@ -98,7 +98,7 @@ export default async function CategoryPage({ params }: Props) {
             {label}の助成金・補助金一覧
           </h1>
           <p className="text-sm text-muted">
-            {label}に関連する公式リンクありの助成金・補助金を{grants.length}件確認できます。制度の種類・地域・キーワードで絞り込めます。
+            {label}に関連する公式リンク記載の助成金・補助金を{grants.length}件確認できます。制度の種類・地域・キーワードで絞り込めます。
           </p>
         </div>
 
