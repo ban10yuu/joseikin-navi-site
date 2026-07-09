@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-09T01:24:38.858Z
+- 生成日時: 2026-07-09T01:52:14.497Z
 - raw unique slugs: 4375
-- verified unique slugs: 4951
-- raw内の公式確認済み slugs: 4227
-- 未照合 raw slugs: 148
-- 完了自治体/団体: 417 / 434
+- verified unique slugs: 4960
+- raw内の公式確認済み slugs: 4236
+- 未照合 raw slugs: 139
+- 完了自治体/団体: 418 / 434
 - raw gap 0 の都道府県: 44 / 47
 
 ## 次に進める候補
 
-- 福島県 いわき市: 残り9件（iwaki-childcare-subsidy / iwaki-birth-bonus / iwaki-newlywed-rent / iwaki-infertility / iwaki-school-lunch 他4件）
 - 福島県 会津若松市: 残り11件（aizu-housing-seismic / aizu-senior-medical / aizu-childcare-subsidy / aizu-birth-bonus / aizu-newlywed-rent 他6件）
 - 福島県 郡山市: 残り10件（koriyama-infertility-treatment / koriyama-childcare-subsidy / koriyama-birth-bonus / koriyama-housing-purchase / koriyama-infertility 他5件）
 - 福島県 須賀川市: 残り20件（sukagawa-startup-support / sukagawa-migration-support / sukagawa-childcare-subsidy / sukagawa-birth-bonus / sukagawa-housing-purchase 他15件）
@@ -37,7 +36,7 @@
 | 状態 | 都道府県 | raw | verified | 残り | 次のslug |
 |---|---:|---:|---:|---:|---|
 | 未完了 | 兵庫県 | 90 | 13 | 77 | himeji-scholarship / himeji-housing-seismic / nishinomiya-elderly-medical / nishinomiya-housing-eco / amagasaki-community-support 他72件 |
-| 未完了 | 福島県 | 72 | 12 | 60 | koriyama-infertility-treatment / aizu-housing-seismic / aizu-senior-medical / sukagawa-startup-support / sukagawa-migration-support 他55件 |
+| 未完了 | 福島県 | 72 | 21 | 51 | koriyama-infertility-treatment / aizu-housing-seismic / aizu-senior-medical / sukagawa-startup-support / sukagawa-migration-support 他46件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
@@ -494,7 +493,7 @@
 | 完了 | 福岡県 | 福岡県（福岡県中小企業振興センター） | 1 | 1 | 0 |  |
 | 完了 | 福岡県 | 福岡市 | 21 | 21 | 0 |  |
 | 完了 | 福岡県 | 北九州市 | 20 | 20 | 0 |  |
-| 未完了 | 福島県 | いわき市 | 12 | 3 | 9 | iwaki-childcare-subsidy / iwaki-birth-bonus / iwaki-newlywed-rent / iwaki-infertility / iwaki-school-lunch 他4件 |
+| 完了 | 福島県 | いわき市 | 12 | 12 | 0 |  |
 | 未完了 | 福島県 | 会津若松市 | 12 | 1 | 11 | aizu-housing-seismic / aizu-senior-medical / aizu-childcare-subsidy / aizu-birth-bonus / aizu-newlywed-rent 他6件 |
 | 未完了 | 福島県 | 郡山市 | 12 | 2 | 10 | koriyama-infertility-treatment / koriyama-childcare-subsidy / koriyama-birth-bonus / koriyama-housing-purchase / koriyama-infertility 他5件 |
 | 未完了 | 福島県 | 須賀川市 | 21 | 1 | 20 | sukagawa-startup-support / sukagawa-migration-support / sukagawa-childcare-subsidy / sukagawa-birth-bonus / sukagawa-housing-purchase 他15件 |
