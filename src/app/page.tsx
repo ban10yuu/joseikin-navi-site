@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { buildGrantSearchText, getGrantQualityStats, getOfficialLinkedGrants } from '@/lib/grants';
+import { getGrantQualityStats, getOfficialLinkedGrants } from '@/lib/grants';
 import { CATEGORY_LABELS, Grant, GrantCategory } from '@/lib/types';
 import GrantCard, { GrantCardItem } from '@/components/GrantCard';
 import Sidebar from '@/components/Sidebar';
@@ -21,6 +21,22 @@ const CATEGORY_IMAGES: Record<GrantCategory, string> = {
 const categories = Object.entries(CATEGORY_LABELS) as [GrantCategory, string][];
 
 function toGrantCardItem(grant: Grant): GrantCardItem {
+  const compactSearchText = [
+    grant.title,
+    grant.organization,
+    grant.type,
+    grant.maxAmount,
+    grant.category,
+    grant.prefecture,
+    grant.tags.join(' '),
+    grant.eligibility,
+    grant.targetIncome,
+    grant.targetOccupation,
+    grant.applicationPeriod,
+    grant.description,
+    grant.sourceName,
+  ].filter(Boolean).join(' ').toLowerCase();
+
   return {
     slug: grant.slug,
     title: grant.title,
@@ -37,7 +53,7 @@ function toGrantCardItem(grant: Grant): GrantCardItem {
     officialUrl: grant.officialUrl,
     sourceUrls: grant.sourceUrls,
     verifiedAt: grant.verifiedAt,
-    searchText: grant.searchText || buildGrantSearchText(grant),
+    searchText: compactSearchText,
   };
 }
 
@@ -47,7 +63,7 @@ export default function HomePage() {
 
   // 注目の助成金: 公式リンクあり・金額上位6件
   const topGrants = officialGrants.slice(0, 6);
-  const searchGrants = officialGrants.slice(0, 600).map(toGrantCardItem);
+  const searchGrants = officialGrants.map(toGrantCardItem);
   const quizGrants = officialGrants.slice(0, 400).map(toGrantCardItem);
 
   return (

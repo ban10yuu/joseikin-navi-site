@@ -4,6 +4,7 @@ import { getGrantQualityStats, getOfficialLinkedGrants, grantMatchesCategory } f
 import { CATEGORY_LABELS, GrantCategory } from '@/lib/types';
 import GrantCard from '@/components/GrantCard';
 import GoogleAd from '@/components/GoogleAd';
+import GrantListClient from '@/components/GrantListClient';
 
 export const metadata: Metadata = {
   title: '助成金一覧｜公式リンクありの助成金・補助金をカテゴリ別に掲載',
@@ -88,6 +89,14 @@ export default function GrantsListPage() {
             助成金・補助金は公募回、予算、自治体年度により条件が変わります。この一覧では公式リンクが確認できる制度を中心に掲載し、申請前の最終確認先を明示しています。
           </p>
         </div>
+
+        <section className="mb-12">
+          <h2 className="text-lg font-bold text-navy mb-4 flex items-center gap-2">
+            <span className="w-1.5 h-6 rounded bg-accent" />
+            条件で絞り込む
+          </h2>
+          <GrantListClient />
+        </section>
 
         {/* カテゴリ別一覧 */}
         {(Object.entries(CATEGORY_LABELS) as [GrantCategory, string][]).map(
