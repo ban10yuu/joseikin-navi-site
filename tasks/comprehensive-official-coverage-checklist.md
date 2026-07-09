@@ -595,6 +595,8 @@
   - https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/006/313/jinzaiyoukou.pdf
   - https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/006/313/sagyoudou.pdf
   - https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/006/313/01youkou.pdf
+  - https://www.city.kushiro.lg.jp/machi/kankyou/1011163/1011150/1004241.html
+  - https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/004/241/r8tebiki.pdf
 - 既存掲載済みで今回確認済み:
   - 釧路市 妊婦のための支援給付
   - 釧路市 こども医療費助成制度
@@ -630,6 +632,7 @@
   - 釧路市 林業事業体等人材育成事業補助金
   - 釧路市 森林作業道整備支援事業補助金
   - 釧路市 高性能林業機械導入・木材加工流通施設等整備支援事業補助金
+  - 釧路市 合併処理浄化槽設置費補助金
 - 候補・掲載見送り:
   - 釧路市 定額減税を補足する給付金（不足額給付金）: 公式ページで受付終了を確認。申請期限が2025年10月31日で過去のため、通常掲載は見送り。
   - 釧路市 低所得世帯向け給付金カテゴリ: 公式カテゴリを確認したが、現時点で掲載対象となる現行の個別給付ページは確認できず、過年度・終了案件が中心のため見送り。
