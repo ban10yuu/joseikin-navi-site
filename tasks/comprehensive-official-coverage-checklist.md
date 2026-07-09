@@ -186,15 +186,33 @@
   - https://www.city.otaru.lg.jp/docs/2022062400084/
   - https://www.city.otaru.lg.jp/docs/2020100700561/
   - https://www.city.otaru.lg.jp/categories/bunya/sangyo/shingijutu_sinseihin/
+  - https://www.city.otaru.lg.jp/categories/lifeevent/kyuhukin/
+  - https://www.city.otaru.lg.jp/docs/2026013000064/
+  - https://www.city.otaru.lg.jp/categories/bunya/kourei_kaigo/
+  - https://www.city.otaru.lg.jp/docs/2020110200488/
+  - https://www.city.otaru.lg.jp/docs/2023061200033/
+  - https://www.city.otaru.lg.jp/docs/2020110200532/
+  - https://www.city.otaru.lg.jp/docs/2020110200501/
+  - https://www.city.otaru.lg.jp/docs/2020110200464/
+  - https://www.city.otaru.lg.jp/docs/2020110200600/
 - 今回反映:
   - 小樽市 企業認知度向上支援補助金
   - 小樽市 海外販路拡大支援事業
   - 小樽市 中小企業等省エネ推進補助金
   - 小樽市 中小企業等への融資制度
   - 小樽市 新技術及び新製品開発助成
+  - 小樽市 物価高騰支援給付金
+  - 小樽市 物価高対応子育て応援手当
+  - おたるプレミアム付商品券
+  - 小樽市 介護用品助成
+  - 小樽市 家族介護慰労金支給
+  - 小樽市 在宅寝たきり高齢者等理美容サービス
+  - 小樽市 在宅虚弱高齢者緊急通報システム助成
+  - 小樽市 はいかい高齢者位置情報検索システム導入経費助成
+  - 小樽市 福祉除雪関係事業
 - 既存掲載済みで今回重複確認したもの:
   - 小樽市 令和8年度 高圧電気料金高騰対策支援金
   - 小樽市 創業支援補助金
   - さっぽろ圏奨学金返還支援事業（小樽市含む）
 - 未完了:
-  - 小樽市の給付金カテゴリ、医療・福祉、住宅・環境、子育てカテゴリの追加制度を継続確認する。
+  - 小樽市の医療、住宅・環境、子育てカテゴリの追加制度を継続確認する。
