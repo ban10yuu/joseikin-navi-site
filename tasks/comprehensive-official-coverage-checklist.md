@@ -227,6 +227,8 @@
   - https://www.city.otaru.lg.jp/docs/2024072500013/
   - https://www.city.otaru.lg.jp/docs/2020101800420/
   - https://www.city.otaru.lg.jp/docs/2020111000797/
+  - https://www.city.otaru.lg.jp/docs/2025072200095/
+  - https://www.city.otaru.lg.jp/docs/2020100100460/
   - https://www.city.otaru.lg.jp/docs/2025033000016/
 - 今回反映:
   - 小樽市 企業認知度向上支援補助金
@@ -267,6 +269,8 @@
   - 小樽市 不妊治療費等助成事業
   - 小樽市 不妊検査助成事業
   - 小樽市 妊産婦健診費用助成
+  - 小樽市 新生児聴覚検査費用助成
+  - 小樽市 未熟児養育医療
 - 既存掲載済みで今回重複確認したもの:
   - 小樽市 令和8年度 高圧電気料金高騰対策支援金
   - 小樽市 創業支援補助金
