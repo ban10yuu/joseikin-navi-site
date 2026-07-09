@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-09T01:56:15.787Z
+- 生成日時: 2026-07-09T01:59:28.918Z
 - raw unique slugs: 4375
-- verified unique slugs: 4971
-- raw内の公式確認済み slugs: 4247
-- 未照合 raw slugs: 128
-- 完了自治体/団体: 419 / 434
+- verified unique slugs: 4981
+- raw内の公式確認済み slugs: 4257
+- 未照合 raw slugs: 118
+- 完了自治体/団体: 420 / 434
 - raw gap 0 の都道府県: 44 / 47
 
 ## 次に進める候補
 
-- 福島県 郡山市: 残り10件（koriyama-infertility-treatment / koriyama-childcare-subsidy / koriyama-birth-bonus / koriyama-housing-purchase / koriyama-infertility 他5件）
 - 福島県 須賀川市: 残り20件（sukagawa-startup-support / sukagawa-migration-support / sukagawa-childcare-subsidy / sukagawa-birth-bonus / sukagawa-housing-purchase 他15件）
 - 福島県 福島県: 残り1件（fukushima-reconstruction）
 - 福島県 福島市: 残り9件（fukushima-city-childcare-subsidy / fukushima-city-parenting-allowance / fukushima-city-housing-purchase / fukushima-city-senior-dental / fukushima-city-afterschool 他4件）
@@ -35,7 +34,7 @@
 | 状態 | 都道府県 | raw | verified | 残り | 次のslug |
 |---|---:|---:|---:|---:|---|
 | 未完了 | 兵庫県 | 90 | 13 | 77 | himeji-scholarship / himeji-housing-seismic / nishinomiya-elderly-medical / nishinomiya-housing-eco / amagasaki-community-support 他72件 |
-| 未完了 | 福島県 | 72 | 32 | 40 | koriyama-infertility-treatment / sukagawa-startup-support / sukagawa-migration-support / fukushima-city-childcare-subsidy / fukushima-city-parenting-allowance 他35件 |
+| 未完了 | 福島県 | 72 | 42 | 30 | sukagawa-startup-support / sukagawa-migration-support / fukushima-city-childcare-subsidy / fukushima-city-parenting-allowance / fukushima-city-housing-purchase 他25件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
@@ -494,7 +493,7 @@
 | 完了 | 福岡県 | 北九州市 | 20 | 20 | 0 |  |
 | 完了 | 福島県 | いわき市 | 12 | 12 | 0 |  |
 | 完了 | 福島県 | 会津若松市 | 12 | 12 | 0 |  |
-| 未完了 | 福島県 | 郡山市 | 12 | 2 | 10 | koriyama-infertility-treatment / koriyama-childcare-subsidy / koriyama-birth-bonus / koriyama-housing-purchase / koriyama-infertility 他5件 |
+| 完了 | 福島県 | 郡山市 | 12 | 12 | 0 |  |
 | 未完了 | 福島県 | 須賀川市 | 21 | 1 | 20 | sukagawa-startup-support / sukagawa-migration-support / sukagawa-childcare-subsidy / sukagawa-birth-bonus / sukagawa-housing-purchase 他15件 |
 | 未完了 | 福島県 | 福島県 | 3 | 2 | 1 | fukushima-reconstruction |
 | 未完了 | 福島県 | 福島市 | 12 | 3 | 9 | fukushima-city-childcare-subsidy / fukushima-city-parenting-allowance / fukushima-city-housing-purchase / fukushima-city-senior-dental / fukushima-city-afterschool 他4件 |
