@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-09T01:22:50.393Z
+- 生成日時: 2026-07-09T01:24:38.858Z
 - raw unique slugs: 4375
-- verified unique slugs: 4946
-- raw内の公式確認済み slugs: 4222
-- 未照合 raw slugs: 153
-- 完了自治体/団体: 416 / 434
-- raw gap 0 の都道府県: 43 / 47
+- verified unique slugs: 4951
+- raw内の公式確認済み slugs: 4227
+- 未照合 raw slugs: 148
+- 完了自治体/団体: 417 / 434
+- raw gap 0 の都道府県: 44 / 47
 
 ## 次に進める候補
 
-- 福井県 福井市: 残り5件（fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / fukui-city-housing-reform）
 - 福島県 いわき市: 残り9件（iwaki-childcare-subsidy / iwaki-birth-bonus / iwaki-newlywed-rent / iwaki-infertility / iwaki-school-lunch 他4件）
 - 福島県 会津若松市: 残り11件（aizu-housing-seismic / aizu-senior-medical / aizu-childcare-subsidy / aizu-birth-bonus / aizu-newlywed-rent 他6件）
 - 福島県 郡山市: 残り10件（koriyama-infertility-treatment / koriyama-childcare-subsidy / koriyama-birth-bonus / koriyama-housing-purchase / koriyama-infertility 他5件）
@@ -40,7 +39,6 @@
 | 未完了 | 兵庫県 | 90 | 13 | 77 | himeji-scholarship / himeji-housing-seismic / nishinomiya-elderly-medical / nishinomiya-housing-eco / amagasaki-community-support 他72件 |
 | 未完了 | 福島県 | 72 | 12 | 60 | koriyama-infertility-treatment / aizu-housing-seismic / aizu-senior-medical / sukagawa-startup-support / sukagawa-migration-support 他55件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
-| 未完了 | 福井県 | 69 | 64 | 5 | fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / fukui-city-housing-reform |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
 | 完了 | 茨城県 | 99 | 99 | 0 |  |
@@ -83,6 +81,7 @@
 | 完了 | 栃木県 | 130 | 130 | 0 |  |
 | 完了 | 奈良県 | 16 | 16 | 0 |  |
 | 完了 | 富山県 | 45 | 45 | 0 |  |
+| 完了 | 福井県 | 69 | 69 | 0 |  |
 | 完了 | 福岡県 | 138 | 138 | 0 |  |
 | 完了 | 北海道 | 175 | 175 | 0 |  |
 
@@ -484,7 +483,7 @@
 | 完了 | 福井県 | 大野市 | 9 | 9 | 0 |  |
 | 完了 | 福井県 | 敦賀市 | 9 | 9 | 0 |  |
 | 完了 | 福井県 | 福井県 | 3 | 3 | 0 |  |
-| 未完了 | 福井県 | 福井市 | 12 | 7 | 5 | fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / fukui-city-housing-reform |
+| 完了 | 福井県 | 福井市 | 12 | 12 | 0 |  |
 | 完了 | 福岡県 | 久留米市 | 20 | 20 | 0 |  |
 | 完了 | 福岡県 | 春日市 | 21 | 21 | 0 |  |
 | 完了 | 福岡県 | 大牟田市 | 21 | 21 | 0 |  |

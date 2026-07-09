@@ -960,3 +960,20 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
   - 不妊治療: `https://www1.city.obama.fukui.jp/obm/kosodate/wp-content/uploads/2023/12/cc138161999fb1f478295e20f2e0c897.pdf`
   - 住宅等補助一覧: `https://www1.city.obama.fukui.jp/kurashi/sumaiakiya/juutaku_hojo/index.html`
 - 次回は小浜市の残り5件（移住、介護用品、奨学金、耐震診断、UIJターン）の公式確認から続行し、9件まとめて追記・検証・コミットする。
+
+## Current progress update 2026-07-09 福井県完了時 build 検証課題
+
+- 福井県は小浜市9件、大野市9件、敦賀市9件、福井県2件、福井市5件を追加後に `node scripts/audit-raw-verified-gaps.mjs --prefecture 福井県 --limit 80` で raw gap 0 を確認。
+- `npm run audit:coverage`: failures 0。
+- `node scripts/generate-progress-checklist.mjs`: remaining raw slugs 148、completed municipalities 417/434、raw gap 0 prefectures 44/47。
+- 直近コミット:
+  - `3ad70de 小浜市9件を公式補正`
+  - `2354853 大野市9件を公式補正`
+  - `b4860ac 敦賀市9件を公式補正`
+  - `27602a4 福井県2件を公式補正`
+  - 福井市5件はこの記録と同時にコミット予定。
+- 県完了節目として `NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npm run build` を実行。
+- 結果: code 124。最後の出力は `Creating an optimized production build ...`。Next.js 16.1.6 (Turbopack) の production optimization 開始後、180秒間追加ログなし。
+- 代替検証: 福井市5件のURL到達確認 all 200、`npx eslint src/data/grants/verified-local-misc-2026.ts`、`git diff --check`、福井県 raw gap 0、coverage failures 0 は通過。
+- build固着は未解決の検証課題として継続。候補は前回同様、Turbopack/Next.js最適化、静的生成対象増加、巨大な助成金データ、メモリ、外部URL参照、未関係のPinterest系変更。全国公式確認の本線は止めず、次の大きな節目で上限付き build または `next build --debug` 相当を短時間で再確認する。
+- 次の作業候補は `tasks/progress-checklist.md` の先頭候補、福島県 いわき市9件。
