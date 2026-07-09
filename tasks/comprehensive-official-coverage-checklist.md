@@ -552,3 +552,47 @@
   - 室蘭市 地球岬周遊促進事業: 公式ページを確認したが、観光客向けの音声ガイド・周遊促進プロモーションであり、補助金・助成金・給付金・一時金ではないため対象外。
 - 未完了:
   - なし。室蘭市公式「補助・助成」目的別リストを起点に、事業者、子育て・教育、住まい・生活、医療・福祉、文化・観光の個別ページを一巡確認済み。個別ページまたは要綱PDFで対象・金額/上限・条件・受付状況が確認できたものは反映し、金額未確認・市独自制度性が弱いもの・補助金等ではないものは見送り理由を記録済み。次は自治体コード順で釧路市へ進む。
+
+### 釧路市
+
+- 状態: 着手中
+- 確認日: 2026-07-09
+- 確認元:
+  - https://www.city.kushiro.lg.jp/kosodatekyouiku/
+  - https://www.city.kushiro.lg.jp/kenfuku/
+  - https://www.city.kushiro.lg.jp/sangyou/
+  - https://www.city.kushiro.lg.jp/machi/
+  - https://www.city.kushiro.lg.jp/kurashi/
+  - https://www.city.kushiro.lg.jp/sangyou/suisan/1011227.html
+  - https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/011/227/r8youko2.pdf
+  - https://www.city.kushiro.lg.jp/kosodatekyouiku/kyouiku/1011396/index.html
+  - https://www.city.kushiro.lg.jp/kosodatekyouiku/kyouiku/1011396/1011408.html
+  - https://www.city.kushiro.lg.jp/machi/kyoudou/1005953/index.html
+  - https://www.city.kushiro.lg.jp/machi/kyoudou/1005953/1018687.html
+  - https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/018/687/2026youkou.pdf
+  - https://www.city.kushiro.lg.jp/kurashi/bouhan/1004500.html
+  - https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/004/500/20260408.pdf
+- 既存掲載済みで今回確認済み:
+  - 釧路市 妊婦のための支援給付
+  - 釧路市 こども医療費助成制度
+  - 釧路市 幼児教育・保育の無償化
+  - 釧路市 重度心身障がい者医療費助成制度
+  - 釧路市 高齢者外出促進バス事業
+  - 釧路市 就学援助制度
+  - 釧路市住宅エコリフォーム補助制度
+  - 釧路市 介護保険住宅改修費支給
+  - 釧路市 国民健康保険の特定健康診査
+  - 釧路市 奨学金返済支援補助金
+  - 釧路市 創業支援資金に係る信用保証料補助制度
+  - 釧路市 UIJターン新規就業支援事業（移住支援金）
+- 今回反映:
+  - 釧路市 水産業等事業継続支援金
+  - 釧路市 高等学校等広域通学費助成
+  - 釧路市 輝くまちづくり交付金
+  - 釧路市 街路灯各種補助制度
+- 候補・掲載見送り:
+  - 釧路市 定額減税を補足する給付金（不足額給付金）: 公式ページで受付終了を確認。申請期限が2025年10月31日で過去のため、通常掲載は見送り。
+  - 釧路市 低所得世帯向け給付金カテゴリ: 公式カテゴリを確認したが、現時点で掲載対象となる現行の個別給付ページは確認できず、過年度・終了案件が中心のため見送り。
+  - 釧路市 市民団体協働補助金: 公式ページは過年度リンク中心で、現年度の対象・金額・受付状態を個別ページで確認できないため掲載見送り。
+- 未完了:
+  - 釧路市公式カテゴリのうち、子育て・教育、医療・福祉、産業・事業者、住まい・まちづくり、暮らし・防犯の主要ページを確認中。次に中小企業支援、農林水産、福祉サービス、住宅・空き家、環境系の個別制度を継続確認する。
