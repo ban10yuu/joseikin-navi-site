@@ -385,6 +385,13 @@
   - https://www.city.asahikawa.hokkaido.jp/kurashi/401/ho01/ho001/d077025.html
   - https://www.city.asahikawa.hokkaido.jp/kurashi/401/ho01/ho001/d077025_d/fil/R8_panfu.pdf
   - https://www.city.asahikawa.hokkaido.jp/kurashi/401/ho01/ho001/d077025_d/fil/R8youkou.pdf
+  - https://www.city.asahikawa.hokkaido.jp/kurashi/401/ka01/ka002/d065823.html
+  - https://www.city.asahikawa.hokkaido.jp/kurashi/401/ka01/ka002/d065823_d/fil/pamphlet2.pdf
+  - https://www.city.asahikawa.hokkaido.jp/kurashi/401/ka01/ka002/d065823_d/fil/youkou.pdf
+  - https://www.city.asahikawa.hokkaido.jp/kurashi/218/241/303/d083616.html
+  - https://www.city.asahikawa.hokkaido.jp/kurashi/218/241/303/d083616_d/fil/kouhuyoukou.pdf
+  - https://www.city.asahikawa.hokkaido.jp/kurashi/452/453/454/d067296.html
+  - https://www.city.asahikawa.hokkaido.jp/kurashi/452/453/454/d067296_d/fil/R7youkou.pdf
 - 今回反映:
   - 旭川市 物価高騰対応支援給付金
   - 旭川市 子育て世帯向け給付金（物価高対応・市独自）
@@ -436,6 +443,9 @@
   - 旭川市 通報機器設置等助成金
   - 旭川市 社会教育・文化芸術事業補助金
   - 旭川市 地域材活用住宅建設補助金（令和8年度受付終了）
+  - 旭川市 都市機能施設誘導促進補助金
+  - 旭川市 地域子育て活動支援事業補助金
+  - 旭川市 鉄道利用促進事業助成金
 - 既存掲載済みで今回重複確認したもの:
   - 旭川市 子ども医療費助成
   - 旭川市 妊婦のための支援給付
@@ -455,5 +465,5 @@
   - 旭川市 優良建築物等整備事業補助金: 一覧PDFでは上限2,000万円を確認したが、個別ページは再開発事業の制度説明・完了地区一覧が中心で、令和8年度の募集条件・受付状態・補助率が確認できないため掲載見送り。
 - 未完了:
   - 旭川市補助金一覧（市民向け）35件のうち、未反映または未精査の制度を継続確認する。狩猟免許取得支援は一時休止中、拠点づくり支援事業と優良建築物等整備事業補助金は掲載に必要な金額・受付条件が個別ページで確定できないため候補扱い。
-  - 旭川市補助金一覧（事業者向け）を継続精査する。次候補はその他一覧PDF上の未確認制度と、制度ページで金額・対象・受付状況が個別確認できるもの。
+  - 旭川市補助金一覧（事業者向け）を継続精査する。次候補は一覧PDF上の未確認制度で、制度ページで金額・対象・受付状況が個別確認できるもの。
   - 公式トップ、補助金一覧PDF、カテゴリページだけでなく、個別制度ページで対象・金額・期限を確認できたものだけ追加する。旭川市が一巡完了したら次は自治体コード順で室蘭市へ進む。
