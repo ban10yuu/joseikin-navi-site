@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-09T02:28:00.939Z
+- 生成日時: 2026-07-09T02:32:00.964Z
 - raw unique slugs: 4375
-- verified unique slugs: 5034
-- raw内の公式確認済み slugs: 4310
-- 未照合 raw slugs: 65
-- 完了自治体/団体: 426 / 434
+- verified unique slugs: 5045
+- raw内の公式確認済み slugs: 4321
+- 未照合 raw slugs: 54
+- 完了自治体/団体: 427 / 434
 - raw gap 0 の都道府県: 45 / 47
 
 ## 次に進める候補
 
-- 兵庫県 西宮市: 残り11件（nishinomiya-elderly-medical / nishinomiya-housing-eco / nishinomiya-childcare-subsidy / nishinomiya-birth-bonus / nishinomiya-housing-purchase 他6件）
 - 兵庫県 尼崎市: 残り10件（amagasaki-community-support / amagasaki-childcare-subsidy / amagasaki-birth-bonus / amagasaki-newlywed-rent / amagasaki-disability-medical 他5件）
 - 兵庫県 姫路市: 残り11件（himeji-scholarship / himeji-housing-seismic / himeji-childcare-subsidy / himeji-birth-bonus / himeji-newlywed-rent 他6件）
 - 兵庫県 兵庫県: 残り1件（hyogo-disaster-resilience）
@@ -27,7 +26,7 @@
 
 | 状態 | 都道府県 | raw | verified | 残り | 次のslug |
 |---|---:|---:|---:|---:|---|
-| 未完了 | 兵庫県 | 90 | 36 | 54 | himeji-scholarship / himeji-housing-seismic / nishinomiya-elderly-medical / nishinomiya-housing-eco / amagasaki-community-support 他49件 |
+| 未完了 | 兵庫県 | 90 | 47 | 43 | himeji-scholarship / himeji-housing-seismic / amagasaki-community-support / akashi-infertility-treatment / akashi-scholarship 他38件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
@@ -494,7 +493,7 @@
 | 完了 | 兵庫県 | 伊丹市 | 3 | 3 | 0 |  |
 | 完了 | 兵庫県 | 加古川市 | 12 | 12 | 0 |  |
 | 完了 | 兵庫県 | 神戸市 | 12 | 12 | 0 |  |
-| 未完了 | 兵庫県 | 西宮市 | 12 | 1 | 11 | nishinomiya-elderly-medical / nishinomiya-housing-eco / nishinomiya-childcare-subsidy / nishinomiya-birth-bonus / nishinomiya-housing-purchase 他6件 |
+| 完了 | 兵庫県 | 西宮市 | 12 | 12 | 0 |  |
 | 未完了 | 兵庫県 | 尼崎市 | 12 | 2 | 10 | amagasaki-community-support / amagasaki-childcare-subsidy / amagasaki-birth-bonus / amagasaki-newlywed-rent / amagasaki-disability-medical 他5件 |
 | 未完了 | 兵庫県 | 姫路市 | 12 | 1 | 11 | himeji-scholarship / himeji-housing-seismic / himeji-childcare-subsidy / himeji-birth-bonus / himeji-newlywed-rent 他6件 |
 | 未完了 | 兵庫県 | 兵庫県 | 3 | 2 | 1 | hyogo-disaster-resilience |
