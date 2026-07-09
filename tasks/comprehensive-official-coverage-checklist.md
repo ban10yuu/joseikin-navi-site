@@ -479,6 +479,11 @@
   - https://www.city.muroran.lg.jp/business/?content=3676
   - https://www.city.muroran.lg.jp/business/?content=5801
   - https://www.city.muroran.lg.jp/business/?content=5921
+  - https://www.city.muroran.lg.jp/education/?content=10228
+  - https://www.city.muroran.lg.jp/education/?content=1779
+  - https://www.city.muroran.lg.jp/education/?content=2686
+  - https://www.city.muroran.lg.jp/education/?content=2728
+  - https://www.city.muroran.lg.jp/education/?content=3643
 - 今回反映:
   - 室蘭市 女性向け職場改善・魅力アップ支援事業補助金
   - 室蘭市 社宅建設等支援事業補助金
@@ -487,7 +492,13 @@
   - 室蘭市 移住支援金
   - 室蘭市 地方就職支援金
   - 室蘭市 UIJターン就職促進採用PR動画制作支援事業補助金
+  - 室蘭市 妊婦健康診査等の償還払い
+  - 室蘭市 低所得の妊婦に対する初回産科受診料助成
+  - 室蘭市 不妊治療費（先進医療）等助成事業
+  - 室蘭市 入院助産制度
+  - 室蘭市 高等学校卒業程度認定試験合格支援事業
 - 候補・掲載見送り:
   - 室蘭市 フェリー等でつながる地域でのイベント出展等助成: 公式ページで制度と申請フォームを確認。金額・上限は要綱PDF確認後に掲載判定する。
+  - 室蘭市 令和8年度就学援助: 公式ページで対象世帯・申請手続きは確認。金額・上限または支給単価の確認後に掲載判定する。
 - 未完了:
-  - 室蘭市公式「補助・助成」目的別リスト42URLのうち、子育て・教育、住まい・生活、医療・福祉系を継続確認する。公式ページで制度名・対象・金額/上限・条件・期限/受付状況が確認できるものだけ追加する。
+  - 室蘭市公式「補助・助成」目的別リスト42URLのうち、住まい・生活、医療・福祉系を継続確認する。公式ページで制度名・対象・金額/上限・条件・期限/受付状況が確認できるものだけ追加する。
