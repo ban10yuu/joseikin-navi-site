@@ -572,6 +572,15 @@
   - https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/018/687/2026youkou.pdf
   - https://www.city.kushiro.lg.jp/kurashi/bouhan/1004500.html
   - https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/004/500/20260408.pdf
+  - https://www.city.kushiro.lg.jp/sangyou/b_shien/1006429/1018877.html
+  - https://www.city.kushiro.lg.jp/kurashi/sumai/1004491/1004495.html
+  - https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/004/495/20260401.pdf
+  - https://www.city.kushiro.lg.jp/machi/ijyuu/1010134/1010143.html
+  - https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1005438/index.html
+  - https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1005438/1005442.html
+  - https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1005438/1005439.html
+  - https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1005438/1012032.html
+  - https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1005438/1005440.html
 - 既存掲載済みで今回確認済み:
   - 釧路市 妊婦のための支援給付
   - 釧路市 こども医療費助成制度
@@ -590,6 +599,13 @@
   - 釧路市 高等学校等広域通学費助成
   - 釧路市 輝くまちづくり交付金
   - 釧路市 街路灯各種補助制度
+  - 釧路市 くしろ市民応援クーポン
+  - 釧路市 不良空家等除却補助制度
+  - 釧路市 長期滞在施設整備支援事業補助金（令和8年度通常受付なし）
+  - 釧路市 災害遺児手当
+  - 釧路市 ひとり親家庭高等職業訓練促進給付金
+  - 釧路市 ひとり親家庭高等学校卒業程度認定試験合格支援事業
+  - 釧路市 ひとり親家庭自立支援教育訓練給付金
 - 候補・掲載見送り:
   - 釧路市 定額減税を補足する給付金（不足額給付金）: 公式ページで受付終了を確認。申請期限が2025年10月31日で過去のため、通常掲載は見送り。
   - 釧路市 低所得世帯向け給付金カテゴリ: 公式カテゴリを確認したが、現時点で掲載対象となる現行の個別給付ページは確認できず、過年度・終了案件が中心のため見送り。
