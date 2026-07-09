@@ -90,6 +90,10 @@
   - https://www.city.sapporo.jp/keizai/koyo/ijyu_shienkin/iju_shienkin0804.html
   - https://www.city.sapporo.jp/kyoiku/top/information/syogakukin.html
   - https://www.city.sapporo.jp/kyoiku/top/syogakukin/boshu/2026hoju.html
+  - https://www.city.sapporo.jp/kikaku/daigaku/r8/hojo_daigakukigyou.html
+  - https://www.city.sapporo.jp/fukushi/setsubi/hojoindex.html
+  - https://www.city.sapporo.jp/kankyo/energy/hojo/kiki.html
+  - https://www.city.sapporo.jp/shogaifukushi/jiritsushien/ictshien.html
 - 反映済み:
   - 札幌市求人情報発信補助金（専門家派遣付）
   - 札幌市食の海外展開チャレンジ支援補助金
@@ -97,9 +101,17 @@
   - 札幌市物価高対応子育て応援手当
   - 札幌市UIJターン就職移住支援金
   - 札幌市奨学金（給付型）
+  - 札幌市 大学と民間企業等との連携による公益的事業の推進補助金
+  - 札幌市 民間公共的施設バリアフリー補助事業
+  - 札幌市 再エネ省エネ機器導入補助金制度
+  - 札幌市 障害福祉分野の介護テクノロジー導入支援事業（ICT導入支援）
 - 既存掲載済みで今回再確認したもの:
   - 札幌版次世代住宅補助制度
   - 妊婦のための支援給付（妊婦支援給付金）
+  - 札幌市住宅エコリフォーム補助制度
+  - さっぽろ圏奨学金返還支援事業
+  - 札幌市子ども医療費助成
+  - 札幌市重度心身障がい者医療費助成
 - 未完了:
-  - 札幌市公式サイトの住宅、医療、福祉、文化、観光、企業支援カテゴリを追加検索する。
+  - 札幌市公式サイトの文化、観光、企業支援、医療費助成の周辺制度、介護施設整備系を追加検索する。
   - 札幌市の区独自制度は、公式に区独自の補助・助成・給付が確認できた場合のみ個別扱いにする。
