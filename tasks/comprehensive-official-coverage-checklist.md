@@ -31,3 +31,57 @@
 3. 天理市ページ、トップ検索、一覧検索で件数と表示を確認する。
 4. 自治体マスター作成に進む。
 
+## 北海道からの公式棚卸し
+
+### 北海道庁
+
+- 状態: 着手中
+- 確認日: 2026-07-09
+- 確認元:
+  - https://www.pref.hokkaido.lg.jp/news/joseiseido/
+  - https://www.pref.hokkaido.lg.jp/kz/kks/255134.html
+  - https://www.pref.hokkaido.lg.jp/kz/jzi/248571.html
+  - https://www.pref.hokkaido.lg.jp/kz/kkd/261068.html
+  - https://www.pref.hokkaido.lg.jp/kz/gxs/107905.html
+  - https://www.pref.hokkaido.lg.jp/kz/gxs/risaikurutuika.html
+  - https://www.pref.hokkaido.lg.jp/kz/gxs/148193.html
+  - https://www.pref.hokkaido.lg.jp/ks/skn/higuma/231303.html
+  - https://www.pref.hokkaido.lg.jp/kz/gxs/107863.html
+- 反映済み:
+  - 道民生活応援ポイント給付事業
+  - 人材確保奨励金・支援金
+  - 観光地づくり加速化補助金
+  - 省エネルギー設備導入支援事業費補助金
+  - リサイクル産業創出事業費補助事業
+  - 環境・エネルギー産業総合支援事業（開発支援事業）
+  - ヒグマ対策事業補助金
+  - 省エネルギー設備導入計画等作成支援事業費補助金
+- 未完了:
+  - 北海道庁の助成制度一覧に残る医療・介護・空港・建設・SDGs・特別高圧電力等を継続確認する。
+  - 次の自治体順は札幌市。既存12件以外の公式制度を公式検索で追加確認する。
+
+### 札幌市
+
+- 状態: 着手中
+- 確認日: 2026-07-09
+- 確認元:
+  - https://www.city.sapporo.jp/keizai/telework/kyujinjoho.html
+  - https://www.city.sapporo.jp/keizai/tradeinfo/food/r8challenge.html
+  - https://www.city.sapporo.jp/rinnjitokubetukyufukin/r7_ichiritsu.html
+  - https://kosodate.city.sapporo.jp/mokuteki/money/kodomo/14351.html
+  - https://www.city.sapporo.jp/keizai/koyo/ijyu_shienkin/iju_shienkin0804.html
+  - https://www.city.sapporo.jp/kyoiku/top/information/syogakukin.html
+  - https://www.city.sapporo.jp/kyoiku/top/syogakukin/boshu/2026hoju.html
+- 反映済み:
+  - 札幌市求人情報発信補助金（専門家派遣付）
+  - 札幌市食の海外展開チャレンジ支援補助金
+  - 札幌市物価高対策臨時給付金
+  - 札幌市物価高対応子育て応援手当
+  - 札幌市UIJターン就職移住支援金
+  - 札幌市奨学金（給付型）
+- 既存掲載済みで今回再確認したもの:
+  - 札幌版次世代住宅補助制度
+  - 妊婦のための支援給付（妊婦支援給付金）
+- 未完了:
+  - 札幌市公式サイトの住宅、医療、福祉、文化、観光、企業支援カテゴリを追加検索する。
+  - 札幌市の区独自制度は、公式に区独自の補助・助成・給付が確認できた場合のみ個別扱いにする。
