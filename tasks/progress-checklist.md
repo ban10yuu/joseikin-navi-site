@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-09T01:18:50.314Z
+- 生成日時: 2026-07-09T01:21:46.425Z
 - raw unique slugs: 4375
-- verified unique slugs: 4935
-- raw内の公式確認済み slugs: 4211
-- 未照合 raw slugs: 164
-- 完了自治体/団体: 414 / 434
+- verified unique slugs: 4944
+- raw内の公式確認済み slugs: 4220
+- 未照合 raw slugs: 155
+- 完了自治体/団体: 415 / 434
 - raw gap 0 の都道府県: 43 / 47
 
 ## 次に進める候補
 
-- 福井県 敦賀市: 残り9件（tsuruga-childcare-subsidy / tsuruga-birth-bonus / tsuruga-housing-purchase / tsuruga-infertility / tsuruga-scholarship 他4件）
 - 福井県 福井県: 残り2件（fukui-child-support / fukui-housing-support）
 - 福井県 福井市: 残り5件（fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / fukui-city-housing-reform）
 - 福島県 いわき市: 残り9件（iwaki-childcare-subsidy / iwaki-birth-bonus / iwaki-newlywed-rent / iwaki-infertility / iwaki-school-lunch 他4件）
@@ -41,8 +40,8 @@
 |---|---:|---:|---:|---:|---|
 | 未完了 | 兵庫県 | 90 | 13 | 77 | himeji-scholarship / himeji-housing-seismic / nishinomiya-elderly-medical / nishinomiya-housing-eco / amagasaki-community-support 他72件 |
 | 未完了 | 福島県 | 72 | 12 | 60 | koriyama-infertility-treatment / aizu-housing-seismic / aizu-senior-medical / sukagawa-startup-support / sukagawa-migration-support 他55件 |
-| 未完了 | 福井県 | 69 | 53 | 16 | fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / tsuruga-childcare-subsidy 他11件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
+| 未完了 | 福井県 | 69 | 62 | 7 | fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / fukui-city-housing-reform 他2件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
 | 完了 | 茨城県 | 99 | 99 | 0 |  |
@@ -484,7 +483,7 @@
 | 完了 | 福井県 | 勝山市 | 9 | 9 | 0 |  |
 | 完了 | 福井県 | 小浜市 | 9 | 9 | 0 |  |
 | 完了 | 福井県 | 大野市 | 9 | 9 | 0 |  |
-| 未完了 | 福井県 | 敦賀市 | 9 | 0 | 9 | tsuruga-childcare-subsidy / tsuruga-birth-bonus / tsuruga-housing-purchase / tsuruga-infertility / tsuruga-scholarship 他4件 |
+| 完了 | 福井県 | 敦賀市 | 9 | 9 | 0 |  |
 | 未完了 | 福井県 | 福井県 | 3 | 1 | 2 | fukui-child-support / fukui-housing-support |
 | 未完了 | 福井県 | 福井市 | 12 | 7 | 5 | fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / fukui-city-housing-reform |
 | 完了 | 福岡県 | 久留米市 | 20 | 20 | 0 |  |
