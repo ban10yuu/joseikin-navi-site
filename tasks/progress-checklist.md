@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-09T02:44:22.931Z
+- 生成日時: 2026-07-09T02:47:11.220Z
 - raw unique slugs: 4375
-- verified unique slugs: 5077
-- raw内の公式確認済み slugs: 4353
-- 未照合 raw slugs: 22
-- 完了自治体/団体: 431 / 434
-- raw gap 0 の都道府県: 45 / 47
+- verified unique slugs: 5088
+- raw内の公式確認済み slugs: 4364
+- 未照合 raw slugs: 11
+- 完了自治体/団体: 432 / 434
+- raw gap 0 の都道府県: 46 / 47
 
 ## 次に進める候補
 
-- 兵庫県 明石市: 残り11件（akashi-infertility-treatment / akashi-scholarship / akashi-childcare-subsidy / akashi-birth-bonus / akashi-housing-purchase 他6件）
 - 和歌山県 和歌山県: 残り1件（wakayama-ume-farming）
 - 和歌山県 和歌山市: 残り10件（wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他5件）
 
@@ -22,7 +21,6 @@
 
 | 状態 | 都道府県 | raw | verified | 残り | 次のslug |
 |---|---:|---:|---:|---:|---|
-| 未完了 | 兵庫県 | 90 | 79 | 11 | akashi-infertility-treatment / akashi-scholarship / akashi-childcare-subsidy / akashi-birth-bonus / akashi-housing-purchase 他6件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
@@ -69,6 +67,7 @@
 | 完了 | 福井県 | 69 | 69 | 0 |  |
 | 完了 | 福岡県 | 138 | 138 | 0 |  |
 | 完了 | 福島県 | 72 | 72 | 0 |  |
+| 完了 | 兵庫県 | 90 | 90 | 0 |  |
 | 完了 | 北海道 | 175 | 175 | 0 |  |
 
 ## 自治体・団体別
@@ -494,7 +493,7 @@
 | 完了 | 兵庫県 | 姫路市 | 12 | 12 | 0 |  |
 | 完了 | 兵庫県 | 兵庫県 | 3 | 3 | 0 |  |
 | 完了 | 兵庫県 | 宝塚市 | 12 | 12 | 0 |  |
-| 未完了 | 兵庫県 | 明石市 | 12 | 1 | 11 | akashi-infertility-treatment / akashi-scholarship / akashi-childcare-subsidy / akashi-birth-bonus / akashi-housing-purchase 他6件 |
+| 完了 | 兵庫県 | 明石市 | 12 | 12 | 0 |  |
 | 完了 | 北海道 | 旭川市 | 21 | 21 | 0 |  |
 | 完了 | 北海道 | 釧路市 | 21 | 21 | 0 |  |
 | 完了 | 北海道 | 江別市 | 12 | 12 | 0 |  |
