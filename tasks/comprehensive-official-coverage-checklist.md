@@ -47,6 +47,15 @@
   - https://www.pref.hokkaido.lg.jp/kz/gxs/148193.html
   - https://www.pref.hokkaido.lg.jp/ks/skn/higuma/231303.html
   - https://www.pref.hokkaido.lg.jp/kz/gxs/107863.html
+  - https://www.pref.hokkaido.lg.jp/kn/ksk/hojyokin/hojyokin.html
+  - https://www.pref.hokkaido.lg.jp/hf/khf/221268.html
+  - https://www.pref.hokkaido.lg.jp/kz/gxs/GXchiikimirai.html
+  - https://www.pref.hokkaido.lg.jp/hf/cis/257305.html
+  - https://www.pref.hokkaido.lg.jp/hf/khf/233225.html
+  - https://www.pref.hokkaido.lg.jp/hf/iyk/212961.html
+  - https://www.pref.hokkaido.lg.jp/ss/sks/SDGs/102806.html
+  - https://www.pref.hokkaido.lg.jp/ss/kkk/190904.html
+  - https://www.pref.hokkaido.lg.jp/kz/csk/243189.html
 - 反映済み:
   - 道民生活応援ポイント給付事業
   - 人材確保奨励金・支援金
@@ -56,9 +65,18 @@
   - 環境・エネルギー産業総合支援事業（開発支援事業）
   - ヒグマ対策事業補助金
   - 省エネルギー設備導入計画等作成支援事業費補助金
+  - 建設産業ミライ振興支援事業補助金
+  - 介護従事者確保総合推進事業費補助金
+  - 地域未来投資促進法を活用したGX産業立地支援
+  - 医療分野における業務効率化・職場環境改善支援事業
+  - 訪問介護等サービス提供体制確保支援事業
+  - 電子処方箋活用・普及促進事業助成金
+  - 市町村SDGs推進支援
+  - 道内地方空港国際線受入体制整備事業補助金
+  - 特別高圧電力利用事業者緊急支援事業
 - 未完了:
-  - 北海道庁の助成制度一覧に残る医療・介護・空港・建設・SDGs・特別高圧電力等を継続確認する。
-  - 次の自治体順は札幌市。既存12件以外の公式制度を公式検索で追加確認する。
+  - 北海道庁の助成制度一覧は主要掲載分を追加反映済み。次に「補助事業等の公表」「各種補助金に関すること」「看護職員修学資金等」「中小企業向け融資・利子補給」など、一覧外カテゴリを継続確認する。
+  - 次の自治体順は札幌市。既存掲載分以外の公式制度を公式検索で追加確認し、その後は自治体コード順で函館市へ進む。
 
 ### 札幌市
 
