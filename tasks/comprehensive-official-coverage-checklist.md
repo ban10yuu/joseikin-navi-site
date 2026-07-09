@@ -229,6 +229,9 @@
   - https://www.city.otaru.lg.jp/docs/2020111000797/
   - https://www.city.otaru.lg.jp/docs/2025072200095/
   - https://www.city.otaru.lg.jp/docs/2020100100460/
+  - https://www.city.otaru.lg.jp/docs/2025032800051/
+  - https://www.city.otaru.lg.jp/docs/2024020600031/
+  - https://www.city.otaru.lg.jp/docs/2020101900700/
   - https://www.city.otaru.lg.jp/docs/2025033000016/
 - 今回反映:
   - 小樽市 企業認知度向上支援補助金
@@ -271,6 +274,9 @@
   - 小樽市 妊産婦健診費用助成
   - 小樽市 新生児聴覚検査費用助成
   - 小樽市 未熟児養育医療
+  - 小樽市 高齢者等帯状疱疹予防接種事業
+  - 小樽市 高齢者等肺炎球菌感染症予防接種事業
+  - 小樽市 子どもの定期予防接種費用助成
 - 既存掲載済みで今回重複確認したもの:
   - 小樽市 令和8年度 高圧電気料金高騰対策支援金
   - 小樽市 創業支援補助金
