@@ -586,6 +586,10 @@
   - https://www.city.kushiro.lg.jp/kenfuku/fukushi/1004747/1004760/1009899/1018683.html
   - https://www.city.kushiro.lg.jp/kenfuku/fukushi/1004747/1004760/1009899/1004864.html
   - https://www.city.kushiro.lg.jp/sangyou/nourin/1006307/1006308/1006313.html
+  - https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1005438/1005441.html
+  - https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1005438/1005443.html
+  - https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1005438/1005445.html
+  - https://www.city.kushiro.lg.jp/kosodatekyouiku/kosodate/1005438/1005446.html
 - 既存掲載済みで今回確認済み:
   - 釧路市 妊婦のための支援給付
   - 釧路市 こども医療費助成制度
@@ -613,6 +617,9 @@
   - 釧路市 ひとり親家庭自立支援教育訓練給付金
   - 釧路市 診療所等開設助成金
   - 釧路市 重度障がい者交通費助成
+  - 釧路市 児童手当
+  - 釧路市 児童扶養手当
+  - 釧路市 特別児童扶養手当
 - 候補・掲載見送り:
   - 釧路市 定額減税を補足する給付金（不足額給付金）: 公式ページで受付終了を確認。申請期限が2025年10月31日で過去のため、通常掲載は見送り。
   - 釧路市 低所得世帯向け給付金カテゴリ: 公式カテゴリを確認したが、現時点で掲載対象となる現行の個別給付ページは確認できず、過年度・終了案件が中心のため見送り。
