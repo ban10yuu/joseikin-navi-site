@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-09T00:52:03.052Z
+- 生成日時: 2026-07-09T00:58:24.993Z
 - raw unique slugs: 4375
-- verified unique slugs: 4874
-- raw内の公式確認済み slugs: 4150
-- 未照合 raw slugs: 225
-- 完了自治体/団体: 408 / 434
-- raw gap 0 の都道府県: 42 / 47
+- verified unique slugs: 4890
+- raw内の公式確認済み slugs: 4166
+- 未照合 raw slugs: 209
+- 完了自治体/団体: 409 / 434
+- raw gap 0 の都道府県: 43 / 47
 
 ## 次に進める候補
 
-- 富山県 富山市: 残り16件（toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他11件）
 - 福井県 あわら市: 残り9件（awara-childcare-subsidy / awara-birth-bonus / awara-housing-purchase / awara-infertility / awara-scholarship 他4件）
 - 福井県 坂井市: 残り9件（sakai-fukui-childcare-subsidy / sakai-fukui-birth-bonus / sakai-fukui-housing-purchase / sakai-fukui-infertility / sakai-fukui-scholarship 他4件）
 - 福井県 勝山市: 残り9件（katsuyama-childcare-subsidy / katsuyama-birth-bonus / katsuyama-housing-purchase / katsuyama-infertility / katsuyama-scholarship 他4件）
@@ -34,6 +33,7 @@
 - 兵庫県 神戸市: 残り11件（kobe-fertility-treatment / kobe-housing-eco-reform / kobe-childcare-subsidy / kobe-birth-bonus / kobe-housing-purchase 他6件）
 - 兵庫県 西宮市: 残り11件（nishinomiya-elderly-medical / nishinomiya-housing-eco / nishinomiya-childcare-subsidy / nishinomiya-birth-bonus / nishinomiya-housing-purchase 他6件）
 - 兵庫県 尼崎市: 残り10件（amagasaki-community-support / amagasaki-childcare-subsidy / amagasaki-birth-bonus / amagasaki-newlywed-rent / amagasaki-disability-medical 他5件）
+- 兵庫県 姫路市: 残り11件（himeji-scholarship / himeji-housing-seismic / himeji-childcare-subsidy / himeji-birth-bonus / himeji-newlywed-rent 他6件）
 
 ## 都道府県別
 
@@ -42,7 +42,6 @@
 | 未完了 | 兵庫県 | 90 | 13 | 77 | himeji-scholarship / himeji-housing-seismic / nishinomiya-elderly-medical / nishinomiya-housing-eco / amagasaki-community-support 他72件 |
 | 未完了 | 福井県 | 69 | 8 | 61 | fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / tsuruga-childcare-subsidy 他56件 |
 | 未完了 | 福島県 | 72 | 12 | 60 | koriyama-infertility-treatment / aizu-housing-seismic / aizu-senior-medical / sukagawa-startup-support / sukagawa-migration-support 他55件 |
-| 未完了 | 富山県 | 45 | 29 | 16 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他11件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
@@ -85,6 +84,7 @@
 | 完了 | 徳島県 | 42 | 42 | 0 |  |
 | 完了 | 栃木県 | 130 | 130 | 0 |  |
 | 完了 | 奈良県 | 16 | 16 | 0 |  |
+| 完了 | 富山県 | 45 | 45 | 0 |  |
 | 完了 | 福岡県 | 138 | 138 | 0 |  |
 | 完了 | 北海道 | 175 | 175 | 0 |  |
 
@@ -478,7 +478,7 @@
 | 完了 | 富山県 | 高岡市 | 12 | 12 | 0 |  |
 | 完了 | 富山県 | 射水市 | 9 | 9 | 0 |  |
 | 完了 | 富山県 | 富山県 | 3 | 3 | 0 |  |
-| 未完了 | 富山県 | 富山市 | 21 | 5 | 16 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他11件 |
+| 完了 | 富山県 | 富山市 | 21 | 21 | 0 |  |
 | 未完了 | 福井県 | あわら市 | 9 | 0 | 9 | awara-childcare-subsidy / awara-birth-bonus / awara-housing-purchase / awara-infertility / awara-scholarship 他4件 |
 | 未完了 | 福井県 | 坂井市 | 9 | 0 | 9 | sakai-fukui-childcare-subsidy / sakai-fukui-birth-bonus / sakai-fukui-housing-purchase / sakai-fukui-infertility / sakai-fukui-scholarship 他4件 |
 | 未完了 | 福井県 | 勝山市 | 9 | 0 | 9 | katsuyama-childcare-subsidy / katsuyama-birth-bonus / katsuyama-housing-purchase / katsuyama-infertility / katsuyama-scholarship 他4件 |
