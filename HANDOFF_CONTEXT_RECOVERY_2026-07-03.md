@@ -941,3 +941,22 @@ node scripts/audit-raw-verified-gaps.mjs --limit 25
 - 代替検証: 富山市16件のURL到達確認 all 200、`npx eslint src/data/grants/verified-local-misc-2026.ts`、`git diff --check`、富山県 raw gap 0、coverage failures 0 は通過。
 - build固着は未解決の検証課題として継続。候補は前回同様、Turbopack/Next.js最適化、静的生成対象増加、巨大な助成金データ、メモリ、外部URL参照、未関係のPinterest系変更。全国公式確認の本線は止めず、次の大きな節目で上限付き build または `next build --debug` 相当を短時間で再確認する。
 - 次の作業候補は `tasks/progress-checklist.md` の先頭候補、福井県 あわら市9件。
+
+## Current progress update 2026-07-09 福井県途中再開地点
+
+- この継続で福井県の以下を完了:
+  - `a898f3f あわら市9件を公式補正`
+  - `73b6a7c 坂井市9件を公式補正`
+  - `ab9b4a3 勝山市9件を公式補正`
+- 最新チェックリスト: remaining raw slugs 182、completed municipalities 412/434、福井県残り34件。
+- 直近検証: 勝山市9件で `npx eslint src/data/grants/verified-local-misc-2026.ts`、`git diff --check`、対象9slug URL all 200、`node scripts/audit-raw-verified-gaps.mjs --prefecture 福井県 --limit 80`、`npm run audit:coverage`、`node scripts/generate-progress-checklist.mjs` 通過。
+- buildは県未完了のため未実行。福井県完了時に `NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npm run build` を再確認する。
+- Next restart point: 福井県 小浜市9件:
+  `obama-childcare-subsidy`, `obama-birth-bonus`, `obama-housing-purchase`, `obama-infertility`, `obama-migration-bonus`, `obama-nursing-equipment`, `obama-scholarship`, `obama-seismic-diagnosis`, `obama-uij-turn`.
+- 小浜市で調査済み公式候補:
+  - 保育無償化: `https://www1.city.obama.fukui.jp/kurashi/koho-kocho/kohoobama-r1nendoban/4211_d/fil/121.pdf`
+  - 出産・子育て応援金: `https://www1.city.obama.fukui.jp/obm/kosodate/5655` または `https://www1.city.obama.fukui.jp/obm/kosodate/wp-content/uploads/2023/01/1578e420dfa547c97b3a27c9a84e4449.pdf`
+  - 住まい支援: `https://www1.city.obama.fukui.jp/kurashi/sumaiakiya/juutaku_hojo/4857.html`
+  - 不妊治療: `https://www1.city.obama.fukui.jp/obm/kosodate/wp-content/uploads/2023/12/cc138161999fb1f478295e20f2e0c897.pdf`
+  - 住宅等補助一覧: `https://www1.city.obama.fukui.jp/kurashi/sumaiakiya/juutaku_hojo/index.html`
+- 次回は小浜市の残り5件（移住、介護用品、奨学金、耐震診断、UIJターン）の公式確認から続行し、9件まとめて追記・検証・コミットする。
