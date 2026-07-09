@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-09T01:04:29.910Z
+- 生成日時: 2026-07-09T01:06:54.563Z
 - raw unique slugs: 4375
-- verified unique slugs: 4899
-- raw内の公式確認済み slugs: 4175
-- 未照合 raw slugs: 200
-- 完了自治体/団体: 410 / 434
+- verified unique slugs: 4908
+- raw内の公式確認済み slugs: 4184
+- 未照合 raw slugs: 191
+- 完了自治体/団体: 411 / 434
 - raw gap 0 の都道府県: 43 / 47
 
 ## 次に進める候補
 
-- 福井県 坂井市: 残り9件（sakai-fukui-childcare-subsidy / sakai-fukui-birth-bonus / sakai-fukui-housing-purchase / sakai-fukui-infertility / sakai-fukui-scholarship 他4件）
 - 福井県 勝山市: 残り9件（katsuyama-childcare-subsidy / katsuyama-birth-bonus / katsuyama-housing-purchase / katsuyama-infertility / katsuyama-scholarship 他4件）
 - 福井県 小浜市: 残り9件（obama-childcare-subsidy / obama-birth-bonus / obama-housing-purchase / obama-infertility / obama-scholarship 他4件）
 - 福井県 大野市: 残り9件（ono-fukui-childcare-subsidy / ono-fukui-birth-bonus / ono-fukui-housing-purchase / ono-fukui-infertility / ono-fukui-scholarship 他4件）
@@ -34,6 +33,7 @@
 - 兵庫県 尼崎市: 残り10件（amagasaki-community-support / amagasaki-childcare-subsidy / amagasaki-birth-bonus / amagasaki-newlywed-rent / amagasaki-disability-medical 他5件）
 - 兵庫県 姫路市: 残り11件（himeji-scholarship / himeji-housing-seismic / himeji-childcare-subsidy / himeji-birth-bonus / himeji-newlywed-rent 他6件）
 - 兵庫県 兵庫県: 残り1件（hyogo-disaster-resilience）
+- 兵庫県 宝塚市: 残り10件（takarazuka-scholarship / takarazuka-childcare-subsidy / takarazuka-birth-bonus / takarazuka-housing-purchase / takarazuka-infertility 他5件）
 
 ## 都道府県別
 
@@ -41,7 +41,7 @@
 |---|---:|---:|---:|---:|---|
 | 未完了 | 兵庫県 | 90 | 13 | 77 | himeji-scholarship / himeji-housing-seismic / nishinomiya-elderly-medical / nishinomiya-housing-eco / amagasaki-community-support 他72件 |
 | 未完了 | 福島県 | 72 | 12 | 60 | koriyama-infertility-treatment / aizu-housing-seismic / aizu-senior-medical / sukagawa-startup-support / sukagawa-migration-support 他55件 |
-| 未完了 | 福井県 | 69 | 17 | 52 | fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / tsuruga-childcare-subsidy 他47件 |
+| 未完了 | 福井県 | 69 | 26 | 43 | fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / tsuruga-childcare-subsidy 他38件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
@@ -480,7 +480,7 @@
 | 完了 | 富山県 | 富山県 | 3 | 3 | 0 |  |
 | 完了 | 富山県 | 富山市 | 21 | 21 | 0 |  |
 | 完了 | 福井県 | あわら市 | 9 | 9 | 0 |  |
-| 未完了 | 福井県 | 坂井市 | 9 | 0 | 9 | sakai-fukui-childcare-subsidy / sakai-fukui-birth-bonus / sakai-fukui-housing-purchase / sakai-fukui-infertility / sakai-fukui-scholarship 他4件 |
+| 完了 | 福井県 | 坂井市 | 9 | 9 | 0 |  |
 | 未完了 | 福井県 | 勝山市 | 9 | 0 | 9 | katsuyama-childcare-subsidy / katsuyama-birth-bonus / katsuyama-housing-purchase / katsuyama-infertility / katsuyama-scholarship 他4件 |
 | 未完了 | 福井県 | 小浜市 | 9 | 0 | 9 | obama-childcare-subsidy / obama-birth-bonus / obama-housing-purchase / obama-infertility / obama-scholarship 他4件 |
 | 未完了 | 福井県 | 大野市 | 9 | 0 | 9 | ono-fukui-childcare-subsidy / ono-fukui-birth-bonus / ono-fukui-housing-purchase / ono-fukui-infertility / ono-fukui-scholarship 他4件 |
