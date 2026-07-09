@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-08T18:05:16.445Z
+- 生成日時: 2026-07-09T00:48:22.339Z
 - raw unique slugs: 4375
-- verified unique slugs: 4854
-- raw内の公式確認済み slugs: 4130
-- 未照合 raw slugs: 245
-- 完了自治体/団体: 405 / 434
+- verified unique slugs: 4863
+- raw内の公式確認済み slugs: 4139
+- 未照合 raw slugs: 236
+- 完了自治体/団体: 406 / 434
 - raw gap 0 の都道府県: 42 / 47
 
 ## 次に進める候補
 
-- 富山県 高岡市: 残り9件（takaoka-child-medical-aid / takaoka-juutaku-reform / takaoka-health-checkup-subsidy / takaoka-scholarship-repayment / takaoka-startup-support 他4件）
 - 富山県 射水市: 残り9件（imizu-child-medical-aid / imizu-juutaku-reform / imizu-health-checkup-subsidy / imizu-scholarship-repayment / imizu-startup-support 他4件）
 - 富山県 富山県: 残り2件（toyama-housing-renovation / toyama-pharmaceutical-industry）
 - 富山県 富山市: 残り16件（toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他11件）
@@ -34,6 +33,7 @@
 - 福島県 福島市: 残り9件（fukushima-city-childcare-subsidy / fukushima-city-parenting-allowance / fukushima-city-housing-purchase / fukushima-city-senior-dental / fukushima-city-afterschool 他4件）
 - 兵庫県 伊丹市: 残り2件（itami-housing-reform / itami-infertility-treatment）
 - 兵庫県 加古川市: 残り10件（kakogawa-housing-earthquake / kakogawa-childcare-subsidy / kakogawa-birth-bonus / kakogawa-newlywed-rent / kakogawa-disability-medical 他5件）
+- 兵庫県 神戸市: 残り11件（kobe-fertility-treatment / kobe-housing-eco-reform / kobe-childcare-subsidy / kobe-birth-bonus / kobe-housing-purchase 他6件）
 
 ## 都道府県別
 
@@ -42,7 +42,7 @@
 | 未完了 | 兵庫県 | 90 | 13 | 77 | himeji-scholarship / himeji-housing-seismic / nishinomiya-elderly-medical / nishinomiya-housing-eco / amagasaki-community-support 他72件 |
 | 未完了 | 福井県 | 69 | 8 | 61 | fukui-city-childcare-subsidy / fukui-city-telework-bonus / fukui-city-nursing-home-reform / fukui-city-bousai-equipment / tsuruga-childcare-subsidy 他56件 |
 | 未完了 | 福島県 | 72 | 12 | 60 | koriyama-infertility-treatment / aizu-housing-seismic / aizu-senior-medical / sukagawa-startup-support / sukagawa-migration-support 他55件 |
-| 未完了 | 富山県 | 45 | 9 | 36 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他31件 |
+| 未完了 | 富山県 | 45 | 18 | 27 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他22件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
@@ -475,7 +475,7 @@
 | 完了 | 奈良県 | 橿原市 | 3 | 3 | 0 |  |
 | 完了 | 奈良県 | 奈良県 | 1 | 1 | 0 |  |
 | 完了 | 奈良県 | 奈良市 | 12 | 12 | 0 |  |
-| 未完了 | 富山県 | 高岡市 | 12 | 3 | 9 | takaoka-child-medical-aid / takaoka-juutaku-reform / takaoka-health-checkup-subsidy / takaoka-scholarship-repayment / takaoka-startup-support 他4件 |
+| 完了 | 富山県 | 高岡市 | 12 | 12 | 0 |  |
 | 未完了 | 富山県 | 射水市 | 9 | 0 | 9 | imizu-child-medical-aid / imizu-juutaku-reform / imizu-health-checkup-subsidy / imizu-scholarship-repayment / imizu-startup-support 他4件 |
 | 未完了 | 富山県 | 富山県 | 3 | 1 | 2 | toyama-housing-renovation / toyama-pharmaceutical-industry |
 | 未完了 | 富山県 | 富山市 | 21 | 5 | 16 | toyama-city-parenting-allowance / toyama-city-afterschool / toyama-city-telework-bonus / toyama-city-nursing-home-reform / toyama-city-elderly-support 他11件 |
