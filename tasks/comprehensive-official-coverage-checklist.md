@@ -329,6 +329,14 @@
   - https://www.city.asahikawa.hokkaido.jp/kurashi/135/136/137/d081796.html
   - https://www.city.asahikawa.hokkaido.jp/kurashi/271/290/291/d069431.html
   - https://www.city.asahikawa.hokkaido.jp/kurashi/401/ju01/ju002/d053128.html
+  - https://www.city.asahikawa.hokkaido.jp/500/542/54501/545/d079020.html
+  - https://www.city.asahikawa.hokkaido.jp/500/542/54501/545/p003836.html
+  - https://www.city.asahikawa.hokkaido.jp/500/542/54501/54502/p003878.html
+  - https://www.city.asahikawa.hokkaido.jp/500/542/547/p003873.html
+  - https://www.city.asahikawa.hokkaido.jp/500/542/54501/54502/p003857.html
+  - https://www.city.asahikawa.hokkaido.jp/500/542/54501/545/p003799.html
+  - https://www.city.asahikawa.hokkaido.jp/500/501/502/d075399.html
+  - https://www.city.asahikawa.hokkaido.jp/500/522/53901/5439008/d058598.html
 - 今回反映:
   - 旭川市 物価高騰対応支援給付金
   - 旭川市 子育て世帯向け給付金（物価高対応・市独自）
@@ -342,6 +350,14 @@
   - 旭川市 骨髄等ドナー助成金
   - 旭川市 木質バイオマスストーブ導入促進事業補助金
   - 旭川市 不良空き家住宅等除却費補助金
+  - 旭川市 地域企業人材確保支援補助金
+  - 旭川市 地域企業経営者等育成補助金
+  - 旭川市 中小企業振興資金融資制度の信用保証料補助・利子補給
+  - 旭川市 新規開業支援利子補給制度
+  - 旭川市 企業立地促進利子補給制度
+  - 旭川市 中心市街地出店促進補助金
+  - 旭川ものづくり支援補助金
+  - 旭川市 アスベスト対策事業補助金
 - 既存掲載済みで今回重複確認したもの:
   - 旭川市 子ども医療費助成
   - 旭川市 妊婦のための支援給付
