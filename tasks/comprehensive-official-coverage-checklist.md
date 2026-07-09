@@ -641,3 +641,54 @@
   - 釧路市 森林環境譲与税を活用した森林整備関係事業のうち、未整備森林間伐支援事業・私有林整備事業などは制度ページから個別要綱PDFを確認中。今回、要綱PDFで対象・上限・補助率が確定できた林業系5件は反映済み。
 - 未完了:
   - 釧路市公式カテゴリのうち、子育て・教育、医療・福祉、産業・事業者、住まい・まちづくり、暮らし・防犯の主要ページを確認中。次に中小企業支援、農林水産、福祉サービス、住宅・空き家、環境系の個別制度を継続確認する。
+
+### 帯広市
+
+- 状態: 着手中
+- 確認日: 2026-07-10
+- 確認元:
+  - https://www.city.obihiro.hokkaido.jp/kyoiku/kosodate/1014027/index.html
+  - https://www.city.obihiro.hokkaido.jp/kyoiku/kosodate/teate/1004588.html
+  - https://www.city.obihiro.hokkaido.jp/kyoiku/kosodate/hoiku/1004597.html
+  - https://www.city.obihiro.hokkaido.jp/kenko/fukushi/kourei/1004976.html
+  - https://www.city.obihiro.hokkaido.jp/kenko/fukushi/kourei/1004986.html
+  - https://www.city.obihiro.hokkaido.jp/kurashi/sumai/hojo/1003055.html
+  - https://www.city.obihiro.hokkaido.jp/kurashi/sumai/hojo/1003062.html
+  - https://www.city.obihiro.hokkaido.jp/kurashi/sumai/hojo/1003063.html
+  - https://www.city.obihiro.hokkaido.jp/kurashi/sumai/hojo/1016889.html
+  - https://www.city.obihiro.hokkaido.jp/kurashi/sumai/akiya/1003026.html
+  - https://www.city.obihiro.hokkaido.jp/kurashi/sumai/akiya/1003027.html
+  - https://www.city.obihiro.hokkaido.jp/kurashi/kankyo/energy/kashitsuke/1003733.html
+  - https://www.city.obihiro.hokkaido.jp/kurashi/kankyo/energy/kashitsuke/1003731.html
+  - https://www.city.obihiro.hokkaido.jp/sangyo/sangyo/shigaichi/1019406/1005521.html
+  - https://www.city.obihiro.hokkaido.jp/sangyo/roudou/boshu/1005813.html
+  - https://www.city.obihiro.hokkaido.jp/sangyo/roudou/1019126/index.html
+  - https://www.city.obihiro.hokkaido.jp/sangyo/roudou/1019126/1019154/index.html
+  - https://www.city.obihiro.hokkaido.jp/sangyo/kigyoshien/sangyo/1007080/index.html
+  - https://www.city.obihiro.hokkaido.jp/sangyo/kigyoshien/sangyo/1007080/1014382.html
+- 既存掲載済みで今回確認済み:
+  - 帯広市 妊婦等包括相談支援事業と妊婦支援給付金
+  - 帯広市 子ども医療費助成制度
+  - 帯広市 幼児教育・保育の無償化
+  - 帯広市 高齢者おでかけサポートバス事業
+  - 帯広市 国保特定健診・人間ドック受診情報
+  - 帯広市 住まいの改修助成金
+  - 帯広市 移住支援金（UIJターン新規就業支援事業）
+  - 帯広市 家族介護用品支給事業
+  - 帯広市 奨学金
+  - 帯広市 奨学金返済支援補助金
+  - 帯広市 就学援助（学校給食費）
+  - 帯広市 木造住宅の耐震化補助
+- 今回反映:
+  - 帯広市 新エネルギー導入促進補助金
+  - 帯広市 元気な中心市街地づくり促進事業補助金（令和8年度受付終了）
+  - 帯広市 あんしん住宅改修補助金
+  - 帯広市 空家購入等補助金（令和8年度募集終了）
+  - 帯広市 特定空家解体補助金
+- 候補・掲載見送り:
+  - 帯広市 道民生活応援ポイント給付事業: 北海道庁制度として掲載済み。帯広市ページは周知ページのため、市独自制度としては新規掲載しない。
+  - 帯広市 暖房代支援給付金: 公式ページで事業終了を確認。令和7年度事業のため通常掲載は見送り。
+  - 帯広市 とかちビジネスチャレンジ補助金: 公式ページは令和5年度募集の案内で、帯広市制度ではなく公益財団法人とかち財団の制度。現年度募集状態の確認後に別団体制度として判定する。
+  - 帯広市 関係機関による補助金一覧: 国・北海道・関係機関制度のリンク集が中心。帯広市個別制度としては完了扱いにせず、個別制度ページごとに確認する。
+- 未完了:
+  - 帯広市公式カテゴリのうち、産業・企業立地、子育て、医療費助成、福祉、農業、文化・スポーツ関連を継続確認する。次に帯広市の企業立地補助制度、子育て応援事業所促進奨励金、農業系支援、医療費助成周辺を確認する。
