@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-09T02:14:31.411Z
+- 生成日時: 2026-07-09T02:18:33.516Z
 - raw unique slugs: 4375
-- verified unique slugs: 5013
-- raw内の公式確認済み slugs: 4289
-- 未照合 raw slugs: 86
-- 完了自治体/団体: 424 / 434
+- verified unique slugs: 5023
+- raw内の公式確認済み slugs: 4299
+- 未照合 raw slugs: 76
+- 完了自治体/団体: 425 / 434
 - raw gap 0 の都道府県: 45 / 47
 
 ## 次に進める候補
 
-- 兵庫県 加古川市: 残り10件（kakogawa-housing-earthquake / kakogawa-childcare-subsidy / kakogawa-birth-bonus / kakogawa-newlywed-rent / kakogawa-disability-medical 他5件）
 - 兵庫県 神戸市: 残り11件（kobe-fertility-treatment / kobe-housing-eco-reform / kobe-childcare-subsidy / kobe-birth-bonus / kobe-housing-purchase 他6件）
 - 兵庫県 西宮市: 残り11件（nishinomiya-elderly-medical / nishinomiya-housing-eco / nishinomiya-childcare-subsidy / nishinomiya-birth-bonus / nishinomiya-housing-purchase 他6件）
 - 兵庫県 尼崎市: 残り10件（amagasaki-community-support / amagasaki-childcare-subsidy / amagasaki-birth-bonus / amagasaki-newlywed-rent / amagasaki-disability-medical 他5件）
@@ -29,7 +28,7 @@
 
 | 状態 | 都道府県 | raw | verified | 残り | 次のslug |
 |---|---:|---:|---:|---:|---|
-| 未完了 | 兵庫県 | 90 | 15 | 75 | himeji-scholarship / himeji-housing-seismic / nishinomiya-elderly-medical / nishinomiya-housing-eco / amagasaki-community-support 他70件 |
+| 未完了 | 兵庫県 | 90 | 25 | 65 | himeji-scholarship / himeji-housing-seismic / nishinomiya-elderly-medical / nishinomiya-housing-eco / amagasaki-community-support 他60件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
@@ -494,7 +493,7 @@
 | 完了 | 福島県 | 福島県 | 3 | 3 | 0 |  |
 | 完了 | 福島県 | 福島市 | 12 | 12 | 0 |  |
 | 完了 | 兵庫県 | 伊丹市 | 3 | 3 | 0 |  |
-| 未完了 | 兵庫県 | 加古川市 | 12 | 2 | 10 | kakogawa-housing-earthquake / kakogawa-childcare-subsidy / kakogawa-birth-bonus / kakogawa-newlywed-rent / kakogawa-disability-medical 他5件 |
+| 完了 | 兵庫県 | 加古川市 | 12 | 12 | 0 |  |
 | 未完了 | 兵庫県 | 神戸市 | 12 | 1 | 11 | kobe-fertility-treatment / kobe-housing-eco-reform / kobe-childcare-subsidy / kobe-birth-bonus / kobe-housing-purchase 他6件 |
 | 未完了 | 兵庫県 | 西宮市 | 12 | 1 | 11 | nishinomiya-elderly-medical / nishinomiya-housing-eco / nishinomiya-childcare-subsidy / nishinomiya-birth-bonus / nishinomiya-housing-purchase 他6件 |
 | 未完了 | 兵庫県 | 尼崎市 | 12 | 2 | 10 | amagasaki-community-support / amagasaki-childcare-subsidy / amagasaki-birth-bonus / amagasaki-newlywed-rent / amagasaki-disability-medical 他5件 |
