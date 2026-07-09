@@ -218,6 +218,44 @@ export const verifiedNationalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-26',
   },
   {
+    slug: 'tokubetsu-shougai-kyuufukin',
+    title: '特別障害給付金',
+    organization: '日本年金機構',
+    type: 'national',
+    maxAmount: '1級相当は月額58,650円、2級相当は月額46,920円（令和8年度）',
+    maxAmountNum: 70.38,
+    category: 'nursing',
+    relatedCategories: ['living', 'medical'],
+    prefecture: '全国',
+    tags: ['特別障害給付金', '障害年金', '国民年金', '任意加入未加入'],
+    eligibility: '平成3年3月以前の国民年金任意加入対象であった学生、または昭和61年3月以前の国民年金任意加入対象であった被用者年金加入者等の配偶者で、任意加入していなかった期間内に初診日のある傷病により、現在、障害基礎年金1級または2級相当の障害に該当する方が対象です。',
+    applicationPeriod: '通年。市区町村窓口または年金事務所で相談・請求',
+    description: '国民年金の任意加入期間に未加入だったため障害基礎年金等を受給していない方に対し、福祉的措置として支給される給付金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>国民年金制度の発展過程で任意加入だった時期に加入していなかったため、障害基礎年金等を受けられない方を対象にした給付制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>令和8年度の基本月額は、障害基礎年金1級相当が58,650円、2級相当が46,920円です。物価変動に合わせて毎年度見直されます。</p>'
+      },
+      {
+        heading: '支給調整',
+        content: '<p>老齢年金、遺族年金、労災補償等を受けている場合は、その受給額分を差し引いた額が支給されます。本人所得による支給制限もあります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/tokubetsu-kyufu/tokubetsu-kyufu.html',
+    sourceName: '日本年金機構 特別障害給付金制度',
+    sourceUrls: [
+      'https://www.nenkin.go.jp/service/jukyu/seido/sonota-kyufu/tokubetsu-kyufu/tokubetsu-kyufu.html',
+      'https://www.city.otaru.lg.jp/docs/2020111200388/'
+    ],
+    sourceNote: '日本年金機構公式ページで、特別障害給付金制度の対象、令和8年度基本月額1級相当58,650円・2級相当46,920円、他年金等との支給調整、請求月の翌月分から支給、年6回支払いを確認。小樽市障害者ハンドブックで市区町村窓口で扱う制度として案内されていることも確認。',
+    verifiedAt: '2026-07-09',
+    publishedAt: '2026-07-09',
+  },
+  {
     slug: 'kyouiku-kunren-kyuufukin',
     title: '教育訓練給付制度',
     organization: '厚生労働省・ハローワーク',
