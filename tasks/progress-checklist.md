@@ -4,17 +4,16 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-09T02:40:25.180Z
+- 生成日時: 2026-07-09T02:41:24.586Z
 - raw unique slugs: 4375
-- verified unique slugs: 5066
-- raw内の公式確認済み slugs: 4342
-- 未照合 raw slugs: 33
-- 完了自治体/団体: 429 / 434
+- verified unique slugs: 5067
+- raw内の公式確認済み slugs: 4343
+- 未照合 raw slugs: 32
+- 完了自治体/団体: 430 / 434
 - raw gap 0 の都道府県: 45 / 47
 
 ## 次に進める候補
 
-- 兵庫県 兵庫県: 残り1件（hyogo-disaster-resilience）
 - 兵庫県 宝塚市: 残り10件（takarazuka-scholarship / takarazuka-childcare-subsidy / takarazuka-birth-bonus / takarazuka-housing-purchase / takarazuka-infertility 他5件）
 - 兵庫県 明石市: 残り11件（akashi-infertility-treatment / akashi-scholarship / akashi-childcare-subsidy / akashi-birth-bonus / akashi-housing-purchase 他6件）
 - 和歌山県 和歌山県: 残り1件（wakayama-ume-farming）
@@ -24,7 +23,7 @@
 
 | 状態 | 都道府県 | raw | verified | 残り | 次のslug |
 |---|---:|---:|---:|---:|---|
-| 未完了 | 兵庫県 | 90 | 68 | 22 | akashi-infertility-treatment / akashi-scholarship / takarazuka-scholarship / akashi-childcare-subsidy / akashi-birth-bonus 他17件 |
+| 未完了 | 兵庫県 | 90 | 69 | 21 | akashi-infertility-treatment / akashi-scholarship / takarazuka-scholarship / akashi-childcare-subsidy / akashi-birth-bonus 他16件 |
 | 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
@@ -494,7 +493,7 @@
 | 完了 | 兵庫県 | 西宮市 | 12 | 12 | 0 |  |
 | 完了 | 兵庫県 | 尼崎市 | 12 | 12 | 0 |  |
 | 完了 | 兵庫県 | 姫路市 | 12 | 12 | 0 |  |
-| 未完了 | 兵庫県 | 兵庫県 | 3 | 2 | 1 | hyogo-disaster-resilience |
+| 完了 | 兵庫県 | 兵庫県 | 3 | 3 | 0 |  |
 | 未完了 | 兵庫県 | 宝塚市 | 12 | 2 | 10 | takarazuka-scholarship / takarazuka-childcare-subsidy / takarazuka-birth-bonus / takarazuka-housing-purchase / takarazuka-infertility 他5件 |
 | 未完了 | 兵庫県 | 明石市 | 12 | 1 | 11 | akashi-infertility-treatment / akashi-scholarship / akashi-childcare-subsidy / akashi-birth-bonus / akashi-housing-purchase 他6件 |
 | 完了 | 北海道 | 旭川市 | 21 | 21 | 0 |  |
