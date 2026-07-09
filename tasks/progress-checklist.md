@@ -4,24 +4,21 @@
 
 ## サマリー
 
-- 生成日時: 2026-07-09T02:47:11.220Z
+- 生成日時: 2026-07-09T02:58:37.380Z
 - raw unique slugs: 4375
-- verified unique slugs: 5088
-- raw内の公式確認済み slugs: 4364
-- 未照合 raw slugs: 11
-- 完了自治体/団体: 432 / 434
-- raw gap 0 の都道府県: 46 / 47
+- verified unique slugs: 5099
+- raw内の公式確認済み slugs: 4375
+- 未照合 raw slugs: 0
+- 完了自治体/団体: 434 / 434
+- raw gap 0 の都道府県: 47 / 47
 
 ## 次に進める候補
 
-- 和歌山県 和歌山県: 残り1件（wakayama-ume-farming）
-- 和歌山県 和歌山市: 残り10件（wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他5件）
 
 ## 都道府県別
 
 | 状態 | 都道府県 | raw | verified | 残り | 次のslug |
 |---|---:|---:|---:|---:|---|
-| 未完了 | 和歌山県 | 15 | 4 | 11 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他6件 |
 | 完了 | 愛知県 | 123 | 123 | 0 |  |
 | 完了 | 愛媛県 | 64 | 64 | 0 |  |
 | 完了 | 茨城県 | 99 | 99 | 0 |  |
@@ -69,6 +66,7 @@
 | 完了 | 福島県 | 72 | 72 | 0 |  |
 | 完了 | 兵庫県 | 90 | 90 | 0 |  |
 | 完了 | 北海道 | 175 | 175 | 0 |  |
+| 完了 | 和歌山県 | 15 | 15 | 0 |  |
 
 ## 自治体・団体別
 
@@ -506,6 +504,6 @@
 | 完了 | 北海道 | 北海道 | 3 | 3 | 0 |  |
 | 完了 | 北海道 | 北海道（各市町村） | 1 | 1 | 0 |  |
 | 完了 | 北海道 | 北見市 | 12 | 12 | 0 |  |
-| 未完了 | 和歌山県 | 和歌山県 | 3 | 2 | 1 | wakayama-ume-farming |
-| 未完了 | 和歌山県 | 和歌山市 | 12 | 2 | 10 | wakayama-city-childcare-subsidy / wakayama-city-parenting-allowance / wakayama-city-housing-purchase / wakayama-city-afterschool / wakayama-city-telework-bonus 他5件 |
+| 完了 | 和歌山県 | 和歌山県 | 3 | 3 | 0 |  |
+| 完了 | 和歌山県 | 和歌山市 | 12 | 12 | 0 |  |
 
