@@ -973,3 +973,59 @@
   - 留萌市 地元企業応援助成事業の人材育成・奨学金返還・融資/保証料補給: 公式PDFで確認済みだが、今回の第1巡では主要事業者メニューを優先。第2巡で個別追加する。
 - 未完了:
   - 児童手当、特別児童扶養手当、障害児福祉手当、重度心身障害者医療費、未熟児養育医療、自立支援医療、就学援助、生活困窮/福祉給付、除雪・住宅・移住定住、農業・水産業、文化/スポーツ助成、地元企業応援の残メニューを追加確認する。
+
+### 苫小牧市
+
+- 状態: 第1巡追加反映済み（既存掲載の上に、子育て・医療・事業者・交通安全・文化系を追加）
+- 確認日: 2026-07-10
+- 確認元:
+  - https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kosodateouenteate.html
+  - https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/nyuugaku.html
+  - https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/seihuku.html
+  - https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/iryohijosei/hitorioya.html
+  - https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/iryohijosei/mijukujiyoiku.html
+  - https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/kodomosyokudoushien.html
+  - https://www.city.tomakomai.hokkaido.jp/kanko/shinkoshien/koutou2026.html
+  - https://www.city.tomakomai.hokkaido.jp/kanko/kosho/rodokoyo/hojoseido/r8support.html
+  - https://www.city.tomakomai.hokkaido.jp/kanko/kosho/rodokoyo/hojoseido/support_jinzai.html
+  - https://www.city.tomakomai.hokkaido.jp/kanko/kosho/rodokoyo/hojoseido/support_zc.html
+  - https://www.city.tomakomai.hokkaido.jp/kanko/kosho/rodokoyo/hojoseido/ukeirekigyosien.html
+  - https://www.city.tomakomai.hokkaido.jp/kurashi/bosai/siensouti/koureisya4.html
+  - https://www.city.tomakomai.hokkaido.jp/kurashi/bosai/helmet/helmet.html
+  - https://www.city.tomakomai.hokkaido.jp/kyoiku/shogaigakushu/bunka/bunkageijutsu/shinkojoseijigyo/bosyu30.html
+- 既存掲載済みで今回確認済み:
+  - 苫小牧市 妊婦のための支援給付
+  - 苫小牧市 初期消火で使用した消火器の補助
+  - 苫小牧市 子育て支援医療費助成制度
+  - 苫小牧市 多子世帯にかかる保育料の軽減
+  - 苫小牧市 重度心身障害者医療費助成制度
+  - 苫小牧市 高齢者優待乗車証・高齢者フリーパス
+  - 苫小牧市 ゼロカーボンハウス促進補助金
+  - 苫小牧市 後期高齢者医療 脳ドック事業
+  - 苫小牧市 住宅耐震・リフォーム支援事業
+  - 苫小牧市 介護保険住宅改修費の支給
+  - 苫小牧市 奨学金返還支援制度
+  - 苫小牧市 多子世帯給食費助成事業
+  - 苫小牧市 就学援助制度
+  - 苫小牧市 中小企業創業サポート事業補助金
+  - 苫小牧市 移住支援金（テレワーク要件を含む）
+- 今回反映:
+  - 苫小牧市 物価高対応子育て応援手当
+  - 苫小牧市 小学校入学祝い給付事業
+  - 苫小牧市 中学進学祝い制服等購入助成事業
+  - 苫小牧市 ひとり親家庭等医療費助成制度
+  - 苫小牧市 未熟児養育医療
+  - 苫小牧市 子ども食堂等活動支援事業
+  - 苫小牧市 中小企業物価高騰対策支援金
+  - 苫小牧市 人材確保支援補助金
+  - 苫小牧市 ゼロカーボン推進補助金
+  - 苫小牧市 外国人材受入企業支援事業
+  - 苫小牧市 高齢者安全運転支援装置設置促進事業補助金
+  - 苫小牧市 自転車用ヘルメット購入補助金
+  - 苫小牧市 市民文化芸術振興助成事業
+- 候補・掲載見送り:
+  - 苫小牧市 職場環境改善補助金: 公式ページで令和8年度受付終了、申請期限2026年5月29日を確認。通常表示対象としては期限切れだが、立地企業サポート補助の構成メニューとして第2巡で期限切れ掲載またはアーカイブ扱いを検討する。
+  - 苫小牧市 事業拡大・販路拡大支援補助金: 公式ページで2026年6月26日に予算額到達・受付終了を確認。第2巡で期限切れ掲載またはアーカイブ扱いを検討する。
+  - 苫小牧市 児童手当・児童扶養手当: 公式ページの存在は確認。国制度であり、金額や改定内容を公式個別ページで整理して第2巡で掲載判定する。
+- 未完了:
+  - 特別児童扶養手当、障害児福祉手当、自立支援医療、母子家庭等自立支援給付金、障がい者雇用奨励金、ものづくり技能習得奨励金、中小企業人材育成補助金、農業・水産業、スポーツ補助金、低所得世帯/生活困窮給付、空き家・住宅周辺制度を追加確認する。
