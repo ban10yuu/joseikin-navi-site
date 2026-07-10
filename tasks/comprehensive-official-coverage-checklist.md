@@ -1074,3 +1074,57 @@
   - 中小企業特別融資制度、企業立地促進条例に基づく助成制度、水産加工経営安定化資金利子補給事業: 制度一覧上の存在は確認。金利・助成条件・現行受付を個別ページまたは要綱で確認して第2巡で追加する。
 - 未完了:
   - 妊婦支援給付、出産・妊娠関連助成、児童手当、児童扶養手当、特別児童扶養手当、障害児福祉手当、自立支援医療、就学援助、奨学金/大学等就学支援、生活困窮/低所得給付、介護・高齢者交通/除雪、空き家/移住定住、農業・水産業、文化/スポーツ助成、事業者向け融資・利子補給・企業立地助成を追加確認する。
+
+### 美唄市
+
+- 状態: 第1巡追加反映済み（既存掲載なし。医療・住宅・生活支援・移住・事業者支援を追加）
+- 確認日: 2026-07-10
+- 確認元:
+  - https://www.city.bibai.hokkaido.jp/soshiki/39/540.html
+  - https://www.city.bibai.hokkaido.jp/soshiki/39/541.html
+  - https://www.city.bibai.hokkaido.jp/soshiki/39/542.html
+  - https://www.city.bibai.hokkaido.jp/soshiki/9/718.html
+  - https://www.city.bibai.hokkaido.jp/soshiki/17/236.html
+  - https://www.city.bibai.hokkaido.jp/soshiki/17/16421.html
+  - https://www.city.bibai.hokkaido.jp/soshiki/1/18307.html
+  - https://www.city.bibai.hokkaido.jp/soshiki/13/28846.html
+  - https://www.city.bibai.hokkaido.jp/site/ijuu/27208.html
+  - https://www.city.bibai.hokkaido.jp/soshiki/13/11643.html
+  - https://www.city.bibai.hokkaido.jp/soshiki/13/16612.html
+  - https://www.city.bibai.hokkaido.jp/soshiki/13/30132.html
+  - https://www.city.bibai.hokkaido.jp/uploaded/attachment/20867.pdf
+  - https://www.city.bibai.hokkaido.jp/uploaded/attachment/20868.pdf
+  - https://www.city.bibai.hokkaido.jp/uploaded/attachment/20869.pdf
+  - https://www.city.bibai.hokkaido.jp/uploaded/attachment/20870.pdf
+  - https://www.city.bibai.hokkaido.jp/uploaded/attachment/20871.pdf
+  - https://www.city.bibai.hokkaido.jp/uploaded/attachment/20872.pdf
+  - https://www.city.bibai.hokkaido.jp/uploaded/attachment/20873.pdf
+  - https://www.city.bibai.hokkaido.jp/uploaded/attachment/20921.pdf
+- 既存掲載済みで今回確認済み:
+  - なし（美唄市slugは既存データ内で確認できず）
+- 今回反映:
+  - 美唄市 子ども医療費助成制度
+  - 美唄市 ひとり親家庭等医療費助成制度
+  - 美唄市 重度心身障がい者医療費助成制度
+  - 美唄市 自立支援医療（育成医療）の給付
+  - 美唄市 住宅バリアフリー改修促進助成金
+  - 美唄市 空家住宅等解体助成金
+  - 美唄市 物価高騰対策臨時特別給付金
+  - 美唄市 プレミアム付びばい商品券
+  - 美唄市 移住支援金
+  - 美唄市 商店街賑わい創出事業
+  - 美唄市 中心市街地空き店舗等活用促進事業
+  - 美唄市 中心市街地店舗景観等改修事業
+  - 美唄市 新規創業・事業承継補助事業
+  - 美唄市 新分野進出補助事業
+  - 美唄市 地域おこし協力隊起業支援事業
+  - 美唄市 販路拡大事業
+  - 美唄市 地域人材育成事業補助金
+  - 美唄市 農商工連携等推進補助金
+- 候補・掲載見送り:
+  - 美唄市 中小企業等振興補助金の各メニュー: 公式ページで2026年6月10日時点の新規事前申請受付停止を確認。制度自体の募集期限は2026年11月30日だが、利用者誤認防止のため各ページ本文に受付停止を明記して掲載した。
+  - 美唄市 空家住宅等解体助成金: 事前調査申請期限2026年5月8日を過ぎているため、期限切れ扱いで掲載した。
+  - 美唄市 物価高騰対策臨時特別給付金: 受付終了2026年4月30日のため、期限切れ扱いで掲載した。
+  - 美唄市 農商工連携等推進補助金: 募集期限2026年5月29日を過ぎているため、期限切れ扱いで掲載した。
+- 未完了:
+  - 妊婦支援給付、出産・妊娠関連助成、児童手当、児童扶養手当、特別児童扶養手当、障害児福祉手当、就学援助、奨学金、介護・高齢者交通/除雪、移住者・定住者向け住宅助成、通勤費助成、若者定着移住促進助成、市所有分譲地購入助成、農業・水産業、文化/スポーツ助成、企業立地・融資・利子補給を追加確認する。
