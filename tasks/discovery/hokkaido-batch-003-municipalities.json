@@ -1,0 +1,28 @@
+{
+  "batchId": "hokkaido-batch-003",
+  "prefecture": "北海道",
+  "startedAt": "2026-07-11",
+  "basis": "自治体コード順。hokkaido-batch-002の真狩村までを反映済みとして、次の20自治体を対象にする。",
+  "municipalities": [
+    { "code": "01397", "name": "留寿都村", "officialBaseUrl": "https://www.vill.rusutsu.lg.jp/" },
+    { "code": "01398", "name": "喜茂別町", "officialBaseUrl": "https://www.town.kimobetsu.hokkaido.jp/" },
+    { "code": "01399", "name": "京極町", "officialBaseUrl": "https://www.town-kyogoku.jp/" },
+    { "code": "01400", "name": "倶知安町", "officialBaseUrl": "https://www.town.kutchan.hokkaido.jp/" },
+    { "code": "01401", "name": "共和町", "officialBaseUrl": "https://www.town.kyowa.hokkaido.jp/" },
+    { "code": "01402", "name": "岩内町", "officialBaseUrl": "https://www.town.iwanai.hokkaido.jp/" },
+    { "code": "01403", "name": "泊村", "officialBaseUrl": "https://www.vill.tomari.hokkaido.jp/" },
+    { "code": "01404", "name": "神恵内村", "officialBaseUrl": "https://www.vill.kamoenai.hokkaido.jp/" },
+    { "code": "01405", "name": "積丹町", "officialBaseUrl": "https://www.town.shakotan.lg.jp/" },
+    { "code": "01406", "name": "古平町", "officialBaseUrl": "https://www.town.furubira.lg.jp/" },
+    { "code": "01407", "name": "仁木町", "officialBaseUrl": "https://www.town.niki.hokkaido.jp/" },
+    { "code": "01408", "name": "余市町", "officialBaseUrl": "https://www.town.yoichi.hokkaido.jp/" },
+    { "code": "01409", "name": "赤井川村", "officialBaseUrl": "https://www.akaigawa.com/" },
+    { "code": "01423", "name": "南幌町", "officialBaseUrl": "https://www.town.nanporo.hokkaido.jp/" },
+    { "code": "01424", "name": "奈井江町", "officialBaseUrl": "https://www.town.naie.hokkaido.jp/" },
+    { "code": "01425", "name": "上砂川町", "officialBaseUrl": "https://town.kamisunagawa.hokkaido.jp/" },
+    { "code": "01427", "name": "由仁町", "officialBaseUrl": "https://www.town.yuni.lg.jp/" },
+    { "code": "01428", "name": "長沼町", "officialBaseUrl": "https://www.maoi-net.jp/" },
+    { "code": "01429", "name": "栗山町", "officialBaseUrl": "https://www.town.kuriyama.hokkaido.jp/" },
+    { "code": "01430", "name": "月形町", "officialBaseUrl": "https://www.town.tsukigata.hokkaido.jp/" }
+  ]
+}
