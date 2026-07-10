@@ -679,6 +679,12 @@
   - https://www.city.obihiro.hokkaido.jp/kyoiku/kosodate/teate/1004592.html
   - https://www.city.obihiro.hokkaido.jp/kenko/fukushi/shogai/1004932.html
   - https://www.city.obihiro.hokkaido.jp/kyoiku/kosodate/teate/1004589.html
+  - https://www.city.obihiro.hokkaido.jp/kenko/fukushi/shogai/1004936.html
+  - https://www.city.obihiro.hokkaido.jp/kenko/fukushi/shogai/1004940.html
+  - https://www.city.obihiro.hokkaido.jp/kenko/fukushi/shogai/1004934.html
+  - https://www.city.obihiro.hokkaido.jp/kenko/fukushi/shogai/1004935.html
+  - https://www.city.obihiro.hokkaido.jp/bunka/sports/katsudo/1005460.html
+  - https://www.city.obihiro.hokkaido.jp/bunka/bunka/1010468.html
 - 既存掲載済みで今回確認済み:
   - 帯広市 妊婦等包括相談支援事業と妊婦支援給付金
   - 帯広市 子ども医療費助成制度
@@ -706,10 +712,16 @@
   - 帯広市 ひとり親家庭等医療費助成制度
   - 帯広市 重度心身障害者医療費助成制度
   - 帯広市 未熟児養育医療給付事業
+  - 帯広市 障害者交通運賃等助成
+  - 帯広市 補装具・日常生活用具の給付
+  - 帯広市 特別障害者手当
+  - 帯広市 障害児福祉手当
+  - 帯広市 スポーツ振興事業大会派遣費補助
+  - 帯広市 青少年芸術文化活動派遣研修補助金
 - 候補・掲載見送り:
   - 帯広市 道民生活応援ポイント給付事業: 北海道庁制度として掲載済み。帯広市ページは周知ページのため、市独自制度としては新規掲載しない。
   - 帯広市 暖房代支援給付金: 公式ページで事業終了を確認。令和7年度事業のため通常掲載は見送り。
   - 帯広市 とかちビジネスチャレンジ補助金: 公式ページは令和5年度募集の案内で、帯広市制度ではなく公益財団法人とかち財団の制度。現年度募集状態の確認後に別団体制度として判定する。
   - 帯広市 関係機関による補助金一覧: 国・北海道・関係機関制度のリンク集が中心。帯広市個別制度としては完了扱いにせず、個別制度ページごとに確認する。
 - 未完了:
-  - 帯広市公式カテゴリのうち、福祉の各種手当・助成、農業の残、文化・スポーツ関連を継続確認する。次に障害者交通運賃等の助成、補装具・日常生活用具、農業の残カテゴリ、文化・スポーツ助成を確認する。
+  - 帯広市公式カテゴリのうち、福祉の残カテゴリ、農業の残、文化・スポーツの残を継続確認する。次に特別児童扶養手当、障害福祉サービス、移動支援、農業の残カテゴリ、文化・スポーツの残制度を確認する。
