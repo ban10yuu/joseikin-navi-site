@@ -2,6 +2,13 @@ import { Grant } from '@/lib/types';
 
 const verifiedAt = '2026-06-26';
 
+const verifiedDateFromSourceNote = (sourceNote: string): string => {
+  const match = sourceNote.match(/(20\d{2})年(\d{1,2})月(\d{1,2})日/);
+  if (!match) return '2026-07-07';
+  const [, year, month, day] = match;
+  return `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`;
+};
+
 const localVerifiedGrant = (grant: {
   slug: string;
   title: string;
@@ -22,32 +29,35 @@ const localVerifiedGrant = (grant: {
   sourceUrls?: Grant['sourceUrls'];
   sourceName: string;
   sourceNote: string;
-}): Grant => ({
-  slug: grant.slug,
-  title: grant.title,
-  organization: grant.organization,
-  type: 'local',
-  maxAmount: grant.maxAmount,
-  maxAmountNum: grant.maxAmountNum,
-  category: grant.category,
-  relatedCategories: grant.relatedCategories,
-  prefecture: grant.prefecture,
-  tags: grant.tags,
-  eligibility: grant.eligibility,
-  applicationPeriod: grant.applicationPeriod,
-  deadlineDate: grant.deadlineDate,
-  description: grant.description,
-  sections: [
-    { heading: '制度の概要', content: `<p>${grant.overview}</p>` },
-    { heading: '対象・支援内容', content: `<p>${grant.details}</p>` }
-  ],
-  officialUrl: grant.officialUrl,
-  sourceName: grant.sourceName,
-  sourceUrls: grant.sourceUrls ?? [grant.officialUrl],
-  sourceNote: grant.sourceNote,
-  verifiedAt: '2026-07-07',
-  publishedAt: '2026-07-07',
-});
+}): Grant => {
+  const sourceVerifiedAt = verifiedDateFromSourceNote(grant.sourceNote);
+  return {
+    slug: grant.slug,
+    title: grant.title,
+    organization: grant.organization,
+    type: 'local',
+    maxAmount: grant.maxAmount,
+    maxAmountNum: grant.maxAmountNum,
+    category: grant.category,
+    relatedCategories: grant.relatedCategories,
+    prefecture: grant.prefecture,
+    tags: grant.tags,
+    eligibility: grant.eligibility,
+    applicationPeriod: grant.applicationPeriod,
+    deadlineDate: grant.deadlineDate,
+    description: grant.description,
+    sections: [
+      { heading: '制度の概要', content: `<p>${grant.overview}</p>` },
+      { heading: '対象・支援内容', content: `<p>${grant.details}</p>` }
+    ],
+    officialUrl: grant.officialUrl,
+    sourceName: grant.sourceName,
+    sourceUrls: grant.sourceUrls ?? [grant.officialUrl],
+    sourceNote: grant.sourceNote,
+    verifiedAt: sourceVerifiedAt,
+    publishedAt: sourceVerifiedAt,
+  };
+};
 
 export const verifiedLocalMiscGrants2026: Grant[] = [
   localVerifiedGrant({

@@ -35,10 +35,28 @@ const DEFAULT_KEYWORDS = [
   '通学',
 ];
 
+const STRONG_KEYWORDS = [
+  '補助金',
+  '助成金',
+  '給付金',
+  '一時金',
+  '支援金',
+  '奨励金',
+  '手当',
+  '医療費助成',
+  '奨学金',
+  '貸付',
+];
+
+const ASSET_EXTENSIONS = /\.(?:jpe?g|png|gif|webp|svg|ico|css|js|mjs|map|mp4|mov|mp3|wav|zip|lzh|exe)(?:$|\?)/i;
+const DOCUMENT_EXTENSIONS = /\.(?:pdf|doc|docx|xls|xlsx)(?:$|\?)/i;
+
 function parseArgs(argv) {
   const args = {
     cacheDir: '.cache/official-discovery',
     concurrency: 8,
+    deepLimitPerMunicipality: 300,
+    initialLimitPerMunicipality: 100,
     input: '',
     limitPerMunicipality: 800,
     output: '',
@@ -55,6 +73,12 @@ function parseArgs(argv) {
       index += 1;
     } else if (arg === '--input') {
       args.input = argv[index + 1] || '';
+      index += 1;
+    } else if (arg === '--initial-limit-per-municipality') {
+      args.initialLimitPerMunicipality = Number.parseInt(argv[index + 1] || '', 10);
+      index += 1;
+    } else if (arg === '--deep-limit-per-municipality') {
+      args.deepLimitPerMunicipality = Number.parseInt(argv[index + 1] || '', 10);
       index += 1;
     } else if (arg === '--limit-per-municipality') {
       args.limitPerMunicipality = Number.parseInt(argv[index + 1] || '', 10);
@@ -75,6 +99,11 @@ function parseArgs(argv) {
 
   if (!Number.isFinite(args.concurrency) || args.concurrency < 1) args.concurrency = 8;
   if (!Number.isFinite(args.limitPerMunicipality) || args.limitPerMunicipality < 50) args.limitPerMunicipality = 800;
+  if (!Number.isFinite(args.initialLimitPerMunicipality) || args.initialLimitPerMunicipality < 20) args.initialLimitPerMunicipality = 100;
+  if (!Number.isFinite(args.deepLimitPerMunicipality) || args.deepLimitPerMunicipality < args.initialLimitPerMunicipality) {
+    args.deepLimitPerMunicipality = Math.min(args.limitPerMunicipality, 300);
+  }
+  args.limitPerMunicipality = Math.min(args.limitPerMunicipality, args.deepLimitPerMunicipality);
   if (!Number.isFinite(args.timeoutMs) || args.timeoutMs < 1000) args.timeoutMs = 30000;
   return args;
 }
@@ -97,6 +126,11 @@ function sameSite(url, baseUrl) {
   } catch {
     return false;
   }
+}
+
+function shouldCrawlUrl(url) {
+  if (ASSET_EXTENSIONS.test(url)) return false;
+  return true;
 }
 
 function cachePath(cacheDir, url) {
@@ -154,9 +188,9 @@ async function fetchCached(url, args) {
 
 function extractLinks(html, baseUrl) {
   const links = new Set();
-  for (const match of html.matchAll(/\b(?:href|src)=["']([^"']+)["']/gi)) {
+  for (const match of html.matchAll(/\bhref=["']([^"']+)["']/gi)) {
     const url = normalizeUrl(match[1], baseUrl);
-    if (url && sameSite(url, baseUrl)) links.add(url);
+    if (url && sameSite(url, baseUrl) && shouldCrawlUrl(url)) links.add(url);
   }
   return [...links];
 }
@@ -176,6 +210,21 @@ function titleOf(html) {
   return (h1 || title).replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
 }
 
+function h1Of(html) {
+  return (html.match(/<h1[^>]*>(.*?)<\/h1>/is)?.[1] || '').replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+}
+
+function relevantBodyOf(html) {
+  const cleaned = html
+    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<header[\s\S]*?<\/header>/gi, ' ')
+    .replace(/<nav[\s\S]*?<\/nav>/gi, ' ')
+    .replace(/<footer[\s\S]*?<\/footer>/gi, ' ');
+  const main = cleaned.match(/<(main|article)[^>]*>([\s\S]*?)<\/\1>/i)?.[2] || cleaned;
+  return main.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
 function updatedAtOf(html) {
   const text = html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ');
   return text.match(/(?:更新日|掲載日|公開日)[:： ]*([0-9]{4}年[0-9]{1,2}月[0-9]{1,2}日)/)?.[1]
@@ -186,6 +235,29 @@ function updatedAtOf(html) {
 function keywordHits(text, url) {
   const haystack = `${url}\n${text}`;
   return DEFAULT_KEYWORDS.filter((keyword) => haystack.includes(keyword));
+}
+
+function scoreCandidate({ url, title, h1, body, hits }) {
+  const titleAndH1 = `${title}\n${h1}`;
+  let score = 0;
+  for (const keyword of STRONG_KEYWORDS) {
+    if (titleAndH1.includes(keyword)) score += 5;
+    if (body.includes(keyword)) score += 3;
+    if (url.includes(keyword)) score += 1;
+  }
+  if (/\/detail\.html\?/i.test(url)) score += 2;
+  if (DOCUMENT_EXTENSIONS.test(url)) score += 2;
+  if ((hits || []).length >= 3) score += 1;
+  return score;
+}
+
+function hasStrongTitleSignal(title, h1) {
+  const titleAndH1 = `${title}\n${h1}`;
+  return STRONG_KEYWORDS.some((keyword) => titleAndH1.includes(keyword));
+}
+
+function isIndexLikeUrl(url) {
+  return /\/(?:category|purpose)\/|\?(?:category|purpose)=|\/sitemap\/?$/i.test(url);
 }
 
 async function discoverMunicipality(municipality, args) {
@@ -202,9 +274,10 @@ async function discoverMunicipality(municipality, args) {
   const candidates = [];
   const evidence = [];
 
-  while (queue.length > 0 && seen.size < args.limitPerMunicipality) {
+  async function crawlUntil(limit) {
+    while (queue.length > 0 && seen.size < limit) {
     const url = queue.shift();
-    if (!url || seen.has(url) || !sameSite(url, baseUrl)) continue;
+    if (!url || seen.has(url) || !sameSite(url, baseUrl) || !shouldCrawlUrl(url)) continue;
     seen.add(url);
 
     const fetched = await fetchCached(url, args);
@@ -225,28 +298,46 @@ async function discoverMunicipality(municipality, args) {
       }
     }
 
-    const plain = text.replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ').replace(/<[^>]*>/g, ' ');
-    const hits = keywordHits(plain, url);
-    if (hits.length > 0 || /\.pdf(?:$|\?)/i.test(url)) {
+    const title = titleOf(text);
+    const h1 = h1Of(text);
+    const body = relevantBodyOf(text);
+    const hits = keywordHits(`${title}\n${h1}\n${body}`, url);
+    if (hits.length > 0 || DOCUMENT_EXTENSIONS.test(url)) {
+      const score = scoreCandidate({ url, title, h1, body, hits });
+      const titleSignal = hasStrongTitleSignal(title, h1);
+      const documentSignal = DOCUMENT_EXTENSIONS.test(url);
+      const strong = score >= 4 && !isIndexLikeUrl(url) && (titleSignal || documentSignal);
       candidates.push({
         municipalityCode: municipality.code,
         municipalityName: municipality.name,
         sourceUrl: fetched.finalUrl || url,
         status: fetched.status,
-        title: titleOf(text),
+        title,
+        h1,
         updatedAt: updatedAtOf(text),
         keywordHits: hits,
+        candidateScore: score,
+        candidatePriority: strong ? 'strong' : 'low',
         contentType,
         stage: 'discovery',
         verificationStatus: 'unverified',
       });
     }
   }
+  }
+
+  await crawlUntil(Math.min(args.initialLimitPerMunicipality, args.limitPerMunicipality));
+  const strongAfterInitial = candidates.filter((candidate) => candidate.candidatePriority === 'strong').length;
+  if (strongAfterInitial < 10 && seen.size < args.limitPerMunicipality && queue.length > 0) {
+    await crawlUntil(args.limitPerMunicipality);
+  }
 
   return {
     ...municipality,
     discoveredUrlCount: seen.size,
     candidateCount: candidates.length,
+    strongCandidateCount: candidates.filter((candidate) => candidate.candidatePriority === 'strong').length,
+    lowPriorityCandidateCount: candidates.filter((candidate) => candidate.candidatePriority === 'low').length,
     candidates,
     evidence,
   };
