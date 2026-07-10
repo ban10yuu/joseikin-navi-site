@@ -1029,3 +1029,48 @@
   - 苫小牧市 児童手当・児童扶養手当: 公式ページの存在は確認。国制度であり、金額や改定内容を公式個別ページで整理して第2巡で掲載判定する。
 - 未完了:
   - 特別児童扶養手当、障害児福祉手当、自立支援医療、母子家庭等自立支援給付金、障がい者雇用奨励金、ものづくり技能習得奨励金、中小企業人材育成補助金、農業・水産業、スポーツ補助金、低所得世帯/生活困窮給付、空き家・住宅周辺制度を追加確認する。
+
+### 稚内市
+
+- 状態: 第1巡追加反映済み（既存掲載なし。医療・子育て・住宅・省エネ・移住就職・中小企業支援を追加）
+- 確認日: 2026-07-10
+- 確認元:
+  - https://www.city.wakkanai.hokkaido.jp/fukushi/iryohijosei/kodomojosei.html
+  - https://www.city.wakkanai.hokkaido.jp/fukushi/iryohijosei/hitorijosei.html
+  - https://www.city.wakkanai.hokkaido.jp/fukushi/iryohijosei/judojosei.html
+  - https://www.city.wakkanai.hokkaido.jp/fukushi/iryohijosei/youikuiryo.html
+  - https://www.city.wakkanai.hokkaido.jp/kankyo/ondan/syoenekaikae.html
+  - https://www.city.wakkanai.hokkaido.jp/sangyo/toshikeikaku/kenchikubutsu/mokuzouzyutaku_taisinhozyo.html
+  - https://www.city.wakkanai.hokkaido.jp/sangyo/toshikeikaku/kenchikubutsu/taisinkaisyuhozyo.html
+  - https://www.city.wakkanai.hokkaido.jp/kurashi/ijuujouhou/chihousyuusyoku.html
+  - https://www.city.wakkanai.hokkaido.jp/fukushi/kosodate/teatejosei/hitorioya.html
+  - https://www.city.wakkanai.hokkaido.jp/sangyo/shoko/shien/zyoseikin.html
+  - https://www.city.wakkanai.hokkaido.jp/files/00015700/00015796/20260507131729.pdf
+  - https://www.city.wakkanai.hokkaido.jp/files/00015700/00015796/20260507132003.pdf
+  - https://www.city.wakkanai.hokkaido.jp/files/00015700/00015796/20260507132035.pdf
+  - https://www.city.wakkanai.hokkaido.jp/files/00015700/00015796/20260507132150.pdf
+  - https://www.city.wakkanai.hokkaido.jp/files/00015700/00015796/20260507132213.pdf
+- 既存掲載済みで今回確認済み:
+  - なし（稚内市slugは既存データ内で確認できず）
+- 今回反映:
+  - 稚内市 こども医療費の助成
+  - 稚内市 ひとり親家庭等医療費の助成
+  - 稚内市 重度心身障害者医療費の助成
+  - 稚内市 養育医療給付
+  - 稚内市 省エネ製品買替促進補助金
+  - 稚内市 木造住宅耐震診断事業補助金
+  - 稚内市 木造住宅耐震改修事業補助金
+  - 稚内市 地方就職学生支援事業
+  - 稚内市 ひとり親家庭自立支援教育訓練給付金
+  - 稚内市 高等職業訓練促進給付金
+  - 稚内市 IoT等導入促進支援事業助成金
+  - 稚内市 販路拡大支援事業助成金
+  - 稚内市 新規創業者支援事業助成金
+  - 稚内市 商店街等空き店舗活用事業助成金
+  - 稚内市 商店街活性化事業助成金
+- 候補・掲載見送り:
+  - 稚内市 物価高対応地域商品券: 公式ページで利用期限が2026年6月30日までのため、通常表示対象としては掲載しない。必要なら期限切れアーカイブ扱いで第2巡確認する。
+  - 児童手当、児童扶養手当、母子父子寡婦福祉資金貸付金、災害遺児手当: 公式ページの存在は確認。国・道制度や金額改定を別公式資料で整理して第2巡で掲載判定する。
+  - 中小企業特別融資制度、企業立地促進条例に基づく助成制度、水産加工経営安定化資金利子補給事業: 制度一覧上の存在は確認。金利・助成条件・現行受付を個別ページまたは要綱で確認して第2巡で追加する。
+- 未完了:
+  - 妊婦支援給付、出産・妊娠関連助成、児童手当、児童扶養手当、特別児童扶養手当、障害児福祉手当、自立支援医療、就学援助、奨学金/大学等就学支援、生活困窮/低所得給付、介護・高齢者交通/除雪、空き家/移住定住、農業・水産業、文化/スポーツ助成、事業者向け融資・利子補給・企業立地助成を追加確認する。
