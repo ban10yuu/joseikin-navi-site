@@ -61,6 +61,11 @@
   - alias: `https://joseikin-navi-site.vercel.app`
   - 最終確認: Ready確認済み。紋別市10件の本番ページはHTTP 200、H1、公式リンクを確認済み。
   - 以後は北海道完了まで自治体単位のbuild/deployを行わない。
+- `hokkaido-batch-001` 反映状況:
+  - Discovery完了: 20自治体、候補7,454件、到達確認6,962件。
+  - 公式確認・データ反映済み: 歌志内市5件、深川市7件、伊達市6件（合計18件）。
+  - 保留: 歌志内市子育て世帯等移住応援助成金は金額・条件が公式ページ本文だけでは不足。伊達市ものづくり創出支援事業補助金は市ページ本文だけでは補助率・上限が不足。
+  - 軽量検証: `npx eslint src/data/grants/verified-local-misc-2026.ts` pass、追加18URL GET 200 pass、`git diff --check` pass、`npm run audit:coverage` failures 0。audit後の北海道 `localOfficial` は494。
 
 ## 北海道からの公式棚卸し
 
