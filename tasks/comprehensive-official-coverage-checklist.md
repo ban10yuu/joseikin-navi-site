@@ -63,9 +63,10 @@
   - 以後は北海道完了まで自治体単位のbuild/deployを行わない。
 - `hokkaido-batch-001` 反映状況:
   - Discovery完了: 20自治体、候補7,454件、到達確認6,962件。
-  - 公式確認・データ反映済み: 歌志内市5件、深川市7件、伊達市6件（合計18件）。
+  - 公式確認・データ反映済み: 歌志内市5件、深川市7件、伊達市6件、北広島市1件、石狩市1件、新篠津村3件（合計23件）。
   - 保留: 歌志内市子育て世帯等移住応援助成金は金額・条件が公式ページ本文だけでは不足。伊達市ものづくり創出支援事業補助金は市ページ本文だけでは補助率・上限が不足。
-  - 軽量検証: `npx eslint src/data/grants/verified-local-misc-2026.ts` pass、追加18URL GET 200 pass、`git diff --check` pass、`npm run audit:coverage` failures 0。audit後の北海道 `localOfficial` は494。
+  - 軽量検証: `npx eslint src/data/grants/verified-local-misc-2026.ts` pass、追加23URL GET 200 pass、`git diff --check` pass、`npm run audit:coverage` failures 0。audit後の北海道 `localOfficial` は497。
+  - 期限切れ明記で反映: 北広島市福祉施設等臨時支援金（2026年3月31日締切）、新篠津村はばたけ高校生応援支援金（2026年6月26日締切）は公式ページで期限を確認できるため、期限付き制度として収録。
 
 ## 北海道からの公式棚卸し
 
