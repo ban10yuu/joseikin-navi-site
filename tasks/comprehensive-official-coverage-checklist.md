@@ -26,10 +26,41 @@
 
 ## 次の作業
 
-1. 天理市の追加候補を公式確認し、現行・期限切れ・対象外に分類する。
-2. 収録対象をデータへ追加する。
-3. 天理市ページ、トップ検索、一覧検索で件数と表示を確認する。
-4. 自治体マスター作成に進む。
+1. 北海道の残自治体を20自治体以上のバッチでDiscoveryし、公式候補URLをstaging JSONへ集約する。
+2. Verificationで制度名・対象・金額/上限・条件・期限/受付状況・公式個別URLが揃うものだけ収録する。
+3. 軽量検証は各バッチ、build・Vercel deploy・本番確認は原則1都道府県完了時にまとめて実施する。
+4. 天理市の追加候補は北海道バッチ後の奈良県棚卸し時に再確認する。
+
+## 高速バッチ運用（2026-07-10から適用）
+
+- 自治体1件ごとの `npm run build`、Vercel deploy、本番全ページ確認は行わない。
+- 調査・データ追加は原則1都道府県単位、最低でも20自治体または新規100制度を1バッチとしてまとめる。
+- 20自治体または新規100制度ごとに実行する軽量検証:
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`
+  - `git diff --check`
+  - 追加URLのGET追従到達確認
+  - 重複・必須項目・schema確認
+  - `npm run audit:coverage`
+- 1都道府県完了時にだけ、上記に加えて上限付きフルbuild、1コミット、Vercel prebuilt deploy、代表ページの本番確認を行う。
+- Discoveryは公式ドメインの `sitemap.xml`、サイト内リンク、制度一覧、担当課カテゴリ、PDFリンクから候補URLを一括収集する。
+- Verificationでは一覧・検索結果・トップページだけを最終sourceにせず、個別ページまたは公式PDFで確認できた制度のみ掲載する。
+- 公式URLが404、本文に制度名がない、金額/上限や対象が確認できないものは候補台帳に残し、掲載しない。
+- 外部待機で作業を止めない。Vercel prebuilt deployが長時間 `Deploying outputs...` の場合はdeployment IDと最終ログを記録し、30〜60分ごとのinspectだけにする。
+
+### 北海道バッチ状態
+
+- 北海道市町村総数: 179（35市・129町・15村）
+- 反映/棚卸し進行済み自治体: 19（札幌市、函館市、小樽市、旭川市、室蘭市、釧路市、帯広市、北見市、夕張市、岩見沢市、網走市、留萌市、苫小牧市、稚内市、美唄市、芦別市、江別市、赤平市、紋別市）
+- 残自治体数: 160
+- 次バッチ: `tasks/discovery/hokkaido-batch-001-municipalities.json`
+  - 士別市、名寄市、三笠市、根室市、千歳市、滝川市、砂川市、歌志内市、深川市、富良野市、登別市、恵庭市、伊達市、北広島市、石狩市、北斗市、当別町、新篠津村、松前町、福島町
+- 紋別市deploy:
+  - commit: `110aefe 紋別市の公式制度を追加`
+  - deployment: `https://joseikin-navi-site-4pa4cltg0-banjo-yujis-projects.vercel.app`
+  - inspector: `https://vercel.com/banjo-yujis-projects/joseikin-navi-site/DmSAGWBtpNqA2xcoHpezAbbGwB9w`
+  - alias: `https://joseikin-navi-site.vercel.app`
+  - 最終確認: Ready確認済み。紋別市10件の本番ページはHTTP 200、H1、公式リンクを確認済み。
+  - 以後は北海道完了まで自治体単位のbuild/deployを行わない。
 
 ## 北海道からの公式棚卸し
 

@@ -1,0 +1,28 @@
+{
+  "batchId": "hokkaido-batch-001",
+  "prefecture": "北海道",
+  "startedAt": "2026-07-10",
+  "basis": "自治体コード順。札幌市から紋別市までを既存進行済みとして、次の20自治体を対象にする。",
+  "municipalities": [
+    { "code": "01220", "name": "士別市", "officialBaseUrl": "https://www.city.shibetsu.lg.jp/" },
+    { "code": "01221", "name": "名寄市", "officialBaseUrl": "http://www.city.nayoro.lg.jp/" },
+    { "code": "01222", "name": "三笠市", "officialBaseUrl": "https://www.city.mikasa.hokkaido.jp/" },
+    { "code": "01223", "name": "根室市", "officialBaseUrl": "https://www.city.nemuro.hokkaido.jp/" },
+    { "code": "01224", "name": "千歳市", "officialBaseUrl": "https://www.city.chitose.lg.jp/" },
+    { "code": "01225", "name": "滝川市", "officialBaseUrl": "https://www.city.takikawa.lg.jp/" },
+    { "code": "01226", "name": "砂川市", "officialBaseUrl": "https://www.city.sunagawa.hokkaido.jp/" },
+    { "code": "01227", "name": "歌志内市", "officialBaseUrl": "https://www.city.utashinai.hokkaido.jp/" },
+    { "code": "01228", "name": "深川市", "officialBaseUrl": "https://www.city.fukagawa.lg.jp/" },
+    { "code": "01229", "name": "富良野市", "officialBaseUrl": "https://www.city.furano.hokkaido.jp/" },
+    { "code": "01230", "name": "登別市", "officialBaseUrl": "https://www.city.noboribetsu.lg.jp/" },
+    { "code": "01231", "name": "恵庭市", "officialBaseUrl": "https://www.city.eniwa.hokkaido.jp/" },
+    { "code": "01233", "name": "伊達市", "officialBaseUrl": "https://www.city.date.hokkaido.jp/" },
+    { "code": "01234", "name": "北広島市", "officialBaseUrl": "https://www.city.kitahiroshima.hokkaido.jp/" },
+    { "code": "01235", "name": "石狩市", "officialBaseUrl": "https://www.city.ishikari.hokkaido.jp/" },
+    { "code": "01236", "name": "北斗市", "officialBaseUrl": "https://www.city.hokuto.hokkaido.jp/" },
+    { "code": "01303", "name": "当別町", "officialBaseUrl": "https://www.town.tobetsu.hokkaido.jp/" },
+    { "code": "01304", "name": "新篠津村", "officialBaseUrl": "https://www.vill.shinshinotsu.hokkaido.jp/" },
+    { "code": "01331", "name": "松前町", "officialBaseUrl": "https://www.town.matsumae.hokkaido.jp/" },
+    { "code": "01332", "name": "福島町", "officialBaseUrl": "https://www.town.fukushima.hokkaido.jp/" }
+  ]
+}

@@ -12,6 +12,9 @@
 
 # testing
 /coverage
+/.cache/
+/tasks/discovery/*-candidates.json
+/tasks/discovery/*-url-validation.json
 
 # next.js
 /.next/
