@@ -769,6 +769,24 @@
   - https://www.city.kitami.lg.jp/administration/work/detail.php?content=13145
   - https://www.city.kitami.lg.jp/administration/work/detail.php?content=10390
   - https://www.city.kitami.lg.jp/administration/work/detail.php?content=4863
+  - https://www.city.kitami.lg.jp/administration/life/detail.php?content=9125
+  - https://www.city.kitami.lg.jp/administration/life/detail.php?content=7313
+  - https://www.city.kitami.lg.jp/detail.php?content=8306
+  - https://www.city.kitami.lg.jp/administration/welfare/detail.php?content=13571
+  - https://www.city.kitami.lg.jp/administration/welfare/detail.php?content=8379
+  - https://www.city.kitami.lg.jp/administration/welfare/detail.php?content=8966
+  - https://www.city.kitami.lg.jp/administration/work/detail.php?content=7376
+  - https://www.city.kitami.lg.jp/administration/work/detail.php?content=2743
+  - https://www.city.kitami.lg.jp/administration/work/detail.php?content=4485
+  - https://www.city.kitami.lg.jp/administration/life/detail.php?content=12352
+  - https://www.city.kitami.lg.jp/administration/life/detail.php?content=12353
+  - https://www.city.kitami.lg.jp/administration/life/detail.php?content=12409
+  - https://www.city.kitami.lg.jp/administration/life/detail.php?content=14045
+  - https://www.city.kitami.lg.jp/detail.php?content=10044
+  - https://www.city.kitami.lg.jp/administration/work/detail.php?content=312
+  - https://www.city.kitami.lg.jp/detail.php?content=11728
+  - https://www.city.kitami.lg.jp/administration/welfare/detail.php?content=11013
+  - https://www.city.kitami.lg.jp/administration/town/detail.php?content=11733
 - 既存掲載済みで今回確認済み:
   - 北見市 妊婦のための支援給付
   - 北見市 第2子以降の保育料無償化
@@ -786,9 +804,29 @@
   - 北見市 中小企業等専門家派遣補助金
   - 北見市 中小企業等販路拡大補助金
   - 北見市 共同研究開発補助金
+  - 北見市 ひとり親家庭等医療費助成
+  - 北見市 児童手当
+  - 北見市 児童扶養手当
+  - 北見市 軽度・中等度難聴児補聴器購入費等助成
+  - 北見市 重度身体障がい者交通費（タクシー料金）助成
+  - 北見市 精神障がい者通院等交通費助成
+  - 北見市 血液透析患者通院交通費助成
+  - 北見市 妊産婦交通費助成事業
+  - 北見市 企業立地促進条例に基づく補助制度
+  - 北見市 IT企業進出支援補助金制度
+  - 北見市 航空運賃補助金制度
+  - 北見市 合併処理浄化槽設置等補助制度
+  - 北見市 犬及び猫の不妊去勢手術補助金
+  - 北見市 子ども食堂運営費補助金
+  - 北見市 物価高対応子育て応援手当
+  - 北見市 高齢者・障がい者バス料金助成制度
+  - 北見市 企業立地報奨制度
+  - 北見市 定期予防接種の再接種費用助成
+  - 北見市 成人用肺炎球菌ワクチン予防接種（任意接種）の費用助成
+  - 北見市 医療機関開設支援事業助成金
 - 候補・掲載見送り:
   - 北見市 防災設備設置補助金: 公式では家庭での備えや備蓄啓発を確認。現行補助制度としては確認不可のため既存抑止slugで除外済み。
   - 北見市 新婚世帯家賃補助制度: 市営住宅の新婚世帯所得制限緩和は確認できるが、民間賃貸家賃補助としては確認不可のため既存抑止slugで除外済み。
   - 北見市 テレワーク導入支援補助金: 企業支援・IT企業進出支援等は確認できるが、生成データどおりの現行制度は確認不可のため既存抑止slugで除外済み。
 - 未完了:
-  - 北見市公式カテゴリのうち、ひとり親家庭等医療費助成、児童扶養手当、児童手当、交通費助成・バス料金助成、難聴児補聴器、企業立地・IT企業進出、航空運賃補助、合併処理浄化槽、犬猫不妊去勢、子ども食堂、物価高対応子育て応援手当を確認する。
+  - 北見市公式カテゴリのうち、特定医療費（指定難病）・特定疾患医療受給者交通費助成、産後ケア、児童福祉施設等入所児面会旅費助成、まちづくりパワー支援補助金、その他福祉・保健・事業者支援の個別制度を継続確認する。
