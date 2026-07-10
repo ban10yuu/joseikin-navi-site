@@ -747,3 +747,48 @@
 - 完了メモ:
   - 産業・企業立地、子育て・医療、福祉、農業、住宅、文化・スポーツ、公共交通・高齢者周辺を確認。トップページ・リンク集のみの弱いURLは完了扱いにせず、個別制度ページまたは公式PDFで金額・対象・条件を確認できたもののみ掲載した。
   - 公共交通の高齢者無料乗車証は既存の「高齢者おでかけサポートバス事業」に収録済み。一般高齢者向けタクシー助成は現行公式制度として確認できず、既存の抑止slugで通常一覧から除外済み。
+
+### 北見市
+
+- 状態: 着手中
+- 確認日: 2026-07-10
+- 確認元:
+  - https://www.city.kitami.lg.jp/administration/life/detail.php?content=13378
+  - https://www.city.kitami.lg.jp/administration/life/detail.php?content=12336
+  - https://www.city.kitami.lg.jp/administration/welfare/detail.php?content=9124
+  - https://www.city.kitami.lg.jp/administration/life/detail.php?content=14102
+  - https://www.city.kitami.lg.jp/administration/work/detail.php?content=13279
+  - https://www.city.kitami.lg.jp/administration/welfare/detail.php?content=10285
+  - https://www.city.kitami.lg.jp/administration/education/detail.php?content=6655
+  - https://www.city.kitami.lg.jp/administration/life/detail.php?content=8144
+  - https://www.city.kitami.lg.jp/administration/work/detail.php?content=7149
+  - https://www.city.kitami.lg.jp/administration/life/detail.php?content=9122
+  - https://www.city.kitami.lg.jp/administration/life/detail.php?content=9131
+  - https://www.city.kitami.lg.jp/administration/welfare/detail.php?content=7314
+  - https://www.city.kitami.lg.jp/administration/work/detail.php?content=7800
+  - https://www.city.kitami.lg.jp/administration/work/detail.php?content=13145
+  - https://www.city.kitami.lg.jp/administration/work/detail.php?content=10390
+  - https://www.city.kitami.lg.jp/administration/work/detail.php?content=4863
+- 既存掲載済みで今回確認済み:
+  - 北見市 妊婦のための支援給付
+  - 北見市 第2子以降の保育料無償化
+  - 北見市 重度心身障がい者医療費助成
+  - 北見市 ゼロカーボン推進事業補助金
+  - 北見市 地域材活用住宅補助金
+  - 北見市 介護保険住宅改修費支給
+  - 北見市 学校給食費負担軽減・就学援助
+  - 北見市 創業促進助成金
+- 今回反映:
+  - 北見市 子ども医療費助成
+  - 北見市 養育医療の給付
+  - 北見市 特別児童扶養手当
+  - 北見市 木造住宅耐震改修等補助金
+  - 北見市 中小企業等専門家派遣補助金
+  - 北見市 中小企業等販路拡大補助金
+  - 北見市 共同研究開発補助金
+- 候補・掲載見送り:
+  - 北見市 防災設備設置補助金: 公式では家庭での備えや備蓄啓発を確認。現行補助制度としては確認不可のため既存抑止slugで除外済み。
+  - 北見市 新婚世帯家賃補助制度: 市営住宅の新婚世帯所得制限緩和は確認できるが、民間賃貸家賃補助としては確認不可のため既存抑止slugで除外済み。
+  - 北見市 テレワーク導入支援補助金: 企業支援・IT企業進出支援等は確認できるが、生成データどおりの現行制度は確認不可のため既存抑止slugで除外済み。
+- 未完了:
+  - 北見市公式カテゴリのうち、ひとり親家庭等医療費助成、児童扶養手当、児童手当、交通費助成・バス料金助成、難聴児補聴器、企業立地・IT企業進出、航空運賃補助、合併処理浄化槽、犬猫不妊去勢、子ども食堂、物価高対応子育て応援手当を確認する。
