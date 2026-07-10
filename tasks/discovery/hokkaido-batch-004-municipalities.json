@@ -1,0 +1,28 @@
+{
+  "batchId": "hokkaido-batch-004",
+  "prefecture": "北海道",
+  "startedAt": "2026-07-11",
+  "basis": "自治体コード順。hokkaido-batch-003の月形町までを反映済みとして、次の20自治体を対象にする。",
+  "municipalities": [
+    { "code": "01431", "name": "浦臼町", "officialBaseUrl": "https://www.town.urausu.hokkaido.jp/" },
+    { "code": "01432", "name": "新十津川町", "officialBaseUrl": "https://www.town.shintotsukawa.lg.jp/" },
+    { "code": "01433", "name": "妹背牛町", "officialBaseUrl": "https://www.town.moseushi.hokkaido.jp/" },
+    { "code": "01434", "name": "秩父別町", "officialBaseUrl": "https://www.town.chippubetsu.hokkaido.jp/" },
+    { "code": "01436", "name": "雨竜町", "officialBaseUrl": "https://www.town.uryu.hokkaido.jp/" },
+    { "code": "01437", "name": "北竜町", "officialBaseUrl": "https://www.town.hokuryu.hokkaido.jp/" },
+    { "code": "01438", "name": "沼田町", "officialBaseUrl": "https://www.town.numata.hokkaido.jp/" },
+    { "code": "01452", "name": "鷹栖町", "officialBaseUrl": "https://www.town.takasu.hokkaido.jp/" },
+    { "code": "01453", "name": "東神楽町", "officialBaseUrl": "https://www.town.higashikagura.lg.jp/" },
+    { "code": "01454", "name": "当麻町", "officialBaseUrl": "https://www.town.tohma.hokkaido.jp/" },
+    { "code": "01455", "name": "比布町", "officialBaseUrl": "https://www.town.pippu.hokkaido.jp/" },
+    { "code": "01456", "name": "愛別町", "officialBaseUrl": "https://www.town.aibetsu.hokkaido.jp/" },
+    { "code": "01457", "name": "上川町", "officialBaseUrl": "https://www.town.hokkaido-kamikawa.lg.jp/" },
+    { "code": "01458", "name": "東川町", "officialBaseUrl": "https://higashikawa-town.jp/" },
+    { "code": "01459", "name": "美瑛町", "officialBaseUrl": "https://town.biei.hokkaido.jp/" },
+    { "code": "01460", "name": "上富良野町", "officialBaseUrl": "https://www.town.kamifurano.hokkaido.jp/" },
+    { "code": "01461", "name": "中富良野町", "officialBaseUrl": "https://www.town.nakafurano.lg.jp/" },
+    { "code": "01462", "name": "南富良野町", "officialBaseUrl": "https://www.town.minamifurano.hokkaido.jp/" },
+    { "code": "01463", "name": "占冠村", "officialBaseUrl": "https://www.vill.shimukappu.lg.jp/" },
+    { "code": "01464", "name": "和寒町", "officialBaseUrl": "https://www.town.wassamu.hokkaido.jp/" }
+  ]
+}
