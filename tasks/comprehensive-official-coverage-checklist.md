@@ -1183,3 +1183,60 @@
   - 芦別市 特別融資制度、企業立地関連、産業振興住宅確保奨励金: 制度一覧上の存在を確認。利子補給・奨励金の金額や現行受付を個別ページまたは要綱で追加確認する。
 - 未完了:
   - 妊婦支援給付、出産・妊娠関連助成、児童手当、児童扶養手当、特別児童扶養手当、障害児福祉手当、自立支援医療、就学援助、奨学金、介護・高齢者交通/除雪、低所得世帯/生活困窮給付、文化/スポーツ助成、企業立地・融資・利子補給、産業振興住宅確保奨励金、お試し暮らし助成額の画像確認を追加確認する。
+
+### 江別市
+
+- 状態: 第1巡追加反映済み（既存13件を維持し、医療・住宅・生活支援・障がい者交通・企業立地等を追加）
+- 確認日: 2026-07-10
+- 確認元:
+  - https://www.city.ebetsu.hokkaido.jp/soshiki/hoken/112424.html
+  - https://www.city.ebetsu.hokkaido.jp/site/kosodate/67904.html
+  - https://www.city.ebetsu.hokkaido.jp/site/kyouiku/3077.html
+  - https://www.city.ebetsu.hokkaido.jp/soshiki/kaigo/137042.html
+  - https://www.city.ebetsu.hokkaido.jp/soshiki/kenchikushido/128972.html
+  - https://www.city.ebetsu.hokkaido.jp/soshiki/hoken/125922.html
+  - https://www.city.ebetsu.hokkaido.jp/soshiki/kaigo/7530.html
+  - https://www.city.ebetsu.hokkaido.jp/site/kyouiku/3081.html
+  - https://www.city.ebetsu.hokkaido.jp/site/kenchikusidousub/2267.html
+  - https://www.city.ebetsu.hokkaido.jp/soshiki/shoko/2244.html
+  - https://www.city.ebetsu.hokkaido.jp/soshiki/hoken/43708.html
+  - https://www.city.ebetsu.hokkaido.jp/soshiki/iryo/158.html
+  - https://www.city.ebetsu.hokkaido.jp/soshiki/iryo/157.html
+  - https://www.city.ebetsu.hokkaido.jp/soshiki/iryo/180.html
+  - https://www.city.ebetsu.hokkaido.jp/soshiki/iryo/171.html
+  - https://www.city.ebetsu.hokkaido.jp/soshiki/kodomokateika/146023.html
+  - https://www.city.ebetsu.hokkaido.jp/soshiki/shoko/147553.html
+  - https://www.city.ebetsu.hokkaido.jp/soshiki/kenchikushido/67373.html
+  - https://www.city.ebetsu.hokkaido.jp/soshiki/shoko/150095.html
+  - https://www.city.ebetsu.hokkaido.jp/soshiki/fukushi/53446.html
+  - https://www.city.ebetsu.hokkaido.jp/soshiki/kigyouricchi/16305.html
+- 既存掲載済みで今回確認済み:
+  - 江別市 えべつ☆うえるかむ赤ちゃん事業（妊婦のための支援給付）
+  - 江別市 幼児教育・保育の無償化
+  - 江別市 就学援助制度
+  - 江別市 高齢者福祉事業（緊急通報・給食・入浴）
+  - 江別市 住宅取得支援補助金（現行公式確認不可）
+  - 江別市 不妊治療費（先進医療）等助成
+  - 江別市 介護保険特定福祉用具購入費支給
+  - 江別市 奨学金制度
+  - 江別市木造住宅耐震診断・補強設計・耐震改修・除却補助金
+  - 江別市商工業活性化事業補助金
+  - 江別市 高齢者予防接種助成（肺炎球菌・帯状疱疹）
+- 今回反映:
+  - 江別市 子ども医療費助成事業
+  - 江別市 ひとり親家庭等医療費助成事業
+  - 江別市 重度心身障がい者医療費助成事業
+  - 江別市 養育医療費給付制度
+  - 江別市 物価高対応子育て応援手当
+  - 江別市 えべつ生活応援商品券
+  - 江別市 特定空家等解体補助金
+  - 江別市 特産品開発事業補助金
+  - 江別市 福祉タクシー利用料金・ガソリン助成券
+  - 江別市 サテライトオフィス設置推進補助金
+  - 江別市 企業立地等の促進に関する助成制度
+- 候補・掲載見送り:
+  - 江別市中小企業融資制度一覧: 公式ページで融資限度額・利率を確認。貸付制度のため、第1巡では補助金等の一覧には追加せず、第2巡で融資カテゴリまたは制度種別の扱いを整理する。
+  - 江別市以外の中小企業向け支援制度: 北海道・国・保証協会等へのリンク集であり、江別市個別制度ではないため掲載しない。
+  - 道民生活応援ポイント給付事業、北海道の賃上げ環境整備等支援事業費補助金: 江別市公式に案内はあるが北海道実施制度のため、北海道・国制度棚卸し側で整理する。
+- 未完了:
+  - 児童手当、児童扶養手当、特別児童扶養手当、障害児福祉手当、特別障害者手当、人工透析患者通院交通費助成、心身障害者自立促進交通費助成、自動車運転免許取得費助成、自動車改造費助成、日常生活用具、補装具、生活困窮/低所得給付、農業、文化/スポーツ、市民活動助成を追加確認する。
