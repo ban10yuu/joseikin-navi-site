@@ -2419,6 +2419,28 @@
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-005-snippets.json`: pass
     - `npm run audit:coverage`: pass（failures 0、activePublished 7434、officialLinkedActive 7396、manuallyVerifiedActive 7396、北海道 localOfficial 3039）
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 鹿部町・八雲町・長万部町・江差町）:
+  - 状態: 第2巡006の候補台帳から、八雲町の重度障がい児通学費助成、軽度・中等度難聴児補聴器購入費等助成、小児慢性特定疾病児童等日常生活用具給付、農業研修者家賃助成、農作物有害鳥獣被害防止対策推進を公式個別ページ/PDF単位で確認。制度名・対象・金額/上限・条件・期限/受付状況が揃った5件を追加した。
+  - 追加・更新ファイル:
+    - `src/data/grants/verified-local-misc-2026.ts`
+    - `tasks/discovery/hokkaido-second-pass-006-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 採用:
+    - 八雲町: 5件（重度障がい児通学費助成、軽度・中等度難聴児補聴器購入費等助成、小児慢性特定疾病児童等日常生活用具給付、農業研修者家賃助成、農作物有害鳥獣被害防止対策推進）
+  - 既存掲載済み:
+    - 鹿部町: 第2巡003で主要候補は既存掲載済み、新規採用なしまで確認済み。
+    - 長万部町: チャイルドシート購入費補助金、避難所等整備補助金は既に `oshamambe-child-seat-subsidy-2026` と `oshamambe-evacuation-shelter-equipment-subsidy-2026` として掲載済み。
+    - 江差町: 工場誘致条例による助成、企業立地助成金・雇用奨励助成金は既に `esashi-factory-location-subsidy-2026` と `esashi-enterprise-location-employment-subsidy-2026` として掲載済み。
+  - 保留継続:
+    - 長万部町 在宅福祉支援事業の携帯電話購入費助成: 公式ページに制度見出しはあるが、助成額・上限が本文だけでは確認できないため掲載しない。
+    - 江差町 地域総合整備資金の貸付、過疎地域固定資産税課税免除、半島振興地域固定資産税不均一課税: 公式ページや関連PDFで制度概要は確認できるが、国・広域制度との整理と個別申請条件の確認が必要なため保留継続。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+    - slug重複確認: 重複0（全7443件、追加5件すべて存在）
+    - 追加5件の `node scripts/check-grant-source-urls.mjs --slug ... --timeout-ms 60000 --concurrency 2`: 7URL確認、失敗0
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-006-snippets.json`: pass
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7439、officialLinkedActive 7401、manuallyVerifiedActive 7401、北海道 localOfficial 3044）
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:

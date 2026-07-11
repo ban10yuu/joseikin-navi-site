@@ -1,0 +1,86 @@
+{
+  "batch": "hokkaido-second-pass-006",
+  "verifiedAt": "2026-07-12",
+  "municipalities": [
+    "鹿部町",
+    "八雲町",
+    "長万部町",
+    "江差町"
+  ],
+  "adopted": [
+    {
+      "slug": "yakumo-severe-disabled-child-school-transport-subsidy-2026",
+      "municipality": "八雲町",
+      "officialUrl": "https://www.town.yakumo.lg.jp/soshiki/hoken/jyuudo-syougaiji.html",
+      "evidence": "対象は重度障がい児。助成基準額はハイヤー等運賃額の10分の9、助成額は基準額の2分の1。スクールバス利用可、特別支援教育就学奨励費受給、町外在住者は対象外。"
+    },
+    {
+      "slug": "yakumo-mild-moderate-hearing-aid-child-subsidy-2026",
+      "municipality": "八雲町",
+      "officialUrl": "https://www.town.yakumo.lg.jp/soshiki/jyuumin/kosodate.html",
+      "sourceUrls": [
+        "https://www.town.yakumo.lg.jp/uploaded/attachment/22594.pdf"
+      ],
+      "evidence": "町内在住18歳未満、身体障害者手帳交付対象外、補聴器購入又は修理費用の一部助成。令和8年度予算PDFで北海道補助交付基準額を上限として助成と確認。"
+    },
+    {
+      "slug": "yakumo-pediatric-chronic-disease-daily-life-equipment-2026",
+      "municipality": "八雲町",
+      "officialUrl": "https://www.town.yakumo.lg.jp/uploaded/attachment/5174.pdf",
+      "sourceUrls": [
+        "https://www.town.yakumo.lg.jp/uploaded/attachment/22594.pdf"
+      ],
+      "evidence": "在宅の小児慢性特定疾病児童等を対象に、電気式たん吸引器、ネブライザー、パルスオキシメーター等の日常生活用具を給付。利用者負担は世帯所得により変動。"
+    },
+    {
+      "slug": "yakumo-agricultural-trainee-rent-subsidy-2026",
+      "municipality": "八雲町",
+      "officialUrl": "https://www.town.yakumo.lg.jp/uploaded/attachment/22594.pdf",
+      "evidence": "町外から八雲町で1年以上研修を受ける新規就農研修者に、家賃の2分の1以内・月額2万5千円限度を助成。"
+    },
+    {
+      "slug": "yakumo-wildlife-damage-prevention-fence-subsidy-2026",
+      "municipality": "八雲町",
+      "officialUrl": "https://www.town.yakumo.lg.jp/uploaded/attachment/22594.pdf",
+      "evidence": "町内で営農する個人及び農地所有適格法人を対象に、侵入防止柵・電気牧柵の設置経費の2分の1・上限30万円を補助。"
+    }
+  ],
+  "alreadyListed": [
+    {
+      "municipality": "鹿部町",
+      "reason": "第2巡003で主要候補は既存掲載済み、新規採用なしまで確認済み。"
+    },
+    {
+      "municipality": "長万部町",
+      "items": [
+        "チャイルドシート購入費補助金",
+        "避難所等整備補助金"
+      ],
+      "reason": "公式個別ページで再確認したが、既に `oshamambe-child-seat-subsidy-2026` と `oshamambe-evacuation-shelter-equipment-subsidy-2026` として掲載済み。"
+    },
+    {
+      "municipality": "江差町",
+      "items": [
+        "工場誘致条例による助成",
+        "企業立地助成金・雇用奨励助成金"
+      ],
+      "reason": "既に `esashi-factory-location-subsidy-2026` と `esashi-enterprise-location-employment-subsidy-2026` として掲載済み。"
+    }
+  ],
+  "continuedHold": [
+    {
+      "municipality": "長万部町",
+      "candidate": "在宅福祉支援事業の携帯電話購入費助成",
+      "reason": "公式ページに制度見出しはあるが、助成額・上限が本文だけでは確認できないため掲載しない。"
+    },
+    {
+      "municipality": "江差町",
+      "candidate": "地域総合整備資金の貸付、過疎地域固定資産税課税免除、半島振興地域固定資産税不均一課税",
+      "reason": "公式ページや関連PDFで制度概要は確認できるが、国・広域制度との整理と個別申請条件の確認が必要なため保留継続。"
+    }
+  ],
+  "localFiles": [
+    "tasks/discovery/tmp-second-pass-006/"
+  ],
+  "next": "北海道第2巡007として、上ノ国町・厚沢部町・乙部町・奥尻町など前方保留候補を自治体コード順に継続確認する。"
+}
