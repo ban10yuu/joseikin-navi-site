@@ -1909,3 +1909,44 @@
   - 鹿追町・新得町の集約: `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/official-coverage-checkpoint.json tasks/comprehensive-official-coverage-checklist.md tasks/discovery/hokkaido-batch-015-shikaoi-snippets.json tasks/discovery/hokkaido-batch-015-shintoku-snippets.json` pass、`npm run audit:coverage` pass（failures 0、北海道 localOfficial 2577）
 - 次地点:
   - 鹿追町・新得町完了後の第15バッチ後半を集約diff/audit/commitする。次バッチは自治体コード表で `01636` 以降を再確認して作成する。
+
+### 第16バッチ Discovery（清水町・芽室町・中札内村・更別村・大樹町）
+
+- 状態: 第16バッチDiscovery/URL検証を実行し、清水町・芽室町・中札内村の第1巡Verification・データ反映・軽量検証まで完了。3自治体到達のため集約監査・commitへ進む。
+- 確認日: 2026-07-11
+- Discovery:
+  - `tasks/discovery/hokkaido-batch-016-municipalities.json`
+  - `tasks/discovery/hokkaido-batch-016-candidates.json`
+  - `tasks/discovery/hokkaido-batch-016-url-validation.json`
+  - `tasks/discovery/hokkaido-batch-016-shimizu-snippets.json`
+  - `tasks/discovery/hokkaido-batch-016-memuro-snippets.json`
+  - `tasks/discovery/hokkaido-batch-016-nakasatsunai-snippets.json`
+  - 清水町: candidates 220
+  - 芽室町: candidates 292
+  - 中札内村: candidates 187
+  - 更別村: candidates 225
+  - 大樹町: candidates 24
+  - URL検証: checked 833 / cacheHits 709 / refetched 124 / reachable 745 / failures 88
+- 今回反映:
+  - 清水町: 18件（結婚新生活、出産祝金、児童扶養手当、児童手当、特別児童扶養手当、乳児保育金、英語検定料、学習用タブレット端末購入、奨学金、乳幼児等医療費、ひとり親等医療費、重度心身障害者医療費、木造住宅無料簡易耐震診断、木造住宅耐震診断、木造住宅耐震改修、家庭用浄水器等設置、廃屋解体撤去、地域おこし協力隊起業支援）
+  - 芽室町: 16件（出産育児一時金、未熟児養育医療費、子ども医療費、児童手当、ひとり親家庭等医療費、児童扶養手当、特別児童扶養手当、保育所等遠距離送迎、就学援助、私立高校授業料、大学等奨学金貸付、奨学金返還支援、商工会共通商品券、企業誘致条例奨励金、雇用増助成金、工業団地取得資金融資斡旋）
+  - 中札内村: 24件（児童手当、児童扶養手当、特別児童扶養手当、妊産婦通院タクシー、妊婦健康診査、不育症治療費、産前産後支援ヘルパー、おたふく予防接種、子ども医療費、ひとり親家庭等医療費、永井明奨学資金、検定チャレンジ、通学費等、高校生活全力サポート、結婚新生活、住宅リフォーム、移住支援、地方就職支援、奨学金返還支援、定住促進住宅取得、中札内スタイル住宅、定住促進固定資産税、民間賃貸住宅家賃、花苗購入補助）
+- 候補・掲載見送り:
+  - 清水町 妊婦支援給付金: 公式ページは確認したが、本文が「詳細はこちら」中心で給付額・申請条件の本文確認が不足するため第1巡保留。
+  - 清水町 不育症治療費、生殖補助医療費、一般不妊治療費、地域福祉人材育成確保、介護人材育成確保、高齢者補聴器、障がい者/高齢者タクシー、農村浄化槽、団体活動補助金等交付基準: 公式PDF又は要綱確認が必要で、本文HTMLだけでは金額・対象・申請条件を安全に固定できないため第2巡保留。
+  - 清水町 起業等スタートアップ支援、移住・定住促進住宅整備、しみずマイホーム奨励金、地域活性化交流施設整備: 公式個別ページは確認したが、補助率・上限がPDF/要綱側に寄っている、又は制度区分の分割確認が必要なため第2巡保留。
+  - 清水町 町民提案型まちづくり事業補助金: 公式ページは確認したが、募集期間が2024年8月31日までで現在日基準では終了済みのため現行掲載しない。
+  - 芽室町 病児保育利用料助成: 生活支援一覧からのリンク先が404で、公式個別本文が確認できないため第2巡保留。
+  - 芽室町 妊婦健康診査費、特定不妊治療費、不妊治療・不育症治療費、母子父子寡婦福祉資金、市街化区域外井水等利用者支援金、飲用井戸等施設整備補助金、資源物分別回収・コンポスト補助、住宅系奨励制度: 一覧又はカテゴリでは候補化したが、個別ページ/PDFで対象・金額・条件・期限を再確認してから第2巡で判定する。
+  - 中札内村 不妊治療費助成: 公式HTMLで対象要件は確認したが、助成額詳細がPDF概要側に寄っているため第2巡保留。
+  - 中札内村 産後ケア、家庭訪問、定住支援内の合併処理浄化槽、社会教育活動振興、文化振興、スポーツ振興、こども誰でも通園、短期支援等: 候補又は一覧リンクは確認したが、補助額・対象・受付条件を個別本文/PDFで再確認してから第2巡で判定する。
+- 軽量検証:
+  - slug重複確認: 重複0（全7023件、清水町18件、芽室町16件、中札内村24件）
+  - `node scripts/check-grant-source-urls.mjs --prefix shimizu- --timeout-ms 60000 --concurrency 4`: 18件確認、失敗0
+  - `node scripts/check-grant-source-urls.mjs --prefix memuro- --timeout-ms 60000 --concurrency 4`: 16件確認、失敗0
+  - `node scripts/check-grant-source-urls.mjs --prefix nakasatsunai- --timeout-ms 60000 --concurrency 4`: 24件確認、失敗0
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/official-coverage-checkpoint.json tasks/comprehensive-official-coverage-checklist.md tasks/discovery/hokkaido-batch-016-municipalities.json tasks/discovery/hokkaido-batch-016-candidates.json tasks/discovery/hokkaido-batch-016-url-validation.json tasks/discovery/hokkaido-batch-016-shimizu-snippets.json tasks/discovery/hokkaido-batch-016-memuro-snippets.json tasks/discovery/hokkaido-batch-016-nakasatsunai-snippets.json`: pass
+  - `npm run audit:coverage`: pass（failures 0、activePublished 7029、officialLinkedActive 6991、manuallyVerifiedActive 6991、北海道 localOfficial 2634）
+- 次地点:
+  - 第16バッチ集約監査・commit後、自治体コード順で `01639 更別村` へ進む。

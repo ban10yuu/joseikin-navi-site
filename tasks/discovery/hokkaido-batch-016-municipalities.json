@@ -1,0 +1,31 @@
+{
+  "batchId": "hokkaido-batch-016",
+  "prefecture": "北海道",
+  "municipalities": [
+    {
+      "code": "01636",
+      "name": "清水町",
+      "officialBaseUrl": "https://www.town.shimizu.hokkaido.jp/"
+    },
+    {
+      "code": "01637",
+      "name": "芽室町",
+      "officialBaseUrl": "https://www.memuro.net/"
+    },
+    {
+      "code": "01638",
+      "name": "中札内村",
+      "officialBaseUrl": "https://www.vill.nakasatsunai.hokkaido.jp/"
+    },
+    {
+      "code": "01639",
+      "name": "更別村",
+      "officialBaseUrl": "https://www.sarabetsu.jp/"
+    },
+    {
+      "code": "01641",
+      "name": "大樹町",
+      "officialBaseUrl": "https://www.town.taiki.hokkaido.jp/"
+    }
+  ]
+}

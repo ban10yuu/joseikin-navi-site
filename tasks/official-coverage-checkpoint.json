@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-11T21:39:00+09:00",
+  "updatedAt": "2026-07-11T23:05:00+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "01635",
-    "municipality": "新得町",
-    "adopted": 19,
-    "held": 10,
-    "excluded": 3,
-    "sourceUrlsChecked": 19,
+    "code": "01638",
+    "municipality": "中札内村",
+    "adopted": 24,
+    "held": 7,
+    "excluded": 1,
+    "sourceUrlsChecked": 24,
     "validation": {
-      "previousMunicipality": "新得町はDiscovery候補146件をローカル本文で再スコアリングし、ワーケーション、振動障害健診、がん患者アピアランス、新規就農、住宅/空き家、結婚、移住、不育症、出産祝い、児童手当、児童扶養手当、妊婦支援、帯状疱疹、補聴器、高齢者温泉宿泊等の個別公式ページ本文から19件を確認して追加。商工業活性化、まごの手、インバウンド、物産展、労働力確保、あおぞら共済、地域おこし協力隊起業支援等は区分別条件の切り分けを第2巡へ回す。",
+      "previousMunicipality": "中札内村は各種手当・助成、教育助成、住宅・移住支援の個別ページから、児童手当、児童扶養手当、特別児童扶養手当、妊産婦通院タクシー、妊婦健診、不育症、産前産後ヘルパー、おたふく、子ども医療、ひとり親医療、永井明奨学資金、検定、通学費、高校生活全力サポート、結婚新生活、住宅リフォーム、移住支援、地方就職支援、奨学金返還、定住促進住宅取得、中札内スタイル住宅、定住促進奨励金、民間賃貸家賃、花苗の24件を公式本文から確認して追加。不妊治療は金額詳細がPDF側、その他スポーツ/文化/社会教育/浄化槽等は個別本文又はPDF精査が必要なため第2巡保留。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "shintoku 19 checked, all 0 failures; shikaoi 26 checked, all 0 failures",
-      "diffCheck": "pass: git diff --check for batch-015 shikaoi + shintoku files",
-      "auditCoverage": "pass: npm run audit:coverage, failures 0, 北海道 localOfficial 2577"
+      "urlReachability": "nakasatsunai 24 checked, all 0 failures",
+      "diffCheck": "pass: git diff --check -- batch-016 target files",
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 7029, officialLinkedActive 6991, manuallyVerifiedActive 6991, hokkaido localOfficial 2634)"
     }
   },
   "next": {
-    "code": "01636",
-    "municipality": "清水町",
-    "shortlist": "create hokkaido-batch-016 from municipality code order after 01635 新得町",
-    "instructions": "第15バッチ後半（鹿追町・新得町）の集約diff/audit/commit後、自治体コード表で01636以降を確認し、清水町から次の3〜5自治体バッチを作成する。"
+    "code": "01639",
+    "municipality": "更別村",
+    "shortlist": "continue hokkaido-batch-016 from municipality code order after 01638 中札内村",
+    "instructions": "第16バッチの集約diff/audit/commit後、更別村のDiscovery候補225件から、公式個別ページ/PDFで対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
