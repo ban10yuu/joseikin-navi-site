@@ -1,0 +1,31 @@
+{
+  "batchId": "hokkaido-batch-015",
+  "prefecture": "北海道",
+  "municipalities": [
+    {
+      "code": "01631",
+      "name": "音更町",
+      "officialBaseUrl": "https://www.town.otofuke.hokkaido.jp/"
+    },
+    {
+      "code": "01632",
+      "name": "士幌町",
+      "officialBaseUrl": "https://www.shihoro.jp/"
+    },
+    {
+      "code": "01633",
+      "name": "上士幌町",
+      "officialBaseUrl": "https://www.kamishihoro.jp/"
+    },
+    {
+      "code": "01634",
+      "name": "鹿追町",
+      "officialBaseUrl": "https://www.town.shikaoi.lg.jp/"
+    },
+    {
+      "code": "01635",
+      "name": "新得町",
+      "officialBaseUrl": "https://www.shintoku-town.jp/"
+    }
+  ]
+}
