@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-11T18:13:00+09:00",
+  "updatedAt": "2026-07-11T18:49:00+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "01608",
-    "municipality": "様似町",
-    "adopted": 14,
-    "held": 8,
-    "excluded": 4,
-    "sourceUrlsChecked": 14,
+    "code": "01609",
+    "municipality": "えりも町",
+    "adopted": 19,
+    "held": 12,
+    "excluded": 5,
+    "sourceUrlsChecked": 19,
     "validation": {
-      "previousMunicipality": "第14バッチ前半は新冠町16件、浦河町35件、様似町14件を公式個別ページ/PDF確認後に追加。様似町はHTTPSがSNI不整合のためHTTP公式URLで確認。",
+      "previousMunicipality": "えりも町は個別公式ページで住宅改修、漁業/農業担い手、勤労者融資、妊産婦・不妊・医療・教育・福祉系19件を確認して追加。カテゴリ一覧・広報PDFのみの候補は採用しない。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "niikappu 16 checked, urakawa 35 checked, samani 14 checked, all 0 failures",
-      "diffCheck": "pass: git diff --check for batch-014 front target files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, Hokkaido localOfficial 2443"
+      "urlReachability": "erimo 19 checked, all 0 failures",
+      "diffCheck": "pending for batch-014 aggregate after Shinhidaka or before commit",
+      "auditCoverage": "pending for batch-014 aggregate after Shinhidaka or before commit"
     }
   },
   "next": {
-    "code": "01609",
-    "municipality": "えりも町",
-    "shortlist": "continue batch-014 from municipality code order after 01608 様似町",
-    "instructions": "えりも町は batch-014 candidates 138件・strong 0。公式カテゴリ/サイト内検索相当から個別制度ページ/PDFを補完し、金額・対象・条件・期限が揃うものだけ採用する。様似町では不妊治療PDF取得失敗、医療費助成の一部、北海道事業案内、過年度/通常行政案内を保留又は除外。"
+    "code": "01610",
+    "municipality": "新ひだか町",
+    "shortlist": "continue batch-014 from municipality code order after 01609 えりも町",
+    "instructions": "新ひだか町は batch-014 candidates 87件・strong 0。公式カテゴリ/サイト内検索相当から個別制度ページ/PDFを補完し、金額・対象・条件・期限が揃うものだけ採用する。えりも町ではひとり親/重度心身障がい者医療費、帯状疱疹、就学援助、消火器補助等の一部を第2巡保留。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
