@@ -1,0 +1,68 @@
+{
+  "batch": "hokkaido-second-pass-010",
+  "checkedAt": "2026-07-12T02:55:00+09:00",
+  "municipalities": [
+    "留寿都村",
+    "喜茂別町",
+    "京極町",
+    "倶知安町"
+  ],
+  "summary": {
+    "adopted": 17,
+    "held": 6,
+    "excluded": 0,
+    "sourceUrlsChecked": 33,
+    "notes": "batch-003前方4自治体の未掲載候補を再確認。留寿都村・喜茂別町は主要候補が既存掲載済み又は期限切れ/金額不足。京極町の2026暮らし支援ガイドPDFと個別ページ、倶知安町の介護人材ページで制度名・対象・金額/上限・条件・受付/申請方法が確認できた17件を追加。"
+  },
+  "adoptedSlugs": [
+    "kyogoku-distance-school-commuting-subsidy-2026",
+    "kyogoku-pregnancy-support-benefit-2026",
+    "kyogoku-childcare-shopping-voucher-2026",
+    "kyogoku-welfare-kerosene-voucher-2026",
+    "kyogoku-longevity-celebration-grant-2026",
+    "kyogoku-onsen-admission-aid-2026",
+    "kyogoku-demand-taxi-aid-2026",
+    "kyogoku-energy-saving-fridge-voucher-2026",
+    "kyogoku-garbage-compost-subsidy-2026",
+    "kyogoku-snow-melting-facility-subsidy-2026",
+    "kyogoku-startup-support-subsidy-2026",
+    "kyogoku-snow-removal-license-subsidy-2026",
+    "kyogoku-migration-support-grant-2026",
+    "kyogoku-community-development-subsidy-2026",
+    "kyogoku-influenza-covid-vaccine-subsidy-2026",
+    "kyogoku-cancer-screening-fee-exemption-2026",
+    "kutchan-care-workforce-training-subsidy-2026"
+  ],
+  "heldCandidates": [
+    {
+      "municipality": "留寿都村",
+      "title": "令和6年度留寿都村定額減税補足給付金（調整給付）",
+      "reason": "令和6年11月29日期限の過年度制度。令和7年度不足額給付は予定として言及されるが、現行の個別制度ページとして金額・受付条件を固定できない。"
+    },
+    {
+      "municipality": "留寿都村",
+      "title": "農地利用効率化支援事業・地域農業構造転換支援事業",
+      "reason": "令和8年度要望調査ページで、国事業パンフレット案内が中心。町独自制度としての補助率・上限・採択条件を固定できない。"
+    },
+    {
+      "municipality": "喜茂別町",
+      "title": "民間賃貸住宅家賃助成事業",
+      "reason": "上限2万円等は確認できるが、公式本文上の制度終了が令和7年3月31日のため現行制度として掲載しない。"
+    },
+    {
+      "municipality": "喜茂別町",
+      "title": "こども誰でも通園制度",
+      "reason": "利用料・対象・時間は確認できるが、一時保育サービスの利用料案内であり補助金・助成金・給付金としては掲載対象外。"
+    },
+    {
+      "municipality": "京極町",
+      "title": "各種農業関連補助金",
+      "reason": "公式ガイドPDFに制度名と概要はまとまっているが、個別制度ごとの補助額・上限が不足するものが多いため第2巡保留。"
+    },
+    {
+      "municipality": "京極町",
+      "title": "住宅の新築・改修に係る補助の紹介",
+      "reason": "京極町で取り扱っていない外部制度の紹介であると公式ページに明記されているため、町制度として掲載しない。"
+    }
+  ]
+}

@@ -2502,6 +2502,31 @@
     - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
     - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-009-snippets.json`: pass
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 留寿都村・喜茂別町・京極町・倶知安町）:
+  - 状態: 第2巡010として、batch-003前方4自治体の未掲載候補を再確認。留寿都村・喜茂別町は主要候補が既存掲載済み又は期限切れ/金額不足。京極町の2026暮らし支援ガイドPDFと個別ページ、倶知安町の介護人材ページで制度名・対象・金額/上限・条件・受付/申請方法が確認できた17件を追加した。
+  - 追加・更新ファイル:
+    - `src/data/grants/verified-local-misc-2026.ts`
+    - `tasks/discovery/hokkaido-second-pass-010-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 採用:
+    - 京極町: 16件（遠距離就学支援助成金、妊婦支援給付金、子育て支援券、福祉灯油助成、敬老祝金・長寿者祝金、京極温泉入館料助成、デマンドタクシー助成、省エネ家電買換え促進支援券、生ごみ減量化推進補助、融雪施設補助、創業支援、除排雪機械運転免許取得支援、移住支援金、まちづくり促進事業応援補助、インフルエンザ・新型コロナワクチン予防接種費用助成、がん検診料金免除）
+    - 倶知安町: 1件（介護人材等確保支援事業補助金）
+  - 既存掲載済み:
+    - 留寿都村: 起業等支援、まちづくり活動、移住定住住宅、勤労者・中小企業融資、企業誘致税免除、不妊治療、妊婦支援、物価高対応、出産祝金、紙おむつ、妊産婦交通費、奨学金、医療費助成等19件を掲載済み。
+    - 喜茂別町: 住宅取得・リフォーム、起業、新規就農、高校通学費、子育て祝い、妊婦支援、医療費、予防接種、水道下水道基本料金免除、防犯対策、障害福祉給付等19件を掲載済み。
+    - 京極町: 定住促進、民間賃貸共同住宅、障がい者タクシー、日常生活用具、肺炎球菌、医療費助成、児童手当、子育て短期支援等11件を掲載済み。
+    - 倶知安町: 創業等支援、不妊治療、児童扶養・特別児童扶養、医療費助成、予防接種等12件を掲載済み。
+  - 保留継続:
+    - 留寿都村 定額減税補足給付金、農地利用効率化支援事業・地域農業構造転換支援事業: 調整給付は過年度期限切れ、農業支援は国事業要望調査で町独自制度としての補助率・上限・採択条件を固定できない。
+    - 喜茂別町 民間賃貸住宅家賃助成、こども誰でも通園制度: 家賃助成は公式本文上の制度終了が令和7年3月31日、誰でも通園は利用料案内で補助金・助成金・給付金としては掲載対象外。
+    - 京極町 各種農業関連補助金、住宅の新築・改修に係る補助の紹介: 農業関連補助は個別制度ごとの補助額・上限が不足。住宅新築・改修ページは京極町で取り扱っていない外部制度の紹介であると明記。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+    - slug重複確認: 重複0（全7462件）
+    - 追加17件の `node scripts/check-grant-source-urls.mjs --slug ... --timeout-ms 60000 --concurrency 2`: 33URL確認、失敗0
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-010-snippets.json`: pass
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7458、officialLinkedActive 7420、manuallyVerifiedActive 7420、北海道 localOfficial 3063）
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
