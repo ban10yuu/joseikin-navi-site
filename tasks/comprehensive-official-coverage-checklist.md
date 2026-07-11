@@ -2099,7 +2099,7 @@
 
 ### 第19バッチ Discovery（釧路町・厚岸町・浜中町）
 
-- 状態: 第19バッチDiscovery/URL検証を実行し、釧路町・厚岸町の第1巡Verificationを実施。釧路町は公式個別ページから13件、厚岸町は公式個別ページから20件をデータ反映した。浜中町は次にVerificationへ進む。
+- 状態: 第19バッチDiscovery/URL検証を実行し、釧路町・厚岸町・浜中町の第1巡Verificationを実施。釧路町は13件、厚岸町は20件、浜中町は32件を公式個別ページからデータ反映した。
 - 確認日: 2026-07-11
 - Discovery:
   - `tasks/discovery/hokkaido-batch-019-municipalities.json`
@@ -2107,13 +2107,16 @@
   - `tasks/discovery/hokkaido-batch-019-url-validation.json`
   - `tasks/discovery/hokkaido-batch-019-kushiro-snippets.json`
   - `tasks/discovery/hokkaido-batch-019-akkeshi-snippets.json`
+  - `tasks/discovery/hokkaido-batch-019-hamanaka-snippets.json`
   - 釧路町・厚岸町・浜中町: batch候補 567件
   - URL検証: checked 485 / cacheHits 484 / refetched 1 / reachable 485 / failures 0
   - 釧路町は共通ナビ由来の弱一致が多かったため、公式個別ページを抽出して本文必須項目を確認。大量HTML/PDFは `/tmp/kushiro_manual_pages.json` と証跡JSONへ保存し、会話へ全文出力しない運用を継続。
   - 厚岸町は公式個別ページを再取得して `/tmp/akkeshi_manual_pages.json` に保存。制度名・対象・金額/上限・条件・期限/受付状況が揃う個別ページのみ採用し、出力は証跡JSONの短い根拠へ圧縮。
+  - 浜中町はsitemap.xmlが404のため、公式トップの「助成金・補助金」導線、生活シーン、課別ページ、公式サイト内リンクを制限付きで探索。取得本文は `/tmp/hamanaka_manual_pages.json` に保存し、制度個別ページだけ採用。
 - 今回反映:
   - 釧路町: 13件（奨学金制度、こども医療費助成、ひとり親家庭等医療費助成、出産・子育て応援ギフト、未熟児養育医療、不妊治療費等助成、重度心身障害者医療費助成、特定疾患患者及び腎臓機能障害者通院費補助、重度障がい者外出支援、自動車改造助成、介護人材確保育成支援、介護職員等奨学金返済支援、家族介護用品支給）
   - 厚岸町: 20件（介護研修受講支援、結婚新生活支援、引越支援、家賃支援、移住支援金、防災士資格取得、創業支援、奨学金返還支援、新規就農準備金、新規就農賃借料補助、新規就農固定資産税相当奨励、新規就農利子補給、企業立地固定資産税課税免除、合併処理浄化槽設置、特殊詐欺対策電話機、住宅新築支援、住宅リフォーム、住宅エコリフォーム、既存住宅耐震改修・解体、住宅用太陽光・蓄電池）
+  - 浜中町: 32件（不妊治療費助成、妊婦支援給付、新生児聴覚検査、妊産婦健診、妊産婦通院支援、子ども医療、ひとり親医療、重度心身障がい者医療、合併処理浄化槽、住宅耐震、再生可能エネルギー、新婚新生活、小規模事業継続、創業支援、地域活性化、特殊詐欺電話、中小企業特別融資、新規就農3区分、地域振興、出産祝金、障がい者住宅改修、高齢者交通、紙おむつ、精神障害者医療、自動車改造、精神通院、施設訪問交通、福祉灯油、看護師等修学資金、福祉職修学資金）
 - 候補・掲載見送り:
   - 釧路町スポーツ振興助成金: 対象・申請条件は公式本文で確認したが、助成金額の本文確認が不足しているため第2巡保留。
   - 釧路町 福祉灯油購入費助成事業: 令和7年10月15日から11月14日受付の単年度情報で、2026年7月11日時点では次期受付前のため掲載方針確認まで保留。
@@ -2124,6 +2127,11 @@
   - 厚岸町 こども医療・ひとり親医療・重度心身障害者医療等: 様式・関連候補はあるが、個別公式本文で対象・金額・条件を揃えて確認できていないため第2巡保留。
   - 厚岸町 木造一戸建て住宅の無料簡易耐震診断: 無料診断サービスであり、補助金・助成金・給付金・一時金として掲載するかは方針確認まで保留。
   - 厚岸町 特別高圧電力利用事業者緊急支援事業: 令和5・6年度分で申請期限が2024年6月30日までのため現行掲載しない。
+  - 浜中町 安心住まいる促進事業: HTML本文に金額・上限がなく、PDF要綱・リーフレット確認が必要なため第2巡保留。
+  - 浜中町 人づくり基金事業補助: 対象・対象経費は本文で確認したが、補助率・上限がPDF要綱依存のため第2巡保留。
+  - 浜中町 商工機器等購入資金貸付: 貸付限度額が公式本文で「お問い合わせください」となっており、金額確認不足のため掲載しない。
+  - 浜中町 ファミリー・サポート・センター利用料助成: 利用料助成申請の記載はあるが、助成額・補助率の本文確認が不足するため第2巡保留。
+  - 浜中町 日常生活用具給付・T字型ステッキ給付: 現物給付として確認できるが、個別金額・掲載方針整理が必要なため第2巡保留。
   - トップページ・カテゴリ・関連リンク: 個別制度ページではないため最終sourceにしない。
 - 軽量検証:
   - slug重複確認: 重複0（全7230件、釧路町13件）
@@ -2136,5 +2144,10 @@
   - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
   - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-019-akkeshi-snippets.json`: pass
   - `npm run audit:coverage`: pass（failures 0、activePublished 7254、officialLinkedActive 7216、manuallyVerifiedActive 7216、北海道 localOfficial 2859）
+  - 浜中町 slug重複確認: 重複0（全7282件、浜中町32件）
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+  - `node scripts/check-grant-source-urls.mjs --prefix hamanaka- --timeout-ms 60000 --concurrency 4`: 32件確認、失敗0
+  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-019-hamanaka-snippets.json`: pass
+  - `npm run audit:coverage`: pass（failures 0、activePublished 7286、officialLinkedActive 7248、manuallyVerifiedActive 7248、北海道 localOfficial 2891）
 - 次地点:
-  - 厚岸町20件の軽量検証・commit後、自治体コード順で `01663 浜中町` へ進む。
+  - 第19バッチ（釧路町・厚岸町・浜中町）の軽量検証・commit後、自治体コード順で `01664 標茶町` へ進む。
