@@ -2638,6 +2638,20 @@
     - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
     - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-020-snippets.json`: pass
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 中川町・幌加内町・増毛町・小平町）:
+  - 状態: 第2巡021として、batch-005中盤4自治体の未掲載候補を再確認。中川町・幌加内町・増毛町・小平町はいずれも既存掲載済み制度、終了/受付停止済み制度、全国標準制度、通常行政サービス、又は金額/上限・対象条件・受付状況不足に該当し、制度名・対象・金額/上限・条件・期限/受付状況が揃う新規掲載候補は確認できなかった。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-second-pass-021-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 保留継続:
+    - 中川町: UIJターン新規就業支援事業は令和6年度受付停止/令和7年度制度未定、民間賃貸住宅建設促進支援事業は令和4年受付期間終了。物価高騰対策給付金・風しん追加的対策は期限終了、予防接種候補は助成額又は自己負担額不足。
+    - 幌加内町: 妊婦のための支援給付事業は支給額・申請条件不足。夢・人・郷づくり事業補助金、バス定期券助成、割引回数券は上限額・助成率又は制度整理が不足。
+    - 増毛町: 住宅リフォーム等、空き家除却、浄化槽、事業承継支援等は個別リンク404又は対象・金額・条件不足。学校給食費補助等は保護者向け金額・上限不足。
+    - 小平町: 保健師・看護師等修学資金は貸付額不足。不妊治療費等助成、産後ケア、出産・子育て応援給付金は助成額・上限又は国制度重複整理が残る。
+  - 検証:
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-021-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:

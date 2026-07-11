@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T06:10:24+09:00",
+  "updatedAt": "2026-07-12T06:13:25+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "hokkaido-second-pass-020",
+    "code": "hokkaido-second-pass-021",
     "municipality": "北海道第2巡保留候補整理",
     "adopted": 0,
     "held": 12,
     "excluded": 0,
     "sourceUrlsChecked": 12,
     "validation": {
-      "previousMunicipality": "剣淵町・下川町・美深町・音威子府村の第2巡候補を確認。既存掲載済み制度、通常行政サービス、国制度、募集・住宅/寄附情報、又は金額/上限・対象条件不足の候補が中心で、新規採用は0件。",
+      "previousMunicipality": "中川町・幌加内町・増毛町・小平町の第2巡候補を確認。既存掲載済み制度、終了/受付停止済み制度、全国標準制度、通常行政サービス、又は金額/上限・対象条件・受付状況不足の候補が中心で、新規採用は0件。",
       "eslint": "skipped: no data changes",
       "duplicateSlugs": 0,
       "urlReachability": "skipped: no added slugs",
-      "diffCheck": "pass: git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-020-snippets.json",
+      "diffCheck": "pass: git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-021-snippets.json",
       "auditCoverage": "skipped: no data changes; aggregate at next data batch"
     }
   },
   "next": {
-    "code": "hokkaido-second-pass-021",
+    "code": "hokkaido-second-pass-022",
     "municipality": "北海道第2巡保留候補",
-    "shortlist": "第2巡020までで、batch-005先頭の剣淵町・下川町・美深町・音威子府村の保留候補を整理し、新規採用0件。",
-    "instructions": "次は北海道第2巡021として、中川町・幌加内町・増毛町・小平町などbatch-005中盤候補を自治体コード順に継続確認する。公式個別ページ/PDFで制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ追加する。"
+    "shortlist": "第2巡021までで、batch-005中盤の中川町・幌加内町・増毛町・小平町の保留候補を整理し、新規採用0件。",
+    "instructions": "次は北海道第2巡022として、苫前町・羽幌町・初山別村・遠別町などbatch-005後続候補を自治体コード順に継続確認する。公式個別ページ/PDFで制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ追加する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
