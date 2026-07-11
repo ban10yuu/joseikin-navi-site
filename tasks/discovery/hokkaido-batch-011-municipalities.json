@@ -1,0 +1,21 @@
+{
+  "batchId": "hokkaido-batch-011",
+  "prefecture": "北海道",
+  "municipalities": [
+    {
+      "code": "01571",
+      "name": "豊浦町",
+      "officialBaseUrl": "https://www.town.toyoura.hokkaido.jp/"
+    },
+    {
+      "code": "01575",
+      "name": "壮瞥町",
+      "officialBaseUrl": "https://www.town.sobetsu.lg.jp/"
+    },
+    {
+      "code": "01578",
+      "name": "白老町",
+      "officialBaseUrl": "https://www.town.shiraoi.hokkaido.jp/"
+    }
+  ]
+}

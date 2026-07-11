@@ -1701,3 +1701,37 @@
   - `npm run audit:coverage`: pass（failures 0、北海道 localOfficial 2271）
 - 次地点:
   - commit後、自治体コード順で `01571 豊浦町` へ進む。次に `01575 壮瞥町`、`01578 白老町` を同一集約単位の候補にする。
+
+### 第11バッチ Discovery（豊浦町・壮瞥町・白老町）
+
+- 状態: 第11バッチ（豊浦町・壮瞥町・白老町）第1巡Verification・データ反映・集約監査済み
+- 確認日: 2026-07-11
+- Discovery:
+  - `tasks/discovery/hokkaido-batch-011-municipalities.json`
+  - `tasks/discovery/hokkaido-batch-011-candidates.json`
+  - 豊浦町: discovered 300 / candidates 89 / strong 0
+  - 壮瞥町: discovered 300 / candidates 227 / strong 0
+  - 白老町: discovered 300 / candidates 143 / strong 3
+- 適用した高速化:
+  - discovery候補はローカルJSONを再利用し、公式ページ/PDFの本文から制度名・対象・金額/上限・条件・期限/受付状況だけを短く抽出して確認した。
+  - トップページ、カテゴリ一覧、共通ナビ一致のみ、過年度で受付終了済み、金額/上限が個別本文で固定できない候補は第1巡では掲載せず保留にした。
+  - 同一自治体内の複数制度が1公式ページにまとまる場合は、そのページ本文に個別制度の対象・金額・手続きが揃うものだけ採用した。
+- 今回反映:
+  - 豊浦町: 5件（ふるさと納税返礼品開発、通学費等、初回産科受診、認可外保育施設等利用料、児童手当）
+  - 壮瞥町: 11件（子ども医療、児童手当、通学定期、妊婦支援給付、持ち家住宅取得、住宅リフォーム、空き家整理改修、結婚新生活、起業化、特産品開発、家族介護用品）
+  - 白老町: 9件（奨学金返還、子ども医療、スポーツ合宿等誘致、妊産婦健診交通費、妊婦支援給付、UIJターン移住、U・Iターン採用支援、魅力発信応援、ローカルイベント支援）
+- 候補・掲載見送り:
+  - 豊浦町 商工業者物価高騰対策支援事業交付金: 申請期限が令和5年2月28日で終了済みのため掲載しない。
+  - 豊浦町 不妊治療費、妊婦支援給付、妊産婦安心出産支援: 制度名は公式ページで確認したが、金額/上限の本文確認がリーフレット・添付に依存し、第1巡では固定できないため保留。
+  - 壮瞥町 合併処理浄化槽、民間賃貸住宅、企業立地優遇、新規就農者支援の一部: 公式ページ又はPDFへの到達は確認したが、個別制度としての採用単位・金額/上限・受付条件の整理を第2巡へ回す。
+  - 白老町 不妊治療費、先進医療不妊治療費、不育症治療費、保育園等給食費、物価高対応子育て応援手当: 公式ページは候補化済みだが、金額/上限又は現行受付状態の追加確認が必要なため保留。
+- 検証:
+  - slug重複確認: 重複0（豊浦町5件、壮瞥町11件、白老町9件）
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+  - `node scripts/check-grant-source-urls.mjs --prefix toyoura- --timeout-ms 60000 --concurrency 4`: 5件確認、失敗0
+  - `node scripts/check-grant-source-urls.mjs --prefix sobetsu- --timeout-ms 60000 --concurrency 4`: 11件確認、失敗0
+  - `node scripts/check-grant-source-urls.mjs --prefix shiraoi- --timeout-ms 60000 --concurrency 4`: 9件確認、失敗0
+  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/official-coverage-checkpoint.json tasks/comprehensive-official-coverage-checklist.md tasks/discovery/hokkaido-batch-011-municipalities.json tasks/discovery/hokkaido-batch-011-candidates.json`: pass
+  - `npm run audit:coverage`: pass（failures 0、北海道 localOfficial 2296）
+- 次地点:
+  - commit後、自治体コード順で `01581 厚真町` へ進む。次に `01584 洞爺湖町`、`01585 安平町` を同一集約単位の候補にする。
