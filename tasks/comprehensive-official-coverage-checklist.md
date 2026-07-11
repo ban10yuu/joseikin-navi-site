@@ -2527,6 +2527,30 @@
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-010-snippets.json`: pass
     - `npm run audit:coverage`: pass（failures 0、activePublished 7458、officialLinkedActive 7420、manuallyVerifiedActive 7420、北海道 localOfficial 3063）
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 共和町・岩内町・泊村・神恵内村）:
+  - 状態: 第2巡011として、batch-003前方4自治体の未掲載候補を再確認。共和町・泊村は主要候補が既存掲載済み。岩内町の国民健康保険一部負担金減免は公式本文で対象・免除/2分の1減額・徴収猶予・期間・申請条件が確認できたため1件追加。神恵内村の未掲載候補は制度名と概要のみで金額/上限が不足するものが多く保留。
+  - 追加・更新ファイル:
+    - `src/data/grants/verified-local-misc-2026.ts`
+    - `tasks/discovery/hokkaido-second-pass-011-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 採用:
+    - 岩内町: 1件（国民健康保険一部負担金の減免等）
+  - 既存掲載済み:
+    - 共和町: 妊婦支援、不妊治療、住宅・就労支援、商工業活性化、教育費・検定料・児童手当等18件を掲載済み。
+    - 岩内町: 医療費助成、不妊治療、奨学金、まちづくり、空き店舗、中小企業保証料、予防接種、介護用品、固定資産税課税免除等14件を掲載済み。
+    - 泊村: 結婚・出産・児童養育・就学・住宅・家賃・学校費・医療・予防接種・福祉・空家解体・不足額給付等26件を掲載済み。
+    - 神恵内村: 検診、予防接種、妊婦・出産、医療費、障がい者・ひとり親生活扶助、配食、福祉乗車証、除雪、燃料、長寿、結婚、温泉、青年就農等20件を掲載済み。
+  - 保留継続:
+    - 共和町 申請書ダウンロード・補助/助成カテゴリ: カテゴリ導線で、既存掲載済み制度へのリンクが中心。
+    - 岩内町 調整給付金（不足額給付分）、フラット35地域連携型: 調整給付は公式ページ本文に対象・金額・受付期限がなく、フラット35は住宅金融支援機構の外部制度案内。
+    - 泊村 にっこり子育て支援事業・子育て支援事業、低所得の子育て世帯生活支援特別給付金等: 育児相談・訪問支援又は過年度制度/既存掲載済み制度。
+    - 神恵内村 ひとり親家庭等生徒通学費助成、緊急通報サービス、電話サービス、在宅障がい者（児）施設通所交通費支給: 対象や概要は確認できるが、金額/上限又は無償/自己負担条件が公式本文だけでは不足する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+    - slug重複確認: 重複0（全7463件）
+    - 追加1件の `node scripts/check-grant-source-urls.mjs --slug ... --timeout-ms 60000 --concurrency 2`: 2URL確認、失敗0
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-011-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
