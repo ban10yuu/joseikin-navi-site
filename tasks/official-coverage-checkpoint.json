@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-11T20:42:00+09:00",
+  "updatedAt": "2026-07-11T21:39:00+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "01633",
-    "municipality": "上士幌町",
-    "adopted": 22,
-    "held": 5,
+    "code": "01635",
+    "municipality": "新得町",
+    "adopted": 19,
+    "held": 10,
     "excluded": 3,
-    "sourceUrlsChecked": 22,
+    "sourceUrlsChecked": 19,
     "validation": {
-      "previousMunicipality": "上士幌町は公式補助金・助成金・給付金等一覧から個別ページ33件を取得し、上士幌型脱炭素住宅、子育て住宅、定住住宅、木造住宅耐震診断、水洗化、再エネ地産地消、エアコン、生ごみ処理機、浄化槽、結婚新生活、風しん、妊婦RS、初回産科、妊産婦健診、一般不妊、不育症、生殖補助、子ども医療、児童手当、児童扶養手当、事業承継、まちづくり活動の22件を確認して追加。道民生活応援ポイント、太陽光発電等再エネ設備導入補助金、新型コロナワクチンは対象外又は受付停止/準備中として除外し、帯状疱疹ワクチン、複数医療費助成、未熟児養育医療、特別支援教育就学奨励費、定住促進賃貸住宅建設助成は条件切り分け不足のため第2巡保留。",
+      "previousMunicipality": "新得町はDiscovery候補146件をローカル本文で再スコアリングし、ワーケーション、振動障害健診、がん患者アピアランス、新規就農、住宅/空き家、結婚、移住、不育症、出産祝い、児童手当、児童扶養手当、妊婦支援、帯状疱疹、補聴器、高齢者温泉宿泊等の個別公式ページ本文から19件を確認して追加。商工業活性化、まごの手、インバウンド、物産展、労働力確保、あおぞら共済、地域おこし協力隊起業支援等は区分別条件の切り分けを第2巡へ回す。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "kamishihoro 22 checked, all 0 failures",
-      "diffCheck": "pending for batch-015 aggregate after 3 municipalities",
-      "auditCoverage": "pending for batch-015 aggregate after 3 municipalities"
+      "urlReachability": "shintoku 19 checked, all 0 failures; shikaoi 26 checked, all 0 failures",
+      "diffCheck": "pass: git diff --check for batch-015 shikaoi + shintoku files",
+      "auditCoverage": "pass: npm run audit:coverage, failures 0, 北海道 localOfficial 2577"
     }
   },
   "next": {
-    "code": "01634",
-    "municipality": "鹿追町",
-    "shortlist": "continue hokkaido-batch-015 from municipality code order after 01633 上士幌町",
-    "instructions": "鹿追町のDiscovery候補から、公式個別ページ/PDFで対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。batch-015は音更町・士幌町・上士幌町の3自治体完了後に集約diff/audit/commitし、その後に鹿追町へ進む。"
+    "code": "01636",
+    "municipality": "清水町",
+    "shortlist": "create hokkaido-batch-016 from municipality code order after 01635 新得町",
+    "instructions": "第15バッチ後半（鹿追町・新得町）の集約diff/audit/commit後、自治体コード表で01636以降を確認し、清水町から次の3〜5自治体バッチを作成する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

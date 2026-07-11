@@ -1855,7 +1855,7 @@
 
 ### 第15バッチ Discovery（音更町・士幌町・上士幌町・鹿追町・新得町）
 
-- 状態: 第15バッチDiscovery/URL検証を実行し、音更町・士幌町・上士幌町の第1巡Verification・データ反映・軽量検証まで完了。鹿追町以降を継続中。
+- 状態: 第15バッチDiscovery/URL検証を実行し、音更町・士幌町・上士幌町を集約commit済み。鹿追町・新得町の第1巡Verification・データ反映・軽量検証まで完了し、第15バッチ後半を集約監査中。
 - 確認日: 2026-07-11
 - Discovery:
   - `tasks/discovery/hokkaido-batch-015-municipalities.json`
@@ -1864,6 +1864,8 @@
   - `tasks/discovery/hokkaido-batch-015-otofuke-snippets.json`
   - `tasks/discovery/hokkaido-batch-015-shihoro-snippets.json`
   - `tasks/discovery/hokkaido-batch-015-kamishihoro-snippets.json`
+  - `tasks/discovery/hokkaido-batch-015-shikaoi-snippets.json`
+  - `tasks/discovery/hokkaido-batch-015-shintoku-snippets.json`
   - 音更町: candidates 122
   - 士幌町: candidates 295
   - 上士幌町: candidates 110
@@ -1874,6 +1876,8 @@
   - 音更町: 16件（児童手当、子ども医療費、ひとり親家庭等医療費、就学援助、不妊治療、重度心身障がい者医療費、木造住宅耐震診断・改修、やさしい住宅工事、空き店舗活用、産業振興支援、私有林造林・除間伐、移住支援金、子育て世帯向け民間賃貸住宅家賃補助、結婚新生活、未熟児養育医療、国保出産育児一時金）
   - 士幌町: 13件（合併処理浄化槽、生ごみ処理容器、ハチの巣駆除、定住スタート応援、家財道具整理、空き家等解体撤去、移住支援金、移住促進、マイホーム建設、補聴器購入、エアコン購入設置、児童扶養手当、児童手当）
   - 上士幌町: 22件（上士幌型脱炭素住宅、子育て住宅、定住住宅、木造住宅耐震診断、水洗化、再エネ地産地消、エアコン、生ごみ処理機、合併処理浄化槽、結婚新生活、風しん、妊婦RS、低所得妊婦初回産科、妊産婦健診、一般不妊、不育症、生殖補助医療、子ども医療、児童手当、児童扶養手当、事業承継、まちづくり活動）
+  - 鹿追町: 26件（中小企業事業資金利子等補給、店舗等修繕、物価高騰対策支援、耐震診断、耐震改修、結婚新生活、廃屋解体撤去、重点対策加速化、脱炭素利子・保証料、住宅用蓄電池、脱炭素自動車、省エネ冷蔵庫、住まいのゼロカーボン、妊婦健診、妊婦RS、妊産婦通院、新生児聴覚、1か月児健診、産婦健診、乳幼児等医療、未熟児養育医療、中学3年生ピロリ菌、子ども・妊婦インフルエンザ、おたふくかぜ、成人風しん、帯状疱疹）
+  - 新得町: 19件（ワーケーション推進、振動障害特殊健診、がん患者アピアランスケア、新規就農経営開始、農場リース、持家等住宅建築、空き家活用、空き家家財片付け、廃屋解体撤去、結婚・妊娠・共育て支援、移住支援金、不育症治療、出産祝い金、児童手当、児童扶養手当、出産・子育て応援給付金、帯状疱疹ワクチン、補聴器等購入、高齢者温泉宿泊）
 - 候補・掲載見送り:
   - 音更町 ゼロカーボン事業補助金: 公式ページは確認したが、補助対象機器別の金額表が画像/PDF中心で、本文から安全に個別上限を固定できないため第1巡保留。
   - 音更町 HPVワクチン任意接種費用助成: 公式個別ページで対象・助成額は確認したが、申請期限が令和7年3月31日までで終了済みのため現行掲載はしない。
@@ -1887,11 +1891,21 @@
   - 上士幌町 太陽光発電等再エネ設備導入補助金: 公式ページで令和8年度予算上限到達・受付停止を確認したため現行掲載はしない。
   - 上士幌町 新型コロナワクチン定期予防接種: 令和8年度準備中で秋頃予定の案内にとどまるため現行掲載はしない。
   - 上士幌町 帯状疱疹ワクチン、医療費助成の一部、未熟児養育医療、特別支援教育就学奨励費、定住促進賃貸住宅建設助成: 公式ページ到達は確認したが、ワクチン種別・年齢別又は医療区分別の金額/条件切り分け、複雑表の個別上限確認が不足するため第2巡保留。
+  - 鹿追町 企業活性化推進助成金: 公式個別ページは確認したが、助成額が条例/様式側に寄っており、本文だけでは安全に固定できないため第2巡保留。
+  - 鹿追町 民間賃貸住宅家賃助成、住宅建設奨励、不妊治療費助成、ひとり親家庭等医療費助成: 公式ページ到達は確認したが、金額表又はPDF/区分別条件の切り分けが不足するため第2巡保留。
+  - 鹿追町 児童手当、児童扶養手当等の推定個別URL: 公式サイト上で404転送となるURLは採用せず、別導線で本文確認できるまで掲載しない。
+  - 新得町 商工業活性化事業補助金、環境整備等事業補助金（まごの手）、インバウンド等受入体制整備、物産展等販売促進、労働力確保、あおぞら共済、地域おこし協力隊起業支援、文化・スポーツ大会参加費助成: 公式ページ本文は候補化したが、対象区分・補助率・上限の分割が多く、第1巡では制度単位の切り出しを完了していないため第2巡保留。
+  - 新得町 定住住宅建設促進制度: 公式本文で制度案内は確認したが、持家等住宅建築促進制度との年度・対象差分を安全に分離する必要があるため第2巡保留。
+  - 新得町 不妊治療費助成、医療費助成の一部、通常の観光・移住案内、広報/カテゴリページのみの候補: 個別公式本文/PDFで金額・対象・条件・受付状況を同一制度単位で確認できたものだけ採用し、詳細不足又はカテゴリ導線のみの候補は掲載しない。
 - 軽量検証:
-  - slug重複確認: 重複0（全6920件、音更町16件、士幌町13件、上士幌町22件）
+  - slug重複確認: 重複0（全6965件、音更町16件、士幌町13件、上士幌町22件、鹿追町26件、新得町19件）
   - `node scripts/check-grant-source-urls.mjs --prefix otofuke- --timeout-ms 60000 --concurrency 4`: 16件確認、失敗0
   - `node scripts/check-grant-source-urls.mjs --prefix shihoro- --timeout-ms 60000 --concurrency 4`: 13件確認、失敗0
   - `node scripts/check-grant-source-urls.mjs --prefix kamishihoro- --timeout-ms 60000 --concurrency 4`: 22件確認、失敗0
+  - `node scripts/check-grant-source-urls.mjs --prefix shikaoi- --timeout-ms 60000 --concurrency 4`: 26件確認、失敗0
+  - `node scripts/check-grant-source-urls.mjs --prefix shintoku- --timeout-ms 60000 --concurrency 4`: 19件確認、失敗0
   - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+  - 音更町・士幌町・上士幌町の集約: `git diff --check` pass、`npm run audit:coverage` pass（failures 0、北海道 localOfficial 2532）、commit `3fcbfc2`
+  - 鹿追町・新得町の集約: `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/official-coverage-checkpoint.json tasks/comprehensive-official-coverage-checklist.md tasks/discovery/hokkaido-batch-015-shikaoi-snippets.json tasks/discovery/hokkaido-batch-015-shintoku-snippets.json` pass、`npm run audit:coverage` pass（failures 0、北海道 localOfficial 2577）
 - 次地点:
-  - 音更町・士幌町・上士幌町の3自治体完了後、第15バッチ前半を集約diff/audit/commitする。その後、自治体コード順で `01634 鹿追町` へ進む。
+  - 鹿追町・新得町完了後の第15バッチ後半を集約diff/audit/commitする。次バッチは自治体コード表で `01636` 以降を再確認して作成する。
