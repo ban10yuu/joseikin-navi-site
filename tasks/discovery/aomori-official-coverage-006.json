@@ -1,0 +1,131 @@
+{
+  "batchId": "aomori-comprehensive-official-coverage-006",
+  "checkedAt": "2026-07-12T08:08:48+09:00",
+  "prefecture": "青森県",
+  "scope": "青森県公式棚卸し006: 深浦町・西目屋村・藤崎町・大鰐町",
+  "discovery": {
+    "candidateCount": 924,
+    "retryCandidateCount": 165,
+    "retryReason": "大鰐町公式サイトはHTTPS接続がリセットされたため、公式HTTPベースURLで再試行し、制度候補を抽出した。",
+    "snippetRows": 23,
+    "snippetReason": "shortlistが150件を超えたため、公式本文の短いスニペットを抽出して再スコアリングした。"
+  },
+  "municipalities": [
+    {
+      "code": "02323",
+      "name": "深浦町",
+      "adopted": 10,
+      "programs": [
+        "資格取得支援事業費補助金",
+        "創業支援事業補助金",
+        "若年者等雇用促進奨励金",
+        "移住支援金",
+        "若者等住宅整備支援補助金",
+        "家賃補助金",
+        "空き家バンク利活用促進事業補助金（改修）",
+        "空き家バンク利活用促進事業補助金（家財処分）",
+        "空き家バンク物件登録推進奨励金",
+        "生活困窮世帯灯油購入費助成金"
+      ]
+    },
+    {
+      "code": "02343",
+      "name": "西目屋村",
+      "adopted": 1,
+      "programs": [
+        "雪下ろし命綱固定アンカー等設置事業補助金"
+      ]
+    },
+    {
+      "code": "02361",
+      "name": "藤崎町",
+      "adopted": 3,
+      "programs": [
+        "ふじさき移住すまいづくり支援金",
+        "空き家等除却事業費補助金",
+        "老朽危険空き家等除却事業費補助金"
+      ]
+    },
+    {
+      "code": "02362",
+      "name": "大鰐町",
+      "adopted": 4,
+      "programs": [
+        "住宅用自家消費型太陽光発電設備等導入支援事業費補助金",
+        "水道基本料金減免等物価高騰対応支援",
+        "医療・福祉職子育て世帯移住支援金",
+        "空き店舗等活用創業支援事業補助金"
+      ]
+    }
+  ],
+  "adoptedSlugs": [
+    "fukaura-qualification-acquisition-subsidy-2026",
+    "fukaura-startup-support-subsidy-2026",
+    "fukaura-youth-employment-incentive-2026",
+    "fukaura-migration-support-2026",
+    "fukaura-young-household-housing-development-subsidy-2026",
+    "fukaura-rent-support-subsidy-2026",
+    "fukaura-vacant-house-bank-renovation-subsidy-2026",
+    "fukaura-vacant-house-bank-disposal-subsidy-2026",
+    "fukaura-vacant-house-bank-registration-incentive-2026",
+    "fukaura-kerosene-purchase-aid-2026",
+    "nishimeya-snow-anchor-installation-subsidy-2026",
+    "fujisaki-migration-housing-support-2026",
+    "fujisaki-vacant-house-demolition-subsidy-2026",
+    "fujisaki-dangerous-vacant-house-demolition-subsidy-2026",
+    "owani-residential-solar-battery-subsidy-2026",
+    "owani-water-basic-fee-reduction-support-2026",
+    "owani-medical-welfare-childcare-migration-support-2026",
+    "owani-vacant-store-startup-subsidy-2026"
+  ],
+  "heldCandidates": [
+    {
+      "title": "深浦町 福祉施設等物価高騰対策支援金",
+      "reason": "公式本文で対象と申請期限は確認したが、支給額は別表PDF参照で本文固定されていないため、PDF金額表確認後に採用判断する。"
+    },
+    {
+      "title": "西目屋村 若者定住促進住宅",
+      "reason": "低廉な家賃の村営住宅供給ページであり、補助金・助成金・給付金等の交付制度ではないため第2巡台帳に残す。"
+    },
+    {
+      "title": "藤崎町 移住支援事業のお知らせ",
+      "reason": "移住支援金、地方就職支援金、医療・福祉職子育て世帯移住支援金等の一覧ページのため、個別制度ページで必須項目確認後に採用する。"
+    },
+    {
+      "title": "藤崎町 各種手当助成事業・ひとり親家庭支援",
+      "reason": "子ども医療費助成、出産祝金、ひとり親家庭等医療費助成等の一覧ページであり、個別公式本文確認が必要。"
+    },
+    {
+      "title": "藤崎町 原子力施設立地振興対策事業助成金",
+      "reason": "公式本文上、町が対象施設へ交付する事業助成の案内であり、住民・事業者向け個別申請制度としては優先度を下げる。"
+    },
+    {
+      "title": "大鰐町 HTTPS公式URL候補",
+      "reason": "HTTPS接続がリセットされたため、公式HTTP URLで到達確認済みの制度ページを採用し、HTTPS候補はURL変更候補として保持する。"
+    }
+  ],
+  "summary": {
+    "adopted": 18,
+    "held": 6,
+    "sourceUrlsChecked": 18,
+    "candidates": 924,
+    "retryCandidates": 165,
+    "snippets": 23
+  },
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "duplicateSlugs": "pass: added 18, duplicates 0",
+    "urlReachability": "pass: checked 18, failures 0",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7518, officialLinkedActive 7480, manuallyVerifiedActive 7480, Aomori localOfficial 128",
+    "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-official-coverage-006-municipalities.json tasks/discovery/aomori-official-coverage-006-candidates.json tasks/discovery/aomori-official-coverage-006-owani-retry-input.json tasks/discovery/aomori-official-coverage-006-owani-retry-candidates.json tasks/discovery/aomori-official-coverage-006-snippets.json tasks/discovery/aomori-official-coverage-006.json"
+  },
+  "next": {
+    "code": "aomori-comprehensive-official-coverage-007",
+    "municipalities": [
+      "02367田舎館村",
+      "02381板柳町",
+      "02384鶴田町",
+      "02387中泊町"
+    ]
+  }
+}

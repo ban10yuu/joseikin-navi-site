@@ -1,0 +1,26 @@
+{
+  "batchId": "aomori-comprehensive-official-coverage-006",
+  "prefecture": "青森県",
+  "municipalities": [
+    {
+      "code": "02323",
+      "name": "深浦町",
+      "officialBaseUrl": "https://www.town.fukaura.lg.jp/"
+    },
+    {
+      "code": "02343",
+      "name": "西目屋村",
+      "officialBaseUrl": "https://www.nishimeya.jp/"
+    },
+    {
+      "code": "02361",
+      "name": "藤崎町",
+      "officialBaseUrl": "https://www.town.fujisaki.lg.jp/"
+    },
+    {
+      "code": "02362",
+      "name": "大鰐町",
+      "officialBaseUrl": "http://www.town.owani.lg.jp/"
+    }
+  ]
+}

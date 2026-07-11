@@ -3022,6 +3022,37 @@
   - 次:
     - 02323深浦町、02343西目屋村、02361藤崎町、02362大鰐町を自治体コード順で確認する。
 
+- 2026-07-12 青森県公式棚卸し006（深浦町・西目屋村・藤崎町・大鰐町データ反映）:
+  - 状態: 4自治体を公式サイト単位で確認。初回候補924件に加え、大鰐町はHTTPS接続リセットのため公式HTTPベースURLで165件を再試行し、短い本文スニペット23件へ再スコアリングした。公式本文で制度名・対象・金額/上限・条件・期限/受付状況を確認できた18件を `src/data/grants/verified-local-misc-2026.ts` に追加した。
+  - 追加・更新ファイル:
+    - `src/data/grants/verified-local-misc-2026.ts`
+    - `tasks/discovery/aomori-official-coverage-006-municipalities.json`
+    - `tasks/discovery/aomori-official-coverage-006-candidates.json`
+    - `tasks/discovery/aomori-official-coverage-006-owani-retry-input.json`
+    - `tasks/discovery/aomori-official-coverage-006-owani-retry-candidates.json`
+    - `tasks/discovery/aomori-official-coverage-006-snippets.json`
+    - `tasks/discovery/aomori-official-coverage-006.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 採用:
+    - 深浦町: 資格取得支援事業費補助金、創業支援事業補助金、若年者等雇用促進奨励金、移住支援金、若者等住宅整備支援補助金、家賃補助金、空き家バンク利活用促進事業補助金（改修）、空き家バンク利活用促進事業補助金（家財処分）、空き家バンク物件登録推進奨励金、生活困窮世帯灯油購入費助成金。
+    - 西目屋村: 雪下ろし命綱固定アンカー等設置事業補助金。
+    - 藤崎町: ふじさき移住すまいづくり支援金、空き家等除却事業費補助金、老朽危険空き家等除却事業費補助金。
+    - 大鰐町: 住宅用自家消費型太陽光発電設備等導入支援事業費補助金、水道基本料金減免等物価高騰対応支援、医療・福祉職子育て世帯移住支援金、空き店舗等活用創業支援事業補助金。
+  - 保留継続:
+    - 深浦町福祉施設等物価高騰対策支援金は対象と申請期限を公式本文で確認したが、支給額は別表PDF参照のためPDF金額表確認後に採用判断する。
+    - 西目屋村若者定住促進住宅は低廉な家賃の村営住宅供給ページであり、補助金・助成金・給付金等の交付制度ではないため第2巡台帳に残す。
+    - 藤崎町移住支援事業、各種手当助成事業、ひとり親家庭支援は一覧ページのため、個別制度ページで必須項目確認後に採用する。
+    - 藤崎町原子力施設立地振興対策事業助成金は施設向け事業助成案内であり、住民・事業者向け個別申請制度としては優先度を下げる。
+    - 大鰐町はHTTPS接続がリセットされたため、公式HTTP URLで到達確認済みの制度ページのみ採用した。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: 今回追加slugの重複0。
+    - `node scripts/check-grant-source-urls.mjs --slug <18 slugs> --timeout-ms 60000 --concurrency 4`: checked 18、failures 0。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7518、officialLinkedActive 7480、manuallyVerifiedActive 7480、青森県 localOfficial 128）
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-official-coverage-006-municipalities.json tasks/discovery/aomori-official-coverage-006-candidates.json tasks/discovery/aomori-official-coverage-006-owani-retry-input.json tasks/discovery/aomori-official-coverage-006-owani-retry-candidates.json tasks/discovery/aomori-official-coverage-006-snippets.json tasks/discovery/aomori-official-coverage-006.json`: pass。
+  - 次:
+    - 02367田舎館村、02381板柳町、02384鶴田町、02387中泊町を自治体コード順で確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:

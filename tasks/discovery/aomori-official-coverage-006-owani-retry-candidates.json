@@ -1,0 +1,5854 @@
+{
+  "batchId": "aomori-comprehensive-official-coverage-006-owani-retry",
+  "prefecture": "青森県",
+  "generatedAt": "2026-07-11T23:01:47.252Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 165,
+  "results": [
+    {
+      "code": "02362",
+      "name": "大鰐町",
+      "officialBaseUrl": "http://www.town.owani.lg.jp/",
+      "discoveredUrlCount": 450,
+      "candidateCount": 165,
+      "strongCandidateCount": 5,
+      "lowPriorityCandidateCount": 160,
+      "candidates": [
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/home.html",
+          "status": 200,
+          "title": "ホーム｜青森県大鰐町",
+          "h1": "",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "支援金",
+            "減免",
+            "移住",
+            "住宅",
+            "創業",
+            "事業者",
+            "林業",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/keiyaku/index.html",
+          "status": 200,
+          "title": "入札・契約",
+          "h1": "入札・契約",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/bousai/index.html",
+          "status": 200,
+          "title": "防災情報",
+          "h1": "防災情報",
+          "updatedAt": "令和7年3月24日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/aboutowani/goannai.html",
+          "status": 200,
+          "title": "大鰐町役場のご案内",
+          "h1": "大鰐町役場のご案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空家",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "通学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/aboutowani/",
+          "status": 200,
+          "title": "町の紹介",
+          "h1": "町の紹介",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/index.html",
+          "status": 200,
+          "title": "くらしの情報",
+          "h1": "くらしの情報",
+          "updatedAt": "令和7年3月24日",
+          "keywordHits": [
+            "給付金",
+            "支援金",
+            "減免",
+            "免除",
+            "移住",
+            "住宅",
+            "空き家",
+            "空家",
+            "事業者",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "妊婦",
+            "通学"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/index.html",
+          "status": 200,
+          "title": "行政情報",
+          "h1": "行政情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "創業",
+            "事業者",
+            "農業",
+            "林業",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/shinryojo/index.html",
+          "status": 200,
+          "title": "町立大鰐診療所",
+          "h1": "町立大鰐診療所",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/senkyo/2026-0707-1050-9.html",
+          "status": 200,
+          "title": "大鰐町長選挙について",
+          "h1": "大鰐町長選挙について",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/aboutowani/waniline/waniline2025.html",
+          "status": 200,
+          "title": "大鰐町LINE公式アカウント「わにLINE」",
+          "h1": "大鰐町LINE公式アカウント「わにLINE」",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/bousai/hinan/index.html",
+          "status": 200,
+          "title": "避難場所",
+          "h1": "避難場所",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/bousai/hazardmap/index.html",
+          "status": 200,
+          "title": "大鰐町ハザードマップ（防災マップ）",
+          "h1": "大鰐町ハザードマップ（防災マップ）",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/bousai/syobo/index.html",
+          "status": 200,
+          "title": "消防",
+          "h1": "消防",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/koho/2026/2026-0702-koho-0807.html",
+          "status": 200,
+          "title": "広報おおわに 令和８年７月号",
+          "h1": "広報おおわに 令和８年７月号",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/koho/",
+          "status": 200,
+          "title": "広報おおわに",
+          "h1": "広報おおわに",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/koho/bosyu/",
+          "status": 200,
+          "title": "有料広告の募集",
+          "h1": "有料広告の募集",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/",
+          "status": 200,
+          "title": "行政情報",
+          "h1": "行政情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "創業",
+            "事業者",
+            "農業",
+            "林業",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/2026-0708-1348-oyukaikan.html",
+          "status": 200,
+          "title": "大湯会館 入浴開始時間変更のお知らせ",
+          "h1": "大湯会館 入浴開始時間変更のお知らせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/koujisoutatu/",
+          "status": 200,
+          "title": "公示送達",
+          "h1": "公示送達",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/koujisoutatu/kotei_koujisoutatsu_20260710.html",
+          "status": 200,
+          "title": "【大鰐町告示第98号】令和８年度固定資産税納税通知書の公示送達書について",
+          "h1": "【大鰐町告示第98号】令和８年度固定資産税納税通知書の公示送達書について",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/koujisoutatu/2026-0706-1627-16.html",
+          "status": 200,
+          "title": "【大鰐町告示第９６号】令和８年度介護保険料納入通知書の公示送達について",
+          "h1": "【大鰐町告示第９６号】令和８年度介護保険料納入通知書の公示送達について",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/senkyo/",
+          "status": 200,
+          "title": "選挙",
+          "h1": "選挙",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/news/oshirase/",
+          "status": 200,
+          "title": "新着情報：お知らせカテゴリ",
+          "h1": "新着情報：お知らせカテゴリ",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "給付金",
+            "減免",
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/news/oshirase/2026-0625-1639-16.html",
+          "status": 200,
+          "title": "第22回大鰐町長寿福祉祭が開催されます",
+          "h1": "第22回大鰐町長寿福祉祭が開催されます",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/news/oshirase/jikayou.html",
+          "status": 200,
+          "title": "令和8年度大鰐町住宅用自家消費型太陽光発電設備等導入支援事業費補助金",
+          "h1": "令和8年度大鰐町住宅用自家消費型太陽光発電設備等導入支援事業費補助金",
+          "updatedAt": "令和9年1月29日",
+          "keywordHits": [
+            "補助金",
+            "住宅"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/kaigofukushi/koreisyafukushi/",
+          "status": 200,
+          "title": "高齢者福祉",
+          "h1": "高齢者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/kaigofukushi/koreisyafukushi/kakikatasemina-.html",
+          "status": 200,
+          "title": "書き方セミナー",
+          "h1": "書き方セミナー",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/kosodate/hoiku/",
+          "status": 200,
+          "title": "認定こども園・保育園・保育所",
+          "h1": "認定こども園・保育園・保育所",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/kosodate/hoiku/newlist.html",
+          "status": 200,
+          "title": "大鰐町内の認定こども園・保育所一覧",
+          "h1": "大鰐町内の認定こども園・保育所一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/nouringyou/",
+          "status": 200,
+          "title": "農林業",
+          "h1": "農林業",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/nouringyou/2026-0623-0818-30.html",
+          "status": 200,
+          "title": "クマにご注意ください！",
+          "h1": "クマにご注意ください！",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/nouringyou/2026-0619-0824-30.html",
+          "status": 200,
+          "title": "経営管理権集積計画の公告について",
+          "h1": "経営管理権集積計画の公告について",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/gikai/teireikairinjikai/",
+          "status": 200,
+          "title": "定例会・臨時会",
+          "h1": "定例会・臨時会",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/gikai/teireikairinjikai/R8teireikairinjikai.html",
+          "status": 200,
+          "title": "令和８年 定例会・臨時会",
+          "h1": "令和８年 定例会・臨時会",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/keiyaku/",
+          "status": 200,
+          "title": "入札・契約",
+          "h1": "入札・契約",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/keiyaku/2026-0615-1138-24.html",
+          "status": 200,
+          "title": "食器食缶洗浄機及び移動シンク・移動台に係る条件付き一般競争入札を実施します",
+          "h1": "食器食缶洗浄機及び移動シンク・移動台に係る条件付き一般競争入札を実施します",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/shoukougyou/",
+          "status": 200,
+          "title": "商工業",
+          "h1": "商工業",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "創業",
+            "事業者",
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/shoukougyou/tokusyu_sagi_boushi.html",
+          "status": 200,
+          "title": "黒石警察署からお知らせ「特殊詐欺被害にご注意！」",
+          "h1": "黒石警察署からお知らせ「特殊詐欺被害にご注意！」",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/jougesuido/",
+          "status": 200,
+          "title": "上・下水道",
+          "h1": "上・下水道",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/jougesuido/2026-0603-1443-22.html",
+          "status": 200,
+          "title": "水道基本料金減免事業・簡易水道等利用者支援事業のお知らせ",
+          "h1": "水道基本料金減免事業・簡易水道等利用者支援事業のお知らせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "減免",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/saiyou/",
+          "status": 200,
+          "title": "職員採用情報",
+          "h1": "職員採用情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/saiyou/hijoukin-bosyu.html",
+          "status": 200,
+          "title": "令和８年度大鰐町非常勤職員（事務補助員）募集",
+          "h1": "令和８年度大鰐町非常勤職員（事務補助員）募集",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/noufu/",
+          "status": 200,
+          "title": "町税の納付について",
+          "h1": "町税の納付について",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/noufu/2026-0521-0850-36.html",
+          "status": 200,
+          "title": "町税等納付・納期限について",
+          "h1": "町税等納付・納期限について",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/shoukougyou/shoukou_hojyokin.html",
+          "status": 200,
+          "title": "◆申請受付終了◆大鰐町事業者持続化支援事業補助金【中小企業・小規模事業者向け】",
+          "h1": "◆申請受付終了◆大鰐町事業者持続化支援事業補助金【中小企業・小規模事業者向け】",
+          "updatedAt": "令和8年3月1日",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 20,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/shoukougyou/owani_ouen_syouhinken.html",
+          "status": 200,
+          "title": "おおわに応援商品券を無料配布します",
+          "h1": "おおわに応援商品券を無料配布します",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/sumai/",
+          "status": 200,
+          "title": "住まい",
+          "h1": "住まい",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/sumai/tokuteiginouseido-kyouryokukakuninnsyo.html",
+          "status": 200,
+          "title": "特定技能制度における共生施策に関する「協力確認書」の提出",
+          "h1": "特定技能制度における共生施策に関する「協力確認書」の提出",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/ijuu/",
+          "status": 200,
+          "title": "移住",
+          "h1": "移住",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/ijuu/2026-0413-1109-24.html",
+          "status": 200,
+          "title": "大鰐町医療・福祉職子育て世帯移住支援金",
+          "h1": "大鰐町医療・福祉職子育て世帯移住支援金",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "免除",
+            "移住",
+            "福祉",
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 20,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/yobosessyu/",
+          "status": 200,
+          "title": "予防接種",
+          "h1": "予防接種",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/yobosessyu/RSuirusu.html",
+          "status": 200,
+          "title": "RSウイルス母子免疫ワクチン接種",
+          "h1": "RSウイルス母子免疫ワクチン接種",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/shoukougyou/r8_akitenpo_hojyokin.html",
+          "status": 200,
+          "title": "令和８年度大鰐町空き店舗等活用創業支援事業補助金",
+          "h1": "令和８年度大鰐町空き店舗等活用創業支援事業補助金",
+          "updatedAt": "令和8年5月8日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "空き家",
+            "創業",
+            "事業者",
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 23,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/jougesuido/2026-0324-1145-22.html",
+          "status": 200,
+          "title": "大鰐町内水ハザードマップ",
+          "h1": "大鰐町内水ハザードマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/jougesuido/2026-0324-1805-22.html",
+          "status": 200,
+          "title": "雨水出水浸水想定区域について",
+          "h1": "雨水出水浸水想定区域について",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/news/oshirase/fukushisenta-ryoukin.html",
+          "status": 200,
+          "title": "総合福祉センター使用料金改定のお知らせ【令和8年4月1日】",
+          "h1": "総合福祉センター使用料金改定のお知らせ【令和8年4月1日】",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/education/",
+          "status": 200,
+          "title": "教育",
+          "h1": "教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "農業",
+            "林業",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/education/gyoumukanri.html",
+          "status": 200,
+          "title": "大鰐町立学校の教育職員に関する業務量管理・健康確保措置実施計画",
+          "h1": "大鰐町立学校の教育職員に関する業務量管理・健康確保措置実施計画",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/chihousousei/",
+          "status": 200,
+          "title": "地方創生",
+          "h1": "地方創生",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/chihousousei/2026-0309-0840-24.html",
+          "status": 200,
+          "title": "総合戦略推進協議会委員を募集します",
+          "h1": "総合戦略推進協議会委員を募集します",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/news/oshirase/totojyosei.html",
+          "status": 200,
+          "title": "スポーツ振興（toto)くじ助成金を活用したスポーツ施設等の整備",
+          "h1": "スポーツ振興（toto)くじ助成金を活用したスポーツ施設等の整備",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/machi/",
+          "status": 200,
+          "title": "まちづくり",
+          "h1": "まちづくり",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/machi/2026-0226-1418-24.html",
+          "status": 200,
+          "title": "住民参加型まちづくり事業審議会委員の公募について",
+          "h1": "住民参加型まちづくり事業審議会委員の公募について",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/news/oshirase/saigaikyujohou-oshirase.html",
+          "status": 200,
+          "title": "【申請期間2/13まで延長】災害救助法適用による屋根雪等の除雪について",
+          "h1": "【申請期間2/13まで延長】災害救助法適用による屋根雪等の除雪について",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/news/oshirase/2025-0903-1433-24.html",
+          "status": 200,
+          "title": "令和８年度むつ小川原地域・産業振興プロジェクト支援助成事業の募集について",
+          "h1": "令和８年度むつ小川原地域・産業振興プロジェクト支援助成事業の募集について",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "事業者",
+            "農業",
+            "水産"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/news/oshirase/2025-0529-1818-24.html",
+          "status": 200,
+          "title": "「第２４回ふるさと自慢わがまちCM大賞」制作者を募集します",
+          "h1": "「第２４回ふるさと自慢わがまちCM大賞」制作者を募集します",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/news/oshirase/2025-0528-1654-16.html",
+          "status": 200,
+          "title": "第12回戦没者等の遺族に対する特別弔慰金について",
+          "h1": "第12回戦没者等の遺族に対する特別弔慰金について",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/news/oshirase/syokuin-fukusou.html",
+          "status": 200,
+          "title": "職員の執務時の服装について",
+          "h1": "職員の執務時の服装について",
+          "updatedAt": "",
+          "keywordHits": [
+            "省エネ"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/news/",
+          "status": 200,
+          "title": "新着情報一覧",
+          "h1": "新着情報一覧",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "給付金",
+            "支援金",
+            "減免",
+            "移住",
+            "住宅",
+            "創業",
+            "事業者",
+            "林業",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 24,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/guide/syussankosodate.html",
+          "status": 200,
+          "title": "出産・子育て",
+          "h1": "出産・子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/guide/nyuuennyuugaku.html",
+          "status": 200,
+          "title": "入園・入学",
+          "h1": "入園・入学",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/guide/kekkonrikon.html",
+          "status": 200,
+          "title": "結婚・離婚",
+          "h1": "結婚・離婚",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/guide/sumaihikkosi.html",
+          "status": 200,
+          "title": "すまい・引越し",
+          "h1": "すまい・引越し",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/guide/gomirecycle.html",
+          "status": 200,
+          "title": "ごみ・リサイクル",
+          "h1": "ごみ・リサイクル",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/guide/kenkoiryo.html",
+          "status": 200,
+          "title": "健康・医療",
+          "h1": "健康・医療",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/guide/fukusikaigo.html",
+          "status": 200,
+          "title": "福祉・介護",
+          "h1": "福祉・介護",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/guide/okuyami.html",
+          "status": 200,
+          "title": "おくやみ",
+          "h1": "おくやみ",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/aboutsite/sinsei.html",
+          "status": 200,
+          "title": "申請・届出",
+          "h1": "申請・届出",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "支援金",
+            "免除",
+            "移住",
+            "林業",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/aboutsite/access.html",
+          "status": 200,
+          "title": "大鰐町役場のご案内",
+          "h1": "大鰐町役場のご案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/koho/kurashinobenricho/benricho.html",
+          "status": 200,
+          "title": "大鰐町暮らしの便利帳",
+          "h1": "大鰐町暮らしの便利帳",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/gikai/index.html",
+          "status": 200,
+          "title": "議会",
+          "h1": "議会",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/furusatonousei/index.html",
+          "status": 200,
+          "title": "ふるさと納税",
+          "h1": "ふるさと納税",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/seishin/taionkei.html",
+          "status": 200,
+          "title": "こころの体温計",
+          "h1": "こころの体温計",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/konkatsu/hirosakikoiki-deai-support.html",
+          "status": 200,
+          "title": "ひろさき広域出愛サポートセンターについて",
+          "h1": "ひろさき広域出愛サポートセンターについて",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/files/20230517-170327-1.pdf",
+          "status": 404,
+          "title": "お探しのページはありません",
+          "h1": "お探しのページはありません",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/aboutowani/plan/",
+          "status": 200,
+          "title": "まちの計画",
+          "h1": "まちの計画",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/",
+          "status": 200,
+          "title": "くらしの情報",
+          "h1": "くらしの情報",
+          "updatedAt": "令和7年3月24日",
+          "keywordHits": [
+            "給付金",
+            "支援金",
+            "減免",
+            "免除",
+            "移住",
+            "住宅",
+            "空き家",
+            "空家",
+            "事業者",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "妊婦",
+            "通学"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/seikatsukankyo/",
+          "status": 200,
+          "title": "生活・環境",
+          "h1": "生活・環境",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/seikatsukankyo/gomi/",
+          "status": 200,
+          "title": "ごみ",
+          "h1": "ごみ",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/seikatsukankyo/jokaso/",
+          "status": 200,
+          "title": "し尿・浄化槽",
+          "h1": "し尿・浄化槽",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/seikatsukankyo/pet/",
+          "status": 200,
+          "title": "ペット",
+          "h1": "ペット",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/",
+          "status": 200,
+          "title": "住まい・まちづくり",
+          "h1": "住まい・まちづくり",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "減免",
+            "移住",
+            "住宅",
+            "空き家",
+            "空家",
+            "福祉",
+            "子育て",
+            "通学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/koseki/",
+          "status": 200,
+          "title": "戸籍・住民票の手続き",
+          "h1": "戸籍・住民票の手続き",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/koseki/inkan/",
+          "status": 200,
+          "title": "印鑑登録の申請",
+          "h1": "印鑑登録の申請",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/koseki/koseki/",
+          "status": 200,
+          "title": "戸籍届出（出生届・婚姻届など）",
+          "h1": "戸籍届出（出生届・婚姻届など）",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/koseki/shoumeisho/",
+          "status": 200,
+          "title": "証明書の請求",
+          "h1": "証明書の請求",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/koseki/tennyutensyutu/",
+          "status": 200,
+          "title": "住所の届出（転入届・転出届など）",
+          "h1": "住所の届出（転入届・転出届など）",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/kotsu/",
+          "status": 200,
+          "title": "交通",
+          "h1": "交通",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/road/",
+          "status": 200,
+          "title": "道路",
+          "h1": "道路",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "通学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/road/bridge/",
+          "status": 200,
+          "title": "橋梁",
+          "h1": "橋梁",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/road/dourosenyou/",
+          "status": 200,
+          "title": "道路占用",
+          "h1": "道路占用",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/road/houteigai/",
+          "status": 200,
+          "title": "法定外公共物",
+          "h1": "法定外公共物",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/road/josetsu/",
+          "status": 200,
+          "title": "雪対策",
+          "h1": "雪対策",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/road/kotsuanzen/",
+          "status": 200,
+          "title": "通学路交通安全プログラム",
+          "h1": "通学路交通安全プログラム",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "通学"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/road/syakaishihonsogokeikaku/",
+          "status": 200,
+          "title": "社会資本総合整備計画",
+          "h1": "社会資本総合整備計画",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/toshikeikaku/",
+          "status": 200,
+          "title": "都市計画・建築・住宅",
+          "h1": "都市計画・建築・住宅",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "空家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/toshikeikaku/akiya/",
+          "status": 200,
+          "title": "空家対策",
+          "h1": "空家対策",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "空家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/toshikeikaku/kaihatsukyoka/",
+          "status": 200,
+          "title": "大鰐町開発許可制度",
+          "h1": "大鰐町開発許可制度",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/toshikeikaku/toshikeikakuzu/",
+          "status": 200,
+          "title": "都市計画",
+          "h1": "都市計画",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/sumai/toshikeikaku/toshiteian/",
+          "status": 200,
+          "title": "大鰐町都市計画提案制度",
+          "h1": "大鰐町都市計画提案制度",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/kaigofukushi/",
+          "status": 200,
+          "title": "介護・福祉",
+          "h1": "介護・福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/kaigofukushi/kaigohoken/",
+          "status": 200,
+          "title": "介護保険",
+          "h1": "介護保険",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/kaigofukushi/syogaisyafukushi/",
+          "status": 200,
+          "title": "障がい者福祉",
+          "h1": "障がい者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/",
+          "status": 200,
+          "title": "健康・医療",
+          "h1": "健康・医療",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/kenko/",
+          "status": 200,
+          "title": "健康づくり",
+          "h1": "健康づくり",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/kenkohoken/",
+          "status": 200,
+          "title": "国民健康保険",
+          "h1": "国民健康保険",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/kenshin/",
+          "status": 200,
+          "title": "健康診査",
+          "h1": "健康診査",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/koukikoureisya/",
+          "status": 200,
+          "title": "後期高齢者医療",
+          "h1": "後期高齢者医療",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/seishin/",
+          "status": 200,
+          "title": "精神保健",
+          "h1": "精神保健",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/",
+          "status": 200,
+          "title": "年金・税金",
+          "h1": "年金・税金",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "免除",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/kokuminnenkin/",
+          "status": 200,
+          "title": "国民年金",
+          "h1": "国民年金",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "免除",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/",
+          "status": 200,
+          "title": "税金",
+          "h1": "税金",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/houjinjuminzei/",
+          "status": 200,
+          "title": "法人住民税",
+          "h1": "法人住民税",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/juminzei/",
+          "status": 200,
+          "title": "個人住民税",
+          "h1": "個人住民税",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/keijidousya/",
+          "status": 200,
+          "title": "軽自動車税",
+          "h1": "軽自動車税",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/kenkohoken/",
+          "status": 200,
+          "title": "国民健康保険税",
+          "h1": "国民健康保険税",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/koteisisanzei/",
+          "status": 200,
+          "title": "固定資産税",
+          "h1": "固定資産税",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/kumiai/",
+          "status": 200,
+          "title": "大鰐町納税貯蓄組合連合会",
+          "h1": "大鰐町納税貯蓄組合連合会",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/syomei/",
+          "status": 200,
+          "title": "税関係証明書",
+          "h1": "税関係証明書",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/bousai/",
+          "status": 200,
+          "title": "防災情報",
+          "h1": "防災情報",
+          "updatedAt": "令和7年3月24日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/bousai/hazardmap/",
+          "status": 200,
+          "title": "大鰐町ハザードマップ（防災マップ）",
+          "h1": "大鰐町ハザードマップ（防災マップ）",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/bousai/hinan/",
+          "status": 200,
+          "title": "避難場所",
+          "h1": "避難場所",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/bousai/saigai/",
+          "status": 200,
+          "title": "災害への備え",
+          "h1": "災害への備え",
+          "updatedAt": "令和7年3月24日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/bousai/syobo/",
+          "status": 200,
+          "title": "消防",
+          "h1": "消防",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/kosodate/",
+          "status": 200,
+          "title": "出産・子育て",
+          "h1": "出産・子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/kosodate/boshihoken/",
+          "status": 200,
+          "title": "母子保健",
+          "h1": "母子保健",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/kosodate/jidoteate/",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/mynumber/",
+          "status": 200,
+          "title": "マイナンバー",
+          "h1": "マイナンバー",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/okuyami/",
+          "status": 200,
+          "title": "おくやみ",
+          "h1": "おくやみ",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/kurashi/okuyami/saijou/",
+          "status": 200,
+          "title": "火葬・墓地",
+          "h1": "火葬・墓地",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/furusatonousei/",
+          "status": 200,
+          "title": "ふるさと納税",
+          "h1": "ふるさと納税",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/gikai/",
+          "status": 200,
+          "title": "議会",
+          "h1": "議会",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/gikai/bocho/",
+          "status": 200,
+          "title": "議会の傍聴",
+          "h1": "議会の傍聴",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/gikai/meibo/",
+          "status": 200,
+          "title": "議員名簿",
+          "h1": "議員名簿",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/gikai/report/",
+          "status": 200,
+          "title": "報告・公表",
+          "h1": "報告・公表",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/gikai/seiganchinjutsu/",
+          "status": 200,
+          "title": "請願・陳情書の提出方法",
+          "h1": "請願・陳情書の提出方法",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/gikai/shikumi/",
+          "status": 200,
+          "title": "議会のしくみ",
+          "h1": "議会のしくみ",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/johokoukai/",
+          "status": 200,
+          "title": "情報公開・公表",
+          "h1": "情報公開・公表",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/kansaiinseido/",
+          "status": 200,
+          "title": "監査委員制度",
+          "h1": "監査委員制度",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/koho/2023/",
+          "status": 200,
+          "title": "広報おおわに令和5年バックナンバー",
+          "h1": "広報おおわに令和5年バックナンバー",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/koho/2024/",
+          "status": 200,
+          "title": "広報おおわに令和6年バックナンバー",
+          "h1": "広報おおわに令和6年バックナンバー",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/koho/2025/",
+          "status": 200,
+          "title": "広報おおわに令和7年バックナンバー",
+          "h1": "広報おおわに令和7年バックナンバー",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/koho/kurashinobenricho/",
+          "status": 200,
+          "title": "大鰐町暮らしの便利帳",
+          "h1": "大鰐町暮らしの便利帳",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/koho/2026/",
+          "status": 200,
+          "title": "広報おおわに令和８年バックナンバー",
+          "h1": "広報おおわに令和８年バックナンバー",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/konkatsu/",
+          "status": 200,
+          "title": "婚活支援",
+          "h1": "婚活支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/nougyouiinkai/",
+          "status": 200,
+          "title": "農業委員会",
+          "h1": "農業委員会",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/senkyo/area/",
+          "status": 200,
+          "title": "町内投票区",
+          "h1": "町内投票区",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/senkyo/shikumi/",
+          "status": 200,
+          "title": "投票のしくみ",
+          "h1": "投票のしくみ",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/zaisei/",
+          "status": 200,
+          "title": "財政状況",
+          "h1": "財政状況",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/kyoikuhoikusisetu/",
+          "status": 200,
+          "title": "教育・保育施設",
+          "h1": "教育・保育施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/gyousei/teiujujirituken/",
+          "status": 200,
+          "title": "定住自立圏",
+          "h1": "定住自立圏",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/shinryojo/",
+          "status": 200,
+          "title": "町立大鰐診療所",
+          "h1": "町立大鰐診療所",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/shinryojo/information/",
+          "status": 200,
+          "title": "診療所からのお知らせ",
+          "h1": "診療所からのお知らせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "02362",
+          "municipalityName": "大鰐町",
+          "sourceUrl": "http://www.town.owani.lg.jp/guide/",
+          "status": 200,
+          "title": "くらしのガイド",
+          "h1": "くらしのガイド",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "http://www.town.owani.lg.jp/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/home.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/home.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/aboutowani/waniline/index.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/aboutowani/waniline/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kanko/index.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kanko/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/keiyaku/index.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/keiyaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/bousai/index.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/bousai/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/aboutowani/goannai.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/aboutowani/goannai.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/contact/toiawase.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/contact/toiawase.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/language.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/language.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/aboutowani/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/aboutowani/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/index.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/index.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/shinryojo/index.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/shinryojo/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/contact/privacy.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/contact/privacy.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/aboutsite/howtouse.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/aboutsite/howtouse.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/senkyo/2026-0707-1050-9.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/senkyo/2026-0707-1050-9.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kanko/spot/tyausuyama.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kanko/spot/tyausuyama.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kanko/spot/wanicome.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kanko/spot/wanicome.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/aboutowani/waniline/waniline2025.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/aboutowani/waniline/waniline2025.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/bousai/hinan/index.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/bousai/hinan/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/bousai/hazardmap/index.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/bousai/hazardmap/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/bousai/syobo/index.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/bousai/syobo/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/koho/2026/2026-0702-koho-0807.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/koho/2026/2026-0702-koho-0807.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/koho/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/koho/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/koho/bosyu/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/koho/bosyu/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/2026-0708-1348-oyukaikan.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/2026-0708-1348-oyukaikan.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/koujisoutatu/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/koujisoutatu/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/koujisoutatu/kotei_koujisoutatsu_20260710.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/koujisoutatu/kotei_koujisoutatsu_20260710.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kanko/event/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kanko/event/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kanko/event/marugoto_owani_summer.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kanko/event/marugoto_owani_summer.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/koujisoutatu/2026-0706-1627-16.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/koujisoutatu/2026-0706-1627-16.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/senkyo/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/senkyo/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kanko/spot/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kanko/spot/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kanko/spot/2026-0618-1405-24.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kanko/spot/2026-0618-1405-24.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2026-0625-1639-16.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2026-0625-1639-16.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/kairan-260701.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/kairan-260701.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/jikayou.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/jikayou.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/kaigofukushi/koreisyafukushi/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/kaigofukushi/koreisyafukushi/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/kaigofukushi/koreisyafukushi/kakikatasemina-.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/kaigofukushi/koreisyafukushi/kakikatasemina-.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/kosodate/hoiku/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/kosodate/hoiku/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/kosodate/hoiku/newlist.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/kosodate/hoiku/newlist.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kanko/spot/tsugarufreepass.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kanko/spot/tsugarufreepass.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/nouringyou/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/nouringyou/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/nouringyou/2026-0623-0818-30.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/nouringyou/2026-0623-0818-30.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/nouringyou/2026-0619-0824-30.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/nouringyou/2026-0619-0824-30.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/gikai/teireikairinjikai/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/gikai/teireikairinjikai/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/gikai/teireikairinjikai/R8teireikairinjikai.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/gikai/teireikairinjikai/R8teireikairinjikai.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/demosupo.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/demosupo.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/kairan-2606-02.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/kairan-2606-02.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/keiyaku/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/keiyaku/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/keiyaku/2026-0615-1138-24.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/keiyaku/2026-0615-1138-24.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kanko/event/2026-0501-1527-24.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kanko/event/2026-0501-1527-24.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/100-owani-inkare.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/100-owani-inkare.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/20260610zenkyou.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/20260610zenkyou.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/shoukougyou/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/shoukougyou/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/shoukougyou/tokusyu_sagi_boushi.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/shoukougyou/tokusyu_sagi_boushi.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/jougesuido/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/jougesuido/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/jougesuido/2026-0603-1443-22.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/jougesuido/2026-0603-1443-22.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/saiyou/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/saiyou/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/saiyou/hijoukin-bosyu.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/saiyou/hijoukin-bosyu.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/kairan-2606-01.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/kairan-2606-01.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/noufu/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/noufu/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/noufu/2026-0521-0850-36.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/noufu/2026-0521-0850-36.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/kairan-0805-02.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/kairan-0805-02.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2026521zeninnkyou.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2026521zeninnkyou.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2026-0514-2006-24.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2026-0514-2006-24.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/jinkentokusetusoudan.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/jinkentokusetusoudan.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2026-0507-1457-24.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2026-0507-1457-24.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/kairan-2605-01.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/kairan-2605-01.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/shoukougyou/shoukou_hojyokin.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/shoukougyou/shoukou_hojyokin.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/shoukougyou/owani_ouen_syouhinken.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/shoukougyou/owani_ouen_syouhinken.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2026-0414-1535-24.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2026-0414-1535-24.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2026-0402.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2026-0402.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/sumai/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/sumai/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/sumai/tokuteiginouseido-kyouryokukakuninnsyo.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/sumai/tokuteiginouseido-kyouryokukakuninnsyo.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/ijuu/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/ijuu/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/ijuu/2026-0413-1109-24.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/ijuu/2026-0413-1109-24.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/yobosessyu/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/yobosessyu/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/yobosessyu/RSuirusu.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/yobosessyu/RSuirusu.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/kairan-2604-01.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/kairan-2604-01.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/shoukougyou/r8_akitenpo_hojyokin.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/shoukougyou/r8_akitenpo_hojyokin.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/jougesuido/2026-0324-1145-22.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/jougesuido/2026-0324-1145-22.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/jougesuido/2026-0324-1805-22.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/jougesuido/2026-0324-1805-22.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/fukushisenta-ryoukin.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/fukushisenta-ryoukin.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2026-0302.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2026-0302.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/education/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/education/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/education/gyoumukanri.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/education/gyoumukanri.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/chihousousei/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/chihousousei/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/chihousousei/2026-0309-0840-24.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/chihousousei/2026-0309-0840-24.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2026-0301.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2026-0301.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/totojyosei.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/totojyosei.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/machi/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/machi/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/machi/2026-0226-1418-24.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/machi/2026-0226-1418-24.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2026-0202.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2026-0202.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/saigaikyujohou-oshirase.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/saigaikyujohou-oshirase.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2026-0201.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2026-0201.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2026-0102.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2026-0102.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2026-0101.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2026-0101.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2025-1202.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2025-1202.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2025-1215-1054-24.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2025-1215-1054-24.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2025-1209-1329-24.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2025-1209-1329-24.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2025-1201.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2025-1201.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2025-1128.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2025-1128.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2025-1102.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2025-1102.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2025-1101.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2025-1101.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2025-1002.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2025-1002.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2025-1001.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2025-1001.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2025-0902.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2025-0902.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2025-0903-1433-24.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2025-0903-1433-24.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2025-0904-1128-24.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2025-0904-1128-24.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2025-0901.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2025-0901.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2025-0821.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2025-0821.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/ooyukaikan-kyukanbi.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/ooyukaikan-kyukanbi.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2025-0801.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2025-0801.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/kairan-2507-02.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/kairan-2507-02.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2025-0529-1818-24.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2025-0529-1818-24.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/kairan-2507-01.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/kairan-2507-01.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/kairan-2506-02.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/kairan-2506-02.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/kairan-2506-01.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/kairan-2506-01.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2025-0528-1654-16.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2025-0528-1654-16.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/syokuin-fukusou.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/syokuin-fukusou.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/oshirase/2025-0522-1334-32.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/oshirase/2025-0522-1334-32.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/news/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/news/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/guide/syussankosodate.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/guide/syussankosodate.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/guide/nyuuennyuugaku.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/guide/nyuuennyuugaku.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/guide/kekkonrikon.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/guide/kekkonrikon.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/guide/sumaihikkosi.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/guide/sumaihikkosi.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/guide/gomirecycle.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/guide/gomirecycle.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/guide/kenkoiryo.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/guide/kenkoiryo.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/guide/fukusikaigo.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/guide/fukusikaigo.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/guide/okuyami.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/guide/okuyami.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/aboutsite/sinsei.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/aboutsite/sinsei.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/reiki/reiki_menu.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/reiki/reiki_menu.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/aboutsite/event_calender.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/aboutsite/event_calender.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/aboutsite/livecamera.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/aboutsite/livecamera.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/aboutsite/access.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/aboutsite/access.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/koho/kurashinobenricho/benricho.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/koho/kurashinobenricho/benricho.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/aboutowani/mayor/index.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/aboutowani/mayor/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/gikai/index.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/gikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/contact/goiken.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/contact/goiken.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kanko/spot/ajaracamp.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kanko/spot/ajaracamp.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/furusatonousei/index.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/furusatonousei/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/aboutowani/moyappi/index.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/aboutowani/moyappi/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/seishin/taionkei.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/seishin/taionkei.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/konkatsu/hirosakikoiki-deai-support.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/konkatsu/hirosakikoiki-deai-support.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/2025-0724-0938-24.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/2025-0724-0938-24.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/established.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/established.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/waniline2025.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/waniline2025.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gaiyou/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/gaiyou/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/goannai.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/goannai.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/moyappi/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/moyappi/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/index.html",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/mayor/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/mayor/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/event/",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/event/",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/event/marugoto_owani_summer.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/event/marugoto_owani_summer.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/spot/",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/spot/",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/spot/2026-0618-1405-24.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/spot/2026-0618-1405-24.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/spot/tsugarufreepass.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/spot/tsugarufreepass.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/event/2026-0618-1725-24.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/event/2026-0618-1725-24.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/event/2026-0501-1527-24.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/event/2026-0501-1527-24.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/event/tsutsuji-matsuri.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/event/tsutsuji-matsuri.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/spot/ajaracamp.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/spot/ajaracamp.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/spot/ajarapark.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/spot/ajarapark.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/event/r6horafuki28th-kekka.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/event/r6horafuki28th-kekka.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/spot/ski.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/spot/ski.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/spot/sunakkumamacard.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/spot/sunakkumamacard.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/event/marugotooowani.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/event/marugotooowani.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/spot/kankou_ringo_en.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/spot/kankou_ringo_en.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/event/r6neputa-kekka.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/event/r6neputa-kekka.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/event/2024summer-festival.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/event/2024summer-festival.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/onsen/",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/onsen/",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/onsen/onsen-shukuhaku.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/onsen/onsen-shukuhaku.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kashidashihin/",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/kashidashihin/",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kashidashihin/nyuyoku-manners-english.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/kashidashihin/nyuyoku-manners-english.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/tokusan/",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/tokusan/",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/tokusan/oowanikougenntomato.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/tokusan/oowanikougenntomato.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/tokusan/oowanikougennnobudou.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/tokusan/oowanikougennnobudou.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kashidashihin/moyappi-doll.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/kashidashihin/moyappi-doll.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/bunkatyomeijin/",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/bunkatyomeijin/",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/bunkatyomeijin/wakanohana.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/bunkatyomeijin/wakanohana.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/bunkatyomeijin/ichinotanisousi.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/bunkatyomeijin/ichinotanisousi.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/bunkatyomeijin/aburakawateisaku.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/bunkatyomeijin/aburakawateisaku.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/spot/33kannonreijo.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/spot/33kannonreijo.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/spot/asiyu.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/spot/asiyu.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/tokusan/owaniyaki.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/tokusan/owaniyaki.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/tokusan/retropork.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/tokusan/retropork.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/tokusan/syamorock.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/tokusan/syamorock.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/tokusan/redbeet.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/tokusan/redbeet.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/tokusan/yagihasi.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/tokusan/yagihasi.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/tokusan/ajaramoti.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/tokusan/ajaramoti.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/tokusan/tyausumoti.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/tokusan/tyausumoti.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kashidashihin/touch-kaiwa-sheet.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/kashidashihin/touch-kaiwa-sheet.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kashidashihin/hanten.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/kashidashihin/hanten.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/tokusan/ra-men.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/tokusan/ra-men.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/spot/isinotou.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/spot/isinotou.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kashidashihin/yakigata.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/kashidashihin/yakigata.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/spot/tyausuyama.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/spot/tyausuyama.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/tokusan/owanionsenmoyasi.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/tokusan/owanionsenmoyasi.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/spot/daienji.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/spot/daienji.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/bunkatyomeijin/masudayoshio.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/bunkatyomeijin/masudayoshio.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/tokusan/kougenringo.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/tokusan/kougenringo.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/spot/wanimokko.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/spot/wanimokko.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/spot/wanicome.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/spot/wanicome.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/tokusan/mokutan.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/tokusan/mokutan.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/spot/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/spot/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/onsen/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/onsen/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/tokusan/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/tokusan/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/bunkatyomeijin/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/bunkatyomeijin/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/event/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/event/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kashidashihin/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/kashidashihin/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/2026-0708-1739-24.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/2026-0708-1739-24.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/2026-0615-1138-24.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/2026-0615-1138-24.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/2026-0604.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/2026-0604.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/2026-0604-0836.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/2026-0604-0836.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/2026-0511-1456-24.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/2026-0511-1456-24.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/R7kensetsukouji.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/R7kensetsukouji.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/2026-0226-1325-24.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/2026-0226-1325-24.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/2026-0225-1530-24.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/2026-0225-1530-24.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/2025-1215-1331-24.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/2025-1215-1331-24.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/2025-1201-1614-24.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/2025-1201-1614-24.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/2025-0508-1109-24.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/2025-0508-1109-24.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/2025-0611-1302-24.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/2025-0611-1302-24.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/2025-0609-0929-22.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/2025-0609-0929-22.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/r6-kekka.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/r6-kekka.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/yoryo.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/yoryo.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/yoshiki.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/yoshiki.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/shimeiteishi-sochi.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/shimeiteishi-sochi.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/r5-kekka.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/r5-kekka.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/shinchosha-kohochi.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/shinchosha-kohochi.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/r6r7-shinsesho.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/r6r7-shinsesho.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kokoroe.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/kokoroe.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/r4-kekka.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/r4-kekka.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/r6-kensetsu-mitoshi.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/r6-kensetsu-mitoshi.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/r4r5-gyosha-tokyu.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/r4r5-gyosha-tokyu.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/r3-kekka.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/r3-kekka.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/shimeiteishi-yoryo.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/shimeiteishi-yoryo.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/r2-kekka.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/r2-kekka.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/furusatonousei/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/furusatonousei/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kansaiinseido/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/kansaiinseido/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gikai/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/gikai/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/education/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/education/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/koho/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/koho/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/konkatsu/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/konkatsu/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/zaisei/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/zaisei/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/shoukougyou/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/shoukougyou/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/johokoukai/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/johokoukai/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/koujisoutatu/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/koujisoutatu/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/saiyou/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/saiyou/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/senkyo/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/senkyo/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/chihousousei/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/chihousousei/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/nougyouiinkai/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/nougyouiinkai/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/nouringyou/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/nouringyou/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kyoikuhoikusisetu/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/kyoikuhoikusisetu/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/teiujujirituken/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/teiujujirituken/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/saigai/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/saigai/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/syobo/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/syobo/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/hazardmap/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/hazardmap/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/hinan/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/hinan/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/saigai/",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/saigai/",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/saigai/8shichoson-kyojinka.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/saigai/8shichoson-kyojinka.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/saigai/2025-1016-1751-16.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/saigai/2025-1016-1751-16.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/hazardmap/",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/hazardmap/",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/hazardmap/kozuishinsui-area.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/hazardmap/kozuishinsui-area.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/saigai/yukitaisaku.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/saigai/yukitaisaku.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/saigaikyujoho-josetsu.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/saigaikyujoho-josetsu.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/saigai/hisai.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/saigai/hisai.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/syobo/",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/syobo/",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/syobo/telephoneguide-renewal.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/syobo/telephoneguide-renewal.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/hinan/",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/hinan/",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/hinan/about.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/hinan/about.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/saigai/r3hinanjoho-henko.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/saigai/r3hinanjoho-henko.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/10years-message.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/10years-message.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/ajara-mail.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/ajara-mail.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/hazardmap/about.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/hazardmap/about.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/saigai/bosaimusen.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/saigai/bosaimusen.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/syobo/kinobetsu-danin.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/syobo/kinobetsu-danin.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/saigai/keikai-level.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/saigai/keikai-level.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/saigai/nigenakya-call.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/saigai/nigenakya-call.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/saigai/poteka.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/saigai/poteka.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/syobo/aed.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/syobo/aed.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/saigai/j-alert.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/saigai/j-alert.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kanren-links.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/kanren-links.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/hazardmap/tameike.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/hazardmap/tameike.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/syobo/kyoryoku-jigyosha.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/syobo/kyoryoku-jigyosha.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/saigai/doshasaigai-mail-tsuchi.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/saigai/doshasaigai-mail-tsuchi.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/syobo/daninboshu.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/syobo/daninboshu.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/seikatsukankyo/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/seikatsukankyo/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/sumai/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/sumai/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/zeikinnenkin/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/zeikinnenkin/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kaigofukushi/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/kaigofukushi/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kenkoiryo/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/kenkoiryo/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kosodate/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/kosodate/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/okuyami/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/okuyami/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/mynumber/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/mynumber/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/files/20230517-170327-1.pdf",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/files/20230517-170327-1.pdf",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/waniline/index.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/waniline/index.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/aboutowani/gaiyou/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/aboutowani/gaiyou/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/aboutowani/mayor/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/aboutowani/mayor/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/aboutowani/moyappi/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/aboutowani/moyappi/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/aboutowani/plan/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/aboutowani/plan/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/aboutowani/waniline/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/aboutowani/waniline/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/seikatsukankyo/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/seikatsukankyo/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/seikatsukankyo/gomi/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/seikatsukankyo/gomi/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/seikatsukankyo/jokaso/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/seikatsukankyo/jokaso/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/seikatsukankyo/pet/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/seikatsukankyo/pet/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/koseki/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/koseki/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/koseki/inkan/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/koseki/inkan/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/koseki/koseki/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/koseki/koseki/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/koseki/shoumeisho/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/koseki/shoumeisho/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/koseki/tennyutensyutu/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/koseki/tennyutensyutu/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/kotsu/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/kotsu/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/road/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/road/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/road/bridge/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/road/bridge/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/road/dourosenyou/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/road/dourosenyou/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/road/houteigai/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/road/houteigai/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/road/josetsu/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/road/josetsu/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/road/kotsuanzen/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/road/kotsuanzen/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/road/syakaishihonsogokeikaku/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/road/syakaishihonsogokeikaku/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/toshikeikaku/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/toshikeikaku/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/toshikeikaku/akiya/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/toshikeikaku/akiya/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/toshikeikaku/kaihatsukyoka/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/toshikeikaku/kaihatsukyoka/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/toshikeikaku/toshikeikakuzu/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/toshikeikaku/toshikeikakuzu/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/sumai/toshikeikaku/toshiteian/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/sumai/toshikeikaku/toshiteian/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/kaigofukushi/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/kaigofukushi/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/kaigofukushi/kaigohoken/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/kaigofukushi/kaigohoken/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/kaigofukushi/syogaisyafukushi/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/kaigofukushi/syogaisyafukushi/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/kenko/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/kenko/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/kenkohoken/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/kenkohoken/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/kenshin/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/kenshin/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/koukikoureisya/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/koukikoureisya/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/seishin/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/kenkoiryo/seishin/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/kokuminnenkin/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/kokuminnenkin/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/houjinjuminzei/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/houjinjuminzei/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/juminzei/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/juminzei/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/keijidousya/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/keijidousya/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/kenkohoken/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/kenkohoken/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/koteisisanzei/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/koteisisanzei/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/kumiai/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/kumiai/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/syomei/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/zeikinnenkin/zeikin/syomei/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/bousai/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/bousai/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/bousai/hazardmap/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/bousai/hazardmap/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/bousai/hinan/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/bousai/hinan/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/bousai/saigai/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/bousai/saigai/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/bousai/syobo/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/bousai/syobo/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/kosodate/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/kosodate/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/kosodate/boshihoken/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/kosodate/boshihoken/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/kosodate/jidoteate/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/kosodate/jidoteate/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/mynumber/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/mynumber/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/okuyami/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/okuyami/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kurashi/okuyami/saijou/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kurashi/okuyami/saijou/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kanko/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kanko/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kanko/kashidashihin/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kanko/kashidashihin/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kanko/onsen/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kanko/onsen/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kanko/tokusan/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kanko/tokusan/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kanko/bunkatyomeijin/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/kanko/bunkatyomeijin/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/furusatonousei/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/furusatonousei/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/gikai/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/gikai/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/gikai/bocho/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/gikai/bocho/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/gikai/meibo/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/gikai/meibo/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/gikai/report/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/gikai/report/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/gikai/seiganchinjutsu/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/gikai/seiganchinjutsu/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/gikai/shikumi/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/gikai/shikumi/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/johokoukai/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/johokoukai/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/kansaiinseido/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/kansaiinseido/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/koho/2023/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/koho/2023/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/koho/2024/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/koho/2024/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/koho/2025/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/koho/2025/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/koho/kurashinobenricho/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/koho/kurashinobenricho/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/koho/2026/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/koho/2026/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/konkatsu/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/konkatsu/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/nougyouiinkai/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/nougyouiinkai/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/senkyo/area/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/senkyo/area/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/senkyo/shikumi/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/senkyo/shikumi/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/zaisei/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/zaisei/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/kyoikuhoikusisetu/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/kyoikuhoikusisetu/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gyousei/teiujujirituken/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/gyousei/teiujujirituken/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/shinryojo/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/shinryojo/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/shinryojo/about/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/shinryojo/about/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/shinryojo/aisatsu/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/shinryojo/aisatsu/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/shinryojo/gairaishinryo/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/shinryojo/gairaishinryo/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/shinryojo/information/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/shinryojo/information/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/shinryojo/kenshin/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/shinryojo/kenshin/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/shinryojo/station/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/shinryojo/station/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/guide/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/guide/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/aboutsite/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/aboutsite/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/contact/",
+          "status": 200,
+          "finalUrl": "http://www.town.owani.lg.jp/contact/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/toiawase.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/toiawase.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/goiken.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/goiken.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/privacy.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/privacy.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/jisedaiikusei-joseikatsuyaku.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/jisedaiikusei-joseikatsuyaku.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/shogaisha-katsuyaku.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/shogaisha-katsuyaku.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/2026-0410-1734-9.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/2026-0410-1734-9.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/kokyoshisetsu-sogokanri.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/kokyoshisetsu-sogokanri.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/kokoronotaionkei.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/kokoronotaionkei.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/mayor/",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/mayor/",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/mayor/greeting.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/mayor/greeting.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/waniline/",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/waniline/",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/waniline/2025-0724-0938-24.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/waniline/2025-0724-0938-24.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/waniline/established.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/waniline/established.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/waniline/waniline2025.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/waniline/waniline2025.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/kyoiku-shinko.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/kyoiku-shinko.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/kosodate-2nd.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/kosodate-2nd.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/chojuhigai-boushi.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/chojuhigai-boushi.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/dai7ki-syogaifukushikeikaku.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/dai7ki-syogaifukushikeikaku.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/dai3ki-chikifukushikeikaku.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/dai3ki-chikifukushikeikaku.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/inochi-kokoro-2nd.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/inochi-kokoro-2nd.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/saigaihaikibutsu-shori.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/saigaihaikibutsu-shori.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/chikibosai.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/chikibosai.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/koreisha-kaigohoken.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/koreisha-kaigohoken.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/shinchosha-kensetsu.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/shinchosha-kensetsu.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/kasochiki-hatten.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/kasochiki-hatten.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/kenko-owani21-3rd.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/kenko-owani21-3rd.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/kokyo-kotsu.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/kokyo-kotsu.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/moyappi/",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/moyappi/",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/moyappi/meishidaishi.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/moyappi/meishidaishi.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/moyappi/about.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/moyappi/about.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/kodomo-dokusho.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/kodomo-dokusho.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/teiin-tekiseika.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/teiin-tekiseika.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/shinko.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/shinko.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/jinko-vision-revised.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/jinko-vision-revised.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/sanson-shinko.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/sanson-shinko.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/mayor/profile.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/mayor/profile.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/danjo-kyodo.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/danjo-kyodo.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/chonin-nochi.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/chonin-nochi.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/kokyo-kobetsu.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/kokyo-kobetsu.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/shogaisha-4th.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/shogaisha-4th.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/plan/toshikeikaku-master.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/plan/toshikeikaku-master.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gaiyou/",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/gaiyou/",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gaiyou/yurai.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/gaiyou/yurai.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gaiyou/owanimachinitsuite.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/gaiyou/owanimachinitsuite.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/gaiyou/symbol.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/gaiyou/symbol.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/sumai/kotsu/",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/sumai/kotsu/",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/sumai/kotsu/kounanntetudouparkride.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/sumai/kotsu/kounanntetudouparkride.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kenkoiryo/kenko/",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/kenkoiryo/kenko/",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kenkoiryo/kenko/2026-0331-1433-16.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/kenkoiryo/kenko/2026-0331-1433-16.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kaigofukushi/koreisyafukushi/",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/kaigofukushi/koreisyafukushi/",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.owani.lg.jp/kaigofukushi/koreisyafukushi/kakikatasemina-.html",
+          "status": 404,
+          "finalUrl": "http://www.town.owani.lg.jp/kaigofukushi/koreisyafukushi/kakikatasemina-.html",
+          "ok": false
+        }
+      ]
+    }
+  ]
+}

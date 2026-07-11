@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T07:55:50+09:00",
+  "updatedAt": "2026-07-12T08:08:48+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "aomori-comprehensive-official-coverage-005",
-    "municipality": "今別町・蓬田村・外ヶ浜町・鰺ヶ沢町",
-    "adopted": 17,
+    "code": "aomori-comprehensive-official-coverage-006",
+    "municipality": "深浦町・西目屋村・藤崎町・大鰐町",
+    "adopted": 18,
     "held": 6,
     "excluded": 0,
-    "sourceUrlsChecked": 17,
+    "sourceUrlsChecked": 18,
     "validation": {
-      "previousMunicipality": "青森県公式棚卸し005として、今別町4件、蓬田村4件、外ヶ浜町2件、鰺ヶ沢町7件の計17件を公式本文で必須項目確認後にデータ反映。候補1029件のためスニペット19件を再スコアリング。",
+      "previousMunicipality": "青森県公式棚卸し006として、深浦町10件、西目屋村1件、藤崎町3件、大鰐町4件の計18件を公式本文で必須項目確認後にデータ反映。候補924件と大鰐町HTTP再試行165件のためスニペット23件を再スコアリング。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --slug <17 slugs> checked 17 failures 0",
-      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-official-coverage-005-municipalities.json tasks/discovery/aomori-official-coverage-005-candidates.json tasks/discovery/aomori-official-coverage-005-snippets.json tasks/discovery/aomori-official-coverage-005.json",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7501, officialLinkedActive 7463, manuallyVerifiedActive 7463, Aomori localOfficial 111"
+      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --slug <18 slugs> checked 18 failures 0",
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-official-coverage-006-municipalities.json tasks/discovery/aomori-official-coverage-006-candidates.json tasks/discovery/aomori-official-coverage-006-owani-retry-input.json tasks/discovery/aomori-official-coverage-006-owani-retry-candidates.json tasks/discovery/aomori-official-coverage-006-snippets.json tasks/discovery/aomori-official-coverage-006.json",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7518, officialLinkedActive 7480, manuallyVerifiedActive 7480, Aomori localOfficial 128"
     }
   },
   "next": {
-    "code": "aomori-comprehensive-official-coverage-006",
+    "code": "aomori-comprehensive-official-coverage-007",
     "municipality": "青森県",
-    "shortlist": "今別町・蓬田村・外ヶ浜町・鰺ヶ沢町から17件をデータ反映。保留は国制度案内、県制度案内、貸付制度、期限終了済み給付、鰺ヶ沢町のPDF系追加候補等。",
-    "instructions": "次は青森県006として、02323深浦町、02343西目屋村、02361藤崎町、02362大鰐町を自治体コード順に確認する。既存rawの有無に依存せず、公式サイト単位で補助金・助成金・給付金・一時金等の制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約を確認する。"
+    "shortlist": "深浦町・西目屋村・藤崎町・大鰐町から18件をデータ反映。保留は深浦町福祉施設等物価高騰対策支援金のPDF金額表、西目屋村定住促進住宅、藤崎町の一覧ページ系候補、大鰐町HTTPS候補等。",
+    "instructions": "次は青森県007として、02367田舎館村、02381板柳町、02384鶴田町、02387中泊町を自治体コード順に確認する。既存rawの有無に依存せず、公式サイト単位で補助金・助成金・給付金・一時金等の制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約を確認する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
