@@ -2848,6 +2848,20 @@
     - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
     - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-035-snippets.json`: pass
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 豊頃町・本別町・足寄町・陸別町）:
+  - 状態: 第2巡036として、第17バッチ後半から第18バッチ前半までの4自治体の未掲載候補を再確認。豊頃町・本別町・足寄町・陸別町はいずれも第1巡反映済み制度、一覧/カテゴリ、404、制度個別PDFではない資料、PDF/要綱側に寄った金額表、終了済み制度、又は助成額・上限・自己負担の本文固定不足に該当し、制度名・対象・金額/上限・条件・期限/受付状況が揃う新規掲載候補は確認できなかった。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-second-pass-036-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 保留継続:
+    - 豊頃町: 助成制度・補助金一覧は最終sourceにしない。`hp-manual.pdf` は404、`toyokoro_bosaihandbook.pdf` は制度個別PDFではない。
+    - 本別町: 妊産婦健診・出産に係る通院宿泊費助成は金額表がPDF参照。手当・医療助成・援助カテゴリは一覧。パスポート手数料、道民生活応援ポイント周知記事は町独自制度ではない。
+    - 足寄町: 住環境・店舗等整備補助金、まちづくり活動支援、新規就農支援、不妊治療費等・妊産婦通院交通費助成はPDF/要綱/詳細リンク側の金額・条件確認が必要。
+    - 陸別町: 産婦健診、産後ケア、各種予防接種は助成額・自己負担額の本文固定不足。重度心身障害者医療費助成URLは404。起業支援は令和3年度募集終了。住宅利用案内等は掲載しない。
+  - 検証:
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-036-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
