@@ -1,0 +1,139 @@
+{
+  "municipality": {
+    "code": "01647",
+    "name": "足寄町",
+    "prefecture": "北海道"
+  },
+  "verifiedAt": "2026-07-11T23:45:00+09:00",
+  "sourceCache": "/tmp/ashoro_pages.json",
+  "adopted": [
+    {
+      "slug": "ashoro-sewer-connection-subsidy-2026",
+      "title": "足寄町 下水道への接続補助金",
+      "maxAmount": "水洗トイレ・排水設備合計最大5万円",
+      "officialUrl": "https://www.town.ashoro.hokkaido.jp/kurashi/about-town/hojyokin/page_117.html",
+      "evidence": "2026年7月11日に足寄町公式ページで、対象工事、指定工事業者申込、年限別補助額、最大5万円、限度個数を確認。"
+    },
+    {
+      "slug": "ashoro-septic-tank-installation-subsidy-2026",
+      "title": "足寄町 合併処理浄化槽設置補助金",
+      "maxAmount": "最大140万円",
+      "officialUrl": "https://www.town.ashoro.hokkaido.jp/kurashi/about-town/hojyokin/page_185.html",
+      "evidence": "2026年7月11日に足寄町公式ページで、対象地域、指定施工業者要件、設置費90%、5人槽82万円・7人槽103万円・10人槽140万円限度を確認。"
+    },
+    {
+      "slug": "ashoro-hometown-tax-return-gift-development-subsidy-2026",
+      "title": "足寄町 ふるさと納税返礼品開発支援補助金",
+      "maxAmount": "最大50万円",
+      "officialUrl": "https://www.town.ashoro.hokkaido.jp/kurashi/about-town/hojyokin/page_203.html",
+      "evidence": "2026年7月11日に足寄町公式ページで、対象者、対象事業・経費、補助率4分の3、上限50万円、申請期限2026年5月29日を確認。現在日では受付終了のため期限付き掲載。"
+    },
+    {
+      "slug": "ashoro-pellet-stove-subsidy-2026",
+      "title": "足寄町 木質ペレット燃焼機器導入補助金",
+      "maxAmount": "最大30万円",
+      "officialUrl": "https://www.town.ashoro.hokkaido.jp/kurashi/about-town/hojyokin/page_4.html",
+      "evidence": "2026年7月11日に足寄町公式ページで、対象者、木質ペレット燃焼機器本体購入経費、補助率4分の3、上限30万円を確認。"
+    },
+    {
+      "slug": "ashoro-small-business-loan-interest-subsidy-2026",
+      "title": "足寄町中小企業特別融資利子補給",
+      "maxAmount": "実利率1%超から3%までの範囲を利子補給",
+      "officialUrl": "https://www.town.ashoro.hokkaido.jp/kurashi/about-town/hojyokin/page_379.html",
+      "evidence": "2026年7月11日に足寄町公式ページで、対象融資期間、対象者、利子補給算式、実利率1%超から3%まで、3月31日申請を確認。"
+    },
+    {
+      "slug": "ashoro-marriage-new-life-subsidy-2026",
+      "title": "令和8年度 足寄町結婚新生活支援事業補助金",
+      "maxAmount": "最大60万円",
+      "officialUrl": "https://www.town.ashoro.hokkaido.jp/kurashi/about-town/hojyokin/page_403.html",
+      "evidence": "2026年7月11日に足寄町公式ページで、対象世帯、対象経費、29歳以下60万円・39歳以下30万円、申請期限2027年3月12日を確認。"
+    },
+    {
+      "slug": "ashoro-scholarship-repayment-subsidy-2027",
+      "title": "足寄町奨学金返還支援補助金",
+      "maxAmount": "年20万円・最大5年",
+      "officialUrl": "https://www.town.ashoro.hokkaido.jp/kurashi/about-town/hojyokin/page_409.html",
+      "evidence": "2026年7月11日に足寄町公式ページで、2027年度受付、対象者、前年度年間返還額上限20万円、最大5年を確認。"
+    },
+    {
+      "slug": "ashoro-birth-celebration-grant-2026",
+      "title": "足寄町 子育て応援出産祝金",
+      "maxAmount": "第1子・第2子10万円、第3子以上20万円",
+      "officialUrl": "https://www.town.ashoro.hokkaido.jp/kosodate/kosodate-ouen/folder_3/ksien.html",
+      "evidence": "2026年7月11日に足寄町公式ページで、子育て応援出産祝金、第1子・第2子10万円、第3子以上20万円を確認。"
+    },
+    {
+      "slug": "ashoro-pregnancy-support-benefit-2026",
+      "title": "足寄町 妊婦支援給付金",
+      "maxAmount": "1回目5万円、2回目胎児1人5万円",
+      "officialUrl": "https://www.town.ashoro.hokkaido.jp/kosodate/kosodate-ouen/folder_3/ksien.html",
+      "evidence": "2026年7月11日に足寄町公式ページで、妊婦支援給付金、1回目5万円、2回目胎児1人5万円、妊娠期からの支援を確認。"
+    },
+    {
+      "slug": "ashoro-recurrent-pregnancy-loss-treatment-subsidy-2026",
+      "title": "足寄町 不育症治療費助成",
+      "maxAmount": "1回最大15万円",
+      "officialUrl": "https://www.town.ashoro.hokkaido.jp/kosodate/kosodate-ouen/folder_3/ksien.html",
+      "evidence": "2026年7月11日に足寄町公式ページで、不育症治療に対する助成、検査費・治療費、1回最大15万円を確認。"
+    },
+    {
+      "slug": "ashoro-child-medical-expense-subsidy-2026",
+      "title": "足寄町 子どもの医療費全額助成",
+      "maxAmount": "18歳年度末まで医療費全額",
+      "officialUrl": "https://www.town.ashoro.hokkaido.jp/kosodate/kosodate-ouen/folder_3/ksien.html",
+      "evidence": "2026年7月11日に足寄町公式ページで、子ども医療費全額助成、18歳年度末まで、医療費全額助成を確認。"
+    },
+    {
+      "slug": "ashoro-high-school-student-support-2026",
+      "title": "足寄町 足寄高校への支援",
+      "maxAmount": "下宿代月4万円、入学一時金7万円など",
+      "officialUrl": "https://www.town.ashoro.hokkaido.jp/kosodate/kosodate-ouen/folder_3/ksien.html",
+      "evidence": "2026年7月11日に足寄町公式ページで、通学費、下宿代月4万円、入学一時金7万円、見学旅行3万円、海外研修・介護研修費用等を確認。"
+    }
+  ],
+  "held": [
+    {
+      "title": "住環境・店舗等整備補助金",
+      "reason": "HTML本文は制度概要とPDF導線のみで、区分別補助額・上限はPDFパンフレット確認が必要。",
+      "url": "https://www.town.ashoro.hokkaido.jp/kurashi/about-town/hojyokin/hojo_jyukan.html"
+    },
+    {
+      "title": "住環境・店舗等整備補助金（老朽危険空家等除却）",
+      "reason": "HTML本文は制度概要とPDF導線のみで、補助率・上限はパンフレット又は要綱PDF確認が必要。",
+      "url": "https://www.town.ashoro.hokkaido.jp/kurashi/about-town/hojyokin/hojo_jtenpo.html"
+    },
+    {
+      "title": "まちづくり活動支援補助金",
+      "reason": "HTML本文抽出で金額・対象条件を十分に固定できず、要綱/PDF確認が必要。",
+      "url": "https://www.town.ashoro.hokkaido.jp/kurashi/about-town/hojyokin/page_168.html"
+    },
+    {
+      "title": "新規就農支援",
+      "reason": "HTML本文は支援制度の存在とPDF導線まで。営農実習奨励金等の金額はPDF確認が必要。",
+      "url": "https://www.town.ashoro.hokkaido.jp/kurashi/business/nougyou/page_172.html"
+    },
+    {
+      "title": "不妊治療費等・妊産婦通院交通費助成",
+      "reason": "カテゴリ本文に制度概要はあるが金額・交通費表等は詳細リンク先確認が必要。",
+      "url": "https://www.town.ashoro.hokkaido.jp/kosodate/kosodate-ouen/folder_3/ksien.html"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "令和7年度足寄町結婚新生活支援事業補助金",
+      "reason": "令和8年度ページを採用したため、過年度ページは掲載しない。",
+      "url": "https://www.town.ashoro.hokkaido.jp/kurashi/about-town/hojyokin/2021kekkonnshinseikatu.html"
+    },
+    {
+      "title": "結婚新生活支援事業実施計画",
+      "reason": "実施計画ページであり個別給付制度本文としては令和8年度補助金ページを採用。",
+      "url": "https://www.town.ashoro.hokkaido.jp/kurashi/about-town/hojyokin/page_251.html"
+    },
+    {
+      "title": "補助金一覧",
+      "reason": "一覧ページであり最終sourceにしない。個別制度ページへ到達できたもののみ掲載。",
+      "url": "https://www.town.ashoro.hokkaido.jp/kurashi/about-town/hojyokin/index.html"
+    }
+  ]
+}

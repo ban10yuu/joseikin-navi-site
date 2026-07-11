@@ -2041,3 +2041,32 @@
   - `npm run audit:coverage`: pass（failures 0、activePublished 7159、officialLinkedActive 7121、manuallyVerifiedActive 7121、北海道 localOfficial 2764）
 - 次地点:
   - 本別町31件の軽量検証・commit後、自治体コード順で `01647 足寄町` へ進む。
+
+### 第18バッチ Discovery（足寄町・陸別町・浦幌町）
+
+- 状態: 第18バッチDiscovery/URL検証を実行し、足寄町の第1巡Verification・データ反映まで完了。軽量検証後にcommitし、自治体コード順で陸別町へ進む。
+- 確認日: 2026-07-11
+- Discovery:
+  - `tasks/discovery/hokkaido-batch-018-municipalities.json`
+  - `tasks/discovery/hokkaido-batch-018-candidates.json`
+  - `tasks/discovery/hokkaido-batch-018-url-validation.json`
+  - `tasks/discovery/hokkaido-batch-018-ashoro-snippets.json`
+  - 足寄町: candidates 230 / strong 0（公式「補助金」一覧ページから個別制度へ展開）
+  - 陸別町: candidates 126 / strong 0
+  - 浦幌町: candidates 118 / strong 0
+  - URL検証: checked 432 / cacheHits 430 / refetched 2 / reachable 432 / failures 0
+- 今回反映:
+  - 足寄町: 12件（下水道接続、合併処理浄化槽、ふるさと納税返礼品開発、ペレットストーブ、中小企業特別融資利子補給、結婚新生活、奨学金返還、子育て応援出産祝金、妊婦支援給付金、不育症治療、子ども医療費、足寄高校支援）
+- 候補・掲載見送り:
+  - 足寄町 住環境・店舗等整備補助金、住環境・店舗等整備補助金（老朽危険空家等除却）: HTML本文は制度概要とPDF導線のみで、区分別補助額・上限はPDF確認が必要なため第2巡保留。
+  - 足寄町 まちづくり活動支援補助金、新規就農支援: HTML本文だけでは金額・対象条件を十分に固定できないため、要綱/PDF確認へ回す。
+  - 足寄町 不妊治療費等・妊産婦通院交通費助成: 子育て支援本文に制度概要はあるが、金額・交通費表等は詳細リンク先確認が必要なため第2巡保留。
+  - 令和7年度足寄町結婚新生活支援事業補助金、結婚新生活支援事業実施計画、補助金一覧: 令和8年度個別ページ又は個別制度ページを採用したため、過年度・計画・一覧ページは最終sourceにしない。
+- 軽量検証:
+  - slug重複確認: 重複0（全7166件、足寄町12件）
+  - `node scripts/check-grant-source-urls.mjs --prefix ashoro- --timeout-ms 60000 --concurrency 4`: 12件確認、失敗0
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-018-municipalities.json tasks/discovery/hokkaido-batch-018-candidates.json tasks/discovery/hokkaido-batch-018-url-validation.json tasks/discovery/hokkaido-batch-018-ashoro-snippets.json`: pass
+  - `npm run audit:coverage`: pass（failures 0、activePublished 7170、officialLinkedActive 7132、manuallyVerifiedActive 7132、北海道 localOfficial 2775）
+- 次地点:
+  - 足寄町12件の軽量検証・commit後、自治体コード順で `01648 陸別町` へ進む。

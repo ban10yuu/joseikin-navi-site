@@ -1,0 +1,21 @@
+{
+  "batchId": "hokkaido-batch-018",
+  "prefecture": "北海道",
+  "municipalities": [
+    {
+      "code": "01647",
+      "name": "足寄町",
+      "officialBaseUrl": "https://www.town.ashoro.hokkaido.jp/"
+    },
+    {
+      "code": "01648",
+      "name": "陸別町",
+      "officialBaseUrl": "https://www.rikubetsu.jp/"
+    },
+    {
+      "code": "01649",
+      "name": "浦幌町",
+      "officialBaseUrl": "https://www.urahoro.jp/"
+    }
+  ]
+}
