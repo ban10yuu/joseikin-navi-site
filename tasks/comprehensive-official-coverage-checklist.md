@@ -2694,6 +2694,20 @@
     - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
     - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-024-snippets.json`: pass
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 利尻富士町・幌延町・美幌町・津別町）:
+  - 状態: 第2巡025として、補完済み自治体から次地点までの4自治体の未掲載候補を再確認。利尻富士町・幌延町・美幌町・津別町はいずれも既存掲載済み制度、期限/現行受付状況の整理が必要な制度、通常行政・相談・施設/観光案内、又は金額/上限・対象条件・期限/受付状況不足に該当し、制度名・対象・金額/上限・条件・期限/受付状況が揃う新規掲載候補は確認できなかった。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-second-pass-025-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 保留継続:
+    - 利尻富士町: 通常手続、移住相談、観光・施設案内、制度一覧のみのページは個別補助・給付要件不足。金額又は受付条件が公式本文だけで不足する候補は保留。
+    - 幌延町: 商工業事業承継支援事業奨励金は令和6年度まで。出産祝金及び養育手当支給事業は個別URL到達・対象・金額・受付状況確認不足。
+    - 美幌町: 不足額給付、物価高対応子育て応援手当、児童手当等は全国標準制度又は期限/現行受付状況の整理が必要。カテゴリ一覧・通常案内は掲載しない。
+    - 津別町: 第1巡で19件反映済み。障がい者交通費/補装具/日常生活用具、介護、高齢者、産業系、市民活動、生活困窮/低所得給付等のカテゴリ横断候補は個別公式本文/PDFで必須項目確認まで保留。
+  - 検証:
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-025-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
