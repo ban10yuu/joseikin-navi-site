@@ -2554,6 +2554,20 @@
     - 追加1件の `node scripts/check-grant-source-urls.mjs --slug ... --timeout-ms 60000 --concurrency 2`: 2URL確認、失敗0
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-011-snippets.json`: pass
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 浦臼町・新十津川町・妹背牛町・秩父別町）:
+  - 状態: 第2巡015として、batch-004前方4自治体の未掲載候補を再確認。浦臼町・新十津川町・妹背牛町・秩父別町はいずれも既存掲載済み制度、通常行政サービス、国制度、リンク先不一致、現行性疑義、又は金額/上限・受付状況不足に該当し、制度名・対象・金額/上限・条件・期限/受付状況が揃う新規掲載候補は確認できなかった。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-second-pass-015-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 既存掲載済み・保留:
+    - 浦臼町: 就学援助は令和3年度予定年額のまま、任意予防接種は助成額又は自己負担額不足、医療費助成は個別制度ページ未確認のため保留。児童手当等は国制度として扱う。
+    - 新十津川町: 奨学金制度、給食費無料、妊婦歯科健診、妊婦/子どもインフルエンザ、文化スポーツ助成等は一覧上の候補又は個別ページ404/条件不足のため保留。
+    - 妹背牛町: 奨学資金貸付制度は個別ページ404、風しん予防接種は助成額又は自己負担額不足、通常の国保・住宅・空き家情報等は掲載対象外。
+    - 秩父別町: 新婚・子育て世帯引越し費用助成は現行性疑義、出会い応援補助金は補助率・上限不足、奨学資金貸与や予防接種助成は個別本文確認不足のため保留。
+  - 検証:
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-015-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
