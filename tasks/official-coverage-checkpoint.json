@@ -2,27 +2,27 @@
   "updatedAt": "2026-07-11T23:55:00+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "01665",
-    "municipality": "弟子屈町",
-    "adopted": 20,
-    "held": 0,
+    "code": "01667",
+    "municipality": "鶴居村",
+    "adopted": 10,
+    "held": 2,
     "excluded": 0,
-    "sourceUrlsChecked": 20,
+    "sourceUrlsChecked": 10,
     "validation": {
-      "previousMunicipality": "標茶町は公式実体ドメインを確認したが候補PDF 5件が画像PDFで本文抽出不可のため第2巡保留。弟子屈町は不妊治療2件、子ども医療、出産・子育て給付、障がい者医療、ひとり親医療、赤ちゃん応援券、妊産婦交通、就学援助、奨学金返還、宿泊施設設備改修、家賃補助、設備投資、サテライトオフィス、宿泊業再生、民間賃貸住宅、補聴器、特定疾患交通、風しん抗体検査、ワーキングホリデー支援の20件を公式個別ページで確認して追加。",
+      "previousMunicipality": "鶴居村は補助金・支援金ページの10件を公式個別ページで確認し、従業員住宅、新しい農業、営農用貯水タンク、新規就農、新規ハンター、高校等人材育成、教育資金利子、輝く住ま居る、太陽光・蓄電池、木質系燃料ストーブの10件を追加。商工観光経済活性化支援とクラウドファンディング活用支援は補助額がPDF依存のため第2巡保留。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "teshikaga 20 checked, all 0 failures",
+      "urlReachability": "tsurui 10 checked, all 0 failures",
       "nodeCheck": "not needed: script unchanged",
-      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-020-municipalities.json tasks/discovery/hokkaido-batch-020-candidates.json tasks/discovery/hokkaido-batch-020-url-validation.json tasks/discovery/hokkaido-batch-020-shibecha-teshikaga-snippets.json",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 7306, officialLinkedActive 7268, manuallyVerifiedActive 7268, 北海道 localOfficial 2911)"
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-020-tsurui-snippets.json",
+      "auditCoverage": "deferred: previous audit pass after 弟子屈町; next aggregate audit after 白糠町 or batch commit"
     }
   },
   "next": {
-    "code": "01667",
-    "municipality": "鶴居村",
-    "shortlist": "continue hokkaido-batch-020 from 01667 鶴居村",
-    "instructions": "第20バッチは標茶町を第2巡保留、弟子屈町20件を軽量検証済み。diff/auditとcommit後、自治体コード順で鶴居村へ進む。"
+    "code": "01668",
+    "municipality": "白糠町",
+    "shortlist": "continue hokkaido-batch-020 from 01668 白糠町",
+    "instructions": "鶴居村10件のdiff確認・commit後、自治体コード順で白糠町へ進む。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

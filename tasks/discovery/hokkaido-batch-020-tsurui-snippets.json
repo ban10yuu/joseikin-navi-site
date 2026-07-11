@@ -1,0 +1,67 @@
+{
+  "batchId": "hokkaido-batch-020",
+  "verifiedAt": "2026-07-11T23:58:00+09:00",
+  "municipality": {
+    "code": "01667",
+    "name": "鶴居村",
+    "officialBaseUrl": "https://www.vill.tsurui.lg.jp/",
+    "sourceTextCache": "/tmp/tsurui-pages.json",
+    "adoptedCount": 10,
+    "heldCount": 2,
+    "excludedCount": 0
+  },
+  "adopted": [
+    {
+      "slug": "tsurui-employee-housing-support-subsidy-2026",
+      "evidence": "従業員用住宅。新築200万円/300万円、中古20％・上限100万円。新築又は購入から1年以内。"
+    },
+    {
+      "slug": "tsurui-new-agriculture-commercialization-subsidy-2026",
+      "evidence": "認定新規就農者・認定農業者等。施設・設備・備品の2分の1、下限100万円・上限500万円。事業10日前まで。"
+    },
+    {
+      "slug": "tsurui-farming-water-tank-subsidy-2026",
+      "evidence": "酪農畜産農家等。営農用貯水タンク整備費の20％以内、上限30万円。農協が申請代行。"
+    },
+    {
+      "slug": "tsurui-new-farmer-support-subsidy-2026",
+      "evidence": "新規就農予定者・新規就農者。研修月額85,000円2年、賃貸料2分の1を5年、経営安定年100万円以内3年。"
+    },
+    {
+      "slug": "tsurui-new-hunter-incentive-subsidy-2026",
+      "evidence": "住民登録1年以上、狩猟免許・登録、有害鳥獣捕獲3年以上参加見込み。免許取得等通常必要経費を定額1回補助。"
+    },
+    {
+      "slug": "tsurui-high-school-human-resource-support-2026",
+      "evidence": "高等学校等の生徒の保護者。月額10,000円、通算36カ月まで。教育委員会指定日まで。"
+    },
+    {
+      "slug": "tsurui-education-loan-interest-subsidy-2026",
+      "evidence": "被扶養者の進学時に1年以上居住。学生1人600万円まで、年利3％まで最長7年。令和8年度期限2026-12-21。"
+    },
+    {
+      "slug": "tsurui-smile-housing-support-grant-2026",
+      "evidence": "自己定住用住宅。新築100万円、中古30％・上限80万円、45歳以下加算で新築最大150万円。1年以内申請。"
+    },
+    {
+      "slug": "tsurui-residential-solar-battery-subsidy-2026",
+      "evidence": "自宅用太陽光・蓄電池。太陽光1kW6万円・上限30万円、蓄電池1kWh4万円・上限20万円。設置1年以内。"
+    },
+    {
+      "slug": "tsurui-wood-fuel-stove-subsidy-2026",
+      "evidence": "村内住所、自宅用新規木質系燃料ストーブ。購入費2分の1以内、上限15万円。事業用・更新は除外。"
+    }
+  ],
+  "held": [
+    {
+      "title": "つるい未来へつなぐ商工観光経済活性化支援事業補助金",
+      "url": "https://www.vill.tsurui.lg.jp/muranoshokai_sonsei/hojokin_shienkin/1313.html",
+      "reason": "HTML本文に申請期間はあるが、補助額・上限がPDF資料依存。PDF本文確認後に第2巡で判断。"
+    },
+    {
+      "title": "クラウドファンディング活用支援事業",
+      "url": "https://www.vill.tsurui.lg.jp/muranoshokai_sonsei/hojokin_shienkin/1553.html",
+      "reason": "HTML本文に制度概要と様式はあるが、補助率・上限が本文で確認できない。規則PDF確認後に第2巡で判断。"
+    }
+  ]
+}

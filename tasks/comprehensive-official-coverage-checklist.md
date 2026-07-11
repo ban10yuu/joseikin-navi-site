@@ -2178,3 +2178,21 @@
   - `npm run audit:coverage`: pass（failures 0、activePublished 7306、officialLinkedActive 7268、manuallyVerifiedActive 7268、北海道 localOfficial 2911）
 - 次地点:
   - 第20バッチの軽量検証・commit後、自治体コード順で `01667 鶴居村` へ進む。
+
+### 第20バッチ Verification 続行（鶴居村）
+
+- 状態: 鶴居村の公式「補助金・支援金」ページに掲載された10個別ページを確認。HTML本文だけで制度名・対象・金額/上限・申請条件を確認できた10件を追加した。補助額がPDF依存の2件は第2巡保留。
+- 追加・更新ファイル:
+  - `tasks/discovery/hokkaido-batch-020-tsurui-snippets.json`
+- 採用:
+  - 鶴居村: 10件（地域住宅振興対策支援、新しい農業の事業化、営農用貯水タンク、新規就農者等対策、新規ハンター奨励、高等学校等人材育成、教育資金利子補給、輝く住ま居る、住宅用太陽光・蓄電池、木質系燃料ストーブ）
+- 保留:
+  - つるい未来へつなぐ商工観光経済活性化支援事業補助金: HTML本文に申請期間はあるが補助額・上限がPDF依存のため第2巡保留。
+  - クラウドファンディング活用支援事業: HTML本文に制度概要と様式はあるが補助率・上限が本文で確認できないため第2巡保留。
+- 検証:
+  - 鶴居村 slug重複確認: 重複0（全7312件、鶴居村10件）
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+  - `node scripts/check-grant-source-urls.mjs --prefix tsurui- --timeout-ms 60000 --concurrency 4`: 10件確認、失敗0
+  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-020-tsurui-snippets.json`: pass
+- 次地点:
+  - 鶴居村10件のdiff確認・commit後、自治体コード順で `01668 白糠町` へ進む。
