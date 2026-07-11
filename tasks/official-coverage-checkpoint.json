@@ -1,28 +1,27 @@
 {
-  "updatedAt": "2026-07-11T22:55:00+09:00",
+  "updatedAt": "2026-07-11T23:25:00+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "01693",
-    "municipality": "標津町",
-    "adopted": 24,
+    "code": "01694",
+    "municipality": "羅臼町",
+    "adopted": 20,
     "held": 2,
-    "excluded": 1,
-    "sourceUrlsChecked": 24,
+    "excluded": 2,
+    "sourceUrlsChecked": 20,
     "validation": {
-      "previousMunicipality": "標津町は第21バッチ候補116件を起点に、補助・助成一覧、住宅補助支援、手当・助成、妊娠・出産、まちづくり計画、チャレサポしべつを確認。PDF依存の高齢者安全運転サポート、起業等支援、新・ふるさとづくり、出産祝金は公式PDF本文で確認し、制度名・対象・金額/上限・条件・申請/受付状況を確認できた24件を追加。",
+      "previousMunicipality": "羅臼町は第21バッチ候補295件を起点に、公式個別ページ87件、選定22ページ、公式PDF2件を確認。制度名・対象・金額/上限・条件・申請/受付状況を公式個別ページ又はPDFで確認できた20件を追加。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "shibetsu prefix 30 checked including existing 士別市2件 and 標津町24件 plus PDFs; failures 0",
-      "nodeCheck": "not needed: script unchanged",
-      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-021-shibetsu-snippets.json",
-      "auditCoverage": "deferred: next aggregate audit after 3-5 municipalities or 60-100 grants"
+      "urlReachability": "rausu prefix 22 checked including 20 grants and PDF sourceUrls; failures 0",
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-021-rausu-snippets.json",
+      "auditCoverage": "pass: failures 0, activePublished 7408, officialLinkedActive 7370, manuallyVerifiedActive 7370, 北海道 localOfficial 3013"
     }
   },
   "next": {
-    "code": "01694",
-    "municipality": "羅臼町",
-    "shortlist": "continue hokkaido-batch-021 from 01694 羅臼町",
-    "instructions": "標津町24件の軽量検証・commit後、自治体コード順で羅臼町へ進む。"
+    "code": "hokkaido-prefecture-audit",
+    "municipality": "北海道節目監査",
+    "shortlist": "羅臼町検証・commit後、北海道の自治体コード順棚卸し末尾到達として節目監査へ進む",
+    "instructions": "slug重複、eslint、羅臼町URL到達、diff check、audit:coverageを実行。通過後にcommitし、北海道節目の上限付きbuildと必要なデプロイ確認へ進む。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

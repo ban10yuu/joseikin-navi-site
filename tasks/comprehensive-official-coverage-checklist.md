@@ -2285,3 +2285,23 @@
   - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-021-shibetsu-snippets.json`: pass
 - 次地点:
   - 標津町24件の軽量検証・commit後、自治体コード順で `01694 羅臼町` へ進む。
+
+### 第21バッチ Verification 続行（羅臼町）
+
+- 状態: 羅臼町は第21バッチ候補295件を起点に、公式個別ページ87件を保存し、制度性の高い22ページと公式PDF2件を本文確認した。トップ、カテゴリ、様式のみ、防災情報ページは最終sourceにせず、制度名・対象・金額/上限・条件・申請/受付状況を公式個別ページ又は公式PDFで確認できた20件を追加した。
+- 追加・更新ファイル:
+  - `tasks/discovery/hokkaido-batch-021-rausu-snippets.json`
+- 採用:
+  - 羅臼町: 20件（不妊治療等助成、妊産婦交通費・宿泊費、低所得妊婦初回受診料、妊婦のための支援給付、妊産婦健診、出産祝金、子ども医療費、重度心身障がい者等医療費、ひとり親家庭等医療費、乳幼児等医療費、児童手当、児童扶養手当、特別児童扶養手当、医療技術者修学資金、住宅リフォーム、移住・定住促進、省エネ設備等、生ごみ処理機、起業支援、雇用創出）
+- 保留・除外:
+  - 羅臼町地域総合整備資金貸付（ふるさと融資）: 対象・無利子融資・期間は確認できるが、貸付上限額が公式本文で固定できないため第2巡保留。
+  - 羅臼町融資制度: 詳細条件・金額の確認が追加資料依存のため第2巡保留。
+  - 防災・ハザードマップ、カテゴリ、トップ、問い合わせ、様式のみのページ: 補助金・助成金等の個別制度ページではないため掲載しない。
+- 検証:
+  - 羅臼町 slug重複確認: 重複0（全7405件、羅臼町20件）
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+  - `node scripts/check-grant-source-urls.mjs --prefix rausu- --timeout-ms 60000 --concurrency 4`: 22URL確認、失敗0（羅臼町20件とPDF sourceUrlsを含む）
+  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-021-rausu-snippets.json`: pass
+  - `npm run audit:coverage`: pass（failures 0、activePublished 7408、officialLinkedActive 7370、manuallyVerifiedActive 7370、北海道 localOfficial 3013）
+- 次地点:
+  - 羅臼町20件の検証・commit後、北海道の自治体コード順棚卸しは末尾到達。北海道節目監査、上限付きbuild、必要に応じたデプロイ確認へ進む。
