@@ -1,0 +1,32 @@
+{
+  "updatedAt": "2026-07-11T14:25:00+09:00",
+  "mode": "hokkaido-comprehensive-official-coverage",
+  "lastCompleted": {
+    "code": "01517",
+    "municipality": "礼文町",
+    "adopted": 15,
+    "held": 8,
+    "excluded": 7,
+    "sourceUrlsChecked": 21,
+    "validation": {
+      "eslint": "pass",
+      "duplicateSlugs": 0,
+      "urlReachability": "21 checked, 0 failures",
+      "diffCheck": "pass",
+      "auditCoverage": "failures 0, 北海道 localOfficial 1936"
+    }
+  },
+  "next": {
+    "code": "01518",
+    "municipality": "利尻町",
+    "shortlist": "tasks/discovery/hokkaido-batch-005-shortlist.csv",
+    "instructions": "第2段高速化を適用し、利尻町から3〜5自治体単位で公式個別ページ/PDF確認を継続する。"
+  },
+  "batchRules": {
+    "targetMunicipalitiesPerTurn": "3-5",
+    "targetNewGrantsPerTurn": "60-100",
+    "targetWorkMinutesPerTurn": "45-55",
+    "aggregateHeavyAudits": true,
+    "doNotStageUnrelatedFiles": true
+  }
+}
