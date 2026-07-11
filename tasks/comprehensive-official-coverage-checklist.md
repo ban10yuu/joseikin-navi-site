@@ -1666,3 +1666,38 @@
   - `npm run audit:coverage`: pass、failures 0、北海道 localOfficial 2248。
 - 次地点:
   - 自治体コード順で `01562 西興部村` から第10バッチDiscoveryを作成し、Verificationへ進む。
+
+### 第10バッチ Discovery（西興部村・雄武町・大空町）
+
+- 状態: 第10バッチ（西興部村・雄武町・大空町）第1巡Verification・データ反映・集約監査済み
+- 確認日: 2026-07-11
+- Discovery:
+  - `tasks/discovery/hokkaido-batch-010-municipalities.json`
+  - `tasks/discovery/hokkaido-batch-010-candidates.json`
+  - 西興部村: discovered 300 / candidates 119 / strong 0 / lowPriority 119
+  - 雄武町: discovered 300 / candidates 19 / strong 0 / lowPriority 19
+  - 大空町: discovered 300 / candidates 24 / strong 2 / lowPriority 22
+- 適用した高速化:
+  - strong候補が少ない自治体は、公式カテゴリページ（補助金・助成金、手当・助成・奨学金、給付金、住宅・定住）から個別制度ページだけを再抽出した。
+  - HTML/PDF全文を会話へ出さず、制度名・対象・金額/上限・条件・期限/受付状況・公式URLの短い根拠へ圧縮した。
+  - トップページ、カテゴリ一覧、要綱のみで金額・対象・受付状況が不足する候補は低優先候補として残し、掲載しない。
+- 今回反映:
+  - 西興部村: 12件（地域振興券、就業促進移転費用、高校通学・下宿、ふるさと納税返礼品開発、エンゼル祝金、狩猟免許取得、結婚新生活、紋別空港利用、光ファイバー引き込み、持ち家建設、美しい村づくり、雇用促進住宅）
+  - 雄武町: 5件（定額減税不足額給付、雄武高校卒業生奨学金・就学貸付、紋別空港利用、空家等解体、就学援助）
+  - 大空町: 8件（起業化支援、重度心身障がい者医療、従業員住宅、禁煙外来、JR石北本線、妊産婦健診交通、1か月児健診、新生児聴覚検査）
+- 候補・掲載見送り:
+  - 西興部村 燃料費高騰事業者等支援金、福祉施設食材費高騰対策、物価高対応子育て応援手当: 公式ページ上では制度名・予算額又は添付資料案内を確認したが、個別の対象・金額・申請条件を本文で十分に固定できないものは第1巡では保留。
+  - 西興部村 空家等解体撤去事業: 公式ページは確認したが、金額/上限が本文又は容易に抽出できる添付で確認できないため保留。
+  - 雄武町 快適住まいづくり支援制度: 公式ページで制度延長は確認したが、令和8年3月31日までの案内で現時点の受付状態と補助額の本文確認が弱いため保留。
+  - 雄武町 住まいのゼロカーボン化推進事業補助金: 公式ページで対象設備・対象者は確認したが、補助額/上限の本文抽出が不足するため保留。
+  - 大空町 医療費助成・手当カテゴリ、心身障がい児（者）旅費助成、空き家等解体撤去補助金: 個別ページは確認したが、金額/上限や受付状況の確認が不足するものは保留。
+- 軽量検証:
+  - slug重複確認: 重複0（西興部村12件、雄武町5件、大空町8件）
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+  - `node scripts/check-grant-source-urls.mjs --prefix nishiokoppe- --timeout-ms 60000 --concurrency 4`: 12件確認、失敗0
+  - `node scripts/check-grant-source-urls.mjs --prefix oumu- --timeout-ms 60000 --concurrency 4`: 5件確認、失敗0
+  - `node scripts/check-grant-source-urls.mjs --prefix ozora- --timeout-ms 60000 --concurrency 4`: 8件確認、失敗0
+  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/official-coverage-checkpoint.json tasks/comprehensive-official-coverage-checklist.md tasks/discovery/hokkaido-batch-010-municipalities.json tasks/discovery/hokkaido-batch-010-candidates.json`: pass
+  - `npm run audit:coverage`: pass（failures 0、北海道 localOfficial 2271）
+- 次地点:
+  - commit後、自治体コード順で `01571 豊浦町` へ進む。次に `01575 壮瞥町`、`01578 白老町` を同一集約単位の候補にする。

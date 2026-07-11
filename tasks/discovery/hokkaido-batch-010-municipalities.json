@@ -1,0 +1,21 @@
+{
+  "batchId": "hokkaido-batch-010",
+  "prefecture": "北海道",
+  "municipalities": [
+    {
+      "code": "01562",
+      "name": "西興部村",
+      "officialBaseUrl": "https://www.vill.nishiokoppe.lg.jp/"
+    },
+    {
+      "code": "01563",
+      "name": "雄武町",
+      "officialBaseUrl": "https://www.town.oumu.hokkaido.jp/"
+    },
+    {
+      "code": "01564",
+      "name": "大空町",
+      "officialBaseUrl": "https://www.town.ozora.hokkaido.jp/"
+    }
+  ]
+}
