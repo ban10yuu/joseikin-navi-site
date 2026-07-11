@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T06:47:05+09:00",
+  "updatedAt": "2026-07-12T06:50:06+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "hokkaido-second-pass-030",
+    "code": "hokkaido-second-pass-031",
     "municipality": "北海道第2巡保留候補整理",
     "adopted": 0,
     "held": 12,
     "excluded": 0,
     "sourceUrlsChecked": 12,
     "validation": {
-      "previousMunicipality": "厚真町・洞爺湖町・安平町・むかわ町の第2巡候補を確認。第1巡反映済み制度、カテゴリ/一覧、古いリンク、終了済み制度、又は金額/上限・対象条件・申請条件・受付状況不足の候補が中心で、新規採用は0件。",
+      "previousMunicipality": "日高町・平取町・新冠町・浦河町の第2巡候補を確認。第1巡反映済み制度、PDF導線/抽出不安定、終了済み制度、404、一覧・サービス案内、又は金額/上限・対象条件・自己負担・受付状況不足の候補が中心で、新規採用は0件。",
       "eslint": "skipped: no data changes",
       "duplicateSlugs": 0,
       "urlReachability": "skipped: no added slugs",
-      "diffCheck": "pass: git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-030-snippets.json",
+      "diffCheck": "pass: git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-031-snippets.json",
       "auditCoverage": "skipped: no data changes; aggregate at next data batch"
     }
   },
   "next": {
-    "code": "hokkaido-second-pass-031",
+    "code": "hokkaido-second-pass-032",
     "municipality": "北海道第2巡保留候補",
-    "shortlist": "第2巡030までで、厚真町・洞爺湖町・安平町・むかわ町の保留候補を整理し、新規採用0件。",
-    "instructions": "次は北海道第2巡031として、日高町・平取町・新冠町・浦河町を自治体コード順に継続確認する。公式個別ページ/PDFで制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ追加する。"
+    "shortlist": "第2巡031までで、日高町・平取町・新冠町・浦河町の保留候補を整理し、新規採用0件。",
+    "instructions": "次は北海道第2巡032として、様似町・えりも町・新ひだか町・音更町を自治体コード順に継続確認する。公式個別ページ/PDFで制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ追加する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

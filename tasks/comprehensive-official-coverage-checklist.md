@@ -2778,6 +2778,20 @@
     - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
     - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-030-snippets.json`: pass
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 日高町・平取町・新冠町・浦河町）:
+  - 状態: 第2巡031として、第13バッチ後半から第14バッチ前半までの4自治体の未掲載候補を再確認。日高町・平取町・新冠町・浦河町はいずれも第1巡反映済み制度、PDF導線/抽出不安定、終了済み制度、404、一覧・サービス案内、又は金額/上限・対象条件・自己負担・受付状況不足に該当し、制度名・対象・金額/上限・条件・期限/受付状況が揃う新規掲載候補は確認できなかった。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-second-pass-031-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 保留継続:
+    - 日高町: 北海道日高高等学校への支援は支援策PDF導線中心。障害児福祉手当は支給額が問い合わせ扱いで金額固定不可。
+    - 平取町: 奨学・就業資金貸付及び補助金制度はPDF本文抽出が不完全。令和5年度飼料価格高騰緊急対策支援金は終了済み。特別児童扶養手当・障がい者手当等は金額又は個別条件が不足。
+    - 新冠町: 医療費助成制度は詳細本文不足。令和7年度あったか暖房費助成は候補URLが404。高齢者福祉・障害者福祉のサービス一覧は金額や申請条件が弱いものを保留。
+    - 浦河町: 予防接種の一部、妊産婦安心出産支援、重度心身障がい者医療費・各種手当は自己負担額、距離区分/金額、所得制限表との切り分けが不足。
+  - 検証:
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-031-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
