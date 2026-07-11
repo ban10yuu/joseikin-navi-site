@@ -1,0 +1,149 @@
+{
+  "batchId": "aomori-comprehensive-official-coverage-002",
+  "checkedAt": "2026-07-12T07:34:06+09:00",
+  "scope": "青森県公式棚卸し: 黒石市・五所川原市・十和田市・三沢市",
+  "municipalities": [
+    {
+      "code": "02204",
+      "name": "黒石市",
+      "adopted": 0,
+      "shortlisted": [
+        {
+          "title": "令和8年度くろいし若者みらい応援奨学金返還サポート",
+          "url": "https://www.city.kuroishi.aomori.jp/sangyou/shien/syougakukin.html",
+          "evidence": "申請期間は令和8年4月1日から11月2日まで。一人あたり最大100万円の奨学金返還支援。認定後、翌年度から年度ごとに最大5回交付申請。"
+        }
+      ],
+      "held": [
+        {
+          "title": "黒石市トップページ・過年度支援金",
+          "url": "https://www.city.kuroishi.aomori.jp/",
+          "reason": "トップページは制度個別URLではない。燃油価格高騰対策支援金等の過年度ページは申請期限到来済みのため、現行制度としては採用しない。"
+        }
+      ]
+    },
+    {
+      "code": "02205",
+      "name": "五所川原市",
+      "adopted": 0,
+      "shortlisted": [
+        {
+          "title": "UIJターン起業・就業創出事業移住支援金",
+          "url": "https://www.city.goshogawara.lg.jp/shigoto/shigoto/2019-0422-1334-309.html",
+          "evidence": "東京圏から五所川原市への移住で最大100万円。令和8年度分を申請受付中、申請期限は令和9年1月15日。"
+        },
+        {
+          "title": "令和7年度 灯油購入費助成金",
+          "url": "https://www.city.goshogawara.lg.jp/kenkou/fukushi/r7hukushitoyu.html",
+          "evidence": "令和8年1月1日に住民登録があり、世帯全員が令和7年度住民税均等割非課税の世帯が対象。1世帯あたり5千円、1回限り。"
+        },
+        {
+          "title": "令和8年度民俗芸能保存・伝承事業補助金",
+          "url": "https://www.city.goshogawara.lg.jp/kyouiku/bunka/minzokugeinouhojokin.html",
+          "evidence": "市内の伝統芸能継承団体等が対象。補助上限10万円、募集期間は令和8年10月30日まで。"
+        },
+        {
+          "title": "飲食店等事業者向け支援金",
+          "url": "https://www.city.goshogawara.lg.jp/shigoto/shigoto/insyokuten_sienkin.html",
+          "evidence": "飲食店等事業者向けに1事業者あたり10万円。申請期間は令和8年2月3日から4月30日まで。"
+        },
+        {
+          "title": "ごしょがわらチャレンジ補助金",
+          "url": "https://www.city.goshogawara.lg.jp/jouhou/sosiki/g_challenge-hojokin.html",
+          "evidence": "既存verifiedに採用済み。新商品開発・販路拡大等が対象、補助上限最大50万円、補助率3分の2又は5分の4。"
+        }
+      ],
+      "held": []
+    },
+    {
+      "code": "02206",
+      "name": "十和田市",
+      "adopted": 0,
+      "shortlisted": [
+        {
+          "title": "住宅取得支援事業補助金",
+          "url": "https://www.city.towada.lg.jp/kurashi/ijuu/ijuu/juutaku-hojo.html",
+          "evidence": "令和9年3月31日までに入居、若年・子育て世帯、5年以上継続居住等が要件。住宅取得支援の個別制度ページ。"
+        },
+        {
+          "title": "令和7年度物価高騰対策中小企業者支援給付金",
+          "url": "https://www.city.towada.lg.jp/sangyo/shoukou/R7kyuuhukin.html",
+          "evidence": "市内事業所、申告済み、年間売上120万円以上等が対象。新規開業者は月平均売上10万円以上で対象。"
+        },
+        {
+          "title": "令和8年度人材確保・定着支援事業補助金",
+          "url": "https://www.city.towada.lg.jp/sangyo/koyou/jinzaiikusei.html",
+          "evidence": "市内企業等が従業員に資格・免許取得研修等を受講させる費用を補助。対象経費は受験料・受講料等。"
+        },
+        {
+          "title": "子どもの居場所提供促進事業補助金",
+          "url": "https://www.city.towada.lg.jp/",
+          "evidence": "公式トップで令和8年度対象団体募集を確認。個別ページで金額・対象・期限の確認が必要。"
+        }
+      ],
+      "held": [
+        {
+          "title": "十和田市トップページ",
+          "url": "https://www.city.towada.lg.jp/",
+          "reason": "制度名の入口としては確認できるが、トップページは最終sourceにしない。子どもの居場所補助は個別ページ確認待ち。"
+        }
+      ]
+    },
+    {
+      "code": "02207",
+      "name": "三沢市",
+      "adopted": 0,
+      "shortlisted": [
+        {
+          "title": "令和8年度三沢市結婚新生活支援金",
+          "url": "https://www.city.misawa.lg.jp/index.cfm/27%2C59899%2C129%2C707%2Chtml",
+          "evidence": "新婚世帯の住居費・引越費用等を支援。最大60万円。"
+        },
+        {
+          "title": "物価高対応子育て応援手当",
+          "url": "https://www.city.misawa.lg.jp/index.cfm/1%2C63511%2C3%2C291%2Chtml",
+          "evidence": "申請期間は令和8年1月5日から3月13日まで。一部対象者は4月17日まで。"
+        },
+        {
+          "title": "三沢市ひとり親世帯臨時特別給付金",
+          "url": "https://www.city.misawa.lg.jp/index.cfm/20%2C65790%2C110%2C345%2Chtml",
+          "evidence": "令和8年5月11日時点で令和8年4月分の児童扶養手当を受給した方が対象。申請不要で支給。"
+        }
+      ],
+      "held": [
+        {
+          "title": "補助金等一覧",
+          "url": "https://www.city.misawa.lg.jp/index.cfm/12%2C0%2C58%2C540%2Chtml",
+          "reason": "集会施設エアコン設置費補助金等の制度入口を確認。一覧ページは最終sourceにせず、個別ページで必須項目確認が必要。"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "adopted": 0,
+    "shortlisted": 13,
+    "held": 3,
+    "excluded": 0,
+    "sourceUrlsChecked": 15,
+    "urlReachability": "pass: targeted fetch checked 15, failures 0",
+    "notes": "黒石市・五所川原市・十和田市・三沢市の公式候補URLを短い根拠付きで抽出。公式URL到達は全件200。今回はデータ反映せず、次回以降に個別ページ本文/PDFで必須項目を精査して採用する。"
+  },
+  "validation": {
+    "dataFileChanged": false,
+    "eslint": "skipped: no data changes",
+    "duplicateSlugs": 0,
+    "urlReachability": "pass: 15 checked, failures 0",
+    "diffCheck": "pending",
+    "auditCoverage": "skipped: shortlist only; aggregate after data additions"
+  },
+  "next": {
+    "code": "aomori-comprehensive-official-coverage-003",
+    "municipalities": [
+      "黒石市",
+      "五所川原市",
+      "十和田市",
+      "三沢市"
+    ],
+    "instructions": "青森県002で抽出した13候補を、公式個別ページ本文/PDFの必須項目確認後にデータ反映する。優先順は黒石市奨学金返還、五所川原市移住支援・灯油・民俗芸能・飲食店支援、十和田市住宅取得・中小企業給付・人材確保、三沢市結婚新生活・子育て応援・ひとり親給付。"
+  }
+}

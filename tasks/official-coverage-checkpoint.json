@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T07:31:06+09:00",
+  "updatedAt": "2026-07-12T07:34:06+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "aomori-comprehensive-official-coverage-001",
-    "municipality": "青森県庁・青森市・弘前市・八戸市",
+    "code": "aomori-comprehensive-official-coverage-002",
+    "municipality": "黒石市・五所川原市・十和田市・三沢市",
     "adopted": 0,
-    "held": 4,
+    "held": 3,
     "excluded": 0,
-    "sourceUrlsChecked": 90,
+    "sourceUrlsChecked": 15,
     "validation": {
-      "previousMunicipality": "青森県公式棚卸し001として、青森県庁・青森市・弘前市・八戸市を確認。既存verified公式確認済み69件を維持し、aomori-/hirosaki-/hachinohe- prefixの公式URL 90件は到達確認failures 0。新規データ追加はなし。",
+      "previousMunicipality": "青森県公式棚卸し002として、黒石市・五所川原市・十和田市・三沢市を確認。公式候補13件を短い根拠付きで抽出し、候補URL15件は到達確認failures 0。今回はデータ反映なし。",
       "eslint": "skipped: no data changes",
       "duplicateSlugs": 0,
-      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --prefix aomori- --prefix hirosaki- --prefix hachinohe- checked 90 failures 0",
-      "diffCheck": "pass: git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-official-coverage-001.json",
-      "auditCoverage": "skipped: no data changes; aggregate after 3-5 Aomori municipalities or 60-100 systems"
+      "urlReachability": "pass: targeted fetch checked 15, failures 0",
+      "diffCheck": "pass: git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-official-coverage-002.json",
+      "auditCoverage": "skipped: shortlist only; aggregate after data additions"
     }
   },
   "next": {
-    "code": "aomori-comprehensive-official-coverage-002",
+    "code": "aomori-comprehensive-official-coverage-003",
     "municipality": "青森県",
-    "shortlist": "青森県庁・青森市・弘前市・八戸市は既存verified公式確認済み69件と公式URL 90件の到達を再確認済み。次は自治体コード順で黒石市・五所川原市・十和田市・三沢市。",
-    "instructions": "次は青森県の公式棚卸し002として、02204黒石市、02205五所川原市、02206十和田市、02207三沢市を自治体コード順に確認する。既存rawの有無に依存せず、公式サイト単位で補助金・助成金・給付金・一時金等の制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約を確認する。"
+    "shortlist": "黒石市・五所川原市・十和田市・三沢市の公式候補13件を抽出し、15URL到達確認はfailures 0。",
+    "instructions": "次は青森県003として、青森県002で抽出した13候補を公式個別ページ本文/PDFで必須項目確認後にデータ反映する。優先順は黒石市奨学金返還、五所川原市移住支援・灯油・民俗芸能・飲食店支援、十和田市住宅取得・中小企業給付・人材確保、三沢市結婚新生活・子育て応援・ひとり親給付。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
