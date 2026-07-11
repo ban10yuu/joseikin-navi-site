@@ -1738,7 +1738,7 @@
 
 ### 第12バッチ Discovery（厚真町・洞爺湖町・安平町）
 
-- 状態: 第12バッチDiscovery実行、厚真町のみ第1巡Verification・データ反映・軽量検証済み。洞爺湖町・安平町は次続行。
+- 状態: 第12バッチ（厚真町・洞爺湖町・安平町）第1巡Verification・データ反映済み。集約監査中。
 - 確認日: 2026-07-11
 - Discovery:
   - `tasks/discovery/hokkaido-batch-012-municipalities.json`
@@ -1750,16 +1750,20 @@
   - 安平町: discovered 300 / candidates 172 / strong 0 / lowPriority 172
 - 今回反映:
   - 厚真町: 8件（UIJターン移住支援、起業化支援、出産祝い金、狩猟免許取得費、特別児童扶養手当、障害児福祉手当、子育て世帯賃貸住宅家賃、高校生通学費等）
+  - 洞爺湖町: 8件（チャレンジショップ、住まいる中古住宅取得、身体障害者自動車改造、不妊治療費、妊婦支援給付、育児用品、子育て応援ごみ袋、重度心身障害者医療費）
+  - 安平町: 15件（妊婦健診等交通費、養育医療、子どもインフルエンザ、妊婦RSワクチン、児童手当、子ども医療、妊婦支援給付、障害児福祉手当、特別児童扶養、日常生活用具、障がい者等交通費、創業等支援、地域ブランド化、企業誘致、第二種運転免許）
 - 候補・掲載見送り:
   - 厚真町 住居確保給付金: 公式ページで制度概要は確認したが、町独自制度ではなく相談先誘導が中心で、個別金額/上限が本文で固定できないため第1巡では保留。
   - 厚真町 児童福祉カテゴリ、補助・手当カテゴリ、助成・手当カテゴリ: 個別制度ページへの導線として使用し、カテゴリページ自体は最終sourceにしない。
-  - 洞爺湖町: HTTPS不可のためHTTP公式URLで第2巡Verification予定。候補165件を取得済み。
-  - 安平町: 候補172件を取得済み。次に制度個別ページ/PDFをVerificationする。
+  - 洞爺湖町: HTTPSは `tlsv1 unrecognized name` のためHTTP公式URLで確認。医療助成カテゴリの古い個別リンク2件は404のため不採用。医療助成一覧、障害者制度一覧、中小企業向け外部支援一覧、創業支援事業計画、住宅税制ページは、個別制度ページ/PDFとして対象・金額・受付が十分に揃うもの以外は第1巡保留。子育て応援ガイドブックPDFは参照したが、文字化け箇所が多く、個別ページ/PDFで確認できた制度のみ採用。
+  - 安平町: 児童扶養手当、ひとり親家庭等医療費、重度心身障害者医療費は公式個別ページで制度は確認したが、今回の採用上限を超えるため第2巡で既存重複と照合。チャレンジショップは交付要綱PDFの表抽出が不安定なため保留。過年度/終了済みの不足額給付、単なるFAQ・カテゴリ・外部紹介記事は採用しない。
 - 検証:
-  - slug重複確認: 重複0（厚真町8件）
+  - slug重複確認: 重複0（厚真町8件、洞爺湖町8件、安平町15件）
   - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
   - `node scripts/check-grant-source-urls.mjs --prefix atsuma- --timeout-ms 60000 --concurrency 4`: 8件確認、失敗0
-  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/official-coverage-checkpoint.json tasks/comprehensive-official-coverage-checklist.md tasks/discovery/hokkaido-batch-012-municipalities.json tasks/discovery/hokkaido-batch-012-candidates.json tasks/discovery/hokkaido-batch-012-toyako-http.json tasks/discovery/hokkaido-batch-012-toyako-http-candidates.json`: 次コミット前に実行する
-  - `npm run audit:coverage`: 単一自治体のため未実行。洞爺湖町・安平町完了後に集約実行予定。
+  - `node scripts/check-grant-source-urls.mjs --prefix toyako- --timeout-ms 60000 --concurrency 4`: 8件確認、失敗0
+  - `node scripts/check-grant-source-urls.mjs --prefix abira- --timeout-ms 60000 --concurrency 4`: 15件確認、失敗0
+  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/official-coverage-checkpoint.json tasks/comprehensive-official-coverage-checklist.md tasks/discovery/hokkaido-batch-012-municipalities.json tasks/discovery/hokkaido-batch-012-candidates.json tasks/discovery/hokkaido-batch-012-toyako-http.json tasks/discovery/hokkaido-batch-012-toyako-http-candidates.json`: pass
+  - `npm run audit:coverage`: pass（failures 0、北海道 localOfficial 2325）
 - 次地点:
-  - `01584 洞爺湖町`。まず `tasks/discovery/hokkaido-batch-012-toyako-http-candidates.json` の候補から個別制度ページ/PDFを確認し、次に `01585 安平町` へ進む。
+  - 第12バッチ集約検証・commit後、自治体コード順で `01586 むかわ町` から第13バッチDiscoveryへ進む。

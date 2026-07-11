@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-11T19:15:00+09:00",
+  "updatedAt": "2026-07-11T18:05:00+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "01581",
-    "municipality": "厚真町",
-    "adopted": 8,
+    "code": "01585",
+    "municipality": "安平町",
+    "adopted": 15,
     "held": 9,
-    "excluded": 1,
-    "sourceUrlsChecked": 8,
+    "excluded": 5,
+    "sourceUrlsChecked": 15,
     "validation": {
-      "previousMunicipality": "第11バッチ完了済み: 豊浦町5, 壮瞥町11, 白老町9; 第12バッチDiscovery作成済み: 厚真町155候補, 洞爺湖町HTTP補完165候補, 安平町172候補",
+      "previousMunicipality": "第12バッチ: 厚真町8件、洞爺湖町8件、安平町15件を公式個別ページ/PDF確認後に反映。",
       "eslint": "pass for src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "atsuma 8 checked, 0 failures",
-      "diffCheck": "pending after checkpoint/checklist update",
-      "auditCoverage": "not rerun for single-municipality partial batch; previous pass after batch-011, failures 0, Hokkaido localOfficial 2296"
+      "urlReachability": "atsuma 8, toyako 8, abira 15 checked, 0 failures",
+      "diffCheck": "pass for batch-012 target files",
+      "auditCoverage": "pass, failures 0, Hokkaido localOfficial 2325"
     }
   },
   "next": {
-    "code": "01584",
-    "municipality": "洞爺湖町",
-    "shortlist": "use tasks/discovery/hokkaido-batch-012-toyako-http-candidates.json first; HTTPS failed with tlsv1 unrecognized name, HTTP official site returned 200",
-    "instructions": "厚真町は8件を公式本文確認後に反映済み。次は01584洞爺湖町のHTTP補完候補165件から、個別制度ページ/PDFの対象・金額/上限・条件・期限/受付状況を確認して採用する。その後01585安平町へ進む。"
+    "code": "01586",
+    "municipality": "むかわ町",
+    "shortlist": "create next discovery batch from 01586 むかわ町 onward; continue 3-5 municipalities unless heavy site issues",
+    "instructions": "第12バッチは安平町まで反映済み。次は01586むかわ町から自治体コード順に第13バッチDiscoveryを作成し、個別制度ページ/PDFの対象・金額/上限・条件・期限/受付状況を確認して採用する。第12バッチのdiff-check、audit:coverage、commitを完了してから進む。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
