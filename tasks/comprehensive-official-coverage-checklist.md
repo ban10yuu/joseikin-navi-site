@@ -1820,6 +1820,7 @@
   - 浦河町: 35件（生ごみ処理、文化・スポーツ合宿交通/宿泊、結婚新生活、空き家バンク、生活体験住宅、住宅新築リフォーム、U/Iターン、介護職員研修、肺炎球菌、ピロリ菌、家族介護用品、自動車改造/免許、妊婦支援給付、子育て家庭医療費、不妊治療、不育症、児童手当、乳幼児等医療、ひとり親医療、学校給食費多子減免、保育士資格、漁業担い手、事業承継、空き店舗、特産品PR、創業、UIJターン移住、新規学卒者雇用、まちづくり、防犯カメラ、医師修学資金、看護師等修学資金、電気牧柵）
   - 様似町: 14件（妊婦支援給付、周産期医療通院費、出産お祝い品、子ども医療費無料化、高校生奨学資金、遠距離通学費、情報端末購入費、住宅新築リフォーム、空き家解体、漁業担い手、高齢運転者免許自主返納、交通空白地有償運送運転者講習、独居高齢者火災警報器、結婚新生活）
   - えりも町: 19件（住宅改修工事等、漁業担い手、農業担い手、勤労者生活資金融資、妊産婦健診・新生児聴覚検査、妊婦健診等交通費、産後ケア、先進不妊治療、乳幼児等医療費、母子家庭等児童福祉手当、すこやか赤ちゃん誕生祝金、おたふくかぜ予防接種、高齢者肺炎球菌、障害福祉サービス利用者交通費、保健師・看護師等奨学金、社会福祉士・介護福祉士等奨学金、奨学資金、学校給食費、検定試験受験料）
+  - 新ひだか町: 21件（蜂の巣駆除、まちなか居住、空家居住、若年者等雇用、技能者人材育成、物価高対応子育て応援、高齢者肺炎球菌、帯状疱疹、産後ケア、児童手当、児童扶養手当、不妊検査・不妊治療、低所得妊婦初回産科受診、障害児福祉手当、特別障害者手当、特別児童扶養手当、医療・福祉人材確保、英語検定料、クラウドファンディング型ふるさと納税、地方就職支援金、UIJターン移住支援金）
 - 候補・掲載見送り:
   - 新冠町 医療費助成制度（重度心身障がい者、ひとり親家庭等、子ども医療）: 公式ページ上では制度名のみ確認できるが、対象・自己負担・助成範囲の詳細本文が不足するため第1巡では保留。
   - 新冠町 令和7年度あったか暖房費助成: 候補URLが404のため掲載しない。現行ページが復旧又は別URLで確認できた場合に再確認する。
@@ -1837,14 +1838,17 @@
   - えりも町 就学援助: 対象世帯と援助種別は確認したが、支給額表の個別金額確認が不足するため掲載しない。
   - えりも町 消火器補助: 公式ページはPDF導線のみで、PDF本文の補助対象・金額・申請条件を第1巡で確認できなかったため掲載しない。
   - えりも町 地域おこし協力隊、職員募集、公営住宅、ふるさと納税、通常の医療・介護・行政サービス案内、広報バックナンバー内の過年度案内は個別補助・給付の必須項目が揃うものだけ掲載対象とし、カテゴリ一覧や広報見出しだけでは採用しない。
+  - 新ひだか町 妊婦のための支援給付: 公式個別ページで対象・手続き期限は確認したが、本文上で給付額を固定できなかったため第1巡では掲載しない。
+  - 新ひだか町 学校給食非喫食者支援交付金、中学生給食費無償化: 公式ページはPDF導線中心で、PDF本文の対象・金額・申請条件確認を第2巡へ回す。
 - 軽量検証:
-  - slug重複確認: 重複0（新冠町16件、浦河町35件、様似町14件）
+  - slug重複確認: 重複0（新冠町16件、浦河町35件、様似町14件、えりも町19件、新ひだか町21件）
   - `node scripts/check-grant-source-urls.mjs --prefix niikappu- --timeout-ms 60000 --concurrency 4`: 16件確認、失敗0
   - `node scripts/check-grant-source-urls.mjs --prefix urakawa- --timeout-ms 60000 --concurrency 4`: 35件確認、失敗0
   - `node scripts/check-grant-source-urls.mjs --prefix samani- --timeout-ms 60000 --concurrency 4`: 14件確認、失敗0
   - `node scripts/check-grant-source-urls.mjs --prefix erimo- --timeout-ms 60000 --concurrency 4`: 19件確認、失敗0
+  - `node scripts/check-grant-source-urls.mjs --prefix shinhidaka- --timeout-ms 60000 --concurrency 4`: 21件確認、失敗0
   - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
-  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/official-coverage-checkpoint.json tasks/comprehensive-official-coverage-checklist.md tasks/discovery/hokkaido-batch-014-municipalities.json tasks/discovery/hokkaido-batch-014-niikappu-snippets.json tasks/discovery/hokkaido-batch-014-urakawa-snippets.json tasks/discovery/hokkaido-batch-014-samani-snippets.json`: pass
-  - `npm run audit:coverage`: pass（failures 0、北海道 localOfficial 2443）
+  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/official-coverage-checkpoint.json tasks/comprehensive-official-coverage-checklist.md tasks/discovery/hokkaido-batch-014-shinhidaka-extracted.json`: pass
+  - `npm run audit:coverage`: pass（failures 0、北海道 localOfficial 2481）
 - 次地点:
-  - えりも町19件追加後、自治体コード順で `01610 新ひだか町` へ進む。新ひだか町の完了後、第14バッチ後半を集約検証・commitする。
+  - 新ひだか町21件追加後、第14バッチ後半を集約検証・commitする。その後、自治体コード順で `01631 音更町` へ進む。

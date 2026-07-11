@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-11T18:49:00+09:00",
+  "updatedAt": "2026-07-11T19:29:44+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "01609",
-    "municipality": "えりも町",
-    "adopted": 19,
-    "held": 12,
-    "excluded": 5,
-    "sourceUrlsChecked": 19,
+    "code": "01610",
+    "municipality": "新ひだか町",
+    "adopted": 21,
+    "held": 3,
+    "excluded": 0,
+    "sourceUrlsChecked": 21,
     "validation": {
-      "previousMunicipality": "えりも町は個別公式ページで住宅改修、漁業/農業担い手、勤労者融資、妊産婦・不妊・医療・教育・福祉系19件を確認して追加。カテゴリ一覧・広報PDFのみの候補は採用しない。",
+      "previousMunicipality": "新ひだか町は個別公式ページで蜂の巣駆除、住宅、雇用・技能、人材確保、子育て、予防接種、産後ケア、不妊・妊婦、障がい福祉、教育、移住・就職系21件を確認して追加。妊婦支援給付は公式本文で給付額を固定できず、給食関連2件はPDF本文確認待ちのため第1巡保留。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "erimo 19 checked, all 0 failures",
-      "diffCheck": "pending for batch-014 aggregate after Shinhidaka or before commit",
-      "auditCoverage": "pending for batch-014 aggregate after Shinhidaka or before commit"
+      "urlReachability": "shinhidaka 21 checked, all 0 failures",
+      "diffCheck": "pass: git diff --check for batch-014 shinhidaka aggregate",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, 北海道 localOfficial 2481"
     }
   },
   "next": {
-    "code": "01610",
-    "municipality": "新ひだか町",
-    "shortlist": "continue batch-014 from municipality code order after 01609 えりも町",
-    "instructions": "新ひだか町は batch-014 candidates 87件・strong 0。公式カテゴリ/サイト内検索相当から個別制度ページ/PDFを補完し、金額・対象・条件・期限が揃うものだけ採用する。えりも町ではひとり親/重度心身障がい者医療費、帯状疱疹、就学援助、消火器補助等の一部を第2巡保留。"
+    "code": "01631",
+    "municipality": "音更町",
+    "shortlist": "start next Hokkaido batch from municipality code order after 01610 新ひだか町",
+    "instructions": "第14バッチの集約diff/audit/commit後、次は十勝管内の01631 音更町から開始する。新ひだか町の保留は妊婦支援給付（給付額本文未確認）、学校給食非喫食者支援交付金PDF、中学生給食費無償化PDF。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
