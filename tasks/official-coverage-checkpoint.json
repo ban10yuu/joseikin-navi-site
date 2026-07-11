@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-07-11T23:50:00+09:00",
+  "updatedAt": "2026-07-12T00:08:00+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "01647",
-    "municipality": "足寄町",
-    "adopted": 12,
-    "held": 5,
-    "excluded": 3,
-    "sourceUrlsChecked": 12,
+    "code": "01648",
+    "municipality": "陸別町",
+    "adopted": 17,
+    "held": 6,
+    "excluded": 4,
+    "sourceUrlsChecked": 17,
     "validation": {
-      "previousMunicipality": "足寄町は下水道接続、合併処理浄化槽、返礼品開発、ペレットストーブ、中小企業利子補給、結婚新生活、奨学金返還、出産祝金、妊婦支援給付、不育症、子ども医療費、足寄高校支援の12件を公式個別ページ又は公式子育て支援本文から確認して追加。住宅・老朽空家・まちづくり活動・新規就農・一部妊産婦/不妊治療はPDF/詳細リンク確認へ保留。",
+      "previousMunicipality": "陸別町は妊婦健診票・妊婦健診交通費・新生児聴覚検査・出産子育て支援祝金・子ども医療費・ひとり親家庭等医療費・不妊治療2件・医療介護修学資金・新規就農3件・地元雇用・人材確保・バス利用・通学定期・帯状疱疹の17件を公式個別ページ又は公式PDFで確認して追加。産婦健診・産後ケア・一部予防接種・重度心身障害者医療費は金額又は個別ページ確認へ保留。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "ashoro 12 checked, all 0 failures",
-      "nodeCheck": "not needed: script unchanged after previous pass",
-      "diffCheck": "pass: git diff --check for ashoro対象ファイル",
-      "auditCoverage": "pass: npm run audit:coverage, failures 0, activePublished 7170, officialLinkedActive 7132, manuallyVerifiedActive 7132, 北海道 localOfficial 2775"
+      "urlReachability": "rikubetsu 17 checked, all 0 failures",
+      "nodeCheck": "not needed: script unchanged",
+      "diffCheck": "pass: git diff --check for rikubetsu対象ファイル",
+      "auditCoverage": "pass: npm run audit:coverage, failures 0, activePublished 7187, officialLinkedActive 7149, manuallyVerifiedActive 7149, 北海道 localOfficial 2792"
     }
   },
   "next": {
-    "code": "01648",
-    "municipality": "陸別町",
-    "shortlist": "continue hokkaido-batch-018 after 01647 足寄町",
-    "instructions": "足寄町12件のURL到達・slug/schema・eslint・diff・audit:coverage・commit後、自治体コード順で陸別町のVerificationへ進む。"
+    "code": "01649",
+    "municipality": "浦幌町",
+    "shortlist": "continue hokkaido-batch-018 after 01648 陸別町",
+    "instructions": "陸別町17件のURL到達・slug/schema・eslint・diff・audit:coverage・commit後、自治体コード順で浦幌町のVerificationへ進む。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
