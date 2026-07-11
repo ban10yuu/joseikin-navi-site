@@ -2099,24 +2099,31 @@
 
 ### 第19バッチ Discovery（釧路町・厚岸町・浜中町）
 
-- 状態: 第19バッチDiscovery/URL検証を実行し、釧路町の第1巡Verificationを実施。釧路町は公式個別ページから13件をデータ反映した。厚岸町・浜中町は次にVerificationへ進む。
+- 状態: 第19バッチDiscovery/URL検証を実行し、釧路町・厚岸町の第1巡Verificationを実施。釧路町は公式個別ページから13件、厚岸町は公式個別ページから20件をデータ反映した。浜中町は次にVerificationへ進む。
 - 確認日: 2026-07-11
 - Discovery:
   - `tasks/discovery/hokkaido-batch-019-municipalities.json`
   - `tasks/discovery/hokkaido-batch-019-candidates.json`
   - `tasks/discovery/hokkaido-batch-019-url-validation.json`
   - `tasks/discovery/hokkaido-batch-019-kushiro-snippets.json`
+  - `tasks/discovery/hokkaido-batch-019-akkeshi-snippets.json`
   - 釧路町・厚岸町・浜中町: batch候補 567件
   - URL検証: checked 485 / cacheHits 484 / refetched 1 / reachable 485 / failures 0
   - 釧路町は共通ナビ由来の弱一致が多かったため、公式個別ページを抽出して本文必須項目を確認。大量HTML/PDFは `/tmp/kushiro_manual_pages.json` と証跡JSONへ保存し、会話へ全文出力しない運用を継続。
+  - 厚岸町は公式個別ページを再取得して `/tmp/akkeshi_manual_pages.json` に保存。制度名・対象・金額/上限・条件・期限/受付状況が揃う個別ページのみ採用し、出力は証跡JSONの短い根拠へ圧縮。
 - 今回反映:
   - 釧路町: 13件（奨学金制度、こども医療費助成、ひとり親家庭等医療費助成、出産・子育て応援ギフト、未熟児養育医療、不妊治療費等助成、重度心身障害者医療費助成、特定疾患患者及び腎臓機能障害者通院費補助、重度障がい者外出支援、自動車改造助成、介護人材確保育成支援、介護職員等奨学金返済支援、家族介護用品支給）
+  - 厚岸町: 20件（介護研修受講支援、結婚新生活支援、引越支援、家賃支援、移住支援金、防災士資格取得、創業支援、奨学金返還支援、新規就農準備金、新規就農賃借料補助、新規就農固定資産税相当奨励、新規就農利子補給、企業立地固定資産税課税免除、合併処理浄化槽設置、特殊詐欺対策電話機、住宅新築支援、住宅リフォーム、住宅エコリフォーム、既存住宅耐震改修・解体、住宅用太陽光・蓄電池）
 - 候補・掲載見送り:
   - 釧路町スポーツ振興助成金: 対象・申請条件は公式本文で確認したが、助成金額の本文確認が不足しているため第2巡保留。
   - 釧路町 福祉灯油購入費助成事業: 令和7年10月15日から11月14日受付の単年度情報で、2026年7月11日時点では次期受付前のため掲載方針確認まで保留。
   - 釧路町 障害者就労等通所支援助成・障害者等援護旅費助成: 対象と支援概要は確認したが、補助率・上限額など金額条件が不足するため保留。
   - 釧路町 デコ活推進補助金: 公式PDFに到達したが本文抽出未完了。対象・金額・期限をPDF本文で確認してから第2巡で判断。
   - 釧路町 児童扶養手当・特別障害者手当等: 町ページに掲載はあるが全国制度との重複整理対象。町独自制度としては掲載しない。
+  - 厚岸町 ハッピーブライダル奨励事業: 公式ページの対象・受付が令和6年度分で終了済み。令和8年度版の個別ページを第2巡で確認するまで掲載しない。
+  - 厚岸町 こども医療・ひとり親医療・重度心身障害者医療等: 様式・関連候補はあるが、個別公式本文で対象・金額・条件を揃えて確認できていないため第2巡保留。
+  - 厚岸町 木造一戸建て住宅の無料簡易耐震診断: 無料診断サービスであり、補助金・助成金・給付金・一時金として掲載するかは方針確認まで保留。
+  - 厚岸町 特別高圧電力利用事業者緊急支援事業: 令和5・6年度分で申請期限が2024年6月30日までのため現行掲載しない。
   - トップページ・カテゴリ・関連リンク: 個別制度ページではないため最終sourceにしない。
 - 軽量検証:
   - slug重複確認: 重複0（全7230件、釧路町13件）
@@ -2124,5 +2131,10 @@
   - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
   - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-019-municipalities.json tasks/discovery/hokkaido-batch-019-candidates.json tasks/discovery/hokkaido-batch-019-url-validation.json tasks/discovery/hokkaido-batch-019-kushiro-snippets.json`: pass
   - `npm run audit:coverage`: pass（failures 0、activePublished 7234、officialLinkedActive 7196、manuallyVerifiedActive 7196、北海道 localOfficial 2839）
+  - 厚岸町 slug重複確認: 重複0（全7250件、厚岸町20件）
+  - `node scripts/check-grant-source-urls.mjs --slug akkeshi-care-training-subsidy-2026,...,akkeshi-residential-solar-battery-incentive-2026 --timeout-ms 60000 --concurrency 4`: 20件確認、失敗0
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-019-akkeshi-snippets.json`: pass
+  - `npm run audit:coverage`: pass（failures 0、activePublished 7254、officialLinkedActive 7216、manuallyVerifiedActive 7216、北海道 localOfficial 2859）
 - 次地点:
-  - 釧路町13件の軽量検証・commit後、自治体コード順で `01662 厚岸町`、`01663 浜中町` へ進む。
+  - 厚岸町20件の軽量検証・commit後、自治体コード順で `01663 浜中町` へ進む。

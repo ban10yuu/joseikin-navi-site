@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-07-11T22:55:00+09:00",
+  "updatedAt": "2026-07-11T23:25:00+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "01661",
-    "municipality": "釧路町",
-    "adopted": 13,
-    "held": 4,
+    "code": "01662",
+    "municipality": "厚岸町",
+    "adopted": 20,
+    "held": 3,
     "excluded": 2,
-    "sourceUrlsChecked": 13,
+    "sourceUrlsChecked": 20,
     "validation": {
-      "previousMunicipality": "釧路町は奨学金、こども医療、ひとり親医療、妊婦支援給付、未熟児養育医療、不妊治療、重度心身障害者医療、特定疾患・人工透析通院費、重度障がい者外出支援、自動車改造、介護研修、介護職員等奨学金返済、家族介護用品の13件を公式個別ページで確認して追加。スポーツ振興助成、福祉灯油、障害者就労等通所支援、障害者等援護旅費、デコ活推進補助金PDFは第2巡保留。",
+      "previousMunicipality": "厚岸町は介護研修、新婚新生活、引越支援、家賃支援、移住支援金、防災士、創業支援、奨学金返還、新規就農4区分、企業立地固定資産税、浄化槽、特殊詐欺電話、住宅新築、住宅リフォーム、エコリフォーム、耐震改修・解体、太陽光・蓄電池の20件を公式個別ページで確認して追加。ハッピーブライダル、医療費助成群、無料簡易耐震診断は第2巡保留。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "kushiro-town 13 checked, all 0 failures",
+      "urlReachability": "akkeshi 20 checked, all 0 failures",
       "nodeCheck": "not needed: script unchanged",
-      "diffCheck": "pass: git diff --check for kushiro対象ファイル",
-      "auditCoverage": "pass: npm run audit:coverage, failures 0, activePublished 7234, officialLinkedActive 7196, manuallyVerifiedActive 7196, 北海道 localOfficial 2839"
+      "diffCheck": "pass: git diff --check for akkeshi対象ファイル",
+      "auditCoverage": "pass: npm run audit:coverage, failures 0, activePublished 7254, officialLinkedActive 7216, manuallyVerifiedActive 7216, 北海道 localOfficial 2859"
     }
   },
   "next": {
-    "code": "01662",
-    "municipality": "厚岸町",
-    "shortlist": "continue hokkaido-batch-019 after 01661 釧路町",
-    "instructions": "釧路町13件の軽量検証・commit後、自治体コード順で厚岸町・浜中町を第19バッチとしてVerificationへ進む。"
+    "code": "01663",
+    "municipality": "浜中町",
+    "shortlist": "continue hokkaido-batch-019 after 01662 厚岸町",
+    "instructions": "厚岸町20件の軽量検証・commit後、自治体コード順で浜中町を第19バッチとしてVerificationへ進む。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

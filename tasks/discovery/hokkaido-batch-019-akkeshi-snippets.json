@@ -1,0 +1,160 @@
+{
+  "batch": "hokkaido-batch-019",
+  "municipality": {
+    "code": "01662",
+    "name": "厚岸町",
+    "officialBaseUrl": "https://www.akkeshi-town.jp/"
+  },
+  "verifiedAt": "2026-07-11T23:25:00+09:00",
+  "sourceCache": "/tmp/akkeshi_manual_pages.json",
+  "method": "公式個別ページ本文から制度名、対象、金額又は上限、条件、期限又は受付状況を確認。一覧・カテゴリ・検索結果だけのURLは最終sourceにしない。",
+  "adopted": [
+    {
+      "slug": "akkeshi-care-training-subsidy-2026",
+      "title": "介護研修受講支援事業補助金",
+      "url": "https://www.akkeshi-town.jp/kurashi/work/kaigokensyu_hozyo/",
+      "evidence": "介護職員初任者研修等、受講料・教材費上限5万円、交通費を含む総額上限10万円。"
+    },
+    {
+      "slug": "akkeshi-newlywed-life-subsidy-2026",
+      "title": "結婚新生活支援事業補助金",
+      "url": "https://www.akkeshi-town.jp/izyuu/shinkon/",
+      "evidence": "令和8年1月1日から令和9年3月31日婚姻、住居費・引越・リフォーム、年齢所得別上限60万円/30万円/15万円。"
+    },
+    {
+      "slug": "akkeshi-moving-expense-subsidy-2026",
+      "title": "引越支援補助金",
+      "url": "https://www.akkeshi-town.jp/izyuu/hikkoshi_yachin/",
+      "evidence": "転入者の引越費用2分の1、上限10万円、高校生以下1人5万円加算、総額上限20万円。"
+    },
+    {
+      "slug": "akkeshi-rent-subsidy-2026",
+      "title": "家賃支援補助金",
+      "url": "https://www.akkeshi-town.jp/izyuu/hikkoshi_yachin/",
+      "evidence": "転入者の民間賃貸家賃から住宅手当控除後の2分の1、月額上限2万円、最長3年間。"
+    },
+    {
+      "slug": "akkeshi-migration-support-grant-2026",
+      "title": "移住支援金",
+      "url": "https://www.akkeshi-town.jp/izyuu/shienkin/",
+      "evidence": "東京圏移住・就業等要件、単身60万円、世帯100万円、18歳未満1人100万円加算。"
+    },
+    {
+      "slug": "akkeshi-disaster-prevention-specialist-subsidy-2026",
+      "title": "防災士資格取得費用補助金",
+      "url": "https://www.akkeshi-town.jp/bousai/bousaisi/",
+      "evidence": "受講料、受験料、登録料、交通費、宿泊費の2分の1、上限7万円。"
+    },
+    {
+      "slug": "akkeshi-startup-support-subsidy-2026",
+      "title": "創業支援補助金",
+      "url": "https://www.akkeshi-town.jp/kurashi/work/sougyousien/",
+      "evidence": "令和8年4月開始、対象経費2分の1、経費別上限、総額上限500万円。"
+    },
+    {
+      "slug": "akkeshi-scholarship-repayment-subsidy-2026",
+      "title": "奨学金返還支援補助金",
+      "url": "https://www.akkeshi-town.jp/kurashi/work/syougakukinnhenkan/",
+      "evidence": "39歳以下、町内就業・自営、月額上限3万円、通算5年間。"
+    },
+    {
+      "slug": "akkeshi-new-farmer-preparation-grant-2026",
+      "title": "新規就農者誘致奨励事業 準備金",
+      "url": "https://www.akkeshi-town.jp/kurashi/work/newsyunosya_zigyo/",
+      "evidence": "新規酪農就農者1経営体につき準備金200万円。"
+    },
+    {
+      "slug": "akkeshi-new-farmer-lease-subsidy-2026",
+      "title": "新規就農者誘致奨励事業 賃借料補助",
+      "url": "https://www.akkeshi-town.jp/kurashi/work/newsyunosya_zigyo/",
+      "evidence": "農用地・施設・乳牛・機械等の賃借料2分の1、経営開始後5年間。"
+    },
+    {
+      "slug": "akkeshi-new-farmer-fixed-asset-tax-incentive-2026",
+      "title": "新規就農者誘致奨励事業 固定資産税相当奨励",
+      "url": "https://www.akkeshi-town.jp/kurashi/work/newsyunosya_zigyo/",
+      "evidence": "賃貸施設に課税される固定資産税相当額を限度に5年間奨励。"
+    },
+    {
+      "slug": "akkeshi-new-farmer-interest-subsidy-2026",
+      "title": "新規就農者誘致奨励事業 利子補給",
+      "url": "https://www.akkeshi-town.jp/kurashi/work/newsyunosya_zigyo/",
+      "evidence": "農業制度資金の年利2.0％超過分を5年間補給、貸付元金上限あり。"
+    },
+    {
+      "slug": "akkeshi-fixed-asset-tax-incentive-2026",
+      "title": "企業立地促進条例による固定資産税課税免除",
+      "url": "https://www.akkeshi-town.jp/kurashi/work/kigyoricchi/",
+      "evidence": "対象業種・取得価額等要件を満たす設備等の固定資産税を3年間免除。"
+    },
+    {
+      "slug": "akkeshi-septic-tank-installation-subsidy-2026",
+      "title": "合併処理浄化槽設置補助",
+      "url": "https://www.akkeshi-town.jp/kurashi/sumai/gappeisyori_hojo/",
+      "evidence": "5人槽上限90万円、5人槽超上限110万円。"
+    },
+    {
+      "slug": "akkeshi-anti-fraud-phone-subsidy-2026",
+      "title": "特殊詐欺対策電話機等設置費補助金",
+      "url": "https://www.akkeshi-town.jp/kurashi/sumai/tokusyusagi_higaiboshi/",
+      "evidence": "対象電話機等の3分の2、上限1万円、令和8年4月1日から令和9年3月31日。"
+    },
+    {
+      "slug": "akkeshi-new-house-construction-subsidy-2026",
+      "title": "住宅新築支援助成事業",
+      "url": "https://www.akkeshi-town.jp/kurashi/sumai/house/zyutaku_shien/shintikushien/",
+      "evidence": "令和8年度から一律200万円、町内業者利用、1,000万円以上、40平方メートル以上。"
+    },
+    {
+      "slug": "akkeshi-housing-renovation-subsidy-2026",
+      "title": "住宅リフォーム支援助成事業",
+      "url": "https://www.akkeshi-town.jp/kurashi/sumai/house/zyutaku_shien/rifomu/",
+      "evidence": "令和8年度から対象工事費20％、上限50万円、町内業者、10万円以上工事。"
+    },
+    {
+      "slug": "akkeshi-eco-renovation-subsidy-2026",
+      "title": "住宅エコリフォーム支援助成事業",
+      "url": "https://www.akkeshi-town.jp/kurashi/sumai/house/zyutaku_shien/eco_rifomu/",
+      "evidence": "省エネ改修100万円、バリアフリー50万円、高効率設備10万円を上限に20％助成。"
+    },
+    {
+      "slug": "akkeshi-seismic-retrofit-demolition-subsidy-2026",
+      "title": "既存住宅耐震改修および解体工事補助",
+      "url": "https://www.akkeshi-town.jp/kurashi/sumai/house/zyutaku_shien/taishin_hojo/",
+      "evidence": "昭和56年5月31日以前着工住宅、耐震改修上限30万円、解体工事10％・上限20万円。"
+    },
+    {
+      "slug": "akkeshi-residential-solar-battery-incentive-2026",
+      "title": "住宅用太陽光発電システム設置奨励事業",
+      "url": "https://www.akkeshi-town.jp/kurashi/sumai/house/zyutaku_shien/taiyoukou/",
+      "evidence": "太陽光1kW3万円、蓄電池1kWh2万円、通常上限15万円、既存住宅同時設置上限30万円。"
+    }
+  ],
+  "held": [
+    {
+      "title": "ハッピーブライダル奨励事業",
+      "url": "https://www.akkeshi-town.jp/kurashi/sumai/house/zyutaku_shien/bridal_/",
+      "reason": "公式ページの受付が令和6年度対象・令和7年3月17日締切で終了済み。令和8年度版の個別ページを第2巡で確認するまで掲載しない。"
+    },
+    {
+      "title": "こども医療・ひとり親医療・重度心身障害者医療等",
+      "reason": "様式・関連ページ候補はあるが、厚岸町公式の個別本文で対象・金額・申請条件を揃えて確認できていないため第2巡保留。"
+    },
+    {
+      "title": "木造一戸建て住宅の無料簡易耐震診断",
+      "url": "https://www.akkeshi-town.jp/kurashi/sumai/house/zyutaku_shien/free_taishin/",
+      "reason": "無料診断サービスであり、補助金・助成金・給付金・一時金の掲載対象としては要方針確認。"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "特別高圧電力利用事業者緊急支援事業",
+      "url": "https://www.akkeshi-town.jp/kurashi/work/tokubetsukouatsu/",
+      "reason": "令和5年度・令和6年度分の緊急支援で、申請期限が2024年6月30日までのため現行掲載しない。"
+    },
+    {
+      "title": "トップページ・カテゴリ・サイトマップ・検索結果",
+      "reason": "制度個別ページ又は公式PDFではないため最終sourceにしない。"
+    }
+  ]
+}
