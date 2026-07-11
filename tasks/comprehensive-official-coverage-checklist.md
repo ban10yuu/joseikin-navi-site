@@ -2944,6 +2944,29 @@
   - 次:
     - 青森県003として、上記13候補を公式個別ページ本文/PDFで必須項目確認後にデータ反映する。
 
+- 2026-07-12 青森県公式棚卸し003（黒石市・五所川原市・十和田市・三沢市データ反映）:
+  - 状態: 青森002の13候補から、既存採用済みの五所川原市ごしょがわらチャレンジ補助金と個別ページ未確認の十和田市子どもの居場所提供促進事業補助金を除き、公式本文で必須項目を確認できた11件を `src/data/grants/verified-local-misc-2026.ts` に追加した。
+  - 追加・更新ファイル:
+    - `src/data/grants/verified-local-misc-2026.ts`
+    - `tasks/discovery/aomori-official-coverage-003.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 採用:
+    - 黒石市: くろいし若者みらい応援奨学金返還サポート。
+    - 五所川原市: 移住支援金、灯油購入費助成金、民俗芸能保存・伝承事業補助金、飲食店等物価高騰対策支援金。
+    - 十和田市: 住宅取得支援事業補助金、物価高騰対策中小企業者支援給付金、人材確保・定着支援事業補助金。
+    - 三沢市: 結婚新生活支援金、物価高対応子育て応援手当、ひとり親世帯臨時特別給付金。
+  - 保留継続:
+    - 五所川原市ごしょがわらチャレンジ補助金は既存verified採用済みのため重複追加しない。
+    - 十和田市子どもの居場所提供促進事業補助金は公式トップでは制度名を確認したが、個別ページで対象・金額/上限・期限を確認するまで保留。
+    - 三沢市補助金等一覧は一覧ページのため、集会施設エアコン設置費補助金等は個別ページ確認へ回す。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: 今回追加slugの重複0。
+    - `node scripts/check-grant-source-urls.mjs --slug <11 slugs> --timeout-ms 60000 --concurrency 4`: checked 11、failures 0。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7469、officialLinkedActive 7431、manuallyVerifiedActive 7431、青森県 localOfficial 79）
+  - 次:
+    - 02208むつ市、02209つがる市、02210平川市、02301平内町を自治体コード順で確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:

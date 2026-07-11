@@ -1,0 +1,56 @@
+{
+  "batchId": "aomori-comprehensive-official-coverage-003",
+  "checkedAt": "2026-07-12T07:41:06+09:00",
+  "scope": "青森県公式棚卸し003: 黒石市・五所川原市・十和田市・三沢市の候補データ反映",
+  "adopted": [
+    "kuroishi-scholarship-repayment-support-2026",
+    "goshogawara-uij-turn-migration-support-2026",
+    "goshogawara-heating-oil-support-2026",
+    "goshogawara-folk-performing-arts-subsidy-2026",
+    "goshogawara-restaurant-price-support-2026",
+    "towada-housing-acquisition-support-2026",
+    "towada-price-hike-sme-benefit-2026",
+    "towada-human-resource-retention-subsidy-2026",
+    "misawa-newlywed-life-support-2026",
+    "misawa-price-hike-child-support-2026",
+    "misawa-single-parent-temporary-benefit-2026"
+  ],
+  "continuedHold": [
+    {
+      "title": "五所川原市 ごしょがわらチャレンジ補助金",
+      "reason": "既存verifiedに採用済みのため重複追加しない。"
+    },
+    {
+      "title": "十和田市 子どもの居場所提供促進事業補助金",
+      "reason": "公式トップでは制度名を確認したが、個別ページで対象・金額/上限・期限を確認するまで保留。"
+    },
+    {
+      "title": "三沢市 補助金等一覧",
+      "reason": "一覧ページは最終sourceにしない。集会施設エアコン設置費補助金等は個別ページで必須項目確認が必要。"
+    }
+  ],
+  "summary": {
+    "adopted": 11,
+    "held": 3,
+    "excluded": 0,
+    "sourceUrlsChecked": 11,
+    "notes": "青森002の13候補から既存採用済み1件と個別ページ未確認1件を除き、公式本文で制度名・対象・金額/上限・条件・期限/受付状況を確認できた11件をverified-local-misc-2026.tsへ追加した。"
+  },
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "duplicateSlugs": 0,
+    "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --slug <11 slugs> checked 11 failures 0",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7469, officialLinkedActive 7431, manuallyVerifiedActive 7431, Aomori localOfficial 79",
+    "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-official-coverage-003.json"
+  },
+  "next": {
+    "code": "aomori-comprehensive-official-coverage-004",
+    "municipalities": [
+      "むつ市",
+      "つがる市",
+      "平川市",
+      "平内町"
+    ],
+    "instructions": "次は青森県004として、02208むつ市、02209つがる市、02210平川市、02301平内町を自治体コード順に公式サイト単位で確認する。"
+  }
+}

@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T07:34:06+09:00",
+  "updatedAt": "2026-07-12T07:41:06+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "aomori-comprehensive-official-coverage-002",
+    "code": "aomori-comprehensive-official-coverage-003",
     "municipality": "黒石市・五所川原市・十和田市・三沢市",
-    "adopted": 0,
+    "adopted": 11,
     "held": 3,
     "excluded": 0,
-    "sourceUrlsChecked": 15,
+    "sourceUrlsChecked": 11,
     "validation": {
-      "previousMunicipality": "青森県公式棚卸し002として、黒石市・五所川原市・十和田市・三沢市を確認。公式候補13件を短い根拠付きで抽出し、候補URL15件は到達確認failures 0。今回はデータ反映なし。",
-      "eslint": "skipped: no data changes",
+      "previousMunicipality": "青森県公式棚卸し003として、青森002の13候補から既存採用済み1件と個別ページ未確認1件を除き、公式本文で必須項目を確認できた11件をデータ反映。黒石市1件、五所川原市4件、十和田市3件、三沢市3件。",
+      "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "pass: targeted fetch checked 15, failures 0",
-      "diffCheck": "pass: git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-official-coverage-002.json",
-      "auditCoverage": "skipped: shortlist only; aggregate after data additions"
+      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --slug <11 slugs> checked 11 failures 0",
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-official-coverage-003.json",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7469, officialLinkedActive 7431, manuallyVerifiedActive 7431, Aomori localOfficial 79"
     }
   },
   "next": {
-    "code": "aomori-comprehensive-official-coverage-003",
+    "code": "aomori-comprehensive-official-coverage-004",
     "municipality": "青森県",
-    "shortlist": "黒石市・五所川原市・十和田市・三沢市の公式候補13件を抽出し、15URL到達確認はfailures 0。",
-    "instructions": "次は青森県003として、青森県002で抽出した13候補を公式個別ページ本文/PDFで必須項目確認後にデータ反映する。優先順は黒石市奨学金返還、五所川原市移住支援・灯油・民俗芸能・飲食店支援、十和田市住宅取得・中小企業給付・人材確保、三沢市結婚新生活・子育て応援・ひとり親給付。"
+    "shortlist": "黒石市・五所川原市・十和田市・三沢市の公式候補から11件をデータ反映。残る保留は五所川原市チャレンジ重複、十和田市子どもの居場所個別ページ未確認、三沢市一覧ページ。",
+    "instructions": "次は青森県004として、02208むつ市、02209つがる市、02210平川市、02301平内町を自治体コード順に確認する。既存rawの有無に依存せず、公式サイト単位で補助金・助成金・給付金・一時金等の制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約を確認する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
