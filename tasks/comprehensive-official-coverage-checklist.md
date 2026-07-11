@@ -1948,5 +1948,30 @@
   - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
   - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/official-coverage-checkpoint.json tasks/comprehensive-official-coverage-checklist.md tasks/discovery/hokkaido-batch-016-municipalities.json tasks/discovery/hokkaido-batch-016-candidates.json tasks/discovery/hokkaido-batch-016-url-validation.json tasks/discovery/hokkaido-batch-016-shimizu-snippets.json tasks/discovery/hokkaido-batch-016-memuro-snippets.json tasks/discovery/hokkaido-batch-016-nakasatsunai-snippets.json`: pass
   - `npm run audit:coverage`: pass（failures 0、activePublished 7029、officialLinkedActive 6991、manuallyVerifiedActive 6991、北海道 localOfficial 2634）
+- 継続反映:
+  - 更別村: 23件（妊婦健診・産婦健診、妊産婦安心出産交通費、出産祝金、妊婦支援給付金、不妊治療保険適用、不妊治療先進医療、乳幼児・子ども医療費、ひとり親家庭等医療費、未熟児養育医療、重度心身障害者医療費、おたふくかぜ予防接種、児童手当、児童扶養手当、特別児童扶養手当、入学祝金、住宅建設等助成金、地元雇用促進、外国人雇用対策、起業・創業等支援、地方就職学生支援金、奨学金返還支援、家族介護慰労金、家族介護用品）
+- 更別村の候補・掲載見送り:
+  - 更別村ゼロカーボン推進補助金: 公式HTMLで対象・申請期間は確認したが、補助対象機器別の金額が交付要綱/手引きPDF側のため第2巡保留。
+  - 更別村 企業立地補助制度: 公式ページが詳細リンク導線のみで、対象・金額本文を確認できないため第2巡保留。
+  - 更別村 賃貸住宅建設促進事業助成金を活用した民間住宅: 掲載ページは物件案内中心で、助成対象事業者・助成額本文ではないため掲載しない。
+  - 更別村 介護人材確保（老人福祉施設等雇用対策事業助成金）: 公式ページはPDF導線で、助成額・対象条件を本文で固定できないため第2巡保留。
+  - 更別村 こども誰でも通園制度: 利用制度・利用料案内で、補助金/給付金としての支給額がないため第1巡では掲載しない。
+  - 道民生活応援ポイント給付事業: 北海道事業の案内であり、更別村独自制度としては掲載しない。
+- 更別村の軽量検証:
+  - slug重複確認: 重複0（全7046件、更別村23件）
+  - `node scripts/check-grant-source-urls.mjs --prefix sarabetsu- --timeout-ms 60000 --concurrency 4`: 23件確認、失敗0
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+- 継続反映:
+  - 大樹町: 22件（省エネ機器購入、物価高対応子育て応援、妊婦支援給付、赤ちゃん誕生祝金、乳幼児及び児童医療費、児童手当、児童扶養手当、インフルエンザワクチン、おたふくかぜワクチン、高齢者補聴器、障害者扶養共済掛金、指定難病患者通院費、重度障害者等交通費、社会福祉施設通所費、特別障害者手当、障害児福祉手当、特別児童扶養手当、重度心身障害者医療費、介護タクシー、介護用品、高齢者等通院交通費、移住支援金）
+- 大樹町の候補・掲載見送り:
+  - 大樹町 成年後見制度利用支援事業: 助成対象は確認したが、助成額・上限が本文で固定できないため第2巡保留。
+  - 大樹町 移住希望者向け町有住宅貸付事業: 町有住宅貸付・住宅概要であり、補助金/給付金としての支給額ではないため掲載しない。
+  - 大樹町 福祉車両貸出事業・除雪サービス・緊急通報装置設置: 無料サービス又は設置料案内で、補助金・助成金としての支給額切り出し対象外とした。
+- 大樹町の軽量検証:
+  - slug重複確認: 重複0（全7068件、大樹町22件）
+  - `node scripts/check-grant-source-urls.mjs --prefix taiki- --timeout-ms 60000 --concurrency 4`: 22件確認、失敗0
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+  - 第16バッチ後半集約: `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-016-sarabetsu-snippets.json tasks/discovery/hokkaido-batch-016-taiki-snippets.json` pass
+  - 第16バッチ後半集約: `npm run audit:coverage` pass（failures 0、activePublished 7073、officialLinkedActive 7035、manuallyVerifiedActive 7035、北海道 localOfficial 2678）
 - 次地点:
-  - 第16バッチ集約監査・commit後、自治体コード順で `01639 更別村` へ進む。
+  - 第16バッチ後半（更別村・大樹町、計45件）をcommitする。その後、自治体コード順で `01642 広尾町` へ進む。

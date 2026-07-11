@@ -1,0 +1,47 @@
+{
+  "code": "01641",
+  "municipality": "大樹町",
+  "generatedAt": "2026-07-11T12:09:24.255Z",
+  "adoptedCount": 22,
+  "adopted": [
+    "taiki-energy-saving-appliance-subsidy-2026",
+    "taiki-price-hike-childcare-support-allowance-2026",
+    "taiki-pregnancy-support-benefit-2026",
+    "taiki-baby-birth-gift-2026",
+    "taiki-child-medical-expense-subsidy-2026",
+    "taiki-child-allowance-2026",
+    "taiki-child-rearing-allowance-2026",
+    "taiki-influenza-vaccine-subsidy-2026",
+    "taiki-mumps-vaccine-subsidy-2026",
+    "taiki-hearing-aid-purchase-subsidy-2026",
+    "taiki-disability-mutual-aid-premium-subsidy-2026",
+    "taiki-intractable-disease-transport-subsidy-2026",
+    "taiki-severe-disability-transport-subsidy-2026",
+    "taiki-social-welfare-facility-commuting-subsidy-2026",
+    "taiki-special-disability-allowance-2026",
+    "taiki-disabled-child-welfare-allowance-2026",
+    "taiki-special-child-rearing-allowance-2026",
+    "taiki-severe-disability-medical-expense-subsidy-2026",
+    "taiki-care-taxi-fare-subsidy-2026",
+    "taiki-care-supplies-benefit-2026",
+    "taiki-elderly-hospital-transport-subsidy-2026",
+    "taiki-migration-support-grant-2026"
+  ],
+  "held": [
+    {
+      "name": "大樹町 成年後見制度利用支援事業",
+      "reason": "助成対象は確認したが、助成額・上限が本文で固定できないため第2巡保留"
+    },
+    {
+      "name": "移住希望者向け町有住宅貸付事業",
+      "reason": "町有住宅貸付・住宅概要であり、補助金/給付金としての支給額ではないため掲載しない"
+    },
+    {
+      "name": "福祉車両貸出事業・除雪サービス・緊急通報装置設置",
+      "reason": "無料サービス又は設置料案内で、補助金・助成金としての支給額切り出し対象外とした"
+    }
+  ],
+  "sourceFiles": [
+    "/tmp/taiki_pages.txt"
+  ]
+}

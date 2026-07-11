@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-11T23:05:00+09:00",
+  "updatedAt": "2026-07-11T21:11:10+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "01638",
-    "municipality": "中札内村",
-    "adopted": 24,
-    "held": 7,
-    "excluded": 1,
-    "sourceUrlsChecked": 24,
+    "code": "01641",
+    "municipality": "大樹町",
+    "adopted": 22,
+    "held": 1,
+    "excluded": 2,
+    "sourceUrlsChecked": 22,
     "validation": {
-      "previousMunicipality": "中札内村は各種手当・助成、教育助成、住宅・移住支援の個別ページから、児童手当、児童扶養手当、特別児童扶養手当、妊産婦通院タクシー、妊婦健診、不育症、産前産後ヘルパー、おたふく、子ども医療、ひとり親医療、永井明奨学資金、検定、通学費、高校生活全力サポート、結婚新生活、住宅リフォーム、移住支援、地方就職支援、奨学金返還、定住促進住宅取得、中札内スタイル住宅、定住促進奨励金、民間賃貸家賃、花苗の24件を公式本文から確認して追加。不妊治療は金額詳細がPDF側、その他スポーツ/文化/社会教育/浄化槽等は個別本文又はPDF精査が必要なため第2巡保留。",
+      "previousMunicipality": "大樹町は省エネ機器、物価高子育て応援、妊婦支援、赤ちゃん誕生祝金、医療費、児童手当/扶養手当、任意予防接種、高齢者補聴器、障がい者助成/手当、重度心身障害者医療、介護タクシー/介護用品/通院交通費、移住支援金の22件を公式本文から確認して追加。成年後見制度利用支援は助成額上限未固定、町有住宅貸付や無料サービスは掲載対象外。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "nakasatsunai 24 checked, all 0 failures",
-      "diffCheck": "pass: git diff --check -- batch-016 target files",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 7029, officialLinkedActive 6991, manuallyVerifiedActive 6991, hokkaido localOfficial 2634)"
+      "urlReachability": "taiki 22 checked, all 0 failures",
+      "diffCheck": "pass: git diff --check for batch-016 second half target files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7073, officialLinkedActive 7035, manuallyVerifiedActive 7035, 北海道 localOfficial 2678"
     }
   },
   "next": {
-    "code": "01639",
-    "municipality": "更別村",
-    "shortlist": "continue hokkaido-batch-016 from municipality code order after 01638 中札内村",
-    "instructions": "第16バッチの集約diff/audit/commit後、更別村のDiscovery候補225件から、公式個別ページ/PDFで対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。"
+    "code": "01642",
+    "municipality": "広尾町",
+    "shortlist": "continue municipality code order after 01641 大樹町",
+    "instructions": "第16バッチ後半（更別村23件・大樹町22件）の集約diff/audit/commit後、広尾町から次バッチを作成し、公式個別ページ/PDFで対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
