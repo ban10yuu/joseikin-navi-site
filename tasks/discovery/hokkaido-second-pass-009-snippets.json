@@ -1,0 +1,124 @@
+{
+  "batch": "hokkaido-second-pass-009",
+  "checkedAt": "2026-07-12T02:12:46+09:00",
+  "municipalities": [
+    "黒松内町",
+    "蘭越町",
+    "ニセコ町",
+    "真狩村"
+  ],
+  "summary": {
+    "adopted": 0,
+    "held": 4,
+    "excluded": 0,
+    "sourceUrlsChecked": 15,
+    "notes": "第2バッチshortlistから未掲載強候補を抽出し、カテゴリ/個別ページ15URLを短い本文スニペットで確認。既存掲載済み、一覧導線、通常行政サービス、北海道事業案内、又は金額/上限・期限/受付状況不足に該当し、制度名・対象・金額/上限・条件・期限/受付状況が揃う新規掲載候補は確認できなかった。"
+  },
+  "checkedUrls": [
+    {
+      "municipality": "黒松内町",
+      "url": "http://www.kuromatsunai.com/townlife/fukushi/file005/",
+      "title": "大人の健康",
+      "decision": "hold",
+      "reason": "特定健診・がん検診・予防接種償還払い等の案内は確認できるが、個別補助制度として助成額/上限や受付条件を固定できない。"
+    },
+    {
+      "municipality": "黒松内町",
+      "url": "http://www.kuromatsunai.com/townlife/fukushi/file008/",
+      "title": "母子保健事業",
+      "decision": "hold",
+      "reason": "福祉/児童福祉制度一覧の導線であり、在宅障害者通所交通費助成、じん臓機能障害者通院交通費助成等の金額/上限が本文だけでは不足する。"
+    },
+    {
+      "municipality": "黒松内町",
+      "url": "http://www.kuromatsunai.com/kuro_immig/",
+      "title": "ブナ北限のまち 北海道黒松内移住相談窓口ホームページ",
+      "decision": "hold",
+      "reason": "移住体験住宅・空き家情報等の案内中心で、現行の個別補助制度として必須項目が揃わない。"
+    },
+    {
+      "municipality": "蘭越町",
+      "url": "https://www.town.rankoshi.hokkaido.jp/administration/education/",
+      "title": "子育て・教育",
+      "decision": "hold",
+      "reason": "奨学金、不妊治療助成、医療費助成等は既存掲載済み。給付金と相談窓口、乳児健康診査料扶助、任意予防接種料金扶助、すこやか待ちゃん支援は金額/上限が本文だけでは不足する。"
+    },
+    {
+      "municipality": "蘭越町",
+      "url": "https://www.town.rankoshi.hokkaido.jp/administration/welfare/",
+      "title": "健康・福祉",
+      "decision": "hold",
+      "reason": "既存掲載済みの福祉・医療助成へのカテゴリ導線。健診・検診、高齢者予防接種等は個別の助成額/自己負担額が不足する。"
+    },
+    {
+      "municipality": "蘭越町",
+      "url": "https://www.town.rankoshi.hokkaido.jp/administration/work/",
+      "title": "しごと・産業",
+      "decision": "hold",
+      "reason": "創業支援補助金、勤労者生活資金融資、中小企業融資緊急支援対策は既存掲載済み。その他は募集・計画・相談導線。"
+    },
+    {
+      "municipality": "ニセコ町",
+      "url": "https://www.town.niseko.lg.jp/iju/",
+      "title": "移住をお考えの方",
+      "decision": "hold",
+      "reason": "創業支援、産業振興基金の名称は確認できるが、資金貸付/資金補助の金額・上限・申請条件を確認できる個別ページに到達できない。"
+    },
+    {
+      "municipality": "ニセコ町",
+      "url": "https://www.town.niseko.lg.jp/kurashi/seikatsu/sumai/kenchiku/",
+      "title": "ニセコ町での建築について",
+      "decision": "hold",
+      "reason": "建築規制・景観条例・届出の案内であり、補助金等の個別制度ではない。"
+    },
+    {
+      "municipality": "ニセコ町",
+      "url": "https://www.town.niseko.lg.jp/kurashi/kenko_fukushi_kaigo/kenshinannai/",
+      "title": "検診案内",
+      "decision": "hold",
+      "reason": "検診日程・申込導線が中心で、町助成額/自己負担額と受付条件を制度単位で固定できない。"
+    },
+    {
+      "municipality": "ニセコ町",
+      "url": "https://www.town.niseko.lg.jp/kurashi/shigoto/",
+      "title": "しごと・産業",
+      "decision": "hold",
+      "reason": "にぎわいづくり起業者等サポート、住宅省エネ等は既存掲載済み。未掲載候補は一覧導線又は北海道/外部制度案内。"
+    },
+    {
+      "municipality": "真狩村",
+      "url": "https://www.vill.makkari.lg.jp/iju_teiju/",
+      "title": "移住・定住ガイド",
+      "decision": "hold",
+      "reason": "生活支援・移住支援の概説ページ。創業支援、敬老祝金、社の森住宅建築補助等は既存掲載済みで、定住促進奨励事業は対象分譲地完売のため現行利用可能制度として扱わない。"
+    },
+    {
+      "municipality": "真狩村",
+      "url": "https://www.vill.makkari.lg.jp/iju_teiju/ijushien/yashironomori/",
+      "title": "社の森ふれあいタウン",
+      "decision": "hold",
+      "reason": "社の森住宅建築補助の導線は確認できるが、当該制度は既存掲載済み。ページ自体は分譲地案内。"
+    },
+    {
+      "municipality": "真狩村",
+      "url": "https://www.vill.makkari.lg.jp/kurashi/kosodate_kyoiku/",
+      "title": "子育て・教育",
+      "decision": "hold",
+      "reason": "不妊治療、不育症、妊婦支援給付、出産祝品、子ども医療、ブックスタート等は既存掲載済み。未掲載候補は一覧導線又は金額/期限不足。"
+    },
+    {
+      "municipality": "真狩村",
+      "url": "https://www.vill.makkari.lg.jp/kurashi/kenko_fukushi/",
+      "title": "健康・福祉",
+      "decision": "hold",
+      "reason": "医療費助成、福祉タクシー、障害福祉給付等は既存掲載済み。予防接種・健診等は助成額/自己負担額が不足する。"
+    },
+    {
+      "municipality": "真狩村",
+      "url": "https://www.vill.makkari.lg.jp/news/1930/",
+      "title": "道民生活応援ポイント給付事業に関するお問い合わせ先について",
+      "decision": "hold",
+      "reason": "北海道主体事業の問い合わせ案内であり、真狩村独自制度として掲載しない。"
+    }
+  ]
+}

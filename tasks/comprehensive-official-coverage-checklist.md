@@ -2483,6 +2483,25 @@
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-008-snippets.json`: pass
     - `npm run audit:coverage`: pass（failures 0、activePublished 7441、officialLinkedActive 7403、manuallyVerifiedActive 7403、北海道 localOfficial 3046）
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 黒松内町・蘭越町・ニセコ町・真狩村）:
+  - 状態: 第2巡009として、対象4自治体の第2バッチshortlistから未掲載強候補を抽出し、カテゴリ/個別ページ15URLを短い本文スニペットで確認。既存掲載済み、一覧導線、通常行政サービス、北海道事業案内、又は金額/上限・期限/受付状況不足に該当し、制度名・対象・金額/上限・条件・期限/受付状況が揃う新規掲載候補は確認できなかった。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-second-pass-009-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 既存掲載済み:
+    - 黒松内町: 医療費助成、児童手当・児童扶養手当・特別児童扶養手当、太陽光発電、期限切れ扱いの移住支援条例系など18件を掲載済み。
+    - 蘭越町: 奨学金、不妊治療、医療費助成、福祉手当・補装具・日常生活用具、創業支援、融資、移住・住宅関連など26件を掲載済み。
+    - ニセコ町: 再エネ、住宅省エネ、不妊・不育症、医療費、児童手当、起業者サポート、夏季生活支援、期限到来の物価高対応子育て応援手当など12件を掲載済み。
+    - 真狩村: 社の森住宅建築、浄化槽、太陽光、不妊・不育症、妊婦支援、医療費、敬老祝金、福祉タクシー、障害福祉給付、創業支援、特産品開発、ブックスタートなど22件を掲載済み。
+  - 保留継続:
+    - 黒松内町 通所交通費助成、じん臓機能障害者通院交通費助成、医療保健福祉職員養成修学資金貸付、予防接種償還払い、移住体験住宅・空き家案内: 制度名や導線は確認できるが、金額/上限又は貸付額、受付条件が公式本文だけでは不足する。
+    - 蘭越町 給付金と相談窓口、乳児健康診査料扶助、任意予防接種料金扶助、すこやか待ちゃん支援、児童手当系の一部ページ: 金額/上限不足又は公式本文上の金額が現行額と一致しないため掲載しない。
+    - ニセコ町 産業振興基金、検診案内、建築規制ページ、企業支援カテゴリ: 産業振興基金は移住ガイド上の概説に留まり、資金貸付/資金補助の金額・上限・申請条件を確認できる個別ページに到達できない。その他は通常案内又は外部/道制度案内。
+    - 真狩村 定住促進奨励事業、予防接種・健診、道民生活応援ポイント給付事業、移住・定住ガイドの概説: 定住促進奨励事業は対象分譲地完売、予防接種・健診は助成額/自己負担額不足、道民生活応援ポイントは北海道主体事業の問い合わせ案内。
+  - 検証:
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-009-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
