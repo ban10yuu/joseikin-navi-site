@@ -18,10 +18,10 @@
     }
   },
   "next": {
-    "code": "hokkaido-prefecture-deploy",
-    "municipality": "北海道節目デプロイ確認",
-    "shortlist": "北海道の自治体コード順棚卸し末尾到達。カテゴリ型正規化後の上限付きbuildは成功。",
-    "instructions": "カテゴリ正規化をcommit後、必要なVercelデプロイと本番代表ページ確認へ進む。build確認コマンド: NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack"
+    "code": "next-prefecture-start",
+    "municipality": "次の都道府県",
+    "shortlist": "北海道は自治体コード順で羅臼町まで到達し、節目build・prebuilt deploy・本番代表確認まで完了。",
+    "instructions": "次は全国網羅の継続として、北海道の第2巡保留候補整理又は次都道府県の公式棚卸し開始地点を確定する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
@@ -29,6 +29,20 @@
       "command": "NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack",
       "status": "pass",
       "notes": "初回は旧カテゴリ business/welfare/migration 等の GrantCategory 型不整合で失敗。verified-local-misc-2026.ts のカテゴリ値を現行8カテゴリへ正規化後、13,172静的ページ生成まで成功。"
+    },
+    "deployment": {
+      "status": "READY",
+      "id": "dpl_DZwZBWNprfJzzHgz6ZUdrhNBRCbC",
+      "url": "https://joseikin-navi-site-nq400vbbr-banjo-yujis-projects.vercel.app",
+      "alias": "https://joseikin-navi-site.vercel.app",
+      "inspectorUrl": "https://vercel.com/banjo-yujis-projects/joseikin-navi-site/DZwZBWNprfJzzHgz6ZUdrhNBRCbC",
+      "command": "timeout 900s npx vercel deploy --prebuilt --prod --yes --archive=tgz",
+      "notes": "通常prebuilt deployは Request body too large. Limit: 10mb で失敗。archive=tgzで478.6MBをアップロードしREADY。"
+    },
+    "productionChecks": {
+      "rausuBirth": "200: 羅臼町 出産祝金支給事業、子ども1人50万円、公式出典確認済み",
+      "rausuEntrepreneur": "200: 羅臼町 起業支援事業補助金、最大200万円、公式出典確認済み",
+      "hokkaidoPrefecture": "200"
     }
   },
   "batchRules": {

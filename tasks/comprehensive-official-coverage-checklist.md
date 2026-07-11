@@ -2317,4 +2317,15 @@
   - `NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack`: pass。13,172静的ページ生成、`/grant/[slug]` は8,084件超、`/tag/[slug]` は5,013件超をSSG生成。
 - 残課題:
   - build固着ではなくTypeScript型不整合が原因だった。今回のカテゴリ正規化でbuildは成功。
-  - Vercelデプロイはこのカテゴリ正規化コミット後に実施する。
+  - Vercel prebuilt deployは通常アップロードで `Request body too large. Limit: 10mb` が発生したため、`--archive=tgz` で再実行して成功。
+- デプロイ:
+  - `NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 300s npx vercel build --prod --yes`: pass。`.vercel/output` は約3.2GB・118,569ファイル、圧縮アップロードは478.6MB。
+  - `timeout 900s npx vercel deploy --prebuilt --prod --yes --archive=tgz`: READY。
+  - deployment: `dpl_DZwZBWNprfJzzHgz6ZUdrhNBRCbC`
+  - production: `https://joseikin-navi-site-nq400vbbr-banjo-yujis-projects.vercel.app`
+  - alias: `https://joseikin-navi-site.vercel.app`
+  - inspector: `https://vercel.com/banjo-yujis-projects/joseikin-navi-site/DZwZBWNprfJzzHgz6ZUdrhNBRCbC`
+- 本番代表確認:
+  - `https://joseikin-navi-site.vercel.app/grant/rausu-birth-celebration-grant-2026/`: 200。`羅臼町 出産祝金支給事業`、`子ども1人50万円`、`公式出典確認済み` を確認。
+  - `https://joseikin-navi-site.vercel.app/grant/rausu-entrepreneur-support-subsidy-2026/`: 200。`羅臼町 起業支援事業補助金`、`最大200万円`、`公式出典確認済み` を確認。
+  - `https://joseikin-navi-site.vercel.app/prefecture/%E5%8C%97%E6%B5%B7%E9%81%93/`: 200。
