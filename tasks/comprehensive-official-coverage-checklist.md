@@ -2764,6 +2764,20 @@
     - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
     - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-029-snippets.json`: pass
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 厚真町・洞爺湖町・安平町・むかわ町）:
+  - 状態: 第2巡030として、第12バッチから第13バッチ先頭までの4自治体の未掲載候補を再確認。厚真町・洞爺湖町・安平町・むかわ町はいずれも第1巡反映済み制度、カテゴリ/一覧、古いリンク、終了済み制度、PDF表抽出不安定、又は金額/上限・対象条件・申請条件・受付状況不足に該当し、制度名・対象・金額/上限・条件・期限/受付状況が揃う新規掲載候補は確認できなかった。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-second-pass-030-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 保留継続:
+    - 厚真町: 住居確保給付金は町独自制度ではなく相談先誘導中心。児童福祉、補助・手当、助成・手当カテゴリは導線のみ。
+    - 洞爺湖町: 医療助成カテゴリの古い個別リンク2件は404。障害者制度一覧、中小企業向け外部支援一覧、創業支援事業計画、住宅税制、子育て応援ガイドブックPDFは個別制度要件又は本文抽出が不足。
+    - 安平町: 児童扶養手当、ひとり親家庭等医療費、重度心身障害者医療費は既存重複と金額/自己負担の切り分けが必要。チャレンジショップはPDF表抽出が不安定。
+    - むかわ町: 物価高対応子育て応援手当は金額・受付状態の本文固定が不足。起業力耕上促進事業は制度詳細が薄く、施設・サービス案内は個別補助金等として固定できない。
+  - 検証:
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-030-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
