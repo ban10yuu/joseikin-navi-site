@@ -2736,6 +2736,20 @@
     - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
     - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-027-snippets.json`: pass
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 滝上町・興部町・西興部村・雄武町）:
+  - 状態: 第2巡028として、第9バッチ後半から第10バッチ中盤までの4自治体の未掲載候補を再確認。滝上町・興部町・西興部村・雄武町はいずれも既存掲載済み制度、古い手当額・一覧/カテゴリ/相談案内、又は金額/上限・対象条件・申請条件・受付状況不足に該当し、制度名・対象・金額/上限・条件・期限/受付状況が揃う新規掲載候補は確認できなかった。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-second-pass-028-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 保留継続:
+    - 滝上町: 古い金額表記の特別児童扶養手当、単なる施設料金・税率ページ、制度一覧のみで個別条件が不足するページは掲載しない。
+    - 興部町: 課トップ、カテゴリ一覧、古い手当額ページ、相談/イベント案内、町外制度誘導のみのページは個別制度要件が揃わないため掲載しない。
+    - 西興部村: 燃料費高騰事業者等支援金、福祉施設食材費高騰対策、物価高対応子育て応援手当、空家等解体撤去事業は個別の対象・金額・申請条件又は上限確認が不足。
+    - 雄武町: 快適住まいづくり支援制度は受付状態と補助額の本文確認が弱い。住まいのゼロカーボン化推進事業補助金は補助額/上限の本文抽出不足。
+  - 検証:
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-028-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
