@@ -1,0 +1,11 @@
+{
+  "batchId": "hokkaido-batch-006",
+  "prefecture": "北海道",
+  "startedAt": "2026-07-11",
+  "basis": "第2段高速化により、利尻町完了後の自治体コード順3自治体を同一集約単位でDiscoveryする。",
+  "municipalities": [
+    { "code": "01519", "name": "利尻富士町", "officialBaseUrl": "https://www.town.rishirifuji.hokkaido.jp/rishirifuji/" },
+    { "code": "01520", "name": "幌延町", "officialBaseUrl": "https://www.town.horonobe.lg.jp/" },
+    { "code": "01543", "name": "美幌町", "officialBaseUrl": "https://www.town.bihoro.hokkaido.jp/" }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "batchId": "hokkaido-batch-005-rishiri-only",
+  "prefecture": "北海道",
+  "startedAt": "2026-07-11",
+  "basis": "hokkaido-batch-005-shortlist.csvに利尻町01518行が存在しないため、batch-005末尾自治体を公式URLから補完Discoveryする。",
+  "municipalities": [
+    { "code": "01518", "name": "利尻町", "officialBaseUrl": "https://www.town.rishiri.hokkaido.jp/" }
+  ]
+}
