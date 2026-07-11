@@ -1,0 +1,28 @@
+{
+  "batchId": "hokkaido-batch-005",
+  "prefecture": "北海道",
+  "startedAt": "2026-07-11",
+  "basis": "自治体コード順。hokkaido-batch-004の和寒町までを反映済みとして、次の20自治体を対象にする。",
+  "municipalities": [
+    { "code": "01465", "name": "剣淵町", "officialBaseUrl": "https://www.town.kembuchi.hokkaido.jp/" },
+    { "code": "01468", "name": "下川町", "officialBaseUrl": "https://www.town.shimokawa.hokkaido.jp/" },
+    { "code": "01469", "name": "美深町", "officialBaseUrl": "https://www.town.bifuka.hokkaido.jp/" },
+    { "code": "01470", "name": "音威子府村", "officialBaseUrl": "https://www.vill.otoineppu.hokkaido.jp/" },
+    { "code": "01471", "name": "中川町", "officialBaseUrl": "https://www.town.nakagawa.hokkaido.jp/" },
+    { "code": "01472", "name": "幌加内町", "officialBaseUrl": "https://www.town.horokanai.hokkaido.jp/" },
+    { "code": "01481", "name": "増毛町", "officialBaseUrl": "https://www.town.mashike.hokkaido.jp/" },
+    { "code": "01482", "name": "小平町", "officialBaseUrl": "https://www.town.obira.hokkaido.jp/" },
+    { "code": "01483", "name": "苫前町", "officialBaseUrl": "http://www.town.tomamae.lg.jp/" },
+    { "code": "01484", "name": "羽幌町", "officialBaseUrl": "https://www.town.haboro.lg.jp/" },
+    { "code": "01485", "name": "初山別村", "officialBaseUrl": "https://www.vill.shosanbetsu.lg.jp/" },
+    { "code": "01486", "name": "遠別町", "officialBaseUrl": "https://www.town.embetsu.hokkaido.jp/" },
+    { "code": "01487", "name": "天塩町", "officialBaseUrl": "https://www.teshiotown.hokkaido.jp/" },
+    { "code": "01511", "name": "猿払村", "officialBaseUrl": "https://www.vill.sarufutsu.hokkaido.jp/" },
+    { "code": "01512", "name": "浜頓別町", "officialBaseUrl": "http://www.town.hamatonbetsu.hokkaido.jp/" },
+    { "code": "01513", "name": "中頓別町", "officialBaseUrl": "https://www.town.nakatombetsu.hokkaido.jp/" },
+    { "code": "01514", "name": "枝幸町", "officialBaseUrl": "https://www.esashi.jp/" },
+    { "code": "01516", "name": "豊富町", "officialBaseUrl": "https://www.town.toyotomi.hokkaido.jp/" },
+    { "code": "01517", "name": "礼文町", "officialBaseUrl": "https://www.town.rebun.hokkaido.jp/" },
+    { "code": "01518", "name": "利尻町", "officialBaseUrl": "https://www.town.rishiri.hokkaido.jp/" }
+  ]
+}
