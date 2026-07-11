@@ -1,0 +1,31 @@
+{
+  "batchId": "hokkaido-batch-014",
+  "prefecture": "北海道",
+  "municipalities": [
+    {
+      "code": "01604",
+      "name": "新冠町",
+      "officialBaseUrl": "https://www.niikappu.jp/"
+    },
+    {
+      "code": "01607",
+      "name": "浦河町",
+      "officialBaseUrl": "https://www.town.urakawa.hokkaido.jp/"
+    },
+    {
+      "code": "01608",
+      "name": "様似町",
+      "officialBaseUrl": "https://www.samani.jp/"
+    },
+    {
+      "code": "01609",
+      "name": "えりも町",
+      "officialBaseUrl": "https://www.town.erimo.lg.jp/"
+    },
+    {
+      "code": "01610",
+      "name": "新ひだか町",
+      "officialBaseUrl": "https://www.shinhidaka-hokkaido.jp/"
+    }
+  ]
+}

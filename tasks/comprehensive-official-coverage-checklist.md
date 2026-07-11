@@ -1801,3 +1801,43 @@
   - `npm run audit:coverage`: pass（failures 0、北海道 localOfficial 2378）
 - 次地点:
   - 第13バッチ集約監査・commit後、`01604 新冠町` から次バッチへ進む。
+
+### 第14バッチ Discovery（新冠町・浦河町・様似町・えりも町・新ひだか町）
+
+- 状態: 第14バッチDiscovery実行、新冠町の第1巡Verification・データ反映・軽量検証まで完了。浦河町以降を継続中。
+- 確認日: 2026-07-11
+- Discovery:
+  - `tasks/discovery/hokkaido-batch-014-municipalities.json`
+  - `tasks/discovery/hokkaido-batch-014-candidates.json`
+  - `tasks/discovery/hokkaido-batch-014-niikappu-snippets.json`
+  - 新冠町: discovered 300 / candidates 140 / strong 4 / lowPriority 136
+  - 浦河町: discovered 300 / candidates 84 / strong 0 / lowPriority 84
+  - 様似町: discovered 4 / candidates 0 / strong 0 / lowPriority 0（公式sitemap/カテゴリ補完が必要）
+  - えりも町: discovered 300 / candidates 138 / strong 0 / lowPriority 138
+  - 新ひだか町: discovered 300 / candidates 87 / strong 0 / lowPriority 87
+- 今回反映:
+  - 新冠町: 16件（妊婦支援給付、不妊・不育症治療、産後ケア、住宅取得奨励、子育て世代住宅取得、合併処理浄化槽、中古住宅取得物件リフォーム、中古住宅流通、住宅リフォーム、物価高騰家計応援、特別児童扶養手当、軽度・中等度難聴児補聴器、家族介護用品、介護職員研修、長寿祝金、社会福祉振興補助）
+  - 浦河町: 35件（生ごみ処理、文化・スポーツ合宿交通/宿泊、結婚新生活、空き家バンク、生活体験住宅、住宅新築リフォーム、U/Iターン、介護職員研修、肺炎球菌、ピロリ菌、家族介護用品、自動車改造/免許、妊婦支援給付、子育て家庭医療費、不妊治療、不育症、児童手当、乳幼児等医療、ひとり親医療、学校給食費多子減免、保育士資格、漁業担い手、事業承継、空き店舗、特産品PR、創業、UIJターン移住、新規学卒者雇用、まちづくり、防犯カメラ、医師修学資金、看護師等修学資金、電気牧柵）
+  - 様似町: 14件（妊婦支援給付、周産期医療通院費、出産お祝い品、子ども医療費無料化、高校生奨学資金、遠距離通学費、情報端末購入費、住宅新築リフォーム、空き家解体、漁業担い手、高齢運転者免許自主返納、交通空白地有償運送運転者講習、独居高齢者火災警報器、結婚新生活）
+- 候補・掲載見送り:
+  - 新冠町 医療費助成制度（重度心身障がい者、ひとり親家庭等、子ども医療）: 公式ページ上では制度名のみ確認できるが、対象・自己負担・助成範囲の詳細本文が不足するため第1巡では保留。
+  - 新冠町 令和7年度あったか暖房費助成: 候補URLが404のため掲載しない。現行ページが復旧又は別URLで確認できた場合に再確認する。
+  - 新冠町 高齢者福祉・障害者福祉のサービス一覧: 介護用品、介護職員研修、補聴器、長寿祝金、社会福祉振興補助など金額・対象が本文で固定できたものだけ採用し、金額や申請条件が弱いサービス案内は保留。
+  - 浦河町 予防接種の一部（帯状疱疹、町外接種、風しん等）: 公式ページで公費負担又は助成制度は確認したが、自己負担・助成額又は対象年度の本文抽出が不足するため保留。
+  - 浦河町 妊産婦安心出産支援事業: 対象者と申請期限は確認したが、交通費・宿泊費の距離区分/金額が別PDF確認待ちのため第1巡では保留。
+  - 浦河町 重度心身障がい者医療費、特別児童扶養手当、特別障害者手当、障害児福祉手当: 公式ページ到達は確認したが、所得制限表と支給額・自己負担額の抽出が混ざるため、第2巡で本文を分割確認する。
+  - 浦河町 中小事業者向け補助制度、特産品開発支援、母子福祉資金利子補給、子育て木育、出産育児一時金等: 制度導線又は通常行政/国保制度色が強いもの、又は対象・金額・受付状況の個別確認が不足するものは保留又は掲載対象外とした。
+  - 様似町 HTTPS公式サイト: `tlsv1 unrecognized name` で取得失敗。HTTP公式サイトは200で、公式ページ/PDF到達確認はHTTP URLで実施した。
+  - 様似町 不妊治療費助成PDF: 公式リンクは候補化したが第1巡のPDF取得が失敗したため掲載せず、次巡で再取得する。
+  - 様似町 医療費助成の一部（ひとり親、重度心身障がい者、未熟児養育医療）: 公式ページは確認したが、同一ページ内の対象・自己負担・所得条件の切り出しを第2巡へ回す。
+  - 様似町 中小・小規模企業賃上げ環境整備等支援事業費補助金: 北海道事業の募集案内であり、様似町独自制度としては掲載しない。
+- 軽量検証:
+  - slug重複確認: 重複0（新冠町16件、浦河町35件、様似町14件）
+  - `node scripts/check-grant-source-urls.mjs --prefix niikappu- --timeout-ms 60000 --concurrency 4`: 16件確認、失敗0
+  - `node scripts/check-grant-source-urls.mjs --prefix urakawa- --timeout-ms 60000 --concurrency 4`: 35件確認、失敗0
+  - `node scripts/check-grant-source-urls.mjs --prefix samani- --timeout-ms 60000 --concurrency 4`: 14件確認、失敗0
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/official-coverage-checkpoint.json tasks/comprehensive-official-coverage-checklist.md tasks/discovery/hokkaido-batch-014-municipalities.json tasks/discovery/hokkaido-batch-014-niikappu-snippets.json tasks/discovery/hokkaido-batch-014-urakawa-snippets.json tasks/discovery/hokkaido-batch-014-samani-snippets.json`: pass
+  - `npm run audit:coverage`: pass（failures 0、北海道 localOfficial 2443）
+- 次地点:
+  - 第14バッチ前半をcommit後、自治体コード順で `01609 えりも町` へ進む。次に `01610 新ひだか町` を同一集約単位で処理する。
