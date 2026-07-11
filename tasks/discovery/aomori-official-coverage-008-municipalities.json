@@ -1,0 +1,26 @@
+{
+  "batchId": "aomori-comprehensive-official-coverage-008",
+  "prefecture": "青森県",
+  "municipalities": [
+    {
+      "code": "02401",
+      "name": "野辺地町",
+      "officialBaseUrl": "https://www.town.noheji.aomori.jp/"
+    },
+    {
+      "code": "02402",
+      "name": "七戸町",
+      "officialBaseUrl": "https://www.town.shichinohe.lg.jp/"
+    },
+    {
+      "code": "02405",
+      "name": "六戸町",
+      "officialBaseUrl": "https://www.town.rokunohe.aomori.jp/"
+    },
+    {
+      "code": "02406",
+      "name": "横浜町",
+      "officialBaseUrl": "https://www.town.yokohama.lg.jp/"
+    }
+  ]
+}

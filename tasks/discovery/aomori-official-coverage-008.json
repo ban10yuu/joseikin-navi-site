@@ -1,0 +1,73 @@
+{
+  "batchId": "aomori-comprehensive-official-coverage-008",
+  "prefecture": "青森県",
+  "completedAt": "2026-07-12T08:54:17+09:00",
+  "municipalities": [
+    { "code": "02401", "name": "野辺地町", "adopted": 4 },
+    { "code": "02402", "name": "七戸町", "adopted": 8 },
+    { "code": "02405", "name": "六戸町", "adopted": 5 },
+    { "code": "02406", "name": "横浜町", "adopted": 12 }
+  ],
+  "discovery": {
+    "input": "tasks/discovery/aomori-official-coverage-008-municipalities.json",
+    "candidates": "tasks/discovery/aomori-official-coverage-008-candidates.json",
+    "snippets": "tasks/discovery/aomori-official-coverage-008-snippets.json",
+    "candidateCount": 922,
+    "snippetRows": 260,
+    "note": "shortlistが150件を超えたため、制度語・金額・対象・期限表現を含む短い本文スニペットへ再スコアリングして採否判断した。"
+  },
+  "adopted": [
+    "noheji-single-parent-medical-expense-subsidy-2026",
+    "noheji-severe-disability-medical-expense-subsidy-2026",
+    "noheji-septic-tank-installation-subsidy-2026",
+    "noheji-nuclear-area-business-location-electricity-grant-2026",
+    "shichinohe-migration-support-2026",
+    "shichinohe-marriage-new-life-support-2026",
+    "shichinohe-medical-welfare-childcare-migration-support-2026",
+    "shichinohe-local-job-student-support-2026",
+    "shichinohe-nanairo-home-subsidy-2026",
+    "shichinohe-matching-system-registration-subsidy-2026",
+    "shichinohe-residential-solar-storage-subsidy-2026",
+    "shichinohe-shingles-vaccination-subsidy-2026",
+    "rokunohe-new-house-settlement-subsidy-2026",
+    "rokunohe-single-parent-medical-expense-subsidy-2026",
+    "rokunohe-infant-medical-expense-subsidy-2026",
+    "rokunohe-hearing-aid-purchase-subsidy-2026",
+    "rokunohe-residential-solar-storage-subsidy-2026",
+    "yokohama-migration-support-2026",
+    "yokohama-marriage-new-life-support-2026",
+    "yokohama-safe-housing-renovation-subsidy-2026",
+    "yokohama-settlement-rent-subsidy-2026",
+    "yokohama-settlement-new-house-subsidy-2026",
+    "yokohama-septic-tank-installation-subsidy-2026",
+    "yokohama-single-treatment-tank-removal-subsidy-2026",
+    "yokohama-birth-celebration-grant-2026",
+    "yokohama-child-medical-expense-subsidy-2026",
+    "yokohama-price-hike-childcare-support-allowance-2026",
+    "yokohama-hearing-aid-purchase-subsidy-2026",
+    "yokohama-bone-marrow-donor-support-subsidy-2026"
+  ],
+  "held": [
+    "七戸町の空き家等情報バンク制度は物件登録制度で、補助金・助成金の個別支給ページではないため第2巡候補に残す。",
+    "六戸町の奨学資金は貸付制度のため今回の補助金・助成金等データには採用しない。",
+    "六戸町の県外里帰り健診・予防接種償還払いは複数制度案内で上限が一部資料参照のため、第2巡で個別上限を再確認する。",
+    "横浜町の賃貸住宅・アパート情報、定住促進住宅は情報提供・住宅供給ページであり個別給付制度としては低優先に残す。"
+  ],
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "duplicateSlugs": 0,
+    "urlReachability": "pass: checked 29, failures 0",
+    "jsonParse": "pass",
+    "diffCheck": "pass",
+    "auditCoverage": "pass: failures 0, activePublished 7571, officialLinkedActive 7533, manuallyVerifiedActive 7533, Aomori localOfficial 181"
+  },
+  "next": {
+    "batchId": "aomori-comprehensive-official-coverage-009",
+    "municipalities": [
+      { "code": "02408", "name": "東北町" },
+      { "code": "02411", "name": "六ヶ所村" },
+      { "code": "02412", "name": "おいらせ町" },
+      { "code": "02423", "name": "大間町" }
+    ]
+  }
+}
