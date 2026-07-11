@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-11T21:20:00+09:00",
+  "updatedAt": "2026-07-11T17:58:00+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "01555",
-    "municipality": "遠軽町",
-    "adopted": 35,
-    "held": 8,
-    "excluded": 10,
-    "sourceUrlsChecked": 52,
+    "code": "01561",
+    "municipality": "興部町",
+    "adopted": 13,
+    "held": 18,
+    "excluded": 49,
+    "sourceUrlsChecked": 13,
     "validation": {
-      "previousMunicipality": "置戸町: adopted 26, held 4, excluded 8, sourceUrlsChecked 37; 佐呂間町: adopted 19, held 5, excluded 12, sourceUrlsChecked 21",
+      "previousMunicipality": "湧別町: adopted 39, held 9, excluded 14, sourceUrlsChecked 39; 滝上町: adopted 14, held 10, excluded 24, sourceUrlsChecked 17",
       "eslint": "pass for src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "engaru 52 checked, 0 failures",
+      "urlReachability": "okoppe 13 checked, 0 failures; batch total checked 69 source URLs including PDFs",
       "diffCheck": "pass for grant data file",
-      "auditCoverage": "pass after engaru addition"
+      "auditCoverage": "pass after batch-009 addition; failures 0; Hokkaido localOfficial 2248"
     }
   },
   "next": {
-    "code": "01559",
-    "municipality": "湧別町",
-    "shortlist": "hokkaido-batch-009-candidates.json generated; 湧別町 discovered 300 / candidates 241 / strong 7 / lowPriority 234",
-    "instructions": "遠軽町35件は公式本文又は公式PDFで必須項目が揃ったものを採用済み。ペレットストーブ、帯状疱疹、妊婦支援給付、新生児聴覚、脳ドック、膵臓・胆のうドック等は金額/上限又は本文不足で保留。遠軽町はcommit済み。次は湧別町の補助・助成・支援一覧、教育、医療給付、住宅、産業カテゴリから個別制度ページ/PDFを確認する。"
+    "code": "01562",
+    "municipality": "西興部村",
+    "shortlist": "not generated yet; create hokkaido-batch-010 with 西興部村 and subsequent municipalities in code order",
+    "instructions": "第9バッチは湧別町39件・滝上町14件・興部町13件、計66件を公式本文/PDF確認後に反映済み。eslint、diff check、slug重複、URL到達、audit:coverageは通過。次は自治体コード順で01562西興部村から第10バッチDiscoveryを作成し、同じ二段階方式でVerificationへ進む。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

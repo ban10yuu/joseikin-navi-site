@@ -1638,7 +1638,7 @@
 
 ### 第9バッチ Discovery（湧別町・滝上町・興部町）
 
-- 状態: Discovery完了、湧別町の第1巡Verification未着手
+- 状態: 第9バッチ（湧別町・滝上町・興部町）第1巡Verification・データ反映・集約監査済み
 - 確認日: 2026-07-11
 - Discovery:
   - `tasks/discovery/hokkaido-batch-009-municipalities.json`
@@ -1647,7 +1647,22 @@
   - 滝上町: discovered 300 / candidates 110 / strong 0 / lowPriority 110
   - 興部町: discovered 300 / candidates 202 / strong 2 / lowPriority 200
 - 湧別町の次確認候補:
-  - 補助・助成・支援一覧、子育て・教育、医療給付、住宅・土地、しごと・産業カテゴリから個別制度ページ/PDFを確認する。
-  - 代表候補: 空き家除却、空き家流通、定住住宅取得、民間賃貸住宅等取得/建設、住宅建設・改造、給水装置設置、自動車急発進防止、迷惑電話対策、医療給付、介護職員研修、妊婦支援、不妊治療、予防接種、児童手当、奨学金貸付/返還支援、就学・通学、生涯学習、芸術文化、スポーツ・文化遠征、創業、技能検定、通年雇用、商工業活性化、地域づくり。
+  - 完了: 公式個別ページで必須項目を確認できた39件を `verified-local-misc-2026.ts` へ追加。結婚新生活、子育て応援祝金、妊婦支援、不妊治療、妊産婦交通、1カ月児健診、予防接種、児童手当、児童扶養、特別児童扶養、乳幼児/ひとり親/未熟児/重度障害医療、再接種、成人健診、乳幼児ごみ袋、奨学金貸付/返還、通学/ヘルメット、生涯学習、スポーツ文化遠征、スタートアップ、技能検定、通年雇用、商工業活性化、中小企業、地域づくり、イベント、空き家除却/流通、定住住宅、民間賃貸住宅、給水装置、急発進防止、迷惑電話、狩猟免許、介護職員研修。
+  - 保留/低優先: 芸術文化奨励、母子父子寡婦福祉資金貸付、成人健診の細目など、金額/上限又は制度個別条件の本文抽出が弱い候補。
+  - 軽量検証: `npx eslint src/data/grants/verified-local-misc-2026.ts` pass、slug重複0、`git diff --check -- src/data/grants/verified-local-misc-2026.ts` pass、`node scripts/check-grant-source-urls.mjs --prefix yubetsu- --timeout-ms 60000 --concurrency 4` は39件checked/0 failures。
+- 滝上町の確認結果:
+  - 完了: 公式HTML/PDFで必須項目を確認できた14件を追加。高齢者あんしん見守り、子ども/ひとり親/重度心身障害者医療、こども誰でも通園、児童扶養、児童手当、不妊治療、初回産科、多胎妊婦健診、特別弔慰金、住宅支援、再エネ設備、出産準備金。
+  - 保留/低優先: 古い金額表記の特別児童扶養手当、単なる施設料金・税率ページ、制度一覧のみで個別条件が不足するページ。
+  - 軽量検証: `node scripts/check-grant-source-urls.mjs --prefix takinoue- --timeout-ms 60000 --concurrency 4` は17 URL checked/0 failures。
+- 興部町の確認結果:
+  - 完了: 公式HTMLで必須項目を確認できた13件を追加。紋別空港住民旅行、企業振興、産業開発奨励、自転車ヘルメット、妊婦支援、定額減税不足額給付、防犯電話録音装置、妊産婦安心出産、不妊治療、子育て支援員研修、1か月児健診、産後ケア、日常生活用具。
+  - 保留/低優先: 課トップ、カテゴリ一覧、古い手当額ページ、相談/イベント案内、町外制度への誘導のみのページ。
+  - 軽量検証: `node scripts/check-grant-source-urls.mjs --prefix okoppe- --timeout-ms 60000 --concurrency 4` は13 URL checked/0 failures。
+- 第9バッチ集約検証:
+  - 追加: 湧別町39件、滝上町14件、興部町13件、計66件。
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+  - slug重複: 0（`yubetsu-` 39、`takinoue-` 14、`okoppe-` 13）。
+  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/official-coverage-checkpoint.json tasks/comprehensive-official-coverage-checklist.md`: pass。
+  - `npm run audit:coverage`: pass、failures 0、北海道 localOfficial 2248。
 - 次地点:
-  - 自治体コード順で `01559 湧別町` のVerificationへ進む。
+  - 自治体コード順で `01562 西興部村` から第10バッチDiscoveryを作成し、Verificationへ進む。
