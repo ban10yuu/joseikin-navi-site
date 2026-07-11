@@ -18,10 +18,18 @@
     }
   },
   "next": {
-    "code": "hokkaido-prefecture-audit",
-    "municipality": "北海道節目監査",
-    "shortlist": "羅臼町検証・commit後、北海道の自治体コード順棚卸し末尾到達として節目監査へ進む",
-    "instructions": "slug重複、eslint、羅臼町URL到達、diff check、audit:coverageを実行。通過後にcommitし、北海道節目の上限付きbuildと必要なデプロイ確認へ進む。"
+    "code": "hokkaido-prefecture-deploy",
+    "municipality": "北海道節目デプロイ確認",
+    "shortlist": "北海道の自治体コード順棚卸し末尾到達。カテゴリ型正規化後の上限付きbuildは成功。",
+    "instructions": "カテゴリ正規化をcommit後、必要なVercelデプロイと本番代表ページ確認へ進む。build確認コマンド: NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack"
+  },
+  "prefectureMilestone": {
+    "prefecture": "北海道",
+    "build": {
+      "command": "NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack",
+      "status": "pass",
+      "notes": "初回は旧カテゴリ business/welfare/migration 等の GrantCategory 型不整合で失敗。verified-local-misc-2026.ts のカテゴリ値を現行8カテゴリへ正規化後、13,172静的ページ生成まで成功。"
+    }
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

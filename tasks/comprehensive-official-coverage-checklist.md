@@ -2305,3 +2305,16 @@
   - `npm run audit:coverage`: pass（failures 0、activePublished 7408、officialLinkedActive 7370、manuallyVerifiedActive 7370、北海道 localOfficial 3013）
 - 次地点:
   - 羅臼町20件の検証・commit後、北海道の自治体コード順棚卸しは末尾到達。北海道節目監査、上限付きbuild、必要に応じたデプロイ確認へ進む。
+
+### 北海道末尾到達時の節目build確認
+
+- 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
+- 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
+- 検証:
+  - 型定義外カテゴリ確認: 0件
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts`: pass
+  - `NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack`: pass。13,172静的ページ生成、`/grant/[slug]` は8,084件超、`/tag/[slug]` は5,013件超をSSG生成。
+- 残課題:
+  - build固着ではなくTypeScript型不整合が原因だった。今回のカテゴリ正規化でbuildは成功。
+  - Vercelデプロイはこのカテゴリ正規化コミット後に実施する。
