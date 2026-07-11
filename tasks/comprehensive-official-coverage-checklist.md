@@ -2610,6 +2610,20 @@
     - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
     - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-018-snippets.json`: pass
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 中富良野町・南富良野町・占冠村・和寒町）:
+  - 状態: 第2巡019として、batch-004末尾4自治体の未掲載候補を再確認。中富良野町・南富良野町・占冠村・和寒町はいずれも既存掲載済み制度、通常行政サービス、国制度、現行受付疑義、又は金額/上限・受付状況不足に該当し、制度名・対象・金額/上限・条件・期限/受付状況が揃う新規掲載候補は確認できなかった。これでbatch-004の第2巡保留整理は末尾まで到達。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-second-pass-019-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 保留継続:
+    - 中富良野町: 帯状疱疹ワクチン任意接種は助成額又は自己負担額不足、木質ペレットストーブ等設置補助は現行受付疑義、通園・国保・住宅等は通常サービス又は国制度として扱う。
+    - 南富良野町: 鳥獣害駆除免許取得奨励金、特産品開発支援、水洗化等改造補助、農業振興融資等は金額・条件・現行受付状況又は必須項目不足。
+    - 占冠村: 就学援助は支給額不足、猫の無料不妊手術事業は住民向け補助としての整理不足。児童手当・住宅・移住等は国制度又は通常行政サービスとして扱う。
+    - 和寒町: 妊産婦健診・就学援助・任意予防接種・おでかけハイヤー・受入農家支援補助は助成額/支給額/補助額不足。児童手当等は国制度として扱う。
+  - 検証:
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-019-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
