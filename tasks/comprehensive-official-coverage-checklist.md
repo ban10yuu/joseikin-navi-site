@@ -2568,6 +2568,20 @@
     - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
     - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-015-snippets.json`: pass
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 雨竜町・北竜町・沼田町・鷹栖町）:
+  - 状態: 第2巡016として、batch-004中盤4自治体の未掲載候補を再確認。雨竜町・北竜町・沼田町・鷹栖町はいずれも既存掲載済み制度、通常行政サービス、国・道制度、終了済み制度、又は金額/上限・令和8年度受付状況不足に該当し、制度名・対象・金額/上限・条件・期限/受付状況が揃う新規掲載候補は確認できなかった。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-second-pass-016-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 既存掲載済み・保留:
+    - 雨竜町: 任意インフルエンザ予防接種は自己負担ありまで確認したが助成額又は自己負担額が不足。児童手当・国保・障害福祉等は全国標準制度又は通常窓口案内として扱う。
+    - 北竜町: 児童手当・障がい者手当等は国制度として扱い、奨学資金RTF申請書URLはHTTP 404のためsourceUrlsから除外。事業一覧や一般割引等は個別補助・給付要件不足。
+    - 沼田町: 休業協力金等は終了済み又は国・道制度周知、予防接種助成は令和8年度詳細未定、公営住宅・施設使用料等は個別補助としての確認が不足。
+    - 鷹栖町: 農業補助・森林づくり補助・振興補助金は制度名・対象を確認したが、補助率・上限が要綱PDF等の追加確認依存のため保留。
+  - 検証:
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-016-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:

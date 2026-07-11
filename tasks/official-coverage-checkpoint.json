@@ -2,26 +2,26 @@
   "updatedAt": "2026-07-12T03:31:05+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "hokkaido-second-pass-015",
+    "code": "hokkaido-second-pass-016",
     "municipality": "北海道第2巡保留候補整理",
     "adopted": 0,
-    "held": 14,
+    "held": 10,
     "excluded": 0,
-    "sourceUrlsChecked": 14,
+    "sourceUrlsChecked": 10,
     "validation": {
-      "previousMunicipality": "浦臼町・新十津川町・妹背牛町・秩父別町の第2巡候補を確認。既存掲載済み制度、通常行政サービス、国制度、リンク先不一致、現行性疑義、又は金額/上限・受付状況不足の候補が中心で、新規採用は0件。",
+      "previousMunicipality": "雨竜町・北竜町・沼田町・鷹栖町の第2巡候補を確認。既存掲載済み制度、通常行政サービス、国・道制度、終了済み制度、又は金額/上限・令和8年度受付状況不足の候補が中心で、新規採用は0件。",
       "eslint": "skipped: no data changes",
       "duplicateSlugs": 0,
       "urlReachability": "skipped: no added slugs",
-      "diffCheck": "pass: git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-015-snippets.json",
+      "diffCheck": "pass: git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-016-snippets.json",
       "auditCoverage": "skipped: no data changes; aggregate at next data batch"
     }
   },
   "next": {
-    "code": "hokkaido-second-pass-016",
+    "code": "hokkaido-second-pass-017",
     "municipality": "北海道第2巡保留候補",
-    "shortlist": "第2巡015までで、浦臼町・新十津川町・妹背牛町・秩父別町の保留候補を整理し、新規採用0件。",
-    "instructions": "次は北海道第2巡016として、雨竜町・北竜町・沼田町・鷹栖町などbatch-004中盤候補を自治体コード順に継続確認する。公式個別ページ/PDFで制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ追加する。"
+    "shortlist": "第2巡016までで、雨竜町・北竜町・沼田町・鷹栖町の保留候補を整理し、新規採用0件。",
+    "instructions": "次は北海道第2巡017として、東神楽町・当麻町・比布町・愛別町などbatch-004後続候補を自治体コード順に継続確認する。公式個別ページ/PDFで制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ追加する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
