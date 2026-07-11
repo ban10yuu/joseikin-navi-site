@@ -1,0 +1,108 @@
+{
+  "batchId": "hokkaido-second-pass-014",
+  "checkedAt": "2026-07-12T03:26:27+09:00",
+  "scope": "北海道第2巡保留候補のうち由仁町・長沼町・栗山町・月形町",
+  "municipalities": [
+    {
+      "code": "01427",
+      "name": "由仁町",
+      "adopted": 0,
+      "held": [
+        {
+          "title": "令和6年度物価高騰等支援給付金",
+          "reason": "過年度ページで、現行受付又は期限を確認できないため掲載しない。"
+        },
+        {
+          "title": "定額減税不足額給付金",
+          "reason": "国制度色が強く、町独自制度としての整理が必要なため第2巡候補に残す。"
+        },
+        {
+          "title": "児童手当・児童扶養手当・特別児童扶養手当・国保/後期高齢者医療等",
+          "reason": "全国標準制度又は通常窓口案内で、町独自の個別補助・給付としては扱わない。"
+        }
+      ]
+    },
+    {
+      "code": "01428",
+      "name": "長沼町",
+      "adopted": 0,
+      "held": [
+        {
+          "title": "住宅用太陽光発電補助",
+          "reason": "公式ページに新規採択予定なしと明記されているため掲載しない。"
+        },
+        {
+          "title": "チャイルドシート購入費助成",
+          "reason": "2024年12月30日受付終了の長期期限切れとして掲載しない。"
+        },
+        {
+          "title": "町内就業者定住促進家賃助成",
+          "reason": "企業誘致特設サイトからの町公式リンク先が404で、現行制度は既存の子育て世帯定住促進家賃助成として扱う。"
+        }
+      ]
+    },
+    {
+      "code": "01429",
+      "name": "栗山町",
+      "adopted": 0,
+      "held": [
+        {
+          "title": "妊産婦健診費用助成・妊婦歯科健康診査",
+          "reason": "受診票交付又は個別案内は確認したが、助成額・無料条件・回数の公式本文確認が不足するため掲載しない。"
+        },
+        {
+          "title": "令和7年度高齢者インフルエンザ・新型コロナワクチン助成",
+          "reason": "2026年1月31日期限到来済みで、令和8年度案内を確認できないため掲載しない。"
+        },
+        {
+          "title": "障害福祉サービス・日常生活用具給付・町営住宅等",
+          "reason": "通常行政サービス又は個別補助としての金額/上限・受付状況が不足する候補は掲載しない。"
+        }
+      ]
+    },
+    {
+      "code": "01430",
+      "name": "月形町",
+      "adopted": 0,
+      "held": [
+        {
+          "title": "特別児童扶養手当",
+          "reason": "公式本文の月額が令和7年4月額で、令和8年度現行額として扱えないため掲載保留。"
+        },
+        {
+          "title": "国民健康保険の出産育児一時金・葬祭費・高額療養費等",
+          "reason": "国保通常給付の一括ページで、町独自上乗せ又は現行金額を個別確認できるものだけ掲載対象とする。"
+        },
+        {
+          "title": "地域おこし協力隊募集・保育園留学・移住リンク集等",
+          "reason": "募集・施設・通常行政手続き又はリンク集であり、補助・給付の個別制度要件が揃わない。"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "adopted": 0,
+    "held": 12,
+    "excluded": 0,
+    "sourceUrlsChecked": 12,
+    "notes": "4自治体とも第1巡掲載済み制度又は通常行政/国制度/期限切れ/金額不足の候補が中心で、新規に制度名・対象・金額/上限・条件・期限/受付状況が揃う未掲載制度は確認できなかった。"
+  },
+  "validation": {
+    "dataFileChanged": false,
+    "eslint": "skipped: no data changes",
+    "duplicateSlugs": 0,
+    "urlReachability": "skipped: no added slugs",
+    "diffCheck": "pass: git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-014-snippets.json",
+    "auditCoverage": "skipped: no data changes; aggregate at next data batch"
+  },
+  "next": {
+    "code": "hokkaido-second-pass-015",
+    "municipalities": [
+      "浦臼町",
+      "新十津川町",
+      "妹背牛町",
+      "秩父別町"
+    ],
+    "instructions": "北海道第2巡015として、batch-004前方の保留候補を自治体コード順に確認する。公式個別ページ/PDFで制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ追加する。"
+  }
+}
