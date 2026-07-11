@@ -1,26 +1,27 @@
 {
-  "updatedAt": "2026-07-11T17:18:00+09:00",
+  "updatedAt": "2026-07-11T18:58:00+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "01546",
-    "municipality": "清里町",
-    "adopted": 22,
+    "code": "01549",
+    "municipality": "訓子府町",
+    "adopted": 28,
     "held": 5,
-    "excluded": 7,
-    "sourceUrlsChecked": 22,
+    "excluded": 5,
+    "sourceUrlsChecked": 37,
     "validation": {
-      "eslint": "npx eslint src/data/grants/verified-local-misc-2026.ts pass",
+      "previousMunicipality": "小清水町: adopted 25, held 6, excluded 8, sourceUrlsChecked 29",
+      "eslint": "pass for src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "22 checked, 0 failures",
-      "diffCheck": "pass for grant data file",
-      "auditCoverage": "failures 0, 北海道 localOfficial 2052"
+      "urlReachability": "kunneppu 37 checked, 0 failures; koshimizu 29 checked, 0 failures",
+      "diffCheck": "pass for grant data file and checklist/checkpoint",
+      "auditCoverage": "pass; failures 0; 北海道 localOfficial 2104"
     }
   },
   "next": {
-    "code": "01547",
-    "municipality": "小清水町",
-    "shortlist": "作成済み",
-    "instructions": "第2段高速化を継続し、小清水町、訓子府町を同一集約単位としてDiscovery/Verificationを進める。清里町は公式本文で必須項目が揃った22件を採用済み。住宅用太陽光は令和8年度休止のため掲載しない。"
+    "code": "01550",
+    "municipality": "置戸町",
+    "shortlist": "未作成",
+    "instructions": "小清水町25件・訓子府町28件は公式本文又は公式PDFで必須項目が揃ったものを採用済み。audit:coverageとcommit後、自治体コード順で置戸町へ進む。次候補は佐呂間町、遠軽町。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
