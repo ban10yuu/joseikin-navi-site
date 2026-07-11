@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-07-12T00:08:00+09:00",
+  "updatedAt": "2026-07-11T22:25:00+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "01648",
-    "municipality": "陸別町",
-    "adopted": 17,
-    "held": 6,
-    "excluded": 4,
-    "sourceUrlsChecked": 17,
+    "code": "01649",
+    "municipality": "浦幌町",
+    "adopted": 34,
+    "held": 5,
+    "excluded": 2,
+    "sourceUrlsChecked": 34,
     "validation": {
-      "previousMunicipality": "陸別町は妊婦健診票・妊婦健診交通費・新生児聴覚検査・出産子育て支援祝金・子ども医療費・ひとり親家庭等医療費・不妊治療2件・医療介護修学資金・新規就農3件・地元雇用・人材確保・バス利用・通学定期・帯状疱疹の17件を公式個別ページ又は公式PDFで確認して追加。産婦健診・産後ケア・一部予防接種・重度心身障害者医療費は金額又は個別ページ確認へ保留。",
+      "previousMunicipality": "浦幌町は住宅取得、耐震診断・改修、住宅リフォーム、未熟児養育医療、妊産婦交通・宿泊、生殖補助医療、不育症、紙おむつ、妊婦支援給付、高校通学・下宿、太陽光、ペレットストーブ、友好市町村交流、店舗リフォーム、防災用品、防災士、ひとり親医療、重度心身障がい者医療、重度身体障害者等交通費、療育施設通園、高齢者等住宅改修、免許取得・自動車改造、補聴器、出産祝金、創業2件、経営承継、地場工業等3件、就業人材育成、資格取得、あおぞら共済の34件を公式個別ページで確認して追加。こども医療費・がん検診費用・妊産婦健診費用等は第2巡保留。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "rikubetsu 17 checked, all 0 failures",
+      "urlReachability": "urahoro 34 checked, all 0 failures",
       "nodeCheck": "not needed: script unchanged",
-      "diffCheck": "pass: git diff --check for rikubetsu対象ファイル",
-      "auditCoverage": "pass: npm run audit:coverage, failures 0, activePublished 7187, officialLinkedActive 7149, manuallyVerifiedActive 7149, 北海道 localOfficial 2792"
+      "diffCheck": "pass: git diff --check for urahoro対象ファイル",
+      "auditCoverage": "pass: npm run audit:coverage, failures 0, activePublished 7221, officialLinkedActive 7183, manuallyVerifiedActive 7183, 北海道 localOfficial 2826"
     }
   },
   "next": {
-    "code": "01649",
-    "municipality": "浦幌町",
-    "shortlist": "continue hokkaido-batch-018 after 01648 陸別町",
-    "instructions": "陸別町17件のURL到達・slug/schema・eslint・diff・audit:coverage・commit後、自治体コード順で浦幌町のVerificationへ進む。"
+    "code": "01661",
+    "municipality": "釧路町",
+    "shortlist": "start hokkaido-batch-019 after 01649 浦幌町",
+    "instructions": "浦幌町34件のdiff・audit:coverage・commit後、自治体コード順で釧路町・厚岸町・浜中町を第19バッチとしてDiscovery/Verificationへ進む。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

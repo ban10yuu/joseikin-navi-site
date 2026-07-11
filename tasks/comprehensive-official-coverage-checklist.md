@@ -2044,7 +2044,7 @@
 
 ### 第18バッチ Discovery（足寄町・陸別町・浦幌町）
 
-- 状態: 第18バッチDiscovery/URL検証を実行し、足寄町の第1巡Verification・軽量検証・commitまで完了。陸別町は公式個別ページ/PDFから17件をデータ反映し、軽量検証後にcommitする。
+- 状態: 第18バッチDiscovery/URL検証を実行し、足寄町・陸別町・浦幌町の第1巡Verification、軽量検証、commit準備まで完了。浦幌町は公式個別ページから34件をデータ反映した。
 - 確認日: 2026-07-11
 - Discovery:
   - `tasks/discovery/hokkaido-batch-018-municipalities.json`
@@ -2052,6 +2052,7 @@
   - `tasks/discovery/hokkaido-batch-018-url-validation.json`
   - `tasks/discovery/hokkaido-batch-018-ashoro-snippets.json`
   - `tasks/discovery/hokkaido-batch-018-rikubetsu-snippets.json`
+  - `tasks/discovery/hokkaido-batch-018-urahoro-snippets.json`
   - 足寄町: candidates 230 / strong 0（公式「補助金」一覧ページから個別制度へ展開）
   - 陸別町: candidates 126 / strong 0
   - 浦幌町: candidates 118 / strong 0
@@ -2059,6 +2060,7 @@
 - 今回反映:
   - 足寄町: 12件（下水道接続、合併処理浄化槽、ふるさと納税返礼品開発、ペレットストーブ、中小企業特別融資利子補給、結婚新生活、奨学金返還、子育て応援出産祝金、妊婦支援給付金、不育症治療、子ども医療費、足寄高校支援）
   - 陸別町: 17件（妊婦健診票・超音波検査票、妊婦健診交通費、新生児聴覚検査、出産子育て支援祝金、子ども医療費、ひとり親家庭等医療費、一般不妊治療、生殖補助医療、医療介護技術職員養成修学資金、新規就農の営農実習・農業経営開始・経営自立、地元雇用促進、人材確保対策、地域間バス利用、通学定期運賃、帯状疱疹任意接種）
+  - 浦幌町: 34件（定住住宅取得、木造住宅耐震診断・耐震改修、住宅リフォーム、未熟児養育医療、妊産婦交通費・宿泊費、生殖補助医療、不育症治療、紙おむつ購入費、妊婦支援給付、高校等通学・下宿、太陽光発電、木質ペレットストーブ、友好市町村交流、店舗リフォーム、防災用品、防災士資格、ひとり親家庭等医療、重度心身障がい者医療、重度身体障害者等交通費、療育施設等通園費、高齢者等住宅改修、運転免許取得・自動車改造、補聴器購入、出産祝金、新規創業、事業展開、経営承継、地場工業等の固定資産税・研究開発・新規雇用、就業人材育成、資格取得、あおぞら共済加入促進）
 - 候補・掲載見送り:
   - 足寄町 住環境・店舗等整備補助金、住環境・店舗等整備補助金（老朽危険空家等除却）: HTML本文は制度概要とPDF導線のみで、区分別補助額・上限はPDF確認が必要なため第2巡保留。
   - 足寄町 まちづくり活動支援補助金、新規就農支援: HTML本文だけでは金額・対象条件を十分に固定できないため、要綱/PDF確認へ回す。
@@ -2070,6 +2072,12 @@
   - 陸別町 重度心身障害者医療費助成: 候補URLは404で、陸別町公式サイト内の個別制度ページを第1巡で確認できなかったため第2巡候補。
   - 陸別町 新規業種の起業支援: 令和3年度チラシで、ページ本文に予算額到達により令和3年度募集終了と明記されているため現行掲載しない。
   - 陸別町 移住体験住宅、公営住宅・町営住宅、一般町民向け応急手当WEB講習: 住宅利用案内、賃貸募集、無料講習であり、補助金・助成金等としての支給制度ではないため掲載しない。
+  - 浦幌町 こども医療費受給者証の交付: 第1巡のfocused抽出に個別本文が含まれず、対象年齢・自己負担条件の本文確認が未完了のため第2巡へ保留。
+  - 浦幌町 がん検診費用の一部助成: HTMLはPDF導線で、助成額・対象検診別金額の本文確認がPDF側に残るため第2巡へ保留。
+  - 浦幌町 妊産婦健康診査費用等の助成: 交通費助成とは別制度候補だが、健診票・助成額の個別本文確認が未完了のため第2巡へ保留。
+  - 浦幌町 児童手当制度: 全国制度として掲載対象候補だが、町独自制度ではないため国制度側との重複整理へ保留。
+  - 浦幌町 UIJターン新規就業支援事業移住支援金: 公式本文で令和6年12月時点の申請受付停止と令和7年度以降の取扱未定を確認したため現行掲載しない。
+  - 浦幌町 防災情報受信機・防災情報アプリ、移住・定住関連紹介ページ: 支給制度ではない、又は最終sourceにしない案内・一覧ページのため掲載しない。
 - 軽量検証:
   - slug重複確認: 重複0（全7166件、足寄町12件）
   - `node scripts/check-grant-source-urls.mjs --prefix ashoro- --timeout-ms 60000 --concurrency 4`: 12件確認、失敗0
@@ -2081,5 +2089,10 @@
   - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
   - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-018-rikubetsu-snippets.json`: pass
   - `npm run audit:coverage`: pass（failures 0、activePublished 7187、officialLinkedActive 7149、manuallyVerifiedActive 7149、北海道 localOfficial 2792）
+  - slug重複確認: 重複0（全7217件、浦幌町34件）
+  - `node scripts/check-grant-source-urls.mjs --prefix urahoro- --timeout-ms 60000 --concurrency 4`: 34件確認、失敗0
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-018-urahoro-snippets.json`: pass
+  - `npm run audit:coverage`: pass（failures 0、activePublished 7221、officialLinkedActive 7183、manuallyVerifiedActive 7183、北海道 localOfficial 2826）
 - 次地点:
-  - 陸別町17件の軽量検証・commit後、自治体コード順で `01649 浦幌町` へ進む。
+  - 浦幌町34件の軽量検証・commit後、自治体コード順で第19バッチ `01661 釧路町`、`01662 厚岸町`、`01663 浜中町` へ進む。

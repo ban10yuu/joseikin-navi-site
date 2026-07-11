@@ -1,0 +1,222 @@
+{
+  "batchId": "hokkaido-batch-018",
+  "municipalityCode": "01649",
+  "municipality": "浦幌町",
+  "officialBaseUrl": "https://www.urahoro.jp/",
+  "verifiedAt": "2026-07-11",
+  "discovery": {
+    "categorySeedUrls": 12,
+    "categoryLinksExtracted": 141,
+    "fetchedLikelyDetailPages": 85,
+    "focusedPages": 32,
+    "localCacheFiles": [
+      "/tmp/urahoro_pages.json",
+      "/tmp/urahoro_shortlist.json",
+      "/tmp/urahoro_focused.json"
+    ]
+  },
+  "adopted": [
+    {
+      "slug": "urahoro-home-acquisition-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/life/?content=212",
+      "basis": "対象者、住宅要件、新築最大200万円・中古最大90万円、令和8年度随時受付を確認"
+    },
+    {
+      "slug": "urahoro-wooden-house-seismic-diagnosis-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/life/?content=2477",
+      "basis": "耐震診断費3分の2、診断費用限度13万円、補助上限8万6,000円を確認"
+    },
+    {
+      "slug": "urahoro-wooden-house-seismic-retrofit-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/life/?content=2477",
+      "basis": "耐震改修20万円又は20%、上限50万円を確認"
+    },
+    {
+      "slug": "urahoro-housing-renovation-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/life/?content=3170",
+      "basis": "対象工事50万円以上、基本10%上限50万円、加算を含む最大90万円を確認"
+    },
+    {
+      "slug": "urahoro-premature-infant-medical-care-benefit-2026",
+      "sourceUrl": "https://www.urahoro.jp/welfare/?content=2602",
+      "basis": "対象未熟児、指定養育医療機関、保険診療・入院食事療養費自己負担分、退院後申請不可を確認"
+    },
+    {
+      "slug": "urahoro-maternity-checkup-travel-lodging-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/welfare/?content=1384",
+      "basis": "令和8年4月以降の交通費往復距離×37円、宿泊1泊7,600円・14泊までを確認"
+    },
+    {
+      "slug": "urahoro-assisted-reproductive-treatment-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/welfare/?content=709",
+      "basis": "体外受精・顕微授精、1回30万円、男性不妊治療1回30万円、距離別交通費を確認"
+    },
+    {
+      "slug": "urahoro-recurrent-pregnancy-loss-treatment-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/welfare/?content=704",
+      "basis": "北海道助成控除後、1回の検査・治療につき20万円上限、年度内申請を確認"
+    },
+    {
+      "slug": "urahoro-diaper-purchase-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/education/?content=667",
+      "basis": "2歳未満児、出生又は転入から30日以上養育、月額2,500円を確認"
+    },
+    {
+      "slug": "urahoro-pregnancy-support-benefit-2026",
+      "sourceUrl": "https://www.urahoro.jp/education/?content=2436",
+      "basis": "妊婦5万円、胎児又はこども1人5万円、町内住所要件を確認"
+    },
+    {
+      "slug": "urahoro-high-school-commuting-lodging-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/education/?content=3226",
+      "basis": "通学費・下宿費、優先支援世帯年20万円・その他年10万円、特急料金加算全額を確認"
+    },
+    {
+      "slug": "urahoro-solar-power-system-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/business/?content=609",
+      "basis": "7万円/kW、上限20万円、町内業者施工の商品券5万円、毎年度2月10日期限を確認"
+    },
+    {
+      "slug": "urahoro-pellet-stove-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/business/?content=610",
+      "basis": "本体購入費2分の1、上限15万円、町内事業者購入の商品券5万円、毎年度2月10日期限を確認"
+    },
+    {
+      "slug": "urahoro-friendship-municipality-exchange-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/administration/?content=328",
+      "basis": "5人以上の団体、対象経費3分の2、1人7万5,000円上限、30日前申請を確認"
+    },
+    {
+      "slug": "urahoro-store-renovation-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/business/?content=605",
+      "basis": "町内中小企業者、町内建設業者施工、50万円以上工事、20%・100万円上限を確認"
+    },
+    {
+      "slug": "urahoro-disaster-prevention-goods-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/prevention/?content=489",
+      "basis": "指定店購入、対象防災用品、2分の1、世帯1万円・事業者5万円上限を確認"
+    },
+    {
+      "slug": "urahoro-disaster-prevention-specialist-certification-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/prevention/?content=2387",
+      "basis": "受講料・受験料・登録手数料・旅費、合計12万円上限、資格取得前申請を確認"
+    },
+    {
+      "slug": "urahoro-single-parent-medical-expense-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/welfare/?content=705",
+      "basis": "対象者、所得制限、対象医療、非課税世帯初診時一部負担、課税世帯1割自己負担を確認"
+    },
+    {
+      "slug": "urahoro-severe-disability-medical-expense-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/welfare/?content=707",
+      "basis": "対象障がい区分、所得制限、対象医療、非課税世帯初診時一部負担、課税世帯1割自己負担を確認"
+    },
+    {
+      "slug": "urahoro-severe-disability-transportation-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/welfare/?content=698",
+      "basis": "タクシー等年2万5,000円、人工透析通院の距離・回数算定と補助区分を確認"
+    },
+    {
+      "slug": "urahoro-training-facility-commuting-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/welfare/?content=700",
+      "basis": "自家用車は往復距離×30円×回数、公共交通は普通運賃相当を確認"
+    },
+    {
+      "slug": "urahoro-elderly-disabled-home-modification-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/welfare/?content=713",
+      "basis": "対象者、住宅改修費2分の1、上限50万円、所得調整を確認"
+    },
+    {
+      "slug": "urahoro-disabled-driver-license-car-modification-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/welfare/?content=699",
+      "basis": "運転免許取得3分の2、自動車改造直接費、各上限20万円を確認"
+    },
+    {
+      "slug": "urahoro-hearing-aid-purchase-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/welfare/?content=706",
+      "basis": "医師認定の聴力低下等、購入費2分の1、上限5万円、購入前申請を確認"
+    },
+    {
+      "slug": "urahoro-birth-celebration-grant-2026",
+      "sourceUrl": "https://www.urahoro.jp/education/?content=570",
+      "basis": "第1子10万円から第5子以降100万円、対象要件、分割支給を確認"
+    },
+    {
+      "slug": "urahoro-startup-promotion-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/business/?content=582",
+      "basis": "新規創業支援、2分の1、通常上限300万円、一定投資時上限500万円を確認"
+    },
+    {
+      "slug": "urahoro-business-development-support-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/business/?content=582",
+      "basis": "事業展開支援、80%、1年目100万円・2年目200万円・3年目300万円上限を確認"
+    },
+    {
+      "slug": "urahoro-business-succession-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/business/?content=607",
+      "basis": "経営承継関連経費、4分の3、上限100万円、2月末申請期限を確認"
+    },
+    {
+      "slug": "urahoro-local-industry-fixed-asset-tax-incentive-2026",
+      "sourceUrl": "https://www.urahoro.jp/business/?content=581",
+      "basis": "投資額500万円以上、固定資産税相当額、製造業5年以内・その他3年以内を確認"
+    },
+    {
+      "slug": "urahoro-local-industry-rd-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/business/?content=581",
+      "basis": "研究開発補助、対象経費10分の1以内、上限100万円を確認"
+    },
+    {
+      "slug": "urahoro-local-industry-employment-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/business/?content=581",
+      "basis": "新設・増設に伴う雇用者1人50万円、上限1,500万円、単年度限りを確認"
+    },
+    {
+      "slug": "urahoro-construction-workforce-development-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/business/?content=655",
+      "basis": "建築・土木学科在学、町内建設業者へ5年以上就業予定、月5万円・24カ月上限を確認"
+    },
+    {
+      "slug": "urahoro-qualification-acquisition-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/business/?content=644",
+      "basis": "資格取得等経費、従業員1人2分の1・20万円上限、年度末申請を確認"
+    },
+    {
+      "slug": "urahoro-aozora-mutual-aid-dues-subsidy-2026",
+      "sourceUrl": "https://www.urahoro.jp/business/?content=578",
+      "basis": "入会金全額、会費2分の1以内、3年間、毎年3月20日期限を確認"
+    }
+  ],
+  "held": [
+    {
+      "title": "浦幌町 こども医療費受給者証の交付",
+      "reason": "第1巡のfocused抽出に個別本文が含まれず、対象年齢・自己負担条件の本文確認が未完了のため第2巡へ保留"
+    },
+    {
+      "title": "浦幌町 がん検診費用の一部助成",
+      "reason": "HTMLはPDF導線で、助成額・対象検診別金額の本文確認がPDF側に残るため第2巡へ保留"
+    },
+    {
+      "title": "浦幌町 妊産婦健康診査費用等の助成",
+      "reason": "交通費助成とは別制度候補。健診票・助成額の個別本文確認が未完了のため第2巡へ保留"
+    },
+    {
+      "title": "浦幌町 児童手当制度",
+      "reason": "全国制度として掲載対象候補だが、町独自制度ではないため国制度側との重複整理へ保留"
+    },
+    {
+      "title": "浦幌町 UIJターン新規就業支援事業移住支援金",
+      "reason": "公式本文で令和6年度申請受付停止、令和7年度以降の取扱未定の記載を確認したため現行掲載しない"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "浦幌町 防災情報受信機・防災情報アプリ",
+      "reason": "機器・情報提供案内であり、補助金・助成金・給付金等の支給制度ではない"
+    },
+    {
+      "title": "浦幌町 移住・定住関連の紹介ページ",
+      "reason": "制度一覧・案内ページであり、最終sourceには個別制度ページを採用"
+    }
+  ]
+}
