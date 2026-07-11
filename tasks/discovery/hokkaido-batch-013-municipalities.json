@@ -1,0 +1,21 @@
+{
+  "batchId": "hokkaido-batch-013",
+  "prefecture": "北海道",
+  "municipalities": [
+    {
+      "code": "01586",
+      "name": "むかわ町",
+      "officialBaseUrl": "https://www.town.mukawa.lg.jp/"
+    },
+    {
+      "code": "01601",
+      "name": "日高町",
+      "officialBaseUrl": "https://www.town.hidaka.hokkaido.jp/"
+    },
+    {
+      "code": "01602",
+      "name": "平取町",
+      "officialBaseUrl": "https://www.town.biratori.hokkaido.jp/"
+    }
+  ]
+}

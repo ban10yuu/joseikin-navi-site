@@ -1767,3 +1767,37 @@
   - `npm run audit:coverage`: pass（failures 0、北海道 localOfficial 2325）
 - 次地点:
   - 第12バッチ集約検証・commit後、自治体コード順で `01586 むかわ町` から第13バッチDiscoveryへ進む。
+
+### 第13バッチ Discovery（むかわ町・日高町・平取町）
+
+- 状態: 第13バッチDiscovery実行、むかわ町・日高町・平取町の第1巡Verification・データ反映・軽量検証まで完了。集約監査後にcommitする。
+- 確認日: 2026-07-11
+- Discovery:
+  - `tasks/discovery/hokkaido-batch-013-municipalities.json`
+  - `tasks/discovery/hokkaido-batch-013-candidates.json`
+  - むかわ町: discovered 300 / candidates 261 / strong 13 / lowPriority 248
+  - 日高町: discovered 300 / candidates 133 / strong 0 / lowPriority 133
+  - 平取町: discovered 300 / candidates 17 / strong 1 / lowPriority 16
+- 今回反映:
+  - むかわ町: 10件（不妊治療、妊婦支援給付、子育て支援医療費還元、ひとり親家庭等医療、子ども医療、福祉施設職員奨学金返還、地域産業活性化、勤労者生活資金貸付、保育人材支援一時金、企業誘致）
+  - 日高町: 26件（住宅用太陽光・蓄電池、移住定住住宅、シニアスマホ、子ども医療、ひとり親医療、重度心身障害者医療、介護職員研修、肺炎球菌、帯状疱疹、新生児聴覚、不妊治療、出産・子育て応援、エンゼル祝金、児童手当拡充、児童扶養手当、結婚新生活等）
+  - 平取町: 17件（住宅リフォーム、空き家片付け、空き家除却、勤労者生活資金融資、地場産業、店舗改修、空き店舗、事業承継、マル経利子補給、子育て医療費還元、児童手当、未熟児養育医療、出産・子育て応援、児童扶養手当、妊産婦交通・宿泊、多胎妊婦健診、不妊治療・交通費）
+- 候補・掲載見送り:
+  - むかわ町 物価高対応子育て応援手当: 公式ページは確認したが、本文詳細の抽出が弱く、現行受付状態・金額の固定が不足するため第1巡保留。
+  - むかわ町 起業力耕上促進事業: 募集ページは確認したが、制度詳細が薄いため、上限・対象が確認できた地域産業活性化支援事業を優先し第1巡保留。
+  - むかわ町 ファミリー・サポート・センター、多機能型子育て支援施設、認定こども園、発達支援センター等: サービス・施設案内で、補助金等の金額/上限が個別制度として固定できないため掲載しない。
+  - 日高町 北海道日高高等学校への支援: 公式ページは支援策PDFへの導線中心で、第1巡では金額・対象を個別制度単位に分割しきれないため保留。
+  - 日高町 障害児福祉手当: 公式本文が対象・支給額を問い合わせ扱いとしており、金額を固定できないため保留。
+  - 平取町 奨学・就業資金貸付及び補助金制度: 公式PDFの本文抽出が不完全で、金額・対象を安全に固定できないため第1巡保留。
+  - 平取町 令和5年度飼料価格高騰緊急対策支援金: 申請期間が令和6年3月31日までで終了済みのため掲載しない。
+  - 平取町 特別児童扶養手当・障がい者手当等: 公式本文で金額又は個別条件が固定できないため第1巡保留。
+- 検証:
+  - slug重複確認: 重複0（むかわ町10件、日高町26件、平取町17件）
+  - `node scripts/check-grant-source-urls.mjs --prefix mukawa- --timeout-ms 60000 --concurrency 4`: 10件確認、失敗0
+  - `node scripts/check-grant-source-urls.mjs --prefix hidaka- --timeout-ms 60000 --concurrency 4`: 26件確認、失敗0
+  - `node scripts/check-grant-source-urls.mjs --prefix biratori- --timeout-ms 60000 --concurrency 4`: 17件確認、失敗0
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/official-coverage-checkpoint.json tasks/comprehensive-official-coverage-checklist.md tasks/discovery/hokkaido-batch-013-municipalities.json tasks/discovery/hokkaido-batch-013-hidaka-snippets.json tasks/discovery/hokkaido-batch-013-biratori-snippets.json`: pass
+  - `npm run audit:coverage`: pass（failures 0、北海道 localOfficial 2378）
+- 次地点:
+  - 第13バッチ集約監査・commit後、`01604 新冠町` から次バッチへ進む。

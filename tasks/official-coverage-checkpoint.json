@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-11T18:05:00+09:00",
+  "updatedAt": "2026-07-11T18:52:00+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "01585",
-    "municipality": "安平町",
-    "adopted": 15,
-    "held": 9,
-    "excluded": 5,
-    "sourceUrlsChecked": 15,
+    "code": "01602",
+    "municipality": "平取町",
+    "adopted": 17,
+    "held": 4,
+    "excluded": 3,
+    "sourceUrlsChecked": 17,
     "validation": {
-      "previousMunicipality": "第12バッチ: 厚真町8件、洞爺湖町8件、安平町15件を公式個別ページ/PDF確認後に反映。",
-      "eslint": "pass for src/data/grants/verified-local-misc-2026.ts",
+      "previousMunicipality": "第13バッチはむかわ町10件、日高町26件、平取町17件を公式個別ページ/PDF/Word確認後に追加。",
+      "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "atsuma 8, toyako 8, abira 15 checked, 0 failures",
-      "diffCheck": "pass for batch-012 target files",
-      "auditCoverage": "pass, failures 0, Hokkaido localOfficial 2325"
+      "urlReachability": "mukawa 10 checked, hidaka 26 checked, biratori 17 checked, all 0 failures",
+      "diffCheck": "pass: git diff --check for batch-013 target files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, Hokkaido localOfficial 2378"
     }
   },
   "next": {
-    "code": "01586",
-    "municipality": "むかわ町",
-    "shortlist": "create next discovery batch from 01586 むかわ町 onward; continue 3-5 municipalities unless heavy site issues",
-    "instructions": "第12バッチは安平町まで反映済み。次は01586むかわ町から自治体コード順に第13バッチDiscoveryを作成し、個別制度ページ/PDFの対象・金額/上限・条件・期限/受付状況を確認して採用する。第12バッチのdiff-check、audit:coverage、commitを完了してから進む。"
+    "code": "01604",
+    "municipality": "新冠町",
+    "shortlist": "start next batch from municipality code order after 01602 平取町",
+    "instructions": "第13バッチのdiff-check、audit:coverage、commitを完了後、01604新冠町から次バッチDiscoveryへ進む。第13バッチでは平取町の特別児童扶養手当等、金額が公式本文で固定できない候補は保留。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
