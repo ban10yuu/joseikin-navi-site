@@ -1,0 +1,69 @@
+{
+  "municipalityCode": "01642",
+  "municipalityName": "広尾町",
+  "verifiedAt": "2026-07-11",
+  "adopted": [
+    {
+      "slug": "hiroo-startup-support-subsidy-2026",
+      "title": "広尾町 起業家等支援事業補助金",
+      "officialUrl": "https://www.town.hiroo.lg.jp/gyousei/hojokinkoufukin/kigyoukashienhojo/",
+      "evidence": "起業家等支援事業は対象経費1/2以内、空き店舗等利用時10/10、上限100万円。新製品等開発支援は対象経費1/2以内、上限30万円。着手予定1か月前までに事業計画書を提出。"
+    },
+    {
+      "slug": "hiroo-retirement-mutual-aid-subsidy-2026",
+      "title": "広尾町 中小企業退職金共済制度奨励補助金",
+      "officialUrl": "https://www.town.hiroo.lg.jp/gyousei/hojokinkoufukin/taisyokukinkyosai/",
+      "evidence": "対象は中小企業退職金共済制度等に加入し掛金を納入した事業主。締結月から12か月は掛金の1/4以内、その他は12分の1以内。毎年1月31日まで申請。"
+    },
+    {
+      "slug": "hiroo-small-business-loan-interest-subsidy-2026",
+      "title": "広尾町 中小企業融資制度・利子補給",
+      "officialUrl": "https://www.town.hiroo.lg.jp/sangyou/shoukougyou/yuushiseido/",
+      "evidence": "町内で同一事業を1年以上営み町税完納の中小企業者等が対象。運転・設備資金各2,000万円以内、10年以内。保証料・償還利息に利子補給。"
+    },
+    {
+      "slug": "hiroo-migration-support-grant-2026",
+      "title": "広尾町 移住支援金",
+      "officialUrl": "https://www.town.hiroo.lg.jp/kurashi/ijuu/izyuusiennkinn/",
+      "evidence": "東京23区等からの移住で要件を満たす方に、世帯100万円・単身60万円を支給。転入後3か月以上1年以内、5年以上居住意思等を確認。"
+    },
+    {
+      "slug": "hiroo-medical-technician-scholarship-loan-2026",
+      "title": "広尾町 医療技術者等修学資金貸付制度",
+      "officialUrl": "https://www.town.hiroo.lg.jp/kurashi/hokenhukushi/iryougizyutusyatoukashituke/",
+      "evidence": "令和8年度は2026年4月1日受付開始。保健師・看護師は月額10万円以内、准看護師等は月額5万円以内、無利子。町内勤務条件で返還全額免除。"
+    },
+    {
+      "slug": "hiroo-medical-transport-subsidy-2026",
+      "title": "広尾町 交通費助成",
+      "officialUrl": "https://www.town.hiroo.lg.jp/kurashi/hokenhukushi/koutuuhizyosei/",
+      "evidence": "人工透析、指定難病、療育訓練等の通院・通所が対象。令和8年度分対象期間あり。バス・鉄道代金の50%以内、片道8km以上、各回期限まで申請。"
+    },
+    {
+      "slug": "hiroo-housing-newbuild-renovation-incentive-2026",
+      "title": "広尾町 住宅新築・リフォーム等支援事業奨励金",
+      "officialUrl": "https://www.town.hiroo.lg.jp/kurashi/seikatsu/juutaku/reformshienjigyou/",
+      "evidence": "令和8年度制度。対象経費10%をサプリポイントで交付。上限は新築・建売50万円、中古20万円、リフォーム10万円。契約前の事前届出が必要。"
+    }
+  ],
+  "held": [
+    {
+      "title": "子育て人材育成交付金",
+      "reason": "対象・上限10万円は確認したが、本文の研修申込期間が令和6年度で古く、令和8年度の受付状況を第2巡で確認する。"
+    },
+    {
+      "title": "不妊治療・不育症治療、各種手当・助成",
+      "reason": "カテゴリ導線は確認したが、制度別の金額・対象・期限を個別本文単位で切り分ける必要があるため第2巡保留。"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "令和6年度新たな住民税非課税及び住民税均等割のみ課税世帯給付金",
+      "reason": "令和6年度事業で、現在日基準では現行受付として扱わない。"
+    },
+    {
+      "title": "住民税非課税世帯支援給付金（3万円）",
+      "reason": "受付期間が2025年6月30日までで終了済みのため現行掲載しない。"
+    }
+  ]
+}

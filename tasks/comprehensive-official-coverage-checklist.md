@@ -1975,3 +1975,49 @@
   - 第16バッチ後半集約: `npm run audit:coverage` pass（failures 0、activePublished 7073、officialLinkedActive 7035、manuallyVerifiedActive 7035、北海道 localOfficial 2678）
 - 次地点:
   - 第16バッチ後半（更別村・大樹町、計45件）をcommitする。その後、自治体コード順で `01642 広尾町` へ進む。
+
+### 第17バッチ Discovery（広尾町・幕別町・池田町・豊頃町・本別町）
+
+- 状態: 第17バッチDiscovery/URL検証を実行し、広尾町・幕別町・池田町の第1巡Verification・データ反映・軽量検証まで完了。第17バッチ前半の集約監査後、豊頃町から継続する。
+- 確認日: 2026-07-11
+- Discovery:
+  - `tasks/discovery/hokkaido-batch-017-municipalities.json`
+  - `tasks/discovery/hokkaido-batch-017-candidates.json`
+  - `tasks/discovery/hokkaido-batch-017-url-validation.json`
+  - `tasks/discovery/hokkaido-batch-017-hiroo-snippets.json`
+  - `tasks/discovery/hokkaido-batch-017-makubetsu-snippets.json`
+  - `tasks/discovery/hokkaido-batch-017-ikeda-snippets.json`
+  - 広尾町: discovered 300 / candidates 167 / strong 61 / lowPriority 106
+  - 幕別町: discovered 300 / candidates 89 / strong 2 / lowPriority 87
+  - 池田町: discovered 300 / candidates 191 / strong 0 / lowPriority 191
+  - 豊頃町: discovered 300 / candidates 273 / strong 19 / lowPriority 254
+  - 本別町: discovered 300 / candidates 277 / strong 1 / lowPriority 276
+  - URL検証: checked 840 / cacheHits 819 / refetched 21 / reachable 830 / failures 10
+  - Discovery候補スコアを改善し、制度強語に加えて金額表現・対象表現・期限/受付表現が同一ページにある候補を加点するよう `scripts/discover-official-candidates.mjs` を更新。
+- 今回反映:
+  - 広尾町: 7件（起業家等支援、中小企業退職金共済制度奨励、中小企業融資制度・利子補給、移住支援金、医療技術者等修学資金貸付、交通費助成、住宅新築・リフォーム等支援事業奨励金）
+  - 幕別町: 13件（事業者省エネルギー診断支援、水道料金基本料金免除、ひとり親家庭等医療費、重度心身障害者医療費、子ども医療費、1か月児健診、新生児聴覚検査、産婦健診、風しん/MRワクチン、RSウイルス母子免疫ワクチン、結婚新生活、マイホーム応援、木造戸建て住宅無料耐震診断）
+  - 池田町: 17件（ファミリー・サポート援助活動助成、ファミリー・サポート利用料助成、児童扶養手当、未熟児養育医療給付、子ども医療費、重度心身障害者医療費、ひとり親家庭医療費、住宅等リフォーム、空き家家財道具処分、子育て世帯住宅取得、法定相続登記、住宅取得応援、老朽建物解体、箱型ごみステーション、コンポスター、資源集団回収、新規就農希望者営農指導）
+- 候補・掲載見送り:
+  - 広尾町 子育て人材育成交付金: 対象・上限10万円は確認したが、本文の研修申込期間が令和6年度で古く、令和8年度の受付状況を第2巡で確認する。
+  - 広尾町 不妊治療・不育症治療、各種手当・助成: カテゴリ導線は確認したが、制度別の金額・対象・期限を個別本文単位で切り分ける必要があるため第2巡保留。
+  - 広尾町 令和6年度新たな住民税非課税及び住民税均等割のみ課税世帯給付金、住民税非課税世帯支援給付金（3万円）: 令和6年度事業又は2025年6月30日受付終了のため、現在日基準では現行掲載しない。
+  - 幕別町 ゼロカーボン推進総合補助金: 令和8年度募集期間と対象者は確認したが、設備別補助率・上限表の制度分割が必要なため第2巡保留。
+  - 幕別町 給水区域外水道料金及び井水助成金（令和7年度分）: 申請期間が2026年3月16日までで終了済み。令和8年度分は2027年3月頃案内予定のため現行掲載しない。
+  - 幕別町 中3・高3インフルエンザ、妊婦インフルエンザ: 対象期間が2025年10月1日から2026年2月28日までで現在日基準では終了済み。
+  - 池田町 母子寡婦貸付金: 貸付限度額等が資金により異なり事前問合せとされ、個別金額を町ページ本文から確定できないため第2巡で北海道制度ページ又はPDFを確認する。
+  - 池田町 令和8年度児童手当現況届: 現況届の提出期限ページであり、手当本体の月額・対象を掲載する個別ページではないため掲載しない。
+  - 池田町 移住促進助成制度のお知らせ: 関連ページ一覧のため最終sourceにせず、個別ページに到達した住宅・定住制度のみ掲載した。
+- 軽量検証:
+  - slug重複確認: 重複0（全7075件、広尾町7件）
+  - `node scripts/check-grant-source-urls.mjs --prefix hiroo- --timeout-ms 60000 --concurrency 4`: 7件確認、失敗0
+  - slug重複確認: 重複0（全7088件、幕別町13件）
+  - `node scripts/check-grant-source-urls.mjs --prefix makubetsu- --timeout-ms 60000 --concurrency 4`: 13件確認、失敗0
+  - slug重複確認: 重複0（全7105件、池田町新規17件、既存大阪府池田市2件を含む `ikeda-` slugは19件）
+  - `node scripts/check-grant-source-urls.mjs --prefix ikeda- --timeout-ms 60000 --concurrency 4`: 21件確認、失敗0（既存大阪府池田市2件を含む。北海道池田町新規17件は全件200）
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+  - `node --check scripts/discover-official-candidates.mjs`: pass
+  - `git diff --check -- scripts/discover-official-candidates.mjs src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-017-*.json`: pass
+  - `npm run audit:coverage`: pass（failures 0、activePublished 7110、officialLinkedActive 7072、manuallyVerifiedActive 7072、北海道 localOfficial 2715）
+- 次地点:
+  - 第17バッチ前半（広尾町・幕別町・池田町、計37件）を集約diff/audit/commitする。その後、自治体コード順で `01645 豊頃町` へ進む。

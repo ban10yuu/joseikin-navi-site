@@ -1,0 +1,158 @@
+{
+  "municipality": "池田町",
+  "code": "01644",
+  "verifiedAt": "2026-07-11T21:45:00+09:00",
+  "adopted": [
+    {
+      "slug": "ikeda-family-support-helper-activity-subsidy-2026",
+      "title": "ファミリー・サポート・センターまかせて会員援助活動助成",
+      "amount": "対象児童1人あたり援助活動30分につき200円。兄弟姉妹同時援助は2人目以降半額",
+      "target": "池田町ファミリー・サポート・センター事業のまかせて会員",
+      "deadline": "援助活動月の翌月末まで等",
+      "url": "https://www.town.hokkaido-ikeda.lg.jp/kodomo/kenko-sodan/familysupport/11023.html"
+    },
+    {
+      "slug": "ikeda-family-support-user-fee-subsidy-2026",
+      "title": "ファミリー・サポート・センター事業利用料助成",
+      "amount": "1か月30時間まで、月1万5,000円上限。生活保護世帯は全額、非課税・ひとり親等は2分の1",
+      "target": "おねがい会員で生活保護、非課税、ひとり親、障がい者世帯等",
+      "deadline": "利用助成登録申請後に利用",
+      "url": "https://www.town.hokkaido-ikeda.lg.jp/kodomo/kenko-sodan/familysupport/11010.html"
+    },
+    {
+      "slug": "ikeda-child-rearing-allowance-2026",
+      "title": "児童扶養手当",
+      "amount": "令和8年4月から児童1人目全部支給月4万8,050円、2人目以降1人月1万1,350円",
+      "target": "父又は母と生計を同じくしていない児童を監護する母、父又は養育者",
+      "deadline": "申請月の翌月分から支給",
+      "url": "https://www.town.hokkaido-ikeda.lg.jp/kodomo/kenko-sodan/hitorioyashien/4034.html"
+    },
+    {
+      "slug": "ikeda-premature-infant-medical-benefit-2026",
+      "title": "未熟児養育医療給付",
+      "amount": "指定養育医療機関の健康保険適用分2割相当を公費負担。医療費助成対象者は原則全額公費負担",
+      "target": "池田町内に居住し、医師が入院治療を必要と認めた未熟児",
+      "deadline": "給付前に申請書、医師意見書、世帯調書等を提出",
+      "url": "https://www.town.hokkaido-ikeda.lg.jp/kurashi/hoken-nenkin/iryohi/1111.html"
+    },
+    {
+      "slug": "ikeda-child-medical-expense-subsidy-2026",
+      "title": "子どもの医療費助成",
+      "amount": "保険診療の自己負担分2割又は3割の全額",
+      "target": "満18歳到達後最初の3月31日までの子ども",
+      "deadline": "受給者証交付申請が必要",
+      "url": "https://www.town.hokkaido-ikeda.lg.jp/kurashi/hoken-nenkin/iryohi/319.html"
+    },
+    {
+      "slug": "ikeda-severe-disability-medical-expense-subsidy-2026",
+      "title": "重度心身障害者の医療費助成",
+      "amount": "非課税世帯・高校卒業前までの子どもは自己負担全額。課税世帯は1割負担で月額上限あり",
+      "target": "身体障害者手帳1・2級等、療育手帳A、精神障害者保健福祉手帳1級等",
+      "deadline": "受給者証交付申請が必要",
+      "url": "https://www.town.hokkaido-ikeda.lg.jp/kurashi/hoken-nenkin/iryohi/317.html"
+    },
+    {
+      "slug": "ikeda-single-parent-medical-expense-subsidy-2026",
+      "title": "ひとり親家庭医療費助成",
+      "amount": "非課税世帯・高校卒業前までの児童は自己負担全額。課税世帯は1割負担で月額上限あり",
+      "target": "ひとり親家庭の18歳年度末までの児童と親等",
+      "deadline": "受給者証交付申請が必要",
+      "url": "https://www.town.hokkaido-ikeda.lg.jp/kurashi/hoken-nenkin/iryohi/316.html"
+    },
+    {
+      "slug": "ikeda-housing-renovation-incentive-2026",
+      "title": "住宅等リフォーム促進奨励金",
+      "amount": "経費10%、上限50万円",
+      "target": "町内事業者によって70万円以上の住宅リフォーム等を行う方",
+      "deadline": "2026年4月1日から、工事着工前申請",
+      "url": "https://www.town.hokkaido-ikeda.lg.jp/kurashi/iju-jutaku/reform-josei/5833.html"
+    },
+    {
+      "slug": "ikeda-vacant-house-cleanout-subsidy-2026",
+      "title": "空き家家財道具処分支援事業",
+      "amount": "対象経費2分の1、上限10万円",
+      "target": "空き家バンク登録済み又は登録予定の空き家の家財処分・運搬を行う方",
+      "deadline": "2025年4月1日から、処分前申請",
+      "url": "https://www.town.hokkaido-ikeda.lg.jp/kurashi/iju-jutaku/reform-josei/5831.html"
+    },
+    {
+      "slug": "ikeda-childrearing-house-acquisition-incentive-2026",
+      "title": "子育て世帯住宅取得応援奨励金",
+      "amount": "新築は子1人100万円、中古は子1人50万円。町内建設業者加算50万円",
+      "target": "中学生以下の子を養育・同居する住宅取得者",
+      "deadline": "2024年4月1日から、利用決定後に着工又は所有権移転",
+      "url": "https://www.town.hokkaido-ikeda.lg.jp/kurashi/iju-jutaku/reform-josei/11009.html"
+    },
+    {
+      "slug": "ikeda-inheritance-registration-subsidy-2026",
+      "title": "法定相続登記補助金",
+      "amount": "対象経費2分の1、上限5万円",
+      "target": "相続が発生した町内土地・家屋で年度内に所有者になる場合",
+      "deadline": "2025年4月1日から2027年3月31日まで",
+      "url": "https://www.town.hokkaido-ikeda.lg.jp/kurashi/iju-jutaku/reform-josei/10994.html"
+    },
+    {
+      "slug": "ikeda-home-acquisition-incentive-2026",
+      "title": "住宅取得応援奨励事業",
+      "amount": "取得価格5%、上限20万円。町内建設業者加算20万円、最大40万円",
+      "target": "新築住宅又は中古住宅を取得する方",
+      "deadline": "2025年4月1日から、利用決定後に着工又は所有権移転",
+      "url": "https://www.town.hokkaido-ikeda.lg.jp/kurashi/iju-jutaku/reform-josei/5835.html"
+    },
+    {
+      "slug": "ikeda-dilapidated-building-demolition-subsidy-2026",
+      "title": "老朽建物解体促進事業補助金",
+      "amount": "対象経費3分の1。老朽住宅60万円、老朽店舗等80万円、アスベスト調査25万円、撤去30万円",
+      "target": "老朽建物の所有者、法定相続人代表者又は委任を受けた方",
+      "deadline": "2024年4月1日から、工事着工前申請、年度内完了",
+      "url": "https://www.town.hokkaido-ikeda.lg.jp/kurashi/iju-jutaku/reform-josei/5834.html"
+    },
+    {
+      "slug": "ikeda-box-garbage-station-subsidy-2026",
+      "title": "箱型ごみステーション設置促進事業補助金",
+      "amount": "対象経費2分の1以内、上限5万円",
+      "target": "町内事業者から箱型ごみステーションを購入・設置する方等",
+      "deadline": "2025年4月1日から、工事着工前申請、年度内完了",
+      "url": "https://www.town.hokkaido-ikeda.lg.jp/kurashi/gomi/kaisyu-josei/hakogomi.html"
+    },
+    {
+      "slug": "ikeda-composter-purchase-subsidy-2026",
+      "title": "生ごみ処理用コンポスター購入助成",
+      "amount": "200リットル未満2,000円、200リットル以上3,000円",
+      "target": "町内販売店でコンポスターを購入する世帯。年1世帯1個まで",
+      "deadline": "購入後、領収書等で申請",
+      "url": "https://www.town.hokkaido-ikeda.lg.jp/kurashi/gomi/kaisyu-josei/376.html"
+    },
+    {
+      "slug": "ikeda-recyclables-group-collection-subsidy-2026",
+      "title": "町内会などの資源集団回収補助金",
+      "amount": "資源ごみ1キログラムあたり5円",
+      "target": "資源ごみを集団回収した町内会など",
+      "deadline": "集団回収の実績に応じて申請",
+      "url": "https://www.town.hokkaido-ikeda.lg.jp/kurashi/gomi/kaisyu-josei/375.html"
+    },
+    {
+      "slug": "ikeda-new-farmer-guidance-subsidy-2026",
+      "title": "新規就農希望者営農指導補助金",
+      "amount": "月額10万円、最大3年間",
+      "target": "新規就農希望者を受け入れた町内認定農業者又は認定農業法人",
+      "deadline": "予算の範囲内で交付",
+      "url": "https://www.town.hokkaido-ikeda.lg.jp/sangyo/nouchikusangyo/shinkisyunou/einoushidou.html"
+    }
+  ],
+  "held": [
+    {
+      "title": "母子寡婦貸付金",
+      "reason": "公式本文で貸付限度額等は資金により異なるため事前問合せとされ、個別金額をページ本文から確定できない。第2巡で北海道制度ページ又はPDFを確認する。"
+    },
+    {
+      "title": "令和8年度 児童手当の現況届",
+      "reason": "現況届の提出期限は確認できるが、手当月額ページではないため掲載しない。児童手当本体は別個別ページが見つかった場合に確認する。"
+    },
+    {
+      "title": "移住促進助成制度のお知らせ",
+      "reason": "関連ページ一覧であり、最終sourceには使わない。個別ページ到達済みの住宅・移住制度のみ掲載対象にした。"
+    }
+  ],
+  "excluded": []
+}

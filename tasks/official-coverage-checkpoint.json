@@ -1,27 +1,28 @@
 {
-  "updatedAt": "2026-07-11T21:11:10+09:00",
+  "updatedAt": "2026-07-11T21:45:00+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "01641",
-    "municipality": "大樹町",
-    "adopted": 22,
-    "held": 1,
-    "excluded": 2,
-    "sourceUrlsChecked": 22,
+    "code": "01644",
+    "municipality": "池田町",
+    "adopted": 17,
+    "held": 3,
+    "excluded": 0,
+    "sourceUrlsChecked": 17,
     "validation": {
-      "previousMunicipality": "大樹町は省エネ機器、物価高子育て応援、妊婦支援、赤ちゃん誕生祝金、医療費、児童手当/扶養手当、任意予防接種、高齢者補聴器、障がい者助成/手当、重度心身障害者医療、介護タクシー/介護用品/通院交通費、移住支援金の22件を公式本文から確認して追加。成年後見制度利用支援は助成額上限未固定、町有住宅貸付や無料サービスは掲載対象外。",
+      "previousMunicipality": "池田町はファミリー・サポート2件、児童扶養手当、未熟児養育医療、医療費助成3件、住宅・空き家・相続・解体等6件、箱型ごみステーション、コンポスター、資源集団回収、新規就農希望者営農指導の17件を公式本文から確認して追加。母子寡婦貸付金は金額未確定、児童手当現況届は届出ページ、移住促進助成制度は一覧ページのため第1巡掲載しない。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "taiki 22 checked, all 0 failures",
-      "diffCheck": "pass: git diff --check for batch-016 second half target files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7073, officialLinkedActive 7035, manuallyVerifiedActive 7035, 北海道 localOfficial 2678"
+      "urlReachability": "ikeda prefix 21 checked, all 0 failures; includes existing Osaka Ikeda 2 records, Hokkaido Ikeda new 17 records all 200",
+      "nodeCheck": "pass: node --check scripts/discover-official-candidates.mjs",
+      "diffCheck": "pass: git diff --check for batch-017前半対象ファイル",
+      "auditCoverage": "pass: npm run audit:coverage, failures 0, activePublished 7110, officialLinkedActive 7072, manuallyVerifiedActive 7072, 北海道 localOfficial 2715"
     }
   },
   "next": {
-    "code": "01642",
-    "municipality": "広尾町",
-    "shortlist": "continue municipality code order after 01641 大樹町",
-    "instructions": "第16バッチ後半（更別村23件・大樹町22件）の集約diff/audit/commit後、広尾町から次バッチを作成し、公式個別ページ/PDFで対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。"
+    "code": "01645",
+    "municipality": "豊頃町",
+    "shortlist": "continue hokkaido-batch-017 from municipality code order after 01644 池田町",
+    "instructions": "第17バッチ前半（広尾町・幕別町・池田町、計37件）の集約diff/audit/commit後、豊頃町のDiscovery候補273件（strong 19 / lowPriority 254）から公式個別ページ/PDFで対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

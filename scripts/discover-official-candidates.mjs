@@ -48,6 +48,34 @@ const STRONG_KEYWORDS = [
   '貸付',
 ];
 
+const AMOUNT_PATTERNS = [
+  /[0-9０-９,，]+(?:万)?円/,
+  /上限/,
+  /月額/,
+  /年額/,
+  /補助率/,
+  /[0-9０-９]+\/[0-9０-９]+/,
+];
+
+const TARGET_PATTERNS = [
+  /対象(?:者|世帯|経費|事業|住宅|児童|となる方)?/,
+  /要件/,
+  /世帯/,
+  /事業者/,
+  /町民/,
+  /村民/,
+  /保護者/,
+];
+
+const DEADLINE_PATTERNS = [
+  /申請/,
+  /募集/,
+  /受付/,
+  /締切/,
+  /期限/,
+  /令和[0-9０-９元]+年度/,
+];
+
 const ASSET_EXTENSIONS = /\.(?:jpe?g|png|gif|webp|svg|ico|css|js|mjs|map|mp4|mov|mp3|wav|zip|lzh|exe)(?:$|\?)/i;
 const DOCUMENT_EXTENSIONS = /\.(?:pdf|doc|docx|xls|xlsx)(?:$|\?)/i;
 
@@ -239,11 +267,22 @@ function keywordHits(text, url) {
 
 function scoreCandidate({ url, title, h1, body, hits }) {
   const titleAndH1 = `${title}\n${h1}`;
+  const primaryText = `${titleAndH1}\n${body}\n${url}`;
   let score = 0;
   for (const keyword of STRONG_KEYWORDS) {
     if (titleAndH1.includes(keyword)) score += 5;
     if (body.includes(keyword)) score += 3;
     if (url.includes(keyword)) score += 1;
+  }
+  if (AMOUNT_PATTERNS.some((pattern) => pattern.test(primaryText))) score += 3;
+  if (TARGET_PATTERNS.some((pattern) => pattern.test(primaryText))) score += 2;
+  if (DEADLINE_PATTERNS.some((pattern) => pattern.test(primaryText))) score += 2;
+  if (
+    AMOUNT_PATTERNS.some((pattern) => pattern.test(primaryText))
+    && TARGET_PATTERNS.some((pattern) => pattern.test(primaryText))
+    && DEADLINE_PATTERNS.some((pattern) => pattern.test(primaryText))
+  ) {
+    score += 4;
   }
   if (/\/detail\.html\?/i.test(url)) score += 2;
   if (DOCUMENT_EXTENSIONS.test(url)) score += 2;

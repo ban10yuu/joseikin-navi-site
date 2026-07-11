@@ -1,0 +1,31 @@
+{
+  "batchId": "hokkaido-batch-017",
+  "prefecture": "北海道",
+  "municipalities": [
+    {
+      "code": "01642",
+      "name": "広尾町",
+      "officialBaseUrl": "https://www.town.hiroo.lg.jp/"
+    },
+    {
+      "code": "01643",
+      "name": "幕別町",
+      "officialBaseUrl": "https://www.town.makubetsu.lg.jp/index.html"
+    },
+    {
+      "code": "01644",
+      "name": "池田町",
+      "officialBaseUrl": "https://www.town.hokkaido-ikeda.lg.jp/"
+    },
+    {
+      "code": "01645",
+      "name": "豊頃町",
+      "officialBaseUrl": "https://www.toyokoro.jp/"
+    },
+    {
+      "code": "01646",
+      "name": "本別町",
+      "officialBaseUrl": "https://www.town.honbetsu.hokkaido.jp/"
+    }
+  ]
+}
