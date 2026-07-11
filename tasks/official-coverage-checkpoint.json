@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-11T20:05:00+09:00",
+  "updatedAt": "2026-07-11T21:05:00+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "01552",
-    "municipality": "佐呂間町",
-    "adopted": 19,
-    "held": 5,
-    "excluded": 12,
-    "sourceUrlsChecked": 21,
+    "code": "01555",
+    "municipality": "遠軽町",
+    "adopted": 35,
+    "held": 8,
+    "excluded": 10,
+    "sourceUrlsChecked": 52,
     "validation": {
-      "previousMunicipality": "置戸町: adopted 26, held 4, excluded 8, sourceUrlsChecked 37",
+      "previousMunicipality": "置戸町: adopted 26, held 4, excluded 8, sourceUrlsChecked 37; 佐呂間町: adopted 19, held 5, excluded 12, sourceUrlsChecked 21",
       "eslint": "pass for src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "saroma 21 checked, 0 failures",
+      "urlReachability": "engaru 52 checked, 0 failures",
       "diffCheck": "pass for grant data file",
-      "auditCoverage": "deferred to 3-5 municipality batch per high-speed rules"
+      "auditCoverage": "pass after engaru addition"
     }
   },
   "next": {
-    "code": "01555",
-    "municipality": "遠軽町",
-    "shortlist": "hokkaido-batch-008-candidates.json generated; 97 candidates, strong 0, lowPriority 97",
-    "instructions": "置戸町26件・佐呂間町19件は公式本文又は公式PDF/Wordで必須項目が揃ったものを採用済み。遠軽町を同一集約単位で処理し、3自治体単位でaudit:coverageとcommitを実行する。"
+    "code": "01559",
+    "municipality": "湧別町",
+    "shortlist": "next batch discovery not yet generated in this turn",
+    "instructions": "遠軽町35件は公式本文又は公式PDFで必須項目が揃ったものを採用済み。ペレットストーブ、帯状疱疹、妊婦支援給付、新生児聴覚、脳ドック、膵臓・胆のうドック等は金額/上限又は本文不足で保留。audit:coverageとcommit後、自治体コード順で湧別町へ進む。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
