@@ -1,0 +1,80 @@
+{
+  "batch": "hokkaido-second-pass-008",
+  "verifiedAt": "2026-07-12",
+  "municipalities": [
+    "今金町",
+    "せたな町",
+    "島牧村",
+    "寿都町"
+  ],
+  "adopted": [
+    {
+      "slug": "setana-next-generation-store-subsidy-2026",
+      "municipality": "せたな町",
+      "officialUrl": "https://www.town.setana.lg.jp/industry/syoukou/post_1848.html",
+      "sourceUrls": [
+        "https://www.town.setana.lg.jp/uploads/documents/%E3%81%9B%E3%81%9F%E3%81%AA%E7%94%BA%E6%AC%A1%E4%B8%96%E4%BB%A3%E5%9E%8B%E5%BA%97%E8%88%97%E3%81%A5%E3%81%8F%E3%82%8A%E4%BA%8B%E6%A5%AD%E8%A3%9C%E5%8A%A9%E9%87%91%E4%BA%A4%E4%BB%98%E8%A6%81%E7%B6%B1.pdf"
+      ],
+      "evidence": "町内商工業者等を対象に、キャッシュレス決済導入、店舗等環境整備、低コスト対策支援を補助。補助率3分の1以内、補助上限100万円、対象経費下限30万円。"
+    },
+    {
+      "slug": "setana-decarbonization-promotion-subsidy-2026",
+      "municipality": "せたな町",
+      "officialUrl": "https://www.town.setana.lg.jp/industry/saiene/post_2054.html",
+      "sourceUrls": [
+        "https://www.town.setana.lg.jp/%E3%81%9B%E3%81%9F%E3%81%AA%E7%94%BA%E8%84%B1%E7%82%AD%E7%B4%A0%E5%8C%96%E6%8E%A8%E9%80%B2%E8%A3%9C%E5%8A%A9%E9%87%91%E4%BA%A4%E4%BB%98%E8%A6%81%E7%B6%B1.pdf",
+        "https://www.town.setana.lg.jp/%E3%81%9B%E3%81%9F%E3%81%AA%E7%94%BA%E8%84%B1%E7%82%AD%E7%B4%A0%E5%8C%96%E6%8E%A8%E9%80%B2%E8%A3%9C%E5%8A%A9%E9%87%91%E7%94%B3%E8%AB%8B%E3%81%AE%E6%89%8B%E5%BC%95%E3%81%8D.pdf"
+      ],
+      "evidence": "町内住宅等に太陽光発電システムや蓄電池等を導入する方を対象。太陽光発電は1kWあたり10万円、個人上限100万円・事業者上限200万円。蓄電池は1kWhあたり個人15.51万円・事業者17.6万円、個人上限37万円・事業者上限118万円。"
+    }
+  ],
+  "alreadyListed": [
+    {
+      "municipality": "今金町",
+      "reason": "第1巡で29件掲載済み。第2巡008のshortlistには今金町の未掲載強候補は残っていなかった。"
+    },
+    {
+      "municipality": "寿都町",
+      "reason": "母子保健、予防接種、国保給付、医療費助成、福祉灯油、労働者育成等の主要候補は既に掲載済み。今回の未掲載URLは転入手続、各種届出ダウンロード、税金ページで、個別補助制度としては採用しない。"
+    }
+  ],
+  "continuedHold": [
+    {
+      "municipality": "今金町",
+      "candidate": "小児おたふくかぜ予防接種、配食、除雪、緊急通信用電話、通常の国保・年金・児童手当等",
+      "reason": "小児おたふくかぜはPDFで助成額・自己負担額の追加確認が必要。その他は通常行政サービス又は国・道制度案内として扱い、町独自の金額・上限が確認できる個別補助・給付としては採用しない。"
+    },
+    {
+      "municipality": "せたな町",
+      "candidate": "地域支援事業の配食・緊急通報・移送・入浴・家族介護用品助成、予防接種しおり",
+      "reason": "地域支援事業は利用料又は助成額が制度ごとに十分確認できない。予防接種しおりは町独自の助成額・対象が確認できるものだけ次巡以降で判定する。"
+    },
+    {
+      "municipality": "島牧村",
+      "candidate": "国保・後期高齢者健診、後期高齢者歯科健診、移住体験住宅、公営住宅、地域おこし協力隊募集、通常サービス案内",
+      "reason": "健診ページは対象・無料/助成額・受付条件が不足し、その他は住宅利用案内、募集、相談、通常行政サービスであり個別補助・給付として採用しない。"
+    },
+    {
+      "municipality": "寿都町",
+      "candidate": "障害者手当、一般不妊治療・不育症治療・特定不妊治療、妊産婦安心出産支援、ゆべつのゆシルバー優待券、移送サービス、緊急通報装置",
+      "reason": "障害者手当は公式ページ上の支給月額が現行額と一致しない。一般不妊・不育症・特定不妊、妊産婦安心出産支援は金額/上限又は条件の本文確認が不足。その他は通常サービス又は助成額不足。"
+    }
+  ],
+  "candidateReview": {
+    "shortlistRows": 25,
+    "notExistingStrongRows": 19,
+    "officialPagesChecked": [
+      "https://www.town.setana.lg.jp/post_1143.html",
+      "https://www.town.setana.lg.jp/industry/syoukou/post_1848.html",
+      "https://www.town.setana.lg.jp/industry/saiene/post_2054.html",
+      "https://www.town.setana.lg.jp/industry/post_2119.html",
+      "https://www.town.setana.lg.jp/download.html",
+      "https://www.vill.shimamaki.lg.jp/news/detail.php?news=241",
+      "https://www.vill.shimamaki.lg.jp/news/detail.php?news=240",
+      "http://www.town.suttu.lg.jp/life/detail.php?id=18",
+      "http://www.town.suttu.lg.jp/life/detail.php?id=4",
+      "http://www.town.suttu.lg.jp/life/detail.php?id=10"
+    ]
+  },
+  "next": "北海道第2巡009として、黒松内町・蘭越町・ニセコ町・真狩村など前方保留候補を自治体コード順に継続確認する。"
+}

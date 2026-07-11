@@ -2460,6 +2460,29 @@
     - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
     - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-007-snippets.json`: pass
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 今金町・せたな町・島牧村・寿都町）:
+  - 状態: 第2巡008として、対象4自治体の第2バッチshortlist 25件から未掲載強候補19件を抽出し、せたな町・島牧村・寿都町の公式個別ページ/カテゴリページ10URLを短い本文スニペットで確認。せたな町の次世代型店舗づくり事業補助金、脱炭素化推進補助金は公式個別ページで制度名・対象・金額/上限・条件・申請方法が揃ったため2件追加した。今金町は未掲載強候補なし、島牧村・寿都町の候補は通常案内又は金額/条件不足として保留継続。
+  - 追加・更新ファイル:
+    - `src/data/grants/verified-local-misc-2026.ts`
+    - `tasks/discovery/hokkaido-second-pass-008-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 採用:
+    - せたな町: 2件（次世代型店舗づくり事業補助金、脱炭素化推進補助金）
+  - 既存掲載済み:
+    - 今金町: 第1巡で29件掲載済み。第2巡008のshortlistには今金町の未掲載強候補は残っていなかった。
+    - 寿都町: 母子保健、予防接種、国保給付、医療費助成、福祉灯油、労働者育成等の主要候補は掲載済み。未掲載URLは転入手続、各種届出ダウンロード、税金ページのため採用しない。
+  - 保留継続:
+    - 今金町 小児おたふくかぜ予防接種、配食、除雪、緊急通信用電話、通常の国保・年金・児童手当等: 小児おたふくかぜはPDFで助成額・自己負担額の追加確認が必要。その他は通常行政サービス又は国・道制度案内。
+    - せたな町 地域支援事業の配食・緊急通報・移送・入浴・家族介護用品助成、予防接種しおり: 利用料又は助成額が制度ごとに十分確認できず、予防接種しおりは町独自の助成額・対象確認が必要。
+    - 島牧村 国保・後期高齢者健診、後期高齢者歯科健診、移住体験住宅、公営住宅、地域おこし協力隊募集、通常サービス案内: 健診ページは対象・無料/助成額・受付条件が不足し、その他は住宅利用案内、募集、相談、通常行政サービス。
+    - 寿都町 障害者手当、一般不妊治療・不育症治療・特定不妊治療、妊産婦安心出産支援、ゆべつのゆシルバー優待券、移送サービス、緊急通報装置: 障害者手当は公式ページ上の支給月額が現行額と一致せず、その他は金額/上限又は条件の本文確認が不足。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+    - slug重複確認: 重複0（全7445件、追加2件すべて存在）
+    - 追加2件の `node scripts/check-grant-source-urls.mjs --slug ... --timeout-ms 60000 --concurrency 2`: 5URL確認、失敗0
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-008-snippets.json`: pass
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7441、officialLinkedActive 7403、manuallyVerifiedActive 7403、北海道 localOfficial 3046）
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
