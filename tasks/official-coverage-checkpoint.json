@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-07-11T21:45:00+09:00",
+  "updatedAt": "2026-07-11T22:25:00+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "01644",
-    "municipality": "池田町",
-    "adopted": 17,
-    "held": 3,
-    "excluded": 0,
-    "sourceUrlsChecked": 17,
+    "code": "01645",
+    "municipality": "豊頃町",
+    "adopted": 18,
+    "held": 1,
+    "excluded": 2,
+    "sourceUrlsChecked": 18,
     "validation": {
-      "previousMunicipality": "池田町はファミリー・サポート2件、児童扶養手当、未熟児養育医療、医療費助成3件、住宅・空き家・相続・解体等6件、箱型ごみステーション、コンポスター、資源集団回収、新規就農希望者営農指導の17件を公式本文から確認して追加。母子寡婦貸付金は金額未確定、児童手当現況届は届出ページ、移住促進助成制度は一覧ページのため第1巡掲載しない。",
+      "previousMunicipality": "豊頃町は町内就業者促進2件、次世代育成支援2件、空き家・空地利活用2件、乳幼児等医療費、ゼロカーボン3件、妊婦健康診査等、木造住宅耐震診断・改修、高等学校等就学助成、重度身体障害者等医療費、ひとり親家庭等医療費、小中学校検定受験料、定住促進等住宅取得の18件を公式本文/PDFから確認して追加。一覧ページは最終sourceにせず、404/制度外PDFは除外。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "ikeda prefix 21 checked, all 0 failures; includes existing Osaka Ikeda 2 records, Hokkaido Ikeda new 17 records all 200",
+      "urlReachability": "toyokoro 18 checked, all 0 failures",
       "nodeCheck": "pass: node --check scripts/discover-official-candidates.mjs",
-      "diffCheck": "pass: git diff --check for batch-017前半対象ファイル",
-      "auditCoverage": "pass: npm run audit:coverage, failures 0, activePublished 7110, officialLinkedActive 7072, manuallyVerifiedActive 7072, 北海道 localOfficial 2715"
+      "diffCheck": "pass: git diff --check for toyokoro対象ファイル",
+      "auditCoverage": "pass: npm run audit:coverage, failures 0, activePublished 7128, officialLinkedActive 7090, manuallyVerifiedActive 7090, 北海道 localOfficial 2733"
     }
   },
   "next": {
-    "code": "01645",
-    "municipality": "豊頃町",
-    "shortlist": "continue hokkaido-batch-017 from municipality code order after 01644 池田町",
-    "instructions": "第17バッチ前半（広尾町・幕別町・池田町、計37件）の集約diff/audit/commit後、豊頃町のDiscovery候補273件（strong 19 / lowPriority 254）から公式個別ページ/PDFで対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。"
+    "code": "01646",
+    "municipality": "本別町",
+    "shortlist": "continue hokkaido-batch-017 from municipality code order after 01645 豊頃町",
+    "instructions": "第17バッチ後半（豊頃町18件）の集約diff/audit/commit後、本別町のDiscovery候補277件（strong 1 / lowPriority 276）から公式個別ページ/PDFで対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

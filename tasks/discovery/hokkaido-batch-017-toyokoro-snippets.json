@@ -1,0 +1,163 @@
+{
+  "municipality": "豊頃町",
+  "code": "01645",
+  "verifiedAt": "2026-07-11T22:25:00+09:00",
+  "adopted": [
+    {
+      "slug": "toyokoro-worker-scholarship-repayment-subsidy-2026",
+      "title": "町内就業者促進事業補助金（奨学金返還支援）",
+      "amount": "年20万円、最長5年度",
+      "target": "大学等卒業後、2026年4月1日以降に町内事業所等に就業し定住意思がある方",
+      "deadline": "最初に申請した年度から5か年度まで",
+      "url": "https://www.toyokoro.jp/page/7313.html"
+    },
+    {
+      "slug": "toyokoro-worker-moving-expense-subsidy-2026",
+      "title": "町内就業者促進事業補助金（転入費用支援）",
+      "amount": "補助対象経費2分の1、上限5万円。子育て・若者世帯は上限10万円",
+      "target": "転入後3か月以上1年未満で、町内事業所等に3か月以上継続就業する方",
+      "deadline": "転入後3か月以上1年未満に申請",
+      "url": "https://www.toyokoro.jp/page/7313.html"
+    },
+    {
+      "slug": "toyokoro-birth-celebration-grant-2026",
+      "title": "次世代育成支援金（出産祝金）",
+      "amount": "新生児1名10万円（うち商品券5万円）",
+      "target": "豊頃町に6か月以上記録され現に居住し、本人又は配偶者が出産した方",
+      "deadline": "出生届提出時に申請、出産日から60日後支給",
+      "url": "https://www.toyokoro.jp/page/5278.html"
+    },
+    {
+      "slug": "toyokoro-child-development-grant-2026",
+      "title": "次世代育成支援金（健全育成支援金）",
+      "amount": "満1歳から満6歳まで毎年10万円（うち商品券5万円）",
+      "target": "満6歳までの児童を養育し町に6か月以上記録され現に居住する方",
+      "deadline": "4月・10月の2期支給、対象世帯へ申請書送付",
+      "url": "https://www.toyokoro.jp/page/5278.html"
+    },
+    {
+      "slug": "toyokoro-vacant-land-purchase-subsidy-2026",
+      "title": "空き家・空地利活用事業補助金（空き地購入）",
+      "amount": "購入費等2分の1、上限50万円。移住者・子育て世代は70万円",
+      "target": "空き家等情報バンク登録の空き地を購入し10年以上居住意思がある方",
+      "deadline": "購入後に必要書類を提出",
+      "url": "https://www.toyokoro.jp/page/5283.html"
+    },
+    {
+      "slug": "toyokoro-vacant-house-rent-subsidy-2026",
+      "title": "空き家・空地利活用事業補助金（空き家賃貸）",
+      "amount": "月2万円、子育て世代は月3万円、最大24か月",
+      "target": "空き家等情報バンク登録の空き家を賃借し3年以上居住意思がある移住者",
+      "deadline": "賃貸借後に必要書類を提出",
+      "url": "https://www.toyokoro.jp/page/5283.html"
+    },
+    {
+      "slug": "toyokoro-child-medical-expense-subsidy-2026",
+      "title": "乳幼児等医療費助成事業",
+      "amount": "医療費自己負担分全額",
+      "target": "満18歳年度末までの児童",
+      "deadline": "受給者証提示又は後日町へ申請",
+      "url": "https://www.toyokoro.jp/page/1270.html"
+    },
+    {
+      "slug": "toyokoro-solar-power-subsidy-2026",
+      "title": "ゼロカーボンシティ推進加速化事業補助金（太陽光発電設備）",
+      "amount": "補助対象経費2分の1、上限30万円",
+      "target": "蓄電池接続、10kW未満、余剰型配線等を満たす未使用太陽光発電設備",
+      "deadline": "必要書類を総務政策課へ提出",
+      "url": "https://www.toyokoro.jp/page/4901.html"
+    },
+    {
+      "slug": "toyokoro-storage-battery-subsidy-2026",
+      "title": "ゼロカーボンシティ推進加速化事業補助金（定置用蓄電池）",
+      "amount": "補助対象経費3分の1、上限15万円",
+      "target": "太陽光発電設備と常時接続する17.76kWh未満の未使用蓄電池",
+      "deadline": "必要書類を総務政策課へ提出",
+      "url": "https://www.toyokoro.jp/page/4901.html"
+    },
+    {
+      "slug": "toyokoro-electric-vehicle-subsidy-2026",
+      "title": "ゼロカーボンシティ推進加速化事業補助金（電気自動車等）",
+      "amount": "車両本体3分の1、上限5万円",
+      "target": "大規模災害時の非常用電源車協力が可能な未使用電気自動車等",
+      "deadline": "必要書類を総務政策課へ提出",
+      "url": "https://www.toyokoro.jp/page/4901.html"
+    },
+    {
+      "slug": "toyokoro-pregnancy-checkup-subsidy-2026",
+      "title": "妊婦健康診査等費用助成金",
+      "amount": "妊婦健診・新生児聴覚検査全額、交通費1回1,480円、健診15回まで",
+      "target": "妊婦健康診査等を受ける妊婦等",
+      "deadline": "母子手帳交付時、償還払いは出産後6か月以内",
+      "url": "https://www.toyokoro.jp/page/5280.html"
+    },
+    {
+      "slug": "toyokoro-wooden-house-seismic-diagnosis-subsidy-2026",
+      "title": "木造住宅耐震改修等補助金（耐震診断）",
+      "amount": "診断費3分の2、補助上限8万6,000円",
+      "target": "1981年5月31日以前着工の2階建て以下の木造在来軸組工法住宅",
+      "deadline": "各年度11月30日までに着手前申請、3月10日までに完了届",
+      "url": "https://www.toyokoro.jp/page/1130.html"
+    },
+    {
+      "slug": "toyokoro-wooden-house-seismic-retrofit-subsidy-2026",
+      "title": "木造住宅耐震改修等補助金（耐震改修）",
+      "amount": "工事費に応じ補助、上限30万円",
+      "target": "耐震診断で改修が必要と判断された対象木造住宅",
+      "deadline": "各年度11月30日までに着手前申請、3月10日までに完了届",
+      "url": "https://www.toyokoro.jp/page/1130.html"
+    },
+    {
+      "slug": "toyokoro-high-school-attendance-subsidy-2026",
+      "title": "高等学校等就学助成金",
+      "amount": "生徒1名月7,000円",
+      "target": "高等学校等に就学する生徒の保護者で町内居住者",
+      "deadline": "教育委員会へ申請、年2回交付",
+      "url": "https://www.toyokoro.jp/site/kyouiku/1362.html"
+    },
+    {
+      "slug": "toyokoro-severe-disability-medical-expense-subsidy-2026",
+      "title": "重度身体障害者等医療費助成事業",
+      "amount": "非課税世帯・18歳年度末まで自己負担全額。課税世帯は1割負担で月額上限あり",
+      "target": "身体障害者手帳1・2級等、療育手帳A、精神保健福祉手帳1級等",
+      "deadline": "受給者証提示又は後日町へ申請",
+      "url": "https://www.toyokoro.jp/page/1268.html"
+    },
+    {
+      "slug": "toyokoro-single-parent-medical-expense-subsidy-2026",
+      "title": "ひとり親家庭等医療費助成事業",
+      "amount": "非課税世帯・18歳年度末まで自己負担全額。課税世帯は1割負担で月額上限あり",
+      "target": "ひとり親家庭の母・父・児童等",
+      "deadline": "受給者証提示又は後日町へ申請",
+      "url": "https://www.toyokoro.jp/page/1269.html"
+    },
+    {
+      "slug": "toyokoro-student-exam-fee-subsidy-2026",
+      "title": "町立小中学校検定受験料助成金",
+      "amount": "対象検定受検料全額、各検定年2回まで",
+      "target": "町内住所があり対象検定を受験した児童生徒の保護者",
+      "deadline": "学校外会場受検は合否通知年度中に申請",
+      "url": "https://www.toyokoro.jp/site/kyouiku/5328.html"
+    },
+    {
+      "slug": "toyokoro-home-acquisition-subsidy-2026",
+      "title": "定住促進等住宅取得補助金",
+      "amount": "新築最大230万円、中古最大150万円",
+      "target": "町内居住目的で住宅を新築又は中古住宅を購入する新規移住者・町内在住者",
+      "deadline": "新築は入居日から1年以内、中古は事前届出",
+      "url": "https://www.toyokoro.jp/site/iju/1012.html"
+    }
+  ],
+  "held": [
+    {
+      "title": "豊頃町の助成制度・補助金一覧",
+      "reason": "一覧ページのため最終sourceにせず、個別ページへ到達できた制度のみ掲載した。"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "hp-manual.pdf / toyokoro_bosaihandbook.pdf",
+      "reason": "Discoveryでは制度語を拾ったが、404ページ又は制度個別PDFではないため掲載しない。"
+    }
+  ]
+}
