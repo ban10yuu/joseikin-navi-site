@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-11T18:58:00+09:00",
+  "updatedAt": "2026-07-11T20:05:00+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "01549",
-    "municipality": "訓子府町",
-    "adopted": 28,
+    "code": "01552",
+    "municipality": "佐呂間町",
+    "adopted": 19,
     "held": 5,
-    "excluded": 5,
-    "sourceUrlsChecked": 37,
+    "excluded": 12,
+    "sourceUrlsChecked": 21,
     "validation": {
-      "previousMunicipality": "小清水町: adopted 25, held 6, excluded 8, sourceUrlsChecked 29",
+      "previousMunicipality": "置戸町: adopted 26, held 4, excluded 8, sourceUrlsChecked 37",
       "eslint": "pass for src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "kunneppu 37 checked, 0 failures; koshimizu 29 checked, 0 failures",
-      "diffCheck": "pass for grant data file and checklist/checkpoint",
-      "auditCoverage": "pass; failures 0; 北海道 localOfficial 2104"
+      "urlReachability": "saroma 21 checked, 0 failures",
+      "diffCheck": "pass for grant data file",
+      "auditCoverage": "deferred to 3-5 municipality batch per high-speed rules"
     }
   },
   "next": {
-    "code": "01550",
-    "municipality": "置戸町",
-    "shortlist": "未作成",
-    "instructions": "小清水町25件・訓子府町28件は公式本文又は公式PDFで必須項目が揃ったものを採用済み。audit:coverageとcommit後、自治体コード順で置戸町へ進む。次候補は佐呂間町、遠軽町。"
+    "code": "01555",
+    "municipality": "遠軽町",
+    "shortlist": "hokkaido-batch-008-candidates.json generated; 97 candidates, strong 0, lowPriority 97",
+    "instructions": "置戸町26件・佐呂間町19件は公式本文又は公式PDF/Wordで必須項目が揃ったものを採用済み。遠軽町を同一集約単位で処理し、3自治体単位でaudit:coverageとcommitを実行する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

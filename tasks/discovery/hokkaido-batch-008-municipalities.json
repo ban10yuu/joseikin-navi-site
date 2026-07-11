@@ -1,0 +1,21 @@
+{
+  "batchId": "hokkaido-batch-008",
+  "prefecture": "北海道",
+  "municipalities": [
+    {
+      "code": "01550",
+      "name": "置戸町",
+      "officialBaseUrl": "https://www.town.oketo.hokkaido.jp/"
+    },
+    {
+      "code": "01552",
+      "name": "佐呂間町",
+      "officialBaseUrl": "https://www.town.saroma.hokkaido.jp/"
+    },
+    {
+      "code": "01555",
+      "name": "遠軽町",
+      "officialBaseUrl": "https://engaru.jp/"
+    }
+  ]
+}

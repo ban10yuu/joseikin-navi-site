@@ -6683,6 +6683,1671 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     publishedAt: '2026-06-26',
   },
   {
+    slug: 'oketo-disabled-room-improvement-loan-2026',
+    title: '置戸町 障害者居室整備資金貸付',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '最大200万円を無利子貸付',
+    maxAmountNum: 200,
+    category: 'nursing',
+    relatedCategories: ['housing'],
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', '障がい者', '住宅改修', '貸付'],
+    eligibility: '置戸町内に引き続き1年以上住所を有し、貸付金を償還する見込みがあり、町税等を完納している障がい者同居世帯等が対象です。',
+    targetOccupation: '障がい者と同居する、または同居予定の置戸町内世帯',
+    applicationPeriod: '随時相談。貸付を受けようとする前年度の11月30日までに相談',
+    description: '置戸町が、障がい者の専用居室を増築・改築する世帯に、居室整備資金を無利子で貸し付ける制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>置戸町障害者居室整備資金貸付は、障がい者と同居する、またはこれから同居する世帯が、障がい者専用の居室を増築・改築するための資金を借りられる制度です。</p>'
+      },
+      {
+        heading: '対象範囲',
+        content: '<p>身体障害者手帳1級・2級、療育手帳A判定、またはこれらに準ずる程度の障がいがあり町長が特に認める方の居室整備が対象です。</p>'
+      },
+      {
+        heading: '貸付内容',
+        content: '<p>限度額は200万円以内、無利子です。貸付日の属する月の翌月から1年間の据置後、9年以内に元金均等半年賦で償還します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/kenko_fukushi/shinshin/kyoshitsu/',
+    sourceName: '置戸町 居室整備資金貸付',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/kenko_fukushi/shinshin/kyoshitsu/'
+    ],
+    sourceNote: '置戸町公式ページで障害者居室整備資金貸付、対象者、対象範囲、限度額200万円以内、無利子、前年度11月30日までの相談を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'oketo-wage-increase-emergency-subsidy-2026',
+    title: '置戸町 賃上げ緊急支援事業補助金',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '正規雇用労働者1人5万円、非正規雇用労働者1人3万円',
+    maxAmountNum: 5,
+    category: 'business',
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', '賃上げ', '中小企業', '事業者支援'],
+    eligibility: '置戸町内に事業所を有する中小企業者等で、町内事業所で勤務する労働者の時間給を65円以上引き上げ、1,075円以上とするなどの要件を満たす事業者が対象です。',
+    targetOccupation: '置戸町内の中小企業者等',
+    applicationPeriod: '令和8年7月1日から令和8年11月30日まで',
+    description: '置戸町が、物価高騰等の影響下で従業員の賃上げを行う町内中小企業者等を支援する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>置戸町賃上げ緊急支援事業補助金は、町内事業所で勤務する労働者の賃金を引き上げた中小企業者等に対し、労働者数に応じて補助する制度です。</p>'
+      },
+      {
+        heading: '主な要件',
+        content: '<p>対象労働者の時間給を65円以上引き上げ、引上げ後の時間給が1,075円以上であること、申請時点で賃金の支払い実績があることなどが必要です。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>正規雇用労働者は1人あたり5万円、非正規雇用労働者は1人あたり3万円です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/topics/2482/',
+    sourceName: '置戸町 賃上げ緊急支援事業補助金のお知らせ',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/topics/2482/'
+    ],
+    sourceNote: '置戸町公式ページで令和8年7月1日更新、時間給65円以上引上げ、1,075円以上、正規5万円・非正規3万円、令和8年11月30日までを確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'oketo-forest-home-construction-subsidy-2026',
+    title: '置戸町 住宅建設 森と住まいの支援補助金',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '基本50万円、同居・子育て若者世帯・3世代同居・町内森林認証材・北方型住宅ZERO加算あり',
+    maxAmountNum: 50,
+    category: 'housing',
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', '住宅建設', '新築', '町産材'],
+    eligibility: '置戸町内に自ら居住する、または1親等の親族を入居させるために、床面積70平方メートル以上の防寒住宅を建設し、10年以上居住するなどの要件を満たす方が対象です。',
+    targetOccupation: '置戸町内で住宅を建設する個人等',
+    applicationPeriod: '着工前に申請。年度内の手続きは公式案内に従う',
+    description: '置戸町が、町内で住宅を建設する方に基本額と各種加算を支給し、定住と町内森林資源の活用を支援する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>森と住まいの支援補助金は、置戸町内に住宅を建設して居住する方等に、住宅建設費の一部を支援する制度です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>補助基本額は50万円です。同居する1親等以内の親族1人につき25万円、子育て又は若者世帯50万円、3世代同居50万円、町内森林認証材による建設100万円、北方型住宅ZERO50万円の加算があります。</p>'
+      },
+      {
+        heading: '主な条件',
+        content: '<p>床面積70平方メートル以上の防寒住宅であること、10年以上居住すること、町税等に滞納がないこと、過去10年以内に同種補助を受けていないことなどが必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/kurashi/sumai/juutakukensetsu/',
+    sourceName: '置戸町 住宅建設 森と住まいの支援補助金制度',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/kurashi/sumai/juutakukensetsu/',
+      'https://www.town.oketo.hokkaido.jp/file/contents/33/11260/r7~annai.pdf'
+    ],
+    sourceNote: '置戸町公式ページと令和7年度案内PDFで、補助基本額50万円、同居・子育て若者世帯・3世代・町内森林認証材・北方型住宅ZERO加算、対象住宅条件を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'oketo-housing-renovation-subsidy-2026',
+    title: '置戸町 住宅改修補助金交付事業',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '最大50万円',
+    maxAmountNum: 50,
+    category: 'housing',
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', '住宅改修', '省エネ改修', 'リフォーム'],
+    eligibility: '置戸町内の住宅を所有・借受・居住予定の個人または法人で、町税等に滞納がなく、対象工事費や築年数などの要件を満たす方が対象です。',
+    targetOccupation: '置戸町内の住宅所有者・居住者等',
+    applicationPeriod: '工事着手前に申請。補助決定後に着工',
+    description: '置戸町が、町内住宅の改修工事や省エネルギー改修工事の費用の一部を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>住宅改修補助金交付事業は、町内住宅の一般改修や省エネルギー改修を行う方に、工事費の一部を補助する制度です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>一般改修工事、省エネルギー改修工事ともに対象工事費の20%以内、上限50万円です。町外施工業者による一般改修は補助額が5分の4になります。</p>'
+      },
+      {
+        heading: '主な条件',
+        content: '<p>一般改修は税抜30万円以上、省エネルギー改修は税抜20万円以上の工事が対象です。着工前の申請と補助決定が必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/kurashi/sumai/kaishushorei/',
+    sourceName: '置戸町 住宅改修補助金交付事業',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/kurashi/sumai/kaishushorei/',
+      'https://www.town.oketo.hokkaido.jp/file/contents/35/380/kaisyuuannai.pdf'
+    ],
+    sourceNote: '置戸町公式ページと案内PDFで、一般改修・省エネ改修、対象工事費20%以内、上限50万円、工事額要件、着工前申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'oketo-empty-house-purchase-subsidy-2026',
+    title: '置戸町 空き家利用促進補助金（空き家購入）',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '最大50万円、同居・3世代・子育て若者世帯加算あり',
+    maxAmountNum: 50,
+    category: 'housing',
+    relatedCategories: ['living'],
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', '空き家', '住宅取得', '移住定住'],
+    eligibility: '置戸町内の空き家を購入し、定住や入居等の要件を満たす方が対象です。町税等の滞納がないことなどが必要です。',
+    targetOccupation: '置戸町内の空き家購入者',
+    applicationPeriod: '空き家取得前に申請。補助決定後に取得手続き',
+    description: '置戸町が、町内空き家の取得を促進するため、購入費の一部と世帯状況に応じた加算を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>空き家利用促進補助金の購入区分は、置戸町内の空き家を取得して利用する方に購入費の一部を補助する制度です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>購入費の20%以内、上限50万円です。1親等以内の親族同居1人につき10万円、3世代同居50万円、子育て又は若者世帯50万円の加算があります。</p>'
+      },
+      {
+        heading: '主な条件',
+        content: '<p>空き家の取得前に申請し、交付決定後に手続きを進めます。補助額は売買価格を超えない範囲です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/kurashi/sumai/akiyariyousokusinnhojo/',
+    sourceName: '置戸町 空き家利用促進補助金交付事業',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/kurashi/sumai/akiyariyousokusinnhojo/',
+      'https://www.town.oketo.hokkaido.jp/file/contents/1476/11270/r7~akiyaannai.pdf'
+    ],
+    sourceNote: '置戸町公式ページと令和7年度案内PDFで、空き家購入費20%以内・上限50万円、同居・3世代・子育て若者世帯加算、取得前申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'oketo-empty-house-renovation-subsidy-2026',
+    title: '置戸町 空き家利用促進補助金（空き家改修）',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '最大50万円',
+    maxAmountNum: 50,
+    category: 'housing',
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', '空き家', '改修', '省エネ改修'],
+    eligibility: '置戸町内の対象空き家を改修または省エネルギー改修し、補助対象住宅や工事費等の要件を満たす方が対象です。',
+    targetOccupation: '置戸町内の空き家所有者・利用者等',
+    applicationPeriod: '工事着手前に申請。補助決定後に着工',
+    description: '置戸町が、空き家の活用を促すため、空き家の改修工事や省エネルギー改修工事の費用を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>空き家利用促進補助金の改修区分は、町内空き家の利活用に必要な改修や省エネルギー改修を支援する制度です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>改修工事、省エネルギー改修工事ともに対象工事費の50%以内、上限50万円です。</p>'
+      },
+      {
+        heading: '主な条件',
+        content: '<p>一般改修は税抜30万円以上、省エネルギー改修は税抜20万円以上の工事が対象です。着工前の申請と補助決定が必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/kurashi/sumai/akiyariyousokusinnhojo/',
+    sourceName: '置戸町 空き家利用促進補助金交付事業',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/kurashi/sumai/akiyariyousokusinnhojo/',
+      'https://www.town.oketo.hokkaido.jp/file/contents/1476/11270/r7~akiyaannai.pdf'
+    ],
+    sourceNote: '置戸町公式ページと令和7年度案内PDFで、空き家改修・省エネ改修の対象工事費50%以内、上限50万円、工事額要件、着工前申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'oketo-empty-house-demolition-subsidy-2026',
+    title: '置戸町 空き家利用促進補助金（空き家解体）',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '最大50万円、アスベスト調査加算最大10万円',
+    maxAmountNum: 50,
+    category: 'housing',
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', '空き家', '解体', '除却'],
+    eligibility: '置戸町内の対象空き家を解体し、補助対象住宅・工事・申請時期などの要件を満たす所有者等が対象です。',
+    targetOccupation: '置戸町内の空き家所有者等',
+    applicationPeriod: '解体工事着手前に申請。補助決定後に着工',
+    description: '置戸町が、利活用が難しい空き家の解体やアスベスト調査に係る費用の一部を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>空き家利用促進補助金の解体区分は、対象空き家の解体に要する費用を支援し、空き家の適正管理を促す制度です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>解体工事費の50%以内、上限50万円です。アスベスト調査を行う場合は最大10万円の加算があります。</p>'
+      },
+      {
+        heading: '主な条件',
+        content: '<p>解体工事の着手前に申請し、交付決定後に工事を開始します。対象住宅や工事内容は公式案内PDFで確認します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/kurashi/sumai/akiyariyousokusinnhojo/',
+    sourceName: '置戸町 空き家利用促進補助金交付事業',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/kurashi/sumai/akiyariyousokusinnhojo/',
+      'https://www.town.oketo.hokkaido.jp/file/contents/1476/11270/r7~akiyaannai.pdf'
+    ],
+    sourceNote: '置戸町公式ページと令和7年度案内PDFで、空き家解体費50%以内、上限50万円、アスベスト調査加算、着工前申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'oketo-residential-battery-subsidy-2026',
+    title: '置戸町 住宅用太陽光発電システム設置補助（定置用蓄電池）',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '最大30万円',
+    maxAmountNum: 30,
+    category: 'housing',
+    relatedCategories: ['disaster'],
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', '蓄電池', '太陽光発電', '省エネ'],
+    eligibility: '置戸町内の住宅で太陽光発電システムと併せて定置用蓄電池を設置する方、または既設太陽光発電に蓄電池を追加する方が対象です。',
+    targetOccupation: '置戸町内の住宅所有者等',
+    applicationPeriod: '工事着手前に申請。年度内2月末までに完了する必要あり',
+    description: '置戸町が、住宅の再生可能エネルギー利用を促すため、太陽光発電と連携する定置用蓄電池の設置費を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>住宅用太陽光発電システム設置補助は、太陽光発電単体ではなく、定置用蓄電池の設置を対象として支援する制度です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>太陽光発電と同時に設置する定置用蓄電池、または既設太陽光発電への蓄電池追加は定額30万円です。新築住宅の場合は15万円です。</p>'
+      },
+      {
+        heading: '主な条件',
+        content: '<p>工事着手前に申請し、年度内2月末までに工事を完了する必要があります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/kurashi/sumai/taiyoukou/',
+    sourceName: '置戸町 住宅用太陽光発電システム設置補助',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/kurashi/sumai/taiyoukou/',
+      'https://www.town.oketo.hokkaido.jp/file/contents/36/13919/taiyoukou_sinannai.pdf'
+    ],
+    sourceNote: '置戸町公式ページと案内PDFで、太陽光発電単体は対象外、定置用蓄電池30万円、新築住宅15万円、着工前申請、2月末完了を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'oketo-empty-house-belongings-disposal-subsidy-2026',
+    title: '置戸町 空き家家財道具処分支援事業補助金',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '最大10万円',
+    maxAmountNum: 10,
+    category: 'housing',
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', '空き家', '家財処分', '空き家バンク'],
+    eligibility: '置戸町内にある個人所有の専用住宅で、空き家バンク登録済み又は登録予定などの要件を満たす空き家の所有者、委任を受けた家族、相続人が対象です。',
+    targetOccupation: '置戸町内の空き家所有者等',
+    applicationPeriod: '片付け前に申請。交付決定後に着手し年度内に完了',
+    description: '置戸町が、空き家の売却・賃貸など利活用を促進するため、家財道具等の処分・搬出・分別作業の委託費を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>空き家家財道具処分支援事業補助金は、空き家内に残された家財道具等の片付けに係る委託費用の一部を助成する制度です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>補助対象経費の50%以内、上限10万円です。1,000円未満は切り捨てです。</p>'
+      },
+      {
+        heading: '主な条件',
+        content: '<p>一般廃棄物収集運搬業等の許可を受けた事業者への委託費が対象です。片付け前に申請し、交付決定後に着手する必要があります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/kurashi/sumai/akiyakazaidougusyobunn/',
+    sourceName: '置戸町 空き家家財道具処分支援事業補助金',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/kurashi/sumai/akiyakazaidougusyobunn/',
+      'https://www.town.oketo.hokkaido.jp/file/contents/1946/15675/akykazai.docx'
+    ],
+    sourceNote: '置戸町公式ページと公式Word案内で、空き家家財道具処分支援、対象空き家・対象者、対象経費50%以内、上限10万円、片付け前申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'oketo-food-waste-processor-subsidy-2026',
+    title: '置戸町 生ごみ処理機購入助成',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '電動生ごみ処理機最大5万円、コンポスト最大4,000円',
+    maxAmountNum: 5,
+    category: 'living',
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', '生ごみ処理機', 'ごみ減量', '生活支援'],
+    eligibility: '置戸町内の世帯主または自治会で、町内販売店から対象機器を購入する方が対象です。',
+    targetOccupation: '置戸町内の世帯主・自治会',
+    applicationPeriod: '購入時・申請方法は町民生活課案内に従う',
+    description: '置戸町が、ごみ減量を目的として、コンポストや電動生ごみ処理機の購入費を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>生ごみ処理機購入助成は、家庭や自治会での生ごみ減量を進めるため、町内販売店で購入する処理機の費用を助成する制度です。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>コンポストは購入費の3分の2以内、上限4,000円で年度1台までです。電動生ごみ処理機は1台上限5万円で、5年度に1台までです。</p>'
+      },
+      {
+        heading: '主な条件',
+        content: '<p>町内販売店から購入することが条件です。申請は置戸町町民生活課の案内に従います。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/kurashi/gomi/jyosei/',
+    sourceName: '置戸町 生ごみ処理機購入助成',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/kurashi/gomi/jyosei/'
+    ],
+    sourceNote: '置戸町公式ページで、生ごみ処理機購入助成、世帯主・自治会、町内販売店購入、コンポスト3分の2・上限4,000円、電動処理機上限5万円を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'oketo-infertility-treatment-subsidy-2026',
+    title: '置戸町 不妊治療費助成事業',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '1回最大8万円',
+    maxAmountNum: 8,
+    category: 'childcare',
+    relatedCategories: ['medical'],
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', '不妊治療', '体外受精', '顕微授精'],
+    eligibility: '治療開始時の妻の年齢が43歳未満で、申請時に夫婦のいずれかが置戸町に住所を有し、同一治療で他市町村の助成を受けていない夫婦が対象です。',
+    targetOccupation: '不妊治療を受ける置戸町内夫婦',
+    applicationPeriod: '治療終了後に申請。助成回数は治療開始年齢により上限あり',
+    description: '置戸町が、保険診療で行われる特定不妊治療等の自己負担を軽減するため、治療費を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>置戸町不妊治療費助成事業は、体外受精、顕微授精、男性不妊治療などの特定不妊治療費を支援する制度です。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>1回の治療につき上限8万円を助成します。妻の治療開始年齢が40歳未満の場合は子ども1人につき6回、40歳以上43歳未満の場合は3回までです。</p>'
+      },
+      {
+        heading: '主な条件',
+        content: '<p>第三者からの精子・卵子・胚の提供、代理母、借り腹は対象外です。申請時に夫婦のいずれかが置戸町に住所を有する必要があります。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/kenko_fukushi/tokuteifuninn/',
+    sourceName: '置戸町 不妊治療費助成事業',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/kenko_fukushi/tokuteifuninn/'
+    ],
+    sourceNote: '置戸町公式ページで、不妊治療費助成、妻43歳未満、1回上限8万円、年齢別助成回数、申請時住所要件を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'oketo-elderly-air-conditioner-subsidy-2026',
+    title: '置戸町 高齢者世帯エアコン購入費助成事業',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '最大5万円',
+    maxAmountNum: 5,
+    category: 'nursing',
+    relatedCategories: ['housing', 'medical'],
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', '高齢者', 'エアコン', '非課税世帯'],
+    eligibility: '置戸町に住所があり、65歳以上の高齢者のみで居住し、世帯員全員が町民税非課税かつ町税等の滞納がない世帯が対象です。',
+    targetOccupation: '置戸町内の高齢者非課税世帯',
+    applicationPeriod: '令和6年4月1日から令和10年3月31日まで。対象期間内1回のみ',
+    description: '置戸町が、高齢者世帯の熱中症予防と安心な生活を支援するため、エアコン購入・設置費を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>高齢者世帯エアコン購入費助成事業は、非課税の高齢者世帯を対象に、エアコンの購入及び設置費の一部を助成する制度です。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>対象経費の2分の1を助成し、上限は5万円です。1,000円未満は切り捨てです。</p>'
+      },
+      {
+        heading: '主な条件',
+        content: '<p>天井・壁・窓枠等に固定設置するエアコンで、省エネルギー基準達成率85%以上又は省エネ性能2.0以上の製品が対象です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/kenko_fukushi/koureiaircon/',
+    sourceName: '置戸町 高齢者世帯エアコン購入費助成事業',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/kenko_fukushi/koureiaircon/'
+    ],
+    sourceNote: '置戸町公式ページで、高齢者非課税世帯対象、対象経費2分の1・上限5万円、令和6年4月1日から令和10年3月31日まで、期間内1回を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'oketo-community-activity-subsidy-2026',
+    title: '置戸町 元気なまちづくり活動支援補助金',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '1年目最大20万円、2・3年目最大10万円',
+    maxAmountNum: 20,
+    category: 'living',
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', '地域活動', '住民団体', 'まちづくり'],
+    eligibility: '置戸町内を活動拠点とし、町民5人以上で構成され、営利・宗教・政治等を目的としない住民団体等が対象です。',
+    targetOccupation: '置戸町内の住民団体・地域活動団体',
+    applicationPeriod: '当該年度9月末まで募集',
+    description: '置戸町が、地域の課題解決や活性化に取り組む住民団体等を支援する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>元気なまちづくり活動支援補助金は、町民が主体となる公益的なまちづくり活動を支援する制度です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>1年目は対象経費の10分の10以内、上限20万円です。2年目・3年目は対象経費の2分の1以内、上限10万円です。同一団体・同一事業は3回までです。</p>'
+      },
+      {
+        heading: '主な条件',
+        content: '<p>町民5人以上で構成され、町内を活動拠点とし、広く町民に開かれた非営利活動であることなどが必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/chosei/hojo_shorei/katudou_hojo/',
+    sourceName: '置戸町 元気なまちづくり活動支援補助金',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/chosei/hojo_shorei/katudou_hojo/'
+    ],
+    sourceNote: '置戸町公式ページで、住民団体対象、1年目10分の10・上限20万円、2・3年目2分の1・上限10万円、年度9月末まで募集を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'oketo-future-startup-subsidy-2026',
+    title: '置戸町 未来の起業補助金',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '店舗等改修最大500万円、家賃補助最大120万円',
+    maxAmountNum: 500,
+    category: 'business',
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', '起業', '空き店舗', '家賃補助'],
+    eligibility: '置戸町内の空き店舗等を活用して起業し、改修完了時点で町内に住所を有し、商工会に加入し、税滞納がないなどの要件を満たす方が対象です。',
+    targetOccupation: '置戸町内で起業する方',
+    applicationPeriod: '令和6年4月1日から受付',
+    description: '置戸町が、町内の空き店舗等を活用した起業を促すため、店舗等改修費と家賃を支援する補助金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>未来の起業補助金は、町内の空き店舗等を活用して新たに事業を始める方を支援する制度です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>店舗等改修は対象経費の2分の1以内、補助対象経費1,000万円を上限とし、補助上限は500万円です。家賃補助は月額上限5万円、24か月以内で最大120万円です。</p>'
+      },
+      {
+        heading: '主な条件',
+        content: '<p>商工会会員であること、町内に住所を有すること、起業後5年以上事業継続の意思があることなどが必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/chosei/hojo_shorei/mirai_kigyo/',
+    sourceName: '置戸町 未来の起業補助金',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/chosei/hojo_shorei/mirai_kigyo/',
+      'https://www.town.oketo.hokkaido.jp/file/contents/582/3400/mirainokigyou.pdf'
+    ],
+    sourceNote: '置戸町公式ページと公式PDFで、空き店舗等を活用する起業者、店舗等改修2分の1・最大500万円、家賃月5万円・24か月最大120万円、令和6年4月1日受付を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'oketo-shopping-street-renovation-subsidy-2026',
+    title: '置戸町 美しい商店街補助金',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '店舗改修最大150万円、設備等最大50万円',
+    maxAmountNum: 150,
+    category: 'business',
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', '商店街', '店舗改修', '設備導入'],
+    eligibility: '置戸町内で事業を営み、商工会会員で、事業継続5年以上、町税等の滞納がないなどの要件を満たす事業者が対象です。',
+    targetOccupation: '置戸町内の商工業者',
+    applicationPeriod: '令和8年4月1日から受付',
+    description: '置戸町が、町内商店街の景観向上や事業継続を支援するため、店舗改修や設備導入を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>美しい商店街補助金は、町内事業者の店舗改修や設備等の整備を支援し、商店街の魅力向上を図る制度です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>店舗改修は税抜30万円以上の工事が対象で、対象経費の2分の1以内、上限150万円です。設備等は1品税抜10万円以上が対象で、対象経費の2分の1以内、上限50万円です。</p>'
+      },
+      {
+        heading: '主な条件',
+        content: '<p>商工会会員であること、事業を5年以上継続すること、未来の起業補助金から5年以上経過していることなどが必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/chosei/hojo_shorei/shoetngai/',
+    sourceName: '置戸町 美しい商店街補助金',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/chosei/hojo_shorei/shoetngai/',
+      'https://www.town.oketo.hokkaido.jp/file/contents/583/3415/R8utukushi_shotengai.pdf'
+    ],
+    sourceNote: '置戸町公式ページと令和8年度PDFで、店舗改修2分の1・最大150万円、設備等2分の1・最大50万円、商工会会員・5年以上継続要件、令和8年4月1日受付を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'oketo-genki-startup-support-benefit-2026',
+    title: '置戸町 元気だすべぇ事業 起業応援金',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '100万円',
+    maxAmountNum: 100,
+    category: 'business',
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', '起業', '応援金', '商工会'],
+    eligibility: '置戸町内で起業し、置戸町商工会の会員で、起業後5年以上事業を継続する意思があり、町内に住所を有する方が対象です。',
+    targetOccupation: '置戸町内で起業する方',
+    applicationPeriod: '申請時期・必要書類は公式ページ及びチラシに従う',
+    description: '置戸町が、町内で起業する方に応援金を支給し、地域活性化を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>元気だすべぇ事業の起業応援金は、町内で起業する方を対象に、地域活性化を目的として応援金を支給する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>支給額は100万円です。</p>'
+      },
+      {
+        heading: '主な条件',
+        content: '<p>置戸町商工会の会員であること、起業後5年以上事業を継続する意思があること、町内に住所を有することが必要です。公共施設を利用しての起業は対象外です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/chosei/hojo_shorei/kikaku-shoukou/',
+    sourceName: '置戸町 元気だすべぇ事業',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/chosei/hojo_shorei/kikaku-shoukou/'
+    ],
+    sourceNote: '置戸町公式ページで、元気だすべぇ事業の起業応援金、100万円、商工会会員、5年以上事業継続、町内住所要件を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'oketo-genki-craft-studio-benefit-2026',
+    title: '置戸町 元気だすべぇ事業 オケクラフト工房設立応援金',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '100万円',
+    maxAmountNum: 100,
+    category: 'business',
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', 'オケクラフト', '工房設立', '起業'],
+    eligibility: 'オケクラフト研修を終えて独立し工房を設立する方で、置戸町商工会の会員、町内住所、5年以上事業継続意思などの要件を満たす方が対象です。',
+    targetOccupation: 'オケクラフト工房を設立する方',
+    applicationPeriod: '申請時期・必要書類は公式ページ及びチラシに従う',
+    description: '置戸町が、オケクラフト研修修了者の独立・工房設立を支援する応援金です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>元気だすべぇ事業のオケクラフト工房設立応援金は、研修修了後に独立して工房を設立する方を支援する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>支給額は100万円です。</p>'
+      },
+      {
+        heading: '主な条件',
+        content: '<p>置戸町商工会の会員であること、起業後5年以上事業を継続する意思があること、町内に住所を有することなどが必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/chosei/hojo_shorei/kikaku-shoukou/',
+    sourceName: '置戸町 元気だすべぇ事業',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/chosei/hojo_shorei/kikaku-shoukou/'
+    ],
+    sourceNote: '置戸町公式ページで、オケクラフト工房設立応援金、100万円、商工会会員、5年以上事業継続、町内住所要件を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'oketo-genki-migration-housing-benefit-2026',
+    title: '置戸町 元気だすべぇ事業 移住者応援金',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '100万円（単身世帯は50万円）',
+    maxAmountNum: 100,
+    category: 'living',
+    relatedCategories: ['housing'],
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', '移住', '住宅取得', '応援金'],
+    eligibility: '町外から転入して3年以内に置戸町内で住宅を建設または取得し、町内に住所を有し、応援金受給後3年以上継続居住する方が対象です。',
+    targetOccupation: '置戸町へ移住し住宅を建設・取得する方',
+    applicationPeriod: '申請時期・必要書類は公式ページ及びチラシに従う',
+    description: '置戸町が、町外から移住して町内に住宅を建設・取得する方に応援金を支給する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>元気だすべぇ事業の移住者応援金は、町外から置戸町へ移住し、町内に住宅を建設または取得する方を支援する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>新築住宅建設者または中古住宅取得者は100万円です。ただし単身世帯での移住の場合は50万円です。</p>'
+      },
+      {
+        heading: '主な条件',
+        content: '<p>町外から転入して3年以内に町内で住宅を建設または取得すること、3親等以内の親族間取得ではないこと、受給後3年以上継続居住することなどが必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/chosei/hojo_shorei/kikaku-shoukou/',
+    sourceName: '置戸町 元気だすべぇ事業',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/chosei/hojo_shorei/kikaku-shoukou/'
+    ],
+    sourceNote: '置戸町公式ページで、移住者応援金、住宅建設・取得100万円、単身50万円、転入3年以内、3年以上継続居住要件を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'oketo-child-medical-expense-subsidy-2026',
+    title: '置戸町 子ども医療費助成制度',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '高校3年生相当まで医療費自己負担なし',
+    maxAmountNum: 0,
+    category: 'childcare',
+    relatedCategories: ['medical'],
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', '子ども医療費', '高校生', '子育て'],
+    eligibility: '置戸町の就学前乳幼児から高校3年生相当までの子どもが対象です。',
+    targetOccupation: '置戸町内の子ども・保護者',
+    applicationPeriod: '受給者証は毎年8月1日から翌年7月31日まで有効。申請・償還払いは公式案内に従う',
+    description: '置戸町が、子どもの入院・通院等に係る医療費を高校3年生相当まで助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>子ども医療費助成制度は、就学前乳幼児から高校3年生相当までの入院・通院等の医療費を助成する制度です。</p>'
+      },
+      {
+        heading: '助成範囲',
+        content: '<p>入院、通院、医科、歯科、調剤、柔道整復、訪問看護が対象として案内されています。</p>'
+      },
+      {
+        heading: '自己負担',
+        content: '<p>公式ページでは対象区分について自己負担なしと案内されています。北海道外受診等は償還払いの手続きが必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/kenko_fukushi/iryoukyufu/iryohi_josei/',
+    sourceName: '置戸町 子ども医療費助成制度',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/kenko_fukushi/iryoukyufu/iryohi_josei/'
+    ],
+    sourceNote: '置戸町公式ページで、令和4年8月1日から高校3年生まで拡大、入院・通院等、自己負担なし、受給者証有効期間を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'oketo-single-parent-medical-expense-subsidy-2026',
+    title: '置戸町 ひとり親家庭等医療費助成制度',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '医療費自己負担を一部助成',
+    maxAmountNum: 0,
+    category: 'childcare',
+    relatedCategories: ['medical'],
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', 'ひとり親', '医療費助成', '子育て'],
+    eligibility: '置戸町のひとり親家庭等の父・母および20歳未満の子で、所得制限等の要件を満たす方が対象です。',
+    targetOccupation: '置戸町内のひとり親家庭等',
+    applicationPeriod: '医療費払い戻しは医療機関等へかかった翌月以降に申請',
+    description: '置戸町が、ひとり親家庭等の医療費負担を軽減するため、医療費の一部を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>ひとり親家庭等医療費助成制度は、ひとり親家庭等の父・母および20歳未満の子の医療費負担を支援する制度です。</p>'
+      },
+      {
+        heading: '助成範囲',
+        content: '<p>父・母は入院と訪問看護、子は医科、歯科、調剤、柔道整復、訪問看護が対象として案内されています。</p>'
+      },
+      {
+        heading: '自己負担・払い戻し',
+        content: '<p>非課税世帯等は初診時一時負担のみ、課税世帯は1割負担で月額限度額超過分の払い戻しがあります。18歳までの子は自己負担なしと案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/kenko_fukushi/iryoukyufu/hitorioya/',
+    sourceName: '置戸町 ひとり親家庭等医療費助成制度',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/kenko_fukushi/iryoukyufu/hitorioya/'
+    ],
+    sourceNote: '置戸町公式ページで、ひとり親家庭等の父母・20歳未満の子、助成範囲、所得制限、自己負担区分、翌月以降の払い戻し申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'oketo-severe-disability-medical-expense-subsidy-2026',
+    title: '置戸町 重度心身障がい者医療費助成制度',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '医療費自己負担を一部助成',
+    maxAmountNum: 0,
+    category: 'medical',
+    relatedCategories: ['nursing'],
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', '重度心身障がい者', '医療費助成', '障がい福祉'],
+    eligibility: '身体障害者手帳1・2級及び3級内部障害、重度知的障がい、精神障害者保健福祉手帳1級などの方で、所得制限等の要件を満たす方が対象です。',
+    targetOccupation: '置戸町内の重度心身障がい者等',
+    applicationPeriod: '医療費払い戻しは医療機関等へかかった翌月以降に申請',
+    description: '置戸町が、重度心身障がい者等の医療費自己負担を軽減するため、医療費の一部を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>重度心身障がい者医療費助成制度は、重度の身体・知的・精神障がいがある方の医療費負担を支援する制度です。</p>'
+      },
+      {
+        heading: '助成範囲',
+        content: '<p>医科、歯科、調剤、柔道整復、訪問看護が対象です。精神障がい者は通院医療費のみ対象と案内されています。</p>'
+      },
+      {
+        heading: '自己負担・払い戻し',
+        content: '<p>非課税世帯等は初診時一時負担のみ、課税世帯は1割負担で月額限度額超過分の払い戻しがあります。老人区分も公式ページで案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/kenko_fukushi/iryoukyufu/judo_josei/',
+    sourceName: '置戸町 重度心身障がい者医療助成制度',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/kenko_fukushi/iryoukyufu/judo_josei/',
+      'https://www.town.oketo.hokkaido.jp/kenko_fukushi/iryoukyufu/judo_josei/ippan/',
+      'https://www.town.oketo.hokkaido.jp/kenko_fukushi/iryoukyufu/judo_josei/rojin/'
+    ],
+    sourceNote: '置戸町公式ページで、一般・老人の重度心身障害者医療費助成、対象者、助成範囲、所得制限、自己負担区分、翌月以降の払い戻し申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'oketo-premature-infant-medical-expense-subsidy-2026',
+    title: '置戸町 未熟児養育医療',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '指定養育医療機関での入院治療医療費を一部公費負担',
+    maxAmountNum: 0,
+    category: 'childcare',
+    relatedCategories: ['medical'],
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', '未熟児', '養育医療', '子育て'],
+    eligibility: '身体の発育が未熟なまま生まれ、出生時体重2,000グラム以下または生活能力が薄弱で指定症状を呈し、指定養育医療機関で入院治療を必要とする子どもが対象です。',
+    targetOccupation: '置戸町内の未熟児と保護者',
+    applicationPeriod: '対象となるか主治医に相談し、町民生活課の案内に従って申請',
+    description: '置戸町が、未熟児の指定養育医療機関での入院治療に必要な医療費を一部公費負担する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>未熟児養育医療は、身体の発育が未熟なまま生まれ、入院治療を必要とする子どもに対し、その治療に必要な医療費を一部公費負担する制度です。</p>'
+      },
+      {
+        heading: '対象',
+        content: '<p>出生時体重2,000グラム以下、または生活能力が薄弱で運動・体温・呼吸器・循環器・消化器・黄疸などの指定症状が認められる場合が対象です。</p>'
+      },
+      {
+        heading: '条件',
+        content: '<p>指定養育医療機関での入院治療に限られます。対象となるかは主治医に相談するよう案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/kenko_fukushi/ninpu_nyuyoji/kosodatesien/mijukuji/',
+    sourceName: '置戸町 未熟児養育医療',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/kenko_fukushi/ninpu_nyuyoji/kosodatesien/mijukuji/'
+    ],
+    sourceNote: '置戸町公式ページで、未熟児養育医療、指定養育医療機関での入院治療、出生時体重2,000グラム以下等の対象症状、主治医相談を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'oketo-human-resource-scholarship-loan-2026',
+    title: '置戸町 人材育成基金（奨学金）',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '大学月額5万円、入学準備金最大25万円を無利子貸付',
+    maxAmountNum: 25,
+    category: 'education',
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', '奨学金', '無利子貸付', '進学支援'],
+    eligibility: '置戸町住民の子弟で、身体健康で学力及び素質に優れ、学費の支弁が困難な方が対象です。',
+    targetOccupation: '置戸町住民の子弟で進学する方',
+    applicationPeriod: '令和8年3月5日まで。年度途中申請は審査・貸付開始に時間がかかる場合あり',
+    description: '置戸町が、学費の支弁が困難な町民子弟の進学を支援するため、月額奨学金と入学準備金を無利子で貸し付ける制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>人材育成基金（奨学金）は、置戸町住民の子弟で、学力・素質に優れ、学費の支弁が困難な方に奨学金を無利子で貸し付ける制度です。</p>'
+      },
+      {
+        heading: '貸付金額',
+        content: '<p>月額貸付金は高等学校4万円、短期大学4万円、大学5万円、町長の認める教育機関4万円です。入学準備金は大学25万円、その他の学校10万円を選択できます。</p>'
+      },
+      {
+        heading: '申請',
+        content: '<p>申請書、収入状況調書、合格通知書又は入学許可書等を置戸町教育委員会学校教育課へ提出します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/kyouiku_bunka/school/ikusei/',
+    sourceName: '置戸町 人材育成基金',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/kyouiku_bunka/school/ikusei/'
+    ],
+    sourceNote: '置戸町公式ページで、人材育成基金（奨学金）、対象、月額貸付金、高校・短大4万円、大学5万円、入学準備金大学25万円、令和8年3月5日提出期限を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'oketo-school-expense-aid-2026',
+    title: '置戸町 就学援助制度',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '学用品費・給食費・医療費等を一部援助',
+    maxAmountNum: 0,
+    category: 'education',
+    relatedCategories: ['childcare'],
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', '就学援助', '学用品費', '給食費'],
+    eligibility: '置戸町の小学校・中学校に通う子どもがいる家庭で、経済的な理由により就学費用に困っており、世帯構成や収入状況等の審査で認められる方が対象です。',
+    targetOccupation: '置戸町内の小中学生がいる保護者',
+    applicationPeriod: '学校教育課へ相談・申請。申請書類・添付書類の審査により決定',
+    description: '置戸町が、経済的な理由で就学費用に困っている小中学生家庭に、学用品費や給食費、医療費などの一部を援助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>就学援助制度は、小学校・中学校に通う子どもがいる家庭のうち、経済的な理由により困っている方に、就学に必要な費用の一部を援助する制度です。</p>'
+      },
+      {
+        heading: '援助内容',
+        content: '<p>学用品費、給食費、医療費などの費用の一部が援助対象として案内されています。</p>'
+      },
+      {
+        heading: '申請',
+        content: '<p>援助を希望する場合は学校教育課へ問い合わせます。対象可否は世帯構成や収入状況、申請書類・添付書類等の審査で決定されます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/kyouiku_bunka/school/shugaku_enjo/',
+    sourceName: '置戸町 就学援助制度',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/kyouiku_bunka/school/shugaku_enjo/'
+    ],
+    sourceNote: '置戸町公式ページで、就学援助制度、小中学生家庭、学用品費・給食費・医療費等の一部援助、世帯構成・収入状況等の審査を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'oketo-welfare-dream-scholarship-2026',
+    title: '置戸町 「福祉の夢」サポート奨学金',
+    organization: '置戸町',
+    type: 'local',
+    maxAmount: '月額3万円（3年間）＋入学・就職準備金各10万円',
+    maxAmountNum: 128,
+    category: 'education',
+    relatedCategories: ['employment'],
+    prefecture: '北海道',
+    tags: ['北海道', '置戸町', '置戸高校', '給付型奨学金', '福祉人材'],
+    eligibility: '置戸高校生で、卒業後3年間、置戸町内の企業等で業務に従事することを条件に、募集要件を満たす奨学生が対象です。',
+    targetOccupation: '置戸高校の新1年生等',
+    applicationPeriod: '令和7年度募集。期日までに申込み（詳細は公式募集案内で確認）',
+    description: '置戸町が、置戸高校生を対象に、卒業後の町内就業を条件として返還不要の奨学金を支給する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>「福祉の夢」サポート奨学金は、置戸高校生を対象にした返還義務のない給付型奨学金です。</p>'
+      },
+      {
+        heading: '支給内容',
+        content: '<p>月額3万円を3年間支給し、入学準備金10万円、就職準備金10万円も支給されます。</p>'
+      },
+      {
+        heading: '主な条件',
+        content: '<p>卒業後3年間、置戸町内の企業等で業務に従事することが条件です。令和7年度は新1年生3名程度を募集すると案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.oketo.hokkaido.jp/kyouiku_bunka/highschool/scholarship/',
+    sourceName: '置戸町 「福祉の夢」サポート奨学金',
+    sourceUrls: [
+      'https://www.town.oketo.hokkaido.jp/kyouiku_bunka/highschool/scholarship/'
+    ],
+    sourceNote: '置戸町公式ページで、置戸高校生対象の給付型奨学金、月額3万円3年間、入学・就職準備金各10万円、卒業後3年間町内就業条件、募集人数3名程度を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'saroma-scholarship-loan-2026',
+    title: '佐呂間町 奨学金貸付制度',
+    organization: '佐呂間町',
+    type: 'local',
+    maxAmount: '高校等月額1万円以内、大学等月額2万2,000円以内を無利子貸付',
+    maxAmountNum: 2.2,
+    category: 'education',
+    prefecture: '北海道',
+    tags: ['北海道', '佐呂間町', '奨学金', '無利子貸付', '進学支援'],
+    eligibility: '佐呂間町住民の子弟で、高校・高専・専修学校・大学等に就学又は在学し、身体健康・学業優秀・性行善良で、学資の支弁が困難な方が対象です。',
+    targetOccupation: '佐呂間町住民の子弟で進学・在学する方',
+    applicationPeriod: '令和8年4月1日から令和8年4月20日まで',
+    description: '佐呂間町が、高校や大学などで学ぶ町民子弟に奨学金を無利子で貸し付ける制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>佐呂間町奨学金貸付制度は、高校や大学などで学ぶ方の学生生活を支援するため、奨学金を無利子で貸し付ける制度です。</p>'
+      },
+      {
+        heading: '貸付額',
+        content: '<p>高等学校、高等専門学校、高等課程の専修学校は月額1万円以内、大学又は専門課程の専修学校は月額2万2,000円以内です。</p>'
+      },
+      {
+        heading: '返還',
+        content: '<p>返還は原則無利子で、卒業した翌月から起算して1年据置後、6年以内に年賦又は半年賦で償還します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.saroma.hokkaido.jp/kakuka/kyouikuiinkai_kanri/shogakukin.html',
+    sourceName: '佐呂間町 奨学金について',
+    sourceUrls: [
+      'https://www.town.saroma.hokkaido.jp/kakuka/kyouikuiinkai_kanri/shogakukin.html',
+      'https://www.town.saroma.hokkaido.jp/kakuka/kyouikuiinkai_kanri/files/1.pdf'
+    ],
+    sourceNote: '佐呂間町公式ページと令和8年度貸付要領PDFで、提出期間、対象者、高校等月額1万円以内、大学等月額2万2,000円以内、無利子、返還条件を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'saroma-child-medical-expense-subsidy-2026',
+    title: '佐呂間町 さろま子育て応援医療費助成事業',
+    organization: '佐呂間町',
+    type: 'local',
+    maxAmount: '0歳から高校生まで医療費無料',
+    maxAmountNum: 0,
+    category: 'childcare',
+    relatedCategories: ['medical'],
+    prefecture: '北海道',
+    tags: ['北海道', '佐呂間町', '子ども医療費', '高校生', '子育て'],
+    eligibility: '佐呂間町の0歳から高校生までの子どもが対象です。所得制限は撤廃されています。',
+    targetOccupation: '佐呂間町内の子ども・保護者',
+    applicationPeriod: '対象となる子どもは受給者証の手続きが必要。払い戻しは領収書等を添えて申請',
+    description: '佐呂間町が、子育て家庭の経済的負担を軽減するため、0歳から高校生までの医療費を無料化する助成事業です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>さろま子育て応援医療費助成事業は、子どもの医療費負担を町が助成し、0歳から高校生まで医療費を無料化する制度です。</p>'
+      },
+      {
+        heading: '助成範囲',
+        content: '<p>入院、通院、調剤等の保険適用分が対象です。自費診療、食事代、容器代などの保険適用外分は対象外です。</p>'
+      },
+      {
+        heading: '主な拡大内容',
+        content: '<p>対象年齢を0歳から高校生までに拡大し、対象範囲を保険適用分に広げ、所得制限を撤廃しています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.saroma.hokkaido.jp/kakuka/chouminka/kodomo_iryou.html',
+    sourceName: '佐呂間町 こどもの医療費が無料になります',
+    sourceUrls: [
+      'https://www.town.saroma.hokkaido.jp/kakuka/chouminka/kodomo_iryou.html'
+    ],
+    sourceNote: '佐呂間町公式ページで、さろま子育て応援医療費助成事業、0歳から高校生、入院・通院・調剤等保険適用分、所得制限撤廃を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'saroma-school-expense-aid-2026',
+    title: '佐呂間町 就学援助制度',
+    organization: '佐呂間町',
+    type: 'local',
+    maxAmount: '学用品費・給食費・修学旅行費等を援助',
+    maxAmountNum: 0,
+    category: 'education',
+    relatedCategories: ['childcare'],
+    prefecture: '北海道',
+    tags: ['北海道', '佐呂間町', '就学援助', '学用品費', '給食費'],
+    eligibility: '佐呂間町内で小中学校に就学する児童生徒の保護者で、経済的理由により就学困難で、準要保護世帯として教育委員会の認定を受ける方が対象です。',
+    targetOccupation: '佐呂間町内の小中学生保護者',
+    applicationPeriod: '学校又は教育委員会管理課へ相談・申請。年度途中の生活環境変化にも適用あり',
+    description: '佐呂間町が、経済的理由により就学困難な児童生徒の保護者に、学用品費や給食費などを援助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>就学援助制度は、経済的理由により就学困難な児童生徒の保護者に対し、就学に必要な費用を援助する制度です。</p>'
+      },
+      {
+        heading: '援助内容',
+        content: '<p>学用品費、給食費、修学旅行費などの経費が援助対象として案内されています。</p>'
+      },
+      {
+        heading: '申請',
+        content: '<p>支給を受けるには準要保護世帯として教育委員会の認定が必要です。希望する場合は通学先の学校又は教育委員会管理課学校教育係へ相談します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.saroma.hokkaido.jp/kakuka/kyouikuiinkai_kanri/syuugaku.html',
+    sourceName: '佐呂間町 就学についてのお知らせ（支援・援助・相談）',
+    sourceUrls: [
+      'https://www.town.saroma.hokkaido.jp/kakuka/kyouikuiinkai_kanri/syuugaku.html'
+    ],
+    sourceNote: '佐呂間町公式ページで、就学援助、経済的理由により就学困難な児童生徒の保護者、学用品費・給食費・修学旅行費、準要保護認定を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'saroma-housing-construction-renovation-subsidy-2026',
+    title: '佐呂間町 住宅建設促進事業補助金',
+    organization: '佐呂間町',
+    type: 'local',
+    maxAmount: '新築等最大200万円、改修最大100万円',
+    maxAmountNum: 200,
+    category: 'housing',
+    prefecture: '北海道',
+    tags: ['北海道', '佐呂間町', '住宅建設', '住宅改修', 'リフォーム'],
+    eligibility: '佐呂間町内で町内建設業者により個人住宅を新築・増築・改築・改修し、町税等の滞納がないなどの条件を満たす方が対象です。',
+    targetOccupation: '佐呂間町内で住宅を新築・改修する方',
+    applicationPeriod: '令和11年3月31日まで。工事着手前に相談・申請',
+    description: '佐呂間町が、持ち家住宅の促進と町内建設産業の振興を目的に、住宅の新築・増改築・改修費の一部を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>住宅建設促進事業補助金は、町内建設業者による住宅の新築、増築、改築、既存住宅改修の費用の一部を助成する制度です。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>新築・増築・改築は1平方メートルあたり1万5,000円、上限200万円です。改修住宅は改修費の10分の1、上限100万円です。増改築を伴う改修工事は上限200万円です。</p>'
+      },
+      {
+        heading: '主な条件',
+        content: '<p>既存住宅改修は税抜50万円以上、町内建設業者施工、同居者全員に町税等の滞納がないこと、工事着手前であることが条件です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.saroma.hokkaido.jp/kakuka/keizaika/2012-0229-0549-15.html',
+    sourceName: '佐呂間町 住宅建設促進事業',
+    sourceUrls: [
+      'https://www.town.saroma.hokkaido.jp/kakuka/keizaika/2012-0229-0549-15.html'
+    ],
+    sourceNote: '佐呂間町公式ページで、住宅建設促進事業、令和11年3月31日まで、新築等1平方メートル1万5,000円・上限200万円、改修10分の1・上限100万円、着工前相談を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'saroma-infant-burnable-garbage-bag-subsidy-2026',
+    title: '佐呂間町 2歳未満乳幼児燃やすごみ袋助成',
+    organization: '佐呂間町',
+    type: 'local',
+    maxAmount: '45L指定袋を最大160枚現物支給',
+    maxAmountNum: 0,
+    category: 'childcare',
+    relatedCategories: ['living'],
+    prefecture: '北海道',
+    tags: ['北海道', '佐呂間町', '乳幼児', 'ごみ袋', '子育て支援'],
+    eligibility: '2歳未満の乳幼児を養育している佐呂間町在住者、2歳未満乳幼児と町内親族宅に1か月以上滞在する里帰り者等が対象です。',
+    targetOccupation: '佐呂間町内の2歳未満乳幼児養育世帯等',
+    applicationPeriod: '佐呂間町役場保健福祉課で随時受付。平日8時30分から17時15分',
+    description: '佐呂間町が、2歳未満の乳幼児を持つ子育て世帯の負担軽減を目的に、燃やせるごみ指定袋を現物支給する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>2歳未満乳幼児への燃やすごみ袋助成は、乳幼児1人につき1回、燃やせるごみの指定袋を現物支給する制度です。</p>'
+      },
+      {
+        heading: '助成枚数',
+        content: '<p>新生児は160枚、転入等は届出時点の月齢に応じて160枚、120枚、80枚、40枚を支給します。里帰りの場合は一律10枚です。</p>'
+      },
+      {
+        heading: '申請方法',
+        content: '<p>申請書を保健福祉課社会福祉係へ提出し、確認後に発行される引換券で佐呂間商工会にて45L燃やすごみ袋と引き換えます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.saroma.hokkaido.jp/kakuka/hokenfukushika/2025-0501_omutu_josei.html',
+    sourceName: '佐呂間町 2歳未満の乳幼児への燃やすごみ袋助成のお知らせ',
+    sourceUrls: [
+      'https://www.town.saroma.hokkaido.jp/kakuka/hokenfukushika/2025-0501_omutu_josei.html'
+    ],
+    sourceNote: '佐呂間町公式ページで、2歳未満乳幼児対象、燃やせるごみ袋45L、新生児160枚、月齢別枚数、里帰り10枚、随時受付を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'saroma-school-sports-culture-activity-subsidy-2026',
+    title: '佐呂間町 学校体育文化活動費助成事業',
+    organization: '佐呂間町',
+    type: 'local',
+    maxAmount: '宿泊費1泊最大1万1,000円、食事代1食最大1,000円等',
+    maxAmountNum: 1.1,
+    category: 'education',
+    prefecture: '北海道',
+    tags: ['北海道', '佐呂間町', '学校活動', '大会出場', '部活動'],
+    eligibility: '佐呂間町内小中学校児童生徒、佐呂間高校生徒が管内予選を経て出場する大会等の出場経費が対象です。',
+    targetOccupation: '佐呂間町内の児童生徒・高校生の大会出場者等',
+    applicationPeriod: '全道大会等への出場決定時に教育委員会へ申請。大会出場後は支出できない場合あり',
+    description: '佐呂間町が、児童生徒・高校生の体育活動及び文化活動の振興を目的に、大会出場経費を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>学校体育文化活動費助成事業は、町内小中学生や佐呂間高校生が各種大会等に出場する場合の出場経費を助成する制度です。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>交通費、宿泊費、食事代、諸経費が対象です。宿泊費は1泊1万1,000円、食事代は1食1,000円が上限です。自家用車利用は1kmあたり37円で積算します。</p>'
+      },
+      {
+        heading: '申請',
+        content: '<p>助成金交付申請書に出場経費や大会出場を証する書類等を添付して申請します。基本的に領収書添付が必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.saroma.hokkaido.jp/kakuka/kyouikuiinkai_kanri/2020-0123-1135-17.html',
+    sourceName: '佐呂間町 学校体育文化活動費助成事業のご案内',
+    sourceUrls: [
+      'https://www.town.saroma.hokkaido.jp/kakuka/kyouikuiinkai_kanri/2020-0123-1135-17.html'
+    ],
+    sourceNote: '佐呂間町公式ページで、学校体育文化活動費助成、対象大会、交通費、宿泊費1泊1万1,000円、食事代1食1,000円、自家用車1km37円、事前申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'saroma-student-qualification-exam-subsidy-2026',
+    title: '佐呂間町 小中学生資格取得検定補助金',
+    organization: '佐呂間町',
+    type: 'local',
+    maxAmount: '検定料と振込手数料を全額補助',
+    maxAmountNum: 0,
+    category: 'education',
+    prefecture: '北海道',
+    tags: ['北海道', '佐呂間町', '小中学生', '資格検定', '漢検', '英検'],
+    eligibility: '佐呂間町内に住所があり、町内小中学校に在籍し、日本漢字能力検定又は実用英語技能検定を受験した児童生徒が対象です。',
+    targetOccupation: '佐呂間町内の小中学生',
+    applicationPeriod: '受験年度の最後の検定合否発表後90日以内又は年度末3月31日のいずれか早い日まで',
+    description: '佐呂間町が、児童生徒の学力と学習意欲向上を目的に、漢検・英検の検定料等を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>小中学生資格取得検定補助金は、町内小中学生が対象資格検定を受験した場合に検定料等を補助する制度です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>日本漢字能力検定及び実用英語技能検定の検定料全額と、検定料の振込手数料が補助されます。</p>'
+      },
+      {
+        heading: '申請',
+        content: '<p>検定料等を明らかにする書類、受験を証明する書類の写しを添付し、期限までに教育委員会へ提出します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.saroma.hokkaido.jp/kakuka/kyouikuiinkai_kanri/sikaku_kenteihozyo.html',
+    sourceName: '佐呂間町 小中学生資格取得検定補助金制度のご案内',
+    sourceUrls: [
+      'https://www.town.saroma.hokkaido.jp/kakuka/kyouikuiinkai_kanri/sikaku_kenteihozyo.html'
+    ],
+    sourceNote: '佐呂間町公式ページで、小中学生資格取得検定補助金、漢検・英検、検定料全額と振込手数料、申請期限を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'saroma-high-school-graduate-study-subsidy-2026',
+    title: '佐呂間町 佐呂間高等学校卒業生修学応援補助金',
+    organization: '佐呂間町',
+    type: 'local',
+    maxAmount: '大学年額50万円、短大・専門学校年額25万円',
+    maxAmountNum: 50,
+    category: 'education',
+    prefecture: '北海道',
+    tags: ['北海道', '佐呂間町', '佐呂間高校', '進学', '修学支援'],
+    eligibility: '佐呂間高等学校を卒業し、翌年度又は翌々年度に大学、短大、専門学校へ進学する方が対象です。',
+    targetOccupation: '佐呂間高等学校卒業生',
+    applicationPeriod: '進路先決定後に補助金交付申請書等を教育委員会へ提出',
+    description: '佐呂間町が、佐呂間高校卒業生の進学を支援するため、大学等の修学資金を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>佐呂間高等学校卒業生修学応援補助金は、佐呂間高校卒業生が大学等へ進学する場合の修学資金を支援する制度です。</p>'
+      },
+      {
+        heading: '補助額',
+        content: '<p>大学は年額50万円、短大・専門学校は年額25万円です。</p>'
+      },
+      {
+        heading: '主な条件',
+        content: '<p>佐呂間高校を卒業し、翌年度又は翌々年度に学校教育法に規定された大学・短大・専門学校へ進学する場合が対象です。在学中は年1回のレポート等の提出が必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.saroma.hokkaido.jp/kakuka/kyouikuiinkai_kanri/2021-0528-1553-17.html',
+    sourceName: '佐呂間町 佐呂間高等学校へ進学する場合の町の助成制度について',
+    sourceUrls: [
+      'https://www.town.saroma.hokkaido.jp/kakuka/kyouikuiinkai_kanri/2021-0528-1553-17.html'
+    ],
+    sourceNote: '佐呂間町公式ページで、佐呂間高校卒業生修学応援補助金、大学年額50万円、短大・専門学校年額25万円、翌年度又は翌々年度進学要件を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'saroma-high-school-entrance-benefit-2026',
+    title: '佐呂間町 佐呂間高等学校入学者給付金',
+    organization: '佐呂間町',
+    type: 'local',
+    maxAmount: '10万円',
+    maxAmountNum: 10,
+    category: 'education',
+    prefecture: '北海道',
+    tags: ['北海道', '佐呂間町', '佐呂間高校', '入学給付金', '高校支援'],
+    eligibility: '令和3年度以降の佐呂間高等学校入学者が対象です。',
+    targetOccupation: '佐呂間高等学校入学者',
+    applicationPeriod: '申請書及び請求書を佐呂間高等学校へ提出',
+    description: '佐呂間町が、佐呂間高校入学者に学校生活に必要な資金として一律10万円を給付する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>佐呂間高等学校入学者給付金は、佐呂間高校に入学する生徒に学校生活に必要な資金を給付する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>入学者1人につき一律10万円です。</p>'
+      },
+      {
+        heading: '申請',
+        content: '<p>申請書及び請求書を佐呂間高等学校へ提出します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.saroma.hokkaido.jp/kakuka/kyouikuiinkai_kanri/2021-0528-1553-17.html',
+    sourceName: '佐呂間町 佐呂間高等学校へ進学する場合の町の助成制度について',
+    sourceUrls: [
+      'https://www.town.saroma.hokkaido.jp/kakuka/kyouikuiinkai_kanri/2021-0528-1553-17.html'
+    ],
+    sourceNote: '佐呂間町公式ページで、佐呂間高等学校入学者給付金、令和3年度からの入学者、一律10万円、学校への申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'saroma-high-school-employment-benefit-2026',
+    title: '佐呂間町 佐呂間高等学校卒業生就職等応援給付金',
+    organization: '佐呂間町',
+    type: 'local',
+    maxAmount: '10万円',
+    maxAmountNum: 10,
+    category: 'employment',
+    relatedCategories: ['education'],
+    prefecture: '北海道',
+    tags: ['北海道', '佐呂間町', '佐呂間高校', '就職支援', '給付金'],
+    eligibility: '佐呂間高等学校を卒業し、就職又は就職のための学校へ進学する方が対象です。',
+    targetOccupation: '佐呂間高等学校卒業生',
+    applicationPeriod: '申請書及び請求書を佐呂間高等学校へ提出',
+    description: '佐呂間町が、佐呂間高校卒業後に就職等へ進む方に準備資金として一律10万円を給付する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>佐呂間高等学校卒業生就職等応援給付金は、佐呂間高校卒業後に就職等をする方の準備資金を支援する制度です。</p>'
+      },
+      {
+        heading: '支給額',
+        content: '<p>卒業生1人につき一律10万円です。</p>'
+      },
+      {
+        heading: '主な条件',
+        content: '<p>佐呂間高校を卒業し、就職又は就職のための学校へ進学する方が対象です。就職のための学校は学校教育法に規定する以外の学校と案内されています。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.saroma.hokkaido.jp/kakuka/kyouikuiinkai_kanri/2021-0528-1553-17.html',
+    sourceName: '佐呂間町 佐呂間高等学校へ進学する場合の町の助成制度について',
+    sourceUrls: [
+      'https://www.town.saroma.hokkaido.jp/kakuka/kyouikuiinkai_kanri/2021-0528-1553-17.html'
+    ],
+    sourceNote: '佐呂間町公式ページで、佐呂間高等学校卒業生就職等応援給付金、就職等の準備資金、一律10万円、学校への申請を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'saroma-dog-cat-neutering-subsidy-2026',
+    title: '佐呂間町 犬と猫の不妊去勢手術費補助金',
+    organization: '佐呂間町',
+    type: 'local',
+    maxAmount: '1頭最大5,000円（特に必要な場合5,000円加算）',
+    maxAmountNum: 0.5,
+    category: 'living',
+    prefecture: '北海道',
+    tags: ['北海道', '佐呂間町', '犬', '猫', '不妊去勢手術'],
+    eligibility: '町内在住で町税等の滞納がない人又は団体が、飼い犬・飼い猫又は町内に生息する飼い主のいない犬猫に不妊去勢手術を行う場合が対象です。',
+    targetOccupation: '佐呂間町内の犬猫飼養者・団体等',
+    applicationPeriod: '手術後、交付申請書兼実績報告書に領収書等を添えて提出',
+    description: '佐呂間町が、不適正な犬猫の飼養や飼い主のいない犬猫の繁殖を防ぐため、不妊去勢手術費を補助する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>犬と猫の不妊去勢手術費補助金は、動物愛護と公衆衛生向上を目的に、不妊去勢手術費の一部を補助する制度です。</p>'
+      },
+      {
+        heading: '補助内容',
+        content: '<p>補助上限は1頭5,000円です。特に必要と認める場合は5,000円を加算します。</p>'
+      },
+      {
+        heading: '申請',
+        content: '<p>交付申請書兼実績報告書を提出します。印鑑、獣医師発行の領収書、野良猫の場合は耳カット写真等が必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.saroma.hokkaido.jp/machi/gomi_kankyou/pet/dog_cat_grant.html',
+    sourceName: '佐呂間町 犬と猫の不妊去勢手術費補助金',
+    sourceUrls: [
+      'https://www.town.saroma.hokkaido.jp/machi/gomi_kankyou/pet/dog_cat_grant.html'
+    ],
+    sourceNote: '佐呂間町公式ページで、犬猫不妊去勢手術費補助、町内在住者・団体、飼い犬猫・野良犬猫、1頭5,000円、必要時5,000円加算、申請方法を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'saroma-elderly-taxi-fare-subsidy-2026',
+    title: '佐呂間町 高齢者ハイヤー乗車料金助成事業',
+    organization: '佐呂間町',
+    type: 'local',
+    maxAmount: '町内ハイヤー基本料金を年48回まで助成',
+    maxAmountNum: 0,
+    category: 'nursing',
+    relatedCategories: ['living'],
+    prefecture: '北海道',
+    tags: ['北海道', '佐呂間町', '高齢者', 'ハイヤー', '免許返納'],
+    eligibility: '佐呂間町内に住所を有し在宅で、85歳以上又は自動車運転免許証返納者に該当する方が対象です。',
+    targetOccupation: '佐呂間町内の85歳以上高齢者・免許返納者',
+    applicationPeriod: '申請窓口で随時手続き。年度途中申請は月割り回数',
+    description: '佐呂間町が、高齢者等の外出を支援するため、町内営業ハイヤーの基本料金を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>高齢者ハイヤー乗車料金助成事業は、対象者が町内営業のハイヤーを利用した場合の基本料金を助成する制度です。</p>'
+      },
+      {
+        heading: '助成回数',
+        content: '<p>年間48回まで助成されます。年度途中の申請は月割りの回数になります。</p>'
+      },
+      {
+        heading: '利用方法',
+        content: '<p>認定証を乗車時に提示し、基本料金分の助成を受け、差額を支払います。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.saroma.hokkaido.jp/machi/kenkou_fukushi/koureisya/2022-0620-0950-13.html',
+    sourceName: '佐呂間町 高齢者ハイヤー乗車料金助成事業',
+    sourceUrls: [
+      'https://www.town.saroma.hokkaido.jp/machi/kenkou_fukushi/koureisya/2022-0620-0950-13.html'
+    ],
+    sourceNote: '佐呂間町公式ページで、85歳以上又は免許返納者、町内ハイヤー基本料金、年間48回、認定証提示を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'saroma-hospitalization-transport-subsidy-2026',
+    title: '佐呂間町 入退院時等交通費助成事業',
+    organization: '佐呂間町',
+    type: 'local',
+    maxAmount: 'ハイヤー実費から1回3,000円を差し引いた額',
+    maxAmountNum: 0,
+    category: 'medical',
+    relatedCategories: ['nursing'],
+    prefecture: '北海道',
+    tags: ['北海道', '佐呂間町', '入退院', '交通費助成', 'ハイヤー'],
+    eligibility: '佐呂間町内に住所を有して現に居住し、家族等の送迎支援を受けられず、非課税世帯、65歳以上、障がい者手帳、特定疾患等のいずれかに該当する方が対象です。',
+    targetOccupation: '町外医療機関への入退院等で交通支援が必要な佐呂間町民',
+    applicationPeriod: '領収書等を持参して保健福祉課社会福祉係へ申請',
+    description: '佐呂間町が、町外オホーツク管内医療機関への入退院や救急搬送後の帰宅にかかるハイヤー料金の一部を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>入退院時等交通費助成事業は、自宅と町外オホーツク管内医療機関の入退院、救急搬送後の帰宅にかかったハイヤー料金を一部助成する制度です。</p>'
+      },
+      {
+        heading: '助成額',
+        content: '<p>ハイヤーの実費料金から1回3,000円を差し引いた額が助成されます。</p>'
+      },
+      {
+        heading: '申請',
+        content: '<p>ハイヤー会社発行の領収書、医療機関発行の医療費領収書、各手帳又は受給者証等を持参して申請します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.saroma.hokkaido.jp/machi/kenkou_fukushi/koureisya/2022-0620-1004-13.html',
+    sourceName: '佐呂間町 入退院時等交通費助成事業',
+    sourceUrls: [
+      'https://www.town.saroma.hokkaido.jp/machi/kenkou_fukushi/koureisya/2022-0620-1004-13.html'
+    ],
+    sourceNote: '佐呂間町公式ページで、入退院時等交通費助成、対象者要件、ハイヤー実費から1回3,000円控除した額、申請書類を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'saroma-disabled-taxi-fare-subsidy-2026',
+    title: '佐呂間町 身体障がい者ハイヤー料金助成',
+    organization: '佐呂間町',
+    type: 'local',
+    maxAmount: '町内ハイヤー基本料金を年96回又は48回まで助成',
+    maxAmountNum: 0,
+    category: 'nursing',
+    relatedCategories: ['medical'],
+    prefecture: '北海道',
+    tags: ['北海道', '佐呂間町', '身体障がい者', 'ハイヤー', '交通費助成'],
+    eligibility: '佐呂間町内に住所を有する在宅の身体障がい者手帳所持者で、視覚・下肢・体幹障がい等の等級要件を満たす方が対象です。',
+    targetOccupation: '佐呂間町内の重度身体障がい者等',
+    applicationPeriod: '申請書と身体障がい者手帳を提出。年度途中認定は月割り',
+    description: '佐呂間町が、重度身体障がい者の生活圏拡大と福祉向上のため、町内ハイヤー基本料金を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>身体障がい者ハイヤー料金助成は、対象者が町内営業ハイヤーを利用した場合の基本料金を助成する制度です。</p>'
+      },
+      {
+        heading: '助成内容',
+        content: '<p>視覚障がい1・2級、下肢・体幹障がい1・2級は年間96回まで、その他の対象区分は年間48回まで基本料金が助成されます。</p>'
+      },
+      {
+        heading: '利用方法',
+        content: '<p>乗車時に認定証を提示し、ハイヤー乗車料金助成回数管理票にスタンプを受けます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.saroma.hokkaido.jp/machi/kenkou_fukushi/shougaisya/shougaishafukusi_system.html',
+    sourceName: '佐呂間町 障害者福祉制度（医療通院費）',
+    sourceUrls: [
+      'https://www.town.saroma.hokkaido.jp/machi/kenkou_fukushi/shougaisya/shougaishafukusi_system.html'
+    ],
+    sourceNote: '佐呂間町公式ページで、身体障がい者ハイヤー料金助成、対象等級、町内ハイヤー基本料金、年96回又は48回、申請書類を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'saroma-rare-disease-transport-subsidy-2026',
+    title: '佐呂間町 難病者治療通院交通費支給',
+    organization: '佐呂間町',
+    type: 'local',
+    maxAmount: '公共交通機関実費又は自家用車20円/km相当',
+    maxAmountNum: 0,
+    category: 'medical',
+    relatedCategories: ['nursing'],
+    prefecture: '北海道',
+    tags: ['北海道', '佐呂間町', '難病', '通院交通費', '医療費支援'],
+    eligibility: '佐呂間町に居住し住民基本台帳に記載され、北海道特定疾患治療研究事業実施要綱の治療研究対象疾患に罹患し通院を要する方が対象です。',
+    targetOccupation: '佐呂間町内の難病患者',
+    applicationPeriod: '4月から9月分、10月から3月分をそれぞれ翌月に振込支給',
+    description: '佐呂間町が、難病の治療通院にかかる交通費を支給し、経済的負担を軽減する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>難病者治療通院交通費支給は、治療研究対象疾患により通院を要する方の交通費負担を軽減する制度です。</p>'
+      },
+      {
+        heading: '支給内容',
+        content: '<p>北海道内の医療機関までの公共交通機関往復交通費実費を支給します。事情により自家用車を利用する場合は最短距離に20円/kmを乗じた額を支給します。</p>'
+      },
+      {
+        heading: '申請',
+        content: '<p>受給申請書、請求書、特定疾患医療受給者証、身体障がい者手帳の写し等を提出します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.saroma.hokkaido.jp/machi/kenkou_fukushi/shougaisya/shougaishafukusi_system.html',
+    sourceName: '佐呂間町 障害者福祉制度（医療通院費）',
+    sourceUrls: [
+      'https://www.town.saroma.hokkaido.jp/machi/kenkou_fukushi/shougaisya/shougaishafukusi_system.html'
+    ],
+    sourceNote: '佐呂間町公式ページで、難病者治療通院交通費、対象疾患、公共交通機関往復実費、自家用車20円/km、半期ごとの支給を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'saroma-mental-health-treatment-transport-subsidy-2026',
+    title: '佐呂間町 精神障がい者治療通院交通費支給',
+    organization: '佐呂間町',
+    type: 'local',
+    maxAmount: '公共交通機関最低運賃又は自家用車20円/km相当',
+    maxAmountNum: 0,
+    category: 'medical',
+    relatedCategories: ['nursing'],
+    prefecture: '北海道',
+    tags: ['北海道', '佐呂間町', '精神障がい者', '通院交通費', '医療支援'],
+    eligibility: '佐呂間町に居住し住民基本台帳に記載され、精神保健法第32条の医療費公費負担を受け通院治療を要する方が対象です。',
+    targetOccupation: '佐呂間町内の精神障がい者で通院治療を受ける方',
+    applicationPeriod: '4月から9月分、10月から3月分をそれぞれ翌月に振込支給',
+    description: '佐呂間町が、精神障がい者の治療通院交通費を支給し、社会復帰と経済的負担軽減を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>精神障がい者治療通院交通費支給は、通院治療を要する精神障がい者の交通費を支援する制度です。</p>'
+      },
+      {
+        heading: '支給内容',
+        content: '<p>公的交通機関の最短距離による最低運賃を支給します。事情により自家用車を利用する場合は最短距離に20円/kmを乗じた額を支給します。</p>'
+      },
+      {
+        heading: '申請',
+        content: '<p>受給認定申請書と請求書を提出し、半期ごとに振込支給を受けます。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.saroma.hokkaido.jp/machi/kenkou_fukushi/shougaisya/shougaishafukusi_system.html',
+    sourceName: '佐呂間町 障害者福祉制度（医療通院費）',
+    sourceUrls: [
+      'https://www.town.saroma.hokkaido.jp/machi/kenkou_fukushi/shougaisya/shougaishafukusi_system.html'
+    ],
+    sourceNote: '佐呂間町公式ページで、精神障がい者治療通院交通費、対象者、公的交通機関最低運賃、自家用車20円/km、半期ごとの振込支給を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'saroma-mental-health-rehabilitation-transport-subsidy-2026',
+    title: '佐呂間町 精神障がい者社会復帰施設通所交通費支給',
+    organization: '佐呂間町',
+    type: 'local',
+    maxAmount: 'バス料金実費又は自家用車20円/km相当',
+    maxAmountNum: 0,
+    category: 'nursing',
+    relatedCategories: ['medical'],
+    prefecture: '北海道',
+    tags: ['北海道', '佐呂間町', '精神障がい者', '社会復帰', '通所交通費'],
+    eligibility: '障害者自立支援法の自立支援医療を受け、精神障がい者通所授産施設、地域共同作業所、地域生活支援センター、保健所等の社会復帰学級へ通所して作業する方が対象です。',
+    targetOccupation: '佐呂間町内の精神障がい者で社会復帰施設等へ通所する方',
+    applicationPeriod: '交通費請求書により歴月ごとに償還給付',
+    description: '佐呂間町が、精神障がい者の社会復帰施設等への通所交通費を助成し、経済的負担を軽減する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>精神障がい者社会復帰施設通所交通費支給事業は、社会復帰施設等へ通所する交通費を支援する制度です。</p>'
+      },
+      {
+        heading: '支給内容',
+        content: '<p>バス料金の実費分を支給します。自家用車の場合は最短距離に20円/kmを乗じた額を支給します。</p>'
+      },
+      {
+        heading: '申請',
+        content: '<p>認定申請書と請求書を提出します。請求書には通所先代表者の通所証明印が必要です。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.saroma.hokkaido.jp/machi/kenkou_fukushi/shougaisya/shougaishafukusi_system.html',
+    sourceName: '佐呂間町 障害者福祉制度（医療通院費）',
+    sourceUrls: [
+      'https://www.town.saroma.hokkaido.jp/machi/kenkou_fukushi/shougaisya/shougaishafukusi_system.html'
+    ],
+    sourceNote: '佐呂間町公式ページで、精神障がい者社会復帰施設通所交通費、対象施設、バス料金実費、自家用車20円/km、歴月ごとの償還給付を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'saroma-dialysis-treatment-transport-support-2026',
+    title: '佐呂間町 人工透析患者治療通院支援',
+    organization: '佐呂間町',
+    type: 'local',
+    maxAmount: '公共交通機関等往復運賃実費相当額、介護輸送運賃助成等',
+    maxAmountNum: 0,
+    category: 'medical',
+    relatedCategories: ['nursing'],
+    prefecture: '北海道',
+    tags: ['北海道', '佐呂間町', '人工透析', '通院交通費', '腎臓機能障がい'],
+    eligibility: '佐呂間町に居住し住民基本台帳に記載され、人工透析療法による医療給付を受け、身体障がい者手帳の交付を受けている方が対象です。',
+    targetOccupation: '佐呂間町内の人工透析患者',
+    applicationPeriod: '4月から9月分、10月から3月分をそれぞれ翌月に振込支給等',
+    description: '佐呂間町が、人工透析患者の通院に係る経済的・精神的負担を軽減するため、交通費等を支援する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>人工透析患者治療通院支援は、人工透析療法を受ける方の通院交通費等を支援する制度です。</p>'
+      },
+      {
+        heading: '支援内容',
+        content: '<p>自宅から医療機関までの公的交通機関等の往復運賃実費相当額を支給します。対象者により介護輸送運賃助成や移送サービスも案内されています。</p>'
+      },
+      {
+        heading: '申請',
+        content: '<p>治療通院交通費請求書等により、4月から9月分、10月から3月分をそれぞれ翌月に振込支給します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.saroma.hokkaido.jp/machi/kenkou_fukushi/shougaisya/shougaishafukusi_system.html',
+    sourceName: '佐呂間町 障害者福祉制度（医療通院費）',
+    sourceUrls: [
+      'https://www.town.saroma.hokkaido.jp/machi/kenkou_fukushi/shougaisya/shougaishafukusi_system.html'
+    ],
+    sourceNote: '佐呂間町公式ページで、人工透析患者治療通院支援、対象者、公的交通機関等往復運賃実費相当額、介護輸送運賃助成、半期ごとの支給を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
+    slug: 'saroma-advanced-infertility-treatment-subsidy-2026',
+    title: '佐呂間町 先進不妊治療費等助成事業',
+    organization: '佐呂間町',
+    type: 'local',
+    maxAmount: '治療費最大3万5,000円、交通費は距離区分額の3分の2',
+    maxAmountNum: 3.5,
+    category: 'childcare',
+    relatedCategories: ['medical'],
+    prefecture: '北海道',
+    tags: ['北海道', '佐呂間町', '先進不妊治療', '交通費助成', '子育て'],
+    eligibility: '医療保険適用の生殖補助医療と併せて先進医療を受けた夫婦で、佐呂間町の申請要件を満たす方が対象です。',
+    targetOccupation: '先進不妊治療を受ける佐呂間町内夫婦',
+    applicationPeriod: '申請前に保健師へ問い合わせ。申請書・受診証明書等を提出',
+    description: '佐呂間町が、不妊治療を受ける夫婦の経済的負担を軽減するため、先進不妊治療費と交通費の一部を助成する制度です。',
+    sections: [
+      {
+        heading: '制度の概要',
+        content: '<p>先進不妊治療費等助成事業は、医療保険適用の生殖補助医療と併せて先進医療を受けた方に、治療費及び交通費の一部を助成する制度です。</p>'
+      },
+      {
+        heading: '治療費助成',
+        content: '<p>先進医療にかかった費用が5万円未満の場合はその額、5万円以上の場合は5万円を補助基準額とし、その10分の7、又は3万5,000円のいずれか低い額を助成します。</p>'
+      },
+      {
+        heading: '交通費助成',
+        content: '<p>自宅から医療機関まで片道25kmを超える場合、距離区分に応じた補助基準額に3分の2を乗じた額を、1回の不妊治療につき5往復分を上限に助成します。</p>'
+      }
+    ],
+    officialUrl: 'https://www.town.saroma.hokkaido.jp/machi/kosodate_kyouiku/2024-0305-1658-13.html',
+    sourceName: '佐呂間町 先進不妊治療費等助成事業について',
+    sourceUrls: [
+      'https://www.town.saroma.hokkaido.jp/machi/kosodate_kyouiku/2024-0305-1658-13.html',
+      'https://www.town.saroma.hokkaido.jp/machi/kosodate_kyouiku/files/sinseiutiwake.pdf'
+    ],
+    sourceNote: '佐呂間町公式ページと申請金額内訳書PDFで、先進不妊治療費助成、治療費10分の7・最高3万5,000円、片道25km超の交通費3分の2・5往復上限を確認。',
+    verifiedAt,
+    publishedAt: '2026-07-11',
+  },
+  {
     slug: 'iwate-care-technology-support-2026',
     title: '岩手県 介護テクノロジー導入等支援事業費補助金',
     organization: '岩手県',
