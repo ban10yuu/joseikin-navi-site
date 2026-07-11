@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-07-11T23:59:00+09:00",
+  "updatedAt": "2026-07-11T23:56:17+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "01668",
-    "municipality": "白糠町",
-    "adopted": 15,
-    "held": 3,
+    "code": "01691",
+    "municipality": "別海町",
+    "adopted": 12,
+    "held": 4,
     "excluded": 0,
-    "sourceUrlsChecked": 15,
+    "sourceUrlsChecked": 12,
     "validation": {
-      "previousMunicipality": "白糠町は候補117件から公式sectionページ91件を本文取得・再スコアし、定額減税不足額給付、子育て支援5件、移住支援、浄化槽・水洗化4件、定住奨励、町有地無償提供、固定資産税減額の15件を公式個別ページで確認して追加。部署一覧・カテゴリ・news・条例改正・過年度給付は掲載しない。",
+      "previousMunicipality": "別海町は候補132件を起点に公式ポータル・カテゴリ内リンク59件を追加し、170ページ/PDFを本文取得。公式sitemap.xmlはwww.sarabetsu.jpを返すため使わず、起業家支援、移住者用住宅確保、UIJターン、医療費助成、農業後継者、児童手当、出産祝金等12件を個別公式ページで確認して追加。募集要項PDF、一覧、金額不足ページは保留。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "shiranuka 15 checked, all 0 failures",
+      "urlReachability": "bekkai 12 checked, all 0 failures",
       "nodeCheck": "not needed: script unchanged",
-      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-020-shiranuka-snippets.json",
-      "auditCoverage": "pass: failures 0, activePublished 7331, officialLinkedActive 7293, manuallyVerifiedActive 7293, 北海道 localOfficial 2936"
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-020-bekkai-snippets.json",
+      "auditCoverage": "pass: failures 0, activePublished 7343, officialLinkedActive 7305, manuallyVerifiedActive 7305, 北海道 localOfficial 2948"
     }
   },
   "next": {
-    "code": "01691",
-    "municipality": "別海町",
-    "shortlist": "continue hokkaido-batch-020 from 01691 別海町",
-    "instructions": "白糠町15件の軽量検証・audit・commit後、自治体コード順で別海町へ進む。"
+    "code": "01692",
+    "municipality": "中標津町",
+    "shortlist": "start next Hokkaido municipality from 01692 中標津町",
+    "instructions": "別海町12件の軽量検証・audit・commit後、自治体コード順で中標津町へ進む。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

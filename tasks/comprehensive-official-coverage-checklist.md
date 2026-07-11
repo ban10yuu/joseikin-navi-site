@@ -2219,3 +2219,24 @@
   - `npm run audit:coverage`: pass（failures 0、activePublished 7331、officialLinkedActive 7293、manuallyVerifiedActive 7293、北海道 localOfficial 2936）
 - 次地点:
   - 白糠町15件の検証・commit後、自治体コード順で `01691 別海町` へ進む。
+
+### 第20バッチ Verification 続行（別海町）
+
+- 状態: 別海町は第20バッチ候補132件を起点に、公式ポータル・カテゴリ内リンク59件を追加抽出し、合計170ページ/PDFを本文取得して再スコアリング。公式 `sitemap.xml` は `www.sarabetsu.jp` のURLを返すため別海町の母集団として使わず、公式ドメイン内の個別ページ/PDFだけを採用候補にした。トップ、カテゴリ、募集要項、一覧ページは低優先又は保留とし、制度名・対象・金額/上限・条件・申請/受付状況を個別公式ページ本文で確認できた12件を追加した。
+- 追加・更新ファイル:
+  - `tasks/discovery/hokkaido-batch-020-bekkai-snippets.json`
+- 採用:
+  - 別海町: 12件（起業家支援、移住者用住宅確保、UIJターン新規就業支援、子ども医療費、ひとり親家庭等医療費、農業後継者支援、児童手当、出産祝金、高齢者交通事故防止サポート、未熟児養育医療、特別児童扶養手当、児童扶養手当）
+- 保留・除外:
+  - 地域おこし協力隊募集要項PDF群: 報酬・手当の募集要項であり、一般向け補助金・助成金の個別制度としては掲載しない。
+  - 産婦・新生児への助成一覧: 個別の金額・上限が本文だけでは不足するため、第2巡で個別ページ又は要綱確認。
+  - 別海高校支援事業: 公式一覧に複数支援があるが、各助成の対象・金額が本文だけでは不足するため第2巡保留。
+  - 高齢者福祉一覧: 介護用品給付券・憩いの場補助等は個別金額確認が必要なため第2巡保留。
+- 検証:
+  - 別海町 slug重複確認: 重複0（全7339件、別海町12件）
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+  - `node scripts/check-grant-source-urls.mjs --prefix bekkai- --timeout-ms 60000 --concurrency 4`: 12件確認、失敗0
+  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-020-bekkai-snippets.json`: pass
+  - `npm run audit:coverage`: pass（failures 0、activePublished 7343、officialLinkedActive 7305、manuallyVerifiedActive 7305、北海道 localOfficial 2948）
+- 次地点:
+  - 別海町12件の検証・commit後、自治体コード順で `01692 中標津町` へ進む。

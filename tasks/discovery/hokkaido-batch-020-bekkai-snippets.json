@@ -1,0 +1,107 @@
+{
+  "batchId": "hokkaido-batch-020",
+  "municipalityCode": "01691",
+  "municipality": "別海町",
+  "verifiedAt": "2026-07-11",
+  "sourceCache": "/tmp/bekkai-selected-pages-expanded.json",
+  "portalLinks": "/tmp/bekkai-portal-links.json",
+  "discovery": {
+    "initialCandidateCount": 132,
+    "initialFetchedUrls": 123,
+    "additionalPortalLinks": 59,
+    "additionalFetchedUrls": 47,
+    "method": "initial candidates plus official portal/category internal links; PDFs converted with pdftotext where possible"
+  },
+  "adopted": [
+    {
+      "slug": "bekkai-entrepreneur-support-subsidy-2026",
+      "title": "起業家支援事業補助金",
+      "officialUrl": "https://betsukai.jp/sangyo/syoko/cho_hojo/kigyou/",
+      "evidence": "新規開業等は上限500万円・3分の2以内、空き店舗利活用は上限800万円、指定区域内の空き店舗取得は上限3,000万円・3分の2に拡充。"
+    },
+    {
+      "slug": "bekkai-migrant-housing-securing-subsidy-2026",
+      "title": "移住者用住宅確保対策事業",
+      "officialUrl": "https://betsukai.jp/gyosei/seisaku/apa-to_hojyo/",
+      "evidence": "アパート新築は1戸550万円/825万円/1,100万円、1棟上限4,400万円、シェアハウス改修は上限825万円。"
+    },
+    {
+      "slug": "bekkai-uij-turn-migration-support-grant-2026",
+      "title": "UIJターン新規就業支援事業",
+      "officialUrl": "https://betsukai.jp/sangyo/syoko/uij-turn/",
+      "evidence": "移住支援金は単身60万円、世帯100万円。対象要件と申請手続きは北海道特設ページ参照。"
+    },
+    {
+      "slug": "bekkai-child-medical-expense-subsidy-2026",
+      "title": "子ども医療費助成制度",
+      "officialUrl": "https://betsukai.jp/kurashi/fukushi/iryou_josei/kodomo_iryou/",
+      "evidence": "高校3年生まで、保険診療自己負担分を全額助成。初回のみ受給者証交付申請が必要。"
+    },
+    {
+      "slug": "bekkai-single-parent-medical-expense-subsidy-2026",
+      "title": "ひとり親家庭等医療費助成",
+      "officialUrl": "https://betsukai.jp/kurashi/fukushi/iryou_josei/hitorioya_iryou/",
+      "evidence": "ひとり親家庭等の医療費を助成。0歳から高校3年生までは課税・非課税にかかわらず無料。"
+    },
+    {
+      "slug": "bekkai-agricultural-successor-support-subsidy-2026",
+      "title": "農業後継者支援事業",
+      "officialUrl": "https://betsukai.jp/sangyo/nougyo/nougyoukoukeisya/",
+      "evidence": "令和8年度創設、補助上限100万円、上限事業費200万円、補助率2分の1以内。"
+    },
+    {
+      "slug": "bekkai-child-allowance-2026",
+      "title": "児童手当",
+      "officialUrl": "https://betsukai.jp/kurashi/birth/teate_1/about_jido/",
+      "evidence": "0-3歳未満15,000円、3歳以上高校3年生まで10,000円、第3子以降30,000円を偶数月に支給。"
+    },
+    {
+      "slug": "bekkai-birth-celebration-grant-2026",
+      "title": "出産祝金",
+      "officialUrl": "https://betsukai.jp/kurashi/tetsuzuki/koseki/syussaniwaikin/",
+      "evidence": "出生子1人あたり100,000円。半額は別海町の商品券。出生日から6カ月以内に申請。"
+    },
+    {
+      "slug": "bekkai-elderly-driver-accident-prevention-subsidy-2026",
+      "title": "高齢者交通事故防止サポート支援事業",
+      "officialUrl": "https://betsukai.jp/anzen/bouhan/jico/",
+      "evidence": "満65歳以上、急発進防止装置取付費用の90%、上限6万円、1人1回、年間15台上限。"
+    },
+    {
+      "slug": "bekkai-premature-infant-medical-care-subsidy-2026",
+      "title": "未熟児養育医療",
+      "officialUrl": "https://betsukai.jp/kurashi/fukushi/iryou_josei/mijukuji/",
+      "evidence": "入院治療が必要な1歳未満の乳児に、指定医療機関の入院医療費・食事代を助成。子ども医療費助成等で実質負担なし。"
+    },
+    {
+      "slug": "bekkai-special-child-rearing-allowance-2026",
+      "title": "特別児童扶養手当",
+      "officialUrl": "https://betsukai.jp/kurashi/birth/teate_1/about_tokujifu/",
+      "evidence": "障がいのある20歳未満児童の監護者等に、1級56,800円、2級37,830円を年3回支給。"
+    },
+    {
+      "slug": "bekkai-child-rearing-allowance-single-parent-2026",
+      "title": "児童扶養手当",
+      "officialUrl": "https://betsukai.jp/kurashi/birth/teate_1/about_jidofuyo/",
+      "evidence": "第1子は全部支給45,500円、一部支給45,490円から10,740円。第2子以降は全部支給10,750円。"
+    }
+  ],
+  "held": [
+    {
+      "url": "https://betsukai.jp/resources/output/contents/file/release/7192/80108/R8youkou_tyuusyoukigyou_koyou.pdf",
+      "reason": "地域おこし協力隊募集要項の報酬・手当であり、一般向け補助金・助成金の個別制度としては扱わない。関連PDF群も同様。"
+    },
+    {
+      "url": "https://betsukai.jp/kurashi/birth/birth_sonota/h31jyoseijigyou/",
+      "reason": "産婦・新生児への助成一覧で、個別の金額・上限が本文だけでは不足。第2巡で個別ページ又は要綱確認。"
+    },
+    {
+      "url": "https://betsukai.jp/kyoiku/gakko_kyoiku/betukaikoukousiennzigyou/",
+      "reason": "別海高校支援事業の一覧で、各助成の対象・金額が本文だけでは不足。第2巡で個別資料確認。"
+    },
+    {
+      "url": "https://betsukai.jp/kurashi/fukushi/kourei_fukushi/",
+      "reason": "高齢者福祉の一覧ページ。介護用品給付券・憩いの場補助等は個別金額確認が必要。"
+    }
+  ]
+}
