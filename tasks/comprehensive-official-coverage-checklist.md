@@ -2994,6 +2994,34 @@
   - 次:
     - 02303今別町、02304蓬田村、02307外ヶ浜町、02321鰺ヶ沢町を自治体コード順で確認する。
 
+- 2026-07-12 青森県公式棚卸し005（今別町・蓬田村・外ヶ浜町・鰺ヶ沢町データ反映）:
+  - 状態: 4自治体を公式サイト単位で確認。初回候補1029件のため短い本文スニペット19件へ再スコアリングし、公式本文で制度名・対象・金額/上限・条件・期限/受付状況を確認できた17件を `src/data/grants/verified-local-misc-2026.ts` に追加した。
+  - 追加・更新ファイル:
+    - `src/data/grants/verified-local-misc-2026.ts`
+    - `tasks/discovery/aomori-official-coverage-005-municipalities.json`
+    - `tasks/discovery/aomori-official-coverage-005-candidates.json`
+    - `tasks/discovery/aomori-official-coverage-005-snippets.json`
+    - `tasks/discovery/aomori-official-coverage-005.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 採用:
+    - 今別町: 特産品等開発補助金、物価高騰対応町内会支援金、物価高騰対応生活支援金、物価高対応子育て応援手当。
+    - 蓬田村: 空家等解体費補助金、乳幼児・児童医療費助成事業、ひとり親家庭等医療費助成事業、エネルギー価格高騰対応支援助成金。
+    - 外ヶ浜町: 住宅用自家消費型太陽光発電設備等導入支援事業費補助金、地域づくりソフト事業補助金。
+    - 鰺ヶ沢町: まちづくり応援補助金、空き家バンク登録奨励金、空き家バンク活用促進事業補助金（リフォーム）、空き家バンク活用促進事業補助金（残置物処分）、移住支援金、物価高対応子育て応援手当、軽度・中等度難聴者補聴器購入費助成事業。
+  - 保留継続:
+    - 今別町国民健康保険税子ども・子育て支援金分は国制度の保険税加算案内のため採用しない。
+    - 蓬田村児童手当・児童扶養手当・特別児童扶養手当は全国制度案内、青森県狩猟免許等取得促進事業費補助金は県制度案内のため保留。
+    - 蓬田村調整給付金（不足額給付分）は申請期限終了済みのため今回は保留。
+    - 外ヶ浜町奨学金貸付制度は貸付制度のため補助金・給付金とは別扱いで保留。
+    - 鰺ヶ沢町骨髄ドナー等支援事業助成金、アピアランスケア、がん精密検査費助成は公式本文/PDF確認済みだが、今回17件反映後の追加精査へ回す。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: 今回追加slugの重複0。
+    - `node scripts/check-grant-source-urls.mjs --slug <17 slugs> --timeout-ms 60000 --concurrency 4`: checked 17、failures 0。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7501、officialLinkedActive 7463、manuallyVerifiedActive 7463、青森県 localOfficial 111）
+  - 次:
+    - 02323深浦町、02343西目屋村、02361藤崎町、02362大鰐町を自治体コード順で確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:

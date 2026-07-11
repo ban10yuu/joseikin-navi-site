@@ -1,0 +1,26 @@
+{
+  "batchId": "aomori-comprehensive-official-coverage-005",
+  "prefecture": "青森県",
+  "municipalities": [
+    {
+      "code": "02303",
+      "name": "今別町",
+      "officialBaseUrl": "https://www.town.imabetsu.lg.jp/"
+    },
+    {
+      "code": "02304",
+      "name": "蓬田村",
+      "officialBaseUrl": "https://www.vill.yomogita.lg.jp/"
+    },
+    {
+      "code": "02307",
+      "name": "外ヶ浜町",
+      "officialBaseUrl": "https://www.town.sotogahama.lg.jp/"
+    },
+    {
+      "code": "02321",
+      "name": "鰺ヶ沢町",
+      "officialBaseUrl": "https://www.town.ajigasawa.lg.jp/"
+    }
+  ]
+}

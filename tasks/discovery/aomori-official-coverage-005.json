@@ -1,0 +1,126 @@
+{
+  "batchId": "aomori-comprehensive-official-coverage-005",
+  "checkedAt": "2026-07-12T07:55:50+09:00",
+  "prefecture": "青森県",
+  "scope": "青森県公式棚卸し005: 今別町・蓬田村・外ヶ浜町・鰺ヶ沢町",
+  "discovery": {
+    "candidateCount": 1029,
+    "snippetRows": 19,
+    "snippetReason": "shortlistが150件を超えたため、公式本文の短いスニペットを抽出して再スコアリングした。"
+  },
+  "municipalities": [
+    {
+      "code": "02303",
+      "name": "今別町",
+      "adopted": 4,
+      "programs": [
+        "特産品等開発補助金",
+        "物価高騰対応町内会支援金",
+        "物価高騰対応生活支援金",
+        "物価高対応子育て応援手当"
+      ]
+    },
+    {
+      "code": "02304",
+      "name": "蓬田村",
+      "adopted": 4,
+      "programs": [
+        "空家等解体費補助金",
+        "乳幼児・児童医療費助成事業",
+        "ひとり親家庭等医療費助成事業",
+        "エネルギー価格高騰対応支援助成金"
+      ]
+    },
+    {
+      "code": "02307",
+      "name": "外ヶ浜町",
+      "adopted": 2,
+      "programs": [
+        "住宅用自家消費型太陽光発電設備等導入支援事業費補助金",
+        "地域づくりソフト事業補助金"
+      ]
+    },
+    {
+      "code": "02321",
+      "name": "鰺ヶ沢町",
+      "adopted": 7,
+      "programs": [
+        "まちづくり応援補助金",
+        "空き家バンク登録奨励金",
+        "空き家バンク活用促進事業補助金（リフォーム）",
+        "空き家バンク活用促進事業補助金（残置物処分）",
+        "移住支援金",
+        "物価高対応子育て応援手当",
+        "軽度・中等度難聴者補聴器購入費助成事業"
+      ]
+    }
+  ],
+  "adoptedSlugs": [
+    "imabetsu-special-product-development-subsidy-2026",
+    "imabetsu-neighborhood-association-price-hike-support-2026",
+    "imabetsu-price-hike-living-support-2026",
+    "imabetsu-price-hike-child-support-2026",
+    "yomogita-vacant-house-demolition-subsidy-2026",
+    "yomogita-child-medical-expense-subsidy-2026",
+    "yomogita-single-parent-medical-expense-subsidy-2026",
+    "yomogita-energy-price-support-aid-2026",
+    "sotogahama-residential-solar-battery-subsidy-2026",
+    "sotogahama-community-development-soft-subsidy-2026",
+    "ajigasawa-community-development-support-subsidy-2026",
+    "ajigasawa-vacant-house-bank-registration-incentive-2026",
+    "ajigasawa-vacant-house-renovation-subsidy-2026",
+    "ajigasawa-vacant-house-leftover-disposal-subsidy-2026",
+    "ajigasawa-migration-support-2026",
+    "ajigasawa-price-hike-child-support-2026",
+    "ajigasawa-hearing-aid-purchase-subsidy-2026"
+  ],
+  "heldCandidates": [
+    {
+      "title": "今別町 国民健康保険税 子ども・子育て支援金分",
+      "reason": "国制度の保険税加算案内であり、補助金等の給付制度ではないため採用しない。"
+    },
+    {
+      "title": "蓬田村 児童手当・児童扶養手当・特別児童扶養手当",
+      "reason": "全国制度の案内が中心のため、村独自又は個別助成としては保留。"
+    },
+    {
+      "title": "蓬田村 調整給付金（不足額給付分）",
+      "reason": "申請期限が2025年11月・12月で終了しているため、今回は保留。"
+    },
+    {
+      "title": "蓬田村 青森県狩猟免許等取得促進事業費補助金",
+      "reason": "県制度への案内ページであり、村制度としては採用しない。"
+    },
+    {
+      "title": "外ヶ浜町 奨学金貸付制度",
+      "reason": "貸付制度のため、補助金・給付金とは別扱いで保留。"
+    },
+    {
+      "title": "鰺ヶ沢町 骨髄ドナー等支援事業助成金・アピアランスケア・がん精密検査費助成",
+      "reason": "公式本文/PDFで制度確認済みだが、今回17件反映後の追加精査へ回す。"
+    }
+  ],
+  "summary": {
+    "adopted": 17,
+    "held": 6,
+    "sourceUrlsChecked": 17,
+    "candidates": 1029,
+    "snippets": 19
+  },
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "duplicateSlugs": "pass: added 17, duplicates 0",
+    "urlReachability": "pass: checked 17, failures 0",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7501, officialLinkedActive 7463, manuallyVerifiedActive 7463, Aomori localOfficial 111",
+    "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-official-coverage-005-municipalities.json tasks/discovery/aomori-official-coverage-005-candidates.json tasks/discovery/aomori-official-coverage-005-snippets.json tasks/discovery/aomori-official-coverage-005.json"
+  },
+  "next": {
+    "code": "aomori-comprehensive-official-coverage-006",
+    "municipalities": [
+      "02323深浦町",
+      "02343西目屋村",
+      "02361藤崎町",
+      "02362大鰐町"
+    ]
+  }
+}
