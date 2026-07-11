@@ -2096,3 +2096,33 @@
   - `npm run audit:coverage`: pass（failures 0、activePublished 7221、officialLinkedActive 7183、manuallyVerifiedActive 7183、北海道 localOfficial 2826）
 - 次地点:
   - 浦幌町34件の軽量検証・commit後、自治体コード順で第19バッチ `01661 釧路町`、`01662 厚岸町`、`01663 浜中町` へ進む。
+
+### 第19バッチ Discovery（釧路町・厚岸町・浜中町）
+
+- 状態: 第19バッチDiscovery/URL検証を実行し、釧路町の第1巡Verificationを実施。釧路町は公式個別ページから13件をデータ反映した。厚岸町・浜中町は次にVerificationへ進む。
+- 確認日: 2026-07-11
+- Discovery:
+  - `tasks/discovery/hokkaido-batch-019-municipalities.json`
+  - `tasks/discovery/hokkaido-batch-019-candidates.json`
+  - `tasks/discovery/hokkaido-batch-019-url-validation.json`
+  - `tasks/discovery/hokkaido-batch-019-kushiro-snippets.json`
+  - 釧路町・厚岸町・浜中町: batch候補 567件
+  - URL検証: checked 485 / cacheHits 484 / refetched 1 / reachable 485 / failures 0
+  - 釧路町は共通ナビ由来の弱一致が多かったため、公式個別ページを抽出して本文必須項目を確認。大量HTML/PDFは `/tmp/kushiro_manual_pages.json` と証跡JSONへ保存し、会話へ全文出力しない運用を継続。
+- 今回反映:
+  - 釧路町: 13件（奨学金制度、こども医療費助成、ひとり親家庭等医療費助成、出産・子育て応援ギフト、未熟児養育医療、不妊治療費等助成、重度心身障害者医療費助成、特定疾患患者及び腎臓機能障害者通院費補助、重度障がい者外出支援、自動車改造助成、介護人材確保育成支援、介護職員等奨学金返済支援、家族介護用品支給）
+- 候補・掲載見送り:
+  - 釧路町スポーツ振興助成金: 対象・申請条件は公式本文で確認したが、助成金額の本文確認が不足しているため第2巡保留。
+  - 釧路町 福祉灯油購入費助成事業: 令和7年10月15日から11月14日受付の単年度情報で、2026年7月11日時点では次期受付前のため掲載方針確認まで保留。
+  - 釧路町 障害者就労等通所支援助成・障害者等援護旅費助成: 対象と支援概要は確認したが、補助率・上限額など金額条件が不足するため保留。
+  - 釧路町 デコ活推進補助金: 公式PDFに到達したが本文抽出未完了。対象・金額・期限をPDF本文で確認してから第2巡で判断。
+  - 釧路町 児童扶養手当・特別障害者手当等: 町ページに掲載はあるが全国制度との重複整理対象。町独自制度としては掲載しない。
+  - トップページ・カテゴリ・関連リンク: 個別制度ページではないため最終sourceにしない。
+- 軽量検証:
+  - slug重複確認: 重複0（全7230件、釧路町13件）
+  - `node scripts/check-grant-source-urls.mjs --prefix kushiro-town- --timeout-ms 60000 --concurrency 4`: 13件確認、失敗0
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-019-municipalities.json tasks/discovery/hokkaido-batch-019-candidates.json tasks/discovery/hokkaido-batch-019-url-validation.json tasks/discovery/hokkaido-batch-019-kushiro-snippets.json`: pass
+  - `npm run audit:coverage`: pass（failures 0、activePublished 7234、officialLinkedActive 7196、manuallyVerifiedActive 7196、北海道 localOfficial 2839）
+- 次地点:
+  - 釧路町13件の軽量検証・commit後、自治体コード順で `01662 厚岸町`、`01663 浜中町` へ進む。

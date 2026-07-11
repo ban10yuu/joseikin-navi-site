@@ -1,0 +1,141 @@
+{
+  "batch": "hokkaido-batch-019",
+  "municipality": {
+    "code": "01661",
+    "name": "釧路町",
+    "officialBaseUrl": "http://www.town.kushiro.lg.jp/"
+  },
+  "verifiedAt": "2026-07-11T22:55:00+09:00",
+  "discovery": {
+    "municipalitiesFile": "tasks/discovery/hokkaido-batch-019-municipalities.json",
+    "candidatesFile": "tasks/discovery/hokkaido-batch-019-candidates.json",
+    "urlValidationFile": "tasks/discovery/hokkaido-batch-019-url-validation.json",
+    "candidateCountForBatch": 567,
+    "urlValidation": {
+      "checked": 485,
+      "cacheHits": 484,
+      "refetched": 1,
+      "reachable": 485,
+      "failures": 0
+    },
+    "localManualPages": "/tmp/kushiro_manual_pages.json",
+    "note": "Discovery候補は共通ナビ由来の弱一致が多いため、公式サイト内の個別制度ページを手動抽出して必須項目確認。本文/PDF全文は会話へ出さずローカル保存。"
+  },
+  "adopted": [
+    {
+      "slug": "kushiro-town-scholarship-loan-2026",
+      "title": "釧路町 奨学金制度",
+      "officialUrl": "http://www.town.kushiro.lg.jp/education/gakkokyoiku/syogakukin.html",
+      "evidence": "本人又は保護者が釧路町民、大学等在学・入学決定、経済的理由、無利子、私立大学等月31,000円上限、原則3月1日から4月末まで、10年以内返済。"
+    },
+    {
+      "slug": "kushiro-town-child-medical-expense-subsidy-2026",
+      "title": "釧路町 こども医療費助成",
+      "officialUrl": "http://www.town.kushiro.lg.jp/living-guide/32701/00007/150409370311.html",
+      "evidence": "高校卒業相当まで、保険加入、保険適用医療費全額助成、入院時食事・保険適用外は対象外、随時申請。"
+    },
+    {
+      "slug": "kushiro-town-single-parent-medical-expense-subsidy-2026",
+      "title": "釧路町 ひとり親家庭等医療費助成",
+      "officialUrl": "http://www.town.kushiro.lg.jp/living-guide/32701/00007/190945150311.html",
+      "evidence": "ひとり親家庭等の母又は父と20歳未満のこども、所得制限、18歳まで全額助成、高校卒業後から20歳まで非課税なし・課税1割、父母は入院保険適用分。"
+    },
+    {
+      "slug": "kushiro-town-pregnancy-support-benefit-2026",
+      "title": "釧路町 出産・子育て応援ギフト（妊婦のための支援給付）",
+      "officialUrl": "http://www.town.kushiro.lg.jp/living-guide/32701/00007/233729121110.html",
+      "evidence": "申請時点で釧路町住所、妊娠届出等、他自治体重複不可、妊娠時5万円、出産後こども1人5万円、流産・死産も申請可。"
+    },
+    {
+      "slug": "kushiro-town-premature-infant-medical-care-benefit-2026",
+      "title": "釧路町 未熟児養育医療制度",
+      "officialUrl": "http://www.town.kushiro.lg.jp/living-guide/32701/00007/174921540308.html",
+      "evidence": "釧路町内0歳児、出生時体重2,000g以下等、医師が入院治療を必要と認める場合、指定養育医療機関で必要医療を給付、所得に応じた徴収金あり。"
+    },
+    {
+      "slug": "kushiro-town-advanced-infertility-treatment-subsidy-2026",
+      "title": "釧路町 不妊治療費等助成事業",
+      "officialUrl": "http://www.town.kushiro.lg.jp/living-guide/32701/00007/232318481014.html",
+      "evidence": "令和7年4月1日以降の先進不妊治療1クールの医療費全額、25km超の交通費を北海道基準額で1治療5回まで助成、妻43歳未満等。"
+    },
+    {
+      "slug": "kushiro-town-severe-disability-medical-expense-subsidy-2026",
+      "title": "釧路町 重度心身障害者医療費助成",
+      "officialUrl": "http://www.town.kushiro.lg.jp/living-guide/30702/00006/521157150312.html",
+      "evidence": "65歳未満、身体障害者手帳1・2級等、所得制限、非課税世帯等は保険適用分自己負担なし、課税世帯は1割で月上限あり。"
+    },
+    {
+      "slug": "kushiro-town-specified-disease-dialysis-transport-subsidy-2026",
+      "title": "釧路町 特定疾患患者及び腎臓機能障害者通院費補助",
+      "officialUrl": "http://www.town.kushiro.lg.jp/living-guide/30702/00006/150811210320.html",
+      "evidence": "特定疾患又は人工透析で月4回以上通院、通院交通費2分の1以内、月上限5,000円。"
+    },
+    {
+      "slug": "kushiro-town-severe-disability-outing-support-2026",
+      "title": "釧路町 重度障がい者外出支援事業",
+      "officialUrl": "http://www.town.kushiro.lg.jp/living-guide/30702/00006/150811210320.html",
+      "evidence": "町民税非課税世帯、身体障害者手帳1・2級等、バス回数券又はタクシー・ガソリン共通券のいずれか年間8,000円分。"
+    },
+    {
+      "slug": "kushiro-town-disabled-car-modification-subsidy-2026",
+      "title": "釧路町 自動車改造助成事業",
+      "officialUrl": "http://www.town.kushiro.lg.jp/living-guide/30702/00006/150811210320.html",
+      "evidence": "重度の下肢又は体幹機能障害、2級以上、就労目的、本人所有・本人運転車両の操向装置・駆動装置改造、上限100,000円。"
+    },
+    {
+      "slug": "kushiro-town-care-worker-training-subsidy-2026",
+      "title": "釧路町 介護人材確保育成支援事業",
+      "officialUrl": "http://www.town.kushiro.lg.jp/living-guide/30903/00004/244410190611.html",
+      "evidence": "町内介護サービス等事業所の個人又は法人、対象研修、受講費用全額、1研修上限10万円、研修終了後申請。"
+    },
+    {
+      "slug": "kushiro-town-care-worker-scholarship-repayment-subsidy-2026",
+      "title": "釧路町 介護職員等奨学金返済支援補助",
+      "officialUrl": "http://www.town.kushiro.lg.jp/living-guide/30903/00004/244410190611.html",
+      "evidence": "町内介護サービス事業所等に常勤直接雇用、3年以上勤務見込み、自ら奨学金返済、前年度返還額の1/2、月1万円・年12万円・最大36カ月。"
+    },
+    {
+      "slug": "kushiro-town-family-care-supplies-benefit-2026",
+      "title": "釧路町 家族介護用品支給事業",
+      "officialUrl": "http://www.town.kushiro.lg.jp/living-guide/30903/00004/441046150316.html",
+      "evidence": "要介護4又は5の在宅介護、非課税世帯、施設入所除外、紙おむつ等の給付券、月6,000円限度。"
+    }
+  ],
+  "held": [
+    {
+      "title": "釧路町スポーツ振興助成金",
+      "officialUrl": "http://www.town.kushiro.lg.jp/living-guide/52302/00013/153016520609.html",
+      "reason": "対象・申請条件は確認できたが、助成金額の本文確認が不足しているため第2巡へ保留。"
+    },
+    {
+      "title": "福祉灯油購入費助成事業",
+      "officialUrl": "http://www.town.kushiro.lg.jp/living-guide/32701/00007/231717391011.html",
+      "reason": "令和7年10月15日から11月14日受付の単年度情報。2026年7月11日時点では次期受付前で、掲載方針確認まで保留。"
+    },
+    {
+      "title": "障害者就労等通所支援助成・障害者等援護旅費助成",
+      "officialUrl": "http://www.town.kushiro.lg.jp/living-guide/30702/00006/150811210320.html",
+      "reason": "対象と支援概要は確認できるが、補助率・上限額など金額条件が不足するため保留。"
+    },
+    {
+      "title": "デコ活推進補助金",
+      "officialUrl": "http://www.town.kushiro.lg.jp/material/252731170311/08",
+      "reason": "公式PDFに到達したが本文抽出未完了。対象・金額・期限をPDF本文で確認してから第2巡で判断。"
+    }
+  ],
+  "excluded": [
+    {
+      "title": "児童扶養手当・特別障害者手当等",
+      "reason": "町ページに掲載はあるが全国制度との重複整理対象。町独自制度としては掲載しない。"
+    },
+    {
+      "title": "トップページ・カテゴリ・関連リンク",
+      "reason": "個別制度ページではないため最終sourceにしない。"
+    }
+  ],
+  "next": {
+    "code": "01662",
+    "municipality": "厚岸町",
+    "instructions": "釧路町13件の軽量検証・commit後、自治体コード順で厚岸町へ進む。"
+  }
+}

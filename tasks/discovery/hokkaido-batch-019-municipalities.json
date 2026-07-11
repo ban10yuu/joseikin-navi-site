@@ -1,0 +1,21 @@
+{
+  "batchId": "hokkaido-batch-019",
+  "prefecture": "北海道",
+  "municipalities": [
+    {
+      "code": "01661",
+      "name": "釧路町",
+      "officialBaseUrl": "http://www.town.kushiro.lg.jp/"
+    },
+    {
+      "code": "01662",
+      "name": "厚岸町",
+      "officialBaseUrl": "https://www.akkeshi-town.jp/"
+    },
+    {
+      "code": "01663",
+      "name": "浜中町",
+      "officialBaseUrl": "https://www.townhamanaka.jp/"
+    }
+  ]
+}

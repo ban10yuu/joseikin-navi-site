@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-07-11T22:25:00+09:00",
+  "updatedAt": "2026-07-11T22:55:00+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "01649",
-    "municipality": "浦幌町",
-    "adopted": 34,
-    "held": 5,
+    "code": "01661",
+    "municipality": "釧路町",
+    "adopted": 13,
+    "held": 4,
     "excluded": 2,
-    "sourceUrlsChecked": 34,
+    "sourceUrlsChecked": 13,
     "validation": {
-      "previousMunicipality": "浦幌町は住宅取得、耐震診断・改修、住宅リフォーム、未熟児養育医療、妊産婦交通・宿泊、生殖補助医療、不育症、紙おむつ、妊婦支援給付、高校通学・下宿、太陽光、ペレットストーブ、友好市町村交流、店舗リフォーム、防災用品、防災士、ひとり親医療、重度心身障がい者医療、重度身体障害者等交通費、療育施設通園、高齢者等住宅改修、免許取得・自動車改造、補聴器、出産祝金、創業2件、経営承継、地場工業等3件、就業人材育成、資格取得、あおぞら共済の34件を公式個別ページで確認して追加。こども医療費・がん検診費用・妊産婦健診費用等は第2巡保留。",
+      "previousMunicipality": "釧路町は奨学金、こども医療、ひとり親医療、妊婦支援給付、未熟児養育医療、不妊治療、重度心身障害者医療、特定疾患・人工透析通院費、重度障がい者外出支援、自動車改造、介護研修、介護職員等奨学金返済、家族介護用品の13件を公式個別ページで確認して追加。スポーツ振興助成、福祉灯油、障害者就労等通所支援、障害者等援護旅費、デコ活推進補助金PDFは第2巡保留。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "urahoro 34 checked, all 0 failures",
+      "urlReachability": "kushiro-town 13 checked, all 0 failures",
       "nodeCheck": "not needed: script unchanged",
-      "diffCheck": "pass: git diff --check for urahoro対象ファイル",
-      "auditCoverage": "pass: npm run audit:coverage, failures 0, activePublished 7221, officialLinkedActive 7183, manuallyVerifiedActive 7183, 北海道 localOfficial 2826"
+      "diffCheck": "pass: git diff --check for kushiro対象ファイル",
+      "auditCoverage": "pass: npm run audit:coverage, failures 0, activePublished 7234, officialLinkedActive 7196, manuallyVerifiedActive 7196, 北海道 localOfficial 2839"
     }
   },
   "next": {
-    "code": "01661",
-    "municipality": "釧路町",
-    "shortlist": "start hokkaido-batch-019 after 01649 浦幌町",
-    "instructions": "浦幌町34件のdiff・audit:coverage・commit後、自治体コード順で釧路町・厚岸町・浜中町を第19バッチとしてDiscovery/Verificationへ進む。"
+    "code": "01662",
+    "municipality": "厚岸町",
+    "shortlist": "continue hokkaido-batch-019 after 01661 釧路町",
+    "instructions": "釧路町13件の軽量検証・commit後、自治体コード順で厚岸町・浜中町を第19バッチとしてVerificationへ進む。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
