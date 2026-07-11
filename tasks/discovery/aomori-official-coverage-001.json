@@ -1,0 +1,82 @@
+{
+  "batchId": "aomori-comprehensive-official-coverage-001",
+  "checkedAt": "2026-07-12T07:31:06+09:00",
+  "scope": "青森県公式棚卸し開始: 青森県庁・青森市・弘前市・八戸市",
+  "municipalities": [
+    {
+      "code": "02000",
+      "name": "青森県",
+      "existingVerified": 5,
+      "adopted": 0,
+      "held": [
+        {
+          "title": "既存verified公式確認済み県制度",
+          "reason": "移住支援金、奨学金返還支援、A材住宅、木造住宅耐震改修、賃上げ環境整備補助等は既存verifiedに公式URL・sourceNote付きで収録済み。今回のURL到達確認は200。"
+        }
+      ]
+    },
+    {
+      "code": "02201",
+      "name": "青森市",
+      "existingVerified": 22,
+      "adopted": 0,
+      "held": [
+        {
+          "title": "既存verified公式確認済み市制度",
+          "reason": "子ども医療費、創業支援、出産・子育て、保育料、省エネ機器、UIJターン、住宅・耐震・ブロック塀、高齢者・健診等は既存verifiedに公式URL・sourceNote付きで収録済み。今回のURL到達確認は200。"
+        }
+      ]
+    },
+    {
+      "code": "02202",
+      "name": "弘前市",
+      "existingVerified": 21,
+      "adopted": 0,
+      "held": [
+        {
+          "title": "既存verified公式確認済み市制度",
+          "reason": "不妊治療、住宅耐震、子育て、出産、除雪担い手、学校・就学援助、創業、住宅・省エネ、医療費、高齢者交通等は既存verifiedに公式URL・sourceNote付きで収録済み。今回のURL到達確認は200。"
+        }
+      ]
+    },
+    {
+      "code": "02203",
+      "name": "八戸市",
+      "existingVerified": 21,
+      "adopted": 0,
+      "held": [
+        {
+          "title": "既存verified公式確認済み市制度",
+          "reason": "不妊治療、住宅耐震、保育、出産、住宅取得、奨学金、中小企業支援、高齢者、ブロック塀、子ども医療、健診、学校給食、創業等は既存verifiedに公式URL・sourceNote付きで収録済み。今回のURL到達確認は200。"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "existingVerified": 69,
+    "adopted": 0,
+    "held": 4,
+    "excluded": 0,
+    "sourceUrlsChecked": 90,
+    "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --prefix aomori- --prefix hirosaki- --prefix hachinohe- --timeout-ms 60000 --concurrency 4 checked 90 failures 0",
+    "notes": "青森県庁・青森市・弘前市・八戸市は既存verified公式確認済みデータを再確認し、公式URL到達は全件200。新規データ追加はなし。progress-checklistのraw gap 0は完了根拠にせず、次は自治体コード順で黒石市以降を公式サイト単位で確認する。"
+  },
+  "validation": {
+    "dataFileChanged": false,
+    "eslint": "skipped: no data changes",
+    "duplicateSlugs": 0,
+    "urlReachability": "pass: 90 checked, failures 0",
+    "diffCheck": "pending",
+    "auditCoverage": "skipped: no data changes; aggregate after 3-5 Aomori municipalities or 60-100 systems"
+  },
+  "next": {
+    "code": "aomori-comprehensive-official-coverage-002",
+    "municipalities": [
+      "黒石市",
+      "五所川原市",
+      "十和田市",
+      "三沢市"
+    ],
+    "instructions": "青森県の公式棚卸しを自治体コード順で継続する。02204黒石市、02205五所川原市、02206十和田市、02207三沢市を対象に、既存rawの有無に依存せず公式サイト単位で補助金・助成金・給付金・一時金等の制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約を確認する。"
+  }
+}

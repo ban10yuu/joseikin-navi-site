@@ -2915,6 +2915,18 @@
   - 次:
     - 青森県の公式棚卸しとして、青森県庁、02201青森市、02202弘前市、02203八戸市の自治体コード順から開始する。既存raw gap 0を完了扱いせず、公式サイト単位で制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約を再確認する。
 
+- 2026-07-12 青森県公式棚卸し001（青森県庁・青森市・弘前市・八戸市）:
+  - 状態: 青森県公式棚卸しを開始し、青森県庁、02201青森市、02202弘前市、02203八戸市の既存verified公式確認済みデータを確認。既存verified上では青森県5件、青森市22件、弘前市21件、八戸市21件が公式URL・sourceNote付きで収録済み。`aomori-`、`hirosaki-`、`hachinohe-` prefixの公式URL到達確認は90件すべて200。新規データ追加はなし。
+  - 追加・更新ファイル:
+    - `tasks/discovery/aomori-official-coverage-001.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 検証:
+    - `node scripts/check-grant-source-urls.mjs --prefix aomori- --prefix hirosaki- --prefix hachinohe- --timeout-ms 60000 --concurrency 4`: checked 90、failures 0。
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-official-coverage-001.json`: pass
+  - 次:
+    - 02204黒石市、02205五所川原市、02206十和田市、02207三沢市を自治体コード順で確認する。既存rawの有無に依存せず、公式サイト単位で制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約を再確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:

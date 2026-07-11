@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T07:24:06+09:00",
+  "updatedAt": "2026-07-12T07:31:06+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "hokkaido-milestone-audit-001",
-    "municipality": "北海道節目監査",
-    "adopted": 59,
-    "held": 378,
+    "code": "aomori-comprehensive-official-coverage-001",
+    "municipality": "青森県庁・青森市・弘前市・八戸市",
+    "adopted": 0,
+    "held": 4,
     "excluded": 0,
-    "sourceUrlsChecked": 398,
+    "sourceUrlsChecked": 90,
     "validation": {
-      "previousMunicipality": "北海道第1巡は羅臼町まで到達済み。第2巡保留候補は001から039まで整理済みで、スニペット台帳39件、採用59件、保留378件、sourceUrlsChecked 398件。raw gap 0は全国完了条件ではないため、北海道節目監査後は青森県の公式棚卸しへ進む。",
+      "previousMunicipality": "青森県公式棚卸し001として、青森県庁・青森市・弘前市・八戸市を確認。既存verified公式確認済み69件を維持し、aomori-/hirosaki-/hachinohe- prefixの公式URL 90件は到達確認failures 0。新規データ追加はなし。",
       "eslint": "skipped: no data changes",
       "duplicateSlugs": 0,
-      "urlReachability": "skipped: no added slugs",
-      "diffCheck": "pass: git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-milestone-audit-001.json",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7460, officialLinkedActive 7422, manuallyVerifiedActive 7422, Hokkaido localOfficial 3065"
+      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --prefix aomori- --prefix hirosaki- --prefix hachinohe- checked 90 failures 0",
+      "diffCheck": "pass: git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-official-coverage-001.json",
+      "auditCoverage": "skipped: no data changes; aggregate after 3-5 Aomori municipalities or 60-100 systems"
     }
   },
   "next": {
-    "code": "aomori-comprehensive-official-coverage-001",
+    "code": "aomori-comprehensive-official-coverage-002",
     "municipality": "青森県",
-    "shortlist": "北海道は第1巡・第2巡保留候補整理・節目audit:coverageまで完了。全国完了扱いにはせず、次は青森県の公式棚卸しへ進む。",
-    "instructions": "次は青森県の公式棚卸しとして、青森県庁、02201青森市、02202弘前市、02203八戸市の自治体コード順から開始する。既存raw gap 0を完了扱いせず、公式サイト単位で補助金・助成金・給付金・一時金等の制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約を再確認する。"
+    "shortlist": "青森県庁・青森市・弘前市・八戸市は既存verified公式確認済み69件と公式URL 90件の到達を再確認済み。次は自治体コード順で黒石市・五所川原市・十和田市・三沢市。",
+    "instructions": "次は青森県の公式棚卸し002として、02204黒石市、02205五所川原市、02206十和田市、02207三沢市を自治体コード順に確認する。既存rawの有無に依存せず、公式サイト単位で補助金・助成金・給付金・一時金等の制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約を確認する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
