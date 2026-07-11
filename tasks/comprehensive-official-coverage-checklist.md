@@ -2708,6 +2708,20 @@
     - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
     - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-025-snippets.json`: pass
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 斜里町・清里町・小清水町・訓子府町）:
+  - 状態: 第2巡026として、高速バッチ第2段の4自治体の未掲載候補を再確認。斜里町・清里町・小清水町・訓子府町はいずれも既存掲載済み制度、休止/廃止制度、通常行政・住宅・施設/相談案内、又は金額/上限・対象条件・期限/受付状況不足に該当し、制度名・対象・金額/上限・条件・期限/受付状況が揃う新規掲載候補は確認できなかった。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-second-pass-026-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 保留継続:
+    - 斜里町: 第1巡で19件反映済み。トップ・カテゴリ・制度一覧、通常行政サービス、施設/相談案内は個別制度要件が揃うものだけ掲載対象。
+    - 清里町: 住宅用太陽光発電システム導入費補助は令和8年度から休止。子育て支援センター、町営住宅、お試し住宅、創業支援等事業計画等は個別の金額/対象/申請条件不足。
+    - 小清水町: 妊婦一般健診・高齢者サービスの一部は個別ページ又はPDFで金額/個別条件の確認不足。一覧・カテゴリのみの候補は掲載しない。
+    - 訓子府町: 季節労働者生活資金貸付制度は貸付額・現行年度条件不足。空き家活用定住対策補助金は令和6年度廃止。幼児フッ素塗布、町営住宅、移住体験、予防接種カテゴリ等は補助額又は個別制度要件不足。
+  - 検証:
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-026-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:

@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T06:26:47+09:00",
+  "updatedAt": "2026-07-12T06:29:35+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "hokkaido-second-pass-025",
+    "code": "hokkaido-second-pass-026",
     "municipality": "北海道第2巡保留候補整理",
     "adopted": 0,
     "held": 12,
     "excluded": 0,
     "sourceUrlsChecked": 12,
     "validation": {
-      "previousMunicipality": "利尻富士町・幌延町・美幌町・津別町の第2巡候補を確認。既存掲載済み制度、期限/現行受付状況の整理が必要な制度、通常行政・相談・施設/観光案内、又は金額/上限・対象条件・期限/受付状況不足の候補が中心で、新規採用は0件。",
+      "previousMunicipality": "斜里町・清里町・小清水町・訓子府町の第2巡候補を確認。既存掲載済み制度、休止/廃止制度、通常行政・住宅・施設/相談案内、又は金額/上限・対象条件・期限/受付状況不足の候補が中心で、新規採用は0件。",
       "eslint": "skipped: no data changes",
       "duplicateSlugs": 0,
       "urlReachability": "skipped: no added slugs",
-      "diffCheck": "pass: git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-025-snippets.json",
+      "diffCheck": "pass: git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-026-snippets.json",
       "auditCoverage": "skipped: no data changes; aggregate at next data batch"
     }
   },
   "next": {
-    "code": "hokkaido-second-pass-026",
+    "code": "hokkaido-second-pass-027",
     "municipality": "北海道第2巡保留候補",
-    "shortlist": "第2巡025までで、利尻富士町・幌延町・美幌町・津別町の保留候補を整理し、新規採用0件。",
-    "instructions": "次は北海道第2巡026として、斜里町・清里町・小清水町・訓子府町を自治体コード順に継続確認する。公式個別ページ/PDFで制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ追加する。"
+    "shortlist": "第2巡026までで、斜里町・清里町・小清水町・訓子府町の保留候補を整理し、新規採用0件。",
+    "instructions": "次は北海道第2巡027として、置戸町・佐呂間町・遠軽町・湧別町を自治体コード順に継続確認する。公式個別ページ/PDFで制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ追加する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
