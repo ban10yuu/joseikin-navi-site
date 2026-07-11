@@ -1,0 +1,119 @@
+{
+  "batchId": "hokkaido-batch-020",
+  "municipalityCode": "01668",
+  "municipality": "白糠町",
+  "verifiedAt": "2026-07-11",
+  "sourceCache": "/tmp/shiranuka-selected-pages.json",
+  "adoptionSnippets": "/tmp/shiranuka-adoption-snippets.json",
+  "discovery": {
+    "candidateCount": 117,
+    "fetchedSectionPages": 91,
+    "method": "section pages and PDFs only; category/news/top pages retained as low-priority but not final sources"
+  },
+  "adopted": [
+    {
+      "slug": "shiranuka-tax-reduction-shortfall-benefit-2026",
+      "title": "令和7年度定額減税不足額給付金",
+      "officialUrl": "https://www.town.shiranuka.lg.jp/section/kikaku/h8v21a000000ribr.html",
+      "evidence": "対象者1は調整給付所要額と当初調整給付額との差額、対象者2は4万円。支給のお知らせ・確認書、申請期限を確認。"
+    },
+    {
+      "slug": "shiranuka-birth-celebration-voucher-2026",
+      "title": "出産祝い金",
+      "officialUrl": "https://www.town.shiranuka.lg.jp/section/kikaku/h8v21a000000h6j6.html",
+      "evidence": "令和7年4月1日以降出生、10万円分シラトピア商品券、住民登録・養育要件、出生届出時申請を確認。"
+    },
+    {
+      "slug": "shiranuka-child-medical-expense-free-2026",
+      "title": "18歳までの医療費無料化",
+      "officialUrl": "https://www.town.shiranuka.lg.jp/section/kikaku/h8v21a000000h6j6.html",
+      "evidence": "18歳到達後最初の3月31日までの子ども、保険診療医療費を全額無料化、現物給付・償還払い併用を確認。"
+    },
+    {
+      "slug": "shiranuka-childcare-fee-free-2026",
+      "title": "保育料無料化",
+      "officialUrl": "https://www.town.shiranuka.lg.jp/section/kikaku/h8v21a000000h6j6.html",
+      "evidence": "町内認定こども園・保育園、保育料・副食給食費無料化、保護者滞納なし、支給認定申請時の申請を確認。"
+    },
+    {
+      "slug": "shiranuka-school-lunch-fee-free-2026",
+      "title": "学校給食費無料化",
+      "officialUrl": "https://www.town.shiranuka.lg.jp/section/kikaku/h8v21a000000h6j6.html",
+      "evidence": "町内小学校・中学校・義務教育学校、給食費無料化、保護者滞納なし、在籍校申請を確認。"
+    },
+    {
+      "slug": "shiranuka-school-entry-support-voucher-2026",
+      "title": "新入学児童・生徒入学支援金",
+      "officialUrl": "https://www.town.shiranuka.lg.jp/section/kikaku/h8v21a000000h6j6.html",
+      "evidence": "小学校6万円分・中学校8万円分の商品券、5月1日町内住所、教育委員会申請を確認。"
+    },
+    {
+      "slug": "shiranuka-migration-support-grant-2026",
+      "title": "移住支援金制度",
+      "officialUrl": "https://www.town.shiranuka.lg.jp/section/kikaku/h8v21a000000i174.html",
+      "evidence": "世帯100万円・単身60万円、18歳未満30万円加算、転入後3カ月以上1年以内、就業等要件を確認。"
+    },
+    {
+      "slug": "shiranuka-septic-tank-installation-subsidy-2026",
+      "title": "合併処理浄化槽設置整備事業補助金",
+      "officialUrl": "https://www.town.shiranuka.lg.jp/section/hoken/qvum4j00000015fs.html",
+      "evidence": "5人槽90万円、6人槽以上110万円、単独処理浄化槽撤去費上限9万円、令和8年度申込期間を確認。"
+    },
+    {
+      "slug": "shiranuka-septic-waterworks-subsidy-2026",
+      "title": "水洗化等工事資金補助金",
+      "officialUrl": "https://www.town.shiranuka.lg.jp/section/hoken/qvum4j00000015th.html",
+      "evidence": "水洗化等工事上限6万円、令和8年度申込期間、申請・決定・完成届・支払い手順を確認。"
+    },
+    {
+      "slug": "shiranuka-septic-loan-interest-subsidy-2026",
+      "title": "水洗化等工事資金融資あっせん",
+      "officialUrl": "https://www.town.shiranuka.lg.jp/section/hoken/qvum4j0000001647.html",
+      "evidence": "無利子融資、物件所有者等の対象要件、最大100万円、町が利子相当額を負担することを確認。"
+    },
+    {
+      "slug": "shiranuka-septic-maintenance-inspection-subsidy-2026",
+      "title": "合併処理浄化槽維持管理費補助金",
+      "officialUrl": "https://www.town.shiranuka.lg.jp/section/hoken/qvum4j00000016ii.html",
+      "evidence": "法定検査手数料補助、町内専用住宅・業務施設、令和8年度申込期間、人槽別手数料を確認。"
+    },
+    {
+      "slug": "shiranuka-sun-town-settlement-housing-subsidy-2026",
+      "title": "太陽のまち定住奨励助成事業",
+      "officialUrl": "https://www.town.shiranuka.lg.jp/section/keizai/nfml630000001b68.html",
+      "evidence": "住宅新築500万円、従来助成上限250万円、活用例合計750万円、2026年度要綱を確認。"
+    },
+    {
+      "slug": "shiranuka-residential-land-free-provision-2026",
+      "title": "新築定住宅地の無償提供",
+      "officialUrl": "https://www.town.shiranuka.lg.jp/section/kikaku/h8v21a00000021pm.html",
+      "evidence": "町有地無償提供、10年以上居住、床面積25平方メートル以上、西庶路2区画・橋北8区画随時受付を確認。"
+    },
+    {
+      "slug": "shiranuka-new-house-property-tax-reduction-2026",
+      "title": "新築住宅の固定資産税減額",
+      "officialUrl": "https://www.town.shiranuka.lg.jp/section/kikaku/h8v21a00000021pm.html",
+      "evidence": "一般住宅3又は5年度分、認定長期優良住宅5又は7年度分、町税等滞納なし要件を確認。"
+    },
+    {
+      "slug": "shiranuka-sewer-conversion-subsidy-2026",
+      "title": "水洗化等改造工事補助金",
+      "officialUrl": "https://www.town.shiranuka.lg.jp/section/suido/qvum4j0000001lmb.html",
+      "evidence": "下水道使用可能日から排水設備1年以内・水洗化3年以内、工事費10%等、最大6万円を確認。"
+    }
+  ],
+  "held": [
+    {
+      "url": "https://www.town.shiranuka.lg.jp/section/kikaku/h8v21a000000n2ae.html",
+      "reason": "令和6年度定額減税調整給付金は過年度事業として扱い、現行受付確認が弱いため掲載しない。"
+    },
+    {
+      "url": "https://www.town.shiranuka.lg.jp/section/kikaku/qvum4j0000000cw2.html",
+      "reason": "企画総務部の部署一覧ページ。候補台帳には残すが最終sourceにはしない。"
+    },
+    {
+      "url": "https://www.town.shiranuka.lg.jp/section/kikaku/h8v21a000000thte.html",
+      "reason": "町税・国民健康保険税の条例改正であり、支給制度の個別ページではないため掲載しない。"
+    }
+  ]
+}

@@ -2154,12 +2154,13 @@
 
 ### 第20バッチ Discovery（標茶町・弟子屈町・鶴居村・白糠町・別海町）
 
-- 状態: 第20バッチDiscovery/URL検証を実行。標茶町は公式入口が `https://hokkaido.shibecha.jp/` へ遷移することを確認したが、候補PDF 5件が画像PDFで本文抽出できず、制度名・対象・金額・期限を機械確認できないため第2巡保留。弟子屈町は再帰sitemapから個別制度ページを確認し、20件を公式個別ページからデータ反映した。鶴居村以降は次続行。
+- 状態: 第20バッチDiscovery/URL検証を実行。標茶町は公式入口が `https://hokkaido.shibecha.jp/` へ遷移することを確認したが、候補PDF 5件が画像PDFで本文抽出できず、制度名・対象・金額・期限を機械確認できないため第2巡保留。弟子屈町は再帰sitemapから個別制度ページを確認し、20件を公式個別ページからデータ反映した。鶴居村は補助金・支援金ページから10件を追加。白糠町は候補117件からsection本文91件を再スコアし、個別公式ページで15件を確認・追加した。別海町は次続行。
 - 追加・更新ファイル:
   - `tasks/discovery/hokkaido-batch-020-municipalities.json`
   - `tasks/discovery/hokkaido-batch-020-candidates.json`
   - `tasks/discovery/hokkaido-batch-020-url-validation.json`
   - `tasks/discovery/hokkaido-batch-020-shibecha-teshikaga-snippets.json`
+  - `tasks/discovery/hokkaido-batch-020-shiranuka-snippets.json`
 - Discovery/Validation:
   - `node scripts/discover-official-candidates.mjs --input tasks/discovery/hokkaido-batch-020-municipalities.json --output tasks/discovery/hokkaido-batch-020-candidates.json --concurrency 5 --initial-limit-per-municipality 100 --deep-limit-per-municipality 300 --limit-per-municipality 300 --timeout-ms 20000`: 5自治体、277候補
   - `node scripts/validate-official-candidate-urls.mjs --input tasks/discovery/hokkaido-batch-020-candidates.json --output tasks/discovery/hokkaido-batch-020-url-validation.json --concurrency 8 --max-cache-age-hours 24 --timeout-ms 20000`: 277件確認、cacheHits 277、refetched 0、reachable 277、failures 0
@@ -2167,9 +2168,11 @@
 - 採用:
   - 標茶町: 0件（候補PDFは画像PDFのため第2巡保留）
   - 弟子屈町: 20件（保険適用不妊治療、先進不妊治療、子育て応援医療費fureca、出産・子育て応援給付金、重度心身障害者医療、ひとり親家庭等医療、赤ちゃんすくすく応援券、妊産婦安心出産支援、就学援助、奨学金返還支援、宿泊施設等設備改修、家賃補助、設備投資、サテライトオフィス、宿泊業再生、民間賃貸住宅等建設、補聴器購入等、特定疾患等通院交通、風しん抗体検査、ふるさとワーキングホリデー参加支援）
+  - 白糠町: 15件（定額減税不足額給付金、出産祝い金、18歳までの医療費無料化、保育料無料化、学校給食費無料化、新入学支援金、移住支援金、合併処理浄化槽設置、水洗化等工事資金補助、同融資あっせん、合併処理浄化槽維持管理、太陽のまち定住奨励、新築定住宅地無償提供、新築住宅固定資産税減額、水洗化等改造工事補助）
 - 保留・除外:
   - 標茶町PDF 5件: `pdftotext` は0文字。`tesseract 5.5.2` はこの環境でPNG読込に失敗。OCR又は目視で制度名・対象・金額・期限確認が必要なため第2巡保留。
   - 標茶町トップページ: 制度個別URLではないため掲載しない。
+  - 白糠町の部署一覧、カテゴリ、news、条例改正、過年度調整給付ページ: 候補台帳には残すが、制度個別ページ又は現行受付確認として弱いため掲載しない。
 - 検証:
   - 弟子屈町 slug重複確認: 重複0（全7302件、弟子屈町20件）
   - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
@@ -2177,7 +2180,7 @@
   - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-020-municipalities.json tasks/discovery/hokkaido-batch-020-candidates.json tasks/discovery/hokkaido-batch-020-url-validation.json tasks/discovery/hokkaido-batch-020-shibecha-teshikaga-snippets.json`: pass
   - `npm run audit:coverage`: pass（failures 0、activePublished 7306、officialLinkedActive 7268、manuallyVerifiedActive 7268、北海道 localOfficial 2911）
 - 次地点:
-  - 第20バッチの軽量検証・commit後、自治体コード順で `01667 鶴居村` へ進む。
+  - 白糠町15件の軽量検証・commit後、自治体コード順で `01691 別海町` へ進む。
 
 ### 第20バッチ Verification 続行（鶴居村）
 
@@ -2196,3 +2199,23 @@
   - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-020-tsurui-snippets.json`: pass
 - 次地点:
   - 鶴居村10件のdiff確認・commit後、自治体コード順で `01668 白糠町` へ進む。
+
+### 第20バッチ Verification 続行（白糠町）
+
+- 状態: 白糠町は第20バッチ候補117件のうち、公式sectionページ91件を本文取得して再スコアリング。トップ、カテゴリ、部署一覧、news、条例改正、過年度給付は低優先又は除外とし、制度名・対象・金額/上限・条件・申請/受付状況を個別公式ページ本文で確認できた15件を追加した。
+- 追加・更新ファイル:
+  - `tasks/discovery/hokkaido-batch-020-shiranuka-snippets.json`
+- 採用:
+  - 白糠町: 15件（定額減税不足額給付金、出産祝い金、18歳までの医療費無料化、保育料無料化、学校給食費無料化、新入学支援金、移住支援金、合併処理浄化槽設置、水洗化等工事資金補助、水洗化等工事資金融資あっせん、合併処理浄化槽維持管理、太陽のまち定住奨励、新築定住宅地無償提供、新築住宅固定資産税減額、水洗化等改造工事補助）
+- 保留・除外:
+  - 令和6年度定額減税調整給付金: 過年度事業で現行受付確認が弱いため掲載しない。
+  - 企画総務部・カテゴリ・news・sitemapページ: 制度個別URLではないため最終sourceにしない。
+  - 令和8年度町税及び国民健康保険税条例改正: 支給制度の個別ページではないため掲載しない。
+- 検証:
+  - 白糠町 slug重複確認: 重複0（全7327件、白糠町15件）
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+  - `node scripts/check-grant-source-urls.mjs --prefix shiranuka- --timeout-ms 60000 --concurrency 4`: 15件確認、失敗0
+  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-020-shiranuka-snippets.json`: pass
+  - `npm run audit:coverage`: pass（failures 0、activePublished 7331、officialLinkedActive 7293、manuallyVerifiedActive 7293、北海道 localOfficial 2936）
+- 次地点:
+  - 白糠町15件の検証・commit後、自治体コード順で `01691 別海町` へ進む。

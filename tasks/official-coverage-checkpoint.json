@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-07-11T23:55:00+09:00",
+  "updatedAt": "2026-07-11T23:59:00+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "01667",
-    "municipality": "鶴居村",
-    "adopted": 10,
-    "held": 2,
+    "code": "01668",
+    "municipality": "白糠町",
+    "adopted": 15,
+    "held": 3,
     "excluded": 0,
-    "sourceUrlsChecked": 10,
+    "sourceUrlsChecked": 15,
     "validation": {
-      "previousMunicipality": "鶴居村は補助金・支援金ページの10件を公式個別ページで確認し、従業員住宅、新しい農業、営農用貯水タンク、新規就農、新規ハンター、高校等人材育成、教育資金利子、輝く住ま居る、太陽光・蓄電池、木質系燃料ストーブの10件を追加。商工観光経済活性化支援とクラウドファンディング活用支援は補助額がPDF依存のため第2巡保留。",
+      "previousMunicipality": "白糠町は候補117件から公式sectionページ91件を本文取得・再スコアし、定額減税不足額給付、子育て支援5件、移住支援、浄化槽・水洗化4件、定住奨励、町有地無償提供、固定資産税減額の15件を公式個別ページで確認して追加。部署一覧・カテゴリ・news・条例改正・過年度給付は掲載しない。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "tsurui 10 checked, all 0 failures",
+      "urlReachability": "shiranuka 15 checked, all 0 failures",
       "nodeCheck": "not needed: script unchanged",
-      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-020-tsurui-snippets.json",
-      "auditCoverage": "deferred: previous audit pass after 弟子屈町; next aggregate audit after 白糠町 or batch commit"
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-020-shiranuka-snippets.json",
+      "auditCoverage": "pass: failures 0, activePublished 7331, officialLinkedActive 7293, manuallyVerifiedActive 7293, 北海道 localOfficial 2936"
     }
   },
   "next": {
-    "code": "01668",
-    "municipality": "白糠町",
-    "shortlist": "continue hokkaido-batch-020 from 01668 白糠町",
-    "instructions": "鶴居村10件のdiff確認・commit後、自治体コード順で白糠町へ進む。"
+    "code": "01691",
+    "municipality": "別海町",
+    "shortlist": "continue hokkaido-batch-020 from 01691 別海町",
+    "instructions": "白糠町15件の軽量検証・audit・commit後、自治体コード順で別海町へ進む。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
