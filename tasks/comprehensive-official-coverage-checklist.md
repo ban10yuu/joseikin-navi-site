@@ -2806,6 +2806,20 @@
     - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
     - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-032-snippets.json`: pass
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 士幌町・上士幌町・鹿追町・新得町）:
+  - 状態: 第2巡033として、第15バッチ後半の4自治体の未掲載候補を再確認。士幌町・上士幌町・鹿追町・新得町はいずれも第1巡反映済み制度、PDF/要綱側に寄った金額表、終了済み又は受付停止、北海道事業、404、複雑表の切り分け不足、カテゴリ/広報導線に該当し、制度名・対象・金額/上限・条件・期限/受付状況が揃う新規掲載候補は確認できなかった。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-second-pass-033-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 保留継続:
+    - 士幌町: 住宅リフォーム費用助成、道路等除排雪機械購入補助金はPDF/要綱側確認待ち。高等学校等修学支援金、定住雇用促進賃貸住宅建設事業助成金は現在日基準で終了済み。
+    - 上士幌町: 道民生活応援ポイント給付事業は北海道事業。太陽光発電等再エネ設備導入補助金は受付停止。帯状疱疹ワクチン、医療費助成等は種別・区分別金額の切り分け不足。
+    - 鹿追町: 企業活性化推進助成金、民間賃貸住宅家賃助成、住宅建設奨励、不妊治療費助成、ひとり親家庭等医療費助成は条例/様式/PDF又は区分別条件の切り分けが不足。推定個別URLの404は採用しない。
+    - 新得町: 商工業活性化系、定住住宅建設促進制度、不妊治療費助成、医療費助成の一部は制度単位・年度差分・金額/対象条件の切り分け不足。観光・移住案内、広報/カテゴリのみは掲載しない。
+  - 検証:
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-033-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
