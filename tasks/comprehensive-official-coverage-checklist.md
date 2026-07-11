@@ -2624,6 +2624,20 @@
     - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
     - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-019-snippets.json`: pass
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 剣淵町・下川町・美深町・音威子府村）:
+  - 状態: 第2巡020として、batch-005先頭4自治体の未掲載候補を再確認。剣淵町・下川町・美深町・音威子府村はいずれも既存掲載済み制度、通常行政サービス、国制度、募集・住宅/寄附情報、又は金額/上限・対象条件不足に該当し、制度名・対象・金額/上限・条件・期限/受付状況が揃う新規掲載候補は確認できなかった。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-second-pass-020-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 保留継続:
+    - 剣淵町: 帯状疱疹ワクチンは対象条件確認不足、農業担い手育成支援事業は対象経費・補助基準不足。移住・住宅・通常予防接種等は個別制度要件が揃うものだけ掲載対象。
+    - 下川町: 不妊治療、RSウイルスワクチン、妊婦健診受診票、出産後支援は助成額・上限又は個別条件不足。募集・住宅・売払い・通常サービスは掲載しない。
+    - 美深町: 妊婦健診等母子保健候補、山村留学助成、農業就農支援は助成額・上限・現行申請条件不足。寄附・実績報告・施設案内は掲載しない。
+    - 音威子府村: 通院費助成は上限額不足、移住情報ページの起業/担い手支援は個別金額・条件確認不足。児童手当等は国制度として扱う。
+  - 検証:
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-020-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
