@@ -2820,6 +2820,20 @@
     - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
     - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-033-snippets.json`: pass
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 清水町・芽室町・中札内村・更別村）:
+  - 状態: 第2巡034として、第16バッチ前半から更別村までの4自治体の未掲載候補を再確認。清水町・芽室町・中札内村・更別村はいずれも第1巡反映済み制度、詳細リンク/PDF/要綱側に寄った金額表、404、一覧・カテゴリ導線、サービス/物件案内、又は北海道事業に該当し、制度名・対象・金額/上限・条件・期限/受付状況が揃う新規掲載候補は確認できなかった。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-second-pass-034-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 保留継続:
+    - 清水町: 妊婦支援給付金は詳細リンク中心。不育症・不妊・人材育成・起業/住宅/交流施設系はPDF/要綱側の金額・条件確認が必要。
+    - 芽室町: 病児保育利用料助成はリンク先404。妊婦健診、不妊・不育症、母子父子寡婦福祉資金、井水/飲用井戸/資源物/住宅系制度は個別ページ/PDFで再確認が必要。
+    - 中札内村: 不妊治療費助成は助成額詳細がPDF側。産後ケア、家庭訪問、合併処理浄化槽、社会教育・文化・スポーツ振興等は補助額・対象・受付条件の本文/PDF確認が不足。
+    - 更別村: ゼロカーボン推進補助金、企業立地補助制度、介護人材確保は要綱/PDF又は詳細導線側。賃貸住宅物件案内、こども誰でも通園制度、道民生活応援ポイント給付事業は掲載しない。
+  - 検証:
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-034-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:

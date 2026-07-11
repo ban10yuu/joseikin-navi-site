@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T06:56:06+09:00",
+  "updatedAt": "2026-07-12T06:59:06+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "hokkaido-second-pass-033",
+    "code": "hokkaido-second-pass-034",
     "municipality": "北海道第2巡保留候補整理",
     "adopted": 0,
     "held": 12,
     "excluded": 0,
     "sourceUrlsChecked": 12,
     "validation": {
-      "previousMunicipality": "士幌町・上士幌町・鹿追町・新得町の第2巡候補を確認。第1巡反映済み制度、PDF/要綱側の金額表、終了済み又は受付停止、北海道事業、404、複雑表の切り分け不足、カテゴリ/広報導線が中心で、新規採用は0件。",
+      "previousMunicipality": "清水町・芽室町・中札内村・更別村の第2巡候補を確認。第1巡反映済み制度、詳細リンク/PDF/要綱側の金額表、404、一覧・カテゴリ導線、サービス/物件案内、又は北海道事業が中心で、新規採用は0件。",
       "eslint": "skipped: no data changes",
       "duplicateSlugs": 0,
       "urlReachability": "skipped: no added slugs",
-      "diffCheck": "pass: git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-033-snippets.json",
+      "diffCheck": "pass: git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-034-snippets.json",
       "auditCoverage": "skipped: no data changes; aggregate at next data batch"
     }
   },
   "next": {
-    "code": "hokkaido-second-pass-034",
+    "code": "hokkaido-second-pass-035",
     "municipality": "北海道第2巡保留候補",
-    "shortlist": "第2巡033までで、士幌町・上士幌町・鹿追町・新得町の保留候補を整理し、新規採用0件。",
-    "instructions": "次は北海道第2巡034として、清水町・芽室町・中札内村・更別村を自治体コード順に継続確認する。公式個別ページ/PDFで制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ追加する。"
+    "shortlist": "第2巡034までで、清水町・芽室町・中札内村・更別村の保留候補を整理し、新規採用0件。",
+    "instructions": "次は北海道第2巡035として、大樹町・広尾町・幕別町・池田町を自治体コード順に継続確認する。公式個別ページ/PDFで制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ追加する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
