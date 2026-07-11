@@ -2441,6 +2441,25 @@
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-006-snippets.json`: pass
     - `npm run audit:coverage`: pass（failures 0、activePublished 7439、officialLinkedActive 7401、manuallyVerifiedActive 7401、北海道 localOfficial 3044）
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 上ノ国町・厚沢部町・乙部町・奥尻町）:
+  - 状態: 第2巡007として、対象4自治体の第2バッチshortlist 42件を再スコアリングし、未掲載強候補12件を抽出。上ノ国町、厚沢部町、乙部町、奥尻町の公式カテゴリ/個別ページを短い本文スニペットで確認したが、既存掲載済み・一覧導線・通常行政サービス・募集案内・過年度又は金額/期限不足に該当し、制度名・対象・金額/上限・条件・期限/受付状況が揃う新規掲載候補は確認できなかった。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-second-pass-007-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 既存掲載済み:
+    - 上ノ国町: エアコン購入費、子ども医療費、保育料・副食費、給食費、学童、妊婦支援給付、出生祝金、医療従事者養成、不妊治療、予防接種、空き家除却、漁業担い手、若年者等雇用奨励、新規起業者支援など主要候補は掲載済み。
+    - 厚沢部町: 奨学資金、就学援助、特別支援教育就学奨励、移住支援金、住宅取得・新築・改修・空き家関連、医療・子育て・予防接種等の主要候補は掲載済み。
+    - 乙部町: スマイル商品券、子育て応援手当、医療費助成、障害者手当、高齢者交通費、長寿祝金、企業振興促進条例など主要候補は掲載済み。
+    - 奥尻町: 物価高騰対策給付金、医療費助成、乳児栄養強化給付金、妊産婦健診通院費、不妊治療、家族介護用品、特定疾患健康診査費用助成、特定疾患療養費助成、創業・雇用拡大補助金など主要候補は掲載済み。
+  - 保留継続:
+    - 上ノ国町 農業関連補助事業、水産加工施設整備支援: 農業関連補助は公式本文で個別の補助率・上限・現行申請条件が不足。水産加工施設整備支援は過年度事業。
+    - 厚沢部町 子育てカテゴリ、福祉・介護カテゴリ、地域おこし協力隊募集、子育てガイドPDF: カテゴリページは一覧導線、地域おこし協力隊は雇用募集、画像中心PDFは本文抽出・必須項目確認が不十分。
+    - 乙部町 定額減税不足額給付: 公式ページで対象者と支給方法は確認したが、支給額は確認書記載で本文上の金額・上限を固定できず、受付期限も本文に明記されていないため保留継続。
+    - 奥尻町 障害手当の古い令和3年度額、空き家バンク、移住相談、町営住宅、住宅リフォーム注意喚起、地域計画、通常サービス案内: 現行の個別補助金・助成金・給付金として必須項目を固定できない。
+  - 検証:
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-007-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
