@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-11T19:05:00+09:00",
+  "updatedAt": "2026-07-11T19:15:00+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "01578",
-    "municipality": "白老町",
-    "adopted": 9,
-    "held": 18,
+    "code": "01581",
+    "municipality": "厚真町",
+    "adopted": 8,
+    "held": 9,
     "excluded": 1,
-    "sourceUrlsChecked": 9,
+    "sourceUrlsChecked": 8,
     "validation": {
-      "previousMunicipality": "豊浦町: adopted 5, held 7, excluded 1, sourceUrlsChecked 5; 壮瞥町: adopted 11, held 9, excluded 0, sourceUrlsChecked 11",
+      "previousMunicipality": "第11バッチ完了済み: 豊浦町5, 壮瞥町11, 白老町9; 第12バッチDiscovery作成済み: 厚真町155候補, 洞爺湖町HTTP補完165候補, 安平町172候補",
       "eslint": "pass for src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "toyoura 5, sobetsu 11, shiraoi 9 checked, 0 failures",
-      "diffCheck": "pass for grant data and batch-011 target files before checkpoint/checklist update",
-      "auditCoverage": "pass after batch-011 addition; failures 0; Hokkaido localOfficial 2296"
+      "urlReachability": "atsuma 8 checked, 0 failures",
+      "diffCheck": "pending after checkpoint/checklist update",
+      "auditCoverage": "not rerun for single-municipality partial batch; previous pass after batch-011, failures 0, Hokkaido localOfficial 2296"
     }
   },
   "next": {
-    "code": "01581",
-    "municipality": "厚真町",
-    "shortlist": "create hokkaido-batch-012 with 厚真町, 洞爺湖町, 安平町 in code order",
-    "instructions": "第11バッチは豊浦町5件・壮瞥町11件・白老町9件、計25件を公式本文確認後に反映済み。eslint、slug重複、URL到達、diff check、audit:coverageは通過。次は自治体コード順で01581厚真町から第12バッチDiscoveryを作成して進む。"
+    "code": "01584",
+    "municipality": "洞爺湖町",
+    "shortlist": "use tasks/discovery/hokkaido-batch-012-toyako-http-candidates.json first; HTTPS failed with tlsv1 unrecognized name, HTTP official site returned 200",
+    "instructions": "厚真町は8件を公式本文確認後に反映済み。次は01584洞爺湖町のHTTP補完候補165件から、個別制度ページ/PDFの対象・金額/上限・条件・期限/受付状況を確認して採用する。その後01585安平町へ進む。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

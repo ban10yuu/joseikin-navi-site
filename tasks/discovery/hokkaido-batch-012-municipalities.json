@@ -1,0 +1,21 @@
+{
+  "batchId": "hokkaido-batch-012",
+  "prefecture": "北海道",
+  "municipalities": [
+    {
+      "code": "01581",
+      "name": "厚真町",
+      "officialBaseUrl": "https://www.town.atsuma.lg.jp/"
+    },
+    {
+      "code": "01584",
+      "name": "洞爺湖町",
+      "officialBaseUrl": "http://www.town.toyako.hokkaido.jp/"
+    },
+    {
+      "code": "01585",
+      "name": "安平町",
+      "officialBaseUrl": "https://www.town.abira.lg.jp/"
+    }
+  ]
+}
