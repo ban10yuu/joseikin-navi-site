@@ -1,0 +1,124 @@
+{
+  "batchId": "aomori-comprehensive-official-coverage-004",
+  "checkedAt": "2026-07-12T07:44:53+09:00",
+  "prefecture": "青森県",
+  "scope": "青森県公式棚卸し004: むつ市・つがる市・平川市・平内町",
+  "discovery": {
+    "candidateCount": 934,
+    "snippetRows": 21,
+    "snippetReason": "shortlistが150件を超えたため、公式本文の短いスニペットを抽出して再スコアリングした。"
+  },
+  "municipalities": [
+    {
+      "code": "02208",
+      "name": "むつ市",
+      "adopted": 5,
+      "programs": [
+        "むつ市移住支援金",
+        "物価高対応子育て応援手当",
+        "まちづくり活動応援補助金",
+        "住宅向け太陽光発電設備・蓄電池導入支援",
+        "伝統行事および民俗芸能継承育成事業費補助金"
+      ]
+    },
+    {
+      "code": "02209",
+      "name": "つがる市",
+      "adopted": 6,
+      "programs": [
+        "住宅用自家消費型太陽光発電設備等導入支援事業費補助金",
+        "創業支援事業補助金",
+        "結婚生活スタートアップ事業",
+        "移住者マイホーム応援事業",
+        "医療・福祉職子育て世帯移住支援金",
+        "物価高騰対策臨時脱炭素推進家電買換促進事業"
+      ]
+    },
+    {
+      "code": "02210",
+      "name": "平川市",
+      "adopted": 5,
+      "programs": [
+        "経営改善支援事業補助金",
+        "ひとり親世帯臨時特別給付金",
+        "物価高対応子育て応援手当",
+        "結婚新生活支援補助金",
+        "木造住宅耐震リフォーム促進支援事業"
+      ]
+    },
+    {
+      "code": "02301",
+      "name": "平内町",
+      "adopted": 4,
+      "programs": [
+        "地域活性化住宅リフォーム支援事業",
+        "物価高騰対応支援給付金",
+        "移住・定住促進新築住宅建設補助金",
+        "高齢者補聴器購入費助成事業"
+      ]
+    }
+  ],
+  "adoptedSlugs": [
+    "mutsu-migration-support-2026",
+    "mutsu-price-hike-child-support-2026",
+    "mutsu-community-activity-subsidy-2026",
+    "mutsu-residential-solar-battery-subsidy-2026",
+    "mutsu-folk-performing-arts-subsidy-2026",
+    "tsugaru-residential-solar-battery-subsidy-2026",
+    "tsugaru-startup-subsidy-2026",
+    "tsugaru-marriage-life-startup-2026",
+    "tsugaru-migration-home-acquisition-support-2026",
+    "tsugaru-medical-welfare-childcare-migration-support-2026",
+    "tsugaru-energy-efficient-appliance-replacement-2026",
+    "hirakawa-business-improvement-subsidy-2026",
+    "hirakawa-single-parent-temporary-benefit-2026",
+    "hirakawa-price-hike-child-support-2026",
+    "hirakawa-newlywed-life-support-2026",
+    "hirakawa-seismic-home-renovation-support-2026",
+    "hiranai-home-renovation-subsidy-2026",
+    "hiranai-price-hike-town-resident-benefit-2026",
+    "hiranai-new-home-construction-subsidy-2026",
+    "hiranai-hearing-aid-purchase-subsidy-2026"
+  ],
+  "heldCandidates": [
+    {
+      "title": "むつ市 私道等整備補助金",
+      "reason": "町内会等向けに工事費9割以内の補助を公式確認したが、今回20件反映後の追加確認へ回す。"
+    },
+    {
+      "title": "ふるさと融資",
+      "reason": "貸付制度であり、制度単位の貸付条件詳細を別途確認する。"
+    },
+    {
+      "title": "つがる市 スポーツ合宿補助事業",
+      "reason": "PDF又は実施主体ページで対象・金額・受付状況の最終確認が必要。"
+    },
+    {
+      "title": "平内町 補助制度・支援制度一覧",
+      "reason": "一覧ページのため、個別ページで必須項目を確認できた制度のみ採用した。"
+    }
+  ],
+  "summary": {
+    "adopted": 20,
+    "held": 4,
+    "sourceUrlsChecked": 20,
+    "candidates": 934,
+    "snippets": 21
+  },
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "duplicateSlugs": "pass: added 20, duplicates 0",
+    "urlReachability": "pass: checked 20, failures 0",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7487, officialLinkedActive 7449, manuallyVerifiedActive 7449, Aomori localOfficial 97",
+    "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-official-coverage-004-municipalities.json tasks/discovery/aomori-official-coverage-004-candidates.json tasks/discovery/aomori-official-coverage-004-snippets.json tasks/discovery/aomori-official-coverage-004.json"
+  },
+  "next": {
+    "code": "aomori-comprehensive-official-coverage-005",
+    "municipalities": [
+      "02303今別町",
+      "02304蓬田村",
+      "02307外ヶ浜町",
+      "02321鰺ヶ沢町"
+    ]
+  }
+}

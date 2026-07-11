@@ -2967,6 +2967,33 @@
   - 次:
     - 02208むつ市、02209つがる市、02210平川市、02301平内町を自治体コード順で確認する。
 
+- 2026-07-12 青森県公式棚卸し004（むつ市・つがる市・平川市・平内町データ反映）:
+  - 状態: 4自治体を公式サイト単位で確認。初回候補934件のため短い本文スニペット21件へ再スコアリングし、公式本文で制度名・対象・金額/上限・条件・期限/受付状況を確認できた20件を `src/data/grants/verified-local-misc-2026.ts` に追加した。
+  - 追加・更新ファイル:
+    - `src/data/grants/verified-local-misc-2026.ts`
+    - `tasks/discovery/aomori-official-coverage-004-municipalities.json`
+    - `tasks/discovery/aomori-official-coverage-004-candidates.json`
+    - `tasks/discovery/aomori-official-coverage-004-snippets.json`
+    - `tasks/discovery/aomori-official-coverage-004.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 採用:
+    - むつ市: 移住支援金、物価高対応子育て応援手当、まちづくり活動応援補助金、住宅向け太陽光発電設備・蓄電池導入支援、伝統行事および民俗芸能継承育成事業費補助金。
+    - つがる市: 住宅用自家消費型太陽光発電設備等導入支援事業費補助金、創業支援事業補助金、結婚生活スタートアップ事業、移住者マイホーム応援事業、医療・福祉職子育て世帯移住支援金、物価高騰対策臨時脱炭素推進家電買換促進事業。
+    - 平川市: 経営改善支援事業補助金、ひとり親世帯臨時特別給付金、物価高対応子育て応援手当、結婚新生活支援補助金、木造住宅耐震リフォーム促進支援事業。
+    - 平内町: 地域活性化住宅リフォーム支援事業、物価高騰対応支援給付金、移住・定住促進新築住宅建設補助金、高齢者補聴器購入費助成事業。
+  - 保留継続:
+    - むつ市私道等整備補助金は町内会等向け工事費9割以内の補助を公式確認したが、今回20件反映後の追加確認へ回す。
+    - ふるさと融資は貸付制度のため、制度単位の貸付条件詳細を別途確認する。
+    - つがる市スポーツ合宿補助事業はPDF又は実施主体ページで対象・金額・受付状況の最終確認が必要。
+    - 平内町補助制度・支援制度一覧は一覧ページのため、個別ページで必須項目を確認できた制度のみ採用した。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: 今回追加slugの重複0。
+    - `node scripts/check-grant-source-urls.mjs --slug <20 slugs> --timeout-ms 60000 --concurrency 4`: checked 20、failures 0。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7487、officialLinkedActive 7449、manuallyVerifiedActive 7449、青森県 localOfficial 97）
+  - 次:
+    - 02303今別町、02304蓬田村、02307外ヶ浜町、02321鰺ヶ沢町を自治体コード順で確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:

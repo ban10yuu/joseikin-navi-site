@@ -1,0 +1,26 @@
+{
+  "batchId": "aomori-comprehensive-official-coverage-004",
+  "prefecture": "青森県",
+  "municipalities": [
+    {
+      "code": "02208",
+      "name": "むつ市",
+      "officialBaseUrl": "https://www.city.mutsu.lg.jp/"
+    },
+    {
+      "code": "02209",
+      "name": "つがる市",
+      "officialBaseUrl": "https://www.city.tsugaru.aomori.jp/"
+    },
+    {
+      "code": "02210",
+      "name": "平川市",
+      "officialBaseUrl": "https://www.city.hirakawa.lg.jp/"
+    },
+    {
+      "code": "02301",
+      "name": "平内町",
+      "officialBaseUrl": "https://www.town.hiranai.aomori.jp/"
+    }
+  ]
+}
