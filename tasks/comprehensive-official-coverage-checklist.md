@@ -2666,6 +2666,20 @@
     - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
     - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-022-snippets.json`: pass
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 天塩町・猿払村・浜頓別町・中頓別町）:
+  - 状態: 第2巡023として、batch-005後半4自治体の未掲載候補を再確認。天塩町・猿払村・浜頓別町・中頓別町はいずれも既存掲載済み制度、過年度/期間限定制度、通常行政/国制度、住宅・募集・寄附情報、又は金額/上限・対象条件・受付状況不足に該当し、制度名・対象・金額/上限・条件・期限/受付状況が揃う新規掲載候補は確認できなかった。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-second-pass-023-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 保留継続:
+    - 天塩町: 回覧板掲載の生活支援券等は個別公式本文で対象・金額/上限・条件・期限/受付状況の一括確認が必要。先進不妊治療費等助成や子育て応援ガイド掲載候補は上限詳細又は個別ページ確認が残る。
+    - 猿払村: 民営賃貸住宅建設促進助成制度は期間限定で現行受付未確認。さるふつスマイル事業はポイント交換制度としての金額換算・申請条件整理が必要。
+    - 浜頓別町: 子ども医療費等は個別ページ取得がトップ戻り又は本文不足。国保税減免・傷病手当金・新型コロナ関連税制措置は過年度又は通常給付として扱う。
+    - 中頓別町: 補装具給付、難病患者等交通費助成、産後ケア、住宅改築促進、商工融資、創業支援等は町独自助成額/上限・受付条件不足又は貸付/相談支援整理が残る。
+  - 検証:
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-023-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
