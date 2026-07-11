@@ -1,0 +1,21 @@
+{
+  "batchId": "hokkaido-batch-009",
+  "prefecture": "北海道",
+  "municipalities": [
+    {
+      "code": "01559",
+      "name": "湧別町",
+      "officialBaseUrl": "https://www.town.yubetsu.lg.jp/"
+    },
+    {
+      "code": "01560",
+      "name": "滝上町",
+      "officialBaseUrl": "https://town.takinoue.hokkaido.jp/"
+    },
+    {
+      "code": "01561",
+      "name": "興部町",
+      "officialBaseUrl": "https://www.town.okoppe.lg.jp/"
+    }
+  ]
+}

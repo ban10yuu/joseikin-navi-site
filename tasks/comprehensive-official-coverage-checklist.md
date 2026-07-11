@@ -1635,3 +1635,19 @@
   - `npm run audit:coverage`: pass（failures 0、北海道 localOfficial 2184）
 - 次地点:
   - 集約監査 `npm run audit:coverage` とcommit後、自治体コード順で `01559 湧別町` へ進む。
+
+### 第9バッチ Discovery（湧別町・滝上町・興部町）
+
+- 状態: Discovery完了、湧別町の第1巡Verification未着手
+- 確認日: 2026-07-11
+- Discovery:
+  - `tasks/discovery/hokkaido-batch-009-municipalities.json`
+  - `tasks/discovery/hokkaido-batch-009-candidates.json`
+  - 湧別町: discovered 300 / candidates 241 / strong 7 / lowPriority 234
+  - 滝上町: discovered 300 / candidates 110 / strong 0 / lowPriority 110
+  - 興部町: discovered 300 / candidates 202 / strong 2 / lowPriority 200
+- 湧別町の次確認候補:
+  - 補助・助成・支援一覧、子育て・教育、医療給付、住宅・土地、しごと・産業カテゴリから個別制度ページ/PDFを確認する。
+  - 代表候補: 空き家除却、空き家流通、定住住宅取得、民間賃貸住宅等取得/建設、住宅建設・改造、給水装置設置、自動車急発進防止、迷惑電話対策、医療給付、介護職員研修、妊婦支援、不妊治療、予防接種、児童手当、奨学金貸付/返還支援、就学・通学、生涯学習、芸術文化、スポーツ・文化遠征、創業、技能検定、通年雇用、商工業活性化、地域づくり。
+- 次地点:
+  - 自治体コード順で `01559 湧別町` のVerificationへ進む。

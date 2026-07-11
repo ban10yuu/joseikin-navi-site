@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T21:05:00+09:00",
+  "updatedAt": "2026-07-11T21:20:00+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
     "code": "01555",
@@ -20,8 +20,8 @@
   "next": {
     "code": "01559",
     "municipality": "湧別町",
-    "shortlist": "next batch discovery not yet generated in this turn",
-    "instructions": "遠軽町35件は公式本文又は公式PDFで必須項目が揃ったものを採用済み。ペレットストーブ、帯状疱疹、妊婦支援給付、新生児聴覚、脳ドック、膵臓・胆のうドック等は金額/上限又は本文不足で保留。audit:coverageとcommit後、自治体コード順で湧別町へ進む。"
+    "shortlist": "hokkaido-batch-009-candidates.json generated; 湧別町 discovered 300 / candidates 241 / strong 7 / lowPriority 234",
+    "instructions": "遠軽町35件は公式本文又は公式PDFで必須項目が揃ったものを採用済み。ペレットストーブ、帯状疱疹、妊婦支援給付、新生児聴覚、脳ドック、膵臓・胆のうドック等は金額/上限又は本文不足で保留。遠軽町はcommit済み。次は湧別町の補助・助成・支援一覧、教育、医療給付、住宅、産業カテゴリから個別制度ページ/PDFを確認する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
