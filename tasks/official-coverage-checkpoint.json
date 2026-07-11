@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T02:34:32+09:00",
+  "updatedAt": "2026-07-12T02:38:53+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "hokkaido-second-pass-012",
+    "code": "hokkaido-second-pass-013",
     "municipality": "北海道第2巡保留候補整理",
-    "adopted": 0,
-    "held": 13,
+    "adopted": 1,
+    "held": 10,
     "excluded": 0,
-    "sourceUrlsChecked": 15,
+    "sourceUrlsChecked": 12,
     "validation": {
-      "previousMunicipality": "積丹町・古平町・仁木町・余市町の前方保留候補を確認。余市町2026年7月広報PDFの地域産業支援補助金は既存掲載済みの生産基盤持続化整備事業・来訪者受入環境整備事業と同一内容のため重複追加しない。新規採用0件。",
-      "eslint": "skipped: no data file changes in hokkaido-second-pass-012",
+      "previousMunicipality": "赤井川村・南幌町・奈井江町・上砂川町の第2巡候補を確認。南幌町の子ども文化・スポーツ全道大会等補助金は公式本文、別表RTF、提出マニュアルPDFで対象・金額基準・申請手順が確認できたため1件追加。",
+      "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "pass: no added slugs; Yoichi official PDF fetched and text-confirmed; existing records already cover the two programs",
-      "diffCheck": "pass: git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-012-snippets.json",
-      "auditCoverage": "skipped: no data file changes; previous pass at hokkaido-second-pass-010"
+      "urlReachability": "pass: nanporo-child-culture-sports-tournament-subsidy-2026 source URLs checked 3; failures 0",
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-013-snippets.json",
+      "auditCoverage": "skipped: aggregate unless additional data changes; previous pass at hokkaido-second-pass-010"
     }
   },
   "next": {
-    "code": "hokkaido-second-pass-013",
+    "code": "hokkaido-second-pass-014",
     "municipality": "北海道第2巡保留候補",
-    "shortlist": "第2巡012までで累計58件追加。積丹町・古平町・仁木町・余市町の保留候補を整理し、新規採用は0件。",
-    "instructions": "次は北海道第2巡013として、赤井川村・南幌町・奈井江町・上砂川町などbatch-003後続候補を自治体コード順に継続確認する。公式個別ページ/PDFで制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ追加する。"
+    "shortlist": "第2巡013までで累計59件追加。赤井川村・南幌町・奈井江町・上砂川町の保留候補を整理し、南幌町1件を追加。",
+    "instructions": "次は北海道第2巡014として、由仁町・長沼町・栗山町・月形町などbatch-003後続候補を自治体コード順に継続確認する。公式個別ページ/PDFで制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ追加する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
