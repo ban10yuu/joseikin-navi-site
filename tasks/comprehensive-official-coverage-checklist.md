@@ -2876,6 +2876,20 @@
     - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
     - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-037-snippets.json`: pass
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 標茶町・弟子屈町・鶴居村・白糠町）:
+  - 状態: 第2巡038として、第20バッチ前半から白糠町までの4自治体の未掲載候補を再確認。標茶町は画像PDFの本文抽出/OCRが未解決で必須項目確認待ち。弟子屈町・鶴居村・白糠町は主要制度を第1巡又は後半サンプルで反映済みで、残候補はカテゴリ/一覧/導線、重複、過年度、又は同一個別本文で金額/上限・対象・受付状況が揃わない候補が中心。新規掲載候補は確認できなかった。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-second-pass-038-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 保留継続:
+    - 標茶町: 候補PDF 5件は画像PDFでpdftotext 0文字、現環境OCRも失敗。トップページは制度個別URLではない。
+    - 弟子屈町: 再帰sitemap由来のカテゴリ・一覧・導線、既存20件との重複、本文必須項目不足の弱一致候補は掲載しない。
+    - 鶴居村: 第1巡で保留したPDF依存2件は後半サンプルで採用済み。補助金・支援金一覧や既存12件以外の弱候補は重複又は本文必須項目不足。
+    - 白糠町: 部署一覧、カテゴリ、news、条例改正、過年度調整給付ページ、既存15件以外の低優先候補は個別制度ページ又は現行受付確認として弱い。
+  - 検証:
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-038-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
