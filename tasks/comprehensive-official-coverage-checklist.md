@@ -2652,6 +2652,20 @@
     - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
     - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-021-snippets.json`: pass
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 苫前町・羽幌町・初山別村・遠別町）:
+  - 状態: 第2巡022として、batch-005後続4自治体の未掲載候補を再確認。苫前町・羽幌町・初山別村・遠別町はいずれも既存掲載済み制度、通常行政/国制度、寄附・住宅・募集情報、又は金額/上限・対象条件・受付状況不足に該当し、制度名・対象・金額/上限・条件・期限/受付状況が揃う新規掲載候補は確認できなかった。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-second-pass-022-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 保留継続:
+    - 苫前町: 交付金事業・寄附金活用・地域再生計画等は個別補助として扱わない。がん検診等は料金/町助成額不足、無料クーポンや一部予防接種は国制度色又は制度整理が残る。
+    - 羽幌町: 総合体育館利用助成は助成額・対象範囲不足。水洗便所改造等補助・下水道使用料減免は取得本文404相当。住宅・寄附・観光・通常行政情報は掲載しない。
+    - 初山別村: 物価高騰対応重点支援地方創生臨時交付金は実施状況。高齢者医療通院費、不妊治療費、任意インフルエンザ等は助成額・上限・受付条件不足又は通常サービス整理が必要。
+    - 遠別町: 旧出産・子育て応援給付金は終了確認済み。児童扶養手当は現行額確認不足、幼児教育・保育無償化は町独自上乗せ不足。住宅・移住・職員募集・通常案内は掲載しない。
+  - 検証:
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-022-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
