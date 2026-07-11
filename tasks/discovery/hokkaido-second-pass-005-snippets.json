@@ -1,0 +1,122 @@
+{
+  "batch": "hokkaido-second-pass-005",
+  "verifiedAt": "2026-07-12",
+  "municipalities": [
+    "知内町",
+    "当別町",
+    "新篠津村",
+    "森町"
+  ],
+  "adopted": [
+    {
+      "slug": "tobetsu-child-allowance-2026",
+      "municipality": "当別町",
+      "officialUrl": "https://www.town.tobetsu.hokkaido.jp/soshiki/hoken/37060.html",
+      "evidence": "高校生年代まで、3歳未満月額1万5千円、3歳以上高校生年代月額1万円、第3子以降月額3万円、偶数月7日支給を確認。"
+    },
+    {
+      "slug": "tobetsu-child-rearing-allowance-2026",
+      "municipality": "当別町",
+      "officialUrl": "https://www.town.tobetsu.hokkaido.jp/soshiki/hoken/17068.html",
+      "evidence": "18歳年度末まで、障がい児20歳未満、児童1人全部支給月額4万8,050円、2人目以降1万1,350円加算、所得制限を確認。"
+    },
+    {
+      "slug": "tobetsu-price-relief-childcare-support-benefit-2026",
+      "municipality": "当別町",
+      "officialUrl": "https://www.town.tobetsu.hokkaido.jp/soshiki/hoken/52627.html",
+      "evidence": "0歳から高校3年生までの子ども1人あたり2万円、令和8年3月から支給、受付終了日2026年6月15日を確認。"
+    },
+    {
+      "slug": "tobetsu-severe-disability-medical-aid-2026",
+      "municipality": "当別町",
+      "officialUrl": "https://www.town.tobetsu.hokkaido.jp/soshiki/fukushi/152.html",
+      "evidence": "重度心身障がい者医療受給者証の対象区分、初診料医科580円・歯科510円・柔道整復師270円、年齢別自己負担を確認。"
+    },
+    {
+      "slug": "tobetsu-single-parent-medical-aid-2026",
+      "municipality": "当別町",
+      "officialUrl": "https://www.town.tobetsu.hokkaido.jp/soshiki/hoken/46579.html",
+      "evidence": "当別町住民登録、公的医療保険加入、所得制限、18歳年度末までの児童、扶養継続時20歳誕生日月末までを確認。"
+    },
+    {
+      "slug": "tobetsu-renewable-energy-equipment-subsidy-2026",
+      "municipality": "当別町",
+      "officialUrl": "https://www.town.tobetsu.hokkaido.jp/soshiki/energy/49141.html",
+      "sourceUrls": [
+        "https://www.town.tobetsu.hokkaido.jp/uploaded/attachment/30470.pdf",
+        "https://www.town.tobetsu.hokkaido.jp/uploaded/attachment/30471.pdf",
+        "https://www.town.tobetsu.hokkaido.jp/uploaded/attachment/30472.pdf",
+        "https://www.town.tobetsu.hokkaido.jp/uploaded/attachment/30473.pdf"
+      ],
+      "evidence": "受付2026年6月1日から11月30日、太陽光個人1kW10万円以内、ZEH+100万円、薪・ペレット上限20万円等を公式ページとPDFで確認。"
+    },
+    {
+      "slug": "shinshinotsu-child-allowance-2026",
+      "municipality": "新篠津村",
+      "officialUrl": "https://www.vill.shinshinotsu.hokkaido.jp/hotnews/detail/00000178.html",
+      "evidence": "0歳から高校生年代まで、所得制限撤廃、3歳未満月額1万5千円、3歳以上月額1万円、第3子以降月額3万円を確認。"
+    },
+    {
+      "slug": "shinshinotsu-child-rearing-allowance-2026",
+      "municipality": "新篠津村",
+      "officialUrl": "https://www.vill.shinshinotsu.hokkaido.jp/hotnews/detail/00000180.html",
+      "evidence": "ひとり親等の要件、児童1人月額4万5,500円、2人目1万750円、3人目以降6,450円加算、年6回支給を確認。"
+    },
+    {
+      "slug": "shinshinotsu-special-child-rearing-allowance-2026",
+      "municipality": "新篠津村",
+      "officialUrl": "https://www.vill.shinshinotsu.hokkaido.jp/hotnews/detail/00000181.html",
+      "evidence": "20歳未満の障がい児を養育する父母等、1級月額5万5,350円、2級月額3万6,860円、4月・8月・12月支給を確認。"
+    },
+    {
+      "slug": "shinshinotsu-child-medical-aid-2026",
+      "municipality": "新篠津村",
+      "officialUrl": "https://www.vill.shinshinotsu.hokkaido.jp/hotnews/detail/00000798.html",
+      "evidence": "0歳から18歳年度末まで、所得制限なし、保険診療分の医療費助成、保険適用外費用等は対象外を確認。"
+    },
+    {
+      "slug": "shinshinotsu-severe-disability-medical-aid-2026",
+      "municipality": "新篠津村",
+      "officialUrl": "https://www.vill.shinshinotsu.hokkaido.jp/hotnews/detail/00000799.html",
+      "evidence": "重度心身障がい者医療費助成、65歳以上は後期高齢者医療制度加入、初診料医科580円・歯科510円、18歳年度末まで全額助成を確認。"
+    },
+    {
+      "slug": "shinshinotsu-single-parent-medical-aid-2026",
+      "municipality": "新篠津村",
+      "officialUrl": "https://www.vill.shinshinotsu.hokkaido.jp/hotnews/detail/00000800.html",
+      "evidence": "ひとり親家庭等の児童と親、18歳未満、扶養継続時20歳誕生日月末まで、保険診療自己負担額助成、親は入院のみを確認。"
+    },
+    {
+      "slug": "shinshinotsu-price-relief-childcare-support-benefit-2026",
+      "municipality": "新篠津村",
+      "officialUrl": "https://www.vill.shinshinotsu.hokkaido.jp/hotnews/detail/00003531.html",
+      "evidence": "対象児童2007年4月2日から2026年3月31日出生、児童1人2万円、2026年2月下旬から順次支給を確認。"
+    },
+    {
+      "slug": "shinshinotsu-settlement-renovation-subsidy-2026",
+      "municipality": "新篠津村",
+      "officialUrl": "https://www.vill.shinshinotsu.hokkaido.jp/hotnews/detail/00003545.html",
+      "evidence": "受付終了、申請期間2026年4月1日から6月25日、対象工事20万円以上、補助率20%以内・上限20万円、村内業者施工3万円上乗せを確認。"
+    }
+  ],
+  "continuedHold": [
+    {
+      "municipality": "知内町",
+      "reason": "第2巡005では強い個別制度候補を確認できず、候補台帳に低優先で残す。"
+    },
+    {
+      "municipality": "森町",
+      "reason": "第2巡005では南渡島通年雇用促進支援協議会の既採用制度を除き、公式個別ページで必須項目が揃う新規制度を確認できず、候補台帳に低優先で残す。"
+    },
+    {
+      "municipality": "新篠津村",
+      "candidate": "医療・介護・障害者施設物価高騰対応支援事業、宿泊研修施設指定管理者物価高騰対応支援事業",
+      "reason": "公式ページに制度見出しはあるが、ページ本文だけでは金額・対象条件が不足。PDF等の個別根拠確認まで保留。"
+    }
+  ],
+  "localFiles": [
+    "tasks/discovery/tmp-second-pass-005/",
+    "tasks/discovery/hokkaido-second-pass-005-shortlist.csv"
+  ],
+  "next": "北海道第2巡006として、鹿部町・八雲町・長万部町・江差町など前方保留候補を自治体コード順に継続確認する。"
+}

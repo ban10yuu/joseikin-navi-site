@@ -2399,6 +2399,26 @@
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-004-snippets.json`: pass
     - `npm run audit:coverage`: pass（failures 0、activePublished 7422、officialLinkedActive 7384、manuallyVerifiedActive 7384、北海道 localOfficial 3027）
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 知内町・当別町・新篠津村・森町）:
+  - 状態: 第2巡005の候補台帳から、当別町の児童手当、児童扶養手当、物価高対応子育て応援手当、重度心身障がい者医療費助成、ひとり親家庭等医療費助成、再生可能エネルギー設備導入推進事業補助金、新篠津村の児童手当、児童扶養手当、特別児童扶養手当、乳幼児等医療費助成、重度心身障がい者医療費助成、ひとり親家庭等医療費助成、物価高対応子育て応援手当、定住促進リフォーム補助金を公式個別ページ/PDF単位で確認。制度名・対象・金額/上限・条件・期限/受付状況が揃った14件を追加した。
+  - 追加・更新ファイル:
+    - `src/data/grants/verified-local-misc-2026.ts`
+    - `tasks/discovery/hokkaido-second-pass-005-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 採用:
+    - 当別町: 6件（児童手当、児童扶養手当、物価高対応子育て応援手当、重度心身障がい者医療費助成、ひとり親家庭等医療費助成、再生可能エネルギー設備導入推進事業補助金）
+    - 新篠津村: 8件（児童手当、児童扶養手当、特別児童扶養手当、乳幼児等医療費助成、重度心身障がい者医療費助成、ひとり親家庭等医療費助成、物価高対応子育て応援手当、定住促進リフォーム補助金）
+  - 保留継続:
+    - 知内町: 第2巡005では強い個別制度候補を確認できず、候補台帳に低優先で残す。
+    - 森町: 南渡島通年雇用促進支援協議会の既採用制度を除き、公式個別ページで必須項目が揃う新規制度を確認できず、候補台帳に低優先で残す。
+    - 新篠津村 医療・介護・障害者施設物価高騰対応支援事業、宿泊研修施設指定管理者物価高騰対応支援事業: 公式ページに制度見出しはあるが、ページ本文だけでは金額・対象条件が不足。PDF等の個別根拠確認まで保留。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+    - slug重複確認: 重複0（全7438件、追加14件すべて存在）
+    - 追加14件の `node scripts/check-grant-source-urls.mjs --slug ... --timeout-ms 60000 --concurrency 2`: 18URL確認、失敗0
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-005-snippets.json`: pass
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7434、officialLinkedActive 7396、manuallyVerifiedActive 7396、北海道 localOfficial 3039）
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:

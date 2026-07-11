@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T02:08:00+09:00",
+  "updatedAt": "2026-07-12T02:45:00+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "hokkaido-second-pass-004",
+    "code": "hokkaido-second-pass-005",
     "municipality": "北海道第2巡保留候補整理",
-    "adopted": 7,
+    "adopted": 14,
     "held": 3,
     "excluded": 0,
-    "sourceUrlsChecked": 10,
+    "sourceUrlsChecked": 18,
     "validation": {
-      "previousMunicipality": "松前町・福島町・北斗市の前方保留候補を確認。公式個別ページ又はPDFで制度名・対象・金額/上限・条件・期限/受付状況を確認できた7件を追加し、松前町就学援助、福島町給付金一覧、北斗市オンライン申請一覧・ふるさと納税活用実績は保留又は掲載対象外として整理。",
+      "previousMunicipality": "知内町・当別町・新篠津村・森町の前方保留候補を確認。公式個別ページ又はPDFで制度名・対象・金額/上限・条件・期限/受付状況を確認できた14件を追加し、知内町・森町の弱い候補と新篠津村の物価高騰対応施設支援2件は保留継続として整理。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "pass: added 7 slugs and 10 sourceUrls checked; failures 0",
-      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-004-snippets.json",
-      "auditCoverage": "pass: npm run audit:coverage; failures 0, activePublished 7422, officialLinkedActive 7384, manuallyVerifiedActive 7384, 北海道 localOfficial 3027"
+      "urlReachability": "pass: added 14 slugs and 18 sourceUrls checked; failures 0",
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-005-snippets.json",
+      "auditCoverage": "pass: npm run audit:coverage; failures 0, activePublished 7434, officialLinkedActive 7396, manuallyVerifiedActive 7396, 北海道 localOfficial 3039"
     }
   },
   "next": {
-    "code": "hokkaido-second-pass-continue",
+    "code": "hokkaido-second-pass-006",
     "municipality": "北海道第2巡保留候補",
-    "shortlist": "第2巡004までで累計19件追加。松前町就学援助、七飯町スポーツ振興補助金・就学援助制度などは保留継続。",
-    "instructions": "次は北海道第2巡の未判定候補を前方バッチから継続整理。知内町・当別町・新篠津村・森町などの未採用候補を公式個別ページ/PDF単位で確認する。"
+    "shortlist": "第2巡005までで累計33件追加。知内町・森町の低優先候補、新篠津村の施設向け物価高騰支援は保留継続。",
+    "instructions": "次は北海道第2巡006として、鹿部町・八雲町・長万部町・江差町など前方保留候補を自治体コード順に継続確認する。公式個別ページ/PDFで制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ追加する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
