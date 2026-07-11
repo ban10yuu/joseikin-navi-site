@@ -1,0 +1,54 @@
+{
+  "auditId": "hokkaido-milestone-audit-001",
+  "checkedAt": "2026-07-12T07:24:06+09:00",
+  "scope": "北海道第1巡・第2巡保留候補整理の節目監査",
+  "status": "hokkaido-second-pass-complete",
+  "coverageAudit": {
+    "command": "npm run audit:coverage",
+    "failures": 0,
+    "activePublished": 7460,
+    "officialLinkedActive": 7422,
+    "manuallyVerifiedActive": 7422,
+    "activeWithoutOfficialSource": 38,
+    "expired": 724,
+    "prefectureCoverage": {
+      "totalPrefectures": 47,
+      "withLocalOfficial": 47,
+      "withoutLocalOfficial": []
+    },
+    "hokkaido": {
+      "localOfficial": 3065,
+      "localManuallyVerified": 3065,
+      "coveredCategories": 8,
+      "categoryCounts": {
+        "childcare": 1297,
+        "housing": 596,
+        "medical": 1129,
+        "education": 374,
+        "employment": 709,
+        "nursing": 635,
+        "living": 1896,
+        "disaster": 108
+      }
+    }
+  },
+  "secondPassLedger": {
+    "files": 39,
+    "first": "hokkaido-second-pass-001-snippets.json",
+    "last": "hokkaido-second-pass-039-snippets.json",
+    "adopted": 59,
+    "held": 378,
+    "sourceUrlsChecked": 398
+  },
+  "milestoneFindings": [
+    "北海道は自治体コード順の第1巡が羅臼町まで到達済み。",
+    "第2巡保留候補は001から039まで整理済み。採用59件、保留378件をスニペット台帳へ保存済み。",
+    "audit:coverageはfailures 0、北海道localOfficial 3065、localManuallyVerified 3065。",
+    "progress-checklistのraw gap 0は全国完了条件ではないため、全国完了扱いにはしない。"
+  ],
+  "next": {
+    "code": "aomori-comprehensive-official-coverage-001",
+    "prefecture": "青森県",
+    "instructions": "青森県の公式棚卸しを、青森県庁、02201青森市、02202弘前市、02203八戸市の自治体コード順から開始する。既存raw gap 0を完了扱いせず、公式サイト単位で補助金・助成金・給付金・一時金等の必須項目を再確認する。"
+  }
+}

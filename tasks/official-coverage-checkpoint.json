@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T07:18:06+09:00",
+  "updatedAt": "2026-07-12T07:24:06+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "hokkaido-second-pass-039",
-    "municipality": "北海道第2巡保留候補整理",
-    "adopted": 0,
-    "held": 12,
+    "code": "hokkaido-milestone-audit-001",
+    "municipality": "北海道節目監査",
+    "adopted": 59,
+    "held": 378,
     "excluded": 0,
-    "sourceUrlsChecked": 12,
+    "sourceUrlsChecked": 398,
     "validation": {
-      "previousMunicipality": "別海町・中標津町・標津町・羅臼町の第2巡候補を確認。第1巡又は後半サンプルで主要制度を反映済みで、残候補は一覧/カテゴリ/導線、採用済み制度との重複、現行制度なし、体験募集、又は同一公式本文で金額/上限・対象・受付状況が揃わない候補が中心。新規採用は0件。",
+      "previousMunicipality": "北海道第1巡は羅臼町まで到達済み。第2巡保留候補は001から039まで整理済みで、スニペット台帳39件、採用59件、保留378件、sourceUrlsChecked 398件。raw gap 0は全国完了条件ではないため、北海道節目監査後は青森県の公式棚卸しへ進む。",
       "eslint": "skipped: no data changes",
       "duplicateSlugs": 0,
       "urlReachability": "skipped: no added slugs",
-      "diffCheck": "pass: git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-039-snippets.json",
-      "auditCoverage": "skipped: no data changes; aggregate at Hokkaido milestone audit"
+      "diffCheck": "pass: git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-milestone-audit-001.json",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7460, officialLinkedActive 7422, manuallyVerifiedActive 7422, Hokkaido localOfficial 3065"
     }
   },
   "next": {
-    "code": "hokkaido-milestone-audit-001",
-    "municipality": "北海道節目監査",
-    "shortlist": "第2巡039までで、別海町・中標津町・標津町・羅臼町の保留候補を整理し、新規採用0件。北海道の第1巡と第2巡保留候補整理は末尾まで到達。",
-    "instructions": "次は北海道節目監査として、チェックリスト集計、未判定候補の残数確認、必要な上限付きbuild又はcoverage監査を実行する。全国完了扱いにはせず、北海道監査後に次の都道府県・公的機関の未完了地点へ進む。"
+    "code": "aomori-comprehensive-official-coverage-001",
+    "municipality": "青森県",
+    "shortlist": "北海道は第1巡・第2巡保留候補整理・節目audit:coverageまで完了。全国完了扱いにはせず、次は青森県の公式棚卸しへ進む。",
+    "instructions": "次は青森県の公式棚卸しとして、青森県庁、02201青森市、02202弘前市、02203八戸市の自治体コード順から開始する。既存raw gap 0を完了扱いせず、公式サイト単位で補助金・助成金・給付金・一時金等の制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約を再確認する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

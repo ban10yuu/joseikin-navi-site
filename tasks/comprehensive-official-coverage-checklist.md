@@ -2904,6 +2904,17 @@
     - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
     - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-039-snippets.json`: pass
 
+- 2026-07-12 北海道節目監査:
+  - 状態: 北海道第1巡は羅臼町まで到達済み。第2巡保留候補は `hokkaido-second-pass-001` から `039` まで整理し、スニペット台帳39件に採用59件、保留378件、sourceUrlsChecked 398件を記録した。`raw gap 0` は全国完了条件ではないため、北海道完了だけを節目として扱い、全国完了扱いにはしない。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-milestone-audit-001.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 監査:
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7460、officialLinkedActive 7422、manuallyVerifiedActive 7422、activeWithoutOfficialSource 38、北海道 localOfficial 3065、北海道 localManuallyVerified 3065）
+    - 第2巡スニペット集計: 39ファイル、採用59件、保留378件、sourceUrlsChecked 398件。
+  - 次:
+    - 青森県の公式棚卸しとして、青森県庁、02201青森市、02202弘前市、02203八戸市の自治体コード順から開始する。既存raw gap 0を完了扱いせず、公式サイト単位で制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約を再確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
