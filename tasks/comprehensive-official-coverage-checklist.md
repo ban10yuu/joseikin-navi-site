@@ -2308,6 +2308,75 @@
 
 ### 北海道末尾到達時の節目build確認
 
+- 2026-07-12 第2巡保留候補整理（後半サンプル）:
+  - 状態: 北海道第1巡末尾到達・本番反映後、未判定候補解消のため、鶴居村・別海町・中標津町・羅臼町の保留候補を再確認。公式HTML本文、公式PDF、公式Wordをローカル変換して、制度名・対象・金額/上限・条件・申請/受付状況が揃った5件を追加した。
+  - 追加・更新ファイル:
+    - `src/data/grants/verified-local-misc-2026.ts`
+    - `tasks/discovery/hokkaido-second-pass-001-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 採用:
+    - 鶴居村: 2件（つるい未来へつなぐ商工観光経済活性化支援事業補助金、クラウドファンディング活用支援事業補助金）
+    - 中標津町: 2件（育英資金貸付金、定住促進貸付金）
+    - 羅臼町: 1件（中小企業振興資金融資制度）
+  - 保留継続:
+    - 別海町 産婦・新生児への助成一覧: 一覧ページのみでは個別助成額・上限・受付条件が不足。
+    - 別海町 別海高等学校支援事業: 令和6年度実績PDFは確認したが、2026年時点の個別金額・受付条件として固定できない。
+    - 別海町 高齢者福祉一覧: 給付券・活動補助等は個別ページ単位の金額・対象・条件確認が必要。
+    - 中標津町 腎臓機能障害者通院交通費補助: 対象と概要は確認したが、補助単価・上限が公式本文で固定できない。
+    - 羅臼町地域総合整備資金貸付（ふるさと融資）: 対象・無利子融資・期間は確認したが、町公式本文に貸付上限額がない。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+    - slug重複確認: 重複0（全7410件、追加5件すべて存在）
+    - `node scripts/check-grant-source-urls.mjs --slug tsurui-commerce-tourism-activation-subsidy-2026 --timeout-ms 60000 --concurrency 2`: 2URL確認、失敗0
+    - `node scripts/check-grant-source-urls.mjs --slug tsurui-crowdfunding-support-subsidy-2026 --timeout-ms 60000 --concurrency 2`: 2URL確認、失敗0
+    - `node scripts/check-grant-source-urls.mjs --slug nakashibetsu-education-scholarship-loan-2026 --timeout-ms 60000 --concurrency 2`: 3URL確認、失敗0
+    - `node scripts/check-grant-source-urls.mjs --slug nakashibetsu-settlement-promotion-scholarship-loan-2026 --timeout-ms 60000 --concurrency 2`: 3URL確認、失敗0
+    - `node scripts/check-grant-source-urls.mjs --slug rausu-sme-promotion-loan-2026 --timeout-ms 60000 --concurrency 2`: 1URL確認、失敗0
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-001-snippets.json`: pass
+  - 次地点:
+    - 北海道第2巡の未判定候補を前方バッチから継続整理。次は第19バッチ以前の保留候補又は第20バッチ標茶町画像PDFのOCR/目視確認。
+
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 歌志内市・伊達市・滝川市）:
+  - 状態: 前方の保留候補から、歌志内市子育て世帯等移住応援助成金、伊達市ものづくり創出支援事業補助金、滝川市国民健康保険出産育児一時金を確認。公式個別ページ/PDFで制度名・対象・金額/上限・条件・期限/受付状況が揃った2件を追加した。
+  - 追加・更新ファイル:
+    - `src/data/grants/verified-local-misc-2026.ts`
+    - `tasks/discovery/hokkaido-second-pass-002-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 採用:
+    - 伊達市: 1件（ものづくり創出支援事業補助金）
+    - 滝川市: 1件（国民健康保険出産育児一時金）
+  - 保留継続:
+    - 歌志内市 子育て世帯等移住応援助成金: 公式個別ページで制度名・対象概要は確認したが、助成額・上限・申請期限が本文にない。申請様式リンクのみでは必須項目が揃わないため掲載しない。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+    - slug重複確認: 重複0（全7412件、追加2件すべて存在）
+    - `node scripts/check-grant-source-urls.mjs --slug date-hokkaido-monozukuri-creation-subsidy-2026 --timeout-ms 60000 --concurrency 2`: 1URL確認、失敗0
+    - `node scripts/check-grant-source-urls.mjs --slug takikawa-national-health-insurance-childbirth-lump-sum-2026 --timeout-ms 60000 --concurrency 2`: 1URL確認、失敗0
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-001-snippets.json tasks/discovery/hokkaido-second-pass-002-snippets.json`: pass
+
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 木古内町・七飯町・鹿部町）:
+  - 状態: 初期バッチの保留候補から、木古内町の一次産業チャレンジ応援補助金、狩猟免許等取得補助金、見守りGPS機器利用支援事業、七飯町の物産展等出展支援補助金、育英基金奨学金貸付制度を確認。公式個別ページと公式PDFで制度名・対象・金額/上限・条件・期限/受付状況が揃った5件を追加した。鹿部町は主要候補が既存掲載済みであることを確認し、新規採用はなし。
+  - 追加・更新ファイル:
+    - `src/data/grants/verified-local-misc-2026.ts`
+    - `tasks/discovery/hokkaido-second-pass-003-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 採用:
+    - 木古内町: 3件（一次産業チャレンジ応援補助金、狩猟免許等取得補助金、見守りGPS機器利用支援事業）
+    - 七飯町: 2件（物産展等出展支援補助金、育英基金奨学金貸付制度）
+  - 保留継続:
+    - 七飯町 スポーツ振興補助金: 公式個別ページは制度名と申請書案内のみで、利用条件・料金等は問い合わせ案内。例規ページはTLS接続不可で、金額・補助率・対象条件を公式本文で固定できないため保留。
+    - 七飯町 就学援助制度: 個別ページと一部PDFは確認したが、掲載用の金額・上限を制度全体として固定できる公式本文確認が不足。
+    - 鹿部町 保留候補全般: マイホーム取得、奨学金、高校生支援、新生活支援、不妊・不育、子ども医療費など主要候補は既存データに掲載済み。新規候補は通常サービス又は個別給付条件不足のため追加なし。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+    - slug重複確認: 重複0（全7417件、追加5件すべて存在）
+    - `node scripts/check-grant-source-urls.mjs --slug kikonai-primary-industry-challenge-subsidy-2026 --timeout-ms 60000 --concurrency 2`: 2URL確認、失敗0
+    - `node scripts/check-grant-source-urls.mjs --slug kikonai-hunting-license-acquisition-subsidy-2026 --timeout-ms 60000 --concurrency 2`: 2URL確認、失敗0
+    - `node scripts/check-grant-source-urls.mjs --slug kikonai-wandering-gps-support-2026 --timeout-ms 60000 --concurrency 2`: 2URL確認、失敗0
+    - `node scripts/check-grant-source-urls.mjs --slug nanae-product-fair-exhibition-subsidy-2026 --timeout-ms 60000 --concurrency 2`: 2URL確認、失敗0
+    - `node scripts/check-grant-source-urls.mjs --slug nanae-scholarship-loan-2026 --timeout-ms 60000 --concurrency 2`: 2URL確認、失敗0
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-001-snippets.json tasks/discovery/hokkaido-second-pass-002-snippets.json tasks/discovery/hokkaido-second-pass-003-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:

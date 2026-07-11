@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-11T23:25:00+09:00",
+  "updatedAt": "2026-07-12T01:52:00+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "01694",
-    "municipality": "羅臼町",
-    "adopted": 20,
-    "held": 2,
-    "excluded": 2,
-    "sourceUrlsChecked": 20,
+    "code": "hokkaido-second-pass-003",
+    "municipality": "北海道第2巡保留候補整理",
+    "adopted": 5,
+    "held": 3,
+    "excluded": 0,
+    "sourceUrlsChecked": 10,
     "validation": {
-      "previousMunicipality": "羅臼町は第21バッチ候補295件を起点に、公式個別ページ87件、選定22ページ、公式PDF2件を確認。制度名・対象・金額/上限・条件・申請/受付状況を公式個別ページ又はPDFで確認できた20件を追加。",
+      "previousMunicipality": "木古内町・七飯町・鹿部町の初期保留候補を確認。公式個別ページ又はPDFで制度名・対象・金額/上限・条件・期限/受付状況を確認できた5件を追加し、七飯町スポーツ振興補助金・就学援助制度、鹿部町追加候補は保留又は既存掲載済みとして整理。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "rausu prefix 22 checked including 20 grants and PDF sourceUrls; failures 0",
-      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-021-rausu-snippets.json",
-      "auditCoverage": "pass: failures 0, activePublished 7408, officialLinkedActive 7370, manuallyVerifiedActive 7370, 北海道 localOfficial 3013"
+      "urlReachability": "pass: added 5 slugs and 10 sourceUrls checked; failures 0",
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-001-snippets.json tasks/discovery/hokkaido-second-pass-002-snippets.json tasks/discovery/hokkaido-second-pass-003-snippets.json",
+      "auditCoverage": "pass: npm run audit:coverage; failures 0, activePublished 7415, officialLinkedActive 7377, manuallyVerifiedActive 7377, 北海道 localOfficial 3020"
     }
   },
   "next": {
-    "code": "next-prefecture-start",
-    "municipality": "次の都道府県",
-    "shortlist": "北海道は自治体コード順で羅臼町まで到達し、節目build・prebuilt deploy・本番代表確認まで完了。",
-    "instructions": "次は全国網羅の継続として、北海道の第2巡保留候補整理又は次都道府県の公式棚卸し開始地点を確定する。"
+    "code": "hokkaido-second-pass-continue",
+    "municipality": "北海道第2巡保留候補",
+    "shortlist": "第2巡003までで累計12件追加。七飯町スポーツ振興補助金・就学援助制度は保留継続。",
+    "instructions": "次は北海道第2巡の未判定候補を前方バッチから継続整理。松前町・福島町・知内町・北斗市・森町など初期バッチの保留候補を公式個別ページ/PDF単位で確認する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

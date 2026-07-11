@@ -1,0 +1,91 @@
+{
+  "batchId": "hokkaido-second-pass-001",
+  "checkedAt": "2026-07-12",
+  "scope": "北海道第2巡保留候補のうち鶴居村・別海町・中標津町・羅臼町の後半候補",
+  "adopted": [
+    {
+      "slug": "tsurui-commerce-tourism-activation-subsidy-2026",
+      "title": "鶴居村 つるい未来へつなぐ商工観光経済活性化支援事業補助金",
+      "officialUrl": "https://www.vill.tsurui.lg.jp/muranoshokai_sonsei/hojokin_shienkin/1313.html",
+      "sourceUrls": [
+        "https://www.vill.tsurui.lg.jp/muranoshokai_sonsei/hojokin_shienkin/1313.html",
+        "https://www.vill.tsurui.lg.jp/material/files/group/6/tirashi.pdf"
+      ],
+      "evidence": "対象経費2分の1以内。新規開業・新分野進出は条件付き最大850万円、事業継続最大250万円、観光推進最大500万円。申請は事業開始90日前から30日前まで。"
+    },
+    {
+      "slug": "tsurui-crowdfunding-support-subsidy-2026",
+      "title": "鶴居村 クラウドファンディング活用支援事業補助金",
+      "officialUrl": "https://www.vill.tsurui.lg.jp/muranoshokai_sonsei/hojokin_shienkin/1553.html",
+      "sourceUrls": [
+        "https://www.vill.tsurui.lg.jp/muranoshokai_sonsei/hojokin_shienkin/1553.html",
+        "https://www.vill.tsurui.lg.jp/material/files/group/1/CFkisoku.pdf"
+      ],
+      "evidence": "寄附金目標100万円以上の地域活性化事業が対象。集まった寄附金から手数料等を差し引いた額を交付対象額とする。"
+    },
+    {
+      "slug": "nakashibetsu-education-scholarship-loan-2026",
+      "title": "中標津町 育英資金貸付金",
+      "officialUrl": "https://www.nakashibetsu.jp/kyouiku_iinkai/ikuei_shikin/",
+      "sourceUrls": [
+        "https://www.nakashibetsu.jp/kyouiku_iinkai/ikuei_shikin/",
+        "https://www.nakashibetsu.jp/file/contents/4833/47048/ikuei_youkou08.doc",
+        "https://www.nakashibetsu.jp/file/contents/4833/46781/ikuei_sikumi08.doc"
+      ],
+      "evidence": "令和8年度募集要項で申請期間2026年3月2日から3月31日、入学一時金最大20万円、修学資金年額最大24万円を確認。"
+    },
+    {
+      "slug": "nakashibetsu-settlement-promotion-scholarship-loan-2026",
+      "title": "中標津町 定住促進貸付金",
+      "officialUrl": "https://www.nakashibetsu.jp/kyouiku_iinkai/ikuei_shikin/",
+      "sourceUrls": [
+        "https://www.nakashibetsu.jp/kyouiku_iinkai/ikuei_shikin/",
+        "https://www.nakashibetsu.jp/file/contents/4833/47048/ikuei_youkou08.doc",
+        "https://www.nakashibetsu.jp/file/contents/4833/46781/ikuei_sikumi08.doc"
+      ],
+      "evidence": "定住促進貸付金は年額24万円以内。卒業後町内企業等へ5年以上就労し、町内に5年以上定住した場合は全額免除。"
+    },
+    {
+      "slug": "rausu-sme-promotion-loan-2026",
+      "title": "羅臼町 中小企業振興資金融資制度",
+      "officialUrl": "https://www.rausu-town.jp/pages/view/384",
+      "sourceUrls": [
+        "https://www.rausu-town.jp/pages/view/384"
+      ],
+      "evidence": "運転資金・設備資金は各1,500万円以内、合計1,500万円限度。町内1年以上、独立事業所・店舗、町税等完納が対象要件。"
+    }
+  ],
+  "continuedHold": [
+    {
+      "title": "別海町 産婦・新生児への助成一覧",
+      "url": "https://betsukai.jp/kurashi/birth/birth_sonota/h31jyoseijigyou/",
+      "reason": "一覧ページで制度名は確認できるが、個別の助成額・上限・受付条件が本文だけでは不足。個別ページ又は要綱確認まで掲載しない。"
+    },
+    {
+      "title": "別海町 別海高等学校支援事業",
+      "url": "https://betsukai.jp/kyoiku/gakko_kyoiku/betukaikoukousiennzigyou/",
+      "reason": "令和6年度実績PDFで通学費全額助成等は確認したが、2026年時点の個別金額・受付条件として固定するには弱いため掲載しない。"
+    },
+    {
+      "title": "別海町 高齢者福祉一覧",
+      "url": "https://betsukai.jp/kurashi/fukushi/kourei_fukushi/",
+      "reason": "高齢者福祉一覧に給付券・活動補助等の候補はあるが、個別ページ単位の金額・対象・条件確認が必要。"
+    },
+    {
+      "title": "中標津町 腎臓機能障害者通院交通費補助",
+      "url": "https://www.nakashibetsu.jp/kurashi/kosodate_fukushi/shougaisha/iryou_josei/jinzou/",
+      "reason": "対象と制度概要は確認したが、補助単価・上限が公式本文で固定できないため掲載しない。"
+    },
+    {
+      "title": "羅臼町地域総合整備資金貸付（ふるさと融資）",
+      "url": "https://www.rausu-town.jp/pages/view/634",
+      "reason": "対象・無利子融資・期間は確認したが、町公式本文に貸付上限額がなく、個別掲載条件が揃わないため保留継続。"
+    }
+  ],
+  "localEvidenceFiles": [
+    "/tmp/hokkaido-second-pass-pdfs/tirashi.pdf.txt",
+    "/tmp/hokkaido-second-pass-pdfs/CFkisoku.pdf.txt",
+    "/tmp/hokkaido-second-pass-docs/ikuei_youkou08.doc.txt",
+    "/tmp/hokkaido-second-pass-docs/ikuei_sikumi08.doc.txt"
+  ]
+}

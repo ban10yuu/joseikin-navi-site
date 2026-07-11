@@ -1,0 +1,30 @@
+{
+  "batchId": "hokkaido-second-pass-002",
+  "checkedAt": "2026-07-12",
+  "scope": "北海道第2巡保留候補のうち歌志内市・伊達市・滝川市",
+  "adopted": [
+    {
+      "slug": "date-hokkaido-monozukuri-creation-subsidy-2026",
+      "title": "伊達市 ものづくり創出支援事業補助金",
+      "officialUrl": "https://www.city.date.hokkaido.jp/hotnews/files/00007800/00007899/hp_mono_leaflet_all_p1-4_r2.pdf",
+      "evidence": "対象は室蘭市・登別市・伊達市に事業所を有する中小企業者等。募集期間2026年4月1日から5月22日。製品・技術事業化支援は上限200万円・補助率2/3以内。"
+    },
+    {
+      "slug": "takikawa-national-health-insurance-childbirth-lump-sum-2026",
+      "title": "滝川市 国民健康保険出産育児一時金",
+      "officialUrl": "https://www.city.takikawa.lg.jp/page/1986.html",
+      "evidence": "国民健康保険加入者の妊娠85日以上の出産等が対象。488,000円、産科医療補償制度加入医療機関は12,000円加算。"
+    }
+  ],
+  "continuedHold": [
+    {
+      "title": "歌志内市 子育て世帯等移住応援助成金",
+      "url": "https://www.city.utashinai.hokkaido.jp/hotnews/detail/00004152.html",
+      "reason": "公式個別ページで制度名・対象概要は確認したが、助成額・上限・申請期限が本文にない。申請様式リンクのみでは必須項目が揃わないため掲載しない。"
+    }
+  ],
+  "localEvidenceFiles": [
+    "/tmp/hokkaido-second-pass-002/utashinai-child-migration.html",
+    "/tmp/hokkaido-second-pass-002/date-monozukuri.pdf.txt"
+  ]
+}

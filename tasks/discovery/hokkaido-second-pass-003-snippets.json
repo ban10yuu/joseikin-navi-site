@@ -1,0 +1,101 @@
+{
+  "batch": "hokkaido-second-pass-003",
+  "verifiedAt": "2026-07-12T01:48:00+09:00",
+  "scope": [
+    "木古内町",
+    "七飯町",
+    "鹿部町"
+  ],
+  "adopted": [
+    {
+      "slug": "kikonai-primary-industry-challenge-subsidy-2026",
+      "municipality": "木古内町",
+      "title": "木古内町一次産業チャレンジ応援補助金",
+      "officialUrl": "https://www.town.kikonai.hokkaido.jp/kurashi/sangyo/nourinsuisan/kikonaityougyogyousyatyarenjiouenhojokin.html",
+      "sourceUrls": [
+        "https://www.town.kikonai.hokkaido.jp/kurashi/sangyo/nourinsuisan/kikonaityougyogyousyatyarenjiouenhojokin.html",
+        "https://www.town.kikonai.hokkaido.jp/files/00003100/00003196/20251217115009.pdf"
+      ],
+      "evidence": "令和7年度版案内PDFで、町内の漁協・農協組合員、林業事業体、認定グループ等を対象、2025年4月1日から2026年3月31日まで、随時受付、補助率2分の1以内、各活動支援事業は下限5万円・上限300万円を確認。"
+    },
+    {
+      "slug": "kikonai-hunting-license-acquisition-subsidy-2026",
+      "municipality": "木古内町",
+      "title": "木古内町狩猟免許等取得補助金",
+      "officialUrl": "https://www.town.kikonai.hokkaido.jp/kurashi/sangyo/nourinsuisan/syuryoumennkyosyutokuzyosei.html",
+      "sourceUrls": [
+        "https://www.town.kikonai.hokkaido.jp/kurashi/sangyo/nourinsuisan/syuryoumennkyosyutokuzyosei.html",
+        "https://www.town.kikonai.hokkaido.jp/files/00001200/00001254/20260303170257.pdf"
+      ],
+      "evidence": "公式概要PDFで、町内居住・新規狩猟免許取得・狩猟者登録・猟友会木古内部会5年以上所属等を対象、補助率全額、銃砲装備関連経費は24万円上限、各費用1回限りを確認。"
+    },
+    {
+      "slug": "kikonai-wandering-gps-support-2026",
+      "municipality": "木古内町",
+      "title": "木古内町見守りGPS機器利用支援事業",
+      "officialUrl": "https://www.town.kikonai.hokkaido.jp/kurashi/kenko/kaigo/mimamoriGPS.html",
+      "sourceUrls": [
+        "https://www.town.kikonai.hokkaido.jp/kurashi/kenko/kaigo/mimamoriGPS.html",
+        "https://www.town.kikonai.hokkaido.jp/files/00005500/00005525/20250408135453.pdf"
+      ],
+      "evidence": "実施要綱PDFで、65歳以上の認知症高齢者等、要介護認定、あんしんネットワーク登録を対象、GPS機器無償貸与、所有機器の通信費は月額1,000円上限、申請書提出を確認。"
+    },
+    {
+      "slug": "nanae-product-fair-exhibition-subsidy-2026",
+      "municipality": "七飯町",
+      "title": "七飯町物産展等出展支援補助金",
+      "officialUrl": "https://www.town.nanae.hokkaido.jp/hotnews/detail/00012813.html",
+      "sourceUrls": [
+        "https://www.town.nanae.hokkaido.jp/hotnews/detail/00012813.html",
+        "https://www.town.nanae.hokkaido.jp/hotnews/files/00012800/00012813/yoko.pdf"
+      ],
+      "evidence": "交付要綱PDFで、町内個人事業者・法人、町外展示商談会・物産催事、補助率2分の1以内、通常上限5万円・展示商談会上限10万円、同一年度2回限度、事業実施2週間前申請を確認。"
+    },
+    {
+      "slug": "nanae-scholarship-loan-2026",
+      "municipality": "七飯町",
+      "title": "令和8年度七飯町育英基金奨学生募集",
+      "officialUrl": "https://www.town.nanae.hokkaido.jp/hotnews/detail/00012494.html",
+      "sourceUrls": [
+        "https://www.town.nanae.hokkaido.jp/hotnews/detail/00012494.html",
+        "https://www.town.nanae.hokkaido.jp/hotnews/files/00012400/00012494/20260203083828.pdf"
+      ],
+      "evidence": "教育委員会公式ページと令和8年度パンフレットPDFで、町内1年以上在住者等、大学院・大学・短大・高専・高校・専修学校、受付2026年3月2日から3月16日、月額最大25,000円、年1回12か月分振込を確認。"
+    }
+  ],
+  "continuedHold": [
+    {
+      "municipality": "七飯町",
+      "title": "スポーツ振興補助金",
+      "reason": "公式個別ページは制度名と申請書案内のみで、利用条件・料金等は問い合わせ案内。例規ページはTLS接続不可で、金額・補助率・対象条件を公式本文で固定できないため保留。"
+    },
+    {
+      "municipality": "七飯町",
+      "title": "就学援助制度",
+      "reason": "個別ページと一部PDFは確認したが、掲載用の金額・上限を制度全体として固定できる公式本文確認が不足。"
+    },
+    {
+      "municipality": "鹿部町",
+      "title": "保留候補全般",
+      "reason": "マイホーム取得、奨学金、高校生支援、新生活支援、不妊・不育、子ども医療費など主要候補は既存データに掲載済み。新規候補は通常サービス又は個別給付条件不足のため追加なし。"
+    }
+  ],
+  "localFiles": [
+    "tasks/discovery/tmp-second-pass-003/kikonai-primary.html",
+    "tasks/discovery/tmp-second-pass-003/kikonai-primary-guide.pdf",
+    "tasks/discovery/tmp-second-pass-003/kikonai-primary-guide.txt",
+    "tasks/discovery/tmp-second-pass-003/kikonai-hunting.html",
+    "tasks/discovery/tmp-second-pass-003/kikonai-hunting-guide.pdf",
+    "tasks/discovery/tmp-second-pass-003/kikonai-hunting-guide.txt",
+    "tasks/discovery/tmp-second-pass-003/kikonai-gps.html",
+    "tasks/discovery/tmp-second-pass-003/kikonai-gps.pdf",
+    "tasks/discovery/tmp-second-pass-003/kikonai-gps.txt",
+    "tasks/discovery/tmp-second-pass-003/nanae-product.html",
+    "tasks/discovery/tmp-second-pass-003/nanae-product.pdf",
+    "tasks/discovery/tmp-second-pass-003/nanae-product.txt",
+    "tasks/discovery/tmp-second-pass-003/nanae-scholarship.html",
+    "tasks/discovery/tmp-second-pass-003/nanae-scholarship.pdf",
+    "tasks/discovery/tmp-second-pass-003/nanae-scholarship.txt"
+  ],
+  "next": "北海道第2巡の前方保留候補を継続。次は松前町・福島町・知内町・北斗市・森町など、初期バッチの未判定候補を公式個別ページ/PDF単位で確認する。"
+}
