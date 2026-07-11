@@ -2377,6 +2377,28 @@
     - `node scripts/check-grant-source-urls.mjs --slug nanae-scholarship-loan-2026 --timeout-ms 60000 --concurrency 2`: 2URL確認、失敗0
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-001-snippets.json tasks/discovery/hokkaido-second-pass-002-snippets.json tasks/discovery/hokkaido-second-pass-003-snippets.json`: pass
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 松前町・福島町・北斗市）:
+  - 状態: 第1・第2バッチの候補台帳を再スコアリングし、既存掲載URL、トップ、カテゴリ、ナビ一致、過年度実績のみのページを除外。松前町の奨学資金、福島町の医療費助成、北斗市のスポーツ合宿宿泊助成、南渡島通年雇用促進支援協議会の資格取得促進事業、北斗市空き家バンク利活用事業補助金を公式個別ページ/PDF単位で確認し、制度名・対象・金額/上限・条件・期限/受付状況が揃った7件を追加した。
+  - 追加・更新ファイル:
+    - `src/data/grants/verified-local-misc-2026.ts`
+    - `tasks/discovery/hokkaido-second-pass-004-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 採用:
+    - 松前町: 1件（奨学資金貸付制度）
+    - 福島町: 3件（子ども医療費助成、重度心身障がい者医療費助成、ひとり親家庭等医療費助成）
+    - 北斗市: 2件（スポーツ合宿宿泊助成、空き家バンク利活用事業補助金）
+    - 南渡島通年雇用促進支援協議会: 1件（北斗市・七飯町・森町・鹿部町対象の資格取得促進事業）
+  - 保留継続:
+    - 松前町 就学援助: 対象条件と収入目安は確認できたが、支給品目ごとの金額・上限が公式本文で確認できないため保留。
+    - 福島町 給付金のお知らせ: 公式ページは一覧見出しのみで、個別給付金の制度名・対象・金額・期限が確認できないため掲載しない。
+    - 北斗市 オンライン申請一覧・ふるさと納税活用実績: 制度名の手続一覧又は過年度活用実績であり、個別制度ページとして金額・対象・期限を固定できないため掲載しない。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+    - slug重複確認: 重複0（全7424件、追加7件すべて存在）
+    - 追加7件の `node scripts/check-grant-source-urls.mjs --slug ... --timeout-ms 60000 --concurrency 2`: 10URL確認、失敗0
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-004-snippets.json`: pass
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7422、officialLinkedActive 7384、manuallyVerifiedActive 7384、北海道 localOfficial 3027）
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
