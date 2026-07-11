@@ -2834,6 +2834,20 @@
     - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
     - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-034-snippets.json`: pass
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 大樹町・広尾町・幕別町・池田町）:
+  - 状態: 第2巡035として、第16バッチ末尾から第17バッチ前半までの4自治体の未掲載候補を再確認。大樹町・広尾町・幕別町・池田町はいずれも第1巡反映済み制度、無料サービス/住宅概要、古い年度や終了済み給付、カテゴリ導線、設備別表の分割不足、又は個別金額の本文固定不足に該当し、制度名・対象・金額/上限・条件・期限/受付状況が揃う新規掲載候補は確認できなかった。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-second-pass-035-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 保留継続:
+    - 大樹町: 成年後見制度利用支援事業は助成額・上限の本文固定不足。町有住宅貸付、福祉車両貸出、除雪、緊急通報装置は補助金・給付金としての支給額切り出し対象外。
+    - 広尾町: 子育て人材育成交付金は研修申込期間が古い。不妊治療・不育症治療、各種手当・助成はカテゴリ導線。令和6年度給付金は終了済み。
+    - 幕別町: ゼロカーボン推進総合補助金は設備別補助率・上限表の制度分割が必要。給水区域外水道料金及び井水助成金、インフルエンザ助成は現在日基準で終了済み。
+    - 池田町: 母子寡婦貸付金は個別金額を町ページ本文から確定不可。児童手当現況届は手当本体ページではない。移住促進助成制度のお知らせは一覧導線。
+  - 検証:
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-035-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
