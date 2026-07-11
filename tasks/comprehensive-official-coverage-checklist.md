@@ -2582,6 +2582,34 @@
     - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
     - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-016-snippets.json`: pass
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 東神楽町・当麻町・比布町・愛別町）:
+  - 状態: 第2巡017として、batch-004後続4自治体の未掲載候補を再確認。東神楽町・当麻町・比布町・愛別町はいずれも既存掲載済み制度、通常行政サービス、国制度、期限到来済み制度、又は金額/上限・受付状況不足に該当し、制度名・対象・金額/上限・条件・期限/受付状況が揃う新規掲載候補は確認できなかった。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-second-pass-017-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 保留継続:
+    - 東神楽町: 給食費助成、産前・産後ヘルパー、妊産婦健診助成は金額/上限又はPDF精査不足。児童手当・障がい者手当等は国制度又は通常給付として扱う。
+    - 当麻町: 給付金は期限到来済み又は国制度色が強く、機械等導入補助は受付終了。通常予防接種・国保・住宅等は個別補助要件不足。
+    - 比布町: 生活応援商品券、任意予防接種、就学援助、木造住宅耐震改修補助は金額・対象・期限の確認不足。過年度商品券等は掲載しない。
+    - 愛別町: 妊産婦安心出産支援、消防団免許取得補助、自転車用ヘルメット購入助成は個別公式本文・金額・受付状況不足。児童手当等は国制度として扱う。
+  - 検証:
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-017-snippets.json`: pass
+
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 上川町・東川町・美瑛町・上富良野町）:
+  - 状態: 第2巡018として、batch-004後続4自治体の未掲載候補を再確認。上川町・東川町・美瑛町・上富良野町はいずれも既存掲載済み制度、通常行政サービス、国制度、現物給付、又は金額/上限・受付状況不足に該当し、制度名・対象・金額/上限・条件・期限/受付状況が揃う新規掲載候補は確認できなかった。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-second-pass-018-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 保留継続:
+    - 上川町: 住宅リフォーム等補助金、みんなが輝くまち上川事業支援金、産後ケア、任意予防接種等は補助率・上限・対象・受付状況又は町独自性の追加確認が必要。
+    - 東川町: 妊産婦応援、ヘルパー、補聴器、交通費、生涯教育、奨学金返還等は公式PDF又は本文で金額・対象・受付状況の追加確認が必要。
+    - 美瑛町: 妊産婦健診、不妊治療、任意予防接種、農業振興系候補は助成額・対象・受付状況不足。現物給付、寄附、求人、通常行政サービスは掲載しない。
+    - 上富良野町: 妊婦RSウイルス予防接種は助成額又は自己負担額不足。児童手当等は国制度として扱い、寄附・住宅・移住相談等は個別制度要件が揃うものだけ掲載対象とする。
+  - 検証:
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-018-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
