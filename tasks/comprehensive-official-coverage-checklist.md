@@ -2722,6 +2722,20 @@
     - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
     - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-026-snippets.json`: pass
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 置戸町・佐呂間町・遠軽町・湧別町）:
+  - 状態: 第2巡027として、高速バッチ第2段から第9バッチ先頭までの4自治体の未掲載候補を再確認。置戸町・佐呂間町・遠軽町・湧別町はいずれも既存掲載済み制度、廃止/期限終了制度、通常行政・住宅・文化/サービス案内、又は金額/上限・対象条件・期限/受付状況不足に該当し、制度名・対象・金額/上限・条件・期限/受付状況が揃う新規掲載候補は確認できなかった。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-second-pass-027-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 保留継続:
+    - 置戸町: 民間賃貸住宅建設促進事業補助金はリンク404又は必須項目不足。奨学金返還支援助成金は金額・対象・条件不足。住宅情報、空き家バンク、政策、寄附、カテゴリ一覧は掲載しない。
+    - 佐呂間町: 太陽光補助は平成30年度末廃止。不妊治療費助成、妊婦健診等、任意予防接種、高齢者ワクチンは金額/上限不足。過年度給付、町外/国道制度案内、住宅・文化スポーツ等は掲載しない。
+    - 遠軽町: ペレットストーブ、帯状疱疹ワクチン、妊婦支援給付金、新生児聴覚検査、各種ドックは金額/上限又は本文詳細不足。入学援助費は受付終了。
+    - 湧別町: 第1巡で39件反映済み。芸術文化奨励、母子父子寡婦福祉資金貸付、成人健診細目等は金額/上限又は制度個別条件の本文抽出が弱いため保留。
+  - 検証:
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-027-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
