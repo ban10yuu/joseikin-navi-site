@@ -2266,3 +2266,22 @@
   - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/discovery/hokkaido-batch-021-municipalities.json tasks/discovery/hokkaido-batch-021-nakashibetsu-snippets.json`: pass
 - 次地点:
   - 中標津町22件の軽量検証・commit後、自治体コード順で `01693 標津町` へ進む。
+
+### 第21バッチ Verification 続行（標津町）
+
+- 状態: 標津町は第21バッチ候補116件を起点に、補助・助成一覧、住宅補助支援、手当・助成、妊娠・出産、まちづくり計画、チャレサポしべつの個別ページを確認。PDF依存の高齢者安全運転サポート、起業等支援、新・ふるさとづくり、出産祝金は公式PDFをローカル保存して本文化し、制度名・対象・金額/上限・条件・申請/受付状況が確認できた24件を追加した。
+- 追加・更新ファイル:
+  - `tasks/discovery/hokkaido-batch-021-shibetsu-snippets.json`
+- 採用:
+  - 標津町: 24件（住宅リフォーム、住宅取得、住宅耐震改修、高齢者安全運転サポート、重度心身障がい者医療費、精神障がい者医療費、生活資金貸付、RSウイルスワクチン、予防接種再接種、骨髄ドナー、乳幼児等医療費、児童手当、子ども医療費、出産祝金、妊婦健康診査費、あんしん出産交通宿泊費、先進不妊治療、児童扶養手当、ひとり親家庭等医療費、ひとり親世帯公共料金、物価高対応子育て応援手当、起業等支援、新・ふるさとづくり、チャレサポしべつ）
+- 保留・除外:
+  - 創業したい方のための支援情報: 登録免許税軽減等の情報提供が中心で、町独自の補助金額・交付条件を持つ個別現金給付ではないため掲載しない。
+  - 令和7年度物価高騰対応重点支援地方創生臨時交付金: 低所得世帯等の給付詳細は別個別ページ確認が必要なため第2巡保留。
+  - トップ、カテゴリ、補助・助成一覧ページ: 個別制度ページではないため最終sourceにしない。
+- 検証:
+  - 標津町 slug重複確認: 重複0（全7385件、`shibetsu-` prefix 26件。既存の士別市2件を含むため標津町追加分は24件）
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+  - `node scripts/check-grant-source-urls.mjs --prefix shibetsu- --timeout-ms 60000 --concurrency 4`: 30URL確認、失敗0（既存士別市2件と標津町24件、PDF sourceUrlsを含む）
+  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-021-shibetsu-snippets.json`: pass
+- 次地点:
+  - 標津町24件の軽量検証・commit後、自治体コード順で `01694 羅臼町` へ進む。

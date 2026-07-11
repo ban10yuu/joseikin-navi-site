@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-07-12T00:24:00+09:00",
+  "updatedAt": "2026-07-11T22:55:00+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "01692",
-    "municipality": "中標津町",
-    "adopted": 22,
-    "held": 4,
-    "excluded": 0,
-    "sourceUrlsChecked": 22,
+    "code": "01693",
+    "municipality": "標津町",
+    "adopted": 24,
+    "held": 2,
+    "excluded": 1,
+    "sourceUrlsChecked": 24,
     "validation": {
-      "previousMunicipality": "中標津町は第21バッチ候補123件に加え、生活・子育て福祉・住宅・商工業・農林畜産・移住・教育・税・topicsカテゴリを260ページ追加クロール。公式sitemap.xmlはエラーページのため使わず、保健福祉職修学資金、移住/地方就職支援、商工3件、子育て/医療/障がい者手当、住宅耐震等22件を個別公式ページ/PDFで確認して追加。貸付額詳細がWord依存の育英資金等は保留。",
+      "previousMunicipality": "標津町は第21バッチ候補116件を起点に、補助・助成一覧、住宅補助支援、手当・助成、妊娠・出産、まちづくり計画、チャレサポしべつを確認。PDF依存の高齢者安全運転サポート、起業等支援、新・ふるさとづくり、出産祝金は公式PDF本文で確認し、制度名・対象・金額/上限・条件・申請/受付状況を確認できた24件を追加。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "nakashibetsu 22 checked; first pass 1 transient fetch failed, single slug retry 200, all 0 remaining failures",
+      "urlReachability": "shibetsu prefix 30 checked including existing 士別市2件 and 標津町24件 plus PDFs; failures 0",
       "nodeCheck": "not needed: script unchanged",
-      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/discovery/hokkaido-batch-021-municipalities.json tasks/discovery/hokkaido-batch-021-nakashibetsu-snippets.json",
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-021-shibetsu-snippets.json",
       "auditCoverage": "deferred: next aggregate audit after 3-5 municipalities or 60-100 grants"
     }
   },
   "next": {
-    "code": "01693",
-    "municipality": "標津町",
-    "shortlist": "continue hokkaido-batch-021 from 01693 標津町",
-    "instructions": "中標津町22件の軽量検証・commit後、自治体コード順で標津町へ進む。"
+    "code": "01694",
+    "municipality": "羅臼町",
+    "shortlist": "continue hokkaido-batch-021 from 01694 羅臼町",
+    "instructions": "標津町24件の軽量検証・commit後、自治体コード順で羅臼町へ進む。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

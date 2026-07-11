@@ -1,0 +1,154 @@
+{
+  "batch": "hokkaido-batch-021",
+  "municipality": {
+    "code": "01693",
+    "name": "標津町",
+    "officialSite": "https://www.shibetsutown.jp/"
+  },
+  "verifiedAt": "2026-07-11T22:45:00+09:00",
+  "discovery": {
+    "candidateCount": 116,
+    "strongCandidateCount": 3,
+    "notes": [
+      "第21バッチDiscovery候補116件を起点に、補助・助成一覧、住宅補助支援、手当・助成、妊娠・出産、まちづくり計画、チャレサポしべつの個別ページを確認。",
+      "PDF依存の高齢者安全運転サポート、起業等支援、新・ふるさとづくり、出産祝金は公式PDFをpdftotextで本文化し、金額・対象・申請条件を確認。",
+      "創業支援情報ページは登録免許税軽減等の情報提供が中心で、町独自の現金補助ではないため採用しない。トップ、カテゴリ、一覧ページは最終sourceにしない。"
+    ]
+  },
+  "adopted": [
+    {
+      "slug": "shibetsu-housing-renovation-support-grant-2026",
+      "url": "https://www.shibetsutown.jp/life/?content=328",
+      "evidence": "町内業者施工の住宅リフォーム、工事費100万円以上、費用20％・上限50万円、現金40万円・商品券10万円。"
+    },
+    {
+      "slug": "shibetsu-housing-acquisition-support-grant-2026",
+      "url": "https://www.shibetsutown.jp/life/?content=333",
+      "evidence": "新築は建築工事費10％・上限200万円に移住者等加算で最大350万円、中古住宅は最大100万円。"
+    },
+    {
+      "slug": "shibetsu-housing-earthquake-retrofit-subsidy-2026",
+      "url": "https://www.shibetsutown.jp/life/?content=343",
+      "evidence": "昭和56年5月31日以前建築で倒壊危険ありの既存住宅、費用300万円超の場合は上限30万円。"
+    },
+    {
+      "slug": "shibetsu-elderly-driver-safety-device-subsidy-2026",
+      "url": "https://www.shibetsutown.jp/life/?content=349",
+      "evidence": "公式PDFで満65歳以上、後付け急発進防止装置、取付費用2分の1・上限2万円、取付前申請を確認。"
+    },
+    {
+      "slug": "shibetsu-severe-disability-medical-expense-subsidy-2026",
+      "url": "https://www.shibetsutown.jp/welfare/?content=535",
+      "evidence": "身体障害者手帳1・2級等、非課税世帯は初診時一部負担金のみ、課税世帯は1割、0歳から高校3年生無料。"
+    },
+    {
+      "slug": "shibetsu-psychiatric-disability-medical-expense-subsidy-2026",
+      "url": "https://www.shibetsutown.jp/welfare/?content=535",
+      "evidence": "精神病院等で治療を受けている精神障がい者の入院治療自己負担額3割を助成。"
+    },
+    {
+      "slug": "shibetsu-living-fund-loan-2026",
+      "url": "https://www.shibetsutown.jp/life/?content=537",
+      "evidence": "町内居住、町税完納、償還能力、貸付限度額50万円、年利1.6％、3年以内償還、保証人1名以上。"
+    },
+    {
+      "slug": "shibetsu-rs-vaccine-subsidy-2026",
+      "url": "https://www.shibetsutown.jp/welfare/?content=539",
+      "evidence": "60歳以上又は医師が必要と認めた50歳以上、2025年9月1日開始、1人14,000円助成。"
+    },
+    {
+      "slug": "shibetsu-revaccination-cost-subsidy-2026",
+      "url": "https://www.shibetsutown.jp/welfare/?content=538",
+      "evidence": "骨髄移植等後の再接種、実費又は町契約額の少ない額、最後の再接種日から1年以内申請。"
+    },
+    {
+      "slug": "shibetsu-bone-marrow-donor-subsidy-2026",
+      "url": "https://www.shibetsutown.jp/welfare/?content=540",
+      "evidence": "骨髄等提供ドナー、通院・入院・面談1日1万円、最大10日10万円、提供完了等の翌日から1年以内申請。"
+    },
+    {
+      "slug": "shibetsu-infant-medical-expense-subsidy-2026",
+      "url": "https://www.shibetsutown.jp/welfare/?content=663",
+      "evidence": "0歳から小学6年生、3歳未満・非課税世帯は初診時一部負担金のみ、課税世帯1割、小学生以上は入院・訪問看護対象。"
+    },
+    {
+      "slug": "shibetsu-child-allowance-2026",
+      "url": "https://www.shibetsutown.jp/welfare/?content=653",
+      "evidence": "0歳から18歳到達後最初の3月31日まで、3歳未満15,000円、第3子以降30,000円、偶数月支給。"
+    },
+    {
+      "slug": "shibetsu-child-medical-expense-subsidy-2026",
+      "url": "https://www.shibetsutown.jp/welfare/?content=650",
+      "evidence": "標津町に住所を有する18歳までの子ども、医療費一部負担金全額を助成、償還払いは診療月末日から2年以内。"
+    },
+    {
+      "slug": "shibetsu-birth-celebration-grant-2026",
+      "url": "https://www.shibetsutown.jp/welfare/?content=671",
+      "evidence": "公式PDFで出生後最初の住民登録・継続居住要件、第1子10万円、第2子15万円、第3子以降50万円を確認。"
+    },
+    {
+      "slug": "shibetsu-pregnancy-health-check-ticket-subsidy-2026",
+      "url": "https://www.shibetsutown.jp/education/?content=656",
+      "evidence": "妊婦一般健康診査14回、超音波検査11回、新生児聴覚検査、産婦健診2回分の受診票を交付。"
+    },
+    {
+      "slug": "shibetsu-safe-childbirth-transport-lodging-subsidy-2026",
+      "url": "https://www.shibetsutown.jp/education/?content=654",
+      "evidence": "妊婦健診14回・産後健診1回・出産1回の交通費、通常400円/回・ハイリスク2,600円/回、宿泊費2/3・上限3,000円・最大5泊。"
+    },
+    {
+      "slug": "shibetsu-advanced-infertility-treatment-subsidy-2026",
+      "url": "https://www.shibetsutown.jp/education/?content=648",
+      "evidence": "保険適用の生殖補助医療と併用した先進医療、自己負担額7割・上限3.5万円、交通費は距離に応じ5回まで。"
+    },
+    {
+      "slug": "shibetsu-child-rearing-allowance-single-parent-2026",
+      "url": "https://www.shibetsutown.jp/education/?content=619",
+      "evidence": "ひとり親等、児童1人45,500円から10,740円、児童2人目以降10,750円から5,380円加算、所得制限あり。"
+    },
+    {
+      "slug": "shibetsu-single-parent-medical-expense-subsidy-2026",
+      "url": "https://www.shibetsutown.jp/education/?content=618",
+      "evidence": "ひとり親家庭等、0歳から高校3年生無料、親等は非課税世帯初診時一部負担金のみ・課税世帯1割。"
+    },
+    {
+      "slug": "shibetsu-single-parent-utilities-subsidy-2026",
+      "url": "https://www.shibetsutown.jp/education/?content=616",
+      "evidence": "母子家庭の母・寡婦、し尿処理年間500L又は下水道基本料金50％、水道基本料金60％を助成。"
+    },
+    {
+      "slug": "shibetsu-child-rearing-inflation-benefit-2026",
+      "url": "https://www.shibetsutown.jp/education/?content=740",
+      "evidence": "0歳から18歳到達後最初の3月31日までの児童、1人2万円、申請期間2026年2月2日から3月31日、3月出生分は4月30日まで。"
+    },
+    {
+      "slug": "shibetsu-entrepreneur-support-subsidy-2026",
+      "url": "https://www.shibetsutown.jp/administration/?content=463",
+      "evidence": "公式PDFで対象経費2分の1、基本額150万円、雇用加算150万円、空き店舗・移住者・建設加算各50万円、最大450万円を確認。"
+    },
+    {
+      "slug": "shibetsu-furusato-community-project-subsidy-2026",
+      "url": "https://www.shibetsutown.jp/administration/?content=522",
+      "evidence": "公式PDFで協働のまちづくり100％以内・上限50万円、人材育成50％以内、景観づくり初年度30万円等を確認。"
+    },
+    {
+      "slug": "shibetsu-crowdfunding-support-subsidy-2026",
+      "url": "https://www.shibetsutown.jp/administration/?content=513",
+      "evidence": "寄附額50％又は80％、目標寄附額100万円から1,000万円、補助上限は寄附額に応じ最大50万円から500万円。"
+    }
+  ],
+  "held": [
+    {
+      "url": "https://www.shibetsutown.jp/business/?content=366",
+      "reason": "創業相談・登録免許税軽減等の支援情報で、町独自の補助金額・交付条件を持つ個別現金給付ではないため掲載しない。"
+    },
+    {
+      "url": "https://www.shibetsutown.jp/life/?content=741",
+      "reason": "物価高騰対応重点支援地方創生臨時交付金の制度詳細は別確認が必要。今回の標津町採用群からは保留。"
+    }
+  ],
+  "next": {
+    "code": "01694",
+    "municipality": "羅臼町"
+  }
+}
