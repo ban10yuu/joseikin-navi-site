@@ -2862,6 +2862,20 @@
     - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
     - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-036-snippets.json`: pass
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 浦幌町・釧路町・厚岸町・浜中町）:
+  - 状態: 第2巡037として、第18バッチ末尾から第19バッチまでの4自治体の未掲載候補を再確認。浦幌町・釧路町・厚岸町・浜中町はいずれも第1巡反映済み制度、PDF本文抽出未完了、単年度/終了済み制度、全国制度との重複、無料サービス/現物給付の掲載方針、又は金額/上限・自己負担・対象条件の本文固定不足に該当し、制度名・対象・金額/上限・条件・期限/受付状況が揃う新規掲載候補は確認できなかった。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-second-pass-037-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 保留継続:
+    - 浦幌町: こども医療、がん検診、妊産婦健診等は本文/PDF確認不足。児童手当は全国制度重複整理、UIJターン移住支援は受付停止、防災・移住案内は掲載しない。
+    - 釧路町: スポーツ振興助成金、福祉灯油、障害者通所/旅費、デコ活推進補助金は金額条件又はPDF本文確認不足。全国制度系手当は町独自制度として掲載しない。
+    - 厚岸町: ハッピーブライダルは令和6年度終了。医療費助成は個別公式本文不足。無料耐震診断は方針確認、特別高圧電力緊急支援は終了済み。
+    - 浜中町: 安心住まいる、人づくり基金、商工機器等購入資金貸付、ファミリー・サポート利用料助成、日常生活用具等はPDF要綱依存、問い合わせ扱い、又は掲載方針整理が必要。
+  - 検証:
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-037-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:

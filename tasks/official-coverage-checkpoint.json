@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T07:05:06+09:00",
+  "updatedAt": "2026-07-12T07:08:06+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "hokkaido-second-pass-036",
+    "code": "hokkaido-second-pass-037",
     "municipality": "北海道第2巡保留候補整理",
     "adopted": 0,
     "held": 12,
     "excluded": 0,
     "sourceUrlsChecked": 12,
     "validation": {
-      "previousMunicipality": "豊頃町・本別町・足寄町・陸別町の第2巡候補を確認。第1巡反映済み制度、一覧/カテゴリ、404、制度個別PDFではない資料、PDF/要綱側の金額表、終了済み制度、又は助成額・上限・自己負担の本文固定不足が中心で、新規採用は0件。",
+      "previousMunicipality": "浦幌町・釧路町・厚岸町・浜中町の第2巡候補を確認。第1巡反映済み制度、PDF本文抽出未完了、単年度/終了済み制度、全国制度との重複、無料サービス/現物給付の掲載方針、又は金額/上限・自己負担・対象条件の本文固定不足が中心で、新規採用は0件。",
       "eslint": "skipped: no data changes",
       "duplicateSlugs": 0,
       "urlReachability": "skipped: no added slugs",
-      "diffCheck": "pass: git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-036-snippets.json",
+      "diffCheck": "pass: git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-037-snippets.json",
       "auditCoverage": "skipped: no data changes; aggregate at next data batch"
     }
   },
   "next": {
-    "code": "hokkaido-second-pass-037",
+    "code": "hokkaido-second-pass-038",
     "municipality": "北海道第2巡保留候補",
-    "shortlist": "第2巡036までで、豊頃町・本別町・足寄町・陸別町の保留候補を整理し、新規採用0件。",
-    "instructions": "次は北海道第2巡037として、浦幌町・釧路町・厚岸町・浜中町を自治体コード順に継続確認する。公式個別ページ/PDFで制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ追加する。"
+    "shortlist": "第2巡037までで、浦幌町・釧路町・厚岸町・浜中町の保留候補を整理し、新規採用0件。",
+    "instructions": "次は北海道第2巡038として、標茶町・弟子屈町・鶴居村・白糠町を自治体コード順に継続確認する。公式個別ページ/PDFで制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ追加する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
