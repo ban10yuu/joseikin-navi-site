@@ -1,0 +1,26 @@
+{
+  "batchId": "aomori-comprehensive-official-coverage-007",
+  "prefecture": "青森県",
+  "municipalities": [
+    {
+      "code": "02367",
+      "name": "田舎館村",
+      "officialBaseUrl": "https://www.vill.inakadate.lg.jp/"
+    },
+    {
+      "code": "02381",
+      "name": "板柳町",
+      "officialBaseUrl": "https://www.town.itayanagi.aomori.jp/"
+    },
+    {
+      "code": "02384",
+      "name": "鶴田町",
+      "officialBaseUrl": "https://www.town.tsuruta.lg.jp/"
+    },
+    {
+      "code": "02387",
+      "name": "中泊町",
+      "officialBaseUrl": "https://www.town.nakadomari.lg.jp/"
+    }
+  ]
+}

@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T08:08:48+09:00",
+  "updatedAt": "2026-07-12T08:58:36+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "aomori-comprehensive-official-coverage-006",
-    "municipality": "深浦町・西目屋村・藤崎町・大鰐町",
-    "adopted": 18,
-    "held": 6,
+    "code": "aomori-comprehensive-official-coverage-007",
+    "municipality": "田舎館村・板柳町・鶴田町・中泊町",
+    "adopted": 26,
+    "held": 4,
     "excluded": 0,
-    "sourceUrlsChecked": 18,
+    "sourceUrlsChecked": 26,
     "validation": {
-      "previousMunicipality": "青森県公式棚卸し006として、深浦町10件、西目屋村1件、藤崎町3件、大鰐町4件の計18件を公式本文で必須項目確認後にデータ反映。候補924件と大鰐町HTTP再試行165件のためスニペット23件を再スコアリング。",
+      "previousMunicipality": "青森県公式棚卸し007として、田舎館村9件、板柳町6件、鶴田町5件、中泊町6件の計26件を公式本文で必須項目確認後にデータ反映。候補542件、田舎館村HTTP再試行360件、中泊町sitemap抽出123件のためスニペット151件を再スコアリング。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --slug <18 slugs> checked 18 failures 0",
-      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-official-coverage-006-municipalities.json tasks/discovery/aomori-official-coverage-006-candidates.json tasks/discovery/aomori-official-coverage-006-owani-retry-input.json tasks/discovery/aomori-official-coverage-006-owani-retry-candidates.json tasks/discovery/aomori-official-coverage-006-snippets.json tasks/discovery/aomori-official-coverage-006.json",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7518, officialLinkedActive 7480, manuallyVerifiedActive 7480, Aomori localOfficial 128"
+      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --slug <26 slugs> checked 26 failures 0",
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-official-coverage-007-municipalities.json tasks/discovery/aomori-official-coverage-007-candidates.json tasks/discovery/aomori-official-coverage-007-inakadate-retry-input.json tasks/discovery/aomori-official-coverage-007-inakadate-retry-candidates.json tasks/discovery/aomori-official-coverage-007-snippets.json tasks/discovery/aomori-official-coverage-007.json tasks/discovery/aomori-official-coverage-007-nakadomari-sitemap-candidates.txt",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7543, officialLinkedActive 7505, manuallyVerifiedActive 7505, Aomori localOfficial 153"
     }
   },
   "next": {
-    "code": "aomori-comprehensive-official-coverage-007",
+    "code": "aomori-comprehensive-official-coverage-008",
     "municipality": "青森県",
-    "shortlist": "深浦町・西目屋村・藤崎町・大鰐町から18件をデータ反映。保留は深浦町福祉施設等物価高騰対策支援金のPDF金額表、西目屋村定住促進住宅、藤崎町の一覧ページ系候補、大鰐町HTTPS候補等。",
-    "instructions": "次は青森県007として、02367田舎館村、02381板柳町、02384鶴田町、02387中泊町を自治体コード順に確認する。既存rawの有無に依存せず、公式サイト単位で補助金・助成金・給付金・一時金等の制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約を確認する。"
+    "shortlist": "田舎館村・板柳町・鶴田町・中泊町から26件をデータ反映。田舎館村HTTPS不通は公式HTTPで到達確認し、中泊町は公式sitemap抽出で補完した。保留は田舎館村スポーツ大会・がん患者補整具、鶴田町子ども医療・国際交流、中泊町妊産婦アクセス支援・出産子育て給付金PDF確認等。",
+    "instructions": "次は青森県008として、02401野辺地町、02402七戸町、02405六戸町、02406横浜町を自治体コード順に確認する。既存rawの有無に依存せず、公式サイト単位で補助金・助成金・給付金・一時金等の制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約を確認する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

@@ -1,0 +1,112 @@
+{
+  "batchId": "aomori-comprehensive-official-coverage-007",
+  "prefecture": "青森県",
+  "municipalities": [
+    {
+      "code": "02367",
+      "name": "田舎館村",
+      "officialBaseUrl": "https://www.vill.inakadate.lg.jp/",
+      "notes": "HTTPS接続がresetされたため公式HTTPベースURLで再試行し、個別制度ページはHTTPで到達確認した。"
+    },
+    {
+      "code": "02381",
+      "name": "板柳町",
+      "officialBaseUrl": "https://www.town.itayanagi.aomori.jp/"
+    },
+    {
+      "code": "02384",
+      "name": "鶴田町",
+      "officialBaseUrl": "https://www.town.tsuruta.lg.jp/"
+    },
+    {
+      "code": "02387",
+      "name": "中泊町",
+      "officialBaseUrl": "https://www.town.nakadomari.lg.jp/",
+      "notes": "初回crawl候補が薄かったため公式sitemap.xmlから制度語を含む候補URLを抽出して補完した。"
+    }
+  ],
+  "candidateSources": {
+    "mainDiscovery": {
+      "path": "tasks/discovery/aomori-official-coverage-007-candidates.json",
+      "candidateCount": 542
+    },
+    "inakadateHttpRetry": {
+      "path": "tasks/discovery/aomori-official-coverage-007-inakadate-retry-candidates.json",
+      "candidateCount": 360
+    },
+    "nakadomariSitemap": {
+      "path": "tasks/discovery/aomori-official-coverage-007-nakadomari-sitemap-candidates.txt",
+      "candidateCount": 123
+    },
+    "rescoredSnippets": {
+      "path": "tasks/discovery/aomori-official-coverage-007-snippets.json",
+      "fetched": 334,
+      "rows": 151
+    }
+  },
+  "adopted": {
+    "count": 26,
+    "byMunicipality": {
+      "田舎館村": [
+        "移住支援金",
+        "医療・福祉職子育て世帯移住支援金",
+        "物価高騰対策くらし応援事業",
+        "移住定住促進事業費補助金",
+        "空き家・空き地利活用事業費補助金（取得・建築）",
+        "空き家・空き地利活用事業費補助金（解体）",
+        "空き家・空き地利活用事業費補助金（家財処分）",
+        "高齢者補聴器購入費助成金",
+        "妊婦のための支援給付金"
+      ],
+      "板柳町": [
+        "結婚新生活支援事業",
+        "子育て世帯定住サポート事業",
+        "チャイルドシート購入費助成",
+        "修学旅行費補助",
+        "中学生自転車用ヘルメット購入費補助",
+        "子育て住宅取得補助金"
+      ],
+      "鶴田町": [
+        "結婚新生活支援事業",
+        "ひとり親家庭等医療費助成",
+        "保育等利用者負担額・副食費支援給付金",
+        "木造住宅耐震診断支援事業",
+        "特別保証制度・連携融資制度保証料補助"
+      ],
+      "中泊町": [
+        "移住支援金",
+        "乳幼児・子ども医療費助成制度",
+        "ひとり親家庭等医療費助成",
+        "重度身体障害者在宅改修費助成",
+        "重度心身障害者医療費助成",
+        "子どもインフルエンザ予防接種費用助成"
+      ]
+    }
+  },
+  "held": [
+    {
+      "municipality": "田舎館村",
+      "reason": "小・中学生スポーツ大会等参加補助金、がん患者医療用補整具購入費助成は制度候補として残すが、今回の採用枠では金額・対象の再確認を優先保留にした。運送業原油価格高騰対策支援金は過年度候補のため第2巡で受付状況を再確認する。"
+    },
+    {
+      "municipality": "板柳町",
+      "reason": "児童手当・児童扶養手当・特別児童扶養手当は全国制度案内、奨学金は貸付、県不妊治療費助成は県制度案内のため低優先にした。"
+    },
+    {
+      "municipality": "鶴田町",
+      "reason": "乳幼児・子ども医療費給付事業、妊婦支援給付金、国際交流助成金等は候補として残し、個別ページ本文で必須項目を再確認してから採用する。国保給付や児童手当等の全国制度案内は低優先にした。"
+    },
+    {
+      "municipality": "中泊町",
+      "reason": "妊産婦アクセス支援事業、出産・子育て応援給付金はPDF側の金額・要件確認が必要なため保留。企業・創業相談室やカテゴリページは直接給付制度ではないため第2巡台帳に残す。"
+    }
+  ],
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "duplicateSlugs": 0,
+    "sourceUrlReachability": "pass: checked 26, failures 0",
+    "auditCoverage": "pass: failures 0, activePublished 7543, officialLinkedActive 7505, manuallyVerifiedActive 7505, Aomori localOfficial 153",
+    "jsonParse": "pass",
+    "diffCheck": "pass"
+  }
+}

@@ -3053,6 +3053,37 @@
   - 次:
     - 02367田舎館村、02381板柳町、02384鶴田町、02387中泊町を自治体コード順で確認する。
 
+- 2026-07-12 青森県公式棚卸し007（田舎館村・板柳町・鶴田町・中泊町データ反映）:
+  - 状態: 4自治体を公式サイト単位で確認。初回候補542件に加え、田舎館村はHTTPS接続リセットのため公式HTTPベースURLで360件を再試行し、中泊町は初回crawl候補が薄かったため公式sitemapから制度語を含む123件を抽出した。短い本文スニペット151件へ再スコアリングし、公式本文で制度名・対象・金額/上限・条件・期限/受付状況を確認できた26件を `src/data/grants/verified-local-misc-2026.ts` に追加した。
+  - 追加・更新ファイル:
+    - `src/data/grants/verified-local-misc-2026.ts`
+    - `tasks/discovery/aomori-official-coverage-007-municipalities.json`
+    - `tasks/discovery/aomori-official-coverage-007-candidates.json`
+    - `tasks/discovery/aomori-official-coverage-007-inakadate-retry-input.json`
+    - `tasks/discovery/aomori-official-coverage-007-inakadate-retry-candidates.json`
+    - `tasks/discovery/aomori-official-coverage-007-nakadomari-sitemap-candidates.txt`
+    - `tasks/discovery/aomori-official-coverage-007-snippets.json`
+    - `tasks/discovery/aomori-official-coverage-007.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 採用:
+    - 田舎館村: 移住支援金、医療・福祉職子育て世帯移住支援金、物価高騰対策くらし応援事業、移住定住促進事業費補助金、空き家・空き地利活用事業費補助金（取得・建築）、空き家・空き地利活用事業費補助金（解体）、空き家・空き地利活用事業費補助金（家財処分）、高齢者補聴器購入費助成金、妊婦のための支援給付金。
+    - 板柳町: 結婚新生活支援事業、子育て世帯定住サポート事業、チャイルドシート購入費助成、修学旅行費補助、中学生自転車用ヘルメット購入費補助、子育て住宅取得補助金。
+    - 鶴田町: 結婚新生活支援事業、ひとり親家庭等医療費助成、保育等利用者負担額・副食費支援給付金、木造住宅耐震診断支援事業、特別保証制度・連携融資制度保証料補助。
+    - 中泊町: 移住支援金、乳幼児・子ども医療費助成制度、ひとり親家庭等医療費助成、重度身体障害者在宅改修費助成、重度心身障害者医療費助成、子どもインフルエンザ予防接種費用助成。
+  - 保留継続:
+    - 田舎館村小・中学生スポーツ大会等参加補助金、がん患者医療用補整具購入費助成は金額・対象の再確認を第2巡で行う。運送業原油価格高騰対策支援金は過年度候補のため受付状況を再確認する。
+    - 板柳町児童手当・児童扶養手当・特別児童扶養手当は全国制度案内、奨学金は貸付、県不妊治療費助成は県制度案内のため低優先とした。
+    - 鶴田町乳幼児・子ども医療費給付事業、妊婦支援給付金、国際交流助成金等は候補として残し、個別ページ本文で必須項目を再確認してから採用する。国保給付や児童手当等の全国制度案内は低優先とした。
+    - 中泊町妊産婦アクセス支援事業、出産・子育て応援給付金はPDF側の金額・要件確認が必要なため保留。企業・創業相談室やカテゴリページは直接給付制度ではないため第2巡台帳に残す。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: 今回追加slugの重複0。
+    - `node scripts/check-grant-source-urls.mjs --slug <26 slugs> --timeout-ms 60000 --concurrency 4`: checked 26、failures 0。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7543、officialLinkedActive 7505、manuallyVerifiedActive 7505、青森県 localOfficial 153）
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-official-coverage-007-municipalities.json tasks/discovery/aomori-official-coverage-007-candidates.json tasks/discovery/aomori-official-coverage-007-inakadate-retry-input.json tasks/discovery/aomori-official-coverage-007-inakadate-retry-candidates.json tasks/discovery/aomori-official-coverage-007-snippets.json tasks/discovery/aomori-official-coverage-007.json tasks/discovery/aomori-official-coverage-007-nakadomari-sitemap-candidates.txt`: pass。
+  - 次:
+    - 02401野辺地町、02402七戸町、02405六戸町、02406横浜町を自治体コード順で確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
