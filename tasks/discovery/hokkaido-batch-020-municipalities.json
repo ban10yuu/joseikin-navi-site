@@ -1,0 +1,31 @@
+{
+  "batchId": "hokkaido-batch-020",
+  "prefecture": "北海道",
+  "municipalities": [
+    {
+      "code": "01664",
+      "name": "標茶町",
+      "officialBaseUrl": "https://hokkaido.shibecha.jp/"
+    },
+    {
+      "code": "01665",
+      "name": "弟子屈町",
+      "officialBaseUrl": "https://www.town.teshikaga.hokkaido.jp/"
+    },
+    {
+      "code": "01667",
+      "name": "鶴居村",
+      "officialBaseUrl": "https://www.vill.tsurui.lg.jp/"
+    },
+    {
+      "code": "01668",
+      "name": "白糠町",
+      "officialBaseUrl": "https://www.town.shiranuka.lg.jp/"
+    },
+    {
+      "code": "01691",
+      "name": "別海町",
+      "officialBaseUrl": "https://betsukai.jp/"
+    }
+  ]
+}

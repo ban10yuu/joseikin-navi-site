@@ -2151,3 +2151,30 @@
   - `npm run audit:coverage`: pass（failures 0、activePublished 7286、officialLinkedActive 7248、manuallyVerifiedActive 7248、北海道 localOfficial 2891）
 - 次地点:
   - 第19バッチ（釧路町・厚岸町・浜中町）の軽量検証・commit後、自治体コード順で `01664 標茶町` へ進む。
+
+### 第20バッチ Discovery（標茶町・弟子屈町・鶴居村・白糠町・別海町）
+
+- 状態: 第20バッチDiscovery/URL検証を実行。標茶町は公式入口が `https://hokkaido.shibecha.jp/` へ遷移することを確認したが、候補PDF 5件が画像PDFで本文抽出できず、制度名・対象・金額・期限を機械確認できないため第2巡保留。弟子屈町は再帰sitemapから個別制度ページを確認し、20件を公式個別ページからデータ反映した。鶴居村以降は次続行。
+- 追加・更新ファイル:
+  - `tasks/discovery/hokkaido-batch-020-municipalities.json`
+  - `tasks/discovery/hokkaido-batch-020-candidates.json`
+  - `tasks/discovery/hokkaido-batch-020-url-validation.json`
+  - `tasks/discovery/hokkaido-batch-020-shibecha-teshikaga-snippets.json`
+- Discovery/Validation:
+  - `node scripts/discover-official-candidates.mjs --input tasks/discovery/hokkaido-batch-020-municipalities.json --output tasks/discovery/hokkaido-batch-020-candidates.json --concurrency 5 --initial-limit-per-municipality 100 --deep-limit-per-municipality 300 --limit-per-municipality 300 --timeout-ms 20000`: 5自治体、277候補
+  - `node scripts/validate-official-candidate-urls.mjs --input tasks/discovery/hokkaido-batch-020-candidates.json --output tasks/discovery/hokkaido-batch-020-url-validation.json --concurrency 8 --max-cache-age-hours 24 --timeout-ms 20000`: 277件確認、cacheHits 277、refetched 0、reachable 277、failures 0
+  - 弟子屈町は公式sitemap index配下の3,135URLを追加走査し、本文制度語ヒット1,168件から個別制度ページを抽出。取得本文は `/tmp/teshikaga-selected-pages.json` に保存。
+- 採用:
+  - 標茶町: 0件（候補PDFは画像PDFのため第2巡保留）
+  - 弟子屈町: 20件（保険適用不妊治療、先進不妊治療、子育て応援医療費fureca、出産・子育て応援給付金、重度心身障害者医療、ひとり親家庭等医療、赤ちゃんすくすく応援券、妊産婦安心出産支援、就学援助、奨学金返還支援、宿泊施設等設備改修、家賃補助、設備投資、サテライトオフィス、宿泊業再生、民間賃貸住宅等建設、補聴器購入等、特定疾患等通院交通、風しん抗体検査、ふるさとワーキングホリデー参加支援）
+- 保留・除外:
+  - 標茶町PDF 5件: `pdftotext` は0文字。`tesseract 5.5.2` はこの環境でPNG読込に失敗。OCR又は目視で制度名・対象・金額・期限確認が必要なため第2巡保留。
+  - 標茶町トップページ: 制度個別URLではないため掲載しない。
+- 検証:
+  - 弟子屈町 slug重複確認: 重複0（全7302件、弟子屈町20件）
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+  - `node scripts/check-grant-source-urls.mjs --prefix teshikaga- --timeout-ms 60000 --concurrency 4`: 20件確認、失敗0
+  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-020-municipalities.json tasks/discovery/hokkaido-batch-020-candidates.json tasks/discovery/hokkaido-batch-020-url-validation.json tasks/discovery/hokkaido-batch-020-shibecha-teshikaga-snippets.json`: pass
+  - `npm run audit:coverage`: pass（failures 0、activePublished 7306、officialLinkedActive 7268、manuallyVerifiedActive 7268、北海道 localOfficial 2911）
+- 次地点:
+  - 第20バッチの軽量検証・commit後、自治体コード順で `01667 鶴居村` へ進む。

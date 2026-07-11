@@ -1,0 +1,132 @@
+{
+  "batchId": "hokkaido-batch-020",
+  "verifiedAt": "2026-07-11T23:45:00+09:00",
+  "municipalities": [
+    {
+      "code": "01664",
+      "name": "標茶町",
+      "officialBaseUrl": "https://hokkaido.shibecha.jp/",
+      "adoptedCount": 0,
+      "heldCount": 5,
+      "excludedCount": 1,
+      "notes": [
+        "公式入口 https://town.shibecha.hokkaido.jp/ は https://hokkaido.shibecha.jp/ へ遷移することを確認。",
+        "自動DiscoveryはPDF 5件を候補化したが、全PDFが画像PDFで pdftotext は0文字。tesseract 5.5.2 はこの環境でPNG読込に失敗したため、制度名・対象・金額・期限を機械確認できず第2巡保留。",
+        "トップページだけは制度個別URLではないため掲載しない。"
+      ],
+      "held": [
+        {
+          "url": "https://hokkaido.shibecha.jp/_files/ugd/eef088_c55e16169e6841ee89e68e1f2cfe948e.pdf",
+          "reason": "画像PDF。OCR又は目視で制度名・対象・金額・期限確認が必要。"
+        },
+        {
+          "url": "https://hokkaido.shibecha.jp/_files/ugd/eef088_8b4ca56c2cdd4e7cb7735d3c862848c1.pdf",
+          "reason": "画像PDF。OCR又は目視で制度名・対象・金額・期限確認が必要。"
+        },
+        {
+          "url": "https://hokkaido.shibecha.jp/_files/ugd/eef088_025988d9757a4d3cb40451dddb232eff.pdf",
+          "reason": "画像PDF。OCR又は目視で制度名・対象・金額・期限確認が必要。"
+        },
+        {
+          "url": "https://hokkaido.shibecha.jp/_files/ugd/eef088_5fce5055594c483796b202013b6a3e21.pdf",
+          "reason": "画像PDF。OCR又は目視で制度名・対象・金額・期限確認が必要。"
+        },
+        {
+          "url": "https://hokkaido.shibecha.jp/_files/ugd/eef088_a730c78abcb3423e8204bc529b4a7836.pdf",
+          "reason": "画像PDF。OCR又は目視で制度名・対象・金額・期限確認が必要。"
+        }
+      ]
+    },
+    {
+      "code": "01665",
+      "name": "弟子屈町",
+      "officialBaseUrl": "https://www.town.teshikaga.hokkaido.jp/",
+      "adoptedCount": 20,
+      "heldCount": 0,
+      "excludedCount": 0,
+      "sourceTextCache": "/tmp/teshikaga-selected-pages.json",
+      "adopted": [
+        {
+          "slug": "teshikaga-insured-infertility-treatment-subsidy-2026",
+          "evidence": "対象: 町内1年以上・税滞納なし等。金額: 1回上限15万円。期限: 通院日から1年以内。"
+        },
+        {
+          "slug": "teshikaga-advanced-infertility-treatment-subsidy-2026",
+          "evidence": "対象: 先進医療を受ける43歳未満等の夫婦。金額: 治療費10分の7・上限3万5千円、交通費3分の2。期限: 治療終了年度内。"
+        },
+        {
+          "slug": "teshikaga-child-medical-fureca-support-2026",
+          "evidence": "対象: 高校生世代以下の子どもの世帯。金額: 医療費自己負担分を1円1ポイントで商品券交換。期限: 領収書2年有効。"
+        },
+        {
+          "slug": "teshikaga-birth-childcare-support-benefit-2026",
+          "evidence": "対象: 町内住民票の妊婦・産婦。金額: 妊婦5万円、児童1人5万円。申請書類を確認。"
+        },
+        {
+          "slug": "teshikaga-severe-disability-medical-expense-subsidy-2026",
+          "evidence": "対象: 重度障がい者等。金額: 18歳年度末まで自己負担なし、課税世帯1割負担等。"
+        },
+        {
+          "slug": "teshikaga-single-parent-medical-expense-subsidy-2026",
+          "evidence": "対象: ひとり親家庭等。金額: 子は18歳年度末まで自己負担なし、親は入院等対象。"
+        },
+        {
+          "slug": "teshikaga-baby-sukusuku-voucher-2026",
+          "evidence": "対象: 1歳未満乳児を監護する同一世帯。金額: 乳児1人15万円分。期限: 1歳の月末まで。"
+        },
+        {
+          "slug": "teshikaga-maternity-transport-subsidy-2026",
+          "evidence": "対象: 町外産科医療機関へ通院する妊産婦。金額: 距離別基準額の3分の2以内。対象回数: 妊婦健診14回等。"
+        },
+        {
+          "slug": "teshikaga-school-expense-assistance-2026",
+          "evidence": "対象: 経済的理由で就学困難な保護者。期限: 新入学2026-04-15、在校生2026-03-06。"
+        },
+        {
+          "slug": "teshikaga-scholarship-repayment-support-2026",
+          "evidence": "対象: 町内1年以上居住・就業等。金額: 町外奨学金は返還額2分の1、年30万円上限、最大5年。"
+        },
+        {
+          "slug": "teshikaga-accommodation-equipment-renovation-subsidy-2026",
+          "evidence": "対象: 宿泊施設等運営事業者。金額: 原則2分の1、上限100万円又は1,000万円等。期限: 2026-05-01から2026-05-29。"
+        },
+        {
+          "slug": "teshikaga-business-rent-subsidy-2026",
+          "evidence": "対象: 空き施設を賃貸し新規事業所を開設する者。金額: 1年目3分の2・月5万円、2年目3分の1・月2.5万円。"
+        },
+        {
+          "slug": "teshikaga-capital-investment-subsidy-2026",
+          "evidence": "対象: 町内事業所新設、法人投資1,000万円以上等。金額: 法人500万円、個人2分の1・500万円。期限: 2026-04-01から2026-04-20。"
+        },
+        {
+          "slug": "teshikaga-satellite-office-subsidy-2026",
+          "evidence": "対象: サテライトオフィス新設法人。金額: 100万円、転入就業者加算最大100万円。期限: 2026-04-01から2026-04-20。"
+        },
+        {
+          "slug": "teshikaga-accommodation-regeneration-subsidy-2026",
+          "evidence": "対象: 空き施設で宿泊施設を設置する者。金額: 投資額1億円以上10分の1・上限1億円、1億円未満2分の1・上限1,000万円。"
+        },
+        {
+          "slug": "teshikaga-private-rental-housing-construction-subsidy-2026",
+          "evidence": "対象: 民間賃貸住宅等の建設・リフォーム。金額: 建設1戸100万円・1棟1,000万円、リフォーム10％・20万円。"
+        },
+        {
+          "slug": "teshikaga-hearing-aid-subsidy-2026",
+          "evidence": "対象: 30dB以上で身体障害者手帳対象外の難聴者等。金額: 基準額又は購入額から自己負担額を除く額。購入前申請。"
+        },
+        {
+          "slug": "teshikaga-specified-disease-transport-subsidy-2026",
+          "evidence": "対象: 特定疾患等で町外通院する受給者。金額: 交通費3分の2、非課税世帯は全額。"
+        },
+        {
+          "slug": "teshikaga-rubella-antibody-test-subsidy-2026",
+          "evidence": "対象: 妊娠希望女性等。金額: EIA法6,750円、HI法5,540円。期限: 2026-03-10必着。"
+        },
+        {
+          "slug": "teshikaga-working-holiday-support-2026",
+          "evidence": "対象: 道外在住の大学生・社会人等。金額: 飛行機代往復2万円上限、宿泊費1泊5,000円上限。"
+        }
+      ]
+    }
+  ]
+}

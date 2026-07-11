@@ -2,27 +2,27 @@
   "updatedAt": "2026-07-11T23:55:00+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "01663",
-    "municipality": "浜中町",
-    "adopted": 32,
-    "held": 5,
-    "excluded": 2,
-    "sourceUrlsChecked": 32,
+    "code": "01665",
+    "municipality": "弟子屈町",
+    "adopted": 20,
+    "held": 0,
+    "excluded": 0,
+    "sourceUrlsChecked": 20,
     "validation": {
-      "previousMunicipality": "浜中町は不妊治療、妊婦支援給付、新生児聴覚、妊産婦健診、妊産婦通院、子ども医療、ひとり親医療、重度障がい医療、浄化槽、耐震、再エネ、新婚、事業継続、創業、地域活性化、特殊詐欺電話、中小企業融資、新規就農3区分、地域振興、出産祝金、住宅改修、高齢者交通、紙おむつ、精神障害者医療、自動車改造、精神通院、施設訪問交通、福祉灯油、看護師等修学資金、福祉職修学資金の32件を公式個別ページで確認して追加。安心住まいる、人づくり基金、商工機器貸付、ファミサポ、現物給付系は第2巡保留。",
+      "previousMunicipality": "標茶町は公式実体ドメインを確認したが候補PDF 5件が画像PDFで本文抽出不可のため第2巡保留。弟子屈町は不妊治療2件、子ども医療、出産・子育て給付、障がい者医療、ひとり親医療、赤ちゃん応援券、妊産婦交通、就学援助、奨学金返還、宿泊施設設備改修、家賃補助、設備投資、サテライトオフィス、宿泊業再生、民間賃貸住宅、補聴器、特定疾患交通、風しん抗体検査、ワーキングホリデー支援の20件を公式個別ページで確認して追加。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "hamanaka 32 checked, all 0 failures",
+      "urlReachability": "teshikaga 20 checked, all 0 failures",
       "nodeCheck": "not needed: script unchanged",
-      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-019-hamanaka-snippets.json",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 7286, officialLinkedActive 7248, manuallyVerifiedActive 7248, 北海道 localOfficial 2891)"
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-020-municipalities.json tasks/discovery/hokkaido-batch-020-candidates.json tasks/discovery/hokkaido-batch-020-url-validation.json tasks/discovery/hokkaido-batch-020-shibecha-teshikaga-snippets.json",
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 7306, officialLinkedActive 7268, manuallyVerifiedActive 7268, 北海道 localOfficial 2911)"
     }
   },
   "next": {
-    "code": "01664",
-    "municipality": "標茶町",
-    "shortlist": "start hokkaido-batch-020 from 01664 標茶町",
-    "instructions": "第19バッチ（釧路町・厚岸町・浜中町）の軽量検証・commit後、自治体コード順で標茶町から次バッチDiscovery/Verificationへ進む。"
+    "code": "01667",
+    "municipality": "鶴居村",
+    "shortlist": "continue hokkaido-batch-020 from 01667 鶴居村",
+    "instructions": "第20バッチは標茶町を第2巡保留、弟子屈町20件を軽量検証済み。diff/auditとcommit後、自治体コード順で鶴居村へ進む。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
