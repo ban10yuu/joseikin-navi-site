@@ -2890,6 +2890,20 @@
     - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
     - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-038-snippets.json`: pass
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 別海町・中標津町・標津町・羅臼町）:
+  - 状態: 第2巡039として、第20バッチ末尾から第21バッチ末尾までの4自治体の未掲載候補を再確認。別海町・中標津町・標津町・羅臼町は第1巡又は後半サンプルで主要制度を反映済みで、残候補は一覧/カテゴリ/導線、採用済み制度との重複、現行制度なし、体験募集、又は同一公式本文で金額/上限・対象・受付状況が揃わない候補が中心。新規掲載候補は確認できなかった。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-second-pass-039-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 保留継続:
+    - 別海町: 産婦・新生児への助成一覧、別海高等学校支援事業、高齢者福祉一覧は一覧又は実績PDF中心で、個別助成額・上限・受付条件を2026年時点の公式個別制度として固定できない。
+    - 中標津町: 腎臓機能障害者通院交通費補助は補助単価・上限が本文固定不足。育英資金貸付金・定住促進貸付金は後半サンプルで採用済み。リフォーム補助は現行制度なし、テレワーク誘致は体験募集。
+    - 標津町: 創業支援情報、物価高騰対応重点支援地方創生臨時交付金、トップ・カテゴリ・一覧ページは個別支給制度としての必須項目が不足。
+    - 羅臼町: 地域総合整備資金貸付は貸付上限額が町公式本文で固定できない。中小企業振興資金融資制度は後半サンプルで採用済み。防災・カテゴリ・トップ・フォームのみの候補は掲載しない。
+  - 検証:
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-039-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:

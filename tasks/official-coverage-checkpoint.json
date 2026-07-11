@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T07:11:06+09:00",
+  "updatedAt": "2026-07-12T07:18:06+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "hokkaido-second-pass-038",
+    "code": "hokkaido-second-pass-039",
     "municipality": "北海道第2巡保留候補整理",
     "adopted": 0,
     "held": 12,
     "excluded": 0,
     "sourceUrlsChecked": 12,
     "validation": {
-      "previousMunicipality": "標茶町・弟子屈町・鶴居村・白糠町の第2巡候補を確認。標茶町は画像PDFの本文抽出/OCR未解決、他3自治体は主要制度反映済みでカテゴリ/一覧/導線、重複、過年度、又は必須項目不足が中心。新規採用は0件。",
+      "previousMunicipality": "別海町・中標津町・標津町・羅臼町の第2巡候補を確認。第1巡又は後半サンプルで主要制度を反映済みで、残候補は一覧/カテゴリ/導線、採用済み制度との重複、現行制度なし、体験募集、又は同一公式本文で金額/上限・対象・受付状況が揃わない候補が中心。新規採用は0件。",
       "eslint": "skipped: no data changes",
       "duplicateSlugs": 0,
       "urlReachability": "skipped: no added slugs",
-      "diffCheck": "pass: git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-038-snippets.json",
-      "auditCoverage": "skipped: no data changes; aggregate at next data batch"
+      "diffCheck": "pass: git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-039-snippets.json",
+      "auditCoverage": "skipped: no data changes; aggregate at Hokkaido milestone audit"
     }
   },
   "next": {
-    "code": "hokkaido-second-pass-039",
-    "municipality": "北海道第2巡保留候補",
-    "shortlist": "第2巡038までで、標茶町・弟子屈町・鶴居村・白糠町の保留候補を整理し、新規採用0件。",
-    "instructions": "次は北海道第2巡039として、別海町・中標津町・標津町・羅臼町を自治体コード順に継続確認する。後半サンプルで採用済みの5件は重複追加せず、公式個別ページ/PDF/Wordで必須項目が未解決の候補だけ整理する。"
+    "code": "hokkaido-milestone-audit-001",
+    "municipality": "北海道節目監査",
+    "shortlist": "第2巡039までで、別海町・中標津町・標津町・羅臼町の保留候補を整理し、新規採用0件。北海道の第1巡と第2巡保留候補整理は末尾まで到達。",
+    "instructions": "次は北海道節目監査として、チェックリスト集計、未判定候補の残数確認、必要な上限付きbuild又はcoverage監査を実行する。全国完了扱いにはせず、北海道監査後に次の都道府県・公的機関の未完了地点へ進む。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
