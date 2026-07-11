@@ -2792,6 +2792,20 @@
     - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
     - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-031-snippets.json`: pass
 
+- 2026-07-12 第2巡保留候補整理（前方サンプル: 様似町・えりも町・新ひだか町・音更町）:
+  - 状態: 第2巡032として、第14バッチ後半から第15バッチ先頭までの4自治体の未掲載候補を再確認。様似町・えりも町・新ひだか町・音更町はいずれも第1巡反映済み制度、PDF取得失敗/導線、北海道事業、表切り分け不足、終了済み制度、又は金額/上限・対象条件・申請条件・受付状況不足に該当し、制度名・対象・金額/上限・条件・期限/受付状況が揃う新規掲載候補は確認できなかった。
+  - 追加・更新ファイル:
+    - `tasks/discovery/hokkaido-second-pass-032-snippets.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 保留継続:
+    - 様似町: 不妊治療費助成PDFは取得失敗。ひとり親・重度心身障がい者・未熟児養育医療は対象・自己負担・所得条件の切り出し待ち。北海道事業案内は町独自制度として掲載しない。
+    - えりも町: ひとり親家庭等医療費、重度心身障がい者医療費、帯状疱疹予防接種助成、就学援助、消火器補助は表・PDF本文の個別金額又は申請条件確認が不足。
+    - 新ひだか町: 妊婦のための支援給付は給付額を本文で固定できない。学校給食非喫食者支援交付金・中学生給食費無償化はPDF本文確認が必要。募集・住宅・通常サービス案内は採用しない。
+    - 音更町: ゼロカーボン事業補助金は機器別金額表の本文固定が不足。HPVワクチン任意接種費用助成は終了済み。ちょっと暮らし支援事業、労働福祉資金は金額・対象区分の切り分けが不足。
+  - 検証:
+    - 追加データなしのため `src/data/grants/verified-local-misc-2026.ts` は変更なし。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-032-snippets.json`: pass
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
