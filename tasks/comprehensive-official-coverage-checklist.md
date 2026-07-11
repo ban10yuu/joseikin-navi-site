@@ -1978,7 +1978,7 @@
 
 ### 第17バッチ Discovery（広尾町・幕別町・池田町・豊頃町・本別町）
 
-- 状態: 第17バッチDiscovery/URL検証を実行し、広尾町・幕別町・池田町の第1巡Verification・データ反映・軽量検証・集約commitまで完了。豊頃町の第1巡Verification・データ反映・軽量検証まで完了し、第17バッチ後半の集約監査後、本別町から継続する。
+- 状態: 第17バッチDiscovery/URL検証を実行し、広尾町・幕別町・池田町・豊頃町のVerification・データ反映・軽量検証・commitまで完了。本別町は公式個別ページから31件をデータ反映し、軽量検証後にcommitする。
 - 確認日: 2026-07-11
 - Discovery:
   - `tasks/discovery/hokkaido-batch-017-municipalities.json`
@@ -1988,6 +1988,7 @@
   - `tasks/discovery/hokkaido-batch-017-makubetsu-snippets.json`
   - `tasks/discovery/hokkaido-batch-017-ikeda-snippets.json`
   - `tasks/discovery/hokkaido-batch-017-toyokoro-snippets.json`
+  - `tasks/discovery/hokkaido-batch-017-honbetsu-snippets.json`
   - 広尾町: discovered 300 / candidates 167 / strong 61 / lowPriority 106
   - 幕別町: discovered 300 / candidates 89 / strong 2 / lowPriority 87
   - 池田町: discovered 300 / candidates 191 / strong 0 / lowPriority 191
@@ -2000,6 +2001,7 @@
   - 幕別町: 13件（事業者省エネルギー診断支援、水道料金基本料金免除、ひとり親家庭等医療費、重度心身障害者医療費、子ども医療費、1か月児健診、新生児聴覚検査、産婦健診、風しん/MRワクチン、RSウイルス母子免疫ワクチン、結婚新生活、マイホーム応援、木造戸建て住宅無料耐震診断）
   - 池田町: 17件（ファミリー・サポート援助活動助成、ファミリー・サポート利用料助成、児童扶養手当、未熟児養育医療給付、子ども医療費、重度心身障害者医療費、ひとり親家庭医療費、住宅等リフォーム、空き家家財道具処分、子育て世帯住宅取得、法定相続登記、住宅取得応援、老朽建物解体、箱型ごみステーション、コンポスター、資源集団回収、新規就農希望者営農指導）
   - 豊頃町: 18件（町内就業者促進の奨学金返還・転入費用、次世代育成支援金の出産祝金・健全育成支援、空き家・空地利活用の購入・賃貸、乳幼児等医療費、ゼロカーボン太陽光・蓄電池・電気自動車等、妊婦健康診査等、木造住宅耐震診断・耐震改修、高等学校等就学助成、重度身体障害者等医療費、ひとり親家庭等医療費、小中学校検定受験料、定住促進等住宅取得）
+  - 本別町: 31件（起業家等支援、新製品等開発、新規就農・農業体験・農業研修、移住定住の家賃・引越し・仕事体験、UIJターン移住支援、住宅改修・空き家改修・住宅取得、妊婦支援給付・妊婦健診・多胎妊婦健診・不育症・出産祝い・不妊治療、児童扶養手当・特別児童扶養手当・児童手当、乳幼児等医療費・ひとり親家庭等医療費・重度心身障害者医療費、本別高校通学者支援、介護福祉士修学資金・住宅準備・就業支援・養育支援・支度準備・資格取得研修）
 - 候補・掲載見送り:
   - 広尾町 子育て人材育成交付金: 対象・上限10万円は確認したが、本文の研修申込期間が令和6年度で古く、令和8年度の受付状況を第2巡で確認する。
   - 広尾町 不妊治療・不育症治療、各種手当・助成: カテゴリ導線は確認したが、制度別の金額・対象・期限を個別本文単位で切り分ける必要があるため第2巡保留。
@@ -2012,6 +2014,9 @@
   - 池田町 移住促進助成制度のお知らせ: 関連ページ一覧のため最終sourceにせず、個別ページに到達した住宅・定住制度のみ掲載した。
   - 豊頃町 助成制度・補助金一覧: 一覧ページのため最終sourceにせず、個別ページへ到達できた制度のみ掲載した。
   - 豊頃町 hp-manual.pdf / toyokoro_bosaihandbook.pdf: Discoveryでは制度語を拾ったが、404ページ又は制度個別PDFではないため掲載しない。
+  - 本別町 妊産婦健診・出産に係る通院宿泊費助成: 公式ページは確認したが、金額表がPDF参照で本文だけでは上限額を固定できないため第2巡でPDF本文確認へ回す。
+  - 本別町 手当・医療助成・援助カテゴリ: カテゴリ一覧であり最終sourceにしない。個別制度ページへ到達できたものだけ掲載した。
+  - 本別町 パスポート手数料案内、道民生活応援ポイント周知記事: 補助金・助成金等ではない、又は北海道制度の町内周知であるため本別町独自制度としては掲載しない。
 - 軽量検証:
   - slug重複確認: 重複0（全7075件、広尾町7件）
   - `node scripts/check-grant-source-urls.mjs --prefix hiroo- --timeout-ms 60000 --concurrency 4`: 7件確認、失敗0
@@ -2029,5 +2034,10 @@
   - `node --check scripts/discover-official-candidates.mjs`: pass
   - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-017-toyokoro-snippets.json`: pass
   - `npm run audit:coverage`: pass（failures 0、activePublished 7128、officialLinkedActive 7090、manuallyVerifiedActive 7090、北海道 localOfficial 2733）
+  - slug重複確認: 重複0（全7154件、本別町31件）
+  - `node scripts/check-grant-source-urls.mjs --prefix honbetsu- --timeout-ms 60000 --concurrency 4`: 31件確認、失敗0
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-batch-017-honbetsu-snippets.json`: pass
+  - `npm run audit:coverage`: pass（failures 0、activePublished 7159、officialLinkedActive 7121、manuallyVerifiedActive 7121、北海道 localOfficial 2764）
 - 次地点:
-  - 第17バッチ後半（豊頃町18件）を集約diff/audit/commitする。その後、自治体コード順で `01646 本別町` へ進む。
+  - 本別町31件の軽量検証・commit後、自治体コード順で `01647 足寄町` へ進む。
