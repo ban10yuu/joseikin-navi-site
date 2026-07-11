@@ -2240,3 +2240,29 @@
   - `npm run audit:coverage`: pass（failures 0、activePublished 7343、officialLinkedActive 7305、manuallyVerifiedActive 7305、北海道 localOfficial 2948）
 - 次地点:
   - 別海町12件の検証・commit後、自治体コード順で `01692 中標津町` へ進む。
+
+### 第21バッチ Discovery / Verification（中標津町・標津町・羅臼町）
+
+- 状態: 第21バッチの母集団を `01692 中標津町`、`01693 標津町`、`01694 羅臼町` で作成し、Discovery/URL検証を実行。中標津町は公式 `sitemap.xml` が404相当のエラーページになるため、生活・子育て福祉・住宅・商工業・農林畜産・移住・教育・税・topicsカテゴリを同一ドメイン内で浅く追加クロールし、260ページと公式PDFを短い本文スニペット化して確認した。制度名・対象・金額/上限・条件・申請/受付状況を公式個別ページ又は公式PDFで確認できた22件を追加した。
+- 追加・更新ファイル:
+  - `tasks/discovery/hokkaido-batch-021-municipalities.json`
+  - `tasks/discovery/hokkaido-batch-021-candidates.json`
+  - `tasks/discovery/hokkaido-batch-021-url-validation.json`
+  - `tasks/discovery/hokkaido-batch-021-nakashibetsu-snippets.json`
+- Discovery/Validation:
+  - `node scripts/discover-official-candidates.mjs --input tasks/discovery/hokkaido-batch-021-municipalities.json --output tasks/discovery/hokkaido-batch-021-candidates.json --concurrency 3 --initial-limit-per-municipality 100 --deep-limit-per-municipality 300 --limit-per-municipality 300 --timeout-ms 20000`: 3自治体、534候補
+  - `node scripts/validate-official-candidate-urls.mjs --input tasks/discovery/hokkaido-batch-021-candidates.json --output tasks/discovery/hokkaido-batch-021-url-validation.json --concurrency 8 --max-cache-age-hours 24 --timeout-ms 20000`: 533件確認、cacheHits 532、refetched 1、reachable 532、failures 1（羅臼町 robots.txt 404のみ）
+- 採用:
+  - 中標津町: 22件（保健福祉職養成修学資金、UIJターン移住支援金、地方就職学生支援金、マルナカ融資、 中小企業応援、空き地空き店舗等活用、スポーツ文化遠征費、身体障害者自動車運転免許取得・改造、妊婦のための支援給付、児童手当、乳幼児医療費、物価高対応子育て応援手当、児童扶養手当、ひとり親家庭等医療費、不妊治療交通・宿泊、先進不妊治療、重度心身障がい者医療費、特定疾患等通院交通、特別児童扶養手当、障害児福祉手当、特別障害者手当、既存住宅耐震改修）
+- 保留・除外:
+  - 中標津町 育英資金貸付金および定住促進貸付金: HTML本文で募集期間・制度名は確認したが、貸付額詳細が添付Word依存のため第2巡保留。
+  - 中標津町 腎臓機能障害者通院交通費補助: 制度概要のみで、補助単価・上限が本文で確認できないため第2巡保留。
+  - 中標津町 リフォームに係る補助金制度: 町に現在リフォーム補助金制度はないと明記されているため掲載しない。
+  - 中標津町 テレワーク誘致事業: 体験募集であり、支給制度としての対象・金額・条件が本文で固定できないため保留。
+- 検証:
+  - 中標津町 slug重複確認: 重複0（全7361件、中標津町22件）
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+  - `node scripts/check-grant-source-urls.mjs --prefix nakashibetsu- --timeout-ms 60000 --concurrency 4`: 22件確認、初回1件fetch failed。該当 `nakashibetsu-local-employment-student-support-grant-2026` は `curl -L --max-time 30` と `node scripts/check-grant-source-urls.mjs --slug ... --timeout-ms 60000 --concurrency 1` の再試行で200、失敗0。
+  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/discovery/hokkaido-batch-021-municipalities.json tasks/discovery/hokkaido-batch-021-nakashibetsu-snippets.json`: pass
+- 次地点:
+  - 中標津町22件の軽量検証・commit後、自治体コード順で `01693 標津町` へ進む。

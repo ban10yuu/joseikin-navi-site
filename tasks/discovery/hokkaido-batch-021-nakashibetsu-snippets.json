@@ -1,0 +1,167 @@
+{
+  "batchId": "hokkaido-batch-021",
+  "municipalityCode": "01692",
+  "municipality": "中標津町",
+  "verifiedAt": "2026-07-11",
+  "sourceCache": "/tmp/nakashibetsu-crawl-pages.json",
+  "selectedPages": "/tmp/nakashibetsu-selected-pages.json",
+  "pdfTextDir": "/tmp/nakashibetsu-pdfs",
+  "discovery": {
+    "batchCandidateCount": 123,
+    "batchStrongCandidateCount": 18,
+    "additionalFetchedPages": 260,
+    "method": "category crawl from official life, child welfare, housing, commerce, agriculture, migration, education, tax, and topics directories; PDF text saved locally"
+  },
+  "adopted": [
+    {
+      "slug": "nakashibetsu-health-welfare-scholarship-loan-2026",
+      "title": "保健福祉職養成修学資金貸付制度",
+      "officialUrl": "https://www.nakashibetsu.jp/kurashi/kosodate_fukushi/syuugakushikin/",
+      "evidence": "保健師月額10万円、その他月額5万円、最長4年、町内勤務により返還免除。"
+    },
+    {
+      "slug": "nakashibetsu-uij-turn-migration-support-grant-2026",
+      "title": "UIJターン新規就業支援事業 移住支援金",
+      "officialUrl": "https://www.nakashibetsu.jp/sangyo/shokogyo/uij_shinkisyugyou_bosyu/",
+      "evidence": "単身60万円、世帯100万円、18歳未満1人30万円加算。就業後1カ月以内に予備申請。"
+    },
+    {
+      "slug": "nakashibetsu-local-employment-student-support-grant-2026",
+      "title": "地方就職学生支援金",
+      "officialUrl": "https://www.nakashibetsu.jp/sangyo/shokogyo/gakuseisienkin/",
+      "evidence": "交通費2分の1・上限35,000円、移転費上限418,500円。"
+    },
+    {
+      "slug": "nakashibetsu-marunaka-business-loan-guarantee-subsidy-2026",
+      "title": "中小企業融資制度（マルナカ融資）",
+      "officialUrl": "https://www.nakashibetsu.jp/sangyo/shokogyo/shien/",
+      "evidence": "短期1,000万円、長期1,500万円、保証料半額補助、初年度新規融資分は全額補助。"
+    },
+    {
+      "slug": "nakashibetsu-sme-support-subsidy-2026",
+      "title": "中小企業応援事業補助金",
+      "officialUrl": "https://www.nakashibetsu.jp/file/contents/503/40536/ouen.pdf",
+      "evidence": "店舗・設備改修等、都市計画区域内30万円、区域外20万円、補助対象経費300万円以上。"
+    },
+    {
+      "slug": "nakashibetsu-vacant-land-store-startup-subsidy-2026",
+      "title": "空き地空き店舗等活用事業補助金",
+      "officialUrl": "https://www.nakashibetsu.jp/file/contents/503/40537/aki.pdf",
+      "evidence": "商業地域2分の1・上限50万円、商業地域以外3分の1・上限25万円。"
+    },
+    {
+      "slug": "nakashibetsu-sports-culture-expedition-subsidy-2026",
+      "title": "スポーツ文化遠征費補助金",
+      "officialUrl": "https://www.nakashibetsu.jp/kyouiku_iinkai/syakaikyouiku/enseihi/",
+      "evidence": "交通費・宿泊費上限70,000円、補助基準の2分の1、遠征前申請。"
+    },
+    {
+      "slug": "nakashibetsu-driver-license-vehicle-modification-subsidy-2026",
+      "title": "身体障害者自動車運転免許取得費・改造費助成金",
+      "officialUrl": "https://www.nakashibetsu.jp/kurashi/kosodate_fukushi/shougaisha/jidousyauntenmenkyokaizouhi/",
+      "evidence": "免許取得は身体障害者手帳1-4級、上限10万円。改造費は上肢・下肢・体幹1-2級対象。"
+    },
+    {
+      "slug": "nakashibetsu-pregnant-women-support-benefit-2026",
+      "title": "妊婦のための支援給付",
+      "officialUrl": "https://www.nakashibetsu.jp/kurashi/kosodate_fukushi/kosodate/kyuuhukin/",
+      "evidence": "妊婦給付認定後5万円、妊娠している子どもの人数届出後5万円、所得制限なし。"
+    },
+    {
+      "slug": "nakashibetsu-child-allowance-2026",
+      "title": "児童手当",
+      "officialUrl": "https://www.nakashibetsu.jp/kurashi/kosodate_fukushi/kosodate/kyuufu/jidoteate/",
+      "evidence": "高校生年代まで、所得制限なし、第3子以降月額30,000円、偶数月に年6回支給。"
+    },
+    {
+      "slug": "nakashibetsu-infant-medical-expense-subsidy-2026",
+      "title": "乳幼児医療費助成制度",
+      "officialUrl": "https://www.nakashibetsu.jp/kurashi/kosodate_fukushi/kosodate/kyuufu/nyuyoji/",
+      "evidence": "通院等は満6歳年度まで、入院は12歳年度末まで。非課税等は初診時一部負担金のみ。"
+    },
+    {
+      "slug": "nakashibetsu-child-rearing-inflation-benefit-2026",
+      "title": "物価高対応子育て応援手当",
+      "officialUrl": "https://www.nakashibetsu.jp/kurashi/kosodate_fukushi/kosodate/kyuufu/kosodateouenteate/",
+      "evidence": "0歳から高校生年代まで、対象児童1人につき2万円。公務員等は申請期限あり。"
+    },
+    {
+      "slug": "nakashibetsu-single-parent-child-rearing-allowance-2026",
+      "title": "児童扶養手当",
+      "officialUrl": "https://www.nakashibetsu.jp/kurashi/kosodate_fukushi/kosodate/hitorioya/",
+      "evidence": "令和7年4月改正後、第1子48,050円、第2子以降11,350円、年6回支給。"
+    },
+    {
+      "slug": "nakashibetsu-single-parent-medical-expense-subsidy-2026",
+      "title": "ひとり親家庭等医療費助成制度",
+      "officialUrl": "https://www.nakashibetsu.jp/kurashi/kosodate_fukushi/kosodate/hitorioya/",
+      "evidence": "ひとり親家庭の親と児童対象。課税世帯1割、非課税世帯は初診料のみ。"
+    },
+    {
+      "slug": "nakashibetsu-infertility-treatment-travel-subsidy-2026",
+      "title": "不妊治療助成事業",
+      "officialUrl": "https://www.nakashibetsu.jp/kurashi/kosodate_fukushi/kosodate/funintiryo/funin_chiryou/",
+      "evidence": "保険適用不妊治療の交通費・宿泊費を年度上限5万円、宿泊1泊5千円・2泊まで。"
+    },
+    {
+      "slug": "nakashibetsu-advanced-infertility-treatment-subsidy-2026",
+      "title": "不妊治療費（先進医療）等助成事業",
+      "officialUrl": "https://www.nakashibetsu.jp/kurashi/kosodate_fukushi/kosodate/funintiryo/funin/",
+      "evidence": "先進医療自己負担分の10分の7・上限35,000円、交通費3分の2・5回まで。"
+    },
+    {
+      "slug": "nakashibetsu-severe-disability-medical-expense-subsidy-2026",
+      "title": "重度心身障がい者医療費助成",
+      "officialUrl": "https://www.nakashibetsu.jp/kurashi/kosodate_fukushi/shougaisha/iryou_josei/judo/",
+      "evidence": "対象手帳等級、非課税等は初診時一部負担金のみ、課税世帯1割負担。"
+    },
+    {
+      "slug": "nakashibetsu-specific-disease-transport-subsidy-2026",
+      "title": "特定疾患等患者通院交通補助",
+      "officialUrl": "https://www.nakashibetsu.jp/kurashi/kosodate_fukushi/shougaisha/iryou_josei/tokuteisikkan/",
+      "evidence": "町外道内医療機関への通院交通費を距離別単価で補助。25kmまで片道240円から400km超4,400円。"
+    },
+    {
+      "slug": "nakashibetsu-special-child-rearing-allowance-2026",
+      "title": "特別児童扶養手当",
+      "officialUrl": "https://www.nakashibetsu.jp/kurashi/kosodate_fukushi/shougaisha/teate/tokubetujidou/",
+      "evidence": "20歳未満の障がい児対象、1級55,350円、2級36,860円、所得制限あり。"
+    },
+    {
+      "slug": "nakashibetsu-disabled-child-welfare-allowance-2026",
+      "title": "障害児福祉手当",
+      "officialUrl": "https://www.nakashibetsu.jp/kurashi/kosodate_fukushi/shougaisha/teate/shougaijifukushi/",
+      "evidence": "在宅20歳未満の重度障がい児対象、月額15,690円。"
+    },
+    {
+      "slug": "nakashibetsu-special-disability-allowance-2026",
+      "title": "特別障害者手当",
+      "officialUrl": "https://www.nakashibetsu.jp/kurashi/kosodate_fukushi/shougaisha/teate/tokubetushougaisha/",
+      "evidence": "在宅20歳以上の重度障がい者対象、月額28,840円。"
+    },
+    {
+      "slug": "nakashibetsu-housing-earthquake-retrofit-subsidy-2026",
+      "title": "既存住宅耐震改修費補助事業",
+      "officialUrl": "https://www.nakashibetsu.jp/kurashi/bohanbosai/taishin/",
+      "evidence": "耐震診断9万円、補強設計10万円、耐震改修・除却71.3万円、事前相談期限9月4日。"
+    }
+  ],
+  "held": [
+    {
+      "url": "https://www.nakashibetsu.jp/kyouiku_iinkai/ikuei_shikin/",
+      "reason": "育英資金貸付金・定住促進貸付金はHTML本文で制度名・募集期間は確認したが、貸付額の詳細が添付Word依存のため第2巡保留。"
+    },
+    {
+      "url": "https://www.nakashibetsu.jp/kurashi/kosodate_fukushi/shougaisha/iryou_josei/jinzou/",
+      "reason": "腎臓機能障害者通院交通費補助は制度概要のみで、補助単価・上限が本文で確認できないため第2巡保留。"
+    },
+    {
+      "url": "https://www.nakashibetsu.jp/kurashi/sumai/kenchiku/riform/",
+      "reason": "中標津町には現在リフォーム補助金制度がないと明記されているため掲載しない。"
+    },
+    {
+      "url": "https://www.nakashibetsu.jp/sangyo/shokogyo/telework_evaluator/",
+      "reason": "テレワーク体験募集で、交通費・宿泊費等の補助制度としての支給額・対象条件が本文で固定できないため保留。"
+    }
+  ]
+}
