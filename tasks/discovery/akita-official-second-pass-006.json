@@ -1,0 +1,169 @@
+{
+  "batchId": "akita-comprehensive-official-second-pass-006",
+  "prefecture": "秋田県",
+  "generatedAt": "2026-07-13T04:10:00+09:00",
+  "sourceFirstPassFile": "tasks/discovery/akita-official-coverage-006.json",
+  "targetMunicipalities": [
+    {
+      "code": "05363",
+      "name": "八郎潟町",
+      "officialBaseUrl": "https://www.town.hachirogata.akita.jp/",
+      "adopted": 4
+    },
+    {
+      "code": "05366",
+      "name": "井川町",
+      "officialBaseUrl": "https://www.town.ikawa.akita.jp/",
+      "adopted": 3
+    },
+    {
+      "code": "05368",
+      "name": "大潟村",
+      "officialBaseUrl": "https://www.vill.ogata.akita.jp/",
+      "adopted": 5
+    },
+    {
+      "code": "05434",
+      "name": "美郷町",
+      "officialBaseUrl": "https://www.town.misato.akita.jp/",
+      "adopted": 7
+    }
+  ],
+  "adopted": {
+    "total": 19,
+    "byMunicipality": {
+      "八郎潟町": [
+        {
+          "slug": "hachirogata-welfare-medical-expense-aid-2026",
+          "title": "福祉医療制度",
+          "officialUrl": "https://www.town.hachirogata.akita.jp/kenko/1001497/1001702.html",
+          "evidence": "乳幼児・小中学生・高校生等、ひとり親家庭児童、重度心身障がい者等、保険診療自己負担分助成、県外受診時の償還払いを確認。"
+        },
+        {
+          "slug": "hachirogata-seismic-diagnosis-renovation-subsidy-2026",
+          "title": "木造住宅耐震診断支援・耐震改修補助事業",
+          "officialUrl": "https://www.town.hachirogata.akita.jp/kurashi/1001474/1004011.html",
+          "evidence": "昭和56年5月31日以前着工の木造戸建住宅、耐震診断13万円のうち12万円負担、耐震改修23%・上限30万円、令和8年11月30日までを確認。"
+        },
+        {
+          "slug": "hachirogata-vacant-house-demolition-subsidy-2026",
+          "title": "空き家等除去費補助金",
+          "officialUrl": "https://www.town.hachirogata.akita.jp/kurashi/1001474/1003614.html",
+          "evidence": "町の助言・指導を受けた危険空き家、解体撤去工事費等2分の1以内・上限50万円を確認。"
+        },
+        {
+          "slug": "hachirogata-housing-renovation-vacant-purchase-subsidy-2026",
+          "title": "住まいづくり支援事業補助金",
+          "officialUrl": "https://www.town.hachirogata.akita.jp/kurashi/1001474/1001647.html",
+          "evidence": "リフォーム15%・上限30万円、空き家購入型50%・上限40万円、子育て・移住・空き家バンク各20万円加算、最大100万円を確認。"
+        }
+      ],
+      "井川町": [
+        {
+          "slug": "ikawa-infertility-treatment-subsidy-2026",
+          "title": "不妊治療費等助成",
+          "officialUrl": "https://www.town.ikawa.akita.jp/page/1375.html",
+          "evidence": "特定不妊・男性不妊は1回上限10万円、一般不妊・不育症は1年度上限10万円、治療終了年度末まで申請を確認。"
+        },
+        {
+          "slug": "ikawa-child-optional-vaccination-subsidy-2026",
+          "title": "任意予防接種費助成",
+          "officialUrl": "https://www.town.ikawa.akita.jp/page/1355.html",
+          "evidence": "子どもインフルエンザ1回1,500円、おたふくかぜ1回3,000円、令和7年度インフルエンザは令和8年2月28日までを確認。"
+        },
+        {
+          "slug": "ikawa-childcare-fee-subsidy-2026",
+          "title": "保育料助成",
+          "officialUrl": "https://www.town.ikawa.akita.jp/page/1363.html",
+          "evidence": "井川こどもセンター利用児童の保育料を全額補助、特別な添付書類不要を確認。"
+        }
+      ],
+      "大潟村": [
+        {
+          "slug": "ogata-marriage-new-life-subsidy-2026",
+          "title": "結婚新生活応援事業",
+          "officialUrl": "https://www.vill.ogata.akita.jp/archive/contents-18",
+          "evidence": "婚姻日・年齢・所得・居住要件を満たす新婚世帯、住居費・引越費用上限30万円又は60万円、結婚祝金20万円を確認。"
+        },
+        {
+          "slug": "ogata-infertility-transport-subsidy-2026",
+          "title": "妊娠（不妊治療）通院サポート",
+          "officialUrl": "https://www.vill.ogata.akita.jp/archive/contents-23",
+          "evidence": "不妊治療通院、県内1回1,000円・県外自家用車1回3,000円・公共交通実費2分の1、回数上限を確認。"
+        },
+        {
+          "slug": "ogata-pregnancy-birth-support-subsidy-2026",
+          "title": "出産サポート費補助金",
+          "officialUrl": "https://www.vill.ogata.akita.jp/archive/contents-8",
+          "evidence": "交通費10万円、宿泊費1泊上限1万円・最大14泊、同伴家族分を含め最大28万円、令和8年4月1日以降対象を確認。"
+        },
+        {
+          "slug": "ogata-school-lunch-fee-free-2026",
+          "title": "学校給食費無償化",
+          "officialUrl": "https://www.vill.ogata.akita.jp/archive/p20260528190543",
+          "evidence": "こども園・小学校・中学校の給食費全額助成を公式本文で確認。"
+        },
+        {
+          "slug": "ogata-welfare-medical-expense-aid-2026",
+          "title": "福祉医療制度",
+          "officialUrl": "https://www.vill.ogata.akita.jp/archive/contents-199",
+          "evidence": "高校3年生までの保険診療自己負担分助成、県外受診時の償還払い、医療機関窓口の受給者証利用を確認。"
+        }
+      ],
+      "美郷町": [
+        {
+          "slug": "akita-misato-hearing-aid-purchase-subsidy-2026",
+          "title": "軽度・中等度難聴者補聴器購入費助成事業",
+          "officialUrl": "https://www.town.misato.akita.jp/archive/contents-4918",
+          "evidence": "18歳以上、障害者手帳対象外、医師の必要判断、補聴器購入費2分の1・上限5万円、購入前申請を確認。"
+        },
+        {
+          "slug": "akita-misato-cancer-prosthesis-subsidy-2026",
+          "title": "がん患者用補正具購入費用助成",
+          "officialUrl": "https://www.town.misato.akita.jp/archive/contents-3163",
+          "evidence": "ウィッグ上限35,000円、乳房補正具上限20,000円、購入年度の翌年度末まで申請を確認。"
+        },
+        {
+          "slug": "akita-misato-agricultural-water-drought-subsidy-2026",
+          "title": "農業用水渇水対策支援事業",
+          "officialUrl": "https://www.town.misato.akita.jp/archive/contents-5094",
+          "evidence": "町内受益地を有する土地改良区、揚水ポンプ等リース料7月から9月分、税抜額3分の2以内を確認。"
+        },
+        {
+          "slug": "akita-misato-agricultural-drone-operator-subsidy-2026",
+          "title": "農業用無人航空機操作技能取得支援",
+          "officialUrl": "https://www.town.misato.akita.jp/archive/contents-4883",
+          "evidence": "町内農業団体等、町民構成員の技能認定証取得、受講料3分の1以内・1人上限10万円、当該年度3月まで申請を確認。"
+        },
+        {
+          "slug": "akita-misato-soil-building-subsidy-2026",
+          "title": "循環型農業土づくり応援事業",
+          "officialUrl": "https://www.town.misato.akita.jp/archive/contents-4284",
+          "evidence": "美郷町堆肥センター堆肥購入・対象作物栽培、購入費税抜額3分の1以内、10アール上限5,000円を確認。"
+        },
+        {
+          "slug": "akita-misato-caregiver-allowance-2026",
+          "title": "介護者手当支給",
+          "officialUrl": "https://www.town.misato.akita.jp/archive/contents-2985",
+          "evidence": "介護度4・5等を在宅で1カ月以上連続介護、特別障害者手当等なし、月額1万円、年4回支給を確認。"
+        },
+        {
+          "slug": "akita-misato-senior-voucher-subsidy-2026",
+          "title": "シニア元気いきいき支援事業",
+          "officialUrl": "https://www.town.misato.akita.jp/archive/contents-4640",
+          "evidence": "65歳以上町民、300円券50枚・計15,000円相当、はり・きゅう・マッサージ、温泉、タクシー、路線バス等に利用可能を確認。"
+        }
+      ]
+    }
+  },
+  "heldForSecondPass": [
+    "八郎潟町の住宅・空き家カテゴリ、町営住宅・空き家バンク等の一覧導線は、今回採用した個別補助制度以外は情報提供又はカテゴリページ中心のため、次巡の変更URL確認へ残す。",
+    "井川町の物価高対応子育て応援手当は申請期限が2026年2月27日で到来済みのため採用しなかった。母子福祉・児童福祉ページの児童手当・児童扶養手当・母子父子寡婦福祉資金は国県制度又は貸付中心として追加しない。",
+    "大潟村の不妊治療費助成本体はHTML本文で助成額を確認できず、添付PDFもテキスト抽出できないため、今回は通院サポートのみ採用した。住まいづくり支援事業、きずな定期便、こども園おむつ無償化は既存掲載制度又は公式本文の金額不足として継続確認へ残した。",
+    "美郷町のひとり親家庭支援ページは秋田県制度・町窓口・貸付中心のため町独自給付として採用しなかった。長寿祝い、農林業・空き家関連のPDF/様式候補、国県制度案内は個別本文・現行額の確認へ残す。"
+  ],
+  "validation": {
+    "sourceUrlsChecked": 19,
+    "notes": "公式本文で制度名・対象・金額/上限・条件・期限/受付状況を確認できるものだけを採用した。重い監査はデータ・チェックリスト・checkpoint更新後に実行する。"
+  }
+}

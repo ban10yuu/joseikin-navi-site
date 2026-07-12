@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T08:00:00+09:00",
+  "updatedAt": "2026-07-13T04:10:00+09:00",
   "mode": "akita-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "akita-comprehensive-official-second-pass-005",
-    "municipality": "藤里町・三種町・八峰町・五城目町",
-    "adopted": 7,
-    "held": 7,
+    "code": "akita-comprehensive-official-second-pass-006",
+    "municipality": "八郎潟町・井川町・大潟村・美郷町",
+    "adopted": 19,
+    "held": 4,
     "excluded": 6,
-    "sourceUrlsChecked": 7,
+    "sourceUrlsChecked": 19,
     "validation": {
-      "previousMunicipality": "秋田県第2巡005として、05346藤里町、05348三種町、05349八峰町、05361五城目町の第1巡保留候補を確認した。藤里町2件、三種町4件、八峰町1件を追加し、五城目町は既存掲載制度・過去事例・国県制度町窓口・受付終了分として追加なしとした。",
+      "previousMunicipality": "秋田県第2巡006として、05363八郎潟町、05366井川町、05368大潟村、05434美郷町の第1巡保留候補を確認した。八郎潟町4件、井川町3件、大潟村5件、美郷町7件を追加し、受付終了・国県制度窓口・カテゴリ導線・金額不足PDF候補は第2巡台帳へ残した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: added Akita second-pass 005 slugs 7, duplicate count 0",
-      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 7 slugs, failures 0, all HTTP 200",
-      "diffCheck": "pass: git diff --check for Akita second-pass 005 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8325, officialLinkedActive 8287, manuallyVerifiedActive 8287, Akita localOfficial 294"
+      "addedSlugUniqueness": "pass: added Akita second-pass 006 slugs 19, duplicate count 0",
+      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 19 slugs, failures 0, all HTTP 200",
+      "diffCheck": "pass: git diff --check for Akita second-pass 006 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8343, officialLinkedActive 8305, manuallyVerifiedActive 8305, Akita localOfficial 312"
     }
   },
   "next": {
-    "code": "akita-comprehensive-official-second-pass-006",
-    "municipality": "八郎潟町・井川町・大潟村・美郷町",
-    "shortlist": "秋田県第2巡005は藤里町2件、三種町4件、八峰町1件を追加した。次は第1巡006の保留候補を八郎潟町・井川町・大潟村・美郷町から確認する。",
-    "instructions": "秋田県第2巡006として、05363八郎潟町、05366井川町、05368大潟村、05434美郷町を自治体コード順に確認する。八郎潟町は福祉医療制度、住宅・空き家カテゴリ、カテゴリ一覧やトップページ一致候補の独自額・受付状況を確認する。井川町は物価高対応子育て応援手当の期限到来確認、子育て応援事業内の保育料助成、任意予防接種等の個別額を確認する。大潟村は住まいづくり支援事業、きずな定期便、結婚新生活応援、不妊治療費助成、妊娠・出産通院サポート、給食費無償化、こども園おむつ無償化を公式本文または添付要綱で確認する。美郷町は医療費助成、福祉・介護、農林業、空き家関連、PDF/様式のみで詳細が分かれる候補を確認する。既存raw gap 0を全国完了扱いしない。"
+    "code": "akita-comprehensive-official-second-pass-007",
+    "municipality": "羽後町・東成瀬村",
+    "shortlist": "秋田県第2巡006は八郎潟町4件、井川町3件、大潟村5件、美郷町7件を追加した。次は第1巡007の保留候補を羽後町・東成瀬村から確認する。",
+    "instructions": "秋田県第2巡007として、05463羽後町、05464東成瀬村を自治体コード順に確認する。羽後町は商工班お知らせ掲示板の町独自商品券等、産後ケア事業、配食サービス、福祉医療、農業・商工業一覧配下候補を、東成瀬村は移住定住住宅A棟・B棟の家賃補助制度本文、助成金カテゴリ、医療・福祉・農林業・住宅関連カテゴリ配下候補を公式本文/PDFで確認する。既存raw gap 0を全国完了扱いしない。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
