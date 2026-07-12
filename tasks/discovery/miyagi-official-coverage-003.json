@@ -1,0 +1,68 @@
+{
+  "batchId": "miyagi-comprehensive-official-coverage-003",
+  "completedAt": "2026-07-12T14:25:00+09:00",
+  "prefecture": "宮城県",
+  "municipalities": [
+    {
+      "code": "04209",
+      "name": "多賀城市",
+      "adopted": 1,
+      "existingConfirmed": 1,
+      "heldForSecondPass": 4
+    },
+    {
+      "code": "04211",
+      "name": "岩沼市",
+      "adopted": 4,
+      "existingConfirmed": 0,
+      "heldForSecondPass": 8
+    },
+    {
+      "code": "04212",
+      "name": "登米市",
+      "adopted": 5,
+      "existingConfirmed": 0,
+      "heldForSecondPass": 7
+    },
+    {
+      "code": "04213",
+      "name": "栗原市",
+      "adopted": 5,
+      "existingConfirmed": 0,
+      "heldForSecondPass": 12
+    }
+  ],
+  "candidateCount": 1019,
+  "snippetFile": "tasks/discovery/miyagi-official-coverage-003-snippets.json",
+  "adoptedSlugs": [
+    "tagajo-school-expense-assistance-2026",
+    "iwanuma-single-parent-medical-expense-subsidy-2026",
+    "iwanuma-child-medical-expense-subsidy-2026",
+    "iwanuma-school-expense-assistance-2026",
+    "iwanuma-private-road-improvement-subsidy-2026",
+    "tome-birth-celebration-grant-2026",
+    "tome-high-vocational-training-benefit-2026",
+    "tome-child-allowance-2026",
+    "tome-wooden-house-seismic-diagnosis-subsidy-2026",
+    "tome-wooden-house-seismic-retrofit-subsidy-2026",
+    "kurihara-wooden-house-seismic-diagnosis-subsidy-2026",
+    "kurihara-wooden-house-seismic-retrofit-subsidy-2026",
+    "kurihara-electric-vehicle-purchase-subsidy-2026",
+    "kurihara-private-road-improvement-subsidy-2026",
+    "kurihara-water-pressure-pump-subsidy-2026"
+  ],
+  "heldForSecondPass": [
+    "多賀城市の介護保険料減免、新入学用品費入学前支給、低所得関連の減免候補",
+    "岩沼市の児童扶養手当、幼児教育・保育無償化、犯罪被害者等支援金、小学校等入学祝金、事業者・環境系候補",
+    "登米市のビジネスチャンス支援事業、認可外保育施設等利用者向け無償化、不妊検査費・不妊治療費、地域集会施設耐震助成候補",
+    "栗原市の危険ブロック塀除却、水洗化・排水設備、防犯対策用品、移住定住、医療費、農業、商工業カテゴリ候補"
+  ],
+  "sourceUrlsChecked": 15,
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "duplicateSlugs": 0,
+    "urlReachability": "pass: 15制度15URL returned HTTP 200",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7854, officialLinkedActive 7816, manuallyVerifiedActive 7816, Miyagi localOfficial 98",
+    "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-003-municipalities.json tasks/discovery/miyagi-official-coverage-003-candidates.json tasks/discovery/miyagi-official-coverage-003-snippets.json tasks/discovery/miyagi-official-coverage-003.json"
+  }
+}

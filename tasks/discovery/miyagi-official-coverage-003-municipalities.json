@@ -1,0 +1,26 @@
+{
+  "batchId": "miyagi-comprehensive-official-coverage-003",
+  "prefecture": "宮城県",
+  "municipalities": [
+    {
+      "code": "04209",
+      "name": "多賀城市",
+      "officialBaseUrl": "https://www.city.tagajo.miyagi.jp/"
+    },
+    {
+      "code": "04211",
+      "name": "岩沼市",
+      "officialBaseUrl": "https://www.city.iwanuma.miyagi.jp/"
+    },
+    {
+      "code": "04212",
+      "name": "登米市",
+      "officialBaseUrl": "https://www.city.tome.miyagi.jp/"
+    },
+    {
+      "code": "04213",
+      "name": "栗原市",
+      "officialBaseUrl": "https://www.kuriharacity.jp/"
+    }
+  ]
+}

@@ -3559,6 +3559,30 @@
   - 次:
     - 宮城県公式棚卸し003として、04209多賀城市、04211岩沼市、04212登米市、04213栗原市を自治体コード順で確認する。
 
+- 宮城県公式棚卸し003（多賀城市・岩沼市・登米市・栗原市）
+  - 対象: 04209多賀城市、04211岩沼市、04212登米市、04213栗原市。
+  - 方法:
+    - 公式候補1019件を生成し、shortlistが150件を超えたため `tasks/discovery/miyagi-official-coverage-003-snippets.json` に短い本文スニペットを抽出して再スコアリングした。
+    - 各市の公式カテゴリと個別制度本文を確認し、制度名・対象・金額/上限・条件・期限/受付状況が揃うページを採用した。
+    - 多賀城市は既存公式確認済みの創業支援補助金1件を確認し、新規は令和8年度就学援助制度を採用した。
+  - 追加:
+    - 多賀城市: 就学援助制度。
+    - 岩沼市: 母子・父子家庭医療費助成制度、子ども医療費助成制度、就学援助制度、私道の整備補助金制度。
+    - 登米市: 誕生祝金、高等職業訓練促進給付金等、児童手当、木造住宅耐震診断助成事業、木造住宅耐震改修工事助成事業。
+    - 栗原市: 木造住宅耐震診断助成事業、木造住宅耐震改修工事促進助成、電気自動車購入支援補助金、私道等整備助成事業、水道給水用加圧ポンプ等設置費補助金。
+  - 既存確認:
+    - 多賀城市 創業支援補助金は既存公式確認済み制度として確認。
+  - 保留継続:
+    - 多賀城市の介護保険料減免・新入学用品費、岩沼市の児童扶養手当・犯罪被害者等支援金・小学校等入学祝金、登米市のビジネスチャンス支援・不妊検査費等、栗原市の危険ブロック塀除却・水洗化・防犯・移住定住カテゴリ候補は第2巡で確認する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: 0。
+    - 15制度15URLの公式URL到達確認: HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7854、officialLinkedActive 7816、manuallyVerifiedActive 7816、宮城県 localOfficial 98）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-003-municipalities.json tasks/discovery/miyagi-official-coverage-003-candidates.json tasks/discovery/miyagi-official-coverage-003-snippets.json tasks/discovery/miyagi-official-coverage-003.json`: pass。
+  - 次:
+    - 宮城県公式棚卸し004として、04214東松島市、04215大崎市、04301蔵王町、04302七ヶ宿町を自治体コード順で確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
