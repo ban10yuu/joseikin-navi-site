@@ -1,0 +1,26 @@
+{
+  "batchId": "aomori-comprehensive-official-coverage-009",
+  "prefecture": "青森県",
+  "municipalities": [
+    {
+      "code": "02408",
+      "name": "東北町",
+      "officialBaseUrl": "https://www.town.tohoku.lg.jp/"
+    },
+    {
+      "code": "02411",
+      "name": "六ヶ所村",
+      "officialBaseUrl": "https://www.rokkasho.jp/"
+    },
+    {
+      "code": "02412",
+      "name": "おいらせ町",
+      "officialBaseUrl": "https://www.town.oirase.aomori.jp/"
+    },
+    {
+      "code": "02423",
+      "name": "大間町",
+      "officialBaseUrl": "https://www.town.ooma.lg.jp/"
+    }
+  ]
+}

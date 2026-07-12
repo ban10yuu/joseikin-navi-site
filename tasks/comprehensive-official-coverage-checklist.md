@@ -3112,6 +3112,34 @@
   - 次:
     - 02408東北町、02411六ヶ所村、02412おいらせ町、02423大間町を自治体コード順で確認する。
 
+- 2026-07-12 青森県公式棚卸し009（東北町・六ヶ所村・おいらせ町・大間町データ反映）:
+  - 状態: 4自治体を公式サイト単位で確認。候補1145件（東北町445、六ヶ所村275、おいらせ町221、大間町204）となったため、短い本文スニペット320件へ再スコアリングし、282件を保持した。公式本文又は公式PDFで制度名・対象・金額/上限・条件・期限/受付状況を確認できた28件を `src/data/grants/verified-local-misc-2026.ts` に追加した。
+  - 追加・更新ファイル:
+    - `src/data/grants/verified-local-misc-2026.ts`
+    - `tasks/discovery/aomori-official-coverage-009-municipalities.json`
+    - `tasks/discovery/aomori-official-coverage-009-candidates.json`
+    - `tasks/discovery/aomori-official-coverage-009-snippets.json`
+    - `tasks/discovery/aomori-official-coverage-009.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 採用:
+    - 東北町: 子育て未来支援金、物価高対応子育て応援手当、結婚新生活支援事業、医療・福祉職子育て世帯移住支援金、地方就職支援金、空家リフォーム事業費補助金、空家除却促進事業費補助金。
+    - 六ヶ所村: 子宝祝金支給事業、乳幼児等医療費給付事業、ひとり親家庭等医療費給付事業、低所得の妊婦に対する初回産科受診料助成金、修学及び実習等に係る予防接種等費用助成事業、令和8年度ひとり親世帯臨時特別給付金。
+    - おいらせ町: 子どもの医療費助成、ひとり親家庭等の医療費助成、妊婦のための支援給付、ハイリスク妊産婦等アクセス支援事業、甲洋・下田小学校区子育て世代定住助成金、家庭用生ごみ処理機購入補助金、地域振興協議会公募支援事業助成金、がん患者医療用補整具助成事業、がん検診初回精密検査費補助金、大会出場補助金。
+    - 大間町: 子宝祝金、妊婦支援給付金、医療・福祉職子育て世帯移住支援金、移住支援金、帯状疱疹ワクチン接種費用助成。
+  - 保留継続:
+    - 東北町農林水産業経営基盤強化推進事業はHTML本文で補助率・上限がパンフレット参照のため、PDF精査後に採用判定する。東北町奨学金制度は貸付中心のため低優先に残す。
+    - 六ヶ所村未熟児養育医療、おいらせ町未熟児養育医療給付は公費負担制度として確認済みだが、所得連動自己負担や個別上限整理が必要なため保留する。
+    - おいらせ町就学援助制度は対象経費は確認できるが公式本文で具体的支給額が不足するため保留する。企業向け支援制度等は外部制度紹介・企業誘致情報中心のため町独自個別制度の確認まで低優先に残す。
+    - 大間町の出産育児一時金、児童扶養手当、特別児童扶養手当、障害児福祉手当等は全国制度案内として低優先に残す。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: 今回追加slugの重複0。
+    - `node scripts/check-grant-source-urls.mjs --slug <28 slugs> --timeout-ms 60000 --concurrency 4`: checked 30、failures 0。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7596、officialLinkedActive 7558、manuallyVerifiedActive 7558、青森県 localOfficial 206）
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-official-coverage-009-municipalities.json tasks/discovery/aomori-official-coverage-009-candidates.json tasks/discovery/aomori-official-coverage-009-snippets.json tasks/discovery/aomori-official-coverage-009.json`: pass。
+  - 次:
+    - 02424東通村、02425風間浦村、02426佐井村、02441三戸町を自治体コード順で確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:

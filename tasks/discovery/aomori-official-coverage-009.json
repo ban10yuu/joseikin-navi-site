@@ -1,0 +1,98 @@
+{
+  "batchId": "aomori-comprehensive-official-coverage-009",
+  "prefecture": "青森県",
+  "checkedAt": "2026-07-12T09:28:00+09:00",
+  "municipalities": [
+    {
+      "code": "02408",
+      "name": "東北町",
+      "adopted": 7,
+      "held": [
+        "農林水産業経営基盤強化推進事業はHTML本文で金額・補助率がパンフレット参照となっており、PDF精査後に採用判定する。",
+        "奨学金制度は無利子貸付中心のため、返還支援等の給付型個別制度が確認できるまで低優先に残す。",
+        "農林水産業・カテゴリ・助成一覧導線は第2巡台帳として候補JSONへ残す。"
+      ]
+    },
+    {
+      "code": "02411",
+      "name": "六ヶ所村",
+      "adopted": 6,
+      "held": [
+        "未熟児養育医療は公費負担制度として本文確認済みだが、徴収金基準が所得連動で個別上限整理が必要なため今回は保留。",
+        "児童手当・児童扶養手当・特別児童扶養手当・出産育児一時金は全国制度案内として低優先に残す。",
+        "各種予防接種ページは個別助成額・対象年度が揃うものだけ次巡で確認する。"
+      ]
+    },
+    {
+      "code": "02412",
+      "name": "おいらせ町",
+      "adopted": 10,
+      "held": [
+        "未熟児養育医療給付は公費負担制度として確認済みだが、所得連動自己負担があり上限整理が必要なため保留。",
+        "就学援助制度は対象経費は確認できるが公式本文で具体的支給額が不足するため保留。",
+        "企業向け支援制度等は外部制度紹介・企業誘致情報中心のため、町独自の個別給付制度ページ確認まで低優先に残す。"
+      ]
+    },
+    {
+      "code": "02423",
+      "name": "大間町",
+      "adopted": 5,
+      "held": [
+        "出産育児一時金、児童扶養手当、特別児童扶養手当、障害児福祉手当等は全国制度案内として低優先に残す。",
+        "その他ライフステージ・カテゴリページは個別制度ページで金額・対象・条件が揃うもののみ次巡で採用する。"
+      ]
+    }
+  ],
+  "sourceFiles": [
+    "tasks/discovery/aomori-official-coverage-009-municipalities.json",
+    "tasks/discovery/aomori-official-coverage-009-candidates.json",
+    "tasks/discovery/aomori-official-coverage-009-snippets.json"
+  ],
+  "candidateStats": {
+    "initialCandidates": 1145,
+    "snippetSelected": 320,
+    "snippetFetched": 282,
+    "snippetKept": 282
+  },
+  "adoptedCount": 28,
+  "heldCount": 11,
+  "addedSlugs": [
+    "tohoku-child-future-support-2026",
+    "tohoku-childcare-price-support-2026",
+    "tohoku-marriage-new-life-support-2026",
+    "tohoku-medical-welfare-childcare-migration-support-2026",
+    "tohoku-local-job-student-support-2026",
+    "tohoku-vacant-house-renovation-subsidy-2026",
+    "tohoku-vacant-house-demolition-subsidy-2026",
+    "rokkasho-childbirth-celebration-grant-2026",
+    "rokkasho-child-medical-expense-subsidy-2026",
+    "rokkasho-single-parent-medical-expense-subsidy-2026",
+    "rokkasho-low-income-pregnant-first-visit-subsidy-2026",
+    "rokkasho-study-practice-vaccination-subsidy-2026",
+    "rokkasho-single-parent-temporary-benefit-2026",
+    "oirase-child-medical-expense-subsidy-2026",
+    "oirase-single-parent-medical-expense-subsidy-2026",
+    "oirase-pregnant-women-support-benefit-2026",
+    "oirase-high-risk-pregnant-access-support-2026",
+    "oirase-koyo-shimoda-childcare-settlement-subsidy-2026",
+    "oirase-food-waste-processor-subsidy-2026",
+    "oirase-regional-promotion-public-support-grant-2026",
+    "oirase-cancer-appearance-care-subsidy-2026",
+    "oirase-cancer-first-precision-test-subsidy-2026",
+    "oirase-tournament-participation-subsidy-2026",
+    "ooma-childbirth-celebration-grant-2026",
+    "ooma-pregnant-women-support-benefit-2026",
+    "ooma-medical-welfare-childcare-migration-support-2026",
+    "ooma-migration-support-2026",
+    "ooma-shingles-vaccine-subsidy-2026"
+  ],
+  "next": {
+    "code": "aomori-comprehensive-official-coverage-010",
+    "municipalities": [
+      { "code": "02424", "name": "東通村" },
+      { "code": "02425", "name": "風間浦村" },
+      { "code": "02426", "name": "佐井村" },
+      { "code": "02441", "name": "三戸町" }
+    ]
+  }
+}

@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T08:54:17+09:00",
+  "updatedAt": "2026-07-12T09:28:00+09:00",
   "mode": "hokkaido-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "aomori-comprehensive-official-coverage-008",
-    "municipality": "野辺地町・七戸町・六戸町・横浜町",
-    "adopted": 29,
-    "held": 4,
+    "code": "aomori-comprehensive-official-coverage-009",
+    "municipality": "東北町・六ヶ所村・おいらせ町・大間町",
+    "adopted": 28,
+    "held": 11,
     "excluded": 0,
-    "sourceUrlsChecked": 29,
+    "sourceUrlsChecked": 30,
     "validation": {
-      "previousMunicipality": "青森県公式棚卸し008として、野辺地町4件、七戸町8件、六戸町5件、横浜町12件の計29件を公式本文で必須項目確認後にデータ反映。候補922件のためスニペット260件を再スコアリング。",
+      "previousMunicipality": "青森県公式棚卸し009として、東北町7件、六ヶ所村6件、おいらせ町10件、大間町5件の計28件を公式本文/PDFで必須項目確認後にデータ反映。候補1145件のためスニペット320件を再スコアリングし、282件を保持。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --slug <29 slugs> checked 29 failures 0",
-      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-official-coverage-008-municipalities.json tasks/discovery/aomori-official-coverage-008-candidates.json tasks/discovery/aomori-official-coverage-008-snippets.json tasks/discovery/aomori-official-coverage-008.json",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7571, officialLinkedActive 7533, manuallyVerifiedActive 7533, Aomori localOfficial 181"
+      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --slug <28 slugs> checked 30 failures 0",
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-official-coverage-009-municipalities.json tasks/discovery/aomori-official-coverage-009-candidates.json tasks/discovery/aomori-official-coverage-009-snippets.json tasks/discovery/aomori-official-coverage-009.json",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7596, officialLinkedActive 7558, manuallyVerifiedActive 7558, Aomori localOfficial 206"
     }
   },
   "next": {
-    "code": "aomori-comprehensive-official-coverage-009",
+    "code": "aomori-comprehensive-official-coverage-010",
     "municipality": "青森県",
-    "shortlist": "野辺地町・七戸町・六戸町・横浜町から29件をデータ反映。候補922件のためスニペット260件で再スコアリングし、貸付・住宅情報・カテゴリページ等は保留又は低優先に残した。",
-    "instructions": "次は青森県009として、02408東北町、02411六ヶ所村、02412おいらせ町、02423大間町を自治体コード順に確認する。既存rawの有無に依存せず、公式サイト単位で補助金・助成金・給付金・一時金等の制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約を確認する。"
+    "shortlist": "東北町・六ヶ所村・おいらせ町・大間町から28件をデータ反映。候補1145件のためスニペット320件で再スコアリングし、貸付・全国制度案内・個別上限不足・カテゴリページ等は保留又は低優先に残した。",
+    "instructions": "次は青森県010として、02424東通村、02425風間浦村、02426佐井村、02441三戸町を自治体コード順に確認する。既存rawの有無に依存せず、公式サイト単位で補助金・助成金・給付金・一時金等の制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約を確認する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
