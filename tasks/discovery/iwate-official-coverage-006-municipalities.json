@@ -1,0 +1,26 @@
+{
+  "batchId": "iwate-comprehensive-official-coverage-006",
+  "prefecture": "岩手県",
+  "municipalities": [
+    {
+      "code": "03366",
+      "name": "西和賀町",
+      "officialBaseUrl": "https://www.town.nishiwaga.lg.jp/"
+    },
+    {
+      "code": "03381",
+      "name": "金ケ崎町",
+      "officialBaseUrl": "https://www.town.kanegasaki.iwate.jp/"
+    },
+    {
+      "code": "03402",
+      "name": "平泉町",
+      "officialBaseUrl": "https://www.town.hiraizumi.iwate.jp/"
+    },
+    {
+      "code": "03441",
+      "name": "住田町",
+      "officialBaseUrl": "https://www.town.sumita.iwate.jp/"
+    }
+  ]
+}

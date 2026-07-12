@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T11:55:00+09:00",
+  "updatedAt": "2026-07-12T11:56:21+09:00",
   "mode": "iwate-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "iwate-comprehensive-official-coverage-005",
-    "municipality": "葛巻町・岩手町・紫波町・矢巾町",
-    "adopted": 32,
-    "held": 36,
+    "code": "iwate-comprehensive-official-coverage-006",
+    "municipality": "西和賀町・金ケ崎町・平泉町・住田町",
+    "adopted": 18,
+    "held": 10,
     "excluded": 0,
-    "sourceUrlsChecked": 32,
+    "sourceUrlsChecked": 18,
     "validation": {
-      "previousMunicipality": "岩手県公式棚卸し005として、03302葛巻町、03303岩手町、03321紫波町、03322矢巾町を確認。自動Discoveryはfull/deep設定とlight設定の2回とも長時間停止したため、公式ドメイン検索と公式本文抽出で制度名・対象・金額/上限・条件・期限/受付状況を確認し、葛巻町12件・岩手町6件・紫波町4件・矢巾町10件をデータ反映。",
+      "previousMunicipality": "岩手県公式棚卸し006として、03366西和賀町、03381金ケ崎町、03402平泉町、03441住田町を確認。前回005で自動Discoveryが長時間停止したため、公式ドメイン検索と公式本文/PDF抽出で制度名・対象・金額/上限・条件・期限/受付状況を確認し、西和賀町5件・金ケ崎町5件・平泉町5件・住田町3件をデータ反映。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --slug <32 slugs> --timeout-ms 60000 --concurrency 4 checked 32 failures 0",
-      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-005-municipalities.json tasks/discovery/iwate-official-coverage-005.json",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7741, officialLinkedActive 7703, manuallyVerifiedActive 7703, Iwate localOfficial 161"
+      "urlReachability": "pass: 18 officialUrl entries returned HTTP 200",
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-006-municipalities.json tasks/discovery/iwate-official-coverage-006.json",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7754, officialLinkedActive 7716, manuallyVerifiedActive 7716, Iwate localOfficial 174"
     }
   },
   "next": {
-    "code": "iwate-comprehensive-official-coverage-006",
+    "code": "iwate-comprehensive-official-coverage-007",
     "municipality": "岩手県",
-    "shortlist": "葛巻町12件・岩手町6件・紫波町4件・矢巾町10件をデータ反映。葛巻町の新婚ライフサポート、岩手町の木づかい住宅・まちづくり・生ごみ、紫波町の妊娠出産子育て助成一覧・農業、矢巾町の医療費助成・太陽光/高効率設備・インターンシップ等は第2巡で確認する。",
-    "instructions": "次は03366西和賀町、03381金ケ崎町、03402平泉町、03441住田町を自治体コード順に公式本文/PDFで確認する。"
+    "shortlist": "西和賀町5件・金ケ崎町5件・平泉町5件・住田町3件をデータ反映。西和賀町の住まいづくり応援・移住者住宅取得、金ケ崎町の町独自賃上げ支援上乗せ額、平泉町の医療費助成一覧、住田町の結婚支援・林業農業支援・広報/PDF候補は第2巡で確認する。",
+    "instructions": "次は03461大槌町、03482山田町、03483岩泉町、03484田野畑村を自治体コード順に公式本文/PDFで確認する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

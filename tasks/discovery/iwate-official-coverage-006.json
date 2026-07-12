@@ -1,0 +1,94 @@
+{
+  "batchId": "iwate-comprehensive-official-coverage-006",
+  "prefecture": "岩手県",
+  "checkedAt": "2026-07-12T11:56:21+09:00",
+  "method": {
+    "summary": "岩手県006として03366西和賀町、03381金ケ崎町、03402平泉町、03441住田町を自治体コード順に確認。前回005で自動Discoveryがfull/deep設定とlight設定の2回とも長時間停止したため、006は公式ドメイン内検索と公式本文/PDF抽出に限定し、制度名・対象・金額/上限・条件・期限/受付状況が公式ページ単位で揃うものを優先採用した。",
+    "officialDomains": [
+      "https://www.town.nishiwaga.lg.jp/",
+      "https://www.town.kanegasaki.iwate.jp/",
+      "https://www.town.hiraizumi.iwate.jp/",
+      "https://www.town.sumita.iwate.jp/"
+    ],
+    "shortlistPolicy": "制度強語に加え、金額・対象条件・期限/受付表現が公式本文内で確認できる個別ページを採用。トップ、カテゴリ、一覧、共通ナビ一致、金額又は町独自上乗せ額が本文で確認できないページは第2巡へ保留。"
+  },
+  "municipalities": [
+    {
+      "code": "03366",
+      "name": "西和賀町",
+      "adopted": [
+        "nishiwaga-newlywed-life-support-subsidy-2026",
+        "nishiwaga-startup-support-subsidy-2026",
+        "nishiwaga-tokyo-area-migration-support-grant-2026",
+        "nishiwaga-i-support-registration-subsidy-2026",
+        "nishiwaga-care-welfare-scholarship-repayment-subsidy-2026"
+      ],
+      "heldForSecondPass": [
+        "住まいづくり応援事業と移住者住宅取得補助金は令和8年度ページ/PDFの対象・金額分解を要するため保留。",
+        "医療費助成、福祉サービス、子育て支援一覧、農業・商工カテゴリ内の追加候補は個別制度ページ単位で第2巡確認。"
+      ]
+    },
+    {
+      "code": "03381",
+      "name": "金ケ崎町",
+      "adopted": [
+        "kanegasaki-care-supplies-subsidy-2026",
+        "kanegasaki-home-childcare-support-grant-2026",
+        "kanegasaki-vacant-house-acquisition-subsidy-2026",
+        "kanegasaki-vacant-house-renovation-subsidy-2026",
+        "kanegasaki-vacant-house-demolition-subsidy-2026"
+      ],
+      "heldForSecondPass": [
+        "物価高騰対策賃上げ支援事業補助金は県支援金額は本文確認できたが、町独自上乗せ額がHTML本文で確認できないため保留。",
+        "医療費助成、上下水道、農業・商工カテゴリ、空き家関連一覧以外の個別候補は第2巡確認。"
+      ]
+    },
+    {
+      "code": "03402",
+      "name": "平泉町",
+      "adopted": [
+        "hiraizumi-energy-efficient-appliance-subsidy-2026",
+        "hiraizumi-residential-new-energy-equipment-subsidy-2026",
+        "hiraizumi-septic-tank-installation-subsidy-2026",
+        "hiraizumi-childrearing-price-hike-benefit-2026",
+        "hiraizumi-pregnancy-support-benefit-2026"
+      ],
+      "heldForSecondPass": [
+        "医療費助成一覧、公務員向け児童手当案内、カテゴリ・新着一覧は制度粒度又は金額条件の再確認が必要なため保留。",
+        "一回限り給付は公式ページに金額・対象・支給時期が揃うもののみ期限付きで採用した。"
+      ]
+    },
+    {
+      "code": "03441",
+      "name": "住田町",
+      "adopted": [
+        "sumita-vacant-house-demolition-subsidy-2026",
+        "sumita-vacant-house-community-renovation-subsidy-2026",
+        "sumita-energy-efficient-appliance-subsidy-2026"
+      ],
+      "heldForSecondPass": [
+        "令和8年度奨学生募集は貸付制度のため今回採用しない。",
+        "結婚支援、林業・農業支援、生活支援給付等の広報/PDF候補は個別制度ページ又は本文抽出で金額・受付状況を再確認する。"
+      ]
+    }
+  ],
+  "counts": {
+    "adopted": 18,
+    "held": 10,
+    "excluded": 1,
+    "sourceUrlsChecked": 18,
+    "existingVerified": 0
+  },
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "duplicateSlugs": 0,
+    "urlReachability": "pass: 18 officialUrl entries returned HTTP 200",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7754, officialLinkedActive 7716, manuallyVerifiedActive 7716, Iwate localOfficial 174",
+    "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-006-municipalities.json tasks/discovery/iwate-official-coverage-006.json"
+  },
+  "next": {
+    "code": "iwate-comprehensive-official-coverage-007",
+    "municipality": "大槌町・山田町・岩泉町・田野畑村",
+    "instructions": "次は03461大槌町、03482山田町、03483岩泉町、03484田野畑村を自治体コード順に公式本文/PDFで確認する。"
+  }
+}

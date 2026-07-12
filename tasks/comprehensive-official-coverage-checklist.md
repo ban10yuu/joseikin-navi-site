@@ -3403,6 +3403,38 @@
   - 次:
     - 03366西和賀町、03381金ケ崎町、03402平泉町、03441住田町を自治体コード順で確認する。
 
+- 岩手県公式棚卸し006（西和賀町・金ケ崎町・平泉町・住田町）
+  - 対象:
+    - 03366 西和賀町
+    - 03381 金ケ崎町
+    - 03402 平泉町
+    - 03441 住田町
+  - 探索:
+    - `tasks/discovery/iwate-official-coverage-006-municipalities.json` を作成し、4町の公式サイトを対象にした。
+    - 前回005で `scripts/discover-official-candidates.mjs` が full/deep 設定と light 設定の2回とも長時間停止したため、006は公式ドメイン内検索と公式本文/PDF抽出に限定した。
+    - 制度名・対象・金額/上限・条件・期限/受付状況が公式本文で揃う個別ページを優先して採用し、トップ、一覧、カテゴリ、共通ナビ一致は第2巡台帳へ残した。
+    - `tasks/discovery/iwate-official-coverage-006.json`: 採用・保留記録。
+  - 追加:
+    - 西和賀町: 結婚新生活支援事業補助金、創業支援事業費補助金、移住支援金、i-サポ入会登録料補助、介護福祉事業所従事者奨学金返還支援補助金。
+    - 金ケ崎町: 介護用品の支給・購入費助成事業、在宅子育て応援金、空き家利活用補助金（取得）、空き家利活用補助金（自己居住用改修）、空き家除却補助金。
+    - 平泉町: 省エネ家電買換購入促進費補助金、住宅用新エネルギー設備導入促進事業補助金、浄化槽設置整備事業補助金、物価高対応子育て応援手当、妊婦のための支援給付金。
+    - 住田町: 空家等対策促進事業補助金（除却事業）、空家等対策促進事業補助金（空き家改修事業）、省エネ家電買換促進事業費補助金。
+  - 既存確認:
+    - 4町はいずれも今回の追加対象キーワードで既存データに重複する公式確認済み制度がなかったため、新規追加のみ。
+  - 保留継続:
+    - 西和賀町の住まいづくり応援事業、移住者住宅取得補助金、医療費助成、福祉サービス、子育て支援一覧、農業・商工カテゴリ内の追加候補は第2巡で確認する。
+    - 金ケ崎町の物価高騰対策賃上げ支援事業補助金は、県支援金額は確認できたが町独自上乗せ額がHTML本文で確認できないため第2巡へ保留。医療費助成、上下水道、農業・商工カテゴリ内の追加候補も第2巡へ残す。
+    - 平泉町の医療費助成一覧、公務員向け児童手当案内、カテゴリ・新着一覧は制度粒度又は金額条件の再確認が必要なため第2巡へ残す。
+    - 住田町の令和8年度奨学生募集は貸付制度のため今回採用しない。結婚支援、林業・農業支援、生活支援給付等の広報/PDF候補は第2巡で確認する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: 0。
+    - 18件の公式URL到達確認: HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7754、officialLinkedActive 7716、manuallyVerifiedActive 7716、岩手県 localOfficial 174）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-006-municipalities.json tasks/discovery/iwate-official-coverage-006.json`: pass。
+  - 次:
+    - 03461大槌町、03482山田町、03483岩泉町、03484田野畑村を自治体コード順で確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
