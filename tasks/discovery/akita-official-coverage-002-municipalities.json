@@ -1,0 +1,26 @@
+{
+  "batchId": "akita-comprehensive-official-coverage-002",
+  "prefecture": "秋田県",
+  "municipalities": [
+    {
+      "code": "05204",
+      "name": "大館市",
+      "officialBaseUrl": "https://www.city.odate.lg.jp/"
+    },
+    {
+      "code": "05206",
+      "name": "男鹿市",
+      "officialBaseUrl": "https://www.city.oga.akita.jp/"
+    },
+    {
+      "code": "05207",
+      "name": "湯沢市",
+      "officialBaseUrl": "https://www.city-yuzawa.jp/"
+    },
+    {
+      "code": "05209",
+      "name": "鹿角市",
+      "officialBaseUrl": "https://www.city.kazuno.lg.jp/"
+    }
+  ]
+}

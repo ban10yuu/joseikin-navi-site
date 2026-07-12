@@ -1,0 +1,80 @@
+{
+  "batchId": "akita-comprehensive-official-coverage-002",
+  "prefecture": "秋田県",
+  "generatedAt": "2026-07-13T01:30:00+09:00",
+  "targets": [
+    {
+      "code": "05204",
+      "name": "大館市",
+      "officialBaseUrl": "https://www.city.odate.lg.jp/",
+      "candidateCount": 41,
+      "adopted": [
+        "odate-public-transport-operator-price-support-2026",
+        "odate-potential-childcare-worker-loan-2026",
+        "odate-hansen-family-compensation-2026",
+        "odate-furusato-tax-project-support-2026"
+      ],
+      "heldForSecondPass": [
+        "保険・年金、福祉・介護、農林・商工業振興、地域振興・資源政策、まちづくり等のカテゴリ候補",
+        "住宅・創業・奨学金・空き家・子育て医療費等の個別ページ未展開候補"
+      ]
+    },
+    {
+      "code": "05206",
+      "name": "男鹿市",
+      "officialBaseUrl": "https://www.city.oga.akita.jp/",
+      "candidateCount": 3,
+      "adopted": [
+        "oga-migration-settlement-portal-support-2026",
+        "oga-furusato-tax-regional-support-2026"
+      ],
+      "heldForSecondPass": [
+        "移住・定住ポータル内の個別支援制度、住宅・奨学金・子育て医療費・創業等の詳細ページ"
+      ]
+    },
+    {
+      "code": "05207",
+      "name": "湯沢市",
+      "officialBaseUrl": "https://www.city-yuzawa.jp/",
+      "candidateCount": 61,
+      "adopted": [
+        "yuzawa-life-support-voucher-2026",
+        "yuzawa-pregnancy-childcare-support-2026",
+        "yuzawa-commercial-industry-support-2026",
+        "yuzawa-employment-labor-support-2026"
+      ],
+      "heldForSecondPass": [
+        "妊娠・出産・子育て、商工業、雇用・労働配下の個別補助・給付ページ",
+        "移住・定住、住宅、医療費、不妊治療、奨学金返還等の個別制度候補"
+      ]
+    },
+    {
+      "code": "05209",
+      "name": "鹿角市",
+      "officialBaseUrl": "https://www.city.kazuno.lg.jp/",
+      "candidateCount": 15,
+      "adopted": [
+        "kazuno-young-settlement-rent-moving-support-2026",
+        "kazuno-safe-housing-renovation-support-2026",
+        "kazuno-energy-saving-appliance-purchase-2026",
+        "kazuno-energy-saving-led-lighting-support-2026",
+        "kazuno-pregnancy-childcare-support-navigation-2026",
+        "kazuno-business-industry-support-navigation-2026"
+      ],
+      "existingConfirmed": [
+        "kazuno-energy-efficient-ac-equipment-support-2026"
+      ],
+      "heldForSecondPass": [
+        "妊娠・出産・子育て、しごと・産業配下の個別給付・補助制度",
+        "鹿角市2030ゼロカーボンシティ宣言等、制度本体ではないカテゴリ・計画候補"
+      ]
+    }
+  ],
+  "summary": {
+    "candidateCount": 120,
+    "newlyAdopted": 16,
+    "existingConfirmed": 1,
+    "urlReachability": "16/16 HTTP 200",
+    "notes": "公式候補は120件で閾値内。トップ、カテゴリ、サイトマップ、共通ナビ一致は第2巡台帳に残し、個別ページまたは公式制度群ページで制度名・対象・金額/上限・条件・受付状況が確認できるものを採用した。"
+  }
+}
