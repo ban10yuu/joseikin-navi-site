@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T02:18:01+09:00",
+  "updatedAt": "2026-07-13T02:58:00+09:00",
   "mode": "akita-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "akita-comprehensive-official-coverage-005",
-    "municipality": "藤里町・三種町・八峰町・五城目町",
-    "adopted": 29,
+    "code": "akita-comprehensive-official-coverage-006",
+    "municipality": "八郎潟町・井川町・大潟村・美郷町",
+    "adopted": 33,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 29,
+    "sourceUrlsChecked": 33,
     "validation": {
-      "previousMunicipality": "秋田県004完了済み。秋田県005として、藤里町・三種町・八峰町・五城目町の公式候補140件を生成し、藤里町・三種町・五城目町はsitemap・カテゴリ配下の個別ページも補完して29制度を追加した。トップ、一覧、カテゴリ、受付終了、制度本体が県・国の候補は第2巡台帳へ残した。",
+      "previousMunicipality": "秋田県005完了済み。秋田県006として、八郎潟町・井川町・大潟村・美郷町の公式候補223件を生成し、shortlistが150件超のためスニペット再スコアリングを行った。大潟村は通常クロール候補が不足したため公式サイトマップから個別制度ページを補完し、4自治体で33制度を追加した。トップ、一覧、カテゴリ、期限到来済み、制度本体が県・国の候補、金額不足の候補は第2巡台帳へ残した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: added Akita 005 slugs 29, duplicate count 0",
-      "urlReachability": "pass: added Akita 005 official URLs 29 entries, 27 unique URLs all HTTP 200",
-      "diffCheck": "pass: git diff --check for Akita 005 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8189, officialLinkedActive 8151, manuallyVerifiedActive 8151, Akita localOfficial 158"
+      "addedSlugUniqueness": "pass: added Akita 006 slugs 33, duplicate count 0",
+      "urlReachability": "pass: added Akita 006 official URLs 33 entries, 21 unique URLs all HTTP 200 by curl -k -L",
+      "diffCheck": "pass: git diff --check for Akita 006 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8222, officialLinkedActive 8184, manuallyVerifiedActive 8184, Akita localOfficial 191"
     }
   },
   "next": {
-    "code": "akita-comprehensive-official-coverage-006",
-    "municipality": "八郎潟町・井川町・大潟村・美郷町",
-    "shortlist": "05363八郎潟町、05366井川町、05368大潟村、05434美郷町を自治体コード順に公式サイト内検索・カテゴリ・PDF・更新情報で確認する。",
-    "instructions": "秋田県005は29制度を追加し、藤里町・三種町・八峰町・五城目町の公式候補140件とsitemap補完ページを確認済み。トップ、一覧、カテゴリ、受付終了、制度本体が県・国の候補は第2巡台帳へ残した。全国公式棚卸しは未完了のため、次は秋田県006から再開する。既存raw gap 0を全国完了扱いせず、公式ページ単位で制度名・対象・金額/上限・条件・期限/受付状況・要約を確認する。"
+    "code": "akita-comprehensive-official-coverage-007",
+    "municipality": "羽後町・東成瀬村",
+    "shortlist": "05463羽後町、05464東成瀬村を自治体コード順に公式サイト内検索・カテゴリ・PDF・更新情報で確認する。秋田県第1巡の残りは2自治体のため、この2自治体完了後に秋田県第2巡台帳へ進む。",
+    "instructions": "秋田県006は33制度を追加し、八郎潟町・井川町・大潟村・美郷町の公式候補223件とスニペット再スコアリング、大潟村公式サイトマップ補完を確認済み。トップ、一覧、カテゴリ、期限到来済み、制度本体が県・国の候補、金額不足の候補は第2巡台帳へ残した。全国公式棚卸しは未完了のため、次は秋田県007から再開する。既存raw gap 0を全国完了扱いせず、公式ページ単位で制度名・対象・金額/上限・条件・期限/受付状況・要約を確認する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

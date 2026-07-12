@@ -1,0 +1,26 @@
+{
+  "batchId": "akita-comprehensive-official-coverage-006",
+  "prefecture": "秋田県",
+  "municipalities": [
+    {
+      "code": "05363",
+      "name": "八郎潟町",
+      "officialBaseUrl": "https://www.town.hachirogata.akita.jp/"
+    },
+    {
+      "code": "05366",
+      "name": "井川町",
+      "officialBaseUrl": "https://www.town.ikawa.akita.jp/"
+    },
+    {
+      "code": "05368",
+      "name": "大潟村",
+      "officialBaseUrl": "https://www.vill.ogata.akita.jp/"
+    },
+    {
+      "code": "05434",
+      "name": "美郷町",
+      "officialBaseUrl": "https://www.town.misato.akita.jp/"
+    }
+  ]
+}

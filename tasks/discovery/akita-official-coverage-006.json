@@ -1,0 +1,122 @@
+{
+  "batchId": "akita-comprehensive-official-coverage-006",
+  "prefecture": "秋田県",
+  "generatedAt": "2026-07-13T02:55:00+09:00",
+  "targetMunicipalities": [
+    {
+      "code": "05363",
+      "name": "八郎潟町",
+      "officialBaseUrl": "https://www.town.hachirogata.akita.jp/",
+      "adopted": 5
+    },
+    {
+      "code": "05366",
+      "name": "井川町",
+      "officialBaseUrl": "https://www.town.ikawa.akita.jp/",
+      "adopted": 8
+    },
+    {
+      "code": "05368",
+      "name": "大潟村",
+      "officialBaseUrl": "https://www.vill.ogata.akita.jp/",
+      "adopted": 5
+    },
+    {
+      "code": "05434",
+      "name": "美郷町",
+      "officialBaseUrl": "https://www.town.misato.akita.jp/",
+      "adopted": 15
+    }
+  ],
+  "discovery": {
+    "candidatesFile": "tasks/discovery/akita-official-coverage-006-candidates.json",
+    "snippetsFile": "tasks/discovery/akita-official-coverage-006-snippets.json",
+    "candidateCount": 223,
+    "municipalityCount": 4,
+    "byMunicipality": {
+      "八郎潟町": {
+        "discoveredUrlCount": 120,
+        "candidateCount": 49,
+        "strongCandidateCount": 1,
+        "lowPriorityCandidateCount": 48
+      },
+      "井川町": {
+        "discoveredUrlCount": 120,
+        "candidateCount": 110,
+        "strongCandidateCount": 6,
+        "lowPriorityCandidateCount": 104
+      },
+      "大潟村": {
+        "discoveredUrlCount": 4,
+        "candidateCount": 0,
+        "strongCandidateCount": 0,
+        "lowPriorityCandidateCount": 0
+      },
+      "美郷町": {
+        "discoveredUrlCount": 120,
+        "candidateCount": 64,
+        "strongCandidateCount": 0,
+        "lowPriorityCandidateCount": 64
+      }
+    },
+    "rescoreReason": "shortlistが150件を超えたため、候補223件について短い本文スニペットを抽出して再スコアリングした。大潟村は通常クロール候補が不足したため、公式サイトマップから個別制度ページを補完した。"
+  },
+  "adopted": {
+    "total": 33,
+    "byMunicipality": {
+      "八郎潟町": [
+        "店舗出店改修等補助金",
+        "商店後継・起業者支援金",
+        "雇用促進奨励金",
+        "中小企業振興資金保証制度",
+        "企業誘致優遇制度"
+      ],
+      "井川町": [
+        "高等学校等通学定期乗車券購入助成金",
+        "高等学校通学費助成金",
+        "妊婦支援給付金1回目",
+        "妊婦支援給付金2回目",
+        "特別定額給付金事業",
+        "お誕生クーポン券",
+        "在宅保育支援助成金",
+        "チャイルドシート購入費助成"
+      ],
+      "大潟村": [
+        "在宅子育て応援事業",
+        "潟っこギフト",
+        "チャイルドシート購入助成",
+        "見守りおむつお届け事業",
+        "こども園保育料無償化"
+      ],
+      "美郷町": [
+        "木造住宅耐震診断支援・耐震改修補助事業",
+        "結婚新生活支援事業助成金",
+        "美郷暮らし促進奨励金",
+        "空き家バンク成約奨励金",
+        "空き店舗等出店促進事業補助金",
+        "中小企業持続化支援事業補助金",
+        "雇用機会創出支援事業補助金",
+        "危険空家解体事業補助金",
+        "熱中症予防・省エネエアコン設置費補助金",
+        "感震ブレーカー設置費補助金",
+        "家庭用防犯カメラ設置費補助金",
+        "妊婦支援給付金",
+        "出生祝金",
+        "在宅子育て支援給付金",
+        "子育てファミリー支援事業"
+      ]
+    }
+  },
+  "heldForSecondPass": [
+    "八郎潟町の福祉医療制度、住宅・空き家カテゴリ、カテゴリ一覧やトップページ一致候補は制度本体の独自額・受付状況を第2巡で再確認する。",
+    "井川町の物価高対応子育て応援手当は申請期限が2026年2月27日で到来済みのため掲載せず、子育て応援事業内の保育料助成、任意予防接種等は個別額の確認を第2巡へ残す。",
+    "大潟村の住まいづくり支援事業、きずな定期便、結婚新生活応援、不妊治療費助成、妊娠・出産通院サポート、給食費無償化、こども園おむつ無償化は、公式本文または添付要綱で金額・条件を再確認する。",
+    "美郷町の医療費助成、福祉・介護、農林業、空き家関連、PDF/様式のみで詳細が分かれる候補は第2巡で確認する。"
+  ],
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: added Akita 006 slugs 33, duplicate count 0",
+    "urlReachability": "pass: added Akita 006 official URLs 33 entries, 21 unique URLs all HTTP 200 by curl -k -L",
+    "notes": "Heavy audit and diff check are run after checklist/checkpoint updates."
+  }
+}
