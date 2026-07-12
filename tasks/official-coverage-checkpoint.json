@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T15:24:00+09:00",
+  "updatedAt": "2026-07-12T15:55:00+09:00",
   "mode": "miyagi-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "miyagi-comprehensive-official-coverage-second-pass-002",
-    "municipality": "気仙沼市・白石市・名取市・角田市",
-    "adopted": 6,
+    "code": "miyagi-comprehensive-official-coverage-second-pass-003",
+    "municipality": "多賀城市・岩沼市・登米市・栗原市",
+    "adopted": 16,
     "held": 0,
-    "excluded": 16,
-    "sourceUrlsChecked": 6,
+    "excluded": 11,
+    "sourceUrlsChecked": 16,
     "validation": {
-      "previousMunicipality": "宮城県公式棚卸し第2巡002として、04205気仙沼市、04206白石市、04207名取市、04208角田市の第1巡保留候補を再確認。気仙沼市予防接種、白石市定住者補助金、角田市保育料・ひとり親医療・教育訓練・奨学金を採用し、名取市重複候補とカテゴリ/旧制度/外部案内候補は採否理由を記録して解消した。",
+      "previousMunicipality": "宮城県公式棚卸し第2巡003として、04209多賀城市、04211岩沼市、04212登米市、04213栗原市の第1巡保留候補を再確認。多賀城市の介護保険料減免、岩沼市の児童扶養手当・犯罪被害者等支援金、登米市の創業・不妊・地域集会施設耐震・危険ブロック塀、栗原市の危険ブロック塀・水洗化・防犯・移住住宅・中小企業融資補給を採用し、重複候補とカテゴリ/市外制度案内候補は採否理由を記録して解消した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "duplicateSlugs": "pass: total 8019, duplicates 0",
-      "urlReachability": "pass: 6制度6URL returned HTTP 200",
-      "diffCheck": "pass: git diff --check for Miyagi second-pass 002 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7973, officialLinkedActive 7935, manuallyVerifiedActive 7935, Miyagi localOfficial 217"
+      "duplicateSlugs": "pass: total 8035, duplicates 0",
+      "urlReachability": "pass: 16制度16URL returned HTTP 200",
+      "diffCheck": "pass: git diff --check for Miyagi second-pass 003 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7988, officialLinkedActive 7950, manuallyVerifiedActive 7950, Miyagi localOfficial 232"
     }
   },
   "next": {
-    "code": "miyagi-comprehensive-official-coverage-second-pass-003",
-    "municipality": "多賀城市・岩沼市・登米市・栗原市",
-    "shortlist": "多賀城市の介護保険料減免・新入学用品費、岩沼市の児童扶養手当・犯罪被害者等支援金・小学校等入学祝金、登米市のビジネスチャンス支援・不妊検査費等、栗原市の危険ブロック塀除却・水洗化・防犯・移住定住カテゴリ候補を第2巡で確認する。",
-    "instructions": "宮城県第2巡002は気仙沼市・白石市・名取市・角田市の未判定候補を解消。次は第1巡003の保留候補を自治体コード順で確認し、公式本文/PDFで採否を確定する。"
+    "code": "miyagi-comprehensive-official-coverage-second-pass-004",
+    "municipality": "東松島市・大崎市・蔵王町・七ヶ宿町",
+    "shortlist": "東松島市の地方就職学生支援金・移住支援金・児童手当医療費カテゴリ、蔵王町の不妊検査費/不妊治療費・奨学金返還・移住支援金・医療費助成・中小企業融資、七ヶ宿町のにぎやか家族応援・住宅助成・障害福祉各助成・子ども医療費・任意予防接種等を第2巡で確認する。",
+    "instructions": "宮城県第2巡003は多賀城市・岩沼市・登米市・栗原市の未判定候補を解消。次は第1巡004の保留候補を自治体コード順で確認し、公式本文/PDFで採否を確定する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
