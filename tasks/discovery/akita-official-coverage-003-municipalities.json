@@ -1,0 +1,26 @@
+{
+  "batchId": "akita-comprehensive-official-coverage-003",
+  "prefecture": "秋田県",
+  "municipalities": [
+    {
+      "code": "05210",
+      "name": "由利本荘市",
+      "officialBaseUrl": "https://www.city.yurihonjo.lg.jp/"
+    },
+    {
+      "code": "05211",
+      "name": "潟上市",
+      "officialBaseUrl": "https://www.city.katagami.lg.jp/"
+    },
+    {
+      "code": "05212",
+      "name": "大仙市",
+      "officialBaseUrl": "https://www.city.daisen.lg.jp/"
+    },
+    {
+      "code": "05213",
+      "name": "北秋田市",
+      "officialBaseUrl": "https://www.city.kitaakita.akita.jp/"
+    }
+  ]
+}
