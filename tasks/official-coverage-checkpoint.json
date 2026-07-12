@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T08:35:00+09:00",
+  "updatedAt": "2026-07-13T08:58:00+09:00",
   "mode": "fukushima-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "fukushima-comprehensive-official-coverage-001",
-    "municipality": "福島市・会津若松市・郡山市・いわき市",
-    "adopted": 31,
+    "code": "fukushima-comprehensive-official-coverage-002",
+    "municipality": "白河市・須賀川市・喜多方市・相馬市",
+    "adopted": 25,
     "held": 10,
     "excluded": 0,
-    "sourceUrlsChecked": 31,
+    "sourceUrlsChecked": 25,
     "validation": {
-      "previousMunicipality": "福島県公式棚卸し001として、07201福島市、07202会津若松市、07203郡山市、07204いわき市の公式サイトを確認した。候補1085件が150件を超えたため本文スニペット481件を抽出して再スコアリングした。制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別ページ31件を採用した。カテゴリ、既存重複、国県制度混在、過年度又はPDF要綱未精査候補は第2巡台帳へ残した。",
+      "previousMunicipality": "福島県公式棚卸し002として、07205白河市、07207須賀川市、07208喜多方市、07209相馬市の公式サイトを確認した。候補884件が150件を超えたため本文スニペット169件を抽出して再スコアリングした。制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別ページ25件を採用した。カテゴリ、既存重複、国県制度混在、PDF別紙金額未精査候補は第2巡台帳へ残した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: added 31 slugs, duplicate count 0",
-      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 31 slugs / 31 source URLs, failures 0, all HTTP 200",
-      "diffCheck": "pass: git diff --check for Fukushima 001 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8629, officialLinkedActive 8591, manuallyVerifiedActive 8591, Fukushima localOfficial 107, Fukushima coveredCategories 8"
+      "addedSlugUniqueness": "pass: added 25 slugs, duplicate count 0",
+      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 25 slugs / 25 source URLs, failures 0, all HTTP 200",
+      "diffCheck": "pass: git diff --check for Fukushima 002 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8654, officialLinkedActive 8616, manuallyVerifiedActive 8616, Fukushima localOfficial 132, Fukushima coveredCategories 8"
     }
   },
   "next": {
-    "code": "fukushima-comprehensive-official-coverage-002",
-    "municipality": "白河市・須賀川市・喜多方市・相馬市",
-    "shortlist": "福島県公式棚卸し001で福島市・会津若松市・郡山市・いわき市から31制度を採用した。次は福島県002として自治体コード順に07205白河市、07207須賀川市、07208喜多方市、07209相馬市を確認する。",
-    "instructions": "福島県公式棚卸し002として、07205白河市、07207須賀川市、07208喜多方市、07209相馬市を自治体コード順に確認する。公式サイトの補助金・助成金・給付金・一時金等を制度ページ単位で、制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約付きで採用し、トップ、カテゴリ、サイトマップ、共通ナビ一致は削除せず第2巡台帳へ残す。既存raw gap 0を全国完了扱いしない。"
+    "code": "fukushima-comprehensive-official-coverage-003",
+    "municipality": "二本松市・田村市・南相馬市・伊達市",
+    "shortlist": "福島県公式棚卸し002で白河市・須賀川市・喜多方市・相馬市から25制度を採用した。次は福島県003として自治体コード順に07210二本松市、07211田村市、07212南相馬市、07213伊達市を確認する。",
+    "instructions": "福島県公式棚卸し003として、07210二本松市、07211田村市、07212南相馬市、07213伊達市を自治体コード順に確認する。公式サイトの補助金・助成金・給付金・一時金等を制度ページ単位で、制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約付きで採用し、トップ、カテゴリ、サイトマップ、共通ナビ一致は削除せず第2巡台帳へ残す。既存raw gap 0を全国完了扱いしない。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

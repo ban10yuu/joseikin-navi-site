@@ -1,0 +1,87 @@
+{
+  "batchId": "fukushima-comprehensive-official-coverage-002",
+  "prefecture": "福島県",
+  "municipalities": [
+    {
+      "code": "07205",
+      "name": "白河市",
+      "officialBaseUrl": "https://www.city.shirakawa.fukushima.jp/",
+      "adoptedCount": 12,
+      "adoptedSlugs": [
+        "shirakawa-marriage-new-life-start-subsidy-2026",
+        "shirakawa-pregnant-medical-expense-subsidy-2026",
+        "shirakawa-moving-subsidy-2026",
+        "shirakawa-house-acquisition-subsidy-2026",
+        "shirakawa-migration-employment-support-grant-2026",
+        "shirakawa-infertility-treatment-subsidy-2026",
+        "shirakawa-vacant-house-renovation-subsidy-2026",
+        "shirakawa-dangerous-tree-felling-subsidy-2026",
+        "shirakawa-u-turn-job-hunting-transport-subsidy-2026",
+        "shirakawa-administrative-subdivision-house-building-subsidy-2026",
+        "shirakawa-male-childcare-leave-incentive-2026",
+        "shirakawa-multiple-child-school-lunch-subsidy-2026"
+      ],
+      "heldForSecondPass": [
+        "白河市の子育て支援一覧、出産育児一時金、児童手当、子ども医療費、子育て応援パスポートは国県制度又は既存重複を第2巡で確認する。",
+        "街なか住宅購入補助金、農業用施設維持支援、スポーツ教室等は制度本文・補助額・現行受付を第2巡で確認する。",
+        "就学援助制度はPDF別紙の年度別金額を第2巡で確認する。"
+      ]
+    },
+    {
+      "code": "07207",
+      "name": "須賀川市",
+      "officialBaseUrl": "https://www.city.sukagawa.fukushima.jp/",
+      "adoptedCount": 2,
+      "adoptedSlugs": [
+        "sukagawa-naganuma-iwase-tourism-event-subsidy-2026",
+        "sukagawa-food-price-increase-benefit-2026"
+      ],
+      "heldForSecondPass": [
+        "須賀川市は既存登録済み制度が多いため、創業、移住、妊婦支援、空家リフォーム、不妊治療、介護用品、奨学金等は既存差分のみ第2巡で確認する。",
+        "ごみ・環境カテゴリ、トップ・募集一覧、プロポーザルは制度本体ではないため第2巡台帳に残す。"
+      ]
+    },
+    {
+      "code": "07208",
+      "name": "喜多方市",
+      "officialBaseUrl": "https://www.city.kitakata.fukushima.jp/",
+      "adoptedCount": 10,
+      "adoptedSlugs": [
+        "kitakata-assisted-reproductive-transport-subsidy-2026",
+        "kitakata-single-parent-training-benefit-2026",
+        "kitakata-doctor-nurse-rent-subsidy-2026",
+        "kitakata-nursing-study-employment-benefit-2026",
+        "kitakata-hapifukunavi-registration-subsidy-2026",
+        "kitakata-mumps-vaccination-subsidy-2026",
+        "kitakata-migrant-home-acquisition-subsidy-2026",
+        "kitakata-wooden-house-seismic-retrofit-subsidy-2026",
+        "kitakata-multiple-pregnancy-checkup-subsidy-2026",
+        "kitakata-school-expense-assistance-2026"
+      ],
+      "heldForSecondPass": [
+        "地域おこし協力隊募集、カテゴリ一覧、税減免、固定資産税軽減、災害弔慰金等は制度本体条件又は国制度混在を第2巡で確認する。",
+        "商業者・商工団体補助金一覧、ものづくり企業振興補助金、協働のまちづくり推進事業、ふるさと創生事業は本文ページ・補助額を第2巡で確認する。",
+        "環境にやさしい農業、蔵保存改修、再エネ設備、空き家補助はPDF又は一覧から制度本体を第2巡で切り分ける。"
+      ]
+    },
+    {
+      "code": "07209",
+      "name": "相馬市",
+      "officialBaseUrl": "https://www.city.soma.fukushima.jp/",
+      "adoptedCount": 1,
+      "adoptedSlugs": [
+        "soma-citizen-life-support-coupon-2026"
+      ],
+      "heldForSecondPass": [
+        "相馬市の働き方改革推進プロジェクト、妊娠・出産、結婚・離婚、就職・退職カテゴリは個別制度本文を第2巡で確認する。",
+        "公式サイトの候補が少ないため、サイト内検索・PDF・部署別ページを第2巡で追加探索する。"
+      ]
+    }
+  ],
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: added 25 slugs, duplicate count 0",
+    "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 25 slugs / 25 source URLs, failures 0, all HTTP 200",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8654, officialLinkedActive 8616, manuallyVerifiedActive 8616, Fukushima localOfficial 132, Fukushima coveredCategories 8"
+  }
+}

@@ -4488,6 +4488,31 @@
   - 次:
     - 福島県公式棚卸し002として、07205白河市、07207須賀川市、07208喜多方市、07209相馬市を確認する。
 
+- 福島県公式棚卸し002（白河市・須賀川市・喜多方市・相馬市）
+  - 対象: 07205白河市、07207須賀川市、07208喜多方市、07209相馬市。
+  - 方法:
+    - 4市の公式トップURL到達を確認し、公式候補884件を生成した。
+    - 候補数が150件を超えたため、title/h1/main/article/URLの制度強語、金額、対象条件、期限/受付表現を含む本文スニペット169件を抽出して再スコアリングした。
+    - 制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別ページ25件を採用し、カテゴリ、既存重複、国県制度混在、PDF別紙金額未精査候補は第2巡へ残した。
+  - 追加:
+    - 白河市: 新婚生活スタート応援事業補助金、妊産婦医療費助成、引越補助金、来て「しらかわ」住宅取得支援事業補助金、移住者支援就業促進事業補助金、不妊治療費助成事業、空き家バンク改修等支援事業補助金、危険木伐採補助金、Uターン就職活動交通費補助金、行政分譲地建築助成金、男性育児休業取得促進奨励金、多子世帯給食費負担軽減助成金。
+    - 須賀川市: 長沼・岩瀬地域観光イベント事業支援補助金、食料品等価格高騰対策給付金。
+    - 喜多方市: 生殖補助医療交通費支援事業助成金、ひとり親家庭高等職業訓練促進給付金等、医師・看護師確保事業支援補助金、看護職就学・就労支援事業給付金、はぴ福なび登録料助成、おたふくかぜ任意予防接種助成事業、移住者住宅取得支援事業、木造住宅耐震化支援事業、多胎妊婦追加健診費用助成、就学援助制度・新入学準備金。
+    - 相馬市: 市民生活応援商品券。
+  - 保留継続:
+    - 白河市の子育て支援一覧、出産育児一時金、児童手当、子ども医療費、街なか住宅購入補助金、農業用施設維持支援、就学援助PDF別紙金額は第2巡で確認する。
+    - 須賀川市は既存登録済み制度が多いため、創業、移住、妊婦支援、空家リフォーム、不妊治療、介護用品、奨学金等は既存差分を第2巡で確認する。
+    - 喜多方市の商業者・商工団体補助金、ものづくり企業振興補助金、協働のまちづくり推進事業、ふるさと創生事業、環境にやさしい農業、蔵保存改修、再エネ設備、空き家補助は制度本体を第2巡で切り分ける。
+    - 相馬市の働き方改革推進プロジェクト、妊娠・出産、結婚・離婚、就職・退職カテゴリは個別制度本文を第2巡で確認する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 25件、重複0。
+    - 追加した25制度25公式URLはすべて HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 8654、officialLinkedActive 8616、manuallyVerifiedActive 8616、福島県 `localOfficial` 132、福島県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-official-coverage-002-municipalities.json tasks/discovery/fukushima-official-coverage-002-candidates.json tasks/discovery/fukushima-official-coverage-002-snippets.json tasks/discovery/fukushima-official-coverage-002-details.json tasks/discovery/fukushima-official-coverage-002.json`: pass。
+  - 次:
+    - 福島県公式棚卸し003として、07210二本松市、07211田村市、07212南相馬市、07213伊達市を確認する。
+
 - 宮城県公式棚卸し009（美里町・女川町・南三陸町）
   - 対象: 04505美里町、04581女川町、04606南三陸町。
   - 方法:

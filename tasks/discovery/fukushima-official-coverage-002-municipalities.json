@@ -1,0 +1,26 @@
+{
+  "batchId": "fukushima-comprehensive-official-coverage-002",
+  "prefecture": "福島県",
+  "municipalities": [
+    {
+      "code": "07205",
+      "name": "白河市",
+      "officialBaseUrl": "https://www.city.shirakawa.fukushima.jp/"
+    },
+    {
+      "code": "07207",
+      "name": "須賀川市",
+      "officialBaseUrl": "https://www.city.sukagawa.fukushima.jp/"
+    },
+    {
+      "code": "07208",
+      "name": "喜多方市",
+      "officialBaseUrl": "https://www.city.kitakata.fukushima.jp/"
+    },
+    {
+      "code": "07209",
+      "name": "相馬市",
+      "officialBaseUrl": "https://www.city.soma.fukushima.jp/"
+    }
+  ]
+}

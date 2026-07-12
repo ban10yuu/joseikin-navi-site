@@ -1,0 +1,49 @@
+{
+  "batchId": "fukushima-comprehensive-official-coverage-002",
+  "prefecture": "福島県",
+  "municipalityCodes": [
+    "07205",
+    "07207",
+    "07208",
+    "07209"
+  ],
+  "municipalityNames": [
+    "白河市",
+    "須賀川市",
+    "喜多方市",
+    "相馬市"
+  ],
+  "candidateCount": 884,
+  "snippetCount": 169,
+  "sourceCandidateCountForSnippets": 174,
+  "adoptedCount": 25,
+  "sourceUrlsChecked": 25,
+  "heldForSecondPassCount": 10,
+  "adoptedByMunicipality": {
+    "白河市": 12,
+    "須賀川市": 2,
+    "喜多方市": 10,
+    "相馬市": 1
+  },
+  "validation": {
+    "eslint": "pass",
+    "addedSlugUniqueness": "pass",
+    "urlReachability": "pass",
+    "auditCoverage": "pass"
+  },
+  "next": {
+    "batchId": "fukushima-comprehensive-official-coverage-003",
+    "municipalityCodes": [
+      "07210",
+      "07211",
+      "07212",
+      "07213"
+    ],
+    "municipalityNames": [
+      "二本松市",
+      "田村市",
+      "南相馬市",
+      "伊達市"
+    ]
+  }
+}
