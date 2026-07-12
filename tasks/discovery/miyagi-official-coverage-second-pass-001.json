@@ -1,0 +1,94 @@
+{
+  "batchId": "miyagi-comprehensive-official-coverage-second-pass-001",
+  "prefecture": "宮城県",
+  "completedAt": "2026-07-12T15:45:00+09:00",
+  "sourceBatch": "miyagi-comprehensive-official-coverage-001",
+  "scope": [
+    {
+      "code": "04000",
+      "name": "宮城県庁",
+      "status": "second-pass-completed",
+      "adopted": 5,
+      "heldResolved": 1,
+      "notes": "県公式カテゴリ全体の保留を中小企業支援室・地域交通政策課の個別補助ページへ展開し、制度名・対象・金額/上限・条件・期限/受付状況が揃う5件を採用。カテゴリページ自体は個別制度ではないため台帳上で解消。"
+    },
+    {
+      "code": "04100",
+      "name": "仙台市",
+      "status": "second-pass-resolved-existing",
+      "adopted": 0,
+      "heldResolved": 2,
+      "notes": "カテゴリ候補と既存重複候補を確認。既存14件でこども医療、認可外保育給付、移住支援、創業支援、業務効率化支援等を登録済みで、カテゴリページは個別制度URLとして採用しない。"
+    },
+    {
+      "code": "04202",
+      "name": "石巻市",
+      "status": "second-pass-resolved-prefecture-program",
+      "adopted": 0,
+      "heldResolved": 2,
+      "notes": "石巻市の県補助案内候補は宮城県中小企業等再起支援事業補助金への市公式案内であり、制度本体は県公式ページを採用して宮城県庁分として登録。市独自制度としては採用しない。"
+    },
+    {
+      "code": "04203",
+      "name": "塩竈市",
+      "status": "second-pass-completed",
+      "adopted": 1,
+      "heldResolved": 4,
+      "notes": "カテゴリページ、旧制度ページ、金額不足候補を再確認。個別制度として人間ドック・脳検診費用助成事業を採用し、旧制度・カテゴリは採用しない。"
+    }
+  ],
+  "adoptedSlugs": [
+    "miyagi-sme-restart-support-subsidy-2026",
+    "miyagi-passenger-transport-management-support-subsidy-2026",
+    "miyagi-sme-collaboration-challenge-subsidy-2026",
+    "miyagi-sme-bcp-practice-subsidy-2026",
+    "miyagi-sme-digitalization-support-subsidy-2026",
+    "shiogama-human-brain-dock-subsidy-2026"
+  ],
+  "resolvedSecondPassCandidates": [
+    "宮城県庁の県公式カテゴリ全体は、県公式個別補助ページ5件へ展開して採用し、カテゴリページ自体は不採用。",
+    "仙台市のカテゴリ候補と既存重複候補は、既存14件で主要制度登録済みのため新規重複追加なし。",
+    "石巻市の県補助案内候補は、宮城県中小企業等再起支援事業補助金として県公式URLを採用し、市独自制度としては不採用。",
+    "塩竈市のカテゴリページ・旧制度ページ・金額不足候補は不採用。人間ドック・脳検診費用助成事業のみ採用。"
+  ],
+  "sourceEvidence": [
+    {
+      "slug": "miyagi-sme-restart-support-subsidy-2026",
+      "officialUrl": "https://www.pref.miyagi.jp/soshiki/chukisi/saiki-r8.html",
+      "evidence": "県内中小企業等、営業利益率又は売上高減少、令和8年6月26日から7月27日、上限100万円又は120万円。"
+    },
+    {
+      "slug": "miyagi-passenger-transport-management-support-subsidy-2026",
+      "officialUrl": "https://www.pref.miyagi.jp/soshiki/soukou/miyagi-transport-support.html",
+      "evidence": "旅客運送事業者、システム・キャッシュレス機器、二次公募令和8年7月10日から12月25日、補助率2分の1又は3分の1。"
+    },
+    {
+      "slug": "miyagi-sme-collaboration-challenge-subsidy-2026",
+      "officialUrl": "https://www.pref.miyagi.jp/soshiki/chukisi/challenge/kyodoka.html",
+      "evidence": "2者以上の中小企業等グループ、共同化・事業連携、令和8年6月30日まで、上限200万円又は500万円。"
+    },
+    {
+      "slug": "miyagi-sme-bcp-practice-subsidy-2026",
+      "officialUrl": "https://www.pref.miyagi.jp/soshiki/chukisi/bcp-hojokin2026.html",
+      "evidence": "事業継続力強化計画等、備蓄品・設備、令和8年7月31日まで、上限50万円又は500万円。"
+    },
+    {
+      "slug": "miyagi-sme-digitalization-support-subsidy-2026",
+      "officialUrl": "https://www.pref.miyagi.jp/soshiki/chukisi/r8digital-shien.html",
+      "evidence": "県内中小企業等のデジタル化、補助率2分の1以内、上限250万円・賃上げ加算最大300万円、メニュー別受付。"
+    },
+    {
+      "slug": "shiogama-human-brain-dock-subsidy-2026",
+      "officialUrl": "https://www.city.shiogama.miyagi.jp/soshiki/14/51228.html",
+      "evidence": "塩竈市国保加入の対象年齢、人間ドック無料、脳検診上限1万円、令和8年10月31日まで。"
+    }
+  ],
+  "sourceUrlsChecked": 10,
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "duplicateSlugs": "pass: total 8013, duplicates 0",
+    "urlReachability": "pass: 6制度10URL returned HTTP 200",
+    "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-second-pass-001.json",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7967, officialLinkedActive 7929, manuallyVerifiedActive 7929, Miyagi localOfficial 211"
+  }
+}

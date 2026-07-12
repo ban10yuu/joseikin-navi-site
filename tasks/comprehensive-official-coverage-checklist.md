@@ -3714,6 +3714,27 @@
   - 次:
     - 宮城県第1巡は自治体コード順の末尾まで到達。次は宮城県第2巡台帳の未判定候補を公式本文/PDFで確認し、候補未判定を解消する。
 
+- 宮城県公式棚卸し第2巡001（宮城県庁・仙台市・石巻市・塩竈市）
+  - 対象: 04000宮城県庁、04100仙台市、04202石巻市、04203塩竈市。
+  - 方法:
+    - 第1巡001の保留候補（県公式カテゴリ全体、仙台市カテゴリ/既存重複、石巻市の県補助案内、塩竈市カテゴリ・旧制度・金額不足候補）を再確認した。
+    - 宮城県庁は県公式カテゴリから中小企業支援室・地域交通政策課の個別補助ページへ展開し、HTML本文とPDF要領で制度名・対象・金額/上限・条件・期限/受付状況を確認した。
+    - 仙台市は既存公式確認済み14件で主要制度登録済みのため、カテゴリページは個別制度URLとして採用しなかった。
+    - 石巻市の「宮城県中小企業等再起支援事業補助金」候補は市公式案内だが制度本体は県制度のため、宮城県公式URLを採用して県庁分に集約した。
+    - 塩竈市は個別制度として人間ドック・脳検診費用助成事業を採用し、カテゴリ・旧制度・金額不足候補は採用しなかった。
+  - 追加:
+    - 宮城県庁: 中小企業等再起支援事業補助金、旅客運送事業者経営強化支援事業費補助金、中小企業等共同化チャレンジ事業補助金、中小企業等BCP・事業継続力強化計画実践支援補助金、中小企業等デジタル化支援事業。
+    - 塩竈市: 人間ドック・脳検診費用助成事業。
+  - 保留解消:
+    - 宮城県庁の県公式カテゴリ全体は、公式個別補助5件を採用しカテゴリ自体は不採用として解消。
+    - 仙台市のカテゴリ候補と既存重複候補は、既存制度との重複またはカテゴリページのため新規追加なしで解消。
+    - 石巻市の県補助案内候補は、宮城県制度として県公式URLを採用し、市独自制度としては追加しないことで解消。
+    - 塩竈市のカテゴリページ・旧制度ページ・金額不足候補は不採用理由を第2巡台帳へ記録し、現行個別制度1件のみ採用。
+  - 検証:
+    - 検証は第2巡001の6制度URL到達、eslint、slug重複、coverage、diff checkをこのバッチ内で実行する。
+  - 次:
+    - 宮城県公式棚卸し第2巡002として、04205気仙沼市、04206白石市、04207名取市、04208角田市の保留候補を確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
