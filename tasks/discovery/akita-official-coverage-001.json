@@ -1,0 +1,79 @@
+{
+  "batchId": "akita-comprehensive-official-coverage-001",
+  "prefecture": "秋田県",
+  "status": "completed",
+  "completedAt": "2026-07-12T21:12:00+09:00",
+  "sourceCandidatesFile": "tasks/discovery/akita-official-coverage-001-candidates.json",
+  "targets": [
+    {
+      "code": "05000",
+      "name": "秋田県庁",
+      "officialBaseUrl": "https://www.pref.akita.lg.jp/",
+      "candidateCount": 65,
+      "existingConfirmedCount": 4,
+      "adopted": [],
+      "held": [
+        "電子手続き・入札・補助金等、組織別案内、カテゴリページは個別制度ではないため第2巡台帳へ残す。",
+        "賃上げ緊急支援事業、中小企業デジタル化導入支援事業費補助金等は県庁第2巡で個別ページ本文を再確認する。"
+      ]
+    },
+    {
+      "code": "05201",
+      "name": "秋田市",
+      "officialBaseUrl": "https://www.city.akita.lg.jp/",
+      "candidateCount": 54,
+      "existingConfirmedCount": 21,
+      "adopted": [],
+      "held": [
+        "住宅リフォーム支援事業、東京圏移住支援事業補助金、保育料・副食費助成、就学援助、上下水道助成等は既存の公式補正済み制度として確認。",
+        "カテゴリ、イベント、窓口案内、サイトマップ等は個別制度ではないため第2巡台帳へ残す。"
+      ]
+    },
+    {
+      "code": "05202",
+      "name": "能代市",
+      "officialBaseUrl": "https://www.city.noshiro.lg.jp/",
+      "candidateCount": 61,
+      "existingConfirmedCount": 0,
+      "adopted": [
+        "noshiro-migration-employment-support-2026",
+        "noshiro-young-household-housing-support-2026",
+        "noshiro-young-household-relocation-incentive-2026",
+        "noshiro-local-job-student-support-2026",
+        "noshiro-housing-reform-support-2026",
+        "noshiro-child-medical-aid-2026",
+        "noshiro-general-infertility-treatment-subsidy-2026",
+        "noshiro-specific-infertility-treatment-subsidy-2026",
+        "noshiro-recurrent-pregnancy-loss-subsidy-2026",
+        "noshiro-relation-population-creation-subsidy-2026"
+      ],
+      "held": [
+        "奨学金返還助成金、危険空家等解体撤去、浄化槽設置、地元企業人材育成、空き店舗等リノベーション等の要綱・個別案内は第2巡で本文/PDFを確認する。",
+        "カテゴリページ、部署案内、例規集一覧は第2巡台帳へ残す。"
+      ]
+    },
+    {
+      "code": "05203",
+      "name": "横手市",
+      "officialBaseUrl": "https://www.city.yokote.lg.jp/",
+      "candidateCount": 47,
+      "existingConfirmedCount": 29,
+      "adopted": [],
+      "held": [
+        "住宅、医療、就学援助、移住、除雪、浄化槽、横手市独自の公式補正済み制度を既存データで確認。",
+        "カテゴリ、更新情報、ダウンロード一覧、施設案内は個別制度ではないため第2巡台帳へ残す。"
+      ]
+    }
+  ],
+  "summary": {
+    "generatedCandidates": 227,
+    "adoptedCount": 10,
+    "existingConfirmedCount": 54,
+    "heldPolicy": "トップ、カテゴリ、サイトマップ、共通ナビ一致は低優先度として削除せず第2巡台帳へ残す。制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できた能代市の個別ページを採用した。",
+    "validation": {
+      "slugUniqueness": "pass: added Noshiro slugs 10, duplicate count 0",
+      "urlReachability": "pass: added official URLs all HTTP 200",
+      "sourceEvidence": "能代市公式ページで制度名、対象、金額/上限、条件、期限/受付状況を確認"
+    }
+  }
+}

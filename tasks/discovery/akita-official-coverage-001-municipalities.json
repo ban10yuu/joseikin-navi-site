@@ -1,0 +1,26 @@
+{
+  "batchId": "akita-comprehensive-official-coverage-001",
+  "prefecture": "秋田県",
+  "municipalities": [
+    {
+      "code": "05000",
+      "name": "秋田県庁",
+      "officialBaseUrl": "https://www.pref.akita.lg.jp/"
+    },
+    {
+      "code": "05201",
+      "name": "秋田市",
+      "officialBaseUrl": "https://www.city.akita.lg.jp/"
+    },
+    {
+      "code": "05202",
+      "name": "能代市",
+      "officialBaseUrl": "https://www.city.noshiro.lg.jp/"
+    },
+    {
+      "code": "05203",
+      "name": "横手市",
+      "officialBaseUrl": "https://www.city.yokote.lg.jp/"
+    }
+  ]
+}
