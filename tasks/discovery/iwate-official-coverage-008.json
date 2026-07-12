@@ -1,0 +1,111 @@
+{
+  "batchId": "iwate-comprehensive-official-coverage-008",
+  "prefecture": "岩手県",
+  "checkedAt": "2026-07-12T12:27:28+09:00",
+  "method": {
+    "summary": "岩手県008として03485普代村、03501軽米町、03503野田村、03506九戸村を自治体コード順に確認。公式トップ・カテゴリ・公式例規集の浅い巡回、検索結果の公式個別ページ、本文フレーム抽出により、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別ページ又は公式例規を採用した。",
+    "officialDomains": [
+      "https://www.vill.fudai.iwate.jp/",
+      "https://www.town.karumai.iwate.jp/",
+      "https://www.vill.noda.iwate.jp/",
+      "https://www.vill.kunohe.iwate.jp/"
+    ],
+    "shortlistPolicy": "補助金・助成金・給付金・支援金・奨励金・祝金・商品券等の強語、金額・対象・期限/受付の本文記載を優先。野田村は通常ページの制度本文が少ないため公式例規集の親ページ及び本文フレームで上限・対象を確認した。カテゴリ・一覧・公共交通維持等の間接支援、国/県制度色が強く町村独自条件が不足する制度、金額本文が不足する候補は保留。"
+  },
+  "municipalities": [
+    {
+      "code": "03485",
+      "name": "普代村",
+      "adopted": [
+        "fudai-solar-storage-ev-subsidy-2026",
+        "fudai-price-relief-shopping-card-2026",
+        "fudai-tax-cut-shortfall-benefit-2026",
+        "fudai-air-conditioner-installation-subsidy-2026"
+      ],
+      "heldForSecondPass": [
+        "宿泊費助成第2弾は観光誘客色が強く、現行受付・対象・予算状態を第2巡で確認する。",
+        "普代村物価高騰対策地域商品券の使用期限周知ページは給付ページと重複するため、採用は給付案内ページに集約した。"
+      ]
+    },
+    {
+      "code": "03501",
+      "name": "軽米町",
+      "adopted": [
+        "karumai-pregnant-women-support-benefit-2026",
+        "karumai-childcare-supplies-subsidy-2026",
+        "karumai-pregnancy-checkup-travel-subsidy-2026",
+        "karumai-food-waste-processor-subsidy-2026",
+        "karumai-high-school-bus-commute-subsidy-2026",
+        "karumai-wood-stove-subsidy-2026",
+        "karumai-local-employment-incentive-2026",
+        "karumai-product-development-subsidy-2026",
+        "karumai-drinking-water-supply-subsidy-2026",
+        "karumai-school-lunch-fee-subsidy-2026",
+        "karumai-zero-carbon-subsidy-2026",
+        "karumai-energy-efficient-appliance-subsidy-2026"
+      ],
+      "heldForSecondPass": [
+        "生殖補助医療、特別の理由による予防接種再接種費用助成は公式本文で助成実施・対象を確認したが、今回抽出本文では上限額・助成額の具体確認が不足するため保留。",
+        "小中学生入学祝金、結婚新生活支援事業、拡大新生児スクリーニング検査費用助成、軽米町子育て応援在宅育児支援金、おたふくかぜ予防接種助成は第2巡で個別ページとPDFを確認する。",
+        "終了表記の高速バス商品券キャンペーン、過年度の子育て世帯生活支援特別給付金は今回採用しない。"
+      ]
+    },
+    {
+      "code": "03503",
+      "name": "野田村",
+      "adopted": [
+        "noda-iwate-cooperation-team-startup-subsidy-2026",
+        "noda-community-idea-subsidy-2026",
+        "noda-local-job-support-grant-2026",
+        "noda-i-support-membership-subsidy-2026",
+        "noda-migration-support-grant-2026",
+        "noda-cancer-medical-wig-subsidy-2026"
+      ],
+      "heldForSecondPass": [
+        "がけ地近接等危険住宅移転事業補助金は金額を確認できたが、通常利用頻度の低い災害・危険住宅移転制度として第2巡で掲載粒度を確認する。",
+        "介護ロボット導入支援事業補助金は国交付要綱参照で、村例規本文だけでは村独自の上限額・補助率確認が不足するため保留。",
+        "観光施設リノベーション事業補助金は令和2年度適用の感染症影響制度で、現行受付の確認が不足するため採用しない。価格高騰緊急支援給付金・子育て世帯臨時特別支援金は過年度/期限到来のため第2巡で扱う。"
+      ]
+    },
+    {
+      "code": "03506",
+      "name": "九戸村",
+      "adopted": [
+        "kunohe-wage-increase-support-subsidy-2026",
+        "kunohe-buffer-zone-forest-subsidy-2026",
+        "kunohe-wood-stove-subsidy-2026",
+        "kunohe-assisted-reproductive-medical-subsidy-2026",
+        "kunohe-childbirth-cost-subsidy-2026",
+        "kunohe-residential-renovation-solar-subsidy-2026",
+        "kunohe-marriage-birth-congratulatory-grant-2026",
+        "kunohe-i-support-membership-subsidy-2026",
+        "kunohe-high-school-bus-commute-subsidy-2026",
+        "kunohe-migration-support-grant-2026"
+      ],
+      "heldForSecondPass": [
+        "高校生まで医療費助成、妊産婦医療費助成、老人医療費助成、通院助成、高額医療費、出産育児一時金は通常医療給付又は支給額・制度粒度整理が必要なため第2巡で確認する。",
+        "妊産婦健康診査交通費助成は助成算定方法の具体額が公式本文で不足するため保留。",
+        "林業分野の村単独補助事業PDF、環境保全型森林整備事業、バス回数券購入助成、給食費無料制度は第2巡でPDF又は個別本文を確認する。"
+      ]
+    }
+  ],
+  "counts": {
+    "adopted": 32,
+    "held": 12,
+    "excluded": 4,
+    "sourceUrlsChecked": 32,
+    "existingVerified": 0
+  },
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "duplicateSlugs": 0,
+    "urlReachability": "pass: 32 officialUrl entries returned HTTP 200",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7794, officialLinkedActive 7756, manuallyVerifiedActive 7756, Iwate localOfficial 214",
+    "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-008-municipalities.json tasks/discovery/iwate-official-coverage-008.json"
+  },
+  "next": {
+    "code": "iwate-comprehensive-official-coverage-009",
+    "municipality": "洋野町・一戸町",
+    "instructions": "次は03507洋野町、03524一戸町を自治体コード順に公式本文/PDFで確認し、岩手県の第1巡を閉じる。"
+  }
+}

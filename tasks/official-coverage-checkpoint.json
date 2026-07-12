@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T12:12:14+09:00",
+  "updatedAt": "2026-07-12T12:27:28+09:00",
   "mode": "iwate-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "iwate-comprehensive-official-coverage-007",
-    "municipality": "大槌町・山田町・岩泉町・田野畑村",
-    "adopted": 12,
-    "held": 8,
-    "excluded": 2,
-    "sourceUrlsChecked": 12,
+    "code": "iwate-comprehensive-official-coverage-008",
+    "municipality": "普代村・軽米町・野田村・九戸村",
+    "adopted": 32,
+    "held": 12,
+    "excluded": 4,
+    "sourceUrlsChecked": 32,
     "validation": {
-      "previousMunicipality": "岩手県公式棚卸し007として、03461大槌町、03482山田町、03483岩泉町、03484田野畑村を確認。公式ドメイン内の浅い巡回と公式本文/PDF抽出で制度名・対象・金額/上限・条件・期限/受付状況を確認し、大槌町3件・山田町2件・岩泉町5件・田野畑村2件をデータ反映。",
+      "previousMunicipality": "岩手県公式棚卸し008として、03485普代村、03501軽米町、03503野田村、03506九戸村を確認。公式ドメイン内の浅い巡回、公式本文/PDF、野田村公式例規集本文フレームで制度名・対象・金額/上限・条件・期限/受付状況を確認し、普代村4件・軽米町12件・野田村6件・九戸村10件をデータ反映。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "pass: 12 officialUrl entries returned HTTP 200",
-      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-007-municipalities.json tasks/discovery/iwate-official-coverage-007.json",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7764, officialLinkedActive 7726, manuallyVerifiedActive 7726, Iwate localOfficial 184"
+      "urlReachability": "pass: 32 officialUrl entries returned HTTP 200",
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-008-municipalities.json tasks/discovery/iwate-official-coverage-008.json",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7794, officialLinkedActive 7756, manuallyVerifiedActive 7756, Iwate localOfficial 214"
     }
   },
   "next": {
-    "code": "iwate-comprehensive-official-coverage-008",
+    "code": "iwate-comprehensive-official-coverage-009",
     "municipality": "岩手県",
-    "shortlist": "大槌町3件・山田町2件・岩泉町5件・田野畑村2件をデータ反映。大槌町の災害見舞金・企業支援・農林水産、山田町の移住定住・創業/新商品/省力化、岩泉町の農林水産PDF追加制度、田野畑村の出産祝金・医療費助成・子育て支援は第2巡で確認する。",
-    "instructions": "次は03485普代村、03501軽米町、03503野田村、03506九戸村を自治体コード順に公式本文/PDFで確認する。"
+    "shortlist": "普代村4件・軽米町12件・野田村6件・九戸村10件をデータ反映。普代村の宿泊費助成、軽米町の小中学生入学祝金・結婚新生活・生殖補助医療・在宅育児支援、野田村の危険住宅移転・介護ロボット・価格高騰給付、九戸村の医療費助成・林業PDF・給食費無料等は第2巡で確認する。",
+    "instructions": "次は03507洋野町、03524一戸町を自治体コード順に公式本文/PDFで確認し、岩手県の第1巡を閉じる。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

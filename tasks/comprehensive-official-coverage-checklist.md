@@ -3466,6 +3466,34 @@
   - 次:
     - 03485普代村、03501軽米町、03503野田村、03506九戸村を自治体コード順で確認する。
 
+### 岩手県公式棚卸し008（普代村・軽米町・野田村・九戸村）
+
+- 対象:
+  - 03485普代村、03501軽米町、03503野田村、03506九戸村。
+- 方法:
+  - 公式トップ・カテゴリ・公式例規集の浅い巡回、検索結果の公式個別ページ、野田村例規本文フレームを確認。
+  - 制度名・対象・金額/上限・条件・期限/受付状況が個別ページ又は公式例規で確認できるものだけ採用。
+- 追加:
+  - 普代村: 太陽光発電システム等導入促進事業補助金、物価高騰対策地域商品券給付、定額減税補足給付金（不足額給付）、エアコン設置支援事業補助金。
+  - 軽米町: 妊婦のための支援給付金、育児用品購入費助成、妊産婦健康診査交通費助成、家庭用生ごみ処理機購入助成金、高校生のバス通学費助成、薪ストーブ等利用拡大支援事業補助金、新規求職者等地域雇用促進奨励金、商品開発等促進事業補助金、飲用水確保対策事業補助制度、学校給食費助成金、ゼロカーボン推進事業費補助金、省エネ家電買換購入促進事業費補助金。
+  - 野田村: 地域おこし協力隊起業支援補助金、地域活性化アイディア実現補助金、地方就職支援金、i-サポ入会助成金、移住支援金、がん患者医療用補正具購入助成金。
+  - 九戸村: 物価高騰対策賃上げ支援補助金、緩衝帯整備補助金、薪ストーブ等設置補助金、生殖補助医療費助成、出産費用助成金、住宅新築・リフォーム・太陽光発電システム設置助成、未来結び祝金・すくすく赤ちゃん祝金、i-サポ入会金助成事業、高校生バス通学助成、移住者支援金。
+- 既存確認:
+  - 4町村はいずれも今回の追加対象キーワードで既存データに重複する公式確認済み制度がなかったため、新規追加のみ。
+- 保留継続:
+  - 普代村の宿泊費助成第2弾は観光誘客色が強く、現行受付・対象・予算状態を第2巡で確認する。地域商品券の使用期限周知ページは給付案内ページに集約した。
+  - 軽米町の生殖補助医療、特別の理由による予防接種再接種費用助成は助成実施・対象を確認したが、上限額・助成額の本文確認が不足するため保留。小中学生入学祝金、結婚新生活支援、拡大新生児スクリーニング、在宅育児支援等は第2巡で確認する。
+  - 野田村のがけ地近接等危険住宅移転事業は金額を確認できたが、災害・危険住宅移転制度として掲載粒度を第2巡で確認する。介護ロボット導入支援は国交付要綱参照で村独自上限確認が不足。観光施設リノベーションは過年度感染症影響制度で現行受付未確認のため採用しない。
+  - 九戸村の高校生まで医療費助成、妊産婦医療費助成、老人医療費助成、通院助成、高額医療費、出産育児一時金、林業分野PDF、給食費無料制度は第2巡で制度粒度・金額・受付状況を確認する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: 0。
+    - 32件の公式URL到達確認: HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7794、officialLinkedActive 7756、manuallyVerifiedActive 7756、岩手県 localOfficial 214）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-008-municipalities.json tasks/discovery/iwate-official-coverage-008.json`: pass。
+- 次:
+  - 03507洋野町、03524一戸町を自治体コード順で確認し、岩手県の第1巡を閉じる。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
