@@ -1,0 +1,26 @@
+{
+  "batchId": "iwate-comprehensive-official-coverage-005",
+  "prefecture": "岩手県",
+  "municipalities": [
+    {
+      "code": "03302",
+      "name": "葛巻町",
+      "officialBaseUrl": "https://www.town.kuzumaki.lg.jp/"
+    },
+    {
+      "code": "03303",
+      "name": "岩手町",
+      "officialBaseUrl": "https://town.iwate.iwate.jp/"
+    },
+    {
+      "code": "03321",
+      "name": "紫波町",
+      "officialBaseUrl": "https://www.town.shiwa.iwate.jp/"
+    },
+    {
+      "code": "03322",
+      "name": "矢巾町",
+      "officialBaseUrl": "https://www.town.yahaba.iwate.jp/"
+    }
+  ]
+}

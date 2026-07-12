@@ -3371,6 +3371,38 @@
   - 次:
     - 03302葛巻町、03303岩手町、03321紫波町、03322矢巾町を自治体コード順で確認する。
 
+- 岩手県公式棚卸し005（葛巻町・岩手町・紫波町・矢巾町）
+  - 対象:
+    - 03302 葛巻町
+    - 03303 岩手町
+    - 03321 紫波町
+    - 03322 矢巾町
+  - 探索:
+    - `tasks/discovery/iwate-official-coverage-005-municipalities.json` を作成し、4町の公式サイトを対象にした。
+    - `scripts/discover-official-candidates.mjs` は full/deep 設定と light 設定の2回とも長時間停止し、候補JSONを出力できなかった。
+    - 自治体公式ドメイン内検索と公式本文/PDF確認に切り替え、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別ページを優先して採用した。
+    - `tasks/discovery/iwate-official-coverage-005.json`: 採用・保留記録。
+  - 追加:
+    - 葛巻町: 定住対策住宅取得支援事業補助金、子育て世代移住者住宅取得支援事業補助金、結婚新生活支援補助金、エコ・エネ総合対策事業費補助金、中小企業者等物価高騰対策省エネルギー設備導入支援補助金、スポーツ習慣化促進事業助成金、いわて若者U・Iターン支援金、若者定住家賃補助事業、雇用拡大所得向上支援事業補助金、水洗化普及支援事業補助金、鳥獣被害防止電気柵購入費補助金、くずまキッズ予防接種助成事業。
+    - 岩手町: クラウドファンディング活用支援事業補助金、高齢者補聴器購入費助成、結婚新生活支援事業費補助金、子育て応援在宅育児支援金、子育て応援学校給食費支援事業、中小企業等エネルギー価格高騰対策支援補助金。
+    - 紫波町: 結婚新生活支援補助金、地域コミュニティセンター整備補助事業、高齢者及び障害者にやさしい住まいづくり推進事業、空家等対策総合支援事業補助金。
+    - 矢巾町: 結婚新生活支援補助金、中小企業者物価高騰対策支援金、生ごみ処理機・コンポスト容器購入費補助金、コミュニティ整備事業補助金、子育て応援在宅育児支援金、危険ブロック塀等除却工事支援事業補助金、創業支援事業補助金、高齢者にやさしい住まいづくり推進事業、保育士等奨学金返済支援補助金、集団資源回収事業奨励補助金。
+  - 既存確認:
+    - 4町はいずれも今回の追加対象キーワードで既存データに重複する公式確認済み制度がなかったため、新規追加のみ。
+  - 保留継続:
+    - 葛巻町の新婚ライフサポート事業、出産・子育て応援ギフト詳細、快適な住まいづくり・住宅関連一覧、医療費助成・福祉サービス一覧、農業・商工カテゴリ内の追加助成候補は第2巡で確認する。
+    - 岩手町の木づかい住宅関連支援、まちづくり活動支援、生ごみ処理容器等補助、医療費助成一覧、農業・畜産・商工カテゴリ内の追加候補は第2巡へ残す。
+    - 紫波町の妊娠・出産・子育て助成一覧、農業者向け補助金、障害者自動車運転免許取得等助成、医療費助成一覧、カテゴリ・組織一覧ページは第2巡へ残す。
+    - 矢巾町の医療費助成一覧、犬猫不妊去勢手術費補助、太陽光・高効率照明・空調関連支援、インターンシップ・就労支援、上下水道・農業・福祉カテゴリ内の追加候補は第2巡へ残す。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: 0。
+    - `node scripts/check-grant-source-urls.mjs --slug <32 slugs> --timeout-ms 60000 --concurrency 4`: checked 32、failures 0。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7741、officialLinkedActive 7703、manuallyVerifiedActive 7703、岩手県 localOfficial 161）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-005-municipalities.json tasks/discovery/iwate-official-coverage-005.json`: pass。
+  - 次:
+    - 03366西和賀町、03381金ケ崎町、03402平泉町、03441住田町を自治体コード順で確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:

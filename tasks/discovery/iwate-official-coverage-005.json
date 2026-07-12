@@ -1,0 +1,124 @@
+{
+  "batchId": "iwate-comprehensive-official-coverage-005",
+  "prefecture": "岩手県",
+  "checkedAt": "2026-07-12T11:55:00+09:00",
+  "municipalities": [
+    {
+      "code": "03302",
+      "name": "葛巻町",
+      "officialBaseUrl": "https://www.town.kuzumaki.lg.jp/",
+      "adopted": 12,
+      "existingVerified": 0,
+      "held": 10,
+      "excluded": 0
+    },
+    {
+      "code": "03303",
+      "name": "岩手町",
+      "officialBaseUrl": "https://town.iwate.iwate.jp/",
+      "adopted": 6,
+      "existingVerified": 0,
+      "held": 8,
+      "excluded": 0
+    },
+    {
+      "code": "03321",
+      "name": "紫波町",
+      "officialBaseUrl": "https://www.town.shiwa.iwate.jp/",
+      "adopted": 4,
+      "existingVerified": 0,
+      "held": 8,
+      "excluded": 0
+    },
+    {
+      "code": "03322",
+      "name": "矢巾町",
+      "officialBaseUrl": "https://www.town.yahaba.iwate.jp/",
+      "adopted": 10,
+      "existingVerified": 0,
+      "held": 10,
+      "excluded": 0
+    }
+  ],
+  "discovery": {
+    "method": "official-domain-targeted-search-and-body-extraction",
+    "notes": "discover-official-candidates.mjs は full/deep 設定と light 設定の2回とも長時間停止し、候補JSONを出力できなかった。自治体公式ドメイン内検索と公式本文/PDF確認に切り替え、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別ページを採用した。",
+    "candidateTotals": {
+      "discovered": null,
+      "candidates": 32,
+      "strong": 32,
+      "lowPriority": 36
+    }
+  },
+  "adoptedSlugs": [
+    "kuzumaki-settlement-home-acquisition-subsidy-2026",
+    "kuzumaki-childrearing-migrant-home-acquisition-subsidy-2026",
+    "kuzumaki-newlywed-life-support-subsidy-2026",
+    "kuzumaki-eco-energy-equipment-subsidy-2026",
+    "kuzumaki-sme-energy-saving-equipment-subsidy-2026",
+    "kuzumaki-sports-habit-promotion-grant-2026",
+    "kuzumaki-young-ui-turn-support-grant-2026",
+    "kuzumaki-young-settlement-rent-subsidy-2026",
+    "kuzumaki-employment-income-improvement-subsidy-2026",
+    "kuzumaki-flush-toilet-conversion-subsidy-2026",
+    "kuzumaki-electric-fence-subsidy-2026",
+    "kuzumaki-kids-vaccination-subsidy-2026",
+    "iwate-town-crowdfunding-support-subsidy-2026",
+    "iwate-town-elderly-hearing-aid-subsidy-2026",
+    "iwate-town-newlywed-life-support-subsidy-2026",
+    "iwate-town-home-childcare-support-grant-2026",
+    "iwate-town-school-lunch-fee-support-subsidy-2026",
+    "iwate-town-sme-energy-price-subsidy-2026",
+    "shiwa-newlywed-life-support-subsidy-2026",
+    "shiwa-community-center-development-subsidy-2026",
+    "shiwa-elderly-disabled-home-improvement-subsidy-2026",
+    "shiwa-vacant-house-community-use-subsidy-2026",
+    "yahaba-newlywed-life-support-subsidy-2026",
+    "yahaba-sme-price-hike-support-grant-2026",
+    "yahaba-food-waste-processor-subsidy-2026",
+    "yahaba-community-development-subsidy-2026",
+    "yahaba-home-childcare-support-grant-2026",
+    "yahaba-dangerous-block-wall-removal-subsidy-2026",
+    "yahaba-startup-rent-subsidy-2026",
+    "yahaba-elderly-home-improvement-subsidy-2026",
+    "yahaba-childcare-worker-scholarship-repayment-subsidy-2026",
+    "yahaba-recyclables-group-collection-subsidy-2026"
+  ],
+  "heldForSecondPass": {
+    "葛巻町": [
+      "新婚ライフサポート事業は同一ページ内の別制度として条件分離が必要",
+      "出産・子育て応援ギフト詳細ページ",
+      "快適な住まいづくり・住宅関連一覧",
+      "医療費助成・福祉サービス一覧",
+      "農業・商工カテゴリ内の追加助成候補"
+    ],
+    "岩手町": [
+      "木づかい住宅関連支援",
+      "まちづくり活動支援",
+      "生ごみ処理容器等補助",
+      "医療費助成一覧",
+      "農業・畜産・商工カテゴリ内の追加候補"
+    ],
+    "紫波町": [
+      "妊娠・出産・子育て助成一覧",
+      "農業者向け補助金",
+      "障害者自動車運転免許取得等助成",
+      "医療費助成一覧",
+      "カテゴリ・組織一覧ページ"
+    ],
+    "矢巾町": [
+      "医療費助成一覧",
+      "犬猫不妊去勢手術費補助",
+      "太陽光・高効率照明・空調関連支援",
+      "インターンシップ・就労支援",
+      "上下水道・農業・福祉カテゴリ内の追加候補"
+    ]
+  },
+  "result": {
+    "adopted": 32,
+    "existingVerified": 0,
+    "held": 36,
+    "excluded": 0,
+    "sourceUrlsChecked": 32
+  }
+}
