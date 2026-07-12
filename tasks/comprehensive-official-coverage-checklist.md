@@ -3168,6 +3168,36 @@
   - 次:
     - 02442五戸町、02443田子町、02445南部町、02446階上町を自治体コード順で確認する。
 
+- 青森県公式棚卸し011（五戸町・田子町・南部町・階上町）:
+  - 対象自治体:
+    - 02442 五戸町
+    - 02443 田子町
+    - 02445 南部町
+    - 02446 階上町
+  - Discovery:
+    - 公式トップ到達: 4自治体すべてHTTP 200。
+    - `tasks/discovery/aomori-official-coverage-011-candidates.json`: 候補469件。
+    - `tasks/discovery/aomori-official-coverage-011-snippets.json`: shortlist過多のため300件を本文スニペット抽出。
+    - `tasks/discovery/aomori-official-coverage-011.json`: 自治体別採用・保留記録。
+  - 採用:
+    - 五戸町: 高校生応援補助金、住宅用自家消費型太陽光発電設備等導入支援事業費補助金、無人航空機操縦資格取得補助金、公衆浴場燃料等価格高騰対策事業継続支援金。
+    - 田子町: 新規就農者定着支援金、語学検定料助成金、住宅リフォーム支援事業、移住支援金、若者定住移住促進住宅料補助金、しあわせのまちづくり結婚祝い金、店舗改修等事業費補助金。
+    - 南部町: 住宅新築・リフォーム支援事業、ハイリスク妊産婦アクセス支援事業、ひとり親家庭等医療費助成制度、商工業者販売促進事業費補助金、営業店舗等リフォーム補助金、創業事業費補助金。
+    - 階上町: 結婚新生活支援事業、はしかみ移住定住新築応援プロジェクト事業補助金、妊産婦等アクセス支援事業、住宅用自家消費型太陽光発電設備等導入支援事業費補助金、子ども医療費助成事業。
+  - 保留継続:
+    - 五戸町の移住支援金・移住就職等奨励金、介護サービス事業者等燃料等価格高騰対策支援金は個別本文/PDFで金額・受付状況を追加確認するまで保留。空き家バンク・移住情報・相談窓口は情報提供ページとして低優先に残す。
+    - 田子町創業支援事業費補助金は公式HTML本文だけでは補助上限額が確認できないため保留。通勤支援補助金は令和7年度受付終了表記、同窓会等支援補助金は現行年度確認待ち。子ども医療費・乳幼児医療費・ひとり親医療費は次巡で個別精査する。
+    - 南部町重度心身障害者医療費等は複数制度併記ページのため、町独自医療費助成と国・県制度を分離してから判定。あおもり米子育て応援、給食費無償化等、結婚・妊娠・共育て支援、笑顔あふれるまちづくり支援、担い手確保・経営強化支援は個別本文/PDF確認まで保留。
+    - 階上町の出産・子育て応援事業は妊婦のための支援給付金への移行状況を確認してから判定。乳幼児医療費・ひとり親家庭等医療費、住宅リフォーム・耐震診断、成人風しん予防接種等は個別本文で対象・金額・受付を再確認する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: 0。
+    - `node scripts/check-grant-source-urls.mjs --slug <22 slugs> --timeout-ms 60000 --concurrency 4`: checked 27、failures 0。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7634、officialLinkedActive 7596、manuallyVerifiedActive 7596、青森県 localOfficial 244）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-official-coverage-011-municipalities.json tasks/discovery/aomori-official-coverage-011-candidates.json tasks/discovery/aomori-official-coverage-011-snippets.json tasks/discovery/aomori-official-coverage-011.json`: pass。
+  - 次:
+    - 02450新郷村から青森県012として自治体コード順に確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:

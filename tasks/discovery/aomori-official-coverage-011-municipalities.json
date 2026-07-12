@@ -1,0 +1,26 @@
+{
+  "batchId": "aomori-comprehensive-official-coverage-011",
+  "prefecture": "青森県",
+  "municipalities": [
+    {
+      "code": "02442",
+      "name": "五戸町",
+      "officialBaseUrl": "https://www.town.gonohe.aomori.jp/"
+    },
+    {
+      "code": "02443",
+      "name": "田子町",
+      "officialBaseUrl": "https://www.town.takko.lg.jp/"
+    },
+    {
+      "code": "02445",
+      "name": "南部町",
+      "officialBaseUrl": "https://www.town.aomori-nanbu.lg.jp/"
+    },
+    {
+      "code": "02446",
+      "name": "階上町",
+      "officialBaseUrl": "https://www.town.hashikami.lg.jp/"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "batchId": "aomori-comprehensive-official-coverage-011",
+  "prefecture": "青森県",
+  "completedAt": "2026-07-12T10:25:00+09:00",
+  "municipalities": [
+    {
+      "code": "02442",
+      "name": "五戸町",
+      "adopted": 4,
+      "held": 4,
+      "excluded": 0,
+      "adoptedSlugs": [
+        "gonohe-highschool-commute-support-2026",
+        "gonohe-residential-solar-battery-subsidy-2026",
+        "gonohe-drone-license-subsidy-2026",
+        "gonohe-public-bath-fuel-price-support-2026"
+      ],
+      "heldNotes": [
+        "移住支援ページは制度導線として確認し、移住支援金・移住就職等奨励金は個別制度ページ又はPDFで金額・受付状況を再確認するまで第2巡候補に残す。",
+        "空き家バンク・移住情報ポータル・オンライン移住相談は情報提供ページであり、補助金・給付金の個別要件が揃うものだけ掲載対象とする。",
+        "介護サービス事業者等燃料等価格高騰対策支援金は一覧見出し候補として残し、個別ページ本文で対象・金額・期限確認後に判定する。"
+      ]
+    },
+    {
+      "code": "02443",
+      "name": "田子町",
+      "adopted": 7,
+      "held": 6,
+      "excluded": 0,
+      "adoptedSlugs": [
+        "takko-new-farmer-settlement-support-2026",
+        "takko-language-test-fee-subsidy-2026",
+        "takko-housing-reform-support-2026",
+        "takko-migration-employment-support-2026",
+        "takko-young-household-rent-subsidy-2026",
+        "takko-marriage-celebration-grant-2026",
+        "takko-store-renovation-subsidy-2026"
+      ],
+      "heldNotes": [
+        "令和8年度田子町創業支援事業費補助金は公式HTML本文だけでは補助上限額が確認できなかったため、チラシ又は要綱の精査まで保留する。",
+        "通勤支援補助金は令和7年度受付終了表記のため、令和8年度募集確認まで保留する。",
+        "同窓会等支援補助金は現行年度・受付状況の追加確認が必要なため保留する。",
+        "子ども医療費・乳幼児医療費・ひとり親医療費は個別ページ候補を確認したが、今回の60制度未満バッチでは次巡で公式本文を精査する。",
+        "協働のまちづくり活動支援事業はページ内募集期間が令和6年度から令和7年2月28日までのため現行受付確認まで保留する。"
+      ]
+    },
+    {
+      "code": "02445",
+      "name": "南部町",
+      "adopted": 6,
+      "held": 7,
+      "excluded": 0,
+      "adoptedSlugs": [
+        "nanbu-housing-newbuild-reform-subsidy-2026",
+        "nanbu-high-risk-maternity-access-subsidy-2026",
+        "nanbu-single-parent-medical-expense-subsidy-2026",
+        "nanbu-sales-promotion-dx-subsidy-2026",
+        "nanbu-commercial-store-renovation-subsidy-2026",
+        "nanbu-startup-business-subsidy-2026"
+      ],
+      "heldNotes": [
+        "重度心身障害者医療費等はページ内で複数制度が併記されており、町独自医療費助成と国・県制度を分離してから判定する。",
+        "あおもり米子育て応援事業、給食費無償化等は県事業又は実施状況公表との整理が必要なため保留する。",
+        "南部町結婚・妊娠・共育ての相談機会提供・支援プログラム補助金と笑顔あふれるまちづくり支援事業はリニューアル後URLの個別本文を確認できるまで保留する。",
+        "担い手確保・経営強化支援事業は達成状況・案内ページとして確認し、個別申請型制度としての対象・金額・期限を再確認する。"
+      ]
+    },
+    {
+      "code": "02446",
+      "name": "階上町",
+      "adopted": 5,
+      "held": 5,
+      "excluded": 0,
+      "adoptedSlugs": [
+        "hashikami-marriage-new-life-subsidy-2026",
+        "hashikami-new-house-settlement-subsidy-2026",
+        "hashikami-maternity-access-support-2026",
+        "hashikami-residential-solar-battery-subsidy-2026",
+        "hashikami-child-medical-expense-subsidy-2026"
+      ],
+      "heldNotes": [
+        "出産・子育て応援事業は旧制度名の可能性があるため、妊婦のための支援給付金への移行状況を確認してから判定する。",
+        "乳幼児医療費助成・ひとり親家庭等医療費助成は子ども医療費との重複整理を行い、個別本文で対象・給付範囲を確認してから掲載する。",
+        "安全安心住宅リフォーム促進支援事業と木造住宅耐震診断支援事業はページ導線から候補確認し、個別ページ本文で金額・受付状況を再確認する。",
+        "成人風しん予防接種等費用助成は対象・助成額の現行年度確認が必要なため保留する。"
+      ]
+    }
+  ],
+  "discovery": {
+    "candidateFile": "tasks/discovery/aomori-official-coverage-011-candidates.json",
+    "candidateCount": 469,
+    "snippetFile": "tasks/discovery/aomori-official-coverage-011-snippets.json",
+    "snippetKept": 300
+  },
+  "summary": {
+    "adopted": 22,
+    "held": 22,
+    "excluded": 0,
+    "sourceUrlsChecked": 27,
+    "validation": {
+      "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+      "duplicateSlugs": 0,
+      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --slug <22 slugs> checked 27 failures 0",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7634, officialLinkedActive 7596, manuallyVerifiedActive 7596, Aomori localOfficial 244",
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-official-coverage-011-municipalities.json tasks/discovery/aomori-official-coverage-011-candidates.json tasks/discovery/aomori-official-coverage-011-snippets.json tasks/discovery/aomori-official-coverage-011.json"
+    }
+  },
+  "next": {
+    "code": "aomori-comprehensive-official-coverage-012",
+    "municipality": "新郷村",
+    "instructions": "次は青森県012として、02450新郷村から自治体コード順に公式サイト棚卸しを継続する。"
+  }
+}
