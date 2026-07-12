@@ -1,0 +1,49 @@
+{
+  "batchId": "fukushima-comprehensive-official-coverage-001",
+  "prefecture": "福島県",
+  "municipalityCodes": [
+    "07201",
+    "07202",
+    "07203",
+    "07204"
+  ],
+  "municipalityNames": [
+    "福島市",
+    "会津若松市",
+    "郡山市",
+    "いわき市"
+  ],
+  "candidateCount": 1085,
+  "snippetCount": 481,
+  "sourceCandidateCountForSnippets": 689,
+  "adoptedCount": 31,
+  "sourceUrlsChecked": 31,
+  "heldForSecondPassCount": 10,
+  "adoptedByMunicipality": {
+    "福島市": 12,
+    "会津若松市": 8,
+    "郡山市": 6,
+    "いわき市": 5
+  },
+  "validation": {
+    "eslint": "pass",
+    "addedSlugUniqueness": "pass",
+    "urlReachability": "pass",
+    "auditCoverage": "pass"
+  },
+  "next": {
+    "batchId": "fukushima-comprehensive-official-coverage-002",
+    "municipalityCodes": [
+      "07205",
+      "07207",
+      "07208",
+      "07209"
+    ],
+    "municipalityNames": [
+      "白河市",
+      "須賀川市",
+      "喜多方市",
+      "相馬市"
+    ]
+  }
+}

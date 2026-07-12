@@ -1,0 +1,26 @@
+{
+  "batchId": "fukushima-comprehensive-official-coverage-001",
+  "prefecture": "福島県",
+  "municipalities": [
+    {
+      "code": "07201",
+      "name": "福島市",
+      "officialBaseUrl": "https://www.city.fukushima.fukushima.jp/"
+    },
+    {
+      "code": "07202",
+      "name": "会津若松市",
+      "officialBaseUrl": "https://www.city.aizuwakamatsu.fukushima.jp/"
+    },
+    {
+      "code": "07203",
+      "name": "郡山市",
+      "officialBaseUrl": "https://www.city.koriyama.lg.jp/"
+    },
+    {
+      "code": "07204",
+      "name": "いわき市",
+      "officialBaseUrl": "https://www.city.iwaki.lg.jp/"
+    }
+  ]
+}

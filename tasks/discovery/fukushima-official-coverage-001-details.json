@@ -1,0 +1,93 @@
+{
+  "batchId": "fukushima-comprehensive-official-coverage-001",
+  "prefecture": "福島県",
+  "municipalities": [
+    {
+      "code": "07201",
+      "name": "福島市",
+      "officialBaseUrl": "https://www.city.fukushima.fukushima.jp/",
+      "adoptedCount": 12,
+      "adoptedSlugs": [
+        "fukushima-city-shopping-street-event-subsidy-2026",
+        "fukushima-city-marriage-new-life-subsidy-2026",
+        "fukushima-city-decarbonized-housing-subsidy-2026",
+        "fukushima-city-credit-guarantee-fee-subsidy-2026",
+        "fukushima-city-office-location-support-subsidy-2026",
+        "fukushima-city-anti-scam-phone-subsidy-2026",
+        "fukushima-city-young-household-rent-support-2026",
+        "fukushima-city-business-continuity-subsidy-2026",
+        "fukushima-city-sports-tournament-incentive-2026",
+        "fukushima-city-store-opening-support-subsidy-2026",
+        "fukushima-city-crime-victim-relief-payment-2026",
+        "fukushima-city-block-wall-removal-subsidy-2026"
+      ],
+      "heldForSecondPass": [
+        "新製品・新技術開発支援は補助額・現行受付を第2巡で確認する。",
+        "空き家リフォーム、UIJターン支援、創業支援メニューは既存重複又はカテゴリページのため第2巡で制度本体を確認する。",
+        "住まいに関する補助制度一覧は国県制度混在のため個別制度単位で再確認する。"
+      ]
+    },
+    {
+      "code": "07202",
+      "name": "会津若松市",
+      "officialBaseUrl": "https://www.city.aizuwakamatsu.fukushima.jp/",
+      "adoptedCount": 8,
+      "adoptedSlugs": [
+        "aizuwakamatsu-childcare-worker-retention-subsidy-2026",
+        "aizuwakamatsu-single-parent-medical-subsidy-2026",
+        "aizuwakamatsu-mother-father-widow-welfare-loan-2026",
+        "aizuwakamatsu-school-expense-assistance-2026",
+        "aizuwakamatsu-single-parent-training-benefit-2026",
+        "aizuwakamatsu-first-prenatal-visit-subsidy-2026",
+        "aizuwakamatsu-distant-childbirth-support-subsidy-2026",
+        "aizuwakamatsu-decarbonization-leading-area-subsidy-2026"
+      ],
+      "heldForSecondPass": [
+        "結婚新生活、妊婦支援、生活応援、移住支援は既存重複候補を第2巡で差分確認する。",
+        "RS予防接種、EV導入、先端サービス実装化、会津育英会・あいづっこ奨学金は金額・年度・PDF要綱を第2巡で確認する。"
+      ]
+    },
+    {
+      "code": "07203",
+      "name": "郡山市",
+      "officialBaseUrl": "https://www.city.koriyama.lg.jp/",
+      "adoptedCount": 6,
+      "adoptedSlugs": [
+        "koriyama-water-uncontracted-household-benefit-2026",
+        "koriyama-next-generation-vehicle-subsidy-2026",
+        "koriyama-zero-carbon-equipment-subsidy-2026",
+        "koriyama-expert-utilization-support-subsidy-2026",
+        "koriyama-sme-wage-increase-support-subsidy-2026",
+        "koriyama-scholarship-proxy-repayment-introduction-subsidy-2026"
+      ],
+      "heldForSecondPass": [
+        "カテゴリ・一覧ページが多数のため、個別制度URLへ切り分けて第2巡で精査する。",
+        "結婚新生活、生殖補助交通費、創業・事業承継等は既存重複候補を第2巡で差分確認する。",
+        "育パパサポート奨励金は受付終了かつ今後予定なしのため第2巡保留とする。"
+      ]
+    },
+    {
+      "code": "07204",
+      "name": "いわき市",
+      "officialBaseUrl": "https://www.city.iwaki.lg.jp/",
+      "adoptedCount": 5,
+      "adoptedSlugs": [
+        "iwaki-regional-industry-competitiveness-subsidy-2026",
+        "iwaki-business-development-subsidy-2026",
+        "iwaki-citizen-life-support-benefit-2026",
+        "iwaki-neighborhood-association-activation-subsidy-2026",
+        "iwaki-downtown-settlement-housing-subsidy-2026"
+      ],
+      "heldForSecondPass": [
+        "太陽光、個人住宅リフォーム、移住、妊婦、子ども医療は既存重複候補を第2巡で差分確認する。",
+        "公式外サブサイトで案内される制度は、本体公式ページの有無と制度本文を第2巡で確認する。"
+      ]
+    }
+  ],
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: added 31 slugs, duplicate count 0",
+    "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 31 slugs / 31 source URLs, failures 0, all HTTP 200",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8629, officialLinkedActive 8591, manuallyVerifiedActive 8591, Fukushima localOfficial 107, Fukushima coveredCategories 8"
+  }
+}
