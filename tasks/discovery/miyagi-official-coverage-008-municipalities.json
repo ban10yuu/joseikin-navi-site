@@ -1,0 +1,26 @@
+{
+  "batchId": "miyagi-comprehensive-official-coverage-008",
+  "prefecture": "宮城県",
+  "municipalities": [
+    {
+      "code": "04424",
+      "name": "大衡村",
+      "officialBaseUrl": "https://www.village.ohira.miyagi.jp/"
+    },
+    {
+      "code": "04444",
+      "name": "色麻町",
+      "officialBaseUrl": "https://www.town.shikama.miyagi.jp/"
+    },
+    {
+      "code": "04445",
+      "name": "加美町",
+      "officialBaseUrl": "https://www.town.kami.miyagi.jp/"
+    },
+    {
+      "code": "04501",
+      "name": "涌谷町",
+      "officialBaseUrl": "https://www.town.wakuya.miyagi.jp/"
+    }
+  ]
+}

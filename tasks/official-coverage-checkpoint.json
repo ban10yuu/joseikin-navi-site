@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T15:14:00+09:00",
+  "updatedAt": "2026-07-12T15:30:00+09:00",
   "mode": "miyagi-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "miyagi-comprehensive-official-coverage-007",
-    "municipality": "七ヶ浜町・利府町・大和町・大郷町",
+    "code": "miyagi-comprehensive-official-coverage-008",
+    "municipality": "大衡村・色麻町・加美町・涌谷町",
     "adopted": 20,
-    "held": 22,
+    "held": 20,
     "excluded": 0,
     "sourceUrlsChecked": 20,
     "validation": {
-      "previousMunicipality": "宮城県公式棚卸し007として、04404七ヶ浜町、04406利府町、04421大和町、04422大郷町を確認。公式候補360件と補助スニペットから、各町5件ずつ合計20件をデータ反映。利府町・大和町はsitemap/category導線から個別制度ページへ展開し、金額・対象・申請条件が公式本文で確認できる制度を採用した。",
+      "previousMunicipality": "宮城県公式棚卸し008として、04424大衡村、04444色麻町、04445加美町、04501涌谷町を確認。公式候補583件から再帰sitemap展開と短い本文スニペット再スコアリングを行い、各自治体5件ずつ合計20件をデータ反映した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "duplicateSlugs": 0,
+      "duplicateSlugs": "pass: total 7992, duplicates 0",
       "urlReachability": "pass: 20制度20URL returned HTTP 200",
-      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-007-municipalities.json tasks/discovery/miyagi-official-coverage-007-candidates.json tasks/discovery/miyagi-official-coverage-007-snippets.json tasks/discovery/miyagi-official-coverage-007.json",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7931, officialLinkedActive 7893, manuallyVerifiedActive 7893, Miyagi localOfficial 175"
+      "diffCheck": "pass: git diff --check for Miyagi008 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7948, officialLinkedActive 7910, manuallyVerifiedActive 7910, Miyagi localOfficial 192"
     }
   },
   "next": {
-    "code": "miyagi-comprehensive-official-coverage-008",
+    "code": "miyagi-comprehensive-official-coverage-009",
     "municipality": "宮城県",
-    "shortlist": "七ヶ浜町のスポーツ振興奨励金・子ども医療費・各種予防接種、利府町のスポーツ活動派遣・妊婦支援給付PDF・第3子以降学校給食費・母子父子医療・障害者医療・脳検診、大和町の出産育児一時金・児童扶養手当・障害福祉手当・妊婦健診・子育て支援住宅要綱、大郷町の児童手当・出産育児一時金・出産祝金・産婦健診・初回産科受診・子ども医療費・空き家家財道具等処分費用助成は第2巡で確認する。",
-    "instructions": "次は04424大衡村、04444色麻町、04445加美町、04501涌谷町を自治体コード順に公式本文/PDFで確認する。"
+    "shortlist": "大衡村の医療用ウィッグ・万葉のびのび子育て・就学援助・母子父子医療、色麻町の就学援助・出産子育て応援給付金・児童手当・下水道資金貸付、加美町の心身障害者医療・難聴児補聴器・自動車改造・ファミリー住ま居る住宅取得、涌谷町の子育て世帯家計応援・十文字学園女子大学特待生・農林業者資金繰り支援は第2巡で確認する。",
+    "instructions": "次は04505美里町、04581女川町、04606南三陸町を自治体コード順に公式本文/PDFで確認する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

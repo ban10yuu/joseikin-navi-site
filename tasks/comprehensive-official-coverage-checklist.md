@@ -3672,6 +3672,27 @@
   - 次:
     - 宮城県公式棚卸し008として、04424大衡村、04444色麻町、04445加美町、04501涌谷町を自治体コード順で確認する。
 
+- 宮城県公式棚卸し008（大衡村・色麻町・加美町・涌谷町）
+  - 対象: 04424大衡村、04444色麻町、04445加美町、04501涌谷町。
+  - 方法:
+    - 公式候補583件を生成し、sitemap.dir.xmlを含む自治体は再帰sitemap展開を追加して `tasks/discovery/miyagi-official-coverage-008-snippets.json` に短い本文スニペットを抽出した。
+    - 大衡村・色麻町・加美町・涌谷町とも個別公式ページで制度名・対象・金額/上限・条件・期限/受付状況が揃う制度を採用した。
+  - 追加:
+    - 大衡村: 奨学金返還支援補助金、空き家等解体支援事業補助金、空き家家財等片付け支援事業補助金、移住支援金、定住促進補助金。
+    - 色麻町: 定住促進住宅取得等補助金、移住支援金、狩猟免許取得等助成金、木造住宅耐震診断・耐震改修助成、奨学金貸付制度。
+    - 加美町: 若鮎給付型奨学金、就学援助制度、児童手当、国民健康保険出産育児一時金、自動車運転免許証取得費補助金。
+    - 涌谷町: 移住支援金、給付型奨学金、低所得世帯物価高騰対策給付金、わくや新生活応援補助事業、中小企業等物価高騰対応緊急支援事業補助金。
+  - 保留継続:
+    - 大衡村の医療用ウィッグ・万葉のびのび子育て・就学援助・母子父子医療、色麻町の就学援助・出産子育て応援給付金・児童手当・下水道資金貸付、加美町の心身障害者医療・難聴児補聴器・自動車改造・ファミリー住ま居る住宅取得、涌谷町の子育て世帯家計応援・十文字学園女子大学特待生・農林業者資金繰り支援は第2巡で確認する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: total 7992、duplicates 0。
+    - 20制度20URLの公式URL到達確認: 全件HTTP 200。
+    - `npm run audit:coverage`: failures 0、activePublished 7948、officialLinkedActive 7910、manuallyVerifiedActive 7910、宮城県 `localOfficial` 192。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-008-municipalities.json tasks/discovery/miyagi-official-coverage-008-candidates.json tasks/discovery/miyagi-official-coverage-008-snippets.json tasks/discovery/miyagi-official-coverage-008.json`: pass。
+  - 次:
+    - 宮城県公式棚卸し009として、04505美里町、04581女川町、04606南三陸町を自治体コード順で確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
