@@ -1,0 +1,26 @@
+{
+  "batchId": "yamagata-comprehensive-official-coverage-002",
+  "prefecture": "山形県",
+  "municipalities": [
+    {
+      "code": "06204",
+      "name": "酒田市",
+      "officialBaseUrl": "https://www.city.sakata.lg.jp/"
+    },
+    {
+      "code": "06205",
+      "name": "新庄市",
+      "officialBaseUrl": "https://www.city.shinjo.yamagata.jp/"
+    },
+    {
+      "code": "06206",
+      "name": "寒河江市",
+      "officialBaseUrl": "https://www.city.sagae.yamagata.jp/"
+    },
+    {
+      "code": "06207",
+      "name": "上山市",
+      "officialBaseUrl": "https://www.city.kaminoyama.yamagata.jp/"
+    }
+  ]
+}

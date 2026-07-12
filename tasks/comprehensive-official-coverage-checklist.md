@@ -4256,6 +4256,31 @@
   - 次:
     - 山形県公式棚卸し002として、06204酒田市、06205新庄市、06206寒河江市、06207上山市を確認する。
 
+- 山形県公式棚卸し002（酒田市・新庄市・寒河江市・上山市）
+  - 対象: 06204酒田市、06205新庄市、06206寒河江市、06207上山市。
+  - 方法:
+    - `tasks/discovery/yamagata-official-coverage-002-municipalities.json` を作成し、公式サイト・sitemap・カテゴリ導線から候補1,427件を生成した。
+    - 候補数が150件を超えたため `tasks/discovery/yamagata-official-coverage-002-snippets.json` に本文スニペット420件を抽出し、制度強語、金額、対象、申請/期限表現で再スコアリングした。
+    - 公式本文で制度名・対象・金額/上限・条件・期限/受付状況が確認できる個別ページのみ採用し、トップ、カテゴリ、国制度、受付終了、本文要件不足は採用しなかった。
+  - 追加:
+    - 酒田市: 結婚新生活支援事業費補助金。
+    - 新庄市: 住宅リフォーム補助金、医療従事者奨学金返還助成金、市民募集型ガバメントクラウドファンディング事業費補助金、第二種免許取得支援事業費補助金。
+    - 寒河江市: 定住促進賃貸住宅家賃助成事業、若者定着支援未来創成事業、婚活サポート補助金、販路拡大支援事業補助金、さがえ未来人材育成支援事業補助金、経営革新事業費補助金。
+    - 上山市: 結婚新生活支援補助金、ファサード改修事業費・景観づくり推進事業費補助金、宅配ボックス設置支援事業補助金、妊婦のための支援給付金、不育症治療費助成金、不妊治療費助成金、重粒子線がん治療費助成金、奨学金貸付制度、高齢者肺炎球菌感染症予防接種費用助成、英語・漢字検定受験料補助金。
+  - 保留継続:
+    - 酒田市の市税等の災害減免、支援情報一覧、カテゴリ、相談、イベント、税・証明・マイナンバー等は補助・給付の個別制度要件又は現行申請型制度としての整理が不足するため第1巡では掲載しない。
+    - 新庄市の新庄開府400年記念市民提案事業は公式本文で2026年4月25日募集終了を確認したため掲載しない。児童扶養手当、市営住宅募集、定額減税不足額給付、カテゴリ・募集・通常行政手続は第1巡では採用しない。
+    - 寒河江市の移住支援金は県市町村連携の標準制度で、公式本文抽出では支給額確認が不足したため第2巡で要綱・チラシを精査する。地域コミュニティ活性化推進事業は交付決定一覧中心で令和8年度募集要件が不足するため掲載しない。
+    - 上山市の高齢者紙おむつ・除雪等、資源回収、太陽光発電設備等導入プロポーザル、省エネ家電受付状況、カテゴリ・通常行政手続は第2巡で個別要件を再確認する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 21件、重複0。
+    - 追加した公式URL 21件、21ユニークURLはすべて HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 8389、officialLinkedActive 8351、manuallyVerifiedActive 8351、山形県 `localOfficial` 116）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-coverage-002-municipalities.json tasks/discovery/yamagata-official-coverage-002-candidates.json tasks/discovery/yamagata-official-coverage-002-snippets.json tasks/discovery/yamagata-official-coverage-002.json`: pass。
+  - 次:
+    - 山形県公式棚卸し003として、06208村山市、06209長井市、06210天童市、06211東根市を確認する。
+
 - 宮城県公式棚卸し009（美里町・女川町・南三陸町）
   - 対象: 04505美里町、04581女川町、04606南三陸町。
   - 方法:

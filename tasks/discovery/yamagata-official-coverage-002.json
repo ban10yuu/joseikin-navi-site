@@ -1,0 +1,77 @@
+{
+  "batchId": "yamagata-official-coverage-002",
+  "prefecture": "山形県",
+  "generatedAt": "2026-07-13T06:35:00+09:00",
+  "status": "completed",
+  "municipalities": [
+    { "code": "06204", "name": "酒田市", "officialBaseUrl": "https://www.city.sakata.lg.jp/", "adopted": 1 },
+    { "code": "06205", "name": "新庄市", "officialBaseUrl": "https://www.city.shinjo.yamagata.jp/", "adopted": 4 },
+    { "code": "06206", "name": "寒河江市", "officialBaseUrl": "https://www.city.sagae.yamagata.jp/", "adopted": 6 },
+    { "code": "06207", "name": "上山市", "officialBaseUrl": "https://www.city.kaminoyama.yamagata.jp/", "adopted": 10 }
+  ],
+  "discovery": {
+    "candidateCount": 1427,
+    "snippetRescore": {
+      "rows": 1419,
+      "kept": 420
+    },
+    "municipalityCandidateCounts": [
+      { "code": "06204", "name": "酒田市", "discoveredUrlCount": 450, "candidateCount": 447, "strongCandidateCount": 3, "lowPriorityCandidateCount": 444 },
+      { "code": "06205", "name": "新庄市", "discoveredUrlCount": 450, "candidateCount": 125, "strongCandidateCount": 0, "lowPriorityCandidateCount": 125 },
+      { "code": "06206", "name": "寒河江市", "discoveredUrlCount": 450, "candidateCount": 424, "strongCandidateCount": 0, "lowPriorityCandidateCount": 424 },
+      { "code": "06207", "name": "上山市", "discoveredUrlCount": 450, "candidateCount": 431, "strongCandidateCount": 11, "lowPriorityCandidateCount": 420 }
+    ]
+  },
+  "adopted": [
+    "sakata-newlywed-life-support-2026",
+    "shinjo-housing-reform-2026",
+    "shinjo-medical-worker-scholarship-repayment-2026",
+    "shinjo-government-crowdfunding-project-subsidy-2026",
+    "shinjo-class-two-license-support-2026",
+    "sagae-rent-support-2026",
+    "sagae-young-settlement-scholarship-repayment-2026",
+    "sagae-marriage-support-2026",
+    "sagae-market-expansion-support-2026",
+    "sagae-future-human-resource-development-2026",
+    "sagae-management-innovation-support-2026",
+    "kaminoyama-newlywed-life-support-2026",
+    "kaminoyama-facade-landscape-support-2026",
+    "kaminoyama-delivery-box-support-2026",
+    "kaminoyama-pregnant-women-support-benefit-2026",
+    "kaminoyama-recurrent-pregnancy-loss-treatment-2026",
+    "kaminoyama-fertility-treatment-support-2026",
+    "kaminoyama-heavy-ion-cancer-treatment-2026",
+    "kaminoyama-scholarship-loan-2026",
+    "kaminoyama-elderly-pneumococcal-vaccine-2026",
+    "kaminoyama-english-kanji-exam-fee-support-2026"
+  ],
+  "heldOrExcluded": [
+    {
+      "municipality": "酒田市",
+      "notes": "市税等の災害減免、支援情報一覧、カテゴリ、相談、イベント、税・証明・マイナンバー等は補助・給付の個別制度要件又は現行申請型制度としての整理が不足するため第1巡では掲載しない。"
+    },
+    {
+      "municipality": "新庄市",
+      "notes": "新庄開府400年記念市民提案事業は公式本文で2026年4月25日募集終了を確認したため掲載しない。児童扶養手当、市営住宅募集、定額減税不足額給付、カテゴリ・募集・通常行政手続は第1巡では採用しない。"
+    },
+    {
+      "municipality": "寒河江市",
+      "notes": "移住支援金は県市町村連携の標準制度で、公式本文抽出では支給額確認が不足したため第2巡で要綱・チラシを精査する。地域コミュニティ活性化推進事業は交付決定一覧中心で令和8年度募集要件が不足するため掲載しない。カテゴリ、一覧、通常行政手続は第2巡台帳に残す。"
+    },
+    {
+      "municipality": "上山市",
+      "notes": "高齢者紙おむつ・除雪等、資源回収、太陽光発電設備等導入プロポーザル、省エネ家電受付状況、カテゴリ・通常行政手続は、対象・金額・受付状況の公式個別確認が揃うものだけ第2巡で確認する。"
+    }
+  ],
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: added 21 slugs, duplicate count 0",
+    "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 21 slugs, failures 0, all HTTP 200",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8389, officialLinkedActive 8351, manuallyVerifiedActive 8351, Yamagata localOfficial 116, Yamagata coveredCategories 8",
+    "diffCheck": "pass: git diff --check for Yamagata 002 files"
+  },
+  "next": {
+    "code": "yamagata-comprehensive-official-coverage-003",
+    "municipality": "村山市・長井市・天童市・東根市"
+  }
+}
