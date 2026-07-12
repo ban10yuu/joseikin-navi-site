@@ -3693,6 +3693,27 @@
   - 次:
     - 宮城県公式棚卸し009として、04505美里町、04581女川町、04606南三陸町を自治体コード順で確認する。
 
+- 宮城県公式棚卸し009（美里町・女川町・南三陸町）
+  - 対象: 04505美里町、04581女川町、04606南三陸町。
+  - 方法:
+    - 公式候補422件を生成し、公式sitemap・カテゴリ配下の再帰探索を追加して `tasks/discovery/miyagi-official-coverage-009-snippets.json` に短い本文スニペットを抽出した。
+    - 美里町は公式サイト本文がShift_JISのため、文字コード変換付きで再取得・再スコアリングした。
+    - 制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別ページを採用した。
+  - 追加:
+    - 美里町: 就学援助制度、中小企業リテンション支援補助金、子ども医療費助成、定住促進補助金・空き家再生補助金、中小企業等物価高騰支援補助金。
+    - 女川町: 空き家バンク活用促進奨励金、奨学金貸与制度、定住促進事業補助金、木造住宅耐震診断・耐震改修工事助成、創業等支援事業補助金。
+    - 南三陸町: 移住者向け賃貸住宅家賃助成事業補助金、定住マイホーム取得促進事業費補助金、不妊検査費・不妊治療費助成事業、労働力確保対策事業補助金、就労奨励金。
+  - 保留継続:
+    - 美里町の母子・父子家庭医療費助成・児童扶養手当・小学校入学給付金・妊婦支援・浄化槽設置助成・地震対策助成・返礼品創出支援、女川町の就学援助・民間賃貸住宅空室支援金・資格取得支援・商店街景観形成・立地企業奨励・障害福祉手当、南三陸町の子ども医療・障害者医療・母子父子医療・就学援助・建築物補助・看護介護修学資金・介護予防活動支援・こどもの居場所づくり支援は第2巡で確認する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: total 8007、duplicates 0。
+    - 15制度15URLの公式URL到達確認: 全件HTTP 200。
+    - `npm run audit:coverage`: failures 0、activePublished 7962、officialLinkedActive 7924、manuallyVerifiedActive 7924、宮城県 `localOfficial` 206。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-009-municipalities.json tasks/discovery/miyagi-official-coverage-009-candidates.json tasks/discovery/miyagi-official-coverage-009-snippets.json tasks/discovery/miyagi-official-coverage-009.json`: pass。
+  - 次:
+    - 宮城県第1巡は自治体コード順の末尾まで到達。次は宮城県第2巡台帳の未判定候補を公式本文/PDFで確認し、候補未判定を解消する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:

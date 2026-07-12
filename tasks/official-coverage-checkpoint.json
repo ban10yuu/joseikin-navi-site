@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T15:30:00+09:00",
+  "updatedAt": "2026-07-12T15:05:00+09:00",
   "mode": "miyagi-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "miyagi-comprehensive-official-coverage-008",
-    "municipality": "大衡村・色麻町・加美町・涌谷町",
-    "adopted": 20,
-    "held": 20,
+    "code": "miyagi-comprehensive-official-coverage-009",
+    "municipality": "美里町・女川町・南三陸町",
+    "adopted": 15,
+    "held": 23,
     "excluded": 0,
-    "sourceUrlsChecked": 20,
+    "sourceUrlsChecked": 15,
     "validation": {
-      "previousMunicipality": "宮城県公式棚卸し008として、04424大衡村、04444色麻町、04445加美町、04501涌谷町を確認。公式候補583件から再帰sitemap展開と短い本文スニペット再スコアリングを行い、各自治体5件ずつ合計20件をデータ反映した。",
+      "previousMunicipality": "宮城県公式棚卸し009として、04505美里町、04581女川町、04606南三陸町を確認。公式候補422件と再帰sitemap/カテゴリ探索から短い本文スニペットを再スコアリングし、各自治体5件ずつ合計15件をデータ反映した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "duplicateSlugs": "pass: total 7992, duplicates 0",
-      "urlReachability": "pass: 20制度20URL returned HTTP 200",
-      "diffCheck": "pass: git diff --check for Miyagi008 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7948, officialLinkedActive 7910, manuallyVerifiedActive 7910, Miyagi localOfficial 192"
+      "duplicateSlugs": "pass: total 8007, duplicates 0",
+      "urlReachability": "pass: 15制度15URL returned HTTP 200",
+      "diffCheck": "pass: git diff --check for Miyagi009 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7962, officialLinkedActive 7924, manuallyVerifiedActive 7924, Miyagi localOfficial 206"
     }
   },
   "next": {
-    "code": "miyagi-comprehensive-official-coverage-009",
+    "code": "miyagi-comprehensive-official-coverage-second-pass-001",
     "municipality": "宮城県",
-    "shortlist": "大衡村の医療用ウィッグ・万葉のびのび子育て・就学援助・母子父子医療、色麻町の就学援助・出産子育て応援給付金・児童手当・下水道資金貸付、加美町の心身障害者医療・難聴児補聴器・自動車改造・ファミリー住ま居る住宅取得、涌谷町の子育て世帯家計応援・十文字学園女子大学特待生・農林業者資金繰り支援は第2巡で確認する。",
-    "instructions": "次は04505美里町、04581女川町、04606南三陸町を自治体コード順に公式本文/PDFで確認する。"
+    "shortlist": "大衡村の医療用ウィッグ・万葉のびのび子育て・就学援助・母子父子医療、色麻町の就学援助・出産子育て応援給付金・児童手当・下水道資金貸付、加美町の心身障害者医療・難聴児補聴器・自動車改造・ファミリー住ま居る住宅取得、涌谷町の子育て世帯家計応援・十文字学園女子大学特待生・農林業者資金繰り支援、美里町の母子父子医療・小学校入学給付金・妊婦支援・浄化槽・地震対策、女川町の就学援助・民間賃貸住宅空室支援金・資格取得支援・商店街景観・企業立地奨励、南三陸町の子ども医療・障害者医療・母子父子医療・就学援助・建築物補助・看護介護修学資金は第2巡で確認する。",
+    "instructions": "宮城県の自治体コード順第1巡は04505美里町、04581女川町、04606南三陸町まで到達。次は宮城県第2巡台帳の未判定候補を公式本文/PDFで再確認し、候補未判定を解消する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
