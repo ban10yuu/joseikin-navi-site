@@ -1,0 +1,74 @@
+{
+  "batchId": "miyagi-comprehensive-official-coverage-001",
+  "prefecture": "宮城県",
+  "completedAt": "2026-07-12T13:15:00+09:00",
+  "municipalities": [
+    {
+      "code": "04000",
+      "name": "宮城県庁",
+      "status": "existing-and-held",
+      "adopted": 0,
+      "held": 1,
+      "notes": "公式個別補助候補として令和8年度宮城県旅客運送事業者経営強化支援事業費補助金を確認。県庁分は第2巡で県公式カテゴリ単位に再確認する。"
+    },
+    {
+      "code": "04100",
+      "name": "仙台市",
+      "status": "existing-confirmed",
+      "adopted": 0,
+      "held": 2,
+      "notes": "既存の仙台市公式確認済み制度14件を確認。今回候補はカテゴリ・既存重複が中心のため新規採用なし。"
+    },
+    {
+      "code": "04202",
+      "name": "石巻市",
+      "status": "existing-confirmed",
+      "adopted": 0,
+      "held": 2,
+      "notes": "既存の石巻市公式確認済み制度21件を確認。県補助への市公式案内等は第2巡保留。"
+    },
+    {
+      "code": "04203",
+      "name": "塩竈市",
+      "status": "completed",
+      "adopted": 14,
+      "held": 4,
+      "notes": "公式カテゴリ、個別制度本文、物価高騰対応中小企業者チャレンジ支援補助金の募集要領PDFを確認し、制度名・対象・金額/上限・条件・期限/受付状況が揃う14件を採用。"
+    }
+  ],
+  "adoptedSlugs": [
+    "shiogama-price-relief-childcare-support-benefit-2026",
+    "shiogama-stem-cell-revaccination-subsidy-2026",
+    "shiogama-single-parent-medical-expense-subsidy-2026",
+    "shiogama-disability-medical-expense-subsidy-2026",
+    "shiogama-child-medical-expense-subsidy-2026",
+    "shiogama-high-vocational-training-benefit-2026",
+    "shiogama-self-reliance-education-training-benefit-2026",
+    "shiogama-price-hike-sme-challenge-subsidy-2026",
+    "shiogama-small-business-challenge-subsidy-2026",
+    "shiogama-business-location-investment-incentive-2026",
+    "shiogama-seismic-diagnosis-dispatch-2026",
+    "shiogama-seismic-retrofit-subsidy-2026",
+    "shiogama-childcare-three-generation-housing-acquisition-subsidy-2026",
+    "shiogama-pregnant-women-support-benefit-2026"
+  ],
+  "heldForSecondPass": [
+    "宮城県庁の県公式カテゴリ全体",
+    "仙台市のカテゴリ候補と既存重複候補",
+    "石巻市の県補助案内候補",
+    "塩竈市のカテゴリページ、旧制度ページ、金額が本文で不十分な候補"
+  ],
+  "candidateRescore": {
+    "candidateCount": 1416,
+    "reason": "shortlist候補が150件を超えたため、公式個別ページの短い本文スニペットをローカルJSONへ抽出して採否を再スコアリングした。",
+    "snippetFile": "tasks/discovery/miyagi-official-coverage-001-snippets.json"
+  },
+  "sourceUrlsChecked": 15,
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "duplicateSlugs": 0,
+    "urlReachability": "pass: 14制度15URL returned HTTP 200",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7828, officialLinkedActive 7790, manuallyVerifiedActive 7790, Miyagi localOfficial 72",
+    "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-001-municipalities.json tasks/discovery/miyagi-official-coverage-001-candidates.json tasks/discovery/miyagi-official-coverage-001-snippets.json tasks/discovery/miyagi-official-coverage-001.json"
+  }
+}

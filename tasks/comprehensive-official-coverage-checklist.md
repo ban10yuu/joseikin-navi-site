@@ -3515,8 +3515,26 @@
   - 22制度23URLの公式URL到達確認: HTTP 200。
   - `npm run audit:coverage`: pass（failures 0、activePublished 7816、officialLinkedActive 7778、manuallyVerifiedActive 7778、岩手県 localOfficial 236）。
   - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-009-municipalities.json tasks/discovery/iwate-official-coverage-009.json`: pass。
-- 次:
-  - 宮城県公式棚卸し001として、04000宮城県庁、04100仙台市、04202石巻市、04203塩竈市を自治体コード順で確認する。
+- 宮城県公式棚卸し001（宮城県庁・仙台市・石巻市・塩竈市）
+  - 対象: 04000宮城県庁、04100仙台市、04202石巻市、04203塩竈市。
+  - 方法:
+    - 公式候補1416件を生成し、shortlistが150件を超えたため `tasks/discovery/miyagi-official-coverage-001-snippets.json` に短い本文スニペットを抽出して再スコアリングした。
+    - 宮城県庁・仙台市・石巻市は既存公式確認済み制度とカテゴリ候補を確認し、新規採用は塩竈市の個別制度ページに集中した。
+    - 塩竈市は公式カテゴリ、制度本文、物価高騰対応中小企業者チャレンジ支援補助金の募集要領PDFを確認し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別ページのみ採用した。
+  - 追加:
+    - 塩竈市: 物価高対応子育て応援手当、造血幹細胞移植後ワクチン再接種費用助成事業、母子・父子家庭医療費助成、障害者医療費助成、子ども医療費助成、高等職業訓練促進給付金等事業、自立支援教育訓練給付金事業、物価高騰対応中小企業者チャレンジ支援補助金、小規模事業者チャレンジ補助金、いきいき企業支援制度、木造住宅耐震診断助成、木造住宅耐震改修工事助成、子育て・三世代同居近居住宅取得支援事業補助金、妊婦等包括相談支援・妊婦支援給付金。
+  - 既存確認:
+    - 仙台市は既存公式確認済み制度14件、石巻市は21件を確認。今回候補はカテゴリ・既存重複・県補助案内が中心のため新規追加なし。
+  - 保留継続:
+    - 宮城県庁の県公式カテゴリ全体、仙台市のカテゴリ候補、石巻市の県補助案内候補、塩竈市のカテゴリページ・旧制度ページ・金額が本文で不十分な候補は第2巡で確認する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: 0。
+    - 14制度15URLの公式URL到達確認: HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7828、officialLinkedActive 7790、manuallyVerifiedActive 7790、宮城県 localOfficial 72）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-001-municipalities.json tasks/discovery/miyagi-official-coverage-001-candidates.json tasks/discovery/miyagi-official-coverage-001-snippets.json tasks/discovery/miyagi-official-coverage-001.json`: pass。
+  - 次:
+    - 宮城県公式棚卸し002として、04205気仙沼市、04206白石市、04207名取市、04208角田市を自治体コード順で確認する。
 
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。

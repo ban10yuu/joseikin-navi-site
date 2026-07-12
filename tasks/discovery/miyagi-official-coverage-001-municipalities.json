@@ -1,0 +1,26 @@
+{
+  "batchId": "miyagi-comprehensive-official-coverage-001",
+  "prefecture": "宮城県",
+  "municipalities": [
+    {
+      "code": "04000",
+      "name": "宮城県庁",
+      "officialBaseUrl": "https://www.pref.miyagi.jp/"
+    },
+    {
+      "code": "04100",
+      "name": "仙台市",
+      "officialBaseUrl": "https://www.city.sendai.jp/"
+    },
+    {
+      "code": "04202",
+      "name": "石巻市",
+      "officialBaseUrl": "https://www.city.ishinomaki.lg.jp/"
+    },
+    {
+      "code": "04203",
+      "name": "塩竈市",
+      "officialBaseUrl": "https://www.city.shiogama.miyagi.jp/"
+    }
+  ]
+}

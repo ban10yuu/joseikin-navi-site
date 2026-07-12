@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T12:50:00+09:00",
-  "mode": "iwate-comprehensive-official-coverage",
+  "updatedAt": "2026-07-12T13:15:00+09:00",
+  "mode": "miyagi-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "iwate-comprehensive-official-coverage-009",
-    "municipality": "洋野町・一戸町",
-    "adopted": 22,
-    "held": 6,
-    "excluded": 2,
-    "sourceUrlsChecked": 23,
+    "code": "miyagi-comprehensive-official-coverage-001",
+    "municipality": "宮城県庁・仙台市・石巻市・塩竈市",
+    "adopted": 14,
+    "held": 9,
+    "excluded": 0,
+    "sourceUrlsChecked": 15,
     "validation": {
-      "previousMunicipality": "岩手県公式棚卸し009として、03507洋野町、03524一戸町を確認。公式カテゴリ、浅い巡回候補、個別制度本文で制度名・対象・金額/上限・条件・期限/受付状況を確認し、洋野町9件・一戸町13件をデータ反映。これにより岩手県の第1巡を閉じた。",
+      "previousMunicipality": "宮城県公式棚卸し001として、04000宮城県庁、04100仙台市、04202石巻市、04203塩竈市を確認。公式候補1416件から短い本文スニペットを抽出して再スコアリングし、塩竈市14件をデータ反映。宮城県庁・仙台市・石巻市は既存確認と第2巡保留に整理した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "pass: 22制度23URL returned HTTP 200",
-      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-009-municipalities.json tasks/discovery/iwate-official-coverage-009.json",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7816, officialLinkedActive 7778, manuallyVerifiedActive 7778, Iwate localOfficial 236"
+      "urlReachability": "pass: 14制度15URL returned HTTP 200",
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-001-municipalities.json tasks/discovery/miyagi-official-coverage-001-candidates.json tasks/discovery/miyagi-official-coverage-001-snippets.json tasks/discovery/miyagi-official-coverage-001.json",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7828, officialLinkedActive 7790, manuallyVerifiedActive 7790, Miyagi localOfficial 72"
     }
   },
   "next": {
-    "code": "miyagi-comprehensive-official-coverage-001",
+    "code": "miyagi-comprehensive-official-coverage-002",
     "municipality": "宮城県",
-    "shortlist": "洋野町9件・一戸町13件をデータ反映。洋野町のみんなのまちづくり支援事業、水洗化支援制度、和牛繁殖・酪農経営支援交付金、一戸町の世界文化遺産景観形成支援事業補助金、各種大会等出場費補助金、生ごみ処理機設置事業費補助金、廃棄物収集ボックス設置補助金は第2巡で確認する。",
-    "instructions": "次は04000宮城県庁、04100仙台市、04202石巻市、04203塩竈市を自治体コード順に公式本文/PDFで確認する。"
+    "shortlist": "宮城県庁の県公式カテゴリ全体、仙台市のカテゴリ候補、石巻市の県補助案内候補、塩竈市のカテゴリページ・旧制度ページ・金額が本文で不十分な候補は第2巡で確認する。",
+    "instructions": "次は04205気仙沼市、04206白石市、04207名取市、04208角田市を自治体コード順に公式本文/PDFで確認する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
