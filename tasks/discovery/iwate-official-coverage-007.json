@@ -1,0 +1,87 @@
+{
+  "batchId": "iwate-comprehensive-official-coverage-007",
+  "prefecture": "岩手県",
+  "checkedAt": "2026-07-12T12:12:14+09:00",
+  "method": {
+    "summary": "岩手県007として03461大槌町、03482山田町、03483岩泉町、03484田野畑村を自治体コード順に確認。公式トップ到達確認後、公式ドメイン内の浅い巡回と公式本文/PDF抽出で制度名・対象・金額/上限・条件・期限/受付状況が揃う個別ページ又は添付PDFを採用した。",
+    "officialDomains": [
+      "https://www.town.otsuchi.iwate.jp/gyosei/",
+      "https://www.town.yamada.iwate.jp/",
+      "https://www.town.iwaizumi.lg.jp/",
+      "https://www.vill.tanohata.iwate.jp/"
+    ],
+    "shortlistPolicy": "補助金・助成金・給付金・支援金・商品券等の強語、金額・対象・期限/受付の本文記載を優先。カテゴリ、サイトマップ、共通ナビ、期限切れで現行掲載価値が低い震災関連、公共交通事業者等への間接支援は保留又は除外。"
+  },
+  "municipalities": [
+    {
+      "code": "03461",
+      "name": "大槌町",
+      "adopted": [
+        "otsuchi-residential-construction-promotion-subsidy-2026",
+        "otsuchi-hometown-cooperation-community-subsidy-2026",
+        "otsuchi-home-energy-renovation-subsidy-2026"
+      ],
+      "heldForSecondPass": [
+        "補助金・助成金情報一覧、災害弔慰金・災害障害見舞金、復興交付金事業計画、企業支援・農林水産カテゴリ内の追加候補は個別制度ページ又は現行年度性を第2巡で確認する。"
+      ]
+    },
+    {
+      "code": "03482",
+      "name": "山田町",
+      "adopted": [
+        "yamada-bicycle-helmet-subsidy-2026",
+        "yamada-citizen-proposal-community-subsidy-2026"
+      ],
+      "heldForSecondPass": [
+        "加算支援金申請期限の延長は平成32年4月10日までの震災関連期限切れページのため今回採用しない。",
+        "移住定住、創業、新商品、省力化、子育て・医療費助成、住まいカテゴリ内の追加候補は第2巡で個別ページを確認する。"
+      ]
+    },
+    {
+      "code": "03483",
+      "name": "岩泉町",
+      "adopted": [
+        "iwaizumi-child-future-support-grant-2026",
+        "iwaizumi-shingles-vaccine-subsidy-2026",
+        "iwaizumi-migration-support-grant-2026",
+        "iwaizumi-next-generation-farmer-subsidy-2026",
+        "iwaizumi-farmer-management-support-subsidy-2026"
+      ],
+      "heldForSecondPass": [
+        "農林水産関係支援事業一覧PDFには追加の町単独・県/国事業が多数あるため、畑わさび、園芸・果樹、畜産、林業、水産関連は第2巡で制度単位に分解する。",
+        "おたふくかぜワクチン任意予防接種費用助成は令和7年度・令和8年3月31日までのため今回は保留。医療費助成一覧、国保・高額療養費等は制度粒度を第2巡で確認する。"
+      ]
+    },
+    {
+      "code": "03484",
+      "name": "田野畑村",
+      "adopted": [
+        "tanohata-newlywed-life-support-subsidy-2026",
+        "tanohata-regional-shopping-coupon-2026"
+      ],
+      "heldForSecondPass": [
+        "田野畑村サイトはHTML本文の個別制度が少ないため、結婚新生活支援事業実施計画PDFと重点支援地方交付金活用状況PDFから金額・対象・期限が揃う2件を採用。",
+        "令和8年度三陸鉄道経営安定化対策事業は事業者・公共交通維持支援で住民向け給付ではないため今回採用しない。出産祝金、医療費助成、子育て支援は第2巡で個別ページ/PDFを確認する。"
+      ]
+    }
+  ],
+  "counts": {
+    "adopted": 12,
+    "held": 8,
+    "excluded": 2,
+    "sourceUrlsChecked": 12,
+    "existingVerified": 0
+  },
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "duplicateSlugs": 0,
+    "urlReachability": "pass: 12 officialUrl entries returned HTTP 200",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7764, officialLinkedActive 7726, manuallyVerifiedActive 7726, Iwate localOfficial 184",
+    "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-007-municipalities.json tasks/discovery/iwate-official-coverage-007.json"
+  },
+  "next": {
+    "code": "iwate-comprehensive-official-coverage-008",
+    "municipality": "普代村・軽米町・野田村・九戸村",
+    "instructions": "次は03485普代村、03501軽米町、03503野田村、03506九戸村を自治体コード順に公式本文/PDFで確認する。"
+  }
+}

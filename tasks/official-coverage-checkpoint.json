@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T11:56:21+09:00",
+  "updatedAt": "2026-07-12T12:12:14+09:00",
   "mode": "iwate-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "iwate-comprehensive-official-coverage-006",
-    "municipality": "西和賀町・金ケ崎町・平泉町・住田町",
-    "adopted": 18,
-    "held": 10,
-    "excluded": 0,
-    "sourceUrlsChecked": 18,
+    "code": "iwate-comprehensive-official-coverage-007",
+    "municipality": "大槌町・山田町・岩泉町・田野畑村",
+    "adopted": 12,
+    "held": 8,
+    "excluded": 2,
+    "sourceUrlsChecked": 12,
     "validation": {
-      "previousMunicipality": "岩手県公式棚卸し006として、03366西和賀町、03381金ケ崎町、03402平泉町、03441住田町を確認。前回005で自動Discoveryが長時間停止したため、公式ドメイン検索と公式本文/PDF抽出で制度名・対象・金額/上限・条件・期限/受付状況を確認し、西和賀町5件・金ケ崎町5件・平泉町5件・住田町3件をデータ反映。",
+      "previousMunicipality": "岩手県公式棚卸し007として、03461大槌町、03482山田町、03483岩泉町、03484田野畑村を確認。公式ドメイン内の浅い巡回と公式本文/PDF抽出で制度名・対象・金額/上限・条件・期限/受付状況を確認し、大槌町3件・山田町2件・岩泉町5件・田野畑村2件をデータ反映。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "pass: 18 officialUrl entries returned HTTP 200",
-      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-006-municipalities.json tasks/discovery/iwate-official-coverage-006.json",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7754, officialLinkedActive 7716, manuallyVerifiedActive 7716, Iwate localOfficial 174"
+      "urlReachability": "pass: 12 officialUrl entries returned HTTP 200",
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-007-municipalities.json tasks/discovery/iwate-official-coverage-007.json",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7764, officialLinkedActive 7726, manuallyVerifiedActive 7726, Iwate localOfficial 184"
     }
   },
   "next": {
-    "code": "iwate-comprehensive-official-coverage-007",
+    "code": "iwate-comprehensive-official-coverage-008",
     "municipality": "岩手県",
-    "shortlist": "西和賀町5件・金ケ崎町5件・平泉町5件・住田町3件をデータ反映。西和賀町の住まいづくり応援・移住者住宅取得、金ケ崎町の町独自賃上げ支援上乗せ額、平泉町の医療費助成一覧、住田町の結婚支援・林業農業支援・広報/PDF候補は第2巡で確認する。",
-    "instructions": "次は03461大槌町、03482山田町、03483岩泉町、03484田野畑村を自治体コード順に公式本文/PDFで確認する。"
+    "shortlist": "大槌町3件・山田町2件・岩泉町5件・田野畑村2件をデータ反映。大槌町の災害見舞金・企業支援・農林水産、山田町の移住定住・創業/新商品/省力化、岩泉町の農林水産PDF追加制度、田野畑村の出産祝金・医療費助成・子育て支援は第2巡で確認する。",
+    "instructions": "次は03485普代村、03501軽米町、03503野田村、03506九戸村を自治体コード順に公式本文/PDFで確認する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

@@ -3435,6 +3435,37 @@
   - 次:
     - 03461大槌町、03482山田町、03483岩泉町、03484田野畑村を自治体コード順で確認する。
 
+- 岩手県公式棚卸し007（大槌町・山田町・岩泉町・田野畑村）
+  - 対象:
+    - 03461 大槌町
+    - 03482 山田町
+    - 03483 岩泉町
+    - 03484 田野畑村
+  - 探索:
+    - `tasks/discovery/iwate-official-coverage-007-municipalities.json` を作成し、4町村の公式サイトを対象にした。
+    - 公式トップ到達確認後、同一ドメイン内の浅い巡回と公式本文/PDF抽出で制度名・対象・金額/上限・条件・期限/受付状況が揃う個別ページ又は添付PDFを採用した。
+    - `tasks/discovery/iwate-official-coverage-007.json`: 採用・保留記録。
+  - 追加:
+    - 大槌町: 住宅建設等促進事業補助金、ふるさとづくり協働推進事業補助金、住まいの省エネルギー改修推進事業補助金。
+    - 山田町: 自転車用ヘルメット購入費補助金、民提案型まちづくり事業補助金。
+    - 岩泉町: 子ども未来応援金、帯状疱疹ワクチン予防接種費用助成、移住支援金、次世代就農者支援事業補助金、担い手経営支援事業補助金。
+    - 田野畑村: 結婚新生活支援事業、地域商品券発行事業。
+  - 既存確認:
+    - 4町村はいずれも今回の追加対象キーワードで既存データに重複する公式確認済み制度がなかったため、新規追加のみ。
+  - 保留継続:
+    - 大槌町の補助金・助成金情報一覧、災害弔慰金・災害障害見舞金、復興交付金事業計画、企業支援・農林水産カテゴリ内の追加候補は第2巡で確認する。
+    - 山田町の加算支援金申請期限延長は平成32年4月10日までの震災関連期限切れページのため今回採用しない。移住定住、創業、新商品、省力化、子育て・医療費助成、住まいカテゴリ内の追加候補は第2巡で確認する。
+    - 岩泉町の農林水産関係支援事業一覧PDFには追加の町単独・県/国事業が多数あるため、畑わさび、園芸・果樹、畜産、林業、水産関連は第2巡で制度単位に分解する。おたふくかぜワクチン任意予防接種費用助成は令和8年3月31日までのため今回は保留。
+    - 田野畑村の令和8年度三陸鉄道経営安定化対策事業は事業者・公共交通維持支援で住民向け給付ではないため今回採用しない。出産祝金、医療費助成、子育て支援は第2巡で個別ページ/PDFを確認する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: 0。
+    - 12件の公式URL到達確認: HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7764、officialLinkedActive 7726、manuallyVerifiedActive 7726、岩手県 localOfficial 184）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-007-municipalities.json tasks/discovery/iwate-official-coverage-007.json`: pass。
+  - 次:
+    - 03485普代村、03501軽米町、03503野田村、03506九戸村を自治体コード順で確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:

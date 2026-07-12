@@ -1,0 +1,26 @@
+{
+  "batchId": "iwate-comprehensive-official-coverage-007",
+  "prefecture": "岩手県",
+  "municipalities": [
+    {
+      "code": "03461",
+      "name": "大槌町",
+      "officialBaseUrl": "https://www.town.otsuchi.iwate.jp/gyosei/"
+    },
+    {
+      "code": "03482",
+      "name": "山田町",
+      "officialBaseUrl": "https://www.town.yamada.iwate.jp/"
+    },
+    {
+      "code": "03483",
+      "name": "岩泉町",
+      "officialBaseUrl": "https://www.town.iwaizumi.lg.jp/"
+    },
+    {
+      "code": "03484",
+      "name": "田野畑村",
+      "officialBaseUrl": "https://www.vill.tanohata.iwate.jp/"
+    }
+  ]
+}
