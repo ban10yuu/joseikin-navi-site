@@ -1,0 +1,90 @@
+{
+  "batchId": "miyagi-comprehensive-official-coverage-second-pass-006",
+  "prefecture": "宮城県",
+  "completedAt": "2026-07-12T16:22:00+09:00",
+  "sourceFirstPass": "tasks/discovery/miyagi-official-coverage-006.json",
+  "municipalities": [
+    {
+      "code": "04341",
+      "name": "丸森町",
+      "status": "second-pass-completed",
+      "adopted": 5,
+      "held": 0,
+      "excluded": 0,
+      "notes": "初回産科受診費用助成、不妊治療費等助成、子ども医療費助成、帯状疱疹ワクチン費用助成、母子・父子医療費助成を採用。第1巡保留候補は公式本文で必須項目を確認し解消。"
+    },
+    {
+      "code": "04361",
+      "name": "亘理町",
+      "status": "second-pass-completed",
+      "adopted": 12,
+      "held": 0,
+      "excluded": 1,
+      "notes": "危険ブロック塀等改善、木造住宅耐震改修、就学援助、奨学金貸付、妊婦支援給付、不妊検査・不妊治療、心身障害者医療費、母子・父子家庭医療費、高齢者補聴器、障害者福祉タクシー/燃料費、新規漁業者定住支援、新規漁業者育成支援を採用。木造住宅耐震診断は公式本文に診断料金表PDF導線はあるが本文上の金額確認が弱いため今回は改修工事のみ採用。"
+    },
+    {
+      "code": "04362",
+      "name": "山元町",
+      "status": "second-pass-completed",
+      "adopted": 7,
+      "held": 0,
+      "excluded": 0,
+      "notes": "木造住宅耐震診断・耐震改修、空き家家財道具等処分支援、障害者医療費、医療用ウィッグ、浄化槽設置、高齢者補聴器、リサイクル奨励金を採用。第1巡保留候補は公式本文で必須項目を確認し解消。"
+    },
+    {
+      "code": "04401",
+      "name": "松島町",
+      "status": "second-pass-completed",
+      "adopted": 2,
+      "held": 0,
+      "excluded": 4,
+      "notes": "子ども医療費、不妊検査費・不妊治療費助成を採用。高齢者福祉サービスは複数サービスの案内で金額・対象の切り分けに追加確認が必要、幼児教育・保育無償化は国制度案内中心、児童館は施設案内、企業誘致情報・移住定住ポータルはカテゴリ/誘導ページのため採用しない。"
+    }
+  ],
+  "adoptedSlugs": [
+    "marumori-first-prenatal-visit-subsidy-2026",
+    "marumori-infertility-treatment-subsidy-2026",
+    "marumori-child-medical-expense-subsidy-2026",
+    "marumori-shingles-vaccine-subsidy-2026",
+    "marumori-single-parent-medical-expense-subsidy-2026",
+    "watari-block-wall-improvement-subsidy-2026",
+    "watari-wooden-house-seismic-retrofit-subsidy-2026",
+    "watari-school-expense-assistance-2026",
+    "watari-scholarship-loan-2026",
+    "watari-pregnant-women-support-benefit-2026",
+    "watari-infertility-treatment-subsidy-2026",
+    "watari-disability-medical-expense-subsidy-2026",
+    "watari-single-parent-medical-expense-subsidy-2026",
+    "watari-senior-hearing-aid-subsidy-2026",
+    "watari-disabled-taxi-fuel-voucher-2026",
+    "watari-new-fisher-settlement-rent-subsidy-2026",
+    "watari-new-fisher-equipment-subsidy-2026",
+    "yamamoto-wooden-house-seismic-subsidy-2026",
+    "yamamoto-vacant-house-cleanup-subsidy-2026",
+    "yamamoto-disability-medical-expense-subsidy-2026",
+    "yamamoto-cancer-wig-subsidy-2026",
+    "yamamoto-septic-tank-installation-subsidy-2026",
+    "yamamoto-senior-hearing-aid-subsidy-2026",
+    "yamamoto-recycling-incentive-grant-2026",
+    "matsushima-child-medical-expense-subsidy-2026",
+    "matsushima-infertility-treatment-subsidy-2026"
+  ],
+  "excludedCandidates": [
+    {
+      "municipality": "亘理町",
+      "reason": "木造住宅耐震診断は候補ページで受付期間と対象住宅は確認できるが、診断料金表PDFの単価確認が未反映のため、今回の新規制度ページ単位採用は耐震改修工事助成に限定。"
+    },
+    {
+      "municipality": "松島町",
+      "reason": "高齢者福祉サービスは複数サービスの総合案内、幼児教育・保育無償化は国制度案内中心、児童館は施設案内、企業誘致情報・移住定住ポータルはカテゴリ/誘導ページで、金額・対象・受付が揃う単一制度ページとしては採用しない。"
+    }
+  ],
+  "sourceUrlsChecked": 31,
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: 26 added slugs each appear once",
+    "urlReachability": "pass: 26制度31URL returned HTTP 200",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8045, officialLinkedActive 8007, manuallyVerifiedActive 8007, Miyagi localOfficial 289",
+    "diffCheck": "pass: git diff --check for Miyagi second-pass 006 files"
+  }
+}

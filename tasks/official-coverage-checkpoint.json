@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T17:52:00+09:00",
+  "updatedAt": "2026-07-12T16:22:00+09:00",
   "mode": "miyagi-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "miyagi-comprehensive-official-coverage-second-pass-005",
-    "municipality": "大河原町・村田町・柴田町・川崎町",
-    "adopted": 11,
+    "code": "miyagi-comprehensive-official-coverage-second-pass-006",
+    "municipality": "丸森町・亘理町・山元町・松島町",
+    "adopted": 26,
     "held": 0,
-    "excluded": 8,
-    "sourceUrlsChecked": 11,
+    "excluded": 5,
+    "sourceUrlsChecked": 31,
     "validation": {
-      "previousMunicipality": "宮城県公式棚卸し第2巡005として、04321大河原町、04322村田町、04323柴田町、04324川崎町の第1巡保留候補を再確認。大河原町の子ども医療費・危険ブロック塀、柴田町の若年がん在宅療養・犯罪被害者等支援・浄化槽、川崎町の生ごみ処理容器・特殊詐欺対策電話機・不妊検査・危険ブロック塀・耐震診断・浄化槽を採用し、村田町と各町のカテゴリ/404/期限切れ/県制度案内候補は採否理由を記録して解消した。",
+      "previousMunicipality": "宮城県公式棚卸し第2巡006として、04341丸森町、04361亘理町、04362山元町、04401松島町の第1巡保留候補を再確認。丸森町5件、亘理町12件、山元町7件、松島町2件を公式本文/要綱単位で採用し、カテゴリ/国制度案内/施設案内/金額不足候補は採否理由を記録して解消した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: 11 added slugs each appear once",
-      "urlReachability": "pass: 11制度11URL returned HTTP 200",
-      "diffCheck": "pass: git diff --check for Miyagi second-pass 005 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8019, officialLinkedActive 7981, manuallyVerifiedActive 7981, Miyagi localOfficial 263"
+      "addedSlugUniqueness": "pass: 26 added slugs each appear once",
+      "urlReachability": "pass: 26制度31URL returned HTTP 200",
+      "diffCheck": "pass: git diff --check for Miyagi second-pass 006 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8045, officialLinkedActive 8007, manuallyVerifiedActive 8007, Miyagi localOfficial 289"
     }
   },
   "next": {
-    "code": "miyagi-comprehensive-official-coverage-second-pass-006",
-    "municipality": "丸森町・亘理町・山元町・松島町",
-    "shortlist": "丸森町の初回産科受診・不妊支援・子ども医療費・母子父子医療・帯状疱疹ワクチン、亘理町の危険ブロック塀・木造住宅耐震・就学援助・奨学金・妊婦支援給付・不妊検査/治療・障害者医療・母子父子医療・高齢者補聴器・障害者福祉タクシー/燃料助成・新規漁業者支援、山元町の木造住宅耐震・空き家家財道具等処分・障害者医療・ウィッグ・浄化槽・高齢者補聴器・リサイクル奨励金、松島町の子ども医療費・高齢者福祉サービス・幼児教育/保育無償化・児童館・移住定住/企業誘致を第2巡で確認する。",
-    "instructions": "宮城県第2巡005は大河原町・村田町・柴田町・川崎町の未判定候補を解消。次は第1巡006の保留候補を自治体コード順で確認し、公式本文/PDFで採否を確定する。"
+    "code": "miyagi-comprehensive-official-coverage-second-pass-007",
+    "municipality": "七ヶ浜町・利府町・大和町・大郷町",
+    "shortlist": "七ヶ浜町のスポーツ振興奨励金・子ども医療費・各種予防接種、利府町のスポーツ活動派遣・妊婦支援給付PDF・第3子以降学校給食費・母子父子医療・障害者医療・脳検診、大和町の出産育児一時金・児童扶養手当・障害福祉手当・妊婦健診・子育て支援住宅要綱、大郷町の児童手当・出産育児一時金・出産祝金・産婦健診・初回産科受診・子ども医療費・空き家家財道具等処分費用助成を第2巡で確認する。",
+    "instructions": "宮城県第2巡006は丸森町・亘理町・山元町・松島町の未判定候補を解消。次は第1巡007の保留候補を自治体コード順で確認し、公式本文/PDFで採否を確定する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
