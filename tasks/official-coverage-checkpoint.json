@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T05:05:00+09:00",
+  "updatedAt": "2026-07-13T05:55:00+09:00",
   "mode": "yamagata-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "akita-comprehensive-official-final-audit",
-    "municipality": "秋田県庁・県内25市町村",
-    "adopted": 321,
+    "code": "yamagata-comprehensive-official-coverage-001",
+    "municipality": "山形県庁・山形市・米沢市・鶴岡市",
+    "adopted": 17,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 321,
+    "sourceUrlsChecked": 17,
     "validation": {
-      "previousMunicipality": "秋田県公式棚卸し最終監査として、05000秋田県庁および県内25市町村の第1巡001-007・第2巡001-007の採否記録を集計した。トップ、カテゴリ、共通ナビ、国県制度窓口、受付終了、外部団体制度、過去実績、本文で金額不足の候補を不採用理由付きで解消し、候補未判定0件として県単位完了扱いにした。",
+      "previousMunicipality": "山形県公式棚卸し001として、06000山形県庁、06201山形市、06202米沢市、06203鶴岡市の公式サイトを確認した。候補1,072件が150件を超えたため本文スニペット350件を抽出して再スコアリングし、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別ページ17件を採用した。県庁主要候補と山形市・鶴岡市の一部制度は既存公式確認済みとして重複採用せず、トップ、カテゴリ、国制度、受付終了、過年度制度は理由付きで第2巡台帳へ残した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: Akita related slugs 271, duplicate count 0",
-      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked Akita second-pass 007 added 9 slugs, failures 0, all HTTP 200",
-      "diffCheck": "pass: git diff --check for Akita second-pass 007 and final audit files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8352, officialLinkedActive 8314, manuallyVerifiedActive 8314, Akita localOfficial 321, Akita coveredCategories 8"
+      "addedSlugUniqueness": "pass: added 17 slugs, duplicate count 0",
+      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked Yamagata 001 added 17 slugs, failures 0, all HTTP 200",
+      "diffCheck": "pass: git diff --check for Yamagata 001 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8369, officialLinkedActive 8331, manuallyVerifiedActive 8331, Yamagata localOfficial 96, Yamagata coveredCategories 8"
     }
   },
   "next": {
-    "code": "yamagata-comprehensive-official-coverage-001",
-    "municipality": "山形県庁・山形市・米沢市・鶴岡市",
-    "shortlist": "秋田県は第1巡・第2巡・最終監査まで完了し、localOfficial 321、候補未判定0件として県単位完了扱いにした。次は山形県公式棚卸し001から開始する。",
-    "instructions": "山形県公式棚卸し001として、06000山形県庁、06201山形市、06202米沢市、06203鶴岡市を自治体コード順に確認する。公式サイトの補助金・助成金・給付金・一時金等を制度ページ単位で、制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約付きで採用し、トップ、カテゴリ、サイトマップ、共通ナビ一致は削除せず第2巡台帳へ残す。既存raw gap 0を全国完了扱いしない。"
+    "code": "yamagata-comprehensive-official-coverage-002",
+    "municipality": "酒田市・新庄市・寒河江市・上山市",
+    "shortlist": "山形県001は山形県庁・山形市・米沢市・鶴岡市まで到達し、17制度を採用した。次は山形県002として自治体コード順に06204酒田市、06205新庄市、06206寒河江市、06207上山市を確認する。",
+    "instructions": "山形県公式棚卸し002として、06204酒田市、06205新庄市、06206寒河江市、06207上山市を自治体コード順に確認する。公式サイトの補助金・助成金・給付金・一時金等を制度ページ単位で、制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約付きで採用し、トップ、カテゴリ、サイトマップ、共通ナビ一致は削除せず第2巡台帳へ残す。既存raw gap 0を全国完了扱いしない。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

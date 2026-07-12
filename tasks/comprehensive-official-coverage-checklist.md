@@ -4232,6 +4232,30 @@
   - 次:
     - 山形県公式棚卸し001として、06000山形県庁、06201山形市、06202米沢市、06203鶴岡市を自治体コード順に確認する。
 
+- 山形県公式棚卸し001（山形県庁・山形市・米沢市・鶴岡市）
+  - 対象: 06000山形県庁、06201山形市、06202米沢市、06203鶴岡市。
+  - 方法:
+    - `tasks/discovery/yamagata-official-coverage-001-municipalities.json` を作成し、公式サイト・sitemap・カテゴリ導線から候補1,072件を生成した。
+    - 候補数が150件を超えたため `tasks/discovery/yamagata-official-coverage-001-snippets.json` に本文スニペット350件を抽出し、制度強語、金額、対象、申請/期限表現で再スコアリングした。
+    - 公式本文で制度名・対象・金額/上限・条件・期限/受付状況が確認できる個別ページのみ採用し、トップ、カテゴリ、国制度、受付終了、既存重複は採用しなかった。
+  - 追加:
+    - 山形市: 結婚新生活支援補助金、宿泊税レジシステム改修等支援事業費補助金、在宅酸素療法者支援助成金、重度心身障がい（児）者福祉手当、重度障がい者介護者激励金。
+    - 米沢市: 住宅リフォーム支援事業費補助金、空き家・空き地利活用支援事業補助金、創業支援事業費補助金、結婚新生活支援事業、地方就職支援金、地産木材使用住宅等建築奨励事業費補助金、有害鳥獣被害対策電気柵等補助金、山祥奨学金。
+    - 鶴岡市: U・Iターン就職活動交通費等支援事業補助金、地方就職支援金、つるおかエール奨学金返済支援事業、勤労者融資制度「生活応援ローン」。
+  - 保留継続:
+    - 山形県庁の移住支援金、私立高等学校就学支援金制度、省エネ健康住宅新築支援、介護テクノロジー定着支援、木造住宅耐震対策などは既存公式確認済み制度として重複採用しない。県庁の補助金逆引き、農業・産業カテゴリ配下は第2巡で個別要綱まで再確認する。
+    - 山形市の児童手当、出産育児一時金、特別障がい者手当、特別児童扶養手当、年金給付金等は国制度または保険制度中心のため採用しない。学校給食費負担軽減、自主防災組織防災資器材補助、こども医療、保育料負担軽減、紙おむつ支給等は既存登録済みとして重複採用しない。
+    - 米沢市の児童扶養手当、ひとり親家庭等医療給付、福祉用具購入支給、障がい者向け移動・医療・日常生活サポートは国県制度・介護給付・障害福祉給付との切り分けが必要なため第2巡へ残す。
+    - 鶴岡市の定額減税調整給付金、不足額給付、店舗賃料緊急支援事業など受付終了または過年度制度は採用しない。教育・移住定住・商工支援カテゴリ、税減免、生活困窮・国保・年金関連ページは第2巡で再確認する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 17件、重複0。
+    - 追加した公式URL 17件、17ユニークURLはすべて HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 8369、officialLinkedActive 8331、manuallyVerifiedActive 8331、山形県 `localOfficial` 96）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-coverage-001-municipalities.json tasks/discovery/yamagata-official-coverage-001-candidates.json tasks/discovery/yamagata-official-coverage-001-snippets.json tasks/discovery/yamagata-official-coverage-001.json`: pass。
+  - 次:
+    - 山形県公式棚卸し002として、06204酒田市、06205新庄市、06206寒河江市、06207上山市を確認する。
+
 - 宮城県公式棚卸し009（美里町・女川町・南三陸町）
   - 対象: 04505美里町、04581女川町、04606南三陸町。
   - 方法:

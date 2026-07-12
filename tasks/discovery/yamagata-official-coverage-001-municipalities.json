@@ -1,0 +1,26 @@
+{
+  "batchId": "yamagata-comprehensive-official-coverage-001",
+  "prefecture": "山形県",
+  "municipalities": [
+    {
+      "code": "06000",
+      "name": "山形県庁",
+      "officialBaseUrl": "https://www.pref.yamagata.jp/"
+    },
+    {
+      "code": "06201",
+      "name": "山形市",
+      "officialBaseUrl": "https://www.city.yamagata-yamagata.lg.jp/"
+    },
+    {
+      "code": "06202",
+      "name": "米沢市",
+      "officialBaseUrl": "https://www.city.yonezawa.yamagata.jp/"
+    },
+    {
+      "code": "06203",
+      "name": "鶴岡市",
+      "officialBaseUrl": "https://www.city.tsuruoka.lg.jp/"
+    }
+  ]
+}

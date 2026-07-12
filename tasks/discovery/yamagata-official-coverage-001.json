@@ -1,0 +1,69 @@
+{
+  "batchId": "yamagata-comprehensive-official-coverage-001",
+  "prefecture": "山形県",
+  "municipalities": [
+    {
+      "code": "06000",
+      "name": "山形県庁",
+      "officialBaseUrl": "https://www.pref.yamagata.jp/",
+      "candidateCount": 432,
+      "adopted": 0,
+      "held": [
+        "山形県移住支援事業、私立高等学校就学支援金制度、やまがた省エネ健康住宅新築支援事業、介護テクノロジー定着支援、木造住宅耐震対策など主要候補は既存公式確認済み制度として登録済みのため重複採用しない。",
+        "県トップ、カテゴリ、新着一覧、メールマガジン、求人掲載案内、組織案内は個別制度本文ではないため第2巡台帳へ残す。",
+        "県庁の補助金逆引き・農業・産業カテゴリ配下は第2巡でPDF/個別要綱まで再確認する。"
+      ]
+    },
+    {
+      "code": "06201",
+      "name": "山形市",
+      "officialBaseUrl": "https://www.city.yamagata-yamagata.lg.jp/",
+      "candidateCount": 177,
+      "adopted": 5,
+      "held": [
+        "児童手当、出産育児一時金、特別障がい者手当、特別児童扶養手当、年金給付金等は国制度または保険制度中心のため、市独自制度としては採用しない。",
+        "学校給食費負担軽減、自主防災組織防災資器材補助、こども医療、保育料負担軽減、紙おむつ支給等は既存公式確認済み制度として登録済みのため重複採用しない。",
+        "国民健康保険税、軽自動車税、固定資産税の減免・減額ページは税制度説明として第2巡で必要に応じて再確認する。"
+      ]
+    },
+    {
+      "code": "06202",
+      "name": "米沢市",
+      "officialBaseUrl": "https://www.city.yonezawa.yamagata.jp/",
+      "candidateCount": 21,
+      "adopted": 8,
+      "held": [
+        "補助・支援カテゴリは低候補扱いだったが、子カテゴリに制度個別ページがまとまっていたため公式本文で再取得して採用した。",
+        "児童扶養手当、ひとり親家庭等医療給付、福祉用具購入支給、障がい者向け移動・医療・日常生活サポートは国県制度・介護給付・障害福祉給付との切り分けが必要なため第2巡へ残す。",
+        "カテゴリ、生活ナビ、募集情報、庁舎案内、ふるさと納税案内は個別制度本文ではないため採用しない。"
+      ]
+    },
+    {
+      "code": "06203",
+      "name": "鶴岡市",
+      "officialBaseUrl": "https://www.city.tsuruoka.lg.jp/",
+      "candidateCount": 442,
+      "adopted": 4,
+      "held": [
+        "住宅リフォーム支援、子育て支援医療、商工業振興制度資金等は既存公式確認済み制度として登録済みのため重複採用しない。",
+        "定額減税調整給付金、不足額給付、店舗賃料緊急支援事業など受付終了または過年度制度は採用しない。",
+        "教育・補助支援カテゴリ、移住定住カテゴリ、商工支援カテゴリ、税減免ページ、生活困窮・国保・年金関連ページは第2巡で個別制度本文・受付状況を再確認する。"
+      ]
+    }
+  ],
+  "generatedFiles": [
+    "tasks/discovery/yamagata-official-coverage-001-municipalities.json",
+    "tasks/discovery/yamagata-official-coverage-001-candidates.json",
+    "tasks/discovery/yamagata-official-coverage-001-snippets.json"
+  ],
+  "summary": {
+    "candidateCount": 1072,
+    "snippetRows": 350,
+    "adopted": 17,
+    "sourceUrlsChecked": 17,
+    "uniqueSourceUrlsChecked": 17,
+    "shortlistRescored": true,
+    "notes": "候補数が150件を超えたため本文スニペットを抽出し再スコアリングした。公式本文で制度名・対象・金額/上限・条件・期限/受付状況を確認できる個別ページのみ採用し、トップ、カテゴリ、国制度、受付終了、既存重複は不採用または第2巡台帳へ残した。"
+  },
+  "updatedAt": "2026-07-13T05:55:00+09:00"
+}
