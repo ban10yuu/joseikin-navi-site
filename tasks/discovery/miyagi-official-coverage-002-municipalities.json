@@ -1,0 +1,26 @@
+{
+  "batchId": "miyagi-comprehensive-official-coverage-002",
+  "prefecture": "宮城県",
+  "municipalities": [
+    {
+      "code": "04205",
+      "name": "気仙沼市",
+      "officialBaseUrl": "https://www.kesennuma.miyagi.jp/"
+    },
+    {
+      "code": "04206",
+      "name": "白石市",
+      "officialBaseUrl": "https://www.city.shiroishi.miyagi.jp/"
+    },
+    {
+      "code": "04207",
+      "name": "名取市",
+      "officialBaseUrl": "https://www.city.natori.miyagi.jp/"
+    },
+    {
+      "code": "04208",
+      "name": "角田市",
+      "officialBaseUrl": "https://www.city.kakuda.lg.jp/"
+    }
+  ]
+}

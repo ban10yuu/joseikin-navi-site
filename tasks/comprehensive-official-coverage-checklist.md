@@ -3536,6 +3536,29 @@
   - 次:
     - 宮城県公式棚卸し002として、04205気仙沼市、04206白石市、04207名取市、04208角田市を自治体コード順で確認する。
 
+- 宮城県公式棚卸し002（気仙沼市・白石市・名取市・角田市）
+  - 対象: 04205気仙沼市、04206白石市、04207名取市、04208角田市。
+  - 方法:
+    - 公式候補1106件を生成し、shortlistが150件を超えたため `tasks/discovery/miyagi-official-coverage-002-snippets.json` に短い本文スニペットを抽出して再スコアリングした。
+    - 各市の公式カテゴリと個別制度本文を確認し、制度名・対象・金額/上限・条件・期限/受付状況が揃うページを採用した。
+    - 名取市は既存公式確認済み11件を確認し、今回候補は既存重複・カテゴリが中心のため新規追加なし。
+  - 追加:
+    - 気仙沼市: 水産関連事業者信用保証料補助金、水産関連事業者利子補給金、子ども医療費助成制度。
+    - 白石市: 風しん予防接種費用助成、子ども医療費助成、子育て支援サービス利用料助成事業、不妊検査費・不妊治療費助成事業、母子・父子家庭医療費助成。
+    - 角田市: 不妊検査費・不妊治療費助成、児童手当、特別児童扶養手当、結婚新生活支援事業補助金、子育て世代移住促進住宅取得支援金、木造住宅耐震改修工事助成事業、木造住宅耐震診断助成事業、中小企業融資制度。
+  - 既存確認:
+    - 名取市は既存公式確認済み制度11件を確認。移住支援金、マイホーム応援、奨学金返還支援等は既存重複が中心のため新規追加なし。
+  - 保留継続:
+    - 気仙沼市の空き家・移住・予防接種カテゴリ候補、白石市の子どもの居場所づくり支援・住宅・商工業カテゴリ候補、名取市のカテゴリ候補、角田市の認可外保育施設保育料補助・母子父子家庭医療費・自立支援教育訓練給付・マル経利子助成等は第2巡で確認する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: 0。
+    - 16制度16URLの公式URL到達確認: HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7843、officialLinkedActive 7805、manuallyVerifiedActive 7805、宮城県 localOfficial 87）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-002-municipalities.json tasks/discovery/miyagi-official-coverage-002-candidates.json tasks/discovery/miyagi-official-coverage-002-snippets.json tasks/discovery/miyagi-official-coverage-002.json`: pass。
+  - 次:
+    - 宮城県公式棚卸し003として、04209多賀城市、04211岩沼市、04212登米市、04213栗原市を自治体コード順で確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:

@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T13:15:00+09:00",
+  "updatedAt": "2026-07-12T13:50:00+09:00",
   "mode": "miyagi-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "miyagi-comprehensive-official-coverage-001",
-    "municipality": "宮城県庁・仙台市・石巻市・塩竈市",
-    "adopted": 14,
-    "held": 9,
+    "code": "miyagi-comprehensive-official-coverage-002",
+    "municipality": "気仙沼市・白石市・名取市・角田市",
+    "adopted": 16,
+    "held": 23,
     "excluded": 0,
-    "sourceUrlsChecked": 15,
+    "sourceUrlsChecked": 16,
     "validation": {
-      "previousMunicipality": "宮城県公式棚卸し001として、04000宮城県庁、04100仙台市、04202石巻市、04203塩竈市を確認。公式候補1416件から短い本文スニペットを抽出して再スコアリングし、塩竈市14件をデータ反映。宮城県庁・仙台市・石巻市は既存確認と第2巡保留に整理した。",
+      "previousMunicipality": "宮城県公式棚卸し002として、04205気仙沼市、04206白石市、04207名取市、04208角田市を確認。公式候補1106件から短い本文スニペットを抽出して再スコアリングし、気仙沼市3件・白石市5件・角田市8件をデータ反映。名取市は既存公式確認済み11件を確認し、既存重複・カテゴリ候補を第2巡保留に整理した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "pass: 14制度15URL returned HTTP 200",
-      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-001-municipalities.json tasks/discovery/miyagi-official-coverage-001-candidates.json tasks/discovery/miyagi-official-coverage-001-snippets.json tasks/discovery/miyagi-official-coverage-001.json",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7828, officialLinkedActive 7790, manuallyVerifiedActive 7790, Miyagi localOfficial 72"
+      "urlReachability": "pass: 16制度16URL returned HTTP 200",
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-002-municipalities.json tasks/discovery/miyagi-official-coverage-002-candidates.json tasks/discovery/miyagi-official-coverage-002-snippets.json tasks/discovery/miyagi-official-coverage-002.json",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7843, officialLinkedActive 7805, manuallyVerifiedActive 7805, Miyagi localOfficial 87"
     }
   },
   "next": {
-    "code": "miyagi-comprehensive-official-coverage-002",
+    "code": "miyagi-comprehensive-official-coverage-003",
     "municipality": "宮城県",
-    "shortlist": "宮城県庁の県公式カテゴリ全体、仙台市のカテゴリ候補、石巻市の県補助案内候補、塩竈市のカテゴリページ・旧制度ページ・金額が本文で不十分な候補は第2巡で確認する。",
-    "instructions": "次は04205気仙沼市、04206白石市、04207名取市、04208角田市を自治体コード順に公式本文/PDFで確認する。"
+    "shortlist": "気仙沼市の空き家・移住・予防接種カテゴリ候補、白石市の子どもの居場所づくり支援・住宅・商工業カテゴリ候補、名取市のカテゴリ候補、角田市の認可外保育施設保育料補助・母子父子家庭医療費・自立支援教育訓練給付・マル経利子助成等は第2巡で確認する。",
+    "instructions": "次は04209多賀城市、04211岩沼市、04212登米市、04213栗原市を自治体コード順に公式本文/PDFで確認する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
