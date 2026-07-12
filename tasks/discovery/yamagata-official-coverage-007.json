@@ -1,0 +1,287 @@
+{
+  "batchId": "yamagata-comprehensive-official-coverage-007",
+  "prefecture": "山形県",
+  "municipalities": [
+    {
+      "code": "06364",
+      "name": "真室川町",
+      "officialBaseUrl": "https://www.town.mamurogawa.yamagata.jp/"
+    },
+    {
+      "code": "06365",
+      "name": "大蔵村",
+      "officialBaseUrl": "https://www.vill.ohkura.yamagata.jp/"
+    },
+    {
+      "code": "06366",
+      "name": "鮭川村",
+      "officialBaseUrl": "https://www.vill.sakegawa.yamagata.jp/"
+    },
+    {
+      "code": "06367",
+      "name": "戸沢村",
+      "officialBaseUrl": "https://www.vill.tozawa.yamagata.jp/"
+    }
+  ],
+  "generatedAt": "2026-07-12T21:46:50.327Z",
+  "method": [
+    "officialBaseUrl/sitemap/category traversalで候補588件を生成",
+    "候補数が150件超のため本文スニペット136件を抽出して再スコアリング",
+    "真室川町と大蔵村は公式制度カテゴリ導線から個別制度URLを補完",
+    "鮭川村と戸沢村は強候補と制度カテゴリ本文から金額・対象・申請条件を確認"
+  ],
+  "adoptedCount": 34,
+  "adopted": [
+    {
+      "slug": "mamurogawa-happy-support-center-registration-subsidy-2026",
+      "title": "真室川町 やまがたハッピーサポートセンター会員登録支援事業補助金",
+      "organization": "真室川町",
+      "officialUrl": "https://www.town.mamurogawa.yamagata.jp/kurashi_tetsuzuki/seido/kekkonsien/4530.html",
+      "sourceName": "真室川町 やまがたハッピーサポートセンター会員登録支援事業補助金のご案内"
+    },
+    {
+      "slug": "mamurogawa-newlywed-housing-subsidy-2026",
+      "title": "真室川町 結婚新生活支援事業費補助金",
+      "organization": "真室川町",
+      "officialUrl": "https://www.town.mamurogawa.yamagata.jp/kurashi_tetsuzuki/seido/kekkonsien/5496.html",
+      "sourceName": "真室川町 新婚世帯の住居にかかる費用を補助します"
+    },
+    {
+      "slug": "mamurogawa-housing-renovation-new-construction-subsidy-2026",
+      "title": "真室川町 新築・住宅リフォーム補助",
+      "organization": "真室川町",
+      "officialUrl": "https://www.town.mamurogawa.yamagata.jp/kurashi_tetsuzuki/seido/sumainosien/4531.html",
+      "sourceName": "真室川町 令和8年度 新築・住宅リフォーム補助について"
+    },
+    {
+      "slug": "mamurogawa-sewer-septic-conversion-subsidy-2026",
+      "title": "真室川町 生活排水処理整備事業費補助金",
+      "organization": "真室川町",
+      "officialUrl": "https://www.town.mamurogawa.yamagata.jp/kurashi_tetsuzuki/seido/sumainosien/4540.html",
+      "sourceName": "真室川町 下水道接続・合併浄化槽切り替えの補助金について"
+    },
+    {
+      "slug": "mamurogawa-solar-power-equipment-subsidy-2026",
+      "title": "真室川町 太陽光発電装置設置補助金",
+      "organization": "真室川町",
+      "officialUrl": "https://www.town.mamurogawa.yamagata.jp/kurashi_tetsuzuki/seido/sumainosien/4542.html",
+      "sourceName": "真室川町 太陽光発電装置設置補助金"
+    },
+    {
+      "slug": "mamurogawa-pellet-stove-subsidy-2026",
+      "title": "真室川町 ペレットストーブ等利用拡大支援事業",
+      "organization": "真室川町",
+      "officialUrl": "https://www.town.mamurogawa.yamagata.jp/kurashi_tetsuzuki/seido/sumainosien/4541.html",
+      "sourceName": "真室川町 ペレットストーブ等利用拡大支援事業"
+    },
+    {
+      "slug": "mamurogawa-household-snowblower-subsidy-2026",
+      "title": "真室川町 家庭用除雪機械購入補助金",
+      "organization": "真室川町",
+      "officialUrl": "https://www.town.mamurogawa.yamagata.jp/kurashi_tetsuzuki/seido/sumainosien/1813.html",
+      "sourceName": "真室川町 【R8受付中】家庭用除雪機の購入費用を支援します"
+    },
+    {
+      "slug": "mamurogawa-vacant-house-demolition-subsidy-2026",
+      "title": "真室川町 空き家解体助成事業",
+      "organization": "真室川町",
+      "officialUrl": "https://www.town.mamurogawa.yamagata.jp/kurashi_tetsuzuki/seido/sumainosien/4543.html",
+      "sourceName": "真室川町 空き家解体助成事業について"
+    },
+    {
+      "slug": "mamurogawa-u-turn-scholarship-repayment-subsidy-2026",
+      "title": "真室川町 Uターン奨学金返還支援補助金",
+      "organization": "真室川町",
+      "officialUrl": "https://www.town.mamurogawa.yamagata.jp/kurashi_tetsuzuki/seido/shigotonosien/4528.html",
+      "sourceName": "真室川町 Uターンされた方の奨学金返還を支援します"
+    },
+    {
+      "slug": "mamurogawa-namenko-forestry-subsidy-2026",
+      "title": "真室川町 元気な林業創生事業補助金",
+      "organization": "真室川町",
+      "officialUrl": "https://www.town.mamurogawa.yamagata.jp/kurashi_tetsuzuki/seido/shigotonosien/5493.html",
+      "sourceName": "真室川町 元気な林業創生事業補助金(原木なめこ補助金)について"
+    },
+    {
+      "slug": "mamurogawa-child-medical-expense-subsidy-2026",
+      "title": "真室川町 子育て支援医療給付事業",
+      "organization": "真室川町",
+      "officialUrl": "https://www.town.mamurogawa.yamagata.jp/kurashi_tetsuzuki/seido/kosodatesien/5510.html",
+      "sourceName": "真室川町 高校生相当年齢まで医療費を無料にしています"
+    },
+    {
+      "slug": "mamurogawa-newborn-hearing-test-subsidy-2026",
+      "title": "真室川町 新生児聴覚検査費用助成",
+      "organization": "真室川町",
+      "officialUrl": "https://www.town.mamurogawa.yamagata.jp/kurashi_tetsuzuki/seido/kosodatesien/4545.html",
+      "sourceName": "真室川町 新生児聴覚検査の費用を助成します"
+    },
+    {
+      "slug": "mamurogawa-medical-wig-breast-prosthesis-subsidy-2026",
+      "title": "真室川町 がん患者医療用ウィッグ・乳房補整具購入助成",
+      "organization": "真室川町",
+      "officialUrl": "https://www.town.mamurogawa.yamagata.jp/kurashi_tetsuzuki/seido/fukushisien/5502.html",
+      "sourceName": "真室川町 がん患者医療用ウィッグ・乳房補整具購入助成事業"
+    },
+    {
+      "slug": "ohkura-infertility-advanced-medical-subsidy-2026",
+      "title": "大蔵村 特定不妊治療費（先進医療）助成事業",
+      "organization": "大蔵村",
+      "officialUrl": "https://www.vill.ohkura.yamagata.jp/hojokin_joseikin/iryojosei/1969.html",
+      "sourceName": "大蔵村 特定不妊治療費(先進医療)助成事業について"
+    },
+    {
+      "slug": "ohkura-scholarship-repayment-support-2026",
+      "title": "大蔵村 新やまがた就職促進奨学金返還支援事業",
+      "organization": "大蔵村",
+      "officialUrl": "https://www.vill.ohkura.yamagata.jp/hojokin_joseikin/kakushushien/1095.html",
+      "sourceName": "大蔵村 新やまがた就職促進奨学金返還支援事業"
+    },
+    {
+      "slug": "ohkura-pregnancy-support-benefit-2026",
+      "title": "大蔵村 妊婦のための支援給付",
+      "organization": "大蔵村",
+      "officialUrl": "https://www.vill.ohkura.yamagata.jp/hojokin_joseikin/kakushushien/1977.html",
+      "sourceName": "大蔵村 妊婦のための支援給付について"
+    },
+    {
+      "slug": "ohkura-housing-renovation-support-subsidy-2026",
+      "title": "大蔵村 住宅リフォーム支援事業",
+      "organization": "大蔵村",
+      "officialUrl": "https://www.vill.ohkura.yamagata.jp/hojokin_joseikin/zumai/851.html",
+      "sourceName": "大蔵村 令和8年度 大蔵村住宅リフォーム支援事業"
+    },
+    {
+      "slug": "ohkura-wood-biomass-stove-subsidy-2026",
+      "title": "大蔵村 木質バイオマス利用拡大支援事業",
+      "organization": "大蔵村",
+      "officialUrl": "https://www.vill.ohkura.yamagata.jp/hojokin_joseikin/zumai/910.html",
+      "sourceName": "大蔵村 木質バイオマス利用拡大支援事業"
+    },
+    {
+      "slug": "ohkura-birth-celebration-grant-2026",
+      "title": "大蔵村 誕生祝金",
+      "organization": "大蔵村",
+      "officialUrl": "https://www.vill.ohkura.yamagata.jp/hojokin_joseikin/ninshin_shussan/1252.html",
+      "sourceName": "大蔵村 誕生祝金"
+    },
+    {
+      "slug": "ohkura-household-snowblower-subsidy-2026",
+      "title": "大蔵村 家庭用除雪機購入補助金",
+      "organization": "大蔵村",
+      "officialUrl": "https://www.vill.ohkura.yamagata.jp/kurashi_tetsuzuki/zumai/1384.html",
+      "sourceName": "大蔵村 家庭用除雪機の購入を補助します"
+    },
+    {
+      "slug": "sakegawa-youth-childcare-migration-support-grant-2026",
+      "title": "鮭川村 若者世帯・子育て世帯移住支援金",
+      "organization": "鮭川村",
+      "officialUrl": "https://www.vill.sakegawa.yamagata.jp/print/1708",
+      "sourceName": "鮭川村 県外から鮭川村へ移住された若者世帯・子育て世帯に移住支援金を支給します"
+    },
+    {
+      "slug": "sakegawa-small-business-support-subsidy-2026",
+      "title": "鮭川村 小規模企業者支援事業補助金",
+      "organization": "鮭川村",
+      "officialUrl": "https://www.vill.sakegawa.yamagata.jp/topics/1670",
+      "sourceName": "鮭川村 令和8年度鮭川村小規模企業者支援事業補助金について"
+    },
+    {
+      "slug": "sakegawa-qualification-acquisition-subsidy-2026",
+      "title": "鮭川村 資格取得支援事業",
+      "organization": "鮭川村",
+      "officialUrl": "https://www.vill.sakegawa.yamagata.jp/topics/1671",
+      "sourceName": "鮭川村 令和8年度鮭川村資格取得支援事業"
+    },
+    {
+      "slug": "sakegawa-residential-land-purchase-development-subsidy-2026",
+      "title": "鮭川村 住宅用地購入・宅地造成費助成金",
+      "organization": "鮭川村",
+      "officialUrl": "https://www.vill.sakegawa.yamagata.jp/topics/1685",
+      "sourceName": "鮭川村 住宅用地購入・宅地造成費助成金のご案内"
+    },
+    {
+      "slug": "sakegawa-vacant-house-household-goods-subsidy-2026",
+      "title": "鮭川村 空家等利活用時家財整理事業費補助金",
+      "organization": "鮭川村",
+      "officialUrl": "https://www.vill.sakegawa.yamagata.jp/seikatsu/iju-teiju/1442",
+      "sourceName": "鮭川村 空き家・空き地バンク制度／空家等利活用時家財整理事業費補助金制度"
+    },
+    {
+      "slug": "sakegawa-housing-renovation-support-subsidy-2026",
+      "title": "鮭川村 住宅リフォーム総合支援事業",
+      "organization": "鮭川村",
+      "officialUrl": "https://www.vill.sakegawa.yamagata.jp/seikatsu/jyutaku/1690",
+      "sourceName": "鮭川村 令和8年度鮭川村住宅リフォーム総合支援事業"
+    },
+    {
+      "slug": "sakegawa-infertility-assisted-reproduction-subsidy-2026",
+      "title": "鮭川村 生殖補助医療費等助成事業",
+      "organization": "鮭川村",
+      "officialUrl": "https://www.vill.sakegawa.yamagata.jp/kosodate/ninshin-syussan/773",
+      "sourceName": "鮭川村 生殖補助医療費等助成事業"
+    },
+    {
+      "slug": "tozawa-birth-celebration-grant-2026",
+      "title": "戸沢村 出生祝金",
+      "organization": "戸沢村",
+      "officialUrl": "https://www.vill.tozawa.yamagata.jp/life/kosodate/iwaikinjoseikin/",
+      "sourceName": "戸沢村 出産・子育てに関する祝金・補助金"
+    },
+    {
+      "slug": "tozawa-child-seat-purchase-subsidy-2026",
+      "title": "戸沢村 チャイルドシート購入補助金",
+      "organization": "戸沢村",
+      "officialUrl": "https://www.vill.tozawa.yamagata.jp/life/kosodate/iwaikinjoseikin/",
+      "sourceName": "戸沢村 出産・子育てに関する祝金・補助金"
+    },
+    {
+      "slug": "tozawa-newborn-hearing-test-subsidy-2026",
+      "title": "戸沢村 新生児聴覚検査補助",
+      "organization": "戸沢村",
+      "officialUrl": "https://www.vill.tozawa.yamagata.jp/life/kosodate/iwaikinjoseikin/",
+      "sourceName": "戸沢村 出産・子育てに関する祝金・補助金"
+    },
+    {
+      "slug": "tozawa-medical-wig-subsidy-2026",
+      "title": "戸沢村 医療用ウィッグ購入費助成事業",
+      "organization": "戸沢村",
+      "officialUrl": "https://www.vill.tozawa.yamagata.jp/life/kenko_fukushi_iryo/jyoseikin_kenko/",
+      "sourceName": "戸沢村 助成金 がん患者医療用ウィッグ購入費助成事業"
+    },
+    {
+      "slug": "tozawa-cat-neuter-spay-subsidy-2026",
+      "title": "戸沢村 猫の不妊去勢手術支援事業補助金",
+      "organization": "戸沢村",
+      "officialUrl": "https://www.vill.tozawa.yamagata.jp/pages/272/",
+      "sourceName": "戸沢村 猫の不妊去勢手術支援事業補助金について"
+    },
+    {
+      "slug": "tozawa-school-lunch-free-support-2026",
+      "title": "戸沢村 学校給食費無償化",
+      "organization": "戸沢村",
+      "officialUrl": "https://www.vill.tozawa.yamagata.jp/pages/199/",
+      "sourceName": "戸沢村 給食費無償化について"
+    },
+    {
+      "slug": "tozawa-child-medical-expense-subsidy-2026",
+      "title": "戸沢村 子育て支援医療制度",
+      "organization": "戸沢村",
+      "officialUrl": "https://www.vill.tozawa.yamagata.jp/pages/338/",
+      "sourceName": "戸沢村 子育て支援医療制度"
+    }
+  ],
+  "held": [
+    "真室川町の家庭保育支援給付金、県立神室産業高校支援、大学生等食の支援、屋根雪除雪支援、非課税世帯エアコン購入助成、地域づくり・団体支援系は金額・期限又は現行性を第2巡で再確認。",
+    "大蔵村の豪雪対策除排雪事業補助金は令和7年度災害対応・令和8年度現行性を第2巡で確認。結婚支援事業ページ内の結婚新生活支援は既存同種制度との重複整理を第2巡へ残す。",
+    "鮭川村の水道料金減免、災害援護資金貸付、耐震診断・耐震改修、がけ地近接等危険住宅移転、浄化槽設置、施設農業等経営支援給付金は金額・対象・期限の再確認を第2巡へ残す。",
+    "戸沢村の住宅補助金一覧はPDF要綱の金額精査が必要なため第2巡へ残す。過年度の低所得者給付金、定額減税調整給付金、農業経営収入保険補助金、不妊治療費旧制度、就学援助は現行性又は支給額確認不足のため採用しない。"
+  ],
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: added 34 slugs, duplicate count 0",
+    "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 34 slugs / 34 source URLs, failures 0, all HTTP 200",
+    "diffCheck": "pass: git diff --check for Yamagata 007 files",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8541, officialLinkedActive 8503, manuallyVerifiedActive 8503, Yamagata localOfficial 268, Yamagata coveredCategories 8"
+  }
+}

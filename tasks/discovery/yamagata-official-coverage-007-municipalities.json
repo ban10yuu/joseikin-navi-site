@@ -1,0 +1,26 @@
+{
+  "batchId": "yamagata-comprehensive-official-coverage-007",
+  "prefecture": "山形県",
+  "municipalities": [
+    {
+      "code": "06364",
+      "name": "真室川町",
+      "officialBaseUrl": "https://www.town.mamurogawa.yamagata.jp/"
+    },
+    {
+      "code": "06365",
+      "name": "大蔵村",
+      "officialBaseUrl": "https://www.vill.ohkura.yamagata.jp/"
+    },
+    {
+      "code": "06366",
+      "name": "鮭川村",
+      "officialBaseUrl": "https://www.vill.sakegawa.yamagata.jp/"
+    },
+    {
+      "code": "06367",
+      "name": "戸沢村",
+      "officialBaseUrl": "https://www.vill.tozawa.yamagata.jp/"
+    }
+  ]
+}
