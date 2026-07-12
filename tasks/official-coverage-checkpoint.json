@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T04:10:00+09:00",
-  "mode": "akita-comprehensive-official-coverage",
+  "updatedAt": "2026-07-13T05:05:00+09:00",
+  "mode": "yamagata-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "akita-comprehensive-official-second-pass-006",
-    "municipality": "八郎潟町・井川町・大潟村・美郷町",
-    "adopted": 19,
-    "held": 4,
-    "excluded": 6,
-    "sourceUrlsChecked": 19,
+    "code": "akita-comprehensive-official-final-audit",
+    "municipality": "秋田県庁・県内25市町村",
+    "adopted": 321,
+    "held": 0,
+    "excluded": 0,
+    "sourceUrlsChecked": 321,
     "validation": {
-      "previousMunicipality": "秋田県第2巡006として、05363八郎潟町、05366井川町、05368大潟村、05434美郷町の第1巡保留候補を確認した。八郎潟町4件、井川町3件、大潟村5件、美郷町7件を追加し、受付終了・国県制度窓口・カテゴリ導線・金額不足PDF候補は第2巡台帳へ残した。",
+      "previousMunicipality": "秋田県公式棚卸し最終監査として、05000秋田県庁および県内25市町村の第1巡001-007・第2巡001-007の採否記録を集計した。トップ、カテゴリ、共通ナビ、国県制度窓口、受付終了、外部団体制度、過去実績、本文で金額不足の候補を不採用理由付きで解消し、候補未判定0件として県単位完了扱いにした。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: added Akita second-pass 006 slugs 19, duplicate count 0",
-      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 19 slugs, failures 0, all HTTP 200",
-      "diffCheck": "pass: git diff --check for Akita second-pass 006 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8343, officialLinkedActive 8305, manuallyVerifiedActive 8305, Akita localOfficial 312"
+      "addedSlugUniqueness": "pass: Akita related slugs 271, duplicate count 0",
+      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked Akita second-pass 007 added 9 slugs, failures 0, all HTTP 200",
+      "diffCheck": "pass: git diff --check for Akita second-pass 007 and final audit files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8352, officialLinkedActive 8314, manuallyVerifiedActive 8314, Akita localOfficial 321, Akita coveredCategories 8"
     }
   },
   "next": {
-    "code": "akita-comprehensive-official-second-pass-007",
-    "municipality": "羽後町・東成瀬村",
-    "shortlist": "秋田県第2巡006は八郎潟町4件、井川町3件、大潟村5件、美郷町7件を追加した。次は第1巡007の保留候補を羽後町・東成瀬村から確認する。",
-    "instructions": "秋田県第2巡007として、05463羽後町、05464東成瀬村を自治体コード順に確認する。羽後町は商工班お知らせ掲示板の町独自商品券等、産後ケア事業、配食サービス、福祉医療、農業・商工業一覧配下候補を、東成瀬村は移住定住住宅A棟・B棟の家賃補助制度本文、助成金カテゴリ、医療・福祉・農林業・住宅関連カテゴリ配下候補を公式本文/PDFで確認する。既存raw gap 0を全国完了扱いしない。"
+    "code": "yamagata-comprehensive-official-coverage-001",
+    "municipality": "山形県庁・山形市・米沢市・鶴岡市",
+    "shortlist": "秋田県は第1巡・第2巡・最終監査まで完了し、localOfficial 321、候補未判定0件として県単位完了扱いにした。次は山形県公式棚卸し001から開始する。",
+    "instructions": "山形県公式棚卸し001として、06000山形県庁、06201山形市、06202米沢市、06203鶴岡市を自治体コード順に確認する。公式サイトの補助金・助成金・給付金・一時金等を制度ページ単位で、制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約付きで採用し、トップ、カテゴリ、サイトマップ、共通ナビ一致は削除せず第2巡台帳へ残す。既存raw gap 0を全国完了扱いしない。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

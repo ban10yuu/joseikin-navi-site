@@ -1,0 +1,94 @@
+{
+  "batchId": "akita-comprehensive-official-second-pass-007",
+  "prefecture": "秋田県",
+  "generatedAt": "2026-07-13T04:45:00+09:00",
+  "sourceFirstPassFile": "tasks/discovery/akita-official-coverage-007.json",
+  "targetMunicipalities": [
+    {
+      "code": "05463",
+      "name": "羽後町",
+      "officialBaseUrl": "https://www.town.ugo.lg.jp/",
+      "adopted": 2
+    },
+    {
+      "code": "05464",
+      "name": "東成瀬村",
+      "officialBaseUrl": "https://vill.higashinaruse.lg.jp/",
+      "adopted": 7
+    }
+  ],
+  "adopted": {
+    "total": 9,
+    "byMunicipality": {
+      "羽後町": [
+        {
+          "slug": "ugo-postpartum-care-subsidy-2026",
+          "title": "産後ケア事業",
+          "officialUrl": "https://www.town.ugo.lg.jp/life/detail.html?id=2986&category_id=5",
+          "evidence": "産後支援が必要な母子、宿泊型・日帰り型・訪問型、利用料1割自己負担、非課税・生活保護世帯無料、利用上限日数を確認。"
+        },
+        {
+          "slug": "ugo-meal-delivery-service-subsidy-2026",
+          "title": "配食サービス",
+          "officialUrl": "https://www.town.ugo.lg.jp/life/detail.html?id=3012&category_id=13",
+          "evidence": "要支援等・65歳以上一人暮らし高齢者等、調理困難、利用者負担1食550円、最大週3回を確認。"
+        }
+      ],
+      "東成瀬村": [
+        {
+          "slug": "higashinaruse-snow-roof-safety-fitting-subsidy-2026",
+          "title": "雪下ろし安全金具整備事業補助金",
+          "officialUrl": "https://vill.higashinaruse.lg.jp/iju-teiju/joseikin/post-31370/",
+          "evidence": "村内住宅等、雪下ろし安全対策工事・装備品、通常2分の1上限10万円、高齢者等世帯3分の2上限15万円を確認。"
+        },
+        {
+          "slug": "higashinaruse-job-qualification-subsidy-2026",
+          "title": "就業資格取得支援事業補助金",
+          "officialUrl": "https://vill.higashinaruse.lg.jp/villager/village_government/jigyousya/post-23167/",
+          "evidence": "70歳未満の就労者・求職者・事業所、受講料等、個人2分の1上限10万円、事業所3分の1上限20万円、取得翌日から3か月以内申請を確認。"
+        },
+        {
+          "slug": "higashinaruse-vacant-house-renovation-subsidy-2026",
+          "title": "空き家リフォーム支援事業助成金",
+          "officialUrl": "https://vill.higashinaruse.lg.jp/iju-teiju/joseikin/post-24399/",
+          "evidence": "Uターン者等、村内空き家購入物件の改修、対象経費2分の1以内・上限100万円、村内業者施工を確認。"
+        },
+        {
+          "slug": "higashinaruse-hometown-settlement-scholarship-incentive-2026",
+          "title": "ふるさと定住奨励金",
+          "officialUrl": "https://vill.higashinaruse.lg.jp/iju-teiju/joseikin/post-1648/",
+          "evidence": "昨年度奨学金返還、1年以上村内居住、返還金3分の1、住民票・納税証明書等を確認。"
+        },
+        {
+          "slug": "higashinaruse-migration-settlement-incentive-2026",
+          "title": "移住定住奨励金",
+          "officialUrl": "https://vill.higashinaruse.lg.jp/iju-teiju/joseikin/post-1635/",
+          "evidence": "Uターン者・Iターン者、平成26年4月1日以降登録、1年以上移住、対象者1人5万円分商品券を確認。"
+        },
+        {
+          "slug": "higashinaruse-marriage-support-center-registration-subsidy-2026",
+          "title": "あきた結婚支援センター入会登録料助成事業",
+          "officialUrl": "https://vill.higashinaruse.lg.jp/villager/parenting/post-1624/",
+          "evidence": "村内住所の独身者、村税滞納なし、入会登録料1万円を村が負担、登録時申請を確認。"
+        },
+        {
+          "slug": "higashinaruse-migration-settlement-housing-rent-subsidy-2026",
+          "title": "移住定住住宅家賃補助",
+          "officialUrl": "https://vill.higashinaruse.lg.jp/wp-content/uploads/2026/06/b6323dd0a538e9b23aef792418039596.pdf",
+          "evidence": "移住定住住宅、家賃補助上限は移住者世帯22,000円・定住者世帯20,000円、移住者世帯は住宅入居後5年間、B棟申込期限令和8年7月30日を確認。"
+        }
+      ]
+    }
+  },
+  "notAdopted": [
+    "羽後町の商工班お知らせ掲示板は生活応援商品券2026の利用期限を確認できたが、配布対象・配布額の制度本文が同ページで確認できないため採用しなかった。",
+    "羽後町の商工業カテゴリ、農林業カテゴリ、トップ、共通ナビはカテゴリ導線中心のため個別制度として採用しなかった。",
+    "東成瀬村の移住支援金ページは外部マッチングサイトへの案内のみで、村公式本文では金額・条件を確認できないため採用しなかった。",
+    "東成瀬村の県営発電所周辺地域等振興事業助成金活用ページは県助成金の活用実績・広報であり、住民・事業者向けの村独自申請制度ではないため採用しなかった。",
+    "東成瀬村の国民年金育児免除、トップ、カテゴリ、共通ナビ、村政広報ページは国制度又は制度一覧導線として採用しなかった。"
+  ],
+  "validation": {
+    "sourceUrlsChecked": 9,
+    "notes": "公式本文または公式PDFで制度名・対象・金額/上限・条件・期限/受付状況を確認できるものだけを採用した。重い監査はデータ・チェックリスト・checkpoint更新後に実行する。"
+  }
+}

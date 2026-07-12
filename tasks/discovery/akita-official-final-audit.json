@@ -1,0 +1,61 @@
+{
+  "batchId": "akita-comprehensive-official-final-audit",
+  "prefecture": "秋田県",
+  "generatedAt": "2026-07-13T04:45:00+09:00",
+  "scope": {
+    "municipalities": [
+      "05000 秋田県庁",
+      "05201 秋田市",
+      "05202 能代市",
+      "05203 横手市",
+      "05204 大館市",
+      "05206 男鹿市",
+      "05207 湯沢市",
+      "05209 鹿角市",
+      "05210 由利本荘市",
+      "05211 潟上市",
+      "05212 大仙市",
+      "05213 北秋田市",
+      "05214 にかほ市",
+      "05215 仙北市",
+      "05303 小坂町",
+      "05327 上小阿仁村",
+      "05346 藤里町",
+      "05348 三種町",
+      "05349 八峰町",
+      "05361 五城目町",
+      "05363 八郎潟町",
+      "05366 井川町",
+      "05368 大潟村",
+      "05434 美郷町",
+      "05463 羽後町",
+      "05464 東成瀬村"
+    ],
+    "firstPassFiles": [
+      "tasks/discovery/akita-official-coverage-001.json",
+      "tasks/discovery/akita-official-coverage-002.json",
+      "tasks/discovery/akita-official-coverage-003.json",
+      "tasks/discovery/akita-official-coverage-004.json",
+      "tasks/discovery/akita-official-coverage-005.json",
+      "tasks/discovery/akita-official-coverage-006.json",
+      "tasks/discovery/akita-official-coverage-007.json"
+    ],
+    "secondPassFiles": [
+      "tasks/discovery/akita-official-second-pass-001.json",
+      "tasks/discovery/akita-official-second-pass-002.json",
+      "tasks/discovery/akita-official-second-pass-003.json",
+      "tasks/discovery/akita-official-second-pass-004.json",
+      "tasks/discovery/akita-official-second-pass-005.json",
+      "tasks/discovery/akita-official-second-pass-006.json",
+      "tasks/discovery/akita-official-second-pass-007.json"
+    ]
+  },
+  "status": "complete",
+  "checks": {
+    "municipalityCoverage": "pass: 秋田県庁および県内25市町村を第1巡001-007・第2巡001-007で確認",
+    "candidateResolution": "pass: トップ、カテゴリ、共通ナビ、国県制度窓口、受付終了、外部団体制度、過去実績、本文で金額不足の候補を不採用理由付きで解消",
+    "slugUniqueness": "pass: 秋田県関連slug 271, duplicate count 0",
+    "coverageAudit": "pass: npm run audit:coverage failures 0, activePublished 8352, officialLinkedActive 8314, manuallyVerifiedActive 8314, Akita localOfficial 321, Akita coveredCategories 8",
+    "diffCheck": "pass: git diff --check for Akita second-pass 007 and final audit files"
+  }
+}
