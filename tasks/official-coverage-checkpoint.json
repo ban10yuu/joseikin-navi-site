@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T08:18:00+09:00",
+  "updatedAt": "2026-07-13T08:36:00+09:00",
   "mode": "fukushima-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "fukushima-comprehensive-official-coverage-003",
-    "municipality": "二本松市・田村市・南相馬市・伊達市",
-    "adopted": 20,
-    "held": 12,
+    "code": "fukushima-comprehensive-official-coverage-004",
+    "municipality": "本宮市・桑折町・国見町・川俣町",
+    "adopted": 23,
+    "held": 24,
     "excluded": 0,
-    "sourceUrlsChecked": 20,
+    "sourceUrlsChecked": 23,
     "validation": {
-      "previousMunicipality": "福島県公式棚卸し003として、07210二本松市、07211田村市、07212南相馬市、07213伊達市の公式サイトを確認した。候補979件が150件を超えたため本文スニペット249件を抽出して再スコアリングした。制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別ページ20件を採用した。福島県伊達市は北海道伊達市との名称衝突を避け、福島県伊達市公式ドメインの制度のみ採用した。カテゴリ、既存重複、一覧混在、PDF別紙金額未精査候補は第2巡台帳へ残した。",
+      "previousMunicipality": "福島県公式棚卸し004として、07214本宮市、07301桑折町、07303国見町、07308川俣町の公式サイトを確認した。公式候補1589件が150件を超えたため本文スニペット34件を抽出し、補助金一覧・カテゴリページから個別制度URLへ展開して47ページを確認した。制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別ページ23件を採用し、制度差分・受付終了・既存重複・PDF未精査候補24件は第2巡台帳へ残した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: added 20 slugs, duplicate count 0",
-      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 20 slugs / 20 source URLs, failures 0, all HTTP 200",
-      "diffCheck": "pass: git diff --check for Fukushima 003 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8672, officialLinkedActive 8634, manuallyVerifiedActive 8634, Fukushima localOfficial 150, Fukushima coveredCategories 8"
+      "addedSlugUniqueness": "pass: added 23 slugs, duplicate count 0",
+      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 23 slugs / 23 source URLs, failures 0, all HTTP 200",
+      "diffCheck": "pass: git diff --check for Fukushima 004 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8695, officialLinkedActive 8657, manuallyVerifiedActive 8657, Fukushima localOfficial 173, Fukushima coveredCategories 8"
     }
   },
   "next": {
-    "code": "fukushima-comprehensive-official-coverage-004",
-    "municipality": "本宮市・桑折町・国見町・川俣町",
-    "shortlist": "福島県公式棚卸し003で二本松市・田村市・南相馬市・伊達市から20制度を採用した。次は福島県004として自治体コード順に07214本宮市、07301桑折町、07303国見町、07308川俣町を確認する。",
-    "instructions": "福島県公式棚卸し004として、07214本宮市、07301桑折町、07303国見町、07308川俣町を自治体コード順に確認する。公式サイトの補助金・助成金・給付金・一時金等を制度ページ単位で、制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約付きで採用し、トップ、カテゴリ、サイトマップ、共通ナビ一致は削除せず第2巡台帳へ残す。既存raw gap 0を全国完了扱いしない。"
+    "code": "fukushima-comprehensive-official-coverage-005",
+    "municipality": "大玉村・鏡石町・天栄村・下郷町",
+    "shortlist": "福島県公式棚卸し004で本宮市・桑折町・国見町・川俣町から23制度を採用した。次は福島県005として自治体コード順に07322大玉村、07342鏡石町、07344天栄村、07362下郷町を確認する。",
+    "instructions": "福島県公式棚卸し005として、07322大玉村、07342鏡石町、07344天栄村、07362下郷町を自治体コード順に確認する。公式サイトの補助金・助成金・給付金・一時金等を制度ページ単位で、制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約付きで採用し、トップ、カテゴリ、サイトマップ、共通ナビ一致は削除せず第2巡台帳へ残す。既存raw gap 0を全国完了扱いしない。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

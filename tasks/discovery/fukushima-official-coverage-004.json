@@ -1,0 +1,64 @@
+{
+  "batchId": "fukushima-comprehensive-official-coverage-004",
+  "prefecture": "福島県",
+  "municipalities": [
+    "本宮市",
+    "桑折町",
+    "国見町",
+    "川俣町"
+  ],
+  "generatedAt": "2026-07-13T08:36:00+09:00",
+  "candidateFile": "tasks/discovery/fukushima-official-coverage-004-candidates.json",
+  "snippetFile": "tasks/discovery/fukushima-official-coverage-004-snippets.json",
+  "detailsFile": "tasks/discovery/fukushima-official-coverage-004-details.json",
+  "candidateCount": 1589,
+  "snippetCount": 34,
+  "detailsChecked": 47,
+  "adoptedCount": 23,
+  "heldCount": 24,
+  "excludedCount": 0,
+  "adoptedSlugs": [
+    "motomiya-startup-support-subsidy-2026",
+    "motomiya-newlywed-life-support-2026",
+    "motomiya-assisted-reproduction-transport-subsidy-2026",
+    "motomiya-unlicensed-childcare-fee-subsidy-2026",
+    "motomiya-pregnant-women-benefit-2026",
+    "motomiya-child-medical-aid-2026",
+    "motomiya-residential-solar-storage-subsidy-2026",
+    "koori-vacant-store-opening-subsidy-2026",
+    "koori-newlywed-life-support-2026",
+    "koori-pregnant-women-benefit-2026",
+    "koori-renewable-energy-system-subsidy-2026",
+    "koori-vacant-house-demolition-subsidy-2026",
+    "koori-migration-support-grant-2026",
+    "kunimi-migration-support-grant-2026",
+    "kunimi-vacant-house-renovation-subsidy-2026",
+    "kunimi-housing-acquisition-support-2026",
+    "kunimi-startup-interest-subsidy-2026",
+    "kawamata-wooden-house-seismic-renovation-subsidy-2026",
+    "kawamata-block-wall-renovation-subsidy-2026",
+    "kawamata-renewable-energy-equipment-subsidy-2026",
+    "kawamata-housing-acquisition-support-2026",
+    "kawamata-newlywed-life-support-2026",
+    "kawamata-tokyo-area-migration-support-2026"
+  ],
+  "adoptedByMunicipality": {
+    "本宮市": 7,
+    "桑折町": 6,
+    "国見町": 4,
+    "川俣町": 6
+  },
+  "heldNotes": [
+    "本宮市の不育症治療費、ひとり親医療、私立保育料、就学援助、奨学金、国・県補助一覧、被災者生活再建支援は制度差分・受付終了・既存重複を第2巡で確認する。",
+    "桑折町の就農者支援、多様な就農者支援、農業者青色申告、地域計画担い手、任意予防接種、一時預かり、病児保育、人間ドック、高齢者運転免許返納、おでかけパス、骨髄ドナー、生ごみ処理機、空家改修、若者定住、地方就職学生、新婚家賃、奨学資金等は第2巡で個別年度・金額・受付差分を確認する。",
+    "国見町の不足額給付、調整給付、物価高子育て応援、奨励金、各種奨学金、木造耐震、ブロック塀、おたふくかぜ、奨学金返還、試し滞在宿泊費等は第2巡で受付状況・既存重複・制度本体を確認する。",
+    "川俣町の福祉灯油、空き家改修・新築等・空き家総合、移住・二地域居住、就農者確保、二地域居住、空き店舗、創業支援、企業立地等は第2巡で制度差分・年度・併用関係を確認する。"
+  ],
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: added 23 slugs, duplicate count 0",
+    "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 23 slugs / 23 source URLs, failures 0, all HTTP 200",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8695, officialLinkedActive 8657, manuallyVerifiedActive 8657, Fukushima localOfficial 173, Fukushima coveredCategories 8",
+    "diffCheck": "pass: git diff --check for Fukushima 004 files"
+  }
+}
