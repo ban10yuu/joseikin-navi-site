@@ -1,0 +1,44 @@
+{
+  "batchId": "akita-comprehensive-official-coverage-007",
+  "prefecture": "秋田県",
+  "municipalities": [
+    {
+      "code": "05463",
+      "name": "羽後町",
+      "officialBaseUrl": "https://www.town.ugo.lg.jp/",
+      "candidateCount": 119,
+      "adopted": 21,
+      "held": [
+        "商工班お知らせ掲示板は町独自商品券等を含むが、制度詳細が一覧・外部告知中心のため第2巡で個別制度ページを再確認する。",
+        "産後ケア事業、配食サービス、福祉医療、農業・商工業の一覧配下候補は第2巡で金額・対象・受付を再確認する。",
+        "トップ、カテゴリ、共通ナビ、県・国制度の周知ページは採用せず第2巡台帳へ残す。"
+      ]
+    },
+    {
+      "code": "05464",
+      "name": "東成瀬村",
+      "officialBaseUrl": "https://vill.higashinaruse.lg.jp/",
+      "candidateCount": 64,
+      "adopted": 7,
+      "held": [
+        "移住定住住宅A棟・B棟は家賃補助適用後の募集ページで、補助制度本文・算定式が未確認のため第2巡で確認する。",
+        "助成金カテゴリページ、国民年金育児免除、県交付金活用事業の広報ページは採用せず第2巡台帳へ残す。",
+        "医療・福祉・農林業・住宅関連のカテゴリ配下候補は第2巡でPDF・例規・様式を含めて再確認する。"
+      ]
+    }
+  ],
+  "generatedFiles": [
+    "tasks/discovery/akita-official-coverage-007-municipalities.json",
+    "tasks/discovery/akita-official-coverage-007-candidates.json",
+    "tasks/discovery/akita-official-coverage-007-snippets.json"
+  ],
+  "summary": {
+    "candidateCount": 183,
+    "adopted": 28,
+    "sourceUrlsChecked": 28,
+    "uniqueSourceUrlsChecked": 25,
+    "shortlistRescored": true,
+    "notes": "shortlistが150件を超えたため、候補HTML/PDFから短い本文スニペットを抽出し再スコアリングした。制度名・対象・金額/上限・条件・期限/受付状況が公式本文またはPDFで確認できる個別ページのみ採用した。"
+  },
+  "updatedAt": "2026-07-13T02:46:46+09:00"
+}
