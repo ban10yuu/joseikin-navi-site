@@ -1,0 +1,201 @@
+{
+  "batchId": "akita-comprehensive-official-second-pass-003",
+  "prefecture": "秋田県",
+  "checkedAt": "2026-07-13T04:15:00+09:00",
+  "sourceBatch": "tasks/discovery/akita-official-coverage-003.json",
+  "summary": {
+    "municipalities": 4,
+    "newlyAdopted": 18,
+    "existingConfirmed": 22,
+    "held": 6,
+    "excluded": 2,
+    "notes": "第1巡003の保留候補から、由利本荘市、潟上市、北秋田市の公式本文で制度名・対象・金額/上限・条件・期限/受付状況が確認できた18件を追加した。大仙市は既存公式補正済み22件との重複を優先確認し、新規追加なし。"
+  },
+  "municipalities": [
+    {
+      "code": "05210",
+      "name": "由利本荘市",
+      "officialBaseUrl": "https://www.city.yurihonjo.lg.jp/",
+      "adopted": [
+        {
+          "slug": "yurihonjo-life-support-voucher-2026",
+          "title": "由利本荘市生活応援券",
+          "officialUrl": "https://www.city.yurihonjo.lg.jp/1001504/1002137/1012844.html",
+          "evidence": "由利本荘市民、1セット5,000円で10,000円分、1人2セットまで、使用期間2026年5月2日から8月31日、購入申込終了を確認。"
+        },
+        {
+          "slug": "yurihonjo-water-basic-charge-reduction-2026",
+          "title": "水道料金基本料金減免",
+          "officialUrl": "https://www.city.yurihonjo.lg.jp/1001506/1001553/1013016.html",
+          "evidence": "家庭及び企業の水道契約者、官公庁除外、2026年3月から8月請求分、水道料金の基本料金分減免、手続き不要を確認。"
+        },
+        {
+          "slug": "yurihonjo-startup-business-succession-subsidy-2026",
+          "title": "起業・事業承継支援補助金",
+          "officialUrl": "https://www.city.yurihonjo.lg.jp/entrepreneur/hojokin.html",
+          "evidence": "起業・事業承継、小規模事業者持続化枠、通常上限30万円、地域課題解決型等上限60万円、商工会指導必須を確認。"
+        },
+        {
+          "slug": "yurihonjo-startup-loan-interest-subsidy-2026",
+          "title": "起業者融資利子補給金",
+          "officialUrl": "https://www.city.yurihonjo.lg.jp/entrepreneur/hojokin.html",
+          "evidence": "市内で新たに事業を始める女性・若年者、起業時借入の支払利子分、当初5年間分の市補給を確認。"
+        }
+      ],
+      "heldForNextPass": [
+        "定住促進奨励金、空き家、子育てカテゴリは第1巡既採用済み住宅・浄化槽・耐震制度との重複を避け、個別ページ単位の再確認へ残す。"
+      ]
+    },
+    {
+      "code": "05211",
+      "name": "潟上市",
+      "officialBaseUrl": "https://www.city.katagami.lg.jp/",
+      "adopted": [
+        {
+          "slug": "katagami-tokyo-area-migration-support-2026",
+          "title": "東京圏移住者支援補助金",
+          "officialUrl": "https://www.city.katagami.lg.jp/soshiki/sangyoushinkoubu/shoukoukankoushinkouka/kigyoushien/teiju/ijusien/4625.html",
+          "evidence": "東京23区又は東京圏からの移住、通算5年以上・直近1年以上、就業・テレワーク等、世帯100万円・単身60万円・子ども加算100万円、転入後1年以内申請を確認。"
+        },
+        {
+          "slug": "katagami-startup-support-subsidy-2026",
+          "title": "創業支援事業補助金",
+          "officialUrl": "https://www.city.katagami.lg.jp/gyosei/machizukuri/teiju/1930.html",
+          "evidence": "市外から転入して新たに事業を開始する場合、補助率3分の2、上限100万円を確認。"
+        },
+        {
+          "slug": "katagami-migrant-housing-reform-subsidy-2026",
+          "title": "住宅リフォーム補助金（移住・定住世帯）",
+          "officialUrl": "https://www.city.katagami.lg.jp/gyosei/machizukuri/teiju/1930.html",
+          "evidence": "移住者を含む世帯、工事費50万円以上、定着回帰型2割・上限20万円、中古住宅購入型3割・上限30万円を確認。"
+        },
+        {
+          "slug": "katagami-depopulated-area-foundation-pile-subsidy-2026",
+          "title": "過疎地域移住者等住宅基礎杭打ち工事支援補助金",
+          "officialUrl": "https://www.city.katagami.lg.jp/gyosei/machizukuri/teiju/1930.html",
+          "evidence": "過疎地域に住宅を新築し定住する移住者と39歳以下の若者、基礎杭打ち工事費・地盤調査費の半額、上限50万円を確認。"
+        },
+        {
+          "slug": "katagami-ikueikai-scholarship-loan-2026",
+          "title": "潟上市育英会奨学金",
+          "officialUrl": "https://www.city.katagami.lg.jp/soshiki/kyoikuiinkai_kyoiku/kyouikusoumu/somugakuji/1/3920.html",
+          "evidence": "2年以上在住、高校・大学等進学予定又は在学生、月額1万3千円から3万円以内、2026年度申込期間2026年2月6日から3月2日必着、返還条件を確認。"
+        },
+        {
+          "slug": "katagami-ikueikai-advancement-scholarship-loan-2026",
+          "title": "潟上市育英会進学支援奨学金",
+          "officialUrl": "https://www.city.katagami.lg.jp/soshiki/kyoikuiinkai_kyoiku/kyouikusoumu/somugakuji/1/3921.html",
+          "evidence": "高校・大学等進学予定、2年以上在住、保護者が3年以内に失業、高校等15万円・大学等30万円、2026年度申込期間2026年2月6日から3月2日必着を確認。"
+        }
+      ],
+      "heldForNextPass": [
+        "ふるさと納税、無料職業紹介、空き家対策計画は制度案内又はカテゴリ導線中心のため、金額・対象が揃う個別補助ページを次巡で再確認する。"
+      ],
+      "excluded": [
+        "空き家対策計画ページは補助金・給付金本文ではないため今回追加しない。"
+      ]
+    },
+    {
+      "code": "05212",
+      "name": "大仙市",
+      "officialBaseUrl": "https://www.city.daisen.lg.jp/",
+      "adopted": [],
+      "existingConfirmed": [
+        "daisen-elderly-hearing-aid-2026",
+        "daisen-scholarship-repayment-2026",
+        "daisen-housing-reform",
+        "daisen-migration-support",
+        "daisen-childcare-subsidy",
+        "daisen-birth-bonus",
+        "daisen-newlywed-rent",
+        "daisen-disability-medical",
+        "daisen-school-lunch",
+        "daisen-telework-bonus",
+        "daisen-nursing-home-reform",
+        "daisen-energy-support",
+        "daisen-bousai-equipment",
+        "daisen-child-medical-aid",
+        "daisen-juutaku-reform",
+        "daisen-health-checkup-subsidy",
+        "daisen-scholarship-repayment",
+        "daisen-startup-support",
+        "daisen-elderly-taxi",
+        "daisen-water-saving",
+        "daisen-block-wall-removal",
+        "daisen-school-lunch-subsidy"
+      ],
+      "heldForNextPass": [
+        "手当・給付・奨学金・貸付、給付金・補助金、子育て、住宅、健康、商工カテゴリは既存制度との重複確認を継続し、未登録の個別ページのみ採用する。"
+      ]
+    },
+    {
+      "code": "05213",
+      "name": "北秋田市",
+      "officialBaseUrl": "https://www.city.kitaakita.akita.jp/",
+      "adopted": [
+        {
+          "slug": "kitaakita-scholarship-repayment-subsidy-2026",
+          "title": "奨学金等返還支援助成制度",
+          "officialUrl": "https://www.city.kitaakita.akita.jp/archive/p12592",
+          "evidence": "市内居住・就労、奨学金返還中の新卒者・45歳未満既卒者、最大60カ月、国家資格就労は年20万円、その他は年13万3千円を確認。"
+        },
+        {
+          "slug": "kitaakita-migrant-living-setup-subsidy-2026",
+          "title": "移住者住まい応援助成金",
+          "officialUrl": "https://www.city.kitaakita.akita.jp/archive/contents-5641",
+          "evidence": "県外からの移住者、移住希望登録、1年以上県外居住、3年以上居住意思、引越し・免許取得等上限20万円、18歳以下の子1人5万円加算、年度末申請を確認。"
+        },
+        {
+          "slug": "kitaakita-migration-support-grant-2026",
+          "title": "移住支援金",
+          "officialUrl": "https://www.city.kitaakita.akita.jp/archive/p12071",
+          "evidence": "東京23区在住者又は東京圏から23区内通勤者、家族100万円・単身60万円、18歳未満の子1人100万円加算を確認。"
+        },
+        {
+          "slug": "kitaakita-migrant-housing-acquisition-subsidy-2026",
+          "title": "移住者住宅支援",
+          "officialUrl": "https://www.city.kitaakita.akita.jp/archive/p12071",
+          "evidence": "移住者が市内に住宅を新築又は購入する場合、取得費用の2/10又は4/10、最大130万円を確認。"
+        },
+        {
+          "slug": "kitaakita-migrant-home-renovation-subsidy-2026",
+          "title": "住宅リフォーム支援（移住者）",
+          "officialUrl": "https://www.city.kitaakita.akita.jp/archive/p12071",
+          "evidence": "移住者、市内業者利用、工事費用30万円以上のリフォーム・増改築、補助率25から35%、最大70万円を確認。"
+        },
+        {
+          "slug": "kitaakita-migrant-loan-interest-subsidy-2026",
+          "title": "移住者融資資金利子補給費補助金",
+          "officialUrl": "https://www.city.kitaakita.akita.jp/archive/p12071",
+          "evidence": "県外からの移住者、2027年3月31日までに秋田銀行移住定住サポートローン貸付実行、年利2.5%を上限に利子補給を確認。"
+        },
+        {
+          "slug": "kitaakita-trial-migration-experience-subsidy-2026",
+          "title": "おためし移住体験",
+          "officialUrl": "https://www.city.kitaakita.akita.jp/archive/p12071",
+          "evidence": "おためし移住体験、体験費用・滞在費・交通費等、1世帯あたり最大5万円を確認。"
+        },
+        {
+          "slug": "kitaakita-marriage-life-support-grant-2026",
+          "title": "結婚生活応援金",
+          "officialUrl": "https://www.city.kitaakita.akita.jp/archive/p12071",
+          "evidence": "結婚後も市内に居住する新婚夫婦、1夫婦10万円、夫婦いずれかが入籍時に移住希望登録後3年以内の場合10万円加算を確認。"
+        }
+      ],
+      "heldForNextPass": [
+        "まちの賑わいづくり推進事業補助金、連動型住宅用火災警報器補助、商工業カテゴリは補助対象・上限・受付状況の個別本文確認を継続する。",
+        "子育て、医療、住宅カテゴリは第1巡採用済み制度との重複を避け、未登録個別ページのみ採用する。"
+      ],
+      "excluded": [
+        "セーブ・ザ・チルドレン子ども給付金は市公式が案内する外部団体制度で、市独自の補助金ではないため今回追加しない。"
+      ]
+    }
+  ],
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: added Akita second-pass 003 slugs 18, duplicate count 0",
+    "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 18 slugs, failures 0, all HTTP 200",
+    "diffCheck": "pass: git diff --check for Akita second-pass 003 files",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8298, officialLinkedActive 8260, manuallyVerifiedActive 8260, Akita localOfficial 267"
+  }
+}

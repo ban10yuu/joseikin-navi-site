@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T03:58:00+09:00",
+  "updatedAt": "2026-07-13T04:15:00+09:00",
   "mode": "akita-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "akita-comprehensive-official-second-pass-002",
-    "municipality": "大館市・男鹿市・湯沢市・鹿角市",
-    "adopted": 16,
-    "held": 4,
-    "excluded": 1,
-    "sourceUrlsChecked": 30,
+    "code": "akita-comprehensive-official-second-pass-003",
+    "municipality": "由利本荘市・潟上市・大仙市・北秋田市",
+    "adopted": 18,
+    "held": 6,
+    "excluded": 2,
+    "sourceUrlsChecked": 11,
     "validation": {
-      "previousMunicipality": "秋田県第2巡002として、05204大館市、05206男鹿市、05207湯沢市、05209鹿角市の第1巡保留候補を確認した。大館市5件、男鹿市1件、湯沢市10件を追加し、鹿角市は今回到達したカテゴリ・一覧ページだけでは金額・対象・期限が揃わないため新規追加なし。相談・ガイド・県制度紹介・カテゴリ導線、区分別上限や年度受付の再確認が必要な候補は第2巡台帳へ残した。",
+      "previousMunicipality": "秋田県第2巡003として、05210由利本荘市、05211潟上市、05212大仙市、05213北秋田市の第1巡保留候補を確認した。由利本荘市4件、潟上市6件、北秋田市8件を追加し、大仙市は既存公式補正済み22件との重複照合により新規追加なし。カテゴリ導線、計画ページ、外部団体制度、未分解の商工・住宅・子育てカテゴリは第2巡台帳へ残した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: added Akita second-pass 002 slugs 16, duplicate count 0",
-      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 16 slugs, failures 0, all HTTP 200",
-      "diffCheck": "pass: git diff --check for Akita second-pass 002 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8282, officialLinkedActive 8244, manuallyVerifiedActive 8244, Akita localOfficial 251"
+      "addedSlugUniqueness": "pass: added Akita second-pass 003 slugs 18, duplicate count 0",
+      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 18 slugs, failures 0, all HTTP 200",
+      "diffCheck": "pass: git diff --check for Akita second-pass 003 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8298, officialLinkedActive 8260, manuallyVerifiedActive 8260, Akita localOfficial 267"
     }
   },
   "next": {
-    "code": "akita-comprehensive-official-second-pass-003",
-    "municipality": "由利本荘市・潟上市・大仙市・北秋田市",
-    "shortlist": "秋田県第2巡002は大館市5件、男鹿市1件、湯沢市10件を追加し、鹿角市はカテゴリ・一覧導線中心として個別ページ展開へ残した。次は第1巡003の保留候補を由利本荘市・潟上市・大仙市・北秋田市から確認する。",
-    "instructions": "秋田県第2巡003として、05210由利本荘市、05211潟上市、05212大仙市、05213北秋田市を自治体コード順に確認する。由利本荘市は生活応援券、住宅リフォーム移住・転入型、定住奨励金、空き家・雇用・子育てカテゴリを確認する。潟上市は育英会奨学金、高等教育奨学金、移住定住、住宅、産業、ふるさと納税を確認する。大仙市は給付・奨学金・貸付・子育て・住宅・健康・商工カテゴリを既存採用済み制度と照合する。北秋田市はまちづくり活力推進事業補助金、移住者住宅支援、子育て、医療、住宅、商工カテゴリを公式個別ページ/PDFで確認する。既存raw gap 0を全国完了扱いしない。"
+    "code": "akita-comprehensive-official-second-pass-004",
+    "municipality": "にかほ市・仙北市・小坂町・上小阿仁村",
+    "shortlist": "秋田県第2巡003は由利本荘市4件、潟上市6件、北秋田市8件を追加し、大仙市は既存22件との重複を確認した。次は第1巡004の保留候補をにかほ市・仙北市・小坂町・上小阿仁村から確認する。",
+    "instructions": "秋田県第2巡004として、05214にかほ市、05215仙北市、05303小坂町、05327上小阿仁村を自治体コード順に確認する。にかほ市は物価高対応子育て応援手当、子育てろーどまっぷ、子育てガイドブック、児童手当、障がい者手当カテゴリを確認する。仙北市は移住応援助成金、定住促進奨励金、若者マイホーム取得助成、あきた結婚支援センター入会補助、結婚新生活支援補助、妊婦健診・母子保健・住宅カテゴリを確認する。小坂町は住宅リフォーム支援事業、私道整備費補助金、心身障害者扶養共済制度、自立支援医療費給付、病児保育を確認する。上小阿仁村は移住定住奨励金、出産祝金、チャイルドシート購入補助、医療費助成、保育料無償化、手当・助成・給付カテゴリを個別根拠へ分解して確認する。既存raw gap 0を全国完了扱いしない。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
