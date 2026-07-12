@@ -1,0 +1,26 @@
+{
+  "batchId": "miyagi-comprehensive-official-coverage-004",
+  "prefecture": "宮城県",
+  "municipalities": [
+    {
+      "code": "04214",
+      "name": "東松島市",
+      "officialBaseUrl": "https://www.city.higashimatsushima.miyagi.jp/"
+    },
+    {
+      "code": "04215",
+      "name": "大崎市",
+      "officialBaseUrl": "https://www.city.osaki.miyagi.jp/"
+    },
+    {
+      "code": "04301",
+      "name": "蔵王町",
+      "officialBaseUrl": "https://www.town.zao.miyagi.jp/"
+    },
+    {
+      "code": "04302",
+      "name": "七ヶ宿町",
+      "officialBaseUrl": "https://town.shichikashuku.miyagi.jp/"
+    }
+  ]
+}

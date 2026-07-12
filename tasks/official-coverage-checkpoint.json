@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T14:25:00+09:00",
+  "updatedAt": "2026-07-12T13:23:08+09:00",
   "mode": "miyagi-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "miyagi-comprehensive-official-coverage-003",
-    "municipality": "多賀城市・岩沼市・登米市・栗原市",
-    "adopted": 15,
-    "held": 31,
+    "code": "miyagi-comprehensive-official-coverage-004",
+    "municipality": "東松島市・大崎市・蔵王町・七ヶ宿町",
+    "adopted": 17,
+    "held": 15,
     "excluded": 0,
-    "sourceUrlsChecked": 15,
+    "sourceUrlsChecked": 17,
     "validation": {
-      "previousMunicipality": "宮城県公式棚卸し003として、04209多賀城市、04211岩沼市、04212登米市、04213栗原市を確認。公式候補1019件から短い本文スニペットを抽出して再スコアリングし、多賀城市1件・岩沼市4件・登米市5件・栗原市5件をデータ反映。多賀城市の既存公式確認済み創業支援補助金1件も確認し、カテゴリ・重複・旧受付終了候補を第2巡保留に整理した。",
+      "previousMunicipality": "宮城県公式棚卸し004として、04214東松島市、04215大崎市、04301蔵王町、04302七ヶ宿町を確認。公式候補1207件から短い本文スニペットを抽出して再スコアリングし、東松島市4件・蔵王町6件・七ヶ宿町7件をデータ反映。大崎市は既存公式確認済み制度と低優先候補を確認し、重複追加なしとした。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "pass: 15制度15URL returned HTTP 200",
-      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-003-municipalities.json tasks/discovery/miyagi-official-coverage-003-candidates.json tasks/discovery/miyagi-official-coverage-003-snippets.json tasks/discovery/miyagi-official-coverage-003.json",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7854, officialLinkedActive 7816, manuallyVerifiedActive 7816, Miyagi localOfficial 98"
+      "urlReachability": "pass: 17制度17URL returned HTTP 200",
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-004-municipalities.json tasks/discovery/miyagi-official-coverage-004-candidates.json tasks/discovery/miyagi-official-coverage-004-snippets.json tasks/discovery/miyagi-official-coverage-004.json",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7871, officialLinkedActive 7833, manuallyVerifiedActive 7833, Miyagi localOfficial 115"
     }
   },
   "next": {
-    "code": "miyagi-comprehensive-official-coverage-004",
+    "code": "miyagi-comprehensive-official-coverage-005",
     "municipality": "宮城県",
-    "shortlist": "多賀城市の介護保険料減免・新入学用品費、岩沼市の児童扶養手当・犯罪被害者等支援金・小学校等入学祝金、登米市のビジネスチャンス支援・不妊検査費等、栗原市の危険ブロック塀除却・水洗化・防犯・移住定住カテゴリ候補は第2巡で確認する。",
-    "instructions": "次は04214東松島市、04215大崎市、04301蔵王町、04302七ヶ宿町を自治体コード順に公式本文/PDFで確認する。"
+    "shortlist": "東松島市の地方就職学生支援金・移住支援金・児童手当医療費カテゴリ、蔵王町の不妊検査費/不妊治療費・奨学金返還・移住支援金・医療費助成・中小企業融資、七ヶ宿町のにぎやか家族応援・住宅助成・障害福祉各助成・子ども医療費・任意予防接種等は第2巡で確認する。",
+    "instructions": "次は04321大河原町、04322村田町、04323柴田町、04324川崎町を自治体コード順に公式本文/PDFで確認する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

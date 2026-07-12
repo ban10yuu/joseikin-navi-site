@@ -3583,6 +3583,29 @@
   - 次:
     - 宮城県公式棚卸し004として、04214東松島市、04215大崎市、04301蔵王町、04302七ヶ宿町を自治体コード順で確認する。
 
+- 宮城県公式棚卸し004（東松島市・大崎市・蔵王町・七ヶ宿町）
+  - 対象: 04214東松島市、04215大崎市、04301蔵王町、04302七ヶ宿町。
+  - 方法:
+    - 公式候補1207件を生成し、shortlistが150件を超えたため `tasks/discovery/miyagi-official-coverage-004-snippets.json` に短い本文スニペットを抽出して再スコアリングした。
+    - 東松島市、蔵王町、七ヶ宿町は公式カテゴリから個別制度ページへ辿り、制度名・対象・金額/上限・条件・期限/受付状況が揃うページを採用した。
+    - 大崎市は候補がトップ・カテゴリ・既存公式確認済み制度・一般案内中心だったため、既存制度確認のみで新規重複追加なしとした。
+  - 追加:
+    - 東松島市: 定住化促進事業補助金、好きです東松島おかえり事業助成金、結婚新生活支援事業補助金、園芸用機械等導入支援事業補助金。
+    - 蔵王町: 妊婦のための支援給付金、すこやか養育助成金、あったか支援金、定住促進事業補助金、木造住宅耐震診断・改修工事助成、危険ブロック塀除却支援。
+    - 七ヶ宿町: 結婚新生活応援金、安心出産支援事業助成金、妊婦のための支援給付金、子育て応援支援金、がん患者医療用ウィッグ購入助成事業、木造住宅耐震診断・改修工事助成事業、くらし応援通勤支援給油券。
+  - 既存確認:
+    - 大崎市は心身障害者医療費助成、エコ改善推進事業補助金、住宅購入に伴うリフォーム移住支援事業、学校給食費負担軽減、ビジネスチャンス応援事業補助金等の既存公式確認済み制度と低優先候補を確認し、今回の新規重複追加は行わなかった。
+  - 保留継続:
+    - 東松島市の地方就職学生支援金・移住支援金・児童手当医療費カテゴリ、蔵王町の不妊検査費/不妊治療費・奨学金返還・移住支援金・医療費助成・中小企業融資、七ヶ宿町のにぎやか家族応援・住宅助成・障害福祉各助成・子ども医療費・任意予防接種等は第2巡で確認する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: 0。
+    - 17制度17URLの公式URL到達確認: HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7871、officialLinkedActive 7833、manuallyVerifiedActive 7833、宮城県 localOfficial 115）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-004-municipalities.json tasks/discovery/miyagi-official-coverage-004-candidates.json tasks/discovery/miyagi-official-coverage-004-snippets.json tasks/discovery/miyagi-official-coverage-004.json`: pass。
+  - 次:
+    - 宮城県公式棚卸し005として、04321大河原町、04322村田町、04323柴田町、04324川崎町を自治体コード順で確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
