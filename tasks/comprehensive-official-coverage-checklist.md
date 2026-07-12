@@ -3279,6 +3279,39 @@
   - 次:
     - 03205花巻市、03206北上市、03207久慈市、03208遠野市を自治体コード順で確認する。
 
+- 岩手県公式棚卸し002（花巻市・北上市・久慈市・遠野市）:
+  - 対象自治体:
+    - 03205 花巻市
+    - 03206 北上市
+    - 03207 久慈市
+    - 03208 遠野市
+  - Discovery:
+    - 公式トップ到達: 4市すべてHTTP 200。
+    - `tasks/discovery/iwate-official-coverage-002-municipalities.json`: 久慈市は現行公式URL `https://www.city.kuji.lg.jp/` へ修正。
+    - `tasks/discovery/iwate-official-coverage-002-candidates.json`: 候補640件（花巻市129、北上市5、久慈市3、遠野市503）。
+    - `tasks/discovery/iwate-official-coverage-002-snippets.json`: shortlist過多のため640件を本文スニペット抽出。
+    - `tasks/discovery/iwate-official-coverage-002.json`: 採用・既存確認・保留記録。
+  - 採用:
+    - 花巻市: 中小企業者等賃上げ支援奨励金、団体旅行貸切バスツアー支援事業補助金、市民団体等活動支援事業補助金、文化財保存事業費補助金。
+    - 北上市: 中小企業賃上げ支援補助金。
+    - 久慈市: 移住支援事業、高齢者及び障害者にやさしい住まいづくり推進事業、自家消費型再エネ発電システム導入促進事業補助金、浄化槽設置整備事業補助金、下水道水洗化促進事業補助金、木造住宅耐震改修工事助成事業。
+    - 遠野市: 子育て応援在宅育児支援金、省エネ家電買換支援事業費補助金、浄化槽設置整備事業費補助金、若年者継続勤務奨励金、転入就労支援事業費補助金、賃貸住宅手当等補助金、通信制大学等受講支援事業費補助金、奨学金返還支援補助金。
+  - 既存確認:
+    - 花巻市は妊産婦交通費等補助、妊婦支援給付金、医療費助成、住宅取得・耐震・創業・中小企業支援等20件を既存データ内で公式確認済みのため重複追加しない。
+    - 北上市は生産性向上サポート補助金を既存データ内で公式確認済みのため重複追加しない。
+  - 保留継続:
+    - 花巻市の地方創生臨時交付金活用状況、図書館・文化財施設プロポーザル、博物館イベント・利用案内は個別補助制度ではないため第2巡台帳へ残す。
+    - 久慈市の住宅建設及びリフォーム関連支援制度のお知らせは一覧ページのため、個別公式ページに分解済み。木造住宅耐震診断支援は年度表示・詳細確認が残るため第2巡へ保留。
+    - 遠野市のサイトマップ・カテゴリ・組織一覧、終了済み季節給付、農業・商工・福祉カテゴリ内の追加候補は第2巡で確認する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: 0。
+    - `node scripts/check-grant-source-urls.mjs --slug <19 slugs> --timeout-ms 60000 --concurrency 4`: checked 19、failures 0。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7674、officialLinkedActive 7636、manuallyVerifiedActive 7636、岩手県 localOfficial 94）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-002-municipalities.json tasks/discovery/iwate-official-coverage-002-candidates.json tasks/discovery/iwate-official-coverage-002-snippets.json tasks/discovery/iwate-official-coverage-002.json`: pass。
+  - 次:
+    - 03209一関市、03210陸前高田市、03211釜石市、03213二戸市を自治体コード順で確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:

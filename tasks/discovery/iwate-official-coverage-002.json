@@ -1,0 +1,107 @@
+{
+  "batchId": "iwate-comprehensive-official-coverage-002",
+  "prefecture": "岩手県",
+  "completedAt": "2026-07-12T12:45:00+09:00",
+  "status": "completed",
+  "targets": [
+    {
+      "code": "03205",
+      "name": "花巻市",
+      "officialBaseUrl": "https://www.city.hanamaki.iwate.jp/",
+      "discoveredUrlCount": 520,
+      "candidateCount": 129,
+      "existingConfirmedCount": 20,
+      "adopted": [
+        "hanamaki-sme-wage-increase-incentive-2026",
+        "hanamaki-charter-bus-tour-subsidy-2026",
+        "hanamaki-civic-activity-support-subsidy-2026",
+        "hanamaki-cultural-property-preservation-subsidy-2026"
+      ],
+      "held": [
+        "新型コロナウイルス感染症対応地方創生臨時交付金の活用状況は実績公表で個別給付制度ではないため第2巡台帳へ残す。",
+        "新花巻図書館関連プロポーザル、博物館・文化財施設の利用案内・イベント・過去のお知らせは調達又は案内ページのため採用しない。",
+        "既存データの妊産婦交通費等補助、医療費助成、住宅取得、耐震、創業・中小企業支援等20件は公式確認済みとして重複追加しない。"
+      ]
+    },
+    {
+      "code": "03206",
+      "name": "北上市",
+      "officialBaseUrl": "https://www.city.kitakami.iwate.jp/",
+      "discoveredUrlCount": 520,
+      "candidateCount": 5,
+      "existingConfirmedCount": 1,
+      "adopted": [
+        "kitakami-sme-wage-increase-subsidy-2026"
+      ],
+      "held": [
+        "ツキノワグマ警戒情報等は農業キーワード一致のみで補助制度ではないため採用しない。",
+        "生産性向上サポート補助金は既存データ内で公式確認済みのため重複追加しない。"
+      ]
+    },
+    {
+      "code": "03207",
+      "name": "久慈市",
+      "officialBaseUrl": "https://www.city.kuji.lg.jp/",
+      "discoveredUrlCount": 520,
+      "candidateCount": 3,
+      "existingConfirmedCount": 0,
+      "adopted": [
+        "kuji-migration-support-grant-2026",
+        "kuji-friendly-home-renovation-subsidy-2026",
+        "kuji-solar-self-consumption-subsidy-2026",
+        "kuji-septic-tank-installation-subsidy-2026",
+        "kuji-sewer-connection-subsidy-2026",
+        "kuji-wooden-house-earthquake-retrofit-subsidy-2026"
+      ],
+      "held": [
+        "旧公式URL https://www.city.kuji.iwate.jp/ は候補が取得できないため、現行公式URL https://www.city.kuji.lg.jp/ へ修正して再取得した。",
+        "住宅建設及びリフォーム関連支援制度のお知らせは一覧ページのため、個別公式ページへ分解して採用した。",
+        "木造住宅耐震診断支援事業は関連リンク側の年度表示が古い候補を含むため、今回は耐震改修工事助成のみ採用し診断支援は第2巡へ保留。"
+      ]
+    },
+    {
+      "code": "03208",
+      "name": "遠野市",
+      "officialBaseUrl": "https://www.city.tono.iwate.jp/",
+      "discoveredUrlCount": 520,
+      "candidateCount": 503,
+      "existingConfirmedCount": 0,
+      "adopted": [
+        "tono-home-childcare-support-grant-2026",
+        "tono-energy-saving-appliance-replacement-subsidy-2026",
+        "tono-septic-tank-installation-subsidy-2026",
+        "tono-young-worker-retention-incentive-2026",
+        "tono-moving-employment-support-subsidy-2026",
+        "tono-rental-housing-allowance-subsidy-2026",
+        "tono-distance-university-tuition-subsidy-2026",
+        "tono-scholarship-repayment-support-subsidy-2026"
+      ],
+      "held": [
+        "サイトマップ、組織一覧、カテゴリ一覧、汎用相談ページは候補過多のため本文スニペット台帳に残し第2巡で個別制度のみ再確認する。",
+        "冬あったか応援事業等の季節給付・終了済み給付は現行受付ではないため採用しない。",
+        "農業・商工・福祉カテゴリ内の追加制度候補は、今回採用分と重複しないものを第2巡で確認する。"
+      ]
+    }
+  ],
+  "discovery": {
+    "municipalityInput": "tasks/discovery/iwate-official-coverage-002-municipalities.json",
+    "candidates": "tasks/discovery/iwate-official-coverage-002-candidates.json",
+    "snippets": "tasks/discovery/iwate-official-coverage-002-snippets.json",
+    "candidateCount": 640,
+    "snippetRows": 640,
+    "shortlistHandling": "候補640件で150件超のため、HTML本文スニペットを抽出して制度名・対象・金額・期限表現を再スコアリングした。"
+  },
+  "summary": {
+    "adoptedCount": 19,
+    "existingConfirmedCount": 21,
+    "heldCount": 9,
+    "sourceUrlsChecked": 19
+  },
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "duplicateSlugs": 0,
+    "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --slug <19 slugs> checked 19 failures 0",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7674, officialLinkedActive 7636, manuallyVerifiedActive 7636, Iwate localOfficial 94",
+    "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-002-municipalities.json tasks/discovery/iwate-official-coverage-002-candidates.json tasks/discovery/iwate-official-coverage-002-snippets.json tasks/discovery/iwate-official-coverage-002.json"
+  }
+}
