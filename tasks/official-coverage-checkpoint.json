@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T07:10:00+09:00",
-  "mode": "yamagata-comprehensive-official-coverage",
+  "updatedAt": "2026-07-13T07:45:00+09:00",
+  "mode": "fukushima-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "yamagata-comprehensive-official-coverage-008",
-    "municipality": "高畠町・川西町・小国町・白鷹町",
-    "adopted": 31,
-    "held": 17,
+    "code": "yamagata-comprehensive-official-coverage-009",
+    "municipality": "飯豊町・三川町・庄内町・遊佐町",
+    "adopted": 29,
+    "held": 4,
     "excluded": 0,
-    "sourceUrlsChecked": 31,
+    "sourceUrlsChecked": 29,
     "validation": {
-      "previousMunicipality": "山形県公式棚卸し008として、06381高畠町、06382川西町、06401小国町、06402白鷹町の公式サイトを確認した。候補1398件が150件を超えたため本文スニペット610件を抽出して再スコアリングし、白鷹町はカテゴリ導線のリンク名から個別制度ページを補完した。制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別ページ31件を採用した。カテゴリ、国県制度重複、過年度制度、PDF要綱未精査又は現行性確認不足候補は第2巡台帳へ残した。",
+      "previousMunicipality": "山形県公式棚卸し009として、06403飯豊町、06426三川町、06428庄内町、06461遊佐町の公式サイトを確認した。候補1399件が150件を超えたため本文スニペット552件を抽出して再スコアリングした。制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別ページ29件を採用した。カテゴリ、国県制度重複、過年度制度、PDF要綱未精査又は現行性確認不足候補は第2巡台帳へ残した。山形県第1巡は自治体コード順の末尾まで到達した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: added 31 slugs, duplicate count 0",
-      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 31 slugs / 31 source URLs, failures 0, all HTTP 200",
-      "diffCheck": "pass: git diff --check for Yamagata 008 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8571, officialLinkedActive 8533, manuallyVerifiedActive 8533, Yamagata localOfficial 298, Yamagata coveredCategories 8"
+      "addedSlugUniqueness": "pass: added 29 slugs, duplicate count 0",
+      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 29 slugs / 29 source URLs, failures 0, all HTTP 200",
+      "diffCheck": "pass: git diff --check for Yamagata 009 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8599, officialLinkedActive 8561, manuallyVerifiedActive 8561, Yamagata localOfficial 326, Yamagata coveredCategories 8"
     }
   },
   "next": {
-    "code": "yamagata-comprehensive-official-coverage-009",
-    "municipality": "飯豊町・三川町・庄内町・遊佐町",
-    "shortlist": "山形県008は高畠町・川西町・小国町・白鷹町まで到達し、31制度を採用した。次は山形県009として自治体コード順に06403飯豊町、06426三川町、06428庄内町、06461遊佐町を確認する。",
-    "instructions": "山形県公式棚卸し009として、06403飯豊町、06426三川町、06428庄内町、06461遊佐町を自治体コード順に確認する。公式サイトの補助金・助成金・給付金・一時金等を制度ページ単位で、制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約付きで採用し、トップ、カテゴリ、サイトマップ、共通ナビ一致は削除せず第2巡台帳へ残す。既存raw gap 0を全国完了扱いしない。"
+    "code": "fukushima-comprehensive-official-coverage-001",
+    "municipality": "福島市・会津若松市・郡山市・いわき市",
+    "shortlist": "山形県第1巡は06461遊佐町まで到達し、山形009で29制度を採用した。次は福島県001として自治体コード順に07201福島市、07202会津若松市、07203郡山市、07204いわき市を確認する。",
+    "instructions": "福島県公式棚卸し001として、07201福島市、07202会津若松市、07203郡山市、07204いわき市を自治体コード順に確認する。公式サイトの補助金・助成金・給付金・一時金等を制度ページ単位で、制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約付きで採用し、トップ、カテゴリ、サイトマップ、共通ナビ一致は削除せず第2巡台帳へ残す。既存raw gap 0を全国完了扱いしない。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

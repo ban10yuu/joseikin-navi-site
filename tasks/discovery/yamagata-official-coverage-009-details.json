@@ -1,0 +1,84 @@
+{
+  "batchId": "yamagata-comprehensive-official-coverage-009",
+  "prefecture": "山形県",
+  "checkedAt": "2026-07-13",
+  "municipalities": [
+    {
+      "code": "06403",
+      "name": "飯豊町",
+      "officialBaseUrl": "https://www.town.iide.yamagata.jp/",
+      "adopted": [
+        "iide-marriage-new-life-subsidy-2026",
+        "iide-ecotown-tsubaki-housing-acquisition-subsidy-2026",
+        "iide-migration-support-grant-2026"
+      ],
+      "heldForSecondPass": [
+        "令和8年度の住宅リフォーム、脱炭素・再エネ、創業・中小企業支援、奨学金・県連携制度は現行年度、町独自額、PDF本文を第2巡で確認する。"
+      ]
+    },
+    {
+      "code": "06426",
+      "name": "三川町",
+      "officialBaseUrl": "https://www.town.mikawa.yamagata.jp/",
+      "adopted": [
+        "mikawa-business-strengthening-subsidy-2026",
+        "mikawa-startup-support-subsidy-2026",
+        "mikawa-takaramono-product-development-subsidy-2026",
+        "mikawa-infertility-assisted-reproduction-subsidy-2026",
+        "mikawa-eiken-exam-fee-subsidy-2026",
+        "mikawa-scholarship-loan-2026",
+        "mikawa-heavy-ion-cancer-treatment-subsidy-2026",
+        "mikawa-medical-wig-breast-prosthesis-subsidy-2026"
+      ],
+      "heldForSecondPass": [
+        "子育て医療費、ひとり親・障がい福祉、介護用品、出産祝金等は国県制度重複、町独自上限、個別申請条件を第2巡で確認する。"
+      ]
+    },
+    {
+      "code": "06428",
+      "name": "庄内町",
+      "officialBaseUrl": "https://www.town.shonai.lg.jp/",
+      "adopted": [
+        "shonai-pine-wilt-control-subsidy-2026",
+        "shonai-commerce-industry-interest-subsidy-2026",
+        "shonai-sogo-high-school-support-2026"
+      ],
+      "heldForSecondPass": [
+        "商工業展出展支援は期限表記不整合、農林水産業交付要綱PDFは制度単位切り分け、中学校生徒派遣費は金額・対象条件を第2巡で確認する。"
+      ]
+    },
+    {
+      "code": "06461",
+      "name": "遊佐町",
+      "officialBaseUrl": "https://www.town.yuza.yamagata.jp/",
+      "adopted": [
+        "yuza-settlement-new-house-construction-grant-2026",
+        "yuza-settlement-house-acquisition-grant-2026",
+        "yuza-settlement-rental-housing-construction-grant-2026",
+        "yuza-owned-house-renovation-grant-2026",
+        "yuza-disaster-prevention-community-activity-subsidy-2026",
+        "yuza-dangerous-vacant-house-demolition-subsidy-2026",
+        "yuza-cat-neuter-spay-subsidy-2026",
+        "yuza-disaster-stockpile-purchase-subsidy-2026",
+        "yuza-single-parent-education-allowance-2026",
+        "yuza-food-waste-processor-subsidy-2026",
+        "yuza-digital-skills-exam-subsidy-2026",
+        "yuza-pregnant-women-support-benefit-2026",
+        "yuza-newborn-hearing-test-subsidy-2026",
+        "yuza-vacant-house-business-renovation-subsidy-2026",
+        "yuza-vacant-house-rental-renovation-subsidy-2026"
+      ],
+      "heldForSecondPass": [
+        "再エネ設備PDF、きらきらマイタウン事業、県制度案内、カテゴリ一覧、過年度制度は現行受付・制度本体URL・町独自額を第2巡で確認する。"
+      ]
+    }
+  ],
+  "summary": {
+    "candidateCount": 1399,
+    "snippetCount": 552,
+    "adoptedCount": 29,
+    "sourceUrlsChecked": 29,
+    "excludedCount": 0,
+    "next": "福島県公式棚卸し001として、07201福島市、07202会津若松市、07203郡山市、07204いわき市を確認する。"
+  }
+}

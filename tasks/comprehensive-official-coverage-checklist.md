@@ -4438,6 +4438,31 @@
   - 次:
     - 山形県公式棚卸し009として、06403飯豊町、06426三川町、06428庄内町、06461遊佐町を確認する。
 
+- 山形県公式棚卸し009（飯豊町・三川町・庄内町・遊佐町）
+  - 対象: 06403飯豊町、06426三川町、06428庄内町、06461遊佐町。
+  - 方法:
+    - 4町の公式トップURL到達を確認し、公式候補1399件を生成した。
+    - 候補数が150件を超えたため、title/h1/main/article/URLの制度強語、金額、対象条件、期限/受付表現を含む本文スニペット552件を抽出して再スコアリングした。
+    - 制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別ページ29件を採用し、カテゴリ、国県制度重複、過年度制度、PDF要綱未精査又は現行性確認不足候補は第2巡へ残した。
+  - 追加:
+    - 飯豊町: 結婚新生活支援事業、椿住宅団地住宅取得支援事業補助金、移住支援金。
+    - 三川町: 経営強化支援事業費補助金、創業支援事業費補助金、「田からもの」逸品開発支援事業費補助金、不妊治療（生殖補助医療）費助成事業、英語検定料補助金、育英奨学資金、重粒子線がん治療費助成事業、医療用ウイッグ・乳房補整具購入費助成事業。
+    - 庄内町: 松くい虫被害拡大防止支援補助金、商工業振興資金利子補給補助金、庄内総合高校支援。
+    - 遊佐町: 定住住宅新築支援金、定住住宅取得支援金、定住賃貸住宅新築支援金、持家住宅リフォーム支援金、自主防災会活動事業費補助金、老朽危険空き家解体支援事業補助金、猫不妊・去勢手術費補助金、防災備蓄品購入事業補助金、ひとり親家庭等児童教育応援給付金、生ごみ処理機器購入事業補助金、デジタル人材育成支援補助金、妊婦応援給付金、新生児聴覚検査費助成、空き家再生地域活性化推進事業補助金、移住推進空き家利活用支援事業補助金。
+  - 保留継続:
+    - 飯豊町の令和8年度住宅リフォーム、脱炭素・再エネ、創業・中小企業支援、奨学金・県連携制度は現行年度、町独自額、PDF本文を第2巡で確認する。
+    - 三川町の子育て医療費、ひとり親・障がい福祉、介護用品、出産祝金等は国県制度重複、町独自上限、個別申請条件を第2巡で確認する。
+    - 庄内町の商工業展出展支援は期限表記不整合、農林水産業交付要綱PDFは制度単位切り分け、中学校生徒派遣費は金額・対象条件を第2巡で確認する。
+    - 遊佐町の再エネ設備PDF、きらきらマイタウン事業、県制度案内、カテゴリ一覧、過年度制度は現行受付・制度本体URL・町独自額を第2巡で確認する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 29件、重複0。
+    - 追加した29制度29公式URLはすべて HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 8599、officialLinkedActive 8561、manuallyVerifiedActive 8561、山形県 `localOfficial` 326、山形県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-coverage-009-municipalities.json tasks/discovery/yamagata-official-coverage-009-candidates.json tasks/discovery/yamagata-official-coverage-009-snippets.json tasks/discovery/yamagata-official-coverage-009-details.json tasks/discovery/yamagata-official-coverage-009.json`: pass。
+  - 次:
+    - 山形県第1巡は自治体コード順の末尾まで到達。次は福島県公式棚卸し001として、07201福島市、07202会津若松市、07203郡山市、07204いわき市を確認する。
+
 - 宮城県公式棚卸し009（美里町・女川町・南三陸町）
   - 対象: 04505美里町、04581女川町、04606南三陸町。
   - 方法:

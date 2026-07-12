@@ -1,0 +1,26 @@
+{
+  "batchId": "yamagata-comprehensive-official-coverage-009",
+  "prefecture": "山形県",
+  "municipalities": [
+    {
+      "code": "06403",
+      "name": "飯豊町",
+      "officialBaseUrl": "https://www.town.iide.yamagata.jp/"
+    },
+    {
+      "code": "06426",
+      "name": "三川町",
+      "officialBaseUrl": "https://www.town.mikawa.yamagata.jp/"
+    },
+    {
+      "code": "06428",
+      "name": "庄内町",
+      "officialBaseUrl": "https://www.town.shonai.lg.jp/"
+    },
+    {
+      "code": "06461",
+      "name": "遊佐町",
+      "officialBaseUrl": "https://www.town.yuza.yamagata.jp/"
+    }
+  ]
+}
