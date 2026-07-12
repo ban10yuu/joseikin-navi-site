@@ -3559,6 +3559,28 @@
   - 次:
     - 宮城県公式棚卸し003として、04209多賀城市、04211岩沼市、04212登米市、04213栗原市を自治体コード順で確認する。
 
+- 宮城県公式棚卸し第2巡002（気仙沼市・白石市・名取市・角田市）
+  - 対象: 第1巡002の保留候補（04205気仙沼市、04206白石市、04207名取市、04208角田市）。
+  - 方法:
+    - `tasks/discovery/miyagi-official-coverage-002.json` の保留候補と `tasks/discovery/miyagi-official-coverage-002-snippets.json` の本文スニペットを起点に、公式ページ本文へ再到達した。
+    - 既存登録済みの名取市候補は重複確認し、カテゴリ・施設案内・旧制度・外部県ポータル案内は除外理由を記録して保留を解消した。
+  - 追加:
+    - 気仙沼市: 帯状疱疹予防接種費用助成。
+    - 白石市: 定住者補助金。
+    - 角田市: 認可外保育施設保育料補助事業、母子・父子家庭医療費助成、自立支援教育訓練給付金、奨学生貸付制度。
+  - 既存確認:
+    - 名取市: なとりコイン、耐震診断、耐震改修、中小企業融資・事業継続力強化計画、帯状疱疹等の予防接種、移住・住宅・奨学金返還支援は既存公式確認済み制度又は重複候補として確認。
+  - 除外:
+    - 気仙沼市の空き家の手引き、白石市の子どもの居場所づくり支援・商工業カテゴリ、名取市カテゴリページ、角田市マル経利子助成候補は、個別制度本文・金額/上限・申請条件を公式ページ単位で確認できないため採用しない。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: total 8019、duplicates 0。
+    - 6制度6URLの公式URL到達確認: HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7973、officialLinkedActive 7935、manuallyVerifiedActive 7935、宮城県 localOfficial 217）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-second-pass-002.json`: pass。
+  - 次:
+    - 宮城県公式棚卸し第2巡003として、多賀城市の介護保険料減免・新入学用品費、岩沼市の児童扶養手当・犯罪被害者等支援金・小学校等入学祝金、登米市のビジネスチャンス支援・不妊検査費等、栗原市の危険ブロック塀除却・水洗化・防犯・移住定住カテゴリ候補を確認する。
+
 - 宮城県公式棚卸し003（多賀城市・岩沼市・登米市・栗原市）
   - 対象: 04209多賀城市、04211岩沼市、04212登米市、04213栗原市。
   - 方法:

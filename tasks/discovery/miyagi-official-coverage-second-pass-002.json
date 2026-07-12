@@ -1,0 +1,78 @@
+{
+  "batchId": "miyagi-comprehensive-official-coverage-second-pass-002",
+  "prefecture": "宮城県",
+  "completedAt": "2026-07-12T15:24:00+09:00",
+  "sourceFirstPass": "tasks/discovery/miyagi-official-coverage-002.json",
+  "municipalities": [
+    {
+      "code": "04205",
+      "name": "気仙沼市",
+      "status": "second-pass-completed",
+      "adopted": 1,
+      "held": 0,
+      "excluded": 3,
+      "notes": "予防接種カテゴリから帯状疱疹予防接種費用助成を採用。空き家の手引きは制度案内ではなく、移住・定住カテゴリは個別制度の金額/申請条件が不足又は既存採用済み制度への誘導のため除外。"
+    },
+    {
+      "code": "04206",
+      "name": "白石市",
+      "status": "second-pass-completed",
+      "adopted": 1,
+      "held": 0,
+      "excluded": 4,
+      "notes": "白石市外の方向け定住者補助金を採用。子どもの居場所づくり支援は市民活動・居場所案内寄りで補助額を確認できず、商工業カテゴリはカテゴリ/旧制度中心、移住支援金は県ポータル案内のため除外。"
+    },
+    {
+      "code": "04207",
+      "name": "名取市",
+      "status": "second-pass-completed",
+      "adopted": 0,
+      "held": 0,
+      "excluded": 6,
+      "notes": "なとりコイン、耐震診断、耐震改修、中小企業融資・事業継続力強化計画、帯状疱疹等の予防接種、移住・住宅・奨学金返還支援は既存公式確認済み制度又は重複候補として解消。カテゴリページは第2巡採用対象外。"
+    },
+    {
+      "code": "04208",
+      "name": "角田市",
+      "status": "second-pass-completed",
+      "adopted": 4,
+      "held": 0,
+      "excluded": 3,
+      "notes": "認可外保育施設保育料補助、母子・父子家庭医療費助成、自立支援教育訓練給付金、奨学生貸付制度を採用。マル経利子助成は市公式サイト内検索で個別制度ページを確認できず、奨学金カテゴリは採用ページ以外カテゴリ扱いで除外。"
+    }
+  ],
+  "adoptedSlugs": [
+    "shiroishi-settler-housing-acquisition-subsidy-2026",
+    "kesennuma-shingles-vaccination-subsidy-2026",
+    "kakuda-unlicensed-childcare-fee-subsidy-2026",
+    "kakuda-single-parent-medical-expense-subsidy-2026",
+    "kakuda-single-parent-training-benefit-2026",
+    "kakuda-scholarship-loan-2026"
+  ],
+  "excludedCandidates": [
+    {
+      "municipality": "気仙沼市",
+      "reason": "空き家の手引き、空き家・移住カテゴリ、オンラインサービス等は個別補助制度本文ではない。"
+    },
+    {
+      "municipality": "白石市",
+      "reason": "子どもの居場所づくり支援、住宅・商工業カテゴリ、移住支援金県ポータル案内、旧新婚家賃補助等は公式ページ単位の採用要件を満たさない。"
+    },
+    {
+      "municipality": "名取市",
+      "reason": "第1巡後に既存公式確認済み制度として登録済みの候補、又はカテゴリページ・施設案内のみ。"
+    },
+    {
+      "municipality": "角田市",
+      "reason": "マル経利子助成は市公式サイト内検索で個別制度ページ未確認。住宅支援・移住定住促進カテゴリは既存採用済み制度へのカテゴリ導線。"
+    }
+  ],
+  "sourceUrlsChecked": 6,
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "duplicateSlugs": "pass: total 8019, duplicates 0",
+    "urlReachability": "pass: 6制度6URL returned HTTP 200",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7973, officialLinkedActive 7935, manuallyVerifiedActive 7935, Miyagi localOfficial 217",
+    "diffCheck": "pass: git diff --check for Miyagi second-pass 002 files"
+  }
+}
