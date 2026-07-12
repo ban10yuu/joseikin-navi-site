@@ -1,0 +1,98 @@
+{
+  "batchId": "miyagi-comprehensive-official-coverage-005",
+  "prefecture": "宮城県",
+  "completedAt": "2026-07-12T13:50:00+09:00",
+  "municipalities": [
+    {
+      "code": "04321",
+      "name": "大河原町",
+      "officialBaseUrl": "https://www.town.ogawara.miyagi.jp/",
+      "adopted": [
+        "ogawara-pregnant-women-support-benefit-2026",
+        "ogawara-mama-taxi-voucher-2026",
+        "ogawara-anti-fraud-phone-subsidy-2026",
+        "ogawara-young-cancer-homecare-subsidy-2026",
+        "ogawara-wooden-house-seismic-retrofit-subsidy-2026"
+      ],
+      "heldForSecondPass": [
+        "子ども医療費助成",
+        "危険ブロック塀等除却",
+        "商工業支援制度",
+        "結婚支援",
+        "行政区スポーツ・レクリエーション活動奨励事業補助金"
+      ]
+    },
+    {
+      "code": "04322",
+      "name": "村田町",
+      "officialBaseUrl": "https://www.town.murata.miyagi.jp/",
+      "adopted": [
+        "murata-childcare-support-grant-2026",
+        "murata-child-medical-expense-subsidy-2026",
+        "murata-child-allowance-2026",
+        "murata-single-parent-medical-expense-subsidy-2026",
+        "murata-scholarship-loan-2026"
+      ],
+      "heldForSecondPass": [
+        "第3子以降保育料等助成",
+        "就学援助制度のPDF内単価",
+        "結婚支援イベント",
+        "特定不妊治療費助成（現URLは404）",
+        "移住支援金対象法人募集"
+      ]
+    },
+    {
+      "code": "04323",
+      "name": "柴田町",
+      "officialBaseUrl": "https://www.town.shibata.miyagi.jp/",
+      "adopted": [
+        "shibata-disabled-medical-expense-subsidy-2026",
+        "shibata-dangerous-block-wall-removal-subsidy-2026",
+        "shibata-wooden-house-seismic-retrofit-subsidy-2026",
+        "shibata-anti-fraud-phone-subsidy-2026",
+        "shibata-cancer-wig-subsidy-2026"
+      ],
+      "heldForSecondPass": [
+        "若年がん患者在宅療養費助成事業",
+        "犯罪被害者等支援",
+        "浄化槽設置助成",
+        "水道漏水に伴う料金減免",
+        "国民健康保険傷病手当金等（旧制度の可能性）"
+      ]
+    },
+    {
+      "code": "04324",
+      "name": "川崎町",
+      "officialBaseUrl": "https://www.town.kawasaki.miyagi.jp/",
+      "adopted": [
+        "kawasaki-miyagi-unneeded-fruit-tree-cutting-subsidy-2026",
+        "kawasaki-miyagi-marriage-activity-support-subsidy-2026",
+        "kawasaki-miyagi-migration-settlement-subsidy-2026",
+        "kawasaki-miyagi-home-childcare-benefit-2026",
+        "kawasaki-miyagi-senior-air-conditioner-subsidy-2026"
+      ],
+      "heldForSecondPass": [
+        "生ごみ処理容器設置補助金",
+        "特殊詐欺対策電話機等購入費補助",
+        "不妊検査費助成",
+        "ブロック塀関連事業",
+        "住宅災害復旧事業補助金",
+        "合併処理浄化槽設置整備事業補助金",
+        "耐震関連事業"
+      ]
+    }
+  ],
+  "discoveryArtifacts": {
+    "municipalities": "tasks/discovery/miyagi-official-coverage-005-municipalities.json",
+    "candidates": "tasks/discovery/miyagi-official-coverage-005-candidates.json",
+    "snippets": "tasks/discovery/miyagi-official-coverage-005-snippets.json"
+  },
+  "summary": {
+    "candidateCount": 1512,
+    "snippetSelectedCount": 200,
+    "adopted": 20,
+    "heldForSecondPass": 22,
+    "excluded": 0,
+    "sourceUrlsChecked": 20
+  }
+}

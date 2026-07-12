@@ -1,0 +1,26 @@
+{
+  "batchId": "miyagi-comprehensive-official-coverage-005",
+  "prefecture": "宮城県",
+  "municipalities": [
+    {
+      "code": "04321",
+      "name": "大河原町",
+      "officialBaseUrl": "https://www.town.ogawara.miyagi.jp/"
+    },
+    {
+      "code": "04322",
+      "name": "村田町",
+      "officialBaseUrl": "https://www.town.murata.miyagi.jp/"
+    },
+    {
+      "code": "04323",
+      "name": "柴田町",
+      "officialBaseUrl": "https://www.town.shibata.miyagi.jp/"
+    },
+    {
+      "code": "04324",
+      "name": "川崎町",
+      "officialBaseUrl": "https://www.town.kawasaki.miyagi.jp/"
+    }
+  ]
+}

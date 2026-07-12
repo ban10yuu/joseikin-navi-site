@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T13:23:08+09:00",
+  "updatedAt": "2026-07-12T13:55:00+09:00",
   "mode": "miyagi-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "miyagi-comprehensive-official-coverage-004",
-    "municipality": "東松島市・大崎市・蔵王町・七ヶ宿町",
-    "adopted": 17,
-    "held": 15,
+    "code": "miyagi-comprehensive-official-coverage-005",
+    "municipality": "大河原町・村田町・柴田町・川崎町",
+    "adopted": 20,
+    "held": 22,
     "excluded": 0,
-    "sourceUrlsChecked": 17,
+    "sourceUrlsChecked": 20,
     "validation": {
-      "previousMunicipality": "宮城県公式棚卸し004として、04214東松島市、04215大崎市、04301蔵王町、04302七ヶ宿町を確認。公式候補1207件から短い本文スニペットを抽出して再スコアリングし、東松島市4件・蔵王町6件・七ヶ宿町7件をデータ反映。大崎市は既存公式確認済み制度と低優先候補を確認し、重複追加なしとした。",
+      "previousMunicipality": "宮城県公式棚卸し005として、04321大河原町、04322村田町、04323柴田町、04324川崎町を確認。公式候補1512件から短い本文スニペット200件を抽出して再スコアリングし、各町5件ずつ合計20件をデータ反映。村田町はカテゴリページから個別制度ページへ展開し、川崎町は神奈川県川崎市とのslug衝突回避のためkawasaki-miyagi接頭辞を使用した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "pass: 17制度17URL returned HTTP 200",
-      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-004-municipalities.json tasks/discovery/miyagi-official-coverage-004-candidates.json tasks/discovery/miyagi-official-coverage-004-snippets.json tasks/discovery/miyagi-official-coverage-004.json",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7871, officialLinkedActive 7833, manuallyVerifiedActive 7833, Miyagi localOfficial 115"
+      "urlReachability": "pass: 20制度20URL returned HTTP 200",
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-005-municipalities.json tasks/discovery/miyagi-official-coverage-005-candidates.json tasks/discovery/miyagi-official-coverage-005-snippets.json tasks/discovery/miyagi-official-coverage-005.json",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7891, officialLinkedActive 7853, manuallyVerifiedActive 7853, Miyagi localOfficial 135"
     }
   },
   "next": {
-    "code": "miyagi-comprehensive-official-coverage-005",
+    "code": "miyagi-comprehensive-official-coverage-006",
     "municipality": "宮城県",
-    "shortlist": "東松島市の地方就職学生支援金・移住支援金・児童手当医療費カテゴリ、蔵王町の不妊検査費/不妊治療費・奨学金返還・移住支援金・医療費助成・中小企業融資、七ヶ宿町のにぎやか家族応援・住宅助成・障害福祉各助成・子ども医療費・任意予防接種等は第2巡で確認する。",
-    "instructions": "次は04321大河原町、04322村田町、04323柴田町、04324川崎町を自治体コード順に公式本文/PDFで確認する。"
+    "shortlist": "大河原町の子ども医療費助成・危険ブロック塀等除却・商工業支援制度、村田町の第3子以降保育料等助成・就学援助PDF単価・特定不妊治療費助成404、柴田町の若年がん在宅療養・犯罪被害者等支援・浄化槽設置助成、川崎町の生ごみ処理容器・特殊詐欺対策電話機・不妊検査費・ブロック塀・住宅災害復旧・浄化槽・耐震関連は第2巡で確認する。",
+    "instructions": "次は04341丸森町、04361亘理町、04362山元町、04401松島町を自治体コード順に公式本文/PDFで確認する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

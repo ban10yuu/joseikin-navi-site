@@ -3606,6 +3606,28 @@
   - 次:
     - 宮城県公式棚卸し005として、04321大河原町、04322村田町、04323柴田町、04324川崎町を自治体コード順で確認する。
 
+- 宮城県公式棚卸し005（大河原町・村田町・柴田町・川崎町）
+  - 対象: 04321大河原町、04322村田町、04323柴田町、04324川崎町。
+  - 方法:
+    - 公式候補1512件を生成し、shortlistが150件を超えたため `tasks/discovery/miyagi-official-coverage-005-snippets.json` に短い本文スニペット200件を抽出して再スコアリングした。
+    - 大河原町・柴田町・川崎町は個別制度ページを確認し、村田町はカテゴリページから個別制度ページへ展開して確認した。
+    - 制度名・対象・金額/上限・条件・期限/受付状況が揃う公式ページを採用し、川崎町は神奈川県川崎市とのslug衝突回避のため `kawasaki-miyagi` 接頭辞を使用した。
+  - 追加:
+    - 大河原町: おおがわら妊婦支援給付金、ママのおでかけタクシー券事業、特殊詐欺対策電話機等購入費補助金、若年がん患者在宅療養支援事業、木造住宅耐震改修工事助成事業。
+    - 村田町: 子育て支援金、子ども医療費助成制度、児童手当、母子・父子家庭医療費助成制度、村田町育英会育英資金。
+    - 柴田町: 障害者医療費助成、危険ブロック塀等除却事業、木造住宅耐震改修助成事業、特殊詐欺撃退電話機等購入費補助金、がん患者医療用ウィッグ等購入費用助成金。
+    - 川崎町: 不用果樹伐採事業補助金、結婚活動支援助成金、移住定住促進補助金、在宅子育て支援給付金、高齢者世帯エアコン購入支援助成金。
+  - 保留継続:
+    - 大河原町の子ども医療費助成・危険ブロック塀等除却・商工業支援制度、村田町の第3子以降保育料等助成・就学援助PDF単価・特定不妊治療費助成404、柴田町の若年がん在宅療養・犯罪被害者等支援・浄化槽設置助成、川崎町の生ごみ処理容器・特殊詐欺対策電話機・不妊検査費・ブロック塀・住宅災害復旧・浄化槽・耐震関連は第2巡で確認する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: 0。
+    - 20制度20URLの公式URL到達確認: HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7891、officialLinkedActive 7853、manuallyVerifiedActive 7853、宮城県 localOfficial 135）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-005-municipalities.json tasks/discovery/miyagi-official-coverage-005-candidates.json tasks/discovery/miyagi-official-coverage-005-snippets.json tasks/discovery/miyagi-official-coverage-005.json`: pass。
+  - 次:
+    - 宮城県公式棚卸し006として、04341丸森町、04361亘理町、04362山元町、04401松島町を自治体コード順で確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
