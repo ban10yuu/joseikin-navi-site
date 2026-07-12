@@ -1,0 +1,125 @@
+{
+  "batchId": "aomori-prefecture-final-official-coverage-audit",
+  "prefecture": "青森県",
+  "status": "completed",
+  "completedAt": "2026-07-12T10:55:00+09:00",
+  "scope": {
+    "organization": "青森県庁",
+    "code": "02000",
+    "officialBaseUrl": "https://www.pref.aomori.lg.jp/",
+    "note": "青森県内40市町村を02450新郷村まで完了後、県庁公式サイトと県内公的機関候補を最終監査した。"
+  },
+  "discovery": {
+    "candidateFile": "tasks/discovery/aomori-prefecture-final-official-coverage-candidates.json",
+    "snippetFile": "tasks/discovery/aomori-prefecture-final-official-coverage-snippets.json",
+    "discoveredUrlCount": 520,
+    "candidateCount": 286,
+    "snippetRows": 286,
+    "rescoreReason": "候補286件で150件超のため、短い本文スニペットを抽出して個別制度ページを優先採点した。"
+  },
+  "existingConfirmed": [
+    {
+      "title": "青森県 あおもり移住支援事業",
+      "basis": "既存データ内で県公式URL・制度名・対象・金額・受付状況を確認済み。"
+    },
+    {
+      "title": "青森県 あおもり若者定着奨学金返還支援制度",
+      "basis": "既存データ内で県公式URL・制度名・対象・金額・受付状況を確認済み。"
+    },
+    {
+      "title": "青森県 木造住宅耐震関連事業",
+      "basis": "既存データ内で県公式URL・制度名・対象・金額・受付状況を確認済み。"
+    },
+    {
+      "title": "青森県 持続的賃上げ環境整備促進事業費補助金",
+      "basis": "既存データ内で県公式URL・制度名・対象・金額・受付状況を確認済み。"
+    },
+    {
+      "title": "青森県 企業の農業参入推進事業費（りんご加工業者支援）",
+      "basis": "既存データ内で県公式URL・制度名・対象・金額・受付状況を確認済み。"
+    }
+  ],
+  "adopted": [
+    {
+      "slug": "aomori-pref-small-care-office-workplace-improvement-subsidy-2026",
+      "title": "青森県 小規模介護事業所等職場環境改善事業費補助金",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/koreihoken/kaigo-collaboration.html",
+      "amount": "補助率5分の4、構成法人数1につき120万円、訪問介護法人30万円加算、1グループ上限1,200万円",
+      "target": "青森県内に事業所を有する複数事業者グループ",
+      "deadline": "2026-08-31必着",
+      "basis": "県公式HTMLと県要綱PDFで対象、補助率、上限、期限を確認。"
+    },
+    {
+      "slug": "aomori-pref-coi-next-business-support-subsidy-2026",
+      "title": "青森県 COI-NEXTビジネス化支援事業費補助金",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/sangyo/innovation/R8hojokin_Well-being.html",
+      "amount": "補助対象経費の2分の1又は上限200万円の低い額",
+      "target": "県内に事業所を有する中小企業者等",
+      "deadline": "随時・先着順・予算終了まで。事業実施は2027-02-26まで",
+      "basis": "県公式HTMLと要綱DOCXで対象、補助額、受付、事業期限を確認。"
+    },
+    {
+      "slug": "aomori-pref-rural-women-entrepreneurship-subsidy-2026",
+      "title": "青森県 農山漁村女性の活躍応援事業補助金",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/nourin/nosui/R8challenge_tsuika.html",
+      "amount": "補助対象経費の2分の1以内、上限50万円",
+      "target": "県内農山漁村で起業活動に取り組む女性又は女性中心団体",
+      "deadline": "2026-08-21",
+      "basis": "県公式HTML、追加募集PDF、交付要綱PDFで対象、金額、募集期間を確認。"
+    },
+    {
+      "slug": "aomori-pref-income-improvement-program-subsidy-2026",
+      "title": "青森県 所得向上プログラム実践支援事業補助金",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/nourin/nosui/R8syotokukouzyoushien.html",
+      "amount": "ソフト定額上限50万円、ハード2分の1以内上限500万円、任意組織上限1,000万円",
+      "target": "農業者、農業法人、3戸以上の農業者等で組織する任意組織等",
+      "deadline": "2026-08-19 17:00",
+      "basis": "県公式HTMLと追加公募要領PDFで対象、補助メニュー、上限、募集期限を確認。"
+    },
+    {
+      "slug": "aomori-pref-veterinarian-scholarship-loan-2026",
+      "title": "青森県 獣医師修学資金",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/hoken/syuugakushikintaiyo.html",
+      "amount": "私立大学月額18万円、国公立大学月額10万円。県勤務で返還免除",
+      "target": "獣医学部1年生から6年生で卒業後に青森県職員獣医師として勤務する意思のある方",
+      "deadline": "2026-08-31",
+      "basis": "県公式HTMLと令和8年度再募集要項PDFで対象、貸与額、返還免除、募集期間を確認。"
+    }
+  ],
+  "held": [
+    {
+      "title": "青森県観光事業者経営力強化チャレンジ支援事業費補助金",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kanko/kanko/challenge_support2026.html",
+      "reason": "補助率2分の1・上限200万円は確認できるが、2026-07-10 17:00で公募終了表記のため現行受付としては保留。"
+    },
+    {
+      "title": "青森県医療分野等業務効率化・職場環境整備等事業費補助金",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/iryo/R8gyoumukourituka.html",
+      "reason": "補助額・対象は確認できるが、提出期限2026-07-10を過ぎているため保留。"
+    },
+    {
+      "title": "青森県介護サービス事業所・施設等におけるサービス継続支援事業",
+      "url": "https://www.pref.aomori.lg.jp/soshiki/kenko/koreihoken/servicekeizoku.html",
+      "reason": "交付申請・実績報告期限は2026-10-30だが、計画書提出済み事業者向けで、HTML本文だけでは個別補助上限が完結しないため保留。"
+    },
+    {
+      "title": "青森県庁 補助金・助成金カテゴリ、産業情報、募集・提案・イベント、税制・統計等の一覧ページ",
+      "reason": "個別制度ページではなく、ナビゲーション又は外部制度紹介が中心のため第2巡台帳に残し採用しない。"
+    },
+    {
+      "title": "青森県教職員互助会等の会員向け事業",
+      "reason": "県公式に近い公的団体候補だが、一般県民・事業者向けの公式補助制度としては対象が限定されるため低優先保留。"
+    }
+  ],
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "duplicateSlugs": 0,
+    "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --slug <5 slugs> --timeout-ms 60000 --concurrency 4 checked 11 failures 0",
+    "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-prefecture-final-official-coverage-input.json tasks/discovery/aomori-prefecture-final-official-coverage-candidates.json tasks/discovery/aomori-prefecture-final-official-coverage-snippets.json tasks/discovery/aomori-prefecture-final-official-coverage-audit.json",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7646, officialLinkedActive 7608, manuallyVerifiedActive 7608, Aomori localOfficial 256"
+  },
+  "next": {
+    "code": "iwate-comprehensive-official-coverage-001",
+    "instructions": "青森県庁最終監査後、岩手県001として03000岩手県庁、03201盛岡市、03202宮古市、03203大船渡市から自治体コード順に再開する。"
+  }
+}

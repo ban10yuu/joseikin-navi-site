@@ -3223,6 +3223,32 @@
   - 次:
     - 青森県内40市町村は02450新郷村まで自治体コード順の公式棚卸しを完了。次は青森県庁・県内公的機関・保留候補の最終確認と集計を行い、青森県完了判定後に岩手県001へ進む。
 
+- 青森県県庁・公的機関最終監査:
+  - 対象:
+    - 02000 青森県庁
+    - 青森県内40市町村の完了後に、県庁公式サイト・県内公的機関候補・保留候補を最終確認。
+  - Discovery:
+    - 公式トップ到達: HTTP 200。
+    - `tasks/discovery/aomori-prefecture-final-official-coverage-candidates.json`: 候補286件。
+    - `tasks/discovery/aomori-prefecture-final-official-coverage-snippets.json`: shortlist過多のため286件を本文スニペット抽出。
+    - `tasks/discovery/aomori-prefecture-final-official-coverage-audit.json`: 採用・既存確認・保留記録。
+  - 既存確認:
+    - 青森県あおもり移住支援事業、あおもり若者定着奨学金返還支援制度、木造住宅耐震関連事業、持続的賃上げ環境整備促進事業費補助金、企業の農業参入推進事業費（りんご加工業者支援）は既存データ内で県公式URL・制度名・対象・金額・受付状況を確認済み。
+  - 採用:
+    - 青森県庁: 小規模介護事業所等職場環境改善事業費補助金、COI-NEXTビジネス化支援事業費補助金、農山漁村女性の活躍応援事業補助金、所得向上プログラム実践支援事業補助金、獣医師修学資金。
+  - 保留継続:
+    - 観光事業者経営力強化チャレンジ支援事業費補助金、医療分野等業務効率化・職場環境整備等事業費補助金は金額・対象を確認できるが2026年7月10日で募集終了済みのため現行受付としては保留。
+    - 介護サービス事業所・施設等におけるサービス継続支援事業は計画書提出済み事業者向けで、HTML本文だけでは個別上限が完結しないため保留。
+    - 補助金・助成金カテゴリ、産業情報、募集・提案・イベント、税制・統計等の一覧ページ、県教職員互助会等の会員向け事業は、個別制度ページではない又は対象が限定的なため第2巡台帳に残す。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: 0。
+    - `node scripts/check-grant-source-urls.mjs --slug <5 slugs> --timeout-ms 60000 --concurrency 4`: checked 11、failures 0。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7646、officialLinkedActive 7608、manuallyVerifiedActive 7608、青森県 localOfficial 256）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-prefecture-final-official-coverage-input.json tasks/discovery/aomori-prefecture-final-official-coverage-candidates.json tasks/discovery/aomori-prefecture-final-official-coverage-snippets.json tasks/discovery/aomori-prefecture-final-official-coverage-audit.json`: pass。
+  - 次:
+    - 岩手県001として03000岩手県庁、03201盛岡市、03202宮古市、03203大船渡市から自治体コード順に確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:

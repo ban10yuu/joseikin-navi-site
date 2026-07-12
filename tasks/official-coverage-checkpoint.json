@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T10:35:00+09:00",
-  "mode": "aomori-comprehensive-official-coverage",
+  "updatedAt": "2026-07-12T10:55:00+09:00",
+  "mode": "aomori-prefecture-final-official-coverage-audit",
   "lastCompleted": {
-    "code": "aomori-comprehensive-official-coverage-012",
-    "municipality": "新郷村",
-    "adopted": 9,
-    "held": 8,
-    "excluded": 5,
-    "sourceUrlsChecked": 15,
+    "code": "aomori-prefecture-final-official-coverage-audit",
+    "municipality": "青森県庁",
+    "adopted": 5,
+    "held": 5,
+    "excluded": 4,
+    "sourceUrlsChecked": 10,
     "validation": {
-      "previousMunicipality": "青森県公式棚卸し012として、02450新郷村9件を公式本文/PDFで必須項目確認後にデータ反映。候補112件のためスニペット再抽出は不要とし、個別制度ページを優先して採用。",
+      "previousMunicipality": "青森県庁最終監査として、候補286件をスニペット再スコアリングし、県公式本文/PDF/DOCXで必須項目確認できた5件をデータ反映。既存の青森県庁5制度も公式URL・制度名・対象・金額・受付状況を確認済み。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --slug <9 slugs> checked 11 failures 0",
-      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-official-coverage-012-municipalities.json tasks/discovery/aomori-official-coverage-012-candidates.json tasks/discovery/aomori-official-coverage-012.json",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7641, officialLinkedActive 7603, manuallyVerifiedActive 7603, Aomori localOfficial 251"
+      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --slug <5 slugs> checked 11 failures 0",
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-prefecture-final-official-coverage-input.json tasks/discovery/aomori-prefecture-final-official-coverage-candidates.json tasks/discovery/aomori-prefecture-final-official-coverage-snippets.json tasks/discovery/aomori-prefecture-final-official-coverage-audit.json",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7646, officialLinkedActive 7608, manuallyVerifiedActive 7608, Aomori localOfficial 256"
     }
   },
   "next": {
-    "code": "aomori-prefecture-final-official-coverage-audit",
-    "municipality": "青森県",
-    "shortlist": "新郷村から9件をデータ反映。空家等利活用補助金、風しん予防接種、産後ケア、出産応援ギフト関連は上限額や現行受付の追加確認候補として第2巡に残した。",
-    "instructions": "青森県内40市町村は02450新郷村まで自治体コード順の公式棚卸しを完了。次は青森県庁・県内公的機関・保留候補の最終確認と集計を行い、青森県完了判定後に岩手県001へ進む。"
+    "code": "iwate-comprehensive-official-coverage-001",
+    "municipality": "岩手県",
+    "shortlist": "青森県内40市町村と青森県庁最終監査を完了。観光事業者チャレンジ支援、医療分野業務効率化支援、介護サービス継続支援、一覧・カテゴリ・会員向け事業は第2巡台帳へ保留。",
+    "instructions": "次は岩手県001として、03000岩手県庁、03201盛岡市、03202宮古市、03203大船渡市から自治体コード順に公式本文/PDFを確認する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
