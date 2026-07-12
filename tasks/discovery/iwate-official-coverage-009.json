@@ -1,0 +1,78 @@
+{
+  "batchId": "iwate-comprehensive-official-coverage-009",
+  "prefecture": "岩手県",
+  "checkedAt": "2026-07-12T12:50:00+09:00",
+  "method": {
+    "summary": "岩手県009として03507洋野町、03524一戸町を自治体コード順に確認。公式カテゴリ、浅い巡回候補、個別制度本文を確認し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別ページを採用した。",
+    "officialDomains": [
+      "https://www.town.hirono.iwate.jp/",
+      "https://www.town.ichinohe.iwate.jp/"
+    ],
+    "shortlistPolicy": "補助金・助成金・給付金・奨励金・貸付等の強語、金額・対象・期限/受付の本文記載を優先。カテゴリページ、様式のみのページ、事業計画、金額がPDF未確認の候補、制度本体ではない案内ページは保留又はsourceUrlsに留めた。"
+  },
+  "municipalities": [
+    {
+      "code": "03507",
+      "name": "洋野町",
+      "adopted": [
+        "hirono-marriage-new-life-support-subsidy-2026",
+        "hirono-jr-hachinohe-line-student-pass-subsidy-2026",
+        "hirono-startup-support-subsidy-2026",
+        "hirono-food-waste-processor-subsidy-2026",
+        "hirono-home-security-camera-subsidy-2026",
+        "hirono-nursing-staff-scholarship-loan-2026",
+        "hirono-bus-pass-incentive-2026",
+        "hirono-dangerous-vacant-house-demolition-subsidy-2026",
+        "hirono-cancer-prosthesis-subsidy-2026"
+      ],
+      "heldForSecondPass": [
+        "みんなのまちづくり支援事業は募集期間と対象事業を確認したが、今回本文抽出では補助率・上限額の確認が不足したためPDFを第2巡で確認する。",
+        "水洗化支援制度は本文で融資あっせん・利子補給・浄化槽補助の存在を確認したが、金額が添付PDF側のため第2巡で確認する。",
+        "和牛繁殖・酪農経営支援交付金は公式カテゴリに掲載があるが、今回抽出時に本文確認ができなかったため保留する。"
+      ]
+    },
+    {
+      "code": "03524",
+      "name": "一戸町",
+      "adopted": [
+        "ichinohe-housing-renovation-voucher-2026",
+        "ichinohe-wooden-house-seismic-retrofit-subsidy-2026",
+        "ichinohe-residential-solar-storage-voucher-2026",
+        "ichinohe-wooden-house-seismic-diagnosis-dispatch-2026",
+        "ichinohe-childcare-rental-housing-rent-subsidy-2026",
+        "ichinohe-commuter-pass-subsidy-2026",
+        "ichinohe-scholarship-repayment-employer-subsidy-2026",
+        "ichinohe-business-support-subsidy-2026",
+        "ichinohe-shared-cemetery-maintenance-subsidy-2026",
+        "ichinohe-community-hall-maintenance-subsidy-2026",
+        "ichinohe-senior-respect-event-subsidy-2026",
+        "ichinohe-student-medical-expense-subsidy-2026",
+        "ichinohe-infant-medical-expense-subsidy-2026"
+      ],
+      "heldForSecondPass": [
+        "世界文化遺産景観形成支援事業補助金は住宅カテゴリと文化財カテゴリ双方に候補があるため、第2巡で制度本文の最新版URLを確定する。",
+        "各種大会等出場費補助金は対象・対象経費を確認したが、今回抽出本文では補助率・上限額の確認が不足したため保留する。",
+        "生ごみ処理機設置事業費補助金、廃棄物収集ボックス設置補助金は移住定住ページから様式ファイルのみ確認したため、第2巡で制度本文又は要綱を確認する。"
+      ]
+    }
+  ],
+  "counts": {
+    "adopted": 22,
+    "held": 6,
+    "excluded": 2,
+    "sourceUrlsChecked": 23,
+    "existingVerified": 0
+  },
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "duplicateSlugs": 0,
+    "urlReachability": "pass: 22制度23URL returned HTTP 200",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7816, officialLinkedActive 7778, manuallyVerifiedActive 7778, Iwate localOfficial 236",
+    "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-009-municipalities.json tasks/discovery/iwate-official-coverage-009.json"
+  },
+  "next": {
+    "code": "miyagi-comprehensive-official-coverage-001",
+    "municipality": "宮城県庁・仙台市・石巻市・塩竈市",
+    "instructions": "次は04000宮城県庁、04100仙台市、04202石巻市、04203塩竈市を自治体コード順に公式本文/PDFで確認する。"
+  }
+}

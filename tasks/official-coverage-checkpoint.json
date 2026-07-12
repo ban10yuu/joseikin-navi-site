@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T12:27:28+09:00",
+  "updatedAt": "2026-07-12T12:50:00+09:00",
   "mode": "iwate-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "iwate-comprehensive-official-coverage-008",
-    "municipality": "普代村・軽米町・野田村・九戸村",
-    "adopted": 32,
-    "held": 12,
-    "excluded": 4,
-    "sourceUrlsChecked": 32,
+    "code": "iwate-comprehensive-official-coverage-009",
+    "municipality": "洋野町・一戸町",
+    "adopted": 22,
+    "held": 6,
+    "excluded": 2,
+    "sourceUrlsChecked": 23,
     "validation": {
-      "previousMunicipality": "岩手県公式棚卸し008として、03485普代村、03501軽米町、03503野田村、03506九戸村を確認。公式ドメイン内の浅い巡回、公式本文/PDF、野田村公式例規集本文フレームで制度名・対象・金額/上限・条件・期限/受付状況を確認し、普代村4件・軽米町12件・野田村6件・九戸村10件をデータ反映。",
+      "previousMunicipality": "岩手県公式棚卸し009として、03507洋野町、03524一戸町を確認。公式カテゴリ、浅い巡回候補、個別制度本文で制度名・対象・金額/上限・条件・期限/受付状況を確認し、洋野町9件・一戸町13件をデータ反映。これにより岩手県の第1巡を閉じた。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "pass: 32 officialUrl entries returned HTTP 200",
-      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-008-municipalities.json tasks/discovery/iwate-official-coverage-008.json",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7794, officialLinkedActive 7756, manuallyVerifiedActive 7756, Iwate localOfficial 214"
+      "urlReachability": "pass: 22制度23URL returned HTTP 200",
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-009-municipalities.json tasks/discovery/iwate-official-coverage-009.json",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7816, officialLinkedActive 7778, manuallyVerifiedActive 7778, Iwate localOfficial 236"
     }
   },
   "next": {
-    "code": "iwate-comprehensive-official-coverage-009",
-    "municipality": "岩手県",
-    "shortlist": "普代村4件・軽米町12件・野田村6件・九戸村10件をデータ反映。普代村の宿泊費助成、軽米町の小中学生入学祝金・結婚新生活・生殖補助医療・在宅育児支援、野田村の危険住宅移転・介護ロボット・価格高騰給付、九戸村の医療費助成・林業PDF・給食費無料等は第2巡で確認する。",
-    "instructions": "次は03507洋野町、03524一戸町を自治体コード順に公式本文/PDFで確認し、岩手県の第1巡を閉じる。"
+    "code": "miyagi-comprehensive-official-coverage-001",
+    "municipality": "宮城県",
+    "shortlist": "洋野町9件・一戸町13件をデータ反映。洋野町のみんなのまちづくり支援事業、水洗化支援制度、和牛繁殖・酪農経営支援交付金、一戸町の世界文化遺産景観形成支援事業補助金、各種大会等出場費補助金、生ごみ処理機設置事業費補助金、廃棄物収集ボックス設置補助金は第2巡で確認する。",
+    "instructions": "次は04000宮城県庁、04100仙台市、04202石巻市、04203塩竈市を自治体コード順に公式本文/PDFで確認する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

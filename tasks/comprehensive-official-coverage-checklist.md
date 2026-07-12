@@ -3494,6 +3494,30 @@
 - 次:
   - 03507洋野町、03524一戸町を自治体コード順で確認し、岩手県の第1巡を閉じる。
 
+### 岩手県公式棚卸し009（洋野町・一戸町）
+
+- 対象:
+  - 03507洋野町、03524一戸町。
+- 方法:
+  - 公式カテゴリ、浅い巡回候補、個別制度本文を確認。
+  - 制度名・対象・金額/上限・条件・期限/受付状況が揃う個別ページを採用し、カテゴリページ、様式のみ、事業計画、金額がPDF未確認の候補は保留した。
+- 追加:
+  - 洋野町: 結婚新生活支援補助金、JR八戸線通学定期券購入費助成、創業支援補助金、家庭用生ごみ処理機購入費補助金、家庭用防犯カメラ等設置助成金、看護職員等養成奨学資金貸付、路線バス通学・通勤定期券奨励金、危険空き家等除却費補助金、がん患者医療用補整具購入費補助金。
+  - 一戸町: 住宅リフォーム助成、木造住宅耐震改修工事助成、住宅用太陽光発電システム等導入事業助成費、木造住宅耐震診断士派遣事業、子育て支援民間賃貸住宅家賃補助、通学定期券購入費補助、奨学金返還支援補助金（事業者向け）、企業支援事業費補助金、共同墓地整備等補助金、地区集会施設整備事業費補助金、敬老事業補助金、児童生徒等医療費助成、乳幼児医療費助成。
+- 既存確認:
+  - 2町はいずれも今回の追加対象キーワードで既存データに重複する公式確認済み制度がなかったため、新規追加のみ。
+- 保留継続:
+  - 洋野町のみんなのまちづくり支援事業、水洗化支援制度、和牛繁殖・酪農経営支援交付金は、第2巡でPDF又は本文を確認する。
+  - 一戸町の世界文化遺産景観形成支援事業補助金、各種大会等出場費補助金、生ごみ処理機設置事業費補助金、廃棄物収集ボックス設置補助金は、第2巡で補助率・上限額又は制度本文を確認する。
+- 検証:
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+  - slug重複確認: 0。
+  - 22制度23URLの公式URL到達確認: HTTP 200。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 7816、officialLinkedActive 7778、manuallyVerifiedActive 7778、岩手県 localOfficial 236）。
+  - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-009-municipalities.json tasks/discovery/iwate-official-coverage-009.json`: pass。
+- 次:
+  - 宮城県公式棚卸し001として、04000宮城県庁、04100仙台市、04202石巻市、04203塩竈市を自治体コード順で確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
