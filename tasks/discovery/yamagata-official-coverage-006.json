@@ -1,0 +1,341 @@
+{
+  "batchId": "yamagata-comprehensive-official-coverage-006",
+  "prefecture": "山形県",
+  "municipalities": [
+    {
+      "code": "06341",
+      "name": "大石田町",
+      "officialBaseUrl": "https://www.town.oishida.yamagata.jp/"
+    },
+    {
+      "code": "06361",
+      "name": "金山町",
+      "officialBaseUrl": "https://www.town.kaneyama.yamagata.jp/"
+    },
+    {
+      "code": "06362",
+      "name": "最上町",
+      "officialBaseUrl": "https://town.mogami.lg.jp/"
+    },
+    {
+      "code": "06363",
+      "name": "舟形町",
+      "officialBaseUrl": "https://www.town.funagata.yamagata.jp/"
+    }
+  ],
+  "generatedAt": "2026-07-12T21:24:36.652Z",
+  "method": [
+    "officialBaseUrl/sitemap/category traversalで候補932件を生成",
+    "候補数が150件超のため本文スニペット140件を抽出して再スコアリング",
+    "金山町と舟形町は公式カテゴリ導線から個別制度URLを補完",
+    "最上町は旧HTMLの.kiji本文ブロックを再抽出してカテゴリ・共通ナビ一致を除外"
+  ],
+  "adoptedCount": 40,
+  "adopted": [
+    {
+      "slug": "oishida-qualification-license-subsidy-2026",
+      "title": "大石田町 資格取得支援事業助成金",
+      "organization": "大石田町",
+      "officialUrl": "https://www.town.oishida.yamagata.jp/life/hojo/sikakujyoseikin.html",
+      "sourceName": "大石田町 就業や仕事に役立つ資格や免許取得の経費を助成します"
+    },
+    {
+      "slug": "oishida-settlement-housing-acquisition-subsidy-2026",
+      "title": "大石田町 定住促進助成事業",
+      "organization": "大石田町",
+      "officialUrl": "https://www.town.oishida.yamagata.jp/life/jyuutaku/teijyusokusin.html",
+      "sourceName": "大石田町 定住促進助成事業"
+    },
+    {
+      "slug": "oishida-renewable-energy-equipment-subsidy-2026",
+      "title": "大石田町 再生可能エネルギー設備導入事業",
+      "organization": "大石田町",
+      "officialUrl": "https://www.town.oishida.yamagata.jp/life/gomikankyoupet/saiene2026.html",
+      "sourceName": "大石田町 再生可能エネルギー設備導入事業"
+    },
+    {
+      "slug": "oishida-new-business-challenge-subsidy-2026",
+      "title": "大石田町 新事業チャレンジ支援事業補助金",
+      "organization": "大石田町",
+      "officialUrl": "https://www.town.oishida.yamagata.jp/life/hojo/newchallenge.html",
+      "sourceName": "大石田町 令和8年度新事業チャレンジ支援事業補助金"
+    },
+    {
+      "slug": "oishida-future-community-project-subsidy-2026",
+      "title": "大石田町 おおいしだ未来づくり支援事業補助金",
+      "organization": "大石田町",
+      "officialUrl": "https://www.town.oishida.yamagata.jp/life/hojo/miraidukuri.html",
+      "sourceName": "大石田町 おおいしだ未来づくり支援事業補助金"
+    },
+    {
+      "slug": "oishida-housing-renovation-subsidy-2026",
+      "title": "大石田町 住宅リフォーム支援事業補助金",
+      "organization": "大石田町",
+      "officialUrl": "https://www.town.oishida.yamagata.jp/life/jyuutaku/housingrenoassist.html",
+      "sourceName": "大石田町 住宅リフォーム支援事業補助金"
+    },
+    {
+      "slug": "oishida-license-return-taxi-voucher-2026",
+      "title": "大石田町 運転免許証自主返納支援事業",
+      "organization": "大石田町",
+      "officialUrl": "https://www.town.oishida.yamagata.jp/life/hojo/seikatu20260415.html",
+      "sourceName": "大石田町 運転免許証自主返納支援事業"
+    },
+    {
+      "slug": "oishida-small-snowblower-purchase-subsidy-2026",
+      "title": "大石田町 小型除雪機購入費補助金",
+      "organization": "大石田町",
+      "officialUrl": "https://www.town.oishida.yamagata.jp/life/ijuteiju/kogatajosetukihojo.html",
+      "sourceName": "大石田町 小型除雪機の購入費へ補助金を交付します"
+    },
+    {
+      "slug": "oishida-medical-wig-subsidy-2026",
+      "title": "大石田町 医療用ウイッグ購入費助成",
+      "organization": "大石田町",
+      "officialUrl": "https://www.town.oishida.yamagata.jp/life/fukushikenkou/jyosei/uiggu2.html",
+      "sourceName": "大石田町 医療用ウイッグ購入費を助成します"
+    },
+    {
+      "slug": "oishida-breast-prosthesis-subsidy-2026",
+      "title": "大石田町 乳房補整具購入費助成",
+      "organization": "大石田町",
+      "officialUrl": "https://www.town.oishida.yamagata.jp/life/fukushikenkou/jyosei/hoseigu2.html",
+      "sourceName": "大石田町 乳房補整具購入費を助成します"
+    },
+    {
+      "slug": "kaneyama-wildlife-unneeded-fruit-tree-removal-subsidy-2026",
+      "title": "金山町 野生鳥獣市街地等出没対策事業費補助金",
+      "organization": "金山町",
+      "officialUrl": "https://www.town.kaneyama.yamagata.jp/kurashi/anshin_anzen/4503.html",
+      "sourceName": "金山町 野生鳥獣市街地等出没対策事業費補助金"
+    },
+    {
+      "slug": "kaneyama-small-business-support-subsidy-2026",
+      "title": "金山町 小規模事業者支援事業補助金",
+      "organization": "金山町",
+      "officialUrl": "https://www.town.kaneyama.yamagata.jp/kurashi/shigoto_sangyo/kigyoshien/4081.html",
+      "sourceName": "金山町 令和8年度 小規模事業者支援事業補助金"
+    },
+    {
+      "slug": "kaneyama-new-product-development-subsidy-2026",
+      "title": "金山町 新規開発事業補助金",
+      "organization": "金山町",
+      "officialUrl": "https://www.town.kaneyama.yamagata.jp/kurashi/shigoto_sangyo/kigyoshien/852.html",
+      "sourceName": "金山町 新規開発事業補助金"
+    },
+    {
+      "slug": "kaneyama-regular-worker-employment-incentive-2026",
+      "title": "金山町 常用労働者新規雇用奨励金",
+      "organization": "金山町",
+      "officialUrl": "https://www.town.kaneyama.yamagata.jp/kurashi/shigoto_sangyo/kigyoshien/1589.html",
+      "sourceName": "金山町 常用労働者新規雇用奨励金"
+    },
+    {
+      "slug": "kaneyama-new-graduate-hiring-incentive-2026",
+      "title": "金山町 新規学卒者採用奨励金",
+      "organization": "金山町",
+      "officialUrl": "https://www.town.kaneyama.yamagata.jp/kurashi/shigoto_sangyo/shoko/1674.html",
+      "sourceName": "金山町 新規学卒者採用奨励金"
+    },
+    {
+      "slug": "kaneyama-qualification-acquisition-subsidy-2026",
+      "title": "金山町 資格取得支援事業補助金",
+      "organization": "金山町",
+      "officialUrl": "https://www.town.kaneyama.yamagata.jp/kurashi/shigoto_sangyo/shoko/1679.html",
+      "sourceName": "金山町 資格取得支援事業補助金"
+    },
+    {
+      "slug": "kaneyama-streetscape-landscape-subsidy-2026",
+      "title": "金山町 街並み景観助成金",
+      "organization": "金山町",
+      "officialUrl": "https://www.town.kaneyama.yamagata.jp/kurashi/kurashi_tetsuzuki/sumai/1576.html",
+      "sourceName": "金山町 街並み景観助成金"
+    },
+    {
+      "slug": "kaneyama-housing-renovation-support-subsidy-2026",
+      "title": "金山町 住宅リフォーム総合支援事業",
+      "organization": "金山町",
+      "officialUrl": "https://www.town.kaneyama.yamagata.jp/kurashi/kurashi_tetsuzuki/sumai/1836.html",
+      "sourceName": "金山町 令和8年度 住宅リフォーム総合支援事業"
+    },
+    {
+      "slug": "kaneyama-yamagata-wood-housing-incentive-2026",
+      "title": "金山町 やまがたの木活用住宅奨励補助金",
+      "organization": "金山町",
+      "officialUrl": "https://www.town.kaneyama.yamagata.jp/kurashi/kurashi_tetsuzuki/sumai/1836.html",
+      "sourceName": "金山町 やまがたの木活用住宅奨励補助金"
+    },
+    {
+      "slug": "kaneyama-wooden-house-seismic-diagnosis-dispatch-2026",
+      "title": "金山町 木造住宅耐震診断士派遣事業",
+      "organization": "金山町",
+      "officialUrl": "https://www.town.kaneyama.yamagata.jp/kurashi/kurashi_tetsuzuki/sumai/2023.html",
+      "sourceName": "金山町 木造住宅耐震診断士派遣事業"
+    },
+    {
+      "slug": "mogami-pregnancy-health-checkup-subsidy-2026",
+      "title": "最上町 妊婦健診費用助成",
+      "organization": "最上町",
+      "officialUrl": "https://town.mogami.lg.jp/child/01birth/01tetsuzuki.php",
+      "sourceName": "最上町 妊娠届出・母子健康手帳・妊婦健診"
+    },
+    {
+      "slug": "mogami-childbirth-support-grant-2026",
+      "title": "最上町 出産育児応援交付金",
+      "organization": "最上町",
+      "officialUrl": "https://town.mogami.lg.jp/child/01birth/04tetsuzuki.php",
+      "sourceName": "最上町 出産育児応援交付金"
+    },
+    {
+      "slug": "mogami-pregnancy-support-grant-2026",
+      "title": "最上町 妊婦支援給付金",
+      "organization": "最上町",
+      "officialUrl": "https://town.mogami.lg.jp/child/01birth/04tetsuzuki.php",
+      "sourceName": "最上町 妊婦支援給付金"
+    },
+    {
+      "slug": "mogami-school-entrance-celebration-grant-2026",
+      "title": "最上町 入学祝金",
+      "organization": "最上町",
+      "officialUrl": "https://town.mogami.lg.jp/child/01birth/04tetsuzuki.php",
+      "sourceName": "最上町 入学祝金"
+    },
+    {
+      "slug": "mogami-enterprise-location-incentive-2026",
+      "title": "最上町 企業立地促進条例奨励金",
+      "organization": "最上町",
+      "officialUrl": "https://town.mogami.lg.jp/culture/04nousyoukou/04kigyou-ritti-jyourei.php",
+      "sourceName": "最上町 企業立地促進条例"
+    },
+    {
+      "slug": "funagata-household-snowblower-purchase-subsidy-2026",
+      "title": "舟形町 家庭用除雪機購入補助事業",
+      "organization": "舟形町",
+      "officialUrl": "https://www.town.funagata.yamagata.jp/s008/kurashi/080/410/20200123000000.html",
+      "sourceName": "舟形町 家庭用除雪機購入補助事業"
+    },
+    {
+      "slug": "funagata-vacant-house-demolition-subsidy-2026",
+      "title": "舟形町 空き家除却補助金",
+      "organization": "舟形町",
+      "officialUrl": "https://www.town.funagata.yamagata.jp/s022/sugata/060/010/220/20200114003000.html",
+      "sourceName": "舟形町 空き家除却補助金"
+    },
+    {
+      "slug": "funagata-housing-renovation-new-construction-subsidy-2026",
+      "title": "舟形町 住宅リフォーム・住宅新築補助金",
+      "organization": "舟形町",
+      "officialUrl": "https://www.town.funagata.yamagata.jp/s022/sugata/060/010/210/20200120023000.html",
+      "sourceName": "舟形町 住宅リフォーム、住宅新築の補助金"
+    },
+    {
+      "slug": "funagata-job-change-travel-support-subsidy-2026",
+      "title": "舟形町 就転職等活動旅費支援事業費補助金",
+      "organization": "舟形町",
+      "officialUrl": "https://www.town.funagata.yamagata.jp/s008/sugata/060/020/320/20200121003000.html",
+      "sourceName": "舟形町 就転職等活動旅費支援事業費補助金"
+    },
+    {
+      "slug": "funagata-renewable-energy-equipment-subsidy-2026",
+      "title": "舟形町 再生可能エネルギー設備等導入設置費補助金",
+      "organization": "舟形町",
+      "officialUrl": "https://www.town.funagata.yamagata.jp/s007/sugata/060/020/210/20200117011000.html",
+      "sourceName": "舟形町 再生可能エネルギーの導入に関する補助金"
+    },
+    {
+      "slug": "funagata-paid-internship-acceptance-subsidy-2026",
+      "title": "舟形町 有償インターンシップ受入れ支援事業費補助金",
+      "organization": "舟形町",
+      "officialUrl": "https://www.town.funagata.yamagata.jp/s008/sugata/060/020/310/20200121004000.html",
+      "sourceName": "舟形町 有償インターンシップ受入れ支援事業費補助金"
+    },
+    {
+      "slug": "funagata-dangerous-block-wall-removal-subsidy-2026",
+      "title": "舟形町 危険ブロック塀等撤去費補助金",
+      "organization": "舟形町",
+      "officialUrl": "https://www.town.funagata.yamagata.jp/s022/sugata/060/030/210/20200120022000.html",
+      "sourceName": "舟形町 危険ブロック塀の撤去を支援します"
+    },
+    {
+      "slug": "funagata-community-snow-removal-support-subsidy-2026",
+      "title": "舟形町 地域支え合い除排雪活動支援事業費補助金",
+      "organization": "舟形町",
+      "officialUrl": "https://www.town.funagata.yamagata.jp/s008/sugata/060/030/320/20200121005000.html",
+      "sourceName": "舟形町 地域支え合い除排雪活動支援事業費補助金"
+    },
+    {
+      "slug": "funagata-community-development-support-subsidy-2026",
+      "title": "舟形町 地域づくり総合支援事業費補助金",
+      "organization": "舟形町",
+      "officialUrl": "https://www.town.funagata.yamagata.jp/s008/sugata/060/040/310/20200121002000.html",
+      "sourceName": "舟形町 地域づくり総合支援事業費補助金"
+    },
+    {
+      "slug": "funagata-community-environment-improvement-subsidy-2026",
+      "title": "舟形町 地域協働環境整備事業費補助金",
+      "organization": "舟形町",
+      "officialUrl": "https://www.town.funagata.yamagata.jp/s008/sugata/060/040/320/20200121001000.html",
+      "sourceName": "舟形町 地域協働環境整備事業費補助金"
+    },
+    {
+      "slug": "funagata-childcare-price-support-benefit-2026",
+      "title": "舟形町 物価高対応子育て応援手当",
+      "organization": "舟形町",
+      "officialUrl": "https://www.town.funagata.yamagata.jp/s015/20260112133841.html",
+      "sourceName": "舟形町 物価高対応子育て応援手当"
+    },
+    {
+      "slug": "funagata-childbirth-support-benefit-2026",
+      "title": "舟形町 出産支援給付金",
+      "organization": "舟形町",
+      "officialUrl": "https://www.town.funagata.yamagata.jp/s015/kosodate/20220314160907.html",
+      "sourceName": "舟形町 出産支援給付金"
+    },
+    {
+      "slug": "funagata-newborn-hearing-test-subsidy-2026",
+      "title": "舟形町 新生児聴覚検査費用助成事業",
+      "organization": "舟形町",
+      "officialUrl": "https://www.town.funagata.yamagata.jp/s017/kosodate/070/220/20200114024000.html",
+      "sourceName": "舟形町 新生児聴覚検査費用助成事業"
+    },
+    {
+      "slug": "funagata-infertility-treatment-subsidy-2026",
+      "title": "舟形町 不妊治療費等助成制度",
+      "organization": "舟形町",
+      "officialUrl": "https://www.town.funagata.yamagata.jp/s017/kosodate/070/230/20200114023000.html",
+      "sourceName": "舟形町 不妊治療費の一部助成"
+    },
+    {
+      "slug": "funagata-megamichan-campaign-subsidy-2026",
+      "title": "舟形町 ガンバルめがみちゃん応援キャンペーン事業補助金",
+      "organization": "舟形町",
+      "officialUrl": "https://www.town.funagata.yamagata.jp/s010/shigoto/050/210/20200112020000.html",
+      "sourceName": "舟形町 令和8年度 ガンバルめがみちゃん応援キャンペーン事業補助金"
+    }
+  ],
+  "held": [
+    {
+      "municipality": "大石田町",
+      "reason": "児童手当、児童扶養手当、特別児童扶養手当、重度心身障がい医療、空き家バンク総合案内、定額減税、地方創生臨時交付金、町長ブログ等は国制度・カテゴリ・告知又は個別補助要件不足のため第2巡へ残す。"
+    },
+    {
+      "municipality": "金山町",
+      "reason": "企業支援と商工カテゴリの重複ページは代表URLへ集約。固定資産税軽減支援、移住支援内の県制度、融資・県ポータル案内は町独自制度との切り分けを第2巡で確認する。"
+    },
+    {
+      "municipality": "最上町",
+      "reason": "申請書ダウンロード、各課業務、助成手当カテゴリ、予防接種一覧、医療費助成ページはカテゴリ・標準医療給付又は金額確認不足のため第2巡へ残す。"
+    },
+    {
+      "municipality": "舟形町",
+      "reason": "求職者支援制度、若者海外体験促進事業、児童手当等の国制度・旧年度制度・通常行政手続は採用せず、必要に応じて第2巡で現行性を確認する。"
+    }
+  ],
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: added 40 slugs, duplicate count 0",
+    "urlReachability": "pass: 40 slugs / 40 source URLs, failures 0, all HTTP 200 (最上町はconcurrency 1で確認)",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8509, officialLinkedActive 8471, manuallyVerifiedActive 8471, Yamagata localOfficial 236, coveredCategories 8",
+    "diffCheck": "pass: git diff --check for Yamagata 006 files"
+  }
+}

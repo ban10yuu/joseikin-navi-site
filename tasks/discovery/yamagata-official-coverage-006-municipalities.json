@@ -1,0 +1,26 @@
+{
+  "batchId": "yamagata-comprehensive-official-coverage-006",
+  "prefecture": "山形県",
+  "municipalities": [
+    {
+      "code": "06341",
+      "name": "大石田町",
+      "officialBaseUrl": "https://www.town.oishida.yamagata.jp/"
+    },
+    {
+      "code": "06361",
+      "name": "金山町",
+      "officialBaseUrl": "https://www.town.kaneyama.yamagata.jp/"
+    },
+    {
+      "code": "06362",
+      "name": "最上町",
+      "officialBaseUrl": "https://town.mogami.lg.jp/"
+    },
+    {
+      "code": "06363",
+      "name": "舟形町",
+      "officialBaseUrl": "https://www.town.funagata.yamagata.jp/"
+    }
+  ]
+}
