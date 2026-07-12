@@ -1,0 +1,160 @@
+{
+  "batchId": "aomori-comprehensive-official-coverage-012",
+  "prefecture": "青森県",
+  "status": "completed",
+  "completedAt": "2026-07-12T10:35:00+09:00",
+  "municipalities": [
+    {
+      "code": "02450",
+      "name": "新郷村",
+      "officialBaseUrl": "https://www.vill.shingo.aomori.jp/",
+      "candidateCount": 112,
+      "discoveredUrlCount": 260,
+      "sourceUrlsChecked": 15,
+      "adoptedCount": 9,
+      "heldCount": 8,
+      "excludedCount": 5,
+      "adopted": [
+        {
+          "slug": "shingo-small-business-support-subsidy-2026",
+          "title": "新郷村 スモールビジネス支援事業費補助金",
+          "officialUrl": "https://www.vill.shingo.aomori.jp/live/touroku/page-30867/",
+          "amount": "新規事業者上限100万円、既存事業者上限50万円",
+          "basis": "公式本文で対象事業者、対象経費、補助率、上限額、交付決定前着工対象外を確認。"
+        },
+        {
+          "slug": "shingo-childcare-diaper-supplies-subsidy-2026",
+          "title": "新郷村 子育て家庭おむつ用品等助成",
+          "officialUrl": "https://www.vill.shingo.aomori.jp/live/nenkeihukushi/page-5726/page-28193/",
+          "amount": "子ども1人当たり月額上限5,000円",
+          "basis": "公式本文で対象児童、対象用品、月額上限、翌月10日までの償還払い請求を確認。"
+        },
+        {
+          "slug": "shingo-infant-medical-expense-subsidy-2026",
+          "title": "新郷村 乳幼児医療費助成",
+          "officialUrl": "https://www.vill.shingo.aomori.jp/live/nenkeihukushi/youji/josei/",
+          "amount": "保険診療の自己負担分",
+          "basis": "公式本文で0歳から小学校入学前、保険診療自己負担分、現物給付・償還払いを確認。"
+        },
+        {
+          "slug": "shingo-child-medical-expense-subsidy-2026",
+          "title": "新郷村 子ども医療費助成",
+          "officialUrl": "https://www.vill.shingo.aomori.jp/live/nenkeihukushi/kodomo-iryo/page-2272/",
+          "amount": "保険診療の自己負担分",
+          "basis": "公式本文で小学校入学から18歳年度末まで、保険診療自己負担分、現物給付・償還払いを確認。"
+        },
+        {
+          "slug": "shingo-single-parent-medical-expense-subsidy-2026",
+          "title": "新郷村 ひとり親家庭等医療費助成",
+          "officialUrl": "https://www.vill.shingo.aomori.jp/live/nenkeihukushi/page-18107/page-18139/",
+          "amount": "児童は医療費自己負担額相当、父母は月1,000円超過分",
+          "basis": "公式本文で対象世帯、所得制限、給付額、毎年7月更新を確認。"
+        },
+        {
+          "slug": "shingo-matching-system-registration-fee-subsidy-2026",
+          "title": "新郷村 あおもりマッチングシステム利用登録料助成金",
+          "officialUrl": "https://www.vill.shingo.aomori.jp/live/touroku/page-30552/",
+          "amount": "上限1万円",
+          "basis": "公式本文で18歳以上独身、村内住所、村税等滞納なし、1人1回、登録料分上限1万円を確認。"
+        },
+        {
+          "slug": "shingo-high-risk-maternity-access-support-2026",
+          "title": "新郷村 ハイリスク妊産婦アクセス支援事業",
+          "officialUrl": "https://www.vill.shingo.aomori.jp/live/nenkeihukushi/page-5726/page-5768/",
+          "amount": "上限10万円",
+          "basis": "公式本文で村内在住産婦、NICU/GCU入院児の面会交通費、1人上限10万円を確認。"
+        },
+        {
+          "slug": "shingo-childcare-price-inflation-benefit-2026",
+          "title": "新郷村 物価高騰対応子育て応援手当",
+          "officialUrl": "https://www.vill.shingo.aomori.jp/page-30686/",
+          "amount": "子ども1人当たり2万円",
+          "basis": "公式本文で対象児童、支給対象者、申請不要又は手続き要否、各申請期限を確認。"
+        },
+        {
+          "slug": "shingo-scholarship-loan-2026",
+          "title": "新郷村 奨学金貸与制度",
+          "officialUrl": "https://www.vill.shingo.aomori.jp/public/ikujikyouiku/syougakukin/",
+          "amount": "年36万円以内（月3万円以内、無利子貸与）",
+          "basis": "公式本文で対象学生、学校区分別貸与額、無利子、返還期間、令和8年度募集期間を確認。"
+        }
+      ],
+      "held": [
+        {
+          "title": "新郷村空家等利活用事業費補助金",
+          "url": "https://www.vill.shingo.aomori.jp/live/touroku/page-23698/",
+          "reason": "公式HTMLで制度名と趣旨は確認したが、補助上限・補助率は画像PDF要綱に依存し通常抽出不可のため第2巡でOCR又は目視確認する。"
+        },
+        {
+          "title": "インフルエンザ・新型コロナウイルスワクチン予防接種費用助成",
+          "url": "https://www.vill.shingo.aomori.jp/live/nenkeihukushi/page-5726/page-30252/",
+          "reason": "令和7年度接種分は申請期間が令和8年4月15日までで受付終了。次年度更新確認まで保留。"
+        },
+        {
+          "title": "子ども新型コロナウイルスワクチン接種費用助成",
+          "url": "https://www.vill.shingo.aomori.jp/live/nenkeihukushi/page-5726/page-28565/",
+          "reason": "助成期間・申請期間とも令和7年4月までで終了しているため低優先保留。"
+        },
+        {
+          "title": "HPVワクチン自費接種償還払い",
+          "url": "https://www.vill.shingo.aomori.jp/live/nenkeihukushi/page-5726/page-5739/",
+          "reason": "申請期限が令和7年3月31日で終了。現行支援としては採用しない。"
+        },
+        {
+          "title": "風しん抗体価検査及び風しん予防接種",
+          "url": "https://www.vill.shingo.aomori.jp/live/nenkeihukushi/page-5726/page-5758/",
+          "reason": "助成対象は確認したが、公式本文で助成額又は自己負担が確認できないため保留。"
+        },
+        {
+          "title": "新郷村産後ケア事業",
+          "url": "https://www.vill.shingo.aomori.jp/live/nenkeihukushi/page-5726/page-30967/",
+          "reason": "対象と実施機関は確認したが、利用料・助成額はリンクPDF精査が必要なため保留。"
+        },
+        {
+          "title": "出産育児一時金等の医療機関等への直接支払制度",
+          "url": "https://www.vill.shingo.aomori.jp/live/hokenteate/kokuho_main/ikuji/",
+          "reason": "全国制度案内で、公式本文の支給額が現行50万円ではなく旧42万円表記のため低優先保留。"
+        },
+        {
+          "title": "母子健康手帳",
+          "url": "https://www.vill.shingo.aomori.jp/live/nenkeihukushi/page-5726/page-5731/",
+          "reason": "出産応援ギフト申請時の持参物は確認できるが、制度名・支給額・受付条件が本文で完結しないため保留。"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "新郷村空き家バンク制度",
+          "url": "https://www.vill.shingo.aomori.jp/live/touroku/page-23698/",
+          "reason": "空き家情報提供・登録制度部分は個別給付制度ではない。"
+        },
+        {
+          "title": "不妊専門相談",
+          "url": "https://www.vill.shingo.aomori.jp/live/nenkeihukushi/page-5726/page-31217/",
+          "reason": "無料相談案内であり、村の補助金・給付金ページではない。"
+        },
+        {
+          "title": "乳幼児健康診査",
+          "url": "https://www.vill.shingo.aomori.jp/live/nenkeihukushi/page-5726/page-5763/",
+          "reason": "健診案内であり、助成額・給付額のある個別制度ではない。"
+        },
+        {
+          "title": "赤ちゃんがやってくる",
+          "url": "https://www.vill.shingo.aomori.jp/live/nenkeihukushi/page-5726/page-26207/",
+          "reason": "八戸圏域情報サイト紹介であり、村の個別支援制度ではない。"
+        },
+        {
+          "title": "里親制度",
+          "url": "https://www.vill.shingo.aomori.jp/live/nenkeihukushi/page-5726/28447-2/",
+          "reason": "制度周知ページであり、村独自の補助金・給付金ではない。"
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "duplicateSlugs": 0,
+    "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --slug <9 slugs> checked 11 failures 0",
+    "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-official-coverage-012-municipalities.json tasks/discovery/aomori-official-coverage-012-candidates.json tasks/discovery/aomori-official-coverage-012.json",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7641, officialLinkedActive 7603, manuallyVerifiedActive 7603, Aomori localOfficial 251"
+  }
+}

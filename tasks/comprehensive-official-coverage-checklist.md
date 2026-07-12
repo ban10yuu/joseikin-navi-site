@@ -3198,6 +3198,31 @@
   - 次:
     - 02450新郷村から青森県012として自治体コード順に確認する。
 
+- 青森県公式棚卸し012（新郷村データ反映）:
+  - 対象自治体:
+    - 02450 新郷村
+  - Discovery:
+    - 公式トップ到達: HTTP 200。
+    - `tasks/discovery/aomori-official-coverage-012-candidates.json`: 候補112件。shortlist過多ではないため本文スニペット再抽出は行わず、個別制度ページを優先して公式本文/PDFを確認。
+    - `tasks/discovery/aomori-official-coverage-012.json`: 採用・保留・除外記録。
+  - 採用:
+    - 新郷村: スモールビジネス支援事業費補助金、子育て家庭おむつ用品等助成、乳幼児医療費助成、子ども医療費助成、ひとり親家庭等医療費助成、あおもりマッチングシステム利用登録料助成金、ハイリスク妊産婦アクセス支援事業、物価高騰対応子育て応援手当、奨学金貸与制度。
+  - 保留継続:
+    - 空家等利活用事業費補助金は公式HTMLで制度名と趣旨を確認したが、補助上限・補助率が画像PDF要綱依存で通常テキスト抽出不可のため第2巡でOCR又は目視確認する。
+    - インフルエンザ・新型コロナウイルスワクチン予防接種費用助成、子ども新型コロナウイルスワクチン接種費用助成、HPVワクチン自費接種償還払いは令和7年度以前の申請期限終了又は次年度更新待ちとして保留。
+    - 風しん抗体価検査及び風しん予防接種、産後ケア事業、母子健康手帳の出産応援ギフト関連は、助成額・自己負担又は現行給付額が本文で完結しないため保留。
+    - 出産育児一時金等の医療機関等への直接支払制度は全国制度案内で、村公式本文の額が旧42万円表記のため低優先保留。
+  - 除外:
+    - 空き家バンク制度本体、不妊専門相談、乳幼児健康診査、赤ちゃんがやってくる、里親制度は、個別の補助金・助成金・給付金ではないため採用しない。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: 0。
+    - `node scripts/check-grant-source-urls.mjs --slug <9 slugs> --timeout-ms 60000 --concurrency 4`: checked 11、failures 0。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7641、officialLinkedActive 7603、manuallyVerifiedActive 7603、青森県 localOfficial 251）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-official-coverage-012-municipalities.json tasks/discovery/aomori-official-coverage-012-candidates.json tasks/discovery/aomori-official-coverage-012.json`: pass。
+  - 次:
+    - 青森県内40市町村は02450新郷村まで自治体コード順の公式棚卸しを完了。次は青森県庁・県内公的機関・保留候補の最終確認と集計を行い、青森県完了判定後に岩手県001へ進む。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
