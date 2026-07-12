@@ -1,0 +1,26 @@
+{
+  "batchId": "aomori-comprehensive-official-coverage-010",
+  "prefecture": "青森県",
+  "municipalities": [
+    {
+      "code": "02424",
+      "name": "東通村",
+      "officialBaseUrl": "http://www.vill.higashidoori.lg.jp/"
+    },
+    {
+      "code": "02425",
+      "name": "風間浦村",
+      "officialBaseUrl": "https://www.kazamaura.jp/"
+    },
+    {
+      "code": "02426",
+      "name": "佐井村",
+      "officialBaseUrl": "https://www.vill.sai.lg.jp/"
+    },
+    {
+      "code": "02441",
+      "name": "三戸町",
+      "officialBaseUrl": "https://www.town.sannohe.aomori.jp/"
+    }
+  ]
+}

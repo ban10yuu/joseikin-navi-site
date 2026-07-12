@@ -1,0 +1,84 @@
+{
+  "batchId": "aomori-comprehensive-official-coverage-010",
+  "prefecture": "青森県",
+  "completedAt": "2026-07-12T09:34:34+09:00",
+  "municipalities": [
+    {
+      "code": "02424",
+      "name": "東通村",
+      "officialBaseUrl": "http://www.vill.higashidoori.lg.jp/",
+      "adopted": [
+        "higashidoori-pregnant-women-support-benefit-2026",
+        "higashidoori-student-temporary-benefit-2026",
+        "higashidoori-maternity-access-support-2026",
+        "higashidoori-settlement-residential-land-subsidy-2026"
+      ],
+      "held": [
+        "出産・子育て応援給付金は新制度ページに置換済みの旧制度として低優先に残した。",
+        "令和8年度コミュニティ助成事業は申請窓口ページだが、本文上の個別補助上限・対象経費が外部要綱依存のため第2巡候補に残した。",
+        "未熟児養育医療給付は所得連動自己負担と個別上限整理が必要なため保留した。"
+      ]
+    },
+    {
+      "code": "02425",
+      "name": "風間浦村",
+      "officialBaseUrl": "https://www.kazamaura.jp/",
+      "adopted": [
+        "kazamaura-food-waste-processor-subsidy-2026"
+      ],
+      "held": [
+        "カテゴリページ、手続・証明、健康福祉ナビゲーションは個別給付ページではないため低優先に残した。"
+      ]
+    },
+    {
+      "code": "02426",
+      "name": "佐井村",
+      "officialBaseUrl": "https://www.vill.sai.lg.jp/",
+      "adopted": [
+        "sai-migration-support-grant-2026",
+        "sai-local-life-support-voucher-2026",
+        "sai-decarbonization-renewable-energy-subsidy-2026",
+        "sai-decarbonization-energy-efficiency-subsidy-2026",
+        "sai-electric-vehicle-subsidy-2026"
+      ],
+      "held": [
+        "交通事故見舞金は青森交通災害共済制度の案内で村独自補助ではないため採用せず低優先に残した。",
+        "ふるさと佐井村応援基金は寄附制度の案内で補助金・給付金ではないため除外した。",
+        "奨学金貸与は貸付制度のため今回の補助金等データには採用しない。"
+      ]
+    },
+    {
+      "code": "02441",
+      "name": "三戸町",
+      "officialBaseUrl": "https://www.town.sannohe.aomori.jp/",
+      "adopted": [
+        "sannohe-town-liveliness-event-subsidy-2026",
+        "sannohe-child-growth-support-grant-2026",
+        "sannohe-residential-solar-battery-subsidy-2026",
+        "sannohe-lesson-support-subsidy-2026",
+        "sannohe-child-medical-expense-subsidy-2026",
+        "sannohe-single-parent-medical-expense-subsidy-2026",
+        "sannohe-maternity-access-support-2026"
+      ],
+      "held": [
+        "先端設備等導入計画は認定・税制特例案内で、補助金・助成金等の個別支給ページではないため低優先に残した。",
+        "児童手当・児童扶養手当等は全国制度案内として低優先に残した。"
+      ]
+    }
+  ],
+  "candidateSummary": {
+    "candidateCount": 430,
+    "snippetSelected": 260,
+    "snippetKept": 179,
+    "byMunicipality": {
+      "東通村": 44,
+      "風間浦村": 23,
+      "佐井村": 93,
+      "三戸町": 19
+    }
+  },
+  "adoptedCount": 17,
+  "heldCount": 9,
+  "sourceUrlsChecked": 23,
+  "notes": "三戸町の太陽光補助、妊産婦アクセス支援、東通村学生給付は公式PDF本文を抽出して金額・対象・期限を確認した。佐井村脱炭素先行地域づくり事業補助金は公式ページ上でメニュー別に補助率・上限が分かれるため、制度単位で3件に分割した。"
+}

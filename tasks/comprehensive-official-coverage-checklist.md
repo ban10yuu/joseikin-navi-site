@@ -3140,6 +3140,34 @@
   - 次:
     - 02424東通村、02425風間浦村、02426佐井村、02441三戸町を自治体コード順で確認する。
 
+- 2026-07-12 青森県公式棚卸し010（東通村・風間浦村・佐井村・三戸町データ反映）:
+  - 状態: 4自治体を公式サイト単位で確認。候補430件（東通村167、風間浦村118、佐井村106、三戸町39）となったため、短い本文スニペット260件へ再スコアリングし、179件を保持した。公式本文又は公式PDFで制度名・対象・金額/上限・条件・期限/受付状況を確認できた17件を `src/data/grants/verified-local-misc-2026.ts` に追加した。
+  - 追加・更新ファイル:
+    - `src/data/grants/verified-local-misc-2026.ts`
+    - `tasks/discovery/aomori-official-coverage-010-municipalities.json`
+    - `tasks/discovery/aomori-official-coverage-010-candidates.json`
+    - `tasks/discovery/aomori-official-coverage-010-snippets.json`
+    - `tasks/discovery/aomori-official-coverage-010.json`
+    - `tasks/official-coverage-checkpoint.json`
+  - 採用:
+    - 東通村: 妊婦のための支援給付金、ミライエールひがしどおり学生応援一時給付金、妊産婦に対する交通費等の助成、定住促進住宅用地補助金。
+    - 風間浦村: 生ごみ減量化家電購入促進事業補助金。
+    - 佐井村: 移住支援金、地域生活応援臨時支援券、太陽光発電等再エネ設備導入事業補助金、地域脱炭素移行・再エネ推進事業補助金、電気自動車等導入普及促進事業補助金。
+    - 三戸町: 町のにぎわいづくり事業費補助金、三戸っ子はぐくみ応援金、住宅用自家消費型太陽光発電設備等導入支援事業費補助金、習い事応援補助金、子ども医療費助成事業、ひとり親家庭等医療費助成事業、妊婦健診や出産の際の交通費及び宿泊費の助成。
+  - 保留継続:
+    - 東通村の旧出産・子育て応援給付金は新制度ページへ置換済みのため低優先に残す。コミュニティ助成事業は個別補助上限・対象経費が外部要綱依存のため第2巡候補に残す。未熟児養育医療給付は所得連動自己負担と個別上限整理が必要なため保留。
+    - 風間浦村のカテゴリページ、手続・証明、健康福祉ナビゲーションは個別給付ページではないため低優先に残す。
+    - 佐井村交通事故見舞金は青森交通災害共済制度の案内、ふるさと佐井村応援基金は寄附制度、奨学金は貸付制度のため採用しない。
+    - 三戸町先端設備等導入計画は認定・税制特例案内、児童手当・児童扶養手当等は全国制度案内として低優先に残す。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: 今回追加slugの重複0。
+    - `node scripts/check-grant-source-urls.mjs --slug <17 slugs> --timeout-ms 60000 --concurrency 4`: checked 23、failures 0。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7612、officialLinkedActive 7574、manuallyVerifiedActive 7574、青森県 localOfficial 222）
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-official-coverage-010-municipalities.json tasks/discovery/aomori-official-coverage-010-candidates.json tasks/discovery/aomori-official-coverage-010-snippets.json tasks/discovery/aomori-official-coverage-010.json`: pass。
+  - 次:
+    - 02442五戸町、02443田子町、02445南部町、02446階上町を自治体コード順で確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
