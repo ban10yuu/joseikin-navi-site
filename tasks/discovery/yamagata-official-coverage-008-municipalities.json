@@ -1,0 +1,26 @@
+{
+  "batchId": "yamagata-comprehensive-official-coverage-008",
+  "prefecture": "山形県",
+  "municipalities": [
+    {
+      "code": "06381",
+      "name": "高畠町",
+      "officialBaseUrl": "https://www.town.takahata.yamagata.jp/"
+    },
+    {
+      "code": "06382",
+      "name": "川西町",
+      "officialBaseUrl": "https://www.town.kawanishi.yamagata.jp/"
+    },
+    {
+      "code": "06401",
+      "name": "小国町",
+      "officialBaseUrl": "https://www.town.oguni.yamagata.jp/"
+    },
+    {
+      "code": "06402",
+      "name": "白鷹町",
+      "officialBaseUrl": "https://www.town.shirataka.lg.jp/"
+    }
+  ]
+}

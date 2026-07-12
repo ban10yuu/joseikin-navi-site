@@ -1,0 +1,31 @@
+{
+  "batchId": "yamagata-comprehensive-official-coverage-008",
+  "prefecture": "山形県",
+  "completedAt": "2026-07-13T07:10:00+09:00",
+  "municipalities": [
+    { "code": "06381", "name": "高畠町", "adopted": 9 },
+    { "code": "06382", "name": "川西町", "adopted": 6 },
+    { "code": "06401", "name": "小国町", "adopted": 6 },
+    { "code": "06402", "name": "白鷹町", "adopted": 10 }
+  ],
+  "candidateCount": 1398,
+  "snippetCount": 610,
+  "adoptedCount": 31,
+  "heldForSecondPass": 17,
+  "sourceUrlsChecked": 31,
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: added 31 slugs, duplicate count 0",
+    "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 31 slugs / 31 source URLs, failures 0, all HTTP 200",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8571, officialLinkedActive 8533, manuallyVerifiedActive 8533, Yamagata localOfficial 298, Yamagata coveredCategories 8"
+  },
+  "next": {
+    "batchId": "yamagata-comprehensive-official-coverage-009",
+    "municipalities": [
+      { "code": "06403", "name": "飯豊町" },
+      { "code": "06426", "name": "三川町" },
+      { "code": "06428", "name": "庄内町" },
+      { "code": "06461", "name": "遊佐町" }
+    ]
+  }
+}

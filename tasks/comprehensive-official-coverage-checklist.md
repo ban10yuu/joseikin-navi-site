@@ -4412,6 +4412,32 @@
   - 次:
     - 山形県公式棚卸し008として、06381高畠町、06382川西町、06401小国町、06402白鷹町を確認する。
 
+- 山形県公式棚卸し008（高畠町・川西町・小国町・白鷹町）
+  - 対象: 06381高畠町、06382川西町、06401小国町、06402白鷹町。
+  - 方法:
+    - `tasks/discovery/yamagata-official-coverage-008-municipalities.json` を作成し、4自治体の公式トップ到達を確認した。
+    - 公式候補1398件を生成し、候補数が150件を超えたため `tasks/discovery/yamagata-official-coverage-008-snippets.json` に本文スニペット610件を抽出した。
+    - 白鷹町はHTMLタイトルが町名だけのページが多いため、公式カテゴリ本文のリンク名から制度個別ページを補完した。
+    - 制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別ページ31件を採用し、カテゴリ、国県制度重複、過年度制度、PDF要綱未精査又は現行性確認不足候補は第2巡へ残した。
+  - 追加:
+    - 高畠町: 新事業活動推進サポート事業、創業者支援事業、再生可能エネルギー設備導入事業費補助金、省エネ家電普及支援事業費補助金、単身高齢者等世帯除雪支援金、集団資源回収奨励金、人工透析患者通院交通費助成、障がい者タクシー助成券、紙おむつ券給付事業。
+    - 川西町: 移住支援金、資格等取得支援補助金、創業スタートアップ支援事業補助金、創業支援利子補給補助金、骨髄移植ドナー助成金、医療用ウイッグ・乳房補整具購入費用助成。
+    - 小国町: 木材製品利用住宅建築奨励助成金、浄化槽補助金交付制度、マッチングアプリ等費用補助、出産支援事業、住宅の耐震に関する補助制度、就学援助。
+    - 白鷹町: 後付け安全運転支援装置設置促進事業費補助金、再生可能エネルギー推進事業費補助金、猫の不妊・去勢手術費補助、正社員化促進事業奨励金、賃金引上げ支援金、結婚新生活支援（新婚応援ポイント）、不育・不妊治療費助成事業、妊娠確定までの産婦人科受診料支援事業、妊婦のための支援給付金、病児保育等利用料軽減補助金。
+  - 保留継続:
+    - 高畠町の結婚新生活支援事業、奨学金返還支援、就農支援制度、暮らしに関する支援制度、高畠高校支援は次年度現行性・県連携重複・個別制度切り分けを第2巡で確認する。
+    - 川西町の児童三手当、障がい福祉の手当・給付、地域の担い手新規就農、コミュニティ助成、福祉タクシー、無料検診は国県制度重複又は町独自金額を第2巡で確認する。
+    - 小国町の排水設備等改造資金あっせん制度、奨学資金・修学資金貸与、妊婦健康診査費用補助、児童手当、事業者・農業カテゴリ一覧は第2巡で精査する。
+    - 白鷹町の自動車運転免許取得費等助成、リスキリング支援、6次産業化チャレンジ支援、医療費助成事業、未熟児養育医療事業、結婚新生活支援本体はPDF金額・重複・期限を第2巡で確認する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 31件、重複0。
+    - 追加した31制度31公式URLはすべて HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 8571、officialLinkedActive 8533、manuallyVerifiedActive 8533、山形県 `localOfficial` 298、山形県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-coverage-008-municipalities.json tasks/discovery/yamagata-official-coverage-008-candidates.json tasks/discovery/yamagata-official-coverage-008-snippets.json tasks/discovery/yamagata-official-coverage-008-details.json tasks/discovery/yamagata-official-coverage-008.json`: pass。
+  - 次:
+    - 山形県公式棚卸し009として、06403飯豊町、06426三川町、06428庄内町、06461遊佐町を確認する。
+
 - 宮城県公式棚卸し009（美里町・女川町・南三陸町）
   - 対象: 04505美里町、04581女川町、04606南三陸町。
   - 方法:
