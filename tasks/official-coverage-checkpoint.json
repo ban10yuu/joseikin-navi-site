@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T02:20:00+09:00",
+  "updatedAt": "2026-07-13T02:00:07+09:00",
   "mode": "akita-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "akita-comprehensive-official-coverage-003",
-    "municipality": "由利本荘市・潟上市・大仙市・北秋田市",
-    "adopted": 13,
+    "code": "akita-comprehensive-official-coverage-004",
+    "municipality": "にかほ市・仙北市・小坂町・上小阿仁村",
+    "adopted": 12,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 13,
+    "sourceUrlsChecked": 12,
     "validation": {
-      "previousMunicipality": "秋田県002完了済み。秋田県003として、由利本荘市・潟上市・大仙市・北秋田市の公式候補201件を生成し、shortlistが150件超のためローカル再スコアリング台帳を作成。13制度を追加し、大仙市の既存公式補正済み制度22件は重複追加しなかった。カテゴリ・サイトマップ・共通ナビ一致および個別未展開候補は第2巡台帳へ残した。",
+      "previousMunicipality": "秋田県003完了済み。秋田県004として、にかほ市・仙北市・小坂町・上小阿仁村の公式候補131件を生成し、12制度を追加した。カテゴリ・一覧・制度群ページおよび受付終了候補は第2巡台帳へ残した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: added Akita 003 slugs 13, duplicate count 0",
-      "urlReachability": "pass: added Akita 003 official URLs 13/13 HTTP 200",
-      "diffCheck": "pass: git diff --check for Akita 003 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8148, officialLinkedActive 8110, manuallyVerifiedActive 8110, Akita localOfficial 117"
+      "addedSlugUniqueness": "pass: added Akita 004 slugs 12, duplicate count 0",
+      "urlReachability": "pass: added Akita 004 official URLs 12 entries, 10 unique URLs all HTTP 200",
+      "diffCheck": "pass: git diff --check for Akita 004 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8160, officialLinkedActive 8122, manuallyVerifiedActive 8122, Akita localOfficial 129"
     }
   },
   "next": {
-    "code": "akita-comprehensive-official-coverage-004",
-    "municipality": "にかほ市・仙北市・小坂町・上小阿仁村",
-    "shortlist": "05214にかほ市、05215仙北市、05303小坂町、05327上小阿仁村を自治体コード順に公式サイト内検索・カテゴリ・PDF・更新情報で確認する。",
-    "instructions": "秋田県003は13制度を追加し、由利本荘市・潟上市・大仙市・北秋田市の公式候補201件を確認済み。大仙市は既存公式制度との重複を避けた。全国公式棚卸しは未完了のため、次は秋田県004から再開する。既存raw gap 0を全国完了扱いせず、公式ページ単位で制度名・対象・金額/上限・条件・期限/受付状況・要約を確認する。"
+    "code": "akita-comprehensive-official-coverage-005",
+    "municipality": "藤里町・三種町・八峰町・五城目町",
+    "shortlist": "05346藤里町、05348三種町、05349八峰町、05361五城目町を自治体コード順に公式サイト内検索・カテゴリ・PDF・更新情報で確認する。",
+    "instructions": "秋田県004は12制度を追加し、にかほ市・仙北市・小坂町・上小阿仁村の公式候補131件を確認済み。一覧・カテゴリ・制度群ページと受付終了候補は第2巡台帳へ残した。全国公式棚卸しは未完了のため、次は秋田県005から再開する。既存raw gap 0を全国完了扱いせず、公式ページ単位で制度名・対象・金額/上限・条件・期限/受付状況・要約を確認する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

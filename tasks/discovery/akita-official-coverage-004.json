@@ -1,0 +1,137 @@
+{
+  "batchId": "akita-comprehensive-official-coverage-004",
+  "prefecture": "秋田県",
+  "checkedAt": "2026-07-13T01:45:00+09:00",
+  "candidateFile": "tasks/discovery/akita-official-coverage-004-candidates.json",
+  "candidateCount": 131,
+  "municipalities": [
+    {
+      "code": "05214",
+      "name": "にかほ市",
+      "officialBaseUrl": "https://www.city.nikaho.akita.jp/",
+      "candidateCount": 7,
+      "adopted": [
+        {
+          "slug": "nikaho-childrens-playground-subsidy-2026",
+          "title": "児童遊園地等に関する補助金",
+          "officialUrl": "https://www.city.nikaho.akita.jp/gyosei/kosodate_kyoiku/6278.html",
+          "evidence": "自治会・町内会等、児童遊園地整備、令和8年度実施分から契約額2分の1以内、地区要望で事前協議を確認。"
+        }
+      ],
+      "heldForSecondPass": [
+        "物価高対応子育て応援手当は2026年4月30日で受付終了のため第2巡で終了制度として扱うか確認する。",
+        "子育てろーどまっぷ、子育てガイドブック、児童手当、障がい者手当カテゴリは一覧・制度案内中心のため個別ページ単位で再確認する。"
+      ]
+    },
+    {
+      "code": "05215",
+      "name": "仙北市",
+      "officialBaseUrl": "https://www.city.semboku.akita.jp/",
+      "candidateCount": 52,
+      "adopted": [
+        {
+          "slug": "semboku-local-job-hunting-transport-support-2026",
+          "title": "地方就職支援金",
+          "officialUrl": "https://www.city.semboku.akita.jp/egukite/tihosyusyoku_shienkin.html",
+          "evidence": "東京圏大学生、秋田県内企業内定、仙北市移住意思、採用面接交通費2分の1・上限17,220円、卒業年度末日まで申請を確認。"
+        },
+        {
+          "slug": "semboku-employment-migration-support-2026",
+          "title": "就業者等移住支援金",
+          "officialUrl": "https://www.city.semboku.akita.jp/egukite/teijyu_ijuushienkin.html",
+          "evidence": "東京圏からの移住、就業・テレワーク・起業等、単身60万円、世帯100万円、18歳未満1人100万円加算、転入後1年以内申請を確認。"
+        },
+        {
+          "slug": "semboku-sme-loan-program-2026",
+          "title": "中小企業融資制度",
+          "officialUrl": "https://www.city.semboku.akita.jp/citizens/13_05.html",
+          "evidence": "市内中小企業者等、振興資金上限2,000万円、小口資金上限1,250万円、創業資金上限1,000万円、保証料補給や利子補給を確認。"
+        }
+      ],
+      "heldForSecondPass": [
+        "移住応援助成金、定住促進奨励金、若者マイホーム取得助成、あきた結婚支援センター入会補助、結婚新生活支援補助は個別ページ本文の金額・期限を第2巡で再確認する。",
+        "妊婦健康診査受診票、母子保健、住宅・子育てカテゴリは制度群・サービス案内を個別制度へ分解できるか再確認する。"
+      ]
+    },
+    {
+      "code": "05303",
+      "name": "小坂町",
+      "officialBaseUrl": "https://www.town.kosaka.akita.jp/",
+      "candidateCount": 5,
+      "adopted": [
+        {
+          "slug": "kosaka-medical-wig-breast-prosthesis-subsidy-2026",
+          "title": "がん患者医療用補正具購入費助成事業",
+          "officialUrl": "https://www.town.kosaka.akita.jp/kurashi_gyosei/chosei_machizukuri/kakushushinsei_joseijigyo/962.html",
+          "evidence": "町内居住のがん患者、医療用ウィッグ1個5万円まで・3年以内2個まで、乳房補正具左右各1個・1個2万円まで、翌年度末申請を確認。"
+        },
+        {
+          "slug": "kosaka-qualification-acquisition-subsidy-2026",
+          "title": "資格取得支援事業補助金",
+          "officialUrl": "https://www.town.kosaka.akita.jp/kurashi_gyosei/chosei_machizukuri/kakushushinsei_joseijigyo/1316.html",
+          "evidence": "事業者・求職者・委嘱業務従事者・学生等、資格取得費用2分の1以内・上限10万円、令和8年度から資格取得後3カ月以内申請を確認。"
+        },
+        {
+          "slug": "kosaka-newlywed-new-life-support-2026",
+          "title": "結婚新生活支援事業",
+          "officialUrl": "https://www.town.kosaka.akita.jp/iju_teiju/kosodate_kekkon/2089.html",
+          "evidence": "令和8年度、2026年3月1日から2027年3月31日婚姻、住宅取得・賃借・引越し費用、29歳以下上限60万円、39歳以下上限30万円を確認。"
+        }
+      ],
+      "heldForSecondPass": [
+        "建設班補助事業内の住宅リフォーム支援事業、私道整備費補助金は一覧ページのみのため第2巡で詳細ページまたはPDFを確認する。",
+        "心身障害者扶養共済制度、自立支援医療費給付、病児保育は国・県制度やサービス案内との重複を第2巡で判定する。"
+      ]
+    },
+    {
+      "code": "05327",
+      "name": "上小阿仁村",
+      "officialBaseUrl": "https://www.vill.kamikoani.akita.jp/",
+      "candidateCount": 67,
+      "adopted": [
+        {
+          "slug": "kamikoani-newlywed-new-life-support-2026",
+          "title": "結婚新生活支援事業",
+          "officialUrl": "https://www.vill.kamikoani.akita.jp/info/424",
+          "evidence": "村内住所、住居費・引越費用・リフォーム費用等、1世帯上限60万円、必要書類を確認。"
+        },
+        {
+          "slug": "kamikoani-marriage-support-center-registration-subsidy-2026",
+          "title": "あきた結婚支援センター登録料補助",
+          "officialUrl": "https://www.vill.kamikoani.akita.jp/info/424",
+          "evidence": "村民の登録料1万円、2年間有効、村が全額負担、村への手続き不要を確認。"
+        },
+        {
+          "slug": "kamikoani-successor-marriage-congratulatory-grant-2026",
+          "title": "後継者結婚祝金",
+          "officialUrl": "https://www.vill.kamikoani.akita.jp/info/424",
+          "evidence": "村に住所を有し今後も住み続ける見込みのある方、20万円、国際結婚等の事情で最大30万円を確認。"
+        },
+        {
+          "slug": "kamikoani-new-house-construction-subsidy-2026",
+          "title": "新築住宅等補助金",
+          "officialUrl": "https://www.vill.kamikoani.akita.jp/info/756",
+          "evidence": "村内土地への新築住宅、村内業者施工は自己負担2分の1・上限200万円、村外業者施工は上限50万円、不動産取得税支援を確認。"
+        },
+        {
+          "slug": "kamikoani-housing-reform-subsidy-2026",
+          "title": "住宅リフォーム事業",
+          "officialUrl": "https://www.vill.kamikoani.akita.jp/info/217",
+          "evidence": "村内業者施工50万円以上、一般10%上限20万円、子育て世帯20%上限30万円または50万円、空き家30%上限60万円を確認。"
+        }
+      ],
+      "heldForSecondPass": [
+        "移住定住支援ページ内の移住定住奨励金、出産祝金、チャイルドシート購入補助、医療費助成、保育料無償化等は一覧ページから個別根拠へ分解して第2巡で確認する。",
+        "手当・助成・給付カテゴリ、障害・高齢者・福祉カテゴリは制度群や国制度との重複を第2巡で判定する。"
+      ]
+    }
+  ],
+  "summary": {
+    "adopted": 12,
+    "existingConfirmed": 0,
+    "heldForSecondPass": 8,
+    "sourceUrlsChecked": 12,
+    "shortlistAdoptionRate": 0.0916,
+    "notes": "公式本文で制度名・対象・金額または上限・条件・期限または受付状況を確認できる個別ページを採用し、一覧・カテゴリ・制度群ページは第2巡台帳へ残した。"
+  }
+}

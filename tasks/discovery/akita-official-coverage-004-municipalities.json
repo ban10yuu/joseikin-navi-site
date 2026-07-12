@@ -1,0 +1,26 @@
+{
+  "batchId": "akita-comprehensive-official-coverage-004",
+  "prefecture": "秋田県",
+  "municipalities": [
+    {
+      "code": "05214",
+      "name": "にかほ市",
+      "officialBaseUrl": "https://www.city.nikaho.akita.jp/"
+    },
+    {
+      "code": "05215",
+      "name": "仙北市",
+      "officialBaseUrl": "https://www.city.semboku.akita.jp/"
+    },
+    {
+      "code": "05303",
+      "name": "小坂町",
+      "officialBaseUrl": "https://www.town.kosaka.akita.jp/"
+    },
+    {
+      "code": "05327",
+      "name": "上小阿仁村",
+      "officialBaseUrl": "https://www.vill.kamikoani.akita.jp/"
+    }
+  ]
+}
