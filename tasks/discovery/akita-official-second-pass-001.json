@@ -1,0 +1,135 @@
+{
+  "batchId": "akita-comprehensive-official-second-pass-001",
+  "prefecture": "秋田県",
+  "status": "completed",
+  "completedAt": "2026-07-13T03:35:00+09:00",
+  "sourceFirstPassFile": "tasks/discovery/akita-official-coverage-001.json",
+  "targets": [
+    {
+      "code": "05000",
+      "name": "秋田県庁",
+      "officialBaseUrl": "https://www.pref.akita.lg.jp/",
+      "sourceUrlsChecked": [
+        "https://www.pref.akita.lg.jp/pages/archive/91782",
+        "https://www.pref.akita.lg.jp/pages/archive/94185",
+        "https://www.pref.akita.lg.jp/pages/archive/71337",
+        "https://www.pref.akita.lg.jp/pages/archive/71336",
+        "https://www.pref.akita.lg.jp/pages/archive/10087",
+        "https://www.pref.akita.lg.jp/pages/archive/64856",
+        "https://www.pref.akita.lg.jp/pages/archive/88411",
+        "https://www.pref.akita.lg.jp/pages/archive/88412",
+        "https://www.pref.akita.lg.jp/pages/archive/94135"
+      ],
+      "adopted": [
+        "akita-pref-wage-increase-emergency-support-2026",
+        "akita-pref-sme-digitalization-introduction-subsidy-2026",
+        "akita-pref-sidejob-talent-utilization-subsidy-2026",
+        "akita-pref-professional-talent-utilization-subsidy-2026",
+        "akita-pref-information-industry-location-subsidy-2026"
+      ],
+      "held": [
+        {
+          "title": "商業・サービス産業経営革新事業費補助金",
+          "url": "https://www.pref.akita.lg.jp/pages/archive/64856",
+          "reason": "公式本文は対象・上限500万円を確認できるが、募集期間が令和6年4月22日から令和6年5月31日で過年度終了のため現行制度として採用しない。"
+        },
+        {
+          "title": "起業支援事業費補助金（若者起業家応援枠）",
+          "url": "https://www.pref.akita.lg.jp/pages/archive/88411",
+          "reason": "令和8年度ページで対象・上限は確認できるが、募集期間は令和8年6月12日までで、公式本文に募集終了とあるため通常表示対象から外す。"
+        },
+        {
+          "title": "起業支援事業費補助金（地域課題解決枠）",
+          "url": "https://www.pref.akita.lg.jp/pages/archive/88412",
+          "reason": "令和8年度ページで対象・上限は確認できるが、募集期間は令和8年6月12日までで、公式本文に募集終了とあるため通常表示対象から外す。"
+        },
+        {
+          "title": "商業・サービス産業省エネ化等推進事業費補助金",
+          "url": "https://www.pref.akita.lg.jp/pages/archive/94135",
+          "reason": "令和8年度ページで対象・上限は確認できるが、令和8年4月30日で募集受付終了と確認したため、期限切れアーカイブ扱いの要否を後続で判断する。"
+        }
+      ]
+    },
+    {
+      "code": "05201",
+      "name": "秋田市",
+      "officialBaseUrl": "https://www.city.akita.lg.jp/",
+      "adopted": [],
+      "held": [
+        "第1巡で住宅リフォーム、移住、保育料・副食費、就学援助、上下水道等の主要公式補正済み制度21件を確認済み。第2巡001では新規未掲載の強い個別制度候補を確認できず、カテゴリ・一覧・手続導線は後続台帳へ残す。"
+      ]
+    },
+    {
+      "code": "05202",
+      "name": "能代市",
+      "officialBaseUrl": "https://www.city.noshiro.lg.jp/",
+      "sourceUrlsChecked": [
+        "https://www.city.noshiro.lg.jp/res/shogakukin/info/25889",
+        "https://www.city.noshiro.lg.jp/sangyo/shogyo/hojo/24176",
+        "https://www.city.noshiro.lg.jp/sangyo/shogyo/hojo/12461",
+        "https://www.city.noshiro.lg.jp/sangyo/shogyo/hojo/25535",
+        "https://www.city.noshiro.lg.jp/sangyo/shogyo/hojo/25544",
+        "https://www.city.noshiro.lg.jp/sangyo/shogyo/hojo/11217",
+        "https://www.city.noshiro.lg.jp/sangyo/shogyo/hojo/21434",
+        "https://www.city.noshiro.lg.jp/sangyo/shogyo/hojo/24433",
+        "https://www.city.noshiro.lg.jp/sangyo/shogyo/jisedai-energy/20910",
+        "https://www.city.noshiro.lg.jp/kurashi/suido/jokaso/815",
+        "https://www.city.noshiro.lg.jp/kurashi/suido/kan-i/7520",
+        "https://www.city.noshiro.lg.jp/kurashi/zaitaku/kenchiku-jutaku/4940",
+        "https://www.city.noshiro.lg.jp/kurashi/zaitaku/kenchiku-jutaku/9571"
+      ],
+      "adopted": [
+        "noshiro-scholarship-repayment-subsidy-2026",
+        "noshiro-empty-store-renovation-support-2026",
+        "noshiro-local-company-human-resource-development-subsidy-2026",
+        "noshiro-foreign-talent-acceptance-subsidy-2026",
+        "noshiro-foreign-talent-japanese-test-subsidy-2026",
+        "noshiro-commerce-carbon-neutral-subsidy-2026",
+        "noshiro-ict-technology-introduction-subsidy-2026",
+        "noshiro-metropolitan-talent-recruitment-subsidy-2026",
+        "noshiro-wind-power-human-resource-development-subsidy-2026",
+        "noshiro-septic-tank-conversion-loan-interest-subsidy-2026",
+        "noshiro-small-water-facility-subsidy-2026"
+      ],
+      "held": [
+        {
+          "title": "木造住宅耐震診断・耐震改修・建替え・除却費用補助",
+          "url": "https://www.city.noshiro.lg.jp/kurashi/zaitaku/kenchiku-jutaku/4940",
+          "reason": "令和8年度受付開始と、耐震診断・除却は募集戸数到達により受付終了を確認。区分別の上限額は内部ページ・要綱側確認が必要なため、今回は採用せず第2巡後続で分割確認する。"
+        },
+        {
+          "title": "住宅リフォーム支援事業",
+          "url": "https://www.city.noshiro.lg.jp/kurashi/zaitaku/kenchiku-jutaku/9571",
+          "reason": "第1巡で noshiro-housing-reform-support-2026 として公式確認済みのため重複追加しない。"
+        }
+      ]
+    },
+    {
+      "code": "05203",
+      "name": "横手市",
+      "officialBaseUrl": "https://www.city.yokote.lg.jp/",
+      "adopted": [],
+      "held": [
+        "第1巡で住宅、医療、就学援助、移住、除雪、浄化槽等の横手市独自制度29件を既存公式補正済みとして確認済み。第2巡001では新規追加せず、カテゴリ・更新情報・施設案内等は後続台帳へ残す。"
+      ]
+    }
+  ],
+  "summary": {
+    "adoptedCount": 16,
+    "heldCount": 8,
+    "sourceUrlsChecked": 24,
+    "notes": "第1巡001の保留候補から、公式個別ページ本文で制度名・対象・金額/上限・条件・期限/受付状況が揃う秋田県庁5件、能代市11件を採用した。秋田市・横手市は既存公式補正済み制度との重複が中心のため新規追加なし。",
+    "validation": {
+      "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+      "addedSlugUniqueness": "pass: added Akita second-pass 001 slugs 16, duplicate count 0",
+      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 16 slugs, failures 0, all HTTP 200",
+      "diffCheck": "pass: git diff --check for Akita second-pass 001 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8266, officialLinkedActive 8228, manuallyVerifiedActive 8228, Akita localOfficial 235"
+    }
+  },
+  "next": {
+    "code": "akita-comprehensive-official-second-pass-002",
+    "municipality": "大館市・男鹿市・湯沢市・鹿角市",
+    "instructions": "秋田県第2巡002として、第1巡002の保留候補を自治体コード順に確認する。大館市の住宅・創業・奨学金・空き家・子育て医療費、男鹿市の移住定住ポータル内個別支援、湯沢市の子育て・商工業・雇用・移住・住宅、鹿角市の子育て・産業配下の個別給付・補助を、公式個別ページ/PDFで必須項目が揃うものだけ追加する。"
+  }
+}
