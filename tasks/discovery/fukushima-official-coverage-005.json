@@ -1,0 +1,55 @@
+{
+  "batchId": "fukushima-comprehensive-official-coverage-005",
+  "prefecture": "福島県",
+  "municipalities": [
+    { "code": "07322", "name": "大玉村", "officialBaseUrl": "https://www.vill.otama.fukushima.jp/" },
+    { "code": "07342", "name": "鏡石町", "officialBaseUrl": "https://www.town.kagamiishi.fukushima.jp/" },
+    { "code": "07344", "name": "天栄村", "officialBaseUrl": "https://www.vill.tenei.fukushima.jp/" },
+    { "code": "07362", "name": "下郷町", "officialBaseUrl": "https://www.town.shimogo.fukushima.jp/" }
+  ],
+  "officialTopUrlReachability": {
+    "大玉村": { "url": "https://www.vill.otama.fukushima.jp/", "status": 200 },
+    "鏡石町": { "url": "https://www.town.kagamiishi.fukushima.jp/", "status": 200 },
+    "天栄村": { "url": "https://www.vill.tenei.fukushima.jp/", "status": 200 },
+    "下郷町": { "url": "https://www.town.shimogo.fukushima.jp/", "status": 200 }
+  },
+  "discovery": {
+    "candidateCount": 1044,
+    "candidateFile": "tasks/discovery/fukushima-official-coverage-005-candidates.json",
+    "snippetCount": 152,
+    "snippetFile": "tasks/discovery/fukushima-official-coverage-005-snippets.json",
+    "detailsChecked": 26,
+    "detailsFile": "tasks/discovery/fukushima-official-coverage-005-details.json"
+  },
+  "adopted": [
+    { "municipality": "大玉村", "slug": "otama-security-camera-purchase-subsidy-2026", "title": "防犯カメラ購入補助", "officialUrl": "https://www.vill.otama.fukushima.jp/kurashi/kurashi23030703/" },
+    { "municipality": "鏡石町", "slug": "kagamiishi-postpartum-care-service-2026", "title": "産後ケア事業", "officialUrl": "https://www.town.kagamiishi.fukushima.jp/kurashi/kodomo/shussan/008730.html" },
+    { "municipality": "鏡石町", "slug": "kagamiishi-elderly-drivers-license-return-support-2026", "title": "高齢者運転免許証自主返納者支援事業", "officialUrl": "https://www.town.kagamiishi.fukushima.jp/kurashi/seikatu_bousai/bouhan/011457.html" },
+    { "municipality": "天栄村", "slug": "tenei-elderly-air-conditioner-purchase-subsidy-2026", "title": "高齢者エアコン購入事業補助金", "officialUrl": "https://www.vill.tenei.fukushima.jp/soshiki/38/tenei-eakon.html" },
+    { "municipality": "天栄村", "slug": "tenei-disaster-prevention-specialist-incentive-2026", "title": "防災士資格取得奨励金", "officialUrl": "https://www.vill.tenei.fukushima.jp/site/bousai/bousaisi.html" },
+    { "municipality": "天栄村", "slug": "tenei-zero-carbon-home-renovation-subsidy-2026", "title": "ゼロカーボン住宅推進リフォーム支援事業補助金", "officialUrl": "https://www.vill.tenei.fukushima.jp/soshiki/5/zerokabon07.html" },
+    { "municipality": "天栄村", "slug": "tenei-kitchen-waste-processor-subsidy-2026", "title": "生ごみ処理機等設置補助金", "officialUrl": "https://www.vill.tenei.fukushima.jp/soshiki/3/namagomshoriiyouki.html" },
+    { "municipality": "天栄村", "slug": "tenei-postpartum-care-service-2026", "title": "産後ケア事業", "officialUrl": "https://www.vill.tenei.fukushima.jp/soshiki/38/sangocare.html" },
+    { "municipality": "天栄村", "slug": "tenei-assisted-reproduction-transport-subsidy-2026", "title": "生殖補助医療交通費支援事業", "officialUrl": "https://www.vill.tenei.fukushima.jp/soshiki/38/seishokuhojo.html" },
+    { "municipality": "下郷町", "slug": "shimogo-child-medical-expense-subsidy-2026", "title": "子ども医療費助成制度", "officialUrl": "https://www.town.shimogo.fukushima.jp/life/hoken/1871.html" },
+    { "municipality": "下郷町", "slug": "shimogo-housing-acquisition-support-subsidy-2026", "title": "住宅取得支援事業補助制度", "officialUrl": "https://www.town.shimogo.fukushima.jp/life/sumai/1319.html" },
+    { "municipality": "下郷町", "slug": "shimogo-residential-solar-power-subsidy-2026", "title": "住宅用太陽光発電システム設置費補助金", "officialUrl": "https://www.town.shimogo.fukushima.jp/life/sumai/387.html" },
+    { "municipality": "下郷町", "slug": "shimogo-septic-tank-installation-subsidy-2026", "title": "合併処理浄化槽設置補助", "officialUrl": "https://www.town.shimogo.fukushima.jp/life/gomi/354.html" },
+    { "municipality": "下郷町", "slug": "shimogo-child-seat-purchase-subsidy-2026", "title": "チャイルドシート購入補助", "officialUrl": "https://www.town.shimogo.fukushima.jp/life/bousai/294.html" },
+    { "municipality": "下郷町", "slug": "shimogo-infertility-recurrent-pregnancy-loss-treatment-subsidy-2026", "title": "不妊治療・不育症治療費助成", "officialUrl": "https://www.town.shimogo.fukushima.jp/kenkou_fukushi/kenkou_iryou/1688.html" },
+    { "municipality": "下郷町", "slug": "shimogo-bone-marrow-donor-support-subsidy-2026", "title": "骨髄ドナー支援事業助成金", "officialUrl": "https://www.town.shimogo.fukushima.jp/kenkou_fukushi/kenkou_iryou/2048.html" },
+    { "municipality": "下郷町", "slug": "shimogo-school-entrance-gift-money-2026", "title": "入学祝金", "officialUrl": "https://www.town.shimogo.fukushima.jp/childcare/gakkou/851.html" },
+    { "municipality": "下郷町", "slug": "shimogo-school-commuting-cost-subsidy-2026", "title": "遠距離等児童・生徒通学費補助金", "officialUrl": "https://www.town.shimogo.fukushima.jp/childcare/gakkou/855.html" }
+  ],
+  "heldForSecondPass": [
+    "大玉村の妊婦支援給付、RSワクチン、妊産婦交通費、住宅取得支援、移住支援金、地方就職支援金、空き家改修等支援、中小企業支援は、カテゴリ・一覧ページまたは金額未確認のため第2巡で個別PDF・制度ページを確認する。",
+    "天栄村の新生活・住まいづくり応援助成金、若者定住住まい確保応援助成金、住宅用火災警報器設置補助金、住民応援商品券、高齢者タクシー利用助成、福島空港利用助成は、PDFまたは追加本文で金額・受付差分を第2巡確認する。",
+    "下郷町の教育振興事業補助金は、公式本文で補助対象経費は確認できたが上限・算定式が未確認のため第2巡で要綱PDFを確認する。"
+  ],
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: added 18 slugs, duplicateOrMissing 0",
+    "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --slug ... checked 18 slugs / 18 source URLs, failures 0, all HTTP 200",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8712, officialLinkedActive 8674, manuallyVerifiedActive 8674, Fukushima localOfficial 190, Fukushima coveredCategories 8"
+  }
+}

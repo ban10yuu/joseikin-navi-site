@@ -4563,6 +4563,30 @@
   - 次:
     - 福島県公式棚卸し005として、07322大玉村、07342鏡石町、07344天栄村、07362下郷町を確認する。
 
+- 福島県公式棚卸し005（大玉村・鏡石町・天栄村・下郷町）
+  - 対象: 07322大玉村、07342鏡石町、07344天栄村、07362下郷町。
+  - 方法:
+    - 4村町の公式トップURL到達を確認し、すべてHTTP 200を確認した。
+    - 公式候補1044件を生成した。候補数が150件を超えたため、title/h1/main/article/URLの制度強語、金額、対象条件、期限/受付表現を含む本文スニペット152件を抽出し、制度ページ候補26件を本文確認した。
+    - 制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別ページ18件を採用した。カテゴリ、一覧、PDF未精査、金額未確認候補は第2巡へ残した。
+  - 追加:
+    - 大玉村: 防犯カメラ購入補助。
+    - 鏡石町: 産後ケア事業、高齢者運転免許証自主返納者支援事業。
+    - 天栄村: 高齢者エアコン購入事業補助金、防災士資格取得奨励金、ゼロカーボン住宅推進リフォーム支援事業補助金、生ごみ処理機等設置補助金、産後ケア事業、生殖補助医療交通費支援事業。
+    - 下郷町: 子ども医療費助成制度、住宅取得支援事業補助制度、住宅用太陽光発電システム設置費補助金、合併処理浄化槽設置補助、チャイルドシート購入補助、不妊治療・不育症治療費助成、骨髄ドナー支援事業助成金、入学祝金、遠距離等児童・生徒通学費補助金。
+  - 保留継続:
+    - 大玉村の妊婦支援給付、RSワクチン、妊産婦交通費、住宅取得支援、移住支援金、地方就職支援金、空き家改修等支援、中小企業支援は、カテゴリ・一覧ページまたは金額未確認のため第2巡で個別PDF・制度ページを確認する。
+    - 天栄村の新生活・住まいづくり応援助成金、若者定住住まい確保応援助成金、住宅用火災警報器設置補助金、住民応援商品券、高齢者タクシー利用助成、福島空港利用助成は、PDFまたは追加本文で金額・受付差分を第2巡確認する。
+    - 下郷町の教育振興事業補助金は、公式本文で補助対象経費は確認できたが上限・算定式が未確認のため第2巡で要綱PDFを確認する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 18件、重複0。
+    - 追加した18制度18公式URLはすべて HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 8712、officialLinkedActive 8674、manuallyVerifiedActive 8674、福島県 `localOfficial` 190、福島県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-official-coverage-005-municipalities.json tasks/discovery/fukushima-official-coverage-005-candidates.json tasks/discovery/fukushima-official-coverage-005-snippets.json tasks/discovery/fukushima-official-coverage-005-details.json tasks/discovery/fukushima-official-coverage-005.json`: pass。
+  - 次:
+    - 福島県公式棚卸し006として、07364檜枝岐村、07367只見町、07368南会津町、07402北塩原村を確認する。
+
 - 宮城県公式棚卸し009（美里町・女川町・南三陸町）
   - 対象: 04505美里町、04581女川町、04606南三陸町。
   - 方法:
