@@ -1,0 +1,26 @@
+{
+  "batchId": "akita-comprehensive-official-coverage-005",
+  "prefecture": "秋田県",
+  "municipalities": [
+    {
+      "code": "05346",
+      "name": "藤里町",
+      "officialBaseUrl": "https://www.town.fujisato.akita.jp/"
+    },
+    {
+      "code": "05348",
+      "name": "三種町",
+      "officialBaseUrl": "https://www.town.mitane.akita.jp/"
+    },
+    {
+      "code": "05349",
+      "name": "八峰町",
+      "officialBaseUrl": "https://www.town.happo.lg.jp/"
+    },
+    {
+      "code": "05361",
+      "name": "五城目町",
+      "officialBaseUrl": "https://www.town.gojome.akita.jp/"
+    }
+  ]
+}
