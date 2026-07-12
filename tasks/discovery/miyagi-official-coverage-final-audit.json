@@ -1,0 +1,107 @@
+{
+  "code": "miyagi-comprehensive-official-coverage-final-audit",
+  "checkedAt": "2026-07-12T20:55:00+09:00",
+  "prefecture": "宮城県",
+  "scope": [
+    "宮城県庁",
+    "仙台市",
+    "石巻市",
+    "塩竈市",
+    "気仙沼市",
+    "白石市",
+    "名取市",
+    "角田市",
+    "多賀城市",
+    "岩沼市",
+    "登米市",
+    "栗原市",
+    "東松島市",
+    "大崎市",
+    "蔵王町",
+    "七ヶ宿町",
+    "大河原町",
+    "村田町",
+    "柴田町",
+    "川崎町",
+    "丸森町",
+    "亘理町",
+    "山元町",
+    "松島町",
+    "七ヶ浜町",
+    "利府町",
+    "大和町",
+    "大郷町",
+    "大衡村",
+    "色麻町",
+    "加美町",
+    "涌谷町",
+    "美里町",
+    "女川町",
+    "南三陸町"
+  ],
+  "coverageFiles": {
+    "firstPass": [
+      "tasks/discovery/miyagi-official-coverage-001.json",
+      "tasks/discovery/miyagi-official-coverage-002.json",
+      "tasks/discovery/miyagi-official-coverage-003.json",
+      "tasks/discovery/miyagi-official-coverage-004.json",
+      "tasks/discovery/miyagi-official-coverage-005.json",
+      "tasks/discovery/miyagi-official-coverage-006.json",
+      "tasks/discovery/miyagi-official-coverage-007.json",
+      "tasks/discovery/miyagi-official-coverage-008.json",
+      "tasks/discovery/miyagi-official-coverage-009.json"
+    ],
+    "secondPass": [
+      "tasks/discovery/miyagi-official-coverage-second-pass-001.json",
+      "tasks/discovery/miyagi-official-coverage-second-pass-002.json",
+      "tasks/discovery/miyagi-official-coverage-second-pass-003.json",
+      "tasks/discovery/miyagi-official-coverage-second-pass-004.json",
+      "tasks/discovery/miyagi-official-coverage-second-pass-005.json",
+      "tasks/discovery/miyagi-official-coverage-second-pass-006.json",
+      "tasks/discovery/miyagi-official-coverage-second-pass-007.json",
+      "tasks/discovery/miyagi-official-coverage-second-pass-008.json",
+      "tasks/discovery/miyagi-official-coverage-second-pass-009.json"
+    ]
+  },
+  "findings": {
+    "coverageFileCount": 18,
+    "remainingHeldInJson": 0,
+    "miyagiLocalOfficialByAudit": 355,
+    "miyagiLocalManuallyVerifiedByAudit": 355,
+    "coveredCategories": 8,
+    "miyagiSlugDuplicates": 0,
+    "auditFailures": 0
+  },
+  "auditCoverage": {
+    "command": "npm run audit:coverage",
+    "status": "pass",
+    "totals": {
+      "activePublished": 8111,
+      "officialLinkedActive": 8073,
+      "manuallyVerifiedActive": 8073,
+      "activeWithoutOfficialSource": 38,
+      "officialLinkedButNotManuallyVerified": 0,
+      "failures": 0
+    },
+    "miyagi": {
+      "localOfficial": 355,
+      "localManuallyVerified": 355,
+      "coveredCategories": 8,
+      "categoryCounts": {
+        "childcare": 169,
+        "housing": 91,
+        "medical": 120,
+        "education": 38,
+        "employment": 59,
+        "nursing": 37,
+        "living": 210,
+        "disaster": 42
+      }
+    }
+  },
+  "decision": {
+    "miyagiStatus": "宮城県の第1巡001-009、第2巡001-009、県庁・公的機関候補の採否記録を確認し、宮城県内の候補未判定は0件として県単位完了扱い。",
+    "nationwideStatus": "全国公式棚卸しは未完了。raw gap 0やHTTP 200のみを全国完了扱いしない。",
+    "next": "秋田県公式棚卸し001として、05000秋田県庁、05201秋田市、05202能代市、05203横手市から自治体コード順に再開する。"
+  }
+}
