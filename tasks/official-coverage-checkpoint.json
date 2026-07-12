@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T16:22:00+09:00",
+  "updatedAt": "2026-07-12T16:55:00+09:00",
   "mode": "miyagi-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "miyagi-comprehensive-official-coverage-second-pass-006",
-    "municipality": "丸森町・亘理町・山元町・松島町",
-    "adopted": 26,
+    "code": "miyagi-comprehensive-official-coverage-second-pass-007",
+    "municipality": "七ヶ浜町・利府町・大和町・大郷町",
+    "adopted": 25,
     "held": 0,
-    "excluded": 5,
-    "sourceUrlsChecked": 31,
+    "excluded": 6,
+    "sourceUrlsChecked": 30,
     "validation": {
-      "previousMunicipality": "宮城県公式棚卸し第2巡006として、04341丸森町、04361亘理町、04362山元町、04401松島町の第1巡保留候補を再確認。丸森町5件、亘理町12件、山元町7件、松島町2件を公式本文/要綱単位で採用し、カテゴリ/国制度案内/施設案内/金額不足候補は採否理由を記録して解消した。",
+      "previousMunicipality": "宮城県公式棚卸し第2巡007として、04404七ヶ浜町、04406利府町、04421大和町、04422大郷町の第1巡保留候補を再確認。七ヶ浜町4件、利府町7件、大和町7件、大郷町7件を公式本文/PDF/要綱単位で採用し、カテゴリ/施設案内/国制度案内中心候補は採否理由を記録して解消した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: 26 added slugs each appear once",
-      "urlReachability": "pass: 26制度31URL returned HTTP 200",
-      "diffCheck": "pass: git diff --check for Miyagi second-pass 006 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8045, officialLinkedActive 8007, manuallyVerifiedActive 8007, Miyagi localOfficial 289"
+      "addedSlugUniqueness": "pass: 25 added slugs each appear once",
+      "urlReachability": "pass: 25制度30URL returned HTTP 200",
+      "diffCheck": "pass: git diff --check for Miyagi second-pass 007 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8068, officialLinkedActive 8030, manuallyVerifiedActive 8030, Miyagi localOfficial 312"
     }
   },
   "next": {
-    "code": "miyagi-comprehensive-official-coverage-second-pass-007",
-    "municipality": "七ヶ浜町・利府町・大和町・大郷町",
-    "shortlist": "七ヶ浜町のスポーツ振興奨励金・子ども医療費・各種予防接種、利府町のスポーツ活動派遣・妊婦支援給付PDF・第3子以降学校給食費・母子父子医療・障害者医療・脳検診、大和町の出産育児一時金・児童扶養手当・障害福祉手当・妊婦健診・子育て支援住宅要綱、大郷町の児童手当・出産育児一時金・出産祝金・産婦健診・初回産科受診・子ども医療費・空き家家財道具等処分費用助成を第2巡で確認する。",
-    "instructions": "宮城県第2巡006は丸森町・亘理町・山元町・松島町の未判定候補を解消。次は第1巡007の保留候補を自治体コード順で確認し、公式本文/PDFで採否を確定する。"
+    "code": "miyagi-comprehensive-official-coverage-second-pass-008",
+    "municipality": "大衡村・色麻町・加美町・涌谷町",
+    "shortlist": "大衡村の医療用ウィッグ・万葉のびのび子育て・就学援助・母子父子医療、色麻町の就学援助・出産子育て応援給付金・児童手当・下水道資金貸付、加美町の心身障害者医療・難聴児補聴器・自動車改造・ファミリー住ま居る住宅取得、涌谷町の子育て世帯家計応援・十文字学園女子大学特待生・農林業者資金繰り支援を第2巡で確認する。",
+    "instructions": "宮城県第2巡007は七ヶ浜町・利府町・大和町・大郷町の未判定候補を解消。次は第1巡008の保留候補を自治体コード順で確認し、公式本文/PDFで採否を確定する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

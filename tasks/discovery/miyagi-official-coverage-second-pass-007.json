@@ -1,0 +1,221 @@
+{
+  "id": "miyagi-official-coverage-second-pass-007",
+  "prefecture": "宮城県",
+  "createdAt": "2026-07-12T16:45:00+09:00",
+  "sourceBatch": "miyagi-official-coverage-007",
+  "method": "第1巡007の保留候補を、公式本文・公式PDF・公式要綱ページ単位で再確認。利府町・大和町は第1巡候補の旧URL/カテゴリ偏りを、公式ドメイン限定検索と個別ページ取得で補正した。制度名・対象・金額/上限・条件・期限/受付状況が揃うもののみ採用し、総合カテゴリや施設案内は除外した。",
+  "municipalities": [
+    {
+      "code": "04404",
+      "name": "七ヶ浜町",
+      "adopted": [
+        {
+          "slug": "shichigahama-elementary-school-entrance-gift-2026",
+          "title": "小学校入学祝金",
+          "url": "https://www.shichigahama.com/benricho/oshirase/kodomo3-080-12061.html",
+          "basis": "第3子以降の小学校入学児1人3万円、令和8年5月7日から5月29日申請。"
+        },
+        {
+          "slug": "shichigahama-childcare-inflation-benefit-2026",
+          "title": "物価高対応子育て応援手当",
+          "url": "https://www.shichigahama.com/benricho/oshirase/kodomo3-010-12455.html",
+          "basis": "児童手当対象児童等1人3万円、申請不要区分と申請受付終了を確認。"
+        },
+        {
+          "slug": "shichigahama-single-parent-inflation-living-support-benefit-2026",
+          "title": "物価高騰対応低所得ひとり親世帯生活費支援給付金",
+          "url": "https://www.shichigahama.com/benricho/oshirase/kodomo-12495.html",
+          "basis": "令和8年1月期児童扶養手当受給者へ1世帯1万円、申請不要。"
+        },
+        {
+          "slug": "shichigahama-child-medical-expense-subsidy-2026",
+          "title": "子ども医療費助成",
+          "url": "https://www.shichigahama.com/parenting/system/support05.html",
+          "basis": "入院・通院とも18歳年度末までの保険適用分を助成。"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "産後ケア事業",
+          "reason": "利用支援サービス案内で、今回の助成金DBに必要な金額・給付条件を個別補助として採用できる記述が不足。"
+        },
+        {
+          "title": "幼児教育・保育無償化",
+          "reason": "国制度案内中心のため町独自制度としては採用しない。"
+        },
+        {
+          "title": "高血圧ゼロのまちモデルタウンプロジェクト",
+          "reason": "啓発・健康事業で給付/補助制度ではない。"
+        }
+      ]
+    },
+    {
+      "code": "04406",
+      "name": "利府町",
+      "adopted": [
+        {
+          "slug": "rifu-sports-activity-dispatch-subsidy-2026",
+          "title": "スポーツ活動派遣事業費補助金",
+          "url": "https://www.town.rifu.miyagi.jp/gyosei/soshikikarasagasu/sports/shisetsu/6174.html",
+          "basis": "東北大会以上の派遣経費、個人5千円から5万円、団体上限5万円から50万円。"
+        },
+        {
+          "slug": "rifu-pregnant-women-support-benefit-2026",
+          "title": "妊婦のための支援給付",
+          "url": "https://www.town.rifu.miyagi.jp/kosodatesite/mokuteki/teate/7626.html",
+          "basis": "公式PDFで妊婦1人5万円、胎児1人5万円、妊婦給付認定を確認。"
+        },
+        {
+          "slug": "rifu-third-child-school-lunch-subsidy-2026",
+          "title": "第3子以降給食費助成事業",
+          "url": "https://www.town.rifu.miyagi.jp/gyosei/soshikikarasagasu/kodomoshien/hoiku/2/752.html",
+          "basis": "第3子以降3-5歳児の給食費を月額6,500円上限で助成。"
+        },
+        {
+          "slug": "rifu-single-parent-medical-expense-subsidy-2026",
+          "title": "母子・父子家庭医療費助成",
+          "url": "https://www.town.rifu.miyagi.jp/gyosei/soshikikarasagasu/kodomoshien/kodomokyufu/1/1194.html",
+          "basis": "通院1件1,000円、入院1件2,000円控除後の保険診療自己負担を助成。"
+        },
+        {
+          "slug": "rifu-disability-medical-expense-subsidy-2026",
+          "title": "障害者医療費助成",
+          "url": "https://www.town.rifu.miyagi.jp/gyosei/soshikikarasagasu/tiikifukushi/syougaifukushi/1/1/1195.html",
+          "basis": "身体障害者手帳1・2級等の対象者へ保険診療自己負担を償還払い助成。"
+        },
+        {
+          "slug": "rifu-brain-checkup-subsidy-2026",
+          "title": "脳検診費用助成事業",
+          "url": "https://www.town.rifu.miyagi.jp/gyosei/soshikikarasagasu/kenkou/kenkou/1/2/989.html",
+          "basis": "40歳から70歳の5歳刻み対象、MRI/MRAを含む検査、上限1万円、令和9年3月31日まで。"
+        },
+        {
+          "slug": "rifu-arts-culture-dispatch-subsidy-2026",
+          "title": "芸術文化活動派遣事業費補助金",
+          "url": "https://www.town.rifu.miyagi.jp/gyosei/soshikikarasagasu/syougai/bunka/5182.html",
+          "basis": "東北大会以上の芸術文化活動派遣経費、個人5千円から5万円、団体上限30万円。"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "手当・助成カテゴリページ",
+          "reason": "第3子以降給食費等の個別ページへ展開済みのためカテゴリ自体は採用しない。"
+        }
+      ]
+    },
+    {
+      "code": "04421",
+      "name": "大和町",
+      "adopted": [
+        {
+          "slug": "taiwa-national-health-insurance-childbirth-lump-sum-2026",
+          "title": "国民健康保険出産育児一時金",
+          "url": "https://www.town.taiwa.miyagi.jp/soshiki/chominseikatsu/kokuho_nenkin/509.html",
+          "basis": "国保被保険者の出産に50万円、多生児は胎児数分。"
+        },
+        {
+          "slug": "taiwa-prenatal-health-checkup-subsidy-2026",
+          "title": "妊婦一般健康診査費用助成",
+          "url": "https://www.town.taiwa.miyagi.jp/soshiki/kenkosuishin/boshihoken/459.html",
+          "basis": "妊婦健診14回分の受診票を母子健康手帳交付時に交付。"
+        },
+        {
+          "slug": "taiwa-child-rearing-allowance-2026",
+          "title": "児童扶養手当",
+          "url": "https://www.town.taiwa.miyagi.jp/soshiki/kodomokatei/kodomokateishien/435.html",
+          "basis": "令和7年4月以降、子ども1人全部支給月額46,690円、奇数月支給。"
+        },
+        {
+          "slug": "taiwa-disabled-child-welfare-allowance-2026",
+          "title": "障害児福祉手当",
+          "url": "https://www.town.taiwa.miyagi.jp/soshiki/fukushi/shogaifukushi/431.html",
+          "basis": "20歳未満の重度障がい児、月額15,690円、年4回支給。"
+        },
+        {
+          "slug": "taiwa-pregnant-women-support-benefit-2026",
+          "title": "たいわ妊婦支援給付金",
+          "url": "https://www.town.taiwa.miyagi.jp/soshiki/kodomokatei/kodomokateishien/499.html",
+          "basis": "町内妊婦へ1回目5万円、2回目胎児1人5万円。"
+        },
+        {
+          "slug": "taiwa-childcare-support-housing-entry-incentive-2026",
+          "title": "子育て支援住宅入居時奨励金",
+          "url": "https://www.town.taiwa.miyagi.jp/soshiki/machizukuriseisaku/machizukuri_suishin/ijuteiju/771.html",
+          "basis": "町外転入20万円、町内転居15万円、入居日から90日以内申請。"
+        },
+        {
+          "slug": "taiwa-childcare-support-housing-child-incentive-2026",
+          "title": "子育て支援住宅入居者子育て応援奨励金",
+          "url": "https://www.town.taiwa.miyagi.jp/soshiki/machizukuriseisaku/machizukuri_suishin/ijuteiju/770.html",
+          "basis": "小学生月5,000円、中学生月2,500円、月額上限1万円。"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "子育て支援住宅総合案内",
+          "reason": "第1巡の総合ページは既存登録済み。第2巡では個別奨励金ページと要綱に分割して採用。"
+        }
+      ]
+    },
+    {
+      "code": "04422",
+      "name": "大郷町",
+      "adopted": [
+        {
+          "slug": "osato-child-allowance-2026",
+          "title": "児童手当",
+          "url": "https://www.town.miyagi-osato.lg.jp/soshiki/kodomo/jidou-teate.html",
+          "basis": "0歳から高校生年代、第3子以降月額3万円、偶数月支給。"
+        },
+        {
+          "slug": "osato-national-health-insurance-childbirth-lump-sum-2026",
+          "title": "国民健康保険出産育児一時金",
+          "url": "https://www.town.miyagi-osato.lg.jp/soshiki/chomin/syussanichitizikin.html",
+          "basis": "国保被保険者の出産に50万円、受領委任制度条件も確認。"
+        },
+        {
+          "slug": "osato-childbirth-gift-2026",
+          "title": "出産祝金",
+          "url": "https://www.town.miyagi-osato.lg.jp/soshiki/kodomo/syusan-iwaikin.html",
+          "basis": "第1子1万円、第2子2万円、第3子3万円、第4子以降5万円、出生後30日以内。"
+        },
+        {
+          "slug": "osato-postpartum-health-checkup-subsidy-2026",
+          "title": "産婦健康診査費助成",
+          "url": "https://www.town.miyagi-osato.lg.jp/soshiki/kodomo/sanpukenkoushinsahi.html",
+          "basis": "産後2週間・1か月健診各上限5,000円。"
+        },
+        {
+          "slug": "osato-first-prenatal-visit-subsidy-2026",
+          "title": "低所得妊婦初回産科受診料助成",
+          "url": "https://www.town.miyagi-osato.lg.jp/soshiki/kodomo/teisyotoku-ninpujyosei.html",
+          "basis": "非課税等世帯の初回産科受診料、保険適用分除く上限1万円。"
+        },
+        {
+          "slug": "osato-medical-expense-subsidy-children-disability-single-parent-2026",
+          "title": "医療費助成（子ども・心身障害者・母子父子）",
+          "url": "https://www.town.miyagi-osato.lg.jp/soshiki/chomin/iryouhi-jyosei.html",
+          "basis": "子ども現物給付、心身障害者償還払い、母子父子は通院1,000円・入院2,000円控除後助成。"
+        },
+        {
+          "slug": "osato-vacant-house-cleanup-subsidy-2026",
+          "title": "空き家家財道具等処分費用助成事業",
+          "url": "https://www.town.miyagi-osato.lg.jp/soshiki/machidukuri/akiyakazaidougusyobun.html",
+          "basis": "家財処分費を1住宅1回、上限5万円、着手前申請。"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "空き家バンク情報ページ",
+          "reason": "制度本体ページと公式案内PDFを採用したため、誘導ページは採用しない。"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "adopted": 25,
+    "excluded": 6,
+    "sourceUrlsChecked": 30,
+    "notes": "第1巡保留候補を個別制度ページまたは公式PDF/要綱へ展開して採否を確定した。"
+  }
+}
