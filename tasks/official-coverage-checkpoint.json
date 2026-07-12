@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T16:37:00+09:00",
+  "updatedAt": "2026-07-12T17:52:00+09:00",
   "mode": "miyagi-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "miyagi-comprehensive-official-coverage-second-pass-004",
-    "municipality": "東松島市・大崎市・蔵王町・七ヶ宿町",
-    "adopted": 20,
+    "code": "miyagi-comprehensive-official-coverage-second-pass-005",
+    "municipality": "大河原町・村田町・柴田町・川崎町",
+    "adopted": 11,
     "held": 0,
-    "excluded": 12,
-    "sourceUrlsChecked": 21,
+    "excluded": 8,
+    "sourceUrlsChecked": 11,
     "validation": {
-      "previousMunicipality": "宮城県公式棚卸し第2巡004として、04214東松島市、04215大崎市、04301蔵王町、04302七ヶ宿町の第1巡保留候補を再確認。東松島市の不妊・医療費・児童手当・ひとり親職業訓練、蔵王町の不妊・奨学金返還・移住支援・子ども医療・児童手当、七ヶ宿町のにぎやか家族応援・出産宿泊・任意接種・障害福祉助成・子ども医療・新生児聴覚検査を採用し、大崎市と各町市のカテゴリ/期限切れ/国県制度候補は採否理由を記録して解消した。",
+      "previousMunicipality": "宮城県公式棚卸し第2巡005として、04321大河原町、04322村田町、04323柴田町、04324川崎町の第1巡保留候補を再確認。大河原町の子ども医療費・危険ブロック塀、柴田町の若年がん在宅療養・犯罪被害者等支援・浄化槽、川崎町の生ごみ処理容器・特殊詐欺対策電話機・不妊検査・危険ブロック塀・耐震診断・浄化槽を採用し、村田町と各町のカテゴリ/404/期限切れ/県制度案内候補は採否理由を記録して解消した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "duplicateSlugs": "pass: total 8055, duplicates 0",
-      "urlReachability": "pass: 20制度21URL returned HTTP 200",
-      "diffCheck": "pass: git diff --check for Miyagi second-pass 004 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8008, officialLinkedActive 7970, manuallyVerifiedActive 7970, Miyagi localOfficial 252"
+      "addedSlugUniqueness": "pass: 11 added slugs each appear once",
+      "urlReachability": "pass: 11制度11URL returned HTTP 200",
+      "diffCheck": "pass: git diff --check for Miyagi second-pass 005 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8019, officialLinkedActive 7981, manuallyVerifiedActive 7981, Miyagi localOfficial 263"
     }
   },
   "next": {
-    "code": "miyagi-comprehensive-official-coverage-second-pass-005",
-    "municipality": "大河原町・村田町・柴田町・川崎町",
-    "shortlist": "大河原町の子ども医療費助成・危険ブロック塀等除却・商工業支援制度、村田町の第3子以降保育料等助成・就学援助PDF単価・特定不妊治療費助成404、柴田町の若年がん在宅療養・犯罪被害者等支援・浄化槽設置助成、川崎町の生ごみ処理容器・特殊詐欺対策電話機・不妊検査費・ブロック塀・住宅災害復旧・浄化槽・耐震関連を第2巡で確認する。",
-    "instructions": "宮城県第2巡004は東松島市・大崎市・蔵王町・七ヶ宿町の未判定候補を解消。次は第1巡005の保留候補を自治体コード順で確認し、公式本文/PDFで採否を確定する。"
+    "code": "miyagi-comprehensive-official-coverage-second-pass-006",
+    "municipality": "丸森町・亘理町・山元町・松島町",
+    "shortlist": "丸森町の初回産科受診・不妊支援・子ども医療費・母子父子医療・帯状疱疹ワクチン、亘理町の危険ブロック塀・木造住宅耐震・就学援助・奨学金・妊婦支援給付・不妊検査/治療・障害者医療・母子父子医療・高齢者補聴器・障害者福祉タクシー/燃料助成・新規漁業者支援、山元町の木造住宅耐震・空き家家財道具等処分・障害者医療・ウィッグ・浄化槽・高齢者補聴器・リサイクル奨励金、松島町の子ども医療費・高齢者福祉サービス・幼児教育/保育無償化・児童館・移住定住/企業誘致を第2巡で確認する。",
+    "instructions": "宮城県第2巡005は大河原町・村田町・柴田町・川崎町の未判定候補を解消。次は第1巡006の保留候補を自治体コード順で確認し、公式本文/PDFで採否を確定する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

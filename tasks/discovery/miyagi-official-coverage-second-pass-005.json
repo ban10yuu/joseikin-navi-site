@@ -1,0 +1,83 @@
+{
+  "batchId": "miyagi-comprehensive-official-coverage-second-pass-005",
+  "prefecture": "宮城県",
+  "completedAt": "2026-07-12T17:52:00+09:00",
+  "sourceFirstPass": "tasks/discovery/miyagi-official-coverage-005.json",
+  "municipalities": [
+    {
+      "code": "04321",
+      "name": "大河原町",
+      "status": "second-pass-completed",
+      "adopted": 2,
+      "held": 0,
+      "excluded": 2,
+      "notes": "子ども医療費助成制度、危険ブロック塀等除却助成事業を採用。商工業支援制度はカテゴリ/制度一覧中心で個別制度の金額・対象・受付が本文上で切り分けられず、人間ドックは保留候補外かつ個別自己負担額確認にPDF日程表等の追加確認が必要なため今回採用しない。"
+    },
+    {
+      "code": "04322",
+      "name": "村田町",
+      "status": "second-pass-completed",
+      "adopted": 0,
+      "held": 0,
+      "excluded": 3,
+      "notes": "第3子以降保育料等助成はカテゴリページのみで対象・金額・受付を本文確認できず、特定不妊治療費助成は候補URLが404、就学援助PDF単価は第1巡採用済みの育英資金/就学援助導線内で新規ページ単位採用には至らないため除外。"
+    },
+    {
+      "code": "04323",
+      "name": "柴田町",
+      "status": "second-pass-completed",
+      "adopted": 3,
+      "held": 0,
+      "excluded": 1,
+      "notes": "若年がん患者在宅療養費助成、犯罪被害者等支援金、浄化槽設置整備事業補助金を採用。住宅用太陽光発電は宮城県スマートエネルギー住宅普及促進事業の案内中心で町独自制度ではないため除外。"
+    },
+    {
+      "code": "04324",
+      "name": "川崎町",
+      "status": "second-pass-completed",
+      "adopted": 6,
+      "held": 0,
+      "excluded": 2,
+      "notes": "生ごみ処理容器、特殊詐欺対策電話機、不妊検査費、危険ブロック塀除却等、木造住宅耐震診断、合併処理浄化槽設置を採用。住宅災害復旧は東日本大震災対応で申請期限が平成25年3月31日、耐震改修は公式本文に補助額がなく今回の必須項目を満たさないため除外。"
+    }
+  ],
+  "adoptedSlugs": [
+    "ogawara-child-medical-expense-subsidy-2026",
+    "ogawara-dangerous-block-wall-removal-subsidy-2026",
+    "shibata-young-cancer-homecare-subsidy-2026",
+    "shibata-crime-victim-support-benefit-2026",
+    "shibata-septic-tank-installation-subsidy-2026",
+    "kawasaki-miyagi-compost-bin-subsidy-2026",
+    "kawasaki-miyagi-anti-fraud-phone-subsidy-2026",
+    "kawasaki-miyagi-infertility-testing-subsidy-2026",
+    "kawasaki-miyagi-dangerous-block-wall-removal-subsidy-2026",
+    "kawasaki-miyagi-wooden-house-seismic-diagnosis-subsidy-2026",
+    "kawasaki-miyagi-septic-tank-installation-subsidy-2026"
+  ],
+  "excludedCandidates": [
+    {
+      "municipality": "大河原町",
+      "reason": "商工業支援制度は個別制度一覧中心で、金額・対象・受付の揃う単一制度ページとしては採用しない。人間ドックは保留候補外かつ自己負担額確認に追加PDF確認が必要。"
+    },
+    {
+      "municipality": "村田町",
+      "reason": "第3子以降保育料等助成はカテゴリページのみ、特定不妊治療費助成は候補URLが404、就学援助PDF単価は新規公式ページ単位制度としては採用しない。"
+    },
+    {
+      "municipality": "柴田町",
+      "reason": "住宅用太陽光発電は宮城県事業案内中心で町独自の補助制度としては採用しない。"
+    },
+    {
+      "municipality": "川崎町",
+      "reason": "住宅災害復旧は平成25年3月31日申請期限の東日本大震災対応制度で現行性がなく、耐震改修は公式本文に補助額がなく必須項目未充足。"
+    }
+  ],
+  "sourceUrlsChecked": 11,
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: 11 added slugs each appear once",
+    "urlReachability": "pass: 11制度11URL returned HTTP 200",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8019, officialLinkedActive 7981, manuallyVerifiedActive 7981, Miyagi localOfficial 263",
+    "diffCheck": "pass: git diff --check for Miyagi second-pass 005 files"
+  }
+}
