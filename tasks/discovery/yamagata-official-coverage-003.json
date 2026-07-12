@@ -1,0 +1,77 @@
+{
+  "batchId": "yamagata-comprehensive-official-coverage-003",
+  "prefecture": "山形県",
+  "targetMunicipalities": [
+    { "code": "06208", "name": "村山市", "officialBaseUrl": "https://www.city.murayama.lg.jp/" },
+    { "code": "06209", "name": "長井市", "officialBaseUrl": "https://www.city.nagai.yamagata.jp/" },
+    { "code": "06210", "name": "天童市", "officialBaseUrl": "https://www.city.tendo.yamagata.jp/" },
+    { "code": "06211", "name": "東根市", "officialBaseUrl": "https://www.city.higashine.yamagata.jp/" }
+  ],
+  "generatedAt": "2026-07-13T05:00:00+09:00",
+  "discovery": {
+    "candidateFile": "tasks/discovery/yamagata-official-coverage-003-candidates.json",
+    "snippetFile": "tasks/discovery/yamagata-official-coverage-003-snippets.json",
+    "candidateCount": 1136,
+    "snippetRows": 450,
+    "note": "候補数が150件を超えたため、公式HTML本文から短いスニペットを抽出し、制度強語、金額、対象、申請/期限表現で再スコアリングした。天童市は初回候補がカテゴリ寄りだったため、公式サイトマップと公式カテゴリ導線から個別制度URLを補完した。"
+  },
+  "adopted": {
+    "total": 25,
+    "byMunicipality": [
+      { "code": "06208", "name": "村山市", "count": 7 },
+      { "code": "06209", "name": "長井市", "count": 2 },
+      { "code": "06210", "name": "天童市", "count": 9 },
+      { "code": "06211", "name": "東根市", "count": 7 }
+    ],
+    "slugs": [
+      "murayama-housing-acquisition-support-2026",
+      "murayama-housing-remodel-support-2026",
+      "murayama-heavy-ion-cancer-treatment-2026",
+      "murayama-young-alumni-reunion-subsidy-2026",
+      "murayama-private-rental-housing-construction-2026",
+      "murayama-woody-biomass-stove-subsidy-2026",
+      "murayama-solar-storage-subsidy-2026",
+      "nagai-decarbonization-equipment-subsidy-2026",
+      "nagai-startup-business-subsidy-2026",
+      "tendo-vacant-house-cleanup-subsidy-2026",
+      "tendo-dangerous-vacant-house-demolition-2026",
+      "tendo-block-wall-demolition-subsidy-2026",
+      "tendo-vacant-house-utilization-subsidy-2026",
+      "tendo-housing-remodel-support-2026",
+      "tendo-wooden-house-seismic-retrofit-2026",
+      "tendo-used-property-acquisition-subsidy-2026",
+      "tendo-heavy-ion-cancer-treatment-2026",
+      "tendo-cancer-wig-breast-prosthesis-subsidy-2026",
+      "higashine-scholarship-repayment-u-turn-2026",
+      "higashine-migration-life-support-2026",
+      "higashine-newlywed-life-support-2026",
+      "higashine-snow-removal-elderly-subsidy-2026",
+      "higashine-school-lunch-fee-subsidy-2026",
+      "higashine-school-expense-assistance-2026",
+      "higashine-settlement-household-subsidy-2026"
+    ]
+  },
+  "heldForSecondPass": [
+    "村山市の子育てスマイルプロジェクト総合ページは複数制度の一覧であり、個別URLが未展開の制度は第2巡で公式個別ページ又はPDF要綱を確認する。",
+    "村山市の商談会、政策・協力隊・国民年金給付、通常行政手続、カテゴリページは補助金個別制度又は現行申請型制度としての要件確認が不足するため第2巡へ残す。",
+    "長井市の特定空家除却補助金は初回取得時に接続が中断したため、第2巡で再取得して金額・対象・期限を確認する。ながいコイン等の物価高対策は受付状況と対象年度を再確認する。",
+    "天童市の児童手当、保育料補助、給食費支援、奨学金返還支援、婚活、介護職員支援、太陽光・ペレット・観光・商工・農業支援は件数が多いため、第2巡で個別ページごとに金額・期限を確認する。",
+    "東根市の母子健康手帳・妊婦健診助成、重度心身障がい医療、産前産後ヘルパー、家族介護用品、ひとり親家庭医療は制度性を確認したが、今回の25件枠では未採用又は福祉医療/サービス給付の切り分けが必要なため第2巡へ残す。"
+  ],
+  "verification": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "slugUniqueness": "pass: total slugs 8473, duplicates 0",
+    "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 25 added slugs, failures 0, all HTTP 200",
+    "diffCheck": "pass: git diff --check for Yamagata 003 files",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8414, officialLinkedActive 8376, manuallyVerifiedActive 8376, Yamagata localOfficial 141, Yamagata coveredCategories 8"
+  },
+  "next": {
+    "batchId": "yamagata-comprehensive-official-coverage-004",
+    "municipalities": [
+      { "code": "06212", "name": "尾花沢市" },
+      { "code": "06213", "name": "南陽市" },
+      { "code": "06301", "name": "山辺町" },
+      { "code": "06302", "name": "中山町" }
+    ]
+  }
+}

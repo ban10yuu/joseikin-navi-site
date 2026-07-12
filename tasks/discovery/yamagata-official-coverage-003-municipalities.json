@@ -1,0 +1,26 @@
+{
+  "batchId": "yamagata-comprehensive-official-coverage-003",
+  "prefecture": "山形県",
+  "municipalities": [
+    {
+      "code": "06208",
+      "name": "村山市",
+      "officialBaseUrl": "https://www.city.murayama.lg.jp/"
+    },
+    {
+      "code": "06209",
+      "name": "長井市",
+      "officialBaseUrl": "https://www.city.nagai.yamagata.jp/"
+    },
+    {
+      "code": "06210",
+      "name": "天童市",
+      "officialBaseUrl": "https://www.city.tendo.yamagata.jp/"
+    },
+    {
+      "code": "06211",
+      "name": "東根市",
+      "officialBaseUrl": "https://www.city.higashine.yamagata.jp/"
+    }
+  ]
+}
