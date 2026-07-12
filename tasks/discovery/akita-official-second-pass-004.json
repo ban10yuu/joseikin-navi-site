@@ -1,0 +1,105 @@
+{
+  "prefecture": "秋田県",
+  "batch": "akita-comprehensive-official-second-pass-004",
+  "checkedAt": "2026-07-13T04:55:00+09:00",
+  "sourceFirstPass": "tasks/discovery/akita-official-coverage-004.json",
+  "municipalities": [
+    {
+      "code": "05214",
+      "name": "にかほ市",
+      "adopted": [
+        "nikaho-special-infertility-treatment-subsidy-2026",
+        "nikaho-general-infertility-treatment-subsidy-2026",
+        "nikaho-pregnancy-support-grant-2026",
+        "nikaho-nursery-fee-side-dish-free-2026",
+        "nikaho-welfare-medical-expense-subsidy-2026",
+        "nikaho-single-parent-education-training-benefit-2026",
+        "nikaho-single-parent-housing-improvement-loan-2026"
+      ],
+      "held": [
+        "物価高対応子育て応援手当は受付終了確認を継続",
+        "子育てろーどまっぷ・子育てガイドブックは制度一覧導線として第2巡台帳へ残す",
+        "児童手当と障がい者手当カテゴリは国制度・カテゴリ導線との差分確認を継続"
+      ]
+    },
+    {
+      "code": "05215",
+      "name": "仙北市",
+      "adopted": [
+        "semboku-migration-new-life-and-snow-subsidy-2026",
+        "semboku-settlement-property-tax-incentive-2026",
+        "semboku-marriage-support-center-registration-subsidy-2026",
+        "semboku-newlywed-new-life-support-2026",
+        "semboku-pregnancy-support-grant-2026",
+        "semboku-infertility-treatment-subsidy-2026"
+      ],
+      "held": [
+        "若者マイホーム取得助成金は公式URLが404のため採用せず、変更URL確認へ残す",
+        "子育てファミリー支援候補は本文が指定データなしのため採用せず、別ページ探索へ残す",
+        "妊婦健診・母子保健・住宅カテゴリは個別制度ページ展開へ残す"
+      ]
+    },
+    {
+      "code": "05303",
+      "name": "小坂町",
+      "adopted": [
+        "kosaka-housing-reform-support-2026",
+        "kosaka-private-road-improvement-subsidy-2026"
+      ],
+      "held": [
+        "心身障害者扶養共済制度と自立支援医療費給付は全国・県制度性が強く、町独自の金額差分確認へ残す",
+        "病児保育は今回到達候補で金額・対象・受付が揃う個別ページを確認できず継続"
+      ]
+    },
+    {
+      "code": "05327",
+      "name": "上小阿仁村",
+      "adopted": [
+        "kamikoani-migration-settlement-incentive-2026",
+        "kamikoani-scholarship-repayment-support-2026",
+        "kamikoani-child-seat-subsidy-2026",
+        "kamikoani-distant-pregnant-women-support-2026",
+        "kamikoani-nursery-fee-free-2026"
+      ],
+      "held": [
+        "出産祝金は第三子以降月額加算を確認したが一時金額の個別根拠が不足するため保留",
+        "医療費助成と不妊治療・不育症助成は一覧記載のみで上限・申請期限の個別本文確認へ残す"
+      ]
+    }
+  ],
+  "adoptedCount": 20,
+  "heldCount": 11,
+  "excludedCount": 2,
+  "sourceUrlsChecked": [
+    "https://www.city.nikaho.akita.jp/soshikikarasagasu/fukushijimushokosodateshienka/gyomuannai/4_1/1918.html",
+    "https://www.city.nikaho.akita.jp/gyosei/kosodate_kyoiku/ninshin_shussan/3935.html",
+    "https://www.city.nikaho.akita.jp/soshikikarasagasu/fukushijimushokosodateshienka/gyomuannai/6152.html",
+    "https://www.city.nikaho.akita.jp/soshikikarasagasu/fukushijimushokosodateshienka/gyomuannai/1914.html",
+    "https://www.city.nikaho.akita.jp/gyosei/iryo_kenko_fukushi/iryo_kenko/iryojosei/6208.html",
+    "https://www.city.nikaho.akita.jp/gyosei/kosodate_kyoiku/jidofukushi_hitorioyafukushi/hitorioyakateimukenosupport/1/3344.html",
+    "https://www.city.nikaho.akita.jp/gyosei/kosodate_kyoiku/jidofukushi_hitorioyafukushi/hitorioyakateimukenosupport/3342.html",
+    "https://www.city.semboku.akita.jp/egukite/ijyuooen_jyoseikin.html",
+    "https://www.city.semboku.akita.jp/egukite/teijyu_syorei.html",
+    "https://www.city.semboku.akita.jp/egukite/akitakon_nyukaihosei.html",
+    "https://www.city.semboku.akita.jp/egukite/marriedlife_shienhojo.html",
+    "https://www.city.semboku.akita.jp/citizens/09_39.html",
+    "https://www.city.semboku.akita.jp/news_topics/whatsnew.php?id=1066",
+    "https://www.town.kosaka.akita.jp/machinososhiki/kensetsuka/kensetsuhan/kensetsuhanhojojigyou/1154.html",
+    "https://www.town.kosaka.akita.jp/machinososhiki/kensetsuka/kensetsuhan/kensetsuhanhojojigyou/2200.html",
+    "https://www.vill.kamikoani.akita.jp/info/243",
+    "https://www.vill.kamikoani.akita.jp/info/211",
+    "https://www.vill.kamikoani.akita.jp/info/38",
+    "https://www.vill.kamikoani.akita.jp/info/737",
+    "https://www.vill.kamikoani.akita.jp/info/29"
+  ],
+  "excluded": [
+    {
+      "name": "仙北市 若者マイホーム取得助成金",
+      "reason": "公式候補URLが404で到達しないため採用しない"
+    },
+    {
+      "name": "仙北市 子育てファミリー支援候補",
+      "reason": "公式ページ本文が指定データなしで制度本文を確認できないため採用しない"
+    }
+  ]
+}
