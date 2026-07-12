@@ -1,0 +1,228 @@
+{
+  "code": "miyagi-comprehensive-official-coverage-second-pass-009",
+  "checkedAt": "2026-07-12T20:35:00+09:00",
+  "prefecture": "宮城県",
+  "municipalities": [
+    {
+      "code": "04505",
+      "name": "美里町"
+    },
+    {
+      "code": "04581",
+      "name": "女川町"
+    },
+    {
+      "code": "04606",
+      "name": "南三陸町"
+    }
+  ],
+  "method": [
+    "第1巡009の保留候補を、自治体公式HTML本文単位で再確認した。",
+    "制度名・対象・金額または上限・条件・期限または受付状況が公式本文で確認できる個別ページを採用した。",
+    "カテゴリ、サイトマップ、案内導線、既存採用済み制度、期限到来または現行受付が確認できない候補は採用せず、理由を記録した。"
+  ],
+  "adoptedCount": 24,
+  "adopted": [
+    {
+      "municipality": "美里町",
+      "slug": "misato-single-parent-medical-expense-subsidy-2026",
+      "title": "美里町 母子・父子家庭医療費助成",
+      "officialUrl": "https://www.town.misato.miyagi.jp/06kyoiku/2012-0816-1350-46.html",
+      "evidence": "18歳年度末までのひとり親家庭等を対象に、通院月1,000円・入院月2,000円を超える保険診療自己負担分を助成。"
+    },
+    {
+      "municipality": "美里町",
+      "slug": "misato-single-parent-child-rearing-allowance-2026",
+      "title": "美里町 児童扶養手当",
+      "officialUrl": "https://www.town.misato.miyagi.jp/06kyoiku/2010-0728-1455-5.html",
+      "evidence": "令和8年4月現在、児童1人全部支給月額48,050円、2人目以降月額11,350円加算、毎年8月現況届。"
+    },
+    {
+      "municipality": "美里町",
+      "slug": "misato-elementary-school-entrance-benefit-2026",
+      "title": "美里町 小学校入学給付金",
+      "officialUrl": "https://www.town.misato.miyagi.jp/06kyoiku/2017-0613-0934-46.html",
+      "evidence": "令和8年度小学校入学の第3子以降等を対象に、児童1人3万円。申請期限は令和8年3月31日。"
+    },
+    {
+      "municipality": "美里町",
+      "slug": "misato-pregnant-women-support-benefit-2026",
+      "title": "美里町 妊婦支援給付金",
+      "officialUrl": "https://www.town.misato.miyagi.jp/05kenko/2023-0428-1449-11.html",
+      "evidence": "妊婦1人5万円、胎児1人5万円の2回給付。各申請期限は起算日から2年以内。"
+    },
+    {
+      "municipality": "美里町",
+      "slug": "misato-septic-tank-installation-subsidy-2026",
+      "title": "美里町 浄化槽設置等助成制度",
+      "officialUrl": "https://www.town.misato.miyagi.jp/07kurashi/2025-0605-1829-33.html",
+      "evidence": "令和8年5月11日受付開始。5人槽33.2万円、7人槽41.4万円、10人槽54.8万円、撤去・宅内配管補助あり。"
+    },
+    {
+      "municipality": "美里町",
+      "slug": "misato-septic-tank-maintenance-subsidy-2026",
+      "title": "美里町 合併処理浄化槽維持管理費助成",
+      "officialUrl": "https://www.town.misato.miyagi.jp/07kurashi/2026-0413-1812-53.html",
+      "evidence": "令和8年5月11日受付開始。合併処理浄化槽の法定検査費用6,000円を助成。"
+    },
+    {
+      "municipality": "美里町",
+      "slug": "misato-sewer-connection-incentive-2026",
+      "title": "美里町 下水道接続奨励金",
+      "officialUrl": "https://www.town.misato.miyagi.jp/07kurashi/2016-0427-1437-32.html",
+      "evidence": "汲み取り便所・浄化槽から下水道へ接続する住宅工事に、定額10万円と配管延長分最大10万円。"
+    },
+    {
+      "municipality": "美里町",
+      "slug": "misato-earthquake-resistance-subsidy-2026",
+      "title": "美里町 地震対策各種助成事業",
+      "officialUrl": "https://www.town.misato.miyagi.jp/07kurashi/2024-0531-1611-33.html",
+      "evidence": "旧耐震木造住宅の診断・改修と危険ブロック塀除却を対象に、耐震改修上限110万円、ブロック塀除却上限18.7万円。"
+    },
+    {
+      "municipality": "美里町",
+      "slug": "misato-hometown-tax-return-gift-creation-subsidy-2026",
+      "title": "美里町 ふるさと応援寄附金返礼品創出支援事業補助金",
+      "officialUrl": "https://www.town.misato.miyagi.jp/04sigoto/rokuji/2026-0519-0903-7.html",
+      "evidence": "町内事業者による返礼品の創出・改良等を対象に上限20万円。年度4事業、対象期間は交付決定日から当該年度2月28日。"
+    },
+    {
+      "municipality": "女川町",
+      "slug": "onagawa-school-expense-assistance-2026",
+      "title": "女川町 就学援助制度",
+      "officialUrl": "https://www.town.onagawa.miyagi.jp/05_15_03_02.html",
+      "evidence": "生活保護停止・廃止、市町村民税非課税・減免、児童扶養手当受給等の世帯へ学用品費・学校給食費等を援助。"
+    },
+    {
+      "municipality": "女川町",
+      "slug": "onagawa-private-rental-vacancy-support-grant-2026",
+      "title": "女川町 民間賃貸住宅空室支援金",
+      "officialUrl": "https://www.town.onagawa.miyagi.jp/kushitsu_shienkin.html",
+      "evidence": "対象民間賃貸住宅の空室発生時に、家賃合計額20%を上限として竣工翌月から5年間支援。"
+    },
+    {
+      "municipality": "女川町",
+      "slug": "onagawa-special-disability-allowance-2026",
+      "title": "女川町 特別障害者手当・障害児福祉手当",
+      "officialUrl": "https://www.town.onagawa.miyagi.jp/05_14hukushi/05_14_03_05.html",
+      "evidence": "令和8年4月から特別障害者手当月額30,450円、障害児福祉手当月額16,560円。所得制限あり。"
+    },
+    {
+      "municipality": "女川町",
+      "slug": "onagawa-qualification-acquisition-support-subsidy-2026",
+      "title": "女川町 資格取得支援事業補助金",
+      "officialUrl": "https://www.town.onagawa.miyagi.jp/05_17_05.html",
+      "evidence": "満15歳以上の町民等を対象に、受験料・受講料・交通費等の5分の4、上限10万円。資格取得後3か月以内申請。"
+    },
+    {
+      "municipality": "女川町",
+      "slug": "onagawa-shopping-street-landscape-subsidy-2026",
+      "title": "女川町 商店街景観形成創出事業補助金",
+      "officialUrl": "https://www.town.onagawa.miyagi.jp/05_17_04_07.html",
+      "evidence": "中心市街地区域の中小企業者等を対象に、ファサード修景上限40万円、外壁木質化上限50万円、緑化上限100万円。"
+    },
+    {
+      "municipality": "女川町",
+      "slug": "onagawa-location-company-incentive-2026",
+      "title": "女川町 立地企業奨励金交付制度",
+      "officialUrl": "https://www.town.onagawa.miyagi.jp/05_17_01_01.html",
+      "evidence": "投下固定資産額2,500万円以上等の立地事業者を対象に、事業所立地奨励金上限2億円または3億円、雇用促進奨励金等。"
+    },
+    {
+      "municipality": "女川町",
+      "slug": "onagawa-sports-culture-promotion-subsidy-2026",
+      "title": "女川町 スポーツ・文化振興補助金",
+      "officialUrl": "https://www.town.onagawa.miyagi.jp/05_15_03_05.html",
+      "evidence": "東北大会・全国大会等へ出場する町民等を対象に、交通費・宿泊料の2分の1以内を補助。"
+    },
+    {
+      "municipality": "南三陸町",
+      "slug": "minamisanriku-school-expense-assistance-2026",
+      "title": "南三陸町 就学援助制度",
+      "officialUrl": "https://www.town.minamisanriku.miyagi.jp/life-info/shugaku/7649.html",
+      "evidence": "経済的理由で就学に困る保護者を対象に、学用品費、新入学用品費、給食費、医療費等を年度ごとに援助。"
+    },
+    {
+      "municipality": "南三陸町",
+      "slug": "minamisanriku-child-medical-expense-subsidy-2026",
+      "title": "南三陸町 子ども医療費助成",
+      "officialUrl": "https://www.town.minamisanriku.miyagi.jp/life-info/hoken-iryo/4/7721.html",
+      "evidence": "0歳から18歳までの子どもを対象に、保険診療自己負担分を助成。登録申請と県外受診時の後日申請を確認。"
+    },
+    {
+      "municipality": "南三陸町",
+      "slug": "minamisanriku-disability-medical-expense-subsidy-2026",
+      "title": "南三陸町 障害者医療費助成",
+      "officialUrl": "https://www.town.minamisanriku.miyagi.jp/life-info/hoken-iryo/4/7722.html",
+      "evidence": "身体障害者手帳1・2級等を対象に、保険診療自己負担相当分の一部または全部を助成。所得制限と2年以内申請を確認。"
+    },
+    {
+      "municipality": "南三陸町",
+      "slug": "minamisanriku-single-parent-medical-expense-subsidy-2026",
+      "title": "南三陸町 母子・父子家庭医療費助成",
+      "officialUrl": "https://www.town.minamisanriku.miyagi.jp/life-info/hoken-iryo/4/7723.html",
+      "evidence": "18歳年度末までの児童を扶養するひとり親等を対象に、入院月2,000円・通院月1,000円超過分を助成。"
+    },
+    {
+      "municipality": "南三陸町",
+      "slug": "minamisanriku-building-safety-subsidy-2026",
+      "title": "南三陸町 建築物に関する補助事業",
+      "officialUrl": "https://www.town.minamisanriku.miyagi.jp/kurashi/sumai/7129.html",
+      "evidence": "旧耐震木造住宅の耐震診断・改修と危険ブロック塀除去を対象に、診断町負担最大14.74万円、毎年度12月中旬まで受付。"
+    },
+    {
+      "municipality": "南三陸町",
+      "slug": "minamisanriku-nursing-care-scholarship-loan-2026",
+      "title": "南三陸町 看護・介護学生等修学資金貸付",
+      "officialUrl": "https://www.town.minamisanriku.miyagi.jp/kenko-fukushi/fukushi/6871.html",
+      "evidence": "看護師・介護福祉士等を目指す学生に月額7万5,000円以内を無利子貸付。令和7年度受付は令和7年3月3日から3月14日。"
+    },
+    {
+      "municipality": "南三陸町",
+      "slug": "minamisanriku-care-prevention-activity-support-subsidy-2026",
+      "title": "南三陸町 地域介護予防活動支援事業補助金",
+      "officialUrl": "https://www.town.minamisanriku.miyagi.jp/life-info/korei/3/7683.html",
+      "evidence": "65歳以上5人以上が参加する介護予防活動団体を対象に、年間48回以上で年2万5,000円など活動回数別に補助。"
+    },
+    {
+      "municipality": "南三陸町",
+      "slug": "minamisanriku-child-place-support-subsidy-2026",
+      "title": "南三陸町 こどもの居場所づくり支援事業補助金",
+      "officialUrl": "https://www.town.minamisanriku.miyagi.jp/kosodate-kyoiku/8142.html",
+      "evidence": "令和8年度受付。こども食堂、宅食、学習教室等に、年10回以上20回未満25万円、20回以上80回未満50万円、80回以上200万円。"
+    }
+  ],
+  "excluded": [
+    {
+      "municipality": "美里町",
+      "reason": "子ども医療費助成、就学援助、定住促進、中小企業リテンション、物価高騰支援は第1巡009で既に採用済みのため重複採用しない。"
+    },
+    {
+      "municipality": "美里町",
+      "reason": "浄化槽カテゴリ、下水道カテゴリ、暮らしカテゴリ、RSS・トップ・サイトマップ等の導線ページは、個別制度ページを採用してカテゴリ自体は採用しない。"
+    },
+    {
+      "municipality": "女川町",
+      "reason": "奨学金貸与、空き家バンク、定住促進、耐震改修、創業支援は第1巡009で既に採用済みのため重複採用しない。"
+    },
+    {
+      "municipality": "女川町",
+      "reason": "景観計画、カテゴリページ、町政資料、スポーツまちづくり関連の行政負担金ページは、個別の住民・事業者向け給付制度として必須項目が揃わないため採用しない。"
+    },
+    {
+      "municipality": "南三陸町",
+      "reason": "移住者家賃助成、マイホーム取得、不妊検査・治療、労働力確保、就労奨励金は第1巡009で既に採用済みのため重複採用しない。"
+    },
+    {
+      "municipality": "南三陸町",
+      "reason": "子育て・教育、保険医療、住まい等のカテゴリページ、教育支援センター、母子健康手帳交付、新生児訪問等の案内ページは補助金等の個別制度ページとして採用しない。"
+    }
+  ],
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: 24 added slugs each appear once",
+    "urlReachability": "pass: 24制度24URL returned HTTP 200",
+    "diffCheck": "pass: git diff --check for Miyagi second-pass 009 files",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8111, officialLinkedActive 8073, manuallyVerifiedActive 8073, Miyagi localOfficial 355"
+  }
+}

@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T17:45:00+09:00",
+  "updatedAt": "2026-07-12T20:35:00+09:00",
   "mode": "miyagi-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "miyagi-comprehensive-official-coverage-second-pass-008",
-    "municipality": "大衡村・色麻町・加美町・涌谷町",
-    "adopted": 23,
+    "code": "miyagi-comprehensive-official-coverage-second-pass-009",
+    "municipality": "美里町・女川町・南三陸町",
+    "adopted": 24,
     "held": 0,
-    "excluded": 13,
-    "sourceUrlsChecked": 23,
+    "excluded": 6,
+    "sourceUrlsChecked": 24,
     "validation": {
-      "previousMunicipality": "宮城県公式棚卸し第2巡008として、04424大衡村、04444色麻町、04445加美町、04501涌谷町の第1巡保留候補を再確認。大衡村8件、色麻町7件、加美町5件、涌谷町3件を公式HTML本文単位で採用し、期限到来・国制度周知・カテゴリ導線・現行性不足候補は採否理由を記録して解消した。",
+      "previousMunicipality": "宮城県公式棚卸し第2巡009として、04505美里町、04581女川町、04606南三陸町の第1巡保留候補を再確認。美里町9件、女川町7件、南三陸町8件を公式HTML本文単位で採用し、既採用済み制度・カテゴリ導線・個別制度性不足候補は採否理由を記録して解消した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: 23 added slugs each appear once",
-      "urlReachability": "pass: 23制度23URL returned HTTP 200",
-      "diffCheck": "pass: git diff --check for Miyagi second-pass 008 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8089, officialLinkedActive 8051, manuallyVerifiedActive 8051, Miyagi localOfficial 333"
+      "addedSlugUniqueness": "pass: 24 added slugs each appear once",
+      "urlReachability": "pass: 24制度24URL returned HTTP 200",
+      "diffCheck": "pass: git diff --check for Miyagi second-pass 009 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8111, officialLinkedActive 8073, manuallyVerifiedActive 8073, Miyagi localOfficial 355"
     }
   },
   "next": {
-    "code": "miyagi-comprehensive-official-coverage-second-pass-009",
-    "municipality": "美里町・女川町・南三陸町",
-    "shortlist": "美里町の母子・父子家庭医療費助成・児童扶養手当・小学校入学給付金・妊婦支援・浄化槽設置助成・地震対策助成・返礼品創出支援、女川町の就学援助・民間賃貸住宅空室支援金・資格取得支援・商店街景観形成・立地企業奨励・障害福祉手当、南三陸町の子ども医療・障害者医療・母子父子医療・就学援助・建築物補助・看護介護修学資金・介護予防活動支援・こどもの居場所づくり支援を第2巡で確認する。",
-    "instructions": "宮城県第2巡008は大衡村・色麻町・加美町・涌谷町の未判定候補を解消。次は第1巡009の保留候補を自治体コード順で確認し、公式本文/PDFで採否を確定する。"
+    "code": "miyagi-comprehensive-official-coverage-final-audit",
+    "municipality": "宮城県",
+    "shortlist": "第1巡001-009および第2巡001-009の採否記録、保留継続欄、公式URL到達、slug一意性、coverage auditを集計し、宮城県の候補未判定ゼロを確認する。",
+    "instructions": "宮城県第2巡009は美里町・女川町・南三陸町の未判定候補を解消。次は宮城県の最終監査を行い、候補未判定が残らないことを確認して次県へ移る。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
