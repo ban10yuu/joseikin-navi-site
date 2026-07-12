@@ -3650,6 +3650,28 @@
   - 次:
     - 宮城県公式棚卸し007として、04404七ヶ浜町、04406利府町、04421大和町、04422大郷町を自治体コード順で確認する。
 
+- 宮城県公式棚卸し007（七ヶ浜町・利府町・大和町・大郷町）
+  - 対象: 04404七ヶ浜町、04406利府町、04421大和町、04422大郷町。
+  - 方法:
+    - 公式候補360件を生成し、七ヶ浜町・大郷町は候補数が多かったため `tasks/discovery/miyagi-official-coverage-007-snippets.json` に短い本文スニペットを抽出して再スコアリングした。
+    - 利府町・大和町は初回候補がトップ・カテゴリ中心だったため、sitemap/category導線から個別制度ページへ展開して確認した。
+    - 制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できるページを採用した。
+  - 追加:
+    - 七ヶ浜町: 不妊検査費・不妊治療費助成事業、妊婦のための支援給付、就学援助制度、奨学資金貸付制度、造血幹細胞移植後ワクチン再接種費用助成。
+    - 利府町: 移住支援金、婚活支援補助金、子ども医療費助成制度、がん患者医療用補正具購入費用助成事業、不妊検査費助成・不妊治療費助成事業。
+    - 大和町: あんしん子育て医療費助成、母子・父子家庭医療費助成、認可外保育施設利用者補助事業、企業主導型保育施設多子世帯保育料軽減補助事業、子育て支援住宅入居支援。
+    - 大郷町: 不妊検査・不妊治療費助成、若者・子育て世代定住促進住宅取得支援奨励金、住宅取得支援事業補助金、医療用ウィッグ・乳房補正具購入費助成、脳健診助成事業。
+  - 保留継続:
+    - 七ヶ浜町のスポーツ振興奨励金・子ども医療費・各種予防接種、利府町のスポーツ活動派遣・妊婦支援給付PDF・第3子以降学校給食費・母子父子医療・障害者医療・脳検診、大和町の出産育児一時金・児童扶養手当・障害福祉手当・妊婦健診・子育て支援住宅要綱、大郷町の児童手当・出産育児一時金・出産祝金・産婦健診・初回産科受診・子ども医療費・空き家家財道具等処分費用助成は第2巡で確認する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: 0。
+    - 20制度20URLの公式URL到達確認: HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7931、officialLinkedActive 7893、manuallyVerifiedActive 7893、宮城県 localOfficial 175）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-007-municipalities.json tasks/discovery/miyagi-official-coverage-007-candidates.json tasks/discovery/miyagi-official-coverage-007-snippets.json tasks/discovery/miyagi-official-coverage-007.json`: pass。
+  - 次:
+    - 宮城県公式棚卸し008として、04424大衡村、04444色麻町、04445加美町、04501涌谷町を自治体コード順で確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:

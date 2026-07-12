@@ -1,0 +1,26 @@
+{
+  "batchId": "miyagi-comprehensive-official-coverage-007",
+  "prefecture": "宮城県",
+  "municipalities": [
+    {
+      "code": "04404",
+      "name": "七ヶ浜町",
+      "officialBaseUrl": "https://www.shichigahama.com/"
+    },
+    {
+      "code": "04406",
+      "name": "利府町",
+      "officialBaseUrl": "https://www.town.rifu.miyagi.jp/"
+    },
+    {
+      "code": "04421",
+      "name": "大和町",
+      "officialBaseUrl": "https://www.town.taiwa.miyagi.jp/"
+    },
+    {
+      "code": "04422",
+      "name": "大郷町",
+      "officialBaseUrl": "https://www.town.miyagi-osato.lg.jp/"
+    }
+  ]
+}
