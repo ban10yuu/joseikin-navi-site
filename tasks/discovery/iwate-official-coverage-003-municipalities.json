@@ -1,0 +1,26 @@
+{
+  "batchId": "iwate-comprehensive-official-coverage-003",
+  "prefecture": "岩手県",
+  "municipalities": [
+    {
+      "code": "03209",
+      "name": "一関市",
+      "officialBaseUrl": "https://www.city.ichinoseki.iwate.jp/"
+    },
+    {
+      "code": "03210",
+      "name": "陸前高田市",
+      "officialBaseUrl": "https://www.city.rikuzentakata.iwate.jp/"
+    },
+    {
+      "code": "03211",
+      "name": "釜石市",
+      "officialBaseUrl": "https://www.city.kamaishi.iwate.jp/"
+    },
+    {
+      "code": "03213",
+      "name": "二戸市",
+      "officialBaseUrl": "https://www.city.ninohe.lg.jp/"
+    }
+  ]
+}

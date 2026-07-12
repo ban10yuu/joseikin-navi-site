@@ -1,0 +1,113 @@
+{
+  "batchId": "iwate-comprehensive-official-coverage-003",
+  "prefecture": "岩手県",
+  "checkedAt": "2026-07-12T10:55:00+09:00",
+  "municipalities": [
+    {
+      "code": "03209",
+      "name": "一関市",
+      "officialBaseUrl": "https://www.city.ichinoseki.iwate.jp/",
+      "candidateCount": 277,
+      "strongCandidateCount": 18,
+      "existingVerifiedCount": 18,
+      "adoptedCount": 0,
+      "heldCount": 7,
+      "notes": "既存データに重度心身障がい者医療費助成、妊婦支援給付金、子ども医療費助成、保育料無償化、就学援助、ブロック塀、緊急通報、高齢者福祉乗車券、エアコン設置、成人検診、人間ドック、住宅環境改善リフォーム、移住支援金、結婚新生活支援等を確認済みのため重複追加しない。カテゴリ・共通ナビ一致、重複停止ページ、一覧ページは第2巡へ残す。"
+    },
+    {
+      "code": "03210",
+      "name": "陸前高田市",
+      "officialBaseUrl": "https://www.city.rikuzentakata.iwate.jp/",
+      "candidateCount": 240,
+      "strongCandidateCount": 14,
+      "adoptedCount": 4,
+      "heldCount": 6,
+      "adoptedSlugs": [
+        "rikuzentakata-care-disability-worker-scholarship-repayment-2026",
+        "rikuzentakata-home-childcare-support-grant-2026",
+        "rikuzentakata-qualification-acquisition-subsidy-2026",
+        "rikuzentakata-community-center-development-subsidy-2026"
+      ],
+      "heldNotes": [
+        "まちづくり団体活動補助金は令和8年度募集期間が2026年3月2日で終了済みのため第2巡台帳へ残す。",
+        "住まいるリフォーム支援事業は候補に残したが、本文必須項目の再確認を第2巡へ回す。",
+        "価格高騰重点支援給付金、国民健康保険税、年金生活者支援給付金、出産育児一時金等は終了済み又は国制度・案内ページとして保留。"
+      ]
+    },
+    {
+      "code": "03211",
+      "name": "釜石市",
+      "officialBaseUrl": "https://www.city.kamaishi.iwate.jp/",
+      "candidateCount": 405,
+      "strongCandidateCount": 3,
+      "adoptedCount": 4,
+      "heldCount": 5,
+      "adoptedSlugs": [
+        "kamaishi-ui-turn-scholarship-repayment-subsidy-2026",
+        "kamaishi-ui-turn-rent-support-subsidy-2026",
+        "kamaishi-young-ui-turn-vacant-house-renovation-subsidy-2026",
+        "kamaishi-dangerous-vacant-house-demolition-subsidy-2026"
+      ],
+      "heldNotes": [
+        "がんばる中小企業応援事業補助金は2026年7月7日時点で応募多数のため申請受付停止中と確認し、第2巡へ保留。",
+        "母子家庭自立支援給付金及び父子家庭自立支援給付金、里帰り出産等に伴う妊婦健康診査費用助成は公式本文を確認したが、既存カテゴリとの重複・上限額確認を第2巡で扱う。",
+        "出産育児一時金は国保給付の案内として保留。"
+      ]
+    },
+    {
+      "code": "03213",
+      "name": "二戸市",
+      "officialBaseUrl": "https://www.city.ninohe.lg.jp/",
+      "candidateCount": 216,
+      "strongCandidateCount": 12,
+      "adoptedCount": 10,
+      "heldCount": 8,
+      "adoptedSlugs": [
+        "ninohe-transport-operator-operation-support-subsidy-2026",
+        "ninohe-energy-saving-subsidy-2026",
+        "ninohe-vacant-house-demolition-subsidy-2026",
+        "ninohe-food-waste-processor-subsidy-2026",
+        "ninohe-human-dock-subsidy-2026",
+        "ninohe-newlywed-life-support-subsidy-2026",
+        "ninohe-cancer-medical-appearance-care-subsidy-2026",
+        "ninohe-flush-toilet-renovation-subsidy-2026",
+        "ninohe-private-sewage-pump-subsidy-2026",
+        "ninohe-septic-to-sewer-connection-subsidy-2026"
+      ],
+      "heldNotes": [
+        "ごみ集積所集約整備事業補助金、資源回収運動補助金、ウルシ苗木購入費用補助制度は対象・金額を確認したが、制度粒度と金額上限の扱いを第2巡で再確認する。",
+        "地域の元気づくり支援補助金は募集要項PDF側の補助額表確認が残るため第2巡へ保留。",
+        "iサポ入会登録料、漆器等利用促進、漆塗り助成、木造住宅耐震診断士派遣等は候補台帳に残す。"
+      ]
+    }
+  ],
+  "discoveryArtifacts": {
+    "municipalities": "tasks/discovery/iwate-official-coverage-003-municipalities.json",
+    "candidates": "tasks/discovery/iwate-official-coverage-003-candidates.json",
+    "snippets": "tasks/discovery/iwate-official-coverage-003-snippets.json"
+  },
+  "candidateTotals": {
+    "discovered": 2080,
+    "candidates": 1138,
+    "strong": 47,
+    "lowPriority": 1091
+  },
+  "result": {
+    "adopted": 18,
+    "existingVerified": 18,
+    "held": 26,
+    "excluded": 0,
+    "sourceUrlsChecked": 18
+  },
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "duplicateSlugs": 0,
+    "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --slug <18 slugs> checked 18 failures 0",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7692, officialLinkedActive 7654, manuallyVerifiedActive 7654, Iwate localOfficial 112",
+    "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-003-municipalities.json tasks/discovery/iwate-official-coverage-003-candidates.json tasks/discovery/iwate-official-coverage-003-snippets.json tasks/discovery/iwate-official-coverage-003.json"
+  },
+  "next": {
+    "code": "iwate-comprehensive-official-coverage-004",
+    "instructions": "次は03214八幡平市、03215奥州市、03216滝沢市、03301雫石町を自治体コード順に公式本文/PDFで確認する。"
+  }
+}

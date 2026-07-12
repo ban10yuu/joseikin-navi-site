@@ -3312,6 +3312,35 @@
   - 次:
     - 03209一関市、03210陸前高田市、03211釜石市、03213二戸市を自治体コード順で確認する。
 
+- 岩手県公式棚卸し003（一関市・陸前高田市・釜石市・二戸市）
+  - 対象:
+    - 03209 一関市
+    - 03210 陸前高田市
+    - 03211 釜石市
+    - 03213 二戸市
+  - 探索:
+    - `tasks/discovery/iwate-official-coverage-003-municipalities.json` を作成し、公式サイトから候補を抽出。
+    - `tasks/discovery/iwate-official-coverage-003-candidates.json`: 候補1,138件（一関市277、陸前高田市240、釜石市405、二戸市216）。strong 47、low priority 1,091。
+    - 候補が150件超のため `tasks/discovery/iwate-official-coverage-003-snippets.json` で本文スニペットを再抽出し、制度名・対象・金額・期限表現を再スコアリング。
+  - 追加:
+    - 陸前高田市: 介護・障がい施設職員奨学金返還支援補助金、子育て応援在宅育児支援金、資格取得支援事業補助金、自治会館等整備事業費補助金。
+    - 釜石市: UIターン者奨学金返還支援補助金、UIターン者賃貸支援補助金、若者UIターン空き家改修等補助金、危険空き家除却工事補助金。
+    - 二戸市: 運輸事業者運行支援緊急対策事業費補助金、省エネルギー化支援事業費補助金、特定空き家等除却費補助金、生ごみ処理機購入補助金、人間ドック利用料補助金制度、結婚新生活支援補助金、がん患者医療用補整具購入費助成、水洗トイレリフォーム補助金、自家用汚水ポンプ設備設置費補助金、浄化槽切替接続費補助金。
+  - 既存確認:
+    - 一関市は重度心身障がい者医療費助成、妊婦支援給付金、子ども医療費助成、保育料無償化、就学援助、ブロック塀、緊急通報、高齢者福祉乗車券、エアコン設置、成人検診、人間ドック、住宅環境改善リフォーム、移住支援金、結婚新生活支援等18件を既存データ内で公式確認済みのため重複追加しない。
+  - 保留継続:
+    - 陸前高田市のまちづくり団体活動補助金は令和8年度募集終了、住まいるリフォーム支援事業は本文再確認待ち。価格高騰給付・国保税・年金・出産育児一時金等は終了済み又は国制度案内として第2巡台帳へ残す。
+    - 釜石市のがんばる中小企業応援事業補助金は受付停止中。母子家庭・父子家庭自立支援給付金、里帰り妊婦健診費用助成、出産育児一時金は重複・上限確認を第2巡で扱う。
+    - 二戸市のごみ集積所集約整備、資源回収運動、ウルシ苗木購入、地域の元気づくり支援、iサポ入会登録料、漆器等利用促進、漆塗り助成、木造住宅耐震診断士派遣等は第2巡へ残す。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: 0。
+    - `node scripts/check-grant-source-urls.mjs --slug <18 slugs> --timeout-ms 60000 --concurrency 4`: checked 18、failures 0。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7692、officialLinkedActive 7654、manuallyVerifiedActive 7654、岩手県 localOfficial 112）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-003-municipalities.json tasks/discovery/iwate-official-coverage-003-candidates.json tasks/discovery/iwate-official-coverage-003-snippets.json tasks/discovery/iwate-official-coverage-003.json`: pass。
+  - 次:
+    - 03214八幡平市、03215奥州市、03216滝沢市、03301雫石町を自治体コード順で確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
