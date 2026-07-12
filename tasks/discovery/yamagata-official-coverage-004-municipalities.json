@@ -1,0 +1,26 @@
+{
+  "batchId": "yamagata-comprehensive-official-coverage-004",
+  "prefecture": "山形県",
+  "municipalities": [
+    {
+      "code": "06212",
+      "name": "尾花沢市",
+      "officialBaseUrl": "https://www.city.obanazawa.yamagata.jp/"
+    },
+    {
+      "code": "06213",
+      "name": "南陽市",
+      "officialBaseUrl": "http://www.city.nanyo.yamagata.jp/"
+    },
+    {
+      "code": "06301",
+      "name": "山辺町",
+      "officialBaseUrl": "https://www.town.yamanobe.yamagata.jp/"
+    },
+    {
+      "code": "06302",
+      "name": "中山町",
+      "officialBaseUrl": "https://www.town.nakayama.yamagata.jp/"
+    }
+  ]
+}

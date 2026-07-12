@@ -1,0 +1,100 @@
+{
+  "batchId": "yamagata-comprehensive-official-coverage-004",
+  "prefecture": "山形県",
+  "completedAt": "2026-07-13T05:55:00+09:00",
+  "municipalities": [
+    {
+      "code": "06212",
+      "name": "尾花沢市",
+      "officialBaseUrl": "https://www.city.obanazawa.yamagata.jp/",
+      "adopted": [
+        "obanazawa-startup-support-subsidy-2026",
+        "obanazawa-qualification-acquisition-subsidy-2026",
+        "obanazawa-snow-equipment-subsidy-2026",
+        "obanazawa-furusato-living-support-2026",
+        "obanazawa-vacant-house-utilization-subsidy-2026",
+        "obanazawa-marriage-new-life-support-2026",
+        "obanazawa-school-lunch-and-expense-assistance-2026"
+      ],
+      "heldForSecondPass": [
+        "空き家解体・ブロック塀除却カテゴリは個別制度リンクの展開が必要",
+        "耐震化・リフォーム支援カテゴリは個別補助ページ又はPDF要綱の金額確認が必要"
+      ]
+    },
+    {
+      "code": "06213",
+      "name": "南陽市",
+      "officialBaseUrl": "http://www.city.nanyo.yamagata.jp/",
+      "adopted": [
+        "nanyo-housing-price-support-grant-2026",
+        "nanyo-led-security-light-subsidy-2026",
+        "nanyo-startup-support-subsidy-2026",
+        "nanyo-cat-neutering-subsidy-2026",
+        "nanyo-heavy-ion-therapy-subsidy-2026",
+        "nanyo-local-employment-student-support-2026",
+        "nanyo-product-brand-development-subsidy-2026",
+        "nanyo-child-rearing-settlement-grant-2026"
+      ],
+      "heldForSecondPass": [
+        "企業立地奨励金は公式本文の交付額表が抽出不足のためPDF又は表構造を再確認する",
+        "ビジネスホテル奨励金、本社機能移転奨励金、勤労者向け融資制度、経営開始支援助成は第2巡で金額・期限を確認する"
+      ]
+    },
+    {
+      "code": "06301",
+      "name": "山辺町",
+      "officialBaseUrl": "https://www.town.yamanobe.yamagata.jp/",
+      "adopted": [
+        "yamanobe-scholarship-return-u-turn-support-2026",
+        "yamanobe-resource-collection-incentive-2026",
+        "yamanobe-block-wall-removal-subsidy-2026",
+        "yamanobe-crematorium-fee-assistance-2026",
+        "yamanobe-mumps-vaccination-subsidy-2026",
+        "yamanobe-transport-service-ticket-2026"
+      ],
+      "heldForSecondPass": [
+        "家庭用生ごみ処理機等購入費補助は令和8年度受付終了のため現行受付状況を再確認する",
+        "子育て支援医療制度、児童手当等は福祉医療・国制度との切り分けを第2巡で確認する"
+      ]
+    },
+    {
+      "code": "06302",
+      "name": "中山町",
+      "officialBaseUrl": "https://www.town.nakayama.yamagata.jp/",
+      "adopted": [
+        "nakayama-english-test-fee-subsidy-2026",
+        "nakayama-third-child-childcare-fee-subsidy-2026",
+        "nakayama-small-business-growth-support-subsidy-2026",
+        "nakayama-wage-increase-support-grant-2026",
+        "nakayama-business-startup-challenge-subsidy-2026",
+        "nakayama-ikiiki-100-exercise-startup-subsidy-2026",
+        "nakayama-wildlife-damage-prevention-subsidy-2026"
+      ],
+      "heldForSecondPass": [
+        "山形県移住支援事業は県連携制度として県公式要件を第2巡で確認する",
+        "山形県中小企業パワーアップ補助金案内、特定創業支援証明、農業再生協議会ビジョンは町独自給付としては採用しない"
+      ]
+    }
+  ],
+  "candidateFiles": {
+    "municipalities": "tasks/discovery/yamagata-official-coverage-004-municipalities.json",
+    "candidates": "tasks/discovery/yamagata-official-coverage-004-candidates.json",
+    "snippets": "tasks/discovery/yamagata-official-coverage-004-snippets.json"
+  },
+  "sourceCandidateCount": 740,
+  "snippetKeptCount": 60,
+  "adoptedCount": 28,
+  "sourceUrlsChecked": 29,
+  "notes": [
+    "候補740件が150件を超えたため本文スニペット60件に再スコアリングした。",
+    "南陽市公式サイトはHTTPSが接続リセットとなるため、公式到達可能URLとしてHTTPを採用した。",
+    "トップ、カテゴリ、サイトマップ、国・県制度案内、表抽出不足の制度は第2巡台帳へ残した。"
+  ],
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "slugUniqueness": "pass: added 28 slugs, duplicate count 0",
+    "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 28 slugs / 29 source URLs including one PDF, failures 0, all HTTP 200",
+    "diffCheck": "pass: git diff --check for Yamagata 004 files",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8441, officialLinkedActive 8403, manuallyVerifiedActive 8403, Yamagata localOfficial 168, Yamagata coveredCategories 8"
+  }
+}
