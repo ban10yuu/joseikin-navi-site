@@ -1,0 +1,26 @@
+{
+  "batchId": "miyagi-comprehensive-official-coverage-006",
+  "prefecture": "宮城県",
+  "municipalities": [
+    {
+      "code": "04341",
+      "name": "丸森町",
+      "officialBaseUrl": "https://www.town.marumori.miyagi.jp/"
+    },
+    {
+      "code": "04361",
+      "name": "亘理町",
+      "officialBaseUrl": "https://www.town.watari.miyagi.jp/"
+    },
+    {
+      "code": "04362",
+      "name": "山元町",
+      "officialBaseUrl": "https://www.town.yamamoto.miyagi.jp/"
+    },
+    {
+      "code": "04401",
+      "name": "松島町",
+      "officialBaseUrl": "https://www.town.miyagi-matsushima.lg.jp/"
+    }
+  ]
+}

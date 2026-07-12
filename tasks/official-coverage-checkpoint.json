@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T13:55:00+09:00",
+  "updatedAt": "2026-07-12T14:30:00+09:00",
   "mode": "miyagi-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "miyagi-comprehensive-official-coverage-005",
-    "municipality": "大河原町・村田町・柴田町・川崎町",
+    "code": "miyagi-comprehensive-official-coverage-006",
+    "municipality": "丸森町・亘理町・山元町・松島町",
     "adopted": 20,
-    "held": 22,
+    "held": 32,
     "excluded": 0,
     "sourceUrlsChecked": 20,
     "validation": {
-      "previousMunicipality": "宮城県公式棚卸し005として、04321大河原町、04322村田町、04323柴田町、04324川崎町を確認。公式候補1512件から短い本文スニペット200件を抽出して再スコアリングし、各町5件ずつ合計20件をデータ反映。村田町はカテゴリページから個別制度ページへ展開し、川崎町は神奈川県川崎市とのslug衝突回避のためkawasaki-miyagi接頭辞を使用した。",
+      "previousMunicipality": "宮城県公式棚卸し006として、04341丸森町、04361亘理町、04362山元町、04401松島町を確認。公式候補1494件から短い本文スニペット200件を抽出して再スコアリングし、各町5件ずつ合計20件をデータ反映。亘理町はカテゴリ導線から個別制度ページへ展開し、金額・対象・申請条件が公式本文で確認できる移住支援金と医療用ウィッグ購入費助成を採用した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
       "urlReachability": "pass: 20制度20URL returned HTTP 200",
-      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-005-municipalities.json tasks/discovery/miyagi-official-coverage-005-candidates.json tasks/discovery/miyagi-official-coverage-005-snippets.json tasks/discovery/miyagi-official-coverage-005.json",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7891, officialLinkedActive 7853, manuallyVerifiedActive 7853, Miyagi localOfficial 135"
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-006-municipalities.json tasks/discovery/miyagi-official-coverage-006-candidates.json tasks/discovery/miyagi-official-coverage-006-snippets.json tasks/discovery/miyagi-official-coverage-006.json",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7911, officialLinkedActive 7873, manuallyVerifiedActive 7873, Miyagi localOfficial 155"
     }
   },
   "next": {
-    "code": "miyagi-comprehensive-official-coverage-006",
+    "code": "miyagi-comprehensive-official-coverage-007",
     "municipality": "宮城県",
-    "shortlist": "大河原町の子ども医療費助成・危険ブロック塀等除却・商工業支援制度、村田町の第3子以降保育料等助成・就学援助PDF単価・特定不妊治療費助成404、柴田町の若年がん在宅療養・犯罪被害者等支援・浄化槽設置助成、川崎町の生ごみ処理容器・特殊詐欺対策電話機・不妊検査費・ブロック塀・住宅災害復旧・浄化槽・耐震関連は第2巡で確認する。",
-    "instructions": "次は04341丸森町、04361亘理町、04362山元町、04401松島町を自治体コード順に公式本文/PDFで確認する。"
+    "shortlist": "丸森町の初回産科受診・不妊支援・子ども医療費・母子父子医療・帯状疱疹ワクチン、亘理町の危険ブロック塀・木造住宅耐震・就学援助・奨学金・妊婦支援給付・不妊検査/治療・障害者医療・母子父子医療・高齢者補聴器・障害者福祉タクシー/燃料助成・新規漁業者支援、山元町の木造住宅耐震・空き家家財道具等処分・障害者医療・ウィッグ・浄化槽・高齢者補聴器・リサイクル奨励金、松島町の子ども医療費・高齢者福祉サービス・幼児教育/保育無償化・児童館・移住定住/企業誘致は第2巡で確認する。",
+    "instructions": "次は04404七ヶ浜町、04406利府町、04421大和町、04422大郷町を自治体コード順に公式本文/PDFで確認する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

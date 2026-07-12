@@ -1,0 +1,108 @@
+{
+  "batchId": "miyagi-comprehensive-official-coverage-006",
+  "prefecture": "宮城県",
+  "completedAt": "2026-07-12T14:30:00+09:00",
+  "municipalities": [
+    {
+      "code": "04341",
+      "name": "丸森町",
+      "officialBaseUrl": "https://www.town.marumori.miyagi.jp/",
+      "adopted": [
+        "marumori-migration-support-grant-2026",
+        "marumori-happy-life-housing-subsidy-2026",
+        "marumori-newlywed-life-subsidy-2026",
+        "marumori-cancer-wig-subsidy-2026",
+        "marumori-drinking-water-facility-subsidy-2026"
+      ],
+      "heldForSecondPass": [
+        "初回産科受診費用助成",
+        "不妊に悩む夫婦への支援",
+        "子ども医療費助成",
+        "母子父子家庭医療費助成",
+        "帯状疱疹ワクチン接種費用助成",
+        "丸森暮らし応援商品券"
+      ]
+    },
+    {
+      "code": "04361",
+      "name": "亘理町",
+      "officialBaseUrl": "https://www.town.watari.miyagi.jp/",
+      "adopted": [
+        "watari-child-medical-expense-subsidy-2026",
+        "watari-child-allowance-2026",
+        "watari-newlywed-life-subsidy-2026",
+        "watari-migration-support-grant-2026",
+        "watari-cancer-wig-subsidy-2026"
+      ],
+      "heldForSecondPass": [
+        "危険ブロック塀等除却",
+        "木造住宅耐震診断",
+        "木造住宅耐震改修",
+        "就学援助",
+        "奨学金貸付",
+        "妊婦支援給付",
+        "不妊検査・不妊治療",
+        "心身障害者医療費助成",
+        "母子父子家庭医療費助成",
+        "高齢者補聴器購入費助成",
+        "障害者福祉タクシー・燃料助成",
+        "新規漁業者定住促進・育成支援"
+      ]
+    },
+    {
+      "code": "04362",
+      "name": "山元町",
+      "officialBaseUrl": "https://www.town.yamamoto.miyagi.jp/",
+      "adopted": [
+        "yamamoto-dangerous-block-wall-removal-subsidy-2026",
+        "yamamoto-single-parent-medical-expense-subsidy-2026",
+        "yamamoto-newlywed-life-subsidy-2026",
+        "yamamoto-bicycle-helmet-subsidy-2026",
+        "yamamoto-migration-support-grant-2026"
+      ],
+      "heldForSecondPass": [
+        "木造住宅耐震診断・耐震改修",
+        "空き家家財道具等処分",
+        "障害者医療費助成",
+        "がん患者医療用ウィッグ購入費助成",
+        "浄化槽設置整備",
+        "高齢者補聴器購入費助成",
+        "リサイクル奨励金",
+        "母子父子寡婦福祉資金貸付"
+      ]
+    },
+    {
+      "code": "04401",
+      "name": "松島町",
+      "officialBaseUrl": "https://www.town.miyagi-matsushima.lg.jp/",
+      "adopted": [
+        "matsushima-school-expense-assistance-2026",
+        "matsushima-pregnant-women-support-benefit-2026",
+        "matsushima-single-parent-medical-expense-subsidy-2026",
+        "matsushima-cancer-assistive-device-subsidy-2026",
+        "matsushima-child-allowance-2026"
+      ],
+      "heldForSecondPass": [
+        "子ども医療費助成",
+        "高齢者福祉サービス",
+        "幼児教育・保育無償化",
+        "児童館関連支援",
+        "移住・定住情報",
+        "企業誘致情報"
+      ]
+    }
+  ],
+  "discoveryArtifacts": {
+    "municipalities": "tasks/discovery/miyagi-official-coverage-006-municipalities.json",
+    "candidates": "tasks/discovery/miyagi-official-coverage-006-candidates.json",
+    "snippets": "tasks/discovery/miyagi-official-coverage-006-snippets.json"
+  },
+  "summary": {
+    "candidateCount": 1494,
+    "snippetSelectedCount": 200,
+    "adopted": 20,
+    "heldForSecondPass": 32,
+    "excluded": 0,
+    "sourceUrlsChecked": 20
+  }
+}
