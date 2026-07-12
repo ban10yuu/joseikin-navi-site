@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T05:55:00+09:00",
+  "updatedAt": "2026-07-13T06:55:00+09:00",
   "mode": "yamagata-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "yamagata-comprehensive-official-coverage-004",
-    "municipality": "尾花沢市・南陽市・山辺町・中山町",
-    "adopted": 28,
-    "held": 10,
+    "code": "yamagata-comprehensive-official-coverage-005",
+    "municipality": "河北町・西川町・朝日町・大江町",
+    "adopted": 29,
+    "held": 11,
     "excluded": 0,
     "sourceUrlsChecked": 29,
     "validation": {
-      "previousMunicipality": "山形県公式棚卸し004として、06212尾花沢市、06213南陽市、06301山辺町、06302中山町の公式サイトを確認した。候補740件が150件を超えたため本文スニペット60件を抽出して再スコアリングし、中山町は公式カテゴリ導線から商工・高齢者・農業支援の個別ページを補完した。制度名・対象・金額/上限・条件・期限/受付状況が公式本文又は公式PDFで確認できる個別ページ28件を採用した。カテゴリ、県制度案内、表抽出不足の企業立地奨励金、受付終了候補は第2巡台帳へ残した。",
+      "previousMunicipality": "山形県公式棚卸し005として、06321河北町、06322西川町、06323朝日町、06324大江町の公式サイトを確認した。候補863件が150件を超えたため本文スニペット100件を抽出して再スコアリングし、河北町と朝日町は公式支援制度一覧・事業者情報カテゴリから個別制度URLを補完した。制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別ページ29件を採用した。カテゴリ、県連携制度、融資案内、期限切れ又は金額確認不足候補は第2巡台帳へ残した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: added 28 slugs, duplicate count 0",
-      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 28 slugs / 29 source URLs including one PDF, failures 0, all HTTP 200",
-      "diffCheck": "pass: git diff --check for Yamagata 004 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8441, officialLinkedActive 8403, manuallyVerifiedActive 8403, Yamagata localOfficial 168, Yamagata coveredCategories 8"
+      "addedSlugUniqueness": "pass: added 29 slugs, duplicate count 0",
+      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 29 slugs / 29 source URLs, failures 0, all HTTP 200",
+      "diffCheck": "pass: git diff --check for Yamagata 005 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8470, officialLinkedActive 8432, manuallyVerifiedActive 8432, Yamagata localOfficial 197, Yamagata coveredCategories 8"
     }
   },
   "next": {
-    "code": "yamagata-comprehensive-official-coverage-005",
-    "municipality": "河北町・西川町・朝日町・大江町",
-    "shortlist": "山形県004は尾花沢市・南陽市・山辺町・中山町まで到達し、28制度を採用した。次は山形県005として自治体コード順に06321河北町、06322西川町、06323朝日町、06324大江町を確認する。",
-    "instructions": "山形県公式棚卸し005として、06321河北町、06322西川町、06323朝日町、06324大江町を自治体コード順に確認する。公式サイトの補助金・助成金・給付金・一時金等を制度ページ単位で、制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約付きで採用し、トップ、カテゴリ、サイトマップ、共通ナビ一致は削除せず第2巡台帳へ残す。既存raw gap 0を全国完了扱いしない。"
+    "code": "yamagata-comprehensive-official-coverage-006",
+    "municipality": "大石田町・金山町・最上町・舟形町",
+    "shortlist": "山形県005は河北町・西川町・朝日町・大江町まで到達し、29制度を採用した。次は山形県006として自治体コード順に06341大石田町、06361金山町、06362最上町、06363舟形町を確認する。",
+    "instructions": "山形県公式棚卸し006として、06341大石田町、06361金山町、06362最上町、06363舟形町を自治体コード順に確認する。公式サイトの補助金・助成金・給付金・一時金等を制度ページ単位で、制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約付きで採用し、トップ、カテゴリ、サイトマップ、共通ナビ一致は削除せず第2巡台帳へ残す。既存raw gap 0を全国完了扱いしない。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

@@ -1,0 +1,115 @@
+{
+  "batchId": "yamagata-comprehensive-official-coverage-005",
+  "prefecture": "山形県",
+  "completedAt": "2026-07-13T06:55:00+09:00",
+  "municipalities": [
+    {
+      "code": "06321",
+      "name": "河北町",
+      "officialBaseUrl": "https://www.town.kahoku.yamagata.jp/",
+      "adoptedSlugs": [
+        "kahoku-young-talent-settlement-grant-2026",
+        "kahoku-wooden-house-seismic-retrofit-subsidy-2026",
+        "kahoku-johkasou-installation-subsidy-2026",
+        "kahoku-food-waste-processor-subsidy-2026",
+        "kahoku-cat-neuter-subsidy-2026",
+        "kahoku-high-school-commuting-subsidy-2026",
+        "kahoku-home-ownership-promotion-subsidy-2026",
+        "kahoku-infertility-treatment-subsidy-2026"
+      ]
+    },
+    {
+      "code": "06322",
+      "name": "西川町",
+      "officialBaseUrl": "https://www.town.nishikawa.yamagata.jp/",
+      "adoptedSlugs": [
+        "nishikawa-scholarship-return-u-turn-support-2026",
+        "nishikawa-high-school-study-support-subsidy-2026",
+        "nishikawa-housing-construction-support-subsidy-2026",
+        "nishikawa-vacant-house-renovation-subsidy-2026",
+        "nishikawa-vacant-house-demolition-subsidy-2026"
+      ]
+    },
+    {
+      "code": "06323",
+      "name": "朝日町",
+      "officialBaseUrl": "https://www.town.asahi.yamagata.jp/",
+      "adoptedSlugs": [
+        "asahi-owned-home-construction-incentive-2026",
+        "asahi-vacant-house-renovation-subsidy-2026",
+        "asahi-wood-biomass-stove-subsidy-2026",
+        "asahi-startup-support-subsidy-2026",
+        "asahi-company-attractiveness-employment-promotion-subsidy-2026",
+        "asahi-shopping-street-challenge-subsidy-2026"
+      ]
+    },
+    {
+      "code": "06324",
+      "name": "大江町",
+      "officialBaseUrl": "https://www.town.oe.yamagata.jp/",
+      "adoptedSlugs": [
+        "oe-education-loan-repayment-support-2026",
+        "oe-scholarship-return-support-subsidy-2026",
+        "oe-business-prosperity-creation-subsidy-2026",
+        "oe-medical-wig-breast-prosthesis-subsidy-2026",
+        "oe-marriage-new-life-support-subsidy-2026",
+        "oe-young-childrearing-home-loan-subsidy-2026",
+        "oe-rent-subsidy-migration-newlywed-2026",
+        "oe-town-development-challenge-subsidy-2026",
+        "oe-ai-navi-yamagata-registration-subsidy-2026",
+        "oe-high-school-student-support-benefit-2026"
+      ]
+    }
+  ],
+  "candidateSummary": {
+    "officialCandidates": 863,
+    "snippetRows": 100,
+    "adopted": 29,
+    "sourceUrlsChecked": 29
+  },
+  "method": [
+    "公式トップURL4件の到達を確認した。",
+    "公式サイト・sitemap・カテゴリ導線から候補863件を生成した。",
+    "候補が150件を超えたため本文スニペット100件を抽出し、制度強語、金額、対象、申請・期限表現で再スコアリングした。",
+    "河北町と朝日町は公式支援制度一覧・事業者情報カテゴリから個別制度URLを補完した。",
+    "公式本文で制度名・対象・金額/上限・条件・期限/受付状況が確認できる個別ページのみ採用した。"
+  ],
+  "heldForSecondPass": [
+    {
+      "municipality": "河北町",
+      "items": [
+        "令和7年度結婚新生活支援事業は令和8年3月25日期限のため現行受付としては第2巡で令和8年度ページを再確認する。",
+        "雇用促進等補助金、みらい応援創業支援、フリースクール等利用料支援、奨学金返還支援の複数ページは、金額・年度・対象枠を第2巡で個別確認する。",
+        "カテゴリページ、町内会除雪機、省エネ家電、再エネ・省エネ設備、移住定住支援の関連制度は公式本文又はPDFを第2巡で追加精査する。"
+      ]
+    },
+    {
+      "municipality": "西川町",
+      "items": [
+        "結婚新生活支援、引越し費用支援、薪ストーブ等設置支援、正規雇用奨励金、農業事業所正規雇用奨励金、妊婦健診・妊婦支援給付金は第2巡で金額・期限を再確認する。",
+        "補助金カテゴリ、健康福祉課カテゴリ、国保税・後期高齢者医療保険料等の通常行政手続は制度個別ページとして採用しない。"
+      ]
+    },
+    {
+      "municipality": "朝日町",
+      "items": [
+        "工業製品等販路拡大支援、病児・病後児保育利用料助成、任意予防接種費用助成、新生児聴覚検査費用助成、農業関係補助事業一覧は第2巡で公式本文/PDFを補完する。",
+        "商工・農業カテゴリ一覧は個別制度URLへ展開済みのものだけ採用し、一覧自体は採用しない。"
+      ]
+    },
+    {
+      "municipality": "大江町",
+      "items": [
+        "移住支援金は県連携制度のため、第2巡で県公式要件との整合を確認する。",
+        "左沢高等学校支援事業、生活応援ローン、教育ローン本体は、給付・補助該当部分と融資案内を切り分けて第2巡で精査する。"
+      ]
+    }
+  ],
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: added 29 slugs, duplicate count 0",
+    "urlReachability": "pass: 29 slugs / 29 source URLs checked, failures 0, all HTTP 200",
+    "auditCoverage": "pass: failures 0, activePublished 8470, officialLinkedActive 8432, manuallyVerifiedActive 8432, Yamagata localOfficial 197, Yamagata coveredCategories 8",
+    "diffCheck": "pass: git diff --check for Yamagata 005 files"
+  }
+}

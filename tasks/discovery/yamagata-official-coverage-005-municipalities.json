@@ -1,0 +1,26 @@
+{
+  "batchId": "yamagata-comprehensive-official-coverage-005",
+  "prefecture": "山形県",
+  "municipalities": [
+    {
+      "code": "06321",
+      "name": "河北町",
+      "officialBaseUrl": "https://www.town.kahoku.yamagata.jp/"
+    },
+    {
+      "code": "06322",
+      "name": "西川町",
+      "officialBaseUrl": "https://www.town.nishikawa.yamagata.jp/"
+    },
+    {
+      "code": "06323",
+      "name": "朝日町",
+      "officialBaseUrl": "https://www.town.asahi.yamagata.jp/"
+    },
+    {
+      "code": "06324",
+      "name": "大江町",
+      "officialBaseUrl": "https://www.town.oe.yamagata.jp/"
+    }
+  ]
+}
