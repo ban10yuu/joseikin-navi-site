@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T15:55:00+09:00",
+  "updatedAt": "2026-07-12T16:37:00+09:00",
   "mode": "miyagi-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "miyagi-comprehensive-official-coverage-second-pass-003",
-    "municipality": "多賀城市・岩沼市・登米市・栗原市",
-    "adopted": 16,
+    "code": "miyagi-comprehensive-official-coverage-second-pass-004",
+    "municipality": "東松島市・大崎市・蔵王町・七ヶ宿町",
+    "adopted": 20,
     "held": 0,
-    "excluded": 11,
-    "sourceUrlsChecked": 16,
+    "excluded": 12,
+    "sourceUrlsChecked": 21,
     "validation": {
-      "previousMunicipality": "宮城県公式棚卸し第2巡003として、04209多賀城市、04211岩沼市、04212登米市、04213栗原市の第1巡保留候補を再確認。多賀城市の介護保険料減免、岩沼市の児童扶養手当・犯罪被害者等支援金、登米市の創業・不妊・地域集会施設耐震・危険ブロック塀、栗原市の危険ブロック塀・水洗化・防犯・移住住宅・中小企業融資補給を採用し、重複候補とカテゴリ/市外制度案内候補は採否理由を記録して解消した。",
+      "previousMunicipality": "宮城県公式棚卸し第2巡004として、04214東松島市、04215大崎市、04301蔵王町、04302七ヶ宿町の第1巡保留候補を再確認。東松島市の不妊・医療費・児童手当・ひとり親職業訓練、蔵王町の不妊・奨学金返還・移住支援・子ども医療・児童手当、七ヶ宿町のにぎやか家族応援・出産宿泊・任意接種・障害福祉助成・子ども医療・新生児聴覚検査を採用し、大崎市と各町市のカテゴリ/期限切れ/国県制度候補は採否理由を記録して解消した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "duplicateSlugs": "pass: total 8035, duplicates 0",
-      "urlReachability": "pass: 16制度16URL returned HTTP 200",
-      "diffCheck": "pass: git diff --check for Miyagi second-pass 003 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7988, officialLinkedActive 7950, manuallyVerifiedActive 7950, Miyagi localOfficial 232"
+      "duplicateSlugs": "pass: total 8055, duplicates 0",
+      "urlReachability": "pass: 20制度21URL returned HTTP 200",
+      "diffCheck": "pass: git diff --check for Miyagi second-pass 004 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8008, officialLinkedActive 7970, manuallyVerifiedActive 7970, Miyagi localOfficial 252"
     }
   },
   "next": {
-    "code": "miyagi-comprehensive-official-coverage-second-pass-004",
-    "municipality": "東松島市・大崎市・蔵王町・七ヶ宿町",
-    "shortlist": "東松島市の地方就職学生支援金・移住支援金・児童手当医療費カテゴリ、蔵王町の不妊検査費/不妊治療費・奨学金返還・移住支援金・医療費助成・中小企業融資、七ヶ宿町のにぎやか家族応援・住宅助成・障害福祉各助成・子ども医療費・任意予防接種等を第2巡で確認する。",
-    "instructions": "宮城県第2巡003は多賀城市・岩沼市・登米市・栗原市の未判定候補を解消。次は第1巡004の保留候補を自治体コード順で確認し、公式本文/PDFで採否を確定する。"
+    "code": "miyagi-comprehensive-official-coverage-second-pass-005",
+    "municipality": "大河原町・村田町・柴田町・川崎町",
+    "shortlist": "大河原町の子ども医療費助成・危険ブロック塀等除却・商工業支援制度、村田町の第3子以降保育料等助成・就学援助PDF単価・特定不妊治療費助成404、柴田町の若年がん在宅療養・犯罪被害者等支援・浄化槽設置助成、川崎町の生ごみ処理容器・特殊詐欺対策電話機・不妊検査費・ブロック塀・住宅災害復旧・浄化槽・耐震関連を第2巡で確認する。",
+    "instructions": "宮城県第2巡004は東松島市・大崎市・蔵王町・七ヶ宿町の未判定候補を解消。次は第1巡005の保留候補を自治体コード順で確認し、公式本文/PDFで採否を確定する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

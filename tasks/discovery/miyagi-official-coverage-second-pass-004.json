@@ -1,0 +1,92 @@
+{
+  "batchId": "miyagi-comprehensive-official-coverage-second-pass-004",
+  "prefecture": "宮城県",
+  "completedAt": "2026-07-12T16:37:00+09:00",
+  "sourceFirstPass": "tasks/discovery/miyagi-official-coverage-004.json",
+  "municipalities": [
+    {
+      "code": "04214",
+      "name": "東松島市",
+      "status": "second-pass-completed",
+      "adopted": 6,
+      "held": 0,
+      "excluded": 4,
+      "notes": "不妊検査費、不妊治療費、子ども医療費、母子・父子家庭医療費、児童手当、高等職業訓練促進給付金等を採用。地方就職学生支援金は期限が令和6年で現行性不足、移住支援金は令和6年度受付終了表記、農業構造転換支援は国・県事業色が強く市独自制度としては除外。"
+    },
+    {
+      "code": "04215",
+      "name": "大崎市",
+      "status": "second-pass-completed",
+      "adopted": 0,
+      "held": 0,
+      "excluded": 2,
+      "notes": "第1巡保留候補はトップ・カテゴリ・既存公式確認済み制度・一般案内が中心で、既存の心身障害者医療費助成、エコ改善推進、移住リフォーム、学校給食費、ビジネスチャンス応援等と重複するため新規追加なし。"
+    },
+    {
+      "code": "04301",
+      "name": "蔵王町",
+      "status": "second-pass-completed",
+      "adopted": 6,
+      "held": 0,
+      "excluded": 2,
+      "notes": "不妊検査費、不妊治療費、奨学金返還支援、移住支援金、子ども医療費、児童手当を採用。中小企業融資は融資案内中心で補助金としての利子・保証料等の個別助成要件を今回確認できず、国・県・外部サイト案内は町公式独自制度として除外。"
+    },
+    {
+      "code": "04302",
+      "name": "七ヶ宿町",
+      "status": "second-pass-completed",
+      "adopted": 8,
+      "held": 0,
+      "excluded": 4,
+      "notes": "にぎやか家族応援、出産のための家族宿泊費用、任意接種、障害者運転免許取得、自動車改造、在宅酸素濃縮器、子ども医療費、新生児聴覚検査を採用。住宅助成は助成額表が公式本文/PDFから取得できず、補装具費・日常生活用具は利用者負担案内中心、児童手当・出産育児一時金は今回の追加対象から除外。"
+    }
+  ],
+  "adoptedSlugs": [
+    "higashimatsushima-infertility-testing-subsidy-2026",
+    "higashimatsushima-infertility-treatment-subsidy-2026",
+    "higashimatsushima-child-medical-expense-subsidy-2026",
+    "higashimatsushima-single-parent-medical-expense-subsidy-2026",
+    "higashimatsushima-child-allowance-2026",
+    "higashimatsushima-single-parent-vocational-training-benefit-2026",
+    "zao-infertility-testing-subsidy-2026",
+    "zao-infertility-treatment-subsidy-2026",
+    "zao-scholarship-repayment-support-subsidy-2026",
+    "zao-migration-support-grant-2026",
+    "zao-child-medical-expense-subsidy-2026",
+    "zao-child-allowance-2026",
+    "shichikashuku-lively-family-infertility-subsidy-2026",
+    "shichikashuku-family-childbirth-lodging-subsidy-2026",
+    "shichikashuku-child-optional-vaccination-subsidy-2026",
+    "shichikashuku-disabled-driver-license-subsidy-2026",
+    "shichikashuku-disabled-vehicle-modification-subsidy-2026",
+    "shichikashuku-home-oxygen-concentrator-subsidy-2026",
+    "shichikashuku-child-medical-expense-subsidy-2026",
+    "shichikashuku-newborn-hearing-test-subsidy-2026"
+  ],
+  "excludedCandidates": [
+    {
+      "municipality": "東松島市",
+      "reason": "地方就職学生支援金は申請期限が令和6年2月20日表記で現行性を確認できず、移住支援金は令和6年度受付終了表記、地域農業構造転換支援等は国・県事業色が強い。"
+    },
+    {
+      "municipality": "大崎市",
+      "reason": "第1巡保留候補はカテゴリ・トップ・既存制度確認が中心で、新規の公式ページ単位制度として採用できる候補なし。"
+    },
+    {
+      "municipality": "蔵王町",
+      "reason": "中小企業融資制度は融資案内中心で、今回の補助金・助成金ページ単位採用に必要な補助額や申請条件の切り分けが不十分。外部サイト案内は町独自制度ではない。"
+    },
+    {
+      "municipality": "七ヶ宿町",
+      "reason": "住宅助成は公式ページ上で対象は確認できるが助成額表を取得できず、補装具費・日常生活用具は利用者負担案内中心。児童手当・出産育児一時金は国制度として今回追加しない。"
+    }
+  ],
+  "sourceUrlsChecked": 21,
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "duplicateSlugs": "pass: total 8055, duplicates 0",
+    "urlReachability": "pass: 20制度21URL returned HTTP 200",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8008, officialLinkedActive 7970, manuallyVerifiedActive 7970, Miyagi localOfficial 252",
+    "diffCheck": "pass: git diff --check for Miyagi second-pass 004 files"
+  }
+}
