@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T10:55:00+09:00",
+  "updatedAt": "2026-07-12T11:30:00+09:00",
   "mode": "iwate-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "iwate-comprehensive-official-coverage-003",
-    "municipality": "一関市・陸前高田市・釜石市・二戸市",
-    "adopted": 18,
-    "held": 26,
+    "code": "iwate-comprehensive-official-coverage-004",
+    "municipality": "八幡平市・奥州市・滝沢市・雫石町",
+    "adopted": 22,
+    "held": 33,
     "excluded": 0,
-    "sourceUrlsChecked": 18,
+    "sourceUrlsChecked": 22,
     "validation": {
-      "previousMunicipality": "岩手県公式棚卸し003として、03209一関市、03210陸前高田市、03211釜石市、03213二戸市を確認。候補1138件のため本文スニペット再抽出を行い、陸前高田市4件・釜石市4件・二戸市10件を公式本文で必須項目確認後にデータ反映。一関市18件は既存データ内で公式確認済み。",
+      "previousMunicipality": "岩手県公式棚卸し004として、03214八幡平市、03215奥州市、03216滝沢市、03301雫石町を確認。候補701件のため本文スニペット再抽出を行い、八幡平市7件・滝沢市6件・雫石町9件を公式本文で必須項目確認後にデータ反映。奥州市1件・八幡平市1件は既存データ内で公式確認済み。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --slug <18 slugs> checked 18 failures 0",
-      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-003-municipalities.json tasks/discovery/iwate-official-coverage-003-candidates.json tasks/discovery/iwate-official-coverage-003-snippets.json tasks/discovery/iwate-official-coverage-003.json",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7692, officialLinkedActive 7654, manuallyVerifiedActive 7654, Iwate localOfficial 112"
+      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --slug <22 slugs> checked 22 failures 0",
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-004-municipalities.json tasks/discovery/iwate-official-coverage-004-candidates.json tasks/discovery/iwate-official-coverage-004-snippets.json tasks/discovery/iwate-official-coverage-004.json",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7712, officialLinkedActive 7674, manuallyVerifiedActive 7674, Iwate localOfficial 132"
     }
   },
   "next": {
-    "code": "iwate-comprehensive-official-coverage-004",
+    "code": "iwate-comprehensive-official-coverage-005",
     "municipality": "岩手県",
-    "shortlist": "陸前高田市4件・釜石市4件・二戸市10件をデータ反映。一関市は既存18件を公式確認済み。陸前高田市住まいるリフォーム、釜石市の受付停止・ひとり親/妊婦健診系、二戸市の地域の元気づくり支援補助金・資源回収等は第2巡で確認する。",
-    "instructions": "次は03214八幡平市、03215奥州市、03216滝沢市、03301雫石町を自治体コード順に公式本文/PDFで確認する。"
+    "shortlist": "八幡平市7件・滝沢市6件・雫石町9件をデータ反映。奥州市は既存1件を公式確認済み。八幡平市の地域協働型有害鳥獣駆除、滝沢市の上下水道補助金・融資、雫石町の地域公民館等整備・医療費助成一覧・高齢者及び障がい者にやさしい住まいづくりは第2巡で確認する。",
+    "instructions": "次は03302葛巻町、03303岩手町、03321紫波町、03322矢巾町を自治体コード順に公式本文/PDFで確認する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

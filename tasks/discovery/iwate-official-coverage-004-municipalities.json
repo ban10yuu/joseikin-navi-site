@@ -1,0 +1,26 @@
+{
+  "batchId": "iwate-comprehensive-official-coverage-004",
+  "prefecture": "岩手県",
+  "municipalities": [
+    {
+      "code": "03214",
+      "name": "八幡平市",
+      "officialBaseUrl": "https://www.city.hachimantai.lg.jp/"
+    },
+    {
+      "code": "03215",
+      "name": "奥州市",
+      "officialBaseUrl": "https://www.city.oshu.iwate.jp/"
+    },
+    {
+      "code": "03216",
+      "name": "滝沢市",
+      "officialBaseUrl": "https://www.city.takizawa.iwate.jp/"
+    },
+    {
+      "code": "03301",
+      "name": "雫石町",
+      "officialBaseUrl": "https://www.town.shizukuishi.iwate.jp/"
+    }
+  ]
+}

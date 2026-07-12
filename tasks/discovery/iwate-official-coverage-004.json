@@ -1,0 +1,117 @@
+{
+  "batchId": "iwate-comprehensive-official-coverage-004",
+  "prefecture": "岩手県",
+  "checkedAt": "2026-07-12T11:30:00+09:00",
+  "municipalities": [
+    {
+      "code": "03214",
+      "name": "八幡平市",
+      "officialBaseUrl": "https://www.city.hachimantai.lg.jp/",
+      "candidateCount": 211,
+      "strongCandidateCount": 16,
+      "existingVerifiedCount": 1,
+      "adoptedCount": 7,
+      "heldCount": 8,
+      "adoptedSlugs": [
+        "hachimantai-pregnant-women-support-benefit-2026",
+        "hachimantai-commuter-pass-subsidy-2026",
+        "hachimantai-single-parent-education-training-benefit-2026",
+        "hachimantai-scholarship-loan-2026",
+        "hachimantai-bear-attracting-tree-felling-subsidy-2026",
+        "hachimantai-electric-fence-subsidy-2026",
+        "hachimantai-hunting-license-acquisition-subsidy-2026"
+      ],
+      "heldNotes": [
+        "結婚新生活支援補助金は既存データで公式確認済みのため重複追加しない。",
+        "医療費助成一覧、市税・保険料・年金等の制度案内、カテゴリ・共通ナビ一致は第2巡台帳へ残す。",
+        "地域協働型有害鳥獣駆除活動費補助金は詳細要件・年度を第2巡で再確認する。"
+      ]
+    },
+    {
+      "code": "03215",
+      "name": "奥州市",
+      "officialBaseUrl": "https://www.city.oshu.iwate.jp/",
+      "candidateCount": 35,
+      "strongCandidateCount": 0,
+      "existingVerifiedCount": 1,
+      "adoptedCount": 0,
+      "heldCount": 6,
+      "notes": "住宅エコリフォーム支援事業補助金は既存データで公式確認済み。今回の抽出上位は妊産婦支援案内、移住サイト、カテゴリ・一覧ページが中心で、金額・対象・期限が揃う個別補助ページは追加採用しない。"
+    },
+    {
+      "code": "03216",
+      "name": "滝沢市",
+      "officialBaseUrl": "https://www.city.takizawa.iwate.jp/",
+      "candidateCount": 212,
+      "strongCandidateCount": 11,
+      "adoptedCount": 6,
+      "heldCount": 7,
+      "adoptedSlugs": [
+        "takizawa-vacant-house-housing-support-subsidy-2026",
+        "takizawa-migration-vacant-house-renovation-subsidy-2026",
+        "takizawa-vacant-house-bank-incentive-2026",
+        "takizawa-dangerous-vacant-house-demolition-subsidy-2026",
+        "takizawa-specialty-product-development-subsidy-2026",
+        "takizawa-school-commuter-pass-fare-increase-subsidy-2026"
+      ],
+      "heldNotes": [
+        "上下水道補助金・融資制度は複数制度一覧のため、個別条件の分解を第2巡で扱う。",
+        "空き家バンク制度本体、都市計画・道路・施設管理ページ、共通ナビ一致は第2巡台帳へ残す。"
+      ]
+    },
+    {
+      "code": "03301",
+      "name": "雫石町",
+      "officialBaseUrl": "https://www.town.shizukuishi.iwate.jp/",
+      "candidateCount": 243,
+      "strongCandidateCount": 0,
+      "adoptedCount": 9,
+      "heldCount": 12,
+      "adoptedSlugs": [
+        "shizukuishi-youth-settlement-activity-travel-subsidy-2026",
+        "shizukuishi-youth-home-acquisition-incentive-2026",
+        "shizukuishi-youth-ui-turn-support-grant-2026",
+        "shizukuishi-local-timber-use-incentive-2026",
+        "shizukuishi-septic-tank-installation-subsidy-2026",
+        "shizukuishi-product-fair-exhibition-subsidy-2026",
+        "shizukuishi-outdoor-tourism-promotion-subsidy-2026",
+        "shizukuishi-food-waste-processor-subsidy-2026",
+        "shizukuishi-community-formation-grant-2026"
+      ],
+      "heldNotes": [
+        "地域公民館等整備事業補助金、医療費助成一覧、高齢者及び障がい者にやさしい住まいづくり推進事業は制度粒度・受付状況を第2巡で再確認する。",
+        "若者定住活動支援助成金はページ見出しと本文の上限表示に差異があるため、本文の地域別上限を採用し、差異をsourceNoteへ残した。",
+        "カテゴリ・新着一覧・公表資料・広報記事は第2巡台帳へ残す。"
+      ]
+    }
+  ],
+  "discoveryArtifacts": {
+    "municipalities": "tasks/discovery/iwate-official-coverage-004-municipalities.json",
+    "candidates": "tasks/discovery/iwate-official-coverage-004-candidates.json",
+    "snippets": "tasks/discovery/iwate-official-coverage-004-snippets.json"
+  },
+  "candidateTotals": {
+    "discovered": 2080,
+    "candidates": 701,
+    "strong": 27,
+    "lowPriority": 674
+  },
+  "result": {
+    "adopted": 22,
+    "existingVerified": 2,
+    "held": 33,
+    "excluded": 0,
+    "sourceUrlsChecked": 22
+  },
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "duplicateSlugs": 0,
+    "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --slug <22 slugs> checked 22 failures 0",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7712, officialLinkedActive 7674, manuallyVerifiedActive 7674, Iwate localOfficial 132",
+    "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-004-municipalities.json tasks/discovery/iwate-official-coverage-004-candidates.json tasks/discovery/iwate-official-coverage-004-snippets.json tasks/discovery/iwate-official-coverage-004.json"
+  },
+  "next": {
+    "code": "iwate-comprehensive-official-coverage-005",
+    "instructions": "次は03302葛巻町、03303岩手町、03321紫波町、03322矢巾町を自治体コード順に公式本文/PDFで確認する。"
+  }
+}

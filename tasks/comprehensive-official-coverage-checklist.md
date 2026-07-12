@@ -3341,6 +3341,36 @@
   - 次:
     - 03214八幡平市、03215奥州市、03216滝沢市、03301雫石町を自治体コード順で確認する。
 
+- 岩手県公式棚卸し004（八幡平市・奥州市・滝沢市・雫石町）
+  - 対象:
+    - 03214 八幡平市
+    - 03215 奥州市
+    - 03216 滝沢市
+    - 03301 雫石町
+  - 探索:
+    - `tasks/discovery/iwate-official-coverage-004-municipalities.json` を作成し、公式サイトから候補を抽出。
+    - `tasks/discovery/iwate-official-coverage-004-candidates.json`: 候補701件（八幡平市211、奥州市35、滝沢市212、雫石町243）。strong 27、low priority 674。
+    - 候補が150件超のため `tasks/discovery/iwate-official-coverage-004-snippets.json` で本文スニペットを再抽出し、制度名・対象・金額・期限表現を再スコアリング。
+  - 追加:
+    - 八幡平市: 妊婦のための支援給付金、通学定期券購入費補助金、母子家庭等自立支援教育訓練給付金、奨学金制度、ツキノワグマ誘引樹木伐採事業費補助金、有害鳥獣対策電気柵設置補助金、狩猟免許新規取得経費補助金。
+    - 滝沢市: 空き家住宅支援事業補助金、移住定住促進空家等改修補助金、空き家バンク活用奨励金、危険空家等除却工事補助金、特産品開発振興事業補助金、通学定期乗車券購入費助成事業。
+    - 雫石町: 若者定住活動支援助成金、若者向け住宅取得支援奨励金、若者U・Iターン支援金、町産木材利用促進奨励金、浄化槽設置整備事業費補助金、物産展等出展事業費補助金、アウトドア観光促進事業費補助金、生ごみ処理機購入費補助金、地域コミュニティ形成推進事業交付金。
+  - 既存確認:
+    - 八幡平市は結婚新生活支援補助金を既存データ内で公式確認済みのため重複追加しない。
+    - 奥州市は住宅エコリフォーム支援事業補助金を既存データ内で公式確認済み。今回の抽出上位は妊産婦支援案内、移住サイト、カテゴリ・一覧ページが中心で、金額・対象・期限が揃う個別補助ページは追加採用しない。
+  - 保留継続:
+    - 八幡平市の地域協働型有害鳥獣駆除活動費補助金、医療費助成一覧、市税・保険料・年金等の制度案内、カテゴリ・共通ナビ一致は第2巡へ残す。
+    - 滝沢市の上下水道補助金・融資制度は複数制度一覧のため、個別条件の分解を第2巡で扱う。空き家バンク制度本体、都市計画・道路・施設管理ページ、共通ナビ一致は第2巡台帳へ残す。
+    - 雫石町の地域公民館等整備事業補助金、医療費助成一覧、高齢者及び障がい者にやさしい住まいづくり推進事業は制度粒度・受付状況を第2巡で再確認する。カテゴリ・新着一覧・公表資料・広報記事は第2巡台帳へ残す。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: 0。
+    - `node scripts/check-grant-source-urls.mjs --slug <22 slugs> --timeout-ms 60000 --concurrency 4`: checked 22、failures 0。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7712、officialLinkedActive 7674、manuallyVerifiedActive 7674、岩手県 localOfficial 132）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-004-municipalities.json tasks/discovery/iwate-official-coverage-004-candidates.json tasks/discovery/iwate-official-coverage-004-snippets.json tasks/discovery/iwate-official-coverage-004.json`: pass。
+  - 次:
+    - 03302葛巻町、03303岩手町、03321紫波町、03322矢巾町を自治体コード順で確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:
