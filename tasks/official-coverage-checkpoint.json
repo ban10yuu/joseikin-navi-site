@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T04:55:00+09:00",
+  "updatedAt": "2026-07-13T08:00:00+09:00",
   "mode": "akita-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "akita-comprehensive-official-second-pass-004",
-    "municipality": "にかほ市・仙北市・小坂町・上小阿仁村",
-    "adopted": 20,
-    "held": 11,
-    "excluded": 2,
-    "sourceUrlsChecked": 20,
+    "code": "akita-comprehensive-official-second-pass-005",
+    "municipality": "藤里町・三種町・八峰町・五城目町",
+    "adopted": 7,
+    "held": 7,
+    "excluded": 6,
+    "sourceUrlsChecked": 7,
     "validation": {
-      "previousMunicipality": "秋田県第2巡004として、05214にかほ市、05215仙北市、05303小坂町、05327上小阿仁村の第1巡保留候補を確認した。にかほ市7件、仙北市6件、小坂町2件、上小阿仁村5件を追加し、404、本文欠落、国・県制度性が強い候補、一覧記載のみで金額・申請期限不足の候補は第2巡台帳へ残した。",
+      "previousMunicipality": "秋田県第2巡005として、05346藤里町、05348三種町、05349八峰町、05361五城目町の第1巡保留候補を確認した。藤里町2件、三種町4件、八峰町1件を追加し、五城目町は既存掲載制度・過去事例・国県制度町窓口・受付終了分として追加なしとした。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: added Akita second-pass 004 slugs 20, duplicate count 0",
-      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 20 slugs, failures 0, all HTTP 200",
-      "diffCheck": "pass: git diff --check for Akita second-pass 004 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8318, officialLinkedActive 8280, manuallyVerifiedActive 8280, Akita localOfficial 287"
+      "addedSlugUniqueness": "pass: added Akita second-pass 005 slugs 7, duplicate count 0",
+      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 7 slugs, failures 0, all HTTP 200",
+      "diffCheck": "pass: git diff --check for Akita second-pass 005 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8325, officialLinkedActive 8287, manuallyVerifiedActive 8287, Akita localOfficial 294"
     }
   },
   "next": {
-    "code": "akita-comprehensive-official-second-pass-005",
-    "municipality": "藤里町・三種町・八峰町・五城目町",
-    "shortlist": "秋田県第2巡004はにかほ市7件、仙北市6件、小坂町2件、上小阿仁村5件を追加した。次は第1巡005の保留候補を藤里町・三種町・八峰町・五城目町から確認する。",
-    "instructions": "秋田県第2巡005として、05346藤里町、05348三種町、05349八峰町、05361五城目町を自治体コード順に確認する。藤里町は高等学校等通学費応援金、町の魅力活動助成、起業創業関連、奨学金返還支援、子育てファミリー支援、エアコン購入等支援を確認する。三種町は住宅整備資金貸付、県住宅リフォーム併用案内、ひとり親講習会、子育てガイド、広報PDF内の放任果樹伐採・狩猟免許・まち活候補を確認する。八峰町は2025年度大館能代空港利用促進助成金、子ども予防接種、空き家情報室・空き家活用住宅、カテゴリページ、プロポーザル等の事業者募集を確認する。五城目町は商工業・空き店舗カテゴリ、過去採択事例ページ、豪雨災害支援ページの受付継続分、カテゴリ一覧候補を個別根拠へ分解して確認する。既存raw gap 0を全国完了扱いしない。"
+    "code": "akita-comprehensive-official-second-pass-006",
+    "municipality": "八郎潟町・井川町・大潟村・美郷町",
+    "shortlist": "秋田県第2巡005は藤里町2件、三種町4件、八峰町1件を追加した。次は第1巡006の保留候補を八郎潟町・井川町・大潟村・美郷町から確認する。",
+    "instructions": "秋田県第2巡006として、05363八郎潟町、05366井川町、05368大潟村、05434美郷町を自治体コード順に確認する。八郎潟町は福祉医療制度、住宅・空き家カテゴリ、カテゴリ一覧やトップページ一致候補の独自額・受付状況を確認する。井川町は物価高対応子育て応援手当の期限到来確認、子育て応援事業内の保育料助成、任意予防接種等の個別額を確認する。大潟村は住まいづくり支援事業、きずな定期便、結婚新生活応援、不妊治療費助成、妊娠・出産通院サポート、給食費無償化、こども園おむつ無償化を公式本文または添付要綱で確認する。美郷町は医療費助成、福祉・介護、農林業、空き家関連、PDF/様式のみで詳細が分かれる候補を確認する。既存raw gap 0を全国完了扱いしない。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

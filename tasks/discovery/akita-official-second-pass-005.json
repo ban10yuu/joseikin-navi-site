@@ -1,0 +1,99 @@
+{
+  "batchId": "akita-comprehensive-official-second-pass-005",
+  "prefecture": "秋田県",
+  "generatedAt": "2026-07-13T08:00:00+09:00",
+  "sourceFirstPassFile": "tasks/discovery/akita-official-coverage-005.json",
+  "targetMunicipalities": [
+    {
+      "code": "05346",
+      "name": "藤里町",
+      "officialBaseUrl": "https://www.town.fujisato.akita.jp/",
+      "adopted": 2
+    },
+    {
+      "code": "05348",
+      "name": "三種町",
+      "officialBaseUrl": "https://www.town.mitane.akita.jp/",
+      "adopted": 4
+    },
+    {
+      "code": "05349",
+      "name": "八峰町",
+      "officialBaseUrl": "https://www.town.happo.lg.jp/",
+      "adopted": 1
+    },
+    {
+      "code": "05361",
+      "name": "五城目町",
+      "officialBaseUrl": "https://www.town.gojome.akita.jp/",
+      "adopted": 0
+    }
+  ],
+  "adopted": {
+    "total": 7,
+    "byMunicipality": {
+      "藤里町": [
+        {
+          "slug": "fujisato-challenge-startup-subsidy-2026",
+          "title": "チャレンジ助成事業補助金",
+          "officialUrl": "https://www.town.fujisato.akita.jp/sangyo/c623/c654/1278",
+          "evidence": "町内創業者、創業等に必要な経費、補助対象経費2分の1以内・上限100万円、随時受付を公式本文で確認。"
+        },
+        {
+          "slug": "fujisato-scholarship-loan-2026",
+          "title": "奨学金制度",
+          "officialUrl": "https://www.town.fujisato.akita.jp/kosodate/c117/c322/1954",
+          "evidence": "保護者が町在住する高校生・大学生等、高校・専修学校月額2万円、短大・大学等月額4万5千円、卒業後12年以内償還を公式PDFで確認。"
+        }
+      ],
+      "三種町": [
+        {
+          "slug": "mitane-childcare-family-service-subsidy-2026",
+          "title": "子育てファミリー支援事業",
+          "officialUrl": "https://www.town.mitane.akita.jp/soshikikarasagasu/fukushika/1/451.html",
+          "evidence": "未就学児養育世帯、一時預かり・病児保育・産後ケア等の利用料、1世帯年度上限15,000円、利用年度3月末まで申請を確認。"
+        },
+        {
+          "slug": "mitane-postpartum-care-subsidy-2026",
+          "title": "産後ケア事業",
+          "officialUrl": "https://www.town.mitane.akita.jp/soshikikarasagasu/kenkosuishinka/3/3862.html",
+          "evidence": "生後4か月未満、利用上限6泊7日、利用者負担1割、第1子出生後の初回利用無料、非課税世帯等無料を確認。"
+        },
+        {
+          "slug": "mitane-local-job-hunting-student-support-2026",
+          "title": "地方就職学生支援事業",
+          "officialUrl": "https://www.town.mitane.akita.jp/kurashi_furusatokaiki/teiju_iju/gakuseishien/3169.html",
+          "evidence": "東京圏大学生等の秋田県内企業就職・町内移住、交通費上限17,220円、移転費上限108,000円、2027年1月31日まで申請を確認。"
+        },
+        {
+          "slug": "mitane-school-lunch-fee-free-2026",
+          "title": "学校給食費無償化",
+          "officialUrl": "https://www.town.mitane.akita.jp/soshikikarasagasu/kyoikuiinkaijimukyoku/4/564.html",
+          "evidence": "町立小中学校給食費全額免除、町外学校等は小学生1食340円・中学生1食400円上限補助、他制度支援額控除を確認。"
+        }
+      ],
+      "八峰町": [
+        {
+          "slug": "happo-child-optional-vaccination-subsidy-2026",
+          "title": "子どもの任意予防接種費用助成",
+          "officialUrl": "https://www.town.happo.lg.jp/archive/contents-20",
+          "evidence": "おたふくかぜ1歳から就学前・費用2分の1・1回上限5,000円・2回まで、季節性インフルエンザ1回1,400円を確認。"
+        }
+      ],
+      "五城目町": []
+    }
+  },
+  "heldForSecondPass": [
+    "藤里町の町の魅力を伝える活動費用助成金は、公式本文と申請フローPDFで対象・手続は確認できたが、助成上限額が公式本文から取れないため保留した。",
+    "藤里町の高等学校等通学費応援金、奨学金返還支援、子育てファミリー支援、エアコン購入等支援は、今回確認した公式導線では個別の現行本文・金額を確定できず、変更URL確認へ残した。",
+    "三種町のひとり親向け就業支援講習会は秋田県ひとり親家庭就業・自立支援センター等の外部講習案内であり、町独自の支給額を確認できないため採用しなかった。",
+    "三種町の住宅整備資金貸付、県住宅リフォーム併用案内、放任果樹伐採・狩猟免許・まち活候補は、町独自の個別制度本文または現行受付・上限額の再確認へ残した。",
+    "八峰町の2025年度大館能代空港利用促進助成金は対象期間が2026年3月31日までで、2026年度版は第1巡で掲載済みのため追加しなかった。",
+    "八峰町の空き家情報室・空き家活用住宅、カテゴリページ、プロポーザル等の事業者募集は、補助金・給付金ではなく情報提供・賃貸募集・調達案件のため採用しなかった。",
+    "五城目町の商工業・空き店舗カテゴリ、過去採択事例ページ、豪雨災害支援ページは、既存掲載制度のカテゴリ・過去事例・国県制度町窓口が中心で、現行の町独自追加制度としては採用しなかった。豪雨災害支援の住宅リフォーム災害復旧分は受付終了を確認した。"
+  ],
+  "validation": {
+    "sourceUrlsChecked": 7,
+    "notes": "公式本文または公式PDFで制度名・対象・金額/上限・条件・期限/受付状況を確認できるものだけを採用した。重い監査はデータ・チェックリスト・checkpoint更新後に実行する。"
+  }
+}
