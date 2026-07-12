@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-12T10:55:00+09:00",
-  "mode": "aomori-prefecture-final-official-coverage-audit",
+  "updatedAt": "2026-07-12T11:55:00+09:00",
+  "mode": "iwate-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "aomori-prefecture-final-official-coverage-audit",
-    "municipality": "青森県庁",
-    "adopted": 5,
-    "held": 5,
-    "excluded": 4,
-    "sourceUrlsChecked": 10,
+    "code": "iwate-comprehensive-official-coverage-001",
+    "municipality": "岩手県庁・盛岡市・宮古市・大船渡市",
+    "adopted": 9,
+    "held": 10,
+    "excluded": 6,
+    "sourceUrlsChecked": 13,
     "validation": {
-      "previousMunicipality": "青森県庁最終監査として、候補286件をスニペット再スコアリングし、県公式本文/PDF/DOCXで必須項目確認できた5件をデータ反映。既存の青森県庁5制度も公式URL・制度名・対象・金額・受付状況を確認済み。",
+      "previousMunicipality": "岩手県公式棚卸し001として、03000岩手県庁、03201盛岡市、03202宮古市、03203大船渡市を確認。候補752件のため本文スニペット再抽出を行い、岩手県庁4件・大船渡市5件を公式本文で必須項目確認後にデータ反映。盛岡市22件、岩手県庁既存制度は既存データ内で公式確認済み。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "duplicateSlugs": 0,
-      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --slug <5 slugs> checked 11 failures 0",
-      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/aomori-prefecture-final-official-coverage-input.json tasks/discovery/aomori-prefecture-final-official-coverage-candidates.json tasks/discovery/aomori-prefecture-final-official-coverage-snippets.json tasks/discovery/aomori-prefecture-final-official-coverage-audit.json",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7646, officialLinkedActive 7608, manuallyVerifiedActive 7608, Aomori localOfficial 256"
+      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --slug <9 slugs> checked 9 failures 0",
+      "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-001-municipalities.json tasks/discovery/iwate-official-coverage-001-candidates.json tasks/discovery/iwate-official-coverage-001-snippets.json tasks/discovery/iwate-official-coverage-001.json",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7655, officialLinkedActive 7617, manuallyVerifiedActive 7617, Iwate localOfficial 75"
     }
   },
   "next": {
-    "code": "iwate-comprehensive-official-coverage-001",
+    "code": "iwate-comprehensive-official-coverage-002",
     "municipality": "岩手県",
-    "shortlist": "青森県内40市町村と青森県庁最終監査を完了。観光事業者チャレンジ支援、医療分野業務効率化支援、介護サービス継続支援、一覧・カテゴリ・会員向け事業は第2巡台帳へ保留。",
-    "instructions": "次は岩手県001として、03000岩手県庁、03201盛岡市、03202宮古市、03203大船渡市から自治体コード順に公式本文/PDFを確認する。"
+    "shortlist": "岩手県庁4件・大船渡市5件をデータ反映。宮古市はDiscovery候補がカテゴリ中心のため第2巡でサイト内検索又は階層別クロールを追加する。",
+    "instructions": "次は03205花巻市、03206北上市、03207久慈市、03208遠野市を自治体コード順に公式本文/PDFで確認する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

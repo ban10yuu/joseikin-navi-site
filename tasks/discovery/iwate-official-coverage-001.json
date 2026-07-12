@@ -1,0 +1,98 @@
+{
+  "batchId": "iwate-comprehensive-official-coverage-001",
+  "prefecture": "岩手県",
+  "status": "completed",
+  "completedAt": "2026-07-12T11:55:00+09:00",
+  "targets": [
+    {
+      "code": "03000",
+      "name": "岩手県庁",
+      "officialBaseUrl": "https://www.pref.iwate.jp/",
+      "candidateCount": 194,
+      "adopted": [
+        "iwate-young-ui-turn-support-grant-2026",
+        "iwate-fish-processing-collaboration-subsidy-2026",
+        "iwate-local-job-support-grant-2026",
+        "iwate-public-transport-ev-subsidy-2026"
+      ],
+      "existingConfirmed": [
+        "iwate-scholarship-repayment",
+        "iwate-care-technology-support-2026",
+        "iwate-wooden-house-earthquake-retrofit-2026",
+        "iwate-industrial-scholarship-repayment-2026",
+        "iwate-education-scholarship-returnee",
+        "岩手県移住支援金の支給"
+      ],
+      "held": [
+        "移住支援金の対象法人募集は法人募集ページで、給付制度本体は既存又は今回採用済みのため保留。",
+        "寄附金・基金ページ、ふるさと納税、各部局補助一覧、カテゴリページ、県政情報・新着情報は個別制度ページではないため第2巡台帳へ保留。",
+        "災害により被害を受けられた場合の県税の減免等は災害時一般案内で、個別現行制度としての金額・対象整理を第2巡へ保留。"
+      ]
+    },
+    {
+      "code": "03201",
+      "name": "盛岡市",
+      "officialBaseUrl": "https://www.city.morioka.iwate.jp/",
+      "candidateCount": 266,
+      "adopted": [],
+      "existingConfirmedCount": 22,
+      "held": [
+        "子育て世帯応援プロジェクト、こども医療費、移住支援金、創業支援、空き家改修、飲用水確保、ブロック塀撤去等は既存データで公式確認済み。",
+        "児童手当、出産育児一時金等は全国制度案内として低優先保留。",
+        "一覧・カテゴリ・相談・施設案内ページは個別補助制度ではないため第2巡台帳へ保留。"
+      ]
+    },
+    {
+      "code": "03202",
+      "name": "宮古市",
+      "officialBaseUrl": "https://www.city.miyako.iwate.jp/",
+      "candidateCount": 13,
+      "adopted": [],
+      "held": [
+        "Discoveryではカテゴリ・トップページ中心で個別制度候補が不足。宮古市はサイト内検索又は階層別クロールを第2巡で追加実行する。",
+        "空き家バンク物件情報、ふるさと寄附金、企業誘致カテゴリは個別補助制度ではないため保留。"
+      ]
+    },
+    {
+      "code": "03203",
+      "name": "大船渡市",
+      "officialBaseUrl": "https://www.city.ofunato.iwate.jp/",
+      "candidateCount": 279,
+      "adopted": [
+        "ofunato-drinking-water-facility-subsidy-2026",
+        "ofunato-electric-food-waste-processor-subsidy-2026",
+        "ofunato-business-plan-contest-2026",
+        "ofunato-depopulated-area-fixed-asset-tax-exemption-2026",
+        "ofunato-regional-wood-use-subsidy-2026"
+      ],
+      "held": [
+        "医療費助成カテゴリ、国民健康保険給付、後期高齢者医療等は複数制度案内又は全国制度を含むため第2巡で個別分離。",
+        "林野火災に係る保険料減免・固定資産税軽減は災害個別制度として対象・減免額の追加確認が必要なため保留。",
+        "住宅の国の支援制度、空家等対策、起業支援カテゴリ、商工業カテゴリは個別制度ページではないため低優先保留。"
+      ]
+    }
+  ],
+  "discovery": {
+    "candidateFile": "tasks/discovery/iwate-official-coverage-001-candidates.json",
+    "snippetFile": "tasks/discovery/iwate-official-coverage-001-snippets.json",
+    "candidateCount": 752,
+    "snippetRows": 752,
+    "reason": "候補752件で150件超かつcrawl候補40%超のため、本文スニペットを抽出して再スコアリングした。"
+  },
+  "summary": {
+    "adoptedCount": 9,
+    "heldCount": 10,
+    "sourceUrlsChecked": 13
+  },
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "duplicateSlugs": 0,
+    "urlReachability": "pass: node scripts/check-grant-source-urls.mjs --slug <9 slugs> --timeout-ms 60000 --concurrency 4 checked 9 failures 0",
+    "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-001-municipalities.json tasks/discovery/iwate-official-coverage-001-candidates.json tasks/discovery/iwate-official-coverage-001-snippets.json tasks/discovery/iwate-official-coverage-001.json",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7655, officialLinkedActive 7617, manuallyVerifiedActive 7617, Iwate localOfficial 75"
+  },
+  "next": {
+    "code": "iwate-comprehensive-official-coverage-002",
+    "instructions": "次は03205花巻市、03206北上市、03207久慈市、03208遠野市を自治体コード順に確認する。宮古市は第2巡でサイト内検索又は階層別クロールを追加する。"
+  }
+}

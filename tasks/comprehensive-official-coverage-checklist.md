@@ -3249,6 +3249,36 @@
   - 次:
     - 岩手県001として03000岩手県庁、03201盛岡市、03202宮古市、03203大船渡市から自治体コード順に確認する。
 
+- 岩手県公式棚卸し001（岩手県庁・盛岡市・宮古市・大船渡市）:
+  - 対象自治体・団体:
+    - 03000 岩手県庁
+    - 03201 盛岡市
+    - 03202 宮古市
+    - 03203 大船渡市
+  - Discovery:
+    - 公式トップ到達: 4団体すべてHTTP 200。
+    - `tasks/discovery/iwate-official-coverage-001-candidates.json`: 候補752件（岩手県庁194、盛岡市266、宮古市13、大船渡市279）。
+    - `tasks/discovery/iwate-official-coverage-001-snippets.json`: shortlist過多のため752件を本文スニペット抽出。
+    - `tasks/discovery/iwate-official-coverage-001.json`: 採用・既存確認・保留記録。
+  - 採用:
+    - 岩手県庁: いわて若者U・Iターン支援金、水産加工業連携新活動促進事業費補助金、地方就職支援金、地域公共交通EV等導入支援事業費補助金。
+    - 大船渡市: 飲用水等給水施設整備費補助金、電動生ごみ処理機購入費補助制度、大船渡ビジネスプランコンテスト2026、過疎地域固定資産税課税免除、地域材利用促進事業費補助金。
+  - 既存確認:
+    - 岩手県庁は移住支援金、いわて産業人材奨学金返還支援、介護テクノロジー導入等支援、耐震対策への補助制度等を既存データ内で公式確認済み。
+    - 盛岡市は子育て世帯応援プロジェクト、医療費助成、移住支援金、創業支援、空き家改修、飲用水確保、ブロック塀撤去等22件を既存データ内で公式確認済みのため重複追加しない。
+  - 保留継続:
+    - 宮古市はDiscovery候補がカテゴリ・トップページ中心で個別制度候補が不足。第2巡でサイト内検索又は階層別クロールを追加する。
+    - 大船渡市の医療費助成カテゴリ、林野火災に係る保険料減免・固定資産税軽減、起業支援・商工業カテゴリは、複数制度分離又は対象・減免額の追加確認まで保留。
+    - 児童手当、出産育児一時金、年金生活者支援給付金等の全国制度案内、カテゴリ・一覧・相談・施設ページは低優先保留。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - slug重複確認: 0。
+    - `node scripts/check-grant-source-urls.mjs --slug <9 slugs> --timeout-ms 60000 --concurrency 4`: checked 9、failures 0。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 7655、officialLinkedActive 7617、manuallyVerifiedActive 7617、岩手県 localOfficial 75）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/iwate-official-coverage-001-municipalities.json tasks/discovery/iwate-official-coverage-001-candidates.json tasks/discovery/iwate-official-coverage-001-snippets.json tasks/discovery/iwate-official-coverage-001.json`: pass。
+  - 次:
+    - 03205花巻市、03206北上市、03207久慈市、03208遠野市を自治体コード順で確認する。
+
 - 状態: 羅臼町コミット後、`NEXT_TELEMETRY_DISABLED=1 CI=1 NODE_OPTIONS=--max-old-space-size=4096 timeout 180s npx next build --webpack` を実行。初回は `Creating an optimized production build` と `Running TypeScript` まで進み、旧データの `category: 'business'` が `GrantCategory` 型外で失敗。続けて `relatedCategories: ['business']`、`relatedCategories: ['welfare']`、`relatedCategories: ['migration']` 等の旧カテゴリ名が順に表面化した。
 - 対応: `verified-local-misc-2026.ts` 内の型定義外カテゴリを現行8カテゴリへ正規化した。主な対応は `business/startup/agriculture/tourism` -> `employment`、`welfare/disability/senior/elderly/care` -> `nursing`、`healthcare` -> `medical`、`migration/relocation/transportation/life/environment/community/regional/energy` -> `living`、`emergency` -> `disaster`、`sports` -> `education`。
 - 検証:

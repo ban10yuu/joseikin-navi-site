@@ -1,0 +1,26 @@
+{
+  "batchId": "iwate-comprehensive-official-coverage-001",
+  "prefecture": "岩手県",
+  "municipalities": [
+    {
+      "code": "03000",
+      "name": "岩手県庁",
+      "officialBaseUrl": "https://www.pref.iwate.jp/"
+    },
+    {
+      "code": "03201",
+      "name": "盛岡市",
+      "officialBaseUrl": "https://www.city.morioka.iwate.jp/"
+    },
+    {
+      "code": "03202",
+      "name": "宮古市",
+      "officialBaseUrl": "https://www.city.miyako.iwate.jp/"
+    },
+    {
+      "code": "03203",
+      "name": "大船渡市",
+      "officialBaseUrl": "https://www.city.ofunato.iwate.jp/"
+    }
+  ]
+}
