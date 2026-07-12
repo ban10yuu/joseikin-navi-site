@@ -4511,7 +4511,32 @@
     - `npm run audit:coverage`: pass（failures 0、activePublished 8654、officialLinkedActive 8616、manuallyVerifiedActive 8616、福島県 `localOfficial` 132、福島県 `coveredCategories` 8）。
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-official-coverage-002-municipalities.json tasks/discovery/fukushima-official-coverage-002-candidates.json tasks/discovery/fukushima-official-coverage-002-snippets.json tasks/discovery/fukushima-official-coverage-002-details.json tasks/discovery/fukushima-official-coverage-002.json`: pass。
   - 次:
-    - 福島県公式棚卸し003として、07210二本松市、07211田村市、07212南相馬市、07213伊達市を確認する。
+    - 福島県公式棚卸し003として、07210二本松市、07211田村市、07212南相馬市、07213伊達市を確認した。次は福島県公式棚卸し004として、07214本宮市、07301桑折町、07303国見町、07308川俣町を確認する。
+
+- 福島県公式棚卸し003（二本松市・田村市・南相馬市・伊達市）
+  - 対象: 07210二本松市、07211田村市、07212南相馬市、07213伊達市。
+  - 方法:
+    - 4市の公式トップURL到達を確認し、公式候補979件を生成した。
+    - 候補数が150件を超えたため、title/h1/main/article/URLの制度強語、金額、対象条件、期限/受付表現を含む本文スニペット249件を抽出して再スコアリングした。
+    - 制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別ページ20件を採用した。福島県伊達市は北海道伊達市の既存制度との名称衝突を避け、福島県伊達市公式ドメインの制度のみ採用した。
+  - 追加:
+    - 二本松市: 第二種免許取得等支援事業費補助金、住宅用太陽光発電設備等設置費補助金、木造住宅耐震診断者派遣・耐震改修補助、ブロック塀等除却費補助事業、空家除却費補助事業、若年がん患者在宅療養支援事業、地域猫不妊・去勢手術費補助金、軽度・中等度難聴児補聴器購入費等助成事業。
+    - 田村市: ひとり親家庭医療費助成事業、乳幼児および児童医療費助成事業、結婚新生活支援事業補助金、高齢者住宅改修助成事業、電気自動車等普及促進事業補助金、新規雇用企業等支援金交付事業。
+    - 南相馬市: 結婚等新生活支援事業助成金、妊婦のための支援給付（妊婦支援給付金）、創業者支援事業助成金、集会施設整備事業費補助金。
+    - 伊達市: 移住・就業支援事業補助金、地方就職学生支援事業補助金。
+  - 保留継続:
+    - 二本松市の高齢者補聴器購入費助成、ひとり親家庭医療費、多世代同居住宅改修、一般不妊治療、保育料助成、特定疾患患者見舞金は第2巡で個別本文を追加確認する。
+    - 田村市の商工課支援制度一覧、観光・中小企業支援、緊急新規雇用・離職者対策、防犯灯・防犯カメラ、病害虫防除、激励金は制度単位の金額・期限確認を第2巡へ回す。
+    - 南相馬市の商店街空き店舗対策、地域の絆づくり支援、奨学金返還支援、のまたん商品券、子育て応援手当は第2巡でPDF・本文差分を確認する。
+    - 福島県伊達市の来てだて住宅取得支援は受付終了表示、創業支援は一覧混在のため第2巡で切り分ける。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 20件、重複0。
+    - 追加した20制度20公式URLはすべて HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 8672、officialLinkedActive 8634、manuallyVerifiedActive 8634、福島県 `localOfficial` 150、福島県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-official-coverage-003-municipalities.json tasks/discovery/fukushima-official-coverage-003-candidates.json tasks/discovery/fukushima-official-coverage-003-snippets.json tasks/discovery/fukushima-official-coverage-003-details.json tasks/discovery/fukushima-official-coverage-003.json`: pass。
+  - 次:
+    - 福島県公式棚卸し004として、07214本宮市、07301桑折町、07303国見町、07308川俣町を確認する。
 
 - 宮城県公式棚卸し009（美里町・女川町・南三陸町）
   - 対象: 04505美里町、04581女川町、04606南三陸町。

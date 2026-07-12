@@ -1,0 +1,60 @@
+{
+  "batchId": "fukushima-comprehensive-official-coverage-003",
+  "prefecture": "福島県",
+  "municipalities": [
+    "二本松市",
+    "田村市",
+    "南相馬市",
+    "伊達市"
+  ],
+  "generatedAt": "2026-07-13T08:13:00+09:00",
+  "candidateFile": "tasks/discovery/fukushima-official-coverage-003-candidates.json",
+  "snippetFile": "tasks/discovery/fukushima-official-coverage-003-snippets.json",
+  "detailsFile": "tasks/discovery/fukushima-official-coverage-003-details.json",
+  "candidateCount": 979,
+  "snippetCount": 249,
+  "detailsChecked": 22,
+  "adoptedCount": 20,
+  "heldCount": 12,
+  "excludedCount": 0,
+  "adoptedSlugs": [
+    "nihonmatsu-second-license-support-2026",
+    "nihonmatsu-residential-solar-battery-subsidy-2026",
+    "nihonmatsu-wooden-house-seismic-support-2026",
+    "nihonmatsu-block-wall-demolition-subsidy-2026",
+    "nihonmatsu-vacant-house-demolition-subsidy-2026",
+    "nihonmatsu-young-cancer-home-care-support-2026",
+    "nihonmatsu-community-cat-neuter-subsidy-2025",
+    "nihonmatsu-child-hearing-aid-subsidy-2026",
+    "tamura-single-parent-medical-aid-2026",
+    "tamura-child-medical-aid-2026",
+    "tamura-newlywed-life-support-2026",
+    "tamura-elderly-home-renovation-subsidy-2026",
+    "tamura-ev-charging-equipment-subsidy-2026",
+    "tamura-new-employment-company-support-2026",
+    "minamisoma-newlywed-life-support-2026",
+    "minamisoma-pregnant-women-benefit-2026",
+    "minamisoma-startup-support-grant-2026",
+    "minamisoma-community-facility-subsidy-2026",
+    "date-fukushima-migration-employment-support-2026",
+    "date-fukushima-local-job-student-support-2026"
+  ],
+  "adoptedByMunicipality": {
+    "二本松市": 8,
+    "田村市": 6,
+    "南相馬市": 4,
+    "伊達市": 2
+  },
+  "heldNotes": [
+    "二本松市の高齢者補聴器購入費助成、ひとり親家庭医療費、多世代同居住宅改修、一般不妊治療、保育料助成、特定疾患患者見舞金は第2巡で個別本文を追加確認する。",
+    "田村市の商工課支援制度一覧、観光・中小企業支援、緊急新規雇用・離職者対策、防犯灯・防犯カメラ、病害虫防除、激励金は制度単位の金額・期限確認を第2巡へ回す。",
+    "南相馬市の商店街空き店舗対策、地域の絆づくり支援、奨学金返還支援、のまたん商品券、子育て応援手当は第2巡でPDF・本文差分を確認する。",
+    "福島県伊達市は北海道伊達市の既存制度と名称衝突するため、福島県伊達市公式ドメインで確認できた移住・就業支援と地方就職学生支援のみ新規採用した。住宅取得支援は受付終了表示、創業支援は一覧混在のため第2巡で切り分ける。"
+  ],
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: added 20 slugs, duplicate count 0",
+    "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 20 slugs / 20 source URLs, failures 0, all HTTP 200",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8672, officialLinkedActive 8634, manuallyVerifiedActive 8634, Fukushima localOfficial 150, Fukushima coveredCategories 8"
+  }
+}

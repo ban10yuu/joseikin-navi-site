@@ -1,0 +1,26 @@
+{
+  "batchId": "fukushima-comprehensive-official-coverage-003",
+  "prefecture": "福島県",
+  "municipalities": [
+    {
+      "code": "07210",
+      "name": "二本松市",
+      "officialBaseUrl": "https://www.city.nihonmatsu.lg.jp/"
+    },
+    {
+      "code": "07211",
+      "name": "田村市",
+      "officialBaseUrl": "https://www.city.tamura.lg.jp/"
+    },
+    {
+      "code": "07212",
+      "name": "南相馬市",
+      "officialBaseUrl": "https://www.city.minamisoma.lg.jp/"
+    },
+    {
+      "code": "07213",
+      "name": "伊達市",
+      "officialBaseUrl": "https://www.city.fukushima-date.lg.jp/"
+    }
+  ]
+}
