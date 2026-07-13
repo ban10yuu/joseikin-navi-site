@@ -39,19 +39,26 @@ export default function Header() {
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:flex items-center gap-0.5">
-            <Link href="/" className={navLink}>
-              ホーム
-            </Link>
+          <nav aria-label="メインメニュー" className="hidden md:flex items-center gap-0.5">
             <div className="relative" onMouseEnter={() => setShowCategories(true)} onMouseLeave={() => setShowCategories(false)}>
-              <button className={`${navLink} flex items-center gap-1`}>
+              <button
+                type="button"
+                className={`${navLink} flex items-center gap-1`}
+                aria-expanded={showCategories}
+                aria-haspopup="true"
+                aria-controls="header-category-menu"
+                onClick={() => {
+                  setShowCategories((current) => !current);
+                  setShowRegions(false);
+                }}
+              >
                 カテゴリ
                 <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </button>
               {showCategories && (
-                <div className="absolute top-full left-0 mt-1 w-56 bg-card rounded-lg shadow-xl border-2 border-navy py-1.5 z-50 overflow-hidden">
+                <div id="header-category-menu" className="absolute top-full left-0 mt-1 w-56 bg-card rounded-lg shadow-xl border-2 border-navy py-1.5 z-50 overflow-hidden">
                   {categories.map(([key, label]) => (
-                    <Link key={key} href={`/category/${key}/`} className="block px-4 py-2 text-sm font-medium text-ink hover:bg-wash hover:text-navy border-l-4 border-transparent hover:border-accent transition-colors">
+                    <Link key={key} href={`/category/${key}/`} onClick={() => setShowCategories(false)} className="block px-4 py-2 text-sm font-medium text-ink hover:bg-wash hover:text-navy border-l-4 border-transparent hover:border-accent transition-colors">
                       {label}
                     </Link>
                   ))}
@@ -59,12 +66,22 @@ export default function Header() {
               )}
             </div>
             <div className="relative" onMouseEnter={() => setShowRegions(true)} onMouseLeave={() => setShowRegions(false)}>
-              <button className={`${navLink} flex items-center gap-1`}>
+              <button
+                type="button"
+                className={`${navLink} flex items-center gap-1`}
+                aria-expanded={showRegions}
+                aria-haspopup="true"
+                aria-controls="header-region-menu"
+                onClick={() => {
+                  setShowRegions((current) => !current);
+                  setShowCategories(false);
+                }}
+              >
                 地域から探す
                 <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </button>
               {showRegions && (
-                <div className="absolute top-full right-0 mt-1 w-[480px] bg-card rounded-lg shadow-xl border-2 border-navy p-4 z-50">
+                <div id="header-region-menu" className="absolute top-full right-0 mt-1 w-[480px] bg-card rounded-lg shadow-xl border-2 border-navy p-4 z-50">
                   <div className="grid grid-cols-2 gap-3">
                     {Object.entries(REGIONS).map(([region, prefs]) => (
                       <div key={region}>
@@ -74,6 +91,7 @@ export default function Header() {
                             <Link
                               key={pref}
                               href={`/prefecture/${encodeURIComponent(pref)}/`}
+                              onClick={() => setShowRegions(false)}
                               className="text-xs font-medium text-muted hover:text-white hover:bg-navy px-1.5 py-0.5 rounded transition-colors"
                             >
                               {pref.replace(/[都府県]$/, '')}
@@ -93,15 +111,15 @@ export default function Header() {
               申請ガイド
             </Link>
             <Link
-              href="/subscribe/"
+              href="/#home-search-title"
               className="ml-2 px-4 py-2 text-sm font-bold text-white bg-accent hover:bg-accent-deep rounded-md transition-colors shadow-sm"
             >
-              メール登録
+              制度を探す
             </Link>
           </nav>
 
           {/* Mobile Menu Button */}
-          <button onClick={() => setIsOpen(!isOpen)} className="md:hidden p-2 text-white hover:bg-white/10 rounded-md" aria-label="メニュー" aria-expanded={isOpen}>
+          <button onClick={() => setIsOpen(!isOpen)} className="md:hidden min-w-11 min-h-11 p-2 text-white hover:bg-white/10 rounded-md" aria-label="メニュー" aria-expanded={isOpen}>
             <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               {isOpen ? (
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -153,8 +171,8 @@ export default function Header() {
             <Link href="/faq/" onClick={() => setIsOpen(false)} className="block px-3 py-2.5 text-sm font-medium text-white hover:bg-white/10 rounded-md">
               よくある質問
             </Link>
-            <Link href="/subscribe/" onClick={() => setIsOpen(false)} className="block px-3 py-2.5 mt-2 text-sm font-bold text-white bg-accent hover:bg-accent-deep rounded-md text-center">
-              メール登録（無料）
+            <Link href="/#home-search-title" onClick={() => setIsOpen(false)} className="block px-3 py-2.5 mt-2 text-sm font-bold text-white bg-accent hover:bg-accent-deep rounded-md text-center">
+              条件から制度を探す
             </Link>
           </div>
         </div>

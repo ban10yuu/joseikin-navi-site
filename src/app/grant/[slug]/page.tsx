@@ -83,7 +83,7 @@ export default async function GrantDetailPage({ params }: Props) {
       ]} />
       <FaqJsonLd grant={grant} />
 
-      <main className="grant-detail-page">
+      <div className="grant-detail-page">
         <nav className="grant-breadcrumb" aria-label="パンくずリスト">
           <Link href="/">ホーム</Link>
           <span aria-hidden="true">/</span>
@@ -166,7 +166,7 @@ export default async function GrantDetailPage({ params }: Props) {
             </section>
           )}
         </article>
-      </main>
+      </div>
 
       <div className="grant-mobile-cta">
         <a href={grant.officialUrl} target="_blank" rel="noopener noreferrer">
