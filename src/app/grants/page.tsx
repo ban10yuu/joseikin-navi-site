@@ -52,7 +52,7 @@ export async function generateMetadata({ searchParams }: { searchParams: Promise
   const params = await searchParams;
   const filtered = hasSearchConditions(params);
   return {
-    title: '支援制度を探す｜地域・対象・目的で検索｜助成金ナビ',
+    title: '支援制度を探す｜地域・対象・目的で検索',
     description: '国・自治体・民間団体の支援制度を、対象者、地域、目的、制度種別、受付状況などの条件から検索できます。',
     alternates: { canonical: toSiteUrl('/grants/') },
     robots: filtered ? { index: false, follow: true } : undefined,
