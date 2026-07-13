@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T09:10:00+09:00",
+  "updatedAt": "2026-07-13T09:55:00+09:00",
   "mode": "fukushima-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "fukushima-comprehensive-official-coverage-005",
-    "municipality": "大玉村・鏡石町・天栄村・下郷町",
-    "adopted": 18,
-    "held": 11,
+    "code": "fukushima-comprehensive-official-coverage-006",
+    "municipality": "檜枝岐村・只見町・南会津町・北塩原村",
+    "adopted": 36,
+    "held": 16,
     "excluded": 0,
-    "sourceUrlsChecked": 18,
+    "sourceUrlsChecked": 36,
     "validation": {
-      "previousMunicipality": "福島県公式棚卸し005として、07322大玉村、07342鏡石町、07344天栄村、07362下郷町の公式サイトを確認した。公式トップURLは4件すべてHTTP 200。公式候補1044件が150件を超えたため本文スニペット152件を抽出し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる26ページを確認した。個別ページ18件を採用し、カテゴリ・一覧、PDF未精査、金額未確認候補は第2巡台帳へ残した。",
+      "previousMunicipality": "福島県公式棚卸し006として、07364檜枝岐村、07367只見町、07368南会津町、07402北塩原村の公式サイトを確認した。公式トップURLは4件すべてHTTP 200。公式候補866件が150件を超えたため本文スニペット167件を抽出し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる41ページを確認した。個別ページ36件を採用し、カテゴリ・一覧、PDF未精査、金額未確認候補は第2巡台帳へ残した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: added 18 slugs, duplicateOrMissing 0",
-      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 18 slugs / 18 source URLs, failures 0, all HTTP 200",
-      "diffCheck": "pass: git diff --check for Fukushima 005 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8712, officialLinkedActive 8674, manuallyVerifiedActive 8674, Fukushima localOfficial 190, Fukushima coveredCategories 8"
+      "addedSlugUniqueness": "pass: added 36 slugs, duplicateOrMissing 0",
+      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 36 slugs / 36 source URLs, failures 0, all HTTP 200",
+      "diffCheck": "pass: git diff --check for Fukushima 006 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8748, officialLinkedActive 8710, manuallyVerifiedActive 8710, Fukushima localOfficial 226, Fukushima coveredCategories 8"
     }
   },
   "next": {
-    "code": "fukushima-comprehensive-official-coverage-006",
-    "municipality": "檜枝岐村・只見町・南会津町・北塩原村",
-    "shortlist": "福島県公式棚卸し005で大玉村・鏡石町・天栄村・下郷町から18制度を採用した。次は福島県006として自治体コード順に07364檜枝岐村、07367只見町、07368南会津町、07402北塩原村を確認する。",
-    "instructions": "福島県公式棚卸し006として、07364檜枝岐村、07367只見町、07368南会津町、07402北塩原村を自治体コード順に確認する。公式サイトの補助金・助成金・給付金・一時金等を制度ページ単位で、制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約付きで採用し、トップ、カテゴリ、サイトマップ、共通ナビ一致は削除せず第2巡台帳へ残す。既存raw gap 0を全国完了扱いしない。"
+    "code": "fukushima-comprehensive-official-coverage-007",
+    "municipality": "西会津町・磐梯町・猪苗代町・会津坂下町",
+    "shortlist": "福島県公式棚卸し006で檜枝岐村・只見町・南会津町・北塩原村から36制度を採用した。次は福島県007として自治体コード順に07405西会津町、07407磐梯町、07408猪苗代町、07421会津坂下町を確認する。",
+    "instructions": "福島県公式棚卸し007として、07405西会津町、07407磐梯町、07408猪苗代町、07421会津坂下町を自治体コード順に確認する。公式サイトの補助金・助成金・給付金・一時金等を制度ページ単位で、制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約付きで採用し、トップ、カテゴリ、サイトマップ、共通ナビ一致は削除せず第2巡台帳へ残す。既存raw gap 0を全国完了扱いしない。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

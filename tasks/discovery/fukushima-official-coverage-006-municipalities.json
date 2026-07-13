@@ -1,0 +1,26 @@
+{
+  "batchId": "fukushima-comprehensive-official-coverage-006",
+  "prefecture": "福島県",
+  "municipalities": [
+    {
+      "code": "07364",
+      "name": "檜枝岐村",
+      "officialBaseUrl": "https://www.vill.hinoemata.lg.jp/"
+    },
+    {
+      "code": "07367",
+      "name": "只見町",
+      "officialBaseUrl": "https://www.town.tadami.lg.jp/"
+    },
+    {
+      "code": "07368",
+      "name": "南会津町",
+      "officialBaseUrl": "https://www.town.minamiaizu.lg.jp/"
+    },
+    {
+      "code": "07402",
+      "name": "北塩原村",
+      "officialBaseUrl": "https://www.vill.kitashiobara.fukushima.jp/"
+    }
+  ]
+}

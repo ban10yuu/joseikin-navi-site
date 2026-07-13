@@ -1,0 +1,90 @@
+{
+  "batchId": "fukushima-comprehensive-official-coverage-006",
+  "prefecture": "福島県",
+  "municipalities": [
+    { "code": "07364", "name": "檜枝岐村", "officialBaseUrl": "https://www.vill.hinoemata.lg.jp/" },
+    { "code": "07367", "name": "只見町", "officialBaseUrl": "https://www.town.tadami.lg.jp/" },
+    { "code": "07368", "name": "南会津町", "officialBaseUrl": "https://www.town.minamiaizu.lg.jp/" },
+    { "code": "07402", "name": "北塩原村", "officialBaseUrl": "https://www.vill.kitashiobara.fukushima.jp/" }
+  ],
+  "officialTopReachability": {
+    "檜枝岐村": 200,
+    "只見町": 200,
+    "南会津町": 200,
+    "北塩原村": 200
+  },
+  "discovery": {
+    "candidateCount": 866,
+    "snippetCount": 167,
+    "detailPagesChecked": 41,
+    "detailStatus200": 41
+  },
+  "adopted": {
+    "count": 36,
+    "byMunicipality": {
+      "檜枝岐村": 14,
+      "只見町": 3,
+      "南会津町": 8,
+      "北塩原村": 11
+    },
+    "slugs": [
+      "hinoemata-marriage-consultation-subsidy-2026",
+      "hinoemata-marriage-celebration-grant-2026",
+      "hinoemata-childbirth-celebration-grant-2026",
+      "hinoemata-childcare-support-monthly-grant-2026",
+      "hinoemata-student-allowance-2026",
+      "hinoemata-child-seat-purchase-subsidy-2026",
+      "hinoemata-elderly-home-renovation-subsidy-2026",
+      "hinoemata-community-revitalization-subsidy-2026",
+      "hinoemata-pregnant-transport-subsidy-2026",
+      "hinoemata-infertility-treatment-subsidy-2026",
+      "hinoemata-flower-tourism-subsidy-2026",
+      "hinoemata-regional-promotion-subsidy-2026",
+      "hinoemata-guide-license-support-2026",
+      "hinoemata-future-human-resource-subsidy-2026",
+      "tadami-migration-support-grant-2026",
+      "tadami-new-farmer-initial-cost-subsidy-2026",
+      "tadami-residential-solar-system-subsidy-2026",
+      "minamiaizu-dangerous-vacant-house-demolition-subsidy-2026",
+      "minamiaizu-smile-housing-acquisition-subsidy-2026",
+      "minamiaizu-scholarship-loan-2026",
+      "minamiaizu-price-childcare-benefit-2026",
+      "minamiaizu-single-parent-medical-subsidy-2026",
+      "minamiaizu-town-lumber-house-subsidy-2026",
+      "minamiaizu-forestry-employment-promotion-subsidy-2026",
+      "minamiaizu-new-forestry-worker-subsidy-2026",
+      "kitashiobara-childcare-supporter-training-subsidy-2026",
+      "kitashiobara-home-childcare-support-grant-2026",
+      "kitashiobara-rubella-vaccine-subsidy-2026",
+      "kitashiobara-infertility-recurrent-loss-subsidy-2026",
+      "kitashiobara-education-travel-bus-subsidy-2026",
+      "kitashiobara-migrant-housing-acquisition-subsidy-2026",
+      "kitashiobara-encounter-support-subsidy-2026",
+      "kitashiobara-nursery-commute-subsidy-2026",
+      "kitashiobara-vacant-house-renovation-subsidy-2026",
+      "kitashiobara-vacant-house-demolition-subsidy-2026",
+      "kitashiobara-vacant-house-goods-disposal-subsidy-2026"
+    ]
+  },
+  "heldForSecondPass": [
+    "檜枝岐村の結婚新生活支援事業補助金は掲載年度とPDF記載の受付状況を第2巡で確認する。",
+    "只見町の新規就農ページ内の研修・農地賃借・県補助上乗せは、制度単位の金額・受付差分を第2巡で確認する。",
+    "南会津町の新規就農者支援事業、農業等振興事業補助金、子育て支援一覧、児童手当は制度差分や国制度重複を第2巡で確認する。",
+    "北塩原村の妊婦にやさしい出産時移動支援、初回産科受診料支援、産後ケア、就学援助、ひとり親医療は金額上限・利用者負担・制度差分を第2巡で確認する。"
+  ],
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: added 36 slugs, duplicate 0",
+    "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 36 slugs / 36 source URLs, failures 0, all HTTP 200",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8748, officialLinkedActive 8710, manuallyVerifiedActive 8710, Fukushima localOfficial 226, Fukushima coveredCategories 8"
+  },
+  "next": {
+    "batchId": "fukushima-comprehensive-official-coverage-007",
+    "municipalities": [
+      { "code": "07405", "name": "西会津町" },
+      { "code": "07407", "name": "磐梯町" },
+      { "code": "07408", "name": "猪苗代町" },
+      { "code": "07421", "name": "会津坂下町" }
+    ]
+  }
+}
