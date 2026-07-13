@@ -16,7 +16,23 @@ export type LegacyGrantCategory =
   | 'agriculture'
   | 'equipment'
   | 'environment'
-  | 'community';
+  | 'community'
+  | 'business'
+  | 'digital'
+  | 'disability'
+  | 'energy'
+  | 'finance'
+  | 'financing'
+  | 'healthcare'
+  | 'life'
+  | 'migration'
+  | 'relocation'
+  | 'safety'
+  | 'technology'
+  | 'transport'
+  | 'transportation'
+  | 'utility'
+  | 'welfare';
 
 export type SupportType =
   | 'grant'

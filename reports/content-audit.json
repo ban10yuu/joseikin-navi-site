@@ -1,19 +1,19 @@
 {
   "summary": {
-    "generatedAt": "2026-07-13T06:09:31.305Z",
-    "total": 10172,
-    "officialUrl": 9883,
-    "automated": 9920,
+    "generatedAt": "2026-07-13T16:53:01.487Z",
+    "total": 11148,
+    "officialUrl": 10861,
+    "automated": 10898,
     "humanReviewed": 0,
-    "noindex": 2563,
-    "expired": 794,
-    "duplicates": 837,
+    "noindex": 2561,
+    "expired": 829,
+    "duplicates": 854,
     "needsReview": 2524,
-    "loans": 318,
+    "loans": 326,
     "affiliateEligible": 0,
-    "affiliateBlocked": 10172,
+    "affiliateBlocked": 11148,
     "critical": 0,
-    "warnings": 2417
+    "warnings": 2430
   },
   "issues": [
     {
@@ -6592,7 +6592,7 @@
     {
       "severity": "warning",
       "code": "DESCRIPTION_MISSING",
-      "slug": "kagoshima-keiro-pass",
+      "slug": "kagoshima-elderly-taxi",
       "title": "鹿児島市 敬老パス",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
     },
@@ -11050,34 +11050,6 @@
     },
     {
       "severity": "warning",
-      "code": "MISSING_CHECK_DATE",
-      "slug": "kagoshima-elderly-taxi",
-      "title": "鹿児島市 高齢者タクシー利用助成",
-      "message": "公式情報の確認日がありません。"
-    },
-    {
-      "severity": "warning",
-      "code": "MISSING_OFFICIAL_URL",
-      "slug": "kagoshima-elderly-taxi",
-      "title": "鹿児島市 高齢者タクシー利用助成",
-      "message": "有効な公式URLがありません。"
-    },
-    {
-      "severity": "warning",
-      "code": "MISSING_CHECK_DATE",
-      "slug": "kushiro-elderly-taxi",
-      "title": "釧路市 高齢者タクシー利用助成",
-      "message": "公式情報の確認日がありません。"
-    },
-    {
-      "severity": "warning",
-      "code": "MISSING_OFFICIAL_URL",
-      "slug": "kushiro-elderly-taxi",
-      "title": "釧路市 高齢者タクシー利用助成",
-      "message": "有効な公式URLがありません。"
-    },
-    {
-      "severity": "warning",
       "code": "DUPLICATE_TITLE",
       "slug": "nishinomiya-child-medical-2026",
       "title": "西宮市 こども医療費助成制度",
@@ -12068,6 +12040,13 @@
       "code": "DUPLICATE_TITLE",
       "slug": "ogaki-family-care-leave",
       "title": "大垣市 家族介護慰労事業（紙おむつ等の給付）",
+      "message": "同じタイトルが2件あります。"
+    },
+    {
+      "severity": "warning",
+      "code": "DUPLICATE_TITLE",
+      "slug": "maebashi-birth-bonus",
+      "title": "前橋市 妊婦のための支援給付",
       "message": "同じタイトルが2件あります。"
     },
     {
@@ -15230,6 +15209,13 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
+      "slug": "tsuruoka-startup-support",
+      "title": "",
+      "message": "同じ公式URLが2件あります：https://www.city.tsuruoka.lg.jp/sangyo/shokoshien/syouko-sogyohojo.html"
+    },
+    {
+      "severity": "warning",
+      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "shimonoseki-birth-bonus",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.shimonoseki.lg.jp/soshiki/51/84329.html"
@@ -16864,6 +16850,111 @@
       "slug": "otama-disabled-child-support-grant-2026",
       "title": "",
       "message": "同じ公式URLが3件あります：https://www.vill.otama.fukushima.jp/file/contents/1719/21138/P19P20.pdf"
+    },
+    {
+      "severity": "warning",
+      "code": "DUPLICATE_OFFICIAL_URL",
+      "slug": "minamiaizu-newlywed-life-cheer-grant-2026",
+      "title": "",
+      "message": "同じ公式URLが2件あります：https://www.town.minamiaizu.lg.jp/official/kosodate_kyoiku/kosodate/kosodateshien/1009.html"
+    },
+    {
+      "severity": "warning",
+      "code": "DUPLICATE_OFFICIAL_URL",
+      "slug": "nishiaizu-marriage-celebration-grant-2026",
+      "title": "",
+      "message": "同じ公式URLが3件あります：https://www.town.nishiaizu.fukushima.jp/soshiki/2/788.html"
+    },
+    {
+      "severity": "warning",
+      "code": "DUPLICATE_OFFICIAL_URL",
+      "slug": "yugawa-elderly-taxi-bus-ticket-subsidy-2026",
+      "title": "",
+      "message": "同じ公式URLが4件あります：https://www.vill.yugawa.fukushima.jp/site/fukushi-top/3-2-4.html"
+    },
+    {
+      "severity": "warning",
+      "code": "DUPLICATE_OFFICIAL_URL",
+      "slug": "yugawa-child-medical-expense-subsidy-2026",
+      "title": "",
+      "message": "同じ公式URLが6件あります：https://www.vill.yugawa.fukushima.jp/site/kurashi-top/kosodate-2-2.html"
+    },
+    {
+      "severity": "warning",
+      "code": "DUPLICATE_OFFICIAL_URL",
+      "slug": "yanaizu-childbirth-celebration-grant-2026",
+      "title": "",
+      "message": "同じ公式URLが2件あります：https://www.town.yanaizu.fukushima.jp/docs/2026051400024/"
+    },
+    {
+      "severity": "warning",
+      "code": "DUPLICATE_OFFICIAL_URL",
+      "slug": "showa-scholarship-loan-2026",
+      "title": "",
+      "message": "同じ公式URLが2件あります：https://www.vill.showa.fukushima.jp/procedure/196/"
+    },
+    {
+      "severity": "warning",
+      "code": "DUPLICATE_OFFICIAL_URL",
+      "slug": "yabuki-childcare-worker-preparation-loan-2026",
+      "title": "",
+      "message": "同じ公式URLが2件あります：https://www.town.yabuki.fukushima.jp/page/page009283.html"
+    },
+    {
+      "severity": "warning",
+      "code": "DUPLICATE_OFFICIAL_URL",
+      "slug": "tanagura-single-parent-vocational-training-subsidy-2026",
+      "title": "",
+      "message": "同じ公式URLが2件あります：https://www.town.tanagura.fukushima.jp/jumin/kosodate/josei-teate/page001122.html"
+    },
+    {
+      "severity": "warning",
+      "code": "DUPLICATE_OFFICIAL_URL",
+      "slug": "mogami-newlywed-life-support-subsidy-2026",
+      "title": "",
+      "message": "同じ公式URLが2件あります：https://town.mogami.lg.jp/life/14kekkon/01kekkon-sien.php"
+    },
+    {
+      "severity": "warning",
+      "code": "DUPLICATE_OFFICIAL_URL",
+      "slug": "mamurogawa-community-center-facility-subsidy-2026",
+      "title": "",
+      "message": "同じ公式URLが2件あります：https://www.town.mamurogawa.yamagata.jp/soshiki/kyoiku/2/5/1/5015.html"
+    },
+    {
+      "severity": "warning",
+      "code": "DUPLICATE_OFFICIAL_URL",
+      "slug": "mamurogawa-caregiver-encouragement-grant-2026",
+      "title": "",
+      "message": "同じ公式URLが2件あります：https://www.town.mamurogawa.yamagata.jp/soshiki/fukushi/1/5/3/1686.html"
+    },
+    {
+      "severity": "warning",
+      "code": "DUPLICATE_OFFICIAL_URL",
+      "slug": "sakegawa-wooden-house-seismic-diagnosis-dispatch-2026",
+      "title": "",
+      "message": "同じ公式URLが2件あります：https://www.vill.sakegawa.yamagata.jp/seikatsu/jyutaku/1693"
+    },
+    {
+      "severity": "warning",
+      "code": "DUPLICATE_OFFICIAL_URL",
+      "slug": "tozawa-housing-renovation-support-subsidy-2026",
+      "title": "",
+      "message": "同じ公式URLが4件あります：https://www.vill.tozawa.yamagata.jp/life/seikatsu_kotsu_jutaku/jutaku_hojokin/"
+    },
+    {
+      "severity": "warning",
+      "code": "DUPLICATE_OFFICIAL_URL",
+      "slug": "nakagawa-child-medical-expense-2026",
+      "title": "",
+      "message": "同じ公式URLが2件あります：https://www.town.tochigi-nakagawa.lg.jp/0061/info-0000000193-0.html"
+    },
+    {
+      "severity": "warning",
+      "code": "DUPLICATE_OFFICIAL_URL",
+      "slug": "nanmoku-marriage-birth-gift-2026",
+      "title": "",
+      "message": "同じ公式URLが5件あります：https://nanmoku.ne.jp/lifehealth/life/various_subsidy/"
     },
     {
       "severity": "warning",

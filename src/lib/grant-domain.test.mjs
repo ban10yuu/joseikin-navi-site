@@ -51,6 +51,32 @@ describe('normalizeGrant', () => {
     assert.ok(result.purposes.includes('energySaving'));
   });
 
+  it('追加収集データの旧カテゴリも公開8カテゴリへ正規化する', () => {
+    const business = normalizeGrant({
+      ...baseGrant,
+      title: '例示市 DX設備導入補助金',
+      description: '事業者のデジタル設備導入費を補助します。',
+      tags: ['DX', '設備'],
+      category: 'business',
+      relatedCategories: ['digital', 'finance'],
+    });
+    const welfare = normalizeGrant({
+      ...baseGrant,
+      title: '例示市 福祉移送支援制度',
+      description: '高齢者と障害者の移動を支援します。',
+      tags: ['福祉', '移送'],
+      category: 'welfare',
+      relatedCategories: ['transportation'],
+    });
+
+    assert.equal(business.category, 'employment');
+    assert.equal(business.primaryPurpose, 'businessGrowth');
+    assert.ok(business.purposes.includes('digitalTransformation'));
+    assert.equal(welfare.category, 'nursing');
+    assert.deepEqual(welfare.relatedCategories, ['living']);
+    assert.equal(welfare.primaryPurpose, 'welfare');
+  });
+
   it('貸付制度を返済不要の補助金として扱わない', () => {
     const result = normalizeGrant({
       ...baseGrant,

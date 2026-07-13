@@ -1,4 +1,4 @@
-export const DEFAULT_SITE_URL = 'https://joseikin-navi-site.vercel.app';
+export const DEFAULT_SITE_URL = 'https://shienseido-navi.jp';
 
 type PublicEnvironment = Record<string, string | undefined>;
 

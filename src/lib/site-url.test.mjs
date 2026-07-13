@@ -14,14 +14,14 @@ describe('getSiteUrl', () => {
     );
   });
 
-  it('未設定時は現在のVercel URLを安全なフォールバックにする', () => {
-    assert.equal(getSiteUrl({}), 'https://joseikin-navi-site.vercel.app');
+  it('未設定時は本番独自ドメインをフォールバックにする', () => {
+    assert.equal(getSiteUrl({}), 'https://shienseido-navi.jp');
   });
 
   it('HTTP以外の値は公開URLとして採用しない', () => {
     assert.equal(
       getSiteUrl({ NEXT_PUBLIC_SITE_URL: 'javascript:alert(1)' }),
-      'https://joseikin-navi-site.vercel.app'
+      'https://shienseido-navi.jp'
     );
   });
 });

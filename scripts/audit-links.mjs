@@ -5,7 +5,7 @@ import path from 'node:path';
 import { URL } from 'node:url';
 
 const root = path.join(process.cwd(), 'out');
-const ownHosts = new Set(['joseikin-navi-site.vercel.app']);
+const ownHosts = new Set(['shienseido-navi.jp', 'www.shienseido-navi.jp', 'joseikin-navi-site.vercel.app']);
 const concurrency = Number(process.env.LINK_AUDIT_CONCURRENCY || 24);
 const timeoutMs = Number(process.env.LINK_AUDIT_TIMEOUT_MS || 12000);
 
