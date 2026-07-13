@@ -3738,9 +3738,9 @@
     - 松島町の高齢者福祉サービスは複数サービスの総合案内、幼児教育・保育無償化は国制度案内中心、児童館は施設案内、企業誘致情報・移住定住ポータルはカテゴリ/誘導ページのため採用しない。
   - 検証:
     - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
-    - 追加26slug一意確認: pass。
+    - 追加26slug一意確認: pass（総slug 9519、重複0）。
     - 26制度31URLの公式URL到達確認: HTTP 200。
-    - `npm run audit:coverage`: pass（failures 0、activePublished 8045、officialLinkedActive 8007、manuallyVerifiedActive 8007、宮城県 localOfficial 289）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9445、officialLinkedActive 9407、manuallyVerifiedActive 9407、宮城県 localOfficial 355、宮城県 coveredCategories 8）。
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-second-pass-006.json`: pass。
   - 次:
     - 宮城県公式棚卸し第2巡007として、七ヶ浜町・利府町・大和町・大郷町の第1巡保留候補を確認する。
