@@ -5649,3 +5649,31 @@
     - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
   - 次:
     - 茨城県公式棚卸し006として、08224守谷市、08225常陸大宮市、08226那珂市、08227筑西市を自治体コード順に確認する。
+
+- 茨城県公式棚卸し006
+  - 対象:
+    - 08224 守谷市、08225 常陸大宮市、08226 那珂市、08227 筑西市。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補数1117件から個別制度候補110件の詳細スニペットを再スコアリングした。
+    - 既掲載公式URL、県・国制度重複、カテゴリ導線、検索結果、金額又は受付状況不足、制度主体整理が必要な候補を除外し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で揃うページのみ採用した。
+  - 採用:
+    - 守谷市4件: 介護人材確保、防犯カメラ、妊婦支援、在宅障がい児福祉手当。
+    - 常陸大宮市5件: 結婚新生活、空き家改修、空き家解体、住宅取得、浄化槽。
+    - 那珂市6件: 蓄電システム、危険ブロック塀、木造住宅耐震、自転車ヘルメット、紙おむつ、妊婦支援。
+    - 筑西市13件: 住宅リフォーム、要配慮者避難、宿泊避難、防災士、自主防災、排水設備、まちづくり、生ごみ処理機、ごみ集積所、防犯カメラ、自転車ヘルメット、木造住宅耐震、犯罪被害者見舞金。
+  - 生成ファイル:
+    - `tasks/discovery/ibaraki-official-coverage-006-municipalities.json`
+    - `tasks/discovery/ibaraki-official-coverage-006-candidates.json`（raw候補、gitignore対象）
+    - `tasks/discovery/ibaraki-official-coverage-006-detail-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-006.json`
+  - 検証:
+    - 追加slug重複: pass（28件、全9349slugでduplicateCount 0）。
+    - 公式URL到達: pass（28件すべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9711、officialLinkedActive 9673、manuallyVerifiedActive 9673、茨城県 localOfficial 233）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+  - 次:
+    - 茨城県公式棚卸し007として、08228坂東市、08229稲敷市、08230かすみがうら市、08231桜川市を自治体コード順に確認する。
