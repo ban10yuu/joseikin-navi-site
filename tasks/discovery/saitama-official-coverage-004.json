@@ -1,0 +1,122 @@
+{
+  "batchId": "saitama-comprehensive-official-coverage-004",
+  "prefecture": "埼玉県",
+  "completedAt": "2026-07-13T17:56:23.576Z",
+  "municipalities": [
+    {
+      "code": "11214",
+      "name": "春日部市",
+      "adoptedCount": 5,
+      "officialBaseUrl": "https://www.city.kasukabe.lg.jp/"
+    },
+    {
+      "code": "11215",
+      "name": "狭山市",
+      "adoptedCount": 5,
+      "officialBaseUrl": "https://www.city.sayama.saitama.jp/"
+    },
+    {
+      "code": "11216",
+      "name": "羽生市",
+      "adoptedCount": 5,
+      "officialBaseUrl": "https://www.city.hanyu.lg.jp/"
+    },
+    {
+      "code": "11217",
+      "name": "鴻巣市",
+      "adoptedCount": 5,
+      "officialBaseUrl": "https://www.city.kounosu.saitama.jp/"
+    }
+  ],
+  "discovery": {
+    "candidateCount": 292,
+    "selectedCount": 20,
+    "adoptedCount": 20
+  },
+  "adoptedSlugs": [
+    "kasukabe-water-basic-fee-reduction-2026",
+    "kasukabe-premium-digital-voucher-2026",
+    "kasukabe-security-equipment-subsidy-2026",
+    "kasukabe-school-lunch-fee-support-2026",
+    "kasukabe-business-support-benefit-2026",
+    "sayama-food-inflation-benefit-2026",
+    "sayama-women-workplace-improvement-subsidy-2026",
+    "sayama-store-home-renovation-subsidy-2026",
+    "sayama-clean-energy-subsidy-2026",
+    "sayama-parent-child-nearby-living-subsidy-2026",
+    "hanyu-new-business-challenge-subsidy-2026",
+    "hanyu-startup-support-subsidy-2026",
+    "hanyu-home-renovation-subsidy-2026",
+    "hanyu-energy-saving-equipment-subsidy-2026",
+    "hanyu-shopping-street-vacant-store-subsidy-2026",
+    "kounosu-marriage-new-life-subsidy-2026",
+    "kounosu-pregnant-women-support-benefit-2026",
+    "kounosu-home-renovation-subsidy-2026",
+    "kounosu-block-wall-removal-hedge-subsidy-2026",
+    "kounosu-wooden-house-earthquake-retrofit-subsidy-2026"
+  ],
+  "adoptedUrls": [
+    "https://www.city.kasukabe.lg.jp/shiseijoho/shisaku_keikaku/shiseiunei/34779.html",
+    "https://www.city.sayama.saitama.jp/kurashi/bukkakoutoukyufu/r7_bukkakoutoukyufu.html",
+    "https://www.city.sayama.saitama.jp/kurashi/jinken/danjo/jyoseikin/2026jyoseikin.html",
+    "https://www.city.sayama.saitama.jp/kankou/shogyoshien/reform.html",
+    "https://www.city.sayama.saitama.jp/kurashi/ecopet/jyosei/hozyoseido.html",
+    "https://www.city.sayama.saitama.jp/kurashi/sumai/joseikin/oyasetianshin.html",
+    "https://www.city.hanyu.lg.jp/docs/2025033100013/",
+    "https://www.city.hanyu.lg.jp/docs/2024101800022/",
+    "https://www.city.hanyu.lg.jp/docs/2012040100150/",
+    "https://www.city.hanyu.lg.jp/docs/2025032800020/",
+    "https://www.city.hanyu.lg.jp/docs/2014010800039/",
+    "https://www.city.kounosu.saitama.jp/page/22550.html",
+    "https://www.city.kounosu.saitama.jp/page/3753.html"
+  ],
+  "adoptedByMunicipality": {
+    "春日部市": [
+      "水道料金補助事業",
+      "プレミアム付商品券発行事業",
+      "防犯対策機器購入補助事業",
+      "学校給食費支援事業",
+      "ビジネスサポート応援給付金"
+    ],
+    "狭山市": [
+      "食料品等物価高騰対応給付金",
+      "女性職場環境改善助成金",
+      "店舗・住宅改修工事費補助金",
+      "クリーンエネルギー推進補助制度",
+      "親世帯安心同居・近居補助金"
+    ],
+    "羽生市": [
+      "新規事業チャレンジ補助金",
+      "創業支援事業補助金",
+      "住宅改修（リフォーム）補助金",
+      "節電設備導入支援補助金",
+      "商店街空き店舗対策モデル事業補助金"
+    ],
+    "鴻巣市": [
+      "結婚新生活支援補助金",
+      "妊婦のための支援給付",
+      "住宅リフォーム資金補助金",
+      "危険ブロック塀等撤去及び生け垣等設置事業補助金",
+      "木造住宅耐震改修助成"
+    ]
+  },
+  "verification": {
+    "syntax": "node --check src/data/grants/verified-local-misc-2026.ts: pass",
+    "duplicateSlugs": "20 added, duplicateCount 0",
+    "officialUrls": "13 unique official URLs HTTP 200",
+    "lint": "npm run lint -- src/data/grants/verified-local-misc-2026.ts: pass",
+    "diffCheck": "git diff --check: pass",
+    "coverage": "npm run audit:coverage: pass (failures 0, activePublished 10413, officialLinkedActive 10375, manuallyVerifiedActive 10375, 埼玉県 localOfficial 292)"
+  },
+  "notes": [
+    "全国公式棚卸しは未完了。既存rawのgap 0やHTTP 200のみで完了扱いしない。",
+    "候補292件が150件を超えたため、公式本文スニペットと公式検索結果で金額・対象・期限表現の揃う制度を再スコアリングした。",
+    "トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。"
+  ],
+  "next": [
+    "11218 深谷市",
+    "11219 上尾市",
+    "11221 草加市",
+    "11222 越谷市"
+  ]
+}

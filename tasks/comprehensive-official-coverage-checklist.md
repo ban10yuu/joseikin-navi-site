@@ -6542,3 +6542,36 @@
     - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
   - 次:
     - 埼玉県公式棚卸し004として、11214春日部市、11215狭山市、11216羽生市、11217鴻巣市を自治体コード順に確認する。
+
+- 埼玉県公式棚卸し004
+  - 対象:
+    - 11214 春日部市、11215 狭山市、11216 羽生市、11217 鴻巣市。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補292件をローカルJSONへ保存した。
+    - 候補が150件を超えたため、公式ドメインの個別制度ページと公式一覧ページを再スコアリングし、金額・対象・期限/受付表現の揃う20件を採用した。
+    - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
+  - 採用:
+    - 春日部市5件: 水道料金補助、プレミアム付商品券、防犯対策機器購入、学校給食費支援、ビジネスサポート応援給付金。
+    - 狭山市5件: 食料品等物価高騰対応給付金、女性職場環境改善、店舗・住宅改修工事費、クリーンエネルギー推進、親世帯安心同居・近居。
+    - 羽生市5件: 新規事業チャレンジ、創業支援、住宅改修、節電設備導入支援、商店街空き店舗対策モデル。
+    - 鴻巣市5件: 結婚新生活支援、妊婦支援給付、住宅リフォーム資金、危険ブロック塀撤去及び生け垣等設置、木造住宅耐震改修。
+  - 生成ファイル:
+    - `tasks/discovery/saitama-official-coverage-004-municipalities.json`
+    - `tasks/discovery/saitama-official-coverage-004-candidates.json`（raw候補）
+    - `tasks/discovery/saitama-official-coverage-004-official-extra.json`
+    - `tasks/discovery/saitama-official-coverage-004-detail-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-004-selected-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-004-selected-main.json`
+    - `tasks/discovery/saitama-official-coverage-004.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（20件、duplicateCount 0）。
+    - 公式URL到達: pass（13 unique official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10413、officialLinkedActive 10375、manuallyVerifiedActive 10375、埼玉県 localOfficial 292）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 春日部市の住宅リフォーム助成、農業者支援、障害福祉・介護・保育所等物価高騰支援、狭山市の宅配ボックス、妊産婦健診、羽生市の市民活動・環境系補助、鴻巣市の令和8年度サービス・助成一覧の残件は第2巡候補に残す。
+  - 次:
+    - 埼玉県公式棚卸し005として、11218深谷市、11219上尾市、11221草加市、11222越谷市を自治体コード順に確認する。
