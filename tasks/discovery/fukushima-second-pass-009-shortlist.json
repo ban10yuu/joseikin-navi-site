@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-07-13T13:59:21+09:00",
+  "batch": "fukushima-second-pass-009",
+  "municipalities": [
+    "昭和村",
+    "会津美里町",
+    "西郷村",
+    "泉崎村"
+  ],
+  "count": 7,
+  "results": [
+    {
+      "municipality": "昭和村",
+      "url": "https://www.vill.showa.fukushima.jp/procedure/196/",
+      "title": "教育・文化",
+      "priority": "adopt",
+      "reason": "奨学資金貸与制度と学校給食費無償化について、対象・金額/無償内容・募集期間または受付案内を公式本文で確認。"
+    },
+    {
+      "municipality": "泉崎村",
+      "url": "https://www.vill.izumizaki.fukushima.jp/kurashi-tetsuduki/kankyo/gomi/page001779.html",
+      "title": "家庭用生ごみ処理機購入助成金について",
+      "priority": "adopt",
+      "reason": "村内居住者、購入費2分の1以内・上限3万円、4月1日から予算到達までを公式本文で確認。"
+    },
+    {
+      "municipality": "泉崎村",
+      "url": "https://www.vill.izumizaki.fukushima.jp/kurashi-tetsuduki/news/page002019.html",
+      "title": "泉崎村物価高騰対応地域商品券事業取扱事業者の募集について",
+      "priority": "hold",
+      "reason": "地域商品券の取扱事業者登録ページで、住民向け商品券本体は既掲載の page002020 と同一事業の詳細証跡として扱う。"
+    },
+    {
+      "municipality": "泉崎村",
+      "url": "https://www.vill.izumizaki.fukushima.jp/gyosei/nogyoiinkai/page000356.html",
+      "title": "農業者年金",
+      "priority": "hold",
+      "reason": "制度強語と金額はあるが国制度案内で、村独自の補助金・給付金ではないため新規追加しない。"
+    },
+    {
+      "municipality": "泉崎村",
+      "url": "https://www.vill.izumizaki.fukushima.jp/kurashi-tetsuduki/news/page001294.html",
+      "title": "住宅応急修理について～準半壊以上～（令和4年3月16日地震）",
+      "priority": "hold",
+      "reason": "旧災害救助法関連の受付候補で、現行受付状況と村独自制度差分が不明なため継続確認。"
+    },
+    {
+      "municipality": "会津美里町",
+      "url": "first-pass-009-held-categories",
+      "title": "カテゴリページ・重複URL・国制度色が強い候補",
+      "priority": "hold",
+      "reason": "第1巡で個別制度25件を掲載済み。今回の未採用URLはカテゴリ/重複/国制度色が強く、新規採用に必要な制度単位差分なし。"
+    },
+    {
+      "municipality": "西郷村",
+      "url": "first-pass-009-held-categories",
+      "title": "カテゴリページ・県制度案内・求人/計画候補",
+      "priority": "hold",
+      "reason": "第1巡で個別制度41件を掲載済み。今回の未採用URLはカテゴリページ、計画、プロポーザル、県制度案内等で、新規採用に必要な制度単位差分なし。"
+    }
+  ]
+}

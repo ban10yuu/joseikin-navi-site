@@ -5021,6 +5021,29 @@
   - 次:
     - 福島県第2巡009として、07446昭和村、07447会津美里町、07461西郷村、07464泉崎村の保留候補を確認する。
 
+- 福島県公式棚卸し第2巡009（昭和村・会津美里町・西郷村・泉崎村）
+  - 対象: 07446昭和村、07447会津美里町、07461西郷村、07464泉崎村。
+  - 方法:
+    - 第1巡009の保留候補、既存採用URL、公式本文、検索結果・カテゴリ・旧災害候補を再確認した。
+    - 既掲載 `officialUrl` を除外し、公式本文を再取得して `tasks/discovery/fukushima-second-pass-009-shortlist.json` 7件、`tasks/discovery/fukushima-second-pass-009-page-evidence.json` 5件、`tasks/discovery/fukushima-second-pass-009-adopted.json` を作成した。
+    - title/h1/main/article/URLの制度強語に加え、対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別制度を採用し、カテゴリ、国制度案内、既掲載制度の詳細ページ、旧災害候補は第2巡継続台帳へ残した。
+  - 追加:
+    - 昭和村: 奨学資金貸与制度、学校給食費無償化。
+    - 泉崎村: 家庭用生ごみ処理機購入助成金。
+  - 保留継続:
+    - 昭和村の支援制度カテゴリ、健康・子育て支援カテゴリ、高齢者福祉カテゴリ、新規就農者募集、プロポーザル等は制度単位の金額・受付差分または補助対象性が不足し継続確認。
+    - 会津美里町は第1巡で個別制度25件を掲載済み。カテゴリページ、重複URL、国制度色が強い年金・証明・相談ページ、金額が制度単位で分離しにくいページは継続台帳に残す。
+    - 西郷村は第1巡で個別制度41件を掲載済み。カテゴリページ、重複URL、計画・プロポーザル・県制度案内・求人情報、制度単位差分が不明なページは継続台帳に残す。
+    - 泉崎村の取扱事業者募集ページは既掲載の商品券事業と同一。農業者年金は国制度案内。住宅応急修理は旧災害救助法関連で現行受付差分不明。検索結果ページ、一覧、旧コロナ関連、配布文書PDF一覧は継続確認。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 3件、重複確認 pass（duplicateOrMissing 0）。
+    - 追加した3制度3公式URLの到達確認 pass（3件すべて HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9419、officialLinkedActive 9381、manuallyVerifiedActive 9381、福島県 localOfficial 897、coveredCategories 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-second-pass-009-shortlist.json tasks/discovery/fukushima-second-pass-009-page-evidence.json tasks/discovery/fukushima-second-pass-009-adopted.json`: pass。
+  - 次:
+    - 福島県第2巡010として、07465中島村、07466矢吹町、07481棚倉町、07482矢祭町の保留候補を確認する。
+
 - 宮城県公式棚卸し009（美里町・女川町・南三陸町）
   - 対象: 04505美里町、04581女川町、04606南三陸町。
   - 方法:
