@@ -1,0 +1,145 @@
+{
+  "generatedAt": "2026-07-13T14:06:20+09:00",
+  "batch": "fukushima-second-pass-005",
+  "municipalities": [
+    "大玉村",
+    "鏡石町",
+    "天栄村",
+    "下郷町"
+  ],
+  "sourceEvidence": {
+    "shortlist": "tasks/discovery/fukushima-second-pass-005-shortlist.json",
+    "pageEvidence": "tasks/discovery/fukushima-second-pass-005-page-evidence.json"
+  },
+  "adoptedCount": 19,
+  "adopted": [
+    {
+      "municipality": "天栄村",
+      "slug": "tenei-new-life-housing-support-grant-2026",
+      "officialUrl": "https://www.vill.tenei.fukushima.jp/site/iju/shinseikatu-sumaidukuriouen.html",
+      "reason": "転入若者世帯、5年以上居住、契約から60日以内、基本額50万円と各種加算を公式本文・PDFで確認"
+    },
+    {
+      "municipality": "天栄村",
+      "slug": "tenei-young-settlement-housing-support-grant-2026",
+      "officialUrl": "https://www.vill.tenei.fukushima.jp/site/iju/wakamonoteijyu.html",
+      "reason": "40歳未満、直近2年以上村内居住、5年以上定住、新築基本100万円・中古基本70万円と加算を公式本文・PDFで確認"
+    },
+    {
+      "municipality": "天栄村",
+      "slug": "tenei-residential-fire-alarm-subsidy-2026",
+      "officialUrl": "https://www.vill.tenei.fukushima.jp/site/bousai/kasaikeihoukihojyo.html",
+      "reason": "村内住所、自己所有住宅、購入価格1/2、上限2万円、購入から6か月以内を公式本文・PDFで確認"
+    },
+    {
+      "municipality": "天栄村",
+      "slug": "tenei-villager-support-voucher-2026",
+      "officialUrl": "https://www.vill.tenei.fukushima.jp/soshiki/38/syouhinken2026.html",
+      "reason": "令和7年12月22日時点住民、1人2万円分、令和8年7月31日使用期限を公式本文・PDFで確認"
+    },
+    {
+      "municipality": "天栄村",
+      "slug": "tenei-elderly-taxi-fare-subsidy-2026",
+      "officialUrl": "https://www.vill.tenei.fukushima.jp/soshiki/35/teneitaxi.html",
+      "reason": "65歳以上等、9,999円以下は1/2、1万円以上は5,000円、年24枚までを公式本文・PDFで確認"
+    },
+    {
+      "municipality": "天栄村",
+      "slug": "tenei-fukushima-airport-use-subsidy-2026",
+      "officialUrl": "https://www.vill.tenei.fukushima.jp/soshiki/35/fukushima-airport.html",
+      "reason": "構成市町村民団体、事前申請、札幌便1万円・大阪便3千円・国際便5千円、10人分限度を公式本文・PDFで確認"
+    },
+    {
+      "municipality": "下郷町",
+      "slug": "shimogo-education-promotion-subsidy-2026",
+      "officialUrl": "https://www.town.shimogo.fukushima.jp/childcare/syakai/1373.html",
+      "reason": "大会出場、交通費・宿泊費・参加料等実費、予算補助、事業開始日までの申請を公式本文・PDFで確認"
+    },
+    {
+      "municipality": "大玉村",
+      "slug": "otama-pregnancy-support-benefit-2026",
+      "officialUrl": "https://www.vill.otama.fukushima.jp/file/contents/1719/21138/P05P06.pdf",
+      "reason": "村内住所、妊婦1人5万円、子ども1人5万円、妊娠届出時・赤ちゃん訪問時案内を公式PDFで確認"
+    },
+    {
+      "municipality": "大玉村",
+      "slug": "otama-pregnant-rs-vaccine-subsidy-2026",
+      "officialUrl": "https://www.vill.otama.fukushima.jp/kurashi/ninshin_kosodate/ninshin/",
+      "reason": "妊娠28週0日から36週6日、接種費用無料、妊娠届出時案内を公式本文で確認"
+    },
+    {
+      "municipality": "大玉村",
+      "slug": "otama-maternal-transportation-subsidy-2026",
+      "officialUrl": "https://www.vill.otama.fukushima.jp/file/contents/97/36225/ninnsanpu.pdf",
+      "reason": "村内住所、令和7年4月1日以降母子手帳交付、1回の妊娠につき1万円分を公式PDFで確認"
+    },
+    {
+      "municipality": "大玉村",
+      "slug": "otama-one-month-infant-checkup-subsidy-2026",
+      "officialUrl": "https://www.vill.otama.fukushima.jp/file/contents/1719/21138/P05P06.pdf",
+      "reason": "受診日に村内住所の乳児、保険診療外費用、全額・上限6,000円を公式PDFで確認"
+    },
+    {
+      "municipality": "大玉村",
+      "slug": "otama-postpartum-care-service-2026",
+      "officialUrl": "https://www.vill.otama.fukushima.jp/file/contents/1719/21138/P05P06.pdf",
+      "reason": "村内住所の赤ちゃんと母、原則7日・7回、利用料無料、食事代等別途を公式PDFで確認"
+    },
+    {
+      "municipality": "大玉村",
+      "slug": "otama-birth-celebration-grant-2026",
+      "officialUrl": "https://www.vill.otama.fukushima.jp/file/contents/1719/21138/P11P12.pdf",
+      "reason": "第3子以降、出産前3か月以上住所、出生児1人30万円を公式PDFで確認"
+    },
+    {
+      "municipality": "大玉村",
+      "slug": "otama-home-childcare-support-grant-2026",
+      "officialUrl": "https://www.vill.otama.fukushima.jp/file/contents/1719/21138/P11P12.pdf",
+      "reason": "生後6か月から満1歳、在宅育児、月1万円・最大6万円を公式PDFで確認"
+    },
+    {
+      "municipality": "大玉村",
+      "slug": "otama-outside-village-childcare-facility-grant-2026",
+      "officialUrl": "https://www.vill.otama.fukushima.jp/file/contents/1719/21138/P11P12.pdf",
+      "reason": "村外保育施設、月単位契約、差額交付、月上限5万円、年2回受付を公式PDFで確認"
+    },
+    {
+      "municipality": "大玉村",
+      "slug": "otama-child-medical-expense-subsidy-2026",
+      "officialUrl": "https://www.vill.otama.fukushima.jp/file/contents/1719/21138/P13P14.pdf",
+      "reason": "18歳年度末まで、保険診療一部負担金、入院時食事療養費、現物給付・償還払いを公式PDFで確認"
+    },
+    {
+      "municipality": "大玉村",
+      "slug": "otama-disabled-child-support-grant-2026",
+      "officialUrl": "https://www.vill.otama.fukushima.jp/file/contents/1719/21138/P19P20.pdf",
+      "reason": "20歳未満障がい児、満6歳5万円・12歳5万円・18歳10万円、住所要件を公式PDFで確認"
+    },
+    {
+      "municipality": "大玉村",
+      "slug": "otama-severe-disability-taxi-fare-subsidy-2026",
+      "officialUrl": "https://www.vill.otama.fukushima.jp/file/contents/1719/21138/P19P20.pdf",
+      "reason": "対象となる手帳区分、タクシー料金、年上限1万5,000円を公式PDFで確認"
+    },
+    {
+      "municipality": "大玉村",
+      "slug": "otama-special-support-school-commuting-subsidy-2026",
+      "officialUrl": "https://www.vill.otama.fukushima.jp/file/contents/1719/21138/P19P20.pdf",
+      "reason": "特別支援学校通学、タクシー利用が適当、自己負担分1/2以内、月上限2万5,000円を公式PDFで確認"
+    }
+  ],
+  "held": [
+    {
+      "municipality": "大玉村",
+      "reason": "住宅取得支援、移住支援金、地方就職支援金、空き家改修等支援、中小企業支援、物価高騰関連事業は今回取得本文だけでは金額・受付状況・個別制度本文の確定に不足または別制度重複のため継続確認とした。"
+    },
+    {
+      "municipality": "大玉村",
+      "reason": "少子化対策祝金の子育て祝金、幼稚園預かり保育料は対象・無料化条件の制度分離と助成額根拠を次巡で精査する。"
+    },
+    {
+      "municipality": "鏡石町",
+      "reason": "第1巡005時点で追加済みの産後ケア事業、高齢者運転免許証自主返納者支援事業以外は、今回の再確認で新規採用できる個別公式ページを確認できなかった。"
+    }
+  ]
+}

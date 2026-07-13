@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T13:52:50+09:00",
+  "updatedAt": "2026-07-13T14:06:20+09:00",
   "mode": "fukushima-second-pass-official-coverage",
   "lastCompleted": {
-    "code": "fukushima-second-pass-official-coverage-004",
-    "municipality": "本宮市・桑折町・国見町・川俣町",
-    "adopted": 23,
-    "held": 14,
-    "excluded": 5,
-    "sourceUrlsChecked": 23,
+    "code": "fukushima-second-pass-official-coverage-005",
+    "municipality": "大玉村・鏡石町・天栄村・下郷町",
+    "adopted": 19,
+    "held": 3,
+    "excluded": 0,
+    "sourceUrlsChecked": 19,
     "validation": {
-      "previousMunicipality": "福島県第2巡004として、07214本宮市、07301桑折町、07303国見町、07308川俣町を対象に、第1巡004の保留欄、公式候補、本文スニペットを再確認した。既掲載officialUrlを除外し、公式カテゴリ・一覧から個別ページへ展開してshortlist 83件、リンク証跡14件、個別ページ証跡41件を作成し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる23ページを採用した。外部制度一覧、受付終了、本文不足、既存重複候補は第2巡継続台帳へ残した。",
+      "previousMunicipality": "福島県第2巡005として、07322大玉村、07342鏡石町、07344天栄村、07362下郷町を対象に、第1巡005の保留候補、既存候補JSON、本文スニペット、PDF証跡を再確認した。既掲載officialUrlを除外し、shortlist 33件、個別ページ証跡35件を作成し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文またはPDFで確認できる19制度を採用した。金額根拠不足、制度分離未確定、既存重複候補は第2巡継続台帳へ残した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: added 23 slugs, duplicateOrMissing 0",
-      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 23 added slugs / 23 source URLs, failures 0, all HTTP 200",
-      "diffCheck": "pass: git diff --check for Fukushima second-pass 004 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9357, officialLinkedActive 9319, manuallyVerifiedActive 9319, Fukushima localOfficial 835, Fukushima coveredCategories 8"
+      "addedSlugUniqueness": "pass: added 19 slugs, duplicateOrMissing 0",
+      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 19 added slugs / 19 source URLs, failures 0, all HTTP 200",
+      "diffCheck": "pass: git diff --check for Fukushima second-pass 005 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9376, officialLinkedActive 9338, manuallyVerifiedActive 9338, Fukushima localOfficial 854, Fukushima coveredCategories 8"
     }
   },
   "next": {
-    "code": "fukushima-second-pass-official-coverage-005",
-    "municipality": "大玉村・鏡石町・天栄村・下郷町",
-    "shortlist": "福島県第2巡004で本宮市・桑折町・国見町・川俣町の保留候補から23制度を追加した。外部制度一覧、受付終了、本文不足、既存重複候補は継続台帳に残した。次は第1巡005の保留候補を自治体コード順に確認する。",
-    "instructions": "福島県第2巡005として、07322大玉村、07342鏡石町、07344天栄村、07362下郷町の第1巡保留候補、カテゴリ、一覧、PDF、金額未掲載候補、外部制度案内、旧制度候補を公式本文/PDF単位で再確認し、制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。既存raw gap 0や第1巡末尾到達を全国完了扱いしない。"
+    "code": "fukushima-second-pass-official-coverage-006",
+    "municipality": "檜枝岐村・只見町・南会津町・北塩原村",
+    "shortlist": "福島県第2巡005で大玉村・天栄村・下郷町の保留候補から19制度を追加した。大玉村の金額根拠不足・制度分離未確定候補、鏡石町の新規採用なし候補は継続台帳に残した。次は第1巡006の保留候補を自治体コード順に確認する。",
+    "instructions": "福島県第2巡006として、07364檜枝岐村、07367只見町、07368南会津町、07402北塩原村の第1巡保留候補、カテゴリ、一覧、PDF、金額未掲載候補、外部制度案内、旧制度候補を公式本文/PDF単位で再確認し、制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。既存raw gap 0や第1巡末尾到達を全国完了扱いしない。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
