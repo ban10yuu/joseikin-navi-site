@@ -6365,3 +6365,42 @@
     - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
   - 次:
     - 群馬県公式棚卸し008として、10444昭和村、10448みなかみ町、10449玉村町、10521板倉町を自治体コード順に確認する。
+
+- 群馬県公式棚卸し008
+  - 対象:
+    - 10444 昭和村、10448 みなかみ町、10449 玉村町、10521 板倉町。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補164件をローカルJSONへ保存した。
+    - `tasks/discovery/gunma-official-coverage-008-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現、再スコアを保存した。
+    - 公式カテゴリ・一覧ページから個別制度ページを補完し、`tasks/discovery/gunma-official-coverage-008-official-extra.json` に公式リンク194件を保存した。
+    - 制度強語と金額・対象条件・期限/受付表現が揃う候補89件を `tasks/discovery/gunma-official-coverage-008-selected-snippets.json` と `tasks/discovery/gunma-official-coverage-008-selected-main.json` に抽出した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃う個別ページのみ採用した。
+  - 採用:
+    - 昭和村2件: 猫の不妊・去勢手術費、出産・子育て応援助成。
+    - みなかみ町11件: 移住支援金、不妊治療費、地方就職支援、防犯カメラ等、果樹等伐採、ぐんま技術革新チャレンジ、農業者収入保険加入促進、認定農業者営農支援、移住・テレワークレンタカー借上料、無痛分娩費用、出産・誕生日祝金。
+    - 玉村町7件: こうのとり助成、住宅用蓄電池、移住支援金、住宅用太陽光発電、後期高齢者日帰り人間ドック、たまむら地域商品券、運転経歴証明書交付手数料。
+    - 板倉町15件: 移住支援金、住宅リフォーム、住宅取得、住宅用太陽光発電、不妊・不育症治療費、結婚新生活、板倉ニュータウン移住支援、合併処理浄化槽、家庭用防犯カメラ、妊婦支援給付金、風しん任意予防接種、ぐんま技術革新チャレンジ、福祉医療、スズメバチの巣駆除費、子育て支援金。
+  - 生成ファイル:
+    - `tasks/discovery/gunma-official-coverage-008-municipalities.json`
+    - `tasks/discovery/gunma-official-coverage-008-candidates.json`（raw候補）
+    - `tasks/discovery/gunma-official-coverage-008-detail-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-008-official-extra.json`
+    - `tasks/discovery/gunma-official-coverage-008-selected-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-008-selected-main.json`
+    - `tasks/discovery/gunma-official-coverage-008.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（35件、全9914slugでduplicateCount 0）。
+    - 公式URL到達: pass（追加35 URLすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10258、officialLinkedActive 10220、manuallyVerifiedActive 10220、群馬県 localOfficial 295）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 昭和村は通常クロールの強候補が少ないため、子育てサイトと暮らしカテゴリから公式リンクを補完した。住宅・引越しカテゴリ等のカテゴリ一致は第2巡候補に残す。
+    - みなかみ町は補助金・支援制度一覧から多数の事業を補完した。起業支援、店舗等改築、地場産品普及、観光活性化、木造住宅耐震、空き家バンク活用、大学生等新幹線通学費等は金額表又は要綱の追加確認が必要なため第2巡候補に残す。
+    - 玉村町の空き家リフォーム・片付け、返礼品開発補助、路線バス通学定期補助等はPDF又は本文後半の上限確認が必要なため第2巡候補に残す。
+    - 板倉町の住宅リフォーム、住宅取得、太陽光、浄化槽、防犯カメラ、不妊・不育、結婚新生活等は公式本文で制度ページと金額表現を確認したが、一部は要綱詳細を第2巡で再確認する。
+    - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
+  - 次:
+    - 群馬県公式棚卸し009として、10522明和町、10523千代田町、10524大泉町、10525邑楽町を自治体コード順に確認する。

@@ -1,0 +1,72 @@
+{
+  "batchId": "gunma-comprehensive-official-coverage-008",
+  "prefecture": "群馬県",
+  "completedAt": "2026-07-14",
+  "targets": [
+    {
+      "code": "10444",
+      "name": "昭和村",
+      "officialBaseUrl": "https://www.vill.showa.gunma.jp/"
+    },
+    {
+      "code": "10448",
+      "name": "みなかみ町",
+      "officialBaseUrl": "https://www.town.minakami.gunma.jp/"
+    },
+    {
+      "code": "10449",
+      "name": "玉村町",
+      "officialBaseUrl": "https://www.town.tamamura.lg.jp/"
+    },
+    {
+      "code": "10521",
+      "name": "板倉町",
+      "officialBaseUrl": "https://www.town.itakura.gunma.jp/"
+    }
+  ],
+  "discovery": {
+    "candidateCount": 164,
+    "officialExtraLinkCount": 194,
+    "selectedCount": 89,
+    "adoptedCount": 35,
+    "adoptionRate": 0.393,
+    "generatedFiles": [
+      "tasks/discovery/gunma-official-coverage-008-municipalities.json",
+      "tasks/discovery/gunma-official-coverage-008-candidates.json",
+      "tasks/discovery/gunma-official-coverage-008-detail-snippets.json",
+      "tasks/discovery/gunma-official-coverage-008-official-extra.json",
+      "tasks/discovery/gunma-official-coverage-008-selected-main.json",
+      "tasks/discovery/gunma-official-coverage-008-selected-snippets.json"
+    ]
+  },
+  "adoptedCounts": {
+    "昭和村": 2,
+    "みなかみ町": 11,
+    "玉村町": 7,
+    "板倉町": 15
+  },
+  "verification": {
+    "nodeCheck": "pass",
+    "duplicateSlugCheck": "pass (35 added, duplicateCount 0)",
+    "addedOfficialUrlHttp200": "pass (35 URLs)",
+    "targetedLint": "pass",
+    "gitDiffCheck": "pass",
+    "auditCoverage": "pass (failures 0, activePublished 10258, officialLinkedActive 10220, manuallyVerifiedActive 10220, 群馬県 localOfficial 295)"
+  },
+  "secondPassNotes": [
+    "昭和村は通常クロールの強候補が少ないため、子育てサイトと暮らしカテゴリから公式リンクを補完した。住宅・引越しカテゴリ等のカテゴリ一致は第2巡候補に残す。",
+    "みなかみ町は補助金・支援制度一覧から多数の事業を補完した。起業支援、店舗等改築、地場産品普及、観光活性化、木造住宅耐震、空き家バンク活用、大学生等新幹線通学費等は金額表又は要綱の追加確認が必要なため第2巡候補に残す。",
+    "玉村町の空き家リフォーム・片付け、返礼品開発補助、路線バス通学定期補助等はPDF又は本文後半の上限確認が必要なため第2巡候補に残す。",
+    "板倉町の住宅リフォーム、住宅取得、太陽光、浄化槽、防犯カメラ、不妊・不育、結婚新生活等は公式本文で制度ページと金額表現を確認したが、一部は要綱詳細を第2巡で再確認する。",
+    "トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。"
+  ],
+  "next": {
+    "batchId": "gunma-comprehensive-official-coverage-009",
+    "targets": [
+      "10522 明和町",
+      "10523 千代田町",
+      "10524 大泉町",
+      "10525 邑楽町"
+    ]
+  }
+}

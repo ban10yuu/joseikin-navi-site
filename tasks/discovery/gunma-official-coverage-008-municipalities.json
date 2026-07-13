@@ -1,0 +1,26 @@
+{
+  "batchId": "gunma-comprehensive-official-coverage-008",
+  "prefecture": "群馬県",
+  "municipalities": [
+    {
+      "code": "10444",
+      "name": "昭和村",
+      "officialBaseUrl": "https://www.vill.showa.gunma.jp/"
+    },
+    {
+      "code": "10448",
+      "name": "みなかみ町",
+      "officialBaseUrl": "https://www.town.minakami.gunma.jp/"
+    },
+    {
+      "code": "10449",
+      "name": "玉村町",
+      "officialBaseUrl": "https://www.town.tamamura.lg.jp/"
+    },
+    {
+      "code": "10521",
+      "name": "板倉町",
+      "officialBaseUrl": "https://www.town.itakura.gunma.jp/"
+    }
+  ]
+}
