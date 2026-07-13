@@ -6912,4 +6912,40 @@
     - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
     - 横瀬町の高齢者等IT機器導入支援補助金、妊婦健診費助成事業、移住支援金、中学3年生・高齢者インフルエンザ予防接種、皆野町の住宅用太陽光発電設備設置費補助金、移住支援金制度、不妊・不育症検査、不妊治療費助成、チャイルドシート購入費補助金、長瀞町の令和8年度はつらつ！就学・通学応援金、物価高対応子育て応援手当、各種医療費助成・ドナー助成、移住情報カテゴリ、小鹿野町の店舗・住宅リフォーム助成金、住宅取得助成、移住支援金、妊婦支援給付金、空き家改修・定住促進奨励金は、金額・対象・受付状況又は制度重複の観点で第2巡候補に残す。
   - 次:
-    - 埼玉県公式棚卸し015として、11369東秩父村、11381美里町、11383神川町、11385上里町を自治体コード順に確認する。
+    - 埼玉県公式棚卸し015として、11369東秩父村、11381美里町、11383神川町、11385上里町を自治体コード順に確認した。
+
+- 埼玉県公式棚卸し015
+  - 対象:
+    - 11369 東秩父村、11381 美里町、11383 神川町、11385 上里町。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補317件をローカルJSONへ保存した。
+    - 候補数が150件を超えたため、公式リンク短評123件、公式本文スニペット70件を `tasks/discovery/saitama-official-coverage-015-link-shortlist.json` と `tasks/discovery/saitama-official-coverage-015-detail-snippets.json` に保存し、制度強語、金額・上限、対象条件、期限・受付表現の揃う個別ページを再スコアリングした。
+    - 東秩父村の移住定住促進補助制度は同一公式ページ内で、空き家リフォーム、子育て奨励金、空き家除却を制度単位に分け、対象・上限・条件・工事前申請を確認した。
+    - 美里町・神川町・上里町は、同名自治体とのslug衝突を避けるため、埼玉県分の一部slugに `saitama-` 接頭辞を付けた。
+    - トップ、カテゴリ、サイトマップ、共通ナビ一致は採用せず、自治体本文又は公式個別ページで必須項目を確認できる制度のみ採用した。
+  - 採用:
+    - 東秩父村5件: 住宅用太陽光発電システム設置費補助金、住宅用高効率給湯器設置費補助金、移住定住促進補助制度 空き家リフォーム補助金、同 子育て奨励金、同 空き家除却補助金。
+    - 美里町5件: 奨学金返還支援事業補助金、木造住宅耐震改修補助制度、妊婦のための支援給付金、トライアル雇用定着支援事業奨励金、再生可能エネルギー設備等導入補助金。
+    - 神川町5件: 住宅リフォーム資金補助制度、空き家リフォーム補助金、子育て世帯空き家移住支援補助金、老朽空き家除却補助金、省エネ設備等導入補助金。
+    - 上里町5件: 木造住宅耐震診断・改修等補助金、住宅改修資金補助制度、生ごみ処理器等購入費補助金、創エネ・蓄エネ・循環促進補助金、起業支援事業補助金。
+  - 生成ファイル:
+    - `tasks/discovery/saitama-official-coverage-015-municipalities.json`
+    - `tasks/discovery/saitama-official-coverage-015-candidates.json`
+    - `tasks/discovery/saitama-official-coverage-015-link-shortlist.json`
+    - `tasks/discovery/saitama-official-coverage-015-detail-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-015-selected-main.json`
+    - `tasks/discovery/saitama-official-coverage-015-selected-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-015-official-extra.json`
+    - `tasks/discovery/saitama-official-coverage-015.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（20件、各1件）。
+    - 公式URL到達: pass（18 unique official URLsすべてHTTP 200。上里町起業支援ページは初回503後に再試行で200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10622、officialLinkedActive 10584、manuallyVerifiedActive 10584、埼玉県 localOfficial 501）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 東秩父村の親元同居近居住宅支援補助金、ナラ枯れ防除対策等支援補助金、協働のまちづくり事業補助金、医療費等の助成・給付、美里町の木造住宅耐震診断補助制度、特殊詐欺対策自動録音機購入費補助金、住宅改修資金補助事業、危険老朽空き家除去補助制度、起業支援事業補助金、神川町の省エネ家電買換促進補助金、住宅用防犯対策補助金、各種医療費助成・妊婦支援給付金、上里町の妊婦健康診査助成券償還払い、空き家利活用支援補助、中小企業融資利子補給等は、金額・対象・受付状況又は制度重複の観点で第2巡候補に残す。
+  - 次:
+    - 埼玉県公式棚卸し016として、11389寄居町、11442宮代町、11464杉戸町、11465松伏町を自治体コード順に確認する。

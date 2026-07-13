@@ -1,0 +1,26 @@
+{
+  "batchId": "saitama-comprehensive-official-coverage-015",
+  "prefecture": "埼玉県",
+  "municipalities": [
+    {
+      "code": "11369",
+      "name": "東秩父村",
+      "officialBaseUrl": "https://www.vill.higashichichibu.saitama.jp/"
+    },
+    {
+      "code": "11381",
+      "name": "美里町",
+      "officialBaseUrl": "https://www.town.saitama-misato.lg.jp/"
+    },
+    {
+      "code": "11383",
+      "name": "神川町",
+      "officialBaseUrl": "https://www.town.kamikawa.saitama.jp/"
+    },
+    {
+      "code": "11385",
+      "name": "上里町",
+      "officialBaseUrl": "https://www.town.kamisato.saitama.jp/"
+    }
+  ]
+}
