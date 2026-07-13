@@ -1,0 +1,26 @@
+{
+  "batchId": "fukushima-comprehensive-official-coverage-010",
+  "prefecture": "福島県",
+  "municipalities": [
+    {
+      "code": "07465",
+      "name": "中島村",
+      "officialBaseUrl": "https://www.vill-nakajima.jp/"
+    },
+    {
+      "code": "07466",
+      "name": "矢吹町",
+      "officialBaseUrl": "https://www.town.yabuki.fukushima.jp/"
+    },
+    {
+      "code": "07481",
+      "name": "棚倉町",
+      "officialBaseUrl": "https://www.town.tanagura.fukushima.jp/"
+    },
+    {
+      "code": "07482",
+      "name": "矢祭町",
+      "officialBaseUrl": "https://www.town.yamatsuri.fukushima.jp/"
+    }
+  ]
+}
