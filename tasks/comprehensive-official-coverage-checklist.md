@@ -5677,3 +5677,33 @@
     - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
   - 次:
     - 茨城県公式棚卸し007として、08228坂東市、08229稲敷市、08230かすみがうら市、08231桜川市を自治体コード順に確認する。
+
+- 茨城県公式棚卸し007
+  - 対象:
+    - 08228 坂東市、08229 稲敷市、08230 かすみがうら市、08231 桜川市。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補数1143件・HTML候補1100件のため本文スニペット200件をローカルJSONへ抽出して再スコアリングした。
+    - 公式サイト内検索と個別ページ到達確認を追加し、公式追加根拠52件を確認した。
+    - 既掲載公式URL、国・県制度案内、カテゴリ導線、期限切れ、社協等の外部主体制度、金額又は受付状況不足の候補を除外し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で揃うページのみ採用した。
+  - 採用:
+    - 坂東市11件: 危険ブロック塀撤去、家庭用防犯カメラ、ふるさと納税返礼品開発、奨学金返還、医療福祉職奨学金返還、おたふくかぜワクチン、結婚新生活、子育て世代定住、工業団地人材確保移住、移住支援金、妊婦支援。
+    - 稲敷市10件: 住宅リフォーム、蓄電池、小中学生検定料、スマート農業、妊婦支援、結婚新生活、奨学資金、ヨアトミ奨学資金、若年世帯住宅取得、犯罪被害者見舞金。
+    - かすみがうら市6件: 新時代対応型事業展開、霞ヶ浦聖苑使用料、排水設備接続、高齢者補聴器、妊婦支援、結婚新生活。
+    - 桜川市15件: 各種検定料、妊婦支援、区体力づくり、出会いサポートセンター、結婚お祝い金、子育て3step、住宅取得、高齢者配食、移住支援金、帯状疱疹ワクチン、禁煙サポート、賑わい創業、石材業技術者育成、産業立地、犯罪被害者見舞金。
+  - 生成ファイル:
+    - `tasks/discovery/ibaraki-official-coverage-007-municipalities.json`
+    - `tasks/discovery/ibaraki-official-coverage-007-candidates.json`（raw候補、gitignore対象）
+    - `tasks/discovery/ibaraki-official-coverage-007-detail-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-007-official-extra.json`
+    - `tasks/discovery/ibaraki-official-coverage-007.json`
+  - 検証:
+    - 追加slug重複: pass（42件、全9391slugでduplicateCount 0）。
+    - 公式URL到達: pass（42件すべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9753、officialLinkedActive 9715、manuallyVerifiedActive 9715、茨城県 localOfficial 275）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+  - 次:
+    - 茨城県公式棚卸し008として、08232神栖市、08233行方市、08234鉾田市、08235つくばみらい市を自治体コード順に確認する。

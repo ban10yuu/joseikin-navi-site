@@ -1,0 +1,161 @@
+{
+  "batchId": "ibaraki-comprehensive-official-coverage-007",
+  "prefecture": "茨城県",
+  "completedAt": "2026-07-13",
+  "municipalities": [
+    {
+      "code": "08228",
+      "name": "坂東市",
+      "officialBaseUrl": "https://www.city.bando.lg.jp/",
+      "adoptedCount": 11
+    },
+    {
+      "code": "08229",
+      "name": "稲敷市",
+      "officialBaseUrl": "https://www.city.inashiki.lg.jp/",
+      "adoptedCount": 10
+    },
+    {
+      "code": "08230",
+      "name": "かすみがうら市",
+      "officialBaseUrl": "https://www.city.kasumigaura.lg.jp/",
+      "adoptedCount": 6
+    },
+    {
+      "code": "08231",
+      "name": "桜川市",
+      "officialBaseUrl": "https://www.city.sakuragawa.lg.jp/",
+      "adoptedCount": 15
+    }
+  ],
+  "discovery": {
+    "candidateCount": 1143,
+    "htmlCandidateCount": 1100,
+    "detailSnippetRows": 200,
+    "officialExtraRows": 52,
+    "shortlistRescored": true,
+    "rawCandidatesFile": "tasks/discovery/ibaraki-official-coverage-007-candidates.json",
+    "detailSnippetsFile": "tasks/discovery/ibaraki-official-coverage-007-detail-snippets.json",
+    "officialExtraFile": "tasks/discovery/ibaraki-official-coverage-007-official-extra.json"
+  },
+  "adopted": {
+    "total": 42,
+    "byMunicipality": {
+      "坂東市": 11,
+      "稲敷市": 10,
+      "かすみがうら市": 6,
+      "桜川市": 15
+    },
+    "slugs": [
+      "bando-block-wall-removal-subsidy-2026",
+      "bando-home-security-camera-subsidy-2026",
+      "bando-furusato-return-gift-development-subsidy-2026",
+      "bando-scholarship-repayment-subsidy-2026",
+      "bando-medical-welfare-scholarship-repayment-subsidy-2026",
+      "bando-mumps-vaccine-subsidy-2026",
+      "bando-newlywed-life-subsidy-2026",
+      "bando-child-rearing-settlement-incentive-2026",
+      "bando-industrial-park-worker-relocation-incentive-2026",
+      "bando-migration-support-grant-2026",
+      "bando-pregnancy-support-benefit-2026",
+      "inashiki-home-renovation-subsidy-2026",
+      "inashiki-battery-system-subsidy-2026",
+      "inashiki-student-exam-fee-subsidy-2026",
+      "inashiki-smart-agriculture-subsidy-2026",
+      "inashiki-pregnancy-support-benefit-2026",
+      "inashiki-newlywed-life-subsidy-2026",
+      "inashiki-scholarship-loan-2026",
+      "inashiki-yoatomi-scholarship-loan-2026",
+      "inashiki-young-household-home-acquisition-subsidy-2026",
+      "inashiki-crime-victim-support-benefit-2026",
+      "kasumigaura-new-era-business-subsidy-2026",
+      "kasumigaura-crematorium-fee-subsidy-2026",
+      "kasumigaura-drainage-connection-subsidy-2026",
+      "kasumigaura-hearing-aid-subsidy-2026",
+      "kasumigaura-pregnancy-support-benefit-2026",
+      "kasumigaura-newlywed-life-subsidy-2026",
+      "sakuragawa-student-exam-fee-subsidy-2026",
+      "sakuragawa-pregnancy-support-benefit-2026",
+      "sakuragawa-district-fitness-subsidy-2026",
+      "sakuragawa-marriage-support-center-subsidy-2026",
+      "sakuragawa-marriage-celebration-benefit-2026",
+      "sakuragawa-child-rearing-three-step-benefit-2026",
+      "sakuragawa-home-acquisition-subsidy-2026",
+      "sakuragawa-elderly-meal-delivery-subsidy-2026",
+      "sakuragawa-migration-support-grant-2026",
+      "sakuragawa-shingles-vaccine-subsidy-2026",
+      "sakuragawa-smoking-cessation-subsidy-2026",
+      "sakuragawa-startup-subsidy-2026",
+      "sakuragawa-stone-industry-training-subsidy-2026",
+      "sakuragawa-industrial-location-incentive-2026",
+      "sakuragawa-crime-victim-support-benefit-2026"
+    ]
+  },
+  "heldForSecondPass": [
+    "検索結果・カテゴリ導線・制度一覧のみで、金額又は申請条件が個別ページ本文で揃わない候補",
+    "国・県制度の案内ページ、又は自治体主体の上乗せが確認できない候補",
+    "令和7年度以前で受付終了又は申請期限経過が明確な候補",
+    "社会福祉協議会等の外部主体制度で、市公式ページ単位の制度主体整理が必要な候補",
+    "PDF・添付様式のみで、本文ページから制度名・対象・金額・期限を十分に確認できない候補"
+  ],
+  "validation": {
+    "nodeCheck": {
+      "command": "node --check src/data/grants/verified-local-misc-2026.ts",
+      "status": "pass"
+    },
+    "lint": {
+      "command": "npm run lint -- src/data/grants/verified-local-misc-2026.ts",
+      "status": "pass"
+    },
+    "slugDuplicateCheck": {
+      "status": "pass",
+      "totalSlugs": 9391,
+      "duplicateCount": 0,
+      "addedSlugs": 42
+    },
+    "officialUrlReachability": {
+      "status": "pass",
+      "checked": 42,
+      "failures": 0
+    },
+    "gitDiffCheck": {
+      "command": "git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/discovery/ibaraki-official-coverage-007-municipalities.json tasks/discovery/ibaraki-official-coverage-007-detail-snippets.json tasks/discovery/ibaraki-official-coverage-007-official-extra.json tasks/discovery/ibaraki-official-coverage-007.json",
+      "status": "pass"
+    },
+    "auditCoverage": {
+      "command": "npm run audit:coverage",
+      "status": "pass",
+      "failures": 0,
+      "activePublished": 9753,
+      "officialLinkedActive": 9715,
+      "manuallyVerifiedActive": 9715,
+      "ibarakiLocalOfficial": 275
+    }
+  },
+  "next": {
+    "batchId": "ibaraki-comprehensive-official-coverage-008",
+    "municipalities": [
+      {
+        "code": "08232",
+        "name": "神栖市",
+        "officialBaseUrl": "https://www.city.kamisu.ibaraki.jp/"
+      },
+      {
+        "code": "08233",
+        "name": "行方市",
+        "officialBaseUrl": "https://www.city.namegata.ibaraki.jp/"
+      },
+      {
+        "code": "08234",
+        "name": "鉾田市",
+        "officialBaseUrl": "https://www.city.hokota.lg.jp/"
+      },
+      {
+        "code": "08235",
+        "name": "つくばみらい市",
+        "officialBaseUrl": "https://www.city.tsukubamirai.lg.jp/"
+      }
+    ],
+    "instructions": "自治体コード順に、公式本文/PDFで制度名・対象・金額/上限・条件・期限/受付状況が揃う個別ページを優先し、カテゴリ導線や制度主体未整理の候補は第2巡台帳へ残す。"
+  }
+}
