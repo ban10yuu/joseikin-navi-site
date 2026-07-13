@@ -2,10 +2,11 @@ import type { Metadata } from 'next';
 import { Analytics } from '@vercel/analytics/next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { siteConfig, isAdsenseEnabled } from '@/config/site';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://joseikin-navi-site.vercel.app'),
+  metadataBase: new URL(siteConfig.url),
   title: {
     default: '助成金ナビ｜全ページ公式リンク記載の助成金・補助金検索【2026年版】',
     template: '%s｜助成金ナビ',
@@ -38,10 +39,10 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'ja_JP',
-    siteName: '助成金ナビ',
+    siteName: siteConfig.name,
     title: '助成金ナビ｜全ページ公式リンク記載の助成金・補助金検索',
     description: '助成金・補助金・給付金を公式確認先とあわせて探せる無料検索サイト。',
-    url: 'https://joseikin-navi-site.vercel.app',
+    url: siteConfig.url,
   },
   twitter: {
     card: 'summary_large_image',
@@ -49,18 +50,18 @@ export const metadata: Metadata = {
     description: '国・自治体・民間の助成金・補助金を公式確認先とあわせて探せる無料検索サイト。',
   },
   robots: {
-    index: true,
-    follow: true,
+    index: siteConfig.indexable,
+    follow: siteConfig.indexable,
     googleBot: {
-      index: true,
-      follow: true,
+      index: siteConfig.indexable,
+      follow: siteConfig.indexable,
       'max-video-preview': -1,
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
   },
   alternates: {
-    canonical: 'https://joseikin-navi-site.vercel.app',
+    canonical: siteConfig.url,
   },
   verification: {
     google: 'QNT_EwkmJ039_aVzqr1sKc_hySyn-ZpgLZDtAgxtsNo',
@@ -77,38 +78,48 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
           rel="stylesheet"
         />
-        <meta name="google-adsense-account" content="ca-pub-1611624572831066" />
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1611624572831066"
-          crossOrigin="anonymous"
-        />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-V11MKY0X3F" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-V11MKY0X3F');`,
-          }}
-        />
+        {isAdsenseEnabled && (
+          <>
+            <meta name="google-adsense-account" content={siteConfig.adsense.clientId ?? undefined} />
+            <script
+              async
+              src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${siteConfig.adsense.clientId}`}
+              crossOrigin="anonymous"
+            />
+          </>
+        )}
+        {siteConfig.analytics.ga4MeasurementId && (
+          <>
+            <script async src={`https://www.googletagmanager.com/gtag/js?id=${siteConfig.analytics.ga4MeasurementId}`} />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config',${JSON.stringify(siteConfig.analytics.ga4MeasurementId)});`,
+              }}
+            />
+          </>
+        )}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'WebSite',
-              name: '助成金ナビ',
+              name: siteConfig.name,
               alternateName: 'Joseikin Navi',
-              url: 'https://joseikin-navi-site.vercel.app',
+              url: siteConfig.url,
               description: '国・自治体・民間団体の助成金・補助金情報を公式リンク記載ページとして掲載するナビゲーションサイト',
-              publisher: {
-                '@type': 'Organization',
-                name: '助成金ナビ',
-                url: 'https://joseikin-navi-site.vercel.app',
-              },
+              ...(siteConfig.operatorName ? {
+                publisher: {
+                  '@type': 'Organization',
+                  name: siteConfig.operatorName,
+                  url: siteConfig.url,
+                },
+              } : {}),
               potentialAction: {
                 '@type': 'SearchAction',
                 target: {
                   '@type': 'EntryPoint',
-                  urlTemplate: 'https://joseikin-navi-site.vercel.app/grants/?q={search_term_string}',
+                  urlTemplate: `${siteConfig.url}/grants/?q={search_term_string}`,
                 },
                 'query-input': 'required name=search_term_string',
               },
@@ -124,7 +135,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main className="flex-1">{children}</main>
           <Footer />
         </div>
-        <Analytics />
+        {siteConfig.analytics.vercelAnalyticsEnabled && <Analytics />}
       </body>
     </html>
   );
