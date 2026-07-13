@@ -1,6 +1,6 @@
 {
   "code": "miyagi-comprehensive-official-coverage-final-audit",
-  "checkedAt": "2026-07-12T20:55:00+09:00",
+  "checkedAt": "2026-07-13T15:26:05+09:00",
   "prefecture": "宮城県",
   "scope": [
     "宮城県庁",
@@ -65,7 +65,9 @@
   },
   "findings": {
     "coverageFileCount": 18,
-    "remainingHeldInJson": 0,
+    "remainingHeldInSecondPassJson": 0,
+    "secondPassAdopted": 229,
+    "secondPassExcluded": 114,
     "miyagiLocalOfficialByAudit": 355,
     "miyagiLocalManuallyVerifiedByAudit": 355,
     "coveredCategories": 8,
@@ -76,9 +78,9 @@
     "command": "npm run audit:coverage",
     "status": "pass",
     "totals": {
-      "activePublished": 8111,
-      "officialLinkedActive": 8073,
-      "manuallyVerifiedActive": 8073,
+      "activePublished": 9445,
+      "officialLinkedActive": 9407,
+      "manuallyVerifiedActive": 9407,
       "activeWithoutOfficialSource": 38,
       "officialLinkedButNotManuallyVerified": 0,
       "failures": 0
@@ -100,7 +102,7 @@
     }
   },
   "decision": {
-    "miyagiStatus": "宮城県の第1巡001-009、第2巡001-009、県庁・公的機関候補の採否記録を確認し、宮城県内の候補未判定は0件として県単位完了扱い。",
+    "miyagiStatus": "宮城県の第1巡001-009、第2巡001-009、県庁・公的機関候補の採否記録を現行HEADで再確認し、宮城県内の候補未判定は0件として県単位完了扱い。",
     "nationwideStatus": "全国公式棚卸しは未完了。raw gap 0やHTTP 200のみを全国完了扱いしない。",
     "next": "秋田県公式棚卸し001として、05000秋田県庁、05201秋田市、05202能代市、05203横手市から自治体コード順に再開する。"
   }

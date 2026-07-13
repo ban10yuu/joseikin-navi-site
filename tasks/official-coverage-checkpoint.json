@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T15:22:57+09:00",
-  "mode": "miyagi-second-pass-official-coverage",
+  "updatedAt": "2026-07-13T15:26:05+09:00",
+  "mode": "akita-official-coverage",
   "lastCompleted": {
-    "code": "miyagi-second-pass-official-coverage-009",
-    "municipality": "美里町・女川町・南三陸町",
-    "adopted": 24,
+    "code": "miyagi-final-audit",
+    "municipality": "宮城県全体",
+    "adopted": 0,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 24,
+    "sourceUrlsChecked": 0,
     "validation": {
-      "previousMunicipality": "宮城県第2巡009として、04505美里町、04581女川町、04606南三陸町を対象に、第1巡009の保留候補と既作成台帳を再確認した。美里町9制度、女川町7制度、南三陸町8制度の採用slugと24制度24公式URLを現行HEADで再検証し、既採用済み制度、カテゴリ・サイトマップ・案内導線、現行受付や個別制度性が不足する候補は不採用理由付きで解消した。",
-      "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: added 24 slugs, duplicateOrMissing 0, duplicates 0, total slugs 9519",
-      "urlReachability": "pass: checked 24 added grant source URLs, 24 unique URLs all HTTP 200",
-      "diffCheck": "pass: git diff --check for Miyagi second-pass 009 files",
+      "previousMunicipality": "宮城県最終監査として、県庁および県内35市町村の第1巡001-009、第2巡001-009、県庁・公的機関候補の採否記録を現行HEADで再確認した。第2巡held 0、宮城県slug重複0、coverage audit failures 0、宮城県 localOfficial 355、localManuallyVerified 355、coveredCategories 8を確認し、宮城県内の候補未判定は0件として県単位完了扱いにした。全国公式棚卸しは未完了。",
+      "eslint": "not run: final audit only",
+      "addedSlugUniqueness": "pass: Miyagi duplicate slugs 0",
+      "urlReachability": "not run: final audit uses prior batch URL reachability records",
+      "diffCheck": "pass: git diff --check for Miyagi final audit files",
       "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9445, officialLinkedActive 9407, manuallyVerifiedActive 9407, Miyagi localOfficial 355, Miyagi coveredCategories 8"
     }
   },
   "next": {
-    "code": "miyagi-final-audit",
-    "municipality": "宮城県全体",
-    "shortlist": "宮城県第2巡009で美里町9制度、女川町7制度、南三陸町8制度を現行検証した。既採用済み制度、カテゴリ・サイトマップ・案内導線、現行受付や個別制度性不足候補は解消済み。",
-    "instructions": "宮城県公式棚卸し最終監査として、県庁および県内35市町村の第1巡001-009、第2巡001-009、県庁・公的機関候補の採否記録を確認する。第1巡保留継続欄が第2巡で解消され、held集計0、宮城県slug重複0、coverage audit failures 0、宮城県 localOfficial/localManuallyVerified/coveredCategories が現行値で記録されていることを確認し、全国未完了の注意と次の秋田県再開地点を残す。"
+    "code": "akita-official-coverage-001",
+    "municipality": "秋田県庁・秋田市・能代市・横手市",
+    "shortlist": "宮城県は最終監査まで完了。全国公式棚卸しは未完了。",
+    "instructions": "秋田県公式棚卸し001として、05000秋田県庁、05201秋田市、05202能代市、05203横手市を自治体コード順で確認する。秋田県庁、秋田市、能代市、横手市の第1巡候補・既存公式登録・保留継続候補を、公式本文/PDF単位で再確認し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度だけ採用する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

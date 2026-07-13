@@ -3891,7 +3891,7 @@
   - 結果:
     - 宮城県 localOfficial 355、localManuallyVerified 355、coveredCategories 8。
     - 宮城県slug重複 0。
-    - coverage audit failures 0、activePublished 8111、officialLinkedActive 8073、manuallyVerifiedActive 8073。
+    - coverage audit failures 0、activePublished 9445、officialLinkedActive 9407、manuallyVerifiedActive 9407。
     - 宮城県内の候補未判定は0件として、県単位の公式棚卸しを完了扱いにする。
   - 注意:
     - 全国公式棚卸しは未完了。raw gap 0やHTTP 200のみを全国完了扱いしない。
