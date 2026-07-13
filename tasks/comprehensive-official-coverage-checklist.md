@@ -4881,6 +4881,30 @@
   - 次:
     - 福島県第2巡003として、07210二本松市、07211田村市、07212南相馬市、07213伊達市の保留候補を確認する。
 
+- 福島県公式棚卸し第2巡003（二本松市・田村市・南相馬市・伊達市）
+  - 対象: 07210二本松市、07211田村市、07212南相馬市、07213伊達市。
+  - 方法:
+    - 第1巡003の保留候補、公式候補、本文スニペット、保留欄の制度強語を再確認した。
+    - 既掲載 `officialUrl` を除外し、`tasks/discovery/fukushima-second-pass-003-shortlist.json` 27件、`tasks/discovery/fukushima-second-pass-003-page-evidence.json` 19件を作成した。
+    - title/h1/main/article/URLの制度強語に加え、対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別ページを優先し、一覧混在・受付終了・本文不足候補は第2巡継続台帳へ残した。
+  - 追加:
+    - 二本松市: 高齢者補聴器購入費助成事業、ひとり親家庭医療費助成、多世代同居住宅改修助成金、一般不妊治療費助成事業、保育所・幼稚園・認定こども園等保育料助成、特定疾患患者見舞金。
+    - 田村市: 緊急新規雇用・離職者対策支援金、中小企業診断士等派遣事業、水稲病害虫防除薬剤購入補助、全国大会等出場激励金。
+    - 南相馬市: 奨学金返還支援事業補助金、商店街空き店舗対策事業補助金。
+    - 伊達市: 空き店舗対策支援事業補助金、中小企業生産性向上設備投資応援補助金。
+  - 保留継続:
+    - 田村市の商工課支援制度一覧、観光・中小企業支援一覧は制度混在ページのため個別制度分離が必要。防犯灯・防犯カメラ候補は今回の公式証跡で個別制度本文を確認できなかった。
+    - 南相馬市ののまたん商品券は利用期間終了・換金期限令和8年6月30日で終了候補。地域の絆づくり支援、子育て応援手当は今回の証跡では制度本文・金額・受付状況が不足。
+    - 伊達市のチャレンジショップ事業は申込期限令和7年7月31日で終了。来てだて住宅取得支援事業補助金は令和8年6月12日に新規受付終了と公式表示。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 14件、重複0。
+    - 追加した14制度14公式URLはすべて HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9334、officialLinkedActive 9296、manuallyVerifiedActive 9296、福島県 `localOfficial` 812、福島県 `coveredCategories` 8）。追加14件のうち受付期限経過1件はactive集計外。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-second-pass-003-shortlist.json tasks/discovery/fukushima-second-pass-003-page-evidence.json tasks/discovery/fukushima-second-pass-003-adopted.json`: pass。
+  - 次:
+    - 福島県第2巡004として、07214本宮市、07301桑折町、07303国見町、07308川俣町の保留候補を確認する。
+
 - 宮城県公式棚卸し009（美里町・女川町・南三陸町）
   - 対象: 04505美里町、04581女川町、04606南三陸町。
   - 方法:

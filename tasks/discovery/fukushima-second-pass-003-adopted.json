@@ -1,0 +1,143 @@
+{
+  "generatedAt": "2026-07-13T13:40:00+09:00",
+  "source": {
+    "checkpoint": "fukushima-second-pass-official-coverage-003",
+    "municipalities": [
+      "07210 二本松市",
+      "07211 田村市",
+      "07212 南相馬市",
+      "07213 伊達市"
+    ],
+    "shortlistFile": "tasks/discovery/fukushima-second-pass-003-shortlist.json",
+    "pageEvidenceFile": "tasks/discovery/fukushima-second-pass-003-page-evidence.json"
+  },
+  "adoptedCount": 14,
+  "adopted": [
+    {
+      "municipality": "二本松市",
+      "slug": "nihonmatsu-elderly-hearing-aid-subsidy-2026",
+      "title": "高齢者補聴器購入費助成事業",
+      "officialUrl": "https://www.city.nihonmatsu.lg.jp/kenkou_fukushi/koureisya/page010595.html",
+      "basis": "65歳以上・非課税世帯・聴力要件、購入費1/2、上限3万円、購入前相談を公式本文で確認。"
+    },
+    {
+      "municipality": "二本松市",
+      "slug": "nihonmatsu-single-parent-medical-aid-2026",
+      "title": "ひとり親家庭医療費助成",
+      "officialUrl": "https://www.city.nihonmatsu.lg.jp/mama/hitori_oya/page001456.html",
+      "basis": "18歳未満児童を養育するひとり親、所得制限、保険診療自己負担、月1,000円超過分助成を公式本文で確認。"
+    },
+    {
+      "municipality": "二本松市",
+      "slug": "nihonmatsu-multigeneration-cohabitation-renovation-subsidy-2026",
+      "title": "多世代同居住宅改修助成金",
+      "officialUrl": "https://www.city.nihonmatsu.lg.jp/ijyu_teijyu/kurasu/page007221.html",
+      "basis": "三世代以上同居、20万円以上の内部改修、補助率1/2、市内業者上限36万円、市外業者上限26万円、令和9年3月15日までを公式本文で確認。"
+    },
+    {
+      "municipality": "二本松市",
+      "slug": "nihonmatsu-general-infertility-treatment-subsidy-2026",
+      "title": "一般不妊治療費助成事業",
+      "officialUrl": "https://www.city.nihonmatsu.lg.jp/mama/ninshin/page005383.html",
+      "basis": "一般不妊治療、妻43歳未満、市税滞納なし、年上限15万円、連続5年までを公式本文で確認。"
+    },
+    {
+      "municipality": "二本松市",
+      "slug": "nihonmatsu-childcare-fee-subsidy-2026",
+      "title": "保育所・幼稚園・認定こども園等保育料助成",
+      "officialUrl": "https://www.city.nihonmatsu.lg.jp/mama/hoiku/page002069.html",
+      "basis": "施設種別別の保育料助成、低階層・第2子以降全額、4-1階層以上月5,000円等を公式本文で確認。"
+    },
+    {
+      "municipality": "二本松市",
+      "slug": "nihonmatsu-specified-disease-consolation-money-2026",
+      "title": "特定疾患患者見舞金",
+      "officialUrl": "https://www.city.nihonmatsu.lg.jp/kenkou_fukushi/info/page001521.html",
+      "basis": "10月1日現在市内住所、有効な指定難病等受給者証または慢性透析要件、年1回2万円を公式本文で確認。"
+    },
+    {
+      "municipality": "田村市",
+      "slug": "tamura-emergency-new-employment-turnover-support-grant-2026",
+      "title": "緊急新規雇用・離職者対策支援金",
+      "officialUrl": "https://www.city.tamura.lg.jp/soshiki/66/kinkyu-risyokusyataisaku.html",
+      "basis": "市内中小企業、若年雇用対象者、1人15万円、令和8年5月29日期限を公式本文で確認。"
+    },
+    {
+      "municipality": "田村市",
+      "slug": "tamura-sme-diagnostician-dispatch-support-2026",
+      "title": "中小企業診断士等派遣事業",
+      "officialUrl": "https://www.city.tamura.lg.jp/soshiki/66/tyuusyoukigyou_sommelier.html",
+      "basis": "令和8年度分募集、初動支援無料、問診シート提出、専属指導は内容に応じて変動を公式本文で確認。"
+    },
+    {
+      "municipality": "田村市",
+      "slug": "tamura-rice-pest-control-subsidy-2026",
+      "title": "水稲病害虫防除薬剤購入補助",
+      "officialUrl": "https://www.city.tamura.lg.jp/soshiki/17/tamura-byougaityuu_1.html",
+      "basis": "水稲病害虫防除薬剤、農業者・団体、購入額10%、令和8年10月30日までを公式本文で確認。"
+    },
+    {
+      "municipality": "田村市",
+      "slug": "tamura-national-tournament-encouragement-grant-2026",
+      "title": "全国大会等出場激励金",
+      "officialUrl": "https://www.city.tamura.lg.jp/soshiki/30/gekireikinn.html",
+      "basis": "全国大会等出場者、個人1万円、団体2万円から5万円、開催10日前までの申請を公式本文で確認。"
+    },
+    {
+      "municipality": "南相馬市",
+      "slug": "minamisoma-scholarship-repayment-support-2026",
+      "title": "奨学金返還支援事業補助金",
+      "officialUrl": "https://www.city.minamisoma.lg.jp/portal/business/shuroshien/7568.html",
+      "basis": "対象事業所への正社員就職、市内定住、年上限18万円、総額上限307.2万円、転入から1年以内を公式本文で確認。"
+    },
+    {
+      "municipality": "南相馬市",
+      "slug": "minamisoma-shopping-street-vacant-store-subsidy-2026",
+      "title": "商店街空き店舗対策事業補助金",
+      "officialUrl": "https://www.city.minamisoma.lg.jp/portal/business/kigyo_sogyoshien/9891.html",
+      "basis": "空き店舗活用、改装費1/2以内上限200万円、賃借料月15万円・最長2年間、事前申請を公式本文で確認。"
+    },
+    {
+      "municipality": "伊達市",
+      "slug": "date-fukushima-vacant-store-countermeasure-subsidy-2026",
+      "title": "空き店舗対策支援事業補助金",
+      "officialUrl": "https://www.city.fukushima-date.lg.jp/soshiki/20/9863.html",
+      "basis": "6か月以上空き店舗、道路面1階店舗、改装上限160万円、家賃月15万から25万円、事前相談を公式本文で確認。"
+    },
+    {
+      "municipality": "伊達市",
+      "slug": "date-fukushima-sme-productivity-equipment-subsidy-2026",
+      "title": "中小企業生産性向上設備投資応援補助金",
+      "officialUrl": "https://www.city.fukushima-date.lg.jp/soshiki/20/84778.html",
+      "basis": "設備導入・IT設備・省エネ設備、補助率2/3、上限100万円・下限20万円、令和8年5月1日から11月30日を公式本文で確認。"
+    }
+  ],
+  "heldOrExcluded": [
+    {
+      "municipality": "田村市",
+      "items": [
+        "商工課支援制度一覧",
+        "観光・中小企業支援一覧",
+        "防犯灯・防犯カメラ候補"
+      ],
+      "reason": "一覧・カテゴリ・制度混在ページが中心で、個別制度単位の金額・受付状況の切り分けが必要。防犯灯・防犯カメラは今回の公式証跡で個別制度本文を確認できなかった。"
+    },
+    {
+      "municipality": "南相馬市",
+      "items": [
+        "のまたん商品券",
+        "地域の絆づくり支援",
+        "子育て応援手当"
+      ],
+      "reason": "のまたん商品券は利用期間終了・換金期限令和8年6月30日で終了候補。その他は今回の証跡では制度本文・金額・受付状況が不足。"
+    },
+    {
+      "municipality": "伊達市",
+      "items": [
+        "チャレンジショップ事業",
+        "来てだて住宅取得支援事業補助金"
+      ],
+      "reason": "チャレンジショップは申込期限令和7年7月31日で終了。来てだて住宅取得支援は令和8年6月12日に新規受付終了と公式表示。"
+    }
+  ]
+}
