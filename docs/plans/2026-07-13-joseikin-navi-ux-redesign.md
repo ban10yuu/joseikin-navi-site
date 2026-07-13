@@ -14,7 +14,7 @@
 
 **Files:**
 - Create: `src/lib/grant-presentation.ts`
-- Create: `src/lib/grant-presentation.test.ts`
+- Create: `src/lib/grant-presentation.test.mjs`
 - Read: `src/lib/deadline.ts`
 - Read: `src/lib/grant-source.ts`
 
@@ -29,7 +29,7 @@
 
 **Step 2: REDを確認する**
 
-Run: `node --test src/lib/grant-presentation.test.ts`
+Run: `node --test src/lib/grant-presentation.test.mjs`
 
 Expected: `grant-presentation.ts` が存在しないため失敗する。
 
@@ -39,14 +39,14 @@ Expected: `grant-presentation.ts` が存在しないため失敗する。
 
 **Step 4: GREENを確認する**
 
-Run: `node --test src/lib/grant-presentation.test.ts`
+Run: `node --test src/lib/grant-presentation.test.mjs`
 
 Expected: 全テスト成功。
 
 **Step 5: コミットする**
 
 ```bash
-git add src/lib/grant-presentation.ts src/lib/grant-presentation.test.ts
+git add src/lib/grant-presentation.ts src/lib/grant-presentation.test.mjs
 git commit -m "test: 助成金表示ルールを定義"
 ```
 
@@ -163,7 +163,7 @@ git commit -m "feat: トップページを検索中心の導線に再設計"
 
 **Step 7: 検証する**
 
-Run: `node --test src/lib/grant-presentation.test.ts && npm run lint && npx tsc --noEmit`
+Run: `node --test src/lib/grant-presentation.test.mjs && npm run lint && npx tsc --noEmit`
 
 Expected: 全コマンド成功。
 
@@ -209,7 +209,7 @@ Expected: `http://127.0.0.1:4173/` で閲覧できる。
 
 **Step 6: 最終検証を行う**
 
-Run: `node --test src/lib/grant-presentation.test.ts && npm run lint && npx tsc --noEmit && npm run build`
+Run: `node --test src/lib/grant-presentation.test.mjs && npm run lint && npx tsc --noEmit && npm run build`
 
 Expected: 全コマンド成功。
 
