@@ -6843,4 +6843,38 @@
     - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
     - 越生町の出生祝金・初回産科費助成・産婦健康診査費用助成・妊婦等タクシー、滑川町の子育て支援金・人間ドック/脳ドック・子育て応援給付、嵐山町の小規模事業者等賃上げ雇用拡大支援金・妊婦健康診査償還払い、小川町のゼロカーボンシティ推進補助金・家族介護用品助成等は、金額・対象・受付状況又は制度重複の観点で第2巡候補に残す。
   - 次:
-    - 埼玉県公式棚卸し013として、11346川島町、11347吉見町、11348鳩山町、11349ときがわ町を自治体コード順に確認する。
+    - 埼玉県公式棚卸し013として、11346川島町、11347吉見町、11348鳩山町、11349ときがわ町を自治体コード順に確認した。
+
+- 埼玉県公式棚卸し013
+  - 対象:
+    - 11346 川島町、11347 吉見町、11348 鳩山町、11349 ときがわ町。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補335件をローカルJSONへ保存した。
+    - 候補数が150件を超えたため、公式カテゴリリンク抽出で3,869件の第2巡台帳を作成し、公式本文スニペット432件を `tasks/discovery/saitama-official-coverage-013-detail-snippets.json` に保存して、制度強語、金額・上限、対象条件、期限・受付表現の揃う個別ページを再スコアリングした。
+    - トップ、カテゴリ、サイトマップ、共通ナビ一致は採用せず、自治体本文又は公式個別ページで必須項目を確認できる制度のみ採用した。
+  - 採用:
+    - 川島町5件: 結婚新生活支援事業補助金、軽度・中等度難聴児補聴器購入費等助成、生ごみ処理容器等購入費補助、住宅等防犯対策補助金、住宅リフォーム補助金。
+    - 吉見町5件: 新婚世帯移住定住促進奨励金、中学3年生インフルエンザ予防接種費用助成、木造住宅耐震診断・耐震改修補助、第3子以降学校給食費補助金、住宅リフォーム補助金。
+    - 鳩山町5件: 住宅用温暖化対策設備補助金、移住支援金、子育て世帯移住・定住促進補助金、低所得妊婦初回産科受診料助成、1か月児健康診査費用助成。
+    - ときがわ町5件: 介護職員資格取得支援補助金、妊婦のための支援給付金、大人の風しん予防接種費用助成、がん患者アピアランスケア用品購入費助成、食料品等物価高騰暮らし応援商品券。
+  - 生成ファイル:
+    - `tasks/discovery/saitama-official-coverage-013-municipalities.json`
+    - `tasks/discovery/saitama-official-coverage-013-candidates.json`
+    - `tasks/discovery/saitama-official-coverage-013-link-shortlist.json`
+    - `tasks/discovery/saitama-official-coverage-013-detail-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-013-selected-main.json`
+    - `tasks/discovery/saitama-official-coverage-013-selected-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-013-official-extra.json`
+    - `tasks/discovery/saitama-official-coverage-013.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（20件、各1件）。
+    - 公式URL到達: pass（20 unique official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10586、officialLinkedActive 10548、manuallyVerifiedActive 10548、埼玉県 localOfficial 465）。吉見町中学3年生インフルエンザ予防接種費用助成は接種期間到来済み期限を明示したため、active集計には含まれない。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 川島町の低所得妊婦初回産科受診料助成、クビアカツヤカミキリ駆除奨励金、妊婦支援給付、不妊検査費等、1か月児健康診査費助成、吉見町の出産・子育て応援ギフト、物価高対応子育て応援手当、企業誘致優遇制度、ゼロカーボンシティ推進補助金、高齢者補聴器、骨髄移植ドナー、不妊検査等、鳩山町の物価高対応子育て応援手当、児童手当、国保税減免、生活支援ギフトカード、胃がんリスク検査、住宅リフォーム/除却補助、多子世帯向け住宅取得等支援、ときがわ町の浄化槽事業、物価高対応子育て応援手当、物価高騰対策関連事業、林業振興、住宅、移住・定住カテゴリは、金額・対象・受付状況又は制度重複の観点で第2巡候補に残す。
+  - 次:
+    - 埼玉県公式棚卸し014として、11361横瀬町、11362皆野町、11363長瀞町、11365小鹿野町を自治体コード順に確認する。
