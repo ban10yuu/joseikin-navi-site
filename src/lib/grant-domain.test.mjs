@@ -100,6 +100,19 @@ describe('normalizeGrant', () => {
     assert.equal(result.verificationMethod, 'unknown');
   });
 
+  it('公式に終了を確認した制度は確認先と終了後の導線を保持する', () => {
+    const result = normalizeGrant({
+      ...baseGrant,
+      description: '公式ページで受付終了を確認したため、通常一覧から除外します。',
+      tags: ['受付終了'],
+      status: 'closed',
+    });
+
+    assert.equal(result.officialUrl, baseGrant.officialUrl);
+    assert.equal(result.contentStatus, 'published');
+    assert.equal(result.verificationMethod, 'automated');
+  });
+
   it('人手確認はhumanReviewedAtが明示された場合だけ設定する', () => {
     const result = normalizeGrant({
       ...baseGrant,

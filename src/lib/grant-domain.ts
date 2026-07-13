@@ -124,8 +124,8 @@ function inferMunicipality(input: LegacyGrant): string | null {
 }
 
 function hasUnconfirmedExistence(input: LegacyGrant): boolean {
-  const text = [input.title, input.description, input.eligibility, ...input.tags].join(' ');
-  return /公式(?:現行)?(?:制度|助成金)?(?:として)?確認不可|公式(?:一次情報|サイト).{0,24}確認でき(?:ません|ない)|掲載停止|通常一覧から除外|非表示扱い/.test(text);
+  const explicitFlags = [input.title, input.maxAmount, input.applicationPeriod, ...input.tags];
+  return explicitFlags.some((value) => /公式(?:現行)?(?:助成|補助|給付|支援)?(?:制度|金|公募)?(?:として)?確認不可/.test(value ?? ''));
 }
 
 export function normalizeGrant(input: LegacyGrant): NormalizedGrant {
