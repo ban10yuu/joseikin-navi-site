@@ -6326,3 +6326,42 @@
     - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
   - 次:
     - 群馬県公式棚卸し007として、10426高山村、10428東吾妻町、10429片品村、10443川場村を自治体コード順に確認する。
+
+- 群馬県公式棚卸し007
+  - 対象:
+    - 10426 高山村、10428 東吾妻町、10429 片品村、10443 川場村。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補210件をローカルJSONへ保存した。
+    - `tasks/discovery/gunma-official-coverage-007-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現、再スコアを保存した。
+    - 公式カテゴリ・一覧ページから個別制度ページを補完し、`tasks/discovery/gunma-official-coverage-007-official-extra.json` に公式本文スニペット214件を保存した。
+    - 制度強語と金額・対象条件・期限/受付表現が揃う候補54件を `tasks/discovery/gunma-official-coverage-007-selected-snippets.json` と `tasks/discovery/gunma-official-coverage-007-selected-main.json` に抽出した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃う個別ページのみ採用した。
+  - 採用:
+    - 高山村13件: 子育て世帯応援給付金、障害者施設通所交通費、介護用車両購入費、福祉医療費、不妊治療費、重度身体障害者住宅改造、じん臓機能障害者等通院交通費、身体障害者自動車改造費、指定難病等患者見舞金、医療用ウィッグ等、障害者自動車免許取得費、英語等検定料、高校生等就学費。
+    - 東吾妻町9件: 住宅新築改修等、住宅取得奨励、地方就職支援、移住支援金、生ごみ処理機等、くらし応援商品券、単独浄化槽等切替、安心出産・宿泊支援、不妊治療費。
+    - 片品村2件: チャイルドシート購入費、福祉医療。
+    - 川場村11件: 移住支援金、住宅リフォーム、妊婦のための支援給付金、幼児教育・保育費用、プレミアム商品券、不妊治療費・不育治療費、福祉医療、合併処理浄化槽、生ごみ処理機、骨髄移植ドナー支援、脳ドック・心臓ドック。
+  - 生成ファイル:
+    - `tasks/discovery/gunma-official-coverage-007-municipalities.json`
+    - `tasks/discovery/gunma-official-coverage-007-candidates.json`（raw候補）
+    - `tasks/discovery/gunma-official-coverage-007-detail-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-007-official-extra.json`
+    - `tasks/discovery/gunma-official-coverage-007-selected-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-007-selected-main.json`
+    - `tasks/discovery/gunma-official-coverage-007.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（35件、全9879slugでduplicateCount 0）。
+    - 公式URL到達: pass（追加35 URLすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10225、officialLinkedActive 10187、manuallyVerifiedActive 10187、群馬県 localOfficial 262）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 高山村の高齢者住宅改造費助成と任意予防接種助成は、金額表又は添付文書の追加確認が必要なため第2巡候補に残す。
+    - 東吾妻町の結婚新生活支援は公式ページの対象期間が令和6年度中心のため今回採用せず、第2巡で現行年度を再確認する。住宅用再生可能エネルギー、防災士資格取得、木造住宅耐震改修、遠距離通所・通学費は金額又は上限の追加確認が必要なため第2巡候補に残す。
+    - 片品村の特定不妊治療、景観形成、特殊詐欺対策等は公式本文又はPDFの金額・受付条件確認が必要なため第2巡候補に残す。
+    - 川場村の子育て世帯・若者夫婦世帯住宅取得、地方就職支援、がん患者補正具、若年がん患者在宅療養、風しん予防接種、チャイルドシート等は、採用枠外又は金額確認未了として第2巡候補に残す。
+    - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
+  - 次:
+    - 群馬県公式棚卸し008として、10444昭和村、10448みなかみ町、10449玉村町、10521板倉町を自治体コード順に確認する。

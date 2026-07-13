@@ -1,0 +1,26 @@
+{
+  "batchId": "gunma-comprehensive-official-coverage-007",
+  "prefecture": "群馬県",
+  "municipalities": [
+    {
+      "code": "10426",
+      "name": "高山村",
+      "officialBaseUrl": "https://vill.takayama.gunma.jp/"
+    },
+    {
+      "code": "10428",
+      "name": "東吾妻町",
+      "officialBaseUrl": "https://www.town.higashiagatsuma.gunma.jp/"
+    },
+    {
+      "code": "10429",
+      "name": "片品村",
+      "officialBaseUrl": "https://www.vill.katashina.gunma.jp/"
+    },
+    {
+      "code": "10443",
+      "name": "川場村",
+      "officialBaseUrl": "https://www.vill.kawaba.gunma.jp/"
+    }
+  ]
+}

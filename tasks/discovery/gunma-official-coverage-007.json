@@ -1,0 +1,118 @@
+{
+  "batchId": "gunma-comprehensive-official-coverage-007",
+  "prefecture": "群馬県",
+  "completedAt": "2026-07-14",
+  "targets": [
+    {
+      "code": "10426",
+      "name": "高山村",
+      "officialBaseUrl": "https://vill.takayama.gunma.jp/"
+    },
+    {
+      "code": "10428",
+      "name": "東吾妻町",
+      "officialBaseUrl": "https://www.town.higashiagatsuma.gunma.jp/"
+    },
+    {
+      "code": "10429",
+      "name": "片品村",
+      "officialBaseUrl": "https://www.vill.katashina.gunma.jp/"
+    },
+    {
+      "code": "10443",
+      "name": "川場村",
+      "officialBaseUrl": "https://www.vill.kawaba.gunma.jp/"
+    }
+  ],
+  "discovery": {
+    "candidateCount": 210,
+    "officialExtraLinkCount": 214,
+    "selectedCount": 54,
+    "adoptedCount": 35,
+    "adoptionRate": 0.648,
+    "generatedFiles": [
+      "tasks/discovery/gunma-official-coverage-007-municipalities.json",
+      "tasks/discovery/gunma-official-coverage-007-candidates.json",
+      "tasks/discovery/gunma-official-coverage-007-detail-snippets.json",
+      "tasks/discovery/gunma-official-coverage-007-official-extra.json",
+      "tasks/discovery/gunma-official-coverage-007-selected-main.json",
+      "tasks/discovery/gunma-official-coverage-007-selected-snippets.json"
+    ]
+  },
+  "adopted": {
+    "高山村": [
+      "takayama-childcare-support-benefit-2026",
+      "takayama-disability-facility-transport-2026",
+      "takayama-care-vehicle-2026",
+      "takayama-welfare-medical-2026",
+      "takayama-infertility-treatment-2026",
+      "takayama-severe-disability-home-modification-2026",
+      "takayama-kidney-transport-2026",
+      "takayama-vehicle-modification-2026",
+      "takayama-intractable-disease-condolence-2026",
+      "takayama-medical-wig-2026",
+      "takayama-driver-license-disability-2026",
+      "takayama-eiken-kanji-exam-2026",
+      "takayama-high-school-attendance-2026"
+    ],
+    "東吾妻町": [
+      "higashiagatsuma-home-renovation-2026",
+      "higashiagatsuma-home-acquisition-2026",
+      "higashiagatsuma-local-employment-student-2026",
+      "higashiagatsuma-migration-support-2026",
+      "higashiagatsuma-composter-2026",
+      "higashiagatsuma-life-support-voucher-2026",
+      "higashiagatsuma-septic-conversion-2026",
+      "higashiagatsuma-safe-birth-stay-2026",
+      "higashiagatsuma-infertility-treatment-2026"
+    ],
+    "片品村": [
+      "katashina-child-seat-2026",
+      "katashina-welfare-medical-2026"
+    ],
+    "川場村": [
+      "kawaba-migration-support-2026",
+      "kawaba-home-renovation-2026",
+      "kawaba-pregnancy-support-benefit-2026",
+      "kawaba-childcare-fee-subsidy-2026",
+      "kawaba-premium-voucher-2026",
+      "kawaba-infertility-treatment-2026",
+      "kawaba-welfare-medical-2026",
+      "kawaba-septic-tank-2026",
+      "kawaba-composter-2026",
+      "kawaba-bone-marrow-donor-2026",
+      "kawaba-brain-heart-dock-2026"
+    ]
+  },
+  "counts": {
+    "高山村": 13,
+    "東吾妻町": 9,
+    "片品村": 2,
+    "川場村": 11
+  },
+  "verification": {
+    "nodeCheck": "pass",
+    "duplicateSlugCheck": "pass",
+    "addedOfficialUrlHttp200": "pass",
+    "targetedLint": "pass",
+    "gitDiffCheck": "pass",
+    "auditCoverage": "pass (failures 0, activePublished 10225, officialLinkedActive 10187, manuallyVerifiedActive 10187, 群馬県 localOfficial 262)"
+  },
+  "secondPassNotes": [
+    "高山村の高齢者住宅改造費助成と任意予防接種助成は、金額表又は添付文書の追加確認が必要なため第2巡候補に残す。",
+    "東吾妻町の結婚新生活支援は公式ページの対象期間が令和6年度中心のため今回採用せず、第2巡で現行年度を再確認する。",
+    "東吾妻町の住宅用再生可能エネルギー、防災士資格取得、木造住宅耐震改修、遠距離通所・通学費は金額又は上限の追加確認が必要なため第2巡候補に残す。",
+    "片品村の特定不妊治療、景観形成、特殊詐欺対策等は公式本文又はPDFの金額・受付条件確認が必要なため第2巡候補に残す。",
+    "川場村の子育て世帯・若者夫婦世帯住宅取得、地方就職支援、がん患者補正具、若年がん患者在宅療養、風しん予防接種、チャイルドシート等は、採用枠外又は金額確認未了として第2巡候補に残す。",
+    "トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。"
+  ],
+  "next": {
+    "batchId": "gunma-comprehensive-official-coverage-008",
+    "targets": [
+      "10444 昭和村",
+      "10448 みなかみ町",
+      "10449 玉村町",
+      "10521 板倉町"
+    ]
+  }
+}
