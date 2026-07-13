@@ -6248,3 +6248,41 @@
     - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
   - 次:
     - 群馬県公式棚卸し005として、10367神流町、10382下仁田町、10383南牧村、10384甘楽町を自治体コード順に確認する。
+
+- 群馬県公式棚卸し005
+  - 対象:
+    - 10367 神流町、10382 下仁田町、10383 南牧村、10384 甘楽町。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補135件をローカルJSONへ保存した。
+    - `tasks/discovery/gunma-official-coverage-005-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現、再スコアを保存した。
+    - 公式カテゴリ・一覧ページから個別制度ページを補完し、`tasks/discovery/gunma-official-coverage-005-official-extra.json` に公式本文スニペットを保存した。
+    - 制度強語と金額・対象条件・期限/受付表現が揃う候補33件を `tasks/discovery/gunma-official-coverage-005-selected-snippets.json` と `tasks/discovery/gunma-official-coverage-005-selected-main.json` に抽出した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃う個別ページのみ採用した。
+  - 採用:
+    - 神流町2件: 合併処理浄化槽設置費、福祉医療費。
+    - 下仁田町9件: 高校生通学定期券購入費、水道基本料金・メーター使用料減免、介護用車両購入等、補聴器購入、合併処理浄化槽、特定不妊治療・一般不妊治療・不育治療、任意予防接種、妊婦RSウイルス予防接種、物価高騰対応商品券。
+    - 南牧村8件: 結婚・出産祝金、行政区集会施設等、高等学校等通学者支援、転入奨励金、定住促進奨励金、親子留学支援、物価高対応子育て応援手当、物価高騰対策子育て世帯支援。
+    - 甘楽町16件: 住宅リフォーム促進、結婚新生活支援、危険空き家等除却、省エネルギー家電製品等購入費、合併処理浄化槽、宅内排水設備工事費、空き家家財道具等撤去、空き家リフォーム、物価高対応子育て世帯応援、住宅用太陽光発電システム等、木造住宅耐震改修、飼い猫不妊去勢手術費、補聴器購入費、不妊治療費、学校給食費無償化、プレミアム付き商品券。
+  - 生成ファイル:
+    - `tasks/discovery/gunma-official-coverage-005-municipalities.json`
+    - `tasks/discovery/gunma-official-coverage-005-candidates.json`（raw候補）
+    - `tasks/discovery/gunma-official-coverage-005-detail-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-005-official-extra.json`
+    - `tasks/discovery/gunma-official-coverage-005-selected-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-005-selected-main.json`
+    - `tasks/discovery/gunma-official-coverage-005.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（35件、duplicateCount 0）。
+    - 公式URL到達: pass（追加31 URLすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `npm run lint`: fail（既存 `.gitnexus/run.cjs` の `@typescript-eslint/no-require-imports` 3件。今回変更ファイルは対象指定lintでpass）。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10155、officialLinkedActive 10117、manuallyVerifiedActive 10117、群馬県 localOfficial 192）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 南牧村の公式ドメインは `https://nanmoku.ne.jp/` を正として採用した。
+    - 南牧村の予防接種ページは対象者と費用助成表現を確認したが、金額又は上限額が公式本文で確認できないため今回の採用から除外し、第2巡候補に残す。
+    - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
+  - 次:
+    - 群馬県公式棚卸し006として、10385中之条町、10421長野原町、10424嬬恋村、10425草津町を自治体コード順に確認する。

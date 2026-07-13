@@ -1,0 +1,26 @@
+{
+  "batchId": "gunma-comprehensive-official-coverage-005",
+  "prefecture": "群馬県",
+  "municipalities": [
+    {
+      "code": "10367",
+      "name": "神流町",
+      "officialBaseUrl": "https://www.town.kanna.gunma.jp/"
+    },
+    {
+      "code": "10382",
+      "name": "下仁田町",
+      "officialBaseUrl": "https://www.town.shimonita.lg.jp/"
+    },
+    {
+      "code": "10383",
+      "name": "南牧村",
+      "officialBaseUrl": "https://nanmoku.ne.jp/"
+    },
+    {
+      "code": "10384",
+      "name": "甘楽町",
+      "officialBaseUrl": "https://www.town.kanra.lg.jp/"
+    }
+  ]
+}
