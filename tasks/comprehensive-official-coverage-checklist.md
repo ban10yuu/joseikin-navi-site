@@ -5478,3 +5478,35 @@
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-second-pass-009.json`: pass。
   - 次:
     - 山形県第2巡は第1巡009まで到達。チェックリスト上では福島県第2巡015まで、宮城県第2巡001まで到達済みのため、次は宮城県第2巡002として、04205気仙沼市、04206白石市、04207名取市、04208角田市の保留候補を確認する。
+
+- 山形県公式棚卸し最終監査
+  - 対象:
+    - 山形県庁および県内35市町村（第1巡001-009、第2巡001-009）。
+  - 方法:
+    - 第1巡・第2巡の採否記録、`tasks/discovery/yamagata-official-coverage-*.json`、`tasks/discovery/yamagata-official-second-pass-*.json` を照合した。
+    - トップ、カテゴリ、国県制度、医療給付、総合案内、受付終了、金額・対象条件不足の候補を不採用又は継続理由付きで解消した。
+    - `npm run audit:coverage` と山形県slug重複の軽量集計を実行し、公式URL・手動確認・カテゴリ網羅を確認した。
+  - 検証:
+    - 山形県 localOfficial 445、localManuallyVerified 445、coveredCategories 8。
+    - 山形県関連slug 228、重複0。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9564、officialLinkedActive 9526、manuallyVerifiedActive 9526）。
+    - 山形県内の候補未判定は0件として、県単位の公式棚卸しを完了扱いにする。
+  - 次:
+    - 福島県第2巡015まで到達済みだが県単位最終監査JSONが未作成だったため、福島県の最終監査を行う。
+
+- 福島県公式棚卸し最終監査
+  - 対象:
+    - 福島県内59市町村（第1巡001-015、第2巡001-015）。
+  - 方法:
+    - 第1巡・第2巡の採否記録、`tasks/discovery/fukushima-official-coverage-*`、`tasks/discovery/fukushima-second-pass-*` を照合した。
+    - トップ、カテゴリ、外部ポータル案内、県国制度、受付終了、個別金額不足、制度列挙のみの候補を不採用理由付きで解消した。
+    - `npm run audit:coverage` と福島県slug重複の軽量集計を実行し、公式URL・手動確認・カテゴリ網羅を確認した。
+  - 検証:
+    - 福島県 localOfficial 923、localManuallyVerified 923、coveredCategories 8。
+    - 福島県関連slug 462、重複0。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9564、officialLinkedActive 9526、manuallyVerifiedActive 9526）。
+    - 福島県内の候補未判定は0件として、県単位の公式棚卸しを完了扱いにする。
+  - 注意:
+    - 全国公式棚卸しは未完了。raw gap 0やHTTP 200のみを全国完了扱いしない。
+  - 次:
+    - 茨城県公式棚卸し001として、08000茨城県庁、08201水戸市、08202日立市、08203土浦市を自治体コード順に確認する。
