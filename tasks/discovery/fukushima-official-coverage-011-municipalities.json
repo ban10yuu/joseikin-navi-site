@@ -1,0 +1,26 @@
+{
+  "batchId": "fukushima-comprehensive-official-coverage-011",
+  "prefecture": "福島県",
+  "municipalities": [
+    {
+      "code": "07483",
+      "name": "塙町",
+      "officialBaseUrl": "https://www.town.hanawa.fukushima.jp/"
+    },
+    {
+      "code": "07484",
+      "name": "鮫川村",
+      "officialBaseUrl": "https://www.vill.samegawa.fukushima.jp/"
+    },
+    {
+      "code": "07501",
+      "name": "石川町",
+      "officialBaseUrl": "https://www.town.ishikawa.fukushima.jp/"
+    },
+    {
+      "code": "07502",
+      "name": "玉川村",
+      "officialBaseUrl": "https://www.vill.tamakawa.fukushima.jp/"
+    }
+  ]
+}
