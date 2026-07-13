@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-07-14T06:30:00+09:00",
+  "updatedAt": "2026-07-14T07:25:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "chiba-official-coverage-002",
-    "municipality": "館山市・木更津市・松戸市・野田市",
-    "adopted": 22,
-    "held": 170,
+    "code": "chiba-official-coverage-003",
+    "municipality": "茂原市・成田市・佐倉市・東金市",
+    "adopted": 26,
+    "held": 179,
     "excluded": 0,
-    "sourceUrlsChecked": 22,
+    "sourceUrlsChecked": 26,
     "validation": {
-      "previousMunicipality": "千葉県公式棚卸し002として、12205館山市、12206木更津市、12207松戸市、12208野田市の公式本文/PDFを確認し、館山市6件、木更津市4件、松戸市6件、野田市6件を採用した。全国公式棚卸しは未完了。",
+      "previousMunicipality": "千葉県公式棚卸し003として、12210茂原市、12211成田市、12212佐倉市、12213東金市の公式本文/PDFを確認し、茂原市6件、成田市6件、佐倉市7件、東金市7件を採用した。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: 22 added slugs, duplicateCount 0 across all grant files",
-      "urlReachability": "pass: 22 official URLs returned HTTP 200",
+      "addedSlugUniqueness": "pass: 26 added slugs, duplicateCount 0 across all grant files",
+      "urlReachability": "pass: 26 official URLs returned HTTP 200",
       "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check for Chiba 002 data/discovery/checkpoint/checklist files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 10687, officialLinkedActive 10649, manuallyVerifiedActive 10649, Chiba localOfficial 254"
+      "diffCheck": "pass: git diff --check",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 10712, officialLinkedActive 10674, manuallyVerifiedActive 10674, Chiba localOfficial 279"
     }
   },
   "next": {
-    "code": "chiba-official-coverage-003",
-    "municipality": "茂原市・成田市・佐倉市・東金市",
-    "shortlist": "千葉県公式棚卸し002は、館山市6件、木更津市4件、松戸市6件、野田市6件を採用し、トップ・カテゴリ・サイトマップ・共通ナビ一致、様式・PDFのみ、金額又は受付状況不足、件数配分上の未採用候補は第2巡台帳へ残した。次は自治体コード順に12210茂原市、12211成田市、12212佐倉市、12213東金市。",
-    "instructions": "千葉県公式棚卸し003として、12210茂原市、12211成田市、12212佐倉市、12213東金市の公式本文/PDFを確認する。既掲載公式URL、県・国制度重複、カテゴリ導線、生成データの公式未確認制度を除外し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度だけ採用する。"
+    "code": "chiba-official-coverage-004",
+    "municipality": "旭市・習志野市・柏市・勝浦市",
+    "shortlist": "千葉県公式棚卸し003は、茂原市6件、成田市6件、佐倉市7件、東金市7件を採用し、トップ・カテゴリ・サイトマップ・共通ナビ一致、様式・PDFのみ、金額又は受付状況不足、件数配分上の未採用候補は第2巡台帳へ残した。次は自治体コード順に12215旭市、12216習志野市、12217柏市、12218勝浦市。",
+    "instructions": "千葉県公式棚卸し004として、12215旭市、12216習志野市、12217柏市、12218勝浦市の公式本文/PDFを確認する。既掲載公式URL、県・国制度重複、カテゴリ導線、生成データの公式未確認制度を除外し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度だけ採用する。"
   },
   "prefectureMilestone": {
     "prefecture": "埼玉県",

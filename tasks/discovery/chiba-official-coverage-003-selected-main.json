@@ -1,0 +1,44 @@
+{
+  "batchId": "chiba-comprehensive-official-coverage-003",
+  "prefecture": "千葉県",
+  "selectedAt": "2026-07-14T07:25:00+09:00",
+  "municipalities": [
+    { "code": "12210", "name": "茂原市", "adopted": 6 },
+    { "code": "12211", "name": "成田市", "adopted": 6 },
+    { "code": "12212", "name": "佐倉市", "adopted": 7 },
+    { "code": "12213", "name": "東金市", "adopted": 7 }
+  ],
+  "selectedSlugs": [
+    "mobara-childcare-price-support-benefit-2026",
+    "mobara-septic-tank-installation-subsidy-2026",
+    "mobara-residential-decarbonization-equipment-subsidy-2026",
+    "mobara-vacant-house-bank-renovation-subsidy-2026",
+    "mobara-wooden-house-seismic-renovation-subsidy-2026",
+    "mobara-flood-prevention-subsidy-2026",
+    "narita-newlywed-housing-support-subsidy-2026",
+    "narita-temporary-childcare-user-subsidy-2026",
+    "narita-bicycle-helmet-subsidy-2026",
+    "narita-residential-energy-saving-equipment-subsidy-2026",
+    "narita-new-farmer-startup-subsidy-2026",
+    "narita-rainwater-storage-installation-subsidy-2026",
+    "sakura-freight-operator-energy-price-support-2026",
+    "sakura-nearby-cohabitation-housing-subsidy-2026",
+    "sakura-newlywed-housing-support-subsidy-2026",
+    "sakura-residential-decarbonization-equipment-subsidy-2026",
+    "sakura-vacant-house-childrearing-settlement-subsidy-2026",
+    "sakura-child-learning-life-support-subsidy-2026",
+    "sakura-disability-organization-activity-subsidy-2026",
+    "togane-residential-decarbonization-equipment-subsidy-2026",
+    "togane-newlywed-housing-support-subsidy-2026",
+    "togane-child-medical-expense-subsidy-2026",
+    "togane-human-dock-subsidy-2026",
+    "togane-first-prenatal-visit-subsidy-2026",
+    "togane-childcare-start-support-subsidy-2026",
+    "togane-disability-commute-transport-subsidy-2026"
+  ],
+  "heldForSecondPass": [
+    "茂原市介護サービス事業所・施設等物価高騰対策支援金は、公式本文では支援金額一覧が別添ファイル参照で本文中の金額表が不足するため第2巡候補に残す。",
+    "成田市・佐倉市・東金市のカテゴリ導線、様式のみ、PDF別添のみ、医療費助成の細目、制度詳細未精査の候補は第2巡台帳に残す。",
+    "トップ、カテゴリ、サイトマップ、共通ナビ一致は採用せず、個別制度本文又は公式PDFで制度名・対象・金額又は上限・条件・期限又は受付状況を確認できた制度のみ採用した。"
+  ]
+}

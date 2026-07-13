@@ -1,0 +1,28 @@
+{
+  "batchId": "chiba-comprehensive-official-coverage-003",
+  "prefecture": "千葉県",
+  "completedAt": "2026-07-14T07:25:00+09:00",
+  "municipalities": [
+    "12210 茂原市",
+    "12211 成田市",
+    "12212 佐倉市",
+    "12213 東金市"
+  ],
+  "candidateCount": 205,
+  "shortlistCount": 134,
+  "targetSnippetCount": 28,
+  "adopted": 26,
+  "held": 179,
+  "excluded": 0,
+  "files": [
+    "tasks/discovery/chiba-official-coverage-003-municipalities.json",
+    "tasks/discovery/chiba-official-coverage-003-candidates.json",
+    "tasks/discovery/chiba-official-coverage-003-link-shortlist.json",
+    "tasks/discovery/chiba-official-coverage-003-detail-snippets.json",
+    "tasks/discovery/chiba-official-coverage-003-target-snippets.json",
+    "tasks/discovery/chiba-official-coverage-003-selected-main.json",
+    "tasks/discovery/chiba-official-coverage-003-selected-snippets.json",
+    "tasks/discovery/chiba-official-coverage-003-official-extra.json"
+  ],
+  "summary": "千葉県公式棚卸し003として、茂原市6件、成田市6件、佐倉市7件、東金市7件を公式本文又は公式PDF根拠で採用した。全国公式棚卸しは未完了。"
+}

@@ -1,0 +1,26 @@
+{
+  "batchId": "chiba-comprehensive-official-coverage-003",
+  "prefecture": "千葉県",
+  "municipalities": [
+    {
+      "code": "12210",
+      "name": "茂原市",
+      "officialBaseUrl": "https://www.city.mobara.chiba.jp/"
+    },
+    {
+      "code": "12211",
+      "name": "成田市",
+      "officialBaseUrl": "https://www.city.narita.chiba.jp/"
+    },
+    {
+      "code": "12212",
+      "name": "佐倉市",
+      "officialBaseUrl": "https://www.city.sakura.lg.jp/"
+    },
+    {
+      "code": "12213",
+      "name": "東金市",
+      "officialBaseUrl": "https://www.city.togane.chiba.jp/"
+    }
+  ]
+}

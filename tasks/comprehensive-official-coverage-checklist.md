@@ -7057,3 +7057,39 @@
     - 木更津市の住宅補助カテゴリ、松戸市のマンション耐震診断費補助金・危険コンクリートブロック塀等対策事業補助金・雨水貯留タンク設置補助金・老朽空家除却費補助金・親元近居同居住宅取得支援、野田市の子ども医療費助成・各種医療費助成・創業関連制度・雇用奨励金等は、制度詳細未精査、金額・受付状況不足、又は同自治体件数配分の観点で第2巡候補に残す。
   - 次:
     - 千葉県公式棚卸し003として、12210茂原市、12211成田市、12212佐倉市、12213東金市を自治体コード順に確認する。
+
+- 千葉県公式棚卸し003
+  - 対象:
+    - 12210 茂原市、12211 成田市、12212 佐倉市、12213 東金市。
+  - 方法:
+    - 公式トップ到達を4自治体すべてHTTP 200で確認した。
+    - `scripts/discover-official-candidates.mjs` で候補205件を抽出し、候補数が150件を超えたため、公式リンク短評134件、本文スニペット79件、対象ページスニペット28件を保存して再スコアリングした。
+    - 茂原市・成田市・佐倉市・東金市は公式カテゴリ・組織ページで個別制度導線を補完し、金額・対象・受付状況が本文又は公式PDFで確認できる制度のみ採用した。
+    - トップ、カテゴリ、サイトマップ、共通ナビ一致は採用せず、自治体本文又は公式PDFで制度名・対象・金額/上限・条件・期限/受付状況を確認できる制度のみ採用した。
+  - 採用:
+    - 茂原市6件: 物価高対応子育て応援手当、合併処理浄化槽補助金制度、住宅用設備等脱炭素化促進事業補助金、空き家バンク登録物件リフォーム補助金、木造住宅耐震改修費等補助金、浸水防止対策事業補助金。
+    - 成田市6件: 結婚新生活支援事業補助金、一時預かり事業利用者補助金、自転車乗車用ヘルメット購入費補助金、住宅用省エネルギー設備設置費補助金、新規就農者等就農支援補助金、雨水貯留施設設置費補助金。
+    - 佐倉市7件: 貨物運送事業者エネルギー価格高騰支援給付金、近居・同居住替支援事業、結婚新生活支援事業補助金、住宅用設備等脱炭素化促進事業補助金、空き家バンク等子育て世帯等定住促進補助事業、こどもの生活・学習支援事業助成金、障害者団体活動支援事業補助金。
+    - 東金市7件: 住宅用設備等脱炭素化促進事業補助金、結婚新生活支援事業補助金、子ども医療費助成制度、人間ドック助成、低所得世帯の初回産科受診料助成、子育てスタート支援事業補助金、障害者支援施設等通所交通費助成制度。
+  - 生成ファイル:
+    - `tasks/discovery/chiba-official-coverage-003-municipalities.json`
+    - `tasks/discovery/chiba-official-coverage-003-candidates.json`
+    - `tasks/discovery/chiba-official-coverage-003-link-shortlist.json`
+    - `tasks/discovery/chiba-official-coverage-003-detail-snippets.json`
+    - `tasks/discovery/chiba-official-coverage-003-target-snippets.json`
+    - `tasks/discovery/chiba-official-coverage-003-selected-main.json`
+    - `tasks/discovery/chiba-official-coverage-003-selected-snippets.json`
+    - `tasks/discovery/chiba-official-coverage-003-official-extra.json`
+    - `tasks/discovery/chiba-official-coverage-003.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（26件、全grantファイル横断で各1件）。
+    - 公式URL到達: pass（26 unique official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10712、officialLinkedActive 10674、manuallyVerifiedActive 10674、千葉県 localOfficial 279）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 茂原市介護サービス事業所・施設等物価高騰対策支援金、成田市・佐倉市・東金市のカテゴリ導線、様式・PDF別添のみ、金額又は受付状況不足、件数配分上の未採用候補は第2巡候補に残す。
+  - 次:
+    - 千葉県公式棚卸し004として、12215旭市、12216習志野市、12217柏市、12218勝浦市を自治体コード順に確認する。

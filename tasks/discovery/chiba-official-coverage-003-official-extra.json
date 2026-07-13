@@ -1,0 +1,16 @@
+{
+  "batchId": "chiba-comprehensive-official-coverage-003",
+  "checkedAt": "2026-07-14T07:25:00+09:00",
+  "officialExtraSources": [
+    "https://www.city.mobara.chiba.jp/soshiki/6-4-0-0-0_3.html",
+    "https://www.city.narita.chiba.jp/kurashi/index0139.html",
+    "https://www.city.narita.chiba.jp/business/index0267.html",
+    "https://www.city.sakura.lg.jp/hojokin_joseikin/iryojosei/index.html",
+    "https://www.city.sakura.lg.jp/hojokin_joseikin/chushokigyonadoshien/index.html",
+    "https://www.city.sakura.lg.jp/soshiki/jutakuka/103/index.html",
+    "https://www.city.sakura.lg.jp/soshiki/kodomokateika/159/index.html",
+    "https://www.city.togane.chiba.jp/category/11-1-6-0-0-0-0-0-0-0.html",
+    "https://www.city.togane.chiba.jp/category/5-11-0-0-0-0-0-0-0-0.html"
+  ],
+  "purpose": "crawlerで拾った個別候補に加え、公式カテゴリ・組織ページから埋もれた個別制度ページを補完した。"
+}
