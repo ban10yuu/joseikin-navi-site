@@ -6003,3 +6003,40 @@
     - 益子町の若者定住促進住まいづくり奨励金は取得期限後の申請可能性を再確認する。子育て・教育ページ内の複数給付は個別ページ又は支給要綱の安定URL確認を第2巡へ残す。
   - 次:
     - 栃木県公式棚卸し005として、09343茂木町、09344市貝町、09345芳賀町、09361壬生町を自治体コード順に確認する。
+
+- 栃木県公式棚卸し005
+  - 対象:
+    - 09343 茂木町、09344 市貝町、09345 芳賀町、09361 壬生町。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補507件をローカルJSONへ保存した。
+    - `tasks/discovery/tochigi-official-coverage-005-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現を抽出し、個別制度ページを優先確認した。
+    - 芳賀町・壬生町は公式ドメイン内の個別制度ページを補完し、`tasks/discovery/tochigi-official-coverage-005-official-extra.json` に保存した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページのみ採用した。
+  - 採用:
+    - 茂木町7件: 省エネ家電製品購入費、生ごみ処理機等購入費、木造住宅耐震診断士派遣・耐震改修等、特定空家等除却、新築住宅固定資産税、住宅取得資金利子補給、医療用ウィッグ・乳房補整具購入費。
+    - 市貝町4件: ごみ収集ステーション整備、生ごみ処理機設置、高等学校等通学支援、住宅リフォーム支援。
+    - 芳賀町5件: 省エネ家電買換え、太陽光発電等整備費、スマート農業技術導入支援、人間ドック・脳ドック検診、通院時タクシー利用助成。
+    - 壬生町5件: 結婚新生活支援、人間ドック・脳ドック検診費用、雨水貯留浸透施設設置費、特殊詐欺対策電話機等購入費、とちぎ結婚支援センター入会登録。
+  - 生成ファイル:
+    - `tasks/discovery/tochigi-official-coverage-005-municipalities.json`
+    - `tasks/discovery/tochigi-official-coverage-005-candidates.json`（raw候補）
+    - `tasks/discovery/tochigi-official-coverage-005-detail-snippets.json`
+    - `tasks/discovery/tochigi-official-coverage-005-official-extra.json`
+    - `tasks/discovery/tochigi-official-coverage-005.json`
+  - 検証:
+    - 追加slug重複: pass（21件、全9619slugでduplicateCount 0）。
+    - 公式URL到達: pass（21件すべてHTTP 200）。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9979、officialLinkedActive 9941、manuallyVerifiedActive 9941、栃木県 localOfficial 243）。
+  - 補正:
+    - 栃木004で追加した那須烏山市・上三川町・益子町の一部カテゴリに、型定義外の `community`、`agriculture`、`business` が混入していたため、既存カテゴリの `living`、`employment` へ補正した。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 市貝町の創業・起業支援補助金は、公式ページ本文の補助率・上限内訳を第2巡で要綱又は添付資料まで確認する。
+    - 芳賀町のにこっと子育て応援給付金は、旧伴走型相談支援給付と現行の妊婦支援給付への移行状況を第2巡で整理する。
+    - 芳賀町スマート農業技術導入支援事業補助金は公式本文で2026年6月30日締切済みを確認したため、期限切れ制度として扱う。次巡で翌年度更新の有無を確認する。
+    - 壬生町の空家解体事業補助金は公式ページで令和8年度募集一時停止中を確認したため採用しない。園芸作物生産拡大支援事業はURL到達と補助率表の安定確認を第2巡へ残す。
+  - 次:
+    - 栃木県公式棚卸し006として、09364野木町、09384塩谷町、09386高根沢町、09407那須町を自治体コード順に確認する。

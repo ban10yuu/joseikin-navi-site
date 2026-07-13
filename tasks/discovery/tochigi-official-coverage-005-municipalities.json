@@ -1,0 +1,26 @@
+{
+  "batchId": "tochigi-comprehensive-official-coverage-005",
+  "prefecture": "栃木県",
+  "municipalities": [
+    {
+      "code": "09343",
+      "name": "茂木町",
+      "officialBaseUrl": "https://www.town.motegi.tochigi.jp/"
+    },
+    {
+      "code": "09344",
+      "name": "市貝町",
+      "officialBaseUrl": "https://www.town.ichikai.tochigi.jp/"
+    },
+    {
+      "code": "09345",
+      "name": "芳賀町",
+      "officialBaseUrl": "https://www.town.tochigi-haga.lg.jp/"
+    },
+    {
+      "code": "09361",
+      "name": "壬生町",
+      "officialBaseUrl": "https://www.town.mibu.tochigi.jp/"
+    }
+  ]
+}
