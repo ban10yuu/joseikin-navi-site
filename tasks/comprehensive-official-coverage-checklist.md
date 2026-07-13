@@ -3715,9 +3715,9 @@
     - 川崎町の住宅災害復旧は東日本大震災対応で申請期限が平成25年3月31日、耐震改修は公式本文に補助額がなく必須項目を満たさないため採用しない。
   - 検証:
     - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
-    - 追加11slug一意確認: pass。
-    - 11制度11URLの公式URL到達確認: HTTP 200。
-    - `npm run audit:coverage`: pass（failures 0、activePublished 8019、officialLinkedActive 7981、manuallyVerifiedActive 7981、宮城県 localOfficial 263）。
+    - 追加11slug一意確認: pass（総slug 9519、重複0）。
+    - 11制度10URLの公式URL到達確認: HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9445、officialLinkedActive 9407、manuallyVerifiedActive 9407、宮城県 localOfficial 355、宮城県 coveredCategories 8）。
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-second-pass-005.json`: pass。
   - 次:
     - 宮城県公式棚卸し第2巡006として、丸森町・亘理町・山元町・松島町の第1巡保留候補を確認する。
