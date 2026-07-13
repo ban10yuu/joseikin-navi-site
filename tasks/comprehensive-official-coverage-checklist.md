@@ -5898,3 +5898,39 @@
     - 佐野市の大学生等資格試験等受験料補助金は実制度ページの確認を第2巡へ残す。
   - 次:
     - 栃木県公式棚卸し002として、09205鹿沼市、09206日光市、09208小山市、09209真岡市を自治体コード順に確認する。
+
+- 栃木県公式棚卸し002
+  - 対象:
+    - 09205 鹿沼市、09206 日光市、09208 小山市、09209 真岡市。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補727件、本文スニペット726件をローカルJSONへ抽出して再スコアリングした。
+    - 日光市・真岡市は公式sitemapのURLだけでは制度語が拾えないため、sitemap掲載ページ本文を取得して制度語・金額・期限表現を再判定した。
+    - 公式本文36件を個別確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページを優先採用した。
+  - 採用:
+    - 鹿沼市8件: 養育費公正証書等作成支援、高等職業訓練促進、自立支援教育訓練、チャイルドシート購入、住宅リフォーム、生ごみ処理機等設置、結婚新生活、新卒者就職祝金。
+    - 日光市8件: 不妊治療、不育症治療、結婚新生活、介護支援専門員等研修、若年がん患者在宅ターミナルケア、成人女性等風しん予防接種、がん患者ウィッグ等、補助犬飼育費等。
+    - 小山市0件: 抽出3件はいずれも制度詳細ページへの案内又は必須項目不足のため第2巡へ残す。
+    - 真岡市7件: 結婚新生活、介護福祉士資格取得、就労者定住促進奨学金返還、小中学生英検・漢検、がん患者医療用ウィッグ等、若年者在宅ターミナルケア、風しん・MRワクチン任意予防接種。
+  - 生成ファイル:
+    - `tasks/discovery/tochigi-official-coverage-002-municipalities.json`
+    - `tasks/discovery/tochigi-official-coverage-002-candidates.json`（raw候補）
+    - `tasks/discovery/tochigi-official-coverage-002-detail-snippets.json`
+    - `tasks/discovery/tochigi-official-coverage-002-sitemap-scan.json`
+    - `tasks/discovery/tochigi-official-coverage-002-sitemap-keyword-pages.json`
+    - `tasks/discovery/tochigi-official-coverage-002-official-extra.json`
+    - `tasks/discovery/tochigi-official-coverage-002.json`
+  - 検証:
+    - 追加slug重複: pass（23件、全9555slugでduplicateCount 0）。
+    - 公式URL到達: pass（23件すべてHTTP 200）。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9917、officialLinkedActive 9879、manuallyVerifiedActive 9879、栃木県 localOfficial 181）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 小山市の新幹線通勤補助金、地方就職支援金、若者・子育て世帯田園部移住支援補助金は、抽出ページが制度詳細ページへの案内又は要件不足だったため詳細URL・添付資料を第2巡で確認する。
+    - 日光市省エネ家電購入費補助金は公式ページ上で令和7年2月28日受付終了、日光市耐震診断士派遣制度は令和8年度受付残0のため採用しない。
+    - 鹿沼市いちごっこ地域活動応援事業補助金は令和8年度事前申込期間後の予算余裕受付の現在状況を第2巡で確認する。
+    - 鹿沼市妊産婦医療費助成・ひとり親家庭医療費助成、日光市奨学金貸付制度、真岡市こども補装具費用助成は制度整理又は金額表現の粒度確認を第2巡へ残す。
+  - 次:
+    - 栃木県公式棚卸し003として、09210大田原市、09211矢板市、09213那須塩原市、09214さくら市を自治体コード順に確認する。
