@@ -1,0 +1,150 @@
+{
+  "batchId": "yamagata-official-second-pass-008",
+  "prefecture": "山形県",
+  "completedAt": "2026-07-13T17:35:00+09:00",
+  "sourceBatch": "tasks/discovery/yamagata-official-coverage-008.json",
+  "municipalities": [
+    {
+      "code": "06381",
+      "name": "高畠町",
+      "adopted": 8,
+      "held": 0
+    },
+    {
+      "code": "06382",
+      "name": "川西町",
+      "adopted": 0,
+      "held": 0
+    },
+    {
+      "code": "06401",
+      "name": "小国町",
+      "adopted": 3,
+      "held": 0
+    },
+    {
+      "code": "06402",
+      "name": "白鷹町",
+      "adopted": 1,
+      "held": 0
+    }
+  ],
+  "adopted": [
+    {
+      "slug": "takahata-marriage-new-life-subsidy-2026",
+      "municipality": "高畠町",
+      "title": "結婚新生活支援事業補助金",
+      "officialUrl": "https://www.town.takahata.yamagata.jp/soshiki/2/1948.html",
+      "evidence": "婚姻・町内住所・夫婦39歳以下・所得500万円未満、住居費等、令和7年9月1日から令和8年3月31日までを確認。"
+    },
+    {
+      "slug": "takahata-young-settlement-scholarship-repayment-2026",
+      "municipality": "高畠町",
+      "title": "新やまがた就職促進奨学金返還支援事業（やまがた若者定着枠）",
+      "officialUrl": "https://www.town.takahata.yamagata.jp/soshiki/2/1485.html",
+      "evidence": "県連携、大学等在学者、県内定住・就業、貸与月数×2万6千円又は返還残高の低い額、4年制大学例124万8千円を確認。"
+    },
+    {
+      "slug": "takahata-uturn-scholarship-repayment-2026",
+      "municipality": "高畠町",
+      "title": "新やまがた就職促進奨学金返還支援事業（Uターン促進枠）",
+      "officialUrl": "https://www.town.takahata.yamagata.jp/soshiki/2/1484.html",
+      "evidence": "県外就業後のUターン就業・定住、返還残額上限60万円、他市町村転入時2分の1を確認。"
+    },
+    {
+      "slug": "takahata-community-senior-respect-subsidy-2026",
+      "municipality": "高畠町",
+      "title": "地域敬老事業補助金",
+      "officialUrl": "https://www.town.takahata.yamagata.jp/soshiki/6/1251.html",
+      "evidence": "自治会等、令和8年度満75歳以上、敬老事業、対象者1人1,000円を確認。"
+    },
+    {
+      "slug": "takahata-marriage-activity-support-subsidy-2026",
+      "municipality": "高畠町",
+      "title": "婚活サポート事業補助金",
+      "officialUrl": "https://www.town.takahata.yamagata.jp/soshiki/2/1495.html",
+      "evidence": "町内住所・独身・県内結婚相談所等入会、初期費用上限2万円、成婚時上限10万円を確認。"
+    },
+    {
+      "slug": "takahata-marriage-promotion-event-subsidy-2026",
+      "municipality": "高畠町",
+      "title": "結婚推進支援事業補助金",
+      "officialUrl": "https://www.town.takahata.yamagata.jp/soshiki/2/1493.html",
+      "evidence": "出会い機会提供・コミュニケーション向上事業、通常上限5万円、町内参加割合50%超は上限10万円を確認。"
+    },
+    {
+      "slug": "takahata-high-school-student-support-2026",
+      "municipality": "高畠町",
+      "title": "山形県立高畠高等学校支援",
+      "officialUrl": "https://www.town.takahata.yamagata.jp/soshiki/2/1483.html",
+      "evidence": "高畠高校生、就学支援金10万円・3万円、JR定期券2分の1、町内事業所内定者の免許取得費半額補助を確認。"
+    },
+    {
+      "slug": "oguni-scholarship-and-medical-training-loan-2026",
+      "municipality": "小国町",
+      "title": "奨学資金・修学資金貸与",
+      "officialUrl": "https://www.town.oguni.yamagata.jp/soshiki/kyouiku/1418.html",
+      "evidence": "医師等月額10万円以内、看護師等月額5万円以内、一定勤務で返還免除、教員向け月額5万円以内無利子を確認。"
+    },
+    {
+      "slug": "oguni-pregnant-women-health-checkup-subsidy-2026",
+      "municipality": "小国町",
+      "title": "妊婦健康診査費用補助",
+      "officialUrl": "https://www.town.oguni.yamagata.jp/soshiki/kenkou/1441.html",
+      "evidence": "町内住所、全14回、多胎は19回まで、初回上限1万6,480円、県外受診時の助成金を確認。"
+    },
+    {
+      "slug": "oguni-maternity-dental-checkup-subsidy-2026",
+      "municipality": "小国町",
+      "title": "妊産婦歯科健診費用助成",
+      "officialUrl": "https://www.town.oguni.yamagata.jp/soshiki/kenkou/1440.html",
+      "evidence": "町内住所の妊産婦、出産後6か月まで、転入者も対象、歯科健診1回分の助成を確認。"
+    },
+    {
+      "slug": "shirataka-scholarship-repayment-support-2026",
+      "municipality": "白鷹町",
+      "title": "新やまがた就職促進奨学金返還支援事業",
+      "officialUrl": "https://www.town.shirataka.lg.jp/item/6588.htm",
+      "evidence": "若者定着枠は6月30日17時必着、貸与月数×2万6千円・4年制大学例124万8千円、Uターン促進枠は1次8月31日17時必着を確認。"
+    }
+  ],
+  "resolvedWithoutAdoption": [
+    "高畠町の暮らしに関する支援制度は第1巡採用済み又はカテゴリ内の制度概要で、個別制度URL・現行年度が不足するものは採用しない。",
+    "高畠町の就農支援制度は国県事業又は包括案内を含むため、町独自の個別制度としては追加しない。",
+    "川西町の児童三手当、障がい福祉手当、医療費助成、福祉タクシー、無料検診は国県制度要素又は金額・町独自差分不足のため追加しない。",
+    "川西町のコミュニティ助成事業は宝くじ助成の実績・案内中心で、町独自の公募制度として追加しない。",
+    "小国町の排水設備等改造資金あっせん制度は融資あっせんで、補助金・助成金としては追加しない。",
+    "小国町の児童手当、事業者・農業カテゴリ一覧は国制度又はカテゴリ導線のため追加しない。",
+    "白鷹町の自動車運転免許取得費等助成、リスキリング支援、6次産業化チャレンジ支援はカテゴリ本文のリンク名のみで個別本文・金額を確認できず、次巡候補として残す。",
+    "白鷹町の医療費助成、未熟児養育医療、結婚新生活支援本体は既存制度又は国県制度要素との重複・金額確認不足のため追加しない。"
+  ],
+  "sourceUrlsChecked": 11,
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: added 11 slugs, duplicateCount 0",
+    "urlReachability": "pass: added 11 official URLs all HTTP 200",
+    "diffCheck": "pass: git diff --check for Yamagata second pass 008 files",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9554, officialLinkedActive 9516, manuallyVerifiedActive 9516, Yamagata localOfficial 435, Yamagata coveredCategories 8"
+  },
+  "next": {
+    "code": "yamagata-official-second-pass-009",
+    "municipalities": [
+      {
+        "code": "06403",
+        "name": "飯豊町"
+      },
+      {
+        "code": "06426",
+        "name": "三川町"
+      },
+      {
+        "code": "06428",
+        "name": "庄内町"
+      },
+      {
+        "code": "06461",
+        "name": "遊佐町"
+      }
+    ]
+  }
+}

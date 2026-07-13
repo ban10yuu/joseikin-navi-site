@@ -5423,3 +5423,31 @@
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-second-pass-007.json`: pass。
   - 次:
     - 山形県第2巡008として、06426三川町、06428庄内町、06461遊佐町の第1巡保留候補を公式本文/PDFで確認する。
+
+- 山形県第2巡008（高畠町・川西町・小国町・白鷹町）
+  - 対象: 06381高畠町、06382川西町、06401小国町、06402白鷹町。
+  - 方法:
+    - `tasks/discovery/yamagata-official-coverage-008.json` と第1巡008の保留候補を復元し、既掲載31件の公式URLを重複除外した。
+    - チェックポイント上の次自治体が第1巡009の一部になっていたため、進捗JSONとチェックリストの実順を優先し、第1巡008の第2巡を先に処理した。
+    - 高畠町は結婚・奨学金返還・敬老・婚活・高畠高校支援の個別公式本文を確認した。
+    - 川西町は児童三手当、障がい福祉、医療費助成、福祉タクシー、無料検診、コミュニティ助成を再確認し、国県制度要素・カテゴリ案内・実績告知中心のため新規採用なしとした。
+    - 小国町は奨学資金・修学資金、妊婦健康診査、妊産婦歯科健診を公式本文で確認した。
+    - 白鷹町は奨学金返還支援を採用し、自動車運転免許取得費等助成、リスキリング支援、6次産業化チャレンジ支援は個別本文・金額確認不足として次巡候補に残した。
+  - 追加:
+    - 高畠町: 結婚新生活支援事業補助金、新やまがた就職促進奨学金返還支援事業（やまがた若者定着枠）、新やまがた就職促進奨学金返還支援事業（Uターン促進枠）、地域敬老事業補助金、婚活サポート事業補助金、結婚推進支援事業補助金、山形県立高畠高等学校支援。
+    - 川西町: 追加なし（国県制度要素、カテゴリ導線、実績告知又は町独自差分不足）。
+    - 小国町: 奨学資金・修学資金貸与、妊婦健康診査費用補助、妊産婦歯科健診費用助成。
+    - 白鷹町: 新やまがた就職促進奨学金返還支援事業。
+  - 保留継続:
+    - 高畠町の暮らしに関する支援制度と就農支援制度は、第1巡採用済み又は国県事業・包括案内を含むため、個別制度URL・町独自差分を次巡で確認する。
+    - 川西町の児童三手当、障がい福祉手当、医療費助成、福祉タクシー、無料検診は国県制度要素又は金額・町独自差分不足として追加しない。コミュニティ助成は宝くじ助成の実績・案内中心のため追加しない。
+    - 小国町の排水設備等改造資金あっせん制度は融資あっせん、児童手当・事業者・農業カテゴリ一覧は国制度又はカテゴリ導線のため追加しない。
+    - 白鷹町の自動車運転免許取得費等助成、リスキリング支援、6次産業化チャレンジ支援、医療費助成、未熟児養育医療、結婚新生活支援本体は個別本文・金額・重複を次巡で確認する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 11件、重複確認 pass（duplicateCount 0）。
+    - 追加した11制度11公式URLの到達確認 pass（すべて HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9554、officialLinkedActive 9516、manuallyVerifiedActive 9516、山形県 `localOfficial` 435、山形県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-second-pass-008.json`: pass。
+  - 次:
+    - 山形県第2巡009として、06403飯豊町、06426三川町、06428庄内町、06461遊佐町の第1巡保留候補を公式本文/PDFで確認する。
