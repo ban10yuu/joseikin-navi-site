@@ -6142,3 +6142,37 @@
     - 高崎市の一般不妊・生殖補助医療費助成、学校給食費補助、まちなか商店リニューアル等は既存掲載済み又は受付終了・制度粒度整理が必要なため第2巡へ残す。
   - 次:
     - 群馬県公式棚卸し002として、10204伊勢崎市、10205太田市、10206沼田市、10207館林市を自治体コード順に確認する。
+
+- 群馬県公式棚卸し002
+  - 対象:
+    - 10204 伊勢崎市、10205 太田市、10206 沼田市、10207 館林市。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補327件をローカルJSONへ保存した。
+    - `tasks/discovery/gunma-official-coverage-002-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現、既存掲載有無、再スコアを保存した。
+    - 公式検索結果相当・個別制度ページを補完し、`tasks/discovery/gunma-official-coverage-002-official-extra.json` に保存した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページのみ採用した。
+  - 採用:
+    - 伊勢崎市2件: 中小企業GX推進事業費補助金、小規模事業者サポート補助金。
+    - 太田市6件: 省エネ家電買換促進、市内産業活性化電気自動車購入、家庭用防犯カメラ購入、がん患者ウィッグ等購入費、住宅リフォーム支援、商店リフォーム支援。
+    - 沼田市1件: 人材活用支援金。
+    - 館林市4件: 結婚新生活支援、店舗ウェルカム、定住促進通学支援、脱炭素ライフスタイル推進。
+  - 生成ファイル:
+    - `tasks/discovery/gunma-official-coverage-002-municipalities.json`
+    - `tasks/discovery/gunma-official-coverage-002-candidates.json`（raw候補）
+    - `tasks/discovery/gunma-official-coverage-002-detail-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-002-official-extra.json`
+    - `tasks/discovery/gunma-official-coverage-002.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（全9713slugでduplicateCount 0）。
+    - 公式URL到達: pass（追加13件すべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10067、officialLinkedActive 10029、manuallyVerifiedActive 10029、群馬県 localOfficial 102）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 伊勢崎市の物価高騰対応一覧ページは個別制度ページ粒度ではないものを第2巡台帳に残した。
+    - 伊勢崎市家庭用脱炭素化設備導入補助金は既存officialUrl掲載済みのため追加しなかった。
+    - 館林市市民活動推進事業補助金PDFはPDF本文抽出が不足したため第2巡で再確認する。
+  - 次:
+    - 群馬県公式棚卸し003として、10208渋川市、10209藤岡市、10210富岡市、10211安中市を自治体コード順に確認する。
