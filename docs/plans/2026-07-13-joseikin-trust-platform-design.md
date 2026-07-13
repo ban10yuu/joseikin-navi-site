@@ -1,6 +1,6 @@
 # 助成金ナビ 信頼性・検索基盤再設計
 
-作成日: 2026-07-13  
+作成日: 2026-07-13
 対象: `joseikin-navi-site`
 
 ## 1. 目的
@@ -200,4 +200,3 @@ Next.js App Routerを維持し、一覧・検索はServer ComponentでURLクエ�
 - ASP案件
 - AdSenseスロット
 - 人手確認日
-

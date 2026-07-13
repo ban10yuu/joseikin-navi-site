@@ -119,6 +119,19 @@ function inferVerificationMethod(input: LegacyGrant): VerificationMethod {
   return 'unknown';
 }
 
+function inferMunicipality(input: LegacyGrant): string | null {
+  if (input.municipality?.trim()) return input.municipality.trim();
+  if (input.type !== 'local') return null;
+
+  const prefecture = input.prefecture === '全国' ? '' : input.prefecture;
+  for (const value of [input.organization, input.title]) {
+    const candidate = value.trim().replace(new RegExp(`^${prefecture}[\\s　]*`), '');
+    const match = candidate.match(/^([^\s　・（）()]{1,16}(?:市|区|町|村))(?:[\s　・（）()]|$)/);
+    if (match?.[1] && !['市町村', '区市町村'].includes(match[1])) return match[1];
+  }
+  return null;
+}
+
 export function normalizeGrant(input: LegacyGrant): NormalizedGrant {
   const category = CATEGORY_MAP[input.category] ?? 'living';
   const relatedCategories = unique(
@@ -158,7 +171,7 @@ export function normalizeGrant(input: LegacyGrant): NormalizedGrant {
     purposes,
     primaryPurpose: input.primaryPurpose ?? purposes[0] ?? 'other',
     country: '日本',
-    municipality: input.municipality ?? null,
+    municipality: inferMunicipality(input),
     maxAmountNum: input.maxAmountNum ?? 0,
     eligibility: sanitizePublicGrantText(input.eligibility),
     description: sanitizePublicGrantText(input.description),

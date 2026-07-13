@@ -26,9 +26,15 @@ describe('normalizeGrant', () => {
     assert.equal(result.id, 'example-support');
     assert.equal(result.maxAmountNum, 0);
     assert.equal(result.applicationPeriod, '');
+    assert.equal(result.municipality, '例示市');
     assert.equal(result.verificationMethod, 'automated');
     assert.equal(result.humanReviewedAt, null);
     assert.equal(result.indexStatus, 'index');
+  });
+
+  it('自治体名が構造化されていない旧データから市区町村を取り出す', () => {
+    assert.equal(normalizeGrant({ ...baseGrant, organization: '神奈川県 横浜市', prefecture: '神奈川県' }).municipality, '横浜市');
+    assert.equal(normalizeGrant({ ...baseGrant, title: '全国住宅支援制度', organization: '国土交通省', type: 'national', prefecture: '全国' }).municipality, null);
   });
 
   it('旧カテゴリを公開カテゴリとpurposeへ分離する', () => {

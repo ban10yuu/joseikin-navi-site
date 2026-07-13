@@ -1,6 +1,6 @@
 # 最終作業報告
 
-作業日：2026年7月13日  
+作業日：2026年7月13日
 作業ブランチ：`feature/joseikin-trust-platform`
 
 ## 実装内容
@@ -40,12 +40,12 @@
 |---|---|
 | `npm run lint` | 成功 |
 | `npm run typecheck` | 成功 |
-| `npm test` | 63件成功 |
+| `npm test` | 65件成功 |
 | `npm run check:copy` | 成功 |
 | `npm run audit:content` | 重大エラー0件 |
 | `npm run build` | 成功、7,323ページ生成 |
 | `npm run audit:build` | 重大エラー0件 |
-| `npm run test:e2e` | 30ケース成功、axe重大違反0件 |
+| `npm run test:e2e` | 33ケース成功、axe重大違反0件 |
 
 Lighthouseのモバイル計測中央値はPerformance 97、Accessibility 100、Best Practices 100、SEO 100でした。LCPは2.6秒、CLSは0、Total Blocking Timeは10msです。詳細は `reports/lighthouse-summary.md` に記録しました。
 

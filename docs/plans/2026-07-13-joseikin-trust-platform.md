@@ -45,7 +45,7 @@ npm run build
 
 **Step 2: 失敗を確認する**
 
-Run: `node --test src/lib/public-copy.test.mjs`  
+Run: `node --test src/lib/public-copy.test.mjs`
 Expected: `診断クイズ`、`生成データ`、`HTTP 200`などを検出してFAIL。
 
 **Step 3: 共通コマンドを追加する**
@@ -54,7 +54,7 @@ Expected: `診断クイズ`、`生成データ`、`HTTP 200`などを検出し�
 
 **Step 4: 基準コマンドを確認する**
 
-Run: `npm run check:copy`  
+Run: `npm run check:copy`
 Expected: 現段階では検出一覧を表示して非0終了。
 
 **Step 5: コミットする**
@@ -79,7 +79,7 @@ git commit -m "test: 公開文言の品質ゲートを追加"
 
 **Step 2: REDを確認する**
 
-Run: `node --test src/lib/site-url.test.mjs`  
+Run: `node --test src/lib/site-url.test.mjs`
 Expected: モジュール未作成でFAIL。
 
 **Step 3: 最小実装を追加する**
@@ -113,7 +113,7 @@ git commit -m "feat: サイト設定とcanonical生成を一元化"
 
 **Step 2: REDを確認する**
 
-Run: `node --test src/lib/grant-domain.test.mjs`  
+Run: `node --test src/lib/grant-domain.test.mjs`
 Expected: 型・正規化関数未実装でFAIL。
 
 **Step 3: 旧入力型と公開型を分ける**
@@ -255,7 +255,7 @@ git commit -m "fix: 制度件数と関連候補の基準を統一"
 
 **Step 4: テストする**
 
-Run: `node --test src/lib/redirects.test.mjs`  
+Run: `node --test src/lib/redirects.test.mjs`
 Expected: PASS。
 
 **Step 5: コミットする**
@@ -558,4 +558,3 @@ npm run build
 - lint、typecheck、test、E2E、audit、buildがすべて成功する。
 - 既存URLを削除していない。
 - mainの進行中変更を失っていない。
-

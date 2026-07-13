@@ -37,6 +37,11 @@ describe('queryGrants', () => {
     assert.equal(result.total, 27);
   });
 
+  it('構造化済みの市区町村で絞り込む', () => {
+    const result = queryGrants(grants, normalizeGrantQuery({ municipality: 'A市' }));
+    assert.equal(result.total, 30);
+  });
+
   it('24件ずつページネーションする', () => {
     const first = queryGrants(grants, normalizeGrantQuery({ page: '1' }));
     const second = queryGrants(grants, normalizeGrantQuery({ page: '2' }));

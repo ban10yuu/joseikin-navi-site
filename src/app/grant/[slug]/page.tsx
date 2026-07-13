@@ -60,7 +60,7 @@ function DetailSection({ id, title, sections, children }: { id: string; title: s
 export default async function GrantDetailPage({ params }: Props) {
   const { slug } = await params;
   const grant = getGrantBySlug(slug);
-  if (!grant || !hasOfficialSource(grant)) notFound();
+  if (!grant) notFound();
   const related = getRelatedGrants(grant, 4);
   const sourceStatus = getGrantSourceStatus(grant);
   const expired = isGrantExpired(grant);
@@ -161,7 +161,7 @@ export default async function GrantDetailPage({ params }: Props) {
         </article>
       </div>
 
-      <div className="grant-mobile-cta"><a href={grant.officialUrl} target="_blank" rel="noopener noreferrer" data-analytics-event="official_source_click" data-page-type="grant" data-grant-id={grant.slug} data-audience={grant.primaryAudience} data-purpose={grant.primaryPurpose} data-placement="mobile-sticky">{getOfficialCtaLabel(status)}<span className="sr-only">（新しいタブで開きます）</span><span aria-hidden="true">↗</span></a></div>
+      {hasOfficialSource(grant) && <div className="grant-mobile-cta"><a href={grant.officialUrl} target="_blank" rel="noopener noreferrer" data-analytics-event="official_source_click" data-page-type="grant" data-grant-id={grant.slug} data-audience={grant.primaryAudience} data-purpose={grant.primaryPurpose} data-placement="mobile-sticky">{getOfficialCtaLabel(status)}<span className="sr-only">（新しいタブで開きます）</span><span aria-hidden="true">↗</span></a></div>}
     </>
   );
 }

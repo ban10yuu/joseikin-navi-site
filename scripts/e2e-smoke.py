@@ -53,6 +53,19 @@ with sync_playwright() as playwright:
     check(len(grant_errors) == 0, f'検索一覧: console error {grant_errors}')
     grants.close()
 
+    focused_search, _ = open_page(browser, '/grants/?focus=search', 390, 844)
+    check(focused_search.locator('details').first.get_attribute('open') is not None, 'モバイル検索アイコンの遷移先で検索条件が開きません')
+    focused_search.close()
+
+    municipality, _ = open_page(browser, '/grants/?municipality=横浜市', 390, 844)
+    check(municipality.locator('.grant-card').count() > 0, '市区町村を指定すると常に0件になります')
+    municipality.close()
+
+    unverified, _ = open_page(browser, '/grant/chiba-migration-support/', 390, 844)
+    check('noindex' in (unverified.locator('meta[name="robots"]').get_attribute('content') or ''), '公式リンクなし制度がnoindexではありません')
+    check(unverified.locator('.grant-official-primary').count() == 0, '公式リンクなし制度に公式CTAが表示されています')
+    unverified.close()
+
     redirect, _ = open_page(browser, '/grant/kushiro-elderly-taxi/', 1280, 900)
     check('/grant/kushiro-elderly-outing-bus/' in redirect.url, '釧路市の旧URLが新URLへ転送されません')
     redirect.close()

@@ -243,6 +243,7 @@ function Pagination({ query, page, pageCount }: { query: GrantQuery; page: numbe
 
 export default async function GrantsListPage({ searchParams }: { searchParams: Promise<SearchParams> }) {
   const rawParams = await searchParams;
+  const focusSearch = (Array.isArray(rawParams.focus) ? rawParams.focus[0] : rawParams.focus) === 'search';
   const query = normalizeGrantQuery(rawParams);
   const result = queryGrants(getAllGrantsUnfiltered(), query);
   const stats = getGrantQualityStats();
@@ -259,7 +260,7 @@ export default async function GrantsListPage({ searchParams }: { searchParams: P
       </div>
 
       <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
-        <details className="mb-6 rounded-xl border border-line bg-card p-4 lg:hidden">
+        <details open={focusSearch || hasSearchConditions(rawParams)} className="mb-6 rounded-xl border border-line bg-card p-4 lg:hidden">
           <summary className="min-h-11 cursor-pointer py-2 font-bold text-navy">検索条件を指定する</summary>
           <div className="pt-5"><SearchFields query={query} idPrefix="mobile" /></div>
         </details>
