@@ -1,10 +1,9 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { getGrantQualityStats, getOfficialLinkedGrants } from '@/lib/grants';
-import { CATEGORY_LABELS, Grant, GrantCategory } from '@/lib/types';
-import GrantCard, { GrantCardItem } from '@/components/GrantCard';
-import Sidebar from '@/components/Sidebar';
+import { CATEGORY_LABELS, GrantCategory } from '@/lib/types';
+import GrantCard from '@/components/GrantCard';
 import GoogleAd from '@/components/GoogleAd';
-import GrantFinderQuiz from '@/components/GrantFinderQuiz';
 import HomeGrantSearch from '@/components/HomeGrantSearch';
 
 const CATEGORY_IMAGES: Record<GrantCategory, string> = {
@@ -20,107 +19,35 @@ const CATEGORY_IMAGES: Record<GrantCategory, string> = {
 
 const categories = Object.entries(CATEGORY_LABELS) as [GrantCategory, string][];
 
-function toGrantCardItem(grant: Grant): GrantCardItem {
-  const compactSearchText = [
-    grant.title,
-    grant.organization,
-    grant.type,
-    grant.maxAmount,
-    grant.category,
-    grant.prefecture,
-    grant.tags.join(' '),
-    grant.eligibility,
-    grant.targetIncome,
-    grant.targetOccupation,
-    grant.applicationPeriod,
-    grant.description,
-    grant.sourceName,
-  ].filter(Boolean).join(' ').toLowerCase();
-
-  return {
-    slug: grant.slug,
-    title: grant.title,
-    organization: grant.organization,
-    type: grant.type,
-    maxAmount: grant.maxAmount,
-    category: grant.category,
-    prefecture: grant.prefecture,
-    tags: grant.tags,
-    eligibility: grant.eligibility,
-    applicationPeriod: grant.applicationPeriod,
-    deadlineDate: grant.deadlineDate,
-    description: grant.description,
-    officialUrl: grant.officialUrl,
-    sourceUrls: grant.sourceUrls,
-    verifiedAt: grant.verifiedAt,
-    searchText: compactSearchText,
-  };
-}
-
 export default function HomePage() {
   const stats = getGrantQualityStats();
   const officialGrants = getOfficialLinkedGrants();
 
-  // 注目の助成金: 公式リンク記載・金額上位6件
-  const topGrants = officialGrants.slice(0, 6);
-  const searchGrants = officialGrants.map(toGrantCardItem);
-  const quizGrants = officialGrants.slice(0, 400).map(toGrantCardItem);
+  // 注目の助成金: 公式リンク記載・金額上位4件
+  const topGrants = officialGrants.slice(0, 4);
 
   return (
     <>
-      {/* Hero: first screen is the actual search workflow */}
       <section className="home-hero">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
-          <div className="grid grid-cols-1 lg:grid-cols-[0.78fr_1.22fr] gap-8 lg:gap-10 items-start">
-            <div className="lg:sticky lg:top-24">
-              <p className="inline-flex items-center rounded-full border-[1.5px] border-line-strong bg-card px-3 py-1 text-xs font-bold text-navy">
-                全ページ公式リンク記載！ {stats.officialLinked}件
-              </p>
-              <h1 className="mt-4 text-3xl sm:text-4xl font-black text-navy leading-tight">
-                助成金を条件で探す。
-              </h1>
-              <p className="mt-4 text-base text-muted leading-relaxed">
-                国・自治体・民間の支援制度を、対象者・地域・カテゴリ・公式出典の有無で整理。
-                申請前に見るべき「金額・条件・出典」へ迷わず進めます。
-              </p>
-
-              <div className="home-proof-grid" aria-label="掲載情報の概要">
-                <div>
-                  <span className="home-proof-value">{stats.total}</span>
-                  <span className="home-proof-label">掲載制度</span>
-                </div>
-                <div>
-                  <span className="home-proof-value">47</span>
-                  <span className="home-proof-label">都道府県</span>
-                </div>
-                <div>
-                  <span className="home-proof-value">8</span>
-                  <span className="home-proof-label">カテゴリ</span>
-                </div>
-              </div>
-
-              <div className="mt-6 flex flex-wrap gap-3">
-                <a
-                  href="#home-search-title"
-                  className="inline-flex min-h-11 items-center rounded-lg bg-accent px-5 py-2 text-sm font-bold text-white transition-colors hover:bg-accent-deep"
-                >
-                  今すぐ探す
-                </a>
-                <Link
-                  href="/guide/"
-                  className="inline-flex min-h-11 items-center rounded-lg border-2 border-navy bg-card px-5 py-2 text-sm font-bold text-navy transition-colors hover:bg-wash"
-                >
-                  申請の流れを見る
-                </Link>
-              </div>
-            </div>
-
-            <HomeGrantSearch
-              grants={searchGrants}
-              totalCount={stats.total}
-              officialLinkedCount={stats.officialLinked}
-            />
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-7 sm:py-12">
+          <div className="home-hero-intro">
+            <p className="home-hero-kicker">国・自治体などの公式情報を整理</p>
+            <h1>あなたに合う助成金・補助金を、地域と目的から探せます</h1>
+            <p>
+              制度名が分からなくても大丈夫です。個人・家族向けと事業者・団体向けに分けて、対象、金額、期限、公式の確認先を見比べられます。
+            </p>
           </div>
+
+          <HomeGrantSearch
+            totalCount={stats.total}
+            officialLinkedCount={stats.officialLinked}
+          />
+
+          <ul className="home-trust-strip" aria-label="助成金ナビの情報方針">
+            <li><span aria-hidden="true">✓</span> 国・自治体などの公式情報が基準</li>
+            <li><span aria-hidden="true">✓</span> 制度ごとに公式ページを案内</li>
+            <li><span aria-hidden="true">✓</span> 情報を確認した日付を表示</li>
+          </ul>
         </div>
       </section>
 
@@ -135,7 +62,7 @@ export default function HomePage() {
                 href={`/category/${key}/`}
                 className="flex shrink-0 items-center gap-1.5 text-xs font-bold px-3.5 py-2 rounded-full bg-card text-navy hover:bg-wash border-[1.5px] border-line-strong hover:border-navy transition-colors"
               >
-                <img src={CATEGORY_IMAGES[key]} alt="" className="w-4 h-4 object-contain" />
+                <Image src={CATEGORY_IMAGES[key]} alt="" width={16} height={16} className="w-4 h-4 object-contain" />
                 {label}
               </Link>
             ))}
@@ -143,32 +70,29 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* === 条件診断 === */}
-      <section id="finder" className="py-10 px-4">
-        <div className="max-w-7xl mx-auto">
-          <div className="mb-5 border-l-4 border-accent pl-4">
-            <p className="text-xs font-bold text-accent-deep mb-1">迷ったら診断</p>
-            <h2 className="text-xl font-black text-navy">状況から候補を絞り込む</h2>
-            <p className="text-sm text-muted mt-1">地域や世帯状況を選ぶだけで、使える可能性のある制度を確認できます。</p>
+      <section className="home-howto-section">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <div className="home-section-heading">
+            <p>はじめての方へ</p>
+            <h2>探す、確かめる、申請する</h2>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-8">
-            <div>
-              <GrantFinderQuiz grants={quizGrants} totalCount={officialGrants.length} />
-            </div>
-            <div className="hidden lg:block">
-              <Sidebar />
-            </div>
-          </div>
+          <ol className="home-howto-list">
+            <li><span>1</span><div><strong>条件を選ぶ</strong><p>地域と目的から候補を絞ります。</p></div></li>
+            <li><span>2</span><div><strong>対象と期限を見る</strong><p>金額だけでなく、対象条件と受付状況を確認します。</p></div></li>
+            <li><span>3</span><div><strong>公式ページで確認</strong><p>募集要項と必要書類を確認して申請します。</p></div></li>
+          </ol>
+          <Link href="/guide/" className="home-text-link">
+            申請前に確認することを見る <span aria-hidden="true">→</span>
+          </Link>
         </div>
       </section>
 
-      {/* 注目の助成金（金額上位） */}
-      <GoogleAd format="horizontal" className="max-w-7xl mx-auto px-4 sm:px-6" />
-
-      <section className="py-10 px-4 bg-card border-t border-line">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-xl font-bold text-navy mb-1 pl-3 border-l-4 border-accent">注目の助成金</h2>
-          <p className="text-sm text-muted mb-5 pl-3">公式確認先を記載した制度から支給額の大きいものをピックアップ</p>
+      <section className="py-10 sm:py-14 px-4 bg-card border-t border-line">
+        <div className="max-w-6xl mx-auto">
+          <div className="home-section-heading">
+            <p>公式ページを確認できる制度から</p>
+            <h2>注目の助成金・補助金</h2>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
             {topGrants.map((grant) => (
               <GrantCard key={grant.slug} grant={grant} />
@@ -176,26 +100,13 @@ export default function HomePage() {
           </div>
           <div className="text-center">
             <Link href="/grants/" className="inline-block px-6 py-2.5 text-sm text-navy font-bold border-2 border-navy rounded-full hover:bg-navy hover:text-white transition-colors">
-              公式リンク記載の助成金を見る（{officialGrants.length}件）
+              すべての制度を見る（{officialGrants.length.toLocaleString('ja-JP')}件）
             </Link>
           </div>
         </div>
       </section>
 
       <GoogleAd format="horizontal" className="max-w-4xl mx-auto px-4" />
-
-      {/* メール登録CTA */}
-      <section className="py-10 px-4 bg-wash border-t border-line">
-        <div className="max-w-xl mx-auto bg-card border-2 border-navy rounded-xl p-5 sm:p-7 shadow-sm">
-          <h2 className="text-base font-bold text-navy mb-1.5">あなたに合った助成金をメールでお届け</h2>
-          <p className="text-sm text-muted mb-4">
-            世帯年収・地域・職業を登録すると、該当する助成金の情報をお知らせします。無料。
-          </p>
-          <Link href="/subscribe/" className="inline-block px-6 py-2.5 bg-accent text-white font-bold text-sm rounded-lg hover:bg-accent-deep transition-colors shadow-sm">
-            無料で登録する
-          </Link>
-        </div>
-      </section>
 
       {/* SEOテキスト */}
       <section className="py-8 px-4 border-t border-line">
@@ -207,7 +118,7 @@ export default function HomePage() {
               公式確認先を記載した制度を中心に、支援制度を8カテゴリに分類して掲載しています。
             </p>
             <p>
-              申請方法・必要書類・受給条件などを分かりやすく整理しつつ、公式出典未登録の情報は「要公式確認」として区別します。最新情報は必ず各公式サイトでご確認ください。
+              金額・対象条件・申請期間を分かりやすく整理し、公式情報の確認先と確認日を表示します。最新の受付状況や必要書類は、必ず各公式サイトでご確認ください。
             </p>
           </div>
         </div>

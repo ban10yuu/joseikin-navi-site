@@ -22,17 +22,6 @@ export interface GrantCardItem {
   searchText?: string;
 }
 
-const CATEGORY_IMAGES: Record<GrantCategory, string> = {
-  childcare: '/images/categories/childcare.png',
-  housing: '/images/categories/housing.png',
-  medical: '/images/categories/medical.png',
-  education: '/images/categories/education.png',
-  employment: '/images/categories/employment.png',
-  nursing: '/images/categories/nursing.png',
-  living: '/images/categories/living.png',
-  disaster: '/images/categories/disaster.png',
-};
-
 const DEADLINE_BADGES: Record<NonNullable<DeadlineStatus>, { label: string; className: string }> = {
   'year-round': { label: '通年受付', className: 'bg-emerald-50 text-emerald-800 border-emerald-300' },
   'ending-soon': { label: '締切間近', className: 'bg-accent-wash text-accent-deep border-accent' },
@@ -47,72 +36,47 @@ export default function GrantCard({ grant }: { grant: GrantCardItem }) {
 
   return (
     <Link href={`/grant/${grant.slug}/`} className={`grant-card block ${isEnded ? 'opacity-60' : ''}`}>
-      <div className="flex items-start gap-3">
-        <img
-          src={CATEGORY_IMAGES[grant.category]}
-          alt={CATEGORY_LABELS[grant.category]}
-          className="w-12 h-12 object-contain flex-shrink-0"
-        />
-        <div className="flex-1 min-w-0">
-          {/* ラベル行 */}
-          <div className="flex flex-wrap items-center gap-1.5 mb-1.5">
-            <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-navy text-white">
-              {TYPE_LABELS[grant.type]}
-            </span>
-            <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-wash text-navy border border-line-strong">
-              {CATEGORY_LABELS[grant.category]}
-            </span>
-            {grant.prefecture !== '全国' && (
-              <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-card text-muted border border-line">
-                {grant.prefecture}
-              </span>
-            )}
-            {deadlineStatus && (
-              <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border ${DEADLINE_BADGES[deadlineStatus].className}`}>
-                {DEADLINE_BADGES[deadlineStatus].label}
-              </span>
-            )}
-            <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border ${sourceStatus.className}`}>
-              {sourceStatus.shortLabel}
-            </span>
-          </div>
+      <div className="grant-card-badges">
+        <span className="grant-card-type">{TYPE_LABELS[grant.type]}</span>
+        <span>{CATEGORY_LABELS[grant.category]}</span>
+        <span>{grant.prefecture}</span>
+        {deadlineStatus && (
+          <span className={`border ${DEADLINE_BADGES[deadlineStatus].className}`}>
+            {DEADLINE_BADGES[deadlineStatus].label}
+          </span>
+        )}
+      </div>
 
-          {/* タイトル（長いタイトルは2行で切る） */}
-          <h3 className="text-[15px] font-bold text-navy mb-1.5 leading-snug line-clamp-2">
-            {grant.title}
-          </h3>
+      <h3 className="grant-card-title">{grant.title}</h3>
+      <p className="grant-card-organization">{grant.organization}</p>
 
-          {/* 助成額を大きく */}
-          <div className="amount-badge">{grant.maxAmount}</div>
+      <dl className="grant-card-facts">
+        <div>
+          <dt>支給・補助額</dt>
+          <dd>{grant.maxAmount}</dd>
         </div>
-      </div>
+        <div>
+          <dt>申請期間</dt>
+          <dd className="line-clamp-2">{grant.applicationPeriod || '公式サイトで確認'}</dd>
+        </div>
+      </dl>
 
-      {/* 対象者 */}
-      <div className="target-label">
-        <span className="target-label-icon">&#10003;</span>
-        <span className="line-clamp-1">{grant.eligibility}</span>
-      </div>
-
-      <div className="mb-2 flex items-start gap-2 rounded-md border border-line bg-base px-3 py-2 text-xs text-muted">
-        <span className="shrink-0 font-bold text-navy">申請</span>
-        <span className="line-clamp-1">{grant.applicationPeriod}</span>
-      </div>
+      <p className="grant-card-eligibility line-clamp-2">
+        <span>主な対象</span>
+        {grant.eligibility}
+      </p>
 
       {isEnded && (
-        <div className="mb-2 rounded-md border border-red-200 bg-red-50 px-3 py-2 text-xs font-bold text-red-800">
-          これは期限が切れています。次回募集や後継制度は公式サイトで確認してください。
-        </div>
+        <p className="grant-card-expired">
+          掲載上の期限は終了しています。次回募集は公式サイトで確認してください。
+        </p>
       )}
 
-      {/* 概要（2行で切る） */}
-      <p className="text-sm text-muted mb-2 line-clamp-2">{grant.description}</p>
-
-      {/* 運営元 */}
-      <div className="flex items-center justify-between gap-3 text-xs text-faint">
-        <span className="min-w-0 line-clamp-1">
-          {grant.verifiedAt ? `確認日 ${grant.verifiedAt}` : sourceStatus.label} / {grant.organization}
+      <div className="grant-card-footer">
+        <span className={sourceStatus.level === 'verified' ? 'is-verified' : ''}>
+          {grant.verifiedAt ? `公式出典を${grant.verifiedAt}に確認` : sourceStatus.label}
         </span>
-        <span className="shrink-0 font-bold text-navy">詳細を見る</span>
+        <span className="grant-card-link">詳しく見る <span aria-hidden="true">→</span></span>
       </div>
     </Link>
   );
