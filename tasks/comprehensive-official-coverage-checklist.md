@@ -6440,3 +6440,34 @@
     - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
   - 次:
     - チェックリストと自治体別進捗JSONから、次の未完了自治体・団体をコード順に再確認して再開する。
+
+- 埼玉県公式棚卸し001
+  - 対象:
+    - 11000 埼玉県庁、11100 さいたま市、11201 川越市、11202 熊谷市。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補354件をローカルJSONへ保存した。
+    - 候補が150件を超えたため、公式ドメイン内リンクを再スコアリングし、`tasks/discovery/saitama-official-coverage-001-official-extra.json` と `tasks/discovery/saitama-official-coverage-001-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現を保存した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃う個別ページのみ採用した。
+  - 採用:
+    - 埼玉県庁2件: 中小企業省力化支援事業補助金（設備更新）、新技術・新製品開発支援補助金。
+    - さいたま市5件: アスベスト除去等、民間特定建築物等耐震補強等、重点対策加速化、民営駐輪場設置、大学等進学「夢」支援。
+    - 川越市3件: 高齢者施設等運営継続支援金、物価高騰対策LED照明器具導入支援、青少年団体自主活動補助金。
+    - 熊谷市6件: 新幹線らく賃通勤、結婚新生活、スマートハウス、住宅リフォーム、空き家利活用、空き家等除却。
+  - 生成ファイル:
+    - `tasks/discovery/saitama-official-coverage-001-municipalities.json`
+    - `tasks/discovery/saitama-official-coverage-001-candidates.json`（raw候補）
+    - `tasks/discovery/saitama-official-coverage-001-official-extra.json`
+    - `tasks/discovery/saitama-official-coverage-001-detail-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-001-selected-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-001-selected-main.json`
+    - `tasks/discovery/saitama-official-coverage-001.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（16件、duplicateCount 0）。
+    - 公式URL到達: pass（追加16 URLすべてHTTP 200）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 埼玉県庁・さいたま市・熊谷市は既存掲載済みURLが多いため、重複除外後の採用数は少なめ。さいたま市省エネ住宅、創エネ・蓄エネ、イノベーション補助、熊谷市V2H、屋外現場作業負荷軽減、スタートアップ支援等は公式本文確認済みだが、今回採用枠外又は第2巡候補に残す。
+    - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
+  - 次:
+    - 埼玉県公式棚卸し002として、11203川口市、11206行田市、11207秩父市、11208所沢市を自治体コード順に確認する。

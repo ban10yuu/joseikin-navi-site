@@ -1,0 +1,47 @@
+{
+  "batchId": "saitama-comprehensive-official-coverage-001",
+  "prefecture": "埼玉県",
+  "generatedAt": "2026-07-13T17:07:41.338Z",
+  "targets": [
+    {
+      "code": "11000",
+      "name": "埼玉県庁"
+    },
+    {
+      "code": "11100",
+      "name": "さいたま市"
+    },
+    {
+      "code": "11201",
+      "name": "川越市"
+    },
+    {
+      "code": "11202",
+      "name": "熊谷市"
+    }
+  ],
+  "candidateCount": 354,
+  "detailSnippetCount": 31,
+  "adoptedCount": 16,
+  "adoptedByMunicipality": {
+    "埼玉県庁": 2,
+    "さいたま市": 5,
+    "川越市": 3,
+    "熊谷市": 6
+  },
+  "verification": {
+    "baseUrlsHttp200": true,
+    "addedUrlsHttp200": true,
+    "slugDuplicateCount": 0,
+    "nodeCheck": "pass",
+    "lint": "pass",
+    "diffCheck": "pass",
+    "auditCoverage": "pass",
+    "auditFailures": 0,
+    "activePublished": 10332,
+    "officialLinkedActive": 10294,
+    "manuallyVerifiedActive": 10294,
+    "saitamaLocalOfficial": 211
+  },
+  "next": "11203 川口市から自治体コード順に再開"
+}
