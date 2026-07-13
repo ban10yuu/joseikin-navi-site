@@ -77,4 +77,20 @@ describe('normalizeGrant', () => {
     assert.equal(result.verificationMethod, 'mixed');
     assert.equal(result.humanReviewedAt, '2026-07-03');
   });
+
+  it('内部監査文言を公開本文から除きnoindexにする', () => {
+    const result = normalizeGrant({
+      ...baseGrant,
+      description: '市が2万円を支給します。生成データの金額を補正しました。',
+      sections: [
+        { heading: '支援内容', content: '<p>1人2万円です。</p>' },
+        { heading: '掲載時の補正', content: '<p>旧データを補正しました。</p>' },
+      ],
+    });
+
+    assert.equal(result.description, '市が2万円を支給します。');
+    assert.equal(result.sections.length, 1);
+    assert.equal(result.contentStatus, 'needsReview');
+    assert.equal(result.indexStatus, 'noindex');
+  });
 });

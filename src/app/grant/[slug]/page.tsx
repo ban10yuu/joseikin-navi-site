@@ -106,8 +106,8 @@ export default async function GrantDetailPage({ params }: Props) {
             officialUrl={grant.officialUrl}
             sourceUrls={grant.sourceUrls}
             sourceName={grant.sourceName}
-            sourceNote={grant.sourceNote}
             verifiedAt={grant.verifiedAt}
+            humanReviewedAt={grant.humanReviewedAt}
             statusLabel={sourceStatus.label}
             statusDescription={sourceStatus.description}
             statusLevel={sourceStatus.level}

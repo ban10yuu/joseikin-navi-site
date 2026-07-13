@@ -4,19 +4,19 @@ interface OfficialSourcePanelProps {
   officialUrl: string;
   sourceUrls?: string[];
   sourceName?: string;
-  sourceNote?: string;
   verifiedAt?: string;
+  humanReviewedAt?: string | null;
   statusLabel: string;
   statusDescription: string;
-  statusLevel: 'verified' | 'linked' | 'unverified';
+  statusLevel: 'human' | 'automated' | 'linked' | 'unverified';
 }
 
 export default function OfficialSourcePanel({
   officialUrl,
   sourceUrls,
   sourceName,
-  sourceNote,
   verifiedAt,
+  humanReviewedAt,
   statusLabel,
   statusDescription,
   statusLevel,
@@ -34,6 +34,9 @@ export default function OfficialSourcePanel({
       </div>
 
       <p className="grant-source-description">{statusDescription}</p>
+      {humanReviewedAt && (
+        <p className="grant-source-human"><span>人手確認日</span>{humanReviewedAt}</p>
+      )}
       {sourceName && (
         <p className="grant-source-name"><span>確認元</span>{sourceName}</p>
       )}
@@ -50,12 +53,6 @@ export default function OfficialSourcePanel({
         ))}
       </ul>
 
-      {sourceNote && (
-        <details className="grant-source-history">
-          <summary>確認履歴を見る</summary>
-          <p>{sourceNote}</p>
-        </details>
-      )}
     </section>
   );
 }

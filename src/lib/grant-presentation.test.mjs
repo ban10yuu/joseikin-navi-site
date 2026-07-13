@@ -3,6 +3,7 @@ import { describe, it } from 'node:test';
 import {
   formatVerifiedDate,
   normalizeOfficialUrls,
+  sanitizePublicGrantText,
   splitEligibilityText,
 } from './grant-presentation.ts';
 
@@ -29,6 +30,22 @@ describe('splitEligibilityText', () => {
 
   it('対象条件が未登録でも空配列を返す', () => {
     assert.deepEqual(splitEligibilityText(undefined), []);
+  });
+});
+
+describe('sanitizePublicGrantText', () => {
+  it('内部監査の文言を公開本文から除去する', () => {
+    assert.equal(
+      sanitizePublicGrantText('市が対象者へ2万円を支給します。生成データの5万円表記を補正しました。'),
+      '市が対象者へ2万円を支給します。',
+    );
+  });
+
+  it('内部監査文言を含むHTML要素を丸ごと除去する', () => {
+    assert.equal(
+      sanitizePublicGrantText('<p>対象者は市内在住者です。</p><p>公式URLはHTTP 200を確認。</p>'),
+      '<p>対象者は市内在住者です。</p>',
+    );
   });
 });
 
@@ -59,10 +76,10 @@ describe('normalizeOfficialUrls', () => {
 
 describe('formatVerifiedDate', () => {
   it('確認日を意味が分かる表記にする', () => {
-    assert.equal(formatVerifiedDate('2026-07-13'), '公式出典を2026-07-13に確認');
+    assert.equal(formatVerifiedDate('2026-07-13'), '自動照合日：2026-07-13');
   });
 
   it('確認日がない場合は未登録と明示する', () => {
-    assert.equal(formatVerifiedDate(undefined), '確認日 未登録');
+    assert.equal(formatVerifiedDate(undefined), '自動照合日：未登録');
   });
 });

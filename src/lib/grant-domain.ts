@@ -9,6 +9,7 @@ import type {
   SupportType,
   VerificationMethod,
 } from './types';
+import { containsInternalAuditText, sanitizePublicGrantText } from './grant-presentation.ts';
 
 const CATEGORY_MAP: Record<LegacyGrantCategory, GrantCategory> = {
   childcare: 'childcare',
@@ -128,8 +129,20 @@ export function normalizeGrant(input: LegacyGrant): NormalizedGrant {
   const audiences = inferAudiences(input);
   const purposes = inferPurposes(input);
   const hasOfficialSource = hasValidOfficialUrl(input.officialUrl);
+  const hasInternalPublicCopy = [
+    input.description,
+    input.eligibility,
+    ...input.sections.flatMap((section) => [section.heading, section.content]),
+  ].some(containsInternalAuditText);
   const contentStatus: ContentStatus = input.contentStatus
-    ?? (hasOfficialSource ? 'published' : 'unverified');
+    ?? (!hasOfficialSource ? 'unverified' : hasInternalPublicCopy ? 'needsReview' : 'published');
+  const sections = input.sections
+    .filter((section) => !containsInternalAuditText(section.heading))
+    .map((section) => ({
+      ...section,
+      content: sanitizePublicGrantText(section.content),
+    }))
+    .filter((section) => section.content.length > 0);
 
   return {
     ...input,
@@ -145,6 +158,9 @@ export function normalizeGrant(input: LegacyGrant): NormalizedGrant {
     country: '日本',
     municipality: input.municipality ?? null,
     maxAmountNum: input.maxAmountNum ?? 0,
+    eligibility: sanitizePublicGrantText(input.eligibility),
+    description: sanitizePublicGrantText(input.description),
+    sections,
     category,
     relatedCategories,
     applicationPeriod: input.applicationPeriod ?? '',

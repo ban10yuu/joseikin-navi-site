@@ -19,6 +19,7 @@ export interface GrantCardItem {
   officialUrl: string;
   sourceUrls?: string[];
   verifiedAt?: string;
+  humanReviewedAt?: string | null;
   searchText?: string;
   status?: GrantStatus;
   statusOverride?: GrantStatus;
@@ -83,8 +84,8 @@ export default function GrantCard({ grant }: { grant: GrantCardItem }) {
       )}
 
       <div className="grant-card-footer">
-        <span className={sourceStatus.level === 'verified' ? 'is-verified' : ''}>
-          {grant.verifiedAt ? `公式出典を${grant.verifiedAt}に確認` : sourceStatus.label}
+        <span className={sourceStatus.level === 'human' ? 'is-verified' : ''}>
+          {grant.verifiedAt ? `自動照合日：${grant.verifiedAt}` : sourceStatus.label}
         </span>
         <span className="grant-card-link">詳しく見る <span aria-hidden="true">→</span></span>
       </div>

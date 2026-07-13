@@ -1164,6 +1164,7 @@ body {
   border-left: 5px solid #047857;
 }
 
+.grant-source-panel.is-automated,
 .grant-source-panel.is-linked {
   border-left-color: #2557a7;
 }
@@ -1206,14 +1207,16 @@ body {
 }
 
 .grant-source-description,
-.grant-source-name {
+.grant-source-name,
+.grant-source-human {
   margin-top: 0.75rem;
   color: #475569;
   font-size: 0.8125rem;
   line-height: 1.75;
 }
 
-.grant-source-name span {
+.grant-source-name span,
+.grant-source-human span {
   margin-right: 0.5rem;
   color: #111827;
   font-weight: 800;
