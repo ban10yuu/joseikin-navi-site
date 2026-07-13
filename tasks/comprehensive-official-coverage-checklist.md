@@ -5044,6 +5044,31 @@
   - 次:
     - 福島県第2巡010として、07465中島村、07466矢吹町、07481棚倉町、07482矢祭町の保留候補を確認する。
 
+- 福島県公式棚卸し第2巡010（中島村・矢吹町・棚倉町・矢祭町）
+  - 対象: 07465中島村、07466矢吹町、07481棚倉町、07482矢祭町。
+  - 方法:
+    - 第1巡010の保留候補、既存採用URL、`fukushima-official-coverage-010-official-extra.json`、カテゴリ・一覧・複数制度ページを再確認した。
+    - 既掲載 `officialUrl` を除外し、公式本文を再取得して `tasks/discovery/fukushima-second-pass-010-shortlist.json` 16件、`tasks/discovery/fukushima-second-pass-010-page-evidence.json` 11件、`tasks/discovery/fukushima-second-pass-010-adopted.json` を作成した。
+    - title/h1/main/article/URLの制度強語に加え、対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別制度を採用し、通園サービス案内、国制度・通常減免、求人、計画、カテゴリ、旧年度候補は第2巡継続台帳へ残した。
+  - 追加:
+    - 中島村: 地方就職学生支援事業、移住・定住支援事業、生殖補助医療交通費支援事業、不妊治療費等助成事業。
+    - 矢吹町: 子育てサークル活動支援補助金、奨学金制度、保育士等就職準備金貸付、保育士宿舎借り上げ支援。
+    - 棚倉町: 令和7年9月例月分水道料減額、ひとり親家庭高等職業訓練促進事業補助金、ひとり親家庭自立支援教育訓練事業補助金。
+    - 矢祭町: 学校給食完全無償化。
+  - 保留継続:
+    - 中島村の児童手当・旧臨時給付金等は国制度または旧年度給付金が中心で、現行村独自差分は未確認。
+    - 矢吹町の後期高齢者医療保険料・軽自動車税減免等は通常税/保険料制度または個別減免で、自治体独自の補助金・助成金ページとしての差分が不足。
+    - 棚倉町のこども誰でも通園制度は利用料300円/時と減免表現はあるが、給付型制度としての金額差分ではないため継続確認。
+    - 棚倉町・矢祭町の水道/介護/カテゴリ/求人/計画ページ等は、カテゴリ、求人、制度一覧、通常行政サービス、計画/交付金説明、または金額・対象・受付状況不足として継続確認。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 12件、重複確認 pass（duplicateOrMissing 0）。
+    - 追加した12制度11公式URLの到達確認 pass（12件すべて HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9431、officialLinkedActive 9393、manuallyVerifiedActive 9393、福島県 localOfficial 909、coveredCategories 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-second-pass-010-shortlist.json tasks/discovery/fukushima-second-pass-010-page-evidence.json tasks/discovery/fukushima-second-pass-010-adopted.json`: pass。
+  - 次:
+    - 福島県第2巡011として、07483塙町、07484鮫川村、07501石川町、07502玉川村の保留候補を確認する。
+
 - 宮城県公式棚卸し009（美里町・女川町・南三陸町）
   - 対象: 04505美里町、04581女川町、04606南三陸町。
   - 方法:

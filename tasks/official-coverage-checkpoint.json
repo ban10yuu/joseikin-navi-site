@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T13:59:21+09:00",
+  "updatedAt": "2026-07-13T14:08:21+09:00",
   "mode": "fukushima-second-pass-official-coverage",
   "lastCompleted": {
-    "code": "fukushima-second-pass-official-coverage-009",
-    "municipality": "昭和村・会津美里町・西郷村・泉崎村",
-    "adopted": 3,
+    "code": "fukushima-second-pass-official-coverage-010",
+    "municipality": "中島村・矢吹町・棚倉町・矢祭町",
+    "adopted": 12,
     "held": 4,
     "excluded": 0,
-    "sourceUrlsChecked": 5,
+    "sourceUrlsChecked": 11,
     "validation": {
-      "previousMunicipality": "福島県第2巡009として、07446昭和村、07447会津美里町、07461西郷村、07464泉崎村を対象に、第1巡009の保留候補、既存候補JSON、公式本文、カテゴリ、旧URL候補を再確認した。公式本文証跡5件、shortlist 7件を作成し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる3制度を採用した。既掲載同一制度、国制度、旧災害復旧候補、カテゴリ/一覧/差分不明候補は第2巡継続台帳へ残した。",
+      "previousMunicipality": "福島県第2巡010として、07465中島村、07466矢吹町、07481棚倉町、07482矢祭町を対象に、第1巡010の保留候補、既存候補JSON、公式本文、カテゴリ、複数制度ページを再確認した。公式本文証跡11件、shortlist 16件を作成し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる12制度を採用した。国制度、通常減免、通園サービス案内、求人、計画、カテゴリ、旧年度候補は第2巡継続台帳へ残した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: added 3 slugs, duplicateOrMissing 0",
-      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 3 added slugs / 3 source URLs, failures 0, all HTTP 200",
-      "diffCheck": "pass: git diff --check for Fukushima second-pass 009 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9419, officialLinkedActive 9381, manuallyVerifiedActive 9381, Fukushima localOfficial 897, Fukushima coveredCategories 8"
+      "addedSlugUniqueness": "pass: added 12 slugs, duplicateOrMissing 0",
+      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 12 added slugs / 11 source URLs, failures 0, all HTTP 200",
+      "diffCheck": "pass: git diff --check for Fukushima second-pass 010 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9431, officialLinkedActive 9393, manuallyVerifiedActive 9393, Fukushima localOfficial 909, Fukushima coveredCategories 8"
     }
   },
   "next": {
-    "code": "fukushima-second-pass-official-coverage-010",
-    "municipality": "中島村・矢吹町・棚倉町・矢祭町",
-    "shortlist": "福島県第2巡009で昭和村・泉崎村の保留候補から3制度を追加した。昭和村のカテゴリ/健康子育て/高齢者/就農/プロポーザル等、会津美里町のカテゴリ/重複/国制度/制度単位分離困難ページ、西郷村のカテゴリ/重複/計画/プロポーザル/県制度/求人、泉崎村の同一制度別ページ・国制度・旧災害復旧・検索/一覧/PDF旧候補は継続台帳に残した。次は第1巡010の保留候補を自治体コード順に確認する。",
-    "instructions": "福島県第2巡010として、07465中島村、07466矢吹町、07481棚倉町、07482矢祭町の第1巡保留候補、カテゴリ、一覧、PDF、金額未掲載候補、外部制度案内、旧制度候補を公式本文/PDF単位で再確認し、制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。既存raw gap 0や第1巡末尾到達を全国完了扱いしない。"
+    "code": "fukushima-second-pass-official-coverage-011",
+    "municipality": "塙町・鮫川村・石川町・玉川村",
+    "shortlist": "福島県第2巡010で中島村・矢吹町・棚倉町・矢祭町の保留候補から12制度を追加した。中島村の国制度/旧年度給付、矢吹町の通常税・保険料減免、棚倉町の通園サービス案内・カテゴリ・計画、矢祭町の通常行政サービスや制度単位差分不足候補は継続台帳に残した。次は第1巡011の保留候補を自治体コード順に確認する。",
+    "instructions": "福島県第2巡011として、07483塙町、07484鮫川村、07501石川町、07502玉川村の第1巡保留候補、カテゴリ、一覧、PDF、金額未掲載候補、外部制度案内、旧制度候補を公式本文/PDF単位で再確認し、制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。既存raw gap 0や第1巡末尾到達を全国完了扱いしない。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
