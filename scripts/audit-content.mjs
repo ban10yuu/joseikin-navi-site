@@ -21,6 +21,7 @@ require.extensions['.ts'] = function compileTypeScript(module, filename) {
 
 const { getAllGrantsUnfiltered, hasOfficialSource, isGrantExpired, isManuallyVerifiedGrant } = require('../src/lib/grants.ts');
 const { containsInternalAuditText } = require('../src/lib/grant-presentation.ts');
+const { getValidOfficialSourceUrls } = require('../src/lib/grant-source.ts');
 const { isRepayableSupport } = require('../src/lib/grant-status.ts');
 
 const grants = getAllGrantsUnfiltered();
@@ -51,7 +52,10 @@ for (const grant of grants) {
   if (!grant.description?.trim()) addIssue('warning', 'DESCRIPTION_MISSING', grant, '概要がなく、メタ説明と本文の整合を確認できません。');
 
   titleMap.set(grant.title, [...(titleMap.get(grant.title) ?? []), grant.slug]);
-  if (hasOfficialSource(grant)) urlMap.set(grant.officialUrl, [...(urlMap.get(grant.officialUrl) ?? []), grant.slug]);
+  const primaryOfficialUrl = getValidOfficialSourceUrls(grant)[0];
+  if (primaryOfficialUrl) {
+    urlMap.set(primaryOfficialUrl, [...(urlMap.get(primaryOfficialUrl) ?? []), grant.slug]);
+  }
   const normalizedBody = `${grant.description}|${grant.eligibility}`.replace(/\s+/g, ' ').trim();
   if (normalizedBody) bodyMap.set(normalizedBody, [...(bodyMap.get(normalizedBody) ?? []), grant.slug]);
 }

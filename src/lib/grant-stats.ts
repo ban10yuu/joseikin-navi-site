@@ -1,4 +1,5 @@
 import type { GrantCategory, Purpose } from './types.ts';
+import { hasOfficialSource } from './grant-source.ts';
 
 const CATEGORIES: GrantCategory[] = [
   'childcare', 'housing', 'medical', 'education',
@@ -10,22 +11,11 @@ interface StatsGrantLike {
   relatedCategories?: GrantCategory[];
   purposes?: Purpose[];
   officialUrl: string;
-}
-
-function hasHttpUrl(value: string): boolean {
-  try {
-    const url = new URL(value);
-    const hostname = url.hostname.replace(/^www\./, '');
-    return (url.protocol === 'https:' || url.protocol === 'http:')
-      && hostname !== 'example.com'
-      && hostname !== 'localhost';
-  } catch {
-    return false;
-  }
+  sourceUrls?: string[];
 }
 
 export function calculateGrantStats(grants: StatsGrantLike[]) {
-  const officialGrants = grants.filter((grant) => hasHttpUrl(grant.officialUrl));
+  const officialGrants = grants.filter(hasOfficialSource);
   const categoryCounts = Object.fromEntries(
     CATEGORIES.map((category) => [
       category,

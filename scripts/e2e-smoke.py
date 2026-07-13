@@ -68,6 +68,11 @@ with sync_playwright() as playwright:
     check(bool(unverified.locator('.grant-mobile-cta a').get_attribute('href')), '補助出典URLだけの制度で固定CTAが空リンクになっています')
     unverified.close()
 
+    unavailable, _ = open_page(browser, '/grant/ogaki-tradition-craft/', 390, 844)
+    check('noindex' in (unavailable.locator('meta[name="robots"]').get_attribute('content') or ''), '存在未確認制度がnoindexではありません')
+    check(unavailable.locator('.grant-source-links a, .grant-mobile-cta a').count() == 0, '存在未確認制度に調査用URLのCTAが表示されています')
+    unavailable.close()
+
     redirect, _ = open_page(browser, '/grant/kushiro-elderly-taxi/', 1280, 900)
     check('/grant/kushiro-elderly-outing-bus/' in redirect.url, '釧路市の旧URLが新URLへ転送されません')
     redirect.close()

@@ -84,6 +84,22 @@ describe('normalizeGrant', () => {
     assert.equal(result.sourceUrl, 'https://www.city.example.jp/support.pdf');
   });
 
+  it('制度の存在を確認できない調査資料は公式確認先として公開しない', () => {
+    const result = normalizeGrant({
+      ...baseGrant,
+      title: '例示市 伝統工芸助成金（公式現行制度として確認不可）',
+      officialUrl: '',
+      sourceUrls: ['https://www.city.example.jp/other-support'],
+      tags: ['公式確認不可', '掲載停止'],
+    });
+
+    assert.equal(result.contentStatus, 'needsReview');
+    assert.equal(result.indexStatus, 'noindex');
+    assert.equal(result.sourceUrl, null);
+    assert.equal(result.sourceUrls, undefined);
+    assert.equal(result.verificationMethod, 'unknown');
+  });
+
   it('人手確認はhumanReviewedAtが明示された場合だけ設定する', () => {
     const result = normalizeGrant({
       ...baseGrant,

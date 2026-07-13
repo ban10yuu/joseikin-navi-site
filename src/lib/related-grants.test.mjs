@@ -12,8 +12,9 @@ describe('rankRelatedGrants', () => {
     const candidates = [
       { ...current, slug: 'same', status: 'scheduled' },
       { ...current, slug: 'national', prefecture: '全国', supportType: 'allowance' },
+      { ...current, slug: 'source-only', officialUrl: '', sourceUrls: ['https://tokyo.example.jp/source-only'] },
     ];
-    assert.deepEqual(rankRelatedGrants(current, candidates).map((item) => item.slug), ['same', 'national']);
+    assert.deepEqual(rankRelatedGrants(current, candidates).map((item) => item.slug), ['same', 'source-only', 'national']);
   });
 
   it('他県・別対象・別目的・公式リンクなし・終了制度を除外する', () => {

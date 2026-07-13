@@ -1,19 +1,19 @@
 {
   "summary": {
-    "generatedAt": "2026-07-13T05:58:02.348Z",
+    "generatedAt": "2026-07-13T06:06:42.910Z",
     "total": 10172,
-    "officialUrl": 10133,
-    "automated": 10170,
+    "officialUrl": 9754,
+    "automated": 9791,
     "humanReviewed": 0,
-    "noindex": 2517,
+    "noindex": 2608,
     "expired": 794,
-    "duplicates": 870,
-    "needsReview": 2478,
+    "duplicates": 777,
+    "needsReview": 2569,
     "loans": 318,
     "affiliateEligible": 0,
     "affiliateBlocked": 10172,
     "critical": 0,
-    "warnings": 2200
+    "warnings": 2486
   },
   "issues": [
     {
@@ -25,6 +25,20 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "setagaya-nursing-home-reform",
+      "title": "世田谷区 地域介護・福祉空間整備等施設整備交付金（令和8年度協議受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "suginami-nursing-home-reform",
+      "title": "杉並区 認知症高齢者グループホーム整備（令和8年度新規指定なし）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "suginami-nursing-home-reform",
       "title": "杉並区 認知症高齢者グループホーム整備（令和8年度新規指定なし）",
@@ -32,10 +46,241 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "hachioji-scholarship-repayment",
+      "title": "八王子市 定住促進奨学金返還支援事業（令和7年度受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "shibuya-sme-support",
+      "title": "渋谷区 中小企業デジタル化支援助成金（公式助成確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "katsushika-housing-purchase",
+      "title": "葛飾区 二世代・三世代住宅取得費助成モデル事業（新規受付廃止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "ota-newlywed-rent",
+      "title": "大田区 新婚世帯家賃助成制度（公式助成確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "edogawa-newlywed-rent",
+      "title": "江戸川区 新婚世帯家賃補助制度（公式助成確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "musashino-scholarship",
+      "title": "武蔵野市 高等学校等修学給付金（令和7年度受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "chuo-scholarship",
+      "title": "中央区 奨学資金制度（公式助成確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "sumida-small-business-support",
+      "title": "墨田区 工作機器等導入支援（令和7年度受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "adachi-startup-support",
+      "title": "足立区 創業プランコンテスト（令和8年度受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "chuo-women-startup",
+      "title": "中央区 女性起業家支援補助金（公式助成確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "minato-study-abroad",
+      "title": "港区 海外留学支援奨学金（公式助成確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "bunkyo-housing-purchase",
+      "title": "文京区 ファミリー世帯住宅取得支援制度（公式助成確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "koto-housing-purchase",
+      "title": "江東区 子育て世帯住宅取得支援制度（公式助成確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "meguro-housing-purchase",
+      "title": "目黒区 子育て世帯住宅取得支援制度（公式助成確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "ota-birth-bonus",
+      "title": "大田区 妊婦のための支援給付（既存slugに統合）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "ota-birth-bonus",
       "title": "大田区 妊婦のための支援給付（既存slugに統合）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "shibuya-women-startup",
+      "title": "渋谷区 女性創業支援助成金（公式助成確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "edogawa-housing-purchase",
+      "title": "江戸川区 住宅取得支援助成金（公式助成確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "machida-startup-support",
+      "title": "町田市 新商品・新サービス開発事業補助金（令和8年度受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "koto-newlywed-rent",
+      "title": "江東区 新婚世帯家賃助成制度（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "shinjuku-housing-purchase",
+      "title": "新宿区 民間賃貸住宅家賃助成（令和7年度募集終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "shinjuku-childcare-subsidy",
+      "title": "新宿区 低所得者支援及び定額減税補足給付金（不足額給付）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "suginami-scholarship",
+      "title": "杉並区 中学生海外留学事業（次世代育成基金活用）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "setagaya-energy-support",
+      "title": "世田谷区 住民税非課税世帯等への物価高騰生活支援給付金（受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "setagaya-infertility",
+      "title": "世田谷区 特定不妊治療費助成制度（受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "adachi-newlywed-rent",
+      "title": "足立区 新婚世帯住居費助成制度（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "adachi-childcare-subsidy",
+      "title": "足立区 物価高対応子育て応援手当（受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "nakano-newlywed-rent",
+      "title": "中野区 新婚世帯住居費助成制度（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "machida-juutaku-reform",
+      "title": "町田市 住宅バリアフリー化改修工事助成金（制度廃止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "machida-newlywed-rent",
+      "title": "町田市 結婚新生活支援事業補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "higashiyamato-housing-eco",
+      "title": "東大和市 住宅の省エネ改修工事に伴う固定資産税減額（対象工事期間終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "hachioji-housing-purchase",
+      "title": "八王子市 親元近居・同居住宅取得支援補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "musashino-newlywed-rent",
+      "title": "武蔵野市 新婚・子育て世帯家賃助成制度（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "bunkyo-newlywed-rent",
+      "title": "文京区 新婚世帯家賃助成制度（公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -60,10 +305,31 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "taito-senior-meal-service",
+      "title": "台東区 高齢者配食サービス事業（重複候補）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "taito-senior-meal-service",
       "title": "台東区 高齢者配食サービス事業（重複候補）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "katsushika-afterschool",
+      "title": "葛飾区 放課後子ども事業（わくわくチャレンジ広場・助成金ではないため掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "katsushika-birth-bonus",
+      "title": "葛飾区 妊婦支援給付金給付事業（既存slugへ集約）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -74,6 +340,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "edogawa-birth-bonus",
+      "title": "江戸川区 妊婦のための支援給付事業（既存slugへ集約）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "edogawa-birth-bonus",
       "title": "江戸川区 妊婦のための支援給付事業（既存slugへ集約）",
@@ -81,10 +354,31 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "edogawa-childcare-subsidy",
+      "title": "江戸川区 物価高対応子育て応援手当（受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "koto-scholarship",
+      "title": "江東区奨学資金",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "katsushika-migration-bonus",
       "title": "葛飾区 ファミリー世帯定住促進支援金（公式確認不可）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "katsushika-migration-bonus",
+      "title": "葛飾区 ファミリー世帯定住促進支援金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -95,10 +389,101 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "minato-childcare-subsidy",
+      "title": "港区 物価高対応子育て応援手当",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "arakawa-daycare-support",
+      "title": "荒川区 施設等利用費及び認証保育所等保育料補助金（令和7年度後期）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "arakawa-energy-support",
+      "title": "荒川区 令和8年度エコ助成事業（省エネエアコン・省エネ冷蔵庫）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "kokubunji-energy-support",
       "title": "国分寺市 省エネ家電等買換え応援キャンペーン（受付終了）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kokubunji-infertility",
+      "title": "国分寺市 特定不妊治療費助成金（市独自助成は現行確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kokubunji-seismic-diagnosis",
+      "title": "国分寺市 木造住宅の耐震診断士派遣事業（既存耐震助成へ集約済み）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kokubunji-telework-bonus",
+      "title": "国分寺市 テレワーク推進補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "komae-childcare-subsidy",
+      "title": "狛江市 認証保育所等入所児童保護者負担軽減補助金（令和7年度後期）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "komae-energy-support",
+      "title": "狛江市 省エネ家電買替え補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "mitaka-infertility",
+      "title": "三鷹市 不妊症・不育症に関する相談・東京都助成案内",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "shibuya-it-education",
+      "title": "渋谷区 プログラミング教育支援助成（公式助成確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "shibuya-migration-bonus",
+      "title": "渋谷区 移住・定住応援給付金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "koganei-infertility",
+      "title": "小金井市 不妊検査・不妊治療・不育症検査の東京都助成案内",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "nakano-study-abroad",
+      "title": "中野区 青少年海外派遣・留学支援事業（公式助成確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -116,6 +501,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "machida-elderly-taxi",
+      "title": "町田市 高齢者タクシー利用助成（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "machida-elderly-taxi",
       "title": "町田市 高齢者タクシー利用助成（公式確認不可）",
@@ -127,6 +519,13 @@
       "slug": "machida-energy-support",
       "title": "町田市 家庭用燃料電池システム（エネファーム）奨励金",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "machida-telework-bonus",
+      "title": "町田市 テレワーク導入推進補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -144,10 +543,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "higashimurayama-afterschool",
+      "title": "東村山市 放課後子ども教室（助成金非該当）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "higashimurayama-birth-bonus",
       "title": "東村山市 国民健康保険 出産育児一時金",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "higashimurayama-energy-support",
+      "title": "東村山市 低所得世帯等エアコン新規設置等費用助成事業（受付停止）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -158,10 +571,31 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "higashimurayama-infertility",
+      "title": "東村山市 不妊治療費助成制度（東京都制度に統合）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "higashimurayama-infertility",
       "title": "東村山市 不妊治療費助成制度（東京都制度に統合）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "higashimurayama-telework-bonus",
+      "title": "東村山市 テレワーク推進補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "higashiyamato-afterschool",
+      "title": "東大和市 放課後子ども教室（助成金非該当）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -179,6 +613,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "higashiyamato-telework-bonus",
+      "title": "東大和市 テレワーク推進補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "hino-startup-support",
       "title": "日野市 中小企業事業資金融資あっせん制度（創業資金）",
@@ -193,10 +634,94 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "hachioji-scholarship",
+      "title": "八王子市 奨学金制度（高等学校等・令和8年度受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "hachioji-senior-medical",
+      "title": "八王子市 高齢者インフルエンザ予防接種費用助成（令和7年度終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "itabashi-women-startup",
       "title": "板橋区 女性起業支援助成金（公式助成金確認不可）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "itabashi-women-startup",
+      "title": "板橋区 女性起業支援助成金（公式助成金確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "shinagawa-scholarship",
+      "title": "品川区 給付型大学奨学金（令和7年度募集終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "shinagawa-study-support",
+      "title": "品川区 フリースクール等利用料助成金（令和7年度受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "musashino-youth-employment",
+      "title": "武蔵野市 若者キャリアアップ支援金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "bunkyo-scholarship",
+      "title": "文京区 奨学資金（高等学校等）の給付（令和8年度受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "toshima-infertility",
+      "title": "豊島区 特定不妊治療費助成（終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kita-birth-bonus",
+      "title": "北区 出産・子育て応援事業（妊婦支援給付へ統合）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "sumida-birth-bonus",
+      "title": "墨田区 出産・子育て応援給付金（妊婦のための支援給付へ統合）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "sumida-infertility",
+      "title": "墨田区 不妊治療等への助成（東京都制度案内）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "meguro-birth-bonus",
+      "title": "目黒区 出産・子育て応援給付金（妊婦のための支援給付へ統合）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -207,10 +732,38 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tachikawa-compost-subsidy",
+      "title": "立川市 生ごみ処理機器等購入費補助金（令和8年度受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tachikawa-youth-employment",
+      "title": "立川市 若者就労定着支援金（公式給付確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "nerima-birth-bonus",
+      "title": "練馬区 第3子以降出産祝金（第3子誕生祝金へ統合）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "nerima-education-scholarship",
       "title": "練馬区 受験生チャレンジ支援貸付事業",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "nerima-housing-eco",
+      "title": "練馬区 住宅省エネ改修助成制度（カーボンニュートラル化設備設置補助金へ統合）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -235,10 +788,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "nagano-city-nursing-equipment",
+      "title": "長野市 在宅介護用品支給事業（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "iida-snow-removal-aid",
       "title": "飯田市 要援護世帯除雪費助成（公式確認不可）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "iida-snow-removal-aid",
+      "title": "飯田市 要援護世帯除雪費助成（公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -249,10 +816,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "iida-study-abroad-support",
+      "title": "飯田市 高校生海外留学支援金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "sakaiminato-water-saving",
       "title": "境港市 雨水タンク設置補助金（公式確認不可）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "sakaiminato-water-saving",
+      "title": "境港市 雨水タンク設置補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -263,10 +844,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kotoura-water-saving",
+      "title": "琴浦町 雨水タンク設置補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "kotoura-school-lunch-subsidy",
       "title": "琴浦町 学校給食費補助制度（公式確認不可）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kotoura-school-lunch-subsidy",
+      "title": "琴浦町 学校給食費補助制度（公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -278,8 +873,29 @@
     {
       "severity": "warning",
       "code": "MISSING_OFFICIAL_URL",
+      "slug": "yonago-water-saving",
+      "title": "米子市 雨水タンク設置補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
       "slug": "omuta-housing-reform",
       "title": "大牟田市 空き家活用リフォーム等支援事業",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kawagoe-scholarship-repayment",
+      "title": "川越市 大学奨学金（重複候補・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "urayasu-afterschool-care",
+      "title": "浦安市 児童育成クラブ保護者負担金減免制度（公式確認不可）",
       "message": "有効な公式URLがありません。"
     },
     {
@@ -298,10 +914,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "urayasu-eco-reform",
+      "title": "浦安市 省エネ住宅改修助成金（重複掲載抑止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "urayasu-eco-reform",
       "title": "浦安市 省エネ住宅改修助成金（重複掲載抑止）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "urayasu-led-subsidy",
+      "title": "浦安市 LED照明導入補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -312,10 +942,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "urayasu-newlywed-rent",
+      "title": "浦安市 新婚世帯家賃補助制度（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "urayasu-newlywed-rent",
       "title": "浦安市 新婚世帯家賃補助制度（公式確認不可）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "matsudo-flood-prevention",
+      "title": "松戸市 浸水対策設備設置補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -333,6 +977,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "koshigaya-bousai-equipment",
+      "title": "越谷市 家庭用防災設備購入助成制度（公式助成確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "koshigaya-bousai-equipment",
       "title": "越谷市 家庭用防災設備購入助成制度（公式助成確認不可）",
@@ -347,10 +998,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "saitama-vacant-house",
+      "title": "さいたま市 空き家活用リフォーム補助金（公式補助確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "asaka-childcare-subsidy",
       "title": "朝霞市 子育て支援助成金（公式助成確認不可）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "asaka-childcare-subsidy",
+      "title": "朝霞市 子育て支援助成金（公式助成確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -361,6 +1026,20 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "noda-housing-purchase",
+      "title": "野田市 住宅取得補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "noda-scholarship",
+      "title": "野田市 奨学金返還支援金支給事業（令和7年度受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "yotsukaido-newlywed-rent",
       "title": "四街道市 結婚新生活支援補助金（重複掲載抑止）",
@@ -368,10 +1047,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "honjo-migration-bonus",
+      "title": "本庄市移住就業等支援金（重複掲載抑止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "honjo-migration-bonus",
       "title": "本庄市移住就業等支援金（重複掲載抑止）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "saitama-women-startup",
+      "title": "さいたま市 女性起業支援補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -389,10 +1082,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "saitama-nursing-home-reform",
+      "title": "さいたま市 介護施設等整備補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "saitama-nursing-home-reform",
       "title": "さいたま市 介護施設等整備補助金（公式確認不可）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "saitama-migration-bonus",
+      "title": "さいたま市 移住・定住促進支援金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -410,6 +1117,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "saitama-child-support",
+      "title": "埼玉県多子世帯応援クーポン事業（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "saitama-child-support",
       "title": "埼玉県多子世帯応援クーポン事業（公式確認不可）",
@@ -424,6 +1138,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "saitama-housing-eco",
+      "title": "埼玉県住宅用省エネ設備導入補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "saitama-housing-eco",
       "title": "埼玉県住宅用省エネ設備導入補助金（公式確認不可）",
@@ -438,6 +1159,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "saitama-senior-welfare",
+      "title": "埼玉県高齢者在宅生活支援事業（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "saitama-senior-welfare",
       "title": "埼玉県高齢者在宅生活支援事業（公式確認不可）",
@@ -452,6 +1180,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "koshigaya-newlywed-rent",
+      "title": "越谷市 結婚新生活支援事業補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "koshigaya-newlywed-rent",
       "title": "越谷市 結婚新生活支援事業補助金（公式確認不可）",
@@ -466,6 +1201,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "koshigaya-telework-bonus",
+      "title": "越谷市 テレワーク環境整備補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "koshigaya-telework-bonus",
       "title": "越谷市 テレワーク環境整備補助金（公式確認不可）",
@@ -480,6 +1222,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kawaguchi-sme-support-v2",
+      "title": "川口市 中小企業経営革新補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "kawaguchi-sme-support-v2",
       "title": "川口市 中小企業経営革新補助金（公式確認不可）",
@@ -487,10 +1236,52 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "yokosuka-nursing-home-reform",
+      "title": "横須賀市 高齢者住宅リフォーム補助金（令和8年度受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "ebina-scholarship",
+      "title": "令和8年度 海老名市奨学生募集（受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "chigasaki-migration-support",
+      "title": "茅ヶ崎市 移住定住促進助成金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "fujisawa-housing-purchase",
+      "title": "藤沢市 勤労者住宅資金利子補助制度（新規申請受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "yokohama-telework-bonus",
+      "title": "横浜市 テレワーク推進助成金（現行市補助として公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "kawasaki-newlywed-rent",
       "title": "川崎市 結婚新生活支援事業補助金（実施なし）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kawasaki-newlywed-rent",
+      "title": "川崎市 結婚新生活支援事業補助金（実施なし）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -501,10 +1292,115 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "zushi-birth-bonus",
+      "title": "逗子市 物価高対応子育て応援手当（受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "sagamihara-migration-support",
+      "title": "相模原市 移住・定住促進補助金",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kawasaki-migration-bonus",
+      "title": "川崎市 移住支援金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kawasaki-uij-turn",
+      "title": "川崎市 UIJターン就職支援補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "yokosuka-telework-bonus",
+      "title": "横須賀市 テレワーク拠点設置支援補助金（2023年度終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kanagawa-startup-women",
+      "title": "神奈川県女性起業家支援助成金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kanagawa-barrier-free",
+      "title": "神奈川県バリアフリー住宅改修助成（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kanagawa-disaster-block-wall",
+      "title": "神奈川県ブロック塀等撤去・改善補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "ebina-migration-bonus",
+      "title": "海老名市 移住支援金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "zama-infertility",
+      "title": "座間市 不妊治療費助成（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "zama-migration-bonus",
+      "title": "座間市 移住支援金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "miura-migration-bonus",
       "title": "三浦市 移住支援金（公式確認不可）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "miura-migration-bonus",
+      "title": "三浦市 移住支援金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "zushi-migration-bonus",
+      "title": "逗子市 移住支援金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "asahikawa-block-wall-removal",
+      "title": "旭川市 ブロック塀等撤去補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "asahikawa-bousai-equipment",
+      "title": "旭川市 防災設備設置補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -522,6 +1418,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "asahikawa-newlywed-rent",
+      "title": "旭川市 結婚新生活支援事業（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "asahikawa-school-lunch-subsidy",
       "title": "旭川市 学校給食費補助制度（就学援助へ統合）",
@@ -536,10 +1439,31 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "asahikawa-telework-bonus",
+      "title": "旭川市 テレワーク導入支援補助金（現行市補助は公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kushiro-child-medical-aid",
+      "title": "釧路市 こども医療費助成（重複掲載抑止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "kushiro-child-medical-aid",
       "title": "釧路市 こども医療費助成（重複掲載抑止）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kushiro-senior-medical",
+      "title": "釧路市 重度心身障がい者医療費助成（重複掲載抑止）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -550,10 +1474,66 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kushiro-school-lunch-subsidy",
+      "title": "釧路市 学校給食費補助制度（就学援助へ統合）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kushiro-juutaku-reform",
+      "title": "釧路市 住宅リフォーム助成金（住宅エコリフォームへ統合）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kushiro-energy-support",
+      "title": "釧路市ecoライフ促進支援補助金制度（令和7年度終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kushiro-newlywed-rent",
+      "title": "釧路市 結婚新生活支援補助金（現行公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kushiro-water-saving",
+      "title": "釧路市 雨水タンク設置補助金（現行公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kushiro-block-wall-removal",
+      "title": "釧路市 ブロック塀等撤去補助金（現行公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kushiro-bousai-equipment",
+      "title": "釧路市 住宅用防災設備設置補助金（現行公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "ebetsu-birth-bonus",
       "title": "江別市 えべつ☆うえるかむ赤ちゃん事業（妊婦のための支援給付）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "ebetsu-housing-purchase",
+      "title": "江別市 住宅取得支援補助金（現行公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -568,6 +1548,13 @@
       "slug": "sapporo-elderly-support",
       "title": "札幌市 福祉除雪事業",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "sapporo-housing-eco-reform",
+      "title": "札幌市 住宅エコリフォーム補助金（既存制度へ統合）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -592,6 +1579,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "otaru-telework-bonus",
+      "title": "小樽市 移住支援金（テレワーク移住含む・重複統合）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "otaru-energy-support",
       "title": "小樽市 令和8年度 高圧電気料金高騰対策支援金",
@@ -603,6 +1597,20 @@
       "slug": "otaru-bousai-equipment",
       "title": "小樽市 防災備蓄啓発（補助制度確認不可）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "otaru-child-medical-aid",
+      "title": "小樽市 こども医療費助成制度（既存制度へ統合）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "otaru-juutaku-reform",
+      "title": "小樽市 住宅エコリフォーム助成制度（重複統合）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -620,10 +1628,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "otaru-water-saving",
+      "title": "小樽市 住宅エコリフォーム助成制度（節水型トイレ等・重複統合）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "otaru-block-wall-removal",
       "title": "小樽市 既設ブロック塀等の安全点検（補助制度確認不可）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "otaru-school-lunch-subsidy",
+      "title": "小樽市 就学援助制度（給食費・重複統合）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -662,6 +1684,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "obihiro-child-medical-aid",
+      "title": "帯広市 子ども医療費助成制度（重複候補補正）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "obihiro-childcare-subsidy",
       "title": "帯広市 幼児教育・保育の無償化",
@@ -683,6 +1712,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "obihiro-housing-purchase",
+      "title": "帯広市 住まいの総合支援事業（住宅取得補助候補補正）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "obihiro-sme-support",
       "title": "帯広市 中小企業向け補助金・助成制度案内",
@@ -690,10 +1726,38 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "obihiro-block-wall-removal",
+      "title": "帯広市 建築物及びブロック塀の注意喚起（撤去補助確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "obihiro-water-saving",
+      "title": "帯広市 雨水タンク設置補助金（現行公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tomakomai-block-wall-removal",
+      "title": "苫小牧市 ブロック塀等の安全点検（撤去補助確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "tomakomai-bousai-equipment",
       "title": "苫小牧市 初期消火で使用した消火器の補助",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tomakomai-child-medical-aid",
+      "title": "苫小牧市 子育て支援医療費助成制度（重複候補補正）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -711,6 +1775,20 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tomakomai-juutaku-reform",
+      "title": "苫小牧市 住宅耐震・リフォーム支援事業（重複候補補正）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tomakomai-newlywed-rent",
+      "title": "苫小牧市 結婚新生活支援補助金（現行公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "tomakomai-telework-bonus",
       "title": "苫小牧市 移住支援金（テレワーク要件を含む）",
@@ -718,10 +1796,87 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tomakomai-water-saving",
+      "title": "苫小牧市 雨水タンク設置補助金（現行公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "hakodate-block-wall-removal",
+      "title": "函館市 ブロック塀等の安全点検（撤去補助確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "hakodate-child-medical-aid",
+      "title": "函館市 子ども医療費助成（重複候補補正）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "hakodate-elderly-taxi",
+      "title": "函館市 高齢者タクシー利用助成（現行公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "hakodate-water-saving",
+      "title": "函館市 雨水タンク設置補助金（現行公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kitami-bousai-equipment",
+      "title": "北見市 防災設備設置補助金（現行公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kitami-newlywed-rent",
+      "title": "北見市 新婚世帯家賃補助制度（現行公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "kitami-school-lunch",
       "title": "北見市 学校給食費負担軽減・就学援助",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kitami-telework-bonus",
+      "title": "北見市 テレワーク導入支援補助金（現行公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "aichi-employment-training",
+      "title": "愛知県 職業訓練受講給付金（国制度重複のため通常一覧除外）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "ichinomiya-care-robot",
+      "title": "一宮市 令和8年度地域医療介護総合確保基金（介護施設等整備事業費補助金分・受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "ichinomiya-childcare-leave-bonus",
+      "title": "一宮市 育児休業取得奨励金（現行市民・事業者向け制度は公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -753,6 +1908,20 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "ichinomiya-newlywed-housing",
+      "title": "一宮市 結婚新生活支援補助金（現行公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "ichinomiya-scholarship",
+      "title": "一宮市 奨学金給付制度（市独自現行制度は公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "ichinomiya-scholarship",
       "title": "一宮市 奨学金給付制度（市独自現行制度は公式確認不可）",
@@ -767,10 +1936,31 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "okazaki-care-robot",
+      "title": "岡崎市 介護ロボット導入補助金（市単独現行制度は公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "okazaki-childcare-leave-bonus",
+      "title": "岡崎市 育児休業取得奨励金（現行市単独制度は公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "okazaki-childcare-leave-bonus",
       "title": "岡崎市 育児休業取得奨励金（現行市単独制度は公式確認不可）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "okazaki-community-bus",
+      "title": "岡崎市 コミュニティバス高齢者無料乗車証（現行公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -781,10 +1971,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "okazaki-elderly-support",
+      "title": "岡崎市 高齢者外出支援事業（現行公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "okazaki-elderly-support",
       "title": "岡崎市 高齢者外出支援事業（現行公式確認不可）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "okazaki-factory-iot",
+      "title": "岡崎市 中小製造業IoT導入補助金（市単独現行制度は公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -802,10 +2006,45 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "okazaki-newlywed-housing",
+      "title": "岡崎市 結婚新生活支援補助金（現行募集ページ確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kasugai-care-robot",
+      "title": "春日井市 介護ロボット導入補助金（市単独現行制度は公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kasugai-childcare-leave-bonus",
+      "title": "春日井市 育児休業取得奨励金（現行市単独制度は公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kasugai-factory-iot",
+      "title": "春日井市 中小製造業IoT導入補助金（市単独現行制度は公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "kasugai-factory-iot",
       "title": "春日井市 中小製造業IoT導入補助金（市単独現行制度は公式確認不可）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kasugai-gifted-support",
+      "title": "春日井市 子ども才能開花支援補助金（現行公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -823,10 +2062,31 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kasugai-newlywed-housing",
+      "title": "春日井市 結婚新生活支援補助金（現行公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "kasugai-newlywed-housing",
       "title": "春日井市 結婚新生活支援補助金（現行公式確認不可）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "seto-care-robot",
+      "title": "瀬戸市 介護ロボット導入補助金（市単独現行制度は公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "seto-community-bus",
+      "title": "瀬戸市 コミュニティバス高齢者無料乗車証（現行公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -837,10 +2097,31 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "seto-newlywed-housing",
+      "title": "瀬戸市 結婚新生活支援補助金（現行公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "seto-newlywed-housing",
       "title": "瀬戸市 結婚新生活支援補助金（現行公式確認不可）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "handa-care-robot",
+      "title": "半田市 介護ロボット導入補助金（市単独現行制度は公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "handa-childcare-leave-bonus",
+      "title": "半田市 育児休業取得奨励金（現行市単独制度は公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -858,6 +2139,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "handa-newlywed-housing",
+      "title": "半田市 結婚新生活支援補助金（現行公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "handa-newlywed-housing",
       "title": "半田市 結婚新生活支援補助金（現行公式確認不可）",
@@ -872,10 +2160,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "toyohashi-bousai-equipment",
+      "title": "豊橋市 家具等てんとうむし補助金2025（受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "toyohashi-care-robot",
       "title": "豊橋市 介護ロボット導入補助金（現行公式確認不可）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "toyohashi-care-robot",
+      "title": "豊橋市 介護ロボット導入補助金（現行公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -890,6 +2192,20 @@
       "slug": "toyohashi-childcare-leave-bonus",
       "title": "豊橋市 育児休業取得促進奨励金（市単独の現行公式確認不可）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "toyohashi-childcare-leave-bonus",
+      "title": "豊橋市 育児休業取得促進奨励金（市単独の現行公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "toyohashi-newlywed-rent",
+      "title": "豊橋市 結婚新生活支援事業補助金（平成28年度末終了）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -914,6 +2230,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "toyohashi-telework-bonus",
+      "title": "豊橋市 テレワーク導入支援補助金（市単独の現行公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "toyota-childcare-subsidy",
       "title": "豊田市 幼児教育・保育の無償化と保育料軽減",
@@ -932,6 +2255,13 @@
       "slug": "toyota-school-lunch",
       "title": "豊田市立学校給食費の無償化",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "toyota-sme-equipment",
+      "title": "豊田市 建設業者高度安全機械等導入促進補助金（受付短縮）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -970,10 +2300,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "nagoya-elderly-support",
+      "title": "名古屋市 高齢者生きがい活動促進事業",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "nagoya-sme-equipment-support",
       "title": "名古屋市 航空宇宙産業設備投資促進補助金",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "nagoya-women-startup",
+      "title": "名古屋市 スタートアップ企業支援補助金（令和8年度募集終了）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1026,10 +2370,31 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tsukuba-research-intern",
+      "title": "つくば市インターンシップ（受付終了・金銭給付なし）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tsukuba-twin-childcare",
+      "title": "つくば市 多胎児世帯支援給付金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "ibaraki-housing-eco",
       "title": "茨城県 住宅省エネルギー改修補助事業（県直接補助は公式確認不可）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "ibaraki-housing-eco",
+      "title": "茨城県 住宅省エネルギー改修補助事業（県直接補助は公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1040,10 +2405,38 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "koga-bousai-equipment",
+      "title": "古河市 住宅用防災設備設置補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "koga-women-startup",
       "title": "古河市 女性起業支援補助金（公式確認不可）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "koga-women-startup",
+      "title": "古河市 女性起業支援補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "mito-housing-reform",
+      "title": "水戸市安心住宅リフォーム支援補助金（令和8年度前期受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tsuchiura-birth-bonus-v2",
+      "title": "土浦市 出産祝い金（公式確認不可・妊婦支援給付金へ統合）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1054,10 +2447,38 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tsuchiura-disability-medical-v2",
+      "title": "土浦市 重度障がい者医療費助成制度（重複候補・統合済み）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tsuchiura-newlywed-rent",
+      "title": "土浦市 新婚世帯家賃補助事業（公式確認不可・結婚新生活支援へ統合）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tsuchiura-nursing-home-reform",
+      "title": "土浦市 高齢者住宅バリアフリー改修補助金（公式確認不可・介護保険住宅改修へ統合）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "tsuchiura-school-lunch-v2",
       "title": "土浦市 学校給食費補助制度（重複候補・無償化へ統合）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tsuchiura-school-lunch-v2",
+      "title": "土浦市 学校給食費補助制度（重複候補・無償化へ統合）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1068,6 +2489,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "hitachi-school-ict",
+      "title": "日立市 ICT学習環境整備補助金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "hitachi-commuter-subsidy",
       "title": "日立市 通勤費補助制度（公式確認不可・移住支援へ統合）",
@@ -1075,10 +2503,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "hitachi-commuter-subsidy",
+      "title": "日立市 通勤費補助制度（公式確認不可・移住支援へ統合）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "hitachi-manufacturing-training",
       "title": "日立市 ものづくり人材育成支援金（公式確認不可・掲載停止）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "hitachi-manufacturing-training",
+      "title": "日立市 ものづくり人材育成支援金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1096,10 +2538,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "hitachi-cliff-collapse",
+      "title": "日立市 崖崩れ対策補助金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "hitachi-cliff-collapse",
       "title": "日立市 崖崩れ対策補助金（公式確認不可・掲載停止）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "okayama-elderly-taxi",
+      "title": "岡山市 福祉タクシー（高齢者タクシー助成は公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1110,10 +2566,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kasaoka-block-wall-removal",
+      "title": "笠岡市 ブロック塀等撤去補助金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "kasaoka-scholarship-repayment",
       "title": "笠岡市 奨学金返還支援制度（公式確認不可・掲載停止）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kasaoka-scholarship-repayment",
+      "title": "笠岡市 奨学金返還支援制度（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1131,10 +2601,31 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kasaoka-water-saving",
+      "title": "笠岡市 雨水タンク設置補助金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "tamano-block-wall-removal",
       "title": "玉野市 ブロック塀等撤去補助金（公式確認不可・掲載停止）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tamano-block-wall-removal",
+      "title": "玉野市 ブロック塀等撤去補助金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tamano-scholarship-repayment",
+      "title": "玉野市 奨学金貸付制度（一部返還免除あり・令和8年度受付終了）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1145,10 +2636,59 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tamano-water-saving",
+      "title": "玉野市 雨水タンク設置補助金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kurashiki-block-wall-removal",
+      "title": "倉敷市 危険ブロック塀等安全対策補助事業（重複統合・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kurashiki-child-medical-aid",
+      "title": "倉敷市 子ども医療費助成制度（重複統合・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kurashiki-newlywed-rent",
+      "title": "倉敷市 結婚新生活支援事業（公式実施確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "kurashiki-newlywed-rent",
       "title": "倉敷市 結婚新生活支援事業（公式実施確認不可・掲載停止）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kurashiki-school-lunch-subsidy",
+      "title": "倉敷市 小学生学校給食費無償化（重複統合・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kurashiki-seismic-diagnosis",
+      "title": "倉敷市 木造住宅耐震診断補助制度（重複統合・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kurashiki-telework-bonus",
+      "title": "倉敷市 移住支援金・くらしき移住者応援補助金（重複統合・掲載停止）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1159,6 +2699,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "soja-block-wall-removal",
+      "title": "総社市 ブロック塀等撤去補助金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "tsuyama-block-wall-removal",
       "title": "津山市 ブロック塀等撤去補助金（公式確認不可・掲載停止）",
@@ -1166,6 +2713,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tsuyama-block-wall-removal",
+      "title": "津山市 ブロック塀等撤去補助金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "hanyu-migration-bonus",
       "title": "羽生市 移住支援金（公式確認不可・掲載停止）",
@@ -1173,10 +2727,31 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "hanyu-migration-bonus",
+      "title": "羽生市 移住支援金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "hanyu-migration-bonus",
       "title": "羽生市 移住支援金（公式確認不可・掲載停止）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kounosu-migration-bonus",
+      "title": "鴻巣市 移住支援金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kasukabe-block-wall-removal",
+      "title": "春日部市 ブロック塀等撤去補助金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1187,10 +2762,45 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kasukabe-health-checkup-subsidy",
+      "title": "春日部市 人間ドック受診費助成（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kasukabe-juutaku-reform",
+      "title": "春日部市 住宅リフォーム助成制度（令和8年度受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kasukabe-water-saving",
+      "title": "春日部市 雨水タンク設置補助金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "kasukabe-water-saving",
       "title": "春日部市 雨水タンク設置補助金（公式確認不可・掲載停止）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tokorozawa-block-wall-removal",
+      "title": "所沢市 ブロック塀等撤去補助金（終了済み・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tokorozawa-bousai-equipment",
+      "title": "所沢市 家庭用防災設備購入補助金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1201,10 +2811,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tokorozawa-child-medical-aid",
+      "title": "所沢市 こども医療費助成（重複候補・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "tokorozawa-child-medical-aid",
       "title": "所沢市 こども医療費助成（重複候補・掲載停止）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tokorozawa-elderly-taxi",
+      "title": "所沢市 高齢者タクシー利用助成（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1215,10 +2839,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tokorozawa-newlywed-housing",
+      "title": "所沢市 結婚新生活支援事業補助金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "tokorozawa-newlywed-housing",
       "title": "所沢市 結婚新生活支援事業補助金（公式確認不可・掲載停止）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tokorozawa-newlywed-rent",
+      "title": "所沢市 新婚世帯家賃補助制度（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1229,10 +2867,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tokorozawa-school-lunch-subsidy",
+      "title": "所沢市 学校給食費補助制度（重複候補・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "tokorozawa-school-lunch-subsidy",
       "title": "所沢市 学校給食費補助制度（重複候補・掲載停止）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tokorozawa-telework-bonus",
+      "title": "所沢市 テレワーク推進補助金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1243,10 +2895,38 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kawagoe-child-medical-aid",
+      "title": "川越市 こども医療費助成（重複候補・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kawagoe-newlywed-rent",
+      "title": "川越市 結婚新生活支援事業（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kawaguchi-child-medical-aid",
+      "title": "川口市 こども医療費助成（重複・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "kawaguchi-child-medical-aid",
       "title": "川口市 こども医療費助成（重複・掲載停止）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kawaguchi-juutaku-reform",
+      "title": "川口市 住宅リフォーム助成金（重複・掲載停止）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1257,10 +2937,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "soka-child-medical-aid",
+      "title": "草加市 こども医療費助成（重複・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "soka-child-medical-aid",
       "title": "草加市 こども医療費助成（重複・掲載停止）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "soka-newlywed-rent",
+      "title": "草加市 新婚世帯家賃補助制度（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1271,6 +2965,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "soka-school-lunch-subsidy",
+      "title": "草加市 学校給食費補助制度（重複・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "soka-school-lunch-subsidy",
       "title": "草加市 学校給食費補助制度（重複・掲載停止）",
@@ -1278,10 +2979,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "soka-telework-bonus",
+      "title": "草加市 テレワーク導入支援補助金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "soka-telework-bonus",
       "title": "草加市 テレワーク導入支援補助金（公式確認不可・掲載停止）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "soka-water-saving",
+      "title": "草加市 雨水タンク設置補助金（令和8年度対象外・掲載停止）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1306,10 +3021,59 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "asaka-newlywed-rent",
+      "title": "朝霞市 新婚世帯家賃補助制度（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "asaka-telework-bonus",
+      "title": "朝霞市 テレワーク環境整備補助金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "higashimatsuyama-migration-bonus",
+      "title": "東松山市 移住支援金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "higashimatsuyama-uij-turn",
       "title": "東松山市 UIJターン支援金（公式確認不可・掲載停止）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "higashimatsuyama-uij-turn",
+      "title": "東松山市 UIJターン支援金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "iruma-childcare-subsidy",
+      "title": "入間市 子育て応援ギフト事業（令和6年度で終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "iruma-housing-purchase",
+      "title": "入間市 三世代同居・近居支援補助金制度（受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "iruma-startup-support",
+      "title": "入間市 空き店舗活用創業等支援補助金（令和8年度受付終了）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1320,10 +3084,45 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "uruma-block-wall-removal",
+      "title": "うるま市 ブロック塀等撤去補助金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "urasoe-block-wall-removal",
       "title": "浦添市 ブロック塀等撤去補助金（公式確認不可・掲載停止）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "urasoe-block-wall-removal",
+      "title": "浦添市 ブロック塀等撤去補助金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "urasoe-child-medical-aid",
+      "title": "浦添市 こども医療費助成制度（重複統合・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "urasoe-scholarship-repayment",
+      "title": "浦添市育英会 奨学金制度（令和8年度募集終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "okinawa-child-poverty",
+      "title": "沖縄こどもの未来県民会議 令和7年度こども未来応援助成事業（受付終了）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1334,10 +3133,38 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "okinawa-housing-typhoon",
+      "title": "沖縄県 住宅防風対策支援事業（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "okinawa-tourism-employment",
+      "title": "沖縄県 観光人材確保・定着支援事業補助金（申込終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "okinawa-child-medical-aid",
+      "title": "沖縄市 こども医療費助成（重複掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "okinawa-child-medical-aid",
       "title": "沖縄市 こども医療費助成（重複掲載停止）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "okinawa-juutaku-reform",
+      "title": "沖縄市 住宅リフォーム助成金（重複掲載停止）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1355,10 +3182,38 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "okinawa-startup-support",
+      "title": "沖縄市 創業支援補助金（公式補助金確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "ginowan-block-wall-removal",
       "title": "宜野湾市 ブロック塀等撤去補助金（公式確認不可・掲載停止）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "ginowan-block-wall-removal",
+      "title": "宜野湾市 ブロック塀等撤去補助金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "ginowan-scholarship-repayment",
+      "title": "宜野湾市育英会 奨学生（奨学金）（令和8年度募集終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "naha-block-wall-removal",
+      "title": "那覇市 ブロック塀等撤去補助金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1369,6 +3224,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "naha-child-medical-aid",
+      "title": "那覇市 こども医療費助成制度（既存slugへ統合・重複停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "naha-elderly-taxi",
       "title": "那覇市 がんじゅう一日乗車券（高齢者公共交通割引制度）",
@@ -1376,10 +3238,31 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "naha-housing-purchase",
+      "title": "那覇市 住宅取得支援補助金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "naha-juutaku-reform",
+      "title": "那覇市 住宅リフォーム助成金（介護保険住宅改修へ統合・重複停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "naha-juutaku-reform",
       "title": "那覇市 住宅リフォーム助成金（介護保険住宅改修へ統合・重複停止）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "nago-block-wall-removal",
+      "title": "名護市 ブロック塀等撤去補助金（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1397,6 +3280,27 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "ichinoseki-child-medical-aid",
+      "title": "一関市 こども医療費助成（既存slugへ統合・重複停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "ichinoseki-juutaku-reform",
+      "title": "一関市 住宅リフォーム助成金（住宅環境改善リフォーム補助金へ統合・重複停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "ichinoseki-telework-bonus",
+      "title": "一関市 テレワーカー移住支援（移住支援金へ統合・重複停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "seki-tradition-craft",
       "title": "関市 伝統工芸後継者育成助成金（公式確認不可）",
@@ -1404,10 +3308,73 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "seki-tradition-craft",
+      "title": "関市 伝統工芸後継者育成助成金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "seki-tradition-craft",
       "title": "関市 伝統工芸後継者育成助成金（公式確認不可）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "gifu-housing-seismic",
+      "title": "岐阜県 住宅耐震化緊急促進事業（木造住宅耐震改修工事費補助へ統合・重複停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "gifu-city-nursing-home-reform",
+      "title": "岐阜市 介護住宅改修補助金（高齢者住宅改善促進助成制度へ統合・重複停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "gifu-disaster-stockpile",
+      "title": "岐阜市 家庭防災備蓄品購入補助（公式個人補助として確認不可・自主防災組織補助へ統合）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "gifu-fire-alarm",
+      "title": "岐阜市 住宅用火災警報器設置補助（公式補助金として確認不可・設置義務案内へ補正）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "gifu-tradition-craft",
+      "title": "岐阜市 伝統工芸後継者育成助成金（現行個人向け補助として公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "takayama-disaster-stockpile",
+      "title": "高山市 家庭防災備蓄品購入補助（公式補助金として確認不可・防災備蓄案内へ補正）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tajimi-disaster-stockpile",
+      "title": "多治見市 家庭防災備蓄品購入補助（公式個人補助として確認不可・自主防災組織支援へ補正）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tajimi-fire-alarm",
+      "title": "多治見市 住宅用火災警報器設置補助（公式補助金として確認不可・設置義務案内へ補正）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1418,10 +3385,87 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "ogaki-disaster-stockpile",
+      "title": "大垣市 家庭防災備蓄品購入補助（公式個人補助として確認不可・自主防災組織支援へ補正）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "ogaki-tradition-craft",
+      "title": "大垣市 伝統工芸後継者育成助成金（公式現行制度として確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "ogaki-youth-rent",
       "title": "大垣市 子育て世代等住宅取得支援事業利子補給金（若者・子育て世代）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "nakatsugawa-disaster-stockpile",
+      "title": "中津川市 家庭防災備蓄品購入補助（公式個人補助として確認不可・防災資機材等整備事業へ補正）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "nakatsugawa-fire-alarm",
+      "title": "中津川市 住宅用火災警報器設置補助（公式補助金として確認不可・設置案内へ補正）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "nakatsugawa-tradition-craft",
+      "title": "中津川市 伝統工芸後継者育成助成金（公式現行制度として確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "miyazaki-city-scholarship-v2",
+      "title": "宮崎市 奨学金給付制度（奨学金返還支援事業へ統合・重複停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "miyazaki-city-telework-bonus",
+      "title": "宮崎市 テレワーク移住支援（移住支援給付金へ統合・重複停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "miyazaki-scholarship-repayment",
+      "title": "宮崎市 奨学金返還支援制度（既存slugへ統合・重複停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kobayashi-block-wall-removal",
+      "title": "小林市 危険ブロック塀除却補助（現行募集詳細確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "saito-block-wall-removal",
+      "title": "西都市 ブロック塀等撤去補助金（現行募集詳細確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "miyakonojo-child-medical-aid",
+      "title": "都城市 子ども医療費助成制度（重複掲載停止）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1439,6 +3483,48 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "miyakonojo-housing-purchase",
+      "title": "都城市 移住応援給付金（住宅取得支援生成slugの重複停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "ishinomaki-school-ict",
+      "title": "石巻市 ICT教育環境整備補助金（個人向け補助確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "ishinomaki-twin-childcare",
+      "title": "石巻市 妊婦のための支援給付金事業（多胎児分・重複掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "ishinomaki-water-reduction",
+      "title": "石巻市 水道料金減免制度（生活困窮者向け料金減免確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "osaki-newlywed-rent",
+      "title": "大崎市 新婚世帯家賃補助事業（公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "uji-bicycle-helmet",
+      "title": "宇治市 自転車ヘルメット購入補助金（公式補助確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "uji-bicycle-helmet",
       "title": "宇治市 自転車ヘルメット購入補助金（公式補助確認不可）",
@@ -1450,6 +3536,13 @@
       "slug": "kameoka-aged-meal-delivery",
       "title": "亀岡市 高齢者配食サービス助成（公式確認不可・廃止記録あり）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kameoka-aged-meal-delivery",
+      "title": "亀岡市 高齢者配食サービス助成（公式確認不可・廃止記録あり）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1474,6 +3567,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "joyo-aged-meal-delivery",
+      "title": "城陽市 高齢者配食サービス助成（公式補助確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "joyo-aged-meal-delivery",
       "title": "城陽市 高齢者配食サービス助成（公式補助確認不可）",
@@ -1481,10 +3581,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "joyo-bicycle-helmet",
+      "title": "城陽市 自転車ヘルメット購入補助金（公式補助確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "joyo-bicycle-helmet",
       "title": "城陽市 自転車ヘルメット購入補助金（公式補助確認不可）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "joyo-child-third-free",
+      "title": "城陽市 第3子以降出産祝い金（公式補助確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1502,10 +3616,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "joyo-culture-experience",
+      "title": "城陽市 子ども文化芸術体験事業（公式補助確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "joyo-culture-experience",
       "title": "城陽市 子ども文化芸術体験事業（公式補助確認不可）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "joyo-landslide-sensor",
+      "title": "城陽市 土砂災害警戒区域安全対策補助金（公式補助確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1523,10 +3651,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "maizuru-aged-meal-delivery",
+      "title": "舞鶴市 高齢者配食サービス助成（公式助成額確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "maizuru-aged-meal-delivery",
       "title": "舞鶴市 高齢者配食サービス助成（公式助成額確認不可）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "maizuru-child-third-free",
+      "title": "舞鶴市 第3子以降出産祝い金（公式補助確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1537,10 +3679,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "maizuru-culture-experience",
+      "title": "舞鶴市 子ども文化芸術体験事業（個人向け補助確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "maizuru-culture-experience",
       "title": "舞鶴市 子ども文化芸術体験事業（個人向け補助確認不可）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "fukuchiyama-child-third-free",
+      "title": "福知山市 第3子以降出産祝い金（公式補助確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1558,6 +3714,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "fukuchiyama-culture-experience",
+      "title": "福知山市 子ども文化芸術体験助成（公式補助確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "fukuchiyama-culture-experience",
       "title": "福知山市 子ども文化芸術体験助成（公式補助確認不可）",
@@ -1572,10 +3735,31 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "fukuchiyama-landslide-sensor",
+      "title": "福知山市 土砂災害警戒区域安全対策補助金（公式補助確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "fukuchiyama-landslide-sensor",
       "title": "福知山市 土砂災害警戒区域安全対策補助金（公式補助確認不可）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kumamoto-elderly-taxi",
+      "title": "熊本市 高齢者タクシー利用助成（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kumamoto-juutaku-reform",
+      "title": "熊本市 一般住宅リフォーム助成金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1586,10 +3770,122 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kumamoto-scholarship-repayment",
+      "title": "熊本市 奨学金返還支援制度（市独自制度は公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kumamoto-school-lunch-subsidy",
+      "title": "熊本市 学校給食費補助制度（就学援助と重複・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "kumamoto-school-lunch-subsidy",
       "title": "熊本市 学校給食費補助制度（就学援助と重複・掲載停止）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "amakusa-scholarship-repayment",
+      "title": "天草市 奨学金返還支援制度（公式確認不可・貸与制度へ誘導）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "amakusa-water-saving",
+      "title": "天草市 雨水タンク設置補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "yatsushiro-scholarship-repayment",
+      "title": "八代市 奨学金返還支援制度（公式確認不可・貸付制度へ誘導）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "yatsushiro-water-saving",
+      "title": "八代市 雨水タンク設置補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "isesaki-newlywed-rent",
+      "title": "伊勢崎市 新婚世帯家賃補助制度（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "isesaki-telework-bonus",
+      "title": "伊勢崎市 テレワーク推進補助金（市独自制度として公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kiryu-birth-bonus-v2",
+      "title": "桐生市 出産祝い金（妊婦支援給付と重複・公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kiryu-bousai-equipment",
+      "title": "桐生市 家庭用防災資機材購入補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kiryu-childcare-subsidy-v2",
+      "title": "桐生市 保育料軽減補助金（幼児教育・保育無償化へ統合）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kiryu-disability-medical-v2",
+      "title": "桐生市 重度障がい者医療費助成（福祉医療費助成と重複）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kiryu-telework-bonus",
+      "title": "桐生市 テレワーク移住支援補助金（移住支援補助金と重複）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "maebashi-afterschool",
+      "title": "前橋市 放課後児童クラブ利用料減免制度（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "hiroshima-education-ict",
+      "title": "広島県 学校教育情報化推進計画（補助制度としては公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "hiroshima-city-scholarship",
+      "title": "広島市 奨学金制度（市独自制度なし・掲載停止）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1604,6 +3900,13 @@
       "slug": "hiroshima-juutaku-reform",
       "title": "広島市 住宅耐震改修等補助事業",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "hiroshima-scholarship-repayment",
+      "title": "広島市 奨学金返還支援制度（市独自制度なし・掲載停止）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -6395,6 +8698,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "mishima-pet-sterilize",
+      "title": "三島市 ペットの災害対策（不妊・去勢手術の啓発）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "mishima-pet-sterilize",
       "title": "三島市 ペットの災害対策（不妊・去勢手術の啓発）",
@@ -7158,6 +9468,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "inzai-newlywed-rent",
+      "title": "印西市 新婚世帯家賃補助（掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "inzai-newlywed-rent",
       "title": "印西市 新婚世帯家賃補助（掲載停止）",
@@ -7211,6 +9528,13 @@
       "slug": "kamagaya-childcare-subsidy",
       "title": "鎌ケ谷市 幼児教育・保育の無償化",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kamagaya-newlywed-rent",
+      "title": "鎌ケ谷市 結婚新生活支援補助金（掲載停止）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -7340,6 +9664,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "ichikawa-scholarship-repayment",
+      "title": "市川市 奨学金返還支援制度（市独自制度なし・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "ichikawa-scholarship-repayment",
       "title": "市川市 奨学金返還支援制度（市独自制度なし・掲載停止）",
@@ -7424,6 +9755,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "narita-bousai-equipment",
+      "title": "成田市 防災設備設置補助金（公式制度確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "narita-bousai-equipment",
       "title": "成田市 防災設備設置補助金（公式制度確認不可・掲載停止）",
@@ -7505,6 +9843,13 @@
       "slug": "chiba-city-fertility-treatment",
       "title": "千葉市プレコンセプション健診費用助成事業",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "chiba-city-infertility",
+      "title": "千葉市 不妊治療費助成制度（公式制度確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -7606,6 +9951,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "sodegaura-bousai-equipment",
+      "title": "袖ケ浦市 住宅用防災設備補助金（公式制度確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "sodegaura-bousai-equipment",
       "title": "袖ケ浦市 住宅用防災設備補助金（公式制度確認不可・掲載停止）",
@@ -7673,6 +10025,13 @@
       "slug": "kashiwa-juutaku-reform",
       "title": "柏市木造住宅耐震改修費補助金",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "kashiwa-newlywed-rent",
+      "title": "柏市結婚手続き案内（結婚新生活支援補助金は公式確認不可・掲載停止）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -7834,6 +10193,13 @@
       "slug": "takatsuki-housing-purchase",
       "title": "高槻市3世代ファミリー定住支援事業",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "takatsuki-scholarship",
+      "title": "高槻市奨学金返還支援補助金（公式確認不可・奨学金制度へ補正）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -8558,6 +10924,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "sasebo-newlywed-rent",
+      "title": "佐世保市結婚新生活支援事業（公式実施確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "sasebo-school-lunch",
       "title": "佐世保市学校給食費相当額助成事業",
@@ -8628,6 +11001,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "sasebo-block-wall-removal",
+      "title": "佐世保市ブロック塀撤去補助金（現行補助なし）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "sasebo-school-lunch-subsidy",
       "title": "佐世保市小・中学校就学援助制度",
@@ -8646,6 +11026,13 @@
       "slug": "nagasaki-city-fertility-treatment",
       "title": "長崎市特定不妊治療費助成事業（終了確認）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "nagasaki-city-fertility-treatment",
+      "title": "長崎市特定不妊治療費助成事業（終了確認）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -8674,6 +11061,13 @@
       "slug": "nagasaki-city-infertility",
       "title": "長崎市特定不妊治療費助成事業（終了確認）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "nagasaki-city-infertility",
+      "title": "長崎市特定不妊治療費助成事業（終了確認）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -8768,6 +11162,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "isahaya-block-wall-removal",
+      "title": "諫早市既設ブロック塀に関する安全対策案内（補助金未確認）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "isahaya-block-wall-removal",
       "title": "諫早市既設ブロック塀に関する安全対策案内（補助金未確認）",
@@ -8845,6 +11246,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "isahaya-scholarship-repayment",
+      "title": "諫早市奨学金返還支援制度（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "isahaya-scholarship-repayment",
       "title": "諫早市奨学金返還支援制度（公式確認不可）",
@@ -8887,6 +11295,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "isahaya-vaccination-support",
+      "title": "諫早市高齢者予防接種助成制度（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "isahaya-vaccination-support",
       "title": "諫早市高齢者予防接種助成制度（公式確認不可）",
@@ -8901,6 +11316,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "isahaya-water-saving",
+      "title": "諫早市雨水タンク設置補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "isahaya-water-saving",
       "title": "諫早市雨水タンク設置補助金（公式確認不可）",
@@ -8912,6 +11334,13 @@
       "slug": "okaya-nursery-support",
       "title": "岡谷市保育所等入所支援金（公式確認不可）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "okaya-nursery-support",
+      "title": "岡谷市保育所等入所支援金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -8936,6 +11365,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "okaya-study-abroad-support",
+      "title": "岡谷市高校生海外留学支援金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "okaya-study-abroad-support",
       "title": "岡谷市高校生海外留学支援金（公式確認不可）",
@@ -8950,6 +11386,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "okaya-agri-newcomer",
+      "title": "岡谷市新規就農者支援交付金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "okaya-agri-newcomer",
       "title": "岡谷市新規就農者支援交付金（公式確認不可）",
@@ -8961,6 +11404,13 @@
       "slug": "okaya-dementia-early",
       "title": "岡谷市認知症早期発見検診助成（公式確認不可）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "okaya-dementia-early",
+      "title": "岡谷市認知症早期発見検診助成（公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -8985,6 +11435,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "okaya-snow-removal-aid",
+      "title": "岡谷市要援護世帯除雪費助成（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "okaya-snow-removal-aid",
       "title": "岡谷市要援護世帯除雪費助成（公式確認不可）",
@@ -8999,6 +11456,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "okaya-childrearing-coupon",
+      "title": "岡谷市子育て応援クーポン事業（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "DESCRIPTION_MISSING",
       "slug": "okaya-childrearing-coupon",
       "title": "岡谷市子育て応援クーポン事業（公式確認不可）",
@@ -9010,6 +11474,13 @@
       "slug": "matsumoto-agri-newcomer",
       "title": "松本市新規就農者支援交付金（公式確認不可）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "matsumoto-agri-newcomer",
+      "title": "松本市新規就農者支援交付金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -9041,10 +11512,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "matsumoto-childcare-subsidy",
+      "title": "松本市子育て世帯応援給付金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "matsumoto-childrearing-coupon",
       "title": "松本市子育て応援クーポン事業（公式確認不可）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "matsumoto-childrearing-coupon",
+      "title": "松本市子育て応援クーポン事業（公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -9055,10 +11540,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "matsumoto-dementia-early",
+      "title": "松本市認知症早期発見検診助成（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "matsumoto-energy-support",
       "title": "松本市住宅用太陽光発電・蓄電池導入補助金（公式確認不可）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "matsumoto-energy-support",
+      "title": "松本市住宅用太陽光発電・蓄電池導入補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -9069,6 +11568,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "matsumoto-ev-charger",
+      "title": "松本市EV充電設備設置補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "matsumoto-migration-housing",
       "title": "松本市移住者住宅取得補助金（公式確認不可）",
@@ -9076,10 +11582,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "matsumoto-migration-housing",
+      "title": "松本市移住者住宅取得補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "matsumoto-nursery-support",
       "title": "松本市保育所等入所支援金（公式確認不可）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "matsumoto-nursery-support",
+      "title": "松本市保育所等入所支援金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -9097,10 +11617,24 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "matsumoto-scholarship",
+      "title": "松本市奨学金制度（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "matsumoto-school-lunch",
       "title": "松本市学校給食費補助制度（公式確認不可）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "matsumoto-school-lunch",
+      "title": "松本市学校給食費補助制度（公式確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -9111,6 +11645,13 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "matsumoto-snow-removal-aid",
+      "title": "松本市要援護世帯除雪費助成（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "matsumoto-study-abroad-support",
       "title": "松本市高校生海外留学支援金（公式確認不可）",
@@ -9118,10 +11659,31 @@
     },
     {
       "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "matsumoto-study-abroad-support",
+      "title": "松本市高校生海外留学支援金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
       "code": "MISSING_ELIGIBILITY",
       "slug": "matsumoto-telework-bonus",
       "title": "松本市テレワーク移住支援補助金（公式確認不可）",
       "message": "主な対象者がありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "matsumoto-telework-bonus",
+      "title": "松本市テレワーク移住支援補助金（公式確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "nara-city-energy-support",
+      "title": "奈良市住民税非課税世帯支援給付金（受付終了）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -9297,6 +11859,97 @@
       "slug": "aizumisato-housing-7695-2026",
       "title": "会津美里町 【太陽光発電・蓄電池・V2H・長期優良住宅】会津美里町地球温暖化対策推進事業（再エネ設備等）補助金",
       "message": "推定タイトルが長すぎます（72文字）。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "sumai-kyuufukin",
+      "title": "すまい給付金（申請受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "jka-hojo-jigyo",
+      "title": "JKA 2026年度補助事業（受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "yahoo-fund-disaster-relief",
+      "title": "LINEヤフー基金 能登半島地震 復旧・復興支援助成プログラム［2回目］（募集終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "lixil-housing-safety-grant",
+      "title": "住まいの安全助成（公式助成確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "recruit-foundation-job-training-youth",
+      "title": "若者就労支援助成（公式助成確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "nippon-foundation-welfare-vehicle",
+      "title": "日本財団 2026年度 福祉車両の配備（申請受付終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "sasakawa-sports-foundation-elderly-health",
+      "title": "高齢者健康づくり助成（公式助成確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "coop-kyosai-education-support-grant",
+      "title": "子ども教育支援助成（公式助成確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "nissay-foundation-jidou-ikusei",
+      "title": "日本生命財団 児童・少年の健全育成助成（2026年度募集終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "meiji-yasuda-life-childcare-community",
+      "title": "地域の子育て応援助成（公式助成確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "zenrosai-chiiki-koken-josei",
+      "title": "こくみん共済 coop 地域貢献助成（2025年募集終了）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "jyuutaku-kairyou-kousya-josei",
+      "title": "住宅改良開発公社 住まい助成（公式助成確認不可）",
+      "message": "有効な公式URLがありません。"
+    },
+    {
+      "severity": "warning",
+      "code": "MISSING_OFFICIAL_URL",
+      "slug": "tokio-marine-bousai-josei",
+      "title": "東京海上日動 防災・減災助成（公式助成確認不可）",
+      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -10876,13 +13529,6 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "otaru-child-medical",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.otaru.lg.jp/docs/2024062400026/"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "chitose-child-medical",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.chitose.lg.jp/c10/1002548/1002591/1006283.html"
@@ -10920,7 +13566,7 @@
       "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "kiryu-child-medical",
       "title": "",
-      "message": "同じ公式URLが3件あります：https://www.city.kiryu.lg.jp/kurashi/fukushi/1014377/1000727.html"
+      "message": "同じ公式URLが2件あります：https://www.city.kiryu.lg.jp/kurashi/fukushi/1014377/1000727.html"
     },
     {
       "severity": "warning",
@@ -10946,20 +13592,6 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "urasoe-child-medical",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.urasoe.lg.jp/doc/6248f14273fe266fe59a99e2/"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "kokubunji-housing-seismic",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.kokubunji.tokyo.jp/kurashi/sumai/jutaku/1027860.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "chiyoda-housing-purchase",
       "title": "",
       "message": "同じ公式URLが4件あります：https://www.city.chiyoda.lg.jp/koho/machizukuri/sumai/jose/jisedai.html"
@@ -10967,30 +13599,9 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "ota-birth-bonus",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.ota.tokyo.jp/seikatsu/kodomo/shussan/ninpunotamenosienkyuhu.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "itabashi-housing-purchase",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/soudan/1062629.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "arakawa-housing-eco",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.arakawa.tokyo.jp/a024/kankyou/ekojyosei.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "komae-housing-eco",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.komae.tokyo.jp/index.cfm/41%2C127297%2C313%2C2006%2Chtml"
     },
     {
       "severity": "warning",
@@ -11016,20 +13627,6 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "nakano-newlywed-rent",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/hogo/jyukyokakuhoyatin.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "taito-elderly-support",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.taito.lg.jp/kenkohukusi/korei/serviceannai/index.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "machida-child-medical",
       "title": "",
       "message": "同じ公式URLが2件あります：https://kosodate-machida.tokyo.jp/mokuteki/2/4/kakusyuiryouhijyosei/index.html"
@@ -11040,13 +13637,6 @@
       "slug": "hachioji-child-medical",
       "title": "",
       "message": "同じ公式URLが2件あります：https://kosodate.city.hachioji.tokyo.jp/soshiki/kosodateshienka/kosodateshienka_shomu_kyufu_jidoteatenyukotanto_hitorioyatanto/268.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "sumida-pregnancy-support-benefit",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.sumida.lg.jp/kenko_fukushi/kenko/oyako_kenko/syussan_junbi_class/skogift.html"
     },
     {
       "severity": "warning",
@@ -11065,79 +13655,9 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "meguro-pregnancy-support-benefit",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.meguro.tokyo.jp/hokenyobou/kosodatekyouiku/ninshin/ninpunotameno_sienkyuhu.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "kita-pregnancy-support-benefit",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.kita.lg.jp/children-edu/pregnancy/1002777/1002795.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "nerima-third-child-birth-gift",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.nerima.tokyo.jp/kosodatekyoiku/shussan/iwaikin.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "katsushika-pregnancy-support-benefit",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.katsushika.lg.jp/kenkou/1000050/1001803/1037742.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "edogawa-pregnancy-support-benefit",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.edogawa.tokyo.jp/e052/kosodate/ninshin/kohukin/ninpunokyuhu.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "kokubunji-startup-support",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.kokubunji.tokyo.jp/business/keizai/1011791/1002836.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "machida-school-lunch",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.machida.tokyo.jp/shisei/koho/kisyakaiken/2024/20241121.files/20241121-6.pdf"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "higashimurayama-fertility-treatment",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.fukushi.metro.tokyo.lg.jp/kodomo/kosodate/josei/funin-senshiniryou/gaiyou"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "higashimurayama-telework-bonus",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.koyokankyo.shigotozaidan.or.jp/jigyo/telework/telejoseikin.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "itabashi-women-startup",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.itabashi.tokyo.jp/bunka/1061832/1062047/1064690.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "nerima-energy-support",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.nerima.tokyo.jp/kurashi/shigoto/kankyo/hojo.html"
     },
     {
       "severity": "warning",
@@ -11247,23 +13767,9 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "chiba-migration-support",
-      "title": "",
-      "message": "同じ公式URLが2件あります："
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "shimane-migration-support",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.pref.shimane.lg.jp/admin/region/chiiki/UI_turn/wakuwaku.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "sapporo-eco-reform-2026",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.sapporo.jp/toshi/jutaku/03reform/eco/eco.html"
     },
     {
       "severity": "warning",
@@ -11278,13 +13784,6 @@
       "slug": "yamagata-housing-reform-2026",
       "title": "",
       "message": "同じ公式URLが3件あります：https://www.city.yamagata-yamagata.lg.jp/kurashi/tochi/1007258/1003551.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "mito-safe-housing-reform-2026",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.mito.lg.jp/page/3548.html"
     },
     {
       "severity": "warning",
@@ -11327,13 +13826,6 @@
       "slug": "okayama-sme-scholarship-repayment",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.pref.okayama.jp/page/555039.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "saitama-window-insulation-reform",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.pref.saitama.lg.jp/a1107/reform/windowreform.html"
     },
     {
       "severity": "warning",
@@ -11429,13 +13921,6 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "gifu-senior-home-improvement-support",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.gifu.lg.jp/kenko/kaigo/1004813/1004824.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "nara-care-home-renovation-support",
       "title": "",
       "message": "同じ公式URLが3件あります：https://www.city.nara.lg.jp/site/kaigohoken/8877.html"
@@ -11516,13 +14001,6 @@
       "slug": "fukushima-child-medical-support-official",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.pref.fukushima.lg.jp/sec/21035a/kodomoiryouhi.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "gifu-wooden-house-earthquake-retrofit-2026",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.pref.gifu.lg.jp/page/838.html"
     },
     {
       "severity": "warning",
@@ -11723,13 +14201,6 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "hakodate-child-medical",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.hakodate.hokkaido.jp/docs/2014012000574/"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "saga-city-child-medical",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.saga.lg.jp/kosodate-kyoiku/mokuteki/5/1/1924.html"
@@ -11761,27 +14232,6 @@
       "slug": "kagoshima-city-child-medical",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.kagoshima.lg.jp/kosodate/kodomofuku/kosodate/kosodate/teate/sedo/index.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "naha-child-medical",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.naha.okinawa.jp/child/kosodateouen/1002858/1002860.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "kawagoe-child-medical",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.kawagoe.saitama.jp/kenko/iryo/1006606/1006615/1006622/1006625.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "kawaguchi-child-medical",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.kawaguchi.lg.jp/soshiki/01080/020/5/2/4209.html"
     },
     {
       "severity": "warning",
@@ -11849,20 +14299,6 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "okinawa-city-child-medical",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.okinawa.okinawa.jp/k028/kosodate/kosodateshien/iryouhijosei/213/18583.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "miyakonojo-child-medical",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.miyakonojo.miyazaki.jp/soshiki/66/4186.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "kirishima-child-medical",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city-kirishima.jp/jidou/kosodate/kosodate/kodomoiryou.html"
@@ -11894,13 +14330,6 @@
       "slug": "isesaki-child-medical",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.isesaki.lg.jp/soshiki/kensui/nenkin/iryoujyosei/fukushi_iryo/2867.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "kurashiki-child-medical",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.kurashiki.okayama.jp/fukushi/health/1013367/1004720.html"
     },
     {
       "severity": "warning",
@@ -11968,13 +14397,6 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "kawaguchi-housing-reform",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.kawaguchi.lg.jp/soshiki/01130/040/2_2/48993.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "ichikawa-housing-reform",
       "title": "",
       "message": "同じ公式URLが3件あります：https://www.city.ichikawa.lg.jp/page/1771.html"
@@ -11985,13 +14407,6 @@
       "slug": "oyama-migration-support",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.oyama.tochigi.jp/kurashi/sumai-hikkoshi/hikkoshi/page000518.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "urayasu-migration-support",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.urayasu.lg.jp/todokede/kankyo/torikumi/1035517.html"
     },
     {
       "severity": "warning",
@@ -12122,13 +14537,6 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "okinawa-city-housing-reform",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.okinawa.okinawa.jp/k042/contents/p00027.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "iwate-industrial-scholarship-repayment-2026",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.pref.iwate.jp/sangyoukoyou/monozukuri/ikusei/1008964/1085424.html"
@@ -12139,13 +14547,6 @@
       "slug": "okayama-city-block-wall-removal-2026",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.okayama.jp/jigyosha/0000005983.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "kurashiki-block-wall-removal-2026",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.kurashiki.okayama.jp/kurashi/sumai/1014765/1014785/1014788.html"
     },
     {
       "severity": "warning",
@@ -12283,13 +14684,6 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "miyakonojo-migration-support",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.miyakonojo.miyazaki.jp/site/iju/62718.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "kirishima-startup-support",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city-kirishima.jp/shoukoushinkou/machizukuri/shokogyo/hanrokaitaku/documents/r7tyuusyoureisaikigyobijines.html"
@@ -12342,13 +14736,6 @@
       "slug": "tokushima-city-newlywed-rent",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.tokushima.tokushima.jp/kurashi/house/house_keikaku/jyutaku_reform.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "naha-housing-reform",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.naha.okinawa.jp/fukusi/kagohoken/1003087/1003160/1003162.html"
     },
     {
       "severity": "warning",
@@ -12523,7 +14910,7 @@
       "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "tsuchiura-marriage-new-life-support-2026",
       "title": "",
-      "message": "同じ公式URLが3件あります：https://www.city.tsuchiura.lg.jp/kurashi-tetsuzuki/news/page012116.html"
+      "message": "同じ公式URLが2件あります：https://www.city.tsuchiura.lg.jp/kurashi-tetsuzuki/news/page012116.html"
     },
     {
       "severity": "warning",
@@ -12552,13 +14939,6 @@
       "slug": "narita-marriage-new-life-support-2026",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.narita.chiba.jp/shisei/page0101_00052.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "noda-marriage-new-life-support-2026",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.noda.chiba.jp/kurashi/1016881/1016976/index.html"
     },
     {
       "severity": "warning",
@@ -12661,13 +15041,6 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "kawagoe-scholarship-repayment",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.kawagoe.saitama.jp/kosodate/kyouiku/1004595/1004612/1004616.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "matsudo-housing-seismic",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.matsudo.chiba.jp/kurashi/sumai/taisin/taisinnkaishuhojokin.html"
@@ -12724,37 +15097,9 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "tokorozawa-child-medical",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.tokorozawa.saitama.jp/kosodatekyouiku/kosodate/kodomonoteate/iryohijyosei/kodomoiryojoseihoho.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "kumagaya-seismic-diagnosis",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.kumagaya.lg.jp/about/soshiki/toshi/kenchikusinsa/taishinka/mokuzoutaishin.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "kasukabe-housing-reform",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.kasukabe.lg.jp/kurashi/sumai/sumainikansurujosei/30666.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "soka-child-medical",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.soka.saitama.jp/cont/s1601/010/010/030/PAGE000000000000078240.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "soka-school-lunch",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.soka.saitama.jp/cont/s2102/020/010/010/school-attendance.html"
     },
     {
       "severity": "warning",
@@ -12787,13 +15132,6 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "honjo-uij-turn",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.honjo.lg.jp/soshiki/kikakuzaisei/hishokoho/osirase/16615.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "sagamihara-birth-bonus",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026604/1018607/1026960.html"
@@ -12804,27 +15142,6 @@
       "slug": "fujisawa-fertility-treatment",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.fujisawa.kanagawa.jp/oyako/ninshin/funinsensiniryo.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "sagamihara-newlywed-housing",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/sumai/1026513/1030229.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "kawasaki-migration-bonus",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.kawasaki.jp/601/page/0000046085.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "ebina-housing-purchase",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.ebina.kanagawa.jp/guide/sumai/jutaku/1013758.html"
     },
     {
       "severity": "warning",
@@ -12846,41 +15163,6 @@
       "slug": "asahikawa-school-lunch",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.asahikawa.hokkaido.jp/kurashi/218/228/230/syugakujosei.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "kushiro-child-medical",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.kushiro.lg.jp/kenfuku/kenkou/1005260/1005265.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "kushiro-disability-medical",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.kushiro.lg.jp/kenfuku/kenkou/1005260/1005266.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "kushiro-school-lunch",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.kushiro.lg.jp/kosodatekyouiku/kyouiku/1005546/1005547.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "kushiro-housing-reform",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.kushiro.lg.jp/machi/tkeikaku/1006072/1006100/1006102.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "kushiro-telework-bonus",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.kushiro.lg.jp/sangyou/koyou/1006519/1006525.html"
     },
     {
       "severity": "warning",
@@ -12948,20 +15230,6 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "otaru-school-lunch",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.otaru.lg.jp/docs/2020110900692/"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "otaru-telework-bonus",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.otaru.lg.jp/docs/2020120700770/"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "otaru-price-support-benefit-2026",
       "title": "",
       "message": "同じ公式URLが3件あります：https://www.city.otaru.lg.jp/docs/2026013000064/"
@@ -12972,20 +15240,6 @@
       "slug": "otaru-child-disability-welfare-allowance-2026",
       "title": "",
       "message": "同じ公式URLが3件あります：https://www.city.otaru.lg.jp/docs/2020111200388/"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "otaru-housing-reform",
-      "title": "",
-      "message": "同じ公式URLが3件あります：https://www.city.otaru.lg.jp/docs/2021091700011/"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "obihiro-child-medical",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.obihiro.hokkaido.jp/kyoiku/kosodate/teate/1004588.html"
     },
     {
       "severity": "warning",
@@ -13014,20 +15268,6 @@
       "slug": "obihiro-agricultural-new-technology-research-grant-2026",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.obihiro.hokkaido.jp/sangyo/nougyou/gijutsu/1007696/1022404.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "tomakomai-child-medical",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.tomakomai.hokkaido.jp/kenko/kosodate/iryohijosei/kosodatesieniryou.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "tomakomai-housing-reform",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.tomakomai.hokkaido.jp/kurashi/jutaku/seisaku/shienjigyo.html"
     },
     {
       "severity": "warning",
@@ -13102,37 +15342,9 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "aichi-employment-training",
-      "title": "",
-      "message": "同じ公式URLが3件あります：https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyushokusha_shien/index.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "okazaki-childcare-leave-bonus",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.okazaki.lg.jp/business/sangyo/1005240/1005241.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "okazaki-community-bus",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.okazaki.lg.jp/kurashi/kotsu/1002769/1012390/1002773.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "okazaki-housing-seismic",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.okazaki.lg.jp/kurashi/bosai/1012542/1002798/1002807.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "toyohashi-childcare-leave-bonus",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.toyohashi.lg.jp/14617.htm"
     },
     {
       "severity": "warning",
@@ -13144,13 +15356,6 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "tsukuba-birth-bonus",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.tsukuba.lg.jp/soshikikarasagasu/kodomobukodomomiraicenter/gyomuannai/2/boshihoken/12195.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "tsukuba-elderly-support",
       "title": "",
       "message": "同じ公式URLが3件あります：https://www.city.tsukuba.lg.jp/soshikikarasagasu/fukushibukoreifukushika/gyomuannai/6/1/1001325.html"
@@ -13158,79 +15363,9 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "tsuchiura-birth-bonus",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/syussan-kosodate/teate-jose/page021534.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "tsuchiura-disability-medical",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.tsuchiura.lg.jp/kurashi-tetsuzuki/kokuho-nenkin/marufuku/kakushu-marufuku/page016850.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "tsuchiura-nursing-home-reform",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.tsuchiura.lg.jp/kenko-fukushi-iryo/fukushi/koreishafukushi/kakushujigyo-service/kaigohoken/kaigo-service/page000248.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "tsuchiura-school-lunch",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.tsuchiura.lg.jp/kosodate-kyoiku/hoiku-gakko/gakko-kyoiku/gakko-kyushoku/page017408.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "hitachi-commuter-subsidy",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.hitachi.lg.jp/kurashi_tetsuzuki/sumai/1002171/1007303/1002724.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "kurashiki-housing-seismic",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.kurashiki.okayama.jp/kurashi/sumai/1014765/1014785/1014786.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "kurashiki-school-lunch",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.kurashiki.okayama.jp/kosodate/school/1011758/1024208.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "koshigaya-block-wall-removal",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.koshigaya.saitama.jp/kurashi_shisei/kurashi/sumai/sien/kaisyusokusin2026-1.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "tokorozawa-block-wall-removal",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.tokorozawa.saitama.jp/moshimo/bosai/saigaisonae1/bousaiguideh31-1.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "tokorozawa-newlywed-housing",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.tokorozawa.saitama.jp/aboutweb/kantanarekore/hojyo.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "tokorozawa-school-lunch",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.tokorozawa.saitama.jp/kosodatekyouiku/kyoiku/gakkokyoiku/gakkoukyoiku6/kyushoku2024.html"
     },
     {
       "severity": "warning",
@@ -13249,13 +15384,6 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "okinawa-city-startup-support",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.okinawa.okinawa.jp/sangyou/kigyoushien/sogyoushien/index.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "naha-elderly-support",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.naha.okinawa.jp/fukusi/koureisyafukusi/1003057/1003069.html"
@@ -13263,30 +15391,9 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "ichinoseki-child-medical",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.ichinoseki.iwate.jp/archive/contents-176142"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "ichinoseki-bousai-equipment",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.ichinoseki.iwate.jp/archive/contents-28758"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "ichinoseki-housing-reform",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.ichinoseki.iwate.jp/archive/p20260312144712"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "ichinoseki-migration-support",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.ichinoseki.iwate.jp/archive/contents-140198"
     },
     {
       "severity": "warning",
@@ -13301,13 +15408,6 @@
       "slug": "gifu-child-support",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.pref.gifu.lg.jp/page/6238.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "gifu-city-bousai-equipment",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.gifu.lg.jp/kurashi/bousai/1001341/1001352.html"
     },
     {
       "severity": "warning",
@@ -13347,20 +15447,6 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "miyazaki-city-housing-purchase",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.miyazaki.miyazaki.jp/business/loan/286647.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "miyazaki-city-scholarship",
-      "title": "",
-      "message": "同じ公式URLが3件あります：https://www.city.miyazaki.miyazaki.jp/scholarship-support/"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "miyakonojo-block-wall-removal",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.miyakonojo.miyazaki.jp/soshiki/101/73059.html"
@@ -13375,51 +15461,9 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "ishinomaki-birth-bonus",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.ishinomaki.lg.jp/kosodate/001/20230105132710.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "ishinomaki-home-care",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.ishinomaki.lg.jp/cont/10354000/1568/1568.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "kameoka-aged-meal-delivery",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.kameoka.kyoto.jp/soshiki/25/25991.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "kumamoto-city-school-lunch",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.kumamoto.jp/kiji00361131/index.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "kiryu-birth-bonus",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.kiryu.lg.jp/kosodate/1009666/1022254.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "kiryu-childcare-subsidy",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.kiryu.lg.jp/kosodate/1009669/1015626.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "kiryu-uij-turn",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.kiryu.lg.jp/shisei/machi/iinekiryu/1015464.html"
     },
     {
       "severity": "warning",
@@ -13441,13 +15485,6 @@
       "slug": "kure-newlywed-rent",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.kure.lg.jp/soshiki/46/kosodatesetainoteizyuusiennzigyou.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "hiroshima-city-scholarship",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.hiroshima.lg.jp/faq/education/1028193/1008965.html"
     },
     {
       "severity": "warning",
@@ -13956,13 +15993,6 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "nagasaki-city-fertility-treatment",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.nagasaki.lg.jp/page/5963.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "nagasaki-city-school-lunch",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.nagasaki.lg.jp/page/71787.html"
@@ -13984,44 +16014,9 @@
     {
       "severity": "warning",
       "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "isahaya-scholarship",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.isahaya.nagasaki.jp/soshiki/84/1424.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
       "slug": "isahaya-sme-support",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.isahaya.nagasaki.jp/soshiki/49/1594.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "okaya-nursery-support",
-      "title": "",
-      "message": "同じ公式URLが6件あります：https://www.city.okaya.lg.jp/soshikikarasagasu/hishokohoka/shiseijoho/4/28428.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "matsumoto-bousai-equipment",
-      "title": "",
-      "message": "同じ公式URLが5件あります：https://www.city.matsumoto.nagano.jp/uploaded/attachment/120881.pdf"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "matsumoto-childcare-subsidy",
-      "title": "",
-      "message": "同じ公式URLが4件あります：https://www.city.matsumoto.nagano.jp/uploaded/attachment/103689.pdf"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "matsumoto-dementia-early",
-      "title": "",
-      "message": "同じ公式URLが3件あります：https://www.city.matsumoto.nagano.jp/uploaded/attachment/123142.pdf"
     },
     {
       "severity": "warning",
@@ -15380,6 +17375,13 @@
       "slug": "career-up-joseikin",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/part_haken/jigyounushi/career.html"
+    },
+    {
+      "severity": "warning",
+      "code": "DUPLICATE_OFFICIAL_URL",
+      "slug": "shokugyou-kunren-ukekou-kyuufukin",
+      "title": "",
+      "message": "同じ公式URLが2件あります：https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/koyou/kyushokusha_shien/index.html"
     },
     {
       "severity": "warning",

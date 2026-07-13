@@ -40,12 +40,12 @@
 |---|---|
 | `npm run lint` | 成功 |
 | `npm run typecheck` | 成功 |
-| `npm test` | 67件成功 |
+| `npm test` | 68件成功 |
 | `npm run check:copy` | 成功 |
 | `npm run audit:content` | 重大エラー0件 |
 | `npm run build` | 成功、7,323ページ生成 |
 | `npm run audit:build` | 重大エラー0件 |
-| `npm run test:e2e` | 33ケース成功、axe重大違反0件 |
+| `npm run test:e2e` | 34ケース成功、axe重大違反0件 |
 
 Lighthouseのモバイル計測中央値はPerformance 97、Accessibility 100、Best Practices 100、SEO 100でした。LCPは2.6秒、CLSは0、Total Blocking Timeは10msです。詳細は `reports/lighthouse-summary.md` に記録しました。
 
@@ -72,6 +72,6 @@ Lighthouseのモバイル計測中央値はPerformance 97、Accessibility 100、
 
 ## 未解決項目
 
-コンテンツ監査には警告2,200件が残っています。内訳の中心は説明文不足、公式URL重複、タイトル重複です。該当ページはnoindex基準と修正待ち判定で検索公開を抑えていますが、公式資料を照合したうえで順次修正する必要があります。
+コンテンツ監査には警告2,486件が残っています。内訳の中心は説明文不足、公式URL重複、公式確認先不足です。該当ページはnoindex基準と修正待ち判定で検索公開を抑えていますが、公式資料を照合したうえで順次修正する必要があります。
 
 この作業は専用ブランチにあり、現在の本番へは未公開です。全国収集側の最新変更を取り込んで競合を確認し、全検査を再実行してからmainへ統合してください。

@@ -1,4 +1,5 @@
 import type { Audience, GrantStatus, Purpose, SupportType } from './types.ts';
+import { hasOfficialSource } from './grant-source.ts';
 
 export interface RelatedGrantLike {
   slug: string;
@@ -9,23 +10,15 @@ export interface RelatedGrantLike {
   supportType: SupportType;
   status: GrantStatus;
   officialUrl: string;
+  sourceUrls?: string[];
 }
 
 function intersects<T>(left: T[], right: T[]): boolean {
   return left.some((item) => right.includes(item));
 }
 
-function hasOfficialUrl(value: string): boolean {
-  try {
-    const url = new URL(value);
-    return url.protocol === 'https:' || url.protocol === 'http:';
-  } catch {
-    return false;
-  }
-}
-
 function scoreRelatedGrant(current: RelatedGrantLike, candidate: RelatedGrantLike): number | null {
-  if (candidate.slug === current.slug || !hasOfficialUrl(candidate.officialUrl)) return null;
+  if (candidate.slug === current.slug || !hasOfficialSource(candidate)) return null;
   if (candidate.status === 'closed' || candidate.status === 'suspended') return null;
   if (candidate.prefecture !== current.prefecture && candidate.prefecture !== '全国') return null;
   if (!intersects(current.audiences, candidate.audiences)) return null;

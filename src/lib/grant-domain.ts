@@ -123,6 +123,11 @@ function inferMunicipality(input: LegacyGrant): string | null {
   return null;
 }
 
+function hasUnconfirmedExistence(input: LegacyGrant): boolean {
+  const text = [input.title, input.description, input.eligibility, ...input.tags].join(' ');
+  return /公式(?:現行)?(?:制度|助成金)?(?:として)?確認不可|公式(?:一次情報|サイト).{0,24}確認でき(?:ません|ない)|掲載停止|通常一覧から除外|非表示扱い/.test(text);
+}
+
 export function normalizeGrant(input: LegacyGrant): NormalizedGrant {
   const category = CATEGORY_MAP[input.category] ?? 'living';
   const relatedCategories = unique(
@@ -132,7 +137,8 @@ export function normalizeGrant(input: LegacyGrant): NormalizedGrant {
   );
   const audiences = inferAudiences(input);
   const purposes = inferPurposes(input);
-  const officialSourceUrls = getValidOfficialSourceUrls(input);
+  const unconfirmedExistence = hasUnconfirmedExistence(input);
+  const officialSourceUrls = unconfirmedExistence ? [] : getValidOfficialSourceUrls(input);
   const hasOfficialSource = officialSourceUrls.length > 0;
   const hasInternalPublicCopy = [
     input.title,
@@ -140,8 +146,9 @@ export function normalizeGrant(input: LegacyGrant): NormalizedGrant {
     input.eligibility,
     ...input.sections.flatMap((section) => [section.heading, section.content]),
   ].some(containsInternalAuditText);
-  const contentStatus: ContentStatus = input.contentStatus
-    ?? (!hasOfficialSource ? 'unverified' : hasInternalPublicCopy ? 'needsReview' : 'published');
+  const contentStatus: ContentStatus = unconfirmedExistence
+    ? 'needsReview'
+    : input.contentStatus ?? (!hasOfficialSource ? 'unverified' : hasInternalPublicCopy ? 'needsReview' : 'published');
   const sections = input.sections
     .filter((section) => !containsInternalAuditText(section.heading))
     .map((section) => ({
@@ -168,18 +175,20 @@ export function normalizeGrant(input: LegacyGrant): NormalizedGrant {
     eligibility: sanitizePublicGrantText(input.eligibility),
     description: sanitizePublicGrantText(input.description),
     sections,
+    officialUrl: unconfirmedExistence ? '' : input.officialUrl,
+    sourceUrls: unconfirmedExistence ? undefined : input.sourceUrls,
     category,
     relatedCategories,
     applicationPeriod: input.applicationPeriod ?? '',
     status: input.statusOverride ?? input.status ?? 'unknown',
-    verificationMethod: inferVerificationMethod(input),
-    humanReviewedAt: input.humanReviewedAt ?? null,
-    sourceTitle: input.sourceName ?? null,
+    verificationMethod: unconfirmedExistence ? 'unknown' : inferVerificationMethod(input),
+    humanReviewedAt: unconfirmedExistence ? null : input.humanReviewedAt ?? null,
+    sourceTitle: unconfirmedExistence ? null : input.sourceName ?? null,
     sourceUrl: officialSourceUrls[0] ?? null,
     sourceCheckedAt: input.verifiedAt ?? null,
     contentUpdatedAt: input.contentUpdatedAt ?? input.publishedAt,
     contentStatus,
-    indexStatus: input.indexStatus ?? (
+    indexStatus: unconfirmedExistence ? 'noindex' : input.indexStatus ?? (
       hasOfficialSource && contentStatus === 'published' ? 'index' : 'noindex'
     ),
     monetizationAllowed: input.monetizationAllowed ?? false,
