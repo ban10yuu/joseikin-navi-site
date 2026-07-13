@@ -61590,7 +61590,7 @@ export const verifiedLocalMiscGrants2026: LegacyGrant[] = [
     publishedAt: '2026-07-02',
   },
   {
-    slug: 'kushiro-elderly-taxi',
+    slug: 'kushiro-elderly-outing-bus',
     title: '釧路市 高齢者外出促進バス事業',
     organization: '釧路市',
     type: 'local',
@@ -118767,7 +118767,7 @@ export const verifiedLocalMiscGrants2026: LegacyGrant[] = [
     sourceNote: '2026年7月8日に鹿児島市公式ページを確認。空き店舗活用開業支援、補助率2分の1以内、中心市街地商店街区域内上限100万円、区域外等上限50万円を確認。',
   }),
   localVerifiedGrant({
-    slug: 'kagoshima-elderly-taxi',
+    slug: 'kagoshima-keiro-pass',
     title: '鹿児島市 敬老パス',
     organization: '鹿児島市',
     maxAmount: '市電・バス等を3分の1の料金で利用',
