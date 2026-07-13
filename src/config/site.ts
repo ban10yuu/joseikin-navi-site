@@ -11,6 +11,7 @@ export const siteConfig = {
   indexable: isIndexableDeployment(),
   operatorName: optionalValue(process.env.NEXT_PUBLIC_OPERATOR_NAME),
   contactEmail: optionalValue(process.env.NEXT_PUBLIC_CONTACT_EMAIL),
+  contactFormUrl: optionalValue(process.env.NEXT_PUBLIC_CONTACT_FORM_URL),
   analytics: {
     ga4MeasurementId: optionalValue(process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID),
     vercelAnalyticsEnabled: process.env.NEXT_PUBLIC_VERCEL_ANALYTICS_ENABLED === 'true',

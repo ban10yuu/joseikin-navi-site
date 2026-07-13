@@ -46,6 +46,34 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+.policy-content h2 {
+  margin-bottom: 0.65rem;
+  color: #111827;
+  font-size: 1.25rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.policy-content h3 {
+  margin-bottom: 0.5rem;
+  color: #111827;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.policy-content a:not([class]) {
+  color: #1e478a;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 /* ── Accessibility: visible focus rings everywhere ── */
 :focus-visible {
   outline: 3px solid #2557a7;

@@ -1,60 +1,44 @@
 import Link from 'next/link';
-import { CATEGORY_LABELS } from '@/lib/types';
+import { FOOTER_NAVIGATION } from '@/config/navigation';
+import { siteConfig } from '@/config/site';
 
-const categories = Object.entries(CATEGORY_LABELS);
-
-const footerLink = 'text-xs text-white/65 hover:text-white hover:underline underline-offset-2 transition-colors';
+const footerLink = 'inline-flex min-h-11 items-center text-sm text-white/75 underline-offset-4 hover:text-white hover:underline';
 
 export default function Footer() {
+  const exploreLinks = FOOTER_NAVIGATION.slice(0, 6);
+  const trustLinks = FOOTER_NAVIGATION.slice(6);
+
   return (
-    <footer className="bg-navy-deep text-white/65 mt-16 border-t-4 border-accent">
-      <div className="max-w-5xl mx-auto px-4 py-10">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <footer className="mt-16 border-t-4 border-accent bg-navy-deep text-white/75">
+      <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-12">
+        <div className="grid gap-8 md:grid-cols-[1.2fr_1fr_1.35fr]">
           <div>
-            <Link href="/" className="inline-flex items-center gap-2 mb-3 rounded-md">
-              <div className="w-7 h-7 rounded-md bg-accent flex items-center justify-center text-white font-black text-xs">助</div>
-              <span className="text-base font-black text-white tracking-wide">助成金ナビ</span>
+            <Link href="/" className="inline-flex min-h-11 items-center gap-2 rounded-md">
+              <span className="flex h-8 w-8 items-center justify-center rounded-md bg-accent text-sm font-black text-white">助</span>
+              <span className="text-lg font-black tracking-wide text-white">{siteConfig.name}</span>
             </Link>
-            <p className="text-xs leading-relaxed text-white/65">
-              国・自治体・民間の助成金・補助金情報を掲載。あなたに合った支援制度が見つかるサイトです。
-            </p>
+            <p className="mt-3 max-w-sm text-sm leading-7 text-white/70">国・自治体・民間団体の公式情報をもとに、支援制度の対象、内容、期限、確認先を整理する民間運営の情報サイトです。</p>
           </div>
 
-          <div>
-            <h3 className="text-white font-bold mb-3 text-sm border-b border-white/15 pb-1.5">カテゴリ</h3>
-            <ul className="space-y-1.5">
-              {categories.map(([key, label]) => (
-                <li key={key}>
-                  <Link href={`/category/${key}/`} className={footerLink}>{label}</Link>
-                </li>
-              ))}
+          <nav aria-label="制度を探す">
+            <h2 className="border-b border-white/15 pb-2 text-sm font-bold text-white">制度を探す</h2>
+            <ul className="mt-2">
+              {exploreLinks.map((item) => <li key={item.label}><Link href={item.href} className={footerLink}>{item.label}</Link></li>)}
             </ul>
-          </div>
+          </nav>
 
-          <div>
-            <h3 className="text-white font-bold mb-3 text-sm border-b border-white/15 pb-1.5">サイト情報</h3>
-            <ul className="space-y-1.5">
-              <li><Link href="/grants/" className={footerLink}>助成金一覧</Link></li>
-              <li><Link href="/guide/" className={footerLink}>申請ガイド</Link></li>
-              <li><Link href="/faq/" className={footerLink}>よくある質問</Link></li>
-              <li><Link href="/subscribe/" className={footerLink}>メール登録</Link></li>
-              <li><Link href="/privacy/" className={footerLink}>プライバシーポリシー</Link></li>
-              <li><Link href="/contact/" className={footerLink}>お問い合わせ</Link></li>
+          <nav aria-label="サイトの信頼情報">
+            <h2 className="border-b border-white/15 pb-2 text-sm font-bold text-white">サイトの方針・お問い合わせ</h2>
+            <ul className="mt-2 grid sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2">
+              {trustLinks.map((item) => <li key={item.label}><Link href={item.href} className={footerLink}>{item.label}</Link></li>)}
             </ul>
-
-            {/* 関連サイト */}
-            <h3 className="text-white font-bold mb-2 mt-5 text-sm border-b border-white/15 pb-1.5">関連サイト</h3>
-            <div className="flex flex-col gap-1.5">
-              <a href="https://manga-matome-site.vercel.app" target="_blank" rel="noopener" className={footerLink}>マンガ考察ラボ</a>
-              <a href="https://vod-navi-site.vercel.app" target="_blank" rel="noopener" className={footerLink}>動画配信ナビ</a>
-              <a href="https://fukusen-lab.vercel.app" target="_blank" rel="noopener" className={footerLink}>伏線回収ラボ</a>
-            </div>
-          </div>
+          </nav>
         </div>
 
-        <div className="border-t border-white/15 mt-8 pt-5 text-[11px] text-white/50">
-          <p>&copy; {new Date().getFullYear()} 助成金ナビ</p>
-          <p className="mt-1 leading-relaxed">※当サイトの情報は一般的な情報提供を目的としており、個別の申請に関する助言ではありません。最新情報は各公式サイトをご確認ください。</p>
+        <div className="mt-8 border-t border-white/15 pt-6 text-xs leading-7 text-white/65">
+          <p className="font-bold text-white">助成金ナビは民間運営の情報サイトであり、国・自治体の公式サイトではありません。</p>
+          <p>掲載情報だけで対象可否は確定しません。申請前に公式募集要項をご確認ください。</p>
+          <p className="mt-2">&copy; {new Date().getFullYear()} {siteConfig.name}</p>
         </div>
       </div>
     </footer>
