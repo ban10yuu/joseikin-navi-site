@@ -1,0 +1,109 @@
+{
+  "batchId": "yamagata-official-second-pass-007",
+  "completedAt": "2026-07-13T16:55:06+09:00",
+  "prefecture": "山形県",
+  "mode": "official-second-pass",
+  "municipalities": [
+    {
+      "code": "06364",
+      "name": "真室川町",
+      "officialBaseUrl": "https://www.town.mamurogawa.yamagata.jp/",
+      "sourceUrlsChecked": [
+        "https://www.town.mamurogawa.yamagata.jp/soshiki/kyoiku/2/8/693.html",
+        "https://www.town.mamurogawa.yamagata.jp/material/files/group/6/kateihoikukyuuhukin.pdf",
+        "https://www.town.mamurogawa.yamagata.jp/soshiki/kyoiku/2/15/1237.html",
+        "https://www.town.mamurogawa.yamagata.jp/soshiki/kyoiku/2/5/1/5015.html",
+        "https://www.town.mamurogawa.yamagata.jp/soshiki/fukushi/1/5/3/1686.html"
+      ],
+      "adoptedSlugs": [
+        "mamurogawa-home-childcare-support-benefit-2026",
+        "mamurogawa-kamuro-industrial-high-school-support-2026",
+        "mamurogawa-community-center-facility-subsidy-2026",
+        "mamurogawa-community-center-management-subsidy-2026",
+        "mamurogawa-caregiver-encouragement-grant-2026",
+        "mamurogawa-emergency-taxi-subsidy-2026"
+      ],
+      "heldForLater": [
+        "令和8年度真室川町非課税世帯エアコン購入設置費助成事業は新着導線まで確認。個別本文と申請期限の取得を継続する。",
+        "令和7年度高齢者等世帯の屋根雪除雪支援は現行年度差分と令和8年度継続性を次巡で確認する。",
+        "大学生等食の支援、地域づくり・団体支援系は金額・受付状況の個別本文確認を継続する。"
+      ]
+    },
+    {
+      "code": "06365",
+      "name": "大蔵村",
+      "officialBaseUrl": "https://www.vill.ohkura.yamagata.jp/",
+      "sourceUrlsChecked": [
+        "https://www.vill.ohkura.yamagata.jp/kurashi_tetsuzuki/juminkatsudo_community_kyohatarake/jichikai/index.html",
+        "https://www.vill.ohkura.yamagata.jp/kurashi_tetsuzuki/juminkatsudo_community_kyohatarake/jichikai/1206.html"
+      ],
+      "adoptedSlugs": [
+        "ohkura-heavy-snow-removal-subsidy-2026"
+      ],
+      "heldForLater": [
+        "結婚支援事業ページ内の結婚新生活支援は県連携・既存同種制度との重複を再整理する。",
+        "大蔵村暮らし応援商品券は対象・金額・配布時期の現行個別本文を確認してから採否判断する。",
+        "豪雪対策除排雪事業補助金は令和7年度豪雪対応として採用したため、令和8年度常設制度ではない点を次巡でも注記する。"
+      ]
+    },
+    {
+      "code": "06366",
+      "name": "鮭川村",
+      "officialBaseUrl": "https://www.vill.sakegawa.yamagata.jp/",
+      "sourceUrlsChecked": [
+        "https://www.vill.sakegawa.yamagata.jp/topics/1698",
+        "https://www.vill.sakegawa.yamagata.jp/seikatsu/jyutaku/1693",
+        "https://www.vill.sakegawa.yamagata.jp/seikatsu/jyutaku/1565",
+        "https://www.vill.sakegawa.yamagata.jp/seikatsu/jyutaku/22"
+      ],
+      "adoptedSlugs": [
+        "sakegawa-water-basic-fee-reduction-2026",
+        "sakegawa-wooden-house-seismic-diagnosis-dispatch-2026",
+        "sakegawa-wooden-house-seismic-retrofit-subsidy-2026",
+        "sakegawa-cliff-adjacent-house-relocation-subsidy-2026",
+        "sakegawa-septic-tank-installation-subsidy-2026"
+      ],
+      "heldForLater": [
+        "災害援護資金貸付は貸付制度として、対象災害・金額・償還条件の個別本文を次巡で確認する。",
+        "施設農業等経営支援給付金は現行性と受付状況を継続確認する。",
+        "令和8年度新やまがた就職促進奨学金返還支援事業は県連携のため村独自差分を確認する。"
+      ]
+    },
+    {
+      "code": "06367",
+      "name": "戸沢村",
+      "officialBaseUrl": "https://www.vill.tozawa.yamagata.jp/",
+      "sourceUrlsChecked": [
+        "https://www.vill.tozawa.yamagata.jp/life/seikatsu_kotsu_jutaku/jutaku_hojokin/",
+        "https://www.vill.tozawa.yamagata.jp/files/libs/4744/202604161150355454.pdf",
+        "https://www.vill.tozawa.yamagata.jp/files/libs/4742/202604161148227133.pdf",
+        "https://www.vill.tozawa.yamagata.jp/files/libs/4969/202606221423339776.pdf",
+        "https://www.vill.tozawa.yamagata.jp/files/libs/4854/202605180943301858.pdf"
+      ],
+      "adoptedSlugs": [
+        "tozawa-housing-renovation-support-subsidy-2026",
+        "tozawa-owned-house-improvement-subsidy-2026",
+        "tozawa-vacant-house-demolition-subsidy-2026",
+        "tozawa-dangerous-vacant-house-demolition-subsidy-2026"
+      ],
+      "heldForLater": [
+        "戸沢村再生可能エネルギー設備等設置事業費補助金は掲載がdocx要綱中心のため、金額表を抽出してから採否判断する。",
+        "中小企業環境改善事業助成金、中小企業者等支援事業費補助金、企業立地等雇用促進奨励金、結婚新生活支援事業、出会い応援事業補助金はまちづくり課掲載PDFを次巡で精査する。",
+        "飲用水水質検査補助金は制定ページと要綱PDFを確認してから採否判断する。"
+      ]
+    }
+  ],
+  "summary": {
+    "adoptedCount": 16,
+    "heldCount": 12,
+    "sourceUrlsChecked": 16,
+    "notes": "真室川町6件、大蔵村1件、鮭川村5件、戸沢村4件を追加。第1巡採用済みの34件は重複採用しない。全国公式棚卸しは未完了。"
+  },
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: added 16 slugs, duplicateCount 0",
+    "urlReachability": "pass: added 16 official URLs all HTTP 200",
+    "diffCheck": "pass: git diff --check for Yamagata second pass 007 files",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9545, officialLinkedActive 9507, manuallyVerifiedActive 9507, Yamagata localOfficial 426, Yamagata coveredCategories 8"
+  }
+}

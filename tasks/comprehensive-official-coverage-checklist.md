@@ -5396,3 +5396,30 @@
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-second-pass-006.json`: pass。
   - 次:
     - 山形県第2巡007として、06364真室川町、06365大蔵村、06366鮭川村、06367戸沢村の第1巡保留候補を公式本文/PDFで確認する。
+
+- 山形県第2巡007（真室川町・大蔵村・鮭川村・戸沢村）
+  - 対象: 06364真室川町、06365大蔵村、06366鮭川村、06367戸沢村。
+  - 方法:
+    - `tasks/discovery/yamagata-official-coverage-007.json` の第1巡採用済み34件を重複除外し、第1巡保留候補を町村公式本文・PDFで再確認した。
+    - 真室川町は家庭保育支援PDF、神室産業高校支援、地区公民館補助、介護支援一覧を確認した。
+    - 大蔵村は豪雪対策除排雪事業補助金の個別本文と要綱導線を確認した。
+    - 鮭川村は水道料金減免、木造住宅耐震、がけ地危険住宅移転、浄化槽設置の個別本文を確認した。
+    - 戸沢村は住宅補助金一覧と要綱・概要PDFを確認し、住宅リフォーム、持家住宅整備、空き家解体、老朽危険空き家解体を制度単位で採用した。
+  - 追加:
+    - 真室川町: 家庭保育支援給付金、県立神室産業高等学校真室川校への支援、公民館分館施設整備補助金、公民館分館管理運営費補助金、重度要介護高齢者介護者激励金、救急タクシー事業。
+    - 大蔵村: 豪雪対策除排雪事業補助金。
+    - 鮭川村: 水道料金の減額免除、木造住宅耐震診断士派遣事業、木造住宅耐震改修等事業費補助金、がけ地近接等危険住宅移転事業補助金、浄化槽設置整備事業。
+    - 戸沢村: 住宅リフォーム総合支援事業補助金、持家住宅整備促進事業補助金、空き家解体事業費補助金、老朽危険空き家解体事業費補助金。
+  - 保留継続:
+    - 真室川町の非課税世帯エアコン購入設置費助成、令和8年度高齢者等世帯の屋根雪除雪支援、大学生等食の支援、地域づくり・団体支援系は現行個別本文・金額・受付状況を継続確認する。
+    - 大蔵村の結婚支援事業ページ内結婚新生活支援と暮らし応援商品券は、県連携・既存同種制度との重複と現行個別本文を継続確認する。
+    - 鮭川村の災害援護資金貸付、施設農業等経営支援給付金、新やまがた就職促進奨学金返還支援事業は、貸付条件・現行性・村独自差分を継続確認する。
+    - 戸沢村の再生可能エネルギー設備等設置事業費補助金、商工・雇用・結婚・出会い応援系PDF、飲用水水質検査補助金は次巡で金額表を抽出する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 16件、重複確認 pass（duplicateCount 0）。
+    - 追加した16制度16公式URLの到達確認 pass（すべて HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9545、officialLinkedActive 9507、manuallyVerifiedActive 9507、山形県 `localOfficial` 426、山形県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-second-pass-007.json`: pass。
+  - 次:
+    - 山形県第2巡008として、06426三川町、06428庄内町、06461遊佐町の第1巡保留候補を公式本文/PDFで確認する。
