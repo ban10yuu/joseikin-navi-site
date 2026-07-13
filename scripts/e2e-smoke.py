@@ -63,6 +63,7 @@ with sync_playwright() as playwright:
 
     unverified, _ = open_page(browser, '/grant/chiba-migration-support/', 390, 844)
     check('noindex' in (unverified.locator('meta[name="robots"]').get_attribute('content') or ''), '公式リンクなし制度がnoindexではありません')
+    check('公式情報の確認先は未登録' in (unverified.locator('meta[name="description"]').get_attribute('content') or ''), '公式リンクなし制度のメタ説明が確認済みと誤認させます')
     check(unverified.locator('.grant-official-primary').count() == 0, '公式リンクなし制度に公式CTAが表示されています')
     unverified.close()
 
