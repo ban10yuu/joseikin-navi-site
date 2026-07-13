@@ -6877,4 +6877,39 @@
     - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
     - 川島町の低所得妊婦初回産科受診料助成、クビアカツヤカミキリ駆除奨励金、妊婦支援給付、不妊検査費等、1か月児健康診査費助成、吉見町の出産・子育て応援ギフト、物価高対応子育て応援手当、企業誘致優遇制度、ゼロカーボンシティ推進補助金、高齢者補聴器、骨髄移植ドナー、不妊検査等、鳩山町の物価高対応子育て応援手当、児童手当、国保税減免、生活支援ギフトカード、胃がんリスク検査、住宅リフォーム/除却補助、多子世帯向け住宅取得等支援、ときがわ町の浄化槽事業、物価高対応子育て応援手当、物価高騰対策関連事業、林業振興、住宅、移住・定住カテゴリは、金額・対象・受付状況又は制度重複の観点で第2巡候補に残す。
   - 次:
-    - 埼玉県公式棚卸し014として、11361横瀬町、11362皆野町、11363長瀞町、11365小鹿野町を自治体コード順に確認する。
+    - 埼玉県公式棚卸し014として、11361横瀬町、11362皆野町、11363長瀞町、11365小鹿野町を自治体コード順に確認した。
+
+- 埼玉県公式棚卸し014
+  - 対象:
+    - 11361 横瀬町、11362 皆野町、11363 長瀞町、11365 小鹿野町。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補259件をローカルJSONへ保存した。
+    - 候補数が150件を超えたため、公式リンク短評359件、公式本文スニペット256件を `tasks/discovery/saitama-official-coverage-014-link-shortlist.json` と `tasks/discovery/saitama-official-coverage-014-detail-snippets.json` に保存し、制度強語、金額・上限、対象条件、期限・受付表現の揃う個別ページ/PDFを再スコアリングした。
+    - 横瀬町住宅環境改善及び空き家活用促進補助金は、公式HTML本文から対象・着手前申請を確認し、公式掲載PDFから工事別補助額を確認した。
+    - トップ、カテゴリ、サイトマップ、共通ナビ一致は採用せず、自治体本文又は公式個別ページ/PDFで必須項目を確認できる制度のみ採用した。
+  - 採用:
+    - 横瀬町5件: 省エネ家電製品買換促進事業補助金、住宅環境改善及び空き家活用促進補助金、新婚等世帯家賃補助金、法定外予防接種費用助成金、木造住宅耐震診断・耐震改修補助金。
+    - 皆野町5件: 住宅リフォーム補助金、学童保育所保護者負担金補助金、妊婦支援給付金、高齢者補聴器購入費助成、子育て世帯等定住促進事業住宅取得奨励補助金。
+    - 長瀞町5件: リノベーション創業支援事業補助金、除雪作業補助金交付事業、遠方出産交通費及び宿泊費支援助成金、高齢者補聴器購入費助成金、住宅取得補助金。
+    - 小鹿野町5件: 防犯カメラ設置費補助金、住宅用太陽光発電システム及び蓄電システム設置費等補助金、おがニャッピーくらし応援商品券2026、アピアランスケア用品購入費助成事業、物価高騰対策緊急経営資金利子補給補助金。
+  - 生成ファイル:
+    - `tasks/discovery/saitama-official-coverage-014-municipalities.json`
+    - `tasks/discovery/saitama-official-coverage-014-candidates.json`
+    - `tasks/discovery/saitama-official-coverage-014-link-shortlist.json`
+    - `tasks/discovery/saitama-official-coverage-014-detail-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-014-selected-main.json`
+    - `tasks/discovery/saitama-official-coverage-014-selected-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-014-official-extra.json`
+    - `tasks/discovery/saitama-official-coverage-014.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（20件、各1件）。
+    - 公式URL到達: pass（20 unique official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10602、officialLinkedActive 10564、manuallyVerifiedActive 10564、埼玉県 localOfficial 481）。横瀬町省エネ家電、横瀬町帯状疱疹助成、長瀞町創業支援、長瀞町除雪は受付終了済み期限を明示したため、active集計には含まれない。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 横瀬町の高齢者等IT機器導入支援補助金、妊婦健診費助成事業、移住支援金、中学3年生・高齢者インフルエンザ予防接種、皆野町の住宅用太陽光発電設備設置費補助金、移住支援金制度、不妊・不育症検査、不妊治療費助成、チャイルドシート購入費補助金、長瀞町の令和8年度はつらつ！就学・通学応援金、物価高対応子育て応援手当、各種医療費助成・ドナー助成、移住情報カテゴリ、小鹿野町の店舗・住宅リフォーム助成金、住宅取得助成、移住支援金、妊婦支援給付金、空き家改修・定住促進奨励金は、金額・対象・受付状況又は制度重複の観点で第2巡候補に残す。
+  - 次:
+    - 埼玉県公式棚卸し015として、11369東秩父村、11381美里町、11383神川町、11385上里町を自治体コード順に確認する。
