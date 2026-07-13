@@ -6075,3 +6075,35 @@
     - 那須町の移住・定住助成一覧ページは個別制度URLではないため台帳に残し、一覧内の他制度は第2巡で個別ページ確認する。
   - 次:
     - 栃木県公式棚卸し007として、09411那珂川町を自治体コード順に確認する。
+
+- 栃木県公式棚卸し007
+  - 対象:
+    - 09411 那珂川町。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補73件をローカルJSONへ保存した。
+    - `tasks/discovery/tochigi-official-coverage-007-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現、再スコアを抽出した。
+    - 公式HTMLサイトマップとカテゴリページから個別制度ページを補完し、`tasks/discovery/tochigi-official-coverage-007-sitemap-links.json` と `tasks/discovery/tochigi-official-coverage-007-official-extra.json` に保存した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページのみ採用した。
+  - 採用:
+    - 那珂川町32件: 農作業省力化対策、高校生等通学支援、人間ドック・脳ドック、在宅介護紙おむつ、結婚新生活支援、とちぎ結婚支援センター登録料、出産・子育て応援ギフト、先天性股関節脱臼検診、不妊等治療、こども医療費、妊産婦医療費、県立馬頭高校通学費等、入学・進学支援金、学校給食費全額減免、浄化槽設置整備、生ごみ処理機器、環境学習会開催、環境人材育成、運転免許証自主返納、木造住宅耐震改修・建替え、木材需要拡大、空き家取得、空き店舗等活用、空き家改修、特殊詐欺電話撃退機器、がん患者医療用ウィッグ・乳房補整具、骨髄移植ドナー、インフルエンザ予防接種、ぐるっとなかがわ応援券、奨学金（貸与）、物価高対応子育て応援手当、水道基本料金免除。
+  - 生成ファイル:
+    - `tasks/discovery/tochigi-official-coverage-007-municipalities.json`
+    - `tasks/discovery/tochigi-official-coverage-007-candidates.json`（raw候補）
+    - `tasks/discovery/tochigi-official-coverage-007-detail-snippets.json`
+    - `tasks/discovery/tochigi-official-coverage-007-sitemap-links.json`
+    - `tasks/discovery/tochigi-official-coverage-007-official-extra.json`
+    - `tasks/discovery/tochigi-official-coverage-007.json`
+  - 検証:
+    - 追加slug重複: pass（全9681slugでduplicateCount 0）。
+    - 公式URL到達: pass（追加31URLすべてHTTP 200）。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10039、officialLinkedActive 10001、manuallyVerifiedActive 10001、栃木県 localOfficial 303）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 那珂川町低炭素まちづくり推進設備等導入事業費補助金はHTML本文で対象設備と受付期間を確認したが、設備別補助額表がPDF側のため第2巡で金額表を確認する。
+    - ぐるっとなかがわ応援券は公式本文で配布・利用期限を確認したが、対象者リンク先の1人あたり金額を第2巡で確認する。
+    - 那珂川町医療費助成ページ内のひとり親家庭医療費・重度心身障害者医療費・未熟児養育医療・育成医療は対象・自己負担・申請粒度を第2巡で分割確認する。
+  - 次:
+    - 群馬県公式棚卸し001として、自治体コード順に未完了自治体を確認する。
