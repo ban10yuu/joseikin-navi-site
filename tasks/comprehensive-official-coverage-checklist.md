@@ -3874,9 +3874,9 @@
     - 南三陸町の移住者家賃助成、マイホーム取得、不妊検査・治療、労働力確保、就労奨励金は第1巡009で既採用のため重複採用しない。子育て・教育、保険医療、住まい等のカテゴリページ、教育支援センター、母子健康手帳交付、新生児訪問等の案内ページは補助金等の個別制度ページとして採用しない。
   - 検証:
     - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
-    - 追加24slug一意確認: pass。
+    - 追加24slug一意確認: pass（総slug 9519、重複0）。
     - 24制度24URLの公式URL到達確認: 全件HTTP 200。
-    - `npm run audit:coverage`: pass（failures 0、activePublished 8111、officialLinkedActive 8073、manuallyVerifiedActive 8073、宮城県 localOfficial 355）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9445、officialLinkedActive 9407、manuallyVerifiedActive 9407、宮城県 localOfficial 355、宮城県 coveredCategories 8）。
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-second-pass-009.json`: pass。
   - 次:
     - 宮城県第1巡・第2巡の採否記録を集計し、候補未判定ゼロの最終監査を行う。
