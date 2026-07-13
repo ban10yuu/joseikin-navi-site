@@ -6810,4 +6810,37 @@
     - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
     - 白岡市の物価高対応子育て応援手当・ひとり親家庭等医療費・自立支援教育訓練給付金・小口融資、伊奈町の住宅用省エネルギー設備・補聴器購入費・GPS端末・早期不妊検査、三芳町の高齢者補聴器・耐震助成・小口融資・介護手当、毛呂山町の空き店舗利活用創業チャレンジ支援・不妊検査/不育症検査・生ごみ処理容器・高齢者肺炎球菌等は、金額・対象・受付状況又は制度重複の観点で第2巡候補に残す。
   - 次:
-    - 埼玉県公式棚卸し012として、11327越生町、11341滑川町、11342嵐山町、11343小川町を自治体コード順に確認する。
+    - 埼玉県公式棚卸し012として、11327越生町、11341滑川町、11342嵐山町、11343小川町を自治体コード順に確認した。
+
+- 埼玉県公式棚卸し012
+  - 対象:
+    - 11327 越生町、11341 滑川町、11342 嵐山町、11343 小川町。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補94件をローカルJSONへ保存した。
+    - 候補数が150件未満のため link-shortlist の追加再スコアリングは作成せず、公式本文スニペット126件を `tasks/discovery/saitama-official-coverage-012-detail-snippets.json` に保存して、制度強語、金額・上限、対象条件、期限・受付表現の揃う個別ページを採用した。
+    - 小川町は公式トップ候補が薄かったため、`/gyosei/` 配下を追加確認し、空き家除却、家具転倒防止、重度心身障害者医療、入学祝金、防災士資格取得支援の個別公式ページへ辿り直した。
+  - 採用:
+    - 越生町5件: 妊婦のための支援給付金、多子世帯向け住宅取得支援補助金、児童手当、こどもの医療費支給事業、こどものインフルエンザ予防接種費用助成。
+    - 滑川町5件: 重度心身障害者医療費助成、児童手当、こども医療費助成、耐震・住宅リフォーム補助金、物価高対策生活支援給付金。
+    - 嵐山町5件: 妊婦のための支援給付、産婦健康診査助成金、早期不妊検査費・不育症検査費助成、住宅防犯対策補助金、住宅リフォーム補助金。
+    - 小川町5件: 老朽空き家除却補助金、家具転倒防止器具設置・購入補助、重度心身障害者医療費助成、小中学校入学祝金、防災士資格取得支援補助金。
+  - 生成ファイル:
+    - `tasks/discovery/saitama-official-coverage-012-municipalities.json`
+    - `tasks/discovery/saitama-official-coverage-012-candidates.json`
+    - `tasks/discovery/saitama-official-coverage-012-detail-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-012-selected-main.json`
+    - `tasks/discovery/saitama-official-coverage-012-selected-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-012-official-extra.json`
+    - `tasks/discovery/saitama-official-coverage-012.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（20件、各1件）。
+    - 公式URL到達: pass（20 unique official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10567、officialLinkedActive 10529、manuallyVerifiedActive 10529、埼玉県 localOfficial 446）。小川町小中学校入学祝金は申請期限到来済み期限を明示したため、active集計には含まれない。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 越生町の出生祝金・初回産科費助成・産婦健康診査費用助成・妊婦等タクシー、滑川町の子育て支援金・人間ドック/脳ドック・子育て応援給付、嵐山町の小規模事業者等賃上げ雇用拡大支援金・妊婦健康診査償還払い、小川町のゼロカーボンシティ推進補助金・家族介護用品助成等は、金額・対象・受付状況又は制度重複の観点で第2巡候補に残す。
+  - 次:
+    - 埼玉県公式棚卸し013として、11346川島町、11347吉見町、11348鳩山町、11349ときがわ町を自治体コード順に確認する。

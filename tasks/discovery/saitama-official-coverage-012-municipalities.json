@@ -1,0 +1,26 @@
+{
+  "batchId": "saitama-comprehensive-official-coverage-012",
+  "prefecture": "埼玉県",
+  "municipalities": [
+    {
+      "code": "11327",
+      "name": "越生町",
+      "officialBaseUrl": "https://www.town.ogose.saitama.jp/"
+    },
+    {
+      "code": "11341",
+      "name": "滑川町",
+      "officialBaseUrl": "https://www.town.namegawa.saitama.jp/"
+    },
+    {
+      "code": "11342",
+      "name": "嵐山町",
+      "officialBaseUrl": "https://www.town.ranzan.saitama.jp/"
+    },
+    {
+      "code": "11343",
+      "name": "小川町",
+      "officialBaseUrl": "https://www.town.ogawa.saitama.jp/"
+    }
+  ]
+}

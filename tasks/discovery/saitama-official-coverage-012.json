@@ -1,0 +1,24 @@
+{
+  "batchId": "saitama-comprehensive-official-coverage-012",
+  "prefecture": "埼玉県",
+  "generatedAt": "2026-07-13T19:54:55.995Z",
+  "municipalityCodes": [
+    "11327",
+    "11341",
+    "11342",
+    "11343"
+  ],
+  "candidateFile": "tasks/discovery/saitama-official-coverage-012-candidates.json",
+  "detailSnippetFile": "tasks/discovery/saitama-official-coverage-012-detail-snippets.json",
+  "selectedMainFile": "tasks/discovery/saitama-official-coverage-012-selected-main.json",
+  "selectedSnippetFile": "tasks/discovery/saitama-official-coverage-012-selected-snippets.json",
+  "officialExtraFile": "tasks/discovery/saitama-official-coverage-012-official-extra.json",
+  "candidateCount": 94,
+  "detailSnippetCount": 126,
+  "selectedCount": 20,
+  "linkShortlistCreated": false,
+  "notes": [
+    "候補数94件のため150件超のlink-shortlist再スコアリングは未実施。",
+    "小川町は公式トップ候補が薄かったため/gyosei配下を追加確認。"
+  ]
+}
