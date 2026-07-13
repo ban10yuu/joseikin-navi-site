@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-07-14T08:55:00+09:00",
+  "updatedAt": "2026-07-14T07:21:29+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "chiba-official-coverage-005",
-    "municipality": "市原市・流山市・八千代市・我孫子市",
-    "adopted": 23,
-    "held": 285,
+    "code": "chiba-official-coverage-006",
+    "municipality": "鴨川市・鎌ケ谷市・君津市・富津市",
+    "adopted": 28,
+    "held": 329,
     "excluded": 0,
-    "sourceUrlsChecked": 23,
+    "sourceUrlsChecked": 28,
     "validation": {
-      "previousMunicipality": "千葉県公式棚卸し005として、12219市原市、12220流山市、12221八千代市、12222我孫子市の公式本文又は公式到達確認済みページを確認し、市原市3件、流山市7件、八千代市7件、我孫子市6件を採用した。全国公式棚卸しは未完了。",
+      "previousMunicipality": "千葉県公式棚卸し006として、12223鴨川市、12224鎌ケ谷市、12225君津市、12226富津市の公式本文又は公式PDFを確認し、鴨川市6件、鎌ケ谷市7件、君津市5件、富津市10件を採用した。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: 23 added slugs, duplicateCount 0 across all grant files",
-      "urlReachability": "pass: 23 official URLs returned HTTP 200",
+      "addedSlugUniqueness": "pass: 28 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 28 official URLs returned HTTP 200",
       "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 10764, officialLinkedActive 10726, manuallyVerifiedActive 10726, Chiba localOfficial 331"
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 10791, officialLinkedActive 10753, manuallyVerifiedActive 10753, Chiba localOfficial 358"
     }
   },
   "next": {
-    "code": "chiba-official-coverage-006",
-    "municipality": "鴨川市・鎌ケ谷市・君津市・富津市",
-    "shortlist": "千葉県公式棚卸し005は、市原市3件、流山市7件、八千代市7件、我孫子市6件を採用した。市原市のSPA記事本文で通常抽出できない制度、各市のカテゴリ導線、県・国制度紹介、様式のみ、金額又は受付状況不足候補は第2巡台帳へ残した。次は自治体コード順に12223鴨川市、12224鎌ケ谷市、12225君津市、12226富津市。",
-    "instructions": "千葉県公式棚卸し006として、12223鴨川市、12224鎌ケ谷市、12225君津市、12226富津市の公式本文/PDFを確認する。既掲載公式URL、県・国制度重複、カテゴリ導線、生成データの公式未確認制度を除外し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度だけ採用する。"
+    "code": "chiba-official-coverage-007",
+    "municipality": "浦安市・四街道市・袖ケ浦市・八街市",
+    "shortlist": "千葉県公式棚卸し006は、鴨川市6件、鎌ケ谷市7件、君津市5件、富津市10件を採用した。鎌ケ谷市妊婦支援給付金、鎌ケ谷市結婚新生活支援事業、富津市結婚新生活支援事業補助金は既存公式確認済みレコードがあるため新規追加から除外した。各市のカテゴリ導線、様式のみ、県・国制度紹介、金額又は受付状況不足候補は第2巡台帳へ残した。次は自治体コード順に12227浦安市、12228四街道市、12229袖ケ浦市、12230八街市。",
+    "instructions": "千葉県公式棚卸し007として、12227浦安市、12228四街道市、12229袖ケ浦市、12230八街市の公式本文/PDFを確認する。既掲載公式URL、県・国制度重複、カテゴリ導線、生成データの公式未確認制度を除外し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度だけ採用する。"
   },
   "prefectureMilestone": {
     "prefecture": "埼玉県",

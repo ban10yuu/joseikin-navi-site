@@ -1,0 +1,26 @@
+{
+  "batchId": "chiba-comprehensive-official-coverage-006",
+  "prefecture": "千葉県",
+  "municipalities": [
+    {
+      "code": "12223",
+      "name": "鴨川市",
+      "officialBaseUrl": "https://www.city.kamogawa.lg.jp/"
+    },
+    {
+      "code": "12224",
+      "name": "鎌ケ谷市",
+      "officialBaseUrl": "https://www.city.kamagaya.chiba.jp/"
+    },
+    {
+      "code": "12225",
+      "name": "君津市",
+      "officialBaseUrl": "https://www.city.kimitsu.lg.jp/"
+    },
+    {
+      "code": "12226",
+      "name": "富津市",
+      "officialBaseUrl": "https://www.city.futtsu.lg.jp/"
+    }
+  ]
+}

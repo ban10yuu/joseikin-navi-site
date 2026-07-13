@@ -1,0 +1,29 @@
+{
+  "batchId": "chiba-comprehensive-official-coverage-006",
+  "createdAt": "2026-07-13T22:36:25.880Z",
+  "prefecture": "千葉県",
+  "municipalities": [
+    "鴨川市",
+    "鎌ケ谷市",
+    "君津市",
+    "富津市"
+  ],
+  "candidateCount": 357,
+  "adoptedCount": 28,
+  "adoptedByMunicipality": {
+    "鴨川市": 6,
+    "鎌ケ谷市": 7,
+    "君津市": 5,
+    "富津市": 10
+  },
+  "heldCount": 329,
+  "excludedCount": 0,
+  "sourceUrlsChecked": 28,
+  "urlFailures": [],
+  "notes": [
+    "公式トップ、候補抽出、公式本文/PDF、公式URL到達を確認した。",
+    "制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度のみ採用した。",
+    "鎌ケ谷市妊婦支援給付金・鎌ケ谷市結婚新生活支援事業・富津市結婚新生活支援事業補助金は既存公式確認済みレコードがあるため今回追加から除外した。",
+    "トップ、カテゴリ、サイトマップ、共通ナビ、県・国制度紹介、様式のみ、金額又は受付状況不足候補は第2巡候補に残した。"
+  ]
+}

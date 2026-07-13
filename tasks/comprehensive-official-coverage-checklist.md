@@ -7166,3 +7166,41 @@
     - 流山市・八千代市・我孫子市のカテゴリ導線、様式のみ、県・国制度紹介、金額又は受付状況不足候補は第2巡候補に残す。
   - 次:
     - 千葉県公式棚卸し006として、12223鴨川市、12224鎌ケ谷市、12225君津市、12226富津市を自治体コード順に確認する。
+
+- 千葉県公式棚卸し006
+  - 対象:
+    - 12223 鴨川市、12224 鎌ケ谷市、12225 君津市、12226 富津市。
+  - 方法:
+    - 公式トップ到達を4自治体すべてHTTP 200で確認した。
+    - `scripts/discover-official-candidates.mjs` で候補357件を抽出し、公式本文スニペットとPDF本文を保存して再スコアリングした。
+    - 鴨川市・富津市の住宅用設備等脱炭素化促進事業は、公式ページに加えて公式PDFの補助金額表を確認した。
+    - 富津市子ども医療費助成は公式カテゴリから個別URLを確認した。
+    - 鎌ケ谷市妊婦支援給付金、鎌ケ谷市結婚新生活支援事業、富津市結婚新生活支援事業補助金は既存公式確認済みレコードがあるため新規追加から除外した。
+    - トップ、カテゴリ、サイトマップ、共通ナビ一致、県・国制度の単なる紹介、様式のみ、金額又は受付状況不足の候補は採用せず、公式本文又は公式PDFで制度名・対象・金額/上限・条件・期限/受付状況を確認できた制度のみ採用した。
+  - 採用:
+    - 鴨川市6件: 子ども医療費助成制度、住宅用設備等脱炭素化促進事業補助金、妊婦のための支援給付事業、木造住宅耐震診断費補助金、木造住宅耐震改修事業補助金、家庭用小型合併処理浄化槽設置補助金。
+    - 鎌ケ谷市7件: 住宅用設備等脱炭素化促進事業、住居用防犯対策費用助成事業、子ども医療費助成制度、初回産科受診料費用助成、ひとり親家庭自立支援教育訓練給付金、ひとり親家庭高等職業訓練給付金、ひとり親家庭高等学校卒業程度認定試験合格支援。
+    - 君津市5件: 子ども医療費助成制度、住宅用省エネルギー設備等導入補助金、妊婦のための支援給付金事業、木造住宅耐震改修等補助制度、がけ地近接危険住宅移転費用補助。
+    - 富津市10件: 住宅用設備等脱炭素化促進事業補助金、妊婦のための支援給付事業、UIJターンによる起業・就業者等創出事業補助金、有害獣防護柵設置事業補助金、骨髄等移植ドナー支援事業助成金、特産品開発調査・研究事業補助金、空家バンク登録支援・利用者支援補助金、移住子育て世帯マイホーム取得補助金、自転車乗車用ヘルメット購入費補助金、子ども医療費助成。
+  - 生成ファイル:
+    - `tasks/discovery/chiba-official-coverage-006-municipalities.json`
+    - `tasks/discovery/chiba-official-coverage-006-candidates.json`
+    - `tasks/discovery/chiba-official-coverage-006-target-snippets.json`
+    - `tasks/discovery/chiba-official-coverage-006-selected-snippets.json`
+    - `tasks/discovery/chiba-official-coverage-006-selected-main.json`
+    - `tasks/discovery/chiba-official-coverage-006-official-extra.json`
+    - `tasks/discovery/chiba-official-coverage-006-url-check.json`
+    - `tasks/discovery/chiba-official-coverage-006.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（28件、`verified-local-misc-2026.ts` 内で各1件）。
+    - 公式URL到達: pass（28 unique official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10791、officialLinkedActive 10753、manuallyVerifiedActive 10753、千葉県 localOfficial 358）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 鎌ケ谷市妊婦支援給付金、鎌ケ谷市結婚新生活支援事業、富津市結婚新生活支援事業補助金は既存公式確認済みレコードがあるため新規追加から除外済み。
+    - 各市のカテゴリ導線、様式のみ、県・国制度紹介、金額又は受付状況不足候補は第2巡候補に残す。
+  - 次:
+    - 千葉県公式棚卸し007として、12227浦安市、12228四街道市、12229袖ケ浦市、12230八街市を自治体コード順に確認する。
