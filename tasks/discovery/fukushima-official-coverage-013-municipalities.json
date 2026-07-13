@@ -1,0 +1,26 @@
+{
+  "batchId": "fukushima-comprehensive-official-coverage-013",
+  "prefecture": "福島県",
+  "municipalities": [
+    {
+      "code": "07522",
+      "name": "小野町",
+      "officialBaseUrl": "https://www.town.ono.fukushima.jp/"
+    },
+    {
+      "code": "07541",
+      "name": "広野町",
+      "officialBaseUrl": "https://www.town.hirono.fukushima.jp/index.html"
+    },
+    {
+      "code": "07542",
+      "name": "楢葉町",
+      "officialBaseUrl": "https://www.town.naraha.lg.jp/"
+    },
+    {
+      "code": "07543",
+      "name": "富岡町",
+      "officialBaseUrl": "https://www.tomioka-town.jp/"
+    }
+  ]
+}
