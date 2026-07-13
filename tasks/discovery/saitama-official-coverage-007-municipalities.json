@@ -1,0 +1,26 @@
+{
+  "batchId": "saitama-comprehensive-official-coverage-007",
+  "prefecture": "埼玉県",
+  "municipalities": [
+    {
+      "code": "11228",
+      "name": "志木市",
+      "officialBaseUrl": "https://www.city.shiki.lg.jp/"
+    },
+    {
+      "code": "11229",
+      "name": "和光市",
+      "officialBaseUrl": "https://www.city.wako.lg.jp/"
+    },
+    {
+      "code": "11230",
+      "name": "新座市",
+      "officialBaseUrl": "https://www.city.niiza.lg.jp/"
+    },
+    {
+      "code": "11231",
+      "name": "桶川市",
+      "officialBaseUrl": "https://www.city.okegawa.lg.jp/"
+    }
+  ]
+}

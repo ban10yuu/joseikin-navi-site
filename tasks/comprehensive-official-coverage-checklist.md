@@ -6640,4 +6640,38 @@
     - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
     - 蕨市住宅改修、蕨市創業支援、戸田市共創のまちづくり、戸田市補助金等一覧、入間市中小企業制度融資、入間市税減額措置、朝霞市市民活動団体支援補助金交付事業の実施ページなどは、金額・対象・受付状況又は制度重複の観点で第2巡候補に残す。
   - 次:
-    - 埼玉県公式棚卸し007として、11228志木市、11229和光市、11230新座市、11231桶川市を自治体コード順に確認する。
+    - 埼玉県公式棚卸し007として、11228志木市、11229和光市、11230新座市、11231桶川市を自治体コード順に確認した。
+
+- 埼玉県公式棚卸し007
+  - 対象:
+    - 11228 志木市、11229 和光市、11230 新座市、11231 桶川市。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補344件をローカルJSONへ保存した。
+    - 候補が150件を超えたため、公式カテゴリリンク抽出で133 unique URLの第2巡台帳を作成し、公式本文スニペット42件を `tasks/discovery/saitama-official-coverage-007-detail-snippets.json` に保存して、制度強語、金額・上限、対象条件、期限・受付表現の揃う個別ページを再スコアリングした。
+    - 既存掲載済み又は内容重複の強い制度は除外し、トップ、カテゴリ、一覧、共通ナビ一致は候補JSONとリンク台帳に残して第2巡候補として扱う。
+  - 採用:
+    - 志木市8件: 介護保険利用料補助、要介護高齢者手当、介護保険特別給付住宅改良、地域敬老会支援、帯状疱疹ワクチン任意接種、高齢者日常生活用具、早期不妊検査・不育症検査、非課税世帯等妊婦初回産科受診料。
+    - 和光市1件: ゼロカーボン推進事業。
+    - 新座市4件: 中小企業者IT・DX導入、新規創業融資利子補給、創業支援、妊婦のための支援給付。
+    - 桶川市7件: 商店街空店舗対策、早期不妊検査費・不育症検査費、がん患者アピアランスケア、AYA世代がん患者ターミナルケア在宅療養、住宅リフォーム資金、おむつ助成金、高齢者補聴器購入費用。
+  - 生成ファイル:
+    - `tasks/discovery/saitama-official-coverage-007-municipalities.json`
+    - `tasks/discovery/saitama-official-coverage-007-candidates.json`
+    - `tasks/discovery/saitama-official-coverage-007-link-shortlist.json`
+    - `tasks/discovery/saitama-official-coverage-007-official-extra.json`
+    - `tasks/discovery/saitama-official-coverage-007-detail-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-007-selected-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-007-selected-main.json`
+    - `tasks/discovery/saitama-official-coverage-007.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（20件、duplicateCount 0）。
+    - 公式URL到達: pass（20 unique official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10469、officialLinkedActive 10431、manuallyVerifiedActive 10431、埼玉県 localOfficial 348）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 志木市の物価高対応子育て応援手当、後期高齢者宿泊施設利用助成、不育症治療費、耐震補助、和光市の出産関連・子ども医療・創業支援、新座市の経営革新・事業承継・移送サービス・介護資格取得・高齢者手当、桶川市の中小企業融資・任意予防接種・造血細胞移植後再接種・耐震化・要介護老人手当・地域等敬老事業等は、金額・対象・受付状況又は制度重複の観点で第2巡候補に残す。
+  - 次:
+    - 埼玉県公式棚卸し008として、11232久喜市、11233北本市、11234八潮市、11235富士見市を自治体コード順に確認する。
