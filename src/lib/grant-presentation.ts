@@ -24,6 +24,13 @@ export function sanitizePublicGrantText(value?: string): string {
     .trim();
 }
 
+export function sanitizeGrantTitle(value: string): string {
+  return value
+    .replace(/[（(][^）)]*(?:生成データ|補正理由|内部監査|HTTP\s*200|Last-Modified)[^）)]*[）)]/gi, '')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+}
+
 function isOfficialHttpUrl(value: string): boolean {
   try {
     const url = new URL(value);

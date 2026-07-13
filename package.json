@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit",
     "test": "node --test src/lib/*.test.mjs",
     "check:copy": "node scripts/check-public-copy.mjs",
+    "audit:content": "node scripts/audit-content.mjs",
     "audit:coverage": "node scripts/audit-coverage.mjs",
     "audit:deadlines": "node scripts/audit-deadlines.mjs",
     "audit:links": "node scripts/audit-links.mjs"

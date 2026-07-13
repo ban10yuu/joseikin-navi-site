@@ -3,6 +3,7 @@ import { describe, it } from 'node:test';
 import {
   formatVerifiedDate,
   normalizeOfficialUrls,
+  sanitizeGrantTitle,
   sanitizePublicGrantText,
   splitEligibilityText,
 } from './grant-presentation.ts';
@@ -46,6 +47,12 @@ describe('sanitizePublicGrantText', () => {
       sanitizePublicGrantText('<p>対象者は市内在住者です。</p><p>公式URLはHTTP 200を確認。</p>'),
       '<p>対象者は市内在住者です。</p>',
     );
+  });
+});
+
+describe('sanitizeGrantTitle', () => {
+  it('制度名に混入した内部作業用の注記だけを除去する', () => {
+    assert.equal(sanitizeGrantTitle('相模原市 移住支援（生成データ補正）'), '相模原市 移住支援');
   });
 });
 

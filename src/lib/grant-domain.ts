@@ -9,7 +9,7 @@ import type {
   SupportType,
   VerificationMethod,
 } from './types';
-import { containsInternalAuditText, sanitizePublicGrantText } from './grant-presentation.ts';
+import { containsInternalAuditText, sanitizeGrantTitle, sanitizePublicGrantText } from './grant-presentation.ts';
 
 const CATEGORY_MAP: Record<LegacyGrantCategory, GrantCategory> = {
   childcare: 'childcare',
@@ -130,6 +130,7 @@ export function normalizeGrant(input: LegacyGrant): NormalizedGrant {
   const purposes = inferPurposes(input);
   const hasOfficialSource = hasValidOfficialUrl(input.officialUrl);
   const hasInternalPublicCopy = [
+    input.title,
     input.description,
     input.eligibility,
     ...input.sections.flatMap((section) => [section.heading, section.content]),
@@ -146,8 +147,9 @@ export function normalizeGrant(input: LegacyGrant): NormalizedGrant {
 
   return {
     ...input,
+    title: sanitizeGrantTitle(input.title),
     id: input.id ?? input.slug,
-    officialName: input.officialName ?? null,
+    officialName: input.officialName ? sanitizeGrantTitle(input.officialName) : null,
     providerName: input.organization,
     providerType: input.providerType ?? input.type,
     supportType: inferSupportType(input),
