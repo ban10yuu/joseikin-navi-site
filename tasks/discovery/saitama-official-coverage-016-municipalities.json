@@ -1,0 +1,26 @@
+{
+  "batchId": "saitama-comprehensive-official-coverage-016",
+  "prefecture": "埼玉県",
+  "municipalities": [
+    {
+      "code": "11389",
+      "name": "寄居町",
+      "officialBaseUrl": "https://www.town.yorii.saitama.jp/"
+    },
+    {
+      "code": "11442",
+      "name": "宮代町",
+      "officialBaseUrl": "https://www.town.miyashiro.lg.jp/"
+    },
+    {
+      "code": "11464",
+      "name": "杉戸町",
+      "officialBaseUrl": "https://www.town.sugito.lg.jp/"
+    },
+    {
+      "code": "11465",
+      "name": "松伏町",
+      "officialBaseUrl": "https://www.town.matsubushi.lg.jp/"
+    }
+  ]
+}

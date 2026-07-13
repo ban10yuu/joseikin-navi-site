@@ -6948,4 +6948,40 @@
     - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
     - 東秩父村の親元同居近居住宅支援補助金、ナラ枯れ防除対策等支援補助金、協働のまちづくり事業補助金、医療費等の助成・給付、美里町の木造住宅耐震診断補助制度、特殊詐欺対策自動録音機購入費補助金、住宅改修資金補助事業、危険老朽空き家除去補助制度、起業支援事業補助金、神川町の省エネ家電買換促進補助金、住宅用防犯対策補助金、各種医療費助成・妊婦支援給付金、上里町の妊婦健康診査助成券償還払い、空き家利活用支援補助、中小企業融資利子補給等は、金額・対象・受付状況又は制度重複の観点で第2巡候補に残す。
   - 次:
-    - 埼玉県公式棚卸し016として、11389寄居町、11442宮代町、11464杉戸町、11465松伏町を自治体コード順に確認する。
+    - 埼玉県公式棚卸し016として、11389寄居町、11442宮代町、11464杉戸町、11465松伏町を自治体コード順に確認した。
+
+- 埼玉県公式棚卸し016
+  - 対象:
+    - 11389 寄居町、11442 宮代町、11464 杉戸町、11465 松伏町。
+  - 方法:
+    - 公式トップ到達を4自治体すべてHTTP 200で確認した。
+    - `scripts/discover-official-candidates.mjs` で候補349件を抽出し、候補数が150件を超えたため、公式リンク短評180件、本文スニペット48件、追加公式クロール480件、対象ページスニペット30件を保存して再スコアリングした。
+    - 杉戸町の空き店舗等活用補助金は旧URL `page/13195.html` が404だったため、公式追加クロールで見つけた現行URL `page/26092.html` を本文確認し採用した。
+    - トップ、カテゴリ、サイトマップ、共通ナビ一致は採用せず、自治体本文又は公式個別ページで制度名・対象・金額/上限・条件・期限/受付状況を確認できる制度のみ採用した。
+  - 採用:
+    - 寄居町5件: 木造住宅耐震診断補助金、旧耐震住宅除却補助金、老朽空き家除却補助金、住宅改修資金補助制度、物価高騰対策農業者支援事業補助金。
+    - 宮代町5件: 店舗・住宅リフォーム事業補助金、耐震診断補助金・耐震改修工事等補助金、耐震シェルター等設置補助金、妊婦のための支援給付金、創業促進事業補助金。
+    - 杉戸町5件: 住宅用エネルギーシステム設置費補助金、小規模事業者経営改善資金利子補給補助金、空き店舗等活用補助金、合併処理浄化槽設置整備事業奨励補助金、家庭生ごみ堆肥化専用容器等購入費補助金。
+    - 松伏町5件: 結婚新生活支援事業補助金、第3子以降学校給食費補助金、家庭用防犯カメラ設置費補助金、妊婦支援給付金、骨髄移植ドナー助成金。
+  - 生成ファイル:
+    - `tasks/discovery/saitama-official-coverage-016-municipalities.json`
+    - `tasks/discovery/saitama-official-coverage-016-candidates.json`
+    - `tasks/discovery/saitama-official-coverage-016-link-shortlist.json`
+    - `tasks/discovery/saitama-official-coverage-016-detail-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-016-target-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-016-selected-main.json`
+    - `tasks/discovery/saitama-official-coverage-016-selected-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-016-official-extra.json`
+    - `tasks/discovery/saitama-official-coverage-016.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（20件、各1件）。
+    - 公式URL到達: pass（20 unique official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10642、officialLinkedActive 10604、manuallyVerifiedActive 10604、埼玉県 localOfficial 521）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 寄居町の生殖補助医療費補助金、自転車用ヘルメット購入費補助金、宮代町の安心安全まちづくり推進事業補助金、商工業活性化事業補助金、杉戸町の生垣設置補助制度、松伏町の創業資金融資利子補給制度、企業立地に係る雇用促進奨励金、重度心身障がい者医療費支給制度は、金額・対象・受付状況又は同自治体5件上限の観点で第2巡候補に残す。
+  - 次:
+    - 埼玉県内自治体コード順の一巡は016で末尾まで到達。次回は進捗JSON・チェックリスト・HEADを確認し、千葉県の開始単位から再開する。

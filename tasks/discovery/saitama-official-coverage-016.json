@@ -1,0 +1,36 @@
+{
+  "batchId": "saitama-comprehensive-official-coverage-016",
+  "prefecture": "埼玉県",
+  "municipalities": [
+    {
+      "code": "11389",
+      "name": "寄居町"
+    },
+    {
+      "code": "11442",
+      "name": "宮代町"
+    },
+    {
+      "code": "11464",
+      "name": "杉戸町"
+    },
+    {
+      "code": "11465",
+      "name": "松伏町"
+    }
+  ],
+  "candidateCount": 349,
+  "shortlistCount": 180,
+  "detailSnippetCount": 48,
+  "targetSnippetCount": 30,
+  "adoptedCount": 20,
+  "adoptedByMunicipality": {
+    "11389": 5,
+    "11442": 5,
+    "11464": 5,
+    "11465": 5
+  },
+  "selectedFile": "tasks/discovery/saitama-official-coverage-016-selected-main.json",
+  "snippetsFile": "tasks/discovery/saitama-official-coverage-016-selected-snippets.json",
+  "secondRoundFile": "tasks/discovery/saitama-official-coverage-016-official-extra.json"
+}
