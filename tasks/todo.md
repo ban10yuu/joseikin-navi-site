@@ -948,4 +948,4 @@
 - [x] content audit critical 0
 - [x] production build 8,266ページ成功
 - [x] build audit critical 0
-- [ ] Vercel本番反映と独自ドメイン実機確認
+- [x] Vercel本番反映と独自ドメイン実機確認（PC 1440px・スマホ390px、画像切れ0、横スクロール0、コンソールエラー0）
