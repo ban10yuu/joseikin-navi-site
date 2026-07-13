@@ -2,41 +2,45 @@
 
 /* ============================================================
    助成金ナビ — Gov-Tech Design System
-   Base   : warm off-white  #f7f6f2
-   Primary: deep navy       #142d4f
-   Accent : vivid orange    #e8702a (CTAs / highlights)
+   Base   : quiet neutral   #f8fafc
+   Primary: deep ink        #111827
+   Accent : official blue   #2557a7 (links / primary actions)
    ============================================================ */
 
 @theme {
   --font-sans: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif;
 
   /* surfaces */
-  --color-base: #f7f6f2;
+  --color-base: #f8fafc;
   --color-card: #ffffff;
-  --color-wash: #edf1f7;
-  --color-accent-wash: #fdf1e7;
+  --color-wash: #eff6ff;
+  --color-accent-wash: #eff6ff;
 
   /* brand */
-  --color-navy: #142d4f;
-  --color-navy-soft: #1f4571;
-  --color-navy-deep: #0c1d35;
-  --color-accent: #e8702a;
-  --color-accent-deep: #c4581a;
+  --color-navy: #111827;
+  --color-navy-soft: #334155;
+  --color-navy-deep: #0f172a;
+  --color-accent: #2557a7;
+  --color-accent-deep: #1e478a;
+  --color-trust: #047857;
+  --color-trust-wash: #ecfdf5;
+  --color-caution: #b45309;
+  --color-caution-wash: #fffbeb;
 
   /* text */
-  --color-ink: #1c2433;
-  --color-muted: #54607a;
-  --color-faint: #8590a6;
+  --color-ink: #1f2937;
+  --color-muted: #475569;
+  --color-faint: #64748b;
 
   /* lines */
-  --color-line: #d9d4c8;
-  --color-line-strong: #b9c3d4;
+  --color-line: #e2e8f0;
+  --color-line-strong: #cbd5e1;
 }
 
 body {
   font-family: var(--font-sans);
-  background-color: #f7f6f2;
-  color: #1c2433;
+  background-color: #f8fafc;
+  color: #1f2937;
   line-height: 1.85;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
@@ -44,20 +48,19 @@ body {
 
 /* ── Accessibility: visible focus rings everywhere ── */
 :focus-visible {
-  outline: 3px solid #e8702a;
+  outline: 3px solid #2557a7;
   outline-offset: 2px;
   border-radius: 2px;
 }
 
 ::selection {
-  background: rgba(232, 112, 42, 0.25);
+  background: rgba(37, 87, 167, 0.18);
 }
 
 /* ── Home search surface ── */
 .home-hero {
-  background:
-    linear-gradient(180deg, #fbfaf7 0%, #f7f6f2 74%, #edf1f7 100%);
-  border-bottom: 1px solid #d9d4c8;
+  background: #f8fafc;
+  border-bottom: 1px solid #e2e8f0;
 }
 
 .home-proof-grid {
@@ -109,7 +112,7 @@ body {
   display: inline-flex;
   align-items: center;
   min-height: 24px;
-  color: #c4581a;
+  color: #1e478a;
   font-size: 0.75rem;
   font-weight: 800;
   line-height: 1.4;
@@ -175,7 +178,7 @@ body {
   outline: none;
   border-color: #142d4f;
   background: #ffffff;
-  box-shadow: 0 0 0 3px rgba(232, 112, 42, 0.22);
+  box-shadow: 0 0 0 3px rgba(37, 87, 167, 0.2);
 }
 
 .home-search-active {
@@ -388,7 +391,7 @@ body {
 }
 
 .grant-card:focus-visible {
-  outline: 3px solid #e8702a;
+  outline: 3px solid #2557a7;
   outline-offset: 3px;
 }
 
@@ -407,13 +410,13 @@ body {
   display: flex;
   align-items: center;
   gap: 0.45rem;
-  background: #fdf1e7;
-  border-left: 4px solid #e8702a;
+  background: #eff6ff;
+  border-left: 4px solid #2557a7;
   border-radius: 0 6px 6px 0;
   padding: 0.45rem 0.8rem;
   margin: 0.7rem 0;
   font-size: 0.8125rem;
-  color: #8a4312;
+  color: #1e478a;
 }
 
 .target-label span:last-child {
@@ -424,7 +427,7 @@ body {
 .target-label-icon {
   flex-shrink: 0;
   font-weight: 700;
-  color: #c4581a;
+  color: #2557a7;
 }
 
 /* ── Amount Badge (支給額) ── */
@@ -446,6 +449,7 @@ body {
 .filter-chip {
   display: inline-flex;
   align-items: center;
+  min-height: 44px;
   padding: 0.35rem 0.95rem;
   border-radius: 9999px;
   font-size: 0.8125rem;
@@ -505,17 +509,17 @@ body {
 }
 
 .article-content blockquote {
-  border-left: 4px solid #e8702a;
+  border-left: 4px solid #2557a7;
   padding: 0.7rem 1rem;
   margin: 0.875rem 0;
-  background: #fdf1e7;
-  color: #6e3a14;
+  background: #eff6ff;
+  color: #1e3a5f;
   border-radius: 0 6px 6px 0;
 }
 
 /* ── Markers ── */
 .marker {
-  background: linear-gradient(transparent 62%, rgba(232, 112, 42, 0.28) 62%);
+  background: linear-gradient(transparent 62%, rgba(37, 87, 167, 0.2) 62%);
   padding: 0 1px;
 }
 
@@ -555,7 +559,7 @@ body {
   content: '・';
   position: absolute;
   left: 0;
-  color: #e8702a;
+  color: #2557a7;
 }
 
 /* ── Highlight Box ── */
@@ -571,13 +575,13 @@ body {
 
 /* ── Note Box ── */
 .note-box {
-  background: #fdf1e7;
-  border-left: 4px solid #e8702a;
+  background: #fffbeb;
+  border-left: 4px solid #b45309;
   border-radius: 0 6px 6px 0;
   padding: 0.8rem 1rem;
   margin: 1.25rem 0;
   font-size: 0.875rem;
-  color: #6e3a14;
+  color: #78350f;
 }
 
 /* ── Info table (detail pages) ── */
@@ -595,24 +599,31 @@ body {
   overflow-wrap: anywhere;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
 /* ── Responsive ── */
 @media (max-width: 768px) {
-  body {
-    font-size: 15px;
-  }
-
   .home-proof-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 0.5rem;
   }
 
   .home-proof-grid > div {
-    min-height: 68px;
+    min-height: 60px;
     padding: 0.7rem 0.65rem;
   }
 
   .home-proof-value {
-    font-size: 1.18rem;
+    font-size: 1.05rem;
   }
 
   .home-search-toolbar {
