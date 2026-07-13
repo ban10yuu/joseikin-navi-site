@@ -6608,3 +6608,36 @@
     - 深谷市の個別要綱PDF、上尾市のアスベスト分析調査・私道整備・雨水貯留施設、草加市の重点支援地方交付金内訳、越谷市のゼロカーボン・住宅店舗改修・創業者支援等の既存掲載済み又は採用枠外は第2巡候補に残す。
   - 次:
     - 埼玉県公式棚卸し006として、11223蕨市、11224戸田市、11225入間市、11227朝霞市を自治体コード順に確認する。
+
+- 埼玉県公式棚卸し006
+  - 対象:
+    - 11223 蕨市、11224 戸田市、11225 入間市、11227 朝霞市。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補255件をローカルJSONへ保存した。
+    - 候補が150件を超えたため、公式本文スニペットを `tasks/discovery/saitama-official-coverage-006-detail-snippets.json` に保存し、制度強語、金額・上限、対象条件、期限・受付表現の揃う個別ページを再スコアリングした。
+    - 既存掲載済み又は内容重複の強い制度は除外し、トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残して第2巡台帳として扱う。
+  - 採用:
+    - 蕨市3件: 地球温暖化対策設備等設置費、魅力ある店舗づくり支援、文化活動事業助成。
+    - 戸田市8件: 新技術研究開発、展示会出展、商店等新業種等転換、ゼロカーボン推進、住宅改修資金、公的資格等取得、既存住宅耐震診断・改修、若者奨学金返済サポート。
+    - 入間市5件: ブロック塀等撤去、ゼロカーボンシティ推進設備、合併処理浄化槽転換、雨水浸透ます、重度身体障害者居宅改善。
+    - 朝霞市2件: 食料品価格高騰対策等支援金、物価高対応子育て応援手当。
+  - 生成ファイル:
+    - `tasks/discovery/saitama-official-coverage-006-municipalities.json`
+    - `tasks/discovery/saitama-official-coverage-006-candidates.json`（raw候補。未追跡の場合も候補保存済みとして扱う）
+    - `tasks/discovery/saitama-official-coverage-006-official-extra.json`
+    - `tasks/discovery/saitama-official-coverage-006-detail-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-006-selected-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-006-selected-main.json`
+    - `tasks/discovery/saitama-official-coverage-006.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（18件、duplicateCount 0）。
+    - 公式URL到達: pass（17 unique official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10449、officialLinkedActive 10411、manuallyVerifiedActive 10411、埼玉県 localOfficial 328）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 蕨市住宅改修、蕨市創業支援、戸田市共創のまちづくり、戸田市補助金等一覧、入間市中小企業制度融資、入間市税減額措置、朝霞市市民活動団体支援補助金交付事業の実施ページなどは、金額・対象・受付状況又は制度重複の観点で第2巡候補に残す。
+  - 次:
+    - 埼玉県公式棚卸し007として、11228志木市、11229和光市、11230新座市、11231桶川市を自治体コード順に確認する。

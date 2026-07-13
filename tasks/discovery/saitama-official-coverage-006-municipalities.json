@@ -1,0 +1,26 @@
+{
+  "batchId": "saitama-comprehensive-official-coverage-006",
+  "prefecture": "埼玉県",
+  "municipalities": [
+    {
+      "code": "11223",
+      "name": "蕨市",
+      "officialBaseUrl": "https://www.city.warabi.saitama.jp/"
+    },
+    {
+      "code": "11224",
+      "name": "戸田市",
+      "officialBaseUrl": "https://www.city.toda.saitama.jp/"
+    },
+    {
+      "code": "11225",
+      "name": "入間市",
+      "officialBaseUrl": "https://www.city.iruma.saitama.jp/"
+    },
+    {
+      "code": "11227",
+      "name": "朝霞市",
+      "officialBaseUrl": "https://www.city.asaka.lg.jp/"
+    }
+  ]
+}
