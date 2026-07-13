@@ -1,6 +1,11 @@
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import GrantCard from '@/components/GrantCard';
+import GrantDecisionSummary from '@/components/GrantDecisionSummary';
+import { BreadcrumbJsonLd, GrantJsonLd } from '@/components/JsonLd';
+import OfficialCheckpoints from '@/components/OfficialCheckpoints';
+import OfficialSourcePanel from '@/components/OfficialSourcePanel';
 import {
   getGrantBySlug,
   getGrantSourceStatus,
@@ -9,21 +14,13 @@ import {
   hasOfficialSource,
   isGrantExpired,
 } from '@/lib/grants';
-import { CATEGORY_LABELS } from '@/lib/types';
-import { GrantJsonLd, BreadcrumbJsonLd, FaqJsonLd } from '@/components/JsonLd';
-import GrantCard from '@/components/GrantCard';
-import AdBanner from '@/components/AdBanner';
-import AuthorBox from '@/components/AuthorBox';
-import ShareButtons from '@/components/ShareButtons';
-import GrantDecisionSummary from '@/components/GrantDecisionSummary';
-import OfficialSourcePanel from '@/components/OfficialSourcePanel';
-import OfficialCheckpoints from '@/components/OfficialCheckpoints';
-import { getEffectiveGrantStatus, getOfficialCtaLabel } from '@/lib/grant-status';
+import { splitEligibilityText } from '@/lib/grant-presentation';
+import { groupGrantSections, type GrantSectionGroup } from '@/lib/grant-sections';
+import { getEffectiveGrantStatus, getOfficialCtaLabel, isRepayableSupport } from '@/lib/grant-status';
 import { toSiteUrl } from '@/lib/site-url';
+import { CATEGORY_LABELS, SUPPORT_TYPE_LABELS, type Section } from '@/lib/types';
 
-interface Props {
-  params: Promise<{ slug: string }>;
-}
+interface Props { params: Promise<{ slug: string }> }
 
 export async function generateStaticParams() {
   return getOfficialLinkedGrants({ includeExpired: true }).map((grant) => ({ slug: grant.slug }));
@@ -33,74 +30,60 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const grant = getGrantBySlug(slug);
   if (!grant) return {};
-
   const sourceStatus = getGrantSourceStatus(grant);
   const expired = isGrantExpired(grant);
-  const title = `${grant.title} ${grant.maxAmount}｜対象・期限・公式情報`;
-  const description = expired
-    ? `${grant.title}は掲載上の申請期限が過ぎています。次回募集や後継制度の有無を公式サイトで確認できます。`
-    : sourceStatus.level === 'unverified'
-      ? `${grant.title}の対象、金額、申請期間を整理しています。公式出典が未登録のため、自治体・公式窓口で最新情報を確認してください。`
-      : `${grant.title}の対象、金額、申請期間、公式の確認先を分かりやすく整理しています。最新の受付状況は公式サイトでご確認ください。`;
-
+  const title = expired ? `${grant.title}｜受付状況・次回募集の確認先` : `${grant.title}｜対象・金額・申請期限`;
+  const deadline = grant.applicationPeriod || '申請期限は公式情報で確認';
+  const checked = grant.verifiedAt ? `公式情報確認日${grant.verifiedAt}` : '公式情報の確認先を掲載';
+  const description = `${grant.title}（${grant.organization}）の主な対象は${grant.eligibility || '公式情報で確認'}。支援内容は${grant.maxAmount}、${deadline}。${checked}。`.slice(0, 140);
   return {
     title,
     description,
-    keywords: [grant.title, grant.maxAmount, CATEGORY_LABELS[grant.category], grant.prefecture, ...grant.tags, '助成金', '補助金', '公式情報'].join(', '),
-    openGraph: {
-      title,
-      description,
-      url: toSiteUrl(`/grant/${slug}/`),
-      type: 'article',
-    },
-    alternates: {
-      canonical: toSiteUrl(`/grant/${slug}/`),
-    },
-    robots: sourceStatus.level === 'unverified' || expired
-      ? {
-          index: false,
-          follow: true,
-        }
-      : undefined,
+    openGraph: { title, description, url: toSiteUrl(`/grant/${slug}/`), type: 'article' },
+    alternates: { canonical: toSiteUrl(`/grant/${slug}/`) },
+    robots: sourceStatus.level === 'unverified' || expired || grant.indexStatus === 'noindex' ? { index: false, follow: true } : undefined,
   };
+}
+
+function SourceSections({ sections }: { sections: Section[] }) {
+  return <>{sections.map((section, index) => <div key={`${section.heading}-${index}`} className="mt-5"><h3 className="text-lg font-black text-navy">{section.heading}</h3><div className="mt-2" dangerouslySetInnerHTML={{ __html: section.content }} /></div>)}</>;
+}
+
+function DetailSection({ id, title, sections, children }: { id: string; title: string; sections?: Section[]; children?: React.ReactNode }) {
+  if (!children && !sections?.length) return null;
+  return <section id={id} aria-labelledby={`${id}-title`}><h2 id={`${id}-title`}>{title}</h2>{children}{sections?.length ? <SourceSections sections={sections} /> : null}</section>;
 }
 
 export default async function GrantDetailPage({ params }: Props) {
   const { slug } = await params;
   const grant = getGrantBySlug(slug);
   if (!grant || !hasOfficialSource(grant)) notFound();
-
   const related = getRelatedGrants(grant, 4);
-  const baseUrl = toSiteUrl('/').replace(/\/$/, '');
   const sourceStatus = getGrantSourceStatus(grant);
   const expired = isGrantExpired(grant);
   const status = getEffectiveGrantStatus(grant);
+  const sectionGroups = groupGrantSections(grant.sections);
+  const eligibilityItems = splitEligibilityText(grant.eligibility);
+  const purpose = grant.primaryPurpose;
+  const businessAudience = ['soleProprietor', 'business', 'nonprofit', 'researcher', 'localOrganization'].includes(grant.primaryAudience ?? '');
+
+  const orderedGroups: GrantSectionGroup[] = ['overview', 'eligibility', 'amount', 'period', 'costs', 'method', 'documents', 'contact'];
+  const classifiedCount = orderedGroups.reduce((count, group) => count + sectionGroups[group].length, 0);
 
   return (
     <>
       <GrantJsonLd grant={grant} />
       <BreadcrumbJsonLd items={[
-        { name: 'ホーム', url: baseUrl },
-        { name: CATEGORY_LABELS[grant.category], url: `${baseUrl}/category/${grant.category}/` },
-        { name: grant.title, url: `${baseUrl}/grant/${slug}/` },
+        { name: 'ホーム', url: toSiteUrl('/') },
+        { name: CATEGORY_LABELS[grant.category], url: toSiteUrl(`/category/${grant.category}/`) },
+        { name: grant.title, url: toSiteUrl(`/grant/${slug}/`) },
       ]} />
-      <FaqJsonLd grant={grant} />
 
       <div className="grant-detail-page">
-        <nav className="grant-breadcrumb" aria-label="パンくずリスト">
-          <Link href="/">ホーム</Link>
-          <span aria-hidden="true">/</span>
-          <Link href={`/category/${grant.category}/`}>{CATEGORY_LABELS[grant.category]}</Link>
-          <span aria-hidden="true">/</span>
-          <span aria-current="page">{grant.title}</span>
-        </nav>
+        <nav className="grant-breadcrumb" aria-label="パンくずリスト"><Link href="/">ホーム</Link><span aria-hidden="true">/</span><Link href={`/category/${grant.category}/`}>{CATEGORY_LABELS[grant.category]}</Link><span aria-hidden="true">/</span><span aria-current="page">{grant.title}</span></nav>
 
         <article className="grant-detail-article">
-          <GrantDecisionSummary
-            grant={grant}
-            expired={expired}
-            sourceLabel={sourceStatus.label}
-          />
+          <GrantDecisionSummary grant={grant} expired={expired} sourceLabel={sourceStatus.label} />
 
           <OfficialSourcePanel
             officialUrl={grant.officialUrl}
@@ -113,71 +96,58 @@ export default async function GrantDetailPage({ params }: Props) {
             statusLevel={sourceStatus.level}
           />
 
+          <div className="article-content grant-article-content">
+            <DetailSection id="overview" title="制度の概要" sections={sectionGroups.overview}>
+              <p>{grant.description}</p>
+            </DetailSection>
+
+            <DetailSection id="eligibility" title="主な対象条件" sections={sectionGroups.eligibility}>
+              {eligibilityItems.length || grant.targetIncome || grant.targetOccupation ? <ul>{eligibilityItems.map((item) => <li key={item}>{item}</li>)}{grant.targetIncome && <li>収入に関する記載：{grant.targetIncome}</li>}{grant.targetOccupation && <li>職業に関する記載：{grant.targetOccupation}</li>}</ul> : null}
+            </DetailSection>
+
+            <DetailSection id="support" title="支援内容・金額" sections={sectionGroups.amount}>
+              <dl className="info-table"><tbody><tr><th>制度種別</th><td>{SUPPORT_TYPE_LABELS[grant.supportType ?? 'unknown']}</td></tr><tr><th>支援額</th><td>{grant.maxAmount}</td></tr>{grant.subsidyRate && <tr><th>補助率</th><td>{grant.subsidyRate}</td></tr>}</tbody></dl>
+              {isRepayableSupport(grant.supportType) && <p className="grant-loan-notice">貸付制度・原則として返済が必要です</p>}
+            </DetailSection>
+
+            <DetailSection id="period" title="申請期間" sections={sectionGroups.period}>
+              {grant.applicationPeriod ? <p>{grant.applicationPeriod}</p> : null}
+              {grant.budgetMayCloseEarly && <p className="mt-3 rounded-lg border border-amber-300 bg-amber-50 p-3 font-bold text-amber-950">予算到達により早期終了する場合があります。</p>}
+            </DetailSection>
+
+            <DetailSection id="eligible-costs" title="対象経費または対象内容" sections={sectionGroups.costs}>
+              {grant.eligibleCosts?.length ? <ul>{grant.eligibleCosts.map((item) => <li key={item}>{item}</li>)}</ul> : null}
+            </DetailSection>
+
+            <DetailSection id="application-method" title="申請方法" sections={sectionGroups.method}>
+              {grant.applicationMethod ? <p>{grant.applicationMethod}</p> : null}
+            </DetailSection>
+
+            <DetailSection id="required-documents" title="必要書類" sections={sectionGroups.documents}>
+              {grant.requiredDocuments?.length ? <ul>{grant.requiredDocuments.map((item) => <li key={item}>{item}</li>)}</ul> : null}
+            </DetailSection>
+
+            <DetailSection id="contact-information" title="問い合わせ先" sections={sectionGroups.contact}>
+              {grant.contactInformation ? <p>{grant.contactInformation}</p> : null}
+            </DetailSection>
+
+            {sectionGroups.notes.length > 0 && <DetailSection id="notes" title="申請前の注意点" sections={sectionGroups.notes} />}
+          </div>
+
           <OfficialCheckpoints />
 
-          {grant.sections.length > 1 && (
-            <nav className="grant-toc" aria-labelledby="grant-toc-title">
-              <h2 id="grant-toc-title">この制度の詳しい情報</h2>
-              <ol>
-                {grant.sections.map((section, index) => (
-                  <li key={section.heading}>
-                    <a href={`#section-${index}`}>
-                      <span>{index + 1}</span>{section.heading}
-                    </a>
-                  </li>
-                ))}
-              </ol>
-            </nav>
-          )}
+          {related.length > 0 && <section className="grant-related" aria-labelledby="related-grants-title"><div className="home-section-heading"><p>対象・目的・地域が近い制度</p><h2 id="related-grants-title">関連する制度</h2></div><div className="grant-related-grid">{related.map((item) => <GrantCard key={item.slug} grant={item} />)}</div></section>}
 
-          <div className="article-content grant-article-content">
-            {grant.sections.map((section, index) => (
-              <section key={`${section.heading}-${index}`} aria-labelledby={`section-${index}`}>
-                <h2 id={`section-${index}`}>{section.heading}</h2>
-                <div dangerouslySetInnerHTML={{ __html: section.content }} />
-              </section>
-            ))}
-          </div>
+          <nav aria-label="この制度に関連する検索" className="mt-8 rounded-xl border border-line bg-wash p-5"><h2 className="text-lg font-black text-navy">条件が近い制度を探す</h2><div className="mt-3 flex flex-wrap gap-3"><Link href={`/grants/?pref=${encodeURIComponent(grant.prefecture)}`} className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">{grant.prefecture}の制度</Link>{purpose && <Link href={`/grants/?purpose=${purpose}`} className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">同じ目的の制度</Link>}<Link href={`/grants/?audience=${businessAudience ? 'business' : 'individual'}`} className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">同じ対象区分の制度</Link>{grant.supportType && <Link href={`/grants/?supportType=${grant.supportType}`} className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">同じ制度種別</Link>}<Link href="/guide/" className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">申請前ガイド</Link></div></nav>
 
-          <AdBanner size="full" />
+          <section className="mt-8 rounded-xl border border-line bg-white p-5" aria-labelledby="correction-title"><h2 id="correction-title" className="text-lg font-black text-navy">掲載情報の訂正・修正依頼</h2><p className="mt-2 text-sm leading-7 text-muted">制度の更新や誤りにお気づきの場合は、制度名と公式情報のURLを添えてお知らせください。</p><Link href={`/correction/?grant=${encodeURIComponent(grant.slug)}`} className="mt-3 inline-flex min-h-11 items-center font-bold text-navy underline underline-offset-4">この制度について訂正を依頼する</Link></section>
 
-          <div className="grant-tag-list" aria-label="関連タグ">
-            {grant.tags.map((tag) => (
-              <Link
-                key={tag}
-                href={`/tag/${encodeURIComponent(tag.toLowerCase().replace(/\s+/g, '-'))}/`}
-              >
-                #{tag}
-              </Link>
-            ))}
-          </div>
-
-          <ShareButtons title={grant.title} />
-          <AuthorBox />
-
-          {related.length > 0 && (
-            <section className="grant-related" aria-labelledby="related-grants-title">
-              <div className="home-section-heading">
-                <p>同じ地域・目的の候補</p>
-                <h2 id="related-grants-title">関連する助成金・補助金</h2>
-              </div>
-              <div className="grant-related-grid">
-                {related.map((relatedGrant) => (
-                  <GrantCard key={relatedGrant.slug} grant={relatedGrant} />
-                ))}
-              </div>
-            </section>
-          )}
+          {grant.tags.length > 0 && <div className="grant-tag-list" aria-label="関連タグ">{grant.tags.map((tag) => <Link key={tag} href={`/tag/${encodeURIComponent(tag.toLowerCase().replace(/\s+/g, '-'))}/`}>#{tag}</Link>)}</div>}
+          {classifiedCount === 0 && <p className="mt-6 text-xs leading-6 text-muted">詳細項目は公式ページでご確認ください。</p>}
         </article>
       </div>
 
-      <div className="grant-mobile-cta">
-        <a href={grant.officialUrl} target="_blank" rel="noopener noreferrer">
-          {getOfficialCtaLabel(status)}
-          <span className="sr-only">（新しいタブで開きます）</span>
-          <span aria-hidden="true">↗</span>
-        </a>
-      </div>
+      <div className="grant-mobile-cta"><a href={grant.officialUrl} target="_blank" rel="noopener noreferrer">{getOfficialCtaLabel(status)}<span className="sr-only">（新しいタブで開きます）</span><span aria-hidden="true">↗</span></a></div>
     </>
   );
 }

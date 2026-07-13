@@ -1,5 +1,5 @@
 import { CATEGORY_LABELS, Grant, SUPPORT_TYPE_LABELS, TYPE_LABELS } from '@/lib/types';
-import { formatVerifiedDate, splitEligibilityText } from '@/lib/grant-presentation';
+import { formatVerifiedDate } from '@/lib/grant-presentation';
 import {
   getEffectiveGrantStatus,
   getOfficialCtaLabel,
@@ -18,7 +18,6 @@ export default function GrantDecisionSummary({
   expired,
   sourceLabel,
 }: GrantDecisionSummaryProps) {
-  const eligibilityItems = splitEligibilityText(grant.eligibility);
   const status = getEffectiveGrantStatus(grant);
   const isClosed = expired || status === 'closed';
   const isLoan = isRepayableSupport(grant.supportType);
@@ -44,14 +43,26 @@ export default function GrantDecisionSummary({
       )}
 
       <dl className="grant-summary-facts">
-        <div className="is-amount">
-          <dt>支援額</dt>
-          <dd>{grant.maxAmount}</dd>
-          {isLoan && <p className="grant-loan-notice">貸付制度・原則として返済が必要です</p>}
+        <div>
+          <dt>制度種別</dt>
+          <dd>{SUPPORT_TYPE_LABELS[grant.supportType ?? 'unknown']}</dd>
+        </div>
+        <div>
+          <dt>実施機関</dt>
+          <dd>{grant.organization}</dd>
+        </div>
+        <div>
+          <dt>主な対象者</dt>
+          <dd>{grant.eligibility || '公式募集要項で確認'}</dd>
         </div>
         <div>
           <dt>対象地域</dt>
           <dd>{grant.prefecture}</dd>
+        </div>
+        <div className="is-amount">
+          <dt>支援額</dt>
+          <dd>{grant.maxAmount}</dd>
+          {isLoan && <p className="grant-loan-notice">貸付制度・原則として返済が必要です</p>}
         </div>
         <div>
           <dt>申請期間</dt>
@@ -62,28 +73,15 @@ export default function GrantDecisionSummary({
           <dd>{GRANT_STATUS_LABELS[status]}</dd>
           {grant.budgetMayCloseEarly && <p className="grant-budget-note">予算到達により早期終了する場合があります。</p>}
         </div>
+        <div>
+          <dt>公式情報確認日</dt>
+          <dd>{grant.verifiedAt ?? '確認日未登録'}</dd>
+        </div>
+        <div>
+          <dt>確認方法</dt>
+          <dd>{sourceLabel}</dd>
+        </div>
       </dl>
-
-      <div className="grant-summary-description">
-        <h2>この制度について</h2>
-        <p>{grant.description}</p>
-      </div>
-
-      <section className="grant-eligibility-summary" aria-labelledby="grant-eligibility-title">
-        <h2 id="grant-eligibility-title">主な対象条件</h2>
-        <p className="grant-eligibility-note">掲載データに記載された条件の要約です。細かな要件は公式募集要項で確認してください。</p>
-        {eligibilityItems.length > 0 || grant.targetIncome || grant.targetOccupation ? (
-          <ul>
-            {eligibilityItems.map((item) => (
-              <li key={item}>{item}</li>
-            ))}
-            {grant.targetIncome && <li>収入に関する記載：{grant.targetIncome}</li>}
-            {grant.targetOccupation && <li>職業に関する記載：{grant.targetOccupation}</li>}
-          </ul>
-        ) : (
-          <p className="grant-eligibility-missing">対象条件は公式募集要項で確認してください。</p>
-        )}
-      </section>
 
       <a
         href={grant.officialUrl}
