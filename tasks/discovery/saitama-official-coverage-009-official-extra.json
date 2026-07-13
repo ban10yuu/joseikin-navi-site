@@ -1,0 +1,12 @@
+{
+  "batchId": "saitama-comprehensive-official-coverage-009",
+  "notes": [
+    "候補302件が閾値超過のため、公式カテゴリリンク台帳362件と本文スニペット180件を保存して再スコアリングした。",
+    "幸手市は手当・助成、妊婦・乳幼児向け、農業カテゴリから公式追加リンクを抽出した。"
+  ],
+  "files": [
+    "tasks/discovery/saitama-official-coverage-009-link-shortlist.json",
+    "tasks/discovery/saitama-official-coverage-009-detail-snippets.json",
+    "tasks/discovery/saitama-official-coverage-009-selected-snippets.json"
+  ]
+}

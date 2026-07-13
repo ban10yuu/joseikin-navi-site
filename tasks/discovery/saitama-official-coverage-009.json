@@ -1,0 +1,169 @@
+{
+  "batchId": "saitama-comprehensive-official-coverage-009",
+  "prefecture": "埼玉県",
+  "municipalities": [
+    "11237三郷市",
+    "11238蓮田市",
+    "11239坂戸市",
+    "11240幸手市"
+  ],
+  "candidateFile": "tasks/discovery/saitama-official-coverage-009-candidates.json",
+  "linkShortlistFile": "tasks/discovery/saitama-official-coverage-009-link-shortlist.json",
+  "detailSnippetsFile": "tasks/discovery/saitama-official-coverage-009-detail-snippets.json",
+  "selectedMainFile": "tasks/discovery/saitama-official-coverage-009-selected-main.json",
+  "selectedCount": 20,
+  "counts": {
+    "三郷市": 4,
+    "蓮田市": 6,
+    "坂戸市": 7,
+    "幸手市": 3
+  },
+  "selected": [
+    {
+      "code": "11237",
+      "name": "三郷市",
+      "slug": "misato-small-business-loan-2026",
+      "title": "三郷市中小企業資金融資制度",
+      "officialUrl": "https://www.city.misato.lg.jp/shigoto_sangyo/shigoto/chushokigyokeiei_sogyoshien/7189.html"
+    },
+    {
+      "code": "11237",
+      "name": "三郷市",
+      "slug": "misato-retirement-mutual-aid-premium-subsidy-2026",
+      "title": "三郷市中小企業退職金共済等掛金補助制度",
+      "officialUrl": "https://www.city.misato.lg.jp/shigoto_sangyo/shigoto/chushokigyokeiei_sogyoshien/7179.html"
+    },
+    {
+      "code": "11237",
+      "name": "三郷市",
+      "slug": "misato-entrepreneur-startup-subsidy-2026",
+      "title": "三郷市きらりとひかれ起業家応援事業費補助金",
+      "officialUrl": "https://www.city.misato.lg.jp/shigoto_sangyo/shigoto/chushokigyokeiei_sogyoshien/7191.html"
+    },
+    {
+      "code": "11237",
+      "name": "三郷市",
+      "slug": "misato-qualification-acquisition-subsidy-2026",
+      "title": "三郷市資格取得支援補助金",
+      "officialUrl": "https://www.city.misato.lg.jp/shigoto_sangyo/shigoto/chushokigyokeiei_sogyoshien/7193.html"
+    },
+    {
+      "code": "11238",
+      "name": "蓮田市",
+      "slug": "hasuda-single-parent-medical-subsidy-2026",
+      "title": "蓮田市ひとり親家庭等医療費助成制度",
+      "officialUrl": "https://www.city.hasuda.saitama.jp/kodomo/kosodate/teate/hitorioya/hitoriiryo.html"
+    },
+    {
+      "code": "11238",
+      "name": "蓮田市",
+      "slug": "hasuda-child-medical-subsidy-2026",
+      "title": "蓮田市こども医療費助成制度",
+      "officialUrl": "https://www.city.hasuda.saitama.jp/kodomo/kosodate/teate/kodomo/kodomojosei.html"
+    },
+    {
+      "code": "11238",
+      "name": "蓮田市",
+      "slug": "hasuda-child-rearing-allowance-2026",
+      "title": "蓮田市児童手当",
+      "officialUrl": "https://www.city.hasuda.saitama.jp/kodomo/kosodate/teate/jidoteate.html"
+    },
+    {
+      "code": "11238",
+      "name": "蓮田市",
+      "slug": "hasuda-single-parent-child-allowance-2026",
+      "title": "蓮田市児童扶養手当",
+      "officialUrl": "https://www.city.hasuda.saitama.jp/kodomo/kosodate/teate/jidofuyo.html"
+    },
+    {
+      "code": "11238",
+      "name": "蓮田市",
+      "slug": "hasuda-pregnant-support-benefit-2026",
+      "title": "蓮田市妊婦のための支援給付",
+      "officialUrl": "https://www.city.hasuda.saitama.jp/kodomo_kenko/kosodate/ninshin/syussankosodate.html"
+    },
+    {
+      "code": "11238",
+      "name": "蓮田市",
+      "slug": "hasuda-funeral-expense-benefit-2026",
+      "title": "蓮田市国民健康保険葬祭費",
+      "officialUrl": "https://www.city.hasuda.saitama.jp/kokuho/kurashi/hoken/kokuho/todokede/sosaihi.html"
+    },
+    {
+      "code": "11239",
+      "name": "坂戸市",
+      "slug": "sakado-human-dock-subsidy-2026",
+      "title": "坂戸市人間ドック検診費補助",
+      "officialUrl": "https://www.city.sakado.lg.jp/soshiki/18/1045.html"
+    },
+    {
+      "code": "11239",
+      "name": "坂戸市",
+      "slug": "sakado-newborn-hearing-screening-subsidy-2026",
+      "title": "坂戸市新生児聴覚スクリーニング検査費用助成",
+      "officialUrl": "https://www.city.sakado.lg.jp/soshiki/19/30492.html"
+    },
+    {
+      "code": "11239",
+      "name": "坂戸市",
+      "slug": "sakado-bone-marrow-donor-subsidy-2026",
+      "title": "坂戸市骨髄・末梢血幹細胞提供者助成金",
+      "officialUrl": "https://www.city.sakado.lg.jp/soshiki/19/347.html"
+    },
+    {
+      "code": "11239",
+      "name": "坂戸市",
+      "slug": "sakado-shingles-vaccine-subsidy-2026",
+      "title": "坂戸市帯状疱疹ワクチン任意予防接種費用助成",
+      "officialUrl": "https://www.city.sakado.lg.jp/soshiki/19/36992.html"
+    },
+    {
+      "code": "11239",
+      "name": "坂戸市",
+      "slug": "sakado-food-waste-processor-subsidy-2026",
+      "title": "坂戸市家庭用生ごみ処理器等購入費補助",
+      "officialUrl": "https://www.city.sakado.lg.jp/soshiki/20/78.html"
+    },
+    {
+      "code": "11239",
+      "name": "坂戸市",
+      "slug": "sakado-rice-stink-bug-pesticide-subsidy-2026",
+      "title": "坂戸市イネカメムシ防除用農薬購入費補助金",
+      "officialUrl": "https://www.city.sakado.lg.jp/soshiki/24/57355.html"
+    },
+    {
+      "code": "11239",
+      "name": "坂戸市",
+      "slug": "sakado-wooden-house-earthquake-resistance-subsidy-2026",
+      "title": "坂戸市木造住宅耐震診断・耐震改修補助金",
+      "officialUrl": "https://www.city.sakado.lg.jp/soshiki/37/1272.html"
+    },
+    {
+      "code": "11240",
+      "name": "幸手市",
+      "slug": "satte-pregnant-support-benefit-2026",
+      "title": "幸手市妊婦のための支援給付金",
+      "officialUrl": "https://www.city.satte.lg.jp/iryo_kenko_hukushi/iryo_kenko/2/11978.html"
+    },
+    {
+      "code": "11240",
+      "name": "幸手市",
+      "slug": "satte-single-parent-child-support-guarantee-subsidy-2026",
+      "title": "幸手市ひとり親家庭等養育費確保支援事業補助金",
+      "officialUrl": "https://www.city.satte.lg.jp/kosodate_kyoiku/kosodateshien/6/14922.html"
+    },
+    {
+      "code": "11240",
+      "name": "幸手市",
+      "slug": "satte-rice-pest-control-chemical-subsidy-2026",
+      "title": "幸手市水稲病害虫防除薬剤購入補助金",
+      "officialUrl": "https://www.city.satte.lg.jp/soshiki/nougyoushinko/2/16_1/index.html"
+    }
+  ],
+  "next": [
+    "11241鶴ヶ島市",
+    "11242日高市",
+    "11243吉川市",
+    "11245ふじみ野市"
+  ]
+}

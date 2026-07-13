@@ -6708,4 +6708,38 @@
     - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
     - 久喜市の脱炭素関連補助金、空き店舗活用創業等支援、中小企業向け各種補助金、北本市の老朽空き家解体・空き家改修・クビアカツヤカミキリ対策・空き店舗等活用・女性職場環境改善、八潮市の新商品開発・工場移転資金利子補給・試験機関利用・中小企業退職金共済掛金・進学に向けた受験料補助、富士見市の空家補助・骨髄移植ドナー・介護保険利用者負担助成・成年後見報酬助成・物価高対応子育て応援手当等は、金額・対象・受付状況又は制度重複の観点で第2巡候補に残す。
   - 次:
-    - 埼玉県公式棚卸し009として、11237三郷市、11238蓮田市、11239坂戸市、11240幸手市を自治体コード順に確認する。
+    - 埼玉県公式棚卸し009として、11237三郷市、11238蓮田市、11239坂戸市、11240幸手市を自治体コード順に確認した。
+
+- 埼玉県公式棚卸し009
+  - 対象:
+    - 11237 三郷市、11238 蓮田市、11239 坂戸市、11240 幸手市。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補302件をローカルJSONへ保存した。
+    - 候補が150件を超えたため、公式カテゴリリンク抽出で362件の第2巡台帳を作成し、公式本文スニペット180件を `tasks/discovery/saitama-official-coverage-009-detail-snippets.json` に保存して、制度強語、金額・上限、対象条件、期限・受付表現の揃う個別ページを再スコアリングした。
+    - 幸手市は候補が薄かったため、手当・助成、妊婦・乳幼児向け、農業カテゴリから公式追加リンクを抽出し、トップ、カテゴリ、一覧、共通ナビ一致は候補JSONとリンク台帳に残して第2巡候補として扱う。
+  - 採用:
+    - 三郷市4件: 中小企業資金融資、中小企業退職金共済等掛金、起業家応援、資格取得支援。
+    - 蓮田市6件: ひとり親家庭等医療費、こども医療費、児童手当、児童扶養手当、妊婦支援給付、国民健康保険葬祭費。
+    - 坂戸市7件: 人間ドック検診費、新生児聴覚スクリーニング、骨髄等ドナー、帯状疱疹ワクチン、家庭用生ごみ処理器、イネカメムシ防除用農薬、木造住宅耐震診断・耐震改修。
+    - 幸手市3件: 妊婦支援給付、ひとり親家庭等養育費確保支援、水稲病害虫防除薬剤購入。
+  - 生成ファイル:
+    - `tasks/discovery/saitama-official-coverage-009-municipalities.json`
+    - `tasks/discovery/saitama-official-coverage-009-candidates.json`
+    - `tasks/discovery/saitama-official-coverage-009-link-shortlist.json`
+    - `tasks/discovery/saitama-official-coverage-009-official-extra.json`
+    - `tasks/discovery/saitama-official-coverage-009-detail-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-009-selected-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-009-selected-main.json`
+    - `tasks/discovery/saitama-official-coverage-009.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（20件、duplicateCount 0）。
+    - 公式URL到達: pass（20 unique official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10509、officialLinkedActive 10471、manuallyVerifiedActive 10471、埼玉県 localOfficial 388）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 三郷市のがんばろう企業応援、終了・予算到達制度、蓮田市の受付終了済み物価高支援金・調整給付、坂戸市の早期不妊検査・不育症検査・医療用補整具・予防接種償還払い・低所得妊婦初回産科受診料、幸手市の入学準備金貸付・就学援助・自立支援教育訓練・高等職業訓練・不妊検査不育症検査・新生児聴覚検査等は、金額・対象・受付状況又は制度重複の観点で第2巡候補に残す。
+  - 次:
+    - 埼玉県公式棚卸し010として、11241鶴ヶ島市、11242日高市、11243吉川市、11245ふじみ野市を自治体コード順に確認する。
