@@ -1,0 +1,26 @@
+{
+  "batchId": "tochigi-comprehensive-official-coverage-006",
+  "prefecture": "栃木県",
+  "municipalities": [
+    {
+      "code": "09364",
+      "name": "野木町",
+      "officialBaseUrl": "https://www.town.nogi.lg.jp/"
+    },
+    {
+      "code": "09384",
+      "name": "塩谷町",
+      "officialBaseUrl": "https://www.town.shioya.tochigi.jp/"
+    },
+    {
+      "code": "09386",
+      "name": "高根沢町",
+      "officialBaseUrl": "https://www.town.takanezawa.tochigi.jp/"
+    },
+    {
+      "code": "09407",
+      "name": "那須町",
+      "officialBaseUrl": "https://www.town.nasu.lg.jp/"
+    }
+  ]
+}

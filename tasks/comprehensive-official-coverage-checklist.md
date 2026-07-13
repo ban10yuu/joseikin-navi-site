@@ -6040,3 +6040,38 @@
     - 壬生町の空家解体事業補助金は公式ページで令和8年度募集一時停止中を確認したため採用しない。園芸作物生産拡大支援事業はURL到達と補助率表の安定確認を第2巡へ残す。
   - 次:
     - 栃木県公式棚卸し006として、09364野木町、09384塩谷町、09386高根沢町、09407那須町を自治体コード順に確認する。
+
+- 栃木県公式棚卸し006
+  - 対象:
+    - 09364 野木町、09384 塩谷町、09386 高根沢町、09407 那須町。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補494件をローカルJSONへ保存した。
+    - `tasks/discovery/tochigi-official-coverage-006-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現、再スコアを抽出した。
+    - 塩谷町・高根沢町・那須町は公式ドメイン内検索で個別制度ページを補完し、`tasks/discovery/tochigi-official-coverage-006-official-extra.json` に35件の公式本文スニペットを保存した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページのみ採用した。
+  - 採用:
+    - 野木町10件: スタートアップ支援、住宅用脱炭素化普及促進設備、定住促進住宅購入、平地林危険木伐採等、ブロック塀等撤去、木造住宅耐震診断・改修・建替、自転車ヘルメット、家庭用防犯対策、地方就職支援、ガバメントクラウドファンディング活用支援。
+    - 塩谷町8件: 妊婦のための支援給付、住宅リフォーム等、空き家等解体、高等学校等通学支援、地域経済循環創造事業、自治公民館建設費等、こども医療費、こだから休暇奨励金。
+    - 高根沢町9件: 犯罪被害者等見舞金、結婚新生活支援、家庭向け脱炭素化、企業立地促進、事業所向け脱炭素化、空家等解体、こども医療費、ひとり親家庭医療費、自主防災組織活動支援。
+    - 那須町3件: 移住支援、那須が大好き応援券、芦野石利用促進。
+  - 生成ファイル:
+    - `tasks/discovery/tochigi-official-coverage-006-municipalities.json`
+    - `tasks/discovery/tochigi-official-coverage-006-candidates.json`（raw候補）
+    - `tasks/discovery/tochigi-official-coverage-006-detail-snippets.json`
+    - `tasks/discovery/tochigi-official-coverage-006-official-extra.json`
+    - `tasks/discovery/tochigi-official-coverage-006.json`
+  - 検証:
+    - 追加slug重複: pass（30件、全9649slugでduplicateCount 0）。
+    - 公式URL到達: pass（30件すべてHTTP 200）。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10009、officialLinkedActive 9971、manuallyVerifiedActive 9971、栃木県 localOfficial 273）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 野木町の定額減税調整給付金（不足額給付分）は申請期間終了のため、第2巡で期限切れ表示粒度を判定する。水道基本料金70%減免は自動減免で個別申請制度ではないため掲載粒度を第2巡で整理する。
+    - 塩谷町の家庭用ゼロカーボン推進事業費補助金は、HTML本文で設備別補助額表の抽出が不足したため、添付PDF又は表を第2巡で確認する。
+    - 高根沢町の園芸作物推進支援事業費補助事業は令和8年度予算到達で現在申請受付停止のため、再開状況を第2巡で確認する。
+    - 那須町の移住・定住助成一覧ページは個別制度URLではないため台帳に残し、一覧内の他制度は第2巡で個別ページ確認する。
+  - 次:
+    - 栃木県公式棚卸し007として、09411那珂川町を自治体コード順に確認する。
