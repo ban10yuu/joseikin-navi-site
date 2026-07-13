@@ -1,0 +1,26 @@
+{
+  "batchId": "fukushima-comprehensive-official-coverage-007",
+  "prefecture": "福島県",
+  "municipalities": [
+    {
+      "code": "07405",
+      "name": "西会津町",
+      "officialBaseUrl": "https://www.town.nishiaizu.fukushima.jp/"
+    },
+    {
+      "code": "07407",
+      "name": "磐梯町",
+      "officialBaseUrl": "https://www.town.bandai.fukushima.jp/"
+    },
+    {
+      "code": "07408",
+      "name": "猪苗代町",
+      "officialBaseUrl": "https://www.town.inawashiro.fukushima.jp/"
+    },
+    {
+      "code": "07421",
+      "name": "会津坂下町",
+      "officialBaseUrl": "https://www.town.aizubange.fukushima.jp/"
+    }
+  ]
+}

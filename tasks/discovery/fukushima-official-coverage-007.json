@@ -1,0 +1,403 @@
+{
+  "batchId": "fukushima-comprehensive-official-coverage-007",
+  "prefecture": "福島県",
+  "municipalities": [
+    {
+      "code": "07405",
+      "name": "西会津町",
+      "officialBaseUrl": "https://www.town.nishiaizu.fukushima.jp/"
+    },
+    {
+      "code": "07407",
+      "name": "磐梯町",
+      "officialBaseUrl": "https://www.town.bandai.fukushima.jp/"
+    },
+    {
+      "code": "07408",
+      "name": "猪苗代町",
+      "officialBaseUrl": "https://www.town.inawashiro.fukushima.jp/"
+    },
+    {
+      "code": "07421",
+      "name": "会津坂下町",
+      "officialBaseUrl": "https://www.town.aizubange.fukushima.jp/"
+    }
+  ],
+  "officialTopReachability": {
+    "西会津町": 200,
+    "磐梯町": 200,
+    "猪苗代町": 200,
+    "会津坂下町": 200
+  },
+  "discovery": {
+    "candidateCount": 1660,
+    "candidateFile": "tasks/discovery/fukushima-official-coverage-007-candidates.json",
+    "snippetCount": 487,
+    "snippetFile": "tasks/discovery/fukushima-official-coverage-007-snippets.json",
+    "detailsChecked": 60,
+    "detailsFile": "tasks/discovery/fukushima-official-coverage-007-details.json"
+  },
+  "adopted": {
+    "count": 39,
+    "byMunicipality": {
+      "西会津町": [
+        "西会津町 LED照明買替促進支援補助金",
+        "西会津町 運転免許証自主返納支援事業",
+        "西会津町 再生可能エネルギー設備等設置費補助事業",
+        "西会津町 出産祝金",
+        "西会津町 敬老祝金・百歳賀寿",
+        "西会津町 就学援助制度",
+        "西会津町 特別支援教育就学奨励費助成事業"
+      ],
+      "磐梯町": [
+        "磐梯町 民間賃貸住宅建設補助金",
+        "磐梯町 住んで「ばんだい」住宅取得支援事業補助金",
+        "磐梯町 定住促進事業補助金",
+        "磐梯町 結婚新生活支援事業補助金"
+      ],
+      "猪苗代町": [
+        "猪苗代町 定住促進事業補助金",
+        "猪苗代町 民間賃貸住宅家賃補助金",
+        "猪苗代町 住宅用太陽光発電システム設置事業費補助金",
+        "猪苗代町 出産手当",
+        "猪苗代町 乳幼児おむつ等給付券給付事業",
+        "猪苗代町 乳幼児および児童医療費助成制度",
+        "猪苗代町 ひとり親家庭医療費助成制度",
+        "猪苗代町 不妊治療費等助成事業",
+        "猪苗代町 生殖補助医療交通費支援事業",
+        "猪苗代町 低所得妊婦初回産科受診料助成事業",
+        "猪苗代町 就学援助",
+        "猪苗代町 帯状疱疹予防接種費用助成",
+        "猪苗代町 おたふくかぜ予防接種費用助成",
+        "猪苗代町 インフルエンザ予防接種助成",
+        "猪苗代町 予防接種再接種費用助成事業"
+      ],
+      "会津坂下町": [
+        "会津坂下町 住宅取得関連補助金",
+        "会津坂下町 物価高対応子育て応援手当",
+        "会津坂下町 ひとり親家庭医療費助成事業",
+        "会津坂下町 合併処理浄化槽設置整備事業補助金",
+        "会津坂下町 空き家改修等支援事業補助金",
+        "会津坂下町 地区集会所建築費等補助金",
+        "会津坂下町 農村無給水地区整備事業補助金",
+        "会津坂下町 空家等除却推進事業補助金",
+        "会津坂下町 ごみ減量化補助制度",
+        "会津坂下町 結婚新生活応援事業補助金",
+        "会津坂下町 高校生等通学定期券購入費助成制度",
+        "会津坂下町 介護職員初任者研修受講就労補助金",
+        "会津坂下町 介護職員実務者研修受講就労補助金"
+      ]
+    },
+    "slugs": [
+      "nishiaizu-led-lighting-replacement-subsidy-2026",
+      "nishiaizu-driver-license-return-support-2026",
+      "nishiaizu-renewable-energy-equipment-subsidy-2026",
+      "nishiaizu-childbirth-celebration-grant-2026",
+      "nishiaizu-longevity-celebration-grant-2026",
+      "nishiaizu-school-expense-assistance-2026",
+      "nishiaizu-special-needs-schooling-incentive-2026",
+      "bandai-private-rental-housing-construction-subsidy-2026",
+      "bandai-sunde-bandai-housing-acquisition-subsidy-2026",
+      "bandai-settlement-housing-acquisition-subsidy-2026",
+      "bandai-marriage-new-life-subsidy-2026",
+      "inawashiro-settlement-housing-acquisition-subsidy-2026",
+      "inawashiro-private-rental-housing-rent-subsidy-2026",
+      "inawashiro-residential-solar-power-subsidy-2026",
+      "inawashiro-childbirth-allowance-2026",
+      "inawashiro-infant-diaper-voucher-2026",
+      "inawashiro-child-medical-expense-subsidy-2026",
+      "inawashiro-single-parent-medical-subsidy-2026",
+      "inawashiro-fertility-treatment-subsidy-2026",
+      "inawashiro-assisted-reproduction-transport-subsidy-2026",
+      "inawashiro-low-income-pregnancy-first-visit-subsidy-2026",
+      "inawashiro-school-expense-assistance-2026",
+      "inawashiro-shingles-vaccine-subsidy-2026",
+      "inawashiro-mumps-vaccine-subsidy-2026",
+      "inawashiro-child-flu-vaccine-subsidy-2026",
+      "inawashiro-revaccination-subsidy-2026",
+      "aizubange-housing-acquisition-subsidy-2026",
+      "aizubange-price-childcare-support-allowance-2026",
+      "aizubange-single-parent-medical-subsidy-2026",
+      "aizubange-septic-tank-installation-subsidy-2026",
+      "aizubange-vacant-house-renovation-subsidy-2026",
+      "aizubange-community-hall-construction-subsidy-2026",
+      "aizubange-rural-no-water-area-improvement-subsidy-2026",
+      "aizubange-vacant-house-demolition-subsidy-2026",
+      "aizubange-bio-waste-processor-subsidy-2026",
+      "aizubange-marriage-new-life-subsidy-2026",
+      "aizubange-high-school-commuter-pass-subsidy-2026",
+      "aizubange-care-worker-beginner-training-subsidy-2026",
+      "aizubange-care-worker-practical-training-subsidy-2026"
+    ],
+    "items": [
+      {
+        "municipality": "西会津町",
+        "slug": "nishiaizu-led-lighting-replacement-subsidy-2026",
+        "title": "西会津町 LED照明買替促進支援補助金",
+        "officialUrl": "https://www.town.nishiaizu.fukushima.jp/soshiki/3/18353.html"
+      },
+      {
+        "municipality": "西会津町",
+        "slug": "nishiaizu-driver-license-return-support-2026",
+        "title": "西会津町 運転免許証自主返納支援事業",
+        "officialUrl": "https://www.town.nishiaizu.fukushima.jp/soshiki/3/5607.html"
+      },
+      {
+        "municipality": "西会津町",
+        "slug": "nishiaizu-renewable-energy-equipment-subsidy-2026",
+        "title": "西会津町 再生可能エネルギー設備等設置費補助事業",
+        "officialUrl": "https://www.town.nishiaizu.fukushima.jp/soshiki/2/20.html"
+      },
+      {
+        "municipality": "西会津町",
+        "slug": "nishiaizu-childbirth-celebration-grant-2026",
+        "title": "西会津町 出産祝金",
+        "officialUrl": "https://www.town.nishiaizu.fukushima.jp/site/kosodate/778.html"
+      },
+      {
+        "municipality": "西会津町",
+        "slug": "nishiaizu-longevity-celebration-grant-2026",
+        "title": "西会津町 敬老祝金・百歳賀寿",
+        "officialUrl": "https://www.town.nishiaizu.fukushima.jp/soshiki/4/758.html"
+      },
+      {
+        "municipality": "西会津町",
+        "slug": "nishiaizu-school-expense-assistance-2026",
+        "title": "西会津町 就学援助制度",
+        "officialUrl": "https://www.town.nishiaizu.fukushima.jp/soshiki/9/882.html"
+      },
+      {
+        "municipality": "西会津町",
+        "slug": "nishiaizu-special-needs-schooling-incentive-2026",
+        "title": "西会津町 特別支援教育就学奨励費助成事業",
+        "officialUrl": "https://www.town.nishiaizu.fukushima.jp/soshiki/9/882.html"
+      },
+      {
+        "municipality": "磐梯町",
+        "slug": "bandai-private-rental-housing-construction-subsidy-2026",
+        "title": "磐梯町 民間賃貸住宅建設補助金",
+        "officialUrl": "https://www.town.bandai.fukushima.jp/site/kurashi-kankyo/jyu-takuhojyokin.html"
+      },
+      {
+        "municipality": "磐梯町",
+        "slug": "bandai-sunde-bandai-housing-acquisition-subsidy-2026",
+        "title": "磐梯町 住んで「ばんだい」住宅取得支援事業補助金",
+        "officialUrl": "https://www.town.bandai.fukushima.jp/site/iju/jutaku_shutoku.html"
+      },
+      {
+        "municipality": "磐梯町",
+        "slug": "bandai-settlement-housing-acquisition-subsidy-2026",
+        "title": "磐梯町 定住促進事業補助金",
+        "officialUrl": "https://www.town.bandai.fukushima.jp/site/jinkou/jutaku_shutoku.html"
+      },
+      {
+        "municipality": "磐梯町",
+        "slug": "bandai-marriage-new-life-subsidy-2026",
+        "title": "磐梯町 結婚新生活支援事業補助金",
+        "officialUrl": "https://www.town.bandai.fukushima.jp/site/todokede/2026marriage-support.html"
+      },
+      {
+        "municipality": "猪苗代町",
+        "slug": "inawashiro-settlement-housing-acquisition-subsidy-2026",
+        "title": "猪苗代町 定住促進事業補助金",
+        "officialUrl": "https://www.town.inawashiro.fukushima.jp/site/iju/1730.html"
+      },
+      {
+        "municipality": "猪苗代町",
+        "slug": "inawashiro-private-rental-housing-rent-subsidy-2026",
+        "title": "猪苗代町 民間賃貸住宅家賃補助金",
+        "officialUrl": "https://www.town.inawashiro.fukushima.jp/site/iju/1145.html"
+      },
+      {
+        "municipality": "猪苗代町",
+        "slug": "inawashiro-residential-solar-power-subsidy-2026",
+        "title": "猪苗代町 住宅用太陽光発電システム設置事業費補助金",
+        "officialUrl": "https://www.town.inawashiro.fukushima.jp/soshiki/2/1652.html"
+      },
+      {
+        "municipality": "猪苗代町",
+        "slug": "inawashiro-childbirth-allowance-2026",
+        "title": "猪苗代町 出産手当",
+        "officialUrl": "https://www.town.inawashiro.fukushima.jp/site/kosodate/1454.html"
+      },
+      {
+        "municipality": "猪苗代町",
+        "slug": "inawashiro-infant-diaper-voucher-2026",
+        "title": "猪苗代町 乳幼児おむつ等給付券給付事業",
+        "officialUrl": "https://www.town.inawashiro.fukushima.jp/site/kosodate/1457.html"
+      },
+      {
+        "municipality": "猪苗代町",
+        "slug": "inawashiro-child-medical-expense-subsidy-2026",
+        "title": "猪苗代町 乳幼児および児童医療費助成制度",
+        "officialUrl": "https://www.town.inawashiro.fukushima.jp/site/kosodate/1589.html"
+      },
+      {
+        "municipality": "猪苗代町",
+        "slug": "inawashiro-single-parent-medical-subsidy-2026",
+        "title": "猪苗代町 ひとり親家庭医療費助成制度",
+        "officialUrl": "https://www.town.inawashiro.fukushima.jp/site/kosodate/1459.html"
+      },
+      {
+        "municipality": "猪苗代町",
+        "slug": "inawashiro-fertility-treatment-subsidy-2026",
+        "title": "猪苗代町 不妊治療費等助成事業",
+        "officialUrl": "https://www.town.inawashiro.fukushima.jp/site/kosodate/1431.html"
+      },
+      {
+        "municipality": "猪苗代町",
+        "slug": "inawashiro-assisted-reproduction-transport-subsidy-2026",
+        "title": "猪苗代町 生殖補助医療交通費支援事業",
+        "officialUrl": "https://www.town.inawashiro.fukushima.jp/site/kosodate/1438.html"
+      },
+      {
+        "municipality": "猪苗代町",
+        "slug": "inawashiro-low-income-pregnancy-first-visit-subsidy-2026",
+        "title": "猪苗代町 低所得妊婦初回産科受診料助成事業",
+        "officialUrl": "https://www.town.inawashiro.fukushima.jp/site/kosodate/1217.html"
+      },
+      {
+        "municipality": "猪苗代町",
+        "slug": "inawashiro-school-expense-assistance-2026",
+        "title": "猪苗代町 就学援助",
+        "officialUrl": "https://www.town.inawashiro.fukushima.jp/site/kosodate/1749.html"
+      },
+      {
+        "municipality": "猪苗代町",
+        "slug": "inawashiro-shingles-vaccine-subsidy-2026",
+        "title": "猪苗代町 帯状疱疹予防接種費用助成",
+        "officialUrl": "https://www.town.inawashiro.fukushima.jp/soshiki/5/1437.html"
+      },
+      {
+        "municipality": "猪苗代町",
+        "slug": "inawashiro-mumps-vaccine-subsidy-2026",
+        "title": "猪苗代町 おたふくかぜ予防接種費用助成",
+        "officialUrl": "https://www.town.inawashiro.fukushima.jp/soshiki/5/1436.html"
+      },
+      {
+        "municipality": "猪苗代町",
+        "slug": "inawashiro-child-flu-vaccine-subsidy-2026",
+        "title": "猪苗代町 インフルエンザ予防接種助成",
+        "officialUrl": "https://www.town.inawashiro.fukushima.jp/soshiki/5/1435.html"
+      },
+      {
+        "municipality": "猪苗代町",
+        "slug": "inawashiro-revaccination-subsidy-2026",
+        "title": "猪苗代町 予防接種再接種費用助成事業",
+        "officialUrl": "https://www.town.inawashiro.fukushima.jp/site/kosodate/1216.html"
+      },
+      {
+        "municipality": "会津坂下町",
+        "slug": "aizubange-housing-acquisition-subsidy-2026",
+        "title": "会津坂下町 住宅取得関連補助金",
+        "officialUrl": "https://www.town.aizubange.fukushima.jp/soshiki/2/13535.html"
+      },
+      {
+        "municipality": "会津坂下町",
+        "slug": "aizubange-price-childcare-support-allowance-2026",
+        "title": "会津坂下町 物価高対応子育て応援手当",
+        "officialUrl": "https://www.town.aizubange.fukushima.jp/soshiki/31/18701.html"
+      },
+      {
+        "municipality": "会津坂下町",
+        "slug": "aizubange-single-parent-medical-subsidy-2026",
+        "title": "会津坂下町 ひとり親家庭医療費助成事業",
+        "officialUrl": "https://www.town.aizubange.fukushima.jp/soshiki/31/219.html"
+      },
+      {
+        "municipality": "会津坂下町",
+        "slug": "aizubange-septic-tank-installation-subsidy-2026",
+        "title": "会津坂下町 合併処理浄化槽設置整備事業補助金",
+        "officialUrl": "https://www.town.aizubange.fukushima.jp/soshiki/28/128.html"
+      },
+      {
+        "municipality": "会津坂下町",
+        "slug": "aizubange-vacant-house-renovation-subsidy-2026",
+        "title": "会津坂下町 空き家改修等支援事業補助金",
+        "officialUrl": "https://www.town.aizubange.fukushima.jp/soshiki/2/15872.html"
+      },
+      {
+        "municipality": "会津坂下町",
+        "slug": "aizubange-community-hall-construction-subsidy-2026",
+        "title": "会津坂下町 地区集会所建築費等補助金",
+        "officialUrl": "https://www.town.aizubange.fukushima.jp/soshiki/26/1385.html"
+      },
+      {
+        "municipality": "会津坂下町",
+        "slug": "aizubange-rural-no-water-area-improvement-subsidy-2026",
+        "title": "会津坂下町 農村無給水地区整備事業補助金",
+        "officialUrl": "https://www.town.aizubange.fukushima.jp/soshiki/29/340.html"
+      },
+      {
+        "municipality": "会津坂下町",
+        "slug": "aizubange-vacant-house-demolition-subsidy-2026",
+        "title": "会津坂下町 空家等除却推進事業補助金",
+        "officialUrl": "https://www.town.aizubange.fukushima.jp/soshiki/28/18883.html"
+      },
+      {
+        "municipality": "会津坂下町",
+        "slug": "aizubange-bio-waste-processor-subsidy-2026",
+        "title": "会津坂下町 ごみ減量化補助制度",
+        "officialUrl": "https://www.town.aizubange.fukushima.jp/soshiki/27/92.html"
+      },
+      {
+        "municipality": "会津坂下町",
+        "slug": "aizubange-marriage-new-life-subsidy-2026",
+        "title": "会津坂下町 結婚新生活応援事業補助金",
+        "officialUrl": "https://www.town.aizubange.fukushima.jp/soshiki/2/14834.html"
+      },
+      {
+        "municipality": "会津坂下町",
+        "slug": "aizubange-high-school-commuter-pass-subsidy-2026",
+        "title": "会津坂下町 高校生等通学定期券購入費助成制度",
+        "officialUrl": "https://www.town.aizubange.fukushima.jp/soshiki/2/19102.html"
+      },
+      {
+        "municipality": "会津坂下町",
+        "slug": "aizubange-care-worker-beginner-training-subsidy-2026",
+        "title": "会津坂下町 介護職員初任者研修受講就労補助金",
+        "officialUrl": "https://www.town.aizubange.fukushima.jp/soshiki/27/3410.html"
+      },
+      {
+        "municipality": "会津坂下町",
+        "slug": "aizubange-care-worker-practical-training-subsidy-2026",
+        "title": "会津坂下町 介護職員実務者研修受講就労補助金",
+        "officialUrl": "https://www.town.aizubange.fukushima.jp/soshiki/27/8310.html"
+      }
+    ]
+  },
+  "heldForSecondPass": [
+    "西会津町の農業者応援チラシPDF、結婚祝金・乳幼児家庭子育て応援金・子育て医療費サポート事業は、一覧または別PDFの制度差分・金額・受付状況を第2巡で確認する。",
+    "磐梯町の骨髄等ドナー支援助成金、遠方出産支援事業、誕生祝金支給制度、新規就農者向け初期投資経費補助、各種予防接種助成は、一覧ページから個別本文・PDF要綱への展開を第2巡で確認する。",
+    "猪苗代町の結婚新生活支援、児童手当、遠方出産助成、新生児聴覚検査、高齢者肺炎球菌、子育て支援ガイドブック等は、国制度重複または金額・受付差分を第2巡で確認する。",
+    "会津坂下町の特別児童扶養手当、児童扶養手当、出産育児一時金、母子父子寡婦福祉資金、コンポスト個別PDF、漏水減免、国民年金免除は、国・県制度重複または制度単位の金額・受付差分を第2巡で確認する。"
+  ],
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: added 39 slugs, duplicate 0",
+    "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 39 slugs / 39 source URLs, failures 0, all HTTP 200",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8787, officialLinkedActive 8749, manuallyVerifiedActive 8749, Fukushima localOfficial 265, Fukushima coveredCategories 8",
+    "diffCheck": "pass: git diff --check for Fukushima 007 files before checkpoint/checklist update"
+  },
+  "next": {
+    "batchId": "fukushima-comprehensive-official-coverage-008",
+    "municipalities": [
+      {
+        "code": "07422",
+        "name": "湯川村"
+      },
+      {
+        "code": "07423",
+        "name": "柳津町"
+      },
+      {
+        "code": "07444",
+        "name": "三島町"
+      },
+      {
+        "code": "07445",
+        "name": "金山町"
+      }
+    ]
+  }
+}
