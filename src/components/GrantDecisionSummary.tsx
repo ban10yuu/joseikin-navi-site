@@ -92,6 +92,7 @@ export default function GrantDecisionSummary({
         className="grant-official-primary"
       >
         公式サイトで最新情報を確認
+        <span className="sr-only">（新しいタブで開きます）</span>
         <span aria-hidden="true">↗</span>
       </a>
       <p className="grant-summary-verified">{formatVerifiedDate(grant.verifiedAt)}。対象条件と受付状況は公式情報を優先してください。</p>
