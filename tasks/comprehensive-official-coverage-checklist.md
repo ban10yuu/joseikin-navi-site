@@ -3852,9 +3852,9 @@
     - 涌谷町の農林業者への資金繰り支援策は2020年更新のコロナ関連資金案内、雇用調整助成金案内は国制度周知、傷病手当金は過年度案内、生ごみ処理機購入助成はカテゴリ導線のみで金額確認不足のため採用しない。
   - 検証:
     - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
-    - 追加23slug一意確認: pass。
+    - 追加23slug一意確認: pass（総slug 9519、重複0）。
     - 23制度23URLの公式URL到達確認: 全件HTTP 200。
-    - `npm run audit:coverage`: pass（failures 0、activePublished 8089、officialLinkedActive 8051、manuallyVerifiedActive 8051、宮城県 localOfficial 333）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9445、officialLinkedActive 9407、manuallyVerifiedActive 9407、宮城県 localOfficial 355、宮城県 coveredCategories 8）。
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-second-pass-008.json`: pass。
   - 次:
     - 宮城県公式棚卸し第2巡009として、04505美里町、04581女川町、04606南三陸町の第1巡保留候補を確認する。

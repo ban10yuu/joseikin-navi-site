@@ -1,6 +1,7 @@
 {
   "batchId": "miyagi-comprehensive-official-coverage-second-pass-008",
   "prefecture": "宮城県",
+  "completedAt": "2026-07-13T15:20:08+09:00",
   "municipalities": [
     {
       "code": "04424",
@@ -72,8 +73,40 @@
     }
   ],
   "adoptedCount": 23,
+  "adoptedSlugs": [
+    "ohira-medical-wig-breast-prosthesis-subsidy-2026",
+    "ohira-manyo-nobinobi-childcare-voucher-bonus-2026",
+    "ohira-inflation-childcare-support-allowance-2026",
+    "ohira-single-parent-medical-expense-subsidy-2026",
+    "ohira-rubella-vaccine-antibody-subsidy-2026",
+    "ohira-shingles-vaccination-subsidy-2026",
+    "ohira-food-waste-processor-subsidy-2026",
+    "ohira-local-vehicle-purchase-subsidy-2026",
+    "shikama-school-expense-assistance-2026",
+    "shikama-childbirth-childcare-support-benefit-2026",
+    "shikama-child-allowance-2026",
+    "shikama-single-parent-child-rearing-allowance-2026",
+    "shikama-special-child-rearing-allowance-2026",
+    "shikama-child-medical-expense-subsidy-2026",
+    "shikama-medical-wig-breast-prosthesis-subsidy-2026",
+    "kami-family-smile-housing-acquisition-subsidy-2026",
+    "kami-medical-wig-breast-prosthesis-subsidy-2026",
+    "kami-severe-disability-medical-expense-subsidy-2026",
+    "kami-hearing-aid-child-subsidy-2026",
+    "kami-vehicle-modification-subsidy-2026",
+    "wakuya-jumonji-university-scholarship-2026",
+    "wakuya-childcare-household-rice-support-2026",
+    "wakuya-medical-wig-breast-prosthesis-subsidy-2026"
+  ],
   "excludedCount": 13,
   "heldCount": 0,
   "sourceUrlsChecked": 23,
-  "notes": "第1巡008の保留候補を公式HTML本文単位で再確認。金額・対象・条件・期限/受付状況が揃う23件を採用し、期限到来、国制度周知、カテゴリ導線、現行性不足の候補は除外して未判定を解消した。"
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: 23 added slugs each appear once, total slugs 9519, duplicates 0",
+    "urlReachability": "pass: 23制度23URL returned HTTP 200",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9445, officialLinkedActive 9407, manuallyVerifiedActive 9407, Miyagi localOfficial 355, Miyagi coveredCategories 8",
+    "diffCheck": "pass: git diff --check for Miyagi second-pass 008 files"
+  },
+  "notes": "第1巡008の保留候補を公式HTML本文単位で再確認。金額・対象・条件・期限/受付状況が揃う23件を採用し、期限到来、国制度周知、カテゴリ導線、現行性不足の候補は除外して未判定を解消し、現行HEADで再検証した。"
 }
