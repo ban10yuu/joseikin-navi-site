@@ -5136,6 +5136,29 @@
   - 次:
     - 福島県第2巡014として、07544川内村、07545大熊町、07546双葉町、07547浪江町の保留候補を確認する。
 
+- 福島県公式棚卸し第2巡014（川内村・大熊町・双葉町・浪江町）
+  - 対象: 07544川内村、07545大熊町、07546双葉町、07547浪江町。
+  - 方法:
+    - 第1巡014の保留候補、公式extra、既存採用URL、カテゴリ導線、個別ページを再確認した。
+    - 既掲載 `officialUrl` を除外し、公式本文を再取得して `tasks/discovery/fukushima-second-pass-014-shortlist.json` 12件、`tasks/discovery/fukushima-second-pass-014-page-evidence.json` 11件、`tasks/discovery/fukushima-second-pass-014-adopted.json` を作成した。
+    - title/h1/main/article/URLの制度強語に加え、対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別制度を採用し、既掲載制度の様式PDF、移行案内、カテゴリ、基金公表、住宅入居募集、無料講座中心の支援案内は第2巡継続台帳へ残した。
+  - 追加:
+    - 川内村: 子育て応援・用具購入費交付金。
+    - 双葉町: 医療費一部負担金等免除、民間賃貸住宅新築等促進事業補助金、高齢者肺炎球菌ワクチン予防接種費用助成、令和8年度高齢者帯状疱疹予防接種費用助成、風しん抗体検査・予防接種費用助成。
+  - 保留継続:
+    - 川内村の「来てかわうち」住宅取得等支援事業様式PDF群は既掲載制度の様式差分として保留。
+    - 大熊町の住宅清掃補助金は令和6年度で受付終了し、既掲載の住宅取得等支援事業補助金へ移行。生活支援一覧は複数制度のカテゴリ導線として保留。
+    - 双葉町の特定原子力施設地域振興事業補助金は基金造成・公表ページ、駅西住宅入居者募集は住宅入居募集であり、補助金・助成金等の支給制度本文ではない。
+    - 浪江町起業人材支援事業は無料講座、相談、アクセラレータープログラム等が中心で、金額付き補助制度本文ではない。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 6件、重複確認 pass（duplicateOrMissing 0、duplicates 0）。
+    - 追加した6制度6公式URLの到達確認 pass（6件すべて HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9444、officialLinkedActive 9406、manuallyVerifiedActive 9406、福島県 `localOfficial` 922、福島県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-second-pass-014-shortlist.json tasks/discovery/fukushima-second-pass-014-page-evidence.json tasks/discovery/fukushima-second-pass-014-adopted.json`: pass。
+  - 次:
+    - 福島県第2巡015として、07548葛尾村、07561新地町、07564飯舘村の保留候補を確認する。
+
 - 宮城県公式棚卸し009（美里町・女川町・南三陸町）
   - 対象: 04505美里町、04581女川町、04606南三陸町。
   - 方法:

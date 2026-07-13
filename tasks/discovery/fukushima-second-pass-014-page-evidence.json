@@ -1,0 +1,83 @@
+{
+  "batch": "fukushima-second-pass-014",
+  "checkedAt": "2026-07-13T14:39:21+09:00",
+  "evidence": [
+    {
+      "municipality": "川内村",
+      "url": "https://www.kawauchimura.jp/kurashi/kosodate-kyoiku/kosodateshien/page000769.html",
+      "status": 200,
+      "title": "子育て応援・用具購入費交付金",
+      "findings": "6歳未満の乳幼児と同居する保護者、チャイルドシート等・ベビーカー・ベビーベッド、購入費2分の1・上限2万円、購入後申請を確認。"
+    },
+    {
+      "municipality": "大熊町",
+      "url": "https://www.town.okuma.fukushima.jp/soshiki/seikatushien/30091.html",
+      "status": 200,
+      "title": "大熊町住宅清掃補助金の移行について",
+      "findings": "住宅清掃費補助金は令和6年度で受付終了し、令和7年4月1日から住宅取得等支援事業補助金へ移行する案内として保留。"
+    },
+    {
+      "municipality": "大熊町",
+      "url": "https://www.town.okuma.fukushima.jp/site/iju/shien-2.html",
+      "status": 200,
+      "title": "生活に関する支援",
+      "findings": "複数の支援制度一覧。既掲載制度を含むカテゴリ導線として保留。"
+    },
+    {
+      "municipality": "双葉町",
+      "url": "https://www.town.fukushima-futaba.lg.jp/item/17330.htm",
+      "status": 200,
+      "title": "医療費一部負担金等免除証明書について",
+      "findings": "国保または後期高齢者医療保険加入者、免除証明書、有効期限令和8年3月1日から令和8年7月31日、医療機関窓口提示を確認。"
+    },
+    {
+      "municipality": "双葉町",
+      "url": "https://www.town.fukushima-futaba.lg.jp/12289.htm",
+      "status": 200,
+      "title": "双葉町民間賃貸住宅新築等促進事業のお知らせ",
+      "findings": "町内民間賃貸住宅建設、用地取得10分の4・上限500万円、建設工事25%又は35%・上限最大1億円、事業着手前相談と着工前申請を確認。"
+    },
+    {
+      "municipality": "双葉町",
+      "url": "https://www.town.fukushima-futaba.lg.jp/10818.htm",
+      "status": 200,
+      "title": "高齢者肺炎球菌ワクチン予防接種について",
+      "findings": "65歳等対象、接種期間66歳誕生日前日まで、公費助成で無料、県外避難先等で自己負担が生じた場合の助成申請を確認。"
+    },
+    {
+      "municipality": "双葉町",
+      "url": "https://www.town.fukushima-futaba.lg.jp/12246.htm",
+      "status": 200,
+      "title": "令和8年度 高齢者帯状疱疹予防接種のお知らせ",
+      "findings": "令和8年度対象年齢、自己負担額、生ワクチン2,500円・不活化ワクチン1回6,500円、生活保護受給者無料、県外接種時の差額助成を確認。"
+    },
+    {
+      "municipality": "双葉町",
+      "url": "https://www.town.fukushima-futaba.lg.jp/6468.htm",
+      "status": 200,
+      "title": "風しん抗体検査・予防接種費用助成のお知らせ",
+      "findings": "接種当日双葉町住所、妊娠希望女性とパートナー、風しん抗体検査費用全額、MR又は風しんワクチン接種費用全額、1人1回、申請書・領収書等による申請を確認。"
+    },
+    {
+      "municipality": "双葉町",
+      "url": "https://www.town.fukushima-futaba.lg.jp/9605.htm",
+      "status": 200,
+      "title": "特定原子力施設地域振興事業補助金について",
+      "findings": "基金造成・公表ページであり、個別申請制度本文ではないため保留。"
+    },
+    {
+      "municipality": "双葉町",
+      "url": "https://www.town.fukushima-futaba.lg.jp/item/17635.htm",
+      "status": 200,
+      "title": "駅西住宅入居者募集",
+      "findings": "令和8年10月入居の町営住宅募集案内。補助金・助成金等の支給制度ではないため保留。"
+    },
+    {
+      "municipality": "浪江町",
+      "url": "https://www.town.namie.fukushima.jp/soshiki/37/33886.html",
+      "status": 200,
+      "title": "浪江町起業人材支援事業のご案内",
+      "findings": "無料講座、起業相談、アクセラレータープログラム等の支援案内。金額付き補助制度本文ではないため保留。"
+    }
+  ]
+}
