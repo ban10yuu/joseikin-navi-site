@@ -1,0 +1,26 @@
+{
+  "batchId": "chiba-comprehensive-official-coverage-008",
+  "prefecture": "千葉県",
+  "municipalities": [
+    {
+      "code": "12231",
+      "name": "印西市",
+      "officialBaseUrl": "https://www.city.inzai.lg.jp/"
+    },
+    {
+      "code": "12232",
+      "name": "白井市",
+      "officialBaseUrl": "https://www.city.shiroi.chiba.jp/"
+    },
+    {
+      "code": "12233",
+      "name": "富里市",
+      "officialBaseUrl": "https://www.city.tomisato.lg.jp/"
+    },
+    {
+      "code": "12234",
+      "name": "南房総市",
+      "officialBaseUrl": "https://www.city.minamiboso.chiba.jp/"
+    }
+  ]
+}

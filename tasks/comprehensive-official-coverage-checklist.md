@@ -7241,3 +7241,40 @@
     - 各市のカテゴリ導線、様式のみ、県・国制度紹介、金額又は受付状況不足候補は第2巡候補に残す。
   - 次:
     - 千葉県公式棚卸し008として、12231印西市、12232白井市、12233富里市、12234南房総市を自治体コード順に確認する。
+
+- 千葉県公式棚卸し008
+  - 対象:
+    - 12231 印西市、12232 白井市、12233 富里市、12234 南房総市。
+  - 方法:
+    - 公式トップ到達を4自治体すべてHTTP 200で確認した。
+    - `scripts/discover-official-candidates.mjs` で候補232件を抽出し、候補数が150件を超えたため、公式本文スニペットと採用判断用台帳を保存して再スコアリングした。
+    - 印西市は子ども医療・木造住宅耐震、白井市は子ども医療・耐震・ひとり親訓練・住宅防犯設備、富里市は子ども医療・木造住宅耐震、南房総市は子ども医療・脱炭素設備・妊婦支援給付・耐震診断/改修の公式本文又は公式PDFで制度名・対象・金額/上限・条件・期限/受付状況を確認した。
+    - 印西市・白井市・富里市の住宅用設備等脱炭素化促進事業補助金、白井市・富里市の妊婦支援給付、富里市結婚新生活支援補助金等は既存公式確認済み又は既掲載のため新規追加から除外した。
+    - トップ、カテゴリ、サイトマップ、共通ナビ一致、県・国制度の単なる紹介、様式のみ、金額又は受付状況不足の候補は採用せず、第2巡候補に残した。
+  - 採用:
+    - 印西市2件: 子ども医療費助成制度、木造住宅耐震改修促進事業補助金。
+    - 白井市6件: 子ども医療費助成制度、戸建住宅耐震診断補助金、戸建住宅耐震改修補助金、ひとり親家庭高等職業訓練促進給付金、ひとり親家庭自立支援教育訓練給付金、住宅用防犯対策設備支援補助金。
+    - 富里市2件: 子ども医療費助成制度、木造住宅耐震改修費補助金。
+    - 南房総市5件: 子ども医療費助成事業、住宅用設備等脱炭素化促進事業補助金、妊婦のための支援給付、木造住宅耐震診断費補助金、木造住宅耐震改修費補助金。
+  - 生成ファイル:
+    - `tasks/discovery/chiba-official-coverage-008-municipalities.json`
+    - `tasks/discovery/chiba-official-coverage-008-candidates.json`
+    - `tasks/discovery/chiba-official-coverage-008-target-snippets.json`
+    - `tasks/discovery/chiba-official-coverage-008-selected-snippets.json`
+    - `tasks/discovery/chiba-official-coverage-008-selected-main.json`
+    - `tasks/discovery/chiba-official-coverage-008-official-extra.json`
+    - `tasks/discovery/chiba-official-coverage-008-url-check.json`
+    - `tasks/discovery/chiba-official-coverage-008.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（15件、`verified-local-misc-2026.ts` 内で各1件）。
+    - 公式URL到達: pass（15 unique official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10823、officialLinkedActive 10785、manuallyVerifiedActive 10785、千葉県 localOfficial 390）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 印西市・白井市・富里市の既掲載公式確認済み制度と重複する候補は新規追加しなかった。
+    - 各市のカテゴリ導線、様式のみ、県・国制度紹介、金額又は受付状況不足候補は第2巡候補に残す。
+  - 次:
+    - 千葉県公式棚卸し009として、12235匝瑳市、12236香取市、12237山武市、12238いすみ市を自治体コード順に確認する。
