@@ -81,7 +81,7 @@ export default function HomeGrantSearch({
     <section aria-labelledby="home-search-title" className="home-search home-search-panel">
       <div className="home-search-heading">
         <div>
-          <p className="home-search-eyebrow">30秒で検索</p>
+          <p className="home-search-eyebrow">条件から候補を絞り込み</p>
           <h2 id="home-search-title" className="text-xl sm:text-2xl font-black text-navy leading-tight">
             地域と目的から探す
           </h2>
@@ -184,6 +184,7 @@ export default function HomeGrantSearch({
           </div>
         </fieldset>
 
+        <input type="hidden" name="audience" value={audience === 'personal' ? 'individual' : 'business'} />
         {category && <input type="hidden" name="cat" value={category} />}
 
         <button type="submit" className="home-search-submit">
