@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T14:56:21+09:00",
+  "updatedAt": "2026-07-13T14:59:21+09:00",
   "mode": "miyagi-second-pass-official-coverage",
   "lastCompleted": {
-    "code": "miyagi-second-pass-official-coverage-001",
-    "municipality": "宮城県庁・仙台市・石巻市・塩竈市",
+    "code": "miyagi-second-pass-official-coverage-002",
+    "municipality": "気仙沼市・白石市・名取市・角田市",
     "adopted": 6,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 10,
+    "sourceUrlsChecked": 6,
     "validation": {
-      "previousMunicipality": "宮城県第2巡001として、04000宮城県庁、04100仙台市、04202石巻市、04203塩竈市を対象に、第1巡001の保留候補と既作成台帳を再確認した。宮城県庁5制度、塩竈市1制度の採用slugと6制度10公式URLを現行HEADで再検証し、仙台市・石巻市のカテゴリ/既存重複/県制度案内候補は不採用理由付きで解消した。",
+      "previousMunicipality": "宮城県第2巡002として、04205気仙沼市、04206白石市、04207名取市、04208角田市を対象に、第1巡002の保留候補と既作成台帳を再確認した。気仙沼市1制度、白石市1制度、角田市4制度の採用slugと6制度6公式URLを現行HEADで再検証し、名取市の既存重複・カテゴリ候補、気仙沼市/白石市/角田市のカテゴリ・外部案内・個別制度未確認候補は不採用理由付きで解消した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "addedSlugUniqueness": "pass: added 6 slugs, duplicateOrMissing 0, duplicates 0",
-      "urlReachability": "pass: checked 6 added grant source URLs and related source URLs, 10 URLs all HTTP 200",
-      "diffCheck": "pass: git diff --check for Miyagi second-pass 001 files",
+      "urlReachability": "pass: checked 6 added grant source URLs, all HTTP 200",
+      "diffCheck": "pass: git diff --check for Miyagi second-pass 002 files",
       "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9445, officialLinkedActive 9407, manuallyVerifiedActive 9407, Miyagi localOfficial 355, Miyagi coveredCategories 8"
     }
   },
   "next": {
-    "code": "miyagi-second-pass-official-coverage-002",
-    "municipality": "気仙沼市・白石市・名取市・角田市",
-    "shortlist": "宮城県第2巡001で宮城県庁5制度と塩竈市1制度の現行検証を完了した。仙台市のカテゴリ/既存重複候補、石巻市の県制度案内候補、塩竈市のカテゴリ/旧制度/金額不足候補は解消済み。次は宮城県第2巡002として気仙沼市、白石市、名取市、角田市の第1巡保留候補を確認する。",
-    "instructions": "宮城県公式棚卸し第2巡002として、04205気仙沼市、04206白石市、04207名取市、04208角田市の第1巡保留候補、カテゴリ、一覧、PDF、金額未掲載候補、外部制度案内、旧制度候補を公式本文/PDF単位で再確認し、制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。既存raw gap 0や一部自治体の完了を全国完了扱いしない。"
+    "code": "miyagi-second-pass-official-coverage-003",
+    "municipality": "多賀城市・岩沼市・登米市・栗原市",
+    "shortlist": "宮城県第2巡002で気仙沼市の帯状疱疹予防接種費用助成、白石市の定住者補助金、角田市の認可外保育施設保育料補助・母子父子家庭医療費・自立支援教育訓練給付金・奨学生貸付制度を現行検証した。名取市の既存重複/カテゴリ候補、各市のカテゴリ/外部案内/個別制度未確認候補は解消済み。",
+    "instructions": "宮城県公式棚卸し第2巡003として、04209多賀城市、04211岩沼市、04212登米市、04213栗原市の第1巡保留候補を確認する。多賀城市の介護保険料減免・新入学用品費、岩沼市の児童扶養手当・犯罪被害者等支援金・小学校等入学祝金、登米市のビジネスチャンス支援・不妊検査費等、栗原市の危険ブロック塀除却・水洗化・防犯・移住定住カテゴリ候補を公式本文/PDF単位で再確認し、制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

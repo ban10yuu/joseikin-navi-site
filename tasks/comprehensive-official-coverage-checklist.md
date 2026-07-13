@@ -3574,9 +3574,9 @@
     - 気仙沼市の空き家の手引き、白石市の子どもの居場所づくり支援・商工業カテゴリ、名取市カテゴリページ、角田市マル経利子助成候補は、個別制度本文・金額/上限・申請条件を公式ページ単位で確認できないため採用しない。
   - 検証:
     - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
-    - slug重複確認: total 8019、duplicates 0。
+    - slug重複確認: total 9519、duplicates 0。
     - 6制度6URLの公式URL到達確認: HTTP 200。
-    - `npm run audit:coverage`: pass（failures 0、activePublished 7973、officialLinkedActive 7935、manuallyVerifiedActive 7935、宮城県 localOfficial 217）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9445、officialLinkedActive 9407、manuallyVerifiedActive 9407、宮城県 localOfficial 355、宮城県 coveredCategories 8）。
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-second-pass-002.json`: pass。
   - 次:
     - 宮城県公式棚卸し第2巡003として、多賀城市の介護保険料減免・新入学用品費、岩沼市の児童扶養手当・犯罪被害者等支援金・小学校等入学祝金、登米市のビジネスチャンス支援・不妊検査費等、栗原市の危険ブロック塀除却・水洗化・防犯・移住定住カテゴリ候補を確認する。
