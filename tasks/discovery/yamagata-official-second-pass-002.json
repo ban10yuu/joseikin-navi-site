@@ -1,0 +1,158 @@
+{
+  "batchId": "yamagata-comprehensive-official-second-pass-002",
+  "prefecture": "山形県",
+  "status": "completed",
+  "completedAt": "2026-07-13T15:40:51+09:00",
+  "sourceFirstPassFile": "tasks/discovery/yamagata-official-coverage-002.json",
+  "targets": [
+    {
+      "code": "06204",
+      "name": "酒田市",
+      "officialBaseUrl": "https://www.city.sakata.lg.jp/",
+      "adopted": [],
+      "held": [
+        {
+          "title": "災害・大雨関係の税減免、相談、支援情報一覧",
+          "reason": "第1巡保留候補を再確認したが、税減免・相談窓口・一覧導線が中心で、補助金等として制度名・対象・金額/上限・受付状況が揃う新規個別ページは確認できなかった。"
+        },
+        {
+          "title": "酒田市結婚新生活支援事業費補助金",
+          "reason": "第1巡で `sakata-newlywed-life-support-2026` として公式確認済みのため重複追加しない。"
+        }
+      ]
+    },
+    {
+      "code": "06205",
+      "name": "新庄市",
+      "officialBaseUrl": "https://www.city.shinjo.yamagata.jp/",
+      "sourceUrlsChecked": [
+        "https://www.city.shinjo.yamagata.jp/s008/050/2026.3.25.html",
+        "https://www.city.shinjo.yamagata.jp/s012/080/20230331125822.html",
+        "https://www.city.shinjo.yamagata.jp/s011/020/030/33/20260702113244.html",
+        "https://www.city.shinjo.yamagata.jp/s010/180/20260611200215.html"
+      ],
+      "adopted": [
+        "shinjo-bicycle-helmet-subsidy-2026",
+        "shinjo-young-startup-rent-subsidy-2026",
+        "shinjo-unwanted-fruit-tree-removal-subsidy-2026"
+      ],
+      "held": [
+        {
+          "title": "新庄市老朽危険空き家等除却支援事業補助金",
+          "url": "https://www.city.shinjo.yamagata.jp/s012/080/20230331125822.html",
+          "reason": "補助率・上限額は確認できるが、公式本文に今年度の受付終了と明記されているため現行申請可能制度としては採用しない。"
+        },
+        {
+          "title": "400年記念事業提案補助金・定額減税不足額給付等",
+          "reason": "受付終了又は過年度給付として確認し、今回の新規採用対象から外した。"
+        },
+        {
+          "title": "児童手当・市営住宅・カテゴリ導線等",
+          "reason": "国制度、通常行政手続又は一覧ページであり、市独自の補助・助成制度として必要項目が揃う個別ページではないため採用しない。"
+        }
+      ]
+    },
+    {
+      "code": "06206",
+      "name": "寒河江市",
+      "officialBaseUrl": "https://www.city.sagae.yamagata.jp/",
+      "sourceUrlsChecked": [
+        "https://www.city.sagae.yamagata.jp/jigyou/kensetsu/watakushidouseibi.html",
+        "https://www.city.sagae.yamagata.jp/jigyou/hojyoshien/ijuwakamono/ijuushienkin.html",
+        "https://www.city.sagae.yamagata.jp/jigyou/hojyoshien/chiikishien/community_kassei.html",
+        "https://www.city.sagae.yamagata.jp/kanko/sports/sportsgassyukuhojo.html",
+        "https://www.city.sagae.yamagata.jp/jigyou/syogyou/dentoukougeishien.html",
+        "https://www.city.sagae.yamagata.jp/bousai/sonae/chiikibousairyoku.html"
+      ],
+      "adopted": [
+        "sagae-private-road-improvement-subsidy-2026",
+        "sagae-migration-support-grant-2026",
+        "sagae-community-revitalization-subsidy-2026",
+        "sagae-sports-camp-attraction-subsidy-2026",
+        "sagae-traditional-craft-support-subsidy-2026"
+      ],
+      "held": [
+        {
+          "title": "寒河江市地域防災力強化支援事業費補助金",
+          "url": "https://www.city.sagae.yamagata.jp/bousai/sonae/chiikibousairyoku.html",
+          "reason": "対象・上限額は確認したが、公式リンクの要綱が令和7年度中心で、令和8年度現行制度としての確認が弱いため次巡候補に残す。"
+        },
+        {
+          "title": "既存採用済みの若者定着・新婚・経営革新・販路拡大等",
+          "reason": "第1巡で公式確認済みの寒河江市制度と重複するため追加しない。"
+        },
+        {
+          "title": "カテゴリ、観光、通常行政サービス",
+          "reason": "制度本文ではないか、補助・給付の金額/対象/受付状況を個別ページで確認できないため採用しない。"
+        }
+      ]
+    },
+    {
+      "code": "06207",
+      "name": "上山市",
+      "officialBaseUrl": "https://www.city.kaminoyama.yamagata.jp/",
+      "sourceUrlsChecked": [
+        "https://www.city.kaminoyama.yamagata.jp/soshiki/7/fukushik.html",
+        "https://www.city.kaminoyama.yamagata.jp/soshiki/6/shigen-undou.html",
+        "https://www.city.kaminoyama.yamagata.jp/soshiki/6/shoene.html",
+        "https://www.city.kaminoyama.yamagata.jp/soshiki/7/wig2022.html",
+        "https://www.city.kaminoyama.yamagata.jp/soshiki/7/ninnpusikakennsinn.html",
+        "https://www.city.kaminoyama.yamagata.jp/soshiki/7/fuusin2026.html",
+        "https://www.city.kaminoyama.yamagata.jp/soshiki/11/rokuji-sangyou08.html",
+        "https://www.city.kaminoyama.yamagata.jp/soshiki/64/sogyoshienjigyouhojyokin.html",
+        "https://www.city.kaminoyama.yamagata.jp/soshiki/64/renovation.html",
+        "https://www.city.kaminoyama.yamagata.jp/soshiki/11/r8yamagataumaimono2.html"
+      ],
+      "adopted": [
+        "kaminoyama-elderly-snow-removal-support-2026",
+        "kaminoyama-resource-recovery-incentive-2026",
+        "kaminoyama-kitchen-waste-composter-subsidy-2026",
+        "kaminoyama-cancer-wig-breast-prosthesis-subsidy-2026",
+        "kaminoyama-pregnant-partner-dental-checkup-subsidy-2026",
+        "kaminoyama-rubella-antibody-vaccine-subsidy-2026",
+        "kaminoyama-sixth-industry-subsidy-2026",
+        "kaminoyama-startup-support-subsidy-2026",
+        "kaminoyama-vacant-store-renovation-subsidy-2026"
+      ],
+      "held": [
+        {
+          "title": "高齢者紙おむつ・訪問理美容・移送サービス等",
+          "url": "https://www.city.kaminoyama.yamagata.jp/soshiki/7/fukushik.html",
+          "reason": "対象やサービス内容は確認したが、公式本文だけでは金額/上限又は給付額が制度単位で確定できないものがあるため、除雪費支給のみ採用した。"
+        },
+        {
+          "title": "省エネ家電買い換え促進事業補助金受付状況",
+          "url": "https://www.city.kaminoyama.yamagata.jp/soshiki/6/shoene-uketsukejoukyo.html",
+          "reason": "受付状況ページから制度名候補は確認したが、個別制度本文として解決した `shoene.html` は生ごみ処理容器等の補助ページだったため、家電補助としては採用しない。"
+        },
+        {
+          "title": "令和8年度山形のうまいもの創造支援事業",
+          "url": "https://www.city.kaminoyama.yamagata.jp/soshiki/11/r8yamagataumaimono2.html",
+          "reason": "上山市ページで市への事前提出と補助率3分の1は確認したが、県事業への外部リンク周知で上限額確認が市公式本文だけでは不足するため採用しない。"
+        },
+        {
+          "title": "既存採用済みの新婚生活・妊婦応援・不育症・重粒子線・奨学金等",
+          "reason": "第1巡で公式確認済みの上山市制度と重複するため追加しない。"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "adoptedCount": 17,
+    "heldCount": 13,
+    "sourceUrlsChecked": 20,
+    "notes": "第1巡002の保留候補とスニペットを再確認し、新庄市3件、寒河江市5件、上山市9件を公式個別ページ本文で採用した。酒田市は第1巡採用済み重複と税減免・相談・一覧導線中心のため新規追加なし。",
+    "validation": {
+      "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+      "addedSlugUniqueness": "pass: added 17 slugs, duplicateCount 0",
+      "urlReachability": "pass: added 17 official URLs all HTTP 200",
+      "diffCheck": "pass: git diff --check for Yamagata second pass 002 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9472, officialLinkedActive 9434, manuallyVerifiedActive 9434, Yamagata localOfficial 353"
+    }
+  },
+  "next": {
+    "code": "yamagata-comprehensive-official-second-pass-003",
+    "municipality": "村山市・長井市・天童市・東根市",
+    "instructions": "山形県第2巡003として、06208村山市、06209長井市、06210天童市、06211東根市の第1巡保留候補を公式本文/PDFで確認する。既掲載公式URLと県・国制度重複を除外し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度だけ採用する。"
+  }
+}
