@@ -6107,3 +6107,38 @@
     - 那珂川町医療費助成ページ内のひとり親家庭医療費・重度心身障害者医療費・未熟児養育医療・育成医療は対象・自己負担・申請粒度を第2巡で分割確認する。
   - 次:
     - 群馬県公式棚卸し001として、自治体コード順に未完了自治体を確認する。
+
+- 群馬県公式棚卸し001
+  - 対象:
+    - 10000 群馬県庁、10201 前橋市、10202 高崎市、10203 桐生市。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補274件をローカルJSONへ保存した。
+    - `tasks/discovery/gunma-official-coverage-001-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現、既存掲載有無、再スコアを保存した。
+    - 公式補助金一覧・分類ページ・公式検索結果相当から個別制度ページを補完し、`tasks/discovery/gunma-official-coverage-001-official-extra.json` と `tasks/discovery/gunma-official-coverage-001-selected-snippets.json` に保存した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページのみ採用した。
+  - 採用:
+    - 前橋市9件: ごみ減量化器具購入費、スズメバチの巣駆除費、商店街リフレッシュ、いきいき・にぎわい商店街支援、経営計画実行、先進医療不育症検査費用、妊婦のための支援給付、市立小・中学校等学校給食費無償化、不育症治療費。
+    - 高崎市6件: 職場環境改善、6次産業化等推進、住宅用太陽光発電システム導入、住まいの防犯対策、高崎市民商品券、保育士等家賃補助。
+    - 桐生市4件: 移住者住宅取得助成、新店舗開設促進、小規模企業者省エネルギー設備導入、空き家除却助成。
+    - 群馬県庁0件: 公式補助金ポータルを確認したが、今回候補は既存掲載済み又は委託・公募型プロポーザル等が多く、個別補助金追加は第2巡へ回した。
+  - 生成ファイル:
+    - `tasks/discovery/gunma-official-coverage-001-municipalities.json`
+    - `tasks/discovery/gunma-official-coverage-001-candidates.json`（raw候補）
+    - `tasks/discovery/gunma-official-coverage-001-detail-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-001-official-extra.json`
+    - `tasks/discovery/gunma-official-coverage-001-selected-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-001.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（全9700slugでduplicateCount 0）。
+    - 公式URL到達: pass（追加19件すべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10056、officialLinkedActive 10018、manuallyVerifiedActive 10018、群馬県 localOfficial 91）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 群馬県庁の個別補助金は、県補助金ポータル配下の既存掲載済み・公募型プロポーザル等を除外したため、次巡で県庁個別制度を追加確認する。
+    - 前橋市の町内集会施設、農業系、まちなか系、公共下水道接続、詐欺被害防止電話機等は候補台帳に残し、第2巡で金額表・受付状況を確認する。
+    - 高崎市の一般不妊・生殖補助医療費助成、学校給食費補助、まちなか商店リニューアル等は既存掲載済み又は受付終了・制度粒度整理が必要なため第2巡へ残す。
+  - 次:
+    - 群馬県公式棚卸し002として、10204伊勢崎市、10205太田市、10206沼田市、10207館林市を自治体コード順に確認する。
