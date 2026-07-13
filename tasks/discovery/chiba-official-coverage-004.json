@@ -1,0 +1,46 @@
+{
+  "batchId": "chiba-comprehensive-official-coverage-004",
+  "prefecture": "千葉県",
+  "completedAt": "2026-07-14T08:10:00+09:00",
+  "municipalities": [
+    {
+      "code": "12215",
+      "name": "旭市",
+      "adopted": 8
+    },
+    {
+      "code": "12216",
+      "name": "習志野市",
+      "adopted": 7
+    },
+    {
+      "code": "12217",
+      "name": "柏市",
+      "adopted": 5
+    },
+    {
+      "code": "12218",
+      "name": "勝浦市",
+      "adopted": 11
+    }
+  ],
+  "adopted": 31,
+  "sourceUrlsChecked": 31,
+  "files": [
+    "tasks/discovery/chiba-official-coverage-004-municipalities.json",
+    "tasks/discovery/chiba-official-coverage-004-candidates.json",
+    "tasks/discovery/chiba-official-coverage-004-link-shortlist.json",
+    "tasks/discovery/chiba-official-coverage-004-target-snippets.json",
+    "tasks/discovery/chiba-official-coverage-004-selected-snippets.json",
+    "tasks/discovery/chiba-official-coverage-004-selected-main.json",
+    "tasks/discovery/chiba-official-coverage-004-official-extra.json"
+  ],
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: 31 added slugs, duplicateCount 0 across all grant files",
+    "urlReachability": "pass: 31 official URLs returned HTTP 200",
+    "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 10741, officialLinkedActive 10703, manuallyVerifiedActive 10703, Chiba localOfficial 308"
+  }
+}

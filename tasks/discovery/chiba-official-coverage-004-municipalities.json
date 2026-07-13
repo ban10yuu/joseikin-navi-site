@@ -1,0 +1,26 @@
+{
+  "batchId": "chiba-comprehensive-official-coverage-004",
+  "prefecture": "千葉県",
+  "municipalities": [
+    {
+      "code": "12215",
+      "name": "旭市",
+      "officialBaseUrl": "https://www.city.asahi.lg.jp/"
+    },
+    {
+      "code": "12216",
+      "name": "習志野市",
+      "officialBaseUrl": "https://www.city.narashino.lg.jp/"
+    },
+    {
+      "code": "12217",
+      "name": "柏市",
+      "officialBaseUrl": "https://www.city.kashiwa.lg.jp/"
+    },
+    {
+      "code": "12218",
+      "name": "勝浦市",
+      "officialBaseUrl": "https://www.city.katsuura.lg.jp/"
+    }
+  ]
+}

@@ -7093,3 +7093,39 @@
     - 茂原市介護サービス事業所・施設等物価高騰対策支援金、成田市・佐倉市・東金市のカテゴリ導線、様式・PDF別添のみ、金額又は受付状況不足、件数配分上の未採用候補は第2巡候補に残す。
   - 次:
     - 千葉県公式棚卸し004として、12215旭市、12216習志野市、12217柏市、12218勝浦市を自治体コード順に確認する。
+
+- 千葉県公式棚卸し004
+  - 対象:
+    - 12215 旭市、12216 習志野市、12217 柏市、12218 勝浦市。
+  - 方法:
+    - 公式トップ到達を4自治体すべてHTTP 200で確認した。
+    - `scripts/discover-official-candidates.mjs` で候補277件を抽出し、候補数が150件を超えたため、公式リンク短評、対象ページ本文スニペット、採用判断用スニペットを保存して再スコアリングした。
+    - 自治体公式ドメイン内検索と公式カテゴリページで、旭市・習志野市・柏市・勝浦市の個別制度ページを補完した。
+    - トップ、カテゴリ、サイトマップ、共通ナビ一致、県・国制度の単なる紹介、様式のみ、金額又は受付状況不足の候補は採用せず、公式本文で制度名・対象・金額/上限・条件・期限/受付状況を確認できた制度のみ採用した。
+  - 採用:
+    - 旭市8件: 住宅用省エネルギー設備設置補助金、子ども医療費助成、定住促進奨励金、若者世帯住宅取得奨励金、移住支援金、妊婦のための支援給付事業、育英資金給付制度、新生児聴覚スクリーニング検査費用助成。
+    - 習志野市7件: 住宅用設備等脱炭素化促進事業補助金、自転車乗車用ヘルメット購入費助成、市民参加型補助金、中小企業信用保証料補助制度、子どもの医療費等助成、妊婦のための支援給付、物価高対応子育て応援手当。
+    - 柏市5件: 生活応援特別給付金、ゼロカーボンシティ促進総合補助制度（家庭向け）、太陽光発電設備設置加速化補助金、介護職員初任者研修・介護福祉士実務者研修助成、住居確保給付金。
+    - 勝浦市11件: 住宅用設備等脱炭素化促進事業補助金、子ども医療費助成事業、結婚新生活支援事業補助金、地域課題解決型起業支援事業、省エネ家電購入支援事業補助金、乳児おむつ等給付券支給事業、大学受験料等補助、高校生等通学定期券購入費補助金、空き家流通促進補助金、空き家活用奨励金、通勤通学者特急券購入費補助金。
+  - 生成ファイル:
+    - `tasks/discovery/chiba-official-coverage-004-municipalities.json`
+    - `tasks/discovery/chiba-official-coverage-004-candidates.json`
+    - `tasks/discovery/chiba-official-coverage-004-link-shortlist.json`
+    - `tasks/discovery/chiba-official-coverage-004-target-snippets.json`
+    - `tasks/discovery/chiba-official-coverage-004-selected-snippets.json`
+    - `tasks/discovery/chiba-official-coverage-004-selected-main.json`
+    - `tasks/discovery/chiba-official-coverage-004-official-extra.json`
+    - `tasks/discovery/chiba-official-coverage-004.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（31件、全grantファイル横断で各1件）。
+    - 公式URL到達: pass（31 unique official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10741、officialLinkedActive 10703、manuallyVerifiedActive 10703、千葉県 localOfficial 308）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 習志野市の障害福祉サービス事業者支援金候補は公式URLが404だったため採用せず、第2巡で再探索する。
+    - 柏市チャレンジ支援補助金・スタートアップ事業化応援補助金、各市のカテゴリ導線、様式のみ、県・国制度紹介、金額又は受付状況不足候補は第2巡候補に残す。
+  - 次:
+    - 千葉県公式棚卸し005として、12219市原市、12220流山市、12221八千代市、12222我孫子市を自治体コード順に確認する。
