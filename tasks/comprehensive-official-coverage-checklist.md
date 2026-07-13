@@ -6985,3 +6985,39 @@
     - 寄居町の生殖補助医療費補助金、自転車用ヘルメット購入費補助金、宮代町の安心安全まちづくり推進事業補助金、商工業活性化事業補助金、杉戸町の生垣設置補助制度、松伏町の創業資金融資利子補給制度、企業立地に係る雇用促進奨励金、重度心身障がい者医療費支給制度は、金額・対象・受付状況又は同自治体5件上限の観点で第2巡候補に残す。
   - 次:
     - 埼玉県内自治体コード順の一巡は016で末尾まで到達。次回は進捗JSON・チェックリスト・HEADを確認し、千葉県の開始単位から再開する。
+
+- 千葉県公式棚卸し001
+  - 対象:
+    - 12100 千葉市、12202 銚子市、12203 市川市、12204 船橋市。
+  - 方法:
+    - 公式トップ到達を4自治体すべてHTTP 200で確認した。
+    - `scripts/discover-official-candidates.mjs` で候補362件を抽出し、候補数が150件を超えたため、本文スニペット23件、公式リンク短評66件、対象ページスニペット23件を保存して再スコアリングした。
+    - 千葉市・市川市・船橋市はカテゴリ導線に個別制度が埋もれていたため、公式カテゴリページとサイトマップから制度名を含む個別ページを追加抽出した。
+    - トップ、カテゴリ、サイトマップ、共通ナビ一致は採用せず、自治体本文又は公式個別ページで制度名・対象・金額/上限・条件・期限/受付状況を確認できる制度のみ採用した。
+  - 採用:
+    - 千葉市5件: 中小企業者エネルギー価格等高騰対策支援金、創業支援補助金、子ども医療費助成制度、三世代同居・近居支援事業、中小企業資金融資制度。
+    - 銚子市5件: 危険空家等除却事業補助金、自転車乗車用ヘルメット購入費補助金、住宅用設備等脱炭素化促進事業補助金、結婚新生活支援補助金、こども食堂支援補助金。
+    - 市川市6件: 妊婦支援給付金事業、子ども医療費助成制度、子育て世帯同居・近居スタート応援補助金、新婚生活住まい応援補助金、中小企業展示会等出展支援事業補助金、不妊治療費（先進医療）助成事業。
+    - 船橋市7件: 子ども医療費助成制度、住宅バリアフリー・断熱改修支援事業、木造住宅耐震診断助成事業、木造住宅耐震改修助成事業、中小企業融資利子補給・保証料補給、太陽光発電システム・省エネルギー設備等補助金、高度処理型合併処理浄化槽転換設置補助金。
+  - 生成ファイル:
+    - `tasks/discovery/chiba-official-coverage-001-municipalities.json`
+    - `tasks/discovery/chiba-official-coverage-001-candidates.json`
+    - `tasks/discovery/chiba-official-coverage-001-link-shortlist.json`
+    - `tasks/discovery/chiba-official-coverage-001-detail-snippets.json`
+    - `tasks/discovery/chiba-official-coverage-001-target-snippets.json`
+    - `tasks/discovery/chiba-official-coverage-001-selected-main.json`
+    - `tasks/discovery/chiba-official-coverage-001-selected-snippets.json`
+    - `tasks/discovery/chiba-official-coverage-001-official-extra.json`
+    - `tasks/discovery/chiba-official-coverage-001.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（23件、全grantファイル横断で各1件）。
+    - 公式URL到達: pass（23 unique official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10665、officialLinkedActive 10627、manuallyVerifiedActive 10627、千葉県 localOfficial 232）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 銚子市の各種様式・PDF、千葉市の高齢者等ごみ出し支援事業補助金、市川市の介護施設等整備事業交付金補助対象施設調査、船橋市の工業振興支援事業補助金、空き店舗対策事業補助金、再投資企業促進事業補助制度、マンション耐震助成等は、制度詳細未精査・対象分野・同自治体件数配分の観点で第2巡候補に残す。
+  - 次:
+    - 千葉県公式棚卸し002として、12205館山市、12206木更津市、12207松戸市、12208野田市を自治体コード順に確認する。
