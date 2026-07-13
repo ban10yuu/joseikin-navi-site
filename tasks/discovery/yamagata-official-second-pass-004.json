@@ -1,0 +1,165 @@
+{
+  "batchId": "yamagata-official-second-pass-004",
+  "prefecture": "山形県",
+  "checkedAt": "2026-07-13T16:20:00+09:00",
+  "municipalities": [
+    {
+      "code": "06212",
+      "name": "尾花沢市",
+      "officialRoot": "https://www.city.obanazawa.yamagata.jp/",
+      "adopted": [
+        {
+          "slug": "obanazawa-vacant-house-demolition-subsidy-2026",
+          "title": "不良住宅除却促進事業・老朽空き家除却事業",
+          "officialUrl": "https://www.city.obanazawa.yamagata.jp/kurashi/sumai/akiya-blockkaitai/2110",
+          "evidence": "公式ページと事業概要PDFで、住居用空き家、所有者等、市税等滞納なし、不良住宅10分の8上限100万円、老朽空き家10分の4上限50万円、事前調査申込期限2026年4月30日、交付決定前着工不可を確認。"
+        },
+        {
+          "slug": "obanazawa-housing-renovation-subsidy-2026",
+          "title": "住宅リフォーム支援事業費補助金",
+          "officialUrl": "https://www.city.obanazawa.yamagata.jp/kurashi/sumai/taishin-reform/1",
+          "evidence": "公式ページとリーフレットPDFで、対象住宅、工事費要件、県内業者施工、一般世帯10%上限20万円、移住・新婚・子育て世帯6分の1上限30万円、2026年4月1日から2027年1月12日まで、着工前申請を確認。"
+        },
+        {
+          "slug": "obanazawa-voluntary-disaster-organization-support-subsidy-2026",
+          "title": "自主防災組織向上支援事業費補助金",
+          "officialUrl": "https://www.city.obanazawa.yamagata.jp/kurashi/kikikanri/anzen/jisyubousaisosikikoujyo",
+          "evidence": "公式本文で、各地区の自主防災組織、防災訓練・研修経費、上限5万円、原則1回限り、申請書提出を確認。"
+        }
+      ],
+      "held": [
+        {
+          "title": "危険ブロック塀等除却支援事業",
+          "officialUrl": "https://www.city.obanazawa.yamagata.jp/kurashi/sumai/akiya-blockkaitai/2531",
+          "reason": "公式ページ本文は申込期限・各要件がある旨と問い合わせ先のみで、補助率・上限額・対象条件の詳細が本文から確認できないため第2巡台帳に残す。"
+        },
+        {
+          "title": "空き家解体・ブロック塀除却カテゴリ",
+          "officialUrl": "https://www.city.obanazawa.yamagata.jp/kurashi/sumai/akiya-blockkaitai/",
+          "reason": "カテゴリページのため、個別制度ページへ分解して採用又は保留した。"
+        },
+        {
+          "title": "耐震化・リフォーム支援カテゴリ",
+          "officialUrl": "https://www.city.obanazawa.yamagata.jp/kurashi/sumai/taishin-reform/",
+          "reason": "カテゴリページのため、住宅リフォーム支援事業費補助金の個別ページを採用した。"
+        }
+      ]
+    },
+    {
+      "code": "06213",
+      "name": "南陽市",
+      "officialRoot": "http://www.city.nanyo.yamagata.jp/",
+      "adopted": [
+        {
+          "slug": "nanyo-business-location-incentive-2026",
+          "title": "企業立地奨励金",
+          "officialUrl": "http://www.city.nanyo.yamagata.jp/kigiyouziyouho/101",
+          "evidence": "公式ページと令和8年4月1日改正PDFで、対象業種、新設・増設・設備投資、固定資産税相当額、用地取得10%又は8%、建物取得5%又は3%、用地・建物合算上限1億5,000万円、指定・交付申請手続を確認。"
+        },
+        {
+          "slug": "nanyo-business-hotel-incentive-grant-2026",
+          "title": "ビジネスホテル奨励金",
+          "officialUrl": "http://www.city.nanyo.yamagata.jp/kigiyouziyouho/2834",
+          "evidence": "公式本文で、客室15室以上のビジネスホテル新設・建替え・改築・増築、費用30%、上限3億円、年度上限2,000万円、最長15年、2031年3月31日までの指定を確認。"
+        },
+        {
+          "slug": "nanyo-head-office-relocation-incentive-2026",
+          "title": "本社機能移転奨励金",
+          "officialUrl": "http://www.city.nanyo.yamagata.jp/kigiyouziyouho/1563",
+          "evidence": "公式本文で、地方活力向上地域、本社機能移転、資本金1,000万円以上、2029年3月31日までの移転、市内居住者増加1人20万円、上限300万円を確認。"
+        },
+        {
+          "slug": "nanyo-farm-management-startup-support-2026",
+          "title": "経営開始支援助成",
+          "officialUrl": "http://www.city.nanyo.yamagata.jp/nousei/5573",
+          "evidence": "公式本文で、県外移住、新規農業経営開始、18歳以上65歳未満、定額82万5,000円、最長1年間、2026年7月17日提出期限を確認。"
+        },
+        {
+          "slug": "nanyo-crime-victim-condolence-relief-2026",
+          "title": "犯罪被害者等見舞金",
+          "officialUrl": "http://www.city.nanyo.yamagata.jp/soudanzinken/5611",
+          "evidence": "公式本文で、2024年8月1日以降の犯罪被害、市内住所要件、遺族見舞金30万円、重傷病見舞金10万円、申請期限を確認。"
+        }
+      ],
+      "held": [
+        {
+          "title": "勤労者向け融資制度",
+          "officialUrl": "http://www.city.nanyo.yamagata.jp/koyouroudo/114",
+          "reason": "市制度の主たる内容が融資で、給付・補助金ではないため採用しない。利子補給は外部団体制度として第2巡台帳に残す。"
+        },
+        {
+          "title": "既存掲載済みの住宅取得支援、LED防犯灯、創業、猫不妊去勢、重粒子線、学生Uターン、ブランド開発、子育て定住給付",
+          "reason": "第1巡で採用済みのため重複採用しない。"
+        }
+      ]
+    },
+    {
+      "code": "06301",
+      "name": "山辺町",
+      "officialRoot": "https://www.town.yamanobe.yamagata.jp/",
+      "adopted": [
+        {
+          "slug": "yamanobe-child-medical-expense-subsidy-2026",
+          "title": "子育て支援医療制度",
+          "officialUrl": "https://www.town.yamanobe.yamagata.jp/soshiki/7/202412maruko.html",
+          "evidence": "公式本文で、出生から高校卒業相当まで、医療保険加入、保険診療自己負担分無料、県内医療機関での医療証提示、申請・更新方法を確認。"
+        },
+        {
+          "slug": "yamanobe-single-parent-medical-expense-subsidy-2026",
+          "title": "ひとり親家庭等医療制度",
+          "officialUrl": "https://www.town.yamanobe.yamagata.jp/soshiki/7/202412maruoya.html",
+          "evidence": "公式本文で、18歳以下児童を扶養するひとり親家庭等、所得税非課税等、保険診療分自己負担無料、事前申請、毎年更新を確認。"
+        },
+        {
+          "slug": "yamanobe-preschool-side-dish-fee-free-2026",
+          "title": "副食費無償化事業",
+          "officialUrl": "https://www.town.yamanobe.yamagata.jp/soshiki/8/hoiku.html",
+          "evidence": "公式本文で、町内住所の3歳児から5歳児クラス、対象施設、月額5,100円上限、町内施設は手続き不要、町外施設は申請により前期・後期交付を確認。"
+        }
+      ],
+      "held": [
+        {
+          "title": "家庭用生ごみ処理機等購入費補助",
+          "officialUrl": "https://www.town.yamanobe.yamagata.jp/soshiki/7/josei-gomishoriki.html",
+          "reason": "令和8年度受付終了と明記されているため、アクティブ制度として採用しない。"
+        },
+        {
+          "title": "重度心身障がい（児）者医療制度",
+          "officialUrl": "https://www.town.yamanobe.yamagata.jp/soshiki/7/202412marushin.html",
+          "reason": "保険診療分自己負担の軽減制度で対象・負担割合は確認できたが、県制度要素を含む福祉医療のため、町独自差分を追加確認する第2巡台帳に残す。"
+        },
+        {
+          "title": "農地、農業用施設の補助金、原材料支給制度",
+          "officialUrl": "https://www.town.yamanobe.yamagata.jp/soshiki/9/nougyou-hojyo-zairyousikyuu.html",
+          "reason": "補助金や原材料支給がある旨は確認できるが、補助率・上限額・申請期限が本文にないため採用しない。"
+        }
+      ]
+    },
+    {
+      "code": "06302",
+      "name": "中山町",
+      "officialRoot": "https://www.town.nakayama.yamagata.jp/",
+      "adopted": [],
+      "held": [
+        {
+          "title": "山形県移住支援事業案内",
+          "reason": "県制度案内であり、町独自の金額・条件ではないため採用しない。"
+        },
+        {
+          "title": "山形県中小企業パワーアップ補助金案内、特定創業支援証明、農業再生協議会ビジョン",
+          "reason": "県制度案内、証明手続、計画文書であり、町が交付する個別補助金ページではないため採用しない。"
+        },
+        {
+          "title": "第1巡採用済みの英検等検定料、第三子保育料、事業者成長、賃上げ、創業、いきいき百歳体操、鳥獣被害防止",
+          "reason": "第1巡で採用済みのため重複採用しない。"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "adoptedCount": 11,
+    "heldCount": 10,
+    "sourceUrlsChecked": 32,
+    "notes": "尾花沢市3件、南陽市5件、山辺町3件を追加。中山町は第1巡採用済み又は県制度案内・手続案内のみで新規採用なし。危険ブロック塀、山辺町農業施設補助等は本文で金額・上限が不足するため保留。"
+  }
+}

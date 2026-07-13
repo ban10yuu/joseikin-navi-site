@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T15:54:21+09:00",
+  "updatedAt": "2026-07-13T16:24:00+09:00",
   "mode": "yamagata-official-second-pass",
   "lastCompleted": {
-    "code": "yamagata-official-second-pass-003",
-    "municipality": "村山市・長井市・天童市・東根市",
+    "code": "yamagata-official-second-pass-004",
+    "municipality": "尾花沢市・南陽市・山辺町・中山町",
     "adopted": 11,
     "held": 10,
     "excluded": 0,
-    "sourceUrlsChecked": 34,
+    "sourceUrlsChecked": 32,
     "validation": {
-      "previousMunicipality": "山形県第2巡003として、村山市・長井市・天童市・東根市の第1巡保留候補と公式本文/PDFを再確認した。村山市4件、長井市2件、天童市2件、東根市3件の計11制度を追加し、旧URL404、カテゴリ導線、金額不明サービス案内、既存重複は採用しない理由を記録した。全国公式棚卸しは未完了。",
+      "previousMunicipality": "山形県第2巡004として、尾花沢市・南陽市・山辺町・中山町の第1巡保留候補と公式本文/PDFを再確認した。尾花沢市3件、南陽市5件、山辺町3件の計11制度を追加し、中山町は第1巡採用済み又は県制度案内・手続案内のみで新規採用なしと記録した。全国公式棚卸しは未完了。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "addedSlugUniqueness": "pass: added 11 slugs, duplicateCount 0",
       "urlReachability": "pass: added 11 official URLs all HTTP 200",
-      "diffCheck": "pass: git diff --check for Yamagata second pass 003 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9483, officialLinkedActive 9445, manuallyVerifiedActive 9445, Yamagata localOfficial 364, Yamagata coveredCategories 8"
+      "diffCheck": "pass: git diff --check for Yamagata second pass 004 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9493, officialLinkedActive 9455, manuallyVerifiedActive 9455, Yamagata localOfficial 374, Yamagata coveredCategories 8"
     }
   },
   "next": {
-    "code": "yamagata-official-second-pass-004",
-    "municipality": "尾花沢市・南陽市・山辺町・中山町",
-    "shortlist": "山形県第1巡は自治体コード順の末尾まで到達。山形県第2巡003は村山市・長井市・天童市・東根市を完了。全国公式棚卸しは未完了。",
-    "instructions": "山形県第2巡004として、06212尾花沢市、06213南陽市、06301山辺町、06302中山町の第1巡保留候補を公式本文/PDFで確認する。既掲載公式URLと県・国制度重複を除外し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度だけ採用する。"
+    "code": "yamagata-official-second-pass-005",
+    "municipality": "河北町・西川町・朝日町・大江町",
+    "shortlist": "山形県第1巡は自治体コード順の末尾まで到達。山形県第2巡004は尾花沢市・南陽市・山辺町・中山町を完了。全国公式棚卸しは未完了。",
+    "instructions": "山形県第2巡005として、06321河北町、06322西川町、06323朝日町、06324大江町の第1巡保留候補を公式本文/PDFで確認する。既掲載公式URLと県・国制度重複を除外し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度だけ採用する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

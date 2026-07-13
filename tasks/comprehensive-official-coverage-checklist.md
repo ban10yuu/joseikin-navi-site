@@ -5318,3 +5318,27 @@
   - `https://joseikin-navi-site.vercel.app/grant/rausu-birth-celebration-grant-2026/`: 200。`羅臼町 出産祝金支給事業`、`子ども1人50万円`、`公式出典確認済み` を確認。
   - `https://joseikin-navi-site.vercel.app/grant/rausu-entrepreneur-support-subsidy-2026/`: 200。`羅臼町 起業支援事業補助金`、`最大200万円`、`公式出典確認済み` を確認。
   - `https://joseikin-navi-site.vercel.app/prefecture/%E5%8C%97%E6%B5%B7%E9%81%93/`: 200。
+
+- 山形県第2巡004（尾花沢市・南陽市・山辺町・中山町）
+  - 対象: 06212尾花沢市、06213南陽市、06301山辺町、06302中山町。
+  - 方法:
+    - `tasks/discovery/yamagata-official-coverage-004.json` と候補スニペットから第1巡保留候補を復元し、公式本文/PDFで制度単位に再確認した。
+    - 尾花沢市は空き家除却・住宅リフォームのPDF本文を `pdftotext` で確認し、カテゴリページは個別制度へ分解した。
+    - 南陽市は企業立地奨励金PDF、ビジネスホテル奨励金、本社機能移転奨励金、経営開始支援助成、犯罪被害者等支援の公式本文を確認した。
+    - 山辺町は子育て支援医療、ひとり親家庭等医療、副食費無償化を個別制度として確認し、中山町は第1巡採用済み又は県制度案内・手続案内のみで新規採用なしとした。
+  - 追加:
+    - 尾花沢市: 不良住宅除却促進事業・老朽空き家除却事業、住宅リフォーム支援事業費補助金、自主防災組織向上支援事業費補助金。
+    - 南陽市: 企業立地奨励金、ビジネスホテル奨励金、本社機能移転奨励金、経営開始支援助成、犯罪被害者等見舞金。
+    - 山辺町: 子育て支援医療制度、ひとり親家庭等医療制度、副食費無償化事業。
+  - 保留継続:
+    - 尾花沢市の危険ブロック塀等除却支援事業は、公式本文に申込期限・要件がある旨はあるが、補助率・上限額・対象条件の詳細が不足するため保留。
+    - 山辺町の家庭用生ごみ処理機等購入費補助は令和8年度受付終了、重度心身障がい（児）者医療制度は県制度要素を含む福祉医療で町独自差分追加確認、農地・農業用施設補助金等は金額・上限・期限不足のため保留。
+    - 中山町の山形県移住支援事業案内、山形県中小企業パワーアップ補助金案内、特定創業支援証明、農業再生協議会ビジョンは町独自の個別補助金ページではないため採用しない。第1巡採用済み7件は重複採用しない。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 11件、重複確認 pass（duplicateCount 0）。
+    - 追加した11制度11公式URLの到達確認 pass（すべて HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9493、officialLinkedActive 9455、manuallyVerifiedActive 9455、山形県 `localOfficial` 374、山形県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-second-pass-004.json`: pass。
+  - 次:
+    - 山形県第2巡005として、06321河北町、06322西川町、06323朝日町、06324大江町の第1巡保留候補を公式本文/PDFで確認する。
