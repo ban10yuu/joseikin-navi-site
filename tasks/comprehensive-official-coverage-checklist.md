@@ -6776,4 +6776,38 @@
     - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
     - 鶴ヶ島市のひろがる住まい応援金・妊婦支援給付・物価高対応子育て応援手当、日高市の児童扶養手当・高等職業訓練促進給付金・年金生活者支援給付金、吉川市の下水道排水設備工事資金融資・児童手当・ひとり親家庭等医療費、ふじみ野市の創業支援・里帰り妊婦健診費助成・先端設備導入計画税軽減等は、金額・対象・受付状況又は制度重複の観点で第2巡候補に残す。
   - 次:
-    - 埼玉県公式棚卸し011として、11246白岡市、11301伊奈町、11324三芳町、11326毛呂山町を自治体コード順に確認する。
+    - 埼玉県公式棚卸し011として、11246白岡市、11301伊奈町、11324三芳町、11326毛呂山町を自治体コード順に確認した。
+
+- 埼玉県公式棚卸し011
+  - 対象:
+    - 11246 白岡市、11301 伊奈町、11324 三芳町、11326 毛呂山町。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補154件をローカルJSONへ保存した。
+    - 候補が150件を超えたため、公式カテゴリリンク抽出で302件の第2巡台帳を作成し、公式本文スニペット193件を `tasks/discovery/saitama-official-coverage-011-detail-snippets.json` に保存して、制度強語、金額・上限、対象条件、期限・受付表現の揃う個別ページを再スコアリングした。
+    - 白岡市は企業奨励金・融資制度のカテゴリページ一致を採用せず、妊婦支援、地域クラブ、就学援助、こども医療費、児童手当の個別公式ページへ辿り直した。
+  - 採用:
+    - 白岡市5件: 妊婦支援給付金、地域クラブ活動受益者負担額支援補助金、令和8年度就学援助制度、こども医療費支給制度、児童手当。
+    - 伊奈町5件: 人間ドック・脳ドック検診補助、小型合併処理浄化槽設置整備事業、自転車用ヘルメット購入費、中小企業信用保証料、既存木造住宅耐震診断・耐震改修等。
+    - 三芳町5件: 住宅用火災警報器・感震ブレーカー、男性9価HPVワクチン、次世代自動車、住宅用太陽光発電システム等、骨髄移植ドナー。
+    - 毛呂山町5件: 家庭用合併処理浄化槽、ブロック塀等撤去、木造住宅耐震診断・耐震改修、特産品・加工品開発支援、葬祭費。
+  - 生成ファイル:
+    - `tasks/discovery/saitama-official-coverage-011-municipalities.json`
+    - `tasks/discovery/saitama-official-coverage-011-candidates.json`
+    - `tasks/discovery/saitama-official-coverage-011-link-shortlist.json`
+    - `tasks/discovery/saitama-official-coverage-011-detail-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-011-selected-main.json`
+    - `tasks/discovery/saitama-official-coverage-011-selected-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-011-official-extra.json`
+    - `tasks/discovery/saitama-official-coverage-011.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（20件、各1件）。
+    - 公式URL到達: pass（20 unique official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10548、officialLinkedActive 10510、manuallyVerifiedActive 10510、埼玉県 localOfficial 427）。白岡市地域クラブ活動受益者負担額支援補助金は受付終了済み期限を明示したため、active集計には含まれない。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 白岡市の物価高対応子育て応援手当・ひとり親家庭等医療費・自立支援教育訓練給付金・小口融資、伊奈町の住宅用省エネルギー設備・補聴器購入費・GPS端末・早期不妊検査、三芳町の高齢者補聴器・耐震助成・小口融資・介護手当、毛呂山町の空き店舗利活用創業チャレンジ支援・不妊検査/不育症検査・生ごみ処理容器・高齢者肺炎球菌等は、金額・対象・受付状況又は制度重複の観点で第2巡候補に残す。
+  - 次:
+    - 埼玉県公式棚卸し012として、11327越生町、11341滑川町、11342嵐山町、11343小川町を自治体コード順に確認する。

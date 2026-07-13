@@ -1,0 +1,26 @@
+{
+  "batchId": "saitama-comprehensive-official-coverage-011",
+  "prefecture": "埼玉県",
+  "municipalities": [
+    {
+      "code": "11246",
+      "name": "白岡市",
+      "officialBaseUrl": "https://www.city.shiraoka.lg.jp/"
+    },
+    {
+      "code": "11301",
+      "name": "伊奈町",
+      "officialBaseUrl": "https://www.town.saitama-ina.lg.jp/"
+    },
+    {
+      "code": "11324",
+      "name": "三芳町",
+      "officialBaseUrl": "https://www.town.saitama-miyoshi.lg.jp/"
+    },
+    {
+      "code": "11326",
+      "name": "毛呂山町",
+      "officialBaseUrl": "https://www.town.moroyama.saitama.jp/"
+    }
+  ]
+}
