@@ -3598,9 +3598,9 @@
     - 栗原市の補助金カテゴリ、移住定住カテゴリ、農業補助カテゴリ、米現物支援の移住定住サポート事業は今回の公式ページ単位採用対象外。
   - 検証:
     - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
-    - slug重複確認: total 8035、duplicates 0。
-    - 16制度16URLの公式URL到達確認: HTTP 200。
-    - `npm run audit:coverage`: pass（failures 0、activePublished 7988、officialLinkedActive 7950、manuallyVerifiedActive 7950、宮城県 localOfficial 232）。
+    - slug重複確認: total 9519、duplicates 0。
+    - 16制度14公式URLの公式URL到達確認: HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9445、officialLinkedActive 9407、manuallyVerifiedActive 9407、宮城県 localOfficial 355、宮城県 coveredCategories 8）。
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-second-pass-003.json`: pass。
   - 次:
     - 宮城県公式棚卸し第2巡004として、東松島市・大崎市・蔵王町・七ヶ宿町の第1巡保留候補を確認する。

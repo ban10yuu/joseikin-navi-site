@@ -1,7 +1,7 @@
 {
   "batchId": "miyagi-comprehensive-official-coverage-second-pass-003",
   "prefecture": "宮城県",
-  "completedAt": "2026-07-12T15:55:00+09:00",
+  "completedAt": "2026-07-13T15:02:21+09:00",
   "sourceFirstPass": "tasks/discovery/miyagi-official-coverage-003.json",
   "municipalities": [
     {
@@ -77,12 +77,12 @@
       "reason": "補助金・助成金等カテゴリ、移住定住カテゴリ、農業補助カテゴリは個別制度への導線。移住定住サポート事業は米の現物支援のため今回の補助金ページ単位採用から除外。"
     }
   ],
-  "sourceUrlsChecked": 16,
+  "sourceUrlsChecked": 14,
   "validation": {
     "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-    "duplicateSlugs": "pass: total 8035, duplicates 0",
-    "urlReachability": "pass: 16制度16URL returned HTTP 200",
-    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7988, officialLinkedActive 7950, manuallyVerifiedActive 7950, Miyagi localOfficial 232",
+    "duplicateSlugs": "pass: total 9519, adopted 16, duplicates 0",
+    "urlReachability": "pass: 16制度14公式URL returned HTTP 200",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9445, officialLinkedActive 9407, manuallyVerifiedActive 9407, Miyagi localOfficial 355, Miyagi coveredCategories 8",
     "diffCheck": "pass: git diff --check for Miyagi second-pass 003 files"
   }
 }
