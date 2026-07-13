@@ -6176,3 +6176,37 @@
     - 館林市市民活動推進事業補助金PDFはPDF本文抽出が不足したため第2巡で再確認する。
   - 次:
     - 群馬県公式棚卸し003として、10208渋川市、10209藤岡市、10210富岡市、10211安中市を自治体コード順に確認する。
+
+- 群馬県公式棚卸し003
+  - 対象:
+    - 10208 渋川市、10209 藤岡市、10210 富岡市、10211 安中市。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補341件をローカルJSONへ保存した。
+    - `tasks/discovery/gunma-official-coverage-003-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現、再スコアを保存した。
+    - 公式カテゴリ・一覧ページから個別制度ページを補完し、`tasks/discovery/gunma-official-coverage-003-official-extra.json` に公式本文スニペットを保存した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページのみ採用した。
+  - 採用:
+    - 渋川市8件: 誰もが働きやすい職場環境づくり応援、新規学卒者就業定着、展示会等出展支援、工場等設置奨励、しぶかわde創業チャレンジ、にぎわい創出イベント、住宅エコリフォーム、木造住宅耐震改修。
+    - 藤岡市1件: 藤岡市民商品券。
+    - 富岡市8件: スズメバチ駆除、若者定住促進奨学金返還、木造住宅耐震改修等、危険ブロック塀等撤去、空き家除却、がん患者医療用ウイッグ等購入費、結婚新生活支援、中小企業省エネ設備導入促進支援。
+    - 安中市6件: 安中市民商品券、職場環境改善サポート、ぐんま技術革新チャレンジ、自主防災組織事業、危険ブロック塀等撤去、木造住宅耐震改修。
+  - 生成ファイル:
+    - `tasks/discovery/gunma-official-coverage-003-municipalities.json`
+    - `tasks/discovery/gunma-official-coverage-003-candidates.json`（raw候補）
+    - `tasks/discovery/gunma-official-coverage-003-detail-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-003-official-extra.json`
+    - `tasks/discovery/gunma-official-coverage-003.json`
+  - 検証:
+    - 追加slug重複: pass（23件、全9736slugでduplicateCount 0）。
+    - 公式URL到達: pass（追加23件すべてHTTP 200）。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10089、officialLinkedActive 10051、manuallyVerifiedActive 10051、群馬県 localOfficial 124）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 渋川市の賃上げ促進支援金は県奨励金の周知ページで市独自上乗せ額が確認できないため採用しない。
+    - 渋川市中小企業退職金共済制度加入促進補助金、富岡市6次産業化等推進補助金、安中市防災士資格取得費補助金は金額表・上限又は掲載粒度を第2巡で確認する。
+    - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
+  - 次:
+    - 群馬県公式棚卸し004として、10212みどり市、10344榛東村、10345吉岡町、10366上野村を自治体コード順に確認する。
