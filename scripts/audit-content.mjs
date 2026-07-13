@@ -30,6 +30,14 @@ const addIssue = (severity, code, grant, message) => issues.push({ severity, cod
 const forbidden = /助成金診断クイズ|全国2,500件以上|必要書類チェックリストを掲載しています|公式サイトで申請する|必ず受給できる|条件を満たせばほぼ確実|申請すれば受け取れる/;
 const businessAudiences = new Set(['soleProprietor', 'business', 'nonprofit', 'researcher', 'localOrganization']);
 const sensitivePurposes = new Set(['medical', 'welfare', 'disaster', 'livingSupport']);
+const tokyoDateParts = new Intl.DateTimeFormat('en-US', {
+  timeZone: 'Asia/Tokyo',
+  year: 'numeric',
+  month: '2-digit',
+  day: '2-digit',
+}).formatToParts(new Date());
+const tokyoDatePart = (type) => tokyoDateParts.find((part) => part.type === type)?.value ?? '';
+const todayInTokyo = `${tokyoDatePart('year')}-${tokyoDatePart('month')}-${tokyoDatePart('day')}`;
 
 const titleMap = new Map();
 const urlMap = new Map();
@@ -39,6 +47,8 @@ for (const grant of grants) {
   if (!grant.organization?.trim()) addIssue('critical', 'MISSING_PROVIDER', grant, '実施機関がありません。');
   if (!grant.eligibility?.trim()) addIssue('warning', 'MISSING_ELIGIBILITY', grant, '主な対象者がありません。');
   if (!grant.verifiedAt) addIssue('warning', 'MISSING_CHECK_DATE', grant, '公式情報の確認日がありません。');
+  if (grant.verifiedAt && grant.verifiedAt > todayInTokyo) addIssue('critical', 'FUTURE_CHECK_DATE', grant, '公式情報の確認日が未来日です。');
+  if (grant.contentUpdatedAt && grant.contentUpdatedAt > todayInTokyo) addIssue('critical', 'FUTURE_CONTENT_DATE', grant, 'コンテンツ更新日が未来日です。');
   if (!hasOfficialSource(grant)) addIssue('warning', 'MISSING_OFFICIAL_URL', grant, '有効な公式URLがありません。');
   if (grant.indexStatus === 'index' && !hasOfficialSource(grant)) addIssue('critical', 'INDEX_WITHOUT_SOURCE', grant, '公式URLなしの制度がindex対象です。');
   if (grant.contentStatus === 'needsReview' && grant.indexStatus === 'index') addIssue('critical', 'INDEX_NEEDS_REVIEW', grant, '修正待ちの制度がindex対象です。');

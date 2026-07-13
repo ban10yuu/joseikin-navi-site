@@ -1,13 +1,7 @@
 import { Grant, LegacyGrant } from '@/lib/types';
+import { sourceCheckedDateFromNote } from '@/lib/source-checked-date';
 
 const verifiedAt = '2026-06-26';
-
-const verifiedDateFromSourceNote = (sourceNote: string): string => {
-  const match = sourceNote.match(/(20\d{2})年(\d{1,2})月(\d{1,2})日/);
-  if (!match) return '2026-07-07';
-  const [, year, month, day] = match;
-  return `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`;
-};
 
 const localVerifiedGrant = (grant: {
   slug: string;
@@ -30,7 +24,7 @@ const localVerifiedGrant = (grant: {
   sourceName: string;
   sourceNote: string;
 }): LegacyGrant => {
-  const sourceVerifiedAt = verifiedDateFromSourceNote(grant.sourceNote);
+  const sourceVerifiedAt = sourceCheckedDateFromNote(grant.sourceNote, '2026-07-07');
   return {
     slug: grant.slug,
     title: grant.title,
