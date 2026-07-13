@@ -12,11 +12,11 @@ export const siteConfig = {
   operatorName: optionalValue(process.env.NEXT_PUBLIC_OPERATOR_NAME),
   contactEmail: optionalValue(process.env.NEXT_PUBLIC_CONTACT_EMAIL),
   analytics: {
-    ga4MeasurementId: optionalValue(process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID) ?? 'G-V11MKY0X3F',
-    vercelAnalyticsEnabled: process.env.NEXT_PUBLIC_VERCEL_ANALYTICS_ENABLED !== 'false',
+    ga4MeasurementId: optionalValue(process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID),
+    vercelAnalyticsEnabled: process.env.NEXT_PUBLIC_VERCEL_ANALYTICS_ENABLED === 'true',
   },
   adsense: {
-    clientId: optionalValue(process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID) ?? 'ca-pub-1611624572831066',
+    clientId: optionalValue(process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID),
     slotId: optionalValue(process.env.NEXT_PUBLIC_ADSENSE_SLOT),
   },
   newsletter: {

@@ -2,7 +2,6 @@ import Link from 'next/link';
 import { CATEGORY_LABELS } from '@/lib/types';
 import { getRecentlyUpdatedGrants } from '@/lib/grants';
 import AdBanner from './AdBanner';
-import AffiliateWidget from './AffiliateWidget';
 
 export default function Sidebar() {
   const recentlyUpdated = getRecentlyUpdatedGrants(6);
@@ -43,8 +42,6 @@ export default function Sidebar() {
           ))}
         </div>
       </div>
-
-      <AffiliateWidget />
 
       <AdBanner size="compact" />
     </aside>

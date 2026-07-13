@@ -1,50 +1,76 @@
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
+import { AFFILIATE_OFFERS } from '@/config/affiliate-offers';
+import { isAdsenseEnabled, siteConfig } from '@/config/site';
+import { toSiteUrl } from '@/lib/site-url';
 
 export const metadata: Metadata = {
   title: 'プライバシーポリシー',
-  description: '助成金ナビのプライバシーポリシー。個人情報の取り扱い、Cookie、Google Analytics、Google AdSenseについて。',
-  alternates: {
-    canonical: 'https://joseikin-navi-site.vercel.app/privacy/',
-  },
+  description: '助成金ナビにおける個人情報、アクセス解析、Cookie、外部サービスの取り扱いを説明します。',
+  alternates: { canonical: toSiteUrl('/privacy/') },
 };
 
+const enabledAffiliateNetworks = [...new Set(
+  AFFILIATE_OFFERS
+    .filter((offer) => offer.enabled && offer.destinationUrl && offer.verifiedAt)
+    .map((offer) => offer.network),
+)];
+
 export default function PrivacyPage() {
+  const usesGa4 = Boolean(siteConfig.analytics.ga4MeasurementId);
+  const usesVercelAnalytics = siteConfig.analytics.vercelAnalyticsEnabled;
+  const usesAnalytics = usesGa4 || usesVercelAnalytics;
+  const usesAdvertising = isAdsenseEnabled || enabledAffiliateNetworks.length > 0;
+
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 py-12">
       <h1 className="text-2xl font-black text-navy mb-8 pl-3 border-l-4 border-accent">プライバシーポリシー</h1>
       <div className="prose prose-slate max-w-none text-sm leading-relaxed space-y-6">
         <section>
-          <h2 className="text-lg font-bold text-navy mb-2 pb-1 border-b-2 border-line">1. 個人情報の収集と利用</h2>
-          <p className="text-ink">当サイト「助成金ナビ」（以下「当サイト」）では、メール登録フォームにおいてメールアドレス、お住まいの地域、世帯年収、ご職業の情報をご提供いただく場合があります。これらの情報は、パーソナライズされた助成金情報の配信にのみ使用いたします。</p>
+          <h2 className="text-lg font-bold text-navy mb-2 pb-1 border-b-2 border-line">1. 取得する情報と利用目的</h2>
+          {siteConfig.newsletter.endpoint ? (
+            <p className="text-ink">新着情報メールへの登録時に、メールアドレスと任意で選択した地域を取得します。登録確認、支援制度の新着・更新情報の配信、配信停止対応のために利用します。</p>
+          ) : (
+            <p className="text-ink">現在、サイト上で新着情報メールの登録受付は有効化していません。お問い合わせ時に提供された情報は、内容の確認と返信のために利用します。</p>
+          )}
+        </section>
+
+        {usesAnalytics && (
+          <section>
+            <h2 className="text-lg font-bold text-navy mb-2 pb-1 border-b-2 border-line">2. アクセス解析</h2>
+            <p className="text-ink">サイトの利用状況を把握し、掲載内容や操作性を改善するため、次のアクセス解析サービスを利用しています。</p>
+            <ul className="list-disc pl-6 text-ink">
+              {usesGa4 && <li>Google Analytics 4</li>}
+              {usesVercelAnalytics && <li>Vercel Web Analytics</li>}
+            </ul>
+            {siteConfig.privacy.cookieRetention && (
+              <p className="text-ink">設定上の保存期間：{siteConfig.privacy.cookieRetention}</p>
+            )}
+          </section>
+        )}
+
+        {usesAdvertising && (
+          <section>
+            <h2 className="text-lg font-bold text-navy mb-2 pb-1 border-b-2 border-line">3. 広告・アフィリエイト</h2>
+            {isAdsenseEnabled && <p className="text-ink">Google AdSenseを利用しています。広告配信に伴うデータの取り扱いは、Googleのポリシーをご確認ください。</p>}
+            {enabledAffiliateNetworks.length > 0 && (
+              <p className="text-ink">利用中のアフィリエイトサービス：{enabledAffiliateNetworks.join('、')}。PRリンク経由で申込みがあった場合、当サイトが紹介料を受け取ることがあります。</p>
+            )}
+          </section>
+        )}
+
+        <section>
+          <h2 className="text-lg font-bold text-navy mb-2 pb-1 border-b-2 border-line">{usesAdvertising ? '4' : usesAnalytics ? '3' : '2'}. 外部サービスへの送信</h2>
+          <p className="text-ink">上記サービスを有効にしている場合、閲覧したページ、端末・ブラウザに関する情報、Cookie等の識別子が各サービス提供者へ送信されることがあります。メールアドレス、氏名、世帯年収、職業をアクセス解析イベントへ送信しない設計とします。</p>
         </section>
 
         <section>
-          <h2 className="text-lg font-bold text-navy mb-2 pb-1 border-b-2 border-line">2. アクセス解析ツール</h2>
-          <p className="text-ink">当サイトでは、Googleによるアクセス解析ツール「Google Analytics」を使用しています。Google Analyticsはデータの収集のためにCookieを使用します。このデータは匿名で収集されており、個人を特定するものではありません。</p>
-          <p className="text-ink">この機能はCookieを無効にすることで収集を拒否することができますので、お使いのブラウザの設定をご確認ください。Google Analyticsの利用規約については、<a href="https://marketingplatform.google.com/about/analytics/terms/jp/" target="_blank" rel="noopener noreferrer" className="text-navy font-medium underline underline-offset-2 hover:text-accent-deep">Google Analytics利用規約</a>をご覧ください。</p>
+          <h2 className="text-lg font-bold text-navy mb-2 pb-1 border-b-2 border-line">お問い合わせ</h2>
+          <p className="text-ink">本方針や情報の取り扱いに関するご連絡は、<a href="/contact/" className="text-navy font-medium underline underline-offset-2 hover:text-accent-deep">お問い合わせページ</a>をご利用ください。</p>
         </section>
 
-        <section>
-          <h2 className="text-lg font-bold text-navy mb-2 pb-1 border-b-2 border-line">3. 広告について</h2>
-          <p className="text-ink">当サイトでは、第三者配信の広告サービス「Google AdSense」を利用しています。広告配信事業者はユーザーの興味に応じた広告を表示するためにCookieを使用することがあります。Cookieを無効にする設定およびGoogleアドセンスに関する詳細については、<a href="https://policies.google.com/technologies/ads?hl=ja" target="_blank" rel="noopener noreferrer" className="text-navy font-medium underline underline-offset-2 hover:text-accent-deep">広告ポリシー</a>をご覧ください。</p>
-        </section>
-
-        <section>
-          <h2 className="text-lg font-bold text-navy mb-2 pb-1 border-b-2 border-line">4. アフィリエイトについて</h2>
-          <p className="text-ink">当サイトは、Amazon.co.jpを宣伝しリンクすることによってサイトが紹介料を獲得できる手段を提供することを目的に設定されたアフィリエイトプログラムである、Amazonアソシエイト・プログラムの参加者です。また、その他のASP（A8.net、もしもアフィリエイト、バリューコマース等）のアフィリエイトプログラムにも参加しています。</p>
-        </section>
-
-        <section>
-          <h2 className="text-lg font-bold text-navy mb-2 pb-1 border-b-2 border-line">5. 免責事項</h2>
-          <p className="text-ink">当サイトに掲載された助成金・補助金の情報は、一般的な情報提供を目的としたものであり、個別の申請に関する助言や保証を行うものではありません。情報の正確性には万全を期しておりますが、最新の申請条件・受給額・必要書類等は各公式サイトでご確認ください。当サイトの情報に基づいて行われた行為について、当サイトは一切の責任を負いません。</p>
-        </section>
-
-        <section>
-          <h2 className="text-lg font-bold text-navy mb-2 pb-1 border-b-2 border-line">6. お問い合わせ</h2>
-          <p className="text-ink">プライバシーポリシーに関するお問い合わせは、<a href="/contact/" className="text-navy font-medium underline underline-offset-2 hover:text-accent-deep">お問い合わせページ</a>よりご連絡ください。</p>
-        </section>
-
-        <p className="text-faint text-xs mt-8">制定日: 2026年3月11日</p>
+        {siteConfig.privacy.policyUpdatedAt && (
+          <p className="text-faint text-xs mt-8">最終更新日：{siteConfig.privacy.policyUpdatedAt}</p>
+        )}
       </div>
     </div>
   );
