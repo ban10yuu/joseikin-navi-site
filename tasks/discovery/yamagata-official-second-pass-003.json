@@ -1,0 +1,152 @@
+{
+  "batchId": "yamagata-comprehensive-official-second-pass-003",
+  "prefecture": "山形県",
+  "status": "completed",
+  "completedAt": "2026-07-13T15:54:21+09:00",
+  "sourceFirstPassFile": "tasks/discovery/yamagata-official-coverage-003.json",
+  "targets": [
+    {
+      "code": "06208",
+      "name": "村山市",
+      "officialBaseUrl": "https://www.city.murayama.lg.jp/",
+      "sourceUrlsChecked": [
+        "https://www.city.murayama.lg.jp/kurashi/josei/josei/sinaiijusyasien.html",
+        "https://www.city.murayama.lg.jp/kurashi/josei/josei/shikaku.html",
+        "https://www.city.murayama.lg.jp/kurashi/suidou_gesuidou/jokaso/joukasousecchi.html",
+        "https://www.city.murayama.lg.jp/jigyosha/sho_kogyo/kigyoujosetukihojo.html",
+        "https://www.city.murayama.lg.jp/kurashi/sumai/akiya/chuushinshigaichi.html",
+        "https://www.city.murayama.lg.jp/kurashi/sumai/akiya/burokkuheihojyo.html",
+        "https://www.city.murayama.lg.jp/kurashi/sumai/akiya/gakechi.html",
+        "https://www.city.murayama.lg.jp/kurashi/sumai/akiya/taishinnshinndann.html",
+        "https://www.city.murayama.lg.jp/kurashi/sumai/akiya/kensetsujokyakuhojo.html",
+        "https://www.city.murayama.lg.jp/kurashi/sumai/akiya/taishinnkaisyuuhojo.html",
+        "https://www.city.murayama.lg.jp/kurashi/gomi/shigenkaisyu.html"
+      ],
+      "adopted": [
+        "murayama-rent-support-relocation-2026",
+        "murayama-qualification-license-subsidy-2026",
+        "murayama-septic-tank-installation-subsidy-2026",
+        "murayama-business-snow-removal-machine-subsidy-2026"
+      ],
+      "held": [
+        {
+          "title": "中心市街地補助、ブロック塀、がけ地、耐震、老朽危険空き家、資源回収の旧候補URL",
+          "reason": "第1巡候補の旧URLを再確認したが、いずれもHTTP 404で現行個別制度本文に到達できなかったため、サイト内検索・現行URL確認を後続候補として残す。"
+        },
+        {
+          "title": "子育てスマイルプロジェクト等の一覧・カテゴリ導線",
+          "reason": "複数制度の入口又はカテゴリ導線であり、制度名・対象・金額/上限・受付状況が揃う個別ページとしては採用しない。"
+        }
+      ]
+    },
+    {
+      "code": "06209",
+      "name": "長井市",
+      "officialBaseUrl": "https://www.city.nagai.yamagata.jp/",
+      "sourceUrlsChecked": [
+        "https://www.city.nagai.yamagata.jp/boshu/16021.html",
+        "https://www.city.nagai.yamagata.jp/soshiki/sougoseisaku/106/205/3/3/15826.html"
+      ],
+      "adopted": [
+        "nagai-specified-vacant-house-demolition-subsidy-2026",
+        "nagai-inflation-relief-nagai-coin-2026"
+      ],
+      "held": [
+        {
+          "title": "令和8年度長井市地域脱炭素プラン推進事業費補助金、起業・創業支援事業補助金",
+          "reason": "第1巡で公式確認済みの制度と重複するため追加しない。"
+        },
+        {
+          "title": "カテゴリ、募集一覧、通常行政手続",
+          "reason": "個別の補助・助成・給付制度本文ではないため採用しない。"
+        }
+      ]
+    },
+    {
+      "code": "06210",
+      "name": "天童市",
+      "officialBaseUrl": "https://www.city.tendo.yamagata.jp/",
+      "sourceUrlsChecked": [
+        "https://www.city.tendo.yamagata.jp/lifeinfo/kosodate/kosodatehozyo.html",
+        "https://www.city.tendo.yamagata.jp/lifeinfo/gomi/namagomisyorikisyuusekizyohozokin.html",
+        "https://www.city.tendo.yamagata.jp/lifeinfo/kosodate/s_henkan_sien.html",
+        "https://www.city.tendo.yamagata.jp/lifeinfo/kosodate/sonota_simin.html",
+        "https://www.city.tendo.yamagata.jp/lifeinfo/kourei/yukiorosi.html",
+        "https://www.city.tendo.yamagata.jp/lifeinfo/kourei/zichikaizyosetu.html",
+        "https://www.city.tendo.yamagata.jp/busiindust/syokogyo/kaigo-syukusyakariage-jigyousyomuke.html",
+        "https://www.city.tendo.yamagata.jp/busiindust/syokogyo/kaigosyokuin-syugyousienn.html",
+        "https://www.city.tendo.yamagata.jp/lifeinfo/kankyo/pelletstove-hojokin.html",
+        "https://www.city.tendo.yamagata.jp/lifeinfo/kankyo/taiyoukouhatsuden-hojokin.html",
+        "https://www.city.tendo.yamagata.jp/busiindust/syokogyo/corona-koutou.html",
+        "https://www.city.tendo.yamagata.jp/busiindust/syokogyo/tenant_boshu.html",
+        "https://www.city.tendo.yamagata.jp/busiindust/syokogyo/koyoushien.html"
+      ],
+      "adopted": [
+        "tendo-notified-childcare-facility-fee-subsidy-2026",
+        "tendo-kitchen-waste-processor-and-garbage-station-subsidy-2026"
+      ],
+      "held": [
+        {
+          "title": "奨学金返還支援、婚活、除雪、高齢者支援、介護職員支援、ペレット・太陽光・商工業支援の旧候補URL",
+          "reason": "第1巡候補URLを再確認したがHTTP 404のため、現行URL又は制度終了の確認を後続候補に残す。"
+        },
+        {
+          "title": "観光・誘客支援、商工・農業支援のPDF候補",
+          "reason": "公式HTML本文だけでは金額/上限と受付状況が揃わないものがあり、PDF本文の精査を後続候補に残す。"
+        }
+      ]
+    },
+    {
+      "code": "06211",
+      "name": "東根市",
+      "officialBaseUrl": "https://www.city.higashine.yamagata.jp/",
+      "sourceUrlsChecked": [
+        "https://www.city.higashine.yamagata.jp/section_list/section010/kourei-fukushi/336",
+        "https://www.city.higashine.yamagata.jp/section_list/section010/kourei-fukushi/340",
+        "https://www.city.higashine.yamagata.jp/section_list/section010/kourei-fukushi/337",
+        "https://www.city.higashine.yamagata.jp/section_list/section001/airport_ass/",
+        "https://www.city.higashine.yamagata.jp/section_list/section028/1829",
+        "https://www.city.higashine.yamagata.jp/section_list/section029/2313",
+        "https://www.city.higashine.yamagata.jp/section_list/section029/1851",
+        "https://www.city.higashine.yamagata.jp/section_list/section007/hukushiiryo/157"
+      ],
+      "adopted": [
+        "higashine-family-care-supplies-voucher-2026",
+        "higashine-advanced-infertility-treatment-subsidy-2026",
+        "higashine-child-medical-expense-subsidy-2026"
+      ],
+      "held": [
+        {
+          "title": "おでかけさぽーとタクシー事業・高齢者移動サービス事業・産前産後ヘルパー派遣事業",
+          "reason": "対象とサービス内容は確認したが、公式本文だけでは補助額/上限額又は市負担額が確定しないため採用しない。"
+        },
+        {
+          "title": "山形空港利用助成、ひとり親家庭の福祉",
+          "reason": "制度案内又は複数制度の総合ページで、個別制度の金額/上限・受付状況が公式本文だけでは不足するため後続候補に残す。"
+        },
+        {
+          "title": "奨学金返還支援、移住生活応援、結婚新生活支援等",
+          "reason": "第1巡で公式確認済みの東根市制度と重複するため追加しない。"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "adoptedCount": 11,
+    "heldCount": 10,
+    "sourceUrlsChecked": 34,
+    "notes": "第1巡003の保留候補とスニペットを再確認し、村山市4件、長井市2件、天童市2件、東根市3件の計11制度を公式本文で採用した。旧URL404、カテゴリ導線、金額不明のサービス案内、既掲載重複は採用しない理由を記録した。",
+    "validation": {
+      "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+      "addedSlugUniqueness": "pass: added 11 slugs, duplicateCount 0",
+      "urlReachability": "pass: added 11 official URLs all HTTP 200",
+      "diffCheck": "pass: git diff --check for Yamagata second pass 003 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9483, officialLinkedActive 9445, manuallyVerifiedActive 9445, Yamagata localOfficial 364"
+    }
+  },
+  "next": {
+    "code": "yamagata-comprehensive-official-second-pass-004",
+    "municipality": "尾花沢市・南陽市・山辺町・中山町",
+    "instructions": "山形県第2巡004として、06212尾花沢市、06213南陽市、06301山辺町、06302中山町の第1巡保留候補を公式本文/PDFで確認する。既掲載公式URLと県・国制度重複を除外し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度だけ採用する。"
+  }
+}

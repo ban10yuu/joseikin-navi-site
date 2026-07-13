@@ -1,0 +1,90 @@
+{
+  "generatedAt": "2026-07-13T13:46:51+09:00",
+  "batch": "fukushima-second-pass-008",
+  "municipalities": [
+    "湯川村",
+    "柳津町",
+    "三島町",
+    "金山町"
+  ],
+  "count": 11,
+  "results": [
+    {
+      "municipality": "湯川村",
+      "url": "https://www.vill.yugawa.fukushima.jp/site/fukushi-top/3-2-4.html",
+      "title": "高齢者福祉（タクシー券、おむつ券など）",
+      "priority": "adopt",
+      "reason": "更新日2026年4月1日。高齢者等移動支援、介護慰労金、紙おむつ支給の対象・金額・申請方法を公式本文で確認。"
+    },
+    {
+      "municipality": "湯川村",
+      "url": "https://www.vill.yugawa.fukushima.jp/site/kurashi-top/kosodate-2-2.html",
+      "title": "子育て・就学支援施策",
+      "priority": "adopt",
+      "reason": "医療費助成、妊産婦医療、出産祝い金、小学校入学祝い金、冬期間通学費、第3子以降給食費免除の対象・金額/免除内容を公式本文で確認。"
+    },
+    {
+      "municipality": "柳津町",
+      "url": "https://www.town.yanaizu.fukushima.jp/docs/2026051400024/",
+      "title": "各種給付・助成制度について",
+      "priority": "adopt",
+      "reason": "更新日2026年5月15日。頑張れ子育て応援金の出産祝金・入学祝金について対象・金額・滞納なし要件を公式本文で確認。"
+    },
+    {
+      "municipality": "湯川村",
+      "url": "https://www.vill.yugawa.fukushima.jp/site/fukushi-top/boshihoken.html",
+      "title": "母子保健",
+      "priority": "hold",
+      "reason": "妊婦支援給付、産後ケア、不妊治療助成PDFへのリンクを確認したが、PDF本文の金額・受付状況未展開のため継続確認。"
+    },
+    {
+      "municipality": "湯川村",
+      "url": "https://www.vill.yugawa.fukushima.jp/site/kurashi-top/kosodate-2-2.html",
+      "title": "予防接種助成事業・就学援助制度",
+      "priority": "hold",
+      "reason": "予防接種助成は助成額・上限が本文に出ていない。就学援助はPDF未展開で支給額・申請受付を次巡確認。"
+    },
+    {
+      "municipality": "柳津町",
+      "url": "https://www.town.yanaizu.fukushima.jp/docs/2026051400024/",
+      "title": "妊婦のための支援給付・児童手当・未熟児養育医療",
+      "priority": "hold",
+      "reason": "妊婦支援給付は既掲載の出産・子育て応援給付金と重複扱い。児童手当は国制度、未熟児養育医療は給付範囲・受付差分を次巡確認。"
+    },
+    {
+      "municipality": "三島町",
+      "url": "first-pass-008-held-candidates",
+      "title": "医療費助成カテゴリ・ワクチン・デマンドバス減免・申請書ダウンロード",
+      "priority": "hold",
+      "reason": "今回の公式本文再確認では新規採用に足る個別制度の金額・受付差分まで展開できなかったため継続確認。"
+    },
+    {
+      "municipality": "金山町",
+      "url": "https://www.town.kaneyama.fukushima.jp/soshiki/56/hotyouki.html",
+      "title": "補聴器等旧URL候補",
+      "priority": "hold",
+      "reason": "取得結果404。サイトリニューアル後の現行公式URLと制度単位の金額・受付差分を次巡確認。"
+    },
+    {
+      "municipality": "金山町",
+      "url": "https://www.town.kaneyama.fukushima.jp/soshiki/56/mijukuji.html",
+      "title": "未熟児養育医療旧URL候補",
+      "priority": "hold",
+      "reason": "取得結果404。国県制度重複または現行公式URL未確定のため新規追加しない。"
+    },
+    {
+      "municipality": "金山町",
+      "url": "https://www.town.kaneyama.fukushima.jp/soshiki/56/yobousesshu.html",
+      "title": "予防接種旧URL候補",
+      "priority": "hold",
+      "reason": "取得結果404。現行公式URLと助成額・受付状況を次巡確認。"
+    },
+    {
+      "municipality": "金山町",
+      "url": "https://www.town.kaneyama.fukushima.jp/soshiki/56/koureisyafukushi.html",
+      "title": "高齢者福祉旧URL候補",
+      "priority": "hold",
+      "reason": "取得結果404。現行公式URLと個別制度差分を次巡確認。"
+    }
+  ]
+}

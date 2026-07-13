@@ -1,0 +1,112 @@
+{
+  "batchId": "yamagata-official-second-pass-005",
+  "prefecture": "山形県",
+  "completedAt": "2026-07-13T16:55:00+09:00",
+  "municipalities": [
+    {
+      "code": "06321",
+      "name": "河北町",
+      "officialBaseUrl": "https://www.town.kahoku.yamagata.jp/",
+      "adoptedSlugs": [
+        "kahoku-rental-housing-move-in-subsidy-2026",
+        "kahoku-vacant-house-utilization-subsidy-2026",
+        "kahoku-vacant-house-cleanup-subsidy-2026",
+        "kahoku-energy-saving-appliance-subsidy-2026",
+        "kahoku-renewable-energy-equipment-subsidy-2026",
+        "kahoku-public-taxi-use-subsidy-2026",
+        "kahoku-employment-promotion-subsidy-2026",
+        "kahoku-industry-attractiveness-subsidy-2026",
+        "kahoku-future-startup-support-subsidy-2026",
+        "kahoku-child-medical-expense-subsidy-2026"
+      ],
+      "sourceUrlsChecked": 10,
+      "notes": "第1巡保留の移住定住、空き家、ゼロカーボン、雇用・創業、子育て医療を公式本文で確認した。旧URL化していた制度は現行の組織配下URLへ補正した。"
+    },
+    {
+      "code": "06322",
+      "name": "西川町",
+      "officialBaseUrl": "https://www.town.nishikawa.yamagata.jp/",
+      "adoptedSlugs": [
+        "nishikawa-marriage-new-life-subsidy-2026",
+        "nishikawa-moving-expense-subsidy-2026",
+        "nishikawa-wood-stove-installation-subsidy-2026",
+        "nishikawa-regular-employment-incentive-2026",
+        "nishikawa-agricultural-regular-employment-incentive-2026",
+        "nishikawa-electric-fence-subsidy-2026",
+        "nishikawa-unneeded-fruit-tree-removal-subsidy-2026",
+        "nishikawa-bone-marrow-donor-support-grant-2026",
+        "nishikawa-childrearing-inflation-relief-benefit-2026",
+        "nishikawa-town-development-challenge-subsidy-2026"
+      ],
+      "sourceUrlsChecked": 10,
+      "notes": "補助金カテゴリ、健康福祉課カテゴリ、移住ページから個別制度へ展開し、金額・対象・申請又は受付表現の揃う制度を採用した。"
+    },
+    {
+      "code": "06323",
+      "name": "朝日町",
+      "officialBaseUrl": "https://www.town.asahi.yamagata.jp/",
+      "adoptedSlugs": [
+        "asahi-industrial-product-sales-channel-subsidy-2026",
+        "asahi-voluntary-vaccination-subsidy-2026"
+      ],
+      "sourceUrlsChecked": 2,
+      "notes": "第1巡保留の工業製品等販路拡大支援と任意予防接種費用助成を公式ページで確認して追加した。新生児聴覚検査等は金額詳細の別紙確認が必要なため保留した。"
+    },
+    {
+      "code": "06324",
+      "name": "大江町",
+      "officialBaseUrl": "https://www.town.oe.yamagata.jp/",
+      "adoptedSlugs": [
+        "oe-pregnancy-support-benefit-2026",
+        "oe-pregnant-woman-taxi-ticket-2026",
+        "oe-childbirth-support-subsidy-2026",
+        "oe-birth-celebration-benefit-2026",
+        "oe-infertility-treatment-subsidy-2026",
+        "oe-aterazawa-high-school-support-subsidy-2026"
+      ],
+      "sourceUrlsChecked": 6,
+      "notes": "妊娠・出産カテゴリと左沢高等学校支援ページを公式本文で確認した。生活応援ローン、教育ローン本体、県移住支援金案内は融資又は県連携案内として新規採用しない。"
+    }
+  ],
+  "adoptedCount": 28,
+  "sourceUrlsChecked": 28,
+  "heldForLater": [
+    {
+      "municipality": "河北町",
+      "items": [
+        "町内会除雪機購入事業費補助金は現行個別URLと金額を再確認する。",
+        "令和8年度河北町フリースクール等利用料支援事業費補助金は個別ページ本文又はPDFの金額・対象確認後に採否判断する。",
+        "移住支援金、奨学金返還支援の県連携制度は町独自差分が明確な場合のみ採用する。"
+      ]
+    },
+    {
+      "municipality": "西川町",
+      "items": [
+        "重粒子線がん治療治療費等助成、西川町独自不妊治療費助成、病児・病後児保育利用料助成、福祉タクシー、浄化槽設置助成は第3巡で金額・申請期限を精査する。",
+        "妊婦健康診査費用助成、県外妊婦健康診査費用助成、妊婦支援給付金は町独自差分を確認する。"
+      ]
+    },
+    {
+      "municipality": "朝日町",
+      "items": [
+        "病児・病後児保育利用料助成、新生児聴覚検査費用助成、妊よう性温存治療費助成、農業関係補助事業一覧は個別金額又はPDF確認を継続する。",
+        "県外定期予防接種費用助成は助成上限額PDFを確認して採否判断する。"
+      ]
+    },
+    {
+      "municipality": "大江町",
+      "items": [
+        "おおえあんしん妊娠サポート助成事業は個別URL本文又はカテゴリ本文の公式根拠を再取得する。",
+        "妊婦健康診査は通常公費受診票制度として採用を保留し、多胎妊婦追加助成の詳細だけ再確認する。",
+        "生活応援ローンと教育ローン本体は融資案内のため採用しない。"
+      ]
+    }
+  ],
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: added 28 slugs, duplicate count 0",
+    "urlReachability": "pass: 28 slugs / 28 source URLs checked, failures 0, all HTTP 200",
+    "auditCoverage": "pass: failures 0, activePublished 9519, officialLinkedActive 9481, manuallyVerifiedActive 9481, Yamagata localOfficial 400, Yamagata coveredCategories 8",
+    "diffCheck": "pass: git diff --check for Yamagata second pass 005 files"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "batchId": "ibaraki-comprehensive-official-coverage-001",
+  "prefecture": "茨城県",
+  "municipalities": [
+    {
+      "code": "08000",
+      "name": "茨城県庁",
+      "officialBaseUrl": "https://www.pref.ibaraki.jp/"
+    },
+    {
+      "code": "08201",
+      "name": "水戸市",
+      "officialBaseUrl": "https://www.city.mito.lg.jp/"
+    },
+    {
+      "code": "08202",
+      "name": "日立市",
+      "officialBaseUrl": "https://www.city.hitachi.lg.jp/"
+    },
+    {
+      "code": "08203",
+      "name": "土浦市",
+      "officialBaseUrl": "https://www.city.tsuchiura.lg.jp/"
+    }
+  ]
+}

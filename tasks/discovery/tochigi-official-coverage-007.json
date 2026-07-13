@@ -1,0 +1,74 @@
+{
+  "batchId": "tochigi-comprehensive-official-coverage-007",
+  "prefecture": "栃木県",
+  "completedAt": "2026-07-13T14:14:51.583Z",
+  "municipalities": [
+    {
+      "code": "09411",
+      "name": "那珂川町",
+      "officialBaseUrl": "https://www.town.tochigi-nakagawa.lg.jp/",
+      "status": "completed",
+      "adoptedCount": 32
+    }
+  ],
+  "generatedFiles": [
+    "tasks/discovery/tochigi-official-coverage-007-municipalities.json",
+    "tasks/discovery/tochigi-official-coverage-007-candidates.json",
+    "tasks/discovery/tochigi-official-coverage-007-detail-snippets.json",
+    "tasks/discovery/tochigi-official-coverage-007-sitemap-links.json",
+    "tasks/discovery/tochigi-official-coverage-007-official-extra.json"
+  ],
+  "adoptedSummary": {
+    "那珂川町": [
+      "農作業省力化対策事業補助金",
+      "高校生等通学支援交付金",
+      "人間ドック・脳ドック費補助金",
+      "在宅介護紙おむつ購入費助成",
+      "結婚新生活支援補助金",
+      "とちぎ結婚支援センター登録料助成",
+      "なかがわ出産・子育て応援ギフト",
+      "先天性股関節脱臼検診費用助成",
+      "不妊等治療費助成",
+      "こども医療費助成",
+      "妊産婦医療費助成",
+      "県立馬頭高等学校通学費等補助金",
+      "入学・進学支援金",
+      "学校給食費全額減免",
+      "浄化槽設置整備事業費補助金",
+      "生ごみ処理機器購入補助金",
+      "環境学習会開催奨励金",
+      "環境人材育成奨励金",
+      "運転免許証自主返納支援",
+      "木造住宅耐震改修・建替え補助",
+      "木材需要拡大事業費補助金",
+      "空き家取得費補助金",
+      "空き店舗等活用促進事業費補助金",
+      "空き家改修費補助金",
+      "特殊詐欺電話撃退機器購入費補助金",
+      "がん患者医療用ウィッグ・乳房補整具購入費助成金",
+      "骨髄移植ドナー支援事業奨励金",
+      "インフルエンザ予防接種費用助成",
+      "ぐるっとなかがわ応援券",
+      "奨学金（貸与）",
+      "物価高対応子育て応援手当",
+      "水道基本料金免除"
+    ]
+  },
+  "verification": {
+    "syntax": "pass",
+    "duplicateSlugs": "pass (all 9681 slugs duplicateCount 0)",
+    "officialUrlReachability": "pass (31 unique URLs all reachable)",
+    "lint": "pass",
+    "diffCheck": "pass",
+    "auditCoverage": "pass (failures 0, activePublished 10039, officialLinkedActive 10001, manuallyVerifiedActive 10001, Tochigi localOfficial 303)"
+  },
+  "notes": [
+    "全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。",
+    "那珂川町低炭素まちづくり推進設備等導入事業費補助金はHTML本文で対象設備と受付期間を確認したが、設備別補助額表がPDF側のため第2巡で金額表を確認する。",
+    "ぐるっとなかがわ応援券は公式本文で配布・利用期限を確認したが、対象者リンク先の1人あたり金額を第2巡で確認する。",
+    "那珂川町医療費助成ページ内のひとり親家庭医療費・重度心身障害者医療費・未熟児養育医療・育成医療は対象・自己負担・申請粒度を第2巡で分割確認する。"
+  ],
+  "next": [
+    "群馬県公式棚卸し001として、自治体コード順に未完了自治体を確認する。"
+  ]
+}

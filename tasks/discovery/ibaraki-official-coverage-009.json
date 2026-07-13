@@ -1,0 +1,141 @@
+{
+  "batchId": "ibaraki-comprehensive-official-coverage-009",
+  "prefecture": "茨城県",
+  "completedAt": "2026-07-13T20:25:00+09:00",
+  "municipalities": [
+    {
+      "code": "08236",
+      "name": "小美玉市",
+      "officialBaseUrl": "https://www.city.omitama.lg.jp/",
+      "adoptedCount": 10
+    },
+    {
+      "code": "08302",
+      "name": "茨城町",
+      "officialBaseUrl": "https://www.town.ibaraki.lg.jp/",
+      "adoptedCount": 4
+    },
+    {
+      "code": "08309",
+      "name": "大洗町",
+      "officialBaseUrl": "https://www.town.oarai.lg.jp/",
+      "adoptedCount": 12
+    },
+    {
+      "code": "08310",
+      "name": "城里町",
+      "officialBaseUrl": "https://www.town.shirosato.lg.jp/",
+      "adoptedCount": 5
+    }
+  ],
+  "candidateDiscovery": {
+    "candidateCount": 1172,
+    "htmlCandidateCount": 1158,
+    "detailSnippetRows": 260,
+    "officialExtraRows": 36,
+    "shortlistPolicy": "候補数150件超のためローカルJSONへ本文スニペットを抽出し再スコアリング。title/h1/main/article/URLの制度強語に加え、金額・対象条件・期限又は受付状況が公式本文で揃う個別ページを優先。トップ、カテゴリ導線、一覧、期限切れ、予算枠消化済み、貸付のみ、国制度案内は採用対象外又は第2巡へ保留。"
+  },
+  "adopted": {
+    "total": 31,
+    "byMunicipality": {
+      "小美玉市": [
+        "奨学金返還支援補助金",
+        "浄化槽設置補助金",
+        "わくわく茨城移住支援金",
+        "若年世帯等住宅取得助成金",
+        "防音サッシ工事助成制度",
+        "地方就職学生支援金",
+        "下水道接続工事費用助成",
+        "出産祝い金",
+        "妊婦支援給付金",
+        "妊産婦タクシー利用料助成"
+      ],
+      "茨城町": [
+        "省エネ家電買換え補助金",
+        "中小企業等エネルギー価格高騰対策支援金",
+        "家庭用防犯カメラ設置補助金",
+        "合併処理浄化槽設置補助金"
+      ],
+      "大洗町": [
+        "住宅リフォーム補助金",
+        "木造住宅耐震改修事業費補助",
+        "危険ブロック塀等撤去事業費補助",
+        "空き家利活用リフォーム補助金",
+        "空き家解体・跡地利用補助金",
+        "木造住宅耐震診断士派遣費補助",
+        "合併処理浄化槽設置補助金",
+        "三世代同居・近居住宅増改築・リフォーム助成金",
+        "定住促進奨励金",
+        "生ごみ処理容器購入費補助金",
+        "太陽光発電システム設置補助金",
+        "ハチ駆除補助金"
+      ],
+      "城里町": [
+        "在宅育児手当",
+        "医療福祉費支給制度（マル福・マル特）",
+        "次世代育成支援金",
+        "補聴器購入費助成",
+        "未就学児給食費無償化"
+      ]
+    }
+  },
+  "heldForSecondPass": [
+    "小美玉市の令和7年度浄化槽ページ等、受付終了又は旧年度ページは採用しない。",
+    "大洗町の蓄電池導入促進事業補助金は令和8年度受付開始済みだが、2026年5月21日時点で補助基数残0基のため今回採用しない。",
+    "大洗町の家庭用防犯カメラ補助金はページ更新日2026年2月5日だが本文が令和7年度継続実施で、令和8年度の受付状況確認が不足するため第2巡へ残す。",
+    "城里町の高年者クラブ事業補助金は提出期限2026年6月30日で、2026年7月13日時点では期限超過のため採用しない。",
+    "城里町の物価高対応子育て応援手当は通常申請期限が2026年3月13日、出生等特例が2026年4月14日で期限超過のため採用しない。",
+    "医療保険・国制度の一般案内、貸付のみ、金額や個別受付状況が不足する候補は第2巡台帳へ残す。"
+  ],
+  "files": [
+    "src/data/grants/verified-local-misc-2026.ts",
+    "tasks/discovery/ibaraki-official-coverage-009-municipalities.json",
+    "tasks/discovery/ibaraki-official-coverage-009-detail-snippets.json",
+    "tasks/discovery/ibaraki-official-coverage-009-official-extra.json",
+    "tasks/discovery/ibaraki-official-coverage-009.json"
+  ],
+  "validation": {
+    "nodeCheck": "pass",
+    "lint": "pass",
+    "duplicateSlugs": {
+      "status": "pass",
+      "totalSlugs": 9447,
+      "duplicateCount": 0
+    },
+    "urlReachability": {
+      "status": "pass",
+      "checkedAddedCount": 31,
+      "allStatus200": true
+    },
+    "gitDiffCheck": "pass",
+    "auditCoverage": {
+      "status": "pass",
+      "failures": 0,
+      "activePublished": 9809,
+      "officialLinkedActive": 9771,
+      "manuallyVerifiedActive": 9771,
+      "ibarakiLocalOfficial": 331
+    }
+  },
+  "next": {
+    "batchId": "ibaraki-comprehensive-official-coverage-010",
+    "municipalities": [
+      {
+        "code": "08341",
+        "name": "東海村"
+      },
+      {
+        "code": "08364",
+        "name": "大子町"
+      },
+      {
+        "code": "08442",
+        "name": "美浦村"
+      },
+      {
+        "code": "08443",
+        "name": "阿見町"
+      }
+    ]
+  }
+}

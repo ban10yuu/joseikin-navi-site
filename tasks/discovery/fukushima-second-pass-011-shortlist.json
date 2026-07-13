@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-07-13T14:15:51+09:00",
+  "source": "fukushima-official-coverage-011 official-extra/snippets/selected minus existing officialUrl",
+  "count": 8,
+  "results": [
+    {
+      "municipality": "石川町",
+      "slug": "ishikawa-home-childcare-support-grant-2026",
+      "url": "https://www.town.ishikawa.fukushima.jp/admin/education/05/08.html",
+      "evidence": "在宅育児、生後6か月から3歳年度末まで、対象乳幼児1人月額1万円、上半期10月・下半期4月申請。",
+      "decision": "adopt"
+    },
+    {
+      "municipality": "石川町",
+      "slug": "ishikawa-childcare-worker-housing-subsidy-2026",
+      "url": "https://www.town.ishikawa.fukushima.jp/admin/education/05/hojyokin.html",
+      "evidence": "保育士住宅補助、賃貸は家賃1/2・月2万円上限、その他月1万円、2年間、上半期9月・下半期3月申請。",
+      "decision": "adopt"
+    },
+    {
+      "municipality": "玉川村",
+      "slug": "tamakawa-childcare-support-grant-2026",
+      "url": "https://www.vill.tamakawa.fukushima.jp/guide/welfare/000163.html",
+      "evidence": "3歳未満児童1人月額5,000円、誕生日から15日以内申請、6月・10月・2月支給。",
+      "decision": "adopt"
+    },
+    {
+      "municipality": "塙町",
+      "title": "福島県就職氷河期世代雇用促進奨励金",
+      "url": "https://www.town.hanawa.fukushima.jp/page/page001731.html",
+      "reason": "福島県制度案内で、町独自制度ではない。",
+      "decision": "hold"
+    },
+    {
+      "municipality": "塙町",
+      "title": "塙町勤労者互助会会員募集",
+      "url": "https://www.town.hanawa.fukushima.jp/page/page002397.html",
+      "reason": "互助会会員向け福利厚生・貸付事業で、一般公的補助金ページとしては制度対象が限定的。",
+      "decision": "hold"
+    },
+    {
+      "municipality": "鮫川村",
+      "title": "お知らせ一覧・水道料金改定・Go To 等",
+      "url": "複数",
+      "reason": "一覧、旧制度、国制度、料金改定であり、現行村独自の補助金・助成金としての差分が不足。",
+      "decision": "hold"
+    },
+    {
+      "municipality": "玉川村",
+      "title": "移住補助金等支援情報一覧・立地企業従業員定住奨励金旧ページ",
+      "url": "https://www.vill.tamakawa.fukushima.jp/guide/plan/004282.html",
+      "reason": "一覧/既掲載制度への導線または既掲載制度の旧/重複ページ。個別未掲載制度は今回たまかわっ子子育て支援給付金のみ採用。",
+      "decision": "hold"
+    },
+    {
+      "municipality": "石川町",
+      "title": "福島再生加速化交付金・行政情報一覧等",
+      "url": "複数",
+      "reason": "交付金説明、カテゴリ、一覧、または金額・対象・申請受付の制度単位差分不足。",
+      "decision": "hold"
+    }
+  ]
+}

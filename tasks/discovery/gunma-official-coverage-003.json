@@ -1,0 +1,90 @@
+{
+  "batchId": "gunma-comprehensive-official-coverage-003",
+  "prefecture": "群馬県",
+  "completedAt": "2026-07-13",
+  "status": "completed",
+  "municipalities": [
+    {
+      "code": "10208",
+      "name": "渋川市",
+      "officialBaseUrl": "https://www.city.shibukawa.lg.jp/",
+      "adoptedGrantCount": 8,
+      "adoptedSlugs": [
+        "shibukawa-workplace-environment-2026",
+        "shibukawa-new-graduate-retention-2026",
+        "shibukawa-exhibition-support-2026",
+        "shibukawa-factory-location-2026",
+        "shibukawa-startup-challenge-2026",
+        "shibukawa-lively-event-2026",
+        "shibukawa-eco-renovation-2026",
+        "shibukawa-wooden-house-seismic-retrofit-2026"
+      ]
+    },
+    {
+      "code": "10209",
+      "name": "藤岡市",
+      "officialBaseUrl": "https://www.city.fujioka.gunma.jp/",
+      "adoptedGrantCount": 1,
+      "adoptedSlugs": [
+        "fujioka-citizen-voucher-2026"
+      ]
+    },
+    {
+      "code": "10210",
+      "name": "富岡市",
+      "officialBaseUrl": "https://www.city.tomioka.lg.jp/",
+      "adoptedGrantCount": 8,
+      "adoptedSlugs": [
+        "tomioka-hornet-removal-2026",
+        "tomioka-scholarship-repayment-2026",
+        "tomioka-wooden-house-seismic-2026",
+        "tomioka-dangerous-block-wall-removal-2026",
+        "tomioka-vacant-house-demolition-2026",
+        "tomioka-cancer-wig-support-2026",
+        "tomioka-newlywed-life-support-2026",
+        "tomioka-sme-energy-saving-equipment-2026"
+      ]
+    },
+    {
+      "code": "10211",
+      "name": "安中市",
+      "officialBaseUrl": "https://www.city.annaka.lg.jp/",
+      "adoptedGrantCount": 6,
+      "adoptedSlugs": [
+        "annaka-citizen-voucher-2026",
+        "annaka-workplace-environment-2026",
+        "annaka-technology-innovation-challenge-2026",
+        "annaka-voluntary-disaster-org-2026",
+        "annaka-dangerous-block-wall-removal-2026",
+        "annaka-wooden-house-seismic-retrofit-2026"
+      ]
+    }
+  ],
+  "totals": {
+    "candidateCount": 341,
+    "adoptedGrantCount": 23,
+    "municipalityCount": 4
+  },
+  "generatedFiles": [
+    "tasks/discovery/gunma-official-coverage-003-municipalities.json",
+    "tasks/discovery/gunma-official-coverage-003-candidates.json",
+    "tasks/discovery/gunma-official-coverage-003-detail-snippets.json",
+    "tasks/discovery/gunma-official-coverage-003-official-extra.json",
+    "tasks/discovery/gunma-official-coverage-003.json"
+  ],
+  "verification": {
+    "nodeCheck": "pass",
+    "duplicateSlugs": "pass: 23 added slugs, totalSlugs 9736, duplicateCount 0",
+    "officialUrlReachability": "pass: 23/23 HTTP 200",
+    "lint": "pass",
+    "diffCheck": "pass",
+    "auditCoverage": "pass: failures 0, activePublished 10089, officialLinkedActive 10051, manuallyVerifiedActive 10051, 群馬県 localOfficial 124"
+  },
+  "notes": [
+    "制度名・対象・金額/上限・条件・期限/受付状況・公式URLが公式本文で確認できる個別ページのみ採用した。",
+    "渋川市の賃上げ促進支援金は県奨励金の周知ページで市独自上乗せ額が確認できないため採用しない。",
+    "渋川市中小企業退職金共済制度加入促進補助金、富岡市6次産業化等推進補助金、安中市防災士資格取得費補助金は金額表・上限又は掲載粒度を第2巡で確認する。",
+    "トップ、カテゴリ、一覧、共通ナビ一致は第2巡台帳として候補JSONに残す。"
+  ],
+  "next": "群馬県公式棚卸し004として、10212みどり市、10344榛東村、10345吉岡町、10366上野村を自治体コード順に確認する。"
+}

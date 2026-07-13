@@ -1,0 +1,89 @@
+{
+  "batch": "fukushima-second-pass-013",
+  "checkedAt": "2026-07-13T14:29:51+09:00",
+  "targets": [
+    "07522 小野町",
+    "07541 広野町",
+    "07542 楢葉町",
+    "07543 富岡町"
+  ],
+  "method": "第1巡013の保留候補、既存採用URL、公式カテゴリ、個別ページ、制度一覧を再確認し、既掲載URLを除外したうえで、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で揃う候補を採用した。",
+  "summary": {
+    "candidateRowsReviewed": 15,
+    "officialPagesFetched": 10,
+    "adopted": 3,
+    "held": 7
+  },
+  "shortlist": [
+    {
+      "municipality": "小野町",
+      "title": "児童手当制度改正（令和6年10月）について",
+      "url": "https://www.town.ono.fukushima.jp/soshiki/21/jidouteate_seidohenkou.html",
+      "decision": "held",
+      "reason": "既掲載の小野町児童手当・特例給付の制度改正案内で、独立した未掲載制度としては採用しない。"
+    },
+    {
+      "municipality": "小野町",
+      "title": "小野町事業所緊急支援給付金",
+      "url": "https://www.town.ono.fukushima.jp/soshiki/7/covid-19-r4-kakakukoutou_ono-jigyousyo_1.html",
+      "decision": "held",
+      "reason": "申請期間が令和5年7月3日から令和5年8月31日までの過年度給付。"
+    },
+    {
+      "municipality": "小野町",
+      "title": "宝くじ助成金で消防団備品を購入しました",
+      "url": "https://www.town.ono.fukushima.jp/soshiki/5/community_supports.html",
+      "decision": "held",
+      "reason": "助成金活用実績の公表で、住民・事業者向けの申請制度本文ではない。"
+    },
+    {
+      "municipality": "広野町",
+      "title": "乳幼児・児童医療費助成制度のお知らせ",
+      "url": "https://www.town.hirono.fukushima.jp/iryoufukushi/josei/1001917.html",
+      "decision": "held",
+      "reason": "既掲載の広野町乳幼児・児童医療費助成制度と重複する旧導線。"
+    },
+    {
+      "municipality": "広野町",
+      "title": "広野町救急患者受入支援事業等補助金交付実績",
+      "url": "https://www.town.hirono.fukushima.jp/business/iryofukushi/1002695.html",
+      "decision": "held",
+      "reason": "平成29年度等の交付実績ページで、現行の申請制度本文ではない。"
+    },
+    {
+      "municipality": "富岡町",
+      "title": "児童扶養手当について",
+      "url": "https://www.tomioka-town.jp/soshiki/fukushi/1098.html",
+      "decision": "held",
+      "reason": "対象案内はあるが、本文内に支給額・受付状況がなく必須項目不足。"
+    },
+    {
+      "municipality": "富岡町",
+      "title": "予防接種カテゴリ",
+      "url": "https://www.tomioka-town.jp/life/3/16/59/",
+      "decision": "held",
+      "reason": "カテゴリ導線として扱い、個別制度ページを採用対象にした。"
+    },
+    {
+      "municipality": "富岡町",
+      "title": "風しん予防接種の費用を助成します",
+      "url": "https://www.tomioka-town.jp/soshiki/kenkodukuri/8343.html",
+      "decision": "adopted",
+      "reason": "対象、接種費用全額助成、1回限り、接種後申請が公式本文で確認できる。"
+    },
+    {
+      "municipality": "富岡町",
+      "title": "令和8年度高齢者肺炎球菌ワクチン予防接種のお知らせ",
+      "url": "https://www.tomioka-town.jp/soshiki/kenkodukuri/7358.html",
+      "decision": "adopted",
+      "reason": "対象、無料接種、県外避難先等での自己負担発生時の助成申請が公式本文で確認できる。"
+    },
+    {
+      "municipality": "富岡町",
+      "title": "令和8年度帯状疱疹ワクチン予防接種のお知らせ",
+      "url": "https://www.tomioka-town.jp/soshiki/kenkodukuri/9074.html",
+      "decision": "adopted",
+      "reason": "対象、令和8年4月1日から令和9年3月31日まで、自己負担額、県外避難先等での超過分助成が公式本文で確認できる。"
+    }
+  ]
+}

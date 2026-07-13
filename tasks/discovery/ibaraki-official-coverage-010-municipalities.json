@@ -1,0 +1,26 @@
+{
+  "batchId": "ibaraki-comprehensive-official-coverage-010",
+  "prefecture": "茨城県",
+  "municipalities": [
+    {
+      "code": "08341",
+      "name": "東海村",
+      "officialBaseUrl": "https://www.vill.tokai.ibaraki.jp/"
+    },
+    {
+      "code": "08364",
+      "name": "大子町",
+      "officialBaseUrl": "https://www.town.daigo.ibaraki.jp/"
+    },
+    {
+      "code": "08442",
+      "name": "美浦村",
+      "officialBaseUrl": "https://www.vill.miho.lg.jp/"
+    },
+    {
+      "code": "08443",
+      "name": "阿見町",
+      "officialBaseUrl": "https://www.town.ami.lg.jp/"
+    }
+  ]
+}

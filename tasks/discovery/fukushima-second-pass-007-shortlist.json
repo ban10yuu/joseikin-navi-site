@@ -1,0 +1,111 @@
+{
+  "generatedAt": "2026-07-13T13:37:21+09:00",
+  "batch": "fukushima-second-pass-007",
+  "municipalities": [
+    "西会津町",
+    "磐梯町",
+    "猪苗代町",
+    "会津坂下町"
+  ],
+  "count": 14,
+  "results": [
+    {
+      "municipality": "西会津町",
+      "url": "https://www.town.nishiaizu.fukushima.jp/soshiki/2/788.html",
+      "title": "西会津町の支援制度・特典",
+      "priority": "adopt",
+      "reason": "更新日2026年4月1日。結婚祝金、乳幼児家庭子育て応援金、子育て医療費サポート事業の対象・金額を公式本文で確認。"
+    },
+    {
+      "municipality": "磐梯町",
+      "url": "https://www.town.bandai.fukushima.jp/site/kennko-fukushi/donor.html",
+      "title": "磐梯町骨髄等ドナー支援助成金のご案内",
+      "priority": "adopt",
+      "reason": "対象、1日あたり助成額、最大7日、申請期限を公式本文で確認。"
+    },
+    {
+      "municipality": "磐梯町",
+      "url": "https://www.town.bandai.fukushima.jp/site/kosodate-kyoiku/ennpou-ninnpu.html",
+      "title": "磐梯町妊婦にやさしい遠方出産支援事業のお知らせ",
+      "priority": "adopt",
+      "reason": "対象、交通費8割、宿泊費、上限回数・泊数を公式本文で確認。"
+    },
+    {
+      "municipality": "磐梯町",
+      "url": "https://www.town.bandai.fukushima.jp/site/kosodate-kyoiku/053_tanjyou.html",
+      "title": "誕生祝金支給制度",
+      "priority": "adopt",
+      "reason": "第1子・第2子30万円、第3子以降40万円、定住意思・滞納なし要件を公式本文で確認。"
+    },
+    {
+      "municipality": "磐梯町",
+      "url": "https://www.town.bandai.fukushima.jp/site/kosodate-kyoiku/rs-ninpu.html",
+      "title": "RSウイルス感染症予防接種（妊婦向け）のお知らせ",
+      "priority": "adopt",
+      "reason": "妊娠28週0日から36週6日、令和8年4月1日定期接種開始、接種費用無料を公式本文で確認。"
+    },
+    {
+      "municipality": "磐梯町",
+      "url": "https://www.town.bandai.fukushima.jp/site/kosodate-kyoiku/yobosessyu.html",
+      "title": "こどもの予防接種のお知らせ",
+      "priority": "adopt",
+      "reason": "季節性インフルエンザ公費助成の対象、自己負担なし、1人年1回までを公式本文で確認。"
+    },
+    {
+      "municipality": "猪苗代町",
+      "url": "https://www.town.inawashiro.fukushima.jp/site/kosodate/1439.html",
+      "title": "猪苗代町遠方出産助成事業について",
+      "priority": "adopt",
+      "reason": "対象、交通費8割、宿泊費、上限、出産日から1年以内申請を公式本文で確認。"
+    },
+    {
+      "municipality": "猪苗代町",
+      "url": "https://www.town.inawashiro.fukushima.jp/site/kosodate/1211.html",
+      "title": "新生児聴覚検査支援事業のお知らせ",
+      "priority": "adopt",
+      "reason": "新生児聴覚検査費用助成、受検票、県外受検時の扱いを公式本文で確認。"
+    },
+    {
+      "municipality": "会津坂下町",
+      "url": "https://www.town.aizubange.fukushima.jp/soshiki/27/14379.html",
+      "title": "コンポスト・生ごみ処理機等の購入補助金について",
+      "priority": "hold",
+      "reason": "個別PDFで上限確認済みだが、既採用のごみ減量化補助制度と同一制度の詳細証跡のため新規追加しない。"
+    },
+    {
+      "municipality": "会津坂下町",
+      "url": "https://www.town.aizubange.fukushima.jp/uploaded/life/14379_36612_misc.pdf",
+      "title": "生ごみ処理機等の補助金について",
+      "priority": "hold",
+      "reason": "PDF本文で上限4,500円・1万8,000円を確認したが、既採用制度の個別PDFとして扱う。"
+    },
+    {
+      "municipality": "磐梯町",
+      "url": "https://www.town.bandai.fukushima.jp/site/sangyo-shigoto/list60-231.html",
+      "title": "新規就農者向け初期投資経費補助",
+      "priority": "hold",
+      "reason": "一覧から制度名は確認したが、今回取得本文では補助率・上限・受付状況を確認できない。"
+    },
+    {
+      "municipality": "猪苗代町",
+      "url": "https://www.town.inawashiro.fukushima.jp/site/kosodate/1211.html",
+      "title": "新生児聴覚検査支援事業のお知らせ",
+      "priority": "second-pass-note",
+      "reason": "添付Wordの具体額は未展開だが、公式本文で検査費用助成と受検票運用を確認できるため採用。"
+    },
+    {
+      "municipality": "会津坂下町",
+      "url": "https://www.town.aizubange.fukushima.jp/soshiki/40/10275.html",
+      "title": "漏水減免旧URL",
+      "priority": "hold",
+      "reason": "リニューアル後404。現行公式URLと制度単位の金額・受付差分を次巡以降で確認。"
+    },
+    {
+      "municipality": "会津坂下町",
+      "url": "https://www.town.aizubange.fukushima.jp/soshiki/27/165.html",
+      "title": "国民年金免除旧URL",
+      "priority": "hold",
+      "reason": "リニューアル後404。国制度重複候補のため新規追加しない。"
+    }
+  ]
+}

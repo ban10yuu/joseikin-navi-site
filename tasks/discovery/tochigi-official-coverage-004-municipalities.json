@@ -1,0 +1,26 @@
+{
+  "batchId": "tochigi-comprehensive-official-coverage-004",
+  "prefecture": "栃木県",
+  "municipalities": [
+    {
+      "code": "09215",
+      "name": "那須烏山市",
+      "officialBaseUrl": "https://www.city.nasukarasuyama.lg.jp/"
+    },
+    {
+      "code": "09216",
+      "name": "下野市",
+      "officialBaseUrl": "https://www.city.shimotsuke.lg.jp/"
+    },
+    {
+      "code": "09301",
+      "name": "上三川町",
+      "officialBaseUrl": "https://www.town.kaminokawa.lg.jp/"
+    },
+    {
+      "code": "09342",
+      "name": "益子町",
+      "officialBaseUrl": "https://www.town.mashiko.lg.jp/"
+    }
+  ]
+}

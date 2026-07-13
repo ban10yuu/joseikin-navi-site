@@ -1,0 +1,26 @@
+{
+  "batchId": "gunma-comprehensive-official-coverage-001",
+  "prefecture": "群馬県",
+  "municipalities": [
+    {
+      "code": "10000",
+      "name": "群馬県庁",
+      "officialBaseUrl": "https://www.pref.gunma.jp/"
+    },
+    {
+      "code": "10201",
+      "name": "前橋市",
+      "officialBaseUrl": "https://www.city.maebashi.gunma.jp/"
+    },
+    {
+      "code": "10202",
+      "name": "高崎市",
+      "officialBaseUrl": "https://www.city.takasaki.gunma.jp/"
+    },
+    {
+      "code": "10203",
+      "name": "桐生市",
+      "officialBaseUrl": "https://www.city.kiryu.lg.jp/"
+    }
+  ]
+}

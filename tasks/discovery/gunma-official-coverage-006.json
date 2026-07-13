@@ -1,0 +1,102 @@
+{
+  "batchId": "gunma-comprehensive-official-coverage-006",
+  "prefecture": "群馬県",
+  "generatedAt": "2026-07-14T01:00:18+09:00",
+  "headAtStart": "aa5035c",
+  "municipalities": [
+    {
+      "code": "10385",
+      "name": "中之条町",
+      "officialBaseUrl": "https://www.town.nakanojo.gunma.jp/",
+      "adoptedCount": 13
+    },
+    {
+      "code": "10421",
+      "name": "長野原町",
+      "officialBaseUrl": "https://www.town.naganohara.gunma.jp/",
+      "adoptedCount": 14
+    },
+    {
+      "code": "10424",
+      "name": "嬬恋村",
+      "officialBaseUrl": "https://www.vill.tsumagoi.gunma.jp/",
+      "adoptedCount": 4
+    },
+    {
+      "code": "10425",
+      "name": "草津町",
+      "officialBaseUrl": "https://www.town.kusatsu.gunma.jp/",
+      "adoptedCount": 4
+    }
+  ],
+  "discovery": {
+    "candidateCount": 255,
+    "officialExtraLinkCount": 350,
+    "selectedCount": 51,
+    "adoptedCount": 35,
+    "shortlistAdoptionRate": 0.686
+  },
+  "generatedFiles": [
+    "tasks/discovery/gunma-official-coverage-006-municipalities.json",
+    "tasks/discovery/gunma-official-coverage-006-candidates.json",
+    "tasks/discovery/gunma-official-coverage-006-detail-snippets.json",
+    "tasks/discovery/gunma-official-coverage-006-official-extra.json",
+    "tasks/discovery/gunma-official-coverage-006-selected-snippets.json",
+    "tasks/discovery/gunma-official-coverage-006-selected-main.json"
+  ],
+  "adoptedSlugs": [
+    "nakanojo-human-dock-2026",
+    "nakanojo-challenge-shop-2026",
+    "nakanojo-infertility-treatment-2026",
+    "nakanojo-satellite-office-2026",
+    "nakanojo-co-creation-town-2026",
+    "nakanojo-persimmon-tree-cutting-2026",
+    "nakanojo-vacant-house-2026",
+    "nakanojo-eiken-exam-2026",
+    "nakanojo-care-salon-renovation-2026",
+    "nakanojo-home-renovation-2026",
+    "nakanojo-class-reunion-2026",
+    "nakanojo-settlement-home-acquisition-2026",
+    "nakanojo-marriage-new-life-2026",
+    "naganohara-life-support-voucher-2026",
+    "naganohara-mumps-vaccine-2026",
+    "naganohara-town-activation-2026",
+    "naganohara-home-renovation-2026",
+    "naganohara-renewable-energy-2026",
+    "naganohara-birth-incentive-2026",
+    "naganohara-shingles-vaccine-2026",
+    "naganohara-septic-tank-2026",
+    "naganohara-cat-dog-neuter-2026",
+    "naganohara-composter-2026",
+    "naganohara-fraud-phone-2026",
+    "naganohara-childcare-migration-2026",
+    "naganohara-forestry-worker-training-2026",
+    "naganohara-hearing-aid-elderly-2026",
+    "tsumagoi-marriage-new-life-2026",
+    "tsumagoi-fraud-phone-2026",
+    "tsumagoi-cat-dog-neuter-2026",
+    "tsumagoi-vehicle-modification-2026",
+    "kusatsu-wooden-house-seismic-retrofit-2026",
+    "kusatsu-cat-dog-neuter-2026",
+    "kusatsu-vacant-house-demolition-2026",
+    "kusatsu-infertility-treatment-2026"
+  ],
+  "verification": {
+    "nodeCheck": "pass",
+    "duplicateSlugCheck": "pass: total 9844, added 35, duplicateCount 0",
+    "officialUrlReachability": "pass: added 35 URLs all HTTP 200",
+    "targetedLint": "pass",
+    "diffCheck": "pass",
+    "coverageAudit": "pass: failures 0, activePublished 10190, officialLinkedActive 10152, manuallyVerifiedActive 10152, gunmaLocalOfficial 227"
+  },
+  "secondPassNotes": [
+    "中之条町の妊産婦健診等、福祉医療、浄化槽、薪ストーブ等は金額表又は補助粒度の追加確認が必要なため第2巡候補に残す。",
+    "長野原町のインフルエンザ予防接種、起業支援は期間又は金額確認の追加確認が必要なため第2巡候補に残す。",
+    "嬬恋村の浄化槽、人間ドック、介護用車両、生ごみ処理容器、腎臓機能障害者通院交通費、難聴児補聴器、森林等整備、嬬恋高校下宿費は金額・上限又はPDF内容の追加確認が必要なため第2巡候補に残す。",
+    "草津町の出産・子育て応援事業、移住支援金はPDF又は外部制度要綱の金額確認が必要なため第2巡候補に残す。"
+  ],
+  "next": {
+    "batchId": "gunma-comprehensive-official-coverage-007",
+    "municipalityCodes": ["10426", "10428", "10429", "10443"]
+  }
+}

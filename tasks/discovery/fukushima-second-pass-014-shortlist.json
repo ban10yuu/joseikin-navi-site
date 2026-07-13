@@ -1,0 +1,103 @@
+{
+  "batch": "fukushima-second-pass-014",
+  "checkedAt": "2026-07-13T14:39:21+09:00",
+  "targets": [
+    "07544 川内村",
+    "07545 大熊町",
+    "07546 双葉町",
+    "07547 浪江町"
+  ],
+  "method": "第1巡014の保留候補、公式extra、既存採用URL、カテゴリ導線、個別ページを再確認し、既掲載URLを除外したうえで、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で揃う候補を採用した。",
+  "summary": {
+    "candidateRowsReviewed": 114,
+    "officialPagesFetched": 12,
+    "adopted": 6,
+    "held": 6
+  },
+  "shortlist": [
+    {
+      "municipality": "川内村",
+      "title": "子育て応援・用具購入費交付金",
+      "url": "https://www.kawauchimura.jp/kurashi/kosodate-kyoiku/kosodateshien/page000769.html",
+      "decision": "adopted",
+      "reason": "対象、購入費2分の1・上限2万円、購入後申請が公式本文で確認できる。"
+    },
+    {
+      "municipality": "川内村",
+      "title": "来て かわうち住宅取得等支援事業補助金様式PDF群",
+      "url": "https://www.kawauchimura.jp/data/doc/1658808916_doc_41_0.pdf",
+      "decision": "held",
+      "reason": "様式PDFで、第1巡採用済みの住宅取得等支援事業の差分資料として扱う。"
+    },
+    {
+      "municipality": "大熊町",
+      "title": "大熊町住宅清掃補助金の移行について",
+      "url": "https://www.town.okuma.fukushima.jp/soshiki/seikatushien/30091.html",
+      "decision": "held",
+      "reason": "令和6年度で受付終了し、既掲載の住宅取得等支援事業補助金へ移行する案内。"
+    },
+    {
+      "municipality": "大熊町",
+      "title": "生活に関する支援",
+      "url": "https://www.town.okuma.fukushima.jp/site/iju/shien-2.html",
+      "decision": "held",
+      "reason": "複数制度の一覧ページで、既掲載制度を含むカテゴリ導線として扱う。"
+    },
+    {
+      "municipality": "双葉町",
+      "title": "医療費一部負担金等免除証明書について",
+      "url": "https://www.town.fukushima-futaba.lg.jp/item/17330.htm",
+      "decision": "adopted",
+      "reason": "国保・後期高齢者医療加入者向け、免除証明書、有効期限、窓口提示が公式本文で確認できる。"
+    },
+    {
+      "municipality": "双葉町",
+      "title": "双葉町民間賃貸住宅新築等促進事業のお知らせ",
+      "url": "https://www.town.fukushima-futaba.lg.jp/12289.htm",
+      "decision": "adopted",
+      "reason": "対象、用地取得・建設工事補助率、上限、事業着手前相談と着工前申請が公式本文で確認できる。"
+    },
+    {
+      "municipality": "双葉町",
+      "title": "高齢者肺炎球菌ワクチン予防接種について",
+      "url": "https://www.town.fukushima-futaba.lg.jp/10818.htm",
+      "decision": "adopted",
+      "reason": "対象、公費助成無料、接種期間、県外避難先等での助成申請が公式本文で確認できる。"
+    },
+    {
+      "municipality": "双葉町",
+      "title": "令和8年度 高齢者帯状疱疹予防接種のお知らせ",
+      "url": "https://www.town.fukushima-futaba.lg.jp/12246.htm",
+      "decision": "adopted",
+      "reason": "対象、自己負担額、生活保護無料、県外接種時の差額助成が公式本文で確認できる。"
+    },
+    {
+      "municipality": "双葉町",
+      "title": "風しん抗体検査・予防接種費用助成のお知らせ",
+      "url": "https://www.town.fukushima-futaba.lg.jp/6468.htm",
+      "decision": "adopted",
+      "reason": "対象、抗体検査費用全額、接種費用全額、1人1回、申請方法が公式本文で確認できる。"
+    },
+    {
+      "municipality": "双葉町",
+      "title": "特定原子力施設地域振興事業補助金について",
+      "url": "https://www.town.fukushima-futaba.lg.jp/9605.htm",
+      "decision": "held",
+      "reason": "基金造成・公表ページで、住民・事業者向けの個別申請制度本文ではない。"
+    },
+    {
+      "municipality": "双葉町",
+      "title": "駅西住宅入居者募集",
+      "url": "https://www.town.fukushima-futaba.lg.jp/item/17635.htm",
+      "decision": "held",
+      "reason": "住宅入居募集案内で、補助金・助成金等の支給制度ではない。"
+    },
+    {
+      "municipality": "浪江町",
+      "title": "浪江町起業人材支援事業のご案内",
+      "url": "https://www.town.namie.fukushima.jp/soshiki/37/33886.html",
+      "decision": "held",
+      "reason": "無料講座、相談、アクセラレーター等の支援案内が中心で、金額付き給付・補助の個別制度本文ではない。"
+    }
+  ]
+}

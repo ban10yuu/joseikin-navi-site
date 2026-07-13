@@ -1,7 +1,7 @@
 {
   "batchId": "miyagi-comprehensive-official-coverage-second-pass-005",
   "prefecture": "宮城県",
-  "completedAt": "2026-07-12T17:52:00+09:00",
+  "completedAt": "2026-07-13T15:10:33+09:00",
   "sourceFirstPass": "tasks/discovery/miyagi-official-coverage-005.json",
   "municipalities": [
     {
@@ -72,12 +72,12 @@
       "reason": "住宅災害復旧は平成25年3月31日申請期限の東日本大震災対応制度で現行性がなく、耐震改修は公式本文に補助額がなく必須項目未充足。"
     }
   ],
-  "sourceUrlsChecked": 11,
+  "sourceUrlsChecked": 10,
   "validation": {
     "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-    "addedSlugUniqueness": "pass: 11 added slugs each appear once",
-    "urlReachability": "pass: 11制度11URL returned HTTP 200",
-    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8019, officialLinkedActive 7981, manuallyVerifiedActive 7981, Miyagi localOfficial 263",
+    "addedSlugUniqueness": "pass: 11 added slugs each appear once, total slugs 9519, duplicates 0",
+    "urlReachability": "pass: 11制度10URL returned HTTP 200",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9445, officialLinkedActive 9407, manuallyVerifiedActive 9407, Miyagi localOfficial 355, Miyagi coveredCategories 8",
     "diffCheck": "pass: git diff --check for Miyagi second-pass 005 files"
   }
 }

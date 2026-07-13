@@ -1,0 +1,107 @@
+{
+  "generatedAt": "2026-07-13T13:46:51+09:00",
+  "batch": "fukushima-second-pass-008",
+  "municipalities": [
+    "湯川村",
+    "柳津町",
+    "三島町",
+    "金山町"
+  ],
+  "sourceEvidence": {
+    "shortlist": "tasks/discovery/fukushima-second-pass-008-shortlist.json",
+    "pageEvidence": "tasks/discovery/fukushima-second-pass-008-page-evidence.json"
+  },
+  "adoptedCount": 12,
+  "adopted": [
+    {
+      "municipality": "湯川村",
+      "slug": "yugawa-elderly-taxi-bus-ticket-subsidy-2026",
+      "officialUrl": "https://www.vill.yugawa.fukushima.jp/site/fukushi-top/3-2-4.html",
+      "reason": "65歳以上で自動車を運転しない方等、年度1回2万5,000円分相当を公式本文で確認"
+    },
+    {
+      "municipality": "湯川村",
+      "slug": "yugawa-elderly-fuel-cost-subsidy-2026",
+      "officialUrl": "https://www.vill.yugawa.fukushima.jp/site/fukushi-top/3-2-4.html",
+      "reason": "通院・買物等の付き添いガソリン代、年度1回5,000円を公式本文で確認"
+    },
+    {
+      "municipality": "湯川村",
+      "slug": "yugawa-home-caregiver-consolation-grant-2026",
+      "officialUrl": "https://www.vill.yugawa.fukushima.jp/site/fukushi-top/3-2-4.html",
+      "reason": "在宅で寝たきり高齢者を常時介護、月額1万2,500円を公式本文で確認"
+    },
+    {
+      "municipality": "湯川村",
+      "slug": "yugawa-home-care-diaper-voucher-2026",
+      "officialUrl": "https://www.vill.yugawa.fukushima.jp/site/fukushi-top/3-2-4.html",
+      "reason": "年4回、1回6,000円分相当の紙おむつ交換券を公式本文で確認"
+    },
+    {
+      "municipality": "湯川村",
+      "slug": "yugawa-child-medical-expense-subsidy-2026",
+      "officialUrl": "https://www.vill.yugawa.fukushima.jp/site/kurashi-top/kosodate-2-2.html",
+      "reason": "18歳以下医療費無料を公式本文で確認"
+    },
+    {
+      "municipality": "湯川村",
+      "slug": "yugawa-third-child-school-lunch-fee-exemption-2026",
+      "officialUrl": "https://www.vill.yugawa.fukushima.jp/site/kurashi-top/kosodate-2-2.html",
+      "reason": "15歳以下の児童生徒を3人以上養育する場合、第3子以降給食費免除を公式本文で確認"
+    },
+    {
+      "municipality": "湯川村",
+      "slug": "yugawa-maternal-medical-expense-subsidy-2026",
+      "officialUrl": "https://www.vill.yugawa.fukushima.jp/site/kurashi-top/kosodate-2-2.html",
+      "reason": "妊娠5か月から出産月までの妊産婦、入院・外来負担なしを公式本文で確認"
+    },
+    {
+      "municipality": "湯川村",
+      "slug": "yugawa-childbirth-celebration-grant-2026",
+      "officialUrl": "https://www.vill.yugawa.fukushima.jp/site/kurashi-top/kosodate-2-2.html",
+      "reason": "出産祝い金5万円を公式本文で確認"
+    },
+    {
+      "municipality": "湯川村",
+      "slug": "yugawa-elementary-school-entrance-grant-2026",
+      "officialUrl": "https://www.vill.yugawa.fukushima.jp/site/kurashi-top/kosodate-2-2.html",
+      "reason": "小学校入学祝い金5万円を公式本文で確認"
+    },
+    {
+      "municipality": "湯川村",
+      "slug": "yugawa-winter-school-commuting-subsidy-2026",
+      "officialUrl": "https://www.vill.yugawa.fukushima.jp/site/kurashi-top/kosodate-2-2.html",
+      "reason": "冬期間の高校生通学費5,000円×3か月を公式本文で確認"
+    },
+    {
+      "municipality": "柳津町",
+      "slug": "yanaizu-childbirth-celebration-grant-2026",
+      "officialUrl": "https://www.town.yanaizu.fukushima.jp/docs/2026051400024/",
+      "reason": "出産祝金 第1子10万円・第2子20万円・第3子以降30万円と支給要件を公式本文で確認"
+    },
+    {
+      "municipality": "柳津町",
+      "slug": "yanaizu-school-entrance-celebration-grant-2026",
+      "officialUrl": "https://www.town.yanaizu.fukushima.jp/docs/2026051400024/",
+      "reason": "入学祝金 小学校3万円・中学校5万円・高校等10万円と支給要件を公式本文で確認"
+    }
+  ],
+  "held": [
+    {
+      "municipality": "湯川村",
+      "reason": "母子保健PDF群（妊婦支援給付、産後ケア、不妊治療助成）はPDF本文の金額・受付状況未展開。予防接種助成は助成額・上限が本文にないため採用しない。就学援助はPDF未展開、日常生活用具給付は個別金額不足として継続確認。"
+    },
+    {
+      "municipality": "柳津町",
+      "reason": "妊婦支援給付は既掲載の出産・子育て応援給付金と重複扱い。児童手当は国制度、子ども医療費助成は既掲載、未熟児養育医療・ひとり親支援は制度単位の給付範囲・受付差分を次巡確認。"
+    },
+    {
+      "municipality": "三島町",
+      "reason": "医療費助成カテゴリ、ワクチン接種、デマンドバス減免、移住定住一覧、申請書ダウンロード内制度は、今回新規採用に必要な金額・受付差分まで展開できず継続確認。"
+    },
+    {
+      "municipality": "金山町",
+      "reason": "補聴器、未熟児養育医療、予防接種、高齢者福祉の旧URL候補4件は404。児童手当・特別児童扶養手当・児童扶養手当等は国県制度重複候補のため、現行公式URLと町独自差分を次巡で確認。"
+    }
+  ]
+}

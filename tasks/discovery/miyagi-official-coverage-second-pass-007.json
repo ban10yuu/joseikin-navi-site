@@ -1,7 +1,7 @@
 {
   "id": "miyagi-official-coverage-second-pass-007",
   "prefecture": "宮城県",
-  "createdAt": "2026-07-12T16:45:00+09:00",
+  "createdAt": "2026-07-13T15:16:22+09:00",
   "sourceBatch": "miyagi-official-coverage-007",
   "method": "第1巡007の保留候補を、公式本文・公式PDF・公式要綱ページ単位で再確認。利府町・大和町は第1巡候補の旧URL/カテゴリ偏りを、公式ドメイン限定検索と個別ページ取得で補正した。制度名・対象・金額/上限・条件・期限/受付状況が揃うもののみ採用し、総合カテゴリや施設案内は除外した。",
   "municipalities": [
@@ -216,6 +216,13 @@
     "adopted": 25,
     "excluded": 6,
     "sourceUrlsChecked": 30,
-    "notes": "第1巡保留候補を個別制度ページまたは公式PDF/要綱へ展開して採否を確定した。"
+    "validation": {
+      "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+      "addedSlugUniqueness": "pass: 25 added slugs each appear once, total slugs 9519, duplicates 0",
+      "urlReachability": "pass: 25制度30URL returned HTTP 200",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9445, officialLinkedActive 9407, manuallyVerifiedActive 9407, Miyagi localOfficial 355, Miyagi coveredCategories 8",
+      "diffCheck": "pass: git diff --check for Miyagi second-pass 007 files"
+    },
+    "notes": "第1巡保留候補を個別制度ページまたは公式PDF/要綱へ展開して採否を確定し、現行HEADで再検証した。"
   }
 }

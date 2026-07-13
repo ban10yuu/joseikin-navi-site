@@ -1,0 +1,107 @@
+{
+  "batch": "fukushima-second-pass-official-coverage-015",
+  "updatedAt": "2026-07-13T14:55:00+09:00",
+  "targets": [
+    {
+      "code": "07548",
+      "municipality": "葛尾村"
+    },
+    {
+      "code": "07561",
+      "municipality": "新地町"
+    },
+    {
+      "code": "07564",
+      "municipality": "飯舘村"
+    }
+  ],
+  "candidateRowsReviewed": 89,
+  "officialPagesFetched": 12,
+  "selectionPolicy": "第1巡015の保留候補、公式extra、sitemap候補、既掲載officialUrlを除外した未採用URLを再確認し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別ページだけ採用する。カテゴリ、空ページ、外部制度案内、金額未掲載ページ、制度列挙だけのページは第2巡台帳へ残す。",
+  "shortlist": [
+    {
+      "municipality": "葛尾村",
+      "title": "児童手当・児童扶養手当",
+      "url": "https://www.katsurao.org/life/7/37/157/",
+      "status": "held",
+      "reason": "カテゴリページで、本文に現在掲載情報なし。個別制度本文・金額・受付情報を確認できない。"
+    },
+    {
+      "municipality": "葛尾村",
+      "title": "乳幼児・児童医療費助成制度",
+      "url": "https://www.katsurao.org/life/7/37/158/",
+      "status": "held",
+      "reason": "カテゴリページで、本文に現在掲載情報なし。個別制度本文・金額・受付情報を確認できない。"
+    },
+    {
+      "municipality": "葛尾村",
+      "title": "障がい福祉制度のてびき",
+      "url": "https://www.katsurao.org/soshiki/2/197.html",
+      "status": "held",
+      "reason": "手当・医療費・助成等の総合案内で、個別制度ごとの対象・金額・期限が本文で揃わない。"
+    },
+    {
+      "municipality": "新地町",
+      "title": "障害児福祉手当",
+      "url": "https://www.shinchi-town.jp/soshiki/7/syougaizihukushiteate.html",
+      "status": "held",
+      "reason": "対象・申請書類は確認できるが、公式本文に手当額が掲載されていない。"
+    },
+    {
+      "municipality": "新地町",
+      "title": "特別障害者手当",
+      "url": "https://www.shinchi-town.jp/soshiki/7/tokubetsusyougaisyateate.html",
+      "status": "held",
+      "reason": "対象・申請書類は確認できるが、公式本文に手当額が掲載されていない。"
+    },
+    {
+      "municipality": "新地町",
+      "title": "一部負担金等免除",
+      "url": "https://www.shinchi-town.jp/life/1/6/109/",
+      "status": "held",
+      "reason": "カテゴリページで、本文に現在掲載情報なし。"
+    },
+    {
+      "municipality": "新地町",
+      "title": "新規就農者支援",
+      "url": "https://www.shinchi-town.jp/soshiki/8/shuunou.html",
+      "status": "held",
+      "reason": "外部ポータル等の案内中心で、新地町の金額付き補助制度本文ではない。"
+    },
+    {
+      "municipality": "飯舘村",
+      "title": "身体障がい者助成制度",
+      "url": "https://www.vill.iitate.fukushima.jp/soshiki/11/6.html",
+      "status": "held",
+      "reason": "各種医療費補助、補装具給付、自動車免許取得助成等の制度列挙のみで、個別制度の対象・金額・期限が揃わない。"
+    },
+    {
+      "municipality": "飯舘村",
+      "title": "人工透析",
+      "url": "https://www.vill.iitate.fukushima.jp/soshiki/11/8.html",
+      "status": "adopted",
+      "reason": "公式本文に、人工透析について医療費の自己負担分・交通費の助成を受けられること、問い合わせ先が明記されている。"
+    },
+    {
+      "municipality": "飯舘村",
+      "title": "介護保険制度",
+      "url": "https://www.vill.iitate.fukushima.jp/soshiki/11/7.html",
+      "status": "held",
+      "reason": "介護保険の一般説明で、補助金・助成金等の個別給付制度本文ではない。"
+    },
+    {
+      "municipality": "飯舘村",
+      "title": "医療費助成カテゴリ",
+      "url": "https://www.vill.iitate.fukushima.jp/life/2/9/38/",
+      "status": "held",
+      "reason": "カテゴリ導線。風しん、帯状疱疹、おたふくかぜは既掲載、人工透析は個別ページを採用。"
+    },
+    {
+      "municipality": "飯舘村",
+      "title": "障がい者福祉カテゴリ",
+      "url": "https://www.vill.iitate.fukushima.jp/life/2/10/40/",
+      "status": "held",
+      "reason": "カテゴリ導線。身体障がい者助成制度は個別制度列挙のみで保留。"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "batchId": "ibaraki-comprehensive-official-coverage-006",
+  "prefecture": "茨城県",
+  "completedAt": "2026-07-13T19:21:04+0900",
+  "status": "completed",
+  "municipalities": [
+    {
+      "code": "08224",
+      "name": "守谷市",
+      "officialBaseUrl": "https://www.city.moriya.ibaraki.jp/",
+      "adopted": 4,
+      "heldForSecondPass": 12,
+      "notes": "介護人材確保、防犯カメラ、妊婦支援、在宅障がい児手当を採用。児童手当、マル福、カテゴリ導線、商工業支援まとめ等は第2巡へ残した。"
+    },
+    {
+      "code": "08225",
+      "name": "常陸大宮市",
+      "officialBaseUrl": "https://www.city.hitachiomiya.lg.jp/",
+      "adopted": 5,
+      "heldForSecondPass": 8,
+      "notes": "結婚新生活、空き家改修、空き家解体、住宅取得、浄化槽を採用。奨学資金は貸与額の本文抽出不足、まとめページや県制度案内は第2巡へ残した。"
+    },
+    {
+      "code": "08226",
+      "name": "那珂市",
+      "officialBaseUrl": "https://www.city.naka.lg.jp/",
+      "adopted": 6,
+      "heldForSecondPass": 14,
+      "notes": "蓄電システム、危険ブロック塀、木造住宅耐震、自転車ヘルメット、紙おむつ、妊婦支援を採用。検索結果、国年金、県社協貸付、カテゴリ導線は第2巡へ残した。"
+    },
+    {
+      "code": "08227",
+      "name": "筑西市",
+      "officialBaseUrl": "https://www.city.chikusei.lg.jp/",
+      "adopted": 13,
+      "heldForSecondPass": 17,
+      "notes": "住宅リフォーム、要配慮者避難、宿泊避難、防災士、自主防災、排水設備、まちづくり、生ごみ処理機、ごみ集積所、防犯カメラ、自転車ヘルメット、木造住宅耐震、犯罪被害者見舞金を採用。住宅取得奨励金等の金額抽出不足候補、商品券、制度主体整理が必要な候補は第2巡へ残した。"
+    }
+  ],
+  "adoptedTotal": 28,
+  "heldForSecondPassTotal": 51,
+  "excludedTotal": 31,
+  "sourceUrlsChecked": 28,
+  "discovery": {
+    "municipalityFile": "tasks/discovery/ibaraki-official-coverage-006-municipalities.json",
+    "candidateFile": "tasks/discovery/ibaraki-official-coverage-006-candidates.json",
+    "detailSnippetsFile": "tasks/discovery/ibaraki-official-coverage-006-detail-snippets.json",
+    "candidateCount": 1117,
+    "detailSnippetRows": 110,
+    "candidateFileTracked": false
+  },
+  "adoptedSlugs": [
+    "moriya-care-worker-training-subsidy-2026",
+    "moriya-security-camera-subsidy-2026",
+    "moriya-pregnancy-support-benefit-2026",
+    "moriya-home-disabled-child-allowance-2026",
+    "hitachiomiya-newlywed-rent-moving-subsidy-2026",
+    "hitachiomiya-empty-house-renovation-subsidy-2026",
+    "hitachiomiya-empty-house-demolition-subsidy-2026",
+    "hitachiomiya-housing-acquisition-incentive-2026",
+    "hitachiomiya-septic-tank-subsidy-2026",
+    "naka-battery-system-subsidy-2026",
+    "naka-block-wall-removal-subsidy-2026",
+    "naka-wooden-house-seismic-subsidy-2026",
+    "naka-bicycle-helmet-subsidy-2026",
+    "naka-adult-diaper-coupon-2026",
+    "naka-pregnancy-support-benefit-2026",
+    "chikusei-home-renovation-subsidy-2026",
+    "chikusei-water-disaster-evacuation-subsidy-2026",
+    "chikusei-evacuation-hotel-subsidy-2026",
+    "chikusei-disaster-prevention-specialist-subsidy-2026",
+    "chikusei-voluntary-disaster-organization-subsidy-2026",
+    "chikusei-drainage-equipment-subsidy-2026",
+    "chikusei-community-activity-subsidy-2026",
+    "chikusei-compost-equipment-subsidy-2026",
+    "chikusei-garbage-station-subsidy-2026",
+    "chikusei-security-camera-subsidy-2026",
+    "chikusei-bicycle-helmet-subsidy-2026",
+    "chikusei-wooden-house-seismic-retrofit-subsidy-2026",
+    "chikusei-crime-victim-support-benefit-2026"
+  ],
+  "validation": {
+    "slugDuplicateCheck": {
+      "status": "pass",
+      "totalSlugs": 9349,
+      "duplicateCount": 0
+    },
+    "officialUrlReachability": {
+      "status": "pass",
+      "checked": 28,
+      "failures": 0
+    },
+    "lint": "pass",
+    "nodeCheck": "pass",
+    "gitDiffCheck": "pass",
+    "auditCoverage": {
+      "status": "pass",
+      "failures": 0,
+      "activePublished": 9711,
+      "officialLinkedActive": 9673,
+      "manuallyVerifiedActive": 9673,
+      "ibarakiLocalOfficial": 233,
+      "ibarakiLocalManuallyVerified": 233
+    }
+  },
+  "next": {
+    "code": "ibaraki-official-coverage-007",
+    "municipality": "坂東市・稲敷市・かすみがうら市・桜川市",
+    "instructions": "08228坂東市、08229稲敷市、08230かすみがうら市、08231桜川市の公式本文/PDFを自治体コード順に確認する。個別公式ページで制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。"
+  }
+}

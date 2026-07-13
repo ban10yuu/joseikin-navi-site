@@ -1,0 +1,75 @@
+{
+  "generatedAt": "2026-07-13T14:21:21+09:00",
+  "batchId": "fukushima-second-pass-012",
+  "evidence": [
+    {
+      "municipality": "三春町",
+      "url": "https://www.town.miharu.fukushima.jp/soshiki/6/otafuku-rota.html",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "title": "子どもの予防接種おたふくかぜワクチンの助成について",
+      "officialPdf": "https://www.town.miharu.fukushima.jp/soshiki/6/uploads/05_%E4%BB%BB%E6%84%8F%E3%83%81%E3%83%A9%E3%82%B7_1.pdf",
+      "facts": {
+        "target": "三春町に住所を有する満1歳以上小学校就学前の児で、おたふくかぜにり患していない者",
+        "amount": "4,000円、助成は1回のみ",
+        "conditions": "任意予防接種のおたふくかぜワクチン接種費用の一部助成",
+        "application": "三春町・小野町・田村市の医療機関は申請不要。その他医療機関は領収書、母子健康手帳、振込先口座、印鑑を持参して助成金申請書を提出。",
+        "published": "掲載日 2026年05月18日更新"
+      },
+      "decision": "adopt"
+    },
+    {
+      "municipality": "平田村",
+      "url": "https://www.vill.hirata.fukushima.jp/soshiki/5/2397.html",
+      "status": 200,
+      "title": "平田村子育て世帯生活支援給付金のお知らせ",
+      "facts": {
+        "target": "令和5年4月1日現在村内に居住している児童",
+        "amount": "1人あたり20,000円",
+        "published": "更新日 2023年6月23日"
+      },
+      "decision": "hold",
+      "reason": "過年度臨時給付で現行受付制度として扱えない。"
+    },
+    {
+      "municipality": "平田村",
+      "url": "https://www.vill.hirata.fukushima.jp/soshiki/0/2260.html",
+      "status": 200,
+      "title": "子育て世帯生活支援特別給付金のご案内",
+      "decision": "hold",
+      "reason": "国系・過年度の特別給付金案内で、現行村独自制度としての差分不足。"
+    },
+    {
+      "municipality": "平田村",
+      "url": "https://www.vill.hirata.fukushima.jp/soshiki/3/2692.html",
+      "status": 200,
+      "title": "物価高騰対応低所得者支援給付金（追加交付）",
+      "facts": {
+        "amount": "1世帯あたり7万円",
+        "deadline": "令和6年1月31日まで",
+        "published": "更新日 2024年1月5日"
+      },
+      "decision": "hold",
+      "reason": "提出期限終了済みの過年度給付。"
+    },
+    {
+      "municipality": "古殿町",
+      "url": "https://www.town.furudono.fukushima.jp/kurashi/gomi-risaikuru/jyoseijigyou/40",
+      "status": 200,
+      "title": "助成事業について",
+      "facts": {
+        "amount": "収集場所整備は上限30,000円、生ごみ処理容器は上限4,000円、非電動式は上限17,000円、電動式は上限30,000円",
+        "existingSlug": "furudono-living-jyoseijigyou-40-2026"
+      },
+      "decision": "already-adopted"
+    },
+    {
+      "municipality": "古殿町",
+      "url": "https://www.town.furudono.fukushima.jp/tyouseijouhou/hojyojyoseijigyou/",
+      "status": 200,
+      "title": "補助・助成事業一覧",
+      "decision": "hold",
+      "reason": "一覧・カテゴリで、追加採用できる未掲載の個別制度本文を確認できなかった。"
+    }
+  ]
+}

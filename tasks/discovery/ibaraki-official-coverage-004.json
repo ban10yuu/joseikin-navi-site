@@ -1,0 +1,85 @@
+{
+  "batchId": "ibaraki-comprehensive-official-coverage-004",
+  "prefecture": "茨城県",
+  "completedAt": "2026-07-13T18:43:55+09:00",
+  "status": "completed",
+  "municipalities": [
+    {
+      "code": "08215",
+      "name": "北茨城市",
+      "officialBaseUrl": "https://www.city.kitaibaraki.lg.jp/",
+      "adopted": 8,
+      "heldForSecondPass": 4,
+      "notes": "物価高騰給付、水道基本料金減免、耐震、奨学資金、太陽光・蓄電、重点対策加速化、ZEH、高齢者肺炎球菌を採用。カテゴリ導線、保育施設一覧、金額不明又は制度主体整理が必要な候補は第2巡へ残した。"
+    },
+    {
+      "code": "08216",
+      "name": "笠間市",
+      "officialBaseUrl": "https://www.city.kasama.lg.jp/",
+      "adopted": 10,
+      "heldForSecondPass": 6,
+      "notes": "創業支援、わかもの給付、中小企業支援、住宅・店舗リフォーム、移住支援金、子育て応援手当、75歳以上商品券、省エネ家電、空家・空地バンク流通促進、集会所補助を採用。汎用カテゴリ、イベント記事、金額又は受付状況不足候補は第2巡へ残した。"
+    },
+    {
+      "code": "08217",
+      "name": "取手市",
+      "officialBaseUrl": "https://www.city.toride.ibaraki.jp/",
+      "adopted": 3,
+      "heldForSecondPass": 5,
+      "notes": "みんなの補助金、空き店舗活用、省エネ家電買換えを採用。制度一覧ページ、金額詳細が募集要項依存の市民活動補助、現在募集なし又は受付終了候補は第2巡へ残した。"
+    },
+    {
+      "code": "08219",
+      "name": "牛久市",
+      "officialBaseUrl": "https://www.city.ushiku.lg.jp/",
+      "adopted": 6,
+      "heldForSecondPass": 4,
+      "notes": "省エネ家電、生活応援商品券、公共交通利用券、低所得子育て世帯給付、医療機関等物価高騰、介護施設等物価高騰を採用。物価高騰対策まとめページ、PDFのみで個別ページ未確認の候補は第2巡へ残した。"
+    }
+  ],
+  "adoptedTotal": 27,
+  "heldForSecondPassTotal": 19,
+  "excludedTotal": 0,
+  "sourceUrlsChecked": 27,
+  "discovery": {
+    "candidateFile": "tasks/discovery/ibaraki-official-coverage-004-candidates.json",
+    "evidenceSnippetsFile": "tasks/discovery/ibaraki-official-coverage-004-evidence-snippets.json",
+    "detailSnippetsFile": "tasks/discovery/ibaraki-official-coverage-004-detail-snippets.json",
+    "candidateCount": 2298,
+    "detailSnippetRows": 30
+  },
+  "adoptedSlugs": [
+    "kitaibaraki-cash-benefit-2026",
+    "kitaibaraki-water-basic-fee-reduction-2026",
+    "kitaibaraki-seismic-retrofit-subsidy-2026",
+    "kitaibaraki-scholarship-grant-2026",
+    "kitaibaraki-solar-battery-subsidy-2026",
+    "kitaibaraki-self-consumption-solar-subsidy-2026",
+    "kitaibaraki-zeh-subsidy-2026",
+    "kitaibaraki-pneumococcal-vaccine-subsidy-2026",
+    "kasama-startup-support-subsidy-2026",
+    "kasama-young-generation-benefit-2026",
+    "kasama-sme-support-subsidy-2026",
+    "kasama-remodel-subsidy-2026",
+    "kasama-migration-support-grant-2026",
+    "kasama-child-support-benefit-2026",
+    "kasama-premium-voucher-elderly-2026",
+    "kasama-energy-appliance-subsidy-2026",
+    "kasama-vacant-house-flow-subsidy-2026",
+    "kasama-assembly-hall-subsidy-2026",
+    "toride-community-activity-subsidy-2026",
+    "toride-vacant-store-subsidy-2026",
+    "toride-energy-appliance-subsidy-2026",
+    "ushiku-energy-appliance-subsidy-2026",
+    "ushiku-living-support-voucher-2026",
+    "ushiku-public-transport-ticket-2026",
+    "ushiku-low-income-child-benefit-2026",
+    "ushiku-medical-institution-price-subsidy-2026",
+    "ushiku-care-facility-price-subsidy-2026"
+  ],
+  "next": {
+    "code": "ibaraki-official-coverage-005",
+    "municipality": "つくば市・ひたちなか市・鹿嶋市・潮来市",
+    "instructions": "08220つくば市、08221ひたちなか市、08222鹿嶋市、08223潮来市の公式本文/PDFを自治体コード順に確認する。個別公式ページで制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。"
+  }
+}

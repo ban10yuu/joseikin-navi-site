@@ -1,0 +1,96 @@
+{
+  "batchId": "tochigi-comprehensive-official-coverage-001",
+  "completedAt": "2026-07-13T12:22:17.515Z",
+  "municipalities": [
+    {
+      "code": "09201",
+      "name": "宇都宮市",
+      "officialSite": "https://www.city.utsunomiya.lg.jp/",
+      "adopted": 3
+    },
+    {
+      "code": "09202",
+      "name": "足利市",
+      "officialSite": "https://www.city.ashikaga.tochigi.jp/",
+      "adopted": 1,
+      "notes": [
+        "街頭用消火器等購入費助成金は既存URLのため重複追加せず"
+      ]
+    },
+    {
+      "code": "09203",
+      "name": "栃木市",
+      "officialSite": "https://www.city.tochigi.lg.jp/",
+      "adopted": 10,
+      "notes": [
+        "カテゴリ・一覧候補を本文スニペットで再スコアリングし、金額・対象・期限が揃うページを優先"
+      ]
+    },
+    {
+      "code": "09204",
+      "name": "佐野市",
+      "officialSite": "https://www.city.sano.lg.jp/",
+      "adopted": 6,
+      "notes": [
+        "移住支援金は既存制度重複のため追加せず"
+      ]
+    }
+  ],
+  "addedSlugs": [
+    "utsunomiya-waterstop-board-installation-subsidy-2026",
+    "utsunomiya-dangerous-cliff-house-relocation-subsidy-2026",
+    "utsunomiya-disaster-solatium-2026",
+    "ashikaga-emergency-power-equipment-subsidy-2026",
+    "tochigi-iju-housing-acquisition-subsidy-2026",
+    "tochigi-vacant-property-store-opening-subsidy-2026",
+    "tochigi-marukei-loan-interest-subsidy-2026",
+    "tochigi-home-low-carbon-equipment-subsidy-2026",
+    "tochigi-dog-cat-spay-subsidy-2026",
+    "tochigi-business-energy-audit-subsidy-2026",
+    "tochigi-voluntary-disaster-prevention-organization-subsidy-2026",
+    "tochigi-security-camera-installation-subsidy-2026",
+    "tochigi-disaster-damaged-house-repair-subsidy-2026",
+    "tochigi-appearance-care-subsidy-2026",
+    "sano-bone-marrow-donor-support-incentive-2026",
+    "sano-johkasou-installation-subsidy-2026",
+    "sano-appearance-care-subsidy-2026",
+    "sano-local-timber-house-subsidy-2026",
+    "sano-young-cancer-home-care-subsidy-2026",
+    "sano-disabled-person-car-modification-subsidy-2026"
+  ],
+  "officialUrls": [
+    "https://www.city.utsunomiya.lg.jp/kurashi/anshin/bosai/1045688.html",
+    "https://www.city.utsunomiya.lg.jp/kurashi/anshin/bosai/1035949.html",
+    "https://www.city.utsunomiya.lg.jp/kurashi/anshin/bosai/1003256.html",
+    "https://www.city.ashikaga.tochigi.jp/disaster-prevension/000001/p008310.html",
+    "https://www.city.tochigi.lg.jp/site/iju/89064.html",
+    "https://www.city.tochigi.lg.jp/soshiki/32/89128.html",
+    "https://www.city.tochigi.lg.jp/soshiki/32/1051.html",
+    "https://www.city.tochigi.lg.jp/soshiki/22/83728.html",
+    "https://www.city.tochigi.lg.jp/soshiki/22/68843.html",
+    "https://www.city.tochigi.lg.jp/soshiki/22/79652.html",
+    "https://www.city.tochigi.lg.jp/soshiki/12/36580.html",
+    "https://www.city.tochigi.lg.jp/soshiki/20/88850.html",
+    "https://www.city.tochigi.lg.jp/soshiki/12/992.html",
+    "https://www.city.tochigi.lg.jp/soshiki/29/48945.html",
+    "https://www.city.sano.lg.jp/kurashi_gyosei/kenko_fukushi/kenko_iryo_josei/8/7798.html",
+    "https://www.city.sano.lg.jp/soshikiichiran/nourin/kankyoseisakuka/gyomuannai/7/3890.html",
+    "https://www.city.sano.lg.jp/kurashi_gyosei/kenko_fukushi/kenko_iryo_josei/8/18565.html",
+    "https://www.city.sano.lg.jp/soshikiichiran/toshi/kenchikujutakuka/oshirase/21773.html",
+    "https://www.city.sano.lg.jp/kurashi_gyosei/kenko_fukushi/kenko_iryo_josei/8/26142.html",
+    "https://www.city.sano.lg.jp/kurashi_gyosei/kenko_fukushi/kenko_iryo_josei/9/10280.html"
+  ],
+  "candidateFiles": [
+    "tasks/discovery/tochigi-official-coverage-001-municipalities.json",
+    "tasks/discovery/tochigi-official-coverage-001-detail-snippets.json",
+    "tasks/discovery/tochigi-official-coverage-001-deep-links.json",
+    "tasks/discovery/tochigi-official-coverage-001-official-extra.json"
+  ],
+  "discoveredCandidateCount": 1175,
+  "adoptedCount": 20,
+  "skippedAsDuplicate": [
+    "https://www.city.ashikaga.tochigi.jp/disaster-prevension/000001/p006656.html",
+    "https://www.city.sano.lg.jp/ijuteiju/pickup/17804.html"
+  ],
+  "nextStart": "09205 鹿沼市 https://www.city.kanuma.tochigi.jp/"
+}

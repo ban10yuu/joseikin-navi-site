@@ -1,0 +1,26 @@
+{
+  "batchId": "tochigi-comprehensive-official-coverage-002",
+  "prefecture": "栃木県",
+  "municipalities": [
+    {
+      "code": "09205",
+      "name": "鹿沼市",
+      "officialBaseUrl": "https://www.city.kanuma.tochigi.jp/"
+    },
+    {
+      "code": "09206",
+      "name": "日光市",
+      "officialBaseUrl": "https://www.city.nikko.lg.jp/"
+    },
+    {
+      "code": "09208",
+      "name": "小山市",
+      "officialBaseUrl": "https://www.city.oyama.tochigi.jp/"
+    },
+    {
+      "code": "09209",
+      "name": "真岡市",
+      "officialBaseUrl": "https://www.city.moka.lg.jp/"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "batchId": "gunma-comprehensive-official-coverage-001",
+  "prefecture": "群馬県",
+  "generatedAt": "2026-07-13T14:29:54.827Z",
+  "municipalities": [
+    {
+      "code": "10000",
+      "name": "群馬県庁",
+      "officialBaseUrl": "https://www.pref.gunma.jp/",
+      "newGrantCount": 0,
+      "notes": "県庁は公式補助金ポータルを確認。今回の採用は既存掲載済みや事業者募集ページを除外し、第2巡で個別補助金の追加確認へ回す。"
+    },
+    {
+      "code": "10201",
+      "name": "前橋市",
+      "officialBaseUrl": "https://www.city.maebashi.gunma.jp/",
+      "newGrantCount": 9
+    },
+    {
+      "code": "10202",
+      "name": "高崎市",
+      "officialBaseUrl": "https://www.city.takasaki.gunma.jp/",
+      "newGrantCount": 6
+    },
+    {
+      "code": "10203",
+      "name": "桐生市",
+      "officialBaseUrl": "https://www.city.kiryu.lg.jp/",
+      "newGrantCount": 4
+    }
+  ],
+  "discoveryFiles": [
+    "tasks/discovery/gunma-official-coverage-001-municipalities.json",
+    "tasks/discovery/gunma-official-coverage-001-candidates.json",
+    "tasks/discovery/gunma-official-coverage-001-detail-snippets.json",
+    "tasks/discovery/gunma-official-coverage-001-official-extra.json",
+    "tasks/discovery/gunma-official-coverage-001-selected-snippets.json"
+  ],
+  "adopted": [
+    {
+      "municipality": "前橋市",
+      "title": "ごみ減量化器具購入費助成金",
+      "officialUrl": "https://www.city.maebashi.gunma.jp/gyosei/2/5/2/6/19165.html"
+    },
+    {
+      "municipality": "前橋市",
+      "title": "スズメバチの巣駆除費補助金",
+      "officialUrl": "https://www.city.maebashi.gunma.jp/gyosei/2/5/2/6/10550.html"
+    },
+    {
+      "municipality": "前橋市",
+      "title": "商店街リフレッシュ事業補助金",
+      "officialUrl": "https://www.city.maebashi.gunma.jp/gyosei/2/5/2/7/12748.html"
+    },
+    {
+      "municipality": "前橋市",
+      "title": "いきいき・にぎわい商店街支援事業補助金",
+      "officialUrl": "https://www.city.maebashi.gunma.jp/gyosei/2/5/2/7/27684.html"
+    },
+    {
+      "municipality": "前橋市",
+      "title": "経営計画実行補助金",
+      "officialUrl": "https://www.city.maebashi.gunma.jp/gyosei/2/5/2/7/30505.html"
+    },
+    {
+      "municipality": "前橋市",
+      "title": "先進医療不育症検査費用助成事業",
+      "officialUrl": "https://www.city.maebashi.gunma.jp/gyosei/2/5/2/4/37458.html"
+    },
+    {
+      "municipality": "前橋市",
+      "title": "妊婦のための支援給付",
+      "officialUrl": "https://www.city.maebashi.gunma.jp/gyosei/2/5/2/4/47528.html"
+    },
+    {
+      "municipality": "前橋市",
+      "title": "市立小・中学校等学校給食費無償化",
+      "officialUrl": "https://www.city.maebashi.gunma.jp/gyosei/2/5/2/4/48456.html"
+    },
+    {
+      "municipality": "前橋市",
+      "title": "不育症治療費助成事業",
+      "officialUrl": "https://www.city.maebashi.gunma.jp/gyosei/2/5/2/4/19120.html"
+    },
+    {
+      "municipality": "高崎市",
+      "title": "職場環境改善事業補助金",
+      "officialUrl": "https://www.city.takasaki.gunma.jp/site/notice/3370.html"
+    },
+    {
+      "municipality": "高崎市",
+      "title": "6次産業化等推進事業補助金",
+      "officialUrl": "https://www.city.takasaki.gunma.jp/page/3125.html"
+    },
+    {
+      "municipality": "高崎市",
+      "title": "住宅用太陽光発電システム導入補助金",
+      "officialUrl": "https://www.city.takasaki.gunma.jp/page/6849.html"
+    },
+    {
+      "municipality": "高崎市",
+      "title": "住まいの防犯対策補助金",
+      "officialUrl": "https://www.city.takasaki.gunma.jp/page/58170.html"
+    },
+    {
+      "municipality": "高崎市",
+      "title": "高崎市民商品券",
+      "officialUrl": "https://www.city.takasaki.gunma.jp/page/81281.html"
+    },
+    {
+      "municipality": "高崎市",
+      "title": "保育士等家賃補助事業",
+      "officialUrl": "https://www.city.takasaki.gunma.jp/page/6307.html"
+    },
+    {
+      "municipality": "桐生市",
+      "title": "移住者住宅取得助成補助金",
+      "officialUrl": "https://www.city.kiryu.lg.jp/kurashi/jutaku/1018097/1011339/1001137.html"
+    },
+    {
+      "municipality": "桐生市",
+      "title": "新店舗開設促進事業補助金",
+      "officialUrl": "https://www.city.kiryu.lg.jp/sangyou/1018120/hojo/1008687.html"
+    },
+    {
+      "municipality": "桐生市",
+      "title": "小規模企業者省エネルギー設備導入補助",
+      "officialUrl": "https://www.city.kiryu.lg.jp/kurashi/kankyo/1014480/1018543/1018547.html"
+    },
+    {
+      "municipality": "桐生市",
+      "title": "空き家除却助成補助金",
+      "officialUrl": "https://www.city.kiryu.lg.jp/kurashi/jutaku/1018097/1011339/1011234.html"
+    }
+  ],
+  "verification": {
+    "nodeCheck": "pass",
+    "duplicateSlugs": "pass (all 9700 slugs, duplicateCount 0)",
+    "officialUrlReach": "pass (19/19 HTTP 200)",
+    "lint": "pass",
+    "diffCheck": "pass",
+    "auditCoverage": "pass (failures 0, activePublished 10056, officialLinkedActive 10018, manuallyVerifiedActive 10018, 群馬県 localOfficial 91)"
+  },
+  "notes": [
+    "全国公式棚卸しは未完了。既存rawのgap 0やHTTP 200のみでは全国完了扱いしない。",
+    "群馬県庁は補助金ポータルを確認したが、今回の候補は既存掲載済み又は委託・公募型プロポーザル等が多く、新規採用は0件。第2巡で県庁個別補助金を追加確認する。",
+    "前橋市は公式補助金情報等一覧から多数の未掲載候補を確認。金額・対象・受付状況が本文で取れた9件を先行採用し、町内集会施設、農業系、まちなか系、下水道等は第2巡に残す。",
+    "高崎市・桐生市は既存掲載済み制度を除外し、令和8年度更新ページのうち個別制度として金額・対象・期限が確認できたものを採用した。"
+  ],
+  "next": "群馬県公式棚卸し002として、10204伊勢崎市、10205太田市、10206沼田市、10207館林市を自治体コード順に確認する。"
+}

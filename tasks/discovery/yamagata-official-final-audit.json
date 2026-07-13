@@ -1,0 +1,88 @@
+{
+  "batchId": "yamagata-comprehensive-official-final-audit",
+  "generatedAt": "2026-07-13T17:31:00+09:00",
+  "status": "complete",
+  "prefecture": "山形県",
+  "scope": {
+    "municipalityCountIncludingPrefecture": 36,
+    "municipalities": [
+      "山形県庁",
+      "山形市",
+      "米沢市",
+      "鶴岡市",
+      "酒田市",
+      "新庄市",
+      "寒河江市",
+      "上山市",
+      "村山市",
+      "長井市",
+      "天童市",
+      "東根市",
+      "尾花沢市",
+      "南陽市",
+      "山辺町",
+      "中山町",
+      "河北町",
+      "西川町",
+      "朝日町",
+      "大江町",
+      "大石田町",
+      "金山町",
+      "最上町",
+      "舟形町",
+      "真室川町",
+      "大蔵村",
+      "鮭川村",
+      "戸沢村",
+      "高畠町",
+      "川西町",
+      "小国町",
+      "白鷹町",
+      "飯豊町",
+      "三川町",
+      "庄内町",
+      "遊佐町"
+    ]
+  },
+  "sourceBatches": {
+    "firstPass": [
+      "yamagata-official-coverage-001",
+      "yamagata-official-coverage-002",
+      "yamagata-official-coverage-003",
+      "yamagata-official-coverage-004",
+      "yamagata-official-coverage-005",
+      "yamagata-official-coverage-006",
+      "yamagata-official-coverage-007",
+      "yamagata-official-coverage-008",
+      "yamagata-official-coverage-009"
+    ],
+    "secondPass": [
+      "yamagata-official-second-pass-001",
+      "yamagata-official-second-pass-002",
+      "yamagata-official-second-pass-003",
+      "yamagata-official-second-pass-004",
+      "yamagata-official-second-pass-005",
+      "yamagata-official-second-pass-006",
+      "yamagata-official-second-pass-007",
+      "yamagata-official-second-pass-008",
+      "yamagata-official-second-pass-009"
+    ]
+  },
+  "checks": {
+    "municipalityCoverage": "pass: 山形県庁および県内35市町村を第1巡001-009・第2巡001-009で確認",
+    "candidateResolution": "pass: トップ、カテゴリ、国県制度、医療給付、総合案内、受付終了、金額・対象条件不足の候補を不採用又は継続理由付きで解消",
+    "slugUniqueness": "pass: 山形県関連slug 228, duplicate count 0",
+    "coverageAudit": "pass: npm run audit:coverage failures 0, activePublished 9564, officialLinkedActive 9526, manuallyVerifiedActive 9526, Yamagata localOfficial 445, Yamagata coveredCategories 8",
+    "diffCheck": "pass: git diff --check for Yamagata/Fukushima final audit files and checkpoint"
+  },
+  "result": {
+    "localOfficial": 445,
+    "localManuallyVerified": 445,
+    "coveredCategories": 8,
+    "candidateUnresolved": 0
+  },
+  "next": {
+    "code": "fukushima-official-final-audit",
+    "instructions": "福島県第2巡015まで到達済みのため、福島県庁および県内59市町村の採否記録を集計し、候補未判定ゼロの最終監査を行う。"
+  }
+}

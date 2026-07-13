@@ -1,0 +1,135 @@
+{
+  "batchId": "gunma-comprehensive-official-coverage-004",
+  "prefecture": "群馬県",
+  "completedAt": "2026-07-13T23:59:55+09:00",
+  "status": "completed",
+  "municipalities": [
+    {
+      "code": "10212",
+      "name": "みどり市",
+      "officialBaseUrl": "https://www.city.midori.gunma.jp/",
+      "addedGrantCount": 10,
+      "addedSlugs": [
+        "midori-childcare-fee-lunch-free-2026",
+        "midori-childcare-worker-allowance-2026",
+        "midori-childcare-migration-support-2026",
+        "midori-outside-school-lunch-support-2026",
+        "midori-infant-diaper-support-2026",
+        "midori-newborn-hearing-test-2026",
+        "midori-child-support-secure-2026",
+        "midori-newlywed-life-support-2026",
+        "midori-low-income-pregnant-first-visit-2026",
+        "midori-pregnancy-support-benefit-2026"
+      ]
+    },
+    {
+      "code": "10344",
+      "name": "榛東村",
+      "officialBaseUrl": "https://www.vill.shinto.gunma.jp/",
+      "addedGrantCount": 9,
+      "addedSlugs": [
+        "shinto-bus-commuter-pass-2026",
+        "shinto-local-job-student-support-2026",
+        "shinto-anti-fraud-phone-2026",
+        "shinto-school-lunch-free-2026",
+        "shinto-taxi-fare-support-2026",
+        "shinto-cancer-wig-support-2026",
+        "shinto-bone-marrow-donor-2026",
+        "shinto-high-risk-pregnant-taxi-2026",
+        "shinto-home-security-2026"
+      ]
+    },
+    {
+      "code": "10345",
+      "name": "吉岡町",
+      "officialBaseUrl": "https://www.town.yoshioka.lg.jp/",
+      "addedGrantCount": 10,
+      "addedSlugs": [
+        "yoshioka-hornet-removal-2026",
+        "yoshioka-solar-battery-system-2026",
+        "yoshioka-food-waste-processor-2026",
+        "yoshioka-infertility-recurrent-loss-2026",
+        "yoshioka-pregnancy-support-benefit-2026",
+        "yoshioka-septic-tank-2026",
+        "yoshioka-anti-fraud-phone-2026",
+        "yoshioka-block-wall-removal-2026",
+        "yoshioka-vacant-house-demolition-2026",
+        "yoshioka-agricultural-management-2026"
+      ]
+    },
+    {
+      "code": "10366",
+      "name": "上野村",
+      "officialBaseUrl": "https://www.uenomura.jp/",
+      "addedGrantCount": 9,
+      "addedSlugs": [
+        "ueno-infertility-treatment-2026",
+        "ueno-human-brain-dock-2026",
+        "ueno-severe-disability-home-renovation-2026",
+        "ueno-care-vehicle-purchase-2026",
+        "ueno-senior-home-renovation-2026",
+        "ueno-scholarship-2026",
+        "ueno-child-seat-2026",
+        "ueno-overseas-training-2026",
+        "ueno-housing-loan-interest-2026"
+      ]
+    }
+  ],
+  "candidateSummary": {
+    "candidateCount": 312,
+    "shortlistFiles": [
+      "tasks/discovery/gunma-official-coverage-004-detail-snippets.json",
+      "tasks/discovery/gunma-official-coverage-004-official-extra.json",
+      "tasks/discovery/gunma-official-coverage-004-selected-snippets.json",
+      "tasks/discovery/gunma-official-coverage-004-selected-main.json"
+    ],
+    "selectionPolicy": "制度名・対象・金額/上限・条件・期限/受付状況・公式URLが公式本文で確認できる個別ページを採用。トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残して第2巡で扱う。"
+  },
+  "verification": {
+    "nodeCheck": "pass",
+    "duplicateSlugCheck": {
+      "status": "pass",
+      "addedGrantCount": 38,
+      "totalSlugCount": 9774,
+      "duplicateCount": 0
+    },
+    "officialUrlReachability": {
+      "status": "pass",
+      "checked": 38,
+      "ok": 38
+    },
+    "lint": "pass",
+    "gitDiffCheck": "pass",
+    "auditCoverage": {
+      "status": "pass",
+      "failures": 0,
+      "activePublished": 10124,
+      "officialLinkedActive": 10086,
+      "manuallyVerifiedActive": 10086,
+      "gunmaLocalOfficial": 161
+    }
+  },
+  "generatedFiles": [
+    "tasks/discovery/gunma-official-coverage-004-municipalities.json",
+    "tasks/discovery/gunma-official-coverage-004-candidates.json",
+    "tasks/discovery/gunma-official-coverage-004-detail-snippets.json",
+    "tasks/discovery/gunma-official-coverage-004-official-extra.json",
+    "tasks/discovery/gunma-official-coverage-004-selected-snippets.json",
+    "tasks/discovery/gunma-official-coverage-004-selected-main.json",
+    "tasks/discovery/gunma-official-coverage-004.json"
+  ],
+  "nextBatch": {
+    "batchId": "gunma-comprehensive-official-coverage-005",
+    "municipalities": [
+      {"code": "10367", "name": "神流町"},
+      {"code": "10382", "name": "下仁田町"},
+      {"code": "10383", "name": "南牧村"},
+      {"code": "10384", "name": "甘楽町"}
+    ]
+  },
+  "notes": [
+    "吉岡町の公式ドメインは https://www.town.yoshioka.lg.jp/ を正とし、旧ドメインからの遷移を確認した。",
+    "みどり市の不妊治療・不育症治療関連ページは申請期間が2026年1月31日までのため今回のactive追加から除外した。",
+    "上野村の木造住宅耐震診断、浄化槽関連は金額又は補助粒度の確認が不足したため第2巡候補に残す。"
+  ]
+}

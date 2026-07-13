@@ -1,0 +1,121 @@
+{
+  "batchId": "tochigi-comprehensive-official-coverage-006",
+  "completedAt": "2026-07-13T13:40:25.428Z",
+  "prefecture": "栃木県",
+  "status": "completed",
+  "municipalities": [
+    {
+      "code": "09364",
+      "name": "野木町",
+      "adoptedCount": 10,
+      "adoptedSlugs": [
+        "nogi-startup-support",
+        "nogi-home-decarbonization-equipment",
+        "nogi-settlement-home-acquisition",
+        "nogi-flatland-forest-danger-tree",
+        "nogi-block-wall-removal",
+        "nogi-wooden-house-earthquake",
+        "nogi-bicycle-helmet",
+        "nogi-home-crime-prevention",
+        "nogi-local-employment-support",
+        "nogi-gcf-support"
+      ]
+    },
+    {
+      "code": "09384",
+      "name": "塩谷町",
+      "adoptedCount": 8,
+      "adoptedSlugs": [
+        "shioya-pregnant-women-benefit",
+        "shioya-home-renovation",
+        "shioya-vacant-house-demolition",
+        "shioya-high-school-commuting",
+        "shioya-local-10000-project",
+        "shioya-community-hall",
+        "shioya-child-medical",
+        "shioya-infertility-leave-incentive"
+      ]
+    },
+    {
+      "code": "09386",
+      "name": "高根沢町",
+      "adoptedCount": 9,
+      "adoptedSlugs": [
+        "takanezawa-crime-victim-condolence",
+        "takanezawa-newlywed-life",
+        "takanezawa-home-decarbonization",
+        "takanezawa-enterprise-location",
+        "takanezawa-business-decarbonization",
+        "takanezawa-vacant-house-demolition",
+        "takanezawa-child-medical",
+        "takanezawa-single-parent-medical",
+        "takanezawa-voluntary-disaster-organization"
+      ]
+    },
+    {
+      "code": "09407",
+      "name": "那須町",
+      "adoptedCount": 3,
+      "adoptedSlugs": [
+        "nasu-migration-support",
+        "nasu-regional-coupon-2026",
+        "nasu-ashino-stone-use-promotion"
+      ]
+    }
+  ],
+  "discoveredCandidates": 494,
+  "fetchedOfficialPages": 35,
+  "adoptedTotal": 30,
+  "generatedFiles": [
+    "tasks/discovery/tochigi-official-coverage-006-municipalities.json",
+    "tasks/discovery/tochigi-official-coverage-006-candidates.json",
+    "tasks/discovery/tochigi-official-coverage-006-detail-snippets.json",
+    "tasks/discovery/tochigi-official-coverage-006-official-extra.json",
+    "tasks/discovery/tochigi-official-coverage-006.json"
+  ],
+  "validation": {
+    "nodeCheck": "pass",
+    "duplicateSlug": "pass (30件、全9649slugでduplicateCount 0)",
+    "officialUrlReach": "pass (30件すべてHTTP 200)",
+    "lint": "pass",
+    "gitDiffCheck": "pass",
+    "auditCoverage": "pass (failures 0、activePublished 10009、officialLinkedActive 9971、manuallyVerifiedActive 9971、栃木県 localOfficial 273)"
+  },
+  "secondPass": [
+    {
+      "municipality": "野木町",
+      "items": [
+        "定額減税調整給付金（不足額給付分）は申請期間終了のため第2巡で期限切れ表示粒度を判定",
+        "水道基本料金70%減免は自動減免で個別申請制度ではないため掲載粒度を第2巡で整理"
+      ]
+    },
+    {
+      "municipality": "塩谷町",
+      "items": [
+        "家庭用ゼロカーボン推進事業費補助金はHTML本文で設備別補助額表の抽出が不足したため添付PDF/表を第2巡で確認"
+      ]
+    },
+    {
+      "municipality": "高根沢町",
+      "items": [
+        "園芸作物推進支援事業費補助事業は令和8年度予算到達で現在申請受付停止のため、再開状況を第2巡で確認"
+      ]
+    },
+    {
+      "municipality": "那須町",
+      "items": [
+        "移住・定住助成一覧ページは個別制度URLではないため台帳に残し、一覧内の他制度は第2巡で個別ページ確認"
+      ]
+    }
+  ],
+  "next": {
+    "prefecture": "栃木県",
+    "municipalities": [
+      {
+        "code": "09411",
+        "name": "那珂川町"
+      }
+    ],
+    "note": "栃木県町村の残地点。全国公式棚卸しは未完了。"
+  }
+}

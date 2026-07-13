@@ -3574,9 +3574,9 @@
     - 気仙沼市の空き家の手引き、白石市の子どもの居場所づくり支援・商工業カテゴリ、名取市カテゴリページ、角田市マル経利子助成候補は、個別制度本文・金額/上限・申請条件を公式ページ単位で確認できないため採用しない。
   - 検証:
     - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
-    - slug重複確認: total 8019、duplicates 0。
+    - slug重複確認: total 9519、duplicates 0。
     - 6制度6URLの公式URL到達確認: HTTP 200。
-    - `npm run audit:coverage`: pass（failures 0、activePublished 7973、officialLinkedActive 7935、manuallyVerifiedActive 7935、宮城県 localOfficial 217）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9445、officialLinkedActive 9407、manuallyVerifiedActive 9407、宮城県 localOfficial 355、宮城県 coveredCategories 8）。
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-second-pass-002.json`: pass。
   - 次:
     - 宮城県公式棚卸し第2巡003として、多賀城市の介護保険料減免・新入学用品費、岩沼市の児童扶養手当・犯罪被害者等支援金・小学校等入学祝金、登米市のビジネスチャンス支援・不妊検査費等、栗原市の危険ブロック塀除却・水洗化・防犯・移住定住カテゴリ候補を確認する。
@@ -3598,9 +3598,9 @@
     - 栗原市の補助金カテゴリ、移住定住カテゴリ、農業補助カテゴリ、米現物支援の移住定住サポート事業は今回の公式ページ単位採用対象外。
   - 検証:
     - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
-    - slug重複確認: total 8035、duplicates 0。
-    - 16制度16URLの公式URL到達確認: HTTP 200。
-    - `npm run audit:coverage`: pass（failures 0、activePublished 7988、officialLinkedActive 7950、manuallyVerifiedActive 7950、宮城県 localOfficial 232）。
+    - slug重複確認: total 9519、duplicates 0。
+    - 16制度14公式URLの公式URL到達確認: HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9445、officialLinkedActive 9407、manuallyVerifiedActive 9407、宮城県 localOfficial 355、宮城県 coveredCategories 8）。
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-second-pass-003.json`: pass。
   - 次:
     - 宮城県公式棚卸し第2巡004として、東松島市・大崎市・蔵王町・七ヶ宿町の第1巡保留候補を確認する。
@@ -3622,9 +3622,9 @@
     - 七ヶ宿町の住宅助成は助成額表を公式本文/PDFから取得できず、補装具費・日常生活用具は利用者負担案内中心。児童手当・出産育児一時金は国制度扱いとして今回追加しない。
   - 検証:
     - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
-    - slug重複確認: total 8055、duplicates 0。
-    - 20制度21URLの公式URL到達確認: HTTP 200。
-    - `npm run audit:coverage`: pass（failures 0、activePublished 8008、officialLinkedActive 7970、manuallyVerifiedActive 7970、宮城県 localOfficial 252）。
+    - slug重複確認: total 9519、duplicates 0。
+    - 20制度18公式URLの公式URL到達確認: HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9445、officialLinkedActive 9407、manuallyVerifiedActive 9407、宮城県 localOfficial 355、宮城県 coveredCategories 8）。
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-second-pass-004.json`: pass。
   - 次:
     - 宮城県公式棚卸し第2巡005として、大河原町・村田町・柴田町・川崎町の第1巡保留候補を確認する。
@@ -3715,9 +3715,9 @@
     - 川崎町の住宅災害復旧は東日本大震災対応で申請期限が平成25年3月31日、耐震改修は公式本文に補助額がなく必須項目を満たさないため採用しない。
   - 検証:
     - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
-    - 追加11slug一意確認: pass。
-    - 11制度11URLの公式URL到達確認: HTTP 200。
-    - `npm run audit:coverage`: pass（failures 0、activePublished 8019、officialLinkedActive 7981、manuallyVerifiedActive 7981、宮城県 localOfficial 263）。
+    - 追加11slug一意確認: pass（総slug 9519、重複0）。
+    - 11制度10URLの公式URL到達確認: HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9445、officialLinkedActive 9407、manuallyVerifiedActive 9407、宮城県 localOfficial 355、宮城県 coveredCategories 8）。
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-second-pass-005.json`: pass。
   - 次:
     - 宮城県公式棚卸し第2巡006として、丸森町・亘理町・山元町・松島町の第1巡保留候補を確認する。
@@ -3738,9 +3738,9 @@
     - 松島町の高齢者福祉サービスは複数サービスの総合案内、幼児教育・保育無償化は国制度案内中心、児童館は施設案内、企業誘致情報・移住定住ポータルはカテゴリ/誘導ページのため採用しない。
   - 検証:
     - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
-    - 追加26slug一意確認: pass。
+    - 追加26slug一意確認: pass（総slug 9519、重複0）。
     - 26制度31URLの公式URL到達確認: HTTP 200。
-    - `npm run audit:coverage`: pass（failures 0、activePublished 8045、officialLinkedActive 8007、manuallyVerifiedActive 8007、宮城県 localOfficial 289）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9445、officialLinkedActive 9407、manuallyVerifiedActive 9407、宮城県 localOfficial 355、宮城県 coveredCategories 8）。
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-second-pass-006.json`: pass。
   - 次:
     - 宮城県公式棚卸し第2巡007として、七ヶ浜町・利府町・大和町・大郷町の第1巡保留候補を確認する。
@@ -3807,9 +3807,9 @@
     - 大郷町の空き家バンク情報ページは制度本体ページと公式案内PDFを採用したため、誘導ページ自体は採用しない。
   - 検証:
     - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
-    - 追加25slug一意確認: pass。
+    - 追加25slug一意確認: pass（総slug 9519、重複0）。
     - 25制度30URLの公式URL到達確認: 全件HTTP 200。
-    - `npm run audit:coverage`: pass（failures 0、activePublished 8068、officialLinkedActive 8030、manuallyVerifiedActive 8030、宮城県 localOfficial 312）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9445、officialLinkedActive 9407、manuallyVerifiedActive 9407、宮城県 localOfficial 355、宮城県 coveredCategories 8）。
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-second-pass-007.json`: pass。
   - 次:
     - 宮城県公式棚卸し第2巡008として、04424大衡村、04444色麻町、04445加美町、04501涌谷町の第1巡保留候補を確認する。
@@ -3852,9 +3852,9 @@
     - 涌谷町の農林業者への資金繰り支援策は2020年更新のコロナ関連資金案内、雇用調整助成金案内は国制度周知、傷病手当金は過年度案内、生ごみ処理機購入助成はカテゴリ導線のみで金額確認不足のため採用しない。
   - 検証:
     - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
-    - 追加23slug一意確認: pass。
+    - 追加23slug一意確認: pass（総slug 9519、重複0）。
     - 23制度23URLの公式URL到達確認: 全件HTTP 200。
-    - `npm run audit:coverage`: pass（failures 0、activePublished 8089、officialLinkedActive 8051、manuallyVerifiedActive 8051、宮城県 localOfficial 333）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9445、officialLinkedActive 9407、manuallyVerifiedActive 9407、宮城県 localOfficial 355、宮城県 coveredCategories 8）。
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-second-pass-008.json`: pass。
   - 次:
     - 宮城県公式棚卸し第2巡009として、04505美里町、04581女川町、04606南三陸町の第1巡保留候補を確認する。
@@ -3874,9 +3874,9 @@
     - 南三陸町の移住者家賃助成、マイホーム取得、不妊検査・治療、労働力確保、就労奨励金は第1巡009で既採用のため重複採用しない。子育て・教育、保険医療、住まい等のカテゴリページ、教育支援センター、母子健康手帳交付、新生児訪問等の案内ページは補助金等の個別制度ページとして採用しない。
   - 検証:
     - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
-    - 追加24slug一意確認: pass。
+    - 追加24slug一意確認: pass（総slug 9519、重複0）。
     - 24制度24URLの公式URL到達確認: 全件HTTP 200。
-    - `npm run audit:coverage`: pass（failures 0、activePublished 8111、officialLinkedActive 8073、manuallyVerifiedActive 8073、宮城県 localOfficial 355）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9445、officialLinkedActive 9407、manuallyVerifiedActive 9407、宮城県 localOfficial 355、宮城県 coveredCategories 8）。
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-second-pass-009.json`: pass。
   - 次:
     - 宮城県第1巡・第2巡の採否記録を集計し、候補未判定ゼロの最終監査を行う。
@@ -3891,7 +3891,7 @@
   - 結果:
     - 宮城県 localOfficial 355、localManuallyVerified 355、coveredCategories 8。
     - 宮城県slug重複 0。
-    - coverage audit failures 0、activePublished 8111、officialLinkedActive 8073、manuallyVerifiedActive 8073。
+    - coverage audit failures 0、activePublished 9445、officialLinkedActive 9407、manuallyVerifiedActive 9407。
     - 宮城県内の候補未判定は0件として、県単位の公式棚卸しを完了扱いにする。
   - 注意:
     - 全国公式棚卸しは未完了。raw gap 0やHTTP 200のみを全国完了扱いしない。
@@ -4461,7 +4461,78 @@
     - `npm run audit:coverage`: pass（failures 0、activePublished 8599、officialLinkedActive 8561、manuallyVerifiedActive 8561、山形県 `localOfficial` 326、山形県 `coveredCategories` 8）。
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-coverage-009-municipalities.json tasks/discovery/yamagata-official-coverage-009-candidates.json tasks/discovery/yamagata-official-coverage-009-snippets.json tasks/discovery/yamagata-official-coverage-009-details.json tasks/discovery/yamagata-official-coverage-009.json`: pass。
   - 次:
-    - 山形県第1巡は自治体コード順の末尾まで到達。次は福島県公式棚卸し001として、07201福島市、07202会津若松市、07203郡山市、07204いわき市を確認する。
+    - 山形県第1巡は自治体コード順の末尾まで到達。次は山形県第2巡台帳の未判定候補を、山形県庁・山形市・米沢市・鶴岡市から公式本文/PDFで確認する。
+
+- 山形県公式棚卸し第2巡001（山形県庁・山形市・米沢市・鶴岡市）
+  - 対象: 06000山形県庁、06201山形市、06202米沢市、06203鶴岡市。
+  - 方法:
+    - 第1巡001の保留候補、`tasks/discovery/yamagata-official-coverage-001.json`、`tasks/discovery/yamagata-official-coverage-001-snippets.json`、公式個別ページ・カテゴリ導線を照合した。
+    - 既掲載公式URLと県・国制度重複を除外し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別ページだけを採用した。
+    - 山形県庁は既存移住支援金・カテゴリ導線中心、米沢市は国県制度・医療/介護/障害福祉給付との切り分け中心のため新規追加なし。
+  - 追加:
+    - 山形市: 身体障がい者用自動車改造費助成、重度身体障がい者介護用車両改造費の助成、身体障がい者運転免許取得費の助成、里帰り等妊婦健康診査補助金。
+    - 鶴岡市: 飼い主のいない猫の不妊去勢手術費用補助金、外国人労働者住宅整備支援補助金、新規創業等支援補助金（事業構想等事業化型）、新規創業等支援補助金（新規創業・移住開業型）、オンライン採用活動支援事業補助金、正社員化促進事業奨励金。
+  - 保留解消:
+    - 山形県庁の移住支援金は既存公式確認済みのため重複採用せず、県公式カテゴリ・新着・助成支援一覧は個別制度本文ではないため不採用。
+    - 山形市の児童手当・特別児童扶養手当・年金給付金等は国制度、国保税・固定資産税・軽自動車税減免は通常税制/保険料制度として不採用。
+    - 米沢市の児童扶養手当・ひとり親家庭等医療給付・福祉用具購入支給等は国県制度・医療給付・介護給付・障害福祉給付中心で新規採用なし。
+    - 鶴岡市の地方就職支援金・つるおかエール奨学金返済支援は第1巡採用済み、定額減税調整給付金・不足額給付・店舗賃料緊急支援事業は受付終了又は過年度のため不採用。中心市街地賑わいイベント支援・空き店舗解消リフォームは個別ページ本文の完全確認を後続に残す。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 10件、重複0。
+    - 追加した10制度10公式URLはすべて HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9455、officialLinkedActive 9417、manuallyVerifiedActive 9417、山形県 `localOfficial` 336、山形県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-second-pass-001.json`: pass。
+  - 次:
+    - 山形県第2巡002として、06204酒田市、06205新庄市、06206寒河江市、06207上山市の第1巡保留候補を公式本文/PDFで確認する。
+
+- 山形県公式棚卸し第2巡002（酒田市・新庄市・寒河江市・上山市）
+  - 対象: 06204酒田市、06205新庄市、06206寒河江市、06207上山市。
+  - 方法:
+    - 第1巡002の採用済み・保留候補、`tasks/discovery/yamagata-official-coverage-002.json`、スニペット再スコアリング結果、公式個別ページを照合した。
+    - 既掲載公式URL、県・国制度重複、税減免・相談・カテゴリ導線を除外し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別ページだけ採用した。
+    - 酒田市は第1巡採用済み重複と災害・税減免・相談・一覧導線中心のため新規追加なし。
+  - 追加:
+    - 新庄市: 自転車ヘルメット購入事業費補助金、若者創業応援事業補助金、不要果樹伐採支援事業補助金。
+    - 寒河江市: 私道整備費補助金、移住支援金、地域コミュニティ活性化推進事業補助金、スポーツ大会・合宿等誘致推進事業費補助金、ふるさと工芸品支援事業費補助金。
+    - 上山市: 高齢者等除雪費支給事業、集団資源回収運動報奨金、生ごみ処理容器・電気式生ごみ処理機購入費補助金、がん患者医療用ウイッグ・乳房補整具購入費助成、妊婦・パートナー歯科健康診査費用補助、風しん抗体検査・予防接種費用助成、かみのやま6次産業化推進事業補助金、創業支援事業補助金、空き店舗等リノベーション支援事業補助金。
+  - 保留解消:
+    - 新庄市の老朽危険空き家等除却支援事業補助金は補助率・上限額を確認したが今年度受付終了のため現行申請可能制度として採用しない。400年記念事業提案補助金、定額減税不足額給付等は受付終了又は過年度給付として不採用。
+    - 寒河江市の地域防災力強化支援事業費補助金は対象・上限額を確認したが、公式要綱が令和7年度中心で令和8年度現行制度としての確認が弱いため次巡候補に残す。
+    - 上山市の高齢者紙おむつ・訪問理美容・移送サービス等は公式本文で金額/上限又は給付額が確定できないものを保留し、除雪費支給のみ採用した。省エネ家電買い換え促進事業は受付状況ページのみで制度本文が確認できず、`shoene.html` は生ごみ処理容器等の補助として採用した。
+    - 上山市の令和8年度山形のうまいもの創造支援事業は県事業への外部リンク周知で、市公式本文だけでは上限額確認が不足するため採用しない。第1巡採用済みの新婚生活、妊婦応援、不育症、重粒子線、奨学金等は重複追加しない。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 17件、重複0。
+    - 追加した17制度17公式URLはすべて HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9472、officialLinkedActive 9434、manuallyVerifiedActive 9434、山形県 `localOfficial` 353、山形県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-second-pass-002.json`: pass。
+  - 次:
+    - 山形県第2巡003として、06208村山市、06209長井市、06210天童市、06211東根市の第1巡保留候補を公式本文/PDFで確認する。
+
+- 山形県公式棚卸し第2巡003（村山市・長井市・天童市・東根市）
+  - 対象: 06208村山市、06209長井市、06210天童市、06211東根市。
+  - 方法:
+    - 第1巡003の採用済み・保留候補、`tasks/discovery/yamagata-official-coverage-003.json`、スニペット再スコアリング結果、公式個別ページを照合した。
+    - 既掲載公式URL、県・国制度重複、旧URL404、カテゴリ導線、金額不明のサービス案内を除外し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別ページだけ採用した。
+  - 追加:
+    - 村山市: 家賃補助（市外からの転居世帯向け）、資格や免許の取得に対する助成、浄化槽設置整備事業補助金、企業除雪機購入費補助金。
+    - 長井市: 特定空家除却補助金、ながいコイン物価高騰対策第4弾。
+    - 天童市: 届出保育施設等子育て支援事業費補助金、電気式生ごみ処理機・ごみ集積所整備補助金。
+    - 東根市: 家族介護用品支給事業、不妊治療（先進医療）費用助成事業、子育て支援医療給付制度。
+  - 保留解消:
+    - 村山市の中心市街地補助、ブロック塀、がけ地、耐震、老朽危険空き家、資源回収の旧候補URLはHTTP 404で現行個別制度本文に到達できなかったため、サイト内検索・現行URL確認を後続候補に残す。子育てスマイルプロジェクト等の一覧は個別制度本文ではない。
+    - 長井市の地域脱炭素プラン推進事業費補助金、起業・創業支援事業補助金は第1巡で公式確認済みのため重複追加しない。カテゴリ、募集一覧、通常行政手続は採用しない。
+    - 天童市の奨学金返還支援、婚活、除雪、高齢者支援、介護職員支援、ペレット・太陽光・商工業支援の旧候補URLはHTTP 404。観光・誘客支援、商工・農業支援のPDF候補は公式HTML本文だけでは金額/上限と受付状況が揃わないため後続候補に残す。
+    - 東根市のおでかけさぽーとタクシー、高齢者移動サービス、産前産後ヘルパー派遣は対象とサービス内容を確認したが、公式本文だけでは補助額/上限額又は市負担額が確定しないため採用しない。山形空港利用助成、ひとり親家庭の福祉は総合案内又は複数制度ページとして保留。奨学金返還支援、移住生活応援、結婚新生活支援等は第1巡採用済み重複。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 11件、重複0。
+    - 追加した11制度11公式URLはすべて HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9483、officialLinkedActive 9445、manuallyVerifiedActive 9445、山形県 `localOfficial` 364、山形県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-second-pass-003.json`: pass。
+  - 次:
+    - 山形県第2巡004として、06212尾花沢市、06213南陽市、06301山辺町、06302中山町の第1巡保留候補を公式本文/PDFで確認する。
 
 - 福島県公式棚卸し001（福島市・会津若松市・郡山市・いわき市）
   - 対象: 07201福島市、07202会津若松市、07203郡山市、07204いわき市。
@@ -4952,6 +5023,234 @@
   - 次:
     - 福島県第2巡006として、07364檜枝岐村、07367只見町、07368南会津町、07402北塩原村の保留候補を確認する。
 
+- 福島県公式棚卸し第2巡006（檜枝岐村・只見町・南会津町・北塩原村）
+  - 対象: 07364檜枝岐村、07367只見町、07368南会津町、07402北塩原村。
+  - 方法:
+    - 第1巡006の保留候補、既存候補JSON、公式本文、PDF証跡、更新後URLを再確認した。
+    - 既掲載 `officialUrl` を除外し、公式本文/PDFを再取得して `tasks/discovery/fukushima-second-pass-006-shortlist.json` 37件、`tasks/discovery/fukushima-second-pass-006-page-evidence.json` 43件、`tasks/discovery/fukushima-second-pass-006-adopted.json` を作成した。
+    - title/h1/main/article/URLの制度強語に加え、対象・金額/上限・条件・期限/受付状況が公式本文またはPDFで確認できる個別ページを優先し、年度終了、制度分離未確定、国制度重複、案内のみの候補は第2巡継続台帳へ残した。
+  - 追加:
+    - 南会津町: 新規就農者雇用促進事業、新規就農者支援事業、農業等振興事業補助金、新婚生活エール事業、不妊・不育治療費助成事業、妊娠・出産21プロジェクト事業、妊産婦医療費助成制度、妊産婦出産時交通費等支援事業、パパママ応援交付金事業、子育て世帯訪問支援事業、遺児激励金、保育所入所応援助成事業、障がい児通院通所交通費助成事業。
+    - 北塩原村: 妊婦にやさしい出産時移動支援事業、初回産科受診料支援事業、産後ケア事業、就学援助制度、ひとり親家庭医療費助成。
+  - 保留継続:
+    - 檜枝岐村の結婚新生活支援事業補助金は、公式本文・PDFで対象と上限60万円を確認したが、PDF記載の申請期間が令和7年3月31日までで、令和8年度受付状況が確認できないため採用しなかった。
+    - 只見町の新規就農ページ内の研修・農地賃借・県補助上乗せは、第1巡で新規就農者初期経費支援を採用済みで、今回取得本文だけでは制度単位の金額・受付差分が分離しきれないため継続確認とした。
+    - 南会津町の各種児童手当は国制度重複のため採用しなかった。子育て支援一覧・ガイドブック内の相談、貸出、施設利用案内は金銭給付・補助制度でないため採用しなかった。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 18件、重複0。
+    - 追加した18制度18公式URLはすべて HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9394、officialLinkedActive 9356、manuallyVerifiedActive 9356、福島県 `localOfficial` 872、福島県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-second-pass-006-shortlist.json tasks/discovery/fukushima-second-pass-006-page-evidence.json tasks/discovery/fukushima-second-pass-006-adopted.json`: pass。
+  - 次:
+    - 福島県第2巡007として、07405西会津町、07407磐梯町、07408猪苗代町、07421会津坂下町の保留候補を確認する。
+
+- 福島県公式棚卸し第2巡007（西会津町・磐梯町・猪苗代町・会津坂下町）
+  - 対象: 07405西会津町、07407磐梯町、07408猪苗代町、07421会津坂下町。
+  - 方法:
+    - 第1巡007の保留候補、既存候補JSON、公式本文、PDF証跡、更新後URLを再確認した。
+    - 既掲載 `officialUrl` を除外し、公式本文/PDFを再取得して `tasks/discovery/fukushima-second-pass-007-shortlist.json` 14件、`tasks/discovery/fukushima-second-pass-007-page-evidence.json` 20件、`tasks/discovery/fukushima-second-pass-007-adopted.json` を作成した。
+    - title/h1/main/article/URLの制度強語に加え、対象・金額/上限・条件・期限/受付状況が公式本文またはPDFで確認できる個別ページを優先し、制度分離未確定、国県制度重複、既採用制度の詳細PDF、404旧URLは第2巡継続台帳へ残した。
+  - 追加:
+    - 西会津町: 結婚祝金、乳幼児家庭子育て応援金、子育て医療費サポート事業。
+    - 磐梯町: 骨髄等ドナー支援助成金、妊婦にやさしい遠方出産支援事業、誕生入学祝金支給制度、RSウイルス感染症予防接種（妊婦向け）、季節性インフルエンザ予防接種公費助成。
+    - 猪苗代町: 遠方出産助成事業、新生児聴覚検査支援事業。
+  - 保留継続:
+    - 西会津町の農業者応援チラシPDFは今回未展開。インフルエンザワクチン接種費助成は公式本文で無料と確認したが、予防接種の詳細ページ・年度受付差分を次巡で確認する。
+    - 磐梯町の新規就農者向け初期投資経費補助は一覧から制度名を確認したが、今回取得本文では補助率・上限・受付状況を確認できないため継続確認とした。
+    - 猪苗代町の結婚新生活支援、児童手当、高齢者肺炎球菌、子育て支援ガイドブック等は国制度重複または金額・受付差分未確定のため採用しなかった。
+    - 会津坂下町の特別児童扶養手当、児童扶養手当、出産育児一時金、母子父子寡婦福祉資金、国民年金免除は国・県制度重複。コンポスト個別PDFは既採用のごみ減量化補助制度と同一制度の詳細証跡として扱った。漏水減免旧URLは404で現行公式URL未確定。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 10件、重複0。
+    - 追加した10制度10公式URLはすべて HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9404、officialLinkedActive 9366、manuallyVerifiedActive 9366、福島県 `localOfficial` 882、福島県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-second-pass-007-shortlist.json tasks/discovery/fukushima-second-pass-007-page-evidence.json tasks/discovery/fukushima-second-pass-007-adopted.json`: pass。
+  - 次:
+    - 福島県第2巡008として、07422湯川村、07423柳津町、07444三島町、07445金山町の保留候補を確認する。
+
+- 福島県公式棚卸し第2巡008（湯川村・柳津町・三島町・金山町）
+  - 対象: 07422湯川村、07423柳津町、07444三島町、07445金山町。
+  - 方法:
+    - 第1巡008の保留候補、既存候補JSON、公式本文、旧URL候補を再確認した。
+    - 公式本文を再取得して `tasks/discovery/fukushima-second-pass-008-shortlist.json` 11件、`tasks/discovery/fukushima-second-pass-008-page-evidence.json` 8件、`tasks/discovery/fukushima-second-pass-008-adopted.json` を作成した。
+    - title/h1/main/article/URLの制度強語に加え、対象・金額/上限・条件・期限/受付状況が公式本文で確認できる制度を採用し、PDF未展開、金額不足、国県制度重複、404旧URLは第2巡継続台帳へ残した。
+  - 追加:
+    - 湯川村: 高齢者等移動支援事業（福祉タクシー・バス利用券）、高齢者等移動支援事業（自動車燃料費助成）、在宅ねたきり高齢者等介護慰労金、在宅ねたきり高齢者等紙おむつ支給事業、乳幼児・子ども医療費助成事業、第3子以降幼稚園給食費および学校給食費免除制度、妊産婦医療費助成、出産祝い金、小学校入学祝い金、冬期間通学費助成。
+    - 柳津町: 頑張れ子育て応援金（出産祝金）、頑張れ子育て応援金（入学祝金）。
+  - 保留継続:
+    - 湯川村の母子保健PDF群（妊婦支援給付、産後ケア、不妊治療助成）はPDF本文の金額・受付状況未展開。予防接種助成は助成額・上限が本文にないため採用しない。就学援助はPDF未展開、日常生活用具給付は個別金額不足として継続確認。
+    - 柳津町の妊婦支援給付は既掲載の出産・子育て応援給付金と重複扱い。児童手当は国制度、子ども医療費助成は既掲載、未熟児養育医療・ひとり親支援は制度単位の給付範囲・受付差分を次巡確認。
+    - 三島町の医療費助成カテゴリ、ワクチン接種、デマンドバス減免、移住定住一覧、申請書ダウンロード内制度は、今回新規採用に必要な金額・受付差分まで展開できず継続確認。
+    - 金山町の補聴器、未熟児養育医療、予防接種、高齢者福祉の旧URL候補4件は404。児童手当・特別児童扶養手当・児童扶養手当等は国県制度重複候補のため、現行公式URLと町独自差分を次巡で確認。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 12件、重複0。
+    - 追加した12制度12公式URLはすべて HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9416、officialLinkedActive 9378、manuallyVerifiedActive 9378、福島県 `localOfficial` 894、福島県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-second-pass-008-shortlist.json tasks/discovery/fukushima-second-pass-008-page-evidence.json tasks/discovery/fukushima-second-pass-008-adopted.json`: pass。
+  - 次:
+    - 福島県第2巡009として、07446昭和村、07447会津美里町、07461西郷村、07464泉崎村の保留候補を確認する。
+
+- 福島県公式棚卸し第2巡009（昭和村・会津美里町・西郷村・泉崎村）
+  - 対象: 07446昭和村、07447会津美里町、07461西郷村、07464泉崎村。
+  - 方法:
+    - 第1巡009の保留候補、既存採用URL、公式本文、検索結果・カテゴリ・旧災害候補を再確認した。
+    - 既掲載 `officialUrl` を除外し、公式本文を再取得して `tasks/discovery/fukushima-second-pass-009-shortlist.json` 7件、`tasks/discovery/fukushima-second-pass-009-page-evidence.json` 5件、`tasks/discovery/fukushima-second-pass-009-adopted.json` を作成した。
+    - title/h1/main/article/URLの制度強語に加え、対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別制度を採用し、カテゴリ、国制度案内、既掲載制度の詳細ページ、旧災害候補は第2巡継続台帳へ残した。
+  - 追加:
+    - 昭和村: 奨学資金貸与制度、学校給食費無償化。
+    - 泉崎村: 家庭用生ごみ処理機購入助成金。
+  - 保留継続:
+    - 昭和村の支援制度カテゴリ、健康・子育て支援カテゴリ、高齢者福祉カテゴリ、新規就農者募集、プロポーザル等は制度単位の金額・受付差分または補助対象性が不足し継続確認。
+    - 会津美里町は第1巡で個別制度25件を掲載済み。カテゴリページ、重複URL、国制度色が強い年金・証明・相談ページ、金額が制度単位で分離しにくいページは継続台帳に残す。
+    - 西郷村は第1巡で個別制度41件を掲載済み。カテゴリページ、重複URL、計画・プロポーザル・県制度案内・求人情報、制度単位差分が不明なページは継続台帳に残す。
+    - 泉崎村の取扱事業者募集ページは既掲載の商品券事業と同一。農業者年金は国制度案内。住宅応急修理は旧災害救助法関連で現行受付差分不明。検索結果ページ、一覧、旧コロナ関連、配布文書PDF一覧は継続確認。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 3件、重複確認 pass（duplicateOrMissing 0）。
+    - 追加した3制度3公式URLの到達確認 pass（3件すべて HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9419、officialLinkedActive 9381、manuallyVerifiedActive 9381、福島県 localOfficial 897、coveredCategories 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-second-pass-009-shortlist.json tasks/discovery/fukushima-second-pass-009-page-evidence.json tasks/discovery/fukushima-second-pass-009-adopted.json`: pass。
+  - 次:
+    - 福島県第2巡010として、07465中島村、07466矢吹町、07481棚倉町、07482矢祭町の保留候補を確認する。
+
+- 福島県公式棚卸し第2巡010（中島村・矢吹町・棚倉町・矢祭町）
+  - 対象: 07465中島村、07466矢吹町、07481棚倉町、07482矢祭町。
+  - 方法:
+    - 第1巡010の保留候補、既存採用URL、`fukushima-official-coverage-010-official-extra.json`、カテゴリ・一覧・複数制度ページを再確認した。
+    - 既掲載 `officialUrl` を除外し、公式本文を再取得して `tasks/discovery/fukushima-second-pass-010-shortlist.json` 16件、`tasks/discovery/fukushima-second-pass-010-page-evidence.json` 11件、`tasks/discovery/fukushima-second-pass-010-adopted.json` を作成した。
+    - title/h1/main/article/URLの制度強語に加え、対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別制度を採用し、通園サービス案内、国制度・通常減免、求人、計画、カテゴリ、旧年度候補は第2巡継続台帳へ残した。
+  - 追加:
+    - 中島村: 地方就職学生支援事業、移住・定住支援事業、生殖補助医療交通費支援事業、不妊治療費等助成事業。
+    - 矢吹町: 子育てサークル活動支援補助金、奨学金制度、保育士等就職準備金貸付、保育士宿舎借り上げ支援。
+    - 棚倉町: 令和7年9月例月分水道料減額、ひとり親家庭高等職業訓練促進事業補助金、ひとり親家庭自立支援教育訓練事業補助金。
+    - 矢祭町: 学校給食完全無償化。
+  - 保留継続:
+    - 中島村の児童手当・旧臨時給付金等は国制度または旧年度給付金が中心で、現行村独自差分は未確認。
+    - 矢吹町の後期高齢者医療保険料・軽自動車税減免等は通常税/保険料制度または個別減免で、自治体独自の補助金・助成金ページとしての差分が不足。
+    - 棚倉町のこども誰でも通園制度は利用料300円/時と減免表現はあるが、給付型制度としての金額差分ではないため継続確認。
+    - 棚倉町・矢祭町の水道/介護/カテゴリ/求人/計画ページ等は、カテゴリ、求人、制度一覧、通常行政サービス、計画/交付金説明、または金額・対象・受付状況不足として継続確認。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 12件、重複確認 pass（duplicateOrMissing 0）。
+    - 追加した12制度11公式URLの到達確認 pass（12件すべて HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9431、officialLinkedActive 9393、manuallyVerifiedActive 9393、福島県 localOfficial 909、coveredCategories 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-second-pass-010-shortlist.json tasks/discovery/fukushima-second-pass-010-page-evidence.json tasks/discovery/fukushima-second-pass-010-adopted.json`: pass。
+  - 次:
+    - 福島県第2巡011として、07483塙町、07484鮫川村、07501石川町、07502玉川村の保留候補を確認する。
+
+- 福島県公式棚卸し第2巡011（塙町・鮫川村・石川町・玉川村）
+  - 対象: 07483塙町、07484鮫川村、07501石川町、07502玉川村。
+  - 方法:
+    - 第1巡011の保留候補、既存採用URL、`fukushima-official-coverage-011-official-extra.json`、`fukushima-official-coverage-011-snippets.json`、カテゴリ・一覧・重複ページを再確認した。
+    - 既掲載 `officialUrl` を除外し、公式本文を再取得して `tasks/discovery/fukushima-second-pass-011-shortlist.json` 8件、`tasks/discovery/fukushima-second-pass-011-page-evidence.json` 8件、`tasks/discovery/fukushima-second-pass-011-adopted.json` を作成した。
+    - title/h1/main/article/URLの制度強語に加え、対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別制度を採用し、県制度案内、互助会福利厚生、旧制度、一覧、カテゴリ、重複ページは第2巡継続台帳へ残した。
+  - 追加:
+    - 石川町: 在宅育児支援金、保育士確保対策事業補助金（住宅補助金）。
+    - 玉川村: たまかわっ子子育て支援給付金。
+  - 保留継続:
+    - 塙町の福島県就職氷河期世代雇用促進奨励金は県制度案内で、町独自制度ではない。
+    - 塙町勤労者互助会は会員向け福利厚生・貸付事業で、一般公的補助金ページとしては制度対象が限定的。
+    - 鮫川村のお知らせ一覧、水道料金改定、Go To等は一覧、旧制度、国制度、料金改定で、現行村独自の補助金・助成金としての差分が不足。
+    - 玉川村の移住補助金等支援情報一覧、立地企業従業員定住奨励金旧ページは一覧/既掲載制度導線または既掲載制度の旧/重複ページ。
+    - 石川町の福島再生加速化交付金、行政情報一覧等は交付金説明、カテゴリ、一覧、または金額・対象・申請受付の制度単位差分不足。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 3件、重複確認 pass（duplicateOrMissing 0）。
+    - 追加した3制度3公式URLの到達確認 pass（3件すべて HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9434、officialLinkedActive 9396、manuallyVerifiedActive 9396、福島県 localOfficial 912、coveredCategories 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-second-pass-011-shortlist.json tasks/discovery/fukushima-second-pass-011-page-evidence.json tasks/discovery/fukushima-second-pass-011-adopted.json`: pass。
+  - 次:
+    - 福島県第2巡012として、07503平田村、07504浅川町、07505古殿町、07521三春町の保留候補を確認する。
+
+- 福島県公式棚卸し第2巡012（平田村・浅川町・古殿町・三春町）
+  - 対象: 07503平田村、07504浅川町、07505古殿町、07521三春町。
+  - 方法:
+    - 第1巡012の保留候補、既存採用URL、`fukushima-official-coverage-012-official-extra.json`、`fukushima-official-coverage-012-snippets.json`、`fukushima-official-coverage-012-selected.json`、PDFリンク、一覧・カテゴリ、過年度給付ページを再確認した。
+    - 既掲載 `officialUrl` を除外し、公式本文とPDFを再取得して `tasks/discovery/fukushima-second-pass-012-shortlist.json` 6件、`tasks/discovery/fukushima-second-pass-012-page-evidence.json` 6件、`tasks/discovery/fukushima-second-pass-012-adopted.json` を作成した。
+    - title/h1/main/article/URLの制度強語に加え、対象・金額/上限・条件・期限/受付状況が公式本文またはPDFで確認できる個別制度を採用し、過年度給付、一覧、カテゴリ、既掲載制度は第2巡継続台帳へ残した。
+  - 追加:
+    - 三春町: 子どものおたふくかぜワクチン接種費用助成。
+  - 保留継続:
+    - 平田村の子育て世帯生活支援給付金は令和5年4月1日基準、物価高騰対応低所得者支援給付金は令和6年1月31日提出期限の過年度給付で、現行受付制度としては扱わない。
+    - 浅川町のカテゴリ/サイトマップ/定額減税補足給付金の詳細未掲載ページは、現行の個別制度本文・金額・受付状況が不足。
+    - 古殿町の廃棄物減量化助成事業は第1巡で掲載済み。補助・助成事業一覧はカテゴリ/一覧導線で、未掲載の個別制度本文を確認できなかった。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 1件、重複確認 pass（duplicateOrMissing 0、duplicates 0）。
+    - 追加した1制度2公式URLの到達確認 pass（公式HTML/PDFとも HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9435、officialLinkedActive 9397、manuallyVerifiedActive 9397、福島県 `localOfficial` 913、福島県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-second-pass-012-shortlist.json tasks/discovery/fukushima-second-pass-012-page-evidence.json tasks/discovery/fukushima-second-pass-012-adopted.json`: pass。
+  - 次:
+    - 福島県第2巡013として、07522小野町、07541広野町、07542楢葉町、07543富岡町の保留候補を確認する。
+
+- 福島県公式棚卸し第2巡013（小野町・広野町・楢葉町・富岡町）
+  - 対象: 07522小野町、07541広野町、07542楢葉町、07543富岡町。
+  - 方法:
+    - 第1巡013の保留候補、既存採用URL、公式カテゴリ、個別ページ、制度一覧を再確認した。
+    - 既掲載 `officialUrl` を除外し、公式本文を再取得して `tasks/discovery/fukushima-second-pass-013-shortlist.json` 10件、`tasks/discovery/fukushima-second-pass-013-page-evidence.json` 10件、`tasks/discovery/fukushima-second-pass-013-adopted.json` を作成した。
+    - title/h1/main/article/URLの制度強語に加え、対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別制度を採用し、過年度給付、実績公表、カテゴリ、重複導線、金額未掲載ページは第2巡継続台帳へ残した。
+  - 追加:
+    - 富岡町: 風しん予防接種費用助成、令和8年度高齢者肺炎球菌ワクチン予防接種費用助成、令和8年度帯状疱疹ワクチン予防接種費用助成。
+  - 保留継続:
+    - 小野町の児童手当制度改正ページは既掲載児童手当の改正導線として重複。旧事業所緊急支援給付金は令和5年8月31日申請期限の過年度給付。宝くじ助成金ページは備品購入実績で申請制度本文ではない。
+    - 広野町の乳幼児・児童医療費助成旧導線は既掲載制度と重複。救急患者受入支援事業等補助金交付実績は平成29年度等の実績公表で現行受付制度ではない。
+    - 楢葉町は第1巡保留のPDFノイズ候補、旧出産・子育て応援給付金、受付終了済み住宅状況調査、過年度住宅用新エネルギー補助金を現行採用しない。
+    - 富岡町の児童扶養手当ページは対象案内のみで本文内の支給額確認ができず、カテゴリページは個別制度導線として扱う。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 3件、重複確認 pass（duplicateOrMissing 0、duplicates 0）。
+    - 追加した3制度3公式URLの到達確認 pass（3件すべて HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9438、officialLinkedActive 9400、manuallyVerifiedActive 9400、福島県 `localOfficial` 916、福島県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-second-pass-013-shortlist.json tasks/discovery/fukushima-second-pass-013-page-evidence.json tasks/discovery/fukushima-second-pass-013-adopted.json`: pass。
+  - 次:
+    - 福島県第2巡014として、07544川内村、07545大熊町、07546双葉町、07547浪江町の保留候補を確認する。
+
+- 福島県公式棚卸し第2巡014（川内村・大熊町・双葉町・浪江町）
+  - 対象: 07544川内村、07545大熊町、07546双葉町、07547浪江町。
+  - 方法:
+    - 第1巡014の保留候補、公式extra、既存採用URL、カテゴリ導線、個別ページを再確認した。
+    - 既掲載 `officialUrl` を除外し、公式本文を再取得して `tasks/discovery/fukushima-second-pass-014-shortlist.json` 12件、`tasks/discovery/fukushima-second-pass-014-page-evidence.json` 11件、`tasks/discovery/fukushima-second-pass-014-adopted.json` を作成した。
+    - title/h1/main/article/URLの制度強語に加え、対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別制度を採用し、既掲載制度の様式PDF、移行案内、カテゴリ、基金公表、住宅入居募集、無料講座中心の支援案内は第2巡継続台帳へ残した。
+  - 追加:
+    - 川内村: 子育て応援・用具購入費交付金。
+    - 双葉町: 医療費一部負担金等免除、民間賃貸住宅新築等促進事業補助金、高齢者肺炎球菌ワクチン予防接種費用助成、令和8年度高齢者帯状疱疹予防接種費用助成、風しん抗体検査・予防接種費用助成。
+  - 保留継続:
+    - 川内村の「来てかわうち」住宅取得等支援事業様式PDF群は既掲載制度の様式差分として保留。
+    - 大熊町の住宅清掃補助金は令和6年度で受付終了し、既掲載の住宅取得等支援事業補助金へ移行。生活支援一覧は複数制度のカテゴリ導線として保留。
+    - 双葉町の特定原子力施設地域振興事業補助金は基金造成・公表ページ、駅西住宅入居者募集は住宅入居募集であり、補助金・助成金等の支給制度本文ではない。
+    - 浪江町起業人材支援事業は無料講座、相談、アクセラレータープログラム等が中心で、金額付き補助制度本文ではない。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 6件、重複確認 pass（duplicateOrMissing 0、duplicates 0）。
+    - 追加した6制度6公式URLの到達確認 pass（6件すべて HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9444、officialLinkedActive 9406、manuallyVerifiedActive 9406、福島県 `localOfficial` 922、福島県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-second-pass-014-shortlist.json tasks/discovery/fukushima-second-pass-014-page-evidence.json tasks/discovery/fukushima-second-pass-014-adopted.json`: pass。
+  - 次:
+    - 福島県第2巡015として、07548葛尾村、07561新地町、07564飯舘村の保留候補を確認する。
+
+- 福島県公式棚卸し第2巡015（葛尾村・新地町・飯舘村）
+  - 対象: 07548葛尾村、07561新地町、07564飯舘村。
+  - 方法:
+    - 第1巡015の保留候補、公式extra、sitemap候補、既存採用URL、カテゴリ導線、個別ページを再確認した。
+    - 既掲載 `officialUrl` を除外し、候補89件を再確認して `tasks/discovery/fukushima-second-pass-015-shortlist.json` 12件、`tasks/discovery/fukushima-second-pass-015-page-evidence.json` 12件、`tasks/discovery/fukushima-second-pass-015-adopted.json` を作成した。
+    - title/h1/main/article/URLの制度強語に加え、対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別制度を採用し、空カテゴリ、総合案内、金額未掲載ページ、外部制度案内、制度列挙のみのページは第2巡継続台帳へ残した。
+  - 追加:
+    - 飯舘村: 人工透析医療費・交通費助成。
+  - 保留継続:
+    - 葛尾村の児童手当・児童扶養手当カテゴリ、乳幼児・児童医療費助成制度カテゴリは現在掲載情報なし。障がい福祉制度のてびきは総合案内で、個別制度の対象・金額・期限が揃わない。
+    - 新地町の障害児福祉手当・特別障害者手当は対象・申請書類を確認できるが、公式本文に手当額が掲載されていない。一部負担金等免除カテゴリは現在掲載情報なし。新規就農者支援は外部ポータル案内中心で、町独自の金額付き制度本文ではない。
+    - 飯舘村の身体障がい者助成制度は医療費補助、補装具給付、自動車免許取得助成等の制度列挙のみで、個別金額・条件・期限が不足。医療費助成カテゴリ、障がい者福祉カテゴリ、介護保険制度ページは個別補助制度本文ではない。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 1件、重複確認 pass（duplicateOrMissing 0、duplicates 0）。
+    - 追加した1制度1公式URLの到達確認 pass（HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9445、officialLinkedActive 9407、manuallyVerifiedActive 9407、福島県 `localOfficial` 923、福島県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-second-pass-015-shortlist.json tasks/discovery/fukushima-second-pass-015-page-evidence.json tasks/discovery/fukushima-second-pass-015-adopted.json`: pass。
+  - 次:
+    - 福島県第2巡は自治体コード順の末尾まで到達。次は宮城県公式棚卸し第2巡001の未確定検証・候補台帳を再確認する。
+
 - 宮城県公式棚卸し009（美里町・女川町・南三陸町）
   - 対象: 04505美里町、04581女川町、04606南三陸町。
   - 方法:
@@ -4990,7 +5289,11 @@
     - 石巻市の県補助案内候補は、宮城県制度として県公式URLを採用し、市独自制度としては追加しないことで解消。
     - 塩竈市のカテゴリページ・旧制度ページ・金額不足候補は不採用理由を第2巡台帳へ記録し、現行個別制度1件のみ採用。
   - 検証:
-    - 検証は第2巡001の6制度URL到達、eslint、slug重複、coverage、diff checkをこのバッチ内で実行する。
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 6件、重複確認 pass（total 9519、duplicates 0）。
+    - 追加した6制度10公式URLの到達確認 pass（10件すべて HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9445、officialLinkedActive 9407、manuallyVerifiedActive 9407、宮城県 `localOfficial` 355、宮城県 `coveredCategories` 8）。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-second-pass-001.json`: pass。
   - 次:
     - 宮城県公式棚卸し第2巡002として、04205気仙沼市、04206白石市、04207名取市、04208角田市の保留候補を確認する。
 
@@ -5015,3 +5318,1125 @@
   - `https://joseikin-navi-site.vercel.app/grant/rausu-birth-celebration-grant-2026/`: 200。`羅臼町 出産祝金支給事業`、`子ども1人50万円`、`公式出典確認済み` を確認。
   - `https://joseikin-navi-site.vercel.app/grant/rausu-entrepreneur-support-subsidy-2026/`: 200。`羅臼町 起業支援事業補助金`、`最大200万円`、`公式出典確認済み` を確認。
   - `https://joseikin-navi-site.vercel.app/prefecture/%E5%8C%97%E6%B5%B7%E9%81%93/`: 200。
+
+- 山形県第2巡004（尾花沢市・南陽市・山辺町・中山町）
+  - 対象: 06212尾花沢市、06213南陽市、06301山辺町、06302中山町。
+  - 方法:
+    - `tasks/discovery/yamagata-official-coverage-004.json` と候補スニペットから第1巡保留候補を復元し、公式本文/PDFで制度単位に再確認した。
+    - 尾花沢市は空き家除却・住宅リフォームのPDF本文を `pdftotext` で確認し、カテゴリページは個別制度へ分解した。
+    - 南陽市は企業立地奨励金PDF、ビジネスホテル奨励金、本社機能移転奨励金、経営開始支援助成、犯罪被害者等支援の公式本文を確認した。
+    - 山辺町は子育て支援医療、ひとり親家庭等医療、副食費無償化を個別制度として確認し、中山町は第1巡採用済み又は県制度案内・手続案内のみで新規採用なしとした。
+  - 追加:
+    - 尾花沢市: 不良住宅除却促進事業・老朽空き家除却事業、住宅リフォーム支援事業費補助金、自主防災組織向上支援事業費補助金。
+    - 南陽市: 企業立地奨励金、ビジネスホテル奨励金、本社機能移転奨励金、経営開始支援助成、犯罪被害者等見舞金。
+    - 山辺町: 子育て支援医療制度、ひとり親家庭等医療制度、副食費無償化事業。
+  - 保留継続:
+    - 尾花沢市の危険ブロック塀等除却支援事業は、公式本文に申込期限・要件がある旨はあるが、補助率・上限額・対象条件の詳細が不足するため保留。
+    - 山辺町の家庭用生ごみ処理機等購入費補助は令和8年度受付終了、重度心身障がい（児）者医療制度は県制度要素を含む福祉医療で町独自差分追加確認、農地・農業用施設補助金等は金額・上限・期限不足のため保留。
+    - 中山町の山形県移住支援事業案内、山形県中小企業パワーアップ補助金案内、特定創業支援証明、農業再生協議会ビジョンは町独自の個別補助金ページではないため採用しない。第1巡採用済み7件は重複採用しない。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 11件、重複確認 pass（duplicateCount 0）。
+    - 追加した11制度11公式URLの到達確認 pass（すべて HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9493、officialLinkedActive 9455、manuallyVerifiedActive 9455、山形県 `localOfficial` 374、山形県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-second-pass-004.json`: pass。
+  - 次:
+    - 山形県第2巡005として、06321河北町、06322西川町、06323朝日町、06324大江町の第1巡保留候補を公式本文/PDFで確認する。
+
+- 山形県第2巡005（河北町・西川町・朝日町・大江町）
+  - 対象: 06321河北町、06322西川町、06323朝日町、06324大江町。
+  - 方法:
+    - `tasks/discovery/yamagata-official-coverage-005.json` と候補スニペットから第1巡保留候補を復元し、公式本文・公式カテゴリ導線・変更後URLを確認した。
+    - 河北町は旧 `kurasi_tetuzuki/sienseidoitiran/` 配下から組織配下へ移動した制度URLを補正し、移住定住、空き家、ゼロカーボン、雇用・創業、子育て医療を制度単位で確認した。
+    - 西川町は補助金カテゴリ、健康福祉課カテゴリ、移住サイトから個別ページへ展開し、結婚新生活、引越し、薪ストーブ、雇用、農業・鳥獣対策、骨髄ドナー、物価高対応、まちづくり団体の制度本文を確認した。
+    - 朝日町は公式サイト内の商工業支援・保健医療係ページを確認し、販路拡大と任意予防接種費用助成を採用した。
+    - 大江町は妊娠・出産カテゴリと左沢高等学校支援ページを確認し、妊婦支援給付、妊産婦タクシー券、出産サポート、出生祝、不妊治療、左沢高校支援を採用した。
+  - 追加:
+    - 河北町: 賃貸住宅入居移住支援事業費補助金、空き家利活用支援事業費補助金、空き家片付け支援事業費補助金、省エネ家電買い換え等支援補助金、再生可能エネルギー設備及び省エネルギー設備導入事業費補助金、公共交通としてのタクシー利用助成制度、雇用促進等補助金、活力と魅力ある産業・企業支援事業費補助金、みらい応援創業支援事業費補助金、子育て支援医療制度。
+    - 西川町: 結婚新生活支援事業費補助金、移住促進引越し費用補助金、薪ストーブ等利用拡大支援事業補助金、雇用促進奨励金、雇用就農促進奨励金、鳥獣被害防止設備等整備事業費補助金、野生鳥獣集落等出没抑制対策事業費補助金、骨髄移植ドナー支援助成金、物価高対応子育て応援手当、まちづくり団体活動補助金。
+    - 朝日町: 工業製品等販路拡大事業補助金、任意予防接種費用助成事業。
+    - 大江町: 妊婦のための支援給付、妊産婦タクシー券交付事業、おおえにこにこ出産サポート助成事業、誕生祝すくすくベビー給付費、不妊治療費助成事業、左沢高等学校支援事業。
+  - 保留継続:
+    - 河北町の町内会除雪機購入事業費補助金、フリースクール等利用料支援事業費補助金、移住支援金・奨学金返還支援の県連携制度は、現行個別URL、金額又は町独自差分を追加確認する。
+    - 西川町の重粒子線がん治療治療費等助成、西川町独自不妊治療費助成、病児・病後児保育利用料助成、福祉タクシー、浄化槽設置助成、妊婦健診・妊婦支援給付は金額・町独自差分を第3巡で精査する。
+    - 朝日町の病児・病後児保育利用料助成、新生児聴覚検査費用助成、妊よう性温存治療費助成、農業関係補助事業一覧、県外定期予防接種費用助成は個別金額又はPDF確認を継続する。
+    - 大江町のおおえあんしん妊娠サポート助成事業、多胎妊婦健診追加助成は再取得し、生活応援ローンと教育ローン本体は融資案内として採用しない。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 28件、重複確認 pass（duplicateCount 0）。
+    - 追加した28制度28公式URLの到達確認 pass（すべて HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9519、officialLinkedActive 9481、manuallyVerifiedActive 9481、山形県 `localOfficial` 400、山形県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-second-pass-005.json`: pass。
+  - 次:
+    - 山形県第2巡006として、06341大石田町、06361金山町、06362最上町、06363舟形町の第1巡保留候補を公式本文/PDFで確認する。
+
+- 山形県第2巡006（大石田町・金山町・最上町・舟形町）
+  - 対象: 06341大石田町、06361金山町、06362最上町、06363舟形町。
+  - 方法:
+    - `tasks/discovery/yamagata-official-coverage-006.json` と第1巡保留候補を復元し、既掲載URL・町公式カテゴリ・個別制度ページを照合した。
+    - 大石田町は福祉健康系の個別ページから、骨髄移植ドナー助成と重度心身障がい（児）者医療制度の対象・金額・申請書類を確認した。
+    - 金山町は企業支援カテゴリを確認し、第1巡採用済み、税支援、県連携又は個別要件不足の候補として追加なしに整理した。
+    - 最上町は健康、教育、子育て医療、住宅、結婚支援の個別ページを確認し、骨髄ドナー、修学資金、医療費助成、住宅・結婚支援を制度単位で採用した。
+    - 舟形町は物価高対応の商品券ページを確認し、対象者、1人2万円分、利用期間を確認した。
+  - 追加:
+    - 大石田町: 骨髄移植ドナー助成事業、重度心身障がい（児）者医療制度。
+    - 金山町: 追加なし（第1巡採用済み又は個別要件不足）。
+    - 最上町: 骨髄移植ドナー助成事業、修学資金、子育て支援医療費助成、ひとり親家庭等医療費助成、新築住宅支援事業、結婚新生活支援事業、出会いづくり応援事業補助金。
+    - 舟形町: 舟形ほほえみ応援商品券。
+  - 保留継続:
+    - 大石田町の児童手当、児童扶養手当、特別児童扶養手当は国制度の行政案内として採用しない。定額減税、臨時交付金、空き家バンク一般案内は公式制度要件・金額の個別ページではないため保留。重粒子線がん治療費助成は町独自差分を継続確認する。
+    - 金山町の固定資産税軽減支援は税支援として採用しない。工場対策事業、移住支援金、県ポータル又は融資制度案内は個別要件・金額・町独自差分の確認を継続する。
+    - 最上町の交通災害共済は見舞金額表・支給条件、自主防災組織育成補助金はPDF要綱、単身者ハッピーサポート登録事業補助金は同一ページ内詳細抽出を継続する。
+    - 舟形町の若者海外体験候補URLは404、求職者支援制度・児童手当等は国制度又は行政案内、旧PDF群・カテゴリ導線のみの候補は個別制度確認まで保留する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 10件、重複確認 pass（duplicateCount 0）。
+    - 追加した10制度10公式URLの到達確認 pass（すべて HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9529、officialLinkedActive 9491、manuallyVerifiedActive 9491、山形県 `localOfficial` 410、山形県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-second-pass-006.json`: pass。
+  - 次:
+    - 山形県第2巡007として、06364真室川町、06365大蔵村、06366鮭川村、06367戸沢村の第1巡保留候補を公式本文/PDFで確認する。
+
+- 山形県第2巡007（真室川町・大蔵村・鮭川村・戸沢村）
+  - 対象: 06364真室川町、06365大蔵村、06366鮭川村、06367戸沢村。
+  - 方法:
+    - `tasks/discovery/yamagata-official-coverage-007.json` の第1巡採用済み34件を重複除外し、第1巡保留候補を町村公式本文・PDFで再確認した。
+    - 真室川町は家庭保育支援PDF、神室産業高校支援、地区公民館補助、介護支援一覧を確認した。
+    - 大蔵村は豪雪対策除排雪事業補助金の個別本文と要綱導線を確認した。
+    - 鮭川村は水道料金減免、木造住宅耐震、がけ地危険住宅移転、浄化槽設置の個別本文を確認した。
+    - 戸沢村は住宅補助金一覧と要綱・概要PDFを確認し、住宅リフォーム、持家住宅整備、空き家解体、老朽危険空き家解体を制度単位で採用した。
+  - 追加:
+    - 真室川町: 家庭保育支援給付金、県立神室産業高等学校真室川校への支援、公民館分館施設整備補助金、公民館分館管理運営費補助金、重度要介護高齢者介護者激励金、救急タクシー事業。
+    - 大蔵村: 豪雪対策除排雪事業補助金。
+    - 鮭川村: 水道料金の減額免除、木造住宅耐震診断士派遣事業、木造住宅耐震改修等事業費補助金、がけ地近接等危険住宅移転事業補助金、浄化槽設置整備事業。
+    - 戸沢村: 住宅リフォーム総合支援事業補助金、持家住宅整備促進事業補助金、空き家解体事業費補助金、老朽危険空き家解体事業費補助金。
+  - 保留継続:
+    - 真室川町の非課税世帯エアコン購入設置費助成、令和8年度高齢者等世帯の屋根雪除雪支援、大学生等食の支援、地域づくり・団体支援系は現行個別本文・金額・受付状況を継続確認する。
+    - 大蔵村の結婚支援事業ページ内結婚新生活支援と暮らし応援商品券は、県連携・既存同種制度との重複と現行個別本文を継続確認する。
+    - 鮭川村の災害援護資金貸付、施設農業等経営支援給付金、新やまがた就職促進奨学金返還支援事業は、貸付条件・現行性・村独自差分を継続確認する。
+    - 戸沢村の再生可能エネルギー設備等設置事業費補助金、商工・雇用・結婚・出会い応援系PDF、飲用水水質検査補助金は次巡で金額表を抽出する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 16件、重複確認 pass（duplicateCount 0）。
+    - 追加した16制度16公式URLの到達確認 pass（すべて HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9545、officialLinkedActive 9507、manuallyVerifiedActive 9507、山形県 `localOfficial` 426、山形県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-second-pass-007.json`: pass。
+  - 次:
+    - 山形県第2巡008として、06426三川町、06428庄内町、06461遊佐町の第1巡保留候補を公式本文/PDFで確認する。
+
+- 山形県第2巡008（高畠町・川西町・小国町・白鷹町）
+  - 対象: 06381高畠町、06382川西町、06401小国町、06402白鷹町。
+  - 方法:
+    - `tasks/discovery/yamagata-official-coverage-008.json` と第1巡008の保留候補を復元し、既掲載31件の公式URLを重複除外した。
+    - チェックポイント上の次自治体が第1巡009の一部になっていたため、進捗JSONとチェックリストの実順を優先し、第1巡008の第2巡を先に処理した。
+    - 高畠町は結婚・奨学金返還・敬老・婚活・高畠高校支援の個別公式本文を確認した。
+    - 川西町は児童三手当、障がい福祉、医療費助成、福祉タクシー、無料検診、コミュニティ助成を再確認し、国県制度要素・カテゴリ案内・実績告知中心のため新規採用なしとした。
+    - 小国町は奨学資金・修学資金、妊婦健康診査、妊産婦歯科健診を公式本文で確認した。
+    - 白鷹町は奨学金返還支援を採用し、自動車運転免許取得費等助成、リスキリング支援、6次産業化チャレンジ支援は個別本文・金額確認不足として次巡候補に残した。
+  - 追加:
+    - 高畠町: 結婚新生活支援事業補助金、新やまがた就職促進奨学金返還支援事業（やまがた若者定着枠）、新やまがた就職促進奨学金返還支援事業（Uターン促進枠）、地域敬老事業補助金、婚活サポート事業補助金、結婚推進支援事業補助金、山形県立高畠高等学校支援。
+    - 川西町: 追加なし（国県制度要素、カテゴリ導線、実績告知又は町独自差分不足）。
+    - 小国町: 奨学資金・修学資金貸与、妊婦健康診査費用補助、妊産婦歯科健診費用助成。
+    - 白鷹町: 新やまがた就職促進奨学金返還支援事業。
+  - 保留継続:
+    - 高畠町の暮らしに関する支援制度と就農支援制度は、第1巡採用済み又は国県事業・包括案内を含むため、個別制度URL・町独自差分を次巡で確認する。
+    - 川西町の児童三手当、障がい福祉手当、医療費助成、福祉タクシー、無料検診は国県制度要素又は金額・町独自差分不足として追加しない。コミュニティ助成は宝くじ助成の実績・案内中心のため追加しない。
+    - 小国町の排水設備等改造資金あっせん制度は融資あっせん、児童手当・事業者・農業カテゴリ一覧は国制度又はカテゴリ導線のため追加しない。
+    - 白鷹町の自動車運転免許取得費等助成、リスキリング支援、6次産業化チャレンジ支援、医療費助成、未熟児養育医療、結婚新生活支援本体は個別本文・金額・重複を次巡で確認する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 11件、重複確認 pass（duplicateCount 0）。
+    - 追加した11制度11公式URLの到達確認 pass（すべて HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9554、officialLinkedActive 9516、manuallyVerifiedActive 9516、山形県 `localOfficial` 435、山形県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-second-pass-008.json`: pass。
+  - 次:
+    - 山形県第2巡009として、06403飯豊町、06426三川町、06428庄内町、06461遊佐町の第1巡保留候補を公式本文/PDFで確認する。
+
+- 山形県第2巡009（飯豊町・三川町・庄内町・遊佐町）
+  - 対象: 06403飯豊町、06426三川町、06428庄内町、06461遊佐町。
+  - 方法:
+    - `tasks/discovery/yamagata-official-coverage-009.json` の第1巡採用済み29件を重複除外し、第1巡保留候補と新着・カテゴリ導線を町公式本文で再確認した。
+    - 飯豊町は高齢者向け商品券、学校給食費無償化、物価高騰対策生活支援商品券の個別本文を確認した。
+    - 三川町は子育て・福祉の手当助成導線を確認したが、第1巡採用済みの不妊治療等以外は国県制度、医療給付、議会・総合案内中心のため新規採用なしとした。
+    - 庄内町は商工業展出展者支援の令和8年度個別ページで対象・補助率・期限を確認した。
+    - 遊佐町は看護師等奨学金、すくすくゆざっ子支援金、ひとり親家庭等家賃助成、中小事業者等省エネ・生産性向上設備導入、設備投資、技術者養成研修を公式本文で確認した。
+  - 追加:
+    - 飯豊町: 高齢者元気生活応援商品券、小学生学校給食費無償化、物価高騰対策生活支援商品券。
+    - 三川町: 追加なし（既掲載重複、国県制度・医療給付・総合案内中心）。
+    - 庄内町: 商工業振興支援事業補助金（商工業展出展者支援事業）。
+    - 遊佐町: 看護師等奨学金貸付、すくすくゆざっ子支援金、ひとり親家庭等家賃助成事業、中小事業者等省エネ・生産性向上設備導入緊急支援事業補助金、中小企業設備投資支援事業補助金、中小企業等技術者養成研修補助制度。
+  - 保留継続:
+    - 飯豊町の住宅リフォーム、脱炭素・再エネ、創業・中小企業支援、奨学金県連携制度は、現行年度の個別本文又は町独自差分が不足するため、次巡でPDF・新URLを確認する。
+    - 三川町の子育て医療費、ひとり親・障がい福祉、介護用品、出産祝金等は、国県制度重複・医療給付・町独自額不足のため追加しない。制度本体の個別ページが出た場合に再確認する。
+    - 庄内町の農林水産業交付要綱PDFと中学校生徒派遣費は、制度単位切り分け、金額、対象条件の確認を継続する。
+    - 遊佐町の再エネ設備は県制度案内との重複、きらきらマイタウン事業は現行受付と制度本体URLの確認不足として継続確認する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 10件、重複確認 pass（duplicateCount 0）。
+    - 追加した10制度10公式URLの到達確認 pass（すべて HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9564、officialLinkedActive 9526、manuallyVerifiedActive 9526、山形県 `localOfficial` 445、山形県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-second-pass-009.json`: pass。
+  - 次:
+    - 山形県第2巡は第1巡009まで到達。チェックリスト上では福島県第2巡015まで、宮城県第2巡001まで到達済みのため、次は宮城県第2巡002として、04205気仙沼市、04206白石市、04207名取市、04208角田市の保留候補を確認する。
+
+- 山形県公式棚卸し最終監査
+  - 対象:
+    - 山形県庁および県内35市町村（第1巡001-009、第2巡001-009）。
+  - 方法:
+    - 第1巡・第2巡の採否記録、`tasks/discovery/yamagata-official-coverage-*.json`、`tasks/discovery/yamagata-official-second-pass-*.json` を照合した。
+    - トップ、カテゴリ、国県制度、医療給付、総合案内、受付終了、金額・対象条件不足の候補を不採用又は継続理由付きで解消した。
+    - `npm run audit:coverage` と山形県slug重複の軽量集計を実行し、公式URL・手動確認・カテゴリ網羅を確認した。
+  - 検証:
+    - 山形県 localOfficial 445、localManuallyVerified 445、coveredCategories 8。
+    - 山形県関連slug 228、重複0。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9564、officialLinkedActive 9526、manuallyVerifiedActive 9526）。
+    - 山形県内の候補未判定は0件として、県単位の公式棚卸しを完了扱いにする。
+  - 次:
+    - 福島県第2巡015まで到達済みだが県単位最終監査JSONが未作成だったため、福島県の最終監査を行う。
+
+- 福島県公式棚卸し最終監査
+  - 対象:
+    - 福島県内59市町村（第1巡001-015、第2巡001-015）。
+  - 方法:
+    - 第1巡・第2巡の採否記録、`tasks/discovery/fukushima-official-coverage-*`、`tasks/discovery/fukushima-second-pass-*` を照合した。
+    - トップ、カテゴリ、外部ポータル案内、県国制度、受付終了、個別金額不足、制度列挙のみの候補を不採用理由付きで解消した。
+    - `npm run audit:coverage` と福島県slug重複の軽量集計を実行し、公式URL・手動確認・カテゴリ網羅を確認した。
+  - 検証:
+    - 福島県 localOfficial 923、localManuallyVerified 923、coveredCategories 8。
+    - 福島県関連slug 462、重複0。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9564、officialLinkedActive 9526、manuallyVerifiedActive 9526）。
+    - 福島県内の候補未判定は0件として、県単位の公式棚卸しを完了扱いにする。
+  - 注意:
+    - 全国公式棚卸しは未完了。raw gap 0やHTTP 200のみを全国完了扱いしない。
+  - 次:
+    - 茨城県公式棚卸し001として、08000茨城県庁、08201水戸市、08202日立市、08203土浦市を自治体コード順に確認する。
+
+- 茨城県公式棚卸し001
+  - 対象:
+    - 08000 茨城県庁、08201 水戸市、08202 日立市、08203 土浦市。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補数2303件のため本文スニペット500件を再スコアリングした。
+    - 既掲載公式URL、県・国制度重複、カテゴリ導線、受付終了、金額又は受付状況不足の候補を除外し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で揃うページのみ採用した。
+  - 採用:
+    - 日立市9件: 中小企業AIサービス実証支援、脱炭素設備導入促進、生ごみ処理機器設置、課題解決支援、人的資本経営支援、路線バス通学定期券、省エネ家電、がん治療用品、重度障害者住宅リフォーム。
+    - 土浦市5件: 防犯カメラ設置、奨学金返還支援、まちなか定住促進、転入者リフォーム、地方就職支援金。
+    - 茨城県庁・水戸市は既掲載・カテゴリ導線・国県制度中心のため新規採用0件。
+  - 生成ファイル:
+    - `tasks/discovery/ibaraki-official-coverage-001-municipalities.json`
+    - `tasks/discovery/ibaraki-official-coverage-001-candidates.json`
+    - `tasks/discovery/ibaraki-official-coverage-001-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-001.json`
+  - 検証:
+    - JSON構文: pass（茨城001のmunicipalities/candidates/snippets/audit/checkpoint）。
+    - 追加slug重複: pass（14件、duplicateCount 0）。
+    - 公式URL到達: pass（14件すべてHTTP 200）。
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9578、officialLinkedActive 9540、manuallyVerifiedActive 9540、茨城県 localOfficial 100）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+  - 次:
+    - 茨城県公式棚卸し002として、08204古河市、08205石岡市、08207結城市、08208龍ケ崎市を自治体コード順に確認する。
+
+- 茨城県公式棚卸し002
+  - 対象:
+    - 08204 古河市、08205 石岡市、08207 結城市、08208 龍ケ崎市。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補数1628件のため本文スニペット39件を再スコアリングした。
+    - 既掲載公式URL、県・国制度重複、カテゴリ導線、受付終了、現年度受付準備中、金額又は受付状況不足の候補を除外し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で揃うページのみ採用した。
+  - 採用:
+    - 古河市0件: 主要候補は既存公式確認済みURLとして登録済みのため重複採用しない。
+    - 石岡市14件: 住宅・店舗リフォーム、奨学金返還、浄化槽、国際交流、専門従事者奨学金、高齢者補聴器、遠距離通学、蓄電池、物価高騰応援給付、踏み間違い防止、紙おむつ、小学校入学祝金、赤ちゃんクーポン、中学校入学祝金。
+    - 結城市4件: 浄化槽設置、軽度・中等度難聴児補聴器、城跡周辺地区整備、スズメバチ駆除。
+    - 龍ケ崎市12件: 医療機関等物価高騰、農業者等物価高騰、事業者等物価高騰、若者・子育て住宅取得、移住支援金、U34賃貸住宅更新、蓄電システム、U29新婚生活、保育所等給食食材料費、交通事業者物価高騰、省エネ家電、高校生地域活動。
+  - 生成ファイル:
+    - `tasks/discovery/ibaraki-official-coverage-002-municipalities.json`
+    - `tasks/discovery/ibaraki-official-coverage-002-candidates.json`
+    - `tasks/discovery/ibaraki-official-coverage-002-evidence-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-002.json`
+  - 検証:
+    - 追加slug重複: pass（30件、全9234slugでduplicateCount 0）。
+    - 公式URL到達: pass（30件すべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `node --check scripts/discover-official-candidates.mjs`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9608、officialLinkedActive 9570、manuallyVerifiedActive 9570、茨城県 localOfficial 130）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+  - 次:
+    - 茨城県公式棚卸し003として、08210下妻市、08211常総市、08212常陸太田市、08214高萩市を自治体コード順に確認する。
+
+- 茨城県公式棚卸し003
+  - 対象:
+    - 08210 下妻市、08211 常総市、08212 常陸太田市、08214 高萩市。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補数1926件のため本文スニペット139件、詳細スニペット37件を再スコアリングした。
+    - 既掲載公式URL、県・国制度重複、カテゴリ導線、金額換算又は受付状況不足、社協支部事業等の制度主体整理が必要な候補を除外し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で揃うページのみ採用した。
+  - 採用:
+    - 下妻市9件: 防災士資格取得、木造住宅耐震改修、木造住宅耐震診断士派遣、危険ブロック塀除却、防犯カメラ、自転車ヘルメット、英検受験料、おたふくかぜワクチン、ひとり親高等職業訓練。
+    - 常総市6件: 奨学資金返還支援、合併処理浄化槽、雇用促進奨励金、補聴器購入費、不妊治療先進医療、妊婦支援給付。
+    - 常陸太田市7件: 中小企業等ビジネスチャレンジ、高齢者バス、団体旅行誘致、奨学資金貸与、ひとり親家庭等小学校入学祝金、狩猟免許取得、通学用路線バス定期券。
+    - 高萩市8件: 創生奨学金返還支援、移住支援金、マイホーム取得、空き家解体、家庭用蓄電池、多子世帯入園入学祝い金、特定不妊・不育症、人間ドック。
+  - 生成ファイル:
+    - `tasks/discovery/ibaraki-official-coverage-003-municipalities.json`
+    - `tasks/discovery/ibaraki-official-coverage-003-candidates.json`
+    - `tasks/discovery/ibaraki-official-coverage-003-evidence-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-003-detail-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-003.json`
+  - 検証:
+    - 追加slug重複: pass（30件、全9264slugでduplicateCount 0）。
+    - 公式URL到達: pass（30件すべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9638、officialLinkedActive 9600、manuallyVerifiedActive 9600、茨城県 localOfficial 160）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+  - 次:
+    - 茨城県公式棚卸し004として、08215北茨城市、08216笠間市、08217取手市、08219牛久市を自治体コード順に確認する。
+
+- 茨城県公式棚卸し004
+  - 対象:
+    - 08215 北茨城市、08216 笠間市、08217 取手市、08219 牛久市。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補数2298件のため本文スニペット260件、詳細スニペット30件を再スコアリングした。
+    - 既掲載公式URL、県・国制度重複、カテゴリ導線、金額又は受付状況不足、PDFのみで個別ページ未確認の候補を除外し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で揃うページのみ採用した。
+  - 採用:
+    - 北茨城市8件: 物価高騰対策給付金、水道基本料金減免、木造住宅耐震診断・耐震改修、奨学資金、住宅用太陽光・蓄電、自家消費型太陽光・蓄電、ZEH、高齢者肺炎球菌。
+    - 笠間市10件: 創業支援、わかもの給付、中小企業支援、住宅・店舗リフォーム、移住支援金、物価高対応子育て応援手当、75歳以上プレミアム商品券、省エネ家電、空家・空地バンク流通促進、集会所建設等。
+    - 取手市3件: みんなの補助金、空き店舗活用、省エネ家電買換え。
+    - 牛久市6件: 住宅用省エネ家電、生活応援商品券、公共交通利用券、低所得の子育て世帯生活応援特別給付金、医療機関等物価高騰、介護施設等物価高騰。
+  - 生成ファイル:
+    - `tasks/discovery/ibaraki-official-coverage-004-municipalities.json`
+    - `tasks/discovery/ibaraki-official-coverage-004-candidates.json`
+    - `tasks/discovery/ibaraki-official-coverage-004-evidence-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-004-detail-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-004.json`
+  - 検証:
+    - 追加slug重複: pass（27件、全9291slugでduplicateCount 0）。
+    - 公式URL到達: pass（27件すべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9658、officialLinkedActive 9620、manuallyVerifiedActive 9620、茨城県 localOfficial 180）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+  - 次:
+    - 茨城県公式棚卸し005として、08220つくば市、08221ひたちなか市、08222鹿嶋市、08223潮来市を自治体コード順に確認する。
+
+- 茨城県公式棚卸し005
+  - 対象:
+    - 08220 つくば市、08221 ひたちなか市、08222 鹿嶋市、08223 潮来市。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補数1497件のため詳細スニペット39件を再スコアリングした。
+    - 既掲載公式URL、県・国制度重複、カテゴリ導線、金額又は受付状況不足、制度主体整理が必要な候補を除外し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で揃うページのみ採用した。
+  - 採用:
+    - つくば市1件: 物価高騰対策生活者支援給付金。
+    - ひたちなか市9件: 子育て世代・三世代同居住宅取得、物価高対応子育て応援手当、スズメ蜂駆除、特別児童福祉手当、自動車運転装置改造、創業支援、中小企業事業活性化、創業信用保証料、開業資金融資利子補給。
+    - 鹿嶋市10件: 地域ブランド商品開発、妊婦支援、高等職業訓練、浄化槽、耐震診断、耐震改修、チャレンジショップ、省エネ設備、貨物運送、蓄電池。
+    - 潮来市10件: ひとり親高等職業訓練、自立支援教育訓練、サイクリスト宿、創業者支援、スポーツ大会奨励、通勤通学高速バス、蓄電池、耐震改修、学校給食費、自転車ヘルメット。
+  - 生成ファイル:
+    - `tasks/discovery/ibaraki-official-coverage-005-municipalities.json`
+    - `tasks/discovery/ibaraki-official-coverage-005-candidates.json`（raw候補、gitignore対象）
+    - `tasks/discovery/ibaraki-official-coverage-005-detail-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-005.json`
+  - 検証:
+    - 追加slug重複: pass（30件、全9321slugでduplicateCount 0）。
+    - 公式URL到達: pass（30件すべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9685、officialLinkedActive 9647、manuallyVerifiedActive 9647、茨城県 localOfficial 207）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+  - 次:
+    - 茨城県公式棚卸し006として、08224守谷市、08225常陸大宮市、08226那珂市、08227筑西市を自治体コード順に確認する。
+
+- 茨城県公式棚卸し006
+  - 対象:
+    - 08224 守谷市、08225 常陸大宮市、08226 那珂市、08227 筑西市。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補数1117件から個別制度候補110件の詳細スニペットを再スコアリングした。
+    - 既掲載公式URL、県・国制度重複、カテゴリ導線、検索結果、金額又は受付状況不足、制度主体整理が必要な候補を除外し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で揃うページのみ採用した。
+  - 採用:
+    - 守谷市4件: 介護人材確保、防犯カメラ、妊婦支援、在宅障がい児福祉手当。
+    - 常陸大宮市5件: 結婚新生活、空き家改修、空き家解体、住宅取得、浄化槽。
+    - 那珂市6件: 蓄電システム、危険ブロック塀、木造住宅耐震、自転車ヘルメット、紙おむつ、妊婦支援。
+    - 筑西市13件: 住宅リフォーム、要配慮者避難、宿泊避難、防災士、自主防災、排水設備、まちづくり、生ごみ処理機、ごみ集積所、防犯カメラ、自転車ヘルメット、木造住宅耐震、犯罪被害者見舞金。
+  - 生成ファイル:
+    - `tasks/discovery/ibaraki-official-coverage-006-municipalities.json`
+    - `tasks/discovery/ibaraki-official-coverage-006-candidates.json`（raw候補、gitignore対象）
+    - `tasks/discovery/ibaraki-official-coverage-006-detail-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-006.json`
+  - 検証:
+    - 追加slug重複: pass（28件、全9349slugでduplicateCount 0）。
+    - 公式URL到達: pass（28件すべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9711、officialLinkedActive 9673、manuallyVerifiedActive 9673、茨城県 localOfficial 233）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+  - 次:
+    - 茨城県公式棚卸し007として、08228坂東市、08229稲敷市、08230かすみがうら市、08231桜川市を自治体コード順に確認する。
+
+- 茨城県公式棚卸し007
+  - 対象:
+    - 08228 坂東市、08229 稲敷市、08230 かすみがうら市、08231 桜川市。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補数1143件・HTML候補1100件のため本文スニペット200件をローカルJSONへ抽出して再スコアリングした。
+    - 公式サイト内検索と個別ページ到達確認を追加し、公式追加根拠52件を確認した。
+    - 既掲載公式URL、国・県制度案内、カテゴリ導線、期限切れ、社協等の外部主体制度、金額又は受付状況不足の候補を除外し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で揃うページのみ採用した。
+  - 採用:
+    - 坂東市11件: 危険ブロック塀撤去、家庭用防犯カメラ、ふるさと納税返礼品開発、奨学金返還、医療福祉職奨学金返還、おたふくかぜワクチン、結婚新生活、子育て世代定住、工業団地人材確保移住、移住支援金、妊婦支援。
+    - 稲敷市10件: 住宅リフォーム、蓄電池、小中学生検定料、スマート農業、妊婦支援、結婚新生活、奨学資金、ヨアトミ奨学資金、若年世帯住宅取得、犯罪被害者見舞金。
+    - かすみがうら市6件: 新時代対応型事業展開、霞ヶ浦聖苑使用料、排水設備接続、高齢者補聴器、妊婦支援、結婚新生活。
+    - 桜川市15件: 各種検定料、妊婦支援、区体力づくり、出会いサポートセンター、結婚お祝い金、子育て3step、住宅取得、高齢者配食、移住支援金、帯状疱疹ワクチン、禁煙サポート、賑わい創業、石材業技術者育成、産業立地、犯罪被害者見舞金。
+  - 生成ファイル:
+    - `tasks/discovery/ibaraki-official-coverage-007-municipalities.json`
+    - `tasks/discovery/ibaraki-official-coverage-007-candidates.json`（raw候補、gitignore対象）
+    - `tasks/discovery/ibaraki-official-coverage-007-detail-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-007-official-extra.json`
+    - `tasks/discovery/ibaraki-official-coverage-007.json`
+  - 検証:
+    - 追加slug重複: pass（42件、全9391slugでduplicateCount 0）。
+    - 公式URL到達: pass（42件すべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9753、officialLinkedActive 9715、manuallyVerifiedActive 9715、茨城県 localOfficial 275）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+  - 次:
+    - 茨城県公式棚卸し008として、08232神栖市、08233行方市、08234鉾田市、08235つくばみらい市を自治体コード順に確認する。
+
+- 茨城県公式棚卸し008
+  - 対象:
+    - 08232 神栖市、08233 行方市、08234 鉾田市、08235 つくばみらい市。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補数693件・HTML候補667件から本文スニペット240件をローカルJSONへ抽出して再スコアリングした。
+    - 追加で公式本文28件を個別取得し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページのみ採用した。
+    - 既掲載公式URL、カテゴリ導線、一覧、申請期限切れ、貸付のみ、金額不足、今回個別URL未確定の候補は採用しないか第2巡台帳へ残した。
+  - 採用:
+    - 神栖市10件: 妊婦支援、不妊治療先進医療、一般不妊治療、婚活支援、無痛分娩、不育症、新生児聴覚検査、骨髄ドナー、蜂の巣駆除、教育ローン利子補給。
+    - 行方市2件: 6次産業化支援、生ごみ処理容器。
+    - 鉾田市3件: 省エネエアコン、蓄電システム、敬老長寿応援食事券。
+    - つくばみらい市10件: 蓄電システム、妊婦支援、出会いサポートセンター入会登録料、先進医療不妊治療、妊産婦・乳児タクシー、高等職業訓練、不妊治療、初回産科受診、不育症、産婦健康診査。
+  - 生成ファイル:
+    - `tasks/discovery/ibaraki-official-coverage-008-municipalities.json`
+    - `tasks/discovery/ibaraki-official-coverage-008-candidates.json`（raw候補、gitignore対象）
+    - `tasks/discovery/ibaraki-official-coverage-008-detail-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-008-official-extra.json`
+    - `tasks/discovery/ibaraki-official-coverage-008.json`
+  - 検証:
+    - 追加prefix slug重複: pass（既存神栖1件を含む26件、全9416slugでduplicateCount 0）。
+    - 公式URL到達: pass（既存神栖1件を含む26件すべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9778、officialLinkedActive 9740、manuallyVerifiedActive 9740、茨城県 localOfficial 300）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 行方市の感震ブレーカー、防犯カメラ、食料品等価格高騰対策支援金、英語検定料、狩猟免許、環境整備促進事業は個別本文URL・必須項目確認が未完了のため第2巡に残す。
+  - 次:
+    - 茨城県公式棚卸し009として、08236小美玉市、08302茨城町、08309大洗町、08310城里町を自治体コード順に確認する。
+
+- 茨城県公式棚卸し009
+  - 対象:
+    - 08236 小美玉市、08302 茨城町、08309 大洗町、08310 城里町。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補数1172件・HTML候補1158件のため本文スニペット260件をローカルJSONへ抽出して再スコアリングした。
+    - 公式本文36件を個別取得し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページのみ採用した。
+    - 既掲載公式URL、カテゴリ導線、一覧、期限切れ、予算枠消化済み、貸付のみ、国制度案内、令和8年度受付状況が不足するページは採用しないか第2巡台帳へ残した。
+  - 採用:
+    - 小美玉市10件: 奨学金返還、浄化槽、移住支援金、若年世帯等住宅取得、防音サッシ、地方就職学生、下水道接続、出産祝い、妊婦支援、妊産婦タクシー。
+    - 茨城町4件: 省エネ家電買換え、中小企業等エネルギー価格高騰対策、家庭用防犯カメラ、合併処理浄化槽。
+    - 大洗町12件: 住宅リフォーム、木造住宅耐震改修、危険ブロック塀撤去、空き家リフォーム、空き家解体・跡地利用、木造住宅耐震診断士派遣、合併処理浄化槽、三世代同居・近居住宅増改築、定住促進、生ごみ処理容器、太陽光発電、ハチ駆除。
+    - 城里町5件: 在宅育児手当、医療福祉費支給制度、次世代育成支援金、補聴器購入費、未就学児給食費無償化。
+  - 生成ファイル:
+    - `tasks/discovery/ibaraki-official-coverage-009-municipalities.json`
+    - `tasks/discovery/ibaraki-official-coverage-009-candidates.json`（raw候補、gitignore対象）
+    - `tasks/discovery/ibaraki-official-coverage-009-detail-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-009-official-extra.json`
+    - `tasks/discovery/ibaraki-official-coverage-009.json`
+  - 検証:
+    - 追加slug重複: pass（31件、全9447slugでduplicateCount 0）。
+    - 公式URL到達: pass（31件すべてHTTP 200）。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9809、officialLinkedActive 9771、manuallyVerifiedActive 9771、茨城県 localOfficial 331）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 大洗町の蓄電池は補助基数残0基のため採用しない。大洗町の家庭用防犯カメラは本文が令和7年度継続実施で令和8年度受付状況が不足するため第2巡へ残す。城里町の高年者クラブ事業補助金と物価高対応子育て応援手当は期限超過のため採用しない。
+  - 次:
+    - 茨城県公式棚卸し010として、08341東海村、08364大子町、08442美浦村、08443阿見町を自治体コード順に確認する。
+
+- 茨城県公式棚卸し010
+  - 対象:
+    - 08341 東海村、08364 大子町、08442 美浦村、08443 阿見町。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補数816件のため本文スニペット263件をローカルJSONへ抽出して再スコアリングした。
+    - 公式本文49件を個別取得し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページを優先採用した。
+    - 公式カテゴリ、一覧、期限超過、予算上限到達で受付終了、重複、現在年度の受付状況が不足するページは採用しないか第2巡台帳へ残した。
+  - 採用:
+    - 東海村11件: 住宅防犯対策、保育士等就労支援、製品開発、省力化・生産性向上設備、省エネ設備、販路拡大、農業用ビニールハウス、鳥獣被害防止、こども・わかもの応援給付、低所得妊婦初回産科受診、マル特。
+    - 大子町8件: 住宅リフォーム、木造住宅耐震改修等、空き家バンクリフォーム、移住支援金、子育て世帯住宅建設、木造住宅建設、イノシシ等防護柵、英検等検定料・テキスト購入。
+    - 美浦村9件: 住宅リフォーム、定住促進、幼児教育・保育無償化、高齢者補聴器、結婚新生活、小児医療、妊産婦医療、スズメバチ駆除、難病患者支援費。
+    - 阿見町7件: 木造住宅耐震化、犬猫不妊去勢、出会いサポートセンター入会登録料、軽度・中等度難聴児補聴器、国保ドック、後期ドック、集会施設等。
+  - 生成ファイル:
+    - `tasks/discovery/ibaraki-official-coverage-010-municipalities.json`
+    - `tasks/discovery/ibaraki-official-coverage-010-candidates.json`（raw候補、gitignore対象）
+    - `tasks/discovery/ibaraki-official-coverage-010-detail-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-010-official-extra.json`
+    - `tasks/discovery/ibaraki-official-coverage-010.json`
+  - 検証:
+    - 追加slug重複: pass（35件、全9482slugでduplicateCount 0）。
+    - 公式URL到達: pass（35件すべてHTTP 200）。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9844、officialLinkedActive 9806、manuallyVerifiedActive 9806、茨城県 localOfficial 366）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 東海村の自転車用ヘルメット購入補助券は令和8年度予算上限到達で受付終了のため採用しない。東海村の創業向け融資利子補助、環境にやさしい農産物栽培奨励補助、産業活性化奨励金、70周年企画公募、妊婦支援給付、在宅育児手当は本文必須項目又は現在受付状況の再確認を第2巡へ残す。
+    - 大子町の水郡線観光・集客行事等連携事業費補助金、パークアンドライド推進事業補助金、男子HPVワクチン任意接種、大学生インターン受入、不育症治療費助成は第2巡へ残す。
+    - 美浦村の村民海外研修補助金は令和4年度人数表記が残るため第2巡へ残す。阿見町の町民活動支援補助金は令和8年度募集期間が期限超過のため採用しない。
+  - 次:
+    - 茨城県公式棚卸し011として、08447河内町、08521八千代町、08542五霞町、08546境町を自治体コード順に確認する。
+
+- 茨城県公式棚卸し011
+  - 対象:
+    - 08447 河内町、08521 八千代町、08542 五霞町、08546 境町。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補数1129件のため本文スニペット217件をローカルJSONへ抽出して再スコアリングした。
+    - 公式本文80件を個別取得し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページを優先採用した。
+    - 公式カテゴリ、一覧、期限超過、予算終了、金額不明、PDF等の本文不足、現在年度の受付状況が不足するページは採用しないか第2巡台帳へ残した。
+  - 採用:
+    - 河内町8件: 上水道未給水世帯支援給付金、住宅リフォーム、移住支援金、空き家等解体、浄化槽、木造住宅耐震診断士派遣、危険ブロック塀等撤去、家庭用防犯カメラ。
+    - 八千代町10件: 赤ちゃん用品購入、子ども医療自己負担無償化、出産子育て奨励金、チャイルドシート・ジュニアシート、生ごみ自家処理機器、防災士資格取得、婚活イベント参加費、出会いサポートセンター会員登録、事業所DX、狩猟免許等取得。
+    - 五霞町3件: 結婚新生活、自立・分散型エネルギー設備、木造住宅耐震診断士派遣。
+    - 境町1件: 高速バス通学定期券購入費助成。
+  - 生成ファイル:
+    - `tasks/discovery/ibaraki-official-coverage-011-municipalities.json`
+    - `tasks/discovery/ibaraki-official-coverage-011-candidates.json`（raw候補、gitignore対象）
+    - `tasks/discovery/ibaraki-official-coverage-011-detail-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-011-official-extra.json`
+    - `tasks/discovery/ibaraki-official-coverage-011.json`
+  - 検証:
+    - 追加slug重複: pass（22件、全9504slugでduplicateCount 0）。
+    - 公式URL到達: pass（22件すべてHTTP 200）。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9866、officialLinkedActive 9828、manuallyVerifiedActive 9828、茨城県 localOfficial 388）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 河内町の省エネ家電買換え補助、定住促進、空き家活用促進、ブランド化支援、男性HPV、任意予防接種、ドック助成、高齢者安全運転支援装置は金額又は現在年度受付状況の追加確認を第2巡へ残す。
+    - 八千代町の不育症・特定不妊治療・妊産婦マル福は制度整理又は本文抽出不足のため第2巡へ残す。高校生キャリアアップ応援事業補助金は申請期限超過、立地企業環境整備補助金は現行受付確認不足のため採用しない。
+    - 五霞町の物価高騰対策生活者支援給付金、保育教諭就労奨励金は申請期限超過のため採用しない。カメムシ防除支援は金額確認不足のため第2巡へ残す。
+    - 境町の国民健康保険人間ドック助成は令和8年度受付期間が期限超過のため採用しない。
+  - 次:
+    - 茨城県公式棚卸し012として、08564利根町から自治体コード順に確認する。
+
+- 茨城県公式棚卸し012
+  - 対象:
+    - 08564 利根町。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補281件を本文スニペット付きローカルJSONへ抽出して再スコアリングした。
+    - 公式本文11件と新築マイホーム取得助成金の添付PDFを確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページを優先採用した。
+    - 公式カテゴリ、一覧、施政方針、期限超過、県制度案内、金銭給付ではない証明・認定ページ、現在年度の受付状況が不足するページは採用しないか第2巡台帳へ残した。
+  - 採用:
+    - 利根町8件: 空き店舗等活用創業期支援、新築マイホーム取得、パワーアップ融資信用保証料、下水道接続支援、結婚新生活、木造住宅耐震診断士派遣・耐震補強、出会いサポートセンター入会登録料、犯罪被害者等支援見舞金。
+  - 生成ファイル:
+    - `tasks/discovery/ibaraki-official-coverage-012-municipalities.json`
+    - `tasks/discovery/ibaraki-official-coverage-012-candidates.json`（raw候補、gitignore対象）
+    - `tasks/discovery/ibaraki-official-coverage-012-detail-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-012-official-extra.json`
+    - `tasks/discovery/ibaraki-official-coverage-012.json`
+  - 検証:
+    - 追加slug重複: pass（8件、全9512slugでduplicateCount 0）。
+    - 公式URL到達: pass（8件すべてHTTP 200）。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9874、officialLinkedActive 9836、manuallyVerifiedActive 9836、茨城県 localOfficial 396）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 定額減税補足給付金（不足額給付）は公式ページ上の申請期限が令和7年10月31日で期限超過のため採用しない。
+    - 令和7年度中小企業人材育成支援事業補助金は茨城県制度の案内で、申請期限が令和8年1月30日で期限超過のため採用しない。
+    - 利根町創業支援等事業計画は特定創業支援等事業の証明・認定案内であり、町の直接給付制度ではないため採用しない。
+  - 次:
+    - 栃木県公式棚卸し001として、09201宇都宮市、09202足利市、09203栃木市、09204佐野市を自治体コード順に確認する。
+
+- 栃木県公式棚卸し001
+  - 対象:
+    - 09201 宇都宮市、09202 足利市、09203 栃木市、09204 佐野市。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補1175件を本文スニペット付きローカルJSONへ抽出して再スコアリングした。
+    - 栃木市・佐野市は公式カテゴリ配下も深掘りし、公式本文36件を個別取得して、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページを優先採用した。
+    - 既存 `officialUrl` と照合し、足利市街頭用消火器等購入費助成金と佐野市移住支援金は既存制度重複のため追加しない。
+  - 採用:
+    - 宇都宮市3件: 止水板等設置費、がけ地近接等危険住宅移転、災害見舞金。
+    - 足利市1件: 避難所等生活環境整備事業非常用電源機器購入費。
+    - 栃木市10件: とちぎで暮らそIJU支援、空き物件活用出店促進、マル経融資利子補助、住宅用低炭素設備、犬猫不妊手術、省エネ診断支援、自主防災組織、防犯カメラ設置、被災者住宅復旧支援、アピアランスケア。
+    - 佐野市6件: 骨髄移植ドナー支援、浄化槽設置、がん患者医療用ウィッグ等、市産材活用住まいづくり、若年がん患者在宅サービス、自動車改造費。
+  - 生成ファイル:
+    - `tasks/discovery/tochigi-official-coverage-001-municipalities.json`
+    - `tasks/discovery/tochigi-official-coverage-001-detail-snippets.json`
+    - `tasks/discovery/tochigi-official-coverage-001-deep-links.json`
+    - `tasks/discovery/tochigi-official-coverage-001-official-extra.json`
+    - `tasks/discovery/tochigi-official-coverage-001.json`
+  - 検証:
+    - 追加slug重複: pass（20件、全9532slugでduplicateCount 0）。
+    - 公式URL到達: pass（20件すべてHTTP 200）。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9894、officialLinkedActive 9856、manuallyVerifiedActive 9856、栃木県 localOfficial 158）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 栃木市の空き店舗活用促進、結婚・妊娠・共育て支援、いきいきサロン、ブロック塀等撤去改修、狭あい道路拡幅、制度融資、奨学金返還支援、通学者定期券、わな猟免許、東京都通勤者支援、敬老会事業等は、本文必須項目の追加確認又は重複・期限判定を第2巡へ残す。
+    - 佐野市の大学生等資格試験等受験料補助金は実制度ページの確認を第2巡へ残す。
+  - 次:
+    - 栃木県公式棚卸し002として、09205鹿沼市、09206日光市、09208小山市、09209真岡市を自治体コード順に確認する。
+
+- 栃木県公式棚卸し002
+  - 対象:
+    - 09205 鹿沼市、09206 日光市、09208 小山市、09209 真岡市。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補727件、本文スニペット726件をローカルJSONへ抽出して再スコアリングした。
+    - 日光市・真岡市は公式sitemapのURLだけでは制度語が拾えないため、sitemap掲載ページ本文を取得して制度語・金額・期限表現を再判定した。
+    - 公式本文36件を個別確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページを優先採用した。
+  - 採用:
+    - 鹿沼市8件: 養育費公正証書等作成支援、高等職業訓練促進、自立支援教育訓練、チャイルドシート購入、住宅リフォーム、生ごみ処理機等設置、結婚新生活、新卒者就職祝金。
+    - 日光市8件: 不妊治療、不育症治療、結婚新生活、介護支援専門員等研修、若年がん患者在宅ターミナルケア、成人女性等風しん予防接種、がん患者ウィッグ等、補助犬飼育費等。
+    - 小山市0件: 抽出3件はいずれも制度詳細ページへの案内又は必須項目不足のため第2巡へ残す。
+    - 真岡市7件: 結婚新生活、介護福祉士資格取得、就労者定住促進奨学金返還、小中学生英検・漢検、がん患者医療用ウィッグ等、若年者在宅ターミナルケア、風しん・MRワクチン任意予防接種。
+  - 生成ファイル:
+    - `tasks/discovery/tochigi-official-coverage-002-municipalities.json`
+    - `tasks/discovery/tochigi-official-coverage-002-candidates.json`（raw候補）
+    - `tasks/discovery/tochigi-official-coverage-002-detail-snippets.json`
+    - `tasks/discovery/tochigi-official-coverage-002-sitemap-scan.json`
+    - `tasks/discovery/tochigi-official-coverage-002-sitemap-keyword-pages.json`
+    - `tasks/discovery/tochigi-official-coverage-002-official-extra.json`
+    - `tasks/discovery/tochigi-official-coverage-002.json`
+  - 検証:
+    - 追加slug重複: pass（23件、全9555slugでduplicateCount 0）。
+    - 公式URL到達: pass（23件すべてHTTP 200）。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9917、officialLinkedActive 9879、manuallyVerifiedActive 9879、栃木県 localOfficial 181）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 小山市の新幹線通勤補助金、地方就職支援金、若者・子育て世帯田園部移住支援補助金は、抽出ページが制度詳細ページへの案内又は要件不足だったため詳細URL・添付資料を第2巡で確認する。
+    - 日光市省エネ家電購入費補助金は公式ページ上で令和7年2月28日受付終了、日光市耐震診断士派遣制度は令和8年度受付残0のため採用しない。
+    - 鹿沼市いちごっこ地域活動応援事業補助金は令和8年度事前申込期間後の予算余裕受付の現在状況を第2巡で確認する。
+    - 鹿沼市妊産婦医療費助成・ひとり親家庭医療費助成、日光市奨学金貸付制度、真岡市こども補装具費用助成は制度整理又は金額表現の粒度確認を第2巡へ残す。
+  - 次:
+    - 栃木県公式棚卸し003として、09210大田原市、09211矢板市、09213那須塩原市、09214さくら市を自治体コード順に確認する。
+
+- 栃木県公式棚卸し003
+  - 対象:
+    - 09210 大田原市、09211 矢板市、09213 那須塩原市、09214 さくら市。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補963件、本文スニペット954件をローカルJSONへ抽出して再スコアリングした。
+    - 那須塩原市は初回候補が36件と弱かったため、公式ドメイン内検索で個別制度ページを補完し、公式本文を再取得した。
+    - 既存 `officialUrl` と照合し、既存掲載・カテゴリページ・FAQ・受付終了ページを除外したうえで、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページを採用した。
+  - 採用:
+    - 大田原市5件: 起業再出発支援、企業立地優遇、野生鳥獣防護柵、特殊詐欺対策電話機等購入、飼い犬・飼い猫避妊去勢手術費。
+    - 矢板市4件: 正規雇用支援、就業イベント等催事出展、海外販路開拓、定住ミニサポート。
+    - 那須塩原市8件: オフィス整備費、移住支援助成、産業連携サポート、中小企業産業財産権取得、子育て応援券、こどもの居場所づくり、脱炭素アドバイザー資格取得、中小企業向けSBT認定取得。
+    - さくら市0件: 既存検証済み9件以外に、今回候補で必須項目が揃う新規個別制度ページを確認できず。
+  - 生成ファイル:
+    - `tasks/discovery/tochigi-official-coverage-003-municipalities.json`
+    - `tasks/discovery/tochigi-official-coverage-003-candidates.json`（raw候補）
+    - `tasks/discovery/tochigi-official-coverage-003-detail-snippets.json`
+    - `tasks/discovery/tochigi-official-coverage-003-official-extra.json`
+    - `tasks/discovery/tochigi-official-coverage-003.json`
+  - 検証:
+    - 追加slug重複: pass（17件、全9572slugでduplicateCount 0）。
+    - 公式URL到達: pass（17件すべてHTTP 200）。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9934、officialLinkedActive 9896、manuallyVerifiedActive 9896、栃木県 localOfficial 198）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 大田原市の中山間地域等直接支払交付金、物価高騰対応重点支援地方創生臨時交付金、児童手当FAQ群は、支払状況・国交付金説明・FAQで個別申請制度としての必須項目不足のため第2巡へ残す。
+    - 矢板市の住まいるリフォーム補助金は令和8年3月31日までの旧制度で、現行のやいたぐらし応援補助金既存掲載との関係整理が必要なため第2巡へ残す。県補助の海外販路開拓・拡大支援事業費補助金は県制度案内のため追加しない。
+    - 那須塩原市の物価高対応子育て応援手当は申請受付が令和8年4月30日で終了済み、電気自動車等補助事業・事業者向け電気自動車等補助事業は主要車両区分が予算上限到達で受付終了のため採用しない。
+    - さくら市の軽自動車税減免等の税減免ページは、助成制度としての掲載粒度を第2巡で整理する。
+  - 次:
+    - 栃木県公式棚卸し004として、09215那須烏山市、09216下野市、09301上三川町、09342益子町を自治体コード順に確認する。
+
+- 栃木県公式棚卸し004
+  - 対象:
+    - 09215 那須烏山市、09216 下野市、09301 上三川町、09342 益子町。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補1,209件をローカルJSONへ保存した。
+    - `tasks/discovery/tochigi-official-coverage-004-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現、再スコアを抽出し、那須烏山市・下野市の個別ページを優先確認した。
+    - 上三川町・益子町は初回crawl候補がカテゴリ・導線寄りだったため、公式ドメイン内の個別制度ページを追加取得し、`tasks/discovery/tochigi-official-coverage-004-official-extra.json` に保存した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページのみ採用した。
+  - 採用:
+    - 那須烏山市10件: 住宅リフォーム、移住ファミリー家賃、空き家バンク住宅改修、結婚新生活、住宅取得、地方就職支援、とちぎ結婚支援センター登録、骨髄等移植ドナー、地域ふれあい活動、自治会集会施設整備等。
+    - 下野市8件: 就学援助、奨学金償還一部免除、妊婦のための支援給付、低所得妊婦初回産科受診料、自立支援教育訓練、高等職業訓練、高卒認定試験合格支援、学童保育料減免。
+    - 上三川町3件: 定住促進住宅取得支援金、移住支援事業、原油価格・物価高騰対策農業者支援事業交付金。
+    - 益子町5件: 起業支援、地場産業育成、移住支援金、若年層等UIJターン支援、物価高騰対策地域通貨支給。
+  - 生成ファイル:
+    - `tasks/discovery/tochigi-official-coverage-004-municipalities.json`
+    - `tasks/discovery/tochigi-official-coverage-004-candidates.json`（raw候補）
+    - `tasks/discovery/tochigi-official-coverage-004-detail-snippets.json`
+    - `tasks/discovery/tochigi-official-coverage-004-official-extra.json`
+    - `tasks/discovery/tochigi-official-coverage-004.json`
+  - 検証:
+    - 追加slug重複: pass（26件、全9598slugでduplicateCount 0）。
+    - 公式URL到達: pass（26件すべてHTTP 200）。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9959、officialLinkedActive 9921、manuallyVerifiedActive 9921、栃木県 localOfficial 223）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 那須烏山市の木造住宅耐震診断・耐震改修、企業誘致・立地支援、がん患者医療用ウィッグ・乳房補整具、特定空家等除却は金額区分・受付状況を第2巡で再確認する。
+    - 下野市の英検検定料助成は一覧導線で候補確認したが、個別ページ又は公式PDFの対象・金額・申請期間確認を第2巡へ残す。
+    - 上三川町の省エネ家電、家庭用脱炭素設備、エネルギー価格等高騰対策支援金、赤ちゃん誕生祝金、スマート農業技術導入支援は、公式本文・添付資料の金額表を精査してから掲載判定する。
+    - 益子町の若者定住促進住まいづくり奨励金は取得期限後の申請可能性を再確認する。子育て・教育ページ内の複数給付は個別ページ又は支給要綱の安定URL確認を第2巡へ残す。
+  - 次:
+    - 栃木県公式棚卸し005として、09343茂木町、09344市貝町、09345芳賀町、09361壬生町を自治体コード順に確認する。
+
+- 栃木県公式棚卸し005
+  - 対象:
+    - 09343 茂木町、09344 市貝町、09345 芳賀町、09361 壬生町。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補507件をローカルJSONへ保存した。
+    - `tasks/discovery/tochigi-official-coverage-005-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現を抽出し、個別制度ページを優先確認した。
+    - 芳賀町・壬生町は公式ドメイン内の個別制度ページを補完し、`tasks/discovery/tochigi-official-coverage-005-official-extra.json` に保存した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページのみ採用した。
+  - 採用:
+    - 茂木町7件: 省エネ家電製品購入費、生ごみ処理機等購入費、木造住宅耐震診断士派遣・耐震改修等、特定空家等除却、新築住宅固定資産税、住宅取得資金利子補給、医療用ウィッグ・乳房補整具購入費。
+    - 市貝町4件: ごみ収集ステーション整備、生ごみ処理機設置、高等学校等通学支援、住宅リフォーム支援。
+    - 芳賀町5件: 省エネ家電買換え、太陽光発電等整備費、スマート農業技術導入支援、人間ドック・脳ドック検診、通院時タクシー利用助成。
+    - 壬生町5件: 結婚新生活支援、人間ドック・脳ドック検診費用、雨水貯留浸透施設設置費、特殊詐欺対策電話機等購入費、とちぎ結婚支援センター入会登録。
+  - 生成ファイル:
+    - `tasks/discovery/tochigi-official-coverage-005-municipalities.json`
+    - `tasks/discovery/tochigi-official-coverage-005-candidates.json`（raw候補）
+    - `tasks/discovery/tochigi-official-coverage-005-detail-snippets.json`
+    - `tasks/discovery/tochigi-official-coverage-005-official-extra.json`
+    - `tasks/discovery/tochigi-official-coverage-005.json`
+  - 検証:
+    - 追加slug重複: pass（21件、全9619slugでduplicateCount 0）。
+    - 公式URL到達: pass（21件すべてHTTP 200）。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9979、officialLinkedActive 9941、manuallyVerifiedActive 9941、栃木県 localOfficial 243）。
+  - 補正:
+    - 栃木004で追加した那須烏山市・上三川町・益子町の一部カテゴリに、型定義外の `community`、`agriculture`、`business` が混入していたため、既存カテゴリの `living`、`employment` へ補正した。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 市貝町の創業・起業支援補助金は、公式ページ本文の補助率・上限内訳を第2巡で要綱又は添付資料まで確認する。
+    - 芳賀町のにこっと子育て応援給付金は、旧伴走型相談支援給付と現行の妊婦支援給付への移行状況を第2巡で整理する。
+    - 芳賀町スマート農業技術導入支援事業補助金は公式本文で2026年6月30日締切済みを確認したため、期限切れ制度として扱う。次巡で翌年度更新の有無を確認する。
+    - 壬生町の空家解体事業補助金は公式ページで令和8年度募集一時停止中を確認したため採用しない。園芸作物生産拡大支援事業はURL到達と補助率表の安定確認を第2巡へ残す。
+  - 次:
+    - 栃木県公式棚卸し006として、09364野木町、09384塩谷町、09386高根沢町、09407那須町を自治体コード順に確認する。
+
+- 栃木県公式棚卸し006
+  - 対象:
+    - 09364 野木町、09384 塩谷町、09386 高根沢町、09407 那須町。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補494件をローカルJSONへ保存した。
+    - `tasks/discovery/tochigi-official-coverage-006-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現、再スコアを抽出した。
+    - 塩谷町・高根沢町・那須町は公式ドメイン内検索で個別制度ページを補完し、`tasks/discovery/tochigi-official-coverage-006-official-extra.json` に35件の公式本文スニペットを保存した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページのみ採用した。
+  - 採用:
+    - 野木町10件: スタートアップ支援、住宅用脱炭素化普及促進設備、定住促進住宅購入、平地林危険木伐採等、ブロック塀等撤去、木造住宅耐震診断・改修・建替、自転車ヘルメット、家庭用防犯対策、地方就職支援、ガバメントクラウドファンディング活用支援。
+    - 塩谷町8件: 妊婦のための支援給付、住宅リフォーム等、空き家等解体、高等学校等通学支援、地域経済循環創造事業、自治公民館建設費等、こども医療費、こだから休暇奨励金。
+    - 高根沢町9件: 犯罪被害者等見舞金、結婚新生活支援、家庭向け脱炭素化、企業立地促進、事業所向け脱炭素化、空家等解体、こども医療費、ひとり親家庭医療費、自主防災組織活動支援。
+    - 那須町3件: 移住支援、那須が大好き応援券、芦野石利用促進。
+  - 生成ファイル:
+    - `tasks/discovery/tochigi-official-coverage-006-municipalities.json`
+    - `tasks/discovery/tochigi-official-coverage-006-candidates.json`（raw候補）
+    - `tasks/discovery/tochigi-official-coverage-006-detail-snippets.json`
+    - `tasks/discovery/tochigi-official-coverage-006-official-extra.json`
+    - `tasks/discovery/tochigi-official-coverage-006.json`
+  - 検証:
+    - 追加slug重複: pass（30件、全9649slugでduplicateCount 0）。
+    - 公式URL到達: pass（30件すべてHTTP 200）。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10009、officialLinkedActive 9971、manuallyVerifiedActive 9971、栃木県 localOfficial 273）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 野木町の定額減税調整給付金（不足額給付分）は申請期間終了のため、第2巡で期限切れ表示粒度を判定する。水道基本料金70%減免は自動減免で個別申請制度ではないため掲載粒度を第2巡で整理する。
+    - 塩谷町の家庭用ゼロカーボン推進事業費補助金は、HTML本文で設備別補助額表の抽出が不足したため、添付PDF又は表を第2巡で確認する。
+    - 高根沢町の園芸作物推進支援事業費補助事業は令和8年度予算到達で現在申請受付停止のため、再開状況を第2巡で確認する。
+    - 那須町の移住・定住助成一覧ページは個別制度URLではないため台帳に残し、一覧内の他制度は第2巡で個別ページ確認する。
+  - 次:
+    - 栃木県公式棚卸し007として、09411那珂川町を自治体コード順に確認する。
+
+- 栃木県公式棚卸し007
+  - 対象:
+    - 09411 那珂川町。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補73件をローカルJSONへ保存した。
+    - `tasks/discovery/tochigi-official-coverage-007-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現、再スコアを抽出した。
+    - 公式HTMLサイトマップとカテゴリページから個別制度ページを補完し、`tasks/discovery/tochigi-official-coverage-007-sitemap-links.json` と `tasks/discovery/tochigi-official-coverage-007-official-extra.json` に保存した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページのみ採用した。
+  - 採用:
+    - 那珂川町32件: 農作業省力化対策、高校生等通学支援、人間ドック・脳ドック、在宅介護紙おむつ、結婚新生活支援、とちぎ結婚支援センター登録料、出産・子育て応援ギフト、先天性股関節脱臼検診、不妊等治療、こども医療費、妊産婦医療費、県立馬頭高校通学費等、入学・進学支援金、学校給食費全額減免、浄化槽設置整備、生ごみ処理機器、環境学習会開催、環境人材育成、運転免許証自主返納、木造住宅耐震改修・建替え、木材需要拡大、空き家取得、空き店舗等活用、空き家改修、特殊詐欺電話撃退機器、がん患者医療用ウィッグ・乳房補整具、骨髄移植ドナー、インフルエンザ予防接種、ぐるっとなかがわ応援券、奨学金（貸与）、物価高対応子育て応援手当、水道基本料金免除。
+  - 生成ファイル:
+    - `tasks/discovery/tochigi-official-coverage-007-municipalities.json`
+    - `tasks/discovery/tochigi-official-coverage-007-candidates.json`（raw候補）
+    - `tasks/discovery/tochigi-official-coverage-007-detail-snippets.json`
+    - `tasks/discovery/tochigi-official-coverage-007-sitemap-links.json`
+    - `tasks/discovery/tochigi-official-coverage-007-official-extra.json`
+    - `tasks/discovery/tochigi-official-coverage-007.json`
+  - 検証:
+    - 追加slug重複: pass（全9681slugでduplicateCount 0）。
+    - 公式URL到達: pass（追加31URLすべてHTTP 200）。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10039、officialLinkedActive 10001、manuallyVerifiedActive 10001、栃木県 localOfficial 303）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 那珂川町低炭素まちづくり推進設備等導入事業費補助金はHTML本文で対象設備と受付期間を確認したが、設備別補助額表がPDF側のため第2巡で金額表を確認する。
+    - ぐるっとなかがわ応援券は公式本文で配布・利用期限を確認したが、対象者リンク先の1人あたり金額を第2巡で確認する。
+    - 那珂川町医療費助成ページ内のひとり親家庭医療費・重度心身障害者医療費・未熟児養育医療・育成医療は対象・自己負担・申請粒度を第2巡で分割確認する。
+  - 次:
+    - 群馬県公式棚卸し001として、自治体コード順に未完了自治体を確認する。
+
+- 群馬県公式棚卸し001
+  - 対象:
+    - 10000 群馬県庁、10201 前橋市、10202 高崎市、10203 桐生市。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補274件をローカルJSONへ保存した。
+    - `tasks/discovery/gunma-official-coverage-001-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現、既存掲載有無、再スコアを保存した。
+    - 公式補助金一覧・分類ページ・公式検索結果相当から個別制度ページを補完し、`tasks/discovery/gunma-official-coverage-001-official-extra.json` と `tasks/discovery/gunma-official-coverage-001-selected-snippets.json` に保存した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページのみ採用した。
+  - 採用:
+    - 前橋市9件: ごみ減量化器具購入費、スズメバチの巣駆除費、商店街リフレッシュ、いきいき・にぎわい商店街支援、経営計画実行、先進医療不育症検査費用、妊婦のための支援給付、市立小・中学校等学校給食費無償化、不育症治療費。
+    - 高崎市6件: 職場環境改善、6次産業化等推進、住宅用太陽光発電システム導入、住まいの防犯対策、高崎市民商品券、保育士等家賃補助。
+    - 桐生市4件: 移住者住宅取得助成、新店舗開設促進、小規模企業者省エネルギー設備導入、空き家除却助成。
+    - 群馬県庁0件: 公式補助金ポータルを確認したが、今回候補は既存掲載済み又は委託・公募型プロポーザル等が多く、個別補助金追加は第2巡へ回した。
+  - 生成ファイル:
+    - `tasks/discovery/gunma-official-coverage-001-municipalities.json`
+    - `tasks/discovery/gunma-official-coverage-001-candidates.json`（raw候補）
+    - `tasks/discovery/gunma-official-coverage-001-detail-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-001-official-extra.json`
+    - `tasks/discovery/gunma-official-coverage-001-selected-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-001.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（全9700slugでduplicateCount 0）。
+    - 公式URL到達: pass（追加19件すべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10056、officialLinkedActive 10018、manuallyVerifiedActive 10018、群馬県 localOfficial 91）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 群馬県庁の個別補助金は、県補助金ポータル配下の既存掲載済み・公募型プロポーザル等を除外したため、次巡で県庁個別制度を追加確認する。
+    - 前橋市の町内集会施設、農業系、まちなか系、公共下水道接続、詐欺被害防止電話機等は候補台帳に残し、第2巡で金額表・受付状況を確認する。
+    - 高崎市の一般不妊・生殖補助医療費助成、学校給食費補助、まちなか商店リニューアル等は既存掲載済み又は受付終了・制度粒度整理が必要なため第2巡へ残す。
+  - 次:
+    - 群馬県公式棚卸し002として、10204伊勢崎市、10205太田市、10206沼田市、10207館林市を自治体コード順に確認する。
+
+- 群馬県公式棚卸し002
+  - 対象:
+    - 10204 伊勢崎市、10205 太田市、10206 沼田市、10207 館林市。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補327件をローカルJSONへ保存した。
+    - `tasks/discovery/gunma-official-coverage-002-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現、既存掲載有無、再スコアを保存した。
+    - 公式検索結果相当・個別制度ページを補完し、`tasks/discovery/gunma-official-coverage-002-official-extra.json` に保存した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページのみ採用した。
+  - 採用:
+    - 伊勢崎市2件: 中小企業GX推進事業費補助金、小規模事業者サポート補助金。
+    - 太田市6件: 省エネ家電買換促進、市内産業活性化電気自動車購入、家庭用防犯カメラ購入、がん患者ウィッグ等購入費、住宅リフォーム支援、商店リフォーム支援。
+    - 沼田市1件: 人材活用支援金。
+    - 館林市4件: 結婚新生活支援、店舗ウェルカム、定住促進通学支援、脱炭素ライフスタイル推進。
+  - 生成ファイル:
+    - `tasks/discovery/gunma-official-coverage-002-municipalities.json`
+    - `tasks/discovery/gunma-official-coverage-002-candidates.json`（raw候補）
+    - `tasks/discovery/gunma-official-coverage-002-detail-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-002-official-extra.json`
+    - `tasks/discovery/gunma-official-coverage-002.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（全9713slugでduplicateCount 0）。
+    - 公式URL到達: pass（追加13件すべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10067、officialLinkedActive 10029、manuallyVerifiedActive 10029、群馬県 localOfficial 102）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 伊勢崎市の物価高騰対応一覧ページは個別制度ページ粒度ではないものを第2巡台帳に残した。
+    - 伊勢崎市家庭用脱炭素化設備導入補助金は既存officialUrl掲載済みのため追加しなかった。
+    - 館林市市民活動推進事業補助金PDFはPDF本文抽出が不足したため第2巡で再確認する。
+  - 次:
+    - 群馬県公式棚卸し003として、10208渋川市、10209藤岡市、10210富岡市、10211安中市を自治体コード順に確認する。
+
+- 群馬県公式棚卸し003
+  - 対象:
+    - 10208 渋川市、10209 藤岡市、10210 富岡市、10211 安中市。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補341件をローカルJSONへ保存した。
+    - `tasks/discovery/gunma-official-coverage-003-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現、再スコアを保存した。
+    - 公式カテゴリ・一覧ページから個別制度ページを補完し、`tasks/discovery/gunma-official-coverage-003-official-extra.json` に公式本文スニペットを保存した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページのみ採用した。
+  - 採用:
+    - 渋川市8件: 誰もが働きやすい職場環境づくり応援、新規学卒者就業定着、展示会等出展支援、工場等設置奨励、しぶかわde創業チャレンジ、にぎわい創出イベント、住宅エコリフォーム、木造住宅耐震改修。
+    - 藤岡市1件: 藤岡市民商品券。
+    - 富岡市8件: スズメバチ駆除、若者定住促進奨学金返還、木造住宅耐震改修等、危険ブロック塀等撤去、空き家除却、がん患者医療用ウイッグ等購入費、結婚新生活支援、中小企業省エネ設備導入促進支援。
+    - 安中市6件: 安中市民商品券、職場環境改善サポート、ぐんま技術革新チャレンジ、自主防災組織事業、危険ブロック塀等撤去、木造住宅耐震改修。
+  - 生成ファイル:
+    - `tasks/discovery/gunma-official-coverage-003-municipalities.json`
+    - `tasks/discovery/gunma-official-coverage-003-candidates.json`（raw候補）
+    - `tasks/discovery/gunma-official-coverage-003-detail-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-003-official-extra.json`
+    - `tasks/discovery/gunma-official-coverage-003.json`
+  - 検証:
+    - 追加slug重複: pass（23件、全9736slugでduplicateCount 0）。
+    - 公式URL到達: pass（追加23件すべてHTTP 200）。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10089、officialLinkedActive 10051、manuallyVerifiedActive 10051、群馬県 localOfficial 124）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 渋川市の賃上げ促進支援金は県奨励金の周知ページで市独自上乗せ額が確認できないため採用しない。
+    - 渋川市中小企業退職金共済制度加入促進補助金、富岡市6次産業化等推進補助金、安中市防災士資格取得費補助金は金額表・上限又は掲載粒度を第2巡で確認する。
+    - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
+  - 次:
+    - 群馬県公式棚卸し004として、10212みどり市、10344榛東村、10345吉岡町、10366上野村を自治体コード順に確認する。
+
+- 群馬県公式棚卸し004
+  - 対象:
+    - 10212 みどり市、10344 榛東村、10345 吉岡町、10366 上野村。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補312件をローカルJSONへ保存した。
+    - `tasks/discovery/gunma-official-coverage-004-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現、再スコアを保存した。
+    - 公式カテゴリ・一覧ページから個別制度ページを補完し、`tasks/discovery/gunma-official-coverage-004-official-extra.json` に公式本文スニペットを保存した。
+    - 制度強語と金額・対象条件・期限/受付表現が揃う候補44件を `tasks/discovery/gunma-official-coverage-004-selected-snippets.json` と `tasks/discovery/gunma-official-coverage-004-selected-main.json` に抽出した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃う個別ページのみ採用した。
+  - 採用:
+    - みどり市10件: 保育料・副食費・給食費無償化、みどり手当、みどり子育て移住支援、市外小中学校等学校給食費、乳児おむつ用品、新生児聴覚検査、養育費確保、結婚新生活、低所得妊婦初回産科、妊婦のための支援給付。
+    - 榛東村9件: 路線バス通学定期券、地方就職学生支援、通話録音機等購入費、村立小中学校給食費無償化、タクシー利用料金助成（しんタク）、医療用ウィッグ等、骨髄移植ドナー、ハイリスク妊産婦福祉タクシー、住まいの防犯対策。
+    - 吉岡町10件: スズメバチの巣駆除、住宅用太陽光発電システム等、生ごみ処理機器、不妊治療・不育治療、妊婦のための支援給付、合併処理浄化槽、特殊詐欺対策電話機等、ブロック塀等除却、老朽危険空家除却、認定農業者農業経営改善。
+    - 上野村9件: 不妊治療、人間ドック・脳ドック、重度心身障害者住宅改造補修、介護用車両、高齢者住宅改造、奨学金、チャイルドシート、海外研修交流、住宅資金借入金利子。
+  - 生成ファイル:
+    - `tasks/discovery/gunma-official-coverage-004-municipalities.json`
+    - `tasks/discovery/gunma-official-coverage-004-candidates.json`（raw候補）
+    - `tasks/discovery/gunma-official-coverage-004-detail-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-004-official-extra.json`
+    - `tasks/discovery/gunma-official-coverage-004-selected-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-004-selected-main.json`
+    - `tasks/discovery/gunma-official-coverage-004.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（38件、全9774slugでduplicateCount 0）。
+    - 公式URL到達: pass（追加38件すべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10124、officialLinkedActive 10086、manuallyVerifiedActive 10086、群馬県 localOfficial 161）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 吉岡町の公式ドメインは `https://www.town.yoshioka.lg.jp/` を正として採用した。
+    - みどり市の不妊治療・不育症治療関連ページは申請期間が2026年1月31日までのため今回のactive追加から除外した。
+    - 上野村の木造住宅耐震診断、浄化槽関連は金額又は補助粒度の確認が不足したため第2巡候補に残す。
+    - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
+  - 次:
+    - 群馬県公式棚卸し005として、10367神流町、10382下仁田町、10383南牧村、10384甘楽町を自治体コード順に確認する。
+
+- 群馬県公式棚卸し005
+  - 対象:
+    - 10367 神流町、10382 下仁田町、10383 南牧村、10384 甘楽町。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補135件をローカルJSONへ保存した。
+    - `tasks/discovery/gunma-official-coverage-005-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現、再スコアを保存した。
+    - 公式カテゴリ・一覧ページから個別制度ページを補完し、`tasks/discovery/gunma-official-coverage-005-official-extra.json` に公式本文スニペットを保存した。
+    - 制度強語と金額・対象条件・期限/受付表現が揃う候補33件を `tasks/discovery/gunma-official-coverage-005-selected-snippets.json` と `tasks/discovery/gunma-official-coverage-005-selected-main.json` に抽出した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃う個別ページのみ採用した。
+  - 採用:
+    - 神流町2件: 合併処理浄化槽設置費、福祉医療費。
+    - 下仁田町9件: 高校生通学定期券購入費、水道基本料金・メーター使用料減免、介護用車両購入等、補聴器購入、合併処理浄化槽、特定不妊治療・一般不妊治療・不育治療、任意予防接種、妊婦RSウイルス予防接種、物価高騰対応商品券。
+    - 南牧村8件: 結婚・出産祝金、行政区集会施設等、高等学校等通学者支援、転入奨励金、定住促進奨励金、親子留学支援、物価高対応子育て応援手当、物価高騰対策子育て世帯支援。
+    - 甘楽町16件: 住宅リフォーム促進、結婚新生活支援、危険空き家等除却、省エネルギー家電製品等購入費、合併処理浄化槽、宅内排水設備工事費、空き家家財道具等撤去、空き家リフォーム、物価高対応子育て世帯応援、住宅用太陽光発電システム等、木造住宅耐震改修、飼い猫不妊去勢手術費、補聴器購入費、不妊治療費、学校給食費無償化、プレミアム付き商品券。
+  - 生成ファイル:
+    - `tasks/discovery/gunma-official-coverage-005-municipalities.json`
+    - `tasks/discovery/gunma-official-coverage-005-candidates.json`（raw候補）
+    - `tasks/discovery/gunma-official-coverage-005-detail-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-005-official-extra.json`
+    - `tasks/discovery/gunma-official-coverage-005-selected-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-005-selected-main.json`
+    - `tasks/discovery/gunma-official-coverage-005.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（35件、duplicateCount 0）。
+    - 公式URL到達: pass（追加31 URLすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `npm run lint`: fail（既存 `.gitnexus/run.cjs` の `@typescript-eslint/no-require-imports` 3件。今回変更ファイルは対象指定lintでpass）。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10155、officialLinkedActive 10117、manuallyVerifiedActive 10117、群馬県 localOfficial 192）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 南牧村の公式ドメインは `https://nanmoku.ne.jp/` を正として採用した。
+    - 南牧村の予防接種ページは対象者と費用助成表現を確認したが、金額又は上限額が公式本文で確認できないため今回の採用から除外し、第2巡候補に残す。
+    - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
+  - 次:
+    - 群馬県公式棚卸し006として、10385中之条町、10421長野原町、10424嬬恋村、10425草津町を自治体コード順に確認する。
+
+- 群馬県公式棚卸し006
+  - 対象:
+    - 10385 中之条町、10421 長野原町、10424 嬬恋村、10425 草津町。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補255件をローカルJSONへ保存した。
+    - `tasks/discovery/gunma-official-coverage-006-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現、再スコアを保存した。
+    - 公式カテゴリ・一覧ページから個別制度ページを補完し、`tasks/discovery/gunma-official-coverage-006-official-extra.json` に公式本文スニペット350件を保存した。
+    - 制度強語と金額・対象条件・期限/受付表現が揃う候補51件を `tasks/discovery/gunma-official-coverage-006-selected-snippets.json` と `tasks/discovery/gunma-official-coverage-006-selected-main.json` に抽出した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃う個別ページのみ採用した。
+  - 採用:
+    - 中之条町13件: 人間ドック費用助成、チャレンジショップ出店支援、不妊治療、サテライトオフィス開設支援、共創のまちづくり、柿の木等伐採、空家対策、英語検定料、介護予防サロン、住宅リフォーム、同窓会応援、定住促進対策住宅取得、結婚新生活。
+    - 長野原町14件: 暮らし応援商品券、おたふくかぜ予防接種、まちづくり活性化、住宅改修等、住宅用再生可能エネルギーシステム等、出産奨励手当、帯状疱疹予防接種、合併処理浄化槽、犬猫避妊等手術、生ごみ処理機器、特殊詐欺等対策機器、子育て世帯移住支援、林業従事者育成支援、高齢者補聴器。
+    - 嬬恋村4件: 結婚新生活支援、特殊詐欺対策電話機等、犬及び猫避妊手術等、自動車改造費。
+    - 草津町4件: 木造住宅耐震改修、犬及び猫の避妊等手術費、空家除却費、不妊治療費等。
+  - 生成ファイル:
+    - `tasks/discovery/gunma-official-coverage-006-municipalities.json`
+    - `tasks/discovery/gunma-official-coverage-006-candidates.json`（raw候補）
+    - `tasks/discovery/gunma-official-coverage-006-detail-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-006-official-extra.json`
+    - `tasks/discovery/gunma-official-coverage-006-selected-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-006-selected-main.json`
+    - `tasks/discovery/gunma-official-coverage-006.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（35件、全9844slugでduplicateCount 0）。
+    - 公式URL到達: pass（追加35 URLすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10190、officialLinkedActive 10152、manuallyVerifiedActive 10152、群馬県 localOfficial 227）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 嬬恋村の公式ドメインは `https://www.vill.tsumagoi.gunma.jp/`、草津町の公式ドメインは `https://www.town.kusatsu.gunma.jp/` を正として採用した。
+    - 中之条町の妊産婦健診等、福祉医療、浄化槽、薪ストーブ等は金額表又は補助粒度の追加確認が必要なため第2巡候補に残す。
+    - 長野原町のインフルエンザ予防接種、起業支援は期間又は金額確認の追加確認が必要なため第2巡候補に残す。
+    - 嬬恋村の浄化槽、人間ドック、介護用車両、生ごみ処理容器、腎臓機能障害者通院交通費、難聴児補聴器、森林等整備、嬬恋高校下宿費は金額・上限又はPDF内容の追加確認が必要なため第2巡候補に残す。
+    - 草津町の出産・子育て応援事業、移住支援金はPDF又は外部制度要綱の金額確認が必要なため第2巡候補に残す。
+    - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
+  - 次:
+    - 群馬県公式棚卸し007として、10426高山村、10428東吾妻町、10429片品村、10443川場村を自治体コード順に確認する。
+
+- 群馬県公式棚卸し007
+  - 対象:
+    - 10426 高山村、10428 東吾妻町、10429 片品村、10443 川場村。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補210件をローカルJSONへ保存した。
+    - `tasks/discovery/gunma-official-coverage-007-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現、再スコアを保存した。
+    - 公式カテゴリ・一覧ページから個別制度ページを補完し、`tasks/discovery/gunma-official-coverage-007-official-extra.json` に公式本文スニペット214件を保存した。
+    - 制度強語と金額・対象条件・期限/受付表現が揃う候補54件を `tasks/discovery/gunma-official-coverage-007-selected-snippets.json` と `tasks/discovery/gunma-official-coverage-007-selected-main.json` に抽出した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃う個別ページのみ採用した。
+  - 採用:
+    - 高山村13件: 子育て世帯応援給付金、障害者施設通所交通費、介護用車両購入費、福祉医療費、不妊治療費、重度身体障害者住宅改造、じん臓機能障害者等通院交通費、身体障害者自動車改造費、指定難病等患者見舞金、医療用ウィッグ等、障害者自動車免許取得費、英語等検定料、高校生等就学費。
+    - 東吾妻町9件: 住宅新築改修等、住宅取得奨励、地方就職支援、移住支援金、生ごみ処理機等、くらし応援商品券、単独浄化槽等切替、安心出産・宿泊支援、不妊治療費。
+    - 片品村2件: チャイルドシート購入費、福祉医療。
+    - 川場村11件: 移住支援金、住宅リフォーム、妊婦のための支援給付金、幼児教育・保育費用、プレミアム商品券、不妊治療費・不育治療費、福祉医療、合併処理浄化槽、生ごみ処理機、骨髄移植ドナー支援、脳ドック・心臓ドック。
+  - 生成ファイル:
+    - `tasks/discovery/gunma-official-coverage-007-municipalities.json`
+    - `tasks/discovery/gunma-official-coverage-007-candidates.json`（raw候補）
+    - `tasks/discovery/gunma-official-coverage-007-detail-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-007-official-extra.json`
+    - `tasks/discovery/gunma-official-coverage-007-selected-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-007-selected-main.json`
+    - `tasks/discovery/gunma-official-coverage-007.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（35件、全9879slugでduplicateCount 0）。
+    - 公式URL到達: pass（追加35 URLすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10225、officialLinkedActive 10187、manuallyVerifiedActive 10187、群馬県 localOfficial 262）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 高山村の高齢者住宅改造費助成と任意予防接種助成は、金額表又は添付文書の追加確認が必要なため第2巡候補に残す。
+    - 東吾妻町の結婚新生活支援は公式ページの対象期間が令和6年度中心のため今回採用せず、第2巡で現行年度を再確認する。住宅用再生可能エネルギー、防災士資格取得、木造住宅耐震改修、遠距離通所・通学費は金額又は上限の追加確認が必要なため第2巡候補に残す。
+    - 片品村の特定不妊治療、景観形成、特殊詐欺対策等は公式本文又はPDFの金額・受付条件確認が必要なため第2巡候補に残す。
+    - 川場村の子育て世帯・若者夫婦世帯住宅取得、地方就職支援、がん患者補正具、若年がん患者在宅療養、風しん予防接種、チャイルドシート等は、採用枠外又は金額確認未了として第2巡候補に残す。
+    - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
+  - 次:
+    - 群馬県公式棚卸し008として、10444昭和村、10448みなかみ町、10449玉村町、10521板倉町を自治体コード順に確認する。
+
+- 群馬県公式棚卸し008
+  - 対象:
+    - 10444 昭和村、10448 みなかみ町、10449 玉村町、10521 板倉町。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補164件をローカルJSONへ保存した。
+    - `tasks/discovery/gunma-official-coverage-008-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現、再スコアを保存した。
+    - 公式カテゴリ・一覧ページから個別制度ページを補完し、`tasks/discovery/gunma-official-coverage-008-official-extra.json` に公式リンク194件を保存した。
+    - 制度強語と金額・対象条件・期限/受付表現が揃う候補89件を `tasks/discovery/gunma-official-coverage-008-selected-snippets.json` と `tasks/discovery/gunma-official-coverage-008-selected-main.json` に抽出した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃う個別ページのみ採用した。
+  - 採用:
+    - 昭和村2件: 猫の不妊・去勢手術費、出産・子育て応援助成。
+    - みなかみ町11件: 移住支援金、不妊治療費、地方就職支援、防犯カメラ等、果樹等伐採、ぐんま技術革新チャレンジ、農業者収入保険加入促進、認定農業者営農支援、移住・テレワークレンタカー借上料、無痛分娩費用、出産・誕生日祝金。
+    - 玉村町7件: こうのとり助成、住宅用蓄電池、移住支援金、住宅用太陽光発電、後期高齢者日帰り人間ドック、たまむら地域商品券、運転経歴証明書交付手数料。
+    - 板倉町15件: 移住支援金、住宅リフォーム、住宅取得、住宅用太陽光発電、不妊・不育症治療費、結婚新生活、板倉ニュータウン移住支援、合併処理浄化槽、家庭用防犯カメラ、妊婦支援給付金、風しん任意予防接種、ぐんま技術革新チャレンジ、福祉医療、スズメバチの巣駆除費、子育て支援金。
+  - 生成ファイル:
+    - `tasks/discovery/gunma-official-coverage-008-municipalities.json`
+    - `tasks/discovery/gunma-official-coverage-008-candidates.json`（raw候補）
+    - `tasks/discovery/gunma-official-coverage-008-detail-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-008-official-extra.json`
+    - `tasks/discovery/gunma-official-coverage-008-selected-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-008-selected-main.json`
+    - `tasks/discovery/gunma-official-coverage-008.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（35件、全9914slugでduplicateCount 0）。
+    - 公式URL到達: pass（追加35 URLすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10258、officialLinkedActive 10220、manuallyVerifiedActive 10220、群馬県 localOfficial 295）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 昭和村は通常クロールの強候補が少ないため、子育てサイトと暮らしカテゴリから公式リンクを補完した。住宅・引越しカテゴリ等のカテゴリ一致は第2巡候補に残す。
+    - みなかみ町は補助金・支援制度一覧から多数の事業を補完した。起業支援、店舗等改築、地場産品普及、観光活性化、木造住宅耐震、空き家バンク活用、大学生等新幹線通学費等は金額表又は要綱の追加確認が必要なため第2巡候補に残す。
+    - 玉村町の空き家リフォーム・片付け、返礼品開発補助、路線バス通学定期補助等はPDF又は本文後半の上限確認が必要なため第2巡候補に残す。
+    - 板倉町の住宅リフォーム、住宅取得、太陽光、浄化槽、防犯カメラ、不妊・不育、結婚新生活等は公式本文で制度ページと金額表現を確認したが、一部は要綱詳細を第2巡で再確認する。
+    - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
+  - 次:
+    - 群馬県公式棚卸し009として、10522明和町、10523千代田町、10524大泉町、10525邑楽町を自治体コード順に確認する。
+
+- 群馬県公式棚卸し009
+  - 対象:
+    - 10522 明和町、10523 千代田町、10524 大泉町、10525 邑楽町。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補188件をローカルJSONへ保存した。
+    - 公式カテゴリ・一覧ページから個別制度ページを補完し、`tasks/discovery/gunma-official-coverage-009-official-extra.json` に公式リンク929件を保存した。
+    - `tasks/discovery/gunma-official-coverage-009-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現、再スコアを保存した。
+    - 制度強語と金額・対象条件・期限/受付表現が揃う候補64件を `tasks/discovery/gunma-official-coverage-009-selected-snippets.json` と `tasks/discovery/gunma-official-coverage-009-selected-main.json` に抽出した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃う個別ページのみ採用した。
+  - 採用:
+    - 明和町15件: 不妊・不育治療費、出産祝金、妊産婦健診等、妊産婦交通費・宿泊費、妊婦支援給付、妊婦初回産科受診料、交通遺児手当、乳幼児用補助装置、英語検定、移住支援金、Mターン促進奨励金、住宅用太陽光発電、結婚新生活、福祉タクシー、骨髄移植ドナー。
+    - 千代田町18件: 暮らし応援商品券、育児用品購入費、人間ドック・脳ドック、住宅用太陽光発電、浄化槽設置、スズメバチ駆除、犬猫避妊・断種、生ごみ処理機器、公共下水道接続促進、店舗リニューアル、創業支援、ぐんま技術革新チャレンジ、高齢者補聴器、不妊治療費、不育治療費、結婚新生活、移住者住宅取得、防犯対策。
+    - 大泉町9件: 地方就職支援金、骨髄移植ドナー、若年がん患者在宅療養、人間ドック、木造住宅耐震改修、生ごみ処理機器、電気自動車等購入、浄化槽設置、妊婦健康診査交通費。
+    - 邑楽町19件: 定住促進通学支援金、浄化槽設置、住宅用太陽光発電、生ごみ処理機、誤発進防止装置、防犯カメラ、特殊詐欺対策機器、福祉タクシー、出産祝金、創業支援、英語検定、がん患者ウィッグ等、不育症治療費、不妊治療費、妊婦初回産科受診、妊婦支援給付金、危険ブロック塀、木造住宅耐震改修、空家等対策。
+  - 生成ファイル:
+    - `tasks/discovery/gunma-official-coverage-009-municipalities.json`
+    - `tasks/discovery/gunma-official-coverage-009-candidates.json`（raw候補）
+    - `tasks/discovery/gunma-official-coverage-009-detail-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-009-official-extra.json`
+    - `tasks/discovery/gunma-official-coverage-009-selected-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-009-selected-main.json`
+    - `tasks/discovery/gunma-official-coverage-009.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（61件、全9975slugでduplicateCount 0）。
+    - 公式URL到達: pass（追加61 URLすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10319、officialLinkedActive 10281、manuallyVerifiedActive 10281、群馬県 localOfficial 356）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 大泉町のデマンド交通運賃補助、英語・漢字検定料補助、邑楽町の高齢者補聴器購入費は金額確認を追加するため第2巡候補に残す。
+    - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
+  - 次:
+    - チェックリストと自治体別進捗JSONから、次の未完了自治体・団体をコード順に再確認して再開する。

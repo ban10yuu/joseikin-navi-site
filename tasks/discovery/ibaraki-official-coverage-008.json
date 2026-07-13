@@ -1,0 +1,132 @@
+{
+  "batchId": "ibaraki-comprehensive-official-coverage-008",
+  "prefecture": "茨城県",
+  "completedAt": "2026-07-13T19:55:00+09:00",
+  "municipalities": [
+    {
+      "code": "08232",
+      "name": "神栖市",
+      "officialBaseUrl": "https://www.city.kamisu.ibaraki.jp/",
+      "adoptedCount": 10
+    },
+    {
+      "code": "08233",
+      "name": "行方市",
+      "officialBaseUrl": "https://www.city.namegata.ibaraki.jp/",
+      "adoptedCount": 2
+    },
+    {
+      "code": "08234",
+      "name": "鉾田市",
+      "officialBaseUrl": "https://www.city.hokota.lg.jp/",
+      "adoptedCount": 3
+    },
+    {
+      "code": "08235",
+      "name": "つくばみらい市",
+      "officialBaseUrl": "https://www.city.tsukubamirai.lg.jp/",
+      "adoptedCount": 10
+    }
+  ],
+  "candidateDiscovery": {
+    "candidateCount": 693,
+    "htmlCandidateCount": 667,
+    "detailSnippetRows": 240,
+    "officialExtraRows": 28,
+    "shortlistPolicy": "title/h1/main/article/URLの制度強語に加え、金額・対象条件・期限又は受付状況が公式本文で揃う個別ページを優先。カテゴリ導線、一覧、期限切れ、貸付のみ、金額不足ページは採用対象外又は第2巡へ保留。"
+  },
+  "adopted": {
+    "total": 25,
+    "byMunicipality": {
+      "神栖市": [
+        "妊婦のための支援給付",
+        "不妊治療費（先進医療）助成金",
+        "不妊検査・一般不妊治療費助成金",
+        "婚活支援事業補助金",
+        "無痛分娩費用助成",
+        "不育症治療費助成",
+        "新生児聴覚検査費用助成",
+        "骨髄ドナー費用助成金",
+        "蜂の巣駆除費補助金",
+        "教育ローン利子補給金"
+      ],
+      "行方市": [
+        "なめがたブランド6次産業化支援事業補助金",
+        "生ごみ処理容器購入費補助金"
+      ],
+      "鉾田市": [
+        "省エネエアコン買換促進補助金",
+        "自立・分散型エネルギー設備導入促進事業費補助金",
+        "敬老長寿応援事業 食事券"
+      ],
+      "つくばみらい市": [
+        "自立・分散型エネルギー設備導入促進事業費補助金",
+        "妊婦のための支援給付金",
+        "いばらき出会いサポートセンター入会登録料助成",
+        "不妊治療費（先進医療分）助成",
+        "妊産婦・乳児タクシー利用料一部助成",
+        "母子家庭等高等職業訓練促進給付金等支給事業",
+        "不妊治療費助成事業",
+        "初回産科受診料助成",
+        "不育症治療費助成事業",
+        "産婦健康診査助成"
+      ]
+    }
+  },
+  "heldForSecondPass": [
+    "神栖市の子育て世帯食料品購入支援給付金、大学等奨学金、高校生奨学金は申請期限超過又は貸付性質のため採用保留。",
+    "行方市の感震ブレーカー、防犯カメラ、食料品等価格高騰対策支援金、英語検定料、狩猟免許、環境整備促進事業は一覧上で確認したが、今回の候補では個別本文URL・必須項目確認が未完了のため第2巡台帳へ残す。",
+    "つくばみらい市の物価高騰対応市民応援給付金は2026年6月30日受付終了のため採用しない。"
+  ],
+  "files": [
+    "src/data/grants/verified-local-misc-2026.ts",
+    "tasks/discovery/ibaraki-official-coverage-008-municipalities.json",
+    "tasks/discovery/ibaraki-official-coverage-008-detail-snippets.json",
+    "tasks/discovery/ibaraki-official-coverage-008-official-extra.json",
+    "tasks/discovery/ibaraki-official-coverage-008.json"
+  ],
+  "validation": {
+    "nodeCheck": "pass",
+    "lint": "pass",
+    "duplicateSlugs": {
+      "status": "pass",
+      "totalSlugs": 9416,
+      "duplicateCount": 0
+    },
+    "urlReachability": {
+      "status": "pass",
+      "checkedPrefixCountIncludingExisting": 26,
+      "allStatus200": true
+    },
+    "gitDiffCheck": "pass",
+    "auditCoverage": {
+      "status": "pass",
+      "failures": 0,
+      "activePublished": 9778,
+      "officialLinkedActive": 9740,
+      "manuallyVerifiedActive": 9740,
+      "ibarakiLocalOfficial": 300
+    }
+  },
+  "next": {
+    "batchId": "ibaraki-comprehensive-official-coverage-009",
+    "municipalities": [
+      {
+        "code": "08236",
+        "name": "小美玉市"
+      },
+      {
+        "code": "08302",
+        "name": "茨城町"
+      },
+      {
+        "code": "08309",
+        "name": "大洗町"
+      },
+      {
+        "code": "08310",
+        "name": "城里町"
+      }
+    ]
+  }
+}

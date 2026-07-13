@@ -1,0 +1,237 @@
+{
+  "batchId": "tochigi-comprehensive-official-coverage-002",
+  "verifiedAt": "2026-07-13",
+  "prefecture": "栃木県",
+  "municipalities": [
+    {
+      "code": "09205",
+      "name": "鹿沼市",
+      "officialBaseUrl": "https://www.city.kanuma.tochigi.jp/"
+    },
+    {
+      "code": "09206",
+      "name": "日光市",
+      "officialBaseUrl": "https://www.city.nikko.lg.jp/"
+    },
+    {
+      "code": "09208",
+      "name": "小山市",
+      "officialBaseUrl": "https://www.city.oyama.tochigi.jp/"
+    },
+    {
+      "code": "09209",
+      "name": "真岡市",
+      "officialBaseUrl": "https://www.city.moka.lg.jp/"
+    }
+  ],
+  "candidateCount": 727,
+  "detailSnippetRows": 726,
+  "adoptedCount": 23,
+  "adoptedByMunicipality": {
+    "鹿沼市": 8,
+    "日光市": 8,
+    "小山市": 0,
+    "真岡市": 7
+  },
+  "adopted": [
+    {
+      "slug": "kanuma-child-support-notarial-document-subsidy-2026",
+      "title": "鹿沼市 ひとり親家庭養育費公正証書等作成支援補助金",
+      "organization": "鹿沼市",
+      "officialUrl": "https://www.city.kanuma.tochigi.jp/0542/info-0000009274-0.html",
+      "maxAmount": "上限4.3万円",
+      "applicationPeriod": "公正証書等を作成した日の翌日から1年以内"
+    },
+    {
+      "slug": "kanuma-single-parent-vocational-training-benefit-2026",
+      "title": "鹿沼市 ひとり親家庭高等職業訓練促進給付金",
+      "organization": "鹿沼市",
+      "officialUrl": "https://www.city.kanuma.tochigi.jp/0557/info-0000002124-0.html",
+      "maxAmount": "月額最大14万円＋修了一時金5万円",
+      "applicationPeriod": "養成機関の申込前に事前相談が必要"
+    },
+    {
+      "slug": "kanuma-single-parent-education-training-benefit-2026",
+      "title": "鹿沼市 ひとり親家庭自立支援教育訓練給付金",
+      "organization": "鹿沼市",
+      "officialUrl": "https://www.city.kanuma.tochigi.jp/0557/info-0000002125-0.html",
+      "maxAmount": "上限20万円",
+      "applicationPeriod": "受講申込前に事前相談。講座修了翌日から1か月以内に支給申請"
+    },
+    {
+      "slug": "kanuma-child-seat-purchase-subsidy-2026",
+      "title": "鹿沼市 チャイルドシート購入費助成",
+      "organization": "鹿沼市",
+      "officialUrl": "https://www.city.kanuma.tochigi.jp/0542/info-0000002306-0.html",
+      "maxAmount": "上限1万円",
+      "applicationPeriod": "チャイルドシート購入日から翌年度末まで。出生前購入分は出生後に受付"
+    },
+    {
+      "slug": "kanuma-home-renovation-subsidy-2026",
+      "title": "鹿沼市 住宅リフォーム助成事業補助金",
+      "organization": "鹿沼市",
+      "officialUrl": "https://www.city.kanuma.tochigi.jp/0555/info-0000003668-0.html",
+      "maxAmount": "上限8万円",
+      "applicationPeriod": "工事着工前に認定申請。予算到達で年度途中終了あり"
+    },
+    {
+      "slug": "kanuma-food-waste-processor-subsidy-2026",
+      "title": "鹿沼市 生ごみ処理機等設置補助金",
+      "organization": "鹿沼市",
+      "officialUrl": "https://www.city.kanuma.tochigi.jp/0007/info-0000000933-0.html",
+      "maxAmount": "上限3万円",
+      "applicationPeriod": "購入前に電話で事前受付。先着順、予算がなくなり次第終了"
+    },
+    {
+      "slug": "kanuma-newlywed-life-support-subsidy-2026",
+      "title": "鹿沼市 結婚新生活支援補助金",
+      "organization": "鹿沼市",
+      "officialUrl": "https://www.city.kanuma.tochigi.jp/0560/info-0000006584-0.html",
+      "maxAmount": "上限60万円",
+      "applicationPeriod": "令和8年4月1日から令和9年3月1日まで。予算到達で終了"
+    },
+    {
+      "slug": "kanuma-new-graduate-employment-celebration-2026",
+      "title": "鹿沼市 新卒者就職祝金",
+      "organization": "鹿沼市",
+      "officialUrl": "https://www.city.kanuma.tochigi.jp/0559/info-0000009626-0.html",
+      "maxAmount": "3万9,154円",
+      "applicationPeriod": "令和7年4月1日から就業日より1年以内。令和8年4月1日以降の申請は就業日から2年以内"
+    },
+    {
+      "slug": "nikko-infertility-treatment-subsidy-2026",
+      "title": "日光市 不妊治療費助成事業",
+      "organization": "日光市",
+      "officialUrl": "https://www.city.nikko.lg.jp/kosodate_kyoiku/ninshin_shussan/10/7121.html",
+      "maxAmount": "保険適用外上限15万円、保険適用分上限10万円",
+      "applicationPeriod": "治療終了日の属する年度の翌年度末日まで"
+    },
+    {
+      "slug": "nikko-recurrent-pregnancy-loss-treatment-subsidy-2026",
+      "title": "日光市 不育症治療費補助金",
+      "organization": "日光市",
+      "officialUrl": "https://www.city.nikko.lg.jp/kosodate_kyoiku/ninshin_shussan/10/9912.html",
+      "maxAmount": "上限30万円",
+      "applicationPeriod": "治療終了日の属する年度の翌年度末日まで"
+    },
+    {
+      "slug": "nikko-newlywed-life-support-subsidy-2026",
+      "title": "日光市 結婚新生活支援補助金",
+      "organization": "日光市",
+      "officialUrl": "https://www.city.nikko.lg.jp/kurashi_tetsuzuki/koseki/7643.html",
+      "maxAmount": "上限60万円",
+      "applicationPeriod": "令和8年4月1日から令和9年2月26日までに支払った対象経費を申請"
+    },
+    {
+      "slug": "nikko-care-manager-training-subsidy-2026",
+      "title": "日光市 介護支援専門員等研修費助成事業補助金",
+      "organization": "日光市",
+      "officialUrl": "https://www.city.nikko.lg.jp/kenko_fukushi/kaigo/1/8732.html",
+      "maxAmount": "研修受講料等の2分の1",
+      "applicationPeriod": "対象研修修了後に申請"
+    },
+    {
+      "slug": "nikko-young-cancer-home-terminal-care-subsidy-2026",
+      "title": "日光市 若年がん患者在宅ターミナルケア支援事業",
+      "organization": "日光市",
+      "officialUrl": "https://www.city.nikko.lg.jp/kenko_fukushi/kenkosuishin/7493.html",
+      "maxAmount": "月額上限6万円",
+      "applicationPeriod": "サービス利用前に申請。申請前利用分は対象外"
+    },
+    {
+      "slug": "nikko-adult-rubella-vaccination-subsidy-2026",
+      "title": "日光市 成人女性等向け風しん予防接種費用助成",
+      "organization": "日光市",
+      "officialUrl": "https://www.city.nikko.lg.jp/kenko_fukushi/yobosesshu/7298.html",
+      "maxAmount": "MRワクチン上限5,000円",
+      "applicationPeriod": "令和8年4月1日から令和9年3月31日まで"
+    },
+    {
+      "slug": "nikko-appearance-care-subsidy-2026",
+      "title": "日光市 がん患者ウィッグ等購入費助成",
+      "organization": "日光市",
+      "officialUrl": "https://www.city.nikko.lg.jp/kenko_fukushi/kenkosuishin/4525.html",
+      "maxAmount": "医療用ウィッグ上限3万円、乳房補整具上限2万円",
+      "applicationPeriod": "購入後に申請手続き"
+    },
+    {
+      "slug": "nikko-assistance-dog-care-subsidy-2026",
+      "title": "日光市 補助犬飼育費等補助金",
+      "organization": "日光市",
+      "officialUrl": "https://www.city.nikko.lg.jp/kenko_fukushi/shogaishafukushi/1/2/7813.html",
+      "maxAmount": "月額3,000円",
+      "applicationPeriod": "随時申請"
+    },
+    {
+      "slug": "moka-newlywed-life-support-subsidy-2026",
+      "title": "真岡市 結婚新生活支援補助金",
+      "organization": "真岡市",
+      "officialUrl": "https://www.city.moka.lg.jp/kakuka/deai_kekkon/gyomu/deai_kekkon_support/13522.html",
+      "maxAmount": "上限60万円",
+      "applicationPeriod": "令和9年3月8日まで。予算到達で終了する場合あり"
+    },
+    {
+      "slug": "moka-care-worker-qualification-subsidy-2026",
+      "title": "真岡市 介護福祉士資格取得支援制度",
+      "organization": "真岡市",
+      "officialUrl": "https://www.city.moka.lg.jp/iryo_kenko_fukushi/koreisha_fukushi/19741.html",
+      "maxAmount": "2万1,700円",
+      "applicationPeriod": "資格登録後1年以内又は資格登録有効期限解除後1年以内"
+    },
+    {
+      "slug": "moka-worker-scholarship-repayment-subsidy-2026",
+      "title": "真岡市 就労者定住促進奨学金返還支援事業",
+      "organization": "真岡市",
+      "officialUrl": "https://www.city.moka.lg.jp/kakuka/gakkokyoiku/gyomu/gakko_kyoiku/kyoiku_iinkai/1/856.html",
+      "maxAmount": "上限200万円",
+      "applicationPeriod": "随時受付"
+    },
+    {
+      "slug": "moka-english-kanji-test-fee-subsidy-2026",
+      "title": "真岡市 小中学生英検・漢検受検料補助",
+      "organization": "真岡市",
+      "officialUrl": "https://www.city.moka.lg.jp/kakuka/gakkokyoiku/gyomu/gakko_kyoiku/kyoiku_iinkai/1/9161.html",
+      "maxAmount": "英検1級上限6,200円",
+      "applicationPeriod": "各検定ごとに年度内1回。令和8年度は7月15日から8月15日、10月15日から11月15日、令和9年3月1日から3月31日など"
+    },
+    {
+      "slug": "moka-appearance-care-subsidy-2026",
+      "title": "真岡市 がん患者医療用ウィッグ等購入費助成",
+      "organization": "真岡市",
+      "officialUrl": "https://www.city.moka.lg.jp/iryo_kenko_fukushi/9/kenkozukuri/shien_kenko/16511.html",
+      "maxAmount": "医療用ウィッグ上限3万円、乳房補整具左右各2万円",
+      "applicationPeriod": "購入日の翌日から1年以内"
+    },
+    {
+      "slug": "moka-young-cancer-home-terminal-care-subsidy-2026",
+      "title": "真岡市 若年者在宅ターミナルケア支援事業",
+      "organization": "真岡市",
+      "officialUrl": "https://www.city.moka.lg.jp/iryo_kenko_fukushi/9/kenkozukuri/shien_kenko/18286.html",
+      "maxAmount": "月額上限6万円",
+      "applicationPeriod": "サービス利用前に申請。申請前利用分は対象外"
+    },
+    {
+      "slug": "moka-adult-rubella-vaccination-subsidy-2026",
+      "title": "真岡市 風しん・MRワクチン任意予防接種助成",
+      "organization": "真岡市",
+      "officialUrl": "https://www.city.moka.lg.jp/iryo_kenko_fukushi/iryo/yobosesshu/18486.html",
+      "maxAmount": "MRワクチン上限5,000円",
+      "applicationPeriod": "実施医療機関で接種。助成は1人1回のみ"
+    }
+  ],
+  "secondPass": [
+    "小山市の新幹線通勤補助金、地方就職支援金、若者・子育て世帯田園部移住支援補助金は、抽出ページが制度詳細ページへの案内又は要件不足だったため詳細URL・添付資料を第2巡で確認する。",
+    "日光市省エネ家電購入費補助金は公式ページ上で令和7年2月28日受付終了のため採用しない。",
+    "日光市耐震診断士派遣制度は令和8年度受付状況の残り受付数0のため採用しない。",
+    "鹿沼市いちごっこ地域活動応援事業補助金は令和8年度事前申込期間後の予算余裕受付の現在状況を第2巡で確認する。",
+    "鹿沼市妊産婦医療費助成・ひとり親家庭医療費助成、日光市奨学金貸付制度、真岡市こども補装具費用助成は制度整理又は金額表現の粒度確認を第2巡へ残す。"
+  ],
+  "verificationPlan": [
+    "slug重複確認",
+    "公式URL到達確認",
+    "node --check",
+    "lint",
+    "git diff --check",
+    "audit:coverage"
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "batchId": "tochigi-comprehensive-official-coverage-005",
+  "prefecture": "栃木県",
+  "completedAt": "2026-07-13T22:45:00+09:00",
+  "baseCommit": "32f4846",
+  "targetMunicipalities": [
+    {
+      "code": "09343",
+      "name": "茂木町",
+      "officialBaseUrl": "https://www.town.motegi.tochigi.jp/",
+      "candidateCount": 173,
+      "adoptedCount": 7
+    },
+    {
+      "code": "09344",
+      "name": "市貝町",
+      "officialBaseUrl": "https://www.town.ichikai.tochigi.jp/",
+      "candidateCount": 81,
+      "adoptedCount": 4
+    },
+    {
+      "code": "09345",
+      "name": "芳賀町",
+      "officialBaseUrl": "https://www.town.tochigi-haga.lg.jp/",
+      "candidateCount": 123,
+      "adoptedCount": 5
+    },
+    {
+      "code": "09361",
+      "name": "壬生町",
+      "officialBaseUrl": "https://www.town.mibu.tochigi.jp/",
+      "candidateCount": 130,
+      "adoptedCount": 5
+    }
+  ],
+  "candidateSummary": {
+    "rawCandidateCount": 507,
+    "detailSnippetRows": 507,
+    "officialExtraRows": 25,
+    "shortlistAdoptedCount": 21,
+    "shortlistAdoptionRate": 0.0414
+  },
+  "adoptedSlugs": [
+    "motegi-energy-efficient-appliance",
+    "motegi-kitchen-waste-processor",
+    "motegi-wooden-house-earthquake",
+    "motegi-specific-vacant-house-demolition",
+    "motegi-new-house-fixed-tax",
+    "motegi-home-loan-interest",
+    "motegi-medical-wig-breast-prosthesis",
+    "ichikai-garbage-station-improvement",
+    "ichikai-kitchen-waste-processor",
+    "ichikai-high-school-commuting",
+    "ichikai-home-renovation",
+    "haga-energy-efficient-appliance",
+    "haga-solar-storage",
+    "haga-smart-agriculture",
+    "haga-dock-checkup",
+    "haga-medical-taxi",
+    "mibu-newlywed-life",
+    "mibu-dock-checkup",
+    "mibu-rainwater-storage-infiltration",
+    "mibu-anti-fraud-phone",
+    "mibu-marriage-center-registration"
+  ],
+  "categoryCorrections": [
+    "nasukarasuyama-community-activity: community -> living",
+    "nasukarasuyama-community-hall: community -> living",
+    "kaminokawa-agriculture-price-support: agriculture/business -> employment/living",
+    "mashiko-startup-support: business -> employment",
+    "mashiko-local-industry-development: business -> employment",
+    "mashiko-regional-currency-price-support: relatedCategories business -> employment"
+  ],
+  "secondPassLedger": [
+    {
+      "municipality": "市貝町",
+      "item": "創業・起業支援補助金",
+      "reason": "公式ページは確認したが、補助率・上限内訳の本文抽出が不足したため第2巡で要綱又は添付資料を確認する。"
+    },
+    {
+      "municipality": "芳賀町",
+      "item": "にこっと子育て応援給付金",
+      "reason": "旧伴走型相談支援給付との関係と現行の妊婦支援給付への移行状況を確認する必要があるため採用しない。"
+    },
+    {
+      "municipality": "芳賀町",
+      "item": "スマート農業技術導入支援事業補助金",
+      "reason": "公式本文で2026年6月30日締切を確認済み。期限切れ制度として掲載し、次巡で翌年度更新の有無を確認する。"
+    },
+    {
+      "municipality": "壬生町",
+      "item": "空家解体事業補助金",
+      "reason": "公式ページで令和8年度募集一時停止中を確認したため、受付再開又は次年度更新を第2巡で確認する。"
+    },
+    {
+      "municipality": "壬生町",
+      "item": "園芸作物生産拡大支援事業",
+      "reason": "公式ページのブラウザ表示とローカルfetch結果に差異があり、URL到達と補助率表の安定確認が必要なため採用しない。"
+    }
+  ],
+  "validation": {
+    "nodeCheck": "pass",
+    "slugDuplicateCheck": {
+      "totalSlugs": 9619,
+      "duplicateCount": 0
+    },
+    "urlReach": {
+      "checked": 21,
+      "http200": 21,
+      "failed": 0
+    },
+    "lint": "pass",
+    "gitDiffCheck": "pass",
+    "auditCoverage": {
+      "failures": 0,
+      "activePublished": 9979,
+      "officialLinkedActive": 9941,
+      "manuallyVerifiedActive": 9941,
+      "tochigiLocalOfficial": 243
+    }
+  },
+  "next": [
+    {
+      "code": "09364",
+      "name": "野木町"
+    },
+    {
+      "code": "09384",
+      "name": "塩谷町"
+    },
+    {
+      "code": "09386",
+      "name": "高根沢町"
+    },
+    {
+      "code": "09407",
+      "name": "那須町"
+    }
+  ],
+  "completionStatus": "全国公式棚卸しは未完了。国・都道府県・全市区町村・公的機関の公式ページ単位の確認、候補未判定解消、チェックリストと最終監査の完了までは全国完了扱いしない。"
+}

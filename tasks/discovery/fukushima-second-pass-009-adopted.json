@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-07-13T13:59:21+09:00",
+  "batch": "fukushima-second-pass-009",
+  "municipalities": [
+    "昭和村",
+    "会津美里町",
+    "西郷村",
+    "泉崎村"
+  ],
+  "sourceEvidence": {
+    "shortlist": "tasks/discovery/fukushima-second-pass-009-shortlist.json",
+    "pageEvidence": "tasks/discovery/fukushima-second-pass-009-page-evidence.json"
+  },
+  "adoptedCount": 3,
+  "adopted": [
+    {
+      "municipality": "昭和村",
+      "slug": "showa-scholarship-loan-2026",
+      "officialUrl": "https://www.vill.showa.fukushima.jp/procedure/196/",
+      "reason": "高校生月3万円以内、大学生月5万円以内、募集期間3月1日から4月中旬、定住時の返還猶予・免除を公式本文で確認"
+    },
+    {
+      "municipality": "昭和村",
+      "slug": "showa-school-lunch-fee-free-2026",
+      "officialUrl": "https://www.vill.showa.fukushima.jp/procedure/196/",
+      "reason": "昭和村立学校在籍児童生徒の保護者負担学校給食費無償、弁当代替者助成金を公式本文で確認"
+    },
+    {
+      "municipality": "泉崎村",
+      "slug": "izumizaki-household-food-waste-processor-subsidy-2026",
+      "officialUrl": "https://www.vill.izumizaki.fukushima.jp/kurashi-tetsuduki/kankyo/gomi/page001779.html",
+      "reason": "家庭用生ごみ処理機1世帯1台、購入費2分の1以内・上限3万円、4月1日から予算到達までを公式本文で確認"
+    }
+  ],
+  "held": [
+    {
+      "municipality": "昭和村",
+      "reason": "支援制度カテゴリ、健康・子育て支援カテゴリ、高齢者福祉カテゴリ、新規就農者募集、プロポーザル等は制度単位の金額・受付差分または補助対象性が不足し継続確認。"
+    },
+    {
+      "municipality": "会津美里町",
+      "reason": "第1巡で個別制度25件を掲載済み。カテゴリページ、重複URL、国制度色が強い年金・証明・相談ページ、金額が制度単位で分離しにくいページは継続台帳に残す。"
+    },
+    {
+      "municipality": "西郷村",
+      "reason": "第1巡で個別制度41件を掲載済み。カテゴリページ、重複URL、計画・プロポーザル・県制度案内・求人情報、制度単位差分が不明なページは継続台帳に残す。"
+    },
+    {
+      "municipality": "泉崎村",
+      "reason": "取扱事業者募集ページは既掲載の商品券事業と同一。農業者年金は国制度案内。住宅応急修理は旧災害救助法関連で現行受付差分不明。検索結果ページ、一覧、旧コロナ関連、配布文書PDF一覧は継続確認。"
+    }
+  ]
+}

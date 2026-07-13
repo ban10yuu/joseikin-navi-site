@@ -1,0 +1,110 @@
+{
+  "generatedAt": "2026-07-13T14:08:21+09:00",
+  "batchId": "fukushima-second-pass-official-coverage-010",
+  "adoptedCount": 12,
+  "sourceUrlsChecked": 11,
+  "adopted": [
+    {
+      "municipality": "中島村",
+      "slug": "nakajima-local-job-student-support-2026",
+      "url": "https://www.vill-nakajima.jp/page/page001366.html",
+      "evidence": "採用選考交通費2分の1、上限8,000円、1人1回、移住・就業要件。"
+    },
+    {
+      "municipality": "中島村",
+      "slug": "nakajima-relocation-support-2026",
+      "url": "https://www.vill-nakajima.jp/page/page000771.html",
+      "evidence": "単身60万円、2人以上100万円、子育て世帯は18歳未満の子ども1人100万円加算。"
+    },
+    {
+      "municipality": "中島村",
+      "slug": "nakajima-assisted-reproduction-travel-subsidy-2026",
+      "url": "https://www.vill-nakajima.jp/page/page001479.html",
+      "evidence": "通院1回1,000円から5,000円、1治療8回まで、治療終了翌日から6か月以内。"
+    },
+    {
+      "municipality": "中島村",
+      "slug": "nakajima-infertility-treatment-subsidy-2026",
+      "url": "https://www.vill-nakajima.jp/page/page001258.html",
+      "evidence": "県助成金控除後の額を県助成金上限で助成、県決定通知日から6か月以内。"
+    },
+    {
+      "municipality": "矢吹町",
+      "slug": "yabuki-childcare-circle-activity-subsidy-2026",
+      "url": "https://www.town.yabuki.fukushima.jp/page/page001561.html",
+      "evidence": "子育てサークル1団体年額3万円上限、講師謝金・消耗品・保険料等対象。"
+    },
+    {
+      "municipality": "矢吹町",
+      "slug": "yabuki-scholarship-loan-2026",
+      "url": "https://www.town.yabuki.fukushima.jp/page/page001709.html",
+      "evidence": "高校生から大学生、月額11,000円から53,000円貸与、毎年4月申込。"
+    },
+    {
+      "municipality": "矢吹町",
+      "slug": "yabuki-childcare-worker-preparation-loan-2026",
+      "url": "https://www.town.yabuki.fukushima.jp/page/page009283.html",
+      "evidence": "保育士就職準備金、新卒50万円・新卒以外20万円、町内保育施設2年以上勤務で返還免除。"
+    },
+    {
+      "municipality": "矢吹町",
+      "slug": "yabuki-childcare-worker-housing-rent-subsidy-2026",
+      "url": "https://www.town.yabuki.fukushima.jp/page/page009283.html",
+      "evidence": "保育士宿舎借り上げ、補助率4分の3、上限月額4.8万円。"
+    },
+    {
+      "municipality": "棚倉町",
+      "slug": "tanagura-water-basic-fee-reduction-2026",
+      "url": "https://www.town.tanagura.fukushima.jp/jumin/jo-gesuido/page002995.html",
+      "evidence": "令和7年9月例月分、上水道・簡易水道基本料金を1,500円上限で軽減。"
+    },
+    {
+      "municipality": "棚倉町",
+      "slug": "tanagura-single-parent-vocational-training-subsidy-2026",
+      "url": "https://www.town.tanagura.fukushima.jp/jumin/kosodate/josei-teate/page001122.html",
+      "evidence": "ひとり親高等職業訓練、修学費用年36万円上限、対象期間3年限度。"
+    },
+    {
+      "municipality": "棚倉町",
+      "slug": "tanagura-single-parent-education-training-subsidy-2026",
+      "url": "https://www.town.tanagura.fukushima.jp/jumin/kosodate/josei-teate/page001122.html",
+      "evidence": "ひとり親教育訓練、県支給対象経費20%、上限4万円。"
+    },
+    {
+      "municipality": "矢祭町",
+      "slug": "yamatsuri-school-lunch-fee-free-2026",
+      "url": "https://www.town.yamatsuri.fukushima.jp/page/page001231.html",
+      "evidence": "令和6年度から学校給食を完全無償化。"
+    }
+  ],
+  "held": [
+    {
+      "municipality": "棚倉町",
+      "title": "こども誰でも通園制度",
+      "url": "https://www.town.tanagura.fukushima.jp/jumin/kosodate/page003130.html",
+      "decision": "hold",
+      "reason": "利用料300円/時と減免表現はあるが補助金・給付金としての給付額ではなく、制度性はサービス利用案内寄り。"
+    },
+    {
+      "municipality": "中島村",
+      "title": "児童手当/旧臨時給付金等",
+      "url": "複数",
+      "decision": "hold",
+      "reason": "国制度または旧年度給付金が中心。現行町村独自差分は未確認。"
+    },
+    {
+      "municipality": "矢吹町",
+      "title": "後期高齢者医療保険料・軽自動車税減免等",
+      "url": "複数",
+      "decision": "hold",
+      "reason": "通常税/保険料制度または個別減免で、自治体独自の補助金・助成金ページとしての差分が不足。"
+    },
+    {
+      "municipality": "棚倉町・矢祭町",
+      "title": "水道/介護/カテゴリ/求人/計画ページ等",
+      "url": "複数",
+      "decision": "hold",
+      "reason": "カテゴリ、求人、制度一覧、通常行政サービス、計画/交付金説明、または金額・対象・受付状況不足。"
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "batchId": "gunma-comprehensive-official-coverage-005",
+  "prefecture": "群馬県",
+  "municipalities": [
+    {
+      "code": "10367",
+      "name": "神流町",
+      "adoptedCount": 2
+    },
+    {
+      "code": "10382",
+      "name": "下仁田町",
+      "adoptedCount": 9
+    },
+    {
+      "code": "10383",
+      "name": "南牧村",
+      "adoptedCount": 8
+    },
+    {
+      "code": "10384",
+      "name": "甘楽町",
+      "adoptedCount": 16
+    }
+  ],
+  "createdAt": "2026-07-13T15:36:19.663Z",
+  "discovery": {
+    "candidateCount": 135,
+    "officialExtraLinkCount": 256,
+    "selectedMainCount": 33,
+    "selectedSnippetCount": 33,
+    "generatedFiles": [
+      "tasks/discovery/gunma-official-coverage-005-municipalities.json",
+      "tasks/discovery/gunma-official-coverage-005-candidates.json",
+      "tasks/discovery/gunma-official-coverage-005-detail-snippets.json",
+      "tasks/discovery/gunma-official-coverage-005-official-extra.json",
+      "tasks/discovery/gunma-official-coverage-005-selected-main.json",
+      "tasks/discovery/gunma-official-coverage-005-selected-snippets.json"
+    ]
+  },
+  "adoption": {
+    "totalAdded": 35,
+    "byOrganization": {
+      "神流町": 2,
+      "下仁田町": 9,
+      "南牧村": 8,
+      "甘楽町": 16
+    },
+    "uniqueOfficialUrls": 31,
+    "grants": [
+      {
+        "slug": "kanna-septic-tank-2026",
+        "title": "神流町 合併処理浄化槽設置事業",
+        "organization": "神流町",
+        "officialUrl": "https://www.town.kanna.gunma.jp/soshiki/juminseikatsuka_kaikeishitsu/6/38.html"
+      },
+      {
+        "slug": "kanna-welfare-medical-2026",
+        "title": "神流町 福祉医療費給付",
+        "organization": "神流町",
+        "officialUrl": "https://www.town.kanna.gunma.jp/iryou_kennkou_fukushi/iryou_kenkou/588.html"
+      },
+      {
+        "slug": "shimonita-high-school-commuter-pass-2026",
+        "title": "下仁田町 高等学校等通学定期券購入補助",
+        "organization": "下仁田町",
+        "officialUrl": "https://www.town.shimonita.lg.jp/kikaku-zaisei/m02/m02/m02/0711.html"
+      },
+      {
+        "slug": "shimonita-water-basic-meter-reduction-2026",
+        "title": "下仁田町 水道料金基本料金・メーター使用料減免",
+        "organization": "下仁田町",
+        "officialUrl": "https://www.town.shimonita.lg.jp/gasu-suidou/m01/m01/20200805103456.html"
+      },
+      {
+        "slug": "shimonita-care-vehicle-2026",
+        "title": "下仁田町 介護車両購入費補助事業",
+        "organization": "下仁田町",
+        "officialUrl": "https://www.town.shimonita.lg.jp/hukushi/m01/m04/m04/20181002090935.html"
+      },
+      {
+        "slug": "shimonita-hearing-aid-2026",
+        "title": "下仁田町 高齢者補聴器購入費助成金",
+        "organization": "下仁田町",
+        "officialUrl": "https://www.town.shimonita.lg.jp/hukushi/m01/m04/m04/hochoukijosei.html"
+      },
+      {
+        "slug": "shimonita-septic-tank-eco-2026",
+        "title": "下仁田町 浄化槽整備事業エコ補助金",
+        "organization": "下仁田町",
+        "officialUrl": "https://www.town.shimonita.lg.jp/gasu-suidou/m01/m03/20140728131503.html"
+      },
+      {
+        "slug": "shimonita-infertility-treatment-2026",
+        "title": "下仁田町 不妊治療費助成",
+        "organization": "下仁田町",
+        "officialUrl": "https://www.town.shimonita.lg.jp/hoken-kankyo/m01/m03/m02/17.html"
+      },
+      {
+        "slug": "shimonita-optional-vaccination-2026",
+        "title": "下仁田町 任意予防接種助成事業",
+        "organization": "下仁田町",
+        "officialUrl": "https://www.town.shimonita.lg.jp/hoken-kankyo/m01/m03/m15/m01/20200916150702.html"
+      },
+      {
+        "slug": "shimonita-pregnant-rs-vaccine-2026",
+        "title": "下仁田町 妊婦対象RSウイルス感染症予防接種",
+        "organization": "下仁田町",
+        "officialUrl": "https://www.town.shimonita.lg.jp/hoken-kankyo/m01/m03/m15/m01/20260313182256.html"
+      },
+      {
+        "slug": "shimonita-price-support-voucher-2026",
+        "title": "下仁田町 物価高騰対応商品券",
+        "organization": "下仁田町",
+        "officialUrl": "https://www.town.shimonita.lg.jp/shoko-kanko/01.html"
+      },
+      {
+        "slug": "nanmoku-marriage-birth-gift-2026",
+        "title": "南牧村 結婚・出産祝金",
+        "organization": "南牧村",
+        "officialUrl": "https://nanmoku.ne.jp/lifehealth/life/various_subsidy/"
+      },
+      {
+        "slug": "nanmoku-community-hall-2026",
+        "title": "南牧村 行政区集会施設等補助金",
+        "organization": "南牧村",
+        "officialUrl": "https://nanmoku.ne.jp/lifehealth/life/various_subsidy/"
+      },
+      {
+        "slug": "nanmoku-high-school-support-2026",
+        "title": "南牧村 高等学校等通学者支援",
+        "organization": "南牧村",
+        "officialUrl": "https://nanmoku.ne.jp/lifehealth/life/various_subsidy/"
+      },
+      {
+        "slug": "nanmoku-transfer-childcare-incentive-2026",
+        "title": "南牧村 転入奨励金",
+        "organization": "南牧村",
+        "officialUrl": "https://nanmoku.ne.jp/lifehealth/life/various_subsidy/"
+      },
+      {
+        "slug": "nanmoku-settlement-housing-incentive-2026",
+        "title": "南牧村 定住促進奨励金",
+        "organization": "南牧村",
+        "officialUrl": "https://nanmoku.ne.jp/lifehealth/life/various_subsidy/"
+      },
+      {
+        "slug": "nanmoku-parent-child-study-support-2026",
+        "title": "南牧村 親子留学支援事業",
+        "organization": "南牧村",
+        "officialUrl": "https://nanmoku.ne.jp/sample-page/school/oyako/"
+      },
+      {
+        "slug": "nanmoku-price-child-support-2026",
+        "title": "南牧村 物価高対応子育て応援手当",
+        "organization": "南牧村",
+        "officialUrl": "https://nanmoku.ne.jp/lifehealth/health/%e7%89%a9%e4%be%a1%e9%ab%98%e5%af%be%e5%bf%9c%e5%ad%90%e8%82%b2%e3%81%a6%e5%bf%9c%e6%8f%b4%e6%89%8b%e5%bd%93%ef%bc%88%e5%ad%90%e3%81%a9%e3%82%821%e4%ba%ba%e5%bd%93%e3%81%9f%e3%82%8a%ef%bc%92%e4%b8%87/"
+      },
+      {
+        "slug": "nanmoku-childcare-household-support-2026",
+        "title": "南牧村 物価高騰対策子育て世帯支援事業",
+        "organization": "南牧村",
+        "officialUrl": "https://nanmoku.ne.jp/lifehealth/health/%e5%8d%97%e7%89%a7%e6%9d%91%e7%89%a9%e4%be%a1%e9%ab%98%e9%a8%b0%e5%af%be%e7%ad%96%e5%ad%90%e8%82%b2%e3%81%a6%e4%b8%96%e5%b8%af%e6%94%af%e6%8f%b4%e4%ba%8b%e6%a5%ad%ef%bc%88%e5%ad%90%e3%81%a9%e3%82%821/"
+      },
+      {
+        "slug": "kanra-home-renovation-2026",
+        "title": "甘楽町 住宅リフォーム促進事業補助金",
+        "organization": "甘楽町",
+        "officialUrl": "https://www.town.kanra.lg.jp/kensetu/tosikei/news/20230320125642.html"
+      },
+      {
+        "slug": "kanra-newlywed-life-support-2026",
+        "title": "甘楽町 結婚新生活支援補助金",
+        "organization": "甘楽町",
+        "officialUrl": "https://www.town.kanra.lg.jp/kenkou/kodomo/news/20181024112402.html"
+      },
+      {
+        "slug": "kanra-vacant-dangerous-house-demolition-2026",
+        "title": "甘楽町 危険空き家等除却補助金",
+        "organization": "甘楽町",
+        "officialUrl": "https://www.town.kanra.lg.jp/kikaku/chousei/akiya/20200330161141.html"
+      },
+      {
+        "slug": "kanra-energy-saving-appliance-2026",
+        "title": "甘楽町 省エネルギー家電製品等購入費補助金",
+        "organization": "甘楽町",
+        "officialUrl": "https://www.town.kanra.lg.jp/jyuumin/kankyo/news/20260107171040.html"
+      },
+      {
+        "slug": "kanra-septic-tank-2026",
+        "title": "甘楽町 合併処理浄化槽設置補助金",
+        "organization": "甘楽町",
+        "officialUrl": "https://www.town.kanra.lg.jp/jyougesuidou/gesui/news/20170613110745.html"
+      },
+      {
+        "slug": "kanra-drainage-equipment-2026",
+        "title": "甘楽町 宅内排水設備工事費補助金",
+        "organization": "甘楽町",
+        "officialUrl": "https://www.town.kanra.lg.jp/jyougesuidou/gesui/news/20210319101436.html"
+      },
+      {
+        "slug": "kanra-vacant-house-cleanup-2026",
+        "title": "甘楽町 空き家バンク登録物件片付け補助金",
+        "organization": "甘楽町",
+        "officialUrl": "https://www.town.kanra.lg.jp/kikaku/chousei/akiya/20230321135924.html"
+      },
+      {
+        "slug": "kanra-vacant-house-renovation-2026",
+        "title": "甘楽町 空き家リフォーム補助金",
+        "organization": "甘楽町",
+        "officialUrl": "https://www.town.kanra.lg.jp/kikaku/chousei/akiya/20210314102506.html"
+      },
+      {
+        "slug": "kanra-price-child-support-2026",
+        "title": "甘楽町 物価高対応子育て応援手当",
+        "organization": "甘楽町",
+        "officialUrl": "https://www.town.kanra.lg.jp/kenkou/kodomo/news/20260115183520.html"
+      },
+      {
+        "slug": "kanra-solar-battery-2026",
+        "title": "甘楽町 住宅用太陽光発電設備蓄電池設置費補助金",
+        "organization": "甘楽町",
+        "officialUrl": "https://www.town.kanra.lg.jp/jyuumin/kankyo/news/20230310152902.html"
+      },
+      {
+        "slug": "kanra-wooden-house-seismic-retrofit-2026",
+        "title": "甘楽町 木造住宅耐震改修補助金",
+        "organization": "甘楽町",
+        "officialUrl": "https://www.town.kanra.lg.jp/kensetu/tosikei/news/20180511162514.html"
+      },
+      {
+        "slug": "kanra-cat-neuter-2026",
+        "title": "甘楽町 猫の不妊・去勢手術費補助金",
+        "organization": "甘楽町",
+        "officialUrl": "https://www.town.kanra.lg.jp/jyuumin/kankyo/news/20260303092139.html"
+      },
+      {
+        "slug": "kanra-hearing-aid-2026",
+        "title": "甘楽町 高齢者補聴器購入費助成金",
+        "organization": "甘楽町",
+        "officialUrl": "https://www.town.kanra.lg.jp/kenkou/fukusi/news/20240302112511.html"
+      },
+      {
+        "slug": "kanra-infertility-treatment-2026",
+        "title": "甘楽町 不妊治療費助成事業",
+        "organization": "甘楽町",
+        "officialUrl": "https://www.town.kanra.lg.jp/kenkou/hoken/news/20230327100328.html"
+      },
+      {
+        "slug": "kanra-school-lunch-free-2026",
+        "title": "甘楽町 小中学校給食費無償化",
+        "organization": "甘楽町",
+        "officialUrl": "https://www.town.kanra.lg.jp/kyouiku/kyouiku/news/20220405140905.html"
+      },
+      {
+        "slug": "kanra-premium-voucher-2026",
+        "title": "甘楽町 プレミアム付商品券",
+        "organization": "甘楽町",
+        "officialUrl": "https://www.town.kanra.lg.jp/sansin/kankou/news/20260215premiumgiftcertificate.html"
+      }
+    ]
+  },
+  "verification": {
+    "nodeCheck": "pass",
+    "duplicateSlugs": "pass (35 additions; duplicateCount 0)",
+    "officialUrlReachability": "pass (31/31 HTTP 200)",
+    "targetedLint": "pass (npm run lint -- src/data/grants/verified-local-misc-2026.ts)",
+    "fullLint": "failed: pre-existing .gitnexus/run.cjs @typescript-eslint/no-require-imports errors; touched file passed targeted lint",
+    "diffCheck": "pass",
+    "auditCoverage": "pass (failures 0; activePublished 10155; officialLinkedActive 10117; manuallyVerifiedActive 10117; 群馬県 localOfficial 192)"
+  },
+  "exclusions": [
+    "南牧村の予防接種ページは対象者と費用助成表現を確認したが、金額又は上限額が公式本文で確認できないため今回の採用から除外し、第2巡候補に残す。",
+    "トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。"
+  ],
+  "next": {
+    "batchId": "gunma-comprehensive-official-coverage-006",
+    "municipalities": [
+      {
+        "code": "10385",
+        "name": "中之条町"
+      },
+      {
+        "code": "10421",
+        "name": "長野原町"
+      },
+      {
+        "code": "10424",
+        "name": "嬬恋村"
+      },
+      {
+        "code": "10425",
+        "name": "草津町"
+      }
+    ]
+  }
+}

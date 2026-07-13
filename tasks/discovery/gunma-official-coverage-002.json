@@ -1,0 +1,115 @@
+{
+  "batchId": "gunma-comprehensive-official-coverage-002",
+  "prefecture": "群馬県",
+  "checkedAt": "2026-07-13T23:45:00+09:00",
+  "municipalities": [
+    {
+      "code": "10204",
+      "name": "伊勢崎市",
+      "added": 2
+    },
+    {
+      "code": "10205",
+      "name": "太田市",
+      "added": 6
+    },
+    {
+      "code": "10206",
+      "name": "沼田市",
+      "added": 1
+    },
+    {
+      "code": "10207",
+      "name": "館林市",
+      "added": 4
+    }
+  ],
+  "discoveryFiles": [
+    "tasks/discovery/gunma-official-coverage-002-municipalities.json",
+    "tasks/discovery/gunma-official-coverage-002-candidates.json",
+    "tasks/discovery/gunma-official-coverage-002-detail-snippets.json",
+    "tasks/discovery/gunma-official-coverage-002-official-extra.json"
+  ],
+  "addedSlugs": [
+    "isesaki-gx-equipment-2026",
+    "isesaki-small-business-support-2026",
+    "ota-energy-saving-appliance-2026",
+    "ota-electric-vehicle-purchase-2026",
+    "ota-home-security-camera-2026",
+    "ota-cancer-wig-support-2026",
+    "ota-housing-reform-2026",
+    "ota-shop-renovation-2026",
+    "numata-professional-human-resource-2026",
+    "tatebayashi-newlywed-life-support-2026",
+    "tatebayashi-store-welcome-2026",
+    "tatebayashi-commuting-student-support-2026",
+    "tatebayashi-decarbon-lifestyle-2026"
+  ],
+  "adopted": [
+    {
+      "municipality": "伊勢崎市",
+      "count": 2,
+      "programs": [
+        "中小企業GX推進事業費補助金",
+        "小規模事業者サポート補助金"
+      ]
+    },
+    {
+      "municipality": "太田市",
+      "count": 6,
+      "programs": [
+        "省エネ家電買換促進事業",
+        "市内産業活性化電気自動車購入助成金",
+        "家庭用防犯カメラ購入助成金",
+        "がん患者ウィッグ等購入費助成",
+        "住宅リフォーム支援事業補助金",
+        "商店リフォーム支援事業補助金"
+      ]
+    },
+    {
+      "municipality": "沼田市",
+      "count": 1,
+      "programs": [
+        "人材活用支援金"
+      ]
+    },
+    {
+      "municipality": "館林市",
+      "count": 4,
+      "programs": [
+        "結婚新生活支援補助金",
+        "店舗ウェルカム補助金",
+        "定住促進通学支援金",
+        "脱炭素ライフスタイル推進補助金"
+      ]
+    }
+  ],
+  "verification": {
+    "syntax": "node --check src/data/grants/verified-local-misc-2026.ts passed",
+    "duplicateSlugs": {
+      "total": 9713,
+      "duplicateCount": 0
+    },
+    "addedOfficialUrlReach": {
+      "checked": 13,
+      "ok": 13,
+      "status": "all HTTP 200"
+    },
+    "lint": "npm run lint -- src/data/grants/verified-local-misc-2026.ts passed",
+    "diffCheck": "git diff --check passed",
+    "coverageAudit": {
+      "failures": 0,
+      "activePublished": 10067,
+      "officialLinkedActive": 10029,
+      "manuallyVerifiedActive": 10029,
+      "gunmaLocalOfficial": 102
+    }
+  },
+  "notes": [
+    "全国公式棚卸しは未完了。既存rawのgap 0やHTTP 200のみでは完了扱いしない。",
+    "伊勢崎市の物価高騰対応一覧ページは個別制度ページ粒度ではないものを第2巡台帳に残した。",
+    "伊勢崎市家庭用脱炭素化設備導入補助金は既存officialUrl掲載済みのため追加しなかった。",
+    "館林市市民活動推進事業補助金PDFはPDF本文抽出が不足したため第2巡で再確認する。"
+  ],
+  "next": "群馬県公式棚卸し003として、10208渋川市、10209藤岡市、10210富岡市、10211安中市を自治体コード順に確認する。"
+}

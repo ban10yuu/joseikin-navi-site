@@ -1,0 +1,26 @@
+{
+  "batchId": "ibaraki-comprehensive-official-coverage-007",
+  "prefecture": "茨城県",
+  "municipalities": [
+    {
+      "code": "08228",
+      "name": "坂東市",
+      "officialBaseUrl": "https://www.city.bando.lg.jp/"
+    },
+    {
+      "code": "08229",
+      "name": "稲敷市",
+      "officialBaseUrl": "https://www.city.inashiki.lg.jp/"
+    },
+    {
+      "code": "08230",
+      "name": "かすみがうら市",
+      "officialBaseUrl": "https://www.city.kasumigaura.lg.jp/"
+    },
+    {
+      "code": "08231",
+      "name": "桜川市",
+      "officialBaseUrl": "https://www.city.sakuragawa.lg.jp/"
+    }
+  ]
+}
