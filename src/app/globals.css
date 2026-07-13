@@ -1036,6 +1036,26 @@ body {
   font-weight: 900;
 }
 
+.grant-loan-notice,
+.grant-card-loan {
+  margin-top: 0.55rem;
+  padding: 0.55rem 0.65rem;
+  border: 1px solid #d97706;
+  border-radius: 5px;
+  background: #fffbeb;
+  color: #78350f;
+  font-size: 0.8125rem;
+  font-weight: 900;
+  line-height: 1.55;
+}
+
+.grant-budget-note {
+  margin-top: 0.35rem;
+  color: #78350f;
+  font-size: 0.75rem;
+  line-height: 1.55;
+}
+
 .grant-summary-description,
 .grant-eligibility-summary {
   margin-top: 1.25rem;

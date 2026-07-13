@@ -229,6 +229,23 @@ export const TYPE_LABELS: Record<GrantType, string> = {
   ngo: '民間・NPO',
 };
 
+export const SUPPORT_TYPE_LABELS: Record<SupportType, string> = {
+  grant: '助成金',
+  subsidy: '補助金',
+  benefit: '給付金',
+  allowance: '手当',
+  loan: '貸付',
+  scholarshipLoan: '奨学金貸付',
+  reduction: '減免',
+  taxCredit: '税額控除',
+  insuranceBenefit: '保険給付',
+  discount: '料金割引',
+  voucher: '利用券',
+  inKind: '現物給付',
+  other: 'その他の支援',
+  unknown: '制度種別は公式情報で確認',
+};
+
 // ── タイプカラー ──
 export const TYPE_COLORS: Record<GrantType, string> = {
   national: 'bg-blue-600 text-white',

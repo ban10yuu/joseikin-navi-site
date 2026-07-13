@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import { CATEGORY_LABELS, TYPE_LABELS, GrantCategory, GrantType } from '@/lib/types';
-import { getDeadlineStatus, DeadlineStatus } from '@/lib/deadline';
+import { CATEGORY_LABELS, SUPPORT_TYPE_LABELS, TYPE_LABELS, GrantCategory, GrantStatus, GrantType, SupportType } from '@/lib/types';
 import { getGrantSourceStatus } from '@/lib/grant-source';
+import { getEffectiveGrantStatus, GRANT_STATUS_LABELS, isRepayableSupport } from '@/lib/grant-status';
 
 export interface GrantCardItem {
   slug: string;
@@ -20,29 +20,35 @@ export interface GrantCardItem {
   sourceUrls?: string[];
   verifiedAt?: string;
   searchText?: string;
+  status?: GrantStatus;
+  statusOverride?: GrantStatus;
+  supportType?: SupportType;
+  budgetMayCloseEarly?: boolean;
 }
 
-const DEADLINE_BADGES: Record<NonNullable<DeadlineStatus>, { label: string; className: string }> = {
-  'year-round': { label: '通年受付', className: 'bg-emerald-50 text-emerald-800 border-emerald-300' },
-  'ending-soon': { label: '締切間近', className: 'bg-accent-wash text-accent-deep border-accent' },
-  'ended': { label: '期限切れ', className: 'bg-red-50 text-red-800 border-red-300' },
-  'budget-limited': { label: '予算次第', className: 'bg-amber-50 text-amber-800 border-amber-300' },
+const STATUS_BADGES: Partial<Record<GrantStatus, string>> = {
+  open: 'bg-emerald-50 text-emerald-800 border-emerald-300',
+  closingSoon: 'bg-accent-wash text-accent-deep border-accent',
+  closed: 'bg-red-50 text-red-800 border-red-300',
+  scheduled: 'bg-blue-50 text-blue-800 border-blue-300',
+  suspended: 'bg-amber-50 text-amber-800 border-amber-300',
 };
 
 export default function GrantCard({ grant }: { grant: GrantCardItem }) {
-  const deadlineStatus = getDeadlineStatus(grant);
-  const isEnded = deadlineStatus === 'ended';
+  const status = getEffectiveGrantStatus(grant);
+  const isEnded = status === 'closed';
   const sourceStatus = getGrantSourceStatus(grant);
 
   return (
     <Link href={`/grant/${grant.slug}/`} className={`grant-card block ${isEnded ? 'opacity-60' : ''}`}>
       <div className="grant-card-badges">
         <span className="grant-card-type">{TYPE_LABELS[grant.type]}</span>
+        <span>{SUPPORT_TYPE_LABELS[grant.supportType ?? 'unknown']}</span>
         <span>{CATEGORY_LABELS[grant.category]}</span>
         <span>{grant.prefecture}</span>
-        {deadlineStatus && (
-          <span className={`border ${DEADLINE_BADGES[deadlineStatus].className}`}>
-            {DEADLINE_BADGES[deadlineStatus].label}
+        {STATUS_BADGES[status] && (
+          <span className={`border ${STATUS_BADGES[status]}`}>
+            {GRANT_STATUS_LABELS[status]}
           </span>
         )}
       </div>
@@ -52,7 +58,7 @@ export default function GrantCard({ grant }: { grant: GrantCardItem }) {
 
       <dl className="grant-card-facts">
         <div>
-          <dt>支給・補助額</dt>
+          <dt>支援額</dt>
           <dd>{grant.maxAmount}</dd>
         </div>
         <div>
@@ -60,6 +66,10 @@ export default function GrantCard({ grant }: { grant: GrantCardItem }) {
           <dd className="line-clamp-2">{grant.applicationPeriod || '公式サイトで確認'}</dd>
         </div>
       </dl>
+
+      {isRepayableSupport(grant.supportType) && (
+        <p className="grant-card-loan">貸付制度・原則として返済が必要です</p>
+      )}
 
       <p className="grant-card-eligibility line-clamp-2">
         <span>主な対象</span>

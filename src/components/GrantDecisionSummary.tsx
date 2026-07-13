@@ -1,22 +1,16 @@
-import { CATEGORY_LABELS, Grant, TYPE_LABELS } from '@/lib/types';
-import { getDeadlineStatus } from '@/lib/deadline';
+import { CATEGORY_LABELS, Grant, SUPPORT_TYPE_LABELS, TYPE_LABELS } from '@/lib/types';
 import { formatVerifiedDate, splitEligibilityText } from '@/lib/grant-presentation';
+import {
+  getEffectiveGrantStatus,
+  getOfficialCtaLabel,
+  GRANT_STATUS_LABELS,
+  isRepayableSupport,
+} from '@/lib/grant-status';
 
 interface GrantDecisionSummaryProps {
   grant: Grant;
   expired: boolean;
   sourceLabel: string;
-}
-
-function getApplicationStatus(grant: Grant, expired: boolean): string {
-  if (expired) return '掲載上の申請期限は終了';
-
-  const status = getDeadlineStatus(grant);
-  if (status === 'year-round') return '通年・随時受付の記載あり';
-  if (status === 'ending-soon') return '締切が近づいています';
-  if (status === 'budget-limited') return '予算到達で終了する場合あり';
-
-  return '最新の受付状況は公式サイトで確認';
 }
 
 export default function GrantDecisionSummary({
@@ -25,11 +19,15 @@ export default function GrantDecisionSummary({
   sourceLabel,
 }: GrantDecisionSummaryProps) {
   const eligibilityItems = splitEligibilityText(grant.eligibility);
+  const status = getEffectiveGrantStatus(grant);
+  const isClosed = expired || status === 'closed';
+  const isLoan = isRepayableSupport(grant.supportType);
 
   return (
     <header className="grant-decision-summary">
       <div className="grant-summary-badges">
         <span className="is-type">{TYPE_LABELS[grant.type]}</span>
+        <span>{SUPPORT_TYPE_LABELS[grant.supportType ?? 'unknown']}</span>
         <span>{CATEGORY_LABELS[grant.category]}</span>
         <span>{grant.prefecture}</span>
         <span className="is-source">{sourceLabel}</span>
@@ -38,7 +36,7 @@ export default function GrantDecisionSummary({
       <h1>{grant.title}</h1>
       <p className="grant-summary-organization">実施機関：{grant.organization}</p>
 
-      {expired && (
+      {isClosed && (
         <div className="grant-summary-alert" role="status">
           <strong>掲載上の申請期限は終了しています</strong>
           <p>次回募集、後継制度、受付再開の有無を公式サイトまたは担当窓口で確認してください。</p>
@@ -47,8 +45,9 @@ export default function GrantDecisionSummary({
 
       <dl className="grant-summary-facts">
         <div className="is-amount">
-          <dt>支給・補助額</dt>
+          <dt>支援額</dt>
           <dd>{grant.maxAmount}</dd>
+          {isLoan && <p className="grant-loan-notice">貸付制度・原則として返済が必要です</p>}
         </div>
         <div>
           <dt>対象地域</dt>
@@ -60,7 +59,8 @@ export default function GrantDecisionSummary({
         </div>
         <div>
           <dt>受付状況</dt>
-          <dd>{getApplicationStatus(grant, expired)}</dd>
+          <dd>{GRANT_STATUS_LABELS[status]}</dd>
+          {grant.budgetMayCloseEarly && <p className="grant-budget-note">予算到達により早期終了する場合があります。</p>}
         </div>
       </dl>
 
@@ -91,7 +91,7 @@ export default function GrantDecisionSummary({
         rel="noopener noreferrer"
         className="grant-official-primary"
       >
-        公式サイトで最新情報を確認
+        {getOfficialCtaLabel(status)}
         <span className="sr-only">（新しいタブで開きます）</span>
         <span aria-hidden="true">↗</span>
       </a>

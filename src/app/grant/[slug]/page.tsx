@@ -18,6 +18,8 @@ import ShareButtons from '@/components/ShareButtons';
 import GrantDecisionSummary from '@/components/GrantDecisionSummary';
 import OfficialSourcePanel from '@/components/OfficialSourcePanel';
 import OfficialCheckpoints from '@/components/OfficialCheckpoints';
+import { getEffectiveGrantStatus, getOfficialCtaLabel } from '@/lib/grant-status';
+import { toSiteUrl } from '@/lib/site-url';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -48,11 +50,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title,
       description,
-      url: `https://joseikin-navi-site.vercel.app/grant/${slug}/`,
+      url: toSiteUrl(`/grant/${slug}/`),
       type: 'article',
     },
     alternates: {
-      canonical: `https://joseikin-navi-site.vercel.app/grant/${slug}/`,
+      canonical: toSiteUrl(`/grant/${slug}/`),
     },
     robots: sourceStatus.level === 'unverified' || expired
       ? {
@@ -69,9 +71,10 @@ export default async function GrantDetailPage({ params }: Props) {
   if (!grant || !hasOfficialSource(grant)) notFound();
 
   const related = getRelatedGrants(grant, 4);
-  const baseUrl = 'https://joseikin-navi-site.vercel.app';
+  const baseUrl = toSiteUrl('/').replace(/\/$/, '');
   const sourceStatus = getGrantSourceStatus(grant);
   const expired = isGrantExpired(grant);
+  const status = getEffectiveGrantStatus(grant);
 
   return (
     <>
@@ -170,7 +173,7 @@ export default async function GrantDetailPage({ params }: Props) {
 
       <div className="grant-mobile-cta">
         <a href={grant.officialUrl} target="_blank" rel="noopener noreferrer">
-          {expired ? '次回募集・後継制度の有無を公式サイトで確認' : '公式サイトで最新情報を確認'}
+          {getOfficialCtaLabel(status)}
           <span className="sr-only">（新しいタブで開きます）</span>
           <span aria-hidden="true">↗</span>
         </a>
