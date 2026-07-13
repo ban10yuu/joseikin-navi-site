@@ -1,0 +1,100 @@
+{
+  "batchId": "ibaraki-comprehensive-official-coverage-010",
+  "prefecture": "茨城県",
+  "verifiedAt": "2026-07-13",
+  "municipalities": [
+    {
+      "code": "08341",
+      "name": "東海村",
+      "officialBaseUrl": "https://www.vill.tokai.ibaraki.jp/",
+      "adoptedCount": 11,
+      "adoptedSlugs": [
+        "tokai-home-security-equipment-subsidy-2026",
+        "tokai-childcare-worker-support-grants-2026",
+        "tokai-sme-product-development-subsidy-2026",
+        "tokai-sme-productivity-equipment-subsidy-2026",
+        "tokai-sme-energy-saving-equipment-subsidy-2026",
+        "tokai-sme-market-expansion-subsidy-2026",
+        "tokai-agricultural-greenhouse-subsidy-2026",
+        "tokai-wildlife-fence-subsidy-2026",
+        "tokai-child-youth-support-benefit-2026",
+        "tokai-low-income-pregnancy-first-visit-subsidy-2026",
+        "tokai-marutoku-medical-welfare-2026"
+      ],
+      "deferredNotes": [
+        "自転車用ヘルメット購入補助券は令和8年度予算上限到達で受付終了のため採用しない。",
+        "創業向け融資利子補助、環境にやさしい農産物栽培奨励補助、産業活性化奨励金、70周年企画公募、妊婦支援給付、在宅育児手当は本文必須項目又は現在受付状況の再確認を第2巡に残す。"
+      ]
+    },
+    {
+      "code": "08364",
+      "name": "大子町",
+      "officialBaseUrl": "https://www.town.daigo.ibaraki.jp/",
+      "adoptedCount": 8,
+      "adoptedSlugs": [
+        "daigo-home-renovation-subsidy-2026",
+        "daigo-wooden-house-seismic-subsidy-2026",
+        "daigo-vacant-house-renovation-subsidy-2026",
+        "daigo-wakuwaku-ibaraki-migration-support-2026",
+        "daigo-childcare-house-construction-subsidy-2026",
+        "daigo-wooden-house-construction-subsidy-2026",
+        "daigo-wild-boar-fence-subsidy-2026",
+        "daigo-english-test-fee-subsidy-2026"
+      ],
+      "deferredNotes": [
+        "水郡線観光・集客行事等連携事業費補助金、パークアンドライド推進事業補助金、男子HPVワクチン任意接種、大学生インターン受入、不育症治療費助成は追加本文確認を第2巡に残す。"
+      ]
+    },
+    {
+      "code": "08442",
+      "name": "美浦村",
+      "officialBaseUrl": "https://www.vill.miho.lg.jp/",
+      "adoptedCount": 9,
+      "adoptedSlugs": [
+        "miho-home-renovation-subsidy-2026",
+        "miho-settlement-incentive-grant-2026",
+        "miho-childcare-education-free-benefit-2026",
+        "miho-elderly-hearing-aid-subsidy-2026",
+        "miho-newlywed-life-support-subsidy-2026",
+        "miho-child-medical-expense-subsidy-2026",
+        "miho-pregnant-medical-expense-subsidy-2026",
+        "miho-hornet-nest-removal-subsidy-2026",
+        "miho-intractable-disease-support-2026"
+      ],
+      "deferredNotes": [
+        "村民海外研修補助金は令和4年度人数表記が残るため現在年度の受付状況確認を第2巡に残す。",
+        "補聴器購入支援は高齢者補聴器ページと重複したため単独採用しない。"
+      ]
+    },
+    {
+      "code": "08443",
+      "name": "阿見町",
+      "officialBaseUrl": "https://www.town.ami.lg.jp/",
+      "adoptedCount": 7,
+      "adoptedSlugs": [
+        "ami-wooden-house-seismic-support-2026",
+        "ami-dog-cat-spay-neuter-subsidy-2026",
+        "ami-marriage-support-center-registration-subsidy-2026",
+        "ami-mild-moderate-child-hearing-aid-subsidy-2026",
+        "ami-national-health-insurance-checkup-subsidy-2026",
+        "ami-latter-stage-elderly-checkup-subsidy-2026",
+        "ami-community-facility-maintenance-subsidy-2026"
+      ],
+      "deferredNotes": [
+        "町民活動支援補助金の令和8年度募集ページは受付期間が令和7年12月12日から12月26日で期限超過のため採用しない。"
+      ]
+    }
+  ],
+  "summary": {
+    "candidateCount": 816,
+    "snippetRows": 263,
+    "officialDetailRows": 49,
+    "adoptedCount": 35,
+    "allAdoptedOfficialUrlsReachable": true,
+    "allAdoptedSlugUnique": true,
+    "notes": [
+      "トップ、カテゴリ、サイトマップ、制度一覧、受付終了、期限超過、重複ページは採用対象から除外又は第2巡に残した。",
+      "全国公式棚卸しは未完了。次は茨城県011として08447河内町、08521八千代町、08542五霞町、08546境町を確認する。"
+    ]
+  }
+}
