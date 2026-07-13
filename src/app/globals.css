@@ -91,6 +91,33 @@ body {
   border-bottom: 1px solid #e2e8f0;
 }
 
+.home-hero-top {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 290px;
+  grid-template-areas:
+    "intro visual"
+    "description visual";
+  align-items: center;
+  gap: 0.75rem 2rem;
+  max-width: 1040px;
+  margin: 0 auto 1.5rem;
+}
+
+.home-hero-visual {
+  grid-area: visual;
+  overflow: hidden;
+  border: 1px solid #dbe5f0;
+  border-radius: 24px 8px 24px 8px;
+  background: #ffffff;
+  box-shadow: 8px 8px 0 #dfe9f5;
+}
+
+.home-hero-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .home-proof-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -400,9 +427,10 @@ body {
 }
 
 .home-hero-intro {
-  max-width: 780px;
-  margin: 0 auto 1.5rem;
-  text-align: center;
+  grid-area: intro;
+  max-width: 720px;
+  margin: 0;
+  text-align: left;
 }
 
 .home-hero-kicker,
@@ -422,9 +450,10 @@ body {
   line-height: 1.35;
 }
 
-.home-hero-intro > p:last-child {
+.home-hero-description {
+  grid-area: description;
   max-width: 680px;
-  margin: 0.75rem auto 0;
+  margin: 0;
   color: #475569;
   font-size: 0.9375rem;
   line-height: 1.8;
@@ -607,10 +636,95 @@ body {
   font-weight: 900;
 }
 
+.home-audience-visual {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid rgb(203 213 225 / 0.85);
+  border-radius: 18px 6px 18px 6px;
+  background: #ffffff;
+}
+
 .home-howto-section {
   padding: 2.5rem 0;
   border-top: 1px solid #e2e8f0;
   background: #f8fafc;
+}
+
+.home-howto-layout {
+  display: grid;
+  grid-template-columns: 250px minmax(0, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+
+.home-howto-visual {
+  overflow: hidden;
+  border: 1px solid #dbe5f0;
+  border-radius: 20px 8px 20px 8px;
+  background: #ffffff;
+}
+
+.home-howto-visual img,
+.home-method-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.home-method-intro {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.home-method-visual {
+  overflow: hidden;
+  border: 1px solid rgb(255 255 255 / 0.28);
+  border-radius: 18px 6px 18px 6px;
+  background: #ffffff;
+}
+
+.category-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 180px;
+  align-items: center;
+  gap: 2rem;
+}
+
+.category-hero-visual {
+  overflow: hidden;
+  border: 1px solid rgb(255 255 255 / 0.35);
+  border-radius: 24px 8px 24px 8px;
+  background: #ffffff;
+  box-shadow: 8px 8px 0 rgb(255 255 255 / 0.12);
+}
+
+.category-hero-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.grant-empty-state {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 220px;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.grant-empty-visual {
+  overflow: hidden;
+  border: 1px solid #dbe5f0;
+  border-radius: 18px 6px 18px 6px;
+  background: #ffffff;
+}
+
+.grant-empty-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .home-section-heading {
@@ -1686,20 +1800,61 @@ body {
     font-weight: 900;
   }
 
-  .home-hero-intro {
+  .home-hero-top {
+    grid-template-columns: minmax(0, 1fr) 118px;
+    grid-template-areas:
+      "intro visual"
+      "description description";
+    gap: 0.8rem;
     margin-bottom: 1rem;
+  }
+
+  .home-hero-visual {
+    border-radius: 16px 6px 16px 6px;
+    box-shadow: 5px 5px 0 #dfe9f5;
+  }
+
+  .home-hero-intro {
+    margin: 0;
     text-align: left;
   }
 
   .home-hero-intro h1 {
-    font-size: 1.65rem;
+    font-size: 1.45rem;
     line-height: 1.4;
   }
 
-  .home-hero-intro > p:last-child {
-    margin-top: 0.5rem;
+  .home-hero-description {
+    margin-top: 0;
     font-size: 0.875rem;
     line-height: 1.65;
+  }
+
+  .home-howto-layout {
+    grid-template-columns: 150px minmax(0, 1fr);
+    align-items: start;
+    gap: 1rem;
+  }
+
+  .home-method-intro {
+    grid-template-columns: 112px minmax(0, 1fr);
+    align-items: start;
+    gap: 0.9rem;
+  }
+
+  .category-hero {
+    grid-template-columns: minmax(0, 1fr) 96px;
+    gap: 1rem;
+  }
+
+  .category-hero-visual {
+    border-radius: 14px 5px 14px 5px;
+    box-shadow: 5px 5px 0 rgb(255 255 255 / 0.12);
+  }
+
+  .grant-empty-state {
+    grid-template-columns: minmax(0, 1fr) 150px;
+    gap: 1rem;
   }
 
   .home-search-panel {
@@ -1895,5 +2050,42 @@ body {
 
   .info-table td {
     padding-top: 0.25rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .home-category-link {
+    min-height: 126px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.35rem;
+    padding: 0.75rem;
+    text-align: center;
+    line-height: 1.45;
+  }
+
+  .home-category-link img {
+    width: 52px;
+    height: 52px;
+  }
+
+  .home-howto-layout,
+  .home-method-intro,
+  .grant-empty-state {
+    grid-template-columns: 1fr;
+  }
+
+  .home-howto-visual,
+  .home-method-visual,
+  .grant-empty-visual {
+    width: min(180px, 54vw);
+  }
+
+  .home-method-visual {
+    background: #ffffff;
+  }
+
+  .grant-empty-visual {
+    margin-inline: auto;
   }
 }

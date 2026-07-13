@@ -15,7 +15,8 @@
     "audit:build": "node scripts/audit-build.mjs",
     "audit:coverage": "node scripts/audit-coverage.mjs",
     "audit:deadlines": "node --test src/lib/deadline.test.mjs src/lib/grant-status.test.mjs",
-    "audit:links": "node scripts/audit-links.mjs"
+    "audit:links": "node scripts/audit-links.mjs",
+    "assets:illustrations": "node scripts/process-illustration-sheets.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.0",

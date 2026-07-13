@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import GrantCard from '@/components/GrantCard';
@@ -7,6 +8,7 @@ import { getGrantsByCategory } from '@/lib/grants';
 import { getEffectiveGrantStatus } from '@/lib/grant-status';
 import { toSiteUrl } from '@/lib/site-url';
 import { CATEGORY_COLORS, CATEGORY_LABELS, PREFECTURES, type Audience, type GrantCategory, type Purpose } from '@/lib/types';
+import { getCategoryVisual } from '@/lib/visual-assets';
 
 const validCategories = Object.keys(CATEGORY_LABELS);
 
@@ -76,12 +78,15 @@ export default async function CategoryPage({ params }: Props) {
       <BreadcrumbJsonLd items={[{ name: 'ホーム', url: toSiteUrl('/') }, { name: label, url: canonical }]} />
       <CollectionJsonLd name={`${label}の支援制度`} description={CATEGORY_INTROS[category]} url={canonical} />
       <header className="border-b-4 border-accent bg-navy py-10 text-white sm:py-14">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6">
-          <nav aria-label="パンくず" className="mb-4 text-sm text-white/70"><Link href="/" className="underline underline-offset-4">ホーム</Link><span className="mx-2" aria-hidden="true">/</span><span aria-current="page">{label}</span></nav>
-          <span className={`inline-flex rounded-full border px-3 py-1 text-xs font-bold ${CATEGORY_COLORS[category]}`}>{label}</span>
-          <h1 className="mt-3 text-3xl font-black leading-tight">{label}の支援制度</h1>
-          <p className="mt-4 max-w-3xl text-base leading-8 text-white/85">{CATEGORY_INTROS[category]}</p>
-          <p className="mt-3 text-sm font-bold text-white">公式情報の確認先がある制度：{grants.length.toLocaleString('ja-JP')}件</p>
+        <div className="category-hero mx-auto max-w-6xl px-4 sm:px-6">
+          <div>
+            <nav aria-label="パンくず" className="mb-4 text-sm text-white/70"><Link href="/" className="underline underline-offset-4">ホーム</Link><span className="mx-2" aria-hidden="true">/</span><span aria-current="page">{label}</span></nav>
+            <span className={`inline-flex rounded-full border px-3 py-1 text-xs font-bold ${CATEGORY_COLORS[category]}`}>{label}</span>
+            <h1 className="mt-3 text-3xl font-black leading-tight">{label}の支援制度</h1>
+            <p className="mt-4 max-w-3xl text-base leading-8 text-white/85">{CATEGORY_INTROS[category]}</p>
+            <p className="mt-3 text-sm font-bold text-white">公式情報の確認先がある制度：{grants.length.toLocaleString('ja-JP')}件</p>
+          </div>
+          <div className="category-hero-visual" aria-hidden="true"><Image src={getCategoryVisual(category)} alt="" width={256} height={256} priority sizes="(max-width: 640px) 96px, 180px" /></div>
         </div>
       </header>
 

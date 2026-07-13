@@ -8,17 +8,7 @@ import { getGrantQualityStats, getOfficialLinkedGrants, getRecentlyUpdatedGrants
 import { getEffectiveGrantStatus } from '@/lib/grant-status';
 import { isNewsletterEnabled } from '@/lib/newsletter';
 import { CATEGORY_LABELS, type GrantCategory } from '@/lib/types';
-
-const CATEGORY_IMAGES: Record<GrantCategory, string> = {
-  childcare: '/images/categories/childcare.png',
-  housing: '/images/categories/housing.png',
-  medical: '/images/categories/medical.png',
-  education: '/images/categories/education.png',
-  employment: '/images/categories/employment.png',
-  nursing: '/images/categories/nursing.png',
-  living: '/images/categories/living.png',
-  disaster: '/images/categories/disaster.png',
-};
+import { CATEGORY_VISUALS, ILLUSTRATION_VISUALS } from '@/lib/visual-assets';
 
 const REGIONS = [
   { name: '北海道', prefectures: ['北海道'] },
@@ -30,34 +20,6 @@ const REGIONS = [
   { name: '四国', prefectures: ['徳島県', '香川県', '愛媛県', '高知県'] },
   { name: '九州・沖縄', prefectures: ['福岡県', '佐賀県', '長崎県', '熊本県', '大分県', '宮崎県', '鹿児島県', '沖縄県'] },
 ];
-
-function AudienceIllustration({ type }: { type: 'individual' | 'business' }) {
-  return type === 'individual' ? (
-    <svg viewBox="0 0 180 120" role="img" aria-label="家族と支援情報を表すイラスト" className="h-auto w-full">
-      <rect x="8" y="8" width="164" height="104" rx="20" fill="#eff6ff" />
-      <path d="M41 56 69 34l28 22v35H41Z" fill="#fff" stroke="#2557a7" strokeWidth="3" />
-      <path d="M50 52v-17h12v8" fill="none" stroke="#2557a7" strokeWidth="3" />
-      <circle cx="112" cy="51" r="13" fill="#f8c9a8" />
-      <path d="M96 93c2-21 8-29 17-29s16 8 18 29" fill="#2557a7" />
-      <circle cx="140" cy="62" r="9" fill="#f8c9a8" />
-      <path d="M130 94c1-15 5-22 11-22 7 0 11 7 12 22" fill="#60a5fa" />
-      <path d="m105 46 7-8 10 8" fill="#334155" />
-      <circle cx="154" cy="27" r="12" fill="#fff" stroke="#047857" strokeWidth="3" />
-      <path d="m148 27 4 4 8-9" fill="none" stroke="#047857" strokeLinecap="round" strokeWidth="3" />
-    </svg>
-  ) : (
-    <svg viewBox="0 0 180 120" role="img" aria-label="事業者と支援情報を表すイラスト" className="h-auto w-full">
-      <rect x="8" y="8" width="164" height="104" rx="20" fill="#f0fdf4" />
-      <path d="M32 93V42h41v51M73 57h35v36M42 54h9M42 67h9M42 80h9M83 67h14M83 80h14" fill="#fff" stroke="#047857" strokeWidth="3" />
-      <circle cx="131" cy="54" r="13" fill="#f8c9a8" />
-      <path d="M112 94c2-22 9-29 20-29s18 7 20 29" fill="#2557a7" />
-      <path d="M121 45c6-9 18-8 23 2" fill="none" stroke="#334155" strokeWidth="5" />
-      <rect x="122" y="73" width="20" height="14" rx="2" fill="#fff" />
-      <circle cx="153" cy="27" r="12" fill="#fff" stroke="#2557a7" strokeWidth="3" />
-      <path d="M148 27h10M153 22v10" stroke="#2557a7" strokeLinecap="round" strokeWidth="3" />
-    </svg>
-  );
-}
 
 export default function HomePage() {
   const stats = getGrantQualityStats();
@@ -73,10 +35,15 @@ export default function HomePage() {
     <>
       <section className="home-hero">
         <div className="mx-auto max-w-6xl px-4 py-7 sm:px-6 sm:py-12">
-          <div className="home-hero-intro">
-            <p className="home-hero-kicker">国・自治体などの公式情報を整理</p>
-            <h1>地域と目的から、利用できる可能性のある支援制度を探す</h1>
-            <p>国・自治体・民間団体の公式情報をもとに、対象、支援内容、申請期限、確認先を整理しています。</p>
+          <div className="home-hero-top">
+            <div className="home-hero-intro">
+              <p className="home-hero-kicker">国・自治体などの公式情報を整理</p>
+              <h1>地域と目的から、利用できる可能性のある支援制度を探す</h1>
+            </div>
+            <div className="home-hero-visual" aria-hidden="true">
+              <Image src={ILLUSTRATION_VISUALS.hero} alt="" width={640} height={640} priority sizes="(max-width: 768px) 120px, 300px" />
+            </div>
+            <p className="home-hero-description">国・自治体・民間団体の公式情報をもとに、対象、支援内容、申請期限、確認先を整理しています。</p>
           </div>
           <HomeGrantSearch totalCount={stats.total} officialLinkedCount={stats.officialLinked} />
           <p className="mx-auto mt-4 max-w-4xl text-center text-xs leading-6 text-slate-600">掲載情報だけで対象可否は確定しません。申請前に公式募集要項をご確認ください。</p>
@@ -94,11 +61,11 @@ export default function HomePage() {
           <div className="grid gap-4 md:grid-cols-2">
             <Link href="/grants/?audience=individual" className="group grid min-h-44 grid-cols-[minmax(0,1fr)_130px] items-center gap-4 rounded-2xl border-2 border-blue-200 bg-blue-50 p-5 transition hover:border-blue-600 hover:bg-white sm:grid-cols-[minmax(0,1fr)_180px]">
               <div><p className="text-xs font-bold text-blue-700">暮らし・家族・学び</p><h3 className="mt-1 text-xl font-black text-navy">個人・家族向け</h3><p className="mt-2 text-sm leading-7 text-slate-600">子育て、住まい、医療、教育、生活支援などから探せます。</p><span className="mt-3 inline-flex font-bold text-blue-800 underline underline-offset-4">個人・家族向けを探す →</span></div>
-              <AudienceIllustration type="individual" />
+              <Image src={ILLUSTRATION_VISUALS.individual} alt="" width={640} height={640} className="home-audience-visual" sizes="(max-width: 640px) 120px, 180px" />
             </Link>
             <Link href="/grants/?audience=business" className="group grid min-h-44 grid-cols-[minmax(0,1fr)_130px] items-center gap-4 rounded-2xl border-2 border-emerald-200 bg-emerald-50 p-5 transition hover:border-emerald-700 hover:bg-white sm:grid-cols-[minmax(0,1fr)_180px]">
               <div><p className="text-xs font-bold text-emerald-800">創業・雇用・設備投資</p><h3 className="mt-1 text-xl font-black text-navy">事業者・団体向け</h3><p className="mt-2 text-sm leading-7 text-slate-600">創業、事業成長、デジタル化、省エネ、雇用などから探せます。</p><span className="mt-3 inline-flex font-bold text-emerald-900 underline underline-offset-4">事業者・団体向けを探す →</span></div>
-              <AudienceIllustration type="business" />
+              <Image src={ILLUSTRATION_VISUALS.business} alt="" width={640} height={640} className="home-audience-visual" sizes="(max-width: 640px) 120px, 180px" />
             </Link>
           </div>
         </div>
@@ -109,8 +76,8 @@ export default function HomePage() {
           <div className="home-section-heading"><p>困りごと・目的を起点に</p><h2 id="purpose-heading">目的から探す</h2></div>
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
             {(Object.entries(CATEGORY_LABELS) as [GrantCategory, string][]).map(([key, label]) => (
-              <Link key={key} href={`/category/${key}/`} className="flex min-h-24 items-center gap-3 rounded-xl border border-line bg-white p-4 font-bold text-navy transition hover:border-navy hover:shadow-sm">
-                <Image src={CATEGORY_IMAGES[key]} alt="" width={44} height={44} className="h-11 w-11 shrink-0 object-contain" />
+              <Link key={key} href={`/category/${key}/`} className="home-category-link flex min-h-24 items-center gap-3 rounded-xl border border-line bg-white p-4 font-bold text-navy transition hover:border-navy hover:shadow-sm">
+                <Image src={CATEGORY_VISUALS[key]} alt="" width={56} height={56} className="h-14 w-14 shrink-0 object-contain" />
                 <span>{label}</span>
               </Link>
             ))}
@@ -151,20 +118,23 @@ export default function HomePage() {
       </section>
 
       <section className="home-howto-section" aria-labelledby="before-heading">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6">
-          <div className="home-section-heading"><p>候補が見つかったら</p><h2 id="before-heading">申請前に確認すること</h2></div>
-          <ol className="home-howto-list">
-            <li><span>1</span><div><strong>対象条件を読む</strong><p>対象地域、年齢、事業規模など、制度固有の条件を確認します。</p></div></li>
-            <li><span>2</span><div><strong>期限と受付状況を見る</strong><p>予算到達で早期終了する場合があるため、公式情報を確認します。</p></div></li>
-            <li><span>3</span><div><strong>公式募集要項を確認</strong><p>必要書類や申請方法は制度ごとに異なります。</p></div></li>
-          </ol>
-          <div className="flex flex-wrap gap-4"><Link href="/guide/#individual-guide" className="home-text-link">個人向け申請ガイド →</Link><Link href="/guide/#business-guide" className="home-text-link">事業者向け申請ガイド →</Link></div>
+        <div className="home-howto-layout mx-auto max-w-6xl px-4 sm:px-6">
+          <div className="home-howto-visual" aria-hidden="true"><Image src={ILLUSTRATION_VISUALS.guide} alt="" width={640} height={640} sizes="(max-width: 768px) 180px, 260px" /></div>
+          <div>
+            <div className="home-section-heading"><p>候補が見つかったら</p><h2 id="before-heading">申請前に確認すること</h2></div>
+            <ol className="home-howto-list">
+              <li><span>1</span><div><strong>対象条件を読む</strong><p>対象地域、年齢、事業規模など、制度固有の条件を確認します。</p></div></li>
+              <li><span>2</span><div><strong>期限と受付状況を見る</strong><p>予算到達で早期終了する場合があるため、公式情報を確認します。</p></div></li>
+              <li><span>3</span><div><strong>公式募集要項を確認</strong><p>必要書類や申請方法は制度ごとに異なります。</p></div></li>
+            </ol>
+            <div className="flex flex-wrap gap-4"><Link href="/guide/#individual-guide" className="home-text-link">個人向け申請ガイド →</Link><Link href="/guide/#business-guide" className="home-text-link">事業者向け申請ガイド →</Link></div>
+          </div>
         </div>
       </section>
 
       <section className="border-y border-line bg-navy py-10 text-white sm:py-14" aria-labelledby="method-heading">
         <div className="mx-auto grid max-w-6xl gap-8 px-4 sm:px-6 lg:grid-cols-[1fr_1.3fr] lg:items-center">
-          <div><p className="text-xs font-bold tracking-wide text-blue-200">このサイトの情報確認方法</p><h2 id="method-heading" className="mt-2 text-2xl font-black">「公式リンクあり」と<br className="hidden sm:block" />「人手確認済み」を分けています</h2><p className="mt-4 max-w-xl text-sm leading-7 text-slate-200">AIは公式情報の整理・要約に利用します。公式ページへのリンク、自動照合日、人が確認した記録は別々に表示し、人が確認していない情報を「人手確認済み」とは表示しません。</p></div>
+          <div className="home-method-intro"><div className="home-method-visual" aria-hidden="true"><Image src={ILLUSTRATION_VISUALS.verification} alt="" width={640} height={640} sizes="160px" /></div><div><p className="text-xs font-bold tracking-wide text-blue-200">このサイトの情報確認方法</p><h2 id="method-heading" className="mt-2 text-2xl font-black">「公式リンクあり」と<br className="hidden sm:block" />「人手確認済み」を分けています</h2><p className="mt-4 max-w-xl text-sm leading-7 text-slate-200">AIは公式情報の整理・要約に利用します。公式ページへのリンク、自動照合日、人が確認した記録は別々に表示し、人が確認していない情報を「人手確認済み」とは表示しません。</p></div></div>
           <ol className="grid gap-3 sm:grid-cols-3">
             <li className="rounded-xl bg-white p-4 text-navy"><span className="text-xs font-black text-blue-700">01</span><strong className="mt-2 block">公式情報を収集</strong><p className="mt-1 text-xs leading-6 text-slate-600">国・自治体などの確認先を記録</p></li>
             <li className="rounded-xl bg-white p-4 text-navy"><span className="text-xs font-black text-blue-700">02</span><strong className="mt-2 block">項目ごとに整理</strong><p className="mt-1 text-xs leading-6 text-slate-600">出典にない情報は推測で補完しない</p></li>

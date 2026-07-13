@@ -931,3 +931,21 @@
 - [x] 広島県Batch 207の検証（対象ESLintエラー0、diff check問題なし、採用sourceUrls 11件はすべてHTTP 200、全国未照合raw slugは1,957件から1,952件、広島県は59件から54件に減少、coverage failures 0。進捗チェックリスト再生成済み。Buildは今回は未実行）
 - [ ] 次回候補: 綾部市残り2件（`ayabe-bicycle-helmet` / `ayabe-tea-business`）は現行公式制度の確認が弱いため保留。次は広島市（`hiroshima-city-startup-support` / `hiroshima-juutaku-reform` / `hiroshima-health-checkup-subsidy` など）から再開可能
 - [ ] push / 公開反映は明示確認後に実行
+
+---
+
+## 2026-07-14 視覚イラストシステム
+
+- [x] 現行トップのPC・390pxベースラインを記録
+- [x] 人物6場面を3×2シートで生成・目視検査
+- [x] モチーフ24点を6×4シートで再生成・目視検査
+- [x] 原版から30点のWebPアセットを再生成できる加工スクリプトを追加
+- [x] トップのヒーロー、対象別入口、目的、申請ガイド、情報確認方法へ実装
+- [x] カテゴリヘッダーと検索0件状態へ実装
+- [x] 320〜1440px向けのレスポンシブ調整
+- [x] 画像マップテスト4件を追加
+- [x] lint / typecheck / 77 tests / copy check 成功
+- [x] content audit critical 0
+- [x] production build 8,266ページ成功
+- [x] build audit critical 0
+- [ ] Vercel本番反映と独自ドメイン実機確認

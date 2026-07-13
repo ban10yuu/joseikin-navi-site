@@ -1,10 +1,12 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import GrantCard from '@/components/GrantCard';
 import { getAllGrantsUnfiltered, getGrantQualityStats } from '@/lib/grants';
 import { GRANT_STATUS_LABELS } from '@/lib/grant-status';
 import { normalizeGrantQuery, queryGrants, type GrantQuery } from '@/lib/grant-query';
 import { toSiteUrl } from '@/lib/site-url';
+import { ILLUSTRATION_VISUALS } from '@/lib/visual-assets';
 import {
   CATEGORY_LABELS,
   PREFECTURES,
@@ -284,15 +286,17 @@ export default async function GrantsListPage({ searchParams }: { searchParams: P
             {result.items.map((grant) => <GrantCard key={grant.slug} grant={grant} />)}
           </div>
         ) : (
-          <section className="rounded-2xl border border-line bg-wash p-6 sm:p-8" aria-labelledby="no-results-title">
-            <h2 id="no-results-title" className="text-xl font-black text-navy">該当する制度が見つかりませんでした</h2>
-            <p className="mt-2 leading-7 text-ink">条件を少し広げると、候補が見つかることがあります。</p>
-            <ul className="mt-4 grid gap-3 sm:grid-cols-2">
-              {(query.pref || query.municipality) && <li><Link href={grantsHref(query, { pref: null, municipality: null })} className="inline-flex min-h-11 items-center font-bold text-navy underline underline-offset-4">地域を全国へ広げる</Link></li>}
-              <li><Link href={grantsHref(query, { status: 'closed' })} className="inline-flex min-h-11 items-center font-bold text-navy underline underline-offset-4">受付終了の制度を確認する</Link></li>
-              {query.q && <li><Link href={grantsHref(query, { q: query.q.split(/[\s　]+/)[0] ?? '' })} className="inline-flex min-h-11 items-center font-bold text-navy underline underline-offset-4">キーワードを短くして探す</Link></li>}
-              {query.purpose && <li><Link href={grantsHref(query, { purpose: null, cat: query.category ?? null })} className="inline-flex min-h-11 items-center font-bold text-navy underline underline-offset-4">同じカテゴリから探す</Link></li>}
-            </ul>
+          <section className="grant-empty-state rounded-2xl border border-line bg-wash p-6 sm:p-8" aria-labelledby="no-results-title">
+            <div><h2 id="no-results-title" className="text-xl font-black text-navy">該当する制度が見つかりませんでした</h2>
+              <p className="mt-2 leading-7 text-ink">条件を少し広げると、候補が見つかることがあります。</p>
+              <ul className="mt-4 grid gap-3 sm:grid-cols-2">
+                {(query.pref || query.municipality) && <li><Link href={grantsHref(query, { pref: null, municipality: null })} className="inline-flex min-h-11 items-center font-bold text-navy underline underline-offset-4">地域を全国へ広げる</Link></li>}
+                <li><Link href={grantsHref(query, { status: 'closed' })} className="inline-flex min-h-11 items-center font-bold text-navy underline underline-offset-4">受付終了の制度を確認する</Link></li>
+                {query.q && <li><Link href={grantsHref(query, { q: query.q.split(/[\s　]+/)[0] ?? '' })} className="inline-flex min-h-11 items-center font-bold text-navy underline underline-offset-4">キーワードを短くして探す</Link></li>}
+                {query.purpose && <li><Link href={grantsHref(query, { purpose: null, cat: query.category ?? null })} className="inline-flex min-h-11 items-center font-bold text-navy underline underline-offset-4">同じカテゴリから探す</Link></li>}
+              </ul>
+            </div>
+            <div className="grant-empty-visual" aria-hidden="true"><Image src={ILLUSTRATION_VISUALS.region} alt="" width={640} height={640} sizes="(max-width: 640px) 150px, 220px" /></div>
           </section>
         )}
 
