@@ -7,12 +7,9 @@ export interface GrantSourceLike {
 
 const PLACEHOLDER_HOSTS = new Set(['example.com', 'localhost']);
 
-export function hasOfficialSource(grant: GrantSourceLike): boolean {
-  const officialUrl = grant.officialUrl?.trim();
-  if (!officialUrl) return false;
-
+function isValidOfficialUrl(value: string): boolean {
   try {
-    const url = new URL(officialUrl);
+    const url = new URL(value);
     return (
       (url.protocol === 'https:' || url.protocol === 'http:') &&
       !PLACEHOLDER_HOSTS.has(url.hostname.replace(/^www\./, ''))
@@ -20,6 +17,16 @@ export function hasOfficialSource(grant: GrantSourceLike): boolean {
   } catch {
     return false;
   }
+}
+
+export function getValidOfficialSourceUrls(grant: GrantSourceLike): string[] {
+  return [...new Set([grant.officialUrl, ...(grant.sourceUrls ?? [])]
+    .map((value) => value?.trim())
+    .filter((value): value is string => Boolean(value) && isValidOfficialUrl(value as string)))];
+}
+
+export function hasOfficialSource(grant: GrantSourceLike): boolean {
+  return getValidOfficialSourceUrls(grant).length > 0;
 }
 
 export function isManuallyVerifiedGrant(grant: GrantSourceLike): boolean {

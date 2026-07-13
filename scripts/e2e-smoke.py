@@ -63,8 +63,9 @@ with sync_playwright() as playwright:
 
     unverified, _ = open_page(browser, '/grant/chiba-migration-support/', 390, 844)
     check('noindex' in (unverified.locator('meta[name="robots"]').get_attribute('content') or ''), '公式リンクなし制度がnoindexではありません')
-    check('公式情報の確認先は未登録' in (unverified.locator('meta[name="description"]').get_attribute('content') or ''), '公式リンクなし制度のメタ説明が確認済みと誤認させます')
-    check(unverified.locator('.grant-official-primary').count() == 0, '公式リンクなし制度に公式CTAが表示されています')
+    check('公式情報の確認先は未登録' not in (unverified.locator('meta[name="description"]').get_attribute('content') or ''), '補助出典URLがある制度を確認先未登録と表示しています')
+    check(unverified.locator('.grant-source-links a').count() > 0, '補助出典URLがある制度に公式確認リンクが表示されません')
+    check(bool(unverified.locator('.grant-mobile-cta a').get_attribute('href')), '補助出典URLだけの制度で固定CTAが空リンクになっています')
     unverified.close()
 
     redirect, _ = open_page(browser, '/grant/kushiro-elderly-taxi/', 1280, 900)

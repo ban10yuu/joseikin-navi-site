@@ -10,6 +10,7 @@ import type {
   VerificationMethod,
 } from './types';
 import { containsInternalAuditText, sanitizeGrantTitle, sanitizePublicGrantText } from './grant-presentation.ts';
+import { getValidOfficialSourceUrls } from './grant-source.ts';
 
 const CATEGORY_MAP: Record<LegacyGrantCategory, GrantCategory> = {
   childcare: 'childcare',
@@ -47,16 +48,6 @@ const CATEGORY_PURPOSE_MAP: Record<LegacyGrantCategory, Purpose> = {
 
 function unique<T>(values: T[]): T[] {
   return [...new Set(values)];
-}
-
-function hasValidOfficialUrl(value: string | undefined): boolean {
-  if (!value) return false;
-  try {
-    const url = new URL(value);
-    return url.protocol === 'https:' || url.protocol === 'http:';
-  } catch {
-    return false;
-  }
 }
 
 function inferSupportType(input: LegacyGrant): SupportType {
@@ -141,7 +132,8 @@ export function normalizeGrant(input: LegacyGrant): NormalizedGrant {
   );
   const audiences = inferAudiences(input);
   const purposes = inferPurposes(input);
-  const hasOfficialSource = hasValidOfficialUrl(input.officialUrl);
+  const officialSourceUrls = getValidOfficialSourceUrls(input);
+  const hasOfficialSource = officialSourceUrls.length > 0;
   const hasInternalPublicCopy = [
     input.title,
     input.description,
@@ -183,7 +175,7 @@ export function normalizeGrant(input: LegacyGrant): NormalizedGrant {
     verificationMethod: inferVerificationMethod(input),
     humanReviewedAt: input.humanReviewedAt ?? null,
     sourceTitle: input.sourceName ?? null,
-    sourceUrl: hasOfficialSource ? input.officialUrl : null,
+    sourceUrl: officialSourceUrls[0] ?? null,
     sourceCheckedAt: input.verifiedAt ?? null,
     contentUpdatedAt: input.contentUpdatedAt ?? input.publishedAt,
     contentStatus,

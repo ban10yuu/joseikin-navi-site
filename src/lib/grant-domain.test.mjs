@@ -73,6 +73,17 @@ describe('normalizeGrant', () => {
     assert.equal(result.verificationMethod, 'unknown');
   });
 
+  it('主URLがなくても有効な補助出典URLを公式確認先として扱う', () => {
+    const result = normalizeGrant({
+      ...baseGrant,
+      officialUrl: '',
+      sourceUrls: ['https://www.city.example.jp/support.pdf'],
+    });
+
+    assert.equal(result.indexStatus, 'index');
+    assert.equal(result.sourceUrl, 'https://www.city.example.jp/support.pdf');
+  });
+
   it('人手確認はhumanReviewedAtが明示された場合だけ設定する', () => {
     const result = normalizeGrant({
       ...baseGrant,

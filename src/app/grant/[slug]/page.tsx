@@ -16,6 +16,7 @@ import {
   isGrantExpired,
 } from '@/lib/grants';
 import { splitEligibilityText } from '@/lib/grant-presentation';
+import { getValidOfficialSourceUrls } from '@/lib/grant-source';
 import { groupGrantSections, type GrantSectionGroup } from '@/lib/grant-sections';
 import { getEffectiveGrantStatus, getOfficialCtaLabel, isRepayableSupport } from '@/lib/grant-status';
 import { toSiteUrl } from '@/lib/site-url';
@@ -82,6 +83,7 @@ export default async function GrantDetailPage({ params }: Props) {
     purposes: grant.purposes ?? [],
     monetizationAllowed: grant.monetizationAllowed ?? false,
   });
+  const primaryOfficialUrl = getValidOfficialSourceUrls(grant)[0];
 
   const orderedGroups: GrantSectionGroup[] = ['overview', 'eligibility', 'amount', 'period', 'costs', 'method', 'documents', 'contact'];
   const classifiedCount = orderedGroups.reduce((count, group) => count + sectionGroups[group].length, 0);
@@ -168,7 +170,7 @@ export default async function GrantDetailPage({ params }: Props) {
         </article>
       </div>
 
-      {hasOfficialSource(grant) && <div className="grant-mobile-cta"><a href={grant.officialUrl} target="_blank" rel="noopener noreferrer" data-analytics-event="official_source_click" data-page-type="grant" data-grant-id={grant.slug} data-audience={grant.primaryAudience} data-purpose={grant.primaryPurpose} data-placement="mobile-sticky">{getOfficialCtaLabel(status)}<span className="sr-only">（新しいタブで開きます）</span><span aria-hidden="true">↗</span></a></div>}
+      {primaryOfficialUrl && <div className="grant-mobile-cta"><a href={primaryOfficialUrl} target="_blank" rel="noopener noreferrer" data-analytics-event="official_source_click" data-page-type="grant" data-grant-id={grant.slug} data-audience={grant.primaryAudience} data-purpose={grant.primaryPurpose} data-placement="mobile-sticky">{getOfficialCtaLabel(status)}<span className="sr-only">（新しいタブで開きます）</span><span aria-hidden="true">↗</span></a></div>}
     </>
   );
 }

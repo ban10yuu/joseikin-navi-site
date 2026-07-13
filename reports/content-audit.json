@@ -1,19 +1,19 @@
 {
   "summary": {
-    "generatedAt": "2026-07-13T05:38:11.953Z",
+    "generatedAt": "2026-07-13T05:58:02.348Z",
     "total": 10172,
-    "officialUrl": 10131,
+    "officialUrl": 10133,
     "automated": 10170,
     "humanReviewed": 0,
-    "noindex": 2518,
+    "noindex": 2517,
     "expired": 794,
-    "duplicates": 869,
-    "needsReview": 2477,
+    "duplicates": 870,
+    "needsReview": 2478,
     "loans": 318,
     "affiliateEligible": 0,
     "affiliateBlocked": 10172,
     "critical": 0,
-    "warnings": 2201
+    "warnings": 2200
   },
   "issues": [
     {
@@ -211,13 +211,6 @@
       "slug": "nerima-education-scholarship",
       "title": "練馬区 受験生チャレンジ支援貸付事業",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
-    },
-    {
-      "severity": "warning",
-      "code": "MISSING_OFFICIAL_URL",
-      "slug": "chiba-migration-support",
-      "title": "千葉県 移住支援金",
-      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -1422,13 +1415,6 @@
       "slug": "tajimi-maternity-dental",
       "title": "多治見市 妊産婦歯科健診助成（公式歯科助成として確認不可・妊産婦健康診査へ補正）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
-    },
-    {
-      "severity": "warning",
-      "code": "MISSING_OFFICIAL_URL",
-      "slug": "ogaki-tradition-craft",
-      "title": "大垣市 伝統工芸後継者育成助成金（公式現行制度として確認不可）",
-      "message": "有効な公式URLがありません。"
     },
     {
       "severity": "warning",
@@ -11257,6 +11243,13 @@
       "slug": "toyama-migration-support",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.toyama.lg.jp/shisei/seisaku/1010755/1002498.html"
+    },
+    {
+      "severity": "warning",
+      "code": "DUPLICATE_OFFICIAL_URL",
+      "slug": "chiba-migration-support",
+      "title": "",
+      "message": "同じ公式URLが2件あります："
     },
     {
       "severity": "warning",

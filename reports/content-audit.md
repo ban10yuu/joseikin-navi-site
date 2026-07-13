@@ -1,30 +1,30 @@
 # コンテンツ品質レポート
 
-生成日時：2026-07-13T05:38:11.953Z
+生成日時：2026-07-13T05:58:02.348Z
 
 | 指標 | 件数 |
 |---|---:|
 | 総制度数 | 10,172 |
-| 公式URLあり | 10,131 |
+| 公式URLあり | 10,133 |
 | 自動照合 | 10,170 |
 | 人手確認 | 0 |
-| noindex | 2,518 |
+| noindex | 2,517 |
 | 期限切れ | 794 |
-| 重複指摘 | 869 |
-| 修正待ち | 2,477 |
+| 重複指摘 | 870 |
+| 修正待ち | 2,478 |
 | 貸付 | 318 |
 | アフィリエイト掲載可能 | 0 |
 | アフィリエイト掲載禁止 | 10,172 |
 | 重大エラー | 0 |
-| 警告 | 2,201 |
+| 警告 | 2,200 |
 
 ## 指摘内訳
 
 - DESCRIPTION_MISSING: 1,197件
-- DUPLICATE_OFFICIAL_URL: 665件
+- DUPLICATE_OFFICIAL_URL: 666件
 - DUPLICATE_TITLE: 202件
 - MISSING_ELIGIBILITY: 90件
-- MISSING_OFFICIAL_URL: 41件
+- MISSING_OFFICIAL_URL: 39件
 - META_TITLE_LONG: 2件
 - MISSING_CHECK_DATE: 2件
 - DUPLICATE_BODY: 2件
