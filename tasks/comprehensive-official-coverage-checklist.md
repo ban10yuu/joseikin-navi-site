@@ -5866,3 +5866,35 @@
     - 利根町創業支援等事業計画は特定創業支援等事業の証明・認定案内であり、町の直接給付制度ではないため採用しない。
   - 次:
     - 栃木県公式棚卸し001として、09201宇都宮市、09202足利市、09203栃木市、09204佐野市を自治体コード順に確認する。
+
+- 栃木県公式棚卸し001
+  - 対象:
+    - 09201 宇都宮市、09202 足利市、09203 栃木市、09204 佐野市。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補1175件を本文スニペット付きローカルJSONへ抽出して再スコアリングした。
+    - 栃木市・佐野市は公式カテゴリ配下も深掘りし、公式本文36件を個別取得して、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページを優先採用した。
+    - 既存 `officialUrl` と照合し、足利市街頭用消火器等購入費助成金と佐野市移住支援金は既存制度重複のため追加しない。
+  - 採用:
+    - 宇都宮市3件: 止水板等設置費、がけ地近接等危険住宅移転、災害見舞金。
+    - 足利市1件: 避難所等生活環境整備事業非常用電源機器購入費。
+    - 栃木市10件: とちぎで暮らそIJU支援、空き物件活用出店促進、マル経融資利子補助、住宅用低炭素設備、犬猫不妊手術、省エネ診断支援、自主防災組織、防犯カメラ設置、被災者住宅復旧支援、アピアランスケア。
+    - 佐野市6件: 骨髄移植ドナー支援、浄化槽設置、がん患者医療用ウィッグ等、市産材活用住まいづくり、若年がん患者在宅サービス、自動車改造費。
+  - 生成ファイル:
+    - `tasks/discovery/tochigi-official-coverage-001-municipalities.json`
+    - `tasks/discovery/tochigi-official-coverage-001-detail-snippets.json`
+    - `tasks/discovery/tochigi-official-coverage-001-deep-links.json`
+    - `tasks/discovery/tochigi-official-coverage-001-official-extra.json`
+    - `tasks/discovery/tochigi-official-coverage-001.json`
+  - 検証:
+    - 追加slug重複: pass（20件、全9532slugでduplicateCount 0）。
+    - 公式URL到達: pass（20件すべてHTTP 200）。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9894、officialLinkedActive 9856、manuallyVerifiedActive 9856、栃木県 localOfficial 158）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 栃木市の空き店舗活用促進、結婚・妊娠・共育て支援、いきいきサロン、ブロック塀等撤去改修、狭あい道路拡幅、制度融資、奨学金返還支援、通学者定期券、わな猟免許、東京都通勤者支援、敬老会事業等は、本文必須項目の追加確認又は重複・期限判定を第2巡へ残す。
+    - 佐野市の大学生等資格試験等受験料補助金は実制度ページの確認を第2巡へ残す。
+  - 次:
+    - 栃木県公式棚卸し002として、09205鹿沼市、09206日光市、09208小山市、09209真岡市を自治体コード順に確認する。
