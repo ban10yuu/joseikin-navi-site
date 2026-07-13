@@ -1,0 +1,26 @@
+{
+  "batchId": "saitama-comprehensive-official-coverage-002",
+  "prefecture": "埼玉県",
+  "municipalities": [
+    {
+      "code": "11203",
+      "name": "川口市",
+      "officialBaseUrl": "https://www.city.kawaguchi.lg.jp/"
+    },
+    {
+      "code": "11206",
+      "name": "行田市",
+      "officialBaseUrl": "https://www.city.gyoda.lg.jp/"
+    },
+    {
+      "code": "11207",
+      "name": "秩父市",
+      "officialBaseUrl": "https://www.city.chichibu.lg.jp/"
+    },
+    {
+      "code": "11208",
+      "name": "所沢市",
+      "officialBaseUrl": "https://www.city.tokorozawa.saitama.jp/"
+    }
+  ]
+}

@@ -6471,3 +6471,38 @@
     - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
   - 次:
     - 埼玉県公式棚卸し002として、11203川口市、11206行田市、11207秩父市、11208所沢市を自治体コード順に確認する。
+
+- 埼玉県公式棚卸し002
+  - 対象:
+    - 11203 川口市、11206 行田市、11207 秩父市、11208 所沢市。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補231件をローカルJSONへ保存した。
+    - 候補が150件を超えたため、公式ドメイン内リンクを再スコアリングし、`tasks/discovery/saitama-official-coverage-002-official-extra.json` と `tasks/discovery/saitama-official-coverage-002-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現を保存した。
+    - 制度強語と金額・対象条件・期限/受付表現が揃う候補47件を `tasks/discovery/saitama-official-coverage-002-selected-snippets.json` と `tasks/discovery/saitama-official-coverage-002-selected-main.json` に抽出し、既存 `officialUrl` と照合した。
+    - 制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃う個別ページ35件のみ採用した。
+  - 採用:
+    - 川口市7件: 奨学資金貸付、集合住宅宅配ボックス、町会防犯灯、住宅耐震診断、飼い主のいない猫不妊・去勢、園児保護者入園料、訪問型病児・病後児保育利用助成。
+    - 行田市9件: 老朽空き家等解体、伝統芸能保存継承、就学援助、物価高対応子育て応援、合併処理浄化槽、スズメバチ巣駆除、がん患者アピアランスケア、人間ドック・脳ドック、初回産科受診料。
+    - 秩父市7件: 水道基本料金一部減免、ドローン技能証明取得、省エネ設備更新、空き家解体、住まいの防犯用具、物価高騰対策給付金、合併処理浄化槽。
+    - 所沢市12件: 物価高騰対応電子商品券、保育士宿舎借上、保育士等給与改善、放課後児童クラブ保育料減免、自立支援教育訓練、高等職業訓練促進、障害者雇用推進企業支援、特定在宅高齢者介護手当、介護保険利用者負担助成、勤労者住宅補修資金貸付、地域資源活用・ものづくり総合支援、骨髄移植ドナー。
+  - 生成ファイル:
+    - `tasks/discovery/saitama-official-coverage-002-municipalities.json`
+    - `tasks/discovery/saitama-official-coverage-002-candidates.json`（raw候補）
+    - `tasks/discovery/saitama-official-coverage-002-official-extra.json`
+    - `tasks/discovery/saitama-official-coverage-002-detail-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-002-selected-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-002-selected-main.json`
+    - `tasks/discovery/saitama-official-coverage-002.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（35件、duplicateCount 0）。
+    - 公式URL到達: pass（追加35 URLすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10367、officialLinkedActive 10329、manuallyVerifiedActive 10329、埼玉県 localOfficial 246）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 川口市の防犯カメラ設置・修繕、建築物耐震、展示会等、行田市の道路後退、出産・子育て応援、妊婦支援、県産木材、空き家利活用、クビアカ、造血細胞移植後再接種、秩父市の工場等誘致、生産性向上、先端産業、水道多量使用、展示会等、若者チャンス、勤労者住宅、空き店舗、私道整備、省エネ家電、所沢市の教育資金、外国人高齢者等福祉手当、耐震診断・改修、商店街補助、自治会用スマートハウス等は第2巡候補に残す。
+    - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
+  - 次:
+    - 埼玉県公式棚卸し003として、11209飯能市、11210加須市、11211本庄市、11212東松山市を自治体コード順に確認する。
