@@ -70,7 +70,7 @@ export default function SubscribeForm({
         </>
       )}
 
-      <form onSubmit={handleSubmit} className="space-y-4">
+      <form onSubmit={handleSubmit} className="space-y-4" data-analytics-event="newsletter_signup" data-page-type={compact ? 'home' : 'subscribe'}>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <div>
             <label htmlFor="newsletter-email" className="block text-xs font-medium text-gray-600 mb-1">メールアドレス（必須）</label>

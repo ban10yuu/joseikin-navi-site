@@ -33,6 +33,10 @@ describe('affiliate offers', () => {
     assert.deepEqual(getEligibleAffiliateOffers([offer], { ...context, monetizationAllowed: false }, new Date('2026-07-13')), []);
   });
 
+  it('制度詳細では初期状態として事業者向けだけを対象にする', () => {
+    assert.deepEqual(getEligibleAffiliateOffers([offer], { ...context, audiences: ['family'] }, new Date('2026-07-13')), []);
+  });
+
   it('PRリンクに必要なrel属性を固定する', () => {
     assert.equal(AFFILIATE_LINK_REL, 'sponsored nofollow noopener noreferrer');
   });

@@ -5,6 +5,7 @@ export const AFFILIATE_LINK_REL = 'sponsored nofollow noopener noreferrer';
 
 const SENSITIVE_PURPOSES = new Set<Purpose>(['medical', 'welfare', 'disaster', 'livingSupport']);
 const SENSITIVE_AUDIENCES = new Set<Audience>(['personWithDisability']);
+const BUSINESS_AUDIENCES = new Set<Audience>(['soleProprietor', 'business', 'nonprofit', 'researcher', 'localOrganization']);
 
 export interface MonetizationContext {
   pageType: AffiliatePageType;
@@ -36,6 +37,7 @@ export function getEligibleAffiliateOffers(
   now = new Date(),
 ): AffiliateOffer[] {
   if (!context.monetizationAllowed) return [];
+  if (context.pageType === 'grant' && !context.audiences.some((audience) => BUSINESS_AUDIENCES.has(audience))) return [];
   if (context.purposes.some((purpose) => SENSITIVE_PURPOSES.has(purpose))) return [];
   if (context.audiences.some((audience) => SENSITIVE_AUDIENCES.has(audience))) return [];
 

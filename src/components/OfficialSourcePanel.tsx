@@ -9,6 +9,9 @@ interface OfficialSourcePanelProps {
   statusLabel: string;
   statusDescription: string;
   statusLevel: 'human' | 'automated' | 'linked' | 'unverified';
+  grantId?: string;
+  audience?: string;
+  purpose?: string;
 }
 
 export default function OfficialSourcePanel({
@@ -20,6 +23,9 @@ export default function OfficialSourcePanel({
   statusLabel,
   statusDescription,
   statusLevel,
+  grantId,
+  audience,
+  purpose,
 }: OfficialSourcePanelProps) {
   const urls = normalizeOfficialUrls(officialUrl, sourceUrls);
 
@@ -44,7 +50,7 @@ export default function OfficialSourcePanel({
       <ul className="grant-source-links">
         {urls.map((url, index) => (
           <li key={url}>
-            <a href={url} target="_blank" rel="noopener noreferrer">
+            <a href={url} target="_blank" rel="noopener noreferrer" data-analytics-event="official_source_click" data-page-type="grant" data-grant-id={grantId} data-audience={audience} data-purpose={purpose} data-placement="source-panel" data-position={String(index + 1)}>
               公式情報を確認{urls.length > 1 ? ` ${index + 1}` : ''}
               <span className="sr-only">（新しいタブで開きます）</span>
               <span aria-hidden="true">↗</span>

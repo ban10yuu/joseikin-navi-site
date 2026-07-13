@@ -91,7 +91,7 @@ export default function HomeGrantSearch({
         </p>
       </div>
 
-      <form action="/grants/" method="get" role="search" aria-label="助成金・補助金を検索">
+      <form action="/grants/" method="get" role="search" aria-label="助成金・補助金を検索" data-analytics-event="search_submit" data-page-type="home">
         <fieldset className="home-search-step">
           <legend className="home-search-step-label">
             <span>1</span> 探したい目的の種類

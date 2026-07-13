@@ -94,7 +94,7 @@ function grantsHref(query: GrantQuery, changes: Record<string, string | null>): 
 function SearchFields({ query, idPrefix }: { query: GrantQuery; idPrefix: string }) {
   const fieldClass = 'min-h-11 w-full rounded-lg border border-line bg-white px-3 text-base text-ink focus:border-navy focus:outline-none focus:ring-2 focus:ring-navy/20';
   return (
-    <form action="/grants/" method="get" role="search" aria-label="支援制度を絞り込む" className="space-y-5">
+    <form action="/grants/" method="get" role="search" aria-label="支援制度を絞り込む" className="space-y-5" data-analytics-event="filter_apply" data-page-type="listing">
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         <label className="sm:col-span-2 lg:col-span-3 text-sm font-bold text-navy" htmlFor={`${idPrefix}-q`}>
           キーワード

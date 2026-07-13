@@ -88,7 +88,7 @@ export default async function CategoryPage({ params }: Props) {
       <main className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14">
         <section aria-labelledby="category-search-title" className="rounded-2xl border border-line bg-card p-5 sm:p-6">
           <h2 id="category-search-title" className="text-xl font-black text-navy">{label}の制度を条件で絞り込む</h2>
-          <form action="/grants/" method="get" className="mt-4 grid gap-3 sm:grid-cols-[1fr_220px_auto]" role="search">
+          <form action="/grants/" method="get" className="mt-4 grid gap-3 sm:grid-cols-[1fr_220px_auto]" role="search" data-analytics-event="filter_apply" data-page-type="category" data-purpose={category}>
             <input type="hidden" name="cat" value={category} />
             <label className="text-sm font-bold text-navy">キーワード<input name="q" type="search" placeholder="制度名、対象者など" className="mt-1 min-h-11 w-full rounded-lg border border-line bg-white px-3 text-base" /></label>
             <label className="text-sm font-bold text-navy">都道府県<select name="pref" defaultValue="" className="mt-1 min-h-11 w-full rounded-lg border border-line bg-white px-3 text-base"><option value="">全国</option>{PREFECTURES.filter((item) => item !== '全国').map((item) => <option key={item}>{item}</option>)}</select></label>

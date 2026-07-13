@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import GrantCard from '@/components/GrantCard';
+import AffiliateRecommendation from '@/components/AffiliateRecommendation';
 import GrantDecisionSummary from '@/components/GrantDecisionSummary';
 import { BreadcrumbJsonLd, GrantJsonLd } from '@/components/JsonLd';
 import OfficialCheckpoints from '@/components/OfficialCheckpoints';
@@ -18,6 +19,8 @@ import { splitEligibilityText } from '@/lib/grant-presentation';
 import { groupGrantSections, type GrantSectionGroup } from '@/lib/grant-sections';
 import { getEffectiveGrantStatus, getOfficialCtaLabel, isRepayableSupport } from '@/lib/grant-status';
 import { toSiteUrl } from '@/lib/site-url';
+import { getEligibleAffiliateOffers } from '@/lib/monetization';
+import { AFFILIATE_OFFERS } from '@/config/affiliate-offers';
 import { CATEGORY_LABELS, SUPPORT_TYPE_LABELS, type Section } from '@/lib/types';
 
 interface Props { params: Promise<{ slug: string }> }
@@ -66,6 +69,12 @@ export default async function GrantDetailPage({ params }: Props) {
   const eligibilityItems = splitEligibilityText(grant.eligibility);
   const purpose = grant.primaryPurpose;
   const businessAudience = ['soleProprietor', 'business', 'nonprofit', 'researcher', 'localOrganization'].includes(grant.primaryAudience ?? '');
+  const affiliateOffers = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
+    pageType: 'grant',
+    audiences: grant.audiences ?? [],
+    purposes: grant.purposes ?? [],
+    monetizationAllowed: grant.monetizationAllowed ?? false,
+  });
 
   const orderedGroups: GrantSectionGroup[] = ['overview', 'eligibility', 'amount', 'period', 'costs', 'method', 'documents', 'contact'];
   const classifiedCount = orderedGroups.reduce((count, group) => count + sectionGroups[group].length, 0);
@@ -94,6 +103,9 @@ export default async function GrantDetailPage({ params }: Props) {
             statusLabel={sourceStatus.label}
             statusDescription={sourceStatus.description}
             statusLevel={sourceStatus.level}
+            grantId={grant.slug}
+            audience={grant.primaryAudience}
+            purpose={grant.primaryPurpose}
           />
 
           <div className="article-content grant-article-content">
@@ -140,14 +152,16 @@ export default async function GrantDetailPage({ params }: Props) {
 
           <nav aria-label="この制度に関連する検索" className="mt-8 rounded-xl border border-line bg-wash p-5"><h2 className="text-lg font-black text-navy">条件が近い制度を探す</h2><div className="mt-3 flex flex-wrap gap-3"><Link href={`/grants/?pref=${encodeURIComponent(grant.prefecture)}`} className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">{grant.prefecture}の制度</Link>{purpose && <Link href={`/grants/?purpose=${purpose}`} className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">同じ目的の制度</Link>}<Link href={`/grants/?audience=${businessAudience ? 'business' : 'individual'}`} className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">同じ対象区分の制度</Link>{grant.supportType && <Link href={`/grants/?supportType=${grant.supportType}`} className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">同じ制度種別</Link>}<Link href="/guide/" className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">申請前ガイド</Link></div></nav>
 
-          <section className="mt-8 rounded-xl border border-line bg-white p-5" aria-labelledby="correction-title"><h2 id="correction-title" className="text-lg font-black text-navy">掲載情報の訂正・修正依頼</h2><p className="mt-2 text-sm leading-7 text-muted">制度の更新や誤りにお気づきの場合は、制度名と公式情報のURLを添えてお知らせください。</p><Link href={`/correction/?grant=${encodeURIComponent(grant.slug)}`} className="mt-3 inline-flex min-h-11 items-center font-bold text-navy underline underline-offset-4">この制度について訂正を依頼する</Link></section>
+          <section className="mt-8 rounded-xl border border-line bg-white p-5" aria-labelledby="correction-title"><h2 id="correction-title" className="text-lg font-black text-navy">掲載情報の訂正・修正依頼</h2><p className="mt-2 text-sm leading-7 text-muted">制度の更新や誤りにお気づきの場合は、制度名と公式情報のURLを添えてお知らせください。</p><Link href={`/correction/?grant=${encodeURIComponent(grant.slug)}`} className="mt-3 inline-flex min-h-11 items-center font-bold text-navy underline underline-offset-4" data-analytics-event="correction_request" data-page-type="grant" data-grant-id={grant.slug}>この制度について訂正を依頼する</Link></section>
+
+          {affiliateOffers.map((offer, index) => <AffiliateRecommendation key={offer.id} offer={offer} placement="grant-after-correction" position={index + 1} />)}
 
           {grant.tags.length > 0 && <div className="grant-tag-list" aria-label="関連タグ">{grant.tags.map((tag) => <Link key={tag} href={`/tag/${encodeURIComponent(tag.toLowerCase().replace(/\s+/g, '-'))}/`}>#{tag}</Link>)}</div>}
           {classifiedCount === 0 && <p className="mt-6 text-xs leading-6 text-muted">詳細項目は公式ページでご確認ください。</p>}
         </article>
       </div>
 
-      <div className="grant-mobile-cta"><a href={grant.officialUrl} target="_blank" rel="noopener noreferrer">{getOfficialCtaLabel(status)}<span className="sr-only">（新しいタブで開きます）</span><span aria-hidden="true">↗</span></a></div>
+      <div className="grant-mobile-cta"><a href={grant.officialUrl} target="_blank" rel="noopener noreferrer" data-analytics-event="official_source_click" data-page-type="grant" data-grant-id={grant.slug} data-audience={grant.primaryAudience} data-purpose={grant.primaryPurpose} data-placement="mobile-sticky">{getOfficialCtaLabel(status)}<span className="sr-only">（新しいタブで開きます）</span><span aria-hidden="true">↗</span></a></div>
     </>
   );
 }

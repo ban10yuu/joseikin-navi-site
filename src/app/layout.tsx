@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Analytics } from '@vercel/analytics/next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import AnalyticsEvents from '@/components/AnalyticsEvents';
 import { siteConfig, isAdsenseEnabled } from '@/config/site';
 import './globals.css';
 
@@ -124,6 +125,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
       </head>
       <body className="antialiased min-h-screen flex flex-col bg-base text-ink">
+        {siteConfig.analytics.ga4MeasurementId && <AnalyticsEvents />}
         <div className="relative z-10 flex flex-col min-h-screen">
           <Header />
           <main className="flex-1">{children}</main>

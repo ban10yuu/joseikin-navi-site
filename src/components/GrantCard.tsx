@@ -25,6 +25,8 @@ export interface GrantCardItem {
   statusOverride?: GrantStatus;
   supportType?: SupportType;
   budgetMayCloseEarly?: boolean;
+  primaryAudience?: string;
+  primaryPurpose?: string;
 }
 
 const STATUS_BADGES: Partial<Record<GrantStatus, string>> = {
@@ -41,7 +43,7 @@ export default function GrantCard({ grant }: { grant: GrantCardItem }) {
   const sourceStatus = getGrantSourceStatus(grant);
 
   return (
-    <Link href={`/grant/${grant.slug}/`} className={`grant-card block ${isEnded ? 'opacity-60' : ''}`}>
+    <Link href={`/grant/${grant.slug}/`} className={`grant-card block ${isEnded ? 'opacity-60' : ''}`} data-analytics-event="grant_card_click" data-page-type="listing" data-grant-id={grant.slug} data-audience={grant.primaryAudience} data-purpose={grant.primaryPurpose}>
       <div className="grant-card-badges">
         <span className="grant-card-type">{TYPE_LABELS[grant.type]}</span>
         <span>{SUPPORT_TYPE_LABELS[grant.supportType ?? 'unknown']}</span>

@@ -2,10 +2,10 @@ import { CATEGORY_LABELS, Grant, SUPPORT_TYPE_LABELS, TYPE_LABELS } from '@/lib/
 import { formatVerifiedDate } from '@/lib/grant-presentation';
 import {
   getEffectiveGrantStatus,
-  getOfficialCtaLabel,
   GRANT_STATUS_LABELS,
   isRepayableSupport,
 } from '@/lib/grant-status';
+import OfficialSourceButton from './OfficialSourceButton';
 
 interface GrantDecisionSummaryProps {
   grant: Grant;
@@ -83,16 +83,7 @@ export default function GrantDecisionSummary({
         </div>
       </dl>
 
-      <a
-        href={grant.officialUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="grant-official-primary"
-      >
-        {getOfficialCtaLabel(status)}
-        <span className="sr-only">（新しいタブで開きます）</span>
-        <span aria-hidden="true">↗</span>
-      </a>
+      <OfficialSourceButton href={grant.officialUrl} status={status} grantId={grant.slug} audience={grant.primaryAudience} purpose={grant.primaryPurpose} />
       <p className="grant-summary-verified">{formatVerifiedDate(grant.verifiedAt)}。対象条件と受付状況は公式情報を優先してください。</p>
     </header>
   );

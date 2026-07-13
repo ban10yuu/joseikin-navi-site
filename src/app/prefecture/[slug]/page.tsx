@@ -77,7 +77,7 @@ export default async function PrefecturePage({ params }: Props) {
       <main className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14">
         <section className="rounded-2xl border border-line bg-card p-5 sm:p-6" aria-labelledby="pref-search-title">
           <h2 id="pref-search-title" className="text-xl font-black text-navy">{prefecture}で利用できる制度を絞り込む</h2>
-          <form action="/grants/" method="get" role="search" className="mt-4 grid gap-3 sm:grid-cols-[1fr_220px_auto]">
+          <form action="/grants/" method="get" role="search" className="mt-4 grid gap-3 sm:grid-cols-[1fr_220px_auto]" data-analytics-event="filter_apply" data-page-type="prefecture">
             <input type="hidden" name="pref" value={prefecture} />
             <label className="text-sm font-bold text-navy">キーワード<input name="q" type="search" placeholder="制度名、目的、対象者など" className="mt-1 min-h-11 w-full rounded-lg border border-line bg-white px-3 text-base" /></label>
             <label className="text-sm font-bold text-navy">対象<select name="audience" defaultValue="" className="mt-1 min-h-11 w-full rounded-lg border border-line bg-white px-3 text-base"><option value="">すべての対象</option><option value="individual">個人・家族向け</option><option value="business">事業者・団体向け</option></select></label>
