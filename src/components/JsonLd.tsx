@@ -1,4 +1,6 @@
 import { Grant, CATEGORY_LABELS } from '@/lib/types';
+import { siteConfig } from '@/config/site';
+import { toSiteUrl } from '@/lib/site-url';
 
 // ── Article JSON-LD for grant detail pages ──
 export function GrantJsonLd({ grant }: { grant: Grant }) {
@@ -7,15 +9,13 @@ export function GrantJsonLd({ grant }: { grant: Grant }) {
     '@type': 'Article',
     headline: `${grant.title} ${grant.maxAmount}`,
     description: grant.description,
-    author: { '@type': 'Organization', name: '助成金ナビ' },
-    publisher: {
-      '@type': 'Organization',
-      name: '助成金ナビ',
-      url: 'https://joseikin-navi-site.vercel.app',
-    },
+    ...(siteConfig.operatorName ? {
+      author: { '@type': 'Organization', name: siteConfig.operatorName },
+      publisher: { '@type': 'Organization', name: siteConfig.operatorName, url: siteConfig.url },
+    } : {}),
     datePublished: grant.publishedAt,
-    dateModified: grant.publishedAt,
-    mainEntityOfPage: `https://joseikin-navi-site.vercel.app/grant/${grant.slug}/`,
+    dateModified: grant.contentUpdatedAt ?? grant.verifiedAt ?? grant.publishedAt,
+    mainEntityOfPage: toSiteUrl(`/grant/${grant.slug}/`),
     keywords: [grant.title, CATEGORY_LABELS[grant.category], grant.prefecture, ...grant.tags].join(', '),
     articleSection: CATEGORY_LABELS[grant.category],
     inLanguage: 'ja',
@@ -79,8 +79,8 @@ export function CollectionJsonLd({ name, description, url }: { name: string; des
     url,
     isPartOf: {
       '@type': 'WebSite',
-      name: '助成金ナビ',
-      url: 'https://joseikin-navi-site.vercel.app',
+      name: siteConfig.name,
+      url: siteConfig.url,
     },
     inLanguage: 'ja',
   };
