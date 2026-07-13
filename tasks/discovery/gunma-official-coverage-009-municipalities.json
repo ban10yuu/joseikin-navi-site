@@ -1,0 +1,26 @@
+{
+  "batchId": "gunma-comprehensive-official-coverage-009",
+  "prefecture": "群馬県",
+  "municipalities": [
+    {
+      "code": "10522",
+      "name": "明和町",
+      "officialBaseUrl": "https://www.town.meiwa.gunma.jp/"
+    },
+    {
+      "code": "10523",
+      "name": "千代田町",
+      "officialBaseUrl": "https://www.town.chiyoda.gunma.jp/"
+    },
+    {
+      "code": "10524",
+      "name": "大泉町",
+      "officialBaseUrl": "https://www.town.oizumi.gunma.jp/"
+    },
+    {
+      "code": "10525",
+      "name": "邑楽町",
+      "officialBaseUrl": "https://www.town.ora.gunma.jp/"
+    }
+  ]
+}

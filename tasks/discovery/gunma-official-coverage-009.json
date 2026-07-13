@@ -1,0 +1,140 @@
+{
+  "batchId": "gunma-comprehensive-official-coverage-009",
+  "prefecture": "群馬県",
+  "completedAt": "2026-07-14",
+  "targets": [
+    {
+      "code": "10522",
+      "name": "明和町",
+      "officialBaseUrl": "https://www.town.meiwa.gunma.jp/"
+    },
+    {
+      "code": "10523",
+      "name": "千代田町",
+      "officialBaseUrl": "https://www.town.chiyoda.gunma.jp/"
+    },
+    {
+      "code": "10524",
+      "name": "大泉町",
+      "officialBaseUrl": "https://www.town.oizumi.gunma.jp/"
+    },
+    {
+      "code": "10525",
+      "name": "邑楽町",
+      "officialBaseUrl": "https://www.town.ora.gunma.jp/"
+    }
+  ],
+  "discovery": {
+    "candidateCount": 188,
+    "officialExtraLinkCount": 929,
+    "selectedCount": 64,
+    "adoptedCount": 61,
+    "adoptionRate": 0.953,
+    "generatedFiles": [
+      "tasks/discovery/gunma-official-coverage-009-municipalities.json",
+      "tasks/discovery/gunma-official-coverage-009-candidates.json",
+      "tasks/discovery/gunma-official-coverage-009-detail-snippets.json",
+      "tasks/discovery/gunma-official-coverage-009-official-extra.json",
+      "tasks/discovery/gunma-official-coverage-009-selected-main.json",
+      "tasks/discovery/gunma-official-coverage-009-selected-snippets.json"
+    ]
+  },
+  "adoptedByMunicipality": {
+    "明和町": {
+      "count": 15,
+      "programs": [
+        "不妊・不育治療",
+        "出産祝金",
+        "妊産婦健診等助成",
+        "妊産婦交通費宿泊費",
+        "妊婦支援給付",
+        "妊婦初回産科受診料",
+        "交通遺児手当",
+        "乳幼児用補助装置",
+        "英語検定補助",
+        "移住支援金",
+        "Mターン促進奨励金",
+        "住宅用太陽光",
+        "結婚新生活",
+        "福祉タクシー",
+        "骨髄移植ドナー"
+      ]
+    },
+    "千代田町": {
+      "count": 18,
+      "programs": [
+        "暮らし応援商品券",
+        "育児用品購入費",
+        "人間ドック脳ドック",
+        "太陽光発電",
+        "浄化槽設置",
+        "スズメバチ駆除",
+        "犬猫避妊断種",
+        "生ごみ処理機器",
+        "公共下水道接続促進",
+        "店舗リニューアル",
+        "創業支援",
+        "技術革新チャレンジ",
+        "補聴器購入費",
+        "不妊治療費",
+        "不育治療費",
+        "結婚新生活",
+        "移住者住宅取得",
+        "防犯対策"
+      ]
+    },
+    "大泉町": {
+      "count": 9,
+      "programs": [
+        "地方就職支援金",
+        "骨髄移植ドナー",
+        "若年がん在宅療養",
+        "人間ドック",
+        "木造住宅耐震改修",
+        "生ごみ処理機器",
+        "電気自動車等購入",
+        "浄化槽設置",
+        "妊婦健診交通費"
+      ]
+    },
+    "邑楽町": {
+      "count": 19,
+      "programs": [
+        "定住促進通学支援金",
+        "浄化槽設置",
+        "太陽光発電",
+        "生ごみ処理機",
+        "誤発進防止装置",
+        "防犯カメラ",
+        "特殊詐欺対策機器",
+        "福祉タクシー",
+        "出産祝金",
+        "創業支援",
+        "英語検定料",
+        "がんウィッグ",
+        "不育症治療費",
+        "不妊治療費",
+        "妊婦初回産科",
+        "妊婦支援給付金",
+        "危険ブロック塀",
+        "木造住宅耐震改修",
+        "空家等対策"
+      ]
+    }
+  },
+  "verification": {
+    "nodeCheck": "pass",
+    "duplicateSlugs": "pass (61 added, duplicateCount 0)",
+    "officialUrlStatus": "pass (61 URLs HTTP 200)",
+    "lint": "pass",
+    "diffCheck": "pass",
+    "auditCoverage": "pass (failures 0, activePublished 10319, officialLinkedActive 10281, manuallyVerifiedActive 10281, 群馬県 localOfficial 356)"
+  },
+  "notes": [
+    "公式トップ・カテゴリ・本文候補188件を抽出し、公式カテゴリ内リンク929件を補完した。",
+    "金額・対象条件・期限/受付表現が揃う候補64件から、金額または制度本文の確認が弱い3件を第2巡候補に残し、61件を採用した。",
+    "大泉町のデマンド交通運賃補助、英語・漢字検定料補助、邑楽町の高齢者補聴器購入費は金額確認を追加するため第2巡候補に残す。",
+    "トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。"
+  ],
+  "next": "次回はチェックリストと自治体別進捗JSONから、群馬県以降の次の未完了自治体・団体をコード順に再確認して再開する。"
+}

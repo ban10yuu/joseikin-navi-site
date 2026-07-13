@@ -6404,3 +6404,39 @@
     - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
   - 次:
     - 群馬県公式棚卸し009として、10522明和町、10523千代田町、10524大泉町、10525邑楽町を自治体コード順に確認する。
+
+- 群馬県公式棚卸し009
+  - 対象:
+    - 10522 明和町、10523 千代田町、10524 大泉町、10525 邑楽町。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補188件をローカルJSONへ保存した。
+    - 公式カテゴリ・一覧ページから個別制度ページを補完し、`tasks/discovery/gunma-official-coverage-009-official-extra.json` に公式リンク929件を保存した。
+    - `tasks/discovery/gunma-official-coverage-009-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現、再スコアを保存した。
+    - 制度強語と金額・対象条件・期限/受付表現が揃う候補64件を `tasks/discovery/gunma-official-coverage-009-selected-snippets.json` と `tasks/discovery/gunma-official-coverage-009-selected-main.json` に抽出した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃う個別ページのみ採用した。
+  - 採用:
+    - 明和町15件: 不妊・不育治療費、出産祝金、妊産婦健診等、妊産婦交通費・宿泊費、妊婦支援給付、妊婦初回産科受診料、交通遺児手当、乳幼児用補助装置、英語検定、移住支援金、Mターン促進奨励金、住宅用太陽光発電、結婚新生活、福祉タクシー、骨髄移植ドナー。
+    - 千代田町18件: 暮らし応援商品券、育児用品購入費、人間ドック・脳ドック、住宅用太陽光発電、浄化槽設置、スズメバチ駆除、犬猫避妊・断種、生ごみ処理機器、公共下水道接続促進、店舗リニューアル、創業支援、ぐんま技術革新チャレンジ、高齢者補聴器、不妊治療費、不育治療費、結婚新生活、移住者住宅取得、防犯対策。
+    - 大泉町9件: 地方就職支援金、骨髄移植ドナー、若年がん患者在宅療養、人間ドック、木造住宅耐震改修、生ごみ処理機器、電気自動車等購入、浄化槽設置、妊婦健康診査交通費。
+    - 邑楽町19件: 定住促進通学支援金、浄化槽設置、住宅用太陽光発電、生ごみ処理機、誤発進防止装置、防犯カメラ、特殊詐欺対策機器、福祉タクシー、出産祝金、創業支援、英語検定、がん患者ウィッグ等、不育症治療費、不妊治療費、妊婦初回産科受診、妊婦支援給付金、危険ブロック塀、木造住宅耐震改修、空家等対策。
+  - 生成ファイル:
+    - `tasks/discovery/gunma-official-coverage-009-municipalities.json`
+    - `tasks/discovery/gunma-official-coverage-009-candidates.json`（raw候補）
+    - `tasks/discovery/gunma-official-coverage-009-detail-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-009-official-extra.json`
+    - `tasks/discovery/gunma-official-coverage-009-selected-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-009-selected-main.json`
+    - `tasks/discovery/gunma-official-coverage-009.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（61件、全9975slugでduplicateCount 0）。
+    - 公式URL到達: pass（追加61 URLすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10319、officialLinkedActive 10281、manuallyVerifiedActive 10281、群馬県 localOfficial 356）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 大泉町のデマンド交通運賃補助、英語・漢字検定料補助、邑楽町の高齢者補聴器購入費は金額確認を追加するため第2巡候補に残す。
+    - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
+  - 次:
+    - チェックリストと自治体別進捗JSONから、次の未完了自治体・団体をコード順に再確認して再開する。
