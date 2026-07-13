@@ -6286,3 +6286,43 @@
     - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
   - 次:
     - 群馬県公式棚卸し006として、10385中之条町、10421長野原町、10424嬬恋村、10425草津町を自治体コード順に確認する。
+
+- 群馬県公式棚卸し006
+  - 対象:
+    - 10385 中之条町、10421 長野原町、10424 嬬恋村、10425 草津町。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補255件をローカルJSONへ保存した。
+    - `tasks/discovery/gunma-official-coverage-006-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現、再スコアを保存した。
+    - 公式カテゴリ・一覧ページから個別制度ページを補完し、`tasks/discovery/gunma-official-coverage-006-official-extra.json` に公式本文スニペット350件を保存した。
+    - 制度強語と金額・対象条件・期限/受付表現が揃う候補51件を `tasks/discovery/gunma-official-coverage-006-selected-snippets.json` と `tasks/discovery/gunma-official-coverage-006-selected-main.json` に抽出した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃う個別ページのみ採用した。
+  - 採用:
+    - 中之条町13件: 人間ドック費用助成、チャレンジショップ出店支援、不妊治療、サテライトオフィス開設支援、共創のまちづくり、柿の木等伐採、空家対策、英語検定料、介護予防サロン、住宅リフォーム、同窓会応援、定住促進対策住宅取得、結婚新生活。
+    - 長野原町14件: 暮らし応援商品券、おたふくかぜ予防接種、まちづくり活性化、住宅改修等、住宅用再生可能エネルギーシステム等、出産奨励手当、帯状疱疹予防接種、合併処理浄化槽、犬猫避妊等手術、生ごみ処理機器、特殊詐欺等対策機器、子育て世帯移住支援、林業従事者育成支援、高齢者補聴器。
+    - 嬬恋村4件: 結婚新生活支援、特殊詐欺対策電話機等、犬及び猫避妊手術等、自動車改造費。
+    - 草津町4件: 木造住宅耐震改修、犬及び猫の避妊等手術費、空家除却費、不妊治療費等。
+  - 生成ファイル:
+    - `tasks/discovery/gunma-official-coverage-006-municipalities.json`
+    - `tasks/discovery/gunma-official-coverage-006-candidates.json`（raw候補）
+    - `tasks/discovery/gunma-official-coverage-006-detail-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-006-official-extra.json`
+    - `tasks/discovery/gunma-official-coverage-006-selected-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-006-selected-main.json`
+    - `tasks/discovery/gunma-official-coverage-006.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（35件、全9844slugでduplicateCount 0）。
+    - 公式URL到達: pass（追加35 URLすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10190、officialLinkedActive 10152、manuallyVerifiedActive 10152、群馬県 localOfficial 227）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 嬬恋村の公式ドメインは `https://www.vill.tsumagoi.gunma.jp/`、草津町の公式ドメインは `https://www.town.kusatsu.gunma.jp/` を正として採用した。
+    - 中之条町の妊産婦健診等、福祉医療、浄化槽、薪ストーブ等は金額表又は補助粒度の追加確認が必要なため第2巡候補に残す。
+    - 長野原町のインフルエンザ予防接種、起業支援は期間又は金額確認の追加確認が必要なため第2巡候補に残す。
+    - 嬬恋村の浄化槽、人間ドック、介護用車両、生ごみ処理容器、腎臓機能障害者通院交通費、難聴児補聴器、森林等整備、嬬恋高校下宿費は金額・上限又はPDF内容の追加確認が必要なため第2巡候補に残す。
+    - 草津町の出産・子育て応援事業、移住支援金はPDF又は外部制度要綱の金額確認が必要なため第2巡候補に残す。
+    - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
+  - 次:
+    - 群馬県公式棚卸し007として、10426高山村、10428東吾妻町、10429片品村、10443川場村を自治体コード順に確認する。

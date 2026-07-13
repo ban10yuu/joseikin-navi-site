@@ -1,0 +1,26 @@
+{
+  "batchId": "gunma-comprehensive-official-coverage-006",
+  "prefecture": "群馬県",
+  "municipalities": [
+    {
+      "code": "10385",
+      "name": "中之条町",
+      "officialBaseUrl": "https://www.town.nakanojo.gunma.jp/"
+    },
+    {
+      "code": "10421",
+      "name": "長野原町",
+      "officialBaseUrl": "https://www.town.naganohara.gunma.jp/"
+    },
+    {
+      "code": "10424",
+      "name": "嬬恋村",
+      "officialBaseUrl": "https://www.vill.tsumagoi.gunma.jp/"
+    },
+    {
+      "code": "10425",
+      "name": "草津町",
+      "officialBaseUrl": "https://www.town.kusatsu.gunma.jp/"
+    }
+  ]
+}
