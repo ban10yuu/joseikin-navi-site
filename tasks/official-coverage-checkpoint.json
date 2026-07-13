@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T15:26:05+09:00",
-  "mode": "akita-official-coverage",
+  "updatedAt": "2026-07-13T15:28:21+09:00",
+  "mode": "yamagata-official-second-pass",
   "lastCompleted": {
-    "code": "miyagi-final-audit",
-    "municipality": "宮城県全体",
-    "adopted": 0,
-    "held": 0,
+    "code": "yamagata-official-second-pass-001",
+    "municipality": "山形県庁・山形市・米沢市・鶴岡市",
+    "adopted": 10,
+    "held": 11,
     "excluded": 0,
-    "sourceUrlsChecked": 0,
+    "sourceUrlsChecked": 10,
     "validation": {
-      "previousMunicipality": "宮城県最終監査として、県庁および県内35市町村の第1巡001-009、第2巡001-009、県庁・公的機関候補の採否記録を現行HEADで再確認した。第2巡held 0、宮城県slug重複0、coverage audit failures 0、宮城県 localOfficial 355、localManuallyVerified 355、coveredCategories 8を確認し、宮城県内の候補未判定は0件として県単位完了扱いにした。全国公式棚卸しは未完了。",
-      "eslint": "not run: final audit only",
-      "addedSlugUniqueness": "pass: Miyagi duplicate slugs 0",
-      "urlReachability": "not run: final audit uses prior batch URL reachability records",
-      "diffCheck": "pass: git diff --check for Miyagi final audit files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9445, officialLinkedActive 9407, manuallyVerifiedActive 9407, Miyagi localOfficial 355, Miyagi coveredCategories 8"
+      "previousMunicipality": "山形県第2巡001として、山形県庁・山形市・米沢市・鶴岡市の第1巡保留候補と公式本文/PDFを再確認した。山形市4件、鶴岡市6件の計10制度を追加し、山形県庁・米沢市は既存重複又は国県制度中心のため新規追加なし。全国公式棚卸しは未完了。",
+      "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+      "addedSlugUniqueness": "pass: added 10 slugs, duplicateCount 0",
+      "urlReachability": "pass: added 10 official URLs all HTTP 200",
+      "diffCheck": "pass: git diff --check for Yamagata second pass 001 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9455, officialLinkedActive 9417, manuallyVerifiedActive 9417, Yamagata localOfficial 336, Yamagata coveredCategories 8"
     }
   },
   "next": {
-    "code": "akita-official-coverage-001",
-    "municipality": "秋田県庁・秋田市・能代市・横手市",
-    "shortlist": "宮城県は最終監査まで完了。全国公式棚卸しは未完了。",
-    "instructions": "秋田県公式棚卸し001として、05000秋田県庁、05201秋田市、05202能代市、05203横手市を自治体コード順で確認する。秋田県庁、秋田市、能代市、横手市の第1巡候補・既存公式登録・保留継続候補を、公式本文/PDF単位で再確認し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度だけ採用する。"
+    "code": "yamagata-official-second-pass-002",
+    "municipality": "酒田市・新庄市・寒河江市・上山市",
+    "shortlist": "山形県第1巡は自治体コード順の末尾まで到達。山形県第2巡001は山形県庁・山形市・米沢市・鶴岡市を完了。全国公式棚卸しは未完了。",
+    "instructions": "山形県第2巡002として、06204酒田市、06205新庄市、06206寒河江市、06207上山市の第1巡保留候補を公式本文/PDFで確認する。既掲載公式URLと県・国制度重複を除外し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度だけ採用する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

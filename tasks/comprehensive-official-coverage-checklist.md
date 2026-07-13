@@ -4461,7 +4461,30 @@
     - `npm run audit:coverage`: pass（failures 0、activePublished 8599、officialLinkedActive 8561、manuallyVerifiedActive 8561、山形県 `localOfficial` 326、山形県 `coveredCategories` 8）。
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-coverage-009-municipalities.json tasks/discovery/yamagata-official-coverage-009-candidates.json tasks/discovery/yamagata-official-coverage-009-snippets.json tasks/discovery/yamagata-official-coverage-009-details.json tasks/discovery/yamagata-official-coverage-009.json`: pass。
   - 次:
-    - 山形県第1巡は自治体コード順の末尾まで到達。次は福島県公式棚卸し001として、07201福島市、07202会津若松市、07203郡山市、07204いわき市を確認する。
+    - 山形県第1巡は自治体コード順の末尾まで到達。次は山形県第2巡台帳の未判定候補を、山形県庁・山形市・米沢市・鶴岡市から公式本文/PDFで確認する。
+
+- 山形県公式棚卸し第2巡001（山形県庁・山形市・米沢市・鶴岡市）
+  - 対象: 06000山形県庁、06201山形市、06202米沢市、06203鶴岡市。
+  - 方法:
+    - 第1巡001の保留候補、`tasks/discovery/yamagata-official-coverage-001.json`、`tasks/discovery/yamagata-official-coverage-001-snippets.json`、公式個別ページ・カテゴリ導線を照合した。
+    - 既掲載公式URLと県・国制度重複を除外し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別ページだけを採用した。
+    - 山形県庁は既存移住支援金・カテゴリ導線中心、米沢市は国県制度・医療/介護/障害福祉給付との切り分け中心のため新規追加なし。
+  - 追加:
+    - 山形市: 身体障がい者用自動車改造費助成、重度身体障がい者介護用車両改造費の助成、身体障がい者運転免許取得費の助成、里帰り等妊婦健康診査補助金。
+    - 鶴岡市: 飼い主のいない猫の不妊去勢手術費用補助金、外国人労働者住宅整備支援補助金、新規創業等支援補助金（事業構想等事業化型）、新規創業等支援補助金（新規創業・移住開業型）、オンライン採用活動支援事業補助金、正社員化促進事業奨励金。
+  - 保留解消:
+    - 山形県庁の移住支援金は既存公式確認済みのため重複採用せず、県公式カテゴリ・新着・助成支援一覧は個別制度本文ではないため不採用。
+    - 山形市の児童手当・特別児童扶養手当・年金給付金等は国制度、国保税・固定資産税・軽自動車税減免は通常税制/保険料制度として不採用。
+    - 米沢市の児童扶養手当・ひとり親家庭等医療給付・福祉用具購入支給等は国県制度・医療給付・介護給付・障害福祉給付中心で新規採用なし。
+    - 鶴岡市の地方就職支援金・つるおかエール奨学金返済支援は第1巡採用済み、定額減税調整給付金・不足額給付・店舗賃料緊急支援事業は受付終了又は過年度のため不採用。中心市街地賑わいイベント支援・空き店舗解消リフォームは個別ページ本文の完全確認を後続に残す。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 10件、重複0。
+    - 追加した10制度10公式URLはすべて HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9455、officialLinkedActive 9417、manuallyVerifiedActive 9417、山形県 `localOfficial` 336、山形県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-second-pass-001.json`: pass。
+  - 次:
+    - 山形県第2巡002として、06204酒田市、06205新庄市、06206寒河江市、06207上山市の第1巡保留候補を公式本文/PDFで確認する。
 
 - 福島県公式棚卸し001（福島市・会津若松市・郡山市・いわき市）
   - 対象: 07201福島市、07202会津若松市、07203郡山市、07204いわき市。
