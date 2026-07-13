@@ -5707,3 +5707,34 @@
     - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
   - 次:
     - 茨城県公式棚卸し008として、08232神栖市、08233行方市、08234鉾田市、08235つくばみらい市を自治体コード順に確認する。
+
+- 茨城県公式棚卸し008
+  - 対象:
+    - 08232 神栖市、08233 行方市、08234 鉾田市、08235 つくばみらい市。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補数693件・HTML候補667件から本文スニペット240件をローカルJSONへ抽出して再スコアリングした。
+    - 追加で公式本文28件を個別取得し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページのみ採用した。
+    - 既掲載公式URL、カテゴリ導線、一覧、申請期限切れ、貸付のみ、金額不足、今回個別URL未確定の候補は採用しないか第2巡台帳へ残した。
+  - 採用:
+    - 神栖市10件: 妊婦支援、不妊治療先進医療、一般不妊治療、婚活支援、無痛分娩、不育症、新生児聴覚検査、骨髄ドナー、蜂の巣駆除、教育ローン利子補給。
+    - 行方市2件: 6次産業化支援、生ごみ処理容器。
+    - 鉾田市3件: 省エネエアコン、蓄電システム、敬老長寿応援食事券。
+    - つくばみらい市10件: 蓄電システム、妊婦支援、出会いサポートセンター入会登録料、先進医療不妊治療、妊産婦・乳児タクシー、高等職業訓練、不妊治療、初回産科受診、不育症、産婦健康診査。
+  - 生成ファイル:
+    - `tasks/discovery/ibaraki-official-coverage-008-municipalities.json`
+    - `tasks/discovery/ibaraki-official-coverage-008-candidates.json`（raw候補、gitignore対象）
+    - `tasks/discovery/ibaraki-official-coverage-008-detail-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-008-official-extra.json`
+    - `tasks/discovery/ibaraki-official-coverage-008.json`
+  - 検証:
+    - 追加prefix slug重複: pass（既存神栖1件を含む26件、全9416slugでduplicateCount 0）。
+    - 公式URL到達: pass（既存神栖1件を含む26件すべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9778、officialLinkedActive 9740、manuallyVerifiedActive 9740、茨城県 localOfficial 300）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 行方市の感震ブレーカー、防犯カメラ、食料品等価格高騰対策支援金、英語検定料、狩猟免許、環境整備促進事業は個別本文URL・必須項目確認が未完了のため第2巡に残す。
+  - 次:
+    - 茨城県公式棚卸し009として、08236小美玉市、08302茨城町、08309大洗町、08310城里町を自治体コード順に確認する。
