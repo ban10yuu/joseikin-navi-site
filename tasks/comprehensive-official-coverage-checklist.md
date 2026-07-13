@@ -5593,3 +5593,31 @@
     - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
   - 次:
     - 茨城県公式棚卸し004として、08215北茨城市、08216笠間市、08217取手市、08219牛久市を自治体コード順に確認する。
+
+- 茨城県公式棚卸し004
+  - 対象:
+    - 08215 北茨城市、08216 笠間市、08217 取手市、08219 牛久市。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補数2298件のため本文スニペット260件、詳細スニペット30件を再スコアリングした。
+    - 既掲載公式URL、県・国制度重複、カテゴリ導線、金額又は受付状況不足、PDFのみで個別ページ未確認の候補を除外し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で揃うページのみ採用した。
+  - 採用:
+    - 北茨城市8件: 物価高騰対策給付金、水道基本料金減免、木造住宅耐震診断・耐震改修、奨学資金、住宅用太陽光・蓄電、自家消費型太陽光・蓄電、ZEH、高齢者肺炎球菌。
+    - 笠間市10件: 創業支援、わかもの給付、中小企業支援、住宅・店舗リフォーム、移住支援金、物価高対応子育て応援手当、75歳以上プレミアム商品券、省エネ家電、空家・空地バンク流通促進、集会所建設等。
+    - 取手市3件: みんなの補助金、空き店舗活用、省エネ家電買換え。
+    - 牛久市6件: 住宅用省エネ家電、生活応援商品券、公共交通利用券、低所得の子育て世帯生活応援特別給付金、医療機関等物価高騰、介護施設等物価高騰。
+  - 生成ファイル:
+    - `tasks/discovery/ibaraki-official-coverage-004-municipalities.json`
+    - `tasks/discovery/ibaraki-official-coverage-004-candidates.json`
+    - `tasks/discovery/ibaraki-official-coverage-004-evidence-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-004-detail-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-004.json`
+  - 検証:
+    - 追加slug重複: pass（27件、全9291slugでduplicateCount 0）。
+    - 公式URL到達: pass（27件すべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9658、officialLinkedActive 9620、manuallyVerifiedActive 9620、茨城県 localOfficial 180）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+  - 次:
+    - 茨城県公式棚卸し005として、08220つくば市、08221ひたちなか市、08222鹿嶋市、08223潮来市を自治体コード順に確認する。

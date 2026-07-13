@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T18:26:00+09:00",
+  "updatedAt": "2026-07-13T18:43:55+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "ibaraki-official-coverage-003",
-    "municipality": "下妻市・常総市・常陸太田市・高萩市",
-    "adopted": 30,
-    "held": 10,
+    "code": "ibaraki-official-coverage-004",
+    "municipality": "北茨城市・笠間市・取手市・牛久市",
+    "adopted": 27,
+    "held": 19,
     "excluded": 0,
-    "sourceUrlsChecked": 30,
+    "sourceUrlsChecked": 27,
     "validation": {
-      "previousMunicipality": "茨城県公式棚卸し003として、08210下妻市、08211常総市、08212常陸太田市、08214高萩市の公式本文を確認し、下妻市9件、常総市6件、常陸太田市7件、高萩市8件を採用した。全国公式棚卸しは未完了。",
+      "previousMunicipality": "茨城県公式棚卸し004として、08215北茨城市、08216笠間市、08217取手市、08219牛久市の公式本文を確認し、北茨城市8件、笠間市10件、取手市3件、牛久市6件を採用した。全国公式棚卸しは未完了。",
       "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: 30 added slugs, duplicateCount 0 across all 9264 slugs",
-      "urlReachability": "pass: 30 official URLs returned HTTP 200",
-      "diffCheck": "pass: git diff --check for Ibaraki 003 data/discovery/checkpoint/checklist files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9638, officialLinkedActive 9600, manuallyVerifiedActive 9600, Ibaraki localOfficial 160"
+      "addedSlugUniqueness": "pass: 27 added slugs, duplicateCount 0 across all 9291 slugs",
+      "urlReachability": "pass: 27 official URLs returned HTTP 200",
+      "diffCheck": "pass: git diff --check for Ibaraki 004 data/discovery/checkpoint/checklist files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9658, officialLinkedActive 9620, manuallyVerifiedActive 9620, Ibaraki localOfficial 180"
     }
   },
   "next": {
-    "code": "ibaraki-official-coverage-004",
-    "municipality": "北茨城市・笠間市・取手市・牛久市",
-    "shortlist": "茨城県公式棚卸し003は、下妻市9件、常総市6件、常陸太田市7件、高萩市8件を採用し、住居確保給付金、金額換算不足の交通制度、カテゴリ導線、社協支部事業、受付終了又は制度整理が必要な候補は第2巡台帳へ残した。次は自治体コード順に08215北茨城市、08216笠間市、08217取手市、08219牛久市。",
-    "instructions": "茨城県公式棚卸し004として、08215北茨城市、08216笠間市、08217取手市、08219牛久市の公式本文/PDFを確認する。既掲載公式URL、県・国制度重複、カテゴリ導線、生成データの公式未確認制度を除外し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度だけ採用する。"
+    "code": "ibaraki-official-coverage-005",
+    "municipality": "つくば市・ひたちなか市・鹿嶋市・潮来市",
+    "shortlist": "茨城県公式棚卸し004は、北茨城市8件、笠間市10件、取手市3件、牛久市6件を採用し、制度一覧、カテゴリ導線、PDFのみで個別ページ未確認、金額又は受付状況不足の候補は第2巡台帳へ残した。次は自治体コード順に08220つくば市、08221ひたちなか市、08222鹿嶋市、08223潮来市。",
+    "instructions": "茨城県公式棚卸し005として、08220つくば市、08221ひたちなか市、08222鹿嶋市、08223潮来市の公式本文/PDFを確認する。既掲載公式URL、県・国制度重複、カテゴリ導線、生成データの公式未確認制度を除外し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度だけ採用する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
