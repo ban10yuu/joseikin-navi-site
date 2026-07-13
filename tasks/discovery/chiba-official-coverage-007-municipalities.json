@@ -1,0 +1,26 @@
+{
+  "batchId": "chiba-comprehensive-official-coverage-007",
+  "prefecture": "千葉県",
+  "municipalities": [
+    {
+      "code": "12227",
+      "name": "浦安市",
+      "officialBaseUrl": "https://www.city.urayasu.lg.jp/"
+    },
+    {
+      "code": "12228",
+      "name": "四街道市",
+      "officialBaseUrl": "https://www.city.yotsukaido.chiba.jp/"
+    },
+    {
+      "code": "12229",
+      "name": "袖ケ浦市",
+      "officialBaseUrl": "https://www.city.sodegaura.lg.jp/"
+    },
+    {
+      "code": "12230",
+      "name": "八街市",
+      "officialBaseUrl": "https://www.city.yachimata.lg.jp/"
+    }
+  ]
+}

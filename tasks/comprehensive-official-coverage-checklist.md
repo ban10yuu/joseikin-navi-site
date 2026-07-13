@@ -7204,3 +7204,40 @@
     - 各市のカテゴリ導線、様式のみ、県・国制度紹介、金額又は受付状況不足候補は第2巡候補に残す。
   - 次:
     - 千葉県公式棚卸し007として、12227浦安市、12228四街道市、12229袖ケ浦市、12230八街市を自治体コード順に確認する。
+
+- 千葉県公式棚卸し007
+  - 対象:
+    - 12227 浦安市、12228 四街道市、12229 袖ケ浦市、12230 八街市。
+  - 方法:
+    - 公式トップ到達を4自治体すべてHTTP 200で確認した。
+    - `scripts/discover-official-candidates.mjs` で候補373件を抽出し、候補数が150件を超えたため、公式本文スニペットと採用判断用台帳を保存して再スコアリングした。
+    - 浦安市は住宅助成系の個別ページ、四街道市は脱炭素・耐震・ひとり親支援ページ、袖ケ浦市は子ども医療・脱炭素・耐震・骨髄ドナー支援ページ、八街市は子ども医療・妊婦支援・脱炭素・骨髄ドナー支援ページの公式本文で制度名・対象・金額/上限・条件・期限/受付状況を確認した。
+    - 浦安市住宅用設備等脱炭素化促進事業補助金、浦安市子ども医療費助成、四街道市及び八街市結婚新生活支援事業等は既存公式確認済み又は既掲載のため新規追加から除外した。
+    - トップ、カテゴリ、サイトマップ、共通ナビ一致、県・国制度の単なる紹介、様式のみ、金額又は受付状況不足の候補は採用せず、第2巡候補に残した。
+  - 採用:
+    - 浦安市5件: 木造住宅の耐震診断・耐震改修にかかる費用の助成、不燃化促進補助金、分譲集合住宅のエレベーター防災対策整備費補助金、分譲集合住宅計画修繕調査費補助金、分譲集合住宅共用部分修繕等工事資金利子補給金。
+    - 四街道市4件: 住宅用設備等脱炭素化促進事業補助制度（令和8年度）、木造住宅耐震診断費補助制度・耐震改修工事費補助制度、ひとり親家庭自立支援教育訓練給付金、ひとり親家庭高等職業訓練促進費等給付金。
+    - 袖ケ浦市4件: 子ども医療費助成、令和8年度住宅用設備等脱炭素化促進事業補助金、木造住宅の耐震改修事業とリフォーム事業、骨髄等移植ドナー支援事業。
+    - 八街市4件: 子ども医療費助成制度、妊婦のための支援給付、住宅用設備等脱炭素化促進事業補助金、骨髄等移植ドナー支援事業助成金。
+  - 生成ファイル:
+    - `tasks/discovery/chiba-official-coverage-007-municipalities.json`
+    - `tasks/discovery/chiba-official-coverage-007-candidates.json`
+    - `tasks/discovery/chiba-official-coverage-007-target-snippets.json`
+    - `tasks/discovery/chiba-official-coverage-007-selected-snippets.json`
+    - `tasks/discovery/chiba-official-coverage-007-selected-main.json`
+    - `tasks/discovery/chiba-official-coverage-007-official-extra.json`
+    - `tasks/discovery/chiba-official-coverage-007-url-check.json`
+    - `tasks/discovery/chiba-official-coverage-007.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（17件、`verified-local-misc-2026.ts` 内で各1件）。
+    - 公式URL到達: pass（17 unique official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10808、officialLinkedActive 10770、manuallyVerifiedActive 10770、千葉県 localOfficial 375）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 八街市移住支援制度ページ内の中小企業融資・農業後継者支援は、個別制度としての金額又は受付状況確認が不足するため第2巡候補に残す。
+    - 各市のカテゴリ導線、様式のみ、県・国制度紹介、金額又は受付状況不足候補は第2巡候補に残す。
+  - 次:
+    - 千葉県公式棚卸し008として、12231印西市、12232白井市、12233富里市、12234南房総市を自治体コード順に確認する。
