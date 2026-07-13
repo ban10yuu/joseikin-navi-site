@@ -1,0 +1,466 @@
+{
+  "batchId": "fukushima-comprehensive-official-coverage-008",
+  "prefecture": "福島県",
+  "municipalities": [
+    {
+      "code": "07422",
+      "name": "湯川村",
+      "officialBaseUrl": "https://www.vill.yugawa.fukushima.jp/"
+    },
+    {
+      "code": "07423",
+      "name": "柳津町",
+      "officialBaseUrl": "https://www.town.yanaizu.fukushima.jp/"
+    },
+    {
+      "code": "07444",
+      "name": "三島町",
+      "officialBaseUrl": "https://www.town.mishima.fukushima.jp/"
+    },
+    {
+      "code": "07445",
+      "name": "金山町",
+      "officialBaseUrl": "https://www.town.kaneyama.fukushima.jp/"
+    }
+  ],
+  "officialTopReachability": {
+    "湯川村": 200,
+    "柳津町": 200,
+    "三島町": 200,
+    "金山町": 200
+  },
+  "discovery": {
+    "candidateCount": 1295,
+    "candidateFile": "tasks/discovery/fukushima-official-coverage-008-candidates.json",
+    "snippetCount": 293,
+    "snippetFile": "tasks/discovery/fukushima-official-coverage-008-snippets.json",
+    "detailsChecked": 49,
+    "detailsFile": "tasks/discovery/fukushima-official-coverage-008-details.json"
+  },
+  "adopted": {
+    "count": 49,
+    "byMunicipality": {
+      "湯川村": [
+        "湯川村 結婚新生活支援事業補助金",
+        "湯川村 民間賃貸住宅家賃補助金",
+        "湯川村 移住支援金",
+        "湯川村 若者定住促進事業補助金",
+        "湯川村 空家改修事業補助金",
+        "湯川村 空家解体事業補助金",
+        "湯川村 中古住宅取得支援事業補助金",
+        "湯川村 空家・空地バンク登録推進事業補助金",
+        "湯川村 はぴ福なび会員登録補助金"
+      ],
+      "柳津町": [
+        "柳津町 子どもの医療費助成制度",
+        "柳津町 小規模事業者後継者支援事業補助金",
+        "柳津町 住まいづくり支援事業補助金",
+        "柳津町 出産・子育て応援給付金",
+        "柳津町 結婚新生活支援事業補助金",
+        "柳津町 原材料米価格高騰支援金",
+        "柳津町 空き家家財道具等処分費補助金",
+        "柳津町 起業者支援事業補助金",
+        "柳津町 合宿等支援事業補助金",
+        "柳津町 移住支援事業補助金",
+        "柳津町 空き家改修支援事業補助金",
+        "柳津町 空き家除却支援事業補助金",
+        "柳津町 除雪オペレーター育成支援事業補助金",
+        "柳津町 地区集会所整備事業補助金",
+        "柳津町 住宅用新エネルギー設備等設置費補助金",
+        "柳津町 結婚祝金支給制度"
+      ],
+      "三島町": [
+        "三島町 エネルギー価格高騰対策事業者支援給付金",
+        "三島町 観光産業活性化支援補助金",
+        "三島町 住宅用太陽光発電システム設置費補助金",
+        "三島町 起業・雇用創出支援事業補助金",
+        "三島町 中小企業・小規模企業者支援貸付金",
+        "三島町 美しい地区づくり支援補助金",
+        "三島町 妊産婦交通費等支援事業",
+        "三島町 骨髄移植ドナー支援事業助成金",
+        "三島町 介護職員初任者研修受講費助成事業",
+        "三島町 高等学校通学費等支援制度",
+        "三島町 はぴ福なび登録料半額補助"
+      ],
+      "金山町": [
+        "金山町 移住支援金給付事業補助金",
+        "金山町 空き家・住宅対策事業（住宅改修）",
+        "金山町 住宅取得支援事業",
+        "金山町 出産にともなう交通費・宿泊費助成",
+        "金山町 出産・子育て応援給付金",
+        "金山町 不育症治療費助成金",
+        "金山町 不妊症治療費助成金",
+        "金山町 物価高対応子育て応援手当給付金",
+        "金山町 乳幼児及び子ども医療費助成事業",
+        "金山町 ひとり親家庭医療費助成事業",
+        "金山町 3歳までのおむつ代助成",
+        "金山町 木造住宅耐震診断者派遣事業",
+        "金山町 害虫駆除補助金"
+      ]
+    },
+    "slugs": [
+      "yugawa-marriage-new-life-subsidy-2026",
+      "yugawa-private-rent-subsidy-2026",
+      "yugawa-migration-support-grant-2026",
+      "yugawa-young-settlement-housing-subsidy-2026",
+      "yugawa-vacant-house-renovation-subsidy-2026",
+      "yugawa-vacant-house-demolition-subsidy-2026",
+      "yugawa-used-house-acquisition-subsidy-2026",
+      "yugawa-vacant-bank-registration-subsidy-2026",
+      "yugawa-hapifuku-registration-subsidy-2026",
+      "yanaizu-child-medical-expense-subsidy-2026",
+      "yanaizu-small-business-successor-subsidy-2026",
+      "yanaizu-housing-support-subsidy-2026",
+      "yanaizu-childbirth-childcare-support-benefit-2026",
+      "yanaizu-marriage-new-life-subsidy-2026",
+      "yanaizu-rice-price-support-grant-2026",
+      "yanaizu-vacant-house-belongings-disposal-subsidy-2026",
+      "yanaizu-entrepreneur-support-subsidy-2026",
+      "yanaizu-training-camp-subsidy-2026",
+      "yanaizu-migration-support-grant-2026",
+      "yanaizu-vacant-house-renovation-subsidy-2026",
+      "yanaizu-vacant-house-demolition-subsidy-2026",
+      "yanaizu-snow-operator-training-subsidy-2026",
+      "yanaizu-community-hall-improvement-subsidy-2026",
+      "yanaizu-residential-renewable-energy-subsidy-2026",
+      "yanaizu-marriage-celebration-grant-2026",
+      "mishima-energy-price-business-support-grant-2026",
+      "mishima-tourism-industry-activation-subsidy-2026",
+      "mishima-residential-solar-power-subsidy-2026",
+      "mishima-startup-employment-creation-subsidy-2026",
+      "mishima-sme-small-business-loan-2026",
+      "mishima-beautiful-district-activity-subsidy-2026",
+      "mishima-pregnancy-transport-subsidy-2026",
+      "mishima-bone-marrow-donor-subsidy-2026",
+      "mishima-care-worker-beginner-training-subsidy-2026",
+      "mishima-high-school-commuting-support-2026",
+      "mishima-hapifuku-registration-subsidy-2026",
+      "kaneyama-migration-support-grant-2026",
+      "kaneyama-vacant-house-renovation-subsidy-2026",
+      "kaneyama-housing-acquisition-subsidy-2026",
+      "kaneyama-childbirth-transport-lodging-subsidy-2026",
+      "kaneyama-pregnancy-childcare-support-benefit-2026",
+      "kaneyama-recurrent-pregnancy-loss-treatment-subsidy-2026",
+      "kaneyama-infertility-treatment-subsidy-2026",
+      "kaneyama-price-childcare-support-allowance-2026",
+      "kaneyama-child-medical-expense-subsidy-2026",
+      "kaneyama-single-parent-medical-subsidy-2026",
+      "kaneyama-infant-diaper-subsidy-2026",
+      "kaneyama-wooden-house-seismic-diagnosis-subsidy-2026",
+      "kaneyama-pest-control-subsidy-2026"
+    ],
+    "items": [
+      {
+        "municipality": "湯川村",
+        "slug": "yugawa-marriage-new-life-subsidy-2026",
+        "title": "湯川村 結婚新生活支援事業補助金",
+        "officialUrl": "https://www.vill.yugawa.fukushima.jp/site/kurashi-top/marriage-life-support.html"
+      },
+      {
+        "municipality": "湯川村",
+        "slug": "yugawa-private-rent-subsidy-2026",
+        "title": "湯川村 民間賃貸住宅家賃補助金",
+        "officialUrl": "https://www.vill.yugawa.fukushima.jp/site/kurashi-top/yugawa-rent.html"
+      },
+      {
+        "municipality": "湯川村",
+        "slug": "yugawa-migration-support-grant-2026",
+        "title": "湯川村 移住支援金",
+        "officialUrl": "https://www.vill.yugawa.fukushima.jp/site/kurashi-top/ijuu.html"
+      },
+      {
+        "municipality": "湯川村",
+        "slug": "yugawa-young-settlement-housing-subsidy-2026",
+        "title": "湯川村 若者定住促進事業補助金",
+        "officialUrl": "https://www.vill.yugawa.fukushima.jp/site/kurashi-top/teiju-2-2-2.html"
+      },
+      {
+        "municipality": "湯川村",
+        "slug": "yugawa-vacant-house-renovation-subsidy-2026",
+        "title": "湯川村 空家改修事業補助金",
+        "officialUrl": "https://www.vill.yugawa.fukushima.jp/site/kurashi-top/kaisyu.html"
+      },
+      {
+        "municipality": "湯川村",
+        "slug": "yugawa-vacant-house-demolition-subsidy-2026",
+        "title": "湯川村 空家解体事業補助金",
+        "officialUrl": "https://www.vill.yugawa.fukushima.jp/site/kurashi-top/akiya-kaitaihojo.html"
+      },
+      {
+        "municipality": "湯川村",
+        "slug": "yugawa-used-house-acquisition-subsidy-2026",
+        "title": "湯川村 中古住宅取得支援事業補助金",
+        "officialUrl": "https://www.vill.yugawa.fukushima.jp/soshiki/sangyo-kensetsu/cyuukozyuutakusyutokusienn.html"
+      },
+      {
+        "municipality": "湯川村",
+        "slug": "yugawa-vacant-bank-registration-subsidy-2026",
+        "title": "湯川村 空家・空地バンク登録推進事業補助金",
+        "officialUrl": "https://www.vill.yugawa.fukushima.jp/soshiki/sangyo-kensetsu/akiyaakichibannkutourokusuisinnzigyouhozyokinn.html"
+      },
+      {
+        "municipality": "湯川村",
+        "slug": "yugawa-hapifuku-registration-subsidy-2026",
+        "title": "湯川村 はぴ福なび会員登録補助金",
+        "officialUrl": "https://www.vill.yugawa.fukushima.jp/site/kurashi-top/marriage-life-support-3.html"
+      },
+      {
+        "municipality": "柳津町",
+        "slug": "yanaizu-child-medical-expense-subsidy-2026",
+        "title": "柳津町 子どもの医療費助成制度",
+        "officialUrl": "https://www.town.yanaizu.fukushima.jp/docs/2026051200037/"
+      },
+      {
+        "municipality": "柳津町",
+        "slug": "yanaizu-small-business-successor-subsidy-2026",
+        "title": "柳津町 小規模事業者後継者支援事業補助金",
+        "officialUrl": "https://www.town.yanaizu.fukushima.jp/docs/2026070200025/"
+      },
+      {
+        "municipality": "柳津町",
+        "slug": "yanaizu-housing-support-subsidy-2026",
+        "title": "柳津町 住まいづくり支援事業補助金",
+        "officialUrl": "https://www.town.yanaizu.fukushima.jp/docs/2026042000028/"
+      },
+      {
+        "municipality": "柳津町",
+        "slug": "yanaizu-childbirth-childcare-support-benefit-2026",
+        "title": "柳津町 出産・子育て応援給付金",
+        "officialUrl": "https://www.town.yanaizu.fukushima.jp/docs/2023030300016/"
+      },
+      {
+        "municipality": "柳津町",
+        "slug": "yanaizu-marriage-new-life-subsidy-2026",
+        "title": "柳津町 結婚新生活支援事業補助金",
+        "officialUrl": "https://www.town.yanaizu.fukushima.jp/docs/2023041800024/"
+      },
+      {
+        "municipality": "柳津町",
+        "slug": "yanaizu-rice-price-support-grant-2026",
+        "title": "柳津町 原材料米価格高騰支援金",
+        "officialUrl": "https://www.town.yanaizu.fukushima.jp/docs/2026041400010/"
+      },
+      {
+        "municipality": "柳津町",
+        "slug": "yanaizu-vacant-house-belongings-disposal-subsidy-2026",
+        "title": "柳津町 空き家家財道具等処分費補助金",
+        "officialUrl": "https://www.town.yanaizu.fukushima.jp/docs/2017091800028/"
+      },
+      {
+        "municipality": "柳津町",
+        "slug": "yanaizu-entrepreneur-support-subsidy-2026",
+        "title": "柳津町 起業者支援事業補助金",
+        "officialUrl": "https://www.town.yanaizu.fukushima.jp/docs/2026070200018/"
+      },
+      {
+        "municipality": "柳津町",
+        "slug": "yanaizu-training-camp-subsidy-2026",
+        "title": "柳津町 合宿等支援事業補助金",
+        "officialUrl": "https://www.town.yanaizu.fukushima.jp/docs/2026041000012/"
+      },
+      {
+        "municipality": "柳津町",
+        "slug": "yanaizu-migration-support-grant-2026",
+        "title": "柳津町 移住支援事業補助金",
+        "officialUrl": "https://www.town.yanaizu.fukushima.jp/docs/2019111400010/"
+      },
+      {
+        "municipality": "柳津町",
+        "slug": "yanaizu-vacant-house-renovation-subsidy-2026",
+        "title": "柳津町 空き家改修支援事業補助金",
+        "officialUrl": "https://www.town.yanaizu.fukushima.jp/docs/2015072300017/"
+      },
+      {
+        "municipality": "柳津町",
+        "slug": "yanaizu-vacant-house-demolition-subsidy-2026",
+        "title": "柳津町 空き家除却支援事業補助金",
+        "officialUrl": "https://www.town.yanaizu.fukushima.jp/docs/2015072100037/"
+      },
+      {
+        "municipality": "柳津町",
+        "slug": "yanaizu-snow-operator-training-subsidy-2026",
+        "title": "柳津町 除雪オペレーター育成支援事業補助金",
+        "officialUrl": "https://www.town.yanaizu.fukushima.jp/docs/2023061200026/"
+      },
+      {
+        "municipality": "柳津町",
+        "slug": "yanaizu-community-hall-improvement-subsidy-2026",
+        "title": "柳津町 地区集会所整備事業補助金",
+        "officialUrl": "https://www.town.yanaizu.fukushima.jp/docs/2023040700011/"
+      },
+      {
+        "municipality": "柳津町",
+        "slug": "yanaizu-residential-renewable-energy-subsidy-2026",
+        "title": "柳津町 住宅用新エネルギー設備等設置費補助金",
+        "officialUrl": "https://www.town.yanaizu.fukushima.jp/docs/2025041000015/"
+      },
+      {
+        "municipality": "柳津町",
+        "slug": "yanaizu-marriage-celebration-grant-2026",
+        "title": "柳津町 結婚祝金支給制度",
+        "officialUrl": "https://www.town.yanaizu.fukushima.jp/docs/2025022500015/"
+      },
+      {
+        "municipality": "三島町",
+        "slug": "mishima-energy-price-business-support-grant-2026",
+        "title": "三島町 エネルギー価格高騰対策事業者支援給付金",
+        "officialUrl": "https://www.town.mishima.fukushima.jp/soshiki/chiiki-seisaku/2903.html"
+      },
+      {
+        "municipality": "三島町",
+        "slug": "mishima-tourism-industry-activation-subsidy-2026",
+        "title": "三島町 観光産業活性化支援補助金",
+        "officialUrl": "https://www.town.mishima.fukushima.jp/soshiki/chiiki-seisaku/2903.html"
+      },
+      {
+        "municipality": "三島町",
+        "slug": "mishima-residential-solar-power-subsidy-2026",
+        "title": "三島町 住宅用太陽光発電システム設置費補助金",
+        "officialUrl": "https://www.town.mishima.fukushima.jp/soshiki/chiiki-seisaku/5882.html"
+      },
+      {
+        "municipality": "三島町",
+        "slug": "mishima-startup-employment-creation-subsidy-2026",
+        "title": "三島町 起業・雇用創出支援事業補助金",
+        "officialUrl": "https://www.town.mishima.fukushima.jp/soshiki/chiiki-seisaku/7053.html"
+      },
+      {
+        "municipality": "三島町",
+        "slug": "mishima-sme-small-business-loan-2026",
+        "title": "三島町 中小企業・小規模企業者支援貸付金",
+        "officialUrl": "https://www.town.mishima.fukushima.jp/soshiki/chiiki-seisaku/49.html"
+      },
+      {
+        "municipality": "三島町",
+        "slug": "mishima-beautiful-district-activity-subsidy-2026",
+        "title": "三島町 美しい地区づくり支援補助金",
+        "officialUrl": "https://www.town.mishima.fukushima.jp/soshiki/chiiki-seisaku/7197.html"
+      },
+      {
+        "municipality": "三島町",
+        "slug": "mishima-pregnancy-transport-subsidy-2026",
+        "title": "三島町 妊産婦交通費等支援事業",
+        "officialUrl": "https://www.town.mishima.fukushima.jp/soshiki/choumin/4486.html"
+      },
+      {
+        "municipality": "三島町",
+        "slug": "mishima-bone-marrow-donor-subsidy-2026",
+        "title": "三島町 骨髄移植ドナー支援事業助成金",
+        "officialUrl": "https://www.town.mishima.fukushima.jp/soshiki/choumin/5924.html"
+      },
+      {
+        "municipality": "三島町",
+        "slug": "mishima-care-worker-beginner-training-subsidy-2026",
+        "title": "三島町 介護職員初任者研修受講費助成事業",
+        "officialUrl": "https://www.town.mishima.fukushima.jp/soshiki/choumin/5891.html"
+      },
+      {
+        "municipality": "三島町",
+        "slug": "mishima-high-school-commuting-support-2026",
+        "title": "三島町 高等学校通学費等支援制度",
+        "officialUrl": "https://www.town.mishima.fukushima.jp/soshiki/shougai-gakushuu/5795.html"
+      },
+      {
+        "municipality": "三島町",
+        "slug": "mishima-hapifuku-registration-subsidy-2026",
+        "title": "三島町 はぴ福なび登録料半額補助",
+        "officialUrl": "https://www.town.mishima.fukushima.jp/soshiki/shougai-gakushuu/345.html"
+      },
+      {
+        "municipality": "金山町",
+        "slug": "kaneyama-migration-support-grant-2026",
+        "title": "金山町 移住支援金給付事業補助金",
+        "officialUrl": "https://www.town.kaneyama.fukushima.jp/soshiki/54/ijushienkin.html"
+      },
+      {
+        "municipality": "金山町",
+        "slug": "kaneyama-vacant-house-renovation-subsidy-2026",
+        "title": "金山町 空き家・住宅対策事業（住宅改修）",
+        "officialUrl": "https://www.town.kaneyama.fukushima.jp/soshiki/54/akiya-jyuutakutaisaku26.html"
+      },
+      {
+        "municipality": "金山町",
+        "slug": "kaneyama-housing-acquisition-subsidy-2026",
+        "title": "金山町 住宅取得支援事業",
+        "officialUrl": "https://www.town.kaneyama.fukushima.jp/soshiki/54/akiya-jjyuutakusyutoku.html"
+      },
+      {
+        "municipality": "金山町",
+        "slug": "kaneyama-childbirth-transport-lodging-subsidy-2026",
+        "title": "金山町 出産にともなう交通費・宿泊費助成",
+        "officialUrl": "https://www.town.kaneyama.fukushima.jp/soshiki/56/shussan.html"
+      },
+      {
+        "municipality": "金山町",
+        "slug": "kaneyama-pregnancy-childcare-support-benefit-2026",
+        "title": "金山町 出産・子育て応援給付金",
+        "officialUrl": "https://www.town.kaneyama.fukushima.jp/soshiki/56/ninshinkyuufu.html"
+      },
+      {
+        "municipality": "金山町",
+        "slug": "kaneyama-recurrent-pregnancy-loss-treatment-subsidy-2026",
+        "title": "金山町 不育症治療費助成金",
+        "officialUrl": "https://www.town.kaneyama.fukushima.jp/soshiki/56/fuiku.html"
+      },
+      {
+        "municipality": "金山町",
+        "slug": "kaneyama-infertility-treatment-subsidy-2026",
+        "title": "金山町 不妊症治療費助成金",
+        "officialUrl": "https://www.town.kaneyama.fukushima.jp/soshiki/56/funin.html"
+      },
+      {
+        "municipality": "金山町",
+        "slug": "kaneyama-price-childcare-support-allowance-2026",
+        "title": "金山町 物価高対応子育て応援手当給付金",
+        "officialUrl": "https://www.town.kaneyama.fukushima.jp/soshiki/57/bukkadaka.html"
+      },
+      {
+        "municipality": "金山町",
+        "slug": "kaneyama-child-medical-expense-subsidy-2026",
+        "title": "金山町 乳幼児及び子ども医療費助成事業",
+        "officialUrl": "https://www.town.kaneyama.fukushima.jp/soshiki/56/children-subsidy.html"
+      },
+      {
+        "municipality": "金山町",
+        "slug": "kaneyama-single-parent-medical-subsidy-2026",
+        "title": "金山町 ひとり親家庭医療費助成事業",
+        "officialUrl": "https://www.town.kaneyama.fukushima.jp/soshiki/56/hitorioya.html"
+      },
+      {
+        "municipality": "金山町",
+        "slug": "kaneyama-infant-diaper-subsidy-2026",
+        "title": "金山町 3歳までのおむつ代助成",
+        "officialUrl": "https://www.town.kaneyama.fukushima.jp/soshiki/56/omutsu.html"
+      },
+      {
+        "municipality": "金山町",
+        "slug": "kaneyama-wooden-house-seismic-diagnosis-subsidy-2026",
+        "title": "金山町 木造住宅耐震診断者派遣事業",
+        "officialUrl": "https://www.town.kaneyama.fukushima.jp/soshiki/33/taisinsindan.html"
+      },
+      {
+        "municipality": "金山町",
+        "slug": "kaneyama-pest-control-subsidy-2026",
+        "title": "金山町 害虫駆除補助金",
+        "officialUrl": "https://www.town.kaneyama.fukushima.jp/soshiki/56/gaichu.html"
+      }
+    ]
+  },
+  "heldForSecondPass": [
+    "湯川村の子育て・就学支援施策、妊娠・出産ページ、高齢者福祉のタクシー券・おむつ券等は、金額・制度単位差分を第2巡で確認する。",
+    "柳津町の児童手当、各種給付・助成制度一覧、ひとり親家庭等支援、保育所、公共施設減免、令和8年度助成金一覧表は、国制度重複または一覧内の制度差分を第2巡で確認する。",
+    "三島町の医療費助成カテゴリ、ワクチン接種、デマンドバス減免、移住定住一覧、申請書ダウンロード内制度は、制度単位の金額・受付差分を第2巡で確認する。",
+    "金山町の児童手当、特別児童扶養手当、児童扶養手当、未熟児養育医療給付、予防接種、中小企業支援制度カテゴリ、公営住宅関連は、国県制度重複または制度単位の金額・受付差分を第2巡で確認する。"
+  ],
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: added 49 slugs, duplicateOrMissing 0",
+    "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 49 added slugs / 49 source URLs, failures 0, all HTTP 200",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8836, officialLinkedActive 8798, manuallyVerifiedActive 8798, Fukushima localOfficial 314, Fukushima coveredCategories 8"
+  },
+  "next": {
+    "code": "fukushima-comprehensive-official-coverage-009",
+    "municipality": "昭和村・会津美里町・西郷村・泉崎村",
+    "instructions": "福島県公式棚卸し009として、07446昭和村、07447会津美里町、07461西郷村、07464泉崎村を自治体コード順に確認する。"
+  }
+}

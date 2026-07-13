@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T09:39:50+09:00",
+  "updatedAt": "2026-07-13T09:56:25+09:00",
   "mode": "fukushima-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "fukushima-comprehensive-official-coverage-007",
-    "municipality": "西会津町・磐梯町・猪苗代町・会津坂下町",
-    "adopted": 39,
+    "code": "fukushima-comprehensive-official-coverage-008",
+    "municipality": "湯川村・柳津町・三島町・金山町",
+    "adopted": 49,
     "held": 4,
     "excluded": 0,
-    "sourceUrlsChecked": 39,
+    "sourceUrlsChecked": 49,
     "validation": {
-      "previousMunicipality": "福島県公式棚卸し007として、07405西会津町、07407磐梯町、07408猪苗代町、07421会津坂下町の公式サイトを確認した。公式トップURLは4件すべてHTTP 200。公式候補1660件が150件を超えたため本文スニペット487件を抽出し、猪苗代町はリニューアル後カテゴリから実在個別URLを補完した。制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる60ページを確認し、個別ページ39件を採用した。カテゴリ・一覧、PDF未精査、国県制度重複、金額差分未確認候補は第2巡台帳へ残した。",
+      "previousMunicipality": "福島県公式棚卸し008として、07422湯川村、07423柳津町、07444三島町、07445金山町の公式サイトを確認した。公式トップURLは4件すべてHTTP 200。公式候補1295件が150件を超えたため本文スニペット293件を抽出し、金山町はカテゴリページから実在個別URLを追加抽出した。制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる49ページを確認し、個別ページ49件を採用した。カテゴリ・一覧、国県制度重複、金額差分未確認候補は第2巡台帳へ残した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: added 39 slugs, duplicateOrMissing 0",
-      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 39 slugs / 39 source URLs, failures 0, all HTTP 200",
-      "diffCheck": "pass: git diff --check for Fukushima 007 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8787, officialLinkedActive 8749, manuallyVerifiedActive 8749, Fukushima localOfficial 265, Fukushima coveredCategories 8"
+      "addedSlugUniqueness": "pass: added 49 slugs, duplicateOrMissing 0",
+      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 49 added slugs / 49 source URLs, failures 0, all HTTP 200",
+      "diffCheck": "pass: git diff --check for Fukushima 008 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 8836, officialLinkedActive 8798, manuallyVerifiedActive 8798, Fukushima localOfficial 314, Fukushima coveredCategories 8"
     }
   },
   "next": {
-    "code": "fukushima-comprehensive-official-coverage-008",
-    "municipality": "湯川村・柳津町・三島町・金山町",
-    "shortlist": "福島県公式棚卸し007で西会津町・磐梯町・猪苗代町・会津坂下町から39制度を採用した。次は福島県008として自治体コード順に07422湯川村、07423柳津町、07444三島町、07445金山町を確認する。",
-    "instructions": "福島県公式棚卸し008として、07422湯川村、07423柳津町、07444三島町、07445金山町を自治体コード順に確認する。公式サイトの補助金・助成金・給付金・一時金等を制度ページ単位で、制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約付きで採用し、トップ、カテゴリ、サイトマップ、共通ナビ一致は削除せず第2巡台帳へ残す。既存raw gap 0を全国完了扱いしない。"
+    "code": "fukushima-comprehensive-official-coverage-009",
+    "municipality": "昭和村・会津美里町・西郷村・泉崎村",
+    "shortlist": "福島県公式棚卸し008で湯川村・柳津町・三島町・金山町から49制度を採用した。次は福島県009として自治体コード順に07446昭和村、07447会津美里町、07461西郷村、07464泉崎村を確認する。",
+    "instructions": "福島県公式棚卸し009として、07446昭和村、07447会津美里町、07461西郷村、07464泉崎村を自治体コード順に確認する。公式サイトの補助金・助成金・給付金・一時金等を制度ページ単位で、制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約付きで採用し、トップ、カテゴリ、サイトマップ、共通ナビ一致は削除せず第2巡台帳へ残す。既存raw gap 0を全国完了扱いしない。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

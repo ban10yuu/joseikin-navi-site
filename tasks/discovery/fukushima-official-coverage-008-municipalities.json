@@ -1,0 +1,26 @@
+{
+  "batchId": "fukushima-comprehensive-official-coverage-008",
+  "prefecture": "福島県",
+  "municipalities": [
+    {
+      "code": "07422",
+      "name": "湯川村",
+      "officialBaseUrl": "https://www.vill.yugawa.fukushima.jp/"
+    },
+    {
+      "code": "07423",
+      "name": "柳津町",
+      "officialBaseUrl": "https://www.town.yanaizu.fukushima.jp/"
+    },
+    {
+      "code": "07444",
+      "name": "三島町",
+      "officialBaseUrl": "https://www.town.mishima.fukushima.jp/"
+    },
+    {
+      "code": "07445",
+      "name": "金山町",
+      "officialBaseUrl": "https://www.town.kaneyama.fukushima.jp/"
+    }
+  ]
+}
