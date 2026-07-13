@@ -5934,3 +5934,37 @@
     - 鹿沼市妊産婦医療費助成・ひとり親家庭医療費助成、日光市奨学金貸付制度、真岡市こども補装具費用助成は制度整理又は金額表現の粒度確認を第2巡へ残す。
   - 次:
     - 栃木県公式棚卸し003として、09210大田原市、09211矢板市、09213那須塩原市、09214さくら市を自治体コード順に確認する。
+
+- 栃木県公式棚卸し003
+  - 対象:
+    - 09210 大田原市、09211 矢板市、09213 那須塩原市、09214 さくら市。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補963件、本文スニペット954件をローカルJSONへ抽出して再スコアリングした。
+    - 那須塩原市は初回候補が36件と弱かったため、公式ドメイン内検索で個別制度ページを補完し、公式本文を再取得した。
+    - 既存 `officialUrl` と照合し、既存掲載・カテゴリページ・FAQ・受付終了ページを除外したうえで、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページを採用した。
+  - 採用:
+    - 大田原市5件: 起業再出発支援、企業立地優遇、野生鳥獣防護柵、特殊詐欺対策電話機等購入、飼い犬・飼い猫避妊去勢手術費。
+    - 矢板市4件: 正規雇用支援、就業イベント等催事出展、海外販路開拓、定住ミニサポート。
+    - 那須塩原市8件: オフィス整備費、移住支援助成、産業連携サポート、中小企業産業財産権取得、子育て応援券、こどもの居場所づくり、脱炭素アドバイザー資格取得、中小企業向けSBT認定取得。
+    - さくら市0件: 既存検証済み9件以外に、今回候補で必須項目が揃う新規個別制度ページを確認できず。
+  - 生成ファイル:
+    - `tasks/discovery/tochigi-official-coverage-003-municipalities.json`
+    - `tasks/discovery/tochigi-official-coverage-003-candidates.json`（raw候補）
+    - `tasks/discovery/tochigi-official-coverage-003-detail-snippets.json`
+    - `tasks/discovery/tochigi-official-coverage-003-official-extra.json`
+    - `tasks/discovery/tochigi-official-coverage-003.json`
+  - 検証:
+    - 追加slug重複: pass（17件、全9572slugでduplicateCount 0）。
+    - 公式URL到達: pass（17件すべてHTTP 200）。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9934、officialLinkedActive 9896、manuallyVerifiedActive 9896、栃木県 localOfficial 198）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 大田原市の中山間地域等直接支払交付金、物価高騰対応重点支援地方創生臨時交付金、児童手当FAQ群は、支払状況・国交付金説明・FAQで個別申請制度としての必須項目不足のため第2巡へ残す。
+    - 矢板市の住まいるリフォーム補助金は令和8年3月31日までの旧制度で、現行のやいたぐらし応援補助金既存掲載との関係整理が必要なため第2巡へ残す。県補助の海外販路開拓・拡大支援事業費補助金は県制度案内のため追加しない。
+    - 那須塩原市の物価高対応子育て応援手当は申請受付が令和8年4月30日で終了済み、電気自動車等補助事業・事業者向け電気自動車等補助事業は主要車両区分が予算上限到達で受付終了のため採用しない。
+    - さくら市の軽自動車税減免等の税減免ページは、助成制度としての掲載粒度を第2巡で整理する。
+  - 次:
+    - 栃木県公式棚卸し004として、09215那須烏山市、09216下野市、09301上三川町、09342益子町を自治体コード順に確認する。

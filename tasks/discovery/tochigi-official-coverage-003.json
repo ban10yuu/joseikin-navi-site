@@ -1,0 +1,126 @@
+{
+  "batchId": "tochigi-comprehensive-official-coverage-003",
+  "prefecture": "栃木県",
+  "targetMunicipalities": [
+    {
+      "code": "09210",
+      "name": "大田原市",
+      "officialBaseUrl": "https://www.city.ohtawara.tochigi.jp/"
+    },
+    {
+      "code": "09211",
+      "name": "矢板市",
+      "officialBaseUrl": "https://www.city.yaita.tochigi.jp/"
+    },
+    {
+      "code": "09213",
+      "name": "那須塩原市",
+      "officialBaseUrl": "https://www.city.nasushiobara.tochigi.jp/"
+    },
+    {
+      "code": "09214",
+      "name": "さくら市",
+      "officialBaseUrl": "https://www.city.tochigi-sakura.lg.jp/"
+    }
+  ],
+  "generatedAt": "2026-07-13T12:55:05.887Z",
+  "method": [
+    "scripts/discover-official-candidates.mjsで公式候補963件を抽出し、本文スニペット954件をローカル抽出して再スコアリングした。",
+    "那須塩原市は公式サイト構造上の初回候補が弱かったため、公式ドメイン内検索で個別ページを補完し、本文を再取得した。",
+    "既存verified-local-misc-2026.tsのofficialUrlと照合し、既存URL重複と受付終了・カテゴリページを除外した。"
+  ],
+  "counts": {
+    "candidateCount": 963,
+    "detailSnippetCount": 954,
+    "officialExtraCount": 21,
+    "adoptedCount": 17
+  },
+  "adoptedByMunicipality": {
+    "大田原市": [
+      {
+        "title": "大田原市 起業再出発支援事業補助金",
+        "url": "https://www.city.ohtawara.tochigi.jp/docs/2013082778703/"
+      },
+      {
+        "title": "大田原市 企業立地優遇制度",
+        "url": "https://www.city.ohtawara.tochigi.jp/docs/2013092700060/"
+      },
+      {
+        "title": "大田原市 野生鳥獣防護柵設置事業補助金",
+        "url": "https://www.city.ohtawara.tochigi.jp/docs/2014060900017/"
+      },
+      {
+        "title": "大田原市 特殊詐欺対策電話機等購入費補助金",
+        "url": "https://www.city.ohtawara.tochigi.jp/docs/2016092700023/"
+      },
+      {
+        "title": "大田原市 飼い犬及び飼い猫の避妊及び去勢手術費補助金",
+        "url": "https://www.city.ohtawara.tochigi.jp/docs/2021111500010/"
+      }
+    ],
+    "矢板市": [
+      {
+        "title": "矢板市 正規雇用支援金",
+        "url": "https://www.city.yaita.tochigi.jp/site/discoveryaita/seikikoyosokushin.html"
+      },
+      {
+        "title": "矢板市 就業イベント等催事出展補助金",
+        "url": "https://www.city.yaita.tochigi.jp/site/discoveryaita/shugyoeventhojyo.html"
+      },
+      {
+        "title": "矢板市 海外販路開拓支援補助金",
+        "url": "https://www.city.yaita.tochigi.jp/site/discoveryaita/kaigaihanro.html"
+      },
+      {
+        "title": "矢板市 定住ミニサポート事業費補助金",
+        "url": "https://www.city.yaita.tochigi.jp/site/kosodate/teijuuminisup.html"
+      }
+    ],
+    "那須塩原市": [
+      {
+        "title": "那須塩原市 オフィス整備費補助金",
+        "url": "https://www.city.nasushiobara.tochigi.jp/soshikikarasagasu/shoko/shokogyo/6218.html"
+      },
+      {
+        "title": "那須塩原市 移住支援助成金",
+        "url": "https://www.city.nasushiobara.tochigi.jp/soshikikarasagasu/kikakuseisakuka/citypromotion/3/1/5359.html"
+      },
+      {
+        "title": "那須塩原市 産業連携サポート補助金",
+        "url": "https://www.city.nasushiobara.tochigi.jp/soshikikarasagasu/shoko/shokogyo/13547.html"
+      },
+      {
+        "title": "那須塩原市 中小企業産業財産権取得補助金",
+        "url": "https://www.city.nasushiobara.tochigi.jp/soshikikarasagasu/shoko/shokogyo/5355.html"
+      },
+      {
+        "title": "那須塩原市 子育て応援券事業",
+        "url": "https://www.city.nasushiobara.tochigi.jp/soshikikarasagasu/kosodateshienka/kosodate/4/3509.html"
+      },
+      {
+        "title": "那須塩原市 こどもの居場所づくり支援事業",
+        "url": "https://www.city.nasushiobara.tochigi.jp/soshikikarasagasu/kosodateshienka/kosodate/4/20657.html"
+      },
+      {
+        "title": "那須塩原市 脱炭素アドバイザー資格取得支援補助金",
+        "url": "https://www.city.nasushiobara.tochigi.jp/soshikikarasagasu/cn/jigyosya/3/19355.html"
+      },
+      {
+        "title": "那須塩原市 中小企業向けSBT認定取得支援補助金",
+        "url": "https://www.city.nasushiobara.tochigi.jp/soshikikarasagasu/cn/jigyosya/3/19977.html"
+      }
+    ]
+  },
+  "secondPass": [
+    "大田原市の中山間地域等直接支払交付金、物価高騰対応重点支援地方創生臨時交付金、児童手当FAQ群は、支払状況・国交付金説明・FAQで個別申請制度としての必須項目不足のため第2巡へ残す。",
+    "矢板市の住まいるリフォーム補助金は令和8年3月31日までの旧制度で、現行のやいたぐらし応援補助金既存掲載との関係整理が必要なため第2巡へ残す。県補助の海外販路開拓・拡大支援事業費補助金は県制度案内のため追加しない。",
+    "那須塩原市の物価高対応子育て応援手当は申請受付が令和8年4月30日で終了済み、電気自動車等補助事業・事業者向け電気自動車等補助事業は主要車両区分が予算上限到達で受付終了のため採用しない。",
+    "さくら市は既存検証済み9件以外に今回抽出で制度詳細・金額・受付状況が揃う新規個別ページを確認できず、軽自動車税減免等の税減免ページは制度粒度を第2巡で整理する。"
+  ],
+  "files": {
+    "municipalities": "tasks/discovery/tochigi-official-coverage-003-municipalities.json",
+    "candidates": "tasks/discovery/tochigi-official-coverage-003-candidates.json",
+    "detailSnippets": "tasks/discovery/tochigi-official-coverage-003-detail-snippets.json",
+    "officialExtra": "tasks/discovery/tochigi-official-coverage-003-official-extra.json"
+  }
+}

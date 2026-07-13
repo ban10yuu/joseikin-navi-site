@@ -1,0 +1,26 @@
+{
+  "batchId": "tochigi-comprehensive-official-coverage-003",
+  "prefecture": "栃木県",
+  "municipalities": [
+    {
+      "code": "09210",
+      "name": "大田原市",
+      "officialBaseUrl": "https://www.city.ohtawara.tochigi.jp/"
+    },
+    {
+      "code": "09211",
+      "name": "矢板市",
+      "officialBaseUrl": "https://www.city.yaita.tochigi.jp/"
+    },
+    {
+      "code": "09213",
+      "name": "那須塩原市",
+      "officialBaseUrl": "https://www.city.nasushiobara.tochigi.jp/"
+    },
+    {
+      "code": "09214",
+      "name": "さくら市",
+      "officialBaseUrl": "https://www.city.tochigi-sakura.lg.jp/"
+    }
+  ]
+}
