@@ -1,0 +1,190 @@
+{
+  "generatedAt": "2026-07-13T13:52:50+09:00",
+  "batch": "fukushima-second-pass-004",
+  "municipalities": [
+    "本宮市",
+    "桑折町",
+    "国見町",
+    "川俣町"
+  ],
+  "sourceEvidence": {
+    "shortlist": "tasks/discovery/fukushima-second-pass-004-shortlist.json",
+    "linkEvidence": "tasks/discovery/fukushima-second-pass-004-link-evidence.json",
+    "pageEvidence": "tasks/discovery/fukushima-second-pass-004-page-evidence.json"
+  },
+  "adoptedCount": 23,
+  "adopted": [
+    {
+      "municipality": "本宮市",
+      "slug": "motomiya-recurrent-pregnancy-loss-treatment-subsidy-2026",
+      "officialUrl": "https://www.city.motomiya.lg.jp/soshiki/11/fuikujyosei-2025-04.html",
+      "reason": "対象、検査上限5万円、治療上限15万円、90日以内申請を公式本文で確認"
+    },
+    {
+      "municipality": "本宮市",
+      "slug": "motomiya-infertility-treatment-test-subsidy-2026",
+      "officialUrl": "https://www.city.motomiya.lg.jp/soshiki/11/funinchiryoujosei2023.html",
+      "reason": "県助成承認、市内住所、妻43歳未満、市税滞納なし、県助成金と同額上限を公式本文で確認"
+    },
+    {
+      "municipality": "本宮市",
+      "slug": "motomiya-tokushi-scholarship-grant-2026",
+      "officialUrl": "https://www.city.motomiya.lg.jp/soshiki/17/tokushi2026.html",
+      "reason": "月1万円、返還不要、令和8年3月1日から定員到達までを公式本文で確認"
+    },
+    {
+      "municipality": "本宮市",
+      "slug": "motomiya-school-expense-aid-2026",
+      "officialUrl": "https://www.city.motomiya.lg.jp/soshiki/18/127.html",
+      "reason": "学用品費、給食費、新入学用品費の金額を公式本文で確認"
+    },
+    {
+      "municipality": "本宮市",
+      "slug": "motomiya-single-parent-medical-aid-2026",
+      "officialUrl": "https://www.city.motomiya.lg.jp/soshiki/8/210.html",
+      "reason": "ひとり親家庭等、所得制限、月1,000円超過分助成を公式本文で確認"
+    },
+    {
+      "municipality": "川俣町",
+      "slug": "kawamata-vacant-house-renovation-support-grant-2026",
+      "officialUrl": "https://www.town.kawamata.lg.jp/site/kurashi-tetsuzuki/akiyakairyou.html",
+      "reason": "空き家バンク物件、改修等、上限100万円、事前認定を公式本文で確認"
+    },
+    {
+      "municipality": "川俣町",
+      "slug": "kawamata-vacant-house-comprehensive-support-subsidy-2026",
+      "officialUrl": "https://www.town.kawamata.lg.jp/site/kurashi-tetsuzuki/akiyataisakusogoshienzigyo.html",
+      "reason": "改修上限180万円、二地域居住上限96万円、清掃等上限36万円を公式本文で確認"
+    },
+    {
+      "municipality": "川俣町",
+      "slug": "kawamata-rental-vacant-house-renovation-support-grant-2026",
+      "officialUrl": "https://www.town.kawamata.lg.jp/site/kurashi-tetsuzuki/chintaiakiyakaishu.html",
+      "reason": "賃貸空き家、2年以上賃借、改修等、上限100万円を公式本文で確認"
+    },
+    {
+      "municipality": "桑折町",
+      "slug": "koori-local-job-student-support-subsidy-2026",
+      "officialUrl": "https://www.town.koori.fukushima.jp/site/iju/1430.html",
+      "reason": "交通費8,000円または1/2、移転費上限66,000円を公式本文で確認"
+    },
+    {
+      "municipality": "桑折町",
+      "slug": "koori-young-settlement-housing-subsidy-2026",
+      "officialUrl": "https://www.town.koori.fukushima.jp/site/iju/1435.html",
+      "reason": "住宅取得基本30万円、県外転入・町内業者加算、最大90万円を公式本文で確認"
+    },
+    {
+      "municipality": "桑折町",
+      "slug": "koori-newlywed-rent-support-subsidy-2026",
+      "officialUrl": "https://www.town.koori.fukushima.jp/site/iju/1436.html",
+      "reason": "家賃1/2、月上限1万円、最長24か月を公式本文で確認"
+    },
+    {
+      "municipality": "桑折町",
+      "slug": "koori-temporary-childcare-use-subsidy-2026",
+      "officialUrl": "https://www.town.koori.fukushima.jp/site/kosodate/1293.html",
+      "reason": "一時預かり保育、保護者負担1/2、月上限1万円、利用月から1年以内を公式本文で確認"
+    },
+    {
+      "municipality": "桑折町",
+      "slug": "koori-outing-pass-taxi-fare-subsidy-2026",
+      "officialUrl": "https://www.town.koori.fukushima.jp/soshiki/4/1347.html",
+      "reason": "対象者とタクシー利用助成の公式本文を確認"
+    },
+    {
+      "municipality": "桑折町",
+      "slug": "koori-bone-marrow-donor-support-subsidy-2026",
+      "officialUrl": "https://www.town.koori.fukushima.jp/soshiki/4/5436.html",
+      "reason": "1日2万円、上限14万円、1年以内申請を公式本文で確認"
+    },
+    {
+      "municipality": "桑折町",
+      "slug": "koori-sme-loan-interest-subsidy-2026",
+      "officialUrl": "https://www.town.koori.fukushima.jp/soshiki/5/1793.html",
+      "reason": "12か月分利子、上限10万円を公式本文で確認"
+    },
+    {
+      "municipality": "桑折町",
+      "slug": "koori-diverse-new-farmer-encouragement-grant-2026",
+      "officialUrl": "https://www.town.koori.fukushima.jp/soshiki/5/1833.html",
+      "reason": "多様な就農者、3年以上営農、50万円を公式本文で確認"
+    },
+    {
+      "municipality": "桑折町",
+      "slug": "koori-agricultural-successor-encouragement-grant-2026",
+      "officialUrl": "https://www.town.koori.fukushima.jp/soshiki/5/1843.html",
+      "reason": "農業後継者、3年以上営農、50万円を公式本文で確認"
+    },
+    {
+      "municipality": "桑折町",
+      "slug": "koori-new-farmer-support-subsidy-2026",
+      "officialUrl": "https://www.town.koori.fukushima.jp/soshiki/5/1844.html",
+      "reason": "新規就農者、年50万円、3年間を公式本文で確認"
+    },
+    {
+      "municipality": "桑折町",
+      "slug": "koori-sewer-equipment-loan-interest-subsidy-2026",
+      "officialUrl": "https://www.town.koori.fukushima.jp/soshiki/6/1393.html",
+      "reason": "排水設備等整備資金、融資利用、利子補給を公式本文で確認"
+    },
+    {
+      "municipality": "桑折町",
+      "slug": "koori-vacant-house-renovation-subsidy-2026",
+      "officialUrl": "https://www.town.koori.fukushima.jp/soshiki/6/1457.html",
+      "reason": "空家改修、補助率1/2、上限150万円、着手前申請を公式本文で確認"
+    },
+    {
+      "municipality": "桑折町",
+      "slug": "koori-septic-tank-installation-subsidy-2026",
+      "officialUrl": "https://www.town.koori.fukushima.jp/soshiki/6/1474.html",
+      "reason": "人槽別上限、撤去、配管費補助を公式本文で確認"
+    },
+    {
+      "municipality": "桑折町",
+      "slug": "koori-electric-food-waste-processor-subsidy-2026",
+      "officialUrl": "https://www.town.koori.fukushima.jp/soshiki/7/1266.html",
+      "reason": "購入費1/2、上限2万円、購入から60日以内を公式本文で確認"
+    },
+    {
+      "municipality": "国見町",
+      "slug": "kunimi-youth-development-encouragement-grant-2026",
+      "officialUrl": "https://www.town.kunimi.fukushima.jp/site/kangetsudai/21614.html",
+      "reason": "個人5千円から1万円、団体1万円から2万円を公式本文で確認"
+    }
+  ],
+  "held": [
+    {
+      "municipality": "本宮市",
+      "items": [
+        "国・県等の補助金等支援は外部制度一覧のため、市独自制度として採用しない",
+        "未来担い手奨学金は公式ページで受付終了表示のため保留",
+        "私立保育所および幼稚園保育料助成は今回取得本文だけでは上限金額の根拠が不足",
+        "令和4年福島県沖地震被災者生活再建支援金は申請期限経過のため不採用"
+      ]
+    },
+    {
+      "municipality": "川俣町",
+      "items": [
+        "12市町村移住支援センター交通費・宿泊費は外部センター制度のため町独自制度としては保留",
+        "県外移住支援金は第1巡採用済みのかわまた移住支援金給付事業補助金と重複候補",
+        "移住・二地域居住支援金、住宅新築等支援金、二地域居住支援金、就農者確保移住支援金は次巡で重複関係と金額条件を精査"
+      ]
+    },
+    {
+      "municipality": "桑折町",
+      "items": [
+        "新規就農者育成総合対策事業は国事業案内のため町独自制度としては保留",
+        "病児・病後児保育利用助成費は今回取得本文だけでは助成上限の根拠が不足",
+        "人間ドック・脳ドック費助成の2ページは取得時にページ不存在相当のため保留"
+      ]
+    },
+    {
+      "municipality": "国見町",
+      "items": [
+        "令和8年度各種奨学金は県奨学金等の案内が中心のため町独自制度としては保留",
+        "調整給付・不足額給付は受付時期経過または終了候補のため現行掲載対象外"
+      ]
+    }
+  ]
+}

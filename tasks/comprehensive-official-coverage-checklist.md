@@ -4905,6 +4905,31 @@
   - 次:
     - 福島県第2巡004として、07214本宮市、07301桑折町、07303国見町、07308川俣町の保留候補を確認する。
 
+- 福島県公式棚卸し第2巡004（本宮市・桑折町・国見町・川俣町）
+  - 対象: 07214本宮市、07301桑折町、07303国見町、07308川俣町。
+  - 方法:
+    - 第1巡004の保留候補、公式候補、本文スニペット、保留欄の制度強語を再確認した。
+    - 既掲載 `officialUrl` を除外し、公式カテゴリ・一覧から個別ページへのリンクを展開して `tasks/discovery/fukushima-second-pass-004-shortlist.json` 83件、`tasks/discovery/fukushima-second-pass-004-link-evidence.json` 14件、`tasks/discovery/fukushima-second-pass-004-page-evidence.json` 41件を作成した。
+    - title/h1/main/article/URLの制度強語に加え、対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別ページを優先し、外部制度一覧、受付終了、本文不足、既存重複候補は第2巡継続台帳へ残した。
+  - 追加:
+    - 本宮市: 不育症治療費・検査費助成、不妊治療費・検査費助成、篤志奨学金、就学援助制度、ひとり親家庭医療費助成。
+    - 川俣町: 空き家改修等支援金、空き家対策総合支援事業補助金、賃貸空き家改修等支援金。
+    - 桑折町: 地方就職学生支援事業補助金、若者定住促進事業補助金、新婚世帯家賃支援事業補助金、一時預かり保育利用助成費、献上桃の郷おでかけパス利用助成事業、骨髄移植ドナー支援事業助成金、中小企業借入金利子補給事業、多様な就農者支援事業、農業後継者奨励金、就農者支援事業、下水道排水設備等整備資金利子補給、空家改修等補助事業、合併処理浄化槽設置整備事業補助金、電動生ごみ処理機購入費補助金。
+    - 国見町: 青少年育成町民会議奨励金。
+  - 保留継続:
+    - 本宮市の国・県等の補助金等支援は外部制度一覧、未来担い手奨学金は受付終了、私立保育所および幼稚園保育料助成は今回取得本文だけでは上限金額根拠が不足、令和4年福島県沖地震被災者生活再建支援金は申請期限経過のため採用しなかった。
+    - 川俣町の12市町村移住支援センター交通費・宿泊費は外部センター制度、県外移住支援金は既存重複候補、移住・二地域居住支援金、住宅新築等支援金、二地域居住支援金、就農者確保移住支援金は重複関係と金額条件を次巡で精査する。
+    - 桑折町の新規就農者育成総合対策事業は国事業案内、病児・病後児保育利用助成費は今回取得本文だけでは上限金額根拠が不足、人間ドック・脳ドック費助成の2ページは取得時にページ不存在相当のため保留した。
+    - 国見町の令和8年度各種奨学金は県奨学金等の案内中心、調整給付・不足額給付は受付時期経過または終了候補のため採用しなかった。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 23件、重複0。
+    - 追加した23制度23公式URLはすべて HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9357、officialLinkedActive 9319、manuallyVerifiedActive 9319、福島県 `localOfficial` 835、福島県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-second-pass-004-shortlist.json tasks/discovery/fukushima-second-pass-004-link-evidence.json tasks/discovery/fukushima-second-pass-004-page-evidence.json tasks/discovery/fukushima-second-pass-004-adopted.json`: pass。
+  - 次:
+    - 福島県第2巡005として、07322大玉村、07342鏡石町、07344天栄村、07362下郷町の保留候補を確認する。
+
 - 宮城県公式棚卸し009（美里町・女川町・南三陸町）
   - 対象: 04505美里町、04581女川町、04606南三陸町。
   - 方法:
