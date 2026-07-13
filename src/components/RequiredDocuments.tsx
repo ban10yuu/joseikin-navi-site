@@ -67,7 +67,7 @@ export default function RequiredDocuments({ documents, officialUrl }: Props) {
       {allChecked && (
         <div className="bg-emerald-50 border border-emerald-200 rounded-lg p-4 mb-4 text-center">
           <p className="text-sm font-semibold text-emerald-700">
-            全ての書類が揃いました！下のボタンから申請に進みましょう。
+            チェックした書類が揃いました。提出前に公式募集要項と照合してください。
           </p>
         </div>
       )}
@@ -80,7 +80,7 @@ export default function RequiredDocuments({ documents, officialUrl }: Props) {
             rel="noopener noreferrer nofollow"
             className="flex-1 px-5 py-3 text-sm font-bold text-white bg-accent rounded-lg hover:bg-accent-deep transition-colors text-center shadow-sm"
           >
-            公式サイトで申請する
+            公式ページで募集要項を確認
           </a>
         ) : (
           <div className="flex-1 px-5 py-3 text-sm font-medium text-muted bg-wash rounded-lg text-center">
