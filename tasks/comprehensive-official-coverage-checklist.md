@@ -6210,3 +6210,41 @@
     - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
   - 次:
     - 群馬県公式棚卸し004として、10212みどり市、10344榛東村、10345吉岡町、10366上野村を自治体コード順に確認する。
+
+- 群馬県公式棚卸し004
+  - 対象:
+    - 10212 みどり市、10344 榛東村、10345 吉岡町、10366 上野村。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補312件をローカルJSONへ保存した。
+    - `tasks/discovery/gunma-official-coverage-004-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現、再スコアを保存した。
+    - 公式カテゴリ・一覧ページから個別制度ページを補完し、`tasks/discovery/gunma-official-coverage-004-official-extra.json` に公式本文スニペットを保存した。
+    - 制度強語と金額・対象条件・期限/受付表現が揃う候補44件を `tasks/discovery/gunma-official-coverage-004-selected-snippets.json` と `tasks/discovery/gunma-official-coverage-004-selected-main.json` に抽出した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃う個別ページのみ採用した。
+  - 採用:
+    - みどり市10件: 保育料・副食費・給食費無償化、みどり手当、みどり子育て移住支援、市外小中学校等学校給食費、乳児おむつ用品、新生児聴覚検査、養育費確保、結婚新生活、低所得妊婦初回産科、妊婦のための支援給付。
+    - 榛東村9件: 路線バス通学定期券、地方就職学生支援、通話録音機等購入費、村立小中学校給食費無償化、タクシー利用料金助成（しんタク）、医療用ウィッグ等、骨髄移植ドナー、ハイリスク妊産婦福祉タクシー、住まいの防犯対策。
+    - 吉岡町10件: スズメバチの巣駆除、住宅用太陽光発電システム等、生ごみ処理機器、不妊治療・不育治療、妊婦のための支援給付、合併処理浄化槽、特殊詐欺対策電話機等、ブロック塀等除却、老朽危険空家除却、認定農業者農業経営改善。
+    - 上野村9件: 不妊治療、人間ドック・脳ドック、重度心身障害者住宅改造補修、介護用車両、高齢者住宅改造、奨学金、チャイルドシート、海外研修交流、住宅資金借入金利子。
+  - 生成ファイル:
+    - `tasks/discovery/gunma-official-coverage-004-municipalities.json`
+    - `tasks/discovery/gunma-official-coverage-004-candidates.json`（raw候補）
+    - `tasks/discovery/gunma-official-coverage-004-detail-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-004-official-extra.json`
+    - `tasks/discovery/gunma-official-coverage-004-selected-snippets.json`
+    - `tasks/discovery/gunma-official-coverage-004-selected-main.json`
+    - `tasks/discovery/gunma-official-coverage-004.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（38件、全9774slugでduplicateCount 0）。
+    - 公式URL到達: pass（追加38件すべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10124、officialLinkedActive 10086、manuallyVerifiedActive 10086、群馬県 localOfficial 161）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 吉岡町の公式ドメインは `https://www.town.yoshioka.lg.jp/` を正として採用した。
+    - みどり市の不妊治療・不育症治療関連ページは申請期間が2026年1月31日までのため今回のactive追加から除外した。
+    - 上野村の木造住宅耐震診断、浄化槽関連は金額又は補助粒度の確認が不足したため第2巡候補に残す。
+    - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
+  - 次:
+    - 群馬県公式棚卸し005として、10367神流町、10382下仁田町、10383南牧村、10384甘楽町を自治体コード順に確認する。

@@ -1,0 +1,26 @@
+{
+  "batchId": "gunma-comprehensive-official-coverage-004",
+  "prefecture": "群馬県",
+  "municipalities": [
+    {
+      "code": "10212",
+      "name": "みどり市",
+      "officialBaseUrl": "https://www.city.midori.gunma.jp/"
+    },
+    {
+      "code": "10344",
+      "name": "榛東村",
+      "officialBaseUrl": "https://www.vill.shinto.gunma.jp/"
+    },
+    {
+      "code": "10345",
+      "name": "吉岡町",
+      "officialBaseUrl": "https://www.town.yoshioka.lg.jp/"
+    },
+    {
+      "code": "10366",
+      "name": "上野村",
+      "officialBaseUrl": "https://www.uenomura.jp/"
+    }
+  ]
+}
