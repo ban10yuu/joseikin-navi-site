@@ -5738,3 +5738,34 @@
     - 行方市の感震ブレーカー、防犯カメラ、食料品等価格高騰対策支援金、英語検定料、狩猟免許、環境整備促進事業は個別本文URL・必須項目確認が未完了のため第2巡に残す。
   - 次:
     - 茨城県公式棚卸し009として、08236小美玉市、08302茨城町、08309大洗町、08310城里町を自治体コード順に確認する。
+
+- 茨城県公式棚卸し009
+  - 対象:
+    - 08236 小美玉市、08302 茨城町、08309 大洗町、08310 城里町。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補数1172件・HTML候補1158件のため本文スニペット260件をローカルJSONへ抽出して再スコアリングした。
+    - 公式本文36件を個別取得し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページのみ採用した。
+    - 既掲載公式URL、カテゴリ導線、一覧、期限切れ、予算枠消化済み、貸付のみ、国制度案内、令和8年度受付状況が不足するページは採用しないか第2巡台帳へ残した。
+  - 採用:
+    - 小美玉市10件: 奨学金返還、浄化槽、移住支援金、若年世帯等住宅取得、防音サッシ、地方就職学生、下水道接続、出産祝い、妊婦支援、妊産婦タクシー。
+    - 茨城町4件: 省エネ家電買換え、中小企業等エネルギー価格高騰対策、家庭用防犯カメラ、合併処理浄化槽。
+    - 大洗町12件: 住宅リフォーム、木造住宅耐震改修、危険ブロック塀撤去、空き家リフォーム、空き家解体・跡地利用、木造住宅耐震診断士派遣、合併処理浄化槽、三世代同居・近居住宅増改築、定住促進、生ごみ処理容器、太陽光発電、ハチ駆除。
+    - 城里町5件: 在宅育児手当、医療福祉費支給制度、次世代育成支援金、補聴器購入費、未就学児給食費無償化。
+  - 生成ファイル:
+    - `tasks/discovery/ibaraki-official-coverage-009-municipalities.json`
+    - `tasks/discovery/ibaraki-official-coverage-009-candidates.json`（raw候補、gitignore対象）
+    - `tasks/discovery/ibaraki-official-coverage-009-detail-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-009-official-extra.json`
+    - `tasks/discovery/ibaraki-official-coverage-009.json`
+  - 検証:
+    - 追加slug重複: pass（31件、全9447slugでduplicateCount 0）。
+    - 公式URL到達: pass（31件すべてHTTP 200）。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9809、officialLinkedActive 9771、manuallyVerifiedActive 9771、茨城県 localOfficial 331）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 大洗町の蓄電池は補助基数残0基のため採用しない。大洗町の家庭用防犯カメラは本文が令和7年度継続実施で令和8年度受付状況が不足するため第2巡へ残す。城里町の高年者クラブ事業補助金と物価高対応子育て応援手当は期限超過のため採用しない。
+  - 次:
+    - 茨城県公式棚卸し010として、08341東海村、08364大子町、08442美浦村、08443阿見町を自治体コード順に確認する。
