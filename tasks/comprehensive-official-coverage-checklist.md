@@ -5159,6 +5159,27 @@
   - 次:
     - 福島県第2巡015として、07548葛尾村、07561新地町、07564飯舘村の保留候補を確認する。
 
+- 福島県公式棚卸し第2巡015（葛尾村・新地町・飯舘村）
+  - 対象: 07548葛尾村、07561新地町、07564飯舘村。
+  - 方法:
+    - 第1巡015の保留候補、公式extra、sitemap候補、既存採用URL、カテゴリ導線、個別ページを再確認した。
+    - 既掲載 `officialUrl` を除外し、候補89件を再確認して `tasks/discovery/fukushima-second-pass-015-shortlist.json` 12件、`tasks/discovery/fukushima-second-pass-015-page-evidence.json` 12件、`tasks/discovery/fukushima-second-pass-015-adopted.json` を作成した。
+    - title/h1/main/article/URLの制度強語に加え、対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別制度を採用し、空カテゴリ、総合案内、金額未掲載ページ、外部制度案内、制度列挙のみのページは第2巡継続台帳へ残した。
+  - 追加:
+    - 飯舘村: 人工透析医療費・交通費助成。
+  - 保留継続:
+    - 葛尾村の児童手当・児童扶養手当カテゴリ、乳幼児・児童医療費助成制度カテゴリは現在掲載情報なし。障がい福祉制度のてびきは総合案内で、個別制度の対象・金額・期限が揃わない。
+    - 新地町の障害児福祉手当・特別障害者手当は対象・申請書類を確認できるが、公式本文に手当額が掲載されていない。一部負担金等免除カテゴリは現在掲載情報なし。新規就農者支援は外部ポータル案内中心で、町独自の金額付き制度本文ではない。
+    - 飯舘村の身体障がい者助成制度は医療費補助、補装具給付、自動車免許取得助成等の制度列挙のみで、個別金額・条件・期限が不足。医療費助成カテゴリ、障がい者福祉カテゴリ、介護保険制度ページは個別補助制度本文ではない。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 1件、重複確認 pass（duplicateOrMissing 0、duplicates 0）。
+    - 追加した1制度1公式URLの到達確認 pass（HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9445、officialLinkedActive 9407、manuallyVerifiedActive 9407、福島県 `localOfficial` 923、福島県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-second-pass-015-shortlist.json tasks/discovery/fukushima-second-pass-015-page-evidence.json tasks/discovery/fukushima-second-pass-015-adopted.json`: pass。
+  - 次:
+    - 福島県第2巡は自治体コード順の末尾まで到達。次は宮城県公式棚卸し第2巡001の未確定検証・候補台帳を再確認する。
+
 - 宮城県公式棚卸し009（美里町・女川町・南三陸町）
   - 対象: 04505美里町、04581女川町、04606南三陸町。
   - 方法:

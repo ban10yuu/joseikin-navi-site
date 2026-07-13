@@ -1,0 +1,103 @@
+{
+  "batch": "fukushima-second-pass-official-coverage-015",
+  "updatedAt": "2026-07-13T14:55:00+09:00",
+  "evidence": [
+    {
+      "municipality": "葛尾村",
+      "url": "https://www.katsurao.org/life/7/37/157/",
+      "httpStatus": 200,
+      "title": "児童手当・児童扶養手当",
+      "finding": "カテゴリ本文は現在掲載情報なし。制度本文・金額・受付情報なし。",
+      "decision": "held"
+    },
+    {
+      "municipality": "葛尾村",
+      "url": "https://www.katsurao.org/life/7/37/158/",
+      "httpStatus": 200,
+      "title": "乳幼児・児童医療費助成制度",
+      "finding": "カテゴリ本文は現在掲載情報なし。制度本文・金額・受付情報なし。",
+      "decision": "held"
+    },
+    {
+      "municipality": "葛尾村",
+      "url": "https://www.katsurao.org/soshiki/2/197.html",
+      "httpStatus": 200,
+      "title": "障がい福祉制度のてびき",
+      "finding": "手当・医療費・助成等の案内はあるが、個別制度の金額・期限が本文で揃わない。",
+      "decision": "held"
+    },
+    {
+      "municipality": "新地町",
+      "url": "https://www.shinchi-town.jp/soshiki/7/syougaizihukushiteate.html",
+      "httpStatus": 200,
+      "title": "障害児福祉手当",
+      "finding": "対象・申請書類は確認。公式本文に手当額なし。",
+      "decision": "held"
+    },
+    {
+      "municipality": "新地町",
+      "url": "https://www.shinchi-town.jp/soshiki/7/tokubetsusyougaisyateate.html",
+      "httpStatus": 200,
+      "title": "特別障害者手当",
+      "finding": "対象・申請書類は確認。公式本文に手当額なし。",
+      "decision": "held"
+    },
+    {
+      "municipality": "新地町",
+      "url": "https://www.shinchi-town.jp/life/1/6/109/",
+      "httpStatus": 200,
+      "title": "一部負担金等免除",
+      "finding": "カテゴリ本文は現在掲載情報なし。",
+      "decision": "held"
+    },
+    {
+      "municipality": "新地町",
+      "url": "https://www.shinchi-town.jp/soshiki/8/shuunou.html",
+      "httpStatus": 200,
+      "title": "新規就農者支援",
+      "finding": "外部ポータル等の案内中心。町独自の金額付き補助本文なし。",
+      "decision": "held"
+    },
+    {
+      "municipality": "飯舘村",
+      "url": "https://www.vill.iitate.fukushima.jp/soshiki/11/6.html",
+      "httpStatus": 200,
+      "title": "身体障がい者助成制度",
+      "finding": "医療費補助、補装具給付、自動車免許取得助成等を列挙。個別金額・条件・期限が不足。",
+      "decision": "held"
+    },
+    {
+      "municipality": "飯舘村",
+      "url": "https://www.vill.iitate.fukushima.jp/soshiki/11/8.html",
+      "httpStatus": 200,
+      "title": "人工透析",
+      "finding": "医療費の自己負担分・交通費の助成が受けられること、健康福祉課福祉係への問い合わせ先を確認。",
+      "decision": "adopted",
+      "grantSlug": "iitate-dialysis-medical-transport-aid-2026"
+    },
+    {
+      "municipality": "飯舘村",
+      "url": "https://www.vill.iitate.fukushima.jp/soshiki/11/7.html",
+      "httpStatus": 200,
+      "title": "介護保険制度",
+      "finding": "介護保険の一般説明。補助金・助成金等の個別制度本文ではない。",
+      "decision": "held"
+    },
+    {
+      "municipality": "飯舘村",
+      "url": "https://www.vill.iitate.fukushima.jp/life/2/9/38/",
+      "httpStatus": 200,
+      "title": "医療費助成",
+      "finding": "カテゴリ導線。既掲載ページと人工透析個別ページへの導線として確認。",
+      "decision": "held"
+    },
+    {
+      "municipality": "飯舘村",
+      "url": "https://www.vill.iitate.fukushima.jp/life/2/10/40/",
+      "httpStatus": 200,
+      "title": "障がい者福祉",
+      "finding": "カテゴリ導線。身体障がい者助成制度は個別ページを取得し保留判断。",
+      "decision": "held"
+    }
+  ]
+}

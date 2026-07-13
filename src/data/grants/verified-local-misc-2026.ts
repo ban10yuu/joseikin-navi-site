@@ -207753,6 +207753,25 @@ export const verifiedLocalMiscGrants2026: Grant[] = [
     sourceName: "飯舘村 飯舘村スタートアップ補助金",
     sourceNote: "2026年7月13日に飯舘村公式ページを確認。飯舘村スタートアップ補助金、対象要件、最大200万円、申請・受付方法を確認。",
   }),
+  localVerifiedGrant({
+    slug: "iitate-dialysis-medical-transport-aid-2026",
+    title: "飯舘村 人工透析医療費・交通費助成",
+    organization: "飯舘村",
+    maxAmount: "医療費自己負担分・交通費を助成",
+    maxAmountNum: 0,
+    category: "medical",
+    relatedCategories: ["nursing", "living"],
+    prefecture: "福島県",
+    tags: ["飯舘村", "人工透析", "医療費助成", "交通費助成"],
+    eligibility: "飯舘村で人工透析を受け、医療費自己負担分や通院交通費の助成を必要とする方が対象です。詳細な要件は健康福祉課福祉係への問い合わせにより確認します。",
+    applicationPeriod: "随時。詳しくは健康福祉課福祉係へ問い合わせ",
+    description: "飯舘村が、人工透析に係る医療費の自己負担分と交通費を助成する制度です。",
+    overview: "人工透析を受ける方の医療費自己負担分と交通費を助成します。",
+    details: "公式ページでは、人工透析について医療費の自己負担分と交通費の助成を受けられること、詳細は健康福祉課福祉係へ問い合わせることが案内されています。",
+    officialUrl: "https://www.vill.iitate.fukushima.jp/soshiki/11/8.html",
+    sourceName: "飯舘村 人工透析",
+    sourceNote: "2026年7月13日に飯舘村公式ページを確認。更新日2024年4月1日、人工透析について医療費の自己負担分・交通費の助成を受けられること、詳細は健康福祉課福祉係へ問い合わせることを確認。",
+  }),
 
   // 福島県公式棚卸し第2巡001: 福島市・会津若松市・郡山市・いわき市
   localVerifiedGrant({
