@@ -1,0 +1,60 @@
+{
+  "batchId": "chiba-comprehensive-official-coverage-010",
+  "code": "chiba-official-coverage-010",
+  "completedAt": "2026-07-14T08:30:00+09:00",
+  "prefecture": "千葉県",
+  "municipalities": [
+    {
+      "code": "12239",
+      "name": "大網白里市",
+      "selectedCount": 6
+    },
+    {
+      "code": "12322",
+      "name": "酒々井町",
+      "selectedCount": 3
+    },
+    {
+      "code": "12329",
+      "name": "栄町",
+      "selectedCount": 6
+    },
+    {
+      "code": "12342",
+      "name": "神崎町",
+      "selectedCount": 4
+    }
+  ],
+  "candidateCount": 205,
+  "selectedCount": 19,
+  "duplicatesSkipped": 2,
+  "validations": {
+    "nodeCheck": "pass",
+    "slugUniqueness": "pass (19 added slugs, each exactly once)",
+    "urlReachability": "pass (19 official URLs all HTTP 200)",
+    "lint": "pass (npm run lint -- src/data/grants/verified-local-misc-2026.ts)",
+    "diffCheck": "pass",
+    "auditCoverage": "pass (failures 0, activePublished 10863, officialLinkedActive 10825, manuallyVerifiedActive 10825, 千葉県 localOfficial 430)"
+  },
+  "next": {
+    "code": "chiba-official-coverage-011",
+    "municipalities": [
+      {
+        "code": "12347",
+        "name": "多古町"
+      },
+      {
+        "code": "12349",
+        "name": "東庄町"
+      },
+      {
+        "code": "12403",
+        "name": "九十九里町"
+      },
+      {
+        "code": "12409",
+        "name": "芝山町"
+      }
+    ]
+  }
+}

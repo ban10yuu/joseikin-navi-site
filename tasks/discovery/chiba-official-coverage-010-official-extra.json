@@ -1,0 +1,29 @@
+{
+  "batchId": "chiba-comprehensive-official-coverage-010",
+  "duplicatesSkipped": [
+    {
+      "municipality": "大網白里市",
+      "slug": "oamishirasato-marriage-new-life-support-2026",
+      "reason": "既存データに公式確認済みとして掲載済み"
+    },
+    {
+      "municipality": "神崎町",
+      "slug": "kozaki-energy-saving-appliance-support-2026",
+      "reason": "既存データに公式確認済みとして掲載済み"
+    }
+  ],
+  "secondPassCarryOver": [
+    "カテゴリ導線、トップページ、サイトマップ、共通ナビ一致",
+    "制度本文ではなく様式のみのPDF・ページ",
+    "県・国制度の単なる紹介ページ",
+    "金額、対象条件、期限又は受付状況が本文で揃わない候補"
+  ],
+  "pdfEvidence": [
+    {
+      "municipality": "酒々井町",
+      "title": "令和8年度酒々井町住宅用設備等脱炭素化促進事業補助金のご案内PDF",
+      "url": "https://www.town.shisui.chiba.jp/docs/2024042200059/file_contents/annai.pdf",
+      "evidence": "太陽光3万円/kW上限6万円、エネファーム10万円、蓄電池14万円、窓断熱上限8万円、V2H上限25万円、集合住宅用充電設備は条件により上限50万円又は100万円×基数等を確認"
+    }
+  ]
+}

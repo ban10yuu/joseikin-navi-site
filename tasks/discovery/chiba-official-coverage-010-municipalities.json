@@ -1,0 +1,26 @@
+{
+  "batchId": "chiba-comprehensive-official-coverage-010",
+  "prefecture": "千葉県",
+  "municipalities": [
+    {
+      "code": "12239",
+      "name": "大網白里市",
+      "officialBaseUrl": "https://www.city.oamishirasato.lg.jp/"
+    },
+    {
+      "code": "12322",
+      "name": "酒々井町",
+      "officialBaseUrl": "https://www.town.shisui.chiba.jp/"
+    },
+    {
+      "code": "12329",
+      "name": "栄町",
+      "officialBaseUrl": "https://www.town.sakae.chiba.jp/"
+    },
+    {
+      "code": "12342",
+      "name": "神崎町",
+      "officialBaseUrl": "https://www.town.kozaki.chiba.jp/"
+    }
+  ]
+}

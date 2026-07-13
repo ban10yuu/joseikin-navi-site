@@ -1,0 +1,206 @@
+{
+  "batchId": "chiba-comprehensive-official-coverage-010",
+  "prefecture": "千葉県",
+  "municipalities": [
+    {
+      "code": "12239",
+      "name": "大網白里市",
+      "candidateCount": 61,
+      "selectedCount": 6
+    },
+    {
+      "code": "12322",
+      "name": "酒々井町",
+      "candidateCount": 62,
+      "selectedCount": 3
+    },
+    {
+      "code": "12329",
+      "name": "栄町",
+      "candidateCount": 44,
+      "selectedCount": 6
+    },
+    {
+      "code": "12342",
+      "name": "神崎町",
+      "candidateCount": 38,
+      "selectedCount": 4
+    }
+  ],
+  "candidateCount": 205,
+  "selectedCount": 19,
+  "shortlistedAdoptionRate": 0.0927,
+  "selected": [
+    {
+      "code": "12239",
+      "municipality": "大網白里市",
+      "slug": "oamishirasato-child-medical-expense-subsidy-2026",
+      "title": "子ども医療費助成制度",
+      "url": "https://www.city.oamishirasato.lg.jp/0000014688.html",
+      "snippetKey": "oami-child",
+      "maxAmount": "18歳年度末までの通院・入院・調剤を助成"
+    },
+    {
+      "code": "12239",
+      "municipality": "大網白里市",
+      "slug": "oamishirasato-pregnant-women-support-benefit-2026",
+      "title": "妊婦のための支援給付事業",
+      "url": "https://www.city.oamishirasato.lg.jp/0000012739.html",
+      "snippetKey": "oami-pregnant",
+      "maxAmount": "妊娠時5万円、こども1人5万円"
+    },
+    {
+      "code": "12239",
+      "municipality": "大網白里市",
+      "slug": "oamishirasato-infertility-treatment-subsidy-2026",
+      "title": "不妊治療費助成",
+      "url": "https://www.city.oamishirasato.lg.jp/0000012864.html",
+      "snippetKey": "oami-infertility",
+      "maxAmount": "自己負担額の2分の1、年度上限10万円"
+    },
+    {
+      "code": "12239",
+      "municipality": "大網白里市",
+      "slug": "oamishirasato-residential-decarbonization-equipment-subsidy-2026",
+      "title": "住宅用設備等脱炭素化促進事業補助金",
+      "url": "https://www.city.oamishirasato.lg.jp/0000014470.html",
+      "snippetKey": "oami-residential-equipment",
+      "maxAmount": "V2H充放電設備上限25万円等"
+    },
+    {
+      "code": "12239",
+      "municipality": "大網白里市",
+      "slug": "oamishirasato-vacant-house-bank-renovation-subsidy-2026",
+      "title": "空き家バンク登録物件改修事業補助金",
+      "url": "https://www.city.oamishirasato.lg.jp/0000015122.html",
+      "snippetKey": "oami-akiya-renovation",
+      "maxAmount": "工事費用の3分の2、最大200万円"
+    },
+    {
+      "code": "12239",
+      "municipality": "大網白里市",
+      "slug": "oamishirasato-bicycle-helmet-purchase-subsidy-2026",
+      "title": "自転車乗車用ヘルメット購入費補助金",
+      "url": "https://www.city.oamishirasato.lg.jp/0000015299.html",
+      "snippetKey": "oami-helmet",
+      "maxAmount": "購入費の2分の1、上限2,000円"
+    },
+    {
+      "code": "12322",
+      "municipality": "酒々井町",
+      "slug": "shisui-child-medical-expense-subsidy-2026",
+      "title": "子ども医療費助成制度",
+      "url": "https://www.town.shisui.chiba.jp/docs/2014021806228/",
+      "snippetKey": "shisui-child",
+      "maxAmount": "高校3年生等までの通院・入院・調剤を助成"
+    },
+    {
+      "code": "12322",
+      "municipality": "酒々井町",
+      "slug": "shisui-residential-decarbonization-equipment-subsidy-2026",
+      "title": "住宅用設備等脱炭素化促進事業補助金",
+      "url": "https://www.town.shisui.chiba.jp/docs/2024042200059/",
+      "snippetKey": "shisui-equipment",
+      "maxAmount": "集合住宅用充電設備は条件により上限100万円×基数等"
+    },
+    {
+      "code": "12322",
+      "municipality": "酒々井町",
+      "slug": "shisui-housing-renovation-subsidy-2026",
+      "title": "住宅リフォーム補助金",
+      "url": "https://www.town.shisui.chiba.jp/docs/2020021000016/",
+      "snippetKey": "shisui-reform",
+      "maxAmount": "工事費の10分の1、上限10万円。雨水抑制施設加算2万円"
+    },
+    {
+      "code": "12329",
+      "municipality": "栄町",
+      "slug": "sakae-child-medical-expense-subsidy-2026",
+      "title": "子ども医療費助成制度",
+      "url": "https://www.town.sakae.chiba.jp/kosodate-kyouiku/kosodate/kosodate-josei/page001721.html",
+      "snippetKey": "sakae-child",
+      "maxAmount": "高校3年生までの入院・通院・調剤を助成"
+    },
+    {
+      "code": "12329",
+      "municipality": "栄町",
+      "slug": "sakae-pregnant-women-support-benefit-2026",
+      "title": "妊婦のための支援給付金事業",
+      "url": "https://www.town.sakae.chiba.jp/kosodate-kyouiku/kosodate/page006033.html",
+      "snippetKey": "sakae-pregnant",
+      "maxAmount": "妊婦1人5万円、こども1人5万円"
+    },
+    {
+      "code": "12329",
+      "municipality": "栄町",
+      "slug": "sakae-settlement-migration-incentive-2026",
+      "title": "定住・移住奨励金",
+      "url": "https://www.town.sakae.chiba.jp/kurashi/teijushien/teijuu-ijuu/page001348.html",
+      "snippetKey": "sakae-settlement",
+      "maxAmount": "町外転入20万円と5万円相当記念品等"
+    },
+    {
+      "code": "12329",
+      "municipality": "栄町",
+      "slug": "sakae-housing-renovation-subsidy-2026",
+      "title": "住宅リフォーム補助金",
+      "url": "https://www.town.sakae.chiba.jp/kurashi/teijushien/teijuu-ijuu/page001352.html",
+      "snippetKey": "sakae-reform",
+      "maxAmount": "工事費の10分の1、上限20万円"
+    },
+    {
+      "code": "12329",
+      "municipality": "栄町",
+      "slug": "sakae-uturn-cohabitation-nearby-support-benefit-2026",
+      "title": "Uターン同居・近居支援金",
+      "url": "https://www.town.sakae.chiba.jp/kurashi/teijushien/teijuu-ijuu/page002797.html",
+      "snippetKey": "sakae-uturn",
+      "maxAmount": "世帯状況により最大30万円"
+    },
+    {
+      "code": "12329",
+      "municipality": "栄町",
+      "slug": "sakae-medical-care-worker-relocation-support-benefit-2026",
+      "title": "医療等従事者転入支援金",
+      "url": "https://www.town.sakae.chiba.jp/kurashi/teijushien/teijuu-ijuu/page003407.html",
+      "snippetKey": "sakae-medical-worker",
+      "maxAmount": "医師が戸建て住宅に転入する場合50万円等"
+    },
+    {
+      "code": "12342",
+      "municipality": "神崎町",
+      "slug": "kozaki-child-medical-expense-subsidy-2026",
+      "title": "子ども医療費助成",
+      "url": "https://www.town.kozaki.chiba.jp/nanapale/support/iryohi/kodomoiryohi.html",
+      "snippetKey": "kozaki-child",
+      "maxAmount": "高校生相当までの通院・入院・調剤を全額助成"
+    },
+    {
+      "code": "12342",
+      "municipality": "神崎町",
+      "slug": "kozaki-university-student-medical-expense-subsidy-2026",
+      "title": "大学生等医療費助成",
+      "url": "https://www.town.kozaki.chiba.jp/nanapale/support/iryohi/2025-0416-0937-39.html",
+      "snippetKey": "kozaki-university-medical",
+      "maxAmount": "大学生等の保険診療自己負担を全額助成"
+    },
+    {
+      "code": "12342",
+      "municipality": "神崎町",
+      "slug": "kozaki-childcare-support-benefit-2026",
+      "title": "子育て支援費",
+      "url": "https://www.town.kozaki.chiba.jp/nanapale/support/jido/kosodateshien.html",
+      "snippetKey": "kozaki-child-support",
+      "maxAmount": "第3子以降出生10万円等"
+    },
+    {
+      "code": "12342",
+      "municipality": "神崎町",
+      "slug": "kozaki-residential-decarbonization-equipment-subsidy-2026",
+      "title": "住宅用設備等脱炭素化促進事業補助金",
+      "url": "https://www.town.kozaki.chiba.jp/kurashi/living_bosai/hojokin/taiyoko.html",
+      "snippetKey": "kozaki-equipment",
+      "maxAmount": "V2H充放電設備上限25万円等"
+    }
+  ]
+}

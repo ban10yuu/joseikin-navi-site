@@ -7316,3 +7316,40 @@
     - 匝瑳市妊婦支援給付、山武市省エネ家電の受付終了ページ、各市のカテゴリ導線、様式のみ、県・国制度紹介、金額又は受付状況不足候補は第2巡候補に残す。
   - 次:
     - 千葉県公式棚卸し010として、12239大網白里市、12322酒々井町、12329栄町、12342神崎町を自治体コード順に確認する。
+
+- 千葉県公式棚卸し010
+  - 対象:
+    - 12239 大網白里市、12322 酒々井町、12329 栄町、12342 神崎町。
+  - 方法:
+    - 公式トップ到達を4自治体すべてHTTP 200で確認した。
+    - `scripts/discover-official-candidates.mjs` で候補205件を抽出し、候補数が150件を超えたため、公式本文スニペットを保存して再スコアリングした。
+    - 大網白里市は子ども医療・妊婦支援給付・不妊治療・住宅用設備・空き家バンク改修・自転車ヘルメット、酒々井町は子ども医療・住宅用設備・住宅リフォーム、栄町は子ども医療・妊婦支援給付・定住移住奨励金・住宅リフォーム・Uターン同居近居・医療等従事者転入、神崎町は子ども医療・大学生等医療費・子育て支援費・住宅用設備の公式本文又は公式PDFで制度名・対象・金額/上限・条件・期限/受付状況を確認した。
+    - 大網白里市結婚新生活支援事業補助金、神崎町省エネ家電製品買換え補助金は既存公式確認済みのため新規追加から除外した。
+    - トップ、カテゴリ、サイトマップ、共通ナビ一致、県・国制度の単なる紹介、様式のみ、金額又は受付状況不足の候補は採用せず、第2巡候補に残した。
+  - 採用:
+    - 大網白里市6件: 子ども医療費助成制度、妊婦のための支援給付事業、不妊治療費助成、住宅用設備等脱炭素化促進事業補助金、空き家バンク登録物件改修事業補助金、自転車乗車用ヘルメット購入費補助金。
+    - 酒々井町3件: 子ども医療費助成制度、住宅用設備等脱炭素化促進事業補助金、住宅リフォーム補助金。
+    - 栄町6件: 子ども医療費助成制度、妊婦のための支援給付金事業、定住・移住奨励金、住宅リフォーム補助金、Uターン同居・近居支援金、医療等従事者転入支援金。
+    - 神崎町4件: 子ども医療費助成、大学生等医療費助成、子育て支援費、住宅用設備等脱炭素化促進事業補助金。
+  - 生成ファイル:
+    - `tasks/discovery/chiba-official-coverage-010-municipalities.json`
+    - `tasks/discovery/chiba-official-coverage-010-candidates.json`
+    - `tasks/discovery/chiba-official-coverage-010-target-snippets.json`
+    - `tasks/discovery/chiba-official-coverage-010-selected-snippets.json`
+    - `tasks/discovery/chiba-official-coverage-010-selected-main.json`
+    - `tasks/discovery/chiba-official-coverage-010-official-extra.json`
+    - `tasks/discovery/chiba-official-coverage-010-url-check.json`
+    - `tasks/discovery/chiba-official-coverage-010.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（19件、`verified-local-misc-2026.ts` 内で各1件）。
+    - 公式URL到達: pass（19 official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10863、officialLinkedActive 10825、manuallyVerifiedActive 10825、千葉県 localOfficial 430）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 既掲載公式確認済みの大網白里市結婚新生活支援事業補助金、神崎町省エネ家電製品買換え補助金と重複する候補は新規追加しなかった。
+    - 各自治体のカテゴリ導線、様式のみ、県・国制度紹介、金額又は受付状況不足候補は第2巡候補に残す。
+  - 次:
+    - 千葉県公式棚卸し011として、12347多古町、12349東庄町、12403九十九里町、12409芝山町を自治体コード順に確認する。
