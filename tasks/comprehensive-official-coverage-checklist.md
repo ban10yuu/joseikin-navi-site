@@ -4952,6 +4952,28 @@
   - 次:
     - 福島県第2巡006として、07364檜枝岐村、07367只見町、07368南会津町、07402北塩原村の保留候補を確認する。
 
+- 福島県公式棚卸し第2巡006（檜枝岐村・只見町・南会津町・北塩原村）
+  - 対象: 07364檜枝岐村、07367只見町、07368南会津町、07402北塩原村。
+  - 方法:
+    - 第1巡006の保留候補、既存候補JSON、公式本文、PDF証跡、更新後URLを再確認した。
+    - 既掲載 `officialUrl` を除外し、公式本文/PDFを再取得して `tasks/discovery/fukushima-second-pass-006-shortlist.json` 37件、`tasks/discovery/fukushima-second-pass-006-page-evidence.json` 43件、`tasks/discovery/fukushima-second-pass-006-adopted.json` を作成した。
+    - title/h1/main/article/URLの制度強語に加え、対象・金額/上限・条件・期限/受付状況が公式本文またはPDFで確認できる個別ページを優先し、年度終了、制度分離未確定、国制度重複、案内のみの候補は第2巡継続台帳へ残した。
+  - 追加:
+    - 南会津町: 新規就農者雇用促進事業、新規就農者支援事業、農業等振興事業補助金、新婚生活エール事業、不妊・不育治療費助成事業、妊娠・出産21プロジェクト事業、妊産婦医療費助成制度、妊産婦出産時交通費等支援事業、パパママ応援交付金事業、子育て世帯訪問支援事業、遺児激励金、保育所入所応援助成事業、障がい児通院通所交通費助成事業。
+    - 北塩原村: 妊婦にやさしい出産時移動支援事業、初回産科受診料支援事業、産後ケア事業、就学援助制度、ひとり親家庭医療費助成。
+  - 保留継続:
+    - 檜枝岐村の結婚新生活支援事業補助金は、公式本文・PDFで対象と上限60万円を確認したが、PDF記載の申請期間が令和7年3月31日までで、令和8年度受付状況が確認できないため採用しなかった。
+    - 只見町の新規就農ページ内の研修・農地賃借・県補助上乗せは、第1巡で新規就農者初期経費支援を採用済みで、今回取得本文だけでは制度単位の金額・受付差分が分離しきれないため継続確認とした。
+    - 南会津町の各種児童手当は国制度重複のため採用しなかった。子育て支援一覧・ガイドブック内の相談、貸出、施設利用案内は金銭給付・補助制度でないため採用しなかった。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 18件、重複0。
+    - 追加した18制度18公式URLはすべて HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9394、officialLinkedActive 9356、manuallyVerifiedActive 9356、福島県 `localOfficial` 872、福島県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-second-pass-006-shortlist.json tasks/discovery/fukushima-second-pass-006-page-evidence.json tasks/discovery/fukushima-second-pass-006-adopted.json`: pass。
+  - 次:
+    - 福島県第2巡007として、07405西会津町、07407磐梯町、07408猪苗代町、07421会津坂下町の保留候補を確認する。
+
 - 宮城県公式棚卸し009（美里町・女川町・南三陸町）
   - 対象: 04505美里町、04581女川町、04606南三陸町。
   - 方法:
