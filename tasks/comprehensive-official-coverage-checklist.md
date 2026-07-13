@@ -5836,3 +5836,33 @@
     - 境町の国民健康保険人間ドック助成は令和8年度受付期間が期限超過のため採用しない。
   - 次:
     - 茨城県公式棚卸し012として、08564利根町から自治体コード順に確認する。
+
+- 茨城県公式棚卸し012
+  - 対象:
+    - 08564 利根町。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補281件を本文スニペット付きローカルJSONへ抽出して再スコアリングした。
+    - 公式本文11件と新築マイホーム取得助成金の添付PDFを確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページを優先採用した。
+    - 公式カテゴリ、一覧、施政方針、期限超過、県制度案内、金銭給付ではない証明・認定ページ、現在年度の受付状況が不足するページは採用しないか第2巡台帳へ残した。
+  - 採用:
+    - 利根町8件: 空き店舗等活用創業期支援、新築マイホーム取得、パワーアップ融資信用保証料、下水道接続支援、結婚新生活、木造住宅耐震診断士派遣・耐震補強、出会いサポートセンター入会登録料、犯罪被害者等支援見舞金。
+  - 生成ファイル:
+    - `tasks/discovery/ibaraki-official-coverage-012-municipalities.json`
+    - `tasks/discovery/ibaraki-official-coverage-012-candidates.json`（raw候補、gitignore対象）
+    - `tasks/discovery/ibaraki-official-coverage-012-detail-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-012-official-extra.json`
+    - `tasks/discovery/ibaraki-official-coverage-012.json`
+  - 検証:
+    - 追加slug重複: pass（8件、全9512slugでduplicateCount 0）。
+    - 公式URL到達: pass（8件すべてHTTP 200）。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9874、officialLinkedActive 9836、manuallyVerifiedActive 9836、茨城県 localOfficial 396）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 定額減税補足給付金（不足額給付）は公式ページ上の申請期限が令和7年10月31日で期限超過のため採用しない。
+    - 令和7年度中小企業人材育成支援事業補助金は茨城県制度の案内で、申請期限が令和8年1月30日で期限超過のため採用しない。
+    - 利根町創業支援等事業計画は特定創業支援等事業の証明・認定案内であり、町の直接給付制度ではないため採用しない。
+  - 次:
+    - 栃木県公式棚卸し001として、09201宇都宮市、09202足利市、09203栃木市、09204佐野市を自治体コード順に確認する。
