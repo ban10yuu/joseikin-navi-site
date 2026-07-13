@@ -4811,6 +4811,28 @@
   - 次:
     - 福島県公式棚卸し015として、07548葛尾村、07561新地町、07564飯舘村を確認する。
 
+- 福島県公式棚卸し015（葛尾村・新地町・飯舘村）
+  - 対象: 07548葛尾村、07561新地町、07564飯舘村。
+  - 方法:
+    - 公式トップ3件のHTTP 200を確認し、公式候補1258件を生成した。shortlistは130件で、公式カテゴリ導線、sitemap候補、追加公式導線を併用して本文の制度単位性を確認した。
+    - title/h1/main/article/URLの制度強語に加え、金額・対象条件・期限/受付表現が確認できる個別ページを優先した。金額本文がないカテゴリ・制度案内・介護/障がい福祉の説明中心ページは削除せず第2巡台帳へ残した。
+  - 追加:
+    - 葛尾村: 葛尾村定住促進奨励金、葛尾村みらい子ども助成金、葛尾村成人風しん予防接種等費用助成、葛尾村子どもの定期予防接種費用償還払い、葛尾村危険木伐採費用補助金、葛尾村保険税・一部負担金免除措置。
+    - 新地町: 新地町妊婦のための支援給付金、新地町保育料軽減助成金、新地町在宅保育助成金、新地町子ども医療費助成事業、新地町児童手当、新地町児童扶養手当、新地町住宅用太陽光発電システム設置補助金、新地町新地駅前若者定住促進住宅、新地町福田若者定住促進住宅。
+    - 飯舘村: 飯舘村子育て応援支援金、飯舘村奨学金制度、飯舘村成人風しん抗体検査・予防接種料金助成、飯舘村帯状疱疹予防接種助成、飯舘村おたふくかぜ予防接種料金助成、飯舘村家族介護用品給付事業、飯舘村結婚新生活支援事業、飯舘村移住定住関連補助金、飯舘村スタートアップ補助金。
+  - 保留継続:
+    - 葛尾村の児童手当・児童扶養手当カテゴリ、乳幼児・児童医療費助成制度カテゴリ、障がい福祉制度のてびき、カテゴリ/計画/移住支援員募集などは第2巡で確認する。
+    - 新地町の障害児福祉手当、特別障害者手当（公式本文に手当額未掲載）、義援金・支援金・弔慰金カテゴリ、町営住宅募集、子育て/住宅/農業カテゴリ、外部制度案内は第2巡で確認する。
+    - 飯舘村の障がい児助成制度、介護保険制度、カテゴリ/計画/サービスコード/移住相談ページ、金額未掲載ページは第2巡で確認する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 24件、重複0。
+    - 追加した24制度24公式URLはすべて HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9288、officialLinkedActive 9250、manuallyVerifiedActive 9250、福島県 `localOfficial` 766、福島県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-official-coverage-015-municipalities.json tasks/discovery/fukushima-official-coverage-015-candidates.json tasks/discovery/fukushima-official-coverage-015-shortlist.csv tasks/discovery/fukushima-official-coverage-015-official-extra.json tasks/discovery/fukushima-official-coverage-015-sitemap-shortlist.json tasks/discovery/fukushima-official-coverage-015-selected.json tasks/discovery/fukushima-official-coverage-015-adopt-source.json tasks/discovery/fukushima-official-coverage-015-adopted.json`: pass。
+  - 次:
+    - 福島県第1巡は自治体コード順の末尾まで到達。次は福島県第2巡台帳の未判定候補を公式本文/PDFで確認し、候補未判定を解消する。
+
 - 宮城県公式棚卸し009（美里町・女川町・南三陸町）
   - 対象: 04505美里町、04581女川町、04606南三陸町。
   - 方法:
