@@ -1,0 +1,82 @@
+{
+  "batch": "fukushima-second-pass-official-coverage-001",
+  "updatedAt": "2026-07-13T12:20:00+09:00",
+  "sourceArtifacts": [
+    "tasks/discovery/fukushima-second-pass-001-shortlist.json",
+    "tasks/discovery/fukushima-second-pass-001-cache-hits.json"
+  ],
+  "adoptedCount": 8,
+  "adopted": [
+    {
+      "slug": "fukushima-city-new-product-technology-development-2026",
+      "organization": "福島市",
+      "title": "福島市 新製品・新技術開発支援事業",
+      "maxAmount": "最大300万円",
+      "officialUrl": "https://www.city.fukushima.fukushima.jp/soshiki/5/1020/1071/1/1/840.html",
+      "evidence": "福島市公式ページと令和8年二次募集要領PDFで、市内製造業等の法人、一般枠最大50万円、特定集積産業枠最大300万円、令和8年7月1日から7月31日までの募集を確認。"
+    },
+    {
+      "slug": "aizuwakamatsu-rs-vaccine-2026",
+      "organization": "会津若松市",
+      "title": "会津若松市 RSウイルス感染症予防接種助成",
+      "maxAmount": "定期接種無料",
+      "officialUrl": "https://www.city.aizuwakamatsu.fukushima.jp/docs/2026012900020/",
+      "evidence": "会津若松市公式ページで、令和8年4月1日開始、妊娠28週0日から36週6日までの市民、定期接種無料を確認。"
+    },
+    {
+      "slug": "aizuwakamatsu-ikueikai-scholarship-2026",
+      "organization": "会津若松市",
+      "title": "会津若松市 会津育英会奨学生",
+      "maxAmount": "30万円",
+      "officialUrl": "https://www.city.aizuwakamatsu.fukushima.jp/docs/2018020200025/",
+      "evidence": "会津若松市公式ページで、市内高校卒業予定者、4年制以上大学入学、返還不要30万円、20名、令和8年3月10日締切を確認。"
+    },
+    {
+      "slug": "aizuwakamatsu-exam-support-scholarship-2026",
+      "organization": "会津若松市",
+      "title": "会津若松市 会津育英会受験サポート奨学金",
+      "maxAmount": "5万円",
+      "officialUrl": "https://www.city.aizuwakamatsu.fukushima.jp/docs/2023102500023/",
+      "evidence": "会津若松市公式ページで、市内高校卒業予定者の大学受験費用、返還不要5万円、40名、第2次募集令和8年1月7日から1月21日を確認。"
+    },
+    {
+      "slug": "aizuwakamatsu-infertility-treatment-subsidy-2026",
+      "organization": "会津若松市",
+      "title": "会津若松市 不妊治療等助成事業",
+      "maxAmount": "最大60万円",
+      "officialUrl": "https://www.city.aizuwakamatsu.fukushima.jp/docs/2024061200030/",
+      "evidence": "会津若松市公式ページと助成額PDFで、県助成金交付決定者、市内住所・市税要件、生殖補助医療上限30万円、男性不妊治療上限30万円上乗せを確認。"
+    },
+    {
+      "slug": "aizuwakamatsu-aizukko-high-school-scholarship-2026",
+      "organization": "会津若松市",
+      "title": "会津若松市 あいづっこ高校生応援奨学金",
+      "maxAmount": "5万円",
+      "officialUrl": "https://www.city.aizuwakamatsu.fukushima.jp/docs/2025052100032/",
+      "evidence": "会津若松市公式ページで、高校・高専3年生の受験費用支援、保護者市内1年以上住所、成績・所得要件、返還不要5万円、20名程度を確認。"
+    },
+    {
+      "slug": "iwaki-single-parent-support-payment-2026",
+      "organization": "いわき市",
+      "title": "いわき市 ひとり親家庭等応援金",
+      "maxAmount": "子ども1人10万円",
+      "officialUrl": "https://www.city.iwaki.lg.jp/www/contents/1744330457443/index.html",
+      "evidence": "いわき市公式ページで、児童扶養手当受給者、中学校卒業を迎える子ども、本市1年以上住民登録、子ども1人10万円、手続き不要を確認。"
+    },
+    {
+      "slug": "iwaki-vacant-land-bank-support-2026",
+      "organization": "いわき市",
+      "title": "いわき市 空き地バンク登録物件活用支援金",
+      "maxAmount": "最大50万円",
+      "officialUrl": "https://www.city.iwaki.lg.jp/www/contents/1782885245971/index.html",
+      "evidence": "いわき市公式ページで、空き地バンク登録土地の取得・住宅新築等、最大50万円、令和8年5月11日から6月30日募集後の随時先着受付を確認。"
+    }
+  ],
+  "heldSummary": [
+    "福島県庁固有制度は第2巡継続。",
+    "福島市の空き家リフォーム、UIJ移住支援、妊婦支援等は既掲載差分として継続確認。",
+    "会津若松市のEV導入、先端サービス実装化、カテゴリ/一覧は第2巡継続。",
+    "郡山市のチャレンジ新製品認定、創業/事業承継、空き家カテゴリは第2巡継続。",
+    "いわき市の外部移住サブサイト、UIJ支援、太陽光/環境カテゴリは第2巡継続。"
+  ]
+}
