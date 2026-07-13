@@ -6506,3 +6506,39 @@
     - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
   - 次:
     - 埼玉県公式棚卸し003として、11209飯能市、11210加須市、11211本庄市、11212東松山市を自治体コード順に確認する。
+
+- 埼玉県公式棚卸し003
+  - 対象:
+    - 11209 飯能市、11210 加須市、11211 本庄市、11212 東松山市。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補179件をローカルJSONへ保存した。
+    - 候補が150件を超えたため、公式ドメイン内リンクを再スコアリングし、`tasks/discovery/saitama-official-coverage-003-official-extra.json` と `tasks/discovery/saitama-official-coverage-003-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現を保存した。
+    - 公式一覧ページから個別制度ページを補完し、既存 `officialUrl` と照合したうえで、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃う31件のみ採用した。
+  - 採用:
+    - 飯能市15件: 木造住宅耐震診断、木造住宅耐震改修、木造住宅除却、ブロック塀撤去、移住支援金、不妊検査・不育症検査、妊婦支援給付、自立支援教育訓練、高等職業訓練促進、養育費公正証書等作成、高等学校等通学費、がん患者ウィッグ等、骨髄移植ドナー、新規出店促進、創業支援。
+    - 加須市5件: 物価高騰利益減対策給付金、住宅改修等資金助成、住宅用再生可能エネルギー設備等、省エネ診断等支援、大学生年代応援。
+    - 本庄市8件: 物価高騰対策給付金、実費徴収補足給付、妊婦支援給付、子育て支援金、予防接種費用助成、低所得妊婦初回受診費、保育士向け補助、住宅用エネルギーシステム。
+    - 東松山市3件: 物価高騰生活支援、物価高対応子育て応援、私立幼稚園等入園料等。
+  - 生成ファイル:
+    - `tasks/discovery/saitama-official-coverage-003-municipalities.json`
+    - `tasks/discovery/saitama-official-coverage-003-candidates.json`（raw候補）
+    - `tasks/discovery/saitama-official-coverage-003-official-extra.json`
+    - `tasks/discovery/saitama-official-coverage-003-detail-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-003-selected-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-003-selected-main.json`
+    - `tasks/discovery/saitama-official-coverage-003.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（31件、duplicateCount 0）。
+    - 公式URL到達: pass（追加31 URLすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10397、officialLinkedActive 10359、manuallyVerifiedActive 10359、埼玉県 localOfficial 276）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 飯能市の妊婦健診費用助成、合併処理浄化槽、地下浸透装置、家庭雑排水、資源再利用、森林伐採、道路後退、給水施設等は金額確認を追加するため第2巡候補に残す。
+    - 加須市の三世代ふれあい、子育て世帯応援転入費用は既存掲載済みのため除外した。
+    - 東松山市の妊婦支援給付、空き家利活用、こども医療費等は既存掲載済み又は今回の採用枠外として第2巡候補に残す。
+    - トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残し、第2巡台帳として扱う。
+  - 次:
+    - 埼玉県公式棚卸し004として、11214春日部市、11215狭山市、11216羽生市、11217鴻巣市を自治体コード順に確認する。

@@ -1,0 +1,165 @@
+{
+  "batchId": "saitama-comprehensive-official-coverage-003",
+  "prefecture": "埼玉県",
+  "completedAt": "2026-07-13T17:42:08.896Z",
+  "municipalities": [
+    {
+      "code": "11209",
+      "name": "飯能市",
+      "adoptedCount": 15,
+      "officialBaseUrl": "https://www.city.hanno.lg.jp/"
+    },
+    {
+      "code": "11210",
+      "name": "加須市",
+      "adoptedCount": 5,
+      "officialBaseUrl": "https://www.city.kazo.lg.jp/"
+    },
+    {
+      "code": "11211",
+      "name": "本庄市",
+      "adoptedCount": 8,
+      "officialBaseUrl": "https://www.city.honjo.lg.jp/"
+    },
+    {
+      "code": "11212",
+      "name": "東松山市",
+      "adoptedCount": 3,
+      "officialBaseUrl": "https://www.city.higashimatsuyama.lg.jp/"
+    }
+  ],
+  "discovery": {
+    "candidateCount": 179,
+    "officialExtraFound": 46,
+    "detailSnippetCount": 38,
+    "selectedSnippetCount": 31,
+    "adoptedCount": 31
+  },
+  "adoptedSlugs": [
+    "hanno-wooden-house-earthquake-diagnosis-subsidy-2026",
+    "hanno-wooden-house-earthquake-retrofit-subsidy-2026",
+    "hanno-wooden-house-demolition-subsidy-2026",
+    "hanno-block-wall-removal-subsidy-2026",
+    "hanno-relocation-support-grant-2026",
+    "hanno-infertility-recurrent-pregnancy-loss-testing-subsidy-2026",
+    "hanno-pregnant-women-support-benefit-2026",
+    "hanno-single-parent-education-training-benefit-2026",
+    "hanno-single-parent-vocational-training-benefit-2026",
+    "hanno-child-support-notarial-document-subsidy-2026",
+    "hanno-high-school-commuting-pass-subsidy-2026",
+    "hanno-cancer-appearance-care-subsidy-2026",
+    "hanno-bone-marrow-donor-subsidy-2026",
+    "hanno-new-store-opening-subsidy-2026",
+    "hanno-startup-support-subsidy-2026",
+    "kazo-business-profit-decline-inflation-benefit-2026",
+    "kazo-home-renovation-subsidy-2026",
+    "kazo-residential-renewable-energy-equipment-subsidy-2026",
+    "kazo-business-energy-audit-subsidy-2026",
+    "kazo-university-age-support-benefit-2026",
+    "honjo-inflation-living-support-benefit-2026",
+    "honjo-childcare-actual-cost-supplemental-benefit-2026",
+    "honjo-pregnant-women-support-benefit-2026",
+    "honjo-childbirth-childrearing-support-grant-2026",
+    "honjo-vaccination-cost-subsidy-2026",
+    "honjo-low-income-pregnant-first-visit-subsidy-2026",
+    "honjo-nursery-teacher-support-subsidy-2026",
+    "honjo-residential-energy-system-subsidy-2026",
+    "higashimatsuyama-inflation-living-gift-card-2026",
+    "higashimatsuyama-child-rearing-inflation-allowance-2026",
+    "higashimatsuyama-private-kindergarten-admission-subsidy-2026"
+  ],
+  "adoptedUrls": [
+    "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/1176.html",
+    "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/1508.html",
+    "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/698.html",
+    "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/hojyokin/697.html",
+    "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/6154.html",
+    "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/466.html",
+    "https://www.city.hanno.lg.jp/kosodate_kyoiku/ninshin_shussan/support_ninshin_shussan/11388.html",
+    "https://www.city.hanno.lg.jp/kosodate_kyoiku/kosodate_hoiku_jidofukushi/kakushuteate_kyufukin/5308.html",
+    "https://www.city.hanno.lg.jp/kosodate_kyoiku/kosodate_hoiku_jidofukushi/kakushuteate_kyufukin/5309.html",
+    "https://www.city.hanno.lg.jp/kosodate_kyoiku/kosodate_hoiku_jidofukushi/kakushuteate_kyufukin/7246.html",
+    "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/kotsuseisaku/8/2160.html",
+    "https://www.city.hanno.lg.jp/iryo_kenko_fukushi/iryo_kenko/iryo_iryokyufu/11516.html",
+    "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/471.html",
+    "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/sogyo_kigyo_shuttenshien/1552.html",
+    "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/sogyo_kigyo_shuttenshien/1195.html",
+    "https://www.city.kazo.lg.jp/soshiki/sangyoukoyou/hozyokin/43167.html",
+    "https://www.city.kazo.lg.jp/soshiki/sangyoukoyou/syoukoushinkou/5589.html",
+    "https://www.city.kazo.lg.jp/soshiki/kakyou_seisaku/ondanka/hojyoseido/38360.html",
+    "https://www.city.kazo.lg.jp/soshiki/kakyou_seisaku/ondanka/hojyoseido/43346.html",
+    "https://www.city.kazo.lg.jp/soshiki/kosodate_shien/keizaitekisien/43994.html",
+    "https://www.city.honjo.lg.jp/kurashi_tetsuzuki/21296.html",
+    "https://www.city.honjo.lg.jp/kosodate/mokutekidesagasu/kakushusapoto/josei_teate/9733.html",
+    "https://www.city.honjo.lg.jp/kosodate/mokutekidesagasu/kakushusapoto/josei_teate/16265.html",
+    "https://www.city.honjo.lg.jp/kosodate/mokutekidesagasu/kakushusapoto/josei_teate/16618.html",
+    "https://www.city.honjo.lg.jp/kosodate/mokutekidesagasu/kakushusapoto/josei_teate/11203.html",
+    "https://www.city.honjo.lg.jp/kosodate/mokutekidesagasu/kakushusapoto/josei_teate/19859.html",
+    "https://www.city.honjo.lg.jp/kosodate/mokutekidesagasu/kakushusapoto/josei_teate/20676.html",
+    "https://www.city.honjo.lg.jp/soshiki/keizaikankyo/kankyosuishin/tantoujouhou/global_warming/hojo/1396937819230.html",
+    "https://www.city.higashimatsuyama.lg.jp/soshiki/3/49729.html",
+    "https://www.city.higashimatsuyama.lg.jp/soshiki/57/49365.html",
+    "https://www.city.higashimatsuyama.lg.jp/soshiki/58/3121.html"
+  ],
+  "adoptedByMunicipality": {
+    "飯能市": [
+      "木造住宅の耐震診断補助金",
+      "木造住宅の耐震改修補助金",
+      "木造住宅の除却工事補助金",
+      "ブロック塀等撤去工事補助金",
+      "飯能市移住支援金のご案内",
+      "飯能市不妊検査費・不育症検査費助成事業",
+      "妊婦のための支援給付",
+      "自立支援教育訓練給付金",
+      "高等職業訓練促進給付金",
+      "養育費に関する公正証書等作成促進補助金",
+      "高等学校等通学費補助金",
+      "がん患者のためのウィッグ・胸部補整具等の購入費用の助成について",
+      "骨髄移植ドナー支援事業のお知らせ",
+      "新規出店促進事業補助金",
+      "創業支援補助金"
+    ],
+    "加須市": [
+      "利益が減少した方へ「物価高騰利益減対策給付金」",
+      "住宅改修等資金助成制度のご案内",
+      "令和8年度住宅用再生可能エネルギー設備等（太陽光発電・定置用蓄電池）設置補助金制度のご案内",
+      "市内事業者向け「加須市省エネ診断等支援補助金」について",
+      "大学生年代応援事業"
+    ],
+    "本庄市": [
+      "本庄市物価高騰対策給付金（生活者支援給付）の給付について",
+      "「実費徴収に係る補足給付事業」のご案内",
+      "妊婦のための支援給付金について",
+      "子育て支援金について",
+      "予防接種費用助成金のお知らせ",
+      "低所得の妊婦に対する初回受診費助成について",
+      "保育士向けの補助制度のお知らせ",
+      "本庄市住宅用エネルギーシステム設置補助金"
+    ],
+    "東松山市": [
+      "東松山市物価高騰生活支援事業",
+      "物価高対応子育て応援手当について",
+      "東松山市私立幼稚園等入園料等補助金"
+    ]
+  },
+  "verification": {
+    "syntax": "node --check src/data/grants/verified-local-misc-2026.ts: pass",
+    "duplicateSlugs": "31 added, duplicateCount 0",
+    "officialUrls": "31 URLs HTTP 200",
+    "lint": "npm run lint -- src/data/grants/verified-local-misc-2026.ts: pass",
+    "diffCheck": "git diff --check: pass",
+    "coverage": "npm run audit:coverage: pass (failures 0, activePublished 10397, officialLinkedActive 10359, manuallyVerifiedActive 10359, 埼玉県 localOfficial 276)"
+  },
+  "notes": [
+    "全国公式棚卸しは未完了。既存rawのgap 0やHTTP 200のみで完了扱いしない。",
+    "飯能市の妊婦健診費用助成、合併処理浄化槽、地下浸透装置、家庭雑排水、資源再利用、森林伐採、道路後退、給水施設等は金額確認を追加するため第2巡候補に残す。",
+    "加須市の三世代ふれあい、子育て世帯応援転入費用は既存掲載済みのため除外した。",
+    "東松山市の妊婦支援給付、空き家利活用、こども医療費等は既存掲載済み又は今回の採用枠外として第2巡候補に残す。"
+  ],
+  "next": [
+    "11214 春日部市",
+    "11215 狭山市",
+    "11216 羽生市",
+    "11217 鴻巣市"
+  ]
+}
