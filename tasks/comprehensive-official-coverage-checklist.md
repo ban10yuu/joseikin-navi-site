@@ -6674,4 +6674,38 @@
     - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
     - 志木市の物価高対応子育て応援手当、後期高齢者宿泊施設利用助成、不育症治療費、耐震補助、和光市の出産関連・子ども医療・創業支援、新座市の経営革新・事業承継・移送サービス・介護資格取得・高齢者手当、桶川市の中小企業融資・任意予防接種・造血細胞移植後再接種・耐震化・要介護老人手当・地域等敬老事業等は、金額・対象・受付状況又は制度重複の観点で第2巡候補に残す。
   - 次:
-    - 埼玉県公式棚卸し008として、11232久喜市、11233北本市、11234八潮市、11235富士見市を自治体コード順に確認する。
+    - 埼玉県公式棚卸し008として、11232久喜市、11233北本市、11234八潮市、11235富士見市を自治体コード順に確認した。
+
+- 埼玉県公式棚卸し008
+  - 対象:
+    - 11232 久喜市、11233 北本市、11234 八潮市、11235 富士見市。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補222件をローカルJSONへ保存した。
+    - 候補が150件を超えたため、カテゴリリンク抽出で233 unique URLの第2巡台帳を作成し、公式本文スニペット122件を `tasks/discovery/saitama-official-coverage-008-detail-snippets.json` に保存して、制度強語、金額・上限、対象条件、期限・受付表現の揃う個別ページを再スコアリングした。
+    - 既存掲載済み又は内容重複の強い制度は除外し、トップ、カテゴリ、一覧、共通ナビ一致は候補JSONとリンク台帳に残して第2巡候補として扱う。
+  - 採用:
+    - 久喜市6件: 事業承継、制度融資、妊婦支援給付、妊婦初回産科受診料、早期不妊検査、不育症検査。
+    - 北本市6件: 生ごみ処理機器、住宅等リフォーム、省エネ家電買換え、電気自動車等、住宅用省エネルギー機器、難聴者補聴器。
+    - 八潮市5件: 省エネ家電買換促進、太陽光発電システム等、工業活性化推進、展示会等出展費用、アピアランスケア用品。
+    - 富士見市3件: 高齢者補聴器、不妊検査・不育症検査、災害見舞金。
+  - 生成ファイル:
+    - `tasks/discovery/saitama-official-coverage-008-municipalities.json`
+    - `tasks/discovery/saitama-official-coverage-008-candidates.json`
+    - `tasks/discovery/saitama-official-coverage-008-link-shortlist.json`
+    - `tasks/discovery/saitama-official-coverage-008-official-extra.json`
+    - `tasks/discovery/saitama-official-coverage-008-detail-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-008-selected-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-008-selected-main.json`
+    - `tasks/discovery/saitama-official-coverage-008.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（20件、duplicateCount 0）。
+    - 公式URL到達: pass（20 unique official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10489、officialLinkedActive 10451、manuallyVerifiedActive 10451、埼玉県 localOfficial 368）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 久喜市の脱炭素関連補助金、空き店舗活用創業等支援、中小企業向け各種補助金、北本市の老朽空き家解体・空き家改修・クビアカツヤカミキリ対策・空き店舗等活用・女性職場環境改善、八潮市の新商品開発・工場移転資金利子補給・試験機関利用・中小企業退職金共済掛金・進学に向けた受験料補助、富士見市の空家補助・骨髄移植ドナー・介護保険利用者負担助成・成年後見報酬助成・物価高対応子育て応援手当等は、金額・対象・受付状況又は制度重複の観点で第2巡候補に残す。
+  - 次:
+    - 埼玉県公式棚卸し009として、11237三郷市、11238蓮田市、11239坂戸市、11240幸手市を自治体コード順に確認する。

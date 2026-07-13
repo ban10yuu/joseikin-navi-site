@@ -1,0 +1,26 @@
+{
+  "batchId": "saitama-comprehensive-official-coverage-008",
+  "prefecture": "埼玉県",
+  "municipalities": [
+    {
+      "code": "11232",
+      "name": "久喜市",
+      "officialBaseUrl": "https://www.city.kuki.lg.jp/"
+    },
+    {
+      "code": "11233",
+      "name": "北本市",
+      "officialBaseUrl": "https://www.city.kitamoto.lg.jp/"
+    },
+    {
+      "code": "11234",
+      "name": "八潮市",
+      "officialBaseUrl": "https://www.city.yashio.lg.jp/"
+    },
+    {
+      "code": "11235",
+      "name": "富士見市",
+      "officialBaseUrl": "https://www.city.fujimi.saitama.jp/"
+    }
+  ]
+}

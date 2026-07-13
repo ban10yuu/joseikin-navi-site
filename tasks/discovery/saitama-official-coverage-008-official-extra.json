@@ -1,0 +1,10 @@
+{
+  "batchId": "saitama-comprehensive-official-coverage-008",
+  "thresholdExceeded": true,
+  "reason": "candidateCount 222 > 150 and link shortlist 233 unique pages; detail snippets saved for rescoring",
+  "files": [
+    "tasks/discovery/saitama-official-coverage-008-link-shortlist.json",
+    "tasks/discovery/saitama-official-coverage-008-detail-snippets.json",
+    "tasks/discovery/saitama-official-coverage-008-selected-snippets.json"
+  ]
+}
