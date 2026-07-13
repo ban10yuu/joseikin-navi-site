@@ -7021,3 +7021,39 @@
     - 銚子市の各種様式・PDF、千葉市の高齢者等ごみ出し支援事業補助金、市川市の介護施設等整備事業交付金補助対象施設調査、船橋市の工業振興支援事業補助金、空き店舗対策事業補助金、再投資企業促進事業補助制度、マンション耐震助成等は、制度詳細未精査・対象分野・同自治体件数配分の観点で第2巡候補に残す。
   - 次:
     - 千葉県公式棚卸し002として、12205館山市、12206木更津市、12207松戸市、12208野田市を自治体コード順に確認する。
+
+- 千葉県公式棚卸し002
+  - 対象:
+    - 12205 館山市、12206 木更津市、12207 松戸市、12208 野田市。
+  - 方法:
+    - 公式トップ到達を4自治体すべてHTTP 200で確認した。
+    - `scripts/discover-official-candidates.mjs` で候補236件を抽出し、候補数が150件を超えたため、本文スニペット137件、公式リンク短評192件、対象ページスニペット22件を保存して再スコアリングした。
+    - 松戸市・野田市は制度本文内の金額表記に加え、野田市の耐震助成・制度融資は公式PDFを`pdftotext`で確認し、補助率・限度額を採用した。
+    - トップ、カテゴリ、サイトマップ、共通ナビ一致は採用せず、自治体本文又は公式PDFで制度名・対象・金額/上限・条件・期限/受付状況を確認できる制度のみ採用した。
+  - 採用:
+    - 館山市6件: UIJターンによる起業・就業者創出事業移住支援金、移住定住促進助成金、クラウドファンディング型企業誘致・起業支援補助金、企業立地奨励金・雇用促進奨励金、子ども医療費助成制度、合併処理浄化槽補助金。
+    - 木更津市4件: 空き店舗活用支援事業補助金、自転車乗車用ヘルメット購入費補助金、妊婦のための支援給付金追加給付事業、資源ごみ集団回収助成金。
+    - 松戸市6件: 子ども医療費助成制度、結婚新生活住宅支援補助金、木造住宅耐震改修費補助金、木造住宅耐震診断費補助金、自転車乗車用ヘルメット購入費補助金、フリースクール等利用児童生徒支援補助金。
+    - 野田市6件: 結婚新生活支援事業補助金、戸建て木造住宅耐震診断・改修・除却補助金、中小企業資金融資制度・利子補給、妊婦のための支援給付、空き店舗等活用補助金、奨学金返還支援金。
+  - 生成ファイル:
+    - `tasks/discovery/chiba-official-coverage-002-municipalities.json`
+    - `tasks/discovery/chiba-official-coverage-002-candidates.json`
+    - `tasks/discovery/chiba-official-coverage-002-link-shortlist.json`
+    - `tasks/discovery/chiba-official-coverage-002-detail-snippets.json`
+    - `tasks/discovery/chiba-official-coverage-002-target-snippets.json`
+    - `tasks/discovery/chiba-official-coverage-002-selected-main.json`
+    - `tasks/discovery/chiba-official-coverage-002-selected-snippets.json`
+    - `tasks/discovery/chiba-official-coverage-002-official-extra.json`
+    - `tasks/discovery/chiba-official-coverage-002.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（22件、全grantファイル横断で各1件）。
+    - 公式URL到達: pass（22 unique official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10687、officialLinkedActive 10649、manuallyVerifiedActive 10649、千葉県 localOfficial 254）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 木更津市の住宅補助カテゴリ、松戸市のマンション耐震診断費補助金・危険コンクリートブロック塀等対策事業補助金・雨水貯留タンク設置補助金・老朽空家除却費補助金・親元近居同居住宅取得支援、野田市の子ども医療費助成・各種医療費助成・創業関連制度・雇用奨励金等は、制度詳細未精査、金額・受付状況不足、又は同自治体件数配分の観点で第2巡候補に残す。
+  - 次:
+    - 千葉県公式棚卸し003として、12210茂原市、12211成田市、12212佐倉市、12213東金市を自治体コード順に確認する。

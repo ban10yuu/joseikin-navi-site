@@ -1,0 +1,26 @@
+{
+  "batchId": "chiba-comprehensive-official-coverage-002",
+  "prefecture": "千葉県",
+  "municipalities": [
+    {
+      "code": "12205",
+      "name": "館山市",
+      "officialBaseUrl": "https://www.city.tateyama.chiba.jp/"
+    },
+    {
+      "code": "12206",
+      "name": "木更津市",
+      "officialBaseUrl": "https://www.city.kisarazu.lg.jp/"
+    },
+    {
+      "code": "12207",
+      "name": "松戸市",
+      "officialBaseUrl": "https://www.city.matsudo.chiba.jp/"
+    },
+    {
+      "code": "12208",
+      "name": "野田市",
+      "officialBaseUrl": "https://www.city.noda.chiba.jp/"
+    }
+  ]
+}
