@@ -1,0 +1,105 @@
+{
+  "batchId": "ibaraki-comprehensive-official-coverage-005",
+  "prefecture": "茨城県",
+  "completedAt": "2026-07-13T19:05:15+0900",
+  "status": "completed",
+  "municipalities": [
+    {
+      "code": "08220",
+      "name": "つくば市",
+      "officialBaseUrl": "https://www.city.tsukuba.lg.jp/",
+      "adopted": 1,
+      "heldForSecondPass": 2,
+      "notes": "物価高騰対策生活者支援給付金を採用。既存登録済みの妊婦支援、保育料、就学援助、住宅改修等は重複採用せず、事業まとめページ等は第2巡へ残した。"
+    },
+    {
+      "code": "08221",
+      "name": "ひたちなか市",
+      "officialBaseUrl": "https://www.city.hitachinaka.lg.jp/",
+      "adopted": 9,
+      "heldForSecondPass": 6,
+      "notes": "子育て世代・三世代同居住宅取得、物価高対応子育て応援手当、スズメ蜂駆除、特別児童福祉手当、自動車運転装置改造、創業支援、中小企業事業活性化、創業信用保証料、開業資金融資利子補給を採用。県主体・国主体案内や外部補助まとめは第2巡へ残した。"
+    },
+    {
+      "code": "08222",
+      "name": "鹿嶋市",
+      "officialBaseUrl": "https://city.kashima.ibaraki.jp/",
+      "adopted": 10,
+      "heldForSecondPass": 6,
+      "notes": "地域ブランド商品開発、妊婦支援、高等職業訓練、浄化槽、耐震診断、耐震改修、チャレンジショップ、省エネ設備、貨物運送、蓄電池を採用。児童手当等の全国制度、金額抽出が不十分な奨学金・看護師修学資金は第2巡へ残した。"
+    },
+    {
+      "code": "08223",
+      "name": "潮来市",
+      "officialBaseUrl": "https://www.city.itako.lg.jp/",
+      "adopted": 10,
+      "heldForSecondPass": 6,
+      "notes": "ひとり親高等職業訓練、自立支援教育訓練、サイクリスト宿、創業者支援、スポーツ大会奨励、通勤通学高速バス、蓄電池、耐震改修、学校給食費、自転車ヘルメットを採用。マル福、こども加算、奨学金等は第2巡へ残した。"
+    }
+  ],
+  "adoptedTotal": 30,
+  "heldForSecondPassTotal": 20,
+  "excludedTotal": 0,
+  "sourceUrlsChecked": 30,
+  "discovery": {
+    "municipalityFile": "tasks/discovery/ibaraki-official-coverage-005-municipalities.json",
+    "candidateFile": "tasks/discovery/ibaraki-official-coverage-005-candidates.json",
+    "detailSnippetsFile": "tasks/discovery/ibaraki-official-coverage-005-detail-snippets.json",
+    "candidateCount": 1497,
+    "detailSnippetRows": 39,
+    "candidateFileTracked": false
+  },
+  "adoptedSlugs": [
+    "tsukuba-price-support-benefit-2026",
+    "hitachinaka-housing-acquisition-subsidy-2026",
+    "hitachinaka-child-support-benefit-2026",
+    "hitachinaka-hornet-removal-subsidy-2026",
+    "hitachinaka-special-child-welfare-allowance-2026",
+    "hitachinaka-driving-equipment-subsidy-2026",
+    "hitachinaka-startup-support-subsidy-2026",
+    "hitachinaka-business-activation-subsidy-2026",
+    "hitachinaka-credit-guarantee-subsidy-2026",
+    "hitachinaka-opening-loan-interest-subsidy-2026",
+    "kashima-brand-product-subsidy-2026",
+    "kashima-pregnancy-benefit-2026",
+    "kashima-single-parent-training-benefit-2026",
+    "kashima-septic-tank-subsidy-2026",
+    "kashima-seismic-diagnosis-dispatch-2026",
+    "kashima-seismic-retrofit-subsidy-2026",
+    "kashima-challenge-shop-subsidy-2026",
+    "kashima-sme-energy-saving-benefit-2026",
+    "kashima-trucking-support-benefit-2026",
+    "kashima-battery-subsidy-2026",
+    "itako-single-parent-training-benefit-2026",
+    "itako-education-training-benefit-2026",
+    "itako-cyclist-friendly-hotel-subsidy-2026",
+    "itako-startup-support-subsidy-2026",
+    "itako-sports-tournament-incentive-2026",
+    "itako-commuter-bus-pass-subsidy-2026",
+    "itako-battery-subsidy-2026",
+    "itako-seismic-retrofit-subsidy-2026",
+    "itako-school-lunch-subsidy-2026",
+    "itako-bicycle-helmet-subsidy-2026"
+  ],
+  "validation": {
+    "slugDuplicateCheck": "pass",
+    "officialUrlReachability": "pass",
+    "lint": "pass",
+    "nodeCheck": "pass",
+    "gitDiffCheck": "pass",
+    "auditCoverage": {
+      "status": "pass",
+      "failures": 0,
+      "activePublished": 9685,
+      "officialLinkedActive": 9647,
+      "manuallyVerifiedActive": 9647,
+      "ibarakiLocalOfficial": 207,
+      "ibarakiLocalManuallyVerified": 207
+    }
+  },
+  "next": {
+    "code": "ibaraki-official-coverage-006",
+    "municipality": "守谷市・常陸大宮市・那珂市・筑西市",
+    "instructions": "08224守谷市、08225常陸大宮市、08226那珂市、08227筑西市の公式本文/PDFを自治体コード順に確認する。個別公式ページで制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。"
+  }
+}

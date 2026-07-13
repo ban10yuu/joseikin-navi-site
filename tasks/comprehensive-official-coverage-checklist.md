@@ -5621,3 +5621,31 @@
     - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
   - 次:
     - 茨城県公式棚卸し005として、08220つくば市、08221ひたちなか市、08222鹿嶋市、08223潮来市を自治体コード順に確認する。
+
+- 茨城県公式棚卸し005
+  - 対象:
+    - 08220 つくば市、08221 ひたちなか市、08222 鹿嶋市、08223 潮来市。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補数1497件のため詳細スニペット39件を再スコアリングした。
+    - 既掲載公式URL、県・国制度重複、カテゴリ導線、金額又は受付状況不足、制度主体整理が必要な候補を除外し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で揃うページのみ採用した。
+  - 採用:
+    - つくば市1件: 物価高騰対策生活者支援給付金。
+    - ひたちなか市9件: 子育て世代・三世代同居住宅取得、物価高対応子育て応援手当、スズメ蜂駆除、特別児童福祉手当、自動車運転装置改造、創業支援、中小企業事業活性化、創業信用保証料、開業資金融資利子補給。
+    - 鹿嶋市10件: 地域ブランド商品開発、妊婦支援、高等職業訓練、浄化槽、耐震診断、耐震改修、チャレンジショップ、省エネ設備、貨物運送、蓄電池。
+    - 潮来市10件: ひとり親高等職業訓練、自立支援教育訓練、サイクリスト宿、創業者支援、スポーツ大会奨励、通勤通学高速バス、蓄電池、耐震改修、学校給食費、自転車ヘルメット。
+  - 生成ファイル:
+    - `tasks/discovery/ibaraki-official-coverage-005-municipalities.json`
+    - `tasks/discovery/ibaraki-official-coverage-005-candidates.json`（raw候補、gitignore対象）
+    - `tasks/discovery/ibaraki-official-coverage-005-detail-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-005.json`
+  - 検証:
+    - 追加slug重複: pass（30件、全9321slugでduplicateCount 0）。
+    - 公式URL到達: pass（30件すべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9685、officialLinkedActive 9647、manuallyVerifiedActive 9647、茨城県 localOfficial 207）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+  - 次:
+    - 茨城県公式棚卸し006として、08224守谷市、08225常陸大宮市、08226那珂市、08227筑西市を自治体コード順に確認する。

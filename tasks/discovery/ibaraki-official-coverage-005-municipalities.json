@@ -1,0 +1,26 @@
+{
+  "batchId": "ibaraki-comprehensive-official-coverage-005",
+  "prefecture": "茨城県",
+  "municipalities": [
+    {
+      "code": "08220",
+      "name": "つくば市",
+      "officialBaseUrl": "https://www.city.tsukuba.lg.jp/"
+    },
+    {
+      "code": "08221",
+      "name": "ひたちなか市",
+      "officialBaseUrl": "https://www.city.hitachinaka.lg.jp/"
+    },
+    {
+      "code": "08222",
+      "name": "鹿嶋市",
+      "officialBaseUrl": "https://city.kashima.ibaraki.jp/"
+    },
+    {
+      "code": "08223",
+      "name": "潮来市",
+      "officialBaseUrl": "https://www.city.itako.lg.jp/"
+    }
+  ]
+}
