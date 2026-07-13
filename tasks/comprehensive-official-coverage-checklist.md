@@ -7129,3 +7129,40 @@
     - 柏市チャレンジ支援補助金・スタートアップ事業化応援補助金、各市のカテゴリ導線、様式のみ、県・国制度紹介、金額又は受付状況不足候補は第2巡候補に残す。
   - 次:
     - 千葉県公式棚卸し005として、12219市原市、12220流山市、12221八千代市、12222我孫子市を自治体コード順に確認する。
+
+- 千葉県公式棚卸し005
+  - 対象:
+    - 12219 市原市、12220 流山市、12221 八千代市、12222 我孫子市。
+  - 方法:
+    - 公式トップ到達を4自治体すべてHTTP 200で確認した。
+    - `scripts/discover-official-candidates.mjs` で候補308件を抽出し、候補数が150件を超えたため、対象ページ本文スニペットと採用判断用台帳を保存して再スコアリングした。
+    - 流山市・八千代市・我孫子市は公式本文から制度名・対象・金額/上限・条件・期限/受付状況を確認した。
+    - 市原市は公式記事ページがSPA殻HTMLで通常抽出に本文が載らないため、公式ページ到達と公式検索表示で必須項目を確認できた制度のみ採用し、根拠不足候補は第2巡に残した。
+    - トップ、カテゴリ、サイトマップ、共通ナビ一致、県・国制度の単なる紹介、様式のみ、金額又は受付状況不足の候補は採用しなかった。
+  - 採用:
+    - 市原市3件: 子ども医療費助成、瓦屋根耐風改修促進事業補助金、障がい者グループホーム整備費補助金。
+    - 流山市7件: 地域脱炭素重点対策加速化事業費補助金、省エネエアコン新規購入等促進助成金、子ども医療費助成、妊婦のための支援給付、障害者グループホーム等入居者家賃補助金、母子家庭及び父子家庭自立支援教育訓練給付金、ひとり親家庭高等学校卒業程度認定試験合格支援事業。
+    - 八千代市7件: 住宅用設備等脱炭素化促進事業補助金、住居確保給付金、妊婦支援給付金、高等職業訓練促進給付金、自立支援教育訓練給付金、生ごみ処理容器等購入費補助金、保育士宿舎借り上げ支援。
+    - 我孫子市6件: 子ども医療費助成、妊婦のための支援給付金、障害者グループホーム等入居者家賃助成、若い世代の市民活動応援助成金、介護職員初任者研修・介護福祉士実務者研修等助成、小規模事業者等融資資金利子補給金。
+  - 生成ファイル:
+    - `tasks/discovery/chiba-official-coverage-005-municipalities.json`
+    - `tasks/discovery/chiba-official-coverage-005-candidates.json`
+    - `tasks/discovery/chiba-official-coverage-005-target-snippets.json`
+    - `tasks/discovery/chiba-official-coverage-005-selected-snippets.json`
+    - `tasks/discovery/chiba-official-coverage-005-selected-main.json`
+    - `tasks/discovery/chiba-official-coverage-005-official-extra.json`
+    - `tasks/discovery/chiba-official-coverage-005-url-check.json`
+    - `tasks/discovery/chiba-official-coverage-005.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（23件、全grantファイル横断で各1件）。
+    - 公式URL到達: pass（23 unique official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10764、officialLinkedActive 10726、manuallyVerifiedActive 10726、千葉県 localOfficial 331）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 市原市の住宅用設備等脱炭素化促進補助金、結婚新生活応援事業、中小企業等未来開拓サポート事業補助金、事業者用省エネ最適化診断・設備等脱炭素化促進補助金など、SPA本文抽出や金額・受付状況の再確認が必要な候補は第2巡候補に残す。
+    - 流山市・八千代市・我孫子市のカテゴリ導線、様式のみ、県・国制度紹介、金額又は受付状況不足候補は第2巡候補に残す。
+  - 次:
+    - 千葉県公式棚卸し006として、12223鴨川市、12224鎌ケ谷市、12225君津市、12226富津市を自治体コード順に確認する。

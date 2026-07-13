@@ -1,0 +1,26 @@
+{
+  "batchId": "chiba-comprehensive-official-coverage-005",
+  "prefecture": "千葉県",
+  "municipalities": [
+    {
+      "code": "12219",
+      "name": "市原市",
+      "officialBaseUrl": "https://www.city.ichihara.chiba.jp/"
+    },
+    {
+      "code": "12220",
+      "name": "流山市",
+      "officialBaseUrl": "https://www.city.nagareyama.chiba.jp/"
+    },
+    {
+      "code": "12221",
+      "name": "八千代市",
+      "officialBaseUrl": "https://www.city.yachiyo.lg.jp/"
+    },
+    {
+      "code": "12222",
+      "name": "我孫子市",
+      "officialBaseUrl": "https://www.city.abiko.chiba.jp/"
+    }
+  ]
+}
