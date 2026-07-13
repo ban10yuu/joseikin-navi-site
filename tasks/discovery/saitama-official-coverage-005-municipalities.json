@@ -1,0 +1,26 @@
+{
+  "batchId": "saitama-comprehensive-official-coverage-005",
+  "prefecture": "埼玉県",
+  "municipalities": [
+    {
+      "code": "11218",
+      "name": "深谷市",
+      "officialBaseUrl": "https://www.city.fukaya.saitama.jp/"
+    },
+    {
+      "code": "11219",
+      "name": "上尾市",
+      "officialBaseUrl": "https://www.city.ageo.lg.jp/"
+    },
+    {
+      "code": "11221",
+      "name": "草加市",
+      "officialBaseUrl": "https://www.city.soka.saitama.jp/"
+    },
+    {
+      "code": "11222",
+      "name": "越谷市",
+      "officialBaseUrl": "https://www.city.koshigaya.saitama.jp/"
+    }
+  ]
+}

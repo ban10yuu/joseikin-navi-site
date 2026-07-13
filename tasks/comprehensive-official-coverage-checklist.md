@@ -6575,3 +6575,36 @@
     - 春日部市の住宅リフォーム助成、農業者支援、障害福祉・介護・保育所等物価高騰支援、狭山市の宅配ボックス、妊産婦健診、羽生市の市民活動・環境系補助、鴻巣市の令和8年度サービス・助成一覧の残件は第2巡候補に残す。
   - 次:
     - 埼玉県公式棚卸し005として、11218深谷市、11219上尾市、11221草加市、11222越谷市を自治体コード順に確認する。
+
+- 埼玉県公式棚卸し005
+  - 対象:
+    - 11218 深谷市、11219 上尾市、11221 草加市、11222 越谷市。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補261件をローカルJSONへ保存した。
+    - 候補が150件を超えたため、公式ドメインの個別制度ページ、公式支援一覧、公式物価高騰対策ページを本文取得して再スコアリングし、金額・対象・期限/受付表現の揃う21件を採用した。
+    - 既存掲載済みURLは除外し、トップ、カテゴリ、一覧、共通ナビ一致は候補JSONに残して第2巡台帳として扱う。
+  - 採用:
+    - 深谷市8件: 住宅用省エネ設備、移住支援金、物価高対応子育て応援手当、高齢者地域通貨ネギー、農業者支援金、結婚新生活支援、住宅耐震診断、木造住宅耐震化。
+    - 上尾市9件: 食料品等高騰対応給付金、奨学金利子支援、住宅断熱改修、事業者向け省エネ設備、事業者向け太陽光、家具転倒防止、既存木造住宅耐震診断、既存木造住宅耐震改修、危険ブロック塀撤去・築造。
+    - 草加市2件: 物価高騰対応給付金・外出促進支援金、介護職員初任者研修・実務者研修資格取得費補助。
+    - 越谷市2件: ビジネスパワーアップ補助金、省エネ家電買換促進補助金。
+  - 生成ファイル:
+    - `tasks/discovery/saitama-official-coverage-005-municipalities.json`
+    - `tasks/discovery/saitama-official-coverage-005-candidates.json`（raw候補）
+    - `tasks/discovery/saitama-official-coverage-005-official-extra.json`
+    - `tasks/discovery/saitama-official-coverage-005-detail-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-005-selected-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-005-selected-main.json`
+    - `tasks/discovery/saitama-official-coverage-005.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（21件、duplicateCount 0）。
+    - 公式URL到達: pass（17 unique official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10433、officialLinkedActive 10395、manuallyVerifiedActive 10395、埼玉県 localOfficial 312）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 深谷市の個別要綱PDF、上尾市のアスベスト分析調査・私道整備・雨水貯留施設、草加市の重点支援地方交付金内訳、越谷市のゼロカーボン・住宅店舗改修・創業者支援等の既存掲載済み又は採用枠外は第2巡候補に残す。
+  - 次:
+    - 埼玉県公式棚卸し006として、11223蕨市、11224戸田市、11225入間市、11227朝霞市を自治体コード順に確認する。
