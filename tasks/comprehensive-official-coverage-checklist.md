@@ -5802,3 +5802,37 @@
     - 美浦村の村民海外研修補助金は令和4年度人数表記が残るため第2巡へ残す。阿見町の町民活動支援補助金は令和8年度募集期間が期限超過のため採用しない。
   - 次:
     - 茨城県公式棚卸し011として、08447河内町、08521八千代町、08542五霞町、08546境町を自治体コード順に確認する。
+
+- 茨城県公式棚卸し011
+  - 対象:
+    - 08447 河内町、08521 八千代町、08542 五霞町、08546 境町。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補数1129件のため本文スニペット217件をローカルJSONへ抽出して再スコアリングした。
+    - 公式本文80件を個別取得し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページを優先採用した。
+    - 公式カテゴリ、一覧、期限超過、予算終了、金額不明、PDF等の本文不足、現在年度の受付状況が不足するページは採用しないか第2巡台帳へ残した。
+  - 採用:
+    - 河内町8件: 上水道未給水世帯支援給付金、住宅リフォーム、移住支援金、空き家等解体、浄化槽、木造住宅耐震診断士派遣、危険ブロック塀等撤去、家庭用防犯カメラ。
+    - 八千代町10件: 赤ちゃん用品購入、子ども医療自己負担無償化、出産子育て奨励金、チャイルドシート・ジュニアシート、生ごみ自家処理機器、防災士資格取得、婚活イベント参加費、出会いサポートセンター会員登録、事業所DX、狩猟免許等取得。
+    - 五霞町3件: 結婚新生活、自立・分散型エネルギー設備、木造住宅耐震診断士派遣。
+    - 境町1件: 高速バス通学定期券購入費助成。
+  - 生成ファイル:
+    - `tasks/discovery/ibaraki-official-coverage-011-municipalities.json`
+    - `tasks/discovery/ibaraki-official-coverage-011-candidates.json`（raw候補、gitignore対象）
+    - `tasks/discovery/ibaraki-official-coverage-011-detail-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-011-official-extra.json`
+    - `tasks/discovery/ibaraki-official-coverage-011.json`
+  - 検証:
+    - 追加slug重複: pass（22件、全9504slugでduplicateCount 0）。
+    - 公式URL到達: pass（22件すべてHTTP 200）。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9866、officialLinkedActive 9828、manuallyVerifiedActive 9828、茨城県 localOfficial 388）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 河内町の省エネ家電買換え補助、定住促進、空き家活用促進、ブランド化支援、男性HPV、任意予防接種、ドック助成、高齢者安全運転支援装置は金額又は現在年度受付状況の追加確認を第2巡へ残す。
+    - 八千代町の不育症・特定不妊治療・妊産婦マル福は制度整理又は本文抽出不足のため第2巡へ残す。高校生キャリアアップ応援事業補助金は申請期限超過、立地企業環境整備補助金は現行受付確認不足のため採用しない。
+    - 五霞町の物価高騰対策生活者支援給付金、保育教諭就労奨励金は申請期限超過のため採用しない。カメムシ防除支援は金額確認不足のため第2巡へ残す。
+    - 境町の国民健康保険人間ドック助成は令和8年度受付期間が期限超過のため採用しない。
+  - 次:
+    - 茨城県公式棚卸し012として、08564利根町から自治体コード順に確認する。
