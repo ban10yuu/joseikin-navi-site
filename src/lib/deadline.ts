@@ -1,6 +1,6 @@
 export interface GrantDeadlineLike {
   deadlineDate?: string;
-  applicationPeriod: string;
+  applicationPeriod?: string;
 }
 
 export type DeadlineStatus = 'year-round' | 'ending-soon' | 'ended' | 'budget-limited' | null;
@@ -22,7 +22,7 @@ export function getDeadlineStatus(grant: GrantDeadlineLike, now = new Date()): D
     return null;
   }
 
-  const period = grant.applicationPeriod;
+  const period = grant.applicationPeriod || '';
   if (period.includes('通年') || period.includes('随時')) return 'year-round';
   if (period.includes('予算') || period.includes('先着')) return 'budget-limited';
 

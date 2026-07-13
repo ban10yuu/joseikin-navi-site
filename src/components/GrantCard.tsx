@@ -57,7 +57,7 @@ export default function GrantCard({ grant }: { grant: GrantCardItem }) {
         </div>
         <div>
           <dt>申請期間</dt>
-          <dd className="line-clamp-2">{grant.applicationPeriod}</dd>
+          <dd className="line-clamp-2">{grant.applicationPeriod || '公式サイトで確認'}</dd>
         </div>
       </dl>
 

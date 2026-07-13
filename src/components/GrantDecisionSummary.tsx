@@ -56,7 +56,7 @@ export default function GrantDecisionSummary({
         </div>
         <div>
           <dt>申請期間</dt>
-          <dd>{grant.applicationPeriod}</dd>
+          <dd>{grant.applicationPeriod || '申請期間は公式サイトで確認'}</dd>
         </div>
         <div>
           <dt>受付状況</dt>
