@@ -170,7 +170,8 @@ export default async function GrantDetailPage({ params }: Props) {
 
       <div className="grant-mobile-cta">
         <a href={grant.officialUrl} target="_blank" rel="noopener noreferrer">
-          {expired ? '次回募集を公式サイトで確認' : '公式サイトで最新情報を確認'}
+          {expired ? '次回募集・後継制度の有無を公式サイトで確認' : '公式サイトで最新情報を確認'}
+          <span className="sr-only">（新しいタブで開きます）</span>
           <span aria-hidden="true">↗</span>
         </a>
       </div>

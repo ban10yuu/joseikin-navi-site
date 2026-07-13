@@ -1,7 +1,20 @@
 const ELIGIBILITY_SEPARATOR = /[。；;、\n]+/;
+const PLACEHOLDER_HOSTS = new Set(['example.com', 'localhost']);
 
-export function splitEligibilityText(text: string, maxItems = 4): string[] {
-  const items = text
+function isOfficialHttpUrl(value: string): boolean {
+  try {
+    const url = new URL(value);
+    return (
+      (url.protocol === 'https:' || url.protocol === 'http:')
+      && !PLACEHOLDER_HOSTS.has(url.hostname.replace(/^www\./, ''))
+    );
+  } catch {
+    return false;
+  }
+}
+
+export function splitEligibilityText(text?: string, maxItems = 4): string[] {
+  const items = (text || '')
     .split(ELIGIBILITY_SEPARATOR)
     .map((item) => item.trim())
     .filter(Boolean);
@@ -21,7 +34,8 @@ export function normalizeOfficialUrls(
   return [...new Set(
     [officialUrl, ...sourceUrls]
       .map((url) => url.trim())
-      .filter(Boolean),
+      .filter(Boolean)
+      .filter(isOfficialHttpUrl),
   )];
 }
 

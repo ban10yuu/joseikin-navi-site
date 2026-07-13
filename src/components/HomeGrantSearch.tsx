@@ -94,7 +94,7 @@ export default function HomeGrantSearch({
       <form action="/grants/" method="get" role="search" aria-label="助成金・補助金を検索">
         <fieldset className="home-search-step">
           <legend className="home-search-step-label">
-            <span>1</span> どなた向けの制度ですか？
+            <span>1</span> 探したい目的の種類
           </legend>
           <div className="home-audience-switch">
             <button
@@ -116,6 +116,7 @@ export default function HomeGrantSearch({
               事業者・団体向け
             </button>
           </div>
+          <p className="home-audience-note">選んだ区分に合わせて、次の目的候補を切り替えます。検索条件には、目的またはキーワードを使います。</p>
         </fieldset>
 
         <fieldset className="home-search-step">

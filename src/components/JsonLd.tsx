@@ -14,7 +14,7 @@ export function GrantJsonLd({ grant }: { grant: Grant }) {
       url: 'https://joseikin-navi-site.vercel.app',
     },
     datePublished: grant.publishedAt,
-    dateModified: grant.verifiedAt || grant.publishedAt,
+    dateModified: grant.publishedAt,
     mainEntityOfPage: `https://joseikin-navi-site.vercel.app/grant/${grant.slug}/`,
     keywords: [grant.title, CATEGORY_LABELS[grant.category], grant.prefecture, ...grant.tags].join(', '),
     articleSection: CATEGORY_LABELS[grant.category],

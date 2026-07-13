@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import Link from 'next/link';
 import { CATEGORY_LABELS } from '@/lib/types';
 
@@ -22,6 +22,8 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [showCategories, setShowCategories] = useState(false);
   const [showRegions, setShowRegions] = useState(false);
+  const categoryButtonRef = useRef<HTMLButtonElement>(null);
+  const regionButtonRef = useRef<HTMLButtonElement>(null);
 
   return (
     <header className="sticky top-0 z-50 bg-navy border-b-4 border-accent shadow-md">
@@ -40,8 +42,22 @@ export default function Header() {
 
           {/* Desktop Nav */}
           <nav aria-label="メインメニュー" className="hidden md:flex items-center gap-0.5">
-            <div className="relative" onMouseEnter={() => setShowCategories(true)} onMouseLeave={() => setShowCategories(false)}>
+            <div
+              className="relative"
+              onMouseEnter={() => setShowCategories(true)}
+              onMouseLeave={() => setShowCategories(false)}
+              onBlur={(event) => {
+                if (!event.currentTarget.contains(event.relatedTarget as Node | null)) setShowCategories(false);
+              }}
+              onKeyDown={(event) => {
+                if (event.key === 'Escape') {
+                  setShowCategories(false);
+                  categoryButtonRef.current?.focus();
+                }
+              }}
+            >
               <button
+                ref={categoryButtonRef}
                 type="button"
                 className={`${navLink} flex items-center gap-1`}
                 aria-expanded={showCategories}
@@ -65,8 +81,22 @@ export default function Header() {
                 </div>
               )}
             </div>
-            <div className="relative" onMouseEnter={() => setShowRegions(true)} onMouseLeave={() => setShowRegions(false)}>
+            <div
+              className="relative"
+              onMouseEnter={() => setShowRegions(true)}
+              onMouseLeave={() => setShowRegions(false)}
+              onBlur={(event) => {
+                if (!event.currentTarget.contains(event.relatedTarget as Node | null)) setShowRegions(false);
+              }}
+              onKeyDown={(event) => {
+                if (event.key === 'Escape') {
+                  setShowRegions(false);
+                  regionButtonRef.current?.focus();
+                }
+              }}
+            >
               <button
+                ref={regionButtonRef}
                 type="button"
                 className={`${navLink} flex items-center gap-1`}
                 aria-expanded={showRegions}

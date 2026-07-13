@@ -16,8 +16,9 @@ export function isGrantExpired(grant: GrantDeadlineLike, now = new Date()): bool
 
 export function getDeadlineStatus(grant: GrantDeadlineLike, now = new Date()): DeadlineStatus {
   if (grant.deadlineDate) {
-    const daysLeft = Math.ceil((getDeadlineDateEnd(grant.deadlineDate).getTime() - now.getTime()) / 86400000);
-    if (daysLeft < 0) return 'ended';
+    const remainingMs = getDeadlineDateEnd(grant.deadlineDate).getTime() - now.getTime();
+    if (remainingMs < 0) return 'ended';
+    const daysLeft = Math.ceil(remainingMs / 86400000);
     if (daysLeft <= 30) return 'ending-soon';
     return null;
   }

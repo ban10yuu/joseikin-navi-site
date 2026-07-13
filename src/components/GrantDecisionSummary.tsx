@@ -72,13 +72,17 @@ export default function GrantDecisionSummary({
       <section className="grant-eligibility-summary" aria-labelledby="grant-eligibility-title">
         <h2 id="grant-eligibility-title">主な対象条件</h2>
         <p className="grant-eligibility-note">掲載データに記載された条件の要約です。細かな要件は公式募集要項で確認してください。</p>
-        <ul>
-          {eligibilityItems.map((item) => (
-            <li key={item}>{item}</li>
-          ))}
-          {grant.targetIncome && <li>収入に関する記載：{grant.targetIncome}</li>}
-          {grant.targetOccupation && <li>職業に関する記載：{grant.targetOccupation}</li>}
-        </ul>
+        {eligibilityItems.length > 0 || grant.targetIncome || grant.targetOccupation ? (
+          <ul>
+            {eligibilityItems.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+            {grant.targetIncome && <li>収入に関する記載：{grant.targetIncome}</li>}
+            {grant.targetOccupation && <li>職業に関する記載：{grant.targetOccupation}</li>}
+          </ul>
+        ) : (
+          <p className="grant-eligibility-missing">対象条件は公式募集要項で確認してください。</p>
+        )}
       </section>
 
       <a

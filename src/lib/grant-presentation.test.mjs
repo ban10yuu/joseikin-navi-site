@@ -26,6 +26,10 @@ describe('splitEligibilityText', () => {
   it('空白だけの文言は空配列を返す', () => {
     assert.deepEqual(splitEligibilityText('  '), []);
   });
+
+  it('対象条件が未登録でも空配列を返す', () => {
+    assert.deepEqual(splitEligibilityText(undefined), []);
+  });
 });
 
 describe('normalizeOfficialUrls', () => {
@@ -38,6 +42,17 @@ describe('normalizeOfficialUrls', () => {
         'https://example.go.jp/guide',
       ]),
       ['https://example.go.jp/grant', 'https://example.go.jp/guide'],
+    );
+  });
+
+  it('HTTP以外のURLとプレースホルダーURLを除く', () => {
+    assert.deepEqual(
+      normalizeOfficialUrls('javascript:alert(1)', [
+        'data:text/html,test',
+        'https://example.com/grant',
+        'https://www.city.example.jp/grant',
+      ]),
+      ['https://www.city.example.jp/grant'],
     );
   });
 });

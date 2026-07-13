@@ -501,6 +501,13 @@ body {
   color: #ffffff;
 }
 
+.home-audience-note {
+  margin-top: 0.45rem;
+  color: #64748b;
+  font-size: 0.75rem;
+  line-height: 1.6;
+}
+
 .home-purpose-list {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
@@ -1067,6 +1074,13 @@ body {
   display: grid;
   gap: 0.5rem;
   margin-top: 0.75rem;
+}
+
+.grant-eligibility-missing {
+  margin-top: 0.75rem;
+  color: #475569;
+  font-size: 0.875rem;
+  font-weight: 700;
 }
 
 .grant-eligibility-summary li {
