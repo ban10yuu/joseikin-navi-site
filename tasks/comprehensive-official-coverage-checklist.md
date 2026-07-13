@@ -5218,7 +5218,11 @@
     - 石巻市の県補助案内候補は、宮城県制度として県公式URLを採用し、市独自制度としては追加しないことで解消。
     - 塩竈市のカテゴリページ・旧制度ページ・金額不足候補は不採用理由を第2巡台帳へ記録し、現行個別制度1件のみ採用。
   - 検証:
-    - 検証は第2巡001の6制度URL到達、eslint、slug重複、coverage、diff checkをこのバッチ内で実行する。
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 6件、重複確認 pass（total 9519、duplicates 0）。
+    - 追加した6制度10公式URLの到達確認 pass（10件すべて HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9445、officialLinkedActive 9407、manuallyVerifiedActive 9407、宮城県 `localOfficial` 355、宮城県 `coveredCategories` 8）。
+    - `git diff --check -- tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-second-pass-001.json`: pass。
   - 次:
     - 宮城県公式棚卸し第2巡002として、04205気仙沼市、04206白石市、04207名取市、04208角田市の保留候補を確認する。
 

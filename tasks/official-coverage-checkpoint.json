@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T14:55:00+09:00",
-  "mode": "fukushima-second-pass-official-coverage",
+  "updatedAt": "2026-07-13T14:56:21+09:00",
+  "mode": "miyagi-second-pass-official-coverage",
   "lastCompleted": {
-    "code": "fukushima-second-pass-official-coverage-015",
-    "municipality": "葛尾村・新地町・飯舘村",
-    "adopted": 1,
-    "held": 11,
+    "code": "miyagi-second-pass-official-coverage-001",
+    "municipality": "宮城県庁・仙台市・石巻市・塩竈市",
+    "adopted": 6,
+    "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 12,
+    "sourceUrlsChecked": 10,
     "validation": {
-      "previousMunicipality": "福島県第2巡015として、07548葛尾村、07561新地町、07564飯舘村を対象に、第1巡015の保留候補、公式extra、sitemap候補、既存採用URL、カテゴリ導線、個別ページを再確認した。公式本文証跡12件、shortlist 12件を作成し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる1制度を採用した。空カテゴリ、総合案内、金額未掲載ページ、外部制度案内、制度列挙のみのページは第2巡継続台帳へ残した。",
+      "previousMunicipality": "宮城県第2巡001として、04000宮城県庁、04100仙台市、04202石巻市、04203塩竈市を対象に、第1巡001の保留候補と既作成台帳を再確認した。宮城県庁5制度、塩竈市1制度の採用slugと6制度10公式URLを現行HEADで再検証し、仙台市・石巻市のカテゴリ/既存重複/県制度案内候補は不採用理由付きで解消した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: added 1 slug, duplicateOrMissing 0, duplicates 0",
-      "urlReachability": "pass: checked 1 added grant source URL, HTTP 200",
-      "diffCheck": "pass: git diff --check for Fukushima second-pass 015 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9445, officialLinkedActive 9407, manuallyVerifiedActive 9407, Fukushima localOfficial 923, Fukushima coveredCategories 8"
+      "addedSlugUniqueness": "pass: added 6 slugs, duplicateOrMissing 0, duplicates 0",
+      "urlReachability": "pass: checked 6 added grant source URLs and related source URLs, 10 URLs all HTTP 200",
+      "diffCheck": "pass: git diff --check for Miyagi second-pass 001 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9445, officialLinkedActive 9407, manuallyVerifiedActive 9407, Miyagi localOfficial 355, Miyagi coveredCategories 8"
     }
   },
   "next": {
-    "code": "miyagi-second-pass-official-coverage-001",
-    "municipality": "宮城県庁・仙台市・石巻市・塩竈市",
-    "shortlist": "福島県第2巡015で飯舘村の人工透析医療費・交通費助成を追加した。葛尾村の空カテゴリ/総合案内、新地町の金額未掲載手当/外部案内、飯舘村の制度列挙/カテゴリ/介護保険一般説明は継続台帳に残した。福島県第2巡は自治体コード順の末尾まで到達したため、次はチェックリスト上で未確定検証が残る宮城県第2巡001を再確認する。",
-    "instructions": "宮城県公式棚卸し第2巡001として、04000宮城県庁、04100仙台市、04202石巻市、04203塩竈市の保留候補と既作成台帳を再確認し、未検証の6制度URL到達、eslint、slug重複、coverage、diff checkを完了する。必要なら公式本文/PDFを再取得し、候補未判定を解消する。既存raw gap 0や一部自治体の完了を全国完了扱いしない。"
+    "code": "miyagi-second-pass-official-coverage-002",
+    "municipality": "気仙沼市・白石市・名取市・角田市",
+    "shortlist": "宮城県第2巡001で宮城県庁5制度と塩竈市1制度の現行検証を完了した。仙台市のカテゴリ/既存重複候補、石巻市の県制度案内候補、塩竈市のカテゴリ/旧制度/金額不足候補は解消済み。次は宮城県第2巡002として気仙沼市、白石市、名取市、角田市の第1巡保留候補を確認する。",
+    "instructions": "宮城県公式棚卸し第2巡002として、04205気仙沼市、04206白石市、04207名取市、04208角田市の第1巡保留候補、カテゴリ、一覧、PDF、金額未掲載候補、外部制度案内、旧制度候補を公式本文/PDF単位で再確認し、制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。既存raw gap 0や一部自治体の完了を全国完了扱いしない。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

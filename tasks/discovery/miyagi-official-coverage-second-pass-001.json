@@ -1,7 +1,7 @@
 {
   "batchId": "miyagi-comprehensive-official-coverage-second-pass-001",
   "prefecture": "宮城県",
-  "completedAt": "2026-07-12T15:45:00+09:00",
+  "completedAt": "2026-07-13T14:56:21+09:00",
   "sourceBatch": "miyagi-comprehensive-official-coverage-001",
   "scope": [
     {
@@ -86,9 +86,9 @@
   "sourceUrlsChecked": 10,
   "validation": {
     "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-    "duplicateSlugs": "pass: total 8013, duplicates 0",
+    "duplicateSlugs": "pass: total 9519, adopted 6, duplicates 0",
     "urlReachability": "pass: 6制度10URL returned HTTP 200",
     "diffCheck": "pass: git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-second-pass-001.json",
-    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 7967, officialLinkedActive 7929, manuallyVerifiedActive 7929, Miyagi localOfficial 211"
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9445, officialLinkedActive 9407, manuallyVerifiedActive 9407, Miyagi localOfficial 355, Miyagi coveredCategories 8"
   }
 }
