@@ -7278,3 +7278,41 @@
     - 各市のカテゴリ導線、様式のみ、県・国制度紹介、金額又は受付状況不足候補は第2巡候補に残す。
   - 次:
     - 千葉県公式棚卸し009として、12235匝瑳市、12236香取市、12237山武市、12238いすみ市を自治体コード順に確認する。
+
+- 千葉県公式棚卸し009
+  - 対象:
+    - 12235 匝瑳市、12236 香取市、12237 山武市、12238 いすみ市。
+  - 方法:
+    - 公式トップ到達を4自治体すべてHTTP 200で確認した。
+    - `scripts/discover-official-candidates.mjs` で候補259件を抽出し、候補数が150件を超えたため、公式本文スニペットと採用判断用台帳を保存して再スコアリングした。
+    - 匝瑳市は脱炭素省エネ設備・住宅用設備・木造住宅耐震診断/改修、香取市は子ども医療・省エネ家電・自転車ヘルメット・住宅用設備・木造住宅耐震・妊婦支援給付、山武市は子ども医療・妊婦支援給付・電気柵・住宅用設備、いすみ市は子ども医療・妊婦支援給付・住宅用設備・ハッピーバース・耐震診断/改修/シェルターの公式本文又は公式PDFで制度名・対象・金額/上限・条件・期限/受付状況を確認した。
+    - 4市の結婚新生活支援制度は既存公式確認済みのため新規追加から除外した。
+    - 匝瑳市妊婦支援給付は公式URL候補は確認したが本文抽出が空だったため、第2巡候補に残した。山武市省エネ家電製品買換え促進事業補助金は公式ページで新規申請受付終了のため、今回の新規採用から除外した。
+    - トップ、カテゴリ、サイトマップ、共通ナビ一致、県・国制度の単なる紹介、様式のみ、金額又は受付状況不足の候補は採用せず、第2巡候補に残した。
+  - 採用:
+    - 匝瑳市4件: 令和8年度脱炭素省エネ設備導入事業補助金、住宅用設備等脱炭素化促進事業補助金、木造住宅耐震診断費補助金、木造住宅耐震改修費補助金。
+    - 香取市6件: 子ども医療費助成、省エネ家電製品買換え促進補助金、自転車乗車用ヘルメット購入費補助金、住宅用設備等脱炭素化促進事業補助金、木造住宅耐震改修等補助金、妊婦のための支援給付事業。
+    - 山武市4件: 子ども医療費助成制度、妊婦のための支援給付、電気柵設置補助金、住宅用設備等脱炭素化促進事業補助金。
+    - いすみ市7件: 子ども医療費助成制度、妊婦のための支援給付事業、住宅用設備等脱炭素化促進事業補助金、ハッピーバース応援事業、木造住宅耐震診断補助金、木造住宅耐震改修工事補助金、木造住宅居住空間耐震化事業補助金。
+  - 生成ファイル:
+    - `tasks/discovery/chiba-official-coverage-009-municipalities.json`
+    - `tasks/discovery/chiba-official-coverage-009-candidates.json`
+    - `tasks/discovery/chiba-official-coverage-009-target-snippets.json`
+    - `tasks/discovery/chiba-official-coverage-009-selected-snippets.json`
+    - `tasks/discovery/chiba-official-coverage-009-selected-main.json`
+    - `tasks/discovery/chiba-official-coverage-009-official-extra.json`
+    - `tasks/discovery/chiba-official-coverage-009-url-check.json`
+    - `tasks/discovery/chiba-official-coverage-009.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（21件、`verified-local-misc-2026.ts` 内で各1件）。
+    - 公式URL到達: pass（21 official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10844、officialLinkedActive 10806、manuallyVerifiedActive 10806、千葉県 localOfficial 411）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 4市の既掲載公式確認済み結婚新生活支援制度と重複する候補は新規追加しなかった。
+    - 匝瑳市妊婦支援給付、山武市省エネ家電の受付終了ページ、各市のカテゴリ導線、様式のみ、県・国制度紹介、金額又は受付状況不足候補は第2巡候補に残す。
+  - 次:
+    - 千葉県公式棚卸し010として、12239大網白里市、12322酒々井町、12329栄町、12342神崎町を自治体コード順に確認する。

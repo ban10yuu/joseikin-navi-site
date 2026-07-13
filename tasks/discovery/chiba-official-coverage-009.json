@@ -1,0 +1,48 @@
+{
+  "batchId": "chiba-comprehensive-official-coverage-009",
+  "prefecture": "千葉県",
+  "completedAt": "2026-07-14T08:50:00+09:00",
+  "municipalities": [
+    {
+      "code": "12235",
+      "name": "匝瑳市",
+      "adopted": 4
+    },
+    {
+      "code": "12236",
+      "name": "香取市",
+      "adopted": 6
+    },
+    {
+      "code": "12237",
+      "name": "山武市",
+      "adopted": 4
+    },
+    {
+      "code": "12238",
+      "name": "いすみ市",
+      "adopted": 7
+    }
+  ],
+  "adopted": 21,
+  "candidateCount": 259,
+  "held": 238,
+  "sourceUrlsChecked": 21,
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: 21 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 21 official URLs returned HTTP 200",
+    "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 10844, officialLinkedActive 10806, manuallyVerifiedActive 10806, Chiba localOfficial 411"
+  },
+  "next": {
+    "code": "chiba-official-coverage-010",
+    "municipalities": [
+      "12239 大網白里市",
+      "12322 酒々井町",
+      "12329 栄町",
+      "12342 神崎町"
+    ]
+  }
+}

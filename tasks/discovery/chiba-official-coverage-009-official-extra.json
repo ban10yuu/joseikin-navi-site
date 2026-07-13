@@ -1,0 +1,12 @@
+{
+  "batchId": "chiba-comprehensive-official-coverage-009",
+  "notes": [
+    "候補抽出259件のため、公式本文スニペットを再スコアリングして個別制度ページを優先採用。",
+    "匝瑳市妊婦支援給付は公式URL候補は確認したが本文抽出が空だったため今回採用せず第2巡候補に残す。",
+    "山武市省エネ家電製品買換え促進事業補助金は公式ページ上で新規申請受付終了のため今回の新規採用から除外。"
+  ],
+  "secondPassCandidates": [
+    "https://www.city.sosa.lg.jp/page/page006268.html",
+    "https://www.city.sammu.lg.jp/kurashi/hojyo-shien/kaden2026.html"
+  ]
+}

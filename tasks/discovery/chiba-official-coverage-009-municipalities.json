@@ -1,0 +1,26 @@
+{
+  "batchId": "chiba-comprehensive-official-coverage-009",
+  "prefecture": "千葉県",
+  "municipalities": [
+    {
+      "code": "12235",
+      "name": "匝瑳市",
+      "officialBaseUrl": "https://www.city.sosa.lg.jp/"
+    },
+    {
+      "code": "12236",
+      "name": "香取市",
+      "officialBaseUrl": "https://www.city.katori.lg.jp/"
+    },
+    {
+      "code": "12237",
+      "name": "山武市",
+      "officialBaseUrl": "https://www.city.sammu.lg.jp/"
+    },
+    {
+      "code": "12238",
+      "name": "いすみ市",
+      "officialBaseUrl": "https://www.city.isumi.lg.jp/"
+    }
+  ]
+}
