@@ -77,7 +77,7 @@ export default function GoogleAd({
 
   return (
     <div ref={containerRef} className={`overflow-hidden ${className}`} aria-label={label}>
-      <div className="mb-1 text-center text-[10px] font-medium tracking-wider text-faint">
+      <div data-ad-label className="mb-1 text-center text-[10px] font-medium tracking-wider text-faint">
         {label}
       </div>
       <ins

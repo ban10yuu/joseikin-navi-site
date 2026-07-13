@@ -9,11 +9,12 @@
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "test": "node --test src/lib/*.test.mjs",
-    "test:e2e": "python3 scripts/e2e-smoke.py",
+    "test:e2e": "python3 scripts/run-e2e.py",
     "check:copy": "node scripts/check-public-copy.mjs",
     "audit:content": "node scripts/audit-content.mjs",
+    "audit:build": "node scripts/audit-build.mjs",
     "audit:coverage": "node scripts/audit-coverage.mjs",
-    "audit:deadlines": "node scripts/audit-deadlines.mjs",
+    "audit:deadlines": "node --test src/lib/deadline.test.mjs src/lib/grant-status.test.mjs",
     "audit:links": "node scripts/audit-links.mjs"
   },
   "dependencies": {
