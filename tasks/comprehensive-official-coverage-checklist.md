@@ -4998,6 +4998,29 @@
   - 次:
     - 福島県第2巡008として、07422湯川村、07423柳津町、07444三島町、07445金山町の保留候補を確認する。
 
+- 福島県公式棚卸し第2巡008（湯川村・柳津町・三島町・金山町）
+  - 対象: 07422湯川村、07423柳津町、07444三島町、07445金山町。
+  - 方法:
+    - 第1巡008の保留候補、既存候補JSON、公式本文、旧URL候補を再確認した。
+    - 公式本文を再取得して `tasks/discovery/fukushima-second-pass-008-shortlist.json` 11件、`tasks/discovery/fukushima-second-pass-008-page-evidence.json` 8件、`tasks/discovery/fukushima-second-pass-008-adopted.json` を作成した。
+    - title/h1/main/article/URLの制度強語に加え、対象・金額/上限・条件・期限/受付状況が公式本文で確認できる制度を採用し、PDF未展開、金額不足、国県制度重複、404旧URLは第2巡継続台帳へ残した。
+  - 追加:
+    - 湯川村: 高齢者等移動支援事業（福祉タクシー・バス利用券）、高齢者等移動支援事業（自動車燃料費助成）、在宅ねたきり高齢者等介護慰労金、在宅ねたきり高齢者等紙おむつ支給事業、乳幼児・子ども医療費助成事業、第3子以降幼稚園給食費および学校給食費免除制度、妊産婦医療費助成、出産祝い金、小学校入学祝い金、冬期間通学費助成。
+    - 柳津町: 頑張れ子育て応援金（出産祝金）、頑張れ子育て応援金（入学祝金）。
+  - 保留継続:
+    - 湯川村の母子保健PDF群（妊婦支援給付、産後ケア、不妊治療助成）はPDF本文の金額・受付状況未展開。予防接種助成は助成額・上限が本文にないため採用しない。就学援助はPDF未展開、日常生活用具給付は個別金額不足として継続確認。
+    - 柳津町の妊婦支援給付は既掲載の出産・子育て応援給付金と重複扱い。児童手当は国制度、子ども医療費助成は既掲載、未熟児養育医療・ひとり親支援は制度単位の給付範囲・受付差分を次巡確認。
+    - 三島町の医療費助成カテゴリ、ワクチン接種、デマンドバス減免、移住定住一覧、申請書ダウンロード内制度は、今回新規採用に必要な金額・受付差分まで展開できず継続確認。
+    - 金山町の補聴器、未熟児養育医療、予防接種、高齢者福祉の旧URL候補4件は404。児童手当・特別児童扶養手当・児童扶養手当等は国県制度重複候補のため、現行公式URLと町独自差分を次巡で確認。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 12件、重複0。
+    - 追加した12制度12公式URLはすべて HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9416、officialLinkedActive 9378、manuallyVerifiedActive 9378、福島県 `localOfficial` 894、福島県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-second-pass-008-shortlist.json tasks/discovery/fukushima-second-pass-008-page-evidence.json tasks/discovery/fukushima-second-pass-008-adopted.json`: pass。
+  - 次:
+    - 福島県第2巡009として、07446昭和村、07447会津美里町、07461西郷村、07464泉崎村の保留候補を確認する。
+
 - 宮城県公式棚卸し009（美里町・女川町・南三陸町）
   - 対象: 04505美里町、04581女川町、04606南三陸町。
   - 方法:
