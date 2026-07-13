@@ -3622,9 +3622,9 @@
     - 七ヶ宿町の住宅助成は助成額表を公式本文/PDFから取得できず、補装具費・日常生活用具は利用者負担案内中心。児童手当・出産育児一時金は国制度扱いとして今回追加しない。
   - 検証:
     - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
-    - slug重複確認: total 8055、duplicates 0。
-    - 20制度21URLの公式URL到達確認: HTTP 200。
-    - `npm run audit:coverage`: pass（failures 0、activePublished 8008、officialLinkedActive 7970、manuallyVerifiedActive 7970、宮城県 localOfficial 252）。
+    - slug重複確認: total 9519、duplicates 0。
+    - 20制度18公式URLの公式URL到達確認: HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9445、officialLinkedActive 9407、manuallyVerifiedActive 9407、宮城県 localOfficial 355、宮城県 coveredCategories 8）。
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-second-pass-004.json`: pass。
   - 次:
     - 宮城県公式棚卸し第2巡005として、大河原町・村田町・柴田町・川崎町の第1巡保留候補を確認する。

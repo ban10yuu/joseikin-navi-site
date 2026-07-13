@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T15:02:21+09:00",
+  "updatedAt": "2026-07-13T15:05:25+09:00",
   "mode": "miyagi-second-pass-official-coverage",
   "lastCompleted": {
-    "code": "miyagi-second-pass-official-coverage-003",
-    "municipality": "多賀城市・岩沼市・登米市・栗原市",
-    "adopted": 16,
+    "code": "miyagi-second-pass-official-coverage-004",
+    "municipality": "東松島市・大崎市・蔵王町・七ヶ宿町",
+    "adopted": 20,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 14,
+    "sourceUrlsChecked": 18,
     "validation": {
-      "previousMunicipality": "宮城県第2巡003として、04209多賀城市、04211岩沼市、04212登米市、04213栗原市を対象に、第1巡003の保留候補と既作成台帳を再確認した。多賀城市1制度、岩沼市2制度、登米市6制度、栗原市7制度の採用slugと16制度14公式URLを現行HEADで再検証し、カテゴリ導線・既存採用済みページ内の重複項目・市外制度案内は不採用理由付きで解消した。",
+      "previousMunicipality": "宮城県第2巡004として、04214東松島市、04215大崎市、04301蔵王町、04302七ヶ宿町を対象に、第1巡004の保留候補と既作成台帳を再確認した。東松島市6制度、蔵王町6制度、七ヶ宿町8制度の採用slugと20制度18公式URLを現行HEADで再検証し、大崎市の既存制度・カテゴリ・一般案内、各町市の旧制度・外部制度・金額不足候補は不採用理由付きで解消した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: added 16 slugs, duplicateOrMissing 0, duplicates 0",
-      "urlReachability": "pass: checked 16 added grant source URLs, 14 unique URLs all HTTP 200",
-      "diffCheck": "pass: git diff --check for Miyagi second-pass 003 files",
+      "addedSlugUniqueness": "pass: added 20 slugs, duplicateOrMissing 0, duplicates 0",
+      "urlReachability": "pass: checked 20 added grant source URLs, 18 unique URLs all HTTP 200",
+      "diffCheck": "pass: git diff --check for Miyagi second-pass 004 files",
       "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9445, officialLinkedActive 9407, manuallyVerifiedActive 9407, Miyagi localOfficial 355, Miyagi coveredCategories 8"
     }
   },
   "next": {
-    "code": "miyagi-second-pass-official-coverage-004",
-    "municipality": "東松島市・大崎市・蔵王町・七ヶ宿町",
-    "shortlist": "宮城県第2巡003で多賀城市の介護保険料減免、岩沼市の児童扶養手当・犯罪被害者等支援金、登米市6制度、栗原市7制度を現行検証した。カテゴリ導線、既存採用済みページ内の重複項目、市外制度案内は解消済み。",
-    "instructions": "宮城県公式棚卸し第2巡004として、04214東松島市、04215大崎市、04301蔵王町、04302七ヶ宿町の第1巡保留候補を確認する。東松島市の地方就職学生支援金・移住支援金・農業構造転換支援、大崎市のカテゴリ/既存制度/一般案内、蔵王町の中小企業融資制度、七ヶ宿町の住宅助成・補装具費・日常生活用具等を公式本文/PDF単位で再確認し、制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。"
+    "code": "miyagi-second-pass-official-coverage-005",
+    "municipality": "大河原町・村田町・柴田町・川崎町",
+    "shortlist": "宮城県第2巡004で東松島市6制度、蔵王町6制度、七ヶ宿町8制度を現行検証した。大崎市の既存制度・カテゴリ・一般案内、各町市の旧制度・外部制度・金額不足候補は解消済み。",
+    "instructions": "宮城県公式棚卸し第2巡005として、04321大河原町、04322村田町、04323柴田町、04324川崎町の第1巡保留候補を確認する。大河原町・村田町・柴田町・川崎町のカテゴリ、一覧、PDF、金額未掲載候補、外部制度案内、旧制度候補を公式本文/PDF単位で再確認し、制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
