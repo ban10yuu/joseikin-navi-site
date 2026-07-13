@@ -1,0 +1,85 @@
+{
+  "batchId": "ibaraki-comprehensive-official-coverage-001",
+  "prefecture": "茨城県",
+  "municipalities": [
+    {
+      "code": "08000",
+      "name": "茨城県庁",
+      "officialBaseUrl": "https://www.pref.ibaraki.jp/",
+      "candidateCount": 794,
+      "adopted": 0,
+      "held": [
+        "移住支援金、奨学金返還支援、介護テクノロジー、脱炭素関連補助等の主要候補は既存公式確認済み制度として登録済みのため重複採用しない。",
+        "県トップ、分野カテゴリ、募集一覧、雇用統計、国制度・外部団体案内は個別制度本文ではないため採用しない。",
+        "県庁横断の補助金・融資・農業分野PDFは第2巡台帳で個別要綱と受付状況を再確認する。"
+      ]
+    },
+    {
+      "code": "08201",
+      "name": "水戸市",
+      "officialBaseUrl": "https://www.city.mito.lg.jp/",
+      "candidateCount": 771,
+      "adopted": 0,
+      "held": [
+        "子ども医療、認可外保育施設補助、教育・温暖化対策・子育て関連の主要候補は既存公式確認済み制度として登録済みのため重複採用しない。",
+        "雇用・労働カテゴリ、申請一覧、くらし分類、施設案内、国県制度の周知ページは個別の市制度本文ではないため採用しない。",
+        "市独自補助の未掲載候補は第2巡でPDFや下位ページを再取得する。"
+      ]
+    },
+    {
+      "code": "08202",
+      "name": "日立市",
+      "officialBaseUrl": "https://www.city.hitachi.lg.jp/",
+      "candidateCount": 350,
+      "adopted": 9,
+      "held": [
+        "令和8年度中小企業競争力強化支援事業補助金、医療・高齢者・子育て・住宅系の既掲載URLは重複採用しない。",
+        "カテゴリページ、国等の補助金のお知らせ、過年度又は受付終了の給付金は採用しない。",
+        "公式本文で制度名・対象・金額/上限・条件・期限/受付状況を確認できたAI実証、脱炭素設備、生ごみ処理機器、課題解決、人的資本、通学定期、省エネ家電、がん治療用品、重度障害者住宅リフォームを採用した。"
+      ]
+    },
+    {
+      "code": "08203",
+      "name": "土浦市",
+      "officialBaseUrl": "https://www.city.tsuchiura.lg.jp/",
+      "candidateCount": 388,
+      "adopted": 5,
+      "held": [
+        "結婚新生活支援、物価高騰対策支援、既掲載の医療・福祉・住宅・子育て関連URLは重複採用しない。",
+        "カテゴリ、生活案内、外部制度案内、受付終了告知は採用しない。",
+        "公式本文で制度名・対象・金額/上限・条件・期限/受付状況を確認できた防犯カメラ設置、奨学金返還、まちなか定住、転入者リフォーム、地方就職支援金を採用した。"
+      ]
+    }
+  ],
+  "generatedFiles": [
+    "tasks/discovery/ibaraki-official-coverage-001-municipalities.json",
+    "tasks/discovery/ibaraki-official-coverage-001-candidates.json",
+    "tasks/discovery/ibaraki-official-coverage-001-snippets.json"
+  ],
+  "adoptedSlugs": [
+    "hitachi-sme-ai-service-proof-support-2026",
+    "hitachi-decarbonization-equipment-support-2026",
+    "hitachi-food-waste-processor-incentive-2026",
+    "hitachi-sme-business-continuity-issue-support-2026",
+    "hitachi-sme-human-capital-management-support-2026",
+    "hitachi-school-commuter-bus-pass-subsidy-2026",
+    "hitachi-energy-saving-appliance-purchase-subsidy-2026",
+    "hitachi-cancer-appearance-and-welfare-equipment-subsidy-2026",
+    "hitachi-severe-disability-home-remodel-subsidy-2026",
+    "tsuchiura-town-association-security-camera-subsidy-2026",
+    "tsuchiura-scholarship-repayment-support-2026",
+    "tsuchiura-downtown-settlement-promotion-subsidy-2026",
+    "tsuchiura-newcomer-home-renovation-support-2026",
+    "tsuchiura-local-employment-student-support-2026"
+  ],
+  "summary": {
+    "candidateCount": 2303,
+    "snippetRows": 500,
+    "adopted": 14,
+    "sourceUrlsChecked": 14,
+    "uniqueSourceUrlsChecked": 14,
+    "shortlistRescored": true,
+    "notes": "候補数が150件を超えたため本文スニペットを抽出し再スコアリングした。公式本文で制度名・対象・金額/上限・条件・期限/受付状況を確認できる個別制度だけ採用し、トップ、カテゴリ、国県制度、外部団体案内、受付終了、既存重複は不採用または第2巡台帳へ残した。"
+  },
+  "updatedAt": "2026-07-13T17:50:00+09:00"
+}

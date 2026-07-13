@@ -5510,3 +5510,30 @@
     - 全国公式棚卸しは未完了。raw gap 0やHTTP 200のみを全国完了扱いしない。
   - 次:
     - 茨城県公式棚卸し001として、08000茨城県庁、08201水戸市、08202日立市、08203土浦市を自治体コード順に確認する。
+
+- 茨城県公式棚卸し001
+  - 対象:
+    - 08000 茨城県庁、08201 水戸市、08202 日立市、08203 土浦市。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補数2303件のため本文スニペット500件を再スコアリングした。
+    - 既掲載公式URL、県・国制度重複、カテゴリ導線、受付終了、金額又は受付状況不足の候補を除外し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で揃うページのみ採用した。
+  - 採用:
+    - 日立市9件: 中小企業AIサービス実証支援、脱炭素設備導入促進、生ごみ処理機器設置、課題解決支援、人的資本経営支援、路線バス通学定期券、省エネ家電、がん治療用品、重度障害者住宅リフォーム。
+    - 土浦市5件: 防犯カメラ設置、奨学金返還支援、まちなか定住促進、転入者リフォーム、地方就職支援金。
+    - 茨城県庁・水戸市は既掲載・カテゴリ導線・国県制度中心のため新規採用0件。
+  - 生成ファイル:
+    - `tasks/discovery/ibaraki-official-coverage-001-municipalities.json`
+    - `tasks/discovery/ibaraki-official-coverage-001-candidates.json`
+    - `tasks/discovery/ibaraki-official-coverage-001-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-001.json`
+  - 検証:
+    - JSON構文: pass（茨城001のmunicipalities/candidates/snippets/audit/checkpoint）。
+    - 追加slug重複: pass（14件、duplicateCount 0）。
+    - 公式URL到達: pass（14件すべてHTTP 200）。
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9578、officialLinkedActive 9540、manuallyVerifiedActive 9540、茨城県 localOfficial 100）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+  - 次:
+    - 茨城県公式棚卸し002として、08204古河市、08205石岡市、08207結城市、08208龍ケ崎市を自治体コード順に確認する。
