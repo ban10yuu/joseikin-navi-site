@@ -3807,9 +3807,9 @@
     - 大郷町の空き家バンク情報ページは制度本体ページと公式案内PDFを採用したため、誘導ページ自体は採用しない。
   - 検証:
     - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
-    - 追加25slug一意確認: pass。
+    - 追加25slug一意確認: pass（総slug 9519、重複0）。
     - 25制度30URLの公式URL到達確認: 全件HTTP 200。
-    - `npm run audit:coverage`: pass（failures 0、activePublished 8068、officialLinkedActive 8030、manuallyVerifiedActive 8030、宮城県 localOfficial 312）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9445、officialLinkedActive 9407、manuallyVerifiedActive 9407、宮城県 localOfficial 355、宮城県 coveredCategories 8）。
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/miyagi-official-coverage-second-pass-007.json`: pass。
   - 次:
     - 宮城県公式棚卸し第2巡008として、04424大衡村、04444色麻町、04445加美町、04501涌谷町の第1巡保留候補を確認する。

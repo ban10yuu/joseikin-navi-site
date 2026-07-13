@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T15:13:37+09:00",
+  "updatedAt": "2026-07-13T15:16:22+09:00",
   "mode": "miyagi-second-pass-official-coverage",
   "lastCompleted": {
-    "code": "miyagi-second-pass-official-coverage-006",
-    "municipality": "丸森町・亘理町・山元町・松島町",
-    "adopted": 26,
+    "code": "miyagi-second-pass-official-coverage-007",
+    "municipality": "七ヶ浜町・利府町・大和町・大郷町",
+    "adopted": 25,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 31,
+    "sourceUrlsChecked": 30,
     "validation": {
-      "previousMunicipality": "宮城県第2巡006として、04341丸森町、04361亘理町、04362山元町、04401松島町を対象に、第1巡006の保留候補と既作成台帳を再確認した。丸森町5制度、亘理町12制度、山元町7制度、松島町2制度の採用slugと26制度31公式URLを現行HEADで再検証し、亘理町の耐震診断、松島町の総合案内・国制度案内・施設案内・カテゴリ誘導ページは不採用理由付きで解消した。",
+      "previousMunicipality": "宮城県第2巡007として、04404七ヶ浜町、04406利府町、04421大和町、04422大郷町を対象に、第1巡007の保留候補と既作成台帳を再確認した。七ヶ浜町4制度、利府町7制度、大和町7制度、大郷町7制度の採用slugと25制度30公式URLを現行HEADで再検証し、総合カテゴリ、施設案内、国制度案内中心ページ、啓発事業、誘導ページは不採用理由付きで解消した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: added 26 slugs, duplicateOrMissing 0, duplicates 0, total slugs 9519",
-      "urlReachability": "pass: checked 26 added grant source URLs, 31 unique URLs all HTTP 200",
-      "diffCheck": "pass: git diff --check for Miyagi second-pass 006 files",
+      "addedSlugUniqueness": "pass: added 25 slugs, duplicateOrMissing 0, duplicates 0, total slugs 9519",
+      "urlReachability": "pass: checked 25 added grant source URLs, 30 unique URLs all HTTP 200",
+      "diffCheck": "pass: git diff --check for Miyagi second-pass 007 files",
       "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9445, officialLinkedActive 9407, manuallyVerifiedActive 9407, Miyagi localOfficial 355, Miyagi coveredCategories 8"
     }
   },
   "next": {
-    "code": "miyagi-second-pass-official-coverage-007",
-    "municipality": "七ヶ浜町・利府町・大和町・大郷町",
-    "shortlist": "宮城県第2巡006で丸森町5制度、亘理町12制度、山元町7制度、松島町2制度を現行検証した。亘理町の耐震診断、松島町の総合案内・国制度案内・施設案内・カテゴリ誘導ページは解消済み。",
-    "instructions": "宮城県公式棚卸し第2巡007として、04404七ヶ浜町、04406利府町、04421大和町、04422大郷町の第1巡保留候補を確認する。七ヶ浜町・利府町・大和町・大郷町の公式本文、要綱ページ、個別制度ページ、PDF、金額未掲載候補、外部制度案内、旧制度候補を再確認し、制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。"
+    "code": "miyagi-second-pass-official-coverage-008",
+    "municipality": "大衡村・色麻町・加美町・涌谷町",
+    "shortlist": "宮城県第2巡007で七ヶ浜町4制度、利府町7制度、大和町7制度、大郷町7制度を現行検証した。総合カテゴリ、施設案内、国制度案内中心ページ、啓発事業、誘導ページは解消済み。",
+    "instructions": "宮城県公式棚卸し第2巡008として、04424大衡村、04444色麻町、04445加美町、04501涌谷町の第1巡保留候補を確認する。大衡村・色麻町・加美町・涌谷町の公式本文、要綱ページ、個別制度ページ、PDF、金額未掲載候補、外部制度案内、旧制度候補を再確認し、制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
