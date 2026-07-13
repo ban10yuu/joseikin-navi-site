@@ -1,0 +1,26 @@
+{
+  "batchId": "fukushima-comprehensive-official-coverage-009",
+  "prefecture": "福島県",
+  "municipalities": [
+    {
+      "code": "07446",
+      "name": "昭和村",
+      "officialBaseUrl": "https://www.vill.showa.fukushima.jp/"
+    },
+    {
+      "code": "07447",
+      "name": "会津美里町",
+      "officialBaseUrl": "https://www.town.aizumisato.fukushima.jp/"
+    },
+    {
+      "code": "07461",
+      "name": "西郷村",
+      "officialBaseUrl": "https://www.vill.nishigo.fukushima.jp/"
+    },
+    {
+      "code": "07464",
+      "name": "泉崎村",
+      "officialBaseUrl": "https://www.vill.izumizaki.fukushima.jp/"
+    }
+  ]
+}
