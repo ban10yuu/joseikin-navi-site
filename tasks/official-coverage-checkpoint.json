@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T11:35:00+09:00",
+  "updatedAt": "2026-07-13T11:55:00+09:00",
   "mode": "fukushima-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "fukushima-comprehensive-official-coverage-013",
-    "municipality": "小野町・広野町・楢葉町・富岡町",
+    "code": "fukushima-comprehensive-official-coverage-014",
+    "municipality": "川内村・大熊町・双葉町・浪江町",
     "adopted": 60,
-    "held": 12,
-    "excluded": 3,
+    "held": 18,
+    "excluded": 2,
     "sourceUrlsChecked": 60,
     "validation": {
-      "previousMunicipality": "福島県公式棚卸し013として、07522小野町、07541広野町、07542楢葉町、07543富岡町の公式サイトを確認した。公式トップURLは4件すべてHTTP 200。公式候補1039件が150件を超えたため本文スニペット59件を抽出し、楢葉町・富岡町は公式カテゴリ導線から個別制度ページを補完した。制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる60ページを採用した。カテゴリ・一覧、旧制度、重複ページ、金額差分未確認候補は第2巡台帳へ残した。",
+      "previousMunicipality": "福島県公式棚卸し014として、07544川内村、07545大熊町、07546双葉町、07547浪江町の公式サイトを確認した。公式トップURLは4件すべてHTTP 200。公式候補1267件が150件を超えたため公式カテゴリ導線と本文スニペットを再確認し、制度名・対象・金額/上限・条件・期限/受付状況が確認できる60ページを採用した。カテゴリ・一覧、Google翻訳ノイズ、無料相談中心ページ、交付金説明ページ、金額差分未確認候補は第2巡台帳へ残した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "addedSlugUniqueness": "pass: added 60 slugs, duplicateOrMissing 0",
       "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 60 added slugs / 60 source URLs, failures 0, all HTTP 200",
-      "diffCheck": "pass: git diff --check for Fukushima 013 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9204, officialLinkedActive 9166, manuallyVerifiedActive 9166, Fukushima localOfficial 682, Fukushima coveredCategories 8"
+      "diffCheck": "pass: git diff --check for Fukushima 014 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9264, officialLinkedActive 9226, manuallyVerifiedActive 9226, Fukushima localOfficial 742, Fukushima coveredCategories 8"
     }
   },
   "next": {
-    "code": "fukushima-comprehensive-official-coverage-014",
-    "municipality": "川内村・大熊町・双葉町・浪江町",
-    "shortlist": "福島県公式棚卸し013で小野町・広野町・楢葉町・富岡町から60制度を採用した。次は福島県014として自治体コード順に07544川内村、07545大熊町、07546双葉町、07547浪江町を確認する。",
-    "instructions": "福島県公式棚卸し014として、07544川内村、07545大熊町、07546双葉町、07547浪江町を自治体コード順に確認する。公式サイトの補助金・助成金・給付金・一時金等を制度ページ単位で、制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約付きで採用し、トップ、カテゴリ、サイトマップ、共通ナビ一致は削除せず第2巡台帳へ残す。既存raw gap 0を全国完了扱いしない。"
+    "code": "fukushima-comprehensive-official-coverage-015",
+    "municipality": "葛尾村・新地町・飯舘村",
+    "shortlist": "福島県公式棚卸し014で川内村・大熊町・双葉町・浪江町から60制度を採用した。次は福島県015として自治体コード順に07548葛尾村、07561新地町、07564飯舘村を確認する。",
+    "instructions": "福島県公式棚卸し015として、07548葛尾村、07561新地町、07564飯舘村を自治体コード順に確認する。公式サイトの補助金・助成金・給付金・一時金等を制度ページ単位で、制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約付きで採用し、トップ、カテゴリ、サイトマップ、共通ナビ一致は削除せず第2巡台帳へ残す。既存raw gap 0を全国完了扱いしない。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

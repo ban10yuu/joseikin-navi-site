@@ -1,0 +1,26 @@
+{
+  "batchId": "fukushima-comprehensive-official-coverage-014",
+  "prefecture": "福島県",
+  "municipalities": [
+    {
+      "code": "07544",
+      "name": "川内村",
+      "officialBaseUrl": "https://www.kawauchimura.jp/"
+    },
+    {
+      "code": "07545",
+      "name": "大熊町",
+      "officialBaseUrl": "https://www.town.okuma.fukushima.jp/"
+    },
+    {
+      "code": "07546",
+      "name": "双葉町",
+      "officialBaseUrl": "https://www.town.fukushima-futaba.lg.jp/"
+    },
+    {
+      "code": "07547",
+      "name": "浪江町",
+      "officialBaseUrl": "https://www.town.namie.fukushima.jp/"
+    }
+  ]
+}
