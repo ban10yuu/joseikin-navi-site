@@ -5968,3 +5968,38 @@
     - さくら市の軽自動車税減免等の税減免ページは、助成制度としての掲載粒度を第2巡で整理する。
   - 次:
     - 栃木県公式棚卸し004として、09215那須烏山市、09216下野市、09301上三川町、09342益子町を自治体コード順に確認する。
+
+- 栃木県公式棚卸し004
+  - 対象:
+    - 09215 那須烏山市、09216 下野市、09301 上三川町、09342 益子町。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補1,209件をローカルJSONへ保存した。
+    - `tasks/discovery/tochigi-official-coverage-004-detail-snippets.json` に短い本文スニペット、金額・対象・期限表現、再スコアを抽出し、那須烏山市・下野市の個別ページを優先確認した。
+    - 上三川町・益子町は初回crawl候補がカテゴリ・導線寄りだったため、公式ドメイン内の個別制度ページを追加取得し、`tasks/discovery/tochigi-official-coverage-004-official-extra.json` に保存した。
+    - 既存 `officialUrl` と照合し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLが揃うページのみ採用した。
+  - 採用:
+    - 那須烏山市10件: 住宅リフォーム、移住ファミリー家賃、空き家バンク住宅改修、結婚新生活、住宅取得、地方就職支援、とちぎ結婚支援センター登録、骨髄等移植ドナー、地域ふれあい活動、自治会集会施設整備等。
+    - 下野市8件: 就学援助、奨学金償還一部免除、妊婦のための支援給付、低所得妊婦初回産科受診料、自立支援教育訓練、高等職業訓練、高卒認定試験合格支援、学童保育料減免。
+    - 上三川町3件: 定住促進住宅取得支援金、移住支援事業、原油価格・物価高騰対策農業者支援事業交付金。
+    - 益子町5件: 起業支援、地場産業育成、移住支援金、若年層等UIJターン支援、物価高騰対策地域通貨支給。
+  - 生成ファイル:
+    - `tasks/discovery/tochigi-official-coverage-004-municipalities.json`
+    - `tasks/discovery/tochigi-official-coverage-004-candidates.json`（raw候補）
+    - `tasks/discovery/tochigi-official-coverage-004-detail-snippets.json`
+    - `tasks/discovery/tochigi-official-coverage-004-official-extra.json`
+    - `tasks/discovery/tochigi-official-coverage-004.json`
+  - 検証:
+    - 追加slug重複: pass（26件、全9598slugでduplicateCount 0）。
+    - 公式URL到達: pass（26件すべてHTTP 200）。
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9959、officialLinkedActive 9921、manuallyVerifiedActive 9921、栃木県 localOfficial 223）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 那須烏山市の木造住宅耐震診断・耐震改修、企業誘致・立地支援、がん患者医療用ウィッグ・乳房補整具、特定空家等除却は金額区分・受付状況を第2巡で再確認する。
+    - 下野市の英検検定料助成は一覧導線で候補確認したが、個別ページ又は公式PDFの対象・金額・申請期間確認を第2巡へ残す。
+    - 上三川町の省エネ家電、家庭用脱炭素設備、エネルギー価格等高騰対策支援金、赤ちゃん誕生祝金、スマート農業技術導入支援は、公式本文・添付資料の金額表を精査してから掲載判定する。
+    - 益子町の若者定住促進住まいづくり奨励金は取得期限後の申請可能性を再確認する。子育て・教育ページ内の複数給付は個別ページ又は支給要綱の安定URL確認を第2巡へ残す。
+  - 次:
+    - 栃木県公式棚卸し005として、09343茂木町、09344市貝町、09345芳賀町、09361壬生町を自治体コード順に確認する。

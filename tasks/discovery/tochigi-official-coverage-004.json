@@ -1,0 +1,113 @@
+{
+  "batchId": "tochigi-comprehensive-official-coverage-004",
+  "prefecture": "栃木県",
+  "status": "completed",
+  "completedAt": "2026-07-13T22:35:00+09:00",
+  "municipalities": [
+    {
+      "code": "09215",
+      "name": "那須烏山市",
+      "candidateCount": 293,
+      "adoptedCount": 10,
+      "adoptedSlugs": [
+        "nasukarasuyama-home-renovation",
+        "nasukarasuyama-family-rent",
+        "nasukarasuyama-empty-house-renovation",
+        "nasukarasuyama-newlywed-life",
+        "nasukarasuyama-home-acquisition",
+        "nasukarasuyama-local-employment",
+        "nasukarasuyama-marriage-center-registration",
+        "nasukarasuyama-bone-marrow-donor",
+        "nasukarasuyama-community-activity",
+        "nasukarasuyama-community-hall"
+      ],
+      "secondPass": [
+        "木造住宅耐震診断及び耐震改修等補助は、耐震診断・改修の金額区分を公式本文/PDFで再確認してから掲載判定する。",
+        "企業誘致・立地支援制度は、企業立地奨励金等の算定式・上限・交付期間をパンフレット含めて再確認する。",
+        "がん患者医療用ウィッグ及び乳房補整具購入費助成は、助成額・区分の本文確認を第2巡へ残す。",
+        "特定空家等除却事業費補助金は令和8年度の一次集約期間終了後の受付状況を再確認する。"
+      ]
+    },
+    {
+      "code": "09216",
+      "name": "下野市",
+      "candidateCount": 366,
+      "adoptedCount": 8,
+      "adoptedSlugs": [
+        "shimotsuke-school-expense-aid",
+        "shimotsuke-scholarship-repayment-exemption",
+        "shimotsuke-pregnant-women-benefit",
+        "shimotsuke-low-income-first-obstetric",
+        "shimotsuke-single-parent-education-training",
+        "shimotsuke-single-parent-vocational-training",
+        "shimotsuke-high-school-equivalency",
+        "shimotsuke-after-school-fee-exemption"
+      ],
+      "secondPass": [
+        "英検検定料助成は制度一覧・カテゴリ候補では確認したが、個別ページ又は公式PDFで対象・金額・申請期間を確認してから掲載する。",
+        "妊婦支援給付金は流産・死産等案内ページで支給額を確認したため採用したが、通常案内ページが別URLで安定している場合は第2巡でsourceUrlを追加する。",
+        "税減免、国制度中心の通常手当、FAQ・カテゴリページは個別の市独自補助・給付要件が揃うものだけ掲載対象とした。"
+      ]
+    },
+    {
+      "code": "09301",
+      "name": "上三川町",
+      "candidateCount": 505,
+      "adoptedCount": 3,
+      "adoptedSlugs": [
+        "kaminokawa-settlement-home-acquisition",
+        "kaminokawa-migration-support",
+        "kaminokawa-agriculture-price-support"
+      ],
+      "secondPass": [
+        "省エネ家電購入促進事業補助金、家庭用脱炭素推進設備等導入補助、エネルギー価格等高騰対策支援金、赤ちゃん誕生祝金、スマート農業技術導入支援事業は、公式本文・添付資料の金額表を精査してから掲載判定する。",
+        "補助金等制度ページは一覧・導線として扱い、個別制度ページ又はPDFで必須項目が揃うものだけ採用する。"
+      ]
+    },
+    {
+      "code": "09342",
+      "name": "益子町",
+      "candidateCount": 45,
+      "adoptedCount": 5,
+      "adoptedSlugs": [
+        "mashiko-startup-support",
+        "mashiko-local-industry-development",
+        "mashiko-migration-support",
+        "mashiko-youth-uij-turn",
+        "mashiko-regional-currency-price-support"
+      ],
+      "secondPass": [
+        "若者定住促進住まいづくり奨励金は取得期限が2026年3月31日までのため、申請可能性と現行性を再確認する。",
+        "子育て・教育ページの出産準備手当、チャイルドシート等購入費、紙おむつ購入助成、子育て応援手当等は、一覧ページで金額を確認したが、個別ページ又は支給要綱の安定URL確認を第2巡へ残す。"
+      ]
+    }
+  ],
+  "totals": {
+    "municipalityCount": 4,
+    "candidateCount": 1209,
+    "adoptedCount": 26
+  },
+  "generatedFiles": [
+    "tasks/discovery/tochigi-official-coverage-004-municipalities.json",
+    "tasks/discovery/tochigi-official-coverage-004-candidates.json",
+    "tasks/discovery/tochigi-official-coverage-004-detail-snippets.json",
+    "tasks/discovery/tochigi-official-coverage-004-official-extra.json"
+  ],
+  "validation": {
+    "nodeCheck": "pass",
+    "slugDuplicate": "pass",
+    "officialUrlReachability": "pass: 26 URLs HTTP 200",
+    "lint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
+    "gitDiffCheck": "pass",
+    "auditCoverage": "pass: failures 0, activePublished 9959, officialLinkedActive 9921, manuallyVerifiedActive 9921, 栃木県 localOfficial 223"
+  },
+  "next": {
+    "batchId": "tochigi-comprehensive-official-coverage-005",
+    "municipalities": [
+      { "code": "09343", "name": "茂木町" },
+      { "code": "09344", "name": "市貝町" },
+      { "code": "09345", "name": "芳賀町" },
+      { "code": "09361", "name": "壬生町" }
+    ]
+  }
+}
