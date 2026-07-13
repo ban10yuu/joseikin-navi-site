@@ -23,6 +23,7 @@ export const siteConfig = {
     endpoint: optionalValue(process.env.NEXT_PUBLIC_NEWSLETTER_ENDPOINT),
     senderName: optionalValue(process.env.NEXT_PUBLIC_NEWSLETTER_SENDER_NAME),
     unsubscribeUrl: optionalValue(process.env.NEXT_PUBLIC_NEWSLETTER_UNSUBSCRIBE_URL),
+    includesPromotions: process.env.NEXT_PUBLIC_NEWSLETTER_INCLUDES_PROMOTIONS === 'true',
   },
   privacy: {
     policyUpdatedAt: optionalValue(process.env.NEXT_PUBLIC_PRIVACY_UPDATED_AT),
