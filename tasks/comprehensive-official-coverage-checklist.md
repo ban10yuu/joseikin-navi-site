@@ -5537,3 +5537,31 @@
     - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
   - 次:
     - 茨城県公式棚卸し002として、08204古河市、08205石岡市、08207結城市、08208龍ケ崎市を自治体コード順に確認する。
+
+- 茨城県公式棚卸し002
+  - 対象:
+    - 08204 古河市、08205 石岡市、08207 結城市、08208 龍ケ崎市。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補数1628件のため本文スニペット39件を再スコアリングした。
+    - 既掲載公式URL、県・国制度重複、カテゴリ導線、受付終了、現年度受付準備中、金額又は受付状況不足の候補を除外し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で揃うページのみ採用した。
+  - 採用:
+    - 古河市0件: 主要候補は既存公式確認済みURLとして登録済みのため重複採用しない。
+    - 石岡市14件: 住宅・店舗リフォーム、奨学金返還、浄化槽、国際交流、専門従事者奨学金、高齢者補聴器、遠距離通学、蓄電池、物価高騰応援給付、踏み間違い防止、紙おむつ、小学校入学祝金、赤ちゃんクーポン、中学校入学祝金。
+    - 結城市4件: 浄化槽設置、軽度・中等度難聴児補聴器、城跡周辺地区整備、スズメバチ駆除。
+    - 龍ケ崎市12件: 医療機関等物価高騰、農業者等物価高騰、事業者等物価高騰、若者・子育て住宅取得、移住支援金、U34賃貸住宅更新、蓄電システム、U29新婚生活、保育所等給食食材料費、交通事業者物価高騰、省エネ家電、高校生地域活動。
+  - 生成ファイル:
+    - `tasks/discovery/ibaraki-official-coverage-002-municipalities.json`
+    - `tasks/discovery/ibaraki-official-coverage-002-candidates.json`
+    - `tasks/discovery/ibaraki-official-coverage-002-evidence-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-002.json`
+  - 検証:
+    - 追加slug重複: pass（30件、全9234slugでduplicateCount 0）。
+    - 公式URL到達: pass（30件すべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `node --check scripts/discover-official-candidates.mjs`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9608、officialLinkedActive 9570、manuallyVerifiedActive 9570、茨城県 localOfficial 130）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+  - 次:
+    - 茨城県公式棚卸し003として、08210下妻市、08211常総市、08212常陸太田市、08214高萩市を自治体コード順に確認する。

@@ -1,0 +1,107 @@
+{
+  "batchId": "ibaraki-comprehensive-official-coverage-002",
+  "prefecture": "茨城県",
+  "municipalities": [
+    {
+      "code": "08204",
+      "name": "古河市",
+      "officialBaseUrl": "https://www.city.ibaraki-koga.lg.jp/",
+      "candidateCount": 19,
+      "adopted": 0,
+      "held": [
+        "放課後児童クラブ、妊婦支援給付、物価高対応子育て応援手当、幼児教育無償化、マル福、高齢者タクシー、住宅取得奨励金、移住支援金、介護用品、住宅改修、奨学金、耐震、中小企業融資、商店街空き店舗、空き家改修等は既存公式確認済みURLとして登録済みのため重複採用しない。",
+        "トップ、カテゴリ、共通ナビ、外部制度案内は個別制度本文ではないため採用しない。",
+        "女性起業支援など公式本文で制度名・対象・金額/上限・受付状況が揃わない候補は第2巡台帳へ残す。"
+      ]
+    },
+    {
+      "code": "08205",
+      "name": "石岡市",
+      "officialBaseUrl": "https://www.city.ishioka.lg.jp/",
+      "candidateCount": 526,
+      "adopted": 14,
+      "held": [
+        "公式本文で制度名・対象・金額/上限・条件・期限/受付状況を確認できた住宅・店舗リフォーム、奨学金返還、浄化槽、国際交流、専門従事者奨学金、高齢者補聴器、遠距離通学、蓄電池、物価高騰給付、踏み間違い防止、紙おむつ、小学校入学祝金、赤ちゃんクーポン、中学校入学祝金を採用した。",
+        "軽度・中等度難聴児補聴器購入支援は基準価格と助成額の分離確認を優先し、第2巡でPDF/要綱を精査する。",
+        "カテゴリ、検索結果、広報、国県制度案内、既存登録と重複する候補は採用しない。"
+      ]
+    },
+    {
+      "code": "08207",
+      "name": "結城市",
+      "officialBaseUrl": "https://www.city.yuki.lg.jp/",
+      "candidateCount": 430,
+      "adopted": 4,
+      "held": [
+        "公式本文で制度名・対象・金額/上限・条件・期限/受付状況を確認できた浄化槽設置、軽度・中等度難聴児補聴器、城跡周辺地区整備、スズメバチ駆除を採用した。",
+        "生ごみ減量化器具購入費補助金は令和8年度受付終了を確認したため、今回は採用せず第2巡台帳へ残す。",
+        "令和7年度要項のみの給水管布設工事補助、金額表の確認が不足したスポーツ奨励金、カテゴリ・実績報告ページ等は採用しない。"
+      ]
+    },
+    {
+      "code": "08208",
+      "name": "龍ケ崎市",
+      "officialBaseUrl": "https://www.city.ryugasaki.ibaraki.jp/",
+      "candidateCount": 653,
+      "adopted": 12,
+      "held": [
+        "公式本文で制度名・対象・金額/上限・条件・期限/受付状況を確認できた医療機関等物価高騰、農業者等物価高騰、事業者等物価高騰、若者・子育て住宅取得、移住支援金、U34賃貸住宅更新、蓄電システム、U29新婚生活、保育所等給食食材料費、交通事業者物価高騰、省エネ家電、高校生地域活動を採用した。",
+        "牛久沼活用試行事業補助金、恋活・婚活マッチングアプリ利用支援は詳細要件又は現年度受付準備中のため第2巡で再確認する。",
+        "物価高騰対策の一覧ページ、カテゴリ、外部制度案内、PDFリンクのみで本文要件確認が不足する候補は採用しない。"
+      ]
+    }
+  ],
+  "generatedFiles": [
+    "tasks/discovery/ibaraki-official-coverage-002-municipalities.json",
+    "tasks/discovery/ibaraki-official-coverage-002-candidates.json",
+    "tasks/discovery/ibaraki-official-coverage-002-evidence-snippets.json"
+  ],
+  "adoptedSlugs": [
+    "ishioka-home-store-remodel-support-2026",
+    "ishioka-scholarship-repayment-support-2026",
+    "ishioka-septic-tank-installation-subsidy-2026",
+    "ishioka-international-exchange-project-subsidy-2026",
+    "ishioka-health-welfare-professional-scholarship-loan-2026",
+    "ishioka-elderly-hearing-aid-subsidy-2026",
+    "ishioka-school-commute-subsidy-2026",
+    "ishioka-home-battery-subsidy-2026",
+    "ishioka-price-hike-support-benefit-2026",
+    "ishioka-pedal-misapplication-prevention-device-subsidy-2026",
+    "ishioka-paper-diaper-purchase-subsidy-2026",
+    "ishioka-elementary-school-entrance-welfare-gift-2026",
+    "ishioka-baby-coupon-2026",
+    "ishioka-junior-high-school-entrance-welfare-gift-2026",
+    "yuki-septic-tank-installation-subsidy-2026",
+    "yuki-mild-moderate-hearing-aid-child-subsidy-2026",
+    "yuki-castle-ruins-area-improvement-subsidy-2026",
+    "yuki-hornet-extermination-subsidy-2026",
+    "ryugasaki-medical-institution-price-hike-support-2026",
+    "ryugasaki-farmer-price-hike-support-2026",
+    "ryugasaki-business-price-hike-support-2026",
+    "ryugasaki-young-childrearing-home-acquisition-subsidy-2026",
+    "ryugasaki-migration-support-2026",
+    "ryugasaki-u34-rental-housing-renewal-subsidy-2026",
+    "ryugasaki-home-battery-subsidy-2026",
+    "ryugasaki-u29-newlywed-start-support-2026",
+    "ryugasaki-nursery-meal-material-cost-support-2026",
+    "ryugasaki-transport-operator-price-hike-support-2026",
+    "ryugasaki-energy-saving-appliance-replacement-subsidy-2026",
+    "ryugasaki-high-school-community-activity-subsidy-2026"
+  ],
+  "summary": {
+    "candidateCount": 1628,
+    "snippetRows": 39,
+    "adopted": 30,
+    "sourceUrlsChecked": 30,
+    "uniqueSourceUrlsChecked": 30,
+    "shortlistRescored": true,
+    "notes": "候補数が150件を超えたため、制度強語・金額・対象・受付表現を含む公式本文スニペットを抽出して再選別した。公式本文で制度名・対象・金額/上限・条件・期限/受付状況を確認できる個別制度のみ採用し、既存登録済み、カテゴリ導線、国県制度、受付終了、現年度受付準備中、金額又は受付状況不足の候補は不採用又は第2巡台帳へ残した。"
+  },
+  "validation": {
+    "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: duplicateCount 0 across all 9234 slugs",
+    "urlReachability": "pass: 30 added official URLs returned HTTP 200",
+    "syntax": "pass: node --check scripts/discover-official-candidates.mjs"
+  },
+  "updatedAt": "2026-07-13T18:07:00+09:00"
+}
