@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { getGrantQualityStats, getOfficialLinkedGrants } from '@/lib/grants';
+import { getGrantQualityStats, getOfficialLinkedGrants, getRecentlyUpdatedGrants } from '@/lib/grants';
 import { CATEGORY_LABELS, GrantCategory } from '@/lib/types';
 import GrantCard from '@/components/GrantCard';
 import GoogleAd from '@/components/GoogleAd';
@@ -23,8 +23,7 @@ export default function HomePage() {
   const stats = getGrantQualityStats();
   const officialGrants = getOfficialLinkedGrants();
 
-  // 注目の助成金: 公式リンク記載・金額上位4件
-  const topGrants = officialGrants.slice(0, 4);
+  const recentlyUpdatedGrants = getRecentlyUpdatedGrants(4);
 
   return (
     <>
@@ -32,9 +31,9 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-7 sm:py-12">
           <div className="home-hero-intro">
             <p className="home-hero-kicker">国・自治体などの公式情報を整理</p>
-            <h1>あなたに合う助成金・補助金を、地域と目的から探せます</h1>
+            <h1>地域と目的から、利用できる可能性のある支援制度を探す</h1>
             <p>
-              制度名が分からなくても大丈夫です。個人・家族向けと事業者・団体向けに分けて、対象、金額、期限、公式の確認先を見比べられます。
+              国・自治体・民間団体の公式情報をもとに、対象、支援内容、申請期限、確認先を整理しています。
             </p>
           </div>
 
@@ -46,7 +45,7 @@ export default function HomePage() {
           <ul className="home-trust-strip" aria-label="助成金ナビの情報方針">
             <li><span aria-hidden="true">✓</span> 国・自治体などの公式情報が基準</li>
             <li><span aria-hidden="true">✓</span> 制度ごとに公式ページを案内</li>
-            <li><span aria-hidden="true">✓</span> 情報を確認した日付を表示</li>
+            <li><span aria-hidden="true">✓</span> 自動照合日と人手確認を区別</li>
           </ul>
         </div>
       </section>
@@ -90,11 +89,11 @@ export default function HomePage() {
       <section className="py-10 sm:py-14 px-4 bg-card border-t border-line">
         <div className="max-w-6xl mx-auto">
           <div className="home-section-heading">
-            <p>公式ページを確認できる制度から</p>
-            <h2>注目の助成金・補助金</h2>
+            <p>情報の更新日を基準に掲載</p>
+            <h2>最近更新された制度</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-            {topGrants.map((grant) => (
+            {recentlyUpdatedGrants.map((grant) => (
               <GrantCard key={grant.slug} grant={grant} />
             ))}
           </div>
