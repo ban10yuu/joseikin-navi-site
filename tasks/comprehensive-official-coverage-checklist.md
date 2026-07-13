@@ -4974,6 +4974,30 @@
   - 次:
     - 福島県第2巡007として、07405西会津町、07407磐梯町、07408猪苗代町、07421会津坂下町の保留候補を確認する。
 
+- 福島県公式棚卸し第2巡007（西会津町・磐梯町・猪苗代町・会津坂下町）
+  - 対象: 07405西会津町、07407磐梯町、07408猪苗代町、07421会津坂下町。
+  - 方法:
+    - 第1巡007の保留候補、既存候補JSON、公式本文、PDF証跡、更新後URLを再確認した。
+    - 既掲載 `officialUrl` を除外し、公式本文/PDFを再取得して `tasks/discovery/fukushima-second-pass-007-shortlist.json` 14件、`tasks/discovery/fukushima-second-pass-007-page-evidence.json` 20件、`tasks/discovery/fukushima-second-pass-007-adopted.json` を作成した。
+    - title/h1/main/article/URLの制度強語に加え、対象・金額/上限・条件・期限/受付状況が公式本文またはPDFで確認できる個別ページを優先し、制度分離未確定、国県制度重複、既採用制度の詳細PDF、404旧URLは第2巡継続台帳へ残した。
+  - 追加:
+    - 西会津町: 結婚祝金、乳幼児家庭子育て応援金、子育て医療費サポート事業。
+    - 磐梯町: 骨髄等ドナー支援助成金、妊婦にやさしい遠方出産支援事業、誕生入学祝金支給制度、RSウイルス感染症予防接種（妊婦向け）、季節性インフルエンザ予防接種公費助成。
+    - 猪苗代町: 遠方出産助成事業、新生児聴覚検査支援事業。
+  - 保留継続:
+    - 西会津町の農業者応援チラシPDFは今回未展開。インフルエンザワクチン接種費助成は公式本文で無料と確認したが、予防接種の詳細ページ・年度受付差分を次巡で確認する。
+    - 磐梯町の新規就農者向け初期投資経費補助は一覧から制度名を確認したが、今回取得本文では補助率・上限・受付状況を確認できないため継続確認とした。
+    - 猪苗代町の結婚新生活支援、児童手当、高齢者肺炎球菌、子育て支援ガイドブック等は国制度重複または金額・受付差分未確定のため採用しなかった。
+    - 会津坂下町の特別児童扶養手当、児童扶養手当、出産育児一時金、母子父子寡婦福祉資金、国民年金免除は国・県制度重複。コンポスト個別PDFは既採用のごみ減量化補助制度と同一制度の詳細証跡として扱った。漏水減免旧URLは404で現行公式URL未確定。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 10件、重複0。
+    - 追加した10制度10公式URLはすべて HTTP 200。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9404、officialLinkedActive 9366、manuallyVerifiedActive 9366、福島県 `localOfficial` 882、福島県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-second-pass-007-shortlist.json tasks/discovery/fukushima-second-pass-007-page-evidence.json tasks/discovery/fukushima-second-pass-007-adopted.json`: pass。
+  - 次:
+    - 福島県第2巡008として、07422湯川村、07423柳津町、07444三島町、07445金山町の保留候補を確認する。
+
 - 宮城県公式棚卸し009（美里町・女川町・南三陸町）
   - 対象: 04505美里町、04581女川町、04606南三陸町。
   - 方法:

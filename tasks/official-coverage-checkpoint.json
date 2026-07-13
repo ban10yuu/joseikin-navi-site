@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T13:20:51+09:00",
+  "updatedAt": "2026-07-13T13:37:21+09:00",
   "mode": "fukushima-second-pass-official-coverage",
   "lastCompleted": {
-    "code": "fukushima-second-pass-official-coverage-006",
-    "municipality": "檜枝岐村・只見町・南会津町・北塩原村",
-    "adopted": 18,
-    "held": 3,
+    "code": "fukushima-second-pass-official-coverage-007",
+    "municipality": "西会津町・磐梯町・猪苗代町・会津坂下町",
+    "adopted": 10,
+    "held": 4,
     "excluded": 0,
-    "sourceUrlsChecked": 18,
+    "sourceUrlsChecked": 10,
     "validation": {
-      "previousMunicipality": "福島県第2巡006として、07364檜枝岐村、07367只見町、07368南会津町、07402北塩原村を対象に、第1巡006の保留候補、既存候補JSON、公式本文、PDF証跡、更新後URLを再確認した。既掲載officialUrlを除外し、shortlist 37件、個別ページ証跡43件を作成し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文またはPDFで確認できる18制度を採用した。年度終了、制度分離未確定、国制度重複、案内のみの候補は第2巡継続台帳へ残した。",
+      "previousMunicipality": "福島県第2巡007として、07405西会津町、07407磐梯町、07408猪苗代町、07421会津坂下町を対象に、第1巡007の保留候補、既存候補JSON、公式本文、PDF証跡、更新後URLを再確認した。既掲載officialUrlを除外し、shortlist 14件、個別ページ証跡20件を作成し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文またはPDFで確認できる10制度を採用した。制度分離未確定、国県制度重複、既採用制度の詳細PDF、404旧URLは第2巡継続台帳へ残した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: added 18 slugs, duplicateOrMissing 0",
-      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 18 added slugs / 18 source URLs, failures 0, all HTTP 200",
-      "diffCheck": "pass: git diff --check for Fukushima second-pass 006 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9394, officialLinkedActive 9356, manuallyVerifiedActive 9356, Fukushima localOfficial 872, Fukushima coveredCategories 8"
+      "addedSlugUniqueness": "pass: added 10 slugs, duplicateOrMissing 0",
+      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 10 added slugs / 10 source URLs, failures 0, all HTTP 200",
+      "diffCheck": "pass: git diff --check for Fukushima second-pass 007 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9404, officialLinkedActive 9366, manuallyVerifiedActive 9366, Fukushima localOfficial 882, Fukushima coveredCategories 8"
     }
   },
   "next": {
-    "code": "fukushima-second-pass-official-coverage-007",
-    "municipality": "西会津町・磐梯町・猪苗代町・会津坂下町",
-    "shortlist": "福島県第2巡006で南会津町・北塩原村の保留候補から18制度を追加した。檜枝岐村の年度終了候補、只見町の制度分離未確定候補、南会津町の国制度重複・案内のみ候補は継続台帳に残した。次は第1巡007の保留候補を自治体コード順に確認する。",
-    "instructions": "福島県第2巡007として、07405西会津町、07407磐梯町、07408猪苗代町、07421会津坂下町の第1巡保留候補、カテゴリ、一覧、PDF、金額未掲載候補、外部制度案内、旧制度候補を公式本文/PDF単位で再確認し、制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。既存raw gap 0や第1巡末尾到達を全国完了扱いしない。"
+    "code": "fukushima-second-pass-official-coverage-008",
+    "municipality": "湯川村・柳津町・三島町・金山町",
+    "shortlist": "福島県第2巡007で西会津町・磐梯町・猪苗代町の保留候補から10制度を追加した。西会津町の農業者応援チラシPDF、磐梯町の新規就農者向け初期投資経費補助、猪苗代町の国制度重複・金額差分未確定候補、会津坂下町の重複・404旧URL候補は継続台帳に残した。次は第1巡008の保留候補を自治体コード順に確認する。",
+    "instructions": "福島県第2巡008として、07422湯川村、07423柳津町、07444三島町、07445金山町の第1巡保留候補、カテゴリ、一覧、PDF、金額未掲載候補、外部制度案内、旧制度候補を公式本文/PDF単位で再確認し、制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。既存raw gap 0や第1巡末尾到達を全国完了扱いしない。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
