@@ -5114,6 +5114,28 @@
   - 次:
     - 福島県第2巡013として、07522小野町、07541広野町、07542楢葉町、07543富岡町の保留候補を確認する。
 
+- 福島県公式棚卸し第2巡013（小野町・広野町・楢葉町・富岡町）
+  - 対象: 07522小野町、07541広野町、07542楢葉町、07543富岡町。
+  - 方法:
+    - 第1巡013の保留候補、既存採用URL、公式カテゴリ、個別ページ、制度一覧を再確認した。
+    - 既掲載 `officialUrl` を除外し、公式本文を再取得して `tasks/discovery/fukushima-second-pass-013-shortlist.json` 10件、`tasks/discovery/fukushima-second-pass-013-page-evidence.json` 10件、`tasks/discovery/fukushima-second-pass-013-adopted.json` を作成した。
+    - title/h1/main/article/URLの制度強語に加え、対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別制度を採用し、過年度給付、実績公表、カテゴリ、重複導線、金額未掲載ページは第2巡継続台帳へ残した。
+  - 追加:
+    - 富岡町: 風しん予防接種費用助成、令和8年度高齢者肺炎球菌ワクチン予防接種費用助成、令和8年度帯状疱疹ワクチン予防接種費用助成。
+  - 保留継続:
+    - 小野町の児童手当制度改正ページは既掲載児童手当の改正導線として重複。旧事業所緊急支援給付金は令和5年8月31日申請期限の過年度給付。宝くじ助成金ページは備品購入実績で申請制度本文ではない。
+    - 広野町の乳幼児・児童医療費助成旧導線は既掲載制度と重複。救急患者受入支援事業等補助金交付実績は平成29年度等の実績公表で現行受付制度ではない。
+    - 楢葉町は第1巡保留のPDFノイズ候補、旧出産・子育て応援給付金、受付終了済み住宅状況調査、過年度住宅用新エネルギー補助金を現行採用しない。
+    - 富岡町の児童扶養手当ページは対象案内のみで本文内の支給額確認ができず、カテゴリページは個別制度導線として扱う。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 3件、重複確認 pass（duplicateOrMissing 0、duplicates 0）。
+    - 追加した3制度3公式URLの到達確認 pass（3件すべて HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9438、officialLinkedActive 9400、manuallyVerifiedActive 9400、福島県 `localOfficial` 916、福島県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-second-pass-013-shortlist.json tasks/discovery/fukushima-second-pass-013-page-evidence.json tasks/discovery/fukushima-second-pass-013-adopted.json`: pass。
+  - 次:
+    - 福島県第2巡014として、07544川内村、07545大熊町、07546双葉町、07547浪江町の保留候補を確認する。
+
 - 宮城県公式棚卸し009（美里町・女川町・南三陸町）
   - 対象: 04505美里町、04581女川町、04606南三陸町。
   - 方法:

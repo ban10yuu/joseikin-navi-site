@@ -1,0 +1,33 @@
+{
+  "batch": "fukushima-second-pass-013",
+  "checkedAt": "2026-07-13T14:29:51+09:00",
+  "adopted": [
+    {
+      "slug": "tomioka-medical-rubella-vaccine-subsidy-2026",
+      "municipality": "富岡町",
+      "title": "富岡町 風しん予防接種費用助成",
+      "officialUrl": "https://www.tomioka-town.jp/soshiki/kenkodukuri/8343.html",
+      "target": "妊娠を予定または希望する女性とその配偶者、妊娠中の女性の配偶者",
+      "amount": "MRワクチンまたは風しん単独ワクチンの接種費用全額、1回限り",
+      "status": "接種後申請"
+    },
+    {
+      "slug": "tomioka-medical-pneumococcal-vaccine-free-2026",
+      "municipality": "富岡町",
+      "title": "富岡町 令和8年度高齢者肺炎球菌ワクチン予防接種費用助成",
+      "officialUrl": "https://www.tomioka-town.jp/soshiki/kenkodukuri/7358.html",
+      "target": "満65歳、または60歳以上65歳未満で一定の障害がある方",
+      "amount": "福島県内医療機関で無料、県外避難先等で自己負担が生じた場合は接種後助成申請",
+      "status": "令和8年度対象者へ65歳の誕生月に案内"
+    },
+    {
+      "slug": "tomioka-medical-shingles-vaccine-subsidy-2026",
+      "municipality": "富岡町",
+      "title": "富岡町 令和8年度帯状疱疹ワクチン予防接種費用助成",
+      "officialUrl": "https://www.tomioka-town.jp/soshiki/kenkodukuri/9074.html",
+      "target": "令和8年度に65歳、70歳、75歳、80歳、85歳、90歳、95歳、100歳となる方等",
+      "amount": "生ワクチン自己負担2,500円、組換えワクチン自己負担1回6,500円。県外避難先等は町自己負担額超過分を助成",
+      "status": "令和8年4月1日から令和9年3月31日まで"
+    }
+  ]
+}

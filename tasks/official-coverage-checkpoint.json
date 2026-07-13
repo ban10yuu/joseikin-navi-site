@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T14:21:21+09:00",
+  "updatedAt": "2026-07-13T14:29:51+09:00",
   "mode": "fukushima-second-pass-official-coverage",
   "lastCompleted": {
-    "code": "fukushima-second-pass-official-coverage-012",
-    "municipality": "平田村・浅川町・古殿町・三春町",
-    "adopted": 1,
-    "held": 5,
+    "code": "fukushima-second-pass-official-coverage-013",
+    "municipality": "小野町・広野町・楢葉町・富岡町",
+    "adopted": 3,
+    "held": 7,
     "excluded": 0,
-    "sourceUrlsChecked": 6,
+    "sourceUrlsChecked": 10,
     "validation": {
-      "previousMunicipality": "福島県第2巡012として、07503平田村、07504浅川町、07505古殿町、07521三春町を対象に、第1巡012の保留候補、既存候補JSON、公式本文、PDF、カテゴリ、一覧、過年度給付ページを再確認した。公式本文/PDF証跡6件、shortlist 6件を作成し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文/PDFで確認できる1制度を採用した。過年度給付、一覧、カテゴリ、既掲載制度は第2巡継続台帳へ残した。",
+      "previousMunicipality": "福島県第2巡013として、07522小野町、07541広野町、07542楢葉町、07543富岡町を対象に、第1巡013の保留候補、既存採用URL、公式カテゴリ、個別ページ、制度一覧を再確認した。公式本文証跡10件、shortlist 10件を作成し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる3制度を採用した。過年度給付、実績公表、カテゴリ、重複導線、金額未掲載ページは第2巡継続台帳へ残した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: added 1 slug, duplicateOrMissing 0, duplicates 0",
-      "urlReachability": "pass: checked 1 added grant / 2 source URLs, all HTTP 200",
-      "diffCheck": "pass: git diff --check for Fukushima second-pass 012 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9435, officialLinkedActive 9397, manuallyVerifiedActive 9397, Fukushima localOfficial 913, Fukushima coveredCategories 8"
+      "addedSlugUniqueness": "pass: added 3 slugs, duplicateOrMissing 0, duplicates 0",
+      "urlReachability": "pass: checked 3 added grant source URLs, all HTTP 200",
+      "diffCheck": "pass: git diff --check for Fukushima second-pass 013 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9438, officialLinkedActive 9400, manuallyVerifiedActive 9400, Fukushima localOfficial 916, Fukushima coveredCategories 8"
     }
   },
   "next": {
-    "code": "fukushima-second-pass-official-coverage-013",
-    "municipality": "小野町・広野町・楢葉町・富岡町",
-    "shortlist": "福島県第2巡012で三春町のおたふくかぜワクチン接種費用助成を追加した。平田村の過年度給付、浅川町のカテゴリ/詳細未掲載ページ、古殿町の一覧/既掲載制度は継続台帳に残した。次は第1巡013の保留候補を自治体コード順に確認する。",
-    "instructions": "福島県第2巡013として、07522小野町、07541広野町、07542楢葉町、07543富岡町の第1巡保留候補、カテゴリ、一覧、PDF、金額未掲載候補、外部制度案内、旧制度候補を公式本文/PDF単位で再確認し、制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。既存raw gap 0や第1巡末尾到達を全国完了扱いしない。"
+    "code": "fukushima-second-pass-official-coverage-014",
+    "municipality": "川内村・大熊町・双葉町・浪江町",
+    "shortlist": "福島県第2巡013で富岡町の風しん、高齢者肺炎球菌、帯状疱疹ワクチン費用助成を追加した。小野町の旧給付/実績/重複導線、広野町の重複/実績、楢葉町の過年度・受付終了候補、富岡町の金額未掲載児童扶養手当とカテゴリは継続台帳に残した。次は第1巡014の保留候補を自治体コード順に確認する。",
+    "instructions": "福島県第2巡014として、07544川内村、07545大熊町、07546双葉町、07547浪江町の第1巡保留候補、カテゴリ、一覧、PDF、金額未掲載候補、外部制度案内、旧制度候補を公式本文/PDF単位で再確認し、制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ採用する。既存raw gap 0や第1巡末尾到達を全国完了扱いしない。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
