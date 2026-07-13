@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-07-13T14:21:21+09:00",
+  "batchId": "fukushima-second-pass-012",
+  "targets": [
+    "07503 平田村",
+    "07504 浅川町",
+    "07505 古殿町",
+    "07521 三春町"
+  ],
+  "sourceFiles": [
+    "tasks/discovery/fukushima-official-coverage-012-official-extra.json",
+    "tasks/discovery/fukushima-official-coverage-012-snippets.json",
+    "tasks/discovery/fukushima-official-coverage-012-selected.json",
+    "tasks/discovery/fukushima-official-coverage-012-adopted.json"
+  ],
+  "summary": {
+    "candidateRowsReviewed": 289,
+    "officialPagesFetched": 6,
+    "adopted": 1,
+    "held": 5
+  },
+  "shortlist": [
+    {
+      "municipality": "三春町",
+      "title": "子どもの予防接種おたふくかぜワクチンの助成について",
+      "url": "https://www.town.miharu.fukushima.jp/soshiki/6/otafuku-rota.html",
+      "status": "adopt",
+      "reason": "公式ページとPDFで対象、4,000円助成、申請方法が確認でき、既存未掲載だったため採用。"
+    },
+    {
+      "municipality": "平田村",
+      "title": "平田村子育て世帯生活支援給付金のお知らせ",
+      "url": "https://www.vill.hirata.fukushima.jp/soshiki/5/2397.html",
+      "status": "hold",
+      "reason": "令和5年4月1日基準の臨時給付で、現行受付制度としては期限・受付状況が不足。"
+    },
+    {
+      "municipality": "平田村",
+      "title": "子育て世帯生活支援特別給付金のご案内",
+      "url": "https://www.vill.hirata.fukushima.jp/soshiki/0/2260.html",
+      "status": "hold",
+      "reason": "過年度の国系臨時給付案内で、現行村独自制度としての受付状況が不足。"
+    },
+    {
+      "municipality": "平田村",
+      "title": "物価高騰対応低所得者支援給付金（追加交付）",
+      "url": "https://www.vill.hirata.fukushima.jp/soshiki/3/2692.html",
+      "status": "hold",
+      "reason": "令和6年1月31日提出期限の過年度給付で、現行受付終了候補として継続台帳へ残す。"
+    },
+    {
+      "municipality": "古殿町",
+      "title": "助成事業について",
+      "url": "https://www.town.furudono.fukushima.jp/kurashi/gomi-risaikuru/jyoseijigyou/40",
+      "status": "already-adopted",
+      "reason": "廃棄物減量化の補助内容は第1巡で `furudono-living-jyoseijigyou-40-2026` として掲載済み。"
+    },
+    {
+      "municipality": "古殿町",
+      "title": "補助・助成事業一覧",
+      "url": "https://www.town.furudono.fukushima.jp/tyouseijouhou/hojyojyoseijigyou/",
+      "status": "hold",
+      "reason": "一覧・カテゴリ導線で、既掲載制度との差分となる個別制度本文は確認できなかった。"
+    }
+  ]
+}

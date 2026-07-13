@@ -5093,6 +5093,27 @@
   - 次:
     - 福島県第2巡012として、07503平田村、07504浅川町、07505古殿町、07521三春町の保留候補を確認する。
 
+- 福島県公式棚卸し第2巡012（平田村・浅川町・古殿町・三春町）
+  - 対象: 07503平田村、07504浅川町、07505古殿町、07521三春町。
+  - 方法:
+    - 第1巡012の保留候補、既存採用URL、`fukushima-official-coverage-012-official-extra.json`、`fukushima-official-coverage-012-snippets.json`、`fukushima-official-coverage-012-selected.json`、PDFリンク、一覧・カテゴリ、過年度給付ページを再確認した。
+    - 既掲載 `officialUrl` を除外し、公式本文とPDFを再取得して `tasks/discovery/fukushima-second-pass-012-shortlist.json` 6件、`tasks/discovery/fukushima-second-pass-012-page-evidence.json` 6件、`tasks/discovery/fukushima-second-pass-012-adopted.json` を作成した。
+    - title/h1/main/article/URLの制度強語に加え、対象・金額/上限・条件・期限/受付状況が公式本文またはPDFで確認できる個別制度を採用し、過年度給付、一覧、カテゴリ、既掲載制度は第2巡継続台帳へ残した。
+  - 追加:
+    - 三春町: 子どものおたふくかぜワクチン接種費用助成。
+  - 保留継続:
+    - 平田村の子育て世帯生活支援給付金は令和5年4月1日基準、物価高騰対応低所得者支援給付金は令和6年1月31日提出期限の過年度給付で、現行受付制度としては扱わない。
+    - 浅川町のカテゴリ/サイトマップ/定額減税補足給付金の詳細未掲載ページは、現行の個別制度本文・金額・受付状況が不足。
+    - 古殿町の廃棄物減量化助成事業は第1巡で掲載済み。補助・助成事業一覧はカテゴリ/一覧導線で、未掲載の個別制度本文を確認できなかった。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 1件、重複確認 pass（duplicateOrMissing 0、duplicates 0）。
+    - 追加した1制度2公式URLの到達確認 pass（公式HTML/PDFとも HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9435、officialLinkedActive 9397、manuallyVerifiedActive 9397、福島県 `localOfficial` 913、福島県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-second-pass-012-shortlist.json tasks/discovery/fukushima-second-pass-012-page-evidence.json tasks/discovery/fukushima-second-pass-012-adopted.json`: pass。
+  - 次:
+    - 福島県第2巡013として、07522小野町、07541広野町、07542楢葉町、07543富岡町の保留候補を確認する。
+
 - 宮城県公式棚卸し009（美里町・女川町・南三陸町）
   - 対象: 04505美里町、04581女川町、04606南三陸町。
   - 方法:
