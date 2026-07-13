@@ -1,0 +1,26 @@
+{
+  "batchId": "fukushima-comprehensive-official-coverage-012",
+  "prefecture": "福島県",
+  "municipalities": [
+    {
+      "code": "07503",
+      "name": "平田村",
+      "officialBaseUrl": "https://www.vill.hirata.fukushima.jp/"
+    },
+    {
+      "code": "07504",
+      "name": "浅川町",
+      "officialBaseUrl": "https://www.town.asakawa.fukushima.jp/"
+    },
+    {
+      "code": "07505",
+      "name": "古殿町",
+      "officialBaseUrl": "https://www.town.furudono.fukushima.jp/"
+    },
+    {
+      "code": "07521",
+      "name": "三春町",
+      "officialBaseUrl": "https://www.town.miharu.fukushima.jp/"
+    }
+  ]
+}

@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T10:41:00+09:00",
+  "updatedAt": "2026-07-13T11:05:00+09:00",
   "mode": "fukushima-comprehensive-official-coverage",
   "lastCompleted": {
-    "code": "fukushima-comprehensive-official-coverage-011",
-    "municipality": "塙町・鮫川村・石川町・玉川村",
-    "adopted": 76,
-    "held": 4,
-    "excluded": 0,
-    "sourceUrlsChecked": 76,
+    "code": "fukushima-comprehensive-official-coverage-012",
+    "municipality": "平田村・浅川町・古殿町・三春町",
+    "adopted": 72,
+    "held": 7,
+    "excluded": 2,
+    "sourceUrlsChecked": 72,
     "validation": {
-      "previousMunicipality": "福島県公式棚卸し011として、07483塙町、07484鮫川村、07501石川町、07502玉川村の公式サイトを確認した。公式トップURLは4件すべてHTTP 200。公式候補1166件が150件を超えたため本文スニペット480件を抽出し、公式サイトマップ・カテゴリ配下から152件の追加公式候補を確認した。制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる76ページを採用した。カテゴリ・一覧、検索結果、旧制度、金額差分未確認候補は第2巡台帳へ残した。",
+      "previousMunicipality": "福島県公式棚卸し012として、07503平田村、07504浅川町、07505古殿町、07521三春町の公式サイトを確認した。公式トップURLは4件すべてHTTP 200。公式候補1059件が150件を超えたため本文スニペット578件を抽出し、浅川町は公式サイトマップ・担当課ページから児童福祉・教育・高齢/障がい福祉等の個別公式ページを補完した。制度名・対象・金額/上限・条件・期限/受付状況が公式本文で確認できる72ページを採用した。カテゴリ・一覧、検索結果、旧制度、金額差分未確認候補は第2巡台帳へ残した。",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: added 76 slugs, duplicateOrMissing 0",
-      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 76 added slugs / 76 source URLs, failures 0, all HTTP 200",
-      "diffCheck": "pass: git diff --check for Fukushima 011 files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9072, officialLinkedActive 9034, manuallyVerifiedActive 9034, Fukushima localOfficial 550, Fukushima coveredCategories 8"
+      "addedSlugUniqueness": "pass: added 72 slugs, duplicateOrMissing 0",
+      "urlReachability": "pass: node scripts/check-grant-source-urls.mjs checked 72 added slugs / 72 source URLs, failures 0, all HTTP 200",
+      "diffCheck": "pass: git diff --check for Fukushima 012 files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9144, officialLinkedActive 9106, manuallyVerifiedActive 9106, Fukushima localOfficial 622, Fukushima coveredCategories 8"
     }
   },
   "next": {
-    "code": "fukushima-comprehensive-official-coverage-012",
-    "municipality": "平田村・浅川町・古殿町・三春町",
-    "shortlist": "福島県公式棚卸し011で塙町・鮫川村・石川町・玉川村から76制度を採用した。次は福島県012として自治体コード順に07503平田村、07504浅川町、07505古殿町、07521三春町を確認する。",
-    "instructions": "福島県公式棚卸し012として、07503平田村、07504浅川町、07505古殿町、07521三春町を自治体コード順に確認する。公式サイトの補助金・助成金・給付金・一時金等を制度ページ単位で、制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約付きで採用し、トップ、カテゴリ、サイトマップ、共通ナビ一致は削除せず第2巡台帳へ残す。既存raw gap 0を全国完了扱いしない。"
+    "code": "fukushima-comprehensive-official-coverage-013",
+    "municipality": "小野町・広野町・楢葉町・富岡町",
+    "shortlist": "福島県公式棚卸し012で平田村・浅川町・古殿町・三春町から72制度を採用した。次は福島県013として自治体コード順に07522小野町、07541広野町、07542楢葉町、07543富岡町を確認する。",
+    "instructions": "福島県公式棚卸し013として、07522小野町、07541広野町、07542楢葉町、07543富岡町を自治体コード順に確認する。公式サイトの補助金・助成金・給付金・一時金等を制度ページ単位で、制度名・対象・金額/上限・条件・期限/受付状況・公式URL・要約付きで採用し、トップ、カテゴリ、サイトマップ、共通ナビ一致は削除せず第2巡台帳へ残す。既存raw gap 0を全国完了扱いしない。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",
