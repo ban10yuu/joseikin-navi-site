@@ -1,0 +1,112 @@
+{
+  "checkedAt": "2026-07-13",
+  "sourceBatch": "yamagata-official-coverage-009",
+  "mode": "second-pass",
+  "municipalities": [
+    {
+      "code": "06403",
+      "name": "飯豊町",
+      "adopted": [
+        {
+          "slug": "iide-senior-genki-life-support-voucher-2026",
+          "title": "飯豊町 高齢者元気生活応援商品券",
+          "url": "https://www.town.iide.yamagata.jp/002/hukusisyouhinnkenn.html",
+          "evidence": "65歳以上の町民、1人5,000円、令和8年8月1日から11月30日まで利用。"
+        },
+        {
+          "slug": "iide-school-lunch-fee-free-2026",
+          "title": "飯豊町 小学生学校給食費無償化",
+          "url": "https://www.town.iide.yamagata.jp/007/KyusyokuMusyouka.html",
+          "evidence": "町内小学校の全児童、令和8年4月1日開始、小学生給食費全額免除。"
+        },
+        {
+          "slug": "iide-price-hike-life-support-voucher-2026",
+          "title": "飯豊町 物価高騰対策生活支援商品券",
+          "url": "https://www.town.iide.yamagata.jp/001/R7seikatusienshouhinken.html",
+          "evidence": "町民1人13,000円、令和8年2月1日から7月31日まで利用。"
+        }
+      ],
+      "held": [
+        "住宅リフォーム、脱炭素・再エネ、創業・中小企業支援、奨学金県連携制度は現行年度の個別本文又は町独自差分を継続確認。"
+      ]
+    },
+    {
+      "code": "06426",
+      "name": "三川町",
+      "adopted": [],
+      "held": [
+        "子育て医療費、ひとり親・障がい福祉、介護用品、出産祝金等は国県制度重複・医療給付・町独自額不足のため追加せず、個別制度本文が出た場合に再確認。"
+      ]
+    },
+    {
+      "code": "06428",
+      "name": "庄内町",
+      "adopted": [
+        {
+          "slug": "shonai-trade-fair-exhibition-subsidy-2026",
+          "title": "庄内町 商工業振興支援事業補助金（商工業展出展者支援事業）",
+          "url": "https://www.town.shonai.lg.jp/business/shoukougyo/kougyosyuttennsien.html",
+          "evidence": "町内事業者、商工業展等の小間代等2分の1以内・1件上限10万円、申込期限令和7年7月31日午後5時。"
+        }
+      ],
+      "held": [
+        "農林水産業交付要綱PDFと中学校生徒派遣費は、制度単位切り分け、金額、対象条件の確認を継続。"
+      ]
+    },
+    {
+      "code": "06461",
+      "name": "遊佐町",
+      "adopted": [
+        {
+          "slug": "yuza-nursing-scholarship-loan-2026",
+          "title": "遊佐町 看護師等奨学金貸付",
+          "url": "https://www.town.yuza.yamagata.jp/archive/contents-2439",
+          "evidence": "看護師等養成学校在学者、月額50,000円以内、3年勤務で全額免除、随時受付。"
+        },
+        {
+          "slug": "yuza-sukusuku-childcare-support-payment-2026",
+          "title": "遊佐町 すくすくゆざっ子支援金",
+          "url": "https://www.town.yuza.yamagata.jp/archive/contents-550",
+          "evidence": "0歳から3歳到達年度末までの子どもの保護者、子ども1人月額15,000円、年3回支給。"
+        },
+        {
+          "slug": "yuza-single-parent-rent-subsidy-2026",
+          "title": "遊佐町 ひとり親家庭等家賃助成事業",
+          "url": "https://www.town.yuza.yamagata.jp/archive/contents-571",
+          "evidence": "ひとり親家庭等、家賃月額4分の1・月額上限10,000円、申請月分から助成。"
+        },
+        {
+          "slug": "yuza-sme-energy-saving-productivity-equipment-subsidy-2026",
+          "title": "遊佐町 中小事業者等省エネ・生産性向上設備導入緊急支援事業補助金",
+          "url": "https://www.town.yuza.yamagata.jp/archive/p20260313100252",
+          "evidence": "町内中小事業者等、補助対象経費3分の2、下限5万円・上限50万円、令和8年12月31日まで実績報告。"
+        },
+        {
+          "slug": "yuza-sme-capital-investment-subsidy-2026",
+          "title": "遊佐町 中小企業設備投資支援事業補助金",
+          "url": "https://www.town.yuza.yamagata.jp/archive/p20250402152610",
+          "evidence": "投下固定資産総額100万円以上、補助対象経費10%・上限100万円、事業認定前着工不可。"
+        },
+        {
+          "slug": "yuza-sme-technician-training-subsidy-2026",
+          "title": "遊佐町 中小企業等技術者養成研修補助制度",
+          "url": "https://www.town.yuza.yamagata.jp/archive/contents-2442",
+          "evidence": "業務上必要な資格取得・研修、受講料等3分の2以内、1者年額上限20万円、令和8年度受付開始。"
+        }
+      ],
+      "held": [
+        "再エネ設備は県制度案内との重複、きらきらマイタウン事業は現行受付と制度本体URLの確認不足として継続確認。"
+      ]
+    }
+  ],
+  "adoptedCount": 10,
+  "heldForNextPassCount": 7,
+  "sourceUrlsChecked": 10,
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: added 10 slugs, duplicateCount 0",
+    "urlReachability": "pass: added 10 official URLs all HTTP 200",
+    "diffCheck": "pass: git diff --check for Yamagata second pass 009 files",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9564, officialLinkedActive 9526, manuallyVerifiedActive 9526, Yamagata localOfficial 445, Yamagata coveredCategories 8"
+  }
+}

@@ -5451,3 +5451,30 @@
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-second-pass-008.json`: pass。
   - 次:
     - 山形県第2巡009として、06403飯豊町、06426三川町、06428庄内町、06461遊佐町の第1巡保留候補を公式本文/PDFで確認する。
+
+- 山形県第2巡009（飯豊町・三川町・庄内町・遊佐町）
+  - 対象: 06403飯豊町、06426三川町、06428庄内町、06461遊佐町。
+  - 方法:
+    - `tasks/discovery/yamagata-official-coverage-009.json` の第1巡採用済み29件を重複除外し、第1巡保留候補と新着・カテゴリ導線を町公式本文で再確認した。
+    - 飯豊町は高齢者向け商品券、学校給食費無償化、物価高騰対策生活支援商品券の個別本文を確認した。
+    - 三川町は子育て・福祉の手当助成導線を確認したが、第1巡採用済みの不妊治療等以外は国県制度、医療給付、議会・総合案内中心のため新規採用なしとした。
+    - 庄内町は商工業展出展者支援の令和8年度個別ページで対象・補助率・期限を確認した。
+    - 遊佐町は看護師等奨学金、すくすくゆざっ子支援金、ひとり親家庭等家賃助成、中小事業者等省エネ・生産性向上設備導入、設備投資、技術者養成研修を公式本文で確認した。
+  - 追加:
+    - 飯豊町: 高齢者元気生活応援商品券、小学生学校給食費無償化、物価高騰対策生活支援商品券。
+    - 三川町: 追加なし（既掲載重複、国県制度・医療給付・総合案内中心）。
+    - 庄内町: 商工業振興支援事業補助金（商工業展出展者支援事業）。
+    - 遊佐町: 看護師等奨学金貸付、すくすくゆざっ子支援金、ひとり親家庭等家賃助成事業、中小事業者等省エネ・生産性向上設備導入緊急支援事業補助金、中小企業設備投資支援事業補助金、中小企業等技術者養成研修補助制度。
+  - 保留継続:
+    - 飯豊町の住宅リフォーム、脱炭素・再エネ、創業・中小企業支援、奨学金県連携制度は、現行年度の個別本文又は町独自差分が不足するため、次巡でPDF・新URLを確認する。
+    - 三川町の子育て医療費、ひとり親・障がい福祉、介護用品、出産祝金等は、国県制度重複・医療給付・町独自額不足のため追加しない。制度本体の個別ページが出た場合に再確認する。
+    - 庄内町の農林水産業交付要綱PDFと中学校生徒派遣費は、制度単位切り分け、金額、対象条件の確認を継続する。
+    - 遊佐町の再エネ設備は県制度案内との重複、きらきらマイタウン事業は現行受付と制度本体URLの確認不足として継続確認する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 10件、重複確認 pass（duplicateCount 0）。
+    - 追加した10制度10公式URLの到達確認 pass（すべて HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9564、officialLinkedActive 9526、manuallyVerifiedActive 9526、山形県 `localOfficial` 445、山形県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-second-pass-009.json`: pass。
+  - 次:
+    - 山形県第2巡は第1巡009まで到達。チェックリスト上では福島県第2巡015まで、宮城県第2巡001まで到達済みのため、次は宮城県第2巡002として、04205気仙沼市、04206白石市、04207名取市、04208角田市の保留候補を確認する。
