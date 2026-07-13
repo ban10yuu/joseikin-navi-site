@@ -5069,6 +5069,30 @@
   - 次:
     - 福島県第2巡011として、07483塙町、07484鮫川村、07501石川町、07502玉川村の保留候補を確認する。
 
+- 福島県公式棚卸し第2巡011（塙町・鮫川村・石川町・玉川村）
+  - 対象: 07483塙町、07484鮫川村、07501石川町、07502玉川村。
+  - 方法:
+    - 第1巡011の保留候補、既存採用URL、`fukushima-official-coverage-011-official-extra.json`、`fukushima-official-coverage-011-snippets.json`、カテゴリ・一覧・重複ページを再確認した。
+    - 既掲載 `officialUrl` を除外し、公式本文を再取得して `tasks/discovery/fukushima-second-pass-011-shortlist.json` 8件、`tasks/discovery/fukushima-second-pass-011-page-evidence.json` 8件、`tasks/discovery/fukushima-second-pass-011-adopted.json` を作成した。
+    - title/h1/main/article/URLの制度強語に加え、対象・金額/上限・条件・期限/受付状況が公式本文で確認できる個別制度を採用し、県制度案内、互助会福利厚生、旧制度、一覧、カテゴリ、重複ページは第2巡継続台帳へ残した。
+  - 追加:
+    - 石川町: 在宅育児支援金、保育士確保対策事業補助金（住宅補助金）。
+    - 玉川村: たまかわっ子子育て支援給付金。
+  - 保留継続:
+    - 塙町の福島県就職氷河期世代雇用促進奨励金は県制度案内で、町独自制度ではない。
+    - 塙町勤労者互助会は会員向け福利厚生・貸付事業で、一般公的補助金ページとしては制度対象が限定的。
+    - 鮫川村のお知らせ一覧、水道料金改定、Go To等は一覧、旧制度、国制度、料金改定で、現行村独自の補助金・助成金としての差分が不足。
+    - 玉川村の移住補助金等支援情報一覧、立地企業従業員定住奨励金旧ページは一覧/既掲載制度導線または既掲載制度の旧/重複ページ。
+    - 石川町の福島再生加速化交付金、行政情報一覧等は交付金説明、カテゴリ、一覧、または金額・対象・申請受付の制度単位差分不足。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 3件、重複確認 pass（duplicateOrMissing 0）。
+    - 追加した3制度3公式URLの到達確認 pass（3件すべて HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9434、officialLinkedActive 9396、manuallyVerifiedActive 9396、福島県 localOfficial 912、coveredCategories 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/fukushima-second-pass-011-shortlist.json tasks/discovery/fukushima-second-pass-011-page-evidence.json tasks/discovery/fukushima-second-pass-011-adopted.json`: pass。
+  - 次:
+    - 福島県第2巡012として、07503平田村、07504浅川町、07505古殿町、07521三春町の保留候補を確認する。
+
 - 宮城県公式棚卸し009（美里町・女川町・南三陸町）
   - 対象: 04505美里町、04581女川町、04606南三陸町。
   - 方法:
