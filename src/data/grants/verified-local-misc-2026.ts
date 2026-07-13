@@ -1,4 +1,4 @@
-import { Grant } from '@/lib/types';
+import { Grant, LegacyGrant, LegacyGrantCategory } from '@/lib/types';
 
 const verifiedAt = '2026-06-26';
 
@@ -14,13 +14,13 @@ const localVerifiedGrant = (grant: {
   title: string;
   organization: string;
   maxAmount: string;
-  maxAmountNum: number;
-  category: Grant['category'];
-  relatedCategories?: Grant['relatedCategories'];
+  maxAmountNum?: number;
+  category: LegacyGrantCategory;
+  relatedCategories?: LegacyGrantCategory[];
   prefecture: string;
   tags: string[];
   eligibility: string;
-  applicationPeriod: string;
+  applicationPeriod?: string;
   deadlineDate?: string;
   description: string;
   overview: string;
@@ -29,7 +29,7 @@ const localVerifiedGrant = (grant: {
   sourceUrls?: Grant['sourceUrls'];
   sourceName: string;
   sourceNote: string;
-}): Grant => {
+}): LegacyGrant => {
   const sourceVerifiedAt = verifiedDateFromSourceNote(grant.sourceNote);
   return {
     slug: grant.slug,
@@ -37,13 +37,13 @@ const localVerifiedGrant = (grant: {
     organization: grant.organization,
     type: 'local',
     maxAmount: grant.maxAmount,
-    maxAmountNum: grant.maxAmountNum,
+    maxAmountNum: grant.maxAmountNum ?? 0,
     category: grant.category,
     relatedCategories: grant.relatedCategories,
     prefecture: grant.prefecture,
     tags: grant.tags,
     eligibility: grant.eligibility,
-    applicationPeriod: grant.applicationPeriod,
+    applicationPeriod: grant.applicationPeriod ?? '',
     deadlineDate: grant.deadlineDate,
     description: grant.description,
     sections: [
@@ -59,7 +59,7 @@ const localVerifiedGrant = (grant: {
   };
 };
 
-export const verifiedLocalMiscGrants2026: Grant[] = [
+export const verifiedLocalMiscGrants2026: LegacyGrant[] = [
   localVerifiedGrant({
     slug: 'higashimatsushima-infertility-testing-subsidy-2026',
     title: '東松島市 不妊検査費助成事業',

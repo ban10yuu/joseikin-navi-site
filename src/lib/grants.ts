@@ -1,4 +1,5 @@
-import { Grant, GrantCategory, GrantType } from '@/lib/types';
+import { Grant, GrantCategory, GrantType, LegacyGrant, NormalizedGrant } from '@/lib/types';
+import { normalizeGrant } from '@/lib/grant-domain';
 import { getGrantSourceStatus, hasOfficialSource, isManuallyVerifiedGrant } from '@/lib/grant-source';
 import { isGrantExpired } from '@/lib/deadline';
 import { getSearchTokens, matchesSearchText } from '@/lib/search';
@@ -135,7 +136,7 @@ import { cityGrantsBatch100 } from '@/data/grants/city-batch100';
 // ── All grants ──
 // 新規の手動検証データを先頭に置く。slug が重複した場合は先勝ちにして、
 // 古いLLM生成データより公式出典確認済みデータを優先する。
-const rawGrants: Grant[] = [
+const rawGrants: LegacyGrant[] = [
   ...verifiedTenriChildcareGrants2026,
   ...verifiedHyogoMunicipalChildcareGrants2026,
   ...verifiedHyogoChildcareGrants2026,
@@ -196,7 +197,7 @@ const rawGrants: Grant[] = [
   ...cityGrantsBatch100,
 ];
 
-function dedupeGrantsBySlug(grants: Grant[]): Grant[] {
+function dedupeGrantsBySlug(grants: LegacyGrant[]): LegacyGrant[] {
   const seen = new Set<string>();
   return grants.filter((grant) => {
     if (seen.has(grant.slug)) return false;
@@ -220,7 +221,7 @@ function stripHtml(value: string): string {
     .trim();
 }
 
-export function buildGrantSearchText(grant: Grant): string {
+export function buildGrantSearchText(grant: LegacyGrant): string {
   const sectionText = grant.sections
     .flatMap((section) => [section.heading, stripHtml(section.content)])
     .join(' ');
@@ -274,7 +275,7 @@ function isNonSpecificGovernmentHomepage(value: string | undefined): boolean {
   }
 }
 
-function sanitizeAuditedLinks(grant: Grant): Grant {
+function sanitizeAuditedLinks(grant: LegacyGrant): LegacyGrant {
   const suppressedOfficialUrl = Boolean(
     grant.officialUrl &&
     (suppressedOfficialUrls.has(grant.officialUrl) || isNonSpecificGovernmentHomepage(grant.officialUrl))
@@ -298,7 +299,7 @@ function sanitizeAuditedLinks(grant: Grant): Grant {
     .filter(Boolean)
     .join('・');
 
-  const sanitized: Grant = {
+  const sanitized: LegacyGrant = {
     ...grant,
     officialUrl: suppressedOfficialUrl ? '' : grant.officialUrl,
     sourceUrls: sourceUrls && sourceUrls.length > 0 ? sourceUrls : undefined,
@@ -314,7 +315,9 @@ function sanitizeAuditedLinks(grant: Grant): Grant {
   };
 }
 
-const allGrants: Grant[] = dedupeGrantsBySlug(rawGrants.map(sanitizeAuditedLinks));
+const allGrants: NormalizedGrant[] = dedupeGrantsBySlug(
+  rawGrants.map(sanitizeAuditedLinks)
+).map(normalizeGrant);
 
 export { getGrantSourceStatus, hasOfficialSource, isGrantExpired, isManuallyVerifiedGrant };
 
