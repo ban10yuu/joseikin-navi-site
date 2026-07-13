@@ -6742,4 +6742,38 @@
     - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
     - 三郷市のがんばろう企業応援、終了・予算到達制度、蓮田市の受付終了済み物価高支援金・調整給付、坂戸市の早期不妊検査・不育症検査・医療用補整具・予防接種償還払い・低所得妊婦初回産科受診料、幸手市の入学準備金貸付・就学援助・自立支援教育訓練・高等職業訓練・不妊検査不育症検査・新生児聴覚検査等は、金額・対象・受付状況又は制度重複の観点で第2巡候補に残す。
   - 次:
-    - 埼玉県公式棚卸し010として、11241鶴ヶ島市、11242日高市、11243吉川市、11245ふじみ野市を自治体コード順に確認する。
+    - 埼玉県公式棚卸し010として、11241鶴ヶ島市、11242日高市、11243吉川市、11245ふじみ野市を自治体コード順に確認した。
+
+- 埼玉県公式棚卸し010
+  - 対象:
+    - 11241 鶴ヶ島市、11242 日高市、11243 吉川市、11245 ふじみ野市。
+  - 方法:
+    - 公式トップ・カテゴリ・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補200件をローカルJSONへ保存した。
+    - 候補が150件を超えたため、公式カテゴリリンク抽出で500件の第2巡台帳を作成し、公式本文スニペット190件を `tasks/discovery/saitama-official-coverage-010-detail-snippets.json` に保存して、制度強語、金額・上限、対象条件、期限・受付表現の揃う個別ページを再スコアリングした。
+    - 吉川市はカテゴリページ一致が多かったため、子ども医療費、中小企業融資、生ごみ処理容器、ひとり親支援の個別ページへ辿り直し、トップ、カテゴリ、一覧、共通ナビ一致は候補JSONとリンク台帳に残して第2巡候補として扱う。
+  - 採用:
+    - 鶴ヶ島市5件: ちかづく住まい応援金、児童手当、こども医療費、ひとり親家庭等医療費、アピアランスケア用品。
+    - 日高市5件: 重度心身障がい者医療費、高等学校等入学準備金融資、人間ドック、子ども医療費、学校給食特例給付金。
+    - 吉川市5件: ひとり親家庭自立支援教育訓練、生ごみ処理容器等、中小企業資金融資、子ども医療費、ひとり親家庭高等学校卒業程度認定試験合格支援。
+    - ふじみ野市5件: 中小企業向け融資、経営安定化関連融資利子補給、中小企業従業員定期健康診断料、妊婦支援給付、既存住宅耐震診断・耐震改修。
+  - 生成ファイル:
+    - `tasks/discovery/saitama-official-coverage-010-municipalities.json`
+    - `tasks/discovery/saitama-official-coverage-010-candidates.json`
+    - `tasks/discovery/saitama-official-coverage-010-link-shortlist.json`
+    - `tasks/discovery/saitama-official-coverage-010-official-extra.json`
+    - `tasks/discovery/saitama-official-coverage-010-detail-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-010-selected-snippets.json`
+    - `tasks/discovery/saitama-official-coverage-010-selected-main.json`
+    - `tasks/discovery/saitama-official-coverage-010.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（20件、各1件）。
+    - 公式URL到達: pass（20 unique official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10529、officialLinkedActive 10491、manuallyVerifiedActive 10491、埼玉県 localOfficial 408）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 鶴ヶ島市のひろがる住まい応援金・妊婦支援給付・物価高対応子育て応援手当、日高市の児童扶養手当・高等職業訓練促進給付金・年金生活者支援給付金、吉川市の下水道排水設備工事資金融資・児童手当・ひとり親家庭等医療費、ふじみ野市の創業支援・里帰り妊婦健診費助成・先端設備導入計画税軽減等は、金額・対象・受付状況又は制度重複の観点で第2巡候補に残す。
+  - 次:
+    - 埼玉県公式棚卸し011として、11246白岡市、11301伊奈町、11324三芳町、11326毛呂山町を自治体コード順に確認する。

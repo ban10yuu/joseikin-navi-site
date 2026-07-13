@@ -1,0 +1,208 @@
+{
+  "batchId": "saitama-comprehensive-official-coverage-010",
+  "prefecture": "埼玉県",
+  "checkedAt": "2026-07-14",
+  "selectedCount": 20,
+  "municipalityCounts": {
+    "鶴ヶ島市": 5,
+    "日高市": 5,
+    "吉川市": 5,
+    "ふじみ野市": 5
+  },
+  "discovery": {
+    "candidateCount": 200,
+    "linkShortlistCount": 500,
+    "detailSnippetCount": 190
+  },
+  "outputs": [
+    "tasks/discovery/saitama-official-coverage-010-municipalities.json",
+    "tasks/discovery/saitama-official-coverage-010-candidates.json",
+    "tasks/discovery/saitama-official-coverage-010-link-shortlist.json",
+    "tasks/discovery/saitama-official-coverage-010-detail-snippets.json",
+    "tasks/discovery/saitama-official-coverage-010-selected-main.json",
+    "tasks/discovery/saitama-official-coverage-010-selected-snippets.json",
+    "tasks/discovery/saitama-official-coverage-010-official-extra.json"
+  ],
+  "selected": [
+    {
+      "code": "11241",
+      "municipality": "鶴ヶ島市",
+      "slug": "tsurugashima-multigeneration-housing-subsidy-2026",
+      "title": "鶴ヶ島市ちかづく住まい応援金",
+      "url": "https://www.city.tsurugashima.lg.jp/kurashi-tetsuduki/sumai/jyutaku/page011431.html",
+      "amount": "上限100万円",
+      "evidence": "多世代同居・近居住宅取得、補助対象経費1/2、基礎30万円と加算、申請日前6か月以内。"
+    },
+    {
+      "code": "11241",
+      "municipality": "鶴ヶ島市",
+      "slug": "tsurugashima-child-allowance-2026",
+      "title": "鶴ヶ島市児童手当",
+      "url": "https://www.city.tsurugashima.lg.jp/kosodate-kyouiku/kosodate/teate-josei/page000673.html",
+      "amount": "第3子以降月額3万円",
+      "evidence": "高校生年代まで、3歳未満15,000円、第1・2子10,000円、第3子以降30,000円、15日特例。"
+    },
+    {
+      "code": "11241",
+      "municipality": "鶴ヶ島市",
+      "slug": "tsurugashima-child-medical-subsidy-2026",
+      "title": "鶴ヶ島市こども医療費助成",
+      "url": "https://www.city.tsurugashima.lg.jp/kosodate-kyouiku/kosodate/teate-josei/page000672.html",
+      "amount": "保険診療自己負担額を助成",
+      "evidence": "高校3年生年代まで、保険診療一部負担金、21,000円以上等は償還給付。"
+    },
+    {
+      "code": "11241",
+      "municipality": "鶴ヶ島市",
+      "slug": "tsurugashima-single-parent-medical-subsidy-2026",
+      "title": "鶴ヶ島市ひとり親家庭等医療費助成",
+      "url": "https://www.city.tsurugashima.lg.jp/kosodate-kyouiku/kosodate/hitori-shien/page000681.html",
+      "amount": "保険診療自己負担額を助成",
+      "evidence": "18歳年度末、一定障害20歳未満、所得制限、保険診療自己負担。"
+    },
+    {
+      "code": "11241",
+      "municipality": "鶴ヶ島市",
+      "slug": "tsurugashima-appearance-care-subsidy-2026",
+      "title": "鶴ヶ島市アピアランスケア用品購入費助成",
+      "url": "https://www.city.tsurugashima.lg.jp/kenkou-iryou-fukushi/hoken-iryou/page011257.html",
+      "amount": "合計上限2万円",
+      "evidence": "がん治療、ウィッグ等・補整具等それぞれ上限10,000円、購入翌日から1年以内。"
+    },
+    {
+      "code": "11242",
+      "municipality": "日高市",
+      "slug": "hidaka-disabled-medical-subsidy-2026",
+      "title": "日高市重度心身障がい者医療費助成",
+      "url": "https://www.city.hidaka.lg.jp/childcare_education/scean/know/30/4946.html",
+      "amount": "保険診療自己負担額を助成",
+      "evidence": "身体1から3級等、医療費自己負担額助成、所得基準、毎年10月更新。"
+    },
+    {
+      "code": "11242",
+      "municipality": "日高市",
+      "slug": "hidaka-high-school-entrance-loan-2026",
+      "title": "日高市高等学校等入学準備金融資制度",
+      "url": "https://www.city.hidaka.lg.jp/childcare_education/scean/know/gakkokyoiku/5082.html",
+      "amount": "私立大学等上限70万円",
+      "evidence": "高校等15/50万円、大学等40/70万円、実質無利子、令和9年3月23日まで。"
+    },
+    {
+      "code": "11242",
+      "municipality": "日高市",
+      "slug": "hidaka-human-dock-subsidy-2026",
+      "title": "日高市後期高齢者医療人間ドック助成",
+      "url": "https://www.city.hidaka.lg.jp/health_welfare/1/14/3192.html",
+      "amount": "上限2万円",
+      "evidence": "後期高齢者医療被保険者、指定医療機関、検査料1/2・上限2万円、10日前申請。"
+    },
+    {
+      "code": "11242",
+      "municipality": "日高市",
+      "slug": "hidaka-child-medical-subsidy-2026",
+      "title": "日高市子ども医療費助成",
+      "url": "https://www.city.hidaka.lg.jp/childcare_education/scean/know/30/2992.html",
+      "amount": "保険診療自己負担額等を助成",
+      "evidence": "18歳年度末まで、所得制限なし、保険診療一部負担金と入院時食事療養標準負担額。"
+    },
+    {
+      "code": "11242",
+      "municipality": "日高市",
+      "slug": "hidaka-school-lunch-special-benefit-2026",
+      "title": "日高市学校給食特例給付金",
+      "url": "https://www.city.hidaka.lg.jp/childcare_education/oshirase/32498.html",
+      "amount": "中学生相当月額6,000円",
+      "evidence": "全部弁当又は市立以外義務教育諸学校、小学生5,200円/月、中学生6,000円/月。"
+    },
+    {
+      "code": "11243",
+      "municipality": "吉川市",
+      "slug": "yoshikawa-single-parent-self-reliance-benefit-2026",
+      "title": "吉川市ひとり親家庭自立支援教育訓練給付金",
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,7842,149,html",
+      "amount": "上限20万円",
+      "evidence": "ひとり親、教育訓練講座、受講費60%・上限20万円、修了30日以内。"
+    },
+    {
+      "code": "11243",
+      "municipality": "吉川市",
+      "slug": "yoshikawa-food-waste-container-subsidy-2026",
+      "title": "吉川市生ごみ処理容器等購入費補助金",
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/23,84,121,684,html",
+      "amount": "電気式処理機上限25,000円",
+      "evidence": "購入価格1/2、電気式上限25,000円、容器1基上限3,000円、購入60日以内。"
+    },
+    {
+      "code": "11243",
+      "municipality": "吉川市",
+      "slug": "yoshikawa-small-business-loan-2026",
+      "title": "吉川市中小企業資金融資制度",
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/23,49924,232,736,html",
+      "amount": "経営合理化設備資金上限3,000万円",
+      "evidence": "特別小口・小口1,250万円、経営合理化設備3,000万円、利子額30%補助。"
+    },
+    {
+      "code": "11243",
+      "municipality": "吉川市",
+      "slug": "yoshikawa-child-medical-subsidy-2026",
+      "title": "吉川市子ども医療費支給制度",
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,1023,149,792,html",
+      "amount": "保険診療自己負担額を支給",
+      "evidence": "高校生年代まで、保険診療自己負担、21,000円未満現物給付、15日以内申請。"
+    },
+    {
+      "code": "11243",
+      "municipality": "吉川市",
+      "slug": "yoshikawa-single-parent-high-school-equivalency-benefit-2026",
+      "title": "吉川市ひとり親家庭高等学校卒業程度認定試験合格支援給付金",
+      "url": "https://www.city.yoshikawa.saitama.jp/index.cfm/25,59107,149,html",
+      "amount": "受講費用の一部を給付",
+      "evidence": "ひとり親家庭の親又は20歳未満児童、対象講座指定、随時受付、修了30日以内・合格2年以内。"
+    },
+    {
+      "code": "11245",
+      "municipality": "ふじみ野市",
+      "slug": "fujimino-small-business-loan-2026",
+      "title": "ふじみ野市中小企業向け融資",
+      "url": "https://www.city.fujimino.saitama.jp/jigyoshanohohe/shokogyo/4543.html",
+      "amount": "中口資金上限2,000万円",
+      "evidence": "小口1,250万円、中口2,000万円、保証料全額補助、利子50%補給。"
+    },
+    {
+      "code": "11245",
+      "municipality": "ふじみ野市",
+      "slug": "fujimino-business-stabilization-interest-subsidy-2026",
+      "title": "ふじみ野市経営安定化関連融資利子補給",
+      "url": "https://www.city.fujimino.saitama.jp/jigyoshanohohe/shokogyo/4538.html",
+      "amount": "年間支払利子の利率0.5%分",
+      "evidence": "県経営安定化関連融資、市内事業所、同一事業1年以上、利率0.5%分。"
+    },
+    {
+      "code": "11245",
+      "municipality": "ふじみ野市",
+      "slug": "fujimino-employee-health-checkup-subsidy-2026",
+      "title": "ふじみ野市中小企業従業員定期健康診断料補助金",
+      "url": "https://www.city.fujimino.saitama.jp/jigyoshanohohe/shokogyo/4140.html",
+      "amount": "従業員1人上限1,000円",
+      "evidence": "従業員30人以下、市税完納、定期健康診断料1/2・1人上限1,000円。"
+    },
+    {
+      "code": "11245",
+      "municipality": "ふじみ野市",
+      "slug": "fujimino-pregnant-support-benefit-2026",
+      "title": "ふじみ野市妊婦支援給付金",
+      "url": "https://www.city.fujimino.saitama.jp/lifescenekarasagasu/ninshin_shussan/11968.html",
+      "amount": "妊娠1回5万円、胎児1人5万円",
+      "evidence": "前期5万円、後期子ども1人5万円、流産等も胎児1人5万円。"
+    },
+    {
+      "code": "11245",
+      "municipality": "ふじみ野市",
+      "slug": "fujimino-earthquake-resistance-subsidy-2026",
+      "title": "ふじみ野市既存住宅耐震診断・耐震改修補助制度",
+      "url": "https://www.city.fujimino.saitama.jp/jigyoshanohohe/kenchiku_kaihatsu/4964.html",
+      "amount": "共同住宅等耐震改修合計上限2,000万円",
+      "evidence": "診断3分の2・戸建5万円、改修23%・戸建30万円、共同住宅等合計2,000万円。"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "batchId": "saitama-comprehensive-official-coverage-010",
+  "prefecture": "埼玉県",
+  "municipalities": [
+    {
+      "code": "11241",
+      "name": "鶴ヶ島市",
+      "officialBaseUrl": "https://www.city.tsurugashima.lg.jp/"
+    },
+    {
+      "code": "11242",
+      "name": "日高市",
+      "officialBaseUrl": "https://www.city.hidaka.lg.jp/"
+    },
+    {
+      "code": "11243",
+      "name": "吉川市",
+      "officialBaseUrl": "https://www.city.yoshikawa.saitama.jp/"
+    },
+    {
+      "code": "11245",
+      "name": "ふじみ野市",
+      "officialBaseUrl": "https://www.city.fujimino.saitama.jp/"
+    }
+  ]
+}
