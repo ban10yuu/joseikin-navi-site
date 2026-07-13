@@ -26,7 +26,7 @@ import { CATEGORY_LABELS, SUPPORT_TYPE_LABELS, type Section } from '@/lib/types'
 interface Props { params: Promise<{ slug: string }> }
 
 export async function generateStaticParams() {
-  return getOfficialLinkedGrants({ includeExpired: true }).map((grant) => ({ slug: grant.slug }));
+  return getOfficialLinkedGrants().filter((grant) => grant.indexStatus !== 'noindex' && grant.contentStatus === 'published').map((grant) => ({ slug: grant.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
