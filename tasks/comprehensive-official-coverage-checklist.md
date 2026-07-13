@@ -5369,3 +5369,30 @@
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-second-pass-005.json`: pass。
   - 次:
     - 山形県第2巡006として、06341大石田町、06361金山町、06362最上町、06363舟形町の第1巡保留候補を公式本文/PDFで確認する。
+
+- 山形県第2巡006（大石田町・金山町・最上町・舟形町）
+  - 対象: 06341大石田町、06361金山町、06362最上町、06363舟形町。
+  - 方法:
+    - `tasks/discovery/yamagata-official-coverage-006.json` と第1巡保留候補を復元し、既掲載URL・町公式カテゴリ・個別制度ページを照合した。
+    - 大石田町は福祉健康系の個別ページから、骨髄移植ドナー助成と重度心身障がい（児）者医療制度の対象・金額・申請書類を確認した。
+    - 金山町は企業支援カテゴリを確認し、第1巡採用済み、税支援、県連携又は個別要件不足の候補として追加なしに整理した。
+    - 最上町は健康、教育、子育て医療、住宅、結婚支援の個別ページを確認し、骨髄ドナー、修学資金、医療費助成、住宅・結婚支援を制度単位で採用した。
+    - 舟形町は物価高対応の商品券ページを確認し、対象者、1人2万円分、利用期間を確認した。
+  - 追加:
+    - 大石田町: 骨髄移植ドナー助成事業、重度心身障がい（児）者医療制度。
+    - 金山町: 追加なし（第1巡採用済み又は個別要件不足）。
+    - 最上町: 骨髄移植ドナー助成事業、修学資金、子育て支援医療費助成、ひとり親家庭等医療費助成、新築住宅支援事業、結婚新生活支援事業、出会いづくり応援事業補助金。
+    - 舟形町: 舟形ほほえみ応援商品券。
+  - 保留継続:
+    - 大石田町の児童手当、児童扶養手当、特別児童扶養手当は国制度の行政案内として採用しない。定額減税、臨時交付金、空き家バンク一般案内は公式制度要件・金額の個別ページではないため保留。重粒子線がん治療費助成は町独自差分を継続確認する。
+    - 金山町の固定資産税軽減支援は税支援として採用しない。工場対策事業、移住支援金、県ポータル又は融資制度案内は個別要件・金額・町独自差分の確認を継続する。
+    - 最上町の交通災害共済は見舞金額表・支給条件、自主防災組織育成補助金はPDF要綱、単身者ハッピーサポート登録事業補助金は同一ページ内詳細抽出を継続する。
+    - 舟形町の若者海外体験候補URLは404、求職者支援制度・児童手当等は国制度又は行政案内、旧PDF群・カテゴリ導線のみの候補は個別制度確認まで保留する。
+  - 検証:
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug 10件、重複確認 pass（duplicateCount 0）。
+    - 追加した10制度10公式URLの到達確認 pass（すべて HTTP 200）。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9529、officialLinkedActive 9491、manuallyVerifiedActive 9491、山形県 `localOfficial` 410、山形県 `coveredCategories` 8）。
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/yamagata-official-second-pass-006.json`: pass。
+  - 次:
+    - 山形県第2巡007として、06364真室川町、06365大蔵村、06366鮭川村、06367戸沢村の第1巡保留候補を公式本文/PDFで確認する。

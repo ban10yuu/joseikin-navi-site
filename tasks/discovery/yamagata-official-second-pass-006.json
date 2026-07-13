@@ -1,0 +1,98 @@
+{
+  "batchId": "yamagata-official-second-pass-006",
+  "completedAt": "2026-07-13T16:46:43+09:00",
+  "prefecture": "山形県",
+  "mode": "official-second-pass",
+  "municipalities": [
+    {
+      "code": "06341",
+      "name": "大石田町",
+      "officialBaseUrl": "https://www.town.oishida.yamagata.jp/",
+      "sourceUrlsChecked": [
+        "https://www.town.oishida.yamagata.jp/life/fukushikenkou/jyosei/donor.html",
+        "https://www.town.oishida.yamagata.jp/life/fukushikenkou/jyosei/jidou_marushin.html"
+      ],
+      "adoptedSlugs": [
+        "oishida-bone-marrow-donor-subsidy-2026",
+        "oishida-severe-disability-medical-subsidy-2026"
+      ],
+      "heldForLater": [
+        "児童手当、児童扶養手当、特別児童扶養手当は国制度の行政案内として第2巡では採用しない。",
+        "定額減税、臨時交付金、空き家バンクの一般案内は公式制度要件・金額の個別補助ページではないため保留。",
+        "重粒子線がん治療費助成は県連携要素と町独自差分・金額の確認を継続する。"
+      ]
+    },
+    {
+      "code": "06361",
+      "name": "金山町",
+      "officialBaseUrl": "https://www.town.kaneyama.yamagata.jp/",
+      "sourceUrlsChecked": [],
+      "adoptedSlugs": [],
+      "heldForLater": [
+        "企業支援カテゴリの新規開発事業補助金、常用労働者新規雇用奨励金、小規模事業者支援事業補助金等は第1巡採用済みのため重複採用しない。",
+        "固定資産税軽減支援は中小企業等経営強化法等に基づく税支援で、町独自補助金としては第2巡採用しない。",
+        "工場対策事業はカテゴリ導線上の候補に留まり、個別要件・金額・受付状況の確認を継続する。",
+        "移住支援金、県ポータル又は融資制度案内は町独自差分の確認が必要なため保留する。"
+      ]
+    },
+    {
+      "code": "06362",
+      "name": "最上町",
+      "officialBaseUrl": "https://town.mogami.lg.jp/",
+      "sourceUrlsChecked": [
+        "https://town.mogami.lg.jp/health/10kenketsu/02kotsuzui.php",
+        "https://town.mogami.lg.jp/life/06bousai/03mimaikin.php",
+        "https://town.mogami.lg.jp/life/06bousai/08jisyu-bousai-hojyo.php",
+        "https://town.mogami.lg.jp/child/06school/05school-syuugaku-shikin.php",
+        "https://town.mogami.lg.jp/child/03kosodate-shien/14kosodate-jyosei.php",
+        "https://town.mogami.lg.jp/child/03kosodate-shien/13kosodate-jyosei.php",
+        "https://town.mogami.lg.jp/life/07jyuutaku/23jyosei-eco-jyutaku.php",
+        "https://town.mogami.lg.jp/life/14kekkon/01kekkon-sien.php"
+      ],
+      "adoptedSlugs": [
+        "mogami-bone-marrow-donor-subsidy-2026",
+        "mogami-scholarship-loan-2026",
+        "mogami-child-medical-expense-subsidy-2026",
+        "mogami-single-parent-medical-expense-subsidy-2026",
+        "mogami-new-house-construction-subsidy-2026",
+        "mogami-newlywed-life-support-subsidy-2026",
+        "mogami-matchmaking-event-subsidy-2026"
+      ],
+      "heldForLater": [
+        "交通災害共済は掛金400円と見舞金制度の案内に留まり、見舞金額表・支給条件の詳細確認を継続する。",
+        "自主防災組織育成補助金はHTML本文が申請書リンク中心のため、PDF要綱確認後に採否判断する。",
+        "単身者ハッピーサポート登録事業補助金は同一ページ内の詳細抽出を継続する。",
+        "医療費助成2件は公式本文が簡素なため、第3巡で必要に応じて詳細要件を補強する。"
+      ]
+    },
+    {
+      "code": "06363",
+      "name": "舟形町",
+      "officialBaseUrl": "https://www.town.funagata.yamagata.jp/",
+      "sourceUrlsChecked": [
+        "https://www.town.funagata.yamagata.jp/s010/shigoto/050/300_hohoemi/20260226110137.html"
+      ],
+      "adoptedSlugs": [
+        "funagata-hohoemi-shopping-coupon-2026"
+      ],
+      "heldForLater": [
+        "若者海外体験候補URLは404で現行ページを確認できないため保留する。",
+        "求職者支援制度、児童手当等は国制度又は行政案内として第2巡では採用しない。",
+        "旧PDF群・カテゴリ導線のみの候補は、個別制度名・金額・受付状況の確認ができた場合に再評価する。"
+      ]
+    }
+  ],
+  "summary": {
+    "adoptedCount": 10,
+    "heldCount": 13,
+    "sourceUrlsChecked": 11,
+    "notes": "大石田町2件、最上町7件、舟形町1件を追加。金山町は第1巡採用済み又は個別要件不足のため追加なし。全国公式棚卸しは未完了。"
+  },
+  "validation": {
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: added 10 slugs, duplicateCount 0",
+    "urlReachability": "pass: added 10 official URLs all HTTP 200",
+    "diffCheck": "pass: git diff --check for Yamagata second pass 006 files",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9529, officialLinkedActive 9491, manuallyVerifiedActive 9491, Yamagata localOfficial 410, Yamagata coveredCategories 8"
+  }
+}
