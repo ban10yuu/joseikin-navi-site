@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-07-13T18:07:00+09:00",
+  "updatedAt": "2026-07-13T18:26:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "ibaraki-official-coverage-002",
-    "municipality": "古河市・石岡市・結城市・龍ケ崎市",
+    "code": "ibaraki-official-coverage-003",
+    "municipality": "下妻市・常総市・常陸太田市・高萩市",
     "adopted": 30,
-    "held": 4,
+    "held": 10,
     "excluded": 0,
     "sourceUrlsChecked": 30,
     "validation": {
-      "previousMunicipality": "茨城県公式棚卸し002として、08204古河市、08205石岡市、08207結城市、08208龍ケ崎市の公式本文を確認し、古河市は既掲載公式URL中心で重複採用0、石岡市14件、結城市4件、龍ケ崎市12件を採用した。全国公式棚卸しは未完了。",
+      "previousMunicipality": "茨城県公式棚卸し003として、08210下妻市、08211常総市、08212常陸太田市、08214高萩市の公式本文を確認し、下妻市9件、常総市6件、常陸太田市7件、高萩市8件を採用した。全国公式棚卸しは未完了。",
       "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: 30 added slugs, duplicateCount 0 across all 9234 slugs",
+      "addedSlugUniqueness": "pass: 30 added slugs, duplicateCount 0 across all 9264 slugs",
       "urlReachability": "pass: 30 official URLs returned HTTP 200",
-      "diffCheck": "pass: git diff --check for Ibaraki 002 data/checklist/checkpoint/discovery files",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9608, officialLinkedActive 9570, manuallyVerifiedActive 9570, Ibaraki localOfficial 130"
+      "diffCheck": "pass: git diff --check for Ibaraki 003 data/discovery/checkpoint/checklist files",
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9638, officialLinkedActive 9600, manuallyVerifiedActive 9600, Ibaraki localOfficial 160"
     }
   },
   "next": {
-    "code": "ibaraki-official-coverage-003",
-    "municipality": "下妻市・常総市・常陸太田市・高萩市",
-    "shortlist": "茨城県公式棚卸し002は、古河市0件、石岡市14件、結城市4件、龍ケ崎市12件を採用し、受付終了、既存重複、カテゴリ導線、金額/受付状況不足、現年度準備中の候補は第2巡台帳へ残した。次は自治体コード順に08210下妻市、08211常総市、08212常陸太田市、08214高萩市。",
-    "instructions": "茨城県公式棚卸し003として、08210下妻市、08211常総市、08212常陸太田市、08214高萩市の公式本文/PDFを確認する。既掲載公式URL、県・国制度重複、カテゴリ導線、生成データの公式未確認制度を除外し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度だけ採用する。"
+    "code": "ibaraki-official-coverage-004",
+    "municipality": "北茨城市・笠間市・取手市・牛久市",
+    "shortlist": "茨城県公式棚卸し003は、下妻市9件、常総市6件、常陸太田市7件、高萩市8件を採用し、住居確保給付金、金額換算不足の交通制度、カテゴリ導線、社協支部事業、受付終了又は制度整理が必要な候補は第2巡台帳へ残した。次は自治体コード順に08215北茨城市、08216笠間市、08217取手市、08219牛久市。",
+    "instructions": "茨城県公式棚卸し004として、08215北茨城市、08216笠間市、08217取手市、08219牛久市の公式本文/PDFを確認する。既掲載公式URL、県・国制度重複、カテゴリ導線、生成データの公式未確認制度を除外し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度だけ採用する。"
   },
   "prefectureMilestone": {
     "prefecture": "北海道",

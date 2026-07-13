@@ -5565,3 +5565,31 @@
     - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
   - 次:
     - 茨城県公式棚卸し003として、08210下妻市、08211常総市、08212常陸太田市、08214高萩市を自治体コード順に確認する。
+
+- 茨城県公式棚卸し003
+  - 対象:
+    - 08210 下妻市、08211 常総市、08212 常陸太田市、08214 高萩市。
+  - 方法:
+    - 公式トップ・sitemap・本文候補を `scripts/discover-official-candidates.mjs` で抽出し、候補数1926件のため本文スニペット139件、詳細スニペット37件を再スコアリングした。
+    - 既掲載公式URL、県・国制度重複、カテゴリ導線、金額換算又は受付状況不足、社協支部事業等の制度主体整理が必要な候補を除外し、制度名・対象・金額/上限・条件・期限/受付状況が公式本文で揃うページのみ採用した。
+  - 採用:
+    - 下妻市9件: 防災士資格取得、木造住宅耐震改修、木造住宅耐震診断士派遣、危険ブロック塀除却、防犯カメラ、自転車ヘルメット、英検受験料、おたふくかぜワクチン、ひとり親高等職業訓練。
+    - 常総市6件: 奨学資金返還支援、合併処理浄化槽、雇用促進奨励金、補聴器購入費、不妊治療先進医療、妊婦支援給付。
+    - 常陸太田市7件: 中小企業等ビジネスチャレンジ、高齢者バス、団体旅行誘致、奨学資金貸与、ひとり親家庭等小学校入学祝金、狩猟免許取得、通学用路線バス定期券。
+    - 高萩市8件: 創生奨学金返還支援、移住支援金、マイホーム取得、空き家解体、家庭用蓄電池、多子世帯入園入学祝い金、特定不妊・不育症、人間ドック。
+  - 生成ファイル:
+    - `tasks/discovery/ibaraki-official-coverage-003-municipalities.json`
+    - `tasks/discovery/ibaraki-official-coverage-003-candidates.json`
+    - `tasks/discovery/ibaraki-official-coverage-003-evidence-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-003-detail-snippets.json`
+    - `tasks/discovery/ibaraki-official-coverage-003.json`
+  - 検証:
+    - 追加slug重複: pass（30件、全9264slugでduplicateCount 0）。
+    - 公式URL到達: pass（30件すべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 9638、officialLinkedActive 9600、manuallyVerifiedActive 9600、茨城県 localOfficial 160）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+  - 次:
+    - 茨城県公式棚卸し004として、08215北茨城市、08216笠間市、08217取手市、08219牛久市を自治体コード順に確認する。

@@ -1,0 +1,58 @@
+{
+  "batchId": "ibaraki-comprehensive-official-coverage-003",
+  "prefecture": "茨城県",
+  "completedAt": "2026-07-13T18:26:00+09:00",
+  "municipalities": [
+    {
+      "code": "08210",
+      "name": "下妻市",
+      "adopted": 9,
+      "held": 2,
+      "notes": "防災士、木造住宅耐震改修、耐震診断士派遣、危険ブロック塀、防犯カメラ、自転車ヘルメット、英検受験料、おたふくかぜワクチン、ひとり親高等職業訓練を採用。受付終了又は制度要件不足の候補は第2巡へ残す。"
+    },
+    {
+      "code": "08211",
+      "name": "常総市",
+      "adopted": 6,
+      "held": 3,
+      "notes": "奨学資金返還支援、合併処理浄化槽、雇用促進奨励金、補聴器購入費、不妊治療先進医療、妊婦支援給付を採用。住居確保給付金、子ども医療費、期限到来済み奨学資金貸付は第2巡で制度整理する。"
+    },
+    {
+      "code": "08212",
+      "name": "常陸太田市",
+      "adopted": 7,
+      "held": 2,
+      "notes": "中小企業等ビジネスチャレンジ、高齢者バス、団体旅行誘致、奨学資金貸与、ひとり親家庭等小学校入学祝金、狩猟免許、通学用路線バス定期券を採用。中学生フリー定期券等は金額換算又は重複整理が必要なため第2巡へ残す。"
+    },
+    {
+      "code": "08214",
+      "name": "高萩市",
+      "adopted": 8,
+      "held": 3,
+      "notes": "奨学金返還支援、移住支援金、マイホーム取得、空き家解体、家庭用蓄電池、多子世帯入園入学祝い金、特定不妊・不育症、人間ドックを採用。住居確保給付金、三世代交流事業、社協支部補助等は第2巡で整理する。"
+    }
+  ],
+  "discovery": {
+    "candidateCount": 1926,
+    "evidenceSnippetRows": 139,
+    "detailSnippetRows": 37,
+    "candidateFile": "tasks/discovery/ibaraki-official-coverage-003-candidates.json",
+    "evidenceSnippetFile": "tasks/discovery/ibaraki-official-coverage-003-evidence-snippets.json",
+    "detailSnippetFile": "tasks/discovery/ibaraki-official-coverage-003-detail-snippets.json"
+  },
+  "adopted": 30,
+  "held": 10,
+  "excluded": 0,
+  "validation": {
+    "slugUniqueness": "pass: 30 added slugs, duplicateCount 0 across all 9264 slugs",
+    "urlReachability": "pass: 30 official URLs returned HTTP 200",
+    "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check for Ibaraki 003 data/discovery/checkpoint/checklist files",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 9638, officialLinkedActive 9600, manuallyVerifiedActive 9600, Ibaraki localOfficial 160"
+  },
+  "next": {
+    "code": "ibaraki-official-coverage-004",
+    "municipality": "北茨城市・笠間市・取手市・牛久市",
+    "instructions": "08215北茨城市、08216笠間市、08217取手市、08219牛久市の公式本文/PDFを確認する。既掲載公式URL、県・国制度重複、カテゴリ導線、金額又は受付状況不足、受付終了のみの候補は第2巡台帳へ残し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度だけ採用する。"
+  }
+}
