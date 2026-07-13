@@ -9,6 +9,7 @@
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "test": "node --test src/lib/*.test.mjs",
+    "test:e2e": "python3 scripts/e2e-smoke.py",
     "check:copy": "node scripts/check-public-copy.mjs",
     "audit:content": "node scripts/audit-content.mjs",
     "audit:coverage": "node scripts/audit-coverage.mjs",

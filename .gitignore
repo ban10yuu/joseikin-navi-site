@@ -12,6 +12,8 @@
 
 # testing
 /coverage
+reports/e2e/*.png
+reports/e2e/axe-results.json
 /.cache/
 /tasks/discovery/*-candidates.json
 /tasks/discovery/*-url-validation.json

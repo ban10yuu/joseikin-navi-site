@@ -74,7 +74,7 @@ export default function SubscribeForm({
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <div>
             <label htmlFor="newsletter-email" className="block text-xs font-medium text-gray-600 mb-1">メールアドレス（必須）</label>
-            <input id="newsletter-email" type="email" autoComplete="email" value={email} onChange={(event) => setEmail(event.target.value)} required className="min-h-11 w-full px-3 py-2.5 border-2 border-line-strong rounded-lg text-base bg-base text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-navy" />
+            <input id="newsletter-email" type="email" autoComplete="email" value={email} onChange={(event) => setEmail(event.target.value)} required className="min-h-11 w-full px-3 py-2.5 border-2 border-line-strong rounded-lg text-base bg-surface text-ink focus:outline-none focus:ring-2 focus:ring-accent focus:border-navy" />
           </div>
           <div>
             <label htmlFor="newsletter-prefecture" className="block text-xs font-medium text-gray-600 mb-1">地域（任意）</label>

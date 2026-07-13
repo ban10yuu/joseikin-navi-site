@@ -118,7 +118,7 @@ export default async function GrantDetailPage({ params }: Props) {
             </DetailSection>
 
             <DetailSection id="support" title="支援内容・金額" sections={sectionGroups.amount}>
-              <dl className="info-table"><tbody><tr><th>制度種別</th><td>{SUPPORT_TYPE_LABELS[grant.supportType ?? 'unknown']}</td></tr><tr><th>支援額</th><td>{grant.maxAmount}</td></tr>{grant.subsidyRate && <tr><th>補助率</th><td>{grant.subsidyRate}</td></tr>}</tbody></dl>
+              <table className="info-table"><caption className="sr-only">支援内容と金額</caption><tbody><tr><th scope="row">制度種別</th><td>{SUPPORT_TYPE_LABELS[grant.supportType ?? 'unknown']}</td></tr><tr><th scope="row">支援額</th><td>{grant.maxAmount}</td></tr>{grant.subsidyRate && <tr><th scope="row">補助率</th><td>{grant.subsidyRate}</td></tr>}</tbody></table>
               {isRepayableSupport(grant.supportType) && <p className="grant-loan-notice">貸付制度・原則として返済が必要です</p>}
             </DetailSection>
 

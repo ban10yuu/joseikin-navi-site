@@ -99,7 +99,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
       </head>
-      <body className="antialiased min-h-screen flex flex-col bg-base text-ink">
+      <body className="antialiased min-h-screen flex flex-col bg-surface text-ink">
         {siteConfig.analytics.ga4MeasurementId && <AnalyticsEvents />}
         <div className="relative z-10 flex flex-col min-h-screen">
           <Header />
