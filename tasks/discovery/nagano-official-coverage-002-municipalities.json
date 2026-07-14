@@ -1,0 +1,37 @@
+{
+  "batchId": "nagano-official-coverage-002",
+  "prefecture": "長野県",
+  "generatedAt": "2026-07-15T07:30:00+09:00",
+  "municipalities": [
+    {
+      "code": "20209",
+      "name": "伊那市",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.inacity.jp/"
+    },
+    {
+      "code": "20210",
+      "name": "駒ヶ根市",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.city.komagane.nagano.jp/"
+    },
+    {
+      "code": "20211",
+      "name": "中野市",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.city.nakano.nagano.jp/"
+    },
+    {
+      "code": "20212",
+      "name": "大町市",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.city.omachi.nagano.jp/"
+    },
+    {
+      "code": "20213",
+      "name": "飯山市",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.city.iiyama.nagano.jp/"
+    }
+  ]
+}

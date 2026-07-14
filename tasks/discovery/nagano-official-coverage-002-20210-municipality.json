@@ -1,0 +1,1394 @@
+{
+  "code": "20210",
+  "name": "駒ヶ根市",
+  "prefecture": "長野県",
+  "officialBaseUrl": "https://www.city.komagane.nagano.jp/",
+  "discoveredUrlCount": 220,
+  "candidateCount": 3,
+  "strongCandidateCount": 0,
+  "lowPriorityCandidateCount": 3,
+  "candidates": [
+    {
+      "municipalityCode": "20210",
+      "municipalityName": "駒ヶ根市",
+      "sourceUrl": "https://www.city.komagane.nagano.jp/gyosei/index.html",
+      "status": 200,
+      "title": "",
+      "h1": "",
+      "updatedAt": "令和8年4月1日",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 7,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "20210",
+      "municipalityName": "駒ヶ根市",
+      "sourceUrl": "https://www.city.komagane.nagano.jp/iju_teijusite/index.html",
+      "status": 200,
+      "title": "駒ヶ根市移住・定住サイト／駒ヶ根市アルプスがふたつ映えるまち",
+      "h1": "",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金",
+        "支援金",
+        "奨励金",
+        "移住",
+        "住宅",
+        "空き家",
+        "創業",
+        "事業者",
+        "子育て"
+      ],
+      "candidateScore": 12,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "20210",
+      "municipalityName": "駒ヶ根市",
+      "sourceUrl": "https://www.city.komagane.nagano.jp/parenting/index.html",
+      "status": 200,
+      "title": "駒ヶ根市子育てサイト／駒ヶ根市アルプスがふたつ映えるまち",
+      "h1": "",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て",
+        "就学"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://www.city.komagane.nagano.jp/",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/sitemap.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/sitemap.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/sitemap_index.xml",
+      "status": 404,
+      "finalUrl": "https://www.city.komagane.nagano.jp/sitemap_index.xml",
+      "ok": false
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/robots.txt",
+      "status": 404,
+      "finalUrl": "https://www.city.komagane.nagano.jp/robots.txt",
+      "ok": false
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/index.html",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/index.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/index.html",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/index.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/iju_teijusite/index.html",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/iju_teijusite/index.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/parenting/index.html",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/parenting/index.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/bosaijoho/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/bosaijoho/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/eventcalendar/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/eventcalendar/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/gomibumbetsukensakunavi/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/gomibumbetsukensakunavi/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/gomibumbetsukensakunavi/garbage_search/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/gomibumbetsukensakunavi/garbage_search/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/kyujitsutobani_tobanyakkyoku/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/kyujitsutobani_tobanyakkyoku/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/mailhaishinservice/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/mailhaishinservice/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/shinseishodownload/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/shinseishodownload/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/shisetsukensaku_yoyakunavi/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/shisetsukensaku_yoyakunavi/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/shisetsukensaku_yoyakunavi/bunyakarasagasu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/shisetsukensaku_yoyakunavi/bunyakarasagasu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/shisetsukensaku_yoyakunavi/bunyakarasagasu/hoikuen_youtien/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/shisetsukensaku_yoyakunavi/bunyakarasagasu/hoikuen_youtien/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/shisetsukensaku_yoyakunavi/bunyakarasagasu/parks/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/shisetsukensaku_yoyakunavi/bunyakarasagasu/parks/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/shisetsukensaku_yoyakunavi/bunyakarasagasu/siyakusyosisyosc/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/shisetsukensaku_yoyakunavi/bunyakarasagasu/siyakusyosisyosc/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/shisetsukensaku_yoyakunavi/bunyakarasagasu/syougakkoutyuugakkou/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/shisetsukensaku_yoyakunavi/bunyakarasagasu/syougakkoutyuugakkou/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/shisetsukensaku_yoyakunavi/map/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/shisetsukensaku_yoyakunavi/map/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/shisetsukensaku_yoyakunavi/shisetsuyoyaku/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/shisetsukensaku_yoyakunavi/shisetsuyoyaku/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/tetsuzukiconcierge/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/benri/tetsuzukiconcierge/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/hikkoshi/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/hikkoshi/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/juminhyo_shomei/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/juminhyo_shomei/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/kekkon_rikon/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/kekkon_rikon/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/kenshin_nenkin/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/kenshin_nenkin/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/koreisha_kaigoshien/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/koreisha_kaigoshien/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/nayami_sodan/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/nayami_sodan/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/ninshin_shussan_kosodate/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/ninshin_shussan_kosodate/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/nyuen_nyugaku/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/nyuen_nyugaku/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/okuyami/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/okuyami/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/shogaishashien/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/shogaishashien/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/shushoku_taishoku/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/shushoku_taishoku/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/teate_josei/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/teate_josei/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/teate_josei/bunka_sports/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/teate_josei/bunka_sports/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/teate_josei/hitorioyakatei/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/teate_josei/hitorioyakatei/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/teate_josei/kenko_fukushi/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/teate_josei/kenko_fukushi/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/teate_josei/kosodate/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/teate_josei/kosodate/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/teate_josei/kurashi_tetsuzuki/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/teate_josei/kurashi_tetsuzuki/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/teate_josei/ninshin_shussan_funinchiryou/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/teate_josei/ninshin_shussan_funinchiryou/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/teate_josei/sangyo_business_kanko/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/teate_josei/sangyo_business_kanko/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/teate_josei/seikatsukonkyu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/teate_josei/seikatsukonkyu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/teate_josei/shobo_bosai/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/teate_josei/shobo_bosai/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/teate_josei/shogaisya/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/teate_josei/shogaisya/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/teate_josei/sumai_ijuteiju/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/joho_seaech/lifescen/teate_josei/sumai_ijuteiju/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/corona_vaccine/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/corona_vaccine/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/corona_virus/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/corona_virus/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/iryohijosei/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/iryohijosei/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/kansensho_yobosesshu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/kansensho_yobosesshu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/kansensho_yobosesshu/1/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/kansensho_yobosesshu/1/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/kansensho_yobosesshu/2/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/kansensho_yobosesshu/2/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/kenkojoho/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/kenkojoho/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/kenshin/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/kenshin/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/kokoronokenkou/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/kokoronokenkou/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/shokuseikatsu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/shokuseikatsu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/shokuseikatsu/kenkoukyoryokuten/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/shokuseikatsu/kenkoukyoryokuten/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/undo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/undo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/yobou/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/kenko_iryo/yobou/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/koreishashien_kaigo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/koreishashien_kaigo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/koreishashien_kaigo/kaigohoken/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/koreishashien_kaigo/kaigohoken/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/koreishashien_kaigo/kaigohoken/kaigo_service_jigyosya/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/koreishashien_kaigo/kaigohoken/kaigo_service_jigyosya/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/koreishashien_kaigo/kaigohoken/kaigo_service_riyosya/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/koreishashien_kaigo/kaigohoken/kaigo_service_riyosya/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/koreishashien_kaigo/kaigohoken/kaigoseido/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/koreishashien_kaigo/kaigohoken/kaigoseido/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/koreishashien_kaigo/kaigozinzai/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/koreishashien_kaigo/kaigozinzai/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/koreishashien_kaigo/kenriwomamoru/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/koreishashien_kaigo/kenriwomamoru/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/koreishashien_kaigo/koreishashien/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/koreishashien_kaigo/koreishashien/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/koreishashien_kaigo/koreishashien/ninchisyo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/koreishashien_kaigo/koreishashien/ninchisyo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/koreishashien_kaigo/koreishashien/zaitaku_service/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/koreishashien_kaigo/koreishashien/zaitaku_service/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/seikatukonkyu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/seikatukonkyu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/shogaishashien/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/shogaishashien/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/shogaishashien/gemmen_kojyo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/shogaishashien/gemmen_kojyo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/shogaishashien/iryohi/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/shogaishashien/iryohi/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/shogaishashien/shogaifukushiservice/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/shogaishashien/shogaifukushiservice/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/shogaishashien/teate_kyufu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/shogaishashien/teate_kyufu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/shogaishashien/techokofu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kenko_fukushi/shogaishashien/techokofu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/bunka_keijyutu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/bunka_keijyutu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/bunka_keijyutu/bunkasinkou/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/bunka_keijyutu/bunkasinkou/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/bunka_keijyutu/bunkazai/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/bunka_keijyutu/bunkazai/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/bunka_keijyutu/dokusyosuisin/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/bunka_keijyutu/dokusyosuisin/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/bunka_keijyutu/ibento/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/bunka_keijyutu/ibento/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/bunka_keijyutu/maizoubunkazai/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/bunka_keijyutu/maizoubunkazai/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/kominkan/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/kominkan/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/kyoikuiinkai/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/kyoikuiinkai/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/kyoikuiinkai/bukatsudou/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/kyoikuiinkai/bukatsudou/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/kyoikuiinkai/gyojinokyosai_koento/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/kyoikuiinkai/gyojinokyosai_koento/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/kyoikuiinkai/hatarakikatakaikaku/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/kyoikuiinkai/hatarakikatakaikaku/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/kyoikuiinkai/keikaku/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/kyoikuiinkai/keikaku/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/kyoikuiinkai/kyoikuiinkaikaigi/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/kyoikuiinkai/kyoikuiinkaikaigi/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/kyoikuiinkai/kyoikuiinkaikosaihi/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/kyoikuiinkai/kyoikuiinkaikosaihi/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/kyoikuiinkai/kyoikutaikou/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/kyoikuiinkai/kyoikutaikou/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/kyoikuiinkai/sogokyoikukaigi/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/kyoikuiinkai/sogokyoikukaigi/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/shogaigakushu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/shogaigakushu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/shogaigakushu/1/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/shogaigakushu/1/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/shogaigakushu/2/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/shogaigakushu/2/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/shogaigakushu/seijinsiki/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/shogaigakushu/seijinsiki/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/shogaigakushu/seisyounennikusei_juniorleader/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/shogaigakushu/seisyounennikusei_juniorleader/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/shogaigakushu/shogaigakushusinkou/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/shogaigakushu/shogaigakushusinkou/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/shogaigakushu/syougaigakusyusisetu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/shogaigakushu/syougaigakusyusisetu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/sports/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/sports/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/sports/1/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/sports/1/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/sports/halfmarathon/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/sports/halfmarathon/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/sports/shinshuyamanamikokuspo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/sports/shinshuyamanamikokuspo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/sports/shinshuyamanamikokuspo/1/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/sports/shinshuyamanamikokuspo/1/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/sports/shinshuyamanamikokuspo/4/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/sports/shinshuyamanamikokuspo/4/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/sports/sports_fukyu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/sports/sports_fukyu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/sports/suposyo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/sports/suposyo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/sports/suposyo/2/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kosodate_bunka_sports/sports/suposyo/2/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/bosai_saigai/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/bosai_saigai/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/bosai_saigai/bousaiplan/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/bosai_saigai/bousaiplan/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/bosai_saigai/hisaichinoshien/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/bosai_saigai/hisaichinoshien/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/bosai_saigai/hojyoseido/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/bosai_saigai/hojyoseido/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/bosai_saigai/kokuminnhogo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/bosai_saigai/kokuminnhogo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/bosai_saigai/manual/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/bosai_saigai/manual/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/bosai_saigai/saigaihenosonae/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/bosai_saigai/saigaihenosonae/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/danjokyodosankaku_jinken_heiwato/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/danjokyodosankaku_jinken_heiwato/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/danjokyodosankaku_jinken_heiwato/danjokyodosankaku/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/danjokyodosankaku_jinken_heiwato/danjokyodosankaku/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/danjokyodosankaku_jinken_heiwato/heiwakatsudo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/danjokyodosankaku_jinken_heiwato/heiwakatsudo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/danjokyodosankaku_jinken_heiwato/jinken/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/danjokyodosankaku_jinken_heiwato/jinken/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/doro_kotsu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/doro_kotsu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/doro_kotsu/doro/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/doro_kotsu/doro/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/doro_kotsu/kokyokotsu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/doro_kotsu/kokyokotsu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/doro_kotsu/kokyokotsu/kokyokotsukyogikai/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/doro_kotsu/kokyokotsu/kokyokotsukyogikai/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/gaikokusekijumimmukeservice/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/gaikokusekijumimmukeservice/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/gaikokusekijumimmukeservice/madoguchi_kozato/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/gaikokusekijumimmukeservice/madoguchi_kozato/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/gomi_recycle/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/gomi_recycle/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/gomi_recycle/gominogenryo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/gomi_recycle/gominogenryo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/gomi_recycle/gominoshorihoho/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/gomi_recycle/gominoshorihoho/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/gomi_recycle/gominoshorihoho/gomidashi/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/gomi_recycle/gominoshorihoho/gomidashi/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/gomi_recycle/jigyoshanominasanhe/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/gomi_recycle/jigyoshanominasanhe/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/gomi_recycle/recycle/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/gomi_recycle/recycle/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/hoken_nenkin/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/hoken_nenkin/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/hoken_nenkin/kokikoreishairyoseido/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/hoken_nenkin/kokikoreishairyoseido/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/hoken_nenkin/kokuminkenkohoken/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/hoken_nenkin/kokuminkenkohoken/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/hoken_nenkin/kokuminnenkin/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/hoken_nenkin/kokuminnenkin/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/jogesuido/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/jogesuido/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/jogesuido/gesuido/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/jogesuido/gesuido/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/jogesuido/josuido/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/jogesuido/josuido/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/jogesuido/tetsuzuki_ryokin_toiawase/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/jogesuido/tetsuzuki_ryokin_toiawase/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/jogesuido/uneijoukyou/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/jogesuido/uneijoukyou/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/juminhyo_kosekinado/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/juminhyo_kosekinado/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/juminhyo_kosekinado/convenience_store_kofu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/juminhyo_kosekinado/convenience_store_kofu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/juminhyo_kosekinado/juminhyo_koseki_inkantoroku/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/juminhyo_kosekinado/juminhyo_koseki_inkantoroku/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/juminhyo_kosekinado/mynumbercard/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/juminhyo_kosekinado/mynumbercard/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/kankyo_eisei/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/kankyo_eisei/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/kankyo_eisei/bochi/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/kankyo_eisei/bochi/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/kankyo_eisei/egaopoint/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/kankyo_eisei/egaopoint/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/kankyo_eisei/energy/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/kankyo_eisei/energy/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/kankyo_eisei/gairaiseibutsu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/kankyo_eisei/gairaiseibutsu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/kankyo_eisei/kankyoeisei/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/kankyo_eisei/kankyoeisei/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/kankyo_eisei/kankyohozen/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/kankyo_eisei/kankyohozen/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/kankyo_eisei/kankyohozen/kouhyoshiryo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/kankyo_eisei/kankyohozen/kouhyoshiryo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/kankyo_eisei/pet/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/kankyo_eisei/pet/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/koen_kasen/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/koen_kasen/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/koen_kasen/kasen/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/koen_kasen/kasen/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/koen_kasen/koen/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/koen_kasen/koen/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/kurashinoguide/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/kurashinoguide/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shigoto_koyo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shigoto_koyo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shigoto_koyo/job_in_komagane/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shigoto_koyo/job_in_komagane/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shigoto_koyo/job_support_events/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shigoto_koyo/job_support_events/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shiminkatsudo_shiseisanka/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shiminkatsudo_shiseisanka/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shiminkatsudo_shiseisanka/hoshikatsudo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shiminkatsudo_shiseisanka/hoshikatsudo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shiminkatsudo_shiseisanka/jichikai_chonaikai/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shiminkatsudo_shiseisanka/jichikai_chonaikai/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shiminkatsudo_shiseisanka/jichikai_chonaikai/1/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shiminkatsudo_shiseisanka/jichikai_chonaikai/1/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shiminkatsudo_shiseisanka/shiminkatsudou/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shiminkatsudo_shiseisanka/shiminkatsudou/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shiminkatsudo_shiseisanka/zitisoshikiarikatakentou/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shiminkatsudo_shiseisanka/zitisoshikiarikatakentou/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shobo_bohan_kotsuanzen/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shobo_bohan_kotsuanzen/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shobo_bohan_kotsuanzen/bohan/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shobo_bohan_kotsuanzen/bohan/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shobo_bohan_kotsuanzen/kotsuanzen/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shobo_bohan_kotsuanzen/kotsuanzen/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shobo_bohan_kotsuanzen/shobo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shobo_bohan_kotsuanzen/shobo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shohishasodan/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/shohishasodan/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/sumai_kenchiku/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/sumai_kenchiku/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/sumai_kenchiku/akiya/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/sumai_kenchiku/akiya/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/sumai_kenchiku/kenchiku/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/sumai_kenchiku/kenchiku/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/sumai_kenchiku/shieijutaku/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/sumai_kenchiku/shieijutaku/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizei_kouhyo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizei_kouhyo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinitsuiteshiraberu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinitsuiteshiraberu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinitsuiteshiraberu/1/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinitsuiteshiraberu/1/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinitsuiteshiraberu/2/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinitsuiteshiraberu/2/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinitsuiteshiraberu/4/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinitsuiteshiraberu/4/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinitsuiteshiraberu/4/gengakuseido/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinitsuiteshiraberu/4/gengakuseido/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinitsuiteshiraberu/6/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinitsuiteshiraberu/6/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinitsuiteshiraberu/7/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinitsuiteshiraberu/7/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinitsuiteshiraberu/kojinjyuminzei/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinitsuiteshiraberu/kojinjyuminzei/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinitsuiteshiraberu/kojinjyuminzei/zeinoshinkoku/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinitsuiteshiraberu/kojinjyuminzei/zeinoshinkoku/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinitsuiteshiraberu/kojinjyuminzei/zeiseikaisei/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinitsuiteshiraberu/kojinjyuminzei/zeiseikaisei/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinonofu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinonofu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinoshomei/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinoshomei/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinotetsuzuki/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/kurashi_tetsuzuki/zeikin/shizeinotetsuzuki/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/otoiawase/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/otoiawase/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/riyouannaitou/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/riyouannaitou/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/kanko/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/kanko/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/kanko/PRcharacterkomakappa/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/kanko/PRcharacterkomakappa/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/kanko/PRcharacterkomakappa/komakappa_katsudounikki/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/kanko/PRcharacterkomakappa/komakappa_katsudounikki/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/kanko/corona_kanko/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/kanko/corona_kanko/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/kanko/kankojoho/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/kanko/kankojoho/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/kanko/komaganekogembessochi/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/kanko/komaganekogembessochi/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/kanko/oyadomeguri/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/kanko/oyadomeguri/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/kanko/tozanjoho/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/kanko/tozanjoho/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/kigyoritchi/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/kigyoritchi/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/noringyo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/noringyo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/noringyo/nogyo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/noringyo/nogyo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/noringyo/nogyoiinkai/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/noringyo/nogyoiinkai/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/noringyo/ringyo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/noringyo/ringyo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/shokogyo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/shokogyo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/shokogyo/chushinshigaichishien/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/shokogyo/chushinshigaichishien/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/shokogyo/machinoomisetanbou/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/shokogyo/machinoomisetanbou/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/shokogyo/shokogyoshien/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komagane.nagano.jp/gyosei/sangyo_business_kanko/shokogyo/shokogyoshien/sitemap.dir.xml",
+      "ok": true
+    }
+  ]
+}

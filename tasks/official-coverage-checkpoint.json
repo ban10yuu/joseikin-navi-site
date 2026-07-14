@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T07:15:00+09:00",
+  "updatedAt": "2026-07-15T08:05:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "nagano-official-coverage-001",
-    "municipality": "岡谷市・飯田市・諏訪市・須坂市・小諸市",
+    "code": "nagano-official-coverage-002",
+    "municipality": "伊那市・駒ヶ根市・中野市・大町市・飯山市",
     "adopted": 60,
-    "held": 604,
+    "held": 770,
     "excluded": 0,
     "sourceUrlsChecked": 60,
     "validation": {
-      "previousMunicipality": "長野県公式棚卸し001として、20204岡谷市・20205飯田市・20206諏訪市・20207須坂市・20208小諸市を確認した。自治体別クロールで候補475件、候補本文スニペット475件、公式URLリード192件、再スコア対象664件を保存し、個別公式ページ60件を新規採用した。長野県第1巡は20208小諸市まで到達。全国公式棚卸しは未完了。",
+      "previousMunicipality": "長野県公式棚卸し002として、20209伊那市・20210駒ヶ根市・20211中野市・20212大町市・20213飯山市を確認した。自治体別クロールで候補543件、候補本文スニペット543件、公式URLリード298件、再スコア対象830件を保存し、個別公式ページ60件を新規採用した。大町市は取得本文が共通ナビ中心で制度名・必須項目の確証が弱いため第2巡候補保持。長野県第1巡は20213飯山市まで到達。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for nagano-official-coverage-001 JSON files and checkpoint",
+      "json": "pass: JSON.parse for nagano-official-coverage-002 JSON files and checkpoint",
       "addedSlugUniqueness": "pass: 60 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
       "urlReachability": "pass: 60 primary official URLs returned HTTP 200 by interval curl",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 13255, officialLinkedActive 13135, manuallyVerifiedActive 13135, 長野県 localOfficial 169)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 13315, officialLinkedActive 13195, manuallyVerifiedActive 13195, 長野県 localOfficial 229)"
     }
   },
   "next": {
-    "code": "nagano-official-coverage-002",
-    "municipality": "伊那市",
-    "shortlist": "長野県公式棚卸し001は岡谷市8件、飯田市20件、諏訪市20件、須坂市6件、小諸市6件の計60件を採用した。トップ、カテゴリ、ポータル、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補として保持する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、20209伊那市を開始地点として長野県公式棚卸し002を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "nagano-official-coverage-003",
+    "municipality": "茅野市",
+    "shortlist": "長野県公式棚卸し002は伊那市20件、駒ヶ根市20件、中野市14件、飯山市6件の計60件を採用した。大町市は共通ナビ中心のため第2巡候補として保持する。トップ、カテゴリ、ポータル、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補として保持する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、20214茅野市を開始地点として長野県公式棚卸し003を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "長野県",
     "status": "in-progress",
-    "lastBatch": "nagano-official-coverage-001",
-    "notes": "山梨県は19201甲府市から19443丹波山村まで第1巡完了。長野県は20201長野市から20208小諸市まで第1巡到達。全国公式棚卸しは未完了。次は20209伊那市から継続する。"
+    "lastBatch": "nagano-official-coverage-002",
+    "notes": "山梨県は19201甲府市から19443丹波山村まで第1巡完了。長野県は20201長野市から20213飯山市まで第1巡到達。全国公式棚卸しは未完了。次は20214茅野市から継続する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

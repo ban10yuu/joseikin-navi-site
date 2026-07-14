@@ -9608,3 +9608,46 @@
   - トップ、カテゴリ、ポータル、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補に残す。
 - 次:
   - 長野県公式棚卸し002として、20209伊那市から自治体コード順に確認する。
+
+
+### 2026-07-15 長野県公式棚卸し002（20209伊那市・20210駒ヶ根市・20211中野市・20212大町市・20213飯山市）
+
+- 作業範囲:
+  - 20209 伊那市、20210 駒ヶ根市、20211 中野市、20212 大町市、20213 飯山市の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 5自治体の公式トップはすべてHTTP 200を確認した。
+  - 自治体別クロールで候補543件を取得した。shortlistが150件超かつcrawl候補の40%超だったため、候補本文スニペット543件を抽出し、アンカーテキスト起点の制度リード298件を再取得し、再スコア対象830件を保存した。
+  - 採用対象の60公式ページは、間隔付きcurlで全件HTTP 200を確認した。
+- 採用:
+  - 合計60件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 伊那市20件: 通勤助成金、宅地の分譲に対する補助金情報、住宅の新築・取得に対する補助金情報（いな住まいる補助金）、【R8に限り最大50万円】販路拡大事業補助金、伊那市奨学金返還支援補助金のご案内、【2月27日（金曜）締切】令和7年度田舎暮らしモデル地域通勤助成金の申請について、福祉医療費給付金制度、伊那市エアコン設置促進事業補助金について、こどもの進学支援事業補助金について、物価高対応子育て応援手当、ごみ収集ステーション整備に関する補助金、除雪機械整備事業補助金について、伊那市集会施設整備補助金、児童遊園地設置補助金、母子父子寡婦福祉金の貸付、伊那市ひとり親家庭生活資金貸付、母子・父子家庭高等学校生徒等通学費補助金、児童扶養手当、児童手当、自転車活用に関する補助金のお知らせ。
+  - 駒ヶ根市20件: こまがね de 新婚生活スタート応援事業、住居確保給付金事業、家庭生ごみ堆肥化処理容器・処理機の購入補助、下水道接続工事費の補助制度、合併処理浄化槽設置補助制度、居住誘導区域内の住宅取得者への補助制度、若者の定住促進のため奨学金等の返還を支援、UIJターン就業・創業移住支援事業補助金制度、駒ヶ根市空き家片づけ事業補助制度、駒ヶ根市空き家バンク改修補助金、育児・母乳相談の費用を助成、妊婦歯科健診費用の助成、不妊治療にかかった費用を一部助成、児童手当、子どもの医療費助成、がん治療に伴う医療用補整具の購入費用補助、障がい者医療費助成、児童扶養手当、令和8年度 中小企業販路拡大支援事業補助金、自転車用ヘルメットの購入費用を補助。
+  - 中野市14件: 中野市子どもど真ん中宣言企業助成金、骨髄バンクドナー助成事業について、新婚世帯の住居費・引越費用・リフォーム費用の一部支給、中野市UIJターン就業・創業移住支援事業補助金、令和8年度 生ごみ堆肥化機器等購入費助成金の申請について、ペレットストーブ等購入助成金について、不妊・不育症治療助成事業について、軽度・中等度難聴児の補聴器購入費等助成について、中野市ファミリー・サポート利用料助成金について、中野市従業員家賃支援事業補助金、自動車運転免許取得費助成、中野市にぎわい創生推進事業補助金、収入保険加入促進事業への助成について、果樹共済加入促進事業への助成について。
+  - 飯山市6件: 福祉医療費特別給付金について、宿泊施設環境整備事業補助金、飯山市後期高齢者医療保険加入者人間ドック検査費用補助、飯山市では妊産婦の方への医療費を助成しています、人間ドック検査費用補助金、飯山市バス旅行支援事業助成金について（令和8年度事業）。
+  - 大町市は取得本文が共通ナビ・汎用見出し中心で、制度名・対象・金額・条件・期限の必須項目確認に至らなかったため、第2巡候補として保持し、今回採用は見送った。
+- 生成ファイル:
+  - `tasks/discovery/nagano-official-coverage-002-20209-municipality.json`
+  - `tasks/discovery/nagano-official-coverage-002-20210-municipality.json`
+  - `tasks/discovery/nagano-official-coverage-002-20211-municipality.json`
+  - `tasks/discovery/nagano-official-coverage-002-20212-municipality.json`
+  - `tasks/discovery/nagano-official-coverage-002-20213-municipality.json`
+  - `tasks/discovery/nagano-official-coverage-002-adopted-urls.json`
+  - `tasks/discovery/nagano-official-coverage-002-adoption-ranked.json`
+  - `tasks/discovery/nagano-official-coverage-002-candidates.json`
+  - `tasks/discovery/nagano-official-coverage-002-municipalities.json`
+  - `tasks/discovery/nagano-official-coverage-002-rescored-snippets.json`
+  - `tasks/discovery/nagano-official-coverage-002-snippets.json`
+  - `tasks/discovery/nagano-official-coverage-002-url-leads.json`
+  - `tasks/discovery/nagano-official-coverage-002.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（002関連JSON、checkpoint）。
+  - 追加slug重複: pass（60件、`verified-local-misc-2026.ts` 全体 duplicateCount 0）。
+  - 公式URL到達: pass（60 primary official URLsすべてHTTP 200、間隔付きcurl）。
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 13315、officialLinkedActive 13195、manuallyVerifiedActive 13195、長野県 localOfficial 229）。
+- 注意:
+  - 長野県は20201長野市から20213飯山市まで第1巡に到達した。ただし全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は長野県20213飯山市到達のみで全国完了扱いしない。
+  - 大町市は共通ナビ中心のため第2巡候補として保持する。トップ、カテゴリ、ポータル、様式、申請書単体、Q&A、周知のみ、制度要件不足候補も第2巡候補に残す。
+- 次:
+  - 長野県公式棚卸し003として、20214茅野市から自治体コード順に確認する。
