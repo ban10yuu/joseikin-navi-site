@@ -1,0 +1,1943 @@
+{
+  "batchId": "tokyo-official-coverage-016",
+  "prefecture": "東京都",
+  "generatedAt": "2026-07-14T08:31:10.120Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 60,
+  "results": [
+    {
+      "code": "13421",
+      "name": "小笠原村",
+      "officialBaseUrl": "https://www.vill.ogasawara.tokyo.jp/",
+      "discoveredUrlCount": 140,
+      "candidateCount": 60,
+      "strongCandidateCount": 9,
+      "lowPriorityCandidateCount": 51,
+      "candidates": [
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/",
+          "status": 200,
+          "title": "小笠原村公式サイト",
+          "h1": "小笠原村公式サイト",
+          "updatedAt": "令和8年6月1日",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/outline/",
+          "status": 200,
+          "title": "概要",
+          "h1": "概要",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/outline_development/",
+          "status": 200,
+          "title": "沿革",
+          "h1": "沿革",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/communication/",
+          "status": 200,
+          "title": "交通と通信",
+          "h1": "交通と通信",
+          "updatedAt": "平成11年4月21日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/ioutou_index/",
+          "status": 200,
+          "title": "硫黄島",
+          "h1": "硫黄島",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/okinotorishima/",
+          "status": 200,
+          "title": "沖ノ鳥島",
+          "h1": "沖ノ鳥島",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "水産"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/soumu/",
+          "status": 200,
+          "title": "総務課",
+          "h1": "総務課",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "給付金",
+            "住宅"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/kikaku_seisaku/",
+          "status": 200,
+          "title": "企画政策室",
+          "h1": "企画政策室",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "子育て"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/zaisei/",
+          "status": 200,
+          "title": "財政課",
+          "h1": "財政課",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/",
+          "status": 200,
+          "title": "村民課",
+          "h1": "村民課",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/iryou/",
+          "status": 200,
+          "title": "医療課",
+          "h1": "医療課",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/sangyo_kanko/",
+          "status": 200,
+          "title": "産業観光課",
+          "h1": "産業観光課",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "水産"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/kankyo/",
+          "status": 200,
+          "title": "環境課",
+          "h1": "環境課",
+          "updatedAt": "平成23年6月19日",
+          "keywordHits": [
+            "奨励金"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/hahajima/",
+          "status": 200,
+          "title": "母島支所",
+          "h1": "母島支所",
+          "updatedAt": "",
+          "keywordHits": [
+            "水産",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/kyouiku/",
+          "status": 200,
+          "title": "教育課",
+          "h1": "教育課",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/gikai/",
+          "status": 200,
+          "title": "議会事務局",
+          "h1": "議会事務局",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/soumu/info_measurements/",
+          "status": 200,
+          "title": "放射線量測定結果",
+          "h1": "放射線量測定結果",
+          "updatedAt": "",
+          "keywordHits": [
+            "水産"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/sightseeing_chichi/",
+          "status": 200,
+          "title": "父島",
+          "h1": "父島",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "水産"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/sightseeing_speciality/",
+          "status": 200,
+          "title": "特産品紹介",
+          "h1": "特産品紹介",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "水産"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/bus/",
+          "status": 200,
+          "title": "村営バス",
+          "h1": "村営バス",
+          "updatedAt": "令和6年5月15日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/soumu/%e5%b0%8f%e7%ac%a0%e5%8e%9f%e6%9d%91%e6%9d%91%e6%b0%91%e3%81%ae%e5%a3%b0%e4%ba%8b%e6%a5%ad/",
+          "status": 200,
+          "title": "小笠原村村民の声事業",
+          "h1": "小笠原村村民の声事業",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/minnanocouponken/",
+          "status": 200,
+          "title": "小笠原村民利用商品券事業「小笠原村民みんなのクーポン券(２０２６)」",
+          "h1": "小笠原村民利用商品券事業「小笠原村民みんなのクーポン券(２０２６)」",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/tennyuu/",
+          "status": 200,
+          "title": "転入・転出・転居の手続き",
+          "h1": "転入・転出・転居の手続き",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/syussan/",
+          "status": 200,
+          "title": "出産を予定されている方へ",
+          "h1": "出産を予定されている方へ",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "福祉",
+            "妊婦"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/iryouhijosei/",
+          "status": 200,
+          "title": "医療費助成",
+          "h1": "医療費助成",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "就学"
+          ],
+          "candidateScore": 22,
+          "candidatePriority": "strong",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/jidouteate/",
+          "status": 200,
+          "title": "児童手当",
+          "h1": "児童手当",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "strong",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/kosodate/",
+          "status": 200,
+          "title": "子育て支援",
+          "h1": "子育て支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/hoikuen/",
+          "status": 200,
+          "title": "保育園",
+          "h1": "保育園",
+          "updatedAt": "令和8年2月4日",
+          "keywordHits": [
+            "福祉",
+            "就学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/syougai/",
+          "status": 200,
+          "title": "障がい",
+          "h1": "障がい",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/kenkou/",
+          "status": 200,
+          "title": "健康づくり",
+          "h1": "健康づくり",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/kourei/",
+          "status": 200,
+          "title": "高齢者",
+          "h1": "高齢者",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/kensetsu_suidou/suido/",
+          "status": 200,
+          "title": "上下水道",
+          "h1": "上下水道",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "免除",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/kankyo/shiroari/",
+          "status": 200,
+          "title": "シロアリ",
+          "h1": "シロアリ",
+          "updatedAt": "",
+          "keywordHits": [
+            "奨励金",
+            "住宅"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/kankyo/",
+          "status": 200,
+          "title": "環境課",
+          "h1": "環境課",
+          "updatedAt": "平成23年6月19日",
+          "keywordHits": [
+            "奨励金"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/soumu/internet/",
+          "status": 200,
+          "title": "ケーブルテレビ",
+          "h1": "ケーブルテレビ",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/soumu/%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%bc%e3%83%8d%e3%83%83%e3%83%88/",
+          "status": 200,
+          "title": "インターネット",
+          "h1": "インターネット",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/zaisei/zaisei_syoumei/",
+          "status": 200,
+          "title": "税関係証明",
+          "h1": "税関係証明",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/zaisei/zaisei_kokuzei/",
+          "status": 200,
+          "title": "国税関連",
+          "h1": "国税関連",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/kankyo/zerocarbon/",
+          "status": 200,
+          "title": "ゼロカーボンシティ",
+          "h1": "ゼロカーボンシティ",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "事業者",
+            "省エネ"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/soumu/soumu_recruit/",
+          "status": 200,
+          "title": "職員募集",
+          "h1": "職員募集",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/kikaku_seisaku/%e3%83%ac%e3%82%a4%e3%83%b3%e3%83%9c%e3%83%bc%e3%83%91%e3%82%b9/",
+          "status": 200,
+          "title": "レインボーパス",
+          "h1": "レインボーパス",
+          "updatedAt": "令和8年4月20日",
+          "keywordHits": [
+            "事業者",
+            "就学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/links/",
+          "status": 200,
+          "title": "リンク集",
+          "h1": "リンク集",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/murayakuba/",
+          "status": 200,
+          "title": "各課の電話番号",
+          "h1": "各課の電話番号",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/toriatsukaitenboshu/",
+          "status": 200,
+          "title": "小笠原村民利用商品券事業「小笠原村民みんなのクーポン券(２０２６)」取扱店募集",
+          "h1": "小笠原村民利用商品券事業「小笠原村民みんなのクーポン券(２０２６)」取扱店募集",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/%e5%b0%8f%e7%ac%a0%e5%8e%9f%e6%9d%91%e6%96%b0%e5%9e%8b%e3%82%b3%e3%83%ad%e3%83%8a%e3%82%a6%e3%82%a4%e3%83%ab%e3%82%b9%e4%b8%80%e6%8e%83%e6%9c%9f%e9%96%93%e5%8d%94%e5%8a%9b%e9%87%91%e7%89%b9%e8%a8%ad/",
+          "status": 200,
+          "title": "小笠原村新型コロナウイルス一掃期間協力金特設ページ（11月11日更新）",
+          "h1": "小笠原村新型コロナウイルス一掃期間協力金特設ページ（11月11日更新）",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/previw-%e5%b0%8f%e7%ac%a0%e5%8e%9f%e6%9d%91%e4%ba%ba%e5%8f%a3%e3%83%93%e3%82%b8%e3%83%a7%e3%83%b3%e3%83%bb%e7%b7%8f%e5%90%88%e6%88%a6%e7%95%a5/",
+          "status": 200,
+          "title": "previw-小笠原村人口ビジョン・総合戦略",
+          "h1": "previw-小笠原村人口ビジョン・総合戦略",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/outline/",
+          "status": 200,
+          "title": "概要",
+          "h1": "概要",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/outline_development/",
+          "status": 200,
+          "title": "沿革",
+          "h1": "沿革",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/communication/",
+          "status": 200,
+          "title": "交通と通信",
+          "h1": "交通と通信",
+          "updatedAt": "平成11年4月21日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/ioutou_index/",
+          "status": 200,
+          "title": "硫黄島",
+          "h1": "硫黄島",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/wp-content/uploads/sites/2/2024/08/Ioutou_Book.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/wp-content/uploads/sites/2/2019/12/No.1_sansei.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/wp-content/uploads/sites/2/2025/06/310767fb1980a42df678cb1e2d559559.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/wp-content/uploads/sites/2/2019/12/No.3_sansei.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/wp-content/uploads/sites/2/2019/12/No.4_sansei.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/wp-content/uploads/sites/2/2025/06/d828fadbd3ad3263fdb25ffb40b9eda5.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/wp-content/uploads/sites/2/2025/10/31ca4e30be6a06c3f8585b2edeb47ff7.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/ioutou_index/ioutou_photo/",
+          "status": 200,
+          "title": "写真",
+          "h1": "写真",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/ioutou_index/ioutou_history/",
+          "status": 200,
+          "title": "歴史",
+          "h1": "歴史",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "農業"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13421",
+          "municipalityName": "小笠原村",
+          "sourceUrl": "https://www.vill.ogasawara.tokyo.jp/ioutou_index/ioutou_north/",
+          "status": 200,
+          "title": "北硫黄島",
+          "h1": "北硫黄島",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/robots.txt",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/robots.txt",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-json/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-json/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/xmlrpc.php?rsd",
+          "status": 403,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/xmlrpc.php?rsd",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/toiawase/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/toiawase/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sitemap/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sitemap/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/outline/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/outline/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/history/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/history/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/outline_development/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/outline_development/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/outline_historydays/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/outline_historydays/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/nature_index/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/nature_index/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/communication/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/communication/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/ioutou_index/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/ioutou_index/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/okinotorishima/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/okinotorishima/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/minamitori_index/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/minamitori_index/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/soumu/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/soumu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/kikaku_seisaku/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/kikaku_seisaku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/zaisei/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/zaisei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/iryou/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/iryou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sangyo_kanko/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sangyo_kanko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/kankyo/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/kankyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/kensetsu_suidou/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/kensetsu_suidou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/hahajima/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/hahajima/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/suitou/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/suitou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/kyouiku/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/kyouiku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/gikai/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/gikai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/soumu/bousai/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/soumu/bousai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/soumu/info_measurements/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/soumu/info_measurements/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/soumu/aed%e8%a8%ad%e7%bd%ae%e5%80%8b%e6%89%80/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/soumu/aed%e8%a8%ad%e7%bd%ae%e5%80%8b%e6%89%80/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/newsletter/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/newsletter/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sightseeing/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sightseeing/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/heritage/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/heritage/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sightseeing_chichi/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sightseeing_chichi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sightseeing_haha/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sightseeing_haha/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/%e5%b0%8f%e7%ac%a0%e5%8e%9f%e3%82%ab%e3%83%b3%e3%83%88%e3%83%aa%e3%83%bc%e3%82%b3%e3%83%bc%e3%83%89/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/%e5%b0%8f%e7%ac%a0%e5%8e%9f%e3%82%ab%e3%83%b3%e3%83%88%e3%83%aa%e3%83%bc%e3%82%b3%e3%83%bc%e3%83%89/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sightseeing_caution/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sightseeing_caution/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sightseeing_speciality/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sightseeing_speciality/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/cycle/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/cycle/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sightseeing/designmanhole/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sightseeing/designmanhole/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/access/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/access/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/bus/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/bus/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/furusato/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/furusato/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/soumu/%e5%b0%8f%e7%ac%a0%e5%8e%9f%e6%9d%91%e6%9d%91%e6%b0%91%e3%81%ae%e5%a3%b0%e4%ba%8b%e6%a5%ad/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/soumu/%e5%b0%8f%e7%ac%a0%e5%8e%9f%e6%9d%91%e6%9d%91%e6%b0%91%e3%81%ae%e5%a3%b0%e4%ba%8b%e6%a5%ad/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/minnanocouponken/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/minnanocouponken/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/category/panel-top_urgentnotice/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/category/panel-top_urgentnotice/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/panel-top_topics/soumuka/%e6%96%b0%e5%9e%8b%e3%82%a4%e3%83%b3%e3%83%95%e3%83%ab%e3%82%a8%e3%83%b3%e3%82%b6%e7%ad%89%e5%af%be%e7%ad%96%e8%a1%8c%e5%8b%95%e8%a8%88%e7%94%bb%e3%82%92%e6%94%b9%e5%ae%9a%e3%81%97%e3%81%be%e3%81%97.html/50469/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/panel-top_topics/soumuka/%e6%96%b0%e5%9e%8b%e3%82%a4%e3%83%b3%e3%83%95%e3%83%ab%e3%82%a8%e3%83%b3%e3%82%b6%e7%ad%89%e5%af%be%e7%ad%96%e8%a1%8c%e5%8b%95%e8%a8%88%e7%94%bb%e3%82%92%e6%94%b9%e5%ae%9a%e3%81%97%e3%81%be%e3%81%97.html/50469/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/panel-top_topics/gikaizimukyoku/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e7%ac%ac2%e5%9b%9e%e5%b0%8f%e7%ac%a0%e5%8e%9f%e6%9d%91%e8%ad%b0%e4%bc%9a%e5%ae%9a%e4%be%8b%e4%bc%9a%e4%b8%80%e8%88%ac%e8%b3%aa%e5%95%8f.html/50451/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/panel-top_topics/gikaizimukyoku/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e7%ac%ac2%e5%9b%9e%e5%b0%8f%e7%ac%a0%e5%8e%9f%e6%9d%91%e8%ad%b0%e4%bc%9a%e5%ae%9a%e4%be%8b%e4%bc%9a%e4%b8%80%e8%88%ac%e8%b3%aa%e5%95%8f.html/50451/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/panel-top_topics/hahazimashisho/%e6%af%8d%e5%b3%b6%e8%bf%94%e9%82%84%e7%a5%ad%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%b9%e2%84%963.html/50435/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/panel-top_topics/hahazimashisho/%e6%af%8d%e5%b3%b6%e8%bf%94%e9%82%84%e7%a5%ad%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%b9%e2%84%963.html/50435/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/panel-top_topics/soumuka/%e7%88%b6%e5%b3%b6%e8%bf%94%e9%82%84%e7%a5%ad%e3%81%ae%e9%96%8b%e5%82%ac%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6-3.html/50421/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/panel-top_topics/soumuka/%e7%88%b6%e5%b3%b6%e8%bf%94%e9%82%84%e7%a5%ad%e3%81%ae%e9%96%8b%e5%82%ac%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6-3.html/50421/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/panel-top_topics/gikaizimukyoku/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e7%ac%ac2%e5%9b%9e%e5%b0%8f%e7%ac%a0%e5%8e%9f%e6%9d%91%e8%ad%b0%e4%bc%9a%e5%ae%9a%e4%be%8b%e4%bc%9a%e9%96%8b%e4%bc%9a%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b.html/50395/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/panel-top_topics/gikaizimukyoku/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e7%ac%ac2%e5%9b%9e%e5%b0%8f%e7%ac%a0%e5%8e%9f%e6%9d%91%e8%ad%b0%e4%bc%9a%e5%ae%9a%e4%be%8b%e4%bc%9a%e9%96%8b%e4%bc%9a%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b.html/50395/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/category/panel-top_topics/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/category/panel-top_topics/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/tennyuu/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/tennyuu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/jousenken/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/jousenken/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/koseki_yusou/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/koseki_yusou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/syoumeisyokoufu/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/syoumeisyokoufu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/passport/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/passport/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/inkantoroku/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/inkantoroku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/syussan/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/syussan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/iryouhijosei/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/iryouhijosei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/jidouteate/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/jidouteate/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/kosodate/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/kosodate/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/hoikuen/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/hoikuen/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/syougai/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/syougai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/kenkou/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/kenkou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/kourei/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/kourei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/hoken/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/hoken/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/kankyo/gomi/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/kankyo/gomi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/kensetsu_suidou/suido/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/kensetsu_suidou/suido/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/kankyo/shiroari/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/kankyo/shiroari/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/kankyo",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/kankyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/soumu/internet/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/soumu/internet/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/soumu/%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%bc%e3%83%8d%e3%83%83%e3%83%88/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/soumu/%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%bc%e3%83%8d%e3%83%83%e3%83%88/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/zaisei/zaisei_syoumei/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/zaisei/zaisei_syoumei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/zaisei/zaisei_juminzei/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/zaisei/zaisei_juminzei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/zaisei/zaisei_kokuzei/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/zaisei/zaisei_kokuzei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/zaisei/zaisei_hoka/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/zaisei/zaisei_hoka/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/zaisei/eltax/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/zaisei/eltax/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/tenki/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/tenki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/kankyo/zerocarbon/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/kankyo/zerocarbon/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sangyo_kanko/smile_tourism/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sangyo_kanko/smile_tourism/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/soumu/soumu_recruit/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/soumu/soumu_recruit/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/shisetuyoyaku/",
+          "status": 404,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/shisetuyoyaku/",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/reiki_int/reiki_menu.html",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/reiki_int/reiki_menu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/soumu/aed%E8%A8%AD%E7%BD%AE%E5%80%8B%E6%89%80/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/soumu/aed%E8%A8%AD%E7%BD%AE%E5%80%8B%E6%89%80/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/%e5%b6%8b%e8%b0%b7%e5%b8%82%e5%b7%a6%e8%a1%9b%e9%96%80%e3%81%a3%e3%81%a6%e3%81%a0%e3%82%8c%ef%bc%9f/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/%e5%b6%8b%e8%b0%b7%e5%b8%82%e5%b7%a6%e8%a1%9b%e9%96%80%e3%81%a3%e3%81%a6%e3%81%a0%e3%82%8c%ef%bc%9f/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/kikaku_seisaku/%e3%83%ac%e3%82%a4%e3%83%b3%e3%83%9c%e3%83%bc%e3%83%91%e3%82%b9/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/kikaku_seisaku/%e3%83%ac%e3%82%a4%e3%83%b3%e3%83%9c%e3%83%bc%e3%83%91%e3%82%b9/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/about/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/about/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/privacypolicy/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/privacypolicy/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/webaccessibility_guidelines/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/webaccessibility_guidelines/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/links/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/links/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/murayakuba/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/murayakuba/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-json/wp/v2/pages/16563",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-json/wp/v2/pages/16563",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/?p=16563",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/toiawase/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vill.ogasawara.tokyo.jp%2Ftoiawase%2F",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vill.ogasawara.tokyo.jp%2Ftoiawase%2F",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-json/wp/v2/pages/16263",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-json/wp/v2/pages/16263",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/?p=16263",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sitemap/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vill.ogasawara.tokyo.jp%2Fsitemap%2F",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vill.ogasawara.tokyo.jp%2Fsitemap%2F",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/sonmin/%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E3%83%AF%E3%82%AF%E3%83%81%E3%83%B3%E6%8E%A5%E7%A8%AE%E7%89%B9%E8%A8%AD%E3%83%9A%E3%83%BC%E3%82%B8/",
+          "status": 404,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/sonmin/%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E3%83%AF%E3%82%AF%E3%83%81%E3%83%B3%E6%8E%A5%E7%A8%AE%E7%89%B9%E8%A8%AD%E3%83%9A%E3%83%BC%E3%82%B8/",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/ogasawaraclinic/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/ogasawaraclinic/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/toriatsukaitenboshu/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/toriatsukaitenboshu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/%e5%b0%8f%e7%ac%a0%e5%8e%9f%e6%9d%91%e6%96%b0%e5%9e%8b%e3%82%b3%e3%83%ad%e3%83%8a%e3%82%a6%e3%82%a4%e3%83%ab%e3%82%b9%e4%b8%80%e6%8e%83%e6%9c%9f%e9%96%93%e5%8d%94%e5%8a%9b%e9%87%91%e7%89%b9%e8%a8%ad/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/%e5%b0%8f%e7%ac%a0%e5%8e%9f%e6%9d%91%e6%96%b0%e5%9e%8b%e3%82%b3%e3%83%ad%e3%83%8a%e3%82%a6%e3%82%a4%e3%83%ab%e3%82%b9%e4%b8%80%e6%8e%83%e6%9c%9f%e9%96%93%e5%8d%94%e5%8a%9b%e9%87%91%e7%89%b9%e8%a8%ad/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/previw-%e5%b0%8f%e7%ac%a0%e5%8e%9f%e6%9d%91%e4%ba%ba%e5%8f%a3%e3%83%93%e3%82%b8%e3%83%a7%e3%83%b3%e3%83%bb%e7%b7%8f%e5%90%88%e6%88%a6%e7%95%a5/",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/previw-%e5%b0%8f%e7%ac%a0%e5%8e%9f%e6%9d%91%e4%ba%ba%e5%8f%a3%e3%83%93%e3%82%b8%e3%83%a7%e3%83%b3%e3%83%bb%e7%b7%8f%e5%90%88%e6%88%a6%e7%95%a5/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/preview-hoikuen/",
+          "status": 401,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/preview-hoikuen/",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-json/wp/v2/pages/15858",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-json/wp/v2/pages/15858",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/?p=15858",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/outline/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vill.ogasawara.tokyo.jp%2Foutline%2F",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vill.ogasawara.tokyo.jp%2Foutline%2F",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-json/wp/v2/pages/15860",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-json/wp/v2/pages/15860",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/?p=15860",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/history/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vill.ogasawara.tokyo.jp%2Fhistory%2F",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vill.ogasawara.tokyo.jp%2Fhistory%2F",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-json/wp/v2/pages/15861",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-json/wp/v2/pages/15861",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/?p=15861",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/outline_development/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vill.ogasawara.tokyo.jp%2Foutline_development%2F",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vill.ogasawara.tokyo.jp%2Foutline_development%2F",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-json/wp/v2/pages/15862",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-json/wp/v2/pages/15862",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/?p=15862",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/outline_historydays/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vill.ogasawara.tokyo.jp%2Foutline_historydays%2F",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vill.ogasawara.tokyo.jp%2Foutline_historydays%2F",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-json/wp/v2/pages/16554",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-json/wp/v2/pages/16554",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/?p=16554",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/nature_index/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vill.ogasawara.tokyo.jp%2Fnature_index%2F",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vill.ogasawara.tokyo.jp%2Fnature_index%2F",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/nature_environment",
+          "status": 404,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/nature_environment",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/nature_ap",
+          "status": 404,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/nature_ap",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-json/wp/v2/pages/15864",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-json/wp/v2/pages/15864",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/?p=15864",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/communication/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vill.ogasawara.tokyo.jp%2Fcommunication%2F",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vill.ogasawara.tokyo.jp%2Fcommunication%2F",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-json/wp/v2/pages/15865",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-json/wp/v2/pages/15865",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/?p=15865",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/ioutou_index/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vill.ogasawara.tokyo.jp%2Fioutou_index%2F",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vill.ogasawara.tokyo.jp%2Fioutou_index%2F",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-content/uploads/sites/2/2024/08/Ioutou_Book.pdf",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-content/uploads/sites/2/2024/08/Ioutou_Book.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-content/uploads/sites/2/2019/12/No.1_sansei.pdf",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-content/uploads/sites/2/2019/12/No.1_sansei.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-content/uploads/sites/2/2025/06/310767fb1980a42df678cb1e2d559559.pdf",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-content/uploads/sites/2/2025/06/310767fb1980a42df678cb1e2d559559.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-content/uploads/sites/2/2019/12/No.3_sansei.pdf",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-content/uploads/sites/2/2019/12/No.3_sansei.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-content/uploads/sites/2/2019/12/No.4_sansei.pdf",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-content/uploads/sites/2/2019/12/No.4_sansei.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-content/uploads/sites/2/2025/06/d828fadbd3ad3263fdb25ffb40b9eda5.pdf",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-content/uploads/sites/2/2025/06/d828fadbd3ad3263fdb25ffb40b9eda5.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/wp-content/uploads/sites/2/2025/10/31ca4e30be6a06c3f8585b2edeb47ff7.pdf",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/wp-content/uploads/sites/2/2025/10/31ca4e30be6a06c3f8585b2edeb47ff7.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/ioutou_index/ioutou_development.html",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/ioutou_index/ioutou_development/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/ioutou_index/ioutou_photo.html",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/ioutou_index/ioutou_photo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/ioutou_index/ioutou_history.html",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/ioutou_index/ioutou_history/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.ogasawara.tokyo.jp/ioutou_index/ioutou_north.html",
+          "status": 200,
+          "finalUrl": "https://www.vill.ogasawara.tokyo.jp/ioutou_index/ioutou_north/",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

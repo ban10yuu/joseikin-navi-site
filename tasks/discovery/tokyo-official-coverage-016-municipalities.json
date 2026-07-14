@@ -1,0 +1,21 @@
+{
+  "batchId": "tokyo-official-coverage-016",
+  "prefecture": "東京都",
+  "municipalities": [
+    {
+      "code": "13401",
+      "name": "八丈町",
+      "officialBaseUrl": "https://www.town.hachijo.tokyo.jp/"
+    },
+    {
+      "code": "13402",
+      "name": "青ヶ島村",
+      "officialBaseUrl": "https://www.vill.aogashima.tokyo.jp/"
+    },
+    {
+      "code": "13421",
+      "name": "小笠原村",
+      "officialBaseUrl": "https://www.vill.ogasawara.tokyo.jp/"
+    }
+  ]
+}

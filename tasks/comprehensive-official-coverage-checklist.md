@@ -8119,3 +8119,39 @@
   - 三宅村の児童手当・医療費助成等の制度横断ページ、カテゴリ導線、様式のみ、金額又は受付状況不足候補は第2巡候補に残す。
 - 次:
   - 東京都公式棚卸し016として、13401八丈町、13402青ヶ島村、13421小笠原村を自治体コード順に確認する。東村山市と015の保留候補は第2巡候補として保持する。
+
+### 2026-07-14 東京都公式棚卸し016（13401八丈町・13402青ヶ島村・13421小笠原村）
+
+- 作業範囲:
+  - 13401 八丈町、13402 青ヶ島村、13421 小笠原村の公式サイト・公式PDF・公式例規を対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 生成候補213件（八丈町132件、青ヶ島村21件、小笠原村60件）が150件を超えたため、`tasks/discovery/tokyo-official-coverage-016-manual-snippets.json` に公式本文の短い根拠を保存し、制度名・対象・金額/上限・条件・期限/受付状況が揃う制度を優先した。
+- 採用:
+  - 合計10件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 八丈町4件: 奨学資金、親子留学型離島留学定住支援金、島外医療機関通院交通費助成、介護保険住宅改修費。
+  - 青ヶ島村2件: 物価高騰対応生活支援給付金、低所得者支援給付金。
+  - 小笠原村4件: 乳幼児・義務教育就学児・高校生等医療費助成、小笠原村民みんなのクーポン券（2026）、出産支援金、国民健康保険出産育児一時金。
+- 生成ファイル:
+  - `tasks/discovery/tokyo-official-coverage-016-municipalities.json`
+  - `tasks/discovery/tokyo-official-coverage-016-13401-municipality.json`
+  - `tasks/discovery/tokyo-official-coverage-016-13402-municipality.json`
+  - `tasks/discovery/tokyo-official-coverage-016-13421-municipality.json`
+  - `tasks/discovery/tokyo-official-coverage-016-13401-candidates.json`
+  - `tasks/discovery/tokyo-official-coverage-016-13402-candidates.json`
+  - `tasks/discovery/tokyo-official-coverage-016-13421-candidates.json`
+  - `tasks/discovery/tokyo-official-coverage-016-candidates.json`
+  - `tasks/discovery/tokyo-official-coverage-016-manual-snippets.json`
+  - `tasks/discovery/tokyo-official-coverage-016.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - 追加slug重複: pass（10件、`verified-local-misc-2026.ts` 内で各1件）。
+  - 公式URL到達: pass（10 primary official URLsすべてHTTP 200）。
+  - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 11270、officialLinkedActive 11232、manuallyVerifiedActive 11232、東京都 localOfficial 654）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または東京都第1巡到達のみで全国完了扱いしない。
+  - 東京都は13421小笠原村まで自治体コード順の第1巡に到達したが、東村山市の直接取得403候補、015保留候補、016保留候補は第2巡候補として保持する。
+  - 八丈町雇用機会拡充事業補助金は公式ページで趣旨・募集期間を確認したが、補助上限額を同一公式本文内で安定確認できないため第2巡候補に残す。
+  - 八丈町のカテゴリ導線・申請書様式、青ヶ島村の過年度給付金PDF・実施計画、小笠原村の全国制度・議会だより・制度横断ページ・様式のみ候補は第2巡候補に残す。
+- 次:
+  - 神奈川県公式棚卸し001として、固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から自治体コード順の対象を確定して開始する。

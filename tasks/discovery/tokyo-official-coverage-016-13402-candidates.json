@@ -1,0 +1,953 @@
+{
+  "batchId": "tokyo-official-coverage-016",
+  "prefecture": "東京都",
+  "generatedAt": "2026-07-14T08:29:55.922Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 21,
+  "results": [
+    {
+      "code": "13402",
+      "name": "青ヶ島村",
+      "officialBaseUrl": "https://www.vill.aogashima.tokyo.jp/",
+      "discoveredUrlCount": 96,
+      "candidateCount": 21,
+      "strongCandidateCount": 0,
+      "lowPriorityCandidateCount": 21,
+      "candidates": [
+        {
+          "municipalityCode": "13402",
+          "municipalityName": "青ヶ島村",
+          "sourceUrl": "https://www.vill.aogashima.tokyo.jp/news/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13402",
+          "municipalityName": "青ヶ島村",
+          "sourceUrl": "https://www.vill.aogashima.tokyo.jp/bunkazai_digital.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13402",
+          "municipalityName": "青ヶ島村",
+          "sourceUrl": "https://www.vill.aogashima.tokyo.jp/tourism/sp_product.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13402",
+          "municipalityName": "青ヶ島村",
+          "sourceUrl": "https://www.vill.aogashima.tokyo.jp/life/facilities.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "水産",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13402",
+          "municipalityName": "青ヶ島村",
+          "sourceUrl": "https://www.vill.aogashima.tokyo.jp/panf.pdf",
+          "status": 404,
+          "title": "お探しのページを表示できません",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13402",
+          "municipalityName": "青ヶ島村",
+          "sourceUrl": "https://www.vill.aogashima.tokyo.jp/aogashima_operating_list.pdf",
+          "status": 404,
+          "title": "お探しのページを表示できません",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13402",
+          "municipalityName": "青ヶ島村",
+          "sourceUrl": "https://www.vill.aogashima.tokyo.jp/aogashima_map.pdf",
+          "status": 404,
+          "title": "お探しのページを表示できません",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13402",
+          "municipalityName": "青ヶ島村",
+          "sourceUrl": "https://www.vill.aogashima.tokyo.jp/syuraku_map.pdf",
+          "status": 404,
+          "title": "お探しのページを表示できません",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13402",
+          "municipalityName": "青ヶ島村",
+          "sourceUrl": "https://www.vill.aogashima.tokyo.jp/recycle.pdf",
+          "status": 404,
+          "title": "お探しのページを表示できません",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13402",
+          "municipalityName": "青ヶ島村",
+          "sourceUrl": "https://www.vill.aogashima.tokyo.jp/quantity&kind_of_waste.pdf",
+          "status": 404,
+          "title": "お探しのページを表示できません",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13402",
+          "municipalityName": "青ヶ島村",
+          "sourceUrl": "https://www.vill.aogashima.tokyo.jp/1_1final_report.pdf",
+          "status": 404,
+          "title": "お探しのページを表示できません",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13402",
+          "municipalityName": "青ヶ島村",
+          "sourceUrl": "https://www.vill.aogashima.tokyo.jp/1_2plan_report.pdf",
+          "status": 404,
+          "title": "お探しのページを表示できません",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13402",
+          "municipalityName": "青ヶ島村",
+          "sourceUrl": "https://www.vill.aogashima.tokyo.jp/1_3payment_statement.pdf",
+          "status": 404,
+          "title": "お探しのページを表示できません",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13402",
+          "municipalityName": "青ヶ島村",
+          "sourceUrl": "https://www.vill.aogashima.tokyo.jp/1_1census_register.pdf",
+          "status": 404,
+          "title": "お探しのページを表示できません",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13402",
+          "municipalityName": "青ヶ島村",
+          "sourceUrl": "https://www.vill.aogashima.tokyo.jp/1_2census_register.pdf",
+          "status": 404,
+          "title": "お探しのページを表示できません",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13402",
+          "municipalityName": "青ヶ島村",
+          "sourceUrl": "https://www.vill.aogashima.tokyo.jp/2_1residency_cards.pdf",
+          "status": 404,
+          "title": "お探しのページを表示できません",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13402",
+          "municipalityName": "青ヶ島村",
+          "sourceUrl": "https://www.vill.aogashima.tokyo.jp/2_2residency_cards.pdf",
+          "status": 404,
+          "title": "お探しのページを表示できません",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13402",
+          "municipalityName": "青ヶ島村",
+          "sourceUrl": "https://www.vill.aogashima.tokyo.jp/3_1charge.pdf",
+          "status": 404,
+          "title": "お探しのページを表示できません",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13402",
+          "municipalityName": "青ヶ島村",
+          "sourceUrl": "https://www.vill.aogashima.tokyo.jp/3_2charge.pdf",
+          "status": 404,
+          "title": "お探しのページを表示できません",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13402",
+          "municipalityName": "青ヶ島村",
+          "sourceUrl": "https://www.vill.aogashima.tokyo.jp/4_1familyname.pdf",
+          "status": 404,
+          "title": "お探しのページを表示できません",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13402",
+          "municipalityName": "青ヶ島村",
+          "sourceUrl": "https://www.vill.aogashima.tokyo.jp/4_2firstname.pdf",
+          "status": 404,
+          "title": "お探しのページを表示できません",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/",
+          "status": 200,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/top.html",
+          "status": 200,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/top.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/news/",
+          "status": 200,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/news/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/tourism/",
+          "status": 200,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/tourism/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/office/",
+          "status": 200,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/office/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/life/",
+          "status": 200,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/life/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/access/",
+          "status": 200,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/access/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/contact/",
+          "status": 200,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/contact/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/star/index.html",
+          "status": 200,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/star/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/kisyou/",
+          "status": 200,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/kisyou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/press/index.html",
+          "status": 200,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/press/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/office/outline.html",
+          "status": 200,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/office/outline.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/bunkazai_digital.pdf",
+          "status": 200,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/bunkazai_digital.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/link.html",
+          "status": 200,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/link.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/privacy.html",
+          "status": 200,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/privacy.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/tourism/spot.html",
+          "status": 200,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/tourism/spot.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/tourism/stay.html",
+          "status": 200,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/tourism/stay.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/tourism/map.html",
+          "status": 200,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/tourism/map.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/tourism/sp_product.html",
+          "status": 200,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/tourism/sp_product.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/tourism/photo.html",
+          "status": 200,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/tourism/photo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/life/recycle.html",
+          "status": 200,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/life/recycle.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/life/facilities.html",
+          "status": 200,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/life/facilities.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/life/request.html",
+          "status": 200,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/life/request.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/office/message.html",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/office/message.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/office/recruit.html",
+          "status": 200,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/office/recruit.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/index.php?year=2026",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/index.php?year=2026",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/index.php?year=2025",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/index.php?year=2025",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/index.php?year=2024",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/index.php?year=2024",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/index.php?year=2023",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/index.php?year=2023",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/index.php?year=2022",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/index.php?year=2022",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/index.php?year=2021",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/index.php?year=2021",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/index.php?year=2020",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/index.php?year=2020",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/index.php?year=2019",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/index.php?year=2019",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/index.php?year=2018",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/index.php?year=2018",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/index.php?year=2017",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/index.php?year=2017",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000099",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000099",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000100",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000100",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000098",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000098",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000097",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000097",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000096",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000096",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000094",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000094",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000095",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000095",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000092",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000092",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000093",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000093",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000091",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000091",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000090",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000090",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000087",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000087",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000088",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000088",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000089",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/download.php?id=0000000089",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/spot.html",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/spot.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/stay.html",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/stay.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/map.html",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/map.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/sp_product.html",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/sp_product.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/photo.html",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/photo.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/panf.pdf",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/panf.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/outline.html",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/outline.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/message.html",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/message.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/recruit.html",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/recruit.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/recycle.html",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/recycle.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/facilities.html",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/facilities.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/request.html",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/request.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/aogashima_operating_list.pdf",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/aogashima_operating_list.pdf",
+          "ok": false
+        },
+        {
+          "url": "http://www.vill.aogashima.tokyo.jp/top.html",
+          "status": 200,
+          "finalUrl": "http://www.vill.aogashima.tokyo.jp/top.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/sea/",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/sea/",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/sea/winter.html",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/sea/winter.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/sea/place.html",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/sea/place.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/coliseum/",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/coliseum/",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/coliseum/winter.html",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/coliseum/winter.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/coliseum/place.html",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/coliseum/place.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/gallery/",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/gallery/",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/kisyou-dl.php?place=mukou",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/kisyou-dl.php?place=mukou",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/kisyou-dl.php?place=maruyama",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/kisyou-dl.php?place=maruyama",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/kisyou-dl.php?place=minato",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/kisyou-dl.php?place=minato",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/kisyou-dl.php",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/kisyou-dl.php",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/aogashima_map.pdf",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/aogashima_map.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/syuraku_map.pdf",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/syuraku_map.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/sp_product2.html",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/sp_product2.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/sp_product3.html",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/sp_product3.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/photo2.html",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/photo2.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/recycle.pdf",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/recycle.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/quantity&kind_of_waste.pdf",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/quantity&kind_of_waste.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/1_1final_report.pdf",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/1_1final_report.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/1_2plan_report.pdf",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/1_2plan_report.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/1_3payment_statement.pdf",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/1_3payment_statement.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/1_1census_register.pdf",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/1_1census_register.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/1_2census_register.pdf",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/1_2census_register.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/2_1residency_cards.pdf",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/2_1residency_cards.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/2_2residency_cards.pdf",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/2_2residency_cards.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/3_1charge.pdf",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/3_1charge.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/3_2charge.pdf",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/3_2charge.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/4_1familyname.pdf",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/4_1familyname.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.vill.aogashima.tokyo.jp/4_2firstname.pdf",
+          "status": 404,
+          "finalUrl": "https://www.vill.aogashima.tokyo.jp/4_2firstname.pdf",
+          "ok": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "batchId": "tokyo-official-coverage-016",
+  "prefecture": "東京都",
+  "completedAt": "2026-07-14T17:45:00+09:00",
+  "municipalities": [
+    {
+      "code": "13401",
+      "name": "八丈町",
+      "candidateCount": 132,
+      "adopted": 4
+    },
+    {
+      "code": "13402",
+      "name": "青ヶ島村",
+      "candidateCount": 21,
+      "adopted": 2
+    },
+    {
+      "code": "13421",
+      "name": "小笠原村",
+      "candidateCount": 60,
+      "adopted": 4
+    }
+  ],
+  "candidateTotal": 213,
+  "adoptedTotal": 10,
+  "heldTotal": 203,
+  "sourceUrlsChecked": [
+    "https://www.town.hachijo.tokyo.jp/kosodate-kyouiku/kyouiku-shien/h-shogakushikin/",
+    "https://www.town.hachijo.tokyo.jp/iju/iju-guide/oyako-ryugaku/",
+    "https://www.town.hachijo.tokyo.jp/kenko-fukushi/k-seikatsu-shien/tougaitsuiin-josei7/",
+    "https://www.town.hachijo.tokyo.jp/kenko-fukushi/kaigo-hoken/kaihojuu-shinsei/",
+    "https://www.town.hachijo.tokyo.jp/chousei/yosan-zaisei/koyoujigyo-hojo/",
+    "https://www.town.hachijo.tokyo.jp/chousei/yosan-zaisei/koyoujigyo-boshuu/",
+    "https://www.vill.aogashima.tokyo.jp/news/download.php?id=0000000089",
+    "https://www.vill.aogashima.tokyo.jp/news/download.php?id=0000000087",
+    "https://www.vill.ogasawara.tokyo.jp/sonmin/iryouhijosei/",
+    "https://www.vill.ogasawara.tokyo.jp/minnanocouponken/",
+    "https://www.vill.ogasawara.tokyo.jp/sonmin/syussan/",
+    "https://www.vill.ogasawara.tokyo.jp/reiki_int/reiki_honbun/g164RG00000190.html"
+  ],
+  "adoptedSlugs": [
+    "hachijo-scholarship-fund-2026",
+    "hachijo-parent-child-island-study-settlement-grant-2026",
+    "hachijo-off-island-medical-transport-subsidy-2026",
+    "hachijo-long-term-care-home-renovation-benefit-2026",
+    "aogashima-cost-of-living-utility-benefit-2026",
+    "aogashima-low-income-household-support-benefit-2026",
+    "ogasawara-child-medical-expense-subsidy-2026",
+    "ogasawara-resident-coupon-2026",
+    "ogasawara-childbirth-support-grant-2026",
+    "ogasawara-national-health-insurance-childbirth-lump-sum-2026"
+  ],
+  "heldExamples": [
+    "八丈町雇用機会拡充事業補助金は公式ページで趣旨・募集期間を確認したが、補助上限額を同一公式本文内で安定確認できないため第2巡候補に残す。",
+    "八丈町のカテゴリ導線、申請書様式ダウンロード、共通ナビ一致、受付終了又は金額不足ページは第2巡候補に残す。",
+    "青ヶ島村の過年度給付金PDF、ニュース一覧、実施計画PDFは受付終了又は制度個別要件不足のため第2巡候補に残す。",
+    "小笠原村の児童手当等の全国制度、議会だよりPDF、制度横断ページ、様式のみ候補は第2巡候補に残す。"
+  ],
+  "generatedFiles": [
+    "tasks/discovery/tokyo-official-coverage-016-municipalities.json",
+    "tasks/discovery/tokyo-official-coverage-016-13401-municipality.json",
+    "tasks/discovery/tokyo-official-coverage-016-13402-municipality.json",
+    "tasks/discovery/tokyo-official-coverage-016-13421-municipality.json",
+    "tasks/discovery/tokyo-official-coverage-016-13401-candidates.json",
+    "tasks/discovery/tokyo-official-coverage-016-13402-candidates.json",
+    "tasks/discovery/tokyo-official-coverage-016-13421-candidates.json",
+    "tasks/discovery/tokyo-official-coverage-016-candidates.json",
+    "tasks/discovery/tokyo-official-coverage-016-manual-snippets.json",
+    "tasks/discovery/tokyo-official-coverage-016.json"
+  ],
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and JSON.parse for tokyo-official-coverage-016.json / official-coverage-checkpoint.json",
+    "addedSlugUniqueness": "pass: 10 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 10 primary official URLs returned HTTP 200",
+    "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11270, officialLinkedActive 11232, manuallyVerifiedActive 11232, 東京都 localOfficial 654)"
+  },
+  "next": {
+    "batchId": "kanagawa-official-coverage-001",
+    "municipalities": "神奈川県の自治体コード順で次回開始する。既存の神奈川県raw検証済み件数ではなく、公式サイト棚卸しとして自治体台帳から対象を確定する。",
+    "notes": "東京都は13421小笠原村まで自治体コード順の第1巡を完了。ただし東村山市の直接取得403候補、015保留候補、016保留候補は第2巡候補として保持し、全国完了扱いにしない。"
+  }
+}
