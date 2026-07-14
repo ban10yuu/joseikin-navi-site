@@ -1,0 +1,70 @@
+{
+  "batchId": "tokyo-official-coverage-012",
+  "prefecture": "東京都",
+  "completedAt": "2026-07-14T15:35:00+09:00",
+  "municipalities": [
+    {
+      "code": "13223",
+      "name": "武蔵村山市",
+      "adopted": 9
+    },
+    {
+      "code": "13224",
+      "name": "多摩市",
+      "adopted": 9
+    },
+    {
+      "code": "13225",
+      "name": "稲城市",
+      "adopted": 5
+    },
+    {
+      "code": "13227",
+      "name": "羽村市",
+      "adopted": 6
+    }
+  ],
+  "candidateTotal": 425,
+  "adoptedTotal": 29,
+  "heldTotal": 396,
+  "sourceUrlsChecked": 29,
+  "adoptedSlugs": [
+    "musashimurayama-low-income-air-conditioner-subsidy-2026",
+    "musashimurayama-farmer-inflation-support-2026",
+    "musashimurayama-business-inflation-support-2026",
+    "musashimurayama-private-kindergarten-parent-subsidy-2026",
+    "musashimurayama-private-kindergarten-age3-care-subsidy-2026",
+    "musashimurayama-pregnant-women-support-benefit-2026",
+    "musashimurayama-civic-collaboration-project-subsidy-2026",
+    "musashimurayama-disabled-car-modification-subsidy-2026",
+    "musashimurayama-disabled-driver-license-subsidy-2026",
+    "tama-home-security-equipment-subsidy-2026",
+    "tama-community-security-camera-subsidy-2026",
+    "tama-living-support-gift-card-2026",
+    "tama-private-kindergarten-parent-subsidy-2026",
+    "tama-kindergarten-aftercare-subsidy-2026",
+    "tama-enterprise-led-daycare-employee-subsidy-2026",
+    "tama-ninsho-daycare-first-child-multi-child-subsidy-2026",
+    "tama-university-exam-fee-subsidy-2026",
+    "tama-high-school-admission-subsidy-2026",
+    "inagi-enterprise-location-incentive-2026",
+    "inagi-home-security-equipment-subsidy-2026",
+    "inagi-accommodation-facility-use-subsidy-2026",
+    "inagi-social-contribution-activity-subsidy-2026",
+    "inagi-hedge-block-wall-subsidy-2026",
+    "hamura-environmentally-friendly-project-subsidy-2026",
+    "hamura-low-income-air-conditioner-subsidy-2026",
+    "hamura-startup-support-subsidy-2026",
+    "hamura-home-security-equipment-subsidy-2026",
+    "hamura-wooden-house-seismic-diagnosis-retrofit-subsidy-2026",
+    "hamura-housing-security-benefit-2026"
+  ],
+  "notes": [
+    "候補425件のため採用候補25件/自治体の短い本文スニペットと公式カテゴリから補完した35件の詳細スニペットを保存し再スコアした。",
+    "武蔵村山市は生活支援・産業・子育て・障害福祉・市民協働の個別制度9件を採用した。",
+    "多摩市は防犯、物価高生活応援、保育・教育系補助の個別制度9件を採用した。",
+    "稲城市は通常クロール候補に加え公式新着・市民活動・まちづくりカテゴリから5件を採用した。",
+    "羽村市は環境、エアコン、創業、防犯、耐震、住居確保の6件を採用した。",
+    "トップ、カテゴリ、相談窓口、様式のみ、金額又は受付状況を本文だけで確定できない候補、医療費助成カテゴリの横展開候補は第2巡候補に保持した。"
+  ]
+}

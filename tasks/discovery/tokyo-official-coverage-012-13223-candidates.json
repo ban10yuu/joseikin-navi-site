@@ -1,0 +1,4708 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-012-13223",
+  "prefecture": "東京都",
+  "generatedAt": "2026-07-14T05:59:51.438Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 168,
+  "results": [
+    {
+      "code": "13223",
+      "name": "武蔵村山市",
+      "officialBaseUrl": "https://www.city.musashimurayama.lg.jp/",
+      "discoveredUrlCount": 260,
+      "candidateCount": 168,
+      "strongCandidateCount": 5,
+      "lowPriorityCandidateCount": 163,
+      "candidates": [
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/about/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/index.html",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和7年10月17日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て",
+            "省エネ",
+            "予防接種"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/bousai/index.html",
+          "status": 200,
+          "title": "防災安全",
+          "h1": "防災安全",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/index.html",
+          "status": 200,
+          "title": "健康・医療",
+          "h1": "健康・医療",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/index.html",
+          "status": 200,
+          "title": "届出・証明",
+          "h1": "届出・証明",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/hoken/index.html",
+          "status": 200,
+          "title": "保険・年金",
+          "h1": "保険・年金",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/zei/index.html",
+          "status": 200,
+          "title": "税金",
+          "h1": "税金",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/gomi/index.html",
+          "status": 200,
+          "title": "ごみ・リサイクル",
+          "h1": "ごみ・リサイクル",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/index.html",
+          "status": 200,
+          "title": "環境・ペット",
+          "h1": "環境・ペット",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "事業者",
+            "農業",
+            "福祉",
+            "省エネ"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/1011908/index.html",
+          "status": 200,
+          "title": "武蔵村山ふるさと寄附・遺贈",
+          "h1": "武蔵村山ふるさと寄附・遺贈",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shimin/index.html",
+          "status": 200,
+          "title": "市民協働・国際交流・男女共同参画",
+          "h1": "市民協働・国際交流・男女共同参画",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/koutsu/index.html",
+          "status": 200,
+          "title": "都市整備・交通・上下水道",
+          "h1": "都市整備・交通・上下水道",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/seikatsu/index.html",
+          "status": 200,
+          "title": "生活支援・相談・その他の福祉・消費生活",
+          "h1": "生活支援・相談・その他の福祉・消費生活",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/index.html",
+          "status": 200,
+          "title": "障害者福祉",
+          "h1": "障害者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年6月14日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/sangyou/index.html",
+          "status": 200,
+          "title": "産業・雇用・農業",
+          "h1": "産業・雇用・農業",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shinsei/index.html",
+          "status": 200,
+          "title": "申請書ダウンロード",
+          "h1": "申請書ダウンロード",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shimai/index.html",
+          "status": 200,
+          "title": "姉妹都市交流",
+          "h1": "姉妹都市交流",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/senkyo/index.html",
+          "status": 200,
+          "title": "選挙管理委員会",
+          "h1": "選挙管理委員会",
+          "updatedAt": "令和8年6月1日",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/1019654/index.html",
+          "status": 200,
+          "title": "固定資産評価審査委員会",
+          "h1": "固定資産評価審査委員会",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/taiiku/index.html",
+          "status": 200,
+          "title": "体育・スポーツ",
+          "h1": "体育・スポーツ",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kankou/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和6年7月12日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kankou/1004434/index.html",
+          "status": 200,
+          "title": "イベント・まつり",
+          "h1": "イベント・まつり",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/shisetus/index.html",
+          "status": 200,
+          "title": "施設案内・予約",
+          "h1": "施設案内・予約",
+          "updatedAt": "令和7年7月20日",
+          "keywordHits": [
+            "減免",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/shisetus/reservation/index.html",
+          "status": 200,
+          "title": "公共施設予約システム",
+          "h1": "公共施設予約システム",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/shisetus/cityoffice/index.html",
+          "status": 200,
+          "title": "市関連施設",
+          "h1": "市関連施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/shisetus/bouhan/index.html",
+          "status": 200,
+          "title": "防犯・防災関連施設",
+          "h1": "防犯・防災関連施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/shisetus/hoken/index.html",
+          "status": 200,
+          "title": "保健福祉",
+          "h1": "保健福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/shisetus/iryou/index.html",
+          "status": 200,
+          "title": "医療施設",
+          "h1": "医療施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/shisetus/kosodate/index.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/shisetus/school/index.html",
+          "status": 200,
+          "title": "学校",
+          "h1": "学校",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/shisetus/sports/index.html",
+          "status": 200,
+          "title": "スポーツ施設",
+          "h1": "スポーツ施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/shisetus/park/index.html",
+          "status": 200,
+          "title": "公園",
+          "h1": "公園",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/shisetus/history/index.html",
+          "status": 200,
+          "title": "観光・歴史",
+          "h1": "観光・歴史",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/shisetus/union/index.html",
+          "status": 200,
+          "title": "組合・郵便局・基地",
+          "h1": "組合・郵便局・基地",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/shisetus/1004365.html",
+          "status": 200,
+          "title": "位置情報",
+          "h1": "位置情報",
+          "updatedAt": "令和7年11月20日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/shisei/index.html",
+          "status": 200,
+          "title": "市政情報",
+          "h1": "市政情報",
+          "updatedAt": "平成31年3月19日",
+          "keywordHits": [
+            "空き家",
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/shisei/shisaku/index.html",
+          "status": 200,
+          "title": "施策・計画",
+          "h1": "施策・計画",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/shisei/toshi/index.html",
+          "status": 200,
+          "title": "都市計画関連",
+          "h1": "都市計画関連",
+          "updatedAt": "",
+          "keywordHits": [
+            "空き家",
+            "福祉",
+            "耐震"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kosodate/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和7年6月16日",
+          "keywordHits": [
+            "補助金",
+            "貸付",
+            "事業者",
+            "子育て",
+            "就学",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kosodate/todoke/index.html",
+          "status": 200,
+          "title": "妊娠・出産",
+          "h1": "妊娠・出産",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kosodate/kenshin/index.html",
+          "status": 200,
+          "title": "健診・予防接種",
+          "h1": "健診・予防接種",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kosodate/teate/index.html",
+          "status": 200,
+          "title": "手当・助成",
+          "h1": "手当・助成",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kosodate/azukeru/index.html",
+          "status": 200,
+          "title": "あずける",
+          "h1": "あずける",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kosodate/manabu/index.html",
+          "status": 200,
+          "title": "学ぶ",
+          "h1": "学ぶ",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kosodate/odekake/index.html",
+          "status": 200,
+          "title": "おでかけ",
+          "h1": "おでかけ",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kosodate/soudan/index.html",
+          "status": 200,
+          "title": "相談（子育て）",
+          "h1": "相談（子育て）",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kosodate/1012425/index.html",
+          "status": 200,
+          "title": "子育てサービス",
+          "h1": "子育てサービス",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kosodate/1012410/index.html",
+          "status": 200,
+          "title": "リンク集",
+          "h1": "リンク集",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kosodate/1012977/index.html",
+          "status": 200,
+          "title": "子ども・子育て関連の計画",
+          "h1": "子ども・子育て関連の計画",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/koureisha/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "平成29年11月1日",
+          "keywordHits": [
+            "助成金",
+            "事業者",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/koureisha/1010258/index.html",
+          "status": 200,
+          "title": "在宅医療・介護連携推進事業",
+          "h1": "在宅医療・介護連携推進事業",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/koureisha/ikiiki/index.html",
+          "status": 200,
+          "title": "高齢者向けサービス",
+          "h1": "高齢者向けサービス",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/koureisha/1006037/index.html",
+          "status": 200,
+          "title": "介護予防・日常生活支援総合事業（総合事業）",
+          "h1": "介護予防・日常生活支援総合事業（総合事業）",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/koureisha/1017077/index.html",
+          "status": 200,
+          "title": "介護人材対策",
+          "h1": "介護人材対策",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/koureisha/1007930.html",
+          "status": 200,
+          "title": "定期巡回・随時対応型訪問介護看護運営事業者の募集について",
+          "h1": "定期巡回・随時対応型訪問介護看護運営事業者の募集について",
+          "updatedAt": "令和7年11月19日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/koureisha/1008365.html",
+          "status": 200,
+          "title": "介護認定調査員（個人）委託契約の募集について",
+          "h1": "介護認定調査員（個人）委託契約の募集について",
+          "updatedAt": "令和6年4月11日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/koureisha/1006655/index.html",
+          "status": 200,
+          "title": "「お互いさま」でつながるまちづくり",
+          "h1": "「お互いさま」でつながるまちづくり",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/koureisha/1006450/index.html",
+          "status": 200,
+          "title": "認知症のかたへの支援に関する取組について",
+          "h1": "認知症のかたへの支援に関する取組について",
+          "updatedAt": "令和7年8月28日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/koureisha/kenkou/index.html",
+          "status": 200,
+          "title": "健康診断",
+          "h1": "健康診断",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/koureisha/shien/index.html",
+          "status": 200,
+          "title": "介護保険",
+          "h1": "介護保険",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/koureisha/nenkin/index.html",
+          "status": 200,
+          "title": "年金・医療",
+          "h1": "年金・医療",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/koureisha/soudan/index.html",
+          "status": 200,
+          "title": "相談（高齢者）",
+          "h1": "相談（高齢者）",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/koureisha/shisetsu/index.html",
+          "status": 200,
+          "title": "施設",
+          "h1": "施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/koureisha/1007918/index.html",
+          "status": 200,
+          "title": "高齢者福祉計画・介護保険事業計画",
+          "h1": "高齢者福祉計画・介護保険事業計画",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/koureisha/1008923/index.html",
+          "status": 200,
+          "title": "統計情報",
+          "h1": "統計情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1021851.html",
+          "status": 200,
+          "title": "書かない窓口",
+          "h1": "書かない窓口",
+          "updatedAt": "令和8年5月20日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1022395/1000796.html",
+          "status": 200,
+          "title": "クーリングシェルター（指定暑熱避難施設）を開設します",
+          "h1": "クーリングシェルター（指定暑熱避難施設）を開設します",
+          "updatedAt": "令和8年7月13日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/seikatsu/1012248/1022115.html",
+          "status": 200,
+          "title": "低所得世帯向けエアコン設置緊急支援事業",
+          "h1": "低所得世帯向けエアコン設置緊急支援事業",
+          "updatedAt": "令和8年7月10日",
+          "keywordHits": [
+            "補助金",
+            "給付金",
+            "支援金",
+            "免除",
+            "住宅",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 24,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1022214/1022171.html",
+          "status": 200,
+          "title": "麻しん（はしか）に注意！",
+          "h1": "麻しん（はしか）に注意！",
+          "updatedAt": "令和8年5月13日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1005179/1005489.html",
+          "status": 200,
+          "title": "証明書等のコンビニ交付",
+          "h1": "証明書等のコンビニ交付",
+          "updatedAt": "令和8年5月20日",
+          "keywordHits": [
+            "免除",
+            "事業者",
+            "通学"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/shisei/boshu/shokuinsaiyo/index.html",
+          "status": 200,
+          "title": "職員採用",
+          "h1": "職員採用",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "就学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/faq/index.html",
+          "status": 200,
+          "title": "よくある質問",
+          "h1": "よくある質問",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1022281/index.html",
+          "status": 200,
+          "title": "手続きをもっとスムーズに",
+          "h1": "手続きをもっとスムーズに",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/shisei/boshu/shiteikanri/1022325.html",
+          "status": 200,
+          "title": "武蔵村山市総合体育館電気自動車用急速充電設備等導入事業（公募型プロポーザル）",
+          "h1": "武蔵村山市総合体育館電気自動車用急速充電設備等導入事業（公募型プロポーザル）",
+          "updatedAt": "令和8年7月7日",
+          "keywordHits": [
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/shisei/boshu/shokuinsaiyo/1022128.html",
+          "status": 200,
+          "title": "生活福祉事務（臨時的任用の会計年度任用）職員募集",
+          "h1": "生活福祉事務（臨時的任用の会計年度任用）職員募集",
+          "updatedAt": "令和8年7月3日",
+          "keywordHits": [
+            "福祉",
+            "就学"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1022214/1020234.html",
+          "status": 200,
+          "title": "手足口病が流行中",
+          "h1": "手足口病が流行中",
+          "updatedAt": "令和8年7月6日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/hozen/1000570.html",
+          "status": 200,
+          "title": "令和8年度親と子の環境教室（8月7日開催）参加者募集",
+          "h1": "令和8年度親と子の環境教室（8月7日開催）参加者募集",
+          "updatedAt": "令和8年6月25日",
+          "keywordHits": [
+            "奨励金"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shimin/shiminkyoudou/1006859/index.html",
+          "status": 200,
+          "title": "協働事業提案制度",
+          "h1": "協働事業提案制度",
+          "updatedAt": "令和8年5月29日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/sangyou/1012132/1016913.html",
+          "status": 200,
+          "title": "令和8年度農業者物価高騰対策支援金",
+          "h1": "令和8年度農業者物価高騰対策支援金",
+          "updatedAt": "令和8年5月28日",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 23,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/zei/1011958/shiminzei/1022210.html",
+          "status": 200,
+          "title": "市税の納付を促す詐欺メールにご注意ください",
+          "h1": "市税の納付を促す詐欺メールにご注意ください",
+          "updatedAt": "令和8年5月20日",
+          "keywordHits": [
+            "給付金",
+            "減免",
+            "免除",
+            "住宅"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/sangyou/1012131/1022201.html",
+          "status": 200,
+          "title": "令和8年度市内事業者物価高騰対策支援金",
+          "h1": "令和8年度市内事業者物価高騰対策支援金",
+          "updatedAt": "令和7年5月13日",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "創業",
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 23,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/1003910.html",
+          "status": 200,
+          "title": "お知らせ一覧",
+          "h1": "お知らせ一覧",
+          "updatedAt": "令和8年7月14日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "給付金",
+            "住宅",
+            "創業",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kankou/tokusanbutsu/1001609.html",
+          "status": 200,
+          "title": "地域ブランド認証商品",
+          "h1": "地域ブランド認証商品",
+          "updatedAt": "令和7年10月28日",
+          "keywordHits": [
+            "創業",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/shisei/shisaku/machizukuri/1002063/index.html",
+          "status": 200,
+          "title": "多摩都市モノレール延伸",
+          "h1": "多摩都市モノレール延伸",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "耐震"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/opendata/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和4年4月1日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/cgi-evt/event.cgi",
+          "status": 200,
+          "title": "2026年7月のイベントカレンダー",
+          "h1": "2026年7月のイベントカレンダー",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kankou/tokusanbutsu/1006619.html",
+          "status": 200,
+          "title": "武蔵村山市農産物直売所",
+          "h1": "武蔵村山市農産物直売所",
+          "updatedAt": "令和7年11月17日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shimin/jichikai/index.html",
+          "status": 200,
+          "title": "自治会",
+          "h1": "自治会",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shimin/jichikai/1006337/index.html",
+          "status": 200,
+          "title": "武蔵村山市自治会連合会",
+          "h1": "武蔵村山市自治会連合会",
+          "updatedAt": "令和7年6月20日",
+          "keywordHits": [
+            "補助金",
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/shisei/boshu/shiminteian/1003601.html",
+          "status": 200,
+          "title": "市民の皆さんのアイデアを市政に！",
+          "h1": "市民の皆さんのアイデアを市政に！",
+          "updatedAt": "令和6年4月11日",
+          "keywordHits": [
+            "空き家",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/shisei/boshu/koukoku/1003606.html",
+          "status": 200,
+          "title": "市ホームページバナー広告を募集",
+          "h1": "市ホームページバナー広告を募集",
+          "updatedAt": "令和8年6月18日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/about/aboutsite/index.html",
+          "status": 200,
+          "title": "サイトの使い方",
+          "h1": "サイトの使い方",
+          "updatedAt": "令和3年9月28日",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/about/link/index.html",
+          "status": 200,
+          "title": "リンク集",
+          "h1": "リンク集",
+          "updatedAt": "令和7年3月25日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/shisei/torikumi/mynumber/1002351.html",
+          "status": 200,
+          "title": "社会保障・税番号制度（マイナンバー制度）",
+          "h1": "社会保障・税番号制度（マイナンバー制度）",
+          "updatedAt": "令和4年9月2日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/cgi-opd/opendata.cgi",
+          "status": 200,
+          "title": "オープンデータ検索",
+          "h1": "オープンデータ検索",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/opendata/1000017/index.html",
+          "status": 200,
+          "title": "オープンデータについて",
+          "h1": "オープンデータについて",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/opendata/1000016/index.html",
+          "status": 200,
+          "title": "オープンデータカテゴリ",
+          "h1": "オープンデータカテゴリ",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/about/1011776.html",
+          "status": 200,
+          "title": "プリントサービスのご案内",
+          "h1": "プリントサービスのご案内",
+          "updatedAt": "令和6年4月24日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/bousai/saigai/index.html",
+          "status": 200,
+          "title": "災害対策",
+          "h1": "災害対策",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "事業者",
+            "耐震"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1022395/index.html",
+          "status": 200,
+          "title": "熱中症情報",
+          "h1": "熱中症情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1008584.html",
+          "status": 200,
+          "title": "保健事業予定表",
+          "h1": "保健事業予定表",
+          "updatedAt": "令和8年5月26日",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1011956/index.html",
+          "status": 200,
+          "title": "健診・検診",
+          "h1": "健診・検診",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/kyukyu/1016167/index.html",
+          "status": 200,
+          "title": "成人の予防接種",
+          "h1": "成人の予防接種",
+          "updatedAt": "令和6年9月19日",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/kyukyu/index.html",
+          "status": 200,
+          "title": "医療",
+          "h1": "医療",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1022214/index.html",
+          "status": 200,
+          "title": "感染症情報",
+          "h1": "感染症情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1017404/index.html",
+          "status": 200,
+          "title": "健康づくり",
+          "h1": "健康づくり",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1017405/index.html",
+          "status": 200,
+          "title": "健康相談",
+          "h1": "健康相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1011957/index.html",
+          "status": 200,
+          "title": "お知らせ",
+          "h1": "お知らせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1019892.html",
+          "status": 200,
+          "title": "おくやみコーナー",
+          "h1": "おくやみコーナー",
+          "updatedAt": "令和8年7月9日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1000325.html",
+          "status": 200,
+          "title": "本人確認書類",
+          "h1": "本人確認書類",
+          "updatedAt": "令和7年3月10日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/hoken/nenkin/index.html",
+          "status": 200,
+          "title": "国民年金",
+          "h1": "国民年金",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "免除"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/hoken/kenkouhoken/index.html",
+          "status": 200,
+          "title": "国民健康保険",
+          "h1": "国民健康保険",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "一時金",
+            "減免"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/zei/shoumei/index.html",
+          "status": 200,
+          "title": "税に関する証明書・閲覧",
+          "h1": "税に関する証明書・閲覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/gomi/1011987/index.html",
+          "status": 200,
+          "title": "お知らせ",
+          "h1": "お知らせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/gomi/1011989/index.html",
+          "status": 200,
+          "title": "ごみの資源化・減量化",
+          "h1": "ごみの資源化・減量化",
+          "updatedAt": "",
+          "keywordHits": [
+            "奨励金",
+            "事業者"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/gomi/1012639/index.html",
+          "status": 200,
+          "title": "家庭ごみ有料化及び戸別収集",
+          "h1": "家庭ごみ有料化及び戸別収集",
+          "updatedAt": "令和4年10月1日",
+          "keywordHits": [
+            "減免",
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/1016188/index.html",
+          "status": 200,
+          "title": "地球温暖化対策",
+          "h1": "地球温暖化対策",
+          "updatedAt": "令和7年9月26日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "事業者",
+            "省エネ"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/1018539/index.html",
+          "status": 200,
+          "title": "令和8年度 ゼロカーボンシティ住宅普及促進事業補助金",
+          "h1": "令和8年度 ゼロカーボンシティ住宅普及促進事業補助金",
+          "updatedAt": "令和8年7月3日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "事業者",
+            "省エネ"
+          ],
+          "candidateScore": 20,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/1021628.html",
+          "status": 200,
+          "title": "省エネ対策等についての事業者向け情報",
+          "h1": "省エネ対策等についての事業者向け情報",
+          "updatedAt": "令和7年9月25日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "減免",
+            "住宅",
+            "事業者",
+            "省エネ"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/hozen/index.html",
+          "status": 200,
+          "title": "環境保全対策",
+          "h1": "環境保全対策",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "住宅",
+            "事業者",
+            "省エネ"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/1007889/index.html",
+          "status": 200,
+          "title": "法令等に基づく届出",
+          "h1": "法令等に基づく届出",
+          "updatedAt": "平成31年1月23日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "事業者",
+            "省エネ"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/1006608.html",
+          "status": 200,
+          "title": "環境保全のあらまし",
+          "h1": "環境保全のあらまし",
+          "updatedAt": "令和8年5月18日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "事業者",
+            "省エネ"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/1007888/index.html",
+          "status": 200,
+          "title": "測定調査等",
+          "h1": "測定調査等",
+          "updatedAt": "令和元年6月7日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "事業者",
+            "省エネ"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/1007887/index.html",
+          "status": 200,
+          "title": "野生鳥獣・害虫対策",
+          "h1": "野生鳥獣・害虫対策",
+          "updatedAt": "令和6年11月1日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "事業者",
+            "省エネ"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/pet/index.html",
+          "status": 200,
+          "title": "ペット・その他",
+          "h1": "ペット・その他",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "事業者",
+            "省エネ",
+            "不妊"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/1011908/furusato/index.html",
+          "status": 200,
+          "title": "武蔵村山ふるさと寄附",
+          "h1": "武蔵村山ふるさと寄附",
+          "updatedAt": "令和8年5月27日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/1011908/1015951.html",
+          "status": 200,
+          "title": "協力事業者及び返礼品の募集について",
+          "h1": "協力事業者及び返礼品の募集について",
+          "updatedAt": "令和8年4月15日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/1011908/1020010.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和7年4月11日",
+          "keywordHits": [
+            "創業",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/1011908/1011822.html",
+          "status": 200,
+          "title": "遺贈",
+          "h1": "遺贈",
+          "updatedAt": "令和2年8月12日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/koutsu/water/index.html",
+          "status": 200,
+          "title": "水道と下水道",
+          "h1": "水道と下水道",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "減免"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/koutsu/chiseki/index.html",
+          "status": 200,
+          "title": "地籍調査事業",
+          "h1": "地籍調査事業",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/seikatsu/1021826/index.html",
+          "status": 200,
+          "title": "結婚支援",
+          "h1": "結婚支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/seikatsu/1012248/index.html",
+          "status": 200,
+          "title": "生活支援",
+          "h1": "生活支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "給付金",
+            "支援金",
+            "住宅",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/seikatsu/1012249/index.html",
+          "status": 200,
+          "title": "民生委員・児童委員",
+          "h1": "民生委員・児童委員",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/seikatsu/1012250/index.html",
+          "status": 200,
+          "title": "相談",
+          "h1": "相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/seikatsu/1012251/index.html",
+          "status": 200,
+          "title": "その他の福祉",
+          "h1": "その他の福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/seikatsu/shouhiseikatsu/index.html",
+          "status": 200,
+          "title": "消費生活",
+          "h1": "消費生活",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/1022244/index.html",
+          "status": 200,
+          "title": "高次脳機能障害にかかる相談窓口",
+          "h1": "高次脳機能障害にかかる相談窓口",
+          "updatedAt": "令和8年6月11日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/1022243/index.html",
+          "status": 200,
+          "title": "障害福祉の手引",
+          "h1": "障害福祉の手引",
+          "updatedAt": "令和8年7月13日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/1022125.html",
+          "status": 200,
+          "title": "武蔵村山市自立支援協議会について",
+          "h1": "武蔵村山市自立支援協議会について",
+          "updatedAt": "令和8年4月30日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "通学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/1021247.html",
+          "status": 200,
+          "title": "武蔵村山市障害者基幹相談支援センター",
+          "h1": "武蔵村山市障害者基幹相談支援センター",
+          "updatedAt": "令和7年3月17日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/1018580.html",
+          "status": 200,
+          "title": "発達が気になる子どもの支援",
+          "h1": "発達が気になる子どもの支援",
+          "updatedAt": "令和7年9月3日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/1021406.html",
+          "status": 200,
+          "title": "武蔵村山市障害者就労支援センター",
+          "h1": "武蔵村山市障害者就労支援センター",
+          "updatedAt": "令和7年6月12日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/techou/index.html",
+          "status": 200,
+          "title": "手帳",
+          "h1": "手帳",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/1012128/index.html",
+          "status": 200,
+          "title": "福祉サービス関係",
+          "h1": "福祉サービス関係",
+          "updatedAt": "令和元年10月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/teate/index.html",
+          "status": 200,
+          "title": "手当",
+          "h1": "手当",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/shippei/index.html",
+          "status": 200,
+          "title": "特定疾病・難病",
+          "h1": "特定疾病・難病",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/josei/index.html",
+          "status": 200,
+          "title": "助成制度",
+          "h1": "助成制度",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/kyufu/index.html",
+          "status": 200,
+          "title": "給付・サービス",
+          "h1": "給付・サービス",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/1012129/index.html",
+          "status": 200,
+          "title": "その他関連情報",
+          "h1": "その他関連情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/iinkai/index.html",
+          "status": 200,
+          "title": "教育委員会紹介",
+          "h1": "教育委員会紹介",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/kyouiku/index.html",
+          "status": 200,
+          "title": "学校教育情報",
+          "h1": "学校教育情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/hogosha/index.html",
+          "status": 200,
+          "title": "保護者の皆さんへ",
+          "h1": "保護者の皆さんへ",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/1016639/index.html",
+          "status": 200,
+          "title": "教職員の皆さんへ",
+          "h1": "教職員の皆さんへ",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/kyushoku/index.html",
+          "status": 200,
+          "title": "学校給食",
+          "h1": "学校給食",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/1000887/index.html",
+          "status": 200,
+          "title": "生涯学習・社会教育",
+          "h1": "生涯学習・社会教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/tetsuzuki/index.html",
+          "status": 200,
+          "title": "手続き・申請",
+          "h1": "手続き・申請",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "就学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/1000873/index.html",
+          "status": 200,
+          "title": "特別支援教育",
+          "h1": "特別支援教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "就学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/1017237/index.html",
+          "status": 200,
+          "title": "教育むさしむらやま",
+          "h1": "教育むさしむらやま",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/1000940.html",
+          "status": 200,
+          "title": "武蔵村山市立学校一覧",
+          "h1": "武蔵村山市立学校一覧",
+          "updatedAt": "平成29年4月4日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/1019847/index.html",
+          "status": 200,
+          "title": "事業者の皆さんへ",
+          "h1": "事業者の皆さんへ",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/sangyou/1012131/index.html",
+          "status": 200,
+          "title": "事業者支援",
+          "h1": "事業者支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "創業",
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/sangyou/1012130/index.html",
+          "status": 200,
+          "title": "産業",
+          "h1": "産業",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/sangyou/1005135/index.html",
+          "status": 200,
+          "title": "雇用・就労",
+          "h1": "雇用・就労",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13223",
+          "municipalityName": "武蔵村山市",
+          "sourceUrl": "https://www.city.musashimurayama.lg.jp/kurashi/sangyou/1012132/index.html",
+          "status": 200,
+          "title": "農業",
+          "h1": "農業",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/robots.txt",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/robots.txt",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/about/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/about/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/about/aboutsite/1004368.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/about/aboutsite/1004368.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/about/translation/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/about/translation/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/bousai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/bousai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/hoken/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/hoken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/zei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/zei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/gomi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/gomi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/1011908/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/1011908/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/shimin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shimin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/koutsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/koutsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/seikatsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/seikatsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/sangyou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/sangyou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/shinsei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shinsei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/shimai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shimai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/senkyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/senkyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/1019654/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/1019654/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/taiiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/taiiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kankou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kankou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kankou/spots/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kankou/spots/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kankou/1004434/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kankou/1004434/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kankou/tokusanbutsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kankou/tokusanbutsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kankou/history/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kankou/history/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kankou/1006668/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kankou/1006668/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisetus/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisetus/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisetus/reservation/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisetus/reservation/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisetus/cityoffice/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisetus/cityoffice/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisetus/bouhan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisetus/bouhan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisetus/hoken/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisetus/hoken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisetus/iryou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisetus/iryou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisetus/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisetus/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisetus/school/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisetus/school/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisetus/sports/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisetus/sports/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisetus/park/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisetus/park/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisetus/history/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisetus/history/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisetus/union/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisetus/union/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisetus/1004365.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisetus/1004365.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisetus/map/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisetus/map/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kankou/spots/rekishiminzoku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kankou/spots/rekishiminzoku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/shisaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/shisaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/zaisei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/zaisei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/jouhou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/jouhou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/keiyaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/keiyaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/1020608/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/1020608/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/torikumi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/torikumi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/1011219/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/1011219/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/boshu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/boshu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/shiteikanri/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/shiteikanri/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/kichi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/kichi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/toshi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/toshi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/kukaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/kukaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/kansa/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/kansa/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/kaigi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/kaigi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/toukei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/toukei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/shicho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/shicho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/koho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/koho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/1004567/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/1004567/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/shigikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/shigikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/shoukai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/shoukai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/office/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/office/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/1004404/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/1004404/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/1004499/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/1004499/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/1017248/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/1017248/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kosodate/todoke/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kosodate/todoke/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kosodate/kenshin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kosodate/kenshin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kosodate/teate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kosodate/teate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kosodate/azukeru/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kosodate/azukeru/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kosodate/manabu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kosodate/manabu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kosodate/odekake/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kosodate/odekake/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kosodate/soudan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kosodate/soudan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kosodate/1012425/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kosodate/1012425/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kosodate/1012410/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kosodate/1012410/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kosodate/1012977/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kosodate/1012977/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/koureisha/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/koureisha/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/koureisha/1010258/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/koureisha/1010258/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/koureisha/ikiiki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/koureisha/ikiiki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/koureisha/1006037/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/koureisha/1006037/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/koureisha/1017077/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/koureisha/1017077/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/koureisha/1007930.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/koureisha/1007930.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/koureisha/1008365.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/koureisha/1008365.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/koureisha/1006655/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/koureisha/1006655/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/koureisha/1006450/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/koureisha/1006450/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/koureisha/kenkou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/koureisha/kenkou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/koureisha/shien/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/koureisha/shien/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/koureisha/nenkin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/koureisha/nenkin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/koureisha/soudan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/koureisha/soudan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/koureisha/shisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/koureisha/shisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/koureisha/1007918/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/koureisha/1007918/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/koureisha/1008923/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/koureisha/1008923/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/koho/1022383.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/koho/1022383.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/boshu/1022212.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/boshu/1022212.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1021851.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1021851.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1022395/1000796.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1022395/1000796.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/seikatsu/1012248/1022115.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/seikatsu/1012248/1022115.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1022214/1022171.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1022214/1022171.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1005179/1005489.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1005179/1005489.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/shisaku/machizukuri/1002063/1021622.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/shisaku/machizukuri/1002063/1021622.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1011935/1016033.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1011935/1016033.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/1017119.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/1017119.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/about/search/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/about/search/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/boshu/shokuinsaiyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/boshu/shokuinsaiyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/koho/1020475/1020474/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/koho/1020475/1020474/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/bousai/1004390/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/bousai/1004390/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/faq/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/faq/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1022281/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1022281/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/koutsu/douro/1022234.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/koutsu/douro/1022234.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/boshu/shiteikanri/1022325.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/boshu/shiteikanri/1022325.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/boshu/shokuinsaiyo/1022128.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/boshu/shokuinsaiyo/1022128.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1022214/1020234.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1022214/1020234.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/1004567/1004568/1016213.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/1004567/1004568/1016213.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/hozen/1000570.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/hozen/1000570.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kankou/event/bunka/1022271.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kankou/event/bunka/1022271.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/shimin/shiminkyoudou/1006859/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shimin/shiminkyoudou/1006859/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/sangyou/1012132/1016913.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/sangyou/1012132/1016913.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/zei/1011958/shiminzei/1022210.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/zei/1011958/shiminzei/1022210.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/sangyou/1012131/1022201.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/sangyou/1012131/1022201.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/1003910.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/1003910.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/about/1003891.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/about/1003891.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kankou/tokusanbutsu/1001609.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kankou/tokusanbutsu/1001609.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/shisaku/machizukuri/1002063/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/shisaku/machizukuri/1002063/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/opendata/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/opendata/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisetus/cityoffice/cityoffice/1004380.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisetus/cityoffice/cityoffice/1004380.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/koho/shiho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/koho/shiho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/koutsu/koukyoukoutu/1000603/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/koutsu/koukyoukoutu/1000603/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1011938/1000296.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1011938/1000296.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/cgi-evt/event.cgi",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/cgi-evt/event.cgi",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kankou/tokusanbutsu/1006619.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kankou/tokusanbutsu/1006619.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kankou/spots/1010232.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kankou/spots/1010232.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/shimin/jichikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shimin/jichikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/shimin/jichikai/1006337/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shimin/jichikai/1006337/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/about/1018667.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/about/1018667.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/boshu/pubcome/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/boshu/pubcome/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/boshu/shiminteian/1003601.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/boshu/shiminteian/1003601.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/shoukai/sakae/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/shoukai/sakae/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1005179/1013391.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1005179/1013391.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/boshu/koukoku/1003606.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/boshu/koukoku/1003606.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/about/aboutsite/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/about/aboutsite/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/about/use/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/about/use/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/about/security/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/about/security/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/about/information/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/about/information/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/about/link/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/about/link/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisetus/cityoffice/cityoffice/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisetus/cityoffice/cityoffice/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/shisei/torikumi/mynumber/1002351.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/shisei/torikumi/mynumber/1002351.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/about/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/about/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/cgi-opd/opendata.cgi",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/cgi-opd/opendata.cgi",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/opendata/1000017/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/opendata/1000017/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/opendata/1000016/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/opendata/1000016/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/about/1011776.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/about/1011776.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/about/mobile.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/about/mobile.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/about/1004369/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/about/1004369/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/bousai/saigai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/bousai/saigai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/bousai/1020464/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/bousai/1020464/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/bousai/koutsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/bousai/koutsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/bousai/shoubou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/bousai/shoubou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/bousai/kokuminhogo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/bousai/kokuminhogo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/bousai/shinsai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/bousai/shinsai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1022395/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1022395/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1008584.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1008584.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1011956/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1011956/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/kyukyu/1016167/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/kyukyu/1016167/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/kyukyu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/kyukyu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1022214/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1022214/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1017404/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1017404/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1017405/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1017405/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1011957/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kenkou/1011957/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1011935/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1011935/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1019892.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1019892.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1005178/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1005178/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1005181/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1005181/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/inkan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/inkan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1005179/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1005179/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1005184/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1005184/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1011936/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1011936/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1000325.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1000325.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1011938/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1011938/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1005213/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1005213/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1005238/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1005238/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1020989/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/todoke/1020989/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/hoken/nenkin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/hoken/nenkin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/hoken/kenkouhoken/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/hoken/kenkouhoken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/hoken/koukikourei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/hoken/koukikourei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/zei/1011958/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/zei/1011958/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/zei/nouzei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/zei/nouzei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/zei/shoumei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/zei/shoumei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/gomi/1011987/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/gomi/1011987/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/gomi/1016435/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/gomi/1016435/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/gomi/1011989/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/gomi/1011989/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/gomi/1011990/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/gomi/1011990/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/gomi/1011991/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/gomi/1011991/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/gomi/1012639/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/gomi/1012639/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/1016188/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/1016188/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/1018539/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/1018539/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/1021628.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/1021628.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/hozen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/hozen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/1007889/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/1007889/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/1006608.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/1006608.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/1007888/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/1007888/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/1007887/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/1007887/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/pet/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kankyou/pet/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/1011908/furusato/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/1011908/furusato/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/1011908/1015951.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/1011908/1015951.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/1011908/1020010.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/1011908/1020010.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/1011908/1011822.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/1011908/1011822.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/shimin/shiminkyoudou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shimin/shiminkyoudou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/shimin/1012115/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shimin/1012115/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/shimin/1006729/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shimin/1006729/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/shimin/1012116/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shimin/1012116/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/shimin/1018657.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shimin/1018657.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/koutsu/koukyoukoutu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/koutsu/koukyoukoutu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/koutsu/1016334/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/koutsu/1016334/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/koutsu/douro/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/koutsu/douro/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/koutsu/kouen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/koutsu/kouen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/koutsu/water/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/koutsu/water/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/koutsu/chiseki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/koutsu/chiseki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/seikatsu/1021826/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/seikatsu/1021826/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/seikatsu/1012248/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/seikatsu/1012248/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/seikatsu/1012249/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/seikatsu/1012249/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/seikatsu/1012250/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/seikatsu/1012250/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/seikatsu/1012251/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/seikatsu/1012251/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/seikatsu/shouhiseikatsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/seikatsu/shouhiseikatsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/1022244/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/1022244/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/1022243/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/1022243/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/1022125.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/1022125.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/1021247.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/1021247.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/1018580.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/1018580.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/1021406.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/1021406.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/techou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/techou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/1012128/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/1012128/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/teate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/teate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/shippei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/shippei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/josei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/josei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/kyufu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/kyufu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/1012129/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/shougai/1012129/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/iinkai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/iinkai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/kyouiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/kyouiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/hogosha/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/hogosha/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/1016639/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/1016639/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/kyushoku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/kyushoku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/1000887/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/1000887/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/tetsuzuki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/tetsuzuki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/1000873/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/1000873/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/1017237/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/1017237/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/1000940.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/1000940.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/1019847/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/kyouiku/1019847/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/sangyou/1012131/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/sangyou/1012131/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/sangyou/1012130/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/sangyou/1012130/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/sangyou/1005135/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/sangyou/1005135/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.musashimurayama.lg.jp/kurashi/sangyou/1012132/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.musashimurayama.lg.jp/kurashi/sangyou/1012132/index.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

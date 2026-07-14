@@ -7963,3 +7963,46 @@
     - 受付終了、受付休止、404、金額又は受付状況不足、PDF精査待ち、カテゴリ導線、様式のみ、国制度色が強い候補、直接取得403の候補は第2巡候補又は次回継続候補に残す。
   - 次:
     - 東京都公式棚卸し012として、13223武蔵村山市、13224多摩市、13225稲城市、13227羽村市を自治体コード順に確認する。東村山市の直接取得403候補は第2巡候補として保持する。
+
+- 東京都公式棚卸し012
+  - 対象:
+    - 13223 武蔵村山市、13224 多摩市、13225 稲城市、13227 羽村市。
+  - 方法:
+    - 公式トップ到達を4自治体すべて確認し、候補425件を抽出した。
+    - 候補が150件を超えたため、採用候補の本文スニペットと公式カテゴリ補完の詳細スニペット35件を保存し、制度強語・金額/上限・対象条件・期限/受付状況を優先して再スコアした。
+    - 武蔵村山市は低所得世帯向けエアコン、農業者物価高騰対策、市内事業者物価高騰対策、私立幼稚園等保護者負担軽減、満3歳児預かり保育、妊婦のための支援給付、協働事業提案、重度身体障害者用自動車改造費、心身障害者自動車運転免許取得費を公式本文で確認した。
+    - 多摩市は防犯機器等購入、地域防犯カメラ、物価高騰対策生活応援、私立幼稚園等園児保護者補助、幼稚園預かり保育負担軽減、企業主導型保育所従業員枠、認証保育所等第1子・多子世帯支援、大学等受験料及び模擬試験料、高等学校等進学者助成を公式本文で確認した。
+    - 稲城市は企業誘致、防犯機器購入、指定宿泊施設利用、社会貢献活動振興、生垣造成・ブロック塀等撤去等を公式本文で確認した。
+    - 羽村市は環境配慮事業、低所得世帯等エアコン設置、創業支援、住まいの防犯機器等購入、木造住宅耐震診断・改修、住居確保給付金を公式本文で確認した。
+    - トップ、カテゴリ、相談窓口、様式のみ、金額又は受付状況が公式本文だけで確定しない候補、医療費助成カテゴリの横展開候補は第2巡候補に残す。
+  - 採用:
+    - 武蔵村山市9件: 低所得世帯向けエアコン設置緊急支援事業、農業者物価高騰対策支援金、市内事業者物価高騰対策支援金、私立幼稚園等園児保護者負担軽減補助金、満3歳児の預かり保育負担軽減補助金、妊婦のための支援給付、協働事業提案制度、重度身体障害者用自動車改造費助成事業、心身障害者自動車運転免許取得費助成事業。
+    - 多摩市9件: 防犯機器等購入補助金、地域における防犯カメラの補助制度、多摩市物価高騰対策生活応援事業、私立幼稚園等園児保護者補助金・入園金補助金、幼稚園の預かり保育負担軽減補助金、企業主導型保育所の従業員枠への補助、認証保育所・企業主導型保育所に対する第1子支援・多子世帯支援補助、大学等受験料及び模擬試験料助成、高等学校等進学者への助成制度。
+    - 稲城市5件: 企業誘致制度、防犯機器購入費補助、指定宿泊施設利用助成制度、社会貢献活動振興補助金制度、生垣造成・ブロック塀等撤去等補助金制度。
+    - 羽村市6件: 環境配慮事業助成制度、低所得世帯等に対するエアコン設置支援補助金、創業支援補助金、住まいの防犯機器等購入緊急補助金、木造住宅耐震診断および耐震改修補助制度、住居確保給付金。
+  - 生成ファイル:
+    - `tasks/discovery/tokyo-official-coverage-012-municipalities.json`
+    - `tasks/discovery/tokyo-official-coverage-012-13223-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-012-13224-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-012-13225-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-012-13227-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-012-13223-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-012-13224-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-012-13225-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-012-13227-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-012-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-012-target-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-012-detail-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-012.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（29件、`verified-local-misc-2026.ts` 内で各1件）。
+    - 公式URL到達: pass（29 official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 11207、officialLinkedActive 11169、manuallyVerifiedActive 11169、東京都 localOfficial 591）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 受付終了、受付休止、404、金額又は受付状況不足、PDF精査待ち、カテゴリ導線、様式のみ、国制度色が強い候補、直接取得403の候補は第2巡候補又は次回継続候補に残す。
+  - 次:
+    - 東京都公式棚卸し013として、13228あきる野市、13229西東京市、13303瑞穂町、13305日の出町を自治体コード順に確認する。東村山市の直接取得403候補は第2巡候補として保持する。

@@ -1,0 +1,3260 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-012-13224",
+  "prefecture": "東京都",
+  "generatedAt": "2026-07-14T05:59:52.158Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 92,
+  "results": [
+    {
+      "code": "13224",
+      "name": "多摩市",
+      "officialBaseUrl": "https://www.city.tama.lg.jp/",
+      "discoveredUrlCount": 260,
+      "candidateCount": 92,
+      "strongCandidateCount": 1,
+      "lowPriorityCandidateCount": 91,
+      "candidates": [
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月5日",
+          "keywordHits": [
+            "農業",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月5日",
+          "keywordHits": [
+            "農業",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/index.html",
+          "status": 200,
+          "title": "手続き・ごみ・税・暮らし",
+          "h1": "手続き・ごみ・税・暮らし",
+          "updatedAt": "2023年3月17日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kosodate/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和7年6月26日",
+          "keywordHits": [
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kenkofukushi/index.html",
+          "status": 200,
+          "title": "健康・福祉・コミュニティ",
+          "h1": "健康・福祉・コミュニティ",
+          "updatedAt": "2023年3月10日",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/shisei/index.html",
+          "status": 200,
+          "title": "市政情報・職員採用",
+          "h1": "市政情報・職員採用",
+          "updatedAt": "2023年3月10日",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/map/index.html",
+          "status": 200,
+          "title": "施設案内",
+          "h1": "施設案内",
+          "updatedAt": "2023年3月10日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kenkofukushi/kenkou/1018289.html",
+          "status": 200,
+          "title": "多摩市健幸ポイント TAMAるんるん♪",
+          "h1": "多摩市健幸ポイント TAMAるんるん♪",
+          "updatedAt": "2026年7月8日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/shisei/saiyo/shokuin/1005497.html",
+          "status": 200,
+          "title": "多摩市職員採用情報(令和8年度実施多摩市職員採用試験等の日程について)",
+          "h1": "多摩市職員採用情報(令和8年度実施多摩市職員採用試験等の日程について)",
+          "updatedAt": "2026年7月14日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/shisei/johokoukai/kouhou/1015390/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年3月17日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kenkofukushi/1008237/kenshin/kokoro/1002866.html",
+          "status": 200,
+          "title": "こころの悩みやこころの病気などに関する相談",
+          "h1": "こころの悩みやこころの病気などに関する相談",
+          "updatedAt": "2025年10月7日",
+          "keywordHits": [
+            "福祉",
+            "通学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kenkofukushi/1008237/iryo/1002731.html",
+          "status": 200,
+          "title": "こども準夜診療、休日歯科応急診療、受診相談・医療機関案内",
+          "h1": "こども準夜診療、休日歯科応急診療、受診相談・医療機関案内",
+          "updatedAt": "2025年9月10日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/kankyo/ondanka/torikumi/1002219.html",
+          "status": 200,
+          "title": "気象観測装置 POTEKA(ポテカ)を設置しました",
+          "h1": "気象観測装置 POTEKA(ポテカ)を設置しました",
+          "updatedAt": "2026年6月2日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kenkofukushi/1008237/kenshin/kansensho/1014468.html",
+          "status": 200,
+          "title": "麻しん（はしか）について",
+          "h1": "麻しん（はしか）について",
+          "updatedAt": "2026年6月7日",
+          "keywordHits": [
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kenkofukushi/1008237/shien/kyufu/1019569.html",
+          "status": 200,
+          "title": "多摩市物価高騰対策生活応援事業（JCBギフトカードの配付）",
+          "h1": "多摩市物価高騰対策生活応援事業（JCBギフトカードの配付）",
+          "updatedAt": "2026年4月27日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/shisei/saiyo/shokuin/1020484.html",
+          "status": 200,
+          "title": "多摩市職員採用情報（令和9年度採用多摩市職員（一般事務高校生対象））の募集について",
+          "h1": "多摩市職員採用情報（令和9年度採用多摩市職員（一般事務高校生対象））の募集について",
+          "updatedAt": "2026年7月14日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/shigikai/giin/meibo/1006616.html",
+          "status": 200,
+          "title": "市議会議員名簿",
+          "h1": "市議会議員名簿",
+          "updatedAt": "2026年7月13日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008033/1011287/1010680/1017615.html",
+          "status": 200,
+          "title": "～プラ板でキーホルダーをつくろう～（諏訪児童館）",
+          "h1": "～プラ板でキーホルダーをつくろう～（諏訪児童館）",
+          "updatedAt": "2026年7月11日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008033/1011287/1010680/1018152.html",
+          "status": 200,
+          "title": "家族体験農業 ベジタブルズ（諏訪児童館）",
+          "h1": "家族体験農業 ベジタブルズ（諏訪児童館）",
+          "updatedAt": "2026年7月11日",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/newslist.html",
+          "status": 200,
+          "title": "新着更新情報",
+          "h1": "新着更新情報",
+          "updatedAt": "令和8年7月7日",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "農業",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008026/index.html",
+          "status": 200,
+          "title": "妊娠",
+          "h1": "妊娠",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種",
+            "不妊"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kosodate/1008018/1008024/1008089/1008090/1009297.html",
+          "status": 200,
+          "title": "新入学の流れ",
+          "h1": "新入学の流れ",
+          "updatedAt": "2026年5月14日",
+          "keywordHits": [
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kenkofukushi/1008237/1016873/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年2月26日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kenkofukushi/1008237/kaigo/index.html",
+          "status": 200,
+          "title": "介護保険",
+          "h1": "介護保険",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/jumin/todokede/1008775.html",
+          "status": 200,
+          "title": "「おくやみハンドブック」をご活用ください",
+          "h1": "「おくやみハンドブック」をご活用ください",
+          "updatedAt": "2026年1月27日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/gomi/index.html",
+          "status": 200,
+          "title": "ごみ・リサイクル",
+          "h1": "ごみ・リサイクル",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "減免",
+            "事業者"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/shisei/johokoukai/1005203/1020397.html",
+          "status": 200,
+          "title": "たま広報 令和8年7月5日号（1527号）",
+          "h1": "たま広報 令和8年7月5日号（1527号）",
+          "updatedAt": "2026年7月3日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "耐震",
+            "予防接種"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/shisei/keikaku/tatekae/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年6月18日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/shisei/gyouseiiinkai/kyouiku/index.html",
+          "status": 200,
+          "title": "教育委員会",
+          "h1": "教育委員会",
+          "updatedAt": "",
+          "keywordHits": [
+            "通学"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/shisei/johokoukai/shinsei/1010272/index.html",
+          "status": 200,
+          "title": "現在募集中のインターネット手続き",
+          "h1": "現在募集中のインターネット手続き",
+          "updatedAt": "令和9年2月5日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "就学",
+            "省エネ"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/about/1008014.html",
+          "status": 200,
+          "title": "リンク集",
+          "h1": "リンク集",
+          "updatedAt": "2025年9月26日",
+          "keywordHits": [
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/map/shiyakusho/madoguchi/1004556.html",
+          "status": 200,
+          "title": "多摩市の組織と直通電話番号一覧(令和8年4月1日現在)",
+          "h1": "多摩市の組織と直通電話番号一覧(令和8年4月1日現在)",
+          "updatedAt": "2026年4月24日",
+          "keywordHits": [
+            "貸付",
+            "医療費助成",
+            "住宅",
+            "創業",
+            "農業",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種",
+            "通学"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/shisei/keikaku/kyodo/koe/1005162.html",
+          "status": 200,
+          "title": "市へのご意見・ご提案",
+          "h1": "市へのご意見・ご提案",
+          "updatedAt": "2023年12月6日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/zei/koteishisan/index.html",
+          "status": 200,
+          "title": "固定資産税・都市計画税",
+          "h1": "固定資産税・都市計画税",
+          "updatedAt": "令和8年1月4日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "耐震",
+            "省エネ"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/zei/keijidousha/index.html",
+          "status": 200,
+          "title": "軽自動車税(原付バイクなど)",
+          "h1": "軽自動車税(原付バイクなど)",
+          "updatedAt": "令和8年1月4日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/nenkin/hokenryo/index.html",
+          "status": 200,
+          "title": "国民年金保険料",
+          "h1": "国民年金保険料",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/nenkin/jukyu/index.html",
+          "status": 200,
+          "title": "国民年金の受給",
+          "h1": "国民年金の受給",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/kokuho/oshirase/index.html",
+          "status": 200,
+          "title": "国民健康保険に関するお知らせ",
+          "h1": "国民健康保険に関するお知らせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/kokuho/kufu/index.html",
+          "status": 200,
+          "title": "国民健康保険の給付",
+          "h1": "国民健康保険の給付",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "一時金",
+            "貸付"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/kokuho/hokenzei/index.html",
+          "status": 200,
+          "title": "国民健康保険税",
+          "h1": "国民健康保険税",
+          "updatedAt": "令和8年6月30日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/kankyo/sumai/index.html",
+          "status": 200,
+          "title": "住まい",
+          "h1": "住まい",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "耐震"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/kankyo/ondanka/index.html",
+          "status": 200,
+          "title": "温暖化対策・自然エネルギー導入促進",
+          "h1": "温暖化対策・自然エネルギー導入促進",
+          "updatedAt": "",
+          "keywordHits": [
+            "省エネ"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/kankyo/kougai/index.html",
+          "status": 200,
+          "title": "公害対策・環境衛生",
+          "h1": "公害対策・環境衛生",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/suido/gesuidou/index.html",
+          "status": 200,
+          "title": "下水道",
+          "h1": "下水道",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/gomi/fukuro/index.html",
+          "status": 200,
+          "title": "家庭系有料指定袋・おむつ袋・ボランティア袋",
+          "h1": "家庭系有料指定袋・おむつ袋・ボランティア袋",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/gomi/event/index.html",
+          "status": 200,
+          "title": "イベント・清掃等による多量排出について",
+          "h1": "イベント・清掃等による多量排出について",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/gomi/namagomi/index.html",
+          "status": 200,
+          "title": "コンポスト・生ごみ処理機",
+          "h1": "コンポスト・生ごみ処理機",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/bousai/jishin/index.html",
+          "status": 200,
+          "title": "地震への備え",
+          "h1": "地震への備え",
+          "updatedAt": "令和4年5月25日",
+          "keywordHits": [
+            "助成金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/bousai/kunren/index.html",
+          "status": 200,
+          "title": "防災訓練・自主防災組織",
+          "h1": "防災訓練・自主防災組織",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/bousai/ouen/index.html",
+          "status": 200,
+          "title": "災害時の応援協定",
+          "h1": "災害時の応援協定",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/index.html",
+          "status": 200,
+          "title": "防犯",
+          "h1": "防犯",
+          "updatedAt": "",
+          "keywordHits": [
+            "空き家"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/1016124.html",
+          "status": 200,
+          "title": "自宅の防犯対策を見直しましょう",
+          "h1": "自宅の防犯対策を見直しましょう",
+          "updatedAt": "2024年10月30日",
+          "keywordHits": [
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/1017917.html",
+          "status": 200,
+          "title": "自宅用の防犯機器購入費用の一部を補助します",
+          "h1": "自宅用の防犯機器購入費用の一部を補助します",
+          "updatedAt": "2026年5月19日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "子育て",
+            "省エネ"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/1016925.html",
+          "status": 200,
+          "title": "地域における防犯カメラの補助制度（自治会・町会、商店街等）",
+          "h1": "地域における防犯カメラの補助制度（自治会・町会、商店街等）",
+          "updatedAt": "2026年6月4日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/1001681.html",
+          "status": 200,
+          "title": "多摩市の安全・安心に関する条例",
+          "h1": "多摩市の安全・安心に関する条例",
+          "updatedAt": "2025年6月5日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/1001686.html",
+          "status": 200,
+          "title": "空き家の適正管理について",
+          "h1": "空き家の適正管理について",
+          "updatedAt": "2023年3月15日",
+          "keywordHits": [
+            "空き家",
+            "空家"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/shobo/index.html",
+          "status": 200,
+          "title": "消防",
+          "h1": "消防",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/shobo/1001696.html",
+          "status": 200,
+          "title": "令和8年度 多摩市・第九消防方面合同水防訓練を実施します",
+          "h1": "令和8年度 多摩市・第九消防方面合同水防訓練を実施します",
+          "updatedAt": "2026年5月12日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/shobo/1001698.html",
+          "status": 200,
+          "title": "すべての住宅に住宅用火災警報器の設置が義務付けられました",
+          "h1": "すべての住宅に住宅用火災警報器の設置が義務付けられました",
+          "updatedAt": "2023年3月15日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/shobo/1001700.html",
+          "status": 200,
+          "title": "多摩市防火水槽設置基準",
+          "h1": "多摩市防火水槽設置基準",
+          "updatedAt": "2023年3月15日",
+          "keywordHits": [
+            "住宅",
+            "耐震"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/anshin/koutsu/index.html",
+          "status": 200,
+          "title": "交通安全",
+          "h1": "交通安全",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/machi/1010943/index.html",
+          "status": 200,
+          "title": "多摩ニュータウン再生",
+          "h1": "多摩ニュータウン再生",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/machi/newtown/index.html",
+          "status": 200,
+          "title": "多摩ニュータウン再生",
+          "h1": "多摩ニュータウン再生",
+          "updatedAt": "2025年9月29日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/kouen/midori/index.html",
+          "status": 200,
+          "title": "多摩市の「みどり」",
+          "h1": "多摩市の「みどり」",
+          "updatedAt": "令和6年3月26日",
+          "keywordHits": [
+            "補助金",
+            "農業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/bus/1001885.html",
+          "status": 200,
+          "title": "仮ナンバー(臨時運行許可)の申請",
+          "h1": "仮ナンバー(臨時運行許可)の申請",
+          "updatedAt": "2026年6月2日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/soudan/index.html",
+          "status": 200,
+          "title": "相談案内",
+          "h1": "相談案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kenkofukushi/kenkou/1010411/1010201.html",
+          "status": 200,
+          "title": "各種相談窓口のご案内",
+          "h1": "各種相談窓口のご案内",
+          "updatedAt": "2026年6月16日",
+          "keywordHits": [
+            "貸付",
+            "免除",
+            "医療費助成",
+            "住宅",
+            "福祉",
+            "子育て",
+            "就学",
+            "妊婦"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/soudan/support/index.html",
+          "status": 200,
+          "title": "子育てに関する相談",
+          "h1": "子育てに関する相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/soudan/ombudsman/index.html",
+          "status": 200,
+          "title": "総合オンブズマン",
+          "h1": "総合オンブズマン",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kurashi/soudan/1010273/index.html",
+          "status": 200,
+          "title": "その他の相談窓口",
+          "h1": "その他の相談窓口",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "創業",
+            "福祉",
+            "就学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kosodate/1008018/1008020/index.html",
+          "status": 200,
+          "title": "マタニティ",
+          "h1": "マタニティ",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kosodate/1008018/1008021/index.html",
+          "status": 200,
+          "title": "0歳",
+          "h1": "0歳",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1010651.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2023年10月3日",
+          "keywordHits": [
+            "医療費助成",
+            "子育て"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008029/index.html",
+          "status": 200,
+          "title": "手当・助成",
+          "h1": "手当・助成",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "医療費助成",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 20,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008027/index.html",
+          "status": 200,
+          "title": "出産",
+          "h1": "出産",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008028/index.html",
+          "status": 200,
+          "title": "医療・健康",
+          "h1": "医療・健康",
+          "updatedAt": "令和5年4月1日",
+          "keywordHits": [
+            "医療費助成",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008030/1014314.html",
+          "status": 200,
+          "title": "多摩市こども誰でも通園事業について",
+          "h1": "多摩市こども誰でも通園事業について",
+          "updatedAt": "2026年5月28日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008036/1012504.html",
+          "status": 200,
+          "title": "放課後子ども教室を週5日実施しています!",
+          "h1": "放課後子ども教室を週5日実施しています!",
+          "updatedAt": "2026年5月13日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1018508.html",
+          "status": 200,
+          "title": "令和8年度保育所等の入所申請について",
+          "h1": "令和8年度保育所等の入所申請について",
+          "updatedAt": "2025年10月21日",
+          "keywordHits": [
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kenkofukushi/danjyo/josei/1013408/1018760.html",
+          "status": 200,
+          "title": "多摩のパパにインタビュー！ vol.8",
+          "h1": "多摩のパパにインタビュー！ vol.8",
+          "updatedAt": "2025年10月14日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/shisei/mayor/message/minasama/1017950.html",
+          "status": 200,
+          "title": "多摩市長から市民の皆さんへのメッセージ（令和7年6月26日）【幼稚園入園料への補助、保育所補助事業など子育て施策にさらに力入れます】",
+          "h1": "多摩市長から市民の皆さんへのメッセージ（令和7年6月26日）【幼稚園入園料への補助、保育所補助事業など子育て施策にさらに力入れます】",
+          "updatedAt": "2025年6月26日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1008779.html",
+          "status": 200,
+          "title": "多摩市では「横のつながり」で保育の質を高めています！",
+          "h1": "多摩市では「横のつながり」で保育の質を高めています！",
+          "updatedAt": "2026年5月25日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008032/1003477.html",
+          "status": 200,
+          "title": "子ども子育てサービスガイド(冊子版)",
+          "h1": "子ども子育てサービスガイド(冊子版)",
+          "updatedAt": "2026年4月20日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/map/kosodate/index.html",
+          "status": 200,
+          "title": "子育て・教育",
+          "h1": "子育て・教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008031/index.html",
+          "status": 200,
+          "title": "出かける・つながる・遊ぶ",
+          "h1": "出かける・つながる・遊ぶ",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008032/index.html",
+          "status": 200,
+          "title": "各種保育サービス",
+          "h1": "各種保育サービス",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/index.html",
+          "status": 200,
+          "title": "幼稚園・保育所",
+          "h1": "幼稚園・保育所",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "子育て"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008035/index.html",
+          "status": 200,
+          "title": "学校",
+          "h1": "学校",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008036/index.html",
+          "status": 200,
+          "title": "学童クラブ・放課後子ども教室",
+          "h1": "学童クラブ・放課後子ども教室",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008038/index.html",
+          "status": 200,
+          "title": "相談したい",
+          "h1": "相談したい",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13224",
+          "municipalityName": "多摩市",
+          "sourceUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1009356/index.html",
+          "status": 200,
+          "title": "審議会・会議関係",
+          "h1": "審議会・会議関係",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.tama.lg.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.tama.lg.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.tama.lg.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/robots.txt",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/robots.txt",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/about/site/usability.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/about/site/usability.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kenkofukushi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kenkofukushi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/shisei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/shisei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/map/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/map/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kanko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kanko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bousai/hazard/1001569.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bousai/hazard/1001569.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kenkofukushi/kenkou/1018289.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kenkofukushi/kenkou/1018289.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/shisei/saiyo/shokuin/1005497.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/shisei/saiyo/shokuin/1005497.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/ml_detail.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/ml_detail.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/concierge/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/concierge/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kanko/1015690/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kanko/1015690/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/shisei/johokoukai/kouhou/1015390/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/shisei/johokoukai/kouhou/1015390/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bouhan/1012786.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/1012786.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kenkofukushi/1008237/kenshin/kokoro/1002866.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kenkofukushi/1008237/kenshin/kokoro/1002866.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kenkofukushi/1008237/iryo/1002731.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kenkofukushi/1008237/iryo/1002731.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bousai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bousai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bousai/nyusyu/1001512.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bousai/nyusyu/1001512.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bousai/map/1001525.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bousai/map/1001525.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kankyo/ondanka/torikumi/1002219.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kankyo/ondanka/torikumi/1002219.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/about/site/1020320.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/about/site/1020320.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kenkofukushi/1008237/kenshin/kansensho/1014468.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kenkofukushi/1008237/kenshin/kansensho/1014468.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kankyo/oshirase/1014963.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kankyo/oshirase/1014963.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kenkofukushi/1008237/shien/kyufu/1019569.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kenkofukushi/1008237/shien/kyufu/1019569.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bousai/nyusyu/1012896.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bousai/nyusyu/1012896.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/shisei/saiyo/shokuin/1020484.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/shisei/saiyo/shokuin/1020484.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/shisei/jigyosha/keiyaku/yotei/1005553.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/shisei/jigyosha/keiyaku/yotei/1005553.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/shigikai/giin/meibo/1006616.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/shigikai/giin/meibo/1006616.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008033/1011287/1010680/1017615.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008033/1011287/1010680/1017615.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008033/1011287/1010680/1018152.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008033/1011287/1010680/1018152.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008033/1011285/1011343/1020414.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008033/1011285/1011343/1020414.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008033/1011285/1011343/1015222.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008033/1011285/1011343/1015222.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008033/1011285/1011343/1013635.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008033/1011285/1011343/1013635.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/newslist.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/newslist.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/machi/tamacenter/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/machi/tamacenter/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kankyo/hozen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kankyo/hozen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kenkofukushi/kenkou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kenkofukushi/kenkou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008026/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008026/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/jumin/koseki/1001764.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/jumin/koseki/1001764.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008018/1008024/1008089/1008090/1009297.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008018/1008024/1008089/1008090/1009297.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/shigoto/syushoku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/shigoto/syushoku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kenkofukushi/1008237/1016873/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kenkofukushi/1008237/1016873/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kenkofukushi/1008237/kaigo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kenkofukushi/1008237/kaigo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/jumin/todokede/1008775.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/jumin/todokede/1008775.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/gomi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/gomi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/shisei/johokoukai/1005203/1020397.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/shisei/johokoukai/1005203/1020397.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/machi/1010943/1020468.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/machi/1010943/1020468.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/event_calendar.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/event_calendar.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/shisei/keikaku/tatekae/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/shisei/keikaku/tatekae/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/shisei/johokoukai/1005203/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/shisei/johokoukai/1005203/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/shisei/johokoukai/kouhou/mail/1005329.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/shisei/johokoukai/kouhou/mail/1005329.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/shisei/gyouseiiinkai/kyouiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/shisei/gyouseiiinkai/kyouiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/shisei/mayor/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/shisei/mayor/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/shigikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/shigikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/shisei/koe/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/shisei/koe/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/shisei/johokoukai/shinsei/1010272/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/shisei/johokoukai/shinsei/1010272/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/shisei/johokoukai/1005203/1005211.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/shisei/johokoukai/1005203/1005211.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/about/1008014.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/about/1008014.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/map/shiyakusho/shisetsu/1004551.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/map/shiyakusho/shisetsu/1004551.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/about/1008009.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/about/1008009.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/about/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/about/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/map/shiyakusho/madoguchi/1004556.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/map/shiyakusho/madoguchi/1004556.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/shisei/keikaku/kyodo/koe/1005162.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/shisei/keikaku/kyodo/koe/1005162.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/about/site/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/about/site/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/cgi-crm/CRM030/CRM030_001/G03040030/1000041",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/cgi-crm/CRM030/CRM030_003",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/about/site/idsearch.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/about/site/idsearch.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/1019855.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/1019855.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/jumin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/jumin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/jumin/todokede/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/jumin/todokede/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/jumin/madoguchi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/jumin/madoguchi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/jumin/convenience/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/jumin/convenience/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/jumin/juminhyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/jumin/juminhyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/jumin/koseki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/jumin/koseki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/jumin/hikkoshi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/jumin/hikkoshi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/jumin/foreigner/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/jumin/foreigner/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/jumin/inkan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/jumin/inkan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/jumin/daicho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/jumin/daicho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/jumin/gaiyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/jumin/gaiyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/jumin/1012761/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/jumin/1012761/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/zei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/zei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/zei/1019007/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/zei/1019007/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/zei/shomei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/zei/shomei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/zei/nouzei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/zei/nouzei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/zei/tetsuduki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/zei/tetsuduki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/zei/kojin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/zei/kojin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/zei/koteishisan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/zei/koteishisan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/zei/keijidousha/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/zei/keijidousha/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/zei/houjin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/zei/houjin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/zei/tobacco/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/zei/tobacco/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/zei/gaiyou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/zei/gaiyou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/zei/1014341/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/zei/1014341/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/nenkin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/nenkin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/nenkin/oshjirase/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/nenkin/oshjirase/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/nenkin/shikumi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/nenkin/shikumi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/nenkin/hokenryo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/nenkin/hokenryo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/nenkin/jukyu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/nenkin/jukyu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/nenkin/soudan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/nenkin/soudan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kokuho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kokuho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kokuho/oshirase/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kokuho/oshirase/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kokuho/shikumi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kokuho/shikumi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kokuho/kufu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kokuho/kufu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kokuho/hokenzei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kokuho/hokenzei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kokuho/kenshin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kokuho/kenshin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kokuho/1015926/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kokuho/1015926/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/koukikourei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/koukikourei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/koukikourei/1012512/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/koukikourei/1012512/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/koukikourei/tetdusuki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/koukikourei/tetdusuki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/koukikourei/hokenryo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/koukikourei/hokenryo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/koukikourei/hokensho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/koukikourei/hokensho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/koukikourei/futankin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/koukikourei/futankin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/koukikourei/kyufu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/koukikourei/kyufu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/koukikourei/kenshin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/koukikourei/kenshin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/mynumber/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/mynumber/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/mynumber/1016378/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/mynumber/1016378/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/mynumber/1016379/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/mynumber/1016379/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kankyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kankyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kankyo/sumai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kankyo/sumai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kankyo/oshirase/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kankyo/oshirase/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kankyo/kichi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kankyo/kichi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kankyo/ondanka/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kankyo/ondanka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kankyo/bika/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kankyo/bika/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kankyo/kougai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kankyo/kougai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kankyo/houshasen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kankyo/houshasen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kankyo/pet/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kankyo/pet/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kankyo/seibutsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kankyo/seibutsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/shigoto/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/shigoto/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/shigoto/roudousha/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/shigoto/roudousha/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/suido/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/suido/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/suido/denki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/suido/denki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/suido/gesuidou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/suido/gesuidou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/gomi/1011004/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/gomi/1011004/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/gomi/onegai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/gomi/onegai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/gomi/shushu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/gomi/shushu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/gomi/fukuro/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/gomi/fukuro/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/gomi/gomibukuro/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/gomi/gomibukuro/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/gomi/bunbetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/gomi/bunbetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/gomi/event/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/gomi/event/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/gomi/sodai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/gomi/sodai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/gomi/recycling/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/gomi/recycling/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/gomi/shokuhin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/gomi/shokuhin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/gomi/namagomi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/gomi/namagomi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/gomi/genryo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/gomi/genryo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/gomi/jigyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/gomi/jigyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/gomi/ecoplaza/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/gomi/ecoplaza/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bousai/1014910/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bousai/1014910/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bousai/saigai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bousai/saigai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bousai/nyusyu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bousai/nyusyu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bousai/map/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bousai/map/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bousai/shien/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bousai/shien/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bousai/sonae/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bousai/sonae/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bousai/jishin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bousai/jishin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bousai/hazard/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bousai/hazard/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bousai/kunren/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bousai/kunren/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bousai/ouen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bousai/ouen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bousai/volunteer/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bousai/volunteer/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bouhan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bouhan/1016124.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/1016124.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bouhan/1017917.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/1017917.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bouhan/1001673.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/1001673.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bouhan/1001675.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/1001675.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bouhan/1001677.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/1001677.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bouhan/1001678.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/1001678.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bouhan/1001684.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/1001684.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bouhan/1001679.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/1001679.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bouhan/1016925.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/1016925.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bouhan/1001681.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/1001681.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bouhan/1001682.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/1001682.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bouhan/1001683.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/1001683.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bouhan/1001685.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/1001685.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bouhan/1001686.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/1001686.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bouhan/1001687.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/1001687.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bouhan/1001689.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/1001689.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bouhan/1001690.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/1001690.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bouhan/1012784.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bouhan/1012784.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/shobo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/shobo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/shobo/1020495.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/shobo/1020495.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/shobo/1020332.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/shobo/1020332.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/shobo/1001692.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/shobo/1001692.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/shobo/1001693.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/shobo/1001693.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/shobo/1008226.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/shobo/1008226.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/shobo/1001695.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/shobo/1001695.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/shobo/1001696.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/shobo/1001696.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/shobo/1001698.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/shobo/1001698.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/shobo/1001699.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/shobo/1001699.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/shobo/1001700.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/shobo/1001700.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/shobo/shobodan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/shobo/shobodan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/anshin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/anshin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/anshin/hogo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/anshin/hogo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/anshin/koutsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/anshin/koutsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/machi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/machi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/machi/toshi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/machi/toshi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/machi/machidukuri/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/machi/machidukuri/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/machi/1010943/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/machi/1010943/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/machi/newtown/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/machi/newtown/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/machi/1012136/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/machi/1012136/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/1014284.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/1014284.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kouen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kouen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kouen/kouen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kouen/kouen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kouen/riyou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kouen/riyou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kouen/midori/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kouen/midori/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kouen/gairoju/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kouen/gairoju/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kouen/ikimono/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kouen/ikimono/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kouen/chosa/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kouen/chosa/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bus/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bus/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bus/douro/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bus/douro/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bus/minibus/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bus/minibus/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bus/chushajo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bus/chushajo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/bus/1001885.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/bus/1001885.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/soudan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/soudan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kenkofukushi/kenkou/1010411/1010201.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kenkofukushi/kenkou/1010411/1010201.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/soudan/support/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/soudan/support/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/soudan/shimin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/soudan/shimin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/soudan/ombudsman/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/soudan/ombudsman/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/soudan/shohi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/soudan/shohi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/soudan/1012749.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/soudan/1012749.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/soudan/1010273/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/soudan/1010273/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kouryu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kouryu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kouryu/kokusai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kouryu/kokusai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kouryu/foreigner/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kouryu/foreigner/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kouryu/1012994/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kouryu/1012994/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kouryu/1011531/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kouryu/1011531/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kurashi/kouryu/1003293/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kurashi/kouryu/1003293/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008018/1008020/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008018/1008020/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008018/1008021/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008018/1008021/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1010651.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1010651.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008029/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008029/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kenkofukushi/1008237/iryo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kenkofukushi/1008237/iryo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008027/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008027/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008028/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008028/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008030/1014314.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008030/1014314.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008036/1012504.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008036/1012504.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008033/1017342.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008033/1017342.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1003518.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1003518.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1018508.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1018508.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kenkofukushi/danjyo/josei/1013408/1018760.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kenkofukushi/danjyo/josei/1013408/1018760.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/shisei/mayor/message/minasama/1017950.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/shisei/mayor/message/minasama/1017950.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1008779.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/1008779.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008032/1003477.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008032/1003477.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/map/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/map/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008030/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008030/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008031/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008031/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008032/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008032/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008033/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008033/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008034/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008035/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008035/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008036/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008036/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008037/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008037/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008038/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008038/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008039/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008039/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008040/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1008040/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1009357/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1009357/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1009356/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1009356/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.tama.lg.jp/kosodate/1008019/1014491/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.tama.lg.jp/kosodate/1008019/1014491/index.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

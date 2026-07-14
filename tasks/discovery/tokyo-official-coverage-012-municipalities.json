@@ -1,0 +1,26 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-012",
+  "prefecture": "東京都",
+  "municipalities": [
+    {
+      "code": "13223",
+      "name": "武蔵村山市",
+      "officialBaseUrl": "https://www.city.musashimurayama.lg.jp/"
+    },
+    {
+      "code": "13224",
+      "name": "多摩市",
+      "officialBaseUrl": "https://www.city.tama.lg.jp/"
+    },
+    {
+      "code": "13225",
+      "name": "稲城市",
+      "officialBaseUrl": "https://www.city.inagi.tokyo.jp/"
+    },
+    {
+      "code": "13227",
+      "name": "羽村市",
+      "officialBaseUrl": "https://www.city.hamura.tokyo.jp/"
+    }
+  ]
+}

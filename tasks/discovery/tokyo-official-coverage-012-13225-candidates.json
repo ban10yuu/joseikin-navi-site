@@ -1,0 +1,2525 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-012-13225",
+  "prefecture": "東京都",
+  "generatedAt": "2026-07-14T06:00:26.106Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 51,
+  "results": [
+    {
+      "code": "13225",
+      "name": "稲城市",
+      "officialBaseUrl": "https://www.city.inagi.tokyo.jp/",
+      "discoveredUrlCount": 260,
+      "candidateCount": 51,
+      "strongCandidateCount": 1,
+      "lowPriorityCandidateCount": 50,
+      "candidates": [
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月13日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月13日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/tw/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/kurashi/soudan/1002821/1002826.html",
+          "status": 200,
+          "title": "就学相談・進学相談",
+          "h1": "就学相談・進学相談",
+          "updatedAt": "令和8年6月4日",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/sangyo/sanngyou/1005438/1013843.html",
+          "status": 200,
+          "title": "企業誘致制度のご案内",
+          "h1": "企業誘致制度のご案内",
+          "updatedAt": "令和8年4月22日",
+          "keywordHits": [
+            "奨励金",
+            "事業者"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/kurashi/index.html",
+          "status": 200,
+          "title": "くらし・手続き",
+          "h1": "くらし・手続き",
+          "updatedAt": "令和6年12月24日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "耐震"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/kosodate/index.html",
+          "status": 200,
+          "title": "子育て・教育",
+          "h1": "子育て・教育",
+          "updatedAt": "令和6年12月16日",
+          "keywordHits": [
+            "医療費助成",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/kenko/index.html",
+          "status": 200,
+          "title": "健康・福祉",
+          "h1": "健康・福祉",
+          "updatedAt": "令和6年12月16日",
+          "keywordHits": [
+            "減免",
+            "医療費助成",
+            "事業者",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/kankyo/index.html",
+          "status": 200,
+          "title": "まちづくり・環境",
+          "h1": "まちづくり・環境",
+          "updatedAt": "令和6年12月16日",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/sangyo/index.html",
+          "status": 200,
+          "title": "産業・しごと",
+          "h1": "産業・しごと",
+          "updatedAt": "令和6年12月16日",
+          "keywordHits": [
+            "創業",
+            "事業者",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/shisei/index.html",
+          "status": 200,
+          "title": "市政情報",
+          "h1": "市政情報",
+          "updatedAt": "令和6年12月16日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年5月27日",
+          "keywordHits": [
+            "医療費助成",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/search/1004825.html",
+          "status": 200,
+          "title": "結婚・離婚",
+          "h1": "結婚・離婚",
+          "updatedAt": "令和6年12月16日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/search/1004827.html",
+          "status": 200,
+          "title": "高齢・介護",
+          "h1": "高齢・介護",
+          "updatedAt": "令和6年12月16日",
+          "keywordHits": [
+            "貸付",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/kenko/syougaifukushi/index.html",
+          "status": 200,
+          "title": "障害福祉",
+          "h1": "障害福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/shisei/gyoumu/1005960/index.html",
+          "status": 200,
+          "title": "市の組織",
+          "h1": "市の組織",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/shisetsu/index.html",
+          "status": 200,
+          "title": "施設案内",
+          "h1": "施設案内",
+          "updatedAt": "令和7年10月30日",
+          "keywordHits": [
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/faq/index.html",
+          "status": 200,
+          "title": "よくある質問",
+          "h1": "よくある質問",
+          "updatedAt": "令和6年12月16日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/kankyo/midori/index.html",
+          "status": 200,
+          "title": "公園・みどり",
+          "h1": "公園・みどり",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/event/index.html",
+          "status": 200,
+          "title": "イベント情報",
+          "h1": "イベント情報",
+          "updatedAt": "令和7年8月14日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/kurashi/sumai/index.html",
+          "status": 200,
+          "title": "住まい",
+          "h1": "住まい",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "耐震"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/kurashi/katsudo/index.html",
+          "status": 200,
+          "title": "市民活動",
+          "h1": "市民活動",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/event/kosodate/index.html",
+          "status": 200,
+          "title": "子育て・教育（イベント・講座）",
+          "h1": "子育て・教育（イベント・講座）",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/kenko/iryou_kenkou/index.html",
+          "status": 200,
+          "title": "健康・医療",
+          "h1": "健康・医療",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/kenko/kaigohoken/index.html",
+          "status": 200,
+          "title": "介護保険",
+          "h1": "介護保険",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/kenko/koureifukushi/index.html",
+          "status": 200,
+          "title": "高齢福祉",
+          "h1": "高齢福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/kenko/seikatsuhukushi/index.html",
+          "status": 200,
+          "title": "生活福祉",
+          "h1": "生活福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/kenko/hukushinikakarujigyousyanokatahe/index.html",
+          "status": 200,
+          "title": "福祉にかかる事業者の方へ",
+          "h1": "福祉にかかる事業者の方へ",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/kenko/hukushiyuusouunsou/index.html",
+          "status": 200,
+          "title": "多摩地域福祉有償運送運営協議会",
+          "h1": "多摩地域福祉有償運送運営協議会",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/kankyo/machi_zukuri/index.html",
+          "status": 200,
+          "title": "まちづくり・景観",
+          "h1": "まちづくり・景観",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/kankyo/jogesuido/index.html",
+          "status": 200,
+          "title": "下水道",
+          "h1": "下水道",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/kankyo/kankyou/index.html",
+          "status": 200,
+          "title": "環境",
+          "h1": "環境",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/sangyo/keiyaku/index.html",
+          "status": 200,
+          "title": "入札・契約",
+          "h1": "入札・契約",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/sangyo/nougyou/index.html",
+          "status": 200,
+          "title": "農業",
+          "h1": "農業",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/sangyo/sanngyou/index.html",
+          "status": 200,
+          "title": "企業支援",
+          "h1": "企業支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/sangyo/founding/index.html",
+          "status": 200,
+          "title": "創業",
+          "h1": "創業",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/event/sangyo/index.html",
+          "status": 200,
+          "title": "産業・しごと（イベント・講座）",
+          "h1": "産業・しごと（イベント・講座）",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/shisei/keikaku_hokoku/index.html",
+          "status": 200,
+          "title": "政策・計画",
+          "h1": "政策・計画",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/shisei/1012821.html",
+          "status": 200,
+          "title": "監査",
+          "h1": "監査",
+          "updatedAt": "令和8年5月28日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/shisei/gyosei/index.html",
+          "status": 200,
+          "title": "行政",
+          "h1": "行政",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/shisei/boshuu/1009470/saiyou20270401.html",
+          "status": 200,
+          "title": "令和9年4月採用稲城市職員募集情報【一般事務／土木技術／福祉／保健師／消防職／一般事務[障害者対象]】",
+          "h1": "令和9年4月採用稲城市職員募集情報【一般事務／土木技術／福祉／保健師／消防職／一般事務[障害者対象]】",
+          "updatedAt": "令和8年7月8日",
+          "keywordHits": [
+            "免除",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/newslist.html",
+          "status": 200,
+          "title": "新着更新情報",
+          "h1": "新着更新情報",
+          "updatedAt": "令和8年7月13日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/shisei/gaiyo/1005500/1005501/index.html",
+          "status": 200,
+          "title": "市民憲章",
+          "h1": "市民憲章",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/shisetsu/1004831.html",
+          "status": 200,
+          "title": "市の施設を予約するには（予約システムの使い方・施設の利用方法など）",
+          "h1": "市の施設を予約するには（予約システムの使い方・施設の利用方法など）",
+          "updatedAt": "令和8年7月7日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/kanko/rekishi/1011408/1011517/index.html",
+          "status": 200,
+          "title": "稲城市デジタルアーカイブズへようこそ！",
+          "h1": "稲城市デジタルアーカイブズへようこそ！",
+          "updatedAt": "令和8年6月3日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/this_hp/1010132.html",
+          "status": 200,
+          "title": "個人情報の取り扱い",
+          "h1": "個人情報の取り扱い",
+          "updatedAt": "令和7年3月26日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/this_hp/1010134.html",
+          "status": 200,
+          "title": "リンク集",
+          "h1": "リンク集",
+          "updatedAt": "令和8年2月13日",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/_res/projects/default_project/_page_/001/008/622/sns_policy.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/shisei/koho/1006032/1008620.html",
+          "status": 200,
+          "title": "主な市の定期刊行物",
+          "h1": "主な市の定期刊行物",
+          "updatedAt": "令和7年4月25日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13225",
+          "municipalityName": "稲城市",
+          "sourceUrl": "https://www.city.inagi.tokyo.jp/shisei/koho/1006032/1011868.html",
+          "status": 200,
+          "title": "稲城市メール配信サービス",
+          "h1": "稲城市メール配信サービス",
+          "updatedAt": "令和7年12月15日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.inagi.tokyo.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/robots.txt",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/robots.txt",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/koho/1006032/1008622.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/koho/1006032/1008622.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/cn/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/cn/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/tw/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/tw/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/ko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/ko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/es/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/es/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/pt/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/pt/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kurashi/iza/1002270/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kurashi/iza/1002270/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kurashi/iza/1002270/1002288/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kurashi/iza/1002270/1002288/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kenko/iryou_kenkou/1003040/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kenko/iryou_kenkou/1003040/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kurashi/iza/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kurashi/iza/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/this_hp/site/usability.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/this_hp/site/usability.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kosodate/shakaikyouiku/1003844/1014010.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kosodate/shakaikyouiku/1003844/1014010.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kurashi/iza/1002270/1002288/1002291.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kurashi/iza/1002270/1002288/1002291.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kurashi/soudan/1002821/1002826.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kurashi/soudan/1002821/1002826.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/sangyo/sanngyou/1005438/1013843.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/sangyo/sanngyou/1005438/1013843.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kurashi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kurashi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kenko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kenko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kanko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kanko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kankyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kankyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/sangyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/sangyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/ecservice/1002547.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/ecservice/1002547.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/1001119.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/1001119.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kosodate/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/search/1004826.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/search/1004826.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/search/1004825.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/search/1004825.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/search/1004824.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/search/1004824.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/search/1004828.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/search/1004828.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kurashi/gomi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kurashi/gomi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kurashi/koutsuu/1002846/1002848/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kurashi/koutsuu/1002846/1002848/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/search/1004827.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/search/1004827.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kenko/syougaifukushi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kenko/syougaifukushi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kurashi/katsudo/1011864.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kurashi/katsudo/1011864.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/gyoumu/1005960/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/gyoumu/1005960/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/faq/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/faq/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kankyo/midori/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kankyo/midori/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kurashi/tetsuzuki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kurashi/tetsuzuki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kurashi/zeikin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kurashi/zeikin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kurashi/nenkin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kurashi/nenkin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kurashi/soudan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kurashi/soudan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kurashi/koutsuu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kurashi/koutsuu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kurashi/sumai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kurashi/sumai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kurashi/pet/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kurashi/pet/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kurashi/sougi_houyou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kurashi/sougi_houyou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kurashi/kyodo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kurashi/kyodo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kurashi/katsudo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kurashi/katsudo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kosodate/kyouikuiinkai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kosodate/kyouikuiinkai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kosodate/seisyounennkenzenikusei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kosodate/seisyounennkenzenikusei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kosodate/shakaikyouiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kosodate/shakaikyouiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kenko/iryou_kenkou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kenko/iryou_kenkou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kenko/kokuho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kenko/kokuho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kenko/kouki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kenko/kouki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kenko/kaigohoken/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kenko/kaigohoken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kenko/koureifukushi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kenko/koureifukushi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kenko/seikatsuhukushi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kenko/seikatsuhukushi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kenko/hukushinikakarujigyousyanokatahe/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kenko/hukushinikakarujigyousyanokatahe/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kenko/hukushiyuusouunsou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kenko/hukushiyuusouunsou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kanko/miryoku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kanko/miryoku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kanko/sports/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kanko/sports/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kanko/rekishi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kanko/rekishi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kanko/shimaitoshi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kanko/shimaitoshi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kanko/kokusai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kanko/kokusai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kankyo/machi_zukuri/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kankyo/machi_zukuri/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kankyo/douro/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kankyo/douro/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kankyo/jogesuido/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kankyo/jogesuido/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kankyo/kankyou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kankyo/kankyou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kankyo/animal/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kankyo/animal/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/sangyo/keiyaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/sangyo/keiyaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/sangyo/nougyou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/sangyo/nougyou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/sangyo/shogyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/sangyo/shogyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/sangyo/sanngyou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/sangyo/sanngyou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/sangyo/founding/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/sangyo/founding/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/sangyo/syurou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/sangyo/syurou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/sangyo/1013528/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/sangyo/1013528/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event/sangyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event/sangyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/gaiyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/gaiyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/gyoumu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/gyoumu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/syunenjigyou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/syunenjigyou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/shichoushitsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/shichoushitsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/koho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/koho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/keikaku_hokoku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/keikaku_hokoku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/zaisei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/zaisei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/1012821.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/1012821.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/gyosei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/gyosei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/kouminrenkeidesk/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/kouminrenkeidesk/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/ecservice/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/ecservice/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/toukei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/toukei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/boshuu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/boshuu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/senkan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/senkan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/1013202/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/1013202/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/1011630.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/1011630.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/this_hp/site/search.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/this_hp/site/search.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/this_hp/site/idsearch.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/this_hp/site/idsearch.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/boshuu/1009470/saiyou20270401.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/boshuu/1009470/saiyou20270401.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kenko/seikatsuhukushi/1003586/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kenko/seikatsuhukushi/1003586/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event/kosodate/1013980.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event/kosodate/1013980.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event/kosodate/1013979.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event/kosodate/1013979.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event/kosodate/1013978.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event/kosodate/1013978.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event/kosodate/1013954.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event/kosodate/1013954.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event/kosodate/1013951.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event/kosodate/1013951.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/this_hp/site/1010131.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/this_hp/site/1010131.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/newslist.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/newslist.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=1",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=1",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=2",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=2",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=3",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=3",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=4",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=4",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=5",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=5",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=6",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=6",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=7",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=7",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=8",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=8",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=9",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=9",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=10",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=10",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=11",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=11",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=12",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=12",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=13",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=13",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=14",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=14",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=15",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=15",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=16",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=16",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=17",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=17",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=18",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=18",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=19",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=19",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=20",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=20",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=21",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=21",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=22",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=22",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=23",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=23",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=24",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=24",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=25",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=25",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=26",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=26",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=27",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=27",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=28",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=28",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=29",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=29",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=30",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=30",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=31",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html?prev=1&year=2026&month=7&day=31",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/event_calendar.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/event_calendar.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/toukei/1009380/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/toukei/1009380/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/gaiyo/1005496.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/gaiyo/1005496.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kanko/miryoku/1003902/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kanko/miryoku/1003902/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/gaiyo/1005500/1005501/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/gaiyo/1005500/1005501/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/syunenjigyou/1005523/1005526.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/syunenjigyou/1005523/1005526.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/gaiyo/1005498.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/gaiyo/1005498.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kanko/miryoku/1003688/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kanko/miryoku/1003688/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kurashi/koutsuu/1002846/1002848/1002850.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kurashi/koutsuu/1002846/1002848/1002850.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/gyosei/1013357/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/gyosei/1013357/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/syunenjigyou/1013824/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/syunenjigyou/1013824/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/koho/1006032/1012052/1013384/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/koho/1006032/1012052/1013384/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kosodate/shakaikyouiku/1003816/1008592/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kosodate/shakaikyouiku/1003816/1008592/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kosodate/kyouikuiinkai/1010589/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kosodate/kyouikuiinkai/1010589/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/gikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/gikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kurashi/iza/1002390/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kurashi/iza/1002390/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/koho/1008772/1008792/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/koho/1008772/1008792/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisetsu/1004831.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisetsu/1004831.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/kanko/rekishi/1011408/1011517/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/kanko/rekishi/1011408/1011517/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/this_hp/koukoku/1010136.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/this_hp/koukoku/1010136.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisetsu/shiyakusho/1004833.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisetsu/shiyakusho/1004833.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/gyoumu/1006028.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/gyoumu/1006028.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/this_hp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/this_hp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/this_hp/1010132.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/this_hp/1010132.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/this_hp/1010134.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/this_hp/1010134.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/shisei/koho/1006032/1008622.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/shisei/koho/1006032/1008622.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/cn/shisei/koho/1006032/1008622.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/cn/shisei/koho/1006032/1008622.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/tw/shisei/koho/1006032/1008622.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/tw/shisei/koho/1006032/1008622.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/ko/shisei/koho/1006032/1008622.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/ko/shisei/koho/1006032/1008622.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/es/shisei/koho/1006032/1008622.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/es/shisei/koho/1006032/1008622.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/pt/shisei/koho/1006032/1008622.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/pt/shisei/koho/1006032/1008622.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/koho/1006032/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/koho/1006032/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/_res/projects/default_project/_page_/001/008/622/sns_policy.pdf",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/_res/projects/default_project/_page_/001/008/622/sns_policy.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/cgi-bin/contacts/G010030",
+          "status": 400,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/cgi-bin/contacts/G010030",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/koho/1006032/1012052/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/koho/1006032/1012052/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/koho/1006032/1008620.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/koho/1006032/1008620.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/koho/1006032/1011868.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/koho/1006032/1011868.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/koho/1006032/1008621.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/koho/1006032/1008621.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/koho/1006032/1008618.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/koho/1006032/1008618.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/shisei/koho/1006032/1008619.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/shisei/koho/1006032/1008619.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kurashi/iza/1002270/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kurashi/iza/1002270/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kurashi/iza/1002270/1002288/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kurashi/iza/1002270/1002288/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kenko/iryou_kenkou/1003040/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kenko/iryou_kenkou/1003040/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kosodate/shakaikyouiku/1003844/1014010.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kosodate/shakaikyouiku/1003844/1014010.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kurashi/iza/1002270/1002288/1002291.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kurashi/iza/1002270/1002288/1002291.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kurashi/soudan/1002821/1002826.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kurashi/soudan/1002821/1002826.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/sangyo/sanngyou/1005438/1013843.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/sangyo/sanngyou/1005438/1013843.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/shisei/ecservice/1002547.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/shisei/ecservice/1002547.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/1001119.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/1001119.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kosodate/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kosodate/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/search/1004826.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/search/1004826.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/search/1004825.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/search/1004825.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/search/1004824.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/search/1004824.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/search/1004828.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/search/1004828.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kurashi/gomi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kurashi/gomi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kurashi/koutsuu/1002846/1002848/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kurashi/koutsuu/1002846/1002848/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/search/1004827.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/search/1004827.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kenko/syougaifukushi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kenko/syougaifukushi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kurashi/katsudo/1011864.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kurashi/katsudo/1011864.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/shisei/gyoumu/1005960/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/shisei/gyoumu/1005960/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/shisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/shisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/faq/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/faq/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kankyo/midori/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kankyo/midori/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/event/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/event/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kurashi/iza/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kurashi/iza/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kurashi/tetsuzuki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kurashi/tetsuzuki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kurashi/zeikin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kurashi/zeikin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kurashi/nenkin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kurashi/nenkin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kurashi/soudan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kurashi/soudan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kurashi/koutsuu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kurashi/koutsuu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kurashi/sumai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kurashi/sumai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kurashi/pet/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kurashi/pet/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kurashi/sougi_houyou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kurashi/sougi_houyou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kurashi/kyodo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kurashi/kyodo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kurashi/katsudo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kurashi/katsudo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kosodate/kyouikuiinkai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kosodate/kyouikuiinkai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kosodate/seisyounennkenzenikusei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kosodate/seisyounennkenzenikusei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kosodate/shakaikyouiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kosodate/shakaikyouiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/event/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/event/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kenko/iryou_kenkou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kenko/iryou_kenkou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kenko/kokuho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kenko/kokuho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kenko/kouki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kenko/kouki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kenko/kaigohoken/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kenko/kaigohoken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kenko/koureifukushi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kenko/koureifukushi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kenko/seikatsuhukushi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kenko/seikatsuhukushi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kenko/hukushinikakarujigyousyanokatahe/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kenko/hukushinikakarujigyousyanokatahe/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kenko/hukushiyuusouunsou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kenko/hukushiyuusouunsou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kanko/miryoku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kanko/miryoku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kanko/sports/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kanko/sports/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kanko/rekishi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kanko/rekishi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kanko/shimaitoshi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kanko/shimaitoshi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kanko/kokusai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kanko/kokusai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kankyo/machi_zukuri/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kankyo/machi_zukuri/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kankyo/douro/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kankyo/douro/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kankyo/jogesuido/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kankyo/jogesuido/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kankyo/kankyou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kankyo/kankyou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/kankyo/animal/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/kankyo/animal/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/sangyo/keiyaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/sangyo/keiyaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/sangyo/nougyou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/sangyo/nougyou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/sangyo/shogyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/sangyo/shogyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/sangyo/sanngyou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/sangyo/sanngyou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/sangyo/founding/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/sangyo/founding/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/sangyo/syurou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/sangyo/syurou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/sangyo/1013528/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/sangyo/1013528/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/event/sangyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/event/sangyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/shisei/gaiyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/shisei/gaiyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/shisei/gyoumu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/shisei/gyoumu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/shisei/syunenjigyou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/shisei/syunenjigyou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/shisei/shichoushitsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/shisei/shichoushitsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/shisei/koho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/shisei/koho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/shisei/keikaku_hokoku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/shisei/keikaku_hokoku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/shisei/zaisei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/shisei/zaisei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/shisei/1012821.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/shisei/1012821.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/shisei/gyosei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/shisei/gyosei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.inagi.tokyo.jp/en/shisei/kouminrenkeidesk/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.inagi.tokyo.jp/en/shisei/kouminrenkeidesk/index.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}
