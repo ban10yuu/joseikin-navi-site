@@ -1,0 +1,31 @@
+{
+  "batchId": "nagano-official-coverage-010",
+  "prefecture": "長野県",
+  "municipalities": [
+    {
+      "code": "20414",
+      "name": "泰阜村",
+      "officialBaseUrl": "https://www.vill.yasuoka.nagano.jp/"
+    },
+    {
+      "code": "20415",
+      "name": "喬木村",
+      "officialBaseUrl": "https://www.vill.takagi.lg.jp/"
+    },
+    {
+      "code": "20416",
+      "name": "豊丘村",
+      "officialBaseUrl": "https://www.vill.nagano-toyooka.lg.jp/"
+    },
+    {
+      "code": "20417",
+      "name": "大鹿村",
+      "officialBaseUrl": "https://www.vill.ooshika.nagano.jp/"
+    },
+    {
+      "code": "20422",
+      "name": "上松町",
+      "officialBaseUrl": "https://www.town.agematsu.nagano.jp/"
+    }
+  ]
+}

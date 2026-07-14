@@ -9898,3 +9898,12 @@
 - URL確認: 採用公式URL9本はすべてHTTP 200。
 - 検証: node --check、JSON parse、slug重複、URL到達、eslint、diff check、audit:coverage 通過（failures 0、長野県 localOfficial 640）。
 - 次回: 長野県公式棚卸し010として、20414泰阜村から自治体コード順に確認する。
+
+### 長野県公式棚卸し010（20414泰阜村・20415喬木村・20416豊丘村・20417大鹿村・20422上松町）
+- 実施日: 2026-07-15
+- 候補: 681件（スニペット681件、再スコア599件）
+- 採用: 80件（泰阜村62件、喬木村5件、豊丘村4件、大鹿村6件、上松町3件）
+- 公式URL: 採用URL到達確認は tasks/discovery/nagano-official-coverage-010-url-status.txt に記録
+- 保留: カテゴリ導線、トップ、広報、観光、計画、公表資料、申請書単体、本文根拠が薄い候補は第2巡候補として保持
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass
+- 次回: 20423南木曽町から再開
