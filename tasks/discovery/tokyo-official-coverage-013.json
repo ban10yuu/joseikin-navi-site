@@ -1,0 +1,90 @@
+{
+  "batchId": "tokyo-official-coverage-013",
+  "generatedAt": "2026-07-14T15:58:00+09:00",
+  "prefecture": "東京都",
+  "municipalities": [
+    {
+      "code": "13228",
+      "name": "あきる野市",
+      "officialBaseUrl": "https://www.city.akiruno.tokyo.jp/",
+      "candidateCount": 125,
+      "adoptedCount": 4,
+      "adoptedSlugs": [
+        "akiruno-home-security-equipment-subsidy-2026",
+        "akiruno-bone-marrow-donor-support-2026",
+        "akiruno-prepaid-gift-card-inflation-benefit-2026",
+        "akiruno-child-rearing-inflation-benefit-2026"
+      ]
+    },
+    {
+      "code": "13229",
+      "name": "西東京市",
+      "officialBaseUrl": "https://www.city.nishitokyo.lg.jp/",
+      "candidateCount": 211,
+      "adoptedCount": 5,
+      "adoptedSlugs": [
+        "nishitokyo-energy-saving-air-conditioner-replacement-subsidy-2026",
+        "nishitokyo-home-security-equipment-subsidy-2026",
+        "nishitokyo-low-income-air-conditioner-subsidy-2026",
+        "nishitokyo-housing-security-benefit-2026",
+        "nishitokyo-exam-challenge-loan-2026"
+      ]
+    },
+    {
+      "code": "13303",
+      "name": "瑞穂町",
+      "officialBaseUrl": "https://www.town.mizuho.tokyo.jp/",
+      "candidateCount": 297,
+      "adoptedCount": 9,
+      "adoptedSlugs": [
+        "mizuho-household-inflation-support-benefit-2026",
+        "mizuho-low-income-air-conditioner-subsidy-2026",
+        "mizuho-high-school-entrance-scholarship-2026",
+        "mizuho-overseas-study-scholarship-2026",
+        "mizuho-new-product-technology-development-subsidy-2026",
+        "mizuho-dx-promotion-subsidy-2026",
+        "mizuho-digital-tool-introduction-subsidy-2026",
+        "mizuho-business-succession-promotion-subsidy-2026",
+        "mizuho-human-resource-development-subsidy-2026"
+      ]
+    },
+    {
+      "code": "13305",
+      "name": "日の出町",
+      "officialBaseUrl": "https://www.town.hinode.tokyo.jp/",
+      "candidateCount": 107,
+      "adoptedCount": 11,
+      "adoptedSlugs": [
+        "hinode-unlicensed-childcare-user-subsidy-2026",
+        "hinode-child-cafeteria-operation-subsidy-2026",
+        "hinode-wooden-house-seismic-diagnosis-subsidy-2026",
+        "hinode-wooden-house-seismic-retrofit-subsidy-2026",
+        "hinode-elderly-medical-expense-subsidy-2026",
+        "hinode-advanced-fertility-treatment-subsidy-2026",
+        "hinode-childcare-meal-fee-subsidy-2026",
+        "hinode-hearing-aid-subsidy-2026",
+        "hinode-elderly-home-modification-benefit-2026",
+        "hinode-care-supplies-benefit-2026",
+        "hinode-bedridden-elderly-care-allowance-2026"
+      ]
+    }
+  ],
+  "candidateTotal": 740,
+  "adoptedTotal": 29,
+  "heldTotal": 711,
+  "sourceUrlsChecked": 29,
+  "shortlistHandling": {
+    "thresholdExceeded": true,
+    "reason": "candidateTotal 740 and per-municipality candidate share exceeded the local rescore threshold",
+    "snippetLedger": "tasks/discovery/tokyo-official-coverage-013-manual-snippets.json",
+    "notes": "公式本文又は公式PDFで制度名、対象、金額又は上限、条件、期限又は受付状況を確認できた個別ページのみ採用。カテゴリ導線、広報・計画ページ、様式のみ、終了済みで現行確認価値が低い候補、金額不足候補は第2巡へ保持。"
+  },
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: 29 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 29 official URLs returned HTTP 200",
+    "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11235, officialLinkedActive 11197, manuallyVerifiedActive 11197, 東京都 localOfficial 619)"
+  }
+}

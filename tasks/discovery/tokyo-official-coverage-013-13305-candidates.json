@@ -1,0 +1,3735 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-013",
+  "prefecture": "東京都",
+  "generatedAt": "2026-07-14T06:33:09.209Z",
+  "municipality": {
+    "code": "13305",
+    "name": "日の出町",
+    "officialBaseUrl": "https://www.town.hinode.tokyo.jp/"
+  },
+  "candidateCount": 107,
+  "candidates": [
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/14-0-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "",
+      "h1": "",
+      "updatedAt": "",
+      "keywordHits": [
+        "移住",
+        "住宅",
+        "空き家",
+        "創業",
+        "子育て"
+      ],
+      "candidateScore": 1,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-13-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "税金",
+      "h1": "税金",
+      "updatedAt": "",
+      "keywordHits": [
+        "減免",
+        "事業者"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-2-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "年金・保険",
+      "h1": "年金・保険",
+      "updatedAt": "",
+      "keywordHits": [
+        "支援金",
+        "医療費助成",
+        "子育て"
+      ],
+      "candidateScore": 12,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-4-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "ごみ・ペット・環境",
+      "h1": "ごみ・ペット・環境",
+      "updatedAt": "令和8年2月27日",
+      "keywordHits": [
+        "住宅",
+        "省エネ"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-5-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "安心・安全",
+      "h1": "安心・安全",
+      "updatedAt": "令和5年4月1日",
+      "keywordHits": [
+        "補助金"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-8-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "文化・スポーツ",
+      "h1": "文化・スポーツ",
+      "updatedAt": "",
+      "keywordHits": [
+        "助成金",
+        "減免"
+      ],
+      "candidateScore": 7,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/16-0-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "子育て・教育",
+      "h1": "子育て・教育",
+      "updatedAt": "",
+      "keywordHits": [
+        "支援金",
+        "医療費助成",
+        "子育て",
+        "予防接種",
+        "不妊"
+      ],
+      "candidateScore": 10,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/16-1-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "妊娠・出産",
+      "h1": "妊娠・出産",
+      "updatedAt": "",
+      "keywordHits": [
+        "支援金",
+        "医療費助成",
+        "子育て",
+        "予防接種",
+        "不妊"
+      ],
+      "candidateScore": 7,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/16-2-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "子育て",
+      "h1": "子育て",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金",
+        "支援金",
+        "医療費助成",
+        "福祉",
+        "子育て",
+        "就学",
+        "予防接種",
+        "不妊"
+      ],
+      "candidateScore": 17,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/16-3-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "入園・入学",
+      "h1": "入園・入学",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金",
+        "支援金",
+        "就学",
+        "通学"
+      ],
+      "candidateScore": 14,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/16-4-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "相談",
+      "h1": "相談",
+      "updatedAt": "",
+      "keywordHits": [
+        "支援金",
+        "子育て",
+        "就学"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/17-0-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "福祉・健康",
+      "h1": "福祉・健康",
+      "updatedAt": "",
+      "keywordHits": [
+        "助成金",
+        "事業者",
+        "福祉",
+        "予防接種",
+        "不妊"
+      ],
+      "candidateScore": 11,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/17-2-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "健康・医療のお知らせ",
+      "h1": "健康・医療のお知らせ",
+      "updatedAt": "",
+      "keywordHits": [
+        "助成金",
+        "予防接種"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/17-6-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "予防接種",
+      "h1": "予防接種",
+      "updatedAt": "",
+      "keywordHits": [
+        "予防接種"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/17-7-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "健康教育・相談",
+      "h1": "健康教育・相談",
+      "updatedAt": "",
+      "keywordHits": [
+        "助成金",
+        "不妊"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/17-9-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "高齢者福祉",
+      "h1": "高齢者福祉",
+      "updatedAt": "",
+      "keywordHits": [
+        "奨励金",
+        "住宅",
+        "福祉",
+        "予防接種"
+      ],
+      "candidateScore": 9,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/17-10-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "介護保険",
+      "h1": "介護保険",
+      "updatedAt": "",
+      "keywordHits": [
+        "住宅",
+        "事業者",
+        "福祉"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/17-11-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "障害者福祉",
+      "h1": "障害者福祉",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/17-12-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "その他福祉",
+      "h1": "その他福祉",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/17-14-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "相談",
+      "h1": "相談",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/5-0-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "事業者のかたへ",
+      "h1": "事業者のかたへ",
+      "updatedAt": "",
+      "keywordHits": [
+        "助成金",
+        "住宅",
+        "事業者",
+        "耐震"
+      ],
+      "candidateScore": 8,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/5-1-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "企業支援",
+      "h1": "企業支援",
+      "updatedAt": "",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/5-3-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "建築・土地",
+      "h1": "建築・土地",
+      "updatedAt": "",
+      "keywordHits": [
+        "助成金",
+        "住宅",
+        "耐震"
+      ],
+      "candidateScore": 6,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/5-5-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "ごみ・環境（事業者向け）",
+      "h1": "ごみ・環境（事業者向け）",
+      "updatedAt": "",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/5-7-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "土地・建物（事業者向け）",
+      "h1": "土地・建物（事業者向け）",
+      "updatedAt": "",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/5-8-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "その他の事業者向け情報",
+      "h1": "その他の事業者向け情報",
+      "updatedAt": "",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/11-6-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "施策・計画",
+      "h1": "施策・計画",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉",
+        "耐震"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/11-11-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "産業・農業",
+      "h1": "産業・農業",
+      "updatedAt": "",
+      "keywordHits": [
+        "創業",
+        "事業者",
+        "農業",
+        "林業"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/11-12-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "町各種団体等",
+      "h1": "町各種団体等",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/3-0-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "施設",
+      "h1": "施設",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/3-1-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "町・公共施設など",
+      "h1": "町・公共施設など",
+      "updatedAt": "",
+      "keywordHits": [
+        "助成金"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/3-3-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "医療・保健・福祉",
+      "h1": "医療・保健・福祉",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/3-4-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "子育て・保育・教育",
+      "h1": "子育て・保育・教育",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て",
+        "通学"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/3-5-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "コミュニティ・文化・スポーツ",
+      "h1": "コミュニティ・文化・スポーツ",
+      "updatedAt": "",
+      "keywordHits": [
+        "助成金"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/3-6-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "観光・歴史",
+      "h1": "観光・歴史",
+      "updatedAt": "",
+      "keywordHits": [
+        "助成金"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/soshiki/4-4-0-0-0_3.html",
+      "status": 200,
+      "title": "防災防犯係",
+      "h1": "防災防犯係",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/9-0-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "申請書ダウンロード",
+      "h1": "申請書ダウンロード",
+      "updatedAt": "",
+      "keywordHits": [
+        "住宅",
+        "事業者",
+        "福祉"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/0000004175.html",
+      "status": 200,
+      "title": "日の出町地図情報の公開について",
+      "h1": "日の出町地図情報の公開について",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金",
+        "助成金",
+        "住宅",
+        "空き家",
+        "空家",
+        "事業者",
+        "耐震"
+      ],
+      "candidateScore": 11,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/0000002413.html",
+      "status": 200,
+      "title": "しもちょうじどうかん",
+      "h1": "しもちょうじどうかん",
+      "updatedAt": "令和8年3月23日",
+      "keywordHits": [
+        "補助金",
+        "福祉",
+        "子育て",
+        "就学"
+      ],
+      "candidateScore": 11,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/0000003454.html",
+      "status": 200,
+      "title": "胃がん検診・肺がん検診",
+      "h1": "胃がん検診・肺がん検診",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉",
+        "予防接種"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/0000004716.html",
+      "status": 200,
+      "title": "日の出町教育シンポジウム",
+      "h1": "日の出町教育シンポジウム",
+      "updatedAt": "令和8年7月18日",
+      "keywordHits": [
+        "補助金"
+      ],
+      "candidateScore": 7,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/0000002289.html",
+      "status": 200,
+      "title": "令和8年度 健康増進事業のご案内",
+      "h1": "令和8年度 健康増進事業のご案内",
+      "updatedAt": "",
+      "keywordHits": [
+        "予防接種"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/0000003616.html",
+      "status": 200,
+      "title": "女性しごと応援キャラバン＆個別相談会in日の出 参加者募集",
+      "h1": "女性しごと応援キャラバン＆個別相談会in日の出 参加者募集",
+      "updatedAt": "",
+      "keywordHits": [
+        "就学"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/0000003413.html",
+      "status": 200,
+      "title": "空き家等相談会を開催します",
+      "h1": "空き家等相談会を開催します",
+      "updatedAt": "令和8年6月26日",
+      "keywordHits": [
+        "補助金",
+        "助成金",
+        "移住",
+        "住宅",
+        "空き家",
+        "空家",
+        "耐震"
+      ],
+      "candidateScore": 11,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/0000004715.html",
+      "status": 200,
+      "title": "秋川流域観光推進協議会が実施する「秋川流域魅力発信プロジェクト事業業務委託に係る公募型プロポーザル」について",
+      "h1": "秋川流域観光推進協議会が実施する「秋川流域魅力発信プロジェクト事業業務委託に係る公募型プロポーザル」について",
+      "updatedAt": "",
+      "keywordHits": [
+        "事業者",
+        "農業"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/0000004198.html",
+      "status": 200,
+      "title": "【国民健康保険・国民年金】一部の手続きで電子申請ができます",
+      "h1": "【国民健康保険・国民年金】一部の手続きで電子申請ができます",
+      "updatedAt": "令和7年4月7日",
+      "keywordHits": [
+        "一時金",
+        "支援金",
+        "子育て"
+      ],
+      "candidateScore": 11,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/11-6-8-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "SDGs",
+      "h1": "SDGs",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/8-0-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "教育委員会",
+      "h1": "教育委員会",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金",
+        "奨励金",
+        "就学",
+        "通学"
+      ],
+      "candidateScore": 11,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/0000000874.html",
+      "status": 200,
+      "title": "日の出町お知らせメール・LINE をご利用ください",
+      "h1": "日の出町お知らせメール・LINE をご利用ください",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 7,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/0000000188.html",
+      "status": 200,
+      "title": "広告を募集しています",
+      "h1": "広告を募集しています",
+      "updatedAt": "",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 11,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/soshiki/4-4-0-0-0_2.html",
+      "status": 200,
+      "title": "防災防犯係",
+      "h1": "防災防犯係",
+      "updatedAt": "令和5年4月1日",
+      "keywordHits": [
+        "補助金"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/soshiki/4-2-0-0-0_1.html",
+      "status": 200,
+      "title": "環境政策係",
+      "h1": "環境政策係",
+      "updatedAt": "",
+      "keywordHits": [
+        "住宅"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/soshiki/26-1-0-0-0_1.html",
+      "status": 200,
+      "title": "地域福祉係",
+      "h1": "地域福祉係",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=24e12eed001a82b3c9ebcfa6391542762c3aa8ac&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "title": "【福祉総務課 地域福祉係】へのお問い合わせ",
+      "h1": "【福祉総務課 地域福祉係】へのお問い合わせ",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/soshiki/26-2-0-0-0_1.html",
+      "status": 200,
+      "title": "障がい支援係",
+      "h1": "障がい支援係",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=d6ae11d3d18f2bc2fb095426fee8e9cabe14a35a&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "title": "【福祉総務課 障がい支援係】へのお問い合わせ",
+      "h1": "【福祉総務課 障がい支援係】へのお問い合わせ",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/soshiki/24-2-0-0-0_1.html",
+      "status": 200,
+      "title": "健康推進係",
+      "h1": "健康推進係",
+      "updatedAt": "",
+      "keywordHits": [
+        "助成金",
+        "予防接種"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/soshiki/27-1-0-0-0_1.html",
+      "status": 200,
+      "title": "子育て支援係",
+      "h1": "子育て支援係",
+      "updatedAt": "",
+      "keywordHits": [
+        "医療費助成",
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 9,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=886accedf7b51ed862d06e1dd3de3477a2db28f8&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "title": "【子育て支援課 子育て支援係】へのお問い合わせ",
+      "h1": "【子育て支援課 子育て支援係】へのお問い合わせ",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/soshiki/27-2-0-0-0_1.html",
+      "status": 200,
+      "title": "児童館",
+      "h1": "児童館",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=c2b84db822db8b56bf85686908ca4b9fa4cb9365&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "title": "【子育て支援課 児童館】へのお問い合わせ",
+      "h1": "【子育て支援課 児童館】へのお問い合わせ",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/soshiki/27-3-0-0-0_2.html",
+      "status": 200,
+      "title": "こども家庭センター係",
+      "h1": "こども家庭センター係",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=c90be01f8d95454f7108edb5f29cace480262333&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "title": "【子育て支援課 こども家庭センター係】へのお問い合わせ",
+      "h1": "【子育て支援課 こども家庭センター係】へのお問い合わせ",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/soshiki/9-3-0-0-0_1.html",
+      "status": 200,
+      "title": "住宅・交通政策係",
+      "h1": "住宅・交通政策係",
+      "updatedAt": "令和6年3月16日",
+      "keywordHits": [
+        "住宅",
+        "空き家"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=d098444c15180598456617dda6eded4087bae73f&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "title": "【まちづくり課 住宅・交通政策係】へのお問い合わせ",
+      "h1": "【まちづくり課 住宅・交通政策係】へのお問い合わせ",
+      "updatedAt": "",
+      "keywordHits": [
+        "住宅"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/soshiki/11-1-0-0-0_2.html",
+      "status": 200,
+      "title": "農林振興係",
+      "h1": "農林振興係",
+      "updatedAt": "",
+      "keywordHits": [
+        "農業"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/soshiki/19-0-0-0-0_1.html",
+      "status": 200,
+      "title": "農業委員会（産業観光課農林振興係内）",
+      "h1": "農業委員会（産業観光課農林振興係内）",
+      "updatedAt": "",
+      "keywordHits": [
+        "農業"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=d6eea9cb827d649b2e487bbb1d401f12e9d1459a&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "title": "【農業委員会（産業観光課農林振興係内）】へのお問い合わせ",
+      "h1": "【農業委員会（産業観光課農林振興係内）】へのお問い合わせ",
+      "updatedAt": "",
+      "keywordHits": [
+        "農業"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/14-10-2-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "子育て支援",
+      "h1": "子育て支援",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/14-10-3-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "高齢者支援",
+      "h1": "高齢者支援",
+      "updatedAt": "",
+      "keywordHits": [
+        "医療費助成"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/cmsfiles/contents/0000004/4131/gaido.pdf",
+      "status": 200,
+      "title": "",
+      "h1": "",
+      "updatedAt": "",
+      "keywordHits": [],
+      "candidateScore": 5,
+      "candidatePriority": "strong",
+      "contentType": "application/pdf",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/14-10-4-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "創業支援",
+      "h1": "創業支援",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金",
+        "創業"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/14-10-5-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "空き家利活用",
+      "h1": "空き家利活用",
+      "updatedAt": "",
+      "keywordHits": [
+        "空き家"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-13-13-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "ふるさと納税",
+      "h1": "ふるさと納税",
+      "updatedAt": "",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/0000003886.html",
+      "status": 200,
+      "title": "企業版ふるさと納税を募集しています",
+      "h1": "企業版ふるさと納税を募集しています",
+      "updatedAt": "",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 11,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-1-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "届出・証明",
+      "h1": "届出・証明",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金",
+        "助成金",
+        "医療費助成",
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 17,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-1-8-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "補助金・助成金",
+      "h1": "補助金・助成金",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金",
+        "助成金",
+        "医療費助成",
+        "住宅",
+        "福祉",
+        "子育て",
+        "耐震"
+      ],
+      "candidateScore": 23,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-1-9-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "結婚・離婚",
+      "h1": "結婚・離婚",
+      "updatedAt": "",
+      "keywordHits": [
+        "医療費助成"
+      ],
+      "candidateScore": 6,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-1-10-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "引越・住まい",
+      "h1": "引越・住まい",
+      "updatedAt": "",
+      "keywordHits": [
+        "医療費助成"
+      ],
+      "candidateScore": 6,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-13-2-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "個人住民税（町民税・都民税）",
+      "h1": "個人住民税（町民税・都民税）",
+      "updatedAt": "",
+      "keywordHits": [
+        "減免",
+        "住宅"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-13-3-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "法人町民税",
+      "h1": "法人町民税",
+      "updatedAt": "",
+      "keywordHits": [
+        "減免"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-13-15-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "固定資産税・都市計画税",
+      "h1": "固定資産税・都市計画税",
+      "updatedAt": "令和6年4月1日",
+      "keywordHits": [
+        "減免",
+        "住宅",
+        "耐震",
+        "省エネ"
+      ],
+      "candidateScore": 1,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-13-5-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "軽自動車税",
+      "h1": "軽自動車税",
+      "updatedAt": "",
+      "keywordHits": [
+        "減免"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-13-6-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "国民健康保険税",
+      "h1": "国民健康保険税",
+      "updatedAt": "",
+      "keywordHits": [
+        "減免"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-2-4-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "国民健康保険",
+      "h1": "国民健康保険",
+      "updatedAt": "",
+      "keywordHits": [
+        "支援金",
+        "子育て"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-2-5-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "後期高齢者医療",
+      "h1": "後期高齢者医療",
+      "updatedAt": "",
+      "keywordHits": [
+        "医療費助成"
+      ],
+      "candidateScore": 6,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-2-7-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "介護保険",
+      "h1": "介護保険",
+      "updatedAt": "",
+      "keywordHits": [
+        "住宅",
+        "事業者",
+        "福祉"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-3-1-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "住宅・土地",
+      "h1": "住宅・土地",
+      "updatedAt": "",
+      "keywordHits": [
+        "住宅",
+        "空き家"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-4-6-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "省エネ・節電",
+      "h1": "省エネ・節電",
+      "updatedAt": "",
+      "keywordHits": [
+        "住宅",
+        "省エネ"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-5-2-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "防犯",
+      "h1": "防犯",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-8-6-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "社会教育施設・社会体育施設・学校施設の使用料及び利用方法",
+      "h1": "社会教育施設・社会体育施設・学校施設の使用料及び利用方法",
+      "updatedAt": "",
+      "keywordHits": [
+        "減免"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-8-3-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "歴史・文化",
+      "h1": "歴史・文化",
+      "updatedAt": "",
+      "keywordHits": [
+        "助成金"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-13-2-1-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "個人住民税のあらまし",
+      "h1": "個人住民税のあらまし",
+      "updatedAt": "",
+      "keywordHits": [
+        "減免"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-13-2-2-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "個人住民税の計算方法",
+      "h1": "個人住民税の計算方法",
+      "updatedAt": "",
+      "keywordHits": [
+        "住宅"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/0000000489.html",
+      "status": 200,
+      "title": "Q&amp;A 法人の町民税について",
+      "h1": "Q&amp;A 法人の町民税について",
+      "updatedAt": "",
+      "keywordHits": [
+        "減免"
+      ],
+      "candidateScore": 7,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/0000000507.html",
+      "status": 200,
+      "title": "法人町民税の減免",
+      "h1": "法人町民税の減免",
+      "updatedAt": "",
+      "keywordHits": [
+        "減免"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/0000000505.html",
+      "status": 200,
+      "title": "法人町民税について",
+      "h1": "法人町民税について",
+      "updatedAt": "",
+      "keywordHits": [
+        "減免"
+      ],
+      "candidateScore": 11,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/0000000506.html",
+      "status": 200,
+      "title": "法人町民税税率一覧",
+      "h1": "法人町民税税率一覧",
+      "updatedAt": "令和元年9月30日",
+      "keywordHits": [
+        "減免"
+      ],
+      "candidateScore": 11,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/0000000508.html",
+      "status": 200,
+      "title": "法人町民税に関する証明",
+      "h1": "法人町民税に関する証明",
+      "updatedAt": "",
+      "keywordHits": [
+        "減免"
+      ],
+      "candidateScore": 11,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-13-15-2-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "固定資産税・都市計画税の減免",
+      "h1": "固定資産税・都市計画税の減免",
+      "updatedAt": "",
+      "keywordHits": [
+        "減免"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-13-15-3-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "固定資産税・都市計画税の軽減",
+      "h1": "固定資産税・都市計画税の軽減",
+      "updatedAt": "",
+      "keywordHits": [
+        "住宅",
+        "耐震",
+        "省エネ"
+      ],
+      "candidateScore": 1,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/category/1-13-15-4-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "固定資産税関係証明書等の交付・縦覧・閲覧",
+      "h1": "固定資産税関係証明書等の交付・縦覧・閲覧",
+      "updatedAt": "",
+      "keywordHits": [
+        "住宅"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/0000000470.html",
+      "status": 200,
+      "title": "軽自動車税の税額およびグリーン化特例",
+      "h1": "軽自動車税の税額およびグリーン化特例",
+      "updatedAt": "令和7年4月1日",
+      "keywordHits": [
+        "減免"
+      ],
+      "candidateScore": 11,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/0000000471.html",
+      "status": 200,
+      "title": "原動機付自転車等の登録・廃車",
+      "h1": "原動機付自転車等の登録・廃車",
+      "updatedAt": "",
+      "keywordHits": [
+        "減免"
+      ],
+      "candidateScore": 11,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/0000004244.html",
+      "status": 200,
+      "title": "【数量限定】日の出町合併70周年及び町制施行50周年事業 ご当地ナンバープレート交付を開始します",
+      "h1": "【数量限定】日の出町合併70周年及び町制施行50周年事業 ご当地ナンバープレート交付を開始します",
+      "updatedAt": "令和7年5月20日",
+      "keywordHits": [
+        "減免"
+      ],
+      "candidateScore": 11,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/0000000472.html",
+      "status": 200,
+      "title": "軽自動車税の減免",
+      "h1": "軽自動車税の減免",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金",
+        "減免",
+        "福祉"
+      ],
+      "candidateScore": 8,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13305",
+      "municipalityName": "日の出町",
+      "sourceUrl": "https://www.town.hinode.tokyo.jp/0000003967.html",
+      "status": 200,
+      "title": "ペダル付き電動バイク（ペダル付き原動機付自転車）について",
+      "h1": "ペダル付き電動バイク（ペダル付き原動機付自転車）について",
+      "updatedAt": "",
+      "keywordHits": [
+        "減免"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://www.town.hinode.tokyo.jp/",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/sitemap.xml",
+      "status": 404,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/sitemap.xml",
+      "ok": false
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/sitemap_index.xml",
+      "status": 404,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/sitemap_index.xml",
+      "ok": false
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/robots.txt",
+      "status": 404,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/robots.txt",
+      "ok": false
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/rss/rss.xml",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/rss/rss.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/site_policy/0000000010.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/site_policy/0000000010.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/14-0-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/14-0-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-0-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-0-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-13-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-13-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-2-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-2-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-3-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-3-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-4-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-4-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-5-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-5-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-8-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-8-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-9-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-9-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-10-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-10-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-11-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-11-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/16-0-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/16-0-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/16-1-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/16-1-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/16-2-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/16-2-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/16-3-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/16-3-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/16-4-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/16-4-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/17-0-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/17-0-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/15-0-0-0-0-0-0-0-0-0.html",
+      "status": 404,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/15-0-0-0-0-0-0-0-0-0.html",
+      "ok": false
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/17-2-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/17-2-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/17-4-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/17-4-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/17-5-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/17-5-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/17-6-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/17-6-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/17-7-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/17-7-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/17-8-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/17-8-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/17-9-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/17-9-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/17-10-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/17-10-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/17-11-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/17-11-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/17-12-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/17-12-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/17-13-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/17-13-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/17-14-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/17-14-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/5-0-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/5-0-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/5-1-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/5-1-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/5-2-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/5-2-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/5-3-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/5-3-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/5-4-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/5-4-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/5-5-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/5-5-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/5-7-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/5-7-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/5-8-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/5-8-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/11-0-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/11-0-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/11-1-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/11-1-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/11-2-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/11-2-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/11-3-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/11-3-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/11-4-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/11-4-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/11-5-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/11-5-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/11-15-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/11-15-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/11-6-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/11-6-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/11-7-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/11-7-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/11-14-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/11-14-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/10-0-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/10-0-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/11-10-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/11-10-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/11-16-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/11-16-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/11-11-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/11-11-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/11-12-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/11-12-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/11-13-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/11-13-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/3-0-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/3-0-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/3-1-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/3-1-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/3-2-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/3-2-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/3-3-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/3-3-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/3-4-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/3-4-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/3-5-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/3-5-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/3-6-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/3-6-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/3-7-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/3-7-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000003887.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000003887.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-5-11-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-5-11-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/4-4-0-0-0_3.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/4-4-0-0-0_3.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/9-0-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/9-0-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/module/garbage.php",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/module/garbage.php",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000000212.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000000212.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000004175.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000004175.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000002413.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000002413.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000003454.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000003454.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000004666.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000004666.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000004716.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000004716.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000002708.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000002708.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/news/0001.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/news/0001.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000002289.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000002289.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000003616.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000003616.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000003413.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000003413.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000003304.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000003304.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000004715.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000004715.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/topics/0001.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/topics/0001.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000004460.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000004460.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000004198.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000004198.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000003820.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000003820.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/11-6-8-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/11-6-8-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000003773.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000003773.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/11-17-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/11-17-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/8-0-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/8-0-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000000565.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000000565.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/11-4-2-4-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/11-4-2-4-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/11-5-1-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/11-5-1-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000000874.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000000874.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000002973.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000002973.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/module/banner.cgi?bannerId=33",
+      "status": 404,
+      "finalUrl": "https://www.buyo-gas.co.jp/index-6.php",
+      "ok": false
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/module/banner.cgi?bannerId=32",
+      "status": 200,
+      "finalUrl": "https://kirarashika.com/",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000000188.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000000188.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000000195.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000000195.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/sitemap.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/sitemap.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000000213.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000000213.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/3-1-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/3-1-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=85f628cb5292f7aaff795bf2b5bf6ae115b98471&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=85f628cb5292f7aaff795bf2b5bf6ae115b98471&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/3-2-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/3-2-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=345a563844730daffa8bcd03f6e54bc1395c2710&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=345a563844730daffa8bcd03f6e54bc1395c2710&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/3-3-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/3-3-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=50921aa9392ccf99db22924b503e70223b6aa85a&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=50921aa9392ccf99db22924b503e70223b6aa85a&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/2-1-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/2-1-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=bed1316ea6a58b09482d1871052524a8dc04bdde&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=bed1316ea6a58b09482d1871052524a8dc04bdde&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/2-6-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/2-6-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=b3fbbca295e05472a9d43b5d83fd02b0442e1c9a&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=b3fbbca295e05472a9d43b5d83fd02b0442e1c9a&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/2-2-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/2-2-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=840bc563f19c4cc8c7c13cfc5d1002dcf8df0f70&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=840bc563f19c4cc8c7c13cfc5d1002dcf8df0f70&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/2-5-0-0-0_3.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/2-5-0-0-0_3.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=304f1511e8bc15ee0eaa0739a972086313091154&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=304f1511e8bc15ee0eaa0739a972086313091154&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/6-1-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/6-1-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=b67cad1044887360511bcb2e550c9ffede02cf0f&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=b67cad1044887360511bcb2e550c9ffede02cf0f&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/6-2-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/6-2-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=307078d452c2d09ed796f615a7aad68676a41b1d&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=307078d452c2d09ed796f615a7aad68676a41b1d&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/5-1-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/5-1-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=53b711c1bb6a3f600a6daba34d96d1a0bc591b4e&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=53b711c1bb6a3f600a6daba34d96d1a0bc591b4e&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/5-3-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/5-3-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=662158e9bcd0455c9fa5107eecdc9b2353ff38cb&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=662158e9bcd0455c9fa5107eecdc9b2353ff38cb&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/4-3-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/4-3-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=295b4dd128799eb4eb7886033884c2435c1cbcd2&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=295b4dd128799eb4eb7886033884c2435c1cbcd2&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/4-4-0-0-0_2.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/4-4-0-0-0_2.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=87b2ba97b17141692a30e67aa98e6a6aebdb2c0f&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=87b2ba97b17141692a30e67aa98e6a6aebdb2c0f&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/4-2-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/4-2-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=9cb41089d258c235d8fe50694e17d74a614dedb1&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=9cb41089d258c235d8fe50694e17d74a614dedb1&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/26-1-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/26-1-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=24e12eed001a82b3c9ebcfa6391542762c3aa8ac&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=24e12eed001a82b3c9ebcfa6391542762c3aa8ac&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/26-2-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/26-2-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=d6ae11d3d18f2bc2fb095426fee8e9cabe14a35a&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=d6ae11d3d18f2bc2fb095426fee8e9cabe14a35a&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/24-2-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/24-2-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=21b07d070600e2ee8b5607eca4d36169727b6200&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=21b07d070600e2ee8b5607eca4d36169727b6200&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/27-1-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/27-1-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=886accedf7b51ed862d06e1dd3de3477a2db28f8&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=886accedf7b51ed862d06e1dd3de3477a2db28f8&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/27-2-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/27-2-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=c2b84db822db8b56bf85686908ca4b9fa4cb9365&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=c2b84db822db8b56bf85686908ca4b9fa4cb9365&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/27-3-0-0-0_2.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/27-3-0-0-0_2.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=c90be01f8d95454f7108edb5f29cace480262333&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=c90be01f8d95454f7108edb5f29cace480262333&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/8-1-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/8-1-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=e76cd2378f4c0dc4a4665e1790eb14deced67bec&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=e76cd2378f4c0dc4a4665e1790eb14deced67bec&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/8-2-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/8-2-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=5a20a2c2d2f39599c43825d28408ce9d2680f0c1&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=5a20a2c2d2f39599c43825d28408ce9d2680f0c1&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/9-1-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/9-1-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=12cb7eaeaea8697c059ca5ed601647247d813126&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=12cb7eaeaea8697c059ca5ed601647247d813126&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/9-3-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/9-3-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=d098444c15180598456617dda6eded4087bae73f&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=d098444c15180598456617dda6eded4087bae73f&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/9-2-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/9-2-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=bccdee309e07b0e5502e0069d9eafe114860ba7b&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=bccdee309e07b0e5502e0069d9eafe114860ba7b&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/10-1-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/10-1-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=33b3942b12bd2e64e050e9cf621b89d5ee2c092d&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=33b3942b12bd2e64e050e9cf621b89d5ee2c092d&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/10-4-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/10-4-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=9fee7c7ca1ac676fe9ef3a75f62f211f6b8ffc69&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=9fee7c7ca1ac676fe9ef3a75f62f211f6b8ffc69&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/10-3-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/10-3-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=815da4c77f4260bbd3c7f29de0568ee8faab16bd&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=815da4c77f4260bbd3c7f29de0568ee8faab16bd&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/11-1-0-0-0_2.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/11-1-0-0-0_2.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=3412969832f47042ee185f0b249474a2a45fc9c3&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=3412969832f47042ee185f0b249474a2a45fc9c3&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/11-2-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/11-2-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=d783ce58a008d9d154383ea36cadb4f71b0f0033&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=d783ce58a008d9d154383ea36cadb4f71b0f0033&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/25-0-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/25-0-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=833f6fbe6200d42b6c87db34fcdb305ab021f85b&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=833f6fbe6200d42b6c87db34fcdb305ab021f85b&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/12-1-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/12-1-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=c50060e05e0a028a7778ee30ec331c8a9e0003aa&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=c50060e05e0a028a7778ee30ec331c8a9e0003aa&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/1-1-0-0-0_2.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/1-1-0-0-0_2.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=d43429d8f0dafd745468ab8a11c75da8f6417bd1&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=d43429d8f0dafd745468ab8a11c75da8f6417bd1&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/13-1-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/13-1-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=92ca8ecce8377d61399713c3672f6d843b7e492d&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=92ca8ecce8377d61399713c3672f6d843b7e492d&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/21-3-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/21-3-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=e410a33d6f3c279cd3245b0a8811e7076e009a18&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=e410a33d6f3c279cd3245b0a8811e7076e009a18&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/21-2-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/21-2-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=4b3fea18f73f300b4cf5dc32afaa877d207ea6be&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=4b3fea18f73f300b4cf5dc32afaa877d207ea6be&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/14-1-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/14-1-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=fdb372130f9a6765fe66103a929142d9fdc2cfe0&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=fdb372130f9a6765fe66103a929142d9fdc2cfe0&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/14-3-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/14-3-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=f3598a3dac09b16d53121c0cfc0e7bc36ad112fb&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=f3598a3dac09b16d53121c0cfc0e7bc36ad112fb&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/12-0-0-0-0.html",
+      "status": 404,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/12-0-0-0-0-0-0-0-0-0.html",
+      "ok": false
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=d42cf218d0fc0ac4d4ded62f0a4a2bd58673ecaa&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=d42cf218d0fc0ac4d4ded62f0a4a2bd58673ecaa&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/16-1-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/16-1-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=49b576c49a4677ed21a44ff7440821e207fd40e1&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=49b576c49a4677ed21a44ff7440821e207fd40e1&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=31748a508142c7abed2a9db46bd042ac650706aa&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=31748a508142c7abed2a9db46bd042ac650706aa&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/17-0-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/17-0-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=1de3367093bc072da1dd27ebebfa1a70abfea9e2&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=1de3367093bc072da1dd27ebebfa1a70abfea9e2&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/18-0-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/18-0-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=bb1d91035a3066b27f3e3a36589f6ac4d64701cf&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=bb1d91035a3066b27f3e3a36589f6ac4d64701cf&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/19-0-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/19-0-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=d6eea9cb827d649b2e487bbb1d401f12e9d1459a&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=d6eea9cb827d649b2e487bbb1d401f12e9d1459a&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/soshiki/20-0-0-0-0_1.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/soshiki/20-0-0-0-0_1.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=d054556eae13dd68f680126d9398b3f18cdd2d99&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/mailform/inquiry.cgi?so=d054556eae13dd68f680126d9398b3f18cdd2d99&amp;ref=https%3A%2F%2Fwww.town.hinode.tokyo.jp%2Fsoshiki_list.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000003748.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000003748.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/14-8-3-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/14-8-3-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/14-8-1-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/14-8-1-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/14-8-4-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/14-8-4-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/14-8-2-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/14-8-2-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/14-9-1-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/14-9-1-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/14-9-2-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/14-9-2-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/14-9-3-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/14-9-3-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/14-10-2-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/14-10-2-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/14-10-3-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/14-10-3-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/cmsfiles/contents/0000004/4131/gaido.pdf",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/cmsfiles/contents/0000004/4131/gaido.pdf",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/14-10-4-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/14-10-4-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/14-10-5-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/14-10-5-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-13-13-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-13-13-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000003886.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000003886.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000004708.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000004708.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-1-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-1-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-1-1-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-1-1-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-1-2-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-1-2-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-1-3-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-1-3-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-1-4-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-1-4-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-1-5-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-1-5-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-1-8-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-1-8-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-1-7-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-1-7-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-1-9-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-1-9-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-1-10-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-1-10-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-1-11-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-1-11-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-1-12-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-1-12-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-13-1-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-13-1-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-13-2-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-13-2-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-13-3-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-13-3-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-13-15-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-13-15-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-13-5-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-13-5-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-13-6-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-13-6-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-13-7-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-13-7-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-13-8-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-13-8-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-13-9-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-13-9-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-13-10-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-13-10-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-13-14-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-13-14-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-2-3-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-2-3-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-2-4-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-2-4-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-2-5-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-2-5-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-2-7-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-2-7-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-3-1-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-3-1-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-3-2-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-3-2-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-3-3-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-3-3-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-3-4-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-3-4-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-3-5-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-3-5-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-3-6-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-3-6-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-3-7-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-3-7-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-3-10-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-3-10-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-3-8-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-3-8-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-4-1-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-4-1-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-4-2-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-4-2-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-4-3-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-4-3-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-4-4-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-4-4-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-4-5-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-4-5-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-4-6-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-4-6-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-4-7-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-4-7-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-5-1-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-5-1-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-5-2-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-5-2-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-5-4-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-5-4-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-5-3-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-5-3-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-5-5-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-5-5-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-5-6-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-5-6-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-5-7-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-5-7-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-5-10-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-5-10-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-8-6-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-8-6-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-8-1-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-8-1-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-8-2-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-8-2-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-8-3-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-8-3-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-8-4-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-8-4-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-8-7-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-8-7-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-8-8-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-8-8-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000000243.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000000243.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-10-1-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-10-1-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-10-4-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-10-4-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000000098.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000000098.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/7-0-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/7-0-0-0-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000004271.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000004271.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000004280.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000004280.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000003934.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000003934.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000001852.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000001852.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000003244.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000003244.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-13-2-1-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-13-2-1-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-13-2-2-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-13-2-2-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-13-2-3-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-13-2-3-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-13-2-4-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-13-2-4-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-13-2-5-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-13-2-5-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-13-2-6-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-13-2-6-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000000489.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000000489.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000000507.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000000507.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000000505.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000000505.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000000506.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000000506.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000000508.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000000508.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-13-15-1-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-13-15-1-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-13-15-2-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-13-15-2-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-13-15-3-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-13-15-3-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-13-15-4-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-13-15-4-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/category/1-13-15-5-0-0-0-0-0-0.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/category/1-13-15-5-0-0-0-0-0-0.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000000470.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000000470.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000000471.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000000471.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000004244.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000004244.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000000472.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000000472.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.town.hinode.tokyo.jp/0000003967.html",
+      "status": 200,
+      "finalUrl": "https://www.town.hinode.tokyo.jp/0000003967.html",
+      "ok": true
+    }
+  ]
+}

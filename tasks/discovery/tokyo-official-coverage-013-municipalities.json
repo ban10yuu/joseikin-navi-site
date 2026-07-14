@@ -1,0 +1,26 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-013",
+  "prefecture": "東京都",
+  "municipalities": [
+    {
+      "code": "13228",
+      "name": "あきる野市",
+      "officialBaseUrl": "https://www.city.akiruno.tokyo.jp/"
+    },
+    {
+      "code": "13229",
+      "name": "西東京市",
+      "officialBaseUrl": "https://www.city.nishitokyo.lg.jp/"
+    },
+    {
+      "code": "13303",
+      "name": "瑞穂町",
+      "officialBaseUrl": "https://www.town.mizuho.tokyo.jp/"
+    },
+    {
+      "code": "13305",
+      "name": "日の出町",
+      "officialBaseUrl": "https://www.town.hinode.tokyo.jp/"
+    }
+  ]
+}

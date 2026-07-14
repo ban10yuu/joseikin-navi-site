@@ -8006,3 +8006,40 @@
     - 受付終了、受付休止、404、金額又は受付状況不足、PDF精査待ち、カテゴリ導線、様式のみ、国制度色が強い候補、直接取得403の候補は第2巡候補又は次回継続候補に残す。
   - 次:
     - 東京都公式棚卸し013として、13228あきる野市、13229西東京市、13303瑞穂町、13305日の出町を自治体コード順に確認する。東村山市の直接取得403候補は第2巡候補として保持する。
+
+### 2026-07-14 東京都公式棚卸し013（13228あきる野市・13229西東京市・13303瑞穂町・13305日の出町）
+
+- 作業範囲:
+  - 13228 あきる野市、13229 西東京市、13303 瑞穂町、13305 日の出町の公式サイトを対象に、補助金・助成金・給付金・手当等の個別公式ページを確認した。
+  - 生成候補740件（あきる野市125件、西東京市211件、瑞穂町297件、日の出町107件）が閾値を超えたため、`tasks/discovery/tokyo-official-coverage-013-manual-snippets.json` に公式本文/PDFの短い根拠を保存し、金額・対象・期限/受付状況が揃う制度を優先した。
+- 採用:
+  - 合計29件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - あきる野市4件: 防犯機器等購入費緊急補助金、骨髄移植ドナー支援事業、物価高騰対策プリペイド式ギフトカード配付、物価高対応子育て応援手当。
+  - 西東京市5件: 省エネ家電（エアコン）買い換え助成金、住まいの防犯対策補助金、低所得世帯・被保護世帯向けエアコン設置緊急支援、住居確保給付金、受験生チャレンジ支援貸付。
+  - 瑞穂町9件: 食料品等物価高騰対策家計応援金、住民税非課税世帯等エアコン設置緊急支援事業、瑞穂町奨学金、海外留学奨学資金等支給制度、新製品・新技術開発支援事業補助金、DX推進事業補助金、デジタルツール導入支援事業補助金、事業承継促進事業補助金、人材育成支援事業補助金。
+  - 日の出町11件: 認可外保育施設利用者支援事業補助金、子ども食堂推進事業補助金、木造住宅耐震診断費助成金、木造住宅耐震改修費助成金、高齢者医療費助成、特定不妊治療費（先進医療）助成制度、ひのでっ子ぱくぱく給食応援補助金、補聴器助成事業、住宅改修給付、介護用品等給付、寝たきり高齢者等支援手当。
+- 生成ファイル:
+  - `tasks/discovery/tokyo-official-coverage-013-municipalities.json`
+  - `tasks/discovery/tokyo-official-coverage-013-13228-municipality.json`
+  - `tasks/discovery/tokyo-official-coverage-013-13229-municipality.json`
+  - `tasks/discovery/tokyo-official-coverage-013-13303-municipality.json`
+  - `tasks/discovery/tokyo-official-coverage-013-13305-municipality.json`
+  - `tasks/discovery/tokyo-official-coverage-013-13228-candidates.json`
+  - `tasks/discovery/tokyo-official-coverage-013-13229-candidates.json`
+  - `tasks/discovery/tokyo-official-coverage-013-13303-candidates.json`
+  - `tasks/discovery/tokyo-official-coverage-013-13305-candidates.json`
+  - `tasks/discovery/tokyo-official-coverage-013-candidates.json`
+  - `tasks/discovery/tokyo-official-coverage-013-manual-snippets.json`
+  - `tasks/discovery/tokyo-official-coverage-013.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - 追加slug重複: pass（29件、`verified-local-misc-2026.ts` 内で各1件）。
+  - 公式URL到達: pass（29 official URLsすべてHTTP 200）。
+  - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 11235、officialLinkedActive 11197、manuallyVerifiedActive 11197、東京都 localOfficial 619）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+  - 受付終了、広報・計画ページ、カテゴリ導線、様式のみ、金額又は受付状況不足候補、PDF精査待ち候補、直接取得403の候補は第2巡候補又は次回継続候補に残す。
+- 次:
+  - 東京都公式棚卸し014として、13307檜原村、13308奥多摩町、13361大島町、13362利島村を自治体コード順に確認する。東村山市の直接取得403候補は第2巡候補として保持する。
