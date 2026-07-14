@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T05:56:55+09:00",
+  "updatedAt": "2026-07-15T06:12:26+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "nagano-official-coverage-008",
-    "municipality": "宮田村・松川町・高森町・阿南町・阿智村",
-    "adopted": 60,
-    "held": 503,
+    "code": "nagano-official-coverage-009",
+    "municipality": "平谷村・根羽村・下條村・売木村・天龍村",
+    "adopted": 51,
+    "held": 359,
     "excluded": 0,
-    "sourceUrlsChecked": 60,
+    "sourceUrlsChecked": 9,
     "validation": {
-      "previousMunicipality": "長野県公式棚卸し008として、20388宮田村・20402松川町・20403高森町・20404阿南町・20407阿智村を確認した。候補563件、本文スニペット563件を保存し、阿南町20件、阿智村40件の合計60件を新規採用した。宮田村・松川町・高森町及びカテゴリ導線・申請書単体・WAF再到達対象は第2巡候補保持。長野県第1巡は20407阿智村まで到達。全国公式棚卸しは未完了。",
+      "previousMunicipality": "長野県公式棚卸し009として、20409平谷村・20410根羽村・20411下條村・20412売木村・20413天龍村を確認した。候補410件、本文スニペット410件を保存し、平谷村19件、売木村18件、天龍村14件の合計51件を新規採用した。根羽村・下條村およびカテゴリ導線・広報・計画・申請書単体は第2巡候補保持。長野県第1巡は20413天龍村まで到達。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for nagano-official-coverage-008 JSON files and checkpoint update inputs",
-      "addedSlugUniqueness": "pass: 60 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 60 unique adopted official URLs returned HTTP 200 by interval curl",
+      "json": "pass: JSON.parse for nagano-official-coverage-009 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 51 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 9 unique adopted official URLs returned HTTP 200 by interval curl",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 13675, officialLinkedActive 13555, manuallyVerifiedActive 13555, 長野県 localOfficial 589)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 13726, officialLinkedActive 13606, manuallyVerifiedActive 13606, 長野県 localOfficial 640)"
     }
   },
   "next": {
-    "code": "nagano-official-coverage-009",
-    "municipality": "平谷村",
-    "shortlist": "長野県公式棚卸し008は阿南町20件、阿智村40件を採用した。宮田村は通常クロールで候補0件、松川町・高森町は公式カテゴリ本文から候補抽出済みだが個別ページ再到達が403のため、第2巡候補として保持する。カテゴリ導線、PDF、申請書単体、イベント・募集記事は第2巡候補として保持する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、20409平谷村を開始地点として長野県公式棚卸し009を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "nagano-official-coverage-010",
+    "municipality": "泰阜村",
+    "shortlist": "長野県公式棚卸し009は平谷村19件、売木村18件、天龍村14件を採用した。根羽村・下條村は候補保存済みだが個別制度本文の根拠が薄いため第2巡候補として保持する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、20414泰阜村を開始地点として長野県公式棚卸し010を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "長野県",
     "status": "in-progress",
-    "lastBatch": "nagano-official-coverage-008",
-    "notes": "山梨県は19201甲府市から19443丹波山村まで第1巡完了。長野県は20201長野市から20407阿智村まで第1巡到達。全国公式棚卸しは未完了。次は20409平谷村から継続する。"
+    "lastBatch": "nagano-official-coverage-009",
+    "notes": "山梨県は19201甲府市から19443丹波山村まで第1巡完了。長野県は20201長野市から20413天龍村まで第1巡到達。全国公式棚卸しは未完了。次は20414泰阜村から継続する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

@@ -1,0 +1,38 @@
+{
+  "batchId": "nagano-official-coverage-009",
+  "prefecture": "長野県",
+  "startedFrom": {
+    "code": "20409",
+    "municipality": "平谷村"
+  },
+  "municipalities": [
+    "平谷村",
+    "根羽村",
+    "下條村",
+    "売木村",
+    "天龍村"
+  ],
+  "candidateCount": 410,
+  "adoptedCount": 51,
+  "heldCount": 359,
+  "adoptedByMunicipality": {
+    "平谷村": 19,
+    "売木村": 18,
+    "天龍村": 14
+  },
+  "heldNotes": "根羽村・下條村は通常クロール候補を保存したが、個別制度ページの本文根拠が薄い候補を第2巡保持。カテゴリ導線、トップ、広報、計画、公表資料、申請書単体は第2巡候補として保持。",
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "json": "pass: JSON.parse for nagano-official-coverage-009 JSON files and checkpoint",
+    "addedSlugUniqueness": "pass: 51 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 9 unique adopted official URLs returned HTTP 200 by interval curl",
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 13726, officialLinkedActive 13606, manuallyVerifiedActive 13606, 長野県 localOfficial 640)"
+  },
+  "next": {
+    "batchId": "nagano-official-coverage-010",
+    "code": "20414",
+    "municipality": "泰阜村"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "batchId": "nagano-official-coverage-009",
+  "prefecture": "長野県",
+  "municipalities": [
+    {
+      "code": "20409",
+      "name": "平谷村",
+      "officialBaseUrl": "https://www.hirayamura.jp/"
+    },
+    {
+      "code": "20410",
+      "name": "根羽村",
+      "officialBaseUrl": "https://www.nebamura.jp/"
+    },
+    {
+      "code": "20411",
+      "name": "下條村",
+      "officialBaseUrl": "https://www.vill-shimojo.jp/"
+    },
+    {
+      "code": "20412",
+      "name": "売木村",
+      "officialBaseUrl": "https://www.urugi.jp/"
+    },
+    {
+      "code": "20413",
+      "name": "天龍村",
+      "officialBaseUrl": "https://www.vill-tenryu.jp/"
+    }
+  ]
+}
