@@ -1,0 +1,159 @@
+{
+  "batchId": "toyama-official-coverage-003",
+  "prefecture": "富山県",
+  "generatedAt": "2026-07-15T00:17:53+09:00",
+  "municipalities": [
+    {
+      "code": "16321",
+      "name": "舟橋村",
+      "officialUrl": "https://www.vill.funahashi.toyama.jp/",
+      "adoptedCount": 9
+    },
+    {
+      "code": "16322",
+      "name": "上市町",
+      "officialUrl": "https://www.town.kamiichi.toyama.jp/",
+      "adoptedCount": 13
+    },
+    {
+      "code": "16323",
+      "name": "立山町",
+      "officialUrl": "https://www.town.tateyama.toyama.jp/",
+      "adoptedCount": 19
+    },
+    {
+      "code": "16342",
+      "name": "入善町",
+      "officialUrl": "https://www.town.nyuzen.toyama.jp/",
+      "adoptedCount": 10
+    },
+    {
+      "code": "16343",
+      "name": "朝日町",
+      "officialUrl": "https://www.town.asahi.toyama.jp/",
+      "adoptedCount": 11
+    }
+  ],
+  "candidateCount": 251,
+  "urlSeedCount": 130,
+  "urlLeadCount": 300,
+  "detailCount": 300,
+  "snippetCount": 241,
+  "adoptedCount": 62,
+  "heldCandidateCount": 189,
+  "byMunicipality": {
+    "16321": {
+      "name": "舟橋村",
+      "adopted": [
+        "出産育児一時金",
+        "児童手当",
+        "こどもの医療費助成",
+        "妊産婦の医療費助成",
+        "不妊治療費助成",
+        "不育治療費助成",
+        "児童扶養手当",
+        "ひとり親家庭の医療費助成",
+        "舟橋村心身障害者年金"
+      ],
+      "adoptedCount": 9
+    },
+    "16322": {
+      "name": "上市町",
+      "adopted": [
+        "妊産婦福祉医療費助成",
+        "児童扶養手当",
+        "ひとり親家庭等福祉医療費助成",
+        "中高年齢離職者等技能再訓練奨励金",
+        "上市町結婚新生活支援補助金",
+        "子ども医療費助成",
+        "重度心身障害者等医療費助成制度",
+        "上市町ハンドル形電動車いす購入費補助金",
+        "上市町地方就職学生支援金",
+        "上市町移住支援金",
+        "木質ペレットストーブ設置補助金",
+        "上市町三世代世帯推進給付金事業",
+        "国民健康保険の出産育児一時金"
+      ],
+      "adoptedCount": 13
+    },
+    "16323": {
+      "name": "立山町",
+      "adopted": [
+        "立山町定住促進事業（たてポ＋補助金）",
+        "子ども医療費の助成",
+        "立山町新生児等聴覚検査費用助成金",
+        "不妊治療費助成金",
+        "不育症治療費助成金",
+        "出産育児一時金",
+        "児童手当",
+        "障がいをもっている方等の医療費助成",
+        "中高年齢離職者等技能再訓練奨励金",
+        "立山町地域防災力向上支援事業費補助金",
+        "サテライトオフィス開設補助金",
+        "立山町新婚世帯新生活支援事業補助金",
+        "立山町営住宅等子育て世帯移住定住支援事業（たてポ）",
+        "立山町空き家情報バンク登録物件家財処分支援事業補助金",
+        "立山町高齢者住宅改善費補助金",
+        "立山町教育ローン等返済応援補助金",
+        "合併浄化槽設置補助金",
+        "がん患者補正具購入費用助成金",
+        "骨髄等移植ドナー助成金"
+      ],
+      "adoptedCount": 19
+    },
+    "16342": {
+      "name": "入善町",
+      "adopted": [
+        "乳幼児在宅育児支援金支給事業",
+        "児童手当",
+        "児童扶養手当",
+        "ひとり親家庭などの医療費助成",
+        "子どもの医療費助成",
+        "町内出産奨励金",
+        "不育症治療費の助成",
+        "妊産婦タクシー券",
+        "物価高対応子育て応援手当",
+        "移住者運転免許取得支援補助金・安全運転支援補助金"
+      ],
+      "adoptedCount": 10
+    },
+    "16343": {
+      "name": "朝日町",
+      "adopted": [
+        "子ども医療費助成",
+        "出産育児一時金の支給",
+        "児童手当",
+        "児童扶養手当",
+        "特別児童扶養手当",
+        "ひとり親家族などの医療費助成",
+        "妊産婦医療費の助成",
+        "不育症治療費助成事業",
+        "不妊治療費助成事業",
+        "結婚新生活支援補助金",
+        "朝日町空き家利活用促進対策事業補助金"
+      ],
+      "adoptedCount": 11
+    }
+  },
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "json": "pass: JSON.parse for toyama-official-coverage-003 related JSON and official-coverage-checkpoint.json",
+    "addedSlugUniqueness": "pass: 62 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 62 primary official URLs returned HTTP 200",
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 12181, officialLinkedActive 12061, manuallyVerifiedActive 12061, 富山県 localOfficial 249)"
+  },
+  "notes": [
+    "通常クロール候補がカテゴリ寄りだった自治体は、公式カテゴリページから制度強語リンクを再抽出し個別ページを補完した。",
+    "トップ、カテゴリ、一覧、広報、申請書単体、制度要件不足候補は第2巡候補へ落とした。",
+    "舟橋村は個別制度が同一公式ページ内セクションに集約されているため、該当セクションの金額・対象・申請表現を確認して採用した。"
+  ],
+  "next": {
+    "batchId": "toyama-official-coverage-004",
+    "municipalities": [
+      "16361 砺波地方介護保険組合等の公的団体候補確認",
+      "富山県内残公的機関確認又は次都道府県へ移行（自治体台帳で要復旧）"
+    ]
+  }
+}

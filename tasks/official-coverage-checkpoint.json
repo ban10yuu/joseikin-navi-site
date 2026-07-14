@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-14T23:51:23+09:00",
+  "updatedAt": "2026-07-15T00:17:53+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "toyama-official-coverage-002",
-    "municipality": "黒部市・砺波市・小矢部市・南砺市・射水市",
-    "adopted": 67,
-    "held": 561,
+    "code": "toyama-official-coverage-003",
+    "municipality": "舟橋村・上市町・立山町・入善町・朝日町",
+    "adopted": 62,
+    "held": 189,
     "excluded": 0,
-    "sourceUrlsChecked": 673,
+    "sourceUrlsChecked": 300,
     "validation": {
-      "previousMunicipality": "富山県公式棚卸し002として、16207黒部市・16208砺波市・16209小矢部市・16210南砺市・16211射水市を確認した。自治体別クロールで候補628件、公式URLリード673件、短い本文スニペット673件、詳細673件を保存し、公式ドメイン限定検索で薄い自治体を補完したうえで個別公式ページ67件を新規採用した。全国公式棚卸しは未完了。",
+      "previousMunicipality": "富山県公式棚卸し003として、16321舟橋村・16322上市町・16323立山町・16342入善町・16343朝日町を確認した。自治体別クロールで候補251件、公式URLリード300件、短い本文スニペット241件、詳細300件を保存し、個別公式ページ/セクション62件を新規採用した。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for toyama-official-coverage-002.json / snippets / url-leads / details / adopted-urls / municipalities / split municipality inputs / candidates / official-coverage-checkpoint.json",
-      "addedSlugUniqueness": "pass: 67 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 67 primary official URLs returned HTTP 200",
+      "json": "pass: JSON.parse for toyama-official-coverage-003 related JSON and official-coverage-checkpoint.json",
+      "addedSlugUniqueness": "pass: 62 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 62 primary official URLs returned HTTP 200",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 12119, officialLinkedActive 11999, manuallyVerifiedActive 11999, 富山県 localOfficial 187)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 12181, officialLinkedActive 12061, manuallyVerifiedActive 12061, 富山県 localOfficial 249)"
     }
   },
   "next": {
-    "code": "toyama-official-coverage-003",
-    "municipality": "舟橋村",
-    "shortlist": "富山県公式棚卸し002は黒部市19件、砺波市10件、小矢部市10件、南砺市11件、射水市17件の計67件を採用した。トップ、カテゴリ、FAQ、一覧、周知のみ、受付終了、ページ番号のみの金額抽出候補は第2巡候補として保持する。",
-    "instructions": "次回は富山県公式棚卸し003として、固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から自治体コード順に16321舟橋村から開始する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "toyama-official-coverage-004",
+    "municipality": "富山県内残公的機関確認又は次都道府県開始",
+    "shortlist": "富山県公式棚卸し003は舟橋村9件、上市町13件、立山町19件、入善町10件、朝日町11件の計62件を採用した。トップ、カテゴリ、一覧、広報、申請書単体、制度要件不足候補は第2巡候補として保持する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、富山県内の残公的機関候補確認または次都道府県の自治体コード順開始地点を復旧する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "富山県",
-    "status": "in-progress",
-    "lastBatch": "toyama-official-coverage-002",
-    "notes": "富山県は16211射水市まで自治体コード順に第1巡到達。次は16321舟橋村、16322上市町、16323立山町、16342入善町、16343朝日町。全国公式棚卸しは未完了。"
+    "status": "municipalities-first-pass-complete",
+    "lastBatch": "toyama-official-coverage-003",
+    "notes": "富山県は全市町村（16201富山市から16343朝日町）まで自治体コード順に第1巡到達。次は富山県内公的機関候補の確認又は次都道府県へ移行。全国公式棚卸しは未完了。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

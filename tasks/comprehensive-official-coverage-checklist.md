@@ -8912,3 +8912,49 @@
   - トップ、カテゴリ、FAQ、一覧、周知のみ、ページ番号のみの金額抽出候補、対象・金額・受付表現不足候補は第2巡候補に残す。
 - 次:
   - 富山県公式棚卸し003として、16321舟橋村、16322上市町、16323立山町、16342入善町、16343朝日町を自治体コード順に確認する。
+
+### 2026-07-15 富山県公式棚卸し003（16321舟橋村・16322上市町・16323立山町・16342入善町・16343朝日町）
+
+- 作業範囲:
+  - 16321 舟橋村、16322 上市町、16323 立山町、16342 入善町、16343 朝日町の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページ/PDF又は公式ページ内セクションを確認した。
+  - 自治体別クロールで候補251件を取得した。通常クロール候補がカテゴリ寄りだったため、公式カテゴリページから制度強語リンクを再抽出し、URLシード130件、公式URLリード300件、詳細300件、短い本文スニペット241件を保存した。
+  - 舟橋村は個別制度が同一公式ページ内セクションに集約されているため、該当セクションの金額・対象・申請表現を確認した。
+- 採用:
+  - 合計62件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 舟橋村9件: 出産育児一時金、児童手当、こどもの医療費助成、妊産婦の医療費助成、不妊治療費助成、不育治療費助成、児童扶養手当、ひとり親家庭の医療費助成、舟橋村心身障害者年金。
+  - 上市町13件: 妊産婦福祉医療費助成、児童扶養手当、ひとり親家庭等福祉医療費助成、中高年齢離職者等技能再訓練奨励金、上市町結婚新生活支援補助金、子ども医療費助成、重度心身障害者等医療費助成制度、上市町ハンドル形電動車いす購入費補助金、上市町地方就職学生支援金、上市町移住支援金、木質ペレットストーブ設置補助金、上市町三世代世帯推進給付金事業、国民健康保険の出産育児一時金。
+  - 立山町19件: 立山町定住促進事業（たてポ＋補助金）、子ども医療費の助成、立山町新生児等聴覚検査費用助成金、不妊治療費助成金、不育症治療費助成金、出産育児一時金、児童手当、障がいをもっている方等の医療費助成、中高年齢離職者等技能再訓練奨励金、立山町地域防災力向上支援事業費補助金、サテライトオフィス開設補助金、立山町新婚世帯新生活支援事業補助金、立山町営住宅等子育て世帯移住定住支援事業（たてポ）、立山町空き家情報バンク登録物件家財処分支援事業補助金、立山町高齢者住宅改善費補助金、立山町教育ローン等返済応援補助金、合併浄化槽設置補助金、がん患者補正具購入費用助成金、骨髄等移植ドナー助成金。
+  - 入善町10件: 乳幼児在宅育児支援金支給事業、児童手当、児童扶養手当、ひとり親家庭などの医療費助成、子どもの医療費助成、町内出産奨励金、不育症治療費の助成、妊産婦タクシー券、物価高対応子育て応援手当、移住者運転免許取得支援補助金・安全運転支援補助金。
+  - 朝日町11件: 子ども医療費助成、出産育児一時金の支給、児童手当、児童扶養手当、特別児童扶養手当、ひとり親家族などの医療費助成、妊産婦医療費の助成、不育症治療費助成事業、不妊治療費助成事業、結婚新生活支援補助金、朝日町空き家利活用促進対策事業補助金。
+- 生成ファイル:
+  - `tasks/discovery/toyama-official-coverage-003-municipalities.json`
+  - `tasks/discovery/toyama-official-coverage-003-16321-municipality.json`
+  - `tasks/discovery/toyama-official-coverage-003-16322-municipality.json`
+  - `tasks/discovery/toyama-official-coverage-003-16323-municipality.json`
+  - `tasks/discovery/toyama-official-coverage-003-16342-municipality.json`
+  - `tasks/discovery/toyama-official-coverage-003-16343-municipality.json`
+  - `tasks/discovery/toyama-official-coverage-003-16321-candidates.json`
+  - `tasks/discovery/toyama-official-coverage-003-16322-candidates.json`
+  - `tasks/discovery/toyama-official-coverage-003-16323-candidates.json`
+  - `tasks/discovery/toyama-official-coverage-003-16342-candidates.json`
+  - `tasks/discovery/toyama-official-coverage-003-16343-candidates.json`
+  - `tasks/discovery/toyama-official-coverage-003-candidates.json`
+  - `tasks/discovery/toyama-official-coverage-003-url-seeds.json`
+  - `tasks/discovery/toyama-official-coverage-003-url-leads.json`
+  - `tasks/discovery/toyama-official-coverage-003-details.json`
+  - `tasks/discovery/toyama-official-coverage-003-snippets.json`
+  - `tasks/discovery/toyama-official-coverage-003-adopted-urls.json`
+  - `tasks/discovery/toyama-official-coverage-003.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（003関連JSON、checkpoint）。
+  - 追加slug重複: pass（62件、`verified-local-misc-2026.ts` 全体 duplicateCount 0）。
+  - 公式URL到達: pass（62 primary official URLsすべてHTTP 200。入善町 乳幼児在宅育児支援金は子育てサイト側404を行政サイト側公式URLへ差し替え済み）。
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 12181、officialLinkedActive 12061、manuallyVerifiedActive 12061、富山県 localOfficial 249）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は富山県全市町村第1巡到達のみで全国完了扱いしない。
+  - トップ、カテゴリ、一覧、広報、申請書単体、制度要件不足候補は第2巡候補に残す。
+- 次:
+  - 富山県内の残公的機関候補確認、又は次都道府県の自治体コード順開始地点を、HEAD・進捗JSON・自治体台帳から復旧して再開する。

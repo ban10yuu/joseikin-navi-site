@@ -1,0 +1,31 @@
+{
+  "batchId": "toyama-official-coverage-003",
+  "prefecture": "富山県",
+  "municipalities": [
+    {
+      "code": "16321",
+      "name": "舟橋村",
+      "officialBaseUrl": "https://www.vill.funahashi.toyama.jp/"
+    },
+    {
+      "code": "16322",
+      "name": "上市町",
+      "officialBaseUrl": "https://www.town.kamiichi.toyama.jp/"
+    },
+    {
+      "code": "16323",
+      "name": "立山町",
+      "officialBaseUrl": "https://www.town.tateyama.toyama.jp/"
+    },
+    {
+      "code": "16342",
+      "name": "入善町",
+      "officialBaseUrl": "https://www.town.nyuzen.toyama.jp/"
+    },
+    {
+      "code": "16343",
+      "name": "朝日町",
+      "officialBaseUrl": "https://www.town.asahi.toyama.jp/"
+    }
+  ]
+}
