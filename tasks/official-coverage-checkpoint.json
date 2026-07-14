@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T07:05:00+09:00",
+  "updatedAt": "2026-07-15T07:35:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "nagano-official-coverage-010",
-    "municipality": "泰阜村・喬木村・豊丘村・大鹿村・上松町",
-    "adopted": 80,
-    "held": 601,
+    "code": "nagano-official-coverage-011",
+    "municipality": "南木曽町・木祖村・王滝村・大桑村・木曽町",
+    "adopted": 60,
+    "held": 704,
     "excluded": 0,
-    "sourceUrlsChecked": 17,
+    "sourceUrlsChecked": 25,
     "validation": {
-      "previousMunicipality": "長野県公式棚卸し010として、20414泰阜村・20415喬木村・20416豊丘村・20417大鹿村・20422上松町を確認した。候補681件、本文スニペット681件を保存し、合計80件を新規採用した。カテゴリ導線、トップ、広報、観光、計画、公表資料、申請書単体、本文根拠が薄い候補は第2巡候補として保持。長野県第1巡は20422上松町まで到達。全国公式棚卸しは未完了。",
+      "previousMunicipality": "長野県公式棚卸し011として、20423南木曽町・20425木祖村・20429王滝村・20430大桑村・20432木曽町を確認した。候補764件、本文スニペット764件、再スコア760件を保存し、合計60件を新規採用した。カテゴリ導線、トップ、広報、観光、ナビ一致、申請書単体、本文根拠が薄い候補は第2巡候補として保持。長野県第1巡は20432木曽町まで到達。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for nagano-official-coverage-010 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 80 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 17 unique adopted official URLs returned HTTP 200 by interval curl",
+      "json": "pass: JSON.parse for nagano-official-coverage-011 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 60 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 25 unique adopted official URLs returned HTTP 200 by interval curl",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 13805, officialLinkedActive 13685, manuallyVerifiedActive 13685, 長野県 localOfficial 719)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 13865, officialLinkedActive 13745, manuallyVerifiedActive 13745, 長野県 localOfficial 779)"
     }
   },
   "next": {
-    "code": "nagano-official-coverage-011",
-    "municipality": "南木曽町",
-    "shortlist": "長野県公式棚卸し010は泰阜村62件、喬木村5件、豊丘村4件、大鹿村6件、上松町3件を採用した。残候補は第2巡候補として保持する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、20423南木曽町を開始地点として長野県公式棚卸し011を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "nagano-official-coverage-012",
+    "municipality": "麻績村",
+    "shortlist": "長野県公式棚卸し011は南木曽町6件、木祖村5件、王滝村3件、大桑村13件、木曽町33件を採用した。残候補は第2巡候補として保持する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、20446麻績村を開始地点として長野県公式棚卸し012を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "長野県",
     "status": "in-progress",
-    "lastBatch": "nagano-official-coverage-010",
-    "notes": "山梨県は19201甲府市から19443丹波山村まで第1巡完了。長野県は20201長野市から20422上松町まで第1巡到達。全国公式棚卸しは未完了。次は20423南木曽町から継続する。"
+    "lastBatch": "nagano-official-coverage-011",
+    "notes": "山梨県は19201甲府市から19443丹波山村まで第1巡完了。長野県は20201長野市から20432木曽町まで第1巡到達。全国公式棚卸しは未完了。次は20446麻績村から継続する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

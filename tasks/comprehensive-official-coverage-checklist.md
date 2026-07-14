@@ -9907,3 +9907,12 @@
 - 保留: カテゴリ導線、トップ、広報、観光、計画、公表資料、申請書単体、本文根拠が薄い候補は第2巡候補として保持
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass
 - 次回: 20423南木曽町から再開
+
+### 長野県公式棚卸し011（20423南木曽町・20425木祖村・20429王滝村・20430大桑村・20432木曽町）
+- 実施日: 2026-07-15
+- 候補: 764件（スニペット764件、再スコア760件）
+- 採用: 60件（南木曽町6件、木祖村5件、王滝村3件、大桑村13件、木曽町33件）
+- 公式URL: 採用URL到達確認は tasks/discovery/nagano-official-coverage-011-url-status.txt に記録（25本すべてHTTP 200）
+- 保留: カテゴリ導線、トップ、広報、観光、ナビ一致、申請書単体、本文根拠が薄い候補は第2巡候補として保持
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass
+- 次回: 20446麻績村から再開

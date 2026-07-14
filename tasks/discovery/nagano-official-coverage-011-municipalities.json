@@ -1,0 +1,31 @@
+{
+  "batchId": "nagano-official-coverage-011",
+  "prefecture": "長野県",
+  "municipalities": [
+    {
+      "code": "20423",
+      "name": "南木曽町",
+      "officialBaseUrl": "https://www.town.nagiso.nagano.jp/"
+    },
+    {
+      "code": "20425",
+      "name": "木祖村",
+      "officialBaseUrl": "https://www.vill.kiso.nagano.jp/"
+    },
+    {
+      "code": "20429",
+      "name": "王滝村",
+      "officialBaseUrl": "https://www.vill.otaki.nagano.jp/"
+    },
+    {
+      "code": "20430",
+      "name": "大桑村",
+      "officialBaseUrl": "https://www.vill.okuwa.lg.jp/"
+    },
+    {
+      "code": "20432",
+      "name": "木曽町",
+      "officialBaseUrl": "https://www.town-kiso.com/"
+    }
+  ]
+}

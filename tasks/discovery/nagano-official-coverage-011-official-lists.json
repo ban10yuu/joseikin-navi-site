@@ -1,0 +1,38 @@
+{
+  "batchId": "nagano-official-coverage-011",
+  "prefecture": "長野県",
+  "generatedAt": "2026-07-15T07:20:00+09:00",
+  "lists": [
+    {
+      "municipality": "南木曽町",
+      "url": "https://www.town.nagiso.nagano.jp/category/2-9-0-0-0-0-0-0-0-0.html",
+      "note": "補助金・助成金カテゴリを確認。個別制度ページを優先採用。"
+    },
+    {
+      "municipality": "南木曽町",
+      "url": "https://www.town.nagiso.nagano.jp/category/2-14-0-0-0-0-0-0-0-0.html",
+      "note": "給付金・支援金カテゴリを確認。個別制度ページを優先採用。"
+    },
+    {
+      "municipality": "木祖村",
+      "url": "https://www.vill.kiso.nagano.jp/kurashi_joho/hojokin/hojyoseido_akiya.html",
+      "note": "空き家対策補助事業ページで3制度の対象・補助率・上限を確認。"
+    },
+    {
+      "municipality": "王滝村",
+      "url": "https://www.vill.otaki.nagano.jp/kurashi/sumai/ijyu/",
+      "note": "移住定住配下の空き家・家探し支援ページを確認。"
+    },
+    {
+      "municipality": "大桑村",
+      "url": "https://www.vill.okuwa.lg.jp/kurashi/joseikin/",
+      "note": "助成金カテゴリおよび個別制度ページを確認。"
+    },
+    {
+      "municipality": "木曽町",
+      "url": "https://www.town-kiso.com/chousei/kouhou/100280/101439/",
+      "note": "令和8年度補助金・助成金・祝金・奨励金の公式一覧と子育て支援制度ガイドブックPDFを確認。"
+    }
+  ],
+  "heldCandidatePolicy": "トップ、カテゴリ、ナビ一致、広報、観光、申請書単体、本文で対象・金額・受付が薄い候補は第2巡候補として保持。"
+}
