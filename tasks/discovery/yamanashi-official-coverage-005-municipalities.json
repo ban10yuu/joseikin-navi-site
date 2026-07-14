@@ -1,0 +1,32 @@
+{
+  "batchId": "yamanashi-official-coverage-005",
+  "prefecture": "山梨県",
+  "generatedAt": "2026-07-15T05:42:00+09:00",
+  "municipalities": [
+    {
+      "code": "19423",
+      "name": "西桂町",
+      "officialBaseUrl": "https://www.town.nishikatsura.yamanashi.jp/"
+    },
+    {
+      "code": "19424",
+      "name": "忍野村",
+      "officialBaseUrl": "https://www.vill.oshino.lg.jp/"
+    },
+    {
+      "code": "19425",
+      "name": "山中湖村",
+      "officialBaseUrl": "https://www.vill.yamanakako.lg.jp/"
+    },
+    {
+      "code": "19429",
+      "name": "鳴沢村",
+      "officialBaseUrl": "https://www.vill.narusawa.yamanashi.jp/"
+    },
+    {
+      "code": "19430",
+      "name": "富士河口湖町",
+      "officialBaseUrl": "https://www.town.fujikawaguchiko.lg.jp/"
+    }
+  ]
+}

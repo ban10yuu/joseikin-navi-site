@@ -9479,3 +9479,45 @@
   - トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補に残す。
 - 次:
   - 山梨県公式棚卸し005として、19423西桂町から自治体コード順に確認する。
+
+
+### 2026-07-15 山梨県公式棚卸し005（19423西桂町・19424忍野村・19425山中湖村・19429鳴沢村・19430富士河口湖町）
+
+- 作業範囲:
+  - 19423 西桂町、19424 忍野村、19425 山中湖村、19429 鳴沢村、19430 富士河口湖町の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 自治体別クロールで候補458件を取得した。shortlistが150件超かつcrawl候補の40%超だったため、候補本文スニペット453件を抽出し、アンカーテキスト起点の制度リード731件から650ページを再取得し、再スコア対象1103件を保存した。
+  - 採用対象の64公式ページは全件HTTP 200を確認した。
+- 採用:
+  - 合計64件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 西桂町16件: （法人用）社会福祉法人等による利用者負担額軽減制度補助金申請について、関連する支援制度（空き家バンク関連の補助金について）、児童手当について、児童扶養手当、小規模事業者持続化補助金について、浄化槽設置補助金について、新型コロナウイルス感染症に伴う傷病手当金の支給について、西桂町ふるさと納税返礼品開発事業費補助金について、西桂町ブロック塀等撤去促進事業費補助金交付事業について、西桂町移住支援金のお知らせ、西桂町移住促進住宅リフォーム工事補助金、西桂町空き家家財道具処分等補助金、西桂町合併処理浄化槽設置補助金交付事業のお知らせ、西桂町民生活応援特別給付金、鉄道利用通学者支援補助金制度（定期券・特急券）について、西桂町すこやか子育て応援医療費助成制度について。
+  - 忍野村16件: ホームステイ助成金について、景観整備推進補助金交付制度のご案内、合併処理浄化槽設置事業補助金、死亡一時金(国民年金第1号被保険者)、児童手当、児童扶養手当、住宅用太陽光発電システム設置費補助金、出産時の手当・助成、障害児福祉手当制度、特別児童扶養手当制度、特別障害者手当制度、妊婦のための支援給付金を支給します、忍野村フリースクール利用料助成事業補助金について、忍野村定住化促進新築等補助金について、不妊治療費助成金支援事業について、令和8年度居住環境整備促進補助金交付事業（リフォーム補助金）。
+  - 山中湖村16件: 「山中湖村スポーツ・文化・芸術の全国大会及び関東大会等出場経費補助金交付要綱」について、山中湖村への移住・就業等で移住支援金を支給します、山中湖村生ごみ処理機設置費補助金について、山中湖村物価高騰対策給付金について、児童手当、児童扶養手当、障害児福祉手当、定住化促進のため新築等に補助金が交付されます、特別児童扶養手当、令和7年度「山中湖村高等学校等への就学に対する助成金」のご案内、令和７年度物価高対応子育て応援手当について、令和８年度の住宅用太陽光発電システム設置費用補助金の申請受付を開始します、すこやか赤ちゃん出産育児奨励金について、重度心身障害者医療費助成制度について、不妊に悩む方への不妊治療費助成事業（新制度）を実施します、木造住宅耐震診断支援・耐震化支援補助事業について。
+  - 富士河口湖町16件: （法人用）社会福祉法人等による利用者負担額軽減制度補助金申請について、【移住・定住】移住・促進定住奨学金返還支援補助金の受付開始について、【移住・定住】移住支援金について、【下水道】排水設備設置費補助金、【受付終了しました】富士河口湖町住宅リフォーム工事補助金について、ツキノワグマ対策忌避剤等購入費補助金、やまなしKAITEKI住宅普及促進事業費補助金について、骨髄移植ドナー助成金交付事業について、児童手当、児童扶養手当、障害児福祉手当、浄化槽設置事業補助金について、町福祉手当、特別児童扶養手当、特別障害者手当、妊婦支援給付金について【旧出産・子育て応援ギフト】。
+  - 鳴沢村は、今回の候補がカテゴリ・一覧ページ中心で個別制度ページの必須項目確認に至らなかったため、第2巡候補として保持し、採用は見送った。
+- 生成ファイル:
+  - `tasks/discovery/yamanashi-official-coverage-005-19423-municipality.json`
+  - `tasks/discovery/yamanashi-official-coverage-005-19424-municipality.json`
+  - `tasks/discovery/yamanashi-official-coverage-005-19425-municipality.json`
+  - `tasks/discovery/yamanashi-official-coverage-005-19429-municipality.json`
+  - `tasks/discovery/yamanashi-official-coverage-005-19430-municipality.json`
+  - `tasks/discovery/yamanashi-official-coverage-005-adopted-urls.json`
+  - `tasks/discovery/yamanashi-official-coverage-005-adoption-ranked.json`
+  - `tasks/discovery/yamanashi-official-coverage-005-candidates.json`
+  - `tasks/discovery/yamanashi-official-coverage-005-municipalities.json`
+  - `tasks/discovery/yamanashi-official-coverage-005-rescored-snippets.json`
+  - `tasks/discovery/yamanashi-official-coverage-005-snippets.json`
+  - `tasks/discovery/yamanashi-official-coverage-005-url-leads.json`
+  - `tasks/discovery/yamanashi-official-coverage-005.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（005関連JSON、checkpoint）。
+  - 追加slug重複: pass（64件、`verified-local-misc-2026.ts` 全体 duplicateCount 0）。
+  - 公式URL到達: pass（64 primary official URLsすべてHTTP 200）。
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 13135、officialLinkedActive 13015、manuallyVerifiedActive 13015、山梨県 localOfficial 459）。
+- 注意:
+  - 山梨県は19201甲府市から19430富士河口湖町まで第1巡に到達したが、全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は山梨県19430富士河口湖町到達のみで全国完了扱いしない。
+  - トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補に残す。
+- 次:
+  - 山梨県公式棚卸し006として、19442小菅村から自治体コード順に確認する。
