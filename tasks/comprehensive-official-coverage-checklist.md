@@ -8474,3 +8474,31 @@
   - トップ、カテゴリ、サイトマップ、募集一覧、共通ナビ一致、部署ページ、様式のみ、金額又は受付状況不足候補は第2巡候補又は次回継続候補に残す。
 - 次:
   - 神奈川県公式棚卸し009として、14402清川村を自治体コード順に確認する。清川村で神奈川県第1巡が完了する見込みだが、全国公式棚卸しは未完了扱いを維持する。
+
+### 2026-07-14 神奈川県公式棚卸し009（14402清川村）
+
+- 作業範囲:
+  - 14402 清川村の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページと村の支援事業ガイドを確認した。
+  - 生成候補19件に加え、`tasks/discovery/kanagawa-official-coverage-009-manual-snippets.json` に支援事業ガイド内の制度表から短い根拠を保存し、制度名・対象・金額/上限・条件・期限/受付状況が読める制度を優先した。
+- 採用:
+  - 合計33件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 清川村33件: きよかわっ子誕生お祝い金支給事業、不育症治療費助成事業、妊婦健康診査費用助成事業、小児医療費助成事業、小児インフルエンザ予防接種費用助成事業、おむつ等購入費助成事業、ひとり親家庭等医療費助成事業、高等学校等・大学等通学費補助事業、高等学校等通学用自転車購入費補助事業、特別支援学校等就学援助金、小・中学校入学祝金支給事業、高等学校等入学者学習用端末購入費補助事業、高齢者外来医療費助成、高齢者バス割引乗車券購入費助成事業、住宅改良助成、自動車改造費の助成、心身障害者施設通所交通費助成、障害者安心・おでかけタクシー利用助成、人間ドック費用助成、空き家賃貸用住宅リフォーム補助金、木造住宅耐震促進事業補助制度、住宅リフォーム助成制度、個人住宅用地防災対策工事費助成金、地球温暖化防止対策事業補助金、商工資金中期貸付利子補給制度、信用保証料助成制度、農産物生産促進補助制度、農業用ビニールハウス資材購入費補助金制度、野生動物被害防止柵等設置事業補助金制度、ネコの不妊・去勢手術費助成事業、特殊詐欺被害防止対策事業補助金、蜂の巣駆除費助成金、通勤定期券購入費支援補助金。
+- 生成ファイル:
+  - `tasks/discovery/kanagawa-official-coverage-009-municipalities.json`
+  - `tasks/discovery/kanagawa-official-coverage-009-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-009-manual-snippets.json`
+  - `tasks/discovery/kanagawa-official-coverage-009.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（`kanagawa-official-coverage-009.json`、候補JSON、手動スニペットJSON、municipalities、checkpoint）。
+  - 追加slug重複: pass（33件、`verified-local-misc-2026.ts` 内で各1件）。
+  - 公式URL到達: pass（33 primary official URLsすべてHTTP 200）。
+  - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 11482、officialLinkedActive 11444、manuallyVerifiedActive 11444、神奈川県 localOfficial 336）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または神奈川県第1巡到達のみで全国完了扱いしない。
+  - 清川村をもって神奈川県第1巡は自治体コード順に到達済み。ただし第2巡保留候補は保持する。
+  - 結婚新生活支援事業、住宅取得奨励金制度、勤労者生活資金融資制度、中小企業事業資金融資制度、高齢者運転免許証自主返納者支援事業は、金額・受付状況又は個別要件の確認が薄いため第2巡候補に残す。
+- 次:
+  - 新潟県公式棚卸し001として、15100新潟市（必要に応じて政令市区を公式ページ単位で確認）から自治体コード順に再開する。

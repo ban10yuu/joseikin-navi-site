@@ -1,0 +1,75 @@
+{
+  "batch": "kanagawa-official-coverage-009",
+  "checkedAt": "2026-07-14T21:45:00+09:00",
+  "prefecture": "神奈川県",
+  "municipalities": [
+    {
+      "code": "14402",
+      "name": "清川村",
+      "officialSite": "https://www.town.kiyokawa.kanagawa.jp/",
+      "candidates": 19,
+      "adopted": 33
+    }
+  ],
+  "candidateFiles": [
+    "tasks/discovery/kanagawa-official-coverage-009-municipalities.json",
+    "tasks/discovery/kanagawa-official-coverage-009-candidates.json",
+    "tasks/discovery/kanagawa-official-coverage-009-manual-snippets.json"
+  ],
+  "totals": {
+    "candidates": 19,
+    "adopted": 33,
+    "heldForSecondPass": 5,
+    "excluded": 0
+  },
+  "adoptedByMunicipality": {
+    "清川村": [
+      "きよかわっ子誕生お祝い金支給事業",
+      "不育症治療費助成事業",
+      "妊婦健康診査費用助成事業",
+      "小児医療費助成事業",
+      "小児インフルエンザ予防接種費用助成事業",
+      "おむつ等購入費助成事業",
+      "ひとり親家庭等医療費助成事業",
+      "高等学校等・大学等通学費補助事業",
+      "高等学校等通学用自転車購入費補助事業",
+      "特別支援学校等就学援助金",
+      "小・中学校入学祝金支給事業",
+      "高等学校等入学者学習用端末購入費補助事業",
+      "高齢者外来医療費助成",
+      "高齢者バス割引乗車券購入費助成事業",
+      "住宅改良助成",
+      "自動車改造費の助成",
+      "心身障害者施設通所交通費助成",
+      "障害者安心・おでかけタクシー利用助成",
+      "人間ドック費用助成",
+      "空き家賃貸用住宅リフォーム補助金",
+      "木造住宅耐震促進事業補助制度",
+      "住宅リフォーム助成制度",
+      "個人住宅用地防災対策工事費助成金",
+      "地球温暖化防止対策事業補助金",
+      "商工資金中期貸付利子補給制度",
+      "信用保証料助成制度",
+      "農産物生産促進補助制度",
+      "農業用ビニールハウス資材購入費補助金制度",
+      "野生動物被害防止柵等設置事業補助金制度",
+      "ネコの不妊・去勢手術費助成事業",
+      "特殊詐欺被害防止対策事業補助金",
+      "蜂の巣駆除費助成金",
+      "通勤定期券購入費支援補助金"
+    ]
+  },
+  "secondPassNotes": [
+    "清川村は機械抽出候補19件に加え、村の支援事業ガイド内の制度表から個別公式ページ又は同一ページ内アンカーの制度本文を確認し、金額・対象・申請表現が読める33件を採用した。",
+    "結婚新生活支援事業、住宅取得奨励金制度、勤労者生活資金融資制度、中小企業事業資金融資制度、高齢者運転免許証自主返納者支援事業など、金額・受付状況又は個別要件の確認が薄い制度は第2巡候補に残す。",
+    "清川村をもって神奈川県第1巡は自治体コード順に到達済み。ただし第2巡保留候補と全国公式棚卸しは未完了。"
+  ],
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and JSON.parse for kanagawa-official-coverage-009.json / candidates / manual-snippets / municipalities / official-coverage-checkpoint.json",
+    "addedSlugUniqueness": "pass: 33 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 33 primary official URLs returned HTTP 200",
+    "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11482, officialLinkedActive 11444, manuallyVerifiedActive 11444, 神奈川県 localOfficial 336)"
+  }
+}
