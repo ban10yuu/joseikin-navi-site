@@ -1,0 +1,37 @@
+{
+  "batchId": "nagano-official-coverage-004",
+  "prefecture": "長野県",
+  "generatedAt": "2026-07-15T05:10:00+09:00",
+  "municipalities": [
+    {
+      "code": "20220",
+      "name": "安曇野市",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.city.azumino.nagano.jp/"
+    },
+    {
+      "code": "20303",
+      "name": "小海町",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.koumi-town.jp/"
+    },
+    {
+      "code": "20304",
+      "name": "川上村",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.vill.kawakami.nagano.jp/"
+    },
+    {
+      "code": "20305",
+      "name": "南牧村",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.minamimakimura.jp/"
+    },
+    {
+      "code": "20306",
+      "name": "南相木村",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.minamiaiki.jp/"
+    }
+  ]
+}

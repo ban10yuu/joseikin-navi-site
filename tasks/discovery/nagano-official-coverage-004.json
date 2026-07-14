@@ -1,0 +1,86 @@
+{
+  "batchId": "nagano-official-coverage-004",
+  "prefecture": "長野県",
+  "generatedAt": "2026-07-15T05:45:00+09:00",
+  "scope": [
+    {
+      "code": "20220",
+      "name": "安曇野市",
+      "officialBaseUrl": "https://www.city.azumino.nagano.jp/"
+    },
+    {
+      "code": "20303",
+      "name": "小海町",
+      "officialBaseUrl": "https://www.koumi-town.jp/"
+    },
+    {
+      "code": "20304",
+      "name": "川上村",
+      "officialBaseUrl": "https://www.vill.kawakami.nagano.jp/"
+    },
+    {
+      "code": "20305",
+      "name": "南牧村",
+      "officialBaseUrl": "https://www.minamimakimura.jp/"
+    },
+    {
+      "code": "20306",
+      "name": "南相木村",
+      "officialBaseUrl": "https://www.minamiaiki.jp/"
+    }
+  ],
+  "discovery": {
+    "candidateCount": 549,
+    "candidatePages": 548,
+    "uniqueFetched": 529,
+    "rescored": 529
+  },
+  "adopted": {
+    "total": 60,
+    "uniqueOfficialUrls": 7,
+    "byMunicipality": {
+      "安曇野市": 23,
+      "南相木村": 30,
+      "小海町": 6,
+      "川上村": 1
+    },
+    "firstSlug": "nagano-official-004-001-2026",
+    "lastSlug": "nagano-official-004-060-2026",
+    "sourceUrls": [
+      "https://www.city.azumino.nagano.jp/soshiki/31/1181.html",
+      "https://www.minamiaiki.jp/jyosei-top/josei.htm",
+      "https://www.koumi-town.jp/office2/archives/political-info/kikaku/post-419.html",
+      "https://www.koumi-town.jp/office2/archives/top-news/post-1599.html",
+      "https://www.vill.kawakami.nagano.jp/www/contents/1779927618599/index.html",
+      "https://www.koumi-town.jp/office2/archives/shakaihukushi/post-829.html",
+      "https://www.koumi-town.jp/office2/archives/shakaihukushi/post-828.html"
+    ]
+  },
+  "held": {
+    "totalUniqueUrls": 522,
+    "notes": [
+      "安曇野市は商工業振興事業補助金ページ内の個別事業23件を採用し、カテゴリ・手続き一覧・子育て支援サイト等は第2巡候補保持。",
+      "小海町は空家等対策3件、宿泊施設滞在環境向上1件、難聴・補聴器2件を採用し、サイトマップ・カテゴリ・申請書単体は第2巡候補保持。",
+      "川上村はエアコン設置促進事業補助金1件を採用し、各種補助金カテゴリ・広報・税カテゴリ等は第2巡候補保持。",
+      "南牧村はカテゴリ、申請書、生活案内中心で個別制度本文の必須項目確認が弱いため第2巡候補保持。",
+      "南相木村は補助金・助成金一覧内の30制度を採用し、無線放送・周知のみ・重複個別ページは第2巡候補保持。"
+    ]
+  },
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "json": "pass: JSON.parse for nagano-official-coverage-004 JSON files and checkpoint update inputs",
+    "addedSlugUniqueness": "pass: 60 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 7 unique adopted official URLs returned HTTP 200 by interval curl",
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 13435, officialLinkedActive 13315, manuallyVerifiedActive 13315, 長野県 localOfficial 349)"
+  },
+  "next": {
+    "batchId": "nagano-official-coverage-005",
+    "municipality": {
+      "code": "20307",
+      "name": "北相木村"
+    },
+    "instructions": "次回は20307北相木村から自治体コード順に再開する。全国公式棚卸しは未完了。"
+  }
+}

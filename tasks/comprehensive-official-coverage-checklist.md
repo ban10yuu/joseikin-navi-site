@@ -9695,3 +9695,43 @@
   - トップ、カテゴリ、ポータル、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補に残す。
 - 次:
   - 長野県公式棚卸し004として、20220安曇野市から自治体コード順に確認する。
+
+### 2026-07-15 長野県公式棚卸し004（20220安曇野市・20303小海町・20304川上村・20305南牧村・20306南相木村）
+- 範囲:
+  - 20220 安曇野市: `https://www.city.azumino.nagano.jp/`
+  - 20303 小海町: `https://www.koumi-town.jp/`
+  - 20304 川上村: `https://www.vill.kawakami.nagano.jp/`
+  - 20305 南牧村: `https://www.minamimakimura.jp/`
+  - 20306 南相木村: `https://www.minamiaiki.jp/`
+- 探索:
+  - `node scripts/discover-official-candidates.mjs --input tasks/discovery/nagano-official-coverage-004-municipalities.json --output tasks/discovery/nagano-official-coverage-004-candidates.json --initial-limit-per-municipality 80 --deep-limit-per-municipality 220 --limit-per-municipality 220 --concurrency 4 --timeout-ms 30000`
+  - 候補549件。shortlistが150件を超えたため、本文スニペット529件を抽出して再スコアリングした。
+- 採用:
+  - 合計60件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 安曇野市23件: 商工業振興事業補助金ページ内のリモートワーカー活用、販路拡大展示会出展、創業支援、商業系省エネ・ゼロカーボン、商業系空き物件活用、空き店舗等改修、ワーケーション受入環境整備、工場等設置、特定工場立地、生産設備取得、工場用地取得、地域経済牽引企業工場用地取得、工業系空き物件活用、デジタル化推進、工業系省エネ・ゼロカーボン、技術・製品等展示会出展、新製品開発、工場等緑化、国際（国内）規格取得、製造業等人材育成、本社機能移転企業雇用創出、産業連携推進、奨学金返還支援。
+  - 小海町6件: 空家等整備、空家等解体撤去、空家等改修、宿泊施設滞在環境向上、軽度・中等度難聴児補聴器購入費等助成、難聴者補聴器購入助成。
+  - 川上村1件: エアコン設置促進事業補助金。
+  - 南相木村30件: 補助金・助成金一覧内の家庭用LED照明購入、自転車用ヘルメット購入費、消費者被害防止対策機器購入、村営バス料金無料、元気が出る支援金、自動車急発進防止装置整備費、東北信市町村交通災害共済、消防団被服費用、空き家改修費等、移住支援金、定住促進給付金、UIJターン就業・創業支援、成年後見制度利用支援、合併処理浄化槽保守点検料等、合併処理浄化槽設置費用、風しん抗体検査予防接種、徘徊高齢者家族支援サービス、猫繁殖制限手術費、造血細胞移植後ワクチン再接種費用、移動支援、日中一時支援、在宅医療往診等交通費、そば生産、間伐事業、木材生産奨励、村産材活用住宅整備、村営住宅使用料、若者住宅整備奨励、スケートセンター利用、親子留学保護者交通費。
+  - 南牧村はカテゴリ、申請書、生活案内中心で個別制度本文の必須項目確認が弱いため第2巡候補として保持した。
+- 生成ファイル:
+  - `tasks/discovery/nagano-official-coverage-004-adopted-urls.json`
+  - `tasks/discovery/nagano-official-coverage-004-candidates.json`
+  - `tasks/discovery/nagano-official-coverage-004-municipalities.json`
+  - `tasks/discovery/nagano-official-coverage-004-official-texts.json`
+  - `tasks/discovery/nagano-official-coverage-004-rescored-snippets.json`
+  - `tasks/discovery/nagano-official-coverage-004-snippets.json`
+  - `tasks/discovery/nagano-official-coverage-004-url-status.txt`
+  - `tasks/discovery/nagano-official-coverage-004.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（004関連JSON、checkpoint）。
+  - 追加slug重複: pass（60件、`verified-local-misc-2026.ts` 全体 duplicateCount 0）。
+  - 公式URL到達: pass（採用元の重複排除7URLすべてHTTP 200、間隔付きcurl）。
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 13435、officialLinkedActive 13315、manuallyVerifiedActive 13315、長野県 localOfficial 349）。
+- 注意:
+  - 長野県は20201長野市から20306南相木村まで第1巡に到達した。ただし全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は長野県20306南相木村到達のみで全国完了扱いしない。
+  - トップ、カテゴリ、ポータル、様式、申請書単体、周知のみ、制度要件不足候補は第2巡候補に残す。
+- 次:
+  - 長野県公式棚卸し005として、20307北相木村から自治体コード順に確認する。
