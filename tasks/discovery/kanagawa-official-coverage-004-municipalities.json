@@ -1,0 +1,26 @@
+{
+  "batchId": "kanagawa-official-coverage-004",
+  "prefecture": "神奈川県",
+  "municipalities": [
+    {
+      "code": "14212",
+      "name": "厚木市",
+      "officialBaseUrl": "https://www.city.atsugi.kanagawa.jp/"
+    },
+    {
+      "code": "14213",
+      "name": "大和市",
+      "officialBaseUrl": "https://www.city.yamato.lg.jp/"
+    },
+    {
+      "code": "14214",
+      "name": "伊勢原市",
+      "officialBaseUrl": "https://www.city.isehara.kanagawa.jp/"
+    },
+    {
+      "code": "14215",
+      "name": "海老名市",
+      "officialBaseUrl": "https://www.city.ebina.kanagawa.jp/"
+    }
+  ]
+}

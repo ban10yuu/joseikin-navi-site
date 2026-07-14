@@ -8276,3 +8276,43 @@
   - トップ、カテゴリ、サイトマップ、募集一覧、共通ナビ一致、部署ページ、広報・予算PDF、金額又は受付状況不足候補は第2巡候補又は次回継続候補に残す。
 - 次:
   - 神奈川県公式棚卸し004として、14212厚木市、14213大和市、14214伊勢原市、14215海老名市を自治体コード順に確認する。
+
+### 2026-07-14 神奈川県公式棚卸し004（14212厚木市・14213大和市・14214伊勢原市・14215海老名市）
+
+- 作業範囲:
+  - 14212 厚木市、14213 大和市、14214 伊勢原市、14215 海老名市の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 生成候補316件（厚木市31件、大和市27件、伊勢原市147件、海老名市111件）から、`tasks/discovery/kanagawa-official-coverage-004-manual-snippets.json` に公式本文の短い根拠を保存し、制度名・対象・金額/上限・条件・期限/受付状況が揃う制度を優先した。
+- 採用:
+  - 合計19件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 厚木市7件: 防犯電話機・住宅用防犯カメラ補助金、住居確保給付金、不妊治療費助成金、不育症治療費助成金、早期不妊検査費助成金、定住促進子育て世帯住宅取得支援事業補助金、親元近居・同居住宅取得等支援事業補助金。
+  - 大和市3件: 振り込め詐欺防止対策電話機等購入費補助金、自家消費型太陽光発電設備・蓄電池補助金、市民活動推進補助金。
+  - 伊勢原市3件: くらしの省エネ応援キャンペーン、既存住宅用太陽光発電設備等導入補助金、中小企業等省エネ設備導入支援補助金。
+  - 海老名市6件: 生活応援！元気いっぱい!!えびーにゃ商品券、住宅改修支援事業補助金、環境保全対策支援事業補助金、中小企業振興支援事業、高齢者等移動支援事業補助金、在宅介護者等リフレッシュ助成券。
+- 生成ファイル:
+  - `tasks/discovery/kanagawa-official-coverage-004-municipalities.json`
+  - `tasks/discovery/kanagawa-official-coverage-004-14212-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-004-14213-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-004-14214-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-004-14215-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-004-14212-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-004-14213-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-004-14214-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-004-14215-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-004-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-004-manual-snippets.json`
+  - `tasks/discovery/kanagawa-official-coverage-004.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（`kanagawa-official-coverage-004.json`、候補JSON、手動スニペットJSON、municipalities、checkpoint）。
+  - 追加slug重複: pass（19件、`verified-local-misc-2026.ts` 内で各1件）。
+  - 公式URL到達: pass（19 primary official URLsすべてHTTP 200）。
+  - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 11332、officialLinkedActive 11294、manuallyVerifiedActive 11294、神奈川県 localOfficial 186）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または神奈川県一部自治体の着手のみで全国完了扱いしない。
+  - 大和市の住宅用太陽光発電システム等設置費補助金、既存住宅断熱改修工事費補助金は既存URL重複のため今回追加しなかった。
+  - 厚木市あつぎ暮らし応援事業は受付終了中心、直接の現行個別支援としての必須項目不足のため、今回は採用せず第2巡候補に残す。
+  - トップ、カテゴリ、サイトマップ、募集一覧、共通ナビ一致、部署ページ、様式のみ、金額又は受付状況不足候補は第2巡候補又は次回継続候補に残す。
+- 次:
+  - 神奈川県公式棚卸し005として、14216座間市、14217南足柄市、14218綾瀬市、14301葉山町を自治体コード順に確認する。

@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-07-14T19:05:00+09:00",
+  "updatedAt": "2026-07-14T19:18:16+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "kanagawa-official-coverage-003",
-    "municipality": "茅ヶ崎市・逗子市・三浦市・秦野市",
-    "adopted": 13,
-    "held": 261,
+    "code": "kanagawa-official-coverage-004",
+    "municipality": "厚木市・大和市・伊勢原市・海老名市",
+    "adopted": 19,
+    "held": 297,
     "excluded": 0,
-    "sourceUrlsChecked": 13,
+    "sourceUrlsChecked": 19,
     "validation": {
-      "previousMunicipality": "神奈川県公式棚卸し003として、14207茅ヶ崎市、14208逗子市、14210三浦市、14211秦野市を確認した。候補274件から公式本文の短い根拠を確認し、茅ヶ崎市5件、逗子市1件、三浦市3件、秦野市4件の計13件を採用した。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and JSON.parse for kanagawa-official-coverage-003.json / candidates / manual-snippets / official-coverage-checkpoint.json",
-      "addedSlugUniqueness": "pass: 13 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 13 primary official URLs returned HTTP 200",
+      "previousMunicipality": "神奈川県公式棚卸し004として、14212厚木市、14213大和市、14214伊勢原市、14215海老名市を確認した。候補316件から公式本文の短い根拠を確認し、厚木市7件、大和市3件、伊勢原市3件、海老名市6件の計19件を採用した。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and JSON.parse for kanagawa-official-coverage-004.json / candidates / manual-snippets / official-coverage-checkpoint.json",
+      "addedSlugUniqueness": "pass: 19 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 19 primary official URLs returned HTTP 200",
       "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11313, officialLinkedActive 11275, manuallyVerifiedActive 11275, 神奈川県 localOfficial 167)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11332, officialLinkedActive 11294, manuallyVerifiedActive 11294, 神奈川県 localOfficial 186)"
     }
   },
   "next": {
-    "code": "kanagawa-official-coverage-004",
-    "municipality": "厚木市・大和市・伊勢原市・海老名市",
-    "shortlist": "神奈川県公式棚卸し003は候補274件から茅ヶ崎市5件、逗子市1件、三浦市3件、秦野市4件を採用した。トップ、カテゴリ、サイトマップ、募集一覧、共通ナビ一致、部署ページ、既存URL重複、直接給付でない事業紹介、過年度期限中心候補は第2巡候補に残す。",
-    "instructions": "次回は神奈川県公式棚卸し004として、固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から自治体コード順に14212厚木市、14213大和市、14214伊勢原市、14215海老名市を確認する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "kanagawa-official-coverage-005",
+    "municipality": "座間市・南足柄市・綾瀬市・葉山町",
+    "shortlist": "神奈川県公式棚卸し004は候補316件から厚木市7件、大和市3件、伊勢原市3件、海老名市6件を採用した。大和市の既存URL重複、厚木市の受付終了中心候補、トップ、カテゴリ、サイトマップ、募集一覧、共通ナビ一致、部署ページ、様式のみ、金額又は受付状況不足候補は第2巡候補に残す。",
+    "instructions": "次回は神奈川県公式棚卸し005として、固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から自治体コード順に14216座間市、14217南足柄市、14218綾瀬市、14301葉山町を確認する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "神奈川県",
     "status": "in-progress",
-    "lastBatch": "kanagawa-official-coverage-003",
-    "notes": "神奈川県は14211秦野市まで自治体コード順に確認済み。東京都は13421小笠原村まで第1巡到達済みだが、第2巡保留候補を保持。全国公式棚卸しは未完了。"
+    "lastBatch": "kanagawa-official-coverage-004",
+    "notes": "神奈川県は14215海老名市まで自治体コード順に確認済み。東京都は13421小笠原村まで第1巡到達済みだが、第2巡保留候補を保持。全国公式棚卸しは未完了。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

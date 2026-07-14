@@ -1,0 +1,3842 @@
+{
+  "batchId": "kanagawa-official-coverage-004-14215",
+  "prefecture": "神奈川県",
+  "generatedAt": "2026-07-14T10:06:10.739Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 111,
+  "results": [
+    {
+      "code": "14215",
+      "name": "海老名市",
+      "officialBaseUrl": "https://www.city.ebina.kanagawa.jp/",
+      "discoveredUrlCount": 300,
+      "candidateCount": 111,
+      "strongCandidateCount": 8,
+      "lowPriorityCandidateCount": 103,
+      "candidates": [
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年5月1日",
+          "keywordHits": [
+            "補助金",
+            "給付金",
+            "医療費助成",
+            "住宅",
+            "創業",
+            "農業",
+            "福祉",
+            "子育て",
+            "奨学金",
+            "予防接種"
+          ],
+          "candidateScore": 27,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/shisei/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年5月21日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/shisetsu/index.html",
+          "status": 200,
+          "title": "公共施設案内",
+          "h1": "公共施設案内",
+          "updatedAt": "令和3年8月25日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kotsu/bus/index.html",
+          "status": 200,
+          "title": "You Bus（コミュニティバス、実証運行バス）",
+          "h1": "You Bus（コミュニティバス、実証運行バス）",
+          "updatedAt": "令和5年10月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/faq/index.html",
+          "status": 200,
+          "title": "よくある質問と回答集",
+          "h1": "よくある質問と回答集",
+          "updatedAt": "平成30年2月27日",
+          "keywordHits": [
+            "医療費助成",
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て",
+            "就学",
+            "奨学金",
+            "予防接種"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/shisei/soshiki/soshiki/index.html",
+          "status": 200,
+          "title": "市の組織（窓口案内）",
+          "h1": "市の組織（窓口案内）",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kurashi/ryokka/1019057.html",
+          "status": 200,
+          "title": "2つ目の「市の花」市民投票",
+          "h1": "2つ目の「市の花」市民投票",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/shisei/soshiki/chosha/1003939.html",
+          "status": 200,
+          "title": "土曜日開庁のご案内",
+          "h1": "土曜日開庁のご案内",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "助成金",
+            "給付金",
+            "一時金",
+            "医療費助成",
+            "福祉",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kyukyu/bouhan/1018466.html",
+          "status": 200,
+          "title": "侵入犯罪にご注意ください",
+          "h1": "侵入犯罪にご注意ください",
+          "updatedAt": "令和8年7月14日",
+          "keywordHits": [
+            "補助金",
+            "住宅"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/shisei/seisaku/1015238/1016212/index.html",
+          "status": 200,
+          "title": "オンラインでできる主な手続",
+          "h1": "オンラインでできる主な手続",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/todokede/1016437.html",
+          "status": 200,
+          "title": "申請・届出・証明発行の事前入力のご案内（スマート窓口）",
+          "h1": "申請・届出・証明発行の事前入力のご案内（スマート窓口）",
+          "updatedAt": "令和8年3月4日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/shoko/shokougyo/1018397.html",
+          "status": 200,
+          "title": "生活応援！元気いっぱい‼えび～にゃ商品券",
+          "h1": "生活応援！元気いっぱい‼えび～にゃ商品券",
+          "updatedAt": "令和8年7月9日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/zeikin/1016990/index.html",
+          "status": 200,
+          "title": "海老名市ふるさと納税",
+          "h1": "海老名市ふるさと納税",
+          "updatedAt": "令和7年7月15日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/shisei/soshiki/1008064/index.html",
+          "status": 200,
+          "title": "職員採用ページ",
+          "h1": "職員採用ページ",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/shogaisha/koureisha/1016650.html",
+          "status": 200,
+          "title": "えび～くる（デマンド型交通高齢者等外出支援事業「実証実験」）",
+          "h1": "えび～くる（デマンド型交通高齢者等外出支援事業「実証実験」）",
+          "updatedAt": "令和8年6月6日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "就学",
+            "妊婦"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/koho/media/1016272.html",
+          "status": 200,
+          "title": "海老名市のSNSアカウント",
+          "h1": "海老名市のSNSアカウント",
+          "updatedAt": "令和8年6月12日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1013359/index.html",
+          "status": 200,
+          "title": "各種相談（集約ページ）",
+          "h1": "各種相談（集約ページ）",
+          "updatedAt": "令和4年3月17日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/about/1005670.html",
+          "status": 200,
+          "title": "お問い合わせ",
+          "h1": "お問い合わせ",
+          "updatedAt": "令和8年1月15日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/todokede/todokede/1018458.html",
+          "status": 200,
+          "title": "窓口オンライン予約について",
+          "h1": "窓口オンライン予約について",
+          "updatedAt": "令和8年5月7日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/todokede/1002799.html",
+          "status": 200,
+          "title": "窓口混雑状況",
+          "h1": "窓口混雑状況",
+          "updatedAt": "令和8年3月4日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/hoikuen/1015671.html",
+          "status": 200,
+          "title": "合同就職フェア（保育園・幼稚園・小規模保育施設）を開催します",
+          "h1": "合同就職フェア（保育園・幼稚園・小規模保育施設）を開催します",
+          "updatedAt": "令和8年7月14日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kotsu/bus/1019107.html",
+          "status": 200,
+          "title": "【意見募集】You Bus実証運行のルート変更に伴う運賃設定について、ご意見を募集しています",
+          "h1": "【意見募集】You Bus実証運行のルート変更に伴う運賃設定について、ご意見を募集しています",
+          "updatedAt": "令和8年7月13日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/shisei/nyusatsu/proposal/1018949.html",
+          "status": 200,
+          "title": "（仮称）海老名市文化交流拠点第1期施設整備事業 設計・施工一括発注公募型プロポーザル",
+          "h1": "（仮称）海老名市文化交流拠点第1期施設整備事業 設計・施工一括発注公募型プロポーザル",
+          "updatedAt": "令和8年7月13日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/newslist.html",
+          "status": 200,
+          "title": "新着更新情報",
+          "h1": "新着更新情報",
+          "updatedAt": "令和8年7月14日",
+          "keywordHits": [
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1011613/index.html",
+          "status": 200,
+          "title": "生活困窮者自立支援事業のご案内",
+          "h1": "生活困窮者自立支援事業のご案内",
+          "updatedAt": "令和8年1月9日",
+          "keywordHits": [
+            "給付金",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/index.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "住宅",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/index.html",
+          "status": 200,
+          "title": "教育",
+          "h1": "教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学",
+            "奨学金",
+            "通学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kurashi/index.html",
+          "status": 200,
+          "title": "くらしと環境",
+          "h1": "くらしと環境",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/shisei/profile/index.html",
+          "status": 200,
+          "title": "海老名市の紹介",
+          "h1": "海老名市の紹介",
+          "updatedAt": "平成30年2月8日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kyodo/index.html",
+          "status": 200,
+          "title": "市民協働・男女共同参画",
+          "h1": "市民協働・男女共同参画",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/shisei/nyusatsu/index.html",
+          "status": 200,
+          "title": "入札・契約",
+          "h1": "入札・契約",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/koho/public/index.html",
+          "status": 200,
+          "title": "パブリックコメント",
+          "h1": "パブリックコメント",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/koho/1006995/index.html",
+          "status": 200,
+          "title": "市刊行物・パンフレット",
+          "h1": "市刊行物・パンフレット",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kyukyu/bousai/index.html",
+          "status": 200,
+          "title": "防災",
+          "h1": "防災",
+          "updatedAt": "令和3年1月4日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/koho/kohoebina/1018428/1019071.html",
+          "status": 200,
+          "title": "広報えびな令和8年7月1日号",
+          "h1": "広報えびな令和8年7月1日号",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "免除",
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/shisei/zaisei/zaisei/1003926.html",
+          "status": 200,
+          "title": "有料広告事業について",
+          "h1": "有料広告事業について",
+          "updatedAt": "令和8年5月16日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/shogaisha/shogaisha/1018914.html",
+          "status": 200,
+          "title": "手話リンク",
+          "h1": "手話リンク",
+          "updatedAt": "令和8年4月28日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/faq/kosodate/index.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/faq/kyoiku/index.html",
+          "status": 200,
+          "title": "教育、学校",
+          "h1": "教育、学校",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学",
+            "奨学金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/faq/fukushi/index.html",
+          "status": 200,
+          "title": "医療・福祉",
+          "h1": "医療・福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/faq/sumai/index.html",
+          "status": 200,
+          "title": "住まい・まちづくり",
+          "h1": "住まい・まちづくり",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/faq/sangyo/index.html",
+          "status": 200,
+          "title": "産業・経済・観光",
+          "h1": "産業・経済・観光",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/shisetsu/hoken/index.html",
+          "status": 200,
+          "title": "保健・福祉施設",
+          "h1": "保健・福祉施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/shisetsu/kosodate/index.html",
+          "status": 200,
+          "title": "子育て関連施設",
+          "h1": "子育て関連施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/index.html",
+          "status": 200,
+          "title": "社会福祉・相談",
+          "h1": "社会福祉・相談",
+          "updatedAt": "令和6年8月31日",
+          "keywordHits": [
+            "補助金",
+            "給付金",
+            "福祉"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/sumai/index.html",
+          "status": 200,
+          "title": "住まい・まちづくり・下水道",
+          "h1": "住まい・まちづくり・下水道",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/shoko/index.html",
+          "status": 200,
+          "title": "商工業・農業",
+          "h1": "商工業・農業",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/koho/index.html",
+          "status": 200,
+          "title": "広報・広聴",
+          "h1": "広報・広聴",
+          "updatedAt": "平成30年2月8日",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kyukyu/bouhan/index.html",
+          "status": 200,
+          "title": "防犯",
+          "h1": "防犯",
+          "updatedAt": "平成27年7月1日",
+          "keywordHits": [
+            "補助金",
+            "住宅"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/zeikin/kojin/index.html",
+          "status": 200,
+          "title": "個人市民税",
+          "h1": "個人市民税",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/zeikin/koteishisan/index.html",
+          "status": 200,
+          "title": "固定資産税・都市計画税",
+          "h1": "固定資産税・都市計画税",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/zeikin/shomei/index.html",
+          "status": 200,
+          "title": "税関係証明書",
+          "h1": "税関係証明書",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/hoken/kokuho/index.html",
+          "status": 200,
+          "title": "国民健康保険",
+          "h1": "国民健康保険",
+          "updatedAt": "",
+          "keywordHits": [
+            "一時金",
+            "支援金",
+            "免除",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/hoken/nenkin/index.html",
+          "status": 200,
+          "title": "国民年金",
+          "h1": "国民年金",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "一時金"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/hoken/koukikourei/index.html",
+          "status": 200,
+          "title": "後期高齢者医療制度",
+          "h1": "後期高齢者医療制度",
+          "updatedAt": "令和4年10月1日",
+          "keywordHits": [
+            "支援金",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/1012230.html",
+          "status": 200,
+          "title": "えびなこどもセンター",
+          "h1": "えびなこどもセンター",
+          "updatedAt": "令和8年7月14日",
+          "keywordHits": [
+            "補助金",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/1012572/index.html",
+          "status": 200,
+          "title": "子育て情報（子育て応援サイト・ガイドブックなど）",
+          "h1": "子育て情報（子育て応援サイト・ガイドブックなど）",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/shien/index.html",
+          "status": 200,
+          "title": "子育て支援センター",
+          "h1": "子育て支援センター",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/1010642.html",
+          "status": 200,
+          "title": "【動画配信】子育て支援センターすくすく通信",
+          "h1": "【動画配信】子育て支援センターすくすく通信",
+          "updatedAt": "令和3年12月3日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/boshi/index.html",
+          "status": 200,
+          "title": "母子保健",
+          "h1": "母子保健",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "子育て",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/yobou/index.html",
+          "status": 200,
+          "title": "予防接種",
+          "h1": "予防接種",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/1018550.html",
+          "status": 200,
+          "title": "こども誰でも通園制度が始まります！！",
+          "h1": "こども誰でも通園制度が始まります！！",
+          "updatedAt": "令和8年4月27日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/hoikuen/index.html",
+          "status": 200,
+          "title": "保育園",
+          "h1": "保育園",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/1013724/index.html",
+          "status": 200,
+          "title": "幼児を対象とした多様な集団活動事業の利用支援事業",
+          "h1": "幼児を対象とした多様な集団活動事業の利用支援事業",
+          "updatedAt": "令和4年6月10日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/gakudo/index.html",
+          "status": 200,
+          "title": "学童保育",
+          "h1": "学童保育",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/teate/index.html",
+          "status": 200,
+          "title": "児童手当・医療費助成など",
+          "h1": "児童手当・医療費助成など",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成"
+          ],
+          "candidateScore": 16,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/hitorioya/index.html",
+          "status": 200,
+          "title": "ひとり親家庭への支援",
+          "h1": "ひとり親家庭への支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "給付金",
+            "医療費助成",
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 13,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/1018508.html",
+          "status": 200,
+          "title": "物価高対応子育て応援手当",
+          "h1": "物価高対応子育て応援手当",
+          "updatedAt": "令和8年1月26日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/oshirase/index.html",
+          "status": 200,
+          "title": "お知らせ",
+          "h1": "お知らせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "通学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/shugaku/index.html",
+          "status": 200,
+          "title": "入学・転校",
+          "h1": "入学・転校",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/1006725/index.html",
+          "status": 200,
+          "title": "経済的支援",
+          "h1": "経済的支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/soudan/index.html",
+          "status": 200,
+          "title": "教育相談",
+          "h1": "教育相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/anzen/index.html",
+          "status": 200,
+          "title": "こどもの安全",
+          "h1": "こどもの安全",
+          "updatedAt": "",
+          "keywordHits": [
+            "通学"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/shogakukin/index.html",
+          "status": 200,
+          "title": "奨学金",
+          "h1": "奨学金",
+          "updatedAt": "",
+          "keywordHits": [
+            "奨学金"
+          ],
+          "candidateScore": 10,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kenko/1015396/index.html",
+          "status": 200,
+          "title": "その他各種手当・助成支援事業について",
+          "h1": "その他各種手当・助成支援事業について",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kenko/kenshin/index.html",
+          "status": 200,
+          "title": "がん検診・健康診査など",
+          "h1": "がん検診・健康診査など",
+          "updatedAt": "令和8年4月9日",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kenko/wakuchin/index.html",
+          "status": 200,
+          "title": "新型コロナウイルスワクチン接種",
+          "h1": "新型コロナウイルスワクチン接種",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kenko/kansensho/index.html",
+          "status": 200,
+          "title": "感染症",
+          "h1": "感染症",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kenko/1003183.html",
+          "status": 200,
+          "title": "墓地等の経営について",
+          "h1": "墓地等の経営について",
+          "updatedAt": "平成30年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1017605.html",
+          "status": 200,
+          "title": "フードバンクえびな",
+          "h1": "フードバンクえびな",
+          "updatedAt": "令和8年3月25日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1014833.html",
+          "status": 200,
+          "title": "生活支援臨時給付金については、令和6年8月31日で受付を終了しました。",
+          "h1": "生活支援臨時給付金については、令和6年8月31日で受付を終了しました。",
+          "updatedAt": "令和6年8月31日",
+          "keywordHits": [
+            "給付金",
+            "免除",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 20,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1017510.html",
+          "status": 200,
+          "title": "令和6年度 生活支援臨時給付金（3万円）については、令和7年7月31日で受付を終了しました。",
+          "h1": "令和6年度 生活支援臨時給付金（3万円）については、令和7年7月31日で受付を終了しました。",
+          "updatedAt": "令和7年7月31日",
+          "keywordHits": [
+            "給付金",
+            "免除",
+            "福祉"
+          ],
+          "candidateScore": 20,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1016755.html",
+          "status": 200,
+          "title": "令和6年度 生活支援臨時給付金（10万円）については、令和6年10月31日で受付を終了しました。",
+          "h1": "令和6年度 生活支援臨時給付金（10万円）については、令和6年10月31日で受付を終了しました。",
+          "updatedAt": "令和6年10月31日",
+          "keywordHits": [
+            "給付金",
+            "福祉"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/seikatsuhogo/index.html",
+          "status": 200,
+          "title": "生活保護・見舞金など",
+          "h1": "生活保護・見舞金など",
+          "updatedAt": "令和7年6月27日",
+          "keywordHits": [
+            "貸付"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/houjin/index.html",
+          "status": 200,
+          "title": "社会福祉法人について",
+          "h1": "社会福祉法人について",
+          "updatedAt": "令和6年8月31日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1003282.html",
+          "status": 200,
+          "title": "民生委員・児童委員",
+          "h1": "民生委員・児童委員",
+          "updatedAt": "令和8年1月13日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1011107.html",
+          "status": 200,
+          "title": "“社会を明るくする運動”",
+          "h1": "“社会を明るくする運動”",
+          "updatedAt": "令和7年10月24日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1015880.html",
+          "status": 200,
+          "title": "海老名市高齢者等移動支援事業補助金について",
+          "h1": "海老名市高齢者等移動支援事業補助金について",
+          "updatedAt": "令和8年4月11日",
+          "keywordHits": [
+            "補助金",
+            "福祉"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kurashi/wakekata/index.html",
+          "status": 200,
+          "title": "ごみの分け方・出し方",
+          "h1": "ごみの分け方・出し方",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kurashi/recycle/index.html",
+          "status": 200,
+          "title": "ごみの減量・リサイクル",
+          "h1": "ごみの減量・リサイクル",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "住宅"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kurashi/hozen/index.html",
+          "status": 200,
+          "title": "環境保全",
+          "h1": "環境保全",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kurashi/ryokka/index.html",
+          "status": 200,
+          "title": "緑化",
+          "h1": "緑化",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kurashi/yasei/index.html",
+          "status": 200,
+          "title": "生きもの",
+          "h1": "生きもの",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kurashi/pet/index.html",
+          "status": 200,
+          "title": "ペット",
+          "h1": "ペット",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "不妊"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/sumai/jutaku/index.html",
+          "status": 200,
+          "title": "住宅",
+          "h1": "住宅",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "空家",
+            "事業者",
+            "耐震"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/sumai/taishin/index.html",
+          "status": 200,
+          "title": "住まいの防災",
+          "h1": "住まいの防災",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "耐震"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/sumai/gesui/index.html",
+          "status": 200,
+          "title": "下水道",
+          "h1": "下水道",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "補助金",
+            "事業者"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kyodo/npo/index.html",
+          "status": 200,
+          "title": "市民協働・NPO",
+          "h1": "市民協働・NPO",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kyodo/danjo/index.html",
+          "status": 200,
+          "title": "男女共同参画",
+          "h1": "男女共同参画",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kyodo/hojo/index.html",
+          "status": 200,
+          "title": "団体への補助",
+          "h1": "団体への補助",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kotsu/chushajo/index.html",
+          "status": 200,
+          "title": "駐車場・駐輪場",
+          "h1": "駐車場・駐輪場",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/kotsu/douro/index.html",
+          "status": 200,
+          "title": "道路管理事業",
+          "h1": "道路管理事業",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/shoko/kinrosha/index.html",
+          "status": 200,
+          "title": "勤労者の方へ",
+          "h1": "勤労者の方へ",
+          "updatedAt": "令和6年3月31日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/shoko/chusho/index.html",
+          "status": 200,
+          "title": "中小企業事業主の方へ",
+          "h1": "中小企業事業主の方へ",
+          "updatedAt": "令和6年12月31日",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "住宅"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/shoko/sougyo/index.html",
+          "status": 200,
+          "title": "創業・企業立地",
+          "h1": "創業・企業立地",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/shoko/nogyo/index.html",
+          "status": 200,
+          "title": "農業・市民農園",
+          "h1": "農業・市民農園",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/guide/shoko/iinkai/index.html",
+          "status": 200,
+          "title": "農業委員会",
+          "h1": "農業委員会",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/shisei/profile/kanko/index.html",
+          "status": 200,
+          "title": "観光",
+          "h1": "観光",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/shisei/seisaku/kobetsu/index.html",
+          "status": 200,
+          "title": "方針・個別計画",
+          "h1": "方針・個別計画",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14215",
+          "municipalityName": "海老名市",
+          "sourceUrl": "https://www.city.ebina.kanagawa.jp/shisei/seisaku/1018196.html",
+          "status": 200,
+          "title": "包括連携協定について",
+          "h1": "包括連携協定について",
+          "updatedAt": "令和8年6月29日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/robots.txt",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/robots.txt",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/about/site/1006479.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/about/site/1006479.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/about/site/usability.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/about/site/usability.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/pr/",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/pr/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyukyu/1006368.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyukyu/1006368.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kotsu/bus/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kotsu/bus/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/faq/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/faq/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/soshiki/soshiki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/soshiki/soshiki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/soshiki/1008064/1016424.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/soshiki/1008064/1016424.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kurashi/ryokka/1019057.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kurashi/ryokka/1019057.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/soshiki/chosha/1003939.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/soshiki/chosha/1003939.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyukyu/bouhan/1018466.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyukyu/bouhan/1018466.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kurashi/recycle/1008925.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kurashi/recycle/1008925.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kurashi/wakekata/1003323.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kurashi/wakekata/1003323.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/seisaku/1015238/1016212/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/seisaku/1015238/1016212/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/todokede/1016437.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/todokede/1016437.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/about/site/keysearch.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/about/site/keysearch.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shoko/shokougyo/1018397.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shoko/shokougyo/1018397.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/zeikin/1016990/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/zeikin/1016990/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/soshiki/1008064/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/soshiki/1008064/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/todokede/todokede/1002810.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/todokede/todokede/1002810.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shogaisha/koureisha/1016650.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shogaisha/koureisha/1016650.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/koho/media/1016272.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/koho/media/1016272.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1013359/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1013359/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/about/1005670.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/about/1005670.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/todokede/1014763.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/todokede/1014763.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/todokede/todokede/1018458.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/todokede/todokede/1018458.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/todokede/1002799.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/todokede/1002799.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kosodate/hoikuen/1015671.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/hoikuen/1015671.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/johokoukai/kokuji/1019084.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/johokoukai/kokuji/1019084.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kotsu/bus/1019107.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kotsu/bus/1019107.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/nyusatsu/proposal/1018949.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/nyusatsu/proposal/1018949.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/newslist.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/newslist.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/about/rss.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/about/rss.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/todokede/mynumber/1012510/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/todokede/mynumber/1012510/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyukyu/1007244/shobodan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyukyu/1007244/shobodan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/profile/tankyusha/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/profile/tankyusha/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1011613/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1011613/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/1016479/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/1016479/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/todokede/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/todokede/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/zeikin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/zeikin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/hoken/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/hoken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kenko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kenko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/bunka/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/bunka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kurashi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kurashi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/profile/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/profile/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyodo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyodo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kotsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kotsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/nyusatsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/nyusatsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/mayor/1000908.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/mayor/1000908.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/mayor/shoshin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/mayor/shoshin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/mayor/ichinichi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/mayor/ichinichi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/mayor/1000963.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/mayor/1000963.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/koho/kohoebina/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/koho/kohoebina/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/koho/1007115/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/koho/1007115/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/koho/public/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/koho/public/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/koho/1006995/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/koho/1006995/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyukyu/iryo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyukyu/iryo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyukyu/1007244/1007314/aed/1007549.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyukyu/1007244/1007314/aed/1007549.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyukyu/bousai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyukyu/bousai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/denshi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/denshi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/denshi/mailservice/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/denshi/mailservice/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/koho/kohoebina/1018428/1019071.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/koho/kohoebina/1018428/1019071.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/profile/wagamachi/1000638.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/profile/wagamachi/1000638.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/profile/ebinya/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/profile/ebinya/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=1",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=1",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=2",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=2",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=3",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=3",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=4",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=4",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=5",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=5",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=6",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=6",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=7",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=7",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=8",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=8",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=9",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=9",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=10",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=10",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=11",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=11",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=12",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=12",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=13",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=13",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=14",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=14",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=15",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=15",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=16",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=16",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=17",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=17",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=18",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=18",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=19",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=19",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=20",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=20",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=21",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=21",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=22",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=22",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=23",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=23",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=24",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=24",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=25",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=25",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=26",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=26",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=27",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=27",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=28",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=28",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=29",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=29",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=30",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=30",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=31",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/event_calendar.html?prev=1&year=2026&month=7&day=31",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/denshi/toukei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/denshi/toukei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/zaisei/zaisei/1003926.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/zaisei/zaisei/1003926.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/about/1005674/1005675.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/about/1005674/1005675.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/about/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/about/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/about/1005672.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/about/1005672.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/about/1005671.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/about/1005671.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/about/1005673.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/about/1005673.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/soshiki/chosha/1016536.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/soshiki/chosha/1016536.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shogaisha/shogaisha/1018914.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shogaisha/shogaisha/1018914.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/mayor/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/mayor/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/koho/1007115/kishakaiken/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/koho/1007115/kishakaiken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/mayor/1006137/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/mayor/1006137/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/mayor/1007749/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/mayor/1007749/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/mayor/kousaihi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/mayor/kousaihi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/faq/bousai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/faq/bousai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/faq/juminhyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/faq/juminhyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/faq/1001429/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/faq/1001429/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/faq/hoken/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/faq/hoken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/faq/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/faq/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/faq/kyoiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/faq/kyoiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/faq/fukushi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/faq/fukushi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/faq/koureisha/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/faq/koureisha/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/faq/1001704/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/faq/1001704/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/faq/gomi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/faq/gomi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/faq/sumai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/faq/sumai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/faq/douro/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/faq/douro/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/faq/bunka/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/faq/bunka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/faq/sanka/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/faq/sanka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/faq/sangyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/faq/sangyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/faq/shisei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/faq/shisei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisetsu/kanren/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisetsu/kanren/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisetsu/gakko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisetsu/gakko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisetsu/community/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisetsu/community/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisetsu/kunka/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisetsu/kunka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisetsu/kouen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisetsu/kouen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisetsu/hoken/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisetsu/hoken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisetsu/keisatsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisetsu/keisatsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisetsu/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisetsu/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisetsu/kokyoshisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisetsu/kokyoshisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyukyu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyukyu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/sumai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/sumai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shoko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shoko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/seisaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/seisaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/zaisei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/zaisei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/soshiki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/soshiki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/johokoukai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/johokoukai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/senkyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/senkyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/shingikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/shingikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/koho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/koho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/koho/media/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/koho/media/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/koho/goiken/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/koho/goiken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/about/site/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/about/site/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/about/barrierfree.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/about/barrierfree.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/about/accessibility/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/about/accessibility/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/about/analytics.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/about/analytics.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/about/1005669.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/about/1005669.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/about/1014603.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/about/1014603.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/about/1005674/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/about/1005674/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/about/1005676/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/about/1005676/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/about/site/howtouse.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/about/site/howtouse.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/about/site/eventinput/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/about/site/eventinput/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyukyu/1007244/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyukyu/1007244/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyukyu/bouhan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyukyu/bouhan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyukyu/kotsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyukyu/kotsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/todokede/1018392.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/todokede/1018392.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/todokede/1015984.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/todokede/1015984.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/todokede/1015152.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/todokede/1015152.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/todokede/madoguchi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/todokede/madoguchi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/todokede/todokede/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/todokede/todokede/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/todokede/1007544/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/todokede/1007544/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/todokede/inkan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/todokede/inkan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/todokede/mynumber/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/todokede/mynumber/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/todokede/jukyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/todokede/jukyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/profile/tankyusha/maizo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/profile/tankyusha/maizo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/zeikin/kojin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/zeikin/kojin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/zeikin/houjin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/zeikin/houjin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/zeikin/koteishisan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/zeikin/koteishisan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/zeikin/keijidosha/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/zeikin/keijidosha/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/zeikin/noufu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/zeikin/noufu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/zeikin/shomei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/zeikin/shomei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/zeikin/1015970.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/zeikin/1015970.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/zeikin/soudan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/zeikin/soudan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/hoken/kokuho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/hoken/kokuho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/hoken/nenkin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/hoken/nenkin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/hoken/koukikourei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/hoken/koukikourei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kosodate/1012230.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/1012230.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kosodate/1012572/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/1012572/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kosodate/shien/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/shien/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kosodate/1010642.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/1010642.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kosodate/support/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/support/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kosodate/boshi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/boshi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kosodate/yobou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/yobou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kosodate/1018550.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/1018550.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kosodate/hoikuen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/hoikuen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kosodate/youchien/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/youchien/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kosodate/1009120/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/1009120/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kosodate/1013724/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/1013724/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kosodate/1006671/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/1006671/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kosodate/gakudo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/gakudo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kosodate/teate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/teate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kosodate/hitorioya/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/hitorioya/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kosodate/1018508.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/1018508.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kosodate/1010643/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/1010643/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kosodate/youiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kosodate/youiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/oshirase/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/oshirase/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/gakko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/gakko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/iinkai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/iinkai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/shugaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/shugaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/1006725/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/1006725/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/soudan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/soudan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/anzen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/anzen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/1007309/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/1007309/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/shogakukin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/shogakukin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/1006930/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/1006930/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/1018123/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/1018123/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/kyushoku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/kyushoku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/shisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/shisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/shakai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/shakai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/seishonen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/seishonen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/1007146/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyoiku/1007146/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kenko/1016690/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kenko/1016690/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kenko/dukuri/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kenko/dukuri/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shogaisha/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shogaisha/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kenko/1015396/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kenko/1015396/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kenko/kenshin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kenko/kenshin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kenko/corona/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kenko/corona/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kenko/wakuchin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kenko/wakuchin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kenko/kansensho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kenko/kansensho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kenko/eisei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kenko/eisei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kenko/1003183.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kenko/1003183.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1017605.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1017605.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1014833.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1014833.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1017510.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1017510.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1016755.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1016755.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/seikatsuhogo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/seikatsuhogo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/hisaichi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/hisaichi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/soudan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/soudan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/houjin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/houjin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1003282.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1003282.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1011107.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1011107.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1011758/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1011758/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1011759/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1011759/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1015880.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shakaifukushi/1015880.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kurashi/wakekata/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kurashi/wakekata/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kurashi/recycle/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kurashi/recycle/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kurashi/bika/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kurashi/bika/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kurashi/hozen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kurashi/hozen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kurashi/kougai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kurashi/kougai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kurashi/ryokka/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kurashi/ryokka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kurashi/yasei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kurashi/yasei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kurashi/pet/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kurashi/pet/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/sumai/jutaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/sumai/jutaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/sumai/taishin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/sumai/taishin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/sumai/gesui/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/sumai/gesui/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/sumai/kouen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/sumai/kouen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/sumai/keikan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/sumai/keikan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyodo/npo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyodo/npo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyodo/community/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyodo/community/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyodo/danjo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyodo/danjo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyodo/jinken/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyodo/jinken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kyodo/hojo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kyodo/hojo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kotsu/kokyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kotsu/kokyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kotsu/chushajo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kotsu/chushajo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/kotsu/douro/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/kotsu/douro/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/bunka/sports/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/bunka/sports/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/bunka/taikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/bunka/taikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/bunka/1008025/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/bunka/1008025/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/bunka/bunka/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/bunka/bunka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shoko/kinrosha/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shoko/kinrosha/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shoko/shokougyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shoko/shokougyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shoko/chusho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shoko/chusho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shoko/sougyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shoko/sougyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shoko/nogyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shoko/nogyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/guide/shoko/iinkai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/guide/shoko/iinkai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisetsu/kanren/1005703.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisetsu/kanren/1005703.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/soshiki/chosha/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/soshiki/chosha/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/koho/1007115/press/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/koho/1007115/press/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/profile/aramashi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/profile/aramashi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/profile/miryoku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/profile/miryoku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/profile/kanko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/profile/kanko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/profile/1010481/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/profile/1010481/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/profile/meisan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/profile/meisan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/profile/1008687/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/profile/1008687/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/profile/pony/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/profile/pony/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/profile/wagamachi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/profile/wagamachi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/seisaku/sougou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/seisaku/sougou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/seisaku/kobetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/seisaku/kobetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/seisaku/1018196.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/seisaku/1018196.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/seisaku/1015238/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/seisaku/1015238/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/seisaku/machidukuri/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/seisaku/machidukuri/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/seisaku/1014501/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/seisaku/1014501/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.ebina.kanagawa.jp/shisei/seisaku/kanri/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.ebina.kanagawa.jp/shisei/seisaku/kanri/index.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

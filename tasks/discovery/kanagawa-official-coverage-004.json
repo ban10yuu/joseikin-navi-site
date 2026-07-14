@@ -1,0 +1,92 @@
+{
+  "batchId": "kanagawa-official-coverage-004",
+  "updatedAt": "2026-07-14T19:18:16+09:00",
+  "prefecture": "神奈川県",
+  "municipalities": [
+    {
+      "code": "14212",
+      "name": "厚木市",
+      "adopted": 7,
+      "officialBaseUrl": "https://www.city.atsugi.kanagawa.jp/"
+    },
+    {
+      "code": "14213",
+      "name": "大和市",
+      "adopted": 3,
+      "officialBaseUrl": "https://www.city.yamato.lg.jp/"
+    },
+    {
+      "code": "14214",
+      "name": "伊勢原市",
+      "adopted": 3,
+      "officialBaseUrl": "https://www.city.isehara.kanagawa.jp/"
+    },
+    {
+      "code": "14215",
+      "name": "海老名市",
+      "adopted": 6,
+      "officialBaseUrl": "https://www.city.ebina.kanagawa.jp/"
+    }
+  ],
+  "candidateCount": 316,
+  "manualSnippetPages": 19,
+  "adoptedCount": 19,
+  "heldCount": 297,
+  "excludedCount": 0,
+  "adoptedSlugs": [
+    "atsugi-security-phone-camera-subsidy-2026",
+    "atsugi-housing-security-rent-benefit-2026",
+    "atsugi-infertility-advanced-treatment-grant-2026",
+    "atsugi-recurrent-pregnancy-loss-treatment-grant-2026",
+    "atsugi-early-infertility-test-grant-2026",
+    "atsugi-childcare-house-acquisition-support-2026",
+    "atsugi-near-parent-home-acquisition-renovation-support-2026",
+    "yamato-fraud-prevention-phone-subsidy-2026",
+    "yamato-self-consumption-solar-storage-subsidy-2026",
+    "yamato-civic-activity-promotion-subsidy-2026",
+    "isehara-life-energy-saving-support-campaign-2026",
+    "isehara-existing-home-solar-storage-subsidy-2026",
+    "isehara-sme-energy-saving-equipment-subsidy-2026",
+    "ebina-genki-ebinya-shopping-voucher-2026",
+    "ebina-housing-renovation-support-subsidy-2026",
+    "ebina-environmental-conservation-support-subsidy-2026",
+    "ebina-sme-development-support-subsidy-2026",
+    "ebina-elderly-mobility-support-organization-subsidy-2026",
+    "ebina-home-caregiver-refresh-voucher-2026"
+  ],
+  "heldNotes": [
+    "大和市の住宅用太陽光発電システム等設置費補助金と既存住宅断熱改修工事費補助金は既存URL重複のため今回追加しない。",
+    "厚木市あつぎ暮らし応援事業は受付終了中心、直接の現行個別支援としての必須項目不足のため第2巡候補に残す。",
+    "トップ、カテゴリ、サイトマップ、募集一覧、共通ナビ一致、部署ページ、様式のみ、金額又は受付状況不足候補は第2巡候補に残す。"
+  ],
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "jsonParse": "pass: kanagawa-official-coverage-004.json / candidates / manual-snippets / municipalities / official-coverage-checkpoint.json",
+    "addedSlugUniqueness": "pass: 19 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 19 primary official URLs returned HTTP 200",
+    "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11332, officialLinkedActive 11294, manuallyVerifiedActive 11294, 神奈川県 localOfficial 186)"
+  },
+  "next": {
+    "batchId": "kanagawa-official-coverage-005",
+    "municipalities": [
+      {
+        "code": "14216",
+        "name": "座間市"
+      },
+      {
+        "code": "14217",
+        "name": "南足柄市"
+      },
+      {
+        "code": "14218",
+        "name": "綾瀬市"
+      },
+      {
+        "code": "14301",
+        "name": "葉山町"
+      }
+    ]
+  }
+}

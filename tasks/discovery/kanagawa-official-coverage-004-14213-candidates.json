@@ -1,0 +1,2370 @@
+{
+  "batchId": "kanagawa-official-coverage-004-14213",
+  "prefecture": "神奈川県",
+  "generatedAt": "2026-07-14T10:06:07.307Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 27,
+  "results": [
+    {
+      "code": "14213",
+      "name": "大和市",
+      "officialBaseUrl": "https://www.city.yamato.lg.jp/",
+      "discoveredUrlCount": 300,
+      "candidateCount": 27,
+      "strongCandidateCount": 0,
+      "lowPriorityCandidateCount": 27,
+      "candidates": [
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/index.html",
+          "status": 200,
+          "title": "くらし・環境",
+          "h1": "くらし・環境",
+          "updatedAt": "令和6年8月31日",
+          "keywordHits": [
+            "補助金",
+            "減免",
+            "住宅",
+            "空き家",
+            "空家",
+            "事業者",
+            "福祉",
+            "耐震",
+            "予防接種"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/index.html",
+          "status": 200,
+          "title": "医療・健康福祉",
+          "h1": "医療・健康福祉",
+          "updatedAt": "平成30年6月1日",
+          "keywordHits": [
+            "減免",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/index.html",
+          "status": 200,
+          "title": "子育て・教育",
+          "h1": "子育て・教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/index.html",
+          "status": 200,
+          "title": "文化・スポーツ",
+          "h1": "文化・スポーツ",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "奨励金"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/gyosei/shigoto_sangyo_machizukuri/index.html",
+          "status": 200,
+          "title": "しごと・産業・まちづくり",
+          "h1": "しごと・産業・まちづくり",
+          "updatedAt": "令和6年3月29日",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "住宅",
+            "空き家",
+            "空家",
+            "創業",
+            "起業",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て",
+            "耐震",
+            "省エネ"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/gyosei/shiseijoho/index.html",
+          "status": 200,
+          "title": "市政情報",
+          "h1": "市政情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/gyosei/soshik/66/beautification/yuimaalu/25768.html",
+          "status": 200,
+          "title": "清掃活動で応援アイテムをLUCKY GET！ごみ拾いポイントアプリ「YUIMAALU」",
+          "h1": "清掃活動で応援アイテムをLUCKY GET！ごみ拾いポイントアプリ「YUIMAALU」",
+          "updatedAt": "2026年06月11日",
+          "keywordHits": [
+            "事業者",
+            "通学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/gyosei/news/26031.html",
+          "status": 200,
+          "title": "大和市内の公共施設6施設のネーミングライツスポンサーが決定しました",
+          "h1": "大和市内の公共施設6施設のネーミングライツスポンサーが決定しました",
+          "updatedAt": "2026年07月01日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/gyosei/news/26013.html",
+          "status": 200,
+          "title": "令和8年度平和都市推進事業 アニメ映画「NAGASAKI・1945 アンゼラスの鐘」上映会を開催します",
+          "h1": "令和8年度平和都市推進事業 アニメ映画「NAGASAKI・1945 アンゼラスの鐘」上映会を開催します",
+          "updatedAt": "2026年06月29日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/gyosei/news/25905.html",
+          "status": 200,
+          "title": "大和市が「ひと涼みアワード2026」優秀賞を受賞",
+          "h1": "大和市が「ひと涼みアワード2026」優秀賞を受賞",
+          "updatedAt": "2026年05月29日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/gyosei/news/25898.html",
+          "status": 200,
+          "title": "お知らせ（統計調査関連）",
+          "h1": "お知らせ（統計調査関連）",
+          "updatedAt": "2026年05月29日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/gyosei/useful_information/21614.html",
+          "status": 200,
+          "title": "オンライン予約・混雑状況",
+          "h1": "オンライン予約・混雑状況",
+          "updatedAt": "2026年03月03日",
+          "keywordHits": [
+            "貸付",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/gyosei/useful_information/21689.html",
+          "status": 200,
+          "title": "コミュニティバス",
+          "h1": "コミュニティバス",
+          "updatedAt": "2026年01月05日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/recruitment/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/gyosei/life_scene/ninshin_shussan_kosodate/index.html",
+          "status": 200,
+          "title": "妊娠・出産・子育て",
+          "h1": "妊娠・出産・子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/gyosei/life_scene/nyuen_nyugaku/index.html",
+          "status": 200,
+          "title": "入園・入学",
+          "h1": "入園・入学",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "子育て",
+            "就学",
+            "奨学金"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/gyosei/life_scene/hikkoshi/index.html",
+          "status": 200,
+          "title": "引っ越し",
+          "h1": "引っ越し",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/gyosei/life_scene/healthy/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/gyosei/yamatoshiinfo/21695.html",
+          "status": 200,
+          "title": "組織の紹介",
+          "h1": "組織の紹介",
+          "updatedAt": "2025年04月01日",
+          "keywordHits": [
+            "給付金",
+            "医療費助成",
+            "住宅",
+            "空家",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/gyosei/yamatoshiinfo/21687.html",
+          "status": 200,
+          "title": "基地対策",
+          "h1": "基地対策",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/gyosei/yamatoshiinfo/kokyoshisetsu/index.html",
+          "status": 200,
+          "title": "公共施設",
+          "h1": "公共施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/gyosei/soshik/11/digitalservice/13082.html",
+          "status": 200,
+          "title": "大和市公開型地図情報サービス",
+          "h1": "大和市公開型地図情報サービス",
+          "updatedAt": "2026年04月21日",
+          "keywordHits": [
+            "水産",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/gyosei/soshik/63/kifu_furusatonozei/4930.html",
+          "status": 200,
+          "title": "大和市への寄附(ふるさと納税)のご案内",
+          "h1": "大和市への寄附(ふるさと納税)のご案内",
+          "updatedAt": "2026年04月01日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/gyosei/soshik/37/jigyoshamukejoho/25375.html",
+          "status": 200,
+          "title": "大和市のホームページにバナー広告を掲載しませんか",
+          "h1": "大和市のホームページにバナー広告を掲載しませんか",
+          "updatedAt": "2026年06月23日",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14213",
+          "municipalityName": "大和市",
+          "sourceUrl": "https://www.city.yamato.lg.jp/sitemap/index.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "住宅",
+            "空家",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.yamato.lg.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/sitemap.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.yamato.lg.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.city.yamato.lg.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/shigoto_sangyo_machizukuri/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/shigoto_sangyo_machizukuri/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/shiseijoho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/shiseijoho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/soshik/3/event/24536.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/soshik/3/event/24536.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/soshik/66/beautification/yuimaalu/25768.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/soshik/66/beautification/yuimaalu/25768.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/soshik/37/city_sales/SNS/gomitsuchi/25238.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/soshik/37/city_sales/SNS/gomitsuchi/25238.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/soshik/37/siminnnokeijibann_sa-kurukaiinnbosyuu/23703.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/soshik/37/siminnnokeijibann_sa-kurukaiinnbosyuu/23703.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/news/26035.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/news/26035.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/news/26031.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/news/26031.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/news/26011.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/news/26011.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/news/26013.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/news/26013.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/news/25905.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/news/25905.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/news/25898.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/news/25898.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/news/25870.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/news/25870.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/news/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/news/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/moshimo/saigai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/moshimo/saigai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/moshimo/kyukyuiryo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/moshimo/kyukyuiryo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/soshik/43/todokede_shomeisho/kakushushomeisho/5027.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/soshik/43/todokede_shomeisho/kakushushomeisho/5027.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/useful_information/21614.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/useful_information/21614.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/useful_information/gominodashikata/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/useful_information/gominodashikata/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/useful_information/21689.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/useful_information/21689.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/useful_information/koho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/useful_information/koho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/recruitment/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/recruitment/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/life_scene/ninshin_shussan_kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/life_scene/ninshin_shussan_kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/life_scene/nyuen_nyugaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/life_scene/nyuen_nyugaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/life_scene/kekkon/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/life_scene/kekkon/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/life_scene/shushoku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/life_scene/shushoku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/life_scene/hikkoshi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/life_scene/hikkoshi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/life_scene/okuyami/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/life_scene/okuyami/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/life_scene/seniorsite/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/life_scene/seniorsite/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/life_scene/healthy/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/life_scene/healthy/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/life_scene/hobby_circle/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/life_scene/hobby_circle/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/section/toshokan_jokamachi/",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/section/toshokan_jokamachi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/yamatoshiinfo/13856.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/yamatoshiinfo/13856.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/yamatoshiinfo/13855.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/yamatoshiinfo/13855.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/yamatoshiinfo/21695.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/yamatoshiinfo/21695.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/yamatoshiinfo/21687.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/yamatoshiinfo/21687.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/yamatoshiinfo/kokyoshisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/yamatoshiinfo/kokyoshisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/soshik/11/digitalservice/13082.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/soshik/11/digitalservice/13082.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/21688.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/21688.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/soshik/37/siminnnokeijibann_sa-kurukaiinnbosyuu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/soshik/37/siminnnokeijibann_sa-kurukaiinnbosyuu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/soshik/37/kaiken_release/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/soshik/37/kaiken_release/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/soshik/63/kifu_furusatonozei/4930.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/soshik/63/kifu_furusatonozei/4930.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/soshik/63/ziti_touhyou_siminnsannka/yamatoshinoshiminsanka/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/soshik/63/ziti_touhyou_siminnsannka/yamatoshinoshiminsanka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/21700.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/21700.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/soshik/37/jigyoshamukejoho/25375.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/soshik/37/jigyoshamukejoho/25375.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/21692.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/21692.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/21693.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/21693.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/sitemap/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/sitemap/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/artarchives/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/artarchives/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/artarchives/haiku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/artarchives/haiku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/artarchives/illustration/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/artarchives/illustration/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/artarchives/kaiga/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/artarchives/kaiga/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/artarchives/senryuu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/artarchives/senryuu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/artarchives/shashin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/artarchives/shashin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/artarchives/shiteibunkazai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/artarchives/shiteibunkazai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/artarchives/sho/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/artarchives/sho/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/artarchives/tanka/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/artarchives/tanka/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/artist/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/artist/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/bunkageijutsudantai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/bunkageijutsudantai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/bunkageijutsudantai/bijutsu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/bunkageijutsudantai/bijutsu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/bunkageijutsudantai/bungei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/bunkageijutsudantai/bungei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/bunkageijutsudantai/engeki/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/bunkageijutsudantai/engeki/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/bunkageijutsudantai/hogaku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/bunkageijutsudantai/hogaku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/bunkageijutsudantai/hogakubuyo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/bunkageijutsudantai/hogakubuyo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/bunkageijutsudantai/kokusaikoryuu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/bunkageijutsudantai/kokusaikoryuu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/bunkageijutsudantai/seikatsubunka/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/bunkageijutsudantai/seikatsubunka/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/bunkageijutsudantai/shashin_eizou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/bunkageijutsudantai/shashin_eizou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/bunkageijutsudantai/sonohoka/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/bunkageijutsudantai/sonohoka/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/bunkageijutsudantai/yogaku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/bunkageijutsudantai/yogaku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/eventjoho/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/eventjoho/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/katsudounoba/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/katsudounoba/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/koshinjoho/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/koshinjoho/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/oshirase/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/oshirase/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/todays_artworks/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/todays_artworks/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/bunkahyakka/yamatoshinotorikumi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/bunkahyakka/yamatoshinotorikumi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/bunkageijutsukensho/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/bunkageijutsukensho/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOART100/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOART100/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/YAMATOillustrationstreet/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/YAMATOillustrationstreet/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/dai10kai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/dai10kai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/dai1kai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/dai1kai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/dai2kai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/dai2kai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/dai3kai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/dai3kai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/dai4kai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/dai4kai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/dai5kai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/dai5kai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/dai6kai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/dai6kai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/dai7kai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/dai7kai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/dai8kai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/dai8kai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/dai9kai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/dai9kai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/nyushoshanokatsuyojisseki/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/nyushoshanokatsuyojisseki/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/nyushoshanokatsuyojisseki/heisei24nendo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/nyushoshanokatsuyojisseki/heisei24nendo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/nyushoshanokatsuyojisseki/heisei25nendo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/nyushoshanokatsuyojisseki/heisei25nendo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/nyushoshanokatsuyojisseki/heisei26nendo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/nyushoshanokatsuyojisseki/heisei26nendo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/nyushoshanokatsuyojisseki/heisei27nendo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/nyushoshanokatsuyojisseki/heisei27nendo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/nyushoshanokatsuyojisseki/heisei28nendo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/nyushoshanokatsuyojisseki/heisei28nendo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/nyushoshanokatsuyojisseki/heisei29nendo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/nyushoshanokatsuyojisseki/heisei29nendo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/nyushoshanokatsuyojisseki/heisei30nendo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/nyushoshanokatsuyojisseki/heisei30nendo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/nyushoshanokatsuyojisseki/reiwa2nendo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/nyushoshanokatsuyojisseki/reiwa2nendo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/nyushoshanokatsuyojisseki/reiwagannendo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/event_moyooshi/YAMATOillustrationdesigncompetition/nyushoshanokatsuyojisseki/reiwagannendo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/kodomo_gallery/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/kodomo_gallery/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/rekishi_bunkazai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/rekishi_bunkazai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/rekishi_bunkazai/bunkazaikankobutsu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/rekishi_bunkazai/bunkazaikankobutsu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/rekishi_bunkazai/kyodominkaen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/rekishi_bunkazai/kyodominkaen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/rekishi_bunkazai/shimotsurumafurusatokan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/rekishi_bunkazai/shimotsurumafurusatokan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/rekishi_bunkazai/tsurumainosatorekishishiryokan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/rekishi_bunkazai/tsurumainosatorekishishiryokan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/heisei22nendo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/heisei22nendo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/heisei23nendo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/heisei23nendo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/heisei24nendo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/heisei24nendo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/heisei25nendo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/heisei25nendo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/heisei26nendo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/heisei26nendo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/heisei27nendo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/heisei27nendo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/heisei28nendo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/heisei28nendo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/heisei29nendo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/heisei29nendo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/heisei30nendo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/heisei30nendo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/r3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/r3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/r4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/r4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/r5/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/r5/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/reiwa2nendo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/reiwa2nendo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/reiwa6th/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/reiwa6th/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/reiwagannendo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/bunkageijutsushinkoshingikai/reiwagannendo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/kihonkosokentoiinkai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/kihonkosokentoiinkai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/yamatoshibunkageijutsushinkojoreikentokaigi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shingikai_kentokai_iinkai/yamatoshibunkageijutsushinkojoreikentokaigi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shogaigakushushinkokikin_mahorobakikin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/shogaigakushushinkokikin_mahorobakikin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/taiwa/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunka_geijutsu/taiwa/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunkasozokyotensirius/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunkasozokyotensirius/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunkasozokyotensirius/keikaku_jorei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/bunkasozokyotensirius/keikaku_jorei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/sports/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/sports/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/tosho_manabi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/tosho_manabi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/tosho_manabi/keikaku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/tosho_manabi/keikaku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/tosho_manabi/senko_suishinkaigi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/tosho_manabi/senko_suishinkaigi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/tosho_manabi/senko_suishinkaigi/yamatoshikodomodokushokatsudosuishinkaigi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/tosho_manabi/senko_suishinkaigi/yamatoshikodomodokushokatsudosuishinkaigi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/tosho_manabi/toshokan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/bunka_sports/tosho_manabi/toshokan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/emergency/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/emergency/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/josei_kyufu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/josei_kyufu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/kansenshoryukojoho/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/kansenshoryukojoho/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/keikaku_jorei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/keikaku_jorei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/kokikoreishairyoseido/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/kokikoreishairyoseido/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/kokuminkenkohoken/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/kokuminkenkohoken/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/kokuminkenkohoken/keikaku_kyogikai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/kokuminkenkohoken/keikaku_kyogikai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/kokuminkenkohoken/kyufu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/kokuminkenkohoken/kyufu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/kokuminkenkohoken/kyufu/kogakuryoyohi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/kokuminkenkohoken/kyufu/kogakuryoyohi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/kokuminkenkohoken/madoguchinogoannai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/kokuminkenkohoken/madoguchinogoannai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/kyukyuiryo_kyujitsuyakannoiryotaisei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/kyukyuiryo_kyujitsuyakannoiryotaisei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/shingikai_iinkai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/shingikai_iinkai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/yobosesshu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/iryo/yobosesshu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/kenko/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/kenko/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/kenko/keikaku_jorei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/kenko/keikaku_jorei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/kenko/kenkosodan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/kenko/kenkosodan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/kenko/kenkozukuri_kaigoyobo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/kenko/kenkozukuri_kaigoyobo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/kenko/kenkozukuri_kaigoyobo/kenkochishiki/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/kenko/kenkozukuri_kaigoyobo/kenkochishiki/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/kenko/kenkozukuri_kaigoyobo/kenkoyugu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/kenko/kenkozukuri_kaigoyobo/kenkoyugu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/kenko/kenkozukuri_kaigoyobo/kenkoyugu/kenkoyuguwoosumainochiikidesagasu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/kenko/kenkozukuri_kaigoyobo/kenkoyugu/kenkoyuguwoosumainochiikidesagasu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/kenko/kenkozukuri_kaigoyobo/kyoshitsu_koza/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/kenko/kenkozukuri_kaigoyobo/kyoshitsu_koza/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/kenko/kenkozukuri_kaigoyobo/shika/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/kenko/kenkozukuri_kaigoyobo/shika/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/kenko/kenkozukuri_kaigoyobo/shokuiku_shokujibalance/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/kenko/kenkozukuri_kaigoyobo/shokuiku_shokujibalance/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/kenko/kenkozukuri_kaigoyobo/yamatowalkingpic/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/kenko/kenkozukuri_kaigoyobo/yamatowalkingpic/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/kenko/kenshin_kensa/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/kenko/kenshin_kensa/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/koreinahonofukushi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/koreinahonofukushi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/koreinahonofukushi/kaigohoken/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/koreinahonofukushi/kaigohoken/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/koreinahonofukushi/kaigonintei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/koreinahonofukushi/kaigonintei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/koreinahonofukushi/kaigoservice/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/koreinahonofukushi/kaigoservice/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/koreinahonofukushi/kakushushisetsu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/koreinahonofukushi/kakushushisetsu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/koreinahonofukushi/keikaku_hoshin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/koreinahonofukushi/keikaku_hoshin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/koreinahonofukushi/keikaku_hoshin/yamatoshikoreishahokenfukushikeikaku_kaigohokenjigyokeikaku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/koreinahonofukushi/keikaku_hoshin/yamatoshikoreishahokenfukushikeikaku_kaigohokenjigyokeikaku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/koreinahonofukushi/seinenkokenseido/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/koreinahonofukushi/seinenkokenseido/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/koreinahonofukushi/shingikai_kyogikai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/koreinahonofukushi/shingikai_kyogikai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/koreinahonofukushi/sodammadoguchi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/koreinahonofukushi/sodammadoguchi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/ninchishosupport/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/ninchishosupport/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/sasaeai_fukushi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/sasaeai_fukushi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/sasaeai_fukushi/chiikifukushi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/sasaeai_fukushi/chiikifukushi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/sasaeai_fukushi/chiikifukushi/keikaku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/sasaeai_fukushi/chiikifukushi/keikaku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/sasaeai_fukushi/chiikifukushi/nihonsekijujishayamatoshichiku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/sasaeai_fukushi/chiikifukushi/nihonsekijujishayamatoshichiku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/sasaeai_fukushi/hokenfukushicenter/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/sasaeai_fukushi/hokenfukushicenter/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/sasaeai_fukushi/komoribito/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/sasaeai_fukushi/komoribito/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/sasaeai_fukushi/koza_moyooshi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/sasaeai_fukushi/koza_moyooshi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/sasaeai_fukushi/seikatsushien/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/sasaeai_fukushi/seikatsushien/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/sasaeai_fukushi/shakaifukushihojin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/sasaeai_fukushi/shakaifukushihojin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/sasaeai_fukushi/shingikai_iinkai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/sasaeai_fukushi/shingikai_iinkai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/sasaeai_fukushi/shingikai_iinkai/yamatoshishakaifukushishingikai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/sasaeai_fukushi/shingikai_iinkai/yamatoshishakaifukushishingikai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/iryonoshien/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/iryonoshien/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/kakushujosei_kyufuseido/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/kakushujosei_kyufuseido/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/kakushuwaribiki_zeikinnogemmennado/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/kakushuwaribiki_zeikinnogemmennado/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/ryoikusodan_shido/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/ryoikusodan_shido/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/seishinhokenfukushi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/seishinhokenfukushi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/shingikai_iinkai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/shingikai_iinkai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/shogaifukushiservice/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/shogaifukushiservice/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/shogainikansurukeikaku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/shogainikansurukeikaku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/shogainikansurusodammadoguchi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/shogainikansurusodammadoguchi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/shogaishanokenkotoiryo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/shogaishanokenkotoiryo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/shogaishanoshuroshiento/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/shogaishanoshuroshiento/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/shogaishatecho/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/shogaishatecho/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/shuwa_yoyakuhikki/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/shuwa_yoyakuhikki/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/teate_nenkin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/iryo_kenkofukushi/shogaishafukushi/teate_nenkin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/kosodate_kyoikutokusetsusite_ehonnomachi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/kosodate_kyoikutokusetsusite_ehonnomachi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/hokago_jidoclub/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/hokago_jidoclub/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/kosodate/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/kosodate/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/kosodate/keikaku_jorei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/kosodate/keikaku_jorei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/kosodate/kosodatesupport/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/kosodate/kosodatesupport/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/kosodate/kyogikai_iinkai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/kosodate/kyogikai_iinkai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/kosodate/kyogikai_iinkai/yamatoshikodomo_kosodatekaigi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/kosodate/kyogikai_iinkai/yamatoshikodomo_kosodatekaigi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/kosodate/oyako_kodomotaishoevent/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/kosodate/oyako_kodomotaishoevent/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/kosodate/shogainoaruokosamahenoshien/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/kosodate/shogainoaruokosamahenoshien/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/kyoikuiinkai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/kyoikuiinkai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/kyoikuiinkai/gakko/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/kyoikuiinkai/gakko/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/kyoikuiinkai/gakko/kyoikukatsudonosuishin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/kyoikuiinkai/gakko/kyoikukatsudonosuishin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/kyoikuiinkai/hoshin_keikaku_jorei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/kyoikuiinkai/hoshin_keikaku_jorei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/ninshin_shussan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/ninshin_shussan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/gakko/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/gakko/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/gakko/gakkokyushoku_shokuiku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/gakko/gakkokyushoku_shokuiku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/gakko/gakkokyushoku_shokuiku/gakkokyushokurecipe/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/gakko/gakkokyushoku_shokuiku/gakkokyushokurecipe/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/gakko/gakkokyushoku_shokuiku/shokuiku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/gakko/gakkokyushoku_shokuiku/shokuiku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/gakko/gakkokyushoku_shokuiku/yamatoshigakkokyushokukyodochoriba/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/gakko/gakkokyushoku_shokuiku/yamatoshigakkokyushokukyodochoriba/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/gakko/gakkokyushoku_shokuiku/yamatoshigakkokyushokuten/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/gakko/gakkokyushoku_shokuiku/yamatoshigakkokyushokuten/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/gakko/josei_shien/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/gakko/josei_shien/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/gakko/sotsugyokateininteishiken/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/gakko/sotsugyokateininteishiken/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/hoikuen_youchien/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/hoikuen_youchien/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/hoikuen_youchien/koritsuhoikuen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/hoikuen_youchien/koritsuhoikuen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/keikaku_jorei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/keikaku_jorei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/kyogikai_iinkai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/kyogikai_iinkai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/kyogikai_iinkai/yamatoshigakkokyushokuhikentoiinkai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/kyogikai_iinkai/yamatoshigakkokyushokuhikentoiinkai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/kyogikai_iinkai/yamatoshigakkokyushokukyodochoribauneikyogikai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/nyuen_nyugaku/kyogikai_iinkai/yamatoshigakkokyushokukyodochoribauneikyogikai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/seishonen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/seishonen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/seishonen/kakushushisetsu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/seishonen/kakushushisetsu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/seishonen/seijinshiki/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/seishonen/seijinshiki/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/seishonen/seishonenshidoin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/seishonen/seishonenshidoin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/seishonen/seishonenshidoin/kakuchikukatsudonoshokai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/seishonen/seishonenshidoin/kakuchikukatsudonoshokai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/seishonen/shienjigyo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/seishonen/shienjigyo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/seishonen/shienjigyo/kodomotaikenjigyo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/seishonen/shienjigyo/kodomotaikenjigyo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/seishonen/shienjigyo/teireikai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/seishonen/shienjigyo/teireikai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/seishonen/shienjigyo/wakuwakubokentai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/seishonen/shienjigyo/wakuwakubokentai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/seishonen/shienjigyo/yamatoyusuclub/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/seishonen/shienjigyo/yamatoyusuclub/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/seishonen/sodammadoguchi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kosodate_kyoiku/sonohokanojoho/seishonen/sodammadoguchi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/bohan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/bohan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/bohan/bohanjoho/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/bohan/bohanjoho/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/bohan/bohannotorikumi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/bohan/bohannotorikumi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/bohan/event_koza/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/bohan/event_koza/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/bohan/jorei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/bohan/jorei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/kokuminhogo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/kokuminhogo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/kotsuanzen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/kotsuanzen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/kotsuanzen/anzentaisaku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/kotsuanzen/anzentaisaku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/kotsuanzen/anzentaisaku/kyogikainotorikumi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/kotsuanzen/anzentaisaku/kyogikainotorikumi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/kotsuanzen/anzentaisaku/machigurumianzentenken/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/kotsuanzen/anzentaisaku/machigurumianzentenken/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/kotsuanzen/event_kyoshitsu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/kotsuanzen/event_kyoshitsu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/kotsuanzen/jitenshanoanzenriyo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/kotsuanzen/jitenshanoanzenriyo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/bosaimap_hazardmap/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/bosaimap_hazardmap/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/hinansuru/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/hinansuru/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/hinansuru/jichikaihinanjoichiran/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/hinansuru/jichikaihinanjoichiran/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/hinansuru/kitakukonnanshien/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/hinansuru/kitakukonnanshien/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/hisaisaretahohe/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/hisaisaretahohe/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/keikaku_kyoteinado/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/keikaku_kyoteinado/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/saigai_bosaijoho/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/saigai_bosaijoho/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/saigaijinokenkokanri/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/saigaijinokenkokanri/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/saigainisonaete/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/saigainisonaete/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/saigainisonaete/hojo_josei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/saigainisonaete/hojo_josei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/saigainisonaete/kunren_moyooshi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/saigainisonaete/kunren_moyooshi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/saigainisonaete/standpipeshokashikizai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/saigai_bosai/saigainisonaete/standpipeshokashikizai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/119bantsuho/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/119bantsuho/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/aed/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/aed/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/kasaiyobo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/kasaiyobo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/kasaiyobo/anzenjyoho/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/kasaiyobo/anzenjyoho/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/kasaiyobo/boukabousai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/kasaiyobo/boukabousai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/kasaiyobo/kasaiyobo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/kasaiyobo/kasaiyobo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/kasaiyobo/kikenbutsu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/kasaiyobo/kikenbutsu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/kasaiyobo/shobosetsubi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/kasaiyobo/shobosetsubi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/kunren_koshu_moyooshi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/kunren_koshu_moyooshi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/kyukyuiryo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/kyukyuiryo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/shobokoho/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/shobokoho/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/shoboshokuinsaiyoannai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/shoboshokuinsaiyoannai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/shobososhikitotorikumi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/shobososhikitotorikumi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/shobososhikitotorikumi/shobochosha/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/shobososhikitotorikumi/shobochosha/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/shobososhikitotorikumi/yamatoshishobodan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/shobososhikitotorikumi/yamatoshishobodan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/todokede_shinsei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/bosai_anzenanshin/shobo_kyukyu/todokede_shinsei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yamato.lg.jp/gyosei/kurashi/communitybasu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yamato.lg.jp/gyosei/kurashi/communitybasu/sitemap.dir.xml",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}
