@@ -134,6 +134,7 @@ import { cityGrantsBatch97 } from '@/data/grants/city-batch97';
 import { cityGrantsBatch98 } from '@/data/grants/city-batch98';
 import { cityGrantsBatch99 } from '@/data/grants/city-batch99';
 import { cityGrantsBatch100 } from '@/data/grants/city-batch100';
+import { REDIRECT_SOURCE_SLUGS } from '@/data/redirects';
 
 // ── All grants ──
 // 新規の手動検証データを先頭に置く。slug が重複した場合は先勝ちにして、
@@ -198,6 +199,8 @@ const rawGrants: LegacyGrant[] = [
   ...cityGrantsBatch97, ...cityGrantsBatch98, ...cityGrantsBatch99,
   ...cityGrantsBatch100,
 ];
+
+const canonicalRawGrants = rawGrants.filter((grant) => !REDIRECT_SOURCE_SLUGS.has(grant.slug));
 
 function dedupeGrantsBySlug(grants: LegacyGrant[]): LegacyGrant[] {
   const seen = new Set<string>();
@@ -318,7 +321,7 @@ function sanitizeAuditedLinks(grant: LegacyGrant): LegacyGrant {
 }
 
 const allGrants: NormalizedGrant[] = dedupeGrantsBySlug(
-  rawGrants.map(sanitizeAuditedLinks)
+  canonicalRawGrants.map(sanitizeAuditedLinks)
 ).map(normalizeGrant);
 
 export { getGrantSourceStatus, hasOfficialSource, isGrantExpired, isManuallyVerifiedGrant };
@@ -390,7 +393,7 @@ export function getGrantQualityStats(): {
     officialLinked: sharedGrantStats.officialLinked,
     manuallyVerified: manuallyVerifiedGrants.length,
     unverified: activePublishedGrants.length - officialLinkedGrants.length,
-    duplicatedSlugsRemoved: rawGrants.length - allGrants.length,
+    duplicatedSlugsRemoved: canonicalRawGrants.length - allGrants.length,
     categoryCounts: sharedGrantStats.categoryCounts,
     officialCategoryCounts: sharedGrantStats.officialCategoryCounts,
     categoryAssignmentTotal: sharedGrantStats.categoryAssignmentTotal,

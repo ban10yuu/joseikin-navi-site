@@ -8,7 +8,7 @@ import { getGrantQualityStats, getOfficialLinkedGrants, getRecentlyUpdatedGrants
 import { getEffectiveGrantStatus } from '@/lib/grant-status';
 import { isNewsletterEnabled } from '@/lib/newsletter';
 import { CATEGORY_LABELS, type GrantCategory } from '@/lib/types';
-import { CATEGORY_VISUALS, ILLUSTRATION_VISUALS } from '@/lib/visual-assets';
+import { CATEGORY_VISUALS, HOME_HERO_MOTIFS, ILLUSTRATION_VISUALS } from '@/lib/visual-assets';
 
 const REGIONS = [
   { name: '北海道', prefectures: ['北海道'] },
@@ -41,7 +41,17 @@ export default function HomePage() {
               <h1>地域と目的から、利用できる可能性のある支援制度を探す</h1>
             </div>
             <div className="home-hero-visual" aria-hidden="true">
-              <Image src={ILLUSTRATION_VISUALS.hero} alt="" width={640} height={640} priority sizes="(max-width: 768px) 120px, 300px" />
+              <div className="home-hero-picture">
+                <Image src={ILLUSTRATION_VISUALS.hero} alt="" width={640} height={640} priority sizes="(max-width: 768px) 120px, 300px" />
+              </div>
+              <ul className="home-hero-motifs">
+                {HOME_HERO_MOTIFS.map((motif) => (
+                  <li key={motif.label}>
+                    <Image src={motif.src} alt="" width={48} height={48} sizes="48px" />
+                    <span>{motif.label}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
             <p className="home-hero-description">国・自治体・民間団体の公式情報をもとに、対象、支援内容、申請期限、確認先を整理しています。</p>
           </div>

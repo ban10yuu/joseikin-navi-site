@@ -3,6 +3,8 @@ import { existsSync } from 'node:fs';
 import { describe, it } from 'node:test';
 import {
   CATEGORY_VISUALS,
+  HOME_HERO_MOTIFS,
+  HOME_SEARCH_GUIDE_VISUALS,
   ILLUSTRATION_VISUALS,
   getCategoryVisual,
 } from './visual-assets.ts';
@@ -29,6 +31,26 @@ describe('visual assets', () => {
   it('カテゴリ画像をすべて公開ディレクトリに持つ', () => {
     Object.values(CATEGORY_VISUALS).forEach((assetPath) => {
       assert.equal(existsSync(projectPublicPath(assetPath)), true, assetPath);
+    });
+  });
+
+  it('トップ冒頭で使う生成モチーフを重複なく公開ディレクトリに持つ', () => {
+    const paths = HOME_HERO_MOTIFS.map(({ src }) => src);
+    assert.equal(paths.length, 4);
+    assert.equal(new Set(paths).size, 4);
+    HOME_HERO_MOTIFS.forEach(({ label, src }) => {
+      assert.ok(label.length > 0);
+      assert.equal(existsSync(projectPublicPath(src)), true, src);
+    });
+  });
+
+  it('検索手順の3項目に生成モチーフを割り当てる', () => {
+    assert.deepEqual(
+      HOME_SEARCH_GUIDE_VISUALS.map(({ title }) => title),
+      ['対象を選ぶ', '地域・目的を入力', '公式情報を確認'],
+    );
+    HOME_SEARCH_GUIDE_VISUALS.forEach(({ src }) => {
+      assert.equal(existsSync(projectPublicPath(src)), true, src);
     });
   });
 });

@@ -11,3 +11,10 @@ export const REDIRECTS: SiteRedirect[] = redirectData.map(({ source, destination
   destination,
   statusCode: statusCode as 301,
 }));
+
+export const REDIRECT_SOURCE_SLUGS = new Set(
+  REDIRECTS.flatMap(({ source }) => {
+    const match = source.match(/^\/grant\/([^/]+)\/$/);
+    return match ? [match[1]] : [];
+  }),
+);

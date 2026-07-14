@@ -1,7 +1,9 @@
 'use client';
 
+import Image from 'next/image';
 import { useState } from 'react';
 import { PREFECTURES } from '@/lib/types';
+import { HOME_SEARCH_GUIDE_VISUALS } from '@/lib/visual-assets';
 
 type Audience = 'personal' | 'business';
 
@@ -90,6 +92,19 @@ export default function HomeGrantSearch({
           公式リンク付き <strong>{officialLinkedCount.toLocaleString('ja-JP')}件</strong>
         </p>
       </div>
+
+      <ol className="home-search-guide" aria-label="制度を探して公式情報を確認するまでの流れ">
+        {HOME_SEARCH_GUIDE_VISUALS.map((item, index) => (
+          <li key={item.title}>
+            <span className="home-search-guide-number">{index + 1}</span>
+            <Image src={item.src} alt="" width={56} height={56} sizes="(max-width: 768px) 38px, 50px" />
+            <span className="home-search-guide-copy">
+              <strong>{item.title}</strong>
+              <small>{item.description}</small>
+            </span>
+          </li>
+        ))}
+      </ol>
 
       <form action="/grants/" method="get" role="search" aria-label="助成金・補助金を検索" data-analytics-event="search_submit" data-page-type="home">
         <fieldset className="home-search-step">
