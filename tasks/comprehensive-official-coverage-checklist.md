@@ -7662,3 +7662,48 @@
     - 受付終了、受付休止、404、金額又は受付状況不足、PDF精査待ち、カテゴリ導線、様式のみ、国制度色が強い候補は第2巡候補に残す。
   - 次:
     - 東京都公式棚卸し005として、13117北区、13118荒川区、13119板橋区、13120練馬区を自治体コード順に確認する。
+
+- 東京都公式棚卸し005
+  - 対象:
+    - 13117 北区、13118 荒川区、13119 板橋区、13120 練馬区。
+  - 方法:
+    - 公式トップ到達を4自治体すべて確認し、候補531件を抽出した。
+    - 候補が150件を超えたため、本文スニペット531URLを保存し、制度強語・金額・対象条件・受付表現を優先して再確認した。
+    - 北区は防犯機器等購入、エアコン購入費、認証保育所・認可外保育施設保育料、再生可能エネルギー及び省エネルギー機器、商店街向け街頭防犯設備を公式本文/PDFで確認した。
+    - 荒川区は住まいの防犯対策、エコ助成、エアコン購入費、私立幼稚園等保護者補助、GX経営推進支援を公式本文で確認した。
+    - 板橋区は住民税非課税世帯等エアコン購入費、住まいの防犯対策、認証保育所等保育料負担軽減、製造業設備投資、里帰り出産等妊婦健康診査等を公式本文/PDFで確認した。
+    - 練馬区は住まいの防犯対策、カーボンニュートラル化設備、認可外保育施設保育料、介護福祉士資格取得、介護職員実務者研修受講料を公式本文/PDFで確認した。
+    - カテゴリ導線、様式のみ、金額又は受付状況が公式本文だけで確定できない候補、年度外の可能性がある候補は第2巡候補に残す。
+  - 採用:
+    - 北区5件: 防犯機器等購入緊急補助事業、エアコン購入費助成、認証保育所及び認可外保育施設保育料負担軽減補助金、再生可能エネルギー及び省エネルギー機器等導入助成、街頭防犯設備設置のための補助金（商店街向け）。
+    - 荒川区5件: 住まいの防犯対策補助金、エコ助成事業、エアコン購入費等助成、私立幼稚園等園児保護者補助金、GX経営推進支援事業補助金。
+    - 板橋区5件: 住民税非課税世帯等エアコン購入費等助成事業、住まいの防犯対策補助金、認証保育所等保育料負担軽減助成制度、製造業設備投資助成金、里帰り出産等による妊婦健康診査等助成金。
+    - 練馬区5件: 住まいの防犯対策緊急助成事業、カーボンニュートラル化設備設置補助金、認可外保育施設保育料補助、介護福祉士資格取得支援助成、介護職員実務者研修受講料助成。
+  - 生成ファイル:
+    - `tasks/discovery/tokyo-official-coverage-005-municipalities.json`
+    - `tasks/discovery/tokyo-official-coverage-005-13117-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-005-13118-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-005-13119-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-005-13120-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-005-13117-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-005-13118-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-005-13119-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-005-13120-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-005-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-005-target-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-005-selected-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-005-selected-main.json`
+    - `tasks/discovery/tokyo-official-coverage-005-url-check.json`
+    - `tasks/discovery/tokyo-official-coverage-005.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（20件、`verified-local-misc-2026.ts` 内で各1件）。
+    - 公式URL到達: pass（20 official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 11075、officialLinkedActive 11037、manuallyVerifiedActive 11037、東京都 localOfficial 459）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 受付終了、受付休止、404、金額又は受付状況不足、PDF精査待ち、カテゴリ導線、様式のみ、国制度色が強い候補は第2巡候補に残す。
+  - 次:
+    - 東京都公式棚卸し006として、13121足立区、13122葛飾区、13123江戸川区、13201八王子市を自治体コード順に確認する。

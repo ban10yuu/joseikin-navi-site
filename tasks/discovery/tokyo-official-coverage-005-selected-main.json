@@ -1,0 +1,256 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-005",
+  "prefecture": "東京都",
+  "generatedAt": "2026-07-14T02:46:04.649Z",
+  "municipalities": [
+    {
+      "code": "13117",
+      "name": "北区",
+      "officialBaseUrl": "https://www.city.kita.lg.jp/"
+    },
+    {
+      "code": "13118",
+      "name": "荒川区",
+      "officialBaseUrl": "https://www.city.arakawa.tokyo.jp/"
+    },
+    {
+      "code": "13119",
+      "name": "板橋区",
+      "officialBaseUrl": "https://www.city.itabashi.tokyo.jp/"
+    },
+    {
+      "code": "13120",
+      "name": "練馬区",
+      "officialBaseUrl": "https://www.city.nerima.tokyo.jp/"
+    }
+  ],
+  "selectedCount": 20,
+  "selectedByMunicipality": {
+    "北区": 5,
+    "荒川区": 5,
+    "板橋区": 5,
+    "練馬区": 5
+  },
+  "selected": [
+    {
+      "slug": "kita-home-security-equipment-subsidy-2026",
+      "title": "北区 防犯機器等購入緊急補助事業",
+      "organization": "北区",
+      "municipalityCode": "13117",
+      "officialUrl": "https://www.city.kita.lg.jp/safety/security/1002751/1025571.html",
+      "maxAmount": "購入・設置費用の4分の3、上限2万円",
+      "eligibility": "北区の住民基本台帳に登録され現に居住する世帯主又は準ずる方で、令和7年度同事業の交付決定を受けていない世帯が対象です。",
+      "applicationPeriod": "令和8年5月1日から令和9年2月26日まで。予算上限到達時は受付終了。",
+      "sourceNote": "2026年7月14日に北区公式ページを確認。北区居住世帯、令和8年4月1日以降購入・設置、補助率4分の3、上限2万円、申請2026年5月1日から2027年2月26日、予算到達終了を確認。"
+    },
+    {
+      "slug": "kita-air-conditioner-purchase-subsidy-2026",
+      "title": "北区 エアコン購入費助成",
+      "organization": "北区",
+      "municipalityCode": "13117",
+      "officialUrl": "https://www.city.kita.lg.jp/socialcare-health/welfare/1018289/1025282/1025283.html",
+      "maxAmount": "本体購入費・設置費等合計で上限10万円",
+      "eligibility": "住民税非課税の高齢者・障害者・児童扶養手当受給世帯等、又は生活保護受給世帯で、使用可能な冷房機能付きエアコンがない世帯等が対象です。",
+      "applicationPeriod": "令和8年5月7日から令和8年9月30日まで。",
+      "sourceNote": "2026年7月14日に北区公式ページを確認。住民税非課税の高齢者・障害者・児童扶養手当受給世帯等、生活保護受給世帯、使用可能エアコンなし等、上限10万円、受付2026年5月7日から9月30日を確認。"
+    },
+    {
+      "slug": "kita-certified-nursery-fee-subsidy-2026",
+      "title": "北区 認証保育所及び認可外保育施設保育料負担軽減補助金",
+      "organization": "北区",
+      "municipalityCode": "13117",
+      "officialUrl": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/1002976/1003736/1026158/1025508.html",
+      "maxAmount": "0歳から2歳児の課税世帯は月額上限8万円等",
+      "eligibility": "保育を必要とする北区の子どもが認証保育所又は認可外保育施設を利用し、施設区分・年齢・課税状況等の要件を満たす世帯が対象です。",
+      "applicationPeriod": "利用施設・分類に応じて郵送又は窓口で申請・請求が必要。",
+      "sourceNote": "2026年7月14日に北区公式ページと公式PDFを確認。認証保育所・認可外保育施設利用、0から2歳児課税世帯上限月8万円、非課税世帯合計上限月8万円、3から5歳児合計上限月7万7千円を確認。"
+    },
+    {
+      "slug": "kita-renewable-energy-equipment-subsidy-2026",
+      "title": "北区 再生可能エネルギー及び省エネルギー機器等導入助成",
+      "organization": "北区",
+      "municipalityCode": "13117",
+      "officialUrl": "https://www.city.kita.lg.jp/dev-environment/environment/1010099/1010102.html",
+      "maxAmount": "中小企業者等はEMS認証取得事業所で上限150万円等",
+      "eligibility": "北区内の住宅・事業所等に補助対象の再生可能エネルギー・省エネルギー機器等を導入し、設備別要件を満たす個人・中小企業者等が対象です。",
+      "applicationPeriod": "工事着工前に交付申請が必要。令和8年度分は予定金額到達により受付終了。",
+      "sourceNote": "2026年7月14日に北区公式ページと公式PDFを確認。令和8年度は予定金額到達により受付終了、工事着工前申請、一般用太陽光上限24万円、蓄電池上限12万円、中小企業者等上限100万円、EMS認証取得事業所上限150万円を確認。"
+    },
+    {
+      "slug": "kita-shopping-street-security-camera-subsidy-2026",
+      "title": "北区 街頭防犯設備設置のための補助金（商店街向け）",
+      "organization": "北区",
+      "municipalityCode": "13117",
+      "officialUrl": "https://www.city.kita.lg.jp/safety/security/1002751/1002752.html",
+      "maxAmount": "総事業費の12分の11、上限825万円",
+      "eligibility": "北区内の商店街等が街頭防犯設備を設置する事業で、設置場所・台数図面、見積書、設備性能資料等を整えた事業が対象です。",
+      "applicationPeriod": "令和8年8月3日から令和8年9月11日まで。",
+      "sourceNote": "2026年7月14日に北区公式ページを確認。商店街向け、防犯設備設置、補助率12分の11、補助上限825万円、総事業費上限900万円、申請2026年8月3日から9月11日を確認。"
+    },
+    {
+      "slug": "arakawa-home-security-subsidy-2026",
+      "title": "荒川区 住まいの防犯対策補助金",
+      "organization": "荒川区",
+      "municipalityCode": "13118",
+      "officialUrl": "https://www.city.arakawa.tokyo.jp/a014/bouhan/hanzaitaisaku/akisu.html",
+      "maxAmount": "共同住宅は購入・設置費用の2分の1、上限15万円等",
+      "eligibility": "荒川区内の住宅・共同住宅で、防犯機器等を購入・設置し、住宅区分ごとの要件を満たす個人、所有者、管理者等が対象です。",
+      "applicationPeriod": "令和8年度受付中。申請書類と領収書等を添えて申請が必要。",
+      "sourceNote": "2026年7月14日に荒川区公式ページを確認。住宅・共同住宅の防犯対策、共同住宅は共用部分設置、補助率2分の1、5戸以下上限3万円、6戸以上上限15万円、令和8年度受付中を確認。"
+    },
+    {
+      "slug": "arakawa-eco-subsidy-2026",
+      "title": "荒川区 エコ助成事業",
+      "organization": "荒川区",
+      "municipalityCode": "13118",
+      "officialUrl": "https://www.city.arakawa.tokyo.jp/a024/kankyou/ekojyosei.html",
+      "maxAmount": "集合住宅の高断熱窓改修は上限375万円等",
+      "eligibility": "荒川区内の住宅・集合住宅等に補助対象の省エネ設備や改修を導入し、対象設備ごとの要件を満たす個人・管理組合等が対象です。",
+      "applicationPeriod": "令和8年度受付中。予算上限到達時は受付終了。",
+      "sourceNote": "2026年7月14日に荒川区公式ページを確認。令和8年度エコ助成事業、高断熱窓・ドア、省エネエアコン、宅配ボックス等、個人高断熱窓区内業者上限15万円、集合住宅高断熱窓上限375万円、予算到達時終了を確認。"
+    },
+    {
+      "slug": "arakawa-low-income-air-conditioner-subsidy-2026",
+      "title": "荒川区 エアコン購入費等助成",
+      "organization": "荒川区",
+      "municipalityCode": "13118",
+      "officialUrl": "https://www.city.arakawa.tokyo.jp/a026/fukushisuishin/airconjyosei/eakonnjyoseikinkaisi.html",
+      "maxAmount": "本体購入費・設置費等合計で上限10万円",
+      "eligibility": "要件を満たす低所得世帯等で、自宅に使用可能なエアコンがない等の条件を満たし、区指定店舗で対象エアコンを購入する世帯が対象です。",
+      "applicationPeriod": "購入前に事前相談が必要。申請期限は令和8年12月28日まで。",
+      "sourceNote": "2026年7月14日に荒川区公式ページを確認。購入前事前相談、区指定店舗、省エネ多段階評価点2.0以上、本体上限7万8千円、合計上限10万円、申請期限2026年12月28日を確認。"
+    },
+    {
+      "slug": "arakawa-private-kindergarten-parent-subsidy-2026",
+      "title": "荒川区 私立幼稚園等園児保護者補助金",
+      "organization": "荒川区",
+      "municipalityCode": "13118",
+      "officialUrl": "https://www.city.arakawa.tokyo.jp/a035/kosodate/hoikuen/hojo.html",
+      "maxAmount": "入園料・保育料補助は年額上限45万6,800円等",
+      "eligibility": "令和8年度に私立幼稚園等へ通園する園児の保護者で、荒川区の要件を満たす方が対象です。",
+      "applicationPeriod": "令和8年度対象園児について、園又は区の案内に従い申請。",
+      "sourceNote": "2026年7月14日に荒川区公式ページを確認。令和8年度対象園児、私立幼稚園等保護者、入園料・保育料補助年額上限45万6,800円等、給食費月額上限7,500円を確認。"
+    },
+    {
+      "slug": "arakawa-gx-management-subsidy-2026",
+      "title": "荒川区 GX経営推進支援事業補助金",
+      "organization": "荒川区",
+      "municipalityCode": "13118",
+      "officialUrl": "https://www.city.arakawa.tokyo.jp/a021/jigyousha/jigyouunei/gxkeieisuishinshien.html",
+      "maxAmount": "特例は対象経費の3分の2、上限200万円",
+      "eligibility": "荒川区内中小企業者で、20万円以上のGX設備投資を行い、事前に専門家のアドバイスを受ける事業者が対象です。",
+      "applicationPeriod": "申請前に専門家相談が必要。交付決定後に設備導入・支払いを行うこと。",
+      "sourceNote": "2026年7月14日に荒川区公式ページを確認。区内中小企業者、20万円以上の設備投資、事前専門家相談、一般補助率2分の1上限100万円、特例補助率3分の2上限200万円、交付決定前支払い・設置完了対象外を確認。"
+    },
+    {
+      "slug": "itabashi-low-income-air-conditioner-subsidy-2026",
+      "title": "板橋区 住民税非課税世帯等エアコン購入費等助成事業",
+      "organization": "板橋区",
+      "municipalityCode": "13119",
+      "officialUrl": "https://www.city.itabashi.tokyo.jp/kenko/fukushi/1064146.html",
+      "maxAmount": "1世帯1台、上限10万円",
+      "eligibility": "住民税非課税世帯等で、居住住宅にエアコンが1台もない、故障している、製造から10年以上経過している、新設が必要等の要件を満たす世帯が対象です。",
+      "applicationPeriod": "令和8年7月1日から令和8年12月28日必着まで。請求期限は令和9年1月29日必着。",
+      "sourceNote": "2026年7月14日に板橋区公式ページを確認。住民税非課税世帯等、エアコンなし・故障・製造10年以上等、1世帯1台上限10万円、申請2026年7月1日から12月28日必着、請求2027年1月29日必着を確認。"
+    },
+    {
+      "slug": "itabashi-home-security-equipment-subsidy-2026",
+      "title": "板橋区 住まいの防犯対策補助金",
+      "organization": "板橋区",
+      "municipalityCode": "13119",
+      "officialUrl": "https://www.city.itabashi.tokyo.jp/bousai/bouhan/torikumi/1057420.html",
+      "maxAmount": "購入・設置費用の4分の3、上限3万円",
+      "eligibility": "申請日時点で板橋区に住民登録があり、その住所に居住する世帯主又は準ずる方が対象です。1世帯1回です。",
+      "applicationPeriod": "令和8年6月1日から令和9年2月28日まで。予算上限到達時は早期終了。",
+      "sourceNote": "2026年7月14日に板橋区公式ページを確認。区内居住世帯、令和8年4月1日以降領収、防犯機器購入・設置、補助率4分の3、上限3万円、申請2026年6月1日から2027年2月28日を確認。"
+    },
+    {
+      "slug": "itabashi-certified-nursery-fee-subsidy-2026",
+      "title": "板橋区 認証保育所等保育料負担軽減助成制度",
+      "organization": "板橋区",
+      "municipalityCode": "13119",
+      "officialUrl": "https://www.city.itabashi.tokyo.jp/kosodate/teate/shisetsu/1056859.html",
+      "maxAmount": "0歳から2歳児の課税世帯は月額上限8万円等",
+      "eligibility": "板橋区の子どもが認証保育所等を利用し、年齢・課税状況・保育の必要性等の要件を満たす世帯が対象です。",
+      "applicationPeriod": "利用状況に応じて申請が必要。月極保育料と助成上限を比較して低い方を助成。",
+      "sourceNote": "2026年7月14日に板橋区公式ページを確認。0から2歳児課税世帯月額8万円、非課税世帯は合計最大8万円、3から5歳児は合計最大7万7千円、月極保育料と比較して低い方、給食費・延長保育料等対象外を確認。"
+    },
+    {
+      "slug": "itabashi-manufacturing-equipment-investment-subsidy-2026",
+      "title": "板橋区 製造業設備投資助成金",
+      "organization": "板橋区",
+      "municipalityCode": "13119",
+      "officialUrl": "https://www.city.itabashi.tokyo.jp/_res/projects/default_project/_page_/001/056/066/setsubi.yoryo.r8.pdf",
+      "maxAmount": "特例枠は対象経費の3分の2、上限666万円",
+      "eligibility": "板橋区内の製造業事業者で、事前に中小企業等経営強化法の先端設備導入計画認定を受けた設備投資等が対象です。",
+      "applicationPeriod": "令和8年4月20日から令和8年11月30日まで。",
+      "sourceNote": "2026年7月14日に板橋区公式PDFを確認。製造業事業者、先端設備導入計画認定設備投資、受付2026年4月20日から11月30日、通常枠2分の1上限500万円、特例枠3分の2上限666万円を確認。"
+    },
+    {
+      "slug": "itabashi-homecoming-pregnancy-checkup-subsidy-2026",
+      "title": "板橋区 里帰り出産等による妊婦健康診査等助成金",
+      "organization": "板橋区",
+      "municipalityCode": "13119",
+      "officialUrl": "https://www.city.itabashi.tokyo.jp/kosodate/teate/ninshin/1004615.html",
+      "maxAmount": "妊婦健診等の区分別限度額合計は最大12万5,250円程度",
+      "eligibility": "里帰り出産等で都内委託医療機関以外を受診し、受診日に板橋区に住民登録がある妊産婦・乳児等が対象です。",
+      "applicationPeriod": "出産日から1年以内に申請。原則1回でまとめて申請。",
+      "sourceNote": "2026年7月14日に板橋区公式ページを確認。受診日に板橋区住民登録、令和8年4月1日以降は産婦健診・1か月児健診の一部助成開始、妊婦健診1回目1万1,670円、2から14回目5,460円、産婦健診5,000円最大2回、1か月児健診6,000円、出産日から1年以内申請を確認。"
+    },
+    {
+      "slug": "nerima-home-security-equipment-subsidy-2026",
+      "title": "練馬区 住まいの防犯対策緊急助成事業",
+      "organization": "練馬区",
+      "municipalityCode": "13120",
+      "officialUrl": "https://www.city.nerima.tokyo.jp/kurashi/bosai/bohan/R8sumaibouhantaisaku.html",
+      "maxAmount": "購入・設置費用の4分の3、上限3万円",
+      "eligibility": "練馬区内に住民登録があり、その住宅に現に居住している方が対象です。戸建て・共同住宅・賃貸住宅も対象ですが、管理者や管理組合など居住者以外は対象外です。",
+      "applicationPeriod": "令和8年4月21日から令和9年2月26日消印有効まで。予算上限到達時は途中終了。",
+      "sourceNote": "2026年7月14日に練馬区公式ページを確認。区内居住者、戸建て・共同住宅・賃貸可、管理者等は対象外、補助率4分の3、上限3万円、申請2026年4月21日から2027年2月26日消印有効、予算到達終了を確認。"
+    },
+    {
+      "slug": "nerima-carbon-neutral-equipment-subsidy-2026",
+      "title": "練馬区 カーボンニュートラル化設備設置補助金",
+      "organization": "練馬区",
+      "municipalityCode": "13120",
+      "officialUrl": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/kankyo/hojo.files/panfuretto.pdf",
+      "maxAmount": "管理組合のLED照明改修は上限75万円等",
+      "eligibility": "練馬区内の住宅・集合住宅等に補助対象設備を設置し、設備別の対象者・施工・書類要件を満たす個人、管理組合等が対象です。",
+      "applicationPeriod": "設置完了後、必要書類を郵送又は持参。不足・不備のない申請を到着順で受付。",
+      "sourceNote": "2026年7月14日に練馬区公式PDFを確認。設置完了後申請、太陽光発電8万円、エネファーム5万円、エコキュート3万円、管理組合LED照明補助率2分の1で上限75万円、高断熱窓・ドア区内施工上限20万円を確認。"
+    },
+    {
+      "slug": "nerima-unlicensed-nursery-fee-subsidy-2026",
+      "title": "練馬区 認可外保育施設保育料補助",
+      "organization": "練馬区",
+      "municipalityCode": "13120",
+      "officialUrl": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/shinshien/youhomusyou/mushoka_ninkagai.html",
+      "maxAmount": "0歳から2歳児の課税世帯は月額上限8万円等",
+      "eligibility": "練馬区に住所を有する子どもが確認を受けた認可外保育施設、認証保育所、企業主導型保育施設等を利用し、年齢・課税状況等の要件を満たす世帯が対象です。",
+      "applicationPeriod": "区内施設利用者は施設経由等で申請。利用月・施設区分に応じて手続き。",
+      "sourceNote": "2026年7月14日に練馬区公式ページを確認。練馬区住所の子ども、確認を受けた認可外保育施設等、令和7年9月以降利用分、0から2歳児非課税上限月3万8千円、課税上限月8万円、3から5歳児上限月4万円、施設等利用給付併用可を確認。"
+    },
+    {
+      "slug": "nerima-care-worker-certification-subsidy-2026",
+      "title": "練馬区 介護福祉士資格取得支援助成",
+      "organization": "練馬区",
+      "municipalityCode": "13120",
+      "officialUrl": "https://www.city.nerima.tokyo.jp/hokenfukushi/kaigohoken/joseiseido/kaigohukushishi2022.html",
+      "maxAmount": "受験手数料・登録手数料合計2万1,700円",
+      "eligibility": "介護福祉士試験に合格し登録証の交付を受け、登録日から3か月以内に区内介護・障害福祉サービス事業所へ就労し、登録日以後6か月以上継続就労かつ従事90日以上の方が対象です。",
+      "applicationPeriod": "要件を満たした日の翌日から3か月以内。予算上限到達時は終了。",
+      "sourceNote": "2026年7月14日に練馬区公式ページを確認。令和8年度、介護福祉士試験合格・登録証交付、登録日から3か月以内の区内事業所就労、6か月以上継続就労かつ従事90日以上、受験手数料1万8,380円と登録手数料3,320円全額、申請期限要件満了翌日から3か月以内を確認。"
+    },
+    {
+      "slug": "nerima-practical-care-worker-training-subsidy-2026",
+      "title": "練馬区 介護職員実務者研修受講料助成",
+      "organization": "練馬区",
+      "municipalityCode": "13120",
+      "officialUrl": "https://www.city.nerima.tokyo.jp/hokenfukushi/kaigohoken/joseiseido/zitsumusya2022.html",
+      "maxAmount": "受講料の9割、上限10万円",
+      "eligibility": "介護職員実務者研修を修了し、研修修了日から3か月以内に区内介護・障害福祉サービス事業所へ就労し、修了日以後6か月以上継続就労かつ従事90日以上の方が対象です。",
+      "applicationPeriod": "要件を満たした日の翌日から3か月以内。予算上限到達時は終了。",
+      "sourceNote": "2026年7月14日に練馬区公式ページを確認。令和8年度、実務者研修修了、修了日から3か月以内の区内事業所就労、6か月以上継続就労かつ従事90日以上、受講料9割上限10万円、申請期限要件満了翌日から3か月以内を確認。"
+    }
+  ]
+}

@@ -1,0 +1,3845 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-005-13119",
+  "prefecture": "東京都",
+  "generatedAt": "2026-07-14T02:29:24.850Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 111,
+  "results": [
+    {
+      "code": "13119",
+      "name": "板橋区",
+      "officialBaseUrl": "https://www.city.itabashi.tokyo.jp/",
+      "discoveredUrlCount": 300,
+      "candidateCount": 111,
+      "strongCandidateCount": 2,
+      "lowPriorityCandidateCount": 109,
+      "candidates": [
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月4日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/index.html",
+          "status": 200,
+          "title": "手続き・くらし",
+          "h1": "手続き・くらし",
+          "updatedAt": "2023年2月15日",
+          "keywordHits": [
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/1058586.html",
+          "status": 200,
+          "title": "Web口座振替受付サービス",
+          "h1": "Web口座振替受付サービス",
+          "updatedAt": "2026年4月10日",
+          "keywordHits": [
+            "貸付",
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/index.html",
+          "status": 200,
+          "title": "税金",
+          "h1": "税金",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/index.html",
+          "status": 200,
+          "title": "住まい",
+          "h1": "住まい",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kifu/index.html",
+          "status": 200,
+          "title": "ふるさと納税・寄附",
+          "h1": "ふるさと納税・寄附",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/1001715.html",
+          "status": 200,
+          "title": "行政不服審査法に基づく審査請求",
+          "h1": "行政不服審査法に基づく審査請求",
+          "updatedAt": "2024年7月9日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kenko/index.html",
+          "status": 200,
+          "title": "健康・医療・福祉",
+          "h1": "健康・医療・福祉",
+          "updatedAt": "2023年2月15日",
+          "keywordHits": [
+            "貸付",
+            "医療費助成",
+            "事業者",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kenko/1002502.html",
+          "status": 200,
+          "title": "医療費助成",
+          "h1": "医療費助成",
+          "updatedAt": "2025年9月3日",
+          "keywordHits": [
+            "助成金",
+            "医療費助成",
+            "妊婦"
+          ],
+          "candidateScore": 16,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kenko/soudan/index.html",
+          "status": 200,
+          "title": "健康・福祉の相談",
+          "h1": "健康・福祉の相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kenko/kenshin/index.html",
+          "status": 200,
+          "title": "健（検）診・予防接種",
+          "h1": "健（検）診・予防接種",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kenko/kansensho/index.html",
+          "status": 200,
+          "title": "感染症",
+          "h1": "感染症",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kenko/shogai/index.html",
+          "status": 200,
+          "title": "障がいのある方へ・障がい福祉",
+          "h1": "障がいのある方へ・障がい福祉",
+          "updatedAt": "令和6年4月1日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kenko/kaigo/index.html",
+          "status": 200,
+          "title": "介護",
+          "h1": "介護",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kenko/fukushi/index.html",
+          "status": 200,
+          "title": "社会福祉",
+          "h1": "社会福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kenko/1042855/index.html",
+          "status": 200,
+          "title": "計画（健康・医療・福祉）",
+          "h1": "計画（健康・医療・福祉）",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kosodate/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年5月29日",
+          "keywordHits": [
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kosodate/kenko/index.html",
+          "status": 200,
+          "title": "子どもの健康",
+          "h1": "子どもの健康",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kosodate/hitorioya/index.html",
+          "status": 200,
+          "title": "ひとり親家庭等への支援",
+          "h1": "ひとり親家庭等への支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 10,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kosodate/soudan/index.html",
+          "status": 200,
+          "title": "子育て相談窓口",
+          "h1": "子育て相談窓口",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kosodate/teate/index.html",
+          "status": 200,
+          "title": "子どもの手当・助成・支援",
+          "h1": "子どもの手当・助成・支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kosodate/shisetsu/index.html",
+          "status": 200,
+          "title": "子育て関連施設",
+          "h1": "子育て関連施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kyoikuiinkai/index.html",
+          "status": 200,
+          "title": "板橋区教育委員会",
+          "h1": "板橋区教育委員会",
+          "updatedAt": "2026年6月3日",
+          "keywordHits": [
+            "助成金",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kosodate/1060568/index.html",
+          "status": 200,
+          "title": "各種計画（子ども関連）",
+          "h1": "各種計画（子ども関連）",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/bunka/index.html",
+          "status": 200,
+          "title": "文化・スポーツ・産業",
+          "h1": "文化・スポーツ・産業",
+          "updatedAt": "2023年2月15日",
+          "keywordHits": [
+            "補助金",
+            "免除",
+            "創業",
+            "起業",
+            "事業者"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/bunka/1005245/index.html",
+          "status": 200,
+          "title": "体育施設",
+          "h1": "体育施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/bunka/nyusatsu/index.html",
+          "status": 200,
+          "title": "入札・契約",
+          "h1": "入札・契約",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/bunka/1061832/index.html",
+          "status": 200,
+          "title": "いたばし産業情報サイト",
+          "h1": "いたばし産業情報サイト",
+          "updatedAt": "2026年7月14日",
+          "keywordHits": [
+            "補助金",
+            "創業",
+            "起業"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/bunka/kigyo/index.html",
+          "status": 200,
+          "title": "起業・創業支援",
+          "h1": "起業・創業支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "起業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/bunka/shigoto/index.html",
+          "status": 200,
+          "title": "仕事・就労支援",
+          "h1": "仕事・就労支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/bousai/index.html",
+          "status": 200,
+          "title": "防災・環境・まちづくり",
+          "h1": "防災・環境・まちづくり",
+          "updatedAt": "2023年2月15日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "農業",
+            "福祉",
+            "耐震",
+            "省エネ"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/bousai/bousai/index.html",
+          "status": 200,
+          "title": "防災",
+          "h1": "防災",
+          "updatedAt": "令和6年3月21日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/bousai/universal/index.html",
+          "status": 200,
+          "title": "ユニバーサルデザイン",
+          "h1": "ユニバーサルデザイン",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/bousai/tochi/index.html",
+          "status": 200,
+          "title": "土地・建築",
+          "h1": "土地・建築",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "耐震",
+            "省エネ"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/bousai/1052744/index.html",
+          "status": 200,
+          "title": "かわまちづくり",
+          "h1": "かわまちづくり",
+          "updatedAt": "令和6年1月30日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/bousai/nougyo/index.html",
+          "status": 200,
+          "title": "農業・農園",
+          "h1": "農業・農園",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kusei/index.html",
+          "status": 200,
+          "title": "区政情報",
+          "h1": "区政情報",
+          "updatedAt": "2023年2月15日",
+          "keywordHits": [
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kusei/soshiki/index.html",
+          "status": 200,
+          "title": "区の組織",
+          "h1": "区の組織",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kusei/shingikai/index.html",
+          "status": 200,
+          "title": "審議会・懇談会・諮問機関",
+          "h1": "審議会・懇談会・諮問機関",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "令和8年7月11日",
+          "keywordHits": [
+            "医療費助成",
+            "創業",
+            "起業",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kenko/shokuiku/shien/1002456.html",
+          "status": 200,
+          "title": "熱中症にご注意ください！",
+          "h1": "熱中症にご注意ください！",
+          "updatedAt": "2026年7月7日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/faq/index.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2020年1月25日",
+          "keywordHits": [
+            "創業",
+            "起業",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/bunka/1061832/1061839/1065040/index.html",
+          "status": 200,
+          "title": "株式会社全東信の破産手続開始及び中東情勢の緊迫化などの影響を受けている区内中小企業の相談窓口",
+          "h1": "株式会社全東信の破産手続開始及び中東情勢の緊迫化などの影響を受けている区内中小企業の相談窓口",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kenko/fukushi/1064146.html",
+          "status": 200,
+          "title": "令和8年度非課税等世帯エアコン購入費助成",
+          "h1": "令和8年度非課税等世帯エアコン購入費助成",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "助成金",
+            "住宅",
+            "事業者",
+            "福祉",
+            "省エネ"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/community/1061052.html",
+          "status": 200,
+          "title": "いたばし区民生活応援事業のご案内",
+          "h1": "いたばし区民生活応援事業のご案内",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "支援金",
+            "事業者"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kenko/shokuiku/shien/1003019.html",
+          "status": 200,
+          "title": "運動",
+          "h1": "運動",
+          "updatedAt": "2026年7月13日",
+          "keywordHits": [
+            "通学"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kenko/kaigo/1003726/1003727.html",
+          "status": 200,
+          "title": "介護保険事業者 実地指導事前提出資料等について",
+          "h1": "介護保険事業者 実地指導事前提出資料等について",
+          "updatedAt": "2026年7月13日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/koho/1062992/1065075/index.html",
+          "status": 200,
+          "title": "広報いたばし（令和8年7月4日号）",
+          "h1": "広報いたばし（令和8年7月4日号）",
+          "updatedAt": "2026年7月13日",
+          "keywordHits": [
+            "福祉",
+            "就学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kusei/publiccomment/1007837.html",
+          "status": 200,
+          "title": "付属機関などの傍聴者の募集案件一覧",
+          "h1": "付属機関などの傍聴者の募集案件一覧",
+          "updatedAt": "2026年7月9日",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kusei/publiccomment/1007785.html",
+          "status": 200,
+          "title": "パブリックコメント等区民参加情報配信制度",
+          "h1": "パブリックコメント等区民参加情報配信制度",
+          "updatedAt": "2025年2月1日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/newslist.html",
+          "status": 200,
+          "title": "新着更新情報",
+          "h1": "新着更新情報",
+          "updatedAt": "令和8年7月4日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/rss/index.html",
+          "status": 200,
+          "title": "RSS",
+          "h1": "RSS",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/bousai/bouhan/torikumi/1057420.html",
+          "status": 200,
+          "title": "防犯機器等の購入・設置費用の一部を補助しています",
+          "h1": "防犯機器等の購入・設置費用の一部を補助しています",
+          "updatedAt": "2026年6月23日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "事業者",
+            "省エネ"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kusei/seisakukeiei/kihon/1063688/index.html",
+          "status": 200,
+          "title": "板橋区基本構想・基本計画2035をまとめた冊子を作成しました",
+          "h1": "板橋区基本構想・基本計画2035をまとめた冊子を作成しました",
+          "updatedAt": "2026年5月1日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/bousai/anzen/kotsu/1062602.html",
+          "status": 200,
+          "title": "自転車の二人乗りは禁止です！！",
+          "h1": "自転車の二人乗りは禁止です！！",
+          "updatedAt": "2026年4月2日",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/cgi-evt/event.cgi",
+          "status": 200,
+          "title": "イベントカレンダー",
+          "h1": "イベントカレンダー",
+          "updatedAt": "",
+          "keywordHits": [
+            "空家",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/1015233/1015235.html",
+          "status": 200,
+          "title": "入園・入学",
+          "h1": "入園・入学",
+          "updatedAt": "2020年7月10日",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/library/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和7年10月1日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kusei/chosha/1043016/index.html",
+          "status": 200,
+          "title": "施設案内",
+          "h1": "施設案内",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/1015233/1016429.html",
+          "status": 200,
+          "title": "事業者のかたへ",
+          "h1": "事業者のかたへ",
+          "updatedAt": "2023年2月15日",
+          "keywordHits": [
+            "創業",
+            "起業",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kusei/kouhou/sns/index.html",
+          "status": 200,
+          "title": "アプリ・SNS",
+          "h1": "アプリ・SNS",
+          "updatedAt": "令和7年3月31日",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/mayor/index.html",
+          "status": 200,
+          "title": "こんにちは、区長です",
+          "h1": "こんにちは、区長です",
+          "updatedAt": "2025年6月3日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/1014983/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/bousai/kankyo/ondanka/1037278.html",
+          "status": 200,
+          "title": "板橋区ゼロカーボンシティ表明",
+          "h1": "板橋区ゼロカーボンシティ表明",
+          "updatedAt": "2023年4月1日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kusei/joho/1035613/1035617.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年3月31日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/gallery/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2023年7月3日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kusei/kouhou/about/1014986.html",
+          "status": 200,
+          "title": "リンク集（行政・自治体・国）",
+          "h1": "リンク集（行政・自治体・国）",
+          "updatedAt": "2025年9月24日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "省エネ"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/shomeisho/index.html",
+          "status": 200,
+          "title": "証明書発行ほか",
+          "h1": "証明書発行ほか",
+          "updatedAt": "令和6年3月1日",
+          "keywordHits": [
+            "貸付"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/jigyosha/index.html",
+          "status": 200,
+          "title": "【お知らせ】事業者（給与支払者）の方へ",
+          "h1": "【お知らせ】事業者（給与支払者）の方へ",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/kuminzei/index.html",
+          "status": 200,
+          "title": "特別区民税・都民税（住民税）",
+          "h1": "特別区民税・都民税（住民税）",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/1047669.html",
+          "status": 200,
+          "title": "インボイスの交付（事業者向け）",
+          "h1": "インボイスの交付（事業者向け）",
+          "updatedAt": "2023年9月19日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/1047642/index.html",
+          "status": 200,
+          "title": "【令和6年4月から】プラスチックの回収方法が変わりました",
+          "h1": "【令和6年4月から】プラスチックの回収方法が変わりました",
+          "updatedAt": "令和8年4月3日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/sodai/index.html",
+          "status": 200,
+          "title": "粗大ごみ",
+          "h1": "粗大ごみ",
+          "updatedAt": "令和8年7月21日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/jigyou/index.html",
+          "status": 200,
+          "title": "事業系ごみ・浄化槽",
+          "h1": "事業系ごみ・浄化槽",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/1060011.html",
+          "status": 200,
+          "title": "民間賃貸住宅の家賃値上げについて",
+          "h1": "民間賃貸住宅の家賃値上げについて",
+          "updatedAt": "2025年10月22日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/1059624/index.html",
+          "status": 200,
+          "title": "いたばし マンション管理 総合窓口",
+          "h1": "いたばし マンション管理 総合窓口",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/kenchiku/index.html",
+          "status": 200,
+          "title": "家・建物を建てるとき",
+          "h1": "家・建物を建てるとき",
+          "updatedAt": "令和7年4月1日",
+          "keywordHits": [
+            "住宅",
+            "省エネ"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/1002080.html",
+          "status": 200,
+          "title": "住宅情報事典",
+          "h1": "住宅情報事典",
+          "updatedAt": "2022年9月1日",
+          "keywordHits": [
+            "補助金",
+            "給付金",
+            "貸付",
+            "住宅",
+            "福祉",
+            "耐震",
+            "省エネ"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/soudan/index.html",
+          "status": 200,
+          "title": "住まいの相談",
+          "h1": "住まいの相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/moushikomi/index.html",
+          "status": 200,
+          "title": "公的住宅について",
+          "h1": "公的住宅について",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/seido/index.html",
+          "status": 200,
+          "title": "居住支援",
+          "h1": "居住支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/keikau/index.html",
+          "status": 200,
+          "title": "住まいの未来ビジョン・住宅対策審議会",
+          "h1": "住まいの未来ビジョン・住宅対策審議会",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/1062630/index.html",
+          "status": 200,
+          "title": "区営住宅の整備等について",
+          "h1": "区営住宅の整備等について",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/soudan/shohi/index.html",
+          "status": 200,
+          "title": "消費生活相談",
+          "h1": "消費生活相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/community/1031870.html",
+          "status": 200,
+          "title": "地域デビューに関するパンフレット",
+          "h1": "地域デビューに関するパンフレット",
+          "updatedAt": "2021年3月31日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1061110.html",
+          "status": 200,
+          "title": "令和8年度ボランティア・NPO活動公募事業について",
+          "h1": "令和8年度ボランティア・NPO活動公募事業について",
+          "updatedAt": "2026年6月1日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1056494.html",
+          "status": 200,
+          "title": "令和7年度ボランティア・NPO活動公募事業について",
+          "h1": "令和7年度ボランティア・NPO活動公募事業について",
+          "updatedAt": "2025年6月10日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1051272.html",
+          "status": 200,
+          "title": "令和6年度ボランティア・NPO活動公募事業について",
+          "h1": "令和6年度ボランティア・NPO活動公募事業について",
+          "updatedAt": "2024年11月7日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1044812.html",
+          "status": 200,
+          "title": "令和5年度ボランティア・NPO活動公募事業について",
+          "h1": "令和5年度ボランティア・NPO活動公募事業について",
+          "updatedAt": "2023年7月18日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1037671.html",
+          "status": 200,
+          "title": "令和4年度ボランティア・NPO活動公募事業について",
+          "h1": "令和4年度ボランティア・NPO活動公募事業について",
+          "updatedAt": "2022年6月15日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1002240.html",
+          "status": 200,
+          "title": "ボランティア募集などに関する情報（募集や養成）",
+          "h1": "ボランティア募集などに関する情報（募集や養成）",
+          "updatedAt": "2020年1月25日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1014977.html",
+          "status": 200,
+          "title": "ボランティア募集などに関する情報（冊子やプリント、活動支援）",
+          "h1": "ボランティア募集などに関する情報（冊子やプリント、活動支援）",
+          "updatedAt": "2024年11月19日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1002242.html",
+          "status": 200,
+          "title": "いたばしボランティア基金",
+          "h1": "いたばしボランティア基金",
+          "updatedAt": "2026年6月12日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1002243.html",
+          "status": 200,
+          "title": "ボランティア・NPO活動の推進",
+          "h1": "ボランティア・NPO活動の推進",
+          "updatedAt": "2026年6月9日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1002244.html",
+          "status": 200,
+          "title": "災害時のボランティアツアー実施に伴う書類の取り扱い",
+          "h1": "災害時のボランティアツアー実施に伴う書類の取り扱い",
+          "updatedAt": "2020年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1055216/index.html",
+          "status": 200,
+          "title": "災害ボランティアセンターについて",
+          "h1": "災害ボランティアセンターについて",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1002245.html",
+          "status": 200,
+          "title": "ボランティア・NPO活動の事業周知（ポスター掲示やチラシ配架）",
+          "h1": "ボランティア・NPO活動の事業周知（ポスター掲示やチラシ配架）",
+          "updatedAt": "2021年6月11日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1041675/index.html",
+          "status": 200,
+          "title": "ボランティア活動推進協議会",
+          "h1": "ボランティア活動推進協議会",
+          "updatedAt": "令和4年8月2日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1002252.html",
+          "status": 200,
+          "title": "協働事業",
+          "h1": "協働事業",
+          "updatedAt": "2025年7月8日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/jinken/danjo/index.html",
+          "status": 200,
+          "title": "男女平等参画",
+          "h1": "男女平等参画",
+          "updatedAt": "",
+          "keywordHits": [
+            "起業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/faq/kenkou/kokuho/kokuho/index.html",
+          "status": 200,
+          "title": "国民健康保険",
+          "h1": "国民健康保険",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kenko/kokuho/kokuho/kanyu/1003126.html",
+          "status": 200,
+          "title": "国民健康保険の加入手続き",
+          "h1": "国民健康保険の加入手続き",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kenko/kokuho/nenkin/jukyu/1003194.html",
+          "status": 200,
+          "title": "国民年金保険料を支払っている方が亡くなったとき",
+          "h1": "国民年金保険料を支払っている方が亡くなったとき",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "一時金",
+            "免除"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/kenko/kourei/kouki/index.html",
+          "status": 200,
+          "title": "後期高齢者医療制度",
+          "h1": "後期高齢者医療制度",
+          "updatedAt": "2023年2月3日",
+          "keywordHits": [
+            "支援金",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kifu/1058278.html",
+          "status": 200,
+          "title": "ふるさと納税返礼品提供事業者の募集について",
+          "h1": "ふるさと納税返礼品提供事業者の募集について",
+          "updatedAt": "2026年5月28日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kifu/1002249.html",
+          "status": 200,
+          "title": "いたばし応援基金について",
+          "h1": "いたばし応援基金について",
+          "updatedAt": "2026年4月9日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kifu/1039142/index.html",
+          "status": 200,
+          "title": "板橋区への寄付のご案内について",
+          "h1": "板橋区への寄付のご案内について",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/shukuhaku/1002381.html",
+          "status": 200,
+          "title": "指定保養施設閉鎖のおしらせ",
+          "h1": "指定保養施設閉鎖のおしらせ",
+          "updatedAt": "2020年1月25日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kikan/1001721.html",
+          "status": 200,
+          "title": "国保年金課 窓口事務等の標準処理期間",
+          "h1": "国保年金課 窓口事務等の標準処理期間",
+          "updatedAt": "2026年4月27日",
+          "keywordHits": [
+            "給付金",
+            "一時金",
+            "減免"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kikan/1001722.html",
+          "status": 200,
+          "title": "長寿社会推進課 窓口事務等の標準処理期間",
+          "h1": "長寿社会推進課 窓口事務等の標準処理期間",
+          "updatedAt": "2023年3月22日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13119",
+          "municipalityName": "板橋区",
+          "sourceUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kikan/1001725.html",
+          "status": 200,
+          "title": "予防対策課 窓口事務などの標準処理期間",
+          "h1": "予防対策課 窓口事務などの標準処理期間",
+          "updatedAt": "2025年3月18日",
+          "keywordHits": [
+            "一時金",
+            "医療費助成",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/robots.txt",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/robots.txt",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/1047207/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/1047207/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/1058586.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/1058586.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/soudan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/soudan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/community/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/community/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/jinken/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/jinken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/pet/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/pet/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kankon/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kankon/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/foreigner/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/foreigner/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kifu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kifu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/shukuhaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/shukuhaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/1001715.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/1001715.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kikan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kikan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/1060722/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/1060722/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/iryokikan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/iryokikan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/1056138/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/1056138/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/1002502.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/1002502.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/soudan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/soudan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/kenshin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/kenshin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/shokuiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/shokuiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/kansensho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/kansensho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/kokuho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/kokuho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/shogai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/shogai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/kourei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/kourei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/shien/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/shien/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/kaigo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/kaigo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/ninchisho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/ninchisho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/fukushi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/fukushi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/eisei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/eisei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/1042855/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/1042855/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kosodate/ninshin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kosodate/ninshin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kosodate/kenko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kosodate/kenko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kosodate/asobiba/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kosodate/asobiba/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kosodate/hitorioya/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kosodate/hitorioya/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kosodate/soudan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kosodate/soudan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kosodate/teate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kosodate/teate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kosodate/1053261/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kosodate/1053261/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kosodate/shisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kosodate/shisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kyoikuiinkai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kyoikuiinkai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kosodate/anzen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kosodate/anzen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kosodate/1046301/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kosodate/1046301/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kosodate/1000930/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kosodate/1000930/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kyoikuiinkai/shogai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kyoikuiinkai/shogai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kosodate/1060568/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kosodate/1060568/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/bunka/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/bunka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/shisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/shisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/bunkazi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/bunkazi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/kouryu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/kouryu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/sports/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/sports/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/1005245/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/1005245/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/nyusatsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/nyusatsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/kanko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/kanko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/proposal/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/proposal/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/1044726/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/1044726/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/chusho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/chusho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/sangyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/sangyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/1061832/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/1061832/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/monodukuri/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/monodukuri/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/kigyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/kigyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/shigoto/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/shigoto/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/koukoku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/koukoku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bousai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bousai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bousai/bousai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bousai/bousai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bousai/bouhan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bousai/bouhan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bousai/smart/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bousai/smart/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bousai/kankyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bousai/kankyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bousai/kougai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bousai/kougai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bousai/universal/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bousai/universal/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bousai/tochi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bousai/tochi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bousai/1059698/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bousai/1059698/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bousai/1052744/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bousai/1052744/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bousai/toshikeiakku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bousai/toshikeiakku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bousai/douro/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bousai/douro/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bousai/anzen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bousai/anzen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bousai/nougyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bousai/nougyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bousai/kouen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bousai/kouen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bousai/ryokuka/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bousai/ryokuka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/profile/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/profile/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/soshiki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/soshiki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/seisakukeiei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/seisakukeiei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/chosha/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/chosha/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/zaisei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/zaisei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/publiccomment/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/publiccomment/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/kouhou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/kouhou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/shiryo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/shiryo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/renkei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/renkei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/shiteikanri/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/shiteikanri/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/joho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/joho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/koukai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/koukai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/kansa/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/kansa/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/senkyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/senkyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/senkyokanri/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/senkyokanri/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/1041125/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/1041125/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/jorei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/jorei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/shingikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/shingikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/koueki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/koueki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/1053766.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/1053766.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/seisakukeiei/promotion/1025922/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/seisakukeiei/promotion/1025922/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/1014978/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/1014978/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/joho/yoyaku/1010244.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/joho/yoyaku/1010244.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/1015233/1019888/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/1015233/1019888/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/kouhou/about/foreignlanguage.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/kouhou/about/foreignlanguage.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/kouhou/about/usability.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/kouhou/about/usability.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/shokuiku/shien/1002456.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/shokuiku/shien/1002456.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/faq/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/faq/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/kouhou/about/idsearch.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/kouhou/about/idsearch.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/1014983/1016220/1019854.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/1014983/1016220/1019854.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/1061832/1061839/1065040/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/1061832/1061839/1065040/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/fukushi/1064146.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/fukushi/1064146.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bousai/bousai/1053102/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bousai/bousai/1053102/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/community/1061052.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/community/1061052.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/koufu/1001666.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/koufu/1001666.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/1000779/1000915/1031848/1058170.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/1000779/1000915/1031848/1058170.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/shokuiku/shien/1003019.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/shokuiku/shien/1003019.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/kaigo/1003726/1003727.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/kaigo/1003726/1003727.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1065075/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/koho/1062992/1065075/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/bunka/1019950/1020073/1065240.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/bunka/1019950/1020073/1065240.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/mayor/kousaihi/1064052/1064053.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/mayor/kousaihi/1064052/1064053.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/publiccomment/1007837.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/publiccomment/1007837.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/publiccomment/1007785.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/publiccomment/1007785.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/koukoku/1005616.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/koukoku/1005616.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/koho/1007854.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/koho/1007854.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/newslist.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/newslist.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/rss/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/rss/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/shiryo/1064110.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/shiryo/1064110.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bousai/bouhan/torikumi/1057420.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bousai/bouhan/torikumi/1057420.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/seisakukeiei/kihon/1063688/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/seisakukeiei/kihon/1063688/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bousai/anzen/kotsu/1062602.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bousai/anzen/kotsu/1062602.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/shomeisho/1053497.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/shomeisho/1053497.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/bunkazi/1061722.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/bunkazi/1061722.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/cgi-evt/event.cgi",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/cgi-evt/event.cgi",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/1015233/1015235.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/1015233/1015235.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/1015233/1015236.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/1015233/1015236.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/1015233/1015237.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/1015233/1015237.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/library/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/library/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/chosha/1043016/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/chosha/1043016/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/1015233/1016429.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/1015233/1016429.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/mayor/snapphoto/1057727/1063305.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/mayor/snapphoto/1057727/1063305.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/kouhou/tenji/1016485/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/kouhou/tenji/1016485/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/koho/1007852.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/koho/1007852.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/kouhou/houdou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/kouhou/houdou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/kouhou/sns/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/kouhou/sns/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/mayor/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/mayor/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kugikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kugikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/saiyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/saiyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/publiccomment/koe/1006890.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/publiccomment/koe/1006890.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/1014983/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/1014983/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/kouhou/tenji/tv/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/kouhou/tenji/tv/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/seisakukeiei/promotion/1039859/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/seisakukeiei/promotion/1039859/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bousai/kankyo/ondanka/1037278.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bousai/kankyo/ondanka/1037278.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/kouryu/torikumi/1038409/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/kouryu/torikumi/1038409/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/joho/1035613/1035617.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/joho/1035613/1035617.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/kouryu/gaikoku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/kouryu/gaikoku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/gallery/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/gallery/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/koukoku/annai/1005616.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/koukoku/1005616.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/kouhou/about/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/kouhou/about/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/kouhou/about/mobile.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/kouhou/about/mobile.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/kouhou/about/1014986.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/kouhou/about/1014986.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/mynumber/1045073/1001657.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/mynumber/1045073/1001657.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/chosha/1043016/1043099/1042903.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/chosha/1043016/1043099/1042903.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kusei/chosha/1043016/1043099/1042899.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kusei/chosha/1043016/1043099/1042899.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/madoguchi/madoguchi/1033679/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/madoguchi/madoguchi/1033679/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/madoguchi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/madoguchi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/koseki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/koseki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/juminhyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/juminhyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/inkan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/inkan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/mynumber/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/mynumber/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/koufu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/koufu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/shomeisho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/shomeisho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/juki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/juki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/foreigner/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/foreigner/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/1001687.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/1001687.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/faq/tetsuduki/koseki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/faq/tetsuduki/koseki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/1001700.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/1001700.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/1041505.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/1041505.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/1063999.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/1063999.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/oshirase/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/oshirase/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/1052819.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/1052819.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/jigyosha/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/jigyosha/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/kuminzei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/kuminzei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/keijidousha/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/keijidousha/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/noufu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/noufu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/1055929/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/1055929/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/tobacco/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/tobacco/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/koubai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/koubai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/faq/tetsuduki/zei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/faq/tetsuduki/zei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/faq/tetsuduki/zei/kuminzei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/faq/tetsuduki/zei/kuminzei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/1030248/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/1030248/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/shiryo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/shiryo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/1047669.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/1047669.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/1001820.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/zei/1001820.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/1063728/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/1063728/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/1064244/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/1064244/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/1050124.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/1050124.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/1047642/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/1047642/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/bunbetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/bunbetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/1053969/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/1053969/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/1001861.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/1001861.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/kaishu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/kaishu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/shigen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/shigen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/sodai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/sodai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/kaden/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/kaden/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/kyoten/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/kyoten/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/kaishi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/kaishi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/jigyou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/jigyou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/seiso/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/seiso/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/katatsumuri/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/katatsumuri/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/1060976/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/1060976/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/loss/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/loss/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/nagare/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/nagare/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/plaza/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/plaza/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/kids/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/kids/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/shiryo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/shiryo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/1045124/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/gomi/1045124/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/1060011.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/1060011.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/1059624/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/1059624/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/kenchiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/kenchiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/1002080.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/1002080.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/soudan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/soudan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/moushikomi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/moushikomi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/seido/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/seido/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/apartment/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/apartment/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/keikau/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/keikau/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/1062630/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/sumai/1062630/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/soudan/kumin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/soudan/kumin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/soudan/shohi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/soudan/shohi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/community/chiiki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/community/chiiki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/community/chokai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/community/chokai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/community/1031870.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/community/1031870.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/community/1046414/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/community/1046414/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1048905/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1048905/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1061110.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1061110.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1056494.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1056494.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1051272.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1051272.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1044812.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1044812.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1037671.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1037671.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1002240.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1002240.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1014977.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1014977.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1014976.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1014976.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1002242.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1002242.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1002243.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1002243.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1002244.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1002244.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1055216/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1055216/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1002245.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1002245.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1041675/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1041675/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1002252.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kyodo/1002252.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/jinken/danjo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/jinken/danjo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/jinken/jinken/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/jinken/jinken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/pet/pet/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/pet/pet/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/pet/yasei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/pet/yasei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/pet/gairai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/pet/gairai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/pet/1002236.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/pet/1002236.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/faq/tetsuduki/koseki/koseki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/faq/tetsuduki/koseki/koseki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/faq/tetsuduki/kankon/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/faq/tetsuduki/kankon/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/faq/kenkou/kokuho/kokuho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/faq/kenkou/kokuho/kokuho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/faq/kenkou/kourei/iryou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/faq/kenkou/kourei/iryou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/koseki/1001588.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/koseki/1001588.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/koseki/1001589.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/koseki/1001589.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/kokuho/kokuho/kanyu/1003126.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/kokuho/kokuho/kanyu/1003126.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/kokuho/nenkin/kanyu/1003181.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/kokuho/nenkin/kanyu/1003181.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kankon/1044331/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kankon/1044331/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/koseki/1001590.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/koseki/1001590.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/shomeisho/1001605.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/koseki/shomeisho/1001605.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/kokuho/kokuho/kanyu/1003130.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/kokuho/kokuho/kanyu/1003130.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/kokuho/kokuho/kyufu/1003148.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/kokuho/kokuho/kyufu/1003148.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/kokuho/nenkin/jukyu/1003193.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/kokuho/nenkin/jukyu/1003193.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/kokuho/nenkin/jukyu/1003194.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/kokuho/nenkin/jukyu/1003194.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/kenko/kourei/kouki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/kenko/kourei/kouki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kankon/sougi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kankon/sougi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kankon/1064113.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kankon/1064113.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/foreigner/seiaktsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/foreigner/seiaktsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/kouryu/torikumi/1034548/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/kouryu/torikumi/1034548/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/kouryu/torikumi/1005174.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/bunka/kouryu/torikumi/1005174.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kifu/1058278.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kifu/1058278.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kifu/1002249.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kifu/1002249.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kifu/1039142/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kifu/1039142/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kifu/1056785.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kifu/1056785.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/shukuhaku/kyotei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/shukuhaku/kyotei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/shukuhaku/friendship/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/shukuhaku/friendship/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/shukuhaku/1002381.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/shukuhaku/1002381.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/shukuhaku/1002382.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/shukuhaku/1002382.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kikan/1001721.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kikan/1001721.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kikan/1001722.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kikan/1001722.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kikan/1001725.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kikan/1001725.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/tetsuduki/kikan/1001726.html",
+          "status": 200,
+          "finalUrl": "https://www.city.itabashi.tokyo.jp/tetsuduki/kikan/1001726.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-005",
+  "prefecture": "東京都",
+  "municipalities": [
+    {
+      "code": "13117",
+      "name": "北区",
+      "officialBaseUrl": "https://www.city.kita.lg.jp/"
+    },
+    {
+      "code": "13118",
+      "name": "荒川区",
+      "officialBaseUrl": "https://www.city.arakawa.tokyo.jp/"
+    },
+    {
+      "code": "13119",
+      "name": "板橋区",
+      "officialBaseUrl": "https://www.city.itabashi.tokyo.jp/"
+    },
+    {
+      "code": "13120",
+      "name": "練馬区",
+      "officialBaseUrl": "https://www.city.nerima.tokyo.jp/"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-005",
+  "prefecture": "東京都",
+  "completedAt": "2026-07-14T02:46:04.649Z",
+  "status": "completed-for-listed-municipalities",
+  "municipalities": [
+    {
+      "code": "13117",
+      "name": "北区",
+      "officialBaseUrl": "https://www.city.kita.lg.jp/",
+      "selectedCount": 5,
+      "status": "official-pages-verified"
+    },
+    {
+      "code": "13118",
+      "name": "荒川区",
+      "officialBaseUrl": "https://www.city.arakawa.tokyo.jp/",
+      "selectedCount": 5,
+      "status": "official-pages-verified"
+    },
+    {
+      "code": "13119",
+      "name": "板橋区",
+      "officialBaseUrl": "https://www.city.itabashi.tokyo.jp/",
+      "selectedCount": 5,
+      "status": "official-pages-verified"
+    },
+    {
+      "code": "13120",
+      "name": "練馬区",
+      "officialBaseUrl": "https://www.city.nerima.tokyo.jp/",
+      "selectedCount": 5,
+      "status": "official-pages-verified"
+    }
+  ],
+  "selectedSlugs": [
+    "kita-home-security-equipment-subsidy-2026",
+    "kita-air-conditioner-purchase-subsidy-2026",
+    "kita-certified-nursery-fee-subsidy-2026",
+    "kita-renewable-energy-equipment-subsidy-2026",
+    "kita-shopping-street-security-camera-subsidy-2026",
+    "arakawa-home-security-subsidy-2026",
+    "arakawa-eco-subsidy-2026",
+    "arakawa-low-income-air-conditioner-subsidy-2026",
+    "arakawa-private-kindergarten-parent-subsidy-2026",
+    "arakawa-gx-management-subsidy-2026",
+    "itabashi-low-income-air-conditioner-subsidy-2026",
+    "itabashi-home-security-equipment-subsidy-2026",
+    "itabashi-certified-nursery-fee-subsidy-2026",
+    "itabashi-manufacturing-equipment-investment-subsidy-2026",
+    "itabashi-homecoming-pregnancy-checkup-subsidy-2026",
+    "nerima-home-security-equipment-subsidy-2026",
+    "nerima-carbon-neutral-equipment-subsidy-2026",
+    "nerima-unlicensed-nursery-fee-subsidy-2026",
+    "nerima-care-worker-certification-subsidy-2026",
+    "nerima-practical-care-worker-training-subsidy-2026"
+  ],
+  "deferredSecondPass": [
+    "カテゴリページ、様式のみ、金額又は受付状況が公式本文だけで確定できない候補は第2巡候補として残す。",
+    "受付終了済み又は年度外の可能性が高い候補、制度本文がPDFのみで追加精査が必要な候補は削除せず再確認対象に残す。"
+  ]
+}
