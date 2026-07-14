@@ -1,0 +1,552 @@
+{
+  "batchId": "nagano-official-coverage-006",
+  "generatedAt": "2026-07-14T20:34:08.993Z",
+  "adoptedCount": 60,
+  "byMunicipality": {
+    "下諏訪町": 22,
+    "富士見町": 18,
+    "原村": 20
+  },
+  "adopted": [
+    {
+      "slug": "nagano-official-006-001-2026",
+      "municipality": "下諏訪町",
+      "title": "出産育児一時金の支給",
+      "officialUrl": "https://www.town.shimosuwa.lg.jp/www/contents/1001000000875/index.html",
+      "sourceName": "下諏訪町 出産育児一時金",
+      "category": "childcare",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-002-2026",
+      "municipality": "下諏訪町",
+      "title": "福祉医療費給付金制度",
+      "officialUrl": "https://www.town.shimosuwa.lg.jp/www/genre/1000100000047/index.html",
+      "sourceName": "下諏訪町 手当・助成",
+      "category": "medical",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-003-2026",
+      "municipality": "下諏訪町",
+      "title": "特別児童扶養手当",
+      "officialUrl": "https://www.town.shimosuwa.lg.jp/www/contents/1001000000933/index.html",
+      "sourceName": "下諏訪町 特別児童扶養手当",
+      "category": "childcare",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-004-2026",
+      "municipality": "下諏訪町",
+      "title": "児童扶養手当",
+      "officialUrl": "https://www.town.shimosuwa.lg.jp/www/contents/1001000000897/index.html",
+      "sourceName": "下諏訪町 児童扶養手当",
+      "category": "childcare",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-005-2026",
+      "municipality": "下諏訪町",
+      "title": "令和8年度下諏訪町奨学生の募集",
+      "officialUrl": "https://www.town.shimosuwa.lg.jp/www/genre/1000100000047/index.html",
+      "sourceName": "下諏訪町 手当・助成",
+      "category": "education",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-006-2026",
+      "municipality": "下諏訪町",
+      "title": "下諏訪町こども未来基金 給付型奨学金制度",
+      "officialUrl": "https://www.town.shimosuwa.lg.jp/www/genre/1000100000047/index.html",
+      "sourceName": "下諏訪町 手当・助成",
+      "category": "education",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-007-2026",
+      "municipality": "下諏訪町",
+      "title": "物価高対応子育て応援手当",
+      "officialUrl": "https://www.town.shimosuwa.lg.jp/www/contents/1765954940435/index.html",
+      "sourceName": "下諏訪町 物価高対応子育て応援手当",
+      "category": "childcare",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-008-2026",
+      "municipality": "下諏訪町",
+      "title": "児童手当",
+      "officialUrl": "https://www.town.shimosuwa.lg.jp/www/contents/1001000000896/index.html",
+      "sourceName": "下諏訪町 児童手当",
+      "category": "childcare",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-009-2026",
+      "municipality": "下諏訪町",
+      "title": "乳幼児家庭「燃やすごみ袋」支給事業",
+      "officialUrl": "https://www.town.shimosuwa.lg.jp/www/genre/1000100000047/index.html",
+      "sourceName": "下諏訪町 手当・助成",
+      "category": "childcare",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-010-2026",
+      "municipality": "下諏訪町",
+      "title": "ひとり親世帯等児童激励金",
+      "officialUrl": "https://www.town.shimosuwa.lg.jp/www/genre/1000100000047/index.html",
+      "sourceName": "下諏訪町 手当・助成",
+      "category": "childcare",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-011-2026",
+      "municipality": "下諏訪町",
+      "title": "病児・病後児保育補助金",
+      "officialUrl": "https://www.town.shimosuwa.lg.jp/www/contents/1001000000900/index.html",
+      "sourceName": "下諏訪町 病児・病後児保育補助金",
+      "category": "childcare",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-012-2026",
+      "municipality": "下諏訪町",
+      "title": "住宅改良助成事業",
+      "officialUrl": "https://www.town.shimosuwa.lg.jp/www/contents/1001000000926/index.html",
+      "sourceName": "下諏訪町 住宅改良助成事業",
+      "category": "housing",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-013-2026",
+      "municipality": "下諏訪町",
+      "title": "下諏訪町福祉タクシー等利用料金助成事業",
+      "officialUrl": "https://www.town.shimosuwa.lg.jp/www/contents/1001000000860/index.html",
+      "sourceName": "下諏訪町 福祉タクシー等利用料金助成事業",
+      "category": "nursing",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-014-2026",
+      "municipality": "下諏訪町",
+      "title": "日常生活用具給付事業",
+      "officialUrl": "https://www.town.shimosuwa.lg.jp/www/contents/1001000000857/index.html",
+      "sourceName": "下諏訪町 日常生活用具給付事業",
+      "category": "nursing",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-015-2026",
+      "municipality": "下諏訪町",
+      "title": "第十二回特別弔慰金の支給",
+      "officialUrl": "https://www.town.shimosuwa.lg.jp/www/contents/1580859783662/index.html",
+      "sourceName": "下諏訪町 第十二回特別弔慰金",
+      "category": "nursing",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-016-2026",
+      "municipality": "下諏訪町",
+      "title": "介護職員初任者研修受講支援事業",
+      "officialUrl": "https://www.town.shimosuwa.lg.jp/www/contents/1001000000835/index.html",
+      "sourceName": "下諏訪町 介護職員初任者研修受講支援事業",
+      "category": "nursing",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-017-2026",
+      "municipality": "下諏訪町",
+      "title": "家族介護用品の支給事業",
+      "officialUrl": "https://www.town.shimosuwa.lg.jp/www/contents/1001000000834/index.html",
+      "sourceName": "下諏訪町 家族介護用品の支給事業",
+      "category": "nursing",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-018-2026",
+      "municipality": "下諏訪町",
+      "title": "家庭介護者慰労金",
+      "officialUrl": "https://www.town.shimosuwa.lg.jp/www/contents/1001000000913/index.html",
+      "sourceName": "下諏訪町 家庭介護者慰労金",
+      "category": "nursing",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-019-2026",
+      "municipality": "下諏訪町",
+      "title": "木造住宅の耐震診断・耐震改修工事・除却工事補助制度",
+      "officialUrl": "https://www.town.shimosuwa.lg.jp/www/contents/1001000000642/index.html",
+      "sourceName": "下諏訪町 木造住宅耐震補助制度",
+      "category": "housing",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-020-2026",
+      "municipality": "下諏訪町",
+      "title": "ゼロカーボン補助金",
+      "officialUrl": "https://www.town.shimosuwa.lg.jp/www/contents/1710465664813/index.html",
+      "sourceName": "下諏訪町 ゼロカーボン補助金",
+      "category": "housing",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-021-2026",
+      "municipality": "下諏訪町",
+      "title": "結婚新生活支援事業補助金",
+      "officialUrl": "https://www.town.shimosuwa.lg.jp/www/contents/1491438753865/index.html",
+      "sourceName": "下諏訪町 結婚新生活支援事業補助金",
+      "category": "housing",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-022-2026",
+      "municipality": "下諏訪町",
+      "title": "UIJターン就業・創業移住支援事業補助金",
+      "officialUrl": "https://www.town.shimosuwa.lg.jp/www/contents/1711346114142/index.html",
+      "sourceName": "下諏訪町 UIJターン就業・創業移住支援事業補助金",
+      "category": "employment",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-023-2026",
+      "municipality": "富士見町",
+      "title": "富士見町結婚新生活支援事業補助金",
+      "officialUrl": "https://www.town.fujimi.lg.jp/page/kekkonshienseikatsu.html",
+      "sourceName": "富士見町結婚新生活支援事業補助金",
+      "category": "housing",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-024-2026",
+      "municipality": "富士見町",
+      "title": "富士見町移住・定住促進対策新築住宅補助金",
+      "officialUrl": "https://www.town.fujimi.lg.jp/page/shintiku-hojyo.html",
+      "sourceName": "富士見町移住・定住促進対策新築住宅補助金",
+      "category": "housing",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-025-2026",
+      "municipality": "富士見町",
+      "title": "富士見町空き家改修費補助金",
+      "officialUrl": "https://www.town.fujimi.lg.jp/page/akiya-hozyokin.html",
+      "sourceName": "富士見町空き家改修費補助金",
+      "category": "housing",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-026-2026",
+      "municipality": "富士見町",
+      "title": "就学援助制度",
+      "officialUrl": "https://www.town.fujimi.lg.jp/site/kodomo-kosodate/list165-1078.html",
+      "sourceName": "富士見町 手当・助成金",
+      "category": "education",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-027-2026",
+      "municipality": "富士見町",
+      "title": "特別児童扶養手当",
+      "officialUrl": "https://www.town.fujimi.lg.jp/site/kodomo-kosodate/list165-1078.html",
+      "sourceName": "富士見町 手当・助成金",
+      "category": "childcare",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-028-2026",
+      "municipality": "富士見町",
+      "title": "児童手当",
+      "officialUrl": "https://www.town.fujimi.lg.jp/site/kodomo-kosodate/list165-1078.html",
+      "sourceName": "富士見町 手当・助成金",
+      "category": "childcare",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-029-2026",
+      "municipality": "富士見町",
+      "title": "Uターン新生活応援支援金就学援助制度",
+      "officialUrl": "https://www.town.fujimi.lg.jp/site/kodomo-kosodate/uturnshienkin.html",
+      "sourceName": "富士見町 Uターン新生活応援支援金就学援助制度",
+      "category": "education",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-030-2026",
+      "municipality": "富士見町",
+      "title": "妊婦さんのための交通費等の支援",
+      "officialUrl": "https://www.town.fujimi.lg.jp/site/kodomo-kosodate/list165-1078.html",
+      "sourceName": "富士見町 手当・助成金",
+      "category": "childcare",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-031-2026",
+      "municipality": "富士見町",
+      "title": "富士見町乳幼児用おむつ購入費補助金",
+      "officialUrl": "https://www.town.fujimi.lg.jp/site/kodomo-kosodate/list165-1078.html",
+      "sourceName": "富士見町 手当・助成金",
+      "category": "childcare",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-032-2026",
+      "municipality": "富士見町",
+      "title": "ながの子育て家庭優待パスポート事業",
+      "officialUrl": "https://www.town.fujimi.lg.jp/site/kodomo-kosodate/list165-1078.html",
+      "sourceName": "富士見町 手当・助成金",
+      "category": "childcare",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-033-2026",
+      "municipality": "富士見町",
+      "title": "富士見町子育て応援券",
+      "officialUrl": "https://www.town.fujimi.lg.jp/site/kodomo-kosodate/list165-1078.html",
+      "sourceName": "富士見町 手当・助成金",
+      "category": "childcare",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-034-2026",
+      "municipality": "富士見町",
+      "title": "児童扶養手当",
+      "officialUrl": "https://www.town.fujimi.lg.jp/site/kodomo-kosodate/list165-1078.html",
+      "sourceName": "富士見町 手当・助成金",
+      "category": "childcare",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-035-2026",
+      "municipality": "富士見町",
+      "title": "家庭子育て補助金",
+      "officialUrl": "https://www.town.fujimi.lg.jp/site/kodomo-kosodate/list165-1078.html",
+      "sourceName": "富士見町 手当・助成金",
+      "category": "childcare",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-036-2026",
+      "municipality": "富士見町",
+      "title": "就学祝い金",
+      "officialUrl": "https://www.town.fujimi.lg.jp/site/kodomo-kosodate/list165-1078.html",
+      "sourceName": "富士見町 手当・助成金",
+      "category": "education",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-037-2026",
+      "municipality": "富士見町",
+      "title": "出産祝い金・出産お祝い券",
+      "officialUrl": "https://www.town.fujimi.lg.jp/site/kodomo-kosodate/list165-1078.html",
+      "sourceName": "富士見町 手当・助成金",
+      "category": "childcare",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-038-2026",
+      "municipality": "富士見町",
+      "title": "保健予防係で行っている助成",
+      "officialUrl": "https://www.town.fujimi.lg.jp/site/kodomo-kosodate/list165-1078.html",
+      "sourceName": "富士見町 手当・助成金",
+      "category": "medical",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-039-2026",
+      "municipality": "富士見町",
+      "title": "富士見町就業・創業移住支援事業",
+      "officialUrl": "https://www.town.fujimi.lg.jp/page/fujimimatisyuugyousougyouijuusienn.html",
+      "sourceName": "富士見町就業・創業移住支援事業",
+      "category": "employment",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-040-2026",
+      "municipality": "富士見町",
+      "title": "富士見町省エネリフォーム事業補助金",
+      "officialUrl": "https://www.town.fujimi.lg.jp/site/chikyuondankataisaku/shouenereforme.html",
+      "sourceName": "富士見町省エネリフォーム事業補助金",
+      "category": "housing",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-041-2026",
+      "municipality": "原村",
+      "title": "結婚新生活支援事業補助金",
+      "officialUrl": "https://www.vill.hara.lg.jp/docs/62325.html",
+      "sourceName": "原村 結婚新生活支援事業補助金",
+      "category": "housing",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-042-2026",
+      "municipality": "原村",
+      "title": "薪割り機の貸付",
+      "officialUrl": "https://www.vill.hara.lg.jp/docs/335198.html",
+      "sourceName": "原村 薪割り機の貸付",
+      "category": "employment",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-043-2026",
+      "municipality": "原村",
+      "title": "原村若者世帯定住促進補助金",
+      "officialUrl": "https://www.vill.hara.lg.jp/docs/328496.html",
+      "sourceName": "原村若者世帯定住促進補助金",
+      "category": "housing",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-044-2026",
+      "municipality": "原村",
+      "title": "原村第4弾農業者緊急支援給付金",
+      "officialUrl": "https://www.vill.hara.lg.jp/docs/327828.html",
+      "sourceName": "原村第4弾農業者緊急支援給付金",
+      "category": "employment",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-045-2026",
+      "municipality": "原村",
+      "title": "原村民保養施設利用奨励補助金",
+      "officialUrl": "https://www.vill.hara.lg.jp/docs/47635.html",
+      "sourceName": "原村民保養施設利用奨励補助金",
+      "category": "medical",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-046-2026",
+      "municipality": "原村",
+      "title": "住民税非課税世帯へのエアコン設置促進事業補助金",
+      "officialUrl": "https://www.vill.hara.lg.jp/docs/327896.html",
+      "sourceName": "原村 エアコン設置促進事業補助金",
+      "category": "nursing",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-047-2026",
+      "municipality": "原村",
+      "title": "生ごみ処理機器設置補助金",
+      "officialUrl": "https://www.vill.hara.lg.jp/docs/637.html",
+      "sourceName": "原村 生ごみ処理機器設置補助金",
+      "category": "housing",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-048-2026",
+      "municipality": "原村",
+      "title": "原村地域づくり支援事業補助金",
+      "officialUrl": "https://www.vill.hara.lg.jp/docs/48133.html",
+      "sourceName": "原村地域づくり支援事業補助金",
+      "category": "employment",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-049-2026",
+      "municipality": "原村",
+      "title": "原村中小企業活性化緊急支援補助金",
+      "officialUrl": "https://www.vill.hara.lg.jp/docs/328485.html",
+      "sourceName": "原村中小企業活性化緊急支援補助金",
+      "category": "employment",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-050-2026",
+      "municipality": "原村",
+      "title": "原村地球温暖化対策加速化補助金",
+      "officialUrl": "https://www.vill.hara.lg.jp/docs/327639.html",
+      "sourceName": "原村地球温暖化対策加速化補助金",
+      "category": "housing",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-051-2026",
+      "municipality": "原村",
+      "title": "原村企業研修誘致補助金",
+      "officialUrl": "https://www.vill.hara.lg.jp/docs/307408.html",
+      "sourceName": "原村企業研修誘致補助金",
+      "category": "employment",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-052-2026",
+      "municipality": "原村",
+      "title": "原村産後ケア事業",
+      "officialUrl": "https://www.vill.hara.lg.jp/guide/jyosei-shien/",
+      "sourceName": "原村 助成手当・支援",
+      "category": "childcare",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-053-2026",
+      "municipality": "原村",
+      "title": "原村商工業活性化補助金",
+      "officialUrl": "https://www.vill.hara.lg.jp/guide/jyosei-shien/",
+      "sourceName": "原村 助成手当・支援",
+      "category": "employment",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-054-2026",
+      "municipality": "原村",
+      "title": "定額減税補足給付金（不足額給付）",
+      "officialUrl": "https://www.vill.hara.lg.jp/guide/jyosei-shien/",
+      "sourceName": "原村 助成手当・支援",
+      "category": "nursing",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-055-2026",
+      "municipality": "原村",
+      "title": "担い手確保・経営強化支援事業",
+      "officialUrl": "https://www.vill.hara.lg.jp/guide/jyosei-shien/",
+      "sourceName": "原村 助成手当・支援",
+      "category": "employment",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-056-2026",
+      "municipality": "原村",
+      "title": "人間ドック補助金制度",
+      "officialUrl": "https://www.vill.hara.lg.jp/kenko/zoshin/jyoseikin/",
+      "sourceName": "原村 各種助成制度",
+      "category": "medical",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-057-2026",
+      "municipality": "原村",
+      "title": "原村がん患者アピアランスケア助成事業",
+      "officialUrl": "https://www.vill.hara.lg.jp/kenko/zoshin/jyoseikin/",
+      "sourceName": "原村 各種助成制度",
+      "category": "medical",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-058-2026",
+      "municipality": "原村",
+      "title": "不育症治療支援事業",
+      "officialUrl": "https://www.vill.hara.lg.jp/kenko/zoshin/jyoseikin/",
+      "sourceName": "原村 各種助成制度",
+      "category": "childcare",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-059-2026",
+      "municipality": "原村",
+      "title": "妊婦のための支援給付事業",
+      "officialUrl": "https://www.vill.hara.lg.jp/kenko/zoshin/jyoseikin/",
+      "sourceName": "原村 各種助成制度",
+      "category": "childcare",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    },
+    {
+      "slug": "nagano-official-006-060-2026",
+      "municipality": "原村",
+      "title": "不妊治療助成事業",
+      "officialUrl": "https://www.vill.hara.lg.jp/kenko/zoshin/jyoseikin/",
+      "sourceName": "原村 各種助成制度",
+      "category": "childcare",
+      "sourceStatus": "official-page-or-list-text-confirmed"
+    }
+  ]
+}

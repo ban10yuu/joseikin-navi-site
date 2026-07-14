@@ -1,0 +1,63 @@
+{
+  "batchId": "nagano-official-coverage-006",
+  "prefecture": "長野県",
+  "generatedAt": "2026-07-15T05:58:00+09:00",
+  "scope": [
+    {
+      "code": "20349",
+      "name": "青木村",
+      "officialBaseUrl": "https://www.vill.aoki.nagano.jp/"
+    },
+    {
+      "code": "20350",
+      "name": "長和町",
+      "officialBaseUrl": "https://www.town.nagawa.nagano.jp/"
+    },
+    {
+      "code": "20361",
+      "name": "下諏訪町",
+      "officialBaseUrl": "https://www.town.shimosuwa.lg.jp/"
+    },
+    {
+      "code": "20362",
+      "name": "富士見町",
+      "officialBaseUrl": "https://www.town.fujimi.lg.jp/"
+    },
+    {
+      "code": "20363",
+      "name": "原村",
+      "officialBaseUrl": "https://www.vill.hara.lg.jp/"
+    }
+  ],
+  "discovery": {
+    "candidateCount": 816,
+    "municipalityCount": 5,
+    "snippetCount": 816
+  },
+  "adopted": {
+    "total": 60,
+    "byMunicipality": {
+      "下諏訪町": 22,
+      "富士見町": 18,
+      "原村": 20
+    },
+    "sourceUrlCount": 38
+  },
+  "held": {
+    "notes": "青木村・長和町はカテゴリ、生活案内、PDF、申請書、移住案内中心で個別制度本文の必須項目確認が弱い候補を第2巡へ保持。下諏訪町・富士見町・原村でもカテゴリ導線、募集記事、イベント、様式単体は第2巡へ保持。"
+  },
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "json": "pass: JSON.parse for nagano-official-coverage-006 JSON files and checkpoint update inputs",
+    "addedSlugUniqueness": "pass: 60 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 38 unique adopted official URLs returned HTTP 200 by interval curl",
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 13555, officialLinkedActive 13435, manuallyVerifiedActive 13435, 長野県 localOfficial 469)"
+  },
+  "next": {
+    "batchId": "nagano-official-coverage-007",
+    "code": "20382",
+    "municipality": "辰野町"
+  }
+}

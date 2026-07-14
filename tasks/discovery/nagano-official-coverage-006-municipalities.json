@@ -1,0 +1,37 @@
+{
+  "batchId": "nagano-official-coverage-006",
+  "prefecture": "長野県",
+  "generatedAt": "2026-07-15T05:30:00+09:00",
+  "municipalities": [
+    {
+      "code": "20349",
+      "name": "青木村",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.vill.aoki.nagano.jp/"
+    },
+    {
+      "code": "20350",
+      "name": "長和町",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.town.nagawa.nagano.jp/"
+    },
+    {
+      "code": "20361",
+      "name": "下諏訪町",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.town.shimosuwa.lg.jp/"
+    },
+    {
+      "code": "20362",
+      "name": "富士見町",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.town.fujimi.lg.jp/"
+    },
+    {
+      "code": "20363",
+      "name": "原村",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.vill.hara.lg.jp/"
+    }
+  ]
+}

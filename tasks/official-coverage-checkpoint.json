@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T06:40:00+09:00",
+  "updatedAt": "2026-07-15T05:58:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "nagano-official-coverage-005",
-    "municipality": "北相木村・佐久穂町・軽井沢町・御代田町・立科町",
+    "code": "nagano-official-coverage-006",
+    "municipality": "青木村・長和町・下諏訪町・富士見町・原村",
     "adopted": 60,
-    "held": 234,
+    "held": 756,
     "excluded": 0,
-    "sourceUrlsChecked": 3,
+    "sourceUrlsChecked": 38,
     "validation": {
-      "previousMunicipality": "長野県公式棚卸し005として、20307北相木村・20309佐久穂町・20321軽井沢町・20323御代田町・20324立科町を確認した。候補319件、本文スニペット311件を保存し、佐久穂町25件、軽井沢町10件、立科町25件の合計60件を新規採用した。北相木村・御代田町及びWAFで403となる個別リンクは第2巡候補保持。長野県第1巡は20324立科町まで到達。全国公式棚卸しは未完了。",
+      "previousMunicipality": "長野県公式棚卸し006として、20349青木村・20350長和町・20361下諏訪町・20362富士見町・20363原村を確認した。候補816件、本文スニペット816件を保存し、下諏訪町22件、富士見町18件、原村20件の合計60件を新規採用した。青木村・長和町及びカテゴリ導線・申請書単体・募集記事は第2巡候補保持。長野県第1巡は20363原村まで到達。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for nagano-official-coverage-005 JSON files and checkpoint update inputs",
+      "json": "pass: JSON.parse for nagano-official-coverage-006 JSON files and checkpoint update inputs",
       "addedSlugUniqueness": "pass: 60 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "partial pass: official list pages were retrieved as HTTP 200 by browser/open; local interval curl returned 403 due WAF, so individual links are retained for second-pass recheck",
+      "urlReachability": "pass: 38 unique adopted official URLs returned HTTP 200 by interval curl",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 13495, officialLinkedActive 13375, manuallyVerifiedActive 13375, 長野県 localOfficial 409)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 13555, officialLinkedActive 13435, manuallyVerifiedActive 13435, 長野県 localOfficial 469)"
     }
   },
   "next": {
-    "code": "nagano-official-coverage-006",
-    "municipality": "青木村",
-    "shortlist": "長野県公式棚卸し005は佐久穂町25件、軽井沢町10件、立科町25件を採用した。北相木村は通常クロール候補不足、御代田町は今回採用枠外、WAFでローカルcurl 403となる個別リンクは第2巡候補として保持する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、20325青木村を開始地点として長野県公式棚卸し006を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "nagano-official-coverage-007",
+    "municipality": "辰野町",
+    "shortlist": "長野県公式棚卸し006は下諏訪町22件、富士見町18件、原村20件を採用した。青木村・長和町は通常クロールで個別制度本文の必須項目が弱い候補を第2巡候補として保持する。カテゴリ導線、PDF、申請書単体、イベント・募集記事は第2巡候補として保持する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、20382辰野町を開始地点として長野県公式棚卸し007を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "長野県",
     "status": "in-progress",
-    "lastBatch": "nagano-official-coverage-005",
-    "notes": "山梨県は19201甲府市から19443丹波山村まで第1巡完了。長野県は20201長野市から20324立科町まで第1巡到達。全国公式棚卸しは未完了。次は20325青木村から継続する。"
+    "lastBatch": "nagano-official-coverage-006",
+    "notes": "山梨県は19201甲府市から19443丹波山村まで第1巡完了。長野県は20201長野市から20363原村まで第1巡到達。全国公式棚卸しは未完了。次は20382辰野町から継続する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

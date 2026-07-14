@@ -9775,3 +9775,41 @@
   - トップ、カテゴリ、ポータル、様式、申請書単体、周知のみ、制度要件不足候補、WAFで個別リンク再到達が必要な候補は第2巡候補に残す。
 - 次:
   - 長野県公式棚卸し006として、20325青木村から自治体コード順に確認する。
+
+### 2026-07-15 長野県公式棚卸し006（20349青木村・20350長和町・20361下諏訪町・20362富士見町・20363原村）
+- 範囲:
+  - 20349 青木村: `https://www.vill.aoki.nagano.jp/`
+  - 20350 長和町: `https://www.town.nagawa.nagano.jp/`
+  - 20361 下諏訪町: `https://www.town.shimosuwa.lg.jp/`
+  - 20362 富士見町: `https://www.town.fujimi.lg.jp/`
+  - 20363 原村: `https://www.vill.hara.lg.jp/`
+- 探索:
+  - `node scripts/discover-official-candidates.mjs --input tasks/discovery/nagano-official-coverage-006-municipalities.json --output tasks/discovery/nagano-official-coverage-006-candidates.json --initial-limit-per-municipality 80 --deep-limit-per-municipality 220 --limit-per-municipality 220 --concurrency 4 --timeout-ms 30000`
+  - 候補816件。shortlistが150件を超えたため、キャッシュ本文からスニペット816件を抽出し、制度名・対象・金額/上限・申請/受付表現が揃う個別ページ・公式一覧を優先した。
+- 採用:
+  - 合計60件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 下諏訪町22件: 出産育児一時金、福祉医療費給付金、特別児童扶養手当、児童扶養手当、下諏訪町奨学生、こども未来基金給付型奨学金、物価高対応子育て応援手当、児童手当、乳幼児家庭ごみ袋支給、ひとり親世帯等児童激励金、病児・病後児保育補助金、住宅改良助成、福祉タクシー等利用料金助成、日常生活用具給付、第十二回特別弔慰金、介護職員初任者研修受講支援、家族介護用品支給、家庭介護者慰労金、木造住宅耐震診断・耐震改修・除却補助、ゼロカーボン補助金、結婚新生活支援、UIJターン就業・創業移住支援。
+  - 富士見町18件: 結婚新生活支援、移住・定住促進対策新築住宅、空き家改修費、就学援助、特別児童扶養手当、児童手当、Uターン新生活応援支援金、妊婦交通費等支援、乳幼児用おむつ購入費、ながの子育て家庭優待パスポート、子育て応援券、児童扶養手当、家庭子育て補助金、就学祝い金、出産祝い金・出産お祝い券、保健予防係助成、就業・創業移住支援、省エネリフォーム。
+  - 原村20件: 結婚新生活支援、薪割り機貸付、若者世帯定住促進、農業者緊急支援給付金、村民保養施設利用奨励、住民税非課税世帯エアコン設置促進、生ごみ処理機器設置、地域づくり支援、中小企業活性化緊急支援、地球温暖化対策加速化、企業研修誘致、産後ケア、商工業活性化、定額減税補足給付金、担い手確保・経営強化支援、人間ドック、がん患者アピアランスケア、不育症治療支援、妊婦支援給付、不妊治療助成。
+  - 青木村・長和町はカテゴリ、生活案内、PDF、申請書、移住案内中心で個別制度本文の必須項目確認が弱い候補を第2巡候補として保持した。
+- 生成ファイル:
+  - `tasks/discovery/nagano-official-coverage-006-adopted-urls.json`
+  - `tasks/discovery/nagano-official-coverage-006-candidates.json`
+  - `tasks/discovery/nagano-official-coverage-006-municipalities.json`
+  - `tasks/discovery/nagano-official-coverage-006-official-lists.json`
+  - `tasks/discovery/nagano-official-coverage-006-snippets.json`
+  - `tasks/discovery/nagano-official-coverage-006-url-status.txt`
+  - `tasks/discovery/nagano-official-coverage-006.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（006関連JSON、checkpoint）。
+  - 追加slug重複: pass（60件、`verified-local-misc-2026.ts` 全体 duplicateCount 0）。
+  - 公式URL到達: pass（採用元の重複排除38URLすべてHTTP 200、間隔付きcurl）。
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 13555、officialLinkedActive 13435、manuallyVerifiedActive 13435、長野県 localOfficial 469）。
+- 注意:
+  - 長野県は20201長野市から20363原村まで第1巡に到達した。ただし全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は長野県20363原村到達のみで全国完了扱いしない。
+  - トップ、カテゴリ、ポータル、PDF、様式、申請書単体、イベント・募集記事、制度要件不足候補は第2巡候補に残す。
+- 次:
+  - 長野県公式棚卸し007として、20382辰野町から自治体コード順に確認する。
