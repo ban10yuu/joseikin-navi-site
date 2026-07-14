@@ -7797,3 +7797,48 @@
     - 受付終了、受付休止、404、金額又は受付状況不足、PDF精査待ち、カテゴリ導線、様式のみ、国制度色が強い候補は第2巡候補に残す。
   - 次:
     - 東京都公式棚卸し008として、13206府中市、13207昭島市、13208調布市、13209町田市を自治体コード順に確認する。
+
+- 東京都公式棚卸し008
+  - 対象:
+    - 13206 府中市、13207 昭島市、13208 調布市、13209 町田市。
+  - 方法:
+    - 公式トップ到達を4自治体すべて確認し、候補629件を抽出した。
+    - 候補が150件を超えたため、採用候補の本文スニペット20件を保存し、制度強語・金額/上限・対象条件・受付表現を優先して再確認した。
+    - 府中市は個人宅向け防犯機器等購入、低所得等世帯向けエアコン購入、エコハウス設備、木造住宅耐震診断・改修等、高齢者住替支援を公式本文で確認した。
+    - 昭島市は家庭用防犯機器、非課税世帯エアコン、住宅用新エネルギー機器等、ものづくり企業等地域共生、特定不妊治療医療費を公式本文で確認した。
+    - 調布市は非課税世帯等エアコン、個人住宅向け防犯、太陽光発電設備・蓄電池設備等、省エネルギー設備等、ベビーシッター利用支援を公式本文で確認した。
+    - 町田市は住まいの防犯対策、低所得世帯等エアコン購入、事業承継、高齢者補聴器購入、高齢者スマートフォン購入を公式本文で確認した。
+    - カテゴリ導線、様式のみ、金額又は受付状況が公式本文だけで確定できない候補、年度外の可能性がある候補は第2巡候補に残す。
+  - 採用:
+    - 府中市5件: 個人宅向け防犯機器等購入助成事業、低所得等世帯向けエアコン購入費用助成、エコハウス設備設置費助成金、木造住宅耐震診断・耐震改修等助成事業、高齢者住替支援助成金。
+    - 昭島市5件: 家庭用防犯機器の購入・設置費補助金、非課税世帯エアコン設置緊急支援補助金、住宅用新エネルギー機器等普及促進補助金、ものづくり企業等地域共生推進補助金、特定不妊治療医療費助成。
+    - 調布市5件: 非課税世帯等エアコン購入助成金、個人住宅向け防犯補助金、太陽光発電設備・蓄電池設備等設置補助金、省エネルギー設備等導入補助金、ベビーシッター利用支援事業（一時預かり利用支援）。
+    - 町田市5件: 住まいの防犯対策補助金、低所得世帯等エアコン購入費用助成、事業承継事業補助金、高齢者補聴器購入費助成、高齢者スマートフォン購入費助成。
+  - 生成ファイル:
+    - `tasks/discovery/tokyo-official-coverage-008-municipalities.json`
+    - `tasks/discovery/tokyo-official-coverage-008-13206-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-008-13207-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-008-13208-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-008-13209-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-008-13206-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-008-13207-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-008-13208-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-008-13209-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-008-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-008-target-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-008-selected-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-008-selected-main.json`
+    - `tasks/discovery/tokyo-official-coverage-008-url-check.json`
+    - `tasks/discovery/tokyo-official-coverage-008.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（20件、`verified-local-misc-2026.ts` 内で各1件）。
+    - 公式URL到達: pass（20 official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 11135、officialLinkedActive 11097、manuallyVerifiedActive 11097、東京都 localOfficial 519）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 受付終了、受付休止、404、金額又は受付状況不足、PDF精査待ち、カテゴリ導線、様式のみ、国制度色が強い候補は第2巡候補に残す。
+  - 次:
+    - 東京都公式棚卸し009として、13210小金井市、13211小平市、13212日野市、13213東村山市を自治体コード順に確認する。

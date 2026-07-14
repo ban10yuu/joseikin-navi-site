@@ -1,0 +1,26 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-008",
+  "prefecture": "東京都",
+  "municipalities": [
+    {
+      "code": "13206",
+      "name": "府中市",
+      "officialBaseUrl": "https://www.city.fuchu.tokyo.jp/"
+    },
+    {
+      "code": "13207",
+      "name": "昭島市",
+      "officialBaseUrl": "https://www.city.akishima.lg.jp/"
+    },
+    {
+      "code": "13208",
+      "name": "調布市",
+      "officialBaseUrl": "https://www.city.chofu.lg.jp/"
+    },
+    {
+      "code": "13209",
+      "name": "町田市",
+      "officialBaseUrl": "https://www.city.machida.tokyo.jp/"
+    }
+  ]
+}

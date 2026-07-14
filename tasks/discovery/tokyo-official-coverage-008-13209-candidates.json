@@ -1,0 +1,3271 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-008",
+  "prefecture": "東京都",
+  "generatedAt": "2026-07-14T03:49:50.873Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 78,
+  "results": [
+    {
+      "code": "13209",
+      "name": "町田市",
+      "officialBaseUrl": "https://www.city.machida.tokyo.jp/",
+      "discoveredUrlCount": 300,
+      "candidateCount": 78,
+      "strongCandidateCount": 1,
+      "lowPriorityCandidateCount": 77,
+      "candidates": [
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kurashi/index.html",
+          "status": 200,
+          "title": "暮らし",
+          "h1": "暮らし",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kodomo/index.html",
+          "status": 200,
+          "title": "子育て・教育",
+          "h1": "子育て・教育",
+          "updatedAt": "令和9年4月1日",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/iryo/index.html",
+          "status": 200,
+          "title": "医療・福祉",
+          "h1": "医療・福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "貸付",
+            "医療費助成",
+            "住宅",
+            "事業者",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kanko/index.html",
+          "status": 200,
+          "title": "産業・観光",
+          "h1": "産業・観光",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/shisei/index.html",
+          "status": 200,
+          "title": "市政情報",
+          "h1": "市政情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/jigyousha/index.html",
+          "status": 200,
+          "title": "事業者の方へ",
+          "h1": "事業者の方へ",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "創業",
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/shisei/shiyakusyo/gyomu/index.html",
+          "status": 200,
+          "title": "市役所組織－課別業務案内",
+          "h1": "市役所組織－課別業務案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/shisei/shiyakusyo/index.html",
+          "status": 200,
+          "title": "市役所・市施設のご案内",
+          "h1": "市役所・市施設のご案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kurashi/shinsei/index.html",
+          "status": 200,
+          "title": "申請書一覧",
+          "h1": "申請書一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kurashi/tax/index.html",
+          "status": 200,
+          "title": "税金",
+          "h1": "税金",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kurashi/community/index.html",
+          "status": 200,
+          "title": "コミュニティ",
+          "h1": "コミュニティ",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kurashi/kurashisoudan/index.html",
+          "status": 200,
+          "title": "暮らしに関する相談",
+          "h1": "暮らしに関する相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kodomo/kosodate_kyouikusisetu/index.html",
+          "status": 200,
+          "title": "子育て・教育の施設一覧",
+          "h1": "子育て・教育の施設一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kodomo/kyoiku/index.html",
+          "status": 200,
+          "title": "教育委員会",
+          "h1": "教育委員会",
+          "updatedAt": "令和9年4月1日",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kodomo/kosodate/index.html",
+          "status": 200,
+          "title": "子育てに関する支援計画・事業",
+          "h1": "子育てに関する支援計画・事業",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kodomo/kosodateshingikai/index.html",
+          "status": 200,
+          "title": "子育てに関する審議会・懇談会",
+          "h1": "子育てに関する審議会・懇談会",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kodomo/jigyousha/index.html",
+          "status": 200,
+          "title": "子育てに関する事業者の方へ",
+          "h1": "子育てに関する事業者の方へ",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/iryo/iryo/index.html",
+          "status": 200,
+          "title": "医療・健康づくり",
+          "h1": "医療・健康づくり",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/iryo/hokenjo/index.html",
+          "status": 200,
+          "title": "町田市保健所",
+          "h1": "町田市保健所",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/iryo/old_iryo/index.html",
+          "status": 200,
+          "title": "高齢者医療",
+          "h1": "高齢者医療",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/iryo/kaigo/index.html",
+          "status": 200,
+          "title": "介護保険",
+          "h1": "介護保険",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "減免",
+            "住宅",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/iryo/machi/index.html",
+          "status": 200,
+          "title": "ユニバーサル社会の推進（福祉のまちづくり）",
+          "h1": "ユニバーサル社会の推進（福祉のまちづくり）",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/iryo/old/index.html",
+          "status": 200,
+          "title": "高齢者のための福祉",
+          "h1": "高齢者のための福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/iryo/syougai_hukushi/index.html",
+          "status": 200,
+          "title": "障がい者のための福祉",
+          "h1": "障がい者のための福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/iryo/tiikihukusihoka/index.html",
+          "status": 200,
+          "title": "地域福祉",
+          "h1": "地域福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "貸付",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/iryo/ninka-shidou/index.html",
+          "status": 200,
+          "title": "社会福祉法人の認可・指導監査、福祉サービス事業者の指導監査",
+          "h1": "社会福祉法人の認可・指導監査、福祉サービス事業者の指導監査",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/iryo/sodan/index.html",
+          "status": 200,
+          "title": "医療・福祉に関する相談",
+          "h1": "医療・福祉に関する相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/bunka/riyou/index.html",
+          "status": 200,
+          "title": "貸し出し施設について",
+          "h1": "貸し出し施設について",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kanko/tabe_kau/index.html",
+          "status": 200,
+          "title": "食べる・買う",
+          "h1": "食べる・買う",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kanko/kotu_syuku/index.html",
+          "status": 200,
+          "title": "交通・宿泊",
+          "h1": "交通・宿泊",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kanko/sangyo/index.html",
+          "status": 200,
+          "title": "市の産業",
+          "h1": "市の産業",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/shisei/shityoushitu/index.html",
+          "status": 200,
+          "title": "ようこそ！市長室へ",
+          "h1": "ようこそ！市長室へ",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/shisei/opendata/index.html",
+          "status": 200,
+          "title": "オープンデータ",
+          "h1": "オープンデータ",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/shisei/kankobutsu/index.html",
+          "status": 200,
+          "title": "刊行物ライブラリー",
+          "h1": "刊行物ライブラリー",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/shisei/kouekituuhousyahogoseido/index.html",
+          "status": 200,
+          "title": "公益通報者保護制度",
+          "h1": "公益通報者保護制度",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/jigyousha/nyusatsu/index.html",
+          "status": 200,
+          "title": "入札・契約",
+          "h1": "入札・契約",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "事業者"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/jigyousha/shien/index.html",
+          "status": 200,
+          "title": "融資・支援",
+          "h1": "融資・支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "創業",
+            "起業",
+            "事業者"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/jigyousha/invoice.html",
+          "status": 200,
+          "title": "消費税の適格請求書等保存方式（インボイス制度）",
+          "h1": "消費税の適格請求書等保存方式（インボイス制度）",
+          "updatedAt": "2023年8月29日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/jigyousha/saikensya/index.html",
+          "status": 200,
+          "title": "債権者（振込口座）登録",
+          "h1": "債権者（振込口座）登録",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/jigyousha/advertisement/index.html",
+          "status": 200,
+          "title": "広告募集",
+          "h1": "広告募集",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kurashi/kankyo/gomi/jigyosha/index.html",
+          "status": 200,
+          "title": "事業所（会社等）から出るごみ・事業者向け情報",
+          "h1": "事業所（会社等）から出るごみ・事業者向け情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/jigyousha/PFI/index.html",
+          "status": 200,
+          "title": "PFI事業",
+          "h1": "PFI事業",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/jigyousha/minkanteianseido/index.html",
+          "status": 200,
+          "title": "民間提案制度",
+          "h1": "民間提案制度",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/iryo/syougai_hukushi/helpmark.html",
+          "status": 200,
+          "title": "ヘルプマークのご案内",
+          "h1": "ヘルプマークのご案内",
+          "updatedAt": "2026年7月13日",
+          "keywordHits": [
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/bunka/bunka_geijutsu/cul/cul08Literature/shortshort/shortshort2026.html",
+          "status": 200,
+          "title": "【最新情報】ことばらんどショートショートコンクール2026",
+          "h1": "【最新情報】ことばらんどショートショートコンクール2026",
+          "updatedAt": "2026年4月16日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kurashi/bouhan/bouhan/sumai-bohan-hojo.html",
+          "status": 200,
+          "title": "2026年度町田市住まいの防犯対策補助金（申請受付中です）",
+          "h1": "2026年度町田市住まいの防犯対策補助金（申請受付中です）",
+          "updatedAt": "2026年7月7日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "子育て",
+            "省エネ"
+          ],
+          "candidateScore": 20,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/about/ainavi.html",
+          "status": 200,
+          "title": "「AIナビゲーター」が質問に答えます",
+          "h1": "「AIナビゲーター」が質問に答えます",
+          "updatedAt": "2026年5月11日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kodomo/kyoiku/keikakutou/kibohaiti/gakkoutougou_kousin.html",
+          "status": 200,
+          "title": "まちだの新たな学校づくりに関するお知らせ（2026年7月7日更新）",
+          "h1": "まちだの新たな学校づくりに関するお知らせ（2026年7月7日更新）",
+          "updatedAt": "2026年7月7日",
+          "keywordHits": [
+            "通学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kurashi/kankyo/gomi/gominowakekata/gomi-dashikata/kanenhunen/iipan01.html",
+          "status": 200,
+          "title": "燃やせるごみ・燃やせないごみ・容器包装プラスチックの出し方",
+          "h1": "燃やせるごみ・燃やせないごみ・容器包装プラスチックの出し方",
+          "updatedAt": "2026年6月15日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kurashi/kurashisoudan/engo/bukka.html",
+          "status": 200,
+          "title": "【7月15日申請期限】物価高騰対策生活者支援給付（4000円相当）について",
+          "h1": "【7月15日申請期限】物価高騰対策生活者支援給付（4000円相当）について",
+          "updatedAt": "2026年7月2日",
+          "keywordHits": [
+            "給付金",
+            "貸付",
+            "減免",
+            "福祉"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kurashi/kankyo/gomi/gominowakekata/gomi-dashikata/kanenhunen/shiteifukuro.html",
+          "status": 200,
+          "title": "家庭ごみは市の指定収集袋で出してください",
+          "h1": "家庭ごみは市の指定収集袋で出してください",
+          "updatedAt": "2026年7月9日",
+          "keywordHits": [
+            "減免",
+            "住宅"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kurashi/bouhan/bouhan/crime.html",
+          "status": 200,
+          "title": "特殊詐欺の手口と対策",
+          "h1": "特殊詐欺の手口と対策",
+          "updatedAt": "2026年6月15日",
+          "keywordHits": [
+            "補助金",
+            "子育て"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/shisei/buchomani/2026sigotomokuhyo.html",
+          "status": 200,
+          "title": "2026年度 部長の仕事目標・課の仕事目標",
+          "h1": "2026年度 部長の仕事目標・課の仕事目標",
+          "updatedAt": "2026年6月15日",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/shisei/syokuin/fiscal_year_staff/kakigakusei.html",
+          "status": 200,
+          "title": "町田市立保育園 夏季学生会計年度任用職員募集（保育補助）",
+          "h1": "町田市立保育園 夏季学生会計年度任用職員募集（保育補助）",
+          "updatedAt": "2026年7月9日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/jigyousha/nyusatsu/puropo/kobogata/260709.html",
+          "status": 200,
+          "title": "【7月9日から7月27日まで募集】「芹ヶ谷公園“芸術の杜”全体デザイン再検討業務委託」公募型プロポーザルについて",
+          "h1": "【7月9日から7月27日まで募集】「芹ヶ谷公園“芸術の杜”全体デザイン再検討業務委託」公募型プロポーザルについて",
+          "updatedAt": "2026年7月9日",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/bunka/park/shisetu/serigaya/art_project/made-in-serigaya-jokyo/2026summer.html",
+          "status": 200,
+          "title": "2026年8月「Future Park Lab（フューチャーパークラボ）2026 Summer」開催します！",
+          "h1": "2026年8月「Future Park Lab（フューチャーパークラボ）2026 Summer」開催します！",
+          "updatedAt": "2026年7月9日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/allNewsList.html",
+          "status": 200,
+          "title": "トップページ 新着情報一覧",
+          "h1": "トップページ 新着情報一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kanko/sangyo/nougyo/event/blueberry.html",
+          "status": 200,
+          "title": "町田ブルーベリーファーマーズマーケット",
+          "h1": "町田ブルーベリーファーマーズマーケット",
+          "updatedAt": "2026年6月23日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/event/calendar/list_calendar.html",
+          "status": 200,
+          "title": "2026年7月カレンダー",
+          "h1": "2026年7月カレンダー",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/lifecycle/ninshin.html",
+          "status": 200,
+          "title": "妊娠・出産・子育て",
+          "h1": "妊娠・出産・子育て",
+          "updatedAt": "2025年12月23日",
+          "keywordHits": [
+            "一時金",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/lifecycle/hikkoshi/index.html",
+          "status": 200,
+          "title": "引っ越し",
+          "h1": "引っ越し",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/lifecycle/kourei.html",
+          "status": 200,
+          "title": "高齢者・介護",
+          "h1": "高齢者・介護",
+          "updatedAt": "2023年5月8日",
+          "keywordHits": [
+            "免除",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/lifecycle/shushoku.html",
+          "status": 200,
+          "title": "就職・退職",
+          "h1": "就職・退職",
+          "updatedAt": "2025年6月25日",
+          "keywordHits": [
+            "免除",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/lifecycle/kekkon.html",
+          "status": 200,
+          "title": "結婚・離婚",
+          "h1": "結婚・離婚",
+          "updatedAt": "2025年12月23日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/lifecycle/okuyami.html",
+          "status": 200,
+          "title": "おくやみ",
+          "h1": "おくやみ",
+          "updatedAt": "2026年4月7日",
+          "keywordHits": [
+            "一時金",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kurashi/bouhan/bousai/fuusuigai/index.html",
+          "status": 200,
+          "title": "町田市の風水害対策",
+          "h1": "町田市の風水害対策",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kurashi/bouhan/bousai/earthquake/index.html",
+          "status": 200,
+          "title": "町田市の地震対策",
+          "h1": "町田市の地震対策",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/iryo/iryo/kyubyo/index.html",
+          "status": 200,
+          "title": "急病のときは",
+          "h1": "急病のときは",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/kurashi/bouhan/bousai/syouboudan/index.html",
+          "status": 200,
+          "title": "町田市消防団について",
+          "h1": "町田市消防団について",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/shisei/koho/koho/kouhoushi/koho_machida/2026/20260701.html",
+          "status": 200,
+          "title": "広報まちだ 2026年7月1日号",
+          "h1": "広報まちだ 2026年7月1日号",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "免除",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/merumaga/index.html",
+          "status": 200,
+          "title": "町田市LINE・メール配信サービス",
+          "h1": "町田市LINE・メール配信サービス",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/shisei/koho/koho/useful_application.html",
+          "status": 200,
+          "title": "便利なアプリ",
+          "h1": "便利なアプリ",
+          "updatedAt": "2026年6月1日",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/jigyousha/advertisement/index.html",
+          "status": 200,
+          "title": "広告募集",
+          "h1": "広告募集",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/jigyousha/advertisement/bana_bosyu.html",
+          "status": 200,
+          "title": "「町田市ホームページ」バナー広告募集",
+          "h1": "「町田市ホームページ」バナー広告募集",
+          "updatedAt": "2025年9月8日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13209",
+          "municipalityName": "町田市",
+          "sourceUrl": "https://www.city.machida.tokyo.jp/link/index.html",
+          "status": 200,
+          "title": "リンク集",
+          "h1": "リンク集",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.machida.tokyo.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/sitemap.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/robots.txt",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/robots.txt",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/multilingual/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/multilingual/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kurashi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kurashi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kodomo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kodomo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/iryo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/iryo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/bunka/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/bunka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kanko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kanko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/jigyousha/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/jigyousha/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kurashi/bouhan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kurashi/bouhan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/shiyakusyo/gyomu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/shiyakusyo/gyomu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/shiyakusyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/shiyakusyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/koho/koho/kouhoushi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/koho/koho/kouhoushi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/koho/koho/sns/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/koho/koho/sns/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/koho/koho/sns/line.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/koho/koho/sns/line.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kurashi/shinsei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kurashi/shinsei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kurashi/touroku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kurashi/touroku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kurashi/tax/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kurashi/tax/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kurashi/hoken/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kurashi/hoken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kurashi/mynumber/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kurashi/mynumber/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kurashi/kankyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kurashi/kankyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kurashi/sumai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kurashi/sumai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kurashi/suido/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kurashi/suido/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kurashi/community/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kurashi/community/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kurashi/kurashisoudan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kurashi/kurashisoudan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kurashi/r6noto/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kurashi/r6noto/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kodomo/kosodate_kyouikusisetu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kodomo/kosodate_kyouikusisetu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kodomo/kyoiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kodomo/kyoiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kodomo/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kodomo/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kodomo/kosodateshingikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kodomo/kosodateshingikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kodomo/jigyousha/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kodomo/jigyousha/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/iryo/iryo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/iryo/iryo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/iryo/hokenjo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/iryo/hokenjo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/iryo/old_iryo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/iryo/old_iryo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/iryo/kaigo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/iryo/kaigo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/iryo/machi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/iryo/machi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/iryo/old/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/iryo/old/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/iryo/syougai_hukushi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/iryo/syougai_hukushi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/iryo/tiikihukusihoka/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/iryo/tiikihukusihoka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/iryo/ninka-shidou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/iryo/ninka-shidou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/iryo/sodan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/iryo/sodan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/bunka/bunka_geijutsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/bunka/bunka_geijutsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/bunka/sport/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/bunka/sport/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/bunka/syakai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/bunka/syakai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/bunka/park/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/bunka/park/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/bunka/riyou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/bunka/riyou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kanko/osusume/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kanko/osusume/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kanko/miru_aso/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kanko/miru_aso/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kanko/tabe_kau/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kanko/tabe_kau/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kanko/aruku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kanko/aruku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kanko/kotu_syuku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kanko/kotu_syuku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kanko/sangyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kanko/sangyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kanko/chushishigaichikasseika/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kanko/chushishigaichikasseika/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kanko/shi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kanko/shi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/keijijou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/keijijou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/machida_reiki_youkou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/machida_reiki_youkou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/shityoushitu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/shityoushitu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/sinokeikau/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/sinokeikau/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/miraidukurikenkyujo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/miraidukurikenkyujo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/koho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/koho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/city_promotion/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/city_promotion/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/toukei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/toukei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/opendata/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/opendata/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/gyouzaisei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/gyouzaisei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/syokuin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/syokuin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/buchomani/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/buchomani/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/gyousei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/gyousei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/siteikanri/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/siteikanri/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/koukai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/koukai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/kankobutsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/kankobutsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/gyouseifufukusinsaseido/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/gyouseifufukusinsaseido/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/kouekituuhousyahogoseido/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/kouekituuhousyahogoseido/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/shingikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/shingikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/shi_kansa/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/shi_kansa/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/senkyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/senkyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/jigyousha/nyusatsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/jigyousha/nyusatsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/jigyousha/shien/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/jigyousha/shien/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/jigyousha/invoice.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/jigyousha/invoice.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/jigyousha/saikensya/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/jigyousha/saikensya/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/jigyousha/advertisement/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/jigyousha/advertisement/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kurashi/kankyo/gomi/jigyosha/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kurashi/kankyo/gomi/jigyosha/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/jigyousha/PFI/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/jigyousha/PFI/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/jigyousha/minkanteianseido/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/jigyousha/minkanteianseido/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/iryo/syougai_hukushi/helpmark.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/iryo/syougai_hukushi/helpmark.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/iryo/iryo/kenkoujyouhou/nettyuusyou3.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/iryo/iryo/kenkoujyouhou/nettyuusyou3.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/bunka/bunka_geijutsu/cul/cul08Literature/shortshort/shortshort2026.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/bunka/bunka_geijutsu/cul/cul08Literature/shortshort/shortshort2026.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kurashi/bouhan/bouhan/sumai-bohan-hojo.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kurashi/bouhan/bouhan/sumai-bohan-hojo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/about/ainavi.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/about/ainavi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kodomo/kyoiku/keikakutou/kibohaiti/gakkoutougou_kousin.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kodomo/kyoiku/keikakutou/kibohaiti/gakkoutougou_kousin.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kurashi/touroku/kyuujitu/yoyaku.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kurashi/touroku/kyuujitu/yoyaku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kurashi/kankyo/gomi/gominowakekata/gomi-dashikata/kanenhunen/iipan01.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kurashi/kankyo/gomi/gominowakekata/gomi-dashikata/kanenhunen/iipan01.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kurashi/kurashisoudan/engo/bukka.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kurashi/kurashisoudan/engo/bukka.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kurashi/kankyo/gomi/gominowakekata/gomi-dashikata/kanenhunen/shiteifukuro.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kurashi/kankyo/gomi/gominowakekata/gomi-dashikata/kanenhunen/shiteifukuro.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kurashi/bouhan/bouhan/crime.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kurashi/bouhan/bouhan/crime.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/buchomani/2026sigotomokuhyo.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/buchomani/2026sigotomokuhyo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/syokuin/fiscal_year_staff/bukatsu2026.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/syokuin/fiscal_year_staff/bukatsu2026.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/bunka/bunka_geijutsu/bunkazai/bunkazaimeguru/bunkazaimeguru/shishimai.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/bunka/bunka_geijutsu/bunkazai/bunkazaimeguru/bunkazaimeguru/shishimai.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/syokuin/fiscal_year_staff/kakigakusei.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/syokuin/fiscal_year_staff/kakigakusei.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/jigyousha/nyusatsu/puropo/kobogata/260709.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/jigyousha/nyusatsu/puropo/kobogata/260709.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/bunka/park/shisetu/serigaya/art_project/made-in-serigaya-jokyo/2026summer.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/bunka/park/shisetu/serigaya/art_project/made-in-serigaya-jokyo/2026summer.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/allNewsList.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/allNewsList.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/rss_news.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/rss_news.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kanko/sangyo/nougyo/event/blueberry.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kanko/sangyo/nougyo/event/blueberry.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/calendar/list_calendar.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/calendar/list_calendar.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/lifecycle/ninshin.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/lifecycle/ninshin.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/lifecycle/hikkoshi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/lifecycle/hikkoshi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/lifecycle/kourei.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/lifecycle/kourei.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/lifecycle/shushoku.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/lifecycle/shushoku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/lifecycle/kekkon.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/lifecycle/kekkon.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/lifecycle/okuyami.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/lifecycle/okuyami.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kurashi/bouhan/bousai/fuusuigai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kurashi/bouhan/bousai/fuusuigai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kurashi/bouhan/bousai/earthquake/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kurashi/bouhan/bousai/earthquake/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/iryo/iryo/kyubyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/iryo/iryo/kyubyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kids/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kids/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/kurashi/bouhan/bousai/syouboudan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/kurashi/bouhan/bousai/syouboudan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shigo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shigo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shigo/kocyo/publiccomment/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shigo/kocyo/publiccomment/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/koho/koho/kouhoushi/koho_machida/2026/20260701.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/koho/koho/kouhoushi/koho_machida/2026/20260701.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/koho/koho/kouhoushi/koho_machida/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/koho/koho/kouhoushi/koho_machida/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/koho/koho/matitele.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/koho/koho/matitele.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/merumaga/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/merumaga/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/koho/koho/useful_application.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/koho/koho/useful_application.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/cgi-bin/adclick/ad_click.cgi?id=78b7798c-91ee-4457-a04d-e8deaaf1acb5",
+          "status": 200,
+          "finalUrl": "https://www.grace-dentalclinic.com/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/cgi-bin/adclick/ad_click.cgi?id=32c9de40-f265-438b-8b06-45ef00b0a3c9",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/jigyousha/advertisement/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/jigyousha/advertisement/bana_bosyu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/jigyousha/advertisement/bana_bosyu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/about/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/about/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/koukai/kojinjoho/about_kojinjoho.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/koukai/kojinjoho/about_kojinjoho.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/link/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/link/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/shisei/shiyakusyo/mainoffice/officeguide.html",
+          "status": 200,
+          "finalUrl": "https://www.city.machida.tokyo.jp/shisei/shiyakusyo/mainoffice/officeguide.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01J1JX6XFHN04CN1T93MSFN7FK.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01J1JX6XFHN04CN1T93MSFN7FK.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01J97Z8QH1J70JKR93HBF2R78D.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01J97Z8QH1J70JKR93HBF2R78D.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JDX9QFSKQHX25S0SR2HEF124.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JDX9QFSKQHX25S0SR2HEF124.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JDXA3QA17E0T9HVQDFXNX84S.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JDXA3QA17E0T9HVQDFXNX84S.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JE4T878FW9Y81ERDGRC7G7QG.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JE4T878FW9Y81ERDGRC7G7QG.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JEHNZ4G09ZDM5726J6YHKSPY.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JEHNZ4G09ZDM5726J6YHKSPY.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JEYBF9J1STWDAG0DNGH3E5VT.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JEYBF9J1STWDAG0DNGH3E5VT.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JGCP6635FQW5RK24XXHGNA43.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JGCP6635FQW5RK24XXHGNA43.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JGFFQWKVKJESYM38JS62JDS2.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JGFFQWKVKJESYM38JS62JDS2.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JGYR1K7ZHWR00WJAHGTG57KG.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JGYR1K7ZHWR00WJAHGTG57KG.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JH12G835AB9PGN8W7GGRHDP1.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JH12G835AB9PGN8W7GGRHDP1.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JH19C2XYV7DPQ8DPZH889BNZ.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JH19C2XYV7DPQ8DPZH889BNZ.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JH6VYRMWNZ2KFVD930F8RHJ5.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JH6VYRMWNZ2KFVD930F8RHJ5.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JH91XP45VNRS4VSWFHP3FJM9.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JH91XP45VNRS4VSWFHP3FJM9.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHGGXEP6PAQ5KDNCNRMYAKDH.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHGGXEP6PAQ5KDNCNRMYAKDH.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHGGXGH1HVFN47RSSZ4XC071.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHGGXGH1HVFN47RSSZ4XC071.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHGGXJ1JZPWRX31FSY5TKMDH.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHGGXJ1JZPWRX31FSY5TKMDH.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHGGXJ81QAZQCPZHYFFE22M1.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHGGXJ81QAZQCPZHYFFE22M1.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHGGXN9FY65V3A50MSEFCZJG.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHGGXN9FY65V3A50MSEFCZJG.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHGYSFBNAS9GV1AZVPTBJ2DN.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHGYSFBNAS9GV1AZVPTBJ2DN.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHNWM6CCKJHVJ8G1G8HW490C.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHNWM6CCKJHVJ8G1G8HW490C.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHSHP24V18VEGBXSA40P0X72.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHSHP24V18VEGBXSA40P0X72.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHSHP24V4MXKMER4CWDZX14B.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHSHP24V4MXKMER4CWDZX14B.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHSHP24VAHGV6HKQJDMGNY54.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHSHP24VAHGV6HKQJDMGNY54.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHSHP24VAWQ394SPP1XJ0017.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHSHP24VAWQ394SPP1XJ0017.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHSHP24VRFS7D5F0YMYXE1SS.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHSHP24VRFS7D5F0YMYXE1SS.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHSHP24VT5Q8HJMWGVJDBQYM.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHSHP24VT5Q8HJMWGVJDBQYM.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHSHP24VT74FVX97VWSXP5HW.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHSHP24VT74FVX97VWSXP5HW.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHSHP24WZYYNSXZ15KYJNDZX.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHSHP24WZYYNSXZ15KYJNDZX.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHSHPF1795AKCBP5BKM6MZ6D.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHSHPF1795AKCBP5BKM6MZ6D.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHV1P8YTG6ATZKM302G8ZK97.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHV1P8YTG6ATZKM302G8ZK97.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHXCX2FNJNQKEZMWN8DQFXV9.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHXCX2FNJNQKEZMWN8DQFXV9.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHXKQW3WD65G1T4PKGGDY57C.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHXKQW3WD65G1T4PKGGDY57C.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHXKYKFK6PDJC0R84K8A04HB.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JHXKYKFK6PDJC0R84K8A04HB.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ185R1JYS75ZRC2D3G7EQDT.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ185R1JYS75ZRC2D3G7EQDT.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCMMQ6ZWR64378N1H3Y.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCMMQ6ZWR64378N1H3Y.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCN3ZRW1YPM7M29ATRM.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCN3ZRW1YPM7M29ATRM.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCN6ZPDG2QWH3WDW0FP.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCN6ZPDG2QWH3WDW0FP.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCN8S4ARZ62H4NPKB9P.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCN8S4ARZ62H4NPKB9P.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCNGX08Z1484DE0NAW5.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCNGX08Z1484DE0NAW5.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCNND6R1AYY4NY1YSCS.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCNND6R1AYY4NY1YSCS.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCNNK66QTXYQE94RA1F.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCNNK66QTXYQE94RA1F.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCNPFTYV15N9PFFX41Q.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCNPFTYV15N9PFFX41Q.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCNQ9GCMX3YQ903CEPJ.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCNQ9GCMX3YQ903CEPJ.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCNQQ2VAZT97KK9TTWQ.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCNQQ2VAZT97KK9TTWQ.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCNWPRCJDAKZEJCEYA0.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCNWPRCJDAKZEJCEYA0.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCNY5B4FHE9R98FYGRA.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCNY5B4FHE9R98FYGRA.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCPS0XCKMSW89EQ1M0G.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCPS0XCKMSW89EQ1M0G.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCPS5ZX766GHREMWND7.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCPS5ZX766GHREMWND7.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCPVC8FRZ668BBY01WC.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCPVC8FRZ668BBY01WC.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCPWP1EWPC7GFKM3T92.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ186XCPWP1EWPC7GFKM3T92.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2HNS9R2NHQ2XRTX5GW6QA2.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2HNS9R2NHQ2XRTX5GW6QA2.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2HNVMYY1Q5BY9Z1147TBEX.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2HNVMYY1Q5BY9Z1147TBEX.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2HP08WQ685EQZNQJ9NDZKP.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2HP08WQ685EQZNQJ9NDZKP.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2HP7CRGDHT9G25R1GXKY3K.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2HP7CRGDHT9G25R1GXKY3K.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2HPC8X3Y53A9X6ZAR8XPV2.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2HPC8X3Y53A9X6ZAR8XPV2.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2HPNX6124DDPPYT1R9TE2Y.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2HPNX6124DDPPYT1R9TE2Y.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2HPR0XT1TD1WZS37NEB9BJ.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2HPR0XT1TD1WZS37NEB9BJ.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2HPV5GHMH5P7BRVP1V0PCY.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2HPV5GHMH5P7BRVP1V0PCY.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2HPX1JE4PGA1Z3X51GC2Y5.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2HPX1JE4PGA1Z3X51GC2Y5.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RHCPEBJQDTW59Q4QN45FQ.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RHCPEBJQDTW59Q4QN45FQ.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RHG58CMBKGW46NX85CHF4.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RHG58CMBKGW46NX85CHF4.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RHJVM4F98BHWBMX8WGPEB.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RHJVM4F98BHWBMX8WGPEB.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RHMH0RNTM37B3BJA3WYPP.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RHMH0RNTM37B3BJA3WYPP.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RHP642YKJVP51PBY2ME7C.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RHP642YKJVP51PBY2ME7C.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RHRKP62QSQBW825XT25TW.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RHRKP62QSQBW825XT25TW.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RHTMWVEFQAJTMDQDG9ZXY.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RHTMWVEFQAJTMDQDG9ZXY.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RHVXCWWJ095NZG581GVBY.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RHVXCWWJ095NZG581GVBY.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RJ41YWBCDP6J166X5K1ZW.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RJ41YWBCDP6J166X5K1ZW.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RJ7X7VTTCYCSVXE354RQQ.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RJ7X7VTTCYCSVXE354RQQ.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RJF510H5V25MW2F1XF1EB.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RJF510H5V25MW2F1XF1EB.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RJKPK35N1Q8NP6SD3BBKF.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RJKPK35N1Q8NP6SD3BBKF.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RJP942T91Y5AH9ZGBCEDH.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RJP942T91Y5AH9ZGBCEDH.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RJVTCQDWRK40M0MZ3KS4R.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ2RJVTCQDWRK40M0MZ3KS4R.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ41GNY27HZYA2AVWXRQ2XKK.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ41GNY27HZYA2AVWXRQ2XKK.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ41GR90HQC3R1M9XHV472Q4.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ41GR90HQC3R1M9XHV472Q4.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ41GR90T7HK0AB8EXZYP7AB.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ41GR90T7HK0AB8EXZYP7AB.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5VTT0P1594QHMDR1BY5R69.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5VTT0P1594QHMDR1BY5R69.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5VTT5FM17X1A3HY1MT0QER.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5VTT5FM17X1A3HY1MT0QER.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5VTT9NZCK02NRSBBSGJVS6.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5VTT9NZCK02NRSBBSGJVS6.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5XEN261XWDSCX2KDHVH2M6.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5XEN261XWDSCX2KDHVH2M6.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5XEP1F54JSKXDESPH88ZKC.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5XEP1F54JSKXDESPH88ZKC.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5Y926HAYZYKX83NN6JDN12.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5Y926HAYZYKX83NN6JDN12.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5Y92ATWQ7QRN3339ZX8MDP.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5Y92ATWQ7QRN3339ZX8MDP.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5Y92XPT7GQ0J52AYEJ0E65.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5Y92XPT7GQ0J52AYEJ0E65.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5Y9H552X68XFC7Q30E2Z6A.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5Y9H552X68XFC7Q30E2Z6A.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5Y9H55B1R9E5638YJZA02P.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5Y9H55B1R9E5638YJZA02P.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5Y9H55GN21DWP7C7KV4SD2.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5Y9H55GN21DWP7C7KV4SD2.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5Y9H55N9H232P2A8KZDCJ4.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5Y9H55N9H232P2A8KZDCJ4.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5Y9H55NEZXJ5Z7X8BXW0E9.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5Y9H55NEZXJ5Z7X8BXW0E9.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5Y9H55QA0TC4P8TM0A1JJH.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5Y9H55QA0TC4P8TM0A1JJH.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5Y9H55RE6V2D5Y0HYP5WWF.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5Y9H55RE6V2D5Y0HYP5WWF.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5Y9H55T4HAJEXVED1Q4BQ1.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5Y9H55T4HAJEXVED1Q4BQ1.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y80E5DTFN6KVDZVZ16.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y80E5DTFN6KVDZVZ16.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y82696MXA11DQ111FS.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y82696MXA11DQ111FS.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y85C5QGBJ6V0W8RKGK.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y85C5QGBJ6V0W8RKGK.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y86SFCPW46N0FJ3S9K.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y86SFCPW46N0FJ3S9K.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y878FJBK1053E4YYMD.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y878FJBK1053E4YYMD.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y8ARCZZG8MGNPXXPJ0.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y8ARCZZG8MGNPXXPJ0.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y8GW4H5JQCQVCZDK21.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y8GW4H5JQCQVCZDK21.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y8HNGAS0EH1P50EHG0.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y8HNGAS0EH1P50EHG0.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y8PY0P6WA8SWBNBR7D.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y8PY0P6WA8SWBNBR7D.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y8XVTWP57NFFKKSYY0.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y8XVTWP57NFFKKSYY0.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y8Y9540H186ND2CZD0.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y8Y9540H186ND2CZD0.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y8ZTF4FEW5CBPZ3CKM.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y8ZTF4FEW5CBPZ3CKM.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y928VBCNH7N33W7HF1.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y928VBCNH7N33W7HF1.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y9M7K16TK7KV8ABC0T.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y9M7K16TK7KV8ABC0T.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y9MKKF3R5C8DYSJHVM.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y9MKKF3R5C8DYSJHVM.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y9N1RS8SM82JJYBQKR.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4Y9N1RS8SM82JJYBQKR.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4YA1QTW8BTA9XBWDAVN.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4YA1QTW8BTA9XBWDAVN.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4YA32KJCNHNZJJYDV7N.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4YA32KJCNHNZJJYDV7N.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4YA39DS3SQC4JZEV2PV.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4YA39DS3SQC4JZEV2PV.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4YAA63ZA6Q39GHK65Y4.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4YAA63ZA6Q39GHK65Y4.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4YAGV8SKMZVB2HD196A.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4YAGV8SKMZVB2HD196A.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4YAMHA0NMJ69C5NHRPR.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4YAMHA0NMJ69C5NHRPR.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4YAYNXXA65DR9567616.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5YD4YAYNXXA65DR9567616.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5ZPQA5V91ZFDV1VP1SCS77.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ5ZPQA5V91ZFDV1VP1SCS77.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ61E3MHGY1FZ2NB06D68MJM.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ61E3MHGY1FZ2NB06D68MJM.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ61E3MHPQ110ENWSNC3CD1X.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ61E3MHPQ110ENWSNC3CD1X.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ61E3MHZES48EXWXNBAFM26.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ61E3MHZES48EXWXNBAFM26.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ61E3MJ4BCHF2WK11TQVW0E.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ61E3MJ4BCHF2WK11TQVW0E.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ61E3MJTHJ75F9KSXV59BPW.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ61E3MJTHJ75F9KSXV59BPW.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ61E3MK1FA6TE3BGPTP01DE.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ61E3MK1FA6TE3BGPTP01DE.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ61XXDV0GHF0PD3ESF1Y7RJ.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ61XXDV0GHF0PD3ESF1Y7RJ.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ61XXDV83PNJ7VVFB2SH2BS.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ61XXDV83PNJ7VVFB2SH2BS.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ61XXDVHYRNWJNAC8YSGDNZ.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ61XXDVHYRNWJNAC8YSGDNZ.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ61XXDVJCP95SCRN2ZZ6AZT.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ61XXDVJCP95SCRN2ZZ6AZT.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ61XXDVX21CEANMN2K6PPNB.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ61XXDVX21CEANMN2K6PPNB.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ61XXDWE7SC7E2M4X87SKAQ.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ61XXDWE7SC7E2M4X87SKAQ.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ62JFEC6H99ZJWWAQKGZJBP.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ62JFEC6H99ZJWWAQKGZJBP.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ62Z107CZR32260CR7H2KA1.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ62Z107CZR32260CR7H2KA1.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ62Z107FF6T2G43AX1FMSK5.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ62Z107FF6T2G43AX1FMSK5.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ62Z108C8KYHZQZ77MDSV9E.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ62Z108C8KYHZQZ77MDSV9E.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBE6REWY6G92DZBQ4FX.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBE6REWY6G92DZBQ4FX.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBEGHGVGMBDV454R7FA.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBEGHGVGMBDV454R7FA.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBEZ9TXTT83HQNEHY8H.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBEZ9TXTT83HQNEHY8H.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBF0JJWR819F3PEHJT3.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBF0JJWR819F3PEHJT3.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBF0MKXM8AY2A4Q6TQ4.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBF0MKXM8AY2A4Q6TQ4.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBF3VHP3NJECZMDYCFZ.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBF3VHP3NJECZMDYCFZ.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBF5Y3QPTBS9H4D1TF0.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBF5Y3QPTBS9H4D1TF0.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBF94ESHM1E9HS59KPP.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBF94ESHM1E9HS59KPP.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBF9FB799D1T67V8MKP.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBF9FB799D1T67V8MKP.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFAQY4VJ4R02Z7K2YV.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFAQY4VJ4R02Z7K2YV.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFCFFJQ9V1QXJN12FX.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFCFFJQ9V1QXJN12FX.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFJ2FSJZXT90BCJMJC.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFJ2FSJZXT90BCJMJC.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFJGA6SNK1YBT3X6JY.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFJGA6SNK1YBT3X6JY.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFNGMP84SXDS5ERZM1.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFNGMP84SXDS5ERZM1.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFSFE9X843G8PMCM50.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFSFE9X843G8PMCM50.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFSJPZC1BFG6PAC1WR.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFSJPZC1BFG6PAC1WR.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFTWDWKVTRQBH4A39Y.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFTWDWKVTRQBH4A39Y.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFVV0SVSSDG0GFY3GQ.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFVV0SVSSDG0GFY3GQ.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFWD40EB8997427GHG.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFWD40EB8997427GHG.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFX4NX5M2RQCS2VTG7.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFX4NX5M2RQCS2VTG7.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFXF86ZB0BA3C0BH9D.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFXF86ZB0BA3C0BH9D.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFXM01G04ZT45MMBDE.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFXM01G04ZT45MMBDE.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFY5EJBCKDZJCX7PVG.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFY5EJBCKDZJCX7PVG.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFYZS48DQ6Y4TF50DK.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ630MBFYZS48DQ6Y4TF50DK.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ64B45GEQRDSZGQTW7ZVF3N.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ64B45GEQRDSZGQTW7ZVF3N.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ64BCX919447B2SNMRS4Z3F.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ64BCX919447B2SNMRS4Z3F.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ65W55582HXACVD4NGDF4B9.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ65W55582HXACVD4NGDF4B9.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ65W5S2YHECPVKKX7MNHJFX.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ65W5S2YHECPVKKX7MNHJFX.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ67FZ8H4VBNYGG2A8ZT3AJS.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ67FZ8H4VBNYGG2A8ZT3AJS.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ686Z992YZB7JA5X7RN5N3J.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ686Z992YZB7JA5X7RN5N3J.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ686ZEJ34RGGA6MAVJ4RC4S.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ686ZEJ34RGGA6MAVJ4RC4S.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ686ZKQSPMXF2GPGPF8JFE4.html",
+          "status": 404,
+          "finalUrl": "https://www.city.machida.tokyo.jp/event/event-info/detail/01JJ686ZKQSPMXF2GPGPF8JFE4.html",
+          "ok": false
+        }
+      ]
+    }
+  ]
+}
