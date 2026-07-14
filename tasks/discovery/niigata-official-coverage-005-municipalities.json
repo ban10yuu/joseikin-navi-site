@@ -1,0 +1,10 @@
+{
+  "batchId": "niigata-official-coverage-005",
+  "prefecture": "新潟県",
+  "municipalities": [
+    { "code": "15218", "name": "五泉市", "officialBaseUrl": "https://www.city.gosen.lg.jp/" },
+    { "code": "15222", "name": "上越市", "officialBaseUrl": "https://www.city.joetsu.niigata.jp/" },
+    { "code": "15223", "name": "阿賀野市", "officialBaseUrl": "https://www.city.agano.niigata.jp/" },
+    { "code": "15224", "name": "佐渡市", "officialBaseUrl": "https://www.city.sado.niigata.jp/" }
+  ]
+}

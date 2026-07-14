@@ -1,0 +1,1890 @@
+{
+  "batchId": "niigata-official-coverage-005-15218",
+  "prefecture": "新潟県",
+  "generatedAt": "2026-07-14T13:22:49.083Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 50,
+  "results": [
+    {
+      "code": "15218",
+      "name": "五泉市",
+      "officialBaseUrl": "https://www.city.gosen.lg.jp/",
+      "discoveredUrlCount": 150,
+      "candidateCount": 50,
+      "strongCandidateCount": 3,
+      "lowPriorityCandidateCount": 47,
+      "candidates": [
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月13日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "農業"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月13日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "農業"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/organization/",
+          "status": 200,
+          "title": "組織から探す",
+          "h1": "組織から探す",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/contact/",
+          "status": 200,
+          "title": "お問い合わせ",
+          "h1": "お問い合わせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/life_procedures/",
+          "status": 200,
+          "title": "くらし・手続き",
+          "h1": "くらし・手続き",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "予防接種"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/childcare_education/",
+          "status": 200,
+          "title": "子育て・教育",
+          "h1": "子育て・教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/health_welfare/",
+          "status": 200,
+          "title": "健康・福祉",
+          "h1": "健康・福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "減免",
+            "住宅",
+            "事業者",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/industry_business/",
+          "status": 200,
+          "title": "産業・ビジネス",
+          "h1": "産業・ビジネス",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "創業",
+            "起業",
+            "農業",
+            "林業",
+            "福祉"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/municipal_administration/",
+          "status": 200,
+          "title": "市政情報",
+          "h1": "市政情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "支援金",
+            "移住",
+            "住宅",
+            "起業",
+            "林業",
+            "福祉",
+            "子育て",
+            "耐震",
+            "省エネ"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/life_procedures/",
+          "status": 200,
+          "title": "くらし・手続き",
+          "h1": "くらし・手続き",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "予防接種"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/childcare_education/",
+          "status": 200,
+          "title": "子育て・教育",
+          "h1": "子育て・教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/health_welfare/",
+          "status": 200,
+          "title": "健康・福祉",
+          "h1": "健康・福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "減免",
+            "住宅",
+            "事業者",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/industry_business/",
+          "status": 200,
+          "title": "産業・ビジネス",
+          "h1": "産業・ビジネス",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "創業",
+            "起業",
+            "農業",
+            "林業",
+            "福祉"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/municipal_administration/",
+          "status": 200,
+          "title": "市政情報",
+          "h1": "市政情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "支援金",
+            "移住",
+            "住宅",
+            "起業",
+            "林業",
+            "福祉",
+            "子育て",
+            "耐震",
+            "省エネ"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/facility/",
+          "status": 200,
+          "title": "施設から探す",
+          "h1": "施設から探す",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/organization/3/teijuu_shien/13280.html",
+          "status": 200,
+          "title": "定住支援員を募集しています",
+          "h1": "定住支援員を募集しています",
+          "updatedAt": "2026年07月02日",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/organization/3/1/13087.html",
+          "status": 200,
+          "title": "電子契約サービスについて",
+          "h1": "電子契約サービスについて",
+          "updatedAt": "2026年07月08日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/organization/19/2/6/1809.html",
+          "status": 200,
+          "title": "消防団員を募集中!!",
+          "h1": "消防団員を募集中!!",
+          "updatedAt": "2026年04月22日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/organization/7/1/11167.html",
+          "status": 200,
+          "title": "ごみの収集に関する新しい取り組みを実施しています",
+          "h1": "ごみの収集に関する新しい取り組みを実施しています",
+          "updatedAt": "2026年05月26日",
+          "keywordHits": [
+            "減免",
+            "免除"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/organization/3/1/9833.html",
+          "status": 200,
+          "title": "五泉市LINE公式アカウントの運用について",
+          "h1": "五泉市LINE公式アカウントの運用について",
+          "updatedAt": "2024年07月01日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/organization/3/1/6496.html",
+          "status": 200,
+          "title": "「ぴったりサービス」による電子申請について",
+          "h1": "「ぴったりサービス」による電子申請について",
+          "updatedAt": "2025年09月25日",
+          "keywordHits": [
+            "減免",
+            "住宅",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/organization/3/7/4/4954.html",
+          "status": 200,
+          "title": "ガンバレ!ふるさと応援寄付金（ふるさと納税）を募集しています",
+          "h1": "ガンバレ!ふるさと応援寄付金（ふるさと納税）を募集しています",
+          "updatedAt": "2024年05月01日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/organization/3/15/2/1881.html",
+          "status": 200,
+          "title": "移住・定住情報ページ",
+          "h1": "移住・定住情報ページ",
+          "updatedAt": "2026年05月14日",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "医療費助成",
+            "移住",
+            "住宅",
+            "創業",
+            "起業",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/organization/3/1/7395.html",
+          "status": 200,
+          "title": "五泉市公共施設予約システムのご利用について",
+          "h1": "五泉市公共施設予約システムのご利用について",
+          "updatedAt": "2025年09月09日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/life_procedures/9_1/1/index.html",
+          "status": 200,
+          "title": "防災",
+          "h1": "防災",
+          "updatedAt": "令和3年5月20日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/life_procedures/3/index.html",
+          "status": 200,
+          "title": "ごみ・リサイクル",
+          "h1": "ごみ・リサイクル",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/childcare_education/8/2307.html",
+          "status": 200,
+          "title": "五泉の五ツ星給食",
+          "h1": "五泉の五ツ星給食",
+          "updatedAt": "2026年07月14日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/life_procedures/4/2/13315.html",
+          "status": 200,
+          "title": "放任果樹伐採補助金",
+          "h1": "放任果樹伐採補助金",
+          "updatedAt": "2026年07月13日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/facility/itiran/10328.html",
+          "status": 200,
+          "title": "馬下保養センター",
+          "h1": "馬下保養センター",
+          "updatedAt": "2026年07月10日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/municipal_administration/10/9883.html",
+          "status": 200,
+          "title": "地場産業成長支援事業補助金について",
+          "h1": "地場産業成長支援事業補助金について",
+          "updatedAt": "2026年07月10日",
+          "keywordHits": [
+            "補助金",
+            "事業者"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/industry_business/4/12932.html",
+          "status": 200,
+          "title": "令和8年度担い手向け五泉市単独補助事業",
+          "h1": "令和8年度担い手向け五泉市単独補助事業",
+          "updatedAt": "2026年07月10日",
+          "keywordHits": [
+            "補助金",
+            "農業"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/event_recruitment/9926.html",
+          "status": 200,
+          "title": "公営住宅",
+          "h1": "公営住宅",
+          "updatedAt": "2026年07月10日",
+          "keywordHits": [
+            "住宅",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/event_recruitment/9013.html",
+          "status": 200,
+          "title": "移住定住に関するイベント情報",
+          "h1": "移住定住に関するイベント情報",
+          "updatedAt": "2026年07月07日",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/event_recruitment/9400.html",
+          "status": 200,
+          "title": "地方創生応援税制（企業版ふるさと納税）",
+          "h1": "地方創生応援税制（企業版ふるさと納税）",
+          "updatedAt": "2026年06月26日",
+          "keywordHits": [
+            "補助金",
+            "貸付",
+            "医療費助成",
+            "住宅",
+            "創業",
+            "起業"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/event_recruitment/9982.html",
+          "status": 200,
+          "title": "&quot;イエローリボンスマイルフェア（2026）&quot;をラポルテ五泉で開催します！",
+          "h1": "&quot;イエローリボンスマイルフェア（2026）&quot;をラポルテ五泉で開催します！",
+          "updatedAt": "2026年06月25日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/event_recruitment/13273.html",
+          "status": 200,
+          "title": "令和8年度 こどもワークショップ「ガチでいわせて＃10代会議！」",
+          "h1": "令和8年度 こどもワークショップ「ガチでいわせて＃10代会議！」",
+          "updatedAt": "2026年06月25日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/event_recruitment/10814.html",
+          "status": 200,
+          "title": "五泉市介護人材確保支援事業補助金",
+          "h1": "五泉市介護人材確保支援事業補助金",
+          "updatedAt": "2026年05月01日",
+          "keywordHits": [
+            "補助金",
+            "福祉"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/event_recruitment/",
+          "status": 200,
+          "title": "イベント・募集",
+          "h1": "イベント・募集",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/info/13098.html",
+          "status": 200,
+          "title": "電子契約サービスについて",
+          "h1": "電子契約サービスについて",
+          "updatedAt": "2026年07月08日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/info/13303.html",
+          "status": 200,
+          "title": "生成AIサービス提供業務に係る公募プロポーザルの実施について",
+          "h1": "生成AIサービス提供業務に係る公募プロポーザルの実施について",
+          "updatedAt": "2026年07月06日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/info/11090.html",
+          "status": 200,
+          "title": "コンビニエンスストアで住民票の写しなどの証明書が取得できます",
+          "h1": "コンビニエンスストアで住民票の写しなどの証明書が取得できます",
+          "updatedAt": "2026年07月01日",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/info/9981.html",
+          "status": 200,
+          "title": "&quot;イエローリボンスマイルフェア（2026）&quot;をラポルテ五泉で開催します！",
+          "h1": "&quot;イエローリボンスマイルフェア（2026）&quot;をラポルテ五泉で開催します！",
+          "updatedAt": "2026年06月25日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/info/6427.html",
+          "status": 200,
+          "title": "五泉市オープンデータ",
+          "h1": "五泉市オープンデータ",
+          "updatedAt": "2026年06月17日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/info/6629.html",
+          "status": 200,
+          "title": "監査の結果",
+          "h1": "監査の結果",
+          "updatedAt": "2026年06月03日",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/info/13118.html",
+          "status": 200,
+          "title": "大区画化等加速化支援事業について",
+          "h1": "大区画化等加速化支援事業について",
+          "updatedAt": "2026年05月15日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/info/",
+          "status": 200,
+          "title": "お知らせ",
+          "h1": "お知らせ",
+          "updatedAt": "令和8年3月11日",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "移住"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/keyword/childcare/",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/keyword/moving/",
+          "status": 200,
+          "title": "引越し",
+          "h1": "引越し",
+          "updatedAt": "",
+          "keywordHits": [
+            "空家"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/organization/3/opendata/5878.html",
+          "status": 200,
+          "title": "五泉市オープンデータ",
+          "h1": "五泉市オープンデータ",
+          "updatedAt": "2026年06月17日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15218",
+          "municipalityName": "五泉市",
+          "sourceUrl": "https://www.city.gosen.lg.jp/organization/3/1/767.html",
+          "status": 200,
+          "title": "「広報ごせん」およびホームページに『広告』を掲載しませんか",
+          "h1": "「広報ごせん」およびホームページに『広告』を掲載しませんか",
+          "updatedAt": "2021年04月01日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.gosen.lg.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/sitemap.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.gosen.lg.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.city.gosen.lg.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/SelectLanguage.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/SelectLanguage.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/organization",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/organization/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/contact",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/contact/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/life_procedures/",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/life_procedures/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/health_welfare/",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/health_welfare/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/industry_business/",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/industry_business/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/municipal_administration/",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/municipal_administration/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/life_procedures",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/life_procedures/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/health_welfare",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/health_welfare/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/industry_business",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/industry_business/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/municipal_administration",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/municipal_administration/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/facility",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/facility/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/organization/3/teijuu_shien/13280.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/organization/3/teijuu_shien/13280.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/organization/3/1/13087.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/organization/3/1/13087.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/organization/1/1/774.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/organization/1/1/774.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/organization/19/2/6/1809.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/organization/19/2/6/1809.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/organization/7/1/11167.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/organization/7/1/11167.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/organization/3/1/9833.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/organization/3/1/9833.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/organization/19/2/4/10825.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/organization/19/2/4/10825.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/organization/3/1/6496.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/organization/3/1/6496.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/organization/3/1/9190.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/organization/3/1/9190.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/organization/3/7/4/4954.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/organization/3/7/4/4954.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/organization/3/15/2/1881.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/organization/3/15/2/1881.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/organization/3/1/7395.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/organization/3/1/7395.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/hyande/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/hyande/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/life_procedures/8/1/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/life_procedures/8/1/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/life_procedures/9_1/1/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/life_procedures/9_1/1/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/life_procedures/2/1/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/life_procedures/2/1/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/life_procedures/3/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/life_procedures/3/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/organization/19/3/1805.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/organization/19/3/1805.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/organization/7/5_1/13293.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/organization/7/5_1/13293.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/8/2307.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/8/2307.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/event_recruitment/11538.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/event_recruitment/11538.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/organization/7/13/751.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/organization/7/13/751.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/municipal_administration/6/2/2443.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/municipal_administration/6/2/2443.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/life_procedures/4/2/13315.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/life_procedures/4/2/13315.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/municipal_administration/4/1/5662.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/municipal_administration/4/1/5662.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/facility/itiran/10328.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/facility/itiran/10328.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/municipal_administration/10/9883.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/municipal_administration/10/9883.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/event_recruitment/11046.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/event_recruitment/11046.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/industry_business/4/12932.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/industry_business/4/12932.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/event_recruitment/9926.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/event_recruitment/9926.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/organization/22/4/3/4237.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/organization/22/4/3/4237.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/parliament/3/2889.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/parliament/3/2889.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/organization/7/1/13288.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/organization/7/1/13288.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/new.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/new.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/cgi-bin/feed.php?type=rss_2.0&amp;siteNew=1",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/cgi-bin/feed.php?type=rss_2.0&amp;siteNew=1",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/event_recruitment/9013.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/event_recruitment/9013.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/event_recruitment/9400.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/event_recruitment/9400.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/event_recruitment/9982.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/event_recruitment/9982.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/event_recruitment/13273.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/event_recruitment/13273.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/event_recruitment/8852.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/event_recruitment/8852.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/event_recruitment/12122.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/event_recruitment/12122.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/event_recruitment/2106.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/event_recruitment/2106.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/event_recruitment/10814.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/event_recruitment/10814.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/event_recruitment/4332.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/event_recruitment/4332.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/event_recruitment/12910.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/event_recruitment/12910.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/event_recruitment/10516.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/event_recruitment/10516.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/event_recruitment/3971.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/event_recruitment/3971.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/event_recruitment",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/event_recruitment/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/cgi-bin/feed.php?type=rss_2.0&amp;categoryNo=15&amp;categoryNew=1&amp;includeShortcut=1",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/cgi-bin/feed.php?type=rss_2.0&amp;categoryNo=15&amp;categoryNew=1&amp;includeShortcut=1",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/info/11537.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/info/11537.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/info/13098.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/info/13098.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/info/13303.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/info/13303.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/info/11090.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/info/11090.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/info/9981.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/info/9981.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/info/13269.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/info/13269.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/info/6427.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/info/6427.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/info/6629.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/info/6629.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/info/13115.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/info/13115.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/info/13118.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/info/13118.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/info/4735.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/info/4735.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/info/12687.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/info/12687.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/info/12654.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/info/12654.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/info/12644.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/info/12644.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/info/12628.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/info/12628.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/info",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/info/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/cgi-bin/feed.php?type=rss_2.0&amp;categoryNo=798&amp;categoryNew=1&amp;includeShortcut=1",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/cgi-bin/feed.php?type=rss_2.0&amp;categoryNo=798&amp;categoryNew=1&amp;includeShortcut=1",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/keyword/pregnancy_birth",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/keyword/pregnancy_birth/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/keyword/childcare",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/keyword/childcare/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/keyword/enrollment",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/keyword/enrollment/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/keyword/moving",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/keyword/moving/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/keyword/elderly_carriage_failure",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/keyword/elderly_carriage_failure/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/keyword/employment_retirement",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/keyword/employment_retirement/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/keyword/marriage_divorce",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/keyword/marriage_divorce/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/keyword/condolence",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/keyword/condolence/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/keyword/bid",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/keyword/bid/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/organization/1/6/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/organization/1/6/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/parliament/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/parliament/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/municipal_administration/4/1/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/municipal_administration/4/1/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/access/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/access/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/organization/3/introduction/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/organization/3/introduction/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/section/reiki_int/reiki_menu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/section/reiki_int/reiki_menu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/organization/19/3/12692.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/organization/19/3/12692.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/gosenshihukugo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/gosenshihukugo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/organization/3/opendata/5878.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/organization/3/opendata/5878.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/organization/3/1/767.html",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/organization/3/1/767.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/access/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/access/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/1/1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/1/1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/1/2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/1/2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/1/2/1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/1/2/1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/1/2/2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/1/2/2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/1/3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/1/3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/1/3/1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/1/3/1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/1/3/2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/1/3/2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/1/3/3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/1/3/3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/1/4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/1/4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/1/5/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/1/5/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/2/1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/2/1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/2/2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/2/2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/3/1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/3/1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/3/1/1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/3/1/1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/3/2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/3/2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/3/3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/3/3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/3/3/1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/3/3/1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/3/4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/3/4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/3/5/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/3/5/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/3/5/1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/3/5/1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/3/5/2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/3/5/2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/3/5/3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/3/5/3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/3/5/4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/3/5/4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/3/6/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/3/6/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/5/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/5/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/6/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/6/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/6/1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/6/1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/6/2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/6/2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/6/2/1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/6/2/1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/6/2/2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/6/2/2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/6/2/3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/6/2/3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/6/2/4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/6/2/4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/6/2/5/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/6/2/5/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/6/2/6/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/6/2/6/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/7/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/7/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/7/1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/7/1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/8/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/8/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/childcare_education/niko/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/childcare_education/niko/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.gosen.lg.jp/contact/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.gosen.lg.jp/contact/sitemap.dir.xml",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

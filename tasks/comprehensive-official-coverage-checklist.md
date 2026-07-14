@@ -8651,3 +8651,45 @@
   - 妙高市の老人医療費助成、家族と環境にやさしい住宅取得等支援、UIターン住宅、移住支援、子育て世帯移住支援は金額抽出不足のため第2巡で詳細確認候補として保持する。
 - 次:
   - 新潟県公式棚卸し005として、15218五泉市から自治体コード順に確認する。
+
+### 2026-07-14 新潟県公式棚卸し005（15218五泉市・15222上越市・15223阿賀野市・15224佐渡市）
+
+- 作業範囲:
+  - 15218 五泉市、15222 上越市、15223 阿賀野市、15224 佐渡市の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 自治体別クロールで候補308件を取得し、候補が150件超のため `tasks/discovery/niigata-official-coverage-005-snippets.json` に公式本文の短い根拠285件を保存した。
+  - 公式ドメイン限定URLリード325件から詳細184件を `tasks/discovery/niigata-official-coverage-005-details.json` に取得し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別ページを優先した。
+- 採用:
+  - 合計43件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 五泉市10件: 五泉市介護人材確保支援事業補助金、放任果樹伐採補助金、地場産業成長支援事業補助金、令和8年度担い手向け五泉市単独補助事業、五泉市特産品商品開発補助金、五泉市マイホーム等建築支援事業支援金、五泉市住宅リフォーム事業補助金、五泉市移住支援金、五泉市看護師等就業・移住支援金、ごせん起業者応援事業。
+  - 上越市12件: 高齢者向け住宅リフォーム助成制度、重度心身障害者医療費助成制度、障害児福祉手当、障害者住宅リフォーム助成制度、上越市子育て世帯移住・就業支援金、上越市地方就職支援金、上越妙高駅周辺地区商業地域レンタルオフィス・サポート事業補助金、上越妙高駅周辺地区商業地域企業設置等奨励金、上越妙高駅周辺地区商業地域建築資金借入利子前払事業補助金、精神障害者入院医療費助成制度、特別障害者手当、まちなか居住推進事業支援・補助金制度。
+  - 阿賀野市12件: 一人暮らし・寝たきり高齢者医療費助成、重度心身障害者医療費助成、重度心身障害者介護手当、障害児福祉手当、知的障害児者手当、特別児童扶養手当、特別障害者手当、空き家解体支援事業、自治会空き家対策支援事業、住宅リフォーム支援事業、虹の架け橋住宅取得支援事業、木造住宅耐震診断・耐震改修等支援事業。
+  - 佐渡市9件: 若者定住引越費用補助金、島留学生活支援金、若者移住家賃補助金、UIターン者奨学金返還支援事業、高齢者・障害者向け住宅整備補助事業、重度心身障害者医療費助成制度、特定不妊治療費助成、世界文化遺産保存活用推進事業費補助金、伝統芸能継承事業補助金。
+- 生成ファイル:
+  - `tasks/discovery/niigata-official-coverage-005-municipalities.json`
+  - `tasks/discovery/niigata-official-coverage-005-15218-municipality.json`
+  - `tasks/discovery/niigata-official-coverage-005-15222-municipality.json`
+  - `tasks/discovery/niigata-official-coverage-005-15223-municipality.json`
+  - `tasks/discovery/niigata-official-coverage-005-15224-municipality.json`
+  - `tasks/discovery/niigata-official-coverage-005-15218-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-005-15222-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-005-15223-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-005-15224-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-005-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-005-snippets.json`
+  - `tasks/discovery/niigata-official-coverage-005-url-leads.json`
+  - `tasks/discovery/niigata-official-coverage-005-details.json`
+  - `tasks/discovery/niigata-official-coverage-005-adopted-urls.json`
+  - `tasks/discovery/niigata-official-coverage-005.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（005関連JSON、checkpoint）。
+  - 追加slug重複: pass（43件、`verified-local-misc-2026.ts` 内で各1件）。
+  - 公式URL到達: pass（43 primary official URLsすべてHTTP 200）。
+  - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 11680、officialLinkedActive 11642、manuallyVerifiedActive 11642、新潟県 localOfficial 292）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は新潟県15224佐渡市到達のみで全国完了扱いしない。
+  - 五泉市の省エネ設備補助、上越市の脱炭素経営支援補助金、佐渡市の児童手当・奨学金旧ページ・文化財旧年度ページ・ビジネスコンテスト等は、受付終了、全国制度、旧年度、金額不足又は制度分割確認候補として第2巡候補に残す。
+- 次:
+  - 新潟県公式棚卸し006として、15225魚沼市から自治体コード順に確認する。
