@@ -1,0 +1,26 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-002",
+  "prefecture": "東京都",
+  "municipalities": [
+    {
+      "code": "13105",
+      "name": "文京区",
+      "officialBaseUrl": "https://www.city.bunkyo.lg.jp/"
+    },
+    {
+      "code": "13106",
+      "name": "台東区",
+      "officialBaseUrl": "https://www.city.taito.lg.jp/"
+    },
+    {
+      "code": "13107",
+      "name": "墨田区",
+      "officialBaseUrl": "https://www.city.sumida.lg.jp/"
+    },
+    {
+      "code": "13108",
+      "name": "江東区",
+      "officialBaseUrl": "https://www.city.koto.lg.jp/"
+    }
+  ]
+}

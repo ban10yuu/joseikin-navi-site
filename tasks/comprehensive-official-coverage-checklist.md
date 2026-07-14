@@ -7539,4 +7539,43 @@
     - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
     - 受付終了、受付休止、404、金額又は受付状況不足、PDF精査待ち、カテゴリ導線、様式のみ、国制度色が強い候補は第2巡候補に残す。
   - 次:
-    - 東京都公式棚卸し002として、13105文京区、13106台東区、13107墨田区、13108江東区を自治体コード順に確認する。
+    - 東京都公式棚卸し002は完了。次は東京都公式棚卸し003として、13109品川区、13110目黒区、13111大田区、13112世田谷区を自治体コード順に確認する。
+
+- 東京都公式棚卸し002
+  - 対象:
+    - 13105 文京区、13106 台東区、13107 墨田区、13108 江東区。
+  - 方法:
+    - 公式トップ到達を4自治体すべてHTTP 200で確認した。
+    - `scripts/discover-official-candidates.mjs` で候補315件を抽出し、候補数が150件を超えたため、サイトマップ強語17URLとカテゴリ導線186URLを追加抽出し、合計200URLの本文スニペットを保存して再スコアリングした。
+    - 文京区は食料品等物価高騰対応給付金、防犯機器等購入補助、安全・安心まちづくり活動助成、妊婦支援給付、スタートアップ支援を公式本文で確認した。
+    - 台東区は弱視等治療用眼鏡、おたふくかぜワクチン、認証保育所等保育料、居宅訪問型病児・病後児保育、子育て世帯住宅リフォーム、高等学校等入学費用、感震ブレーカー、TSマーク、集合住宅防災資器材、マンション計画修繕調査費を公式本文で確認した。
+    - 墨田区は住まいの防犯対策臨時補助、環境経営認証取得費、壁面緑化、屋上等緑化、中等度難聴児補聴器、デジタル技術活用支援を公式本文で確認した。
+    - 江東区はエネルギー価格高騰対策、暮らし応援給付、個人宅向け防犯機器、特定不妊治療費、妊婦支援給付、里帰り妊婦健診、産婦・1か月児健診、中小企業融資制度を公式本文で確認した。
+    - 墨田区の建物除却助成、地球温暖化防止設備導入、雨水利用施設設置、カテゴリ導線のみの候補、国制度色が強い手当、金額表の追加精査が必要なPDF候補は第2巡候補に残す。
+  - 採用:
+    - 文京区5件: 食料品等物価高騰対応給付金、防犯機器等購入補助事業、安全・安心まちづくり活動助成、妊婦のための支援給付、スタートアップ支援事業補助金。
+    - 台東区10件: 弱視等治療用眼鏡助成、おたふくかぜワクチン接種費用助成、認証保育所等保育料助成、居宅訪問型病児・病後児保育利用料助成、子育て世帯住宅リフォーム支援、高等学校等入学費用助成、感震ブレーカー設置費用助成、TSマーク取得費用助成、集合住宅防災資器材購入補助金、マンション計画修繕調査費助成。
+    - 墨田区6件: 住まいの防犯対策臨時補助金、環境経営認証取得費助成金、壁面緑化整備補助金、屋上等緑化整備補助金、中等度難聴児補聴器購入費助成、デジタル技術活用支援補助金。
+    - 江東区8件: エネルギー価格高騰対策補助金、暮らし応援給付事業、個人宅向け防犯機器等購入緊急補助、特定不妊治療費（先進医療）助成、出産・子育て応援給付金、里帰り出産等妊婦健康診査受診費助成、産婦健康診査・1か月児健康診査受診費助成、中小企業融資制度。
+  - 生成ファイル:
+    - `tasks/discovery/tokyo-official-coverage-002-municipalities.json`
+    - `tasks/discovery/tokyo-official-coverage-002-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-002-sitemap-keyword-urls.json`
+    - `tasks/discovery/tokyo-official-coverage-002-category-links.json`
+    - `tasks/discovery/tokyo-official-coverage-002-target-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-002-selected-main.json`
+    - `tasks/discovery/tokyo-official-coverage-002-selected-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-002-url-check.json`
+    - `tasks/discovery/tokyo-official-coverage-002.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（29件、`verified-local-misc-2026.ts` 内で各1件）。
+    - 公式URL到達: pass（29 official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 11015、officialLinkedActive 10977、manuallyVerifiedActive 10977、東京都 localOfficial 399）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 受付終了、受付休止、404、金額又は受付状況不足、PDF精査待ち、カテゴリ導線、様式のみ、国制度色が強い候補は第2巡候補に残す。
+  - 次:
+    - 東京都公式棚卸し003として、13109品川区、13110目黒区、13111大田区、13112世田谷区を自治体コード順に確認する。
