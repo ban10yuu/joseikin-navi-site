@@ -1,0 +1,26 @@
+{
+  "batchId": "nagano-official-coverage-015",
+  "prefecture": "長野県",
+  "municipalities": [
+    {
+      "code": "20583",
+      "name": "信濃町",
+      "officialBaseUrl": "https://www.town.shinano.lg.jp/"
+    },
+    {
+      "code": "20588",
+      "name": "小川村",
+      "officialBaseUrl": "https://www.vill.ogawa.nagano.jp/"
+    },
+    {
+      "code": "20590",
+      "name": "飯綱町",
+      "officialBaseUrl": "https://www.town.iizuna.nagano.jp/"
+    },
+    {
+      "code": "20602",
+      "name": "栄村",
+      "officialBaseUrl": "http://www.vill.sakae.nagano.jp/"
+    }
+  ]
+}

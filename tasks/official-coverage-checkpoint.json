@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T07:51:12+09:00",
+  "updatedAt": "2026-07-15T08:20:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "nagano-official-coverage-014",
-    "municipality": "小布施町・高山村・山ノ内町・木島平村・野沢温泉村",
-    "adopted": 36,
-    "held": 404,
+    "code": "nagano-official-coverage-015",
+    "municipality": "信濃町・小川村・飯綱町・栄村",
+    "adopted": 31,
+    "held": 249,
     "excluded": 0,
-    "sourceUrlsChecked": 34,
+    "sourceUrlsChecked": 30,
     "validation": {
-      "previousMunicipality": "長野県公式棚卸し014として、20541小布施町・20543高山村・20561山ノ内町・20562木島平村・20563野沢温泉村を確認した。候補440件、本文スニペット440件、追加検証スニペット3ファイルを保存し、合計36件を新規採用した。小布施町は金額・対象・受付が揃う個別制度根拠が薄いため第2巡候補として保持。カテゴリ導線、トップ、ナビ、会見、寄附金、様式単体は第2巡候補として保持。長野県第1巡は20563野沢温泉村まで到達。全国公式棚卸しは未完了。",
+      "previousMunicipality": "長野県公式棚卸し015として、20583信濃町・20588小川村・20590飯綱町・20602栄村を確認した。候補280件、本文スニペット280件、追加カテゴリスニペット10件、栄村個別ページ25件を保存し、合計31件を新規採用した。カテゴリ導線、サイトマップ、期限切れ給付、本文根拠が薄い候補は第2巡候補として保持。長野県第1巡は20602栄村まで到達し完了。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for nagano-official-coverage-014 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 36 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 34 unique adopted official URLs returned HTTP 200 by interval curl",
+      "json": "pass: JSON.parse for nagano-official-coverage-015 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 31 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 30 unique adopted official URLs returned HTTP 200 by interval fetch",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 13975, officialLinkedActive 13855, manuallyVerifiedActive 13855, 長野県 localOfficial 889)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 14006, officialLinkedActive 13886, manuallyVerifiedActive 13886, 長野県 localOfficial 920)"
     }
   },
   "next": {
-    "code": "nagano-official-coverage-015",
-    "municipality": "信濃町",
-    "shortlist": "長野県公式棚卸し014は高山村8件、山ノ内町11件、木島平村8件、野沢温泉村9件を採用した。小布施町は第2巡候補として保持する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、20583信濃町を開始地点として長野県公式棚卸し015を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "gifu-official-coverage-001",
+    "municipality": "岐阜市",
+    "shortlist": "長野県公式棚卸し015は信濃町2件、小川村5件、飯綱町8件、栄村16件を採用した。長野県第1巡は20602栄村まで到達し完了した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、21201岐阜市を開始地点として岐阜県公式棚卸し001を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "長野県",
-    "status": "in-progress",
-    "lastBatch": "nagano-official-coverage-014",
-    "notes": "山梨県は19201甲府市から19443丹波山村まで第1巡完了。長野県は20201長野市から20563野沢温泉村まで第1巡到達。全国公式棚卸しは未完了。次は20583信濃町から継続する。"
+    "status": "completed-first-pass",
+    "lastBatch": "nagano-official-coverage-015",
+    "notes": "山梨県は19201甲府市から19443丹波山村まで第1巡完了。長野県は20201長野市から20602栄村まで第1巡完了。全国公式棚卸しは未完了。次は岐阜県21201岐阜市から継続する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
