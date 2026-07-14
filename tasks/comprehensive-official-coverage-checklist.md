@@ -9925,3 +9925,12 @@
 - 保留: カテゴリ導線、トップ、ナビ、申請書単体、本文根拠が薄い候補は第2巡候補として保持
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass
 - 次回: 20481池田町から再開
+
+### 長野県公式棚卸し013（20481池田町・20482松川村・20485白馬村・20486小谷村・20521坂城町）
+- 実施日: 2026-07-15
+- 候補: 546件（通常クロール404件、白馬村・小谷村の公式sitemap補完142件、スニペット546件、再スコア546件）
+- 採用: 44件（池田町9件、松川村7件、白馬村10件、小谷村15件、坂城町3件）
+- 公式URL: 採用URL到達確認は tasks/discovery/nagano-official-coverage-013-url-status.txt に記録（42本すべてHTTP 200）
+- 保留: カテゴリ導線、トップ、ナビ、様式単体、本文根拠が薄い候補は第2巡候補として保持
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass
+- 次回: 20541小布施町から再開

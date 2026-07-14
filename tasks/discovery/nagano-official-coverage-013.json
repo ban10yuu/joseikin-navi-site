@@ -1,0 +1,33 @@
+{
+  "batchId": "nagano-official-coverage-013",
+  "prefecture": "長野県",
+  "municipalities": [
+    "20481 池田町",
+    "20482 松川村",
+    "20485 白馬村",
+    "20486 小谷村",
+    "20521 坂城町"
+  ],
+  "candidateCount": 546,
+  "crawlerCandidateCount": 404,
+  "sitemapSupplementCount": 142,
+  "snippetCount": 546,
+  "crawlerSnippetCount": 404,
+  "sitemapSnippetCount": 142,
+  "rescoredShortlists": [
+    "tasks/discovery/nagano-official-coverage-013-rescored-shortlist.csv",
+    "tasks/discovery/nagano-official-coverage-013-sitemap-rescored-shortlist.csv"
+  ],
+  "adoptedCount": 44,
+  "uniqueOfficialUrlCount": 42,
+  "countsByMunicipality": {
+    "池田町": 9,
+    "松川村": 7,
+    "白馬村": 10,
+    "小谷村": 15,
+    "坂城町": 3
+  },
+  "heldCount": 502,
+  "excludedCount": 0,
+  "notes": "通常クロールで薄かった白馬村・小谷村は公式sitemapから制度語、金額・上限、対象条件、申請・受付表現が揃う個別ページを補完。トップ、カテゴリ、ナビ、様式単体、本文根拠不足候補は第2巡候補として保持。"
+}

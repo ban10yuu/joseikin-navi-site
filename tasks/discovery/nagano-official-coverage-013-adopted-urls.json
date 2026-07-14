@@ -1,0 +1,670 @@
+{
+  "batchId": "nagano-official-coverage-013",
+  "generatedAt": "2026-07-14T22:35:42.527Z",
+  "adoptedCount": 44,
+  "uniqueOfficialUrlCount": 42,
+  "countsByMunicipality": {
+    "池田町": 9,
+    "松川村": 7,
+    "白馬村": 10,
+    "小谷村": 15,
+    "坂城町": 3
+  },
+  "adopted": [
+    {
+      "slug": "nagano-official-013-001-2026",
+      "title": "池田町 エコ住宅リフォーム促進事業補助金",
+      "organization": "池田町",
+      "maxAmount": "対象経費20万円以上の20%以内、上限10万円",
+      "maxAmountNum": 100000,
+      "category": "housing",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "池田町に住民登録があり、町内に所有し居住又は居住予定の住宅で、町内施工業者による省エネ住宅リフォームを行う方",
+      "applicationPeriod": "令和8年12月11日まで。先着順で、予算上限に達した時点で終了",
+      "deadlineDate": "2026-12-11",
+      "officialUrl": "https://www.ikedamachi.net/0000003340.html",
+      "sourceName": "池田町 池田町エコ住宅リフォーム促進事業補助金"
+    },
+    {
+      "slug": "nagano-official-013-002-2026",
+      "title": "池田町 犬・猫不妊・去勢手術費補助金",
+      "organization": "池田町",
+      "maxAmount": "1頭につき3,000円",
+      "maxAmountNum": 3000,
+      "category": "living",
+      "eligibility": "池田町に在住する犬又は猫の飼い主で、登録・狂犬病予防注射、町税完納等の条件を満たす方",
+      "applicationPeriod": "令和8年6月1日から令和8年9月1日まで",
+      "deadlineDate": "2026-09-01",
+      "officialUrl": "https://www.ikedamachi.net/0000002691.html",
+      "sourceName": "池田町 令和8年度 犬・猫不妊・去勢手術費の補助金"
+    },
+    {
+      "slug": "nagano-official-013-003-2026",
+      "title": "池田町 生ごみ処理機等購入費補助金",
+      "organization": "池田町",
+      "maxAmount": "購入金額の1/2、1万円超の機器は上限3万円",
+      "maxAmountNum": 30000,
+      "category": "living",
+      "eligibility": "家庭から出る生ごみを減量・再資源化する生ごみ処理機等を購入する池田町内の世帯",
+      "applicationPeriod": "購入後、領収書・設置写真等を添えて申請",
+      "officialUrl": "https://www.ikedamachi.net/0000000956.html",
+      "sourceName": "池田町 生ごみ処理機等購入費補助金"
+    },
+    {
+      "slug": "nagano-official-013-004-2026",
+      "title": "池田町 UIJターン就業・創業移住支援事業補助金",
+      "organization": "池田町",
+      "maxAmount": "県制度の範囲で最大100万円。池田町は子育て世帯加算なし",
+      "maxAmountNum": 1000000,
+      "category": "employment",
+      "relatedCategories": [
+        "housing"
+      ],
+      "eligibility": "長野県の移住支援金要件に合致し、池田町へ移住して就業・創業等を行う方",
+      "applicationPeriod": "条件確認後、池田町総務課移住定住係へ事前相談。予算状況により申請時期調整あり",
+      "officialUrl": "https://www.ikedamachi.net/iju/0000001734.html",
+      "sourceName": "池田町 UIJターン就業・創業移住支援事業補助金"
+    },
+    {
+      "slug": "nagano-official-013-005-2026",
+      "title": "池田町 住宅用太陽光発電システム設置費補助金",
+      "organization": "池田町",
+      "maxAmount": "1kWあたり2万円、上限8万円",
+      "maxAmountNum": 80000,
+      "category": "living",
+      "relatedCategories": [
+        "housing"
+      ],
+      "eligibility": "池田町内で自ら居住する住宅に未使用の太陽光発電システムを設置又は設置済住宅を購入する、町税等完納者",
+      "applicationPeriod": "毎年4月1日から受付。工事着手前に申請し、予算額に達した時点で終了",
+      "officialUrl": "https://www.ikedamachi.net/0000000285.html",
+      "sourceName": "池田町 住宅用太陽光発電システム設置費補助金"
+    },
+    {
+      "slug": "nagano-official-013-006-2026",
+      "title": "池田町 商業振興対策事業補助金",
+      "organization": "池田町",
+      "maxAmount": "改修費等の1/5、上限20万円。店舗等賃借料は月額上限2万円・最大12か月",
+      "maxAmountNum": 240000,
+      "category": "business",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "池田町内で既存店舗改修や新規出店等を行う商業者等で、公式要綱の対象経費・対象者要件を満たす者",
+      "applicationPeriod": "事業着手前に交付申請書等を提出",
+      "officialUrl": "https://www.ikedamachi.net/0000001739.html",
+      "sourceName": "池田町 商業振興対策事業補助金"
+    },
+    {
+      "slug": "nagano-official-013-007-2026",
+      "title": "池田町 創業支援事業補助金",
+      "organization": "池田町",
+      "maxAmount": "店舗改修等は上限20万円、設備備品等は上限30万円、賃借料は月額上限5万円・最大12か月",
+      "maxAmountNum": 600000,
+      "category": "business",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "池田町内で創業し、店舗新設・改修、設備備品、店舗等賃借など公式要綱の対象経費を支出する者",
+      "applicationPeriod": "事業着手前に交付申請書・宣誓書等を提出",
+      "officialUrl": "https://www.ikedamachi.net/0000001735.html",
+      "sourceName": "池田町 創業支援事業補助金"
+    },
+    {
+      "slug": "nagano-official-013-008-2026",
+      "title": "池田町 元気なまちづくり事業補助金",
+      "organization": "池田町",
+      "maxAmount": "事業経費の10/10以内、1事業上限30万円",
+      "maxAmountNum": 300000,
+      "category": "living",
+      "relatedCategories": [
+        "business"
+      ],
+      "eligibility": "自然・歴史環境、地域文化、福祉健康づくり等の協働まちづくり事業を行う団体等",
+      "applicationPeriod": "4月1日から10月31日まで。予算の範囲内で受付",
+      "deadlineDate": "2026-10-31",
+      "officialUrl": "https://www.ikedamachi.net/0000000024.html",
+      "sourceName": "池田町 協働のまちづくり"
+    },
+    {
+      "slug": "nagano-official-013-009-2026",
+      "title": "池田町 自治会備品購入補助",
+      "organization": "池田町",
+      "maxAmount": "机・椅子の購入費を1回限り上限50万円",
+      "maxAmountNum": 500000,
+      "category": "living",
+      "eligibility": "集落センター等の集落施設で使用する机や椅子を購入する池田町内の自治会",
+      "applicationPeriod": "4月1日から10月31日まで。予算の範囲内で受付",
+      "deadlineDate": "2026-10-31",
+      "officialUrl": "https://www.ikedamachi.net/0000000024.html",
+      "sourceName": "池田町 協働のまちづくり"
+    },
+    {
+      "slug": "nagano-official-013-010-2026",
+      "title": "松川村 ブロック塀等撤去事業補助金",
+      "organization": "松川村",
+      "maxAmount": "撤去工事費又は延長1mあたり1万円の少ない額の1/2、上限15万円",
+      "maxAmountNum": 150000,
+      "category": "housing",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "道路等に面する対象ブロック塀等の所有者で、共有者・土地所有者同意や村税滞納なし等の要件を満たす方",
+      "applicationPeriod": "工事着手前に申請。予算枠に達し次第終了し、完了後30日以内又は3月末までに実績報告",
+      "officialUrl": "https://www.vill.matsukawa.nagano.jp/prevention/?content=1652",
+      "sourceName": "松川村 ブロック塀等撤去事業補助金"
+    },
+    {
+      "slug": "nagano-official-013-011-2026",
+      "title": "松川村 生ごみ処理機等設置事業補助金",
+      "organization": "松川村",
+      "maxAmount": "購入価格の1/3。電気式処理機は上限2万円、堆肥化処理容器は上限2,000円",
+      "maxAmountNum": 20000,
+      "category": "living",
+      "eligibility": "松川村在住者で、村内に生ごみ処理機又は100リットル以上の堆肥化処理容器を設置する世帯",
+      "applicationPeriod": "購入後、領収書等を添えて交付申請・実績報告",
+      "officialUrl": "https://www.vill.matsukawa.nagano.jp/life/?content=117",
+      "sourceName": "松川村 生ごみ処理機等設置事業補助金"
+    },
+    {
+      "slug": "nagano-official-013-012-2026",
+      "title": "松川村 エアコン設置促進事業補助金",
+      "organization": "松川村",
+      "maxAmount": "生活保護世帯は上限10万円、住民税非課税世帯は購入設置費の2/3・上限48,000円",
+      "maxAmountNum": 100000,
+      "category": "living",
+      "relatedCategories": [
+        "nursing"
+      ],
+      "eligibility": "松川村に住民登録があり、居住住宅にエアコンが1台もなく、生活保護世帯又は世帯全員が市町村民税非課税の世帯主",
+      "applicationPeriod": "令和8年8月31日まで",
+      "deadlineDate": "2026-08-31",
+      "officialUrl": "https://www.vill.matsukawa.nagano.jp/life/?content=1555",
+      "sourceName": "松川村 エアコン設置促進事業補助金"
+    },
+    {
+      "slug": "nagano-official-013-013-2026",
+      "title": "松川村 住宅耐震改修工事補助金",
+      "organization": "松川村",
+      "maxAmount": "対象工事費の8割以内、上限115万円",
+      "maxAmountNum": 1150000,
+      "category": "housing",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "昭和56年5月31日以前着工の木造在来工法個人住宅で、耐震診断結果が総合評点1.0未満の住宅所有者等",
+      "applicationPeriod": "耐震診断後、耐震改修工事着手前に申請",
+      "officialUrl": "https://www.vill.matsukawa.nagano.jp/life/?content=246",
+      "sourceName": "松川村 住宅の耐震診断・耐震改修工事・除却工事の補助金"
+    },
+    {
+      "slug": "nagano-official-013-014-2026",
+      "title": "松川村 住宅除却工事補助金",
+      "organization": "松川村",
+      "maxAmount": "対象工事費の1/2以内、上限97万8,600円",
+      "maxAmountNum": 978600,
+      "category": "housing",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "耐震診断結果が総合評点1.0未満の対象木造住宅を除却する所有者等",
+      "applicationPeriod": "除却工事着手前に申請",
+      "officialUrl": "https://www.vill.matsukawa.nagano.jp/life/?content=246",
+      "sourceName": "松川村 住宅の耐震診断・耐震改修工事・除却工事の補助金"
+    },
+    {
+      "slug": "nagano-official-013-015-2026",
+      "title": "松川村 産後ケア事業利用料助成",
+      "organization": "松川村",
+      "maxAmount": "村が利用料の8割を負担。非課税・生活保護世帯は全額村負担",
+      "maxAmountNum": 0,
+      "category": "medical",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "松川村の産後ケアを必要とする母子で、宿泊型・通所型等の対象施設を利用する方",
+      "applicationPeriod": "利用前に松川村保健センターへ相談し、産後ケア事業利用申請書を提出",
+      "officialUrl": "https://www.vill.matsukawa.nagano.jp/education/?content=1644",
+      "sourceName": "松川村 産後ケア事業"
+    },
+    {
+      "slug": "nagano-official-013-016-2026",
+      "title": "松川村 上水道基本料金減免",
+      "organization": "松川村",
+      "maxAmount": "上水道基本料金3,300円を3期分、合計9,900円減免",
+      "maxAmountNum": 9900,
+      "category": "living",
+      "eligibility": "松川村上水道の基本料金請求対象者。ただし超過使用料のみ請求している施設等は対象外",
+      "applicationPeriod": "申込不要。7月・9月・11月請求分の基本料金を減免",
+      "officialUrl": "https://www.vill.matsukawa.nagano.jp/life/?content=1590",
+      "sourceName": "松川村 上水道基本料金の減免"
+    },
+    {
+      "slug": "nagano-official-013-017-2026",
+      "title": "白馬村 協働のまちづくり推進補助金",
+      "organization": "白馬村",
+      "maxAmount": "指定寄附額の91%相当額の範囲内",
+      "maxAmountNum": 0,
+      "category": "living",
+      "relatedCategories": [
+        "business"
+      ],
+      "eligibility": "白馬村内に主たる事務所があり、公共的・公益的な活動を行う非営利団体等",
+      "applicationPeriod": "認定申請、寄附募集、翌年度以降の交付申請・実績報告の流れで実施",
+      "officialUrl": "https://www.vill.hakuba.lg.jp/gyosei/furusatonozei_ijuteiju/furusatonozei/furusato_npo-support/2449.html",
+      "sourceName": "白馬村 協働のまちづくり推進補助金"
+    },
+    {
+      "slug": "nagano-official-013-018-2026",
+      "title": "白馬村 保育士移住支援事業補助金",
+      "organization": "白馬村",
+      "maxAmount": "交付対象者1人につき60万円",
+      "maxAmountNum": 600000,
+      "category": "employment",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "長野県外から白馬村へ移住し、村内保育園等に直接雇用で就業する保育士で、就業・移住等の条件を満たす方",
+      "applicationPeriod": "申請前に子育て支援課へ相談し、申請書兼実績報告書・就業証明書等を提出",
+      "officialUrl": "https://www.vill.hakuba.lg.jp/gyosei/furusatonozei_ijuteiju/ijuteiju/hataraku/12877.html",
+      "sourceName": "白馬村 保育士移住支援事業補助金"
+    },
+    {
+      "slug": "nagano-official-013-019-2026",
+      "title": "白馬村 電気自動車等購入促進事業補助金",
+      "organization": "白馬村",
+      "maxAmount": "購入は車両本体価格の10%以内、リースはリース料の7%以内。いずれも上限30万円",
+      "maxAmountNum": 300000,
+      "category": "living",
+      "relatedCategories": [
+        "business"
+      ],
+      "eligibility": "白馬村内に継続して1年以上住所を有し、村税等を滞納していない電気自動車等の購入・リース導入者",
+      "applicationPeriod": "新規登録月の翌月1日から90日以内又は当該年度3月31日のいずれか早い日までに申請",
+      "officialUrl": "https://www.vill.hakuba.lg.jp/gyosei/keikan_kankyo_kanko/shizenkankyohozen/hojo/9681.html",
+      "sourceName": "白馬村 電気自動車等購入促進事業補助金制度"
+    },
+    {
+      "slug": "nagano-official-013-020-2026",
+      "title": "白馬村 EV自動車用普通充電設備設置助成",
+      "organization": "白馬村",
+      "maxAmount": "200V普通充電器設置費用、上限4万円",
+      "maxAmountNum": 40000,
+      "category": "living",
+      "relatedCategories": [
+        "housing"
+      ],
+      "eligibility": "白馬村内で200V普通充電器を設置し、申請者・施設所有者及び同一世帯員に村税等滞納がない方",
+      "applicationPeriod": "設置前に交付申請し、交付決定後に工事着手",
+      "officialUrl": "https://www.vill.hakuba.lg.jp/gyosei/keikan_kankyo_kanko/shizenkankyohozen/hojo/2007.html",
+      "sourceName": "白馬村 EV自動車用普通充電設備設置に対する助成制度"
+    },
+    {
+      "slug": "nagano-official-013-021-2026",
+      "title": "白馬村 太陽光発電システム普及促進事業補助金",
+      "organization": "白馬村",
+      "maxAmount": "1kWあたり3万円、上限12万円",
+      "maxAmountNum": 120000,
+      "category": "living",
+      "relatedCategories": [
+        "housing"
+      ],
+      "eligibility": "白馬村内に自ら居住又は居住予定の住宅に太陽光発電システムを設置する個人で、世帯に村税等滞納がない方",
+      "applicationPeriod": "着工前に補助金交付申請し、交付決定後に工事開始",
+      "officialUrl": "https://www.vill.hakuba.lg.jp/gyosei/keikan_kankyo_kanko/shizenkankyohozen/hojo/2008.html",
+      "sourceName": "白馬村 太陽光発電システム普及促進事業補助金"
+    },
+    {
+      "slug": "nagano-official-013-022-2026",
+      "title": "白馬村 物価高対応子育て応援手当",
+      "organization": "白馬村",
+      "maxAmount": "対象児童1人あたり2万円",
+      "maxAmountNum": 20000,
+      "category": "childcare",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "令和7年9月分児童手当受給者、令和7年10月1日から令和8年3月31日までに出生した児童の児童手当受給者等",
+      "applicationPeriod": "児童手当受給者は原則申請不要。届出期限は令和8年3月31日必着",
+      "deadlineDate": "2026-03-31",
+      "officialUrl": "https://www.vill.hakuba.lg.jp/gyosei/kosodate_kyoiku_sports_bunka/kosodateshien/teate_josei/14199.html",
+      "sourceName": "白馬村 物価高対応子育て応援手当のご案内"
+    },
+    {
+      "slug": "nagano-official-013-023-2026",
+      "title": "白馬村 福祉医療",
+      "organization": "白馬村",
+      "maxAmount": "保険診療自己負担分から1レセプト500円を控除して給付",
+      "maxAmountNum": 0,
+      "category": "medical",
+      "relatedCategories": [
+        "childcare",
+        "nursing"
+      ],
+      "eligibility": "高校卒業までの子ども、身体障害者、療育手帳所持者、精神障害者、母子・父子家庭等の公式対象要件を満たす方",
+      "applicationPeriod": "受給資格認定後、医療機関受診分について公式手続により給付",
+      "officialUrl": "https://www.vill.hakuba.lg.jp/gyosei/kenko_fukushi_kaigo/shogaishafukushi/2777.html",
+      "sourceName": "白馬村 福祉医療"
+    },
+    {
+      "slug": "nagano-official-013-024-2026",
+      "title": "白馬村 自動車運転免許取得費用助成",
+      "organization": "白馬村",
+      "maxAmount": "教習料等の2/3、上限10万円",
+      "maxAmountNum": 100000,
+      "category": "living",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "白馬村に住所があり、身体障害者手帳1級から4級で、免許取得により就労等社会参加に効果があると認められる方",
+      "applicationPeriod": "免許取得前に申請書を提出し、交付決定後に取得・実績報告",
+      "officialUrl": "https://www.vill.hakuba.lg.jp/gyosei/kenko_fukushi_kaigo/shogaishafukushi/shogaishanotamenoservice/2246.html",
+      "sourceName": "白馬村 自動車運転免許取得費用助成"
+    },
+    {
+      "slug": "nagano-official-013-025-2026",
+      "title": "白馬村 自動車改造費用助成",
+      "organization": "白馬村",
+      "maxAmount": "1人あたり10万円以内",
+      "maxAmountNum": 100000,
+      "category": "living",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "白馬村に住所があり、所得制限等の条件を満たす身体障がい者で、自ら所有し運転する自動車を改造する方",
+      "applicationPeriod": "自動車改造前に申請書を提出し、交付決定後に改造・実績報告",
+      "officialUrl": "https://www.vill.hakuba.lg.jp/gyosei/kenko_fukushi_kaigo/shogaishafukushi/shogaishanotamenoservice/2245.html",
+      "sourceName": "白馬村 自動車改造費用の助成"
+    },
+    {
+      "slug": "nagano-official-013-026-2026",
+      "title": "白馬村 障がい者支援施設等通所交通費補助金",
+      "organization": "白馬村",
+      "maxAmount": "公共交通又は自家用車交通費の1/2、月上限5,000円。介助者運転は上限7,000円",
+      "maxAmountNum": 7000,
+      "category": "living",
+      "relatedCategories": [
+        "nursing"
+      ],
+      "eligibility": "白馬村内に住所があり、障がい者支援施設等へ通所して公共交通機関又は自家用車を利用する障がい者",
+      "applicationPeriod": "通所した月から1年以内に、月ごとに交付申請書等を提出",
+      "officialUrl": "https://www.vill.hakuba.lg.jp/gyosei/kenko_fukushi_kaigo/shogaishafukushi/shogaishanotamenoservice/7584.html",
+      "sourceName": "白馬村 障がい者支援施設等通所交通費補助金交付事業"
+    },
+    {
+      "slug": "nagano-official-013-027-2026",
+      "title": "小谷村 高等学校等子育て応援助成金",
+      "organization": "小谷村",
+      "maxAmount": "公式ページの助成額表に基づき高等学校等の通学・就学費を助成",
+      "maxAmountNum": 0,
+      "category": "education",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "小谷村内の高校生等を養育する保護者で、公式要件を満たす方",
+      "applicationPeriod": "公式ページの申請書等により申請",
+      "officialUrl": "https://www.vill.otari.nagano.jp/kosodate-kyoiku/ikuji/1/1075.html",
+      "sourceName": "小谷村 高等学校等子育て応援助成金制度について"
+    },
+    {
+      "slug": "nagano-official-013-028-2026",
+      "title": "小谷村 児童手当",
+      "organization": "小谷村",
+      "maxAmount": "月額1万円から3万円",
+      "maxAmountNum": 30000,
+      "category": "childcare",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "高校3年生年代までの児童を養育している小谷村の受給資格者",
+      "applicationPeriod": "出生・転入等の翌日から15日以内に申請。偶数月に前月分まで支給",
+      "officialUrl": "https://www.vill.otari.nagano.jp/kosodate-kyoiku/ikuji/1/1268.html",
+      "sourceName": "小谷村 児童手当"
+    },
+    {
+      "slug": "nagano-official-013-029-2026",
+      "title": "小谷村 造血細胞移植後ワクチン再接種費用助成事業補助金",
+      "organization": "小谷村",
+      "maxAmount": "予防接種再接種費用を予算の範囲内で補助",
+      "maxAmountNum": 0,
+      "category": "medical",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "造血細胞移植により定期予防接種ワクチンの免疫消失が想定され、医師が再接種を必要と認める20歳未満の小谷村民",
+      "applicationPeriod": "再接種前後に公式要綱・申請書に基づき申請",
+      "officialUrl": "https://www.vill.otari.nagano.jp/kosodate-kyoiku/ikuji/2/1192.html",
+      "sourceName": "小谷村 造血細胞移植後のワクチン再接種費用助成事業補助金"
+    },
+    {
+      "slug": "nagano-official-013-030-2026",
+      "title": "小谷村 就学援助費",
+      "organization": "小谷村",
+      "maxAmount": "学用品費、学校給食費、修学旅行費、新入学用品費等を支給",
+      "maxAmountNum": 0,
+      "category": "education",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "経済的理由により就学が困難で、児童扶養手当受給、国保税減免、生活保護廃止等のいずれかに該当し審査で認定された世帯",
+      "applicationPeriod": "学校から配布された認定申請書を学校長へ提出。支給は年3回予定",
+      "officialUrl": "https://www.vill.otari.nagano.jp/kosodate-kyoiku/ikuji/3/1066.html",
+      "sourceName": "小谷村 就学援助制度について"
+    },
+    {
+      "slug": "nagano-official-013-031-2026",
+      "title": "小谷村 特別支援教育就学奨励費補助金",
+      "organization": "小谷村",
+      "maxAmount": "通学交通費等を公式基準により補助",
+      "maxAmountNum": 0,
+      "category": "education",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "小谷村に住所を有する児童又は生徒の保護者で、特別支援教育就学奨励費の対象経費を負担する方",
+      "applicationPeriod": "公式ページの申請書等により申請",
+      "officialUrl": "https://www.vill.otari.nagano.jp/kosodate-kyoiku/ikuji/3/1191.html",
+      "sourceName": "小谷村 特別支援教育就学奨励費補助金"
+    },
+    {
+      "slug": "nagano-official-013-032-2026",
+      "title": "小谷村 妊婦のための支援給付",
+      "organization": "小谷村",
+      "maxAmount": "妊婦給付認定後5万円、胎児の数ごとに5万円",
+      "maxAmountNum": 100000,
+      "category": "childcare",
+      "relatedCategories": [
+        "medical"
+      ],
+      "eligibility": "申請時点又は届出時点で小谷村に住所を有する妊婦・産婦で、他市町村で受給済みでない方",
+      "applicationPeriod": "妊娠届出時や新生児・2か月児訪問時の面談・届出にあわせて申請",
+      "officialUrl": "https://www.vill.otari.nagano.jp/kosodate-kyoiku/ninshin-shussan/1/1231.html",
+      "sourceName": "小谷村 妊婦のための支援給付"
+    },
+    {
+      "slug": "nagano-official-013-033-2026",
+      "title": "小谷村 不妊等治療費補助金",
+      "organization": "小谷村",
+      "maxAmount": "自己負担額等の2/3、1年間上限30万円",
+      "maxAmountNum": 300000,
+      "category": "medical",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "不妊等治療を受けた法律婚又は事実婚の夫婦で、申請日の1年以上前から小谷村に住所を有し村税滞納がない方",
+      "applicationPeriod": "治療費について公式要綱・申請書に基づき申請",
+      "officialUrl": "https://www.vill.otari.nagano.jp/kosodate-kyoiku/ninshin-shussan/1/1235.html",
+      "sourceName": "小谷村 不妊等治療費補助金"
+    },
+    {
+      "slug": "nagano-official-013-034-2026",
+      "title": "小谷村 奨学金貸与",
+      "organization": "小谷村",
+      "maxAmount": "高等学校月2万円以内、大学医学部等月15万円以内",
+      "maxAmountNum": 150000,
+      "category": "education",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "高等学校以上に在学する学生で、小谷村教育委員会の奨学金貸与要件を満たす方",
+      "applicationPeriod": "令和8年6月1日から令和9年1月15日まで",
+      "deadlineDate": "2027-01-15",
+      "officialUrl": "https://www.vill.otari.nagano.jp/kosodate-kyoiku/kyoikuiinkai/1529.html",
+      "sourceName": "小谷村 令和8年度 小谷村奨学金貸与の申請"
+    },
+    {
+      "slug": "nagano-official-013-035-2026",
+      "title": "小谷村 災害危険住宅移転事業補助金",
+      "organization": "小谷村",
+      "maxAmount": "危険住宅除去等は上限80万2,000円、代替住宅建設等は利子相当上限415万円",
+      "maxAmountNum": 4150000,
+      "category": "housing",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "災害危険区域等の危険住宅から移転し、除却や代替住宅建設等を行う対象者",
+      "applicationPeriod": "公式要綱・申請書に基づき、事業着手前に申請",
+      "officialUrl": "https://www.vill.otari.nagano.jp/kurashi-tetsuzuki/sumai/1188.html",
+      "sourceName": "小谷村 災害危険住宅移転事業補助金"
+    },
+    {
+      "slug": "nagano-official-013-036-2026",
+      "title": "小谷村 集落施設等施設整備事業補助金",
+      "organization": "小谷村",
+      "maxAmount": "整備経費の1/2以内、エアコン設置等は2/3以内。上限100万円",
+      "maxAmountNum": 1000000,
+      "category": "living",
+      "relatedCategories": [
+        "housing"
+      ],
+      "eligibility": "小谷村内の行政区域で住民により結成された集落等が、集会施設の新設・改修等を行う場合",
+      "applicationPeriod": "公式要綱・申請書に基づき、事業着手前に申請",
+      "officialUrl": "https://www.vill.otari.nagano.jp/kurashi-tetsuzuki/sumai/1154.html",
+      "sourceName": "小谷村 集落施設等施設整備事業補助金"
+    },
+    {
+      "slug": "nagano-official-013-037-2026",
+      "title": "小谷村 被災者生活再建支援制度補助金",
+      "organization": "小谷村",
+      "maxAmount": "複数世帯は最大300万円、単数世帯は最大225万円",
+      "maxAmountNum": 3000000,
+      "category": "housing",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "小谷村内で自然災害により住家に被害を受け、国制度対象外となる世帯等",
+      "applicationPeriod": "村長が適用を認めた自然災害について、被害区分・再建区分に応じて申請",
+      "officialUrl": "https://www.vill.otari.nagano.jp/kurashi-tetsuzuki/sumai/1184.html",
+      "sourceName": "小谷村 被災者生活再建支援制度補助金"
+    },
+    {
+      "slug": "nagano-official-013-038-2026",
+      "title": "小谷村 建築物等アスベスト対策事業補助金",
+      "organization": "小谷村",
+      "maxAmount": "除去等は対象経費の2/3以内、上限200万円",
+      "maxAmountNum": 2000000,
+      "category": "housing",
+      "relatedCategories": [
+        "business"
+      ],
+      "eligibility": "小谷村内の民間建築物等で、吹付けアスベスト除去など公式対象事業を行う所有者等",
+      "applicationPeriod": "公式要綱・申請書に基づき、事業着手前に申請",
+      "officialUrl": "https://www.vill.otari.nagano.jp/kurashi-tetsuzuki/sumai/1249.html",
+      "sourceName": "小谷村 建築物等アスベスト対策事業補助金"
+    },
+    {
+      "slug": "nagano-official-013-039-2026",
+      "title": "小谷村 空き家対策支援事業補助金",
+      "organization": "小谷村",
+      "maxAmount": "除却費用の1/2以内、上限50万円又は75万円",
+      "maxAmountNum": 750000,
+      "category": "housing",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "小谷村内の対象空き家を除却し、滅失登記等の公式要件を満たす所有者等",
+      "applicationPeriod": "公式要綱・申請書に基づき、除却工事着手前に申請",
+      "officialUrl": "https://www.vill.otari.nagano.jp/kurashi-tetsuzuki/sumai/1132.html",
+      "sourceName": "小谷村 空き家対策支援事業補助金"
+    },
+    {
+      "slug": "nagano-official-013-040-2026",
+      "title": "小谷村 結婚新生活支援事業補助金",
+      "organization": "小谷村",
+      "maxAmount": "結婚新生活に係る住居費・引越費用等を公式上限額まで補助",
+      "maxAmountNum": 0,
+      "category": "living",
+      "relatedCategories": [
+        "housing"
+      ],
+      "eligibility": "前年度1月1日から申請年度3月31日までに婚姻し、所得500万円未満、村内居住等の要件を満たす新婚世帯",
+      "applicationPeriod": "申請年度4月1日から3月31日までに支払った対象費用を申請",
+      "officialUrl": "https://www.vill.otari.nagano.jp/kurashi-tetsuzuki/sumai/1305.html",
+      "sourceName": "小谷村 結婚新生活支援事業補助金"
+    },
+    {
+      "slug": "nagano-official-013-041-2026",
+      "title": "小谷村 住宅リフォーム事業補助金",
+      "organization": "小谷村",
+      "maxAmount": "工事金額の1/3、上限10万円",
+      "maxAmountNum": 100000,
+      "category": "housing",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "小谷村に住民登録があり、村税滞納がなく、村内住宅関連業者による10万円以上のリフォームを行う住宅所有者等",
+      "applicationPeriod": "令和8年5月7日から令和8年6月5日まで。予算上限に達したため受付終了",
+      "deadlineDate": "2026-06-05",
+      "officialUrl": "https://www.vill.otari.nagano.jp/kurashi-tetsuzuki/sumai/1252.html",
+      "sourceName": "小谷村 住宅リフォーム事業補助金"
+    },
+    {
+      "slug": "nagano-official-013-042-2026",
+      "title": "坂城町 ブロック塀等撤去補助金",
+      "organization": "坂城町",
+      "maxAmount": "対象経費の1/2以内、上限5万円",
+      "maxAmountNum": 50000,
+      "category": "housing",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "坂城町内で道路・通学路等に接する対象ブロック塀等を、町内業者に依頼して撤去する所有者で町税等滞納がない方",
+      "applicationPeriod": "令和9年3月22日までに完成・実績報告できること。交付決定後に撤去工事着手",
+      "deadlineDate": "2027-03-22",
+      "officialUrl": "https://www.town.sakaki.nagano.jp/page/10078.html",
+      "sourceName": "坂城町 ブロック塀の点検と補助金のお知らせ"
+    },
+    {
+      "slug": "nagano-official-013-043-2026",
+      "title": "坂城町 移住定住促進補助金",
+      "organization": "坂城町",
+      "maxAmount": "新築住宅1件につき10万円",
+      "maxAmountNum": 100000,
+      "category": "housing",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "坂城町内で自ら移住・定住する目的で新築住宅を新築又は築後1年以内の建売住宅を購入し、名義人・納税等の要件を満たす方",
+      "applicationPeriod": "新築は工事着工前、建売住宅は引渡し前に交付申請",
+      "officialUrl": "https://www.town.sakaki.nagano.jp/page/1523.html",
+      "sourceName": "坂城町 移住定住促進補助金"
+    },
+    {
+      "slug": "nagano-official-013-044-2026",
+      "title": "坂城町 住宅リフォーム補助事業",
+      "organization": "坂城町",
+      "maxAmount": "対象工事の20%以内、上限5万円",
+      "maxAmountNum": 50000,
+      "category": "housing",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "坂城町に住民登録があり、対象住宅に居住し、町内事業所による20万円以上の住宅リフォームを行う方",
+      "applicationPeriod": "令和8年度は5月8日から先着20件で受付",
+      "officialUrl": "https://www.town.sakaki.nagano.jp/page/10076.html",
+      "sourceName": "坂城町 令和8年度住宅リフォーム補助事業"
+    }
+  ]
+}

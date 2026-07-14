@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T08:08:00+09:00",
+  "updatedAt": "2026-07-15T07:36:58+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "nagano-official-coverage-012",
-    "municipality": "麻績村・生坂村・山形村・朝日村・筑北村",
-    "adopted": 38,
-    "held": 495,
+    "code": "nagano-official-coverage-013",
+    "municipality": "池田町・松川村・白馬村・小谷村・坂城町",
+    "adopted": 44,
+    "held": 502,
     "excluded": 0,
-    "sourceUrlsChecked": 32,
+    "sourceUrlsChecked": 42,
     "validation": {
-      "previousMunicipality": "長野県公式棚卸し012として、20446麻績村・20448生坂村・20450山形村・20451朝日村・20452筑北村を確認した。候補533件、本文スニペット533件、再スコア533件を保存し、合計38件を新規採用した。カテゴリ導線、トップ、ナビ、申請書単体、本文根拠が薄い候補は第2巡候補として保持。長野県第1巡は20452筑北村まで到達。全国公式棚卸しは未完了。",
+      "previousMunicipality": "長野県公式棚卸し013として、20481池田町・20482松川村・20485白馬村・20486小谷村・20521坂城町を確認した。通常候補404件に白馬村・小谷村の公式sitemap補完142件を加え、本文スニペット546件、再スコア546件を保存し、合計44件を新規採用した。カテゴリ導線、トップ、ナビ、様式単体、本文根拠が薄い候補は第2巡候補として保持。長野県第1巡は20521坂城町まで到達。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for nagano-official-coverage-012 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 38 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 32 unique adopted official URLs returned HTTP 200 by interval curl",
+      "json": "pass: JSON.parse for nagano-official-coverage-013 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 44 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 42 unique adopted official URLs returned HTTP 200 by interval curl",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 13902, officialLinkedActive 13782, manuallyVerifiedActive 13782, 長野県 localOfficial 816)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 13944, officialLinkedActive 13824, manuallyVerifiedActive 13824, 長野県 localOfficial 858)"
     }
   },
   "next": {
-    "code": "nagano-official-coverage-013",
-    "municipality": "池田町",
-    "shortlist": "長野県公式棚卸し012は麻績村3件、生坂村10件、山形村11件、朝日村2件、筑北村12件を採用した。残候補は第2巡候補として保持する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、20481池田町を開始地点として長野県公式棚卸し013を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "nagano-official-coverage-014",
+    "municipality": "小布施町",
+    "shortlist": "長野県公式棚卸し013は池田町9件、松川村7件、白馬村10件、小谷村15件、坂城町3件を採用した。残候補は第2巡候補として保持する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、20541小布施町を開始地点として長野県公式棚卸し014を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "長野県",
     "status": "in-progress",
-    "lastBatch": "nagano-official-coverage-012",
-    "notes": "山梨県は19201甲府市から19443丹波山村まで第1巡完了。長野県は20201長野市から20452筑北村まで第1巡到達。全国公式棚卸しは未完了。次は20481池田町から継続する。"
+    "lastBatch": "nagano-official-coverage-013",
+    "notes": "山梨県は19201甲府市から19443丹波山村まで第1巡完了。長野県は20201長野市から20521坂城町まで第1巡到達。全国公式棚卸しは未完了。次は20541小布施町から継続する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

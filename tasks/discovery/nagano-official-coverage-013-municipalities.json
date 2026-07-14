@@ -1,0 +1,31 @@
+{
+  "batchId": "nagano-official-coverage-013",
+  "prefecture": "長野県",
+  "municipalities": [
+    {
+      "code": "20481",
+      "name": "池田町",
+      "officialBaseUrl": "https://www.ikedamachi.net/"
+    },
+    {
+      "code": "20482",
+      "name": "松川村",
+      "officialBaseUrl": "https://www.vill.matsukawa.nagano.jp/"
+    },
+    {
+      "code": "20485",
+      "name": "白馬村",
+      "officialBaseUrl": "https://www.vill.hakuba.lg.jp/"
+    },
+    {
+      "code": "20486",
+      "name": "小谷村",
+      "officialBaseUrl": "https://www.vill.otari.nagano.jp/"
+    },
+    {
+      "code": "20521",
+      "name": "坂城町",
+      "officialBaseUrl": "https://www.town.sakaki.nagano.jp/"
+    }
+  ]
+}
