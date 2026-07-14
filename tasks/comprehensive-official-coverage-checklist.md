@@ -9521,3 +9521,47 @@
   - トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補に残す。
 - 次:
   - 山梨県公式棚卸し006として、19442小菅村から自治体コード順に確認する。
+
+
+### 2026-07-15 山梨県・長野県公式棚卸し006（19442小菅村・19443丹波山村・20201長野市・20202松本市・20203上田市）
+
+- 作業範囲:
+  - 19442 小菅村、19443 丹波山村、20201 長野市、20202 松本市、20203 上田市の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 小菅村はHTTPSがタイムアウトしたため、公式トップがHTTP 200を返す `http://www.vill.kosuge.yamanashi.jp/` に補正して確認した。
+  - 自治体別クロールで候補685件を取得した。shortlistが150件超かつcrawl候補の40%超だったため、候補本文スニペット678件を抽出し、アンカーテキスト起点の制度リード226件を再取得し、再スコア対象904件を保存した。
+  - 採用対象の60公式ページは、短時間連続アクセスで403に振れる自治体サイトを考慮し、間隔付きcurlで全件HTTP 200/3xxを確認した。
+- 採用:
+  - 合計60件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 小菅村14件: 小菅村のこどもと家庭の福祉・保健・医療、重度心身障害者医療費助成制度、自転車用ヘルメットの一部助成事業、アピアランスケア助成事業、児童扶養手当について、ひとり親家庭医療費助成、児童手当について、若者定住促進の奨励制度、小菅村こども医療費助成金制度、小菅村空き家解体撤去補助事業について、小菅村空き家改修等補助事業について、風しんワクチン接種助成、特別児童扶養手当、各種検定料補助金。
+  - 丹波山村7件: 不妊治療費助成金支給事業、物価高騰に対応する給付金について、児童手当について、丹波山村サテライトオフィス等進出支援金について、山梨県産後ケア事業について、物価高騰対応重点支援給付金の支給について、児童扶養手当について。
+  - 長野市1件: 令和8年度小・中学校の就学援助制度。
+  - 松本市20件: 中小企業退職金共済掛金助成制度【令和7年度申請受付終了】、母子・父子・寡婦家庭への給付金・貸付・相談事業の概要、ペレットストーブ購入者に助成します。(受付は令和８年７月１日から)、薪ストーブ等購入者に助成します（令和８年度の受付開始）、特別児童扶養手当、企業立地助成金、令和8年度 空き家バンク利活用促進事業補助金を受付しています、子ども乗せ電動アシスト付自転車の補助金申請を受付中！、児童扶養手当、令和8年度「住まいのゼロカーボン推進補助金」の申請を受付しています、難病に関する医療費の助成について、【令和4年度で終了しました】新型コロナウィルス感染症に係る国民健康保険税の減免制度について、高齢者介護手当、松本市地域子育て支援事業補助金について、松本市地域エネルギー導入支援事業補助金を活用ください、国保で受けられる給付、松本市再生可能エネルギー電力切替奨励金が始まります、技能五輪全国大会・全国障害者技能競技大会出場選手への助成制度があります、軽自動車税の減免制度について、最高裁判決を踏まえた生活保護費の追加給付について。
+  - 上田市18件: 国民健康保険で受けられる給付と手続き、妊婦のための支援給付について、出産育児一時金の支給、骨髄バンクドナー助成事業について、訪問理美容サービス利用助成 登録事業者募集、【令和8年度受付開始】老朽危険空家解体 利活用事業補助金について、児童扶養手当、軽自動車税の減免、海外出産や直接支払制度未利用の場合の出産育児一時金支給申請方法、令和元年東日本台風（台風第19号）被害に係る固定資産税・都市計画の減免について、特別児童扶養手当、鳥獣被害防止施設設置補助金制度、結核精神給付金、児童手当、障害児福祉手当、長野県「地域発 元気づくり支援金」、漏水時の上下水道料金の減免について、防犯灯設置事業等補助金について（自治会対象）。
+- 生成ファイル:
+  - `tasks/discovery/yamanashi-nagano-official-coverage-006-19442-municipality.json`
+  - `tasks/discovery/yamanashi-nagano-official-coverage-006-19443-municipality.json`
+  - `tasks/discovery/yamanashi-nagano-official-coverage-006-20201-municipality.json`
+  - `tasks/discovery/yamanashi-nagano-official-coverage-006-20202-municipality.json`
+  - `tasks/discovery/yamanashi-nagano-official-coverage-006-20203-municipality.json`
+  - `tasks/discovery/yamanashi-nagano-official-coverage-006-adopted-urls.json`
+  - `tasks/discovery/yamanashi-nagano-official-coverage-006-adoption-ranked.json`
+  - `tasks/discovery/yamanashi-nagano-official-coverage-006-candidates.json`
+  - `tasks/discovery/yamanashi-nagano-official-coverage-006-municipalities.json`
+  - `tasks/discovery/yamanashi-nagano-official-coverage-006-rescored-snippets.json`
+  - `tasks/discovery/yamanashi-nagano-official-coverage-006-snippets.json`
+  - `tasks/discovery/yamanashi-nagano-official-coverage-006-url-leads.json`
+  - `tasks/discovery/yamanashi-nagano-official-coverage-006.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（006関連JSON）。
+  - 追加slug重複: pass（60件、`verified-local-misc-2026.ts` 全体 duplicateCount 0）。
+  - 公式URL到達: pass（60 primary official URLsすべてHTTP 200、間隔付きcurl）。
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 13195、officialLinkedActive 13075、manuallyVerifiedActive 13075、山梨県 localOfficial 480、長野県 localOfficial 109）。
+- 注意:
+  - 山梨県は19201甲府市から19443丹波山村まで第1巡に到達し、山梨県第1巡は完了した。ただし全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は山梨県完了のみで全国完了扱いしない。
+  - 長野県は20201長野市から20203上田市まで第1巡に着手した。短時間連続アクセスで403に振れるサイトは、間隔付き到達確認と既取得本文を照合して進める。
+  - トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補に残す。
+- 次:
+  - 長野県公式棚卸し001として、20204岡谷市から自治体コード順に確認する。

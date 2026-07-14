@@ -1,0 +1,37 @@
+{
+  "batchId": "yamanashi-nagano-official-coverage-006",
+  "prefecture": "山梨県・長野県",
+  "generatedAt": "2026-07-15T06:00:00+09:00",
+  "municipalities": [
+    {
+      "code": "19442",
+      "name": "小菅村",
+      "prefecture": "山梨県",
+      "officialBaseUrl": "http://www.vill.kosuge.yamanashi.jp/"
+    },
+    {
+      "code": "19443",
+      "name": "丹波山村",
+      "prefecture": "山梨県",
+      "officialBaseUrl": "https://www.vill.tabayama.yamanashi.jp/"
+    },
+    {
+      "code": "20201",
+      "name": "長野市",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.city.nagano.nagano.jp/"
+    },
+    {
+      "code": "20202",
+      "name": "松本市",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.city.matsumoto.nagano.jp/"
+    },
+    {
+      "code": "20203",
+      "name": "上田市",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.city.ueda.nagano.jp/"
+    }
+  ]
+}

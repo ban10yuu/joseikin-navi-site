@@ -1,0 +1,374 @@
+{
+  "batchId": "yamanashi-nagano-official-coverage-006",
+  "prefecture": "山梨県・長野県",
+  "generatedAt": "2026-07-15T06:00:00+09:00",
+  "scope": [
+    {
+      "code": "19442",
+      "name": "小菅村",
+      "prefecture": "山梨県",
+      "officialBaseUrl": "http://www.vill.kosuge.yamanashi.jp/"
+    },
+    {
+      "code": "19443",
+      "name": "丹波山村",
+      "prefecture": "山梨県",
+      "officialBaseUrl": "https://www.vill.tabayama.yamanashi.jp/"
+    },
+    {
+      "code": "20201",
+      "name": "長野市",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.city.nagano.nagano.jp/"
+    },
+    {
+      "code": "20202",
+      "name": "松本市",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.city.matsumoto.nagano.jp/"
+    },
+    {
+      "code": "20203",
+      "name": "上田市",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.city.ueda.nagano.jp/"
+    }
+  ],
+  "discovery": {
+    "candidateCount": 685,
+    "snippets": 678,
+    "urlLeads": 226,
+    "leadFetched": 226,
+    "rescored": 904,
+    "ranked": 521
+  },
+  "adopted": {
+    "total": 60,
+    "byMunicipality": {
+      "小菅村": [
+        {
+          "title": "小菅村のこどもと家庭の福祉・保健・医療",
+          "officialUrl": "http://www.vill.kosuge.yamanashi.jp/living/jyumin/kodomotokatei.html",
+          "slug": "kosuge-official-006-001-2026-yamanashi"
+        },
+        {
+          "title": "重度心身障害者医療費助成制度",
+          "officialUrl": "http://www.vill.kosuge.yamanashi.jp/living/jyumin/jyudosinsyosyairyouhijyosei.html",
+          "slug": "kosuge-official-006-002-2026-yamanashi"
+        },
+        {
+          "title": "自転車用ヘルメットの一部助成事業",
+          "officialUrl": "http://www.vill.kosuge.yamanashi.jp/living/soumu/20230926114340.html",
+          "slug": "kosuge-official-006-003-2026-yamanashi"
+        },
+        {
+          "title": "アピアランスケア助成事業",
+          "officialUrl": "http://www.vill.kosuge.yamanashi.jp/living/jyumin/20240408142702.html",
+          "slug": "kosuge-official-006-004-2026-yamanashi"
+        },
+        {
+          "title": "児童扶養手当について",
+          "officialUrl": "http://www.vill.kosuge.yamanashi.jp/living/jyumin/jidoufuyouteate.html",
+          "slug": "kosuge-official-006-005-2026-yamanashi"
+        },
+        {
+          "title": "ひとり親家庭医療費助成",
+          "officialUrl": "http://www.vill.kosuge.yamanashi.jp/living/jyumin/hitorioyakateiiryoujyosei.html",
+          "slug": "kosuge-official-006-006-2026-yamanashi"
+        },
+        {
+          "title": "児童手当について",
+          "officialUrl": "http://www.vill.kosuge.yamanashi.jp/living/jyumin/jidouteate.html",
+          "slug": "kosuge-official-006-007-2026-yamanashi"
+        },
+        {
+          "title": "若者定住促進の奨励制度",
+          "officialUrl": "http://www.vill.kosuge.yamanashi.jp/living/shinko/youth.html",
+          "slug": "kosuge-official-006-008-2026-yamanashi"
+        },
+        {
+          "title": "小菅村こども医療費助成金制度",
+          "officialUrl": "http://www.vill.kosuge.yamanashi.jp/living/jyumin/kodomoiryouhiijyosei.html",
+          "slug": "kosuge-official-006-009-2026-yamanashi"
+        },
+        {
+          "title": "小菅村空き家解体撤去補助事業について",
+          "officialUrl": "http://www.vill.kosuge.yamanashi.jp/living/shinko/demolition.html",
+          "slug": "kosuge-official-006-010-2026-yamanashi"
+        },
+        {
+          "title": "小菅村空き家改修等補助事業について",
+          "officialUrl": "http://www.vill.kosuge.yamanashi.jp/living/shinko/renovation.html",
+          "slug": "kosuge-official-006-011-2026-yamanashi"
+        },
+        {
+          "title": "風しんワクチン接種助成",
+          "officialUrl": "http://www.vill.kosuge.yamanashi.jp/living/jyumin/fusinwakutinjyosei.html",
+          "slug": "kosuge-official-006-012-2026-yamanashi"
+        },
+        {
+          "title": "特別児童扶養手当",
+          "officialUrl": "http://www.vill.kosuge.yamanashi.jp/living/jyumin/tokubetufuyouteate.html",
+          "slug": "kosuge-official-006-013-2026-yamanashi"
+        },
+        {
+          "title": "各種検定料補助金",
+          "officialUrl": "http://www.vill.kosuge.yamanashi.jp/living/kyoiku/subsidy.html",
+          "slug": "kosuge-official-006-014-2026-yamanashi"
+        }
+      ],
+      "丹波山村": [
+        {
+          "title": "不妊治療費助成金支給事業",
+          "officialUrl": "https://www.vill.tabayama.yamanashi.jp/gyousei/2016-0607-1428-1.html",
+          "slug": "tabayama-official-006-015-2026-yamanashi"
+        },
+        {
+          "title": "物価高騰に対応する給付金について",
+          "officialUrl": "https://www.vill.tabayama.yamanashi.jp/gyousei/R6tabayamakyufu.html",
+          "slug": "tabayama-official-006-016-2026-yamanashi"
+        },
+        {
+          "title": "児童手当について",
+          "officialUrl": "https://www.vill.tabayama.yamanashi.jp/gyousei/kodomo.html",
+          "slug": "tabayama-official-006-017-2026-yamanashi"
+        },
+        {
+          "title": "丹波山村サテライトオフィス等進出支援金について",
+          "officialUrl": "https://www.vill.tabayama.yamanashi.jp/oshirase_g/2022-0128-1621-1.html",
+          "slug": "tabayama-official-006-018-2026-yamanashi"
+        },
+        {
+          "title": "山梨県産後ケア事業について",
+          "officialUrl": "https://www.vill.tabayama.yamanashi.jp/gyousei/2016-0607-1608-1.html",
+          "slug": "tabayama-official-006-019-2026-yamanashi"
+        },
+        {
+          "title": "物価高騰対応重点支援給付金の支給について",
+          "officialUrl": "https://www.vill.tabayama.yamanashi.jp/oshirase_g/2026-0118-1421-1.html",
+          "slug": "tabayama-official-006-020-2026-yamanashi"
+        },
+        {
+          "title": "児童扶養手当について",
+          "officialUrl": "https://www.vill.tabayama.yamanashi.jp/gyousei/jidoufuyou.html",
+          "slug": "tabayama-official-006-021-2026-yamanashi"
+        }
+      ],
+      "長野市": [
+        {
+          "title": "令和8年度小・中学校の就学援助制度",
+          "officialUrl": "https://www.city.nagano.nagano.jp/n600500/kosodate/p001540.html",
+          "slug": "nagano-official-006-022-2026-nagano"
+        }
+      ],
+      "松本市": [
+        {
+          "title": "中小企業退職金共済掛金助成制度【令和7年度申請受付終了】",
+          "officialUrl": "https://www.city.matsumoto.nagano.jp/site/benricho/3008.html",
+          "slug": "matsumoto-official-006-023-2026-nagano"
+        },
+        {
+          "title": "母子・父子・寡婦家庭への給付金・貸付・相談事業の概要",
+          "officialUrl": "https://www.city.matsumoto.nagano.jp/soshiki/226/67755.html",
+          "slug": "matsumoto-official-006-024-2026-nagano"
+        },
+        {
+          "title": "ペレットストーブ購入者に助成します。(受付は令和８年７月１日から)",
+          "officialUrl": "https://www.city.matsumoto.nagano.jp/soshiki/74/3181.html",
+          "slug": "matsumoto-official-006-025-2026-nagano"
+        },
+        {
+          "title": "薪ストーブ等購入者に助成します（令和８年度の受付開始）",
+          "officialUrl": "https://www.city.matsumoto.nagano.jp/soshiki/74/3177.html",
+          "slug": "matsumoto-official-006-026-2026-nagano"
+        },
+        {
+          "title": "特別児童扶養手当",
+          "officialUrl": "https://www.city.matsumoto.nagano.jp/site/kosodate/1888.html",
+          "slug": "matsumoto-official-006-027-2026-nagano"
+        },
+        {
+          "title": "企業立地助成金",
+          "officialUrl": "https://www.city.matsumoto.nagano.jp/soshiki/75/3018.html",
+          "slug": "matsumoto-official-006-028-2026-nagano"
+        },
+        {
+          "title": "令和8年度 空き家バンク利活用促進事業補助金を受付しています",
+          "officialUrl": "https://www.city.matsumoto.nagano.jp/site/benricho/3268.html",
+          "slug": "matsumoto-official-006-029-2026-nagano"
+        },
+        {
+          "title": "子ども乗せ電動アシスト付自転車の補助金申請を受付中！",
+          "officialUrl": "https://www.city.matsumoto.nagano.jp/soshiki/221/102702.html",
+          "slug": "matsumoto-official-006-030-2026-nagano"
+        },
+        {
+          "title": "児童扶養手当",
+          "officialUrl": "https://www.city.matsumoto.nagano.jp/site/kosodate/1922.html",
+          "slug": "matsumoto-official-006-031-2026-nagano"
+        },
+        {
+          "title": "令和8年度「住まいのゼロカーボン推進補助金」の申請を受付しています",
+          "officialUrl": "https://www.city.matsumoto.nagano.jp/soshiki/85/4406.html",
+          "slug": "matsumoto-official-006-032-2026-nagano"
+        },
+        {
+          "title": "難病に関する医療費の助成について",
+          "officialUrl": "https://www.city.matsumoto.nagano.jp/soshiki/230/165300.html",
+          "slug": "matsumoto-official-006-033-2026-nagano"
+        },
+        {
+          "title": "【令和4年度で終了しました】新型コロナウィルス感染症に係る国民健康保険税の減免制度について",
+          "officialUrl": "https://www.city.matsumoto.nagano.jp/site/covid/3596.html",
+          "slug": "matsumoto-official-006-034-2026-nagano"
+        },
+        {
+          "title": "高齢者介護手当",
+          "officialUrl": "https://www.city.matsumoto.nagano.jp/site/kourei/1784.html",
+          "slug": "matsumoto-official-006-035-2026-nagano"
+        },
+        {
+          "title": "松本市地域子育て支援事業補助金について",
+          "officialUrl": "https://www.city.matsumoto.nagano.jp/site/kosodate/2565.html",
+          "slug": "matsumoto-official-006-036-2026-nagano"
+        },
+        {
+          "title": "松本市地域エネルギー導入支援事業補助金を活用ください",
+          "officialUrl": "https://www.city.matsumoto.nagano.jp/soshiki/51/197027.html",
+          "slug": "matsumoto-official-006-037-2026-nagano"
+        },
+        {
+          "title": "国保で受けられる給付",
+          "officialUrl": "https://www.city.matsumoto.nagano.jp/site/kokuho/1850.html",
+          "slug": "matsumoto-official-006-038-2026-nagano"
+        },
+        {
+          "title": "松本市再生可能エネルギー電力切替奨励金が始まります",
+          "officialUrl": "https://www.city.matsumoto.nagano.jp/soshiki/51/196435.html",
+          "slug": "matsumoto-official-006-039-2026-nagano"
+        },
+        {
+          "title": "技能五輪全国大会・全国障害者技能競技大会出場選手への助成制度があります",
+          "officialUrl": "https://www.city.matsumoto.nagano.jp/soshiki/75/79400.html",
+          "slug": "matsumoto-official-006-040-2026-nagano"
+        },
+        {
+          "title": "軽自動車税の減免制度について",
+          "officialUrl": "https://www.city.matsumoto.nagano.jp/site/benricho/3606.html",
+          "slug": "matsumoto-official-006-041-2026-nagano"
+        },
+        {
+          "title": "最高裁判決を踏まえた生活保護費の追加給付について",
+          "officialUrl": "https://www.city.matsumoto.nagano.jp/soshiki/62/197470.html",
+          "slug": "matsumoto-official-006-042-2026-nagano"
+        }
+      ],
+      "上田市": [
+        {
+          "title": "国民健康保険で受けられる給付と手続き",
+          "officialUrl": "https://www.city.ueda.nagano.jp/soshiki/kokuhonenkin/2969.html",
+          "slug": "ueda-official-006-043-2026-nagano"
+        },
+        {
+          "title": "妊婦のための支援給付について",
+          "officialUrl": "https://www.city.ueda.nagano.jp/soshiki/kenko/109975.html",
+          "slug": "ueda-official-006-044-2026-nagano"
+        },
+        {
+          "title": "出産育児一時金の支給",
+          "officialUrl": "https://www.city.ueda.nagano.jp/soshiki/kokuhonenkin/3325.html",
+          "slug": "ueda-official-006-045-2026-nagano"
+        },
+        {
+          "title": "骨髄バンクドナー助成事業について",
+          "officialUrl": "https://www.city.ueda.nagano.jp/soshiki/kenko/27436.html",
+          "slug": "ueda-official-006-046-2026-nagano"
+        },
+        {
+          "title": "訪問理美容サービス利用助成 登録事業者募集",
+          "officialUrl": "https://www.city.ueda.nagano.jp/soshiki/korei/75515.html",
+          "slug": "ueda-official-006-047-2026-nagano"
+        },
+        {
+          "title": "【令和8年度受付開始】老朽危険空家解体 利活用事業補助金について",
+          "officialUrl": "https://www.city.ueda.nagano.jp/soshiki/akiya/23509.html",
+          "slug": "ueda-official-006-048-2026-nagano"
+        },
+        {
+          "title": "児童扶養手当",
+          "officialUrl": "https://www.city.ueda.nagano.jp/soshiki/kosodate-k/3547.html",
+          "slug": "ueda-official-006-049-2026-nagano"
+        },
+        {
+          "title": "軽自動車税の減免",
+          "officialUrl": "https://www.city.ueda.nagano.jp/soshiki/zeimu/1017.html",
+          "slug": "ueda-official-006-050-2026-nagano"
+        },
+        {
+          "title": "海外出産や直接支払制度未利用の場合の出産育児一時金支給申請方法",
+          "officialUrl": "https://www.city.ueda.nagano.jp/soshiki/kokuhonenkin/3002.html",
+          "slug": "ueda-official-006-051-2026-nagano"
+        },
+        {
+          "title": "令和元年東日本台風（台風第19号）被害に係る固定資産税・都市計画の減免について",
+          "officialUrl": "https://www.city.ueda.nagano.jp/soshiki/zeimu/14371.html",
+          "slug": "ueda-official-006-052-2026-nagano"
+        },
+        {
+          "title": "特別児童扶養手当",
+          "officialUrl": "https://www.city.ueda.nagano.jp/soshiki/shogaisien/3008.html",
+          "slug": "ueda-official-006-053-2026-nagano"
+        },
+        {
+          "title": "鳥獣被害防止施設設置補助金制度",
+          "officialUrl": "https://www.city.ueda.nagano.jp/soshiki/sinrin/2551.html",
+          "slug": "ueda-official-006-054-2026-nagano"
+        },
+        {
+          "title": "結核精神給付金",
+          "officialUrl": "https://www.city.ueda.nagano.jp/soshiki/kokuhonenkin/3043.html",
+          "slug": "ueda-official-006-055-2026-nagano"
+        },
+        {
+          "title": "児童手当",
+          "officialUrl": "https://www.city.ueda.nagano.jp/soshiki/kosodate-k/102205.html",
+          "slug": "ueda-official-006-056-2026-nagano"
+        },
+        {
+          "title": "障害児福祉手当",
+          "officialUrl": "https://www.city.ueda.nagano.jp/soshiki/shogaisien/2973.html",
+          "slug": "ueda-official-006-057-2026-nagano"
+        },
+        {
+          "title": "長野県「地域発 元気づくり支援金」",
+          "officialUrl": "https://www.city.ueda.nagano.jp/life/1/16/339/",
+          "slug": "ueda-official-006-058-2026-nagano"
+        },
+        {
+          "title": "漏水時の上下水道料金の減免について",
+          "officialUrl": "https://www.city.ueda.nagano.jp/soshiki/suido-service/2959.html",
+          "slug": "ueda-official-006-059-2026-nagano"
+        },
+        {
+          "title": "防犯灯設置事業等補助金について（自治会対象）",
+          "officialUrl": "https://www.city.ueda.nagano.jp/soshiki/mati/80066.html",
+          "slug": "ueda-official-006-060-2026-nagano"
+        }
+      ]
+    }
+  },
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "json": "pass: JSON.parse for yamanashi-nagano-official-coverage-006 JSON files",
+    "addedSlugUniqueness": "pass: 60 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 60 primary official URLs returned HTTP 200 by interval curl",
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 13195, officialLinkedActive 13075, manuallyVerifiedActive 13075, 山梨県 localOfficial 480, 長野県 localOfficial 109)"
+  },
+  "next": {
+    "code": "nagano-official-coverage-001",
+    "municipality": "岡谷市",
+    "instructions": "次回は20204岡谷市から長野県公式棚卸しを自治体コード順に再開する。"
+  }
+}
