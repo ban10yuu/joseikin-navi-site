@@ -1,0 +1,32 @@
+{
+  "batchId": "yamanashi-official-coverage-001",
+  "prefecture": "山梨県",
+  "generatedAt": "2026-07-15T03:40:00+09:00",
+  "municipalities": [
+    {
+      "code": "19201",
+      "name": "甲府市",
+      "officialBaseUrl": "https://www.city.kofu.yamanashi.jp/"
+    },
+    {
+      "code": "19202",
+      "name": "富士吉田市",
+      "officialBaseUrl": "https://www.city.fujiyoshida.yamanashi.jp/"
+    },
+    {
+      "code": "19204",
+      "name": "都留市",
+      "officialBaseUrl": "https://www.city.tsuru.yamanashi.jp/"
+    },
+    {
+      "code": "19205",
+      "name": "山梨市",
+      "officialBaseUrl": "https://www.city.yamanashi.yamanashi.jp/"
+    },
+    {
+      "code": "19206",
+      "name": "大月市",
+      "officialBaseUrl": "https://www.city.otsuki.yamanashi.jp/"
+    }
+  ]
+}

@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T03:15:00+09:00",
+  "updatedAt": "2026-07-15T02:50:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "fukui-official-coverage-004",
-    "municipality": "おおい町・若狭町",
-    "adopted": 89,
-    "held": 2634,
+    "code": "yamanashi-official-coverage-001",
+    "municipality": "甲府市・富士吉田市・都留市・山梨市・大月市",
+    "adopted": 100,
+    "held": 6443,
     "excluded": 0,
-    "sourceUrlsChecked": 89,
+    "sourceUrlsChecked": 100,
     "validation": {
-      "previousMunicipality": "福井県公式棚卸し004として、18483おおい町・18501若狭町を確認した。自治体別クロールで候補232件、短い本文スニペット2723件、公式URLリード912件を保存し、個別公式ページ89件を新規採用した。福井県は全市町第1巡到達。全国公式棚卸しは未完了。",
+      "previousMunicipality": "山梨県公式棚卸し001として、19201甲府市・19202富士吉田市・19204都留市・19205山梨市・19206大月市を確認した。自治体別クロールで候補607件、短い本文スニペット6543件、公式URLリード3748件を保存し、個別公式ページ100件を新規採用した。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for fukui-official-coverage-004 JSON files and official-coverage-checkpoint.json",
-      "addedSlugUniqueness": "pass: 89 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 89 primary official URLs returned HTTP 200",
+      "json": "pass: JSON.parse for yamanashi-official-coverage-001 JSON files and official-coverage-checkpoint.json",
+      "addedSlugUniqueness": "pass: 100 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 100 primary official URLs returned HTTP 200",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 12752, officialLinkedActive 12632, manuallyVerifiedActive 12632, 福井県 localOfficial 393)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 12852, officialLinkedActive 12732, manuallyVerifiedActive 12732, 山梨県 localOfficial 176)"
     }
   },
   "next": {
-    "code": "yamanashi-official-coverage-001",
-    "municipality": "甲府市",
-    "shortlist": "福井県公式棚卸し004はおおい町57件、若狭町32件の計89件を採用した。トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補として保持する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、19201甲府市を開始地点として山梨県公式棚卸し001を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "yamanashi-official-coverage-002",
+    "municipality": "韮崎市",
+    "shortlist": "山梨県公式棚卸し001は甲府市20件、富士吉田市20件、都留市20件、山梨市20件、大月市20件の計100件を採用した。トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補として保持する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、19207韮崎市を開始地点として山梨県公式棚卸し002を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
-    "prefecture": "福井県",
-    "status": "completed-first-pass",
-    "lastBatch": "fukui-official-coverage-004",
-    "notes": "福井県は18201福井市から18501若狭町まで全17市町の第1巡に到達。全国公式棚卸しは未完了。次は山梨県19201甲府市から継続する。"
+    "prefecture": "山梨県",
+    "status": "in-progress",
+    "lastBatch": "yamanashi-official-coverage-001",
+    "notes": "山梨県は19201甲府市から19206大月市まで自治体コード順に第1巡到達。全国公式棚卸しは未完了。次は19207韮崎市から継続する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
