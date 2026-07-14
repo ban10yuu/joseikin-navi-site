@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-07-14T21:15:00+09:00",
+  "updatedAt": "2026-07-14T22:25:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "niigata-official-coverage-001",
-    "municipality": "新潟市",
-    "adopted": 27,
-    "held": 17,
-    "excluded": 0,
-    "sourceUrlsChecked": 52,
+    "code": "niigata-official-coverage-002",
+    "municipality": "長岡市・三条市・柏崎市・新発田市",
+    "adopted": 39,
+    "held": 42,
+    "excluded": 9,
+    "sourceUrlsChecked": 90,
     "validation": {
-      "previousMunicipality": "新潟県公式棚卸し001として、15100新潟市を確認した。候補277件が150件超のため短い本文スニペットを再スコアリングし、URLリード52件の公式本文を確認した。既存登録済み制度と受付終了制度を除き、新潟市27件を新規採用した。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and JSON.parse for niigata-official-coverage-001.json / snippets / url-leads / details / municipalities / official-coverage-checkpoint.json",
-      "addedSlugUniqueness": "pass: 27 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 27 primary official URLs returned HTTP 200",
+      "previousMunicipality": "新潟県公式棚卸し002として、15202長岡市・15204三条市・15205柏崎市・15206新発田市を確認した。候補628件が150件超のため短い本文スニペットを再スコアリングし、URLリード341件から詳細90件の公式本文を確認した。既存登録済み制度、受付終了制度、全国制度・証明書案内を除き39件を新規採用した。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and JSON.parse for niigata-official-coverage-002.json / snippets / url-leads / details / municipalities / official-coverage-checkpoint.json",
+      "addedSlugUniqueness": "pass: 39 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 39 primary official URLs returned HTTP 200",
       "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11509, officialLinkedActive 11471, manuallyVerifiedActive 11471, 新潟県 localOfficial 121)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11548, officialLinkedActive 11510, manuallyVerifiedActive 11510, 新潟県 localOfficial 160)"
     }
   },
   "next": {
-    "code": "niigata-official-coverage-002",
-    "municipality": "長岡市",
-    "shortlist": "新潟県公式棚卸し001は新潟市27件を採用した。新潟市のこども医療費助成、奨学金制度、住宅用再生可能エネルギー、不妊治療費助成、耐震設計は既存登録済みのため今回の新規採用から除外。湿地プロジェクト、省人化サポート、XR、住宅建替・購入支援は受付終了又は予算上限到達のため第2巡候補に残す。",
-    "instructions": "次回は新潟県公式棚卸し002として、固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から自治体コード順に15202長岡市から開始する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "niigata-official-coverage-003",
+    "municipality": "小千谷市",
+    "shortlist": "新潟県公式棚卸し002は長岡市5件、三条市8件、柏崎市19件、新発田市7件の計39件を採用した。長岡市の克雪すまいづくり支援事業・一般住宅リフォーム支援事業は既存登録済み又は受付終了、三条市農業振興補助事業は期限後、柏崎市の重複カテゴリURL・様式案内・金額又は受付状況不足ページ、新発田市の児童手当・証明書案内は第2巡候補又は除外候補に残す。",
+    "instructions": "次回は新潟県公式棚卸し003として、固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から自治体コード順に15208小千谷市から開始する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "新潟県",
     "status": "in-progress",
-    "lastBatch": "niigata-official-coverage-001",
-    "notes": "新潟県は15100新潟市まで自治体コード順に到達。次は15202長岡市。神奈川県は14402清川村まで第1巡到達済み、東京都は13421小笠原村まで第1巡到達済みだが、第2巡保留候補を保持。全国公式棚卸しは未完了。"
+    "lastBatch": "niigata-official-coverage-002",
+    "notes": "新潟県は15206新発田市まで自治体コード順に到達。次は15208小千谷市。神奈川県は14402清川村まで第1巡到達済み、東京都は13421小笠原村まで第1巡到達済みだが、第2巡保留候補を保持。全国公式棚卸しは未完了。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

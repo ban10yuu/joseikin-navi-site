@@ -8534,3 +8534,39 @@
   - 雨水浸透ます・貯留タンク設置助成、水洗化工事の融資・助成金制度、浄化槽設置整備事業補助金、犯罪被害者等貸付金、マンション耐震改修補助制度、特定建築物耐震診断等補助事業、障がい者医療費助成・手当カテゴリは、金額・対象・受付状況又は制度分割確認を第2巡候補に残す。
 - 次:
   - 新潟県公式棚卸し002として、15202長岡市から自治体コード順に確認する。
+
+### 2026-07-14 新潟県公式棚卸し002（15202長岡市・15204三条市・15205柏崎市・15206新発田市）
+
+- 作業範囲:
+  - 15202 長岡市、15204 三条市、15205 柏崎市、15206 新発田市の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 生成候補628件が150件を超えたため、`tasks/discovery/niigata-official-coverage-002-snippets.json` に公式本文の短い根拠を保存し、再スコアリングした。
+  - URLリード341件から詳細90件を `tasks/discovery/niigata-official-coverage-002-details.json` に取得し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別ページを優先した。
+- 採用:
+  - 合計39件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 長岡市5件: 空き家対策総合支援事業補助金、屋根雪下ろし命綱固定アンカー設置補助金、高校生遠距離バス通学定期代補助、小学校児童冬期通学費補助金、雪国長岡での再エネ導入補助金。
+  - 三条市8件: 物価高騰対応障がい者福祉事業者支援金、人材育成研修受講料補助金、外国人材能力向上奨励金、在宅介護支援金、高齢者住宅整備補助、紙おむつ購入費助成、難聴者補聴器購入費助成、見守り装置レンタル費用助成。
+  - 柏崎市19件: 奨学金返還補助制度、木造住宅耐震改修費補助、吹き付けアスベスト対策費補助、克雪すまいづくり支援事業、結婚新生活支援補助金、電気自動車等購入補助金、合併処理浄化槽設置工事補助金、獣類侵入防止柵設置補助金、がん患者医療用補整具購入費助成、若年がん患者在宅療養支援、看護師就職助成金、診療所開設支援補助金、軽・中等度難聴者補聴器購入費助成、日常生活支援総合事業補助金、妊婦のための支援給付、不妊治療費助成、不育症治療費助成、ひとり親家庭資格取得支援、障がい者自動車改造費補助。
+  - 新発田市7件: 妊婦支援給付金、不妊治療費助成、不育症治療費助成、子ども医療費助成、新生児聴覚検査費用助成、第3子以降出産費助成、多胎妊婦健康診査費助成。
+- 生成ファイル:
+  - `tasks/discovery/niigata-official-coverage-002-municipalities.json`
+  - `tasks/discovery/niigata-official-coverage-002-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-002-snippets.json`
+  - `tasks/discovery/niigata-official-coverage-002-url-leads.json`
+  - `tasks/discovery/niigata-official-coverage-002-details.json`
+  - `tasks/discovery/niigata-official-coverage-002.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（`niigata-official-coverage-002.json`、snippets、url-leads、details、municipalities、checkpoint）。
+  - 追加slug重複: pass（39件、`verified-local-misc-2026.ts` 内で各1件）。
+  - 公式URL到達: pass（39 primary official URLsすべてHTTP 200）。
+  - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 11548、officialLinkedActive 11510、manuallyVerifiedActive 11510、新潟県 localOfficial 160）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は新潟県15206新発田市到達のみで全国完了扱いしない。
+  - 長岡市の克雪すまいづくり支援事業、一般住宅リフォーム支援事業は既存登録済み又は受付終了のため新規採用から除外した。
+  - 三条市農業振興補助事業は令和8年6月26日必着で期限後のため第2巡候補に残す。
+  - 柏崎市の重複カテゴリURL、様式・案内主体ページ、金額又は受付状況が薄いページは第2巡候補に残す。
+  - 新発田市の児童手当、児童手当支払額証明書は全国制度又は証明書案内のため新規採用から除外した。
+- 次:
+  - 新潟県公式棚卸し003として、15208小千谷市から自治体コード順に確認する。

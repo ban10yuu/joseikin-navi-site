@@ -1,0 +1,26 @@
+{
+  "batchId": "niigata-official-coverage-002",
+  "prefecture": "新潟県",
+  "municipalities": [
+    {
+      "code": "15202",
+      "name": "長岡市",
+      "officialBaseUrl": "https://www.city.nagaoka.niigata.jp/"
+    },
+    {
+      "code": "15204",
+      "name": "三条市",
+      "officialBaseUrl": "https://www.city.sanjo.niigata.jp/"
+    },
+    {
+      "code": "15205",
+      "name": "柏崎市",
+      "officialBaseUrl": "https://www.city.kashiwazaki.lg.jp/"
+    },
+    {
+      "code": "15206",
+      "name": "新発田市",
+      "officialBaseUrl": "https://www.city.shibata.lg.jp/"
+    }
+  ]
+}
