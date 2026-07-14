@@ -1,0 +1,4053 @@
+{
+  "batchId": "kanagawa-official-coverage-001",
+  "prefecture": "神奈川県",
+  "generatedAt": "2026-07-14T09:06:43.245Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 135,
+  "results": [
+    {
+      "code": "14150",
+      "name": "相模原市",
+      "officialBaseUrl": "https://www.city.sagamihara.kanagawa.jp/",
+      "discoveredUrlCount": 260,
+      "candidateCount": 135,
+      "strongCandidateCount": 3,
+      "lowPriorityCandidateCount": 132,
+      "candidates": [
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年9月30日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年9月30日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月9日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kankou/1026674/city_promotion/1026756/1029585.html",
+          "status": 200,
+          "title": "相模原市シティプロモーションサイト「さがみはらむすび」公開",
+          "h1": "相模原市シティプロモーションサイト「さがみはらむすび」公開",
+          "updatedAt": "令和6年5月31日",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年6月30日",
+          "keywordHits": [
+            "住宅",
+            "林業",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "令和8年9月30日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/index.html",
+          "status": 200,
+          "title": "暮らし・手続き",
+          "h1": "暮らし・手続き",
+          "updatedAt": "令和8年7月10日",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て",
+            "就学",
+            "耐震"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/index.html",
+          "status": 200,
+          "title": "子育て・健康・福祉",
+          "h1": "子育て・健康・福祉",
+          "updatedAt": "令和8年7月9日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/sangyo/index.html",
+          "status": 200,
+          "title": "産業・ビジネス",
+          "h1": "産業・ビジネス",
+          "updatedAt": "令和8年7月14日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/index.html",
+          "status": 200,
+          "title": "市政情報",
+          "h1": "市政情報",
+          "updatedAt": "令和7年3月11日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/recycle/index.html",
+          "status": 200,
+          "title": "リサイクルとごみ",
+          "h1": "リサイクルとごみ",
+          "updatedAt": "令和7年9月4日",
+          "keywordHits": [
+            "助成金",
+            "事業者"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/1027968.html",
+          "status": 200,
+          "title": "ピックアップコンテンツ（特設サイトなど）",
+          "h1": "ピックアップコンテンツ（特設サイトなど）",
+          "updatedAt": "令和7年7月29日",
+          "keywordHits": [
+            "創業",
+            "起業",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/lifeevent/1012108.html",
+          "status": 200,
+          "title": "住まい・引っ越し",
+          "h1": "住まい・引っ越し",
+          "updatedAt": "令和7年12月2日",
+          "keywordHits": [
+            "医療費助成",
+            "住宅",
+            "福祉",
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/lifeevent/1012104.html",
+          "status": 200,
+          "title": "妊娠・出産",
+          "h1": "妊娠・出産",
+          "updatedAt": "令和7年12月12日",
+          "keywordHits": [
+            "一時金",
+            "医療費助成",
+            "子育て",
+            "予防接種",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/lifeevent/1012105.html",
+          "status": 200,
+          "title": "入園・入学",
+          "h1": "入園・入学",
+          "updatedAt": "令和7年12月2日",
+          "keywordHits": [
+            "奨励金",
+            "子育て",
+            "就学",
+            "奨学金",
+            "通学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/lifeevent/1012109.html",
+          "status": 200,
+          "title": "介護・福祉",
+          "h1": "介護・福祉",
+          "updatedAt": "令和8年7月10日",
+          "keywordHits": [
+            "補助金",
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026448/index.html",
+          "status": 200,
+          "title": "届出・証明・税金",
+          "h1": "届出・証明・税金",
+          "updatedAt": "令和5年2月20日",
+          "keywordHits": [
+            "給付金",
+            "免除",
+            "事業者"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/index.html",
+          "status": 200,
+          "title": "環境・住まい",
+          "h1": "環境・住まい",
+          "updatedAt": "令和5年2月20日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空家",
+            "農業",
+            "省エネ"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/index.html",
+          "status": 200,
+          "title": "各種相談窓口一覧",
+          "h1": "各種相談窓口一覧",
+          "updatedAt": "令和8年6月27日",
+          "keywordHits": [
+            "免除",
+            "住宅",
+            "事業者",
+            "福祉",
+            "子育て",
+            "就学",
+            "耐震",
+            "不妊"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/index.html",
+          "status": 200,
+          "title": "施設マップ",
+          "h1": "施設マップ",
+          "updatedAt": "令和5年2月17日",
+          "keywordHits": [
+            "減免",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/index.html",
+          "status": 200,
+          "title": "子育て・教育",
+          "h1": "子育て・教育",
+          "updatedAt": "令和5年2月20日",
+          "keywordHits": [
+            "給付金",
+            "移住",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/kenko/index.html",
+          "status": 200,
+          "title": "健康・衛生・医療",
+          "h1": "健康・衛生・医療",
+          "updatedAt": "令和5年2月8日",
+          "keywordHits": [
+            "一時金",
+            "事業者",
+            "予防接種"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/fukushi/index.html",
+          "status": 200,
+          "title": "福祉",
+          "h1": "福祉",
+          "updatedAt": "令和5年2月8日",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026646/index.html",
+          "status": 200,
+          "title": "介護・介護予防",
+          "h1": "介護・介護予防",
+          "updatedAt": "令和5年2月20日",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/sangyo/1026667/index.html",
+          "status": 200,
+          "title": "入札等新着情報",
+          "h1": "入札等新着情報",
+          "updatedAt": "令和8年9月30日",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/sangyo/sangyo/index.html",
+          "status": 200,
+          "title": "産業情報",
+          "h1": "産業情報",
+          "updatedAt": "令和5年2月20日",
+          "keywordHits": [
+            "補助金",
+            "創業",
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/sangyo/1032255/index.html",
+          "status": 200,
+          "title": "雇用・就職支援情報",
+          "h1": "雇用・就職支援情報",
+          "updatedAt": "令和7年2月20日",
+          "keywordHits": [
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kankou/1026674/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月14日",
+          "keywordHits": [
+            "移住",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kankou/bunka/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "住宅"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026709/index.html",
+          "status": 200,
+          "title": "相模原市の紹介",
+          "h1": "相模原市の紹介",
+          "updatedAt": "令和5年2月20日",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026803/index.html",
+          "status": 200,
+          "title": "財政・債権管理",
+          "h1": "財政・債権管理",
+          "updatedAt": "令和6年10月2日",
+          "keywordHits": [
+            "補助金",
+            "事業者"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026823/index.html",
+          "status": 200,
+          "title": "まちづくり・環境",
+          "h1": "まちづくり・環境",
+          "updatedAt": "令和5年11月10日",
+          "keywordHits": [
+            "奨励金",
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/index.html",
+          "status": 200,
+          "title": "広報・広聴・市政への参加",
+          "h1": "広報・広聴・市政への参加",
+          "updatedAt": "令和5年2月20日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026896/index.html",
+          "status": 200,
+          "title": "情報公開・監査",
+          "h1": "情報公開・監査",
+          "updatedAt": "令和5年2月20日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/kenko/kyubyo/1000125.html",
+          "status": 200,
+          "title": "救急・急病",
+          "h1": "救急・急病",
+          "updatedAt": "令和6年6月10日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/1026879/1019776.html",
+          "status": 200,
+          "title": "AI（人工知能）が質問に答えるチャットボットサービス",
+          "h1": "AI（人工知能）が質問に答えるチャットボットサービス",
+          "updatedAt": "令和6年3月7日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026709/mayor/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年6月22日",
+          "keywordHits": [
+            "医療費助成",
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kyouiku/index.html",
+          "status": 200,
+          "title": "教育委員会",
+          "h1": "教育委員会",
+          "updatedAt": "令和8年4月3日",
+          "keywordHits": [
+            "補助金",
+            "耐震",
+            "通学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/1026880/channel/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和元年10月20日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/1026879/1022979/1000111.html",
+          "status": 200,
+          "title": "ソーシャルメディア一覧",
+          "h1": "ソーシャルメディア一覧",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "林業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/1026879/1023935.html",
+          "status": 200,
+          "title": "市が発行するガイドブックなど",
+          "h1": "市が発行するガイドブックなど",
+          "updatedAt": "令和8年5月13日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shinseisho_menu/index.html",
+          "status": 200,
+          "title": "申請書ダウンロード",
+          "h1": "申請書ダウンロード",
+          "updatedAt": "令和8年9月30日",
+          "keywordHits": [
+            "医療費助成",
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て",
+            "就学",
+            "奨学金"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/midoriku/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月14日",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "空き家"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/faq/index.html",
+          "status": 200,
+          "title": "よくある質問",
+          "h1": "よくある質問",
+          "updatedAt": "令和5年6月1日",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/site/index.html",
+          "status": 200,
+          "title": "広告掲載について",
+          "h1": "広告掲載について",
+          "updatedAt": "令和8年2月3日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026709/1000105/index.html",
+          "status": 200,
+          "title": "組織と業務",
+          "h1": "組織と業務",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/1000110.html",
+          "status": 200,
+          "title": "リンク集",
+          "h1": "リンク集",
+          "updatedAt": "令和8年2月2日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/about/accessibility/accessibility.html",
+          "status": 200,
+          "title": "ウェブアクセシビリティ",
+          "h1": "ウェブアクセシビリティ",
+          "updatedAt": "令和8年4月15日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/shiyakusho/index.html",
+          "status": 200,
+          "title": "市役所で働く",
+          "h1": "市役所で働く",
+          "updatedAt": "令和8年6月30日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1035187.html",
+          "status": 200,
+          "title": "令和8年度職員採用選考案内 相模原市役所を退職した人を対象とした「おかえりなさい！」採用（復職制度）",
+          "h1": "令和8年度職員採用選考案内 相模原市役所を退職した人を対象とした「おかえりなさい！」採用（復職制度）",
+          "updatedAt": "令和8年5月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1034915.html",
+          "status": 200,
+          "title": "令和8年度 相模原市職員採用選考受験案内（民間企業等経験者採用）【通年枠】",
+          "h1": "令和8年度 相模原市職員採用選考受験案内（民間企業等経験者採用）【通年枠】",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1034914.html",
+          "status": 200,
+          "title": "令和8年度 相模原市職員採用選考受験案内（公務員経験者採用）【通年枠】",
+          "h1": "令和8年度 相模原市職員採用選考受験案内（公務員経験者採用）【通年枠】",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1034904.html",
+          "status": 200,
+          "title": "令和8年度 医師（公衆衛生医師：保健所長又は保健所長候補）常勤職員・任期付職員",
+          "h1": "令和8年度 医師（公衆衛生医師：保健所長又は保健所長候補）常勤職員・任期付職員",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1034905.html",
+          "status": 200,
+          "title": "令和8年度 医師（公衆衛生医師）常勤職員・任期付職員",
+          "h1": "令和8年度 医師（公衆衛生医師）常勤職員・任期付職員",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1035586.html",
+          "status": 200,
+          "title": "職員採用選考（民間企業等経験者採用）【Aターム】第2次選考合格発表及び第3次選考のお知らせ",
+          "h1": "職員採用選考（民間企業等経験者採用）【Aターム】第2次選考合格発表及び第3次選考のお知らせ",
+          "updatedAt": "令和8年6月19日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1035587.html",
+          "status": 200,
+          "title": "職員採用選考（公務員経験者採用）【Aターム】第1次選考合格発表及び第2次選考のお知らせ",
+          "h1": "職員採用選考（公務員経験者採用）【Aターム】第1次選考合格発表及び第2次選考のお知らせ",
+          "updatedAt": "令和8年6月19日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/shiyakusho/1005252.html",
+          "status": 200,
+          "title": "職員採用試験受験案内過去分（令和6年度から令和8年度）",
+          "h1": "職員採用試験受験案内過去分（令和6年度から令和8年度）",
+          "updatedAt": "令和8年7月7日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/005/242/20260127_henkou.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/shiyakusho/1035603.html",
+          "status": 200,
+          "title": "令和8年度 保育士募集",
+          "h1": "令和8年度 保育士募集",
+          "updatedAt": "令和8年6月24日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/shiyakusho/1005251.html",
+          "status": 200,
+          "title": "専門試験の問題例",
+          "h1": "専門試験の問題例",
+          "updatedAt": "令和8年4月10日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026709/profile/1010890.html",
+          "status": 200,
+          "title": "相模原市へのアクセス",
+          "h1": "相模原市へのアクセス",
+          "updatedAt": "令和3年3月8日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/029/584/chirashi_01.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/029/584/chirashi_02.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1035659/1035660.html",
+          "status": 200,
+          "title": "若者・子育て世代を対象とした転出世帯・転入世帯向けアンケート調査",
+          "h1": "若者・子育て世代を対象とした転出世帯・転入世帯向けアンケート調査",
+          "updatedAt": "令和8年6月30日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1035144.html",
+          "status": 200,
+          "title": "令和7年版統計書",
+          "h1": "令和7年版統計書",
+          "updatedAt": "令和8年6月15日",
+          "keywordHits": [
+            "林業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034894/index.html",
+          "status": 200,
+          "title": "将来人口推計",
+          "h1": "将来人口推計",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "通学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/index.html",
+          "status": 200,
+          "title": "各種統計調査",
+          "h1": "各種統計調査",
+          "updatedAt": "令和8年9月30日",
+          "keywordHits": [
+            "住宅",
+            "林業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/kokusei/index.html",
+          "status": 200,
+          "title": "国勢調査",
+          "h1": "国勢調査",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "住宅",
+            "通学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/1010819/index.html",
+          "status": 200,
+          "title": "経済センサス-基礎調査",
+          "h1": "経済センサス-基礎調査",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/1010873.html",
+          "status": 200,
+          "title": "農林業センサス",
+          "h1": "農林業センサス",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "水産"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/1010879.html",
+          "status": 200,
+          "title": "全国家計構造調査",
+          "h1": "全国家計構造調査",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "住宅",
+            "就学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/1010866/index.html",
+          "status": 200,
+          "title": "住宅・土地統計調査",
+          "h1": "住宅・土地統計調査",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/gakko_kihon/index.html",
+          "status": 200,
+          "title": "学校基本調査",
+          "h1": "学校基本調査",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/kogyo/index.html",
+          "status": 200,
+          "title": "工業統計調査（調査終了）",
+          "h1": "工業統計調査（調査終了）",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1035549.html",
+          "status": 200,
+          "title": "登録調査員",
+          "h1": "登録調査員",
+          "updatedAt": "令和8年6月16日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1032785.html",
+          "status": 200,
+          "title": "令和6年版統計書",
+          "h1": "令和6年版統計書",
+          "updatedAt": "令和8年6月15日",
+          "keywordHits": [
+            "林業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1030452.html",
+          "status": 200,
+          "title": "令和5年版統計書",
+          "h1": "令和5年版統計書",
+          "updatedAt": "令和8年6月15日",
+          "keywordHits": [
+            "林業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1028386.html",
+          "status": 200,
+          "title": "令和4年版統計書",
+          "h1": "令和4年版統計書",
+          "updatedAt": "令和8年6月15日",
+          "keywordHits": [
+            "林業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1025193.html",
+          "status": 200,
+          "title": "令和3年版統計書",
+          "h1": "令和3年版統計書",
+          "updatedAt": "令和8年6月15日",
+          "keywordHits": [
+            "林業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1023028.html",
+          "status": 200,
+          "title": "令和2年版統計書",
+          "h1": "令和2年版統計書",
+          "updatedAt": "令和8年6月15日",
+          "keywordHits": [
+            "林業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1019985.html",
+          "status": 200,
+          "title": "令和元年版統計書",
+          "h1": "令和元年版統計書",
+          "updatedAt": "令和8年6月15日",
+          "keywordHits": [
+            "林業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1016769.html",
+          "status": 200,
+          "title": "平成30年版統計書",
+          "h1": "平成30年版統計書",
+          "updatedAt": "令和8年6月15日",
+          "keywordHits": [
+            "林業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1014167.html",
+          "status": 200,
+          "title": "平成29年版統計書",
+          "h1": "平成29年版統計書",
+          "updatedAt": "令和8年6月15日",
+          "keywordHits": [
+            "林業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1010777.html",
+          "status": 200,
+          "title": "平成28年版統計書",
+          "h1": "平成28年版統計書",
+          "updatedAt": "令和8年6月15日",
+          "keywordHits": [
+            "林業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1010780.html",
+          "status": 200,
+          "title": "平成27年版統計書",
+          "h1": "平成27年版統計書",
+          "updatedAt": "令和8年6月13日",
+          "keywordHits": [
+            "林業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1010783.html",
+          "status": 200,
+          "title": "平成26年版統計書",
+          "h1": "平成26年版統計書",
+          "updatedAt": "令和8年6月13日",
+          "keywordHits": [
+            "林業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1010786.html",
+          "status": 200,
+          "title": "平成25年版統計書",
+          "h1": "平成25年版統計書",
+          "updatedAt": "令和8年6月13日",
+          "keywordHits": [
+            "林業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1010789.html",
+          "status": 200,
+          "title": "平成24年版統計書",
+          "h1": "平成24年版統計書",
+          "updatedAt": "令和8年6月15日",
+          "keywordHits": [
+            "林業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1010792.html",
+          "status": 200,
+          "title": "平成23年版統計書",
+          "h1": "平成23年版統計書",
+          "updatedAt": "令和8年6月15日",
+          "keywordHits": [
+            "林業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1010795.html",
+          "status": 200,
+          "title": "平成22年版統計書",
+          "h1": "平成22年版統計書",
+          "updatedAt": "令和8年6月15日",
+          "keywordHits": [
+            "林業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1033064.html",
+          "status": 200,
+          "title": "大都市比較統計年表",
+          "h1": "大都市比較統計年表",
+          "updatedAt": "令和8年5月29日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "起業",
+            "農業",
+            "林業",
+            "福祉",
+            "耐震",
+            "省エネ"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/opendata/1013082.html",
+          "status": 200,
+          "title": "県央地域DX推進協力検討会（オープンデータ関係）",
+          "h1": "県央地域DX推進協力検討会（オープンデータ関係）",
+          "updatedAt": "令和8年2月3日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1035659/index.html",
+          "status": 200,
+          "title": "アンケート調査",
+          "h1": "アンケート調査",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034891/1010887.html",
+          "status": 200,
+          "title": "リンク集",
+          "h1": "リンク集",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "林業",
+            "水産"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034891/investigation/index.html",
+          "status": 200,
+          "title": "統計・調査資料",
+          "h1": "統計・調査資料",
+          "updatedAt": "令和7年11月11日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/lifeevent/index.html",
+          "status": 200,
+          "title": "ライフイベントから探す",
+          "h1": "ライフイベントから探す",
+          "updatedAt": "令和8年9月30日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/1009780/index.html",
+          "status": 200,
+          "title": "外国語（がいこくご）による情報提供（じょうほうていきょう） Information in Foreign Languages",
+          "h1": "外国語（がいこくご）による情報提供（じょうほうていきょう） Information in Foreign Languages",
+          "updatedAt": "令和5年10月24日",
+          "keywordHits": [
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026448/1026459/index.html",
+          "status": 200,
+          "title": "マイナンバーカード（個人番号カード）",
+          "h1": "マイナンバーカード（個人番号カード）",
+          "updatedAt": "令和5年4月21日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026448/kokuho/index.html",
+          "status": 200,
+          "title": "国民健康保険",
+          "h1": "国民健康保険",
+          "updatedAt": "令和5年2月8日",
+          "keywordHits": [
+            "支援金",
+            "減免",
+            "免除",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026448/kouki_koureisha_iryou/index.html",
+          "status": 200,
+          "title": "後期高齢者医療",
+          "h1": "後期高齢者医療",
+          "updatedAt": "令和5年2月8日",
+          "keywordHits": [
+            "支援金",
+            "減免",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026448/zeikin/index.html",
+          "status": 200,
+          "title": "税金",
+          "h1": "税金",
+          "updatedAt": "令和7年10月24日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026448/nenkin/index.html",
+          "status": 200,
+          "title": "国民年金",
+          "h1": "国民年金",
+          "updatedAt": "令和7年7月31日",
+          "keywordHits": [
+            "給付金",
+            "免除"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/1026502/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年6月24日",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "住宅",
+            "事業者",
+            "省エネ"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/kankyo/index.html",
+          "status": 200,
+          "title": "環境",
+          "h1": "環境",
+          "updatedAt": "令和7年9月8日",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "住宅",
+            "事業者",
+            "省エネ"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/sumai/index.html",
+          "status": 200,
+          "title": "住まい・まちなみ",
+          "h1": "住まい・まちなみ",
+          "updatedAt": "令和5年2月8日",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "移住",
+            "住宅",
+            "空き家",
+            "空家",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/shimin_nouen/index.html",
+          "status": 200,
+          "title": "市民農園・農産物",
+          "h1": "市民農園・農産物",
+          "updatedAt": "令和8年9月30日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/jichikai/index.html",
+          "status": 200,
+          "title": "自治会",
+          "h1": "自治会",
+          "updatedAt": "令和8年9月30日",
+          "keywordHits": [
+            "補助金",
+            "省エネ"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026823/gesuido/index.html",
+          "status": 200,
+          "title": "下水道",
+          "h1": "下水道",
+          "updatedAt": "令和8年7月2日",
+          "keywordHits": [
+            "減免",
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026529/1026549/index.html",
+          "status": 200,
+          "title": "安全・安心・防犯",
+          "h1": "安全・安心・防犯",
+          "updatedAt": "令和5年2月8日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006027.html",
+          "status": 200,
+          "title": "ひとり親家庭相談について",
+          "h1": "ひとり親家庭相談について",
+          "updatedAt": "令和2年7月17日",
+          "keywordHits": [
+            "貸付",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006028.html",
+          "status": 200,
+          "title": "新築・増改築・修理等の相談について",
+          "h1": "新築・増改築・修理等の相談について",
+          "updatedAt": "令和7年11月13日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006029.html",
+          "status": 200,
+          "title": "建築相談（耐震）について",
+          "h1": "建築相談（耐震）について",
+          "updatedAt": "令和8年5月23日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "耐震"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006082.html",
+          "status": 200,
+          "title": "公益通報者保護法の概要と市への通報について",
+          "h1": "公益通報者保護法の概要と市への通報について",
+          "updatedAt": "令和8年7月3日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006064.html",
+          "status": 200,
+          "title": "高齢者・障害者のための住宅改修相談",
+          "h1": "高齢者・障害者のための住宅改修相談",
+          "updatedAt": "令和7年12月8日",
+          "keywordHits": [
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006065.html",
+          "status": 200,
+          "title": "補装具更生相談（肢体不自由・聴覚障害）",
+          "h1": "補装具更生相談（肢体不自由・聴覚障害）",
+          "updatedAt": "令和8年2月19日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006083.html",
+          "status": 200,
+          "title": "自殺予防電話相談",
+          "h1": "自殺予防電話相談",
+          "updatedAt": "令和3年7月2日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1021093.html",
+          "status": 200,
+          "title": "相模原市内の福祉職場で働く方のメンタルヘルス相談",
+          "h1": "相模原市内の福祉職場で働く方のメンタルヘルス相談",
+          "updatedAt": "令和2年11月2日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006037.html",
+          "status": 200,
+          "title": "女性の相談窓口",
+          "h1": "女性の相談窓口",
+          "updatedAt": "令和8年7月3日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006063.html",
+          "status": 200,
+          "title": "権利擁護・成年後見について",
+          "h1": "権利擁護・成年後見について",
+          "updatedAt": "令和7年11月14日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006045.html",
+          "status": 200,
+          "title": "子育てに困ったり、悩んだりしたら",
+          "h1": "子育てに困ったり、悩んだりしたら",
+          "updatedAt": "令和5年7月14日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1020475.html",
+          "status": 200,
+          "title": "かながわ子ども家庭110番相談LINEについて",
+          "h1": "かながわ子ども家庭110番相談LINEについて",
+          "updatedAt": "令和5年10月24日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006053.html",
+          "status": 200,
+          "title": "児童相談所 児童相談について",
+          "h1": "児童相談所 児童相談について",
+          "updatedAt": "令和8年3月13日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006066.html",
+          "status": 200,
+          "title": "発達・障害に関する相談",
+          "h1": "発達・障害に関する相談",
+          "updatedAt": "令和8年4月9日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006056.html",
+          "status": 200,
+          "title": "就学相談",
+          "h1": "就学相談",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006067.html",
+          "status": 200,
+          "title": "発達障害の相談について",
+          "h1": "発達障害の相談について",
+          "updatedAt": "令和5年12月22日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006057.html",
+          "status": 200,
+          "title": "海外帰国及び外国人児童・生徒へのサポート",
+          "h1": "海外帰国及び外国人児童・生徒へのサポート",
+          "updatedAt": "令和6年2月16日",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/bunka_shakai/index.html",
+          "status": 200,
+          "title": "文化・社会教育施設",
+          "h1": "文化・社会教育施設",
+          "updatedAt": "令和5年2月8日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/hoken_fukushi/index.html",
+          "status": 200,
+          "title": "保健・医療・福祉施設",
+          "h1": "保健・医療・福祉施設",
+          "updatedAt": "令和5年2月8日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/child/index.html",
+          "status": 200,
+          "title": "子育て関連施設",
+          "h1": "子育て関連施設",
+          "updatedAt": "令和5年2月8日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/sports/index.html",
+          "status": 200,
+          "title": "スポーツ施設",
+          "h1": "スポーツ施設",
+          "updatedAt": "令和5年2月8日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年4月10日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/seisyonen/index.html",
+          "status": 200,
+          "title": "青少年",
+          "h1": "青少年",
+          "updatedAt": "平成31年3月15日",
+          "keywordHits": [
+            "給付金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/1033641/index.html",
+          "status": 200,
+          "title": "結婚を希望する人への支援",
+          "h1": "結婚を希望する人への支援",
+          "updatedAt": "令和7年8月15日",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/kenko/kyubyo/index.html",
+          "status": 200,
+          "title": "急病",
+          "h1": "急病",
+          "updatedAt": "令和8年9月30日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14150",
+          "municipalityName": "相模原市",
+          "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/kenko/1026625/index.html",
+          "status": 200,
+          "title": "感染症・予防接種・難病",
+          "h1": "感染症・予防接種・難病",
+          "updatedAt": "令和5年2月8日",
+          "keywordHits": [
+            "補助金",
+            "医療費助成",
+            "事業者",
+            "福祉",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/robots.txt",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/robots.txt",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kankou/1026674/city_promotion/1026756/1029585.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kankou/1026674/city_promotion/1026756/1029585.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kankou/1026674/city_promotion/1026756/1029584.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kankou/1026674/city_promotion/1026756/1029584.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/about/site/usability.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/about/site/usability.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/about/site/idsearch.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/about/site/idsearch.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/sangyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kankou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kankou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/recycle/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/recycle/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/1026586/guide/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/1026586/guide/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/1027968.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/1027968.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/lifeevent/1012108.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/lifeevent/1012108.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/lifeevent/1012104.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/lifeevent/1012104.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/lifeevent/1012105.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/lifeevent/1012105.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/lifeevent/1012106.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/lifeevent/1012106.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/lifeevent/1012107.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/lifeevent/1012107.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/lifeevent/1012109.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/lifeevent/1012109.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/lifeevent/1012110.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/lifeevent/1012110.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026448/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026448/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026529/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026529/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026584/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026584/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/kenko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/kenko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/fukushi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/fukushi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026646/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026646/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/1026667/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/sangyo/1026667/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/keiyaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/sangyo/keiyaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/sangyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/sangyo/sangyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/sangyo/1032255/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/sangyo/1032255/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kankou/1026674/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kankou/1026674/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kankou/sports/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kankou/sports/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kankou/bunka/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kankou/bunka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026709/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026709/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026766/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026766/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026803/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026803/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026823/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026823/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026896/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026896/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1035506.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1035506.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/kenko/kyubyo/1000125.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/kenko/kyubyo/1000125.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026529/bousai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026529/bousai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026529/shobo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026529/shobo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026803/1003966/1015553/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026803/1003966/1015553/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/boshu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/boshu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/event_calendar.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/event_calendar.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/1026879/1019776.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/1026879/1019776.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026709/mayor/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026709/mayor/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/koho_sagamihara/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/koho_sagamihara/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kyouiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kyouiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/shikanren/shiyakusyo/1002667.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/shikanren/shiyakusyo/1002667.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026448/tetsuzuki/1026450/1005956.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026448/tetsuzuki/1026450/1005956.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/1026878/houdo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/1026878/houdo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/1026880/channel/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/1026880/channel/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/sagamiharakids/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/sagamiharakids/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/1026879/1022979/1000111.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/1026879/1022979/1000111.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/1026879/1023935.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/1026879/1023935.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/1026879/1006334/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/1026879/1006334/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shinseisho_menu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shinseisho_menu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026766/reiki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026766/reiki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/shisei_opinion/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/shisei_opinion/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/midoriku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/midoriku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/chuoku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/chuoku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/minamiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/minamiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/1026879/1022979/1004053.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/1026879/1022979/1004053.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kankou/1026674/city_promotion/1004045/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kankou/1026674/city_promotion/1004045/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/callcenter/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/callcenter/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/faq/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/faq/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/site/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026875/koho/site/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026709/1000105/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026709/1000105/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026896/shikumi/1026899/1005779/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026896/shikumi/1026899/1005779/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/about/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/about/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/rss.rss",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/rss.rss",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/about/rss.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/about/rss.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/1000110.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/1000110.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/news.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/news.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/about/accessibility/accessibility.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/about/accessibility/accessibility.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/shiyakusho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/shiyakusho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/gijutsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/gijutsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/school/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/school/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/shiyakusho/1032528.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/shiyakusho/1032528.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1035507.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1035507.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1035187.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1035187.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1034915.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1034915.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1034914.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1034914.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1034904.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1034904.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1034905.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1034905.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1035586.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1035586.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1035587.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1035587.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1005289.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/1005289.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/school/1005283.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/school/1005283.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/shiyakusho/1005252.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/shiyakusho/1005252.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/005/242/20260127_henkou.pdf",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/005/242/20260127_henkou.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/shiyakusho/1005249.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/shiyakusho/1005249.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/shiyakusho/1035603.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/shiyakusho/1035603.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/shiyakusho/1005251.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/shiyakusho/1005251.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/shiyakusho/1005250.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/shiyakusho/1005250.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/shiyakusho/1005253/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026815/shokuin_annai/shiyakusho/1005253/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026709/profile/1010890.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026709/profile/1010890.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kankou/1026674/city_promotion/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kankou/1026674/city_promotion/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kankou/1026674/city_promotion/1026756/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kankou/1026674/city_promotion/1026756/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/cgi-bin/contact.cgi?mail=03250000",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/cgi-bin/contact.cgi?mail=03250000",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kankou/1026674/city_promotion/1026756/1020911.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kankou/1026674/city_promotion/1026756/1020911.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kankou/1026674/city_promotion/1026756/1028407.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kankou/1026674/city_promotion/1026756/1028407.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/029/584/chirashi_01.pdf",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/029/584/chirashi_01.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/029/584/chirashi_02.pdf",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/029/584/chirashi_02.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1035659/1035660.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1035659/1035660.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1010325/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1010325/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1010325/chiiki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1010325/chiiki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1035144.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1035144.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1010325/cho_aza/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1010325/cho_aza/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1010325/nenrei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1010325/nenrei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1010325/1010328/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1010325/1010328/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1010325/1017116/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1010325/1017116/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1010325/1010767.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1010325/1010767.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034894/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034894/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034894/1034896.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034894/1034896.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034894/1034897.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034894/1034897.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034894/1034898.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034894/1034898.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1023641.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1023641.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/kokusei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/kokusei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/1010819/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/1010819/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/1010823/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/1010823/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/1010873.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/1010873.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/shugyo_kouzo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/shugyo_kouzo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/1010879.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/1010879.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/1010866/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/1010866/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/gakko_kihon/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/gakko_kihon/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/kogyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/kogyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/shogyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034889/shogyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1035549.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1035549.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1032785.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1032785.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1030452.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1030452.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1028386.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1028386.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1025193.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1025193.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1023028.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1023028.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1019985.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1019985.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1016769.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1016769.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1014167.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1014167.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1010777.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1010777.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1010780.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1010780.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1010783.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1010783.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1010786.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1010786.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1010789.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1010789.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1010792.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1010792.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1010795.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/toukeisho/1010795.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1033064.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1033064.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/opendata/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/opendata/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/opendata/1013082.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/opendata/1013082.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1035659/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1035659/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034891/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034891/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034891/1010887.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034891/1010887.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034891/investigation/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/toukei/1034891/investigation/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/lifeevent/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/lifeevent/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/1009780/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/1009780/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/about/site/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/about/site/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/cgi-bin/contact.cgi?mail=03220000",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/cgi-bin/contact.cgi?mail=03220000",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/about/site/howtosearch.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/about/site/howtosearch.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/about/site/eventinput/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/about/site/eventinput/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026529/syouhi/1030018/1030025/1008572.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026529/syouhi/1030018/1030025/1008572.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/shikanren/etc/1035163.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/shikanren/etc/1035163.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026448/tetsuzuki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026448/tetsuzuki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026448/1026459/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026448/1026459/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026448/kokuho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026448/kokuho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026448/kouki_koureisha_iryou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026448/kouki_koureisha_iryou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026448/zeikin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026448/zeikin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026448/nenkin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026448/nenkin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/1026502/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/1026502/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/kankyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/kankyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/sumai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/sumai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/chushajo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/chushajo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/shimin_nouen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/shimin_nouen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/1008624/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/1008624/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/jichikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/jichikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026823/gesuido/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026823/gesuido/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026823/1004616/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/shisei/1026823/1004616/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026529/bouhan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026529/bouhan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026529/1026549/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026529/1026549/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026529/syouhi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026529/syouhi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1024450.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1024450.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006020.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006020.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006014.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006014.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006024.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006024.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006018.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006018.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006016.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006016.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006017.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006017.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006025.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006025.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006030.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006030.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006021.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006021.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006032.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006032.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006027.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006027.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006015.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006015.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006023.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006023.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006028.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006028.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006029.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006029.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006078.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006078.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006079.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006079.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006077.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006077.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006082.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006082.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006069.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006069.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006043.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006043.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006064.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006064.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006065.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006065.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006083.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006083.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006084/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006084/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1021093.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1021093.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006026.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006026.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006037.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006037.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006040.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006040.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006041.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006041.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006090.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006090.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006063.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006063.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006045.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006045.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1020475.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1020475.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006053.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006053.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006066.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006066.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006056.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006056.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006067.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006067.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006054.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006054.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006055.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006055.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006060.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006060.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006092.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006092.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006057.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/sodan/1006057.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/1026586/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/1026586/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/shikanren/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/shikanren/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/bunka_shakai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/bunka_shakai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/hoken_fukushi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/hoken_fukushi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/child/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/child/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/school/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/school/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/kouen_kankou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/kouen_kankou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/sports/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/sports/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/fire_etc/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/fire_etc/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/1026599/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/1026599/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026584/1022907/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026584/1022907/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026584/1021260/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026584/1021260/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026584/1034612/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026584/1034612/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/kenko/1026625/kansenyobo/hassei_jokyo/1007129.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/kenko/1026625/kansenyobo/hassei_jokyo/1007129.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/kenko/1026629/1007518/1035501.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/kenko/1026629/1007518/1035501.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/seisyonen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/seisyonen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/1032527.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/1032527.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/1033641/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/1033641/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/kenko/kyubyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/kenko/kyubyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/kenko/1026624/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/kenko/1026624/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/kenko/1026625/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/kenko/1026625/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sagamihara.kanagawa.jp/kosodate/kenko/1026626/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sagamihara.kanagawa.jp/kosodate/kenko/1026626/index.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

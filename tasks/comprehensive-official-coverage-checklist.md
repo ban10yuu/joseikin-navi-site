@@ -8155,3 +8155,43 @@
   - 八丈町のカテゴリ導線・申請書様式、青ヶ島村の過年度給付金PDF・実施計画、小笠原村の全国制度・議会だより・制度横断ページ・様式のみ候補は第2巡候補に残す。
 - 次:
   - 神奈川県公式棚卸し001として、固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から自治体コード順の対象を確定して開始する。
+
+### 2026-07-14 神奈川県公式棚卸し001（14100横浜市・14130川崎市・14150相模原市・14201横須賀市）
+
+- 作業範囲:
+  - 14100 横浜市、14130 川崎市、14150 相模原市、14201 横須賀市の公式サイト・公式PDFを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 生成候補652件（横浜市162件、川崎市99件、相模原市135件、横須賀市256件）が150件を超えたため、`tasks/discovery/kanagawa-official-coverage-001-manual-snippets.json` に公式本文/PDFの短い根拠を保存し、制度名・対象・金額/上限・条件・期限/受付状況が揃う制度を優先した。
+- 採用:
+  - 合計11件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 横浜市3件: 省エネルギー化支援助成金（簡易申請コース）、南区地域の力応援補助金、保育士環境改善事業補助金。
+  - 川崎市3件: 中小企業成長環境支援補助金、持続的成長に向けたデジタル化・生産性向上等支援補助金、地域子ども・子育て活動支援助成事業。
+  - 相模原市3件: 小・中学校就学費の援助（就学奨励金）、エコアクション21認証取得支援補助金、生き活きシニアのための地域活動補助金。
+  - 横須賀市2件: 障害者グループホーム入居者家賃助成金、市道（河川）等境界確定補助金。
+- 生成ファイル:
+  - `tasks/discovery/kanagawa-official-coverage-001-municipalities.json`
+  - `tasks/discovery/kanagawa-official-coverage-001-14100-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-001-14130-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-001-14150-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-001-14201-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-001-14100-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-001-14130-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-001-14150-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-001-14201-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-001-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-001-manual-snippets.json`
+  - `tasks/discovery/kanagawa-official-coverage-001.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（`kanagawa-official-coverage-001.json`、候補JSON、手動スニペットJSON、checkpoint）。
+  - 追加slug重複: pass（11件、`verified-local-misc-2026.ts` 内で各1件）。
+  - 公式URL到達: pass（11 primary official URLsと就学奨励金の金額補足URL1件がすべてHTTP 200）。
+  - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 11280、officialLinkedActive 11242、manuallyVerifiedActive 11242、神奈川県 localOfficial 134）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または神奈川県一部自治体の着手のみで全国完了扱いしない。
+  - 相模原市の結婚新生活・移住定住支援、中古住宅購入、防犯対策、生産性向上、横須賀市の結婚新生活、省エネ・生産性向上、重点対策加速化等は既存slug重複として今回追加しなかった。
+  - 横須賀市の私道路の舗装等補助金は金額が別ページ参照で同一本文から安定確認できないため、第2巡候補に残す。
+  - トップ、カテゴリ、サイトマップ、共通ナビ一致、様式のみ、広報・議会・計画ページ、金額又は受付状況不足候補は第2巡候補又は次回継続候補に残す。
+- 次:
+  - 神奈川県公式棚卸し002として、14203平塚市、14204鎌倉市、14205藤沢市、14206小田原市を自治体コード順に確認する。

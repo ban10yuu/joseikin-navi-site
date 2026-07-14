@@ -1,0 +1,84 @@
+{
+  "batchId": "kanagawa-official-coverage-001",
+  "prefecture": "神奈川県",
+  "completedAt": "2026-07-14T18:42:00+09:00",
+  "municipalities": [
+    {
+      "code": "14100",
+      "name": "横浜市",
+      "officialUrl": "https://www.city.yokohama.lg.jp/",
+      "candidateCount": 162,
+      "adopted": 3,
+      "held": 159
+    },
+    {
+      "code": "14130",
+      "name": "川崎市",
+      "officialUrl": "https://www.city.kawasaki.jp/",
+      "candidateCount": 99,
+      "adopted": 3,
+      "held": 96
+    },
+    {
+      "code": "14150",
+      "name": "相模原市",
+      "officialUrl": "https://www.city.sagamihara.kanagawa.jp/",
+      "candidateCount": 135,
+      "adopted": 3,
+      "held": 132
+    },
+    {
+      "code": "14201",
+      "name": "横須賀市",
+      "officialUrl": "https://www.city.yokosuka.kanagawa.jp/",
+      "candidateCount": 256,
+      "adopted": 2,
+      "held": 254
+    }
+  ],
+  "candidateTotal": 652,
+  "adoptedTotal": 11,
+  "heldTotal": 641,
+  "sourceUrlsChecked": [
+    "https://www.city.yokohama.lg.jp/business/kigyoshien/keieishien/capex/carbon-kani.html",
+    "https://www.city.yokohama.lg.jp/minami/kurashi/kyodo_manabi/kyodo_shien/suishin/hojokin.html",
+    "https://www.city.yokohama.lg.jp/business/bunyabetsu/kosodate/seibi/reiwa4-kankyoukaizen.html",
+    "https://www.city.kawasaki.jp/280/page/0000186427.html",
+    "https://www.city.kawasaki.jp/280/page/0000175196.html",
+    "https://www.city.kawasaki.jp/450/page/0000073744.html",
+    "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026606/1006895/1006903.html",
+    "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026606/1006895/1019862.html",
+    "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/029/831/2026/r08_annai.pdf",
+    "https://www.city.sagamihara.kanagawa.jp/_res/projects/default_project/_page_/001/007/026/202603_bosyuyoko.pdf",
+    "https://www.city.yokosuka.kanagawa.jp/2625/sisetu/gh_yachin.html",
+    "https://www.city.yokosuka.kanagawa.jp/5520/g_info/l100050236.html",
+    "https://www.city.yokosuka.kanagawa.jp/5520/g_info/l100000926.html"
+  ],
+  "adoptedSlugs": [
+    "yokohama-sme-energy-saving-simple-subsidy-2026",
+    "yokohama-minami-community-power-subsidy-2026",
+    "yokohama-nursery-worker-environment-improvement-subsidy-2026",
+    "kawasaki-sme-growth-environment-support-subsidy-2026",
+    "kawasaki-digital-productivity-subsidy-2026",
+    "kawasaki-child-care-activity-support-grant-2026",
+    "sagamihara-school-expense-aid-2026",
+    "sagamihara-ea21-certification-subsidy-2026",
+    "sagamihara-senior-community-activity-subsidy-2026",
+    "yokosuka-disabled-group-home-rent-subsidy-2026",
+    "yokosuka-road-boundary-survey-subsidy-2026"
+  ],
+  "heldExamples": [
+    "トップ、カテゴリ、サイトマップ、共通ナビ一致、様式のみ、広報・議会・計画ページは第2巡候補として保持した。",
+    "相模原市の結婚新生活・移住定住支援、中古住宅購入、防犯対策、生産性向上、横須賀市の結婚新生活、省エネ・生産性向上、重点対策加速化等は既存slug重複として今回追加しなかった。",
+    "横須賀市の私道路の舗装等補助金は公式ページで制度導線を確認したが、金額が別ページ参照で同一本文から安定確認できないため採用保留にした。"
+  ],
+  "validation": {
+    "status": "pass",
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and JSON.parse for kanagawa-official-coverage-001.json / candidates / manual-snippets / official-coverage-checkpoint.json",
+    "addedSlugUniqueness": "pass: 11 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 11 primary official URLs plus 1 secondary source URL returned HTTP 200",
+    "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11280, officialLinkedActive 11242, manuallyVerifiedActive 11242, 神奈川県 localOfficial 134)"
+  }
+}

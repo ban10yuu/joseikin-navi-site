@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-07-14T17:58:00+09:00",
+  "updatedAt": "2026-07-14T18:42:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "tokyo-official-coverage-016",
-    "municipality": "八丈町・青ヶ島村・小笠原村",
-    "adopted": 10,
-    "held": 203,
+    "code": "kanagawa-official-coverage-001",
+    "municipality": "横浜市・川崎市・相模原市・横須賀市",
+    "adopted": 11,
+    "held": 641,
     "excluded": 0,
     "sourceUrlsChecked": 12,
     "validation": {
-      "previousMunicipality": "東京都公式棚卸し016として、13401八丈町、13402青ヶ島村、13421小笠原村を確認した。候補213件が閾値を超えたため手動スニペット台帳で再スコアし、八丈町4件、青ヶ島村2件、小笠原村4件の公式本文又は公式PDFを確認して計10件を採用した。東京都は13421小笠原村まで第1巡到達。ただし保留候補があるため全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and JSON.parse for tokyo-official-coverage-016.json / official-coverage-checkpoint.json",
-      "addedSlugUniqueness": "pass: 10 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 10 primary official URLs returned HTTP 200",
+      "previousMunicipality": "神奈川県公式棚卸し001として、14100横浜市、14130川崎市、14150相模原市、14201横須賀市を確認した。候補652件が閾値を超えたため手動スニペット台帳で再スコアし、横浜市3件、川崎市3件、相模原市3件、横須賀市2件の公式本文又は公式PDFを確認して計11件を採用した。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and JSON.parse for kanagawa-official-coverage-001.json / candidates / manual-snippets / official-coverage-checkpoint.json",
+      "addedSlugUniqueness": "pass: 11 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 11 primary official URLs plus 1 secondary source URL returned HTTP 200",
       "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11270, officialLinkedActive 11232, manuallyVerifiedActive 11232, 東京都 localOfficial 654)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11280, officialLinkedActive 11242, manuallyVerifiedActive 11242, 神奈川県 localOfficial 134)"
     }
   },
   "next": {
-    "code": "kanagawa-official-coverage-001",
-    "municipality": "神奈川県（自治体台帳から自治体コード順に確定）",
-    "shortlist": "東京都公式棚卸し016は候補213件から八丈町4件、青ヶ島村2件、小笠原村4件を採用した。八丈町雇用機会拡充の金額未確認、カテゴリ導線、過年度給付金PDF、全国制度・様式のみ候補は第2巡候補に残す。",
-    "instructions": "次回は神奈川県公式棚卸し001として、固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から自治体コード順の対象を確定して開始する。東京都は13421小笠原村まで第1巡到達済みだが、東村山市の直接取得403候補、015・016保留候補は第2巡候補として保持し、全国完了扱いにしない。"
+    "code": "kanagawa-official-coverage-002",
+    "municipality": "平塚市・鎌倉市・藤沢市・小田原市",
+    "shortlist": "神奈川県公式棚卸し001は候補652件から横浜市3件、川崎市3件、相模原市3件、横須賀市2件を採用した。トップ、カテゴリ、サイトマップ、共通ナビ一致、様式のみ、広報・議会・計画ページ、既存slug重複、金額又は受付状況不足候補は第2巡候補に残す。",
+    "instructions": "次回は神奈川県公式棚卸し002として、固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から自治体コード順に14203平塚市、14204鎌倉市、14205藤沢市、14206小田原市を確認する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
-    "prefecture": "東京都",
-    "status": "first-pass-complete-with-second-pass-holds",
-    "lastBatch": "tokyo-official-coverage-016",
-    "notes": "東京都23区、市部、西多摩郡、島しょ部は13421小笠原村まで自治体コード順の第1巡に到達。13213東村山市の直接取得403候補、015保留候補、016保留候補は第2巡候補として保持。全国公式棚卸しは未完了。"
+    "prefecture": "神奈川県",
+    "status": "in-progress",
+    "lastBatch": "kanagawa-official-coverage-001",
+    "notes": "神奈川県は14100横浜市、14130川崎市、14150相模原市、14201横須賀市まで自治体コード順に確認済み。東京都は13421小笠原村まで第1巡到達済みだが、第2巡保留候補を保持。全国公式棚卸しは未完了。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

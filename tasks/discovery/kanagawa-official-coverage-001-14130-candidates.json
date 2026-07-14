@@ -1,0 +1,3394 @@
+{
+  "batchId": "kanagawa-official-coverage-001",
+  "prefecture": "神奈川県",
+  "generatedAt": "2026-07-14T09:06:40.849Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 99,
+  "results": [
+    {
+      "code": "14130",
+      "name": "川崎市",
+      "officialBaseUrl": "https://www.city.kawasaki.jp/",
+      "discoveredUrlCount": 260,
+      "candidateCount": 99,
+      "strongCandidateCount": 1,
+      "lowPriorityCandidateCount": 98,
+      "candidates": [
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/264-1-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "外国人の方へ",
+          "h1": "外国人の方へ",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/index.html",
+          "status": 200,
+          "title": "よくある質問（FAQ）",
+          "h1": "よくある質問（FAQ）",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/",
+          "status": 200,
+          "title": "くらし・総合",
+          "h1": "くらし・総合",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/255-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "税金",
+          "h1": "税金",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/258-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "予防接種・感染症",
+          "h1": "予防接種・感染症",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/23-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "高齢者福祉・介護",
+          "h1": "高齢者福祉・介護",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/259-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "地域福祉・生活保護",
+          "h1": "地域福祉・生活保護",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/260-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "障害保健福祉",
+          "h1": "障害保健福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/262-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "廃棄物・リサイクル・美化",
+          "h1": "廃棄物・リサイクル・美化",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/24-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "上下水道・住まい",
+          "h1": "上下水道・住まい",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/264-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "Global site",
+          "h1": "Global site",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kodomo/",
+          "status": 200,
+          "title": "こども・子育て",
+          "h1": "こども・子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kodomo/category/268-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "小・中学生になったら",
+          "h1": "小・中学生になったら",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kodomo/category/269-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "高校・大学・青少年",
+          "h1": "高校・大学・青少年",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kodomo/category/270-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "こどもの相談・手当・助成",
+          "h1": "こどもの相談・手当・助成",
+          "updatedAt": "令和6年12月2日",
+          "keywordHits": [
+            "医療費助成",
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 16,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kodomo/category/271-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "子育てガイドブック・アプリ",
+          "h1": "子育てガイドブック・アプリ",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kodomo/category/273-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "各区の子育て情報",
+          "h1": "各区の子育て情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kodomo/category/274-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "市の取り組み・事業者向け情報",
+          "h1": "市の取り組み・事業者向け情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/main/event2/curr.html",
+          "status": 200,
+          "title": "イベント・講座(7月)",
+          "h1": "イベント・講座(7月)",
+          "updatedAt": "令和8年7月25日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/jigyou/",
+          "status": 200,
+          "title": "事業者",
+          "h1": "事業者",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/jigyou/category/74-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "入札・契約",
+          "h1": "入札・契約",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "起業",
+            "事業者"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/jigyou/category/75-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "官民連携",
+          "h1": "官民連携",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "起業",
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/jigyou/category/76-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "届出・手続き・各種情報",
+          "h1": "届出・手続き・各種情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "創業",
+            "起業",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/jigyou/category/282-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "起業・創業・ベンチャー支援",
+          "h1": "起業・創業・ベンチャー支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "起業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/jigyou/category/283-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "成長分野への取組支援",
+          "h1": "成長分野への取組支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "起業",
+            "事業者"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/jigyou/category/79-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "産業振興関連の条例・計画等",
+          "h1": "産業振興関連の条例・計画等",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "起業",
+            "事業者"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/jigyou/category/284-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "企業誘致・立地促進",
+          "h1": "企業誘致・立地促進",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "起業",
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/256-1-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "川崎市コンタクトセンターサンキューコールかわさき",
+          "h1": "川崎市コンタクトセンターサンキューコールかわさき",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/940/cmsfiles/contents/0000147/147859/index.html",
+          "status": 200,
+          "title": "川崎市職員採用特設サイト",
+          "h1": "川崎市職員採用特設サイト",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/300/page/0000187935.html",
+          "status": 200,
+          "title": "リチウムイオン電池等によるごみ収集車の火災が増えています！",
+          "h1": "リチウムイオン電池等によるごみ収集車の火災が増えています！",
+          "updatedAt": "2026年7月6日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/22-21-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "熱中症の予防をしよう！",
+          "h1": "熱中症の予防をしよう！",
+          "updatedAt": "2024年1月15日",
+          "keywordHits": [
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/main/news/curr.html",
+          "status": 200,
+          "title": "お知らせ（2026年7月）",
+          "h1": "お知らせ（2026年7月）",
+          "updatedAt": "令和8年8月31日",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/main/collect/curr.html",
+          "status": 200,
+          "title": "募集（2026年7月）",
+          "h1": "募集（2026年7月）",
+          "updatedAt": "令和8年10月11日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/300/page/0000188163.html",
+          "status": 200,
+          "title": "酷暑と電気代からわが家を守るオンラインセミナー（7月18日開催）",
+          "h1": "酷暑と電気代からわが家を守るオンラインセミナー（7月18日開催）",
+          "updatedAt": "2026年6月18日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/450/page/0000106904.html",
+          "status": 200,
+          "title": "令和8年度「保育のお仕事就職相談会」",
+          "h1": "令和8年度「保育のお仕事就職相談会」",
+          "updatedAt": "2022年4月1日",
+          "keywordHits": [
+            "貸付",
+            "創業",
+            "起業",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/250/page/0000187934.html",
+          "status": 200,
+          "title": "「新百合ヶ丘駅北側地区の区役所・市民館・図書館について考える 市民共創ワークショップ」を開催します",
+          "h1": "「新百合ヶ丘駅北側地区の区役所・市民館・図書館について考える 市民共創ワークショップ」を開催します",
+          "updatedAt": "2026年6月9日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/prs/0-Curr.html",
+          "status": 200,
+          "title": "報道発表資料（2026年7月）",
+          "h1": "報道発表資料（2026年7月）",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "住宅",
+            "起業",
+            "事業者",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/shisei/category/47-10-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/shisei/category/50-13-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "川崎市ソーシャルメディア公式アカウント一覧",
+          "h1": "川崎市ソーシャルメディア公式アカウント一覧",
+          "updatedAt": "2020年11月20日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/170/page/0000016014.html",
+          "status": 200,
+          "title": "会計年度任用職員（アルバイト）等募集情報",
+          "h1": "会計年度任用職員（アルバイト）等募集情報",
+          "updatedAt": "2020年11月16日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/170/page/0000022894.html",
+          "status": 200,
+          "title": "市ホームページバナー広告",
+          "h1": "市ホームページバナー広告",
+          "updatedAt": "2024年1月30日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/main/soshiki_list.html",
+          "status": 200,
+          "title": "組織から探す（局一覧）",
+          "h1": "組織から探す（局一覧）",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/250/page/0000017151.html",
+          "status": 200,
+          "title": "行政サービスコーナーのご案内",
+          "h1": "行政サービスコーナーのご案内",
+          "updatedAt": "2023年1月4日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/category/100000.html",
+          "status": 200,
+          "title": "ライフサイクル",
+          "h1": "ライフサイクル",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/category/101500.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/category/103500.html",
+          "status": 200,
+          "title": "住居",
+          "h1": "住居",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/category/152000.html",
+          "status": 200,
+          "title": "出生、死亡、結婚・離婚、成人",
+          "h1": "出生、死亡、結婚・離婚、成人",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "子育て",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/category/152500.html",
+          "status": 200,
+          "title": "国民健康保険・年金",
+          "h1": "国民健康保険・年金",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "免除"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/category/153500.html",
+          "status": 200,
+          "title": "相談窓口",
+          "h1": "相談窓口",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/category/200000.html",
+          "status": 200,
+          "title": "医療・保健・福祉・子育て",
+          "h1": "医療・保健・福祉・子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/category/201000.html",
+          "status": 200,
+          "title": "病気・病院、健康づくり、食品衛生、感染症対策、保健所業務",
+          "h1": "病気・病院、健康づくり、食品衛生、感染症対策、保健所業務",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/category/201500.html",
+          "status": 200,
+          "title": "赤ちゃん・子ども",
+          "h1": "赤ちゃん・子ども",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/category/201700.html",
+          "status": 200,
+          "title": "子どもの権利",
+          "h1": "子どもの権利",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/category/202000.html",
+          "status": 200,
+          "title": "高齢者・介護保険、障害のある方",
+          "h1": "高齢者・介護保険、障害のある方",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "住宅",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/category/202500.html",
+          "status": 200,
+          "title": "生活に困ったとき",
+          "h1": "生活に困ったとき",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "免除",
+            "福祉",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/category/250000.html",
+          "status": 200,
+          "title": "まちづくり・道路・交通・防災",
+          "h1": "まちづくり・道路・交通・防災",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/category/251000.html",
+          "status": 200,
+          "title": "都市計画、住宅、臨海部",
+          "h1": "都市計画、住宅、臨海部",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "耐震"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/category/252000.html",
+          "status": 200,
+          "title": "防災・消防・救急・防犯",
+          "h1": "防災・消防・救急・防犯",
+          "updatedAt": "",
+          "keywordHits": [
+            "耐震"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/category/301500.html",
+          "status": 200,
+          "title": "生涯学習、教育、学校（入学・転校）、図書館・市民館",
+          "h1": "生涯学習、教育、学校（入学・転校）、図書館・市民館",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/category/401000.html",
+          "status": 200,
+          "title": "市民参加・ボランティア、地方分権",
+          "h1": "市民参加・ボランティア、地方分権",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/category/450000.html",
+          "status": 200,
+          "title": "産業・経済",
+          "h1": "産業・経済",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/category/451000.html",
+          "status": 200,
+          "title": "商業、工業、中小企業、農業、勤労者",
+          "h1": "商業、工業、中小企業、農業、勤労者",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/category/500000.html",
+          "status": 200,
+          "title": "起業・経営",
+          "h1": "起業・経営",
+          "updatedAt": "",
+          "keywordHits": [
+            "起業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/category/501000.html",
+          "status": 200,
+          "title": "起業・経営相談、税制度",
+          "h1": "起業・経営相談、税制度",
+          "updatedAt": "",
+          "keywordHits": [
+            "起業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/category/651000.html",
+          "status": 200,
+          "title": "引越し（転入・転出）、国民健康保険・年金、税金、相談窓口、学校（入学・転校）、ごみ",
+          "h1": "引越し（転入・転出）、国民健康保険・年金、税金、相談窓口、学校（入学・転校）、ごみ",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "免除",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/300/0000029640.html",
+          "status": 200,
+          "title": "古着類の排出方法を知りたい。",
+          "h1": "古着類の排出方法を知りたい。",
+          "updatedAt": "2013年9月1日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/300/0000013329.html",
+          "status": 200,
+          "title": "パソコンの捨て方（処理方法、リサイクル方法）を知りたい。",
+          "h1": "パソコンの捨て方（処理方法、リサイクル方法）を知りたい。",
+          "updatedAt": "2010年7月23日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/230/0000027100.html",
+          "status": 200,
+          "title": "個人住民税の減免について知りたい。",
+          "h1": "個人住民税の減免について知りたい。",
+          "updatedAt": "2012年5月20日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/280/0000012977.html",
+          "status": 200,
+          "title": "マイコンシティの地区計画について知りたい。",
+          "h1": "マイコンシティの地区計画について知りたい。",
+          "updatedAt": "2015年5月13日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/800/0000013553.html",
+          "status": 200,
+          "title": "建物等災害対策を知りたい。",
+          "h1": "建物等災害対策を知りたい。",
+          "updatedAt": "2010年12月16日",
+          "keywordHits": [
+            "住宅",
+            "耐震"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/templates/faq/350/0000133919.html",
+          "status": 200,
+          "title": "障害を持っており就労に関する相談をしたい。（就職に関すること、就職後に困ったこと等）",
+          "h1": "障害を持っており就労に関する相談をしたい。（就職に関すること、就職後に困ったこと等）",
+          "updatedAt": "2021年10月29日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/index.html",
+          "status": 200,
+          "title": "くらし・総合",
+          "h1": "くらし・総合",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/16-24-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "インターネットや郵送での手続き",
+          "h1": "インターネットや郵送での手続き",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/170/page/0000174955.html",
+          "status": 200,
+          "title": "オンライン手続（電子申請） ご利用ガイド",
+          "h1": "オンライン手続（電子申請） ご利用ガイド",
+          "updatedAt": "2025年3月17日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/main/eappdata/eappdata_list.html",
+          "status": 200,
+          "title": "オンライン手続一覧",
+          "h1": "オンライン手続一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/170/page/0000147034.html",
+          "status": 200,
+          "title": "行政手続の原則オンライン化の実施について",
+          "h1": "行政手続の原則オンライン化の実施について",
+          "updatedAt": "2023年1月26日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/170/page/0000146294.html",
+          "status": 200,
+          "title": "ネット窓口かわさきのシステム変更に関するお知らせ",
+          "h1": "ネット窓口かわさきのシステム変更に関するお知らせ",
+          "updatedAt": "2023年3月24日",
+          "keywordHits": [
+            "助成金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/16-24-5-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "郵送にて証明書の請求をされる皆様へ",
+          "h1": "郵送にて証明書の請求をされる皆様へ",
+          "updatedAt": "2022年6月3日",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/170/page/0000172862.html",
+          "status": 200,
+          "title": "電気・ガス・水道等の引越し手続をスマホで便利に行うことができます",
+          "h1": "電気・ガス・水道等の引越し手続をスマホで便利に行うことができます",
+          "updatedAt": "2025年1月23日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/760/page/0000127041.html",
+          "status": 200,
+          "title": "Web口座振替受付サービス",
+          "h1": "Web口座振替受付サービス",
+          "updatedAt": "2023年12月13日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/16-25-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "住民票の写し・住所変更手続き",
+          "h1": "住民票の写し・住所変更手続き",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/cmsfiles/contents/0000134/134383/notice001.pdf",
+          "status": 404,
+          "title": "ページが見つかりません",
+          "h1": "ページが見つかりません",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/250/page/0000001274.html",
+          "status": 200,
+          "title": "転入転出等の届出一覧",
+          "h1": "転入転出等の届出一覧",
+          "updatedAt": "2023年2月24日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/250/page/0000037068.html",
+          "status": 200,
+          "title": "転入届（市外から移転）",
+          "h1": "転入届（市外から移転）",
+          "updatedAt": "2023年4月5日",
+          "keywordHits": [
+            "医療費助成",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/16-23-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "窓口での手続き",
+          "h1": "窓口での手続き",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/16-27-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "印鑑登録",
+          "h1": "印鑑登録",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/16-29-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "外国人住民",
+          "h1": "外国人住民",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/16-30-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "住居表示",
+          "h1": "住居表示",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/16-7-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "葬儀・墓地",
+          "h1": "葬儀・墓地",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "減免",
+            "免除",
+            "事業者"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/16-11-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "自動車臨時運行許可（仮ナンバー）",
+          "h1": "自動車臨時運行許可（仮ナンバー）",
+          "updatedAt": "2022年9月2日",
+          "keywordHits": [
+            "給付金"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/16-32-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "給付金",
+          "h1": "給付金",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/16-31-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "川崎市プレミアムデジタル商品券",
+          "h1": "川崎市プレミアムデジタル商品券",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/255-7-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "市税の証明書",
+          "h1": "市税の証明書",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/255-3-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "市税の納付",
+          "h1": "市税の納付",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/256-2-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "川崎市の相談窓口一覧",
+          "h1": "川崎市の相談窓口一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/450/page/0000186727.html",
+          "status": 200,
+          "title": "出産予定ですが、子育てできるか不安です。",
+          "h1": "出産予定ですが、子育てできるか不安です。",
+          "updatedAt": "2026年5月2日",
+          "keywordHits": [
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/257-3-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "年金",
+          "h1": "年金",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/258-1-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "予防接種",
+          "h1": "予防接種",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14130",
+          "municipalityName": "川崎市",
+          "sourceUrl": "https://www.city.kawasaki.jp/kurashi/category/258-2-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "感染症・インフルエンザ",
+          "h1": "感染症・インフルエンザ",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.kawasaki.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/sitemap.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.kawasaki.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/robots.txt",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/robots.txt",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/264-1-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/264-1-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/16-24-1-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/16-24-1-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/250/page/0000134383.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/250/page/0000134383.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/16-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/16-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/255-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/255-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/256-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/256-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/257-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/257-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/258-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/258-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/22-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/22-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/23-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/23-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/259-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/259-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/260-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/260-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/261-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/261-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/262-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/262-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/24-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/24-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/26-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/26-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/28-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/28-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/29-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/29-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/32-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/32-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/264-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/264-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kodomo/",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kodomo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kodomo/category/265-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kodomo/category/265-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kodomo/category/266-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kodomo/category/266-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kodomo/category/267-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kodomo/category/267-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kodomo/category/268-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kodomo/category/268-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kodomo/category/269-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kodomo/category/269-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kodomo/category/270-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kodomo/category/270-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kodomo/category/271-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kodomo/category/271-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kodomo/category/272-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kodomo/category/272-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kodomo/category/273-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kodomo/category/273-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kodomo/category/274-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kodomo/category/274-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/880/",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/880/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kawasakiu18/",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kawasakiu18/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/miryoku/",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/miryoku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/miryoku/category/73-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/miryoku/category/73-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/main/event2/curr.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/main/event2/curr.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/miryoku/category/276-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/miryoku/category/276-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/miryoku/category/66-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/miryoku/category/66-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/category/50-29-3-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/category/50-29-3-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/170/page/0000142974.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/170/page/0000142974.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/170/page/0000165871.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/170/page/0000165871.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/jigyou/",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/jigyou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/jigyou/category/74-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/jigyou/category/74-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/jigyou/category/75-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/jigyou/category/75-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/jigyou/category/76-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/jigyou/category/76-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/jigyou/category/77-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/jigyou/category/77-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/jigyou/category/282-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/jigyou/category/282-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/jigyou/category/283-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/jigyou/category/283-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/jigyou/category/79-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/jigyou/category/79-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/jigyou/category/284-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/jigyou/category/284-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/category/35-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/category/35-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/category/37-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/category/37-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/category/38-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/category/38-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/category/40-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/category/40-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/category/61-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/category/61-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/category/42-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/category/42-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/category/47-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/category/47-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/category/50-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/category/50-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/category/286-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/category/286-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/category/51-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/category/51-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/category/54-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/category/54-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/category/287-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/category/287-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/category/222-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/category/222-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/category/57-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/category/57-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/category/58-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/category/58-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/category/59-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/category/59-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/category/60-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/category/60-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/category/62-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/category/62-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/category/82-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/category/82-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/category/288-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/category/288-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/bousai/",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/bousai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/bousai/category/289-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/bousai/category/289-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/bousai/category/290-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/bousai/category/290-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/bousai/category/291-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/bousai/category/291-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/bousai/category/292-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/bousai/category/292-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/bousai/category/293-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/bousai/category/293-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/bousai/category/294-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/bousai/category/294-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kawasaki/",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kawasaki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/saiwai/",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/saiwai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/nakahara/",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/nakahara/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/takatsu/",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/takatsu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/miyamae/",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/miyamae/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/tama/",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/tama/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/asao/",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/asao/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/main/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/main/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/256-1-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/256-1-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/170/page/0000182962.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/170/page/0000182962.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/940/cmsfiles/contents/0000147/147859/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/940/cmsfiles/contents/0000147/147859/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/300/page/0000187935.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/300/page/0000187935.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/22-21-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/22-21-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/170/page/0000187749.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/170/page/0000187749.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/main/news/curr.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/main/news/curr.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/main/collect/curr.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/main/collect/curr.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/840/page/0000133099.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/840/page/0000133099.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/300/page/0000188163.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/300/page/0000188163.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/450/page/0000106904.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/450/page/0000106904.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/250/page/0000187934.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/250/page/0000187934.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/prs/0-Curr.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/prs/0-Curr.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/category/222-6-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/category/222-6-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/category/47-10-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/category/47-10-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/category/50-13-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/category/50-13-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/shisei/category/61-1-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/shisei/category/61-1-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/170/page/0000016014.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/170/page/0000016014.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/170/page/0000022894.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/170/page/0000022894.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/main/soshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/main/soshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/170/page/0000015963.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/170/page/0000015963.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/250/page/0000017151.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/250/page/0000017151.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/main/site_policy/0000000025.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/main/site_policy/0000000025.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/main/site_policy/0000000030.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/main/site_policy/0000000030.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/sitemapxml/sitemap1_1.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/sitemapxml/sitemap1_1.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/sitemapxml/sitemap2_1.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/sitemapxml/sitemap2_1.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/sitemapxml/sitemap2_2.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/sitemapxml/sitemap2_2.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/264-1-1-0-0-0-0-0-0-0.html",
+          "status": 404,
+          "finalUrl": "https://www.city.kawasaki.jp/264-1-1-0-0-0-0-0-0-0.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/264-1-2-0-0-0-0-0-0-0.html",
+          "status": 404,
+          "finalUrl": "https://www.city.kawasaki.jp/264-1-2-0-0-0-0-0-0-0.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/264-1-3-0-0-0-0-0-0-0.html",
+          "status": 404,
+          "finalUrl": "https://www.city.kawasaki.jp/264-1-3-0-0-0-0-0-0-0.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/264-1-4-0-0-0-0-0-0-0.html",
+          "status": 404,
+          "finalUrl": "https://www.city.kawasaki.jp/264-1-4-0-0-0-0-0-0-0.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/264-1-5-0-0-0-0-0-0-0.html",
+          "status": 404,
+          "finalUrl": "https://www.city.kawasaki.jp/264-1-5-0-0-0-0-0-0-0.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/264-1-6-0-0-0-0-0-0-0.html",
+          "status": 404,
+          "finalUrl": "https://www.city.kawasaki.jp/264-1-6-0-0-0-0-0-0-0.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/264-1-7-0-0-0-0-0-0-0.html",
+          "status": 404,
+          "finalUrl": "https://www.city.kawasaki.jp/264-1-7-0-0-0-0-0-0-0.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/264-1-8-0-0-0-0-0-0-0.html",
+          "status": 404,
+          "finalUrl": "https://www.city.kawasaki.jp/264-1-8-0-0-0-0-0-0-0.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/264-1-9-0-0-0-0-0-0-0.html",
+          "status": 404,
+          "finalUrl": "https://www.city.kawasaki.jp/264-1-9-0-0-0-0-0-0-0.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/264-1-10-0-0-0-0-0-0-0.html",
+          "status": 404,
+          "finalUrl": "https://www.city.kawasaki.jp/264-1-10-0-0-0-0-0-0-0.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/250/page/0000070516.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/250/page/0000070516.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/100000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/100000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/101000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/101000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/101500.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/101500.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/102000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/102000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/103000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/103000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/103500.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/103500.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/104000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/104000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/104500.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/104500.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/105000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/105000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/105500.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/105500.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/150000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/150000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/151000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/151000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/151500.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/151500.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/152000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/152000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/152500.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/152500.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/153000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/153000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/153500.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/153500.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/200000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/200000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/201000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/201000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/201500.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/201500.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/201700.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/201700.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/202000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/202000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/202500.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/202500.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/250000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/250000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/251000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/251000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/251500.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/251500.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/252000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/252000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/300000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/300000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/301000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/301000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/301500.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/301500.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/350000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/350000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/351000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/351000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/351500.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/351500.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/352000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/352000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/400000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/400000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/401000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/401000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/401500.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/401500.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/450000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/450000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/451000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/451000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/451500.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/451500.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/500000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/500000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/501000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/501000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/550000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/550000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/551000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/551000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/551500.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/551500.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/552000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/552000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/552500.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/552500.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/552700.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/552700.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/553500.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/553500.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/600000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/600000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/601000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/601000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/650000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/650000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/category/651000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/category/651000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/170/0000011762.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/170/0000011762.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/530/0000066887.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/530/0000066887.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/170/0000011828.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/170/0000011828.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/300/0000029640.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/300/0000029640.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/300/0000013329.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/300/0000013329.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/250/0000012432.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/250/0000012432.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/230/0000027100.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/230/0000027100.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/300/0000182631.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/300/0000182631.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/250/0000012487.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/250/0000012487.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/250/0000012372.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/250/0000012372.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/miyamae/0000012411.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/miyamae/0000012411.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/280/0000012977.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/280/0000012977.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/800/0000013553.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/800/0000013553.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/350/0000133919.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/350/0000133919.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/250/0000148769.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/250/0000148769.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/250/0000045889.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/250/0000045889.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/250/0000148773.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/250/0000148773.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/830/0000013655.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/830/0000013655.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/601/0000155682.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/601/0000155682.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/templates/faq/601/0000011753.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/templates/faq/601/0000011753.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/16-24-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/16-24-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/170/page/0000174955.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/170/page/0000174955.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/main/eappdata/eappdata_list.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/main/eappdata/eappdata_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/170/page/0000172462.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/170/page/0000172462.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/170/page/0000147034.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/170/page/0000147034.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/170/page/0000146294.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/170/page/0000146294.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/16-24-3-0-0-0-0-0-0-0.html",
+          "status": 404,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/16-24-3-0-0-0-0-0-0-0.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/16-24-4-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/16-24-4-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/16-24-5-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/16-24-5-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/170/page/0000172862.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/170/page/0000172862.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/760/page/0000127041.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/760/page/0000127041.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/250/page/0000001671.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/250/page/0000001671.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/16-25-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/16-25-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/16-25-4-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/16-25-4-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/cmsfiles/contents/0000134/134383/notice001.pdf",
+          "status": 404,
+          "finalUrl": "https://www.city.kawasaki.jp/cmsfiles/contents/0000134/134383/notice001.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/250/page/0000001274.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/250/page/0000001274.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/250/page/0000037068.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/250/page/0000037068.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/250/page/0000037075.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/250/page/0000037075.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/250/page/0000037085.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/250/page/0000037085.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/250/page/0000037089.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/250/page/0000037089.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/250/page/0000103364.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/250/page/0000103364.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/250/page/0000037098.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/250/page/0000037098.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/250/page/0000037102.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/250/page/0000037102.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/250/page/0000037105.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/250/page/0000037105.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/250/page/0000037110.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/250/page/0000037110.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/16-23-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/16-23-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/16-26-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/16-26-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/16-27-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/16-27-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/16-28-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/16-28-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/16-29-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/16-29-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/16-30-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/16-30-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/16-7-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/16-7-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/16-11-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/16-11-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/16-32-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/16-32-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/16-31-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/16-31-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/250/page/0000091756.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/250/page/0000091756.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/250/page/0000118660.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/250/page/0000118660.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/255-4-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/255-4-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/255-7-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/255-7-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/255-3-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/255-3-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/255-1-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/255-1-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/255-2-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/255-2-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/255-5-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/255-5-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/255-6-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/255-6-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/255-8-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/255-8-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/970/page/0000184343.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/970/page/0000184343.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/256-2-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/256-2-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/880/category/12-2-2-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/880/category/12-2-2-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/256-4-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/256-4-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/450/page/0000186727.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/450/page/0000186727.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/257-1-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/257-1-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/257-2-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/257-2-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/257-3-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/257-3-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/258-1-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/258-1-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.kawasaki.jp/kurashi/category/258-2-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.city.kawasaki.jp/kurashi/category/258-2-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}
