@@ -1,0 +1,30 @@
+{
+  "batchId": "nagano-official-coverage-014",
+  "prefecture": "長野県",
+  "municipalities": [
+    "20541 小布施町",
+    "20543 高山村",
+    "20561 山ノ内町",
+    "20562 木島平村",
+    "20563 野沢温泉村"
+  ],
+  "candidateCount": 440,
+  "snippetCount": 440,
+  "verificationSnippetFiles": [
+    "tasks/discovery/nagano-official-coverage-014-verification-snippets.json",
+    "tasks/discovery/nagano-official-coverage-014-category-snippets.json",
+    "tasks/discovery/nagano-official-coverage-014-kijimadaira-snippets.json"
+  ],
+  "rescoredShortlist": "tasks/discovery/nagano-official-coverage-014-rescored-shortlist.csv",
+  "adoptedCount": 36,
+  "uniqueOfficialUrlCount": 34,
+  "countsByMunicipality": {
+    "高山村": 8,
+    "山ノ内町": 11,
+    "木島平村": 8,
+    "野沢温泉村": 9
+  },
+  "heldCount": 404,
+  "excludedCount": 0,
+  "notes": "制度語、金額・上限、対象条件、申請・受付表現が本文又は公式一覧で確認できる公式ページを優先採用。小布施町は根拠が薄い候補のみのため第2巡候補として保持。トップ、カテゴリ、ナビ、会見、寄附金、様式単体は第2巡候補として保持。"
+}

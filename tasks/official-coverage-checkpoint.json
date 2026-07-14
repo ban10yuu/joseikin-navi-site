@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T07:36:58+09:00",
+  "updatedAt": "2026-07-15T07:51:12+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "nagano-official-coverage-013",
-    "municipality": "池田町・松川村・白馬村・小谷村・坂城町",
-    "adopted": 44,
-    "held": 502,
+    "code": "nagano-official-coverage-014",
+    "municipality": "小布施町・高山村・山ノ内町・木島平村・野沢温泉村",
+    "adopted": 36,
+    "held": 404,
     "excluded": 0,
-    "sourceUrlsChecked": 42,
+    "sourceUrlsChecked": 34,
     "validation": {
-      "previousMunicipality": "長野県公式棚卸し013として、20481池田町・20482松川村・20485白馬村・20486小谷村・20521坂城町を確認した。通常候補404件に白馬村・小谷村の公式sitemap補完142件を加え、本文スニペット546件、再スコア546件を保存し、合計44件を新規採用した。カテゴリ導線、トップ、ナビ、様式単体、本文根拠が薄い候補は第2巡候補として保持。長野県第1巡は20521坂城町まで到達。全国公式棚卸しは未完了。",
+      "previousMunicipality": "長野県公式棚卸し014として、20541小布施町・20543高山村・20561山ノ内町・20562木島平村・20563野沢温泉村を確認した。候補440件、本文スニペット440件、追加検証スニペット3ファイルを保存し、合計36件を新規採用した。小布施町は金額・対象・受付が揃う個別制度根拠が薄いため第2巡候補として保持。カテゴリ導線、トップ、ナビ、会見、寄附金、様式単体は第2巡候補として保持。長野県第1巡は20563野沢温泉村まで到達。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for nagano-official-coverage-013 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 44 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 42 unique adopted official URLs returned HTTP 200 by interval curl",
+      "json": "pass: JSON.parse for nagano-official-coverage-014 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 36 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 34 unique adopted official URLs returned HTTP 200 by interval curl",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 13944, officialLinkedActive 13824, manuallyVerifiedActive 13824, 長野県 localOfficial 858)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 13975, officialLinkedActive 13855, manuallyVerifiedActive 13855, 長野県 localOfficial 889)"
     }
   },
   "next": {
-    "code": "nagano-official-coverage-014",
-    "municipality": "小布施町",
-    "shortlist": "長野県公式棚卸し013は池田町9件、松川村7件、白馬村10件、小谷村15件、坂城町3件を採用した。残候補は第2巡候補として保持する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、20541小布施町を開始地点として長野県公式棚卸し014を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "nagano-official-coverage-015",
+    "municipality": "信濃町",
+    "shortlist": "長野県公式棚卸し014は高山村8件、山ノ内町11件、木島平村8件、野沢温泉村9件を採用した。小布施町は第2巡候補として保持する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、20583信濃町を開始地点として長野県公式棚卸し015を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "長野県",
     "status": "in-progress",
-    "lastBatch": "nagano-official-coverage-013",
-    "notes": "山梨県は19201甲府市から19443丹波山村まで第1巡完了。長野県は20201長野市から20521坂城町まで第1巡到達。全国公式棚卸しは未完了。次は20541小布施町から継続する。"
+    "lastBatch": "nagano-official-coverage-014",
+    "notes": "山梨県は19201甲府市から19443丹波山村まで第1巡完了。長野県は20201長野市から20563野沢温泉村まで第1巡到達。全国公式棚卸しは未完了。次は20583信濃町から継続する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

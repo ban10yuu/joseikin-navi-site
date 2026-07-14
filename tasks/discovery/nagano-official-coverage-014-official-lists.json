@@ -1,0 +1,31 @@
+{
+  "batchId": "nagano-official-coverage-014",
+  "generatedAt": "2026-07-14T22:50:00.223Z",
+  "lists": [
+    {
+      "municipality": "小布施町",
+      "url": "https://www.town.obuse.nagano.jp/",
+      "note": "通常クロールでは会見・寄附金・カテゴリ導線が中心で、金額・対象・受付が揃う制度個別ページを第1巡採用できなかったため第2巡候補として保持。"
+    },
+    {
+      "municipality": "高山村",
+      "url": "https://www.vill.takayama.nagano.jp/search.html",
+      "note": "奨学金返還、結婚新生活、若者住宅、子育て・医療助成等の個別公式ページを採用。"
+    },
+    {
+      "municipality": "山ノ内町",
+      "url": "https://www.town.yamanouchi.nagano.jp/422.html",
+      "note": "町の補助金・給付金一覧から、金額・対象・申請注意が確認できる制度を採用。"
+    },
+    {
+      "municipality": "木島平村",
+      "url": "https://www.vill.kijimadaira.lg.jp/categories/kubun/gyousei/hojo/",
+      "note": "村の補助事業一覧、子育て手当、給付金、移住定住カテゴリから個別制度へ展開して採用。"
+    },
+    {
+      "municipality": "野沢温泉村",
+      "url": "https://www.vill.nozawaonsen.nagano.jp/www/genre/1000000000045/index.html",
+      "note": "各種補助金等、手当・助成、事業者支援ページから個別制度を採用。"
+    }
+  ]
+}

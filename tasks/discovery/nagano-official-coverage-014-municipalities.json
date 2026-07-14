@@ -1,0 +1,31 @@
+{
+  "batchId": "nagano-official-coverage-014",
+  "prefecture": "長野県",
+  "municipalities": [
+    {
+      "code": "20541",
+      "name": "小布施町",
+      "officialBaseUrl": "https://www.town.obuse.nagano.jp/"
+    },
+    {
+      "code": "20543",
+      "name": "高山村",
+      "officialBaseUrl": "https://www.vill.takayama.nagano.jp/"
+    },
+    {
+      "code": "20561",
+      "name": "山ノ内町",
+      "officialBaseUrl": "https://www.town.yamanouchi.nagano.jp/"
+    },
+    {
+      "code": "20562",
+      "name": "木島平村",
+      "officialBaseUrl": "https://www.vill.kijimadaira.lg.jp/"
+    },
+    {
+      "code": "20563",
+      "name": "野沢温泉村",
+      "officialBaseUrl": "https://www.vill.nozawaonsen.nagano.jp/"
+    }
+  ]
+}

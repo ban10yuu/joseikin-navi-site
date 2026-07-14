@@ -9934,3 +9934,12 @@
 - 保留: カテゴリ導線、トップ、ナビ、様式単体、本文根拠が薄い候補は第2巡候補として保持
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass
 - 次回: 20541小布施町から再開
+
+### 長野県公式棚卸し014（20541小布施町・20543高山村・20561山ノ内町・20562木島平村・20563野沢温泉村）
+- 実施日: 2026-07-15
+- 候補: 440件（スニペット440件、追加検証スニペット3ファイル）
+- 採用: 36件（高山村8件、山ノ内町11件、木島平村8件、野沢温泉村9件。小布施町は第2巡候補保持）
+- 公式URL: 採用URL到達確認は tasks/discovery/nagano-official-coverage-014-url-status.txt に記録（34本すべてHTTP 200）
+- 保留: 小布施町の会見・寄附金・カテゴリ導線、トップ、ナビ、様式単体、本文根拠が薄い候補は第2巡候補として保持
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass
+- 次回: 20583信濃町から再開
