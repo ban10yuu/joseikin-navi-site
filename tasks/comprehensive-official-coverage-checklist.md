@@ -8080,3 +8080,42 @@
   - 受付終了、カテゴリ導線、様式のみ、金額又は受付状況不足候補、広報・間接導線、PDF精査待ち候補は第2巡候補又は次回継続候補に残す。
 - 次:
   - 東京都公式棚卸し015として、13363新島村、13364神津島村、13381三宅村、13382御蔵島村を自治体コード順に確認する。東村山市の直接取得403候補は第2巡候補として保持する。
+
+### 2026-07-14 東京都公式棚卸し015（13363新島村・13364神津島村・13381三宅村・13382御蔵島村）
+
+- 作業範囲:
+  - 13363 新島村、13364 神津島村、13381 三宅村、13382 御蔵島村の公式サイト・公式例規・公式PDFを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 生成候補319件（新島村111件、神津島村17件、三宅村87件、御蔵島村104件）が閾値を超えたため、`tasks/discovery/tokyo-official-coverage-015-manual-snippets.json` に公式本文の短い根拠を保存し、三宅村・御蔵島村のPDFは `pdftotext` で金額・対象・期限を確認した。
+- 採用:
+  - 合計9件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 新島村2件: 食料品等物価高騰対策臨時給付金、定額減税補足給付金（不足額給付）。
+  - 神津島村2件: 島外医療機関受診に係る交通費等助成、障害者グループホーム等家賃助成。
+  - 三宅村1件: 宿泊事業者等支援事業補助金。
+  - 御蔵島村4件: 起業・事業拡大支援事業、不妊治療・不育症治療支援事業、産後ケア費用助成事業、島しょ振興公社地域振興に係る補助事業。
+- 生成ファイル:
+  - `tasks/discovery/tokyo-official-coverage-015-municipalities.json`
+  - `tasks/discovery/tokyo-official-coverage-015-13363-municipality.json`
+  - `tasks/discovery/tokyo-official-coverage-015-13364-municipality.json`
+  - `tasks/discovery/tokyo-official-coverage-015-13381-municipality.json`
+  - `tasks/discovery/tokyo-official-coverage-015-13382-municipality.json`
+  - `tasks/discovery/tokyo-official-coverage-015-13363-candidates.json`
+  - `tasks/discovery/tokyo-official-coverage-015-13364-candidates.json`
+  - `tasks/discovery/tokyo-official-coverage-015-13381-candidates.json`
+  - `tasks/discovery/tokyo-official-coverage-015-13382-candidates.json`
+  - `tasks/discovery/tokyo-official-coverage-015-candidates.json`
+  - `tasks/discovery/tokyo-official-coverage-015-manual-snippets.json`
+  - `tasks/discovery/tokyo-official-coverage-015.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - 追加slug重複: pass（9件、`verified-local-misc-2026.ts` 内で各1件）。
+  - 公式URL到達: pass（7 primary official URLsすべてHTTP 200。神津島村例規は一時403があったため再試行で確認）。
+  - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 11262、officialLinkedActive 11224、manuallyVerifiedActive 11224、東京都 localOfficial 646）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+  - 神津島村空き家改修事業補助金は直接取得403で別表限度額を安定確認できないため第2巡候補に残す。
+  - 御蔵島村地域資源を活かした学び・体験機会創出事業補助金は募集案内PDF到達がHTMLエラーとなり、金額確認まで第2巡候補に残す。
+  - 三宅村の児童手当・医療費助成等の制度横断ページ、カテゴリ導線、様式のみ、金額又は受付状況不足候補は第2巡候補に残す。
+- 次:
+  - 東京都公式棚卸し016として、13401八丈町、13402青ヶ島村、13421小笠原村を自治体コード順に確認する。東村山市と015の保留候補は第2巡候補として保持する。

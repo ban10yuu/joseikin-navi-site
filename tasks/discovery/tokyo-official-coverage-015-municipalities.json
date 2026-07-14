@@ -1,0 +1,26 @@
+{
+  "batchId": "tokyo-official-coverage-015",
+  "prefecture": "東京都",
+  "municipalities": [
+    {
+      "code": "13363",
+      "name": "新島村",
+      "officialBaseUrl": "https://www.niijima.com/"
+    },
+    {
+      "code": "13364",
+      "name": "神津島村",
+      "officialBaseUrl": "https://vill.kouzushima.tokyo.jp/"
+    },
+    {
+      "code": "13381",
+      "name": "三宅村",
+      "officialBaseUrl": "https://www.vill.miyake.tokyo.jp/"
+    },
+    {
+      "code": "13382",
+      "name": "御蔵島村",
+      "officialBaseUrl": "https://www.vill.mikurasima.tokyo.jp/"
+    }
+  ]
+}

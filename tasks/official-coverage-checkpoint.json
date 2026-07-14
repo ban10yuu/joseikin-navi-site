@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-07-14T16:36:00+09:00",
+  "updatedAt": "2026-07-14T16:55:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "tokyo-official-coverage-014",
-    "municipality": "檜原村・奥多摩町・大島町・利島村",
-    "adopted": 22,
-    "held": 254,
+    "code": "tokyo-official-coverage-015",
+    "municipality": "新島村・神津島村・三宅村・御蔵島村",
+    "adopted": 9,
+    "held": 310,
     "excluded": 0,
-    "sourceUrlsChecked": 29,
+    "sourceUrlsChecked": 12,
     "validation": {
-      "previousMunicipality": "東京都公式棚卸し014として、13307檜原村、13308奥多摩町、13361大島町、13362利島村を確認した。候補276件が閾値を超えたため手動スニペット台帳で再スコアし、檜原村13件、奥多摩町3件、大島町4件、利島村2件の公式本文又は公式例規を確認して計22件を採用した。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: 22 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 22 official URLs returned HTTP 200",
+      "previousMunicipality": "東京都公式棚卸し015として、13363新島村、13364神津島村、13381三宅村、13382御蔵島村を確認した。候補319件が閾値を超えたため手動スニペット台帳とPDF抽出で再スコアし、新島村2件、神津島村2件、三宅村1件、御蔵島村4件の公式本文又は公式PDFを確認して計9件を採用した。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and JSON.parse for tokyo-official-coverage-015.json / official-coverage-checkpoint.json",
+      "addedSlugUniqueness": "pass: 9 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 7 primary official URLs returned HTTP 200 with retry for intermittent 神津島村例規",
       "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11256, officialLinkedActive 11218, manuallyVerifiedActive 11218, 東京都 localOfficial 640)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11262, officialLinkedActive 11224, manuallyVerifiedActive 11224, 東京都 localOfficial 646)"
     }
   },
   "next": {
-    "code": "tokyo-official-coverage-015",
-    "municipality": "新島村・神津島村・三宅村・御蔵島村",
-    "shortlist": "東京都公式棚卸し014は候補276件から檜原村13件、奥多摩町3件、大島町4件、利島村2件を採用した。金額不足、カテゴリ導線、様式のみ、広報・間接導線、PDF精査待ち、受付状況不足候補は第2巡候補に残す。",
-    "instructions": "東京都公式棚卸し015として、13363新島村、13364神津島村、13381三宅村、13382御蔵島村を自治体コード順に確認する。制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度だけ採用する。東村山市の直接取得403候補は公式本文/PDF又はキャッシュで確認できるまで全国完了扱いにしない。"
+    "code": "tokyo-official-coverage-016",
+    "municipality": "八丈町・青ヶ島村・小笠原村",
+    "shortlist": "東京都公式棚卸し015は候補319件から新島村2件、神津島村2件、三宅村1件、御蔵島村4件を採用した。神津島村空き家改修の直接取得403、御蔵島村学び体験補助のPDF到達不安定、三宅村の制度横断ページ、金額不足・様式のみ候補は第2巡候補に残す。",
+    "instructions": "東京都公式棚卸し016として、13401八丈町、13402青ヶ島村、13421小笠原村を自治体コード順に確認する。制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度だけ採用する。東村山市の直接取得403候補と015保留候補は公式本文/PDF又はキャッシュで確認できるまで全国完了扱いにしない。"
   },
   "prefectureMilestone": {
     "prefecture": "東京都",
     "status": "in-progress",
-    "lastBatch": "tokyo-official-coverage-014",
-    "notes": "東京都23区、市部、西多摩郡、島しょ部を自治体コード順に継続中。13362利島村まで公式本文又は公式例規確認済み。ただし13213東村山市は直接取得403候補を第2巡候補として保持。次は13363新島村から継続。"
+    "lastBatch": "tokyo-official-coverage-015",
+    "notes": "東京都23区、市部、西多摩郡、島しょ部を自治体コード順に継続中。13382御蔵島村まで公式本文又は公式PDF確認済み。ただし13213東村山市と015保留候補は第2巡候補として保持。次は13401八丈町から継続。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

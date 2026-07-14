@@ -1,0 +1,60 @@
+{
+  "batchId": "tokyo-official-coverage-015",
+  "prefecture": "東京都",
+  "completedAt": "2026-07-14T16:55:00+09:00",
+  "municipalities": [
+    { "code": "13363", "name": "新島村", "candidateCount": 111, "adopted": 2 },
+    { "code": "13364", "name": "神津島村", "candidateCount": 17, "adopted": 2 },
+    { "code": "13381", "name": "三宅村", "candidateCount": 87, "adopted": 1 },
+    { "code": "13382", "name": "御蔵島村", "candidateCount": 104, "adopted": 4 }
+  ],
+  "candidateTotal": 319,
+  "adoptedTotal": 9,
+  "heldTotal": 310,
+  "excludedTotal": 0,
+  "shortlistProcess": {
+    "thresholdExceeded": true,
+    "reason": "shortlistが150件超のため、公式本文/PDFの短いスニペットをローカルJSONに保存して再スコアした。",
+    "snippetLedger": "tasks/discovery/tokyo-official-coverage-015-manual-snippets.json",
+    "adoptionCriteria": "制度名・対象・金額/上限・条件・期限/受付状況が公式本文又はPDFで確認できる個別制度のみ採用。トップ、カテゴリ、様式のみ、金額不足、到達不安定ページは第2巡へ保留。"
+  },
+  "adoptedSlugs": [
+    "niijima-food-price-inflation-cash-grant-2026",
+    "niijima-fixed-tax-reduction-supplemental-benefit-2026",
+    "kouzushima-off-island-medical-transport-subsidy-2026",
+    "kouzushima-disabled-group-home-rent-subsidy-2026",
+    "miyake-lodging-business-support-subsidy-2026",
+    "mikurashima-business-start-expansion-subsidy-2026",
+    "mikurashima-infertility-treatment-subsidy-2026",
+    "mikurashima-postpartum-care-subsidy-2026",
+    "mikurashima-islands-regional-promotion-subsidy-2026"
+  ],
+  "heldExamples": [
+    "神津島村空き家改修事業補助金交付要綱は直接取得が403となったため、別表限度額を安定確認できるまで第2巡候補へ保留。",
+    "御蔵島村地域資源を活かした学び・体験機会創出事業補助金は募集案内PDF到達がHTMLエラーになったため、金額確認まで第2巡候補へ保留。",
+    "三宅村の児童手当・医療費助成ページは個別金額・受付状況が制度横断的で、自治体独自支援としての整理が必要なため第2巡候補へ保留。"
+  ],
+  "sourceUrlsChecked": [
+    "https://www.niijima.com/soshiki/kikakuzaiseika/news/g2026.html",
+    "https://www.niijima.com/kurashi/hoken_nenkin/fukushi/seikatsushien/kakakukoutou/2025-1009-1156-96.html",
+    "https://www.vill.kouzushima.tokyo.jp/reiki/reiki_honbun/g159RG00000422.html",
+    "https://www.vill.kouzushima.tokyo.jp/reiki/reiki_honbun/g159RG00000340.html",
+    "https://www.vill.miyake.tokyo.jp/kakuka/kankousangyou/news/2025-0425-1623-10.html",
+    "https://www.vill.miyake.tokyo.jp/kakuka/kankousangyou/news/files/R8.syukuhakujigyousya.shien.02.about.pdf",
+    "https://www.vill.miyake.tokyo.jp/kakuka/kankousangyou/news/files/R8.syukuhakujigyousya.shien.03yousiki.pdf",
+    "https://www.vill.mikurasima.tokyo.jp/hojojosei.html",
+    "https://www.vill.mikurasima.tokyo.jp/section/jigyosha/hojo.html",
+    "https://www.vill.mikurasima.tokyo.jp/data/hojo/r7_kigyou_jigyou/00_gaiyou.pdf",
+    "https://www.vill.mikurasima.tokyo.jp/data/hojojosei/10_%E4%BA%8B%E6%A5%AD%E6%A6%82%E8%A6%81.pdf",
+    "https://www.vill.mikurasima.tokyo.jp/data/hojojosei/20_%E4%BA%8B%E6%A5%AD%E6%A6%82%E8%A6%81.pdf"
+  ],
+  "next": {
+    "batchId": "tokyo-official-coverage-016",
+    "municipalities": [
+      { "code": "13401", "name": "八丈町" },
+      { "code": "13402", "name": "青ヶ島村" },
+      { "code": "13421", "name": "小笠原村" }
+    ],
+    "notes": "東京都島しょ部の残り3町村を自治体コード順に継続する。015で保留した直接取得403、金額不足PDF、カテゴリ導線は第2巡候補に残す。"
+  }
+}
