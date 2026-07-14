@@ -1,0 +1,2818 @@
+{
+  "batchId": "fukui-official-coverage-002",
+  "prefecture": "福井県",
+  "generatedAt": "2026-07-14T16:56:36.755Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 77,
+  "results": [
+    {
+      "code": "18207",
+      "name": "鯖江市",
+      "officialBaseUrl": "https://www.city.sabae.fukui.jp/",
+      "discoveredUrlCount": 220,
+      "candidateCount": 77,
+      "strongCandidateCount": 2,
+      "lowPriorityCandidateCount": 75,
+      "candidates": [
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月31日",
+          "keywordHits": [
+            "医療費助成",
+            "住宅",
+            "福祉",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月31日",
+          "keywordHits": [
+            "医療費助成",
+            "住宅",
+            "福祉",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "給付金",
+            "一時金",
+            "免除",
+            "医療費助成",
+            "住宅",
+            "空き家",
+            "農業",
+            "福祉",
+            "子育て",
+            "奨学金",
+            "耐震"
+          ],
+          "candidateScore": 20,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "奨学金",
+            "予防接種"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kenko_fukushi/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "奨学金",
+            "予防接種"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kanko_sangyo/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "医療費助成",
+            "林業",
+            "福祉",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/anzen_anshin/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "医療費助成",
+            "空き家",
+            "福祉",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/about_city/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月31日",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/about_city/it_nomachi/socialmedia/sns.html",
+          "status": 200,
+          "title": "鯖江市のソーシャルメディア公式アカウント",
+          "h1": "鯖江市のソーシャルメディア公式アカウント",
+          "updatedAt": "2026年4月14日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/kokyokotsu/chushajo_churinjo/Keikaku01202.html",
+          "status": 200,
+          "title": "市営駐車場 満空状況（鯖江駅・文化センター・西山公園周辺駐車場）",
+          "h1": "市営駐車場 満空状況（鯖江駅・文化センター・西山公園周辺駐車場）",
+          "updatedAt": "2026年7月8日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kakushusodan/index.html",
+          "status": 200,
+          "title": "各種相談",
+          "h1": "各種相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kenko_fukushi/sonotafukushi/seido_shinsei/ShakaiFuku0120240612.html",
+          "status": 200,
+          "title": "生活困窮者の支援を行うNPO法人等の民間団体を支援します",
+          "h1": "生活困窮者の支援を行うNPO法人等の民間団体を支援します",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "補助金",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/anzen_anshin/bosai/oshirase/zisyubousai.html",
+          "status": 200,
+          "title": "令和8年度自主防災組織研修会",
+          "h1": "令和8年度自主防災組織研修会",
+          "updatedAt": "2026年7月8日",
+          "keywordHits": [
+            "補助金",
+            "空き家",
+            "福祉",
+            "耐震"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/anzen_anshin/bosai/oshirase/Bosai-semina.html",
+          "status": 200,
+          "title": "地域防災力育成セミナーを開催します",
+          "h1": "地域防災力育成セミナーを開催します",
+          "updatedAt": "2026年7月8日",
+          "keywordHits": [
+            "補助金",
+            "空き家",
+            "耐震"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/category/chumoku/index.html",
+          "status": 200,
+          "title": "注目情報",
+          "h1": "注目情報",
+          "updatedAt": "令和8年7月31日",
+          "keywordHits": [
+            "補助金",
+            "給付金",
+            "奨励金",
+            "移住",
+            "事業者",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/sizen/hojokin/namagomi.html",
+          "status": 200,
+          "title": "生ごみ処理容器および生ごみ処理機の購入を支援します",
+          "h1": "生ごみ処理容器および生ごみ処理機の購入を支援します",
+          "updatedAt": "2026年7月14日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "省エネ"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/shogaigakushu/youcul_sabae/ro012026021095310710.html",
+          "status": 200,
+          "title": "令和8年度 ユーカル講座 受講生募集",
+          "h1": "令和8年度 ユーカル講座 受講生募集",
+          "updatedAt": "2026年7月14日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/allNewsList.html",
+          "status": 200,
+          "title": "新着情報一覧",
+          "h1": "新着情報一覧",
+          "updatedAt": "令和8年7月31日",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/bunkanoyakata/gyojinoannai/SBF2026.html",
+          "status": 200,
+          "title": "SABAE BOOK FES 2026 開催決定！",
+          "h1": "SABAE BOOK FES 2026 開催決定！",
+          "updatedAt": "2026年7月12日",
+          "keywordHits": [
+            "補助金",
+            "子育て"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/bunkanoyakata/gyojinoannai/kodomomuke_event/specialevent/JuniorLibrarian2026.html",
+          "status": 200,
+          "title": "ジュニア司書養成講座 参加者募集!",
+          "h1": "ジュニア司書養成講座 参加者募集!",
+          "updatedAt": "2026年7月11日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/shogaigakushu/sabaekominkan/yotei/CCSabae20260708.html",
+          "status": 200,
+          "title": "第27回 間部の殿様 ふるさとウォーキング2026 開催",
+          "h1": "第27回 間部の殿様 ふるさとウォーキング2026 開催",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/bunkanoyakata/gyojinoannai/kodomomuke_event/kodomo_theater/kodomo20260709.html",
+          "status": 200,
+          "title": "こどもシアター",
+          "h1": "こどもシアター",
+          "updatedAt": "2026年7月9日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/manabenoyakata/manabedewakuwaku/sanka.html",
+          "status": 200,
+          "title": "まなべDEわくわく!!アートフェスタ2026（7月25日）",
+          "h1": "まなべDEわくわく!!アートフェスタ2026（7月25日）",
+          "updatedAt": "2026年7月5日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/category/event_boshu/index.html",
+          "status": 200,
+          "title": "イベント・募集",
+          "h1": "イベント・募集",
+          "updatedAt": "令和8年5月23日",
+          "keywordHits": [
+            "補助金",
+            "子育て"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/event/calendar/list_calendar.html",
+          "status": 200,
+          "title": "2026年7月カレンダー",
+          "h1": "2026年7月カレンダー",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/event/calendar/calendar.html",
+          "status": 200,
+          "title": "2026年7月カレンダー",
+          "h1": "2026年7月カレンダー",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/kokyokotsu/komyubasu/SogoKotsu001.html",
+          "status": 200,
+          "title": "鯖江市コミュニティバス「つつじバス」",
+          "h1": "鯖江市コミュニティバス「つつじバス」",
+          "updatedAt": "2026年3月9日",
+          "keywordHits": [
+            "補助金",
+            "事業者"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/about_city/shinoshokai/busho.html",
+          "status": 200,
+          "title": "部署紹介",
+          "h1": "部署紹介",
+          "updatedAt": "2024年4月1日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "農業",
+            "林業",
+            "水産",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/about_city/onlineservise/shinseisho/index.html",
+          "status": 200,
+          "title": "申請書",
+          "h1": "申請書",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "林業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/ninshin_shussan/index.html",
+          "status": 200,
+          "title": "妊娠・出産・子育て",
+          "h1": "妊娠・出産・子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kosodate_site/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年5月23日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/nyuen_nyugaku/hoiku01/index.html",
+          "status": 200,
+          "title": "保育所・こども園・幼稚園について",
+          "h1": "保育所・こども園・幼稚園について",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/nyuen_nyugaku/hoiku02/index.html",
+          "status": 200,
+          "title": "入所（入園）申し込みについて",
+          "h1": "入所（入園）申し込みについて",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/nyuen_nyugaku/yochien_hoikuen/HoYoji_Hoikuryou.html",
+          "status": 200,
+          "title": "保育料・副食費について",
+          "h1": "保育料・副食費について",
+          "updatedAt": "2025年6月3日",
+          "keywordHits": [
+            "減免",
+            "免除",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/gakko_kyoiku/shogakko_chugakko/shogakkojoho.html",
+          "status": 200,
+          "title": "小学校情報",
+          "h1": "小学校情報",
+          "updatedAt": "2017年3月24日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/gakko_kyoiku/shogakko_chugakko/chugakkojoho.html",
+          "status": 200,
+          "title": "中学校情報",
+          "h1": "中学校情報",
+          "updatedAt": "2024年8月1日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/life_event/nyuen_nyugaku/shogakukinseido/index.html",
+          "status": 200,
+          "title": "奨学金制度について",
+          "h1": "奨学金制度について",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学",
+            "奨学金"
+          ],
+          "candidateScore": 10,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/life_event/kekkon_rikon/shinseisho_kofu/index.html",
+          "status": 200,
+          "title": "各種申請書の交付について",
+          "h1": "各種申請書の交付について",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kenko_fukushi/sonotafukushi/boshikateifushikatei/shienseido_teate/boshikatei_shien.html",
+          "status": 200,
+          "title": "母子家庭の母の自立支援",
+          "h1": "母子家庭の母の自立支援",
+          "updatedAt": "2017年3月24日",
+          "keywordHits": [
+            "給付金",
+            "一時金",
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "通学"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kenko_fukushi/sonotafukushi/boshikateifushikatei/shienseido_teate/boshikatei_iryohi.html",
+          "status": 200,
+          "title": "ひとり親家庭等医療費助成制度について",
+          "h1": "ひとり親家庭等医療費助成制度について",
+          "updatedAt": "2025年5月20日",
+          "keywordHits": [
+            "助成金",
+            "給付金",
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "通学"
+          ],
+          "candidateScore": 22,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/life_event/korei_kaigo/riyo/index.html",
+          "status": 200,
+          "title": "利用の手続き",
+          "h1": "利用の手続き",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kenko_fukushi/koreishafukushi/koreishanoseido/index.html",
+          "status": 200,
+          "title": "高齢者の制度・サービス",
+          "h1": "高齢者の制度・サービス",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kenko_fukushi/koreishafukushi/tiikihokatsu/index.html",
+          "status": 200,
+          "title": "鯖江市地域包括支援センター",
+          "h1": "鯖江市地域包括支援センター",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/todokede/Okuyamisupport.html",
+          "status": 200,
+          "title": "おくやみサポートのご案内",
+          "h1": "おくやみサポートのご案内",
+          "updatedAt": "2026年6月3日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kenko_fukushi/iryo_hoken/kokuminkenkohoken/kokuho_kyuyo/kokuho-sosaihi.html",
+          "status": 200,
+          "title": "国保で受けられる給付（葬祭費の支給）",
+          "h1": "国保で受けられる給付（葬祭費の支給）",
+          "updatedAt": "2024年12月11日",
+          "keywordHits": [
+            "補助金",
+            "一時金",
+            "福祉",
+            "不妊"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/soyamaboen/oshirase/boenshiyoshaboshu.html",
+          "status": 200,
+          "title": "総山墓園使用者募集のお知らせ",
+          "h1": "総山墓園使用者募集のお知らせ",
+          "updatedAt": "2026年3月16日",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/todokede/index.html",
+          "status": 200,
+          "title": "届出・手続き・証明",
+          "h1": "届出・手続き・証明",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/koteishisan/index.html",
+          "status": 200,
+          "title": "固定資産税・都市計画税",
+          "h1": "固定資産税・都市計画税",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/kenkohoken/index.html",
+          "status": 200,
+          "title": "国民健康保険税",
+          "h1": "国民健康保険税",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/shikenminzei/index.html",
+          "status": 200,
+          "title": "市県民税",
+          "h1": "市県民税",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/hojinshiminzei/index.html",
+          "status": 200,
+          "title": "法人市民税",
+          "h1": "法人市民税",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/jogesuido/index.html",
+          "status": 200,
+          "title": "上下水道",
+          "h1": "上下水道",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/doro_kasen_koen/index.html",
+          "status": 200,
+          "title": "道路・河川・公園",
+          "h1": "道路・河川・公園",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/shohishasodan/index.html",
+          "status": 200,
+          "title": "消費者相談",
+          "h1": "消費者相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/ninshin/index.html",
+          "status": 200,
+          "title": "妊娠・出産・子育て",
+          "h1": "妊娠・出産・子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/gakko_kyoiku/index.html",
+          "status": 200,
+          "title": "学校・教育",
+          "h1": "学校・教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/iryo_hoken/index.html",
+          "status": 200,
+          "title": "医療・保険",
+          "h1": "医療・保険",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/koreishakaigo/index.html",
+          "status": 200,
+          "title": "高齢者福祉・介護保険",
+          "h1": "高齢者福祉・介護保険",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/koho_kocho/index.html",
+          "status": 200,
+          "title": "広報・広聴",
+          "h1": "広報・広聴",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/shiminkyodo/index.html",
+          "status": 200,
+          "title": "市民協働",
+          "h1": "市民協働",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/sonota/index.html",
+          "status": 200,
+          "title": "その他",
+          "h1": "その他",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/life_event/nyuen_nyugaku/index.html",
+          "status": 200,
+          "title": "入園・入学",
+          "h1": "入園・入学",
+          "updatedAt": "",
+          "keywordHits": [
+            "奨学金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/index.html",
+          "status": 200,
+          "title": "よくある質問",
+          "h1": "よくある質問",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/about_city/koho_kocho/kohosabae/reiwa8/koho202607.html",
+          "status": 200,
+          "title": "広報さばえ令和8年7月号",
+          "h1": "広報さばえ令和8年7月号",
+          "updatedAt": "2026年6月24日",
+          "keywordHits": [
+            "免除",
+            "農業",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/shohishasodan/keihatsu/Sodan20250819.html",
+          "status": 200,
+          "title": "市消費生活センター啓発活動トピックス【2025年度】",
+          "h1": "市消費生活センター啓発活動トピックス【2025年度】",
+          "updatedAt": "2025年10月6日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/about_city/shinoshokai/teiju_koryu_info/teiju_koryu.html",
+          "status": 200,
+          "title": "さばえ定住・交流情報サイト",
+          "h1": "さばえ定住・交流情報サイト",
+          "updatedAt": "2024年6月19日",
+          "keywordHits": [
+            "支援金",
+            "医療費助成",
+            "移住",
+            "住宅",
+            "空き家",
+            "空家",
+            "起業",
+            "子育て"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/about_city/shiminkyodo/danjokyoudou/Sodan01202504161045.html",
+          "status": 200,
+          "title": "男女共同参画・女性活躍推進トピックス【2025年度】",
+          "h1": "男女共同参画・女性活躍推進トピックス【2025年度】",
+          "updatedAt": "2026年3月10日",
+          "keywordHits": [
+            "移住",
+            "起業",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/shogaigakushu/backnumber/index.html",
+          "status": 200,
+          "title": "鯖江市公民館報バックナンバー",
+          "h1": "鯖江市公民館報バックナンバー",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/about_city/kekaku_torikumi/citypromotion/meikusabae.html",
+          "status": 200,
+          "title": "眼育さばえプロジェクト",
+          "h1": "眼育さばえプロジェクト",
+          "updatedAt": "2024年4月11日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/about_city/shiminkyodo/chiikikatsudo/Katsuyaku20231109.html",
+          "status": 200,
+          "title": "町内会について",
+          "h1": "町内会について",
+          "updatedAt": "2026年6月4日",
+          "keywordHits": [
+            "補助金",
+            "省エネ"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/about_city/kekaku_torikumi/sonotanotorikumi.html",
+          "status": 200,
+          "title": "その他の取り組み",
+          "h1": "その他の取り組み",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/bunkanoyakata/bunkanoyakata.html",
+          "status": 200,
+          "title": "文化の館（図書館）トップページ",
+          "h1": "文化の館（図書館）トップページ",
+          "updatedAt": "2026年7月11日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/manabenoyakata/manabenoyakata.html",
+          "status": 200,
+          "title": "まなべの館（博物館）トップページ",
+          "h1": "まなべの館（博物館）トップページ",
+          "updatedAt": "2025年4月10日",
+          "keywordHits": [
+            "減免",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/about_city/shinoshokai/kokyoshisetsu/shisetsu.html",
+          "status": 200,
+          "title": "施設一覧",
+          "h1": "施設一覧",
+          "updatedAt": "2026年3月7日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/thissite/koukokukeisai.html",
+          "status": 200,
+          "title": "「鯖江市ホームページ」に広告を掲載しませんか",
+          "h1": "「鯖江市ホームページ」に広告を掲載しませんか",
+          "updatedAt": "2022年12月19日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18207",
+          "municipalityName": "鯖江市",
+          "sourceUrl": "https://www.city.sabae.fukui.jp/about_city/kekaku_torikumi/kokokujigyo.html",
+          "status": 200,
+          "title": "鯖江市広告事業について",
+          "h1": "鯖江市広告事業について",
+          "updatedAt": "2022年12月20日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.sabae.fukui.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/sitemap.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/multilingual/index.html",
+          "status": 200,
+          "finalUrl": "http://www.city.sabae.fukui.jp/multilingual/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kenko_fukushi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kenko_fukushi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kanko_sangyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kanko_sangyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/anzen_anshin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/anzen_anshin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/it_nomachi/app/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/it_nomachi/app/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/it_nomachi/socialmedia/sns.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/it_nomachi/socialmedia/sns.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/koho_kocho/line_account.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/koho_kocho/line_account.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/koho_kocho/oshirase/katapoke.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/koho_kocho/oshirase/katapoke.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kanko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kanko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/kokyokotsu/chushajo_churinjo/Keikaku01202.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/kokyokotsu/chushajo_churinjo/Keikaku01202.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/kyujitsutobani/kyujitsutobani.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/kyujitsutobani/kyujitsutobani.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kakushusodan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kakushusodan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/saigaibosaijoho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/saigaibosaijoho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/shichonoheya/CmsAdmin202606246.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/shichonoheya/CmsAdmin202606246.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/shinoshokai/shokuinsaiyojoho/Shokuin20260713-1.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/shinoshokai/shokuinsaiyojoho/Shokuin20260713-1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/koho_kocho/oshirase/Shuyaku5080710.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/koho_kocho/oshirase/Shuyaku5080710.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kenko_fukushi/sonotafukushi/seido_shinsei/ShakaiFuku0120240612.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kenko_fukushi/sonotafukushi/seido_shinsei/ShakaiFuku0120240612.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/shinoshokai/kokyoshisetsu/sports_shisetsu/shiminpool.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/shinoshokai/kokyoshisetsu/sports_shisetsu/shiminpool.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/anzen_anshin/bosai/oshirase/zisyubousai.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/anzen_anshin/bosai/oshirase/zisyubousai.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/anzen_anshin/bosai/oshirase/Bosai-semina.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/anzen_anshin/bosai/oshirase/Bosai-semina.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/shinoshokai/shokuinsaiyojoho/Shokuin20260630-1.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/shinoshokai/shokuinsaiyojoho/Shokuin20260630-1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/category/chumoku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/category/chumoku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/sizen/hojokin/namagomi.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/sizen/hojokin/namagomi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/shogaigakushu/youcul_sabae/ro012026021095310710.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/shogaigakushu/youcul_sabae/ro012026021095310710.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/shiminkyodo/sabae_jk-kaproject/JK_ecokawa.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/shiminkyodo/sabae_jk-kaproject/JK_ecokawa.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/doro_kasen_koen/nishiyamadobutsuen/Zoo0120260706.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/doro_kasen_koen/nishiyamadobutsuen/Zoo0120260706.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/allNewsList.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/allNewsList.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/bunkanoyakata/gyojinoannai/SBF2026.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/bunkanoyakata/gyojinoannai/SBF2026.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/bunkanoyakata/gyojinoannai/kodomomuke_event/specialevent/JuniorLibrarian2026.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/bunkanoyakata/gyojinoannai/kodomomuke_event/specialevent/JuniorLibrarian2026.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/shogaigakushu/sabaekominkan/yotei/CCSabae20260708.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/shogaigakushu/sabaekominkan/yotei/CCSabae20260708.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/bunkanoyakata/gyojinoannai/kodomomuke_event/kodomo_theater/kodomo20260709.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/bunkanoyakata/gyojinoannai/kodomomuke_event/kodomo_theater/kodomo20260709.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/manabenoyakata/manabedewakuwaku/sanka.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/manabenoyakata/manabedewakuwaku/sanka.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/category/event_boshu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/category/event_boshu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/event/calendar/list_calendar.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/event/calendar/list_calendar.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/event/calendar/calendar.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/event/calendar/calendar.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/kokyokotsu/komyubasu/SogoKotsu001.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/kokyokotsu/komyubasu/SogoKotsu001.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/shinoshokai/shokuinsaiyojoho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/shinoshokai/shokuinsaiyojoho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/shinoshokai/busho.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/shinoshokai/busho.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/johokokai/publiccomment/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/johokokai/publiccomment/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/onlineservise/shinseisho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/onlineservise/shinseisho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/onlineservise/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/onlineservise/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/it_nomachi/denshishinsei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/it_nomachi/denshishinsei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/it_nomachi/oshirase/shisetsuyoyaku.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/it_nomachi/oshirase/shisetsuyoyaku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/onlineservise/saishin-kaise-jorei.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/onlineservise/saishin-kaise-jorei.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/onlineservise/shinseisho/index.htm",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/onlineservise/shinseisho/index.htm",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/ninshin_shussan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/ninshin_shussan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kosodate_site/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kosodate_site/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/nyuen_nyugaku/hoiku01/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/nyuen_nyugaku/hoiku01/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/nyuen_nyugaku/hoiku02/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/nyuen_nyugaku/hoiku02/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/nyuen_nyugaku/yochien_hoikuen/HoYoji_Hoikuryou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/nyuen_nyugaku/yochien_hoikuen/HoYoji_Hoikuryou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/gakko_kyoiku/shogakko_chugakko/shogakkojoho.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/gakko_kyoiku/shogakko_chugakko/shogakkojoho.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/gakko_kyoiku/shogakko_chugakko/chugakkojoho.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/gakko_kyoiku/shogakko_chugakko/chugakkojoho.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/life_event/nyuen_nyugaku/shogakukinseido/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/life_event/nyuen_nyugaku/shogakukinseido/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/life_event/shusyoku_taishoku/kenkohoken_seido/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/life_event/shusyoku_taishoku/kenkohoken_seido/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/zeikin/kokuminkenkohokenzei/oshirase/kenkohokenzei.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/zeikin/kokuminkenkohokenzei/oshirase/kenkohokenzei.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/life_event/shusyoku_taishoku/kenkohokensho_kofu/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/life_event/shusyoku_taishoku/kenkohokensho_kofu/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/life_event/kekkon_rikon/jumintoroku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/life_event/kekkon_rikon/jumintoroku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/life_event/kekkon_rikon/tennyu_tenshutsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/life_event/kekkon_rikon/tennyu_tenshutsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/life_event/kekkon_rikon/shinseisho_kofu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/life_event/kekkon_rikon/shinseisho_kofu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kenko_fukushi/sonotafukushi/boshikateifushikatei/shienseido_teate/boshikatei_shien.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kenko_fukushi/sonotafukushi/boshikateifushikatei/shienseido_teate/boshikatei_shien.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kenko_fukushi/sonotafukushi/boshikateifushikatei/shienseido_teate/boshikatei_iryohi.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kenko_fukushi/sonotafukushi/boshikateifushikatei/shienseido_teate/boshikatei_iryohi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/life_event/korei_kaigo/kokikoreishairyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/life_event/korei_kaigo/kokikoreishairyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/life_event/korei_kaigo/seido/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/life_event/korei_kaigo/seido/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/life_event/korei_kaigo/riyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/life_event/korei_kaigo/riyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/life_event/korei_kaigo/jigyoshoshokai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/life_event/korei_kaigo/jigyoshoshokai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kenko_fukushi/koreishafukushi/koreishanoseido/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kenko_fukushi/koreishafukushi/koreishanoseido/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kenko_fukushi/koreishafukushi/tiikihokatsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kenko_fukushi/koreishafukushi/tiikihokatsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/todokede/Okuyamisupport.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/todokede/Okuyamisupport.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kenko_fukushi/iryo_hoken/kokuminkenkohoken/kokuho_kyuyo/kokuho-sosaihi.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kenko_fukushi/iryo_hoken/kokuminkenkohoken/kokuho_kyuyo/kokuho-sosaihi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/soyamaboen/oshirase/boenshiyoshaboshu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/soyamaboen/oshirase/boenshiyoshaboshu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/soyamaboen/shinsei/boen_shinseisho.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/soyamaboen/shinsei/boen_shinseisho.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/soyamaboen/shinsei/soyamaboensecchi.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/soyamaboen/shinsei/soyamaboensecchi.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/yokuarushitsumon/todokede/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/todokede/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/yokuarushitsumon/koteishisan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/koteishisan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/yokuarushitsumon/kenkohoken/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/kenkohoken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/yokuarushitsumon/shikenminzei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/shikenminzei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/yokuarushitsumon/hojinshiminzei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/hojinshiminzei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/yokuarushitsumon/jogesuido/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/jogesuido/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/yokuarushitsumon/doro_kasen_koen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/doro_kasen_koen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/yokuarushitsumon/shohishasodan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/shohishasodan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/yokuarushitsumon/ninshin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/ninshin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/yokuarushitsumon/gakko_kyoiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/gakko_kyoiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/yokuarushitsumon/iryo_hoken/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/iryo_hoken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/yokuarushitsumon/koreishakaigo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/koreishakaigo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/yokuarushitsumon/koho_kocho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/koho_kocho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/yokuarushitsumon/shiminkyodo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/shiminkyodo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/yokuarushitsumon/sonota/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/sonota/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/life_event/nyuen_nyugaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/life_event/nyuen_nyugaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/life_event/shusyoku_taishoku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/life_event/shusyoku_taishoku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/life_event/kekkon_rikon/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/life_event/kekkon_rikon/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/life_event/korei_kaigo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/life_event/korei_kaigo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/life_event/shibo_sozoku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/life_event/shibo_sozoku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/yokuarushitsumon/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/yokuarushitsumon/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/shichonoheya/20201017.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/shichonoheya/20201017.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/koho_kocho/kishahappyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/koho_kocho/kishahappyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/shigikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/shigikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/shigikai/gikai-no-bocho.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/shigikai/gikai-no-bocho.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/shigikai/seigan-chinjo.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/shigikai/seigan-chinjo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/shigikai/sabaeshigikaiho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/shigikai/sabaeshigikaiho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/shigikai/dogahaishin/honkaigi-Youtube.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/shigikai/dogahaishin/honkaigi-Youtube.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/koho_kocho/kohosabae/reiwa8/koho202607.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/koho_kocho/kohosabae/reiwa8/koho202607.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/koho_kocho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/koho_kocho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/koho_kocho/kohosabae/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/koho_kocho/kohosabae/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/koho_kocho/sabaehottojoho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/koho_kocho/sabaehottojoho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/gakuseirenkei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/gakuseirenkei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/shiminkyodo/sabae_jk-kaproject/JKProject.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/shiminkyodo/sabae_jk-kaproject/JKProject.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/shohishasodan/keihatsu/Sodan20250819.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/shohishasodan/keihatsu/Sodan20250819.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/shohishasodan/keihatsu/Sodan012025041415584.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/shohishasodan/keihatsu/Sodan012025041415584.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/shinoshokai/teiju_koryu_info/teiju_koryu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/shinoshokai/teiju_koryu_info/teiju_koryu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/shiminkyodo/chiikikatsudo/shiminshuyakujigyo/TeianShiminJigyo.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/shiminkyodo/chiikikatsudo/shiminshuyakujigyo/TeianShiminJigyo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/shiminkyodo/danjokyoudou/Sodan01202504161045.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/shiminkyodo/danjokyoudou/Sodan01202504161045.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/oishii/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/oishii/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/shogaigakushu/backnumber/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/shogaigakushu/backnumber/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/kekaku_torikumi/citypromotion/meikusabae.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/kekaku_torikumi/citypromotion/meikusabae.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/shiminkyodo/chiikikatsudo/Katsuyaku20231109.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/shiminkyodo/chiikikatsudo/Katsuyaku20231109.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/kekaku_torikumi/sonotanotorikumi.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/kekaku_torikumi/sonotanotorikumi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/doro_kasen_koen/koen/nishiyama/nishiyama-annai.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/doro_kasen_koen/koen/nishiyama/nishiyama-annai.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/bunkanoyakata/bunkanoyakata.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/bunkanoyakata/bunkanoyakata.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/manabenoyakata/manabenoyakata.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kosodate_kyoiku/manabenoyakata/manabenoyakata.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/nishiyama_zoo/",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/nishiyama_zoo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/doro_kasen_koen/nishiyamadobutsuen/panda-raibu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/doro_kasen_koen/nishiyamadobutsuen/panda-raibu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/shinoshokai/kokyoshisetsu/shisetsu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/shinoshokai/kokyoshisetsu/shisetsu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/thissite/koukokukeisai.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/thissite/koukokukeisai.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/thissite/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/thissite/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/kekaku_torikumi/kokokujigyo.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/kekaku_torikumi/kokokujigyo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/thissite/inquiry.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/thissite/inquiry.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/hacchumitoshi/HatyuTuika-H28.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/hacchumitoshi/HatyuTuika-H28.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/hacchumitoshi/kojihacchumitoshi.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/hacchumitoshi/kojihacchumitoshi.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/hacchumitoshi/minaoshi.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/hacchumitoshi/minaoshi.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H270423-Kyo1.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H270423-Kyo1.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H270430-Ipn2.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H270430-Ipn2.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H270514-Ipn1.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H270514-Ipn1.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H270528-Ipn2.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H270528-Ipn2.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H270611-ipn2.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H270611-ipn2.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H270730-Itsupan.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H270730-Itsupan.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H270827-Itsupan.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H270827-Itsupan.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H270903-Itsupan.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H270903-Itsupan.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H271008-Itsupan.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H271008-Itsupan.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H271015-Itsupan.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H271015-Itsupan.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H271022-Itsupan.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H271022-Itsupan.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H271029-Itsupan.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H271029-Itsupan.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H271119-Itsupan.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H271119-Itsupan.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H271126-Itsupan.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H271126-Itsupan.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H271217-Itsupan.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H271217-Itsupan.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H271224-Itsupan.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H271224-Itsupan.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H280121-Itsupan.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H280121-Itsupan.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H280210-Itsupan.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu-H280210-Itsupan.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu2-H270521-Ipn2.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/Nyu2-H270521-Ipn2.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/nyu-H270604-Ipn1.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/nyu-H270604-Ipn1.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/nyu-H270702-Itsupan.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/nyu-H270702-Itsupan.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/nyu-H270716-Itsupan.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/nyu-H270716-Itsupan.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/nyu-H270723-itsupan.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/nyu-H270723-itsupan.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/nyu-h270618-ipan.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/27ippankyosonyusatsu/nyu-h270618-ipan.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/28ippankyosonyusatsu/Nyu-H280721-Itsupan.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/ippankyosonyusatsu/28ippankyosonyusatsu/Nyu-H280721-Itsupan.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsu_keiyaku/nyusatsu-keiyaku.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsu_keiyaku/nyusatsu-keiyaku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsu_keiyaku/saiteiseigenkakaku.html",
+          "status": 200,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsu_keiyaku/saiteiseigenkakaku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsu_keiyaku/oshirase/denshinyusatsu.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsu_keiyaku/oshirase/denshinyusatsu.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/Nyu-Ketsuka-H271001.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/Nyu-Ketsuka-H271001.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKestuka-H271217.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKestuka-H271217.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuk-H280210.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuk-H280210.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270416.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270416.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270430T.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270430T.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270528.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270528.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270604.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270604.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270611.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270611.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270618.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270618.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270625.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270625.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270702.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270702.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270709.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270709.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270716.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270716.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270723.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270723.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270730.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270730.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270806.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270806.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270806T.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270806T.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270820.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270820.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270827.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270827.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270903.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270903.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270910.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270910.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270917.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H270917.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271008.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271008.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271015.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271015.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271022.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271022.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271029.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271029.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271104.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271104.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271105.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271105.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271112.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271112.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271119.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271119.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271126.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271126.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271203.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271203.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271210.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271210.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271222.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271222.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271224.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H271224.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H2740430.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H2740430.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H280121.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H280121.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H280128.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H280128.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H280204.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H280204.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H280218.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H280218.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H280303.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H280303.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H280310.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H280310.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H280328.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H280328.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H280329.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKetsuka-H280329.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKtsuka-H270423.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKtsuka-H270423.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKtsuka-H270514.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKtsuka-H270514.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKtsuka-H270521.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/NyuKtsuka-H270521.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/Nyuketsuka-H271001T.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/Nyuketsuka-H271001T.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/Nyuketsuka-H280317.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/27nendonyusatsukekka/Nyuketsuka-H280317.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/28nendonyusatsukekka/10gatsunyusatsu.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/28nendonyusatsukekka/10gatsunyusatsu.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/28nendonyusatsukekka/10gatsunyusatsu1.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/28nendonyusatsukekka/10gatsunyusatsu1.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/28nendonyusatsukekka/20170313174934918.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/28nendonyusatsukekka/20170313174934918.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/28nendonyusatsukekka/4gatsunyusatsu.html",
+          "status": 404,
+          "finalUrl": "https://www.city.sabae.fukui.jp/about_city/bid/nyusatsukekka/28nendonyusatsukekka/4gatsunyusatsu.html",
+          "ok": false
+        }
+      ]
+    }
+  ]
+}

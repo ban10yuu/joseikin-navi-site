@@ -1,0 +1,3741 @@
+{
+  "batchId": "fukui-official-coverage-002",
+  "prefecture": "福井県",
+  "generatedAt": "2026-07-14T16:56:42.553Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 132,
+  "results": [
+    {
+      "code": "18209",
+      "name": "越前市",
+      "officialBaseUrl": "https://www.city.echizen.lg.jp/",
+      "discoveredUrlCount": 220,
+      "candidateCount": 132,
+      "strongCandidateCount": 2,
+      "lowPriorityCandidateCount": 130,
+      "candidates": [
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/index.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/child-rearing/kyoiku/index.html",
+          "status": 200,
+          "title": "学校教育",
+          "h1": "学校教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "免除",
+            "就学",
+            "奨学金"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/kenko/index.html",
+          "status": 200,
+          "title": "健康・医療・保険・年金",
+          "h1": "健康・医療・保険・年金",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/kaigo/index.html",
+          "status": 200,
+          "title": "介護・高齢者福祉",
+          "h1": "介護・高齢者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/shogai/index.html",
+          "status": 200,
+          "title": "障がい者福祉",
+          "h1": "障がい者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/seikatsuhogo/index.html",
+          "status": 200,
+          "title": "生活保護・地域福祉",
+          "h1": "生活保護・地域福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/community-development/anzen/index.html",
+          "status": 200,
+          "title": "安全・安心",
+          "h1": "安全・安心",
+          "updatedAt": "",
+          "keywordHits": [
+            "空き家",
+            "空家"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/community-development/kankyo/index.html",
+          "status": 200,
+          "title": "環境",
+          "h1": "環境",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/community-development/machizukuri/index.html",
+          "status": 200,
+          "title": "まちづくり",
+          "h1": "まちづくり",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空家"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/local-industry/sangyo/index.html",
+          "status": 200,
+          "title": "産業",
+          "h1": "産業",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "創業",
+            "起業",
+            "事業者"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/local-industry/nogyo/index.html",
+          "status": 200,
+          "title": "農業",
+          "h1": "農業",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/local-industry/ringyo/index.html",
+          "status": 200,
+          "title": "林業",
+          "h1": "林業",
+          "updatedAt": "",
+          "keywordHits": [
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/brand/burandingu/index.html",
+          "status": 200,
+          "title": "ブランディング",
+          "h1": "ブランディング",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/hometown/tsunagari/index.html",
+          "status": 200,
+          "title": "地域のつながり",
+          "h1": "地域のつながり",
+          "updatedAt": "令和8年7月5日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/other/zigyosha/index.html",
+          "status": 200,
+          "title": "事業者の方へ",
+          "h1": "事業者の方へ",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/shozoku.html",
+          "status": 200,
+          "title": "組織一覧",
+          "h1": "組織一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/echizen/translation.html",
+          "status": 200,
+          "title": "広報・広聴",
+          "h1": "広報・広聴",
+          "updatedAt": "2023年11月16日",
+          "keywordHits": [
+            "貸付"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/shigoto/index.html",
+          "status": 200,
+          "title": "お問い合わせ - 越前市",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/050/130010/kakusyutetuduki/tyekku.html",
+          "status": 200,
+          "title": "所属別",
+          "h1": "所属別",
+          "updatedAt": "2026年4月22日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/030/015/sikibunnbunnrogo.html",
+          "status": 200,
+          "title": "北陸新幹線",
+          "h1": "北陸新幹線",
+          "updatedAt": "2026年5月12日",
+          "keywordHits": [
+            "事業者",
+            "妊婦"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/070/020/takefutyuokouen.html",
+          "status": 200,
+          "title": "公園",
+          "h1": "公園",
+          "updatedAt": "2023年11月27日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/kankyounourin/051/gomirecycle/dasikata-wakekata.html",
+          "status": 200,
+          "title": "分け方、出し方",
+          "h1": "分け方、出し方",
+          "updatedAt": "2026年2月17日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/050/030/kyuuzitu-yakan/toubani.html",
+          "status": 200,
+          "title": "休日診療当番医",
+          "h1": "休日診療当番医",
+          "updatedAt": "2026年5月14日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/purpose/zigyosha/nyusatsu/index.html",
+          "status": 200,
+          "title": "事業者の方",
+          "h1": "事業者の方",
+          "updatedAt": "令和5年4月1日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/030/011/echizen-line.html",
+          "status": 200,
+          "title": "所属別",
+          "h1": "所属別",
+          "updatedAt": "2025年9月25日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/030/011/furusatonouzeitop2.html",
+          "status": 200,
+          "title": "ふるさと納税",
+          "h1": "ふるさと納税",
+          "updatedAt": "2026年6月9日",
+          "keywordHits": [
+            "支援金",
+            "奨励金",
+            "移住",
+            "住宅",
+            "空き家",
+            "事業者",
+            "農業",
+            "不妊"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/030/021/onlineshishinnsei.html",
+          "status": 200,
+          "title": "所属別",
+          "h1": "所属別",
+          "updatedAt": "2026年3月26日",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "貸付",
+            "減免",
+            "移住",
+            "住宅",
+            "空き家",
+            "空家",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 24,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/060/010/syouhinken.html",
+          "status": 200,
+          "title": "お知らせ",
+          "h1": "お知らせ",
+          "updatedAt": "2026年6月30日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/purpose/shusan/index.html",
+          "status": 200,
+          "title": "出産・子育て",
+          "h1": "出産・子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学",
+            "予防接種",
+            "不妊"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/purpose/hikkoshi/index.html",
+          "status": 200,
+          "title": "引っ越し・すまい",
+          "h1": "引っ越し・すまい",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空家",
+            "耐震"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/purpose/kaigo/index.html",
+          "status": 200,
+          "title": "介護のこと",
+          "h1": "介護のこと",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/purpose/kenko/index.html",
+          "status": 200,
+          "title": "健康",
+          "h1": "健康",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/purpose/hoken-nenkin/index.html",
+          "status": 200,
+          "title": "国民健康保険・ 国民年金のこと",
+          "h1": "国民健康保険・ 国民年金のこと",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/purpose/zigyosha/index.html",
+          "status": 200,
+          "title": "事業者の方",
+          "h1": "事業者の方",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/echizen/portugues.html",
+          "status": 200,
+          "title": "広報・広聴",
+          "h1": "広報・広聴",
+          "updatedAt": "2026年4月15日",
+          "keywordHits": [
+            "貸付",
+            "住宅",
+            "予防接種"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/echizen/chinese.html",
+          "status": 200,
+          "title": "広報・広聴",
+          "h1": "広報・広聴",
+          "updatedAt": "2026年4月15日",
+          "keywordHits": [
+            "貸付"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/echizen/english.html",
+          "status": 200,
+          "title": "広報・広聴",
+          "h1": "広報・広聴",
+          "updatedAt": "2023年11月28日",
+          "keywordHits": [
+            "貸付"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/echizen/vet.html",
+          "status": 200,
+          "title": "広報・広聴",
+          "h1": "広報・広聴",
+          "updatedAt": "2023年11月27日",
+          "keywordHits": [
+            "貸付"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/050/020/okunaiasobiba.html",
+          "status": 200,
+          "title": "子育て支援",
+          "h1": "子育て支援",
+          "updatedAt": "2026年6月19日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種",
+            "不妊"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/050/060/tiikihoukatu/nouryoku.html",
+          "status": 200,
+          "title": "介護予防",
+          "h1": "介護予防",
+          "updatedAt": "2026年6月24日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/070/020/tannan_sougou_park.html",
+          "status": 200,
+          "title": "公園",
+          "h1": "公園",
+          "updatedAt": "2026年7月13日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/050/020/kodomohiroba/kodomohiroba.html",
+          "status": 200,
+          "title": "子ども",
+          "h1": "子ども",
+          "updatedAt": "2026年7月14日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/oshirase/news.html",
+          "status": 200,
+          "title": "おしらせ",
+          "h1": "おしらせ",
+          "updatedAt": "令和8年6月25日",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/050/020/kateijidousoudan/kosodatejouhou.html",
+          "status": 200,
+          "title": "子育て支援",
+          "h1": "子育て支援",
+          "updatedAt": "2026年6月26日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種",
+            "不妊"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/event/event.html",
+          "status": 200,
+          "title": "イベント",
+          "h1": "イベント",
+          "updatedAt": "",
+          "keywordHits": [
+            "起業",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/030/021/open-data-echizen.html",
+          "status": 200,
+          "title": "デジタル",
+          "h1": "デジタル",
+          "updatedAt": "2026年3月16日",
+          "keywordHits": [
+            "貸付"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/010/080/tyousya.html",
+          "status": 200,
+          "title": "庁舎のご案内 - 越前市",
+          "h1": "",
+          "updatedAt": "2025年11月21日",
+          "keywordHits": [
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/other/soshiki/shisetsu/index.html",
+          "status": 200,
+          "title": "施設一覧",
+          "h1": "施設一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/030/021/tizujouhou.html",
+          "status": 200,
+          "title": "デジタル",
+          "h1": "デジタル",
+          "updatedAt": "2023年11月27日",
+          "keywordHits": [
+            "貸付",
+            "住宅"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/030/011/rinku.html",
+          "status": 200,
+          "title": "広報・広聴",
+          "h1": "広報・広聴",
+          "updatedAt": "2024年7月23日",
+          "keywordHits": [
+            "貸付"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/echizen/sitep.html",
+          "status": 200,
+          "title": "広報・広聴",
+          "h1": "広報・広聴",
+          "updatedAt": "2023年11月16日",
+          "keywordHits": [
+            "貸付"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/echizen/privacyp.html",
+          "status": 200,
+          "title": "広報・広聴",
+          "h1": "広報・広聴",
+          "updatedAt": "2024年1月5日",
+          "keywordHits": [
+            "貸付"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/030/021/securitypolicy.html",
+          "status": 200,
+          "title": "デジタル",
+          "h1": "デジタル",
+          "updatedAt": "2026年3月17日",
+          "keywordHits": [
+            "貸付",
+            "農業"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/child-rearing/index.html",
+          "status": 200,
+          "title": "未来へ続く子育て・教育",
+          "h1": "未来へ続く子育て・教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/050/020/kateijidousoudan/kodomoibasyo.html",
+          "status": 200,
+          "title": "お知らせ",
+          "h1": "お知らせ",
+          "updatedAt": "2026年4月21日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/050/020/kodomojorei/kodomo_iken_hiroba.html",
+          "status": 200,
+          "title": "こども計画、こどもの幸福条例等",
+          "h1": "こども計画、こどもの幸福条例等",
+          "updatedAt": "2025年9月18日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/ninshin/index.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/boshihoken/index.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/shussan/index.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "不妊"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/hoikuen/index.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/nyuen/index.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/teate/index.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/kosodateshien/index.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/kyoshitsu/index.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/kenshin/index.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/shogai/index.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/hitorioya/index.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/oenshi/index.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/oshirase/index.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/keikaku/index.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/090/010/chiikiclub.html",
+          "status": 200,
+          "title": "部活動の「地域クラブ活動」への展開",
+          "h1": "部活動の「地域クラブ活動」への展開",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/090/010/nintei.html",
+          "status": 200,
+          "title": "お知らせ",
+          "h1": "お知らせ",
+          "updatedAt": "2026年6月22日",
+          "keywordHits": [
+            "貸付",
+            "免除",
+            "就学",
+            "奨学金"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/child-rearing/kyoiku/shugaku/index.html",
+          "status": 200,
+          "title": "学校教育",
+          "h1": "学校教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "就学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/child-rearing/kyoiku/shogakukin/index.html",
+          "status": 200,
+          "title": "学校教育",
+          "h1": "学校教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "免除",
+            "奨学金"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/child-rearing/kyoiku/oshirase/index.html",
+          "status": 200,
+          "title": "学校教育",
+          "h1": "学校教育",
+          "updatedAt": "令和8年6月25日",
+          "keywordHits": [
+            "補助金",
+            "免除",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/child-rearing/gakushu/kominkan/index.html",
+          "status": 200,
+          "title": "生涯学習",
+          "h1": "生涯学習",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/index.html",
+          "status": 200,
+          "title": "100年人生健康で長寿",
+          "h1": "100年人生健康で長寿",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/050/030/kenkouzukuri/topikkusu08.html",
+          "status": 200,
+          "title": "健康づくり",
+          "h1": "健康づくり",
+          "updatedAt": "2026年7月14日",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/050/030/kansenshou/hashika.html",
+          "status": 200,
+          "title": "お知らせ",
+          "h1": "お知らせ",
+          "updatedAt": "2026年5月12日",
+          "keywordHits": [
+            "福祉",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/050/030/kokorosoudan.html",
+          "status": 200,
+          "title": "こころの健康",
+          "h1": "こころの健康",
+          "updatedAt": "2026年4月28日",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/050/030/cooling_shelter.html",
+          "status": 200,
+          "title": "健康づくり",
+          "h1": "健康づくり",
+          "updatedAt": "2026年4月20日",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/050/030/kenkouzukuri/nettyuusyou.html",
+          "status": 200,
+          "title": "お知らせ",
+          "h1": "お知らせ",
+          "updatedAt": "2026年4月20日",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/kenko/kenko/index.html",
+          "status": 200,
+          "title": "健康・医療・保険・年金",
+          "h1": "健康・医療・保険・年金",
+          "updatedAt": "令和8年5月15日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/kenko/yobo/index.html",
+          "status": 200,
+          "title": "健康・医療・保険・年金",
+          "h1": "健康・医療・保険・年金",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/kenko/kokuminkenkohoken/index.html",
+          "status": 200,
+          "title": "健康・医療・保険・年金",
+          "h1": "健康・医療・保険・年金",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/050/060/koureisyafukusi/gaidobukku.html",
+          "status": 200,
+          "title": "所属別",
+          "h1": "所属別",
+          "updatedAt": "2026年4月2日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/050/060/fukuginrenkei.html",
+          "status": 200,
+          "title": "所属別",
+          "h1": "所属別",
+          "updatedAt": "2026年2月25日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/050/060/sannsharennkei.html",
+          "status": 200,
+          "title": "所属別",
+          "h1": "所属別",
+          "updatedAt": "2025年12月3日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/050/060/gekireikai.html",
+          "status": 200,
+          "title": "お知らせ",
+          "h1": "お知らせ",
+          "updatedAt": "2025年10月10日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/050/060/cyoujyufukushikatopikkusu.html",
+          "status": 200,
+          "title": "お知らせ",
+          "h1": "お知らせ",
+          "updatedAt": "2025年9月21日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/kaigo/nintei/index.html",
+          "status": 200,
+          "title": "介護・高齢者福祉",
+          "h1": "介護・高齢者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/kaigo/yobo/index.html",
+          "status": 200,
+          "title": "介護・高齢者福祉",
+          "h1": "介護・高齢者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/kaigo/shien/index.html",
+          "status": 200,
+          "title": "介護・高齢者福祉",
+          "h1": "介護・高齢者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/kaigo/koreishafukushi/index.html",
+          "status": 200,
+          "title": "介護・高齢者福祉",
+          "h1": "介護・高齢者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/kaigo/ninchisho/index.html",
+          "status": 200,
+          "title": "介護・高齢者福祉",
+          "h1": "介護・高齢者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/kaigo/oshirase/index.html",
+          "status": 200,
+          "title": "介護・高齢者福祉",
+          "h1": "介護・高齢者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "奨励金",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/kaigo/keikaku/index.html",
+          "status": 200,
+          "title": "介護・高齢者福祉",
+          "h1": "介護・高齢者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/050/010/syougai-sonota/helpcard.html",
+          "status": 200,
+          "title": "お知らせ",
+          "h1": "お知らせ",
+          "updatedAt": "2026年7月13日",
+          "keywordHits": [
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/050/010/syougai-sonota/syougai-week2025-1.html",
+          "status": 200,
+          "title": "お知らせ",
+          "h1": "お知らせ",
+          "updatedAt": "2025年12月25日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/050/010/syuwa/syuwagenngokokusaide-.html",
+          "status": 200,
+          "title": "お知らせ",
+          "h1": "お知らせ",
+          "updatedAt": "2025年12月2日",
+          "keywordHits": [
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/shogai/teate/index.html",
+          "status": 200,
+          "title": "障がい者福祉",
+          "h1": "障がい者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/shogai/josei/index.html",
+          "status": 200,
+          "title": "障がい者福祉",
+          "h1": "障がい者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/shogai/service/index.html",
+          "status": 200,
+          "title": "障がい者福祉",
+          "h1": "障がい者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/shogai/sonota/index.html",
+          "status": 200,
+          "title": "障がい者福祉",
+          "h1": "障がい者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/shogai/techo/index.html",
+          "status": 200,
+          "title": "障がい者福祉",
+          "h1": "障がい者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/shogai/oshirase/index.html",
+          "status": 200,
+          "title": "障がい者福祉",
+          "h1": "障がい者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/shogai/keikaku/index.html",
+          "status": 200,
+          "title": "障がい者福祉",
+          "h1": "障がい者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/050/010/saikosaitsuikakyufu.html",
+          "status": 200,
+          "title": "所属別",
+          "h1": "所属別",
+          "updatedAt": "2026年6月26日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/050/010/r7kurashiouenkyufu.html",
+          "status": 200,
+          "title": "所属別",
+          "h1": "所属別",
+          "updatedAt": "2026年6月25日",
+          "keywordHits": [
+            "給付金",
+            "免除",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/seikatsuhogo/seikatsuhogo/index.html",
+          "status": 200,
+          "title": "生活保護・地域福祉",
+          "h1": "生活保護・地域福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/seikatsuhogo/minsei/index.html",
+          "status": 200,
+          "title": "生活保護・地域福祉",
+          "h1": "生活保護・地域福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/seikatsuhogo/seikatsukonkyu/index.html",
+          "status": 200,
+          "title": "生活保護・地域福祉",
+          "h1": "生活保護・地域福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/seikatsuhogo/oshirase/index.html",
+          "status": 200,
+          "title": "生活保護・地域福祉",
+          "h1": "生活保護・地域福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/longevity/seikatsuhogo/keikaku/index.html",
+          "status": 200,
+          "title": "生活保護・地域福祉",
+          "h1": "生活保護・地域福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/community-development/index.html",
+          "status": 200,
+          "title": "安全・安心なまちづくり",
+          "h1": "安全・安心なまちづくり",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "空家"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/070/040/akiyayoutaisakukeikaku.html",
+          "status": 200,
+          "title": "空き家",
+          "h1": "空き家",
+          "updatedAt": "2026年3月24日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "空家"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/community-development/anzen/bohan/index.html",
+          "status": 200,
+          "title": "安全・安心",
+          "h1": "安全・安心",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/community-development/anzen/akiya/index.html",
+          "status": 200,
+          "title": "安全・安心",
+          "h1": "安全・安心",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "空き家",
+            "空家"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/kankyounourin/051/hojyoseido/kyutou.html",
+          "status": 200,
+          "title": "所属別",
+          "h1": "所属別",
+          "updatedAt": "2026年7月7日",
+          "keywordHits": [
+            "補助金",
+            "事業者"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/community-development/kankyo/hozen/index.html",
+          "status": 200,
+          "title": "環境",
+          "h1": "環境",
+          "updatedAt": "",
+          "keywordHits": [
+            "奨励金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/community-development/kankyo/gomi/index.html",
+          "status": 200,
+          "title": "環境",
+          "h1": "環境",
+          "updatedAt": "",
+          "keywordHits": [
+            "奨励金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/community-development/kankyo/petto/index.html",
+          "status": 200,
+          "title": "環境",
+          "h1": "環境",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "不妊"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/community-development/kankyo/datsutanso/index.html",
+          "status": 200,
+          "title": "環境",
+          "h1": "環境",
+          "updatedAt": "令和3年8月19日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "省エネ"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/070/040/teijyu/soukiketsudan.html",
+          "status": 200,
+          "title": "補助金",
+          "h1": "補助金",
+          "updatedAt": "2026年6月30日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空家"
+          ],
+          "candidateScore": 20,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/070/030/gesui_kaitei.html",
+          "status": 200,
+          "title": "上下水道",
+          "h1": "上下水道",
+          "updatedAt": "2026年6月19日",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/070/040/teijyu/shinchikujyuutakusyutoku.html",
+          "status": 200,
+          "title": "補助金",
+          "h1": "補助金",
+          "updatedAt": "2026年6月11日",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "空家",
+            "農業",
+            "子育て",
+            "奨学金",
+            "耐震"
+          ],
+          "candidateScore": 23,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/office/030/015/demandbus.html",
+          "status": 200,
+          "title": "お知らせ",
+          "h1": "お知らせ",
+          "updatedAt": "2026年6月3日",
+          "keywordHits": [
+            "住宅",
+            "通学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/community-development/machizukuri/doro/index.html",
+          "status": 200,
+          "title": "まちづくり",
+          "h1": "まちづくり",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18209",
+          "municipalityName": "越前市",
+          "sourceUrl": "https://www.city.echizen.lg.jp/community-development/machizukuri/jutaku/index.html",
+          "status": 200,
+          "title": "まちづくり",
+          "h1": "まちづくり",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空家",
+            "耐震"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.echizen.lg.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.echizen.lg.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.echizen.lg.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.city.echizen.lg.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/kyoiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/kyoiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/gakushu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/gakushu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/suports/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/suports/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/kenko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/kenko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/kaigo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/kaigo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/shogai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/shogai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/seikatsuhogo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/seikatsuhogo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/bosai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/bosai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/anzen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/anzen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/kankyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/kankyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/machizukuri/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/machizukuri/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/local-industry/sangyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/local-industry/sangyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/local-industry/nogyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/local-industry/nogyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/local-industry/ringyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/local-industry/ringyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/brand/kanko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/brand/kanko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/brand/rekishi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/brand/rekishi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/brand/burandingu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/brand/burandingu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/hometown/tsunagari/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/hometown/tsunagari/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/hometown/shisei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/hometown/shisei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/hometown/tetsuzuki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/hometown/tetsuzuki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/other/zigyosha/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/other/zigyosha/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/shozoku.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/shozoku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/echizen/translation.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/echizen/translation.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/shigoto/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/shigoto/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/050/130010/kakusyutetuduki/tyekku.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/050/130010/kakusyutetuduki/tyekku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/030/015/sikibunnbunnrogo.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/030/015/sikibunnbunnrogo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/070/020/takefutyuokouen.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/070/020/takefutyuokouen.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/kankyounourin/051/gomirecycle/dasikata-wakekata.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/kankyounourin/051/gomirecycle/dasikata-wakekata.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/050/030/kyuuzitu-yakan/toubani.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/050/030/kyuuzitu-yakan/toubani.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/purpose/zigyosha/nyusatsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/purpose/zigyosha/nyusatsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/030/011/echizen-line.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/030/011/echizen-line.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/030/011/furusatonouzeitop2.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/030/011/furusatonouzeitop2.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/030/021/onlineshishinnsei.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/030/021/onlineshishinnsei.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/030/010/unesco_creative.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/010/0501/unesco_creative.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/060/010/syouhinken.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/060/010/syouhinken.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/purpose/shusan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/purpose/shusan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/purpose/hoiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/purpose/hoiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/purpose/gakko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/purpose/gakko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/purpose/konin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/purpose/konin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/purpose/hikkoshi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/purpose/hikkoshi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/purpose/fuko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/purpose/fuko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/purpose/gomi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/purpose/gomi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/purpose/kaigo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/purpose/kaigo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/purpose/kenko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/purpose/kenko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/purpose/zei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/purpose/zei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/purpose/hoken-nenkin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/purpose/hoken-nenkin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/purpose/todokede-shomei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/purpose/todokede-shomei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/purpose/zigyosha/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/purpose/zigyosha/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/purpose/kokyokotsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/purpose/kokyokotsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/purpose/denshishinsei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/purpose/denshishinsei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/purpose/staffrecruitment/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/purpose/staffrecruitment/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/if/kenko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/if/kenko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/if/saigai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/if/saigai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/if/sodan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/if/sodan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/echizen/portugues.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/echizen/portugues.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/echizen/chinese.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/echizen/chinese.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/echizen/english.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/echizen/english.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/echizen/vet.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/echizen/vet.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/topics.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/topics.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/kankyounourin/051/gomirecycle/siteigaigomibukuro.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/kankyounourin/051/gomirecycle/siteigaigomibukuro.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/050/020/okunaiasobiba.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/050/020/okunaiasobiba.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/050/060/tiikihoukatu/nouryoku.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/050/060/tiikihoukatu/nouryoku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/070/020/tannan_sougou_park.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/070/020/tannan_sougou_park.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/010/030/r8nizikekkaa.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/010/030/r8nizikekkaa.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/news.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/news.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/090/020/kyushokufea.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/090/020/kyushokufea.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/050/020/kodomohiroba/kodomohiroba.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/050/020/kodomohiroba/kodomohiroba.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/010/030/r86tuunenitizi.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/010/030/r86tuunenitizi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/oshirase/news.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/oshirase/news.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/050/020/kateijidousoudan/kosodatejouhou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/050/020/kateijidousoudan/kosodatejouhou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/010/0501/bunkasannkanivent.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/010/0501/bunkasannkanivent.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/060/100/kamihaku20260715.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/060/100/kamihaku20260715.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/010/0501/mi-lab2.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/010/0501/mi-lab2.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/event/event.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/event/event.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/other/shicho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/other/shicho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/110/echizenshigikai.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/110/echizenshigikai.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/030/011/r8kouhou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/030/011/r8kouhou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/030/011/purofu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/030/011/purofu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/030/021/open-data-echizen.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/030/021/open-data-echizen.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.echizen.lg.jp/office/090/030/bunkasisetu/kokaido-top.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/010/0501/kokaido-top.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/inquiry/mailform010010.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/inquiry/mailform010010.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/010/080/tyousya.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/010/080/tyousya.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/other/soshiki/shisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/other/soshiki/shisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/030/021/tizujouhou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/030/021/tizujouhou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/030/011/rinku.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/030/011/rinku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/echizen/sitep.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/echizen/sitep.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/echizen/privacyp.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/echizen/privacyp.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/030/021/securitypolicy.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/030/021/securitypolicy.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/050/020/kateijidousoudan/kodomoibasyo.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/050/020/kateijidousoudan/kodomoibasyo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/050/020/kodomojorei/kodomo_iken_hiroba.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/050/020/kodomojorei/kodomo_iken_hiroba.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/090/010/youtien1.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/090/010/youtien1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/kosodate/ninshin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/ninshin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/kosodate/boshihoken/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/boshihoken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/kosodate/shussan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/shussan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/kosodate/hoikuen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/hoikuen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/kosodate/nyuen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/nyuen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/kosodate/teate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/teate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/kosodate/kosodateshien/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/kosodateshien/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/kosodate/kyoshitsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/kyoshitsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/kosodate/kenshin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/kenshin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/kosodate/shogai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/shogai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/kosodate/hitorioya/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/hitorioya/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/kosodate/oenshi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/oenshi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/kosodate/oshirase/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/oshirase/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/kosodate/keikaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/kosodate/keikaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/090/010/chiikiclub.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/090/010/chiikiclub.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/090/010/shiguideline.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/090/010/shiguideline.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/090/010/nintei.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/090/010/nintei.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/kyoiku/yochien/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/kyoiku/yochien/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/kyoiku/shugaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/kyoiku/shugaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/kyoiku/nyugaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/kyoiku/nyugaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/kyoiku/shogakukin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/kyoiku/shogakukin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/kyoiku/kyushoku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/kyoiku/kyushoku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/kyoiku/oshirase/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/kyoiku/oshirase/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/kyoiku/keikaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/kyoiku/keikaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/090/060/minnadetosyokanhe.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/090/060/minnadetosyokanhe.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/gakushu/kominkan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/gakushu/kominkan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/gakushu/kodomokyoshitsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/gakushu/kodomokyoshitsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/gakushu/shakaikyoiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/gakushu/shakaikyoiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/gakushu/seishonen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/gakushu/seishonen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/gakushu/toshokan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/gakushu/toshokan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/gakushu/katei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/gakushu/katei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/gakushu/oshirase/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/gakushu/oshirase/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/gakushu/keikaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/gakushu/keikaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/010/040/esparkle.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/010/040/esparkle.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/010/040/suposyou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/010/040/suposyou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/010/040/taiikusidouiin.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/010/040/taiikusidouiin.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/010/040/sinkou/kikkamarathon/marasonn.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/010/040/sinkou/kikkamarathon/marasonn.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/suports/shisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/suports/shisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/suports/dantai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/suports/dantai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/suports/taikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/suports/taikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/suports/shinko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/suports/shinko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/suports/oshirase/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/suports/oshirase/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/child-rearing/suports/keikaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/child-rearing/suports/keikaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/050/030/kenkouzukuri/topikkusu08.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/050/030/kenkouzukuri/topikkusu08.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/050/030/kansenshou/hashika.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/050/030/kansenshou/hashika.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/050/030/kokorosoudan.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/050/030/kokorosoudan.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/050/030/cooling_shelter.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/050/030/cooling_shelter.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/050/030/kenkouzukuri/nettyuusyou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/050/030/kenkouzukuri/nettyuusyou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/kenko/kenko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/kenko/kenko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/kenko/kokoro/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/kenko/kokoro/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/kenko/kokikorei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/kenko/kokikorei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/kenko/kansen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/kenko/kansen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/kenko/yobo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/kenko/yobo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/kenko/kenkoshinsa/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/kenko/kenkoshinsa/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/kenko/kokuminkenkohoken/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/kenko/kokuminkenkohoken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/kenko/oshirase/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/kenko/oshirase/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/kenko/keikaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/kenko/keikaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/050/060/koureisyafukusi/gaidobukku.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/050/060/koureisyafukusi/gaidobukku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/050/060/fukuginrenkei.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/050/060/fukuginrenkei.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/050/060/sannsharennkei.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/050/060/sannsharennkei.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/050/060/gekireikai.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/050/060/gekireikai.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/050/060/cyoujyufukushikatopikkusu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/050/060/cyoujyufukushikatopikkusu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/kaigo/nintei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/kaigo/nintei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/kaigo/yobo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/kaigo/yobo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/kaigo/shien/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/kaigo/shien/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/kaigo/koreishafukushi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/kaigo/koreishafukushi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/kaigo/ninchisho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/kaigo/ninchisho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/kaigo/oshirase/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/kaigo/oshirase/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/kaigo/keikaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/kaigo/keikaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/050/010/syougai-sonota/helpcard.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/050/010/syougai-sonota/helpcard.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/050/010/syougai-sonota/syougai-week2025-1.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/050/010/syougai-sonota/syougai-week2025-1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/050/010/syuwa/syuwagenngokokusaide-.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/050/010/syuwa/syuwagenngokokusaide-.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/shogai/teate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/shogai/teate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/shogai/josei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/shogai/josei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/shogai/service/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/shogai/service/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/shogai/sonota/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/shogai/sonota/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/shogai/techo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/shogai/techo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/shogai/oshirase/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/shogai/oshirase/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/shogai/keikaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/shogai/keikaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/050/010/saikosaitsuikakyufu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/050/010/saikosaitsuikakyufu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/050/010/r7kurashiouenkyufu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/050/010/r7kurashiouenkyufu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/seikatsuhogo/seikatsuhogo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/seikatsuhogo/seikatsuhogo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/seikatsuhogo/minsei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/seikatsuhogo/minsei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/seikatsuhogo/seikatsukonkyu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/seikatsuhogo/seikatsukonkyu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/seikatsuhogo/oshirase/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/seikatsuhogo/oshirase/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/longevity/seikatsuhogo/keikaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/longevity/seikatsuhogo/keikaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/010/060/bousai/bousairi-da.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/010/060/bousai/bousairi-da.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/bosai/bosai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/bosai/bosai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/bosai/sonae/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/bosai/sonae/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/bosai/hisaisha/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/bosai/hisaisha/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/bosai/oshirase/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/bosai/oshirase/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/bosai/keikaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/bosai/keikaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/070/040/akiyayoutaisakukeikaku.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/070/040/akiyayoutaisakukeikaku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/anzen/anzen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/anzen/anzen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/anzen/seikatsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/anzen/seikatsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/anzen/bohan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/anzen/bohan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/anzen/akiya/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/anzen/akiya/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/anzen/henno/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/anzen/henno/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/anzen/keikaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/anzen/keikaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/kankyounourin/051/hojyoseido/kyutou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/kankyounourin/051/hojyoseido/kyutou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/kankyounourin/051/gakuyohin.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/kankyounourin/051/gakuyohin.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/kankyounourin/051/gomirecycle/haisyokuyu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/kankyounourin/051/gomirecycle/haisyokuyu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/kankyounourin/051/gomirecycle/syuusyuubigai.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/kankyounourin/051/gomirecycle/syuusyuubigai.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/kankyounourin/051/ecovillage-event.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/kankyounourin/051/ecovillage-event.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/kankyo/hozen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/kankyo/hozen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/kankyo/kogai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/kankyo/kogai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/kankyo/kankyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/kankyo/kankyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/kankyo/gomi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/kankyo/gomi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/kankyo/petto/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/kankyo/petto/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/kankyo/datsutanso/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/kankyo/datsutanso/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/kankyo/oshirase/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/kankyo/oshirase/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/kankyo/keikaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/kankyo/keikaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/070/040/teijyu/soukiketsudan.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/070/040/teijyu/soukiketsudan.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/070/030/gesui_kaitei.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/070/030/gesui_kaitei.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/070/040/teijyu/shinchikujyuutakusyutoku.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/070/040/teijyu/shinchikujyuutakusyutoku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/office/030/015/demandbus.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/office/030/015/demandbus.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/machizukuri/doro/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/machizukuri/doro/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/machizukuri/shiminbus/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/machizukuri/shiminbus/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.echizen.lg.jp/community-development/machizukuri/jutaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.echizen.lg.jp/community-development/machizukuri/jutaku/index.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

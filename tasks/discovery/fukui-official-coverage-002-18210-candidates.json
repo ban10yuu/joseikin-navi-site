@@ -1,0 +1,5370 @@
+{
+  "batchId": "fukui-official-coverage-002",
+  "prefecture": "福井県",
+  "generatedAt": "2026-07-14T16:57:09.348Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 203,
+  "results": [
+    {
+      "code": "18210",
+      "name": "坂井市",
+      "officialBaseUrl": "https://www.city.fukui-sakai.lg.jp/",
+      "discoveredUrlCount": 220,
+      "candidateCount": 203,
+      "strongCandidateCount": 5,
+      "lowPriorityCandidateCount": 198,
+      "candidates": [
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/",
+          "status": 200,
+          "title": "坂井市",
+          "h1": "坂井市",
+          "updatedAt": "令和8年10月1日",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "空き家",
+            "起業",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/robots.txt",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/henko.html",
+          "status": 200,
+          "title": "文字サイズ・色合いの変更",
+          "h1": "文字サイズ・色合いの変更",
+          "updatedAt": "2022年5月11日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisei/koho/homepage/keitai.html",
+          "status": 200,
+          "title": "携帯サイトのご案内",
+          "h1": "携帯サイトのご案内",
+          "updatedAt": "2021年5月12日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/foreign.html",
+          "status": 200,
+          "title": "Foreign&nbsp;Language【外国語（がいこくご）のおしらせ】",
+          "h1": "Foreign&nbsp;Language【外国語（がいこくご）のおしらせ】",
+          "updatedAt": "2021年5月12日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "2021年5月12日",
+          "keywordHits": [
+            "移住",
+            "事業者",
+            "水産",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/index.html",
+          "status": 200,
+          "title": "坂井市",
+          "h1": "坂井市",
+          "updatedAt": "令和8年10月1日",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "空き家",
+            "起業",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/bosai-bohan/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/kurashi/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て",
+            "不妊"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/kosodate/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/kenko/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/kanko-bunka/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/jigyosha/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年10月1日",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "農業",
+            "林業",
+            "水産",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/shisei/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/bunka/documents/schedyule_202607_2.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/iju/fanclub.html",
+          "status": 200,
+          "title": "坂井市公式ファンクラブ「坂＃会」",
+          "h1": "坂井市公式ファンクラブ「坂＃会」",
+          "updatedAt": "2025年12月1日",
+          "keywordHits": [
+            "移住",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/kikakuseisaku/shisei/kifu/furusato/furusato-nozei.html",
+          "status": 200,
+          "title": "ふるさと納税について",
+          "h1": "ふるさと納税について",
+          "updatedAt": "2025年3月11日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/kurashi/gomi/shushubi/index.html",
+          "status": 200,
+          "title": "収集日",
+          "h1": "収集日",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/kokyokotsu/kurashi/toshi-keikaku/kotsu/on-demand.html",
+          "status": 200,
+          "title": "イータク（坂井市オンデマンド型交通）について",
+          "h1": "イータク（坂井市オンデマンド型交通）について",
+          "updatedAt": "2026年4月20日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/shinsei/index.html",
+          "status": 200,
+          "title": "申請・届出",
+          "h1": "申請・届出",
+          "updatedAt": "令和7年3月31日",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "減免",
+            "免除",
+            "医療費助成",
+            "住宅",
+            "空き家",
+            "空家",
+            "事業者",
+            "農業",
+            "水産",
+            "福祉",
+            "子育て",
+            "耐震",
+            "予防接種",
+            "不妊",
+            "通学"
+          ],
+          "candidateScore": 24,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/shimin/kurashi/koseki/shomeisho/kakusyu.html",
+          "status": 200,
+          "title": "各種証明書（戸籍、住民票、印鑑登録など）について",
+          "h1": "各種証明書（戸籍、住民票、印鑑登録など）について",
+          "updatedAt": "2025年12月11日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/hoiku/kosodate/kosodate/hoiku/syuurousyoumeisyo.html",
+          "status": 200,
+          "title": "就労証明書を作成していただく事業者様へ",
+          "h1": "就労証明書を作成していただく事業者様へ",
+          "updatedAt": "2025年9月24日",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/kazei/kurashi/zeikin/kojin/shinkoku-hukakizitsu.html",
+          "status": 200,
+          "title": "市民税・県民税申告が必要かどうかのご案内",
+          "h1": "市民税・県民税申告が必要かどうかのご案内",
+          "updatedAt": "2025年11月13日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisei/koho/homepage/kensaku-no-hinto.html",
+          "status": 200,
+          "title": "検索のヒント",
+          "h1": "検索のヒント",
+          "updatedAt": "2022年8月31日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/faq/index.html",
+          "status": 200,
+          "title": "よくあるご質問",
+          "h1": "よくあるご質問",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "水産",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/kanri/jigyosha/nyusatsu/kokoku/20261001kaitou1.html",
+          "status": 200,
+          "title": "一般競争電子入札【令和8年10月1日開札分】質疑回答について",
+          "h1": "一般競争電子入札【令和8年10月1日開札分】質疑回答について",
+          "updatedAt": "2026年7月14日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/kanri/jigyosha/nyusatsu/kokoku/20260722kaitou.html",
+          "status": 200,
+          "title": "一般競争電子入札【令和8年7月22日開札分】質疑回答について",
+          "h1": "一般競争電子入札【令和8年7月22日開札分】質疑回答について",
+          "updatedAt": "2026年7月14日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/syoukou/jigyosha/shokogyo/yuchi/akikojo-list.html",
+          "status": 200,
+          "title": "空き工場、店舗等リスト",
+          "h1": "空き工場、店舗等リスト",
+          "updatedAt": "2026年7月14日",
+          "keywordHits": [
+            "奨励金",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/syoukou/jigyosha/shokogyo/yuchi/akikojo87.html",
+          "status": 200,
+          "title": "空き工場の詳細情報87",
+          "h1": "空き工場の詳細情報87",
+          "updatedAt": "2026年7月14日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/shogai-gakusyu/event/r8/20260822radiotaisou.html",
+          "status": 200,
+          "title": "【坂井市制施行20周年記念】2026年度夏期巡回ラジオ体操・みんなの体操会",
+          "h1": "【坂井市制施行20周年記念】2026年度夏期巡回ラジオ体操・みんなの体操会",
+          "updatedAt": "2026年7月13日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/iju/chara.html",
+          "status": 200,
+          "title": "【坂井市公式キャラクター】坂井ほや丸（お仕事スケジュール）",
+          "h1": "【坂井市公式キャラクター】坂井ほや丸（お仕事スケジュール）",
+          "updatedAt": "2026年7月14日",
+          "keywordHits": [
+            "移住",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/hoiku/kosodate/kosodate/hoiku/hoiku/chourisiboshu3.html",
+          "status": 200,
+          "title": "公立保育園の保育士（会計年度任用職員）を募集します",
+          "h1": "公立保育園の保育士（会計年度任用職員）を募集します",
+          "updatedAt": "2026年7月14日",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/kanri/jigyosha/nyusatsu/kekka/nyusatsu-kekka8.html",
+          "status": 200,
+          "title": "坂井市入札結果について（令和8年度開札分）",
+          "h1": "坂井市入札結果について（令和8年度開札分）",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/shogai-gakusyu/suposui/2024suposui.html",
+          "status": 200,
+          "title": "坂井市スポーツ推進委員会",
+          "h1": "坂井市スポーツ推進委員会",
+          "updatedAt": "2026年7月13日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/shinchaku/index.html",
+          "status": 200,
+          "title": "新着情報",
+          "h1": "新着情報",
+          "updatedAt": "令和8年10月1日",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "空き家",
+            "空家",
+            "起業",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て",
+            "省エネ",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/tosyo-miku/event/juniasisyo/r7juniasisyo.html",
+          "status": 200,
+          "title": "「目指そう！図書館マスタージュニア司書」30日から養成講座、参加児童募る",
+          "h1": "「目指そう！図書館マスタージュニア司書」30日から養成講座、参加児童募る",
+          "updatedAt": "2026年7月14日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/syoukou/houdou/r8kigyou.html",
+          "status": 200,
+          "title": "【起業家支援イベント】「Start&nbsp;Hub&nbsp;SAKAI」31日にキックオフ、&nbsp;参加募る",
+          "h1": "【起業家支援イベント】「Start&nbsp;Hub&nbsp;SAKAI」31日にキックオフ、&nbsp;参加募る",
+          "updatedAt": "2026年7月14日",
+          "keywordHits": [
+            "起業",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/zoshin/houdou/herusioresipikontesuto.html",
+          "status": 200,
+          "title": "へるしおレシピコンテストを開催、8月31日までレシピを募ります",
+          "h1": "へるしおレシピコンテストを開催、8月31日までレシピを募ります",
+          "updatedAt": "2026年7月13日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/bunka/houdou/gekireikai0716.html",
+          "status": 200,
+          "title": "7月16日に全国文化芸術大会出場激励会を開催します(藤島高等学校・坂井高等学校・坂井市かるた協会)",
+          "h1": "7月16日に全国文化芸術大会出場激励会を開催します(藤島高等学校・坂井高等学校・坂井市かるた協会)",
+          "updatedAt": "2026年7月8日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/kikakuseisaku/houdou/degital-kitakubu_kickoff2025.html",
+          "status": 200,
+          "title": "「坂井市デジタル帰宅部」始動&nbsp;18日にキックオフイベント！",
+          "h1": "「坂井市デジタル帰宅部」始動&nbsp;18日にキックオフイベント！",
+          "updatedAt": "2026年7月7日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/nogyoshinko/060803_sobauchi.html",
+          "status": 200,
+          "title": "８月８日に素人そば打ち段位認定会＆全日本素人そば打ち名人大会予選会",
+          "h1": "８月８日に素人そば打ち段位認定会＆全日本素人そば打ち名人大会予選会",
+          "updatedAt": "2026年5月21日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/kanko/houdou/hanabi-sanchumc.html",
+          "status": 200,
+          "title": "【三国花火】7月9日に中学生MCオーディションを開催！",
+          "h1": "【三国花火】7月9日に中学生MCオーディションを開催！",
+          "updatedAt": "2026年7月7日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/ryushokan/2026event/kyousaiten2026.html",
+          "status": 200,
+          "title": "【坂井市龍翔博物館】「きらめく鉱物の世界展」開幕を前に17日メディア向け内覧会",
+          "h1": "【坂井市龍翔博物館】「きらめく鉱物の世界展」開幕を前に17日メディア向け内覧会",
+          "updatedAt": "2026年7月8日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bohan/20260707koukouseikagi.html",
+          "status": 200,
+          "title": "坂井市高校生防犯会議（第１回）の開催について",
+          "h1": "坂井市高校生防犯会議（第１回）の開催について",
+          "updatedAt": "2026年7月3日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/press/index.html",
+          "status": 200,
+          "title": "報道発表",
+          "h1": "報道発表",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "起業",
+            "事業者",
+            "福祉",
+            "子育て",
+            "耐震",
+            "通学"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/shisei/koho/koho-sakai/index.html",
+          "status": 200,
+          "title": "広報さかい",
+          "h1": "広報さかい",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/shisei/shicho/index.html",
+          "status": 200,
+          "title": "市長の部屋",
+          "h1": "市長の部屋",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/gikai/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/koho/application/index.html",
+          "status": 200,
+          "title": "便利アプリ",
+          "h1": "便利アプリ",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/cgi-bin/event_cal_multi/calendar.cgi",
+          "status": 200,
+          "title": "イベントカレンダー",
+          "h1": "イベントカレンダー",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/shisetsu/index.html",
+          "status": 200,
+          "title": "施設案内",
+          "h1": "施設案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/kokyokotsu/kurashi/toshi-keikaku/kotsu/kokyokotsu.html",
+          "status": 200,
+          "title": "公共交通機関",
+          "h1": "公共交通機関",
+          "updatedAt": "2026年6月12日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/moshimo/index.html",
+          "status": 200,
+          "title": "もしもの時",
+          "h1": "もしもの時",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/ninshin/index.html",
+          "status": 200,
+          "title": "妊娠・出産",
+          "h1": "妊娠・出産",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "事業者",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/ikuji/index.html",
+          "status": 200,
+          "title": "育児・子育て",
+          "h1": "育児・子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "事業者",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/nyugaku/index.html",
+          "status": 200,
+          "title": "入学・教育",
+          "h1": "入学・教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/kekkon/index.html",
+          "status": 200,
+          "title": "結婚・離婚",
+          "h1": "結婚・離婚",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/sumai/index.html",
+          "status": 200,
+          "title": "住まい・引越し",
+          "h1": "住まい・引越し",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/shushoku/index.html",
+          "status": 200,
+          "title": "就職・仕事",
+          "h1": "就職・仕事",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/iryo/index.html",
+          "status": 200,
+          "title": "医療・福祉",
+          "h1": "医療・福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "不妊"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/kaigo/index.html",
+          "status": 200,
+          "title": "高齢・介護",
+          "h1": "高齢・介護",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/shibo/index.html",
+          "status": 200,
+          "title": "死亡・相続",
+          "h1": "死亡・相続",
+          "updatedAt": "",
+          "keywordHits": [
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/gomi/index.html",
+          "status": 200,
+          "title": "ごみ・リサイクル",
+          "h1": "ごみ・リサイクル",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/iju/index.html",
+          "status": 200,
+          "title": "【移住・定住】福井県坂井市への移住を手厚くサポート！",
+          "h1": "【移住・定住】福井県坂井市への移住を手厚くサポート！",
+          "updatedAt": "令和8年1月5日",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "移住",
+            "住宅",
+            "空き家",
+            "空家",
+            "起業",
+            "事業者",
+            "農業",
+            "林業",
+            "水産",
+            "福祉",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/nayami/index.html",
+          "status": 200,
+          "title": "悩み・相談",
+          "h1": "悩み・相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/iju/chara.html",
+          "status": 200,
+          "title": "【坂井市公式キャラクター】坂井ほや丸（お仕事スケジュール）",
+          "h1": "【坂井市公式キャラクター】坂井ほや丸（お仕事スケジュール）",
+          "updatedAt": "2026年7月14日",
+          "keywordHits": [
+            "移住",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/hoiku/kosodate/kosodate/hoiku/hoiku/hoikusisien/hoikushi_shien.html",
+          "status": 200,
+          "title": "坂井市で保育士になろう！(保育士募集・支援策)",
+          "h1": "坂井市で保育士になろう！(保育士募集・支援策)",
+          "updatedAt": "2024年8月20日",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "移住",
+            "事業者",
+            "福祉",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/kanri/kurashi/sumai/tochi/shiyuchi/baikyaku.html",
+          "status": 200,
+          "title": "市有地売り払い（随意契約）のお知らせ",
+          "h1": "市有地売り払い（随意契約）のお知らせ",
+          "updatedAt": "2026年4月7日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/kenko/kenko/kenko-toshi/kenko-daisakusen/index.html",
+          "status": 200,
+          "title": "健康さかい大作戦",
+          "h1": "健康さかい大作戦",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/hoken/kurashi/hoken/kenko-hoken/webyoyaku.html",
+          "status": 200,
+          "title": "集団健診のWEB予約について",
+          "h1": "集団健診のWEB予約について",
+          "updatedAt": "2026年4月30日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisei/hojokin/list.html",
+          "status": 200,
+          "title": "坂井市補助金等一覧（分野別）",
+          "h1": "坂井市補助金等一覧（分野別）",
+          "updatedAt": "2026年5月22日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "給付金",
+            "支援金",
+            "奨励金",
+            "移住",
+            "住宅",
+            "空家",
+            "起業",
+            "事業者",
+            "農業",
+            "林業",
+            "水産",
+            "福祉",
+            "子育て",
+            "奨学金",
+            "耐震",
+            "予防接種",
+            "不妊"
+          ],
+          "candidateScore": 28,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/johotokei/shisei/joho/webmap/sakaishi-webmap.html",
+          "status": 200,
+          "title": "坂井市WebMap",
+          "h1": "坂井市WebMap",
+          "updatedAt": "2025年3月26日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/iju/kurashi/sumai/sumai/akiya/list.html",
+          "status": 200,
+          "title": "坂井市空き家情報バンク登録物件一覧",
+          "h1": "坂井市空き家情報バンク登録物件一覧",
+          "updatedAt": "2026年6月30日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "空家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/movie/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和7年4月20日",
+          "keywordHits": [
+            "助成金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/shisei/koho/focus/index.html",
+          "status": 200,
+          "title": "FOCUS（まちの話題）",
+          "h1": "FOCUS（まちの話題）",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisei/koho/focus/2026/6gatsu/2026-07-11.html",
+          "status": 200,
+          "title": "嶺北防火協会が消防庁長官表彰受賞を市長へ報告",
+          "h1": "嶺北防火協会が消防庁長官表彰受賞を市長へ報告",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/shisei/gaiyo/profile/index.html",
+          "status": 200,
+          "title": "坂井市のプロフィール",
+          "h1": "坂井市のプロフィール",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisei/gaiyo/profile/access.html",
+          "status": 200,
+          "title": "坂井市へのアクセス",
+          "h1": "坂井市へのアクセス",
+          "updatedAt": "2021年3月31日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/shisei/gaiyo/soshiki/index.html",
+          "status": 200,
+          "title": "組織一覧",
+          "h1": "組織一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/shisei/kocho/public/index.html",
+          "status": 200,
+          "title": "パブリックコメント（意見公募手続）",
+          "h1": "パブリックコメント（意見公募手続）",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.sjc.ne.jp/sakai/",
+          "status": 200,
+          "title": "公益社団法人坂井市シルバー人材センター トップ",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "空き家"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/banner/1/banner_list_1.html",
+          "status": 200,
+          "title": "バナー広告一覧",
+          "h1": "バナー広告一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/banner/3/banner_list_3.html",
+          "status": 200,
+          "title": "バナー広告一覧",
+          "h1": "バナー広告一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisei/kocho/otoiawase.html",
+          "status": 200,
+          "title": "お問い合わせ",
+          "h1": "お問い合わせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisetsu/shisetsu-joho/chosha/honchosha.html",
+          "status": 200,
+          "title": "坂井市役所本庁",
+          "h1": "坂井市役所本庁",
+          "updatedAt": "2024年4月18日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisetsu/shisetsu-joho/chosha/maruoka-chosha.html",
+          "status": 200,
+          "title": "坂井市役所丸岡支所",
+          "h1": "坂井市役所丸岡支所",
+          "updatedAt": "2024年4月18日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisetsu/shisetsu-joho/chosha/mikuni-chosha.html",
+          "status": 200,
+          "title": "坂井市役所三国支所",
+          "h1": "坂井市役所三国支所",
+          "updatedAt": "2024年4月18日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisetsu/shisetsu-joho/chosha/harue-chosha.html",
+          "status": 200,
+          "title": "坂井市役所春江支所",
+          "h1": "坂井市役所春江支所",
+          "updatedAt": "2024年4月18日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisei/koho/homepage/kojin-joho.html",
+          "status": 200,
+          "title": "個人情報の取り扱いについて",
+          "h1": "個人情報の取り扱いについて",
+          "updatedAt": "2018年12月27日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisei/koho/homepage/chosakuken.html",
+          "status": 200,
+          "title": "著作権・リンク等について",
+          "h1": "著作権・リンク等について",
+          "updatedAt": "2021年3月29日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisei/koho/homepage/accessibility.html",
+          "status": 200,
+          "title": "ウェブアクセシビリティ方針",
+          "h1": "ウェブアクセシビリティ方針",
+          "updatedAt": "2024年5月9日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/index.html",
+          "status": 200,
+          "title": "坂井市",
+          "h1": "坂井市",
+          "updatedAt": "令和8年10月1日",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "空き家",
+            "起業",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kanko/jigyosha/koyo/shien/teikinri.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kanko/jigyosha/shokogyo/shinko/daikibo-kouriten.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kankyo/kurashi/pet/suzume-bachi.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kankyo/kurashi/gomi/sesaku/kyoten-bosyu.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kankyo/kurashi/gomi/sodaigomi/trouble.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kankyo/kurashi/kankyo/shingikai-iin.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kankyo/kurashi/kankyo/clean.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kankyo/kurashi/kankyo/sesaku/kisei.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/machi-zukuri/kurashi/machi-zukuri/kyodo/ku/shokutaku-seido.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kanri/jigyosha/nyusatsu/seido/nyusatsu-seido.html",
+          "status": 200,
+          "title": "坂井市入札制度について",
+          "h1": "坂井市入札制度について",
+          "updatedAt": "2023年5月31日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/koho/shisei/kocho/boshu-hoho.html",
+          "status": 200,
+          "title": "ご意見募集の方法について",
+          "h1": "ご意見募集の方法について",
+          "updatedAt": "2021年3月29日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kensetsu/kurashi/toshi-keikaku/doro/hason.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/suido-center/jigyosha/jogesui/maisetsukan/maibotsu-kensa.html",
+          "status": 200,
+          "title": "水道及び下水道の埋設管調査について",
+          "h1": "水道及び下水道の埋設管調査について",
+          "updatedAt": "2021年3月29日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/nogyo/jigyosha/norin/nogyo/nogyo-iinkai-meibo.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kanko/shisei/keikaku/kakushu/kanko-vision.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shokuin/shisei/shokuin/saiyo/jisseki.html",
+          "status": 200,
+          "title": "過去の職員採用試験実績について",
+          "h1": "過去の職員採用試験実績について",
+          "updatedAt": "2026年4月3日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/toshi-keikaku/bosai-bohan/bosai/yobo/hantei.html",
+          "status": 200,
+          "title": "被災建築物応急危険度判定に関すること",
+          "h1": "被災建築物応急危険度判定に関すること",
+          "updatedAt": "2021年3月29日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shimin/kurashi/toshi-keikaku/kotsu/kaigi/kaigi.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shimin/kurashi/shohi-seikatsu/shakkin/saimu-seiri.html",
+          "status": 200,
+          "title": "債務整理",
+          "h1": "債務整理",
+          "updatedAt": "2021年4月1日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shimin/kurashi/shohi-seikatsu/shakkin/yami-kinyu.html",
+          "status": 200,
+          "title": "ヤミ金融",
+          "h1": "ヤミ金融",
+          "updatedAt": "2021年4月1日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shimin/kurashi/shohi-seikatsu/shohisha-center/baibai.html",
+          "status": 200,
+          "title": "売買契約について",
+          "h1": "売買契約について",
+          "updatedAt": "2023年2月28日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shimin/kurashi/shohi-seikatsu/demae-koza/kyogikai.html",
+          "status": 200,
+          "title": "坂井市消費者団体連絡協議会",
+          "h1": "坂井市消費者団体連絡協議会",
+          "updatedAt": "2026年6月16日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kazei/kurashi/zeikin/koteishisanzei/etsuran.html",
+          "status": 200,
+          "title": "固定資産税の縦覧（閲覧）のお知らせ",
+          "h1": "固定資産税の縦覧（閲覧）のお知らせ",
+          "updatedAt": "2026年3月30日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kazei/kurashi/zeikin/koteishisanzei/ichigenka.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kazei/kurashi/zeikin/kenko-hoken/nozei-gimusha.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kazei/kurashi/zeikin/kojin/zeisei-kaisei.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kazei/kurashi/zeikin/nozei/kigen.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kazei/kurashi/zeikin/keijidosha/green-ka.html",
+          "status": 200,
+          "title": "軽自動車税のグリーン化特例（軽課）について",
+          "h1": "軽自動車税のグリーン化特例（軽課）について",
+          "updatedAt": "2026年3月27日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kazei/kurashi/zeikin/hojin/zeiritsu-kaisei.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kazei/jigyosha/zeikin/sonohoka/nyuto-zei.html",
+          "status": 200,
+          "title": "入湯税について",
+          "h1": "入湯税について",
+          "updatedAt": "2026年5月1日",
+          "keywordHits": [
+            "免除",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kenko-zoshin/shisei/gaiyo/toshi-sengen/kenko-toshi-sengen.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/machi-zukuri/shisei/gaiyo/toshi-sengen/danjo-sankaku-sengen.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/korei-fukushi/kurashi/shimin-sodan/gyakutai/koreisha.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kanri/kurashi/sumai/tochi/shiyuchi/kekka.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/koho/shisei/koho/homepage/kojin-joho.html",
+          "status": 200,
+          "title": "個人情報の取り扱いについて",
+          "h1": "個人情報の取り扱いについて",
+          "updatedAt": "2018年12月27日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/koho/shisei/koho/channel/renewal.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/koho/shisei/shicho/kosaihi.html",
+          "status": 200,
+          "title": "市長交際費",
+          "h1": "市長交際費",
+          "updatedAt": "2026年7月9日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/koho/shisei/shicho/messege.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/koho/shisei/shicho/oyakusoku.html",
+          "status": 200,
+          "title": "市民とのお約束",
+          "h1": "市民とのお約束",
+          "updatedAt": "2026年4月30日",
+          "keywordHits": [
+            "移住",
+            "起業",
+            "事業者",
+            "水産",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/koho/kurashi/shimin-sodan/gyosei/gyosei-sodan.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/seibi/kurashi/jogesui/onegai/shiyo.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/keiri/kurashi/jogesui/onegai/hohanbai.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/keiri/kurashi/jogesui/koji/rishihokyu.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shogai-gakusyu/kosodate/shogai/kyoiku/shakaikyoiku.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/gakko/kosodate/kyoiku/tetsuzuki/tetsuzuki.html",
+          "status": 200,
+          "title": "指定校変更・区域外就学の手続きについて",
+          "h1": "指定校変更・区域外就学の手続きについて",
+          "updatedAt": "2021年4月13日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "福祉",
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/gakko/kosodate/kyoiku/tetsuzuki/kuiki.html",
+          "status": 200,
+          "title": "坂井市内の小・中学校通学区域",
+          "h1": "坂井市内の小・中学校通学区域",
+          "updatedAt": "2021年4月12日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/gakko/kosodate/kyoiku/tetsuzuki/kyokasho.html",
+          "status": 200,
+          "title": "小中学校で使用している教科用図書",
+          "h1": "小中学校で使用している教科用図書",
+          "updatedAt": "2025年4月16日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/gakko/kosodate/kyoiku/tetsuzuki/nyugaku.html",
+          "status": 200,
+          "title": "市立小・中学校への入学について",
+          "h1": "市立小・中学校への入学について",
+          "updatedAt": "2021年4月12日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/gakko/kosodate/kyoiku/kyushoku/kyushoku.html",
+          "status": 200,
+          "title": "学校給食について",
+          "h1": "学校給食について",
+          "updatedAt": "2026年4月27日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/gakko/kosodate/kosodate/shien/shoreihi-1.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/gakko/kosodate/kosodate/yohoen/shoreihi-2.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/somu/shisei/senkyo/tohyo/zaigai.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/somu/shisei/senkyo/shikumi/meibo-torokusha.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/somu/shisei/senkyo/shikumi/senkyoken.html",
+          "status": 200,
+          "title": "選挙権と被選挙権",
+          "h1": "選挙権と被選挙権",
+          "updatedAt": "2016年6月8日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/somu/shisei/gaiyo/toshi-sengen/heiwa-toshi-sengen.html",
+          "status": 200,
+          "title": "非核平和都市宣言",
+          "h1": "非核平和都市宣言",
+          "updatedAt": "2021年3月31日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/somu/shisei/joho/joho-kokai/unyo-jokyo.html",
+          "status": 200,
+          "title": "情報公開・個人情報保護制度の運用状況について",
+          "h1": "情報公開・個人情報保護制度の運用状況について",
+          "updatedAt": "2026年6月12日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kosodate/kenko/fukushi/boshi-fushi/heikyu-seigen.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kosodate/kenko/fukushi/boshi-fushi/hitorioya-josei.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kosodate/kurashi/shimin-sodan/gyakutai/jidogyakutai.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kosodate/kosodate/kosodate/shien/counselor.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kosodate/kosodate/kosodate/shien/sukusuku.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/kosodate/kosodate/kosodate/joho/setsumeikai.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/suido-center/kurashi/jogesui/ryokin/suido-shiharai.html",
+          "status": 200,
+          "title": "水道料金の支払方法について",
+          "h1": "水道料金の支払方法について",
+          "updatedAt": "2025年4月14日",
+          "keywordHits": [
+            "減免",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/suido-center/kurashi/jogesui/suido/teishi/teishi.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/suido-center/kurashi/jogesui/onegai/torikae.html",
+          "status": 200,
+          "title": "水道メータの取替えにご理解とご協力を",
+          "h1": "水道メータの取替えにご理解とご協力を",
+          "updatedAt": "2020年9月23日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/suido-center/kurashi/jogesui/koji/shinsei.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/suido-center/kurashi/jogesui/gesui/futankin/futankin.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/hoken-nenkin/kurashi/hoken/nenkin/kono-seido.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/hoken-nenkin/kurashi/hoken/kenko-hoken/oshirase/seifukushi.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/hoken-nenkin/kurashi/hoken/kenko-hoken/oshirase/oshirase.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/konkyusha/konkyusha-shien.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/oshirase/chiki-sodanin.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/josei/kaisyu.html",
+          "status": 200,
+          "title": "住宅の改造、改修について",
+          "h1": "住宅の改造、改修について",
+          "updatedAt": "2024年4月15日",
+          "keywordHits": [
+            "助成金",
+            "住宅",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/josei/iryohi/kosei-iryo.html",
+          "status": 200,
+          "title": "更生医療",
+          "h1": "更生医療",
+          "updatedAt": "2025年10月22日",
+          "keywordHits": [
+            "貸付",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/josei/iryohi/tsuin-iryohi.html",
+          "status": 200,
+          "title": "精神障害者通院医療費",
+          "h1": "精神障害者通院医療費",
+          "updatedAt": "2024年12月3日",
+          "keywordHits": [
+            "貸付",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/josei/iryohi/ikusei-iryo.html",
+          "status": 200,
+          "title": "育成医療",
+          "h1": "育成医療",
+          "updatedAt": "2024年12月3日",
+          "keywordHits": [
+            "貸付",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/shienho/service/communication-shien.html",
+          "status": 200,
+          "title": "意思疎通支援事業（手話通訳者・要約筆記者の派遣）",
+          "h1": "意思疎通支援事業（手話通訳者・要約筆記者の派遣）",
+          "updatedAt": "2024年3月28日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/teate/risoku-yugu.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/teate/tokubetsu-teate.html",
+          "status": 200,
+          "title": "特別障害者手当",
+          "h1": "特別障害者手当",
+          "updatedAt": "2026年5月8日",
+          "keywordHits": [
+            "給付金",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 23,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/teate/shogaij-teate.html",
+          "status": 200,
+          "title": "障害児福祉手当",
+          "h1": "障害児福祉手当",
+          "updatedAt": "2026年5月8日",
+          "keywordHits": [
+            "給付金",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 23,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/teate/jusho-teate.html",
+          "status": 200,
+          "title": "重症心身障害児（者）福祉手当",
+          "h1": "重症心身障害児（者）福祉手当",
+          "updatedAt": "2025年5月1日",
+          "keywordHits": [
+            "給付金",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 23,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/teate/fuyo-teate.html",
+          "status": 200,
+          "title": "特別児童扶養手当",
+          "h1": "特別児童扶養手当",
+          "updatedAt": "2026年5月8日",
+          "keywordHits": [
+            "給付金",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 23,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/minsei/minsei-iin.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kurashi/danjo/jinken/sodan.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/anzen/shisei/keikaku/kakushu/chiki-bosai-kaitei.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/anzen/shisei/keikaku/kakushu/kokumin-hogo.html",
+          "status": 200,
+          "title": "坂井市国民保護計画",
+          "h1": "坂井市国民保護計画",
+          "updatedAt": "2025年4月22日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/anzen/shisei/gaiyo/soshiki/somubu/anzen-taisaku.html",
+          "status": 200,
+          "title": "危機管理対策課",
+          "h1": "危機管理対策課",
+          "updatedAt": "2023年5月8日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/zenkoku-hinan.html",
+          "status": 200,
+          "title": "東日本大震災により避難されている皆様へ（全国避難者情報システムについて）",
+          "h1": "東日本大震災により避難されている皆様へ（全国避難者情報システムについて）",
+          "updatedAt": "2021年3月31日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/risai.html",
+          "status": 200,
+          "title": "罹災証明書等の交付について",
+          "h1": "罹災証明書等の交付について",
+          "updatedAt": "2024年6月25日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/yobo/taisaku.html",
+          "status": 200,
+          "title": "避難施設と避難行動について",
+          "h1": "避難施設と避難行動について",
+          "updatedAt": "2026年5月21日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/yobo/simulation.html",
+          "status": 200,
+          "title": "福井県における津波シミュレーション結果の公表について",
+          "h1": "福井県における津波シミュレーション結果の公表について",
+          "updatedAt": "2021年3月31日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/yobo/check.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/keikaku/kyotei.html",
+          "status": 200,
+          "title": "災害時応援協定について",
+          "h1": "災害時応援協定について",
+          "updatedAt": "2024年1月25日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/map/jishin.html",
+          "status": 200,
+          "title": "坂井市地震ハザードマップについて",
+          "h1": "坂井市地震ハザードマップについて",
+          "updatedAt": "2021年3月31日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/map/tsunami.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/mail/sokuho.html",
+          "status": 200,
+          "title": "緊急速報メール（エリアメール）の活用について",
+          "h1": "緊急速報メール（エリアメール）の活用について",
+          "updatedAt": "2021年10月14日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/mail/bosai.html",
+          "status": 200,
+          "title": "防災行政メールの登録について",
+          "h1": "防災行政メールの登録について",
+          "updatedAt": "2024年2月1日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/jishu-bosai/jisyu-bosai.html",
+          "status": 200,
+          "title": "自主防災組織育成関係の申請書について",
+          "h1": "自主防災組織育成関係の申請書について",
+          "updatedAt": "2026年2月12日",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/link/link.html",
+          "status": 200,
+          "title": "防災情報リンク",
+          "h1": "防災情報リンク",
+          "updatedAt": "2024年4月19日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shimin-mikuni/shisei/gaiyo/soshiki/mikuni-shisho/shimin-mikuni.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shimin-mikuni/kurashi/koseki/senintecho/tetsuzuki.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/keikaku/kakushu/kokyo-kotsu.html",
+          "status": 404,
+          "title": "ご指定のページは見つかりませんでした",
+          "h1": "ご指定のページは見つかりませんでした",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-h24.html",
+          "status": 200,
+          "title": "平成24年坂井市の人口・世帯数",
+          "h1": "平成24年坂井市の人口・世帯数",
+          "updatedAt": "2021年4月1日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-h22.html",
+          "status": 200,
+          "title": "平成22年坂井市の人口・世帯数",
+          "h1": "平成22年坂井市の人口・世帯数",
+          "updatedAt": "2021年4月1日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-syukei-h26.html",
+          "status": 200,
+          "title": "平成26年度坂井市の人口集計表について",
+          "h1": "平成26年度坂井市の人口集計表について",
+          "updatedAt": "2021年4月1日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-h20.html",
+          "status": 200,
+          "title": "平成20年坂井市の人口・世帯数",
+          "h1": "平成20年坂井市の人口・世帯数",
+          "updatedAt": "2021年4月1日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-syukei-h27.html",
+          "status": 200,
+          "title": "平成27年度坂井市の人口集計表について",
+          "h1": "平成27年度坂井市の人口集計表について",
+          "updatedAt": "2021年4月1日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-h25.html",
+          "status": 200,
+          "title": "平成25年坂井市の人口・世帯数",
+          "h1": "平成25年坂井市の人口・世帯数",
+          "updatedAt": "2021年4月1日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-h19.html",
+          "status": 200,
+          "title": "平成19年坂井市の人口・世帯数",
+          "h1": "平成19年坂井市の人口・世帯数",
+          "updatedAt": "2021年4月1日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-h21.html",
+          "status": 200,
+          "title": "平成21年坂井市の人口・世帯数",
+          "h1": "平成21年坂井市の人口・世帯数",
+          "updatedAt": "2021年4月1日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18210",
+          "municipalityName": "坂井市",
+          "sourceUrl": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-h23.html",
+          "status": 200,
+          "title": "平成23年坂井市の人口・世帯数",
+          "h1": "平成23年坂井市の人口・世帯数",
+          "updatedAt": "2021年4月1日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/sitemap.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/shinchaku/shinchaku.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/shinchaku/shinchaku.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/press/press.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/press/press.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/kinkyu/kinkyu.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/kinkyu/kinkyu.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/henko.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/henko.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/koho/shisei/koho/homepage/keitai.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisei/koho/homepage/keitai.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/foreign.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/foreign.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/bosai-bohan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/bosai-bohan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/kurashi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/kurashi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/kenko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/kenko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/kanko-bunka/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/kanko-bunka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/jigyosha/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/jigyosha/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/shisei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/shisei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/bunka/documents/schedyule_202607_2.pdf",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/bunka/documents/schedyule_202607_2.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/iju/fanclub.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/iju/fanclub.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/kikakuseisaku/shisei/kifu/furusato/furusato-nozei.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/kikakuseisaku/shisei/kifu/furusato/furusato-nozei.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/kurashi/gomi/shushubi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/kurashi/gomi/shushubi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/kokyokotsu/kurashi/toshi-keikaku/kotsu/on-demand.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/kokyokotsu/kurashi/toshi-keikaku/kotsu/on-demand.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/shinsei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/shinsei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/shimin/kurashi/koseki/shomeisho/kakusyu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/shimin/kurashi/koseki/shomeisho/kakusyu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/hoiku/kosodate/kosodate/hoiku/syuurousyoumeisyo.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/hoiku/kosodate/kosodate/hoiku/syuurousyoumeisyo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/kazei/kurashi/zeikin/kojin/shinkoku-hukakizitsu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/kazei/kurashi/zeikin/kojin/shinkoku-hukakizitsu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/koho/shisei/koho/homepage/kensaku-no-hinto.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisei/koho/homepage/kensaku-no-hinto.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/faq/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/faq/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/kanri/jigyosha/nyusatsu/kokoku/20261001kaitou1.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/kanri/jigyosha/nyusatsu/kokoku/20261001kaitou1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/kanri/jigyosha/nyusatsu/kokoku/20260722kaitou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/kanri/jigyosha/nyusatsu/kokoku/20260722kaitou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/syoukou/jigyosha/shokogyo/yuchi/akikojo-list.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/syoukou/jigyosha/shokogyo/yuchi/akikojo-list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/syoukou/jigyosha/shokogyo/yuchi/akikojo87.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/syoukou/jigyosha/shokogyo/yuchi/akikojo87.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/shogai-gakusyu/event/r8/20260822radiotaisou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/shogai-gakusyu/event/r8/20260822radiotaisou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/iju/chara.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/iju/chara.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/hoiku/kosodate/kosodate/hoiku/hoiku/chourisiboshu3.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/hoiku/kosodate/kosodate/hoiku/hoiku/chourisiboshu3.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/kanri/jigyosha/nyusatsu/kekka/nyusatsu-kekka8.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/kanri/jigyosha/nyusatsu/kekka/nyusatsu-kekka8.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/shogai-gakusyu/suposui/2024suposui.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/shogai-gakusyu/suposui/2024suposui.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/shinchaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/shinchaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/tosyo-miku/event/juniasisyo/r7juniasisyo.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/tosyo-miku/event/juniasisyo/r7juniasisyo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/syoukou/houdou/r8kigyou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/syoukou/houdou/r8kigyou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/zoshin/houdou/herusioresipikontesuto.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/zoshin/houdou/herusioresipikontesuto.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/bunka/houdou/gekireikai0716.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/bunka/houdou/gekireikai0716.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/kikakuseisaku/houdou/degital-kitakubu_kickoff2025.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/kikakuseisaku/houdou/degital-kitakubu_kickoff2025.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/nogyoshinko/060803_sobauchi.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/nogyoshinko/060803_sobauchi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/kanko/houdou/hanabi-sanchumc.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/kanko/houdou/hanabi-sanchumc.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/ryushokan/2026event/kyousaiten2026.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/ryushokan/2026event/kyousaiten2026.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bohan/20260707koukouseikagi.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bohan/20260707koukouseikagi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/press/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/press/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/shisei/koho/koho-sakai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/shisei/koho/koho-sakai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/shisei/shicho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/shisei/shicho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/gikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/gikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/koho/application/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/koho/application/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/cgi-bin/event_cal_multi/calendar.cgi",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/cgi-bin/event_cal_multi/calendar.cgi",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/shisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/shisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/kokyokotsu/kurashi/toshi-keikaku/kotsu/kokyokotsu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/kokyokotsu/kurashi/toshi-keikaku/kotsu/kokyokotsu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/moshimo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/moshimo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/ninshin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/ninshin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/ikuji/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/ikuji/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/nyugaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/nyugaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/kekkon/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/kekkon/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/sumai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/sumai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/shushoku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/shushoku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/iryo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/iryo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/kaigo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/kaigo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/shibo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/shibo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/gomi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/gomi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/iju/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/iju/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/nayami/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/nayami/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/iju/chara.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/iju/chara.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/hoiku/kosodate/kosodate/hoiku/hoiku/hoikusisien/hoikushi_shien.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/hoiku/kosodate/kosodate/hoiku/hoiku/hoikusisien/hoikushi_shien.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/kanri/kurashi/sumai/tochi/shiyuchi/baikyaku.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/kanri/kurashi/sumai/tochi/shiyuchi/baikyaku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/kenko/kenko/kenko-toshi/kenko-daisakusen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/kenko/kenko/kenko-toshi/kenko-daisakusen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/hoken/kurashi/hoken/kenko-hoken/webyoyaku.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/hoken/kurashi/hoken/kenko-hoken/webyoyaku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/koho/shisei/hojokin/list.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisei/hojokin/list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/johotokei/shisei/joho/webmap/sakaishi-webmap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/johotokei/shisei/joho/webmap/sakaishi-webmap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/iju/kurashi/sumai/sumai/akiya/list.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/iju/kurashi/sumai/sumai/akiya/list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/movie/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/movie/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/koho/movie/jouhoukyoku/20251216.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/koho/movie/jouhoukyoku/20251216.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/shisei/koho/focus/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/shisei/koho/focus/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/koho/shisei/koho/focus/2026/6gatsu/2026-07-11.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisei/koho/focus/2026/6gatsu/2026-07-11.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/shisei/gaiyo/profile/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/shisei/gaiyo/profile/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/koho/shisei/gaiyo/profile/access.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisei/gaiyo/profile/access.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/shisei/gaiyo/soshiki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/shisei/gaiyo/soshiki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/shisei/kocho/public/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/shisei/kocho/public/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/cgi-bin/advert/click_total/click.cgi?cms_area_id=2&amp;cms_banner_id=5&amp;cms_link_url=https%3A%2F%2Fwww.city.fukui-sakai.lg.jp%2Fbyouin%2F",
+          "status": 200,
+          "finalUrl": "https://mikuni-hp.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/cgi-bin/advert/click_total/click.cgi?cms_area_id=2&amp;cms_banner_id=4&amp;cms_link_url=http%3A%2F%2Fwww.boatrace-mikuni.jp%2F",
+          "status": 200,
+          "finalUrl": "https://www.boatrace-mikuni.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/cgi-bin/advert/click_total/click.cgi?cms_area_id=2&amp;cms_banner_id=1&amp;cms_link_url=http%3A%2F%2Fwww.sakai-bunka.jp%2Fmiraihall%2F",
+          "status": 200,
+          "finalUrl": "https://www.sakai-bunka.jp/miraihall/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/cgi-bin/advert/click_total/click.cgi?cms_area_id=2&amp;cms_banner_id=2&amp;cms_link_url=http%3A%2F%2Fwww.sakai-bunka.jp%2Fheartopia%2F",
+          "status": 200,
+          "finalUrl": "https://www.sakai-bunka.jp/heartopia/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/cgi-bin/advert/click_total/click.cgi?cms_area_id=2&amp;cms_banner_id=3&amp;cms_link_url=http%3A%2F%2Fwww.tegami-museum.jp%2F",
+          "status": 200,
+          "finalUrl": "http://www.tegami-museum.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/cgi-bin/advert/click_total/click.cgi?cms_area_id=2&amp;cms_banner_id=6&amp;cms_link_url=https%3A%2F%2Fryusho-museum.jp",
+          "status": 200,
+          "finalUrl": "https://ryusho-museum.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/cgi-bin/advert/click_total/click.cgi?cms_area_id=2&amp;cms_banner_id=7&amp;cms_link_url=https%3A%2F%2Fwww.sjc.ne.jp%2Fsakai",
+          "status": 200,
+          "finalUrl": "https://www.sjc.ne.jp/sakai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/cgi-bin/advert/click_total/click.cgi?cms_area_id=2&amp;cms_banner_id=8&amp;cms_link_url=https%3A%2F%2Fwww.s-taikyo.jp%2F",
+          "status": 200,
+          "finalUrl": "https://www.s-taikyo.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/cgi-bin/advert/click_total/click.cgi?cms_area_id=2&amp;cms_banner_id=9&amp;cms_link_url=https%3A%2F%2Fwww.fsis.jp",
+          "status": 200,
+          "finalUrl": "https://www.fsis.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/cgi-bin/advert/click_total/click.cgi?cms_area_id=2&amp;cms_banner_id=10&amp;cms_link_url=https%3A%2F%2Flib.city.sakai.fukui.jp",
+          "status": 200,
+          "finalUrl": "https://lib.city.sakai.fukui.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/cgi-bin/advert/click_total/click.cgi?cms_area_id=2&amp;cms_banner_id=13&amp;cms_link_url=https%3A%2F%2Fwww.instagram.com%2Fyurinosatokouen%3Figsh%3DMXdhMDZ2Y3NzaHdkcw%3D%3D",
+          "status": 200,
+          "finalUrl": "https://www.instagram.com/yurinosatokouen?igsh=MXdhMDZ2Y3NzaHdkcw==",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/cgi-bin/advert/click_total/click.cgi?cms_area_id=2&amp;cms_banner_id=14&amp;cms_link_url=https%3A%2F%2Fx.com%2Fyuriichi_sakai%3Ft%3DggnTfCzhWVf1N31Yp3az4A%26s%3D09",
+          "status": 200,
+          "finalUrl": "https://x.com/yuriichi_sakai?t=ggnTfCzhWVf1N31Yp3az4A&s=09",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/banner/1/banner_list_1.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/banner/1/banner_list_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/banner/3/banner_list_3.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/banner/3/banner_list_3.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/koho/shisei/kocho/otoiawase.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisei/kocho/otoiawase.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/koho/shisetsu/shisetsu-joho/chosha/honchosha.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisetsu/shisetsu-joho/chosha/honchosha.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/koho/shisetsu/shisetsu-joho/chosha/maruoka-chosha.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisetsu/shisetsu-joho/chosha/maruoka-chosha.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/koho/shisetsu/shisetsu-joho/chosha/mikuni-chosha.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisetsu/shisetsu-joho/chosha/mikuni-chosha.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/koho/shisetsu/shisetsu-joho/chosha/harue-chosha.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisetsu/shisetsu-joho/chosha/harue-chosha.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/koho/shisei/koho/homepage/kojin-joho.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisei/koho/homepage/kojin-joho.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/koho/shisei/koho/homepage/chosakuken.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisei/koho/homepage/chosakuken.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.fukui-sakai.lg.jp/koho/shisei/koho/homepage/accessibility.html",
+          "status": 200,
+          "finalUrl": "https://www.city.fukui-sakai.lg.jp/koho/shisei/koho/homepage/accessibility.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/index.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kanko/jigyosha/koyo/shien/teikinri.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kanko/jigyosha/koyo/shien/teikinri.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kanko/jigyosha/shokogyo/shinko/daikibo-kouriten.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kanko/jigyosha/shokogyo/shinko/daikibo-kouriten.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kankyo/kurashi/pet/suzume-bachi.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kankyo/kurashi/pet/suzume-bachi.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kankyo/kurashi/gomi/sesaku/kyoten-bosyu.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kankyo/kurashi/gomi/sesaku/kyoten-bosyu.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kankyo/kurashi/gomi/sodaigomi/trouble.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kankyo/kurashi/gomi/sodaigomi/trouble.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kankyo/kurashi/kankyo/shingikai-iin.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kankyo/kurashi/kankyo/shingikai-iin.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kankyo/kurashi/kankyo/clean.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kankyo/kurashi/kankyo/clean.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kankyo/kurashi/kankyo/sesaku/kisei.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kankyo/kurashi/kankyo/sesaku/kisei.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/machi-zukuri/kurashi/machi-zukuri/kyodo/ku/shokutaku-seido.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/machi-zukuri/kurashi/machi-zukuri/kyodo/ku/shokutaku-seido.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kanri/jigyosha/nyusatsu/seido/nyusatsu-seido.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kanri/jigyosha/nyusatsu/seido/nyusatsu-seido.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/koho/shisei/kocho/boshu-hoho.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/koho/shisei/kocho/boshu-hoho.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kensetsu/kurashi/toshi-keikaku/doro/hason.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kensetsu/kurashi/toshi-keikaku/doro/hason.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/suido-center/jigyosha/jogesui/maisetsukan/maibotsu-kensa.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/suido-center/jigyosha/jogesui/maisetsukan/maibotsu-kensa.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/nogyo/jigyosha/norin/nogyo/nogyo-iinkai-meibo.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/nogyo/jigyosha/norin/nogyo/nogyo-iinkai-meibo.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kanko/shisei/keikaku/kakushu/kanko-vision.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kanko/shisei/keikaku/kakushu/kanko-vision.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shokuin/shisei/shokuin/saiyo/jisseki.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shokuin/shisei/shokuin/saiyo/jisseki.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/toshi-keikaku/bosai-bohan/bosai/yobo/hantei.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/toshi-keikaku/bosai-bohan/bosai/yobo/hantei.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shimin/kurashi/toshi-keikaku/kotsu/kaigi/kaigi.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shimin/kurashi/toshi-keikaku/kotsu/kaigi/kaigi.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shimin/kurashi/shohi-seikatsu/shakkin/saimu-seiri.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shimin/kurashi/shohi-seikatsu/shakkin/saimu-seiri.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shimin/kurashi/shohi-seikatsu/shakkin/yami-kinyu.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shimin/kurashi/shohi-seikatsu/shakkin/yami-kinyu.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shimin/kurashi/shohi-seikatsu/shohisha-center/baibai.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shimin/kurashi/shohi-seikatsu/shohisha-center/baibai.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shimin/kurashi/shohi-seikatsu/demae-koza/kyogikai.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shimin/kurashi/shohi-seikatsu/demae-koza/kyogikai.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kazei/kurashi/zeikin/koteishisanzei/etsuran.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kazei/kurashi/zeikin/koteishisanzei/etsuran.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kazei/kurashi/zeikin/koteishisanzei/ichigenka.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kazei/kurashi/zeikin/koteishisanzei/ichigenka.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kazei/kurashi/zeikin/kenko-hoken/nozei-gimusha.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kazei/kurashi/zeikin/kenko-hoken/nozei-gimusha.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kazei/kurashi/zeikin/kojin/zeisei-kaisei.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kazei/kurashi/zeikin/kojin/zeisei-kaisei.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kazei/kurashi/zeikin/nozei/kigen.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kazei/kurashi/zeikin/nozei/kigen.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kazei/kurashi/zeikin/keijidosha/green-ka.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kazei/kurashi/zeikin/keijidosha/green-ka.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kazei/kurashi/zeikin/hojin/zeiritsu-kaisei.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kazei/kurashi/zeikin/hojin/zeiritsu-kaisei.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kazei/jigyosha/zeikin/sonohoka/nyuto-zei.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kazei/jigyosha/zeikin/sonohoka/nyuto-zei.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kenko-zoshin/shisei/gaiyo/toshi-sengen/kenko-toshi-sengen.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kenko-zoshin/shisei/gaiyo/toshi-sengen/kenko-toshi-sengen.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/machi-zukuri/shisei/gaiyo/toshi-sengen/danjo-sankaku-sengen.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/machi-zukuri/shisei/gaiyo/toshi-sengen/danjo-sankaku-sengen.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/korei-fukushi/kurashi/shimin-sodan/gyakutai/koreisha.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/korei-fukushi/kurashi/shimin-sodan/gyakutai/koreisha.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kanri/kurashi/sumai/tochi/shiyuchi/kekka.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kanri/kurashi/sumai/tochi/shiyuchi/kekka.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/koho/shisei/koho/homepage/kojin-joho.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/koho/shisei/koho/homepage/kojin-joho.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/koho/shisei/koho/channel/renewal.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/koho/shisei/koho/channel/renewal.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/koho/shisei/shicho/kosaihi.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/koho/shisei/shicho/kosaihi.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/koho/shisei/shicho/messege.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/koho/shisei/shicho/messege.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/koho/shisei/shicho/oyakusoku.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/koho/shisei/shicho/oyakusoku.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/koho/kurashi/shimin-sodan/gyosei/gyosei-sodan.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/koho/kurashi/shimin-sodan/gyosei/gyosei-sodan.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/seibi/kurashi/jogesui/onegai/shiyo.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/seibi/kurashi/jogesui/onegai/shiyo.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/keiri/kurashi/jogesui/onegai/hohanbai.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/keiri/kurashi/jogesui/onegai/hohanbai.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/keiri/kurashi/jogesui/koji/rishihokyu.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/keiri/kurashi/jogesui/koji/rishihokyu.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shogai-gakusyu/kosodate/shogai/kyoiku/shakaikyoiku.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shogai-gakusyu/kosodate/shogai/kyoiku/shakaikyoiku.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/gakko/kosodate/kyoiku/tetsuzuki/tetsuzuki.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/gakko/kosodate/kyoiku/tetsuzuki/tetsuzuki.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/gakko/kosodate/kyoiku/tetsuzuki/kuiki.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/gakko/kosodate/kyoiku/tetsuzuki/kuiki.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/gakko/kosodate/kyoiku/tetsuzuki/kyokasho.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/gakko/kosodate/kyoiku/tetsuzuki/kyokasho.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/gakko/kosodate/kyoiku/tetsuzuki/nyugaku.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/gakko/kosodate/kyoiku/tetsuzuki/nyugaku.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/gakko/kosodate/kyoiku/kyushoku/kyushoku.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/gakko/kosodate/kyoiku/kyushoku/kyushoku.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/gakko/kosodate/kosodate/shien/shoreihi-1.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/gakko/kosodate/kosodate/shien/shoreihi-1.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/gakko/kosodate/kosodate/yohoen/shoreihi-2.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/gakko/kosodate/kosodate/yohoen/shoreihi-2.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/somu/shisei/senkyo/tohyo/zaigai.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/somu/shisei/senkyo/tohyo/zaigai.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/somu/shisei/senkyo/shikumi/meibo-torokusha.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/somu/shisei/senkyo/shikumi/meibo-torokusha.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/somu/shisei/senkyo/shikumi/senkyoken.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/somu/shisei/senkyo/shikumi/senkyoken.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/somu/shisei/gaiyo/toshi-sengen/heiwa-toshi-sengen.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/somu/shisei/gaiyo/toshi-sengen/heiwa-toshi-sengen.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/somu/shisei/joho/joho-kokai/unyo-jokyo.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/somu/shisei/joho/joho-kokai/unyo-jokyo.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kosodate/kenko/fukushi/boshi-fushi/heikyu-seigen.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kosodate/kenko/fukushi/boshi-fushi/heikyu-seigen.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kosodate/kenko/fukushi/boshi-fushi/hitorioya-josei.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kosodate/kenko/fukushi/boshi-fushi/hitorioya-josei.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kosodate/kurashi/shimin-sodan/gyakutai/jidogyakutai.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kosodate/kurashi/shimin-sodan/gyakutai/jidogyakutai.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kosodate/kosodate/kosodate/shien/counselor.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kosodate/kosodate/kosodate/shien/counselor.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kosodate/kosodate/kosodate/shien/sukusuku.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kosodate/kosodate/kosodate/shien/sukusuku.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/kosodate/kosodate/kosodate/joho/setsumeikai.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/kosodate/kosodate/kosodate/joho/setsumeikai.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/suido-center/kurashi/jogesui/ryokin/suido-shiharai.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/suido-center/kurashi/jogesui/ryokin/suido-shiharai.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/suido-center/kurashi/jogesui/suido/teishi/teishi.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/suido-center/kurashi/jogesui/suido/teishi/teishi.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/suido-center/kurashi/jogesui/onegai/torikae.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/suido-center/kurashi/jogesui/onegai/torikae.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/suido-center/kurashi/jogesui/koji/shinsei.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/suido-center/kurashi/jogesui/koji/shinsei.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/suido-center/kurashi/jogesui/gesui/futankin/futankin.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/suido-center/kurashi/jogesui/gesui/futankin/futankin.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/hoken-nenkin/kurashi/hoken/nenkin/kono-seido.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/hoken-nenkin/kurashi/hoken/nenkin/kono-seido.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/hoken-nenkin/kurashi/hoken/kenko-hoken/oshirase/seifukushi.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/hoken-nenkin/kurashi/hoken/kenko-hoken/oshirase/seifukushi.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/hoken-nenkin/kurashi/hoken/kenko-hoken/oshirase/oshirase.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/hoken-nenkin/kurashi/hoken/kenko-hoken/oshirase/oshirase.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/konkyusha/konkyusha-shien.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/konkyusha/konkyusha-shien.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/oshirase/chiki-sodanin.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/oshirase/chiki-sodanin.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/josei/kaisyu.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/josei/kaisyu.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/josei/iryohi/kosei-iryo.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/josei/iryohi/kosei-iryo.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/josei/iryohi/tsuin-iryohi.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/josei/iryohi/tsuin-iryohi.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/josei/iryohi/ikusei-iryo.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/josei/iryohi/ikusei-iryo.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/shienho/service/communication-shien.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/shienho/service/communication-shien.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/teate/risoku-yugu.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/teate/risoku-yugu.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/teate/tokubetsu-teate.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/teate/tokubetsu-teate.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/teate/shogaij-teate.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/teate/shogaij-teate.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/teate/jusho-teate.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/teate/jusho-teate.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/teate/fuyo-teate.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/shogaisha/teate/fuyo-teate.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/minsei/minsei-iin.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kenko/fukushi/minsei/minsei-iin.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kurashi/danjo/jinken/sodan.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shakai-fukushi/kurashi/danjo/jinken/sodan.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/anzen/shisei/keikaku/kakushu/chiki-bosai-kaitei.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/anzen/shisei/keikaku/kakushu/chiki-bosai-kaitei.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/anzen/shisei/keikaku/kakushu/kokumin-hogo.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/anzen/shisei/keikaku/kakushu/kokumin-hogo.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/anzen/shisei/gaiyo/soshiki/somubu/anzen-taisaku.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/anzen/shisei/gaiyo/soshiki/somubu/anzen-taisaku.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/zenkoku-hinan.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/zenkoku-hinan.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/risai.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/risai.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/yobo/taisaku.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/yobo/taisaku.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/yobo/simulation.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/yobo/simulation.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/yobo/check.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/yobo/check.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/keikaku/kyotei.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/keikaku/kyotei.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/map/jishin.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/map/jishin.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/map/tsunami.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/map/tsunami.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/mail/sokuho.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/mail/sokuho.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/mail/bosai.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/mail/bosai.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/jishu-bosai/jisyu-bosai.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/jishu-bosai/jisyu-bosai.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/link/link.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/anzen/bosai-bohan/bosai/link/link.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shimin-mikuni/shisei/gaiyo/soshiki/mikuni-shisho/shimin-mikuni.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shimin-mikuni/shisei/gaiyo/soshiki/mikuni-shisho/shimin-mikuni.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shimin-mikuni/kurashi/koseki/senintecho/tetsuzuki.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shimin-mikuni/kurashi/koseki/senintecho/tetsuzuki.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/keikaku/kakushu/kokyo-kotsu.html",
+          "status": 404,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/keikaku/kakushu/kokyo-kotsu.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-h24.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-h24.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-h22.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-h22.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-syukei-h26.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-syukei-h26.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-h20.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-h20.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-syukei-h27.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-syukei-h27.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-h25.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-h25.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-h19.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-h19.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-h21.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-h21.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-h23.html",
+          "status": 200,
+          "finalUrl": "http://www.city.fukui-sakai.lg.jp/shimin/shisei/tokei/jinko/jinko-h23.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

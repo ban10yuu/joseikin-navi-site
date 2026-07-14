@@ -9184,3 +9184,48 @@
   - トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補に残す。
 - 次:
   - 福井県公式棚卸し002として、18207鯖江市から自治体コード順に確認する。
+
+### 2026-07-15 福井県公式棚卸し002（18207鯖江市・18208あわら市・18209越前市・18210坂井市・18322永平寺町）
+
+- 作業範囲:
+  - 18207 鯖江市、18208 あわら市、18209 越前市、18210 坂井市、18322 永平寺町の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 自治体別クロールで候補695件を取得した。shortlistが150件超かつcrawl候補の40%超だったため、候補695件から短い本文スニペットを抽出し、ページ内リンク367件を制度リードとして再取得した。
+  - 採用対象の75公式ページは全件HTTP 200を確認した。
+- 採用:
+  - 合計75件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 鯖江市5件: 【令和8年度】鯖江市子育て世代応援企業移住就業奨励金、高等職業訓練促進給付金、令和8年度 鯖江市U・Iターン移住就職等支援事業（全国型）における移住支援金、ひとり親家庭等医療費助成制度について、子ども医療費助成制度について。
+  - あわら市17件: 母子寡婦福祉資金貸付事業、ひとり親家庭自立支援給付金事業、社宅の家賃を補助します「あわら市勤労者定住促進事業補助金」、令和8年度商業エリア空き店舗・空き家改修事業補助金について、住宅確保給付金のご案内（支給対象の拡大）、ひとり親家庭等医療費助成、中小企業振興資金融資（利子補給金交付制度付き）について、企業立地助成制度、【追加募集】令和8年度市民主役のまちづくり推進事業補助金について、令和8年度ふるさと納税事業拡大補助金「ふるさと納税3.0」企画提案を募集します、空き家の家財処分を支援します、児童扶養手当、障害児福祉手当について、空き家情報バンクの登録に奨励金を交付します、ブロック塀等の安全対策事業補助金、幼児教育・保育の無償化について、「マル経資金」への利子補給金交付制度について。
+  - 越前市18件: 定住化促進のための越前市奨学金一部償還免除制度の実施について、奨学金貸付制度について、子ども医療費助成制度、ひとり親家庭等医療費助成制度、令和８年度 越前市小規模事業者未来開拓サポート補助金、住民税非課税世帯くらし応援臨時給付金（対象1世帯あたり2万円）を給付します、物価高対応子育て応援手当、重度心身障害者等の医療費助成、高性能省エネ住宅新築補助金、在宅育児応援手当について、障がい者の各種手当、多雪地域対応型太陽光発電設備設置補助金、【残りわずか】高効率給湯器購入補助金、介護人材キャリアアップ・定着奨励金のご案内、防犯インフラ整備事業補助金、きれいな湧水水質検査奨励金について、古紙類に対する資源回収奨励金について、生ごみ処理器設置奨励金について。
+  - 坂井市30件: 【定住促進奨学金返還支援制度】奨学金の返済を支援します！、小規模事業者経営改善資金（マル経融資）利子補給事業、ひとり親家庭等医療費助成、【移住支援金（全国型）】全国からの移住・就職を応援します！、【移住支援金（東京圏型）】東京圏からの移住・就職を応援します！、ふるさと同窓会助成事業費補助金、地方就職学生支援金、保育士資格取得事業補助金について、保育士就職支援金を拡充します、幼児教育・保育無償化について（利用者向け）、特別障害者手当、障害児福祉手当、重症心身障害児（者）福祉手当、令和８年度新婚世帯住宅応援事業補助金（結婚新生活支援事業補助金）、特別障害給付金、商店街等振興事業、知的財産権取得活動支援事業補助金、販路拡大支援事業補助金、新商品開発支援事業補助金、中小企業人材育成支援事業補助金、空家活用ビジネス支援事業補助金、中小企業人材採用PR支援事業補助金、令和8年度木造住宅耐震改修の補助について、令和8年度起業家支援強化事業、特別児童扶養手当、若い世代の新婚世帯に支援金を支給します！（U25・29夫婦支援金）、令和8年度事業者向け太陽光発電設備の設置補助金、空家活用定住支援事業、【安心R住宅】令和8年度坂井市空家取得支援事業、令和8年度坂井市多世帯近居の中古住宅取得支援事業。
+  - 永平寺町5件: 水道料金（基本料金、メーター貸付料）の減免期間を延長、小規模事業者経営改善資金（マル経融資）利子補給制度について、土地活用のための空き家解体事業補助金、空き家バンク登録サポート奨励金、空き家適正管理促進事業補助金。
+- 生成ファイル:
+  - `tasks/discovery/fukui-official-coverage-002-18207-candidates.json`
+  - `tasks/discovery/fukui-official-coverage-002-18207-municipality.json`
+  - `tasks/discovery/fukui-official-coverage-002-18208-candidates.json`
+  - `tasks/discovery/fukui-official-coverage-002-18208-municipality.json`
+  - `tasks/discovery/fukui-official-coverage-002-18209-candidates.json`
+  - `tasks/discovery/fukui-official-coverage-002-18209-municipality.json`
+  - `tasks/discovery/fukui-official-coverage-002-18210-candidates.json`
+  - `tasks/discovery/fukui-official-coverage-002-18210-municipality.json`
+  - `tasks/discovery/fukui-official-coverage-002-18322-candidates.json`
+  - `tasks/discovery/fukui-official-coverage-002-18322-municipality.json`
+  - `tasks/discovery/fukui-official-coverage-002-adopted-urls.json`
+  - `tasks/discovery/fukui-official-coverage-002-adoption-ranked.json`
+  - `tasks/discovery/fukui-official-coverage-002-candidates.json`
+  - `tasks/discovery/fukui-official-coverage-002-municipalities.json`
+  - `tasks/discovery/fukui-official-coverage-002-rescored-snippets.json`
+  - `tasks/discovery/fukui-official-coverage-002-snippets.json`
+  - `tasks/discovery/fukui-official-coverage-002-url-leads.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（002関連JSON、checkpoint）。
+  - 追加slug重複: pass（75件、`verified-local-misc-2026.ts` 全体 duplicateCount 0）。
+  - 公式URL到達: pass（75 primary official URLsすべてHTTP 200）。
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 12588、officialLinkedActive 12468、manuallyVerifiedActive 12468、福井県 localOfficial 229）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は福井県18322永平寺町到達のみで全国完了扱いしない。
+  - トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補に残す。
+- 次:
+  - 福井県公式棚卸し003として、18382池田町から自治体コード順に確認する。

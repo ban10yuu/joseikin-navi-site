@@ -1,0 +1,4080 @@
+{
+  "batchId": "fukui-official-coverage-002",
+  "prefecture": "福井県",
+  "generatedAt": "2026-07-14T16:56:44.259Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 143,
+  "results": [
+    {
+      "code": "18322",
+      "name": "永平寺町",
+      "officialBaseUrl": "https://www.town.eiheiji.lg.jp/",
+      "discoveredUrlCount": 220,
+      "candidateCount": 143,
+      "strongCandidateCount": 4,
+      "lowPriorityCandidateCount": 139,
+      "candidates": [
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/",
+          "status": 200,
+          "title": "永平寺町公式ホームページへようこそ",
+          "h1": "",
+          "updatedAt": "令和8年7月10日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/index.html",
+          "status": 200,
+          "title": "永平寺町公式ホームページへようこそ",
+          "h1": "",
+          "updatedAt": "令和8年7月10日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/1029/index.html",
+          "status": 200,
+          "title": "子育て応援サイト | 永平寺町",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/201/202/p002120.html",
+          "status": 200,
+          "title": "防災・防犯",
+          "h1": "防災・防犯",
+          "updatedAt": "2026年3月6日",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "耐震"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/shozoku.html",
+          "status": 200,
+          "title": "所属（各課・施設）",
+          "h1": "所属（各課・施設）",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/206/index.html",
+          "status": 200,
+          "title": "くらし・手続き",
+          "h1": "くらし・手続き",
+          "updatedAt": "令和3年10月1日",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "貸付",
+            "減免",
+            "住宅",
+            "空き家",
+            "空家",
+            "事業者",
+            "耐震",
+            "通学"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/206/207/index.html",
+          "status": 200,
+          "title": "上水道・下水道",
+          "h1": "上水道・下水道",
+          "updatedAt": "2026年6月17日",
+          "keywordHits": [
+            "貸付",
+            "減免",
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/206/208/index.html",
+          "status": 200,
+          "title": "道路・交通",
+          "h1": "道路・交通",
+          "updatedAt": "2026年4月23日",
+          "keywordHits": [
+            "住宅",
+            "通学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/206/209/index.html",
+          "status": 200,
+          "title": "住宅・土地",
+          "h1": "住宅・土地",
+          "updatedAt": "2026年7月9日",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "住宅",
+            "空き家",
+            "空家",
+            "耐震"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/206/250/index.html",
+          "status": 200,
+          "title": "税金・納税",
+          "h1": "税金・納税",
+          "updatedAt": "2026年5月1日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/206/1002/index.html",
+          "status": 200,
+          "title": "申請書・証明書",
+          "h1": "申請書・証明書",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/206/235/index.html",
+          "status": 200,
+          "title": "支援",
+          "h1": "支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/206/216/index.html",
+          "status": 200,
+          "title": "環境",
+          "h1": "環境",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "不妊"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/201/index.html",
+          "status": 200,
+          "title": "安全・安心",
+          "h1": "安全・安心",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "耐震",
+            "通学"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/201/202/index.html",
+          "status": 200,
+          "title": "防災",
+          "h1": "防災",
+          "updatedAt": "2026年5月22日",
+          "keywordHits": [
+            "補助金",
+            "耐震"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/201/203/index.html",
+          "status": 200,
+          "title": "防犯",
+          "h1": "防犯",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "補助金",
+            "福祉"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/201/204/index.html",
+          "status": 200,
+          "title": "交通安全",
+          "h1": "交通安全",
+          "updatedAt": "2026年3月16日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/201/205/index.html",
+          "status": 200,
+          "title": "けが・事故",
+          "h1": "けが・事故",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "通学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/220/index.html",
+          "status": 200,
+          "title": "福祉・介護",
+          "h1": "福祉・介護",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "貸付",
+            "医療費助成",
+            "住宅",
+            "福祉",
+            "予防接種",
+            "不妊",
+            "妊婦",
+            "通学"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/220/222/index.html",
+          "status": 200,
+          "title": "医療",
+          "h1": "医療",
+          "updatedAt": "2026年6月16日",
+          "keywordHits": [
+            "貸付",
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/220/223/index.html",
+          "status": 200,
+          "title": "健康・保健",
+          "h1": "健康・保健",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "貸付",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/220/225/index.html",
+          "status": 200,
+          "title": "福祉・介護",
+          "h1": "福祉・介護",
+          "updatedAt": "2026年6月26日",
+          "keywordHits": [
+            "給付金",
+            "医療費助成",
+            "住宅",
+            "福祉",
+            "通学"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/220/227/index.html",
+          "status": 200,
+          "title": "国民健康保険",
+          "h1": "国民健康保険",
+          "updatedAt": "2026年5月18日",
+          "keywordHits": [
+            "貸付",
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/228/index.html",
+          "status": 200,
+          "title": "子育て・教育・生涯学習",
+          "h1": "子育て・教育・生涯学習",
+          "updatedAt": "令和4年7月21日",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "福祉",
+            "子育て",
+            "耐震",
+            "妊婦",
+            "通学"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/228/221/index.html",
+          "status": 200,
+          "title": "保育・子育て",
+          "h1": "保育・子育て",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "福祉",
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/228/230/index.html",
+          "status": 200,
+          "title": "教育",
+          "h1": "教育",
+          "updatedAt": "2026年4月28日",
+          "keywordHits": [
+            "子育て",
+            "耐震",
+            "通学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/228/231/index.html",
+          "status": 200,
+          "title": "生涯学習",
+          "h1": "生涯学習",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/228/232/index.html",
+          "status": 200,
+          "title": "文化財",
+          "h1": "文化財",
+          "updatedAt": "2026年5月7日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/212/index.html",
+          "status": 200,
+          "title": "仕事・産業",
+          "h1": "仕事・産業",
+          "updatedAt": "令和7年4月1日",
+          "keywordHits": [
+            "補助金",
+            "減免",
+            "創業",
+            "事業者",
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/212/213/index.html",
+          "status": 200,
+          "title": "農業・林業・漁業",
+          "h1": "農業・林業・漁業",
+          "updatedAt": "2025年12月1日",
+          "keywordHits": [
+            "補助金",
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/212/214/index.html",
+          "status": 200,
+          "title": "商工業",
+          "h1": "商工業",
+          "updatedAt": "2026年5月29日",
+          "keywordHits": [
+            "補助金",
+            "減免",
+            "空き家",
+            "創業",
+            "事業者",
+            "農業",
+            "林業",
+            "省エネ"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/212/215/index.html",
+          "status": 200,
+          "title": "仕事",
+          "h1": "仕事",
+          "updatedAt": "2026年7月7日",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/300/index.html",
+          "status": 200,
+          "title": "町政情報",
+          "h1": "町政情報",
+          "updatedAt": "令和8年7月10日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "医療費助成",
+            "移住",
+            "住宅",
+            "空き家",
+            "事業者",
+            "福祉",
+            "耐震",
+            "通学"
+          ],
+          "candidateScore": 24,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/300/303/index.html",
+          "status": 200,
+          "title": "行政",
+          "h1": "行政",
+          "updatedAt": "2026年7月7日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "事業者",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/300/304/index.html",
+          "status": 200,
+          "title": "情報公開",
+          "h1": "情報公開",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "通学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/300/1010/index.html",
+          "status": 200,
+          "title": "入札・契約",
+          "h1": "入札・契約",
+          "updatedAt": "令和8年7月22日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/300/307/index.html",
+          "status": 200,
+          "title": "統計",
+          "h1": "統計",
+          "updatedAt": "2026年5月11日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/300/309/index.html",
+          "status": 200,
+          "title": "募集",
+          "h1": "募集",
+          "updatedAt": "2026年6月25日",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/300/311/index.html",
+          "status": 200,
+          "title": "申請手続き",
+          "h1": "申請手続き",
+          "updatedAt": "2026年5月26日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "医療費助成",
+            "住宅",
+            "事業者",
+            "福祉",
+            "耐震",
+            "省エネ",
+            "通学"
+          ],
+          "candidateScore": 24,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/300/313/index.html",
+          "status": 200,
+          "title": "基本構想・計画",
+          "h1": "基本構想・計画",
+          "updatedAt": "2026年4月16日",
+          "keywordHits": [
+            "空き家",
+            "事業者",
+            "耐震"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/206/209/p011995.html",
+          "status": 200,
+          "title": "土地活用のための空き家解体事業補助金",
+          "h1": "土地活用のための空き家解体事業補助金",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "耐震"
+          ],
+          "candidateScore": 20,
+          "candidatePriority": "strong",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/228/221/p011991.html",
+          "status": 200,
+          "title": "永平寺町おうちで子育て応援金",
+          "h1": "永平寺町おうちで子育て応援金",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "給付金",
+            "子育て"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/400/403/504/p011651.html",
+          "status": 200,
+          "title": "令和8年度における町の取組み（令和8年第2回定例会 所信表明）",
+          "h1": "令和8年度における町の取組み（令和8年第2回定例会 所信表明）",
+          "updatedAt": "2026年3月2日",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "移住",
+            "住宅",
+            "空き家",
+            "創業",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "奨学金",
+            "耐震",
+            "通学"
+          ],
+          "candidateScore": 24,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/900/1008/index.html",
+          "status": 200,
+          "title": "申請・届出",
+          "h1": "申請・届出",
+          "updatedAt": "2026年6月24日",
+          "keywordHits": [
+            "補助金",
+            "医療費助成",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "就学",
+            "耐震",
+            "通学"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/300/311/p000773.html",
+          "status": 200,
+          "title": "永平寺町ふるさと納税サイト",
+          "h1": "永平寺町ふるさと納税サイト",
+          "updatedAt": "2025年6月16日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/700/index.html",
+          "status": 200,
+          "title": "よくあるご質問",
+          "h1": "よくあるご質問",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/900/904/p001595.html",
+          "status": 200,
+          "title": "各種相談窓口",
+          "h1": "各種相談窓口",
+          "updatedAt": "2024年9月30日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/100/102/index.html",
+          "status": 200,
+          "title": "妊娠・出産",
+          "h1": "妊娠・出産",
+          "updatedAt": "2026年5月26日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/100/104/index.html",
+          "status": 200,
+          "title": "入園・入学",
+          "h1": "入園・入学",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/100/105/index.html",
+          "status": 200,
+          "title": "働く",
+          "h1": "働く",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "補助金",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/100/101/index.html",
+          "status": 200,
+          "title": "結婚",
+          "h1": "結婚",
+          "updatedAt": "2025年12月2日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/100/106/index.html",
+          "status": 200,
+          "title": "住む",
+          "h1": "住む",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/100/103/index.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "2026年5月26日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/100/107/index.html",
+          "status": 200,
+          "title": "介護",
+          "h1": "介護",
+          "updatedAt": "2026年6月16日",
+          "keywordHits": [
+            "給付金",
+            "医療費助成",
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/100/108/index.html",
+          "status": 200,
+          "title": "死亡・相続",
+          "h1": "死亡・相続",
+          "updatedAt": "2025年12月2日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/220/223/p011727.html",
+          "status": 200,
+          "title": "食中毒多発注意報 発令中！",
+          "h1": "食中毒多発注意報 発令中！",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/228/231/p011737.html",
+          "status": 200,
+          "title": "希望のひまわり背高のっぽ大会【公民館企画】",
+          "h1": "希望のひまわり背高のっぽ大会【公民館企画】",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/100/105/p003180.html",
+          "status": 200,
+          "title": "永平寺町最新求人情報（ハローワーク福井からの情報）",
+          "h1": "永平寺町最新求人情報（ハローワーク福井からの情報）",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/206/209/p011270.html",
+          "status": 200,
+          "title": "永平寺町「空き家・空き地情報バンク」登録物件一覧",
+          "h1": "永平寺町「空き家・空き地情報バンク」登録物件一覧",
+          "updatedAt": "2026年7月9日",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "空き家",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/900/1030/index.html",
+          "status": 200,
+          "title": "新着情報一覧",
+          "h1": "新着情報一覧",
+          "updatedAt": "2026年7月13日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "一時金",
+            "支援金",
+            "奨励金",
+            "貸付",
+            "減免",
+            "移住",
+            "住宅",
+            "空き家",
+            "創業",
+            "起業",
+            "事業者",
+            "福祉",
+            "子育て",
+            "就学",
+            "奨学金",
+            "耐震",
+            "省エネ",
+            "予防接種",
+            "不妊",
+            "妊婦",
+            "通学"
+          ],
+          "candidateScore": 36,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/500/506/p011998.html",
+          "status": 200,
+          "title": "空き家・住宅耐震化無料相談会の開催",
+          "h1": "空き家・住宅耐震化無料相談会の開催",
+          "updatedAt": "2026年6月30日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "耐震"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/950/p002091.html",
+          "status": 200,
+          "title": "永平寺町ソーシャルメディアアカウント一覧",
+          "h1": "永平寺町ソーシャルメディアアカウント一覧",
+          "updatedAt": "2020年4月10日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/900/904/p002101.html",
+          "status": 200,
+          "title": "ＡＥＤ設置場所",
+          "h1": "ＡＥＤ設置場所",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/dept/000119/index.html",
+          "status": 200,
+          "title": "消防本部",
+          "h1": "消防本部",
+          "updatedAt": "2026年7月2日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/900/906/p000134.html",
+          "status": 200,
+          "title": "永平寺町の概要",
+          "h1": "永平寺町の概要",
+          "updatedAt": "2025年11月1日",
+          "keywordHits": [
+            "農業",
+            "林業",
+            "水産"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/900/905/index.html",
+          "status": 200,
+          "title": "行政メニュー",
+          "h1": "行政メニュー",
+          "updatedAt": "2026年5月11日",
+          "keywordHits": [
+            "空き家",
+            "事業者",
+            "通学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/900/907/p000136.html",
+          "status": 200,
+          "title": "リンク集",
+          "h1": "リンク集",
+          "updatedAt": "2024年3月6日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/1029/1030/index.html",
+          "status": 200,
+          "title": "妊娠・出産",
+          "h1": "妊娠・出産",
+          "updatedAt": "2026年5月26日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/1029/1031/index.html",
+          "status": 200,
+          "title": "家庭への支援・助成",
+          "h1": "家庭への支援・助成",
+          "updatedAt": "2026年5月26日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て",
+            "就学",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/1029/1032/index.html",
+          "status": 200,
+          "title": "幼稚園・幼児園",
+          "h1": "幼稚園・幼児園",
+          "updatedAt": "2026年6月24日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/1029/1033/index.html",
+          "status": 200,
+          "title": "小・中学校",
+          "h1": "小・中学校",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種",
+            "通学"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/1029/1034/index.html",
+          "status": 200,
+          "title": "児童館・児童クラブ",
+          "h1": "児童館・児童クラブ",
+          "updatedAt": "2025年12月15日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/1029/1035/index.html",
+          "status": 200,
+          "title": "一時預かり",
+          "h1": "一時預かり",
+          "updatedAt": "2026年3月31日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/1029/1036/index.html",
+          "status": 200,
+          "title": "支援センター",
+          "h1": "支援センター",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/1029/1037/index.html",
+          "status": 200,
+          "title": "相談窓口",
+          "h1": "相談窓口",
+          "updatedAt": "2026年5月26日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/1029/1038/index.html",
+          "status": 200,
+          "title": "施設一覧",
+          "h1": "施設一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/1029/1039/p011825.html",
+          "status": 200,
+          "title": "永平寺町子どもの屋内遊び場 えいぱーく",
+          "h1": "永平寺町子どもの屋内遊び場 えいぱーく",
+          "updatedAt": "2026年5月13日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/1029/1031/p011893.html",
+          "status": 200,
+          "title": "こども誰でも通園制度（乳児等通園支援事業）",
+          "h1": "こども誰でも通園制度（乳児等通園支援事業）",
+          "updatedAt": "2026年3月31日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/1029/1039/index.html",
+          "status": 200,
+          "title": "お知らせ情報",
+          "h1": "お知らせ情報",
+          "updatedAt": "2026年5月13日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/1029/1040/event.html",
+          "status": 200,
+          "title": "イベントカレンダー",
+          "h1": "イベントカレンダー",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/228/231/p011392.html",
+          "status": 200,
+          "title": "令和8年度永平寺町文化祭の開催",
+          "h1": "令和8年度永平寺町文化祭の開催",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/228/231/p011076.html",
+          "status": 200,
+          "title": "令和8年度永平寺町文化祭の開催（ステージ発表者、展示作品出品者募集）",
+          "h1": "令和8年度永平寺町文化祭の開催（ステージ発表者、展示作品出品者募集）",
+          "updatedAt": "2026年6月25日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/500/event.html",
+          "status": 200,
+          "title": "イベントカレンダー",
+          "h1": "イベントカレンダー",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/201/202/p002471.html",
+          "status": 200,
+          "title": "指定緊急避難場所及び指定避難所",
+          "h1": "指定緊急避難場所及び指定避難所",
+          "updatedAt": "2025年10月30日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/201/202/p011508.html",
+          "status": 200,
+          "title": "永平寺町の災害用備蓄品について",
+          "h1": "永平寺町の災害用備蓄品について",
+          "updatedAt": "2024年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/201/202/p002114.html",
+          "status": 200,
+          "title": "罹災証明願の手続き",
+          "h1": "罹災証明願の手続き",
+          "updatedAt": "2025年4月3日",
+          "keywordHits": [
+            "支援金"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/206/209/p000929.html",
+          "status": 200,
+          "title": "永平寺町建築物耐震改修促進計画",
+          "h1": "永平寺町建築物耐震改修促進計画",
+          "updatedAt": "2026年4月16日",
+          "keywordHits": [
+            "住宅",
+            "耐震"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/201/203/p002122.html",
+          "status": 200,
+          "title": "永平寺町自治会管理防犯灯補助事業",
+          "h1": "永平寺町自治会管理防犯灯補助事業",
+          "updatedAt": "2026年6月29日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/100/index.html",
+          "status": 200,
+          "title": "人生の出来事から探す",
+          "h1": "人生の出来事から探す",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "医療費助成",
+            "住宅",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/600/index.html",
+          "status": 200,
+          "title": "各課案内",
+          "h1": "各課案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/900/907/index.html",
+          "status": 200,
+          "title": "便利メニュー",
+          "h1": "便利メニュー",
+          "updatedAt": "2024年11月1日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/dept/1000/000002/index.html",
+          "status": 200,
+          "title": "総務部門 総務課",
+          "h1": "総務部門 総務課",
+          "updatedAt": "2024年4月8日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/dept/1000/000009/index.html",
+          "status": 200,
+          "title": "総務部門 契約管財課",
+          "h1": "総務部門 契約管財課",
+          "updatedAt": "2022年4月1日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/dept/1000/000003/index.html",
+          "status": 200,
+          "title": "総務部門 防災安全課",
+          "h1": "総務部門 防災安全課",
+          "updatedAt": "2021年5月6日",
+          "keywordHits": [
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/dept/1000/000004/index.html",
+          "status": 200,
+          "title": "総務部門 総合政策課",
+          "h1": "総務部門 総合政策課",
+          "updatedAt": "2023年3月31日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/dept/1000/000053/index.html",
+          "status": 200,
+          "title": "総務部門 財政課",
+          "h1": "総務部門 財政課",
+          "updatedAt": "2023年11月16日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/dept/000001/index.html",
+          "status": 200,
+          "title": "会計課",
+          "h1": "会計課",
+          "updatedAt": "2019年12月16日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/dept/3000/000006/index.html",
+          "status": 200,
+          "title": "民生部門 住民税務課 町税係",
+          "h1": "民生部門 住民税務課 町税係",
+          "updatedAt": "2022年3月31日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/dept/3000/000007/index.html",
+          "status": 200,
+          "title": "民生部門 住民税務課 住民窓口係",
+          "h1": "民生部門 住民税務課 住民窓口係",
+          "updatedAt": "2022年3月31日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/dept/3000/000010/index.html",
+          "status": 200,
+          "title": "民生部門 福祉保健課",
+          "h1": "民生部門 福祉保健課",
+          "updatedAt": "2022年9月30日",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/dept/3000/000014/index.html",
+          "status": 200,
+          "title": "民生部門 子育て支援課",
+          "h1": "民生部門 子育て支援課",
+          "updatedAt": "2026年5月26日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/dept/3000/000031/index.html",
+          "status": 200,
+          "title": "地域づくり応援課 永平寺支所",
+          "h1": "地域づくり応援課 永平寺支所",
+          "updatedAt": "2025年3月31日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/dept/3000/000034/index.html",
+          "status": 200,
+          "title": "地域づくり応援課 上志比支所",
+          "h1": "地域づくり応援課 上志比支所",
+          "updatedAt": "2025年3月31日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/dept/4000/000023/index.html",
+          "status": 200,
+          "title": "産業建設部門 農林課",
+          "h1": "産業建設部門 農林課",
+          "updatedAt": "2019年12月16日",
+          "keywordHits": [
+            "農業",
+            "水産",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/dept/4000/000025/index.html",
+          "status": 200,
+          "title": "産業建設部門 商工観光課",
+          "h1": "産業建設部門 商工観光課",
+          "updatedAt": "2022年4月27日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/dept/4000/000028/index.html",
+          "status": 200,
+          "title": "産業建設部門 建設課",
+          "h1": "産業建設部門 建設課",
+          "updatedAt": "2025年1月30日",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/dept/4000/000033/index.html",
+          "status": 200,
+          "title": "産業建設部門 上下水道課",
+          "h1": "産業建設部門 上下水道課",
+          "updatedAt": "2021年6月14日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/dept/4000/eijyu/index.html",
+          "status": 200,
+          "title": "えい住支援課",
+          "h1": "えい住支援課",
+          "updatedAt": "2023年3月31日",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/dept/000037/index.html",
+          "status": 200,
+          "title": "議会事務局",
+          "h1": "議会事務局",
+          "updatedAt": "2019年12月16日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/dept/7000/000038/index.html",
+          "status": 200,
+          "title": "教育委員会 学校教育課",
+          "h1": "教育委員会 学校教育課",
+          "updatedAt": "2024年3月12日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/dept/7000/000051/index.html",
+          "status": 200,
+          "title": "教育委員会 生涯学習課",
+          "h1": "教育委員会 生涯学習課",
+          "updatedAt": "2023年7月20日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/dept/7000/000052/index.html",
+          "status": 200,
+          "title": "教育委員会 町立図書館",
+          "h1": "教育委員会 町立図書館",
+          "updatedAt": "2019年11月27日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/600/602/p002172.html",
+          "status": 200,
+          "title": "永平寺温泉禅の里のご案内",
+          "h1": "永平寺温泉禅の里のご案内",
+          "updatedAt": "2025年7月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/220/222/p010245.html",
+          "status": 200,
+          "title": "永平寺町立在宅訪問診療所について",
+          "h1": "永平寺町立在宅訪問診療所について",
+          "updatedAt": "2023年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/600/602/p011729.html",
+          "status": 200,
+          "title": "松岡福祉総合センターの利用制限について",
+          "h1": "松岡福祉総合センターの利用制限について",
+          "updatedAt": "2025年6月23日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/600/602/p000019.html",
+          "status": 200,
+          "title": "永平寺町保健センター",
+          "h1": "永平寺町保健センター",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/600/602/p000030.html",
+          "status": 200,
+          "title": "松岡子育て支援センター（ちびっこ広場）",
+          "h1": "松岡子育て支援センター（ちびっこ広場）",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/600/602/p000139.html",
+          "status": 200,
+          "title": "永平寺子育て支援センター（フレンドパーク）",
+          "h1": "永平寺子育て支援センター（フレンドパーク）",
+          "updatedAt": "2021年5月28日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/600/602/p000140.html",
+          "status": 200,
+          "title": "上志比子育て支援センター（わくわく広場）",
+          "h1": "上志比子育て支援センター（わくわく広場）",
+          "updatedAt": "2021年5月28日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/600/603/p002106.html",
+          "status": 200,
+          "title": "松岡公園",
+          "h1": "松岡公園",
+          "updatedAt": "2014年3月13日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/600/603/p010248.html",
+          "status": 200,
+          "title": "ふるさと学習館",
+          "h1": "ふるさと学習館",
+          "updatedAt": "2023年10月12日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/600/603/p010152.html",
+          "status": 200,
+          "title": "永平寺公民館",
+          "h1": "永平寺公民館",
+          "updatedAt": "2025年10月1日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/600/603/p011842.html",
+          "status": 200,
+          "title": "永平寺町ニュースポーツ広場 えいスポーツ",
+          "h1": "永平寺町ニュースポーツ広場 えいスポーツ",
+          "updatedAt": "2026年1月8日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/600/603/p003306.html",
+          "status": 200,
+          "title": "永平寺町健康福祉スポーツ施設「ニンキー体育館」",
+          "h1": "永平寺町健康福祉スポーツ施設「ニンキー体育館」",
+          "updatedAt": "2024年11月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/600/603/p010246.html",
+          "status": 200,
+          "title": "吉野公民館（ざおう荘）",
+          "h1": "吉野公民館（ざおう荘）",
+          "updatedAt": "2026年2月2日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/600/603/p010247.html",
+          "status": 200,
+          "title": "御陵公民館",
+          "h1": "御陵公民館",
+          "updatedAt": "2026年2月2日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/600/603/p010259.html",
+          "status": 200,
+          "title": "志比南公民館",
+          "h1": "志比南公民館",
+          "updatedAt": "2026年1月20日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/600/603/p002145.html",
+          "status": 200,
+          "title": "松岡河川公園",
+          "h1": "松岡河川公園",
+          "updatedAt": "2022年10月27日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/600/603/p010150.html",
+          "status": 200,
+          "title": "松岡公民館",
+          "h1": "松岡公民館",
+          "updatedAt": "2025年10月1日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/600/603/p010153.html",
+          "status": 200,
+          "title": "上志比公民館",
+          "h1": "上志比公民館",
+          "updatedAt": "2025年12月12日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/600/603/p002087.html",
+          "status": 200,
+          "title": "永平寺緑の村ふれあいセンター",
+          "h1": "永平寺緑の村ふれあいセンター",
+          "updatedAt": "2026年4月14日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/600/603/p002084.html",
+          "status": 200,
+          "title": "上志比文化会館サンサンホール",
+          "h1": "上志比文化会館サンサンホール",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "減免",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/600/603/p002068.html",
+          "status": 200,
+          "title": "松岡総合運動公園",
+          "h1": "松岡総合運動公園",
+          "updatedAt": "2025年1月9日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/600/603/p002064.html",
+          "status": 200,
+          "title": "永平寺緑の村運動広場",
+          "h1": "永平寺緑の村運動広場",
+          "updatedAt": "2023年10月16日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/228/221/p011922.html",
+          "status": 200,
+          "title": "特定乳児等通園支援事業者（こども誰でも通園制度）公示",
+          "h1": "特定乳児等通園支援事業者（こども誰でも通園制度）公示",
+          "updatedAt": "2026年3月31日",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/600/604/p000154.html",
+          "status": 200,
+          "title": "なかよし幼児園分園よしの園",
+          "h1": "なかよし幼児園分園よしの園",
+          "updatedAt": "2017年10月26日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/600/607/p011483.html",
+          "status": 200,
+          "title": "E-RISE四季の森",
+          "h1": "E-RISE四季の森",
+          "updatedAt": "2024年4月1日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/206/209/p011996.html",
+          "status": 200,
+          "title": "永平寺町空き家バンク登録サポート奨励金",
+          "h1": "永平寺町空き家バンク登録サポート奨励金",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "奨励金",
+            "住宅",
+            "空き家",
+            "耐震"
+          ],
+          "candidateScore": 20,
+          "candidatePriority": "strong",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/206/235/237/p011990.html",
+          "status": 200,
+          "title": "過疎・辺地地域活性化支援事業補助金",
+          "h1": "過疎・辺地地域活性化支援事業補助金",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/206/235/237/p011989.html",
+          "status": 200,
+          "title": "永平寺町地域活性化研修支援事業補助金",
+          "h1": "永平寺町地域活性化研修支援事業補助金",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/206/207/p000274.html",
+          "status": 200,
+          "title": "永平寺町指定給水装置工事事業者",
+          "h1": "永平寺町指定給水装置工事事業者",
+          "updatedAt": "2026年5月26日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18322",
+          "municipalityName": "永平寺町",
+          "sourceUrl": "https://www.town.eiheiji.lg.jp/200/206/207/p000768.html",
+          "status": 200,
+          "title": "乾燥汚泥肥料「もこもこ」",
+          "h1": "乾燥汚泥肥料「もこもこ」",
+          "updatedAt": "2022年5月23日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.town.eiheiji.lg.jp/",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/1029/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/1029/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/201/202/p002120.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/201/202/p002120.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/shozoku.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/shozoku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/206/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/206/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/206/207/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/206/207/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/206/208/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/206/208/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/206/209/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/206/209/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/206/250/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/206/250/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/206/1002/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/206/1002/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/206/235/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/206/235/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/206/216/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/206/216/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/201/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/201/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/201/202/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/201/202/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/201/203/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/201/203/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/201/204/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/201/204/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/201/205/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/201/205/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/220/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/220/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/220/222/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/220/222/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/220/223/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/220/223/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/220/225/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/220/225/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/220/227/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/220/227/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/228/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/228/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/228/221/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/228/221/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/228/230/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/228/230/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/228/231/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/228/231/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/228/232/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/228/232/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/212/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/212/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/212/213/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/212/213/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/212/214/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/212/214/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/212/215/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/212/215/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/300/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/300/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/300/302/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/300/302/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/300/303/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/300/303/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/300/304/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/300/304/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/300/1010/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/300/1010/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/300/307/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/300/307/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/300/308/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/300/308/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/300/309/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/300/309/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/300/311/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/300/311/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/300/313/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/300/313/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/300/314/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/300/314/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/206/209/p011995.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/206/209/p011995.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/228/221/p011991.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/228/221/p011991.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/400/403/504/p011651.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/400/403/504/p011651.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/900/1008/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/900/1008/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/300/311/p000773.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/300/311/p000773.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/206/250/p002620.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/206/250/p002620.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/700/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/700/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/900/904/p001595.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/900/904/p001595.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/900/908/p000137.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/900/908/p000137.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/100/102/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/100/102/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/100/104/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/100/104/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/100/105/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/100/105/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/100/101/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/100/101/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/100/106/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/100/106/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/100/103/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/100/103/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/100/107/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/100/107/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/100/108/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/100/108/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/300/1010/1019/p012010.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/300/1010/1019/p012010.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/500/503/p011932.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/500/503/p011932.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/300/1010/1014/p011940.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/300/1010/1014/p011940.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/220/223/p011727.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/220/223/p011727.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/228/231/p011737.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/228/231/p011737.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/300/1010/1014/p012005.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/300/1010/1014/p012005.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/100/105/p003180.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/100/105/p003180.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/950/p012008.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/950/p012008.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/206/209/p011270.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/206/209/p011270.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/300/1010/1014/p011959.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/300/1010/1014/p011959.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/900/1030/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/900/1030/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/news.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/news.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/500/506/p011998.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/500/506/p011998.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/900/908/p011386.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/900/908/p011386.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/900/410/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/900/410/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/950/p002091.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/950/p002091.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/950/p000978.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/950/p000978.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/900/904/p002101.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/900/904/p002101.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/206/208/p000126.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/206/208/p000126.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/201/202/p002158.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/201/202/p002158.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/400/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/400/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/dept/000119/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/dept/000119/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/420/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/420/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/300/309/p010109.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/300/309/p010109.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/900/906/p000134.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/900/906/p000134.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/900/908/p000618.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/900/908/p000618.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/900/908/p000617.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/900/908/p000617.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/950/p010421.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/950/p010421.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/900/910/p002103.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/900/910/p002103.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/900/905/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/900/905/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/900/907/p000136.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/900/907/p000136.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/inquiry/mailform000027.html?PAGE_NO=",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/inquiry/mailform000027.html?PAGE_NO=",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/900/908/p000102.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/900/908/p000102.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/900/908/p000103.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/900/908/p000103.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/1029/1030/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/1029/1030/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/1029/1031/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/1029/1031/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/1029/1032/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/1029/1032/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/1029/1033/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/1029/1033/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/1029/1034/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/1029/1034/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/1029/1035/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/1029/1035/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/1029/1036/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/1029/1036/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/1029/1037/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/1029/1037/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/1029/1038/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/1029/1038/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/1029/1039/p011825.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/1029/1039/p011825.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/1029/1031/p011893.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/1029/1031/p011893.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/1029/1039/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/1029/1039/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/1029/1040/event.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/1029/1040/event.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/228/231/p011392.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/228/231/p011392.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/228/231/p011076.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/228/231/p011076.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/500/event.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/500/event.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/inquiry/mailform000027.html?PAGE_NO=1029",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/inquiry/mailform000027.html?PAGE_NO=1029",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/201/202/p010525.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/201/202/p010525.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/201/202/p010527.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/201/202/p010527.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/201/202/p002152.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/201/202/p002152.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.eiheiji.lg.jp/bousainotebiki_eiheiji/",
+          "status": 200,
+          "finalUrl": "http://www.town.eiheiji.lg.jp/bousainotebiki_eiheiji/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/201/202/p002493.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/201/202/p002493.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/201/202/p002471.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/201/202/p002471.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/201/202/p011508.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/201/202/p011508.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/201/202/p002182.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/201/202/p002182.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/201/202/p002114.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/201/202/p002114.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/201/202/p011867.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/201/202/p011867.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.eiheiji.lg.jp/900/903/p002081.html",
+          "status": 200,
+          "finalUrl": "http://www.town.eiheiji.lg.jp/900/903/p002081.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/201/202/p001700.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/201/202/p001700.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/201/202/p001753.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/201/202/p001753.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/201/202/p001754.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/201/202/p001754.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/201/202/p000554.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/201/202/p000554.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/201/202/p002358.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/201/202/p002358.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/206/209/p000929.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/206/209/p000929.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/201/203/p002122.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/201/203/p002122.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/201/203/p002099.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/201/203/p002099.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/201/203/p002113.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/201/203/p002113.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/201/203/p002100.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/201/203/p002100.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/900/903/p002081.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/900/903/p002081.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/100/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/100/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/900/907/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/900/907/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/inquiry/mailform000027.html?PAGE_NO=2120",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/inquiry/mailform000027.html?PAGE_NO=2120",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/dept/1000/000002/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/dept/1000/000002/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/dept/1000/000009/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/dept/1000/000009/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/dept/1000/000003/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/dept/1000/000003/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/dept/1000/000004/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/dept/1000/000004/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/dept/1000/000053/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/dept/1000/000053/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/dept/000001/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/dept/000001/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/dept/3000/000006/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/dept/3000/000006/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/dept/3000/000007/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/dept/3000/000007/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/dept/3000/000010/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/dept/3000/000010/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/dept/3000/000014/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/dept/3000/000014/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/dept/3000/000031/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/dept/3000/000031/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/dept/3000/000034/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/dept/3000/000034/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/dept/4000/000023/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/dept/4000/000023/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/dept/4000/000025/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/dept/4000/000025/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/dept/4000/000028/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/dept/4000/000028/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/dept/4000/000033/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/dept/4000/000033/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/dept/4000/eijyu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/dept/4000/eijyu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/dept/000037/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/dept/000037/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/dept/7000/000038/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/dept/7000/000038/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/dept/7000/000051/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/dept/7000/000051/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/dept/7000/000052/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/dept/7000/000052/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/601/p003589.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/601/p003589.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/601/p002062.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/601/p002062.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/602/p002172.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/602/p002172.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/220/222/p010245.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/220/222/p010245.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/602/p011729.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/602/p011729.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/602/p000019.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/602/p000019.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/602/p000030.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/602/p000030.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/602/p000139.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/602/p000139.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/602/p000140.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/602/p000140.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/603/p002119.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/603/p002119.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/603/p002106.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/603/p002106.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/603/p010248.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/603/p010248.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/603/p010152.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/603/p010152.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/603/p011842.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/603/p011842.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/603/p003306.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/603/p003306.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/603/p010246.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/603/p010246.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/603/p010247.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/603/p010247.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/603/p010259.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/603/p010259.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/603/p010258.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/603/p010258.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/603/p002145.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/603/p002145.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/603/p010150.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/603/p010150.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/603/p010153.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/603/p010153.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/603/p000082.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/603/p000082.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/603/p000084.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/603/p000084.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/603/p000086.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/603/p000086.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/603/p002087.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/603/p002087.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/603/p002084.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/603/p002084.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/603/p002068.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/603/p002068.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/603/p002064.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/603/p002064.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/603/p002047.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/603/p002047.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/228/221/p011922.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/228/221/p011922.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/604/p000026.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/604/p000026.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/604/p000138.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/604/p000138.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/604/p000154.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/604/p000154.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/604/p000092.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/604/p000092.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/604/p000027.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/604/p000027.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/604/p000093.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/604/p000093.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/604/p000094.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/604/p000094.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/604/p000028.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/604/p000028.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/604/p000099.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/604/p000099.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/605/p000075.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/605/p000075.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/605/p000076.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/605/p000076.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/605/p000077.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/605/p000077.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/606/p000072.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/606/p000072.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/606/p000095.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/606/p000095.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/606/p000096.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/606/p000096.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/606/p000073.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/606/p000073.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/606/p000097.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/606/p000097.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/606/p000074.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/606/p000074.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/600/607/p011483.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/600/607/p011483.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/206/209/p011996.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/206/209/p011996.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/206/235/237/p011990.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/206/235/237/p011990.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/206/235/237/p011989.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/206/235/237/p011989.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/206/207/p000822.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/206/207/p000822.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/206/207/p000274.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/206/207/p000274.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/206/207/p000837.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/206/207/p000837.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/206/207/p000788.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/206/207/p000788.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.eiheiji.lg.jp/200/206/207/p000768.html",
+          "status": 200,
+          "finalUrl": "https://www.town.eiheiji.lg.jp/200/206/207/p000768.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

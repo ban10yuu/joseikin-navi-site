@@ -1,0 +1,31 @@
+{
+  "batchId": "fukui-official-coverage-002",
+  "prefecture": "福井県",
+  "municipalities": [
+    {
+      "code": "18207",
+      "name": "鯖江市",
+      "officialBaseUrl": "https://www.city.sabae.fukui.jp/"
+    },
+    {
+      "code": "18208",
+      "name": "あわら市",
+      "officialBaseUrl": "https://www.city.awara.lg.jp/"
+    },
+    {
+      "code": "18209",
+      "name": "越前市",
+      "officialBaseUrl": "https://www.city.echizen.lg.jp/"
+    },
+    {
+      "code": "18210",
+      "name": "坂井市",
+      "officialBaseUrl": "https://www.city.fukui-sakai.lg.jp/"
+    },
+    {
+      "code": "18322",
+      "name": "永平寺町",
+      "officialBaseUrl": "https://www.town.eiheiji.lg.jp/"
+    }
+  ]
+}
