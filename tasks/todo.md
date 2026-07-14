@@ -964,4 +964,4 @@
 - [x] production build 8,266ページ成功
 - [x] content audit / build audit critical 0
 - [x] E2E 34表示ケース・axe 6ページ・320〜1440px横スクロール検査すべて成功
-- [ ] Vercel本番反映と独自ドメイン実機確認
+- [x] Vercel本番反映と独自ドメイン実機確認（PC 1440px・スマホ390px、生成イラスト7点、横スクロール0、旧URL2件の301転送を確認）
