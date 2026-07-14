@@ -1,0 +1,26 @@
+{
+  "batchId": "kanagawa-official-coverage-003",
+  "prefecture": "神奈川県",
+  "municipalities": [
+    {
+      "code": "14207",
+      "name": "茅ヶ崎市",
+      "officialBaseUrl": "https://www.city.chigasaki.kanagawa.jp/"
+    },
+    {
+      "code": "14208",
+      "name": "逗子市",
+      "officialBaseUrl": "https://www.city.zushi.kanagawa.jp/"
+    },
+    {
+      "code": "14210",
+      "name": "三浦市",
+      "officialBaseUrl": "https://www.city.miura.kanagawa.jp/"
+    },
+    {
+      "code": "14211",
+      "name": "秦野市",
+      "officialBaseUrl": "https://www.city.hadano.kanagawa.jp/"
+    }
+  ]
+}

@@ -1,0 +1,3798 @@
+{
+  "batchId": "kanagawa-official-coverage-003-14207",
+  "prefecture": "神奈川県",
+  "generatedAt": "2026-07-14T09:46:44.417Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 107,
+  "results": [
+    {
+      "code": "14207",
+      "name": "茅ヶ崎市",
+      "officialBaseUrl": "https://www.city.chigasaki.kanagawa.jp/",
+      "discoveredUrlCount": 300,
+      "candidateCount": 107,
+      "strongCandidateCount": 0,
+      "lowPriorityCandidateCount": 107,
+      "candidates": [
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月10日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kurashi.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年9月15日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "給付金",
+            "一時金",
+            "奨励金",
+            "貸付",
+            "減免",
+            "医療費助成",
+            "住宅",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 36,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/index.html",
+          "status": 200,
+          "title": "環境・ごみ・ペット",
+          "h1": "環境・ごみ・ペット",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "省エネ"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/bosai/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "耐震"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/1052150/index.html",
+          "status": 200,
+          "title": "市民相談・消費生活",
+          "h1": "市民相談・消費生活",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "耐震"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kokuminkenkohoken/index.html",
+          "status": 200,
+          "title": "国民健康保険のご案内",
+          "h1": "国民健康保険のご案内",
+          "updatedAt": "令和8年6月22日",
+          "keywordHits": [
+            "支援金",
+            "減免",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/1059934/index.html",
+          "status": 200,
+          "title": "国民年金",
+          "h1": "国民年金",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "一時金",
+            "免除",
+            "福祉"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/shogai/index.html",
+          "status": 200,
+          "title": "障がいのある方",
+          "h1": "障がいのある方",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "貸付",
+            "減免",
+            "医療費助成",
+            "住宅",
+            "事業者",
+            "福祉",
+            "就学"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/otoshiyori/index.html",
+          "status": 200,
+          "title": "お年寄り",
+          "h1": "お年寄り",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/fukushi_chiiki/index.html",
+          "status": 200,
+          "title": "地域福祉",
+          "h1": "地域福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/fukushi_seikatu/index.html",
+          "status": 200,
+          "title": "生活福祉",
+          "h1": "生活福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "福祉"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kenko/index.html",
+          "status": 200,
+          "title": "健康・衛生・医療",
+          "h1": "健康・衛生・医療",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "一時金",
+            "予防接種"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kosodate/index.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kyouiku/index.html",
+          "status": 200,
+          "title": "教育（くらし）",
+          "h1": "教育（くらし）",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/bunka_rekishi/index.html",
+          "status": 200,
+          "title": "文化・歴史",
+          "h1": "文化・歴史",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/sports/index.html",
+          "status": 200,
+          "title": "スポーツ",
+          "h1": "スポーツ",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/1058484/index.html",
+          "status": 200,
+          "title": "農業",
+          "h1": "農業",
+          "updatedAt": "令和8年7月10日",
+          "keywordHits": [
+            "補助金",
+            "農業",
+            "水産"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/1060033/index.html",
+          "status": 200,
+          "title": "海・漁業",
+          "h1": "海・漁業",
+          "updatedAt": "令和8年6月17日",
+          "keywordHits": [
+            "農業",
+            "水産"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kurasi_gesuido/index.html",
+          "status": 200,
+          "title": "下水道・水環境",
+          "h1": "下水道・水環境",
+          "updatedAt": "",
+          "keywordHits": [
+            "奨励金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kotsu_bus/index.html",
+          "status": 200,
+          "title": "バス・駐車場",
+          "h1": "バス・駐車場",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/sumai/index.html",
+          "status": 200,
+          "title": "住まい",
+          "h1": "住まい",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/1026415/index.html",
+          "status": 200,
+          "title": "外国人の方（がいこくじんのかた）",
+          "h1": "外国人の方（がいこくじんのかた）",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/shisetsu.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/shisetsu_info/index.html",
+          "status": 200,
+          "title": "公共施設のご案内",
+          "h1": "公共施設のご案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/shisei.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "移住",
+            "住宅",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/saiyo/index.html",
+          "status": 200,
+          "title": "職員の採用・人事・給与",
+          "h1": "職員の採用・人事・給与",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/machidukuri/index.html",
+          "status": 200,
+          "title": "まちづくり(市政情報）",
+          "h1": "まちづくり(市政情報）",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/1053936/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/jigyo.html",
+          "status": 200,
+          "title": "事業者の方へ",
+          "h1": "事業者の方へ",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "創業",
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/keiyaku/index.html",
+          "status": 200,
+          "title": "入札・契約",
+          "h1": "入札・契約",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/sangyo/index.html",
+          "status": 200,
+          "title": "商工業・雇用",
+          "h1": "商工業・雇用",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/1001876/index.html",
+          "status": 200,
+          "title": "農業・農地・森林",
+          "h1": "農業・農地・森林",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/1001878/index.html",
+          "status": 200,
+          "title": "広告事業（事業者の方へ）",
+          "h1": "広告事業（事業者の方へ）",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/1001879/index.html",
+          "status": 200,
+          "title": "公共建築",
+          "h1": "公共建築",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/1051603/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/sangyo/1066251.html",
+          "status": 200,
+          "title": "茅ヶ崎市くらし応援商品券事業（重点支援地方交付金活用事業）",
+          "h1": "茅ヶ崎市くらし応援商品券事業（重点支援地方交付金活用事業）",
+          "updatedAt": "令和8年7月13日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/bunka_shogai/1055976/index.html",
+          "status": 200,
+          "title": "まなびスタートアップ！市の講座ナビ ー市の講座・講演会情報ー",
+          "h1": "まなびスタートアップ！市の講座ナビ ー市の講座・講演会情報ー",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/1018062/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和7年9月16日",
+          "keywordHits": [
+            "補助金",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/about/1001984.html",
+          "status": 200,
+          "title": "知りたい情報が見つからない時は",
+          "h1": "知りたい情報が見つからない時は",
+          "updatedAt": "令和5年3月31日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/recruit/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/madoguchi/1053142.html",
+          "status": 200,
+          "title": "電子申請・届出サービス",
+          "h1": "電子申請・届出サービス",
+          "updatedAt": "令和8年7月7日",
+          "keywordHits": [
+            "減免",
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/1053936/1058960.html",
+          "status": 200,
+          "title": "各課直通番号一覧",
+          "h1": "各課直通番号一覧",
+          "updatedAt": "令和6年9月4日",
+          "keywordHits": [
+            "補助金",
+            "一時金",
+            "住宅",
+            "事業者",
+            "農業",
+            "水産",
+            "福祉",
+            "子育て",
+            "就学",
+            "耐震"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/bosai/1045890/index.html",
+          "status": 200,
+          "title": "災害に備えて",
+          "h1": "災害に備えて",
+          "updatedAt": "",
+          "keywordHits": [
+            "耐震"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/lifeevent/1001972.html",
+          "status": 200,
+          "title": "妊娠・出産（ライフシーン）",
+          "h1": "妊娠・出産（ライフシーン）",
+          "updatedAt": "令和5年9月1日",
+          "keywordHits": [
+            "一時金",
+            "医療費助成",
+            "妊婦"
+          ],
+          "candidateScore": 10,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/lifeevent/1001974.html",
+          "status": 200,
+          "title": "入園・入学（ライフシーン）",
+          "h1": "入園・入学（ライフシーン）",
+          "updatedAt": "令和4年3月22日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/gomi/index.html",
+          "status": 200,
+          "title": "ごみの出し方",
+          "h1": "ごみの出し方",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/machidukuri/1013542/1036428.html",
+          "status": 200,
+          "title": "道の駅から発信するオリジナルブランド「Choice!CHIGASAKI」",
+          "h1": "道の駅から発信するオリジナルブランド「Choice!CHIGASAKI」",
+          "updatedAt": "令和7年2月17日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/koho/1067717.html",
+          "status": 200,
+          "title": "茅ヶ崎市情報発信システム構築・運用業務委託プロポーザルについて",
+          "h1": "茅ヶ崎市情報発信システム構築・運用業務委託プロポーザルについて",
+          "updatedAt": "令和8年7月10日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kenko/1023329/1067367.html",
+          "status": 200,
+          "title": "茅ヶ崎市保健所移転管理及び移転業務委託プロポーザルについて",
+          "h1": "茅ヶ崎市保健所移転管理及び移転業務委託プロポーザルについて",
+          "updatedAt": "令和8年6月15日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/shogai/1004305/1059278.html",
+          "status": 200,
+          "title": "ちがさき障がい者支援アプリのバナー広告を募集しています",
+          "h1": "ちがさき障がい者支援アプリのバナー広告を募集しています",
+          "updatedAt": "令和8年1月29日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/about/update.html",
+          "status": 200,
+          "title": "更新情報一覧（茅ヶ崎市ホームページ）",
+          "h1": "更新情報一覧（茅ヶ崎市ホームページ）",
+          "updatedAt": "令和8年7月14日",
+          "keywordHits": [
+            "補助金",
+            "給付金",
+            "貸付",
+            "医療費助成",
+            "住宅",
+            "空家",
+            "事業者",
+            "農業",
+            "水産",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 27,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/koho/1010827.html",
+          "status": 200,
+          "title": "YouTubeを活用した動画配信（ハーモニアスちがさき・定例記者会見・ちがさき動画ライブラリー）を行っています",
+          "h1": "YouTubeを活用した動画配信（ハーモニアスちがさき・定例記者会見・ちがさき動画ライブラリー）を行っています",
+          "updatedAt": "令和5年7月13日",
+          "keywordHits": [
+            "移住",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/koho/sns.html",
+          "status": 200,
+          "title": "茅ヶ崎市ソーシャルメディア(公式SNS）等アカウント一覧",
+          "h1": "茅ヶ崎市ソーシャルメディア(公式SNS）等アカウント一覧",
+          "updatedAt": "令和7年9月16日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/zaisei/furusato/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年3月16日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/creativecity/index.html",
+          "status": 200,
+          "title": "創造都市「クリエイターシティ・チガサキ」",
+          "h1": "創造都市「クリエイターシティ・チガサキ」",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/sangyo/1043265.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年8月5日",
+          "keywordHits": [
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/koho/index.html",
+          "status": 200,
+          "title": "広報・シティプロモーション",
+          "h1": "広報・シティプロモーション",
+          "updatedAt": "令和7年7月7日",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/saiyo/hiseiki/index.html",
+          "status": 200,
+          "title": "会計年度任用職員募集",
+          "h1": "会計年度任用職員募集",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/jyohosuishin/1045355/1045139.html",
+          "status": 200,
+          "title": "茅ヶ崎市オープンデータライブラリ",
+          "h1": "茅ヶ崎市オープンデータライブラリ",
+          "updatedAt": "令和4年10月11日",
+          "keywordHits": [
+            "子育て",
+            "通学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/shinseisho/index.html",
+          "status": 200,
+          "title": "申請書ダウンロード",
+          "h1": "申請書ダウンロード",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/about/1001985.html",
+          "status": 200,
+          "title": "ちがさきメール配信サービス",
+          "h1": "ちがさきメール配信サービス",
+          "updatedAt": "令和6年4月5日",
+          "keywordHits": [
+            "農業",
+            "水産",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/faq/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/faq/1000007/index.html",
+          "status": 200,
+          "title": "子育て(よくあるご質問）",
+          "h1": "子育て(よくあるご質問）",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/faq/1000009/index.html",
+          "status": 200,
+          "title": "福祉",
+          "h1": "福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/faq/1000012/index.html",
+          "status": 200,
+          "title": "観光・産業・経済",
+          "h1": "観光・産業・経済",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kenko/1023329/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/machidukuri/1007905/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "平成30年3月25日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/chatbot.html",
+          "status": 200,
+          "title": "AI（人工知能）が質問に自動応答するチャットボットサービスを運用しています",
+          "h1": "AI（人工知能）が質問に自動応答するチャットボットサービスを運用しています",
+          "updatedAt": "令和7年3月10日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/about/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "令和8年7月10日",
+          "keywordHits": [
+            "移住",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/profile/1021881.html",
+          "status": 200,
+          "title": "茅ヶ崎市の法人番号",
+          "h1": "茅ヶ崎市の法人番号",
+          "updatedAt": "平成29年3月21日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/about/1001987.html",
+          "status": 200,
+          "title": "ホームページから各課各担当へのお問い合わせフォーム一覧",
+          "h1": "ホームページから各課各担当へのお問い合わせフォーム一覧",
+          "updatedAt": "令和8年7月10日",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "水産",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kenko/1022933/1038459/1038954/index.html",
+          "status": 200,
+          "title": "新型コロナウイルス感染症対応の郵送・電話可能等の手続き一覧",
+          "h1": "新型コロナウイルス感染症対応の郵送・電話可能等の手続き一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "減免",
+            "医療費助成",
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/1051906/1051683.html",
+          "status": 200,
+          "title": "市税・保険料等の納め方",
+          "h1": "市税・保険料等の納め方",
+          "updatedAt": "令和8年4月30日",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1061701.html",
+          "status": 200,
+          "title": "戸籍に氏名の振り仮名が記載されます",
+          "h1": "戸籍に氏名の振り仮名が記載されます",
+          "updatedAt": "令和8年6月5日",
+          "keywordHits": [
+            "給付金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1003139.html",
+          "status": 200,
+          "title": "コンビニ交付サービス",
+          "h1": "コンビニ交付サービス",
+          "updatedAt": "令和8年1月8日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1047996.html",
+          "status": 200,
+          "title": "住民基本台帳の閲覧について",
+          "h1": "住民基本台帳の閲覧について",
+          "updatedAt": "令和8年7月2日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/zei/1015353/index.html",
+          "status": 200,
+          "title": "個人市民税",
+          "h1": "個人市民税",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/zei/koteishisanzei/index.html",
+          "status": 200,
+          "title": "固定資産税／都市計画税",
+          "h1": "固定資産税／都市計画税",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/zei/jidoushazei/index.html",
+          "status": 200,
+          "title": "軽自動車税",
+          "h1": "軽自動車税",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/zei/1003640/index.html",
+          "status": 200,
+          "title": "市税の納付・納入について",
+          "h1": "市税の納付・納入について",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/1010719/1010720.html",
+          "status": 200,
+          "title": "マイナンバー制度（社会保障・税番号制度）について",
+          "h1": "マイナンバー制度（社会保障・税番号制度）について",
+          "updatedAt": "令和6年10月30日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/1010719/1057370.html",
+          "status": 200,
+          "title": "茅ヶ崎市における独自利用事務の公表について",
+          "h1": "茅ヶ崎市における独自利用事務の公表について",
+          "updatedAt": "令和6年4月2日",
+          "keywordHits": [
+            "医療費助成"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1067804.html",
+          "status": 200,
+          "title": "ゴーヤの苗の寄附募集",
+          "h1": "ゴーヤの苗の寄附募集",
+          "updatedAt": "令和8年7月6日",
+          "keywordHits": [
+            "省エネ"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1042977/index.html",
+          "status": 200,
+          "title": "2022(令和4)年4月1日から「ごみ有料化」が始まりました",
+          "h1": "2022(令和4)年4月1日から「ごみ有料化」が始まりました",
+          "updatedAt": "令和5年6月9日",
+          "keywordHits": [
+            "減免",
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/gomigenryo/index.html",
+          "status": 200,
+          "title": "計画・資料",
+          "h1": "計画・資料",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1003238/index.html",
+          "status": 200,
+          "title": "飼い主のいない猫（野良猫）対策",
+          "h1": "飼い主のいない猫（野良猫）対策",
+          "updatedAt": "",
+          "keywordHits": [
+            "不妊"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/eiseibika/index.html",
+          "status": 200,
+          "title": "環境美化運動・美化キャンペーン",
+          "h1": "環境美化運動・美化キャンペーン",
+          "updatedAt": "",
+          "keywordHits": [
+            "空き家"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/kichitaisaku/index.html",
+          "status": 200,
+          "title": "基地対策",
+          "h1": "基地対策",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1066586.html",
+          "status": 200,
+          "title": "茅ヶ崎市民文化会館太陽光発電設備等導入事業に係る公募型プロポーザルについて",
+          "h1": "茅ヶ崎市民文化会館太陽光発電設備等導入事業に係る公募型プロポーザルについて",
+          "updatedAt": "令和8年4月8日",
+          "keywordHits": [
+            "補助金",
+            "事業者"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1065153/index.html",
+          "status": 200,
+          "title": "ちがさきの地球温暖化対策",
+          "h1": "ちがさきの地球温暖化対策",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1042834.html",
+          "status": 200,
+          "title": "「茅ヶ崎市・寒川町 気候非常事態宣言」を共同表明！",
+          "h1": "「茅ヶ崎市・寒川町 気候非常事態宣言」を共同表明！",
+          "updatedAt": "令和8年2月24日",
+          "keywordHits": [
+            "事業者",
+            "水産",
+            "省エネ"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1058375.html",
+          "status": 200,
+          "title": "炎天下かけこみスポット（クーリングシェルター）を開放",
+          "h1": "炎天下かけこみスポット（クーリングシェルター）を開放",
+          "updatedAt": "令和8年7月6日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1044637/index.html",
+          "status": 200,
+          "title": "ちがさきと気候変動",
+          "h1": "ちがさきと気候変動",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "省エネ"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1012343.html",
+          "status": 200,
+          "title": "ちがさきエコネット（地球温暖化対策ポータルサイト）",
+          "h1": "ちがさきエコネット（地球温暖化対策ポータルサイト）",
+          "updatedAt": "令和6年12月26日",
+          "keywordHits": [
+            "事業者",
+            "省エネ"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1003449/index.html",
+          "status": 200,
+          "title": "補助制度",
+          "h1": "補助制度",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "給付金",
+            "住宅",
+            "事業者",
+            "省エネ"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1057691/index.html",
+          "status": 200,
+          "title": "体験型環境学習プログラム",
+          "h1": "体験型環境学習プログラム",
+          "updatedAt": "令和4年11月16日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1061939.html",
+          "status": 200,
+          "title": "茅ヶ崎市環境政策課インスタグラム運用ポリシー",
+          "h1": "茅ヶ崎市環境政策課インスタグラム運用ポリシー",
+          "updatedAt": "令和7年6月6日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1003374.html",
+          "status": 200,
+          "title": "こどもエコクラブ",
+          "h1": "こどもエコクラブ",
+          "updatedAt": "令和5年12月18日",
+          "keywordHits": [
+            "省エネ"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1003415.html",
+          "status": 200,
+          "title": "「茅ヶ崎の四季と自然」動画配信・DVD貸出",
+          "h1": "「茅ヶ崎の四季と自然」動画配信・DVD貸出",
+          "updatedAt": "令和5年3月31日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1024246.html",
+          "status": 200,
+          "title": "6月は環境月間",
+          "h1": "6月は環境月間",
+          "updatedAt": "令和8年5月27日",
+          "keywordHits": [
+            "事業者",
+            "省エネ"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1053399.html",
+          "status": 200,
+          "title": "7月7日はクールアース・デー ～みんなが地球を想う日～",
+          "h1": "7月7日はクールアース・デー ～みんなが地球を想う日～",
+          "updatedAt": "令和8年5月27日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1027664.html",
+          "status": 200,
+          "title": "12月は地球温暖化防止月間",
+          "h1": "12月は地球温暖化防止月間",
+          "updatedAt": "令和5年3月31日",
+          "keywordHits": [
+            "事業者",
+            "省エネ"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1017671/index.html",
+          "status": 200,
+          "title": "環境市民会議「ちがさきエコワーク」",
+          "h1": "環境市民会議「ちがさきエコワーク」",
+          "updatedAt": "令和5年11月7日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1060471.html",
+          "status": 200,
+          "title": "専用水道",
+          "h1": "専用水道",
+          "updatedAt": "令和8年6月16日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1060479.html",
+          "status": 200,
+          "title": "小規模水道",
+          "h1": "小規模水道",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1060487.html",
+          "status": 200,
+          "title": "小規模貯水槽水道",
+          "h1": "小規模貯水槽水道",
+          "updatedAt": "令和8年4月16日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14207",
+          "municipalityName": "茅ヶ崎市",
+          "sourceUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1060489.html",
+          "status": 200,
+          "title": "飲用井戸",
+          "h1": "飲用井戸",
+          "updatedAt": "令和8年7月13日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/robots.txt",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/robots.txt",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/about/1010015.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/about/1010015.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/about/1002010.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/about/1002010.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kurashi.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kurashi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/zei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/zei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1010719/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1010719/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/bosai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/bosai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1052150/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1052150/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kokuminkenkohoken/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kokuminkenkohoken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1059934/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1059934/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/shogai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/shogai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/otoshiyori/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/otoshiyori/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/fukushi_chiiki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/fukushi_chiiki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/fukushi_seikatu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/fukushi_seikatu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kenko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kenko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kyouiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kyouiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/bunka_shogai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/bunka_shogai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/bunka_rekishi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/bunka_rekishi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/sports/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/sports/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kouen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kouen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1058484/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1058484/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1060033/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1060033/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kurasi_gesuido/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kurasi_gesuido/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kotsu_bus/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kotsu_bus/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kotsu_anzen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kotsu_anzen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/sumai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/sumai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1026415/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1026415/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1051906/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1051906/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/link/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/link/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/shisetsu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/shisetsu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/shisetsu_info/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/shisetsu_info/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/jyohosuishin/yoyaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/jyohosuishin/yoyaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankou_list/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankou_list/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/event_calendar.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/event_calendar.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/event_calendar.html?c1=1",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/event_calendar.html?c1=1",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/event_calendar.html?c2=2",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/event_calendar.html?c2=2",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/event_calendar.html?c7=7",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/event_calendar.html?c7=7",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/event_calendar.html?c8=8",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/event_calendar.html?c8=8",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/public/1007537/yokoku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/public/1007537/yokoku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/shisei.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/shisei.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/saiyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/saiyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/profile/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/profile/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/public/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/public/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/shiminsanka/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/shiminsanka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/machidukuri/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/machidukuri/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1026248/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1026248/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kikaku_sogo_plan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kikaku_sogo_plan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/road/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/road/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/sisei_gesuido/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/sisei_gesuido/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kikaku_gyosei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kikaku_gyosei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/zaisei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/zaisei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/shingikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/shingikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/danjyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/danjyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/jyohokokai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/jyohokokai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/shiseijyoho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/shiseijyoho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/senkyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/senkyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kyouikuiinkai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kyouikuiinkai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kansa/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kansa/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1030035/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1030035/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kikaku_shiteikanrisha/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kikaku_shiteikanrisha/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/jyorei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/jyorei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1041942/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1041942/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/jyohosuishin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/jyohosuishin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1053936/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1053936/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kikaku_koiki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kikaku_koiki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1064205/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1064205/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/jigyo.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/jigyo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/keiyaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/keiyaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/sangyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/sangyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.chigasaki.kanagawa.jp/public/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/public/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1001876/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1001876/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/jigyo_gesuido/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/jigyo_gesuido/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1001878/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1001878/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1001879/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1001879/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1051603/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1051603/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/sangyo/1066251.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/sangyo/1066251.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/machidukuri/1033298/1067555.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/machidukuri/1033298/1067555.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/bunka_shogai/1055976/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/bunka_shogai/1055976/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1018062/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1018062/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/about/1001984.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/about/1001984.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1015531/telno.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1015531/telno.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/recruit/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/recruit/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/himekuri/1068071.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/himekuri/1068071.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/himekuri/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/himekuri/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1038257/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1038257/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/zei/1015353/1067243.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/zei/1015353/1067243.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1052150/1003867/1049913.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1052150/1003867/1049913.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kotsu_anzen/bouhan/1006842.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kotsu_anzen/bouhan/1006842.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/madoguchi/1053142.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/madoguchi/1053142.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1053936/1058960.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1053936/1058960.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/fire/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/fire/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kenko/kyubyo/1004518.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kenko/kyubyo/1004518.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/bosai/1045890/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/bosai/1045890/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/lifeevent/1001972.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/lifeevent/1001972.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/lifeevent/1001974.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/lifeevent/1001974.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/lifeevent/1001975.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/lifeevent/1001975.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/lifeevent/1001976.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/lifeevent/1001976.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/lifeevent/1001977.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/lifeevent/1001977.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/lifeevent/1001978.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/lifeevent/1001978.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/gomi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/gomi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/road/eboshi_s/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/road/eboshi_s/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/koho/paper/1066876/1067715.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/koho/paper/1066876/1067715.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/profile/1012577/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/profile/1012577/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/machidukuri/1013542/1036428.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/machidukuri/1013542/1036428.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/keiyaku/buppin/1053385.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/keiyaku/buppin/1053385.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/koho/1067717.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/koho/1067717.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kenko/1023329/1067367.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kenko/1023329/1067367.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/shogai/1004305/1059278.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/shogai/1004305/1059278.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/about/update.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/about/update.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/about/1001983.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/about/1001983.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/koho/1002778.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/koho/1002778.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/koho/1010827.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/koho/1010827.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/koho/1018888.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/koho/1018888.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/koho/1038910.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/koho/1038910.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/koho/1045137.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/koho/1045137.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/koho/1018359.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/koho/1018359.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/koho/1039309.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/koho/1063474.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/koho/sns.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/koho/sns.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/zaisei/furusato/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/zaisei/furusato/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1066813/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1066813/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/creativecity/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/creativecity/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/sangyo/1043265.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/sangyo/1043265.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/bunka_rekishi/1023599/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/bunka_rekishi/1023599/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/mayor/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/mayor/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/gikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/gikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1013881.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1013881.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/profile/tokei/1017088/1016883/1016901.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/profile/tokei/1017088/1016883/1016901.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/koho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/koho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/koho/paper/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/koho/paper/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/koho/1030702/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/koho/1030702/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/saiyo/hiseiki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/saiyo/hiseiki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/fire/saiyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/fire/saiyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/jyohosuishin/1045355/1045139.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/jyohosuishin/1045355/1045139.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/shinseisho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/shinseisho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/about/1029944.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/about/1029944.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/about/1001985.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/about/1001985.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/jyorei/1009726.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/jyorei/1009726.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/faq/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/faq/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/faq/1000003/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/faq/1000003/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/faq/1000004/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/faq/1000004/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/faq/1000005/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/faq/1000005/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/faq/1000006/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/faq/1000006/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/faq/1000007/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/faq/1000007/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/faq/1000008/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/faq/1000008/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/faq/1000009/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/faq/1000009/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/faq/1000010/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/faq/1000010/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/faq/1000011/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/faq/1000011/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/faq/1000012/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/faq/1000012/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/faq/1000013/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/faq/1000013/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/faq/1000014/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/faq/1000014/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/faq/1000015/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/faq/1000015/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/faq/1000016/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/faq/1000016/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kenko/1023329/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kenko/1023329/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kyouiku/kominkan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kyouiku/kominkan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kyouiku/taikengakushu_center/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kyouiku/taikengakushu_center/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kouen/1006489.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kouen/1006489.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/machidukuri/1007905/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/machidukuri/1007905/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kotsu_bus/1006813.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kotsu_bus/1006813.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1001878/1007324.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1001878/1007324.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/koho/1002775/1002933.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/koho/1002775/1002933.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1010079/1010080.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1010079/1010080.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/chatbot.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/chatbot.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/about/1010437.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/about/1010437.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/about/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/about/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/about/1010000.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/about/1010000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/about/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/about/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/profile/1021881.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/profile/1021881.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/shisetsu_info/1054012/1054013.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/shisetsu_info/1054012/1054013.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/about/1001987.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/about/1001987.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/cgi-bin/contacts/t0100100",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/cgi-bin/contacts/t0100100",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/about/1001980.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/about/1001980.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/about/1047180.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/about/1047180.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/about/1001981.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/about/1001981.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/about/1001982.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/about/1001982.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/about/1050438.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/about/1050438.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/about/1029468.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/about/1029468.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kenko/1022933/1038459/1038954/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kenko/1022933/1038459/1038954/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1052150/1003862/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1052150/1003862/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1051906/1051683.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1051906/1051683.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1061701.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1061701.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1003146.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1003146.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1066814.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1066814.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1003148.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1003148.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/jusho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/jusho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/koseki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/koseki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/jukinet/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/jukinet/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/inkan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/inkan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1003153/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1003153/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1003154.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1003154.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1036326.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1036326.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/madoguchi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/madoguchi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1015531/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1015531/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1051399/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1051399/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1066205.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1066205.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1003139.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1003139.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1014814.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1014814.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1003141.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1003141.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1011880.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1011880.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1047996.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/1047996.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/koide/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/koide/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/saijo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/tetsuduki/saijo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/zei/oshirse/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/zei/oshirse/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/zei/1050605/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/zei/1050605/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/zei/1038796.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/zei/1038796.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/zei/1039313.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/zei/1039313.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/zei/1015353/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/zei/1015353/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/zei/1003633/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/zei/1003633/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/zei/koteishisanzei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/zei/koteishisanzei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/zei/jidoushazei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/zei/jidoushazei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/zei/1003636.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/zei/1003636.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/zei/1003637.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/zei/1003637.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/zei/1003638.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/zei/1003638.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/zei/1015914/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/zei/1015914/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/zei/1003640/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/zei/1003640/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/zei/1062022.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/zei/1062022.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/zei/1067216.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/zei/1067216.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/zei/1067403.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/zei/1067403.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/zei/1003641/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/zei/1003641/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/zei/1003642.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/zei/1003642.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/zei/1030857.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/zei/1030857.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/zei/1030869.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/zei/1030869.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/zei/1003643.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/zei/1003643.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1010719/1010720.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1010719/1010720.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1010719/1057370.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1010719/1057370.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1010719/1014787.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1010719/1014787.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/1010719/1059967.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/1010719/1059967.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1067389.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1067389.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1067804.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1067804.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1039838.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1039838.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1067307.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1067307.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1058262/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1058262/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1042977/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1042977/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1030220/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1030220/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1065210/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1065210/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/recycle/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/recycle/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/shorishisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/shorishisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1027442.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1027442.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/gomigenryo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/gomigenryo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1037930.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1037930.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/pet/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/pet/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1003238/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1003238/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/gaituyaseidobutsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/gaituyaseidobutsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1003240/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1003240/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1026948.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1026948.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/seikatsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/seikatsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/eiseibika/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/eiseibika/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1003242/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1003242/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1042438.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1042438.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/kogai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/kogai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1003236/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1003236/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1003237/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1003237/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/kichitaisaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/kichitaisaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1066586.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1066586.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1065153/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1065153/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1042834.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1042834.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1058375.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1058375.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1058890.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1058890.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1057453.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1057453.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1044637/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1044637/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1053185.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1053185.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1067250.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1067250.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1012343.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1012343.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1003449/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1003449/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1012695/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1012695/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1053178.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1053178.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1060878/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1060878/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1003322/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1003322/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1057691/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1057691/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1032541.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1032541.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1061939.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1061939.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/kankyougakusyu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/kankyougakusyu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/kankyofea/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/kankyofea/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1058246.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1058246.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1029053.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1029053.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1024287/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1024287/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1021999/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1021999/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1003373/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1003373/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1003374.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1003374.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1003415.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1003415.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1024246.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1024246.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1053399.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1053399.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1049489.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1049489.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1027664.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1027664.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/manejimento/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/manejimento/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1032563.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1032563.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1017671/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1017671/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1065546.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1065546.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1060421.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1060421.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1060471.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1060471.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1060477.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1060477.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1060479.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1060479.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1060487.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1060487.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.chigasaki.kanagawa.jp/kankyo/1060489.html",
+          "status": 200,
+          "finalUrl": "https://www.city.chigasaki.kanagawa.jp/kankyo/1060489.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

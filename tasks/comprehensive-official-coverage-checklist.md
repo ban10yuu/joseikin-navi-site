@@ -8235,3 +8235,44 @@
   - トップ、カテゴリ、サイトマップ、募集一覧、共通ナビ一致、部署ページ、広報・予算PDF、金額又は受付状況不足候補は第2巡候補又は次回継続候補に残す。
 - 次:
   - 神奈川県公式棚卸し003として、14207茅ヶ崎市、14208逗子市、14210三浦市、14211秦野市を自治体コード順に確認する。
+
+### 2026-07-14 神奈川県公式棚卸し003（14207茅ヶ崎市・14208逗子市・14210三浦市・14211秦野市）
+
+- 作業範囲:
+  - 14207 茅ヶ崎市、14208 逗子市、14210 三浦市、14211 秦野市の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 生成候補274件（茅ヶ崎市107件、逗子市113件、三浦市28件、秦野市26件）から、`tasks/discovery/kanagawa-official-coverage-003-manual-snippets.json` に公式本文の短い根拠を保存し、制度名・対象・金額/上限・条件・期限/受付状況が揃う制度を優先した。
+- 採用:
+  - 合計13件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 茅ヶ崎市5件: 住居確保給付金（家賃補助）、住居確保給付金（転居費用補助）、障害福祉サービス事業所等物価高騰対策支援金、くらし応援商品券事業、令和8年度就学援助制度。
+  - 逗子市1件: 介護人材育成事業補助金。
+  - 三浦市3件: 太陽光発電設備・蓄電池導入補助金、子育て応援（紙おむつ等育児用品支給）事業、住居確保給付金。
+  - 秦野市4件: 省エネ家電買い換え促進事業補助金、結婚新生活支援事業助成金、木のある暮らしづくり補助金、はだのOMOTANライフ応援事業。
+- 生成ファイル:
+  - `tasks/discovery/kanagawa-official-coverage-003-municipalities.json`
+  - `tasks/discovery/kanagawa-official-coverage-003-14207-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-003-14208-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-003-14210-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-003-14211-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-003-14207-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-003-14208-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-003-14210-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-003-14211-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-003-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-003-manual-snippets.json`
+  - `tasks/discovery/kanagawa-official-coverage-003.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（`kanagawa-official-coverage-003.json`、候補JSON、手動スニペットJSON、checkpoint）。
+  - 追加slug重複: pass（13件、`verified-local-misc-2026.ts` 内で各1件）。
+  - 公式URL到達: pass（13 primary official URLsすべてHTTP 200）。
+  - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 11313、officialLinkedActive 11275、manuallyVerifiedActive 11275、神奈川県 localOfficial 167）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または神奈川県一部自治体の着手のみで全国完了扱いしない。
+  - 逗子市の実費徴収に係る補足給付事業（副食費）は令和7年度申請期限中心のため、今回は採用せず第2巡候補に残す。
+  - 逗子市の防衛施設周辺民生安定施設整備事業補助金活用ページは市事業紹介で直接の住民・事業者向け制度ではないため、今回は採用せず第2巡候補に残す。
+  - 秦野市の幼児教育・保育無償化ページは国制度中心の案内のため、今回は採用せず第2巡候補に残す。
+  - トップ、カテゴリ、サイトマップ、募集一覧、共通ナビ一致、部署ページ、広報・予算PDF、金額又は受付状況不足候補は第2巡候補又は次回継続候補に残す。
+- 次:
+  - 神奈川県公式棚卸し004として、14212厚木市、14213大和市、14214伊勢原市、14215海老名市を自治体コード順に確認する。

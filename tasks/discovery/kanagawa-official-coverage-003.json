@@ -1,0 +1,97 @@
+{
+  "batchId": "kanagawa-official-coverage-003",
+  "generatedAt": "2026-07-14T09:58:09.008Z",
+  "prefecture": "神奈川県",
+  "municipalities": [
+    {
+      "code": "14207",
+      "name": "茅ヶ崎市",
+      "officialBaseUrl": "https://www.city.chigasaki.kanagawa.jp/",
+      "candidateCount": 107,
+      "adopted": 5
+    },
+    {
+      "code": "14208",
+      "name": "逗子市",
+      "officialBaseUrl": "https://www.city.zushi.kanagawa.jp/",
+      "candidateCount": 113,
+      "adopted": 1
+    },
+    {
+      "code": "14210",
+      "name": "三浦市",
+      "officialBaseUrl": "https://www.city.miura.kanagawa.jp/",
+      "candidateCount": 28,
+      "adopted": 3
+    },
+    {
+      "code": "14211",
+      "name": "秦野市",
+      "officialBaseUrl": "https://www.city.hadano.kanagawa.jp/",
+      "candidateCount": 26,
+      "adopted": 4
+    }
+  ],
+  "candidateCount": 274,
+  "adoptedCount": 13,
+  "heldCount": 261,
+  "excludedCount": 0,
+  "sourceUrlsChecked": 13,
+  "adopted": [
+    {
+      "code": "14207",
+      "municipality": "茅ヶ崎市",
+      "count": 5,
+      "slugs": [
+        "chigasaki-housing-security-rent-benefit-2026",
+        "chigasaki-housing-security-moving-cost-benefit-2026",
+        "chigasaki-disabled-service-price-support-grant-2026",
+        "chigasaki-kurashi-support-shopping-voucher-2026",
+        "chigasaki-school-expense-aid-2026"
+      ]
+    },
+    {
+      "code": "14208",
+      "municipality": "逗子市",
+      "count": 1,
+      "slugs": [
+        "zushi-care-worker-training-subsidy-2026"
+      ]
+    },
+    {
+      "code": "14210",
+      "municipality": "三浦市",
+      "count": 3,
+      "slugs": [
+        "miura-solar-storage-installation-subsidy-2026",
+        "miura-childcare-diaper-supplies-support-2026",
+        "miura-housing-security-rent-benefit-2026"
+      ]
+    },
+    {
+      "code": "14211",
+      "municipality": "秦野市",
+      "count": 4,
+      "slugs": [
+        "hadano-energy-saving-appliance-replacement-support-2026",
+        "hadano-newlywed-life-support-grant-2026",
+        "hadano-wood-life-subsidy-2026",
+        "hadano-omotan-life-home-acquisition-grant-2026"
+      ]
+    }
+  ],
+  "heldPolicy": "トップ、カテゴリ、サイトマップ、共通ナビ一致、募集一覧、部署ページ、広報・予算PDF、既存URL重複、申請期限が過年度寄りの候補、直接給付・補助制度ではない事業紹介は削除せず第2巡候補に残す。",
+  "notes": [
+    "逗子市の副食費補足給付は公式本文を確認したが、令和7年度申請期限中心のため今回採用せず第2巡保留。",
+    "逗子市の防衛施設周辺民生安定施設整備事業補助金活用ページは市事業紹介で直接の住民・事業者向け制度ではないため第2巡保留。",
+    "秦野市の幼児教育・保育無償化ページは国制度中心の案内のため今回採用せず第2巡保留。"
+  ],
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and JSON.parse for kanagawa-official-coverage-003.json / candidates / manual-snippets / official-coverage-checkpoint.json",
+    "addedSlugUniqueness": "pass: 13 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 13 primary official URLs returned HTTP 200",
+    "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11313, officialLinkedActive 11275, manuallyVerifiedActive 11275, 神奈川県 localOfficial 167)"
+  }
+}
