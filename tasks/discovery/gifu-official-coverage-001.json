@@ -1,0 +1,54 @@
+{
+  "batchId": "gifu-official-coverage-001",
+  "prefecture": "岐阜県",
+  "date": "2026-07-15",
+  "municipalities": [
+    {
+      "code": "21201",
+      "name": "岐阜市",
+      "adopted": 9
+    },
+    {
+      "code": "21202",
+      "name": "大垣市",
+      "adopted": 8
+    },
+    {
+      "code": "21203",
+      "name": "高山市",
+      "adopted": 12
+    },
+    {
+      "code": "21204",
+      "name": "多治見市",
+      "adopted": 5
+    },
+    {
+      "code": "21205",
+      "name": "関市",
+      "adopted": 14
+    }
+  ],
+  "candidateCount": 457,
+  "snippetCount": 457,
+  "shortlistCount": 77,
+  "adoptedCount": 48,
+  "heldCount": 409,
+  "excludedCount": 0,
+  "uniqueOfficialUrlCount": 48,
+  "sourceFiles": [
+    "tasks/discovery/gifu-official-coverage-001-municipalities.json",
+    "tasks/discovery/gifu-official-coverage-001-candidates.json",
+    "tasks/discovery/gifu-official-coverage-001-snippets.json",
+    "tasks/discovery/gifu-official-coverage-001-rescored-shortlist.csv",
+    "tasks/discovery/gifu-official-coverage-001-verification-snippets.json",
+    "tasks/discovery/gifu-official-coverage-001-adopted-urls.json",
+    "tasks/discovery/gifu-official-coverage-001-official-lists.json",
+    "tasks/discovery/gifu-official-coverage-001-url-status.txt"
+  ],
+  "notes": [
+    "候補457件を本文スニペットで再スコアし、制度名・対象・金額または上限・申請条件・受付情報を確認できる個別公式ページを採用。",
+    "トップ、カテゴリ、共通ナビ、根拠が薄い候補は削除せず第2巡候補として保持。",
+    "岐阜県第1巡は21205関市まで到達。全国公式棚卸しは未完了。"
+  ]
+}

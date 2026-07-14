@@ -1,0 +1,509 @@
+{
+  "batchId": "gifu-official-coverage-001",
+  "prefecture": "岐阜県",
+  "municipalities": [
+    "岐阜市",
+    "大垣市",
+    "高山市",
+    "多治見市",
+    "関市"
+  ],
+  "generatedAt": "2026-07-14T23:26:47.241Z",
+  "adoptedCount": 48,
+  "uniqueOfficialUrlCount": 48,
+  "byMunicipality": {
+    "岐阜市": 9,
+    "大垣市": 8,
+    "高山市": 12,
+    "多治見市": 5,
+    "関市": 14
+  },
+  "grants": [
+    {
+      "slug": "gifu-official-001-001-2026",
+      "title": "岐阜市 中小企業等DX推進補助金",
+      "organization": "岐阜市",
+      "officialUrl": "https://www.city.gifu.lg.jp/business/sangyoushinkou/1005687/1025648.html",
+      "sourceName": "岐阜市 岐阜市中小企業等DX推進補助金について",
+      "maxAmount": "DX・IT研修等は補助対象経費の1/2以内。スマート経営実践は75万円超部分の1/2以内、上限20万円",
+      "eligibility": "岐阜市内で事業を営む中小企業等で、市税滞納がなく、対象事業について他の補助金等を受けていない事業者",
+      "applicationPeriod": "令和9年2月26日まで。オンライン、郵送、窓口又は研修機関経由で申請",
+      "deadlineDate": "2027-02-26"
+    },
+    {
+      "slug": "gifu-official-001-002-2026",
+      "title": "岐阜市 事業承継サポート補助金",
+      "organization": "岐阜市",
+      "officialUrl": "https://www.city.gifu.lg.jp/business/sangyoushinkou/1005687/1005706.html",
+      "sourceName": "岐阜市 岐阜市事業承継サポート補助金のご案内",
+      "maxAmount": "M&A専門事業者に支払う着手金等の1/2以内、上限50万円",
+      "eligibility": "岐阜市で事業を営み、市内に本店又は住所を有し、市税滞納がなく事業承継について他の公的補助を受けていない中小企業者",
+      "applicationPeriod": "令和8年4月1日から令和9年2月26日まで。事前相談のうえ商工課へ申請",
+      "deadlineDate": "2027-02-26"
+    },
+    {
+      "slug": "gifu-official-001-003-2026",
+      "title": "岐阜市 GPSを活用した登下校見守り支援事業補助金",
+      "organization": "岐阜市",
+      "officialUrl": "https://www.city.gifu.lg.jp/kosodate/kosodateshien/1003631/1025643.html",
+      "sourceName": "岐阜市 GPSを活用した登下校見守り支援事業補助金について",
+      "maxAmount": "GPS端末等の初期費用を児童1人1回、上限5,000円補助",
+      "eligibility": "令和8年度に岐阜市立小学校等へ入学する小学校1年生の保護者",
+      "applicationPeriod": "令和8年4月1日から令和9年3月31日まで。登録事業者の申込サイトから補助額控除後に申込",
+      "deadlineDate": "2027-03-31"
+    },
+    {
+      "slug": "gifu-official-001-004-2026",
+      "title": "岐阜市 遠距離通学費補助金",
+      "organization": "岐阜市",
+      "officialUrl": "https://www.city.gifu.lg.jp/kosodate/kosodateshien/1003631/1003638.html",
+      "sourceName": "岐阜市 遠距離通学費補助金",
+      "maxAmount": "公共交通機関利用は定期券相当額又は往復運賃の1/2、非利用は岐阜バス均一区間相当額の1/4を基準に補助",
+      "eligibility": "岐阜市内在住で、市立小中学校等へ遠距離通学又は通級する児童生徒の保護者",
+      "applicationPeriod": "児童生徒が在籍する小中学校等を通じて申請"
+    },
+    {
+      "slug": "gifu-official-001-005-2026",
+      "title": "岐阜市 結婚新生活支援事業補助金",
+      "organization": "岐阜市",
+      "officialUrl": "https://www.city.gifu.lg.jp/kosodate/kosodateshien/1003631/1004162.html",
+      "sourceName": "岐阜市 岐阜市結婚新生活支援事業補助金",
+      "maxAmount": "29歳以下は上限60万円、それ以外は上限30万円",
+      "eligibility": "令和8年度対象期間に婚姻し、所得・年齢・対象住宅への居住等の要件を満たす新婚世帯",
+      "applicationPeriod": "令和8年6月1日から令和9年2月26日まで。申請フォームからオンライン申請",
+      "deadlineDate": "2027-02-26"
+    },
+    {
+      "slug": "gifu-official-001-006-2026",
+      "title": "岐阜市 岐阜県高等学校就学準備等支援金",
+      "organization": "岐阜市",
+      "officialUrl": "https://www.city.gifu.lg.jp/kosodate/kosodateshien/1003631/1020083.html",
+      "sourceName": "岐阜市 岐阜県高等学校就学準備等支援金支給事業",
+      "maxAmount": "対象児童1人あたり3万円",
+      "eligibility": "令和7年9月30日時点で岐阜市に住民登録がある中学校3年生を監護し生計を同じくする保護者等",
+      "applicationPeriod": "岐阜市から令和7年10月分児童手当を受給している方は申請不要。それ以外は公式案内に従い申請"
+    },
+    {
+      "slug": "gifu-official-001-007-2026",
+      "title": "岐阜市 重度心身障害者等医療費助成制度",
+      "organization": "岐阜市",
+      "officialUrl": "https://www.city.gifu.lg.jp/kenko/iryouhijosei/1004517/1004518.html",
+      "sourceName": "岐阜市 重度心身障害者等医療費助成制度",
+      "maxAmount": "保険診療の自己負担分を助成",
+      "eligibility": "健康保険に加入し、重度心身障害者等医療費助成の対象要件と所得制限等を満たす方",
+      "applicationPeriod": "受給者証等の交付を公式手続により申請"
+    },
+    {
+      "slug": "gifu-official-001-008-2026",
+      "title": "岐阜市 子ども医療費助成制度",
+      "organization": "岐阜市",
+      "officialUrl": "https://www.city.gifu.lg.jp/kenko/iryouhijosei/1004517/1004524/index.html",
+      "sourceName": "岐阜市 子ども医療費助成制度",
+      "maxAmount": "対象児童の保険診療の自己負担分を助成",
+      "eligibility": "岐阜市の子ども医療費助成対象となる子ども",
+      "applicationPeriod": "受給者証等の交付を公式手続により申請"
+    },
+    {
+      "slug": "gifu-official-001-009-2026",
+      "title": "岐阜市 ひとり親家庭等医療費助成制度",
+      "organization": "岐阜市",
+      "officialUrl": "https://www.city.gifu.lg.jp/kenko/iryouhijosei/1004517/1004519.html",
+      "sourceName": "岐阜市 ひとり親家庭等医療費助成制度",
+      "maxAmount": "ひとり親家庭等の保険診療の自己負担分を助成",
+      "eligibility": "健康保険に加入し、ひとり親家庭等医療費助成の対象要件と所得制限等を満たす方",
+      "applicationPeriod": "受給者証等の交付を公式手続により申請"
+    },
+    {
+      "slug": "gifu-official-001-010-2026",
+      "title": "大垣市 児童手当",
+      "organization": "大垣市",
+      "officialUrl": "https://www.city.ogaki.lg.jp/0000006989.html",
+      "sourceName": "大垣市 児童手当",
+      "maxAmount": "月額1万円から3万円。3歳未満は第1子・第2子月額1万5,000円、第3子以降月額3万円",
+      "eligibility": "高校生年代までの児童を養育する大垣市の保護者等",
+      "applicationPeriod": "転入・出生等の際に認定請求を申請"
+    },
+    {
+      "slug": "gifu-official-001-011-2026",
+      "title": "大垣市 妊婦のための支援給付",
+      "organization": "大垣市",
+      "officialUrl": "https://www.city.ogaki.lg.jp/0000060230.html",
+      "sourceName": "大垣市 妊婦のための支援給付",
+      "maxAmount": "妊娠1回あたり5万円、子ども1人あたり5万円。ガキペイ選択時は各50,500ポイント",
+      "eligibility": "大垣市で妊婦のための支援給付の対象となる妊婦等",
+      "applicationPeriod": "母子健康手帳交付時等の面談後に申請書類を受け取り申請"
+    },
+    {
+      "slug": "gifu-official-001-012-2026",
+      "title": "大垣市 特別児童扶養手当",
+      "organization": "大垣市",
+      "officialUrl": "https://www.city.ogaki.lg.jp/0000001160.html",
+      "sourceName": "大垣市 特別児童扶養手当",
+      "maxAmount": "令和8年4月分から1級月額58,450円、2級月額38,930円",
+      "eligibility": "精神又は身体に障がいのある20歳未満の児童を監護・養育する父母等",
+      "applicationPeriod": "戸籍謄本、診断書等を持参し子育て支援課で申請"
+    },
+    {
+      "slug": "gifu-official-001-013-2026",
+      "title": "大垣市 高等学校就学準備等支援金",
+      "organization": "大垣市",
+      "officialUrl": "https://www.city.ogaki.lg.jp/0000063160.html",
+      "sourceName": "大垣市 高等学校就学準備等支援金支給事業",
+      "maxAmount": "対象児童1人あたり3万円",
+      "eligibility": "令和7年9月30日時点で大垣市に住民登録がある中学校3年生を監護し生計を同じくする保護者等",
+      "applicationPeriod": "令和7年10月分児童手当を大垣市から受給している方は申請不要。それ以外は公式案内に従い申請"
+    },
+    {
+      "slug": "gifu-official-001-014-2026",
+      "title": "大垣市 ひとり親家庭高等職業訓練促進給付金",
+      "organization": "大垣市",
+      "officialUrl": "https://www.city.ogaki.lg.jp/0000022761.html",
+      "sourceName": "大垣市 ひとり親家庭高等職業訓練促進給付金",
+      "maxAmount": "訓練促進給付金は月額10万円又は70,500円、修了支援給付金は5万円又は25,000円",
+      "eligibility": "ひとり親家庭の父母で、対象資格取得のため養成機関で6か月以上修業し資格取得が見込まれる方",
+      "applicationPeriod": "子育て支援課へ事前相談・申請"
+    },
+    {
+      "slug": "gifu-official-001-015-2026",
+      "title": "大垣市 ひとり親家庭自立支援教育訓練給付金",
+      "organization": "大垣市",
+      "officialUrl": "https://www.city.ogaki.lg.jp/0000022768.html",
+      "sourceName": "大垣市 ひとり親家庭自立支援教育訓練給付金",
+      "maxAmount": "受講費用の60%。上限20万円",
+      "eligibility": "ひとり親家庭の父母で、雇用保険の教育訓練給付制度指定講座等を受講する対象者",
+      "applicationPeriod": "受講前に子育て支援課へ相談・申請"
+    },
+    {
+      "slug": "gifu-official-001-016-2026",
+      "title": "大垣市 ひとり親家庭等大学等受験料補助金",
+      "organization": "大垣市",
+      "officialUrl": "https://www.city.ogaki.lg.jp/0000067901.html",
+      "sourceName": "大垣市 大垣市ひとり親家庭等大学等受験料補助金",
+      "maxAmount": "大学等受験料を10/10、上限53,000円補助",
+      "eligibility": "大垣市のひとり親家庭等で、対象児童の大学・短大・専門学校等の受験料を支払った世帯",
+      "applicationPeriod": "交付申請書兼請求書と受験料支払い書類等を提出"
+    },
+    {
+      "slug": "gifu-official-001-017-2026",
+      "title": "大垣市 子ども医療費助成制度",
+      "organization": "大垣市",
+      "officialUrl": "https://www.city.ogaki.lg.jp/0000003874.html",
+      "sourceName": "大垣市 子ども医療費助成制度",
+      "maxAmount": "18歳到達後最初の3月31日までの子どもの医療費を助成",
+      "eligibility": "大垣市内に住所を有し、国民健康保険又は社会保険等に加入する18歳到達年度末までの子ども",
+      "applicationPeriod": "出生等から30日以内に申請"
+    },
+    {
+      "slug": "gifu-official-001-018-2026",
+      "title": "高山市 飛騨高山ふるさと暮らし・移住促進事業補助金",
+      "organization": "高山市",
+      "officialUrl": "https://www.city.takayama.lg.jp/kurashi/1006064/1006088/1019368.html",
+      "sourceName": "高山市 飛騨高山ふるさと暮らし・移住促進事業補助金",
+      "maxAmount": "取得・改修等は補助対象経費の1/2、上限100万円",
+      "eligibility": "高山市へ移住し、対象空き家の取得・改修等について公式要件を満たす方",
+      "applicationPeriod": "対象空き家の条件確認を含め、利用前にブランド戦略課へ事前相談し申請"
+    },
+    {
+      "slug": "gifu-official-001-019-2026",
+      "title": "高山市 浄化槽設置整備事業補助金",
+      "organization": "高山市",
+      "officialUrl": "https://www.city.takayama.lg.jp/kurashi/1006064/1006088/1019340.html",
+      "sourceName": "高山市 浄化槽の補助金交付制度について",
+      "maxAmount": "人槽区分に応じて上限414,000円から3,119,000円",
+      "eligibility": "下水道整備が予定されていない補助対象地域で浄化槽を設置する方",
+      "applicationPeriod": "補助対象地域等を下水道課又は各支所基盤産業課へ確認して申請"
+    },
+    {
+      "slug": "gifu-official-001-020-2026",
+      "title": "高山市 結婚新生活支援補助金",
+      "organization": "高山市",
+      "officialUrl": "https://www.city.takayama.lg.jp/kurashi/1006064/1006088/1010738.html",
+      "sourceName": "高山市 高山市結婚新生活支援補助金",
+      "maxAmount": "29歳以下世帯は上限60万円、それ以外は上限30万円",
+      "eligibility": "婚姻等を機に住宅取得・賃借・引越・リフォームを行い、所得・年齢・居住等の要件を満たす世帯",
+      "applicationPeriod": "令和8年度対象経費について、申請書類を協働推進課へ提出"
+    },
+    {
+      "slug": "gifu-official-001-021-2026",
+      "title": "高山市 木質バイオマス活用促進事業補助金",
+      "organization": "高山市",
+      "officialUrl": "https://www.city.takayama.lg.jp/kurashi/1006064/1006085/1010296.html",
+      "sourceName": "高山市 木質バイオマス活用促進事業補助金",
+      "maxAmount": "対象経費の1/3以内。ペレットストーブ等上限10万円、ボイラー等上限30万円、大型ボイラー等上限500万円",
+      "eligibility": "高山市内に住所・事務所等を有し、対象のペレットストーブ・薪ストーブ・ボイラー等を設置する方・団体・事業者",
+      "applicationPeriod": "購入・設置前に公式様式で申請"
+    },
+    {
+      "slug": "gifu-official-001-022-2026",
+      "title": "高山市 家庭用生ごみ堆肥化装置設置補助金",
+      "organization": "高山市",
+      "officialUrl": "https://www.city.takayama.lg.jp/kurashi/1006064/1006085/1019206.html",
+      "sourceName": "高山市 家庭用生ごみ堆肥化装置設置補助金",
+      "maxAmount": "装置購入金額の1/2、上限27,000円",
+      "eligibility": "高山市内の家庭用生ごみ堆肥化装置を市内事業所から購入し設置する個人",
+      "applicationPeriod": "購入前に申請し、交付決定後に購入・設置"
+    },
+    {
+      "slug": "gifu-official-001-023-2026",
+      "title": "高山市 商店街アーケード等整備支援事業補助金",
+      "organization": "高山市",
+      "officialUrl": "https://www.city.takayama.lg.jp/kurashi/1006064/1019372/1020594.html",
+      "sourceName": "高山市 商店街アーケード等整備支援事業補助金",
+      "maxAmount": "機能強化は2/3以内上限2,000万円、撤去等は6分の5以内上限4,000万円",
+      "eligibility": "商店街振興組合等が中心市街地の商店街区域で公共性の高いアーケード等整備を行う事業",
+      "applicationPeriod": "開始前に事業認定申請書・事業計画書等を提出"
+    },
+    {
+      "slug": "gifu-official-001-024-2026",
+      "title": "高山市 まちの魅力アップ応援事業補助金",
+      "organization": "高山市",
+      "officialUrl": "https://www.city.takayama.lg.jp/kurashi/1006064/1019372/1020595.html",
+      "sourceName": "高山市 まちの魅力アップ応援事業補助金",
+      "maxAmount": "補助対象経費の1/2以内、1事業者あたり上限200万円",
+      "eligibility": "中心市街地の商店街等が、まちづくり構想等に基づきストリートファニチュア整備等を行う事業",
+      "applicationPeriod": "開始前に交付申請書・事業計画書等を提出"
+    },
+    {
+      "slug": "gifu-official-001-025-2026",
+      "title": "高山市 求人情報発信支援事業補助金",
+      "organization": "高山市",
+      "officialUrl": "https://www.city.takayama.lg.jp/kurashi/1006064/1019372/1020072.html",
+      "sourceName": "高山市 求人情報発信支援事業補助金",
+      "maxAmount": "求人活動経費の1/2以内、1事業者あたり上限20万円",
+      "eligibility": "高山市内に事業所を有し、市税滞納がない中小企業者等",
+      "applicationPeriod": "事業認定後、補助対象事業完了の翌月末又は令和9年3月31日のいずれか早い日までに交付申請",
+      "deadlineDate": "2027-03-31"
+    },
+    {
+      "slug": "gifu-official-001-026-2026",
+      "title": "高山市 外国人材雇用支援事業補助金",
+      "organization": "高山市",
+      "officialUrl": "https://www.city.takayama.lg.jp/kurashi/1006064/1019372/1020071.html",
+      "sourceName": "高山市 外国人材雇用支援事業補助金",
+      "maxAmount": "補助対象経費の1/3以内、1事業者あたり上限20万円",
+      "eligibility": "高山市内に事業所を有し、令和6年1月1日以降に新たな外国人材を直接雇用する事業者",
+      "applicationPeriod": "外国人材を雇用する前・事業着手前に雇用計画認定申請を提出"
+    },
+    {
+      "slug": "gifu-official-001-027-2026",
+      "title": "高山市 妊婦のための支援給付",
+      "organization": "高山市",
+      "officialUrl": "https://www.city.takayama.lg.jp/kurashi/1000019/1000108/1021800.html",
+      "sourceName": "高山市 妊婦のための支援給付事業",
+      "maxAmount": "妊婦1人あたり5万円、子ども1人あたり5万円",
+      "eligibility": "医療機関で胎児心拍が確認され、申請日時点で高山市に住民票がある妊婦等",
+      "applicationPeriod": "妊娠届出時と赤ちゃん訪問時等に申請案内。出産予定日の8週間前から2回目給付の申請も可能"
+    },
+    {
+      "slug": "gifu-official-001-028-2026",
+      "title": "高山市 子育て支援金",
+      "organization": "高山市",
+      "officialUrl": "https://www.city.takayama.lg.jp/kurashi/1000019/1000108/1000694.html",
+      "sourceName": "高山市 子育て支援金",
+      "maxAmount": "支給対象児童1子につき10万円",
+      "eligibility": "出生から継続して4か月以上高山市に住民登録があり、今後も居住予定の児童を養育する父母等",
+      "applicationPeriod": "4か月健診の案内文書とともに申請案内を郵送。オンライン等で申請"
+    },
+    {
+      "slug": "gifu-official-001-029-2026",
+      "title": "高山市 高校生通学費補助制度",
+      "organization": "高山市",
+      "officialUrl": "https://www.city.takayama.lg.jp/kurashi/1000019/1000108/1020190/index.html",
+      "sourceName": "高山市 高校生の通学費等に対する助成",
+      "maxAmount": "公共交通、原動機付自転車、保護者送迎、下宿利用等の通学費を公式区分により補助",
+      "eligibility": "高山市民で高等学校へ通学する高校生等の保護者",
+      "applicationPeriod": "令和6年度補助からオンライン申請受付。各補助内容ページの案内に従い申請"
+    },
+    {
+      "slug": "gifu-official-001-030-2026",
+      "title": "多治見市 自主防災組織支援事業補助金",
+      "organization": "多治見市",
+      "officialUrl": "https://www.city.tajimi.lg.jp/kurashi_tetsuduzuki/bosai_bohan/1005897/1005931/1005937.html",
+      "sourceName": "多治見市 自主防災組織支援事業補助金",
+      "maxAmount": "防災資機材購入は1/2上限25万円、感震ブレーカーは2/3で2,000円×取付世帯数など",
+      "eligibility": "区又は町内会を単位として結成された多治見市内の自主防災組織",
+      "applicationPeriod": "公式手引きに従い危機管理課へ申請"
+    },
+    {
+      "slug": "gifu-official-001-031-2026",
+      "title": "多治見市 ブロック塀等除去補助金",
+      "organization": "多治見市",
+      "officialUrl": "https://www.city.tajimi.lg.jp/kurashi_tetsuduzuki/bosai_bohan/1005897/1005931/1005938.html",
+      "sourceName": "多治見市 ブロック塀等除去補助金",
+      "maxAmount": "ブロック塀等除去費を上限20万円まで補助",
+      "eligibility": "多治見市の公式要件を満たすブロック塀等を除去する所有者等",
+      "applicationPeriod": "除去前に交付申請書、見積書、写真等を提出"
+    },
+    {
+      "slug": "gifu-official-001-032-2026",
+      "title": "多治見市 防災行政無線戸別受信機設置事業補助金",
+      "organization": "多治見市",
+      "officialUrl": "https://www.city.tajimi.lg.jp/kurashi_tetsuduzuki/bosai_bohan/1005897/1005931/1005939.html",
+      "sourceName": "多治見市 防災行政無線戸別受信機設置事業補助金",
+      "maxAmount": "視覚障がい1・2級は上限82,000円、その他は上限45,500円",
+      "eligibility": "多治見市内に居住し、自宅に戸別受信機を設置する方",
+      "applicationPeriod": "市役所へ相談し、申請書類提出・交付決定後に設置工事"
+    },
+    {
+      "slug": "gifu-official-001-033-2026",
+      "title": "多治見市 防災士認証取得補助制度",
+      "organization": "多治見市",
+      "officialUrl": "https://www.city.tajimi.lg.jp/kurashi_tetsuduzuki/bosai_bohan/1005897/1005931/1005941.html",
+      "sourceName": "多治見市 防災士認証取得補助制度",
+      "maxAmount": "補助対象経費の1/2又は上限30,000円のいずれか少ない額",
+      "eligibility": "防災士資格取得後に多治見市防災士の会へ入会し、地域防災活動に取り組む方",
+      "applicationPeriod": "防災士資格取得後、必要書類を提出"
+    },
+    {
+      "slug": "gifu-official-001-034-2026",
+      "title": "多治見市 コミュニティ助成事業（地域防災組織育成助成事業）",
+      "organization": "多治見市",
+      "officialUrl": "https://www.city.tajimi.lg.jp/kurashi_tetsuduzuki/bosai_bohan/1005897/1005931/1009307.html",
+      "sourceName": "多治見市 コミュニティ助成事業（地域防災組織育成助成事業）",
+      "maxAmount": "地域防災活動に必要な設備等の整備に30万円から200万円",
+      "eligibility": "自主防災組織又はその連合体が行う地域防災活動に直接必要な設備等の整備",
+      "applicationPeriod": "自治総合センターの実施要綱・市の案内に従い申請"
+    },
+    {
+      "slug": "gifu-official-001-035-2026",
+      "title": "関市 物価高対応子育て応援手当",
+      "organization": "関市",
+      "officialUrl": "https://www.city.seki.lg.jp/0000022713.html",
+      "sourceName": "関市 物価高対応子育て応援手当",
+      "maxAmount": "対象児童1人につき2万円",
+      "eligibility": "令和7年9月分児童手当の支給対象児童の受給者又は令和7年10月1日から令和8年3月31日までに出生した児童の保護者等",
+      "applicationPeriod": "令和7年10月に児童手当を関市から受給した方は原則申請不要。それ以外は公式案内に従い申請"
+    },
+    {
+      "slug": "gifu-official-001-036-2026",
+      "title": "関市 高等学校就学準備等支援金",
+      "organization": "関市",
+      "officialUrl": "https://www.city.seki.lg.jp/0000019933.html",
+      "sourceName": "関市 高等学校就学準備等支援金",
+      "maxAmount": "児童1人につき3万円",
+      "eligibility": "令和7年9月30日現在で関市に住民登録がある中学3年生の保護者等",
+      "applicationPeriod": "対象児童の令和7年10月分児童手当を関市から受給している保護者は申請不要。それ以外は公式案内に従い申請"
+    },
+    {
+      "slug": "gifu-official-001-037-2026",
+      "title": "関市 子ども食堂運営事業補助金",
+      "organization": "関市",
+      "officialUrl": "https://www.city.seki.lg.jp/0000022465.html",
+      "sourceName": "関市 関市子ども食堂運営事業補助金",
+      "maxAmount": "補助対象経費の1/2以内、上限20万円",
+      "eligibility": "関市内で子ども食堂を運営し、対象経費について公式要件を満たす団体等",
+      "applicationPeriod": "交付申請書に必要書類を添付して申請"
+    },
+    {
+      "slug": "gifu-official-001-038-2026",
+      "title": "関市 妊婦のための支援給付",
+      "organization": "関市",
+      "officialUrl": "https://www.city.seki.lg.jp/0000021907.html",
+      "sourceName": "関市 妊婦のための支援給付",
+      "maxAmount": "妊婦1人あたり5万円、妊娠している子ども1人あたり5万円",
+      "eligibility": "関市で胎児心拍が確認された妊婦等。流産・死産・人工妊娠中絶を経験した場合も公式要件により対象",
+      "applicationPeriod": "胎児心拍確認日又は出産予定日の8週間前の日等から2年間"
+    },
+    {
+      "slug": "gifu-official-001-039-2026",
+      "title": "関市 空き家家財処分費補助金",
+      "organization": "関市",
+      "officialUrl": "https://www.city.seki.lg.jp/0000019564.html",
+      "sourceName": "関市 空き家対策補助金のご案内",
+      "maxAmount": "対象経費の1/2以内、上限10万円",
+      "eligibility": "関市の空き家対策補助金の対象となる空き家家財処分を行う所有者等",
+      "applicationPeriod": "着手前に都市計画課窓口へ申請。郵送受付不可"
+    },
+    {
+      "slug": "gifu-official-001-040-2026",
+      "title": "関市 宅配ボックス設置事業補助金",
+      "organization": "関市",
+      "officialUrl": "https://www.city.seki.lg.jp/0000021749.html",
+      "sourceName": "関市 【令和8年度受付開始】関市宅配ボックス設置事業補助金",
+      "maxAmount": "補助対象経費の1/2以内、上限10,000円",
+      "eligibility": "関市内の住宅で宅配ボックス及び付属品の購入・設置を行い、公式要件を満たす方",
+      "applicationPeriod": "事業完了から30日又は年度末のいずれか早い日までに環境課へ申請"
+    },
+    {
+      "slug": "gifu-official-001-041-2026",
+      "title": "関市 省エネ診断受診等事業補助金",
+      "organization": "関市",
+      "officialUrl": "https://www.city.seki.lg.jp/0000021750.html",
+      "sourceName": "関市 【令和8年度受付開始】関市省エネ診断受診等事業補助金",
+      "maxAmount": "省エネ診断等に係る負担額を補助",
+      "eligibility": "診断機関に省エネ診断等の負担額を支払う関市内の対象者",
+      "applicationPeriod": "交付申請書と必要書類を環境課へ提出"
+    },
+    {
+      "slug": "gifu-official-001-042-2026",
+      "title": "関市 奨学資金貸与制度",
+      "organization": "関市",
+      "officialUrl": "https://www.city.seki.lg.jp/0000004443.html",
+      "sourceName": "関市 関市奨学資金の貸与について",
+      "maxAmount": "高校等は月額1万円以内、大学等は月額3万円以内。無利子",
+      "eligibility": "関市の奨学資金貸与対象となる高等学校等又は大学等の学生",
+      "applicationPeriod": "公式案内に従い申請"
+    },
+    {
+      "slug": "gifu-official-001-043-2026",
+      "title": "関市 防災士育成事業補助金",
+      "organization": "関市",
+      "officialUrl": "https://www.city.seki.lg.jp/bousai/0000017161.html",
+      "sourceName": "関市 関市防災士育成事業補助金",
+      "maxAmount": "補助対象経費の1/2、上限3万円",
+      "eligibility": "関市在住で、防災士資格取得後に市内自主防災組織等で活動する意思がある方",
+      "applicationPeriod": "研修履修証明取得後に補助金申請し、資格取得・認証登録後に実績報告"
+    },
+    {
+      "slug": "gifu-official-001-044-2026",
+      "title": "関市 人間ドック及び脳ドック費用助成",
+      "organization": "関市",
+      "officialUrl": "https://www.city.seki.lg.jp/0000000964.html",
+      "sourceName": "関市 人間ドック及び脳ドックの費用助成について",
+      "maxAmount": "人間ドック15,000円、脳ドック10,000円、人間ドック及び脳ドック25,000円",
+      "eligibility": "関市国民健康保険被保険者で、国民健康保険税完納等の条件を満たす方",
+      "applicationPeriod": "健診料支払日の翌日から6か月以内に申請。できるだけ年度末までに申請"
+    },
+    {
+      "slug": "gifu-official-001-045-2026",
+      "title": "関市 省エネ住宅購入等事業補助金",
+      "organization": "関市",
+      "officialUrl": "https://www.city.seki.lg.jp/0000021751.html",
+      "sourceName": "関市 【令和8年度受付開始】関市省エネ住宅購入等事業補助金",
+      "maxAmount": "省エネ住宅取得10万円、既存住宅工事は国補助金交付額の1/2以内上限10万円",
+      "eligibility": "関市内で省エネ住宅取得又は対象省エネ工事を行い、国補助金確定通知等の要件を満たす方",
+      "applicationPeriod": "国確定通知書交付日から60日又は年度2月末のいずれか早い日までに申請"
+    },
+    {
+      "slug": "gifu-official-001-046-2026",
+      "title": "関市 クリーンエネルギー自動車購入事業補助金",
+      "organization": "関市",
+      "officialUrl": "https://www.city.seki.lg.jp/0000021752.html",
+      "sourceName": "関市 【令和8年度受付開始】関市クリーンエネルギー自動車購入事業補助金",
+      "maxAmount": "電気自動車等は5万円、超小型モビリティ等は1万円、原動機付自転車等は5,000円",
+      "eligibility": "関市に住民登録があり、国のクリーンエネルギー自動車補助金の交付決定を受けた方",
+      "applicationPeriod": "国補助金交付決定日から60日又は年度2月末等のいずれか早い日までに申請"
+    },
+    {
+      "slug": "gifu-official-001-047-2026",
+      "title": "関市 LED照明器具買換事業補助金",
+      "organization": "関市",
+      "officialUrl": "https://www.city.seki.lg.jp/0000021753.html",
+      "sourceName": "関市 【令和8年度受付開始】関市LED照明器具買換事業補助金",
+      "maxAmount": "補助対象経費の1/2以内、上限10,000円",
+      "eligibility": "関市に住民登録があり、市内店舗で既存住宅屋内照明をLED照明器具へ買い換える方",
+      "applicationPeriod": "令和9年3月31日まで。事業完了から30日又は年度末のいずれか早い日までに申請",
+      "deadlineDate": "2027-03-31"
+    },
+    {
+      "slug": "gifu-official-001-048-2026",
+      "title": "関市 災害時協力事業所防災物資等購入補助金",
+      "organization": "関市",
+      "officialUrl": "https://www.city.seki.lg.jp/bousai/0000020827.html",
+      "sourceName": "関市 関市災害時協力事業所防災物資等購入補助金",
+      "maxAmount": "物資等購入費総額の1/2、上限20万円",
+      "eligibility": "関市災害時協力事業所として登録され、市内施設・従業員10人以上・購入費総額10万円以上等の要件を満たす事業者",
+      "applicationPeriod": "できる限り12月までに申請。12月以降は危機管理課へ連絡"
+    }
+  ]
+}

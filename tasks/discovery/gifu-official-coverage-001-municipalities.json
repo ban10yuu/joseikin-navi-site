@@ -1,0 +1,31 @@
+{
+  "batchId": "gifu-official-coverage-001",
+  "prefecture": "岐阜県",
+  "municipalities": [
+    {
+      "code": "21201",
+      "name": "岐阜市",
+      "officialBaseUrl": "https://www.city.gifu.lg.jp/"
+    },
+    {
+      "code": "21202",
+      "name": "大垣市",
+      "officialBaseUrl": "https://www.city.ogaki.lg.jp/"
+    },
+    {
+      "code": "21203",
+      "name": "高山市",
+      "officialBaseUrl": "https://www.city.takayama.lg.jp/"
+    },
+    {
+      "code": "21204",
+      "name": "多治見市",
+      "officialBaseUrl": "https://www.city.tajimi.lg.jp/"
+    },
+    {
+      "code": "21205",
+      "name": "関市",
+      "officialBaseUrl": "https://www.city.seki.lg.jp/"
+    }
+  ]
+}

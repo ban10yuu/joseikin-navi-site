@@ -1,0 +1,92 @@
+{
+  "batchId": "gifu-official-coverage-001",
+  "prefecture": "岐阜県",
+  "generatedAt": "2026-07-14T23:26:47.243Z",
+  "note": "個別制度ページを優先採用し、カテゴリ・一覧・公式検索導線は第2巡候補または根拠補助として保持。",
+  "lists": [
+    {
+      "municipality": "岐阜市",
+      "url": "https://www.city.gifu.lg.jp/business/sangyoushinkou/1005687/index.html",
+      "label": "産業振興・補助制度一覧",
+      "use": "DX推進、事業承継等の個別制度導線"
+    },
+    {
+      "municipality": "岐阜市",
+      "url": "https://www.city.gifu.lg.jp/info/hojokin/1033494.html",
+      "label": "補助金等の情報",
+      "use": "補助金カテゴリ導線。第2巡候補保持"
+    },
+    {
+      "municipality": "岐阜市",
+      "url": "https://www.city.gifu.lg.jp/kosodate/kosodateshien/1003631/index.html",
+      "label": "子育て支援制度一覧",
+      "use": "GPS、遠距離通学、結婚新生活、高等学校就学準備等の導線"
+    },
+    {
+      "municipality": "岐阜市",
+      "url": "https://www.city.gifu.lg.jp/kenko/iryouhijosei/1004517/index.html",
+      "label": "医療費助成一覧",
+      "use": "重度心身障害者等、子ども、ひとり親医療費助成の導線"
+    },
+    {
+      "municipality": "岐阜市",
+      "url": "https://www.city.gifu.lg.jp/kenko/iryouhijosei/1004528/index.html",
+      "label": "医療費助成手続一覧",
+      "use": "医療費助成関連の確認補助"
+    },
+    {
+      "municipality": "大垣市",
+      "url": "https://www.city.ogaki.lg.jp/category/3-4-0-0-0-0-0-0-0-0.html",
+      "label": "子育て・教育カテゴリ",
+      "use": "児童手当、妊婦支援給付、ひとり親支援等の個別制度導線"
+    },
+    {
+      "municipality": "高山市",
+      "url": "https://www.city.takayama.lg.jp/kurashi/1006064/1006088/index.html",
+      "label": "住まいカテゴリ",
+      "use": "移住促進、浄化槽、結婚新生活等の導線"
+    },
+    {
+      "municipality": "高山市",
+      "url": "https://www.city.takayama.lg.jp/kurashi/1006064/1006085/index.html",
+      "label": "環境カテゴリ",
+      "use": "木質バイオマス、生ごみ堆肥化等の導線"
+    },
+    {
+      "municipality": "高山市",
+      "url": "https://www.city.takayama.lg.jp/kurashi/1006064/1019372/index.html",
+      "label": "商工業カテゴリ",
+      "use": "商店街、求人、外国人材支援等の導線"
+    },
+    {
+      "municipality": "高山市",
+      "url": "https://www.city.takayama.lg.jp/kurashi/1000019/1000108/index.html",
+      "label": "こどもカテゴリ",
+      "use": "妊婦支援給付、子育て支援金、高校生通学費等の導線"
+    },
+    {
+      "municipality": "多治見市",
+      "url": "https://www.city.tajimi.lg.jp/kurashi_tetsuduzuki/bosai_bohan/1005897/1005931/index.html",
+      "label": "防災補助制度一覧",
+      "use": "自主防災、ブロック塀、防災行政無線、防災士等の導線"
+    },
+    {
+      "municipality": "関市",
+      "url": "https://www.city.seki.lg.jp/category/9-4-0-0-0-0-0-0-0-0.html",
+      "label": "子育てカテゴリ",
+      "use": "子育て応援手当、高校就学準備、子ども食堂、妊婦支援等の導線"
+    },
+    {
+      "municipality": "関市",
+      "url": "https://www.city.seki.lg.jp/category/4-12-0-0-0-0-0-0-0-0.html",
+      "label": "住宅・空き家カテゴリ",
+      "use": "空き家、自治会集会場等の導線"
+    },
+    {
+      "municipality": "関市",
+      "url": "https://www.city.seki.lg.jp/bousai/category/11-7-0-0-0-0-0-0-0-0.html",
+      "label": "防災カテゴリ",
+      "use": "ブロック塀、木造住宅耐震、家具固定、防災士等の導線"
+    }
+  ]
+}
