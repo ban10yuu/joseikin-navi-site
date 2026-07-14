@@ -1,0 +1,3898 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-004-13113",
+  "prefecture": "東京都",
+  "generatedAt": "2026-07-14T02:05:37.405Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 128,
+  "results": [
+    {
+      "code": "13113",
+      "name": "渋谷区",
+      "officialBaseUrl": "https://www.city.shibuya.tokyo.jp/",
+      "discoveredUrlCount": 250,
+      "candidateCount": 128,
+      "strongCandidateCount": 0,
+      "lowPriorityCandidateCount": 128,
+      "candidates": [
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月15日",
+          "keywordHits": [
+            "医療費助成",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kodomo/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学",
+            "予防接種",
+            "不妊",
+            "妊婦",
+            "通学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除",
+            "住宅",
+            "空家",
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kenko/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/bosai/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "耐震"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/shisetsu/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/koho-news/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "平成17年4月2日",
+          "keywordHits": [
+            "医療費助成",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/event/calendar/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年2月22日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "起業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/kifu/kifu/furusatonozei.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年5月1日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/case/hikkoshi.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "住宅",
+            "妊婦"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/case/karada.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/case/ninshin.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "一時金",
+            "医療費助成",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 13,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/case/kosodate.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "医療費助成",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 10,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/case/kyouiku.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学",
+            "奨学金",
+            "通学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/case/yobou.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kusei/shisaku/lgbt/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_sodai.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年6月1日",
+          "keywordHits": [
+            "減免",
+            "免除",
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kusei/shisaku/lgbt/partnership.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年2月3日",
+          "keywordHits": [
+            "助成金"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kenko/kaigo/kaigo-hoken/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/kodomo-teate/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/shinsei/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/kenko-zukuri/heatstroke.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年4月22日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kusei/shisaku/jorei-toshin/1001_jourei_kirei.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/new-gakko/atarashii_gakko_dukuri.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年7月13日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/kusei/shibuya-data/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "起業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/proposal/proposal/miyamasuzaka_proposal.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/shisetsu/koen/kuritsu-koen/sasaduka_kaitiku.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年7月8日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/shisetsu/koen/koshu-toilet/namiki_kaitiku.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年7月8日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/news/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月15日",
+          "keywordHits": [
+            "住宅",
+            "起業",
+            "事業者",
+            "福祉",
+            "子育て",
+            "省エネ"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_special.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "平成17年4月2日",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_kodomo.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "平成17年4月2日",
+          "keywordHits": [
+            "貸付",
+            "医療費助成",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_design.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "平成17年4月2日",
+          "keywordHits": [
+            "補助金",
+            "一時金",
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_oshirase.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "平成17年4月2日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_fukushi.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "平成17年4月2日",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_kenko.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "平成17年4月2日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_bousai.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "平成17年4月2日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_bunka.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "平成17年4月2日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_others.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "平成17年4月2日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_special_mini.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "平成17年4月2日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kusei/shisaku/koso/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/shisetsu/kuyakusho/kuyakusho/shintyousha.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年10月10日",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/sitemap.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/event/calendar/next_year.html",
+          "status": 404,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/event/calendar/prev_year.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和7年3月22日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "起業",
+            "耐震"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/kankyo-keikaku/kankyo_keikaku-2023.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/kusei/shibuya-data/about/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/kusei/shibuya-data/articles/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/kutyo/kousaihi/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年3月13日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/living-in-shibuya/ezja/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/living-in-shibuya/ja/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/photo/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年6月5日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/photo-news/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和7年3月6日",
+          "keywordHits": [
+            "起業",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/contents/soshiki/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "給付金",
+            "一時金",
+            "奨励金",
+            "貸付",
+            "減免",
+            "免除",
+            "医療費助成",
+            "住宅",
+            "空家",
+            "事業者",
+            "福祉",
+            "子育て",
+            "就学",
+            "耐震",
+            "省エネ",
+            "予防接種",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 26,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/web-accessibility/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2023年3月17日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kusei/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月15日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/proposal/keiyaku/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/proposal/nyusatsu-info/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/proposal/keiyaku_jokyo/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/proposal/proposal/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/proposal/kohyo/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/proposal/koukeiyaku_jorei/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/proposal/keiyaku_joko_yoko/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/chusho-yushi/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kusei/hodo/hodo-2025/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "起業",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/shoko-sodan/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/kuni_tokyoto_shiennjyouhou/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/sogyo-shien/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/startup/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "起業",
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/chusho-fukuri/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/sentansetsubi-keikaku/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/ritchi-chosei/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/chosa/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/syoutengaishinkoujigyou/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/akitempo-kassei-pj/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/chiiki-tsuka/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/kankoshinko_jigyo/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/kyoiku-kaigi/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/gakko-list/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/nyugaku-tennyu-shugaku/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kusei/koho/line/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/tsugakukuiki/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/gakko-tetsuzuki/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/shugakumae/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/kyoiku-shisaku/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/kyoiku-dx/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/new-gakko/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/ijime-taisaku/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kodomo/shibuya-kyoiku/kaigiroku/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/chosa-kijun/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/zaienji-oshirase/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuryo/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kenko/kansen/dobutsuyurai-kansen/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kenko/kansen/sei-kansen/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/mynumber/mynumber-seido/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/juminzei/kazei/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "住宅"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/kokuho/kenkohokenryo/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "減免",
+            "免除",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/kokuho/hokenkyufu/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "一時金"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/nenkin/nenkin-seido/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/nenkin/shikaku-menjo/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/nenkin/nenkin-kyufu/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "免除"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/nenkin/nenkin-sodan/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/jigyogomi/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/gomi-tesuryo/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle-event/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle-keihatsu/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle-torikumi/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "事業者"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/shokuhin-torikumi/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/gomi-tetsuzuki/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/keikaku-chosa/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/gomi-number/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/gomi-sonota/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/jutaku/jutaku-info/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空家"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/jutaku/yushi/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "住宅",
+            "空家",
+            "耐震"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/jutaku/mansion/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空家"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/jutaku/akiya/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "空家"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/shigoto/shushoku/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/pet/cat/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "不妊"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/kotsu/chiiki-jitensha/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/kifu/kifu/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kurashi/madoguchi/kurashi-sodansaki/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "耐震"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/kenko/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/kenshin-sodan/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/teate-josei/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "奨励金",
+            "医療費助成",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13113",
+          "municipalityName": "渋谷区",
+          "sourceUrl": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/kokoro-kenko/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/sitemap.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/robots.txt",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/robots.txt",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/manifest.webmanifest",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/manifest.webmanifest",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kodomo/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kodomo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kenko/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kenko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kankyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kankyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/bunka/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/bunka/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/bosai/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/bosai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/jigyosha/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/shisetsu/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/shisetsu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/koho-news/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/koho-news/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/event/calendar/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/event/calendar/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/kifu/kifu/furusatonozei.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/kifu/kifu/furusatonozei.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/kutyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/kutyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/case/hikkoshi.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/case/hikkoshi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/case/kekkon.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/case/kekkon.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/case/shigoto.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/case/shigoto.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/case/karada.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/case/karada.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/case/ninshin.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/case/ninshin.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/case/kosodate.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/case/kosodate.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/case/kyouiku.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/case/kyouiku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/case/yobou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/case/yobou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/case/okuyami.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/case/okuyami.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/shisaku/lgbt/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/shisaku/lgbt/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/living-in-shibuya/en/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/living-in-shibuya/en/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_sodai.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/gomi_sodai.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/shisaku/lgbt/partnership.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/shisaku/lgbt/partnership.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kenko/kaigo/kaigo-hoken/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kenko/kaigo/kaigo-hoken/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/kodomo-teate/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/kodomo-teate/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/shinsei/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/shinsei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/kocho/opinionindex/inquiry.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/kocho/opinionindex/inquiry.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/kenko-zukuri/heatstroke.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/kenko-zukuri/heatstroke.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/shisaku/jorei-toshin/1001_jourei_kirei.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/shisaku/jorei-toshin/1001_jourei_kirei.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/new-gakko/atarashii_gakko_dukuri.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/new-gakko/atarashii_gakko_dukuri.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/kusei/shibuya-data/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/kusei/shibuya-data/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/jigyosha/proposal/proposal/miyamasuzaka_proposal.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/proposal/proposal/miyamasuzaka_proposal.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/shisetsu/koen/kuritsu-koen/nationalstadiumgrass.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/shisetsu/koen/kuritsu-koen/nationalstadiumgrass.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/shisetsu/koen/kuritsu-koen/sasaduka_kaitiku.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/shisetsu/koen/kuritsu-koen/sasaduka_kaitiku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/shisetsu/koen/koshu-toilet/namiki_kaitiku.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/shisetsu/koen/koshu-toilet/namiki_kaitiku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/news/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/news/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_special.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_special.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_kodomo.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_kodomo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_design.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_design.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_oshirase.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_oshirase.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_fukushi.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_fukushi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_kenko.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_kenko.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_bousai.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_bousai.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_bunka.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_bunka.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_others.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_others.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_special_mini.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1612/20260715_special_mini.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/shibuya-news/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/shibuya-news/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/shisaku/koso/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/shisaku/koso/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/mynumber/mynumber-seido/mynumber_houjinno.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/mynumber/mynumber-seido/mynumber_houjinno.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/shisetsu/kuyakusho/kuyakusho/shintyousha.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/shisetsu/kuyakusho/kuyakusho/shintyousha.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/guide/website/list/site_policy.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/guide/website/list/site_policy.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/guide/website/list/accessibility.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/guide/website/list/accessibility.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/event/calendar/next_year.html",
+          "status": 404,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/event/calendar/next_year.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/event/calendar/prev_year.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/event/calendar/prev_year.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/event/sportsnavi/archive.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/event/sportsnavi/archive.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/event/sportsnavi/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/event/sportsnavi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/event/sportsnavi/list.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/event/sportsnavi/list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/kankyo-keikaku/kankyo_keikaku-2023.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/kankyo-keikaku/kankyo_keikaku-2023.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/kusei/shibuya-data/about/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/kusei/shibuya-data/about/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/kusei/shibuya-data/articles/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/kusei/shibuya-data/articles/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/kusei/shibuya-data/collaboration/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/kusei/shibuya-data/collaboration/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/kutyo/kousaihi/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/kutyo/kousaihi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/living-in-shibuya/ezja/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/living-in-shibuya/ezja/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/living-in-shibuya/ja/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/living-in-shibuya/ja/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/photo/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/photo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/photo-news/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/photo-news/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/pwa-install/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/pwa-install/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/pwa-setting/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/pwa-setting/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/shisetsu/chizu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/shisetsu/chizu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/soshiki/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/soshiki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/vr/vr_shibuyaku/hiroo/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/vr/vr_shibuyaku/hiroo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/vr/vr_shibuyaku/shoto/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/contents/vr/vr_shibuyaku/shoto/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/search/about.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/search/about.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/search/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/search/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/search/sportsnavi.html",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/search/sportsnavi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/web-accessibility/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/web-accessibility/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/guide/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/guide/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/reikishu/keijijo/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/reikishu/keijijo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/hodo/hodo-2026/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/hodo/hodo-2026/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/jigyosha/proposal/keiyaku/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/proposal/keiyaku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/jigyosha/proposal/nyusatsu-info/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/proposal/nyusatsu-info/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/jigyosha/proposal/keiyaku_jokyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/proposal/keiyaku_jokyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/jigyosha/proposal/proposal/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/proposal/proposal/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/jigyosha/proposal/kohyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/proposal/kohyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/jigyosha/proposal/koukeiyaku_jorei/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/proposal/koukeiyaku_jorei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/jigyosha/proposal/keiyaku_joko_yoko/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/proposal/keiyaku_joko_yoko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/tosei_tsuho/tosei/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/tosei_tsuho/tosei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/tosei_tsuho/tsuho/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/tosei_tsuho/tsuho/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/chusho-yushi/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/chusho-yushi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/hodo/hodo-2025/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/hodo/hodo-2025/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/shoko-sodan/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/shoko-sodan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/kuni_tokyoto_shiennjyouhou/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/kuni_tokyoto_shiennjyouhou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/sogyo-shien/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/sogyo-shien/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/startup/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/startup/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/chusho-fukuri/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/chusho-fukuri/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/sentansetsubi-keikaku/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/sentansetsubi-keikaku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/ritchi-chosei/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/ritchi-chosei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/chosa/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/chosa/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/syoutengaishinkoujigyou/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/syoutengaishinkoujigyou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/akitempo-kassei-pj/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/akitempo-kassei-pj/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/chiiki-tsuka/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/chiiki-tsuka/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/kankoshinko_jigyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/kankoshinko_jigyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/hodo/hodo-2024/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/hodo/hodo-2024/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/bosai/bohan/bohan-torikumi/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/bosai/bohan/bohan-torikumi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/kuni_kikamtokei/goriyonocyui/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/kuni_kikamtokei/goriyonocyui/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/tokei_shibuya/kusei/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/tokei_shibuya/kusei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/tokei_shibuya/shibuya-data/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/tokei_shibuya/shibuya-data/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/tokei_shibuya/jinko/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/tokei_shibuya/jinko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/tokei_shibuya/tuki_nemrei_danjyo_betsu_jimko/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/tokei_shibuya/tuki_nemrei_danjyo_betsu_jimko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/tokei_shibuya/tuki_machi_setai_danjyo_betsu_jimko/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/tokei_shibuya/tuki_machi_setai_danjyo_betsu_jimko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/tokei_shibuya/setai_danjyo_betsu_jimko/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/tokei_shibuya/setai_danjyo_betsu_jimko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/tokei_shibuya/machi_setai_jimko/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/tokei_shibuya/machi_setai_jimko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/tokei_shibuya/nemrei_danjyo_betsu_jimko/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/tokei_shibuya/nemrei_danjyo_betsu_jimko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/tokei_shibuya/machi_nemrei_betsu_jimko/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/tokei_shibuya/machi_nemrei_betsu_jimko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/kuni_kikamtokei/kokusei_cyosa/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/kuni_kikamtokei/kokusei_cyosa/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/kuni_kikamtokei/keizai_census/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/kuni_kikamtokei/keizai_census/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/kuni_kikamtokei/syogyo_tokei_syosa/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/kuni_kikamtokei/syogyo_tokei_syosa/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/kuni_kikamtokei/jigyosyo_kigyo_tokei_syosa/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/kuni_kikamtokei/jigyosyo_kigyo_tokei_syosa/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/kuni_kikamtokei/kogyo_tokei_syosa/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/kuni_kikamtokei/kogyo_tokei_syosa/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/kyoiku-kaigi/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/kyoiku-kaigi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/gakko-list/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/gakko-list/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/nyugaku-tennyu-shugaku/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/nyugaku-tennyu-shugaku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/koho/shibuya-portal/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/koho/shibuya-portal/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/koho/line/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/koho/line/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/koho/twitter/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/koho/twitter/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/koho/facebook/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/koho/facebook/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/koho/instagram/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/koho/instagram/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/koho/tiktok/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/koho/tiktok/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/koho-news/news-shibuya/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/koho-news/news-shibuya/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/koho-news/city_news_shibuya/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/koho-news/city_news_shibuya/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/koho-news/city-news-shibuya/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/koho-news/city-news-shibuya/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kusei/hodo/hodo-2023/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kusei/hodo/hodo-2023/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/tsugakukuiki/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/tsugakukuiki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/gakko-tetsuzuki/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/gakko-tetsuzuki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/shugakumae/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/shugakumae/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/kyoiku-shisaku/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/kyoiku-shisaku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/kyoiku-dx/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/kyoiku-dx/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/new-gakko/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/new-gakko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/ijime-taisaku/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kodomo/gakko-kyoiku/ijime-taisaku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kodomo/shibuya-kyoiku/kaigiroku/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kodomo/shibuya-kyoiku/kaigiroku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/chosa-kijun/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/chosa-kijun/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/zaienji-oshirase/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/zaienji-oshirase/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuryo/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuryo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/hoikuen-nyuen/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/bunka/event/oishii-shibuya/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/bunka/event/oishii-shibuya/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/bunka/event/bunka-jigyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/bunka/event/bunka-jigyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kankyo/daikanyama/chiiki-daikanyama/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kankyo/daikanyama/chiiki-daikanyama/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kankyo/shuhen-machizukuri/koremade-torikumi/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kankyo/shuhen-machizukuri/koremade-torikumi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kankyo/shuhen-machizukuri/oyamakaido/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kankyo/shuhen-machizukuri/oyamakaido/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kankyo/shuhen-machizukuri/chiiki-shuhen/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kankyo/shuhen-machizukuri/chiiki-shuhen/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kankyo/yoyogi/chiiki-yoyogi/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kankyo/yoyogi/chiiki-yoyogi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kankyo/yoyogi/keikaku-yoyogi/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kankyo/yoyogi/keikaku-yoyogi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kankyo/yoyogi/kento-yoyogi/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kankyo/yoyogi/kento-yoyogi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kankyo/yoyogiuehara/keikaku-yoyogiuehara/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kankyo/yoyogiuehara/keikaku-yoyogiuehara/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kankyo/sasazuka/keikaku-sasazuka/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kankyo/sasazuka/keikaku-sasazuka/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kankyo/sasazuka/kento-sasazuka/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kankyo/sasazuka/kento-sasazuka/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kankyo/toshikeikaku/keikaku-doro/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kankyo/toshikeikaku/keikaku-doro/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kenko/kansen/dobutsuyurai-kansen/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kenko/kansen/dobutsuyurai-kansen/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kenko/kansen/sei-kansen/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kenko/kansen/sei-kansen/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/pet/dobutsu-shitaishori/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/pet/dobutsu-shitaishori/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/guide/website/list/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/guide/website/list/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/jumin/ido/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/jumin/ido/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/jumin/kyusei/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/jumin/kyusei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/jumin/utsushi/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/jumin/utsushi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/inkan/inkan-tetsuzuki/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/inkan/inkan-tetsuzuki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/inkan/shomei-seikyu/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/inkan/shomei-seikyu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/koseki/koseki-todokede/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/koseki/koseki-todokede/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/koseki/koseki-shomei/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/koseki/koseki-shomei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/gaikokujin/jumin/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gaikokujin/jumin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/shomei/jidokofu/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/shomei/jidokofu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/daicho/jukinet/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/daicho/jukinet/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/ininjo/kakunin/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/ininjo/kakunin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/mynumber/mynumber-seido/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/mynumber/mynumber-seido/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/mynumber/mynumber-tsuchi/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/mynumber/mynumber-tsuchi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/mynumber/mynumber-riyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/mynumber/mynumber-riyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/juminzei/kazei/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/juminzei/kazei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/juminzei/nofu/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/juminzei/nofu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/juminzei/nozei-shomei/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/juminzei/nozei-shomei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/juminzei/todokede/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/juminzei/todokede/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/juminzei/kyuyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/juminzei/kyuyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/juminzei/zesei/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/juminzei/zesei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/juminzei/23ku-juminzei/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/juminzei/23ku-juminzei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/kobai/keiji/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/kobai/keiji/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/kobai/kokuzei-tozei/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/kobai/kokuzei-tozei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/kobai/tabako/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/kobai/tabako/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/kobai/kobai/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/kobai/kobai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/kokuho/kokuho/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/kokuho/kokuho/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/kokuho/kenkohokenryo/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/kokuho/kenkohokenryo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/kokuho/hokenkyufu/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/kokuho/hokenkyufu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/kokuho/hokenjigyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/kokuho/hokenjigyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/nenkin/nenkin-seido/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/nenkin/nenkin-seido/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/nenkin/shikaku-menjo/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/nenkin/shikaku-menjo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/nenkin/nenkin-kyufu/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/nenkin/nenkin-kyufu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/nenkin/nenkin-sodan/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/nenkin/nenkin-sodan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/koreisha/iryoseido/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/koreisha/iryoseido/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/koreisha/shikaku/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/koreisha/shikaku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/koreisha/hokenryo/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/koreisha/hokenryo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/koreisha/kyufu-hoken/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/koreisha/kyufu-hoken/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/nofu/nofuhoho/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/nofu/nofuhoho/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/kateigomi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/jigyogomi/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/jigyogomi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/gomi-tesuryo/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/gomi-tesuryo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle-event/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle-event/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle-keihatsu/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle-keihatsu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle-torikumi/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/recycle-torikumi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/shokuhin-torikumi/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/shokuhin-torikumi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/gomi-tetsuzuki/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/gomi-tetsuzuki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/keikaku-chosa/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/keikaku-chosa/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/gomi-number/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/gomi-number/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/gomi-sonota/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gomi/gomi-sonota/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/jutaku/jutaku-info/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/jutaku/jutaku-info/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/jutaku/yushi/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/jutaku/yushi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/jutaku/mansion/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/jutaku/mansion/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/jutaku/akiya/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/jutaku/akiya/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/shigoto/shushoku/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/shigoto/shushoku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/shigoto/chusho-fukurikosei/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/shigoto/chusho-fukurikosei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/pet/microchip/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/pet/microchip/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/pet/dog/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/pet/dog/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/pet/cat/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/pet/cat/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/pet/dobutsu-eisei/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/pet/dobutsu-eisei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/kotsu/chiiki-jitensha/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/kotsu/chiiki-jitensha/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/kotsu/jidosha/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/kotsu/jidosha/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/kotsu/hachiko/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/kotsu/hachiko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/kotsu/kotsu-sonota/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/kotsu/kotsu-sonota/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/ryoko-shien/service-hojo/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/ryoko-shien/service-hojo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/yokujo/yokujoshisetsu/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/yokujo/yokujoshisetsu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/yokujo/yokujo-service/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/yokujo/yokujo-service/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/kifu/kifu/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/kifu/kifu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/gaikoku-info/gaikoku-info/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/gaikoku-info/gaikoku-info/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/kurashi-joho/kankosho/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/kurashi-joho/kankosho/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/kurashi-joho/lifeline/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/kurashi-joho/lifeline/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/kurashi-joho/seikatsu-kankyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/kurashi-joho/seikatsu-kankyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/kurashi-joho/chiiki/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/kurashi-joho/chiiki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/madoguchi/taishosha-sodansaki/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/madoguchi/taishosha-sodansaki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/madoguchi/kurashi-sodansaki/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/madoguchi/kurashi-sodansaki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kurashi/madoguchi/shigoto-sodansaki/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kurashi/madoguchi/shigoto-sodansaki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/kenko/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/kenko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/kenshin-sodan/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/kenshin-sodan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/teate-josei/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/teate-josei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/kokoro-kenko/",
+          "status": 200,
+          "finalUrl": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/kokoro-kenko/",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

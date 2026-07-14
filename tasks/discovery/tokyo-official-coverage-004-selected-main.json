@@ -1,0 +1,300 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-004",
+  "prefecture": "東京都",
+  "generatedAt": "2026-07-14T02:19:58.586Z",
+  "municipalities": [
+    {
+      "code": "13113",
+      "name": "渋谷区",
+      "officialBaseUrl": "https://www.city.shibuya.tokyo.jp/"
+    },
+    {
+      "code": "13114",
+      "name": "中野区",
+      "officialBaseUrl": "https://www.city.tokyo-nakano.lg.jp/"
+    },
+    {
+      "code": "13115",
+      "name": "杉並区",
+      "officialBaseUrl": "https://www.city.suginami.tokyo.jp/"
+    },
+    {
+      "code": "13116",
+      "name": "豊島区",
+      "officialBaseUrl": "https://www.city.toshima.lg.jp/"
+    }
+  ],
+  "selectedCount": 24,
+  "selectedByMunicipality": {
+    "渋谷区": 5,
+    "中野区": 7,
+    "杉並区": 5,
+    "豊島区": 7
+  },
+  "selected": [
+    {
+      "slug": "shibuya-home-security-equipment-subsidy-2026",
+      "title": "渋谷区 防犯機器等購入費用補助",
+      "organization": "渋谷区",
+      "municipalityCode": "13113",
+      "officialUrl": "https://www.city.shibuya.tokyo.jp/bosai/bohan/bohan-torikumi/bohankikihojo.html",
+      "maxAmount": "購入・設置費用の2分の1、上限2万円",
+      "eligibility": "申請日時点で渋谷区内に住民登録があり、居住する住宅へ令和8年度対象の防犯機器を購入・設置した世帯等が対象です。令和7年度に同種補助を受けた世帯等は対象外です。",
+      "applicationPeriod": "令和8年4月1日から令和9年2月28日まで。予算額に達した場合は受付終了。",
+      "sourceNote": "2026年7月14日に渋谷区公式ページを確認。更新日2026年4月1日、区内住民登録、居住住宅への設置、補助率2分の1、上限2万円、申請期間2026年4月1日から2027年2月28日、予算到達終了を確認。"
+    },
+    {
+      "slug": "shibuya-air-conditioner-purchase-subsidy-2026",
+      "title": "渋谷区 エアコン購入費助成",
+      "organization": "渋谷区",
+      "municipalityCode": "13113",
+      "officialUrl": "https://www.city.shibuya.tokyo.jp/kenko/iryo-kenko/teate-josei/eakon_josei.html",
+      "maxAmount": "エアコン本体購入・設置費、上限10万円",
+      "eligibility": "渋谷区内に住所があり、低所得世帯、児童扶養手当受給世帯、65歳以上の低所得世帯、生活保護世帯等で、自宅に使用可能な冷房機能付きエアコンがない世帯等が対象です。",
+      "applicationPeriod": "令和8年2月1日から令和8年10月31日まで。",
+      "sourceNote": "2026年7月14日に渋谷区公式ページを確認。区内住所、低所得世帯等、自宅に使用可能な冷房機能付きエアコンがない世帯、購入・設置費上限10万円、申込期間2026年2月1日から10月31日を確認。"
+    },
+    {
+      "slug": "shibuya-local-street-store-opening-subsidy-2026",
+      "title": "渋谷区 店舗開業支援補助金",
+      "organization": "渋谷区",
+      "municipalityCode": "13113",
+      "officialUrl": "https://www.city.shibuya.tokyo.jp/jigyosha/shoko-rodo-sodan/akitempo-kassei-pj/akitempo.html",
+      "maxAmount": "対象経費の5分の4、上限250万円",
+      "eligibility": "主に渋谷区内の商店街等で新たに店舗を開業する事業者が対象です。対象業種や区域等は募集要項に基づきます。",
+      "applicationPeriod": "第1回は令和8年4月15日から6月1日まで、第2回は令和8年7月15日から8月31日まで。",
+      "sourceNote": "2026年7月14日に渋谷区公式ページを確認。工事費・設備費・広告費、補助率5分の4、上限250万円、第1回2026年4月15日から6月1日、第2回2026年7月15日から8月31日を確認。"
+    },
+    {
+      "slug": "shibuya-certified-nursery-fee-subsidy-2026",
+      "title": "渋谷区 認証保育所・認可外保育施設等保育利用料軽減",
+      "organization": "渋谷区",
+      "municipalityCode": "13113",
+      "officialUrl": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/hoiku-josei/hoikuryo_keigen.html",
+      "maxAmount": "認証保育所等は月額合計上限8万円等",
+      "eligibility": "児童と保護者が渋谷区に住所を有し、対象施設を利用し、保育の必要性の認定を受けている場合等が対象です。",
+      "applicationPeriod": "令和8年度前期分は令和8年7月頃、後期分は令和9年3月頃に案内予定。",
+      "sourceNote": "2026年7月14日に渋谷区公式ページを確認。更新日2026年6月29日、区内住所、対象施設利用、保育必要性認定、0から2歳児の認証保育所等上限8万円、3歳以上上限7万7千円、年2回手続を確認。"
+    },
+    {
+      "slug": "shibuya-homecoming-pregnancy-checkup-subsidy-2026",
+      "title": "渋谷区 里帰り等妊婦健康診査費用助成金",
+      "organization": "渋谷区",
+      "municipalityCode": "13113",
+      "officialUrl": "https://www.city.shibuya.tokyo.jp/kodomo/ninshin/ninshin-teate/ninpukensin.html",
+      "maxAmount": "妊婦健診1回目1万1,670円、2回目以降各5,460円等",
+      "eligibility": "受診日に渋谷区に住民登録があり、受診票を使用できない国内医療機関等で妊婦健康診査や新生児聴覚検査を受診した方が対象です。",
+      "applicationPeriod": "分娩日または出生日から1年以内に申請。",
+      "sourceNote": "2026年7月14日に渋谷区公式ページを確認。更新日2026年3月31日、受診日の区内住民登録、国内医療機関等、妊婦健診1回目1万1,670円、2回目以降5,460円、超音波5,300円、新生児聴覚3,000円、分娩日等から1年以内を確認。"
+    },
+    {
+      "slug": "nakano-home-security-equipment-subsidy-2026",
+      "title": "中野区 住まいの防犯対策補助金",
+      "organization": "中野区",
+      "municipalityCode": "13114",
+      "officialUrl": "https://www.city.tokyo-nakano.lg.jp/kurashi/bohan/hanzaihigai/20260403.html",
+      "maxAmount": "購入・設置総額の4分の3、上限3万円",
+      "eligibility": "中野区民で、区内の居住住宅に新品の防犯機器を購入・設置した世帯が対象です。令和7年度に同種補助を受けた世帯等は対象外です。",
+      "applicationPeriod": "令和8年4月1日から令和9年1月29日までの購入・設置完了分が対象。予算上限等で受付終了。",
+      "sourceNote": "2026年7月14日に中野区公式ページを確認。更新日2026年5月22日、区民、区内居住住宅、新品防犯機器、補助率4分の3、上限3万円、2026年4月1日から2027年1月29日購入設置完了分、予算上限等終了を確認。"
+    },
+    {
+      "slug": "nakano-certified-nursery-fee-subsidy-2026",
+      "title": "中野区 認証保育所等保護者補助金",
+      "organization": "中野区",
+      "municipalityCode": "13114",
+      "officialUrl": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/ninkagai/hojyokin-0-2sai.html",
+      "maxAmount": "0から2歳児クラスは月額上限7万円",
+      "eligibility": "中野区内在住の児童が認証保育所等を月ぎめ利用し、保育の必要性等の要件を満たす場合が対象です。",
+      "applicationPeriod": "令和8年度利用分は入所後に申請。詳細な期日は区の案内を確認。",
+      "sourceNote": "2026年7月14日に中野区公式ページを確認。0から2歳児クラス向け、月ぎめ基本保育料又は補助限度額7万円の低い方を補助、2026年4月分から条件一部変更、入所後申請を確認。"
+    },
+    {
+      "slug": "nakano-homecoming-pregnancy-checkup-subsidy-2026",
+      "title": "中野区 里帰り等妊婦健康診査等助成金",
+      "organization": "中野区",
+      "municipalityCode": "13114",
+      "officialUrl": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/teate/shien/satogaeri.html",
+      "maxAmount": "妊婦健診1回目1万1,670円、2回目以降各5,460円等",
+      "eligibility": "受診日に中野区に住民登録があり、受診票を使用できない国内医療機関等で妊婦健康診査等を受診した方が対象です。",
+      "applicationPeriod": "出産日または妊娠終了日から1年以内に申請。",
+      "sourceNote": "2026年7月14日に中野区公式ページを確認。受診日の区内住民登録、妊婦健診1回目1万1,670円、2回目以降5,460円、超音波5,300円、子宮頸がん3,400円、新生児聴覚3,000円、出産日等から1年以内を確認。"
+    },
+    {
+      "slug": "nakano-private-kindergarten-parent-subsidy-2026",
+      "title": "中野区 私立幼稚園等保護者向け補助金",
+      "organization": "中野区",
+      "municipalityCode": "13114",
+      "officialUrl": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/hoikuen/youchien/hoikuryohojyo/youchienhojokin.html",
+      "maxAmount": "入園料補助は上限6万円",
+      "eligibility": "私立幼稚園等に在籍する園児の保護者で、園児が入園日に中野区に住民登録している場合等が対象です。",
+      "applicationPeriod": "令和8年度分は区の案内に従い申請。",
+      "sourceNote": "2026年7月14日に中野区公式ページを確認。2026年度私立幼稚園等保護者向け補助金、入園料補助金上限6万円、園児1人1回、入園年度のみ、入園日に中野区住民登録を確認。"
+    },
+    {
+      "slug": "nakano-advanced-fertility-treatment-subsidy-2026",
+      "title": "中野区 特定不妊治療費（先進医療）助成",
+      "organization": "中野区",
+      "municipalityCode": "13114",
+      "officialUrl": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/teate/funinchiryo/funinchiryohijyosei.html",
+      "maxAmount": "東京都助成額控除後、1治療上限5万円",
+      "eligibility": "東京都の特定不妊治療費（先進医療）助成の承認を受け、申請時に夫婦いずれかが中野区に住民登録している等の要件を満たす方が対象です。",
+      "applicationPeriod": "東京都の承認決定日から1年以内に申請。",
+      "sourceNote": "2026年7月14日に中野区公式ページを確認。東京都承認決定後1年以内、申請時に夫婦いずれか中野区住民、東京都助成額控除後1治療上限5万円、他自治体助成なしを確認。"
+    },
+    {
+      "slug": "nakano-business-capability-improvement-subsidy-2026",
+      "title": "中野区 経営力強化支援事業補助金",
+      "organization": "中野区",
+      "municipalityCode": "13114",
+      "officialUrl": "https://www.city.tokyo-nakano.lg.jp/jigyosha/sangyoshinko/josei/chusho_r8keieiryoku.html",
+      "maxAmount": "補助率2分の1、合計上限20万円",
+      "eligibility": "中野区内に主たる事業所または本店を有する中小企業者等で、法人都民税または住民税の滞納がない等の要件を満たす事業者が対象です。",
+      "applicationPeriod": "令和8年4月1日から令和9年1月31日まで。予算上限に達した場合は受付終了。",
+      "sourceNote": "2026年7月14日に中野区公式ページと募集要項PDFを確認。区内中小企業者、税滞納なし、販路開拓・多様性対応・IT/DX等、補助率2分の1、合計上限20万円、申請期間2026年4月1日から2027年1月31日、予算上限終了を確認。"
+    },
+    {
+      "slug": "nakano-human-resource-securing-subsidy-2026",
+      "title": "中野区 人材確保総合支援事業補助金",
+      "organization": "中野区",
+      "municipalityCode": "13114",
+      "officialUrl": "https://www.city.tokyo-nakano.lg.jp/jigyosha/sangyoshinko/josei/chusho_r8jinzaikakuho.html",
+      "maxAmount": "定着支援・資格等取得は上限30万円等",
+      "eligibility": "中野区内に主たる事業所または本店を有する中小企業者等で、税滞納がない等の要件を満たす事業者が対象です。",
+      "applicationPeriod": "令和8年4月1日から令和9年1月31日まで。予算上限に達した場合は受付終了。",
+      "sourceNote": "2026年7月14日に中野区公式ページと募集要項PDFを確認。区内中小企業者、申請期間2026年4月1日から2027年1月31日、採用支援上限20万円、定着支援上限30万円、子育て応援2万円ずつ上限3人、リスキリング上限10万円、資格等取得上限30万円を確認。"
+    },
+    {
+      "slug": "suginami-air-conditioner-purchase-subsidy-2026",
+      "title": "杉並区 エアコン購入費助成",
+      "organization": "杉並区",
+      "municipalityCode": "13115",
+      "officialUrl": "https://www.city.suginami.tokyo.jp/s042/news/25347.html",
+      "maxAmount": "区内販売店購入は上限10万円、区外等は上限8万円",
+      "eligibility": "住民税非課税世帯等で、熱中症対策としてエアコン設置が必要な世帯が対象です。",
+      "applicationPeriod": "令和8年度の申請期限・受付状況は公式ページを確認。予算状況により終了する場合があります。",
+      "sourceNote": "2026年7月14日に杉並区公式ページを確認。更新日2026年7月10日、住民税非課税世帯等、1世帯1台、区内販売店購入上限10万円、区外販売店・インターネット購入上限8万円、東京ゼロエミポイント併用可を確認。"
+    },
+    {
+      "slug": "suginami-eco-housing-equipment-subsidy-2026",
+      "title": "杉並区 エコ住宅促進助成",
+      "organization": "杉並区",
+      "municipalityCode": "13115",
+      "officialUrl": "https://www.city.suginami.tokyo.jp/s103/819.html",
+      "maxAmount": "高反射率塗装・断熱材等は上限15万円、太陽光は上限12万円等",
+      "eligibility": "杉並区内の住宅に対象機器・設備を導入する区民等で、工事や機器の要件を満たす場合が対象です。",
+      "applicationPeriod": "令和8年度の受付期間・予算状況は公式ページを確認。",
+      "sourceNote": "2026年7月14日に杉並区公式ページを確認。太陽光1kW4万円上限12万円、ソーラーシステム上限6万円、蓄電池5万円、エコキュート・エネファーム5万円、高反射率塗装・断熱材20%上限15万円等を確認。"
+    },
+    {
+      "slug": "suginami-certified-nursery-fee-subsidy-2026",
+      "title": "杉並区 認証保育所等保育料負担軽減助成金",
+      "organization": "杉並区",
+      "municipalityCode": "13115",
+      "officialUrl": "https://www.city.suginami.tokyo.jp/s058/shinseisho/19941.html",
+      "maxAmount": "認証保育所等は月額上限8万円等",
+      "eligibility": "保育の必要性の認定を受け、対象施設を利用し、月48時間以上の契約等の要件を満たす児童の保護者が対象です。",
+      "applicationPeriod": "令和8年度は第1期6月30日、第2期9月30日、第3期12月25日、第4期令和9年3月19日が申請期限。",
+      "sourceNote": "2026年7月14日に杉並区公式ページを確認。更新日2026年6月16日、保育必要性認定、月48時間以上契約等、認証保育所・認可外保育施設の月額上限8万円又は7万7千円、2026年度申請期限6月30日・9月30日・12月25日・2027年3月19日を確認。"
+    },
+    {
+      "slug": "suginami-home-security-equipment-subsidy-2026",
+      "title": "杉並区 防犯機器等購入補助事業",
+      "organization": "杉並区",
+      "municipalityCode": "13115",
+      "officialUrl": "https://www.city.suginami.tokyo.jp/s014/25088.html",
+      "maxAmount": "購入・設置費用の3分の2、上限2万円",
+      "eligibility": "杉並区に居住し、住民基本台帳に登録されている世帯主または世帯員で、令和7年度の同種補助を同一世帯で受けていない方が対象です。",
+      "applicationPeriod": "令和8年度の申請は公式ページを確認。審査・交付決定後に入金。",
+      "sourceNote": "2026年7月14日に杉並区公式ページを確認。更新日2026年7月6日、区内居住・住民基本台帳登録、令和7年度同種補助受給世帯対象外、購入・設置費用3分の2、上限2万円、1,000円未満切り捨てを確認。"
+    },
+    {
+      "slug": "suginami-cultural-arts-activity-subsidy-2026",
+      "title": "杉並区 文化芸術活動助成",
+      "organization": "杉並区",
+      "municipalityCode": "13115",
+      "officialUrl": "https://www.city.suginami.tokyo.jp/s030/news/25128.html",
+      "maxAmount": "文化芸術活動は上限40万円、若手アーティストは上限20万円",
+      "eligibility": "区民または区内団体等で、過去に公開実施した文化芸術活動の実績があること等の要件を満たす方が対象です。若手アーティスト枠は年齢等の要件があります。",
+      "applicationPeriod": "令和8年4月15日から令和8年5月29日まで。",
+      "sourceNote": "2026年7月14日に杉並区公式ページを確認。若手アーティスト上限20万円・補助率10分の10、文化芸術活動上限40万円・補助率3分の2、申請期間2026年4月15日から5月29日を確認。"
+    },
+    {
+      "slug": "toshima-home-security-equipment-subsidy-2026",
+      "title": "豊島区 家庭用防犯用品購入緊急補助事業",
+      "organization": "豊島区",
+      "municipalityCode": "13116",
+      "officialUrl": "https://www.city.toshima.lg.jp/048/chian/2603231359.html",
+      "maxAmount": "購入・設置費用の2分の1、上限2万円",
+      "eligibility": "申請日時点で豊島区に住民登録があり、防犯用品を設置する住宅に居住している方が対象です。令和7年度同事業受給世帯等は対象外です。",
+      "applicationPeriod": "令和8年5月15日から令和9年1月31日まで。窓口は令和9年1月29日まで。予算到達で終了。",
+      "sourceNote": "2026年7月14日に豊島区公式ページを確認。更新日2026年6月8日、申請日時点の区内住民登録、設置住宅に居住、令和8年4月1日以降購入設置、補助率2分の1、上限2万円、申請2026年5月15日から2027年1月31日、予算到達終了を確認。"
+    },
+    {
+      "slug": "toshima-street-security-camera-subsidy-2026",
+      "title": "豊島区 街頭防犯カメラ設置・維持管理等補助事業",
+      "organization": "豊島区",
+      "municipalityCode": "13116",
+      "officialUrl": "https://www.city.toshima.lg.jp/048/chian/1812031331.html",
+      "maxAmount": "地域団体連携は上限750万円等",
+      "eligibility": "町会・自治会、町会等と連携する商店会、商店会等が、街頭防犯カメラを設置・更新し、月1回以上の見守り活動等を継続する場合が対象です。",
+      "applicationPeriod": "設置に係る補助金の申請期間は6月1日から6月30日まで。事前相談が必要です。",
+      "sourceNote": "2026年7月14日に豊島区公式ページを確認。更新日2026年5月25日、町会・自治会・商店会等、申請期間6月1日から30日、補助率24分の23で単独上限500万円・連携上限750万円、生活安全施設整備補助率12分の11上限500万円、月1回以上の見守り活動要件を確認。"
+    },
+    {
+      "slug": "toshima-air-conditioner-purchase-subsidy-2026",
+      "title": "豊島区 エアコン購入費助成",
+      "organization": "豊島区",
+      "municipalityCode": "13116",
+      "officialUrl": "https://www.city.toshima.lg.jp/2506021621.html",
+      "maxAmount": "1世帯1台、上限10万円",
+      "eligibility": "住民税非課税・均等割のみ課税世帯、児童扶養手当受給世帯、65歳以上世帯、生活保護世帯等で、エアコン設置が必要な世帯が対象です。",
+      "applicationPeriod": "令和8年6月1日から対象拡大。受付状況は公式ページを確認。",
+      "sourceNote": "2026年7月14日に豊島区公式ページを確認。更新日2026年5月29日、低所得世帯・児童扶養手当受給世帯・65歳以上世帯・生活保護世帯等、1世帯1台上限10万円、2026年6月1日から対象拡大を確認。"
+    },
+    {
+      "slug": "toshima-eco-housing-equipment-subsidy-2026",
+      "title": "豊島区 エコ住宅普及促進費用助成",
+      "organization": "豊島区",
+      "municipalityCode": "13116",
+      "officialUrl": "https://www.city.toshima.lg.jp/149/machizukuri/shizen/ecojutaku/003402.html",
+      "maxAmount": "断熱改修窓は上限10万円、太陽光は上限8万円等",
+      "eligibility": "豊島区内に住所を有し、自ら居住する住宅に未使用の対象機器・設備を設置し、施工・支払いを完了した方等が対象です。",
+      "applicationPeriod": "令和8年5月25日から令和9年3月1日必着まで。対象施工完了期間は令和8年2月1日から令和9年1月31日まで。予算到達で終了。",
+      "sourceNote": "2026年7月14日に豊島区公式ページを確認。申請受付2026年5月25日から2027年3月1日必着、施工完了2026年2月1日から2027年1月31日、太陽光上限8万円、蓄電池上限5万円、エネファーム8万円、断熱改修窓上限10万円、予算到達終了を確認。"
+    },
+    {
+      "slug": "toshima-empty-store-activation-subsidy-2026",
+      "title": "豊島区 空き店舗活性支援事業",
+      "organization": "豊島区",
+      "municipalityCode": "13116",
+      "officialUrl": "https://www.city.toshima.lg.jp/584/machizukuri/sangyo/kigyo/2404021116.html",
+      "maxAmount": "店舗整備費上限200万円、賃借料は月額上限5万円等",
+      "eligibility": "区内商店会の空き店舗を活用して開業する中小企業または個人事業主で、対象区域・空き店舗要件等を満たす方が対象です。",
+      "applicationPeriod": "事前相談受付は令和8年4月1日から6月19日まで。申請期間は令和8年6月1日から6月19日必着。",
+      "sourceNote": "2026年7月14日に豊島区公式ページを確認。更新日2026年6月3日、区内商店会の空き店舗活用、中小企業又は個人事業主、店舗整備費3分の2上限200万円、賃借料2分の1で1年目月5万円・2年目月3万円、申請2026年6月1日から6月19日必着を確認。"
+    },
+    {
+      "slug": "toshima-business-stability-subsidy-2026",
+      "title": "豊島区 経営安定コース補助金",
+      "organization": "豊島区",
+      "municipalityCode": "13116",
+      "officialUrl": "https://www.city.toshima.lg.jp/584/machizukuri/sangyo/kigyo/019174.html",
+      "maxAmount": "対象経費の2分の1、上限15万円",
+      "eligibility": "豊島区内で3か月以上事業を営む中小企業者または個人事業主等で、対象経費や申請要件を満たす事業者が対象です。",
+      "applicationPeriod": "事前申請期間は令和8年5月11日から令和8年11月27日17時まで。",
+      "sourceNote": "2026年7月14日に豊島区公式ページを確認。区内中小企業者・個人事業主、3か月以上事業、事業PR・専門家・人材育成、補助率2分の1、上限15万円、事前申請2026年5月11日から11月27日17時を確認。"
+    },
+    {
+      "slug": "toshima-business-startup-subsidy-2026",
+      "title": "豊島区 開業支援コース補助金",
+      "organization": "豊島区",
+      "municipalityCode": "13116",
+      "officialUrl": "https://www.city.toshima.lg.jp/documents/3320/20260623075730.pdf",
+      "maxAmount": "対象経費の3分の2、上限20万円",
+      "eligibility": "創業初期から成長期の区内中小企業者等で、特定創業支援プログラム受講や専門相談員の助言等の要件を満たす事業者が対象です。",
+      "applicationPeriod": "事前相談は令和8年5月11日から11月27日まで。交付申請は令和9年1月22日17時まで。",
+      "sourceNote": "2026年7月14日に豊島区公式PDFを確認。補助率3分の2、補助限度額20万円、補助対象期間2026年4月1日から2027年1月15日、事前相談2026年5月11日から11月27日、交付申請2027年1月22日17時まで、特定創業支援プログラム受講等を確認。"
+    }
+  ]
+}

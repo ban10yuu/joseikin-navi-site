@@ -1,0 +1,2497 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-004-13115",
+  "prefecture": "東京都",
+  "generatedAt": "2026-07-14T02:05:53.231Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 50,
+  "results": [
+    {
+      "code": "13115",
+      "name": "杉並区",
+      "officialBaseUrl": "https://www.city.suginami.tokyo.jp/",
+      "discoveredUrlCount": 250,
+      "candidateCount": 50,
+      "strongCandidateCount": 1,
+      "lowPriorityCandidateCount": 49,
+      "candidates": [
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/",
+          "status": 200,
+          "title": "杉並区",
+          "h1": "杉並区",
+          "updatedAt": "令和8年8月1日",
+          "keywordHits": [
+            "子育て",
+            "省エネ"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/index.html",
+          "status": 200,
+          "title": "杉並区",
+          "h1": "杉並区",
+          "updatedAt": "令和8年8月1日",
+          "keywordHits": [
+            "子育て",
+            "省エネ"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/kurashi/index.html",
+          "status": 200,
+          "title": "くらし・手続き",
+          "h1": "くらし・手続き",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空家",
+            "事業者",
+            "福祉",
+            "耐震"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/kosodatekyouiku/index.html",
+          "status": 200,
+          "title": "子ども・子育て・教育",
+          "h1": "子ども・子育て・教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "事業者",
+            "子育て",
+            "就学",
+            "不妊"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/kenkou/index.html",
+          "status": 200,
+          "title": "健康・医療・福祉",
+          "h1": "健康・医療・福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "医療費助成",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/sports/index.html",
+          "status": 200,
+          "title": "スポーツ・文化",
+          "h1": "スポーツ・文化",
+          "updatedAt": "令和7年3月4日",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/machizukuri/index.html",
+          "status": 200,
+          "title": "まちづくり・環境",
+          "h1": "まちづくり・環境",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "省エネ"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/shigoto/index.html",
+          "status": 200,
+          "title": "しごと・産業",
+          "h1": "しごと・産業",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/kusei/index.html",
+          "status": 200,
+          "title": "区政情報",
+          "h1": "区政情報",
+          "updatedAt": "令和8年6月28日",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/kurashi/gomi/seisougomi/index.html",
+          "status": 200,
+          "title": "ごみ・リサイクル",
+          "h1": "ごみ・リサイクル",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/kurashi/kakushusoudan/index.html",
+          "status": 200,
+          "title": "各種相談",
+          "h1": "各種相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/okuyami/index.html",
+          "status": 200,
+          "title": "おくやみ",
+          "h1": "おくやみ",
+          "updatedAt": "2026年3月30日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/kosodate/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/event/index.html",
+          "status": 200,
+          "title": "イベント情報",
+          "h1": "イベント情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/motto/kenkou/21648.html",
+          "status": 200,
+          "title": "暑さ対策しっかりと！熱中症を防ぐ習慣を取り入れよう",
+          "h1": "暑さ対策しっかりと！熱中症を防ぐ習慣を取り入れよう",
+          "updatedAt": "2025年7月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/s098/462.html",
+          "status": 200,
+          "title": "わが家の水害ハザードマップ",
+          "h1": "わが家の水害ハザードマップ",
+          "updatedAt": "2026年5月27日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/s042/news/25347.html",
+          "status": 200,
+          "title": "エアコン購入費の助成を始めました（2026年7月10日更新）",
+          "h1": "エアコン購入費の助成を始めました（2026年7月10日更新）",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "助成金",
+            "住宅",
+            "事業者",
+            "省エネ"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/26842.html",
+          "status": 200,
+          "title": "物価高騰などに関する相談・支援のご案内（2026年5月26日）",
+          "h1": "物価高騰などに関する相談・支援のご案内（2026年5月26日）",
+          "updatedAt": "2026年5月26日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/news/index.html?value=4",
+          "status": 200,
+          "title": "お知らせ一覧",
+          "h1": "お知らせ一覧",
+          "updatedAt": "令和8年8月1日",
+          "keywordHits": [
+            "助成金",
+            "給付金",
+            "免除",
+            "住宅",
+            "創業",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て",
+            "就学",
+            "耐震",
+            "通学"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/s036/26767.html",
+          "status": 200,
+          "title": "杉並区手話通訳者認定試験受験資格の変更について（2026年7月13日）",
+          "h1": "杉並区手話通訳者認定試験受験資格の変更について（2026年7月13日）",
+          "updatedAt": "2026年7月13日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/news/index.html?value=3",
+          "status": 200,
+          "title": "お知らせ一覧",
+          "h1": "お知らせ一覧",
+          "updatedAt": "令和8年8月1日",
+          "keywordHits": [
+            "助成金",
+            "給付金",
+            "免除",
+            "住宅",
+            "創業",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て",
+            "就学",
+            "耐震",
+            "通学"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/s058/news/24962.html",
+          "status": 200,
+          "title": "（追加募集）【令和8年8月1日以降随時採用】区立保育園等における会計年度任用職員（短時間）を募集します（2026年7月13日更新）",
+          "h1": "（追加募集）【令和8年8月1日以降随時採用】区立保育園等における会計年度任用職員（短時間）を募集します（2026年7月13日更新）",
+          "updatedAt": "2026年7月13日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/news/index.html?value=1",
+          "status": 200,
+          "title": "お知らせ一覧",
+          "h1": "お知らせ一覧",
+          "updatedAt": "令和8年8月1日",
+          "keywordHits": [
+            "助成金",
+            "給付金",
+            "免除",
+            "住宅",
+            "創業",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て",
+            "就学",
+            "耐震",
+            "通学"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/news/index.html",
+          "status": 200,
+          "title": "お知らせ一覧",
+          "h1": "お知らせ一覧",
+          "updatedAt": "令和8年8月1日",
+          "keywordHits": [
+            "助成金",
+            "給付金",
+            "免除",
+            "住宅",
+            "創業",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て",
+            "就学",
+            "耐震",
+            "通学"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/kyouikuiinkai/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年4月6日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/motto/index.html",
+          "status": 200,
+          "title": "もっと知る すぎなみ",
+          "h1": "もっと知る すぎなみ",
+          "updatedAt": "令和8年6月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/s107/7658.html",
+          "status": 200,
+          "title": "いじめを防ぎ、いじめから子どもを守る取組",
+          "h1": "いじめを防ぎ、いじめから子どもを守る取組",
+          "updatedAt": "2026年6月15日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/s103/syouene.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年4月9日",
+          "keywordHits": [
+            "助成金",
+            "住宅",
+            "省エネ"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/s005/datalounge.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年7月9日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/furusatonouzei/index.html",
+          "status": 200,
+          "title": "ふるさと納税",
+          "h1": "ふるさと納税",
+          "updatedAt": "2025年10月29日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/fukugen/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年10月17日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/hataraku/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年4月28日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/nyuusatsuoshirase/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "貸付",
+            "事業者"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/normalife/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年3月15日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/about/13.html",
+          "status": 200,
+          "title": "特集ページ・リンク集",
+          "h1": "特集ページ・リンク集",
+          "updatedAt": "2026年7月7日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "省エネ"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/s005/1278.html",
+          "status": 200,
+          "title": "ソーシャルメディア区公式アカウント一覧",
+          "h1": "ソーシャルメディア区公式アカウント一覧",
+          "updatedAt": "2026年4月16日",
+          "keywordHits": [
+            "助成金",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/s092/1565.html",
+          "status": 200,
+          "title": "南北バス「すぎ丸」運行情報",
+          "h1": "南北バス「すぎ丸」運行情報",
+          "updatedAt": "2026年5月15日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "就学"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/s058/1068.html",
+          "status": 200,
+          "title": "保育施設の空き状況【認可保育園・地域型保育事業・区立子供園：令和8年6月30日更新】【家庭福祉員・認証・認可外保育施設等：令和8年7月10日更新】",
+          "h1": "保育施設の空き状況【認可保育園・地域型保育事業・区立子供園：令和8年6月30日更新】【家庭福祉員・認証・認可外保育施設等：令和8年7月10日更新】",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.daiko-rec.co.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "創業"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://1169.tokyo/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.riken-co-ltd.co.jp/",
+          "status": 200,
+          "title": "東京都杉並区にある総合建築会社・太陽光発電｜リケンエナジー有限会社",
+          "h1": "東京都杉並区にある総合建築会社・太陽光発電｜リケンエナジー有限会社",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "創業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://e-neco.com/",
+          "status": 200,
+          "title": "東京都の蓄電池・太陽光発電の設置ならENECO（えねこ）｜補助金最大450万円対応・電気代0円",
+          "h1": "東京都の蓄電池・太陽光発電の設置ならENECO（えねこ）｜補助金最大450万円対応・電気代0円",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "耐震"
+          ],
+          "candidateScore": 20,
+          "candidatePriority": "strong",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.aitecs.co.jp/",
+          "status": 200,
+          "title": "給湯器交換が安い！ノーリツ給湯器専門店【アイテック】",
+          "h1": "給湯器交換が安い！ノーリツ給湯器専門店【アイテック】",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "省エネ"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://build.hosoda.co.jp/",
+          "status": 200,
+          "title": "Crafted in Timber. Defined by Quality. Inspired by You. 木にこだわり、品質で築き、お客さまの想いで完成する家。",
+          "h1": "Crafted in Timber. Defined by Quality. Inspired by You. 木にこだわり、品質で築き、お客さまの想いで完成する家。",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.aoiro.org/",
+          "status": 200,
+          "title": "公益社団法人杉並青色申告会",
+          "h1": "",
+          "updatedAt": "令和8年6月29日",
+          "keywordHits": [
+            "住宅",
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/about/1280.html",
+          "status": 200,
+          "title": "区公式ホームページに掲載するバナー広告を募集します",
+          "h1": "区公式ホームページに掲載するバナー広告を募集します",
+          "updatedAt": "2026年2月26日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/about/22.html",
+          "status": 200,
+          "title": "RSS配信について",
+          "h1": "RSS配信について",
+          "updatedAt": "2019年6月20日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/kuyakushoannai/569.html",
+          "status": 200,
+          "title": "区役所案内",
+          "h1": "区役所案内",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/about/18.html",
+          "status": 200,
+          "title": "検索メニュー",
+          "h1": "検索メニュー",
+          "updatedAt": "2025年1月20日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13115",
+          "municipalityName": "杉並区",
+          "sourceUrl": "https://www.city.suginami.tokyo.jp/about/21.html",
+          "status": 200,
+          "title": "個人情報の取り扱い",
+          "h1": "個人情報の取り扱い",
+          "updatedAt": "2019年4月3日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/sitemap.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/shared/font/NotoSansJP-Regular.woff2",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/shared/font/NotoSansJP-Regular.woff2",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/shared/font/NotoSansJP-Bold.woff2",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/shared/font/NotoSansJP-Bold.woff2",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/about/10703.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/about/10703.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/about/23.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/about/23.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/bousai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/bousai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/kurashi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/kurashi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/kosodatekyouiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/kosodatekyouiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/kenkou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/kenkou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/sports/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/sports/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/machizukuri/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/machizukuri/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/shigoto/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/shigoto/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/kusei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/kusei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/kurashi/gomi/seisougomi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/kurashi/gomi/seisougomi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/kusei/gaiyou/shisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/kusei/gaiyou/shisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/kurashi/kakushusoudan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/kurashi/kakushusoudan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/hikkoshi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/hikkoshi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/koseki_zyuuminhyou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/koseki_zyuuminhyou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/okuyami/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/okuyami/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/kodomoazukeru/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/kodomoazukeru/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/event/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/event/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/koutuuservice/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/koutuuservice/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/anzen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/anzen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/ikensankaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/ikensankaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/online/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/online/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/datalibrary/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/datalibrary/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/motto/kenkou/21648.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/motto/kenkou/21648.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s098/462.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s098/462.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s042/news/25347.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s042/news/25347.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/26842.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/26842.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/news/index.html?value=4",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/news/index.html?value=4",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s112/news/27687.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s112/news/27687.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/news/s009/27799.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/news/s009/27799.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s036/26767.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s036/26767.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/news/index.html?value=3",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/news/index.html?value=3",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s058/news/24962.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s058/news/24962.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/news/index.html?value=1",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/news/index.html?value=1",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s108/news/27717.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s108/news/27717.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/news/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/news/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/kuchou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/kuchou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/kugikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/kugikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/kyouikuiinkai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/kyouikuiinkai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/motto/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/motto/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/bousai/bousai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/bousai/bousai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s107/7658.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s107/7658.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s103/syouene.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s103/syouene.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s005/datalounge.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s005/datalounge.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/furusatonouzei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/furusatonouzei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/fukugen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/fukugen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/kusei/kouhou/kouhou/houdou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/kusei/kouhou/kouhou/houdou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/hataraku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/hataraku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/nyuusatsuoshirase/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/nyuusatsuoshirase/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/normalife/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/normalife/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/shuroshien/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/shuroshien/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/histmus/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/histmus/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/about/13.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/about/13.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s005/1278.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s005/1278.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/kasenlive/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/kasenlive/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s033/news/25505.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s033/news/25505.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s092/1565.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s092/1565.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s058/1068.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s058/1068.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/about/16.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/about/16.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/cgi-bin/advert/click_total/click.cgi?cms_area_id=1&amp;cms_banner_id=8&amp;cms_link_url=https%3A%2F%2Fwww.tokyocitykeiba.com%2F",
+          "status": 403,
+          "finalUrl": "https://www.tokyocitykeiba.com/",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/cgi-bin/advert/click_total/click.cgi?cms_area_id=1&amp;cms_banner_id=13&amp;cms_link_url=https%3A%2F%2Fha6480.com%2F",
+          "status": 200,
+          "finalUrl": "https://ha6480.com/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/cgi-bin/advert/click_total/click.cgi?cms_area_id=1&amp;cms_banner_id=1&amp;cms_link_url=https%3A%2F%2Fwww.daiko-rec.co.jp%2F",
+          "status": 200,
+          "finalUrl": "https://www.daiko-rec.co.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/cgi-bin/advert/click_total/click.cgi?cms_area_id=1&amp;cms_banner_id=7&amp;cms_link_url=https%3A%2F%2F1169.tokyo%2F",
+          "status": 200,
+          "finalUrl": "https://1169.tokyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/cgi-bin/advert/click_total/click.cgi?cms_area_id=1&amp;cms_banner_id=21&amp;cms_link_url=https%3A%2F%2Fwww.riken-co-ltd.co.jp%2F",
+          "status": 200,
+          "finalUrl": "https://www.riken-co-ltd.co.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/cgi-bin/advert/click_total/click.cgi?cms_area_id=1&amp;cms_banner_id=17&amp;cms_link_url=https%3A%2F%2Fkaitori.suginami-camera.jp%2F",
+          "status": 200,
+          "finalUrl": "https://kaitori.suginami-camera.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/cgi-bin/advert/click_total/click.cgi?cms_area_id=1&amp;cms_banner_id=22&amp;cms_link_url=https%3A%2F%2Fe-neco.com%2F",
+          "status": 200,
+          "finalUrl": "https://e-neco.com/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/cgi-bin/advert/click_total/click.cgi?cms_area_id=1&amp;cms_banner_id=5&amp;cms_link_url=https%3A%2F%2Fwww.aitecs.co.jp%2F",
+          "status": 200,
+          "finalUrl": "https://www.aitecs.co.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/cgi-bin/advert/click_total/click.cgi?cms_area_id=1&amp;cms_banner_id=2&amp;cms_link_url=https%3A%2F%2Fbuild.hosoda.co.jp",
+          "status": 200,
+          "finalUrl": "https://build.hosoda.co.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/cgi-bin/advert/click_total/click.cgi?cms_area_id=1&amp;cms_banner_id=9&amp;cms_link_url=https%3A%2F%2Fwww.aoiro.org",
+          "status": 200,
+          "finalUrl": "https://www.aoiro.org/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/cgi-bin/advert/click_total/click.cgi?cms_area_id=1&amp;cms_banner_id=15&amp;cms_link_url=https%3A%2F%2Fwww.hamasho-f.co.jp%2F",
+          "status": 200,
+          "finalUrl": "https://www.hamasho-f.co.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/cgi-bin/advert/click_total/click.cgi?cms_area_id=1&amp;cms_banner_id=14&amp;cms_link_url=https%3A%2F%2Fwww.ja-tokyo.co.jp%2F",
+          "status": 0,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/cgi-bin/advert/click_total/click.cgi?cms_area_id=1&amp;cms_banner_id=14&amp;cms_link_url=https%3A%2F%2Fwww.ja-tokyo.co.jp%2F",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/about/1280.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/about/1280.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/kusei/kouhou/kouhou/about/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/kusei/kouhou/kouhou/about/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/about/22.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/about/22.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/kuyakushoannai/569.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/kuyakushoannai/569.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/about/14.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/about/14.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/about/15.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/about/15.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/about/17.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/about/17.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/about/18.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/about/18.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/about/20.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/about/20.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/about/21.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/about/21.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/about/24.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/about/24.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/about/25.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/about/25.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/about/26.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/about/26.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/about/27.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/about/27.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/about/28.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/about/28.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/about/29.html",
+          "status": 200,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/about/29.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/30.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/30.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/31.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/31.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/32.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/32.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/33.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/33.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/34.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/34.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/35.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/35.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/36.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/36.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/37.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/37.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/38.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/38.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/39.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/39.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/40.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/40.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/41.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/41.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/42.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/42.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/43.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/43.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/44.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/44.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/45.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/45.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/46.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/46.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/47.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/47.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/48.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/48.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/49.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/49.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/50.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/50.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/51.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/51.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/52.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/52.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/53.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/53.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/54.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/54.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/55.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/55.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/56.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/56.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/57.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/57.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/58.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/58.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/59.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/59.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/60.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/60.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/61.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/61.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/62.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/62.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/63.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/63.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/64.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/64.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/65.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/65.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/66.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/66.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/67.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/67.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/68.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/68.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/69.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/69.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/70.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/70.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/71.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/71.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/72.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/72.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/73.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/73.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/74.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/74.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/75.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/75.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/76.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/76.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/77.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/77.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/78.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/78.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/79.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/79.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/80.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/80.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/81.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/81.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/82.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/82.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/83.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/83.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/84.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/84.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/85.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/85.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/86.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/86.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/87.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/87.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/88.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/88.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/89.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/89.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/90.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/90.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/91.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/91.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/92.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/92.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/93.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/93.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/94.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/94.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/95.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/95.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/96.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/96.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/97.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/97.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/98.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/98.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/99.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/99.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/100.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/100.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/101.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/101.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/102.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/102.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/103.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/103.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/104.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/104.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/105.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/105.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/106.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/106.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/107.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/107.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/108.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/108.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/109.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/109.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/110.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/110.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/111.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/111.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/112.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/112.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/113.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/113.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/114.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/114.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/115.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/115.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/116.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/116.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/117.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/117.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/118.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/118.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/119.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/119.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/120.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/120.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/121.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/121.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/122.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/122.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/123.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/123.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/124.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/124.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/125.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/125.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/126.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/126.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/127.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/127.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/128.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/128.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/129.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/129.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/130.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/130.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/131.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/131.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/132.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/132.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/133.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/133.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/134.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/134.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/135.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/135.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/136.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/136.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/137.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/137.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/138.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/138.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/139.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/139.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/140.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/140.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/141.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/141.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/142.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/142.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/143.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/143.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/144.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/144.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/145.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/145.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/146.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/146.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/147.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/147.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/148.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/148.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/149.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/149.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/150.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/150.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/151.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/151.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/152.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/152.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/153.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/153.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/154.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/154.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/155.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/155.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/156.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/156.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/157.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/157.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/158.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/158.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/159.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/159.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/160.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/160.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/161.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/161.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/162.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/162.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/163.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/163.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/164.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/164.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/165.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/165.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/166.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/166.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/167.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/167.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/168.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/168.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/169.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/169.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/170.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/170.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/171.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/171.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/172.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/172.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/173.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/173.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/174.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/174.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/175.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/175.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/176.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/176.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/177.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/177.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/178.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/178.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/bousai/bouhan/bouhanjouhou/mail/r06/r0608/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/bousai/bouhan/bouhanjouhou/mail/r06/r0608/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/180.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/180.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/bousai/bouhan/bouhanjouhou/mail/r06/r0609/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/bousai/bouhan/bouhanjouhou/mail/r06/r0609/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/182.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/182.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/183.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/183.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s014/184.html",
+          "status": 404,
+          "finalUrl": "https://www.city.suginami.tokyo.jp/s014/184.html",
+          "ok": false
+        }
+      ]
+    }
+  ]
+}

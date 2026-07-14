@@ -7619,3 +7619,46 @@
     - 受付終了、受付休止、404、金額又は受付状況不足、PDF精査待ち、カテゴリ導線、様式のみ、国制度色が強い候補は第2巡候補に残す。
   - 次:
     - 東京都公式棚卸し004として、13113渋谷区、13114中野区、13115杉並区、13116豊島区を自治体コード順に確認する。
+
+- 東京都公式棚卸し004
+  - 対象:
+    - 13113 渋谷区、13114 中野区、13115 杉並区、13116 豊島区。
+  - 方法:
+    - 公式トップ到達を4自治体すべて確認し、候補492件を抽出した。
+    - 渋谷区・中野区・杉並区・豊島区の公式HTML/PDF本文から、制度名・対象・金額/上限・条件・期限/受付状況を確認した。
+    - 杉並区防犯機器等購入補助、豊島区街頭防犯カメラ設置・維持管理等補助は公式本文を追加取得し、補助率・上限額を確認した。
+    - カテゴリ導線、様式のみ、金額又は受付状況が公式本文だけで確定できない候補、年度外の可能性がある候補は第2巡候補に残す。
+  - 採用:
+    - 渋谷区5件: 防犯機器等購入費用補助、エアコン購入費助成、店舗開業支援補助金、認証保育所・認可外保育施設等保育利用料軽減、里帰り等妊婦健康診査費用助成金。
+    - 中野区7件: 住まいの防犯対策補助金、認証保育所等保護者補助金、里帰り等妊婦健康診査等助成金、私立幼稚園等保護者向け補助金、特定不妊治療費（先進医療）助成、経営力強化支援事業補助金、人材確保総合支援事業補助金。
+    - 杉並区5件: エアコン購入費助成、エコ住宅促進助成、認証保育所等保育料負担軽減助成金、防犯機器等購入補助事業、文化芸術活動助成。
+    - 豊島区7件: 家庭用防犯用品購入緊急補助事業、街頭防犯カメラ設置・維持管理等補助事業、エアコン購入費助成、エコ住宅普及促進費用助成、空き店舗活性支援事業、経営安定コース補助金、開業支援コース補助金。
+  - 生成ファイル:
+    - `tasks/discovery/tokyo-official-coverage-004-municipalities.json`
+    - `tasks/discovery/tokyo-official-coverage-004-13113-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-004-13114-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-004-13115-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-004-13116-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-004-13113-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-004-13114-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-004-13115-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-004-13116-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-004-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-004-target-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-004-sitemap-keyword-urls.json`
+    - `tasks/discovery/tokyo-official-coverage-004-selected-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-004-selected-main.json`
+    - `tasks/discovery/tokyo-official-coverage-004-url-check.json`
+    - `tasks/discovery/tokyo-official-coverage-004.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（24件、`verified-local-misc-2026.ts` 内で各1件）。
+    - 公式URL到達: pass（24 official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 11055、officialLinkedActive 11017、manuallyVerifiedActive 11017、東京都 localOfficial 439）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 受付終了、受付休止、404、金額又は受付状況不足、PDF精査待ち、カテゴリ導線、様式のみ、国制度色が強い候補は第2巡候補に残す。
+  - 次:
+    - 東京都公式棚卸し005として、13117北区、13118荒川区、13119板橋区、13120練馬区を自治体コード順に確認する。

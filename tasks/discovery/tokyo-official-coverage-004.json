@@ -1,0 +1,66 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-004",
+  "prefecture": "東京都",
+  "completedAt": "2026-07-14T02:19:58.586Z",
+  "status": "completed-for-listed-municipalities",
+  "municipalities": [
+    {
+      "code": "13113",
+      "name": "渋谷区",
+      "officialBaseUrl": "https://www.city.shibuya.tokyo.jp/",
+      "selectedCount": 5,
+      "status": "official-pages-verified"
+    },
+    {
+      "code": "13114",
+      "name": "中野区",
+      "officialBaseUrl": "https://www.city.tokyo-nakano.lg.jp/",
+      "selectedCount": 7,
+      "status": "official-pages-verified"
+    },
+    {
+      "code": "13115",
+      "name": "杉並区",
+      "officialBaseUrl": "https://www.city.suginami.tokyo.jp/",
+      "selectedCount": 5,
+      "status": "official-pages-verified"
+    },
+    {
+      "code": "13116",
+      "name": "豊島区",
+      "officialBaseUrl": "https://www.city.toshima.lg.jp/",
+      "selectedCount": 7,
+      "status": "official-pages-verified"
+    }
+  ],
+  "selectedSlugs": [
+    "shibuya-home-security-equipment-subsidy-2026",
+    "shibuya-air-conditioner-purchase-subsidy-2026",
+    "shibuya-local-street-store-opening-subsidy-2026",
+    "shibuya-certified-nursery-fee-subsidy-2026",
+    "shibuya-homecoming-pregnancy-checkup-subsidy-2026",
+    "nakano-home-security-equipment-subsidy-2026",
+    "nakano-certified-nursery-fee-subsidy-2026",
+    "nakano-homecoming-pregnancy-checkup-subsidy-2026",
+    "nakano-private-kindergarten-parent-subsidy-2026",
+    "nakano-advanced-fertility-treatment-subsidy-2026",
+    "nakano-business-capability-improvement-subsidy-2026",
+    "nakano-human-resource-securing-subsidy-2026",
+    "suginami-air-conditioner-purchase-subsidy-2026",
+    "suginami-eco-housing-equipment-subsidy-2026",
+    "suginami-certified-nursery-fee-subsidy-2026",
+    "suginami-home-security-equipment-subsidy-2026",
+    "suginami-cultural-arts-activity-subsidy-2026",
+    "toshima-home-security-equipment-subsidy-2026",
+    "toshima-street-security-camera-subsidy-2026",
+    "toshima-air-conditioner-purchase-subsidy-2026",
+    "toshima-eco-housing-equipment-subsidy-2026",
+    "toshima-empty-store-activation-subsidy-2026",
+    "toshima-business-stability-subsidy-2026",
+    "toshima-business-startup-subsidy-2026"
+  ],
+  "deferredSecondPass": [
+    "カテゴリページ、様式のみ、金額又は受付状況が公式本文だけで確定できない候補は第2巡候補として残す。",
+    "受付終了済み又は年度外の可能性が高い候補は削除せず再確認対象に残す。"
+  ]
+}

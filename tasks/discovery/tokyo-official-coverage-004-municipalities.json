@@ -1,0 +1,26 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-004",
+  "prefecture": "東京都",
+  "municipalities": [
+    {
+      "code": "13113",
+      "name": "渋谷区",
+      "officialBaseUrl": "https://www.city.shibuya.tokyo.jp/"
+    },
+    {
+      "code": "13114",
+      "name": "中野区",
+      "officialBaseUrl": "https://www.city.tokyo-nakano.lg.jp/"
+    },
+    {
+      "code": "13115",
+      "name": "杉並区",
+      "officialBaseUrl": "https://www.city.suginami.tokyo.jp/"
+    },
+    {
+      "code": "13116",
+      "name": "豊島区",
+      "officialBaseUrl": "https://www.city.toshima.lg.jp/"
+    }
+  ]
+}
