@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T03:58:00+09:00",
+  "updatedAt": "2026-07-15T04:52:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "yamanashi-official-coverage-003",
-    "municipality": "上野原市・甲州市・中央市・市川三郷町・早川町",
-    "adopted": 64,
-    "held": 1103,
+    "code": "yamanashi-official-coverage-004",
+    "municipality": "身延町・南部町・富士川町・昭和町・道志村",
+    "adopted": 80,
+    "held": 967,
     "excluded": 0,
-    "sourceUrlsChecked": 64,
+    "sourceUrlsChecked": 80,
     "validation": {
-      "previousMunicipality": "山梨県公式棚卸し003として、19212上野原市・19213甲州市・19214中央市・19346市川三郷町・19364早川町を確認した。自治体別クロールで候補667件、再スコア対象1167件、公式URLリード511件を保存し、個別公式ページ64件を新規採用した。全国公式棚卸しは未完了。",
+      "previousMunicipality": "山梨県公式棚卸し004として、19365身延町・19366南部町・19368富士川町・19384昭和町・19422道志村を確認した。自治体別クロールで候補521件、再スコア対象1047件、公式URLリード545件を保存し、個別公式ページ80件を新規採用した。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for yamanashi-official-coverage-003 JSON files",
-      "addedSlugUniqueness": "pass: 64 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 64 primary official URLs returned HTTP 200",
+      "json": "pass: JSON.parse for yamanashi-official-coverage-004 JSON files",
+      "addedSlugUniqueness": "pass: 80 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 80 primary official URLs returned HTTP 200",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 12991, officialLinkedActive 12871, manuallyVerifiedActive 12871, 山梨県 localOfficial 315)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 13071, officialLinkedActive 12951, manuallyVerifiedActive 12951, 山梨県 localOfficial 395)"
     }
   },
   "next": {
-    "code": "yamanashi-official-coverage-004",
-    "municipality": "身延町",
-    "shortlist": "山梨県公式棚卸し003は上野原市16件、甲州市16件、中央市2件、市川三郷町16件、早川町14件の計64件を採用した。トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補として保持する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、19365身延町を開始地点として山梨県公式棚卸し004を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "yamanashi-official-coverage-005",
+    "municipality": "西桂町",
+    "shortlist": "山梨県公式棚卸し004は身延町16件、南部町16件、富士川町16件、昭和町16件、道志村16件の計80件を採用した。トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補として保持する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、19423西桂町を開始地点として山梨県公式棚卸し005を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "山梨県",
     "status": "in-progress",
-    "lastBatch": "yamanashi-official-coverage-003",
-    "notes": "山梨県は19201甲府市から19364早川町まで自治体コード順に第1巡到達。全国公式棚卸しは未完了。次は19365身延町から継続する。"
+    "lastBatch": "yamanashi-official-coverage-004",
+    "notes": "山梨県は19201甲府市から19422道志村まで自治体コード順に第1巡到達。全国公式棚卸しは未完了。次は19423西桂町から継続する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

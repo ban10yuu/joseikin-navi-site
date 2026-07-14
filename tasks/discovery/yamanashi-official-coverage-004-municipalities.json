@@ -1,0 +1,32 @@
+{
+  "batchId": "yamanashi-official-coverage-004",
+  "prefecture": "山梨県",
+  "generatedAt": "2026-07-15T04:30:00+09:00",
+  "municipalities": [
+    {
+      "code": "19365",
+      "name": "身延町",
+      "officialBaseUrl": "https://www.town.minobu.lg.jp/"
+    },
+    {
+      "code": "19366",
+      "name": "南部町",
+      "officialBaseUrl": "https://www.town.nanbu.yamanashi.jp/"
+    },
+    {
+      "code": "19368",
+      "name": "富士川町",
+      "officialBaseUrl": "https://www.town.fujikawa.yamanashi.jp/"
+    },
+    {
+      "code": "19384",
+      "name": "昭和町",
+      "officialBaseUrl": "https://www.town.showa.yamanashi.jp/"
+    },
+    {
+      "code": "19422",
+      "name": "道志村",
+      "officialBaseUrl": "http://www.vill.doshi.lg.jp/"
+    }
+  ]
+}

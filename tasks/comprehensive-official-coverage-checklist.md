@@ -9437,3 +9437,45 @@
   - トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補に残す。
 - 次:
   - 山梨県公式棚卸し004として、19365身延町から自治体コード順に確認する。
+
+
+### 2026-07-15 山梨県公式棚卸し004（19365身延町・19366南部町・19368富士川町・19384昭和町・19422道志村）
+
+- 作業範囲:
+  - 19365 身延町、19366 南部町、19368 富士川町、19384 昭和町、19422 道志村の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 自治体別クロールで候補521件を取得した。shortlistが150件超かつcrawl候補の40%超だったため、候補本文スニペット502件を抽出し、アンカーテキスト起点の制度リード545件を再取得し、再スコア対象1047件を保存した。
+  - 採用対象の80公式ページは全件HTTP 200を確認した。
+- 採用:
+  - 合計80件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 身延町16件: 「帯状疱疹（たいじょうほうしん）」の定期予防接種（高齢者・任意）、インフルエンザ予防接種費用助成事業、ひとり親家庭医療費助成、給食費を全額補助しています、結婚祝金・出産祝金・就職奨励金の申請について、固定資産税の課税免除について（過疎地域の持続的発展の支援に関する特別措置法）、高齢者補聴器購入費助成金、子育て支援医療費助成、児童手当、児童扶養手当、身延町移住支援金の申請について、身延町集落敬老事業補助金、身延町奨学金返還支援事業補助金の申請について、身延町新婚・子育て世帯住宅取得等支援事業補助金の申請について、創業支援等事業費補助金、涼み処開放支援助成金交付事業について。
+  - 南部町16件: 「物価高対応子育て応援手当」及び「山梨物価高対応子育て応援特別給付金」の給付について、ひとり親家庭医療費助成制度について、移住支援金制度について、空き家バンク利用促進事業補助金、結婚・妊娠・共育て相談・支援プログラム補助金、子育て支援医療費助成金制度、児童手当について、児童手当の多子加算における申請について、児童扶養手当の支給について、浄化槽設置費補助金、生ごみ処理容器『コンポスト』の購入補助金について、太陽光発電システム設置費補助金について、特別児童扶養手当の支給について、南部町地域経済活性化対策支援補助金について、南部町竹林整備事業補助金について、南部町未利用間伐材等集材支援事業補助金について。
+  - 富士川町16件: 「消防団員準中型自動車免許等取得費補助金交付制度」について、「物価高対応子育て応援手当」「山梨物価高対応子育て応援特別給付金」のご案内、チャイルドシート等購入費補助金、下水道排水設備工事助成金制度、家庭用防犯カメラ設置費補助金制度をご活用ください、学校給食費無償化および学校給食費等補助金制度について、空き家改修費補助金、自転車用ヘルメット購入費補助金、住宅用太陽光発電システム補助金、浄化槽補助金制度、中山間地域等における住宅用地取得費補助金、病児・病後児保育広域利用料無償化事業補助金について、富士川町やまなしKAITEKI住宅普及促進事業費補助金について、富士川町移住支援金、富士川町結婚新生活支援事業補助金、富士川町子育て世帯住宅取得支援事業補助金。
+  - 昭和町16件: 「昭和町物価高騰対策支援金給付事業」のお知らせ、ごみ処理機具の購入費補助金制度、犬や猫の不妊・去勢手術補助金制度について(4月から飼い猫の助成金額が変わりました)、高齢者火災警報器設置助成金、高齢者補聴器購入費の助成、死亡一時金の受給要件と手続き、児童手当、児童扶養手当を受けるには、重度心身障害児・者介護人手当支給制度、昭和町産ブランド米の生産者に補助金があります、昭和町生分解性マルチ普及推進事業補助金、昭和町農景観整備事業補助金、障害児・者給付金支給制度、障害児福祉手当、特別障害者手当を受けるには、特別児童扶養手当について、物価高対応子育て応援手当について。
+  - 道志村16件: セーフティネット保証制度(中小企業信用保険法)、子育て世帯への臨時特別給付金について、新型コロナウィルス感染症関連（中小企業者向け）、造血幹細胞移植後予防接種支援事業、耐震改修事業の概要について、道志村すこやか子育て医療費助成金支給制度について、道志村移住定住支援制度のご紹介、道志村家庭用ポータル発電機当購入補助金について、道志村子育て支援パッケージ、道志村商工業振興資金等利子補給金、道志村創業支援事業について、道志村不妊治療費助成事業／不育症治療費助成事業、妊婦のための支援給付事業、妊婦健康診査・産婦健康診査受診票の交付、妊婦歯科健診、未熟児養育医療費助成事業。
+- 生成ファイル:
+  - `tasks/discovery/yamanashi-official-coverage-004-19365-municipality.json`
+  - `tasks/discovery/yamanashi-official-coverage-004-19366-municipality.json`
+  - `tasks/discovery/yamanashi-official-coverage-004-19368-municipality.json`
+  - `tasks/discovery/yamanashi-official-coverage-004-19384-municipality.json`
+  - `tasks/discovery/yamanashi-official-coverage-004-19422-municipality.json`
+  - `tasks/discovery/yamanashi-official-coverage-004-adopted-urls.json`
+  - `tasks/discovery/yamanashi-official-coverage-004-adoption-ranked.json`
+  - `tasks/discovery/yamanashi-official-coverage-004-candidates.json`
+  - `tasks/discovery/yamanashi-official-coverage-004-municipalities.json`
+  - `tasks/discovery/yamanashi-official-coverage-004-rescored-snippets.json`
+  - `tasks/discovery/yamanashi-official-coverage-004-snippets.json`
+  - `tasks/discovery/yamanashi-official-coverage-004-url-leads.json`
+  - `tasks/discovery/yamanashi-official-coverage-004.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（004関連JSON、checkpoint）。
+  - 追加slug重複: pass（80件、`verified-local-misc-2026.ts` 全体 duplicateCount 0）。
+  - 公式URL到達: pass（80 primary official URLsすべてHTTP 200）。
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 13071、officialLinkedActive 12951、manuallyVerifiedActive 12951、山梨県 localOfficial 395）。
+- 注意:
+  - 山梨県は19201甲府市から19422道志村まで第1巡に到達したが、全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は山梨県19422道志村到達のみで全国完了扱いしない。
+  - トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補に残す。
+- 次:
+  - 山梨県公式棚卸し005として、19423西桂町から自治体コード順に確認する。
