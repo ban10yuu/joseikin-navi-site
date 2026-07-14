@@ -9395,3 +9395,45 @@
   - トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補に残す。
 - 次:
   - 山梨県公式棚卸し003として、19212上野原市から自治体コード順に確認する。
+
+
+### 2026-07-15 山梨県公式棚卸し003（19212上野原市・19213甲州市・19214中央市・19346市川三郷町・19364早川町）
+
+- 作業範囲:
+  - 19212 上野原市、19213 甲州市、19214 中央市、19346 市川三郷町、19364 早川町の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 自治体別クロールで候補667件を取得した。shortlistが150件超かつcrawl候補の40%超だったため、候補本文スニペット667件を抽出し、アンカーテキスト起点の制度リード511件から500ページを再取得し、再スコア対象1167件を保存した。
+  - 採用対象の64公式ページは全件HTTP 200を確認した。
+- 採用:
+  - 合計64件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 上野原市16件: NHK放送受信料の減免について、ごみステーション設置費補助金について、さくらねこ無料不妊手術事業について、ひとり親家庭医療費助成事業のご案内、やまなしKAITEKI住宅普及促進事業費補助金のご案内、やまなし地域課題解決型起業支援金について、移住者住宅取得等補助事業について、医療技術者を目指す学生への修学資金貸付のご案内、過疎地域における固定資産税の課税免除のご案内、介護保険料の徴収猶予・減免等について、結婚新生活応援事業の実施について、固定資産税の減免について、後期高齢者医療一部負担金減免及び徴収猶予について、後期高齢者医療制度移行に伴う軽減・減免制度について、高齢者インフルエンザ予防接種について、高齢者外出支援事業のお知らせ。
+  - 甲州市16件: 「物価高対応子育て応援手当」及び「山梨物価高対応子育て応援特別給付金」について、【妊娠中の方へ】RSウイルス感染症予防接種費用助成について（令和８年４月１日〜）、０歳児から２歳児の保育料の無償化について（甲州市独自事業）、JR運賃の精神障害者割引制度の導入について、がん患者アピアランスケア助成金について、さくらねこ無料不妊手術事業について、移住支援事業補助金、ひとり親家庭医療費助成制度、介護予防のための補聴器購入費助成事業について、軽度・中等度難聴者補聴器購入費助成事業、産前産後期間における国民健康保険税の減免について、産婦健康診査、子ども医療費助成制度、児童手当、児童扶養手当、出産育児一時金。
+  - 中央市2件: 麻しん・風しん（MR）の定期予防接種を受けましょう、独自 「保育料の完全無料化」について（令和6年度4月から）。
+  - 市川三郷町16件: ごみ集積所設置費等補助金、ひとり親家庭医療費助成制度、後期高齢者医療保険制度、産前産後期間の国民健康保険料の免除について、子育て支援医療費助成金を受けるには、児童手当制度について、児童扶養手当制度について、自動車税・自動車取得税等の減免を受けるには、重度心身障害者医療費助成金について、障害者福祉手当について・特別障害者手当について、浄化槽について、精神障害者保険福祉手帳の交付・自立支援医療(精神通院医療)について、耐震化推進事業について、特別児童扶養手当について、妊婦健康診査について、不妊治療費助成制度について。
+  - 早川町14件: 「物価高対応子育て応援手当」及び「山梨物価高対応子育て応援特別給付金」、ひとり親家庭医療費、給食費無償化、高額な医療費がかかったときー高額療養費、高額に医療費を支払ったときー高額療養費、産前産後免除制度について、子育て支援医療費助成、児童手当、児童扶養手当、重度心身障がい者医療費助成、出産したときー出産育児一時金、猫の不妊・去勢手術費助成交付金、無料耐震診断、不妊・不育。
+- 生成ファイル:
+  - `tasks/discovery/yamanashi-official-coverage-003-19212-municipality.json`
+  - `tasks/discovery/yamanashi-official-coverage-003-19213-municipality.json`
+  - `tasks/discovery/yamanashi-official-coverage-003-19214-municipality.json`
+  - `tasks/discovery/yamanashi-official-coverage-003-19346-municipality.json`
+  - `tasks/discovery/yamanashi-official-coverage-003-19364-municipality.json`
+  - `tasks/discovery/yamanashi-official-coverage-003-adopted-urls.json`
+  - `tasks/discovery/yamanashi-official-coverage-003-adoption-ranked.json`
+  - `tasks/discovery/yamanashi-official-coverage-003-candidates.json`
+  - `tasks/discovery/yamanashi-official-coverage-003-municipalities.json`
+  - `tasks/discovery/yamanashi-official-coverage-003-rescored-snippets.json`
+  - `tasks/discovery/yamanashi-official-coverage-003-snippets.json`
+  - `tasks/discovery/yamanashi-official-coverage-003-url-leads.json`
+  - `tasks/discovery/yamanashi-official-coverage-003.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（003関連JSON、checkpoint）。
+  - 追加slug重複: pass（64件、`verified-local-misc-2026.ts` 全体 duplicateCount 0）。
+  - 公式URL到達: pass（64 primary official URLsすべてHTTP 200）。
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 12991、officialLinkedActive 12871、manuallyVerifiedActive 12871、山梨県 localOfficial 315）。
+- 注意:
+  - 山梨県は19201甲府市から19364早川町まで第1巡に到達したが、全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は山梨県19364早川町到達のみで全国完了扱いしない。
+  - トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補に残す。
+- 次:
+  - 山梨県公式棚卸し004として、19365身延町から自治体コード順に確認する。

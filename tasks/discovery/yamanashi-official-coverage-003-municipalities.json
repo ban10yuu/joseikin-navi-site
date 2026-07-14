@@ -1,0 +1,32 @@
+{
+  "batchId": "yamanashi-official-coverage-003",
+  "prefecture": "山梨県",
+  "generatedAt": "2026-07-15T04:05:00+09:00",
+  "municipalities": [
+    {
+      "code": "19212",
+      "name": "上野原市",
+      "officialBaseUrl": "https://www.city.uenohara.yamanashi.jp/"
+    },
+    {
+      "code": "19213",
+      "name": "甲州市",
+      "officialBaseUrl": "https://www.city.koshu.yamanashi.jp/"
+    },
+    {
+      "code": "19214",
+      "name": "中央市",
+      "officialBaseUrl": "https://www.city.chuo.yamanashi.jp/"
+    },
+    {
+      "code": "19346",
+      "name": "市川三郷町",
+      "officialBaseUrl": "https://www.town.ichikawamisato.yamanashi.jp/"
+    },
+    {
+      "code": "19364",
+      "name": "早川町",
+      "officialBaseUrl": "https://www.town.hayakawa.yamanashi.jp/"
+    }
+  ]
+}
