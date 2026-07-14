@@ -1,0 +1,3795 @@
+{
+  "batchId": "fukui-official-coverage-003",
+  "prefecture": "福井県",
+  "generatedAt": "2026-07-14T17:07:54.478Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 131,
+  "results": [
+    {
+      "code": "18404",
+      "name": "南越前町",
+      "officialBaseUrl": "https://www.town.minamiechizen.lg.jp/",
+      "discoveredUrlCount": 220,
+      "candidateCount": 131,
+      "strongCandidateCount": 0,
+      "lowPriorityCandidateCount": 131,
+      "candidates": [
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和9年4月1日",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和9年4月1日",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和6年3月1日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/112/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "免除",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月10日",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "免除",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/116/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "奨励金",
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/117/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "不妊"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/118/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/119/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/120/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/121/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/132/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/134/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/102/121/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/102/122/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "奨励金",
+            "住宅",
+            "事業者",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "通学"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/102/123/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/102/124/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/102/125/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/102/sinngata/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/103/126/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/103/tosyokan/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/103/bunka/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/103/128/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/103/129/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/104/norin_suisan/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "起業",
+            "農業",
+            "林業",
+            "水産"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/104/131/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "創業",
+            "事業者",
+            "水産",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/tyousei/701/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/tyousei/702/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/tyousei/704/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/tyousei/705/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/tyousei/706/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/tyousei/707/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/tyousei/708/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/tyousei/709/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/tyousei/711/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/tyousei/712/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/disaster/3069/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "支援金",
+            "減免",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/disaster/3070/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/disaster/3072/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/disaster/3073/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/izyu/jyuu/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/izyu/deai_konkatsuouen/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/izyu/cyoueijyuutakubunnjyou/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/izyu/akiyajyouhou/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/izyu/jyuutakuhojyokinn/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/izyu/zyutaku1/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/syozoku.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "水産",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/sitemap.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "水産",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/benri/803/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/102/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/103/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/104/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "水産",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/disaster/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "支援金",
+            "移住"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/izyu/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "空き家"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/tyousei/704/p002285.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年6月24日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/machi/p010608.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年1月21日",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/119/p004140.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年5月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/104/131/p004200.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2023年1月6日",
+          "keywordHits": [
+            "水産"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/tyoutyou/p011528.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/p011519.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "移住",
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/104/131/p011500.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年7月3日",
+          "keywordHits": [
+            "農業",
+            "水産"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/102/123/p002469.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年7月6日",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/news.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和9年4月1日",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "減免",
+            "免除",
+            "住宅",
+            "創業",
+            "起業",
+            "農業",
+            "福祉",
+            "子育て",
+            "不妊"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kouhou/r8/p011505.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年6月25日",
+          "keywordHits": [
+            "医療費助成",
+            "移住"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "水産",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p001239.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2023年2月15日",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p001242.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年10月16日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p010247.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年2月4日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p010754.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2024年12月2日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p010472.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2023年3月1日",
+          "keywordHits": [
+            "減免",
+            "免除",
+            "医療費助成"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p010490.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2024年3月25日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p003563.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2024年12月2日",
+          "keywordHits": [
+            "減免",
+            "農業"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p001727.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年5月15日",
+          "keywordHits": [
+            "減免",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p001494.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年5月15日",
+          "keywordHits": [
+            "支援金",
+            "減免",
+            "免除",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p002949.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年2月17日",
+          "keywordHits": [
+            "一時金",
+            "減免"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p002798.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年2月27日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p001225.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年5月15日",
+          "keywordHits": [
+            "減免",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/112/p004107.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2022年9月2日",
+          "keywordHits": [
+            "減免",
+            "住宅"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/112/p004048.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2022年9月2日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p011407.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年5月8日",
+          "keywordHits": [
+            "減免",
+            "免除",
+            "福祉"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p011406.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年5月8日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p001837.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "水産",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p011402.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p011401.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "貸付"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p003796.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "免除",
+            "水産"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p010988.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年5月1日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p010319.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2024年4月1日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p004106.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2023年1月11日",
+          "keywordHits": [
+            "減免",
+            "住宅"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p001896.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2022年7月11日",
+          "keywordHits": [
+            "免除",
+            "住宅",
+            "耐震"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p003987.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年12月22日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011322.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年6月1日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p010366.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "移住",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011411.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年4月11日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011382.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年3月23日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p003559.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2024年4月1日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p003185.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年3月25日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p003430.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年6月5日",
+          "keywordHits": [
+            "給付金",
+            "医療費助成",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p003429.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年6月5日",
+          "keywordHits": [
+            "給付金",
+            "医療費助成",
+            "予防接種"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p001998.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年6月5日",
+          "keywordHits": [
+            "助成金",
+            "給付金",
+            "医療費助成"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/102/122/p003476.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年3月27日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p002021.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年5月25日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p002358.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/bousai/203/p001252.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2024年7月24日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/bousai/203/p001254.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2023年11月28日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/102/122/p001363.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/102/122/p001384.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2022年11月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/102/122/p001364.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "減免",
+            "免除",
+            "福祉"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p001270.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2013年3月11日",
+          "keywordHits": [
+            "福祉",
+            "耐震"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/kakusyusoudan/p011218.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/kakusyusoudan/p001711.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p011314.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年1月23日",
+          "keywordHits": [
+            "免除",
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001041.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2019年10月1日",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001034.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2013年1月24日",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001035.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2013年1月24日",
+          "keywordHits": [
+            "免除",
+            "住宅"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001032.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2019年10月1日",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p002671.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2018年3月28日",
+          "keywordHits": [
+            "免除",
+            "農業"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001039.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2013年1月24日",
+          "keywordHits": [
+            "減免",
+            "免除"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001038.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2013年1月24日",
+          "keywordHits": [
+            "減免",
+            "免除"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001036.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2013年4月1日",
+          "keywordHits": [
+            "減免",
+            "免除"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p002048.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "免除",
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001045.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2013年1月28日",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001044.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2013年4月1日",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p011143.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年8月20日",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p003030.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2019年7月25日",
+          "keywordHits": [
+            "免除",
+            "耐震"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p002177.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2016年2月26日",
+          "keywordHits": [
+            "免除",
+            "農業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p002410.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2017年3月31日",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18404",
+          "municipalityName": "南越前町",
+          "sourceUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p003465.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2020年12月21日",
+          "keywordHits": [
+            "免除",
+            "農業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/toplink/901/news.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/toplink/901/news.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/topics.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/topics.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/news.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/news.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/event/news.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/event/news.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/112/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/112/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/kakusyusoudan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/kakusyusoudan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/116/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/116/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/117/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/117/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/118/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/118/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/119/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/119/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/120/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/120/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/121/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/121/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/132/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/132/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/134/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/134/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/kankonsousai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/kankonsousai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/hikkoshi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/hikkoshi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/102/121/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/102/121/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/102/122/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/102/122/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/102/123/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/102/123/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/102/124/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/102/124/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/102/125/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/102/125/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/102/sinngata/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/102/sinngata/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/103/125/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/103/125/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/103/126/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/103/126/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/103/tosyokan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/103/tosyokan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/103/bunka/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/103/bunka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/103/128/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/103/128/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/103/129/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/103/129/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/104/norin_suisan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/104/norin_suisan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/104/131/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/104/131/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/tyousei/701/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/tyousei/701/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/tyousei/702/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/tyousei/702/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/tyousei/704/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/tyousei/704/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/tyousei/705/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/tyousei/705/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/tyousei/706/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/tyousei/706/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/tyousei/707/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/tyousei/707/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/tyousei/708/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/tyousei/708/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/tyousei/709/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/tyousei/709/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/tyousei/711/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/tyousei/711/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/tyousei/712/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/tyousei/712/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/disaster/3069/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/disaster/3069/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/disaster/3070/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/disaster/3070/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/disaster/3072/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/disaster/3072/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/disaster/3073/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/disaster/3073/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/izyu/jyuu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/izyu/jyuu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/izyu/deai_konkatsuouen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/izyu/deai_konkatsuouen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/izyu/cyoueijyuutakubunnjyou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/izyu/cyoueijyuutakubunnjyou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/izyu/akiyajyouhou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/izyu/akiyajyouhou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/izyu/jyuutakuhojyokinn/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/izyu/jyuutakuhojyokinn/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/izyu/zyutaku1/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/izyu/zyutaku1/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/syozoku.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/syozoku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/benri/803/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/benri/803/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/inquiry/mailform1001.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/inquiry/mailform1001.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/toplink/kanrisyasagyouyou/p010035.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/toplink/kanrisyasagyouyou/p010035.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/toplink/kanrisyasagyouyou/p010034.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/toplink/kanrisyasagyouyou/p010034.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/102/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/102/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/103/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/103/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/104/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/104/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/tyousei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/tyousei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/disaster/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/disaster/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/izyu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/izyu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/tyousei/704/p002285.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/tyousei/704/p002285.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/machi/p010608.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/machi/p010608.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/tyousei/711/p011488.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/tyousei/711/p011488.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/119/p004140.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/119/p004140.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/104/131/p004200.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/104/131/p004200.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/tyoutyou/p011528.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/tyoutyou/p011528.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/p011519.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/p011519.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/103/bunka/p011472.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/103/bunka/p011472.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011522.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011522.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/104/131/p011500.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/104/131/p011500.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/kakusyusoudan/p011518.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/kakusyusoudan/p011518.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/tyousei/708/p003110.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/tyousei/708/p003110.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/tyousei/708/p011527.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/tyousei/708/p011527.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/tyousei/708/p011526.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/tyousei/708/p011526.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p004220.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p004220.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/120/p011525.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/120/p011525.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/102/123/p002469.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/102/123/p002469.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/news.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/news.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/bousai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/bousai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/bousai/201/p003890.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/bousai/201/p003890.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/machi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/machi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/tyougikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/tyougikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kouhou/r8/p011505.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kouhou/r8/p011505.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/toplink/kanrisyasagyouyou/p001211.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/toplink/kanrisyasagyouyou/p001211.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/toplink/kanrisyasagyouyou/p002300.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/toplink/kanrisyasagyouyou/p002300.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/toplink/kanrisyasagyouyou/p001210.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/toplink/kanrisyasagyouyou/p001210.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/toplink/kanrisyasagyouyou/p000011.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/toplink/kanrisyasagyouyou/p000011.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/toplink/kanrisyasagyouyou/p010115.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/toplink/kanrisyasagyouyou/p010115.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p011515.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p011515.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p010211.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p010211.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p003359.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p003359.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p011235.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p011235.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p011300.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p011300.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p004204.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p004204.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p010802.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p010802.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p010474.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p010474.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p010469.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p010469.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p004236.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p004236.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p004229.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p004229.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p002482.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p002482.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p003287.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p003287.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p002738.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p002738.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p002424.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p002424.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p001240.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p001240.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p001245.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p001245.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p001239.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p001239.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p001242.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/110/p001242.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p010247.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p010247.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p010754.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p010754.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p010472.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p010472.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p010490.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p010490.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p003563.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p003563.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p001727.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p001727.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p001494.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p001494.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p002949.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p002949.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p002798.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p002798.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p001225.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/111/p001225.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/112/p004107.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/112/p004107.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/112/p004048.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/112/p004048.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p011477.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p011477.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p011407.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p011407.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p011406.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p011406.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p001837.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p001837.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p011402.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p011402.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p011401.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p011401.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p011400.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p011400.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p011399.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p011399.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p003796.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p003796.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p011379.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p011379.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p003104.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p003104.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p010988.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p010988.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p010319.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p010319.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p010368.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p010368.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p004256.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p004256.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p004106.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p004106.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p001893.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p001893.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p001896.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p001896.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p002051.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p002051.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p003957.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p003957.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p003987.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p003987.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p001227.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/113/p001227.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011530.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011530.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011506.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011506.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011491.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011491.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011322.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011322.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011460.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011460.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011434.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011434.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p010366.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p010366.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011419.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011419.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011411.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011411.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011382.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011382.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011383.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011383.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011366.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011366.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011353.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011353.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011334.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011334.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011318.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011318.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011302.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011302.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011292.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011292.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011272.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011272.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011253.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011253.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011241.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011241.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011228.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011228.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011214.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011214.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011196.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011196.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011184.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011184.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011159.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011159.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011146.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011146.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011129.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011129.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011118.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p011118.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p010118.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p010118.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p003559.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p003559.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p003185.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p003185.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p003430.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p003430.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p003429.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p003429.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p001998.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p001998.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/102/122/p003476.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/102/122/p003476.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p002021.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p002021.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p002358.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p002358.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/bousai/203/p001252.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/bousai/203/p001252.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/bousai/203/p001254.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/bousai/203/p001254.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/102/122/p001363.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/102/122/p001363.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/102/122/p001384.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/102/122/p001384.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/102/122/p001364.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/102/122/p001364.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p001270.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/114/p001270.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/kakusyusoudan/p011218.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/kakusyusoudan/p011218.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/kakusyusoudan/p010488.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/kakusyusoudan/p010488.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/kakusyusoudan/p010336.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/kakusyusoudan/p010336.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/kakusyusoudan/p001711.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/kakusyusoudan/p001711.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/kakusyusoudan/p003682.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/kakusyusoudan/p003682.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p011314.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p011314.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001041.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001041.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001034.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001034.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001035.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001035.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001032.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001032.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p002671.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p002671.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001039.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001039.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001038.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001038.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001036.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001036.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p002048.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p002048.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001045.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001045.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001044.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p001044.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p011143.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p011143.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p003030.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p003030.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p002177.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p002177.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p002410.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p002410.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p003465.html",
+          "status": 200,
+          "finalUrl": "https://www.town.minamiechizen.lg.jp/kurasi/101/115/p003465.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

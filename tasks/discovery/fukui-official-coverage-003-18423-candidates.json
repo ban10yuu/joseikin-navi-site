@@ -1,0 +1,4982 @@
+{
+  "batchId": "fukui-official-coverage-003",
+  "prefecture": "福井県",
+  "generatedAt": "2026-07-14T17:07:51.025Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 204,
+  "results": [
+    {
+      "code": "18423",
+      "name": "越前町",
+      "officialBaseUrl": "https://www.town.echizen.fukui.jp/",
+      "discoveredUrlCount": 220,
+      "candidateCount": 204,
+      "strongCandidateCount": 0,
+      "lowPriorityCandidateCount": 204,
+      "candidates": [
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和9年4月1日",
+          "keywordHits": [
+            "移住",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和9年4月1日",
+          "keywordHits": [
+            "移住",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/soshiki.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "水産",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/event/01/p009985.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年6月15日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/event/01/p009938.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "事業者",
+            "水産"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kurashi/04/04/p003813.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月13日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/chousei/14/01/p009995.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和9年4月1日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/chousei/05/01/04/p010030.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kurashi/09/01/p010011.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "創業",
+            "起業",
+            "事業者"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/chousei/09/002/p009090.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/event/01/p009948.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年6月30日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kourei/02/01/p010029.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年6月25日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/chousei/07/p009964.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年6月23日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/event/02/p009936.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年6月22日",
+          "keywordHits": [
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/attention.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kurashi/04/06/p010051.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月9日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "事業者"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kourei/02/05/p004154.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月8日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/chousei/05/01/01/p010033.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/chousei/05/01/05/p010042.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "事業者",
+            "水産"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kodomo/03/07/p010017.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/news.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和9年4月1日",
+          "keywordHits": [
+            "移住",
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/event/01/p009863.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年4月9日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/event/01/p009925.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年5月26日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/event/02/p009996.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年6月15日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/event/event.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kurashi/05/01/p009962.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年6月5日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kurashi/04/07/p007529.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "支援金",
+            "移住",
+            "住宅",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/chousei/01/5/p009937.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年3月30日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/korona/sien/p009688.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年1月29日",
+          "keywordHits": [
+            "給付金",
+            "免除",
+            "事業者"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kurashi/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "移住",
+            "空き家",
+            "事業者",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kodomo/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kourei/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/jigyou/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和5年4月1日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "奨励金",
+            "創業",
+            "起業",
+            "事業者",
+            "農業",
+            "水産"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/chousei/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "空き家",
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kurashi/01/06/bousai-musen/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/jigyou/03/p005877.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月13日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "水産",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/konnatoki/01/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "一時金",
+            "医療費助成",
+            "事業者",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/konnatoki/02/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/konnatoki/03/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "事業者",
+            "不妊"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/konnatoki/04/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/konnatoki/05/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/konnatoki/06/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "奨励金",
+            "移住",
+            "事業者",
+            "水産",
+            "福祉",
+            "奨学金"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/konnatoki/07/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/konnatoki/08/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kurashi/01/06/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和3年7月29日",
+          "keywordHits": [
+            "補助金",
+            "事業者"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kurashi/01/01/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/chousei/05/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/chousei/03/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/chousei/04/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kurashi/03/01/09/p004018.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和6年2月14日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kurashi/04/04/p005188.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和4年4月4日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kurashi/04/04/p007278.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和7年12月3日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kurashi/04/09/p004049.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年6月29日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "事業者"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "http://www.town.echizen.fukui.jp/kurashi/10/02/p007532.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "http://www.town.echizen.fukui.jp/chousei/houdoukannkeisiryou/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "http://www.town.echizen.fukui.jp/chousei/goiken/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/chousei/05/03/p005532.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和6年9月30日",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/chousei/05/03/p005171.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和6年2月1日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/chousei/05/04/p001990.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和4年1月12日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform000000.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/sitemap.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和5年4月1日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "奨励金",
+            "医療費助成",
+            "移住",
+            "住宅",
+            "空き家",
+            "創業",
+            "起業",
+            "事業者",
+            "農業",
+            "水産",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/chousei/05/03/p005025.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "平成29年3月31日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/chousei/05/03/p005026.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "平成29年3月31日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/shisetsu/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "事業者",
+            "水産",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/810020/810020/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform810020.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/840021/820111/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820111.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/840021/820111/820447/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820447.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/840021/820111/840111/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform840021.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/840021/820111/840022/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform840022.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/840021/820419/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820419.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/840021/820453/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820453.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/840021/820112/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820112.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/840021/820112/820440/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820440.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/840021/820112/820412/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/840021/820113/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820113.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/820200/820121/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820121.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/820200/820121/820429/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "一時金",
+            "免除",
+            "住宅",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820429.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/820200/820121/820431/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "一時金",
+            "免除",
+            "住宅",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820431.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/820200/820121/820433/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "一時金",
+            "免除",
+            "住宅",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820433.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/820200/820398/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820398.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/820200/820398/820446/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820446.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/820200/820452/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820452.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/820200/820451/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820451.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/820200/820451/820382/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820382.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/820200/820122/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820122.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/820300/820131/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "事業者",
+            "農業",
+            "林業",
+            "水産"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820131.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/820300/820131/860023/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "水産"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform860023.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/820300/820132/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "起業",
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820132.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/820400/820141/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820141.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/820400/820444/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820444.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/820400/820142/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820142.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/820600/820114/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820114.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/820600/820114/870024/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/820500/820185/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820185.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/830000/830191/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "就学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform830191.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/830000/830191/kyoikuseisakusuisin/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/830000/830191/830326/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform830326.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/830000/830192/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform830192.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/830000/830192/830435/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform830435.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/dept/830000/830438/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform830438.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "http://www.town.echizen.fukui.jp/event/01/p009985.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年6月15日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820431_11001.html?PAGE_NO=9985",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/enquete/e000002.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "平成29年3月31日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "http://www.town.echizen.fukui.jp/event/01/p009938.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "事業者",
+            "水産"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p009938_d/fil/leaflet_ura.pdf",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p009938_d/fil/leaflet_omote.pdf",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820132.html?PAGE_NO=9938",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kurashi/04/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "事業者"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kurashi/04/04/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "空き家",
+            "事業者",
+            "通学"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "http://www.town.echizen.fukui.jp/kurashi/04/04/p003813.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月13日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p003813_d/fil/application.doc",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820112.html?PAGE_NO=3813",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/chousei/14/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/chousei/14/01/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和9年4月1日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "http://www.town.echizen.fukui.jp/chousei/14/01/p009995.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和9年4月1日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p009995_d/fil/20260706.pdf",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820111.html?PAGE_NO=9995",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/chousei/05/01/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/chousei/05/01/04/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "http://www.town.echizen.fukui.jp/chousei/05/01/04/p010030.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p010030_d/fil/2026natsu.pdf",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820446.html?PAGE_NO=10030",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kurashi/09/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kurashi/09/01/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "通学"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "http://www.town.echizen.fukui.jp/kurashi/09/01/p010011.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "創業",
+            "起業",
+            "事業者"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p010011_d/fil/bosyuuyoukou.pdf",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p010011_d/fil/heimenzu.pdf",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p010011_d/fil/chuubousetubizu.pdf",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p010011_d/fil/cafeshasin.pdf",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p010011_d/fil/mousikomi.docx",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p010011_d/fil/sinseisyo.docx",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p010011_d/fil/rirekisyo.docx",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p010011_d/fil/seiyakusyo.docx",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820112.html?PAGE_NO=10011",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/chousei/09/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/chousei/09/002/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "http://www.town.echizen.fukui.jp/chousei/09/002/p009090.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820121.html?PAGE_NO=9090",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "http://www.town.echizen.fukui.jp/event/01/p009948.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年6月30日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kourei/02/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kourei/02/01/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "http://www.town.echizen.fukui.jp/kourei/02/01/p010029.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年6月25日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820382.html?PAGE_NO=10029",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/chousei/07/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "http://www.town.echizen.fukui.jp/chousei/07/p009964.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年6月23日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p009964_d/fil/hyogo1.pdf",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p009964_d/fil/hyogo2.pdf",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820111.html?PAGE_NO=9964",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "http://www.town.echizen.fukui.jp/event/02/p009936.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年6月22日",
+          "keywordHits": [
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p009936_d/fil/omote.pdf",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p009936_d/fil/ura.pdf",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform830192.html?PAGE_NO=9936",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/attention202510.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/attention202304.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/attention202203.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/attention202111.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kurashi/04/06/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "奨励金",
+            "移住",
+            "空き家",
+            "空家",
+            "事業者"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "http://www.town.echizen.fukui.jp/kurashi/04/06/p010051.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月9日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "事業者"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820444.html?PAGE_NO=10051",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/kourei/02/05/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "http://www.town.echizen.fukui.jp/kourei/02/05/p004154.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月8日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/20250501houmonlist.pdf",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/20250501tsuusyolist.pdf",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/202606servicecode.pdf",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/202504servicecode.pdf",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/202406servicecode.pdf",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/202404kaitei.pdf",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/202404servicecode.pdf",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/R4_servicecode.pdf",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/housyukaiteiichiran.pdf",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18423",
+          "municipalityName": "越前町",
+          "sourceUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/R3_servicecode.pdf",
+          "status": 404,
+          "title": "Not Found",
+          "h1": "Not Found",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=iso-8859-1",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.town.echizen.fukui.jp/",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/soshiki.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/soshiki.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/event/01/p009985.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/event/01/p009985.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/event/01/p009938.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/event/01/p009938.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kurashi/04/04/p003813.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kurashi/04/04/p003813.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/chousei/14/01/p009995.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/chousei/14/01/p009995.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/chousei/05/01/04/p010030.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/chousei/05/01/04/p010030.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kurashi/09/01/p010011.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kurashi/09/01/p010011.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/chousei/09/002/p009090.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/chousei/09/002/p009090.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/event/01/p009948.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/event/01/p009948.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kourei/02/01/p010029.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kourei/02/01/p010029.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/chousei/07/p009964.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/chousei/07/p009964.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/event/02/p009936.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/event/02/p009936.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/attention.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/attention.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kurashi/04/06/p010051.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kurashi/04/06/p010051.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kourei/02/05/p004154.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kourei/02/05/p004154.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/chousei/05/01/01/p010033.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/chousei/05/01/01/p010033.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/chousei/05/01/05/p010042.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/chousei/05/01/05/p010042.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kodomo/03/07/p010017.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kodomo/03/07/p010017.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/news.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/news.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/news.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/news.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/event/01/p009863.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/event/01/p009863.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/event/01/p009925.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/event/01/p009925.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/event/02/p009996.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/event/02/p009996.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/event/event.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/event/event.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kurashi/05/01/p009962.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kurashi/05/01/p009962.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kurashi/04/07/p007529.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kurashi/04/07/p007529.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/chousei/01/5/p009937.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/chousei/01/5/p009937.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/korona/sien/p009688.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/korona/sien/p009688.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kurashi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kurashi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kodomo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kodomo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kourei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kourei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/jigyou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/jigyou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/chousei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/chousei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/otabunreki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/otabunreki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kurashi/01/06/bousai-musen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kurashi/01/06/bousai-musen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/jigyou/03/p005877.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/jigyou/03/p005877.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/konnatoki/01/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/konnatoki/01/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/konnatoki/02/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/konnatoki/02/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/konnatoki/03/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/konnatoki/03/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/konnatoki/04/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/konnatoki/04/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/konnatoki/05/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/konnatoki/05/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/konnatoki/06/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/konnatoki/06/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/konnatoki/07/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/konnatoki/07/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/konnatoki/08/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/konnatoki/08/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kurashi/01/06/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kurashi/01/06/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kurashi/01/01/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kurashi/01/01/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/chousei/05/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/chousei/05/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/chousei/03/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/chousei/03/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/chousei/04/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/chousei/04/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kurashi/03/01/09/p004018.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kurashi/03/01/09/p004018.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kurashi/04/04/p005188.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kurashi/04/04/p005188.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kurashi/04/04/p007278.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kurashi/04/04/p007278.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kurashi/04/09/p004049.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kurashi/04/09/p004049.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.echizen.fukui.jp/kurashi/10/02/p007532.html",
+          "status": 200,
+          "finalUrl": "http://www.town.echizen.fukui.jp/kurashi/10/02/p007532.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.echizen.fukui.jp/chousei/houdoukannkeisiryou/index.html",
+          "status": 200,
+          "finalUrl": "http://www.town.echizen.fukui.jp/chousei/houdoukannkeisiryou/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.echizen.fukui.jp/chousei/goiken/index.html",
+          "status": 200,
+          "finalUrl": "http://www.town.echizen.fukui.jp/chousei/goiken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/chousei/05/03/p005532.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/chousei/05/03/p005532.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/chousei/05/03/p005171.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/chousei/05/03/p005171.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/chousei/05/04/p001990.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/chousei/05/04/p001990.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform000000.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform000000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/chousei/05/03/p005025.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/chousei/05/03/p005025.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/chousei/05/03/p005026.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/chousei/05/03/p005026.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/shisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/shisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/810020/810020/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/810020/810020/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform810020.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform810020.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/840021/820111/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/840021/820111/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820111.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820111.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/840021/820111/820447/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/840021/820111/820447/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820447.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820447.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/840021/820111/840111/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/840021/820111/840111/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform840021.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform840021.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/840021/820111/840022/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/840021/820111/840022/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform840022.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform840022.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/840021/820419/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/840021/820419/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820419.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820419.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/840021/820453/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/840021/820453/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820453.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820453.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/840021/820112/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/840021/820112/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820112.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820112.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/840021/820112/820440/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/840021/820112/820440/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820440.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820440.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/840021/820112/820412/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/840021/820112/820412/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820412.html",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820412.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/840021/820113/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/840021/820113/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820113.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820113.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/820200/820121/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/820200/820121/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820121.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820121.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/820200/820121/820429/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/820200/820121/820429/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820429.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820429.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/820200/820121/820431/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/820200/820121/820431/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820431.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820431.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/820200/820121/820433/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/820200/820121/820433/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820433.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820433.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/820200/820398/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/820200/820398/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820398.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820398.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/820200/820398/820446/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/820200/820398/820446/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820446.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820446.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/820200/820452/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/820200/820452/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820452.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820452.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/820200/820451/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/820200/820451/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820451.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820451.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/820200/820451/820382/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/820200/820451/820382/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820382.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820382.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/820200/820122/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/820200/820122/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820122.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820122.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/820300/820131/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/820300/820131/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820131.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820131.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/820300/820131/860023/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/820300/820131/860023/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform860023.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform860023.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/820300/820132/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/820300/820132/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820132.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820132.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/820400/820141/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/820400/820141/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820141.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820141.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/820400/820444/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/820400/820444/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820444.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820444.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/820400/820142/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/820400/820142/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820142.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820142.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/820600/820114/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/820600/820114/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820114.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820114.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/820600/820114/870024/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/820600/820114/870024/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform870024.html",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform870024.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/820500/820185/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/820500/820185/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820185.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820185.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/830000/830191/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/830000/830191/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform830191.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform830191.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/830000/830191/kyoikuseisakusuisin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/830000/830191/kyoikuseisakusuisin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform830310.html",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform830310.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/830000/830191/830326/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/830000/830191/830326/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform830326.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform830326.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/830000/830192/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/830000/830192/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform830192.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform830192.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/830000/830192/830435/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/830000/830192/830435/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform830435.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform830435.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/dept/830000/830438/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/dept/830000/830438/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform830438.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform830438.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.echizen.fukui.jp/event/01/p009985.html",
+          "status": 200,
+          "finalUrl": "http://www.town.echizen.fukui.jp/event/01/p009985.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820431_11001.html?PAGE_NO=9985",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820431_11001.html?PAGE_NO=9985",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/enquete/e000002.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/enquete/e000002.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.echizen.fukui.jp/event/01/p009938.html",
+          "status": 200,
+          "finalUrl": "http://www.town.echizen.fukui.jp/event/01/p009938.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p009938_d/fil/leaflet_ura.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p009938_d/fil/leaflet_ura.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p009938_d/fil/leaflet_omote.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p009938_d/fil/leaflet_omote.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820132.html?PAGE_NO=9938",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820132.html?PAGE_NO=9938",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kurashi/04/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kurashi/04/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kurashi/04/04/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kurashi/04/04/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.echizen.fukui.jp/kurashi/04/04/p003813.html",
+          "status": 200,
+          "finalUrl": "http://www.town.echizen.fukui.jp/kurashi/04/04/p003813.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p003813_d/fil/application.doc",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p003813_d/fil/application.doc",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820112.html?PAGE_NO=3813",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820112.html?PAGE_NO=3813",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/chousei/14/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/chousei/14/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/chousei/14/01/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/chousei/14/01/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.echizen.fukui.jp/chousei/14/01/p009995.html",
+          "status": 200,
+          "finalUrl": "http://www.town.echizen.fukui.jp/chousei/14/01/p009995.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p009995_d/fil/20260706.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p009995_d/fil/20260706.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820111.html?PAGE_NO=9995",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820111.html?PAGE_NO=9995",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/chousei/05/01/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/chousei/05/01/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/chousei/05/01/04/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/chousei/05/01/04/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.echizen.fukui.jp/chousei/05/01/04/p010030.html",
+          "status": 200,
+          "finalUrl": "http://www.town.echizen.fukui.jp/chousei/05/01/04/p010030.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p010030_d/fil/2026natsu.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p010030_d/fil/2026natsu.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820446.html?PAGE_NO=10030",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820446.html?PAGE_NO=10030",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kurashi/09/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kurashi/09/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kurashi/09/01/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kurashi/09/01/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.echizen.fukui.jp/kurashi/09/01/p010011.html",
+          "status": 200,
+          "finalUrl": "http://www.town.echizen.fukui.jp/kurashi/09/01/p010011.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p010011_d/fil/bosyuuyoukou.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p010011_d/fil/bosyuuyoukou.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p010011_d/fil/heimenzu.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p010011_d/fil/heimenzu.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p010011_d/fil/chuubousetubizu.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p010011_d/fil/chuubousetubizu.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p010011_d/fil/cafeshasin.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p010011_d/fil/cafeshasin.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p010011_d/fil/mousikomi.docx",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p010011_d/fil/mousikomi.docx",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p010011_d/fil/sinseisyo.docx",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p010011_d/fil/sinseisyo.docx",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p010011_d/fil/rirekisyo.docx",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p010011_d/fil/rirekisyo.docx",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p010011_d/fil/seiyakusyo.docx",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p010011_d/fil/seiyakusyo.docx",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820112.html?PAGE_NO=10011",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820112.html?PAGE_NO=10011",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/chousei/09/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/chousei/09/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/chousei/09/002/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/chousei/09/002/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.echizen.fukui.jp/chousei/09/002/p009090.html",
+          "status": 200,
+          "finalUrl": "http://www.town.echizen.fukui.jp/chousei/09/002/p009090.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820121.html?PAGE_NO=9090",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820121.html?PAGE_NO=9090",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.echizen.fukui.jp/event/01/p009948.html",
+          "status": 200,
+          "finalUrl": "http://www.town.echizen.fukui.jp/event/01/p009948.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kourei/02/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kourei/02/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kourei/02/01/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kourei/02/01/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.echizen.fukui.jp/kourei/02/01/p010029.html",
+          "status": 200,
+          "finalUrl": "http://www.town.echizen.fukui.jp/kourei/02/01/p010029.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820382.html?PAGE_NO=10029",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820382.html?PAGE_NO=10029",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/chousei/07/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/chousei/07/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.echizen.fukui.jp/chousei/07/p009964.html",
+          "status": 200,
+          "finalUrl": "http://www.town.echizen.fukui.jp/chousei/07/p009964.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p009964_d/fil/hyogo1.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p009964_d/fil/hyogo1.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p009964_d/fil/hyogo2.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p009964_d/fil/hyogo2.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820111.html?PAGE_NO=9964",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820111.html?PAGE_NO=9964",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.echizen.fukui.jp/event/02/p009936.html",
+          "status": 200,
+          "finalUrl": "http://www.town.echizen.fukui.jp/event/02/p009936.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/midori-tanka/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/midori-tanka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p009936_d/fil/omote.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p009936_d/fil/omote.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p009936_d/fil/ura.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p009936_d/fil/ura.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform830192.html?PAGE_NO=9936",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform830192.html?PAGE_NO=9936",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/attention202510.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/attention202510.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/attention202304.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/attention202304.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/attention202203.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/attention202203.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/attention202111.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/attention202111.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kurashi/04/06/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kurashi/04/06/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.echizen.fukui.jp/kurashi/04/06/p010051.html",
+          "status": 200,
+          "finalUrl": "http://www.town.echizen.fukui.jp/kurashi/04/06/p010051.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/inquiry/mailform820444.html?PAGE_NO=10051",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/inquiry/mailform820444.html?PAGE_NO=10051",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/kourei/02/05/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.echizen.fukui.jp/kourei/02/05/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.echizen.fukui.jp/kourei/02/05/p004154.html",
+          "status": 200,
+          "finalUrl": "http://www.town.echizen.fukui.jp/kourei/02/05/p004154.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p004154_d/fil/20250501houmonlist.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/20250501houmonlist.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p004154_d/fil/20250501tsuusyolist.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/20250501tsuusyolist.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p004154_d/fil/202606servicecode.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/202606servicecode.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p004154_d/fil/G240P22C_202606.csv",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/G240P22C_202606.csv",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p004154_d/fil/G240P22C_202606_0.csv",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/G240P22C_202606_0.csv",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p004154_d/fil/202504servicecode.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/202504servicecode.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p004154_d/fil/G240P22C_202504.csv",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/G240P22C_202504.csv",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p004154_d/fil/G240P22C_202504_0.csv",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/G240P22C_202504_0.csv",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p004154_d/fil/202406servicecode.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/202406servicecode.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p004154_d/fil/G240P22C_202406.csv",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/G240P22C_202406.csv",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p004154_d/fil/202404kaitei.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/202404kaitei.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p004154_d/fil/202404servicecode.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/202404servicecode.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p004154_d/fil/G240P22C_202404.csv",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/G240P22C_202404.csv",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p004154_d/fil/R4_servicecode.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/R4_servicecode.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p004154_d/fil/G240P22C.csv",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/G240P22C.csv",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p004154_d/fil/housyukaiteiichiran.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/housyukaiteiichiran.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.echizen.fukui.jp/p004154_d/fil/R3_servicecode.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.echizen.fukui.jp/p004154_d/fil/R3_servicecode.pdf",
+          "ok": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5231 @@
+{
+  "batchId": "fukui-official-coverage-003",
+  "prefecture": "福井県",
+  "generatedAt": "2026-07-14T17:08:21.596Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 197,
+  "results": [
+    {
+      "code": "18442",
+      "name": "美浜町",
+      "officialBaseUrl": "https://www.town.fukui-mihama.lg.jp/",
+      "discoveredUrlCount": 220,
+      "candidateCount": 197,
+      "strongCandidateCount": 2,
+      "lowPriorityCandidateCount": 195,
+      "candidates": [
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和9年4月1日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/robots.txt",
+          "status": 404,
+          "title": "お探しのページを見つけることができませんでした。",
+          "h1": "お探しのページを見つけることができませんでした。",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3310.html",
+          "status": 200,
+          "title": "美浜町ソーシャルメディア公式アカウント",
+          "h1": "美浜町ソーシャルメディア公式アカウント",
+          "updatedAt": "2026年4月21日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3430.html",
+          "status": 200,
+          "title": "初めての方へ",
+          "h1": "初めての方へ",
+          "updatedAt": "2021年2月24日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3437.html",
+          "status": 200,
+          "title": "外国語の対応",
+          "h1": "外国語の対応",
+          "updatedAt": "2021年2月24日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/37/136.html",
+          "status": 200,
+          "title": "休日当番医",
+          "h1": "休日当番医",
+          "updatedAt": "2026年5月20日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/",
+          "status": 200,
+          "title": "ごみ情報",
+          "h1": "ごみ情報",
+          "updatedAt": "2021年2月9日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/ques/questionnaire.php?openid=2&check",
+          "status": 200,
+          "title": "美し・ふるさとご意見箱・ご意見メール",
+          "h1": "美し・ふるさとご意見箱・ご意見メール",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/14681.html",
+          "status": 200,
+          "title": "美浜町ＬＩＮＥ公式アカウントを開設しました！",
+          "h1": "美浜町ＬＩＮＥ公式アカウントを開設しました！",
+          "updatedAt": "2026年1月1日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://mihama-lakecenter.com/",
+          "status": 200,
+          "title": "三方五湖ネイチャークルーズ｜福井県美浜町の観光遊覧船",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/12/107.html",
+          "status": 200,
+          "title": "ふるさと納税制度(美浜町ふるさと応援寄附金) のご案内",
+          "h1": "ふるさと納税制度(美浜町ふるさと応援寄附金) のご案内",
+          "updatedAt": "2023年7月28日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://hamabiyori.com/",
+          "status": 200,
+          "title": "道の駅 若狭美浜はまびより - 福井県三方郡美浜町",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "水産"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/",
+          "status": 200,
+          "title": "くらし・手続き",
+          "h1": "くらし・手続き",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/2/",
+          "status": 200,
+          "title": "子育て・教育",
+          "h1": "子育て・教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "不妊"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/3/",
+          "status": 200,
+          "title": "健康・福祉",
+          "h1": "健康・福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "移住",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/4/",
+          "status": 200,
+          "title": "しごと・産業",
+          "h1": "しごと・産業",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "移住",
+            "創業",
+            "起業",
+            "事業者",
+            "農業",
+            "林業",
+            "水産",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/6/",
+          "status": 200,
+          "title": "町政情報",
+          "h1": "町政情報",
+          "updatedAt": "令和9年4月1日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/iju/",
+          "status": 200,
+          "title": "美浜町の移住・定住情報",
+          "h1": "美浜町の移住・定住情報",
+          "updatedAt": "2021年5月26日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "創業",
+            "起業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/2/14427.html",
+          "status": 200,
+          "title": "（令和9年4月1日採用予定）令和8年度美浜町職員採用候補者試験の実施について",
+          "h1": "（令和9年4月1日採用予定）令和8年度美浜町職員採用候補者試験の実施について",
+          "updatedAt": "2026年7月6日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/list3-1.html",
+          "status": 200,
+          "title": "重要なお知らせ",
+          "h1": "重要なお知らせ",
+          "updatedAt": "令和9年4月1日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/4/",
+          "status": 200,
+          "title": "防災",
+          "h1": "防災",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/4/27/",
+          "status": 200,
+          "title": "原子力防災",
+          "h1": "原子力防災",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/7/3473.html",
+          "status": 200,
+          "title": "「美浜町防災アプリ」について",
+          "h1": "「美浜町防災アプリ」について",
+          "updatedAt": "2021年7月9日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/30/8141.html",
+          "status": 200,
+          "title": "令和8年度 みはま郷育プログラム 第3回国吉城歴史講座のお知らせ",
+          "h1": "令和8年度 みはま郷育プログラム 第3回国吉城歴史講座のお知らせ",
+          "updatedAt": "2026年7月13日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/12/16419.html",
+          "status": 200,
+          "title": "令和8年度水稲病害虫防除（無人ヘリ防除）の散布実施について",
+          "h1": "令和8年度水稲病害虫防除（無人ヘリ防除）の散布実施について",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/30/16420.html",
+          "status": 200,
+          "title": "公会堂・敦博・国吉城 3館コラボ企画始動！",
+          "h1": "公会堂・敦博・国吉城 3館コラボ企画始動！",
+          "updatedAt": "2026年6月28日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/30/5506.html",
+          "status": 200,
+          "title": "令和8年 国吉城 期間限定御城朱印「半夏生版」発行のお知らせ",
+          "h1": "令和8年 国吉城 期間限定御城朱印「半夏生版」発行のお知らせ",
+          "updatedAt": "2026年6月25日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/list6-1.html",
+          "status": 200,
+          "title": "トピックス",
+          "h1": "トピックス",
+          "updatedAt": "令和9年4月1日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/",
+          "status": 200,
+          "title": "分類でさがす",
+          "h1": "分類でさがす",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/",
+          "status": 200,
+          "title": "組織でさがす",
+          "h1": "組織でさがす",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/calendar/",
+          "status": 200,
+          "title": "カレンダーでさがす",
+          "h1": "カレンダーでさがす",
+          "updatedAt": "令和8年7月20日",
+          "keywordHits": [
+            "移住",
+            "事業者",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/map/",
+          "status": 404,
+          "title": "お探しのページを見つけることができませんでした。",
+          "h1": "お探しのページを見つけることができませんでした。",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/shinsei-navi/search/search.php",
+          "status": 200,
+          "title": "各種申請・手続き案内",
+          "h1": "各種申請・手続き案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "医療費助成",
+            "移住",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "不妊"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/2/14/",
+          "status": 200,
+          "title": "妊娠・出産",
+          "h1": "妊娠・出産",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て",
+            "不妊"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/2/16/65/",
+          "status": 200,
+          "title": "入園・入学",
+          "h1": "入園・入学",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/4/23/",
+          "status": 200,
+          "title": "雇用・労働",
+          "h1": "雇用・労働",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/sub/3/",
+          "status": 200,
+          "title": "助成・手当て",
+          "h1": "助成・手当て",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "移住",
+            "住宅",
+            "福祉",
+            "子育て",
+            "不妊"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/1/7/",
+          "status": 200,
+          "title": "結婚・離婚",
+          "h1": "結婚・離婚",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/1/8/",
+          "status": 200,
+          "title": "引越・住まい",
+          "h1": "引越・住まい",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "免除",
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/3/19/80/",
+          "status": 200,
+          "title": "高齢者福祉",
+          "h1": "高齢者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/1/9/",
+          "status": 200,
+          "title": "おくやみ",
+          "h1": "おくやみ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/kiipasu/16292.html",
+          "status": 200,
+          "title": "来館者アルバム（令和8年6月）",
+          "h1": "来館者アルバム（令和8年6月）",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/9/16460.html",
+          "status": 200,
+          "title": "美浜斎苑改修工事に係る施設の利用制限について",
+          "h1": "美浜斎苑改修工事に係る施設の利用制限について",
+          "updatedAt": "2026年7月8日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/17/16467.html",
+          "status": 200,
+          "title": "第39回美浜町民レガッタを開催します！",
+          "h1": "第39回美浜町民レガッタを開催します！",
+          "updatedAt": "2026年7月8日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/9/14543.html",
+          "status": 200,
+          "title": "久々子湖および日向湖の水質検査結果について",
+          "h1": "久々子湖および日向湖の水質検査結果について",
+          "updatedAt": "2026年7月6日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/9/14530.html",
+          "status": 200,
+          "title": "7月はバスの車内事故防止強化月間です",
+          "h1": "7月はバスの車内事故防止強化月間です",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/8246.html",
+          "status": 200,
+          "title": "リサイクル展の開催（清掃センター）",
+          "h1": "リサイクル展の開催（清掃センター）",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/18/9438.html",
+          "status": 200,
+          "title": "子育てわくわくカレンダー7月号",
+          "h1": "子育てわくわくカレンダー7月号",
+          "updatedAt": "2026年6月26日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/30/3576.html",
+          "status": 200,
+          "title": "国吉城址のハンゲショウがまもなく見頃です！",
+          "h1": "国吉城址のハンゲショウがまもなく見頃です！",
+          "updatedAt": "2026年6月25日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/kiipasu/16378.html",
+          "status": 200,
+          "title": "2026きいぱす夏休み企画のご案内",
+          "h1": "2026きいぱす夏休み企画のご案内",
+          "updatedAt": "2026年6月23日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/11/16202.html",
+          "status": 200,
+          "title": "ＮＩＧＨＴ ＷＡＶＥ～光の波プロジェクトin水晶浜～",
+          "h1": "ＮＩＧＨＴ ＷＡＶＥ～光の波プロジェクトin水晶浜～",
+          "updatedAt": "2026年6月22日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/46/13806.html",
+          "status": 200,
+          "title": "会計年度任用職員（保育士・子育て支援員・保育補助）を募集します！",
+          "h1": "会計年度任用職員（保育士・子育て支援員・保育補助）を募集します！",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/kiipasu/16264.html",
+          "status": 200,
+          "title": "GoToきいぱすvol.68(令和8年6月）",
+          "h1": "GoToきいぱすvol.68(令和8年6月）",
+          "updatedAt": "2026年6月23日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/5604.html",
+          "status": 200,
+          "title": "ＪＲ小浜線を利用した親子旅行に要する費用を助成します。",
+          "h1": "ＪＲ小浜線を利用した親子旅行に要する費用を助成します。",
+          "updatedAt": "2026年6月19日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/15121.html",
+          "status": 200,
+          "title": "企業版ふるさと納税による寄附を募集しています",
+          "h1": "企業版ふるさと納税による寄附を募集しています",
+          "updatedAt": "2026年6月19日",
+          "keywordHits": [
+            "移住",
+            "起業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/2/10337.html",
+          "status": 200,
+          "title": "令和8年度美浜町きらり公務員インターンシップ生を募集します！",
+          "h1": "令和8年度美浜町きらり公務員インターンシップ生を募集します！",
+          "updatedAt": "2026年6月18日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/16279.html",
+          "status": 200,
+          "title": "コンテナハウス「HAJIMERU」 チャレンジショップ出店者募集について",
+          "h1": "コンテナハウス「HAJIMERU」 チャレンジショップ出店者募集について",
+          "updatedAt": "2026年6月16日",
+          "keywordHits": [
+            "移住",
+            "起業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/8/11627.html",
+          "status": 200,
+          "title": "国民健康保険税について",
+          "h1": "国民健康保険税について",
+          "updatedAt": "2026年7月8日",
+          "keywordHits": [
+            "支援金",
+            "減免",
+            "免除",
+            "移住",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/list1-1.html",
+          "status": 200,
+          "title": "すべて",
+          "h1": "すべて",
+          "updatedAt": "令和9年4月1日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/list5-1.html",
+          "status": 200,
+          "title": "イベント",
+          "h1": "イベント",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/list7-1.html",
+          "status": 200,
+          "title": "募集",
+          "h1": "募集",
+          "updatedAt": "令和9年4月1日",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/list8-1.html",
+          "status": 200,
+          "title": "お知らせ",
+          "h1": "お知らせ",
+          "updatedAt": "令和9年4月1日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/mayor/",
+          "status": 200,
+          "title": "町長の部屋",
+          "h1": "町長の部屋",
+          "updatedAt": "2024年8月5日",
+          "keywordHits": [
+            "移住",
+            "水産",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/town-council/",
+          "status": 200,
+          "title": "美浜町議会へようこそ",
+          "h1": "美浜町議会へようこそ",
+          "updatedAt": "2021年1月19日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/koho/16393.html",
+          "status": 200,
+          "title": "広報みはま 令和8年7月号 （6月23日発行No.666）",
+          "h1": "広報みはま 令和8年7月号 （6月23日発行No.666）",
+          "updatedAt": "2026年6月23日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/12/107.html",
+          "status": 200,
+          "title": "ふるさと納税制度(美浜町ふるさと応援寄附金) のご案内",
+          "h1": "ふるさと納税制度(美浜町ふるさと応援寄附金) のご案内",
+          "updatedAt": "2023年7月28日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://mihama-lakecenter.com/",
+          "status": 200,
+          "title": "三方五湖ネイチャークルーズ｜福井県美浜町の観光遊覧船",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/10227.html",
+          "status": 200,
+          "title": "美浜町公衆無線LANサービスについて",
+          "h1": "美浜町公衆無線LANサービスについて",
+          "updatedAt": "2025年12月11日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://hamabiyori.com/",
+          "status": 200,
+          "title": "道の駅 若狭美浜はまびより - 福井県三方郡美浜町",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "水産"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/kosodate/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/iju/487.html",
+          "status": 200,
+          "title": "美浜町空家情報バンク",
+          "h1": "美浜町空家情報バンク",
+          "updatedAt": "2024年9月25日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "空家",
+            "創業",
+            "起業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/12/132.html",
+          "status": 200,
+          "title": "「若狭美浜インター産業団地」への進出企業を募集しています",
+          "h1": "「若狭美浜インター産業団地」への進出企業を募集しています",
+          "updatedAt": "2024年6月21日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/10/4515.html",
+          "status": 404,
+          "title": "お探しのページを見つけることができませんでした。",
+          "h1": "お探しのページを見つけることができませんでした。",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://r.goope.jp/sr-18-1850110000/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "創業"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/kiipasu/",
+          "status": 200,
+          "title": "美浜町エネルギー環境教育体験館「きいぱす」",
+          "h1": "美浜町エネルギー環境教育体験館「きいぱす」",
+          "updatedAt": "2021年3月17日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/5370.html",
+          "status": 200,
+          "title": "美しい浜プロジェクト",
+          "h1": "美しい浜プロジェクト",
+          "updatedAt": "2021年12月15日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/iju/",
+          "status": 200,
+          "title": "美浜町の移住・定住情報",
+          "h1": "美浜町の移住・定住情報",
+          "updatedAt": "2021年5月26日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "創業",
+            "起業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://291jobs.pref.fukui.lg.jp/uiturn/",
+          "status": 200,
+          "title": "ふくいへUIターンしたい人のための転職情報サイト",
+          "h1": "ふくいへUIターンしたい人のための転職情報サイト",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "奨学金"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "移住",
+            "住宅",
+            "空家",
+            "創業",
+            "起業",
+            "事業者",
+            "農業",
+            "林業",
+            "水産",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "不妊"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3434.html",
+          "status": 200,
+          "title": "プライバシーポリシー",
+          "h1": "プライバシーポリシー",
+          "updatedAt": "2021年2月26日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3433.html",
+          "status": 200,
+          "title": "免責事項について",
+          "h1": "免責事項について",
+          "updatedAt": "2021年2月24日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3426.html",
+          "status": 200,
+          "title": "アクセシビリティ",
+          "h1": "アクセシビリティ",
+          "updatedAt": "2021年3月22日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3461.html",
+          "status": 200,
+          "title": "リンク集",
+          "h1": "リンク集",
+          "updatedAt": "2026年3月6日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3431.html",
+          "status": 200,
+          "title": "著作権について",
+          "h1": "著作権について",
+          "updatedAt": "2021年2月24日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/4467.html",
+          "status": 200,
+          "title": "美浜町役場へのアクセス",
+          "h1": "美浜町役場へのアクセス",
+          "updatedAt": "2021年3月19日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/form/detail.php?sec_sec1=5&check",
+          "status": 200,
+          "title": "お問い合わせ",
+          "h1": "お問い合わせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/kiipasu/",
+          "status": 200,
+          "title": "美浜町エネルギー環境教育体験館「きいぱす」",
+          "h1": "美浜町エネルギー環境教育体験館「きいぱす」",
+          "updatedAt": "2021年3月17日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3477.html",
+          "status": 200,
+          "title": "JRでのアクセス(大阪・京都方面)",
+          "h1": "JRでのアクセス(大阪・京都方面)",
+          "updatedAt": "2021年2月26日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3478.html",
+          "status": 200,
+          "title": "JRでのアクセス(東京・名古屋方面)",
+          "h1": "JRでのアクセス(東京・名古屋方面)",
+          "updatedAt": "2021年2月26日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3479.html",
+          "status": 200,
+          "title": "車でのアクセス(大阪・京都方面)",
+          "h1": "車でのアクセス(大阪・京都方面)",
+          "updatedAt": "2021年2月26日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3480.html",
+          "status": 200,
+          "title": "車でのアクセス(東京・名古屋方面)",
+          "h1": "車でのアクセス(東京・名古屋方面)",
+          "updatedAt": "2021年2月26日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/",
+          "status": 200,
+          "title": "まちづくり推進課",
+          "h1": "まちづくり推進課",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "移住",
+            "住宅",
+            "空家",
+            "事業者",
+            "福祉",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/form/detail.php?sec_sec1=5&lif_id=16086&check",
+          "status": 200,
+          "title": "お問い合わせ",
+          "h1": "お問い合わせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/form/detail.php?sec_sec1=5&lif_id=3430&check",
+          "status": 200,
+          "title": "お問い合わせ",
+          "h1": "お問い合わせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/form/detail.php?sec_sec1=5&lif_id=5876&check",
+          "status": 200,
+          "title": "お問い合わせ",
+          "h1": "お問い合わせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/37/",
+          "status": 200,
+          "title": "東部・丹生診療所",
+          "h1": "東部・丹生診療所",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/",
+          "status": 200,
+          "title": "ごみ情報",
+          "h1": "ごみ情報",
+          "updatedAt": "2021年2月9日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/list35-106.html",
+          "status": 200,
+          "title": "北地区",
+          "h1": "北地区",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/list35-107.html",
+          "status": 200,
+          "title": "南地区",
+          "h1": "南地区",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/list35-108.html",
+          "status": 200,
+          "title": "耳地区",
+          "h1": "耳地区",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/list35-109.html",
+          "status": 200,
+          "title": "東地区",
+          "h1": "東地区",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/list35-140.html",
+          "status": 200,
+          "title": "お知らせ",
+          "h1": "お知らせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/list36-110.html",
+          "status": 200,
+          "title": "分別ルール",
+          "h1": "分別ルール",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/list36-111.html",
+          "status": 200,
+          "title": "注意喚起",
+          "h1": "注意喚起",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/list37-112.html",
+          "status": 200,
+          "title": "敦賀市清掃センター",
+          "h1": "敦賀市清掃センター",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/list40-136.html",
+          "status": 200,
+          "title": "注意喚起",
+          "h1": "注意喚起",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/list41-137.html",
+          "status": 200,
+          "title": "ごみ減量化推進",
+          "h1": "ごみ減量化推進",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/list41-138.html",
+          "status": 200,
+          "title": "リサイクル推進",
+          "h1": "リサイクル推進",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/uploaded/attachment/7605.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/uploaded/attachment/7612.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/form/detail.php?sec_sec1=5&lif_id=15741&check",
+          "status": 200,
+          "title": "お問い合わせ",
+          "h1": "お問い合わせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/moving",
+          "status": 404,
+          "title": "お探しのページを見つけることができませんでした。",
+          "h1": "お探しのページを見つけることができませんでした。",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/marriage",
+          "status": 404,
+          "title": "お探しのページを見つけることができませんでした。",
+          "h1": "お探しのページを見つけることができませんでした。",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/birth",
+          "status": 404,
+          "title": "お探しのページを見つけることができませんでした。",
+          "h1": "お探しのページを見つけることができませんでした。",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/divorce",
+          "status": 404,
+          "title": "お探しのページを見つけることができませんでした。",
+          "h1": "お探しのページを見つけることができませんでした。",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/decease",
+          "status": 404,
+          "title": "お探しのページを見つけることができませんでした。",
+          "h1": "お探しのページを見つけることができませんでした。",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/about",
+          "status": 404,
+          "title": "お探しのページを見つけることができませんでした。",
+          "h1": "お探しのページを見つけることができませんでした。",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/privacy",
+          "status": 404,
+          "title": "お探しのページを見つけることができませんでした。",
+          "h1": "お探しのページを見つけることができませんでした。",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/news_detail/calefnjq3dbwtc16xuyxkl4m",
+          "status": 404,
+          "title": "お探しのページを見つけることができませんでした。",
+          "h1": "お探しのページを見つけることができませんでした。",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/news_detail/9nxmw7i3fj0cinik1je6h116",
+          "status": 404,
+          "title": "お探しのページを見つけることができませんでした。",
+          "h1": "お探しのページを見つけることができませんでした。",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/12/",
+          "status": 200,
+          "title": "産業政策課",
+          "h1": "産業政策課",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "給付金",
+            "移住",
+            "創業",
+            "農業",
+            "林業",
+            "水産",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/uploaded/attachment/5054.doc",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/msword",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/uploaded/attachment/5254.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/form/detail.php?sec_sec1=12&lif_id=1107&check",
+          "status": 200,
+          "title": "お問い合わせ",
+          "h1": "お問い合わせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/2/16372.html",
+          "status": 200,
+          "title": "犯罪被害者等支援について",
+          "h1": "犯罪被害者等支援について",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "補助金",
+            "免除",
+            "医療費助成",
+            "移住",
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/15/536.html",
+          "status": 200,
+          "title": "美浜町排水設備指定工事店一覧表",
+          "h1": "美浜町排水設備指定工事店一覧表",
+          "updatedAt": "2026年5月20日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/15/495.html",
+          "status": 200,
+          "title": "美浜町指定給水装置工事事業者名一覧表",
+          "h1": "美浜町指定給水装置工事事業者名一覧表",
+          "updatedAt": "2026年5月15日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/6/12447.html",
+          "status": 200,
+          "title": "太陽光発電設備と蓄電池設備の導入を補助します",
+          "h1": "太陽光発電設備と蓄電池設備の導入を補助します",
+          "updatedAt": "2026年5月1日",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/index-2.html",
+          "status": 200,
+          "title": "くらし・手続き",
+          "h1": "くらし・手続き",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "空家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/1/1/",
+          "status": 200,
+          "title": "住民票",
+          "h1": "住民票",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/1/2/",
+          "status": 200,
+          "title": "戸籍",
+          "h1": "戸籍",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/1/3/",
+          "status": 200,
+          "title": "マイナンバー",
+          "h1": "マイナンバー",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/1/4/",
+          "status": 200,
+          "title": "住民基本台帳",
+          "h1": "住民基本台帳",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/1/5/",
+          "status": 200,
+          "title": "印鑑登録",
+          "h1": "印鑑登録",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/2/10/",
+          "status": 200,
+          "title": "町県民税（住民税）",
+          "h1": "町県民税（住民税）",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/2/12/",
+          "status": 200,
+          "title": "国民健康保険税",
+          "h1": "国民健康保険税",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/2/13/",
+          "status": 200,
+          "title": "軽自動車税（種別割）",
+          "h1": "軽自動車税（種別割）",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/2/14/",
+          "status": 200,
+          "title": "固定資産税(土地・家屋・償却資産）",
+          "h1": "固定資産税(土地・家屋・償却資産）",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/2/15/",
+          "status": 200,
+          "title": "その他の税金",
+          "h1": "その他の税金",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/2/16/",
+          "status": 200,
+          "title": "税の証明書",
+          "h1": "税の証明書",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/2/17/",
+          "status": 200,
+          "title": "税の納付・納期",
+          "h1": "税の納付・納期",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/3/19/",
+          "status": 200,
+          "title": "消防",
+          "h1": "消防",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/3/20/",
+          "status": 200,
+          "title": "救急",
+          "h1": "救急",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/4/22/",
+          "status": 200,
+          "title": "防災マップ・避難所",
+          "h1": "防災マップ・避難所",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/4/23/",
+          "status": 200,
+          "title": "防災情報の収集",
+          "h1": "防災情報の収集",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/4/24/",
+          "status": 200,
+          "title": "防災啓発・防災訓練",
+          "h1": "防災啓発・防災訓練",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/4/25/",
+          "status": 200,
+          "title": "防災計画及び各種マニュアル",
+          "h1": "防災計画及び各種マニュアル",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/4/26/",
+          "status": 200,
+          "title": "自主防災組織・防災士",
+          "h1": "自主防災組織・防災士",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/4/28/",
+          "status": 200,
+          "title": "被災者支援",
+          "h1": "被災者支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/5/29/",
+          "status": 200,
+          "title": "防犯",
+          "h1": "防犯",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "空家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/5/30/",
+          "status": 200,
+          "title": "交通安全",
+          "h1": "交通安全",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/5/32/",
+          "status": 200,
+          "title": "消費生活",
+          "h1": "消費生活",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/6/34/",
+          "status": 200,
+          "title": "上水道",
+          "h1": "上水道",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/6/35/",
+          "status": 200,
+          "title": "下水道",
+          "h1": "下水道",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/7/36/",
+          "status": 200,
+          "title": "ごみ・リサイクル",
+          "h1": "ごみ・リサイクル",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/7/37/",
+          "status": 200,
+          "title": "生活衛生・公害",
+          "h1": "生活衛生・公害",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/7/39/",
+          "status": 200,
+          "title": "し尿・浄化槽",
+          "h1": "し尿・浄化槽",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/8/40/",
+          "status": 200,
+          "title": "犬・ねこ",
+          "h1": "犬・ねこ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/8/41/",
+          "status": 200,
+          "title": "その他ペット",
+          "h1": "その他ペット",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/9/42/",
+          "status": 200,
+          "title": "まちづくり・コミュニティ・協働",
+          "h1": "まちづくり・コミュニティ・協働",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/9/43/",
+          "status": 200,
+          "title": "地域活性化",
+          "h1": "地域活性化",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/9/44/",
+          "status": 200,
+          "title": "ボランティア・NPO",
+          "h1": "ボランティア・NPO",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/10/45/",
+          "status": 200,
+          "title": "人権啓発",
+          "h1": "人権啓発",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/10/46/",
+          "status": 200,
+          "title": "男女共同参画",
+          "h1": "男女共同参画",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/10/47/",
+          "status": 200,
+          "title": "在住外国人",
+          "h1": "在住外国人",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/11/50/",
+          "status": 200,
+          "title": "土地",
+          "h1": "土地",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/11/51/",
+          "status": 200,
+          "title": "住宅支援・マイホーム",
+          "h1": "住宅支援・マイホーム",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "空家",
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/11/198/",
+          "status": 200,
+          "title": "空家",
+          "h1": "空家",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "空家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/12/54/",
+          "status": 200,
+          "title": "公共交通機関・駐車場",
+          "h1": "公共交通機関・駐車場",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て",
+            "通学"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/12/55/",
+          "status": 200,
+          "title": "美浜町デマンド交通",
+          "h1": "美浜町デマンド交通",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/13/56/",
+          "status": 200,
+          "title": "自然・環境・景観",
+          "h1": "自然・環境・景観",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/13/57/",
+          "status": 200,
+          "title": "騒音・公害・汚染",
+          "h1": "騒音・公害・汚染",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/13/58/",
+          "status": 200,
+          "title": "再生可能エネルギー",
+          "h1": "再生可能エネルギー",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/1/44/205/",
+          "status": 200,
+          "title": "便利な手続き（オンラインサービス）",
+          "h1": "便利な手続き（オンラインサービス）",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/30/13519.html",
+          "status": 200,
+          "title": "若狭国吉城歴史資料館『資料館だより』新刊のご案内",
+          "h1": "若狭国吉城歴史資料館『資料館だより』新刊のご案内",
+          "updatedAt": "2026年6月11日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/2/index-2.html",
+          "status": 200,
+          "title": "子育て・教育",
+          "h1": "子育て・教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "不妊"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/2/14/59/",
+          "status": 200,
+          "title": "妊娠・出産",
+          "h1": "妊娠・出産",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/2/14/60/",
+          "status": 200,
+          "title": "不妊治療",
+          "h1": "不妊治療",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て",
+            "不妊"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/2/15/61/",
+          "status": 200,
+          "title": "子育て支援",
+          "h1": "子育て支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "福祉",
+            "子育て",
+            "妊婦",
+            "通学"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/2/15/62/",
+          "status": 200,
+          "title": "乳幼児健診・教室",
+          "h1": "乳幼児健診・教室",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/2/15/63/",
+          "status": 200,
+          "title": "ひとり親",
+          "h1": "ひとり親",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "医療費助成",
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/2/15/64/",
+          "status": 200,
+          "title": "保育園",
+          "h1": "保育園",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/2/15/200/",
+          "status": 200,
+          "title": "予防接種",
+          "h1": "予防接種",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/2/15/201/",
+          "status": 200,
+          "title": "各種手当・助成",
+          "h1": "各種手当・助成",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "福祉",
+            "子育て",
+            "妊婦",
+            "通学"
+          ],
+          "candidateScore": 23,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/2/15/202/",
+          "status": 200,
+          "title": "利用・申請",
+          "h1": "利用・申請",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/2/15/203/",
+          "status": 200,
+          "title": "その他",
+          "h1": "その他",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/2/16/66/",
+          "status": 200,
+          "title": "小学校・中学校",
+          "h1": "小学校・中学校",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/2/16/68/",
+          "status": 200,
+          "title": "家庭教育",
+          "h1": "家庭教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/2/16/69/",
+          "status": 200,
+          "title": "総合教育会議",
+          "h1": "総合教育会議",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/2/17/70/",
+          "status": 200,
+          "title": "生涯学習",
+          "h1": "生涯学習",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/2/17/71/",
+          "status": 200,
+          "title": "スポーツ",
+          "h1": "スポーツ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/2/34/140/",
+          "status": 200,
+          "title": "歴史・史跡・遺跡",
+          "h1": "歴史・史跡・遺跡",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "創業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/2/34/141/",
+          "status": 200,
+          "title": "神社・仏閣",
+          "h1": "神社・仏閣",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/life/2/34/143/",
+          "status": 200,
+          "title": "文化財",
+          "h1": "文化財",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/10/11946.html",
+          "status": 200,
+          "title": "健康支援あいあいアプリについて",
+          "h1": "健康支援あいあいアプリについて",
+          "updatedAt": "2026年5月12日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/10/14598.html",
+          "status": 200,
+          "title": "げんげん弁当をご利用ください",
+          "h1": "げんげん弁当をご利用ください",
+          "updatedAt": "2026年4月30日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18442",
+          "municipalityName": "美浜町",
+          "sourceUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/10/11993.html",
+          "status": 200,
+          "title": "令和８年度のＰＥＴ-ＣＴ等検査費用助成制度について",
+          "h1": "令和８年度のＰＥＴ-ＣＴ等検査費用助成制度について",
+          "updatedAt": "2026年4月24日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/sitemap_index.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/sitemap_index.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3310.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3310.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3430.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3430.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3437.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3437.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/37/136.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/37/136.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/site/gomi/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/ques/questionnaire.php?openid=2",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/ques/questionnaire.php?openid=2&check",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=125",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/14681.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=120",
+          "status": 200,
+          "finalUrl": "https://fukui-mihama-town.supportnavi.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=116",
+          "status": 200,
+          "finalUrl": "https://mihama-manabi.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=115",
+          "status": 200,
+          "finalUrl": "https://mihama-saiyo.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=108",
+          "status": 200,
+          "finalUrl": "https://www.view-wakasamihama.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=126",
+          "status": 200,
+          "finalUrl": "https://mihama-lakecenter.com/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=62",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/12/107.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=112",
+          "status": 200,
+          "finalUrl": "https://hamabiyori.com/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=63",
+          "status": 200,
+          "finalUrl": "https://cheerup-mihama.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/2/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/2/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/3/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/3/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/4/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/4/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/6/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/6/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/site/iju/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/iju/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/2/14427.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/2/14427.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/list3-1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/list3-1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/rss/10/list3.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/rss/10/list3.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/4/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/4/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/4/27/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/4/27/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/7/3473.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/7/3473.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/30/8141.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/30/8141.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/12/16419.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/12/16419.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/30/16420.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/30/16420.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/30/5506.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/30/5506.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/list6-1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/list6-1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/rss/10/list6.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/rss/10/list6.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/calendar/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/calendar/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/map/",
+          "status": 404,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/map/",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/site/shinsei-navi/search/search.php",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/shinsei-navi/search/search.php",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/2/14/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/2/14/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/2/16/65/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/2/16/65/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/4/23/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/4/23/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/sub/3/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/sub/3/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/1/7/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/1/7/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/1/8/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/1/8/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/3/19/80/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/3/19/80/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/1/9/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/1/9/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/site/kiipasu/16292.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/kiipasu/16292.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/9/16460.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/9/16460.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/17/16467.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/17/16467.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/9/14543.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/9/14543.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/9/14530.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/9/14530.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/site/gomi/8246.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/8246.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/18/9438.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/18/9438.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/30/3576.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/30/3576.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/site/kiipasu/16378.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/kiipasu/16378.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/11/16202.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/11/16202.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/46/13806.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/46/13806.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/site/kiipasu/16264.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/kiipasu/16264.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/5/5604.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/5604.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/5/15121.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/15121.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/2/10337.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/2/10337.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/5/16279.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/16279.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/8/11627.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/8/11627.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/list1-1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/list1-1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/rss/10/list1.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/rss/10/list1.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/list5-1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/list5-1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/rss/10/list5.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/rss/10/list5.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/list7-1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/list7-1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/rss/10/list7.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/rss/10/list7.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/list8-1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/list8-1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/rss/10/list8.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/rss/10/list8.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/site/mayor/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/mayor/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/site/town-council/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/town-council/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/site/koho/16393.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/koho/16393.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/12/107.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/12/107.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=117",
+          "status": 200,
+          "finalUrl": "https://mihama-manabi.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=127",
+          "status": 200,
+          "finalUrl": "https://mihama-lakecenter.com/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=106",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/10227.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=100",
+          "status": 200,
+          "finalUrl": "https://hamabiyori.com/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=103",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/kosodate/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=102",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/navi-us/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=64",
+          "status": 200,
+          "finalUrl": "https://cheerup-mihama.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=67",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/iju/487.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=68",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/12/132.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=69",
+          "status": 404,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/10/4515.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=78",
+          "status": 200,
+          "finalUrl": "https://r.goope.jp/sr-18-1850110000/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=80",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/kiipasu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=82",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/5370.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=88",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/iju/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=89",
+          "status": 200,
+          "finalUrl": "https://hamaberry.com/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=128",
+          "status": 500,
+          "finalUrl": "https://ebooks.scinex.co.jp/contents/13091/",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/adv/ba.php?id=70",
+          "status": 200,
+          "finalUrl": "https://291jobs.pref.fukui.lg.jp/uiturn/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3434.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3434.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3433.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3433.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3426.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3426.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3461.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3461.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3431.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3431.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/5/4467.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/4467.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/form/detail.php?sec_sec1=5",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/form/detail.php?sec_sec1=5&check",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/site/navi-us/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/navi-us/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/site/kiipasu/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/kiipasu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3477.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3477.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3478.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3478.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3479.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3479.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3480.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/3480.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/sitemap01.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/sitemap01.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/5/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/5/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/form/detail.php?sec_sec1=5&lif_id=16086",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/form/detail.php?sec_sec1=5&lif_id=16086&check",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/form/detail.php?sec_sec1=5&lif_id=3430",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/form/detail.php?sec_sec1=5&lif_id=3430&check",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/form/detail.php?sec_sec1=5&lif_id=5876",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/form/detail.php?sec_sec1=5&lif_id=5876&check",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/37/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/37/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/site/gomi",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/rss/10/site-29.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/rss/10/site-29.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/site/gomi/list35-106.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/list35-106.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/site/gomi/list35-107.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/list35-107.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/site/gomi/list35-108.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/list35-108.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/site/gomi/list35-109.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/list35-109.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/site/gomi/list35-140.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/list35-140.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/site/gomi/list36-110.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/list36-110.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/site/gomi/list36-111.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/list36-111.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/site/gomi/list37-112.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/list37-112.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/site/gomi/list40-136.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/list40-136.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/site/gomi/list41-137.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/list41-137.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/site/gomi/list41-138.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/site/gomi/list41-138.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/uploaded/attachment/7605.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/uploaded/attachment/7605.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/uploaded/attachment/7612.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/uploaded/attachment/7612.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/form/detail.php?sec_sec1=5&amp;inq=03&lif_id=15741",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/form/detail.php?sec_sec1=5&lif_id=15741&check",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/moving",
+          "status": 404,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/moving",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/marriage",
+          "status": 404,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/marriage",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/birth",
+          "status": 404,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/birth",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/divorce",
+          "status": 404,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/divorce",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/decease",
+          "status": 404,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/decease",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/about",
+          "status": 404,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/about",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/privacy",
+          "status": 404,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/privacy",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/news_detail/calefnjq3dbwtc16xuyxkl4m",
+          "status": 404,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/news_detail/calefnjq3dbwtc16xuyxkl4m",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/news_detail/9nxmw7i3fj0cinik1je6h116",
+          "status": 404,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/news_detail/9nxmw7i3fj0cinik1je6h116",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/12/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/12/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/uploaded/attachment/5054.doc",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/uploaded/attachment/5054.doc",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/uploaded/attachment/5254.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/uploaded/attachment/5254.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/form/detail.php?sec_sec1=12&lif_id=1107",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/form/detail.php?sec_sec1=12&lif_id=1107&check",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/2/16372.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/2/16372.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/15/536.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/15/536.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/15/495.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/15/495.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/6/12447.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/6/12447.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/index-2.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/index-2.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/rss/10/life1.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/rss/10/life1.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/1/1/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/1/1/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/1/2/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/1/2/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/1/3/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/1/3/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/1/4/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/1/4/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/1/5/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/1/5/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/2/10/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/2/10/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/2/12/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/2/12/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/2/13/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/2/13/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/2/14/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/2/14/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/2/15/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/2/15/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/2/16/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/2/16/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/2/17/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/2/17/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/3/19/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/3/19/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/3/20/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/3/20/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/4/22/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/4/22/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/4/23/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/4/23/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/4/24/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/4/24/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/4/25/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/4/25/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/4/26/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/4/26/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/4/28/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/4/28/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/5/29/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/5/29/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/5/30/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/5/30/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/5/32/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/5/32/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/6/34/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/6/34/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/6/35/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/6/35/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/7/36/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/7/36/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/7/37/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/7/37/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/7/39/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/7/39/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/8/40/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/8/40/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/8/41/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/8/41/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/9/42/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/9/42/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/9/43/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/9/43/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/9/44/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/9/44/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/10/45/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/10/45/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/10/46/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/10/46/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/10/47/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/10/47/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/11/50/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/11/50/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/11/51/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/11/51/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/11/198/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/11/198/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/12/54/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/12/54/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/12/55/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/12/55/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/13/56/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/13/56/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/13/57/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/13/57/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/13/58/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/13/58/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/1/44/205/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/1/44/205/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/30/13519.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/30/13519.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/2/index-2.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/2/index-2.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/rss/10/life2.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/rss/10/life2.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/2/14/59/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/2/14/59/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/2/14/60/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/2/14/60/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/2/15/61/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/2/15/61/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/2/15/62/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/2/15/62/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/2/15/63/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/2/15/63/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/2/15/64/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/2/15/64/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/2/15/200/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/2/15/200/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/2/15/201/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/2/15/201/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/2/15/202/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/2/15/202/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/2/15/203/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/2/15/203/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/2/16/66/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/2/16/66/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/2/16/68/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/2/16/68/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/2/16/69/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/2/16/69/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/2/17/70/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/2/17/70/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/2/17/71/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/2/17/71/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/2/34/140/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/2/34/140/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/2/34/141/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/2/34/141/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/life/2/34/143/",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/life/2/34/143/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/10/11946.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/10/11946.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/10/14598.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/10/14598.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.fukui-mihama.lg.jp/soshiki/10/11993.html",
+          "status": 200,
+          "finalUrl": "https://www.town.fukui-mihama.lg.jp/soshiki/10/11993.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "batchId": "fukui-official-coverage-003",
+  "prefecture": "福井県",
+  "municipalities": [
+    {
+      "code": "18382",
+      "name": "池田町",
+      "officialBaseUrl": "https://www.town.ikeda.fukui.jp/"
+    },
+    {
+      "code": "18404",
+      "name": "南越前町",
+      "officialBaseUrl": "https://www.town.minamiechizen.lg.jp/"
+    },
+    {
+      "code": "18423",
+      "name": "越前町",
+      "officialBaseUrl": "https://www.town.echizen.fukui.jp/"
+    },
+    {
+      "code": "18442",
+      "name": "美浜町",
+      "officialBaseUrl": "https://www.town.fukui-mihama.lg.jp/"
+    },
+    {
+      "code": "18481",
+      "name": "高浜町",
+      "officialBaseUrl": "https://www.town.takahama.fukui.jp/"
+    }
+  ]
+}

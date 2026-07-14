@@ -2,34 +2,34 @@
   "updatedAt": "2026-07-15T02:12:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "fukui-official-coverage-002",
-    "municipality": "鯖江市・あわら市・越前市・坂井市・永平寺町",
+    "code": "fukui-official-coverage-003",
+    "municipality": "池田町・南越前町・越前町・美浜町・高浜町",
     "adopted": 75,
-    "held": 620,
+    "held": 724,
     "excluded": 0,
     "sourceUrlsChecked": 75,
     "validation": {
-      "previousMunicipality": "福井県公式棚卸し002として、18207鯖江市・18208あわら市・18209越前市・18210坂井市・18322永平寺町を確認した。自治体別クロールで候補695件、短い本文スニペット695件、公式URLリード367件を保存し、個別公式ページ75件を新規採用した。全国公式棚卸しは未完了。",
+      "previousMunicipality": "福井県公式棚卸し003として、18382池田町・18404南越前町・18423越前町・18442美浜町・18481高浜町を確認した。自治体別クロールで候補799件、短い本文スニペット799件、公式URLリード228件を保存し、個別公式ページ75件を新規採用した。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for 19 fukui-official-coverage-002 JSON files and official-coverage-checkpoint.json",
+      "json": "pass: JSON.parse for fukui-official-coverage-003 JSON files and official-coverage-checkpoint.json",
       "addedSlugUniqueness": "pass: 75 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
       "urlReachability": "pass: 75 primary official URLs returned HTTP 200",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 12588, officialLinkedActive 12468, manuallyVerifiedActive 12468, 福井県 localOfficial 229)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 12663, officialLinkedActive 12543, manuallyVerifiedActive 12543, 福井県 localOfficial 304)"
     }
   },
   "next": {
-    "code": "fukui-official-coverage-003",
-    "municipality": "池田町",
-    "shortlist": "福井県公式棚卸し002は鯖江市5件、あわら市17件、越前市18件、坂井市30件、永平寺町5件の計75件を採用した。トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補として保持する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、18382池田町を開始地点として福井県公式棚卸し003を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "fukui-official-coverage-004",
+    "municipality": "おおい町",
+    "shortlist": "福井県公式棚卸し003は池田町11件、南越前町19件、越前町8件、美浜町30件、高浜町7件の計75件を採用した。トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補として保持する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、18483おおい町を開始地点として福井県公式棚卸し004を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "福井県",
     "status": "in-progress",
-    "lastBatch": "fukui-official-coverage-002",
-    "notes": "福井県は18201福井市から18322永平寺町まで自治体コード順に第1巡到達（18203等は欠番）。全国公式棚卸しは未完了。次は18382池田町から継続する。"
+    "lastBatch": "fukui-official-coverage-003",
+    "notes": "福井県は18201福井市から18481高浜町まで自治体コード順に第1巡到達。全国公式棚卸しは未完了。次は18483おおい町から継続する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

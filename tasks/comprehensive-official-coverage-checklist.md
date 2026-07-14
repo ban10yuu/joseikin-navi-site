@@ -9229,3 +9229,49 @@
   - トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補に残す。
 - 次:
   - 福井県公式棚卸し003として、18382池田町から自治体コード順に確認する。
+
+### 2026-07-15 福井県公式棚卸し003（18382池田町・18404南越前町・18423越前町・18442美浜町・18481高浜町）
+
+- 作業範囲:
+  - 18382 池田町、18404 南越前町、18423 越前町、18442 美浜町、18481 高浜町の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 自治体別クロールで候補799件を取得した。shortlistが150件超かつcrawl候補の40%超だったため、候補799件から短い本文スニペットを抽出し、ページ内リンク228件を制度リードとして再取得した。
+  - 採用対象の75公式ページは全件HTTP 200を確認した。
+- 採用:
+  - 合計75件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 池田町11件: 小規模事業者経営改善資金（マル経資金）利子補給事業、子ども医療費助成制度、ママがんばる手当、障害者（児）への手当、障害者医療費助成、児童扶養手当、特別児童扶養手当について、ひとり親家庭等医療費助成、児童手当、畜産業者への補助金について、池田町家庭用防犯カメラ設置事業補助金。
+  - 南越前町19件: 下水道使用料の人員割減免申請について（学生減免）、下水道使用料の人員割減免申請について（一般減免）、国民健康保険税の軽減・減免、災害による後期高齢者医療保険料の減免について、軽自動車税の減免（障がい者等）について、過疎地域における固定資産税の課税免除について、災害に伴う町税の減免について、重度障がい者（児）医療費助成について、ひとり親家庭等医療費助成について、子ども医療費助成制度について、児童扶養手当について、上下水道料金基本料金の免除について【令和8年2月請求分～令和8年12月請求分】、漏水減免について、早婚夫婦支援事業について、結婚新生活支援事業について、結婚祝い金の支給について、チャイルドシート購入費の一部を補助します、運転免許自主返納者を支援しています、第十二回戦没者等の遺族に対する特別弔慰金について。
+  - 越前町8件: 「えちぜん町未来へつなぐ奨学金返還応援補助金」事業のお知らせ、起業・創業促進支援事業奨励金のご案内、東京圏からのＵＩターン者に移住支援金を支給します、福井県外からのＵＩターン者に移住支援金を支給します、地元大学等を卒業した就職者に奨励金を支給します、ひとり親家庭等医療費助成制度について、越前町空き家情報バンク成約奨励金を支給します、創業支援対策事業利子補給制度について。
+  - 美浜町30件: Ｕターン者奨学金返還支援事業補助金について、ひとり親家庭等こどもチャレンジ応援事業補助金について、ひとり親家庭等医療費助成制度のご案内、新婚生活を応援します！【結婚新生活支援事業補助金】、在宅育児応援手当について、令和８年度ふるさと納税返礼品チャレンジ支援補助金について、多世帯同居・近居住宅リフォーム支援事業補助金について、多世帯同居・近居住宅取得支援事業補助金について、大学連携まちづくりプロジェクト事業補助金の募集について、若者世帯住宅取得支援事業補助金について、若者夫婦世帯等定住促進家賃補助金について、創業等支援事業補助金（小規模創業・事業移転）、創業等にぎわい創出支援事業補助金（大規模創業・事業移転）、地震による家具の転倒防止対策に補助金がでます！、集落元気プラン推進事業補助金、【県外から移住される方へ】移住支援金（全国型）を支給します！、【東京圏から移住される方へ】移住支援金（東京圏型）を支給します！、ウェルカム美浜空家家賃支援事業補助金について、ウェルカム美浜空家住まいる支援事業補助金について、空家適正管理促進事業補助金について、空家家財処分等支援補助金について、児童扶養手当のご案内、特別児童扶養手当を支給します、令和８年度のＰＥＴ-ＣＴ等検査費用助成制度について、防災用資機材購入事業補助金交付要綱、自主防災組織の防災倉庫や非常用発電機等の購入を支援する「美浜町自主防災組織強化事業補助金」を整備しました、自主防災組織設立事業補助金交付要綱、自主防災組織運営事業補助金交付要綱、消防用資機材購入事業補助金交付要綱、高齢者の生きがいと健康づくり拠点施設改良支援事業補助金のご案内。
+  - 高浜町7件: 重度障害者等医療費助成事業、結婚新生活を応援します!、子ども医療費助成について ２、福井県外から高浜町へ移住された方に、移住支援金（全国型）を支給します。、在宅育児応援手当支給事業について（R6.9～所得制限撤廃）、東京圏から移住される方へ 移住支援金（東京圏型）をサポート、令和８年度 高浜町電気自動車等購入補助金について。
+- 生成ファイル:
+  - `tasks/discovery/fukui-official-coverage-003-18382-candidates.json`
+  - `tasks/discovery/fukui-official-coverage-003-18382-municipality.json`
+  - `tasks/discovery/fukui-official-coverage-003-18404-candidates.json`
+  - `tasks/discovery/fukui-official-coverage-003-18404-municipality.json`
+  - `tasks/discovery/fukui-official-coverage-003-18423-candidates.json`
+  - `tasks/discovery/fukui-official-coverage-003-18423-municipality.json`
+  - `tasks/discovery/fukui-official-coverage-003-18442-candidates.json`
+  - `tasks/discovery/fukui-official-coverage-003-18442-municipality.json`
+  - `tasks/discovery/fukui-official-coverage-003-18481-candidates.json`
+  - `tasks/discovery/fukui-official-coverage-003-18481-municipality.json`
+  - `tasks/discovery/fukui-official-coverage-003-adopted-urls.json`
+  - `tasks/discovery/fukui-official-coverage-003-adoption-ranked.json`
+  - `tasks/discovery/fukui-official-coverage-003-candidates.json`
+  - `tasks/discovery/fukui-official-coverage-003-municipalities.json`
+  - `tasks/discovery/fukui-official-coverage-003-rescored-snippets.json`
+  - `tasks/discovery/fukui-official-coverage-003-snippets.json`
+  - `tasks/discovery/fukui-official-coverage-003-url-leads.json`
+  - `tasks/discovery/fukui-official-coverage-003.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（003関連JSON、checkpoint）。
+  - 追加slug重複: pass（75件、`verified-local-misc-2026.ts` 全体 duplicateCount 0）。
+  - 公式URL到達: pass（75 primary official URLsすべてHTTP 200）。
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 12663、officialLinkedActive 12543、manuallyVerifiedActive 12543、福井県 localOfficial 304）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は福井県18481高浜町到達のみで全国完了扱いしない。
+  - トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補に残す。
+- 次:
+  - 福井県公式棚卸し004として、18483おおい町から自治体コード順に確認する。

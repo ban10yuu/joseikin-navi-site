@@ -1,0 +1,3851 @@
+{
+  "batchId": "fukui-official-coverage-003",
+  "prefecture": "福井県",
+  "generatedAt": "2026-07-14T17:07:55.758Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 134,
+  "results": [
+    {
+      "code": "18382",
+      "name": "池田町",
+      "officialBaseUrl": "https://www.town.ikeda.fukui.jp/",
+      "discoveredUrlCount": 220,
+      "candidateCount": 134,
+      "strongCandidateCount": 0,
+      "lowPriorityCandidateCount": 134,
+      "candidates": [
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "https://www.town.ikeda.fukui.jp/kurashi/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "省エネ"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "https://www.town.ikeda.fukui.jp/news.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和9年4月1日",
+          "keywordHits": [
+            "補助金",
+            "住宅"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "https://www.town.ikeda.fukui.jp/shisetsu/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "https://www.town.ikeda.fukui.jp/gyousei/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "https://www.town.ikeda.fukui.jp/jigyousya/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "https://www.town.ikeda.fukui.jp/jigyousya/business/1639/p002783.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "https://www.town.ikeda.fukui.jp/kurashi/datsutanso/machiene/p003008.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年7月6日",
+          "keywordHits": [
+            "事業者",
+            "省エネ"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "https://www.town.ikeda.fukui.jp/yoku/kyujin/p001569.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年7月6日",
+          "keywordHits": [
+            "移住",
+            "空家",
+            "農業",
+            "林業",
+            "福祉"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "https://www.town.ikeda.fukui.jp/kurashi/anzen/1361/p003006.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年6月22日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "https://www.town.ikeda.fukui.jp/pick/picktodoke/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "https://www.town.ikeda.fukui.jp/pick/pickkankon/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "https://www.town.ikeda.fukui.jp/pick/pickkodomo/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "https://www.town.ikeda.fukui.jp/pick/pickjukyo/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "空家",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "https://www.town.ikeda.fukui.jp/pick/pickbyouki/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "https://www.town.ikeda.fukui.jp/pick/pickkourei/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "https://www.town.ikeda.fukui.jp/yoku/dl/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "https://www.town.ikeda.fukui.jp/yoku/teate/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "減免",
+            "医療費助成",
+            "住宅",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て",
+            "就学",
+            "耐震",
+            "不妊",
+            "通学"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "https://www.town.ikeda.fukui.jp/yoku/bus/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "通学"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "https://www.town.ikeda.fukui.jp/shozoku.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "https://www.town.ikeda.fukui.jp/faq/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "https://www.town.ikeda.fukui.jp/sitemap.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和9年4月1日",
+          "keywordHits": [
+            "補助金",
+            "医療費助成",
+            "移住",
+            "住宅",
+            "空き家",
+            "空家",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "省エネ",
+            "予防接種",
+            "通学"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/jigyousya/business/1639/p002783.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/datsutanso/machiene/p003008.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年7月6日",
+          "keywordHits": [
+            "事業者",
+            "省エネ"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/sumai/1496/p001374.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年7月9日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空家",
+            "農業",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/sumai/1496/p001373.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2023年5月8日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空家",
+            "農業",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kaigo/1211/p002316.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年6月30日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/yoku/kyujin/p001569.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年7月6日",
+          "keywordHits": [
+            "移住",
+            "空家",
+            "農業",
+            "林業",
+            "福祉"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/datsutanso/syouene/p002998.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年4月15日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "省エネ"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/sumai/1471/p002789.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年7月6日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "空家",
+            "農業"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1361/p001241.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年6月25日",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1265/p002867.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "住宅",
+            "福祉",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 24,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1361/p003007.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年6月25日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/faq/seikatsufaq/5201/p002183.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年6月25日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1361/p003006.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年6月22日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/zei/1175/p002671.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年10月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kenkou/1231/p002826.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年6月15日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/sumai/1471/p002081.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月17日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "農業",
+            "耐震"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/yoku/teate/5256/p002848.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年6月2日",
+          "keywordHits": [
+            "補助金",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1260/p002871.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2024年9月2日",
+          "keywordHits": [
+            "補助金",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kenkou/1244/p001135.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2021年4月22日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kenkou/1244/p001132.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2023年8月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1928/p002223.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年5月27日",
+          "keywordHits": [
+            "補助金",
+            "給付金",
+            "支援金",
+            "医療費助成",
+            "移住",
+            "住宅",
+            "空き家",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て",
+            "就学",
+            "耐震",
+            "予防接種",
+            "不妊",
+            "妊婦",
+            "通学"
+          ],
+          "candidateScore": 27,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/zei/1151/p001055.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年5月25日",
+          "keywordHits": [
+            "一時金",
+            "貸付",
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1401/p002724.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "助成金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kenkou/1239/p003002.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年5月12日",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/pick/pickjukyo/p001618.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年4月28日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/fukushi/1304/p002906.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年3月31日",
+          "keywordHits": [
+            "給付金",
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/fukushi/1304/p002864.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2024年7月30日",
+          "keywordHits": [
+            "給付金",
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1276/p002116.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年4月27日",
+          "keywordHits": [
+            "補助金",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1260/p001150.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "補助金",
+            "医療費助成",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1357/p002996.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/jigyousya/farmar/1611/p001535.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年4月6日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/datsutanso/syousuiryoku/p002995.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年4月3日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1276/p002991.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年3月24日",
+          "keywordHits": [
+            "補助金",
+            "子育て"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1276/p002990.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年3月24日",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/datsutanso/kikouhendoutaisaku/p002994.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年3月31日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "省エネ"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/about/nouzei/p002976.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年3月31日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/ringyo/sinrinseibi/p002666.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年3月31日",
+          "keywordHits": [
+            "林業"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/yoku/soudan/p002989.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/jigyousya/business/1648/p001367.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1929/p002706.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年3月31日",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1943/p002992.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年3月30日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/ringyo/sinrinseibi/p002720.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年3月27日",
+          "keywordHits": [
+            "林業"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1380/p001260.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年3月26日",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/ringyo/sinrinseibi/p002645.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年11月10日",
+          "keywordHits": [
+            "林業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1375/p002468.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2022年4月1日",
+          "keywordHits": [
+            "通学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1937/p002465.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年3月16日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1361/p001251.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2023年8月30日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1284/p002838.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年3月9日",
+          "keywordHits": [
+            "補助金",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/jigyousya/business/1653/p002987.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2020年4月29日",
+          "keywordHits": [
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1452/p001334.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2023年9月13日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/ringyo/rindo/p002986.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年2月24日",
+          "keywordHits": [
+            "補助金",
+            "林業",
+            "水産"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kaigo/1211/p002985.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年2月18日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kaigo/1211/p001112.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2024年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1408/p001292.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年2月12日",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1401/p002721.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "助成金"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1383/p002811.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2023年8月16日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/nougyou/1013/p002940.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年9月3日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1109/p001014.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年1月8日",
+          "keywordHits": [
+            "医療費助成"
+          ],
+          "candidateScore": 10,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/zei/1180/p002834.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年1月6日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kenkou/1244/p001134.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2015年10月21日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/shisetsu/taiiku/p002490.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年11月13日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/jigyousya/business/1648/p002977.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年10月8日",
+          "keywordHits": [
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1251/p001143.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年10月1日",
+          "keywordHits": [
+            "補助金",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/jigyousya/business/1648/p001359.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年10月10日",
+          "keywordHits": [
+            "減免",
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/yoku/teate/5256/p002922.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年10月8日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "農業",
+            "子育て"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/sumai/1486/p002766.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年8月29日",
+          "keywordHits": [
+            "住宅",
+            "農業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/jigyousya/farmar/chokusetsu/p001549.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2023年8月15日",
+          "keywordHits": [
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1408/p001289.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年9月5日",
+          "keywordHits": [
+            "子育て",
+            "通学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/fukushi/1340/p001226.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年8月28日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/shisetsu/kankou/p002169.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2021年3月15日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/jigyousya/business/1653/p002924.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年8月21日",
+          "keywordHits": [
+            "助成金",
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1443/p002919.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "補助金",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/shisetsu/taiiku/p001460.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2023年8月15日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/pick/pickkankon/p002857.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2024年4月1日",
+          "keywordHits": [
+            "助成金",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kenkou/1231/p002861.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年6月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/fukushi/1337/p002552.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年6月6日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/zei/1157/p001061.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年6月2日",
+          "keywordHits": [
+            "支援金",
+            "減免"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/fukushi/1318/p002913.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/datsutanso/taiyoukou/p002915.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年5月15日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/yoku/teate/5256/p002195.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2024年9月1日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "農業",
+            "子育て"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/fukushi/1318/p002856.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2024年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/datsutanso/datsutansosenkou/p002912.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年5月9日",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "省エネ"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1284/p001179.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "補助金",
+            "減免",
+            "福祉",
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1284/p001177.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/faq/koukifaq/5153/p002125.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/faq/koukifaq/5151/p002123.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/pick/pickbyouki/p001623.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2015年10月21日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/shisetsu/gakkou/p001464.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2016年1月6日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1284/p001173.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2016年1月6日",
+          "keywordHits": [
+            "補助金",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/hoken/1197/p001095.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/hoken/1197/p001094.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1284/p002902.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年3月31日",
+          "keywordHits": [
+            "補助金",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1276/p002117.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2024年10月1日",
+          "keywordHits": [
+            "補助金",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/shisetsu/gakkou/p001465.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2016年1月6日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1284/p001171.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2024年8月31日",
+          "keywordHits": [
+            "補助金",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1284/p001180.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "補助金",
+            "子育て"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kaigo/1211/p001630.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2015年10月21日",
+          "keywordHits": [
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/pick/pickkourei/p001628.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2015年10月21日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kaigo/1211/p001109.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2022年4月28日",
+          "keywordHits": [
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kaigo/1211/p001108.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2015年10月21日",
+          "keywordHits": [
+            "減免",
+            "住宅",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kaigo/1211/p001104.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2021年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1443/p002467.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2024年3月15日",
+          "keywordHits": [
+            "補助金",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kaigo/1211/p001107.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/shisetsu/kyouiku/p001443.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/shisetsu/kyouiku/p001442.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/jigyousya/business/1653/p002685.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/jigyousya/farmar/tyojyu/p002084.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2015年12月24日",
+          "keywordHits": [
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/jigyousya/business/1639/p002176.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月17日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/doboku/1517/p001393.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月17日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/sumai/1471/p001616.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月17日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "農業",
+            "福祉",
+            "耐震"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/faq/sumaifaq/5221/p002160.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月17日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/fukushi/1304/p002840.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月14日",
+          "keywordHits": [
+            "給付金",
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18382",
+          "municipalityName": "池田町",
+          "sourceUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1443/p001324.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年4月11日",
+          "keywordHits": [
+            "補助金",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.town.ikeda.fukui.jp/",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/sitemap.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/news.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/news.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/topics.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/topics.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/toplink/emergency/p002627.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/toplink/emergency/p002627.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/kurashi/anzen/1351/p002809.html",
+          "status": 404,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/kurashi/anzen/1351/p002809.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/kurashi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/kurashi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/news.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/news.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/event/event.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/event/event.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/shisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/shisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/gyousei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/gyousei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/jigyousya/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/jigyousya/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/kurashi/kenkou/1236/p002535.html",
+          "status": 404,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/kurashi/kenkou/1236/p002535.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/jigyousya/business/1639/p002783.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/jigyousya/business/1639/p002783.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/toplink/emergency/p002978.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/toplink/emergency/p002978.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/toplink/emergency/p002975.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/toplink/emergency/p002975.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/toplink/emergency/p002764.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/toplink/emergency/p002764.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/kurashi/datsutanso/machiene/p003008.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/kurashi/datsutanso/machiene/p003008.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/gyousei/gyousei/1928/p002574.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/gyousei/gyousei/1928/p002574.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/yoku/kyujin/p001569.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/yoku/kyujin/p001569.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/gyousei/gyousei/1941/p002997.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/gyousei/gyousei/1941/p002997.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/kurashi/anzen/1361/p003006.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/kurashi/anzen/1361/p003006.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/pick/picktodoke/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/pick/picktodoke/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/pick/pickkankon/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/pick/pickkankon/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/pick/pickkodomo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/pick/pickkodomo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/pick/pickjukyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/pick/pickjukyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/pick/pickbyouki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/pick/pickbyouki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/pick/pickkourei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/pick/pickkourei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/yoku/gomi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/yoku/gomi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/yoku/dl/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/yoku/dl/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/yoku/teate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/yoku/teate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/yoku/bus/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/yoku/bus/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/yoku/soudan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/yoku/soudan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/yoku/kyujin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/yoku/kyujin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/shozoku.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/shozoku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/gyousei/gyousei/1941/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/gyousei/gyousei/1941/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/gyousei/furusato/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/gyousei/furusato/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/about/data/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/about/data/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/inquiry/mailform000004.html?PAGE_NO=toppage2",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/inquiry/mailform000004.html?PAGE_NO=toppage2",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/contents/reiki/reiki_menu.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/contents/reiki/reiki_menu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/faq/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/faq/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/inquiry/mailform000004.html?PAGE_NO=toppage",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/inquiry/mailform000004.html?PAGE_NO=toppage",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/toplink/topetc/p002220.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/toplink/topetc/p002220.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/toplink/topetc/p002221.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/toplink/topetc/p002221.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ikeda.fukui.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ikeda.fukui.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/jigyousya/business/1639/p002783.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/jigyousya/business/1639/p002783.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/toplink/emergency/p002156.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/toplink/emergency/p002156.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/toplink/emergency/p002978.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/toplink/emergency/p002978.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/toplink/emergency/p002627.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/toplink/emergency/p002627.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/toplink/emergency/p002975.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/toplink/emergency/p002975.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/toplink/emergency/p002764.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/toplink/emergency/p002764.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1928/p002574.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1928/p002574.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/datsutanso/machiene/p003008.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/datsutanso/machiene/p003008.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/sumai/1496/p001374.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/sumai/1496/p001374.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/sumai/1496/p001373.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/sumai/1496/p001373.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kaigo/1211/p002316.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kaigo/1211/p002316.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/yoku/kyujin/p001569.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/yoku/kyujin/p001569.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/datsutanso/syouene/p002998.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/datsutanso/syouene/p002998.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/sumai/1471/p002789.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/sumai/1471/p002789.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1921/p001487.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1921/p001487.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1361/p001241.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1361/p001241.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1265/p002867.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1265/p002867.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1423/p001310.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1423/p001310.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1122/p002334.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1122/p002334.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1361/p003007.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1361/p003007.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/faq/seikatsufaq/5201/p002183.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/faq/seikatsufaq/5201/p002183.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1361/p003006.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1361/p003006.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/zei/1175/p002671.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/zei/1175/p002671.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kenkou/1231/p002826.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kenkou/1231/p002826.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/doboku/1510/p001386.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/doboku/1510/p001386.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1929/p002846.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1929/p002846.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/doboku/1510/p001390.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/doboku/1510/p001390.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/doboku/1510/p001389.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/doboku/1510/p001389.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/sumai/1471/p002081.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/sumai/1471/p002081.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1941/p002997.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1941/p002997.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/yoku/teate/5256/p002848.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/yoku/teate/5256/p002848.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1260/p002871.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1260/p002871.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kenkou/1244/p001135.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kenkou/1244/p001135.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kenkou/1244/p001132.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kenkou/1244/p001132.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1928/p002223.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1928/p002223.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/zei/1151/p001055.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/zei/1151/p001055.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1401/p002724.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1401/p002724.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kenkou/1239/p003002.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kenkou/1239/p003002.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1946/p003004.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1946/p003004.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/zei/1169/p003001.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/zei/1169/p003001.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/zei/1169/p002529.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/zei/1169/p002529.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/pick/pickjukyo/p001618.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/pick/pickjukyo/p001618.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1937/p001503.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1937/p001503.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/fukushi/1304/p002906.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/fukushi/1304/p002906.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/fukushi/1304/p002864.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/fukushi/1304/p002864.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1276/p002116.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1276/p002116.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1260/p001150.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1260/p001150.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1924/p002251.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1924/p002251.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1357/p002996.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1357/p002996.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/jigyousya/farmar/1611/p001535.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/jigyousya/farmar/1611/p001535.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/datsutanso/syousuiryoku/p002995.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/datsutanso/syousuiryoku/p002995.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1276/p002991.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1276/p002991.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1276/p002990.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1276/p002990.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1393/p001273.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1393/p001273.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1138/p001042.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1138/p001042.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/datsutanso/kikouhendoutaisaku/p002994.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/datsutanso/kikouhendoutaisaku/p002994.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/about/nouzei/p002976.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/about/nouzei/p002976.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/ringyo/sinrinseibi/p002666.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/ringyo/sinrinseibi/p002666.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1929/p002572.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1929/p002572.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1393/p001274.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1393/p001274.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/yoku/soudan/p002989.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/yoku/soudan/p002989.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/jigyousya/business/1648/p001367.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/jigyousya/business/1648/p001367.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1929/p002706.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1929/p002706.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1943/p002992.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1943/p002992.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/ringyo/sinrinseibi/p002720.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/ringyo/sinrinseibi/p002720.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1380/p001260.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1380/p001260.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1924/p001490.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1924/p001490.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/ringyo/sinrinseibi/p002645.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/ringyo/sinrinseibi/p002645.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1946/p002652.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1946/p002652.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1375/p002468.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1375/p002468.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1941/p002907.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1941/p002907.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1937/p002465.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1937/p002465.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1361/p001251.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1361/p001251.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1284/p002838.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1284/p002838.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/jigyousya/business/1653/p002987.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/jigyousya/business/1653/p002987.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1452/p001334.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1452/p001334.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/ringyo/rindo/p002986.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/ringyo/rindo/p002986.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kaigo/1211/p002985.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kaigo/1211/p002985.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kaigo/1211/p001112.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kaigo/1211/p001112.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1946/p002914.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1946/p002914.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1408/p001292.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1408/p001292.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1924/p001492.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1924/p001492.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1401/p002721.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1401/p002721.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1383/p002811.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/anzen/1383/p002811.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1929/p002533.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1929/p002533.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/nougyou/1013/p002940.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/nougyou/1013/p002940.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/about/yakuba/p002981.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/about/yakuba/p002981.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1126/p002504.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1126/p002504.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1141/p001046.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1141/p001046.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1141/p001044.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1141/p001044.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1126/p001035.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1126/p001035.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1126/p001033.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1126/p001033.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1126/p001030.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1126/p001030.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1109/p001016.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1109/p001016.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1109/p001015.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1109/p001015.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1109/p001014.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1109/p001014.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1109/p001013.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1109/p001013.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/koseki/honninkakunin/p001004.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/koseki/honninkakunin/p001004.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/zei/1180/p002834.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/zei/1180/p002834.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1458/p001341.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1458/p001341.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1946/p002827.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1946/p002827.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1929/p002335.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1929/p002335.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1937/p002880.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1937/p002880.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kenkou/1244/p001134.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kenkou/1244/p001134.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/shisetsu/taiiku/p002490.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/shisetsu/taiiku/p002490.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1423/p001307.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1423/p001307.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1423/p001305.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1423/p001305.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/jigyousya/business/1648/p002977.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/jigyousya/business/1648/p002977.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1251/p001143.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1251/p001143.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/jigyousya/business/1648/p001359.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/jigyousya/business/1648/p001359.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/furusato/1961/p001524.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/furusato/1961/p001524.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/yoku/teate/5256/p002922.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/yoku/teate/5256/p002922.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/event/all/p002823.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/event/all/p002823.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/sumai/1486/p002766.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/sumai/1486/p002766.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/jigyousya/farmar/chokusetsu/p001549.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/jigyousya/farmar/chokusetsu/p001549.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1408/p001289.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1408/p001289.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/fukushi/1340/p001226.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/fukushi/1340/p001226.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1101/p002926.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1101/p002926.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1928/p002605.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1928/p002605.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1928/p002555.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1928/p002555.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/shisetsu/kankou/p002169.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/shisetsu/kankou/p002169.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/jigyousya/business/1653/p002924.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/jigyousya/business/1653/p002924.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1921/p002923.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1921/p002923.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1443/p002919.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1443/p002919.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/shisetsu/taiiku/p001460.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/shisetsu/taiiku/p001460.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/pick/pickkankon/p002857.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/pick/pickkankon/p002857.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kenkou/1231/p002861.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kenkou/1231/p002861.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/fukushi/1337/p002552.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/fukushi/1337/p002552.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/zei/1157/p001061.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/zei/1157/p001061.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1109/p002916.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/koseki/1109/p002916.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/fukushi/1318/p002913.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/fukushi/1318/p002913.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/datsutanso/taiyoukou/p002915.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/datsutanso/taiyoukou/p002915.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/yoku/teate/5256/p002195.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/yoku/teate/5256/p002195.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1946/p001512.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/gyousei/gyousei/1946/p001512.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/fukushi/1318/p002856.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/fukushi/1318/p002856.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/datsutanso/datsutansosenkou/p002912.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/datsutanso/datsutansosenkou/p002912.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1284/p001179.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1284/p001179.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1284/p001177.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1284/p001177.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/faq/koukifaq/5153/p002125.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/faq/koukifaq/5153/p002125.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/faq/koukifaq/5151/p002123.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/faq/koukifaq/5151/p002123.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/pick/pickbyouki/p001623.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/pick/pickbyouki/p001623.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/shisetsu/gakkou/p001464.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/shisetsu/gakkou/p001464.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1462/p001344.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1462/p001344.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1284/p001173.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1284/p001173.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/hoken/1197/p001095.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/hoken/1197/p001095.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/hoken/1197/p001094.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/hoken/1197/p001094.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1284/p002902.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1284/p002902.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1276/p002117.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1276/p002117.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/shisetsu/gakkou/p001465.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/shisetsu/gakkou/p001465.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1438/p001319.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1438/p001319.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1284/p001171.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1284/p001171.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/faq/yakubafaq/5251/p002910.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/faq/yakubafaq/5251/p002910.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1284/p001180.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1284/p001180.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kaigo/1211/p001630.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kaigo/1211/p001630.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/pick/pickkourei/p001628.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/pick/pickkourei/p001628.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kaigo/1211/p001109.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kaigo/1211/p001109.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kaigo/1211/p001108.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kaigo/1211/p001108.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kaigo/1211/p001104.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kaigo/1211/p001104.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1443/p002467.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1443/p002467.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kaigo/1211/p001107.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kaigo/1211/p001107.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/shisetsu/kyouiku/p001443.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/shisetsu/kyouiku/p001443.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/shisetsu/kyouiku/p001442.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/shisetsu/kyouiku/p001442.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1401/p002875.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/bunka/1401/p002875.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/jigyousya/business/1653/p002685.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/jigyousya/business/1653/p002685.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/jigyousya/farmar/tyojyu/p002084.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/jigyousya/farmar/tyojyu/p002084.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/jigyousya/business/1639/p002176.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/jigyousya/business/1639/p002176.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/doboku/1517/p001394.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/doboku/1517/p001394.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/doboku/1517/p001393.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/doboku/1517/p001393.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/sumai/1471/p001616.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/sumai/1471/p001616.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/faq/sumaifaq/5221/p002160.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/faq/sumaifaq/5221/p002160.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/fukushi/1304/p002840.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/fukushi/1304/p002840.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1443/p001324.html",
+          "status": 200,
+          "finalUrl": "http://www.town.ikeda.fukui.jp/kurashi/kosodate/1443/p001324.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

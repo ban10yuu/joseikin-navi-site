@@ -1,0 +1,3817 @@
+{
+  "batchId": "fukui-official-coverage-003",
+  "prefecture": "福井県",
+  "generatedAt": "2026-07-14T17:07:52.355Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 133,
+  "results": [
+    {
+      "code": "18481",
+      "name": "高浜町",
+      "officialBaseUrl": "https://www.town.takahama.fukui.jp/",
+      "discoveredUrlCount": 220,
+      "candidateCount": 133,
+      "strongCandidateCount": 10,
+      "lowPriorityCandidateCount": 123,
+      "candidates": [
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/sanngyousinnkou/p008635_d/fil/takahamadays2025.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/hokenhukusi/p008788.html",
+          "status": 200,
+          "title": "高浜町健康アプリ「たかはまプラス」についてのお知らせ",
+          "h1": "高浜町健康アプリ「たかはまプラス」についてのお知らせ",
+          "updatedAt": "2026年7月6日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/hurusatonouzei/p007260.html",
+          "status": 200,
+          "title": "ふるさと納税での応援をよろしくお願い致します。",
+          "h1": "ふるさと納税での応援をよろしくお願い致します。",
+          "updatedAt": "2025年12月8日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p007003.html",
+          "status": 200,
+          "title": "赤ふんバスフリーパス制度",
+          "h1": "赤ふんバスフリーパス制度",
+          "updatedAt": "2026年6月8日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p007341.html",
+          "status": 200,
+          "title": "高浜町移住定住情報 令和８年度版",
+          "h1": "高浜町移住定住情報 令和８年度版",
+          "updatedAt": "2026年4月27日",
+          "keywordHits": [
+            "補助金",
+            "給付金",
+            "支援金",
+            "移住",
+            "住宅",
+            "空き家",
+            "起業",
+            "子育て",
+            "就学",
+            "奨学金"
+          ],
+          "candidateScore": 27,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/kosodate/index.html",
+          "status": 200,
+          "title": "子育て支援情報",
+          "h1": "子育て支援情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/soumuka/jinnji/p008884.html",
+          "status": 200,
+          "title": "令和８年度高浜町職員採用候補者試験について",
+          "h1": "令和８年度高浜町職員採用候補者試験について",
+          "updatedAt": "2026年7月6日",
+          "keywordHits": [
+            "福祉",
+            "奨学金"
+          ],
+          "candidateScore": 10,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/bousai/takahamazyohonabi.html",
+          "status": 200,
+          "title": "高浜町公式防災アプリ「たかはま情報ナビ」運用について",
+          "h1": "高浜町公式防災アプリ「たかはま情報ナビ」運用について",
+          "updatedAt": "2026年5月29日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/0001/kekkon/index.html",
+          "status": 200,
+          "title": "結婚・離婚",
+          "h1": "結婚・離婚",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/0001/education/index.html",
+          "status": 200,
+          "title": "教育",
+          "h1": "教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "奨学金",
+            "予防接種"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/0001/kourei/index.html",
+          "status": 200,
+          "title": "高齢・介護",
+          "h1": "高齢・介護",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/0001/josei/index.html",
+          "status": 200,
+          "title": "助成・手当",
+          "h1": "助成・手当",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "医療費助成",
+            "移住",
+            "住宅",
+            "福祉",
+            "子育て",
+            "通学"
+          ],
+          "candidateScore": 20,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/0001/kenkou/index.html",
+          "status": 200,
+          "title": "健康・医療",
+          "h1": "健康・医療",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "医療費助成",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/0001/shogai/index.html",
+          "status": 200,
+          "title": "障がい",
+          "h1": "障がい",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/0001/zeikin/index.html",
+          "status": 200,
+          "title": "税金",
+          "h1": "税金",
+          "updatedAt": "2026年6月5日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/sonota/events/event.html",
+          "status": 200,
+          "title": "くらし・イベントカレンダー",
+          "h1": "くらし・イベントカレンダー",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/index/0006/index.html",
+          "status": 200,
+          "title": "公共施設案内",
+          "h1": "公共施設案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/index/application/index.html",
+          "status": 200,
+          "title": "申請書ダウンロード",
+          "h1": "申請書ダウンロード",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "住宅",
+            "創業",
+            "福祉",
+            "子育て",
+            "通学"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/syozoku.html",
+          "status": 200,
+          "title": "各課案内",
+          "h1": "各課案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "水産",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "農業",
+            "林業",
+            "水産",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/hokennfukushi/p008924.html",
+          "status": 200,
+          "title": "高浜町障害者基本計画等策定委員の募集について",
+          "h1": "高浜町障害者基本計画等策定委員の募集について",
+          "updatedAt": "2026年7月13日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/sanngyousinnkou/p008922.html",
+          "status": 200,
+          "title": "ラジコンヘリコプターによる農薬散布について",
+          "h1": "ラジコンヘリコプターによる農薬散布について",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/hokenhukusi/p008919.html",
+          "status": 200,
+          "title": "「おでかけシネマ」の開催について",
+          "h1": "「おでかけシネマ」の開催について",
+          "updatedAt": "2026年7月9日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "http://www.town.takahama.fukui.jp/news2026.html",
+          "status": 200,
+          "title": "新着情報一覧（2026年）",
+          "h1": "新着情報一覧（2026年）",
+          "updatedAt": "2026年7月13日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "創業",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "http://www.town.takahama.fukui.jp/sakatagreentown/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/0008/index.html",
+          "status": 200,
+          "title": "リンク集",
+          "h1": "リンク集",
+          "updatedAt": "2026年4月17日",
+          "keywordHits": [
+            "支援金",
+            "移住",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/p008387_d/fil/roketimap.pdf",
+          "status": 404,
+          "title": "Server Error",
+          "h1": "Server Error",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/life/index.html",
+          "status": 200,
+          "title": "くらし・手続き",
+          "h1": "くらし・手続き",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/life/hoken/index.html",
+          "status": 200,
+          "title": "保健",
+          "h1": "保健",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/life/hoken/kenkou/index.html",
+          "status": 200,
+          "title": "健康づくり",
+          "h1": "健康づくり",
+          "updatedAt": "2026年7月9日",
+          "keywordHits": [
+            "助成金"
+          ],
+          "candidateScore": 10,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/p008788_d/fil/daunro-do.pdf",
+          "status": 404,
+          "title": "Server Error",
+          "h1": "Server Error",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/p008788_d/fil/tukaikata.pdf",
+          "status": 404,
+          "title": "Server Error",
+          "h1": "Server Error",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/p008788_d/fil/pointokoukan.pdf",
+          "status": 404,
+          "title": "Server Error",
+          "h1": "Server Error",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/p008788_d/fil/hapikoinkameiten.pdf",
+          "status": 404,
+          "title": "Server Error",
+          "h1": "Server Error",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "http://www.town.takahama.fukui.jp/page/hokenhukusi/p008788.html",
+          "status": 200,
+          "title": "高浜町健康アプリ「たかはまプラス」についてのお知らせ",
+          "h1": "高浜町健康アプリ「たかはまプラス」についてのお知らせ",
+          "updatedAt": "2026年7月6日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/chosei/government/index.html",
+          "status": 200,
+          "title": "行政",
+          "h1": "行政",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "移住",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/chosei/government/furusato/index.html",
+          "status": 200,
+          "title": "ふるさと納税",
+          "h1": "ふるさと納税",
+          "updatedAt": "2026年6月30日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/hurusatonouzei/p008045.html",
+          "status": 200,
+          "title": "高浜町ふるさと納税 寄附実績・使途報告",
+          "h1": "高浜町ふるさと納税 寄附実績・使途報告",
+          "updatedAt": "2025年9月26日",
+          "keywordHits": [
+            "創業",
+            "事業者",
+            "奨学金"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/p007260_d/fil/onestoputokurei.pdf",
+          "status": 404,
+          "title": "Server Error",
+          "h1": "Server Error",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/p007260_d/fil/onestoptokurei_henkou.pdf",
+          "status": 404,
+          "title": "Server Error",
+          "h1": "Server Error",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/p007260_d/fil/kihusyamousikomi.pdf",
+          "status": 404,
+          "title": "Server Error",
+          "h1": "Server Error",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "http://www.town.takahama.fukui.jp/page/sougouseisaku/hurusatonouzei/p007260.html",
+          "status": 200,
+          "title": "ふるさと納税での応援をよろしくお願い致します。",
+          "h1": "ふるさと納税での応援をよろしくお願い致します。",
+          "updatedAt": "2025年12月8日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/life/douro/index.html",
+          "status": 200,
+          "title": "道路・交通",
+          "h1": "道路・交通",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "通学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/life/douro/koukyoukoutuu/index.html",
+          "status": 200,
+          "title": "公共交通",
+          "h1": "公共交通",
+          "updatedAt": "2026年6月18日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/p007003_d/fil/shinnseisho.docx",
+          "status": 404,
+          "title": "Server Error",
+          "h1": "Server Error",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/p007003_d/fil/ininjou.doc",
+          "status": 404,
+          "title": "Server Error",
+          "h1": "Server Error",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/p007003_d/fil/chirashi.pdf",
+          "status": 404,
+          "title": "Server Error",
+          "h1": "Server Error",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/p007003_d/fil/chirashi2.pdf",
+          "status": 404,
+          "title": "Server Error",
+          "h1": "Server Error",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "http://www.town.takahama.fukui.jp/page/sougouseisaku/p007003.html",
+          "status": 200,
+          "title": "赤ふんバスフリーパス制度",
+          "h1": "赤ふんバスフリーパス制度",
+          "updatedAt": "2026年6月8日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/life/sumai/index.html",
+          "status": 200,
+          "title": "住まい",
+          "h1": "住まい",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "支援金",
+            "移住",
+            "住宅",
+            "空き家",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/p006487.html",
+          "status": 200,
+          "title": "学校教育パンフレット「まなび -第４版-」の発行について",
+          "h1": "学校教育パンフレット「まなび -第４版-」の発行について",
+          "updatedAt": "2026年6月25日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "給付金",
+            "医療費助成",
+            "子育て",
+            "就学",
+            "奨学金",
+            "通学"
+          ],
+          "candidateScore": 23,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/kodomomirai/p007445.html",
+          "status": 200,
+          "title": "子育て支援パンフレット「みらい」第２版の発行について",
+          "h1": "子育て支援パンフレット「みらい」第２版の発行について",
+          "updatedAt": "2025年10月1日",
+          "keywordHits": [
+            "移住",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/sanngyousinnkou/chiikiokoshi.html",
+          "status": 200,
+          "title": "地域おこし協力隊を募集します！【水産振興】",
+          "h1": "地域おこし協力隊を募集します！【水産振興】",
+          "updatedAt": "2026年1月9日",
+          "keywordHits": [
+            "支援金",
+            "移住",
+            "住宅",
+            "空き家",
+            "起業",
+            "水産",
+            "子育て"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/sanngyousinnkou/p008688.html",
+          "status": 200,
+          "title": "地域おこし協力隊を募集します！【サイクルツーリズム推進】",
+          "h1": "地域おこし協力隊を募集します！【サイクルツーリズム推進】",
+          "updatedAt": "2026年1月27日",
+          "keywordHits": [
+            "支援金",
+            "移住",
+            "住宅",
+            "水産"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/chiikiokoshi/p007743.html",
+          "status": 200,
+          "title": "地域おこし協力隊インターンを募集します。",
+          "h1": "地域おこし協力隊インターンを募集します。",
+          "updatedAt": "2025年10月17日",
+          "keywordHits": [
+            "移住",
+            "起業",
+            "水産",
+            "奨学金"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p007556.html",
+          "status": 200,
+          "title": "高浜町の子育て・教育・しごと・住まい・移住の主な支援制度",
+          "h1": "高浜町の子育て・教育・しごと・住まい・移住の主な支援制度",
+          "updatedAt": "2026年4月28日",
+          "keywordHits": [
+            "補助金",
+            "給付金",
+            "支援金",
+            "奨励金",
+            "貸付",
+            "医療費助成",
+            "移住",
+            "住宅",
+            "空き家",
+            "創業",
+            "起業",
+            "事業者",
+            "水産",
+            "子育て",
+            "就学",
+            "奨学金",
+            "耐震",
+            "不妊",
+            "妊婦",
+            "通学"
+          ],
+          "candidateScore": 36,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/p007341_d/fil/shienseido202311.pdf",
+          "status": 404,
+          "title": "Server Error",
+          "h1": "Server Error",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "http://www.town.takahama.fukui.jp/page/sougouseisaku/p007341.html",
+          "status": 200,
+          "title": "高浜町移住定住情報 令和８年度版",
+          "h1": "高浜町移住定住情報 令和８年度版",
+          "updatedAt": "2026年4月27日",
+          "keywordHits": [
+            "補助金",
+            "給付金",
+            "支援金",
+            "移住",
+            "住宅",
+            "空き家",
+            "起業",
+            "子育て",
+            "就学",
+            "奨学金"
+          ],
+          "candidateScore": 27,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p008869.html",
+          "status": 200,
+          "title": "あなたの声を届ける窓口",
+          "h1": "あなたの声を届ける窓口",
+          "updatedAt": "2026年7月2日",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "水産"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/machi.html",
+          "status": 200,
+          "title": "高浜町地域おこし協力隊(まちづくりコーディネーター)を募集します！",
+          "h1": "高浜町地域おこし協力隊(まちづくりコーディネーター)を募集します！",
+          "updatedAt": "2026年6月12日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "起業",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/ijyu-teijyu/p008561.html",
+          "status": 200,
+          "title": "【終了しました】【11/1（土）＠東京】「北陸３県くらし＆しごとフェア」に出展します",
+          "h1": "【終了しました】【11/1（土）＠東京】「北陸３県くらし＆しごとフェア」に出展します",
+          "updatedAt": "2025年11月18日",
+          "keywordHits": [
+            "支援金",
+            "移住",
+            "水産"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/p006108.html",
+          "status": 200,
+          "title": "高浜町ＵＩターン奨学金返還サポート制度のご案内",
+          "h1": "高浜町ＵＩターン奨学金返還サポート制度のご案内",
+          "updatedAt": "2026年4月23日",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "移住",
+            "就学",
+            "奨学金"
+          ],
+          "candidateScore": 29,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p007559.html",
+          "status": 200,
+          "title": "福井県外から高浜町へ移住された方に、移住支援金（全国型）を支給します。",
+          "h1": "福井県外から高浜町へ移住された方に、移住支援金（全国型）を支給します。",
+          "updatedAt": "2026年4月9日",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "移住",
+            "創業",
+            "起業",
+            "水産",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 29,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p007464.html",
+          "status": 200,
+          "title": "東京圏から移住される方へ 移住支援金（東京圏型）をサポート",
+          "h1": "東京圏から移住される方へ 移住支援金（東京圏型）をサポート",
+          "updatedAt": "2026年4月9日",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "移住",
+            "創業",
+            "起業",
+            "事業者",
+            "水産",
+            "奨学金",
+            "通学"
+          ],
+          "candidateScore": 29,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/r8-gakudou.html",
+          "status": 200,
+          "title": "令和８年度 高浜町放課後児童クラブ利用児童募集案内",
+          "h1": "令和８年度 高浜町放課後児童クラブ利用児童募集案内",
+          "updatedAt": "2026年1月20日",
+          "keywordHits": [
+            "減免",
+            "免除",
+            "医療費助成",
+            "移住",
+            "農業",
+            "福祉",
+            "子育て",
+            "通学"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p007829.html",
+          "status": 200,
+          "title": "住宅の太陽光・蓄電池設備の導入を支援します",
+          "h1": "住宅の太陽光・蓄電池設備の導入を支援します",
+          "updatedAt": "2026年4月21日",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p006465.html",
+          "status": 200,
+          "title": "高浜ワーケーション～旅するような働き方・暮らし方・生き方～",
+          "h1": "高浜ワーケーション～旅するような働き方・暮らし方・生き方～",
+          "updatedAt": "2024年1月4日",
+          "keywordHits": [
+            "支援金",
+            "移住",
+            "奨学金"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/admin/p007204.html",
+          "status": 200,
+          "title": "高浜町で受けられる教育・子育て支援制度",
+          "h1": "高浜町で受けられる教育・子育て支援制度",
+          "updatedAt": "2024年6月19日",
+          "keywordHits": [
+            "給付金",
+            "減免",
+            "医療費助成",
+            "移住",
+            "福祉",
+            "子育て",
+            "就学",
+            "奨学金",
+            "通学"
+          ],
+          "candidateScore": 24,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/chosei/government/jinji/index.html",
+          "status": 200,
+          "title": "人事・採用",
+          "h1": "人事・採用",
+          "updatedAt": "2026年7月6日",
+          "keywordHits": [
+            "水産"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/p008884_d/fil/saiyou.pdf",
+          "status": 404,
+          "title": "Server Error",
+          "h1": "Server Error",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/p008884_d/fil/reinan.pdf",
+          "status": 404,
+          "title": "Server Error",
+          "h1": "Server Error",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/p008884_d/fil/reihoku.pdf",
+          "status": 404,
+          "title": "Server Error",
+          "h1": "Server Error",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "http://www.town.takahama.fukui.jp/page/soumuka/jinnji/p008884.html",
+          "status": 200,
+          "title": "令和８年度高浜町職員採用候補者試験について",
+          "h1": "令和８年度高浜町職員採用候補者試験について",
+          "updatedAt": "2026年7月6日",
+          "keywordHits": [
+            "福祉",
+            "奨学金"
+          ],
+          "candidateScore": 10,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/0005/sports/index.html",
+          "status": 200,
+          "title": "スポーツ",
+          "h1": "スポーツ",
+          "updatedAt": "2026年7月2日",
+          "keywordHits": [
+            "補助金",
+            "助成金"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p008904.html",
+          "status": 200,
+          "title": "西嶋町長の活動（令和8年6月15日～6月21日）",
+          "h1": "西嶋町長の活動（令和8年6月15日～6月21日）",
+          "updatedAt": "2026年6月25日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/takahamazyohonabi_d/fil/manual.pdf",
+          "status": 404,
+          "title": "Server Error",
+          "h1": "Server Error",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "http://www.town.takahama.fukui.jp/page/bousai/takahamazyohonabi.html",
+          "status": 200,
+          "title": "高浜町公式防災アプリ「たかはま情報ナビ」運用について",
+          "h1": "高浜町公式防災アプリ「たかはま情報ナビ」運用について",
+          "updatedAt": "2026年5月29日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/0001/index.html",
+          "status": 200,
+          "title": "目的・シーンから探す",
+          "h1": "目的・シーンから探す",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p008752.html",
+          "status": 200,
+          "title": "結婚新生活を応援します!",
+          "h1": "結婚新生活を応援します!",
+          "updatedAt": "2026年6月5日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "支援金",
+            "住宅",
+            "空き家",
+            "奨学金"
+          ],
+          "candidateScore": 27,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/0001/kekkon/hitorioya/index.html",
+          "status": 200,
+          "title": "ひとり親家庭・児童福祉",
+          "h1": "ひとり親家庭・児童福祉",
+          "updatedAt": "2025年1月8日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/p008764.html",
+          "status": 200,
+          "title": "【郷土資料館】特集展示の開催について",
+          "h1": "【郷土資料館】特集展示の開催について",
+          "updatedAt": "2026年3月27日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/0001/education/child/index.html",
+          "status": 200,
+          "title": "子育て・保育",
+          "h1": "子育て・保育",
+          "updatedAt": "2025年4月28日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/kodomomirai/p008297.html",
+          "status": 200,
+          "title": "第３期高浜町子ども・子育て支援事業計画について",
+          "h1": "第３期高浜町子ども・子育て支援事業計画について",
+          "updatedAt": "2025年4月28日",
+          "keywordHits": [
+            "医療費助成",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/ijyu-teijyu/p006113.html",
+          "status": 200,
+          "title": "子育て支援活動kurumu（くるむ）2019年度グッドデザイン賞受賞！",
+          "h1": "子育て支援活動kurumu（くるむ）2019年度グッドデザイン賞受賞！",
+          "updatedAt": "2023年11月24日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/0001/education/yobou/index.html",
+          "status": 200,
+          "title": "予防接種",
+          "h1": "予防接種",
+          "updatedAt": "2025年1月8日",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/0001/education/kyouikuiinkai/index.html",
+          "status": 200,
+          "title": "教育委員会",
+          "h1": "教育委員会",
+          "updatedAt": "2026年7月13日",
+          "keywordHits": [
+            "補助金",
+            "子育て",
+            "奨学金",
+            "通学"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/0001/education/school/index.html",
+          "status": 200,
+          "title": "小中学校",
+          "h1": "小中学校",
+          "updatedAt": "2026年7月2日",
+          "keywordHits": [
+            "通学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/0001/education/shougaigakushuu/index.html",
+          "status": 200,
+          "title": "生涯学習",
+          "h1": "生涯学習",
+          "updatedAt": "2026年5月22日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/hokennfukushi/p006900.html",
+          "status": 200,
+          "title": "介護職員初任者研修の受講者募集",
+          "h1": "介護職員初任者研修の受講者募集",
+          "updatedAt": "2026年4月30日",
+          "keywordHits": [
+            "奨励金",
+            "福祉"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/hokennfukushi/p000000.html",
+          "status": 200,
+          "title": "在宅介護福祉サービス",
+          "h1": "在宅介護福祉サービス",
+          "updatedAt": "2026年4月24日",
+          "keywordHits": [
+            "支援金",
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/0001/kourei/koureisha/index.html",
+          "status": 200,
+          "title": "高齢者",
+          "h1": "高齢者",
+          "updatedAt": "2026年4月30日",
+          "keywordHits": [
+            "奨励金",
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/tiikifukusisuishinnshitsu/p008828.html",
+          "status": 200,
+          "title": "高浜町高齢者生活福祉センター「青葉苑」",
+          "h1": "高浜町高齢者生活福祉センター「青葉苑」",
+          "updatedAt": "2026年5月7日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/tiikifukusisuishinnshitsu/p008826.html",
+          "status": 200,
+          "title": "高浜町成年後見センターについて",
+          "h1": "高浜町成年後見センターについて",
+          "updatedAt": "2026年4月22日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/tiikifukusisuishinnshitsu/p008282.html",
+          "status": 200,
+          "title": "在宅介護支援センター",
+          "h1": "在宅介護支援センター",
+          "updatedAt": "2026年4月17日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/tiikifukusisuishinnshitsu/gyakutai.html",
+          "status": 200,
+          "title": "高齢者や障がい者等への虐待に対する相談",
+          "h1": "高齢者や障がい者等への虐待に対する相談",
+          "updatedAt": "2026年4月22日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/0001/kourei/kaigohoken/index.html",
+          "status": 200,
+          "title": "介護保険",
+          "h1": "介護保険",
+          "updatedAt": "2026年4月30日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/hokennfukushi/p007137.html",
+          "status": 200,
+          "title": "介護保険関係申請書・届出書様式ダウンロード",
+          "h1": "介護保険関係申請書・届出書様式ダウンロード",
+          "updatedAt": "2026年6月25日",
+          "keywordHits": [
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/hokennfukushi/p008705.html",
+          "status": 200,
+          "title": "介護事業所の指定申請等における電子申請届出システム",
+          "h1": "介護事業所の指定申請等における電子申請届出システム",
+          "updatedAt": "2026年2月9日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/hokennfukushi/p008070.html",
+          "status": 200,
+          "title": "介護サービス事業所指定関係各種申請・届出書等（介護サービス事業所向け）",
+          "h1": "介護サービス事業所指定関係各種申請・届出書等（介護サービス事業所向け）",
+          "updatedAt": "2026年7月2日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/hokennfukushi/p007843.html",
+          "status": 200,
+          "title": "「第10次高浜町高齢者福祉計画・第9期介護保険事業計画」「高浜町第7期障害福祉計画・第3期障害児福祉計画」の策定について",
+          "h1": "「第10次高浜町高齢者福祉計画・第9期介護保険事業計画」「高浜町第7期障害福祉計画・第3期障害児福祉計画」の策定について",
+          "updatedAt": "2024年4月5日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/kodomomirai/p008725.html",
+          "status": 200,
+          "title": "物価高対応子育て応援手当のご案内",
+          "h1": "物価高対応子育て応援手当のご案内",
+          "updatedAt": "2026年2月17日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/kodomomirai/p008329.html",
+          "status": 200,
+          "title": "高浜町ひとり親家庭等習い事支援事業",
+          "h1": "高浜町ひとり親家庭等習い事支援事業",
+          "updatedAt": "2025年12月25日",
+          "keywordHits": [
+            "補助金",
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/0001/josei/kurashi/index.html",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "2025年10月6日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p007879.html",
+          "status": 200,
+          "title": "福井県パートナーシップ宣誓制度の導入に基づく、行政サービスの提供について",
+          "h1": "福井県パートナーシップ宣誓制度の導入に基づく、行政サービスの提供について",
+          "updatedAt": "2025年10月6日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/hokennfukushi/p007599.html",
+          "status": 200,
+          "title": "障がい者支援施設等通所交通費助成について",
+          "h1": "障がい者支援施設等通所交通費助成について",
+          "updatedAt": "2023年9月12日",
+          "keywordHits": [
+            "助成金",
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/0001/josei/kyoiku/index.html",
+          "status": 200,
+          "title": "子ども・教育",
+          "h1": "子ども・教育",
+          "updatedAt": "2026年2月17日",
+          "keywordHits": [
+            "補助金",
+            "医療費助成",
+            "子育て",
+            "通学"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/p007214.html",
+          "status": 200,
+          "title": "「高浜町高等学校等生徒入寮費助成事業補助金」",
+          "h1": "「高浜町高等学校等生徒入寮費助成事業補助金」",
+          "updatedAt": "2026年3月18日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "住宅",
+            "通学"
+          ],
+          "candidateScore": 26,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/p007170.html",
+          "status": 200,
+          "title": "高浜町生涯学習コーディネーター研修受講料補助金について",
+          "h1": "高浜町生涯学習コーディネーター研修受講料補助金について",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "空き家",
+            "福祉"
+          ],
+          "candidateScore": 26,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/iinkai/koukouseitugakuhojo.html",
+          "status": 200,
+          "title": "高校生通学費助成について",
+          "h1": "高校生通学費助成について",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "助成金",
+            "通学"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/0001/josei/kenkou/index.html",
+          "status": 200,
+          "title": "健康・医療・福祉",
+          "h1": "健康・医療・福祉",
+          "updatedAt": "2025年1月8日",
+          "keywordHits": [
+            "助成金",
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/hokenhukusi/p003462.html",
+          "status": 200,
+          "title": "高浜町禁煙外来治療費助成金の交付について",
+          "h1": "高浜町禁煙外来治療費助成金の交付について",
+          "updatedAt": "2025年4月10日",
+          "keywordHits": [
+            "助成金",
+            "福祉"
+          ],
+          "candidateScore": 22,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/hokennfukushi/syougai.html",
+          "status": 200,
+          "title": "重度障害者等医療費助成事業",
+          "h1": "重度障害者等医療費助成事業",
+          "updatedAt": "2024年10月7日",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 16,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/tiikifukusisuishinnshitsu/seikatsuhogo.html",
+          "status": 200,
+          "title": "生活に困窮したときの支援",
+          "h1": "生活に困窮したときの支援",
+          "updatedAt": "2026年4月20日",
+          "keywordHits": [
+            "貸付",
+            "福祉",
+            "就学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p007624.html",
+          "status": 200,
+          "title": "令和８年度 国民健康保険 人間ドック・脳ドック受診費用助成について",
+          "h1": "令和８年度 国民健康保険 人間ドック・脳ドック受診費用助成について",
+          "updatedAt": "2026年3月27日",
+          "keywordHits": [
+            "助成金"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/kokunen.html",
+          "status": 200,
+          "title": "国民年金",
+          "h1": "国民年金",
+          "updatedAt": "2025年10月2日",
+          "keywordHits": [
+            "給付金",
+            "免除"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/0001/kokuho/chojyu/index.html",
+          "status": 200,
+          "title": "国民健康保険・長寿医療",
+          "h1": "国民健康保険・長寿医療",
+          "updatedAt": "2026年3月27日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p007993.html",
+          "status": 200,
+          "title": "健康保険証の新規発行の廃止について",
+          "h1": "健康保険証の新規発行の廃止について",
+          "updatedAt": "2025年6月23日",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p006457.html",
+          "status": 200,
+          "title": "セルフメディケーションを行いましょう",
+          "h1": "セルフメディケーションを行いましょう",
+          "updatedAt": "2020年10月8日",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p006880.html",
+          "status": 200,
+          "title": "マイナンバーカードの健康保険証としての利用について",
+          "h1": "マイナンバーカードの健康保険証としての利用について",
+          "updatedAt": "2024年10月16日",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/kodomomirai/p008526.html",
+          "status": 200,
+          "title": "令和8年度保育所・認定こども園の入所・入園の申し込みについて",
+          "h1": "令和8年度保育所・認定こども園の入所・入園の申し込みについて",
+          "updatedAt": "2025年9月18日",
+          "keywordHits": [
+            "起業",
+            "就学"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/0001/kenkou/iryo/index.html",
+          "status": 200,
+          "title": "医療",
+          "h1": "医療",
+          "updatedAt": "2026年5月7日",
+          "keywordHits": [
+            "助成金"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/hokenhukusi/p007470.html",
+          "status": 200,
+          "title": "令和８年度の休日当番医",
+          "h1": "令和８年度の休日当番医",
+          "updatedAt": "2026年5月7日",
+          "keywordHits": [
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/hokenhukusi/kenkouzousin1.html",
+          "status": 200,
+          "title": "令和８年度健診・がん検診等について",
+          "h1": "令和８年度健診・がん検診等について",
+          "updatedAt": "2026年5月29日",
+          "keywordHits": [
+            "助成金",
+            "福祉"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/hokenhukusi/hokenfukushika/p008088.html",
+          "status": 200,
+          "title": "【土曜日の相談時間拡充】＃８０００子ども救急医療電話相談＜福井県＞",
+          "h1": "【土曜日の相談時間拡充】＃８０００子ども救急医療電話相談＜福井県＞",
+          "updatedAt": "2024年9月20日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/hokenhukusi/hokenfukushika/p008083.html",
+          "status": 200,
+          "title": "【１０月１日～スタート】＃７１１９おとなの救急医療電話相談＜福井県＞",
+          "h1": "【１０月１日～スタート】＃７１１９おとなの救急医療電話相談＜福井県＞",
+          "updatedAt": "2024年9月20日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/hokenhukusi/p007569.html",
+          "status": 200,
+          "title": "アピアランスサポート事業助成金について",
+          "h1": "アピアランスサポート事業助成金について",
+          "updatedAt": "2024年10月17日",
+          "keywordHits": [
+            "助成金",
+            "福祉"
+          ],
+          "candidateScore": 22,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/hokenhukusi/singatakorona.html",
+          "status": 200,
+          "title": "新型コロナウイルス感染症について",
+          "h1": "新型コロナウイルス感染症について",
+          "updatedAt": "2020年11月2日",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/0001/kenkou/kenkouzukuri/index.html",
+          "status": 200,
+          "title": "健康づくり",
+          "h1": "健康づくり",
+          "updatedAt": "2026年7月9日",
+          "keywordHits": [
+            "助成金"
+          ],
+          "candidateScore": 10,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/hokenhukusi/takachalle/p008292.html",
+          "status": 200,
+          "title": "第４次たかはま健康チャレンジプラン",
+          "h1": "第４次たかはま健康チャレンジプラン",
+          "updatedAt": "2025年4月25日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/socialwell-being/p007242.html",
+          "status": 200,
+          "title": "高浜町SDGsアクション特設ページ",
+          "h1": "高浜町SDGsアクション特設ページ",
+          "updatedAt": "2024年10月23日",
+          "keywordHits": [
+            "支援金",
+            "移住",
+            "奨学金"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/hokenhukusi/takachalle/p003748.html",
+          "status": 200,
+          "title": "第３次たかはま健康チャレンジプラン",
+          "h1": "第３次たかはま健康チャレンジプラン",
+          "updatedAt": "2019年6月3日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/page/hokenhukusi/p003668.html",
+          "status": 200,
+          "title": "『赤ふん坊や体操のご案内』",
+          "h1": "『赤ふん坊や体操のご案内』",
+          "updatedAt": "2026年4月14日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18481",
+          "municipalityName": "高浜町",
+          "sourceUrl": "https://www.town.takahama.fukui.jp/0001/kenkou/child/index.html",
+          "status": 200,
+          "title": "子育て・保育",
+          "h1": "子育て・保育",
+          "updatedAt": "2025年12月25日",
+          "keywordHits": [
+            "医療費助成",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.town.takahama.fukui.jp/",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.takahama.fukui.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.takahama.fukui.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.town.takahama.fukui.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/admin/kensaku.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/admin/kensaku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/admin/p006473.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/admin/p006473.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sanngyousinnkou/p008635_d/fil/takahamadays2025.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sanngyousinnkou/p008635_d/fil/takahamadays2025.pdf",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.takahama.fukui.jp/page/sanngyousinnkou/p008387.html",
+          "status": 200,
+          "finalUrl": "http://www.town.takahama.fukui.jp/page/sanngyousinnkou/p008387.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/hokenhukusi/p008788.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/hokenhukusi/p008788.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/hurusatonouzei/p007260.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/hurusatonouzei/p007260.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p007003.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p007003.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p007341.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p007341.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/soumuka/jinnji/p008884.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/soumuka/jinnji/p008884.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/soumuka/jinnji/p008909.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/soumuka/jinnji/p008909.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/soumuka/jinnji/p008908.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/soumuka/jinnji/p008908.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p008923.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p008923.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/bousai/takahamazyohonabi.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/bousai/takahamazyohonabi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/kekkon/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/kekkon/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/education/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/education/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/kourei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/kourei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/shibou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/shibou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/josei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/josei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/kokuho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/kokuho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/kenkou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/kenkou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/shogai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/shogai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/zeikin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/zeikin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/gomi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/gomi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/todoke/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/todoke/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/nyusatsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/nyusatsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/sonota/events/event.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/sonota/events/event.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/index/0006/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/index/0006/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/bus.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/bus.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/index/application/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/index/application/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/syozoku.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/syozoku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.takahama.fukui.jp/reiki/reiki_menu.html",
+          "status": 200,
+          "finalUrl": "http://www.town.takahama.fukui.jp/reiki/reiki_menu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p008033.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p008033.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/toshokan.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/toshokan.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/sonota/events/touban/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/sonota/events/touban/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/bousai/p001274.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/bousai/p001274.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/chosei/0003/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/chosei/0003/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/gikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/gikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/kouhou1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/kouhou1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0004/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0004/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/hokennfukushi/p008924.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/hokennfukushi/p008924.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/p008934.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/p008934.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/p008918.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/p008918.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kensetuseibi/p008483.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kensetuseibi/p008483.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sanngyousinnkou/p008922.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sanngyousinnkou/p008922.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p008929.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p008929.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/p008920.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/p008920.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/p008894.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/p008894.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/hokenhukusi/p008919.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/hokenhukusi/p008919.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p008926.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p008926.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.takahama.fukui.jp/news2026.html",
+          "status": 200,
+          "finalUrl": "http://www.town.takahama.fukui.jp/news2026.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/news.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/news.xml",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.takahama.fukui.jp/sakatagreentown/",
+          "status": 200,
+          "finalUrl": "http://www.town.takahama.fukui.jp/sakatagreentown/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.takahama.fukui.jp/page/jyuminseikatu/p002506.html",
+          "status": 200,
+          "finalUrl": "http://www.town.takahama.fukui.jp/page/jyuminseikatu/p002506.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/admin/goiken.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/admin/goiken.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/admin/kojinjyouhou.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/admin/kojinjyouhou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/admin/chosaku.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/admin/chosaku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0008/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0008/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.takahama.fukui.jp/page/admin/kensaku.html",
+          "status": 200,
+          "finalUrl": "http://www.town.takahama.fukui.jp/page/admin/kensaku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/benrityou2.html",
+          "status": 404,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/benrityou2.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.takahama.fukui.jp/page/admin/p006473.html",
+          "status": 200,
+          "finalUrl": "http://www.town.takahama.fukui.jp/page/admin/p006473.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0005/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0005/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0005/0502/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0005/0502/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0005/0502/3701/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0005/0502/3701/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/p008387_d/fil/roketimap.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.takahama.fukui.jp/p008387_d/fil/roketimap.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/life/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/life/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/life/hoken/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/life/hoken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/life/hoken/kenkou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/life/hoken/kenkou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/p008788_d/fil/daunro-do.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.takahama.fukui.jp/p008788_d/fil/daunro-do.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/p008788_d/fil/tukaikata.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.takahama.fukui.jp/p008788_d/fil/tukaikata.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/p008788_d/fil/pointokoukan.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.takahama.fukui.jp/p008788_d/fil/pointokoukan.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/p008788_d/fil/hapikoinkameiten.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.takahama.fukui.jp/p008788_d/fil/hapikoinkameiten.pdf",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.takahama.fukui.jp/page/hokenhukusi/p008788.html",
+          "status": 200,
+          "finalUrl": "http://www.town.takahama.fukui.jp/page/hokenhukusi/p008788.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/chosei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/chosei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/chosei/government/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/chosei/government/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/chosei/government/furusato/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/chosei/government/furusato/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/hurusatonouzei/p008045.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/hurusatonouzei/p008045.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/p007260_d/fil/onestoputokurei.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.takahama.fukui.jp/p007260_d/fil/onestoputokurei.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/p007260_d/fil/onestoptokurei_henkou.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.takahama.fukui.jp/p007260_d/fil/onestoptokurei_henkou.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/p007260_d/fil/kihusyamousikomi.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.takahama.fukui.jp/p007260_d/fil/kihusyamousikomi.pdf",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.takahama.fukui.jp/page/sougouseisaku/hurusatonouzei/p007260.html",
+          "status": 200,
+          "finalUrl": "http://www.town.takahama.fukui.jp/page/sougouseisaku/hurusatonouzei/p007260.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/life/douro/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/life/douro/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/life/douro/koukyoukoutuu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/life/douro/koukyoukoutuu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/p007003_d/fil/shinnseisho.docx",
+          "status": 404,
+          "finalUrl": "https://www.town.takahama.fukui.jp/p007003_d/fil/shinnseisho.docx",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/p007003_d/fil/ininjou.doc",
+          "status": 404,
+          "finalUrl": "https://www.town.takahama.fukui.jp/p007003_d/fil/ininjou.doc",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/p007003_d/fil/chirashi.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.takahama.fukui.jp/p007003_d/fil/chirashi.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/p007003_d/fil/chirashi2.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.takahama.fukui.jp/p007003_d/fil/chirashi2.pdf",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.takahama.fukui.jp/page/sougouseisaku/p007003.html",
+          "status": 200,
+          "finalUrl": "http://www.town.takahama.fukui.jp/page/sougouseisaku/p007003.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/life/sumai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/life/sumai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/p006487.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/p006487.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kodomomirai/p007445.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kodomomirai/p007445.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sanngyousinnkou/chiikiokoshi.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sanngyousinnkou/chiikiokoshi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sanngyousinnkou/p008688.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sanngyousinnkou/p008688.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/chiikiokoshi/p007743.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/chiikiokoshi/p007743.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p007556.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p007556.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/p007341_d/fil/shienseido202311.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.takahama.fukui.jp/p007341_d/fil/shienseido202311.pdf",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.takahama.fukui.jp/page/sougouseisaku/p007341.html",
+          "status": 200,
+          "finalUrl": "http://www.town.takahama.fukui.jp/page/sougouseisaku/p007341.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p008869.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p008869.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/machi.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/machi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/ijyu-teijyu/p008561.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/ijyu-teijyu/p008561.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/p006108.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/p006108.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p007559.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p007559.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p007464.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p007464.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/r8-gakudou.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/r8-gakudou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p007829.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p007829.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p006465.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p006465.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/admin/p007204.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/admin/p007204.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/chosei/government/jinji/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/chosei/government/jinji/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/p008884_d/fil/saiyou.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.takahama.fukui.jp/p008884_d/fil/saiyou.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/p008884_d/fil/reinan.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.takahama.fukui.jp/p008884_d/fil/reinan.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/p008884_d/fil/reihoku.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.takahama.fukui.jp/p008884_d/fil/reihoku.pdf",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.takahama.fukui.jp/page/soumuka/jinnji/p008884.html",
+          "status": 200,
+          "finalUrl": "http://www.town.takahama.fukui.jp/page/soumuka/jinnji/p008884.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/iinkai/p008633.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/iinkai/p008633.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/soumuka/tachiainin.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/soumuka/tachiainin.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/soumuka/jinjigyousei.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/soumuka/jinjigyousei.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.takahama.fukui.jp/page/soumuka/jinnji/p008909.html",
+          "status": 200,
+          "finalUrl": "http://www.town.takahama.fukui.jp/page/soumuka/jinnji/p008909.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.takahama.fukui.jp/page/soumuka/jinnji/p008908.html",
+          "status": 200,
+          "finalUrl": "http://www.town.takahama.fukui.jp/page/soumuka/jinnji/p008908.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0005/sports/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0005/sports/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.takahama.fukui.jp/page/sougouseisaku/p008923.html",
+          "status": 200,
+          "finalUrl": "http://www.town.takahama.fukui.jp/page/sougouseisaku/p008923.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/p008906.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/p008906.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p008913.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p008913.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p008904.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p008904.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/p008889.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/p008889.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/p008888.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/p008888.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p008898.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p008898.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p008890.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p008890.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/takahamazyohonabi_d/fil/manual.pdf",
+          "status": 404,
+          "finalUrl": "https://www.town.takahama.fukui.jp/takahamazyohonabi_d/fil/manual.pdf",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.takahama.fukui.jp/page/bousai/takahamazyohonabi.html",
+          "status": 200,
+          "finalUrl": "http://www.town.takahama.fukui.jp/page/bousai/takahamazyohonabi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/kekkon/koin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/kekkon/koin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p008752.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/p008752.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/soumuka/p008181.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/soumuka/p008181.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/honnintuuti.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/honnintuuti.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/koseki-1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/koseki-1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/kekkon/hoken/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/kekkon/hoken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/kekkon/hitorioya/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/kekkon/hitorioya/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/kyusyoku/p008921.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/kyusyoku/p008921.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/p008848.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/p008848.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/p008823.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/p008823.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/p008764.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/p008764.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/p006241.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/p006241.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/education/baby/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/education/baby/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/education/child/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/education/child/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kodomomirai/p008297.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kodomomirai/p008297.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/ijyu-teijyu/p006113.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/ijyu-teijyu/p006113.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/education/kodomoiryo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/education/kodomoiryo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/education/yobou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/education/yobou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/education/kyouikuiinkai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/education/kyouikuiinkai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/p007978.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/p007978.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/p008822.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/p008822.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/education/school/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/education/school/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/iinkai/zenkokugakucho2025.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/iinkai/zenkokugakucho2025.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/iinkai/p007472.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/iinkai/p007472.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/kyusyoku/p007159.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/kyusyoku/p007159.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/kyusyoku/p006654.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/kyusyoku/p006654.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p006479.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p006479.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/education/shougaigakushuu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/education/shougaigakushuu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/p006936.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/p006936.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/p007455.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/p007455.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/p007917.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/p007917.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/hokennfukushi/p006900.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/hokennfukushi/p006900.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/hokennfukushi/p000000.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/hokennfukushi/p000000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/kourei/koureisha/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/kourei/koureisha/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/tiikifukusisuishinnshitsu/p008828.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/tiikifukusisuishinnshitsu/p008828.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/tiikifukusisuishinnshitsu/p008826.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/tiikifukusisuishinnshitsu/p008826.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/tiikifukusisuishinnshitsu/p008282.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/tiikifukusisuishinnshitsu/p008282.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/tiikifukusisuishinnshitsu/gyakutai.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/tiikifukusisuishinnshitsu/gyakutai.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/kourei/kaigohoken/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/kourei/kaigohoken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/hokennfukushi/p007137.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/hokennfukushi/p007137.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/hokennfukushi/p008705.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/hokennfukushi/p008705.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/hokennfukushi/p008070.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/hokennfukushi/p008070.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/hokennfukushi/p007843.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/hokennfukushi/p007843.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/kourei/chiiki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/kourei/chiiki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/shibou/shiboutodoke/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/shibou/shiboutodoke/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/shibou/zeikin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/shibou/zeikin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/zeimu/p003491.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/zeimu/p003491.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/shibou/sougi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/shibou/sougi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p008336.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p008336.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kodomomirai/p008725.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kodomomirai/p008725.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kodomomirai/p008329.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kodomomirai/p008329.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/josei/kurashi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/josei/kurashi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p007879.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p007879.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/hokennfukushi/p007599.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/hokennfukushi/p007599.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/josei/kyoiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/josei/kyoiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/p007214.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/p007214.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/p007170.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/p007170.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kyouiku/iinkai/koukouseitugakuhojo.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kyouiku/iinkai/koukouseitugakuhojo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/josei/kenkou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/josei/kenkou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/hokenhukusi/p003462.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/hokenhukusi/p003462.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/hokennfukushi/syougai.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/hokennfukushi/syougai.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/tiikifukusisuishinnshitsu/seikatsuhogo.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/tiikifukusisuishinnshitsu/seikatsuhogo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p007624.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p007624.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/kokuho/nenkin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/kokuho/nenkin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/kokunen.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/kokunen.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/kokuho/chojyu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/kokuho/chojyu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p007993.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p007993.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p007605.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p007605.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p006319.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p006319.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p006457.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p006457.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p006880.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p006880.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/kodomomirai/p008526.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/kodomomirai/p008526.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/kenkou/iryo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/kenkou/iryo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/hokenhukusi/p007470.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/hokenhukusi/p007470.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/hokenhukusi/kenkouzousin1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/hokenhukusi/kenkouzousin1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/hokenhukusi/hokenfukushika/p008088.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/hokenhukusi/hokenfukushika/p008088.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/hokenhukusi/hokenfukushika/p008083.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/hokenhukusi/hokenfukushika/p008083.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/hokenhukusi/p007569.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/hokenhukusi/p007569.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/hokenhukusi/singatakorona.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/hokenhukusi/singatakorona.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/kenkou/kenkouzukuri/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/kenkou/kenkouzukuri/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/hokenhukusi/takachalle/p008292.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/hokenhukusi/takachalle/p008292.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/sougouseisaku/socialwell-being/p007242.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/sougouseisaku/socialwell-being/p007242.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/hokenhukusi/takachalle/p003748.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/hokenhukusi/takachalle/p003748.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/page/hokenhukusi/p003668.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/page/hokenhukusi/p003668.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.takahama.fukui.jp/0001/kenkou/child/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.takahama.fukui.jp/0001/kenkou/child/index.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}
