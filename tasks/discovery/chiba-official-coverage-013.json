@@ -1,0 +1,46 @@
+{
+  "batchId": "chiba-comprehensive-official-coverage-013",
+  "prefecture": "千葉県",
+  "municipalities": [
+    "12424 白子町",
+    "12426 長柄町",
+    "12427 長南町",
+    "12441 大多喜町"
+  ],
+  "candidateCount": 296,
+  "selectedCount": 26,
+  "selectedSlugs": [
+    "shirako-sme-energy-price-support-2026",
+    "shirako-agriculture-fishery-energy-price-support-2026",
+    "shirako-civic-event-planning-subsidy-2026",
+    "shirako-myhome-acquisition-incentive-2026",
+    "shirako-housing-renovation-block-wall-subsidy-2026",
+    "shirako-newborn-support-benefit-2026",
+    "shirako-child-medical-expense-subsidy-2026",
+    "nagara-infertility-treatment-subsidy-2026",
+    "nagara-childcare-support-benefit-2026",
+    "nagara-child-medical-expense-subsidy-2026",
+    "nagara-scholarship-repayment-support-2026",
+    "nagara-new-house-construction-subsidy-2026",
+    "nagara-residential-decarbonization-equipment-subsidy-2026",
+    "nagara-bicycle-helmet-subsidy-2026",
+    "chonan-young-settlement-promotion-2026",
+    "chonan-child-medical-expense-subsidy-2026",
+    "chonan-high-school-student-medical-subsidy-2026",
+    "chonan-empty-house-bank-registration-subsidy-2026",
+    "chonan-school-lunch-fee-free-program-2026",
+    "chonan-bus-commuter-pass-subsidy-2026",
+    "otaki-pregnant-women-support-benefit-2026",
+    "otaki-childbirth-celebration-benefit-2026",
+    "otaki-infertility-treatment-subsidy-2026",
+    "otaki-house-acquisition-incentive-2026",
+    "otaki-migration-support-grant-2026",
+    "otaki-driving-license-acquisition-subsidy-2026"
+  ],
+  "notes": [
+    "公式トップ到達を4自治体すべてHTTP 200で確認。",
+    "候補296件のため公式本文スニペット74件を保存し、金額・対象・受付条件が確認できる個別ページを優先採用。",
+    "長柄町の農業関係各種補助金候補は404のため採用せず、第2巡候補に残した。",
+    "カテゴリ導線、様式のみ、受付終了又は旧制度ページ、金額又は受付状況不足候補は第2巡候補に残した。"
+  ]
+}

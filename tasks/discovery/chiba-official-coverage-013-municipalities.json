@@ -1,0 +1,26 @@
+{
+  "batchId": "chiba-comprehensive-official-coverage-013",
+  "prefecture": "千葉県",
+  "municipalities": [
+    {
+      "code": "12424",
+      "name": "白子町",
+      "officialBaseUrl": "https://www.town.shirako.lg.jp/"
+    },
+    {
+      "code": "12426",
+      "name": "長柄町",
+      "officialBaseUrl": "https://www.town.nagara.chiba.jp/"
+    },
+    {
+      "code": "12427",
+      "name": "長南町",
+      "officialBaseUrl": "https://www.town.chonan.chiba.jp/"
+    },
+    {
+      "code": "12441",
+      "name": "大多喜町",
+      "officialBaseUrl": "https://www.town.otaki.chiba.jp/"
+    }
+  ]
+}

@@ -7385,6 +7385,8 @@
     - 公式URL到達: pass（26 official URLsすべてHTTP 200）。
     - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
     - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10941、officialLinkedActive 10903、manuallyVerifiedActive 10903、千葉県 localOfficial 508）。
+    - `git diff --check`: pass。
     - `npm run audit:coverage`: pass（failures 0、activePublished 10889、officialLinkedActive 10851、manuallyVerifiedActive 10851、千葉県 localOfficial 456）。
   - 注意:
     - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
@@ -7429,3 +7431,37 @@
     - 受付終了、金額又は受付状況不足、カテゴリ導線、様式のみ、県・国制度紹介は第2巡候補に残す。
   - 次:
     - 千葉県公式棚卸し013として、12424白子町、12426長柄町、12427長南町、12441大多喜町を自治体コード順に確認する。
+
+- 千葉県公式棚卸し013
+  - 対象:
+    - 12424 白子町、12426 長柄町、12427 長南町、12441 大多喜町。
+  - 方法:
+    - 公式トップ到達を4自治体すべてHTTP 200で確認した。
+    - `scripts/discover-official-candidates.mjs` で候補296件を抽出し、候補数が150件を超えたため、公式本文スニペット74件を保存して再スコアリングした。
+    - 白子町は中小企業等エネルギー価格高騰・農林水産業エネルギー価格高騰・町民参加イベント・マイホーム取得・住宅リフォーム等・新生児支援・子ども医療、長柄町は不妊治療・子育て支援金・子ども医療・奨学金返還・住宅新築・住宅用設備等脱炭素化・自転車ヘルメット、長南町は若者定住・子ども医療・高校生等医療・空き家バンク登録促進・学校給食費無償化・路線バス通学定期券、大多喜町は妊婦支援給付・出産祝金・不妊治療・住宅取得・移住支援・自動車運転免許取得の公式本文で制度名・対象・金額/上限・条件・期限/受付状況を確認した。
+    - 長柄町の農業関係各種補助金候補は公式URLが404だったため新規採用せず、第2巡候補に残した。
+    - 大多喜町の出産・子育て応援金は令和7年3月31日までの出生世帯向け旧制度として扱い、現行の妊婦のための支援給付を採用した。
+    - 各自治体のカテゴリ導線、様式のみ、受付終了又は旧制度ページ、県・国制度紹介、金額又は受付状況不足候補は採用せず、第2巡候補に残した。
+  - 採用:
+    - 白子町7件: 中小企業等エネルギー価格高騰対策支援金、農林水産業エネルギー価格高騰対策支援金、町民参加イベント企画運営事業補助金、マイホーム取得奨励金、住宅リフォーム等補助金、新生児支援給付金、子ども医療費助成。
+    - 長柄町7件: 不妊治療費一部助成、子育て支援金、子ども医療費助成、奨学金返還支援事業補助金、住宅新築補助金、住宅用設備等脱炭素化促進事業補助金、自転車用ヘルメット購入費補助金。
+    - 長南町6件: 若者定住促進事業補助金、子ども医療費助成、高校生等医療費助成、空き家バンク登録促進事業補助金、学校給食費補助（無償化）、路線バス通学定期券購入補助。
+    - 大多喜町6件: 妊婦のための支援給付、出産祝金支給制度、不妊治療費助成、住宅取得奨励金、移住支援事業支援金、自動車運転免許取得支援事業助成金。
+  - 生成ファイル:
+    - `tasks/discovery/chiba-official-coverage-013-municipalities.json`
+    - `tasks/discovery/chiba-official-coverage-013-candidates.json`
+    - `tasks/discovery/chiba-official-coverage-013-target-snippets.json`
+    - `tasks/discovery/chiba-official-coverage-013-selected-main.json`
+    - `tasks/discovery/chiba-official-coverage-013-selected-snippets.json`
+    - `tasks/discovery/chiba-official-coverage-013-url-check.json`
+    - `tasks/discovery/chiba-official-coverage-013.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（26件、`verified-local-misc-2026.ts` 内で各1件）。
+    - 公式URL到達: pass（26 official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 受付終了、旧制度、金額又は受付状況不足、カテゴリ導線、様式のみ、県・国制度紹介は第2巡候補に残す。
+  - 次:
+    - 千葉県公式棚卸し014として、12443御宿町、12463鋸南町を自治体コード順に確認する。
