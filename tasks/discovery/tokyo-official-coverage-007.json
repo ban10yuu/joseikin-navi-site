@@ -1,0 +1,67 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-007",
+  "prefecture": "東京都",
+  "completedAt": "2026-07-14T03:41:30.240Z",
+  "status": "completed-for-listed-municipalities",
+  "municipalities": [
+    {
+      "code": "13202",
+      "name": "立川市",
+      "officialBaseUrl": "https://www.city.tachikawa.lg.jp/",
+      "selectedCount": 5,
+      "status": "official-pages-verified"
+    },
+    {
+      "code": "13203",
+      "name": "武蔵野市",
+      "officialBaseUrl": "https://www.city.musashino.lg.jp/",
+      "selectedCount": 5,
+      "status": "official-pages-verified"
+    },
+    {
+      "code": "13204",
+      "name": "三鷹市",
+      "officialBaseUrl": "https://www.city.mitaka.lg.jp/",
+      "selectedCount": 5,
+      "status": "official-pages-verified"
+    },
+    {
+      "code": "13205",
+      "name": "青梅市",
+      "officialBaseUrl": "https://www.city.ome.tokyo.jp/",
+      "selectedCount": 5,
+      "status": "official-pages-verified"
+    }
+  ],
+  "selectedSlugs": [
+    "tachikawa-home-security-equipment-subsidy-2026",
+    "tachikawa-existing-home-insulation-subsidy-2026",
+    "tachikawa-low-income-air-conditioner-subsidy-2026",
+    "tachikawa-marriage-new-life-subsidy-2026",
+    "tachikawa-sme-energy-retrofit-subsidy-2026",
+    "musashino-home-security-subsidy-2026",
+    "musashino-furniture-tip-prevention-subsidy-2026",
+    "musashino-rainwater-tank-subsidy-2026",
+    "musashino-crowdfunding-promotion-subsidy-2026",
+    "musashino-learning-sharing-subsidy-2026",
+    "mitaka-air-conditioner-installation-subsidy-2026",
+    "mitaka-senior-smartphone-purchase-subsidy-2026",
+    "mitaka-new-energy-equipment-subsidy-2026",
+    "mitaka-commercial-industrial-activation-subsidy-2026",
+    "mitaka-zero-energy-town-incentive-2026",
+    "ome-crime-prevention-equipment-subsidy-2026",
+    "ome-manufacturing-support-subsidy-2026",
+    "ome-migration-support-grant-2026",
+    "ome-long-distance-commuting-support-grant-2026",
+    "ome-air-conditioner-installation-subsidy-2026"
+  ],
+  "urlCheck": {
+    "okCount": 20,
+    "total": 20,
+    "path": "tasks/discovery/tokyo-official-coverage-007-url-check.json"
+  },
+  "notes": [
+    "候補704件についてtarget-snippetsを生成し、制度強語・金額・対象条件・受付表現を優先して20件を採用。",
+    "カテゴリ導線、様式のみ、金額又は受付状況が公式本文だけで確定できない候補、年度外の可能性がある候補は第2巡候補に残す。"
+  ]
+}

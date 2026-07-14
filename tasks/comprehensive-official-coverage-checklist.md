@@ -7752,3 +7752,48 @@
     - 受付終了、受付休止、404、金額又は受付状況不足、PDF精査待ち、カテゴリ導線、様式のみ、国制度色が強い候補は第2巡候補に残す。
   - 次:
     - 東京都公式棚卸し007として、13202立川市、13203武蔵野市、13204三鷹市、13205青梅市を自治体コード順に確認する。
+
+- 東京都公式棚卸し007
+  - 対象:
+    - 13202 立川市、13203 武蔵野市、13204 三鷹市、13205 青梅市。
+  - 方法:
+    - 公式トップ到達を4自治体すべて確認し、候補704件を抽出した。
+    - 候補が150件を超えたため、本文スニペット704URLを保存し、制度強語・金額・対象条件・受付表現を優先して再確認した。
+    - 立川市は住まいの防犯対策緊急支援、既存住宅断熱改修、住民税非課税世帯などのエアコン設置、結婚新生活支援、中小企業省エネ改修を公式本文で確認した。
+    - 武蔵野市は住まいの防犯対策、家具転倒防止金具等購入費、雨水タンク、クラウドファンディング活用促進、学びおくりあいを公式本文で確認した。
+    - 三鷹市は低所得世帯エアコン購入・設置、高齢者スマートフォン購入費、新エネルギー・省エネルギー設備設置、中小企業等産業活性化、ゼロエネルギータウン奨励を公式本文で確認した。
+    - 青梅市は防犯機器等購入費、おうめものづくり等支援、移住支援金、遠距離通勤応援金、エアコン設置支援を公式本文で確認した。
+    - カテゴリ導線、様式のみ、金額又は受付状況が公式本文だけで確定できない候補、年度外の可能性がある候補は第2巡候補に残す。
+  - 採用:
+    - 立川市5件: 住まいの防犯対策緊急支援事業、既存住宅断熱改修費補助金、住民税非課税世帯などのエアコン設置助成、結婚新生活支援事業、中小企業二酸化炭素排出量削減事業施設改修費補助金。
+    - 武蔵野市5件: 住まいの防犯対策補助事業、家具転倒防止金具等購入費補助事業、雨水タンク助成金、クラウドファンディング活用促進事業補助金、学びおくりあい補助金。
+    - 三鷹市5件: 低所得世帯エアコン購入・設置費用助成金、高齢者スマートフォン購入費助成事業、新エネルギー・省エネルギー設備設置助成金、中小企業等産業活性化補助金、ゼロエネルギータウン奨励事業。
+    - 青梅市5件: 防犯機器等購入費補助金、おうめものづくり等支援事業、移住支援金、遠距離通勤応援金、エアコン設置支援補助金。
+  - 生成ファイル:
+    - `tasks/discovery/tokyo-official-coverage-007-municipalities.json`
+    - `tasks/discovery/tokyo-official-coverage-007-13202-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-007-13203-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-007-13204-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-007-13205-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-007-13202-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-007-13203-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-007-13204-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-007-13205-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-007-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-007-target-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-007-selected-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-007-selected-main.json`
+    - `tasks/discovery/tokyo-official-coverage-007-url-check.json`
+    - `tasks/discovery/tokyo-official-coverage-007.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（20件、`verified-local-misc-2026.ts` 内で各1件）。
+    - 公式URL到達: pass（20 official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 11115、officialLinkedActive 11077、manuallyVerifiedActive 11077、東京都 localOfficial 499）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 受付終了、受付休止、404、金額又は受付状況不足、PDF精査待ち、カテゴリ導線、様式のみ、国制度色が強い候補は第2巡候補に残す。
+  - 次:
+    - 東京都公式棚卸し008として、13206府中市、13207昭島市、13208調布市、13209町田市を自治体コード順に確認する。

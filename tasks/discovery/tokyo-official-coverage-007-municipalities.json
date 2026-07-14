@@ -1,0 +1,26 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-007",
+  "prefecture": "東京都",
+  "municipalities": [
+    {
+      "code": "13202",
+      "name": "立川市",
+      "officialBaseUrl": "https://www.city.tachikawa.lg.jp/"
+    },
+    {
+      "code": "13203",
+      "name": "武蔵野市",
+      "officialBaseUrl": "https://www.city.musashino.lg.jp/"
+    },
+    {
+      "code": "13204",
+      "name": "三鷹市",
+      "officialBaseUrl": "https://www.city.mitaka.lg.jp/"
+    },
+    {
+      "code": "13205",
+      "name": "青梅市",
+      "officialBaseUrl": "https://www.city.ome.tokyo.jp/"
+    }
+  ]
+}
