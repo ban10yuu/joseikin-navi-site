@@ -1,0 +1,57 @@
+{
+  "code": "chiba-official-coverage-011",
+  "prefecture": "千葉県",
+  "municipalities": [
+    "多古町",
+    "東庄町",
+    "九十九里町",
+    "芝山町"
+  ],
+  "selectedCount": 26,
+  "selectedSlugs": [
+    "tako-school-lunch-subsidy-2026",
+    "tako-block-wall-removal-subsidy-2026",
+    "tako-residential-energy-equipment-subsidy-2026",
+    "tako-crime-victim-support-benefit-2026",
+    "tako-phone-scam-device-subsidy-2026",
+    "tako-food-waste-treatment-subsidy-2026",
+    "tohnosho-childbirth-celebration-benefit-2026",
+    "tohnosho-pregnant-women-support-benefit-2026",
+    "tohnosho-recurrent-pregnancy-loss-treatment-subsidy-2026",
+    "tohnosho-young-cancer-home-care-subsidy-2026",
+    "tohnosho-cancer-wig-breastcare-subsidy-2026",
+    "tohnosho-human-dock-subsidy-2026",
+    "tohnosho-bone-marrow-donor-support-subsidy-2026",
+    "tohnosho-startup-promotion-subsidy-2026",
+    "kujukuri-english-test-fee-subsidy-2026",
+    "kujukuri-bus-commuter-pass-subsidy-2026",
+    "kujukuri-cancer-wig-subsidy-2026",
+    "kujukuri-housing-acquisition-incentive-2026",
+    "kujukuri-scholarship-repayment-support-subsidy-2026",
+    "shibayama-cancer-wig-subsidy-2026",
+    "shibayama-bone-marrow-donor-support-subsidy-2026",
+    "shibayama-disability-fuel-cost-subsidy-2026",
+    "shibayama-child-seat-subsidy-2026",
+    "shibayama-home-security-camera-subsidy-2026",
+    "shibayama-food-waste-composter-subsidy-2026",
+    "shibayama-horticulture-heat-countermeasure-subsidy-2026"
+  ],
+  "skippedAsDuplicate": [
+    "tako-agricultural-material-cost-support-2026",
+    "tohnosho-decarbonized-home-equipment-support-2026",
+    "kujukuri-marriage-new-life-support-2026",
+    "shibayama-decarbonized-home-equipment-support-2026",
+    "shibayama-jokaso-installation-support",
+    "shibayama-jokaso-maintenance-support-2026",
+    "shibayama-groundwater-purifier-well-support",
+    "shibayama-household-well-water-test-support"
+  ],
+  "secondPass": [
+    "多古町 住宅取得・住宅リフォーム・耐震診断/改修などPDF詳細確認が必要な候補",
+    "東庄町 地域活性化事業補助金など金額確認がPDF中心の候補",
+    "芝山町 住宅リフォーム補助制度は2026年5月15日受付終了のため新規採用せず受付終了候補として保持"
+  ],
+  "notes": [
+    "公式カテゴリ・個別ページから制度強語、対象、金額、申請時期が確認でき、受付終了でないページを採用。"
+  ]
+}

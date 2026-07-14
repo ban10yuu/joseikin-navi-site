@@ -1,0 +1,26 @@
+{
+  "batchId": "chiba-comprehensive-official-coverage-011",
+  "prefecture": "千葉県",
+  "municipalities": [
+    {
+      "code": "12347",
+      "name": "多古町",
+      "officialBaseUrl": "https://www.town.tako.chiba.jp/"
+    },
+    {
+      "code": "12349",
+      "name": "東庄町",
+      "officialBaseUrl": "https://www.town.tohnosho.chiba.jp/"
+    },
+    {
+      "code": "12403",
+      "name": "九十九里町",
+      "officialBaseUrl": "https://www.town.kujukuri.chiba.jp/"
+    },
+    {
+      "code": "12409",
+      "name": "芝山町",
+      "officialBaseUrl": "https://www.town.shibayama.lg.jp/"
+    }
+  ]
+}
