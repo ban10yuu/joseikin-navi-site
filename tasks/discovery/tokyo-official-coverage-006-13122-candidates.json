@@ -1,0 +1,4543 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-006",
+  "prefecture": "東京都",
+  "generatedAt": "2026-07-14T02:51:34.822Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 149,
+  "results": [
+    {
+      "code": "13122",
+      "name": "葛飾区",
+      "officialBaseUrl": "https://www.city.katsushika.lg.jp/",
+      "discoveredUrlCount": 300,
+      "candidateCount": 149,
+      "strongCandidateCount": 4,
+      "lowPriorityCandidateCount": 145,
+      "candidates": [
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/index.html",
+          "status": 200,
+          "title": "くらし・手続き",
+          "h1": "くらし・手続き",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "事業者",
+            "子育て",
+            "耐震",
+            "省エネ"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000049/index.html",
+          "status": 200,
+          "title": "国保・後期高齢・年金",
+          "h1": "国保・後期高齢・年金",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1003399/index.html",
+          "status": 200,
+          "title": "住まい",
+          "h1": "住まい",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "住宅",
+            "空き家",
+            "耐震"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000062/index.html",
+          "status": 200,
+          "title": "環境",
+          "h1": "環境",
+          "updatedAt": "",
+          "keywordHits": [
+            "省エネ"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/index.html",
+          "status": 200,
+          "title": "各種相談",
+          "h1": "各種相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/index.html",
+          "status": 200,
+          "title": "健康・医療・福祉",
+          "h1": "健康・医療・福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "支援金",
+            "貸付",
+            "減免",
+            "医療費助成",
+            "事業者",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 27,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000050/index.html",
+          "status": 200,
+          "title": "健康・医療",
+          "h1": "健康・医療",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1030182/index.html",
+          "status": 200,
+          "title": "がん・難病に対する支援",
+          "h1": "がん・難病に対する支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "医療費助成"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/index.html",
+          "status": 200,
+          "title": "こころの健康",
+          "h1": "こころの健康",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000051/index.html",
+          "status": 200,
+          "title": "介護保険",
+          "h1": "介護保険",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000052/index.html",
+          "status": 200,
+          "title": "高齢者福祉",
+          "h1": "高齢者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/index.html",
+          "status": 200,
+          "title": "障害福祉",
+          "h1": "障害福祉",
+          "updatedAt": "令和6年10月19日",
+          "keywordHits": [
+            "減免",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000055/index.html",
+          "status": 200,
+          "title": "生活福祉",
+          "h1": "生活福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "支援金",
+            "貸付",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1002321.html",
+          "status": 200,
+          "title": "生活保護",
+          "h1": "生活保護",
+          "updatedAt": "令和8年6月4日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1030272/index.html",
+          "status": 200,
+          "title": "健康・医療・福祉に関する各種相談",
+          "h1": "健康・医療・福祉に関する各種相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kosodate/index.html",
+          "status": 200,
+          "title": "子育て・教育",
+          "h1": "子育て・教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "貸付",
+            "医療費助成",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 24,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kosodate/1000056/index.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kosodate/1000057/index.html",
+          "status": 200,
+          "title": "教育・学校",
+          "h1": "教育・学校",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "就学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kosodate/1030198/index.html",
+          "status": 200,
+          "title": "子育て・教育に関する相談",
+          "h1": "子育て・教育に関する相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/institution/index.html",
+          "status": 200,
+          "title": "施設案内",
+          "h1": "施設案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/institution/1030223/index.html",
+          "status": 200,
+          "title": "健康・医療・福祉施設",
+          "h1": "健康・医療・福祉施設",
+          "updatedAt": "平成24年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/institution/1030224/index.html",
+          "status": 200,
+          "title": "子育て・教育施設",
+          "h1": "子育て・教育施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/institution/1030225/index.html",
+          "status": 200,
+          "title": "観光・文化・スポーツ施設",
+          "h1": "観光・文化・スポーツ施設",
+          "updatedAt": "令和7年11月17日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/institution/1000102/index.html",
+          "status": 200,
+          "title": "直売所・農園",
+          "h1": "直売所・農園",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/business/index.html",
+          "status": 200,
+          "title": "産業・ビジネス・しごと",
+          "h1": "産業・ビジネス・しごと",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/business/1000011/index.html",
+          "status": 200,
+          "title": "事業者",
+          "h1": "事業者",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/business/1000066/index.html",
+          "status": 200,
+          "title": "産業",
+          "h1": "産業",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/business/1019383/index.html",
+          "status": 200,
+          "title": "雇用・労働",
+          "h1": "雇用・労働",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/planning/index.html",
+          "status": 200,
+          "title": "まちづくり",
+          "h1": "まちづくり",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "住宅",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/planning/1003610/index.html",
+          "status": 200,
+          "title": "防災街づくり",
+          "h1": "防災街づくり",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/planning/1003620/index.html",
+          "status": 200,
+          "title": "街づくり推進条例",
+          "h1": "街づくり推進条例",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/planning/1003621/index.html",
+          "status": 200,
+          "title": "福祉のまちづくり条例",
+          "h1": "福祉のまちづくり条例",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/information/index.html",
+          "status": 200,
+          "title": "区政情報",
+          "h1": "区政情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "耐震",
+            "省エネ"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/information/1000082/index.html",
+          "status": 200,
+          "title": "区役所の取り組み",
+          "h1": "区役所の取り組み",
+          "updatedAt": "",
+          "keywordHits": [
+            "省エネ"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/information/1000084/index.html",
+          "status": 200,
+          "title": "計画・報告",
+          "h1": "計画・報告",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/information/1000088/index.html",
+          "status": 200,
+          "title": "審議会・委員会",
+          "h1": "審議会・委員会",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/information/1030313/index.html",
+          "status": 200,
+          "title": "町会・自治会（自治町会）",
+          "h1": "町会・自治会（自治町会）",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "助成金",
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/citypromotion/index.html",
+          "status": 200,
+          "title": "役に立つ情報提供を目指す 葛飾区シティプロモーションサイト",
+          "h1": "役に立つ情報提供を目指す 葛飾区シティプロモーションサイト",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kosodate/1000056/1037720/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000052/1030186/1002144/1028376.html",
+          "status": 200,
+          "title": "一時涼み所（いっときすずみどころ）を開設しています",
+          "h1": "一時涼み所（いっときすずみどころ）を開設しています",
+          "updatedAt": "令和8年7月14日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/event/1000107/1019170.html",
+          "status": 200,
+          "title": "区役所正面玄関前で献血を実施します",
+          "h1": "区役所正面玄関前で献血を実施します",
+          "updatedAt": "令和8年7月14日",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/business/1000011/1030233/1000070/1036562.html",
+          "status": 200,
+          "title": "葛飾区健康経営優良事業者認証制度",
+          "h1": "葛飾区健康経営優良事業者認証制度",
+          "updatedAt": "令和8年7月13日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/business/1000011/1030233/1034396/1034699.html",
+          "status": 200,
+          "title": "中小企業向け法律相談",
+          "h1": "中小企業向け法律相談",
+          "updatedAt": "令和8年7月13日",
+          "keywordHits": [
+            "創業",
+            "起業",
+            "事業者"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/newslist.html",
+          "status": 200,
+          "title": "新着更新情報一覧",
+          "h1": "新着更新情報一覧",
+          "updatedAt": "令和8年7月14日",
+          "keywordHits": [
+            "助成金",
+            "住宅",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/information/1000084/1006012/1026642/index.html",
+          "status": 200,
+          "title": "葛飾区基本構想（令和3年策定）",
+          "h1": "葛飾区基本構想（令和3年策定）",
+          "updatedAt": "令和3年3月26日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/information/1000084/1006012/1026967/index.html",
+          "status": 200,
+          "title": "葛飾区基本計画（令和3年度～令和12年度）",
+          "h1": "葛飾区基本計画（令和3年度～令和12年度）",
+          "updatedAt": "令和3年9月21日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/information/1000083/1005977/1027210/1037298.html",
+          "status": 200,
+          "title": "葛飾区統計書 第68回（令和6年刊行）2024",
+          "h1": "葛飾区統計書 第68回（令和6年刊行）2024",
+          "updatedAt": "令和7年1月9日",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/information/1000083/1005977/1027209/1036724.html",
+          "status": 200,
+          "title": "葛飾区の現況 第59版 （令和6年度版）",
+          "h1": "葛飾区の現況 第59版 （令和6年度版）",
+          "updatedAt": "令和6年10月22日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003788/1009951.html",
+          "status": 200,
+          "title": "健康ホットラインかつしか",
+          "h1": "健康ホットラインかつしか",
+          "updatedAt": "令和8年4月28日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/lifeevent/lifeevent3.html",
+          "status": 200,
+          "title": "引越し",
+          "h1": "引越し",
+          "updatedAt": "令和5年3月8日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000052/koureisha/index.html",
+          "status": 200,
+          "title": "高齢者支援サイト",
+          "h1": "高齢者支援サイト",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/lifeevent/lifeevent8.html",
+          "status": 200,
+          "title": "おくやみ",
+          "h1": "おくやみ",
+          "updatedAt": "令和5年2月13日",
+          "keywordHits": [
+            "一時金",
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/faq/index.html",
+          "status": 200,
+          "title": "よくある質問",
+          "h1": "よくある質問",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/online/1007358/index.html",
+          "status": 200,
+          "title": "オンライン申請",
+          "h1": "オンライン申請",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/online/1007359/index.html",
+          "status": 200,
+          "title": "申請書ダウンロード",
+          "h1": "申請書ダウンロード",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/opinions/1009924.html",
+          "status": 200,
+          "title": "パブリック・コメント（区民意見提出手続）",
+          "h1": "パブリック・コメント（区民意見提出手続）",
+          "updatedAt": "令和8年3月24日",
+          "keywordHits": [
+            "住宅",
+            "空家",
+            "福祉",
+            "子育て",
+            "耐震",
+            "予防接種"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/information/1000086/saiyou/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003786/1014474.html",
+          "status": 200,
+          "title": "すぐやる課です！！",
+          "h1": "すぐやる課です！！",
+          "updatedAt": "令和7年8月1日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/information/kouho/1005537/1005546.html",
+          "status": 200,
+          "title": "「広報かつしか」「葛飾区公式サイト」に掲載する広告を募集します",
+          "h1": "「広報かつしか」「葛飾区公式サイト」に掲載する広告を募集します",
+          "updatedAt": "令和8年1月9日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/information/1000076/1005536.html",
+          "status": 200,
+          "title": "組織案内",
+          "h1": "組織案内",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "免除",
+            "医療費助成",
+            "住宅",
+            "空家",
+            "創業",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て",
+            "就学",
+            "耐震",
+            "予防接種",
+            "通学"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000046/1001406/1001459.html",
+          "status": 200,
+          "title": "休日開庁窓口の開庁時間と取扱業務",
+          "h1": "休日開庁窓口の開庁時間と取扱業務",
+          "updatedAt": "令和8年4月10日",
+          "keywordHits": [
+            "一時金",
+            "貸付",
+            "免除",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/about/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/about/link.html",
+          "status": 200,
+          "title": "リンク集",
+          "h1": "リンク集",
+          "updatedAt": "令和8年1月28日",
+          "keywordHits": [
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/information/1000087/1038058/index.html",
+          "status": 200,
+          "title": "外国人向け生活ガイド",
+          "h1": "外国人向け生活ガイド",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000046/1001401/index.html",
+          "status": 200,
+          "title": "住所の届出・証明（住民票）",
+          "h1": "住所の届出・証明（住民票）",
+          "updatedAt": "平成30年11月30日",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000046/1025399/index.html",
+          "status": 200,
+          "title": "おくやみコーナー・おくやみハンドブック",
+          "h1": "おくやみコーナー・おくやみハンドブック",
+          "updatedAt": "平成24年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000047/1001463/index.html",
+          "status": 200,
+          "title": "住民税",
+          "h1": "住民税",
+          "updatedAt": "令和8年1月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000047/1001464/index.html",
+          "status": 200,
+          "title": "軽自動車税",
+          "h1": "軽自動車税",
+          "updatedAt": "令和5年7月1日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000048/1010923/index.html",
+          "status": 200,
+          "title": "新着のお知らせ",
+          "h1": "新着のお知らせ",
+          "updatedAt": "令和2年7月1日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000048/1001535/index.html",
+          "status": 200,
+          "title": "家庭ごみ",
+          "h1": "家庭ごみ",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000048/1001537/index.html",
+          "status": 200,
+          "title": "事業系ごみ・廃棄物",
+          "h1": "事業系ごみ・廃棄物",
+          "updatedAt": "令和5年10月1日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000048/1001536/index.html",
+          "status": 200,
+          "title": "粗大ごみ・家電など",
+          "h1": "粗大ごみ・家電など",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000048/1001534/index.html",
+          "status": 200,
+          "title": "ごみ減量・3Rの取り組み",
+          "h1": "ごみ減量・3Rの取り組み",
+          "updatedAt": "令和4年9月22日",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "就学"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000049/1001690/index.html",
+          "status": 200,
+          "title": "国民健康保険",
+          "h1": "国民健康保険",
+          "updatedAt": "令和6年12月2日",
+          "keywordHits": [
+            "給付金",
+            "一時金",
+            "貸付",
+            "減免",
+            "免除",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000049/1001692/index.html",
+          "status": 200,
+          "title": "国民年金",
+          "h1": "国民年金",
+          "updatedAt": "平成16年12月10日",
+          "keywordHits": [
+            "給付金",
+            "一時金",
+            "免除",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000049/1001696.html",
+          "status": 200,
+          "title": "国保年金課 担当業務別お問い合わせ先",
+          "h1": "国保年金課 担当業務別お問い合わせ先",
+          "updatedAt": "令和6年12月2日",
+          "keywordHits": [
+            "一時金",
+            "減免",
+            "免除"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1003399/1033911.html",
+          "status": 200,
+          "title": "建設リサイクル法",
+          "h1": "建設リサイクル法",
+          "updatedAt": "令和6年10月10日",
+          "keywordHits": [
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1003399/1033377/index.html",
+          "status": 200,
+          "title": "分譲マンション",
+          "h1": "分譲マンション",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1003399/1031568.html",
+          "status": 200,
+          "title": "「住まいのガイドブック」を作成しました",
+          "h1": "「住まいのガイドブック」を作成しました",
+          "updatedAt": "令和7年7月1日",
+          "keywordHits": [
+            "助成金"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1003399/1030170/index.html",
+          "status": 200,
+          "title": "建築",
+          "h1": "建築",
+          "updatedAt": "令和7年4月1日",
+          "keywordHits": [
+            "住宅",
+            "省エネ"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1003399/1030171/index.html",
+          "status": 200,
+          "title": "住まいの耐震化",
+          "h1": "住まいの耐震化",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "住宅",
+            "事業者",
+            "耐震"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1003399/1030172/index.html",
+          "status": 200,
+          "title": "公的な住宅・居住支援",
+          "h1": "公的な住宅・居住支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1003399/1030173/index.html",
+          "status": 200,
+          "title": "空き家対策",
+          "h1": "空き家対策",
+          "updatedAt": "平成27年5月26日",
+          "keywordHits": [
+            "空き家",
+            "空家",
+            "事業者"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000062/1023018/index.html",
+          "status": 200,
+          "title": "省エネ・地球温暖化対策・助成",
+          "h1": "省エネ・地球温暖化対策・助成",
+          "updatedAt": "令和5年1月26日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "事業者",
+            "省エネ"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000062/1003884/index.html",
+          "status": 200,
+          "title": "公害・環境調査",
+          "h1": "公害・環境調査",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000062/1030174/index.html",
+          "status": 200,
+          "title": "緑化・花いっぱいのまちづくり",
+          "h1": "緑化・花いっぱいのまちづくり",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1004028/1004040/index.html",
+          "status": 200,
+          "title": "消防・救急",
+          "h1": "消防・救急",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003783/index.html",
+          "status": 200,
+          "title": "子育てに関する相談",
+          "h1": "子育てに関する相談",
+          "updatedAt": "令和5年10月1日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003784/index.html",
+          "status": 200,
+          "title": "教育に関する相談",
+          "h1": "教育に関する相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003790/index.html",
+          "status": 200,
+          "title": "介護に関する相談",
+          "h1": "介護に関する相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003791/index.html",
+          "status": 200,
+          "title": "高齢者に関する相談",
+          "h1": "高齢者に関する相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003792/index.html",
+          "status": 200,
+          "title": "障害のある方の相談",
+          "h1": "障害のある方の相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003794/index.html",
+          "status": 200,
+          "title": "住まいに関する相談",
+          "h1": "住まいに関する相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003795/index.html",
+          "status": 200,
+          "title": "事業者の方の相談",
+          "h1": "事業者の方の相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003796/index.html",
+          "status": 200,
+          "title": "生活に困ったときの相談",
+          "h1": "生活に困ったときの相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003797/index.html",
+          "status": 200,
+          "title": "消費生活に関する相談",
+          "h1": "消費生活に関する相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003805/index.html",
+          "status": 200,
+          "title": "旧軍人・戦没者遺族等の相談",
+          "h1": "旧軍人・戦没者遺族等の相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000050/hokenjyo/index.html",
+          "status": 200,
+          "title": "葛飾区保健所",
+          "h1": "葛飾区保健所",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001788/index.html",
+          "status": 200,
+          "title": "健康診査",
+          "h1": "健康診査",
+          "updatedAt": "令和8年9月30日",
+          "keywordHits": [
+            "妊婦"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001800/index.html",
+          "status": 200,
+          "title": "予防接種",
+          "h1": "予防接種",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001797/index.html",
+          "status": 200,
+          "title": "流行疾患・感染症・熱中症",
+          "h1": "流行疾患・感染症・熱中症",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001804/index.html",
+          "status": 200,
+          "title": "子どもの健康・乳幼児健診",
+          "h1": "子どもの健康・乳幼児健診",
+          "updatedAt": "令和4年7月19日",
+          "keywordHits": [
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001803/index.html",
+          "status": 200,
+          "title": "妊娠・出産",
+          "h1": "妊娠・出産",
+          "updatedAt": "令和4年4月1日",
+          "keywordHits": [
+            "給付金",
+            "子育て",
+            "予防接種",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000050/1019946/index.html",
+          "status": 200,
+          "title": "歯科保健",
+          "h1": "歯科保健",
+          "updatedAt": "",
+          "keywordHits": [
+            "妊婦"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001791/index.html",
+          "status": 200,
+          "title": "公害補償",
+          "h1": "公害補償",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1030182/1017859/index.html",
+          "status": 200,
+          "title": "葛飾区骨髄移植ドナー支援事業",
+          "h1": "葛飾区骨髄移植ドナー支援事業",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1030182/1025594/index.html",
+          "status": 200,
+          "title": "がん患者への支援",
+          "h1": "がん患者への支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1030182/1001790/index.html",
+          "status": 200,
+          "title": "難病患者・被爆者等支援",
+          "h1": "難病患者・被爆者等支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1041176.html",
+          "status": 200,
+          "title": "令和7年度葛飾区精神保健福祉包括ケア推進協議会の開催について",
+          "h1": "令和7年度葛飾区精神保健福祉包括ケア推進協議会の開催について",
+          "updatedAt": "令和8年2月13日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1036540.html",
+          "status": 200,
+          "title": "こころの健康 情報検索ページ",
+          "h1": "こころの健康 情報検索ページ",
+          "updatedAt": "令和7年10月4日",
+          "keywordHits": [
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1037101.html",
+          "status": 200,
+          "title": "依存症についての相談",
+          "h1": "依存症についての相談",
+          "updatedAt": "令和6年12月17日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1030657.html",
+          "status": 200,
+          "title": "アルコール依存症についての相談",
+          "h1": "アルコール依存症についての相談",
+          "updatedAt": "令和5年2月21日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1037102.html",
+          "status": 200,
+          "title": "ギャンブル依存症についての相談",
+          "h1": "ギャンブル依存症についての相談",
+          "updatedAt": "令和7年6月5日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1026654.html",
+          "status": 200,
+          "title": "身近な人、大切な人を突然亡くされた方へ",
+          "h1": "身近な人、大切な人を突然亡くされた方へ",
+          "updatedAt": "令和8年7月9日",
+          "keywordHits": [
+            "通学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001803/1035855.html",
+          "status": 200,
+          "title": "親と子のこころの相談室",
+          "h1": "親と子のこころの相談室",
+          "updatedAt": "令和6年9月20日",
+          "keywordHits": [
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1001879.html",
+          "status": 200,
+          "title": "精神障害者保健福祉手帳",
+          "h1": "精神障害者保健福祉手帳",
+          "updatedAt": "令和7年7月10日",
+          "keywordHits": [
+            "給付金",
+            "貸付",
+            "減免",
+            "免除",
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1018711.html",
+          "status": 200,
+          "title": "心身障害者医療費助成制度（マル障）のご案内 ～精神障害者保健福祉手帳1級をお持ちの方～",
+          "h1": "心身障害者医療費助成制度（マル障）のご案内 ～精神障害者保健福祉手帳1級をお持ちの方～",
+          "updatedAt": "令和7年3月25日",
+          "keywordHits": [
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 22,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1023369.html",
+          "status": 200,
+          "title": "心身障害者福祉手当（精神障害者）",
+          "h1": "心身障害者福祉手当（精神障害者）",
+          "updatedAt": "令和7年10月14日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1021144.html",
+          "status": 200,
+          "title": "精神障害のある方とご家族のための 医療と福祉のしおり",
+          "h1": "精神障害のある方とご家族のための 医療と福祉のしおり",
+          "updatedAt": "令和8年6月20日",
+          "keywordHits": [
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000052/1030186/1002144/1002194.html",
+          "status": 200,
+          "title": "葛飾区成年後見制度利用支援事業について（区長申立て）",
+          "h1": "葛飾区成年後見制度利用支援事業について（区長申立て）",
+          "updatedAt": "令和3年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1013136/index.html",
+          "status": 200,
+          "title": "自立支援医療費（精神通院医療）制度",
+          "h1": "自立支援医療費（精神通院医療）制度",
+          "updatedAt": "令和6年3月31日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1019496.html",
+          "status": 200,
+          "title": "小児精神病医療費助成制度",
+          "h1": "小児精神病医療費助成制度",
+          "updatedAt": "令和7年8月1日",
+          "keywordHits": [
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1030184/1001796/index.html",
+          "status": 200,
+          "title": "「かつしかの元気食堂」推進事業",
+          "h1": "「かつしかの元気食堂」推進事業",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1030184/1039008.html",
+          "status": 200,
+          "title": "食育推進ネットワーク",
+          "h1": "食育推進ネットワーク",
+          "updatedAt": "令和8年6月5日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1030184/1001799/index.html",
+          "status": 200,
+          "title": "食品衛生",
+          "h1": "食品衛生",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000051/1002136.html",
+          "status": 200,
+          "title": "特別養護老人ホーム入所を希望される方へ",
+          "h1": "特別養護老人ホーム入所を希望される方へ",
+          "updatedAt": "令和8年5月8日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000051/1010215.html",
+          "status": 200,
+          "title": "介護予防・日常生活支援総合事業（訪問型サービス・通所型サービス）",
+          "h1": "介護予防・日常生活支援総合事業（訪問型サービス・通所型サービス）",
+          "updatedAt": "令和6年4月20日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000051/1002106/index.html",
+          "status": 200,
+          "title": "介護保険サービス（サービスの種類・利用方法・事業者）",
+          "h1": "介護保険サービス（サービスの種類・利用方法・事業者）",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000051/1030337/index.html",
+          "status": 200,
+          "title": "介護サービス事業者の申請・手続き",
+          "h1": "介護サービス事業者の申請・手続き",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/online/1007359/1030292/1007375/1007562.html",
+          "status": 200,
+          "title": "介護保険被保険者証等再交付申請書",
+          "h1": "介護保険被保険者証等再交付申請書",
+          "updatedAt": "令和5年4月28日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000052/1028737/index.html",
+          "status": 200,
+          "title": "認知症",
+          "h1": "認知症",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1040585.html",
+          "status": 200,
+          "title": "自立訓練事業所の利用者を募集します",
+          "h1": "自立訓練事業所の利用者を募集します",
+          "updatedAt": "令和7年12月12日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1038809.html",
+          "status": 200,
+          "title": "【6月8日】デフスポーツフェスタinかつしかを開催します！（終了しました）",
+          "h1": "【6月8日】デフスポーツフェスタinかつしかを開催します！（終了しました）",
+          "updatedAt": "令和7年6月20日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1036754.html",
+          "status": 200,
+          "title": "【株式会社MAXIV・九重部屋】感謝状贈呈式を行いました",
+          "h1": "【株式会社MAXIV・九重部屋】感謝状贈呈式を行いました",
+          "updatedAt": "令和6年10月30日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1034594.html",
+          "status": 200,
+          "title": "身体・知的障害者福祉のしおり",
+          "h1": "身体・知的障害者福祉のしおり",
+          "updatedAt": "令和8年5月27日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1039219.html",
+          "status": 200,
+          "title": "働きたい障害のある方へ 働き方講演会を開催します！",
+          "h1": "働きたい障害のある方へ 働き方講演会を開催します！",
+          "updatedAt": "令和8年6月23日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1039224.html",
+          "status": 200,
+          "title": "障害者雇用の就職面接会を開催します",
+          "h1": "障害者雇用の就職面接会を開催します",
+          "updatedAt": "令和8年6月23日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1032804.html",
+          "status": 200,
+          "title": "障害者施設自主生産品販売所",
+          "h1": "障害者施設自主生産品販売所",
+          "updatedAt": "令和5年7月26日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1031016.html",
+          "status": 200,
+          "title": "【身体障害のある方へ】令和8年度福祉館デイサービス参加者募集 令和8年度の募集は締め切りました。",
+          "h1": "【身体障害のある方へ】令和8年度福祉館デイサービス参加者募集 令和8年度の募集は締め切りました。",
+          "updatedAt": "令和8年3月25日",
+          "keywordHits": [
+            "免除",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1027979/index.html",
+          "status": 200,
+          "title": "電話リレーサービス",
+          "h1": "電話リレーサービス",
+          "updatedAt": "令和3年7月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1002245/index.html",
+          "status": 200,
+          "title": "医療・手当",
+          "h1": "医療・手当",
+          "updatedAt": "平成19年3月1日",
+          "keywordHits": [
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 22,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1002244/index.html",
+          "status": 200,
+          "title": "手帳",
+          "h1": "手帳",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1002246/index.html",
+          "status": 200,
+          "title": "サービス・助成・減免",
+          "h1": "サービス・助成・減免",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "免除",
+            "住宅",
+            "事業者",
+            "福祉",
+            "就学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1030189/index.html",
+          "status": 200,
+          "title": "障害者施設等の地域ふれあい事業（館まつり等）",
+          "h1": "障害者施設等の地域ふれあい事業（館まつり等）",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1002249.html",
+          "status": 200,
+          "title": "都立・民間の障害者通所施設",
+          "h1": "都立・民間の障害者通所施設",
+          "updatedAt": "令和8年5月27日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1002250.html",
+          "status": 200,
+          "title": "心身に障害のあるお子さんの療育等を行う施設",
+          "h1": "心身に障害のあるお子さんの療育等を行う施設",
+          "updatedAt": "令和8年5月27日",
+          "keywordHits": [
+            "福祉",
+            "就学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "13122",
+          "municipalityName": "葛飾区",
+          "sourceUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1030190/index.html",
+          "status": 200,
+          "title": "障害者差別解消法・同法に基づく対応要領",
+          "h1": "障害者差別解消法・同法に基づく対応要領",
+          "updatedAt": "令和6年4月1日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.katsushika.lg.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.katsushika.lg.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.katsushika.lg.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/robots.txt",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/robots.txt",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/1031155.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/1031155.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/multilanguages/1009963.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/multilanguages/1009963.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/about/1030327.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/about/1030327.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/about/1030328.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/about/1030328.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000046/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000046/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000047/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000047/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000048/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000048/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000049/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000049/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1003399/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1003399/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000062/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000062/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1004028/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1004028/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000050/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000050/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1030182/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1030182/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1001792/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1030183/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1030183/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1030184/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1030184/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000051/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000051/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000052/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000052/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000053/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000055/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000055/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1002321.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1002321.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1030272/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1030272/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kosodate/1000056/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kosodate/1000057/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kosodate/1000057/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kosodate/1002752/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kosodate/1002752/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kosodate/1030198/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kosodate/1030198/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/tourism/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/tourism/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/tourism/1000064/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/tourism/1000064/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/tourism/1030208/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/tourism/1030208/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/tourism/1002757/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/tourism/1002757/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/tourism/1027563/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/tourism/1027563/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/tourism/1002753/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/tourism/1002753/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/event/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/event/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/institution/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/institution/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/institution/1030218/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/institution/1030218/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/institution/public/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/institution/public/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/institution/1006723/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/institution/1006723/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/institution/1030223/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/institution/1030223/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/institution/1030224/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/institution/1030224/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/institution/1030225/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/institution/1030225/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/institution/1000096/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/institution/1000096/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/institution/1000103/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/institution/1000103/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/institution/1000102/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/institution/1000102/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/institution/1000101/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/institution/1000101/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/institution/1030229/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/institution/1030229/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/business/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/business/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/business/1000011/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/business/1000011/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/business/1000066/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/business/1000066/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/business/1019383/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/business/1019383/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/business/1034628/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/business/1034628/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/planning/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/planning/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/planning/1003608/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/planning/1003608/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/planning/1003609/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/planning/1003609/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/planning/1003610/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/planning/1003610/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/planning/1030239/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/planning/1030239/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/planning/1030242/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/planning/1030242/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/planning/1003614/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/planning/1003614/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/planning/1030243/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/planning/1030243/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/planning/1003408/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/planning/1003408/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/planning/1003620/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/planning/1003620/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/planning/1003621/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/planning/1003621/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1000074/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1000074/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1000076/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1000076/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/kucho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/kucho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/kouho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/kouho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1000078/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1000078/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1030247/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1030247/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1000079/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1000079/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1000080/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1000080/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1000081/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1000081/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1000082/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1000082/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1000083/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1000083/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1000084/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1000084/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1000085/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1000085/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1000086/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1000086/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1000087/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1000087/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1000088/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1000088/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1014546/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1014546/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1000089/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1000089/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1030313/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1030313/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1030314/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1030314/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1030288/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1030288/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/citypromotion/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/citypromotion/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1037720/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kosodate/1000056/1037720/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000046/1001402/1041280.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000046/1001402/1041280.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000052/1002142/1031442/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000052/1002142/1031442/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000052/1030186/1002144/1028376.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000052/1030186/1002144/1028376.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/event/1000107/1019170.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/event/1000107/1019170.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/business/1000011/1030233/1000070/1036562.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/business/1000011/1030233/1000070/1036562.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/business/1000011/1030233/1034396/1034699.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/business/1000011/1030233/1034396/1034699.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/newslist.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/newslist.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/news.rss",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/news.rss",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1000084/1006012/1026642/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1000084/1006012/1026642/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1000084/1006012/1026967/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1000084/1006012/1026967/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kosodate/1000057/kyouiku/1002486.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kosodate/1000057/kyouiku/1002486.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1000083/1005977/1027210/1037298.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1000083/1005977/1027210/1037298.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1000083/1005977/1027209/1036724.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1000083/1005977/1027209/1036724.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1000084/1006013/1006061.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1000084/1006013/1006061.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/event_calendar.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/event_calendar.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/kouho/1031020/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/kouho/1031020/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/kouho/1005538/1028094.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/kouho/1005538/1028094.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/kouho/1005537/1041613/1042828/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/kouho/1005537/1041613/1042828/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/kouho/1005537/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/kouho/1005537/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1004028/1000063/1004031/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1004028/1000063/1004031/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1004028/1000063/1004031/1028160.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1004028/1000063/1004031/1028160.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1004028/1000063/1004029/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1004028/1000063/1004029/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001801/1002045.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001801/1002045.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001801/1002044.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001801/1002044.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003788/1009951.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003788/1009951.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/lifeevent/lifeevent2.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/lifeevent/lifeevent2.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/lifeevent/lifeevent3.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/lifeevent/lifeevent3.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000052/koureisha/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000052/koureisha/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/lifeevent/lifeevent8.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/lifeevent/lifeevent8.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/faq/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/faq/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/online/1007358/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/online/1007358/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/online/1007359/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/online/1007359/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/opinions/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/opinions/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/opinions/1009924.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/opinions/1009924.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1000088/1006639/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1000088/1006639/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1000086/saiyou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1000086/saiyou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003786/1014474.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003786/1014474.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kosodate/1000057/1002475/1002541/1042154.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kosodate/1000057/1002475/1002541/1042154.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/kouho/1005537/1005546.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/kouho/1005537/1005546.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/about/1011987.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/about/1011987.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/kouho/callcenter/call.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/kouho/callcenter/call.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/institution/public/office.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/institution/public/office.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1000076/1005536.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1000076/1005536.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000046/1001406/1001459.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000046/1001406/1001459.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/about/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/about/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/about/link.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/about/link.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/about/privacy.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/about/privacy.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/about/copyright.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/about/copyright.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/cgi-bin2/enquetes/6259eac833004a1a902923c5ea3123f3",
+          "status": 400,
+          "finalUrl": "https://www.city.katsushika.lg.jp/cgi-bin2/enquetes/6259eac833004a1a902923c5ea3123f3",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/multilanguages/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/multilanguages/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1000087/1038058/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1000087/1038058/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/information/1000087/1022737/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/information/1000087/1022737/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/about/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/about/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000046/1040937.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000046/1040937.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000046/1040608.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000046/1040608.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000046/1001400/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000046/1001400/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000046/1001401/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000046/1001401/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000046/1001403/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000046/1001403/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000046/1001424.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000046/1001424.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000046/1001402/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000046/1001402/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000046/1001406/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000046/1001406/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000046/1030169/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000046/1030169/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000046/1025399/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000046/1025399/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000046/1001404/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000046/1001404/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000047/1001463/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000047/1001463/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000047/1001464/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000047/1001464/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000047/1001465/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000047/1001465/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000047/1001466/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000047/1001466/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003787/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003787/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000047/1001470/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000047/1001470/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000047/1042210/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000047/1042210/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000047/1001471.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000047/1001471.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000048/1010923/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000048/1010923/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000048/1001535/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000048/1001535/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000048/1001537/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000048/1001537/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000048/1001536/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000048/1001536/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000048/1017199/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000048/1017199/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000048/1026424/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000048/1026424/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000048/1001534/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000048/1001534/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000048/1026425/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000048/1026425/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000049/1001690/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000049/1001690/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000049/1001691/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000049/1001691/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000049/1001692/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000049/1001692/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000049/1001696.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000049/1001696.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1003399/1033911.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1003399/1033911.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1003399/1033377/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1003399/1033377/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1003399/1031568.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1003399/1031568.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1003399/1030170/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1003399/1030170/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1003399/1030171/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1003399/1030171/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1003399/1030172/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1003399/1030172/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1003399/1030173/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1003399/1030173/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1003399/1003401/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1003399/1003401/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1003399/1042407.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1003399/1042407.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1003399/1003402/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1003399/1003402/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1003399/1003403/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1003399/1003403/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1003399/1003407/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1003399/1003407/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000062/1023018/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000062/1023018/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000062/1030304/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000062/1030304/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000062/1003884/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000062/1003884/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000062/1030174/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000062/1030174/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000062/1039567/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000062/1039567/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000062/1039593/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000062/1039593/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1004028/1000063/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1004028/1000063/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1004028/1004040/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1004028/1004040/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1004028/1030175/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1004028/1030175/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1004028/1040694/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1004028/1040694/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/planning/1030243/1003615/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/planning/1030243/1003615/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003783/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003783/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003784/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003784/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/1021631/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1021631/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003786/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003786/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003788/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003788/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003789/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003789/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003790/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003790/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003791/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003791/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003792/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003792/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003793/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003793/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003794/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003794/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003795/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003795/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003796/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003796/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003797/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003797/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003798/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003798/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003799/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003799/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003800/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003800/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003801/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003801/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003802/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003802/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003803/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003803/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003804/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003804/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003805/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kurashi/1000061/1003805/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000050/hokenjyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000050/hokenjyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001801/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001801/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001788/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001788/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001800/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001800/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001797/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001797/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001804/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001804/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001803/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001803/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000050/1019946/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000050/1019946/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000050/1024626.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000050/1024626.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001791/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001791/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000050/1037579/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000050/1037579/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1030182/1017859/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1030182/1017859/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1030182/1025594/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1030182/1025594/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1030182/1001790/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1030182/1001790/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1001792/1041176.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1041176.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1001792/1036540.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1036540.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1001792/1037101.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1037101.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1001792/1030657.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1030657.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1001792/1037102.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1037102.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1001792/1027036.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1027036.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1001792/1026654.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1026654.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001803/1035855.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000050/1001803/1035855.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1001792/1001864.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1001864.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1001792/1039993.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1039993.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1001792/1039545.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1039545.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1001792/1039559.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1039559.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1001792/1001879.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1001879.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1001792/1018711.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1018711.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1001792/1023369.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1023369.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1001792/1021144.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1021144.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000052/1030186/1002144/1002194.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000052/1030186/1002144/1002194.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1001792/1013136/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1013136/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1001792/1019496.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1019496.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1001792/1021473/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1001792/1021473/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1030183/1001793/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1030183/1001793/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1030183/1001794/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1030183/1001794/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1030183/1023564.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1030183/1023564.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1030184/1001796/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1030184/1001796/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1030184/1039008.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1030184/1039008.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1030184/1034188.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1030184/1034188.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1030184/1001795/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1030184/1001795/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1030184/1024043/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1030184/1024043/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1030184/1001799/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1030184/1001799/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1030184/1001798/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1030184/1001798/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000051/1010238.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000051/1010238.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000051/1002136.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000051/1002136.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000051/1010215.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000051/1010215.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000051/1030185/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000051/1030185/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000051/1002106/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000051/1002106/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000051/1002105/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000051/1002105/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000051/1030337/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000051/1030337/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/online/1007359/1030292/1007375/1007562.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/online/1007359/1030292/1007375/1007562.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000052/1028737/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000052/1028737/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000052/1002140/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000052/1002140/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000052/1002142/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000052/1002142/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000052/1030186/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000052/1030186/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000052/1030187/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000052/1030187/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000052/1002143/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000052/1002143/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000052/1015540/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000052/1015540/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000053/1040585.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1040585.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000053/1038809.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1038809.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000053/1036754.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1036754.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000053/1034594.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1034594.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000053/1033430/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1033430/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000053/1039219.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1039219.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000053/1039224.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1039224.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000053/1032804.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1032804.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000053/1031016.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1031016.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000053/1027979/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1027979/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000053/1002245/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1002245/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000053/1002244/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1002244/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000053/1002246/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1002246/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000053/1030188/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1030188/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000053/1030189/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1030189/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000053/1002249.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1002249.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000053/1002250.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1002250.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.katsushika.lg.jp/kenkou/1000053/1030190/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.katsushika.lg.jp/kenkou/1000053/1030190/index.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

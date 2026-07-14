@@ -7707,3 +7707,48 @@
     - 受付終了、受付休止、404、金額又は受付状況不足、PDF精査待ち、カテゴリ導線、様式のみ、国制度色が強い候補は第2巡候補に残す。
   - 次:
     - 東京都公式棚卸し006として、13121足立区、13122葛飾区、13123江戸川区、13201八王子市を自治体コード順に確認する。
+
+- 東京都公式棚卸し006
+  - 対象:
+    - 13121 足立区、13122 葛飾区、13123 江戸川区、13201 八王子市。
+  - 方法:
+    - 公式トップ到達を4自治体すべて確認し、候補819件を抽出した。
+    - 候補が150件を超えたため、本文スニペット819URLを保存し、制度強語・金額・対象条件・受付表現を優先して再確認した。
+    - 足立区は防犯対策補助、気候変動適応対策エアコン購入費、認証保育所保育料負担軽減、社会人奨学金返済支援、小規模事業者等経営改善を公式本文で確認した。
+    - 葛飾区はデジタル化支援、機械設備メンテナンス等、旅行商品造成、人材確保・人材定着支援、消火器購入支援を公式本文で確認した。
+    - 江戸川区は住まいの防犯対策、労働環境整備、デジタル技術活用促進（DX導入）、デジタル技術活用促進（IT導入）、人材育成支援を公式本文で確認した。
+    - 八王子市は住まいの防犯対策緊急、家庭用防災物品購入費等、再生可能エネルギー利用機器等設置費、創業者販路拡大支援、物価高騰対応事業者支援を公式本文で確認した。
+    - カテゴリ導線、様式のみ、金額又は受付状況が公式本文だけで確定できない候補、年度外の可能性がある候補は第2巡候補に残す。
+  - 採用:
+    - 足立区5件: 防犯対策補助事業、気候変動適応対策エアコン購入費補助金、認証保育所保育料負担軽減制度、社会人を対象とした奨学金返済支援助成、小規模事業者等経営改善補助金。
+    - 葛飾区5件: デジタル化支援事業費補助金、機械設備メンテナンス等助成、旅行商品造成事業補助金、人材確保・人材定着支援事業費助成金、消火器購入支援事業補助金。
+    - 江戸川区5件: 住まいの防犯対策補助金、労働環境整備助成金、デジタル技術活用促進助成金（DX導入）、デジタル技術活用促進助成金（IT導入）、人材育成支援助成金。
+    - 八王子市5件: 住まいの防犯対策緊急補助金、家庭用防災物品購入費等補助金、再生可能エネルギー利用機器等設置費補助制度、創業者販路拡大支援補助金、物価高騰対応事業者支援金。
+  - 生成ファイル:
+    - `tasks/discovery/tokyo-official-coverage-006-municipalities.json`
+    - `tasks/discovery/tokyo-official-coverage-006-13121-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-006-13122-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-006-13123-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-006-13201-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-006-13121-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-006-13122-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-006-13123-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-006-13201-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-006-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-006-target-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-006-selected-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-006-selected-main.json`
+    - `tasks/discovery/tokyo-official-coverage-006-url-check.json`
+    - `tasks/discovery/tokyo-official-coverage-006.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（20件、`verified-local-misc-2026.ts` 内で各1件）。
+    - 公式URL到達: pass（20 official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 11095、officialLinkedActive 11057、manuallyVerifiedActive 11057、東京都 localOfficial 479）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 受付終了、受付休止、404、金額又は受付状況不足、PDF精査待ち、カテゴリ導線、様式のみ、国制度色が強い候補は第2巡候補に残す。
+  - 次:
+    - 東京都公式棚卸し007として、13202立川市、13203武蔵野市、13204三鷹市、13205青梅市を自治体コード順に確認する。

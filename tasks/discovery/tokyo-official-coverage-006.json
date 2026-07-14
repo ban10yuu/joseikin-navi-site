@@ -1,0 +1,67 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-006",
+  "prefecture": "東京都",
+  "completedAt": "2026-07-14T03:14:06.019Z",
+  "status": "completed-for-listed-municipalities",
+  "municipalities": [
+    {
+      "code": "13121",
+      "name": "足立区",
+      "officialBaseUrl": "https://www.city.adachi.tokyo.jp/",
+      "selectedCount": 5,
+      "status": "official-pages-verified"
+    },
+    {
+      "code": "13122",
+      "name": "葛飾区",
+      "officialBaseUrl": "https://www.city.katsushika.lg.jp/",
+      "selectedCount": 5,
+      "status": "official-pages-verified"
+    },
+    {
+      "code": "13123",
+      "name": "江戸川区",
+      "officialBaseUrl": "https://www.city.edogawa.tokyo.jp/",
+      "selectedCount": 5,
+      "status": "official-pages-verified"
+    },
+    {
+      "code": "13201",
+      "name": "八王子市",
+      "officialBaseUrl": "https://www.city.hachioji.tokyo.jp/",
+      "selectedCount": 5,
+      "status": "official-pages-verified"
+    }
+  ],
+  "selectedSlugs": [
+    "adachi-crime-prevention-equipment-subsidy-2026",
+    "adachi-climate-adaptation-air-conditioner-subsidy-2026",
+    "adachi-certified-nursery-fee-subsidy-2026",
+    "adachi-scholarship-repayment-support-2026",
+    "adachi-small-business-improvement-subsidy-2026",
+    "katsushika-digitalization-support-subsidy-2026",
+    "katsushika-machinery-maintenance-subsidy-2026",
+    "katsushika-tour-product-development-subsidy-2026",
+    "katsushika-human-resource-retention-subsidy-2026",
+    "katsushika-fire-extinguisher-purchase-subsidy-2026",
+    "edogawa-home-security-equipment-subsidy-2026",
+    "edogawa-labor-environment-improvement-subsidy-2026",
+    "edogawa-digital-technology-dx-subsidy-2026",
+    "edogawa-digital-technology-it-subsidy-2026",
+    "edogawa-human-resource-development-subsidy-2026",
+    "hachioji-home-security-equipment-subsidy-2026",
+    "hachioji-household-disaster-goods-subsidy-2026",
+    "hachioji-renewable-energy-equipment-subsidy-2026",
+    "hachioji-founder-sales-channel-subsidy-2026",
+    "hachioji-price-inflation-business-support-2026"
+  ],
+  "urlCheck": {
+    "okCount": 20,
+    "total": 20,
+    "path": "tasks/discovery/tokyo-official-coverage-006-url-check.json"
+  },
+  "notes": [
+    "候補819件についてtarget-snippetsを生成し、制度強語・金額・対象条件・受付表現を優先して20件を採用。",
+    "カテゴリ導線、様式のみ、金額又は受付状況が公式本文だけで確定できない候補、年度外の可能性がある候補は第2巡候補に残す。"
+  ]
+}

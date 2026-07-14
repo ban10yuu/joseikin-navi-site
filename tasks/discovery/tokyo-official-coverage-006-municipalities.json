@@ -1,0 +1,26 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-006",
+  "prefecture": "東京都",
+  "municipalities": [
+    {
+      "code": "13121",
+      "name": "足立区",
+      "officialBaseUrl": "https://www.city.adachi.tokyo.jp/"
+    },
+    {
+      "code": "13122",
+      "name": "葛飾区",
+      "officialBaseUrl": "https://www.city.katsushika.lg.jp/"
+    },
+    {
+      "code": "13123",
+      "name": "江戸川区",
+      "officialBaseUrl": "https://www.city.edogawa.tokyo.jp/"
+    },
+    {
+      "code": "13201",
+      "name": "八王子市",
+      "officialBaseUrl": "https://www.city.hachioji.tokyo.jp/"
+    }
+  ]
+}
