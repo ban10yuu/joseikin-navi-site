@@ -8822,3 +8822,48 @@
   - カテゴリページ、トップ、一覧、受付終了、全国制度案内、金額・対象・受付表現不足候補は第2巡候補に残す。粟島浦村の申請書・計画PDF等は、個別補助制度として必要項目が揃うもののみ採用した。
 - 次:
   - 富山県公式棚卸し001として、16201富山市から自治体コード順に確認する。
+
+### 2026-07-14 富山県公式棚卸し001（16201富山市・16202高岡市・16204魚津市・16205氷見市・16206滑川市）
+
+- 作業範囲:
+  - 16201 富山市、16202 高岡市、16204 魚津市、16205 氷見市、16206 滑川市の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページ/PDFを確認した。
+  - 自治体別クロールで候補798件を取得した。高岡市・氷見市・滑川市は公式sitemapを補助的に再帰抽出し、短い本文スニペット797件と公式ドメイン限定URLリード539件を保存した。
+  - 詳細797件を `tasks/discovery/toyama-official-coverage-001-details.json` に取得し、トップ、カテゴリ、共通ナビ、募集・周知、全国制度案内、重複ページ、金額・対象・受付表現不足候補を第2巡候補に残した。
+- 採用:
+  - 合計65件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 富山市5件: 令和8年度富山市福祉事業所物価高騰対策支援金（介護サービス分）、富山市太陽光発電設備及び蓄電池導入促進補助金、富山市移住促進・魅力発信事業補助金、富山市先端設備等導入加速化支援事業補助金、富山市大学生等定住促進事業。
+  - 高岡市16件: 母子家庭等自立支援給付金、こども医療費助成、ひとり親家庭等医療費助成事業、物価高対応子育て応援手当、児童手当、新幹線通学定期券購入補助金、海外留学支援奨学金、荻布奨学金、副食費の免除、ジュニア育成コミュニティ活動事業補助金、地域健康づくり事業補助金、骨髄バンクドナー助成、自立支援医療費助成、重度心身障害者等医療費助成、妊産婦医療費助成、児童扶養手当。
+  - 魚津市0件: 公式HTML sitemapとPDF候補を確認したが、今回の公式本文/PDFで金額・対象・受付表現が揃う新規個別制度は採用なし。未判定候補は第2巡候補に保持。
+  - 氷見市23件: 専門家活用支援事業補助金、子ども医療費助成、児童手当、市単独土地改良事業補助金、技術研修等派遣助成金、定住促進賃貸住宅家賃補助金、介護人材就労支援補助金、障害のある方への手当・福祉金、妊婦支援給付金・ひみっこギフト、定住促進住宅団地造成事業補助金、過疎地域特別措置法による課税免除、コンベンション事業推進補助金、女性が輝くオフィス進出促進事業補助金（開設運営・視察）、スマート農業推進事業費補助金、電気柵等設置補助金、木質バイオマス活用促進事業費補助金、創業者・空き店舗活用補助金、新商品開発・販路開拓支援事業補助金、海外販路拡大支援事業費補助金、若者・女性が活躍する企業づくり支援事業補助金、労働環境改善助成金、若者交流応援事業補助金。
+  - 滑川市21件: 結婚新生活支援補助金、妊産婦医療費助成、高校生等医療費助成、子ども医療費助成、母子（父子）家庭自立支援給付金、婚活支援事業補助金、地方就職支援金、移住支援金、中高年齢離職者等技能再訓練奨励金、民間宅地開発事業補助金、居住誘導区域住宅取得支援事業補助金、生ごみ処理機器購入補助金、侵入防止柵整備補助金、診療所開設等支援補助金、重度心身障害者等医療費助成、子ども食堂事業補助金、児童手当、ごみ集積場設置補助金、水洗化推進事業補助金、合併処理浄化槽設置補助金、早月川西部地区合併処理浄化槽整備促進事業補助金。
+- 生成ファイル:
+  - `tasks/discovery/toyama-official-coverage-001-municipalities.json`
+  - `tasks/discovery/toyama-official-coverage-001-16201-municipality.json`
+  - `tasks/discovery/toyama-official-coverage-001-16202-municipality.json`
+  - `tasks/discovery/toyama-official-coverage-001-16204-municipality.json`
+  - `tasks/discovery/toyama-official-coverage-001-16205-municipality.json`
+  - `tasks/discovery/toyama-official-coverage-001-16206-municipality.json`
+  - `tasks/discovery/toyama-official-coverage-001-16201-candidates.json`
+  - `tasks/discovery/toyama-official-coverage-001-16202-candidates.json`
+  - `tasks/discovery/toyama-official-coverage-001-16204-candidates.json`
+  - `tasks/discovery/toyama-official-coverage-001-16205-candidates.json`
+  - `tasks/discovery/toyama-official-coverage-001-16206-candidates.json`
+  - `tasks/discovery/toyama-official-coverage-001-candidates.json`
+  - `tasks/discovery/toyama-official-coverage-001-snippets.json`
+  - `tasks/discovery/toyama-official-coverage-001-url-leads.json`
+  - `tasks/discovery/toyama-official-coverage-001-details.json`
+  - `tasks/discovery/toyama-official-coverage-001-adopted-urls.json`
+  - `tasks/discovery/toyama-official-coverage-001.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（001関連JSON、checkpoint）。
+  - 追加slug重複: pass（65件、`verified-local-misc-2026.ts` 内で各1件）。
+  - 公式URL到達: pass（65 primary official URLsすべてHTTP 200）。
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 12053、officialLinkedActive 11933、manuallyVerifiedActive 11933、富山県 localOfficial 120）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は富山県16206滑川市到達のみで全国完了扱いしない。
+  - 富山市のトップページ、周知・募集・全国制度案内、重複移住支援申請ページ、高岡市・氷見市・滑川市のカテゴリ/一覧/共通ナビ一致、魚津市の個別条件不足PDF候補は第2巡候補に残す。
+- 次:
+  - 富山県公式棚卸し002として、16207黒部市から自治体コード順に確認する。

@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-14T22:57:46+09:00",
+  "updatedAt": "2026-07-14T23:27:53+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "niigata-official-coverage-008",
-    "municipality": "湯沢町・津南町・刈羽村・関川村・粟島浦村",
-    "adopted": 84,
-    "held": 281,
+    "code": "toyama-official-coverage-001",
+    "municipality": "富山市・高岡市・魚津市・氷見市・滑川市",
+    "adopted": 65,
+    "held": 733,
     "excluded": 0,
-    "sourceUrlsChecked": 684,
+    "sourceUrlsChecked": 797,
     "validation": {
-      "previousMunicipality": "新潟県公式棚卸し008として、15461湯沢町・15482津南町・15504刈羽村・15581関川村・15586粟島浦村を確認した。自治体別クロールで候補365件を取得し、短い本文スニペット684件と公式ドメイン限定URLリード260件を加えて詳細684件の公式本文・PDFを確認した。カテゴリページ、トップ、一覧、受付終了、全国制度案内、金額・対象・受付表現不足の候補を除き、個別公式ページ84件を新規採用した。新潟県は15586粟島浦村まで第1巡到達。全国公式棚卸しは未完了。",
+      "previousMunicipality": "富山県公式棚卸し001として、16201富山市・16202高岡市・16204魚津市・16205氷見市・16206滑川市を確認した。自治体別クロールと公式sitemap補助抽出で候補798件、公式ドメイン限定URLリード539件、短い本文スニペット797件、詳細797件を保存し、トップ・カテゴリ・周知・全国制度案内・重複を除いて個別公式ページ65件を新規採用した。魚津市は今回の新規採用なしだが、公式候補は第2巡候補として保持。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for niigata-official-coverage-008.json / snippets / url-leads / details / adopted-urls / municipalities / split municipality inputs / candidates / official-coverage-checkpoint.json",
-      "addedSlugUniqueness": "pass: 84 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 84 primary official URLs returned HTTP 200",
+      "json": "pass: JSON.parse for toyama-official-coverage-001.json / snippets / url-leads / details / adopted-urls / municipalities / split municipality inputs / candidates / official-coverage-checkpoint.json",
+      "addedSlugUniqueness": "pass: 65 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 65 primary official URLs returned HTTP 200",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11988, officialLinkedActive 11868, manuallyVerifiedActive 11868, 新潟県 localOfficial 518)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 12053, officialLinkedActive 11933, manuallyVerifiedActive 11933, 富山県 localOfficial 120)"
     }
   },
   "next": {
-    "code": "toyama-official-coverage-001",
-    "municipality": "富山市",
-    "shortlist": "新潟県公式棚卸し008は湯沢町11件、津南町38件、刈羽村9件、関川村25件、粟島浦村1件の計84件を採用した。カテゴリページ、トップ、一覧、受付終了、全国制度案内、金額・対象・受付表現不足候補、粟島浦村の申請書・計画PDF等は第2巡候補として保持する。",
-    "instructions": "次回は富山県公式棚卸し001として、固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から自治体コード順に16201富山市から開始する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "toyama-official-coverage-002",
+    "municipality": "黒部市",
+    "shortlist": "富山県公式棚卸し001は富山市5件、高岡市16件、魚津市0件、氷見市23件、滑川市21件の計65件を採用した。トップ、カテゴリ、共通ナビ、周知、全国制度案内、重複移住支援申請ページ、金額・対象・受付表現不足候補は第2巡候補として保持する。",
+    "instructions": "次回は富山県公式棚卸し002として、固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から自治体コード順に16207黒部市から開始する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
-    "prefecture": "新潟県",
-    "status": "first-pass-complete",
-    "lastBatch": "niigata-official-coverage-008",
-    "notes": "新潟県は15586粟島浦村まで自治体コード順に第1巡到達。次は富山県16201富山市。神奈川県は14402清川村まで第1巡到達済み、東京都は13421小笠原村まで第1巡到達済みだが、第2巡保留候補を保持。全国公式棚卸しは未完了。"
+    "prefecture": "富山県",
+    "status": "in-progress",
+    "lastBatch": "toyama-official-coverage-001",
+    "notes": "富山県は16206滑川市まで自治体コード順に第1巡到達。次は16207黒部市。新潟県は15586粟島浦村まで第1巡完了。全国公式棚卸しは未完了。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

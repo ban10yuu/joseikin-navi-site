@@ -1,0 +1,31 @@
+{
+  "batchId": "toyama-official-coverage-001",
+  "prefecture": "富山県",
+  "municipalities": [
+    {
+      "code": "16201",
+      "name": "富山市",
+      "officialBaseUrl": "https://www.city.toyama.lg.jp/"
+    },
+    {
+      "code": "16202",
+      "name": "高岡市",
+      "officialBaseUrl": "https://www.city.takaoka.toyama.jp/"
+    },
+    {
+      "code": "16204",
+      "name": "魚津市",
+      "officialBaseUrl": "https://www.city.uozu.toyama.jp/"
+    },
+    {
+      "code": "16205",
+      "name": "氷見市",
+      "officialBaseUrl": "https://www.city.himi.toyama.jp/"
+    },
+    {
+      "code": "16206",
+      "name": "滑川市",
+      "officialBaseUrl": "https://www.city.namerikawa.toyama.jp/"
+    }
+  ]
+}
