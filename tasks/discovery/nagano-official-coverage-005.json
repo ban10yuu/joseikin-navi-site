@@ -1,0 +1,81 @@
+{
+  "batchId": "nagano-official-coverage-005",
+  "prefecture": "長野県",
+  "generatedAt": "2026-07-15T06:35:00+09:00",
+  "scope": [
+    {
+      "code": "20307",
+      "name": "北相木村",
+      "officialBaseUrl": "https://www.vill.kitaaiki.nagano.jp/"
+    },
+    {
+      "code": "20309",
+      "name": "佐久穂町",
+      "officialBaseUrl": "https://www.town.sakuho.nagano.jp/"
+    },
+    {
+      "code": "20321",
+      "name": "軽井沢町",
+      "officialBaseUrl": "https://www.town.karuizawa.lg.jp/"
+    },
+    {
+      "code": "20323",
+      "name": "御代田町",
+      "officialBaseUrl": "https://www.town.miyota.nagano.jp/"
+    },
+    {
+      "code": "20324",
+      "name": "立科町",
+      "officialBaseUrl": "https://www.town.tateshina.nagano.jp/"
+    }
+  ],
+  "discovery": {
+    "candidateCount": 319,
+    "candidatePages": 314,
+    "uniqueFetched": 311,
+    "rescored": 237
+  },
+  "adopted": {
+    "total": 60,
+    "uniqueOfficialUrls": 3,
+    "byMunicipality": {
+      "佐久穂町": 25,
+      "立科町": 25,
+      "軽井沢町": 10
+    },
+    "firstSlug": "nagano-official-005-001-2026",
+    "lastSlug": "nagano-official-005-060-2026",
+    "sourceUrls": [
+      "https://www.town.sakuho.nagano.jp/todokede/todokede/hojokin/index.html",
+      "https://www.town.tateshina.nagano.jp/kurashi/todokede_shomei/hojo_josei/index.html",
+      "https://www.town.karuizawa.lg.jp/life/6/24/120/"
+    ]
+  },
+  "held": {
+    "totalUniqueUrls": 234,
+    "notes": [
+      "北相木村は通常クロールで候補が得られず、公式検索で助成・支援制度ページは確認したがローカル到達不安定のため第2巡候補保持。",
+      "佐久穂町は補助金・助成金一覧から25制度を採用し、個別リンク先はWAFにより第2巡で再確認する。",
+      "軽井沢町は補助金一覧から10制度を採用し、個別リンク先は第2巡で再確認する。",
+      "御代田町は個別ページ候補を確認したが今回の60件枠では採用せず、第2巡候補保持。",
+      "立科町は補助金・助成金一覧から25制度を採用し、個別リンク先はWAFにより第2巡で再確認する。"
+    ]
+  },
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "json": "pass: JSON.parse for nagano-official-coverage-005 JSON files and checkpoint update inputs",
+    "addedSlugUniqueness": "pass: 60 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "partial pass: official list pages were retrieved as HTTP 200 by browser/open; local interval curl returned 403 due WAF, so individual links are retained for second-pass recheck",
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 13495, officialLinkedActive 13375, manuallyVerifiedActive 13375, 長野県 localOfficial 409)"
+  },
+  "next": {
+    "batchId": "nagano-official-coverage-006",
+    "municipality": {
+      "code": "20325",
+      "name": "青木村"
+    },
+    "instructions": "次回は20325青木村から自治体コード順に再開する。全国公式棚卸しは未完了。"
+  }
+}

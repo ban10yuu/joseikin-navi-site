@@ -9735,3 +9735,43 @@
   - トップ、カテゴリ、ポータル、様式、申請書単体、周知のみ、制度要件不足候補は第2巡候補に残す。
 - 次:
   - 長野県公式棚卸し005として、20307北相木村から自治体コード順に確認する。
+
+### 2026-07-15 長野県公式棚卸し005（20307北相木村・20309佐久穂町・20321軽井沢町・20323御代田町・20324立科町）
+- 範囲:
+  - 20307 北相木村: `https://www.vill.kitaaiki.nagano.jp/`
+  - 20309 佐久穂町: `https://www.town.sakuho.nagano.jp/`
+  - 20321 軽井沢町: `https://www.town.karuizawa.lg.jp/`
+  - 20323 御代田町: `https://www.town.miyota.nagano.jp/`
+  - 20324 立科町: `https://www.town.tateshina.nagano.jp/`
+- 探索:
+  - `node scripts/discover-official-candidates.mjs --input tasks/discovery/nagano-official-coverage-005-municipalities.json --output tasks/discovery/nagano-official-coverage-005-candidates.json --initial-limit-per-municipality 80 --deep-limit-per-municipality 220 --limit-per-municipality 220 --concurrency 4 --timeout-ms 30000`
+  - 候補319件。shortlistが150件を超えたため、本文スニペット311件を抽出し、再スコア237件を保存した。
+- 採用:
+  - 合計60件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 佐久穂町25件: 商工業雇用促進助成金、奨学金返済支援補助金、UIJターン就業・創業移住支援、就職・移住学生支援、難聴者補聴器購入助成、心身障害児・者通園費等給付、軽度・中等度難聴児補聴器購入助成、コミュニティ提案型まち活性化補助金、福祉医療費給付金、ゼロカーボン推進補助金、エアコン設置促進補助金、不妊・不育症治療費助成、猫不妊去勢手術補助金、6次産業化支援、住宅用地取得・住宅解体・住宅新築助成、アウトドアアクティビティ支援、空き家対策補助、下水道区域外接続補助、医療福祉施設等価格高騰対策支援、民間賃貸住宅建設補助、宅地造成支援、がん患者アピアランスケア助成、合併処理浄化槽設置補助、遊具整備補助等。
+  - 立科町25件: 出産祝金、不育治療費助成、チャイルドシート購入補助、補装具費支給、がん検診助成、がん患者アピアランスケア助成、多胎妊婦健康診査助成、風しん予防接種助成、大型生ごみ処理機購入補助、家庭用生ごみ処理機購入補助、地球温暖化防止活動補助、猫繁殖制限手術補助、老朽危険空き家除却補助、空き家利用促進補助、住宅断熱性能向上補助、木造住宅無料耐震診断、奨学金返還支援、UIJターン就業・創業移住支援、U/I/Jターン新築住宅補助、薪ストーブ設置補助、結婚新生活支援、婚活支援、自転車ヘルメット購入補助、運転免許自主返納支援、防犯対策補助等。
+  - 軽井沢町10件: みんなの力でつくるまち活動支援事業、生ごみ処理機等購入補助、電動式刈払機等購入補助、環境配慮新築住宅・省エネルギー改修補助、電気自動車等普及促進補助、消費者被害防止機器購入補助、危険木対策補助、事業者向け普通充電設備設置補助、国際交流事業補助、合併処理浄化槽設置補助。
+  - 北相木村は通常クロール候補が不足し、御代田町は再スコア対象を第2巡候補として保持した。
+  - 採用元の公式一覧3URLはブラウザ取得で公式本文を確認した。一方で短時間ローカルcurlではWAFにより403へ振れるため、個別制度リンクの再到達確認は第2巡台帳に残した。
+- 生成ファイル:
+  - `tasks/discovery/nagano-official-coverage-005-adopted-urls.json`
+  - `tasks/discovery/nagano-official-coverage-005-candidates.json`
+  - `tasks/discovery/nagano-official-coverage-005-municipalities.json`
+  - `tasks/discovery/nagano-official-coverage-005-official-lists.json`
+  - `tasks/discovery/nagano-official-coverage-005-rescored-snippets.json`
+  - `tasks/discovery/nagano-official-coverage-005-snippets.json`
+  - `tasks/discovery/nagano-official-coverage-005-url-status.txt`
+  - `tasks/discovery/nagano-official-coverage-005.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（005関連JSON、checkpoint）。
+  - 追加slug重複: pass（60件、`verified-local-misc-2026.ts` 全体 duplicateCount 0）。
+  - 公式URL到達: partial pass（公式一覧3URLはブラウザ取得で200相当の公式本文を確認、ローカルcurlはWAFで403のため第2巡再確認対象として保持）。
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 13495、officialLinkedActive 13375、manuallyVerifiedActive 13375、長野県 localOfficial 409）。
+- 注意:
+  - 長野県は20201長野市から20324立科町まで第1巡に到達した。ただし全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は長野県20324立科町到達のみで全国完了扱いしない。
+  - トップ、カテゴリ、ポータル、様式、申請書単体、周知のみ、制度要件不足候補、WAFで個別リンク再到達が必要な候補は第2巡候補に残す。
+- 次:
+  - 長野県公式棚卸し006として、20325青木村から自治体コード順に確認する。
