@@ -1,0 +1,37 @@
+{
+  "batchId": "nagano-official-coverage-003",
+  "prefecture": "長野県",
+  "generatedAt": "2026-07-15T08:45:00+09:00",
+  "municipalities": [
+    {
+      "code": "20214",
+      "name": "茅野市",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.city.chino.lg.jp/"
+    },
+    {
+      "code": "20215",
+      "name": "塩尻市",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.city.shiojiri.lg.jp/"
+    },
+    {
+      "code": "20217",
+      "name": "佐久市",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.city.saku.nagano.jp/"
+    },
+    {
+      "code": "20218",
+      "name": "千曲市",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.city.chikuma.lg.jp/"
+    },
+    {
+      "code": "20219",
+      "name": "東御市",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.city.tomi.nagano.jp/"
+    }
+  ]
+}
