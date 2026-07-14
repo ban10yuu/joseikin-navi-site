@@ -1,0 +1,4543 @@
+{
+  "batchId": "ishikawa-official-coverage-001",
+  "prefecture": "石川県",
+  "generatedAt": "2026-07-14T15:36:29.165Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 157,
+  "results": [
+    {
+      "code": "17204",
+      "name": "輪島市",
+      "officialBaseUrl": "https://www.city.wajima.ishikawa.jp/",
+      "discoveredUrlCount": 220,
+      "candidateCount": 157,
+      "strongCandidateCount": 0,
+      "lowPriorityCandidateCount": 157,
+      "candidates": [
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "免除",
+            "移住",
+            "住宅",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/sitemap.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "創業",
+            "事業者",
+            "農業",
+            "林業",
+            "水産",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/navi/kurashi/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和7年7月31日",
+          "keywordHits": [
+            "補助金",
+            "貸付",
+            "減免",
+            "住宅",
+            "事業者",
+            "福祉",
+            "子育て",
+            "耐震",
+            "不妊"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/todokede/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/hoken/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/fukushi/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "免除",
+            "医療費助成",
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kenko/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "不妊"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "減免",
+            "免除",
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/seikatsu/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和7年7月31日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "減免",
+            "移住",
+            "住宅",
+            "空家",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kankyo/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/syouhi/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/cable_tv/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/docs/2023102400033/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2023年10月25日",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "移住",
+            "住宅",
+            "空き家",
+            "空家",
+            "創業",
+            "農業",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/navi/jigyosha/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "減免",
+            "免除",
+            "住宅",
+            "事業者",
+            "耐震"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/toshiseibi/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "減免",
+            "免除",
+            "住宅",
+            "空き家",
+            "空家",
+            "農業",
+            "福祉",
+            "耐震"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "住宅",
+            "創業",
+            "事業者",
+            "農業",
+            "林業",
+            "水産",
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/navi/kanko/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "農業",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kankou_site/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/city_shokai/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和7年3月13日",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/giahs/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/shisetsu/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和4年3月1日",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/navi/shisei/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/shiyakusho_annai/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kohokocho/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/gyosei/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除",
+            "住宅",
+            "空家",
+            "農業",
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kyouiku/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/nougyou/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "水産",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/gikai/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/senkyo/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/navi/bosai/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/bosai/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/top-emergency.html",
+          "status": 200,
+          "title": "輪島市",
+          "h1": "輪島市",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "貸付",
+            "住宅",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/article/2026063000038/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年07月09日",
+          "keywordHits": [
+            "補助金",
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/article/2026070800010/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年07月08日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/article/2026070300039/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年07月06日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/docs/2026061700022/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年06月30日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/docs/2026061700039/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年06月30日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/docs/2013071100034/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年07月03日",
+          "keywordHits": [
+            "事業者",
+            "水産"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/article/2026063000052/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年07月01日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/article/2026031600017/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年03月24日",
+          "keywordHits": [
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/article/2026022600019/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年02月27日",
+          "keywordHits": [
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/article/2026021100015/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年02月11日",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "住宅"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/article/2024011600019/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年02月06日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/article/2026061100037/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年06月17日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/article/hugeshi_20260615/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年06月15日",
+          "keywordHits": [
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/article/2026011500016/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年02月06日",
+          "keywordHits": [
+            "補助金",
+            "住宅"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/article/2025121000010/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年12月24日",
+          "keywordHits": [
+            "補助金",
+            "免除",
+            "住宅"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/article/2024112200019/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2024年12月02日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/article/2023011600012/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2023年03月23日",
+          "keywordHits": [
+            "水産"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/article/2026040700029/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年04月15日",
+          "keywordHits": [
+            "住宅",
+            "起業",
+            "農業"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/article/2025090100025/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年01月05日",
+          "keywordHits": [
+            "住宅",
+            "起業",
+            "農業"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/docs/2026033100010/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年03月31日",
+          "keywordHits": [
+            "補助金",
+            "空き家"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/article/2024100800016/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2024年10月22日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/article/2024092900015/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2024年09月30日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/article/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/ninshin/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "不妊"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/kosodate/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 10,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/kyoiku/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/shushoku/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/kekkon/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/hikkoshi/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和4年3月1日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/kenko/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/korei/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/shogai/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和4年3月1日",
+          "keywordHits": [
+            "免除",
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/okuyami/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和4年3月1日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/docs/akichidatabase/top.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年08月01日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "事業者"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/docs/2020011000019/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2020年03月30日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/docs/2013032900024",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2013年04月11日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/docs/2013020600134/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年05月13日",
+          "keywordHits": [
+            "住宅",
+            "農業"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kankyo/gomi/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/docs/2014081400039/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2019年07月01日",
+          "keywordHits": [
+            "助成金"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/docs/2016021800015/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2022年04月01日",
+          "keywordHits": [
+            "補助金",
+            "農業"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/soshiki/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "農業",
+            "林業",
+            "水産",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/akichi/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/covid/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/disaster/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/disaster/disaster/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "給付金",
+            "支援金",
+            "住宅",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/topics/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/topics/chumoku/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "減免",
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/kubun/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/kubun/messages/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "減免",
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/kubun/procedures/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/kubun/links/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "創業",
+            "事業者",
+            "農業",
+            "林業",
+            "水産",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/todokede/juminhyo/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/todokede/inkan/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/todokede/koseki/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/todokede/gaikokujin/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/todokede/shomei/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/todokede/mynumber/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/hoken/kokuho/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/hoken/nenkin/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/hoken/kaigo/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/hoken/kouki/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/fukushi/shiori/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除",
+            "医療費助成",
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kenko/yobosesshu/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kenko/boshihoken/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kenko/seijinhoken/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kenko/zoshin/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/shizei_oshirase/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/kojin_shimin/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "減免",
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/houjin_shimin/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/koteishisan/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "免除",
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/keijidosha/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/nyuutou/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/hokenn/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/furusatonozei/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/internet_kobai/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/sonota/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/hoikusho/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/yochien/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/shochugakko/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て",
+            "通学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/jidokan/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/gakudohoiku/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/shugakuenjo/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/shogaigakushu/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/kosodateshien/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/seikatsu/koeijutaku/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/seikatsu/jutaku/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和7年7月31日",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/seikatsu/doro/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/seikatsu/suido/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "減免",
+            "住宅",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/seikatsu/kokyo/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/seikatsu/bochi/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和4年3月1日",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kankyo/shinyo/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kankyo/pet/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て",
+            "不妊"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kankyo/soudan/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kankyo/other/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/joho/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/kobo/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/kobo/koboanken/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/kobo/result/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/shikakushinsei/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/shokibokoji/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/saiteiseigenkakaku/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/youshiki/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/denshinyusatsu/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/denshinouhin/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/toshiseibi/keikaku/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "空家",
+            "農業",
+            "福祉",
+            "耐震"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/toshiseibi/suido/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "減免",
+            "免除",
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/kigyoshien/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/noringyo/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "林業",
+            "水産",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/sougyouzigyousien/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "創業",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/shogyo/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/hurusato/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/dento/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/seidoyushi/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/koyo/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kankou_site/wajimanavi/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/city_shokai/gaiyo/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/city_shokai/access/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/city_shokai/bunkazai_shiseki/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和7年3月13日",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/city_shokai/kokusai/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/city_shokai/live_camera/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17204",
+          "municipalityName": "輪島市",
+          "sourceUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/shisetsu/shiyakusho/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/sitemap.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/robots.txt",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/robots.txt",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/navi/kurashi/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/navi/kurashi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/todokede/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/todokede/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/hoken/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/hoken/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/fukushi/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/fukushi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/kenko/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kenko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/seikatsu/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/seikatsu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/kankyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kankyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/syouhi/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/syouhi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/cable_tv/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/cable_tv/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/2023102400033/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/2023102400033/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/navi/jigyosha/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/navi/jigyosha/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/toshiseibi/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/toshiseibi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/navi/kanko/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/navi/kanko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/kankou_site/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kankou_site/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/city_shokai/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/city_shokai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/giahs/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/giahs/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/shisetsu/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/shisetsu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/navi/shisei/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/navi/shisei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/shiyakusho_annai/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/shiyakusho_annai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/kohokocho/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kohokocho/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/gyosei/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/gyosei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/kyouiku/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kyouiku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/nougyou/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/nougyou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/gikai/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/gikai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/senkyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/senkyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/navi/bosai/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/navi/bosai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/bosai/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/bosai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/top-emergency.html",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/top-emergency.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2025042100011/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2025042100011/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/2026070700013/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/2026070700013/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2026032600016/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2026032600016/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2026063000038/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2026063000038/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2026070800010/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2026070800010/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2026070300039/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2026070300039/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/wajimahp/other/koubo_202606.html",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/wajimahp/other/koubo_202606.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/2026061700022/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/2026061700022/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/2026061700039/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/2026061700039/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2026062400037/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2026062400037/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/2013071100034/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/2013071100034/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2026063000052/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2026063000052/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2026062300023/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2026062300023/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2026052600010/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2026052600010/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2025051300013/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2025051300013/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2026031600017/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2026031600017/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2026021300026/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2026021300026/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2026022600019/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2026022600019/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2026021100022/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2026021100022/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2026021100015/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2026021100015/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2024011600019/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2024011600019/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2026061500035/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2026061500035/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2026061100037/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2026061100037/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/hugeshi_20260615/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/hugeshi_20260615/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/2015091400019/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/2015091400019/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2026011500016/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2026011500016/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2025121000010/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2025121000010/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2024101000026/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2024101000026/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2024112200019/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2024112200019/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2024050800012/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2024050800012/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2023011600012/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2023011600012/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2022072500040/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2022072500040/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2026061500028/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2026061500028/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2026040700029/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2026040700029/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2026022100021/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2026022100021/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2025090100025/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2025090100025/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2026010300013/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2026010300013/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2023052600026/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2023052600026/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2022103100027/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2022103100027/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2026061100020/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2026061100020/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2026060300018/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2026060300018/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2026042800093/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2026042800093/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/2026042800055/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/2026042800055/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/2026033100010/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/2026033100010/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2024100800016/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2024100800016/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2024092900015/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2024092900015/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2024092400010/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2024092400010/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2024010300040/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2024010300040/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/2022060800022/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/2022060800022/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/index.rss",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/index.rss",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/index.atom",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/index.atom",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/ninshin/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/ninshin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/kosodate/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/kosodate/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/kyoiku/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/kyoiku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/shushoku/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/shushoku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/kekkon/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/kekkon/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/hikkoshi/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/hikkoshi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/kenko/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/kenko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/korei/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/korei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/shogai/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/shogai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/okuyami/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/lifeevent/okuyami/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/akichidatabase/top.html",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/akichidatabase/top.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/mayor/photo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/mayor/photo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/mayor/2013011000288/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/mayor/2013011000288/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/2013033000013/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/2013033000013/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/2020011000019/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/2020011000019/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/2013032900024",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/2013032900024",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/2017050900011/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/2017050900011/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/2013032600122/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/2013032600122/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/2014020400014/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/2014020400014/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/2013040100072/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/2013040100072/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/2013020600134/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/2013020600134/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/kankyo/gomi/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kankyo/gomi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/2014081400039/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/2014081400039/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/2013041100057/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/2013041100057/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/2016040700020/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/2016040700020/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/calendar/2026/07/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/calendar/2026/07/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/calendar/2026/08/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/calendar/2026/08/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/_pieces/00027335/2026/06/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/_pieces/00027335/2026/06/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/_pieces/00027335/2026/07/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/_pieces/00027335/2026/07/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/_pieces/00027335/2026/08/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/_pieces/00027335/2026/08/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/2016021800015/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/2016021800015/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/2013030700015/",
+          "status": 404,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/2013030700015/",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/lib/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/lib/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/wajimahp/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/wajimahp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/2013040100034/?doc_id=1103",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/2013040100034/?doc_id=1103",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/2013040100041/?doc_id=1104",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/2013040100041/?doc_id=1104",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/2023011000010/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/2023011000010/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/soshiki/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/soshiki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/sitemap.node.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/sitemap.node.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/akichi/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/akichi/sitemap.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/article/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/article/sitemap.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/covid/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/covid/sitemap.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/docs/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/docs/sitemap.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/wajimahp/docs/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/wajimahp/docs/sitemap.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/links/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/links/sitemap.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/mayor/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/mayor/sitemap.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/mayor/message/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/mayor/message/sitemap.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/mayor/photo/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/mayor/photo/sitemap.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/akichi/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/akichi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/calendar/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/calendar/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/covid/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/covid/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/disaster/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/disaster/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/disaster/disaster/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/disaster/disaster/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/topics/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/topics/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/topics/chumoku/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/topics/chumoku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/kubun/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/kubun/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/kubun/messages/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/kubun/messages/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/kubun/procedures/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/kubun/procedures/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/kubun/links/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/kubun/links/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/todokede/juminhyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/todokede/juminhyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/todokede/inkan/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/todokede/inkan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/todokede/koseki/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/todokede/koseki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/todokede/gaikokujin/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/todokede/gaikokujin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/todokede/shomei/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/todokede/shomei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/todokede/mynumber/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/todokede/mynumber/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/hoken/kokuho/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/hoken/kokuho/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/hoken/nenkin/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/hoken/nenkin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/hoken/kaigo/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/hoken/kaigo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/hoken/kouki/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/hoken/kouki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/fukushi/shiori/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/fukushi/shiori/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/kenko/yobosesshu/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kenko/yobosesshu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/kenko/boshihoken/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kenko/boshihoken/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/kenko/seijinhoken/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kenko/seijinhoken/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/kenko/zoshin/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kenko/zoshin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/shizei_oshirase/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/shizei_oshirase/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/kojin_shimin/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/kojin_shimin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/houjin_shimin/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/houjin_shimin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/koteishisan/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/koteishisan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/keijidosha/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/keijidosha/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/nyuutou/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/nyuutou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/hokenn/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/hokenn/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/furusatonozei/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/furusatonozei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/internet_kobai/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/internet_kobai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/sonota/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/zei/sonota/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/hoikusho/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/hoikusho/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/yochien/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/yochien/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/shochugakko/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/shochugakko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/jidokan/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/jidokan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/gakudohoiku/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/gakudohoiku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/shugakuenjo/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/shugakuenjo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/shogaigakushu/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/shogaigakushu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/kosodateshien/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/ikuji/kosodateshien/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/seikatsu/koeijutaku/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/seikatsu/koeijutaku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/seikatsu/jutaku/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/seikatsu/jutaku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/seikatsu/doro/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/seikatsu/doro/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/seikatsu/suido/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/seikatsu/suido/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/seikatsu/kokyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/seikatsu/kokyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/seikatsu/bochi/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/seikatsu/bochi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/kankyo/shinyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kankyo/shinyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/kankyo/pet/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kankyo/pet/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/kankyo/soudan/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kankyo/soudan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/kankyo/other/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kankyo/other/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/joho/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/joho/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/kobo/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/kobo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/kobo/koboanken/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/kobo/koboanken/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/kobo/result/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/kobo/result/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/shikakushinsei/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/shikakushinsei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/shokibokoji/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/shokibokoji/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/saiteiseigenkakaku/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/saiteiseigenkakaku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/youshiki/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/youshiki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/denshinyusatsu/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/denshinyusatsu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/denshinouhin/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/nyusatsu/denshinouhin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/toshiseibi/keikaku/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/toshiseibi/keikaku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/toshiseibi/suido/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/toshiseibi/suido/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/kigyoshien/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/kigyoshien/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/noringyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/noringyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/sougyouzigyousien/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/sougyouzigyousien/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/shogyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/shogyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/hurusato/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/hurusato/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/dento/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/dento/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/seidoyushi/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/seidoyushi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/koyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/sangyo/koyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/kankou_site/wajimanavi/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/kankou_site/wajimanavi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/city_shokai/gaiyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/city_shokai/gaiyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/city_shokai/access/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/city_shokai/access/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/city_shokai/bunkazai_shiseki/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/city_shokai/bunkazai_shiseki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/city_shokai/kokusai/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/city_shokai/kokusai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/city_shokai/live_camera/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/city_shokai/live_camera/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.wajima.ishikawa.jp/categories/bunya/shisetsu/shiyakusho/",
+          "status": 200,
+          "finalUrl": "https://www.city.wajima.ishikawa.jp/categories/bunya/shisetsu/shiyakusho/",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

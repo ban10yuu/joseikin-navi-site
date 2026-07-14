@@ -8958,3 +8958,50 @@
   - トップ、カテゴリ、一覧、広報、申請書単体、制度要件不足候補は第2巡候補に残す。
 - 次:
   - 富山県内の残公的機関候補確認、又は次都道府県の自治体コード順開始地点を、HEAD・進捗JSON・自治体台帳から復旧して再開する。
+
+### 2026-07-15 石川県公式棚卸し001（17201金沢市・17202七尾市・17203小松市・17204輪島市・17205珠洲市）
+
+- 作業範囲:
+  - 17201 金沢市、17202 七尾市、17203 小松市、17204 輪島市、17205 珠洲市の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 自治体別クロールで候補657件を取得した。shortlistが150件超かつcrawl候補の40%超だったため、公式URLシード190件を取得し、短い本文スニペット190件で再スコアリングした。
+  - 採用対象の41公式ページは全件HTTP 200を確認した。
+- 採用:
+  - 合計41件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 金沢市4件: 子育て支援医療費助成制度、ひとり親家庭等医療費助成、児童手当、児童扶養手当。
+  - 七尾市9件: 児童手当、児童扶養手当、子ども医療費助成、子育て応援サービス券、病児・病後児保育利用料助成、令和7年度物価高対応子育て応援手当、出産祝金、ひとり親家庭等高等教育進学支援事業、未熟児養育医療。
+  - 小松市10件: こども医療費、子育て多子世帯放課後児童クラブ利用料助成、おなかの赤ちゃん給付金・うまれた赤ちゃん給付金、物価高対応子育て応援手当、児童手当、児童扶養手当、自立支援教育訓練給付金、高等職業訓練促進給付金、ひとり親家庭放課後児童クラブ利用料助成、ひとり親家庭医療費助成。
+  - 輪島市7件: 児童手当、児童扶養手当、こども医療費助成、子どもの予防接種再接種助成、高等職業訓練促進給付金、ひとり親家庭等医療費、自立支援教育訓練給付。
+  - 珠洲市11件: 子ども医療費助成、児童手当、水道料金の減免、被災宅地等復旧支援事業補助金、木造住宅の耐震診断・耐震改修費補助、被災者生活再建支援金、自宅再建利子助成事業・住まい再建支援金、住まい修繕支援金、引っ越し費用助成、民間賃貸住宅への入居費用助成、公営住宅への入居費用助成。
+- 生成ファイル:
+  - `tasks/discovery/ishikawa-official-coverage-001-municipalities.json`
+  - `tasks/discovery/ishikawa-official-coverage-001-17201-municipality.json`
+  - `tasks/discovery/ishikawa-official-coverage-001-17202-municipality.json`
+  - `tasks/discovery/ishikawa-official-coverage-001-17203-municipality.json`
+  - `tasks/discovery/ishikawa-official-coverage-001-17204-municipality.json`
+  - `tasks/discovery/ishikawa-official-coverage-001-17205-municipality.json`
+  - `tasks/discovery/ishikawa-official-coverage-001-17201-candidates.json`
+  - `tasks/discovery/ishikawa-official-coverage-001-17202-candidates.json`
+  - `tasks/discovery/ishikawa-official-coverage-001-17203-candidates.json`
+  - `tasks/discovery/ishikawa-official-coverage-001-17204-candidates.json`
+  - `tasks/discovery/ishikawa-official-coverage-001-17205-candidates.json`
+  - `tasks/discovery/ishikawa-official-coverage-001-candidates.json`
+  - `tasks/discovery/ishikawa-official-coverage-001-url-seeds.json`
+  - `tasks/discovery/ishikawa-official-coverage-001-snippets.json`
+  - `tasks/discovery/ishikawa-official-coverage-001-url-leads.json`
+  - `tasks/discovery/ishikawa-official-coverage-001-rescored-snippets.json`
+  - `tasks/discovery/ishikawa-official-coverage-001-adoption-snippets.json`
+  - `tasks/discovery/ishikawa-official-coverage-001-adopted-urls.json`
+  - `tasks/discovery/ishikawa-official-coverage-001.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（001関連JSON、checkpoint）。
+  - 追加slug重複: pass（41件、`verified-local-misc-2026.ts` 全体 duplicateCount 0）。
+  - 公式URL到達: pass（41 primary official URLsすべてHTTP 200）。
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 12222、officialLinkedActive 12102、manuallyVerifiedActive 12102、石川県 localOfficial 91）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は石川県17205珠洲市到達のみで全国完了扱いしない。
+  - トップ、カテゴリ、一覧、共通ナビ、周知のみ、金額・対象・受付表現不足候補、404シードは第2巡候補に残す。
+- 次:
+  - 石川県公式棚卸し002として、17206加賀市から自治体コード順に確認する。

@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T00:17:53+09:00",
+  "updatedAt": "2026-07-15T00:46:51+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "toyama-official-coverage-003",
-    "municipality": "舟橋村・上市町・立山町・入善町・朝日町",
-    "adopted": 62,
-    "held": 189,
+    "code": "ishikawa-official-coverage-001",
+    "municipality": "金沢市・七尾市・小松市・輪島市・珠洲市",
+    "adopted": 41,
+    "held": 616,
     "excluded": 0,
-    "sourceUrlsChecked": 300,
+    "sourceUrlsChecked": 41,
     "validation": {
-      "previousMunicipality": "富山県公式棚卸し003として、16321舟橋村・16322上市町・16323立山町・16342入善町・16343朝日町を確認した。自治体別クロールで候補251件、公式URLリード300件、短い本文スニペット241件、詳細300件を保存し、個別公式ページ/セクション62件を新規採用した。全国公式棚卸しは未完了。",
+      "previousMunicipality": "石川県公式棚卸し001として、17201金沢市・17202七尾市・17203小松市・17204輪島市・17205珠洲市を確認した。自治体別クロールで候補657件、URLシード190件、短い本文スニペット190件、採用候補41件を保存し、個別公式ページ41件を新規採用した。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for toyama-official-coverage-003 related JSON and official-coverage-checkpoint.json",
-      "addedSlugUniqueness": "pass: 62 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 62 primary official URLs returned HTTP 200",
+      "json": "pass: JSON.parse for 18 ishikawa-official-coverage-001 JSON files and official-coverage-checkpoint.json",
+      "addedSlugUniqueness": "pass: 41 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 41 primary official URLs returned HTTP 200",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 12181, officialLinkedActive 12061, manuallyVerifiedActive 12061, 富山県 localOfficial 249)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 12222, officialLinkedActive 12102, manuallyVerifiedActive 12102, 石川県 localOfficial 91)"
     }
   },
   "next": {
-    "code": "toyama-official-coverage-004",
-    "municipality": "富山県内残公的機関確認又は次都道府県開始",
-    "shortlist": "富山県公式棚卸し003は舟橋村9件、上市町13件、立山町19件、入善町10件、朝日町11件の計62件を採用した。トップ、カテゴリ、一覧、広報、申請書単体、制度要件不足候補は第2巡候補として保持する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、富山県内の残公的機関候補確認または次都道府県の自治体コード順開始地点を復旧する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "ishikawa-official-coverage-002",
+    "municipality": "加賀市",
+    "shortlist": "石川県公式棚卸し001は金沢市4件、七尾市9件、小松市10件、輪島市7件、珠洲市11件の計41件を採用した。トップ、カテゴリ、一覧、共通ナビ、周知のみ、金額・対象・受付表現不足候補、404シードは第2巡候補として保持する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、17206加賀市を開始地点として石川県公式棚卸し002を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
-    "prefecture": "富山県",
-    "status": "municipalities-first-pass-complete",
-    "lastBatch": "toyama-official-coverage-003",
-    "notes": "富山県は全市町村（16201富山市から16343朝日町）まで自治体コード順に第1巡到達。次は富山県内公的機関候補の確認又は次都道府県へ移行。全国公式棚卸しは未完了。"
+    "prefecture": "石川県",
+    "status": "in-progress",
+    "lastBatch": "ishikawa-official-coverage-001",
+    "notes": "石川県は17201金沢市から17205珠洲市まで自治体コード順に第1巡到達。次は17206加賀市から再開。全国公式棚卸しは未完了。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

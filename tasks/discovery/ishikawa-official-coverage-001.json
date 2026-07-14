@@ -1,0 +1,92 @@
+{
+  "batchId": "ishikawa-official-coverage-001",
+  "generatedAt": "2026-07-15T00:46:51+09:00",
+  "prefecture": "石川県",
+  "status": "completed",
+  "municipalities": [
+    {
+      "code": "17201",
+      "name": "金沢市",
+      "officialUrl": "https://www4.city.kanazawa.lg.jp/",
+      "candidateCount": 53,
+      "adoptedCount": 4
+    },
+    {
+      "code": "17202",
+      "name": "七尾市",
+      "officialUrl": "https://www.city.nanao.lg.jp/",
+      "candidateCount": 214,
+      "adoptedCount": 9
+    },
+    {
+      "code": "17203",
+      "name": "小松市",
+      "officialUrl": "https://www.city.komatsu.lg.jp/",
+      "candidateCount": 28,
+      "adoptedCount": 10
+    },
+    {
+      "code": "17204",
+      "name": "輪島市",
+      "officialUrl": "https://www.city.wajima.ishikawa.jp/",
+      "candidateCount": 157,
+      "adoptedCount": 7
+    },
+    {
+      "code": "17205",
+      "name": "珠洲市",
+      "officialUrl": "https://www.city.suzu.lg.jp/",
+      "candidateCount": 205,
+      "adoptedCount": 11
+    }
+  ],
+  "candidateCount": 657,
+  "snippetSourceCount": 190,
+  "snippetHttp200Count": 180,
+  "adoptionCandidateCount": 41,
+  "adoptedCount": 41,
+  "heldCount": 616,
+  "sourceUrlsChecked": 41,
+  "adoptedByMunicipality": {
+    "金沢市": 4,
+    "七尾市": 9,
+    "小松市": 10,
+    "輪島市": 7,
+    "珠洲市": 11
+  },
+  "files": [
+    "tasks/discovery/ishikawa-official-coverage-001-municipalities.json",
+    "tasks/discovery/ishikawa-official-coverage-001-17201-municipality.json",
+    "tasks/discovery/ishikawa-official-coverage-001-17202-municipality.json",
+    "tasks/discovery/ishikawa-official-coverage-001-17203-municipality.json",
+    "tasks/discovery/ishikawa-official-coverage-001-17204-municipality.json",
+    "tasks/discovery/ishikawa-official-coverage-001-17205-municipality.json",
+    "tasks/discovery/ishikawa-official-coverage-001-17201-candidates.json",
+    "tasks/discovery/ishikawa-official-coverage-001-17202-candidates.json",
+    "tasks/discovery/ishikawa-official-coverage-001-17203-candidates.json",
+    "tasks/discovery/ishikawa-official-coverage-001-17204-candidates.json",
+    "tasks/discovery/ishikawa-official-coverage-001-17205-candidates.json",
+    "tasks/discovery/ishikawa-official-coverage-001-candidates.json",
+    "tasks/discovery/ishikawa-official-coverage-001-url-seeds.json",
+    "tasks/discovery/ishikawa-official-coverage-001-snippets.json",
+    "tasks/discovery/ishikawa-official-coverage-001-url-leads.json",
+    "tasks/discovery/ishikawa-official-coverage-001-rescored-snippets.json",
+    "tasks/discovery/ishikawa-official-coverage-001-adoption-snippets.json",
+    "tasks/discovery/ishikawa-official-coverage-001-adopted-urls.json",
+    "tasks/discovery/ishikawa-official-coverage-001.json"
+  ],
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "json": "pass: JSON.parse for 18 ishikawa-official-coverage-001 JSON files",
+    "addedSlugUniqueness": "pass: 41 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 41 primary official URLs returned HTTP 200",
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 12222, officialLinkedActive 12102, manuallyVerifiedActive 12102, 石川県 localOfficial 91)"
+  },
+  "notes": [
+    "shortlistが150件超かつcrawl候補の40%超だったため、公式URLシード190件を取得し、短い本文スニペットで再スコアリングした。",
+    "トップ、カテゴリ、一覧、共通ナビ、周知のみ、金額・対象・受付表現不足候補、404シードは第2巡候補として保持する。",
+    "全国公式棚卸しは未完了。次回は17206加賀市から石川県公式棚卸し002として再開する。"
+  ]
+}

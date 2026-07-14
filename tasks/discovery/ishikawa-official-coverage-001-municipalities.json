@@ -1,0 +1,31 @@
+{
+  "batchId": "ishikawa-official-coverage-001",
+  "prefecture": "石川県",
+  "municipalities": [
+    {
+      "code": "17201",
+      "name": "金沢市",
+      "officialBaseUrl": "https://www4.city.kanazawa.lg.jp/"
+    },
+    {
+      "code": "17202",
+      "name": "七尾市",
+      "officialBaseUrl": "https://www.city.nanao.lg.jp/"
+    },
+    {
+      "code": "17203",
+      "name": "小松市",
+      "officialBaseUrl": "https://www.city.komatsu.lg.jp/"
+    },
+    {
+      "code": "17204",
+      "name": "輪島市",
+      "officialBaseUrl": "https://www.city.wajima.ishikawa.jp/"
+    },
+    {
+      "code": "17205",
+      "name": "珠洲市",
+      "officialBaseUrl": "https://www.city.suzu.lg.jp/"
+    }
+  ]
+}
