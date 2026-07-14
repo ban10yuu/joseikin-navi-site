@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-07-14T20:05:00+09:00",
+  "updatedAt": "2026-07-14T20:45:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "kanagawa-official-coverage-005",
-    "municipality": "座間市・南足柄市・綾瀬市・葉山町",
-    "adopted": 25,
-    "held": 510,
-    "excluded": 3,
-    "sourceUrlsChecked": 25,
+    "code": "kanagawa-official-coverage-006",
+    "municipality": "寒川町・大磯町・二宮町・中井町",
+    "adopted": 24,
+    "held": 232,
+    "excluded": 0,
+    "sourceUrlsChecked": 24,
     "validation": {
-      "previousMunicipality": "神奈川県公式棚卸し005として、14216座間市、14217南足柄市、14218綾瀬市、14301葉山町を確認した。候補538件から公式本文の短い根拠を確認し、座間市11件、南足柄市6件、綾瀬市6件、葉山町2件の計25件を採用した。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and JSON.parse for kanagawa-official-coverage-005.json / candidates / manual-snippets / municipalities / official-coverage-checkpoint.json",
-      "addedSlugUniqueness": "pass: 25 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 25 primary official URLs returned HTTP 200",
+      "previousMunicipality": "神奈川県公式棚卸し006として、14321寒川町、14341大磯町、14342二宮町、14361中井町を確認した。候補256件から公式本文の短い根拠を確認し、寒川町5件、大磯町1件、二宮町7件、中井町11件の計24件を採用した。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and JSON.parse for kanagawa-official-coverage-006.json / candidates / manual-snippets / municipalities / official-coverage-checkpoint.json",
+      "addedSlugUniqueness": "pass: 24 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 24 primary official URLs returned HTTP 200",
       "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11355, officialLinkedActive 11317, manuallyVerifiedActive 11317, 神奈川県 localOfficial 209)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11379, officialLinkedActive 11341, manuallyVerifiedActive 11341, 神奈川県 localOfficial 233)"
     }
   },
   "next": {
-    "code": "kanagawa-official-coverage-006",
-    "municipality": "寒川町・大磯町・二宮町・中井町",
-    "shortlist": "神奈川県公式棚卸し005は候補538件から座間市11件、南足柄市6件、綾瀬市6件、葉山町2件を採用した。座間市住宅リフォーム、綾瀬市あやせっ子スタート応援給付金、綾瀬市ものづくり人材就職定住奨励金は既存URL重複として除外。受付終了、様式のみ、金額又は受付状況不足、トップ、カテゴリ、サイトマップ、募集一覧、共通ナビ一致、部署ページは第2巡候補に残す。",
-    "instructions": "次回は神奈川県公式棚卸し006として、固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から自治体コード順に14321寒川町、14341大磯町、14342二宮町、14361中井町を確認する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "kanagawa-official-coverage-007",
+    "municipality": "大井町・松田町・山北町・開成町",
+    "shortlist": "神奈川県公式棚卸し006は候補256件から寒川町5件、大磯町1件、二宮町7件、中井町11件を採用した。大磯町の様式中心ページ、二宮町の受付終了済み給付・省エネ家電、中井町のPDF詳細中心の不育症治療費助成、トップ、カテゴリ、サイトマップ、募集一覧、共通ナビ一致、部署ページは第2巡候補に残す。",
+    "instructions": "次回は神奈川県公式棚卸し007として、固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から自治体コード順に14362大井町、14363松田町、14364山北町、14366開成町を確認する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "神奈川県",
     "status": "in-progress",
-    "lastBatch": "kanagawa-official-coverage-005",
-    "notes": "神奈川県は14301葉山町まで自治体コード順に確認済み。東京都は13421小笠原村まで第1巡到達済みだが、第2巡保留候補を保持。全国公式棚卸しは未完了。"
+    "lastBatch": "kanagawa-official-coverage-006",
+    "notes": "神奈川県は14361中井町まで自治体コード順に確認済み。東京都は13421小笠原村まで第1巡到達済みだが、第2巡保留候補を保持。全国公式棚卸しは未完了。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

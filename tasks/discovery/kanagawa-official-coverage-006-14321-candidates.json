@@ -1,0 +1,2785 @@
+{
+  "batchId": "kanagawa-official-coverage-006",
+  "prefecture": "神奈川県",
+  "generatedAt": "2026-07-14T10:42:41.597Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 31,
+  "results": [
+    {
+      "code": "14321",
+      "name": "寒川町",
+      "officialBaseUrl": "https://www.town.samukawa.kanagawa.jp/",
+      "discoveredUrlCount": 360,
+      "candidateCount": 31,
+      "strongCandidateCount": 1,
+      "lowPriorityCandidateCount": 30,
+      "candidates": [
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/ninshin_kosodate/index.html",
+          "status": 200,
+          "title": "妊娠・子育て",
+          "h1": "妊娠・子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/hikkoshi_sumai/index.html",
+          "status": 200,
+          "title": "引越し・住まい",
+          "h1": "引越し・住まい",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/koreishahukushi_kaigo/index.html",
+          "status": 200,
+          "title": "高齢者福祉・介護",
+          "h1": "高齢者福祉・介護",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/kenko_iryo/index.html",
+          "status": 200,
+          "title": "健康・医療",
+          "h1": "健康・医療",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/zeikin/index.html",
+          "status": 200,
+          "title": "税金",
+          "h1": "税金",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/okuyami/index.html",
+          "status": 200,
+          "title": "おくやみ",
+          "h1": "おくやみ",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/sodan/index.html",
+          "status": 200,
+          "title": "各種相談",
+          "h1": "各種相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "耐震",
+            "妊婦"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/calendar.html",
+          "status": 200,
+          "title": "イベント・講座カレンダー",
+          "h1": "イベント・講座カレンダー",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/machinogaiyo/shisetsu/index.html",
+          "status": 200,
+          "title": "施設の案内",
+          "h1": "施設の案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "通学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/download/index.html",
+          "status": 200,
+          "title": "申請書ダウンロード",
+          "h1": "申請書ダウンロード",
+          "updatedAt": "令和2年9月16日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "農業",
+            "耐震",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/index.html",
+          "status": 200,
+          "title": "組織から探す",
+          "h1": "組織から探す",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/ninshin_kosodate/index.html",
+          "status": 200,
+          "title": "妊娠・子育てサイト",
+          "h1": "妊娠・子育てサイト",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種",
+            "不妊"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/kaigo_koreisha/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/kigyonokata/index.html",
+          "status": 200,
+          "title": "企業の方へ",
+          "h1": "企業の方へ",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kyoiku/gakkokyoiku/kyoikukenkyu/info/kyoikukenkyu/kyouiku_sodan/1361163631602.html",
+          "status": 200,
+          "title": "各種教育関係の相談",
+          "h1": "各種教育関係の相談",
+          "updatedAt": "2026年04月01日",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/manabi/kodomoseisaku/kodomoseisaku/info/kekkonsinseikatusien/20492.html",
+          "status": 200,
+          "title": "寒川町結婚新生活支援給付金",
+          "h1": "寒川町結婚新生活支援給付金",
+          "updatedAt": "2026年04月01日",
+          "keywordHits": [
+            "補助金",
+            "給付金"
+          ],
+          "candidateScore": 22,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/event/1362360639259.html",
+          "status": 200,
+          "title": "介護給付費等の支給に関する審査会",
+          "h1": "介護給付費等の支給に関する審査会",
+          "updatedAt": "2026年07月02日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/event/1426813759549.html",
+          "status": 200,
+          "title": "寒川町まち・ひと・しごと創生総合戦略策定等外部委員会",
+          "h1": "寒川町まち・ひと・しごと創生総合戦略策定等外部委員会",
+          "updatedAt": "2026年06月26日",
+          "keywordHits": [
+            "農業",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/event/1480553621344.html",
+          "status": 200,
+          "title": "寒川町障害者事業所展示即売会「にっこりマーケット」",
+          "h1": "寒川町障害者事業所展示即売会「にっこりマーケット」",
+          "updatedAt": "2026年06月24日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/event/1362112391341.html",
+          "status": 200,
+          "title": "スポーツ推進審議会",
+          "h1": "スポーツ推進審議会",
+          "updatedAt": "2026年06月16日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kohosenryaku/kouhou/tantou/kouhoushi/backnumber_onseibann/2026/20384.html",
+          "status": 200,
+          "title": "広報さむかわ2026年7月号(音声版)",
+          "h1": "広報さむかわ2026年7月号(音声版)",
+          "updatedAt": "2026年07月01日",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kikakuseisaku/kikaku/info/samukawa_line/13366.html",
+          "status": 200,
+          "title": "LINEアカウントのサービスについて",
+          "h1": "LINEアカウントのサービスについて",
+          "updatedAt": "2023年04月01日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/mailto_townmayor/index.html",
+          "status": 200,
+          "title": "「わたしの提案」（町長への手紙）",
+          "h1": "「わたしの提案」（町長への手紙）",
+          "updatedAt": "令和6年4月1日",
+          "keywordHits": [
+            "給付金",
+            "農業"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/index.html",
+          "status": 200,
+          "title": "パブリックコメント(町民意見の公募)",
+          "h1": "パブリックコメント(町民意見の公募)",
+          "updatedAt": "",
+          "keywordHits": [
+            "空家",
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/index.html",
+          "status": 200,
+          "title": "審議会等",
+          "h1": "審議会等",
+          "updatedAt": "令和8年3月27日",
+          "keywordHits": [
+            "空家",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/gyosei_keikaku_tokei/shisaku_keikaku/index.html",
+          "status": 200,
+          "title": "施策・計画",
+          "h1": "施策・計画",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kikakuseisaku/kikaku/info/kouiki/1395138161791.html",
+          "status": 200,
+          "title": "茅ヶ崎市・寒川町広域連携検討会議",
+          "h1": "茅ヶ崎市・寒川町広域連携検討会議",
+          "updatedAt": "2021年06月03日",
+          "keywordHits": [
+            "福祉",
+            "通学"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/somu/somu/tyousyakanri/tantou/choshaannai/1361152825798.html",
+          "status": 200,
+          "title": "町役場フロアガイド",
+          "h1": "町役場フロアガイド",
+          "updatedAt": "2025年03月24日",
+          "keywordHits": [
+            "医療費助成",
+            "住宅",
+            "空き家",
+            "農業",
+            "福祉",
+            "子育て",
+            "就学",
+            "耐震",
+            "予防接種"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14321",
+          "municipalityName": "寒川町",
+          "sourceUrl": "https://www.town.samukawa.kanagawa.jp/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "2021年04月01日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/sitemap.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kohosenryaku/kouhou/tantou/konosaitonitsuite/16094.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kohosenryaku/kouhou/tantou/konosaitonitsuite/16094.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/ninshin_kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/ninshin_kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/gakkokyoiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/gakkokyoiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/shushoku_taishoku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/shushoku_taishoku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/kekkon_rikon/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/kekkon_rikon/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/hikkoshi_sumai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/hikkoshi_sumai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/koreishahukushi_kaigo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/koreishahukushi_kaigo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/kenko_iryo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/kenko_iryo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/gomi_recycle/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/gomi_recycle/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/koseki_jumintoroku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/koseki_jumintoroku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/zeikin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/zeikin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/okuyami/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/okuyami/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/sodan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/sodan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/calendar.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/calendar.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/machinogaiyo/shisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/machinogaiyo/shisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/ninshin_kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/ninshin_kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kaigo_koreisha/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kaigo_koreisha/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/sports_bunka_kanko/kanko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/sports_bunka_kanko/kanko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/shisankeiei/shisanmanagement/tantou/furusato/furusatokifu.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/shisankeiei/shisanmanagement/tantou/furusato/furusatokifu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kigyonokata/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kigyonokata/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/kyoiku/gakkokyoiku/kyoikukenkyu/info/kyoikukenkyu/kyouiku_sodan/1361163631602.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kyoiku/gakkokyoiku/kyoikukenkyu/info/kyoikukenkyu/kyouiku_sodan/1361163631602.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/somu/jinji/shokuin/info/keikaku_hoshin/20515.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/somu/jinji/shokuin/info/keikaku_hoshin/20515.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/kankyokeizai/kankyo/shigenhaikibutsu/info/gomi/oshirase/20676.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kankyokeizai/kankyo/shigenhaikibutsu/info/gomi/oshirase/20676.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/manabi/kodomoseisaku/kodomoseisaku/info/kekkonsinseikatusien/20492.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/manabi/kodomoseisaku/kodomoseisaku/info/kekkonsinseikatusien/20492.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/gomi_recycle/16524.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/gomi_recycle/16524.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/somu/jinji/shokuin/info/boshuu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/somu/jinji/shokuin/info/boshuu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/toshikensetsu/toshikeikaku/tokei_kaihatsu/info/koukyoukoutsu/bus_mokusei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/toshikensetsu/toshikeikaku/tokei_kaihatsu/info/koukyoukoutsu/bus_mokusei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kohosenryaku/kouhou/tantou/press/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kohosenryaku/kouhou/tantou/press/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/kikikanri/info/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/kikikanri/info/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/kyukyu_bosai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/kyukyu_bosai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/fukushi/kennkoudukuri/kenkozukuri/info/iryoukikan/1550030848180.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/fukushi/kennkoudukuri/kenkozukuri/info/iryoukikan/1550030848180.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/news.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/news.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/event/1430177731530.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/event/1430177731530.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/event/1369903820572.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/event/1369903820572.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/event/1362360639259.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/event/1362360639259.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/event/1427240559078.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/event/1427240559078.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/event/1475047211894.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/event/1475047211894.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/event/1530577753739.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/event/1530577753739.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/event/1426813759549.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/event/1426813759549.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/event/1480553621344.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/event/1480553621344.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/event/1466483607294.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/event/1466483607294.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/event/1362112391341.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/event/1362112391341.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kohosenryaku/kouhou/tantou/sns/15748.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kohosenryaku/kouhou/tantou/sns/15748.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/fukushi/kennkoudukuri/kenkozukuri/info/kenkozukuri/syokuiku/ouchidegohan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/fukushi/kennkoudukuri/kenkozukuri/info/kenkozukuri/syokuiku/ouchidegohan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/kyoiku/kyushoku/gakkoukyushoku/tantou/kyushoku/kyushokurecipe/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kyoiku/kyushoku/gakkoukyushoku/tantou/kyushoku/kyushokurecipe/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/kyoiku/kyushoku/gakkoukyushoku/tantou/kyushoku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kyoiku/kyushoku/gakkoukyushoku/tantou/kyushoku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kohosenryaku/kouhou/tantou/sns/19974.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kohosenryaku/kouhou/tantou/sns/19974.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kohosenryaku/kouhou/tantou/kouhoushi/koho_backnumber/20260101/20260601_1/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kohosenryaku/kouhou/tantou/kouhoushi/koho_backnumber/20260101/20260601_1/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kohosenryaku/kouhou/tantou/kouhoushi/koho_backnumber/20260101/20260701/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kohosenryaku/kouhou/tantou/kouhoushi/koho_backnumber/20260101/20260701/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kohosenryaku/kouhou/tantou/kouhoushi/koho_backnumber/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kohosenryaku/kouhou/tantou/kouhoushi/koho_backnumber/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kohosenryaku/kouhou/tantou/kouhoushi/backnumber_onseibann/2026/20384.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kohosenryaku/kouhou/tantou/kouhoushi/backnumber_onseibann/2026/20384.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kikakuseisaku/kikaku/info/samukawa_line/13366.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kikakuseisaku/kikaku/info/samukawa_line/13366.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/mailhaishin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/mailhaishin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/mailto_townmayor/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/mailto_townmayor/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kikakuseisaku/kikaku/info/emarketing/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kikakuseisaku/kikaku/info/emarketing/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/questionnaire/16441.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/questionnaire/16441.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/chochonoheya/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/chochonoheya/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/chogikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/chogikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/kyoudou/kyoudou/info/jichikihon/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/kyoudou/kyoudou/info/jichikihon/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/somu/somu/gyoseikanri/info/gian/1362370413462.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/somu/somu/gyoseikanri/info/gian/1362370413462.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/gyosei_keikaku_tokei/shisaku_keikaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/gyosei_keikaku_tokei/shisaku_keikaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kikakuseisaku/kikaku/info/kouiki/1395138161791.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kikakuseisaku/kikaku/info/kouiki/1395138161791.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kohosenryaku/kouhou/tantou/koukoku/1447230732707.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kohosenryaku/kouhou/tantou/koukoku/1447230732707.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/gyosei_keikaku_tokei/tokei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/gyosei_keikaku_tokei/tokei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/somu/somu/tyousyakanri/tantou/choshaannai/1361152825798.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/somu/somu/tyousyakanri/tantou/choshaannai/1361152825798.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/info/13068.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/info/13068.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kikakuseisaku/kikaku/info/14825.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kikakuseisaku/kikaku/info/14825.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kohosenryaku/kouhou/tantou/konosaitonitsuite/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kohosenryaku/kouhou/tantou/konosaitonitsuite/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kohosenryaku/kouhou/tantou/konosaitonitsuite/accessibility.html",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kohosenryaku/kouhou/tantou/konosaitonitsuite/accessibility.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/business_sangyo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/business_sangyo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/business_sangyo/keiyaku_nyusatsu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/business_sangyo/keiyaku_nyusatsu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/business_sangyo/keiyaku_nyusatsu/proposal/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/business_sangyo/keiyaku_nyusatsu/proposal/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/business_sangyo/keiyaku_nyusatsu/shiteikanrishaseido/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/business_sangyo/keiyaku_nyusatsu/shiteikanrishaseido/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/business_sangyo/kokokujigyo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/business_sangyo/kokokujigyo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/business_sangyo/kokokujigyo/kokokuboshu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/business_sangyo/kokokujigyo/kokokuboshu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/business_sangyo/kokokujigyo/kokokuboshu/boshuchu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/business_sangyo/kokokujigyo/kokokuboshu/boshuchu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/business_sangyo/kokokujigyo/kokokuboshu/not/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/business_sangyo/kokokujigyo/kokokuboshu/not/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/business_sangyo/kyotennomachidukuri/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/business_sangyo/kyotennomachidukuri/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/business_sangyo/nogyo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/business_sangyo/nogyo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/business_sangyo/shuro_kinroshahukushi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/business_sangyo/shuro_kinroshahukushi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/chochonoheya/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/chochonoheya/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/chogikai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/chogikai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/gyosei_keikaku_tokei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/gyosei_keikaku_tokei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/gyosei_keikaku_tokei/gyokaikaku_gyoseihyoka/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/gyosei_keikaku_tokei/gyokaikaku_gyoseihyoka/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/gyosei_keikaku_tokei/shisaku_keikaku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/gyosei_keikaku_tokei/shisaku_keikaku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/gyosei_keikaku_tokei/tokei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/gyosei_keikaku_tokei/tokei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/hurusatonozei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/hurusatonozei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kansa/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kansa/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/26/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/26/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/27/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/27/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/28/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/28/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/boshu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/boshu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/h19/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/h19/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/h20/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/h20/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/h21/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/h21/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/h22/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/h22/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/h23/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/h23/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/h24/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/h24/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/h25/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/h25/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/h30/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/h30/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/heisei29/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/heisei29/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/old/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/old/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/reiwa5/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/reiwa5/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/reiwa5_1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/reiwa5_1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/reiwa7/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/reiwa7/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/reiwagannendo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/reiwagannendo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/reiwaninnendo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/reiwaninnendo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/reiwasannendo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/reiwasannendo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/reiwayonenndo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/reiwayonenndo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/sakusei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/sakusei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/shoryaku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/shoryaku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/questionnaire/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/questionnaire/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/koho/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/koho/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/machinogaiyo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/machinogaiyo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/machinogaiyo/shisetsu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/machinogaiyo/shisetsu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/machinogaiyo/shisetsu/center_kominkan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/machinogaiyo/shisetsu/center_kominkan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/machinogaiyo/shisetsu/hukushikaigo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/machinogaiyo/shisetsu/hukushikaigo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/machinogaiyo/shisetsu/sonotashisetsu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/machinogaiyo/shisetsu/sonotashisetsu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/machinogaiyo/shisetsu/tosyokanbunsyokan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/machinogaiyo/shisetsu/tosyokanbunsyokan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/machinogaiyo/shisetsu/tsuentsugakuhikosi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/machinogaiyo/shisetsu/tsuentsugakuhikosi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/machinozaisei_zaisan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/machinozaisei_zaisan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/senkyo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/senkyo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/bosai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/bosai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/bunka/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/bunka/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/choseiunei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/choseiunei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/jinji/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/jinji/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/kankyo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/kankyo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/kenko/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/kenko/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/kosodate/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/kosodate/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/kotsu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/kotsu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/other/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/other/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/sangyo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/sangyo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/toshi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/toshi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/shokuinsaiyo_jinji/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/shokuinsaiyo_jinji/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/choseijoho/shokuinsaiyo_jinji/shokuinboshu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/shokuinsaiyo_jinji/shokuinboshu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/bosai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/bosai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/bosai/mimaikin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/bosai/mimaikin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/bunsho/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/bunsho/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/bunsho/koukai_seikyuu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/bunsho/koukai_seikyuu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/doro/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/doro/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/doro/dourokannkei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/doro/dourokannkei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/doro/gesuidou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/doro/gesuidou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/gomi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/gomi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/gomi/ippanhaikibutsu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/gomi/ippanhaikibutsu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/gomi/poisute/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/gomi/poisute/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/hoikujyo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/hoikujyo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/jumin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/jumin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/jumin/kankyoubika/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/jumin/kankyoubika/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/jutaku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/jutaku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/jutaku/doubutu_kanri/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/jutaku/doubutu_kanri/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/jutaku/jyuukyohyouji/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/jutaku/jyuukyohyouji/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/jutaku/kanagawa/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/jutaku/kanagawa/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/jutaku/kashidashi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/jutaku/kashidashi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/jutaku/sindou_kisei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/jutaku/sindou_kisei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/jutaku/souon/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/jutaku/souon/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/jutaku/taishinhojyo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/jutaku/taishinhojyo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/jutaku/toire/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/jutaku/toire/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/keiyaku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/keiyaku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/keniku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/keniku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/kokuho/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/kokuho/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/kokuho/kaigo_shinsei_link02/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/kokuho/kaigo_shinsei_link02/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/kokuho/kaigo_shinsei_link02/kaigo_shinsei_link01/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/kokuho/kaigo_shinsei_link02/kaigo_shinsei_link01/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/kokuho/kaigo_shinsei_link03/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/kokuho/kaigo_shinsei_link03/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/kokuho/kaigo_shinsei_link04/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/kokuho/kaigo_shinsei_link04/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/kokuho/kaigo_shinsei_link05/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/kokuho/kaigo_shinsei_link05/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/koseki/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/koseki/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/koseki/etsuran/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/koseki/etsuran/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/koseki/ido/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/koseki/ido/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/koseki/inkan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/koseki/inkan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/koseki/juki/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/koseki/juki/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/koseki/other/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/koseki/other/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/koseki/yuso/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/koseki/yuso/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/kotsu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/kotsu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/koukoku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/koukoku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/kyoiku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/kyoiku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/kyoiku/bunka_zai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/kyoiku/bunka_zai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/kyoudou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/kyoudou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/kyousai_kouen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/kyousai_kouen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/machi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/machi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/machi/chikukekakutounituite/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/machi/chikukekakutounituite/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/machi/kitaguti_seibi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/machi/kitaguti_seibi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/machi/tosi_keikaku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/machi/tosi_keikaku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/nogyo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/nogyo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/nogyo/nousei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/nogyo/nousei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/nogyo/syoko/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/nogyo/syoko/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/shingikai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/shingikai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/shingikai/koubo_kankei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/shingikai/koubo_kankei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/shingikai/shingikai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/shingikai/shingikai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/shobo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/shobo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/shobo/bouka/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/shobo/bouka/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/shobo/kankei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/shobo/kankei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/shobo/kikenbutsu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/shobo/kikenbutsu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/shobo/kousyuukunnrenn/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/shobo/kousyuukunnrenn/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/shobo/syobosetubi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/shobo/syobosetubi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/shobo/yobou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/shobo/yobou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/sports/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/sports/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/sports/sisetu_yoyaku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/sports/sisetu_yoyaku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/zei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/zei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/zei/houzin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/zei/houzin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/zei/koteishisan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/zei/koteishisan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/zei/kozin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/zei/kozin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/zei/zeisinnseisyo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/zei/zeisinnseisyo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/download/zei/zidousya/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/download/zei/zidousya/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/event/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/event/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kaigo_koreisha/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kaigo_koreisha/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kaigo_koreisha/kenkoshinsa_yobosessyu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kaigo_koreisha/kenkoshinsa_yobosessyu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kanko/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kanko/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/coronavirus_info/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/coronavirus_info/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/kenko_iryo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/kenko_iryo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/kenko_iryo/boshinokenko/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/kenko_iryo/boshinokenko/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/kenko_iryo/kenkoshinsa/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/kenko_iryo/kenkoshinsa/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/kenko_iryo/yobosesshu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/kenko_iryo/yobosesshu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/koreishahukushi_kaigo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/koreishahukushi_kaigo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/seikatsushien_konkyu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/seikatsushien_konkyu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/shogaishashien/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/shogaishashien/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kigyonokata/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kigyonokata/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kigyonokata/chozei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kigyonokata/chozei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kigyonokata/kaigojigyosha_info/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kigyonokata/kaigojigyosha_info/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kigyonokata/keiyaku_nyusatsu_kensa/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kigyonokata/keiyaku_nyusatsu_kensa/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kigyonokata/kyotennomachizukuri/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kigyonokata/kyotennomachizukuri/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kigyonokata/nogyo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kigyonokata/nogyo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kigyonokata/shogaishashien/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kigyonokata/shogaishashien/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kigyonokata/shogaishashien/yoshiki/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kigyonokata/shogaishashien/yoshiki/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kigyonokata/shokogyoshien/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kigyonokata/shokogyoshien/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kigyonokata/shuro_kinroshahukushi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kigyonokata/shuro_kinroshahukushi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kosodate_kyoiku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kosodate_kyoiku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kosodate_kyoiku/gakudo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kosodate_kyoiku/gakudo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kosodate_kyoiku/hoikuen_yochien/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kosodate_kyoiku/hoikuen_yochien/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kosodate_kyoiku/ninshin_shussan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kosodate_kyoiku/ninshin_shussan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kosodate_kyoiku/nyuyoji/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kosodate_kyoiku/nyuyoji/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kosodate_kyoiku/shogakko_chugakko/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kosodate_kyoiku/shogakko_chugakko/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kosodate_kyoiku/shogakko_chugakko/shokuinboshu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kosodate_kyoiku/shogakko_chugakko/shokuinboshu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/community/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/community/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/community/volunteer/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/community/volunteer/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/coronavirus_info/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/coronavirus_info/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/coronavirus_info/hoikuen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/coronavirus_info/hoikuen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/coronavirus_info/ippanshien/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/coronavirus_info/ippanshien/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/coronavirus_info/iryokikan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/coronavirus_info/iryokikan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/coronavirus_info/jigyoshashien/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/coronavirus_info/jigyoshashien/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/coronavirus_info/ninpu_nyuyoji/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/coronavirus_info/ninpu_nyuyoji/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/coronavirus_info/seikatsu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/coronavirus_info/seikatsu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/coronavirus_info/shisetsu_event/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/coronavirus_info/shisetsu_event/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/coronavirus_info/shogakko_chugakko/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/coronavirus_info/shogakko_chugakko/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/coronavirus_info/sodan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/coronavirus_info/sodan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/coronavirus_info/taisaku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/coronavirus_info/taisaku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/coronavirus_info/yakuba_chogikai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/coronavirus_info/yakuba_chogikai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/danjokyodo_jinken/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/danjokyodo_jinken/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/doro_suido/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/doro_suido/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/doro_suido/doro_suiro/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/doro_suido/doro_suiro/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/doro_suido/gesuido/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/doro_suido/gesuido/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/gomi_recycle/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/gomi_recycle/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/hojokin_joseikin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/hojokin_joseikin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/hojokin_joseikin/kinryosya/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/hojokin_joseikin/kinryosya/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/hojokin_joseikin/kinryosya/zyutaku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/hojokin_joseikin/kinryosya/zyutaku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/hojokin_joseikin/ninshin_syussan_kosodate/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/hojokin_joseikin/ninshin_syussan_kosodate/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/hojokin_joseikin/seikatu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/hojokin_joseikin/seikatu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/hoken_nenkin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/hoken_nenkin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/kankyohozen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/kankyohozen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/koseki_jumintoroku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/koseki_jumintoroku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/kyukyu_bosai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/kyukyu_bosai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/zeikin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/zeikin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/zeikin/chozei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/zeikin/chozei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/gakkokyoiku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/gakkokyoiku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/gakkokyoiku/gakudo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/gakkokyoiku/gakudo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/gakkokyoiku/hoikuen_yochien/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/gakkokyoiku/hoikuen_yochien/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/gakkokyoiku/shogakko_chugakko/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/gakkokyoiku/shogakko_chugakko/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/gakkokyoiku/shogakko_chugakko/shokuinboshu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/gakkokyoiku/shogakko_chugakko/shokuinboshu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/hikkoshi_sumai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/hikkoshi_sumai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/kekkon_rikon/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/kekkon_rikon/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/ninshin_kosodate/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/ninshin_kosodate/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/ninshin_kosodate/hoikuen_yochien/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/ninshin_kosodate/hoikuen_yochien/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/ninshin_kosodate/ninshin_shussan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/ninshin_kosodate/ninshin_shussan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/ninshin_kosodate/nyuyoji/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/ninshin_kosodate/nyuyoji/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/okuyami/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/okuyami/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/shushoku_taishoku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/shushoku_taishoku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/shushoku_taishoku/syusyokutaisyoku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/shushoku_taishoku/syusyokutaisyoku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/sodan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/sodan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/mailhaishin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/mailhaishin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/ninshin_kosodate/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/ninshin_kosodate/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/ninshin_kosodate/0_1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/ninshin_kosodate/0_1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/ninshin_kosodate/1_3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/ninshin_kosodate/1_3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/ninshin_kosodate/4_6/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/ninshin_kosodate/4_6/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/ninshin_kosodate/hunin_huikusyo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/ninshin_kosodate/hunin_huikusyo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/ninshin_kosodate/ninnshin_syussan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/ninshin_kosodate/ninnshin_syussan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/event/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/event/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/faq/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/faq/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/info/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/info/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/info/inkantouroku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/info/inkantouroku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/info/jukinettodenshisinsei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/info/jukinettodenshisinsei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/info/juuminidou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/info/juuminidou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/info/kosekitodokede/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/info/kosekitodokede/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/info/mynumber/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/info/mynumber/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/info/mynumber/myno_start/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/info/mynumber/myno_start/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/info/osehirase/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/info/osehirase/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/info/shoumeihakkou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/info/shoumeihakkou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/public_comment/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/public_comment/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/shingikai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/shingikai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/shinseisho/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/shinseisho/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/shinseisho/etsuran/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/shinseisho/etsuran/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/shinseisho/touroku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/shinseisho/touroku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/shinseisho/yuusou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/madoguchi/shinseisho/yuusou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/event/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/event/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/faq/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/faq/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/heiwasuishin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/heiwasuishin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/jinnkenn/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/jinnkenn/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/jisatsutaisaku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/jisatsutaisaku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/jisatsutaisaku/jisatutaisakukeikakur2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/jisatsutaisaku/jisatutaisakukeikakur2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/koekitsuho/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/koekitsuho/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/koryu_shien/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/koryu_shien/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/kyoudou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/kyoudou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/mailto_townmayor/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/mailto_townmayor/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/soudan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/soudan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/soudan/syouhiseikatukannrennjyouhou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/soudan/syouhiseikatukannrennjyouhou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/public_comment/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/public_comment/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/public_comment/samukawamachipatonasippusenseiseidoannopaburikkukomentonojissinituite/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/public_comment/samukawamachipatonasippusenseiseidoannopaburikkukomentonojissinituite/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/shingikai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/shingikai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/shingikai/15555311668884/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/shingikai/15555311668884/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/shingikai/kyougikai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/shingikai/kyougikai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/shinseisho/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/shinseisho/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/bouhann/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/bouhann/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/bouhann/faq/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/bouhann/faq/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/bouhann/shingikai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/bouhann/shingikai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/bouhann/tantou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/bouhann/tantou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/bouhann/tantou/bouhan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/bouhann/tantou/bouhan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/bouhann/tantou/koutsuuannzenn/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/bouhann/tantou/koutsuuannzenn/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/kikikanri/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/kikikanri/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/kikikanri/event/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/kikikanri/event/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/kikikanri/faq/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/kikikanri/faq/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/kikikanri/info/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/kikikanri/info/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/kikikanri/info/bosai_hazardmap/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/kikikanri/info/bosai_hazardmap/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/kikikanri/info/hisai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/kikikanri/info/hisai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/kikikanri/info/kikenbutsu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chouminanzen/kikikanri/info/kikenbutsu/sitemap.dir.xml",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5172 @@
+{
+  "batchId": "kanagawa-official-coverage-006",
+  "prefecture": "神奈川県",
+  "generatedAt": "2026-07-14T10:42:41.170Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 166,
+  "results": [
+    {
+      "code": "14342",
+      "name": "二宮町",
+      "officialBaseUrl": "https://www.town.ninomiya.kanagawa.jp/",
+      "discoveredUrlCount": 360,
+      "candidateCount": 166,
+      "strongCandidateCount": 5,
+      "lowPriorityCandidateCount": 161,
+      "candidates": [
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki_list.html",
+          "status": 200,
+          "title": "各課の窓口",
+          "h1": "各課の窓口",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "子育て・教育",
+          "h1": "子育て・教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "健康・医療・福祉",
+          "h1": "健康・医療・福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "事業者の方へ",
+          "h1": "事業者の方へ",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000373.html",
+          "status": 200,
+          "title": "二宮町くらし応援商品券",
+          "h1": "二宮町くらし応援商品券",
+          "updatedAt": "2026年5月28日",
+          "keywordHits": [
+            "事業者",
+            "水産"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/0000000625.html",
+          "status": 200,
+          "title": "二宮町ふるさと納税",
+          "h1": "二宮町ふるさと納税",
+          "updatedAt": "2026年5月26日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002599.html",
+          "status": 200,
+          "title": "二宮町LINE公式アカウント",
+          "h1": "二宮町LINE公式アカウント",
+          "updatedAt": "2026年6月15日",
+          "keywordHits": [
+            "移住",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003163.html",
+          "status": 200,
+          "title": "こどもの権利",
+          "h1": "こどもの権利",
+          "updatedAt": "2025年12月8日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000001918.html",
+          "status": 200,
+          "title": "防災行政無線情報一覧",
+          "h1": "防災行政無線情報一覧",
+          "updatedAt": "2024年7月25日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/mirai_dukuri/0000003326.html",
+          "status": 200,
+          "title": "省エネ家電買替促進事業",
+          "h1": "省エネ家電買替促進事業",
+          "updatedAt": "2026年5月14日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "事業者",
+            "省エネ"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002503.html",
+          "status": 200,
+          "title": "マイナンバーカードと健康保険証の一体化について",
+          "h1": "マイナンバーカードと健康保険証の一体化について",
+          "updatedAt": "2026年3月26日",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000461.html",
+          "status": 200,
+          "title": "休日急患当番医",
+          "h1": "休日急患当番医",
+          "updatedAt": "2026年7月3日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-5-2-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "消防・救急",
+          "h1": "消防・救急",
+          "updatedAt": "令和5年10月1日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000001601.html",
+          "status": 200,
+          "title": "くらしの安心安全情報",
+          "h1": "くらしの安心安全情報",
+          "updatedAt": "2023年8月4日",
+          "keywordHits": [
+            "移住",
+            "住宅"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000001599.html",
+          "status": 200,
+          "title": "災害関係情報",
+          "h1": "災害関係情報",
+          "updatedAt": "2025年4月3日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003506.html",
+          "status": 200,
+          "title": "令和8年7月14日記者発表 「にの♥バス」は、夏休み期間中の小・中学生運賃を無料で運行します",
+          "h1": "令和8年7月14日記者発表 「にの♥バス」は、夏休み期間中の小・中学生運賃を無料で運行します",
+          "updatedAt": "2026年7月14日",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "福祉",
+            "省エネ"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003505.html",
+          "status": 200,
+          "title": "令和8年7月14日記者発表 「二宮町教育講演会」を開催します",
+          "h1": "令和8年7月14日記者発表 「二宮町教育講演会」を開催します",
+          "updatedAt": "2026年7月14日",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "福祉",
+            "省エネ"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000715.html",
+          "status": 200,
+          "title": "町民活動推進補助金の募集について",
+          "h1": "町民活動推進補助金の募集について",
+          "updatedAt": "2026年7月14日",
+          "keywordHits": [
+            "補助金",
+            "福祉"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003048.html",
+          "status": 200,
+          "title": "令和8年度第1回お互いさま推進協議会の開催について",
+          "h1": "令和8年度第1回お互いさま推進協議会の開催について",
+          "updatedAt": "2026年7月14日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003036.html",
+          "status": 200,
+          "title": "学校閉庁日の実施について",
+          "h1": "学校閉庁日の実施について",
+          "updatedAt": "2026年7月13日",
+          "keywordHits": [
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003400.html",
+          "status": 200,
+          "title": "せせらぎ公園花情報2026",
+          "h1": "せせらぎ公園花情報2026",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "省エネ"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003491.html",
+          "status": 200,
+          "title": "大手電気通信事業者の名称や警察をかたり、「逮捕状が出ている」などと告げ、架空の事務処理費用等を要求する事業者に関する注意喚起",
+          "h1": "大手電気通信事業者の名称や警察をかたり、「逮捕状が出ている」などと告げ、架空の事務処理費用等を要求する事業者に関する注意喚起",
+          "updatedAt": "2026年7月8日",
+          "keywordHits": [
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003447.html",
+          "status": 200,
+          "title": "ライフデザインボードゲーム事業",
+          "h1": "ライフデザインボードゲーム事業",
+          "updatedAt": "2026年7月8日",
+          "keywordHits": [
+            "移住",
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/mirai_dukuri/0000001779.html",
+          "status": 200,
+          "title": "マイボトルっていいね！",
+          "h1": "マイボトルっていいね！",
+          "updatedAt": "2026年7月7日",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002960.html",
+          "status": 200,
+          "title": "高糖度ブランドみかん【湘南の輝き】の出荷が始まりました！",
+          "h1": "高糖度ブランドみかん【湘南の輝き】の出荷が始まりました！",
+          "updatedAt": "2026年7月7日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "水産"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003500.html",
+          "status": 200,
+          "title": "令和8年7月7日記者発表 学校給食で無農薬野菜を使った夏野菜カレーを提供します",
+          "h1": "令和8年7月7日記者発表 学校給食で無農薬野菜を使った夏野菜カレーを提供します",
+          "updatedAt": "2026年7月6日",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "福祉",
+            "省エネ"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003431.html",
+          "status": 200,
+          "title": "令和8年度教育委員会交際費",
+          "h1": "令和8年度教育委員会交際費",
+          "updatedAt": "2026年7月7日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/news/0001.html",
+          "status": 200,
+          "title": "新着情報",
+          "h1": "新着情報",
+          "updatedAt": "令和8年7月14日",
+          "keywordHits": [
+            "補助金",
+            "事業者"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003498.html",
+          "status": 200,
+          "title": "二宮町立体育館LED照明設備賃貸借事業に係る公募型プロポーザルの実施について",
+          "h1": "二宮町立体育館LED照明設備賃貸借事業に係る公募型プロポーザルの実施について",
+          "updatedAt": "2026年7月8日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003481.html",
+          "status": 200,
+          "title": "二宮町移住セミナー (住まいと暮らし編) 【受付終了しました】",
+          "h1": "二宮町移住セミナー (住まいと暮らし編) 【受付終了しました】",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "移住",
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002983.html",
+          "status": 200,
+          "title": "【新規就農希望者向け】神奈川県立かながわ農業アカデミー令和8年度学校説明会(令和9年4月以降入校希望)の開催について",
+          "h1": "【新規就農希望者向け】神奈川県立かながわ農業アカデミー令和8年度学校説明会(令和9年4月以降入校希望)の開催について",
+          "updatedAt": "2026年7月7日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "水産"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/0000001314.html",
+          "status": 200,
+          "title": "二宮ブランド",
+          "h1": "二宮ブランド",
+          "updatedAt": "2026年5月26日",
+          "keywordHits": [
+            "水産"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/topics/0001.html",
+          "status": 200,
+          "title": "募集情報",
+          "h1": "募集情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "農業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/0000000977.html",
+          "status": 200,
+          "title": "小・中学校",
+          "h1": "小・中学校",
+          "updatedAt": "2026年5月7日",
+          "keywordHits": [
+            "移住",
+            "子育て",
+            "就学",
+            "耐震",
+            "通学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-2-4-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "小中一貫教育校",
+          "h1": "小中一貫教育校",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/9-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "二宮町空き家バンク",
+          "h1": "二宮町空き家バンク",
+          "updatedAt": "",
+          "keywordHits": [
+            "空き家"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002752.html",
+          "status": 200,
+          "title": "新庁舎建設のスケジュールについて",
+          "h1": "新庁舎建設のスケジュールについて",
+          "updatedAt": "2025年9月1日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000355.html",
+          "status": 200,
+          "title": "広報にのみや",
+          "h1": "広報にのみや",
+          "updatedAt": "2026年6月30日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000001133.html",
+          "status": 200,
+          "title": "公共施設一覧",
+          "h1": "公共施設一覧",
+          "updatedAt": "2026年7月7日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/5-20-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "申請書ダウンロード",
+          "h1": "申請書ダウンロード",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "水産",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000481.html",
+          "status": 200,
+          "title": "健康カレンダー《成人》",
+          "h1": "健康カレンダー《成人》",
+          "updatedAt": "2026年4月24日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000226.html",
+          "status": 200,
+          "title": "にのにんカフェ",
+          "h1": "にのにんカフェ",
+          "updatedAt": "2026年6月25日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002945.html",
+          "status": 200,
+          "title": "社会を明るくする運動",
+          "h1": "社会を明るくする運動",
+          "updatedAt": "2026年6月25日",
+          "keywordHits": [
+            "給付金",
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000001870.html",
+          "status": 200,
+          "title": "認知症サポーターのつどい",
+          "h1": "認知症サポーターのつどい",
+          "updatedAt": "2026年5月25日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/0000000649.html",
+          "status": 200,
+          "title": "オンライン移住相談会",
+          "h1": "オンライン移住相談会",
+          "updatedAt": "2026年6月29日",
+          "keywordHits": [
+            "移住",
+            "空き家"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/event2/202607.html",
+          "status": 200,
+          "title": "イベント&nbsp;(7月)",
+          "h1": "イベント&nbsp;(7月)",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/event2/202608.html",
+          "status": 200,
+          "title": "イベント&nbsp;(8月)",
+          "h1": "イベント&nbsp;(8月)",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/event2/20260711.html",
+          "status": 200,
+          "title": "イベント (2026年7月11日)",
+          "h1": "イベント (2026年7月11日)",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000204.html",
+          "status": 200,
+          "title": "ホームページバナー広告",
+          "h1": "ホームページバナー広告",
+          "updatedAt": "2025年7月8日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000204.html",
+          "status": 200,
+          "title": "ホームページバナー広告",
+          "h1": "ホームページバナー広告",
+          "updatedAt": "2025年7月8日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/12-1-1-0-0_1.html",
+          "status": 200,
+          "title": "地域支援班",
+          "h1": "地域支援班",
+          "updatedAt": "令和7年4月1日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/12-3-2-0-0_1.html",
+          "status": 200,
+          "title": "生活環境班",
+          "h1": "生活環境班",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/3-1-1-0-0_1.html",
+          "status": 200,
+          "title": "福祉・障がい者支援班",
+          "h1": "福祉・障がい者支援班",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=277da6cc975c9c0fc7b6af8e75afb98095dba73c&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "title": "【福祉部 福祉保険課 福祉・障がい者支援班】へのお問い合わせ",
+          "h1": "【福祉部 福祉保険課 福祉・障がい者支援班】へのお問い合わせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/3-1-2-0-0_1.html",
+          "status": 200,
+          "title": "国保年金班",
+          "h1": "国保年金班",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=39738c1d37871752d449cec15c991696ebbd53ff&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "title": "【福祉部 福祉保険課 国保年金班】へのお問い合わせ",
+          "h1": "【福祉部 福祉保険課 国保年金班】へのお問い合わせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/3-2-1-0-0_1.html",
+          "status": 200,
+          "title": "高齢福祉班",
+          "h1": "高齢福祉班",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=c044a02338fa4b5d58d611dc94976021c9292554&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "title": "【福祉部 高齢介護課 高齢福祉班】へのお問い合わせ",
+          "h1": "【福祉部 高齢介護課 高齢福祉班】へのお問い合わせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/3-2-2-0-0_1.html",
+          "status": 200,
+          "title": "介護保険班",
+          "h1": "介護保険班",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=a5497b3c4c339dd009a3c468e213f515a8e651b1&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "title": "【福祉部 高齢介護課 介護保険班】へのお問い合わせ",
+          "h1": "【福祉部 高齢介護課 介護保険班】へのお問い合わせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/13-1-1-0-0_1.html",
+          "status": 200,
+          "title": "こども支援班",
+          "h1": "こども支援班",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/13-2-1-0-0_1.html",
+          "status": 200,
+          "title": "育成相談班",
+          "h1": "育成相談班",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=0f31f809344a33baaca392e406dcae7ecc075464&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "title": "【こども・健康部 子育て・健康課 育成相談班】へのお問い合わせ",
+          "h1": "【こども・健康部 子育て・健康課 育成相談班】へのお問い合わせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/13-2-2-0-0_1.html",
+          "status": 200,
+          "title": "健康づくり班",
+          "h1": "健康づくり班",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=04eeea720489e3e980f87956bf76123443129c89&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "title": "【こども・健康部 子育て・健康課 健康づくり班】へのお問い合わせ",
+          "h1": "【こども・健康部 子育て・健康課 健康づくり班】へのお問い合わせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/4-2-1-0-0_1.html",
+          "status": 200,
+          "title": "農林水産班",
+          "h1": "農林水産班",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "水産"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=efa0031ea551a30a8f22587843dfe79f9b07ef25&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "title": "【都市部 産業振興課 農林水産班】へのお問い合わせ",
+          "h1": "【都市部 産業振興課 農林水産班】へのお問い合わせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "水産"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/4-3-1-0-0_1.html",
+          "status": 200,
+          "title": "計画指導班",
+          "h1": "計画指導班",
+          "updatedAt": "",
+          "keywordHits": [
+            "耐震"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/4-3-2-0-0_1.html",
+          "status": 200,
+          "title": "道路班",
+          "h1": "道路班",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/9-0-0-0-0_5.html",
+          "status": 200,
+          "title": "農業委員会事務局",
+          "h1": "農業委員会事務局",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "農業",
+            "水産"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=e9eacde2ded5e7401dd8bfc855b85dec06c57531&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "title": "【農業委員会事務局】へのお問い合わせ",
+          "h1": "【農業委員会事務局】へのお問い合わせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003454.html",
+          "status": 200,
+          "title": "マイナンバーカードに関する詐欺電話にご注意ください",
+          "h1": "マイナンバーカードに関する詐欺電話にご注意ください",
+          "updatedAt": "2026年6月3日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-1-5-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "国民年金",
+          "h1": "国民年金",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-1-6-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "国民健康保険",
+          "h1": "国民健康保険",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-2-2-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "個人町民税",
+          "h1": "個人町民税",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-2-4-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "固定資産税",
+          "h1": "固定資産税",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "住宅",
+            "耐震",
+            "省エネ"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-2-5-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "軽自動車税",
+          "h1": "軽自動車税",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-3-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "暮らし",
+          "h1": "暮らし",
+          "updatedAt": "令和7年4月1日",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-3-3-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "住宅・道路",
+          "h1": "住宅・道路",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "耐震"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-3-17-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "下水道・浄化槽",
+          "h1": "下水道・浄化槽",
+          "updatedAt": "令和7年1月28日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-4-6-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "にのみや町民活動サポートセンター",
+          "h1": "にのみや町民活動サポートセンター",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-4-9-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "子育て施設",
+          "h1": "子育て施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-5-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "防災・消防・防犯",
+          "h1": "防災・消防・防犯",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-5-1-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "防災",
+          "h1": "防災",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-5-3-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "防犯・交通安全",
+          "h1": "防犯・交通安全",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-6-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "地域活動・町民活動",
+          "h1": "地域活動・町民活動",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-6-1-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "地域活動",
+          "h1": "地域活動",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-6-2-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "町民活動",
+          "h1": "町民活動",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金"
+          ],
+          "candidateScore": 10,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002012.html",
+          "status": 200,
+          "title": "一色小学校区元気なコミュニティ協議会",
+          "h1": "一色小学校区元気なコミュニティ協議会",
+          "updatedAt": "2023年5月22日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-8-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "産業・事業者情報",
+          "h1": "産業・事業者情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-8-1-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "お知らせ",
+          "h1": "お知らせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-8-2-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "農林業",
+          "h1": "農林業",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-8-3-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "産学官等連携事業",
+          "h1": "産学官等連携事業",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-1-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000476.html",
+          "status": 200,
+          "title": "健康カレンダー《子ども》",
+          "h1": "健康カレンダー《子ども》",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-1-2-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "妊娠・出産",
+          "h1": "妊娠・出産",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-1-3-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "子どもの健康",
+          "h1": "子どもの健康",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000192.html",
+          "status": 200,
+          "title": "子どもの予防接種",
+          "h1": "子どもの予防接種",
+          "updatedAt": "2026年5月11日",
+          "keywordHits": [
+            "助成金",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-1-5-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "乳児等通園支援事業、一時預かり保育・病後児保育",
+          "h1": "乳児等通園支援事業、一時預かり保育・病後児保育",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-1-6-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "子育てコミュニティ",
+          "h1": "子育てコミュニティ",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-1-7-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "学童保育",
+          "h1": "学童保育",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-1-8-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "手当・医療費助成",
+          "h1": "手当・医療費助成",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "医療費助成",
+            "子育て"
+          ],
+          "candidateScore": 22,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-1-9-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "ひとり親家庭",
+          "h1": "ひとり親家庭",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-2-3-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "小・中学校",
+          "h1": "小・中学校",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-2-5-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "学校給食",
+          "h1": "学校給食",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-6-1-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "健康づくり",
+          "h1": "健康づくり",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-6-2-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "健康診断・各種検診・予防接種・助成金",
+          "h1": "健康診断・各種検診・予防接種・助成金",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-1-1-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "救急医療・医療機関",
+          "h1": "救急医療・医療機関",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-1-5-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "子どもの医療",
+          "h1": "子どもの医療",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-1-6-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "新型コロナウイルス",
+          "h1": "新型コロナウイルス",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-2-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "高齢者福祉",
+          "h1": "高齢者福祉",
+          "updatedAt": "令和8年6月24日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-2-6-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "お知らせ（高齢者福祉）",
+          "h1": "お知らせ（高齢者福祉）",
+          "updatedAt": "令和8年6月24日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-2-2-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "高齢者の総合相談窓口 地域包括支援センター「なのはな」",
+          "h1": "高齢者の総合相談窓口 地域包括支援センター「なのはな」",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-2-7-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "介護保険",
+          "h1": "介護保険",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-2-3-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "高齢者福祉サービス",
+          "h1": "高齢者福祉サービス",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-2-4-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "生きがいと健康づくり",
+          "h1": "生きがいと健康づくり",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-2-5-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "認知症支援",
+          "h1": "認知症支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-5-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "障害者福祉",
+          "h1": "障害者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-5-1-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "お知らせ（障害者福祉）",
+          "h1": "お知らせ（障害者福祉）",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-5-2-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "障害者手帳",
+          "h1": "障害者手帳",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-5-3-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "障害福祉サービス",
+          "h1": "障害福祉サービス",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "就学"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-5-4-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "障害者手当",
+          "h1": "障害者手当",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-5-5-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "障害者助成",
+          "h1": "障害者助成",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-5-6-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "公共料金割引",
+          "h1": "公共料金割引",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "免除",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-5-7-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "医療",
+          "h1": "医療",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-4-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "社会福祉",
+          "h1": "社会福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000001830.html",
+          "status": 200,
+          "title": "二宮町戦没者を追悼し、平和を祈念する集い",
+          "h1": "二宮町戦没者を追悼し、平和を祈念する集い",
+          "updatedAt": "2026年4月24日",
+          "keywordHits": [
+            "給付金",
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002979.html",
+          "status": 200,
+          "title": "定額減税補足給付金（不足額給付）について",
+          "h1": "定額減税補足給付金（不足額給付）について",
+          "updatedAt": "2026年1月15日",
+          "keywordHits": [
+            "給付金",
+            "福祉"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000193.html",
+          "status": 200,
+          "title": "令和7年12月、全国の民生委員・児童委員の一斉改選が行われました！",
+          "h1": "令和7年12月、全国の民生委員・児童委員の一斉改選が行われました！",
+          "updatedAt": "2025年12月26日",
+          "keywordHits": [
+            "給付金",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002767.html",
+          "status": 200,
+          "title": "令和6年度住民税非課税世帯への給付金【3万円給付】及びこども加算【2万円給付】について",
+          "h1": "令和6年度住民税非課税世帯への給付金【3万円給付】及びこども加算【2万円給付】について",
+          "updatedAt": "2025年6月11日",
+          "keywordHits": [
+            "給付金",
+            "福祉"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000236.html",
+          "status": 200,
+          "title": "第十二回戦没者等の遺族に対する特別弔慰金支給のお知らせ",
+          "h1": "第十二回戦没者等の遺族に対する特別弔慰金支給のお知らせ",
+          "updatedAt": "2025年5月21日",
+          "keywordHits": [
+            "給付金",
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002845.html",
+          "status": 200,
+          "title": "令和6年能登半島地震災害義援金について",
+          "h1": "令和6年能登半島地震災害義援金について",
+          "updatedAt": "2025年3月21日",
+          "keywordHits": [
+            "給付金",
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000202.html",
+          "status": 200,
+          "title": "福祉避難所",
+          "h1": "福祉避難所",
+          "updatedAt": "2024年12月11日",
+          "keywordHits": [
+            "給付金",
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002454.html",
+          "status": 200,
+          "title": "新たに住民税非課税等となる世帯支援給付金【10万円給付】及びこども加算【5万円給付】について",
+          "h1": "新たに住民税非課税等となる世帯支援給付金【10万円給付】及びこども加算【5万円給付】について",
+          "updatedAt": "2024年11月1日",
+          "keywordHits": [
+            "給付金",
+            "福祉"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002435.html",
+          "status": 200,
+          "title": "定額減税補足給付金（調整給付）について",
+          "h1": "定額減税補足給付金（調整給付）について",
+          "updatedAt": "2024年11月1日",
+          "keywordHits": [
+            "給付金",
+            "福祉"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002636.html",
+          "status": 200,
+          "title": "令和6年9月能登半島大雨災害義援金について",
+          "h1": "令和6年9月能登半島大雨災害義援金について",
+          "updatedAt": "2024年10月4日",
+          "keywordHits": [
+            "給付金",
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000238.html",
+          "status": 200,
+          "title": "日本赤十字社義援金・救援金",
+          "h1": "日本赤十字社義援金・救援金",
+          "updatedAt": "2023年5月25日",
+          "keywordHits": [
+            "給付金",
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000240.html",
+          "status": 200,
+          "title": "生活福祉",
+          "h1": "生活福祉",
+          "updatedAt": "2022年11月1日",
+          "keywordHits": [
+            "給付金",
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-9-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "入札・契約",
+          "h1": "入札・契約",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-9-1-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "一般競争入札発注・契約基準",
+          "h1": "一般競争入札発注・契約基準",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-9-2-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "電子入札システム及び一般競争入札",
+          "h1": "電子入札システム及び一般競争入札",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-9-3-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "入札調書",
+          "h1": "入札調書",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-9-4-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "インターネット公有財産売却",
+          "h1": "インターネット公有財産売却",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-9-5-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "債権者の登録",
+          "h1": "債権者の登録",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-9-6-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "インボイス制度",
+          "h1": "インボイス制度",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-8-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "企業・創業支援",
+          "h1": "企業・創業支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-8-7-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "各種制度案内",
+          "h1": "各種制度案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-8-3-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "融資制度・保証制度",
+          "h1": "融資制度・保証制度",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-8-4-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "創業支援",
+          "h1": "創業支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-8-5-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "補助金・助成金制度",
+          "h1": "補助金・助成金制度",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-8-6-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "国や県などの支援施策",
+          "h1": "国や県などの支援施策",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-8-8-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "事業承継",
+          "h1": "事業承継",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-4-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "title": "住宅・道路",
+          "h1": "住宅・道路",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "耐震"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000107.html",
+          "status": 200,
+          "title": "建築確認申請",
+          "h1": "建築確認申請",
+          "updatedAt": "2026年6月19日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "耐震"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000100.html",
+          "status": 200,
+          "title": "二宮町の開発事業における手続及び基準等に関する条例について",
+          "h1": "二宮町の開発事業における手続及び基準等に関する条例について",
+          "updatedAt": "2026年5月25日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "農業",
+            "耐震"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002666.html",
+          "status": 200,
+          "title": "木造住宅の無料耐震相談会",
+          "h1": "木造住宅の無料耐震相談会",
+          "updatedAt": "2025年12月24日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "耐震"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000143.html",
+          "status": 200,
+          "title": "道路に関すること(事業者向け)",
+          "h1": "道路に関すること(事業者向け)",
+          "updatedAt": "2025年8月26日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "耐震"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000128.html",
+          "status": 200,
+          "title": "都市計画法第53条区域",
+          "h1": "都市計画法第53条区域",
+          "updatedAt": "2025年3月6日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "耐震"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000122.html",
+          "status": 200,
+          "title": "地形図・航空写真の販売",
+          "h1": "地形図・航空写真の販売",
+          "updatedAt": "2024年7月29日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "耐震"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000136.html",
+          "status": 200,
+          "title": "盛土に関すること",
+          "h1": "盛土に関すること",
+          "updatedAt": "2024年6月5日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "耐震"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000133.html",
+          "status": 200,
+          "title": "都市計画図",
+          "h1": "都市計画図",
+          "updatedAt": "2024年6月5日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "耐震"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000139.html",
+          "status": 200,
+          "title": "住宅に関すること(事業者向け)",
+          "h1": "住宅に関すること(事業者向け)",
+          "updatedAt": "2024年1月5日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "耐震"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000120.html",
+          "status": 200,
+          "title": "住居表示について",
+          "h1": "住居表示について",
+          "updatedAt": "2023年6月15日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "耐震"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14342",
+          "municipalityName": "二宮町",
+          "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000137.html",
+          "status": 200,
+          "title": "用途地域",
+          "h1": "用途地域",
+          "updatedAt": "2023年2月25日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "農業",
+            "耐震"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/rss/rss.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/rss/rss.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/site_policy/0000000006.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/site_policy/0000000006.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/front.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/front.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/2-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/4-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/5-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/5-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mirai_dukuri/",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mirai_dukuri/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/gikai/",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/gikai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000373.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000373.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/0000000625.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/0000000625.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000002599.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000002599.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000003163.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000003163.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mirai_dukuri/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mirai_dukuri/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000001918.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000001918.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/rss/rss_emergency.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/rss/rss_emergency.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mirai_dukuri/0000003326.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mirai_dukuri/0000003326.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000002963.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000002963.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000002503.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000002503.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000461.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000461.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/0000001287.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/0000001287.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000001108.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000001108.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mirai_dukuri/0000001968.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mirai_dukuri/0000001968.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mirai_dukuri/0000001437.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mirai_dukuri/0000001437.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/map/map12/map13.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/map/map12/map13.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/faq/",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/faq/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-5-2-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-5-2-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000001601.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000001601.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000001599.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000001599.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000003506.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000003506.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000003505.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000003505.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000715.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000715.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000003048.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000003048.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000003036.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000003036.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000001973.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000001973.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000003400.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000003400.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000444.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000444.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000003491.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000003491.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000003447.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000003447.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mirai_dukuri/0000001779.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mirai_dukuri/0000001779.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000002960.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000002960.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000003500.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000003500.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000003431.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000003431.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000001213.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000001213.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/news/0001.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/news/0001.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/rss/rss_new.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/rss/rss_new.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/site_policy/0000000007.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/site_policy/0000000007.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000003498.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000003498.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000003481.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000003481.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000002983.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000002983.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/0000001314.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/0000001314.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/topics/0001.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/topics/0001.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/rss/rss_topics.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/rss/rss_topics.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000003257.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000003257.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000001760.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000001760.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/0000000977.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/0000000977.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/2-2-4-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-2-4-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/5-3-8-4-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/5-3-8-4-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/9-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/9-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000002752.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000002752.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-4-7-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-4-7-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/7-0-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/7-0-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/5-1-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/5-1-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000001706.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000001706.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000355.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000355.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/gikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/gikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000001133.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000001133.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/5-20-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/5-20-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-3-14-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-3-14-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000001208.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000001208.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/module/garbage.php",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/module/garbage.php",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000481.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000481.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000001237.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000001237.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/5-29-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/5-29-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000001708.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000001708.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/5-19-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/5-19-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000001379.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000001379.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.ninomiya.kanagawa.jp/reiki/reiki.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/reiki/reiki.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/5-17-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/5-17-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000637.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000637.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/5-27-6-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/5-27-6-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000226.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000226.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000002945.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000002945.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000001870.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000001870.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/0000000649.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/0000000649.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/event2/202606.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/event2/202606.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/event2/202607.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/event2/202607.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/event2/202608.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/event2/202608.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/event2/20260701.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/event2/20260701.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/event2/20260702.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/event2/20260702.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/event2/20260703.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/event2/20260703.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/event2/20260704.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/event2/20260704.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/event2/20260705.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/event2/20260705.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/event2/20260706.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/event2/20260706.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/event2/20260707.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/event2/20260707.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/event2/20260708.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/event2/20260708.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/event2/20260709.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/event2/20260709.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/event2/20260710.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/event2/20260710.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/event2/20260711.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/event2/20260711.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/event2/20260712.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/event2/20260712.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/event2/20260714.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/event2/20260714.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/event2/20260716.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/event2/20260716.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/module/banner.cgi?bannerId=18",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000204.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/module/banner.cgi?bannerId=2",
+          "status": 200,
+          "finalUrl": "https://koyurugi.co.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/module/banner.cgi?bannerId=20",
+          "status": 200,
+          "finalUrl": "https://www.takarakuji-official.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000204.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000204.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/site_policy/0000000009.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/site_policy/0000000009.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/site_policy/0000000003.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/site_policy/0000000003.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/site_policy/0000000004.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/site_policy/0000000004.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/0000000848.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/0000000848.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/1-1-1-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/1-1-1-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=81fe4df3bf11bd455ff30980f95efc5655bfa647&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=81fe4df3bf11bd455ff30980f95efc5655bfa647&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/1-1-2-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/1-1-2-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=c6060f2a425039935d21fbff21daaf9dec3225e1&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=c6060f2a425039935d21fbff21daaf9dec3225e1&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/1-2-1-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/1-2-1-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=3535fe568ed13f50531056912a1b940d4dcb5729&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=3535fe568ed13f50531056912a1b940d4dcb5729&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/1-2-2-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/1-2-2-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=f2761f4653b48dc0e8bc8bf4e36b3577744cce0c&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=f2761f4653b48dc0e8bc8bf4e36b3577744cce0c&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/1-4-1-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/1-4-1-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=e0a3ecc45df1df87d5135f9e1dd6811ac02a022c&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=e0a3ecc45df1df87d5135f9e1dd6811ac02a022c&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/2-1-1-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/2-1-1-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=f1d0119a276eec993cda3bb9ca998be2585823d3&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=f1d0119a276eec993cda3bb9ca998be2585823d3&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/2-1-2-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/2-1-2-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=166090d4a1ecde7f18faab0ffc46c3bd62d442a6&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=166090d4a1ecde7f18faab0ffc46c3bd62d442a6&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/2-2-1-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/2-2-1-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=dec0cd8c25522849c678bf4c28fc2f0e5f1d38d2&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=dec0cd8c25522849c678bf4c28fc2f0e5f1d38d2&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/2-2-2-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/2-2-2-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=b202495749ba4c40f3e79aa4516f46d4bc715e91&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=b202495749ba4c40f3e79aa4516f46d4bc715e91&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/2-3-4-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/2-3-4-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=853208e07316b0ce2f745d6a0e59ea295d0fa4d3&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=853208e07316b0ce2f745d6a0e59ea295d0fa4d3&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/2-3-5-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/2-3-5-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=8d427357bee22b4415d110171a2e702863a34bb2&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=8d427357bee22b4415d110171a2e702863a34bb2&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/2-3-2-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/2-3-2-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=deeef5bd181ed2705ceb5e42ccc0ececf66aa053&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=deeef5bd181ed2705ceb5e42ccc0ececf66aa053&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/12-1-1-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/12-1-1-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=c7e5e956db19d52e739178ee16fff16a468881bb&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=c7e5e956db19d52e739178ee16fff16a468881bb&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/12-1-2-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/12-1-2-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=f19bb9e2c21671011f22a7149821745654cc190c&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=f19bb9e2c21671011f22a7149821745654cc190c&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/12-2-1-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/12-2-1-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=a24130706af576c4988fc65ca921fe80940e300d&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=a24130706af576c4988fc65ca921fe80940e300d&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/12-3-1-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/12-3-1-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=18d457460d4bd1575a3ea302159bb345487ef14f&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=18d457460d4bd1575a3ea302159bb345487ef14f&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/12-3-2-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/12-3-2-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=4428e167fe8059a6e492217ebf36245a30e47331&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=4428e167fe8059a6e492217ebf36245a30e47331&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/12-3-3-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/12-3-3-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=7b58352b2ee3c7e43ee7d665681e88de4b796b3b&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=7b58352b2ee3c7e43ee7d665681e88de4b796b3b&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/3-1-1-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/3-1-1-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=277da6cc975c9c0fc7b6af8e75afb98095dba73c&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=277da6cc975c9c0fc7b6af8e75afb98095dba73c&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/3-1-2-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/3-1-2-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=39738c1d37871752d449cec15c991696ebbd53ff&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=39738c1d37871752d449cec15c991696ebbd53ff&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/3-2-1-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/3-2-1-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=c044a02338fa4b5d58d611dc94976021c9292554&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=c044a02338fa4b5d58d611dc94976021c9292554&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/3-2-2-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/3-2-2-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=a5497b3c4c339dd009a3c468e213f515a8e651b1&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=a5497b3c4c339dd009a3c468e213f515a8e651b1&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/13-1-1-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/13-1-1-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=c1eece234ac009d25f5d2fda3adaa3bfdc39d0c3&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=c1eece234ac009d25f5d2fda3adaa3bfdc39d0c3&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/13-2-1-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/13-2-1-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=0f31f809344a33baaca392e406dcae7ecc075464&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=0f31f809344a33baaca392e406dcae7ecc075464&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/13-2-2-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/13-2-2-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=04eeea720489e3e980f87956bf76123443129c89&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=04eeea720489e3e980f87956bf76123443129c89&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/4-2-1-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/4-2-1-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=efa0031ea551a30a8f22587843dfe79f9b07ef25&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=efa0031ea551a30a8f22587843dfe79f9b07ef25&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/4-2-2-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/4-2-2-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=7f0e0e8ef56d70e80f3c4e3430944e5c375f8c7a&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=7f0e0e8ef56d70e80f3c4e3430944e5c375f8c7a&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/4-3-1-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/4-3-1-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=2de9658d75ffa8a63b622c7116b5281fa6c0a082&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=2de9658d75ffa8a63b622c7116b5281fa6c0a082&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/4-3-2-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/4-3-2-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=779736cd3304fb90fb60f02788c16edded6f363a&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=779736cd3304fb90fb60f02788c16edded6f363a&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/4-3-3-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/4-3-3-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=737b81473f545308c66164c845f1f34f2f3cf188&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=737b81473f545308c66164c845f1f34f2f3cf188&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/4-4-1-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/4-4-1-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=0ce81ae6a3adea5a310e857c97c4e79023a569f5&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=0ce81ae6a3adea5a310e857c97c4e79023a569f5&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/4-4-2-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/4-4-2-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=adeade6940124c839020468b03b64d745ca166e7&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=adeade6940124c839020468b03b64d745ca166e7&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/5-1-1-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/5-1-1-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=a5d7fc63d51c1b43246de8ee219aa2ca7c3076cb&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=a5d7fc63d51c1b43246de8ee219aa2ca7c3076cb&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/6-1-1-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/6-1-1-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=e02cd240cc2022e3690dc1777b14166f5728e2c0&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=e02cd240cc2022e3690dc1777b14166f5728e2c0&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/6-1-3-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/6-1-3-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=c37704035fd51243e1642e4b17c54fcee4a694b8&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=c37704035fd51243e1642e4b17c54fcee4a694b8&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/6-3-1-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/6-3-1-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=afa288ca96bbd3503a794c94bc26b38e5997ad52&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=afa288ca96bbd3503a794c94bc26b38e5997ad52&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/6-2-1-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/6-2-1-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=d912b399360b4d0ccb7ed324c5602b8372d52ea6&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=d912b399360b4d0ccb7ed324c5602b8372d52ea6&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/6-2-2-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/6-2-2-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=68908bbb4ed9c54778eeb70b0a4f9e7a1626294c&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=68908bbb4ed9c54778eeb70b0a4f9e7a1626294c&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/6-2-3-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/6-2-3-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=5b9c8e79955aa029c2bf728cb8eab20de551f5bb&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=5b9c8e79955aa029c2bf728cb8eab20de551f5bb&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/7-1-1-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/7-1-1-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=dd2c49540d23feba2421a2c16769da54b287889d&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=dd2c49540d23feba2421a2c16769da54b287889d&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/8-1-1-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/8-1-1-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=14357076673c3f18e3e26fa699b6ecbbb1b69052&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=14357076673c3f18e3e26fa699b6ecbbb1b69052&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/8-1-2-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/8-1-2-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=400c8fa33851afbce55badb490fd2636237d74c0&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=400c8fa33851afbce55badb490fd2636237d74c0&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/8-1-3-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/8-1-3-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=e5b81367fa66bc8474e29ad3395dbc6c9be167b8&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=e5b81367fa66bc8474e29ad3395dbc6c9be167b8&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/8-2-0-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/8-2-0-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=5a20a2c2d2f39599c43825d28408ce9d2680f0c1&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=5a20a2c2d2f39599c43825d28408ce9d2680f0c1&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/9-0-0-0-0_5.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/9-0-0-0-0_5.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=e9eacde2ded5e7401dd8bfc855b85dec06c57531&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=e9eacde2ded5e7401dd8bfc855b85dec06c57531&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/10-0-0-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/10-0-0-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=69ea1e159c9996be5360bfad3e100a2b8ef33fe9&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=69ea1e159c9996be5360bfad3e100a2b8ef33fe9&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/soshiki/11-0-0-0-0_1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/11-0-0-0-0_1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=eed8ab2dc39bd1fa5545ec7e868c01387661a6f8&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=eed8ab2dc39bd1fa5545ec7e868c01387661a6f8&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000003454.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000003454.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-1-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-1-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-1-1-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-1-1-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-1-2-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-1-2-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-1-3-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-1-3-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-1-4-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-1-4-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-1-5-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-1-5-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-1-6-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-1-6-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-1-7-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-1-7-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/5-20-0-0-0-0-0-0-0-0.html",
+          "status": 404,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/5-20-0-0-0-0-0-0-0-0.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-2-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-2-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-2-1-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-2-1-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-2-2-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-2-2-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-2-3-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-2-3-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-2-4-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-2-4-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-2-5-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-2-5-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-2-6-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-2-6-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-3-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-3-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-3-2-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-3-2-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-3-3-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-3-3-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/9-0-0-0-0-0-0-0-0-0.html",
+          "status": 404,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/9-0-0-0-0-0-0-0-0-0.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-3-17-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-3-17-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-3-5-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-3-5-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-3-6-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-3-6-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-3-7-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-3-7-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-3-8-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-3-8-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-3-10-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-3-10-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-3-9-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-3-9-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-3-15-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-3-15-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-3-11-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-3-11-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-3-12-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-3-12-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-4-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-4-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-4-2-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-4-2-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-4-1-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-4-1-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-4-3-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-4-3-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-4-4-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-4-4-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-4-5-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-4-5-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-4-6-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-4-6-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-4-19-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-4-19-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-4-8-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-4-8-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-4-9-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-4-9-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-4-10-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-4-10-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-4-11-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-4-11-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-4-12-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-4-12-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-4-13-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-4-13-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-4-14-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-4-14-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-4-15-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-4-15-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-4-16-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-4-16-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-4-17-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-4-17-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-4-18-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-4-18-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-5-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-5-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-5-1-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-5-1-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-5-3-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-5-3-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-5-5-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-5-5-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-5-4-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-5-4-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-6-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-6-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-6-1-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-6-1-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-6-2-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-6-2-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000002012.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000002012.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-7-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-7-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-7-1-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-7-1-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-7-2-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-7-2-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-8-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-8-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-8-1-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-8-1-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-8-2-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-8-2-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/1-8-3-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-8-3-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/2-1-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-1-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000476.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000476.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/1-3-14-0-0-0-0-0-0-0.html",
+          "status": 404,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/1-3-14-0-0-0-0-0-0-0.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/2-1-2-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-1-2-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/2-1-3-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-1-3-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000192.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000192.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/2-1-4-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-1-4-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/2-1-5-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-1-5-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/2-1-6-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-1-6-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/2-1-7-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-1-7-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/2-1-8-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-1-8-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/2-1-9-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-1-9-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/2-2-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-2-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/2-2-1-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-2-1-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/2-2-2-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-2-2-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/2-2-3-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-2-3-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/2-2-5-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-2-5-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/1-7-1-0-0-0-0-0-0-0.html",
+          "status": 404,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/1-7-1-0-0-0-0-0-0-0.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-6-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-6-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-6-1-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-6-1-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-6-2-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-6-2-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-1-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-1-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-1-1-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-1-1-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-1-4-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-1-4-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-1-5-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-1-5-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-1-6-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-1-6-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-1-8-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-1-8-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-2-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-2-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-2-6-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-2-6-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-2-2-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-2-2-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-2-7-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-2-7-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-2-3-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-2-3-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-2-4-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-2-4-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-2-5-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-2-5-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-5-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-5-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-5-1-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-5-1-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-5-2-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-5-2-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-5-3-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-5-3-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-5-4-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-5-4-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-5-5-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-5-5-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-5-6-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-5-6-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-5-7-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-5-7-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/3-4-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-4-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000001830.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000001830.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000002979.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000002979.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000193.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000193.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000002767.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000002767.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000236.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000236.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000002845.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000002845.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000202.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000202.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000002454.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000002454.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000002435.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000002435.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000002636.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000002636.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000238.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000238.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000240.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000240.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/4-9-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-9-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/4-9-1-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-9-1-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/4-9-2-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-9-2-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/4-9-3-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-9-3-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/4-9-4-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-9-4-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/4-9-5-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-9-5-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/4-9-6-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-9-6-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/4-8-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-8-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/4-8-7-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-8-7-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/4-8-3-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-8-3-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/4-8-4-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-8-4-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/4-8-5-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-8-5-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/4-8-6-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-8-6-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/4-8-8-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-8-8-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/category/4-4-0-0-0-0-0-0-0-0.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-4-0-0-0-0-0-0-0-0.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000107.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000107.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000100.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000100.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000002666.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000002666.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000143.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000143.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000128.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000128.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000122.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000122.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000136.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000136.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000133.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000133.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000139.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000139.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000120.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000120.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.ninomiya.kanagawa.jp/0000000137.html",
+          "status": 200,
+          "finalUrl": "https://www.town.ninomiya.kanagawa.jp/0000000137.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2825 @@
+{
+  "batchId": "kanagawa-official-coverage-006",
+  "prefecture": "神奈川県",
+  "generatedAt": "2026-07-14T10:42:44.582Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 34,
+  "results": [
+    {
+      "code": "14341",
+      "name": "大磯町",
+      "officialBaseUrl": "https://www.town.oiso.kanagawa.jp/",
+      "discoveredUrlCount": 360,
+      "candidateCount": 34,
+      "strongCandidateCount": 0,
+      "lowPriorityCandidateCount": 34,
+      "candidates": [
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "2019年08月07日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/soshiki/index.html",
+          "status": 200,
+          "title": "組織から探す",
+          "h1": "組織から探す",
+          "updatedAt": "2024年05月08日",
+          "keywordHits": [
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/kurashi/index.html",
+          "status": 200,
+          "title": "くらし・安心",
+          "h1": "くらし・安心",
+          "updatedAt": "2024年05月08日",
+          "keywordHits": [
+            "空き家"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/kosodate/index.html",
+          "status": 200,
+          "title": "子育て・教育",
+          "h1": "子育て・教育",
+          "updatedAt": "2024年05月08日",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/kenko/index.html",
+          "status": 200,
+          "title": "健康・福祉",
+          "h1": "健康・福祉",
+          "updatedAt": "2024年05月08日",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/sangyo/index.html",
+          "status": 200,
+          "title": "観光・産業・まちづくり",
+          "h1": "観光・産業・まちづくり",
+          "updatedAt": "2024年05月08日",
+          "keywordHits": [
+            "空き家",
+            "水産"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/gyosei/index.html",
+          "status": 200,
+          "title": "町政情報",
+          "h1": "町政情報",
+          "updatedAt": "2024年05月14日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/soshiki/seisaku/seisaku/tantou/dx/24394.html",
+          "status": 200,
+          "title": "町の魅力を発信！シティプロモーション特設サイト「おおいそ はぶ」",
+          "h1": "町の魅力を発信！シティプロモーション特設サイト「おおいそ はぶ」",
+          "updatedAt": "2026年06月19日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "通学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/soshiki/chomin/kosodate/tanto/kosodate/index.html",
+          "status": 200,
+          "title": "子育てでみんなわくわく大磯",
+          "h1": "子育てでみんなわくわく大磯",
+          "updatedAt": "2025年06月10日",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/soshiki/chomin/kosodate/tanto/kodomokateicenter/23123.html",
+          "status": 200,
+          "title": "大磯町こども家庭センター",
+          "h1": "大磯町こども家庭センター",
+          "updatedAt": "2025年10月22日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/soshiki/seisaku/seisaku/tantou/ijyu/24433.html",
+          "status": 200,
+          "title": "移住・定住情報",
+          "h1": "移住・定住情報",
+          "updatedAt": "2026年04月20日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/mokuteki/ninshin/index.html",
+          "status": 200,
+          "title": "妊娠・出産",
+          "h1": "妊娠・出産",
+          "updatedAt": "2024年06月03日",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/mokuteki/kosodate/index.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "2024年06月03日",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/mokuteki/gakko/index.html",
+          "status": 200,
+          "title": "学校・進学",
+          "h1": "学校・進学",
+          "updatedAt": "2024年06月03日",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/mokuteki/kenko/index.html",
+          "status": 200,
+          "title": "健康・医療",
+          "h1": "健康・医療",
+          "updatedAt": "2024年06月05日",
+          "keywordHits": [
+            "一時金",
+            "予防接種"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/mokuteki/korei/index.html",
+          "status": 200,
+          "title": "高齢・介護・障がい",
+          "h1": "高齢・介護・障がい",
+          "updatedAt": "2024年06月05日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/download/index.html",
+          "status": 200,
+          "title": "申請書ダウンロード",
+          "h1": "申請書ダウンロード",
+          "updatedAt": "2024年06月05日",
+          "keywordHits": [
+            "補助金",
+            "一時金",
+            "奨励金",
+            "減免",
+            "免除",
+            "医療費助成",
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 20,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/calendar.html?area-display=0",
+          "status": 200,
+          "title": "イベントカレンダー",
+          "h1": "イベントカレンダー",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/soshiki/seisaku/seisaku/tantou/dx/18362.html",
+          "status": 200,
+          "title": "おおいそオンラインマップ（地図情報システム）",
+          "h1": "おおいそオンラインマップ（地図情報システム）",
+          "updatedAt": "2026年01月14日",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/kenko/kyukyuiryo/1359104849662.html",
+          "status": 200,
+          "title": "救急医療情報",
+          "h1": "救急医療情報",
+          "updatedAt": "2026年04月06日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/event/24955.html",
+          "status": 200,
+          "title": "青少年おもしろ講座「ITを体験してみよう！」",
+          "h1": "青少年おもしろ講座「ITを体験してみよう！」",
+          "updatedAt": "2026年06月24日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/event/24956.html",
+          "status": 200,
+          "title": "青少年おもしろ講座「羊毛で毛糸を紡ごう！」",
+          "h1": "青少年おもしろ講座「羊毛で毛糸を紡ごう！」",
+          "updatedAt": "2026年06月24日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/event/24957.html",
+          "status": 200,
+          "title": "青少年おもしろ講座「ソーラーオルゴールをつくろう！」",
+          "h1": "青少年おもしろ講座「ソーラーオルゴールをつくろう！」",
+          "updatedAt": "2026年06月24日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/event/24804.html",
+          "status": 200,
+          "title": "【終了】シニア講座「スマホ教室」（6月） 生涯学習課・福祉課",
+          "h1": "【終了】シニア講座「スマホ教室」（6月） 生涯学習課・福祉課",
+          "updatedAt": "2026年05月27日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/event/1561709391739.html",
+          "status": 200,
+          "title": "大磯チャレンジフェスタ2026参加団体・協賛企業・ボランティア募集！",
+          "h1": "大磯チャレンジフェスタ2026参加団体・協賛企業・ボランティア募集！",
+          "updatedAt": "2026年05月27日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/event/24706.html",
+          "status": 200,
+          "title": "明治記念大磯邸園 特別講演",
+          "h1": "明治記念大磯邸園 特別講演",
+          "updatedAt": "2026年05月08日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/event/21116.html",
+          "status": 200,
+          "title": "令和８年度耐震相談会（個別・無料）について",
+          "h1": "令和８年度耐震相談会（個別・無料）について",
+          "updatedAt": "2026年06月09日",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "耐震"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/event/20217.html",
+          "status": 200,
+          "title": "フードドライブ～家庭で使い切れない食品を必要な方へ届けましょう！～",
+          "h1": "フードドライブ～家庭で使い切れない食品を必要な方へ届けましょう！～",
+          "updatedAt": "2026年02月13日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/event/index.html",
+          "status": 200,
+          "title": "イベント・講座・審議会等",
+          "h1": "イベント・講座・審議会等",
+          "updatedAt": "2022年08月30日",
+          "keywordHits": [
+            "福祉",
+            "耐震"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/chouchou/index.html",
+          "status": 200,
+          "title": "町長室へようこそ",
+          "h1": "町長室へようこそ",
+          "updatedAt": "2022年12月15日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/shisetsu/index.html",
+          "status": 200,
+          "title": "施設案内",
+          "h1": "施設案内",
+          "updatedAt": "2019年12月25日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14341",
+          "municipalityName": "大磯町",
+          "sourceUrl": "https://www.town.oiso.kanagawa.jp/oisomuseum/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/sitemap.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/foreignlang.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/foreignlang.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/mobile.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/mobile.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/soshiki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/soshiki/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/kurashi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/kurashi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/kenko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/kenko/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/bunka_sports/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/bunka_sports/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/sangyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/sangyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/gyosei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gyosei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/soshiki/seisaku/seisaku/tantou/dx/24394.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/soshiki/seisaku/seisaku/tantou/dx/24394.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/soshiki/chomin/kosodate/tanto/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/soshiki/chomin/kosodate/tanto/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/soshiki/chomin/kosodate/tanto/kodomokateicenter/23123.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/soshiki/chomin/kosodate/tanto/kodomokateicenter/23123.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/soshiki/seisaku/seisaku/tantou/frusatoouenkifukin_1/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/soshiki/seisaku/seisaku/tantou/frusatoouenkifukin_1/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/kinkyu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/kinkyu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/soshiki/seisaku/seisaku/tantou/ijyu/24433.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/soshiki/seisaku/seisaku/tantou/ijyu/24433.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/sangyo/kouen_ryokuka/1562309045650.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/sangyo/kouen_ryokuka/1562309045650.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/mokuteki/ninshin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/mokuteki/ninshin/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/mokuteki/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/mokuteki/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/mokuteki/gakko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/mokuteki/gakko/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/mokuteki/shushoku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/mokuteki/shushoku/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/mokuteki/kekkon/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/mokuteki/kekkon/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/mokuteki/koseki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/mokuteki/koseki/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/mokuteki/hikkoshi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/mokuteki/hikkoshi/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/mokuteki/gomi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/mokuteki/gomi/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/mokuteki/kenko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/mokuteki/kenko/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/mokuteki/korei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/mokuteki/korei/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/mokuteki/okuyami/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/mokuteki/okuyami/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/mokuteki/sodan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/mokuteki/sodan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/soshiki/seisaku/seisaku/onlineshinsei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/soshiki/seisaku/seisaku/onlineshinsei/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/download/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/calendar.html?area-display=0",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/calendar.html?area-display=0",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/soshiki/seisaku/seisaku/tantou/dx/18362.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/soshiki/seisaku/seisaku/tantou/dx/18362.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/kurashi/kankyou/kankyohozen_bika/1362963771195.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/kurashi/kankyou/kankyohozen_bika/1362963771195.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/kenko/kyukyuiryo/1359104849662.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/kenko/kyukyuiryo/1359104849662.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/kinkyu/1443533641768.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/kinkyu/1443533641768.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/kinkyu/1433137813210.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/kinkyu/1433137813210.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/news.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/news.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/cgi-bin/feed.php?type=rss_2.0&new1=1",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/cgi-bin/feed.php?type=rss_2.0&new1=1",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/oshirase/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/oshirase/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/cgi-bin/feed.php?type=rss_2.0&dirId=3&includeShortcut=1&ignore=1",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/cgi-bin/feed.php?type=rss_2.0&dirId=3&includeShortcut=1&ignore=1",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/event/24955.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/event/24955.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/event/24956.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/event/24956.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/event/24957.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/event/24957.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/event/24803.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/event/24803.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/event/24804.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/event/24804.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/event/1561709391739.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/event/1561709391739.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/event/24706.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/event/24706.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/event/21116.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/event/21116.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/event/20217.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/event/20217.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/event/20205.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/event/20205.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/event/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/event/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/cgi-bin/feed.php?type=rss_2.0&dirId=15&includeShortcut=1&ignore=1",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/cgi-bin/feed.php?type=rss_2.0&dirId=15&includeShortcut=1&ignore=1",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/chouchou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/chouchou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/kosodate/kyouikuiinkai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/kosodate/kyouikuiinkai/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/gyosei/kouhoukoutyou/ooiso/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gyosei/kouhoukoutyou/ooiso/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/machi/prof/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/machi/prof/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/gyosei/toukei/toukei_jyouhou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gyosei/toukei/toukei_jyouhou/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/shisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/shisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/isotabi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/isotabi/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/sangyo/furusatonouzei20140428new/1417604249694.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/sangyo/furusatonouzei20140428new/1417604249694.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/oisomuseum/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/oisomuseum/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/gyosei/kouhoukoutyou/1359429135974.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gyosei/kouhoukoutyou/1359429135974.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/gyosei/iken_teian/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gyosei/iken_teian/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/1359526000528.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/1359526000528.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.oiso.kanagawa.jp/accessibility.html",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/accessibility.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/bunka_sports/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/bunka_sports/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/bunka_sports/bunka/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/bunka_sports/bunka/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/bunka_sports/bunka/bunkasai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/bunka_sports/bunka/bunkasai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/bunka_sports/bunka/bunkashisetsu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/bunka_sports/bunka/bunkashisetsu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/bunka_sports/bunka/culture/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/bunka_sports/bunka/culture/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/bunka_sports/sports/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/bunka_sports/sports/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/bunka_sports/sports/sports_jyouhou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/bunka_sports/sports/sports_jyouhou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/bunka_sports/sports/sports_kekka/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/bunka_sports/sports/sports_kekka/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/bunka_sports/sports/sports_shisetu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/bunka_sports/sports/sports_shisetu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/bunka_sports/sports/sports_syoukai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/bunka_sports/sports/sports_syoukai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/bunka_sports/sports/sports_taikai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/bunka_sports/sports/sports_taikai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/bunka_sports/sports/sports_taikai/sports_ichiran/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/bunka_sports/sports/sports_taikai/sports_ichiran/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/bunka_sports/syogai_gakusyu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/bunka_sports/syogai_gakusyu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/bunka_sports/syogai_gakusyu/kouza/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/bunka_sports/syogai_gakusyu/kouza/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/bunka_sports/syogai_gakusyu/kouza/demaekouza/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/bunka_sports/syogai_gakusyu/kouza/demaekouza/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/bunka_sports/syogai_gakusyu/seishonenkatsudo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/bunka_sports/syogai_gakusyu/seishonenkatsudo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/bunka_sports/syogai_gakusyu/seishonenkatsudo/seisyonensidoin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/bunka_sports/syogai_gakusyu/seishonenkatsudo/seisyonensidoin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/bunka_sports/syogai_gakusyu/suisinkeikaku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/bunka_sports/syogai_gakusyu/suisinkeikaku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/chouchou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/chouchou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/chouchou/chouchou_doukou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/chouchou/chouchou_doukou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/chouchou/chouchou_doukou/reiwasannendo_2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/chouchou/chouchou_doukou/reiwasannendo_2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/chouchou/chouchou_doukou/reiwasannendo_3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/chouchou/chouchou_doukou/reiwasannendo_3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/chouchou/chouchou_doukou/reiwasannendo_4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/chouchou/chouchou_doukou/reiwasannendo_4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/chouchou/chouchou_doukou/reiwasannendo_5/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/chouchou/chouchou_doukou/reiwasannendo_5/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/chouchou/jichikihonjourei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/chouchou/jichikihonjourei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/chouchou/kosaihi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/chouchou/kosaihi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/chouchou/shiseihoushin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/chouchou/shiseihoushin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/bouka_setsubi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/bouka_setsubi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/dourosuiro/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/dourosuiro/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/fuyouhin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/fuyouhin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/gesuidou_haisuisetubiyuushi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/gesuidou_haisuisetubiyuushi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/gesuidou_juekisya/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/gesuidou_juekisya/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/gesuidou_kouji/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/gesuidou_kouji/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/gesuidou_koujiten_gijutusya/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/gesuidou_koujiten_gijutusya/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/hibakumimai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/hibakumimai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/hoiku_nyusho/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/hoiku_nyusho/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/jishubousai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/jishubousai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/jyouhou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/jyouhou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/kaigo_hoken/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/kaigo_hoken/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/kasaiyoboujourei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/kasaiyoboujourei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/katudou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/katudou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/kikenbutsu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/kikenbutsu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/koen_symbol/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/koen_symbol/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/koho/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/koho/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/kokuho/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/kokuho/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/koreisha_fukushi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/koreisha_fukushi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/koseki_jumin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/koseki_jumin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/kosodate_jidou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/kosodate_jidou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/machidukuri/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/machidukuri/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/minato/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/minato/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/nousei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/nousei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/ouboyoushi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/ouboyoushi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/ouboyoushi/furosatoouen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/ouboyoushi/furosatoouen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/recycle/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/recycle/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/saikensha_touroku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/saikensha_touroku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/senkyo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/senkyo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/senkyo/yuubin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/senkyo/yuubin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/shigitatsuan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/shigitatsuan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/shisetsushiyou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/shisetsushiyou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/shobosomu_todokede/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/shobosomu_todokede/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/shougaifukushi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/shougaifukushi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/syoubousoumu_soumu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/syoubousoumu_soumu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/syoubousyo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/syoubousyo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/syoukou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/syoukou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/tokuteiginoushozokukikan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/tokuteiginoushozokukikan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/toshi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/toshi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/tyuurin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/tyuurin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/undou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/undou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/download/zeimu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/download/zeimu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/event/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/event/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h18/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h18/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h19/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h19/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h20/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h20/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h21/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h21/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h22/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h22/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h23/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h23/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h24/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h24/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h25/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h25/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h26/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h26/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h27/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h27/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h28/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h28/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h29/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h29/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h30/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h30/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h31/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/h31/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/r2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/r2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/r3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/r3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/r4_2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/r4_2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/r5/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/r5/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/r6_1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/r6_1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/r7/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/r7/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/r8_1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gian/r8_1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gikaiuneiiinkai_giunn/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/gikaiuneiiinkai_giunn/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/hukusi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/hukusi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/hukusi/R4hukushi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/hukusi/R4hukushi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/hukusi/R5hukushi_1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/hukusi/R5hukushi_1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/hukusi/R6hukushi_2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/hukusi/R6hukushi_2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/hukusi/R7hukushi_3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/hukusi/R7hukushi_3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/hukusi/R8hukushi_4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/hukusi/R8hukushi_4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/hukusi_kyougikai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/hukusi_kyougikai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/hukusi_kyougikai/R4hukushi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/hukusi_kyougikai/R4hukushi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/hukusi_kyougikai/R5hukushi_1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/hukusi_kyougikai/R5hukushi_1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/hukusi_kyougikai/R6hukushi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/hukusi_kyougikai/R6hukushi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/hukusi_kyougikai/R7hukushi_1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/hukusi_kyougikai/R7hukushi_1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/hukusi_kyougikai/R8hukushi_2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/hukusi_kyougikai/R8hukushi_2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h18/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h18/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h19/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h19/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h20/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h20/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h21/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h21/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h22/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h22/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h23/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h23/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h24/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h24/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h25/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h25/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h26/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h26/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h27/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h27/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h28/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h28/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h29/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h29/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h30/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h30/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h31/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/h31/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/r04_2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/r04_2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/r05_3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/r05_3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/r06_4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/r06_4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/r07/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/r07/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/r08_1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/r08_1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/r2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/r2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/r3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/ippan_shitsumon/r3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/shinchousha_tokubetsuiinkai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/shinchousha_tokubetsuiinkai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/shinchousha_tokubetsuiinkai/sinchousha_tokubetuiinkai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/shinchousha_tokubetsuiinkai/sinchousha_tokubetuiinkai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/shinchousha_tokubetsuiinkai/sinchousha_tokubetuiinkai_2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/shinchousha_tokubetsuiinkai/sinchousha_tokubetuiinkai_2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/shinchousha_tokubetsuiinkai_1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/shinchousha_tokubetsuiinkai_1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/shinchousha_tokubetsuiinkai_1/sinchousha_tokubetuiinkai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/shinchousha_tokubetsuiinkai_1/sinchousha_tokubetuiinkai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/shinchousha_tokubetsuiinkai_1/sinchousha_tokubetuiinkai_1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/shinchousha_tokubetsuiinkai_1/sinchousha_tokubetuiinkai_1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/shinchousha_tokubetsuiinkai_1/sinchousha_tokubetuiinkai_2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/shinchousha_tokubetsuiinkai_1/sinchousha_tokubetuiinkai_2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/siinkai_shitsumon_1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/siinkai_shitsumon_1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/siinkai_shitsumon_1/R4soumu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/siinkai_shitsumon_1/R4soumu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/siinkai_shitsumon_1/R5soumu_1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/siinkai_shitsumon_1/R5soumu_1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/siinkai_shitsumon_1/R6soumu_2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/siinkai_shitsumon_1/R6soumu_2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/siinkai_shitsumon_1/R7soumu_2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/siinkai_shitsumon_1/R7soumu_2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/siinkai_shitsumon_1/R8soumu_3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/siinkai_shitsumon_1/R8soumu_3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h18/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h18/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h19/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h19/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h20/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h20/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h21/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h21/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h22/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h22/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h23/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h23/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h24/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h24/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h25/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h25/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h26/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h26/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h27/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h27/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h28/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h28/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h29/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h29/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h30/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h30/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h31/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/h31/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/r04_2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/r04_2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/r05_3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/r05_3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/r06_4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/r06_4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/r07_3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/r07_3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/r08_4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/r08_4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/r2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/r2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/r3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/sokatsu_shitsugi/r3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/soumi_kyougikai_1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/soumi_kyougikai_1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/soumi_kyougikai_1/soumukyougikai_siryou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/soumi_kyougikai_1/soumukyougikai_siryou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/soumi_kyougikai_1/soumukyougikai_siryou_2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/soumi_kyougikai_1/soumukyougikai_siryou_2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/soumi_kyougikai_1/soumukyougikai_siryou_3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/soumi_kyougikai_1/soumukyougikai_siryou_3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/soumi_kyougikai_1/soumukyougikai_siryou_7/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/soumi_kyougikai_1/soumukyougikai_siryou_7/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/soumi_kyougikai_1/soumukyougikai_siryou_8/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gian_shitsugi/soumi_kyougikai_1/soumukyougikai_siryou_8/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/h21nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/h21nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/h22nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/h22nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/h23nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/h23nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/h24nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/h24nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/h25nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/h25nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/h26nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/h26nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/h26nen/energy/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/h26nen/energy/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/h27nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/h27nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/h28nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/h28nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/h30/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/h30/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/h31/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/h31/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/h_29/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/h_29/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/r2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/r2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/r3_1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/gian_seigan_tinjou_ikensyo_ketugi/r3_1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/singikekka/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/singikekka/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h18nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h18nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h19nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h19nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h20nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h20nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h21nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h21nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h22nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h22nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h23nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h23nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h24nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h24nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h25nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h25nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h26nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h26nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h27nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h27nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h28nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h28nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h29/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h29/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h30/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h30/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h31/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/h31/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/r02/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/r02/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/r03_1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giansingi_ippansitumon/sitsumon_sitsugi/r03_1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giinsyoukai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giinsyoukai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giinsyoukai/fukugityou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giinsyoukai/fukugityou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/giinsyoukai/gityou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/giinsyoukai/gityou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikai_giin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikai_giin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/giun_kyougikai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/giun_kyougikai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/h21nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/h21nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/h22nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/h22nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/h23nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/h23nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/h24nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/h24nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/h25nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/h25nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/h26nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/h26nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/h27nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/h27nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/h28nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/h28nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/h29/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/h29/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/h30/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/h30/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/h31/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/h31/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/r2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/r2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/r2_1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/r2_1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/r4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/r4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/r5_1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/r5_1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/r6_2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/r6_2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/r7_3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/r7_3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/r8_4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hongikai/r8_4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hukushi_iinkai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hukushi_iinkai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hukushi_kyougikai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/hukushi_kyougikai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/kessan_iinkai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/kessan_iinkai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/sinchousha_iinkai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/sinchousha_iinkai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/sinchousha_iinkai_1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/sinchousha_iinkai_1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/soumu_iinkai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/soumu_iinkai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/soumu_kyougikai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/soumu_kyougikai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/yosan_iinkai_1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/yosan_iinkai_1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/zenkyou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikainittei/zenkyou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikaishikumi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikaishikumi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikaiwomidikani/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikaiwomidikani/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikaiwomidikani/ippankaigi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikaiwomidikani/ippankaigi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/gikaiwomidikani/ippankaigi/kaigiroku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/gikaiwomidikani/ippankaigi/kaigiroku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/kaigiroku_gikaidayori/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/kaigiroku_gikaidayori/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/kaigiroku_gikaidayori/gikaihoukoku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/kaigiroku_gikaidayori/gikaihoukoku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/katsudou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/katsudou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/katsudou/kasseika/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/katsudou/kasseika/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/chosa-kenkyute-ma/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/chosa-kenkyute-ma/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/fukusibunkyoukyougi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/fukusibunkyoukyougi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/gikai_TV/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/gikai_TV/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/gikaidayori/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/gikaidayori/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/gikaihi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/gikaihi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/gikaihi/kousaihi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/gikaihi/kousaihi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/gikaijimu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/gikaijimu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/gikaijimu/bocho_seigan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/gikaijimu/bocho_seigan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/gikaijimu/bocho_seigan/boutyou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/gikaijimu/bocho_seigan/boutyou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/gikaijimu/bocho_seigan/seigan_chinjo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/gikaijimu/bocho_seigan/seigan_chinjo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/gikaijimu/gyouseisisatu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/gikaijimu/gyouseisisatu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/gikaijimu/pabukome/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/gikaijimu/pabukome/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/gikaijimu/shishingaidline/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/gikaijimu/shishingaidline/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/R01_houkoku_kaigiroku_1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/R01_houkoku_kaigiroku_1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/R3_houkoku_kaigiroku_1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/R3_houkoku_kaigiroku_1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/R4_houkoku_kaigiroku_2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/R4_houkoku_kaigiroku_2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/R5_houkoku_kaigiroku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/R5_houkoku_kaigiroku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/R6_houkoku_kaigiroku_1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/R6_houkoku_kaigiroku_1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/R7_houkoku_kaigiroku_1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/R7_houkoku_kaigiroku_1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/R8_houkoku_kaigiroku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/R8_houkoku_kaigiroku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/h24/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/h24/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/h25/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/h25/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/h26/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/h26/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/h27/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/h27/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/h28/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/h28/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/h30_houkoku_kaigiroku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/h30_houkoku_kaigiroku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/houkoku_kaigiroku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/houkokukai/houkoku_kaigiroku/houkoku_kaigiroku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/ippankaigi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/ippankaigi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/soumukensetsukyougi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/soumukensetsukyougi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/tokubetu_houkoku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/tokubetu_houkoku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/zeninkyougi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/koho_kocho/zeninkyougi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/link/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/link/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/shingi_kekka/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/shingi_kekka/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/shingi_kekka/h17nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/shingi_kekka/h17nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/shingi_kekka/h18nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/shingi_kekka/h18nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/shingi_kekka/h19nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/shingi_kekka/h19nen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.oiso.kanagawa.jp/gikai/shingi_kekka/h20nen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.oiso.kanagawa.jp/gikai/shingi_kekka/h20nen/sitemap.dir.xml",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

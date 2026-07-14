@@ -1,0 +1,4643 @@
+{
+  "batchId": "kanagawa-official-coverage-006",
+  "prefecture": "神奈川県",
+  "generatedAt": "2026-07-14T10:43:21.767Z",
+  "municipalityCount": 4,
+  "candidateCount": 256,
+  "summaries": [
+    {
+      "code": "14321",
+      "name": "寒川町",
+      "candidateCount": 31,
+      "strongCandidateCount": 1,
+      "lowPriorityCandidateCount": 30
+    },
+    {
+      "code": "14341",
+      "name": "大磯町",
+      "candidateCount": 34,
+      "strongCandidateCount": 0,
+      "lowPriorityCandidateCount": 34
+    },
+    {
+      "code": "14342",
+      "name": "二宮町",
+      "candidateCount": 166,
+      "strongCandidateCount": 5,
+      "lowPriorityCandidateCount": 161
+    },
+    {
+      "code": "14361",
+      "name": "中井町",
+      "candidateCount": 25,
+      "strongCandidateCount": 0,
+      "lowPriorityCandidateCount": 25
+    }
+  ],
+  "candidates": [
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/",
+      "status": 200,
+      "title": "",
+      "h1": "",
+      "updatedAt": "",
+      "keywordHits": [
+        "移住",
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/index.html",
+      "status": 200,
+      "title": "",
+      "h1": "",
+      "updatedAt": "",
+      "keywordHits": [
+        "移住",
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/ninshin_kosodate/index.html",
+      "status": 200,
+      "title": "妊娠・子育て",
+      "h1": "妊娠・子育て",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/hikkoshi_sumai/index.html",
+      "status": 200,
+      "title": "引越し・住まい",
+      "h1": "引越し・住まい",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金",
+        "助成金"
+      ],
+      "candidateScore": 6,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/koreishahukushi_kaigo/index.html",
+      "status": 200,
+      "title": "高齢者福祉・介護",
+      "h1": "高齢者福祉・介護",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/kenko_fukushi/kenko_iryo/index.html",
+      "status": 200,
+      "title": "健康・医療",
+      "h1": "健康・医療",
+      "updatedAt": "",
+      "keywordHits": [
+        "予防接種"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/kurashi_tetsuzuki/zeikin/index.html",
+      "status": 200,
+      "title": "税金",
+      "h1": "税金",
+      "updatedAt": "",
+      "keywordHits": [
+        "減免"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/okuyami/index.html",
+      "status": 200,
+      "title": "おくやみ",
+      "h1": "おくやみ",
+      "updatedAt": "",
+      "keywordHits": [
+        "給付金"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/kurashinobamen/sodan/index.html",
+      "status": 200,
+      "title": "各種相談",
+      "h1": "各種相談",
+      "updatedAt": "",
+      "keywordHits": [
+        "住宅",
+        "農業",
+        "福祉",
+        "耐震",
+        "妊婦"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/calendar.html",
+      "status": 200,
+      "title": "イベント・講座カレンダー",
+      "h1": "イベント・講座カレンダー",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/machinogaiyo/shisetsu/index.html",
+      "status": 200,
+      "title": "施設の案内",
+      "h1": "施設の案内",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉",
+        "通学"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/download/index.html",
+      "status": 200,
+      "title": "申請書ダウンロード",
+      "h1": "申請書ダウンロード",
+      "updatedAt": "令和2年9月16日",
+      "keywordHits": [
+        "住宅",
+        "事業者",
+        "農業",
+        "耐震",
+        "予防接種",
+        "妊婦"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/index.html",
+      "status": 200,
+      "title": "組織から探す",
+      "h1": "組織から探す",
+      "updatedAt": "",
+      "keywordHits": [
+        "農業",
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/ninshin_kosodate/index.html",
+      "status": 200,
+      "title": "妊娠・子育てサイト",
+      "h1": "妊娠・子育てサイト",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て",
+        "予防接種",
+        "不妊"
+      ],
+      "candidateScore": 1,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/kaigo_koreisha/index.html",
+      "status": 200,
+      "title": "",
+      "h1": "",
+      "updatedAt": "",
+      "keywordHits": [
+        "予防接種"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/kigyonokata/index.html",
+      "status": 200,
+      "title": "企業の方へ",
+      "h1": "企業の方へ",
+      "updatedAt": "",
+      "keywordHits": [
+        "事業者",
+        "農業",
+        "福祉"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kyoiku/gakkokyoiku/kyoikukenkyu/info/kyoikukenkyu/kyouiku_sodan/1361163631602.html",
+      "status": 200,
+      "title": "各種教育関係の相談",
+      "h1": "各種教育関係の相談",
+      "updatedAt": "2026年04月01日",
+      "keywordHits": [
+        "就学"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/manabi/kodomoseisaku/kodomoseisaku/info/kekkonsinseikatusien/20492.html",
+      "status": 200,
+      "title": "寒川町結婚新生活支援給付金",
+      "h1": "寒川町結婚新生活支援給付金",
+      "updatedAt": "2026年04月01日",
+      "keywordHits": [
+        "補助金",
+        "給付金"
+      ],
+      "candidateScore": 22,
+      "candidatePriority": "strong",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/event/1362360639259.html",
+      "status": 200,
+      "title": "介護給付費等の支給に関する審査会",
+      "h1": "介護給付費等の支給に関する審査会",
+      "updatedAt": "2026年07月02日",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/event/1426813759549.html",
+      "status": 200,
+      "title": "寒川町まち・ひと・しごと創生総合戦略策定等外部委員会",
+      "h1": "寒川町まち・ひと・しごと創生総合戦略策定等外部委員会",
+      "updatedAt": "2026年06月26日",
+      "keywordHits": [
+        "農業",
+        "子育て"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/event/1480553621344.html",
+      "status": 200,
+      "title": "寒川町障害者事業所展示即売会「にっこりマーケット」",
+      "h1": "寒川町障害者事業所展示即売会「にっこりマーケット」",
+      "updatedAt": "2026年06月24日",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/event/1362112391341.html",
+      "status": 200,
+      "title": "スポーツ推進審議会",
+      "h1": "スポーツ推進審議会",
+      "updatedAt": "2026年06月16日",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kohosenryaku/kouhou/tantou/kouhoushi/backnumber_onseibann/2026/20384.html",
+      "status": 200,
+      "title": "広報さむかわ2026年7月号(音声版)",
+      "h1": "広報さむかわ2026年7月号(音声版)",
+      "updatedAt": "2026年07月01日",
+      "keywordHits": [
+        "免除"
+      ],
+      "candidateScore": 11,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kikakuseisaku/kikaku/info/samukawa_line/13366.html",
+      "status": 200,
+      "title": "LINEアカウントのサービスについて",
+      "h1": "LINEアカウントのサービスについて",
+      "updatedAt": "2023年04月01日",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/chomin/chominmadoguchi/sodan/info/mailto_townmayor/index.html",
+      "status": 200,
+      "title": "「わたしの提案」（町長への手紙）",
+      "h1": "「わたしの提案」（町長への手紙）",
+      "updatedAt": "令和6年4月1日",
+      "keywordHits": [
+        "給付金",
+        "農業"
+      ],
+      "candidateScore": 7,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/kocho/goiken/public_comment/index.html",
+      "status": 200,
+      "title": "パブリックコメント(町民意見の公募)",
+      "h1": "パブリックコメント(町民意見の公募)",
+      "updatedAt": "",
+      "keywordHits": [
+        "空家",
+        "福祉",
+        "子育て",
+        "耐震"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/shinngikainado/index.html",
+      "status": 200,
+      "title": "審議会等",
+      "h1": "審議会等",
+      "updatedAt": "令和8年3月27日",
+      "keywordHits": [
+        "空家",
+        "福祉",
+        "子育て",
+        "就学",
+        "予防接種"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/choseijoho/gyosei_keikaku_tokei/shisaku_keikaku/index.html",
+      "status": 200,
+      "title": "施策・計画",
+      "h1": "施策・計画",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉",
+        "子育て",
+        "耐震"
+      ],
+      "candidateScore": 1,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/kikaku/kikakuseisaku/kikaku/info/kouiki/1395138161791.html",
+      "status": 200,
+      "title": "茅ヶ崎市・寒川町広域連携検討会議",
+      "h1": "茅ヶ崎市・寒川町広域連携検討会議",
+      "updatedAt": "2021年06月03日",
+      "keywordHits": [
+        "福祉",
+        "通学"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/soshiki/somu/somu/tyousyakanri/tantou/choshaannai/1361152825798.html",
+      "status": 200,
+      "title": "町役場フロアガイド",
+      "h1": "町役場フロアガイド",
+      "updatedAt": "2025年03月24日",
+      "keywordHits": [
+        "医療費助成",
+        "住宅",
+        "空き家",
+        "農業",
+        "福祉",
+        "子育て",
+        "就学",
+        "耐震",
+        "予防接種"
+      ],
+      "candidateScore": 11,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14321",
+      "municipalityName": "寒川町",
+      "sourceUrl": "https://www.town.samukawa.kanagawa.jp/sitemap.html",
+      "status": 200,
+      "title": "サイトマップ",
+      "h1": "サイトマップ",
+      "updatedAt": "2021年04月01日",
+      "keywordHits": [
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/",
+      "status": 200,
+      "title": "",
+      "h1": "",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/index.html",
+      "status": 200,
+      "title": "",
+      "h1": "",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/sitemap.html",
+      "status": 200,
+      "title": "サイトマップ",
+      "h1": "サイトマップ",
+      "updatedAt": "2019年08月07日",
+      "keywordHits": [
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/soshiki/index.html",
+      "status": 200,
+      "title": "組織から探す",
+      "h1": "組織から探す",
+      "updatedAt": "2024年05月08日",
+      "keywordHits": [
+        "農業",
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/kurashi/index.html",
+      "status": 200,
+      "title": "くらし・安心",
+      "h1": "くらし・安心",
+      "updatedAt": "2024年05月08日",
+      "keywordHits": [
+        "空き家"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/kosodate/index.html",
+      "status": 200,
+      "title": "子育て・教育",
+      "h1": "子育て・教育",
+      "updatedAt": "2024年05月08日",
+      "keywordHits": [
+        "子育て",
+        "予防接種"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/kenko/index.html",
+      "status": 200,
+      "title": "健康・福祉",
+      "h1": "健康・福祉",
+      "updatedAt": "2024年05月08日",
+      "keywordHits": [
+        "福祉",
+        "予防接種"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/sangyo/index.html",
+      "status": 200,
+      "title": "観光・産業・まちづくり",
+      "h1": "観光・産業・まちづくり",
+      "updatedAt": "2024年05月08日",
+      "keywordHits": [
+        "空き家",
+        "水産"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/gyosei/index.html",
+      "status": 200,
+      "title": "町政情報",
+      "h1": "町政情報",
+      "updatedAt": "2024年05月14日",
+      "keywordHits": [
+        "農業"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/soshiki/seisaku/seisaku/tantou/dx/24394.html",
+      "status": 200,
+      "title": "町の魅力を発信！シティプロモーション特設サイト「おおいそ はぶ」",
+      "h1": "町の魅力を発信！シティプロモーション特設サイト「おおいそ はぶ」",
+      "updatedAt": "2026年06月19日",
+      "keywordHits": [
+        "事業者",
+        "福祉",
+        "通学"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/soshiki/chomin/kosodate/tanto/kosodate/index.html",
+      "status": 200,
+      "title": "子育てでみんなわくわく大磯",
+      "h1": "子育てでみんなわくわく大磯",
+      "updatedAt": "2025年06月10日",
+      "keywordHits": [
+        "医療費助成",
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 6,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/soshiki/chomin/kosodate/tanto/kodomokateicenter/23123.html",
+      "status": 200,
+      "title": "大磯町こども家庭センター",
+      "h1": "大磯町こども家庭センター",
+      "updatedAt": "2025年10月22日",
+      "keywordHits": [
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/soshiki/seisaku/seisaku/tantou/ijyu/24433.html",
+      "status": 200,
+      "title": "移住・定住情報",
+      "h1": "移住・定住情報",
+      "updatedAt": "2026年04月20日",
+      "keywordHits": [
+        "移住",
+        "空き家",
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/mokuteki/ninshin/index.html",
+      "status": 200,
+      "title": "妊娠・出産",
+      "h1": "妊娠・出産",
+      "updatedAt": "2024年06月03日",
+      "keywordHits": [
+        "予防接種"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/mokuteki/kosodate/index.html",
+      "status": 200,
+      "title": "子育て",
+      "h1": "子育て",
+      "updatedAt": "2024年06月03日",
+      "keywordHits": [
+        "子育て",
+        "予防接種"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/mokuteki/gakko/index.html",
+      "status": 200,
+      "title": "学校・進学",
+      "h1": "学校・進学",
+      "updatedAt": "2024年06月03日",
+      "keywordHits": [
+        "就学"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/mokuteki/kenko/index.html",
+      "status": 200,
+      "title": "健康・医療",
+      "h1": "健康・医療",
+      "updatedAt": "2024年06月05日",
+      "keywordHits": [
+        "一時金",
+        "予防接種"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/mokuteki/korei/index.html",
+      "status": 200,
+      "title": "高齢・介護・障がい",
+      "h1": "高齢・介護・障がい",
+      "updatedAt": "2024年06月05日",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/download/index.html",
+      "status": 200,
+      "title": "申請書ダウンロード",
+      "h1": "申請書ダウンロード",
+      "updatedAt": "2024年06月05日",
+      "keywordHits": [
+        "補助金",
+        "一時金",
+        "奨励金",
+        "減免",
+        "免除",
+        "医療費助成",
+        "住宅",
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 20,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/calendar.html?area-display=0",
+      "status": 200,
+      "title": "イベントカレンダー",
+      "h1": "イベントカレンダー",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/soshiki/seisaku/seisaku/tantou/dx/18362.html",
+      "status": 200,
+      "title": "おおいそオンラインマップ（地図情報システム）",
+      "h1": "おおいそオンラインマップ（地図情報システム）",
+      "updatedAt": "2026年01月14日",
+      "keywordHits": [
+        "事業者",
+        "子育て"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/kenko/kyukyuiryo/1359104849662.html",
+      "status": 200,
+      "title": "救急医療情報",
+      "h1": "救急医療情報",
+      "updatedAt": "2026年04月06日",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/event/24955.html",
+      "status": 200,
+      "title": "青少年おもしろ講座「ITを体験してみよう！」",
+      "h1": "青少年おもしろ講座「ITを体験してみよう！」",
+      "updatedAt": "2026年06月24日",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/event/24956.html",
+      "status": 200,
+      "title": "青少年おもしろ講座「羊毛で毛糸を紡ごう！」",
+      "h1": "青少年おもしろ講座「羊毛で毛糸を紡ごう！」",
+      "updatedAt": "2026年06月24日",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/event/24957.html",
+      "status": 200,
+      "title": "青少年おもしろ講座「ソーラーオルゴールをつくろう！」",
+      "h1": "青少年おもしろ講座「ソーラーオルゴールをつくろう！」",
+      "updatedAt": "2026年06月24日",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/event/24804.html",
+      "status": 200,
+      "title": "【終了】シニア講座「スマホ教室」（6月） 生涯学習課・福祉課",
+      "h1": "【終了】シニア講座「スマホ教室」（6月） 生涯学習課・福祉課",
+      "updatedAt": "2026年05月27日",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/event/1561709391739.html",
+      "status": 200,
+      "title": "大磯チャレンジフェスタ2026参加団体・協賛企業・ボランティア募集！",
+      "h1": "大磯チャレンジフェスタ2026参加団体・協賛企業・ボランティア募集！",
+      "updatedAt": "2026年05月27日",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/event/24706.html",
+      "status": 200,
+      "title": "明治記念大磯邸園 特別講演",
+      "h1": "明治記念大磯邸園 特別講演",
+      "updatedAt": "2026年05月08日",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/event/21116.html",
+      "status": 200,
+      "title": "令和８年度耐震相談会（個別・無料）について",
+      "h1": "令和８年度耐震相談会（個別・無料）について",
+      "updatedAt": "2026年06月09日",
+      "keywordHits": [
+        "住宅",
+        "福祉",
+        "耐震"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/event/20217.html",
+      "status": 200,
+      "title": "フードドライブ～家庭で使い切れない食品を必要な方へ届けましょう！～",
+      "h1": "フードドライブ～家庭で使い切れない食品を必要な方へ届けましょう！～",
+      "updatedAt": "2026年02月13日",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/event/index.html",
+      "status": 200,
+      "title": "イベント・講座・審議会等",
+      "h1": "イベント・講座・審議会等",
+      "updatedAt": "2022年08月30日",
+      "keywordHits": [
+        "福祉",
+        "耐震"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/chouchou/index.html",
+      "status": 200,
+      "title": "町長室へようこそ",
+      "h1": "町長室へようこそ",
+      "updatedAt": "2022年12月15日",
+      "keywordHits": [
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/shisetsu/index.html",
+      "status": 200,
+      "title": "施設案内",
+      "h1": "施設案内",
+      "updatedAt": "2019年12月25日",
+      "keywordHits": [
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14341",
+      "municipalityName": "大磯町",
+      "sourceUrl": "https://www.town.oiso.kanagawa.jp/oisomuseum/index.html",
+      "status": 200,
+      "title": "",
+      "h1": "",
+      "updatedAt": "",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki_list.html",
+      "status": 200,
+      "title": "各課の窓口",
+      "h1": "各課の窓口",
+      "updatedAt": "",
+      "keywordHits": [
+        "移住"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-0-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "子育て・教育",
+      "h1": "子育て・教育",
+      "updatedAt": "",
+      "keywordHits": [
+        "医療費助成",
+        "子育て",
+        "予防接種"
+      ],
+      "candidateScore": 7,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-0-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "健康・医療・福祉",
+      "h1": "健康・医療・福祉",
+      "updatedAt": "",
+      "keywordHits": [
+        "助成金",
+        "福祉",
+        "予防接種"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-0-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "事業者の方へ",
+      "h1": "事業者の方へ",
+      "updatedAt": "",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/",
+      "status": 200,
+      "title": "",
+      "h1": "",
+      "updatedAt": "",
+      "keywordHits": [
+        "移住"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000373.html",
+      "status": 200,
+      "title": "二宮町くらし応援商品券",
+      "h1": "二宮町くらし応援商品券",
+      "updatedAt": "2026年5月28日",
+      "keywordHits": [
+        "事業者",
+        "水産"
+      ],
+      "candidateScore": 11,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/0000000625.html",
+      "status": 200,
+      "title": "二宮町ふるさと納税",
+      "h1": "二宮町ふるさと納税",
+      "updatedAt": "2026年5月26日",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002599.html",
+      "status": 200,
+      "title": "二宮町LINE公式アカウント",
+      "h1": "二宮町LINE公式アカウント",
+      "updatedAt": "2026年6月15日",
+      "keywordHits": [
+        "移住",
+        "事業者",
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 8,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/index.html",
+      "status": 200,
+      "title": "",
+      "h1": "",
+      "updatedAt": "",
+      "keywordHits": [
+        "移住"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003163.html",
+      "status": 200,
+      "title": "こどもの権利",
+      "h1": "こどもの権利",
+      "updatedAt": "2025年12月8日",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000001918.html",
+      "status": 200,
+      "title": "防災行政無線情報一覧",
+      "h1": "防災行政無線情報一覧",
+      "updatedAt": "2024年7月25日",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/mirai_dukuri/0000003326.html",
+      "status": 200,
+      "title": "省エネ家電買替促進事業",
+      "h1": "省エネ家電買替促進事業",
+      "updatedAt": "2026年5月14日",
+      "keywordHits": [
+        "補助金",
+        "住宅",
+        "事業者",
+        "省エネ"
+      ],
+      "candidateScore": 15,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002503.html",
+      "status": 200,
+      "title": "マイナンバーカードと健康保険証の一体化について",
+      "h1": "マイナンバーカードと健康保険証の一体化について",
+      "updatedAt": "2026年3月26日",
+      "keywordHits": [
+        "補助金",
+        "支援金",
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 9,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000461.html",
+      "status": 200,
+      "title": "休日急患当番医",
+      "h1": "休日急患当番医",
+      "updatedAt": "2026年7月3日",
+      "keywordHits": [
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-5-2-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "消防・救急",
+      "h1": "消防・救急",
+      "updatedAt": "令和5年10月1日",
+      "keywordHits": [
+        "住宅"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000001601.html",
+      "status": 200,
+      "title": "くらしの安心安全情報",
+      "h1": "くらしの安心安全情報",
+      "updatedAt": "2023年8月4日",
+      "keywordHits": [
+        "移住",
+        "住宅"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000001599.html",
+      "status": 200,
+      "title": "災害関係情報",
+      "h1": "災害関係情報",
+      "updatedAt": "2025年4月3日",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003506.html",
+      "status": 200,
+      "title": "令和8年7月14日記者発表 「にの♥バス」は、夏休み期間中の小・中学生運賃を無料で運行します",
+      "h1": "令和8年7月14日記者発表 「にの♥バス」は、夏休み期間中の小・中学生運賃を無料で運行します",
+      "updatedAt": "2026年7月14日",
+      "keywordHits": [
+        "補助金",
+        "移住",
+        "福祉",
+        "省エネ"
+      ],
+      "candidateScore": 8,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003505.html",
+      "status": 200,
+      "title": "令和8年7月14日記者発表 「二宮町教育講演会」を開催します",
+      "h1": "令和8年7月14日記者発表 「二宮町教育講演会」を開催します",
+      "updatedAt": "2026年7月14日",
+      "keywordHits": [
+        "補助金",
+        "移住",
+        "福祉",
+        "省エネ"
+      ],
+      "candidateScore": 8,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000715.html",
+      "status": 200,
+      "title": "町民活動推進補助金の募集について",
+      "h1": "町民活動推進補助金の募集について",
+      "updatedAt": "2026年7月14日",
+      "keywordHits": [
+        "補助金",
+        "福祉"
+      ],
+      "candidateScore": 19,
+      "candidatePriority": "strong",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003048.html",
+      "status": 200,
+      "title": "令和8年度第1回お互いさま推進協議会の開催について",
+      "h1": "令和8年度第1回お互いさま推進協議会の開催について",
+      "updatedAt": "2026年7月14日",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003036.html",
+      "status": 200,
+      "title": "学校閉庁日の実施について",
+      "h1": "学校閉庁日の実施について",
+      "updatedAt": "2026年7月13日",
+      "keywordHits": [
+        "子育て",
+        "就学",
+        "通学"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003400.html",
+      "status": 200,
+      "title": "せせらぎ公園花情報2026",
+      "h1": "せせらぎ公園花情報2026",
+      "updatedAt": "2026年7月10日",
+      "keywordHits": [
+        "省エネ"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003491.html",
+      "status": 200,
+      "title": "大手電気通信事業者の名称や警察をかたり、「逮捕状が出ている」などと告げ、架空の事務処理費用等を要求する事業者に関する注意喚起",
+      "h1": "大手電気通信事業者の名称や警察をかたり、「逮捕状が出ている」などと告げ、架空の事務処理費用等を要求する事業者に関する注意喚起",
+      "updatedAt": "2026年7月8日",
+      "keywordHits": [
+        "住宅",
+        "事業者"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003447.html",
+      "status": 200,
+      "title": "ライフデザインボードゲーム事業",
+      "h1": "ライフデザインボードゲーム事業",
+      "updatedAt": "2026年7月8日",
+      "keywordHits": [
+        "移住",
+        "事業者"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/mirai_dukuri/0000001779.html",
+      "status": 200,
+      "title": "マイボトルっていいね！",
+      "h1": "マイボトルっていいね！",
+      "updatedAt": "2026年7月7日",
+      "keywordHits": [
+        "事業者",
+        "子育て"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002960.html",
+      "status": 200,
+      "title": "高糖度ブランドみかん【湘南の輝き】の出荷が始まりました！",
+      "h1": "高糖度ブランドみかん【湘南の輝き】の出荷が始まりました！",
+      "updatedAt": "2026年7月7日",
+      "keywordHits": [
+        "事業者",
+        "農業",
+        "林業",
+        "水産"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003500.html",
+      "status": 200,
+      "title": "令和8年7月7日記者発表 学校給食で無農薬野菜を使った夏野菜カレーを提供します",
+      "h1": "令和8年7月7日記者発表 学校給食で無農薬野菜を使った夏野菜カレーを提供します",
+      "updatedAt": "2026年7月6日",
+      "keywordHits": [
+        "補助金",
+        "移住",
+        "福祉",
+        "省エネ"
+      ],
+      "candidateScore": 8,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003431.html",
+      "status": 200,
+      "title": "令和8年度教育委員会交際費",
+      "h1": "令和8年度教育委員会交際費",
+      "updatedAt": "2026年7月7日",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/news/0001.html",
+      "status": 200,
+      "title": "新着情報",
+      "h1": "新着情報",
+      "updatedAt": "令和8年7月14日",
+      "keywordHits": [
+        "補助金",
+        "事業者"
+      ],
+      "candidateScore": 7,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003498.html",
+      "status": 200,
+      "title": "二宮町立体育館LED照明設備賃貸借事業に係る公募型プロポーザルの実施について",
+      "h1": "二宮町立体育館LED照明設備賃貸借事業に係る公募型プロポーザルの実施について",
+      "updatedAt": "2026年7月8日",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003481.html",
+      "status": 200,
+      "title": "二宮町移住セミナー (住まいと暮らし編) 【受付終了しました】",
+      "h1": "二宮町移住セミナー (住まいと暮らし編) 【受付終了しました】",
+      "updatedAt": "2026年7月10日",
+      "keywordHits": [
+        "移住",
+        "住宅"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002983.html",
+      "status": 200,
+      "title": "【新規就農希望者向け】神奈川県立かながわ農業アカデミー令和8年度学校説明会(令和9年4月以降入校希望)の開催について",
+      "h1": "【新規就農希望者向け】神奈川県立かながわ農業アカデミー令和8年度学校説明会(令和9年4月以降入校希望)の開催について",
+      "updatedAt": "2026年7月7日",
+      "keywordHits": [
+        "事業者",
+        "農業",
+        "林業",
+        "水産"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/0000001314.html",
+      "status": 200,
+      "title": "二宮ブランド",
+      "h1": "二宮ブランド",
+      "updatedAt": "2026年5月26日",
+      "keywordHits": [
+        "水産"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/topics/0001.html",
+      "status": 200,
+      "title": "募集情報",
+      "h1": "募集情報",
+      "updatedAt": "",
+      "keywordHits": [
+        "移住",
+        "農業"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/0000000977.html",
+      "status": 200,
+      "title": "小・中学校",
+      "h1": "小・中学校",
+      "updatedAt": "2026年5月7日",
+      "keywordHits": [
+        "移住",
+        "子育て",
+        "就学",
+        "耐震",
+        "通学"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-2-4-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "小中一貫教育校",
+      "h1": "小中一貫教育校",
+      "updatedAt": "",
+      "keywordHits": [
+        "事業者",
+        "子育て"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/9-0-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "二宮町空き家バンク",
+      "h1": "二宮町空き家バンク",
+      "updatedAt": "",
+      "keywordHits": [
+        "空き家"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002752.html",
+      "status": 200,
+      "title": "新庁舎建設のスケジュールについて",
+      "h1": "新庁舎建設のスケジュールについて",
+      "updatedAt": "2025年9月1日",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000355.html",
+      "status": 200,
+      "title": "広報にのみや",
+      "h1": "広報にのみや",
+      "updatedAt": "2026年6月30日",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000001133.html",
+      "status": 200,
+      "title": "公共施設一覧",
+      "h1": "公共施設一覧",
+      "updatedAt": "2026年7月7日",
+      "keywordHits": [
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/5-20-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "申請書ダウンロード",
+      "h1": "申請書ダウンロード",
+      "updatedAt": "令和8年4月1日",
+      "keywordHits": [
+        "水産",
+        "福祉"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000481.html",
+      "status": 200,
+      "title": "健康カレンダー《成人》",
+      "h1": "健康カレンダー《成人》",
+      "updatedAt": "2026年4月24日",
+      "keywordHits": [
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000226.html",
+      "status": 200,
+      "title": "にのにんカフェ",
+      "h1": "にのにんカフェ",
+      "updatedAt": "2026年6月25日",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 11,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002945.html",
+      "status": 200,
+      "title": "社会を明るくする運動",
+      "h1": "社会を明るくする運動",
+      "updatedAt": "2026年6月25日",
+      "keywordHits": [
+        "給付金",
+        "福祉"
+      ],
+      "candidateScore": 14,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000001870.html",
+      "status": 200,
+      "title": "認知症サポーターのつどい",
+      "h1": "認知症サポーターのつどい",
+      "updatedAt": "2026年5月25日",
+      "keywordHits": [
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/ninomiya_life/0000000649.html",
+      "status": 200,
+      "title": "オンライン移住相談会",
+      "h1": "オンライン移住相談会",
+      "updatedAt": "2026年6月29日",
+      "keywordHits": [
+        "移住",
+        "空き家"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/event2/202607.html",
+      "status": 200,
+      "title": "イベント&nbsp;(7月)",
+      "h1": "イベント&nbsp;(7月)",
+      "updatedAt": "",
+      "keywordHits": [
+        "移住"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/event2/202608.html",
+      "status": 200,
+      "title": "イベント&nbsp;(8月)",
+      "h1": "イベント&nbsp;(8月)",
+      "updatedAt": "",
+      "keywordHits": [
+        "移住"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/event2/20260711.html",
+      "status": 200,
+      "title": "イベント (2026年7月11日)",
+      "h1": "イベント (2026年7月11日)",
+      "updatedAt": "",
+      "keywordHits": [
+        "移住"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000204.html",
+      "status": 200,
+      "title": "ホームページバナー広告",
+      "h1": "ホームページバナー広告",
+      "updatedAt": "2025年7月8日",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 11,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000204.html",
+      "status": 200,
+      "title": "ホームページバナー広告",
+      "h1": "ホームページバナー広告",
+      "updatedAt": "2025年7月8日",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 11,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/12-1-1-0-0_1.html",
+      "status": 200,
+      "title": "地域支援班",
+      "h1": "地域支援班",
+      "updatedAt": "令和7年4月1日",
+      "keywordHits": [
+        "補助金"
+      ],
+      "candidateScore": 7,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/12-3-2-0-0_1.html",
+      "status": 200,
+      "title": "生活環境班",
+      "h1": "生活環境班",
+      "updatedAt": "",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/3-1-1-0-0_1.html",
+      "status": 200,
+      "title": "福祉・障がい者支援班",
+      "h1": "福祉・障がい者支援班",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=277da6cc975c9c0fc7b6af8e75afb98095dba73c&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "title": "【福祉部 福祉保険課 福祉・障がい者支援班】へのお問い合わせ",
+      "h1": "【福祉部 福祉保険課 福祉・障がい者支援班】へのお問い合わせ",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/3-1-2-0-0_1.html",
+      "status": 200,
+      "title": "国保年金班",
+      "h1": "国保年金班",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=39738c1d37871752d449cec15c991696ebbd53ff&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "title": "【福祉部 福祉保険課 国保年金班】へのお問い合わせ",
+      "h1": "【福祉部 福祉保険課 国保年金班】へのお問い合わせ",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/3-2-1-0-0_1.html",
+      "status": 200,
+      "title": "高齢福祉班",
+      "h1": "高齢福祉班",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=c044a02338fa4b5d58d611dc94976021c9292554&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "title": "【福祉部 高齢介護課 高齢福祉班】へのお問い合わせ",
+      "h1": "【福祉部 高齢介護課 高齢福祉班】へのお問い合わせ",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/3-2-2-0-0_1.html",
+      "status": 200,
+      "title": "介護保険班",
+      "h1": "介護保険班",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=a5497b3c4c339dd009a3c468e213f515a8e651b1&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "title": "【福祉部 高齢介護課 介護保険班】へのお問い合わせ",
+      "h1": "【福祉部 高齢介護課 介護保険班】へのお問い合わせ",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/13-1-1-0-0_1.html",
+      "status": 200,
+      "title": "こども支援班",
+      "h1": "こども支援班",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/13-2-1-0-0_1.html",
+      "status": 200,
+      "title": "育成相談班",
+      "h1": "育成相談班",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=0f31f809344a33baaca392e406dcae7ecc075464&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "title": "【こども・健康部 子育て・健康課 育成相談班】へのお問い合わせ",
+      "h1": "【こども・健康部 子育て・健康課 育成相談班】へのお問い合わせ",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/13-2-2-0-0_1.html",
+      "status": 200,
+      "title": "健康づくり班",
+      "h1": "健康づくり班",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=04eeea720489e3e980f87956bf76123443129c89&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "title": "【こども・健康部 子育て・健康課 健康づくり班】へのお問い合わせ",
+      "h1": "【こども・健康部 子育て・健康課 健康づくり班】へのお問い合わせ",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/4-2-1-0-0_1.html",
+      "status": 200,
+      "title": "農林水産班",
+      "h1": "農林水産班",
+      "updatedAt": "",
+      "keywordHits": [
+        "農業",
+        "水産"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=efa0031ea551a30a8f22587843dfe79f9b07ef25&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "title": "【都市部 産業振興課 農林水産班】へのお問い合わせ",
+      "h1": "【都市部 産業振興課 農林水産班】へのお問い合わせ",
+      "updatedAt": "",
+      "keywordHits": [
+        "水産"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/4-3-1-0-0_1.html",
+      "status": 200,
+      "title": "計画指導班",
+      "h1": "計画指導班",
+      "updatedAt": "",
+      "keywordHits": [
+        "耐震"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/4-3-2-0-0_1.html",
+      "status": 200,
+      "title": "道路班",
+      "h1": "道路班",
+      "updatedAt": "",
+      "keywordHits": [
+        "就学"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/soshiki/9-0-0-0-0_5.html",
+      "status": 200,
+      "title": "農業委員会事務局",
+      "h1": "農業委員会事務局",
+      "updatedAt": "",
+      "keywordHits": [
+        "貸付",
+        "農業",
+        "水産"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/mailform/inquiry.cgi?so=e9eacde2ded5e7401dd8bfc855b85dec06c57531&amp;ref=https%3A%2F%2Fwww.town.ninomiya.kanagawa.jp%2Fsoshiki_list.html",
+      "status": 200,
+      "title": "【農業委員会事務局】へのお問い合わせ",
+      "h1": "【農業委員会事務局】へのお問い合わせ",
+      "updatedAt": "",
+      "keywordHits": [
+        "農業"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000003454.html",
+      "status": 200,
+      "title": "マイナンバーカードに関する詐欺電話にご注意ください",
+      "h1": "マイナンバーカードに関する詐欺電話にご注意ください",
+      "updatedAt": "2026年6月3日",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-1-5-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "国民年金",
+      "h1": "国民年金",
+      "updatedAt": "",
+      "keywordHits": [
+        "免除"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-1-6-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "国民健康保険",
+      "h1": "国民健康保険",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金",
+        "支援金",
+        "子育て"
+      ],
+      "candidateScore": 9,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-2-2-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "個人町民税",
+      "h1": "個人町民税",
+      "updatedAt": "",
+      "keywordHits": [
+        "減免"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-2-4-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "固定資産税",
+      "h1": "固定資産税",
+      "updatedAt": "",
+      "keywordHits": [
+        "減免",
+        "住宅",
+        "耐震",
+        "省エネ"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-2-5-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "軽自動車税",
+      "h1": "軽自動車税",
+      "updatedAt": "",
+      "keywordHits": [
+        "減免"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-3-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "暮らし",
+      "h1": "暮らし",
+      "updatedAt": "令和7年4月1日",
+      "keywordHits": [
+        "住宅",
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-3-3-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "住宅・道路",
+      "h1": "住宅・道路",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金",
+        "住宅",
+        "空き家",
+        "耐震"
+      ],
+      "candidateScore": 7,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-3-17-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "下水道・浄化槽",
+      "h1": "下水道・浄化槽",
+      "updatedAt": "令和7年1月28日",
+      "keywordHits": [
+        "補助金"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-4-6-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "にのみや町民活動サポートセンター",
+      "h1": "にのみや町民活動サポートセンター",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金",
+        "助成金"
+      ],
+      "candidateScore": 8,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-4-9-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "子育て施設",
+      "h1": "子育て施設",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-5-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "防災・消防・防犯",
+      "h1": "防災・消防・防犯",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-5-1-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "防災",
+      "h1": "防災",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-5-3-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "防犯・交通安全",
+      "h1": "防犯・交通安全",
+      "updatedAt": "",
+      "keywordHits": [
+        "住宅"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-6-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "地域活動・町民活動",
+      "h1": "地域活動・町民活動",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金"
+      ],
+      "candidateScore": 7,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-6-1-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "地域活動",
+      "h1": "地域活動",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金"
+      ],
+      "candidateScore": 7,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-6-2-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "町民活動",
+      "h1": "町民活動",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金",
+        "助成金"
+      ],
+      "candidateScore": 10,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002012.html",
+      "status": 200,
+      "title": "一色小学校区元気なコミュニティ協議会",
+      "h1": "一色小学校区元気なコミュニティ協議会",
+      "updatedAt": "2023年5月22日",
+      "keywordHits": [
+        "補助金",
+        "住宅",
+        "福祉"
+      ],
+      "candidateScore": 8,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-8-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "産業・事業者情報",
+      "h1": "産業・事業者情報",
+      "updatedAt": "",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-8-1-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "お知らせ",
+      "h1": "お知らせ",
+      "updatedAt": "",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-8-2-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "農林業",
+      "h1": "農林業",
+      "updatedAt": "",
+      "keywordHits": [
+        "農業",
+        "林業"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/1-8-3-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "産学官等連携事業",
+      "h1": "産学官等連携事業",
+      "updatedAt": "",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-1-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "子育て",
+      "h1": "子育て",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000476.html",
+      "status": 200,
+      "title": "健康カレンダー《子ども》",
+      "h1": "健康カレンダー《子ども》",
+      "updatedAt": "2026年4月1日",
+      "keywordHits": [
+        "福祉",
+        "子育て",
+        "予防接種"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-1-2-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "妊娠・出産",
+      "h1": "妊娠・出産",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て",
+        "予防接種",
+        "不妊",
+        "妊婦"
+      ],
+      "candidateScore": 1,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-1-3-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "子どもの健康",
+      "h1": "子どもの健康",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000192.html",
+      "status": 200,
+      "title": "子どもの予防接種",
+      "h1": "子どもの予防接種",
+      "updatedAt": "2026年5月11日",
+      "keywordHits": [
+        "助成金",
+        "福祉",
+        "子育て",
+        "予防接種",
+        "妊婦"
+      ],
+      "candidateScore": 8,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-1-5-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "乳児等通園支援事業、一時預かり保育・病後児保育",
+      "h1": "乳児等通園支援事業、一時預かり保育・病後児保育",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-1-6-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "子育てコミュニティ",
+      "h1": "子育てコミュニティ",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-1-7-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "学童保育",
+      "h1": "学童保育",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-1-8-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "手当・医療費助成",
+      "h1": "手当・医療費助成",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金",
+        "医療費助成",
+        "子育て"
+      ],
+      "candidateScore": 22,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-1-9-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "ひとり親家庭",
+      "h1": "ひとり親家庭",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-2-3-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "小・中学校",
+      "h1": "小・中学校",
+      "updatedAt": "",
+      "keywordHits": [
+        "就学",
+        "通学"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/2-2-5-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "学校給食",
+      "h1": "学校給食",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-6-1-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "健康づくり",
+      "h1": "健康づくり",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-6-2-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "健康診断・各種検診・予防接種・助成金",
+      "h1": "健康診断・各種検診・予防接種・助成金",
+      "updatedAt": "",
+      "keywordHits": [
+        "助成金",
+        "予防接種"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-1-1-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "救急医療・医療機関",
+      "h1": "救急医療・医療機関",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-1-5-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "子どもの医療",
+      "h1": "子どもの医療",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-1-6-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "新型コロナウイルス",
+      "h1": "新型コロナウイルス",
+      "updatedAt": "",
+      "keywordHits": [
+        "予防接種"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-2-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "高齢者福祉",
+      "h1": "高齢者福祉",
+      "updatedAt": "令和8年6月24日",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-2-6-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "お知らせ（高齢者福祉）",
+      "h1": "お知らせ（高齢者福祉）",
+      "updatedAt": "令和8年6月24日",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-2-2-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "高齢者の総合相談窓口 地域包括支援センター「なのはな」",
+      "h1": "高齢者の総合相談窓口 地域包括支援センター「なのはな」",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-2-7-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "介護保険",
+      "h1": "介護保険",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-2-3-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "高齢者福祉サービス",
+      "h1": "高齢者福祉サービス",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-2-4-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "生きがいと健康づくり",
+      "h1": "生きがいと健康づくり",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-2-5-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "認知症支援",
+      "h1": "認知症支援",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-5-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "障害者福祉",
+      "h1": "障害者福祉",
+      "updatedAt": "",
+      "keywordHits": [
+        "減免",
+        "福祉"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-5-1-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "お知らせ（障害者福祉）",
+      "h1": "お知らせ（障害者福祉）",
+      "updatedAt": "",
+      "keywordHits": [
+        "減免",
+        "福祉"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-5-2-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "障害者手帳",
+      "h1": "障害者手帳",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-5-3-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "障害福祉サービス",
+      "h1": "障害福祉サービス",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉",
+        "就学"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-5-4-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "障害者手当",
+      "h1": "障害者手当",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 8,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-5-5-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "障害者助成",
+      "h1": "障害者助成",
+      "updatedAt": "",
+      "keywordHits": [
+        "住宅",
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-5-6-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "公共料金割引",
+      "h1": "公共料金割引",
+      "updatedAt": "",
+      "keywordHits": [
+        "減免",
+        "免除",
+        "福祉"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-5-7-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "医療",
+      "h1": "医療",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/3-4-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "社会福祉",
+      "h1": "社会福祉",
+      "updatedAt": "",
+      "keywordHits": [
+        "給付金",
+        "福祉"
+      ],
+      "candidateScore": 14,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000001830.html",
+      "status": 200,
+      "title": "二宮町戦没者を追悼し、平和を祈念する集い",
+      "h1": "二宮町戦没者を追悼し、平和を祈念する集い",
+      "updatedAt": "2026年4月24日",
+      "keywordHits": [
+        "給付金",
+        "福祉"
+      ],
+      "candidateScore": 14,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002979.html",
+      "status": 200,
+      "title": "定額減税補足給付金（不足額給付）について",
+      "h1": "定額減税補足給付金（不足額給付）について",
+      "updatedAt": "2026年1月15日",
+      "keywordHits": [
+        "給付金",
+        "福祉"
+      ],
+      "candidateScore": 19,
+      "candidatePriority": "strong",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000193.html",
+      "status": 200,
+      "title": "令和7年12月、全国の民生委員・児童委員の一斉改選が行われました！",
+      "h1": "令和7年12月、全国の民生委員・児童委員の一斉改選が行われました！",
+      "updatedAt": "2025年12月26日",
+      "keywordHits": [
+        "給付金",
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 15,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002767.html",
+      "status": 200,
+      "title": "令和6年度住民税非課税世帯への給付金【3万円給付】及びこども加算【2万円給付】について",
+      "h1": "令和6年度住民税非課税世帯への給付金【3万円給付】及びこども加算【2万円給付】について",
+      "updatedAt": "2025年6月11日",
+      "keywordHits": [
+        "給付金",
+        "福祉"
+      ],
+      "candidateScore": 19,
+      "candidatePriority": "strong",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000236.html",
+      "status": 200,
+      "title": "第十二回戦没者等の遺族に対する特別弔慰金支給のお知らせ",
+      "h1": "第十二回戦没者等の遺族に対する特別弔慰金支給のお知らせ",
+      "updatedAt": "2025年5月21日",
+      "keywordHits": [
+        "給付金",
+        "福祉"
+      ],
+      "candidateScore": 14,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002845.html",
+      "status": 200,
+      "title": "令和6年能登半島地震災害義援金について",
+      "h1": "令和6年能登半島地震災害義援金について",
+      "updatedAt": "2025年3月21日",
+      "keywordHits": [
+        "給付金",
+        "福祉"
+      ],
+      "candidateScore": 14,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000202.html",
+      "status": 200,
+      "title": "福祉避難所",
+      "h1": "福祉避難所",
+      "updatedAt": "2024年12月11日",
+      "keywordHits": [
+        "給付金",
+        "福祉"
+      ],
+      "candidateScore": 14,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002454.html",
+      "status": 200,
+      "title": "新たに住民税非課税等となる世帯支援給付金【10万円給付】及びこども加算【5万円給付】について",
+      "h1": "新たに住民税非課税等となる世帯支援給付金【10万円給付】及びこども加算【5万円給付】について",
+      "updatedAt": "2024年11月1日",
+      "keywordHits": [
+        "給付金",
+        "福祉"
+      ],
+      "candidateScore": 19,
+      "candidatePriority": "strong",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002435.html",
+      "status": 200,
+      "title": "定額減税補足給付金（調整給付）について",
+      "h1": "定額減税補足給付金（調整給付）について",
+      "updatedAt": "2024年11月1日",
+      "keywordHits": [
+        "給付金",
+        "福祉"
+      ],
+      "candidateScore": 19,
+      "candidatePriority": "strong",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002636.html",
+      "status": 200,
+      "title": "令和6年9月能登半島大雨災害義援金について",
+      "h1": "令和6年9月能登半島大雨災害義援金について",
+      "updatedAt": "2024年10月4日",
+      "keywordHits": [
+        "給付金",
+        "福祉"
+      ],
+      "candidateScore": 14,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000238.html",
+      "status": 200,
+      "title": "日本赤十字社義援金・救援金",
+      "h1": "日本赤十字社義援金・救援金",
+      "updatedAt": "2023年5月25日",
+      "keywordHits": [
+        "給付金",
+        "福祉"
+      ],
+      "candidateScore": 14,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000240.html",
+      "status": 200,
+      "title": "生活福祉",
+      "h1": "生活福祉",
+      "updatedAt": "2022年11月1日",
+      "keywordHits": [
+        "給付金",
+        "福祉"
+      ],
+      "candidateScore": 14,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-9-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "入札・契約",
+      "h1": "入札・契約",
+      "updatedAt": "",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-9-1-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "一般競争入札発注・契約基準",
+      "h1": "一般競争入札発注・契約基準",
+      "updatedAt": "",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-9-2-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "電子入札システム及び一般競争入札",
+      "h1": "電子入札システム及び一般競争入札",
+      "updatedAt": "",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-9-3-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "入札調書",
+      "h1": "入札調書",
+      "updatedAt": "",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-9-4-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "インターネット公有財産売却",
+      "h1": "インターネット公有財産売却",
+      "updatedAt": "",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-9-5-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "債権者の登録",
+      "h1": "債権者の登録",
+      "updatedAt": "",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-9-6-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "インボイス制度",
+      "h1": "インボイス制度",
+      "updatedAt": "",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-8-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "企業・創業支援",
+      "h1": "企業・創業支援",
+      "updatedAt": "",
+      "keywordHits": [
+        "創業"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-8-7-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "各種制度案内",
+      "h1": "各種制度案内",
+      "updatedAt": "",
+      "keywordHits": [
+        "創業",
+        "事業者"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-8-3-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "融資制度・保証制度",
+      "h1": "融資制度・保証制度",
+      "updatedAt": "",
+      "keywordHits": [
+        "創業",
+        "事業者"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-8-4-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "創業支援",
+      "h1": "創業支援",
+      "updatedAt": "",
+      "keywordHits": [
+        "創業",
+        "事業者"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-8-5-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "補助金・助成金制度",
+      "h1": "補助金・助成金制度",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金",
+        "助成金",
+        "創業",
+        "事業者"
+      ],
+      "candidateScore": 19,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-8-6-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "国や県などの支援施策",
+      "h1": "国や県などの支援施策",
+      "updatedAt": "",
+      "keywordHits": [
+        "創業",
+        "事業者"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-8-8-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "事業承継",
+      "h1": "事業承継",
+      "updatedAt": "",
+      "keywordHits": [
+        "創業",
+        "事業者"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/category/4-4-0-0-0-0-0-0-0-0.html",
+      "status": 200,
+      "title": "住宅・道路",
+      "h1": "住宅・道路",
+      "updatedAt": "",
+      "keywordHits": [
+        "住宅",
+        "事業者",
+        "耐震"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000107.html",
+      "status": 200,
+      "title": "建築確認申請",
+      "h1": "建築確認申請",
+      "updatedAt": "2026年6月19日",
+      "keywordHits": [
+        "住宅",
+        "事業者",
+        "耐震"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000100.html",
+      "status": 200,
+      "title": "二宮町の開発事業における手続及び基準等に関する条例について",
+      "h1": "二宮町の開発事業における手続及び基準等に関する条例について",
+      "updatedAt": "2026年5月25日",
+      "keywordHits": [
+        "住宅",
+        "事業者",
+        "農業",
+        "耐震"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000002666.html",
+      "status": 200,
+      "title": "木造住宅の無料耐震相談会",
+      "h1": "木造住宅の無料耐震相談会",
+      "updatedAt": "2025年12月24日",
+      "keywordHits": [
+        "住宅",
+        "事業者",
+        "耐震"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000143.html",
+      "status": 200,
+      "title": "道路に関すること(事業者向け)",
+      "h1": "道路に関すること(事業者向け)",
+      "updatedAt": "2025年8月26日",
+      "keywordHits": [
+        "住宅",
+        "事業者",
+        "耐震"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000128.html",
+      "status": 200,
+      "title": "都市計画法第53条区域",
+      "h1": "都市計画法第53条区域",
+      "updatedAt": "2025年3月6日",
+      "keywordHits": [
+        "住宅",
+        "事業者",
+        "耐震"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000122.html",
+      "status": 200,
+      "title": "地形図・航空写真の販売",
+      "h1": "地形図・航空写真の販売",
+      "updatedAt": "2024年7月29日",
+      "keywordHits": [
+        "住宅",
+        "事業者",
+        "耐震"
+      ],
+      "candidateScore": 12,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000136.html",
+      "status": 200,
+      "title": "盛土に関すること",
+      "h1": "盛土に関すること",
+      "updatedAt": "2024年6月5日",
+      "keywordHits": [
+        "住宅",
+        "事業者",
+        "耐震"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000133.html",
+      "status": 200,
+      "title": "都市計画図",
+      "h1": "都市計画図",
+      "updatedAt": "2024年6月5日",
+      "keywordHits": [
+        "住宅",
+        "事業者",
+        "耐震"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000139.html",
+      "status": 200,
+      "title": "住宅に関すること(事業者向け)",
+      "h1": "住宅に関すること(事業者向け)",
+      "updatedAt": "2024年1月5日",
+      "keywordHits": [
+        "住宅",
+        "事業者",
+        "耐震"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000120.html",
+      "status": 200,
+      "title": "住居表示について",
+      "h1": "住居表示について",
+      "updatedAt": "2023年6月15日",
+      "keywordHits": [
+        "住宅",
+        "事業者",
+        "耐震"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14342",
+      "municipalityName": "二宮町",
+      "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000000137.html",
+      "status": 200,
+      "title": "用途地域",
+      "h1": "用途地域",
+      "updatedAt": "2023年2月25日",
+      "keywordHits": [
+        "住宅",
+        "事業者",
+        "農業",
+        "耐震"
+      ],
+      "candidateScore": 5,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14361",
+      "municipalityName": "中井町",
+      "sourceUrl": "https://www.town.nakai.kanagawa.jp/",
+      "status": 200,
+      "title": "",
+      "h1": "",
+      "updatedAt": "",
+      "keywordHits": [
+        "移住",
+        "子育て"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14361",
+      "municipalityName": "中井町",
+      "sourceUrl": "https://www.town.nakai.kanagawa.jp/index.html",
+      "status": 200,
+      "title": "",
+      "h1": "",
+      "updatedAt": "",
+      "keywordHits": [
+        "移住",
+        "子育て"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14361",
+      "municipalityName": "中井町",
+      "sourceUrl": "https://www.town.nakai.kanagawa.jp/kosodate_kyoiku/index.html",
+      "status": 200,
+      "title": "子育て・教育",
+      "h1": "子育て・教育",
+      "updatedAt": "令和元年9月30日",
+      "keywordHits": [
+        "補助金",
+        "給付金",
+        "一時金",
+        "医療費助成",
+        "子育て",
+        "就学",
+        "予防接種",
+        "不妊",
+        "妊婦",
+        "通学"
+      ],
+      "candidateScore": 20,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14361",
+      "municipalityName": "中井町",
+      "sourceUrl": "https://www.town.nakai.kanagawa.jp/iryo_kenko_fukushi/index.html",
+      "status": 200,
+      "title": "医療・健康・福祉",
+      "h1": "医療・健康・福祉",
+      "updatedAt": "",
+      "keywordHits": [
+        "住宅",
+        "福祉",
+        "予防接種",
+        "不妊"
+      ],
+      "candidateScore": 1,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14361",
+      "municipalityName": "中井町",
+      "sourceUrl": "https://www.town.nakai.kanagawa.jp/shigoto_sangyo/index.html",
+      "status": 200,
+      "title": "しごと・産業",
+      "h1": "しごと・産業",
+      "updatedAt": "",
+      "keywordHits": [
+        "農業",
+        "林業",
+        "水産"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14361",
+      "municipalityName": "中井町",
+      "sourceUrl": "https://www.town.nakai.kanagawa.jp/kurashi_tetsuzuki/sumai/iju_teiju/index.html",
+      "status": 200,
+      "title": "移住・定住",
+      "h1": "移住・定住",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金",
+        "移住",
+        "空き家",
+        "空家"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14361",
+      "municipalityName": "中井町",
+      "sourceUrl": "https://www.town.nakai.kanagawa.jp/kanko_event/satomachinakai/index.html",
+      "status": 200,
+      "title": "里都まちなかい／神奈川県中井町役場",
+      "h1": "",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金",
+        "子育て"
+      ],
+      "candidateScore": 7,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14361",
+      "municipalityName": "中井町",
+      "sourceUrl": "https://www.town.nakai.kanagawa.jp/kurashi_tetsuzuki/zeikin/furusatonozei/index.html",
+      "status": 200,
+      "title": "ふるさと納税",
+      "h1": "ふるさと納税",
+      "updatedAt": "",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 11,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14361",
+      "municipalityName": "中井町",
+      "sourceUrl": "https://www.town.nakai.kanagawa.jp/choseijoho/nakaimachinoshokai/tokei_opendata/index.html",
+      "status": 200,
+      "title": "統計・オープンデータ",
+      "h1": "統計・オープンデータ",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14361",
+      "municipalityName": "中井町",
+      "sourceUrl": "https://www.town.nakai.kanagawa.jp/soshiki/index.html",
+      "status": 200,
+      "title": "組織から探す",
+      "h1": "組織から探す",
+      "updatedAt": "",
+      "keywordHits": [
+        "農業",
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14361",
+      "municipalityName": "中井町",
+      "sourceUrl": "https://www.town.nakai.kanagawa.jp/choseijoho/kocho_koho/kocho/1/index.html",
+      "status": 200,
+      "title": "パブリックコメント",
+      "h1": "パブリックコメント",
+      "updatedAt": "",
+      "keywordHits": [
+        "空家"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14361",
+      "municipalityName": "中井町",
+      "sourceUrl": "https://www.town.nakai.kanagawa.jp/mokutekibetsudesagasu/ninshin_shussan/index.html",
+      "status": 200,
+      "title": "妊娠・出産",
+      "h1": "妊娠・出産",
+      "updatedAt": "",
+      "keywordHits": [
+        "給付金",
+        "一時金",
+        "子育て",
+        "不妊",
+        "妊婦"
+      ],
+      "candidateScore": 7,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14361",
+      "municipalityName": "中井町",
+      "sourceUrl": "https://www.town.nakai.kanagawa.jp/mokutekibetsudesagasu/ikuji/index.html",
+      "status": 200,
+      "title": "育児",
+      "h1": "育児",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金",
+        "医療費助成",
+        "移住",
+        "空き家",
+        "子育て"
+      ],
+      "candidateScore": 12,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14361",
+      "municipalityName": "中井町",
+      "sourceUrl": "https://www.town.nakai.kanagawa.jp/mokutekibetsudesagasu/nyuen_nyugaku/index.html",
+      "status": 200,
+      "title": "入園・入学",
+      "h1": "入園・入学",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て",
+        "就学",
+        "通学"
+      ],
+      "candidateScore": 3,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14361",
+      "municipalityName": "中井町",
+      "sourceUrl": "https://www.town.nakai.kanagawa.jp/mokutekibetsudesagasu/kenko_iryo/index.html",
+      "status": 200,
+      "title": "健康・医療",
+      "h1": "健康・医療",
+      "updatedAt": "",
+      "keywordHits": [
+        "予防接種"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14361",
+      "municipalityName": "中井町",
+      "sourceUrl": "https://www.town.nakai.kanagawa.jp/mokutekibetsudesagasu/korei_kaigo/index.html",
+      "status": 200,
+      "title": "高齢・介護",
+      "h1": "高齢・介護",
+      "updatedAt": "",
+      "keywordHits": [
+        "住宅"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14361",
+      "municipalityName": "中井町",
+      "sourceUrl": "https://www.town.nakai.kanagawa.jp/mokutekibetsudesagasu/hikkoshi/index.html",
+      "status": 200,
+      "title": "引越",
+      "h1": "引越",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金",
+        "移住",
+        "空き家"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14361",
+      "municipalityName": "中井町",
+      "sourceUrl": "https://www.town.nakai.kanagawa.jp/calendar.html?eventTypeNo=1&amp;area-display=0",
+      "status": 200,
+      "title": "イベントカレンダー",
+      "h1": "イベントカレンダー",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14361",
+      "municipalityName": "中井町",
+      "sourceUrl": "https://www.town.nakai.kanagawa.jp/mokutekibetsudesagasu/gomi/1551.html",
+      "status": 200,
+      "title": "ごみと資源の出し方について・ごみ収集カレンダー",
+      "h1": "ごみと資源の出し方について・ごみ収集カレンダー",
+      "updatedAt": "2026年03月18日",
+      "keywordHits": [
+        "事業者",
+        "福祉"
+      ],
+      "candidateScore": 11,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14361",
+      "municipalityName": "中井町",
+      "sourceUrl": "https://www.town.nakai.kanagawa.jp/yokuarushitsumonQandA/index.html",
+      "status": 200,
+      "title": "",
+      "h1": "",
+      "updatedAt": "",
+      "keywordHits": [
+        "住宅",
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14361",
+      "municipalityName": "中井町",
+      "sourceUrl": "https://www.town.nakai.kanagawa.jp/choseijoho/kokyoshisetsuannai/index.html",
+      "status": 200,
+      "title": "公共施設案内",
+      "h1": "公共施設案内",
+      "updatedAt": "",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14361",
+      "municipalityName": "中井町",
+      "sourceUrl": "https://www.town.nakai.kanagawa.jp/kurashi_tetsuzuki/juminkatsudo_community_kyodo/1139.html",
+      "status": 200,
+      "title": "中井町暮らしの便利帳",
+      "h1": "中井町暮らしの便利帳",
+      "updatedAt": "2024年10月18日",
+      "keywordHits": [
+        "事業者"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14361",
+      "municipalityName": "中井町",
+      "sourceUrl": "https://www.town.nakai.kanagawa.jp/kurashi_tetsuzuki/kakushushinsei_download/index.html",
+      "status": 200,
+      "title": "各種申請・ダウンロード",
+      "h1": "各種申請・ダウンロード",
+      "updatedAt": "",
+      "keywordHits": [
+        "減免"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14361",
+      "municipalityName": "中井町",
+      "sourceUrl": "https://www.town.nakai.kanagawa.jp/kurashi_tetsuzuki/doro_kotsu/1044.html",
+      "status": 200,
+      "title": "中井町オンデマンドバス",
+      "h1": "中井町オンデマンドバス",
+      "updatedAt": "2026年02月12日",
+      "keywordHits": [
+        "事業者",
+        "通学"
+      ],
+      "candidateScore": 11,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "14361",
+      "municipalityName": "中井町",
+      "sourceUrl": "https://www.town.nakai.kanagawa.jp/sitemap.html",
+      "status": 200,
+      "title": "サイトマップ",
+      "h1": "サイトマップ",
+      "updatedAt": "2022年04月01日",
+      "keywordHits": [
+        "福祉",
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    }
+  ]
+}

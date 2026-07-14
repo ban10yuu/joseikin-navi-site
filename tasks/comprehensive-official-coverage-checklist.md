@@ -8356,3 +8356,44 @@
   - 座間市の妊婦健康診査・多胎妊婦健康診査、葉山町の子育て世帯物価高騰対策給付金、トップ、カテゴリ、サイトマップ、募集一覧、共通ナビ一致、部署ページ、様式のみ、金額又は受付状況不足候補は第2巡候補又は次回継続候補に残す。
 - 次:
   - 神奈川県公式棚卸し006として、14321寒川町、14341大磯町、14342二宮町、14361中井町を自治体コード順に確認する。
+
+### 2026-07-14 神奈川県公式棚卸し006（14321寒川町・14341大磯町・14342二宮町・14361中井町）
+
+- 作業範囲:
+  - 14321 寒川町、14341 大磯町、14342 二宮町、14361 中井町の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 生成候補256件（寒川町31件、大磯町34件、二宮町166件、中井町25件）が150件を超えたため、`tasks/discovery/kanagawa-official-coverage-006-manual-snippets.json` に公式本文の短い根拠を保存し、制度名・対象・金額/上限・条件・期限/受付状況が揃う制度を優先した。
+- 採用:
+  - 合計24件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 寒川町5件: 結婚新生活支援給付金、ゼロカーボン推進対策設備等導入補助金、スポーツリーダー養成補助金、骨髄等ドナー支援事業助成金、がん患者ウィッグ購入費助成金。
+  - 大磯町1件: 小児医療費助成。
+  - 二宮町7件: 町民活動推進補助金、くらし応援商品券、融資利子補助制度、中小企業信用保証料補助制度、中小企業退職金共済制度奨励補助制度、こども医療費助成、子どもの学習進学支援補助金。
+  - 中井町11件: 妊娠・出産支援給付金、新生児聴覚検査費用助成、紙オムツ等購入費助成事業、子育て応援オンデマンドバス利用助成事業、小児医療費助成、先進医療不妊治療費助成、未熟児養育医療給付、移住・定住推進事業補助金、空き家活用推進事業補助金、結婚新生活支援事業補助金、学力検定料補助金。
+- 生成ファイル:
+  - `tasks/discovery/kanagawa-official-coverage-006-municipalities.json`
+  - `tasks/discovery/kanagawa-official-coverage-006-14321-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-006-14341-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-006-14342-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-006-14361-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-006-14321-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-006-14341-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-006-14342-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-006-14361-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-006-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-006-manual-snippets.json`
+  - `tasks/discovery/kanagawa-official-coverage-006.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（`kanagawa-official-coverage-006.json`、候補JSON、手動スニペットJSON、municipalities、checkpoint）。
+  - 追加slug重複: pass（24件、`verified-local-misc-2026.ts` 内で各1件）。
+  - 公式URL到達: pass（24 primary official URLsすべてHTTP 200）。
+  - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 11379、officialLinkedActive 11341、manuallyVerifiedActive 11341、神奈川県 localOfficial 233）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または神奈川県一部自治体の着手のみで全国完了扱いしない。
+  - 大磯町のダウンロード様式ページは金額・対象・期限又は受付状況の必須項目不足のため、今回は採用せず第2巡候補に残す。
+  - 二宮町の定額減税補足給付金（不足額給付）は受付終了、二宮町省エネ家電買替促進事業は予算上限到達で再募集予定なしのため、今回は採用せず第2巡候補に残す。
+  - 中井町の不育症治療費助成は金額等の詳細がPDF側中心のため、今回は採用せず第2巡候補に残す。
+  - トップ、カテゴリ、サイトマップ、募集一覧、共通ナビ一致、部署ページ、様式のみ、金額又は受付状況不足候補は第2巡候補又は次回継続候補に残す。
+- 次:
+  - 神奈川県公式棚卸し007として、14362大井町、14363松田町、14364山北町、14366開成町を自治体コード順に確認する。

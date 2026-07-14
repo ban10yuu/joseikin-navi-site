@@ -1,0 +1,103 @@
+{
+  "batch": "kanagawa-official-coverage-006",
+  "prefecture": "神奈川県",
+  "completedAt": "2026-07-14T20:45:00+09:00",
+  "municipalities": [
+    {
+      "code": "14321",
+      "name": "寒川町",
+      "officialBaseUrl": "https://www.town.samukawa.kanagawa.jp/",
+      "candidateCount": 31,
+      "strongCandidateCount": 1,
+      "adopted": 5
+    },
+    {
+      "code": "14341",
+      "name": "大磯町",
+      "officialBaseUrl": "https://www.town.oiso.kanagawa.jp/",
+      "candidateCount": 34,
+      "strongCandidateCount": 0,
+      "adopted": 1
+    },
+    {
+      "code": "14342",
+      "name": "二宮町",
+      "officialBaseUrl": "https://www.town.ninomiya.kanagawa.jp/",
+      "candidateCount": 166,
+      "strongCandidateCount": 5,
+      "adopted": 7
+    },
+    {
+      "code": "14361",
+      "name": "中井町",
+      "officialBaseUrl": "https://www.town.nakai.kanagawa.jp/",
+      "candidateCount": 25,
+      "strongCandidateCount": 0,
+      "adopted": 11
+    }
+  ],
+  "candidateSummary": {
+    "totalCandidates": 256,
+    "adopted": 24,
+    "existingDuplicateUrls": 0,
+    "heldForSecondPass": 232,
+    "shortlistMethod": "title/h1/main/article/URLの制度強語に加え、金額、対象条件、期限又は受付状況が公式本文で確認できた個別ページを優先。トップ、カテゴリ、サイトマップ、共通ナビ、様式のみ、受付終了中心、金額又は対象不足の候補は第2巡候補に保持。"
+  },
+  "adoptedSlugs": [
+    "samukawa-marriage-new-life-support-grant-2026",
+    "samukawa-zero-carbon-equipment-subsidy-2026",
+    "samukawa-sports-leader-qualification-subsidy-2026",
+    "samukawa-bone-marrow-donor-subsidy-2026",
+    "samukawa-cancer-wig-purchase-subsidy-2026",
+    "oiso-child-medical-expense-subsidy-2026",
+    "ninomiya-civic-activity-promotion-subsidy-2026",
+    "ninomiya-living-support-shopping-coupon-2026",
+    "ninomiya-sme-loan-interest-subsidy-2026",
+    "ninomiya-sme-credit-guarantee-fee-subsidy-2026",
+    "ninomiya-retirement-mutual-aid-subsidy-2026",
+    "ninomiya-child-medical-expense-subsidy-2026",
+    "ninomiya-child-learning-advancement-subsidy-2026",
+    "nakai-pregnancy-birth-support-benefit-2026",
+    "nakai-newborn-hearing-test-subsidy-2026",
+    "nakai-baby-diaper-coupon-subsidy-2026",
+    "nakai-pregnant-postpartum-demand-bus-subsidy-2026",
+    "nakai-child-medical-expense-subsidy-2026",
+    "nakai-advanced-infertility-treatment-subsidy-2026",
+    "nakai-premature-infant-medical-care-benefit-2026",
+    "nakai-migration-settlement-housing-acquisition-subsidy-2026",
+    "nakai-vacant-house-utilization-subsidy-2026",
+    "nakai-marriage-new-life-subsidy-2026",
+    "nakai-academic-test-fee-subsidy-2026"
+  ],
+  "existingDuplicateUrls": [],
+  "heldNotes": [
+    "大磯町のダウンロード様式ページは、紙おむつ・タクシー・障害者移送・信用保証料・下水道奨励金等の名称を確認したが、HTML上で金額、対象、期限又は受付状況の必須項目が不足するため第2巡候補に保持。",
+    "二宮町の定額減税補足給付金（不足額給付）は令和7年10月31日で受付終了のため、今回は採用せず第2巡候補に保持。",
+    "二宮町の省エネ家電買替促進事業は申請額が予算上限に達し受付終了、今後再募集予定なしの表示があるため第2巡候補に保持。",
+    "中井町の不育症治療費助成は公式HTMLに制度目的と申請案内はあるが、金額等の詳細がPDF側中心のため第2巡候補に保持。",
+    "トップ、カテゴリ、サイトマップ、募集一覧、共通ナビ一致、部署ページ、PDF様式のみ、金額又は受付状況不足候補は削除せず第2巡候補に残した。"
+  ],
+  "sourceArtifacts": [
+    "tasks/discovery/kanagawa-official-coverage-006-municipalities.json",
+    "tasks/discovery/kanagawa-official-coverage-006-14321-municipality.json",
+    "tasks/discovery/kanagawa-official-coverage-006-14341-municipality.json",
+    "tasks/discovery/kanagawa-official-coverage-006-14342-municipality.json",
+    "tasks/discovery/kanagawa-official-coverage-006-14361-municipality.json",
+    "tasks/discovery/kanagawa-official-coverage-006-14321-candidates.json",
+    "tasks/discovery/kanagawa-official-coverage-006-14341-candidates.json",
+    "tasks/discovery/kanagawa-official-coverage-006-14342-candidates.json",
+    "tasks/discovery/kanagawa-official-coverage-006-14361-candidates.json",
+    "tasks/discovery/kanagawa-official-coverage-006-candidates.json",
+    "tasks/discovery/kanagawa-official-coverage-006-manual-snippets.json"
+  ],
+  "validation": {
+    "status": "pass",
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "jsonParse": "pass: 13 JSON artifacts parsed",
+    "addedSlugUniqueness": "pass: 24 added slugs, duplicateCount 0",
+    "urlReachability": "pass: 24 primary official URLs returned HTTP 200",
+    "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11379, officialLinkedActive 11341, manuallyVerifiedActive 11341, 神奈川県 localOfficial 233)"
+  }
+}
