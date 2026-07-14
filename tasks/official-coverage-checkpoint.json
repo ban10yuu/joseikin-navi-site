@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T08:45:00+09:00",
+  "updatedAt": "2026-07-15T09:15:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "gifu-official-coverage-001",
-    "municipality": "岐阜市・大垣市・高山市・多治見市・関市",
-    "adopted": 48,
-    "held": 409,
+    "code": "gifu-official-coverage-002",
+    "municipality": "中津川市・美濃市・瑞浪市・羽島市・恵那市",
+    "adopted": 54,
+    "held": 319,
     "excluded": 0,
-    "sourceUrlsChecked": 48,
+    "sourceUrlsChecked": 54,
     "validation": {
-      "previousMunicipality": "岐阜県公式棚卸し001として、21201岐阜市・21202大垣市・21203高山市・21204多治見市・21205関市を確認した。候補457件、本文スニペット457件、再スコア77件、公式一覧14件を保存し、合計48件を新規採用した。カテゴリ導線、トップ、共通ナビ、本文根拠が薄い候補は第2巡候補として保持。岐阜県第1巡は21205関市まで到達。全国公式棚卸しは未完了。",
+      "previousMunicipality": "岐阜県公式棚卸し002として、21206中津川市・21207美濃市・21208瑞浪市・21209羽島市・21210恵那市を確認した。候補373件、本文スニペット373件、カテゴリ深掘り145件、選定検証67件を保存し、合計54件を新規採用した。カテゴリ導線、トップ、共通ナビ、国制度紹介のみ、本文根拠が薄い候補は第2巡候補として保持。岐阜県第1巡は21210恵那市まで到達。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for gifu-official-coverage-001 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 48 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 48 unique adopted official URLs returned HTTP 200 by interval fetch",
+      "json": "pass: JSON.parse for gifu-official-coverage-002 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 54 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 54 unique adopted official URLs returned HTTP 200 by interval fetch",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 14054, officialLinkedActive 13934, manuallyVerifiedActive 13934, 岐阜県 localOfficial 124)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 14104, officialLinkedActive 13984, manuallyVerifiedActive 13984, 岐阜県 localOfficial 174)"
     }
   },
   "next": {
-    "code": "gifu-official-coverage-002",
-    "municipality": "中津川市",
-    "shortlist": "岐阜県公式棚卸し001は岐阜市9件、大垣市8件、高山市12件、多治見市5件、関市14件を採用した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、21206中津川市を開始地点として岐阜県公式棚卸し002を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "gifu-official-coverage-003",
+    "municipality": "美濃加茂市",
+    "shortlist": "岐阜県公式棚卸し002は中津川市11件、美濃市11件、瑞浪市13件、羽島市6件、恵那市13件を採用した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、21211美濃加茂市を開始地点として岐阜県公式棚卸し003を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "岐阜県",
     "status": "in-progress-first-pass",
-    "lastBatch": "gifu-official-coverage-001",
-    "notes": "山梨県は19201甲府市から19443丹波山村まで第1巡完了。長野県は20201長野市から20602栄村まで第1巡完了。岐阜県は21201岐阜市から21205関市まで到達。全国公式棚卸しは未完了。次は21206中津川市から継続する。"
+    "lastBatch": "gifu-official-coverage-002",
+    "notes": "山梨県は19201甲府市から19443丹波山村まで第1巡完了。長野県は20201長野市から20602栄村まで第1巡完了。岐阜県は21201岐阜市から21210恵那市まで到達。全国公式棚卸しは未完了。次は21211美濃加茂市から継続する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
