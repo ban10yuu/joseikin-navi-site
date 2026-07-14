@@ -1,0 +1,26 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-003",
+  "prefecture": "東京都",
+  "municipalities": [
+    {
+      "code": "13109",
+      "name": "品川区",
+      "officialBaseUrl": "https://www.city.shinagawa.tokyo.jp/"
+    },
+    {
+      "code": "13110",
+      "name": "目黒区",
+      "officialBaseUrl": "https://www.city.meguro.tokyo.jp/"
+    },
+    {
+      "code": "13111",
+      "name": "大田区",
+      "officialBaseUrl": "https://www.city.ota.tokyo.jp/"
+    },
+    {
+      "code": "13112",
+      "name": "世田谷区",
+      "officialBaseUrl": "https://www.city.setagaya.lg.jp/"
+    }
+  ]
+}

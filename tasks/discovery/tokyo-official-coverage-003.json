@@ -1,0 +1,57 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-003",
+  "prefecture": "東京都",
+  "status": "reflected",
+  "verifiedAt": "2026-07-14",
+  "targetMunicipalities": [
+    {
+      "code": "13109",
+      "name": "品川区"
+    },
+    {
+      "code": "13110",
+      "name": "目黒区"
+    },
+    {
+      "code": "13111",
+      "name": "大田区"
+    },
+    {
+      "code": "13112",
+      "name": "世田谷区"
+    }
+  ],
+  "reflectedGrantCount": 19,
+  "byMunicipality": {
+    "品川区": 7,
+    "目黒区": 6,
+    "大田区": 5,
+    "世田谷区": 1
+  },
+  "nextBatch": {
+    "batchId": "tokyo-comprehensive-official-coverage-004",
+    "municipalities": [
+      {
+        "code": "13113",
+        "name": "渋谷区"
+      },
+      {
+        "code": "13114",
+        "name": "中野区"
+      },
+      {
+        "code": "13115",
+        "name": "杉並区"
+      },
+      {
+        "code": "13116",
+        "name": "豊島区"
+      }
+    ]
+  },
+  "secondPassNotes": [
+    "金額又は受付状況が公式HTML本文だけで固まらない候補、PDF精査待ち候補、カテゴリ導線のみ候補、様式ページは第2巡へ残す。",
+    "大田区キャッシュレスキャンペーンは公式本文で補助率・上限が不足するため第2巡へ残す。",
+    "世田谷区止水板等は金額表のPDF精査が必要なため第2巡へ残す。"
+  ]
+}

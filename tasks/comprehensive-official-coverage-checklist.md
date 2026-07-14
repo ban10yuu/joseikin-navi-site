@@ -7579,3 +7579,43 @@
     - 受付終了、受付休止、404、金額又は受付状況不足、PDF精査待ち、カテゴリ導線、様式のみ、国制度色が強い候補は第2巡候補に残す。
   - 次:
     - 東京都公式棚卸し003として、13109品川区、13110目黒区、13111大田区、13112世田谷区を自治体コード順に確認する。
+
+- 東京都公式棚卸し003
+  - 対象:
+    - 13109 品川区、13110 目黒区、13111 大田区、13112 世田谷区。
+  - 方法:
+    - 公式トップ到達を4自治体すべて確認し、候補993件を抽出した。
+    - 候補数が150件を超えたため、本文スニペット872URL、カテゴリ導線・サイトマップ由来3,774URL、リンク先本文694URL、大田区補正180URLを保存して再スコアリングした。
+    - 品川区は住まいの防犯対策、防犯カメラ等設置、コンクリートブロック塀等安全化、不妊治療、ゼロカーボンアクション、子育てファミリー転居、高齢者スマートフォン購入費を公式本文で確認した。
+    - 目黒区は浸水防止対策、木造住宅除却、ブロック塀等除却、住宅用再エネ・省エネ設備、多胎妊婦健診、中小企業専門家活用を公式本文で確認した。
+    - 大田区はものづくり工場立地継続、企業立地・SDGs、奨学金返還支援、住まいの防犯対策、地域団体向け防犯カメラ設置を公式本文で確認した。
+    - 世田谷区は若者フェアスタート事業を公式本文で確認した。
+    - 大田区キャッシュレスキャンペーン、世田谷区止水板設置等助成、目黒区の防犯カメラ・がけ地関連など、金額又は受付状況の追加確認やPDF精査が必要な候補は第2巡候補に残す。
+  - 採用:
+    - 品川区7件: 住まいの防犯対策補助金、防犯カメラ等設置補助事業、コンクリートブロック塀等安全化支援、不妊治療医療費助成、しながわゼロカーボンアクション助成、子育てファミリー世帯転居費用助成、高齢者スマートフォン購入費助成。
+    - 目黒区6件: 浸水防止対策工事助成、木造住宅除却工事助成、ブロック塀等除却工事等助成、住宅用再生可能エネルギー及び省エネルギー設備設置費助成、多胎妊婦健康診査費用助成、中小企業専門家活用支援事業助成金。
+    - 大田区5件: ものづくり工場立地継続補助金、企業立地・SDGs促進助成金、中小企業人材確保のための奨学金返還支援事業、住まいの防犯対策補助金、地域における見守り活動支援補助金。
+    - 世田谷区1件: 若者の将来に向けたチャレンジ応援助成。
+  - 生成ファイル:
+    - `tasks/discovery/tokyo-official-coverage-003-municipalities.json`
+    - `tasks/discovery/tokyo-official-coverage-003-target-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-003-category-links.json`
+    - `tasks/discovery/tokyo-official-coverage-003-sitemap-keyword-urls.json`
+    - `tasks/discovery/tokyo-official-coverage-003-link-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-003-ota-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-003-selected-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-003-selected-main.json`
+    - `tasks/discovery/tokyo-official-coverage-003-url-check.json`
+    - `tasks/discovery/tokyo-official-coverage-003.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（19件、`verified-local-misc-2026.ts` 内で各1件）。
+    - 公式URL到達: pass（19 official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 11034、officialLinkedActive 10996、manuallyVerifiedActive 10996、東京都 localOfficial 418）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 受付終了、受付休止、404、金額又は受付状況不足、PDF精査待ち、カテゴリ導線、様式のみ、国制度色が強い候補は第2巡候補に残す。
+  - 次:
+    - 東京都公式棚卸し004として、13113渋谷区、13114中野区、13115杉並区、13116豊島区を自治体コード順に確認する。
