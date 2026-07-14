@@ -1,0 +1,26 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-009",
+  "prefecture": "東京都",
+  "municipalities": [
+    {
+      "code": "13210",
+      "name": "小金井市",
+      "officialBaseUrl": "https://www.city.koganei.lg.jp/"
+    },
+    {
+      "code": "13211",
+      "name": "小平市",
+      "officialBaseUrl": "https://www.city.kodaira.tokyo.jp/"
+    },
+    {
+      "code": "13212",
+      "name": "日野市",
+      "officialBaseUrl": "https://www.city.hino.lg.jp/"
+    },
+    {
+      "code": "13213",
+      "name": "東村山市",
+      "officialBaseUrl": "https://www.city.higashimurayama.tokyo.jp/"
+    }
+  ]
+}

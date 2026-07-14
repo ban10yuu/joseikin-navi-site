@@ -7842,3 +7842,44 @@
     - 受付終了、受付休止、404、金額又は受付状況不足、PDF精査待ち、カテゴリ導線、様式のみ、国制度色が強い候補は第2巡候補に残す。
   - 次:
     - 東京都公式棚卸し009として、13210小金井市、13211小平市、13212日野市、13213東村山市を自治体コード順に確認する。
+
+- 東京都公式棚卸し009
+  - 対象:
+    - 13210 小金井市、13211 小平市、13212 日野市、13213 東村山市。
+  - 方法:
+    - 公式トップ到達を4自治体すべて確認し、候補805件を抽出した。
+    - 候補が150件を超えたため、採用候補の本文スニペット16件を保存し、制度強語・金額/上限・対象条件・受付表現を優先して再確認した。
+    - 小金井市は住民税非課税世帯等エアコン購入、防犯機器等購入、住宅用新エネルギー機器等、養育費確保支援、障害者交通手当を公式本文で確認した。
+    - 小平市は省エネ家電等買換、省・創・蓄エネルギー機器等設置、飼い主のいない猫の不妊・去勢手術、飼い主のいない猫等の保護・譲渡、高等職業訓練促進給付を公式本文で確認した。
+    - 日野市は中小企業等賃上げ促進、魅力ある個店創り、販路開拓、ものづくり産業開発、ものづくり企業等地域共生推進を公式本文で確認した。
+    - 東村山市は候補184件を抽出したが、個別制度ページの直接取得がCloudFront 403となるものがあり、公式本文で必須項目を再確認できた候補だけ次回以降に採用判断する。今回は直接本文取得がHTTP 200の15制度のみ採用した。
+    - カテゴリ導線、様式のみ、金額又は受付状況が公式本文だけで確定できない候補、直接取得403の候補、年度外の可能性がある候補は第2巡候補又は次回継続候補に残す。
+  - 採用:
+    - 小金井市5件: 住民税非課税世帯等エアコン購入費助成、防犯機器等購入補助事業、住宅用新エネルギー機器等普及促進補助金、養育費確保支援事業補助金、障害者交通手当。
+    - 小平市5件: 省エネ家電等買換促進補助金、省・創・蓄エネルギー機器等設置モニター助成、飼い主のいない猫の不妊・去勢手術費補助、飼い主のいない猫等の保護・譲渡費用補助、高等職業訓練促進給付金。
+    - 日野市5件: 中小企業等賃上げ促進支援金、魅力ある個店創り支援事業補助金、販路開拓支援事業補助金、ものづくり産業開発支援事業補助金、ものづくり企業等地域共生推進助成金。
+  - 生成ファイル:
+    - `tasks/discovery/tokyo-official-coverage-009-municipalities.json`
+    - `tasks/discovery/tokyo-official-coverage-009-13210-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-009-13211-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-009-13212-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-009-13213-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-009-13210-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-009-13211-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-009-13212-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-009-13213-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-009-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-009-target-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-009.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（15件、`verified-local-misc-2026.ts` 内で各1件）。
+    - 公式URL到達: pass（15 official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 11149、officialLinkedActive 11111、manuallyVerifiedActive 11111、東京都 localOfficial 533）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 受付終了、受付休止、404、金額又は受付状況不足、PDF精査待ち、カテゴリ導線、様式のみ、国制度色が強い候補、直接取得403の候補は第2巡候補又は次回継続候補に残す。
+  - 次:
+    - 東京都公式棚卸し010として、13213東村山市の直接取得403候補を公式本文/PDF又はキャッシュで再確認し、続けて13214国分寺市、13215国立市、13218福生市を自治体コード順に確認する。

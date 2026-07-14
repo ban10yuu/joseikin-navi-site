@@ -1,0 +1,56 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-009",
+  "updatedAt": "2026-07-14T13:45:00+09:00",
+  "prefecture": "東京都",
+  "targetMunicipalities": [
+    { "code": "13210", "name": "小金井市", "status": "completed", "adopted": 5 },
+    { "code": "13211", "name": "小平市", "status": "completed", "adopted": 5 },
+    { "code": "13212", "name": "日野市", "status": "completed", "adopted": 5 },
+    { "code": "13213", "name": "東村山市", "status": "carried-forward", "adopted": 0, "note": "候補184件を抽出。個別制度ページの直接取得でCloudFront 403があり、公式本文で必須項目を再確認できた候補のみ次回以降に採用判断する。" }
+  ],
+  "candidateSummary": {
+    "totalCandidates": 805,
+    "byMunicipality": {
+      "13210": 199,
+      "13211": 294,
+      "13212": 128,
+      "13213": 184
+    },
+    "rescoreFile": "tasks/discovery/tokyo-official-coverage-009-target-snippets.json"
+  },
+  "adoptedSlugs": [
+    "koganei-low-income-air-conditioner-subsidy-2026",
+    "koganei-home-security-equipment-subsidy-2026",
+    "koganei-renewable-energy-equipment-subsidy-2026",
+    "koganei-child-support-expense-securing-subsidy-2026",
+    "koganei-disabled-transportation-allowance-2026",
+    "kodaira-energy-saving-appliance-replacement-subsidy-2026",
+    "kodaira-renewable-energy-equipment-monitor-subsidy-2026",
+    "kodaira-stray-cat-spay-neuter-subsidy-2026",
+    "kodaira-stray-cat-protection-transfer-subsidy-2026",
+    "kodaira-single-parent-vocational-training-benefit-2026",
+    "hino-wage-increase-support-grant-2026",
+    "hino-attractive-shop-support-subsidy-2026",
+    "hino-sales-channel-development-subsidy-2026",
+    "hino-manufacturing-industry-development-subsidy-2026",
+    "hino-manufacturing-community-coexistence-subsidy-2026"
+  ],
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: 15 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 15 official URLs returned HTTP 200",
+    "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 11149, officialLinkedActive 11111, manuallyVerifiedActive 11111, Tokyo localOfficial 533"
+  },
+  "next": {
+    "batchId": "tokyo-comprehensive-official-coverage-010",
+    "municipalities": [
+      { "code": "13213", "name": "東村山市" },
+      { "code": "13214", "name": "国分寺市" },
+      { "code": "13215", "name": "国立市" },
+      { "code": "13218", "name": "福生市" }
+    ],
+    "instructions": "東村山市は直接取得403候補を公式本文/PDF又はキャッシュで再確認し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度だけ採用する。続けて13214国分寺市、13215国立市、13218福生市を自治体コード順に確認する。"
+  }
+}

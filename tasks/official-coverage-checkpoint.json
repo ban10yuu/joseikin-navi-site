@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-07-14T08:50:00+09:00",
+  "updatedAt": "2026-07-14T13:45:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "chiba-official-coverage-009",
-    "municipality": "匝瑳市・香取市・山武市・いすみ市",
-    "adopted": 21,
-    "held": 238,
+    "code": "tokyo-official-coverage-009",
+    "municipality": "小金井市・小平市・日野市",
+    "adopted": 15,
+    "held": 790,
     "excluded": 0,
-    "sourceUrlsChecked": 21,
+    "sourceUrlsChecked": 15,
     "validation": {
-      "previousMunicipality": "千葉県公式棚卸し009として、12235匝瑳市、12236香取市、12237山武市、12238いすみ市の公式本文/PDFを確認し、匝瑳市4件、香取市6件、山武市4件、いすみ市7件を採用した。全国公式棚卸しは未完了。",
+      "previousMunicipality": "東京都公式棚卸し009として、13210小金井市、13211小平市、13212日野市の公式本文を確認し各5件、計15件を採用した。13213東村山市は候補184件を抽出したが、個別制度ページの直接取得でCloudFront 403があり、公式本文再確認が必要なため次回継続とした。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: 21 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 21 official URLs returned HTTP 200",
+      "addedSlugUniqueness": "pass: 15 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 15 official URLs returned HTTP 200",
       "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 10844, officialLinkedActive 10806, manuallyVerifiedActive 10806, Chiba localOfficial 411"
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 11149, officialLinkedActive 11111, manuallyVerifiedActive 11111, Tokyo localOfficial 533"
     }
   },
   "next": {
-    "code": "chiba-official-coverage-010",
-    "municipality": "大網白里市・酒々井町・栄町・神崎町",
-    "shortlist": "千葉県公式棚卸し009は、匝瑳市4件、香取市6件、山武市4件、いすみ市7件を採用した。4市の結婚新生活支援制度は既存公式確認済みのため新規追加から除外。匝瑳市妊婦支援給付は公式URL候補は確認したが本文抽出が空だったため第2巡候補に残し、山武市省エネ家電製品買換え促進事業補助金は公式ページ上で新規申請受付終了のため今回採用から除外した。カテゴリ導線、様式のみ、県・国制度紹介、金額又は受付状況不足候補は第2巡候補に残した。次は自治体コード順に12239大網白里市、12322酒々井町、12329栄町、12342神崎町。",
-    "instructions": "千葉県公式棚卸し010として、12239大網白里市、12322酒々井町、12329栄町、12342神崎町の公式本文/PDFを確認する。既掲載公式URL、県・国制度重複、カテゴリ導線、生成データの公式未確認制度を除外し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度だけ採用する。"
+    "code": "tokyo-official-coverage-010",
+    "municipality": "東村山市・国分寺市・国立市・福生市",
+    "shortlist": "東京都公式棚卸し009は候補805件から小金井市5件、小平市5件、日野市5件を採用した。東村山市は候補184件を抽出し、エコecoチャレンジ、低所得世帯等エアコン、中小企業等成長支援、事業継続補助、公益活動補助などの制度候補があるが、個別制度ページの直接取得でCloudFront 403があり、公式本文で必須項目を再確認できたものだけ次回採用判断する。カテゴリ導線、様式のみ、金額又は受付状況不足候補は第2巡候補に残す。",
+    "instructions": "東京都公式棚卸し010として、13213東村山市の直接取得403候補を公式本文/PDF又はキャッシュで再確認し、続けて13214国分寺市、13215国立市、13218福生市を自治体コード順に確認する。制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度だけ採用する。"
   },
   "prefectureMilestone": {
-    "prefecture": "埼玉県",
-    "status": "one-pass-reached-end",
-    "lastBatch": "saitama-official-coverage-016",
-    "notes": "埼玉県内自治体コード順の一巡は016で末尾まで到達。千葉県の公式棚卸しに移行済み。"
+    "prefecture": "東京都",
+    "status": "in-progress",
+    "lastBatch": "tokyo-official-coverage-009",
+    "notes": "東京都23区と市部を自治体コード順に継続中。13212日野市まで公式本文確認済み。13213東村山市は直接取得403候補を再確認してから継続。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
