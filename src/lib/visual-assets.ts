@@ -52,16 +52,18 @@ export const HOME_SEARCH_GUIDE_VISUALS = [
   {
     title: '対象を選ぶ',
     description: '個人・家族、事業者から選択',
-    src: motif('student'),
+    visualType: 'audience',
   },
   {
     title: '地域・目的を入力',
     description: 'お住まいの地域や目的で絞る',
+    visualType: 'image',
     src: motif('regional-revitalization'),
   },
   {
     title: '公式情報を確認',
     description: '募集要項で対象条件を最終確認',
+    visualType: 'image',
     src: motif('official-source-search'),
   },
 ] as const;

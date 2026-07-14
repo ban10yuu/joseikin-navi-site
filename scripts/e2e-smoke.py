@@ -16,6 +16,14 @@ def check(condition, message):
     if not condition:
         failures.append(message)
 
+def rectangles_overlap(left, right):
+    return not (
+        left['x'] + left['width'] <= right['x']
+        or right['x'] + right['width'] <= left['x']
+        or left['y'] + left['height'] <= right['y']
+        or right['y'] + right['height'] <= left['y']
+    )
+
 def open_page(browser, path, width=1280, height=900):
     page = browser.new_page(viewport={'width': width, 'height': height})
     console_errors = []
@@ -27,6 +35,27 @@ def open_page(browser, path, width=1280, height=900):
 
 with sync_playwright() as playwright:
     browser = playwright.chromium.launch(headless=True, executable_path=CHROME_PATH)
+
+    # トップの装飾が人物や案内アイコンへ重ならないこと
+    for visual_width in [320, 768, 1440]:
+        visual_home, _ = open_page(browser, '/', visual_width, 1000)
+        hero_picture = visual_home.locator('.home-hero-picture').bounding_box()
+        housing_motif = visual_home.locator('.home-hero-motifs li').nth(1).bounding_box()
+        senior_face_area = {
+            'x': hero_picture['x'] + hero_picture['width'] * 0.62,
+            'y': hero_picture['y'] + hero_picture['height'] * 0.20,
+            'width': hero_picture['width'] * 0.28,
+            'height': hero_picture['height'] * 0.38,
+        }
+        check(not rectangles_overlap(housing_motif, senior_face_area), f'トップ ({visual_width}px): 住まいラベルが人物の顔へ重なっています')
+        first_guide = visual_home.locator('.home-search-guide li').first
+        audience_visual = first_guide.locator('.home-search-guide-audience')
+        check(audience_visual.locator('.audience-icon-person').count() == 1, f'トップ ({visual_width}px): 対象選択に人物アイコンがありません')
+        check(audience_visual.locator('.audience-icon-company').count() == 1, f'トップ ({visual_width}px): 対象選択に会社アイコンがありません')
+        if audience_visual.count() == 1:
+            guide_number = first_guide.locator('.home-search-guide-number').bounding_box()
+            check(not rectangles_overlap(guide_number, audience_visual.bounding_box()), f'トップ ({visual_width}px): 手順番号が対象アイコンへ重なっています')
+        visual_home.close()
 
     # 主要URLとフォーム、メニュー、URLクエリの動作
     home, home_errors = open_page(browser, '/', 390, 844)

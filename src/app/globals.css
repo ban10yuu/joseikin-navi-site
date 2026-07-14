@@ -159,7 +159,7 @@ body {
 }
 
 .home-hero-motifs li:nth-child(2) {
-  top: 30%;
+  top: -0.75rem;
   right: -1.5rem;
 }
 
@@ -546,7 +546,7 @@ body {
 .home-search-guide li {
   position: relative;
   display: grid;
-  grid-template-columns: 50px minmax(0, 1fr);
+  grid-template-columns: 1.1rem 56px minmax(0, 1fr);
   align-items: center;
   gap: 0.5rem;
   min-width: 0;
@@ -562,10 +562,31 @@ body {
   object-fit: contain;
 }
 
+.home-search-guide-audience {
+  display: grid;
+  width: 56px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.2rem;
+}
+
+.home-search-guide-audience > span {
+  display: inline-flex;
+  min-width: 0;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  background: #e8f0ff;
+  color: #2557a7;
+}
+
+.home-search-guide-audience > span:last-child {
+  background: #e7f6ef;
+  color: #176b4d;
+}
+
 .home-search-guide-number {
-  position: absolute;
-  top: 0.3rem;
-  left: 0.3rem;
+  position: static;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -2046,9 +2067,16 @@ body {
     height: 38px;
   }
 
+  .home-search-guide-audience {
+    width: 50px;
+  }
+
+  .home-search-guide-audience > span {
+    height: 30px;
+  }
+
   .home-search-guide-number {
-    top: 0.25rem;
-    left: 0.25rem;
+    position: static;
   }
 
   .home-search-guide-copy strong {

@@ -42,7 +42,7 @@ interface HomeGrantSearchProps {
 function AudienceIcon({ type }: { type: Audience }) {
   if (type === 'personal') {
     return (
-      <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="1.8">
+      <svg className="audience-icon-person" aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="1.8">
         <circle cx="12" cy="8" r="3" />
         <path d="M5.5 20c.5-4.1 2.7-6.2 6.5-6.2s6 2.1 6.5 6.2" />
       </svg>
@@ -50,7 +50,7 @@ function AudienceIcon({ type }: { type: Audience }) {
   }
 
   return (
-    <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="1.8">
+    <svg className="audience-icon-company" aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="1.8">
       <path d="M4 20V7.5L12 4v16M12 9h8v11M7.5 9.5h1M7.5 13h1M7.5 16.5h1M15.5 12h1M15.5 15.5h1" />
     </svg>
   );
@@ -97,7 +97,14 @@ export default function HomeGrantSearch({
         {HOME_SEARCH_GUIDE_VISUALS.map((item, index) => (
           <li key={item.title}>
             <span className="home-search-guide-number">{index + 1}</span>
-            <Image src={item.src} alt="" width={56} height={56} sizes="(max-width: 768px) 38px, 50px" />
+            {item.visualType === 'audience' ? (
+              <span className="home-search-guide-audience" aria-hidden="true">
+                <span><AudienceIcon type="personal" /></span>
+                <span><AudienceIcon type="business" /></span>
+              </span>
+            ) : (
+              <Image src={item.src} alt="" width={56} height={56} sizes="(max-width: 768px) 38px, 50px" />
+            )}
             <span className="home-search-guide-copy">
               <strong>{item.title}</strong>
               <small>{item.description}</small>

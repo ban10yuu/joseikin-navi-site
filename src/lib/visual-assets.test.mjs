@@ -44,12 +44,17 @@ describe('visual assets', () => {
     });
   });
 
-  it('検索手順の3項目に生成モチーフを割り当てる', () => {
+  it('検索手順の対象選択は人物・会社アイコン、残りは生成モチーフを使う', () => {
     assert.deepEqual(
       HOME_SEARCH_GUIDE_VISUALS.map(({ title }) => title),
       ['対象を選ぶ', '地域・目的を入力', '公式情報を確認'],
     );
-    HOME_SEARCH_GUIDE_VISUALS.forEach(({ src }) => {
+    assert.deepEqual(
+      HOME_SEARCH_GUIDE_VISUALS.map(({ visualType }) => visualType),
+      ['audience', 'image', 'image'],
+    );
+    HOME_SEARCH_GUIDE_VISUALS.slice(1).forEach(({ src }) => {
+      assert.ok(src.length > 0);
       assert.equal(existsSync(projectPublicPath(src)), true, src);
     });
   });
