@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T01:25:00+09:00",
+  "updatedAt": "2026-07-15T01:55:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "ishikawa-official-coverage-003",
-    "municipality": "野々市市・川北町・津幡町・内灘町・志賀町",
-    "adopted": 84,
-    "held": 626,
+    "code": "ishikawa-official-coverage-004",
+    "municipality": "宝達志水町・中能登町・穴水町・能登町",
+    "adopted": 36,
+    "held": 206,
     "excluded": 0,
-    "sourceUrlsChecked": 84,
+    "sourceUrlsChecked": 36,
     "validation": {
-      "previousMunicipality": "石川県公式棚卸し003として、17212野々市市・17324川北町・17361津幡町・17365内灘町・17384志賀町を確認した。自治体別クロールで候補710件、短い本文スニペット704件、公式URLリード303件を保存し、個別公式ページ84件を新規採用した。全国公式棚卸しは未完了。",
+      "previousMunicipality": "石川県公式棚卸し004として、17386宝達志水町・17407中能登町・17461穴水町・17463能登町を確認した。自治体別クロールで候補242件、短い本文スニペット241件、公式URLリード156件を保存し、個別公式ページ36件を新規採用した。宝達志水町・能登町は第1巡で採用なし。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for 18 ishikawa-official-coverage-003 JSON files and official-coverage-checkpoint.json",
-      "addedSlugUniqueness": "pass: 84 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 84 primary official URLs returned HTTP 200",
+      "json": "pass: JSON.parse for 18 ishikawa-official-coverage-004 JSON files and official-coverage-checkpoint.json",
+      "addedSlugUniqueness": "pass: 36 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 36 primary official URLs returned HTTP 200",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 12402, officialLinkedActive 12282, manuallyVerifiedActive 12282, 石川県 localOfficial 271)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 12438, officialLinkedActive 12318, manuallyVerifiedActive 12318, 石川県 localOfficial 307)"
     }
   },
   "next": {
-    "code": "ishikawa-official-coverage-004",
-    "municipality": "宝達志水町",
-    "shortlist": "石川県公式棚卸し003は野々市市26件、川北町25件、津幡町9件、内灘町1件、志賀町23件の計84件を採用した。トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補として保持する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、17386宝達志水町を開始地点として石川県公式棚卸し004を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "fukui-official-coverage-001",
+    "municipality": "福井市",
+    "shortlist": "石川県公式棚卸し004は中能登町6件、穴水町30件の計36件を採用した。宝達志水町・能登町は第1巡採用なし。トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補として保持する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、18201福井市を開始地点として福井県公式棚卸し001を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "石川県",
-    "status": "in-progress",
-    "lastBatch": "ishikawa-official-coverage-003",
-    "notes": "石川県は17201金沢市から17384志賀町まで自治体コード順に第1巡到達（17208は欠番）。次は17386宝達志水町から再開。全国公式棚卸しは未完了。"
+    "status": "first-pass-complete",
+    "lastBatch": "ishikawa-official-coverage-004",
+    "notes": "石川県は17201金沢市から17463能登町まで自治体コード順に第1巡到達（17208等は欠番）。全国公式棚卸しは未完了。次は福井県をHEAD・進捗JSON・自治体台帳から開始する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

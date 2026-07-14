@@ -1,0 +1,111 @@
+{
+  "batchId": "ishikawa-official-coverage-004",
+  "completedAt": "2026-07-15T01:55:00+09:00",
+  "prefecture": "石川県",
+  "municipalities": [
+    {
+      "code": "17386",
+      "name": "宝達志水町",
+      "officialBaseUrl": "https://www.hodatsushimizu.jp/",
+      "adopted": 0
+    },
+    {
+      "code": "17407",
+      "name": "中能登町",
+      "officialBaseUrl": "https://www.town.nakanoto.ishikawa.jp/",
+      "adopted": 6
+    },
+    {
+      "code": "17461",
+      "name": "穴水町",
+      "officialBaseUrl": "https://www.town.anamizu.lg.jp/",
+      "adopted": 30
+    },
+    {
+      "code": "17463",
+      "name": "能登町",
+      "officialBaseUrl": "https://www.town.noto.lg.jp/",
+      "adopted": 0
+    }
+  ],
+  "discovery": {
+    "candidates": 242,
+    "snippets": 241,
+    "urlLeads": 156,
+    "adopted": 36,
+    "heldForSecondPass": 206,
+    "note": "shortlistが150件超かつcrawl候補の40%超だったため、短い本文スニペットを抽出し再スコアリングした。トップ、カテゴリ、様式、申請書単体、周知のみ、制度要件不足候補は第2巡候補として保持。"
+  },
+  "adoptedByMunicipality": {
+    "中能登町": 6,
+    "穴水町": 30
+  },
+  "adoptedSlugs": [
+    "nakanoto-official-004-001-2026-ishikawa",
+    "anamizu-official-004-002-2026-ishikawa",
+    "anamizu-official-004-003-2026-ishikawa",
+    "anamizu-official-004-004-2026-ishikawa",
+    "anamizu-official-004-005-2026-ishikawa",
+    "anamizu-official-004-006-2026-ishikawa",
+    "anamizu-official-004-007-2026-ishikawa",
+    "anamizu-official-004-008-2026-ishikawa",
+    "anamizu-official-004-009-2026-ishikawa",
+    "anamizu-official-004-010-2026-ishikawa",
+    "nakanoto-official-004-011-2026-ishikawa",
+    "nakanoto-official-004-012-2026-ishikawa",
+    "anamizu-official-004-013-2026-ishikawa",
+    "anamizu-official-004-014-2026-ishikawa",
+    "anamizu-official-004-015-2026-ishikawa",
+    "anamizu-official-004-016-2026-ishikawa",
+    "anamizu-official-004-017-2026-ishikawa",
+    "anamizu-official-004-018-2026-ishikawa",
+    "anamizu-official-004-019-2026-ishikawa",
+    "anamizu-official-004-020-2026-ishikawa",
+    "anamizu-official-004-021-2026-ishikawa",
+    "anamizu-official-004-022-2026-ishikawa",
+    "anamizu-official-004-023-2026-ishikawa",
+    "anamizu-official-004-024-2026-ishikawa",
+    "anamizu-official-004-025-2026-ishikawa",
+    "anamizu-official-004-026-2026-ishikawa",
+    "anamizu-official-004-027-2026-ishikawa",
+    "anamizu-official-004-028-2026-ishikawa",
+    "anamizu-official-004-029-2026-ishikawa",
+    "anamizu-official-004-030-2026-ishikawa",
+    "anamizu-official-004-031-2026-ishikawa",
+    "nakanoto-official-004-032-2026-ishikawa",
+    "nakanoto-official-004-033-2026-ishikawa",
+    "nakanoto-official-004-034-2026-ishikawa",
+    "anamizu-official-004-035-2026-ishikawa",
+    "anamizu-official-004-036-2026-ishikawa"
+  ],
+  "generatedFiles": [
+    "tasks/discovery/ishikawa-official-coverage-004-17386-candidates.json",
+    "tasks/discovery/ishikawa-official-coverage-004-17386-municipality.json",
+    "tasks/discovery/ishikawa-official-coverage-004-17407-candidates.json",
+    "tasks/discovery/ishikawa-official-coverage-004-17407-municipality.json",
+    "tasks/discovery/ishikawa-official-coverage-004-17461-candidates.json",
+    "tasks/discovery/ishikawa-official-coverage-004-17461-municipality.json",
+    "tasks/discovery/ishikawa-official-coverage-004-17463-candidates.json",
+    "tasks/discovery/ishikawa-official-coverage-004-17463-municipality.json",
+    "tasks/discovery/ishikawa-official-coverage-004-adopted-urls.json",
+    "tasks/discovery/ishikawa-official-coverage-004-adoption-ranked.json",
+    "tasks/discovery/ishikawa-official-coverage-004-candidates.json",
+    "tasks/discovery/ishikawa-official-coverage-004-municipalities.json",
+    "tasks/discovery/ishikawa-official-coverage-004-rescored-snippets.json",
+    "tasks/discovery/ishikawa-official-coverage-004-snippets.json",
+    "tasks/discovery/ishikawa-official-coverage-004-url-leads.json",
+    "tasks/discovery/ishikawa-official-coverage-004-url-seeds.json"
+  ],
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: 36 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 36 primary official URLs returned HTTP 200",
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 12438, officialLinkedActive 12318, manuallyVerifiedActive 12318, 石川県 localOfficial 307)"
+  },
+  "next": {
+    "code": "fukui-official-coverage-001",
+    "municipality": "福井市",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、福井県公式棚卸し001として18201福井市を開始地点に確認する。全国公式棚卸しは未完了扱いを維持する。"
+  }
+}

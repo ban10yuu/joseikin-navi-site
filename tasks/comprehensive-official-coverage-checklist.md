@@ -9100,3 +9100,42 @@
   - トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補に残す。
 - 次:
   - 石川県公式棚卸し004として、17386宝達志水町から自治体コード順に確認する。
+
+### 2026-07-15 石川県公式棚卸し004（17386宝達志水町・17407中能登町・17461穴水町・17463能登町）
+
+- 作業範囲:
+  - 17386 宝達志水町、17407 中能登町、17461 穴水町、17463 能登町の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 自治体別クロールで候補242件を取得した。shortlistが150件超かつcrawl候補の40%超だったため、候補241件から短い本文スニペットを抽出し、ページ内リンク156件を制度リードとして再取得した。
+  - 採用対象の36公式ページ又は公式PDFは全件HTTP 200を確認した。
+- 採用:
+  - 合計36件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 中能登町6件: 令和8年度結婚新生活支援事業補助金、令和6年能登半島地震被災者生活再建支援金、チャイルドシート購入費補助金、水道料金の特別減免、中能登町診療所開設等支援事業補助金、中能登町危険ブロック塀の撤去に関する補助金制度。
+  - 穴水町30件: 石川県被災宅地流通活性化事業費補助金、ふるさと就職促進奨励金交付事業、特別児童扶養手当等、災害弔慰金・災害障害見舞金、災害援護資金の貸付け、穴水町集会施設借上補助金、生ごみ処理容器・処理機購入補助金、児童手当、穴水町中小企業等再構築補助金、住宅ローン等の減免・免除、合併浄化槽設置に関する補助金等、合宿等誘致事業費補助金交付制度、住居確保給付金、浄化槽の補助金制度、家財一時保管支援事業補助金、穴水町墓石等復旧支援事業補助金、能登半島住宅取得奨励金、地域福祉推進支援臨時特例給付金、国民健康保険・後期高齢者医療・介護保険の一部負担金等免除、国民健康保険税の産前産後免除制度、過疎地域における固定資産税の課税免除等、老朽危険空き家除却費補助金、定住促進奨励金制度、下水道融資あっせん制度、穴水町収入保険加入促進事業補助金、穴水町移住者支援自動車リース料金補助金、Ｕターンファミリー同居リフォーム支援事業補助金、Ｉターンファミリー移住暮らし応援補助金、自主防災組織設立・活動補助金、穴水町サテライトオフィス立地促進補助金。
+  - 宝達志水町・能登町は第1巡で採用なし。候補は第2巡台帳に保持。
+- 生成ファイル:
+  - `tasks/discovery/ishikawa-official-coverage-004-municipalities.json`
+  - `tasks/discovery/ishikawa-official-coverage-004-17386-municipality.json`
+  - `tasks/discovery/ishikawa-official-coverage-004-17407-municipality.json`
+  - `tasks/discovery/ishikawa-official-coverage-004-17461-municipality.json`
+  - `tasks/discovery/ishikawa-official-coverage-004-17463-municipality.json`
+  - `tasks/discovery/ishikawa-official-coverage-004-candidates.json`
+  - `tasks/discovery/ishikawa-official-coverage-004-url-seeds.json`
+  - `tasks/discovery/ishikawa-official-coverage-004-snippets.json`
+  - `tasks/discovery/ishikawa-official-coverage-004-url-leads.json`
+  - `tasks/discovery/ishikawa-official-coverage-004-rescored-snippets.json`
+  - `tasks/discovery/ishikawa-official-coverage-004-adoption-ranked.json`
+  - `tasks/discovery/ishikawa-official-coverage-004-adopted-urls.json`
+  - `tasks/discovery/ishikawa-official-coverage-004.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（004関連JSON、checkpoint）。
+  - 追加slug重複: pass（36件、`verified-local-misc-2026.ts` 全体 duplicateCount 0）。
+  - 公式URL到達: pass（36 primary official URLsすべてHTTP 200）。
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 12438、officialLinkedActive 12318、manuallyVerifiedActive 12318、石川県 localOfficial 307）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は石川県17463能登町到達のみで全国完了扱いしない。
+  - トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補に残す。
+- 次:
+  - 福井県公式棚卸し001として、18201福井市から自治体コード順に確認する。

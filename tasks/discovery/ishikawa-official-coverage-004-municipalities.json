@@ -1,0 +1,26 @@
+{
+  "batchId": "ishikawa-official-coverage-004",
+  "prefecture": "石川県",
+  "municipalities": [
+    {
+      "code": "17386",
+      "name": "宝達志水町",
+      "officialBaseUrl": "https://www.hodatsushimizu.jp/"
+    },
+    {
+      "code": "17407",
+      "name": "中能登町",
+      "officialBaseUrl": "https://www.town.nakanoto.ishikawa.jp/"
+    },
+    {
+      "code": "17461",
+      "name": "穴水町",
+      "officialBaseUrl": "https://www.town.anamizu.lg.jp/"
+    },
+    {
+      "code": "17463",
+      "name": "能登町",
+      "officialBaseUrl": "https://www.town.noto.lg.jp/"
+    }
+  ]
+}
