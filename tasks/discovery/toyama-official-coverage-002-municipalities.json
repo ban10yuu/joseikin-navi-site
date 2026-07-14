@@ -1,0 +1,31 @@
+{
+  "batchId": "toyama-official-coverage-002",
+  "prefecture": "富山県",
+  "municipalities": [
+    {
+      "code": "16207",
+      "name": "黒部市",
+      "officialBaseUrl": "https://www.city.kurobe.toyama.jp/"
+    },
+    {
+      "code": "16208",
+      "name": "砺波市",
+      "officialBaseUrl": "https://www.city.tonami.lg.jp/"
+    },
+    {
+      "code": "16209",
+      "name": "小矢部市",
+      "officialBaseUrl": "https://www.city.oyabe.toyama.jp/"
+    },
+    {
+      "code": "16210",
+      "name": "南砺市",
+      "officialBaseUrl": "https://www.city.nanto.toyama.jp/"
+    },
+    {
+      "code": "16211",
+      "name": "射水市",
+      "officialBaseUrl": "https://www.city.imizu.toyama.jp/"
+    }
+  ]
+}

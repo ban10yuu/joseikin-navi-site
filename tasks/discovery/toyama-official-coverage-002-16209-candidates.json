@@ -1,0 +1,3104 @@
+{
+  "batchId": "toyama-official-coverage-002",
+  "prefecture": "富山県",
+  "generatedAt": "2026-07-14T14:59:04.078Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 97,
+  "results": [
+    {
+      "code": "16209",
+      "name": "小矢部市",
+      "officialBaseUrl": "https://www.city.oyabe.toyama.jp/",
+      "discoveredUrlCount": 220,
+      "candidateCount": 97,
+      "strongCandidateCount": 5,
+      "lowPriorityCandidateCount": 92,
+      "candidates": [
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/",
+          "status": 200,
+          "title": "魅力・安心・充実 しあわせ おやべ",
+          "h1": "魅力・安心・充実 しあわせ おやべ",
+          "updatedAt": "令和8年7月10日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/index.html",
+          "status": 200,
+          "title": "防災",
+          "h1": "防災",
+          "updatedAt": "令和8年5月29日",
+          "keywordHits": [
+            "補助金",
+            "農業"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002259/index.html",
+          "status": 200,
+          "title": "避難所・防災マップ",
+          "h1": "避難所・防災マップ",
+          "updatedAt": "令和8年5月29日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/mokuteki/1001506.html",
+          "status": 200,
+          "title": "妊娠・出産",
+          "h1": "妊娠・出産",
+          "updatedAt": "2023年3月9日",
+          "keywordHits": [
+            "助成金",
+            "医療費助成",
+            "子育て",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/mokuteki/1001507.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "2023年3月10日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/shisetsu/index.html",
+          "status": 200,
+          "title": "施設案内",
+          "h1": "施設案内",
+          "updatedAt": "2025年2月21日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/index.html",
+          "status": 200,
+          "title": "健康・医療",
+          "h1": "健康・医療",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002145/1002146/index.html",
+          "status": 200,
+          "title": "ごみ・リサイクル",
+          "h1": "ごみ・リサイクル",
+          "updatedAt": "令和7年1月6日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/soshiki/index.html",
+          "status": 200,
+          "title": "組織",
+          "h1": "組織",
+          "updatedAt": "2023年4月7日",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/faq/index.html",
+          "status": 200,
+          "title": "よくある質問",
+          "h1": "よくある質問",
+          "updatedAt": "2023年3月23日",
+          "keywordHits": [
+            "助成金",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kurashi/index.html",
+          "status": 200,
+          "title": "くらし・手続き",
+          "h1": "くらし・手続き",
+          "updatedAt": "2023年3月6日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "移住",
+            "住宅",
+            "空き家",
+            "耐震",
+            "通学"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002393/index.html",
+          "status": 200,
+          "title": "市営バス",
+          "h1": "市営バス",
+          "updatedAt": "令和6年4月1日",
+          "keywordHits": [
+            "補助金",
+            "通学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kurashi/1001729/index.html",
+          "status": 200,
+          "title": "移住・定住支援",
+          "h1": "移住・定住支援",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "助成金",
+            "移住",
+            "空き家"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kurashi/1001751/index.html",
+          "status": 200,
+          "title": "地域おこし協力隊",
+          "h1": "地域おこし協力隊",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002358/index.html",
+          "status": 200,
+          "title": "住宅・土地",
+          "h1": "住宅・土地",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "耐震"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/dl-list/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2023年3月9日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和7年10月14日",
+          "keywordHits": [
+            "補助金",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1002613/index.html",
+          "status": 200,
+          "title": "子育て手当・助成",
+          "h1": "子育て手当・助成",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "補助金",
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 16,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004459/index.html",
+          "status": 200,
+          "title": "こどもを預けたい",
+          "h1": "こどもを預けたい",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/index.html",
+          "status": 200,
+          "title": "こどもの健康・医療",
+          "h1": "こどもの健康・医療",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "予防接種",
+            "不妊"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004709/index.html",
+          "status": 200,
+          "title": "妊娠・出産",
+          "h1": "妊娠・出産",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "不妊"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1002625/index.html",
+          "status": 200,
+          "title": "子育てサポート",
+          "h1": "子育てサポート",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004458/index.html",
+          "status": 200,
+          "title": "学校・教育",
+          "h1": "学校・教育",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "就学",
+            "奨学金",
+            "通学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1002662/index.html",
+          "status": 200,
+          "title": "子育て支援施設",
+          "h1": "子育て支援施設",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1002610/index.html",
+          "status": 200,
+          "title": "ひとり親家庭",
+          "h1": "ひとり親家庭",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "補助金",
+            "医療費助成"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1002622/index.html",
+          "status": 200,
+          "title": "障がい児支援",
+          "h1": "障がい児支援",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/index.html",
+          "status": 200,
+          "title": "健康・福祉",
+          "h1": "健康・福祉",
+          "updatedAt": "2023年3月6日",
+          "keywordHits": [
+            "助成金",
+            "給付金",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/index.html",
+          "status": 200,
+          "title": "高齢者福祉・介護保険",
+          "h1": "高齢者福祉・介護保険",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "助成金",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002525/index.html",
+          "status": 200,
+          "title": "障害者福祉",
+          "h1": "障害者福祉",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002554/index.html",
+          "status": 200,
+          "title": "社会福祉・生活福祉",
+          "h1": "社会福祉・生活福祉",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "給付金",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/bunkasports/index.html",
+          "status": 200,
+          "title": "文化・スポーツ・イベント",
+          "h1": "文化・スポーツ・イベント",
+          "updatedAt": "2023年3月6日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/bunkasports/1002986/index.html",
+          "status": 200,
+          "title": "文化財",
+          "h1": "文化財",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/bunkasports/1002999/index.html",
+          "status": 200,
+          "title": "申請書（文化・文化財関連）",
+          "h1": "申請書（文化・文化財関連）",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/bunkasports/1003093/index.html",
+          "status": 200,
+          "title": "スポーツ",
+          "h1": "スポーツ",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/index.html",
+          "status": 200,
+          "title": "産業・ビジネス",
+          "h1": "産業・ビジネス",
+          "updatedAt": "2023年3月23日",
+          "keywordHits": [
+            "補助金",
+            "創業",
+            "事業者",
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002792/index.html",
+          "status": 200,
+          "title": "雇用・労働",
+          "h1": "雇用・労働",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002748/index.html",
+          "status": 200,
+          "title": "農林業",
+          "h1": "農林業",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002761/index.html",
+          "status": 200,
+          "title": "有害鳥獣対策",
+          "h1": "有害鳥獣対策",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002785/index.html",
+          "status": 200,
+          "title": "農業委員会",
+          "h1": "農業委員会",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002809/index.html",
+          "status": 200,
+          "title": "支援・助成（事業者向け）",
+          "h1": "支援・助成（事業者向け）",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "補助金",
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002981/index.html",
+          "status": 200,
+          "title": "道路・河川",
+          "h1": "道路・河川",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/1004895/index.html",
+          "status": 200,
+          "title": "事業者募集",
+          "h1": "事業者募集",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/index.html",
+          "status": 200,
+          "title": "市政情報",
+          "h1": "市政情報",
+          "updatedAt": "2025年10月1日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "農業"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1007628/index.html",
+          "status": 200,
+          "title": "サイバーセキュリティを確保するための方針について",
+          "h1": "サイバーセキュリティを確保するための方針について",
+          "updatedAt": "2026年4月10日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001905/index.html",
+          "status": 200,
+          "title": "施策・計画（総合計画・総合戦略・SDGs）",
+          "h1": "施策・計画（総合計画・総合戦略・SDGs）",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1007745/index.html",
+          "status": 200,
+          "title": "公示送達",
+          "h1": "公示送達",
+          "updatedAt": "令和8年5月21日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1003195/index.html",
+          "status": 200,
+          "title": "婚活応援 小矢部市は「結婚したい」を応援しています。",
+          "h1": "婚活応援 小矢部市は「結婚したい」を応援しています。",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1003255/1007771.html",
+          "status": 200,
+          "title": "窓口受付時間の変更（試行）について",
+          "h1": "窓口受付時間の変更（試行）について",
+          "updatedAt": "2026年6月12日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1003255/1006300/index.html",
+          "status": 200,
+          "title": "小矢部市新庁舎整備事業に関するページ一覧",
+          "h1": "小矢部市新庁舎整備事業に関するページ一覧",
+          "updatedAt": "2026年7月3日",
+          "keywordHits": [
+            "耐震"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001692/1004469/1001942.html",
+          "status": 200,
+          "title": "小矢部市LINE公式アカウント",
+          "h1": "小矢部市LINE公式アカウント",
+          "updatedAt": "2023年9月26日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002145/1002169/1006470.html",
+          "status": 200,
+          "title": "クーリングシェルター（指定暑熱避難施設）の指定について（令和8年7月時点）",
+          "h1": "クーリングシェルター（指定暑熱避難施設）の指定について（令和8年7月時点）",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002976/1007404.html",
+          "status": 200,
+          "title": "公募型プロポーザルの実施（小矢部市例規集データベースの管理、データ更新等に関する業務）【結果公表】",
+          "h1": "公募型プロポーザルの実施（小矢部市例規集データベースの管理、データ更新等に関する業務）【結果公表】",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/newslist.html",
+          "status": 200,
+          "title": "新着更新情報",
+          "h1": "新着更新情報",
+          "updatedAt": "令和8年7月10日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/ijyu/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "助成金",
+            "医療費助成",
+            "移住",
+            "子育て",
+            "通学"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001670/1001675.html",
+          "status": 200,
+          "title": "ふるさとおやべ応援寄附金",
+          "h1": "ふるさとおやべ応援寄附金",
+          "updatedAt": "2026年5月12日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "助成金",
+            "移住",
+            "住宅",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/soshiki/1004118.html",
+          "status": 200,
+          "title": "お問い合わせ一覧",
+          "h1": "お問い合わせ一覧",
+          "updatedAt": "2026年5月28日",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1007865.html",
+          "status": 200,
+          "title": "小矢部市地域防災力向上支援事業費補助金について",
+          "h1": "小矢部市地域防災力向上支援事業費補助金について",
+          "updatedAt": "2026年7月14日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1005288.html",
+          "status": 200,
+          "title": "地震に対する備え",
+          "h1": "地震に対する備え",
+          "updatedAt": "2024年12月3日",
+          "keywordHits": [
+            "住宅",
+            "耐震"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1005440/index.html",
+          "status": 200,
+          "title": "令和6年能登半島地震",
+          "h1": "令和6年能登半島地震",
+          "updatedAt": "2025年7月29日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002244/index.html",
+          "status": 200,
+          "title": "農業用ため池",
+          "h1": "農業用ため池",
+          "updatedAt": "令和8年5月29日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002254.html",
+          "status": 200,
+          "title": "要配慮者利用施設における避難確保計画について（施設管理者向け）",
+          "h1": "要配慮者利用施設における避難確保計画について（施設管理者向け）",
+          "updatedAt": "2025年4月28日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002258.html",
+          "status": 200,
+          "title": "防災に関する申請書・届出書",
+          "h1": "防災に関する申請書・届出書",
+          "updatedAt": "2026年5月13日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1004959.html",
+          "status": 200,
+          "title": "農業用水路について",
+          "h1": "農業用水路について",
+          "updatedAt": "2024年7月12日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002259/1004686.html",
+          "status": 200,
+          "title": "AED施設一覧",
+          "h1": "AED施設一覧",
+          "updatedAt": "2025年4月24日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002259/1002262.html",
+          "status": 200,
+          "title": "災害時における福祉避難所の協定締結",
+          "h1": "災害時における福祉避難所の協定締結",
+          "updatedAt": "2025年8月27日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002437/1002438.html",
+          "status": 200,
+          "title": "休日当番医日程表",
+          "h1": "休日当番医日程表",
+          "updatedAt": "2025年3月2日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002437/1006589.html",
+          "status": 200,
+          "title": "救急医療電話相談（＃7119）について",
+          "h1": "救急医療電話相談（＃7119）について",
+          "updatedAt": "2024年5月17日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002437/1006355.html",
+          "status": 200,
+          "title": "小児救急電話相談 #8000",
+          "h1": "小児救急電話相談 #8000",
+          "updatedAt": "2024年12月23日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002451/index.html",
+          "status": 200,
+          "title": "感染予防・予防接種",
+          "h1": "感染予防・予防接種",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002462/index.html",
+          "status": 200,
+          "title": "健康増進",
+          "h1": "健康増進",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "助成金"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002489.html",
+          "status": 200,
+          "title": "お医者さんの上手なかかり方",
+          "h1": "お医者さんの上手なかかり方",
+          "updatedAt": "2023年3月6日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002490.html",
+          "status": 200,
+          "title": "がん患者補正具購入費用助成事業のご案内（アピアランスケア）",
+          "h1": "がん患者補正具購入費用助成事業のご案内（アピアランスケア）",
+          "updatedAt": "2026年4月30日",
+          "keywordHits": [
+            "助成金",
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1003330.html",
+          "status": 200,
+          "title": "富山県小児・AYA世代がん患者等妊孕性温存療法研究促進事業について",
+          "h1": "富山県小児・AYA世代がん患者等妊孕性温存療法研究促進事業について",
+          "updatedAt": "2023年3月6日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002491.html",
+          "status": 200,
+          "title": "受動喫煙対策",
+          "h1": "受動喫煙対策",
+          "updatedAt": "2026年5月26日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/mokuteki/index.html",
+          "status": 200,
+          "title": "目的で探す",
+          "h1": "目的で探す",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002595/index.html",
+          "status": 200,
+          "title": "不妊・不育症治療助成",
+          "h1": "不妊・不育症治療助成",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "不妊"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002600.html",
+          "status": 200,
+          "title": "おやべママパパ講座",
+          "h1": "おやべママパパ講座",
+          "updatedAt": "2026年7月3日",
+          "keywordHits": [
+            "福祉",
+            "妊婦"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002602.html",
+          "status": 200,
+          "title": "新生児訪問、こんにちは赤ちゃん訪問",
+          "h1": "新生児訪問、こんにちは赤ちゃん訪問",
+          "updatedAt": "2024年6月21日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002603.html",
+          "status": 200,
+          "title": "母子保健推進員",
+          "h1": "母子保健推進員",
+          "updatedAt": "2026年5月27日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002609.html",
+          "status": 200,
+          "title": "母子健康手帳、妊産婦健診票等の交付",
+          "h1": "母子健康手帳、妊産婦健診票等の交付",
+          "updatedAt": "2024年6月12日",
+          "keywordHits": [
+            "給付金",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002607.html",
+          "status": 200,
+          "title": "県外医療機関における妊婦一般健康診査",
+          "h1": "県外医療機関における妊婦一般健康診査",
+          "updatedAt": "2023年3月6日",
+          "keywordHits": [
+            "福祉",
+            "妊婦"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002608.html",
+          "status": 200,
+          "title": "出産等支援交通費助成金交付申請書兼請求書",
+          "h1": "出産等支援交通費助成金交付申請書兼請求書",
+          "updatedAt": "2026年1月6日",
+          "keywordHits": [
+            "助成金"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002599.html",
+          "status": 200,
+          "title": "妊産婦医療費助成制度",
+          "h1": "妊産婦医療費助成制度",
+          "updatedAt": "2024年12月17日",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "妊婦"
+          ],
+          "candidateScore": 20,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002633/1002652/1002654.html",
+          "status": 200,
+          "title": "こども医療費助成制度",
+          "h1": "こども医療費助成制度",
+          "updatedAt": "2024年12月17日",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 20,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002606.html",
+          "status": 200,
+          "title": "産前産後ヘルパー派遣事業",
+          "h1": "産前産後ヘルパー派遣事業",
+          "updatedAt": "2026年6月8日",
+          "keywordHits": [
+            "事業者",
+            "妊婦"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002604.html",
+          "status": 200,
+          "title": "産前・産後サポート事業",
+          "h1": "産前・産後サポート事業",
+          "updatedAt": "2026年4月3日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002605.html",
+          "status": 200,
+          "title": "産後ケア事業",
+          "h1": "産後ケア事業",
+          "updatedAt": "2026年4月8日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002601.html",
+          "status": 200,
+          "title": "新生児等聴覚検査費用助成事業",
+          "h1": "新生児等聴覚検査費用助成事業",
+          "updatedAt": "2024年6月12日",
+          "keywordHits": [
+            "助成金",
+            "農業"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004458/1002722/index.html",
+          "status": 200,
+          "title": "小中学校",
+          "h1": "小中学校",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/1002517/index.html",
+          "status": 200,
+          "title": "支援センター（施設）",
+          "h1": "支援センター（施設）",
+          "updatedAt": "令和9年6月30日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/1004122/1002495.html",
+          "status": 200,
+          "title": "介護者を支援するサービス",
+          "h1": "介護者を支援するサービス",
+          "updatedAt": "2023年3月6日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/1004122/1002496.html",
+          "status": 200,
+          "title": "在宅の高齢者を支援するサービス",
+          "h1": "在宅の高齢者を支援するサービス",
+          "updatedAt": "2026年3月25日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/1004121/1002494.html",
+          "status": 200,
+          "title": "「わたしたちの介護保険」ガイドブック（利用の手引き）",
+          "h1": "「わたしたちの介護保険」ガイドブック（利用の手引き）",
+          "updatedAt": "2026年5月15日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/1002500.html",
+          "status": 200,
+          "title": "介護認定者支援サービス",
+          "h1": "介護認定者支援サービス",
+          "updatedAt": "2026年6月4日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/1002506/1002507.html",
+          "status": 200,
+          "title": "認知症あんしんネットについて",
+          "h1": "認知症あんしんネットについて",
+          "updatedAt": "2025年5月8日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "16209",
+          "municipalityName": "小矢部市",
+          "sourceUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/1002464.html",
+          "status": 200,
+          "title": "老人生きがいセンター",
+          "h1": "老人生きがいセンター",
+          "updatedAt": "2025年2月3日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.oyabe.toyama.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/robots.txt",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/robots.txt",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/about/site/usability.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/about/site/usability.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/about/site/foreignlanguage.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/about/site/foreignlanguage.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002259/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002259/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002437/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002437/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/mokuteki/1001506.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/mokuteki/1001506.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/mokuteki/1001507.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/mokuteki/1001507.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/mokuteki/1001508.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/mokuteki/1001508.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/mokuteki/1001509.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/mokuteki/1001509.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/mokuteki/1001510.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/mokuteki/1001510.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/mokuteki/1001511.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/mokuteki/1001511.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002145/1002146/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002145/1002146/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002024/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002024/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/soshiki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/soshiki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/faq/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/faq/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/onlineservice/1004982.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/onlineservice/1004982.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/onlineservice/1004722.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/onlineservice/1004722.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002066/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002066/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002093/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002093/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002145/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002145/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002393/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002393/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002194/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002194/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1001729/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1001729/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1001751/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1001751/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002289/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002289/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002304/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002304/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002268/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002268/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002271/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002271/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002283/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002283/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002280/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002280/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002060/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002060/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002387/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002387/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002358/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002358/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/dl-list/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/dl-list/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1002585/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1002585/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1002592/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1002592/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1002613/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1002613/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004459/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004459/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004709/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004709/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1002625/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1002625/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004458/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004458/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1002662/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1002662/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004461/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004461/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1002610/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1002610/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1002622/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1002622/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002525/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002525/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002554/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002554/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/bunkasports/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/bunkasports/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/bunkasports/1004850/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/bunkasports/1004850/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/bunkasports/1002986/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/bunkasports/1002986/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/bunkasports/1002999/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/bunkasports/1002999/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/bunkasports/1003003/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/bunkasports/1003003/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/bunkasports/1003026/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/bunkasports/1003026/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/bunkasports/1003093/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/bunkasports/1003093/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/bunkasports/1003113/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/bunkasports/1003113/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/bunkasports/1004708/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/bunkasports/1004708/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/sangyobusiness/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/sangyobusiness/1004446/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/1004446/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/sangyobusiness/1003087/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/1003087/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002792/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002792/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002748/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002748/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002761/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002761/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002785/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002785/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002809/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002809/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002840/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002840/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002939/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002939/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002944/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002944/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002947/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002947/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002976/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002976/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002981/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002981/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002984/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002984/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/sangyobusiness/1004895/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/1004895/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1007628/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1007628/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001641/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001641/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1003255/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1003255/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001670/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001670/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001692/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001692/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001719/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001719/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001760/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001760/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001781/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001781/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001784/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001784/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001787/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001787/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001808/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001808/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001905/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001905/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1007651/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1007651/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001954/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001954/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001969/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001969/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1007745/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1007745/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001975/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001975/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001981/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001981/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1007545/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1007545/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001986/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001986/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1003195/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1003195/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1003250/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1003250/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/onlineservice/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/onlineservice/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/ml_detail.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/ml_detail.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1003255/1007771.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1003255/1007771.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1003255/1006300/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1003255/1006300/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001692/1004469/1001942.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001692/1004469/1001942.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001981/1007863.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001981/1007863.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001981/1007847.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001981/1007847.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002145/1002169/1006470.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002145/1002169/1006470.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001808/1001812.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001808/1001812.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002976/1007404.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002976/1007404.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/newslist.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/newslist.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/about/site/rss.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/about/site/rss.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001692/1001693/1007482/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001692/1001693/1007482/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/event_calendar.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/event_calendar.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/ijyu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/ijyu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001670/1001675.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001670/1001675.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/oyabe.brand/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/oyabe.brand/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shigikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shigikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001719/1001723.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001719/1001723.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/1002506/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/1002506/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/about/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/about/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/about/1003270.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/about/1003270.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/about/1003271.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/about/1003271.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/about/accessibility/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/about/accessibility/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1003255/1003256.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1003255/1003256.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shisetsu/1004476/1004119.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shisetsu/1004476/1004119.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/soshiki/1004118.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/soshiki/1004118.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/about/site/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/about/site/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/about/site/1001706.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/about/site/1001706.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/about/site/search.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/about/site/search.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/about/site/idsearch.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/about/site/idsearch.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/about/site/barrierfree.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/about/site/barrierfree.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1007865.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1007865.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1007626.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1007626.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1007621.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1007621.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1007605.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1007605.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1007607.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1007607.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1006456.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1006456.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002253.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002253.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1005263.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1005263.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1005288.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1005288.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1004694.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1004694.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1007616/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1007616/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1005253/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1005253/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002263/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002263/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1005440/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1005440/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1005133/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1005133/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1007136.html",
+          "status": 0,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1007136.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1003361.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1003361.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1004947.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1004947.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1006184/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1006184/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002244/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002244/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002249/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002249/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002252.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002252.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002254.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002254.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002255.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002255.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002256.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002256.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002258.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002258.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002761/1002763.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/sangyobusiness/1002761/1002763.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1004959.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1004959.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1005533/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1005533/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1004088/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1004088/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002238/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002238/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1004090/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1004090/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002237.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002237.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002239.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002239.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002259/1002260.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002259/1002260.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002259/1002264.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002259/1002264.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002259/1002266.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002259/1002266.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002259/1004686.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002259/1004686.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002259/1002261.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002259/1002261.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002259/1002262.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002259/1002262.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002259/1004796.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002236/1002243/1002259/1004796.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002437/1002438.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002437/1002438.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002437/1006589.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002437/1006589.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002437/1006355.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002437/1006355.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002439/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002439/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002451/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002451/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002460/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002460/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002462/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002462/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002074.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002074.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002489.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002489.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002490.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002490.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1003330.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1003330.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002491.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1002491.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1005287.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002436/1005287.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/mokuteki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/mokuteki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002595/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002595/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002600.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002600.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002602.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002602.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002603.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002603.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002609.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002609.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002607.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002607.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002608.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002608.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002599.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002599.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002633/1002652/1002654.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002633/1002652/1002654.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001905/1001917/1001919.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001905/1001917/1001919.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002606.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002606.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002604.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002604.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002605.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002605.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002601.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004460/1002598/1002601.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004458/1002722/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004458/1002722/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004459/1002682/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kosodatekyoiku/1004459/1002682/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/kurashi/1002024/1002033/1002040.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/kurashi/1002024/1002033/1002040.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001905/1001917/1001918.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/shiseijyouhou/1001905/1001917/1001918.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/1002517/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/1002517/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/1004122/1002495.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/1004122/1002495.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/1004122/1002496.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/1004122/1002496.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/1004121/1002494.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/1004121/1002494.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/1002500.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/1002500.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/1002506/1002507.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/1002506/1002507.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/1002464.html",
+          "status": 200,
+          "finalUrl": "https://www.city.oyabe.toyama.jp/fukushikenkou/1002492/1002464.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

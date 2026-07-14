@@ -8867,3 +8867,48 @@
   - 富山市のトップページ、周知・募集・全国制度案内、重複移住支援申請ページ、高岡市・氷見市・滑川市のカテゴリ/一覧/共通ナビ一致、魚津市の個別条件不足PDF候補は第2巡候補に残す。
 - 次:
   - 富山県公式棚卸し002として、16207黒部市から自治体コード順に確認する。
+
+### 2026-07-14 富山県公式棚卸し002（16207黒部市・16208砺波市・16209小矢部市・16210南砺市・16211射水市）
+
+- 作業範囲:
+  - 16207 黒部市、16208 砺波市、16209 小矢部市、16210 南砺市、16211 射水市の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページ/PDFを確認した。
+  - 自治体別クロールで候補628件を取得した。通常クロール候補が薄い砺波市・南砺市・射水市は公式ドメイン限定検索結果から個別制度URLを補完し、公式URLリード673件、詳細673件、短い本文スニペット673件を保存した。
+  - 南砺市は市公式サブドメイン（`kurashi.city.nanto.toyama.jp`、`sukoyaka.city.nanto.toyama.jp`）も公式制度ページとして確認した。
+- 採用:
+  - 合計67件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 黒部市19件: 【事業者向け】黒部市中小企業者等賃上げ・人手不足解消支援補助金、黒部市プレ妊活健診、医療機関で支払う一部負担金の減額・免除又は徴収猶予制度、出産育児一時金、葬祭費、高額療養費、高齢者を対象とした運転免許自主返納支援事業、通話録音装置等購入費補助金、黒部市防犯カメラ等設置事業補助金、屋根雪融雪装置設置補助、住宅用ディスポーザ設置補助、黒部市住宅取得支援補助金、黒部市移住支援金、就職定住促進事業補助金、黒部市男性の育児休業取得推進事業補助金、黒部市人材確保企業PR動画作成支援事業補助金、がん患者補正具購入費用助成、介護職員就労定着支援補助金、黒部市コンベンション開催支援補助金。
+  - 砺波市10件: 砺波市住宅取得支援事業補助金、砺波市家賃支援事業補助金、農地・農業用施設小規模災害復旧支援金、砺波市三世代交流ふれあい事業補助金、砺波市コンベンション開催事業補助金、就学援助（新入学学用品費）の入学前支給、こども医療費助成制度、出産育児一時金、市内企業等出展助成事業補助金、障害者雇用奨励金。
+  - 小矢部市10件: 妊婦のための支援給付、児童手当、県外医療機関における妊婦一般健康診査助成、出産等支援交通費助成金、妊産婦医療費助成制度、新生児等聴覚検査費用助成事業、小矢部市地域防災力向上支援事業費補助金、がん患者補正具購入費用助成事業、こども医療費助成制度、不妊・不育症治療助成。
+  - 南砺市11件: 南砺市家計応援給付金、物価高対応子育て応援手当、市内企業就職奨励金、令和8年度就学援助制度、南砺市不育症治療費助成制度、心身障害者福祉金、南砺市中小企業等ビルドアップ支援補助金、南砺市宿泊施設立地促進助成金、南砺市地域課題解決型市民活動支援事業補助金、南砺市定住奨励金、こども医療費助成。
+  - 射水市17件: いみず住まいづくり支援補助金（新築等取得事業）、いみず住まい等応援事業補助金（新築等取得事業）、ひとり親家庭等医療費助成、明日の射水を担う若者定住助成金制度、企業立地のための助成制度、射水市指定宅地取得支援助成制度、射水市移住支援金、不妊治療費助成制度、射水市若者世帯定住促進家賃補助事業、射水市にぎわい創出集客イベント開催支援事業補助金、ひとり親家庭等への支援、地方就職支援金、カーボンニュートラル推進事業補助金、射水市結婚新生活支援事業、中小企業販路拡大支援事業補助金、中小企業等DX推進事業補助金、射水市高齢者住宅改善費補助金。
+- 生成ファイル:
+  - `tasks/discovery/toyama-official-coverage-002-municipalities.json`
+  - `tasks/discovery/toyama-official-coverage-002-16207-municipality.json`
+  - `tasks/discovery/toyama-official-coverage-002-16208-municipality.json`
+  - `tasks/discovery/toyama-official-coverage-002-16209-municipality.json`
+  - `tasks/discovery/toyama-official-coverage-002-16210-municipality.json`
+  - `tasks/discovery/toyama-official-coverage-002-16211-municipality.json`
+  - `tasks/discovery/toyama-official-coverage-002-16207-candidates.json`
+  - `tasks/discovery/toyama-official-coverage-002-16208-candidates.json`
+  - `tasks/discovery/toyama-official-coverage-002-16209-candidates.json`
+  - `tasks/discovery/toyama-official-coverage-002-16210-candidates.json`
+  - `tasks/discovery/toyama-official-coverage-002-16211-candidates.json`
+  - `tasks/discovery/toyama-official-coverage-002-candidates.json`
+  - `tasks/discovery/toyama-official-coverage-002-snippets.json`
+  - `tasks/discovery/toyama-official-coverage-002-url-leads.json`
+  - `tasks/discovery/toyama-official-coverage-002-details.json`
+  - `tasks/discovery/toyama-official-coverage-002-adopted-urls.json`
+  - `tasks/discovery/toyama-official-coverage-002.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（002関連JSON、checkpoint）。
+  - 追加slug重複: pass（67件、`verified-local-misc-2026.ts` 全体 duplicateCount 0）。
+  - 公式URL到達: pass（67 primary official URLsすべてHTTP 200）。
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 12119、officialLinkedActive 11999、manuallyVerifiedActive 11999、富山県 localOfficial 187）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は富山県16211射水市到達のみで全国完了扱いしない。
+  - トップ、カテゴリ、FAQ、一覧、周知のみ、ページ番号のみの金額抽出候補、対象・金額・受付表現不足候補は第2巡候補に残す。
+- 次:
+  - 富山県公式棚卸し003として、16321舟橋村、16322上市町、16323立山町、16342入善町、16343朝日町を自治体コード順に確認する。
