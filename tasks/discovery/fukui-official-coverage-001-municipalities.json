@@ -1,0 +1,31 @@
+{
+  "batchId": "fukui-official-coverage-001",
+  "prefecture": "福井県",
+  "municipalities": [
+    {
+      "code": "18201",
+      "name": "福井市",
+      "officialBaseUrl": "https://www.city.fukui.lg.jp/"
+    },
+    {
+      "code": "18202",
+      "name": "敦賀市",
+      "officialBaseUrl": "https://www.city.tsuruga.lg.jp/"
+    },
+    {
+      "code": "18204",
+      "name": "小浜市",
+      "officialBaseUrl": "https://www1.city.obama.fukui.jp/"
+    },
+    {
+      "code": "18205",
+      "name": "大野市",
+      "officialBaseUrl": "https://www.city.ono.fukui.jp/"
+    },
+    {
+      "code": "18206",
+      "name": "勝山市",
+      "officialBaseUrl": "https://www.city.katsuyama.fukui.jp/"
+    }
+  ]
+}

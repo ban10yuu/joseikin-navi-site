@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T01:55:00+09:00",
+  "updatedAt": "2026-07-15T01:52:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "ishikawa-official-coverage-004",
-    "municipality": "宝達志水町・中能登町・穴水町・能登町",
-    "adopted": 36,
-    "held": 206,
+    "code": "fukui-official-coverage-001",
+    "municipality": "福井市・敦賀市・小浜市・大野市・勝山市",
+    "adopted": 75,
+    "held": 721,
     "excluded": 0,
-    "sourceUrlsChecked": 36,
+    "sourceUrlsChecked": 75,
     "validation": {
-      "previousMunicipality": "石川県公式棚卸し004として、17386宝達志水町・17407中能登町・17461穴水町・17463能登町を確認した。自治体別クロールで候補242件、短い本文スニペット241件、公式URLリード156件を保存し、個別公式ページ36件を新規採用した。宝達志水町・能登町は第1巡で採用なし。全国公式棚卸しは未完了。",
+      "previousMunicipality": "福井県公式棚卸し001として、18201福井市・18202敦賀市・18204小浜市・18205大野市・18206勝山市を確認した。自治体別クロールで候補796件、短い本文スニペット796件、公式URLリード444件を保存し、個別公式ページ75件を新規採用した。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for 18 ishikawa-official-coverage-004 JSON files and official-coverage-checkpoint.json",
-      "addedSlugUniqueness": "pass: 36 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 36 primary official URLs returned HTTP 200",
+      "json": "pass: JSON.parse for 19 fukui-official-coverage-001 JSON files and official-coverage-checkpoint.json",
+      "addedSlugUniqueness": "pass: 75 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 75 primary official URLs returned HTTP 200",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 12438, officialLinkedActive 12318, manuallyVerifiedActive 12318, 石川県 localOfficial 307)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 12513, officialLinkedActive 12393, manuallyVerifiedActive 12393, 福井県 localOfficial 154)"
     }
   },
   "next": {
-    "code": "fukui-official-coverage-001",
-    "municipality": "福井市",
-    "shortlist": "石川県公式棚卸し004は中能登町6件、穴水町30件の計36件を採用した。宝達志水町・能登町は第1巡採用なし。トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補として保持する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、18201福井市を開始地点として福井県公式棚卸し001を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "fukui-official-coverage-002",
+    "municipality": "鯖江市",
+    "shortlist": "福井県公式棚卸し001は福井市26件、敦賀市12件、小浜市12件、大野市17件、勝山市8件の計75件を採用した。トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補として保持する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、18207鯖江市を開始地点として福井県公式棚卸し002を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
-    "prefecture": "石川県",
-    "status": "first-pass-complete",
-    "lastBatch": "ishikawa-official-coverage-004",
-    "notes": "石川県は17201金沢市から17463能登町まで自治体コード順に第1巡到達（17208等は欠番）。全国公式棚卸しは未完了。次は福井県をHEAD・進捗JSON・自治体台帳から開始する。"
+    "prefecture": "福井県",
+    "status": "in-progress",
+    "lastBatch": "fukui-official-coverage-001",
+    "notes": "福井県は18201福井市から18206勝山市まで自治体コード順に第1巡到達（18203等は欠番）。全国公式棚卸しは未完了。次は18207鯖江市から継続する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

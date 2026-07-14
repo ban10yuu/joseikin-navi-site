@@ -9139,3 +9139,48 @@
   - トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補に残す。
 - 次:
   - 福井県公式棚卸し001として、18201福井市から自治体コード順に確認する。
+
+### 2026-07-15 福井県公式棚卸し001（18201福井市・18202敦賀市・18204小浜市・18205大野市・18206勝山市）
+
+- 作業範囲:
+  - 18201 福井市、18202 敦賀市、18204 小浜市、18205 大野市、18206 勝山市の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 自治体別クロールで候補796件を取得した。shortlistが150件超かつcrawl候補の40%超だったため、候補796件から短い本文スニペットを抽出し、ページ内リンク444件を制度リードとして再取得した。
+  - 採用対象の75公式ページは全件HTTP 200を確認した。
+- 採用:
+  - 合計75件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 福井市26件: 自治会活動活性化支援事業補助金の交付、児童手当について、令和8年度 福井市小型除雪機購入補助金、合併処理浄化槽の設置補助金について、漏水時の水道料金等の減免制度、令和8年度福井市こどもの居場所づくり（こども食堂活動等）支援事業補助金、地方就職支援金、災害による市・県民税の減免について、市・県民税の減免、森林環境税の免除について、軽自動車税の減免申請について、商品車に係る軽自動車税の課税免除について、過疎地域における固定資産税の課税免除、固定資産税・都市計画税の減免、被災された方の水道料金・下水道使用料の減免制度、令和8年度 福井市公園管理刈払機等購入補助金、小児慢性特定疾病医療費助成制度、子ども医療費助成制度の助成手続き（現物給付・償還払い）、児童扶養手当、住居確保給付金、中心市街地オフィス立地助成金、自己負担金免除制度、高等職業訓練促進給付金、母子父子寡婦福祉資金の貸付について、U・Iターン就業奨励金について、福井市で定住・就業する方の奨学金の返還を支援します（令和8年度）、令和8年度 福井市除雪オペレータ育成支援事業補助金。
+  - 敦賀市12件: 敦賀市ホームタウン奨学金制度について、敦賀市除雪機械購入費補助金交付制度について（再募集）、ごみステーション鳥害等防止対策費補助金、令和8年度 野良猫不妊手術費補助金制度について、漏水時の水道料金等の減免制度について、水洗便所改造資金融資あっせん制度、合併処理浄化槽設置補助金について、軽自動車税の減免、産前産後期間の国民健康保険税が免除されます、定額減税補足給付金（不足額給付）、出産育児一時金について、敦賀市合宿誘致事業費補助金のご案内。
+  - 小浜市12件: 国民年金保険料の育児期間免除制度が始まります【令和8年10月開始】、結婚新生活を応援します！（結婚新生活支援事業補助金）、ふるさと納税返礼品の開発や改良の経費に補助金を助成します（申請締切日 2026/7/31）、新たな体験プログラムの開発に補助金を支援します、国民年金保険料の免除・納付猶予・学生納付特例、固定資産税の減免を受けられる場合があります、法人市民税の減免、●水道料金の基本料金を減免します●、小浜市防犯カメラ設置事業補助金【令和8年度】、母子家庭等医療費助成、令和8年4月より小学校の学校給食費の無償化および中学校の一部公費負担を継続します、軽自動車税の減免について。
+  - 大野市17件: 返礼品生産力向上支援補助金「ふるさと納税3.0」の提案事業者募集中！、越前おおの魅力発信支援事業補助金の対象事業を追加募集します、青年活動に対して補助金を交付します（青年活動推進事業補助）、大野市定額減税不足額給付金、公共下水道ご近所接続奨励金のご案内、ブロック塀等除去事業補助金について、預かり保育や認可外保育施設などの利用費無償化、魅力ある保育の職場づくりを応援します（各種補助金情報）、大野市文化事業補助金のご案内、児童扶養手当、児童手当、承認地域経済牽引事業計画にかかる固定資産税の課税免除について、過疎地域における固定資産税の課税免除について、店舗形成事業補助金、共同店舗形成事業補助金、結のビジネス実現補助金、育児休業等取得促進事業補助金、クリーン農業スタート事業補助金のご案内。
+  - 勝山市8件: 児童手当、畦畔用防草シート普及推進事業補助金、自転車用ヘルメット購入補助金について、除雪活動費助成金、地域経済牽引事業に係る固定資産税の課税免除について、産前産後期間相当分の国民健康保険税の減免について、地域のごみステーションの整備に 勝山市一般廃棄物集積場施設整備費補助金、地区公民館施設整備費補助金について。
+- 生成ファイル:
+  - `tasks/discovery/fukui-official-coverage-001-18201-candidates.json`
+  - `tasks/discovery/fukui-official-coverage-001-18201-municipality.json`
+  - `tasks/discovery/fukui-official-coverage-001-18202-candidates.json`
+  - `tasks/discovery/fukui-official-coverage-001-18202-municipality.json`
+  - `tasks/discovery/fukui-official-coverage-001-18204-candidates.json`
+  - `tasks/discovery/fukui-official-coverage-001-18204-municipality.json`
+  - `tasks/discovery/fukui-official-coverage-001-18205-candidates.json`
+  - `tasks/discovery/fukui-official-coverage-001-18205-municipality.json`
+  - `tasks/discovery/fukui-official-coverage-001-18206-candidates.json`
+  - `tasks/discovery/fukui-official-coverage-001-18206-municipality.json`
+  - `tasks/discovery/fukui-official-coverage-001-adopted-urls.json`
+  - `tasks/discovery/fukui-official-coverage-001-adoption-ranked.json`
+  - `tasks/discovery/fukui-official-coverage-001-candidates.json`
+  - `tasks/discovery/fukui-official-coverage-001-municipalities.json`
+  - `tasks/discovery/fukui-official-coverage-001-rescored-snippets.json`
+  - `tasks/discovery/fukui-official-coverage-001-snippets.json`
+  - `tasks/discovery/fukui-official-coverage-001-url-leads.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（001関連JSON、checkpoint）。
+  - 追加slug重複: pass（75件、`verified-local-misc-2026.ts` 全体 duplicateCount 0）。
+  - 公式URL到達: pass（75 primary official URLsすべてHTTP 200）。
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 12513、officialLinkedActive 12393、manuallyVerifiedActive 12393、福井県 localOfficial 154）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は福井県18206勝山市到達のみで全国完了扱いしない。
+  - トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補に残す。
+- 次:
+  - 福井県公式棚卸し002として、18207鯖江市から自治体コード順に確認する。

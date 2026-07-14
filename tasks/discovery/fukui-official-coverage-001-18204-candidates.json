@@ -1,0 +1,4394 @@
+{
+  "batchId": "fukui-official-coverage-001",
+  "prefecture": "福井県",
+  "generatedAt": "2026-07-14T16:38:54.681Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 160,
+  "results": [
+    {
+      "code": "18204",
+      "name": "小浜市",
+      "officialBaseUrl": "https://www1.city.obama.fukui.jp/",
+      "discoveredUrlCount": 220,
+      "candidateCount": 160,
+      "strongCandidateCount": 2,
+      "lowPriorityCandidateCount": 158,
+      "candidates": [
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "水産",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/teiju/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "空き家"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "水産",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/index.html",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "支援金",
+            "奨励金",
+            "免除",
+            "移住",
+            "住宅",
+            "空き家",
+            "事業者",
+            "福祉",
+            "奨学金"
+          ],
+          "candidateScore": 27,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/shigoto/index.html",
+          "status": 200,
+          "title": "しごと",
+          "h1": "しごと",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "事業者",
+            "農業",
+            "林業",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kosodate-kyoiku/index.html",
+          "status": 200,
+          "title": "子育て・教育",
+          "h1": "子育て・教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/shisei/index.html",
+          "status": 200,
+          "title": "市政",
+          "h1": "市政",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/p007035.html",
+          "status": 200,
+          "title": "★全市民に「おばまチケット」を配付します★",
+          "h1": "★全市民に「おばまチケット」を配付します★",
+          "updatedAt": "2026年1月13日",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "奨励金",
+            "貸付",
+            "減免",
+            "免除",
+            "移住",
+            "住宅",
+            "空き家",
+            "空家",
+            "事業者",
+            "福祉",
+            "奨学金",
+            "耐震",
+            "予防接種",
+            "不妊",
+            "通学"
+          ],
+          "candidateScore": 27,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/shisei/furusatonouzei/p006856.html",
+          "status": 200,
+          "title": "小浜市ふるさと納税",
+          "h1": "小浜市ふるさと納税",
+          "updatedAt": "2025年5月14日",
+          "keywordHits": [
+            "補助金",
+            "事業者"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/bosai-anzen/index.html",
+          "status": 200,
+          "title": "防災・安全",
+          "h1": "防災・安全",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "空き家",
+            "福祉",
+            "耐震"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/bosai-anzen/hinan/4324.html",
+          "status": 200,
+          "title": "市内の避難所・避難場所",
+          "h1": "市内の避難所・避難場所",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/purpose/ninshin/index.html",
+          "status": 200,
+          "title": "「妊娠・出産」の記事一覧",
+          "h1": "「妊娠・出産」の記事一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/purpose/nyuen/index.html",
+          "status": 200,
+          "title": "「入園・入学」の記事一覧",
+          "h1": "「入園・入学」の記事一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/purpose/shushoku/index.html",
+          "status": 200,
+          "title": "「就職・退職」の記事一覧",
+          "h1": "「就職・退職」の記事一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "奨励金",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/purpose/kekkon/index.html",
+          "status": 200,
+          "title": "「結婚・離婚」の記事一覧",
+          "h1": "「結婚・離婚」の記事一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/purpose/hikkoshi/index.html",
+          "status": 200,
+          "title": "「引っ越し・住まい」の記事一覧",
+          "h1": "「引っ越し・住まい」の記事一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "移住",
+            "住宅",
+            "空家",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/purpose/korei/index.html",
+          "status": 200,
+          "title": "「高齢・介護」の記事一覧",
+          "h1": "「高齢・介護」の記事一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/purpose/shibo/index.html",
+          "status": 200,
+          "title": "「死亡・相続」の記事一覧",
+          "h1": "「死亡・相続」の記事一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/purpose/boshu/index.html",
+          "status": 200,
+          "title": "募集・補助・助成",
+          "h1": "募集・補助・助成",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "支援金",
+            "奨励金",
+            "移住",
+            "住宅",
+            "事業者",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 27,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/purpose/sodan/index.html",
+          "status": 200,
+          "title": "「相談窓口」の記事一覧",
+          "h1": "「相談窓口」の記事一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/purpose/gomi/index.html",
+          "status": 200,
+          "title": "「ごみ・リサイクル」の記事一覧",
+          "h1": "「ごみ・リサイクル」の記事一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/kokyokotsu/index.html",
+          "status": 200,
+          "title": "公共交通",
+          "h1": "公共交通",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "空き家",
+            "福祉",
+            "子育て",
+            "通学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/shisei/kokyoshisetsu/index.html",
+          "status": 200,
+          "title": "公共施設",
+          "h1": "公共施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/shisei/obamashinitsuite/p000000a.html",
+          "status": 200,
+          "title": "ご意見・お問い合わせ",
+          "h1": "ご意見・お問い合わせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "農業",
+            "林業",
+            "水産",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/purpose/calendar/event.html",
+          "status": 200,
+          "title": "生活カレンダー",
+          "h1": "生活カレンダー",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/shisei/p006230.html",
+          "status": 200,
+          "title": "行政手続きのオンラインサービス（電子申請・施設予約）",
+          "h1": "行政手続きのオンラインサービス（電子申請・施設予約）",
+          "updatedAt": "2023年6月15日",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "移住",
+            "住宅",
+            "空家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/suido-gesuido/gesuidou/p007199.html",
+          "status": 200,
+          "title": "下水道排水設備工事責任技術者試験を実施します",
+          "h1": "下水道排水設備工事責任技術者試験を実施します",
+          "updatedAt": "2026年7月14日",
+          "keywordHits": [
+            "貸付",
+            "免除"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/p007196.html",
+          "status": 200,
+          "title": "市民体育館の空調が利用できます！",
+          "h1": "市民体育館の空調が利用できます！",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "奨励金",
+            "貸付",
+            "減免",
+            "免除",
+            "移住",
+            "住宅",
+            "空き家",
+            "空家",
+            "事業者",
+            "福祉",
+            "奨学金",
+            "耐震",
+            "予防接種",
+            "不妊",
+            "通学"
+          ],
+          "candidateScore": 27,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/edu/p007195.html",
+          "status": 200,
+          "title": "小浜市教育振興基本計画（案）のパブリックコメント（意見募集）を実施します",
+          "h1": "小浜市教育振興基本計画（案）のパブリックコメント（意見募集）を実施します",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "通学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/shisei/kokyoshisetsu/taiikushisetsu/46.html",
+          "status": 200,
+          "title": "市民体育館",
+          "h1": "市民体育館",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "助成金",
+            "減免"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/shisei/furusatonouzei/p007194.html",
+          "status": 200,
+          "title": "【ふるさと納税】さとふる ふるさと特産品写真＆動画コンテスト",
+          "h1": "【ふるさと納税】さとふる ふるさと特産品写真＆動画コンテスト",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "補助金",
+            "事業者"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/shigoto/shigoto-sangyo/suisanshinkou/p007176.html",
+          "status": 200,
+          "title": "漁場生産力・水産多面的機能強化対策事業",
+          "h1": "漁場生産力・水産多面的機能強化対策事業",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "水産"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/news/index.html",
+          "status": 200,
+          "title": "新着情報一覧",
+          "h1": "新着情報一覧",
+          "updatedAt": "令和8年6月12日",
+          "keywordHits": [
+            "助成金",
+            "支援金",
+            "免除",
+            "移住",
+            "住宅",
+            "事業者",
+            "水産",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kanko-bunka/p007187.html",
+          "status": 200,
+          "title": "ドラマ「サバ缶、宇宙へ行く」ロケ地マップの配布を開始します！",
+          "h1": "ドラマ「サバ缶、宇宙へ行く」ロケ地マップの配布を開始します！",
+          "updatedAt": "2026年6月22日",
+          "keywordHits": [
+            "補助金",
+            "水産"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/news/boshu/p007183.html",
+          "status": 200,
+          "title": "【ガバメントクラウドファンディング】若狭マリンピア2026花火大会の寄付金を募集します！",
+          "h1": "【ガバメントクラウドファンディング】若狭マリンピア2026花火大会の寄付金を募集します！",
+          "updatedAt": "2026年6月15日",
+          "keywordHits": [
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/news/boshu/p007177.html",
+          "status": 200,
+          "title": "小江戸川越ハーフマラソン2026に抽選で無料招待します!",
+          "h1": "小江戸川越ハーフマラソン2026に抽選で無料招待します!",
+          "updatedAt": "2026年6月12日",
+          "keywordHits": [
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/news/boshu/p007178.html",
+          "status": 200,
+          "title": "奈良マラソン2026に抽選で無料招待します!",
+          "h1": "奈良マラソン2026に抽選で無料招待します!",
+          "updatedAt": "2026年6月9日",
+          "keywordHits": [
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/news/boshu/p006893.html",
+          "status": 200,
+          "title": "福井県チャレンジプランコンテスト2026の参加者を募集しています",
+          "h1": "福井県チャレンジプランコンテスト2026の参加者を募集しています",
+          "updatedAt": "2026年6月4日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "支援金",
+            "移住",
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/sumaiakiya/sijuu/p006568.html",
+          "status": 200,
+          "title": "【随時募集】市営住宅入居申し込み",
+          "h1": "【随時募集】市営住宅入居申し込み",
+          "updatedAt": "2026年6月2日",
+          "keywordHits": [
+            "住宅",
+            "空き家"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/news/boshu/p006906.html",
+          "status": 200,
+          "title": "ふくい桜マラソン2027に抽選で無料招待します!",
+          "h1": "ふくい桜マラソン2027に抽選で無料招待します!",
+          "updatedAt": "2026年5月1日",
+          "keywordHits": [
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kanko-bunka/p007095.html",
+          "status": 200,
+          "title": "【追加募集】ドラマや映画などの映像作品にかかるエキストラを募集します！",
+          "h1": "【追加募集】ドラマや映画などの映像作品にかかるエキストラを募集します！",
+          "updatedAt": "2026年4月30日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/news/boshu/p007136.html",
+          "status": 200,
+          "title": "小浜市母子健康手帳アプリの導入および運用業務委託に係る公募型プロポーザルを実施します",
+          "h1": "小浜市母子健康手帳アプリの導入および運用業務委託に係る公募型プロポーザルを実施します",
+          "updatedAt": "2026年4月15日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/shisei/shiminkyodo-boranteia/shiminkyodojigyo/p005700.html",
+          "status": 200,
+          "title": "まちづくり事業の提案を募集します【みんなで潤う☆小浜づくり事業】",
+          "h1": "まちづくり事業の提案を募集します【みんなで潤う☆小浜づくり事業】",
+          "updatedAt": "2026年2月25日",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "事業者"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/shisei/furusatonouzei/p006860.html",
+          "status": 200,
+          "title": "ふるさと納税の返礼品提供事業者を募集しています",
+          "h1": "ふるさと納税の返礼品提供事業者を募集しています",
+          "updatedAt": "2025年5月15日",
+          "keywordHits": [
+            "補助金",
+            "事業者"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/shisei/furusatonouzei/p006050.html",
+          "status": 200,
+          "title": "【企業募集】企業版ふるさと納税",
+          "h1": "【企業募集】企業版ふるさと納税",
+          "updatedAt": "2024年7月14日",
+          "keywordHits": [
+            "補助金",
+            "事業者"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/shisei/shichonoheya/p000000.html",
+          "status": 200,
+          "title": "市長メッセージ",
+          "h1": "市長メッセージ",
+          "updatedAt": "2025年10月1日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/koho-kocho/index.html",
+          "status": 200,
+          "title": "広報・広聴",
+          "h1": "広報・広聴",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "空き家",
+            "福祉"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/gikai/index.html",
+          "status": 200,
+          "title": "小浜市議会ホームページ",
+          "h1": "小浜市議会ホームページ",
+          "updatedAt": "令和8年7月10日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/edu/index.html",
+          "status": 200,
+          "title": "小浜市教育委員会",
+          "h1": "小浜市教育委員会",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/teiju/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "空き家"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "http://www1.city.obama.fukui.jp/obm/shinkansen/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "平成28年12月20日",
+          "keywordHits": [
+            "貸付"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kenkokanri-center/",
+          "status": 200,
+          "title": "小浜市健康管理センター",
+          "h1": "小浜市健康管理センター",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "http://www1.city.obama.fukui.jp/obm/kankou/film/",
+          "status": 200,
+          "title": "若狭おばまフィルムコミッション",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "水産"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/tosyokan/p006370.html",
+          "status": 200,
+          "title": "小浜市立図書館",
+          "h1": "小浜市立図書館",
+          "updatedAt": "2023年10月1日",
+          "keywordHits": [
+            "通学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/news/p000000c.html",
+          "status": 200,
+          "title": "ウェブアクセシビリティ方針",
+          "h1": "ウェブアクセシビリティ方針",
+          "updatedAt": "2021年10月2日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "支援金",
+            "奨励金",
+            "移住",
+            "住宅",
+            "空き家",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 27,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/contact",
+          "status": 200,
+          "title": "子育てに関するお問い合わせ",
+          "h1": "子育てに関するお問い合わせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/emergency",
+          "status": 200,
+          "title": "子どもの救急",
+          "h1": "子どもの救急",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/map_category/map_kindergarten",
+          "status": 200,
+          "title": "施設便利マップ",
+          "h1": "施設便利マップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/link",
+          "status": 200,
+          "title": "お役立ちリンク",
+          "h1": "お役立ちリンク",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/kidsplaypark-nanairo",
+          "status": 200,
+          "title": "キッズプレイパーク「なないろ」について",
+          "h1": "キッズプレイパーク「なないろ」について",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/age_pregnancy",
+          "status": 200,
+          "title": "妊娠中",
+          "h1": "妊娠中",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "子育て",
+            "予防接種",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/age_0",
+          "status": 200,
+          "title": "0歳",
+          "h1": "0歳",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/age_1-2",
+          "status": 200,
+          "title": "1～2歳",
+          "h1": "1～2歳",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/age_3-6",
+          "status": 200,
+          "title": "3～6歳",
+          "h1": "3～6歳",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/age_schoolchild",
+          "status": 200,
+          "title": "小学生",
+          "h1": "小学生",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/age_student",
+          "status": 200,
+          "title": "中学生以上",
+          "h1": "中学生以上",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種",
+            "妊婦",
+            "通学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_want",
+          "status": 200,
+          "title": "子どもが欲しい",
+          "h1": "子どもが欲しい",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "不妊"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_pregnancy",
+          "status": 200,
+          "title": "妊娠したら",
+          "h1": "妊娠したら",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_born",
+          "status": 200,
+          "title": "子どもが生まれたら",
+          "h1": "子どもが生まれたら",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_medical",
+          "status": 200,
+          "title": "健康・医療・予防接種について",
+          "h1": "健康・医療・予防接種について",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_aid",
+          "status": 200,
+          "title": "助成制度や各種手当について",
+          "h1": "助成制度や各種手当について",
+          "updatedAt": "",
+          "keywordHits": [
+            "一時金",
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 26,
+          "candidatePriority": "strong",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_play",
+          "status": 200,
+          "title": "遊ぶ・学ぶ",
+          "h1": "遊ぶ・学ぶ",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学",
+            "奨学金",
+            "予防接種",
+            "通学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_temporarily",
+          "status": 200,
+          "title": "子どもを一時的に預けたい",
+          "h1": "子どもを一時的に預けたい",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_nursery",
+          "status": 200,
+          "title": "保育園・幼稚園に通わせたい",
+          "h1": "保育園・幼稚園に通わせたい",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_school",
+          "status": 200,
+          "title": "学校を探したい",
+          "h1": "学校を探したい",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種",
+            "通学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_consultation",
+          "status": 200,
+          "title": "子育てについて相談したい",
+          "h1": "子育てについて相談したい",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/subject_single",
+          "status": 200,
+          "title": "ひとり親家庭の方",
+          "h1": "ひとり親家庭の方",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/subject_support",
+          "status": 200,
+          "title": "支援が必要なお子さん",
+          "h1": "支援が必要なお子さん",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/subject_moving",
+          "status": 200,
+          "title": "小浜市に新しく来られる方",
+          "h1": "小浜市に新しく来られる方",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/news_list",
+          "status": 200,
+          "title": "小浜市からのお知らせ",
+          "h1": "小浜市からのお知らせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/news_list/soudan",
+          "status": 200,
+          "title": "小浜市からのお知らせ",
+          "h1": "小浜市からのお知らせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "一時金",
+            "子育て",
+            "予防接種",
+            "不妊"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/1660",
+          "status": 200,
+          "title": "令和9年度入園希望の方へ ★ 園見学のお知らせ",
+          "h1": "令和9年度入園希望の方へ ★ 園見学のお知らせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/6096",
+          "status": 200,
+          "title": "すくすくおばまっ子入園フェアの開催について",
+          "h1": "すくすくおばまっ子入園フェアの開催について",
+          "updatedAt": "令和8年8月2日",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/news_list/shien",
+          "status": 200,
+          "title": "小浜市からのお知らせ",
+          "h1": "小浜市からのお知らせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/6891",
+          "status": 200,
+          "title": "子育て支援センター ７月企画活動",
+          "h1": "子育て支援センター ７月企画活動",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/news_list/nanairo",
+          "status": 200,
+          "title": "小浜市からのお知らせ",
+          "h1": "小浜市からのお知らせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/news/6930",
+          "status": 200,
+          "title": "7月11日（土）キッズプレイパーク「なないろ」 夏のイベントのお知らせ2026年6月23日",
+          "h1": "7月11日（土）キッズプレイパーク「なないろ」 夏のイベントのお知らせ2026年6月23日",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/6929",
+          "status": 200,
+          "title": "2026年7月28日 授乳育児相談",
+          "h1": "2026年7月28日 授乳育児相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/news_list/other",
+          "status": 200,
+          "title": "小浜市からのお知らせ",
+          "h1": "小浜市からのお知らせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/6928",
+          "status": 200,
+          "title": "2026年7月25日 プレパパ＆プレママ講座（妊娠・栄養編）",
+          "h1": "2026年7月25日 プレパパ＆プレママ講座（妊娠・栄養編）",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/news_list/kenshin",
+          "status": 200,
+          "title": "小浜市からのお知らせ",
+          "h1": "小浜市からのお知らせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/6927",
+          "status": 200,
+          "title": "2026年7月23日 ３歳児健診",
+          "h1": "2026年7月23日 ３歳児健診",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/6926",
+          "status": 200,
+          "title": "2026年7月22日 ママヨガ",
+          "h1": "2026年7月22日 ママヨガ",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/6925",
+          "status": 200,
+          "title": "2026年7月16日 1歳6か月児健診",
+          "h1": "2026年7月16日 1歳6か月児健診",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/6735",
+          "status": 200,
+          "title": "子育て支援センター ６月企画活動",
+          "h1": "子育て支援センター ６月企画活動",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/06",
+          "status": 200,
+          "title": "2026年6月のイベント",
+          "h1": "2026年6月のイベント",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07",
+          "status": 200,
+          "title": "2026年7月のイベント",
+          "h1": "2026年7月のイベント",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/01",
+          "status": 200,
+          "title": "2026年7月1日のイベント",
+          "h1": "2026年7月1日のイベント",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/02",
+          "status": 200,
+          "title": "2026年7月2日のイベント",
+          "h1": "2026年7月2日のイベント",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/03",
+          "status": 200,
+          "title": "2026年7月3日のイベント",
+          "h1": "2026年7月3日のイベント",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/08",
+          "status": 200,
+          "title": "2026年7月8日のイベント",
+          "h1": "2026年7月8日のイベント",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/09",
+          "status": 200,
+          "title": "2026年7月9日のイベント",
+          "h1": "2026年7月9日のイベント",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/10",
+          "status": 200,
+          "title": "2026年7月10日のイベント",
+          "h1": "2026年7月10日のイベント",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/13",
+          "status": 200,
+          "title": "2026年7月13日のイベント",
+          "h1": "2026年7月13日のイベント",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/14",
+          "status": 200,
+          "title": "2026年7月14日のイベント",
+          "h1": "2026年7月14日のイベント",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/16",
+          "status": 200,
+          "title": "2026年7月16日のイベント",
+          "h1": "2026年7月16日のイベント",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/22",
+          "status": 200,
+          "title": "2026年7月22日のイベント",
+          "h1": "2026年7月22日のイベント",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/23",
+          "status": 200,
+          "title": "2026年7月23日のイベント",
+          "h1": "2026年7月23日のイベント",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/25",
+          "status": 200,
+          "title": "2026年7月25日のイベント",
+          "h1": "2026年7月25日のイベント",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/28",
+          "status": 200,
+          "title": "2026年7月28日のイベント",
+          "h1": "2026年7月28日のイベント",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/kosodateqa",
+          "status": 200,
+          "title": "子育てQ&amp;A",
+          "h1": "子育てQ&amp;A",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種",
+            "通学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/mobiles",
+          "status": 200,
+          "title": "携帯サイトについて",
+          "h1": "携帯サイトについて",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/line",
+          "status": 200,
+          "title": "LINE公式アカウントについて",
+          "h1": "LINE公式アカウントについて",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/sitemap",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/site_policy",
+          "status": 200,
+          "title": "サイトポリシー",
+          "h1": "サイトポリシー",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/privacy_policy",
+          "status": 200,
+          "title": "プライバシーポリシー",
+          "h1": "プライバシーポリシー",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/wp-content/uploads/2021/12/f930c7ef5090ce304f12d44f4e5dcc73.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "http://www1.city.obama.fukui.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "水産",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/teiju/knowing",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和6年12月31日",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/teiju/knowing",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和6年12月31日",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/teiju/live",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/teiju/?post_type=akiya",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "空き家"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/teiju/work",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "支援金",
+            "移住",
+            "創業",
+            "起業",
+            "農業",
+            "水産",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 24,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/teiju/life",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/teiju/interest",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "起業",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/teiju/?post_type=akiya&cftsearch%5Bname%5D%5B0%5D%5B%5D=&cftsearch_submit=1",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "空き家"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/teiju/archives/akiya/3925",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/teiju/information",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "空き家"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/teiju/knowing",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和6年12月31日",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/teiju/live",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/teiju/work",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "支援金",
+            "移住",
+            "創業",
+            "起業",
+            "農業",
+            "水産",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 24,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/teiju/life",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/obm/teiju/interest",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "起業",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/fukushi-kaigo/kaigo/3710.html",
+          "status": 200,
+          "title": "【事業者用・令和8年6月改定版】介護予防・日常生活支援総合事業費単位数サービスコード表",
+          "h1": "【事業者用・令和8年6月改定版】介護予防・日常生活支援総合事業費単位数サービスコード表",
+          "updatedAt": "2026年6月29日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/kenko-iryo-nenkin/kokuminnenkin/p007189.html",
+          "status": 200,
+          "title": "国民年金保険料の育児期間免除制度が始まります【令和8年10月開始】",
+          "h1": "国民年金保険料の育児期間免除制度が始まります【令和8年10月開始】",
+          "updatedAt": "2026年6月26日",
+          "keywordHits": [
+            "免除",
+            "農業"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/koho-kocho/kohoobama-r8nendoban/p007188.html",
+          "status": 200,
+          "title": "令和8年7月号（6月25日発行・広報おばま)",
+          "h1": "令和8年7月号（6月25日発行・広報おばま)",
+          "updatedAt": "2026年6月25日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/fukushi-kaigo/chiikihokatsushikensenta/3717.html",
+          "status": 200,
+          "title": "「小浜市認知症ケアパス」をご活用ください",
+          "h1": "「小浜市認知症ケアパス」をご活用ください",
+          "updatedAt": "2026年6月24日",
+          "keywordHits": [
+            "補助金",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/fukushi-kaigo/koreisha/p006217.html",
+          "status": 200,
+          "title": "認知症について学ぼう！認知症サポーターになりませんか？",
+          "h1": "認知症について学ぼう！認知症サポーターになりませんか？",
+          "updatedAt": "2026年6月24日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/fukushi-kaigo/chiikihokatsushikensenta/p006216.html",
+          "status": 200,
+          "title": "かかわりチーム（認知症初期集中支援チーム）を活用してください",
+          "h1": "かかわりチーム（認知症初期集中支援チーム）を活用してください",
+          "updatedAt": "2026年6月24日",
+          "keywordHits": [
+            "補助金",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/bosai-anzen/3742.html",
+          "status": 200,
+          "title": "弾道ミサイル飛来時の行動等について",
+          "h1": "弾道ミサイル飛来時の行動等について",
+          "updatedAt": "2023年10月1日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/kakushusodan/index.html",
+          "status": 200,
+          "title": "「各種相談」の記事一覧",
+          "h1": "「各種相談」の記事一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "空き家",
+            "福祉"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/kakushusodan/4511.html",
+          "status": 200,
+          "title": "令和8年度臨床心理士によるこころの相談",
+          "h1": "令和8年度臨床心理士によるこころの相談",
+          "updatedAt": "2026年6月10日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/fukushi-kaigo/chiikihokatsushikensenta/p006181.html",
+          "status": 200,
+          "title": "地域包括支援センター（高齢者の総合相談窓口）",
+          "h1": "地域包括支援センター（高齢者の総合相談窓口）",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "補助金",
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/fukushi-kaigo/chiikihokatsushikensenta/p006212.html",
+          "status": 200,
+          "title": "もの忘れに関する相談窓口",
+          "h1": "もの忘れに関する相談窓口",
+          "updatedAt": "2026年6月24日",
+          "keywordHits": [
+            "補助金",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/kakushusodan/p005734.html",
+          "status": 200,
+          "title": "小浜市成年後見ステーションを設置しました",
+          "h1": "小浜市成年後見ステーションを設置しました",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/news/p005640.html",
+          "status": 200,
+          "title": "小浜市役所の当直室の通話・会話録音について",
+          "h1": "小浜市役所の当直室の通話・会話録音について",
+          "updatedAt": "2022年3月1日",
+          "keywordHits": [
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/kakushusodan/4791.html",
+          "status": 200,
+          "title": "つながる・ラインから悩みごと相談窓口のご案内から",
+          "h1": "つながる・ラインから悩みごと相談窓口のご案内から",
+          "updatedAt": "2023年10月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/kakushusodan/2560.html",
+          "status": 200,
+          "title": "ひきこもりに関する相談窓口",
+          "h1": "ひきこもりに関する相談窓口",
+          "updatedAt": "2025年11月25日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/kakushusodan/4756.html",
+          "status": 200,
+          "title": "こころの健康に関連する無料相談一覧",
+          "h1": "こころの健康に関連する無料相談一覧",
+          "updatedAt": "2023年10月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/index.html",
+          "status": 200,
+          "title": "「戸籍・住民票等」の記事一覧",
+          "h1": "「戸籍・住民票等」の記事一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "空き家",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/p006473.html",
+          "status": 200,
+          "title": "顔認証マイナンバーカードが導入されました",
+          "h1": "顔認証マイナンバーカードが導入されました",
+          "updatedAt": "2024年3月15日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/p006465.html",
+          "status": 200,
+          "title": "戸籍証明書の広域交付が始まりました",
+          "h1": "戸籍証明書の広域交付が始まりました",
+          "updatedAt": "2024年2月28日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/p006123.html",
+          "status": 200,
+          "title": "転出届はマイナポータルからも可能に！",
+          "h1": "転出届はマイナポータルからも可能に！",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/p006051.html",
+          "status": 200,
+          "title": "市職員が職場へマイナンバーカードの申請へ伺います",
+          "h1": "市職員が職場へマイナンバーカードの申請へ伺います",
+          "updatedAt": "2023年10月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/p006048.html",
+          "status": 200,
+          "title": "【困ったときは】マイナンバーカードを取得された方へ",
+          "h1": "【困ったときは】マイナンバーカードを取得された方へ",
+          "updatedAt": "2023年10月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/4920.html",
+          "status": 200,
+          "title": "小浜市住居表示制度",
+          "h1": "小浜市住居表示制度",
+          "updatedAt": "2023年10月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "18204",
+          "municipalityName": "小浜市",
+          "sourceUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/4253.html",
+          "status": 200,
+          "title": "住民票・マイナンバーカード等に旧姓が併記できます",
+          "h1": "住民票・マイナンバーカード等に旧姓が併記できます",
+          "updatedAt": "2023年10月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www1.city.obama.fukui.jp/",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www1.city.obama.fukui.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www1.city.obama.fukui.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www1.city.obama.fukui.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/shigoto/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/shigoto/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kosodate-kyoiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kosodate-kyoiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kanko-bunka/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kanko-bunka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/shisei/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/shisei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/news/p000000b.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/news/p000000b.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/kenko-iryo-nenkin/kyuukyuu/224.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/kenko-iryo-nenkin/kyuukyuu/224.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/eisei-kankyo/gominokaishu-dashikata/p005909.html",
+          "status": 404,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/eisei-kankyo/gominokaishu-dashikata/p005909.html",
+          "ok": false
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/p007035.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/p007035.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/koho-kocho/lineacount/p006969.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/koho-kocho/lineacount/p006969.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/shisei/furusatonouzei/p006856.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/shisei/furusatonouzei/p006856.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/bosai-anzen/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/bosai-anzen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/bosai-anzen/hinan/4324.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/bosai-anzen/hinan/4324.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/bosai-anzen/bosaitaisaku/1488.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/bosai-anzen/bosaitaisaku/1488.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/purpose/ninshin/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/purpose/ninshin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/purpose/nyuen/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/purpose/nyuen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/purpose/shushoku/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/purpose/shushoku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/purpose/kekkon/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/purpose/kekkon/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/purpose/hikkoshi/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/purpose/hikkoshi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/purpose/korei/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/purpose/korei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/purpose/shibo/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/purpose/shibo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/purpose/boshu/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/purpose/boshu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/purpose/sodan/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/purpose/sodan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/purpose/gomi/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/purpose/gomi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/kokyokotsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/kokyokotsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/shisei/kokyoshisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/shisei/kokyoshisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/shisei/obamashinitsuite/p000000a.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/shisei/obamashinitsuite/p000000a.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/purpose/calendar/event.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/purpose/calendar/event.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/eisei-kankyo/gominokaishu-dashikata/p006652.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/eisei-kankyo/gominokaishu-dashikata/p006652.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/shisei/p006230.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/shisei/p006230.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/suido-gesuido/gesuidou/p007199.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/suido-gesuido/gesuidou/p007199.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/shisei/machizukuri/syokunomachizukuri/p007203.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/shisei/machizukuri/syokunomachizukuri/p007203.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kanko-bunka/kanko/meshoto/327.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kanko-bunka/kanko/meshoto/327.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/p007196.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/p007196.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/edu/p007195.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/edu/p007195.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/shisei/kokyoshisetsu/taiikushisetsu/46.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/shisei/kokyoshisetsu/taiikushisetsu/46.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/p007056.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/p007056.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/shisei/johokokai-paburikkukomento/webkeijiban/p007201.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/shisei/johokokai-paburikkukomento/webkeijiban/p007201.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/shigoto/nyusatsu-keiyaku/nyusatsukouhyou/p007121.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/shigoto/nyusatsu-keiyaku/nyusatsukouhyou/p007121.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/shisei/syokuin/saiyotanto/p006296.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/shisei/syokuin/saiyotanto/p006296.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/shisei/furusatonouzei/p007194.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/shisei/furusatonouzei/p007194.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/shigoto/shigoto-sangyo/suisanshinkou/p007176.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/shigoto/shigoto-sangyo/suisanshinkou/p007176.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kanko-bunka/ibento/p006575.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kanko-bunka/ibento/p006575.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/shigoto/nyusatsu-keiyaku/nyusatsukouhyou/p006373.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/shigoto/nyusatsu-keiyaku/nyusatsukouhyou/p006373.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/news.xml",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/news.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/news/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/news/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kanko-bunka/p007187.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kanko-bunka/p007187.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/shisei/syokuin/bosyu/p006188.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/shisei/syokuin/bosyu/p006188.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/news/boshu/p007183.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/news/boshu/p007183.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/news/boshu/p007177.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/news/boshu/p007177.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/news/boshu/p007178.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/news/boshu/p007178.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/news/boshu/p006893.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/news/boshu/p006893.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/sumaiakiya/sijuu/p006568.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/sumaiakiya/sijuu/p006568.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/news/boshu/p006906.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/news/boshu/p006906.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kanko-bunka/p007095.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kanko-bunka/p007095.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/news/boshu/p007136.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/news/boshu/p007136.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/shisei/shiminkyodo-boranteia/shiminkyodojigyo/p005700.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/shisei/shiminkyodo-boranteia/shiminkyodojigyo/p005700.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/shisei/furusatonouzei/p006860.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/shisei/furusatonouzei/p006860.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/shisei/furusatonouzei/p006050.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/shisei/furusatonouzei/p006050.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/shisei/shichonoheya/p000000.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/shisei/shichonoheya/p000000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/koho-kocho/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/koho-kocho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/gikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/gikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/edu/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/edu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/shigoto/nyusatsu-keiyaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/shigoto/nyusatsu-keiyaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/shisei/johokokai-paburikkukomento/paburikkukomentojisshiyotei/list.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/shisei/johokokai-paburikkukomento/paburikkukomentojisshiyotei/list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/koho-kocho/p005598.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/koho-kocho/p005598.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/",
+          "ok": true
+        },
+        {
+          "url": "http://www1.city.obama.fukui.jp/obm/shinkansen/",
+          "status": 200,
+          "finalUrl": "http://www1.city.obama.fukui.jp/obm/shinkansen/",
+          "ok": true
+        },
+        {
+          "url": "http://www1.city.obama.fukui.jp/japan_heritage/",
+          "status": 200,
+          "finalUrl": "http://www1.city.obama.fukui.jp/japan_heritage/",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kenkokanri-center/",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kenkokanri-center/",
+          "ok": true
+        },
+        {
+          "url": "http://www1.city.obama.fukui.jp/obm/kankou/film/",
+          "status": 200,
+          "finalUrl": "http://www1.city.obama.fukui.jp/obm/kankou/film/",
+          "ok": true
+        },
+        {
+          "url": "http://www1.city.obama.fukui.jp/obm/mermaid/",
+          "status": 200,
+          "finalUrl": "http://www1.city.obama.fukui.jp/obm/mermaid/",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/tosyokan/p006370.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/tosyokan/p006370.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/news/p000000a.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/news/p000000a.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/shisei/obamashinitsuite/300.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/shisei/obamashinitsuite/300.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/shisei/obamashinitsuite/132.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/shisei/obamashinitsuite/132.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/news/p000000.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/news/p000000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/news/p000000c.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/news/p000000c.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/news/p000000d.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/news/p000000d.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/wp-json/",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/wp-json/",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/xmlrpc.php?rsd",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/xmlrpc.php?rsd",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/wp-includes/wlwmanifest.xml",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/wp-includes/wlwmanifest.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww1.city.obama.fukui.jp%2Fobm%2Fkosodate%2F",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww1.city.obama.fukui.jp%2Fobm%2Fkosodate%2F",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww1.city.obama.fukui.jp%2Fobm%2Fkosodate%2F&",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww1.city.obama.fukui.jp%2Fobm%2Fkosodate%2F&",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/contact",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/contact",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/emergency",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/emergency",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/map_category/map_kindergarten",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/map_category/map_kindergarten",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/link",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/link",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/kidsplaypark-nanairo",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/kidsplaypark-nanairo",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/age_pregnancy",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/age_pregnancy",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/age_0",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/age_0",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/age_1-2",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/age_1-2",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/age_3-6",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/age_3-6",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/age_schoolchild",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/age_schoolchild",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/age_student",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/age_student",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_want",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_want",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_pregnancy",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_pregnancy",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_born",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_born",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_medical",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_medical",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_aid",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_aid",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_play",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_play",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_temporarily",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_temporarily",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_nursery",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_nursery",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_school",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_school",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_consultation",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/purpose_consultation",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/subject_single",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/subject_single",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/subject_support",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/subject_support",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/subject_moving",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/subject_moving",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/news_list",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/news_list",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/news_list/soudan",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/news_list/soudan",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/1660",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/1660",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/6096",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/6096",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/news_list/shien",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/news_list/shien",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/6891",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/6891",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/news_list/nanairo",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/news_list/nanairo",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/news/6930",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/news/6930",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/event/6929",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/6929",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/news_list/other",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/news_list/other",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/event/6928",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/6928",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/news_list/kenshin",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/news_list/kenshin",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/event/6927",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/6927",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/event/6926",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/6926",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/event/6925",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/6925",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/6735",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/6735",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/06",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/06",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/01",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/01",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/02",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/02",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/03",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/03",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/08",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/08",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/09",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/09",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/10",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/10",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/13",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/13",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/14",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/14",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/16",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/16",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/22",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/22",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/23",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/23",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/25",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/25",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/28",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/event/date/2026/07/28",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/kosodateqa",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/kosodateqa",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/mobiles",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/mobiles",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/line",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/line",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/sitemap",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/sitemap",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/site_policy",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/site_policy",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/privacy_policy",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/privacy_policy",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/kosodate/wp-content/uploads/2021/12/f930c7ef5090ce304f12d44f4e5dcc73.pdf",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/kosodate/wp-content/uploads/2021/12/f930c7ef5090ce304f12d44f4e5dcc73.pdf",
+          "ok": true
+        },
+        {
+          "url": "http://www1.city.obama.fukui.jp/",
+          "status": 200,
+          "finalUrl": "http://www1.city.obama.fukui.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww1.city.obama.fukui.jp%2Fobm%2Fteiju%2F",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww1.city.obama.fukui.jp%2Fobm%2Fteiju%2F",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww1.city.obama.fukui.jp%2Fobm%2Fteiju%2F&",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww1.city.obama.fukui.jp%2Fobm%2Fteiju%2F&",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/wp-json/",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/wp-json/",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/wp-json/wp/v2/pages/3204",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/wp-json/wp/v2/pages/3204",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/xmlrpc.php?rsd",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/xmlrpc.php?rsd",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/knowing/",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/knowing",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/knowing",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/knowing",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/live",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/live",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/?post_type=akiya&",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/?post_type=akiya",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/work",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/work",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/life",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/life",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/meet",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/meet",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/interest",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/interest",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/?post_type=akiya&cftsearch%5Bname%5D%5B0%5D%5B%5D=&cftsearch_submit=1",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/?post_type=akiya&cftsearch%5Bname%5D%5B0%5D%5B%5D=&cftsearch_submit=1",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/archives/akiya/3948",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/archives/akiya/3948",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/archives/akiya/3941",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/archives/akiya/3941",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/archives/akiya/3931",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/archives/akiya/3931",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/archives/akiya/3925",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/archives/akiya/3925",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/archives/akiya/3919",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/archives/akiya/3919",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/information/",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/information",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/know",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/knowing",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/meet/",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/meet",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/live/",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/live",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/work/",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/work",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/life/",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/life",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/obm/teiju/interest/",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/obm/teiju/interest",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/fukushi-kaigo/kaigo/3710.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/fukushi-kaigo/kaigo/3710.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/kenko-iryo-nenkin/kokuminnenkin/p007189.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/kenko-iryo-nenkin/kokuminnenkin/p007189.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/koho-kocho/kohoobama-r8nendoban/p007188.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/koho-kocho/kohoobama-r8nendoban/p007188.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/fukushi-kaigo/chiikihokatsushikensenta/3717.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/fukushi-kaigo/chiikihokatsushikensenta/3717.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/fukushi-kaigo/koreisha/p006217.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/fukushi-kaigo/koreisha/p006217.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/fukushi-kaigo/chiikihokatsushikensenta/p006216.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/fukushi-kaigo/chiikihokatsushikensenta/p006216.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/bosai-anzen/3742.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/bosai-anzen/3742.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/news/covid-19/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/news/covid-19/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/kakushusodan/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/kakushusodan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/kakushusodan/4511.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/kakushusodan/4511.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/kakushusodan/p007139.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/kakushusodan/p007139.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/kakushusodan/p007047.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/kakushusodan/p007047.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/fukushi-kaigo/chiikihokatsushikensenta/p006181.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/fukushi-kaigo/chiikihokatsushikensenta/p006181.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/fukushi-kaigo/chiikihokatsushikensenta/p006212.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/fukushi-kaigo/chiikihokatsushikensenta/p006212.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/kakushusodan/p005734.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/kakushusodan/p005734.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/news/p005640.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/news/p005640.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/kakushusodan/4791.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/kakushusodan/4791.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/kakushusodan/2560.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/kakushusodan/2560.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/kakushusodan/4756.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/kakushusodan/4756.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/index.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/p006994.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/p006994.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/p006473.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/p006473.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/p006465.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/p006465.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/p005667.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/p005667.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/p006123.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/p006123.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/p006051.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/p006051.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/p006048.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/p006048.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/p005654.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/p005654.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/4920.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/4920.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/4255.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/4255.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/4359.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/4359.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/4253.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/4253.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/4247.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/4247.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/3973.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/3973.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/3863.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/3863.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/147.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/147.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/564.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/564.html",
+          "ok": true
+        },
+        {
+          "url": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/482.html",
+          "status": 200,
+          "finalUrl": "https://www1.city.obama.fukui.jp/kurashi/koseki-juminhyoto/482.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}
