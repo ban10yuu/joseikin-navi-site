@@ -1,0 +1,31 @@
+{
+  "batchId": "ishikawa-official-coverage-003",
+  "prefecture": "石川県",
+  "municipalities": [
+    {
+      "code": "17212",
+      "name": "野々市市",
+      "officialBaseUrl": "https://www.city.nonoichi.lg.jp/"
+    },
+    {
+      "code": "17324",
+      "name": "川北町",
+      "officialBaseUrl": "https://www.town.kawakita.ishikawa.jp/"
+    },
+    {
+      "code": "17361",
+      "name": "津幡町",
+      "officialBaseUrl": "https://www.town.tsubata.lg.jp/"
+    },
+    {
+      "code": "17365",
+      "name": "内灘町",
+      "officialBaseUrl": "https://www.town.uchinada.lg.jp/"
+    },
+    {
+      "code": "17384",
+      "name": "志賀町",
+      "officialBaseUrl": "https://www.town.shika.lg.jp/"
+    }
+  ]
+}

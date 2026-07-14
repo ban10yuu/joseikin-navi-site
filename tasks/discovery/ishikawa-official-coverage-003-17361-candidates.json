@@ -1,0 +1,2557 @@
+{
+  "batchId": "ishikawa-official-coverage-003",
+  "prefecture": "石川県",
+  "generatedAt": "2026-07-14T16:12:32.122Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 65,
+  "results": [
+    {
+      "code": "17361",
+      "name": "津幡町",
+      "officialBaseUrl": "https://www.town.tsubata.lg.jp/",
+      "discoveredUrlCount": 220,
+      "candidateCount": 65,
+      "strongCandidateCount": 0,
+      "lowPriorityCandidateCount": 65,
+      "candidates": [
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/",
+          "status": 200,
+          "title": "津幡町ホームページ",
+          "h1": "津幡町ホームページ",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除",
+            "移住",
+            "住宅",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/page/1779.html",
+          "status": 200,
+          "title": "AIオンデマンドバス「のるーと津幡」",
+          "h1": "AIオンデマンドバス「のるーと津幡」",
+          "updatedAt": "2025年3月13日",
+          "keywordHits": [
+            "移住",
+            "就学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/site/welcome/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://web.d-library.jp/tsubata/g0101/top/",
+          "status": 200,
+          "title": "お知らせ",
+          "h1": "お知らせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業",
+            "水産",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/page/1213.html",
+          "status": 200,
+          "title": "ふるさと納税",
+          "h1": "ふるさと納税",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "福祉",
+            "耐震"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/page/1237.html",
+          "status": 200,
+          "title": "津幡町役場の案内",
+          "h1": "津幡町役場の案内",
+          "updatedAt": "2024年11月21日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/life/1/",
+          "status": 200,
+          "title": "生活",
+          "h1": "生活",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "空き家"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/life/2/",
+          "status": 200,
+          "title": "子育て・教育",
+          "h1": "子育て・教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/life/3/",
+          "status": 200,
+          "title": "健康・福祉",
+          "h1": "健康・福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/life/4/",
+          "status": 200,
+          "title": "産業・建設",
+          "h1": "産業・建設",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "林業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/life/6/",
+          "status": 200,
+          "title": "町政情報",
+          "h1": "町政情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/page/10282.html",
+          "status": 200,
+          "title": "上水道基本料金を免除します※期間追加",
+          "h1": "上水道基本料金を免除します※期間追加",
+          "updatedAt": "2026年1月21日",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/soshiki/list3-1.html",
+          "status": 200,
+          "title": "重要なお知らせ",
+          "h1": "重要なお知らせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/page/11233.html",
+          "status": 200,
+          "title": "デジタル郵便サービス",
+          "h1": "デジタル郵便サービス",
+          "updatedAt": "2026年4月24日",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/page/1779.html",
+          "status": 200,
+          "title": "AIオンデマンドバス「のるーと津幡」",
+          "h1": "AIオンデマンドバス「のるーと津幡」",
+          "updatedAt": "2025年3月13日",
+          "keywordHits": [
+            "移住",
+            "就学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/site/welcome/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/page/1251.html",
+          "status": 200,
+          "title": "記者発表資料",
+          "h1": "記者発表資料",
+          "updatedAt": "2026年7月14日",
+          "keywordHits": [
+            "助成金",
+            "農業",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/soshiki/list1-1.html",
+          "status": 200,
+          "title": "新着更新情報",
+          "h1": "新着更新情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/page/8072.html",
+          "status": 200,
+          "title": "つばたまつり",
+          "h1": "つばたまつり",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/soshiki/",
+          "status": 200,
+          "title": "組織でさがす",
+          "h1": "組織でさがす",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/calendar/",
+          "status": 200,
+          "title": "カレンダーでさがす",
+          "h1": "カレンダーでさがす",
+          "updatedAt": "令和8年7月19日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/life/sub/6/",
+          "status": 200,
+          "title": "よくある質問",
+          "h1": "よくある質問",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/page/4333.html",
+          "status": 200,
+          "title": "ライフステージ｜妊娠・出産",
+          "h1": "ライフステージ｜妊娠・出産",
+          "updatedAt": "2025年1月16日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/page/5037.html",
+          "status": 200,
+          "title": "ライフステージ｜入園・入学",
+          "h1": "ライフステージ｜入園・入学",
+          "updatedAt": "2025年1月24日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/page/5038.html",
+          "status": 200,
+          "title": "ライフステージ｜就職・退職",
+          "h1": "ライフステージ｜就職・退職",
+          "updatedAt": "2025年1月24日",
+          "keywordHits": [
+            "起業",
+            "林業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/page/5039.html",
+          "status": 200,
+          "title": "ライフステージ｜住宅・引っ越し",
+          "h1": "ライフステージ｜住宅・引っ越し",
+          "updatedAt": "2025年1月24日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/page/5043.html",
+          "status": 200,
+          "title": "ライフステージ｜結婚・離婚",
+          "h1": "ライフステージ｜結婚・離婚",
+          "updatedAt": "2025年1月27日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/page/5056.html",
+          "status": 200,
+          "title": "目的で探す｜福祉・介護",
+          "h1": "目的で探す｜福祉・介護",
+          "updatedAt": "2025年1月27日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/page/5062.html",
+          "status": 200,
+          "title": "目的で探す｜事業者向け",
+          "h1": "目的で探す｜事業者向け",
+          "updatedAt": "2025年1月27日",
+          "keywordHits": [
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/site/welcome/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.tsubatakougyo.co.jp/",
+          "status": 200,
+          "title": "石川県津幡町の津幡工業。水まわり・冷暖房機・屋外工事・バリアフリーなどのリフォーム。｜株式会社津幡工業",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/page/1237.html",
+          "status": 200,
+          "title": "津幡町役場の案内",
+          "h1": "津幡町役場の案内",
+          "updatedAt": "2024年11月21日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "起業",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/soshiki/22/",
+          "status": 200,
+          "title": "企画課",
+          "h1": "企画課",
+          "updatedAt": "令和5年7月12日",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "奨励金",
+            "移住",
+            "住宅",
+            "空き家"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/soshiki/2.html",
+          "status": 200,
+          "title": "総務部",
+          "h1": "総務部",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/life/",
+          "status": 200,
+          "title": "分類でさがす",
+          "h1": "分類でさがす",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/life/1/5/",
+          "status": 200,
+          "title": "住まい・移住定住・公共交通",
+          "h1": "住まい・移住定住・公共交通",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "耐震"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/life/1/5/37/",
+          "status": 200,
+          "title": "移住・定住促進・公共交通",
+          "h1": "移住・定住促進・公共交通",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "奨励金",
+            "移住",
+            "住宅",
+            "福祉",
+            "耐震"
+          ],
+          "candidateScore": 24,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/life/4/16/",
+          "status": 200,
+          "title": "道路・河川・公共交通・都市デザイン",
+          "h1": "道路・河川・公共交通・都市デザイン",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/life/4/16/91/",
+          "status": 200,
+          "title": "公共交通・町営駐輪場・駐車場",
+          "h1": "公共交通・町営駐輪場・駐車場",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/uploaded/attachment/4616.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/uploaded/attachment/4615.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/uploaded/attachment/4410.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/page/1427.html",
+          "status": 200,
+          "title": "特定商取引法に基づく表示",
+          "h1": "特定商取引法に基づく表示",
+          "updatedAt": "2024年11月21日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/uploaded/attachment/4447.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/uploaded/attachment/5781.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/uploaded/attachment/5783.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/soshiki/3.html",
+          "status": 200,
+          "title": "町民生活部",
+          "h1": "町民生活部",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "省エネ"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/soshiki/27/",
+          "status": 200,
+          "title": "生活環境課",
+          "h1": "生活環境課",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "空家",
+            "福祉",
+            "省エネ",
+            "予防接種",
+            "不妊"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/site/welcome/list11.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/site/welcome/list12.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/site/welcome/list13.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/site/welcome/4197.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年1月10日",
+          "keywordHits": [
+            "移住",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/site/welcome/4243.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2015年12月20日",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "起業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/site/welcome/4222.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2022年1月11日",
+          "keywordHits": [
+            "奨励金",
+            "移住",
+            "住宅",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/site/welcome/4228.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2015年12月9日",
+          "keywordHits": [
+            "奨励金",
+            "移住",
+            "住宅",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/site/welcome/4253.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年1月10日",
+          "keywordHits": [
+            "移住",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/site/welcome/list12-17.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/site/welcome/list12-18.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "創業",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/site/welcome/6668.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2026年6月19日",
+          "keywordHits": [
+            "移住",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/site/welcome/7744.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年5月28日",
+          "keywordHits": [
+            "移住",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/site/welcome/4208.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2024年2月15日",
+          "keywordHits": [
+            "移住",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/soshiki/60/",
+          "status": 200,
+          "title": "商工観光課",
+          "h1": "商工観光課",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "支援金",
+            "奨励金",
+            "貸付",
+            "事業者"
+          ],
+          "candidateScore": 23,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/uploaded/attachment/4721.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17361",
+          "municipalityName": "津幡町",
+          "sourceUrl": "https://www.town.tsubata.lg.jp/uploaded/attachment/1568.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.town.tsubata.lg.jp/",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/sitemap_index.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/sitemap_index.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/1130.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/1130.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/adv/ba.php?id=59",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/12104.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/adv/ba.php?id=57",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/bousai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/adv/ba.php?id=51",
+          "status": 200,
+          "finalUrl": "https://public-connect.jp/employer/52850",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/adv/ba.php?id=23",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/1779.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/adv/ba.php?id=20",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/welcome/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/adv/ba.php?id=26",
+          "status": 200,
+          "finalUrl": "https://web.d-library.jp/tsubata/g0101/top/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/adv/ba.php?id=25",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/1213.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/adv/ba.php?id=22",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/1954.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/adv/ba.php?id=19",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/1237.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/life/1/",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/life/1/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/life/2/",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/life/2/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/life/3/",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/life/3/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/life/4/",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/life/4/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/life/5/",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/life/5/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/life/6/",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/life/6/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/12104.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/12104.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/10282.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/10282.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/soshiki/list3-1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/soshiki/list3-1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/rss/10/list3.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/rss/10/list3.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/11233.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/11233.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/7596.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/7596.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/1779.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/1779.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/site/userguide/",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/userguide/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/site/welcome/",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/welcome/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/soshiki/list6-1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/soshiki/list6-1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/rss/10/list6.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/rss/10/list6.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/1251.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/1251.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/1766.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/1766.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/1733.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/1733.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/11049.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/11049.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/1735.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/1735.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/soshiki/list1-1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/soshiki/list1-1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/rss/10/list1.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/rss/10/list1.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/8072.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/8072.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/1862.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/1862.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/9873.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/9873.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/8692.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/8692.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/12113.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/12113.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/soshiki/list5-1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/soshiki/list5-1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/rss/10/list5.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/rss/10/list5.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/soshiki/",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/soshiki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/calendar/",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/calendar/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/life/sub/6/",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/life/sub/6/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/1243.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/1243.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/site/bousai/",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/bousai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/31.html",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/31.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/4333.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/4333.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/5037.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/5037.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/5038.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/5038.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/5039.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/5039.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/5043.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/5043.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/5045.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/5045.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/5048.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/5048.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/5052.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/5052.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/5054.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/5054.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/5056.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/5056.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/5062.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/5062.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/5065.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/5065.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/adv/ba.php?id=9",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/therapy/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/adv/ba.php?id=10",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/welcome/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/adv/ba.php?id=12",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/life/6/24/139/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/adv/ba.php?id=58",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/1235.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/adv/ba.php?id=14",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/soshiki/43/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/adv/ba.php?id=31",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/soshiki/9/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/adv/ba.php?id=35",
+          "status": 200,
+          "finalUrl": "https://www.tsubatakougyo.co.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/adv/ba.php?id=29",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/1240.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/1237.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/1237.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/ques/questionnaire.php?openid=2",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/ques/questionnaire.php?openid=2&check",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/1242.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/1242.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/sitemap01.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/sitemap01.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/soshiki/22/",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/soshiki/22/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/soshiki/2.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/soshiki/2.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/form/detail.php?sec_sec1=22&lif_id=1130",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/form/detail.php?sec_sec1=22&lif_id=1130&check",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/soshiki/2/",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/soshiki/2/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/form/detail.php?sec_sec1=2&lif_id=12104",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/form/detail.php?sec_sec1=2&lif_id=12104&check",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/site/bousai",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/bousai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/site/bousai/list30.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/bousai/list30.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/site/bousai/list31.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/bousai/list31.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/site/bousai/list32.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/bousai/list32.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/site/bousai/10954.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/bousai/10954.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/site/bousai/11105.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/bousai/11105.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/rss/10/site-93.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/rss/10/site-93.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/life/",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/life/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/life/1/5/",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/life/1/5/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/life/1/5/37/",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/life/1/5/37/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/life/4/16/",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/life/4/16/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/life/4/16/91/",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/life/4/16/91/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/uploaded/attachment/4616.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/uploaded/attachment/4616.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/uploaded/attachment/4615.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/uploaded/attachment/4615.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/uploaded/attachment/4410.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/uploaded/attachment/4410.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/1427.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/1427.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/uploaded/attachment/4447.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/uploaded/attachment/4447.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/uploaded/attachment/5781.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/uploaded/attachment/5781.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/uploaded/attachment/5783.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/uploaded/attachment/5783.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/soshiki/3.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/soshiki/3.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/soshiki/27/",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/soshiki/27/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/form/detail.php?sec_sec1=27&lif_id=10525",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/form/detail.php?sec_sec1=27&lif_id=10525&check",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/site/welcome/list11.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/welcome/list11.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/site/welcome/list12.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/welcome/list12.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/site/welcome/list13.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/welcome/list13.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/site/welcome/4197.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/welcome/4197.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/adv/ba.php?id=15",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/welcome/4243.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/adv/ba.php?id=27",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/welcome/4222.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/adv/ba.php?id=18",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/welcome/4228.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/site/welcome/4253.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/welcome/4253.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/site/welcome/list12-17.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/welcome/list12-17.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/site/welcome/list12-18.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/welcome/list12-18.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/form/detail.php?sec_sec1=22&lif_id=3951",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/form/detail.php?sec_sec1=22&lif_id=3951&check",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/site/welcome/6668.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/welcome/6668.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/site/welcome/7744.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/welcome/7744.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/site/welcome/4208.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/site/welcome/4208.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/rss/10/site-11.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/rss/10/site-11.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/soshiki/9/",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/soshiki/9/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/page/1247.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/page/1247.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0108/infodetail/?iid=63",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0108/infodetail/?iid=63",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0108/infodetail/?iid=42",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0108/infodetail/?iid=42",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0108/infodetail/?iid=4",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0108/infodetail/?iid=4",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0108/infolist/",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0108/infolist/",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=545506",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=545506",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=543285",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=543285",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=545184",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=545184",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=539254",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=539254",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=535278",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=535278",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0108/newbooklist/",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0108/newbooklist/",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=136155&amp;sm=rk&amp;hhf=1",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=136155&amp;sm=rk&amp;hhf=1",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=359073&amp;sm=rk&amp;hhf=1",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=359073&amp;sm=rk&amp;hhf=1",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=396435&amp;sm=rk&amp;hhf=1",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=396435&amp;sm=rk&amp;hhf=1",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=313399&amp;sm=rk&amp;hhf=1",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=313399&amp;sm=rk&amp;hhf=1",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=137574&amp;sm=rk&amp;hhf=1",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=137574&amp;sm=rk&amp;hhf=1",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0108/rank/?rc=01",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0108/rank/?rc=01",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=542499",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=542499",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=509640",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=509640",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=279257",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=279257",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=542170",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=542170",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=447361",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=447361",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=30",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=30",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=360736",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=360736",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=315877",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=315877",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=275919",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=275919",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=407875",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=407875",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=396397",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=396397",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=33",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=33",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=546489",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=546489",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=533983",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=533983",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=543184",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=543184",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=533977",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=533977",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=479435",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=479435",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=3",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=3",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=542479",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=542479",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=512312",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=512312",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=532588",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=532588",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=502639",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=502639",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=536774",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=536774",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=8",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=8",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=502126",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=502126",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=486034",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=486034",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=502549",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=502549",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=531212",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=531212",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=491634",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=491634",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=9",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=9",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=535282",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=535282",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=535283",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=535283",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=539220",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=539220",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=540773",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=540773",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=15",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=15",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=534167",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=534167",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=482046",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=482046",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=529425",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=529425",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=505469",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=505469",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=521404",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=521404",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=32",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=32",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=544794",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=544794",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=542455",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=542455",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=426069",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=426069",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=499067",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=499067",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=457675",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=457675",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=22",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=22",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=539231",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=539231",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=539230",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=539230",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=521784",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=521784",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=535186",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=535186",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=534736",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=534736",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=29",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=29",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=402249",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=402249",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=402217",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=402217",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=402256",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=402256",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=402222",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=402222",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=402268",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=402268",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=44",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=44",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=482657",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=482657",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=482641",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=482641",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=482649",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=482649",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=482651",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=482651",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=482652",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=482652",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=47",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=47",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=528884",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=528884",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=497519",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=497519",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=488985",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=488985",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=6",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=6",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=399502",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=399502",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=399564",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=399564",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=399523",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=399523",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=399483",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=399483",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=399493",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=399493",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=27",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=27",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=417526",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=417526",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=419353",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=419353",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=419355",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=419355",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=419354",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=419354",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=419356",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0102/libcontentsinfo/?conid=419356",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=31",
+          "status": 404,
+          "finalUrl": "https://www.town.tsubata.lg.jp/tsubata/g0108/hotlist/?hid=31",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/soshiki/60/",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/soshiki/60/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/uploaded/attachment/4721.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/uploaded/attachment/4721.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tsubata.lg.jp/uploaded/attachment/1568.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.tsubata.lg.jp/uploaded/attachment/1568.pdf",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

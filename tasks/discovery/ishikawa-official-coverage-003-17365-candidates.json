@@ -1,0 +1,5641 @@
+{
+  "batchId": "ishikawa-official-coverage-003",
+  "prefecture": "石川県",
+  "generatedAt": "2026-07-14T16:12:56.508Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 205,
+  "results": [
+    {
+      "code": "17365",
+      "name": "内灘町",
+      "officialBaseUrl": "https://www.town.uchinada.lg.jp/",
+      "discoveredUrlCount": 220,
+      "candidateCount": 205,
+      "strongCandidateCount": 4,
+      "lowPriorityCandidateCount": 201,
+      "candidates": [
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/robots.txt",
+          "status": 404,
+          "title": "お探しのページを見つけることができませんでした。",
+          "h1": "お探しのページを見つけることができませんでした。",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/5903.html",
+          "status": 200,
+          "title": "外国語への対応（Foreign language）",
+          "h1": "外国語への対応（Foreign language）",
+          "updatedAt": "2022年1月5日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/",
+          "status": 200,
+          "title": "くらし・手続き",
+          "h1": "くらし・手続き",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "省エネ"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/1/",
+          "status": 200,
+          "title": "住民票・戸籍・証明",
+          "h1": "住民票・戸籍・証明",
+          "updatedAt": "令和6年12月25日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/2/",
+          "status": 200,
+          "title": "防災",
+          "h1": "防災",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/3/",
+          "status": 200,
+          "title": "消防・救急",
+          "h1": "消防・救急",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/4/",
+          "status": 200,
+          "title": "生活環境",
+          "h1": "生活環境",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "省エネ"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/5/",
+          "status": 200,
+          "title": "道路・公園",
+          "h1": "道路・公園",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/6/",
+          "status": 200,
+          "title": "税金",
+          "h1": "税金",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/7/",
+          "status": 200,
+          "title": "ごみ・リサイクル・衛生",
+          "h1": "ごみ・リサイクル・衛生",
+          "updatedAt": "令和7年11月28日",
+          "keywordHits": [
+            "助成金",
+            "減免",
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/8/",
+          "status": 200,
+          "title": "上下水道",
+          "h1": "上下水道",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "減免",
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/9/",
+          "status": 200,
+          "title": "地域コミュニティ",
+          "h1": "地域コミュニティ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/10/",
+          "status": 200,
+          "title": "墓地",
+          "h1": "墓地",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/2/",
+          "status": 200,
+          "title": "子育て・教育",
+          "h1": "子育て・教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/2/11/",
+          "status": 200,
+          "title": "出産・子育て",
+          "h1": "出産・子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/2/12/",
+          "status": 200,
+          "title": "保育・教育",
+          "h1": "保育・教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て",
+            "通学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/3/",
+          "status": 200,
+          "title": "健康・福祉・年金",
+          "h1": "健康・福祉・年金",
+          "updatedAt": "令和8年6月1日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/3/13/",
+          "status": 404,
+          "title": "お探しのページを見つけることができませんでした。",
+          "h1": "お探しのページを見つけることができませんでした。",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/3/14/",
+          "status": 200,
+          "title": "健康",
+          "h1": "健康",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "助成金",
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/3/15/",
+          "status": 200,
+          "title": "福祉",
+          "h1": "福祉",
+          "updatedAt": "令和8年6月1日",
+          "keywordHits": [
+            "減免",
+            "移住",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/3/16/",
+          "status": 200,
+          "title": "保険・年金",
+          "h1": "保険・年金",
+          "updatedAt": "令和7年6月30日",
+          "keywordHits": [
+            "給付金",
+            "免除",
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/3/17/",
+          "status": 404,
+          "title": "お探しのページを見つけることができませんでした。",
+          "h1": "お探しのページを見つけることができませんでした。",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/4/",
+          "status": 200,
+          "title": "観光・産業",
+          "h1": "観光・産業",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "移住",
+            "空き家",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/4/18/",
+          "status": 200,
+          "title": "観光・特産",
+          "h1": "観光・特産",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/4/19/",
+          "status": 200,
+          "title": "移住・定住",
+          "h1": "移住・定住",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/4/20/",
+          "status": 200,
+          "title": "入札・契約",
+          "h1": "入札・契約",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/4/21/",
+          "status": 200,
+          "title": "産業",
+          "h1": "産業",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "空き家",
+            "創業",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/5/",
+          "status": 200,
+          "title": "文化・スポーツ",
+          "h1": "文化・スポーツ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/5/22/",
+          "status": 200,
+          "title": "生涯学習・スポーツ",
+          "h1": "生涯学習・スポーツ",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "減免",
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/5/23/",
+          "status": 200,
+          "title": "文化",
+          "h1": "文化",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/6/",
+          "status": 200,
+          "title": "町政情報",
+          "h1": "町政情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/6/24/",
+          "status": 200,
+          "title": "ようこそ町長室へ",
+          "h1": "ようこそ町長室へ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/6/25/",
+          "status": 200,
+          "title": "議会",
+          "h1": "議会",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/6/26/",
+          "status": 200,
+          "title": "内灘町について",
+          "h1": "内灘町について",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/6/27/",
+          "status": 200,
+          "title": "統計情報",
+          "h1": "統計情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/6/28/",
+          "status": 200,
+          "title": "広報・広聴",
+          "h1": "広報・広聴",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/6/29/",
+          "status": 200,
+          "title": "財政",
+          "h1": "財政",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/6/30/",
+          "status": 200,
+          "title": "人事・採用・職員",
+          "h1": "人事・採用・職員",
+          "updatedAt": "令和8年9月1日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/6/31/",
+          "status": 200,
+          "title": "選挙",
+          "h1": "選挙",
+          "updatedAt": "令和8年3月8日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/6/32/",
+          "status": 200,
+          "title": "行政",
+          "h1": "行政",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/6/34/",
+          "status": 200,
+          "title": "デジタル化推進",
+          "h1": "デジタル化推進",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/",
+          "status": 200,
+          "title": "組織でさがす",
+          "h1": "組織でさがす",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "農業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/site/earthquake/",
+          "status": 200,
+          "title": "令和6年能登半島地震関連情報（とりまとめ）",
+          "h1": "令和6年能登半島地震関連情報（とりまとめ）",
+          "updatedAt": "2024年1月16日",
+          "keywordHits": [
+            "助成金",
+            "支援金",
+            "移住",
+            "住宅",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/7640.html",
+          "status": 200,
+          "title": "ページID検索とは",
+          "h1": "ページID検索とは",
+          "updatedAt": "2022年1月20日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/calendar/",
+          "status": 200,
+          "title": "カレンダーでさがす",
+          "h1": "カレンダーでさがす",
+          "updatedAt": "令和8年7月15日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/sub/8/",
+          "status": 200,
+          "title": "ご意見・ご要望",
+          "h1": "ご意見・ご要望",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/16321.html",
+          "status": 200,
+          "title": "コンビニ交付サービス停止のご案内",
+          "h1": "コンビニ交付サービス停止のご案内",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/hoken-c/19058.html",
+          "status": 200,
+          "title": "令和8年度帯状疱疹ワクチン定期接種（令和8年7月1日より開始）",
+          "h1": "令和8年度帯状疱疹ワクチン定期接種（令和8年7月1日より開始）",
+          "updatedAt": "2026年6月30日",
+          "keywordHits": [
+            "免除",
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/hoken-c/25457.html",
+          "status": 200,
+          "title": "献血にご協力ください（令和8年7月15日水曜日 実施）",
+          "h1": "献血にご協力ください（令和8年7月15日水曜日 実施）",
+          "updatedAt": "2026年6月29日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/25335.html",
+          "status": 200,
+          "title": "令和8年度 内灘町職員採用候補者試験",
+          "h1": "令和8年度 内灘町職員採用候補者試験",
+          "updatedAt": "2026年6月12日",
+          "keywordHits": [
+            "貸付",
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/hoken-c/17164.html",
+          "status": 200,
+          "title": "手足口病警報が発令されました。（令和8年6月10日発表）",
+          "h1": "手足口病警報が発令されました。（令和8年6月10日発表）",
+          "updatedAt": "2026年6月10日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/list3-1.html",
+          "status": 200,
+          "title": "重要なお知らせ",
+          "h1": "重要なお知らせ",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "支援金",
+            "減免",
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/9999/25559.html",
+          "status": 200,
+          "title": "【県民一斉防災訓練（シェイクアウトいしかわ）について】",
+          "h1": "【県民一斉防災訓練（シェイクアウトいしかわ）について】",
+          "updatedAt": "2026年7月8日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/9999/25499.html",
+          "status": 200,
+          "title": "国民保護情報",
+          "h1": "国民保護情報",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/9999/25490.html",
+          "status": 200,
+          "title": "【Ｊアラート全国一斉情報伝達試験について】",
+          "h1": "【Ｊアラート全国一斉情報伝達試験について】",
+          "updatedAt": "2026年6月30日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/9999/25469.html",
+          "status": 200,
+          "title": "【内灘町内歩道施設における自転車通行可能箇所について】",
+          "h1": "【内灘町内歩道施設における自転車通行可能箇所について】",
+          "updatedAt": "2026年6月25日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/9999/25357.html",
+          "status": 200,
+          "title": "新たな防災気象情報の配信について",
+          "h1": "新たな防災気象情報の配信について",
+          "updatedAt": "2026年6月10日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/list10-1.html",
+          "status": 200,
+          "title": "安全・安心メール",
+          "h1": "安全・安心メール",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/site/bosai/",
+          "status": 200,
+          "title": "防災・災害情報",
+          "h1": "防災・災害情報",
+          "updatedAt": "2021年12月1日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/sub/1/",
+          "status": 200,
+          "title": "手続き・申請",
+          "h1": "手続き・申請",
+          "updatedAt": "令和8年6月1日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/sub/2/",
+          "status": 200,
+          "title": "イベント・講座",
+          "h1": "イベント・講座",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/sub/3/",
+          "status": 200,
+          "title": "助成・手当て",
+          "h1": "助成・手当て",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て",
+            "省エネ",
+            "予防接種"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/sub/4/",
+          "status": 200,
+          "title": "募集",
+          "h1": "募集",
+          "updatedAt": "令和8年9月1日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/kikaku/2079.html",
+          "status": 200,
+          "title": "内灘町コミュニティバス時刻表について",
+          "h1": "内灘町コミュニティバス時刻表について",
+          "updatedAt": "2026年3月13日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/2/11/46/",
+          "status": 200,
+          "title": "妊娠・出産",
+          "h1": "妊娠・出産",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/1/5/",
+          "status": 200,
+          "title": "結婚・離婚",
+          "h1": "結婚・離婚",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/3/15/60/",
+          "status": 200,
+          "title": "高齢者福祉",
+          "h1": "高齢者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/1/6/",
+          "status": 200,
+          "title": "引越・住まい",
+          "h1": "引越・住まい",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/1/7/",
+          "status": 200,
+          "title": "おくやみ",
+          "h1": "おくやみ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/hoken-c/22289.html",
+          "status": 200,
+          "title": "令和8年度 高齢者インフルエンザ予防接種について",
+          "h1": "令和8年度 高齢者インフルエンザ予防接種について",
+          "updatedAt": "2026年7月15日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/zeimu/25472.html",
+          "status": 200,
+          "title": "固定資産GIS更改業務に係る公募型プロポーザルの実施について",
+          "h1": "固定資産GIS更改業務に係る公募型プロポーザルの実施について",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/zeimu/25553.html",
+          "status": 200,
+          "title": "町税の二重納付にご注意ください",
+          "h1": "町税の二重納付にご注意ください",
+          "updatedAt": "2026年7月10日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/site/earthquake/22696.html",
+          "status": 200,
+          "title": "うちなだ復興だより",
+          "h1": "うちなだ復興だより",
+          "updatedAt": "2026年7月6日",
+          "keywordHits": [
+            "助成金",
+            "支援金",
+            "移住",
+            "住宅",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/kikaku/20523.html",
+          "status": 200,
+          "title": "第50回内灘町民夏まつり",
+          "h1": "第50回内灘町民夏まつり",
+          "updatedAt": "2026年7月6日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/list1-1.html",
+          "status": 200,
+          "title": "新着情報",
+          "h1": "新着情報",
+          "updatedAt": "令和8年7月15日",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て",
+            "省エネ",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/2679.html",
+          "status": 200,
+          "title": "「町ホームページ」バナー広告募集中！",
+          "h1": "「町ホームページ」バナー広告募集中！",
+          "updatedAt": "2026年7月6日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/site/koho/2518.html",
+          "status": 200,
+          "title": "「広報うちなだ」有料広告募集中！",
+          "h1": "「広報うちなだ」有料広告募集中！",
+          "updatedAt": "2026年7月6日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/list5-1.html",
+          "status": 200,
+          "title": "お知らせ",
+          "h1": "お知らせ",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "省エネ",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/2675.html",
+          "status": 200,
+          "title": "職員出前講座 【令和8年度メニュー】",
+          "h1": "職員出前講座 【令和8年度メニュー】",
+          "updatedAt": "2026年6月5日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/houkatsu-c/24059.html",
+          "status": 200,
+          "title": "令和8年度 第1回 介護者のつどいのお知らせ",
+          "h1": "令和8年度 第1回 介護者のつどいのお知らせ",
+          "updatedAt": "2026年6月3日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/bunspo/17934.html",
+          "status": 200,
+          "title": "令和9年 内灘町 二十歳のつどいの開催について",
+          "h1": "令和9年 内灘町 二十歳のつどいの開催について",
+          "updatedAt": "2026年6月1日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/list7-1.html",
+          "status": 200,
+          "title": "イベント",
+          "h1": "イベント",
+          "updatedAt": "令和8年9月1日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "創業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/site/koho/2615.html",
+          "status": 200,
+          "title": "スクスク元気 1歳のうちなだっこ【募集中】",
+          "h1": "スクスク元気 1歳のうちなだっこ【募集中】",
+          "updatedAt": "2026年7月3日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/gakkoukyoiku/23526.html",
+          "status": 200,
+          "title": "特別支援教育支援員（時給パートタイム会計年度任用職員）募集【随時採用】",
+          "h1": "特別支援教育支援員（時給パートタイム会計年度任用職員）募集【随時採用】",
+          "updatedAt": "2026年6月24日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/list8-1.html",
+          "status": 200,
+          "title": "募集情報",
+          "h1": "募集情報",
+          "updatedAt": "令和8年9月1日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "創業",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/site/mayor/",
+          "status": 200,
+          "title": "ようこそ町長室へ",
+          "h1": "ようこそ町長室へ",
+          "updatedAt": "2025年2月11日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/site/gikai/",
+          "status": 200,
+          "title": "内灘町議会",
+          "h1": "内灘町議会",
+          "updatedAt": "2021年11月29日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/site/koho/",
+          "status": 200,
+          "title": "広報うちなだ",
+          "h1": "広報うちなだ",
+          "updatedAt": "2021年11月25日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/site/koho/list92.html",
+          "status": 200,
+          "title": "広報うちなだ",
+          "h1": "広報うちなだ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/kikaku/2121.html",
+          "status": 200,
+          "title": "ふるさと納税で内灘を元気に！",
+          "h1": "ふるさと納税で内灘を元気に！",
+          "updatedAt": "2025年5月16日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/kikaku/2056.html",
+          "status": 404,
+          "title": "お探しのページを見つけることができませんでした。",
+          "h1": "お探しのページを見つけることができませんでした。",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/opendata.html",
+          "status": 200,
+          "title": "オープンデータ",
+          "h1": "オープンデータ",
+          "updatedAt": "2025年12月1日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/6/28/99/",
+          "status": 200,
+          "title": "パブリックコメント",
+          "h1": "パブリックコメント",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/8474.html",
+          "status": 200,
+          "title": "リンク集",
+          "h1": "リンク集",
+          "updatedAt": "2022年2月21日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/19035.html",
+          "status": 200,
+          "title": "内灘町電子申請サービスについて",
+          "h1": "内灘町電子申請サービスについて",
+          "updatedAt": "2024年4月1日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/site/earthquake/17098.html",
+          "status": 404,
+          "title": "お探しのページを見つけることができませんでした。",
+          "h1": "お探しのページを見つけることができませんでした。",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "http://www3.town.uchinada.lg.jp/ufc/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.hot-ishikawa.jp/",
+          "status": 200,
+          "title": "石川県観光公式サイト",
+          "h1": "石川県観光公式サイト",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "http://uchinavi.shoko.or.jp/",
+          "status": 200,
+          "title": "皆様の暮らしやビジネスに役立つ内灘町内の155業者をご紹介！",
+          "h1": "皆様の暮らしやビジネスに役立つ内灘町内の155業者をご紹介！",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空家",
+            "創業",
+            "福祉"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "http://uchisyakyo.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/2354.html",
+          "status": 200,
+          "title": "各種内灘町へのアクセス",
+          "h1": "各種内灘町へのアクセス",
+          "updatedAt": "2021年11月8日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/sub/6/27/",
+          "status": 200,
+          "title": "統計情報",
+          "h1": "統計情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/2679.html",
+          "status": 200,
+          "title": "「町ホームページ」バナー広告募集中！",
+          "h1": "「町ホームページ」バナー広告募集中！",
+          "updatedAt": "2026年7月6日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/9582.html",
+          "status": 200,
+          "title": "バナー広告について",
+          "h1": "バナー広告について",
+          "updatedAt": "2022年5月10日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "移住",
+            "住宅",
+            "空き家",
+            "農業",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/5907.html",
+          "status": 200,
+          "title": "著作権について",
+          "h1": "著作権について",
+          "updatedAt": "2022年1月5日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/5908.html",
+          "status": 200,
+          "title": "免責事項",
+          "h1": "免責事項",
+          "updatedAt": "2022年1月5日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/5909.html",
+          "status": 200,
+          "title": "情報セキュリティーポリシー",
+          "h1": "情報セキュリティーポリシー",
+          "updatedAt": "2022年1月5日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/ques/questionnaire.php?openid=4&check",
+          "status": 200,
+          "title": "お問い合わせ",
+          "h1": "お問い合わせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/3/17/68/",
+          "status": 404,
+          "title": "お探しのページを見つけることができませんでした。",
+          "h1": "お探しのページを見つけることができませんでした。",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/2.html",
+          "status": 200,
+          "title": "総務部",
+          "h1": "総務部",
+          "updatedAt": "令和8年9月1日",
+          "keywordHits": [
+            "支援金",
+            "減免",
+            "移住",
+            "住宅",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て",
+            "耐震",
+            "省エネ"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/",
+          "status": 200,
+          "title": "総務課",
+          "h1": "総務課",
+          "updatedAt": "令和8年9月1日",
+          "keywordHits": [
+            "支援金",
+            "移住",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/",
+          "status": 200,
+          "title": "分類でさがす",
+          "h1": "分類でさがす",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2959.html",
+          "status": 200,
+          "title": "飼い猫の避妊・去勢手術費助成",
+          "h1": "飼い猫の避妊・去勢手術費助成",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "助成金",
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/12652.html",
+          "status": 200,
+          "title": "令和8年度 内灘町省エネ家電買換促進補助金",
+          "h1": "令和8年度 内灘町省エネ家電買換促進補助金",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "省エネ"
+          ],
+          "candidateScore": 20,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/index-2.html",
+          "status": 200,
+          "title": "くらし・手続き",
+          "h1": "くらし・手続き",
+          "updatedAt": "令和7年11月28日",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "減免",
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "省エネ"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/1/1/",
+          "status": 200,
+          "title": "住民票",
+          "h1": "住民票",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/1/2/",
+          "status": 200,
+          "title": "戸籍",
+          "h1": "戸籍",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/1/3/",
+          "status": 200,
+          "title": "マイナンバー",
+          "h1": "マイナンバー",
+          "updatedAt": "令和6年12月25日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/1/4/",
+          "status": 200,
+          "title": "印鑑登録",
+          "h1": "印鑑登録",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/2/9/",
+          "status": 200,
+          "title": "ハザードマップ・避難所",
+          "h1": "ハザードマップ・避難所",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/2/13/",
+          "status": 200,
+          "title": "風水害・土砂災害",
+          "h1": "風水害・土砂災害",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/2/14/",
+          "status": 200,
+          "title": "地震",
+          "h1": "地震",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/2/15/",
+          "status": 200,
+          "title": "被災者支援",
+          "h1": "被災者支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/2/8/",
+          "status": 200,
+          "title": "災害情報",
+          "h1": "災害情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/3/17/",
+          "status": 200,
+          "title": "救急",
+          "h1": "救急",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/3/18/",
+          "status": 200,
+          "title": "消防団",
+          "h1": "消防団",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/4/19/",
+          "status": 200,
+          "title": "防犯・不審者情報",
+          "h1": "防犯・不審者情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/4/20/",
+          "status": 200,
+          "title": "交通",
+          "h1": "交通",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/4/22/",
+          "status": 200,
+          "title": "住宅",
+          "h1": "住宅",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "給付金",
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "耐震",
+            "省エネ"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/4/23/",
+          "status": 200,
+          "title": "ペット・動物",
+          "h1": "ペット・動物",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/4/24/",
+          "status": 200,
+          "title": "公害",
+          "h1": "公害",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/5/25/",
+          "status": 200,
+          "title": "道路",
+          "h1": "道路",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/5/26/",
+          "status": 200,
+          "title": "公園",
+          "h1": "公園",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/6/27/",
+          "status": 200,
+          "title": "個人町民税",
+          "h1": "個人町民税",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/6/28/",
+          "status": 200,
+          "title": "国民健康保険税",
+          "h1": "国民健康保険税",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/6/29/",
+          "status": 200,
+          "title": "軽自動車税",
+          "h1": "軽自動車税",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/6/30/",
+          "status": 200,
+          "title": "固定資産税・都市計画税",
+          "h1": "固定資産税・都市計画税",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "耐震",
+            "省エネ"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/6/31/",
+          "status": 200,
+          "title": "法人町民税",
+          "h1": "法人町民税",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/6/33/",
+          "status": 200,
+          "title": "税の証明",
+          "h1": "税の証明",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/6/34/",
+          "status": 200,
+          "title": "納税方法",
+          "h1": "納税方法",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/6/35/",
+          "status": 200,
+          "title": "ふるさと納税",
+          "h1": "ふるさと納税",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/7/36/",
+          "status": 200,
+          "title": "家庭ごみ",
+          "h1": "家庭ごみ",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/7/37/",
+          "status": 200,
+          "title": "エコ・リサイクル",
+          "h1": "エコ・リサイクル",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て",
+            "省エネ"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/7/38/",
+          "status": 200,
+          "title": "ごみ処理施設",
+          "h1": "ごみ処理施設",
+          "updatedAt": "令和7年11月28日",
+          "keywordHits": [
+            "減免",
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/7/39/",
+          "status": 200,
+          "title": "計画・取り組み",
+          "h1": "計画・取り組み",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/7/40/",
+          "status": 200,
+          "title": "生活衛生",
+          "h1": "生活衛生",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/8/41/",
+          "status": 200,
+          "title": "水道",
+          "h1": "水道",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/8/42/",
+          "status": 200,
+          "title": "下水道",
+          "h1": "下水道",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "減免",
+            "移住",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/9/44/",
+          "status": 200,
+          "title": "ボランティア",
+          "h1": "ボランティア",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/10/45/",
+          "status": 200,
+          "title": "霊園",
+          "h1": "霊園",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/35/",
+          "status": 200,
+          "title": "公共交通",
+          "h1": "公共交通",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/35/137/",
+          "status": 200,
+          "title": "コミュニティバス",
+          "h1": "コミュニティバス",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/35/138/",
+          "status": 200,
+          "title": "地域公共交通",
+          "h1": "地域公共交通",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/14996.html",
+          "status": 200,
+          "title": "便利でお得なコンビニ交付サービスをご利用ください！",
+          "h1": "便利でお得なコンビニ交付サービスをご利用ください！",
+          "updatedAt": "2025年3月5日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/site/earthquake/13753.html",
+          "status": 200,
+          "title": "【令和6年12月25日申請受付終了】罹災（被災）証明について",
+          "h1": "【令和6年12月25日申請受付終了】罹災（被災）証明について",
+          "updatedAt": "2024年12月24日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "支援金",
+            "移住",
+            "住宅",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/18581.html",
+          "status": 200,
+          "title": "書かない窓口（申請書作成支援）を開始しました！",
+          "h1": "書かない窓口（申請書作成支援）を開始しました！",
+          "updatedAt": "2024年12月6日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2812.html",
+          "status": 200,
+          "title": "住民課窓口開庁時間について",
+          "h1": "住民課窓口開庁時間について",
+          "updatedAt": "2024年2月21日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/1/index-2.html",
+          "status": 200,
+          "title": "住民票・戸籍・証明",
+          "h1": "住民票・戸籍・証明",
+          "updatedAt": "令和6年12月25日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2798.html",
+          "status": 200,
+          "title": "住民票写し等交付請求書（郵便請求用）",
+          "h1": "住民票写し等交付請求書（郵便請求用）",
+          "updatedAt": "2026年6月19日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/17408.html",
+          "status": 200,
+          "title": "コンビニ交付サービス満足度調査にご協力ください",
+          "h1": "コンビニ交付サービス満足度調査にご協力ください",
+          "updatedAt": "2024年3月1日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2800.html",
+          "status": 200,
+          "title": "戸籍証明書等交付請求書（郵便請求用）",
+          "h1": "戸籍証明書等交付請求書（郵便請求用）",
+          "updatedAt": "2026年6月19日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/24150.html",
+          "status": 200,
+          "title": "出生の届出について",
+          "h1": "出生の届出について",
+          "updatedAt": "2025年1月20日",
+          "keywordHits": [
+            "医療費助成",
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/15761.html",
+          "status": 200,
+          "title": "戸籍証明書の広域交付が始まりました！",
+          "h1": "戸籍証明書の広域交付が始まりました！",
+          "updatedAt": "2024年3月1日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/zeimu/10496.html",
+          "status": 200,
+          "title": "証明書手数料の支払いに、キャッシュレス決済が利用できます",
+          "h1": "証明書手数料の支払いに、キャッシュレス決済が利用できます",
+          "updatedAt": "2022年8月1日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2799.html",
+          "status": 200,
+          "title": "戸籍証明書等交付請求書",
+          "h1": "戸籍証明書等交付請求書",
+          "updatedAt": "2021年11月8日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/10221.html",
+          "status": 200,
+          "title": "マイナンバーカード保有状況",
+          "h1": "マイナンバーカード保有状況",
+          "updatedAt": "2026年7月8日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2976.html",
+          "status": 200,
+          "title": "マイナンバーカードの臨時窓口を開設します",
+          "h1": "マイナンバーカードの臨時窓口を開設します",
+          "updatedAt": "2026年6月15日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2978.html",
+          "status": 200,
+          "title": "マイナンバーカードの申請方法について",
+          "h1": "マイナンバーカードの申請方法について",
+          "updatedAt": "2026年2月10日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/11913.html",
+          "status": 200,
+          "title": "マイナンバーカードの交付申請が スマホで できるんです！！！！",
+          "h1": "マイナンバーカードの交付申請が スマホで できるんです！！！！",
+          "updatedAt": "2026年1月30日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/22628.html",
+          "status": 200,
+          "title": "罹災（被災）証明書の申請を住民課で受け付けています",
+          "h1": "罹災（被災）証明書の申請を住民課で受け付けています",
+          "updatedAt": "2025年7月1日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2804.html",
+          "status": 200,
+          "title": "印鑑登録について",
+          "h1": "印鑑登録について",
+          "updatedAt": "2026年3月9日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2803.html",
+          "status": 200,
+          "title": "印鑑登録証明書交付申請書",
+          "h1": "印鑑登録証明書交付申請書",
+          "updatedAt": "2026年3月1日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2806.html",
+          "status": 200,
+          "title": "印鑑登録証引替申請及び受領書",
+          "h1": "印鑑登録証引替申請及び受領書",
+          "updatedAt": "2023年5月31日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/8353.html",
+          "status": 200,
+          "title": "結婚の届出について",
+          "h1": "結婚の届出について",
+          "updatedAt": "2026年1月5日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/8369.html",
+          "status": 200,
+          "title": "離婚の届出について",
+          "h1": "離婚の届出について",
+          "updatedAt": "2025年11月28日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/hoken-c/1421.html",
+          "status": 200,
+          "title": "妊娠届（母子健康手帳の交付）",
+          "h1": "妊娠届（母子健康手帳の交付）",
+          "updatedAt": "2021年11月8日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/3011.html",
+          "status": 200,
+          "title": "「石川しあわせ婚応援パスポート（婚パス）」について",
+          "h1": "「石川しあわせ婚応援パスポート（婚パス）」について",
+          "updatedAt": "2021年11月8日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2801.html",
+          "status": 200,
+          "title": "郵送による転出届について",
+          "h1": "郵送による転出届について",
+          "updatedAt": "2024年10月1日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/suido/1950.html",
+          "status": 200,
+          "title": "水道各種届（使用開始・使用休止・使用者変更）",
+          "h1": "水道各種届（使用開始・使用休止・使用者変更）",
+          "updatedAt": "2023年10月27日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/zeimu/13573.html",
+          "status": 200,
+          "title": "バイク・軽自動車等の名義変更と廃車手続きは4月1日までに！",
+          "h1": "バイク・軽自動車等の名義変更と廃車手続きは4月1日までに！",
+          "updatedAt": "2021年11月8日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2811.html",
+          "status": 200,
+          "title": "住所変更を行うには（転入・転居・転出・世帯変更・国外転出）",
+          "h1": "住所変更を行うには（転入・転居・転出・世帯変更・国外転出）",
+          "updatedAt": "2021年11月8日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2802.html",
+          "status": 200,
+          "title": "特例転出届",
+          "h1": "特例転出届",
+          "updatedAt": "2021年11月8日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/hokennenkin/13440.html",
+          "status": 200,
+          "title": "おくやみ手続きについて",
+          "h1": "おくやみ手続きについて",
+          "updatedAt": "2023年6月14日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/zeimu/1864.html",
+          "status": 200,
+          "title": "固定資産税の納税義務者が亡くなられた場合の届出",
+          "h1": "固定資産税の納税義務者が亡くなられた場合の届出",
+          "updatedAt": "2021年11月8日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/site/earthquake/15460.html",
+          "status": 200,
+          "title": "（申請はお済みですか？）被災者生活再建支援金【12月5日更新】",
+          "h1": "（申請はお済みですか？）被災者生活再建支援金【12月5日更新】",
+          "updatedAt": "2025年12月5日",
+          "keywordHits": [
+            "助成金",
+            "支援金",
+            "移住",
+            "住宅",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 23,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/site/earthquake/20741.html",
+          "status": 200,
+          "title": "賃貸型応急住宅制度について（災害救助法:令和6年能登半島地震）",
+          "h1": "賃貸型応急住宅制度について（災害救助法:令和6年能登半島地震）",
+          "updatedAt": "2025年11月20日",
+          "keywordHits": [
+            "助成金",
+            "支援金",
+            "移住",
+            "住宅",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/site/earthquake/20758.html",
+          "status": 200,
+          "title": "内灘町災害復興計画［基本計画］（素案）についてパブリックコメントを実施しました",
+          "h1": "内灘町災害復興計画［基本計画］（素案）についてパブリックコメントを実施しました",
+          "updatedAt": "2024年11月19日",
+          "keywordHits": [
+            "助成金",
+            "支援金",
+            "移住",
+            "住宅",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/site/earthquake/17129.html",
+          "status": 200,
+          "title": "【6月12日～】「展望温泉 ほのぼの湯」のサウナ再開及び時間制限の解除について",
+          "h1": "【6月12日～】「展望温泉 ほのぼの湯」のサウナ再開及び時間制限の解除について",
+          "updatedAt": "2024年6月12日",
+          "keywordHits": [
+            "助成金",
+            "支援金",
+            "移住",
+            "住宅",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/2/index-2.html",
+          "status": 200,
+          "title": "防災",
+          "h1": "防災",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/site/bosai/1728.html",
+          "status": 200,
+          "title": "内灘町洪水避難地図（洪水ハザードマップ）",
+          "h1": "内灘町洪水避難地図（洪水ハザードマップ）",
+          "updatedAt": "2026年2月2日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/suido/1955.html",
+          "status": 200,
+          "title": "大根布排水区 内水ハザードマップ",
+          "h1": "大根布排水区 内水ハザードマップ",
+          "updatedAt": "2021年11月8日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/toshi/1734.html",
+          "status": 200,
+          "title": "内灘町液状化マップ",
+          "h1": "内灘町液状化マップ",
+          "updatedAt": "2021年11月8日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/site/bosai/1733.html",
+          "status": 200,
+          "title": "内灘町土砂災害ハザードマップ",
+          "h1": "内灘町土砂災害ハザードマップ",
+          "updatedAt": "2021年11月8日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/toshi/1737.html",
+          "status": 200,
+          "title": "土砂災害の緊急速報メールについて",
+          "h1": "土砂災害の緊急速報メールについて",
+          "updatedAt": "2021年11月8日",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/soshiki/zeimu/1870.html",
+          "status": 200,
+          "title": "住宅耐震改修に伴う固定資産税の減額申告",
+          "h1": "住宅耐震改修に伴う固定資産税の減額申告",
+          "updatedAt": "2022年4月1日",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/site/uchinada119/10991.html",
+          "status": 200,
+          "title": "消防団交際費 【令和8年度】",
+          "h1": "消防団交際費 【令和8年度】",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/site/uchinada119/23837.html",
+          "status": 200,
+          "title": "感震ブレーカーで地震による火災の対策を！（県補助金が令和8年度も引き続き実施）",
+          "h1": "感震ブレーカーで地震による火災の対策を！（県補助金が令和8年度も引き続き実施）",
+          "updatedAt": "2026年2月27日",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/site/uchinada119/23766.html",
+          "status": 200,
+          "title": "いしかわ救急安心センター事業（＃7119）",
+          "h1": "いしかわ救急安心センター事業（＃7119）",
+          "updatedAt": "2025年12月12日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/site/uchinada119/22875.html",
+          "status": 200,
+          "title": "マイナンバーカードを活用した救急業務の実施について（マイナ救急）",
+          "h1": "マイナンバーカードを活用した救急業務の実施について（マイナ救急）",
+          "updatedAt": "2025年9月24日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/site/uchinada119/17513.html",
+          "status": 200,
+          "title": "花火をするときはルールを守ろう！",
+          "h1": "花火をするときはルールを守ろう！",
+          "updatedAt": "2024年7月16日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/life/1/3/index-2.html",
+          "status": 200,
+          "title": "消防・救急",
+          "h1": "消防・救急",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/site/uchinada119/18600.html",
+          "status": 200,
+          "title": "火災とまぎらわしい煙又は火炎を発するおそれのある行為の届出書",
+          "h1": "火災とまぎらわしい煙又は火炎を発するおそれのある行為の届出書",
+          "updatedAt": "2024年12月11日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17365",
+          "municipalityName": "内灘町",
+          "sourceUrl": "https://www.town.uchinada.lg.jp/site/uchinada119/17370.html",
+          "status": 200,
+          "title": "水の事故を防ごう！海で楽しむために知っておきたい安全対策",
+          "h1": "水の事故を防ごう！海で楽しむために知っておきたい安全対策",
+          "updatedAt": "2024年7月1日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.town.uchinada.lg.jp/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.uchinada.lg.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/sitemap_index.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/sitemap_index.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.town.uchinada.lg.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/soumu/5903.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/5903.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/1/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/1/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/2/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/2/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/3/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/3/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/4/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/4/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/5/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/5/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/6/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/6/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/7/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/7/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/8/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/8/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/9/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/9/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/10/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/10/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/2/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/2/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/2/11/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/2/11/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/2/12/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/2/12/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/3/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/3/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/3/13/",
+          "status": 404,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/3/13/",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/3/14/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/3/14/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/3/15/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/3/15/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/3/16/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/3/16/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/3/17/",
+          "status": 404,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/3/17/",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/4/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/4/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/4/18/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/4/18/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/4/19/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/4/19/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/4/20/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/4/20/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/4/21/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/4/21/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/5/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/5/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/5/22/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/5/22/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/5/23/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/5/23/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/6/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/6/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/6/24/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/6/24/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/6/25/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/6/25/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/6/26/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/6/26/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/6/27/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/6/27/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/6/28/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/6/28/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/6/29/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/6/29/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/6/30/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/6/30/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/6/31/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/6/31/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/6/32/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/6/32/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/6/34/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/6/34/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/adv/ba.php?id=82",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/site/earthquake/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/soumu/7640.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/7640.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/calendar/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/calendar/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/sub/8/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/sub/8/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/16321.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/16321.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/hoken-c/19058.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/hoken-c/19058.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/hoken-c/25457.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/hoken-c/25457.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/soumu/25335.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/25335.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/hoken-c/17164.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/hoken-c/17164.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/list3-1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/list3-1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/9999/25559.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/9999/25559.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/9999/25499.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/9999/25499.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/9999/25490.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/9999/25490.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/9999/25469.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/9999/25469.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/9999/25357.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/9999/25357.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/list10-1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/list10-1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/site/bosai/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/site/bosai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/sub/1/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/sub/1/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/sub/2/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/sub/2/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/sub/3/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/sub/3/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/sub/4/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/sub/4/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/kikaku/2079.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/kikaku/2079.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/2/11/46/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/2/11/46/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/1/5/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/1/5/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/3/15/60/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/3/15/60/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/1/6/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/1/6/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/1/7/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/1/7/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/hoken-c/22289.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/hoken-c/22289.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/zeimu/25472.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/zeimu/25472.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/zeimu/25553.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/zeimu/25553.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/site/earthquake/22696.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/site/earthquake/22696.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/kikaku/20523.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/kikaku/20523.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/list1-1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/list1-1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/soumu/2679.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/2679.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/site/koho/2518.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/site/koho/2518.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/list5-1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/list5-1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/soumu/2675.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/2675.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/houkatsu-c/24059.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/houkatsu-c/24059.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/bunspo/17934.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/bunspo/17934.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/list7-1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/list7-1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/site/koho/2615.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/site/koho/2615.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/gakkoukyoiku/23526.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/gakkoukyoiku/23526.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/list8-1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/list8-1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/site/mayor/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/site/mayor/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/site/gikai/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/site/gikai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/site/koho/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/site/koho/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/site/koho/list92.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/site/koho/list92.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/kikaku/2121.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/kikaku/2121.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/kikaku/2056.html",
+          "status": 404,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/kikaku/2056.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/soumu/opendata.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/opendata.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/6/28/99/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/6/28/99/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/soumu/8474.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/8474.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/soumu/19035.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/19035.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/adv/ba.php?id=23",
+          "status": 404,
+          "finalUrl": "https://www.town.uchinada.lg.jp/site/earthquake/17098.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/adv/ba.php?id=24",
+          "status": 200,
+          "finalUrl": "http://www3.town.uchinada.lg.jp/ufc/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/adv/ba.php?id=25",
+          "status": 200,
+          "finalUrl": "http://www.milkuchinada.com/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/adv/ba.php?id=26",
+          "status": 200,
+          "finalUrl": "https://uchinadakankou.com/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/adv/ba.php?id=27",
+          "status": 200,
+          "finalUrl": "https://www.hot-ishikawa.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/adv/ba.php?id=28",
+          "status": 200,
+          "finalUrl": "https://uchinada-marina.com/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/adv/ba.php?id=29",
+          "status": 200,
+          "finalUrl": "http://uchinavi.shoko.or.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/adv/ba.php?id=30",
+          "status": 200,
+          "finalUrl": "https://www.scinex.co.jp/wagamachi/loco/17365/dl_pc.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/adv/ba.php?id=32",
+          "status": 200,
+          "finalUrl": "https://www.eltax.lta.go.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/adv/ba.php?id=33",
+          "status": 200,
+          "finalUrl": "https://www.nta.go.jp/taxes/tetsuzuki/mynumberinfo/index.htm",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/adv/ba.php?id=34",
+          "status": 200,
+          "finalUrl": "https://uchinada-shisetsu.com/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/adv/ba.php?id=35",
+          "status": 200,
+          "finalUrl": "https://nadasta.com/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/adv/ba.php?id=36",
+          "status": 200,
+          "finalUrl": "http://uchisyakyo.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/soumu/2354.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/2354.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/sub/6/27/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/sub/6/27/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/adv/ba.php?id=15",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/2679.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/adv/ba.php?id=68",
+          "status": 200,
+          "finalUrl": "https://www.fire-method.com/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/adv/ba.php?id=87",
+          "status": 200,
+          "finalUrl": "https://www.toto-growing.com/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/adv/ba.php?id=88",
+          "status": 200,
+          "finalUrl": "https://www.kashikiri-navi.com/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/soumu/9582.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/9582.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/soumu/5907.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/5907.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/soumu/5908.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/5908.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/soumu/5909.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/5909.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/ques/questionnaire.php?openid=4",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/ques/questionnaire.php?openid=4&check",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/sitemap01.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/sitemap01.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/3/17/68/",
+          "status": 404,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/3/17/68/",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/2.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/2.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/soumu/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/soumu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/2959.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2959.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/12652.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/12652.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/index-2.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/index-2.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/1/1/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/1/1/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/1/2/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/1/2/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/1/3/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/1/3/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/1/4/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/1/4/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/2/9/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/2/9/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/2/13/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/2/13/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/2/14/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/2/14/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/2/15/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/2/15/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/2/8/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/2/8/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/3/16/",
+          "status": 0,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/3/16/",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/3/17/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/3/17/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/3/18/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/3/18/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/4/19/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/4/19/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/4/20/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/4/20/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/4/22/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/4/22/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/4/23/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/4/23/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/4/24/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/4/24/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/5/25/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/5/25/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/5/26/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/5/26/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/6/27/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/6/27/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/6/28/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/6/28/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/6/29/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/6/29/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/6/30/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/6/30/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/6/31/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/6/31/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/6/33/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/6/33/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/6/34/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/6/34/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/6/35/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/6/35/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/7/36/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/7/36/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/7/37/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/7/37/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/7/38/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/7/38/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/7/39/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/7/39/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/7/40/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/7/40/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/8/41/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/8/41/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/8/42/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/8/42/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/9/44/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/9/44/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/10/45/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/10/45/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/35/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/35/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/35/137/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/35/137/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/35/138/",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/35/138/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/14996.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/14996.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/site/earthquake/13753.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/site/earthquake/13753.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/18581.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/18581.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/2812.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2812.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/1/index-2.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/1/index-2.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/2798.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2798.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/17408.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/17408.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/2800.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2800.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/24150.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/24150.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/15761.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/15761.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/zeimu/10496.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/zeimu/10496.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/2799.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2799.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/10221.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/10221.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/2976.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2976.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/2978.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2978.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/11913.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/11913.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/22628.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/22628.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/2804.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2804.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/2803.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2803.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/2806.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2806.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/8353.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/8353.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/8369.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/8369.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/hoken-c/1421.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/hoken-c/1421.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/3011.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/3011.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/2801.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2801.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/suido/1950.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/suido/1950.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/zeimu/13573.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/zeimu/13573.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/2811.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2811.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/jumin/2802.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/jumin/2802.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/hokennenkin/13440.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/hokennenkin/13440.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/zeimu/1864.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/zeimu/1864.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/site/earthquake/15460.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/site/earthquake/15460.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/site/earthquake/20741.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/site/earthquake/20741.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/site/earthquake/20758.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/site/earthquake/20758.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/site/earthquake/17129.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/site/earthquake/17129.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/2/index-2.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/2/index-2.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/site/bosai/1728.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/site/bosai/1728.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/suido/1955.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/suido/1955.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/toshi/1734.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/toshi/1734.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/site/bosai/1733.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/site/bosai/1733.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/toshi/1737.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/toshi/1737.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/soshiki/zeimu/1870.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/soshiki/zeimu/1870.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/site/uchinada119/10991.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/site/uchinada119/10991.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/site/uchinada119/23837.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/site/uchinada119/23837.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/site/uchinada119/23766.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/site/uchinada119/23766.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/site/uchinada119/22875.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/site/uchinada119/22875.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/site/uchinada119/17513.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/site/uchinada119/17513.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/life/1/3/index-2.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/life/1/3/index-2.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/site/uchinada119/18600.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/site/uchinada119/18600.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.uchinada.lg.jp/site/uchinada119/17370.html",
+          "status": 200,
+          "finalUrl": "https://www.town.uchinada.lg.jp/site/uchinada119/17370.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

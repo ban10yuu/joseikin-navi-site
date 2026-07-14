@@ -1,0 +1,5460 @@
+{
+  "batchId": "ishikawa-official-coverage-003",
+  "prefecture": "石川県",
+  "generatedAt": "2026-07-14T16:12:40.882Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 216,
+  "results": [
+    {
+      "code": "17324",
+      "name": "川北町",
+      "officialBaseUrl": "https://www.town.kawakita.ishikawa.jp/",
+      "discoveredUrlCount": 220,
+      "candidateCount": 216,
+      "strongCandidateCount": 1,
+      "lowPriorityCandidateCount": 215,
+      "candidates": [
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/",
+          "status": 200,
+          "title": "川北町役場",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/english/",
+          "status": 200,
+          "title": "English",
+          "h1": "English",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "給付金",
+            "奨励金",
+            "減免",
+            "医療費助成",
+            "移住",
+            "住宅",
+            "空き家",
+            "空家",
+            "創業",
+            "起業",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て",
+            "就学",
+            "奨学金",
+            "耐震",
+            "予防接種",
+            "不妊",
+            "妊婦",
+            "通学"
+          ],
+          "candidateScore": 33,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/contact/",
+          "status": 200,
+          "title": "お問い合わせ | 川北町役場",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/kanko1/",
+          "status": 200,
+          "title": "町の紹介",
+          "h1": "町の紹介",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/kanko1/entry-16.html",
+          "status": 200,
+          "title": "町の紹介",
+          "h1": "町の紹介",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/kanko1/entry-17.html",
+          "status": 200,
+          "title": "町の紹介",
+          "h1": "町の紹介",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/kanko1/entry-18.html",
+          "status": 200,
+          "title": "町の紹介",
+          "h1": "町の紹介",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/kanko1/entry-19.html",
+          "status": 200,
+          "title": "町の紹介",
+          "h1": "町の紹介",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "一時金",
+            "奨励金",
+            "医療費助成",
+            "住宅",
+            "空き家",
+            "農業",
+            "福祉",
+            "子育て",
+            "耐震",
+            "予防接種"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/kanko1/entry-20.html",
+          "status": 200,
+          "title": "町の紹介",
+          "h1": "町の紹介",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/",
+          "status": 200,
+          "title": "くらしの情報",
+          "h1": "くらしの情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/",
+          "status": 200,
+          "title": "主な届け出一覧",
+          "h1": "主な届け出一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/noukiitiran/",
+          "status": 200,
+          "title": "納税一覧",
+          "h1": "納税一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/gomi/",
+          "status": 200,
+          "title": "地区のごみ収集日",
+          "h1": "地区のごみ収集日",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu2/",
+          "status": 200,
+          "title": "公共の施設",
+          "h1": "公共の施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu2/fureai.html",
+          "status": 200,
+          "title": "公共の施設",
+          "h1": "公共の施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu2/entry-197.html",
+          "status": 200,
+          "title": "公共の施設",
+          "h1": "公共の施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu2/taiiku.html",
+          "status": 200,
+          "title": "公共の施設",
+          "h1": "公共の施設",
+          "updatedAt": "令和6年4月1日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu2/sun.html",
+          "status": 200,
+          "title": "公共の施設",
+          "h1": "公共の施設",
+          "updatedAt": "令和6年4月1日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu2/entry-1178.html",
+          "status": 200,
+          "title": "公共の施設",
+          "h1": "公共の施設",
+          "updatedAt": "令和6年4月1日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu2/sports.html",
+          "status": 200,
+          "title": "公共の施設",
+          "h1": "公共の施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/kanko2/",
+          "status": 200,
+          "title": "観光案内",
+          "h1": "観光案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/kanko2/entry-360.html",
+          "status": 200,
+          "title": "観光案内",
+          "h1": "観光案内",
+          "updatedAt": "令和8年7月25日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/kanko2/tokusan.html",
+          "status": 200,
+          "title": "観光案内",
+          "h1": "観光案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/kanko2/access.html",
+          "status": 200,
+          "title": "観光案内",
+          "h1": "観光案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/kanko2/entry-227.html",
+          "status": 200,
+          "title": "観光案内",
+          "h1": "観光案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei2/",
+          "status": 200,
+          "title": "行政情報",
+          "h1": "行政情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei2/entry-31.html",
+          "status": 200,
+          "title": "行政情報",
+          "h1": "行政情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/",
+          "status": 200,
+          "title": "各課のご案内",
+          "h1": "各課のご案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "奨励金",
+            "減免",
+            "医療費助成",
+            "移住",
+            "住宅",
+            "空き家",
+            "創業",
+            "起業",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て",
+            "就学",
+            "奨学金",
+            "耐震",
+            "予防接種",
+            "不妊",
+            "妊婦",
+            "通学"
+          ],
+          "candidateScore": 30,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1337.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "http://www.town.kawakita.ishikawa.jp/gyosei1/doboku/entry-752.html",
+          "status": 200,
+          "title": "土木課 ℡076-277-1108",
+          "h1": "土木課 ℡076-277-1108",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/bousai/",
+          "status": 200,
+          "title": "防災情報",
+          "h1": "防災情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/kinkyu/entry-1224.html",
+          "status": 200,
+          "title": "緊急のとき",
+          "h1": "緊急のとき",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-45.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "平成9年10月29日",
+          "keywordHits": [
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-465.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1050.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/entry-1127.html",
+          "status": 200,
+          "title": "避難所開設・混雑情報配信サービス（バカン）の開始について | 川北町役場",
+          "h1": "",
+          "updatedAt": "令和5年5月24日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/kinkyu/entry-1339.html",
+          "status": 200,
+          "title": "緊急のとき",
+          "h1": "緊急のとき",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "http://www.town.kawakita.ishikawa.jp/kanko1/entry-16.html",
+          "status": 200,
+          "title": "町の紹介",
+          "h1": "町の紹介",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "http://www.town.kawakita.ishikawa.jp/gyosei1/gikai/",
+          "status": 200,
+          "title": "各課のご案内",
+          "h1": "各課のご案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "http://www.town.kawakita.ishikawa.jp/kanko1/",
+          "status": 200,
+          "title": "町の紹介",
+          "h1": "町の紹介",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "http://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1016.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/nyusatsu/",
+          "status": 200,
+          "title": "入札情報",
+          "h1": "入札情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/faq/",
+          "status": 200,
+          "title": "よくある質問",
+          "h1": "よくある質問",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "http://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-1554.html",
+          "status": 200,
+          "title": "産業経済課 ℡076-277-1124",
+          "h1": "産業経済課 ℡076-277-1124",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "http://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-1473.html",
+          "status": 200,
+          "title": "産業経済課 ℡076-277-1124",
+          "h1": "産業経済課 ℡076-277-1124",
+          "updatedAt": "令和8年7月31日",
+          "keywordHits": [
+            "給付金",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "http://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1546.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "http://www.town.kawakita.ishikawa.jp/bousai/entry-1548.html",
+          "status": 200,
+          "title": "防災情報",
+          "h1": "防災情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-980.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/news/",
+          "status": 200,
+          "title": "新着情報",
+          "h1": "新着情報",
+          "updatedAt": "令和8年3月23日",
+          "keywordHits": [
+            "補助金",
+            "給付金",
+            "減免",
+            "移住",
+            "住宅",
+            "空き家",
+            "農業",
+            "福祉",
+            "子育て",
+            "奨学金",
+            "通学"
+          ],
+          "candidateScore": 24,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "http://www.town.kawakita.ishikawa.jp/gyosei1/doboku/entry-1496.html",
+          "status": 200,
+          "title": "土木課 ℡076-277-1108",
+          "h1": "土木課 ℡076-277-1108",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-58.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-53.html",
+          "status": 200,
+          "title": "税務課 ℡076-277-1120",
+          "h1": "税務課 ℡076-277-1120",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/lifeevent/ninshin/",
+          "status": 200,
+          "title": "妊娠・出産",
+          "h1": "妊娠・出産",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "福祉",
+            "子育て",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/lifeevent/kosodate/",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 10,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/lifeevent/gakkou-kyouiku/",
+          "status": 200,
+          "title": "学校・教育",
+          "h1": "学校・教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/lifeevent/hikkoshi/",
+          "status": 200,
+          "title": "住居・引越し",
+          "h1": "住居・引越し",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "住宅",
+            "空き家",
+            "農業",
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/lifeevent/shushoku/",
+          "status": 200,
+          "title": "仕事・健康",
+          "h1": "仕事・健康",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/lifeevent/kekkon/",
+          "status": 200,
+          "title": "結婚・離婚",
+          "h1": "結婚・離婚",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/lifeevent/korei/",
+          "status": 200,
+          "title": "高齢・福祉",
+          "h1": "高齢・福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/lifeevent/okuyami/",
+          "status": 200,
+          "title": "おくやみ",
+          "h1": "おくやみ",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "http://www.town.kawakita.ishikawa.jp/kanko2/entry-360.html",
+          "status": 200,
+          "title": "観光案内",
+          "h1": "観光案内",
+          "updatedAt": "令和8年7月25日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "http://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-44.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "不妊"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "http://www.town.kawakita.ishikawa.jp/archives/001/202606/%E6%9C%80%E7%B5%82_%E5%BA%83%E5%A0%B1%E3%81%8B%E3%82%8F%E3%81%8D%E3%81%9F7%E6%9C%88%E5%8F%B7.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/kouhou/",
+          "status": 200,
+          "title": "広報かわきた",
+          "h1": "広報かわきた",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/link.html",
+          "status": 200,
+          "title": "関連リンク",
+          "h1": "関連リンク",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/english/entry-250.html",
+          "status": 200,
+          "title": "English",
+          "h1": "English",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/english/entry-251.html",
+          "status": 200,
+          "title": "English",
+          "h1": "English",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/english/entry-252.html",
+          "status": 200,
+          "title": "English",
+          "h1": "English",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/english/entry-253.html",
+          "status": 200,
+          "title": "English",
+          "h1": "English",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/english/entry-254.html",
+          "status": 200,
+          "title": "English",
+          "h1": "English",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/english/entry-255.html",
+          "status": 200,
+          "title": "English",
+          "h1": "English",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/english/entry-256.html",
+          "status": 200,
+          "title": "English",
+          "h1": "English",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-243.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/entry-1.html",
+          "status": 200,
+          "title": "主な届け出一覧",
+          "h1": "主な届け出一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/entry-2.html",
+          "status": 200,
+          "title": "主な届け出一覧",
+          "h1": "主な届け出一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/entry-3.html",
+          "status": 200,
+          "title": "主な届け出一覧",
+          "h1": "主な届け出一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/entry-4.html",
+          "status": 200,
+          "title": "主な届け出一覧",
+          "h1": "主な届け出一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/entry-5.html",
+          "status": 200,
+          "title": "主な届け出一覧",
+          "h1": "主な届け出一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/entry-6.html",
+          "status": 200,
+          "title": "主な届け出一覧",
+          "h1": "主な届け出一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/entry-7.html",
+          "status": 200,
+          "title": "主な届け出一覧",
+          "h1": "主な届け出一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/entry-8.html",
+          "status": 200,
+          "title": "主な届け出一覧",
+          "h1": "主な届け出一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/noukiitiran/entry-9.html",
+          "status": 200,
+          "title": "納税一覧",
+          "h1": "納税一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/noukiitiran/entry-10.html",
+          "status": 200,
+          "title": "納税一覧",
+          "h1": "納税一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/noukiitiran/entry-11.html",
+          "status": 200,
+          "title": "納税一覧",
+          "h1": "納税一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/noukiitiran/entry-12.html",
+          "status": 200,
+          "title": "納税一覧",
+          "h1": "納税一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/gomi/entry-1482.html",
+          "status": 200,
+          "title": "地区のごみ収集日",
+          "h1": "地区のごみ収集日",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu2/entry-764.html",
+          "status": 200,
+          "title": "公共の施設",
+          "h1": "公共の施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "http://www.town.kawakita.ishikawa.jp/gyosei1/",
+          "status": 200,
+          "title": "各課のご案内",
+          "h1": "各課のご案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "奨励金",
+            "減免",
+            "医療費助成",
+            "移住",
+            "住宅",
+            "空き家",
+            "創業",
+            "起業",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て",
+            "就学",
+            "奨学金",
+            "耐震",
+            "予防接種",
+            "不妊",
+            "妊婦",
+            "通学"
+          ],
+          "candidateScore": 30,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/",
+          "status": 200,
+          "title": "各課のご案内",
+          "h1": "各課のご案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-601.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-172.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-41.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1447.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "通学"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-226.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-528.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-753.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-44.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "不妊"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-738.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-46.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "平成29年11月28日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-221.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1417.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-283.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "平成28年4月1日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-514.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-272.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-42.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-249.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-521.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-731.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "令和2年12月1日",
+          "keywordHits": [
+            "給付金",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-945.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1016.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1074.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1195.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1242.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1298.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1406.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1487.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1546.html",
+          "status": 200,
+          "title": "総務課 ℡076-277-1111",
+          "h1": "総務課 ℡076-277-1111",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/",
+          "status": 200,
+          "title": "各課のご案内",
+          "h1": "各課のご案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-47.html",
+          "status": 200,
+          "title": "税務課 ℡076-277-1120",
+          "h1": "税務課 ℡076-277-1120",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-48.html",
+          "status": 200,
+          "title": "税務課 ℡076-277-1120",
+          "h1": "税務課 ℡076-277-1120",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-49.html",
+          "status": 200,
+          "title": "税務課 ℡076-277-1120",
+          "h1": "税務課 ℡076-277-1120",
+          "updatedAt": "平成22年9月30日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-50.html",
+          "status": 200,
+          "title": "税務課 ℡076-277-1120",
+          "h1": "税務課 ℡076-277-1120",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て",
+            "耐震",
+            "省エネ"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-51.html",
+          "status": 200,
+          "title": "税務課 ℡076-277-1120",
+          "h1": "税務課 ℡076-277-1120",
+          "updatedAt": "平成27年3月31日",
+          "keywordHits": [
+            "減免",
+            "福祉",
+            "子育て",
+            "通学"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-54.html",
+          "status": 200,
+          "title": "税務課 ℡076-277-1120",
+          "h1": "税務課 ℡076-277-1120",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-55.html",
+          "status": 200,
+          "title": "税務課 ℡076-277-1120",
+          "h1": "税務課 ℡076-277-1120",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-56.html",
+          "status": 200,
+          "title": "税務課 ℡076-277-1120",
+          "h1": "税務課 ℡076-277-1120",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-57.html",
+          "status": 200,
+          "title": "税務課 ℡076-277-1120",
+          "h1": "税務課 ℡076-277-1120",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-70.html",
+          "status": 200,
+          "title": "税務課 ℡076-277-1120",
+          "h1": "税務課 ℡076-277-1120",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-232.html",
+          "status": 200,
+          "title": "税務課 ℡076-277-1120",
+          "h1": "税務課 ℡076-277-1120",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1117.html",
+          "status": 200,
+          "title": "税務課 ℡076-277-1120",
+          "h1": "税務課 ℡076-277-1120",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1179.html",
+          "status": 200,
+          "title": "税務課 ℡076-277-1120",
+          "h1": "税務課 ℡076-277-1120",
+          "updatedAt": "令和8年1月1日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1193.html",
+          "status": 200,
+          "title": "税務課 ℡076-277-1120",
+          "h1": "税務課 ℡076-277-1120",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1200.html",
+          "status": 200,
+          "title": "税務課 ℡076-277-1120",
+          "h1": "税務課 ℡076-277-1120",
+          "updatedAt": "",
+          "keywordHits": [
+            "空家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1296.html",
+          "status": 200,
+          "title": "税務課 ℡076-277-1120",
+          "h1": "税務課 ℡076-277-1120",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1317.html",
+          "status": 200,
+          "title": "税務課 ℡076-277-1120",
+          "h1": "税務課 ℡076-277-1120",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1433.html",
+          "status": 200,
+          "title": "税務課 ℡076-277-1120",
+          "h1": "税務課 ℡076-277-1120",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1471.html",
+          "status": 200,
+          "title": "税務課 ℡076-277-1120",
+          "h1": "税務課 ℡076-277-1120",
+          "updatedAt": "令和8年1月1日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1478.html",
+          "status": 200,
+          "title": "税務課 ℡076-277-1120",
+          "h1": "税務課 ℡076-277-1120",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1491.html",
+          "status": 200,
+          "title": "税務課 ℡076-277-1120",
+          "h1": "税務課 ℡076-277-1120",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/",
+          "status": 200,
+          "title": "各課のご案内",
+          "h1": "各課のご案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-59.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-60.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-332.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-61.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-62.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-345.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-63.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-64.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-65.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-69.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-67.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-68.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-214.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-234.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-316.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-404.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-427.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-439.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "http://www.town.kawakita.ishikawa.jp/news/entry-728.html",
+          "status": 200,
+          "title": "新着情報",
+          "h1": "新着情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-1411.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "http://www.town.kawakita.ishikawa.jp/news/entry-719.html",
+          "status": 200,
+          "title": "新着情報",
+          "h1": "新着情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-795.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-992.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-1000.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-1306.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-1163.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-1292.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-1326.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-1553.html",
+          "status": 200,
+          "title": "住民課 ℡076-277-1126",
+          "h1": "住民課 ℡076-277-1126",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/",
+          "status": 200,
+          "title": "各課のご案内",
+          "h1": "各課のご案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-71.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "免除",
+            "医療費助成",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1303.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-72.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-73.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-74.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-82.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-75.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-76.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-77.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-80.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-296.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-386.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-495.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-461.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1175.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "福祉",
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-405.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-861.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1444.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "福祉",
+            "子育て",
+            "不妊"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-413.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-447.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "平成31年4月24日",
+          "keywordHits": [
+            "一時金",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-548.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-784.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-879.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-884.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1152.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1174.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1393.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1410.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1364.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1440.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1501.html",
+          "status": 200,
+          "title": "福祉課 ℡076-277-8388",
+          "h1": "福祉課 ℡076-277-8388",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/",
+          "status": 200,
+          "title": "各課のご案内",
+          "h1": "各課のご案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "奨励金",
+            "減免",
+            "創業",
+            "起業",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-98.html",
+          "status": 200,
+          "title": "産業経済課 ℡076-277-1124",
+          "h1": "産業経済課 ℡076-277-1124",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-99.html",
+          "status": 200,
+          "title": "産業経済課 ℡076-277-1124",
+          "h1": "産業経済課 ℡076-277-1124",
+          "updatedAt": "平成29年1月5日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-435.html",
+          "status": 200,
+          "title": "産業経済課 ℡076-277-1124",
+          "h1": "産業経済課 ℡076-277-1124",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-684.html",
+          "status": 200,
+          "title": "産業経済課 ℡076-277-1124",
+          "h1": "産業経済課 ℡076-277-1124",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-686.html",
+          "status": 200,
+          "title": "産業経済課 ℡076-277-1124",
+          "h1": "産業経済課 ℡076-277-1124",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-1046.html",
+          "status": 200,
+          "title": "産業経済課 ℡076-277-1124",
+          "h1": "産業経済課 ℡076-277-1124",
+          "updatedAt": "令和4年9月20日",
+          "keywordHits": [
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-1104.html",
+          "status": 200,
+          "title": "産業経済課 ℡076-277-1124",
+          "h1": "産業経済課 ℡076-277-1124",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-84.html",
+          "status": 200,
+          "title": "産業経済課 ℡076-277-1124",
+          "h1": "産業経済課 ℡076-277-1124",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-83.html",
+          "status": 200,
+          "title": "産業経済課 ℡076-277-1124",
+          "h1": "産業経済課 ℡076-277-1124",
+          "updatedAt": "平成27年8月20日",
+          "keywordHits": [
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-403.html",
+          "status": 200,
+          "title": "産業経済課 ℡076-277-1124",
+          "h1": "産業経済課 ℡076-277-1124",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-434.html",
+          "status": 200,
+          "title": "産業経済課 ℡076-277-1124",
+          "h1": "産業経済課 ℡076-277-1124",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-181.html",
+          "status": 200,
+          "title": "産業経済課 ℡076-277-1124",
+          "h1": "産業経済課 ℡076-277-1124",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17324",
+          "municipalityName": "川北町",
+          "sourceUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-91.html",
+          "status": 200,
+          "title": "産業経済課 ℡076-277-1124",
+          "h1": "産業経済課 ℡076-277-1124",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "http://www.town.kawakita.ishikawa.jp/rss2.xml",
+          "status": 404,
+          "finalUrl": "http://www.town.kawakita.ishikawa.jp/rss2.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/english/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/english/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/contact/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/contact/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/kanko1/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/kanko1/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/kanko1/entry-16.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/kanko1/entry-16.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/kanko1/entry-17.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/kanko1/entry-17.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/kanko1/entry-18.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/kanko1/entry-18.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/kanko1/entry-19.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/kanko1/entry-19.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/kanko1/entry-20.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/kanko1/entry-20.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/seikatsu1/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/seikatsu1/noukiitiran/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/noukiitiran/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/seikatsu1/gomi/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/gomi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/seikatsu2/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu2/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/seikatsu2/fureai.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu2/fureai.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/seikatsu2/entry-197.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu2/entry-197.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/seikatsu2/taiiku.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu2/taiiku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/seikatsu2/sun.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu2/sun.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/seikatsu2/entry-1178.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu2/entry-1178.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/seikatsu2/sports.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu2/sports.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/kanko2/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/kanko2/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/kanko2/entry-360.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/kanko2/entry-360.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/kanko2/tokusan.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/kanko2/tokusan.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/kanko2/access.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/kanko2/access.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/kanko2/entry-227.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/kanko2/entry-227.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei2/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei2/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei2/entry-31.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei2/entry-31.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1337.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1337.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.kawakita.ishikawa.jp/gyosei1/doboku/entry-752.html",
+          "status": 200,
+          "finalUrl": "http://www.town.kawakita.ishikawa.jp/gyosei1/doboku/entry-752.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/bousai/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/bousai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/kinkyu/entry-1224.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/kinkyu/entry-1224.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-45.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-45.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-465.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-465.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1050.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1050.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/entry-1127.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/entry-1127.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/kinkyu/entry-1339.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/kinkyu/entry-1339.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.kawakita.ishikawa.jp/kanko1/entry-16.html",
+          "status": 200,
+          "finalUrl": "http://www.town.kawakita.ishikawa.jp/kanko1/entry-16.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.kawakita.ishikawa.jp/gyosei1/gikai/",
+          "status": 200,
+          "finalUrl": "http://www.town.kawakita.ishikawa.jp/gyosei1/gikai/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.kawakita.ishikawa.jp/kanko1/",
+          "status": 200,
+          "finalUrl": "http://www.town.kawakita.ishikawa.jp/kanko1/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1016.html",
+          "status": 200,
+          "finalUrl": "http://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1016.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/nyusatsu/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/nyusatsu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/faq/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/faq/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-1554.html",
+          "status": 200,
+          "finalUrl": "http://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-1554.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-1473.html",
+          "status": 200,
+          "finalUrl": "http://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-1473.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1546.html",
+          "status": 200,
+          "finalUrl": "http://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1546.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.kawakita.ishikawa.jp/bousai/entry-1548.html",
+          "status": 200,
+          "finalUrl": "http://www.town.kawakita.ishikawa.jp/bousai/entry-1548.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-980.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-980.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/news/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/news/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.kawakita.ishikawa.jp/gyosei1/doboku/entry-1496.html",
+          "status": 200,
+          "finalUrl": "http://www.town.kawakita.ishikawa.jp/gyosei1/doboku/entry-1496.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-58.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-58.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-53.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-53.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/lifeevent/ninshin/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/lifeevent/ninshin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/lifeevent/kosodate/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/lifeevent/kosodate/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/lifeevent/gakkou-kyouiku/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/lifeevent/gakkou-kyouiku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/lifeevent/hikkoshi/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/lifeevent/hikkoshi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/lifeevent/shushoku/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/lifeevent/shushoku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/lifeevent/kekkon/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/lifeevent/kekkon/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/lifeevent/korei/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/lifeevent/korei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/lifeevent/okuyami/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/lifeevent/okuyami/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.kawakita.ishikawa.jp/kanko2/entry-360.html",
+          "status": 200,
+          "finalUrl": "http://www.town.kawakita.ishikawa.jp/kanko2/entry-360.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-44.html",
+          "status": 200,
+          "finalUrl": "http://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-44.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.kawakita.ishikawa.jp/archives/001/202606/%E6%9C%80%E7%B5%82_%E5%BA%83%E5%A0%B1%E3%81%8B%E3%82%8F%E3%81%8D%E3%81%9F7%E6%9C%88%E5%8F%B7.pdf",
+          "status": 200,
+          "finalUrl": "http://www.town.kawakita.ishikawa.jp/archives/001/202606/%E6%9C%80%E7%B5%82_%E5%BA%83%E5%A0%B1%E3%81%8B%E3%82%8F%E3%81%8D%E3%81%9F7%E6%9C%88%E5%8F%B7.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/kouhou/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/kouhou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/link.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/link.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/english/entry-250.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/english/entry-250.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/english/entry-251.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/english/entry-251.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/english/entry-252.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/english/entry-252.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/english/entry-253.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/english/entry-253.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/english/entry-254.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/english/entry-254.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/english/entry-255.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/english/entry-255.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/english/entry-256.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/english/entry-256.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-243.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-243.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/entry-1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/entry-1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/entry-2.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/entry-2.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/entry-3.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/entry-3.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/entry-4.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/entry-4.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/entry-5.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/entry-5.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/entry-6.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/entry-6.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/entry-7.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/entry-7.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/entry-8.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/todoke/entry-8.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/seikatsu1/noukiitiran/entry-9.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/noukiitiran/entry-9.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/seikatsu1/noukiitiran/entry-10.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/noukiitiran/entry-10.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/seikatsu1/noukiitiran/entry-11.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/noukiitiran/entry-11.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/seikatsu1/noukiitiran/entry-12.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/noukiitiran/entry-12.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/seikatsu1/gomi/entry-1482.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu1/gomi/entry-1482.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/seikatsu2/entry-764.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/seikatsu2/entry-764.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.kawakita.ishikawa.jp/gyosei1/",
+          "status": 200,
+          "finalUrl": "http://www.town.kawakita.ishikawa.jp/gyosei1/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-601.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-601.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-172.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-172.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-41.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-41.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1447.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1447.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-226.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-226.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-528.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-528.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-753.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-753.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-44.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-44.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-738.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-738.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-46.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-46.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-221.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-221.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1417.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1417.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-283.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-283.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-514.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-514.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-272.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-272.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-42.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-42.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-249.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-249.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-521.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-521.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-731.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-731.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-945.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-945.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1016.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1016.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1074.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1074.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1195.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1195.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1242.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1242.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1298.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1298.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1406.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1406.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1487.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1487.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1546.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/soumu/entry-1546.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-47.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-47.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-48.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-48.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-49.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-49.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-50.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-50.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-51.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-51.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-54.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-54.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-55.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-55.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-56.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-56.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-57.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-57.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-70.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-70.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-232.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-232.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1117.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1117.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1179.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1179.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1193.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1193.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1200.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1200.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1296.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1296.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1317.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1317.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1433.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1433.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1471.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1471.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1478.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1478.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1491.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/zeimu/entry-1491.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-59.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-59.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-60.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-60.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-332.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-332.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-61.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-61.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-62.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-62.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-345.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-345.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-63.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-63.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-64.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-64.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-65.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-65.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-69.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-69.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-67.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-67.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-68.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-68.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-214.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-214.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-234.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-234.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-316.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-316.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-404.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-404.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-427.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-427.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-439.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-439.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.kawakita.ishikawa.jp/news/entry-728.html",
+          "status": 200,
+          "finalUrl": "http://www.town.kawakita.ishikawa.jp/news/entry-728.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-1411.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-1411.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.kawakita.ishikawa.jp/news/entry-719.html",
+          "status": 200,
+          "finalUrl": "http://www.town.kawakita.ishikawa.jp/news/entry-719.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-795.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-795.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-992.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-992.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-1000.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-1000.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-1306.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-1306.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-1163.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-1163.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-1292.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-1292.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-1326.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-1326.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-1553.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/jumin/entry-1553.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-71.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-71.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1303.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1303.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-72.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-72.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-73.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-73.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-74.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-74.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-82.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-82.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-75.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-75.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-76.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-76.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-77.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-77.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-80.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-80.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-296.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-296.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-386.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-386.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-495.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-495.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-461.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-461.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1175.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1175.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-405.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-405.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-861.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-861.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1444.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1444.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-413.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-413.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-447.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-447.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-548.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-548.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-784.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-784.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-879.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-879.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-884.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-884.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1152.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1152.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1174.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1174.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1393.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1393.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1410.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1410.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1364.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1364.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1440.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1440.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1501.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/fukushi/entry-1501.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-98.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-98.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-99.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-99.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-435.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-435.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-684.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-684.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-686.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-686.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-1046.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-1046.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-1104.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-1104.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-84.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-84.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-83.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-83.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-403.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-403.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-434.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-434.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-181.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-181.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-91.html",
+          "status": 200,
+          "finalUrl": "https://www.town.kawakita.ishikawa.jp/gyosei1/sankei/entry-91.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

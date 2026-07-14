@@ -9053,3 +9053,50 @@
   - トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、既存URL重複、制度要件不足候補は第2巡候補に残す。
 - 次:
   - 石川県公式棚卸し003として、17212野々市市から自治体コード順に確認する。
+
+### 2026-07-15 石川県公式棚卸し003（17212野々市市・17324川北町・17361津幡町・17365内灘町・17384志賀町）
+
+- 作業範囲:
+  - 17212 野々市市、17324 川北町、17361 津幡町、17365 内灘町、17384 志賀町の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 自治体別クロールで候補710件を取得した。shortlistが150件超かつcrawl候補の40%超だったため、候補710件から短い本文スニペット704件を抽出し、ページ内リンク303件を制度リードとして再取得した。
+  - 採用対象の84公式ページは全件HTTP 200を確認した。
+- 採用:
+  - 合計84件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 野々市市26件: 水洗便所等の改造資金融資斡旋及び利子補給制度、野々市市移住支援金、身体障害者手帳等をお持ちの方に対する軽自動車税の減免、防犯カメラ設置事業補助金、令和8年度 野々市市事業者用太陽光発電設備等導入促進事業補助金、家庭用生ごみ処理機等の購入費補助金、ののいち環境きくばり住宅 取得助成金、歴史的建築物修復事業補助金、本社機能の移転・拡充に係る固定資産税・都市計画税の課税免除等、野々市じょんからおどり普及事業補助金、ひとり親家庭等医療費助成、年金生活者支援給付金制度、消防団員運転免許取得費補助金、自主防災組織資機材等整備事業補助金、特殊詐欺被害防止対策機器購入補助金、特別障害者手当、障害児福祉手当、子育て支援医療費助成、野々市市飼い主のいない猫の不妊・去勢支援事業補助金、ののいち緑のまちなみ補助金、男性育児休業取得応援奨励金交付制度、中小企業向け融資制度、地域未来投資促進法に基づく固定資産税の課税免除、本社機能施設立地促進補助金、野々市市商工会創業支援事業補助金、勤労者融資制度。
+  - 川北町25件: 川北町犯罪被害者等見舞金の支給、川北町結婚新生活支援事業費補助金、新築住宅取得奨励金、川北町奨学金返還支援事業、チャイルドシート補助金、川北町防災用品等購入費補助金、乳幼児・児童・生徒等医療費助成、心身障害者医療費助成、ひとり親家庭等医療費助成、ひとり親家庭等奨学金、特別児童扶養手当、川北町家庭用生ごみ処理機器購入費補助金、児童手当制度改正、販路開拓支援事業費奨励金、創業・起業地域活性化事業費補助金、生垣設置奨励補助金、中小企業設備投資促進助成金、川北町企業人材採用PR動画制作費補助金、児童用自転車ヘルメット補助金、物価高対応子育て応援手当、不妊症及び不育症治療給付金支給、ふるさと納税返礼品開発等支援事業費補助金、児童扶養手当、児童手当（一部改正）、川北町スマート農業推進事業費補助金。
+  - 津幡町9件: 津幡町被災事業者災害対策資金利子補給支援金、店舗、住宅近代化建築に対する補助金、農村定住奨励金、津幡町の鳥ハクチョウ飛来促進に関する奨励金、新規雇用促進奨励金制度、津幡町の未来を拓く若者支援補助金、三世代ファミリー同居等促進事業補助金、津幡町宅地復旧事業支援補助金、「津幡町危険空家除去等支援補助金」。
+  - 内灘町1件: 感震ブレーカーで地震による火災の対策を！（県補助金が令和8年度も引き続き実施）。
+  - 志賀町23件: 志賀町いしかわ縁結びマッチング登録料助成金、令和6年能登半島地震 志賀町なりわい再建支援補助金、国民健康保険 一部負担金減免等、修学資金貸付制度、スポーツ全国大会等出場助成金、能登空港利用促進助成金、みらいとうぶ定住促進奨励金、志賀町老朽危険空き家等除却事業費補助金、令和6年能登半島地震 志賀町令和6年能登半島地震復興支援補助金交付要綱、志賀町合併処理浄化槽設置整備事業費補助金、水道基本料金の無償化（免除）を2カ月間延長します！、物価高騰対応臨時給付金を給付します、妊産婦医療費助成制度、学校給食費補助金、志賀町危険ブロック塀撤去補助金、児童手当制度、遺児および心身障害児扶養手当、志賀町誘客促進レンタカー利用者宿泊助成金交付事業、志賀町本社機能施設立地促進補助金、志賀町工業団地工場誘致奨励金、志賀町工場設置奨励金、中小企業設備投資促進助成金、志賀町企業立地促進雇用拡大補助金。
+- 生成ファイル:
+  - `tasks/discovery/ishikawa-official-coverage-003-municipalities.json`
+  - `tasks/discovery/ishikawa-official-coverage-003-17212-municipality.json`
+  - `tasks/discovery/ishikawa-official-coverage-003-17212-candidates.json`
+  - `tasks/discovery/ishikawa-official-coverage-003-17324-municipality.json`
+  - `tasks/discovery/ishikawa-official-coverage-003-17324-candidates.json`
+  - `tasks/discovery/ishikawa-official-coverage-003-17361-municipality.json`
+  - `tasks/discovery/ishikawa-official-coverage-003-17361-candidates.json`
+  - `tasks/discovery/ishikawa-official-coverage-003-17365-municipality.json`
+  - `tasks/discovery/ishikawa-official-coverage-003-17365-candidates.json`
+  - `tasks/discovery/ishikawa-official-coverage-003-17384-municipality.json`
+  - `tasks/discovery/ishikawa-official-coverage-003-17384-candidates.json`
+  - `tasks/discovery/ishikawa-official-coverage-003-candidates.json`
+  - `tasks/discovery/ishikawa-official-coverage-003-url-seeds.json`
+  - `tasks/discovery/ishikawa-official-coverage-003-snippets.json`
+  - `tasks/discovery/ishikawa-official-coverage-003-url-leads.json`
+  - `tasks/discovery/ishikawa-official-coverage-003-rescored-snippets.json`
+  - `tasks/discovery/ishikawa-official-coverage-003-adoption-ranked.json`
+  - `tasks/discovery/ishikawa-official-coverage-003-adopted-urls.json`
+  - `tasks/discovery/ishikawa-official-coverage-003.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（003関連JSON、checkpoint）。
+  - 追加slug重複: pass（84件、`verified-local-misc-2026.ts` 全体 duplicateCount 0）。
+  - 公式URL到達: pass（84 primary official URLsすべてHTTP 200）。
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 12402、officialLinkedActive 12282、manuallyVerifiedActive 12282、石川県 localOfficial 271）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は石川県17384志賀町到達のみで全国完了扱いしない。
+  - トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補に残す。
+- 次:
+  - 石川県公式棚卸し004として、17386宝達志水町から自治体コード順に確認する。

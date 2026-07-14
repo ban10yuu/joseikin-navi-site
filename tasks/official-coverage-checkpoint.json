@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T01:04:22+09:00",
+  "updatedAt": "2026-07-15T01:25:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "ishikawa-official-coverage-002",
-    "municipality": "加賀市・羽咋市・かほく市・白山市・能美市",
-    "adopted": 96,
-    "held": 287,
+    "code": "ishikawa-official-coverage-003",
+    "municipality": "野々市市・川北町・津幡町・内灘町・志賀町",
+    "adopted": 84,
+    "held": 626,
     "excluded": 0,
-    "sourceUrlsChecked": 96,
+    "sourceUrlsChecked": 84,
     "validation": {
-      "previousMunicipality": "石川県公式棚卸し002として、17206加賀市・17207羽咋市・17209かほく市・17210白山市・17211能美市を確認した。自治体別クロールで候補383件、短い本文スニペット383件、公式URLリード191件、採用候補205件を保存し、個別公式ページ96件を新規採用した。全国公式棚卸しは未完了。",
+      "previousMunicipality": "石川県公式棚卸し003として、17212野々市市・17324川北町・17361津幡町・17365内灘町・17384志賀町を確認した。自治体別クロールで候補710件、短い本文スニペット704件、公式URLリード303件を保存し、個別公式ページ84件を新規採用した。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for 19 ishikawa-official-coverage-002 JSON files and official-coverage-checkpoint.json",
-      "addedSlugUniqueness": "pass: 96 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 96 primary official URLs returned HTTP 200",
+      "json": "pass: JSON.parse for 18 ishikawa-official-coverage-003 JSON files and official-coverage-checkpoint.json",
+      "addedSlugUniqueness": "pass: 84 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 84 primary official URLs returned HTTP 200",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 12318, officialLinkedActive 12198, manuallyVerifiedActive 12198, 石川県 localOfficial 187)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 12402, officialLinkedActive 12282, manuallyVerifiedActive 12282, 石川県 localOfficial 271)"
     }
   },
   "next": {
-    "code": "ishikawa-official-coverage-003",
-    "municipality": "野々市市",
-    "shortlist": "石川県公式棚卸し002は加賀市8件、羽咋市18件、かほく市30件、白山市16件、能美市24件の計96件を採用した。トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、既存URL重複、制度要件不足候補は第2巡候補として保持する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、17212野々市市を開始地点として石川県公式棚卸し003を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "ishikawa-official-coverage-004",
+    "municipality": "宝達志水町",
+    "shortlist": "石川県公式棚卸し003は野々市市26件、川北町25件、津幡町9件、内灘町1件、志賀町23件の計84件を採用した。トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補として保持する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、17386宝達志水町を開始地点として石川県公式棚卸し004を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "石川県",
     "status": "in-progress",
-    "lastBatch": "ishikawa-official-coverage-002",
-    "notes": "石川県は17201金沢市から17211能美市まで自治体コード順に第1巡到達（17208は欠番）。次は17212野々市市から再開。全国公式棚卸しは未完了。"
+    "lastBatch": "ishikawa-official-coverage-003",
+    "notes": "石川県は17201金沢市から17384志賀町まで自治体コード順に第1巡到達（17208は欠番）。次は17386宝達志水町から再開。全国公式棚卸しは未完了。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
