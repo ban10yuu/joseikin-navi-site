@@ -1,0 +1,2930 @@
+{
+  "batchId": "ishikawa-official-coverage-002",
+  "prefecture": "石川県",
+  "generatedAt": "2026-07-14T15:53:37.419Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 85,
+  "results": [
+    {
+      "code": "17210",
+      "name": "白山市",
+      "officialBaseUrl": "https://www.city.hakusan.lg.jp/",
+      "discoveredUrlCount": 220,
+      "candidateCount": 85,
+      "strongCandidateCount": 1,
+      "lowPriorityCandidateCount": 84,
+      "candidates": [
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "子育て",
+            "就学",
+            "耐震"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "農業",
+            "林業",
+            "水産",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/shisetsu/index.html",
+          "status": 200,
+          "title": "施設のご案内",
+          "h1": "施設のご案内",
+          "updatedAt": "2024年7月18日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kurashi/index.html",
+          "status": 200,
+          "title": "暮らし",
+          "h1": "暮らし",
+          "updatedAt": "2022年2月8日",
+          "keywordHits": [
+            "農業",
+            "福祉",
+            "通学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kurashi/mynumber/index.html",
+          "status": 200,
+          "title": "マイナンバーカード（個人番号カード）",
+          "h1": "マイナンバーカード（個人番号カード）",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kurashi/shinseisyo/index.html",
+          "status": 200,
+          "title": "申請書ダウンロード",
+          "h1": "申請書ダウンロード",
+          "updatedAt": "2024年4月1日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "給付金",
+            "一時金",
+            "支援金",
+            "奨励金",
+            "減免",
+            "住宅",
+            "空き家",
+            "創業",
+            "起業",
+            "事業者",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 23,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kurashi/tetuduki/index.html",
+          "status": 200,
+          "title": "暮らし（ほか）",
+          "h1": "暮らし（ほか）",
+          "updatedAt": "",
+          "keywordHits": [
+            "通学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/seikatsu/index.html",
+          "status": 200,
+          "title": "環境・安全",
+          "h1": "環境・安全",
+          "updatedAt": "2022年2月8日",
+          "keywordHits": [
+            "減免",
+            "住宅",
+            "事業者",
+            "耐震"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/seikatsu/suido/index.html",
+          "status": 200,
+          "title": "水道",
+          "h1": "水道",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/seikatsu/gesui/index.html",
+          "status": 200,
+          "title": "下水道",
+          "h1": "下水道",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/seikatsu/kenchiku/index.html",
+          "status": 200,
+          "title": "建築",
+          "h1": "建築",
+          "updatedAt": "",
+          "keywordHits": [
+            "耐震"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/seikatsu/jyutaku/index.html",
+          "status": 200,
+          "title": "市営住宅",
+          "h1": "市営住宅",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kenkofukushi/index.html",
+          "status": 200,
+          "title": "健康・福祉",
+          "h1": "健康・福祉",
+          "updatedAt": "2024年7月30日",
+          "keywordHits": [
+            "免除",
+            "住宅",
+            "事業者",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kenkofukushi/kenko/index.html",
+          "status": 200,
+          "title": "市民の健康",
+          "h1": "市民の健康",
+          "updatedAt": "令和8年6月10日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kenkofukushi/kenshin/index.html",
+          "status": 200,
+          "title": "健康診査・がん検診",
+          "h1": "健康診査・がん検診",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kenkofukushi/sodanshien/index.html",
+          "status": 200,
+          "title": "発達相談・支援",
+          "h1": "発達相談・支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kenkofukushi/yobosessyu/index.html",
+          "status": 200,
+          "title": "予防接種",
+          "h1": "予防接種",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kenkofukushi/koreifukushi/index.html",
+          "status": 200,
+          "title": "高齢者福祉",
+          "h1": "高齢者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kenkofukushi/shougaifukushi/index.html",
+          "status": 200,
+          "title": "障害者福祉",
+          "h1": "障害者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kenkofukushi/kaigohoken/index.html",
+          "status": 200,
+          "title": "介護保険",
+          "h1": "介護保険",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kenkofukushi/kenkoother/index.html",
+          "status": 200,
+          "title": "健康・福祉（ほか）",
+          "h1": "健康・福祉（ほか）",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/bunka/index.html",
+          "status": 200,
+          "title": "教育・文化・スポーツ",
+          "h1": "教育・文化・スポーツ",
+          "updatedAt": "2022年2月8日",
+          "keywordHits": [
+            "奨学金",
+            "通学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/bunka/gakko/index.html",
+          "status": 200,
+          "title": "学校教育",
+          "h1": "学校教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "奨学金",
+            "通学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/machi/index.html",
+          "status": 200,
+          "title": "まちづくり・産業",
+          "h1": "まちづくり・産業",
+          "updatedAt": "2022年2月8日",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "奨励金",
+            "移住",
+            "住宅",
+            "空き家",
+            "空家",
+            "創業",
+            "農業",
+            "林業",
+            "水産",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/machi/ijyu/index.html",
+          "status": 200,
+          "title": "移住・定住",
+          "h1": "移住・定住",
+          "updatedAt": "2025年1月24日",
+          "keywordHits": [
+            "奨励金",
+            "移住",
+            "住宅",
+            "空き家",
+            "創業",
+            "起業",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/machi/akiya/index.html",
+          "status": 200,
+          "title": "空き家対策",
+          "h1": "空き家対策",
+          "updatedAt": "",
+          "keywordHits": [
+            "空き家",
+            "空家"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/machi/1007407/index.html",
+          "status": 200,
+          "title": "景観",
+          "h1": "景観",
+          "updatedAt": "2024年3月18日",
+          "keywordHits": [
+            "補助金",
+            "事業者"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/machi/douro/index.html",
+          "status": 200,
+          "title": "道路・河川",
+          "h1": "道路・河川",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/machi/yuchi/index.html",
+          "status": 200,
+          "title": "企業誘致",
+          "h1": "企業誘致",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/machi/chusyo/index.html",
+          "status": 200,
+          "title": "中小企業者向け融資・支援",
+          "h1": "中小企業者向け融資・支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "創業"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/machi/roudoushien/index.html",
+          "status": 200,
+          "title": "労働者支援",
+          "h1": "労働者支援",
+          "updatedAt": "令和8年3月31日",
+          "keywordHits": [
+            "支援金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/machi/syougyoshinko/index.html",
+          "status": 200,
+          "title": "商業振興",
+          "h1": "商業振興",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/machi/chisanchisyo/index.html",
+          "status": 200,
+          "title": "食育・地産地消 まるごと！はくさん！",
+          "h1": "食育・地産地消 まるごと！はくさん！",
+          "updatedAt": "2022年7月7日",
+          "keywordHits": [
+            "農業",
+            "水産"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/machi/ringyosuisan/index.html",
+          "status": 200,
+          "title": "林業・水産業",
+          "h1": "林業・水産業",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "林業",
+            "水産"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/machi/nogyoshinko/index.html",
+          "status": 200,
+          "title": "農業振興",
+          "h1": "農業振興",
+          "updatedAt": "",
+          "keywordHits": [
+            "奨励金",
+            "農業"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/machi/nogyo/index.html",
+          "status": 200,
+          "title": "農業委員会",
+          "h1": "農業委員会",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/machi/machizukuri/index.html",
+          "status": 200,
+          "title": "まちづくり・産業（ほか）",
+          "h1": "まちづくり・産業（ほか）",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/shisei/index.html",
+          "status": 200,
+          "title": "市政",
+          "h1": "市政",
+          "updatedAt": "2026年2月12日",
+          "keywordHits": [
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/shisei/zaisei/index.html",
+          "status": 200,
+          "title": "財政",
+          "h1": "財政",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/shisei/shingikai/index.html",
+          "status": 200,
+          "title": "審議会",
+          "h1": "審議会",
+          "updatedAt": "令和8年7月29日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/machi/ringyosuisan/1003149/1003153.html",
+          "status": 200,
+          "title": "クマに注意しましょう",
+          "h1": "クマに注意しましょう",
+          "updatedAt": "2026年6月23日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/seikatsu/suido/1001639.html",
+          "status": 200,
+          "title": "水道水の水質基準・水質検査結果 ～安全な水道水の供給への取り組み～",
+          "h1": "水道水の水質基準・水質検査結果 ～安全な水道水の供給への取り組み～",
+          "updatedAt": "2026年6月26日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/machi/syougyoshinko/1018079/index.html",
+          "status": 200,
+          "title": "はくさんくらし応援券（8,000円分商品券）を配布します",
+          "h1": "はくさんくらし応援券（8,000円分商品券）を配布します",
+          "updatedAt": "2026年6月9日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/shisei/kohokocho/1018840.html",
+          "status": 200,
+          "title": "シティプロモーション特設サイト「トキメキはくさん」 について",
+          "h1": "シティプロモーション特設サイト「トキメキはくさん」 について",
+          "updatedAt": "2026年6月26日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/machi/chisanchisyo/1018246/index.html",
+          "status": 200,
+          "title": "オーガニックビレッジの取組",
+          "h1": "オーガニックビレッジの取組",
+          "updatedAt": "2026年3月27日",
+          "keywordHits": [
+            "農業",
+            "水産"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/faq/index.html",
+          "status": 200,
+          "title": "よくある質問",
+          "h1": "よくある質問",
+          "updatedAt": "2022年2月28日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/shisei/soshiki/hon/index.html",
+          "status": 200,
+          "title": "課別でさがす（本庁）",
+          "h1": "課別でさがす（本庁）",
+          "updatedAt": "2026年6月2日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "農業",
+            "林業",
+            "水産",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kosodate/1001857/index.html",
+          "status": 200,
+          "title": "妊娠・出産",
+          "h1": "妊娠・出産",
+          "updatedAt": "令和6年12月2日",
+          "keywordHits": [
+            "子育て",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kosodate/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "2025年10月15日",
+          "keywordHits": [
+            "給付金",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/purpose/1006641.html",
+          "status": 200,
+          "title": "就学",
+          "h1": "就学",
+          "updatedAt": "2025年8月21日",
+          "keywordHits": [
+            "就学",
+            "奨学金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/purpose/1006646.html",
+          "status": 200,
+          "title": "住居",
+          "h1": "住居",
+          "updatedAt": "2023年1月4日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "耐震"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/purpose/1006648.html",
+          "status": 200,
+          "title": "高齢者",
+          "h1": "高齢者",
+          "updatedAt": "2022年5月20日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/machi/ringyosuisan/1019154.html",
+          "status": 200,
+          "title": "美川漁港を放置等禁止区域に指定",
+          "h1": "美川漁港を放置等禁止区域に指定",
+          "updatedAt": "2026年7月15日",
+          "keywordHits": [
+            "水産"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/machi/ryokka/1003076.html",
+          "status": 200,
+          "title": "第49回千代女あさがおまつり 開催",
+          "h1": "第49回千代女あさがおまつり 開催",
+          "updatedAt": "2026年7月9日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/machi/kokusai/1005264/1003382.html",
+          "status": 200,
+          "title": "国際交流員の紹介と派遣",
+          "h1": "国際交流員の紹介と派遣",
+          "updatedAt": "2026年7月8日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kosodate/1012883/1017969/1019182.html",
+          "status": 200,
+          "title": "ヤングケアラー啓発展示のお知らせ",
+          "h1": "ヤングケアラー啓発展示のお知らせ",
+          "updatedAt": "2026年7月3日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/machi/kotsu/1008613.html",
+          "status": 200,
+          "title": "トレインパーク白山（白山市立高速鉄道ビジターセンター）",
+          "h1": "トレインパーク白山（白山市立高速鉄道ビジターセンター）",
+          "updatedAt": "2026年2月27日",
+          "keywordHits": [
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/seikatsu/bosai/1017239/1001804.html",
+          "status": 200,
+          "title": "わが家の耐震改修",
+          "h1": "わが家の耐震改修",
+          "updatedAt": "2026年3月2日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "耐震"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kenkofukushi/kyukyu/1002076.html",
+          "status": 200,
+          "title": "休日当番医",
+          "h1": "休日当番医",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/shisei/zaisei/1016700/index.html",
+          "status": 200,
+          "title": "ふるさと納税制度のご案内",
+          "h1": "ふるさと納税制度のご案内",
+          "updatedAt": "2026年7月8日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/machi/kotsu/1007749/index.html",
+          "status": 200,
+          "title": "コミュニティバス「めぐーる」",
+          "h1": "コミュニティバス「めぐーる」",
+          "updatedAt": "2026年6月20日",
+          "keywordHits": [
+            "福祉",
+            "就学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/machi/akiya/1002960.html",
+          "status": 200,
+          "title": "白山市空き家バンク",
+          "h1": "白山市空き家バンク",
+          "updatedAt": "2026年3月31日",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "移住",
+            "住宅",
+            "空き家",
+            "農業"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "子育て",
+            "就学",
+            "耐震"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/shisei/kohokocho/1004629/1004152.html",
+          "status": 200,
+          "title": "白山市LINE公式アカウント",
+          "h1": "白山市LINE公式アカウント",
+          "updatedAt": "2026年2月20日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kosodate/1012883/index.html",
+          "status": 200,
+          "title": "こども家庭センター 子ども・育児の相談",
+          "h1": "こども家庭センター 子ども・育児の相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kosodate/1012895/index.html",
+          "status": 200,
+          "title": "子育て支援情報",
+          "h1": "子育て支援情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kosodate/1001577/index.html",
+          "status": 200,
+          "title": "児童手当・助成",
+          "h1": "児童手当・助成",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kosodate/1012901/index.html",
+          "status": 200,
+          "title": "健康・予防",
+          "h1": "健康・予防",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kosodate/1012904/index.html",
+          "status": 200,
+          "title": "転入",
+          "h1": "転入",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kosodate/1012908/index.html",
+          "status": 200,
+          "title": "入園・入学",
+          "h1": "入園・入学",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kosodate/1012911/index.html",
+          "status": 200,
+          "title": "子どもの遊び場",
+          "h1": "子どもの遊び場",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kosodate/1012912/index.html",
+          "status": 200,
+          "title": "子育て便利帳・アプリ",
+          "h1": "子育て便利帳・アプリ",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kosodate/1012913/index.html",
+          "status": 200,
+          "title": "白山市からのお知らせ",
+          "h1": "白山市からのお知らせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/shisetsu/1006434/index.html",
+          "status": 200,
+          "title": "子育て関連施設",
+          "h1": "子育て関連施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/faq/1006894/index.html",
+          "status": 200,
+          "title": "こども・子育て",
+          "h1": "こども・子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/purpose/index.html",
+          "status": 200,
+          "title": "目的別検索",
+          "h1": "目的別検索",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/purpose/1006639.html",
+          "status": 200,
+          "title": "妊娠・出産",
+          "h1": "妊娠・出産",
+          "updatedAt": "2023年1月23日",
+          "keywordHits": [
+            "給付金",
+            "子育て",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/purpose/1006640.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "2023年6月1日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/about/1006637.html",
+          "status": 200,
+          "title": "リンク集",
+          "h1": "リンク集",
+          "updatedAt": "2026年4月20日",
+          "keywordHits": [
+            "農業",
+            "林業",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/shisetsu/1006603/sportsshisetsu/1004407.html",
+          "status": 200,
+          "title": "体育施設 申請様式",
+          "h1": "体育施設 申請様式",
+          "updatedAt": "2022年4月28日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/about/site/howtouse.html",
+          "status": 200,
+          "title": "情報の探し方",
+          "h1": "情報の探し方",
+          "updatedAt": "2022年2月25日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kurashi/madoguchi/1001463.html",
+          "status": 200,
+          "title": "窓口受付時間",
+          "h1": "窓口受付時間",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kurashi/madoguchi/1001462.html",
+          "status": 200,
+          "title": "窓口での本人確認",
+          "h1": "窓口での本人確認",
+          "updatedAt": "2025年12月2日",
+          "keywordHits": [
+            "給付金",
+            "子育て"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kurashi/mynumber/1007165.html",
+          "status": 200,
+          "title": "マイナンバーカード（個人番号カード）出張申請受付",
+          "h1": "マイナンバーカード（個人番号カード）出張申請受付",
+          "updatedAt": "2025年12月2日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17210",
+          "municipalityName": "白山市",
+          "sourceUrl": "https://www.city.hakusan.lg.jp/kurashi/mynumber/1012914.html",
+          "status": 200,
+          "title": "福祉施設・支援団体等がマイナンバーカードの申請サポート・代理交付を行った際に報償費をお支払いします",
+          "h1": "福祉施設・支援団体等がマイナンバーカードの申請サポート・代理交付を行った際に報償費をお支払いします",
+          "updatedAt": "2025年9月2日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.hakusan.lg.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.hakusan.lg.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.hakusan.lg.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/robots.txt",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/robots.txt",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/soshiki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/soshiki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/cgi-bins/enquetes/d87156b9ee8140ffabf26f9ea03a8d50",
+          "status": 400,
+          "finalUrl": "https://www.city.hakusan.lg.jp/cgi-bins/enquetes/d87156b9ee8140ffabf26f9ea03a8d50",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/about/site/foreignlanguage.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/about/site/foreignlanguage.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kurashi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kurashi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kurashi/madoguchi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kurashi/madoguchi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kurashi/mynumber/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kurashi/mynumber/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kurashi/zei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kurashi/zei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kurashi/shoumei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kurashi/shoumei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kurashi/shinseisyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kurashi/shinseisyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kurashi/koseki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kurashi/koseki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kurashi/inkan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kurashi/inkan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kurashi/kenpo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kurashi/kenpo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kurashi/nenkin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kurashi/nenkin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kurashi/1001598/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kurashi/1001598/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kurashi/syouhi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kurashi/syouhi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kurashi/1007437/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kurashi/1007437/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kurashi/tetuduki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kurashi/tetuduki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/seikatsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/seikatsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/seikatsu/kankyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/seikatsu/kankyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/seikatsu/chiikianzen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/seikatsu/chiikianzen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/seikatsu/bosai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/seikatsu/bosai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/seikatsu/koen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/seikatsu/koen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/seikatsu/suido/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/seikatsu/suido/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/seikatsu/kogyosuido/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/seikatsu/kogyosuido/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/seikatsu/gesui/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/seikatsu/gesui/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/seikatsu/chikasui/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/seikatsu/chikasui/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/seikatsu/kenchiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/seikatsu/kenchiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/seikatsu/jyutaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/seikatsu/jyutaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/seikatsu/seikatsuother/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/seikatsu/seikatsuother/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kenkofukushi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kenkofukushi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kenkofukushi/kenko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kenkofukushi/kenko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kenkofukushi/kenshin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kenkofukushi/kenshin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kenkofukushi/sodanshien/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kenkofukushi/sodanshien/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kenkofukushi/yobosessyu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kenkofukushi/yobosessyu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kenkofukushi/koreifukushi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kenkofukushi/koreifukushi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kenkofukushi/shougaifukushi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kenkofukushi/shougaifukushi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kenkofukushi/kaigohoken/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kenkofukushi/kaigohoken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kenkofukushi/kyukyu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kenkofukushi/kyukyu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kenkofukushi/kenkoother/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kenkofukushi/kenkoother/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/bunka/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/bunka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/bunka/kyoiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/bunka/kyoiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/bunka/gakko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/bunka/gakko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/bunka/library/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/bunka/library/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/bunka/syogaigakusyu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/bunka/syogaigakusyu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/bunka/seisyonen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/bunka/seisyonen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/bunka/bunkazai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/bunka/bunkazai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/bunka/bunkashinko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/bunka/bunkashinko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/bunka/sports/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/bunka/sports/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/bunka/kyoikubunka/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/bunka/kyoikubunka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/sogokeikaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/sogokeikaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/1007429/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/1007429/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/shiminkyodo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/shiminkyodo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/sdgs/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/sdgs/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/kotsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/kotsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/ijyu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/ijyu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/akiya/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/akiya/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/1007899/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/1007899/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/toshikeikaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/toshikeikaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/1007407/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/1007407/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/douro/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/douro/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/kokyogesui/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/kokyogesui/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/ryokka/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/ryokka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/yuchi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/yuchi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/kogyodanchi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/kogyodanchi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/chusyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/chusyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/roudoushien/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/roudoushien/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/syougyoshinko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/syougyoshinko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/chisanchisyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/chisanchisyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/ringyosuisan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/ringyosuisan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/nogyoshinko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/nogyoshinko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/nogyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/nogyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/kokusai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/kokusai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/danjyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/danjyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/shiyukenchiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/shiyukenchiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/chihososei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/chihososei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/nyusatsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/nyusatsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/machizukuri/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/machizukuri/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kanko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kanko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kanko/kankojyoho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kanko/kankojyoho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kanko/gallery/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kanko/gallery/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kanko/enikki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kanko/enikki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kanko/shinsei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kanko/shinsei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kanko/suishin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kanko/suishin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisetsu/bunkashisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisetsu/bunkashisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/profile/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/profile/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/tokei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/tokei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/mayor/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/mayor/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/1007582/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/1007582/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/zaisei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/zaisei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/gyosei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/gyosei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/1008550/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/1008550/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/publiccomments/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/publiccomments/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/kohokocho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/kohokocho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/opendate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/opendate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/kojinjyoho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/kojinjyoho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/shingikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/shingikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/jinjigyosei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/jinjigyosei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/senkyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/senkyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/kansa/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/kansa/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/ringyosuisan/1003149/1003153.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/ringyosuisan/1003149/1003153.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/seikatsu/suido/1001639.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/seikatsu/suido/1001639.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/syougyoshinko/1018079/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/syougyoshinko/1018079/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/kohokocho/1018840.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/kohokocho/1018840.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/chisanchisyo/1018246/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/chisanchisyo/1018246/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/seikatsu/bosai/1018618.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/seikatsu/bosai/1018618.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/faq/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/faq/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/soshiki/hon/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/soshiki/hon/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kosodate/1001857/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kosodate/1001857/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/purpose/1006641.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/purpose/1006641.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/purpose/1006643.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/purpose/1006643.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/purpose/1006644.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/purpose/1006644.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/purpose/1006645.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/purpose/1006645.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/purpose/1006646.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/purpose/1006646.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/purpose/1006647.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/purpose/1006647.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/purpose/1006648.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/purpose/1006648.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/purpose/1006649.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/purpose/1006649.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/purpose/1006650.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/purpose/1006650.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/ringyosuisan/1019154.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/ringyosuisan/1019154.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/bunka/sports/1004673/1010647.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/bunka/sports/1004673/1010647.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/ryokka/1003076.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/ryokka/1003076.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/kokusai/1005264/1003382.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/kokusai/1005264/1003382.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/seikatsu/koen/1007999.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/seikatsu/koen/1007999.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/newslist.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/newslist.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/about/site/rss.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/about/site/rss.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kosodate/1012883/1017969/1019182.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kosodate/1012883/1017969/1019182.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/bunka/bunkashinko/1002829/1012918.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/bunka/bunkashinko/1002829/1012918.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/bunka/bunkashinko/1002829/1012849.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/bunka/bunkashinko/1002829/1012849.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kanko/kankojyoho/giopark/1010357/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kanko/kankojyoho/giopark/1010357/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/kotsu/1008613.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/kotsu/1008613.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/seikatsu/bosai/1017239/1001804.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/seikatsu/bosai/1017239/1001804.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/event_calendar.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/event_calendar.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shigikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shigikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/emergency1/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/emergency1/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kenkofukushi/kyukyu/1002076.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kenkofukushi/kyukyu/1002076.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/seikatsu/bosai/1001815.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/seikatsu/bosai/1001815.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kanko/kankojyoho/1006572.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kanko/kankojyoho/1006572.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/zaisei/1016700/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/zaisei/1016700/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/kotsu/1007749/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/kotsu/1007749/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/akiya/1002960.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/akiya/1002960.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/kohokocho/1004149.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/kohokocho/1004149.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/kohokocho/1004629/1004139.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/kohokocho/1004629/1004139.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/kohokocho/movie/1004050.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/kohokocho/movie/1004050.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/kohokocho/1004629/1004152.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/kohokocho/1004629/1004152.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/about/accessibility/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/about/accessibility/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/kojinjyoho/1006576.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/kojinjyoho/1006576.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/about/1006636.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/about/1006636.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kosodate/1012883/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kosodate/1012883/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kosodate/1012895/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kosodate/1012895/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kosodate/1001577/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kosodate/1001577/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kosodate/1012901/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kosodate/1012901/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kosodate/1012904/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kosodate/1012904/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kosodate/1012908/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kosodate/1012908/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kosodate/1012911/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kosodate/1012911/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kosodate/1012912/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kosodate/1012912/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kosodate/1012913/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kosodate/1012913/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shigikai/gaiyou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shigikai/gaiyou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shigikai/kaigi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shigikai/kaigi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shigikai/reiki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shigikai/reiki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shigikai/katsudo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shigikai/katsudo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shigikai/shimin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shigikai/shimin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shigikai/jyoho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shigikai/jyoho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shigikai/info/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shigikai/info/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisetsu/1006603/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisetsu/1006603/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisetsu/1006424/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisetsu/1006424/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisetsu/bunka/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisetsu/bunka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisetsu/1009585.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisetsu/1009585.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/machi/shiminkyodo/1007700/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/machi/shiminkyodo/1007700/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisetsu/1006565/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisetsu/1006565/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisetsu/1006434/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisetsu/1006434/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisetsu/sports/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisetsu/sports/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisetsu/park/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisetsu/park/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisetsu/parking/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisetsu/parking/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/faq/1006754/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/faq/1006754/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/faq/1006826/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/faq/1006826/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/faq/1006894/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/faq/1006894/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/faq/1006996/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/faq/1006996/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/faq/1007001/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/faq/1007001/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/faq/1007124/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/faq/1007124/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/faq/1007151/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/faq/1007151/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/purpose/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/purpose/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/purpose/1006639.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/purpose/1006639.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/purpose/1006640.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/purpose/1006640.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/purpose/1006642.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/purpose/1006642.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/about/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/about/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/about/site/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/about/site/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/about/1006637.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/about/1006637.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/about/analytics.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/about/analytics.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/ad.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/ad.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/1018131/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/1018131/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/1018131/museum/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/1018131/museum/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/1018131/roots/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/1018131/roots/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/1018131/ikko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/1018131/ikko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/1012727.rss",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/1012727.rss",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/otherdata/bus/",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/otherdata/bus/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisei/soshiki/shisyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisei/soshiki/shisyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisetsu/1006603/sportsshisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisetsu/1006603/sportsshisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisetsu/1006603/sportsshisetsu/1006517.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisetsu/1006603/sportsshisetsu/1006517.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/shisetsu/1006603/sportsshisetsu/1004407.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/shisetsu/1006603/sportsshisetsu/1004407.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/about/site/howtouse.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/about/site/howtouse.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/about/site/search.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/about/site/search.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/about/site/usability.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/about/site/usability.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/about/site/barrierfree.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/about/site/barrierfree.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kurashi/madoguchi/1001463.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kurashi/madoguchi/1001463.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kurashi/madoguchi/1001462.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kurashi/madoguchi/1001462.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kurashi/madoguchi/1001471.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kurashi/madoguchi/1001471.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kurashi/mynumber/1009241.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kurashi/mynumber/1009241.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kurashi/mynumber/1010691.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kurashi/mynumber/1010691.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kurashi/mynumber/1007165.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kurashi/mynumber/1007165.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kurashi/mynumber/1012914.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kurashi/mynumber/1012914.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakusan.lg.jp/kurashi/mynumber/1001469.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakusan.lg.jp/kurashi/mynumber/1001469.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

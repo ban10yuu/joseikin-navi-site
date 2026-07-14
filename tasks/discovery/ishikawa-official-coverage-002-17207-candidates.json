@@ -1,0 +1,2024 @@
+{
+  "batchId": "ishikawa-official-coverage-002",
+  "prefecture": "石川県",
+  "generatedAt": "2026-07-14T15:52:46.610Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 36,
+  "results": [
+    {
+      "code": "17207",
+      "name": "羽咋市",
+      "officialBaseUrl": "https://www.city.hakui.lg.jp/",
+      "discoveredUrlCount": 220,
+      "candidateCount": 36,
+      "strongCandidateCount": 0,
+      "lowPriorityCandidateCount": 36,
+      "candidates": [
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/index.html",
+          "status": 200,
+          "title": "くらし・手続き",
+          "h1": "くらし・手続き",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/sumai_kankyou_anzen/index.html",
+          "status": 200,
+          "title": "住まい・環境・安全",
+          "h1": "住まい・環境・安全",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空家"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/index.html",
+          "status": 200,
+          "title": "健康・福祉・子育て",
+          "h1": "健康・福祉・子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/sangyou_business/index.html",
+          "status": 200,
+          "title": "産業・ビジネス",
+          "h1": "産業・ビジネス",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "水産"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/shiseijouhou/index.html",
+          "status": 200,
+          "title": "市政情報",
+          "h1": "市政情報",
+          "updatedAt": "令和8年7月12日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/shiseijouhou/kakuka_shisetsu/index.html",
+          "status": 200,
+          "title": "各課・施設",
+          "h1": "各課・施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "水産",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/question/index.html",
+          "status": 200,
+          "title": "よくあるご質問",
+          "h1": "よくあるご質問",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/kinkyu/index.html",
+          "status": 200,
+          "title": "令和6年能登半島地震関連情報",
+          "h1": "令和6年能登半島地震関連情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/important/17313.html",
+          "status": 200,
+          "title": "羽咋市庁用車管理業務に係る公募型プロポーザルを実施します",
+          "h1": "羽咋市庁用車管理業務に係る公募型プロポーザルを実施します",
+          "updatedAt": "2026年07月07日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/important/17304.html",
+          "status": 200,
+          "title": "令和8年度羽咋市インターンシップ募集案内",
+          "h1": "令和8年度羽咋市インターンシップ募集案内",
+          "updatedAt": "2026年06月25日",
+          "keywordHits": [
+            "移住",
+            "住宅"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/soshiki/sangyoukensetsubu/nourinsuisan/toki/index.html",
+          "status": 200,
+          "title": "トキ共生室",
+          "h1": "トキ共生室",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "水産"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/hoken_nenkin/3/10346.html",
+          "status": 200,
+          "title": "マイナンバーカードの健康保険証利用について（マイナ保険証）",
+          "h1": "マイナンバーカードの健康保険証利用について（マイナ保険証）",
+          "updatedAt": "2025年03月11日",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/sumai_kankyou_anzen/bousai/index.html",
+          "status": 200,
+          "title": "防災",
+          "h1": "防災",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/event/17095.html",
+          "status": 200,
+          "title": "令和8年度羽咋まつりのはまぐり音頭参加者募集します！",
+          "h1": "令和8年度羽咋まつりのはまぐり音頭参加者募集します！",
+          "updatedAt": "2026年06月24日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/event/16781.html",
+          "status": 200,
+          "title": "トキ放鳥記念式典・トキ放鳥式のようす・ソフトリリースのようす",
+          "h1": "トキ放鳥記念式典・トキ放鳥式のようす・ソフトリリースのようす",
+          "updatedAt": "2026年06月19日",
+          "keywordHits": [
+            "水産"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/event/5639.html",
+          "status": 200,
+          "title": "あそびの教室のご案内",
+          "h1": "あそびの教室のご案内",
+          "updatedAt": "2026年03月19日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/furusatonouzei/index.html",
+          "status": 200,
+          "title": "ふるさと納税",
+          "h1": "ふるさと納税",
+          "updatedAt": "令和6年1月1日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/otonanokenkou/1/10734.html",
+          "status": 200,
+          "title": "令和8年7月の休日当番医療機関情報",
+          "h1": "令和8年7月の休日当番医療機関情報",
+          "updatedAt": "2026年07月01日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/sumai_kankyou_anzen/7/16070.html",
+          "status": 200,
+          "title": "令和6年能登半島地震に関する取り組みや進捗状況について",
+          "h1": "令和6年能登半島地震に関する取り組みや進捗状況について",
+          "updatedAt": "2026年07月01日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/shiseijouhou/kouhou_kouchou/4/17284.html",
+          "status": 200,
+          "title": "広報はくい 2026年(令和8年) 7月号",
+          "h1": "広報はくい 2026年(令和8年) 7月号",
+          "updatedAt": "2026年06月25日",
+          "keywordHits": [
+            "補助金",
+            "免除",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/shiseijouhou/kouhou_kouchou/4/17148.html",
+          "status": 200,
+          "title": "広報はくい 2026年(令和8年) 6月号",
+          "h1": "広報はくい 2026年(令和8年) 6月号",
+          "updatedAt": "2026年05月26日",
+          "keywordHits": [
+            "空き家",
+            "創業",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/shiseijouhou/kouhou_kouchou/4/17105.html",
+          "status": 200,
+          "title": "広報はくい 2026年(令和8年) 5月号",
+          "h1": "広報はくい 2026年(令和8年) 5月号",
+          "updatedAt": "2026年04月24日",
+          "keywordHits": [
+            "助成金",
+            "子育て"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/shiseijouhou/kouhou_kouchou/4/17065.html",
+          "status": 200,
+          "title": "広報はくい 2026年(令和8年) 4月号",
+          "h1": "広報はくい 2026年(令和8年) 4月号",
+          "updatedAt": "2026年03月25日",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て",
+            "奨学金",
+            "予防接種"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/shiseijouhou/kouhou_kouchou/4/17027.html",
+          "status": 200,
+          "title": "広報はくい 2026年(令和8年) 3月号",
+          "h1": "広報はくい 2026年(令和8年) 3月号",
+          "updatedAt": "2026年02月25日",
+          "keywordHits": [
+            "住宅",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/shiseijouhou/machidukuri/6/13840.html",
+          "status": 200,
+          "title": "羽咋市にぎわい交流拠点『LAKUNA はくい』施設紹介★",
+          "h1": "羽咋市にぎわい交流拠点『LAKUNA はくい』施設紹介★",
+          "updatedAt": "2025年01月20日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/soshiki/shiminfukushibu/kodomo/13/index.html",
+          "status": 200,
+          "title": "羽咋市子育て応援ページ",
+          "h1": "羽咋市子育て応援ページ",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/iju/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/iju/house/akiya/index.html",
+          "status": 200,
+          "title": "羽咋市空き家情報バンク",
+          "h1": "羽咋市空き家情報バンク",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/gikai_live/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/shiseijouhou/hakuishinoshiseijyouhou/2/8198.html",
+          "status": 200,
+          "title": "羽咋市のオープンデータに係る取組みについて",
+          "h1": "羽咋市のオープンデータに係る取組みについて",
+          "updatedAt": "2025年10月30日",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/sumai_kankyou_anzen/runrunbus/4292.html",
+          "status": 200,
+          "title": "市内循環バス「るんるんバス」の運行時刻について",
+          "h1": "市内循環バス「るんるんバス」の運行時刻について",
+          "updatedAt": "2025年04月01日",
+          "keywordHits": [
+            "福祉",
+            "就学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/shiseijouhou/machidukuri/7/15522.html",
+          "status": 200,
+          "title": "予約制乗合交通「のるまいかー」の運行について",
+          "h1": "予約制乗合交通「のるまいかー」の運行について",
+          "updatedAt": "2024年06月17日",
+          "keywordHits": [
+            "福祉",
+            "就学",
+            "妊婦"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/section/routemap/index.html",
+          "status": 200,
+          "title": "羽咋市観光ルートマップ｜羽咋めぐり",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/shiseijouhou/kouhou_kouchou/5/4201.html",
+          "status": 200,
+          "title": "あなたのお店を宣伝をしませんか ～有料広告の募集案内～",
+          "h1": "あなたのお店を宣伝をしませんか ～有料広告の募集案内～",
+          "updatedAt": "2025年04月24日",
+          "keywordHits": [
+            "起業",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/shiseijouhou/kakuka_shisetsu/1/4224.html",
+          "status": 200,
+          "title": "平日の窓口時間延長及び休日・時間外受付について",
+          "h1": "平日の窓口時間延長及び休日・時間外受付について",
+          "updatedAt": "2023年04月01日",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17207",
+          "municipalityName": "羽咋市",
+          "sourceUrl": "https://www.city.hakui.lg.jp/soshiki/",
+          "status": 200,
+          "title": "組織から探す",
+          "h1": "組織から探す",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "水産",
+            "福祉"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.hakui.lg.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/sitemap.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.hakui.lg.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.city.hakui.lg.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/sumai_kankyou_anzen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/sumai_kankyou_anzen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/sangyou_business/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/sangyou_business/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/shiseijouhou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/shiseijouhou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/shiseijouhou/kakuka_shisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/shiseijouhou/kakuka_shisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/Facility/5009.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/Facility/5009.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/question/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/question/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/cgi-bin/inquiry.php/1",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/cgi-bin/inquiry.php/1",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/SelectLanguage.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/SelectLanguage.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kinkyu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kinkyu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/important/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/important/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/cgi-bin/feed.php?type=rss_2.0&amp;dirId=987&amp;includeShortcut=1&amp;ignore=1",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/cgi-bin/feed.php?type=rss_2.0&amp;dirId=987&amp;includeShortcut=1&amp;ignore=1",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/important/17313.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/important/17313.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/important/17287.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/important/17287.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/important/17304.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/important/17304.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/important/16552.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/important/16552.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/important/16972.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/important/16972.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/shiseijouhou/syokuinsaiyou_jinnji/1/17259.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/shiseijouhou/syokuinsaiyou_jinnji/1/17259.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/shiseijouhou/machidukuri/2/14074.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/shiseijouhou/machidukuri/2/14074.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/soshiki/sangyoukensetsubu/nourinsuisan/toki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/soshiki/sangyoukensetsubu/nourinsuisan/toki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/shiseijouhou/machidukuri/2/13442.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/shiseijouhou/machidukuri/2/13442.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/shiseijouhou/machidukuri/2/13736.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/shiseijouhou/machidukuri/2/13736.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/hoken_nenkin/3/10346.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/hoken_nenkin/3/10346.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/denshishinsei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/denshishinsei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/soshiki/shiminfukushibu/shimin/2/8191.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/soshiki/shiminfukushibu/shimin/2/8191.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/shiseijouhou/kouhou_kouchou/4/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/shiseijouhou/kouhou_kouchou/4/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/sumai_kankyou_anzen/bousai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/sumai_kankyou_anzen/bousai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/navi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/navi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kankou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kankou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/sangyou_business/nyuusatsu_keiyakujyouhou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/sangyou_business/nyuusatsu_keiyakujyouhou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/new.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/new.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/cgi-bin/feed.php?new1=1",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/cgi-bin/feed.php?new1=1",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.hakui.lg.jp/event/6075.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/event/6075.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/event/17095.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/event/17095.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/event/16781.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/event/16781.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.hakui.lg.jp/event/8098.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/event/8098.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/event/16273.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/event/16273.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/event/15552.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/event/15552.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.hakui.lg.jp/event/7145.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/event/7145.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/event/15559.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/event/15559.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/event/5639.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/event/5639.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/event/12385.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/event/12385.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/event/5698.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/event/5698.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/event/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/event/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/cgi-bin/feed.php?type=rss_2.0&amp;dirId=990&amp;includeShortcut=1&amp;ignore=1",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/cgi-bin/feed.php?type=rss_2.0&amp;dirId=990&amp;includeShortcut=1&amp;ignore=1",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.hakui.lg.jp/sumai_kankyou_anzen/bousai/8/3236.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/sumai_kankyou_anzen/bousai/8/3236.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/shiseijouhou/hakuishinitsuite/10501.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/shiseijouhou/hakuishinitsuite/10501.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/furusatonouzei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/furusatonouzei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/otonanokenkou/1/10734.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/otonanokenkou/1/10734.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/shiseijouhou/syokuinsaiyou_jinnji/1/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/shiseijouhou/syokuinsaiyou_jinnji/1/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/cgi-bin/inquiry.php/1?page_no=1",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/cgi-bin/inquiry.php/1?page_no=1",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/shiseijouhou/shicyounoheya/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/shiseijouhou/shicyounoheya/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/shiseijouhou/gikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/shiseijouhou/gikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/shiseijouhou/toukei/1/3504.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/shiseijouhou/toukei/1/3504.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/shiseijouhou/hakuishinitsuite/4081.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/shiseijouhou/hakuishinitsuite/4081.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/shiseijouhou/hakuishinitsuite/4199.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/shiseijouhou/hakuishinitsuite/4199.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/sumai_kankyou_anzen/7/16070.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/sumai_kankyou_anzen/7/16070.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/shiseijouhou/kouhou_kouchou/4/17284.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/shiseijouhou/kouhou_kouchou/4/17284.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/shiseijouhou/kouhou_kouchou/4/17148.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/shiseijouhou/kouhou_kouchou/4/17148.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/shiseijouhou/kouhou_kouchou/4/17105.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/shiseijouhou/kouhou_kouchou/4/17105.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/shiseijouhou/kouhou_kouchou/4/17065.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/shiseijouhou/kouhou_kouchou/4/17065.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/shiseijouhou/kouhou_kouchou/4/17027.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/shiseijouhou/kouhou_kouchou/4/17027.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/cgi-bin/feed.php?type=rss_2.0&amp;dirId=213&amp;includeShortcut=1&amp;ignore=1",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/cgi-bin/feed.php?type=rss_2.0&amp;dirId=213&amp;includeShortcut=1&amp;ignore=1",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/shiseijouhou/machidukuri/6/13840.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/shiseijouhou/machidukuri/6/13840.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/soshiki/shiminfukushibu/kodomo/13/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/soshiki/shiminfukushibu/kodomo/13/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/iju/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/iju/index.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.hakui.lg.jp/iju/house/akiya/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/iju/house/akiya/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/gikai_live/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/gikai_live/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/shiseijouhou/hakuishinoshiseijyouhou/2/8198.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/shiseijouhou/hakuishinoshiseijyouhou/2/8198.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/rekimin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/rekimin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/chirihama/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/chirihama/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kankou/kankoushisetsu/3168.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kankou/kankoushisetsu/3168.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/sumai_kankyou_anzen/runrunbus/4292.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/sumai_kankyou_anzen/runrunbus/4292.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/shiseijouhou/machidukuri/7/15522.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/shiseijouhou/machidukuri/7/15522.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/section/routemap/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/section/routemap/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/shiseijouhou/kouhou_kouchou/5/4201.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/shiseijouhou/kouhou_kouchou/5/4201.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/shiseijouhou/kakuka_shisetsu/1/4224.html",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/shiseijouhou/kakuka_shisetsu/1/4224.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/soshiki/",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/soshiki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/Facility/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/Facility/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/chirihama/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/chirihama/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/chirihama/2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/chirihama/2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/digitalmuseum/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/digitalmuseum/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/digitalmuseum/3dmodel/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/digitalmuseum/3dmodel/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/digitalmuseum/guide/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/digitalmuseum/guide/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/digitalmuseum/image_archive/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/digitalmuseum/image_archive/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/digitalmuseum/news/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/digitalmuseum/news/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/digitalmuseum/publication/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/digitalmuseum/publication/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/digitalmuseum/questionnaire/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/digitalmuseum/questionnaire/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/digitalmuseum/ruinsmap/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/digitalmuseum/ruinsmap/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/digitalmuseum/video_archive/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/digitalmuseum/video_archive/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/digitalmuseum/vrvideo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/digitalmuseum/vrvideo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/event/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/event/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/gikai_live/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/gikai_live/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/gikai_live/backnumber/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/gikai_live/backnumber/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/gikai_live/backnumber/10/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/gikai_live/backnumber/10/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/gikai_live/backnumber/4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/gikai_live/backnumber/4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/gikai_live/backnumber/5/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/gikai_live/backnumber/5/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/gikai_live/backnumber/6/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/gikai_live/backnumber/6/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/gikai_live/backnumber/7/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/gikai_live/backnumber/7/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/gikai_live/backnumber/8/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/gikai_live/backnumber/8/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/gikai_live/backnumber/9/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/gikai_live/backnumber/9/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/gikai_live/now/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/gikai_live/now/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/iju/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/iju/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/iju/consultation/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/iju/consultation/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/iju/event/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/iju/event/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/iju/house/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/iju/house/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/iju/house/akiya/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/iju/house/akiya/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/iju/life/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/iju/life/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/iju/news/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/iju/news/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/iju/snore/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/iju/snore/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/iju/snore/interview/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/iju/snore/interview/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/iju/works/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/iju/works/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/important/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/important/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kankou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kankou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kankou/4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kankou/4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kankou/5/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kankou/5/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kankou/event/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kankou/event/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kankou/gyoujiichiran/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kankou/gyoujiichiran/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kankou/kankoushisetsu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kankou/kankoushisetsu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/6/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/6/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/fukushi_kaigo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/fukushi_kaigo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/fukushi_kaigo/10/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/fukushi_kaigo/10/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/fukushi_kaigo/2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/fukushi_kaigo/2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/fukushi_kaigo/3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/fukushi_kaigo/3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/fukushi_kaigo/4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/fukushi_kaigo/4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/fukushi_kaigo/5/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/fukushi_kaigo/5/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/fukushi_kaigo/6/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/fukushi_kaigo/6/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/fukushi_kaigo/7/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/fukushi_kaigo/7/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/fukushi_kaigo/8/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/fukushi_kaigo/8/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/hahatokonokenkou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/hahatokonokenkou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/hahatokonokenkou/1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/hahatokonokenkou/1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/hahatokonokenkou/2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/hahatokonokenkou/2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/hahatokonokenkou/3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/hahatokonokenkou/3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/hahatokonokenkou/4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/hahatokonokenkou/4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/konkatu_deai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/konkatu_deai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/kosodate/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/kosodate/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/kosodate/1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/kosodate/1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/kosodate/2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/kosodate/2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/kosodate/3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/kosodate/3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/kosodate/4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/kosodate/4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/kosodate/7/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/kosodate/7/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/otonanokenkou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/otonanokenkou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/otonanokenkou/1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/otonanokenkou/1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/otonanokenkou/2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/otonanokenkou/2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/otonanokenkou/3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/otonanokenkou/3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/otonanokenkou/4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kenkou_fukushi_kosodate/otonanokenkou/4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kinkyu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kinkyu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/10/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/10/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/10/1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/10/1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/9/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/9/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/denshishinsei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/denshishinsei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/furusatonouzei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/furusatonouzei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/hoken_nenkin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/hoken_nenkin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/hoken_nenkin/1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/hoken_nenkin/1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/hoken_nenkin/2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/hoken_nenkin/2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/hoken_nenkin/3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/hoken_nenkin/3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/hoken_nenkin/4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/hoken_nenkin/4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/jousui_gesuidou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/jousui_gesuidou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/jousui_gesuidou/1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/jousui_gesuidou/1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/jousui_gesuidou/2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/jousui_gesuidou/2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/jousui_gesuidou/3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/jousui_gesuidou/3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/jousui_gesuidou/4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/jousui_gesuidou/4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/jousui_gesuidou/5/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/jousui_gesuidou/5/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/jousui_gesuidou/6/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/jousui_gesuidou/6/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/jousui_gesuidou/7/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/jousui_gesuidou/7/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/jousui_gesuidou/8/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/jousui_gesuidou/8/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/juuminhyou_koseki_todokede/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/juuminhyou_koseki_todokede/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/juuminhyou_koseki_todokede/1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/juuminhyou_koseki_todokede/1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/juuminhyou_koseki_todokede/2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/juuminhyou_koseki_todokede/2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/juuminhyou_koseki_todokede/3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/juuminhyou_koseki_todokede/3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/juuminhyou_koseki_todokede/4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/juuminhyou_koseki_todokede/4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/mynumber/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/mynumber/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/syouhiseikatsu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/syouhiseikatsu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/zeikin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/zeikin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/zeikin/1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/zeikin/1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/zeikin/2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/zeikin/2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/zeikin/3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/zeikin/3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/zeikin/4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/zeikin/4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/zeikin/5/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/zeikin/5/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/zeikin/6/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/zeikin/6/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/zeikin/7/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/zeikin/7/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/zeikin/8/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/zeikin/8/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/zeikin/9/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kurashi_tetsuduki/zeikin/9/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/8/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/8/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/bunka_geijutsu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/bunka_geijutsu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/bunka_geijutsu/1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/bunka_geijutsu/1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/kokuminbunkasai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/kokuminbunkasai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/kyouiku_gakkou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/kyouiku_gakkou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/kyouiku_gakkou/1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/kyouiku_gakkou/1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/kyouiku_gakkou/2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/kyouiku_gakkou/2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/kyouiku_gakkou/3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/kyouiku_gakkou/3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/kyouiku_gakkou/4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/kyouiku_gakkou/4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/kyouiku_gakkou/5/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/kyouiku_gakkou/5/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/rekishi_bunkazai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/rekishi_bunkazai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/rekishi_bunkazai/1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/rekishi_bunkazai/1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/rekishi_bunkazai/2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/rekishi_bunkazai/2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/sports/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/sports/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/syougaigakusyuu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/syougaigakusyuu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/syougaigakusyuu/1/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/syougaigakusyuu/1/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/syougaigakusyuu/2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/syougaigakusyuu/2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/syougaigakusyuu/3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/syougaigakusyuu/3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/volunteer/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/kyouiku_bunka_sports/volunteer/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/material/sitemap/sitemap.recruit.1.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/material/sitemap/sitemap.recruit.1.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/navi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/navi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/question/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/question/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/question/kankyou_sangyou_business/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/question/kankyou_sangyou_business/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/question/kenkou_fukushi_kosodate/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/question/kenkou_fukushi_kosodate/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/question/kurashi_tetsuduki/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/question/kurashi_tetsuduki/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.hakui.lg.jp/question/kyouiku_bunka_sports/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.hakui.lg.jp/question/kyouiku_bunka_sports/sitemap.dir.xml",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

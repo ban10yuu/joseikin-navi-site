@@ -9005,3 +9005,51 @@
   - トップ、カテゴリ、一覧、共通ナビ、周知のみ、金額・対象・受付表現不足候補、404シードは第2巡候補に残す。
 - 次:
   - 石川県公式棚卸し002として、17206加賀市から自治体コード順に確認する。
+
+### 2026-07-15 石川県公式棚卸し002（17206加賀市・17207羽咋市・17209かほく市・17210白山市・17211能美市）
+
+- 作業範囲:
+  - 17206 加賀市、17207 羽咋市、17209 かほく市、17210 白山市、17211 能美市の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 自治体別クロールで候補383件を取得した。shortlistが150件超かつcrawl候補の40%超だったため、候補383件すべてから短い本文スニペットを抽出し、ページ内リンク191件を制度リードとして再取得した。
+  - 羽咋市は通常候補が薄かったため、公式の補助金・助成制度カテゴリから個別制度URLを補完した。
+- 採用:
+  - 合計96件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 加賀市8件: こども医療費助成、加賀市緊急学生支援貸付金、ひとり親家庭医療費助成、物価高騰対応生活支援給付金、災害義援金・支援金、文化振興及び文化財管理補助金、企業立地支援・補助金、町内会への補助金制度。
+  - 羽咋市18件: こどもの医療費助成、児童手当、自主防災組織活動補助金、街灯電気料補助金、転入新婚世帯転居費用助成、のと里山空港利用助成、難視聴地域ケーブルテレビ接続費等補助金、がけ地防災対策工事等補助金、水洗便所等改造工事助成金、能登空港首都圏研修等助成金、新婚・子育て・働く女性・空き家バンク登録物件入居家賃補助、修学旅行助成、企業誘致助成、空き家情報バンク利用促進報奨金、トキビオトープ整備事業補助、トキ関連商品開発支援補助、がんアピアランスケア助成、乳がん治療中ママの子育て支援。
+  - かほく市30件: 新婚さん住まい応援事業補助金、創生住まい再建支援金、住まい再建補助金、被災者生活再建支援金、がけ地災害復旧工事補助金、商工業振興補助金、防犯カメラ設置補助金、若者海外留学応援奨励金、事業者用太陽光発電設備等重点対策加速化事業補助金、空き家補助金、被災宅地等復旧補助金、住宅用自然エネルギーシステム設置費補助金、地域活動補助金、自宅再建利子助成事業給付金、なりわい再生支援補助金、奨学金返還支援補助金、出産育児一時金・葬祭費等、任意予防接種助成金、若者マイホーム取得奨励金、空き家バンク登録促進奨励金、木の家づくり奨励金、通話録音装置等購入費補助金、がけ地防災工事補助金、ケーブルテレビ減免、地方就職支援金、子ども医療費助成、電気式生ごみ処理機購入費補助金、ビジネスイノベーション補助金、見本市等出展事業補助金、私道復旧補助金。
+  - 白山市16件: ひとり親家庭等医療費給付、児童手当、サテライトオフィス立地促進補助金、家庭用防災用品購入費助成金、克雪化促進事業補助金、地方就職支援金、鳥獣害支障樹木伐採等事業補助金、若者・子育て世帯定住奨励金、鳥獣害防止対策費補助金、物価高対応子育て応援手当、水道基本料金減免、機構集積協力金、感震ブレーカー設置促進事業費補助金、児童扶養手当、除雪オペレーター育成支援事業補助金、白山ろく地域定住奨励金。
+  - 能美市24件: 産業振興奨励助成金、妊産婦医療費助成制度、融資・支援制度（利子補給補助金）、就職・労働支援、自立支援教育訓練給付金、乳幼児・児童医療費助成制度、難病・精神障害者医療費、電気自動車等購入促進事業費補助金、交通安全・防犯・環境補助金、自然エネルギー設備設置補助金、省エネ住宅促進事業費補助金、出産育児一時金、家庭用生ごみ処理機等購入費補助金、団体旅行促進補助金、高齢者安全運転装置設置促進補助金、心身障害者医療費2件、ひとり親家庭等医療費助成、児童手当、空き家等解体費補助金、空き家改修費等補助金、障害者雇用促進事業補助金、事業継続力強化認定企業支援事業補助金、屋根雪おろし作業委託費補助金。
+- 生成ファイル:
+  - `tasks/discovery/ishikawa-official-coverage-002-municipalities.json`
+  - `tasks/discovery/ishikawa-official-coverage-002-17206-municipality.json`
+  - `tasks/discovery/ishikawa-official-coverage-002-17207-municipality.json`
+  - `tasks/discovery/ishikawa-official-coverage-002-17209-municipality.json`
+  - `tasks/discovery/ishikawa-official-coverage-002-17210-municipality.json`
+  - `tasks/discovery/ishikawa-official-coverage-002-17211-municipality.json`
+  - `tasks/discovery/ishikawa-official-coverage-002-17206-candidates.json`
+  - `tasks/discovery/ishikawa-official-coverage-002-17207-candidates.json`
+  - `tasks/discovery/ishikawa-official-coverage-002-17209-candidates.json`
+  - `tasks/discovery/ishikawa-official-coverage-002-17210-candidates.json`
+  - `tasks/discovery/ishikawa-official-coverage-002-17211-candidates.json`
+  - `tasks/discovery/ishikawa-official-coverage-002-candidates.json`
+  - `tasks/discovery/ishikawa-official-coverage-002-url-seeds.json`
+  - `tasks/discovery/ishikawa-official-coverage-002-snippets.json`
+  - `tasks/discovery/ishikawa-official-coverage-002-url-leads.json`
+  - `tasks/discovery/ishikawa-official-coverage-002-rescored-snippets.json`
+  - `tasks/discovery/ishikawa-official-coverage-002-adoption-snippets.json`
+  - `tasks/discovery/ishikawa-official-coverage-002-adoption-ranked.json`
+  - `tasks/discovery/ishikawa-official-coverage-002-adopted-urls.json`
+  - `tasks/discovery/ishikawa-official-coverage-002.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（002関連JSON、checkpoint）。
+  - 追加slug重複: pass（96件、`verified-local-misc-2026.ts` 全体 duplicateCount 0）。
+  - 公式URL到達: pass（96 primary official URLsすべてHTTP 200）。
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 12318、officialLinkedActive 12198、manuallyVerifiedActive 12198、石川県 localOfficial 187）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は石川県17211能美市到達のみで全国完了扱いしない。
+  - トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、既存URL重複、制度要件不足候補は第2巡候補に残す。
+- 次:
+  - 石川県公式棚卸し003として、17212野々市市から自治体コード順に確認する。

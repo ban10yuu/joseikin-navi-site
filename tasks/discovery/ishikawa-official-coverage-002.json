@@ -1,0 +1,95 @@
+{
+  "batchId": "ishikawa-official-coverage-002",
+  "generatedAt": "2026-07-15T01:04:22+09:00",
+  "prefecture": "石川県",
+  "status": "completed",
+  "municipalities": [
+    {
+      "code": "17206",
+      "name": "加賀市",
+      "officialUrl": "https://www.city.kaga.ishikawa.jp/",
+      "candidateCount": 23,
+      "adoptedCount": 8
+    },
+    {
+      "code": "17207",
+      "name": "羽咋市",
+      "officialUrl": "https://www.city.hakui.lg.jp/",
+      "candidateCount": 36,
+      "adoptedCount": 18
+    },
+    {
+      "code": "17209",
+      "name": "かほく市",
+      "officialUrl": "https://www.city.kahoku.lg.jp/",
+      "candidateCount": 153,
+      "adoptedCount": 30
+    },
+    {
+      "code": "17210",
+      "name": "白山市",
+      "officialUrl": "https://www.city.hakusan.lg.jp/",
+      "candidateCount": 85,
+      "adoptedCount": 16
+    },
+    {
+      "code": "17211",
+      "name": "能美市",
+      "officialUrl": "https://www.city.nomi.ishikawa.jp/",
+      "candidateCount": 86,
+      "adoptedCount": 24
+    }
+  ],
+  "candidateCount": 383,
+  "snippetSourceCount": 383,
+  "snippetHttp200Count": 383,
+  "urlLeadCount": 191,
+  "adoptionSnippetCount": 205,
+  "adoptedCount": 96,
+  "heldCount": 287,
+  "sourceUrlsChecked": 96,
+  "adoptedByMunicipality": {
+    "加賀市": 8,
+    "羽咋市": 18,
+    "かほく市": 30,
+    "白山市": 16,
+    "能美市": 24
+  },
+  "files": [
+    "tasks/discovery/ishikawa-official-coverage-002-municipalities.json",
+    "tasks/discovery/ishikawa-official-coverage-002-17206-municipality.json",
+    "tasks/discovery/ishikawa-official-coverage-002-17207-municipality.json",
+    "tasks/discovery/ishikawa-official-coverage-002-17209-municipality.json",
+    "tasks/discovery/ishikawa-official-coverage-002-17210-municipality.json",
+    "tasks/discovery/ishikawa-official-coverage-002-17211-municipality.json",
+    "tasks/discovery/ishikawa-official-coverage-002-17206-candidates.json",
+    "tasks/discovery/ishikawa-official-coverage-002-17207-candidates.json",
+    "tasks/discovery/ishikawa-official-coverage-002-17209-candidates.json",
+    "tasks/discovery/ishikawa-official-coverage-002-17210-candidates.json",
+    "tasks/discovery/ishikawa-official-coverage-002-17211-candidates.json",
+    "tasks/discovery/ishikawa-official-coverage-002-candidates.json",
+    "tasks/discovery/ishikawa-official-coverage-002-url-seeds.json",
+    "tasks/discovery/ishikawa-official-coverage-002-snippets.json",
+    "tasks/discovery/ishikawa-official-coverage-002-url-leads.json",
+    "tasks/discovery/ishikawa-official-coverage-002-rescored-snippets.json",
+    "tasks/discovery/ishikawa-official-coverage-002-adoption-snippets.json",
+    "tasks/discovery/ishikawa-official-coverage-002-adoption-ranked.json",
+    "tasks/discovery/ishikawa-official-coverage-002-adopted-urls.json",
+    "tasks/discovery/ishikawa-official-coverage-002.json"
+  ],
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "json": "pass: JSON.parse for 19 ishikawa-official-coverage-002 JSON files",
+    "addedSlugUniqueness": "pass: 96 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 96 primary official URLs returned HTTP 200",
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 12318, officialLinkedActive 12198, manuallyVerifiedActive 12198, 石川県 localOfficial 187)"
+  },
+  "notes": [
+    "shortlistが150件超かつcrawl候補の40%超だったため、候補383件すべてから短い本文スニペットを抽出し、ページ内リンク191件を制度リードとして再取得した。",
+    "羽咋市は通常候補が薄かったため、公式の補助金・助成制度カテゴリから個別制度URLを補完した。",
+    "トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、既存URL重複、制度要件不足候補は第2巡候補として保持する。",
+    "全国公式棚卸しは未完了。次回は17212野々市市から石川県公式棚卸し003として再開する。"
+  ]
+}

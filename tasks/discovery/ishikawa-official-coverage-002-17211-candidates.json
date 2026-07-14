@@ -1,0 +1,2918 @@
+{
+  "batchId": "ishikawa-official-coverage-002",
+  "prefecture": "石川県",
+  "generatedAt": "2026-07-14T15:52:44.528Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 86,
+  "results": [
+    {
+      "code": "17211",
+      "name": "能美市",
+      "officialBaseUrl": "https://www.city.nomi.ishikawa.jp/",
+      "discoveredUrlCount": 220,
+      "candidateCount": 86,
+      "strongCandidateCount": 4,
+      "lowPriorityCandidateCount": 82,
+      "candidates": [
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.lg.jp/index.html",
+          "status": 200,
+          "title": "能美市",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/sitemap/",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "医療費助成",
+            "移住",
+            "住宅",
+            "空き家",
+            "創業",
+            "事業者",
+            "福祉",
+            "子育て",
+            "就学",
+            "耐震",
+            "予防接種",
+            "通学"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/index.html",
+          "status": 200,
+          "title": "能美市",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/",
+          "status": 200,
+          "title": "暮らし - 能美市",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "福祉",
+            "子育て",
+            "省エネ",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/unchin/",
+          "status": 200,
+          "title": "運賃・お得な回数券・定期券",
+          "h1": "運賃・お得な回数券・定期券",
+          "updatedAt": "",
+          "keywordHits": [
+            "通学"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/bustei/",
+          "status": 200,
+          "title": "バス停情報",
+          "h1": "バス停情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/gomi/",
+          "status": 200,
+          "title": "ごみ・リサイクル",
+          "h1": "ごみ・リサイクル",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/gomi/info/",
+          "status": 200,
+          "title": "その他お知らせ",
+          "h1": "その他お知らせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koseki/shomei/",
+          "status": 200,
+          "title": "各種証明書・手数料",
+          "h1": "各種証明書・手数料",
+          "updatedAt": "令和8年2月9日",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/tax/info/",
+          "status": 200,
+          "title": "税に関するお知らせ",
+          "h1": "税に関するお知らせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/tax/kotei/",
+          "status": 200,
+          "title": "固定資産税・都市計画税",
+          "h1": "固定資産税・都市計画税",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "耐震",
+            "省エネ"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/tax/shomei/",
+          "status": 200,
+          "title": "市税の証明・料金",
+          "h1": "市税の証明・料金",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kosodate/",
+          "status": 200,
+          "title": "子育て支援・児童福祉",
+          "h1": "子育て支援・児童福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kosodate/service/",
+          "status": 200,
+          "title": "子育て支援サービス",
+          "h1": "子育て支援サービス",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kosodate/kodomoen/",
+          "status": 200,
+          "title": "認定こども園等",
+          "h1": "認定こども園等",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kosodate/kodomoen/shinai/",
+          "status": 200,
+          "title": "認定こども園等（能美市内）",
+          "h1": "認定こども園等（能美市内）",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kosodate/kodomoen/mineika/",
+          "status": 200,
+          "title": "認定こども園の民営化",
+          "h1": "認定こども園の民営化",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kosodate/jidokan/",
+          "status": 200,
+          "title": "児童館",
+          "h1": "児童館",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kosodate/jidoclub/",
+          "status": 200,
+          "title": "放課後児童クラブ",
+          "h1": "放課後児童クラブ",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kosodate/hitorioya/",
+          "status": 200,
+          "title": "ひとり親家庭等支援サービス",
+          "h1": "ひとり親家庭等支援サービス",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "医療費助成",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kenko/",
+          "status": 200,
+          "title": "健康・保健",
+          "h1": "健康・保健",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kenko/boshi/",
+          "status": 200,
+          "title": "母と子の健康",
+          "h1": "母と子の健康",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kenko/yobo/",
+          "status": 200,
+          "title": "予防接種・感染症対策",
+          "h1": "予防接種・感染症対策",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kenko/kokoro/",
+          "status": 200,
+          "title": "こころの健康",
+          "h1": "こころの健康",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokuho/kyufu/",
+          "status": 200,
+          "title": "国民健康保険からの給付",
+          "h1": "国民健康保険からの給付",
+          "updatedAt": "",
+          "keywordHits": [
+            "一時金",
+            "減免"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokuho/zei/",
+          "status": 200,
+          "title": "国民健康保険税",
+          "h1": "国民健康保険税",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koreifukushi/",
+          "status": 200,
+          "title": "高齢者福祉",
+          "h1": "高齢者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koreifukushi/kaigos/",
+          "status": 200,
+          "title": "介護が必要な方への支援サービス",
+          "h1": "介護が必要な方への支援サービス",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koreifukushi/koreis/",
+          "status": 200,
+          "title": "高齢者の方が利用できるサービス",
+          "h1": "高齢者の方が利用できるサービス",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koreifukushi/koreisetais/",
+          "status": 200,
+          "title": "高齢者世帯の方への支援サービス",
+          "h1": "高齢者世帯の方への支援サービス",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koreifukushi/sodanlist/",
+          "status": 200,
+          "title": "相談窓口一覧",
+          "h1": "相談窓口一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/",
+          "status": 200,
+          "title": "介護保険",
+          "h1": "介護保険",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/jigyosha/",
+          "status": 200,
+          "title": "介護事業者向け情報",
+          "h1": "介護事業者向け情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/jigyoshoform/",
+          "status": 200,
+          "title": "指定事業所向け各種申請・届出等様式",
+          "h1": "指定事業所向け各種申請・届出等様式",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/jutakuyogu/",
+          "status": 200,
+          "title": "住宅改修・福祉用具購入について",
+          "h1": "住宅改修・福祉用具購入について",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/sodanlist/",
+          "status": 200,
+          "title": "相談窓口一覧",
+          "h1": "相談窓口一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/",
+          "status": 200,
+          "title": "障害者福祉",
+          "h1": "障害者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/iryohijosei/",
+          "status": 200,
+          "title": "医療費助成",
+          "h1": "医療費助成",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/waribiki/",
+          "status": 200,
+          "title": "各種割引・その他",
+          "h1": "各種割引・その他",
+          "updatedAt": "令和7年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/techo/",
+          "status": 200,
+          "title": "各種障害者手帳",
+          "h1": "各種障害者手帳",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/teate/",
+          "status": 200,
+          "title": "手当・年金",
+          "h1": "手当・年金",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/seikatsushien/",
+          "status": 200,
+          "title": "生活支援・社会参加促進サービス",
+          "h1": "生活支援・社会参加促進サービス",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/",
+          "status": 200,
+          "title": "手話動画",
+          "h1": "手話動画",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/r08/",
+          "status": 200,
+          "title": "手話動画 令和8年度",
+          "h1": "手話動画 令和8年度",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/r07/",
+          "status": 200,
+          "title": "手話動画 令和7年度",
+          "h1": "手話動画 令和7年度",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/r06/",
+          "status": 200,
+          "title": "手話動画 令和6年度",
+          "h1": "手話動画 令和6年度",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/r05/",
+          "status": 200,
+          "title": "手話動画 令和5年度",
+          "h1": "手話動画 令和5年度",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/r04/",
+          "status": 200,
+          "title": "手話動画 令和4年度",
+          "h1": "手話動画 令和4年度",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/r03/",
+          "status": 200,
+          "title": "手話動画 令和3年度",
+          "h1": "手話動画 令和3年度",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/r02/",
+          "status": 200,
+          "title": "手話動画 令和2年度",
+          "h1": "手話動画 令和2年度",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/r01/",
+          "status": 200,
+          "title": "手話動画 令和元年度",
+          "h1": "手話動画 令和元年度",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/seikatsuhogo/",
+          "status": 200,
+          "title": "生活保護・生活困窮・その他福祉",
+          "h1": "生活保護・生活困窮・その他福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/seikatsuhogo/seikatsuhogo/",
+          "status": 200,
+          "title": "生活保護",
+          "h1": "生活保護",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/seikatsuhogo/seikatsukonkyu/",
+          "status": 200,
+          "title": "生活困窮",
+          "h1": "生活困窮",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kankyo/",
+          "status": 200,
+          "title": "生活環境・防犯",
+          "h1": "生活環境・防犯",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kankyo/gesui/",
+          "status": 200,
+          "title": "下水道",
+          "h1": "下水道",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kankyo/josui/",
+          "status": 200,
+          "title": "上水道",
+          "h1": "上水道",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kankyo/kotsuanzen/",
+          "status": 200,
+          "title": "交通安全",
+          "h1": "交通安全",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/",
+          "status": 200,
+          "title": "住まい",
+          "h1": "住まい",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "空家",
+            "耐震",
+            "省エネ"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/barrierfree/",
+          "status": 200,
+          "title": "バリアフリー住宅の助成",
+          "h1": "バリアフリー住宅の助成",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/kagasanzai/",
+          "status": 200,
+          "title": "加賀地域産材利用の補助",
+          "h1": "加賀地域産材利用の補助",
+          "updatedAt": "",
+          "keywordHits": [
+            "奨励金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/nintei/",
+          "status": 200,
+          "title": "建築物の認定",
+          "h1": "建築物の認定",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/forplanner/",
+          "status": 200,
+          "title": "建築物を計画されているかたへ",
+          "h1": "建築物を計画されているかたへ",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/shieijutaku/",
+          "status": 200,
+          "title": "市営住宅への入居",
+          "h1": "市営住宅への入居",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/taishinkaishu/",
+          "status": 200,
+          "title": "耐震改修工事費の補助",
+          "h1": "耐震改修工事費の補助",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "耐震"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/akiyahojokin/",
+          "status": 200,
+          "title": "空き家関連補助金",
+          "h1": "空き家関連補助金",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "空き家"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/akiyabank/",
+          "status": 200,
+          "title": "空き家バンク",
+          "h1": "空き家バンク",
+          "updatedAt": "",
+          "keywordHits": [
+            "空き家"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/gakko/",
+          "status": 200,
+          "title": "学校教育",
+          "h1": "学校教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/gakko/shochu/",
+          "status": 200,
+          "title": "市立小中学校",
+          "h1": "市立小中学校",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学",
+            "耐震",
+            "通学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/gakko/hojokin/",
+          "status": 200,
+          "title": "就学援助制度等各種補助金",
+          "h1": "就学援助制度等各種補助金",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/gakko/kuiki/",
+          "status": 200,
+          "title": "通学区域・区域外就学",
+          "h1": "通学区域・区域外就学",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaigakushu/seishonen/",
+          "status": 200,
+          "title": "青少年健全育成",
+          "h1": "青少年健全育成",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kurashi/lifeevent/birth/",
+          "status": 200,
+          "title": "出生",
+          "h1": "出生",
+          "updatedAt": "",
+          "keywordHits": [
+            "一時金",
+            "医療費助成",
+            "子育て"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/",
+          "status": 200,
+          "title": "市役所・施設案内 - 能美市",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/shiyakusho/",
+          "status": 200,
+          "title": "市役所",
+          "h1": "市役所",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/jidokan/",
+          "status": 200,
+          "title": "児童館・子育て支援施設",
+          "h1": "児童館・子育て支援施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/jidokan/jidokan/",
+          "status": 200,
+          "title": "児童館",
+          "h1": "児童館",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/jidokan/jidoclub/",
+          "status": 200,
+          "title": "放課後児童クラブ",
+          "h1": "放課後児童クラブ",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/jidokan/shiencenter/",
+          "status": 200,
+          "title": "子育て支援センター",
+          "h1": "子育て支援センター",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/hoyo/",
+          "status": 200,
+          "title": "保養・研修・余暇施設",
+          "h1": "保養・研修・余暇施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/kanko/hint/",
+          "status": 200,
+          "title": "お役立ち情報",
+          "h1": "お役立ち情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/sangyo/",
+          "status": 200,
+          "title": "産業・移住定住 - 能美市",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "奨励金",
+            "移住",
+            "起業"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/sangyo/ijuteiju/",
+          "status": 200,
+          "title": "移住定住をお考えの方へ",
+          "h1": "移住定住をお考えの方へ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/sangyo/sangyo/",
+          "status": 200,
+          "title": "産業振興・企業誘致・支援",
+          "h1": "産業振興・企業誘致・支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/sangyo/sangyo/koyo/",
+          "status": 200,
+          "title": "労働政策（雇用・就職）",
+          "h1": "労働政策（雇用・就職）",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "事業者",
+            "福祉",
+            "奨学金"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "17211",
+          "municipalityName": "能美市",
+          "sourceUrl": "https://www.city.nomi.ishikawa.jp/sangyo/sangyo/yushi/",
+          "status": 200,
+          "title": "企業支援（各種融資・設備導入・新技術開発支援）",
+          "h1": "企業支援（各種融資・設備導入・新技術開発支援）",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "移住",
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.lg.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/robots.txt",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/robots.txt",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/docs/3246.html",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/docs/3246.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/organization/",
+          "status": 404,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/organization/",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/sitemap/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/sitemap/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/saigai/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/saigai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/info/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/info/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/busloca/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/busloca/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/kanko/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/kanko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/renkeiay/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/renkeiay/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/renkeini/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/renkeini/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/junkann/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/junkann/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/junkant/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/junkant/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/junkanik/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/junkanik/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/junkannt/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/junkannt/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/unchin/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/unchin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/bustei/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/bustei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/jikokuhyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/nomibus/jikokuhyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/info/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokyokotsu/info/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/gomi/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/gomi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/gomi/calendar/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/gomi/calendar/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/gomi/dashikata/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/gomi/dashikata/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/gomi/bicacenter/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/gomi/bicacenter/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/gomi/shiryo/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/gomi/shiryo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/gomi/info/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/gomi/info/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/iryokikan/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/iryokikan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/iryokikan/tobani/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/iryokikan/tobani/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/iryokikan/minamikagakc/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/iryokikan/minamikagakc/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/iryokikan/shiritsubyoin/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/iryokikan/shiritsubyoin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/iryokikan/aed/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/iryokikan/aed/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/iryokikan/ishikai/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/iryokikan/ishikai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/koseki/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koseki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/koseki/mynumber/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koseki/mynumber/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/koseki/inkan/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koseki/inkan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/koseki/conveni/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koseki/conveni/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/koseki/foreigner/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koseki/foreigner/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/koseki/shomei/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koseki/shomei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/koseki/koseki/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koseki/koseki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/koseki/uketsuke/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koseki/uketsuke/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/koseki/daichocard/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koseki/daichocard/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/koseki/jumintoroku/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koseki/jumintoroku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/tax/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/tax/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/tax/info/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/tax/info/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/tax/jumin/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/tax/jumin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/tax/jumin/zeisei/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/tax/jumin/zeisei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/tax/hojin/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/tax/hojin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/tax/keiji/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/tax/keiji/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/tax/kotei/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/tax/kotei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/tax/sodan/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/tax/sodan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/tax/nofu/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/tax/nofu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/tax/shomei/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/tax/shomei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/tax/taino/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/tax/taino/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/tax/jorei/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/tax/jorei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/tax/kobai/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/tax/kobai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kosodate/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kosodate/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kosodate/service/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kosodate/service/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kosodate/kodomoen/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kosodate/kodomoen/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kosodate/kodomoen/shinai/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kosodate/kodomoen/shinai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kosodate/kodomoen/mineika/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kosodate/kodomoen/mineika/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kosodate/jidokan/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kosodate/jidokan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kosodate/jidoclub/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kosodate/jidoclub/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kosodate/hitorioya/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kosodate/hitorioya/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kenko/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kenko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kenko/kenshin/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kenko/kenshin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kenko/kenkozukuri/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kenko/kenkozukuri/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kenko/boshi/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kenko/boshi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kenko/yobo/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kenko/yobo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kenko/kokoro/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kenko/kokoro/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kenko/ninchisho/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kenko/ninchisho/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/nenkin/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/nenkin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kokuho/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokuho/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kokuho/info/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokuho/info/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kokuho/info/generic/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokuho/info/generic/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kokuho/kyufu/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokuho/kyufu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kokuho/zaisei/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokuho/zaisei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kokuho/hihokenja/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokuho/hihokenja/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kokuho/zei/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokuho/zei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kokuho/tokuteishido/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kokuho/tokuteishido/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/koki/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/koki/info/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koki/info/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/koki/kyufu/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koki/kyufu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/koki/about/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koki/about/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/koreifukushi/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koreifukushi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/koreifukushi/kaigos/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koreifukushi/kaigos/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/koreifukushi/koreis/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koreifukushi/koreis/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/koreifukushi/koreisetais/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koreifukushi/koreisetais/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/koreifukushi/sodanlist/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koreifukushi/sodanlist/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/shurui/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/shurui/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/keikaku/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/keikaku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/jigyosha/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/jigyosha/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/seido/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/seido/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/jigyoshoform/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/jigyoshoform/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/jutakuyogu/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/jutakuyogu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/sodanlist/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/sodanlist/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/futankeigens/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/futankeigens/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/kaigoyobo/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/kaigoyobo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/zaitaku/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kaigo/zaitaku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/iryohijosei/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/iryohijosei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/waribiki/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/waribiki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/techo/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/techo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/teate/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/teate/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/seikatsushien/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/seikatsushien/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/r08/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/r08/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/r07/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/r07/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/r06/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/r06/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/r05/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/r05/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/r04/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/r04/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/r03/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/r03/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/r02/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/r02/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/r01/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaifukushi/shuwa/r01/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/seikatsuhogo/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/seikatsuhogo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/seikatsuhogo/seikatsuhogo/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/seikatsuhogo/seikatsuhogo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/seikatsuhogo/seikatsukonkyu/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/seikatsuhogo/seikatsukonkyu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kankyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kankyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kankyo/gesui/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kankyo/gesui/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kankyo/josui/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kankyo/josui/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kankyo/chikasui/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kankyo/chikasui/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kankyo/hachinosu/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kankyo/hachinosu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/kankyo/kotsuanzen/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/kankyo/kotsuanzen/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/barrierfree/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/barrierfree/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/kagasanzai/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/kagasanzai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/nintei/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/nintei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/forplanner/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/forplanner/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/shieijutaku/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/shieijutaku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/taishinkaishu/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/taishinkaishu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/shirasagi/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/shirasagi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/akiyahojokin/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/akiyahojokin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/akiyabank/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sumai/akiyabank/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/koen/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/koen/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/gakko/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/gakko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/gakko/ikuei/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/gakko/ikuei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/gakko/shochu/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/gakko/shochu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/gakko/hojokin/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/gakko/hojokin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/gakko/kuiki/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/gakko/kuiki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/shogaigakushu/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaigakushu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/shogaigakushu/d191/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaigakushu/d191/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/shogaigakushu/shogaigakushu/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaigakushu/shogaigakushu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/shogaigakushu/seishonen/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaigakushu/seishonen/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/shogaigakushu/kominkan/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/shogaigakushu/kominkan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/sports/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sports/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/sports/shogaisp/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sports/shogaisp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/sports/kyogisp/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sports/kyogisp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/sports/shisetsuseibi/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sports/shisetsuseibi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/sodan/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sodan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/sodan/sodan/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sodan/sodan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/sodan/jinken/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sodan/jinken/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/sc/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/sc/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/chokai/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/chokai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/chokai/hojolist/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/chokai/hojolist/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/chokai/wagamachi/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/chokai/wagamachi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/hint/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/hint/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/lifeevent/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/lifeevent/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/lifeevent/birth/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/lifeevent/birth/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/lifeevent/enrollment/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/lifeevent/enrollment/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/lifeevent/enrollment/shinai/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/lifeevent/enrollment/shinai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/lifeevent/work/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/lifeevent/work/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/lifeevent/hikkoshi/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/lifeevent/hikkoshi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/lifeevent/marriage/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/lifeevent/marriage/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/lifeevent/okuyami/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/lifeevent/okuyami/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kurashi/juminkokaisys/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kurashi/juminkokaisys/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/shisetsu/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/shisetsu/shiyakusho/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/shiyakusho/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/shisetsu/shiyakusho/shiyakusho/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/shiyakusho/shiyakusho/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/shisetsu/shiyakusho/kyoikuiinkai/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/shiyakusho/kyoikuiinkai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/shisetsu/shiyakusho/hospital/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/shiyakusho/hospital/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/shisetsu/library/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/library/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/shisetsu/museum/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/museum/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/shisetsu/bunka/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/bunka/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/shisetsu/bunka/tanto/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/bunka/tanto/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/shisetsu/bunka/gakushucenter/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/bunka/gakushucenter/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/shisetsu/gakko/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/gakko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/shisetsu/gakko/kodomoen/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/gakko/kodomoen/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/shisetsu/gakko/gakko/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/gakko/gakko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/shisetsu/jidokan/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/jidokan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/shisetsu/jidokan/jidokan/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/jidokan/jidokan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/shisetsu/jidokan/jidoclub/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/jidokan/jidoclub/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/shisetsu/jidokan/shiencenter/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/jidokan/shiencenter/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/shisetsu/kominkan/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/kominkan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/shisetsu/sports/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/sports/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/shisetsu/hospital/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/hospital/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/shisetsu/hoyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/hoyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/shisetsu/parking/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/parking/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/shisetsu/list/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/shisetsu/list/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kanko/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kanko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kanko/tour/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kanko/tour/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kanko/stay/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kanko/stay/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kanko/report/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kanko/report/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kanko/report/japanese/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kanko/report/japanese/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kanko/report/english/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kanko/report/english/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kanko/report/chinesek/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kanko/report/chinesek/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kanko/report/chineseh/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kanko/report/chineseh/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kanko/course/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kanko/course/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kanko/course/oyako/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kanko/course/oyako/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kanko/course/joshi/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kanko/course/joshi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kanko/course/otona/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kanko/course/otona/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kanko/course/hitori/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kanko/course/hitori/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kanko/course/gakusei/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kanko/course/gakusei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kanko/course/nomibus/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kanko/course/nomibus/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kanko/event/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kanko/event/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kanko/tokushu/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kanko/tokushu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kanko/hint/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kanko/hint/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kanko/jigyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kanko/jigyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kanko/tokusanhin/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kanko/tokusanhin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kanko/kanbutsu/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kanko/kanbutsu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/kanko/koryu/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/kanko/koryu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/sangyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/sangyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/sangyo/ijuteiju/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/sangyo/ijuteiju/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/sangyo/sangyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/sangyo/sangyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/sangyo/sangyo/koyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/sangyo/sangyo/koyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.nomi.ishikawa.jp/sangyo/sangyo/yushi/",
+          "status": 200,
+          "finalUrl": "https://www.city.nomi.ishikawa.jp/sangyo/sangyo/yushi/",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}
