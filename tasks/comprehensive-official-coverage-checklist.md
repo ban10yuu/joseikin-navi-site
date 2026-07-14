@@ -9916,3 +9916,12 @@
 - 保留: カテゴリ導線、トップ、広報、観光、ナビ一致、申請書単体、本文根拠が薄い候補は第2巡候補として保持
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass
 - 次回: 20446麻績村から再開
+
+### 長野県公式棚卸し012（20446麻績村・20448生坂村・20450山形村・20451朝日村・20452筑北村）
+- 実施日: 2026-07-15
+- 候補: 533件（スニペット533件、再スコア533件）
+- 採用: 38件（麻績村3件、生坂村10件、山形村11件、朝日村2件、筑北村12件）
+- 公式URL: 採用URL到達確認は tasks/discovery/nagano-official-coverage-012-url-status.txt に記録（32本すべてHTTP 200）
+- 保留: カテゴリ導線、トップ、ナビ、申請書単体、本文根拠が薄い候補は第2巡候補として保持
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass
+- 次回: 20481池田町から再開

@@ -1,0 +1,26 @@
+{
+  "batchId": "nagano-official-coverage-012",
+  "prefecture": "長野県",
+  "municipalities": [
+    "20446 麻績村",
+    "20448 生坂村",
+    "20450 山形村",
+    "20451 朝日村",
+    "20452 筑北村"
+  ],
+  "candidateCount": 533,
+  "snippetCount": 533,
+  "rescoredShortlist": "tasks/discovery/nagano-official-coverage-012-rescored-shortlist.csv",
+  "adoptedCount": 38,
+  "uniqueOfficialUrlCount": 32,
+  "countsByMunicipality": {
+    "麻績村": 3,
+    "生坂村": 10,
+    "山形村": 11,
+    "朝日村": 2,
+    "筑北村": 12
+  },
+  "heldCount": 495,
+  "excludedCount": 0,
+  "notes": "制度語、金額・上限、対象条件、申請・受付表現が本文で確認できる公式ページを優先採用。トップ、カテゴリ、ナビ、申請書単体、本文根拠不足候補は第2巡候補として保持。"
+}

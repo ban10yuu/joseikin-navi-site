@@ -1,0 +1,31 @@
+{
+  "batchId": "nagano-official-coverage-012",
+  "prefecture": "長野県",
+  "municipalities": [
+    {
+      "code": "20446",
+      "name": "麻績村",
+      "officialBaseUrl": "https://www.vill.omi.nagano.jp/"
+    },
+    {
+      "code": "20448",
+      "name": "生坂村",
+      "officialBaseUrl": "https://www.village.ikusaka.nagano.jp/"
+    },
+    {
+      "code": "20450",
+      "name": "山形村",
+      "officialBaseUrl": "https://www.vill.yamagata.nagano.jp/"
+    },
+    {
+      "code": "20451",
+      "name": "朝日村",
+      "officialBaseUrl": "https://www.vill.asahi.nagano.jp/"
+    },
+    {
+      "code": "20452",
+      "name": "筑北村",
+      "officialBaseUrl": "https://www.vill.chikuhoku.lg.jp/"
+    }
+  ]
+}
