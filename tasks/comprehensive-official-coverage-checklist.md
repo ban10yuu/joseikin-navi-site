@@ -8693,3 +8693,45 @@
   - 五泉市の省エネ設備補助、上越市の脱炭素経営支援補助金、佐渡市の児童手当・奨学金旧ページ・文化財旧年度ページ・ビジネスコンテスト等は、受付終了、全国制度、旧年度、金額不足又は制度分割確認候補として第2巡候補に残す。
 - 次:
   - 新潟県公式棚卸し006として、15225魚沼市から自治体コード順に確認する。
+
+### 2026-07-14 新潟県公式棚卸し006（15225魚沼市・15226南魚沼市・15227胎内市・15307聖籠町）
+
+- 作業範囲:
+  - 15225 魚沼市、15226 南魚沼市、15227 胎内市、15307 聖籠町の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 自治体別クロールで候補342件を取得し、候補が150件超のため `tasks/discovery/niigata-official-coverage-006-snippets.json` に公式本文の短い根拠341件を保存した。
+  - 公式ドメイン限定URLリード435件から詳細222件を `tasks/discovery/niigata-official-coverage-006-details.json` に取得した。胎内市は補助金一覧PDF内の公式リンクを追加抽出し、個別ページへ到達した。
+- 採用:
+  - 合計48件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 魚沼市20件: 節水機器設置事業補助金、特別障害給付金、精神障害者医療費助成事業、重度心身障害者医療費助成、特別障害者手当・障害児福祉手当・特別児童扶養手当、高齢者向け住宅整備事業補助金、団体旅行誘客促進助成金、英語検定料補助金、伝統文化芸能育成事業補助金、介護人材確保・業務改善・職場環境向上支援事業補助金、介護ロボット導入及び保守管理支援事業補助金、外国人介護人材受入支援事業補助金、障がい福祉事業所奨学金返還補助、障がい福祉事業所就職支援金、介護保険事業所等奨学金返還支援、妊婦のための支援給付、児童扶養手当、児童手当、県外妊婦一般健診助成、小規模事業者経営改善資金貸付利子補給金。
+  - 南魚沼市7件: 南魚沼市移住支援金、南魚沼市子育て世帯移住支援金、児童手当、児童扶養手当、結婚活動支援補助金、大学生等保護者生活支援給付金、U・Iターン促進住宅支援事業補助金。
+  - 胎内市16件: 自衛消防設備整備費補助金、移住定住促進住宅リフォーム補助金、移住・就業等支援事業、結婚新生活支援事業補助金、U・Iターン促進住宅支援事業補助金、防犯灯設置及び補修費補助金、木造住宅耐震診断助成事業、松くい虫被害木自主防除事業補助金、高齢者運転免許自主返納等支援事業、人間ドック等費用助成、後期高齢者医療人間ドック費用助成、熱中症対策エアコン購入費等助成事業、排水設備設置資金融資制度及び利子補給補助金、ブロック塀等安全対策支援事業、電気柵購入費補助、狩猟免許取得経費補助。
+  - 聖籠町5件: 結婚新生活支援補助金、児童手当、児童扶養手当、妊婦のための支援給付、物価高騰対策小規模事業者等支援事業補助金。
+- 生成ファイル:
+  - `tasks/discovery/niigata-official-coverage-006-municipalities.json`
+  - `tasks/discovery/niigata-official-coverage-006-15225-municipality.json`
+  - `tasks/discovery/niigata-official-coverage-006-15226-municipality.json`
+  - `tasks/discovery/niigata-official-coverage-006-15227-municipality.json`
+  - `tasks/discovery/niigata-official-coverage-006-15307-municipality.json`
+  - `tasks/discovery/niigata-official-coverage-006-15225-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-006-15226-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-006-15227-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-006-15307-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-006-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-006-snippets.json`
+  - `tasks/discovery/niigata-official-coverage-006-url-leads.json`
+  - `tasks/discovery/niigata-official-coverage-006-details.json`
+  - `tasks/discovery/niigata-official-coverage-006-adopted-urls.json`
+  - `tasks/discovery/niigata-official-coverage-006.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（006関連JSON、checkpoint）。
+  - 追加slug重複: pass（48件、`verified-local-misc-2026.ts` 内で各1件）。
+  - 公式URL到達: pass（48 primary official URLsすべてHTTP 200）。
+  - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 11810、officialLinkedActive 11690、manuallyVerifiedActive 11690、新潟県 localOfficial 340）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は新潟県15307聖籠町到達のみで全国完了扱いしない。
+  - 魚沼市の就学援助カテゴリ、若者県内就職促進奨学金返還支援事業、胎内市のコロナ利子補給、聖籠町の児童手当重複ページなどは、県制度・カテゴリ・受付終了・重複候補として第2巡候補に残す。
+- 次:
+  - 新潟県公式棚卸し007として、15342弥彦村から自治体コード順に確認する。

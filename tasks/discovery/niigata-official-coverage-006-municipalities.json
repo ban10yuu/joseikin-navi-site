@@ -1,0 +1,10 @@
+{
+  "batchId": "niigata-official-coverage-006",
+  "prefecture": "新潟県",
+  "municipalities": [
+    { "code": "15225", "name": "魚沼市", "officialBaseUrl": "https://www.city.uonuma.lg.jp/" },
+    { "code": "15226", "name": "南魚沼市", "officialBaseUrl": "https://www.city.minamiuonuma.niigata.jp/" },
+    { "code": "15227", "name": "胎内市", "officialBaseUrl": "https://www.city.tainai.niigata.jp/" },
+    { "code": "15307", "name": "聖籠町", "officialBaseUrl": "https://www.town.seiro.niigata.jp/" }
+  ]
+}
